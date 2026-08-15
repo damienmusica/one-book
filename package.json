@@ -2,7 +2,7 @@
   "name": "literary-planet",
   "version": "0.1.0",
   "private": true,
-  "description": "Literary Planet — a rotatable globe of 20th-century world literature. Booksphere-lineage side project of Noosphere (decision (86)).",
+  "description": "Literary Planet \u2014 a rotatable globe of 20th-century world literature. Booksphere-lineage side project of Noosphere (decision (86)).",
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
@@ -17,7 +17,8 @@
     "layout:full": "tsx scripts/generate-layout.ts --full",
     "report:coverage": "tsx scripts/coverage-report.ts",
     "qc:crosscheck-dates": "tsx scripts/crosscheck-dates.ts",
-    "qc:backfill-qids": "tsx scripts/backfill-qids.ts"
+    "qc:backfill-qids": "tsx scripts/backfill-qids.ts",
+    "terrain:plate": "tsx scripts/generate-terrain.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

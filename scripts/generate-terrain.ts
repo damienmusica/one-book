@@ -1,0 +1,221 @@
+// P0 terrain prototype (thesis v2 §⑦) — offline, deterministic, renderer-free.
+// Renders a double-hemisphere orthographic debug plate (SVG) from the frozen
+// affinity layout + §②-2 area weights; on --freeze, writes data/territory.v1.json.
+//
+//   npm run terrain:plate                    # writes docs/plates/p0-terrain.svg
+//   npm run terrain:plate -- --n 400         # coarser/finer raster
+//   npm run terrain:plate -- --R0 0.12 --tau 0.5 --warp 0.1
+//   npm run terrain:plate -- --freeze        # also freeze data/territory.v1.json
+
+import { mkdirSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import { assembleDataset } from "../src/data/assemble.ts";
+import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
+import { normalize } from "../src/lib/sphere.ts";
+import type { Vec3 } from "../src/lib/sphere.ts";
+import { COLORS, PERIOD_TINT } from "../src/theme.ts";
+import {
+  DEFAULT_PARAMS,
+  boundarySegments,
+  buildKernels,
+  computeWeights,
+  landAreas,
+  marchingSquares,
+  orthoBasis,
+  rasterizeHemisphere,
+  stitchSegments,
+  type AuthorKernel,
+  type TerrainParams
+} from "./lib/terrain.ts";
+
+function arg(name: string): string | undefined {
+  const idx = process.argv.indexOf(`--${name}`);
+  return idx >= 0 ? process.argv[idx + 1] : undefined;
+}
+
+const params: TerrainParams = {
+  ...DEFAULT_PARAMS,
+  R0: Number(arg("R0") ?? DEFAULT_PARAMS.R0),
+  tau: Number(arg("tau") ?? DEFAULT_PARAMS.tau),
+  warpAmp: Number(arg("warp") ?? DEFAULT_PARAMS.warpAmp),
+  warpFreq: Number(arg("freq") ?? DEFAULT_PARAMS.warpFreq)
+};
+const N = Number(arg("n") ?? 640);
+const FREEZE = process.argv.includes("--freeze");
+
+const { dataset, errors } = assembleDataset(loadRawCollections(), {});
+if (!dataset) {
+  console.error(errors.slice(0, 10).join("\n"));
+  process.exit(1);
+}
+
+const seeds = new Map<string, Vec3>();
+for (const [id, p] of Object.entries(dataset.positions.positions)) {
+  seeds.set(id, normalize(p));
+}
+const weights = computeWeights(dataset);
+const kernels = buildKernels(seeds, weights, params);
+const authorById = new Map(dataset.authors.map((a) => [a.id, a]));
+
+// front view: mass centroid of all seeds; back view: antipode
+let mx = 0, my = 0, mz = 0;
+for (const [id, p] of seeds) {
+  const w = weights.get(id) ?? 1;
+  mx += p[0] * w; my += p[1] * w; mz += p[2] * w;
+}
+const front = normalize([mx, my, mz]);
+const back: Vec3 = [-front[0], -front[1], -front[2]];
+
+console.log(`terrain P0 — seed ${params.seed}, R0 ${params.R0}, tau ${params.tau}, warp ${params.warpAmp}@${params.warpFreq}, grid ${N}`);
+
+const { shares, landFraction } = landAreas(kernels, params);
+console.log(`land fraction: ${(landFraction * 100).toFixed(1)}%  territories with land: ${shares.size}/100`);
+
+// gate ③ readout: does the area hierarchy follow the editorial tiers?
+const tierMean = (tier: string) => {
+  const ids = dataset.authors.filter((a) => a.tier === tier).map((a) => a.id);
+  const vals = ids.map((id) => shares.get(id) ?? 0);
+  return vals.reduce((s, v) => s + v, 0) / (vals.length || 1);
+};
+console.log(
+  `mean land share — anchor ${(tierMean("anchor") * 1e4).toFixed(2)}‱  major ${(tierMean("major") * 1e4).toFixed(2)}‱  ratio ${(tierMean("anchor") / (tierMean("major") || 1)).toFixed(2)}`
+);
+const landless = dataset.authors.filter((a) => !shares.has(a.id)).map((a) => a.id);
+if (landless.length > 0) console.log(`landless authors (${landless.length}): ${landless.slice(0, 8).join(", ")}${landless.length > 8 ? "…" : ""}`);
+
+// --- SVG plate ---------------------------------------------------------------
+
+const R = 340; // hemisphere disc radius in px
+const MARGIN = 46;
+const GAP = 70;
+const WIDTH = MARGIN * 2 + R * 4 + GAP;
+const HEIGHT = MARGIN * 2 + R * 2 + 56;
+const COAST = "#8e733f";
+
+function toPx(g: number, n: number, c: number, off: number): number {
+  return off + ((g / (n - 1)) * 2 - 1) * R + 0; // grid coord → [-R, R] around center handled by caller
+}
+
+function hemiSvg(forward: Vec3, cxPx: number, cyPx: number, label: string): string {
+  const grid = rasterizeHemisphere(forward, kernels, params, N);
+  const px = (p: [number, number]) =>
+    `${(cxPx + ((p[0] / (N - 1)) * 2 - 1) * R).toFixed(1)},${(cyPx + ((p[1] / (N - 1)) * 2 - 1) * R).toFixed(1)}`;
+
+  const pathOf = (lines: Array<Array<[number, number]>>, close: boolean) =>
+    lines
+      .filter((l) => l.length > 3)
+      .map((l) => "M" + l.map(px).join("L") + (close ? "Z" : ""))
+      .join("");
+
+  const coastLines = stitchSegments(marchingSquares(grid, params.tau));
+  const water1 = stitchSegments(marchingSquares(grid, params.tau * 0.72));
+  const water2 = stitchSegments(marchingSquares(grid, params.tau * 0.5));
+  const bounds = boundarySegments(grid, params.tau);
+
+  const landPath = pathOf(coastLines, true);
+  const boundPath = bounds
+    .map(([a, b]) => `M${px(a)}L${px(b)}`)
+    .join("");
+
+  // graticule: 30° circles + crosshair of the orthographic view — instrument
+  // chrome (thesis D1), NOT field contours. VAD P0 condition, resolved at code
+  // level: the only field iso-lines drawn anywhere are the coast (tau) and the
+  // two waterlines (0.72*tau, 0.5*tau); land satisfies F >= tau everywhere, so
+  // sub-tau waterline contours cannot mathematically enter land, and no
+  // height/relief layer exists. Nothing here leaks into P1 by accident — P1
+  // draws only baked coast/boundary geometry.
+  let grat = "";
+  for (let k = 1; k <= 2; k++) {
+    grat += `<circle cx="${cxPx}" cy="${cyPx}" r="${(R * Math.sin((k * 30 * Math.PI) / 180)).toFixed(1)}" fill="none" stroke="${COLORS.line}" stroke-opacity="0.35" stroke-width="0.7"/>`;
+  }
+  grat += `<line x1="${cxPx - R}" y1="${cyPx}" x2="${cxPx + R}" y2="${cyPx}" stroke="${COLORS.line}" stroke-opacity="0.35" stroke-width="0.7"/>`;
+  grat += `<line x1="${cxPx}" y1="${cyPx - R}" x2="${cxPx}" y2="${cyPx + R}" stroke="${COLORS.line}" stroke-opacity="0.35" stroke-width="0.7"/>`;
+
+  // capitals + labels for territories visible on this hemisphere
+  const { right, up } = orthoBasis(forward);
+  let capitals = "";
+  let labels = "";
+  const visible: Array<{ id: string; u: number; v: number; share: number }> = [];
+  for (const k of kernels) {
+    const d = k.seed[0] * forward[0] + k.seed[1] * forward[1] + k.seed[2] * forward[2];
+    if (d < 0.05) continue;
+    const u = k.seed[0] * right[0] + k.seed[1] * right[1] + k.seed[2] * right[2];
+    const v = k.seed[0] * up[0] + k.seed[1] * up[1] + k.seed[2] * up[2];
+    visible.push({ id: k.id, u, v, share: shares.get(k.id) ?? 0 });
+  }
+  for (const s of visible) {
+    const a = authorById.get(s.id);
+    if (!a) continue;
+    const x = cxPx + s.u * R;
+    const y = cyPx + s.v * R;
+    const tint = PERIOD_TINT[a.periods[0] ?? "early-modernism"];
+    const size = a.tier === "anchor" ? 5 : 3.2;
+    capitals += `<rect x="${(x - size / 2).toFixed(1)}" y="${(y - size / 2).toFixed(1)}" width="${size}" height="${size}" fill="${tint}" stroke="${COLORS.bg}" stroke-width="0.6" transform="rotate(45 ${x.toFixed(1)} ${y.toFixed(1)})"/>`;
+  }
+  const top = visible.sort((a, b) => b.share - a.share).slice(0, 14);
+  for (const s of top) {
+    const a = authorById.get(s.id);
+    if (!a) continue;
+    const x = cxPx + s.u * R;
+    const y = cyPx + s.v * R;
+    labels += `<text x="${x.toFixed(1)}" y="${(y - 7).toFixed(1)}" text-anchor="middle" font-family="Georgia, 'Nanum Myeongjo', serif" font-size="10.5" fill="${COLORS.textDim}">${a.names.ko}</text>`;
+  }
+
+  return `
+  <g>
+    <circle cx="${cxPx}" cy="${cyPx}" r="${R}" fill="${COLORS.surface}" stroke="${COLORS.lineAccent}" stroke-opacity="0.7" stroke-width="1.4"/>
+    ${grat}
+    <clipPath id="clip-${label}"><circle cx="${cxPx}" cy="${cyPx}" r="${R}"/></clipPath>
+    <g clip-path="url(#clip-${label})">
+      <path d="${pathOf(water2, false)}" fill="none" stroke="${COLORS.lineAccent}" stroke-opacity="0.15" stroke-width="0.8"/>
+      <path d="${pathOf(water1, false)}" fill="none" stroke="${COLORS.lineAccent}" stroke-opacity="0.3" stroke-width="0.8"/>
+      <path d="${landPath}" fill="${COLORS.surfaceRaised}" fill-rule="evenodd"/>
+      <path d="${boundPath}" stroke="${COLORS.line}" stroke-opacity="0.55" stroke-width="0.7" fill="none"/>
+      <path d="${pathOf(coastLines, false)}" fill="none" stroke="${COAST}" stroke-width="1.3"/>
+      ${capitals}
+      ${labels}
+    </g>
+    <text x="${cxPx}" y="${cyPx + R + 24}" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="12" fill="${COLORS.textFaint}" letter-spacing="0.15em">${label}</text>
+  </g>`;
+}
+
+const c1x = MARGIN + R;
+const c2x = MARGIN + R * 3 + GAP;
+const cy = MARGIN + R;
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
+  <rect width="${WIDTH}" height="${HEIGHT}" fill="${COLORS.bg}"/>
+  ${hemiSvg(front, c1x, cy, "hemisphaerium primum")}
+  ${hemiSvg(back, c2x, cy, "hemisphaerium alterum")}
+  <text x="${WIDTH / 2}" y="${HEIGHT - 14}" text-anchor="middle" font-family="Georgia, 'Nanum Myeongjo', serif" font-size="13" fill="${COLORS.textDim}" letter-spacing="0.22em">문학의 행성 · 지형 시험 인쇄 P0 — seed ${params.seed} · R0 ${params.R0} · τ ${params.tau} · warp ${params.warpAmp}/${params.warpFreq} · land ${(landFraction * 100).toFixed(1)}%</text>
+</svg>
+`;
+
+const platesDir = join(PKG_ROOT, "docs", "plates");
+mkdirSync(platesDir, { recursive: true });
+const out = join(platesDir, "p0-terrain.svg");
+writeFileSync(out, svg);
+console.log(`plate: ${out} (${(svg.length / 1024).toFixed(0)} KB)`);
+
+if (FREEZE) {
+  const territory = {
+    version: "1.0.0",
+    seed: params.seed,
+    generatedAt: new Date().toISOString().slice(0, 10),
+    params: {
+      R0: params.R0,
+      tau: params.tau,
+      warpAmp: params.warpAmp,
+      warpFreq: params.warpFreq,
+      warpOctaves: params.warpOctaves,
+      kappa: "ln2/(1-cos(R0*sqrt(W)))",
+      areaWeight: "tierBase(anchor 2.4, major 1.0, context 0.55) * (1 + 0.3 * degreeHat)"
+    },
+    landFraction: Number(landFraction.toFixed(4)),
+    weights: Object.fromEntries([...weights.entries()].sort().map(([k, v]) => [k, Number(v.toFixed(4))])),
+    areaShares: Object.fromEntries([...shares.entries()].sort().map(([k, v]) => [k, Number(v.toFixed(6))]))
+  };
+  const tOut = join(PKG_ROOT, "data", "territory.v1.json");
+  writeFileSync(tOut, JSON.stringify(territory, null, 2) + "\n");
+  console.log(`frozen: ${tOut}`);
+}

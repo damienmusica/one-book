@@ -147,6 +147,28 @@ export const tourSchema = z
   })
   .strict();
 
+export const territorySchema = z
+  .object({
+    version: z.string().min(1),
+    seed: z.number().int(),
+    generatedAt: z.string().min(1),
+    params: z
+      .object({
+        R0: z.number().positive(),
+        tau: z.number().positive(),
+        warpAmp: z.number().min(0),
+        warpFreq: z.number().positive(),
+        warpOctaves: z.number().int().positive(),
+        kappa: z.string(),
+        areaWeight: z.string()
+      })
+      .strict(),
+    landFraction: z.number().min(0).max(1),
+    weights: z.record(z.string().regex(AUTHOR_ID), z.number().positive()),
+    areaShares: z.record(z.string().regex(AUTHOR_ID), z.number().min(0))
+  })
+  .strict();
+
 export const positionsSchema = z
   .object({
     version: z.string().min(1),

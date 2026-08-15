@@ -8,6 +8,7 @@ import {
   toursFileSchema,
   positionsSchema,
   registrySchema,
+  territorySchema,
   authorTranslationsFileSchema,
   workTranslationsFileSchema,
   relationTranslationsFileSchema,
@@ -35,6 +36,8 @@ export interface RawCollections {
    * "en/tours.json") → parsed JSON
    */
   translationFiles?: Record<string, unknown>;
+  /** data/territory.v1.json (frozen terrain), when generated */
+  territory?: unknown;
 }
 
 export interface AssembleResult {
@@ -433,6 +436,26 @@ export function assembleDataset(
       cover("relation", new Set(pack.relations.map((x) => x.id)), relations.map((r) => r.id));
       cover("movement", new Set(pack.movements.map((x) => x.id)), movements.map((m) => m.id));
       cover("tour", new Set(pack.tours.map((x) => x.id)), tours.map((t) => t.id));
+    }
+  }
+
+  // --- frozen terrain (optional until generated) ----------------------------
+  if (raw.territory !== undefined && raw.territory !== null) {
+    const t = territorySchema.safeParse(raw.territory);
+    if (!t.success) {
+      errors.push(...zodIssues("territory.v1.json", t.error));
+    } else {
+      for (const id of Object.keys(t.data.weights)) {
+        if (!authorById.has(id)) errors.push(`territory.v1.json: unknown author in weights: ${id}`);
+      }
+      for (const id of Object.keys(t.data.areaShares)) {
+        if (!authorById.has(id))
+          errors.push(`territory.v1.json: unknown author in areaShares: ${id}`);
+      }
+      for (const a of authors) {
+        if (!(a.id in t.data.weights))
+          errors.push(`territory.v1.json: author missing from weights: ${a.id}`);
+      }
     }
   }
 

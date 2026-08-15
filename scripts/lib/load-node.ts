@@ -76,6 +76,7 @@ export function loadRawCollections(onlyBatch?: string, onlyRel?: string): RawCol
     }),
     registry: readJson("registry.json", []),
     // batch-scoped runs skip translations — coverage is a whole-dataset question
-    translationFiles: onlyBatch || onlyRel ? {} : readTranslationFiles()
+    translationFiles: onlyBatch || onlyRel ? {} : readTranslationFiles(),
+    territory: onlyBatch || onlyRel ? undefined : readJson("territory.v1.json", null)
   };
 }
