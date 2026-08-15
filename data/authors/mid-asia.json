@@ -1,0 +1,679 @@
+[
+  {
+    "id": "yasunari-kawabata",
+    "names": {
+      "ko": "가와바타 야스나리",
+      "original": "川端康成",
+      "aliases": [
+        "가와바타",
+        "Kawabata Yasunari"
+      ]
+    },
+    "birthYear": 1899,
+    "deathYear": 1972,
+    "activeRange": [
+      1924,
+      1968
+    ],
+    "anchorYear": 1948,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "오사카",
+        "lat": 34.6937,
+        "lon": 135.5023,
+        "role": "birth"
+      },
+      {
+        "label": "도쿄",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "role": "activity"
+      },
+      {
+        "label": "가마쿠라",
+        "lat": 35.3192,
+        "lon": 139.5466,
+        "role": "activity",
+        "primary": true,
+        "note": "1935년 이주해 사망할 때까지 산 곳으로, 전후 대표작 대부분이 이곳에서 쓰였다"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "new-sensationism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "1924년 잡지 『문예시대』를 창간해 신감각파의 중심에 섰고, 서구 아방가르드의 감각 실험을 짧은 일본어 문장에 옮겨 심었다. 이후 사건의 인과를 잘라내고 장면 사이에 여백을 두는 서술을 확립해, 온천장·다실 같은 닫힌 공간의 감각만으로 이야기를 진행시켰다. 1968년 일본어권 최초로 노벨문학상을 받았고, 수상 강연 「아름다운 일본의 나」에서 자기 작업을 중세 선(禪)과 와카의 계보에 접속시켰다. 이 자기규정은 이후 일본문학이 해외에서 읽히는 틀이 되었고, 오에 겐자부로가 1994년 강연에서 정면으로 되받는 대상이 되었다.",
+    "readingEntry": "yasunari-kawabata--izu-no-odoriko",
+    "readingEntryReason": "한 시간 남짓의 분량 안에 가와바타의 방법이 다 들어 있다. 감정을 진술하지 않고 날씨와 거리와 소리로만 옮기는 서술을 가장 적은 부담으로 확인할 수 있다.",
+    "readingOrder": [
+      "yasunari-kawabata--izu-no-odoriko",
+      "yasunari-kawabata--yukiguni",
+      "yasunari-kawabata--senbazuru",
+      "yasunari-kawabata--yama-no-oto",
+      "yasunari-kawabata--nemureru-bijo"
+    ],
+    "readingWarning": "만년작 『잠자는 미녀』부터 집으면 노년의 성애라는 소재가 앞서 보여, 장면 사이의 생략으로 서사를 미는 방법이 가려진다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 어휘도 평이하지만 장면과 장면 사이의 생략이 커서 인과를 독자가 메워야 한다. 다도·계절어·전통 예능의 어휘가 각주 없이 지나가는 대목도 많다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kawabata-nobel-lecture",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "osamu-dazai",
+    "names": {
+      "ko": "다자이 오사무",
+      "original": "太宰治",
+      "aliases": [
+        "쓰시마 슈지",
+        "津島修治",
+        "Dazai Osamu"
+      ]
+    },
+    "birthYear": 1909,
+    "deathYear": 1948,
+    "activeRange": [
+      1933,
+      1948
+    ],
+    "anchorYear": 1947,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "가나기 (아오모리현)",
+        "lat": 40.81,
+        "lon": 140.44,
+        "role": "birth"
+      },
+      {
+        "label": "미타카 (도쿄)",
+        "lat": 35.6836,
+        "lon": 139.5595,
+        "role": "activity",
+        "primary": true,
+        "note": "1939년부터 사망까지 살며 『사양』과 『인간 실격』을 쓴 거처"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "화자가 자신의 비루함을 먼저 고발해 독자의 판단을 선점하는 고백체를 일본어 산문에 정착시켰다. 자조와 응석이 구분되지 않는 이 목소리는 사소설의 자기 폭로를 희극적 반어로 바꿔놓았다. 『사양』은 몰락하는 화족 가문을 통해 패전 직후의 계급 해체를 기록해 '사양족'이라는 유행어를 낳았고, 『인간 실격』의 화자는 이후 일본 청년문학이 반복해 참조하는 인물 유형이 되었다.",
+    "readingEntry": "osamu-dazai--ningen-shikkaku",
+    "readingEntryReason": "짧은 장편 한 권 분량이고, 수기와 액자 화자라는 구성이 단순해 다자이의 고백체가 어떻게 작동하는지 한 번에 보인다.",
+    "readingOrder": [
+      "osamu-dazai--ningen-shikkaku",
+      "osamu-dazai--shayo",
+      "osamu-dazai--viyon-no-tsuma",
+      "osamu-dazai--hashire-merosu",
+      "osamu-dazai--bannen"
+    ],
+    "readingWarning": "「달려라 메로스」만 읽고 다자이를 곧은 우화 작가로 정리하거나, 첫 창작집 『만년』의 실험 단편들부터 들어가 초기 문체의 밀도에 막히는 두 경로가 흔하다.",
+    "difficulty": 2,
+    "difficultyReason": "문장이 구어에 가깝고 분량도 짧지만, 화자의 자기비하가 반어인지 고백인지 계속 흔들려 액면 그대로 읽으면 방향을 잃는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "yukio-mishima",
+    "names": {
+      "ko": "미시마 유키오",
+      "original": "三島由紀夫",
+      "aliases": [
+        "히라오카 기미타케",
+        "平岡公威",
+        "Mishima Yukio"
+      ]
+    },
+    "birthYear": 1925,
+    "deathYear": 1970,
+    "activeRange": [
+      1944,
+      1970
+    ],
+    "anchorYear": 1956,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "도쿄",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 집필·연극·정치 활동이 모두 이루어진 무대"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "tier": "major",
+    "importanceReason": "고전 일본어의 한자 어휘와 유럽 낭만주의의 관념을 한 문장에 겹쳐 쓰는 산문을 만들어, 미와 죽음을 논증하듯 전개하는 소설을 썼다. 노(能)의 곡목을 현대 회화극으로 옮긴 『근대 능악집』으로 전통 극형식을 동시대 무대에 접속시켰고, 4부작 『풍요의 바다』에서는 윤회를 구성 원리 자체로 삼아 20세기 일본 60년을 시대별 네 권으로 나눴다. 1970년 11월 25일 자위대 이치가야 주둔지에서 궐기를 호소한 뒤 할복으로 사망했고, 4부작 최종권 원고는 그날 아침 출판사에 넘겨졌다.",
+    "readingEntry": "yukio-mishima--kinkakuji",
+    "readingEntryReason": "실제 방화 사건이라는 뚜렷한 사건 축이 있어 관념이 서사를 이탈하지 않고, 단권 분량이며 미시마의 주제가 가장 압축되어 있다.",
+    "readingOrder": [
+      "yukio-mishima--kinkakuji",
+      "yukio-mishima--kamen-no-kokuhaku",
+      "yukio-mishima--kindai-nogakushu",
+      "yukio-mishima--hojo-no-umi"
+    ],
+    "readingWarning": "『풍요의 바다』부터 시작하면 환생이라는 설계가 4권에 걸쳐서야 드러나므로 1권만 읽고 멈추면 구조가 보이지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "수식이 길고 한자어 밀도가 높아 번역본에서도 문장이 무겁고, 관념의 논증이 사건보다 앞서 나가는 대목에서 속도가 급격히 떨어진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "kobo-abe",
+    "names": {
+      "ko": "아베 고보",
+      "original": "安部公房",
+      "aliases": [
+        "아베 기미후사",
+        "Abe Kobo",
+        "Kobo Abe"
+      ]
+    },
+    "birthYear": 1924,
+    "deathYear": 1993,
+    "activeRange": [
+      1947,
+      1991
+    ],
+    "anchorYear": 1962,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "도쿄",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 소설·희곡·연극 스튜디오 운영이 모두 이루어진 거점"
+      },
+      {
+        "label": "선양 (당시 펑톈)",
+        "lat": 41.8057,
+        "lon": 123.4315,
+        "role": "other"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "absurdism"
+    ],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "speculative": true,
+    "tier": "major",
+    "importanceReason": "전후 일본 소설에서 지역과 혈연에 뿌리내린 인물을 걷어내고, 이름과 신분이 지워진 익명의 도시인을 주인공으로 세웠다. 모래·가면·상자처럼 사물 하나를 설정으로 밀어붙여 서사 전체를 그 조건 아래 두는 구성을 반복했고, 이 방법이 카프카·베케트와 나란히 논의되는 근거가 되었다. 『제4간빙기』로 일본어 장편 SF의 초기 사례를 남겼고, 1973년 아베 고보 스튜디오를 만들어 배우 훈련과 희곡 상연을 직접 운영했다.",
+    "readingEntry": "kobo-abe--suna-no-onna",
+    "readingEntryReason": "모래 구덩이에 갇힌다는 설정 하나로 끝까지 밀고 가는 구조라 아베의 방법이 가장 선명하게 보이고, 단권 분량에 번역도 널리 나와 있다.",
+    "readingOrder": [
+      "kobo-abe--suna-no-onna",
+      "kobo-abe--tanin-no-kao",
+      "kobo-abe--dai-yon-kanpyoki",
+      "kobo-abe--hako-otoko"
+    ],
+    "readingWarning": "『상자 인간』으로 시작하면 화자가 여럿으로 갈라지고 누가 쓰는지 확정되지 않는 구성 때문에, 아베의 설정 실험을 혼란으로 오해하기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 건조하고 명료하지만 설정이 은유인지 사실인지 끝까지 확정되지 않고, 후기작은 기록·수기·주석이 겹쳐 서술 층위를 독자가 정리해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "kenzaburo-oe",
+    "names": {
+      "ko": "오에 겐자부로",
+      "original": "大江健三郎",
+      "aliases": [
+        "오에",
+        "Oe Kenzaburo"
+      ]
+    },
+    "birthYear": 1935,
+    "deathYear": 2023,
+    "activeRange": [
+      1957,
+      2013
+    ],
+    "anchorYear": 1967,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "오세 (에히메현, 시코쿠)",
+        "lat": 33.55,
+        "lon": 132.66,
+        "role": "birth"
+      },
+      {
+        "label": "도쿄",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "role": "activity",
+        "primary": true,
+        "note": "도쿄대 재학 중 등단한 뒤 60년 가까이 살며 집필한 거점 — 소설의 무대인 시코쿠 골짜기는 상상의 지형으로 남았다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "시코쿠 골짜기의 마을을 신화와 반란의 역사를 가진 소우주로 반복 축조해, 전후 일본의 정치사를 하나의 지형 위에서 되풀이해 서술했다. 장애를 안고 태어난 아들과의 공생을 소재가 아니라 서술의 조건으로 삼아 『개인적인 체험』 이후의 작업 전체를 그 관계 위에 세웠다. 『히로시마 노트』·『오키나와 노트』로 르포와 소설을 같은 문제의식 안에 두었고, 1994년 노벨문학상 수상 강연 「애매한 일본의 나」에서 가와바타의 1968년 강연을 제목부터 바꿔 인용하며 '아름다운 일본'이라는 자기규정을 반박했다.",
+    "readingEntry": "kenzaburo-oe--kojinteki-na-taiken",
+    "readingEntryReason": "단권 분량에 며칠이라는 짧은 시간 축을 쓰고, 오에의 이후 작업 전체가 딛고 선 관계가 여기서 시작되므로 입구로 가장 확실하다.",
+    "readingOrder": [
+      "kenzaburo-oe--kojinteki-na-taiken",
+      "kenzaburo-oe--shiiku",
+      "kenzaburo-oe--hiroshima-noto",
+      "kenzaburo-oe--man-en-gannen-no-futtoboru"
+    ],
+    "readingWarning": "『만연원년의 풋볼』이나 후기 3부작으로 시작하면 골짜기 마을의 신화와 봉기의 역사가 여러 작품에 걸쳐 축적된 전제라서, 처음 읽는 독자에게는 설명 없이 주어진 배경처럼 지나간다.",
+    "difficulty": 4,
+    "difficultyReason": "한 문장 안에 인용·괄호·전문 용어가 겹쳐 구문이 길고, 시코쿠 골짜기의 가공 신화와 전후 일본 정치사가 배경 지식으로 요구된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--oe-nobel-lecture",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "eileen-chang",
+    "names": {
+      "ko": "장아이링",
+      "original": "張愛玲",
+      "aliases": [
+        "아일린 창",
+        "Eileen Chang",
+        "Zhang Ailing",
+        "장애령"
+      ]
+    },
+    "birthYear": 1920,
+    "deathYear": 1995,
+    "activeRange": [
+      1943,
+      1994
+    ],
+    "anchorYear": 1944,
+    "gender": "female",
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "regions": [
+      "east-asia",
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "상하이",
+        "lat": 31.2304,
+        "lon": 121.4737,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 1943–45년에 대표작 대부분이 쓰이고 발표된 곳"
+      },
+      {
+        "label": "홍콩",
+        "lat": 22.3193,
+        "lon": 114.1694,
+        "role": "activity"
+      },
+      {
+        "label": "로스앤젤레스",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "일본 점령기 상하이에서 1943년부터 2년 남짓 사이에 「경성지련」·「금쇄기」를 포함한 대표작 대부분을 발표했다. 혁명과 계몽을 서사의 축으로 삼던 5·4 이후의 주류에서 벗어나, 혼담·재산·셋집 같은 가정 규모의 거래를 통해 식민지 도시의 계급을 서술했다. 인물의 속셈과 대화의 표면을 어긋나게 두는 반어에 색채·직물·소리에 밀착한 묘사를 결합했고, 1952년 상하이를 떠나 홍콩을 거쳐 1955년 미국으로 이주한 뒤에도 중국어와 영어로 같은 작업을 이어갔다. 1961년 샤즈칭의 『중국현대소설사』가 정전으로 편입한 뒤 타이완·홍콩에서 '장파(張派)'로 불리는 계보가 형성됐다.",
+    "readingEntry": "eileen-chang--qing-cheng-zhi-lian",
+    "readingEntryReason": "중편 분량이고 홍콩 함락이라는 뚜렷한 사건 축이 있어, 인물의 속셈과 대화가 어긋나는 장아이링의 반어를 가장 적은 배경 지식으로 따라갈 수 있다.",
+    "readingOrder": [
+      "eileen-chang--qing-cheng-zhi-lian",
+      "eileen-chang--jin-suo-ji",
+      "eileen-chang--se-jie",
+      "eileen-chang--liuyan",
+      "eileen-chang--yang-ge"
+    ],
+    "readingWarning": "『앙가』부터 읽으면 냉전기 홍콩에서 미국 공보원의 의뢰로 쓰인 정치적 맥락이 앞서 보여, 1943–45년 상하이 소설의 방법이 가려진다.",
+    "difficulty": 3,
+    "difficultyReason": "이미지가 촘촘한 문장 자체는 읽히지만, 인물의 속셈이 대화의 표면과 늘 어긋나 반어를 놓치면 통속 연애담으로 읽힌다. 1940년대 상하이·홍콩의 계급과 혼인 관행이 전제로 깔려 있다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--hsia-modern-chinese-fiction",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "saadat-hasan-manto",
+    "names": {
+      "ko": "사다트 하산 만토",
+      "original": "سعادت حسن منٹو",
+      "aliases": [
+        "만토",
+        "Saadat Hasan Manto",
+        "사아다트 하산 만토"
+      ]
+    },
+    "birthYear": 1912,
+    "deathYear": 1955,
+    "activeRange": [
+      1934,
+      1955
+    ],
+    "anchorYear": 1950,
+    "gender": "male",
+    "languages": [
+      "ur"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "locations": [
+      {
+        "label": "암리차르",
+        "lat": 31.634,
+        "lon": 74.8723,
+        "role": "other"
+      },
+      {
+        "label": "뭄바이 (봄베이)",
+        "lat": 19.076,
+        "lon": 72.8777,
+        "role": "activity"
+      },
+      {
+        "label": "라호르",
+        "lat": 31.5204,
+        "lon": 74.3587,
+        "role": "activity",
+        "primary": true,
+        "note": "1948년 분단으로 봄베이를 떠나 정착한 뒤 마지막 7년간 대표 단편 대부분을 쓴 곳이자 사망지"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "1947년 분단의 폭력을 통계나 정치 서사가 아니라 열 쪽 안팎의 단편이 감당할 수 있는 한 장면으로 기록했다. 「토바 텍 싱」은 정신병원 수용자를 종교별로 교환하는 행정 절차를 통해 국경 자체를 서술 대상으로 삼았고, 『검은 여백』의 짧은 단장들은 논평을 걷어내고 행위만 남겨 판단을 독자에게 넘겼다. 봄베이 영화계와 유곽을 무대로 한 초기 연작에서는 매춘부와 포주를 도덕적 예시가 아니라 노동하는 인물로 그렸고, 이 때문에 영국령 인도와 파키스탄 양쪽에서 외설 혐의로 여러 차례 법정에 섰다.",
+    "readingEntry": "saadat-hasan-manto--toba-tek-singh",
+    "readingEntryReason": "열 쪽 남짓 안에 분단이라는 사건과 만토의 방법이 모두 들어 있고, 정신병원의 국적 교환이라는 설정 하나만 이해하면 배경 지식 없이 읽힌다.",
+    "readingOrder": [
+      "saadat-hasan-manto--toba-tek-singh",
+      "saadat-hasan-manto--siyah-hashiye",
+      "saadat-hasan-manto--khol-do",
+      "saadat-hasan-manto--thanda-gosht",
+      "saadat-hasan-manto--chacha-sam-ke-naam-khutoot"
+    ],
+    "readingWarning": "분단 단편만 골라 읽으면 봄베이 시절의 유곽·영화판 연작이 빠져 만토가 분단 작가로만 축소된다.",
+    "difficulty": 2,
+    "difficultyReason": "문장이 짧고 사건이 명료하지만, 학살과 강간을 논평 없이 끊어내는 결말이 많아 판단의 부담이 독자에게 넘어온다. 펀자브의 지명과 공동체 명칭이 설명 없이 지나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--jalal-pity-of-partition",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "rk-narayan",
+    "names": {
+      "ko": "R. K. 나라얀",
+      "original": "R. K. Narayan",
+      "aliases": [
+        "나라얀",
+        "Rasipuram Krishnaswami Narayanaswami",
+        "라시푸람 크리슈나스와미 나라얀"
+      ]
+    },
+    "birthYear": 1906,
+    "deathYear": 2001,
+    "activeRange": [
+      1935,
+      1993
+    ],
+    "anchorYear": 1958,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "locations": [
+      {
+        "label": "첸나이 (마드라스)",
+        "lat": 13.0827,
+        "lon": 80.2707,
+        "role": "birth"
+      },
+      {
+        "label": "마이소르",
+        "lat": 12.2958,
+        "lon": 76.6394,
+        "role": "activity",
+        "primary": true,
+        "note": "성인기 대부분을 보내며 말구디 연작 대부분을 쓴 도시"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "1935년 『스와미와 친구들』에서 말구디라는 남인도 소도시를 만들어 이후 60년 가까이 같은 무대와 인물들을 이어 썼고, 인도 영어 소설이 제국을 설명하거나 반박하지 않고도 성립할 수 있음을 보였다. 영국식 문어체를 남인도 일상 대화의 리듬으로 낮춘 평이한 산문은 이후 인도 영어 소설의 한 표준이 되었다. 첫 소설의 출판은 그레이엄 그린이 영국 출판사를 주선해 성사됐고, 영어권 독자를 고려해 이름을 'R. K. Narayan'으로 줄인 것도 그린의 제안이었다.",
+    "readingEntry": "rk-narayan--the-guide",
+    "readingEntryReason": "단권 분량이고 현재와 회상을 번갈아 놓는 구성이 단순하며, 말구디 연작 중 국제적으로 가장 널리 읽혀 대표성이 높다.",
+    "readingOrder": [
+      "rk-narayan--the-guide",
+      "rk-narayan--swami-and-friends",
+      "rk-narayan--the-financial-expert",
+      "rk-narayan--the-english-teacher",
+      "rk-narayan--the-man-eater-of-malgudi"
+    ],
+    "readingWarning": "『라마야나』·『마하바라타』 산문 재화를 나라얀의 소설로 알고 먼저 집으면, 말구디 연작의 방법과 무관한 고전 축약본에서 시작하게 된다.",
+    "difficulty": 1,
+    "difficultyReason": "문장이 짧고 어휘가 평이하며 사건이 순서대로 진행되어 원문으로도 사전 없이 읽힌다. 남인도 카스트·친족 호칭이 설명 없이 지나가지만 줄거리를 따라가는 데는 지장이 없다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--narayan-my-days",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "park-kyung-ni",
+    "names": {
+      "ko": "박경리",
+      "original": "朴景利",
+      "aliases": [
+        "박금이",
+        "朴今伊",
+        "Park Kyongni"
+      ]
+    },
+    "birthYear": 1926,
+    "deathYear": 2008,
+    "activeRange": [
+      1955,
+      1994
+    ],
+    "anchorYear": 1980,
+    "gender": "female",
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "통영",
+        "lat": 34.8544,
+        "lon": 128.4331,
+        "role": "birth"
+      },
+      {
+        "label": "서울",
+        "lat": 37.5665,
+        "lon": 126.978,
+        "role": "activity"
+      },
+      {
+        "label": "원주",
+        "lat": 37.3422,
+        "lon": 127.9202,
+        "role": "activity",
+        "primary": true,
+        "note": "1980년 이주해 『토지』 후반부를 완성하고 만년을 보낸 집필 거점"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "1969년부터 1994년까지 25년에 걸쳐 5부작 『토지』를 완성해, 구한말 하동 평사리의 한 가문에서 시작한 이야기를 진주·간도·도쿄로 옮기며 식민지 시기 전체를 인물 계보로 서술했다. 여성 인물을 가문사의 관찰자가 아니라 토지와 자본을 소유하고 경영하는 주체로 배치해 대하소설의 관습적 시점을 바꿨다. 경상도·전라도 방언 대화와 무속·풍속의 어휘를 각주 없이 서사 언어로 끌어올렸고, 한 작가가 25년간 연재를 이어 완간한 이 규모는 한국 장편소설의 연재 관행 자체를 시험한 사례가 되었다.",
+    "readingEntry": "park-kyung-ni--kim-yakguk-ui-ttaldeul",
+    "readingEntryReason": "단권 분량에 통영이라는 뚜렷한 무대가 있고, 가계를 따라 인물의 운명이 어긋나는 박경리의 구성이 압축되어 있어 『토지』로 가는 예비 독서로 적합하다.",
+    "readingOrder": [
+      "park-kyung-ni--kim-yakguk-ui-ttaldeul",
+      "park-kyung-ni--bulsinsidae",
+      "park-kyung-ni--sijang-gwa-jeonjang",
+      "park-kyung-ni--toji"
+    ],
+    "readingWarning": "『토지』부터 시작하면 5부에 걸친 분량과 수백 명의 인물 계보 때문에 1부 중반에서 놓기 쉽다. 단권 장편으로 문체와 방언에 익숙해진 뒤 들어가는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 어렵지 않으나 경상도·전라도 방언 대화가 그대로 실리고, 『토지』는 구한말부터 해방까지의 사건과 인물 계보를 독자가 계속 붙들고 있어야 한다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--toji-serialization-record",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

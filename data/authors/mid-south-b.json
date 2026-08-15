@@ -1,0 +1,569 @@
+[
+  {
+    "id": "chinua-achebe",
+    "names": {
+      "ko": "치누아 아체베",
+      "original": "Chinua Achebe",
+      "aliases": [
+        "아체베",
+        "Achebe",
+        "Albert Chinualumogu Achebe"
+      ]
+    },
+    "birthYear": 1930,
+    "deathYear": 2013,
+    "activeRange": [
+      1958,
+      2012
+    ],
+    "anchorYear": 1964,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "sub-saharan-africa"
+    ],
+    "locations": [
+      {
+        "label": "오기디",
+        "lat": 6.15,
+        "lon": 6.81,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 이보 마을 연작이 세워진 지리적 원점"
+      },
+      {
+        "label": "라고스",
+        "lat": 6.5244,
+        "lon": 3.3792,
+        "role": "activity"
+      },
+      {
+        "label": "은수카",
+        "lat": 6.8567,
+        "lon": 7.3958,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "영어 문장 안에 이보어 속담과 구술의 리듬을 그대로 들여, 식민 이전 아프리카 사회를 바깥의 설명이 아니라 내부의 논리로 서술하는 산문을 만들었다. 『모든 것이 산산이 부서지다』는 공동체의 붕괴를 백인의 도착이 아니라 그 이전의 내부 균열에서부터 쌓아 올린 뒤, 마지막 두 문단을 식민 행정관의 보고서 문체로 넘겨 '누가 이 이야기의 화자인가'를 소설의 형식 문제로 만들었다. 콘래드 『암흑의 핵심』을 인종주의 텍스트로 읽은 1975년 강연은 서구 정전을 피식민자의 자리에서 다시 읽는 절차를 공개적으로 정식화했다. 아프리카 작가가 영어로 쓸 것인가라는 논쟁에서 그는 영어를 새 무게에 맞게 바꿔 쓰는 쪽을 대표했고, 응구기의 반대 입장과 함께 이 배치의 두 축을 이룬다.",
+    "readingEntry": "chinua-achebe--things-fall-apart",
+    "readingEntryReason": "200쪽 남짓한 분량 안에 이보 마을의 내부 질서와 그 붕괴, 그리고 마지막 장의 화자 교체까지 전부 들어 있어 아체베의 방법을 한 권으로 볼 수 있다.",
+    "readingOrder": [
+      "chinua-achebe--things-fall-apart",
+      "chinua-achebe--no-longer-at-ease",
+      "chinua-achebe--arrow-of-god",
+      "chinua-achebe--anthills-of-the-savannah"
+    ],
+    "readingWarning": "『사바나의 개미 언덕』부터 들어가면 네 화자가 번갈아 서술하는 구조와 나이지리아 군사정권사에 대한 사전 지식이 전제되어 중도 이탈하기 쉽다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 짧고 평이하며 분량도 부담이 없지만, 이보의 친족 호칭·의례 용어와 속담이 번역 없이 그대로 쓰여 세부의 함의가 각주에 의존한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--heinemann-african-writers-series",
+      "src--achebe-image-of-africa-lecture",
+      "src--achebe-african-writer-english-language",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "naguib-mahfouz",
+    "names": {
+      "ko": "나기브 마푸즈",
+      "original": "نجيب محفوظ",
+      "aliases": [
+        "나깁 마푸즈",
+        "나기브 마흐푸즈",
+        "Naguib Mahfouz"
+      ]
+    },
+    "birthYear": 1911,
+    "deathYear": 2006,
+    "activeRange": [
+      1939,
+      1988
+    ],
+    "anchorYear": 1957,
+    "gender": "male",
+    "languages": [
+      "ar"
+    ],
+    "regions": [
+      "middle-east-north-africa"
+    ],
+    "locations": [
+      {
+        "label": "카이로",
+        "lat": 30.0444,
+        "lon": 31.2357,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 거의 모든 작품의 무대 — 가말리야 구시가의 골목이 소설의 기본 단위다"
+      },
+      {
+        "label": "알렉산드리아",
+        "lat": 31.2001,
+        "lon": 29.9187,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "카이로의 한 가족이 3대에 걸쳐 지나온 시간을 1919년 혁명부터 2차 대전 이후까지 이어 붙여, 유럽 사실주의 장편의 구조를 아랍어 산문의 것으로 옮겼다. 3부작 이후에는 같은 도시를 내적 독백과 짧은 장면의 몽타주로 다시 써서, 아랍 소설이 사실주의 다음으로 갈 통로를 자기 손으로 열었다. 『우리 동네 아이들』은 종교사를 한 골목의 세대극으로 옮긴 알레고리 탓에 이집트에서 오래 단행본으로 나오지 못했고, 1988년 노벨문학상은 아랍어로 쓰인 문학에 처음 주어진 것이었다. 이 배치에서 그는 제국을 향해 되받아 쓰지 않은 쪽 — 식민 지배를 배경으로 밀어 두고 도시 내부의 시간과 믿음의 문제를 서사의 중심에 놓은 쪽 — 을 대표한다.",
+    "readingEntry": "naguib-mahfouz--zuqaq-al-midaqq",
+    "readingEntryReason": "단권으로 완결되고 한 골목의 인물들만으로 구성되어, 3부작의 분량 부담 없이 마푸즈가 도시를 다루는 방식을 확인할 수 있다.",
+    "readingOrder": [
+      "naguib-mahfouz--zuqaq-al-midaqq",
+      "naguib-mahfouz--bayn-al-qasrayn",
+      "naguib-mahfouz--qasr-al-shawq",
+      "naguib-mahfouz--al-sukkariyya",
+      "naguib-mahfouz--awlad-haratina"
+    ],
+    "readingWarning": "『우리 동네 아이들』부터 읽으면 인물들이 예언자들의 알레고리라는 층위를 놓쳐 밋밋한 동네 연대기로만 읽히기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 어렵지 않으나 3부작이 1,500쪽에 이르고 등장인물과 세대가 계속 늘어나며, 이집트 근대사의 정변이 배경 설명 없이 지나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--cambridge-history-arabic-literature",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "aime-cesaire",
+    "names": {
+      "ko": "에메 세제르",
+      "original": "Aimé Césaire",
+      "aliases": [
+        "세제르",
+        "Aime Cesaire",
+        "에메 세자르"
+      ]
+    },
+    "birthYear": 1913,
+    "deathYear": 2008,
+    "activeRange": [
+      1939,
+      1982
+    ],
+    "anchorYear": 1950,
+    "gender": "male",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "caribbean"
+    ],
+    "locations": [
+      {
+        "label": "바스푸앵트",
+        "lat": 14.87,
+        "lon": -61.12,
+        "role": "birth"
+      },
+      {
+        "label": "포르드프랑스",
+        "lat": 14.6042,
+        "lon": -61.0669,
+        "role": "activity",
+        "primary": true,
+        "note": "1945년부터 반세기 넘게 시장으로 있으면서 시와 희곡을 쓴 활동의 중심지"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "negritude",
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "poetry",
+      "drama",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "1939년의 장시 『귀향 수첩』에서 '네그리튀드'라는 말을 만들어, 식민지가 부과한 흑인이라는 규정을 거부가 아니라 선언의 자리로 뒤집었다. 초현실주의의 이미지 연쇄를 프랑스어 시행에 끌어들이되 그 폭발력을 카리브의 지리와 노예제의 역사에 묶어 두어, 아방가르드의 기법을 정치적 발화의 도구로 전환했다. 『식민주의에 대한 담론』은 식민 지배가 피지배자보다 지배자를 먼저 야만화한다는 논리로 유럽의 자기 이미지를 되받아쳤고, 그의 제자였던 파농을 비롯한 다음 세대의 출발점이 되었다. 셰익스피어 『템페스트』를 칼리반의 자리에서 다시 쓴 후기 희곡은 정전 다시 쓰기라는 절차를 무대의 형식으로 옮긴 사례다.",
+    "readingEntry": "aime-cesaire--discours-sur-le-colonialisme",
+    "readingEntryReason": "100쪽이 채 되지 않는 산문 논고이고 논지가 직선적이어서, 난해한 시로 들어가기 전에 세제르가 무엇과 싸우고 있는지를 먼저 확보할 수 있다.",
+    "readingOrder": [
+      "aime-cesaire--discours-sur-le-colonialisme",
+      "aime-cesaire--une-tempete",
+      "aime-cesaire--cahier-dun-retour-au-pays-natal",
+      "aime-cesaire--les-armes-miraculeuses"
+    ],
+    "readingWarning": "『기적의 무기』 같은 초현실주의 시집부터 시작하면 참조점 없는 이미지의 연쇄만 남아 세제르의 시가 무엇을 겨누는지 잡히지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "신조어와 폭발적인 이미지 연쇄가 통사를 계속 끊고, 카리브의 식물·지명·노예제 관련 고유명이 주석 없이는 해독되지 않는다. 산문 논고만 예외적으로 평이하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--presence-africaine",
+      "src--cesaire-discours-colonialisme",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "wole-soyinka",
+    "names": {
+      "ko": "월레 소잉카",
+      "original": "Wole Soyinka",
+      "aliases": [
+        "소잉카",
+        "Akinwande Oluwole Babatunde Soyinka"
+      ]
+    },
+    "birthYear": 1934,
+    "activeRange": [
+      1958,
+      2021
+    ],
+    "anchorYear": 1975,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "sub-saharan-africa"
+    ],
+    "locations": [
+      {
+        "label": "아베오쿠타",
+        "lat": 7.1475,
+        "lon": 3.3619,
+        "role": "birth"
+      },
+      {
+        "label": "이바단",
+        "lat": 7.3775,
+        "lon": 3.947,
+        "role": "activity",
+        "primary": true,
+        "note": "1960년 극단 '1960 마스크스'를 세우고 초기 희곡을 무대에 올린 활동의 중심지"
+      },
+      {
+        "label": "이페",
+        "lat": 7.4824,
+        "lon": 4.56,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "drama",
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "산 자와 죽은 자와 아직 태어나지 않은 자가 한 무대에 공존하는 요루바의 의례 시간을 영어 희곡의 형식 원리로 삼아, 유럽 연극의 무대에 다른 시제를 들여놓았다. 독립 기념 위촉작 『숲의 춤』을 축하 대신 경고로 써서, 신생 국가의 문학이 국가의 자기 서사와 갈라설 수 있음을 독립 첫해에 보여 주었다. 『죽음과 왕의 마부』는 식민 행정관의 개입을 사건의 원인이 아니라 의례를 중단시킨 사고로 배치해, 이 작품을 문화 충돌로 읽는 틀 자체를 거부했다. 1967년부터 2년 가까이 이어진 수감 중에 쓴 산문과 시는 아프리카 감옥 문학의 기준점이 되었고, 1986년 노벨문학상은 아프리카 작가에게 처음 주어진 것이었다.",
+    "readingEntry": "wole-soyinka--the-lion-and-the-jewel",
+    "readingEntryReason": "한 마을과 세 인물로 끝나는 짧은 희극이고 춤·노래·무언극이 대사와 교대하는 구성이 바로 보여, 소잉카의 무대 문법을 최소 분량으로 익힐 수 있다.",
+    "readingOrder": [
+      "wole-soyinka--the-lion-and-the-jewel",
+      "wole-soyinka--ake",
+      "wole-soyinka--death-and-the-kings-horseman",
+      "wole-soyinka--a-dance-of-the-forests"
+    ],
+    "readingWarning": "『숲의 춤』부터 읽으면 요루바 신들의 계보와 산 자·죽은 자가 뒤섞인 시간 구조 때문에 인물 관계부터 무너져 중도 포기하기 쉽다.",
+    "difficulty": 4,
+    "difficultyReason": "영어 시행 안에 요루바의 의례 용어와 노래가 번역 없이 들어오고, 희곡의 시간이 산 자의 세계와 죽은 자의 세계를 겹쳐 놓아 장면의 층위를 계속 재구성하며 읽어야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "ngugi-wa-thiongo",
+    "names": {
+      "ko": "응구기 와 시옹오",
+      "original": "Ngũgĩ wa Thiong'o",
+      "aliases": [
+        "제임스 응구기",
+        "James Ngugi",
+        "Ngugi wa Thiong'o",
+        "응구기 와 티옹오"
+      ]
+    },
+    "birthYear": 1938,
+    "deathYear": 2025,
+    "activeRange": [
+      1964,
+      2018
+    ],
+    "anchorYear": 1977,
+    "gender": "male",
+    "languages": [
+      "en",
+      "ki"
+    ],
+    "regions": [
+      "sub-saharan-africa",
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "리무루",
+        "lat": -1.1136,
+        "lon": 36.6425,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 카미리투 공동체 극장이 세워진 곳 — 언어 전환이 실제로 일어난 현장"
+      },
+      {
+        "label": "나이로비",
+        "lat": -1.2921,
+        "lon": 36.8219,
+        "role": "activity"
+      },
+      {
+        "label": "어바인",
+        "lat": 33.6846,
+        "lon": -117.8265,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "1977년 카미리투 마을에서 농민·노동자와 함께 기쿠유어 희곡을 무대에 올린 뒤 재판 없이 수감되었고, 그 감옥에서 화장지에 기쿠유어 장편을 써서 언어를 바꾸는 일을 선언이 아니라 실행으로 만들었다. 이후 소설과 희곡을 기쿠유어로 먼저 쓰고 영어는 번역의 자리로 내렸으며, 『정신의 탈식민화』에서 그 전환의 논거를 정리했다. 구술 연희의 형식 — 청중을 향한 직접 호명, 노래, 되풀이되는 우화 — 를 장편소설의 구조로 옮긴 것이 언어 전환의 문학적 결과였다. 아체베가 영어를 바꿔 쓰는 쪽을 대표한다면 그는 매체 자체를 바꾸는 쪽을 대표하며, 두 입장의 대립이 아프리카 문학의 언어 논쟁을 규정했다.",
+    "readingEntry": "ngugi-wa-thiongo--weep-not-child",
+    "readingEntryReason": "짧고 한 소년의 시점으로 일관되게 진행되어, 마우마우 봉기와 토지 상실이라는 이후 모든 작품의 배경을 부담 없이 확보할 수 있다.",
+    "readingOrder": [
+      "ngugi-wa-thiongo--weep-not-child",
+      "ngugi-wa-thiongo--a-grain-of-wheat",
+      "ngugi-wa-thiongo--decolonising-the-mind",
+      "ngugi-wa-thiongo--petals-of-blood",
+      "ngugi-wa-thiongo--caitaani-mutharaba-ini"
+    ],
+    "readingWarning": "『십자가 위의 악마』부터 들어가면 성경 패러디와 기쿠유 구전 연희의 형식을 소설의 미숙함으로 오해하기 쉽다. 언어 전환의 맥락을 먼저 잡는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "초기작은 평이하지만 중기 이후 네 인물의 과거가 교차하는 구조와 케냐 독립 전후의 정치사가 촘촘히 깔리고, 후기작은 구술 연희의 반복과 과장을 소설 문법으로 삼아 읽는 방식을 바꿔야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--ngugi-decolonising-the-mind",
+      "src--heinemann-african-writers-series",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "tayeb-salih",
+    "names": {
+      "ko": "타예브 살리흐",
+      "original": "الطيب صالح",
+      "aliases": [
+        "Tayeb Salih",
+        "al-Tayyib Salih",
+        "타이브 살리흐"
+      ]
+    },
+    "birthYear": 1929,
+    "deathYear": 2009,
+    "activeRange": [
+      1960,
+      1976
+    ],
+    "anchorYear": 1966,
+    "gender": "male",
+    "languages": [
+      "ar"
+    ],
+    "regions": [
+      "middle-east-north-africa"
+    ],
+    "locations": [
+      {
+        "label": "카르마콜(나일강 북부)",
+        "lat": 18.05,
+        "lon": 30.95,
+        "role": "birth"
+      },
+      {
+        "label": "카르툼",
+        "lat": 15.5007,
+        "lon": 32.5599,
+        "role": "activity",
+        "primary": true,
+        "note": "작품의 무대는 나일강 북부의 마을이지만 생애 대부분을 국외에서 보냈기에, 대표 좌표는 그의 소설이 속한 수단으로 잡았다"
+      },
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "『북으로 가는 이주의 계절』은 유럽으로 간 수단 청년의 이야기로 『암흑의 핵심』의 항로를 반대로 되돌려, 정복의 은유를 밀림이 아니라 런던의 침실과 법정으로 옮겨 놓았다. 사건을 직접 서술하지 않고 고향에 돌아온 이름 없는 화자가 남의 삶을 뒤늦게 재구성하는 액자 구조를 써서, 되받아 쓰기를 완결된 판결이 아니라 끝내 종결되지 않는 진술로 남겼다. 나일강 북부의 가상 마을 와드 하미드를 여러 작품에 되풀이해 등장시켜, 아랍어 소설에 한 지역의 시간이 축적되는 연작의 무대를 만들었다. 소설 창작 기간은 20년이 채 되지 않지만 그 안의 몇 권이 20세기 아랍 소설의 대표작으로 반복해 꼽힌다.",
+    "readingEntry": "tayeb-salih--mawsim-al-hijra-ila-al-shamal",
+    "readingEntryReason": "200쪽이 넘지 않는 분량 안에 액자 구조와 되받아 쓰기의 설계가 모두 들어 있고, 나머지 작품은 이 한 권을 읽은 뒤에야 와드 하미드 마을 안에서 자리를 잡는다.",
+    "readingOrder": [
+      "tayeb-salih--mawsim-al-hijra-ila-al-shamal",
+      "tayeb-salih--urs-al-zayn",
+      "tayeb-salih--dumat-wad-hamid",
+      "tayeb-salih--bandarshah"
+    ],
+    "readingWarning": "『반다르샤』부터 읽으면 두 부로 나뉜 미완의 구성과 세대가 뒤섞인 시간 때문에 마을의 계보부터 잡히지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "액자 화자가 시간을 계속 역행시키고 누가 말하는지가 문단 단위로 바뀌며, 원문의 코란·구전 인용이 번역에서는 주석에 의존한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-history-arabic-literature",
+      "src--heinemann-african-writers-series",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "derek-walcott",
+    "names": {
+      "ko": "데릭 월컷",
+      "original": "Derek Walcott",
+      "aliases": [
+        "월컷",
+        "데렉 월콧",
+        "Derek Alton Walcott"
+      ]
+    },
+    "birthYear": 1930,
+    "deathYear": 2017,
+    "activeRange": [
+      1962,
+      2010
+    ],
+    "anchorYear": 1990,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "caribbean",
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "캐스트리스",
+        "lat": 14.0101,
+        "lon": -60.9875,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 『오메로스』가 지형과 인물을 그대로 가져온 섬의 중심"
+      },
+      {
+        "label": "포트오브스페인",
+        "lat": 10.6549,
+        "lon": -61.5019,
+        "role": "activity"
+      },
+      {
+        "label": "보스턴",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "poetry",
+      "drama"
+    ],
+    "tier": "major",
+    "importanceReason": "카리브의 어부와 섬의 지형을 호메로스의 이름과 삼행연구의 운율 안에 놓아, 유럽 서사시의 형식을 빼앗긴 것이 아니라 물려받은 것으로 다루는 시를 썼다. 표준 영어와 세인트루시아의 크리올을 한 편의 시 안에서 교대시켜, 식민지의 언어 상황을 결핍이 아니라 이중의 음역으로 서술했다. 「역사의 뮤즈」에서 식민 지배에 대한 원한의 문학과 향수의 문학을 모두 거부하고 아담의 자리에서 새로 이름 붙이는 시를 주장해, 네그리튀드 계열의 회복 서사와 갈라섰다. 희곡에서는 트리니다드에 극단을 세우고 카니발과 구전 연희를 무대 언어로 끌어들여, 카리브 연극의 상연 조건 자체를 만들었다.",
+    "readingEntry": "derek-walcott--the-star-apple-kingdom",
+    "readingEntryReason": "수록작 「스쿠너선 플라이트」 한 편이 크리올 화자와 항해와 제국의 잔해라는 월컷의 재료를 짧은 분량에 압축해, 『오메로스』로 가는 문법을 미리 익히게 해 준다.",
+    "readingOrder": [
+      "derek-walcott--the-star-apple-kingdom",
+      "derek-walcott--dream-on-monkey-mountain",
+      "derek-walcott--another-life",
+      "derek-walcott--omeros"
+    ],
+    "readingWarning": "『오메로스』부터 시작하면 300쪽이 넘는 삼행연구에 호메로스·단테의 층위와 크리올 어휘가 한꺼번에 겹쳐 진입에 실패하기 쉽다.",
+    "difficulty": 4,
+    "difficultyReason": "운율과 각운을 지킨 시행이 길게 이어지고, 카리브의 지명·식물·크리올 어휘와 유럽 정전의 인유가 한 행 안에서 겹쳐 두 방향의 배경 지식을 함께 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--poetry-foundation",
+      "src--walcott-muse-of-history",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

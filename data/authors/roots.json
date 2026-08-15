@@ -1,0 +1,903 @@
+[
+  {
+    "id": "gustave-flaubert",
+    "names": {
+      "ko": "귀스타브 플로베르",
+      "original": "Gustave Flaubert",
+      "aliases": [
+        "플로베르",
+        "Flaubert"
+      ]
+    },
+    "birthYear": 1821,
+    "deathYear": 1880,
+    "activeRange": [
+      1856,
+      1880
+    ],
+    "anchorYear": 1869,
+    "gender": "male",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "루앙",
+        "lat": 49.44,
+        "lon": 1.1,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 인근 크루아세의 집에서 거의 모든 작품을 쓴 활동의 중심지"
+      },
+      {
+        "label": "파리",
+        "lat": 48.86,
+        "lon": 2.35,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "작가의 논평을 문장 밖으로 밀어내고, 자유간접화법으로 인물의 의식과 서술자의 목소리를 한 문장 안에 겹쳐 놓는 방법을 확립했다. 단어 하나를 고르기 위해 문장을 며칠씩 고쳐 쓰는 작업 규율은 소설을 즉흥적 이야기에서 설계된 산문으로 옮겨 놓았고, 20세기 소설이 시점의 통제를 기본기로 삼게 된 출발점이 되었다. 미완의 유작 『부바르와 페퀴셰』에서 상투어를 수집·나열한 시도는 통념 자체를 서술 대상으로 삼는 20세기의 반(反)소설을 앞당겼다.",
+    "readingEntry": "gustave-flaubert--madame-bovary",
+    "readingEntryReason": "대표작이면서 서사의 추진력이 강해 한 권으로 완결된 독서가 가능하고, 자유간접화법이 무엇인지 번역으로도 확인할 수 있는 유일한 입구다.",
+    "readingOrder": [
+      "gustave-flaubert--madame-bovary",
+      "gustave-flaubert--trois-contes",
+      "gustave-flaubert--l-education-sentimentale",
+      "gustave-flaubert--bouvard-et-pecuchet"
+    ],
+    "readingWarning": "『살람보』나 『부바르와 페퀴셰』로 시작하면 고고학적 세부와 학문 목록의 나열 때문에 플로베르를 지루한 자료 수집가로 오해하기 쉽다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 명료하고 사건도 따라가기 쉽지만, 작가가 판단을 말해주지 않기 때문에 인물의 어리석음과 서술자의 시선을 독자가 구별해내야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--flaubert-correspondance",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "leo-tolstoy",
+    "names": {
+      "ko": "레프 톨스토이",
+      "original": "Лев Толстой",
+      "aliases": [
+        "Leo Tolstoy",
+        "톨스토이",
+        "레프 니콜라예비치 톨스토이"
+      ]
+    },
+    "birthYear": 1828,
+    "deathYear": 1910,
+    "activeRange": [
+      1852,
+      1910
+    ],
+    "anchorYear": 1877,
+    "gender": "male",
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "locations": [
+      {
+        "label": "야스나야 폴랴나",
+        "lat": 54.07,
+        "lon": 37.52,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 평생의 집필지 — 툴라 남서쪽의 영지로, 후기의 교육·농지 실험도 여기서 이루어졌다"
+      },
+      {
+        "label": "모스크바",
+        "lat": 55.76,
+        "lon": 37.62,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "수백 명의 인물을 한 서사 안에 두면서도 각자의 의식을 안쪽에서 서술하는 방법으로, 개인의 내면과 역사의 규모를 한 소설에 공존시켰다. 죽음·결혼·전투를 관념이 아니라 감각의 연속으로 기록해, 이후 소설이 내면 묘사라고 부르게 될 기준을 만들었다. 후기의 예술론과 종교적 전향은 문학이 사회적 책임을 질 수 있는가라는 20세기의 물음을 미리 열어 놓았고, 간디를 비롯한 비폭력 사상의 계보에도 직접 연결된다.",
+    "readingEntry": "leo-tolstoy--smert-ivana-ilicha",
+    "readingEntryReason": "100쪽 남짓한 중편 하나에 톨스토이의 방법이 전부 들어 있어, 장편의 분량을 감당하기 전에 그 서술이 무엇을 하는지 확인할 수 있다.",
+    "readingOrder": [
+      "leo-tolstoy--smert-ivana-ilicha",
+      "leo-tolstoy--anna-karenina",
+      "leo-tolstoy--voyna-i-mir",
+      "leo-tolstoy--voskresenie"
+    ],
+    "readingWarning": "『전쟁과 평화』부터 시작하면 등장인물의 수와 중간중간 삽입된 역사철학 논설 때문에 중도에 놓기 쉽다. 중편에서 장편으로 가는 순서를 권한다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 심리 묘사는 투명해서 읽는 데 걸림돌이 없고, 난도의 실질은 분량과 러시아식 이름 표기의 혼란, 그리고 장편 중간의 논설 장(章)이다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--tolstoy-what-is-art",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "fyodor-dostoevsky",
+    "names": {
+      "ko": "표도르 도스토옙스키",
+      "original": "Фёдор Достоевский",
+      "aliases": [
+        "Fyodor Dostoevsky",
+        "도스토예프스키",
+        "표도르 미하일로비치 도스토옙스키"
+      ]
+    },
+    "birthYear": 1821,
+    "deathYear": 1881,
+    "activeRange": [
+      1846,
+      1881
+    ],
+    "anchorYear": 1869,
+    "gender": "male",
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "locations": [
+      {
+        "label": "모스크바",
+        "lat": 55.76,
+        "lon": 37.62,
+        "role": "birth"
+      },
+      {
+        "label": "상트페테르부르크",
+        "lat": 59.93,
+        "lon": 30.36,
+        "role": "activity",
+        "primary": true,
+        "note": "주요 장편 대부분의 무대이자 집필지 — 출생지인 모스크바보다 작품의 지리가 여기에 묶여 있다"
+      },
+      {
+        "label": "옴스크",
+        "lat": 54.99,
+        "lon": 73.37,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "인물마다 자기 논리를 끝까지 밀고 나가게 두고 작가가 판정하지 않는 서술 구조를 소설에 도입했다. 후에 바흐친이 다성성이라 이름 붙인 이 구조 덕분에 사상 논쟁이 곧 서사가 되는 소설이 가능해졌다. 자기 이익조차 배반하는 과잉 자의식의 1인칭 화자는 20세기 실존주의 소설과 부조리 문학이 반복해 사용한 원형이 되었고, 살인·자살·신앙 상실을 관념의 실험으로 다루는 방식은 사상소설이라는 갈래 자체를 성립시켰다.",
+    "readingEntry": "fyodor-dostoevsky--prestuplenie-i-nakazanie",
+    "readingEntryReason": "살인과 추적이라는 추리소설의 골격이 독서를 끌고 가기 때문에, 사상 논쟁에 익숙하지 않아도 끝까지 갈 수 있는 유일한 장편이다.",
+    "readingOrder": [
+      "fyodor-dostoevsky--prestuplenie-i-nakazanie",
+      "fyodor-dostoevsky--zapiski-iz-podpolya",
+      "fyodor-dostoevsky--idiot",
+      "fyodor-dostoevsky--besy",
+      "fyodor-dostoevsky--bratya-karamazovy"
+    ],
+    "readingWarning": "『카라마조프 형제』나 『악령』으로 시작하면 인물의 러시아식 삼중 호칭과 초반 100쪽의 사상 논쟁 밀도 때문에 이야기가 시작되기 전에 포기하기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 빠르게 읽히지만 인물들이 길게 쏟아내는 논쟁이 서사를 자주 멈춰 세우고, 19세기 러시아의 종교·정치 논쟁을 배경 지식으로 요구하는 대목이 많다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--dostoevsky-writers-diary",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "anton-chekhov",
+    "names": {
+      "ko": "안톤 체호프",
+      "original": "Антон Чехов",
+      "aliases": [
+        "Anton Chekhov",
+        "체홉",
+        "안톤 파블로비치 체호프"
+      ]
+    },
+    "birthYear": 1860,
+    "deathYear": 1904,
+    "activeRange": [
+      1880,
+      1904
+    ],
+    "anchorYear": 1899,
+    "gender": "male",
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "locations": [
+      {
+        "label": "타간로크",
+        "lat": 47.24,
+        "lon": 38.9,
+        "role": "birth"
+      },
+      {
+        "label": "모스크바",
+        "lat": 55.76,
+        "lon": 37.62,
+        "role": "activity",
+        "primary": true,
+        "note": "의학 수학과 등단, 예술극장과의 협업이 모두 이루어진 활동의 중심지"
+      },
+      {
+        "label": "얄타",
+        "lat": 44.5,
+        "lon": 34.17,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots",
+      "early-modernism"
+    ],
+    "movements": [
+      "realism",
+      "modern-drama"
+    ],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "tier": "anchor",
+    "importanceReason": "사건의 해결과 교훈을 서사에서 걷어내고, 인물이 자기 삶을 설명하지 못한 채 대화가 어긋나는 상태 자체를 작품의 형식으로 만들었다. 단편에서는 결말의 반전 대신 인식의 미세한 이동으로 끝내는 구조를 확립해 20세기 단편소설의 기본형을 제시했다. 희곡에서는 무대 위의 행동보다 말해지지 않는 것에 무게를 실어, 스타니슬랍스키 이후의 연기술과 20세기 사실주의 연극의 전제를 만들었다.",
+    "readingEntry": "anton-chekhov--dama-s-sobachkoy",
+    "readingEntryReason": "20쪽 남짓한 단편 하나에 체호프의 방법 전체 — 설명 없는 서술과 해결되지 않는 결말 — 가 들어 있어 입구로 가장 확실하다.",
+    "readingOrder": [
+      "anton-chekhov--dama-s-sobachkoy",
+      "anton-chekhov--palata-nomer-6",
+      "anton-chekhov--chayka",
+      "anton-chekhov--tri-sestry",
+      "anton-chekhov--vishnevyy-sad"
+    ],
+    "readingWarning": "초기 유머 잡지에 실린 수백 편의 짧은 소품부터 순서대로 읽으면 그가 무엇을 바꾸었는지 보이지 않는다. 1888년 이후의 작품에서 시작하는 편이 낫다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 짧고 어휘도 평이하지만 아무것도 설명해주지 않기 때문에, 생략된 부분을 독자가 메우지 않으면 아무 일도 일어나지 않는 이야기처럼 읽힌다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--chekhov-letters",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "henrik-ibsen",
+    "names": {
+      "ko": "헨리크 입센",
+      "original": "Henrik Ibsen",
+      "aliases": [
+        "입센",
+        "Ibsen",
+        "헨리크 요한 입센"
+      ]
+    },
+    "birthYear": 1828,
+    "deathYear": 1906,
+    "activeRange": [
+      1850,
+      1899
+    ],
+    "anchorYear": 1881,
+    "gender": "male",
+    "languages": [
+      "no"
+    ],
+    "regions": [
+      "nordic"
+    ],
+    "locations": [
+      {
+        "label": "크리스티아니아 (오슬로)",
+        "lat": 59.91,
+        "lon": 10.75,
+        "role": "activity",
+        "primary": true,
+        "note": "1864–1891년 이탈리아·독일에서 자발적 망명 생활을 했지만 모든 희곡의 언어와 무대와 수신자는 노르웨이였다"
+      },
+      {
+        "label": "로마",
+        "lat": 41.9,
+        "lon": 12.5,
+        "role": "exile"
+      },
+      {
+        "label": "뮌헨",
+        "lat": 48.14,
+        "lon": 11.58,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [
+      "realism",
+      "modern-drama"
+    ],
+    "genres": [
+      "drama"
+    ],
+    "tier": "anchor",
+    "importanceReason": "응접실의 산문 대화만으로 사회 제도와 개인의 거짓말을 심문하는 극을 만들었고, 감춰진 과거가 현재를 무너뜨리는 소급적 플롯을 근대극의 기본 구조로 확립했다. 『인형의 집』의 마지막 퇴장은 유럽 연극이 결말에서 도덕적 화해를 제공하던 관습을 끝냈다. 조이스가 그의 희곡을 원어로 읽으려고 노르웨이어를 배웠을 만큼, 20세기 초의 작가들에게 그는 과거의 대가가 아니라 형식의 동시대인이었다.",
+    "readingEntry": "henrik-ibsen--et-dukkehjem",
+    "readingEntryReason": "사흘간의 사건을 3막에 담은 짧은 희곡이고, 마지막 장면 하나가 근대극이 무엇을 끝냈는지 바로 보여준다.",
+    "readingOrder": [
+      "henrik-ibsen--et-dukkehjem",
+      "henrik-ibsen--gengangere",
+      "henrik-ibsen--hedda-gabler",
+      "henrik-ibsen--vildanden",
+      "henrik-ibsen--peer-gynt"
+    ],
+    "readingWarning": "『페르 귄트』로 시작하면 운문 민담극의 산만한 구조 탓에 입센의 근대극이 무엇인지 오히려 흐려진다. 산문 사실주의 희곡을 먼저 읽는 편이 낫다.",
+    "difficulty": 2,
+    "difficultyReason": "희곡이라 분량이 짧고 대사가 명료하지만, 인물의 진짜 동기가 대사 아래에 감춰져 있어 지문만 훑으면 사건의 무게를 놓친다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--ibsen-letters-speeches",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "henry-james",
+    "names": {
+      "ko": "헨리 제임스",
+      "original": "Henry James",
+      "aliases": [
+        "제임스",
+        "Henry James Jr."
+      ]
+    },
+    "birthYear": 1843,
+    "deathYear": 1916,
+    "activeRange": [
+      1875,
+      1916
+    ],
+    "anchorYear": 1898,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america",
+      "britain-ireland"
+    ],
+    "locations": [
+      {
+        "label": "뉴욕",
+        "lat": 40.71,
+        "lon": -74.01,
+        "role": "birth"
+      },
+      {
+        "label": "런던",
+        "lat": 51.51,
+        "lon": -0.13,
+        "role": "activity",
+        "primary": true,
+        "note": "1876년 이후 평생의 거처이자 집필지 — 1915년 영국으로 귀화했다"
+      },
+      {
+        "label": "라이",
+        "lat": 50.95,
+        "lon": 0.73,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots",
+      "early-modernism"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "서술의 자리를 전지적 화자에서 한 인물의 중심 의식으로 옮기고, 사건을 그 의식이 감지하는 만큼만 제시하는 시점 통제를 소설의 기술로 정식화했다. 뉴욕판 서문에서 시점·구성·극화를 이론으로 정리해, 20세기 소설론과 창작 교육이 지금도 쓰는 어휘를 제공했다. 판단을 지연시키고 유보하는 후기의 문장은 의식의 흐름 서술이 등장하기 직전의 마지막 단계이며, 미국인이 유럽에서 겪는 문화 충돌을 소설의 항구적 주제로 만든 것도 그의 몫이다.",
+    "readingEntry": "henry-james--daisy-miller",
+    "readingEntryReason": "100쪽이 안 되는 초기 중편이라 후기의 난해한 문체를 만나기 전에 그의 주제와 시점 운용을 확인할 수 있다.",
+    "readingOrder": [
+      "henry-james--daisy-miller",
+      "henry-james--the-turn-of-the-screw",
+      "henry-james--the-portrait-of-a-lady",
+      "henry-james--the-art-of-fiction",
+      "henry-james--the-ambassadors"
+    ],
+    "readingWarning": "『대사들』이나 『황금 잔』 같은 후기 소설로 시작하면 한 문장이 반 페이지를 넘고 핵심어가 계속 유예되는 만년의 문체 때문에 거의 반드시 실패한다.",
+    "difficulty": 4,
+    "difficultyReason": "초기작은 평이하지만 후기 3부작에서 종속절이 겹겹이 쌓이고 사건이 인물의 추측으로만 전달되어, 문장 단위로 다시 읽지 않으면 무슨 일이 있었는지 확정되지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--james-ny-edition-prefaces",
+      "src--library-of-america",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "joseph-conrad",
+    "names": {
+      "ko": "조지프 콘래드",
+      "original": "Joseph Conrad",
+      "aliases": [
+        "Józef Teodor Konrad Korzeniowski",
+        "유제프 테오도르 콘라트 코제니오프스키",
+        "콘래드"
+      ]
+    },
+    "birthYear": 1857,
+    "deathYear": 1924,
+    "activeRange": [
+      1895,
+      1923
+    ],
+    "anchorYear": 1904,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "central-europe",
+      "britain-ireland"
+    ],
+    "locations": [
+      {
+        "label": "베르디치우",
+        "lat": 49.9,
+        "lon": 28.6,
+        "role": "birth"
+      },
+      {
+        "label": "런던",
+        "lat": 51.51,
+        "lon": -0.13,
+        "role": "activity",
+        "primary": true,
+        "note": "영국 상선대 복무를 마친 뒤 정착해 전 작품을 영어로 쓴 곳 — 출생지는 러시아 제국 치하의 우크라이나였다"
+      },
+      {
+        "label": "크라쿠프",
+        "lat": 50.06,
+        "lon": 19.95,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots",
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "화자가 사건을 다 알지 못한 채 전달하는 액자 서술과, 독자가 사후에야 무슨 일이 있었는지 알게 되는 지연된 해독을 소설의 표준 장치로 만들었다. 『노스트로모』에서 연대기를 흩뜨려 국가와 자본의 역사를 조각난 시간으로 서술한 방식은 포크너 이후의 20세기 소설이 반복해 쓰게 된다. 제국의 사업을 그 내부에서 서술하면서 그 언어의 공허를 드러낸 『암흑의 핵심』은 탈식민 문학이 되받아 쓰는 대상이자 출발점이 되었고, 폴란드 태생의 세 번째 언어로 영어 산문을 새로 조율한 사례이기도 하다.",
+    "readingEntry": "joseph-conrad--heart-of-darkness",
+    "readingEntryReason": "중편 분량 안에 액자 서술과 지연된 해독이라는 콘래드의 두 장치가 모두 작동하고, 20세기 문학이 이 작품과 벌인 논쟁까지 함께 따라갈 수 있다.",
+    "readingOrder": [
+      "joseph-conrad--heart-of-darkness",
+      "joseph-conrad--the-secret-agent",
+      "joseph-conrad--lord-jim",
+      "joseph-conrad--under-western-eyes",
+      "joseph-conrad--nostromo"
+    ],
+    "readingWarning": "『노스트로모』로 시작하면 뒤섞인 시간 순서와 교체되는 화자 때문에 첫 200쪽에서 누가 무엇을 하는지조차 잡히지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "형용사가 겹치는 밀도 높은 문장에 더해, 사건이 여러 화자를 거쳐 시간 순서를 벗어난 채 도착하기 때문에 독자가 연대기를 스스로 재구성해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--conrad-a-personal-record",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "machado-de-assis",
+    "names": {
+      "ko": "마샤두 지 아시스",
+      "original": "Machado de Assis",
+      "aliases": [
+        "Joaquim Maria Machado de Assis",
+        "마샤두 데 아시스",
+        "마차도 데 아시스"
+      ]
+    },
+    "birthYear": 1839,
+    "deathYear": 1908,
+    "activeRange": [
+      1864,
+      1908
+    ],
+    "anchorYear": 1891,
+    "gender": "male",
+    "languages": [
+      "pt"
+    ],
+    "regions": [
+      "latin-america"
+    ],
+    "locations": [
+      {
+        "label": "리우데자네이루",
+        "lat": -22.91,
+        "lon": -43.17,
+        "role": "birth",
+        "primary": true,
+        "note": "출생부터 사망까지 거의 떠나지 않은 도시이자 모든 소설의 무대"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "이미 죽은 화자가 독자를 불러 세우고 자기 생애를 짧은 장으로 흩어 놓는 『브라스 쿠바스의 사후 회고록』으로, 사실주의가 정점이던 1881년에 서술의 신뢰성 자체를 농담거리로 만들었다. 『동 카스무후』는 아내의 배신 여부를 끝내 판정하지 않고 판결을 독자에게 떠넘기는 구조를 취해, 신뢰할 수 없는 화자를 소설의 설계 원리로 세웠다. 제국 변방의 리우데자네이루에서 유럽 모더니즘보다 수십 년 앞서 나온 이 장치들은 20세기 후반에야 세계 문학의 목록에 들어왔고, 자유민의 손자로 태어난 그가 노예제 사회의 위선을 다룬 방식도 함께 재발견되었다.",
+    "readingEntry": "machado-de-assis--memorias-postumas-de-bras-cubas",
+    "readingEntryReason": "장 하나가 한두 쪽에 불과해 진입이 쉽고, 첫 장부터 죽은 화자가 말을 걸기 때문에 그의 방법이 무엇인지 즉시 드러난다.",
+    "readingOrder": [
+      "machado-de-assis--memorias-postumas-de-bras-cubas",
+      "machado-de-assis--o-alienista",
+      "machado-de-assis--dom-casmurro",
+      "machado-de-assis--quincas-borba"
+    ],
+    "readingWarning": "1872년 이전의 낭만주의 시기 작품부터 읽으면 그를 평범한 지역 작가로 오해하게 된다. 1881년 이후의 소설에서 시작해야 한다.",
+    "difficulty": 2,
+    "difficultyReason": "짧은 장과 구어체 서술 덕분에 문장은 쉽게 읽히지만, 화자의 진술을 곧이곧대로 믿으면 작품의 절반을 놓치기 때문에 의심하며 읽는 태도가 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--abl-machado",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "charles-baudelaire",
+    "names": {
+      "ko": "샤를 보들레르",
+      "original": "Charles Baudelaire",
+      "aliases": [
+        "Charles Pierre Baudelaire",
+        "보들레르"
+      ]
+    },
+    "birthYear": 1821,
+    "deathYear": 1867,
+    "activeRange": [
+      1845,
+      1866
+    ],
+    "anchorYear": 1857,
+    "gender": "male",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "파리",
+        "lat": 48.86,
+        "lon": 2.35,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 그의 시가 소재로 삼은 도시 자체"
+      },
+      {
+        "label": "브뤼셀",
+        "lat": 50.85,
+        "lon": 4.35,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [
+      "symbolism"
+    ],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "정형시의 규칙을 버리지 않은 채 도시의 추함·권태·군중을 시의 정당한 소재로 만들었고, 『파리의 우울』에서는 운율 밖의 산문시를 하나의 장르로 정착시켰다. 사물 뒤의 관념을 설명하지 않고 감각의 대응으로 환기하는 방법은 말라르메와 랭보를 거쳐 상징주의가 되었으며, 20세기 시의 공통 문법으로 남았다. 『현대 생활의 화가』에서 제시한 모더니티 개념 — 일시적인 것에서 영원한 것을 건져내는 태도 — 은 예술이 자기 시대의 표면을 다루어도 된다는 허가였다.",
+    "readingEntry": "charles-baudelaire--le-spleen-de-paris",
+    "readingEntryReason": "산문으로 쓰인 50편의 짧은 시라 번역에서 잃는 것이 가장 적고, 한 편이 두세 쪽이어서 순서 없이 아무 데서나 시작할 수 있다.",
+    "readingOrder": [
+      "charles-baudelaire--le-spleen-de-paris",
+      "charles-baudelaire--les-fleurs-du-mal",
+      "charles-baudelaire--le-peintre-de-la-vie-moderne",
+      "charles-baudelaire--les-paradis-artificiels"
+    ],
+    "readingWarning": "『악의 꽃』을 처음부터 통독하려 하면 정형시의 운율이 번역에서 사라진 자리에 알레고리만 남아 시집 전체가 단조롭게 느껴지기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "어휘 자체는 어렵지 않지만 알레고리의 지시 대상이 19세기 파리의 구체적 사물과 사건이어서, 주석 없이 읽으면 무엇을 가리키는지 놓치는 대목이 많다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "walt-whitman",
+    "names": {
+      "ko": "월트 휘트먼",
+      "original": "Walt Whitman",
+      "aliases": [
+        "휘트먼",
+        "Walter Whitman"
+      ]
+    },
+    "birthYear": 1819,
+    "deathYear": 1892,
+    "activeRange": [
+      1855,
+      1892
+    ],
+    "anchorYear": 1865,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "브루클린",
+        "lat": 40.68,
+        "lon": -73.94,
+        "role": "activity",
+        "primary": true,
+        "note": "『풀잎』 초판을 직접 조판해 자비 출간한 도시 — 출생지인 롱아일랜드 웨스트힐스보다 활동의 중심이다"
+      },
+      {
+        "label": "워싱턴 D.C.",
+        "lat": 38.91,
+        "lon": -77.04,
+        "role": "activity"
+      },
+      {
+        "label": "캠던",
+        "lat": 39.93,
+        "lon": -75.12,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "각운과 정형 운율 대신 호흡의 길이로 행을 끊는 자유시를 영어에 정착시켰고, 목록의 반복만으로 한 편의 시가 국가 전체를 담는 규모를 만들었다. 노동·신체·성·일상의 사물을 시어에서 배제하지 않음으로써 시의 어휘에 걸려 있던 계급적 제한을 걷어냈다. 1855년 초판 이후 죽을 때까지 같은 책을 증보하고 재배열한 방식은 완결된 작품이 아니라 평생 자라는 텍스트라는 관념을 남겼고, 20세기 미국시 대부분이 그의 계승이나 반발로 자기 위치를 정했다.",
+    "readingEntry": "walt-whitman--leaves-of-grass",
+    "readingEntryReason": "1855년 초판은 열두 편, 95쪽 분량으로 후기 판본보다 훨씬 짧으면서도 자유시와 목록이라는 그의 발명이 이미 완성되어 있다.",
+    "readingOrder": [
+      "walt-whitman--leaves-of-grass",
+      "walt-whitman--drum-taps",
+      "walt-whitman--specimen-days",
+      "walt-whitman--democratic-vistas"
+    ],
+    "readingWarning": "1891–92년 임종판의 두께로 시작하면 40년치 증보가 뒤섞인 배열 때문에 반복과 목록에 먼저 지친다. 초판 또는 초판 기반 선집을 권한다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 어휘는 평이하지만 같은 구조의 행이 길게 이어지는 목록 형식이라, 산문을 읽듯 눈으로만 좇으면 리듬이 살지 않고 지루해진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--whitman-1855-preface",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "emily-dickinson",
+    "names": {
+      "ko": "에밀리 디킨슨",
+      "original": "Emily Dickinson",
+      "aliases": [
+        "Emily Elizabeth Dickinson",
+        "디킨슨"
+      ]
+    },
+    "birthYear": 1830,
+    "deathYear": 1886,
+    "activeRange": [
+      1858,
+      1886
+    ],
+    "anchorYear": 1863,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "애머스트",
+        "lat": 42.37,
+        "lon": -72.52,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 평생의 거처 — 후반생에는 집 밖으로 거의 나가지 않았고 시 전부가 여기서 쓰였다"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "tier": "major",
+    "importanceReason": "찬송가의 짧은 운율 안에서 대시로 문장을 끊고 문법의 연결 고리를 생략하는 방식으로, 열 행 남짓한 시에 인식의 급전을 담는 형식을 만들었다. 죽음·의식·믿음의 붕괴를 추상어가 아니라 가정의 사물과 신체 감각으로 서술해, 20세기 시가 사용할 압축의 기술을 앞서 완성했다. 생전에 발표한 것은 익명의 열 편 남짓이고 1,700편이 넘는 시를 손수 실로 묶은 원고 뭉치로 남겼기 때문에, 출판 제도 바깥에서 만들어진 정전이라는 예외적 사례가 되었다.",
+    "readingEntry": "emily-dickinson--poems-1890",
+    "readingEntryReason": "그의 시가 세상에 처음 나온 형태이자 115편이 한 권으로 완결되어 전체 지형을 볼 수 있다. 다만 국내 번역 선집은 대개 20세기 학술판을 저본으로 삼으므로 그쪽을 고르는 편이 낫다.",
+    "readingOrder": [
+      "emily-dickinson--poems-1890",
+      "emily-dickinson--poems-second-series",
+      "emily-dickinson--poems-third-series",
+      "emily-dickinson--letters-of-emily-dickinson"
+    ],
+    "readingWarning": "1890년대 초판 계열을 그대로 옮긴 번역으로 읽으면 편집자들이 정리해 붙인 구두점과 제목을 원문으로 오해하게 된다. 대시와 대문자를 살린 학술판을 저본으로 한 번역을 고르라.",
+    "difficulty": 4,
+    "difficultyReason": "한 편이 짧은 대신 대시와 생략으로 문법의 연결이 빠져 있고 대명사의 지시 대상이 명시되지 않아, 행과 행 사이의 논리를 독자가 매번 다시 세워야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--poets-org",
+      "src--dickinson-fascicles",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "friedrich-nietzsche",
+    "names": {
+      "ko": "프리드리히 니체",
+      "original": "Friedrich Nietzsche",
+      "aliases": [
+        "니체",
+        "Friedrich Wilhelm Nietzsche"
+      ]
+    },
+    "birthYear": 1844,
+    "deathYear": 1900,
+    "activeRange": [
+      1872,
+      1888
+    ],
+    "anchorYear": 1885,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "locations": [
+      {
+        "label": "바젤",
+        "lat": 47.56,
+        "lon": 7.59,
+        "role": "activity"
+      },
+      {
+        "label": "실스마리아",
+        "lat": 46.43,
+        "lon": 9.77,
+        "role": "activity",
+        "primary": true,
+        "note": "1881년 이후 여름마다 머물며 주저 대부분을 구상하고 집필한 엥가딘의 마을 — 바젤 교수직을 그만둔 뒤로 고정 거처가 없었다"
+      },
+      {
+        "label": "토리노",
+        "lat": 45.07,
+        "lon": 7.69,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots"
+    ],
+    "movements": [],
+    "genres": [
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "철학의 논증을 아포리즘과 시적 산문으로 옮겨 써서, 체계가 아니라 문체로 사유하는 산문의 모형을 남겼다. 『차라투스트라는 이렇게 말했다』는 성서의 문체를 빌린 서사시적 산문이라는 잡종 형식으로, 철학서가 문학 작품으로 읽히는 경로를 열었다. 도덕과 진리를 주어진 사실이 아니라 역사적으로 만들어진 것으로 서술하는 계보학적 방법은 20세기 작가들에게 서술의 대상 자체를 바꾸는 도구가 되었고, 토마스 만과 유진 오닐처럼 그를 직접 자기 전제로 밝힌 작가들부터 실존주의와 부조리 문학까지 그 출발점에 그가 있다.",
+    "readingEntry": "friedrich-nietzsche--zur-genealogie-der-moral",
+    "readingEntryReason": "세 편의 논문이 서로 이어지며 하나의 논증을 끝까지 수행하기 때문에, 아포리즘 사이의 공백을 독자가 메우지 않아도 그가 무엇을 주장하는지 확인할 수 있다.",
+    "readingOrder": [
+      "friedrich-nietzsche--zur-genealogie-der-moral",
+      "friedrich-nietzsche--jenseits-von-gut-und-boese",
+      "friedrich-nietzsche--die-froehliche-wissenschaft",
+      "friedrich-nietzsche--die-geburt-der-tragoedie",
+      "friedrich-nietzsche--also-sprach-zarathustra"
+    ],
+    "readingWarning": "『차라투스트라는 이렇게 말했다』로 시작하는 경로가 가장 흔하지만, 우화와 인유가 앞선 저작의 논증을 전제하고 있어 문장은 읽히는데 어떤 주장인지는 남지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "아포리즘 하나하나는 짧고 문장도 화려해 쉽게 읽히지만 한 권의 논증이 아포리즘들의 배열에 있어서, 문장 단위의 이해와 책 단위의 이해가 어긋난다. 누이가 사후에 편집한 유고 편집물이 그의 저작처럼 유통되어 온 사정도 걸림돌이다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nietzsche-colli-montinari",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

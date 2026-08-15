@@ -1,0 +1,442 @@
+[
+  {
+    "id": "marcel-proust--du-cote-de-chez-swann",
+    "authorId": "marcel-proust",
+    "titleKo": "스완네 집 쪽으로",
+    "titleOriginal": "Du côté de chez Swann",
+    "year": 1913,
+    "genre": "fiction",
+    "significance": "연작의 1권. 마들렌을 적신 홍차 한 모금에서 콩브레 전체가 되살아나는 장면으로 비자발적 기억이라는 이 작품의 작동 원리를 처음 제시한다. 출판사들에 거절당해 자비로 냈다.",
+    "sourceIds": ["src--britannica", "src--pleiade"]
+  },
+  {
+    "id": "marcel-proust--a-l-ombre-des-jeunes-filles-en-fleurs",
+    "authorId": "marcel-proust",
+    "titleKo": "꽃핀 소녀들의 그늘에서",
+    "titleOriginal": "À l'ombre des jeunes filles en fleurs",
+    "year": 1919,
+    "genre": "fiction",
+    "significance": "발베크 해변에서 알베르틴 무리를 만나는 2권. 공쿠르상을 받으며 프루스트를 무명의 사교계 인사에서 당대의 소설가로 옮겨 놓았다.",
+    "sourceIds": ["src--britannica", "src--pleiade"]
+  },
+  {
+    "id": "marcel-proust--le-cote-de-guermantes",
+    "authorId": "marcel-proust",
+    "titleKo": "게르망트 쪽",
+    "titleOriginal": "Le Côté de Guermantes",
+    "year": 1920,
+    "genre": "fiction",
+    "significance": "화자가 귀족 사교계에 진입하는 3권. 동경하던 이름들이 가까이서 보면 진부한 사람들로 바뀌는 과정을 통해 연작 전체의 환멸 구조를 세운다.",
+    "sourceIds": ["src--britannica", "src--pleiade"]
+  },
+  {
+    "id": "marcel-proust--sodome-et-gomorrhe",
+    "authorId": "marcel-proust",
+    "titleKo": "소돔과 고모라",
+    "titleOriginal": "Sodome et Gomorrhe",
+    "year": 1921,
+    "genre": "fiction",
+    "significance": "동성애를 은폐된 스캔들이 아니라 사회 전체를 가로지르는 구조로 서술한 4권. 20세기 초 프랑스 소설이 이 주제를 정면으로 다룬 드문 사례다.",
+    "sourceIds": ["src--britannica", "src--pleiade"]
+  },
+  {
+    "id": "marcel-proust--le-temps-retrouve",
+    "authorId": "marcel-proust",
+    "titleKo": "되찾은 시간",
+    "titleOriginal": "Le Temps retrouvé",
+    "year": 1927,
+    "genre": "fiction",
+    "significance": "사후 출간된 마지막 권. 늙어 버린 인물들의 마지막 파티에서 화자가 이 책을 쓰기로 결심하며, 연작의 끝이 그 시작으로 이어지는 원환을 닫는다.",
+    "sourceIds": ["src--britannica", "src--pleiade"]
+  },
+  {
+    "id": "marcel-proust--contre-sainte-beuve",
+    "authorId": "marcel-proust",
+    "titleKo": "생트뵈브에 반하여",
+    "titleOriginal": "Contre Sainte-Beuve",
+    "year": 1954,
+    "genre": "essay-criticism",
+    "significance": "사후 원고에서 편집된 비평. 작품을 작가의 생애로 설명하는 방법을 반박하며, 책을 쓰는 자아는 사교계의 자아와 다른 사람이라는 명제를 세운다. 『잃어버린 시간을 찾아서』의 이론적 예고편에 해당한다.",
+    "sourceIds": ["src--pleiade"]
+  },
+  {
+    "id": "franz-kafka--das-urteil",
+    "authorId": "franz-kafka",
+    "titleKo": "선고",
+    "titleOriginal": "Das Urteil",
+    "year": 1913,
+    "genre": "fiction",
+    "significance": "1912년 하룻밤 사이에 쓴 단편. 아버지가 아들에게 익사형을 선고하고 아들이 그대로 따르는 결말로, 이유 없는 판결에 복종하는 카프카적 상황이 처음 완성된 형태로 나타난다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "franz-kafka--die-verwandlung",
+    "authorId": "franz-kafka",
+    "titleKo": "변신",
+    "titleOriginal": "Die Verwandlung",
+    "year": 1915,
+    "genre": "fiction",
+    "significance": "한 문장의 변신 선언으로 시작해 가족과 노동의 일상이 괴물성을 흡수하는 과정을 기록한다. 20세기 단편의 가장 유명한 첫 문장이 된 작품.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "franz-kafka--in-der-strafkolonie",
+    "authorId": "franz-kafka",
+    "titleKo": "유형지에서",
+    "titleOriginal": "In der Strafkolonie",
+    "year": 1919,
+    "genre": "fiction",
+    "significance": "판결문을 죄수의 몸에 새기는 처형 기계를 장교가 설명서 읽듯 소개하는 단편. 관료제의 언어와 신체의 고통을 같은 문체로 붙여 놓았다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "franz-kafka--der-process",
+    "authorId": "franz-kafka",
+    "titleKo": "소송",
+    "titleOriginal": "Der Process",
+    "year": 1925,
+    "genre": "fiction",
+    "significance": "사후 출간. 죄목을 끝내 알려 주지 않는 법정에 기소된 은행원의 1년을 따라가며, 절차만 있고 내용이 없는 심급 구조를 서사로 구현했다. 카프카가 소각을 유언했으나 막스 브로트가 어긋난 순서의 미완 원고를 편집해 냈다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "franz-kafka--das-schloss",
+    "authorId": "franz-kafka",
+    "titleKo": "성",
+    "titleOriginal": "Das Schloss",
+    "year": 1926,
+    "genre": "fiction",
+    "significance": "사후 출간. 측량기사 K가 마을에 도착해 성의 승인을 얻으려 하지만 어느 창구에도 닿지 못하는 이야기로, 문장 중간에서 끊긴 채 남았다. 접근 불가능한 권위라는 형상을 가장 멀리 밀고 간 미완의 장편.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "james-joyce--dubliners",
+    "authorId": "james-joyce",
+    "titleKo": "더블린 사람들",
+    "titleOriginal": "Dubliners",
+    "year": 1914,
+    "genre": "fiction",
+    "significance": "유년기부터 노년까지 배열한 열다섯 편의 단편으로 한 도시의 마비 상태를 진단한다. 마지막 「죽은 사람들」은 조이스가 에피퍼니라 부른 순간의 구성법을 보여 주는 표본이 되었다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "james-joyce--a-portrait-of-the-artist-as-a-young-man",
+    "authorId": "james-joyce",
+    "titleKo": "젊은 예술가의 초상",
+    "titleOriginal": "A Portrait of the Artist as a Young Man",
+    "year": 1916,
+    "genre": "fiction",
+    "significance": "주인공의 나이에 따라 문체 자체가 유아어에서 학생의 논변으로 자라나는 성장소설. 서술의 언어가 인물의 의식 수준에 맞춰 변하는 방법을 처음 체계적으로 실행했다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "james-joyce--ulysses",
+    "authorId": "james-joyce",
+    "titleKo": "율리시스",
+    "titleOriginal": "Ulysses",
+    "year": 1922,
+    "genre": "fiction",
+    "significance": "1904년 6월 16일 더블린의 하루를 열여덟 개의 장으로 나누고, 각 장에 교리문답·신문 표제·연극 대본 같은 서로 다른 문체를 배정했다. 외설 시비로 영어권에서 오래 금지되었다가 1930년대에야 합법 출간되었다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "james-joyce--finnegans-wake",
+    "authorId": "james-joyce",
+    "titleKo": "피네간의 경야",
+    "titleOriginal": "Finnegans Wake",
+    "year": 1939,
+    "genre": "fiction",
+    "significance": "17년에 걸쳐 쓴 마지막 작품. 여러 언어를 한 단어에 합성한 조어로 잠든 의식의 언어를 만들었고, 첫 문장이 마지막 문장의 뒷부분으로 이어지는 순환 구조를 갖는다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "virginia-woolf--mrs-dalloway",
+    "authorId": "virginia-woolf",
+    "titleKo": "댈러웨이 부인",
+    "titleOriginal": "Mrs Dalloway",
+    "year": 1925,
+    "genre": "fiction",
+    "significance": "런던의 6월 하루를 따라가며 파티를 준비하는 상류층 여성과 전쟁 후유증에 시달리는 참전병의 의식을 교차시킨다. 두 사람은 만나지 않지만 같은 시계 소리로 묶인다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "virginia-woolf--to-the-lighthouse",
+    "authorId": "virginia-woolf",
+    "titleKo": "등대로",
+    "titleOriginal": "To the Lighthouse",
+    "year": 1927,
+    "genre": "fiction",
+    "significance": "하루를 다룬 1부와 3부 사이에 십 년의 세월을 빈집의 시점으로 압축한 「시간이 흐르다」를 끼워 넣었다. 인물의 죽음마저 괄호 안 한 문장으로 처리하는 이 중간부가 소설의 시간 서술을 다시 정의했다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "virginia-woolf--orlando",
+    "authorId": "virginia-woolf",
+    "titleKo": "올랜도",
+    "titleOriginal": "Orlando: A Biography",
+    "year": 1928,
+    "genre": "fiction",
+    "significance": "16세기부터 300년을 살며 도중에 성별이 바뀌는 인물의 '전기'. 전기라는 장르의 관습을 패러디하면서 성별을 고정된 사실이 아니라 시대가 입히는 의상으로 서술한다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "virginia-woolf--a-room-of-ones-own",
+    "authorId": "virginia-woolf",
+    "titleKo": "자기만의 방",
+    "titleOriginal": "A Room of One's Own",
+    "year": 1929,
+    "genre": "essay-criticism",
+    "significance": "여성이 소설을 쓰려면 돈과 자기 방이 필요하다는 명제를 강연 형식으로 전개한다. 셰익스피어에게 똑같이 재능 있는 누이가 있었다면 어떻게 되었을까라는 가정을 세워, 재능이 아니라 조건이 문학사를 만든다고 논증했다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "virginia-woolf--the-waves",
+    "authorId": "virginia-woolf",
+    "titleKo": "파도",
+    "titleOriginal": "The Waves",
+    "year": 1931,
+    "genre": "fiction",
+    "significance": "여섯 인물의 독백만으로 이루어지고 사이사이에 바다의 하루를 묘사한 간주가 놓인다. 대화도 사건 서술도 없이 인물의 일생을 통과하는, 울프의 방법이 가장 멀리 간 지점.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "william-faulkner--the-sound-and-the-fury",
+    "authorId": "william-faulkner",
+    "titleKo": "소리와 분노",
+    "titleOriginal": "The Sound and the Fury",
+    "year": 1929,
+    "genre": "fiction",
+    "significance": "몰락한 남부 가문의 이야기를 지적장애가 있는 아들, 자살 직전의 형, 냉혹한 동생, 그리고 3인칭 서술이라는 네 개의 판본으로 반복한다. 시간 표시 없이 30년을 오가는 1부가 20세기 영어 소설의 난제로 남았다.",
+    "sourceIds": ["src--britannica", "src--library-of-america"]
+  },
+  {
+    "id": "william-faulkner--as-i-lay-dying",
+    "authorId": "william-faulkner",
+    "titleKo": "내가 죽어 누워 있을 때",
+    "titleOriginal": "As I Lay Dying",
+    "year": 1930,
+    "genre": "fiction",
+    "significance": "어머니의 관을 싣고 40마일을 가는 가족의 여정을 열다섯 명의 화자가 쉰아홉 개의 짧은 장으로 나누어 말한다. 죽은 어머니 본인의 장까지 포함되며, 한 장은 단 다섯 단어다.",
+    "sourceIds": ["src--britannica", "src--library-of-america"]
+  },
+  {
+    "id": "william-faulkner--light-in-august",
+    "authorId": "william-faulkner",
+    "titleKo": "8월의 빛",
+    "titleOriginal": "Light in August",
+    "year": 1932,
+    "genre": "fiction",
+    "significance": "자신이 흑인 피를 가졌는지조차 확인할 수 없는 남자를 중심에 놓아, 인종이 생물학적 사실이 아니라 공동체가 부과하는 판정임을 서사로 드러낸다. 포크너의 장편 가운데 서술이 비교적 선형적이다.",
+    "sourceIds": ["src--britannica", "src--library-of-america"]
+  },
+  {
+    "id": "william-faulkner--absalom-absalom",
+    "authorId": "william-faulkner",
+    "titleKo": "압살롬, 압살롬!",
+    "titleOriginal": "Absalom, Absalom!",
+    "year": 1936,
+    "genre": "fiction",
+    "significance": "서트펜 가문의 몰락을 여러 화자가 전해 들은 이야기로 거듭 재구성하며, 어느 판본도 확정되지 않는다. 과거를 아는 일이 원리적으로 불가능하다는 것을 서술 구조 자체로 보여 준다.",
+    "sourceIds": ["src--britannica", "src--library-of-america"]
+  },
+  {
+    "id": "william-faulkner--go-down-moses",
+    "authorId": "william-faulkner",
+    "titleKo": "모세여, 내려가라",
+    "titleOriginal": "Go Down, Moses",
+    "year": 1942,
+    "genre": "fiction",
+    "significance": "한 가문의 백인 혈통과 흑인 혈통을 함께 따라가는 연작 단편집. 중편 「곰」에서 사냥과 삼림 파괴를 통해 토지 소유와 노예제를 같은 문제로 묶는다.",
+    "sourceIds": ["src--britannica", "src--library-of-america"]
+  },
+  {
+    "id": "thomas-mann--buddenbrooks",
+    "authorId": "thomas-mann",
+    "titleKo": "부덴브로크가의 사람들",
+    "titleOriginal": "Buddenbrooks",
+    "year": 1901,
+    "genre": "fiction",
+    "significance": "뤼베크 상인 가문 4대의 쇠퇴를 연대기로 서술한 첫 장편. 실무 능력이 줄어드는 자리를 예민한 감수성이 대신 채우는 과정을 세대별로 배치했다. 스물여섯 살에 발표했고 뒷날 노벨문학상 수상 사유에 명시되었다.",
+    "sourceIds": ["src--britannica", "src--nobelprize"]
+  },
+  {
+    "id": "thomas-mann--der-tod-in-venedig",
+    "authorId": "thomas-mann",
+    "titleKo": "베네치아에서의 죽음",
+    "titleOriginal": "Der Tod in Venedig",
+    "year": 1912,
+    "genre": "fiction",
+    "significance": "규율로 자기를 세운 노작가가 소년의 아름다움 앞에서 무너지고, 도시의 역병을 알면서도 떠나지 않는 중편. 예술가의 절제와 도취를 한 인물 안에서 충돌시킨 만의 대표 설정이 완성된 형태로 나온다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "thomas-mann--der-zauberberg",
+    "authorId": "thomas-mann",
+    "titleKo": "마의 산",
+    "titleOriginal": "Der Zauberberg",
+    "year": 1924,
+    "genre": "fiction",
+    "significance": "3주 예정으로 알프스 요양원을 찾은 청년이 7년을 머무는 동안, 계몽주의자와 급진적 예수회원이 그를 두고 벌이는 논쟁이 서사를 대신한다. 시간 경험 자체를 서술 대상으로 삼은 장편.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "thomas-mann--joseph-und-seine-brueder",
+    "authorId": "thomas-mann",
+    "titleKo": "요셉과 그 형제들",
+    "titleOriginal": "Joseph und seine Brüder",
+    "year": 1933,
+    "genre": "fiction",
+    "significance": "창세기의 요셉 이야기를 네 권으로 확장한 연작으로, 1권 발표 해에 망명이 시작되어 완성까지 16년이 걸렸다. 신화를 반어와 심리 분석으로 다시 서술해, 나치가 독점하려 한 신화의 언어를 되찾으려 한 기획이다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "thomas-mann--doktor-faustus",
+    "authorId": "thomas-mann",
+    "titleKo": "파우스트 박사",
+    "titleOriginal": "Doktor Faustus",
+    "year": 1947,
+    "genre": "fiction",
+    "significance": "12음 기법을 고안한 가상의 작곡가가 매독과 악마의 계약으로 천재를 얻는 이야기를 친구의 전기 형식으로 쓴다. 예술의 극단적 자율성과 독일의 정치적 파국을 같은 곡선 위에 포갠 망명기의 결산.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "robert-musil--die-verwirrungen-des-zoeglings-toerless",
+    "authorId": "robert-musil",
+    "titleKo": "생도 퇴를레스의 혼란",
+    "titleOriginal": "Die Verwirrungen des Zöglings Törleß",
+    "year": 1906,
+    "genre": "fiction",
+    "significance": "기숙 군사학교에서 벌어지는 동급생 가혹 행위를 지켜보는 소년의 내면을 따라간다. 수학의 허수를 계기로, 설명되는 세계와 설명되지 않는 경험이 갈라지는 무질의 평생 문제가 여기서 시작된다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "robert-musil--drei-frauen",
+    "authorId": "robert-musil",
+    "titleKo": "세 여인",
+    "titleOriginal": "Drei Frauen",
+    "year": 1924,
+    "genre": "fiction",
+    "significance": "세 편의 중편으로 이루어진 소설집. 남자들이 자기 삶의 확실성을 잃는 순간을 여성 인물과의 만남에 걸어, 장편에서 전개할 '다른 상태'를 짧은 형식으로 시험한다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "robert-musil--der-mann-ohne-eigenschaften",
+    "authorId": "robert-musil",
+    "titleKo": "특성 없는 남자",
+    "titleOriginal": "Der Mann ohne Eigenschaften",
+    "year": 1930,
+    "genre": "fiction",
+    "significance": "1913년 빈에서 황제 즉위 70주년 기념 사업을 준비하는 위원회를 무대로, 아무것도 결정되지 않는 상태를 천 쪽 넘게 지속시킨다. 저자의 죽음으로 미완에 그쳤고 남은 초고의 배열은 판본마다 다르다.",
+    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+  },
+  {
+    "id": "robert-musil--nachlass-zu-lebzeiten",
+    "authorId": "robert-musil",
+    "titleKo": "생전 유고",
+    "titleOriginal": "Nachlaß zu Lebzeiten",
+    "year": 1936,
+    "genre": "fiction",
+    "significance": "파리끈끈이나 원숭이 섬 같은 사소한 대상을 현미경처럼 들여다보는 짧은 산문 모음. 장편이 진척되지 않던 시기에 낸 책으로, 무질의 관찰 문체를 가장 압축된 형태로 볼 수 있다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "fernando-pessoa--ode-maritima",
+    "authorId": "fernando-pessoa",
+    "titleKo": "해상 송시",
+    "titleOriginal": "Ode Marítima",
+    "year": 1915,
+    "genre": "poetry",
+    "significance": "이명 알바루 드 캄푸스의 이름으로 잡지 『오르페우』 2호에 실린 장시. 부두에 선 화자가 항해와 해적질과 폭력의 환상 속으로 끌려 들어가며 휘트먼식 열거가 파열에 이른다.",
+    "sourceIds": ["src--britannica", "src--poetry-foundation"]
+  },
+  {
+    "id": "fernando-pessoa--o-banqueiro-anarquista",
+    "authorId": "fernando-pessoa",
+    "titleKo": "무정부주의자 은행가",
+    "titleOriginal": "O Banqueiro Anarquista",
+    "year": 1922,
+    "genre": "fiction",
+    "significance": "은행가가 자신이야말로 유일하게 일관된 무정부주의자라고 저녁 내내 논증하는 대화편. 흠 없는 논리로 정반대 결론에 도달하는 형식 자체가 풍자의 방법이다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "fernando-pessoa--o-guardador-de-rebanhos",
+    "authorId": "fernando-pessoa",
+    "titleKo": "양 떼를 지키는 사람",
+    "titleOriginal": "O Guardador de Rebanhos",
+    "year": 1925,
+    "genre": "poetry",
+    "significance": "다른 이명들이 스승으로 떠받드는 알베르투 카에이루의 연작시. 사물을 해석하지 않고 보기만 하겠다는 반형이상학의 태도를 평이한 시행으로 밀고 나가, 페소아 이명 체계의 출발점 노릇을 한다.",
+    "sourceIds": ["src--britannica", "src--poetry-foundation"]
+  },
+  {
+    "id": "fernando-pessoa--mensagem",
+    "authorId": "fernando-pessoa",
+    "titleKo": "메시지",
+    "titleOriginal": "Mensagem",
+    "year": 1934,
+    "genre": "poetry",
+    "significance": "페소아가 생전에 출간한 유일한 포르투갈어 단행본. 대항해 시대의 인물들을 짧은 시로 배열해 국가의 신화를 다시 쓰되, 신비주의 상징 체계를 배경에 깔았다.",
+    "sourceIds": ["src--britannica", "src--poetry-foundation"]
+  },
+  {
+    "id": "fernando-pessoa--livro-do-desassossego",
+    "authorId": "fernando-pessoa",
+    "titleKo": "불안의 서",
+    "titleOriginal": "Livro do Desassossego",
+    "year": 1982,
+    "genre": "fiction",
+    "significance": "1982년 사후 출간. 리스본의 회계 보조 베르나르두 소아르스의 이름으로 쓰인 단상 모음으로, 트렁크에 흩어져 있던 원고를 편집자가 모아 엮었다. 확정된 순서가 없어 판본마다 구성이 달라지는, 완성될 수 없는 형식의 책이다.",
+    "sourceIds": ["src--britannica", "src--kr-world-lit-editions"]
+  },
+  {
+    "id": "william-butler-yeats--the-wind-among-the-reeds",
+    "authorId": "william-butler-yeats",
+    "titleKo": "갈대숲의 바람",
+    "titleOriginal": "The Wind Among the Reeds",
+    "year": 1899,
+    "genre": "poetry",
+    "significance": "켈트 박명기 예이츠의 정점. 아일랜드 전설의 인물과 프랑스 상징주의의 어법을 결합해 문예부흥 시의 어휘를 만들었고, 뒷날 그가 의식적으로 버리게 될 문체이기도 하다.",
+    "sourceIds": ["src--britannica", "src--poetry-foundation"]
+  },
+  {
+    "id": "william-butler-yeats--cathleen-ni-houlihan",
+    "authorId": "william-butler-yeats",
+    "titleKo": "캐슬린 니 훌리한",
+    "titleOriginal": "Cathleen ni Houlihan",
+    "year": 1902,
+    "genre": "drama",
+    "significance": "노파의 모습으로 나타난 아일랜드가 청년에게 목숨을 요구하는 단막극. 아일랜드 국민극장 운동의 상징이 되었고, 예이츠 자신이 뒷날 이 극이 사람들을 죽음으로 보냈는지 자문하게 만든 작품이다.",
+    "sourceIds": ["src--britannica"]
+  },
+  {
+    "id": "william-butler-yeats--at-the-hawks-well",
+    "authorId": "william-butler-yeats",
+    "titleKo": "매의 우물에서",
+    "titleOriginal": "At the Hawk's Well",
+    "year": 1917,
+    "genre": "drama",
+    "significance": "일본 노(能)의 형식을 빌려 가면과 악사만으로 상연하는 무용극. 무대 장치와 사실주의적 재현을 걷어내, 시극이 상업 극장 밖에서 갈 수 있는 경로를 열었다.",
+    "sourceIds": ["src--britannica", "src--poetry-foundation"]
+  },
+  {
+    "id": "william-butler-yeats--the-tower",
+    "authorId": "william-butler-yeats",
+    "titleKo": "탑",
+    "titleOriginal": "The Tower",
+    "year": 1928,
+    "genre": "poetry",
+    "significance": "「비잔티움으로의 항해」, 「1919년」, 「학교 아이들 사이에서」가 실린 후기 대표 시집. 늙는 몸과 내전의 폭력을 구어의 리듬과 단단한 명사로 서술하는, 그가 예순 넘어 새로 만든 문체의 결정판이다.",
+    "sourceIds": ["src--britannica", "src--poetry-foundation"]
+  },
+  {
+    "id": "william-butler-yeats--the-winding-stair-and-other-poems",
+    "authorId": "william-butler-yeats",
+    "titleKo": "나선 계단",
+    "titleOriginal": "The Winding Stair and Other Poems",
+    "year": 1933,
+    "genre": "poetry",
+    "significance": "「비잔티움」과 크레이지 제인 연작을 담은 시집. 앞 시집의 초월 지향을 스스로 반박하며 육체와 지상의 삶으로 돌아오는데, 두 권을 나란히 읽어야 이 논쟁이 보인다.",
+    "sourceIds": ["src--britannica", "src--poetry-foundation"]
+  }
+]

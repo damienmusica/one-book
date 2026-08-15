@@ -1,0 +1,554 @@
+[
+  {
+    "id": "samuel-beckett",
+    "names": {
+      "ko": "사뮈엘 베케트",
+      "original": "Samuel Beckett",
+      "aliases": [
+        "사무엘 베케트",
+        "베케트",
+        "Samuel Barclay Beckett"
+      ]
+    },
+    "birthYear": 1906,
+    "deathYear": 1989,
+    "activeRange": [
+      1929,
+      1989
+    ],
+    "anchorYear": 1953,
+    "gender": "male",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "regions": [
+      "britain-ireland",
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "더블린",
+        "lat": 53.3498,
+        "lon": -6.2603,
+        "role": "birth"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "activity",
+        "primary": true,
+        "note": "1937년 정착 이후 평생의 거주지이자 프랑스어 집필의 무대 — 주요 작품 전부가 여기서 쓰였다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "modernism",
+      "absurdism"
+    ],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "tier": "anchor",
+    "importanceReason": "무대에서 사건·배경·성격 묘사를 걷어내고 기다림과 반복이라는 상태 하나만 남긴 희곡을 써서, 플롯 없이 극을 지탱하는 방법을 만들었다. 산문에서는 『몰로이』에서 『이름 붙일 수 없는 자』로 가며 인물·장소·서술자를 차례로 지우고 말하기를 멈추지 못하는 목소리만 남겼다. 모어인 영어를 버리고 프랑스어로 쓴 뒤 자기 작품을 스스로 영어로 옮기는 이중 작업은 문체를 덜어내기 위한 방법이었고, 그 결과 두 언어 판본이 모두 원본인 드문 전집이 만들어졌다.",
+    "readingEntry": "samuel-beckett--en-attendant-godot",
+    "readingEntryReason": "희곡 한 편 안에 베케트의 방법 — 사건 없는 반복, 줄어드는 말, 끝나지 않는 기다림 — 이 전부 들어 있고, 산문 3부작보다 진입 문턱이 훨씬 낮다.",
+    "readingOrder": [
+      "samuel-beckett--en-attendant-godot",
+      "samuel-beckett--fin-de-partie",
+      "samuel-beckett--molloy",
+      "samuel-beckett--malone-meurt",
+      "samuel-beckett--l-innommable"
+    ],
+    "readingWarning": "『이름 붙일 수 없는 자』나 3부작부터 시작하면 서술자와 장소가 이미 해체된 상태여서 무엇이 사라졌는지 알 수 없다. 희곡에서 산문으로 가는 순서를 권한다.",
+    "difficulty": 4,
+    "difficultyReason": "문장은 짧고 어휘도 어렵지 않지만 사건·인과·인물이 제거되어 있어 독자가 붙잡을 서사적 손잡이가 없다. 3부작 후반으로 갈수록 문단과 문장의 경계마저 사라진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--cambridge-companions",
+      "src--beckett-minuit-editions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "vladimir-nabokov",
+    "names": {
+      "ko": "블라디미르 나보코프",
+      "original": "Владимир Набоков",
+      "aliases": [
+        "Vladimir Nabokov",
+        "나보코프",
+        "블라디미르 시린",
+        "V. Sirin"
+      ]
+    },
+    "birthYear": 1899,
+    "deathYear": 1977,
+    "activeRange": [
+      1926,
+      1974
+    ],
+    "anchorYear": 1955,
+    "gender": "male",
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "regions": [
+      "russia",
+      "central-europe",
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "상트페테르부르크",
+        "lat": 59.9375,
+        "lon": 30.3086,
+        "role": "birth"
+      },
+      {
+        "label": "베를린",
+        "lat": 52.52,
+        "lon": 13.405,
+        "role": "exile"
+      },
+      {
+        "label": "이타카",
+        "lat": 42.444,
+        "lon": -76.5019,
+        "role": "activity",
+        "primary": true,
+        "note": "코넬대 재직기(1948–1959)에 『롤리타』·『프닌』을 쓰며 영어 작가로 재출발한 거점 — 출생지 페테르부르크와 망명지 베를린보다 현재의 나보코프 수용을 규정한 자리"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "러시아어로 아홉 편의 장편을 쓴 뒤 마흔이 넘어 영어로 옮겨 가 두 번째 전집을 만들었고, 두 언어 사이에서 자기 작품을 직접 옮기며 각 판본을 다시 썼다. 『롤리타』에서는 변명하는 살인자의 화려한 문장 자체를 독자를 시험하는 장치로 만들어, 신뢰할 수 없는 화자를 소설의 구조 원리로 밀어붙였다. 『창백한 불꽃』은 999행의 시와 그 주석만으로 이루어진 장편을 세워 학술 편집 장치를 서사 형식으로 전환했고, 이후 메타픽션이 반복해 참조하는 모델이 되었다.",
+    "readingEntry": "vladimir-nabokov--pnin",
+    "readingEntryReason": "짧은 연작 장편 안에 나보코프의 문장과 망명이라는 주제가 함께 들어 있고, 『롤리타』·『창백한 불꽃』과 달리 도덕적·구조적 함정이 없어 첫 책으로 안전하다.",
+    "readingOrder": [
+      "vladimir-nabokov--pnin",
+      "vladimir-nabokov--lolita",
+      "vladimir-nabokov--speak-memory",
+      "vladimir-nabokov--pale-fire",
+      "vladimir-nabokov--dar"
+    ],
+    "readingWarning": "『창백한 불꽃』으로 시작하면 시와 주석을 오가는 상호 참조 구조에 붙들려 장치만 남고 인물이 보이지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "문장은 유려하게 읽히지만 다국어 말장난·문학적 인유·의도된 오독이 겹겹이 깔려 있어 주석 없이는 한 층만 읽게 된다. 『창백한 불꽃』과 『재능』은 구조 자체가 독해의 과제다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--paris-review",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "albert-camus",
+    "names": {
+      "ko": "알베르 카뮈",
+      "original": "Albert Camus",
+      "aliases": [
+        "카뮈",
+        "알베르 까뮈"
+      ]
+    },
+    "birthYear": 1913,
+    "deathYear": 1960,
+    "activeRange": [
+      1937,
+      1960
+    ],
+    "anchorYear": 1947,
+    "gender": "male",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe",
+      "middle-east-north-africa"
+    ],
+    "locations": [
+      {
+        "label": "드레안 (옛 몽도비)",
+        "lat": 36.69,
+        "lon": 7.75,
+        "role": "birth"
+      },
+      {
+        "label": "알제",
+        "lat": 36.7538,
+        "lon": 3.0588,
+        "role": "activity",
+        "primary": true,
+        "note": "유년기와 첫 산문집·신문 활동의 무대이자 『이방인』의 배경 — 1940년 이후의 출판 거점 파리 대신, 작품 세계가 서 있는 알제리 좌표를 대표로 삼았다"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "mid-century"
+    ],
+    "movements": [
+      "absurdism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "drama"
+    ],
+    "tier": "anchor",
+    "importanceReason": "『이방인』에서 감정의 설명을 삭제한 1인칭 문장으로 화자와 세계 사이의 거리를 문체 자체로 만들었고, 같은 해의 『시지프 신화』에서 그 거리를 부조리라는 개념으로 정식화했다. 부조리를 자살이나 신앙으로 해소하지 않고 그 상태를 유지한 채 사는 쪽을 선택지로 제시한 것이 전후 부조리 문학의 출발점이 되었다. 이후 『반항하는 인간』에서 혁명적 폭력의 정당화를 거부하며 사르트르와 결별했고, 이 논쟁은 전후 프랑스 지식인 지형을 갈랐다.",
+    "readingEntry": "albert-camus--l-etranger",
+    "readingEntryReason": "짧은 분량 안에 카뮈의 문체와 부조리라는 주제가 함께 들어 있고, 『시지프 신화』의 논의는 이 소설을 읽은 뒤라야 구체적인 대상을 얻는다.",
+    "readingOrder": [
+      "albert-camus--l-etranger",
+      "albert-camus--la-peste",
+      "albert-camus--la-chute",
+      "albert-camus--le-mythe-de-sisyphe",
+      "albert-camus--l-homme-revolte"
+    ],
+    "readingWarning": "『시지프 신화』나 『반항하는 인간』부터 시작하면 논고의 밀도와 인용 계보 때문에 카뮈가 다루는 문제 자체가 추상으로만 남는다.",
+    "difficulty": 2,
+    "difficultyReason": "소설의 문장은 짧고 투명해 바로 읽히지만, 같은 문제를 다룬 산문 논고는 그리스 비극부터 19세기 러시아 테러리즘까지의 참조를 전제해 난도가 한 단계 올라간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--pleiade",
+      "src--camus-nouvelles-litteraires-1945",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "ernest-hemingway",
+    "names": {
+      "ko": "어니스트 헤밍웨이",
+      "original": "Ernest Hemingway",
+      "aliases": [
+        "헤밍웨이",
+        "Ernest Miller Hemingway"
+      ]
+    },
+    "birthYear": 1899,
+    "deathYear": 1961,
+    "activeRange": [
+      1923,
+      1961
+    ],
+    "anchorYear": 1929,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america",
+      "western-europe",
+      "caribbean"
+    ],
+    "locations": [
+      {
+        "label": "오크파크",
+        "lat": 41.885,
+        "lon": -87.7845,
+        "role": "birth"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "activity",
+        "primary": true,
+        "note": "1921–1928년 특파원 겸 작가로 머물며 첫 단편집과 『태양은 다시 떠오른다』를 쓴 곳 — 문체가 만들어진 자리를 대표 좌표로 삼았다"
+      },
+      {
+        "label": "아바나",
+        "lat": 23.1136,
+        "lon": -82.3666,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "modernism",
+      "lost-generation"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "전쟁과 폭력을 다루면서 추상적 명사와 감정 해설을 걷어내고, 짧은 평서문과 대화만으로 인물의 상태를 전달하는 산문을 정착시켰다. 중요한 것을 쓰지 않고 생략해 남은 표면이 그 무게를 지탱하게 하는 방법을 스스로 원리로 밝혔고, 이 방식은 20세기 영어 산문의 표준 문체 가운데 하나가 되었다. 1차 대전 후 파리의 미국인 작가 집단에서 형성된 이 문체는 하드보일드 범죄소설부터 전후 미국 단편까지 폭넓게 이식되었다.",
+    "readingEntry": "ernest-hemingway--the-old-man-and-the-sea",
+    "readingEntryReason": "중편 하나로 헤밍웨이 문체의 핵심 — 짧은 문장, 설명 없는 행동 묘사, 생략된 감정 — 을 전부 볼 수 있고 배경 지식도 거의 필요 없다.",
+    "readingOrder": [
+      "ernest-hemingway--the-old-man-and-the-sea",
+      "ernest-hemingway--in-our-time",
+      "ernest-hemingway--the-sun-also-rises",
+      "ernest-hemingway--a-farewell-to-arms",
+      "ernest-hemingway--for-whom-the-bell-tolls"
+    ],
+    "readingWarning": "『누구를 위하여 종은 울리나』를 첫 책으로 고르면 분량과 스페인 내전의 정파 지형 때문에 문체보다 배경 정리에 시간을 쓰게 된다.",
+    "difficulty": 2,
+    "difficultyReason": "어휘와 문장 구조는 평이하지만 감정과 동기가 문장 밖에 놓여 있어서, 표면만 따라 읽으면 아무 일도 일어나지 않는 이야기로 보인다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--paris-review",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "george-orwell",
+    "names": {
+      "ko": "조지 오웰",
+      "original": "George Orwell",
+      "aliases": [
+        "오웰",
+        "Eric Arthur Blair",
+        "에릭 아서 블레어"
+      ]
+    },
+    "birthYear": 1903,
+    "deathYear": 1950,
+    "activeRange": [
+      1933,
+      1949
+    ],
+    "anchorYear": 1946,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "locations": [
+      {
+        "label": "모티하리",
+        "lat": 26.65,
+        "lon": 84.9167,
+        "role": "birth"
+      },
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "activity",
+        "primary": true,
+        "note": "부랑 체험부터 BBC 근무와 주간지 칼럼까지 산문 활동의 거점 — 인도 모티하리는 출생지일 뿐 집필의 무대가 아니다"
+      },
+      {
+        "label": "바르셀로나",
+        "lat": 41.3874,
+        "lon": 2.1686,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "speculative": true,
+    "tier": "anchor",
+    "importanceReason": "르포·회고·논쟁을 문학의 중심 장르로 끌어올렸고, 정치적 목적을 가진 글쓰기가 문장의 정확성과 양립할 수 있다는 것을 자기 산문으로 보여주었다. 완곡어법과 죽은 은유를 정치적 거짓말의 도구로 지목하고, 투명한 문장을 규율로 제안했다. 『1984』가 만든 신어·이중사고·빅브라더는 전체주의를 서술하는 국제적 공용어가 되었고, 우화와 디스토피아라는 두 형식이 그 주제의 표준 틀로 굳었다.",
+    "readingEntry": "george-orwell--animal-farm",
+    "readingEntryReason": "짧은 우화 한 편으로 오웰의 정치적 문제의식과 문장을 함께 볼 수 있고, 러시아 혁명사를 몰라도 이야기가 스스로 작동한다.",
+    "readingOrder": [
+      "george-orwell--animal-farm",
+      "george-orwell--nineteen-eighty-four",
+      "george-orwell--politics-and-the-english-language",
+      "george-orwell--down-and-out-in-paris-and-london",
+      "george-orwell--homage-to-catalonia"
+    ],
+    "readingWarning": "『카탈로니아 찬가』를 첫 책으로 고르면 1937년 바르셀로나의 정파 지형(POUM·아나키스트·공산당)을 모르는 채 중반의 논쟁에 들어가게 된다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 의도적으로 투명하고 어휘도 평이하다. 난도는 문체가 아니라 배경에서 온다 — 스페인 내전과 스탈린주의 논쟁을 모르면 무엇을 겨냥한 글인지 흐려진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "simone-de-beauvoir",
+    "names": {
+      "ko": "시몬 드 보부아르",
+      "original": "Simone de Beauvoir",
+      "aliases": [
+        "보부아르",
+        "시몬 드 보봐르"
+      ]
+    },
+    "birthYear": 1908,
+    "deathYear": 1986,
+    "activeRange": [
+      1943,
+      1981
+    ],
+    "anchorYear": 1949,
+    "gender": "female",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 평생의 활동 무대 — 몽파르나스와 생제르맹의 카페가 집필과 논쟁의 장소였다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "existentialism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "『제2의 성』에서 여성을 생물학적 사실이 아니라 남성을 기준으로 삼는 사회가 만들어 낸 '타자'로 분석하고, 여성은 태어나는 것이 아니라 그렇게 만들어진다는 명제를 신화·생물학·역사·증언을 가로질러 논증했다. 이 책은 이후 페미니즘 이론이 동의하든 반박하든 출발점으로 삼는 텍스트가 되었다. 네 권으로 이어진 회고록에서는 자기 삶을 상황 속의 선택으로 서술하는 방식을 만들어 회고록을 철학적 서술의 도구로 사용했고, 『노년』에서는 같은 타자화 분석을 늙음으로 확장했다.",
+    "readingEntry": "simone-de-beauvoir--memoires-dune-jeune-fille-rangee",
+    "readingEntryReason": "가톨릭 부르주아 가정에서 철학으로 빠져나오는 과정을 서술한 회고록이라 문턱이 낮고, 『제2의 성』이 어떤 경험 위에서 쓰였는지 먼저 볼 수 있다.",
+    "readingOrder": [
+      "simone-de-beauvoir--memoires-dune-jeune-fille-rangee",
+      "simone-de-beauvoir--l-invitee",
+      "simone-de-beauvoir--le-deuxieme-sexe",
+      "simone-de-beauvoir--les-mandarins",
+      "simone-de-beauvoir--la-vieillesse"
+    ],
+    "readingWarning": "『제2의 성』 1권의 생물학·정신분석·사적 유물론 검토부터 읽기 시작하면 논증의 목적이 보이기 전에 지친다. 2권의 체험 서술이나 회고록에서 진입하는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "소설과 회고록의 문장은 평이하지만, 두 권짜리 『제2의 성』과 『노년』은 분량이 크고 헤겔·후설 계열의 개념과 당대 생물학·인류학 논의를 함께 통과해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--cambridge-companions",
+      "src--beauvoir-deuxieme-sexe-1949",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "paul-celan",
+    "names": {
+      "ko": "파울 첼란",
+      "original": "Paul Celan",
+      "aliases": [
+        "첼란",
+        "Paul Antschel",
+        "파울 안첼",
+        "Paul Ancel"
+      ]
+    },
+    "birthYear": 1920,
+    "deathYear": 1970,
+    "activeRange": [
+      1947,
+      1970
+    ],
+    "anchorYear": 1959,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "eastern-europe",
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "체르니우치 (체르노비츠)",
+        "lat": 48.2921,
+        "lon": 25.9358,
+        "role": "birth"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "exile",
+        "primary": true,
+        "note": "1948년부터 죽을 때까지 살며 독일어로 쓴 곳 — 거주지의 언어와 집필 언어가 갈라진 자리가 첼란의 좌표다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "tier": "anchor",
+    "importanceReason": "홀로코스트로 부모를 잃은 뒤 가해자의 언어인 독일어로 시를 쓰는 문제를 작업의 조건으로 삼아, 그 언어를 쪼개고 조어를 만들어 다시 붙이는 방식으로 시를 썼다. 「죽음의 푸가」는 수용소의 학살을 푸가처럼 반복·교차하는 구절로 배치해 널리 읽혔지만, 첼란 자신은 이 시가 낭송용 대표작으로 굳는 것을 경계하며 이후 점점 더 짧고 압축된 언어로 옮겨 갔다. 1960년 뷔히너상 수상 연설 「자오선」에서 시를 누군가를 향해 보내는 말로 규정한 시론은 전후 유럽 시의 참조점이 되었다.",
+    "readingEntry": "paul-celan--todesfuge",
+    "readingEntryReason": "시 한 편으로 첼란의 좌표 — 학살의 기억, 독일어, 반복되는 구조 — 가 한꺼번에 제시되고, 후기로 갈수록 급격히 좁아지는 언어의 출발점을 먼저 볼 수 있다.",
+    "readingOrder": [
+      "paul-celan--todesfuge",
+      "paul-celan--mohn-und-gedaechtnis",
+      "paul-celan--sprachgitter",
+      "paul-celan--die-niemandsrose",
+      "paul-celan--atemwende"
+    ],
+    "readingWarning": "후기 시집부터 시작하면 조어와 생략이 극단으로 간 상태여서 문장의 단위조차 잡히지 않는다. 「죽음의 푸가」에서 연대순으로 올라가는 편이 낫다.",
+    "difficulty": 5,
+    "difficultyReason": "후기 시는 독일어 낱말을 쪼개 새로 만든 조어로 쓰이고, 유대 전승·수용소 지명·광물학과 식물학 어휘가 주석 없이 겹친다. 번역으로 소실되는 층이 커서 대역본과 주석이 사실상 필수다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--celan-meridian-1960",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

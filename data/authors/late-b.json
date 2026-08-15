@@ -1,0 +1,600 @@
+[
+  {
+    "id": "salman-rushdie",
+    "names": {
+      "ko": "살만 루슈디",
+      "original": "Salman Rushdie",
+      "aliases": [
+        "살만 루시디",
+        "루슈디",
+        "Ahmed Salman Rushdie"
+      ]
+    },
+    "birthYear": 1947,
+    "activeRange": [
+      1975,
+      2024
+    ],
+    "anchorYear": 1988,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "south-asia",
+      "britain-ireland",
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "뭄바이",
+        "lat": 19.076,
+        "lon": 72.8777,
+        "role": "birth",
+        "note": "출생지이자 『한밤의 아이들』·『무어의 마지막 한숨』의 무대"
+      },
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "activity",
+        "primary": true,
+        "note": "대표작을 쓰고 발표한 거점 — 출생지가 아니라 집필의 중심지를 대표로 골랐다"
+      },
+      {
+        "label": "뉴욕",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "magical-realism",
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "『한밤의 아이들』에서 인도 독립의 순간을 화자의 출생과 겹쳐 놓고, 기억이 틀리는 방식 자체를 서술 원리로 삼는 역사소설을 만들었다. 영어를 인도의 구어와 힌디·우르두 어휘, 말장난으로 늘려 쓴 문장은 영국 소설의 표준어를 바깥에서 다시 짠 사례가 되었다. 라틴아메리카에서 온 마술적 사실주의를 남아시아의 탈식민 역사 서술에 접붙여, 이후 영어권 이주 작가들이 공유하게 되는 서사 문법을 제시했다.",
+    "readingEntry": "salman-rushdie--midnights-children",
+    "readingEntryReason": "루슈디의 방법 — 역사와 개인사의 중첩, 신뢰할 수 없는 화자, 늘어난 영어 — 이 한 권 안에 모두 들어 있고, 이후 작품들이 이 소설의 변주로 읽힌다.",
+    "readingOrder": [
+      "salman-rushdie--midnights-children",
+      "salman-rushdie--shame",
+      "salman-rushdie--the-moors-last-sigh",
+      "salman-rushdie--the-satanic-verses"
+    ],
+    "readingWarning": "『악마의 시』를 첫 책으로 잡으면 꿈 장면과 현실 장면이 교차하는 구조, 그리고 소설 바깥의 사건에 관한 정보가 독서를 앞질러 텍스트 자체를 읽기 어려워진다.",
+    "difficulty": 4,
+    "difficultyReason": "문장이 길고 삽입절이 많으며, 인도아대륙의 근현대사·힌두 신화·볼리우드 영화 같은 배경 지식이 농담과 비유의 재료로 계속 동원되어 주석 없이는 놓치는 층이 생긴다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "wg-sebald",
+    "names": {
+      "ko": "W. G. 제발트",
+      "original": "W. G. Sebald",
+      "aliases": [
+        "빈프리트 게오르크 제발트",
+        "제발트",
+        "Winfried Georg Sebald",
+        "Max Sebald"
+      ]
+    },
+    "birthYear": 1944,
+    "deathYear": 2001,
+    "activeRange": [
+      1988,
+      2001
+    ],
+    "anchorYear": 1995,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe",
+      "britain-ireland"
+    ],
+    "locations": [
+      {
+        "label": "베르타흐 (알고이)",
+        "lat": 47.6,
+        "lon": 10.41,
+        "role": "birth"
+      },
+      {
+        "label": "노리치",
+        "lat": 52.6309,
+        "lon": 1.2974,
+        "role": "activity",
+        "primary": true,
+        "note": "1970년 이후 이스트앵글리아 대학에서 가르치며 전 작품을 쓴 거점이고, 『토성의 고리』의 도보 여행이 시작되는 곳이다"
+      },
+      {
+        "label": "맨체스터",
+        "lat": 53.4808,
+        "lon": -2.2426,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "산문에 출처와 설명을 붙이지 않은 흑백 사진을 끼워 넣고, 여행기·전기·에세이·허구의 경계를 지운 서술 형식을 만들었다. 문단과 장 구분을 최소화한 긴 문장으로 화자가 남에게 들은 이야기를 다시 옮기는 이중·삼중의 전달 구조를 써서, 20세기 유럽의 파괴와 이산을 직접 재현하지 않고 흔적과 우회로만으로 서술했다. 사진을 증거가 아니라 기억의 불확실성을 드러내는 장치로 사용한 이 방식은 이후 여러 언어권에서 반복되는 산문 계보가 되었다.",
+    "readingEntry": "wg-sebald--die-ausgewanderten",
+    "readingEntryReason": "네 사람의 생애를 각각 독립된 이야기로 다루어 분량이 나뉘어 있고, 사진과 산문이 함께 작동하는 방식을 가장 또렷하게 보여준다.",
+    "readingOrder": [
+      "wg-sebald--die-ausgewanderten",
+      "wg-sebald--die-ringe-des-saturn",
+      "wg-sebald--austerlitz",
+      "wg-sebald--schwindel-gefuehle"
+    ],
+    "readingWarning": "『현기증. 감정들』로 시작하면 화자의 이동과 인용된 타인의 여정이 예고 없이 겹쳐서, 제발트의 서술이 원래 이렇게 방향을 잃게 만드는 것인지 판단할 기준이 없는 채로 읽게 된다.",
+    "difficulty": 4,
+    "difficultyReason": "한 문장이 한 쪽을 넘기기도 하고 장 구분과 대화 표시가 거의 없어 화자가 누구인지 계속 재확인해야 하며, 사건이 진전되는 대신 연상과 여담으로 이동하는 구조를 견뎌야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--sebald-emergence-of-memory",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "ursula-k-le-guin",
+    "names": {
+      "ko": "어슐러 K. 르 귄",
+      "original": "Ursula K. Le Guin",
+      "aliases": [
+        "어슐러 르 귄",
+        "어슐라 K. 르귄",
+        "Ursula Kroeber Le Guin"
+      ]
+    },
+    "birthYear": 1929,
+    "deathYear": 2018,
+    "activeRange": [
+      1966,
+      2017
+    ],
+    "anchorYear": 1974,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "버클리",
+        "lat": 37.8715,
+        "lon": -122.273,
+        "role": "birth"
+      },
+      {
+        "label": "포틀랜드",
+        "lat": 45.5152,
+        "lon": -122.6784,
+        "role": "activity",
+        "primary": true,
+        "note": "1950년대 말 정착한 뒤 세상을 뜰 때까지 거의 모든 작품을 쓴 거점"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "speculative": true,
+    "tier": "anchor",
+    "importanceReason": "『어둠의 왼손』에서 고정된 성별이 없는 종족의 사회를 설정하고, 그 조건에서 정치·친족·언어가 어떻게 달라지는지를 인류학 보고서와 신화 채록을 섞은 형식으로 서술했다. 사변소설을 미래 예측이나 기술 서사가 아니라, 사회의 변수 하나를 바꿔 놓고 결과를 끝까지 따라가는 사고실험으로 다시 정의했다. 『빼앗긴 자들』에서는 무정부주의 사회와 자본주의 사회를 두 시간대로 교차 서술해 어느 쪽도 완성된 이상향으로 놓지 않는 비교 구조를 만들었고, 판타지와 SF를 비평의 대상으로 다루는 에세이도 함께 남겼다.",
+    "readingEntry": "ursula-k-le-guin--the-left-hand-of-darkness",
+    "readingEntryReason": "한 권으로 완결되고 분량이 부담스럽지 않으면서, 설정을 설명하지 않고 서사 안에서 조립하게 만드는 르 귄의 방법이 가장 순수하게 작동하는 작품이다.",
+    "readingOrder": [
+      "ursula-k-le-guin--the-left-hand-of-darkness",
+      "ursula-k-le-guin--a-wizard-of-earthsea",
+      "ursula-k-le-guin--the-dispossessed",
+      "ursula-k-le-guin--tehanu"
+    ],
+    "readingWarning": "『테하누』를 어스시 앞 세 권 없이 먼저 읽으면 이 소설이 자기 앞의 연작을 무엇으로 뒤집는지가 보이지 않아, 사건이 적은 조용한 소설로만 남는다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 평이하고 서사는 명료하다. 난도는 문체가 아니라 낯선 제도·친족·역법을 설명 없이 서술 속에서 독자가 조립해야 하는 초반 설정 부하에서 온다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--paris-review",
+      "src--le-guin-language-of-the-night",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "octavia-butler",
+    "names": {
+      "ko": "옥타비아 버틀러",
+      "original": "Octavia E. Butler",
+      "aliases": [
+        "옥타비아 E. 버틀러",
+        "옥타비아 에스텔 버틀러",
+        "Octavia Estelle Butler"
+      ]
+    },
+    "birthYear": 1947,
+    "deathYear": 2006,
+    "activeRange": [
+      1976,
+      2005
+    ],
+    "anchorYear": 1988,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "패서디나",
+        "lat": 34.1478,
+        "lon": -118.1445,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 1990년대 말까지 거의 모든 작품을 쓴 거점"
+      },
+      {
+        "label": "시애틀",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "speculative": true,
+    "tier": "major",
+    "importanceReason": "『킨』에서 20세기 흑인 여성을 노예제 시기 메릴랜드로 반복해 되돌려 보내, 시간여행이라는 장르 장치를 노예제를 신체 경험으로 서술하는 도구로 바꾸었다. 지배와 생존 사이의 거래를 감상 없이 서술해, 권력 관계를 선악의 대립이 아니라 협상과 적응의 문제로 다루는 사변소설을 썼다. 백인 남성 중심으로 형성된 미국 SF 안에서 흑인 여성의 시점을 서사의 중심에 놓은 작품 계보를 만들었고, 1995년 SF 작가로는 처음으로 맥아더 펠로십을 받았다.",
+    "readingEntry": "octavia-butler--kindred",
+    "readingEntryReason": "시간여행이라는 단일한 장치 하나만 받아들이면 되고, 한 권으로 완결되며 문장이 짧고 직설적이라 버틀러의 서술 온도를 가장 빨리 체감할 수 있다.",
+    "readingOrder": [
+      "octavia-butler--kindred",
+      "octavia-butler--parable-of-the-sower",
+      "octavia-butler--wild-seed",
+      "octavia-butler--dawn"
+    ],
+    "readingWarning": "『새벽』은 3부작의 1권이라 단독으로 읽으면 결말이 해결이 아니라 유예로 끝나고, 버틀러가 무엇을 논증하려 했는지가 절반만 보인다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 짧고 서사는 사건 중심이라 읽는 속도 자체는 빠르다. 난도는 문체가 아니라 노예제·생식·강제된 동의를 신체 수준에서 구체적으로 서술하는 장면을 계속 견뎌야 한다는 데 있다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--butler-bloodchild-afterwords",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "margaret-atwood",
+    "names": {
+      "ko": "마거릿 애트우드",
+      "original": "Margaret Atwood",
+      "aliases": [
+        "마거릿 앳우드",
+        "마가렛 애트우드",
+        "Margaret Eleanor Atwood"
+      ]
+    },
+    "birthYear": 1939,
+    "activeRange": [
+      1961,
+      2023
+    ],
+    "anchorYear": 1993,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "오타와",
+        "lat": 45.4215,
+        "lon": -75.6972,
+        "role": "birth"
+      },
+      {
+        "label": "토론토",
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "role": "activity",
+        "primary": true,
+        "note": "대학 시절 이후 평생의 집필·출판 거점이자 캐나다 문학 논쟁의 무대"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "poetry",
+      "essay-criticism"
+    ],
+    "speculative": true,
+    "tier": "major",
+    "importanceReason": "『시녀 이야기』에서 어딘가에서 실제로 시행된 적이 있는 제도와 법만을 재료로 쓴다는 규칙을 걸고 근미래 신정 체제를 구성해, 사변소설을 현재의 제도를 뒤집어 검사하는 논증의 형식으로 만들었다. 『눈먼 암살자』에서는 회고록과 신문 기사, 액자 속 통속 SF를 교차시켜 한 여성의 진술이 어디서 편집되고 무엇이 빠졌는지를 독자가 재구성하게 했다. 시로 출발해 소설과 비평으로 옮겨 가면서, 캐나다 문학을 독자적 계보로 논증한 비평서도 함께 썼다.",
+    "readingEntry": "margaret-atwood--the-handmaids-tale",
+    "readingEntryReason": "분량이 적당하고 화자의 목소리가 처음부터 끝까지 하나로 유지되며, 애트우드의 설정 구성 방식과 서술 태도를 한 권 안에서 모두 확인할 수 있다.",
+    "readingOrder": [
+      "margaret-atwood--the-handmaids-tale",
+      "margaret-atwood--cats-eye",
+      "margaret-atwood--alias-grace",
+      "margaret-atwood--the-blind-assassin"
+    ],
+    "readingWarning": "『눈먼 암살자』를 첫 책으로 잡으면 회고·신문 기사·액자 속 소설이 번갈아 나오는 3중 구조 때문에 초반 백여 쪽 동안 누구의 이야기인지 잡히지 않는다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 명료하고 장면 전환이 빨라 읽기 자체는 어렵지 않다. 난도는 후기 장편에서 여러 층의 텍스트가 교차할 때 어느 층의 진술인지 계속 추적해야 한다는 데서 생긴다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--paris-review",
+      "src--atwood-in-other-worlds",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "don-delillo",
+    "names": {
+      "ko": "돈 드릴로",
+      "original": "Don DeLillo",
+      "aliases": [
+        "돈 델릴로",
+        "드릴로"
+      ]
+    },
+    "birthYear": 1936,
+    "activeRange": [
+      1971,
+      2020
+    ],
+    "anchorYear": 1991,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "뉴욕 (브롱크스)",
+        "lat": 40.8448,
+        "lon": -73.8648,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 평생의 거점이며 『언더월드』의 출발점이 되는 동네"
+      },
+      {
+        "label": "아테네",
+        "lat": 37.9838,
+        "lon": 23.7275,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postmodernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "『화이트 노이즈』에서 슈퍼마켓 진열대의 상표, 텔레비전 음성, 약품 이름 같은 소비 환경의 언어를 인물의 대화 안으로 그대로 끌어들여, 매체가 만든 문장이 사고를 대신하는 상태를 문장 단위에서 서술했다. 플롯 대신 대화와 사물 목록이 서사를 밀고 가는 산문을 만들어, 후기 자본주의 미국의 소음과 죽음 공포를 소설의 재료로 바꾸었다. 『리브라』와 『언더월드』에서는 케네디 암살과 냉전기의 폐기물을 축으로 삼아 공적 기록과 허구를 구분 없이 배치하는 장편 구조를 실험했다.",
+    "readingEntry": "don-delillo--white-noise",
+    "readingEntryReason": "드릴로의 주제가 한 가족의 일상이라는 좁은 무대 안에 압축되어 있고, 분량이 적당하며 장면마다 웃기기 때문에 그의 대화 문체에 가장 쉽게 적응할 수 있다.",
+    "readingOrder": [
+      "don-delillo--white-noise",
+      "don-delillo--libra",
+      "don-delillo--mao-ii",
+      "don-delillo--underworld"
+    ],
+    "readingWarning": "『언더월드』로 시작하면 팔백 쪽이 넘는 분량과 역순으로 배열된 연대기 때문에, 서두의 야구 경기 장면 이후 무엇을 따라가야 하는지 판단할 기준을 잡기 어렵다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 단위는 명료하지만 인물이 줄거리보다 관념을 말하고 사건 대신 사물과 소리의 목록이 이어져, 이야기를 좇는 독법으로는 중반 이후 진도가 나가지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "kazuo-ishiguro",
+    "names": {
+      "ko": "가즈오 이시구로",
+      "original": "Kazuo Ishiguro",
+      "aliases": [
+        "이시구로 가즈오",
+        "가즈오 이시구로 경",
+        "石黒一雄"
+      ]
+    },
+    "birthYear": 1954,
+    "activeRange": [
+      1982,
+      2021
+    ],
+    "anchorYear": 1995,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "locations": [
+      {
+        "label": "나가사키",
+        "lat": 32.7503,
+        "lon": 129.8779,
+        "role": "birth"
+      },
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "activity",
+        "primary": true,
+        "note": "다섯 살에 영국으로 이주해 영어로만 쓴 작가로, 집필과 발표의 거점은 처음부터 영국이었다"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "1인칭 화자가 자기 삶을 정리해 말하는 동안 스스로 감추는 것이 문장 사이에서 드러나는 회고 서술을 하나의 방법으로 정교화했다. 『남아 있는 나날』에서는 영국 집사의 절제된 직업 언어 자체가 화자가 놓친 것을 가리키는 장치가 되고, 『나를 보내지 마』에서는 같은 방법을 복제인간이라는 사변적 설정에 적용해 담담한 어조와 잔혹한 사실 사이의 낙차를 만들었다. 일본을 배경으로 한 초기작에서 국적이 지워진 무대로 옮겨 가며 특정 국민문학으로 분류되기 어려운 소설 세계를 세웠고, 2017년 노벨문학상을 받았다.",
+    "readingEntry": "kazuo-ishiguro--the-remains-of-the-day",
+    "readingEntryReason": "화자의 목소리 하나로 끝까지 밀고 가는 구조가 가장 선명하고, 분량이 적당하며 배경 지식 없이도 화자가 무엇을 비껴가는지 따라갈 수 있다.",
+    "readingOrder": [
+      "kazuo-ishiguro--the-remains-of-the-day",
+      "kazuo-ishiguro--never-let-me-go",
+      "kazuo-ishiguro--an-artist-of-the-floating-world",
+      "kazuo-ishiguro--the-unconsoled"
+    ],
+    "readingWarning": "『위로받지 못한 사람들』로 시작하면 오백 쪽 내내 꿈의 논리로 진행되는 구조 때문에, 이시구로의 다른 소설이 어떤 것인지에 대한 오해를 안고 출발하게 된다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 평이하고 화자의 어조는 끝까지 일정하다. 난도는 화자가 스스로 감춘 것을 독자가 문장 사이에서 재구성해야 한다는 데 있어, 빠르게 읽으면 핵심이 통째로 지나간다.",
+    "sourceIds": [
+      "src--nobelprize",
+      "src--britannica",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "jm-coetzee",
+    "names": {
+      "ko": "J. M. 쿳시",
+      "original": "J. M. Coetzee",
+      "aliases": [
+        "존 맥스웰 쿳시",
+        "쿳시",
+        "쿠체",
+        "John Maxwell Coetzee"
+      ]
+    },
+    "birthYear": 1940,
+    "activeRange": [
+      1974,
+      2023
+    ],
+    "anchorYear": 1990,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "sub-saharan-africa",
+      "oceania"
+    ],
+    "locations": [
+      {
+        "label": "케이프타운",
+        "lat": -33.9249,
+        "lon": 18.4241,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 아파르트헤이트 시기의 전 작품을 쓴 거점"
+      },
+      {
+        "label": "애들레이드",
+        "lat": -34.9285,
+        "lon": 138.6007,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "『야만인을 기다리며』에서 이름 없는 제국과 국경 도시를 설정해, 아파르트헤이트를 직접 지시하지 않고도 지배와 고문의 구조를 서술하는 우화 형식을 만들었다. 형용사를 걷어낸 짧은 현재형 문장과 판단을 유보하는 서술자로, 억압받는 쪽을 대신 말하는 행위 자체가 또 하나의 지배가 된다는 문제를 소설의 형식 안에서 다루었다. 『포』에서는 『로빈슨 크루소』를 다시 써서 누가 이야기할 권리를 갖는지 물었고, 후기의 엘리자베스 코스텔로 연작에서는 강연과 소설의 경계를 지운 형식을 시도했다. 2003년 노벨문학상을 받았다.",
+    "readingEntry": "jm-coetzee--waiting-for-the-barbarians",
+    "readingEntryReason": "분량이 짧고 지명과 시대가 특정되지 않아 사전 지식이 필요 없으며, 쿳시가 어떤 문장으로 어떤 문제를 다루는지가 첫 장부터 드러난다.",
+    "readingOrder": [
+      "jm-coetzee--waiting-for-the-barbarians",
+      "jm-coetzee--life-and-times-of-michael-k",
+      "jm-coetzee--disgrace",
+      "jm-coetzee--foe",
+      "jm-coetzee--elizabeth-costello"
+    ],
+    "readingWarning": "『포』를 먼저 읽으면 『로빈슨 크루소』를 되받아 쓰는 소설이라는 전제가 보이지 않아, 무엇을 하려는 책인지 잡히지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 군더더기가 없어 읽는 속도 자체는 빠르다. 난도는 서술자가 도덕적 판단을 끝까지 내려주지 않아 독자가 그 판단을 떠맡아야 한다는 데 있고, 후기작은 소설과 강연·비평의 경계를 지운다.",
+    "sourceIds": [
+      "src--nobelprize",
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--coetzee-doubling-the-point",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

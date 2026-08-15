@@ -1,0 +1,587 @@
+[
+  {
+    "id": "rabindranath-tagore",
+    "names": {
+      "ko": "라빈드라나트 타고르",
+      "original": "রবীন্দ্রনাথ ঠাকুর",
+      "aliases": [
+        "타고르",
+        "Rabindranath Tagore",
+        "로빈드로나트 타쿠르"
+      ]
+    },
+    "birthYear": 1861,
+    "deathYear": 1941,
+    "activeRange": [
+      1882,
+      1941
+    ],
+    "anchorYear": 1913,
+    "gender": "male",
+    "languages": [
+      "bn",
+      "en"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "locations": [
+      {
+        "label": "콜카타",
+        "lat": 22.5726,
+        "lon": 88.3639,
+        "role": "birth",
+        "primary": true,
+        "note": "조라산코의 생가와 벵골어 문단이 모두 이곳이며, 만년까지 활동의 기점이었다."
+      },
+      {
+        "label": "산티니케탄",
+        "lat": 23.6795,
+        "lon": 87.683,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "roots",
+      "early-modernism"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "타고르는 산스크리트 전통과 영국식 교양 사이에서 굳어 있던 벵골어를 노래·소설·희곡·논설을 모두 감당하는 근대 문어로 다시 짰다. 1890년대 잡지에 연재한 단편들로 벵골어 단편소설이라는 형식 자체를 만들었고, 시와 곡을 분리하지 않는 라빈드라상기트를 통해 인쇄시와 구전 노래를 한 몸으로 유지했다. 『기탄잘리』를 스스로 영어로 옮겨 1913년 유럽 밖에서 처음 노벨문학상을 받은 사건은 비서구 문학이 민속 자료가 아니라 문학으로 읽히는 통로를 열었다. 논설집 『민족주의』에서는 식민지 지식인의 자리에서 제국을 비판하면서 동시에 민족국가라는 형식 자체를 의심해, 반식민 사유가 국가주의로 수렴하지 않는 길을 제시했다.",
+    "readingEntry": "rabindranath-tagore--gitanjali",
+    "readingEntryReason": "한 권 분량이 짧고, 타고르가 직접 영어로 옮긴 판본이 있어 번역자의 개입이 가장 적은 상태로 읽을 수 있는 드문 경우다.",
+    "readingOrder": [
+      "rabindranath-tagore--gitanjali",
+      "rabindranath-tagore--kabuliwala",
+      "rabindranath-tagore--dak-ghar",
+      "rabindranath-tagore--ghare-baire",
+      "rabindranath-tagore--gora"
+    ],
+    "readingWarning": "영역본 『기탄잘리』만 읽고 타고르를 '동방의 현자'로 정리하는 것이 가장 흔한 경로다. 영역은 벵골어 운문의 정형 율격을 산문 기도문 어조로 바꾼 것이어서, 원어의 리듬과 세속적 연애시의 층위가 거의 남지 않는다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 어휘는 평이하지만, 소설은 브라모 사마지의 종교 개혁 논쟁과 스와데시 운동을 인물의 선택 근거로 삼기 때문에 그 배경 없이는 갈등의 방향이 잡히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--rabindra-bhavana",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "natsume-soseki",
+    "names": {
+      "ko": "나쓰메 소세키",
+      "original": "夏目漱石",
+      "aliases": [
+        "소세키",
+        "Natsume Sōseki",
+        "나쓰메 긴노스케",
+        "夏目金之助"
+      ]
+    },
+    "birthYear": 1867,
+    "deathYear": 1916,
+    "activeRange": [
+      1905,
+      1916
+    ],
+    "anchorYear": 1912,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "도쿄",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 제국대학 강사직과 아사히신문 연재까지 집필 활동 전 기간의 무대였다."
+      },
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "소세키는 한문 교양과 라쿠고의 구어 리듬을 동시에 쓸 수 있는 일본어 산문을 만들어, 언문일치가 이론이 아니라 실제로 소설을 지탱할 수 있음을 보였다. 사소설의 고백 대신 관계 안에서 작동하는 에고이즘을 사건으로 다루었고, 메이지가 수입한 근대가 개인에게 청구하는 대가를 삼각관계와 유산 문제 같은 구체적 사태로 번역했다. 1907년 대학을 떠나 아사히신문의 전속 작가가 되면서 신문 연재를 일본 문학의 중심 발표 형식으로 만들었고, 이후 작가가 저널리즘 안에서 직업으로 성립하는 경로를 열었다. 런던 유학의 실패 경험에서 나온 『문학론』은 영문학의 기준을 빌리지 않고 문학의 작동을 설명하려 한 최초의 체계적 시도였다.",
+    "readingEntry": "natsume-soseki--kokoro",
+    "readingEntryReason": "단권 분량에 3부 구성이 명료하고, 메이지의 종언과 개인의 죄의식이라는 소세키 후기의 문제가 한 권에 압축되어 있다.",
+    "readingOrder": [
+      "natsume-soseki--kokoro",
+      "natsume-soseki--botchan",
+      "natsume-soseki--sanshiro",
+      "natsume-soseki--sorekara",
+      "natsume-soseki--bungakuron"
+    ],
+    "readingWarning": "『나는 고양이로소이다』를 첫 책으로 고르면 메이지 지식인 사회의 내부 농담과 한문 전거에 기댄 풍자가 촘촘해, 주석 없이는 웃을 지점을 놓친 채 분량만 남는다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 평이한 구어체지만, 제국대학 학벌·집안의 유산·서양 유학이라는 메이지 특유의 제도가 인물의 선택을 결정하므로 그 배경 지식이 없으면 갈등이 사소해 보인다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--aozora-bunko",
+      "src--soseki-asahi-serialization",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "lu-xun",
+    "names": {
+      "ko": "루쉰",
+      "original": "魯迅",
+      "aliases": [
+        "노신",
+        "Lu Xun",
+        "저우수런",
+        "周樹人"
+      ]
+    },
+    "birthYear": 1881,
+    "deathYear": 1936,
+    "activeRange": [
+      1918,
+      1936
+    ],
+    "anchorYear": 1923,
+    "gender": "male",
+    "languages": [
+      "zh"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "사오싱",
+        "lat": 30.0023,
+        "lon": 120.581,
+        "role": "birth"
+      },
+      {
+        "label": "베이징",
+        "lat": 39.9042,
+        "lon": 116.4074,
+        "role": "activity",
+        "primary": true,
+        "note": "「광인일기」부터 소설집 『방황』까지 대표 소설 전부가 베이징 시기(1912–1926)에 쓰였다."
+      },
+      {
+        "label": "상하이",
+        "lat": 31.2304,
+        "lon": 121.4737,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "루쉰은 2천 년 동안 글의 자격을 독점해 온 문언을 버리고 백화로 소설을 쓰는 일이 가능하다는 것을 「광인일기」 한 편으로 증명했다. 문언으로 쓴 서문과 백화로 쓴 본문을 한 작품 안에 나란히 놓아, 언어의 교체 자체를 작품의 사건으로 만든 구성이었다. 「아Q정전」에서는 패배를 승리로 바꿔 기억하는 '정신승리법'이라는 진단명을 만들어, 소설의 인물이 한 사회의 자기인식을 가리키는 보통명사가 되게 했다. 만년의 잡문(雜文)은 짧은 논쟁문을 문학 장르로 확립했고, 『중국소설사략』은 천대받던 백화 서사를 학문의 대상으로 처음 정리했다.",
+    "readingEntry": "lu-xun--kuangren-riji",
+    "readingEntryReason": "십여 쪽 분량 안에 문언 서문과 백화 일기라는 이중 구조가 그대로 드러나, 중국 근대문학이 무엇을 끊고 시작했는지가 한 편으로 보인다.",
+    "readingOrder": [
+      "lu-xun--kuangren-riji",
+      "lu-xun--ah-q-zhengzhuan",
+      "lu-xun--panghuang",
+      "lu-xun--yecao",
+      "lu-xun--zhongguo-xiaoshuo-shilue"
+    ],
+    "readingWarning": "잡문부터 읽으면 1920–30년대 중국 문단 논쟁의 상대와 쟁점을 모르는 채로 읽게 되어, 정밀하게 겨냥된 반어가 그저 인신공격처럼 보인다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 건조하지만 한 작품 안에서 문언과 백화가 교체되고, 반어의 표적이 당대의 정치·사상 논쟁이어서 주석 없이는 무엇을 겨누는지가 보이지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--lu-xun-quanji",
+      "src--xinqingnian-1918",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "ryunosuke-akutagawa",
+    "names": {
+      "ko": "아쿠타가와 류노스케",
+      "original": "芥川龍之介",
+      "aliases": [
+        "아쿠타가와",
+        "Akutagawa Ryūnosuke",
+        "니이하라 류노스케"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1927,
+    "activeRange": [
+      1915,
+      1927
+    ],
+    "anchorYear": 1921,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "도쿄",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "role": "birth",
+        "primary": true,
+        "note": "출생·수학·집필·사망이 모두 도쿄에서 이루어졌고, 다른 도시의 체류는 짧은 취재 여행에 그쳤다."
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "아쿠타가와는 『곤자쿠 이야기집』 같은 고전 설화에서 줄거리만 떼어내고 그 자리에 근대적 동기와 회의를 이식해, 역사소설을 과거의 재현이 아니라 인식의 실험실로 바꾸었다. 「덤불 속」은 하나의 살인에 대한 서로 어긋나는 증언만을 나열하고 판정을 끝내 내리지 않는 구성으로, 서술의 신빙성 문제 자체를 소설의 주제로 세웠다. 사소설이 지배하던 다이쇼 문단에서 끝까지 짜인 단편을 밀고 나갔고, 죽기 직전 다니자키 준이치로와 벌인 '줄거리 없는 소설' 논쟁은 그 대립을 문헌으로 남겼다. 1935년 제정된 아쿠타가와상은 그의 이름을 일본 신인 소설의 관문으로 남겼다.",
+    "readingEntry": "ryunosuke-akutagawa--rashomon",
+    "readingEntryReason": "열 쪽 남짓 분량에 아쿠타가와의 방법 — 고전 설화를 뼈대만 남기고 동기를 다시 심는 것 — 이 온전히 들어 있다.",
+    "readingOrder": [
+      "ryunosuke-akutagawa--rashomon",
+      "ryunosuke-akutagawa--hana",
+      "ryunosuke-akutagawa--yabu-no-naka",
+      "ryunosuke-akutagawa--jigokuhen",
+      "ryunosuke-akutagawa--haguruma"
+    ],
+    "readingWarning": "구로사와의 영화 〈라쇼몬〉을 읽은 것으로 여기고 접근하면 어긋난다. 영화는 「라쇼몬」의 배경과 「덤불 속」의 사건을 합쳐 만든 것이어서, 원작 두 편은 각각 다른 작품이다.",
+    "difficulty": 2,
+    "difficultyReason": "낱편이 짧고 사건이 선명해 진입은 쉽지만, 대부분 고전 설화를 비틀어 쓴 것이라 원전을 모르면 비틀기의 각도가 보이지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--aozora-bunko",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "yi-sang",
+    "names": {
+      "ko": "이상",
+      "original": "李箱",
+      "aliases": [
+        "김해경",
+        "金海卿",
+        "Yi Sang"
+      ]
+    },
+    "birthYear": 1910,
+    "deathYear": 1937,
+    "activeRange": [
+      1930,
+      1937
+    ],
+    "anchorYear": 1936,
+    "gender": "male",
+    "languages": [
+      "ko",
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "서울(경성)",
+        "lat": 37.5665,
+        "lon": 126.978,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 총독부 건축과 근무, 구인회 활동, 다방 경영이 모두 이곳에서 이루어졌다."
+      },
+      {
+        "label": "도쿄",
+        "lat": 35.6895,
+        "lon": 139.6917,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "guinhoe"
+    ],
+    "genres": [
+      "poetry",
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "이상은 식민지 경성의 인쇄 지면 자체를 시의 재료로 삼았다. 숫자표와 기하 도형, 좌우가 뒤집힌 활자, 띄어쓰기를 지운 행을 신문 문예란에 그대로 밀어 넣어, 한국어 시가 의미의 전달이 아니라 표기의 사건일 수 있음을 처음 실증했다. 산문에서는 무기력한 화자와 그를 부양하는 아내라는 배치로 식민지 지식인의 경제적·성적 무능을 설명이나 알레고리 없이 기록했다. 총독부 건축기수로 일하며 일본어 잡지에 먼저 시를 발표한 이중언어 조건은 그의 실험이 서구 아방가르드의 수입이 아니라 제도와 지면의 조건에서 자라났음을 보여준다.",
+    "readingEntry": "yi-sang--nalgae",
+    "readingEntryReason": "단편 한 편 분량이고, 서두의 아포리즘과 본문의 서사가 서로 어긋나도록 배치된 구조가 이상의 방법을 가장 알아보기 쉽게 드러낸다.",
+    "readingOrder": [
+      "yi-sang--nalgae",
+      "yi-sang--gwontae",
+      "yi-sang--jongsaenggi",
+      "yi-sang--ogamdo",
+      "yi-sang--geonchuk-muhan-yukmyeon-gakche"
+    ],
+    "readingWarning": "「오감도」부터 시작하면 숫자판과 거울상 표기의 규칙을 찾다가 멈추기 쉽다. 산문 「날개」와 「권태」로 문장 감각을 먼저 익힌 뒤 시로 가는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "띄어쓰기를 없앤 표기, 숫자와 도형이 시행을 대신하는 판면, 일본어로 먼저 쓰인 시편의 이중언어 층위가 겹쳐, 원문을 그대로 따라 읽으려면 형식 실험을 끝까지 감내해야 한다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--joseon-jungang-ilbo-1934",
+      "src--joseon-to-kenchiku"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "kim-sowol",
+    "names": {
+      "ko": "김소월",
+      "original": "金素月",
+      "aliases": [
+        "김정식",
+        "金廷湜",
+        "Kim Sowol",
+        "소월"
+      ]
+    },
+    "birthYear": 1902,
+    "deathYear": 1934,
+    "activeRange": [
+      1920,
+      1934
+    ],
+    "anchorYear": 1925,
+    "gender": "male",
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "정주",
+        "lat": 39.6981,
+        "lon": 125.2144,
+        "role": "activity",
+        "primary": true,
+        "note": "출생지 평안북도 곽산과 같은 권역이며, 오산학교에서 김억을 만나 시를 시작한 곳이다."
+      },
+      {
+        "label": "서울",
+        "lat": 37.5665,
+        "lon": 126.978,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "김소월은 민요의 3음보와 7·5조를 근대 인쇄 지면의 자유시 안으로 옮겨, 공동체가 부르던 노래의 리듬을 한 사람의 목소리로 다시 쓰는 방법을 만들었다. 『진달래꽃』(1925)은 이별을 견디는 화자의 어조를 한국어 서정시의 기준 음역으로 고정했고, 이후의 한국시는 그 음역을 이어받거나 그것에 반발하는 방식으로 자기 자리를 정하게 되었다. 평안도 방언 어휘를 표준어의 예외가 아니라 시어로 쓴 점, 그리고 「시혼」(1925)에서 자기 시의 원리를 스스로 정식화한 점이 함께 평가된다.",
+    "readingEntry": "kim-sowol--jindallaekkot",
+    "readingEntryReason": "생전에 낸 유일한 시집이 곧 대표작이고 분량이 짧아, 표제작 한 편이 아니라 한 권의 어조 전체를 한 번에 확인할 수 있다.",
+    "readingOrder": [
+      "kim-sowol--jindallaekkot",
+      "kim-sowol--chohon",
+      "kim-sowol--sanyuhwa",
+      "kim-sowol--sowol-sicho",
+      "kim-sowol--sihon"
+    ],
+    "readingWarning": "「진달래꽃」 한 편만 교과서적 이별시로 읽고 끝내는 것이 가장 흔한 오독 경로다. 시집 전체에서는 유랑, 돌아갈 수 없는 고향, 죽은 이를 부르는 목소리가 더 큰 비중을 차지한다.",
+    "difficulty": 1,
+    "difficultyReason": "어휘와 통사가 평이하고 한 편의 분량이 짧다. 다만 평안도 방언과 옛 표기가 주석 없이는 걸리는 대목이 몇 군데 있다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--gaebyeok"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "han-yong-un",
+    "names": {
+      "ko": "한용운",
+      "original": "韓龍雲",
+      "aliases": [
+        "만해",
+        "卍海",
+        "Han Yong-un",
+        "Manhae"
+      ]
+    },
+    "birthYear": 1879,
+    "deathYear": 1944,
+    "activeRange": [
+      1913,
+      1939
+    ],
+    "anchorYear": 1926,
+    "gender": "male",
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "locations": [
+      {
+        "label": "홍성",
+        "lat": 36.6014,
+        "lon": 126.6608,
+        "role": "birth"
+      },
+      {
+        "label": "서울",
+        "lat": 37.5665,
+        "lon": 126.978,
+        "role": "activity",
+        "primary": true,
+        "note": "잡지 『유심』 발행과 3·1 독립선언, 만년의 심우장까지 활동의 중심이 서울이었다."
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "한용운은 불교의 역설 논리 — 이별이 곧 만남이고 침묵이 곧 말이라는 — 를 한국어 경어체 산문시의 통사로 옮겼다. 『님의 침묵』(1926)의 '님'은 연인과 부처와 잃어버린 주권 가운데 어느 하나로 확정되지 않도록 설계되어, 검열 아래에서 연가와 종교적 발화와 정치적 발화가 같은 문장을 공유할 수 있게 만들었다. 이 설계는 그가 『조선불교유신론』(1913)에서 조선 불교의 제도 개혁을 주장한 승려이자 3·1 독립선언의 민족대표였다는 이력과 분리되지 않는다. 발화가 봉쇄된 조건에서 침묵을 발화 형식으로 삼는 방법이 시의 구조 자체가 되었기 때문이다.",
+    "readingEntry": "han-yong-un--nimui-chimmuk",
+    "readingEntryReason": "한 권으로 묶인 연작이라 통독이 가능하고, 첫 편과 서문 격의 「군말」만 읽어도 '님'이 한 항으로 고정되지 않도록 설계된 것이 드러난다.",
+    "readingOrder": [
+      "han-yong-un--nimui-chimmuk",
+      "han-yong-un--joseon-dongnibui-seo",
+      "han-yong-un--joseon-bulgyo-yusinnon",
+      "han-yong-un--bulgyo-daejeon"
+    ],
+    "readingWarning": "'님'을 곧바로 조국으로 치환해 읽는 해석이 오래 통용되었으나 시집 자체는 그 치환을 확정하지 않는다. 한 항으로 고정하면 편마다 달라지는 어조의 변화가 대부분 사라진다.",
+    "difficulty": 2,
+    "difficultyReason": "시행이 길고 어조는 평이한 경어체지만, 불교 용어와 '있음/없음', '만남/이별'을 뒤집는 역설 구문이 반복되어 한 편의 결론이 다음 편에서 뒤집히는 것을 따라가야 한다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--nimui-chimmuk-1926"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "premchand",
+    "names": {
+      "ko": "프렘찬드",
+      "original": "प्रेमचंद",
+      "aliases": [
+        "문시 프렘찬드",
+        "Munshi Premchand",
+        "단파트 라이 스리바스타바",
+        "Dhanpat Rai Srivastava"
+      ]
+    },
+    "birthYear": 1880,
+    "deathYear": 1936,
+    "activeRange": [
+      1908,
+      1936
+    ],
+    "anchorYear": 1925,
+    "gender": "male",
+    "languages": [
+      "hi",
+      "ur"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "locations": [
+      {
+        "label": "바라나시",
+        "lat": 25.3176,
+        "lon": 82.9739,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지 람히 마을이 바라나시 외곽이며, 잡지 발행과 만년의 집필도 이곳에서 이루어졌다."
+      },
+      {
+        "label": "고라크푸르",
+        "lat": 26.7606,
+        "lon": 83.3732,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "프렘찬드는 우르두로 쓰기 시작해 힌디로 옮겨 간 이중언어 작가로, 두 문자 체계로 갈라지고 있던 힌두스타니 산문을 같은 이야기의 두 판본으로 남겼다. 페르시아·우르두 로맨스의 장식적 서사 대신 소작료와 부채와 소송 같은 농촌의 경제적 사실을 소설의 사건으로 삼아, 힌디 소설의 재료 자체를 바꾸었다. 『고단』(1936)은 한 농민 가족의 파산을 통계가 아니라 계절과 빚의 시간으로 서술해 인도 소설의 기준 텍스트가 되었다. 1936년 전인도 진보작가협회 창립대회 의장 연설에서는 문학을 오락이 아니라 현실을 심판하는 척도로 규정해, 이후 인도 좌파 문학의 출발 문서를 남겼다.",
+    "readingEntry": "premchand--kafan",
+    "readingEntryReason": "열 쪽 남짓의 단편이며, 굶주린 부자가 며느리의 장례비를 술값으로 쓰는 사태를 논평 없이 제시하는 후기의 냉정한 시선이 가장 짧게 요약되어 있다.",
+    "readingOrder": [
+      "premchand--kafan",
+      "premchand--sahitya-ka-uddeshya",
+      "premchand--godan",
+      "premchand--sevasadan",
+      "premchand--rangbhoomi"
+    ],
+    "readingWarning": "국내 번역이 드물어 영역본으로 접근하게 되는데, 힌디판과 우르두판이 같은 작품에서도 제목과 본문이 갈라지는 경우가 있으므로 어느 판본을 옮긴 것인지 확인하는 편이 낫다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 구성은 평이한 사실주의지만, 소작·부채·카스트·법정 절차 같은 식민지 농촌의 제도 어휘가 서사의 동력이라 그 배경 없이는 갈등의 크기가 잡히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--premchand-pwa-address-1936",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

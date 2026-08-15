@@ -1,0 +1,692 @@
+[
+  {
+    "id": "marcel-proust",
+    "names": {
+      "ko": "마르셀 프루스트",
+      "original": "Marcel Proust",
+      "aliases": [
+        "프루스트",
+        "Proust"
+      ]
+    },
+    "birthYear": 1871,
+    "deathYear": 1922,
+    "activeRange": [
+      1896,
+      1922
+    ],
+    "anchorYear": 1913,
+    "gender": "male",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 『잃어버린 시간을 찾아서』를 쓴 코르크 방이 있던 도시"
+      },
+      {
+        "label": "카부르",
+        "lat": 49.29,
+        "lon": -0.12,
+        "role": "activity",
+        "note": "발베크의 모델이 된 노르망디 해안 휴양지"
+      },
+      {
+        "label": "일리에콩브레",
+        "lat": 48.29,
+        "lon": 1.25,
+        "role": "other",
+        "note": "유년의 휴가지이자 콩브레의 모델"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "기억을 회상의 소재가 아니라 서술의 원리로 삼아, 한 문장 안에 여러 시간대를 겹쳐 붙드는 구문을 만들었다. 일곱 권의 『잃어버린 시간을 찾아서』를 원환으로 닫아, 마지막 권에 이르러 이 책을 쓰기로 하는 결심이 서사의 종착점이자 출발점이 되게 했다. 사교계의 사회학, 예술론, 질투의 심리학, 동성애의 서술을 한 서사 안에 포개면서 장편소설이 담을 수 있는 것의 범위를 다시 그었다.",
+    "readingEntry": "marcel-proust--du-cote-de-chez-swann",
+    "readingEntryReason": "연작의 1권이자 콩브레의 유년, 스완의 연애, 화자의 첫사랑이라는 세 덩어리가 각각 다른 서술 방식으로 붙어 있어 프루스트의 방법을 한 권에서 모두 볼 수 있다.",
+    "readingOrder": [
+      "marcel-proust--du-cote-de-chez-swann",
+      "marcel-proust--a-l-ombre-des-jeunes-filles-en-fleurs",
+      "marcel-proust--le-cote-de-guermantes",
+      "marcel-proust--sodome-et-gomorrhe",
+      "marcel-proust--le-temps-retrouve"
+    ],
+    "readingWarning": "「스완의 사랑」만 따로 떼어 읽고 프루스트를 읽었다고 여기기 쉽다. 그 장은 화자가 태어나기 전의 일이라 3인칭으로 서술되고, 연작 전체를 지탱하는 1인칭 회상의 구조가 빠져 있다.",
+    "difficulty": 4,
+    "difficultyReason": "한 문장이 한 쪽을 넘기며 종속절로 뻗고, 사건이 아니라 지각의 미세한 변화가 수십 쪽을 차지한다. 인물 수백 명이 수십 년에 걸쳐 다시 등장하므로 앞 권의 이름을 기억한 채로 읽어야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "franz-kafka",
+    "names": {
+      "ko": "프란츠 카프카",
+      "original": "Franz Kafka",
+      "aliases": [
+        "카프카",
+        "Kafka"
+      ]
+    },
+    "birthYear": 1883,
+    "deathYear": 1924,
+    "activeRange": [
+      1908,
+      1924
+    ],
+    "anchorYear": 1915,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "locations": [
+      {
+        "label": "프라하",
+        "lat": 50.0875,
+        "lon": 14.4213,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 평생의 활동 무대"
+      },
+      {
+        "label": "베를린",
+        "lat": 52.52,
+        "lon": 13.405,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "불가해한 죄의식과 관료제의 미로를 꿈의 논리로 서술하되, 정확하고 건조한 보고서의 문장으로 기록하는 산문을 만들었다. 환상과 사실주의의 대립을 무효화한 이 방법은 하나의 보통명사('카프카적')가 되었다. 사후 출간된 미완의 장편들은 실존주의, 부조리문학, 라틴아메리카 환상문학이 저마다 자기 선구자로 소급 발견한 좌표가 되었다.",
+    "readingEntry": "franz-kafka--die-verwandlung",
+    "readingEntryReason": "하룻밤 분량 안에 카프카적 상황의 전모 — 변신, 가족, 일상의 폭력 — 가 압축되어 있어 첫 관문으로 가장 확실하다.",
+    "readingOrder": [
+      "franz-kafka--die-verwandlung",
+      "franz-kafka--der-process",
+      "franz-kafka--das-schloss"
+    ],
+    "readingWarning": "『성』이나 『소송』으로 시작하면 미완의 구조와 반복 때문에 중도 포기하기 쉽다. 단편에서 장편으로 가는 순서를 권한다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 평이하지만 사건의 논리가 해석을 계속 미끄러뜨리고, 장편은 미완성이라 중반 이후 밀도 있는 독서가 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "james-joyce",
+    "names": {
+      "ko": "제임스 조이스",
+      "original": "James Joyce",
+      "aliases": [
+        "조이스",
+        "Joyce"
+      ]
+    },
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "activeRange": [
+      1904,
+      1939
+    ],
+    "anchorYear": 1922,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland",
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "더블린",
+        "lat": 53.3498,
+        "lon": -6.2603,
+        "role": "birth",
+        "primary": true,
+        "note": "스물두 살에 떠난 뒤 다시 살지 않았으나 모든 작품의 유일한 무대"
+      },
+      {
+        "label": "트리에스테",
+        "lat": 45.6495,
+        "lon": 13.7768,
+        "role": "exile",
+        "note": "1904–1915년 영어 교사로 체류하며 『더블린 사람들』과 『젊은 예술가의 초상』을 완성"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "exile",
+        "note": "『율리시스』가 출간되고 『피네간의 경야』가 쓰인 도시"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "『율리시스』에서 장마다 문체를 갈아 끼우는 구성을 밀고 나가, 문체가 내용에 봉사하는 도구가 아니라 그 자체로 서술 대상이 될 수 있음을 보였다. 더블린의 하루를 『오디세이아』의 구조에 겹쳐, 신화적 틀과 생리적 세부를 동시에 작동시키는 방법을 정식화했다. 『피네간의 경야』에서는 여러 언어를 한 단어 안에 접어 넣는 조어로 산문의 해독 가능성 자체를 실험 대상으로 삼았고, 이후의 소설은 이 극단을 참조점 삼아 자기 위치를 정하게 되었다.",
+    "readingEntry": "james-joyce--dubliners",
+    "readingEntryReason": "열다섯 편의 단편이라 한 편씩 끊어 읽을 수 있고, 마지막 「죽은 사람들」에 이미 조이스의 방법인 에피퍼니와 자유간접화법이 완성된 형태로 들어 있다.",
+    "readingOrder": [
+      "james-joyce--dubliners",
+      "james-joyce--a-portrait-of-the-artist-as-a-young-man",
+      "james-joyce--ulysses",
+      "james-joyce--finnegans-wake"
+    ],
+    "readingWarning": "『율리시스』를 첫 책으로 고르면 3장 이후 인용 표시 없는 내적 독백과 장별 문체 전환에서 막힌다. 앞의 두 권이 같은 인물(스티븐 디덜러스)과 같은 도시를 미리 깔아 주는 예비 과정이다.",
+    "difficulty": 5,
+    "difficultyReason": "입구는 평이하지만 출구가 멀다. 『율리시스』는 장마다 문체가 바뀌고 더블린의 지명·유행가·가톨릭 전례가 주석 없이 박혀 있으며, 『피네간의 경야』는 수십 개 언어를 합성한 조어로 쓰여 있어 사전과 안내서를 옆에 두는 독서가 전제된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "virginia-woolf",
+    "names": {
+      "ko": "버지니아 울프",
+      "original": "Virginia Woolf",
+      "aliases": [
+        "울프",
+        "Woolf",
+        "Adeline Virginia Stephen"
+      ]
+    },
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "activeRange": [
+      1915,
+      1941
+    ],
+    "anchorYear": 1927,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "locations": [
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 블룸즈버리의 거점, 그리고 『댈러웨이 부인』의 무대"
+      },
+      {
+        "label": "로드멜",
+        "lat": 50.84,
+        "lon": 0.02,
+        "role": "activity",
+        "note": "몽크스 하우스 — 후기 장편 대부분을 쓴 서식스의 집"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "인물의 의식과 서술자의 목소리가 문장 단위로 미끄러지며 겹치는 자유간접화법을 다듬어, 한 문장 안에서 말하는 사람이 바뀌어도 서사가 끊기지 않는 산문을 만들었다. 하루(『댈러웨이 부인』)와 십 년의 공백(『등대로』의 「시간이 흐르다」)을 한 책 안에서 전혀 다른 속도로 서술해, 소설의 시간 단위를 사건에서 지각으로 옮겼다. 『자기만의 방』에서는 여성이 쓰지 못한 이유를 재능이 아니라 연 500파운드와 잠글 수 있는 문이라는 물질 조건으로 환산해, 문학사 서술의 전제를 심문하는 비평의 형식을 열었다.",
+    "readingEntry": "virginia-woolf--mrs-dalloway",
+    "readingEntryReason": "6월의 하루, 런던 한 도시로 무대가 묶여 있어 분량이 짧고, 파티 준비와 전쟁 후유증이라는 두 축이 병렬로 진행되어 시점 이동을 따라가기가 비교적 쉽다.",
+    "readingOrder": [
+      "virginia-woolf--mrs-dalloway",
+      "virginia-woolf--orlando",
+      "virginia-woolf--to-the-lighthouse",
+      "virginia-woolf--the-waves"
+    ],
+    "readingWarning": "『파도』를 첫 책으로 고르면 막힌다. 여섯 인물의 독백만으로 이루어져 사건도 대화도 없는 이 책은 울프가 자기 방법을 끝까지 밀어붙인 종착점이지 입구가 아니다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 맑지만 시점이 표시 없이 인물 사이를 옮겨 다녀, 지금 누구의 생각을 읽고 있는지를 독자가 계속 판정해야 한다. 줄거리로 요약되는 사건은 거의 없다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "william-faulkner",
+    "names": {
+      "ko": "윌리엄 포크너",
+      "original": "William Faulkner",
+      "aliases": [
+        "포크너",
+        "Faulkner"
+      ]
+    },
+    "birthYear": 1897,
+    "deathYear": 1962,
+    "activeRange": [
+      1924,
+      1962
+    ],
+    "anchorYear": 1936,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "옥스퍼드(미시시피)",
+        "lat": 34.37,
+        "lon": -89.52,
+        "role": "activity",
+        "primary": true,
+        "note": "요크나파토파 군의 실제 모델이자 평생의 집필 거점 — 출생지 뉴올버니가 아니라 이곳을 대표로 잡았다"
+      },
+      {
+        "label": "뉴올리언스",
+        "lat": 29.95,
+        "lon": -90.07,
+        "role": "activity",
+        "note": "1925년 셔우드 앤더슨과 교류하며 첫 장편을 쓴 곳"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "요크나파토파라는 가상의 군을 여러 장편과 단편에 걸쳐 반복 사용해, 개별 작품이 아니라 한 지역의 역사 전체가 하나의 서사 단위가 되는 연작 구조를 만들었다. 지적장애가 있는 인물, 죽어 가는 어머니, 강박에 사로잡힌 남부 백인의 시점을 예고 없이 교대시켜, 사건이 아니라 사건을 감당하지 못하는 의식을 서술의 중심에 놓았다. 노예제와 남북전쟁의 과거가 현재 인물의 문장 구조 자체를 침식하게 만드는 이 방식은, 가르시아 마르케스를 비롯해 자기 지역의 역사를 써야 했던 후속 세대가 반복해서 참조한 모델이 되었다.",
+    "readingEntry": "william-faulkner--as-i-lay-dying",
+    "readingEntryReason": "쉰아홉 개의 짧은 독백 장으로 끊어져 있어 한 번에 읽는 단위가 작고, 관을 싣고 가는 여정이라는 단순한 뼈대가 있어 다중 화자 방식이 처음부터 눈에 들어온다.",
+    "readingOrder": [
+      "william-faulkner--as-i-lay-dying",
+      "william-faulkner--light-in-august",
+      "william-faulkner--the-sound-and-the-fury",
+      "william-faulkner--absalom-absalom"
+    ],
+    "readingWarning": "『소리와 분노』 1부로 시작하면 대부분 30쪽 안에서 멈춘다. 시간 표시 없이 30년을 오가는 벤지의 서술은 뒤의 세 부를 읽고 되돌아올 때 풀리도록 설계되어 있다.",
+    "difficulty": 4,
+    "difficultyReason": "문장이 절을 겹쳐 한 쪽을 넘기고, 시점과 시간이 예고 없이 이동한다. 같은 인물과 사건이 여러 책에 나뉘어 있어 한 권만으로는 앞뒤가 맞지 않는 대목이 남는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "thomas-mann",
+    "names": {
+      "ko": "토마스 만",
+      "original": "Thomas Mann",
+      "aliases": [
+        "Mann",
+        "Paul Thomas Mann"
+      ]
+    },
+    "birthYear": 1875,
+    "deathYear": 1955,
+    "activeRange": [
+      1898,
+      1955
+    ],
+    "anchorYear": 1924,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe",
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "뮌헨",
+        "lat": 48.14,
+        "lon": 11.58,
+        "role": "activity",
+        "primary": true,
+        "note": "1894년부터 망명 전까지 거주하며 주요 장편 대부분을 쓴 도시 — 출생지 뤼베크 대신 대표로 잡았다"
+      },
+      {
+        "label": "뤼베크",
+        "lat": 53.87,
+        "lon": 10.69,
+        "role": "birth",
+        "note": "출생지이자 『부덴브로크가의 사람들』의 무대인 한자 상인 도시"
+      },
+      {
+        "label": "퍼시픽 팰리세이즈",
+        "lat": 34.05,
+        "lon": -118.53,
+        "role": "exile",
+        "note": "1942–1952년 캘리포니아 망명지 — 『파우스트 박사』 집필지"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "시민 계급 가족사의 연대기에서 출발해, 유럽 사상의 논쟁 자체를 인물들의 대화로 상연하는 장편 형식을 확립했다. 반어를 문체의 기본값으로 삼아, 서술자가 인물에게 밀착하면서 동시에 그를 관찰 대상으로 유지하는 거리를 만들어 냈다. 망명 이후에는 독일 문화가 어떻게 파국에 이르렀는가를 한 작곡가의 전기 형식으로 서술해, 예술의 자율성 주장과 정치적 책임을 한 서사 안에서 정면으로 충돌시켰다.",
+    "readingEntry": "thomas-mann--der-tod-in-venedig",
+    "readingEntryReason": "중편 한 편 분량이면서, 규율로 세운 예술가가 무너지는 과정이라는 만의 평생 주제와 반어적 서술 거리가 완결된 형태로 들어 있다.",
+    "readingOrder": [
+      "thomas-mann--der-tod-in-venedig",
+      "thomas-mann--buddenbrooks",
+      "thomas-mann--der-zauberberg",
+      "thomas-mann--doktor-faustus"
+    ],
+    "readingWarning": "네 권짜리 『요셉과 그 형제들』이나 『파우스트 박사』부터 잡으면, 분량 이전에 성서 주해와 12음 기법·독일 사상사라는 전제 지식에서 막힌다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 정연하고 줄거리도 명료하지만, 반어의 층이 두꺼워 서술자의 진심을 어디에 두어야 할지 판정하기 어렵다. 장편에서는 사상 논쟁이 수십 쪽씩 서사를 대신한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "robert-musil",
+    "names": {
+      "ko": "로베르트 무질",
+      "original": "Robert Musil",
+      "aliases": [
+        "무질",
+        "Musil"
+      ]
+    },
+    "birthYear": 1880,
+    "deathYear": 1942,
+    "activeRange": [
+      1906,
+      1942
+    ],
+    "anchorYear": 1930,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "locations": [
+      {
+        "label": "빈",
+        "lat": 48.2082,
+        "lon": 16.3738,
+        "role": "activity",
+        "primary": true,
+        "note": "『특성 없는 남자』의 무대이자 오랜 집필 거점 — 출생지 클라겐푸르트 대신 대표로 잡았다"
+      },
+      {
+        "label": "클라겐푸르트",
+        "lat": 46.62,
+        "lon": 14.31,
+        "role": "birth"
+      },
+      {
+        "label": "제네바",
+        "lat": 46.2044,
+        "lon": 6.1432,
+        "role": "exile",
+        "note": "1938년 이후 망명지 — 미완의 장편을 붙들고 있다 이곳에서 죽었다"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "서술을 사건의 진행이 아니라 사유의 전개로 채우는 '에세이즘'을 장편의 구성 원리로 삼아, 판단이 유보된 상태 자체를 서술 대상으로 만들었다. 붕괴 직전의 오스트리아-헝가리를 '카카니엔'이라 부르며, 국가가 성대한 기념 사업을 준비하는 동안 끝내 아무것도 결정되지 않는 상태를 천 쪽 넘게 지속시켰다. 정밀과학의 정확성과 '다른 상태'라 부른 신비 경험을 한 인물 안에 나란히 두어, 근대의 지식과 감정이 서로를 번역하지 못하는 지점을 소설의 문제로 정식화했다.",
+    "readingEntry": "robert-musil--die-verwirrungen-des-zoeglings-toerless",
+    "readingEntryReason": "기숙학교라는 닫힌 무대에 사건이 뚜렷하게 있는 짧은 장편이면서, 수학의 허수를 계기로 설명 가능한 것과 그렇지 않은 것 사이가 벌어지는 무질의 핵심 문제가 이미 나와 있다.",
+    "readingOrder": [
+      "robert-musil--die-verwirrungen-des-zoeglings-toerless",
+      "robert-musil--drei-frauen",
+      "robert-musil--der-mann-ohne-eigenschaften"
+    ],
+    "readingWarning": "『특성 없는 남자』부터 시작하면 천 쪽이 넘는 미완의 분량 이전에, 사건 대신 에세이가 앞서 나가는 구성 때문에 중도에 놓기 쉽다.",
+    "difficulty": 4,
+    "difficultyReason": "줄거리가 진행되는 대신 인물의 사유가 논문처럼 전개되고, 합스부르크 말기 오스트리아의 정치·과학 담론을 전제로 깔고 있다. 게다가 대표작은 미완이라 결말이 없다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "fernando-pessoa",
+    "names": {
+      "ko": "페르난두 페소아",
+      "original": "Fernando Pessoa",
+      "aliases": [
+        "페르난도 페소아",
+        "페소아",
+        "Pessoa"
+      ]
+    },
+    "birthYear": 1888,
+    "deathYear": 1935,
+    "activeRange": [
+      1912,
+      1935
+    ],
+    "anchorYear": 1914,
+    "gender": "male",
+    "languages": [
+      "pt",
+      "en"
+    ],
+    "regions": [
+      "iberia"
+    ],
+    "locations": [
+      {
+        "label": "리스본",
+        "lat": 38.7223,
+        "lon": -9.1393,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 사망지 — 성인기 전부를 이 도시의 사무실과 카페에서 보냈다"
+      },
+      {
+        "label": "더반",
+        "lat": -29.86,
+        "lon": 31.02,
+        "role": "other",
+        "note": "1896–1905년 유년기 — 영어로 교육받아 영어 시를 쓰게 된 배경"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "필명이 아니라 '이명(heteronym)'을 만들었다. 알베르투 카에이루, 히카르두 헤이스, 알바루 드 캄푸스에게 각각 다른 생몰년과 사상, 문체, 그리고 서로에 대한 비평까지 부여해, 한 사람의 시집이 아니라 여러 시인이 논쟁하는 문학장을 한 사람 안에 세웠다. 그래서 개별 시편이 아니라 인격들의 배치를 함께 읽어야 뜻이 서고, '누가 쓰는가'라는 물음이 주제가 아니라 작품의 형식 자체가 되었다. 생전에 낸 포르투갈어 단행본은 『메시지』 한 권뿐이었고, 트렁크에 남긴 미간행 원고 뭉치가 사후 수십 년에 걸쳐 편집되면서 그의 전집은 지금도 판본마다 다르다.",
+    "readingEntry": "fernando-pessoa--livro-do-desassossego",
+    "readingEntryReason": "완결된 줄거리가 없는 단상 모음이라 아무 쪽에서 시작해 아무 쪽에서 멈춰도 되고, 페소아 산문의 정조가 첫 열 쪽에서 이미 드러난다.",
+    "readingOrder": [
+      "fernando-pessoa--livro-do-desassossego",
+      "fernando-pessoa--o-guardador-de-rebanhos",
+      "fernando-pessoa--ode-maritima",
+      "fernando-pessoa--mensagem"
+    ],
+    "readingWarning": "『메시지』를 첫 책으로 고르면 막힌다. 포르투갈 왕조사의 인물들과 밀교적 상징 체계를 전제로 쓰인 시집이라, 배경 없이는 고유명의 나열로만 읽힌다.",
+    "difficulty": 3,
+    "difficultyReason": "시행과 문장 자체는 평이하다. 어려운 것은 지금 어느 인격이 말하고 있는지를 함께 읽어야 한다는 점, 그리고 텍스트 대부분이 사후에 편집된 미정리 원고라 판본마다 구성과 배열이 달라진다는 점이다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--pessoa-letter-casais-monteiro",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "william-butler-yeats",
+    "names": {
+      "ko": "윌리엄 버틀러 예이츠",
+      "original": "William Butler Yeats",
+      "aliases": [
+        "예이츠",
+        "Yeats",
+        "W. B. Yeats"
+      ]
+    },
+    "birthYear": 1865,
+    "deathYear": 1939,
+    "activeRange": [
+      1885,
+      1939
+    ],
+    "anchorYear": 1928,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "locations": [
+      {
+        "label": "더블린",
+        "lat": 53.3498,
+        "lon": -6.2603,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 애비 극장을 세운 아일랜드 문예부흥의 거점"
+      },
+      {
+        "label": "슬라이고",
+        "lat": 54.28,
+        "lon": -8.48,
+        "role": "other",
+        "note": "유년의 여름을 보낸 외가 지역 — 초기 시의 지명과 전설이 여기서 왔다"
+      },
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "activity",
+        "note": "1887년 이후 오래 거주하며 라이머스 클럽과 프랑스 상징주의를 접한 곳"
+      }
+    ],
+    "periods": [
+      "roots",
+      "early-modernism"
+    ],
+    "movements": [
+      "symbolism",
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "drama"
+    ],
+    "tier": "anchor",
+    "importanceReason": "아일랜드 신화와 민담을 영어 시의 재료로 끌어와 문예부흥의 어휘를 만들고, 애비 극장을 세워 그 언어에 상설 무대를 붙였다. 1910년대 이후에는 초기의 유미적이고 흐릿한 상징을 버리고 구어의 리듬과 단단한 명사로 자기 시를 다시 썼는데, 노년에 문체를 통째로 갈아엎은 이 전환 자체가 이후 영어 시의 참조 사례가 되었다. 일본 노(能)의 형식을 빌려 무대 장치와 사실주의적 재현을 걷어낸 무용극을 시도해, 시극이 산문 사실주의 연극과 다른 경로로 갈 수 있음을 보였다.",
+    "readingEntry": "william-butler-yeats--the-tower",
+    "readingEntryReason": "얇은 시집 한 권에 「비잔티움으로의 항해」, 「1919년」, 「학교 아이들 사이에서」가 모여 있어, 후기 예이츠의 문체와 사상이 한 번에 잡힌다.",
+    "readingOrder": [
+      "william-butler-yeats--the-tower",
+      "william-butler-yeats--the-winding-stair-and-other-poems",
+      "william-butler-yeats--the-wind-among-the-reeds",
+      "william-butler-yeats--at-the-hawks-well"
+    ],
+    "readingWarning": "초기 시집부터 연대순으로 읽기 시작하면, 켈트 박명기의 흐릿한 상징과 낯선 아일랜드 고유명에 막혀 정작 그를 20세기 시인으로 만든 후기작에 닿지 못한다.",
+    "difficulty": 3,
+    "difficultyReason": "시행 자체는 명료하고 소리 내어 읽히지만, 아일랜드 신화·정치사와 『비전』에서 스스로 만든 상징 체계(나선, 달의 위상)를 배경에 깔고 있어 주석 없이는 고유명이 계속 미끄러진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

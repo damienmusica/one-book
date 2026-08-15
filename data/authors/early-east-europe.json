@@ -1,0 +1,628 @@
+[
+  {
+    "id": "bruno-schulz",
+    "names": {
+      "ko": "브루노 슐츠",
+      "original": "Bruno Schulz",
+      "aliases": [
+        "슐츠",
+        "Schulz"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1942,
+    "activeRange": [
+      1933,
+      1938
+    ],
+    "anchorYear": 1934,
+    "gender": "male",
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "eastern-europe"
+    ],
+    "locations": [
+      {
+        "label": "드로호비치",
+        "lat": 49.35,
+        "lon": 23.5,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 미술교사로 일하며 전 작품을 쓴 유일한 활동지. 1942년 이곳 게토에서 총격으로 사망했다."
+      },
+      {
+        "label": "바르샤바",
+        "lat": 52.2297,
+        "lon": 21.0122,
+        "role": "activity",
+        "note": "첫 단편집의 출간을 주선한 조피아 나우코프스카를 비롯한 문단 관계가 놓인 곳"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "갈리치아 소도시의 상점과 다락, 아버지의 광기를 우주 발생 신화의 규모로 번역하는 산문을 만들었다. 물질이 스스로 증식하고 퇴화한다는 '물질의 신화학'을 인물의 진술이 아니라 문장의 은유 밀도로 실행했고, 그 결과 유년의 기억은 회상이 아니라 창세기의 형식을 얻었다. 두 권의 단편집과 몇 편의 산문만 남았지만, 카프카나 조이스와 다른 경로로 모더니즘 산문의 감각을 확장한 사례로 폴란드 안팎에서 반복 참조된다.",
+    "readingEntry": "bruno-schulz--sklepy-cynamonowe",
+    "readingEntryReason": "아버지·상점·계절이라는 그의 세 좌표가 한 권 분량 안에 모두 들어 있고, 개별 단편이 독립적이어서 어디서 끊어 읽어도 손실이 적다.",
+    "readingOrder": [
+      "bruno-schulz--sklepy-cynamonowe",
+      "bruno-schulz--sanatorium-pod-klepsydra",
+      "bruno-schulz--mityzacja-rzeczywistosci"
+    ],
+    "readingWarning": "그림과 최후(게토에서의 죽음)에서 출발해 작품을 순교의 기록으로 읽으면, 정작 그의 문장이 하는 일 — 물질의 변신 — 이 배경으로 밀려난다.",
+    "difficulty": 4,
+    "difficultyReason": "사건이 거의 진행되지 않고 한 문장 안에서 은유가 여러 번 갈아 끼워지기 때문에, 줄거리를 따라가는 독법으로는 지면이 잘 넘어가지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--culture-pl",
+      "src--schulz-witkiewicz-1935",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "witold-gombrowicz",
+    "names": {
+      "ko": "비톨트 곰브로비치",
+      "original": "Witold Gombrowicz",
+      "aliases": [
+        "곰브로비치",
+        "Gombrowicz",
+        "비톨드 곰브로비치"
+      ]
+    },
+    "birthYear": 1904,
+    "deathYear": 1969,
+    "activeRange": [
+      1933,
+      1969
+    ],
+    "anchorYear": 1953,
+    "gender": "male",
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "eastern-europe"
+    ],
+    "locations": [
+      {
+        "label": "부에노스아이레스",
+        "lat": -34.6037,
+        "lon": -58.3816,
+        "role": "exile",
+        "primary": true,
+        "note": "1939년 발이 묶인 뒤 24년을 보낸 곳. 『트란스아틀란티크』·『일기』·『포르노그라피아』가 모두 여기서 쓰였다."
+      },
+      {
+        "label": "바르샤바",
+        "lat": 52.2297,
+        "lon": 21.0122,
+        "role": "activity"
+      },
+      {
+        "label": "방스",
+        "lat": 43.7226,
+        "lon": 7.1119,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "미성숙·형식·얼굴(gęba)이라는 자기 용어로, 인간은 타인 앞에서 강제로 형식을 뒤집어쓴다는 관계의 역학을 소설의 플롯 자체로 만들었다. 『페르디두르케』는 서른 살 남자를 학교로 돌려보내 어른됨이라는 형식을 희극적으로 해체했고, 아르헨티나 망명기에 쓴 『일기』는 폴란드성·조국·문학적 권위를 상대로 1인칭으로 벌인 공개 논쟁을 하나의 장르로 굳혔다. 자기 서술을 계속 조롱하는 화자와 반(反)엄숙주의는 이후 중부·동유럽 산문이 국가 서사에 저항하는 방식의 한 원형이 되었다.",
+    "readingEntry": "witold-gombrowicz--ferdydurke",
+    "readingEntryReason": "그의 어휘(미성숙·형식·얼굴)가 처음부터 끝까지 한 권 안에서 작동하고, 학교와 저택이라는 익숙한 무대 위에서 진행되어 사전 지식 없이 진입할 수 있다.",
+    "readingOrder": [
+      "witold-gombrowicz--ferdydurke",
+      "witold-gombrowicz--pornografia",
+      "witold-gombrowicz--dziennik",
+      "witold-gombrowicz--kosmos"
+    ],
+    "readingWarning": "『코스모스』나 『트란스아틀란티크』로 시작하면 각각 강박적 기호 해석과 옛 폴란드 이야기체 패러디가 장벽이 되어, 그가 무엇을 놀리는지 모르는 채 문장만 남는다.",
+    "difficulty": 4,
+    "difficultyReason": "문장은 어렵지 않으나 화자가 계속 자기 서술을 조롱하며 방향을 틀고, 폴란드 지식인 사회와 귀족 문화라는 조롱 대상의 맥락을 어느 정도 알아야 농담이 성립한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--culture-pl",
+      "src--gombrowicz-dziennik",
+      "src--gombrowicz-testament",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "hermann-broch",
+    "names": {
+      "ko": "헤르만 브로흐",
+      "original": "Hermann Broch",
+      "aliases": [
+        "브로흐",
+        "Broch"
+      ]
+    },
+    "birthYear": 1886,
+    "deathYear": 1951,
+    "activeRange": [
+      1931,
+      1951
+    ],
+    "anchorYear": 1941,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "locations": [
+      {
+        "label": "빈",
+        "lat": 48.2082,
+        "lon": 16.3738,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 방직공장을 판 뒤 철학·수학을 공부하고 『몽유병자들』을 쓴 활동의 중심"
+      },
+      {
+        "label": "뉴헤이븐",
+        "lat": 41.3083,
+        "lon": -72.9279,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "소설을 인식의 도구로 쓰겠다는 목표 아래, 서사·서정·논문을 한 권 안에서 교대시키는 구성을 만들었다. 『몽유병자들』은 1888·1903·1918년의 세 세대를 각기 다른 문체로 서술하고 그 사이에 '가치의 붕괴'라는 논문 장을 끼워 넣어, 유럽의 가치 체계가 해체되는 과정을 소설의 형식으로 제시한다. 『베르길리우스의 죽음』은 죽어가는 시인의 마지막 열여덟 시간을 긴 호흡의 내적 독백으로 밀어붙여, 예술이 죽음과 정치 앞에서 정당화될 수 있는가를 소설 안에서 심문했다.",
+    "readingEntry": "hermann-broch--die-schlafwandler",
+    "readingEntryReason": "3부작이지만 1부 「파제노프 또는 낭만주의」가 그 자체로 완결된 짧은 소설이라, 우선 1부만 읽고 계속할지 정할 수 있다.",
+    "readingOrder": [
+      "hermann-broch--die-schlafwandler",
+      "hermann-broch--die-schuldlosen",
+      "hermann-broch--der-tod-des-vergil"
+    ],
+    "readingWarning": "『베르길리우스의 죽음』으로 시작하면 한 문장이 여러 쪽에 걸치는 내적 독백과 라틴 문학사 배경 때문에 거의 확실히 중단하게 된다.",
+    "difficulty": 5,
+    "difficultyReason": "소설 안에 인식론 논문이 그대로 들어 있고, 후기작은 한 문장이 여러 쪽에 걸치는 내적 독백으로 진행되어 전공자적 끈기를 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--canetti-broch-rede-1936",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "elias-canetti",
+    "names": {
+      "ko": "엘리아스 카네티",
+      "original": "Elias Canetti",
+      "aliases": [
+        "카네티",
+        "Canetti"
+      ]
+    },
+    "birthYear": 1905,
+    "deathYear": 1994,
+    "activeRange": [
+      1932,
+      1985
+    ],
+    "anchorYear": 1960,
+    "gender": "male",
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "locations": [
+      {
+        "label": "빈",
+        "lat": 48.2082,
+        "lon": 16.3738,
+        "role": "activity",
+        "primary": true,
+        "note": "독일어를 습득하고 『현혹』을 썼으며 『군중과 권력』의 출발점이 된 1927년 군중 경험을 겪은 곳"
+      },
+      {
+        "label": "루세",
+        "lat": 43.8356,
+        "lon": 25.9657,
+        "role": "birth"
+      },
+      {
+        "label": "런던",
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "단 한 편의 장편 『현혹』에서 장서 2만 5천 권과 함께 불타는 중국학자를 통해, 지식이 세계와의 접촉을 끊었을 때 벌어지는 파국을 그렸다. 이후 30여 년을 군중이라는 현상 하나를 설명하는 데 쓴 『군중과 권력』은 신화·의례·정치사의 사례를 소설가의 관찰 문장으로 재배열해, 권력자를 '살아남은 자'로 규정하는 이론을 세웠다. 소설·희곡·비망록·자서전 사이를 오가며 장르 구분보다 관찰의 단위를 앞세운 글쓰기를 유지했고, 1981년 노벨문학상을 받았다.",
+    "readingEntry": "elias-canetti--die-gerettete-zunge",
+    "readingEntryReason": "짧은 장면 단위로 끊어지는 자서전이라 진입이 쉽고, 라디노어에서 독일어로 옮겨간 언어 획득의 내력이 이후의 소설과 이론이 어디서 나왔는지를 먼저 보여준다.",
+    "readingOrder": [
+      "elias-canetti--die-gerettete-zunge",
+      "elias-canetti--die-stimmen-von-marrakesch",
+      "elias-canetti--die-blendung",
+      "elias-canetti--masse-und-macht"
+    ],
+    "readingWarning": "『군중과 권력』을 첫 책으로 잡으면 출처 표시 없이 이어지는 인류학 사례의 나열에 방향을 잃기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "자서전과 여행기는 평이하지만 『현혹』은 인물 전원이 각자의 강박 안에 갇힌 채 진행되고, 『군중과 권력』은 논증보다 사례의 축적으로 밀고 나가 독자가 스스로 뼈대를 세워야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--canetti-broch-rede-1936",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "cesar-vallejo",
+    "names": {
+      "ko": "세사르 바예호",
+      "original": "César Vallejo",
+      "aliases": [
+        "바예호",
+        "Vallejo",
+        "세자르 바예호",
+        "César Abraham Vallejo Mendoza"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1938,
+    "activeRange": [
+      1919,
+      1938
+    ],
+    "anchorYear": 1928,
+    "gender": "male",
+    "languages": [
+      "es"
+    ],
+    "regions": [
+      "latin-america"
+    ],
+    "locations": [
+      {
+        "label": "리마",
+        "lat": -12.0464,
+        "lon": -77.0428,
+        "role": "activity",
+        "primary": true,
+        "note": "『검은 전령들』과 『트릴세』가 모두 이곳에서 출간되었고, 파리 망명 이전 그의 문학 활동의 중심이었다."
+      },
+      {
+        "label": "산티아고데추코",
+        "lat": -8.15,
+        "lon": -78.17,
+        "role": "birth"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "early-modernism"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "스페인어 시의 통사를 안에서부터 깨뜨렸다. 『트릴세』는 철자를 비틀고 숫자와 공백을 행에 끌어들여, 문법이 감당하지 못하는 고통의 시간을 표기 자체로 만들었고 라틴아메리카 전위시의 출발점으로 반복 인용된다. 파리 망명기에 축적되어 사후에 나온 『인간적인 시편들』과 스페인 내전 시편은 그 실험을 신체·굶주림·연대의 어휘로 되돌려, 형식 실험과 정치적 발언이 같은 문장 안에서 가능함을 보여주었다.",
+    "readingEntry": "cesar-vallejo--los-heraldos-negros",
+    "readingEntryReason": "안데스 가톨릭의 어휘와 모데르니스모의 음악성이 아직 남아 있어 진입 장벽이 낮고, 이후 『트릴세』가 무엇을 깨뜨렸는지 비교할 기준선이 된다.",
+    "readingOrder": [
+      "cesar-vallejo--los-heraldos-negros",
+      "cesar-vallejo--espana-aparta-de-mi-este-caliz",
+      "cesar-vallejo--poemas-humanos",
+      "cesar-vallejo--trilce"
+    ],
+    "readingWarning": "『트릴세』를 첫 책으로 잡으면 조어와 표기 실험이 번역에서 대부분 소실되어, 난해함만 남고 그 난해함의 이유는 전달되지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "조어·비문·표기 실험이 의미의 축이라 번역본에서는 원문의 파괴가 잘 보이지 않고, 후기 시는 안데스 지역어와 스페인 내전의 맥락을 함께 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--vallejo-trilce-1922-lima",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "anna-akhmatova",
+    "names": {
+      "ko": "안나 아흐마토바",
+      "original": "Анна Ахматова",
+      "aliases": [
+        "아흐마또바",
+        "Anna Akhmatova",
+        "Анна Андреевна Горенко"
+      ]
+    },
+    "birthYear": 1889,
+    "deathYear": 1966,
+    "activeRange": [
+      1912,
+      1966
+    ],
+    "anchorYear": 1939,
+    "gender": "female",
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "locations": [
+      {
+        "label": "상트페테르부르크",
+        "lat": 59.9375,
+        "lon": 30.3086,
+        "role": "activity",
+        "primary": true,
+        "note": "첫 시집부터 만년의 장시까지 그의 시가 놓인 무대이자 평생의 거주지"
+      },
+      {
+        "label": "오데사",
+        "lat": 46.4825,
+        "lon": 30.7233,
+        "role": "birth"
+      },
+      {
+        "label": "타슈켄트",
+        "lat": 41.2995,
+        "lon": 69.2401,
+        "role": "other",
+        "note": "1941~44년 전시 소개(疏開) 시기의 거처"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "acmeism"
+    ],
+    "genres": [
+      "poetry"
+    ],
+    "tier": "major",
+    "importanceReason": "아크메이즘의 강령대로 모호한 상징 대신 구체적인 사물 하나 — 장갑, 계단, 창 — 로 감정의 국면을 지정하는 짧은 서정시를 확립했다. 1930년대 이후에는 그 절제된 어법을 국가폭력의 기록으로 전환해, 아들의 체포를 기다리는 레닌그라드 감옥 앞의 줄을 『레퀴엠』의 화자 자리로 삼아 개인의 애도와 집단의 증언을 한 형식에 넣었다. 출판이 사실상 봉쇄된 긴 기간 동안 낭독과 암기로 텍스트를 유지한 사례는 소비에트 시기 문학이 존속한 방식 자체를 보여준다.",
+    "readingEntry": "anna-akhmatova--rekviem",
+    "readingEntryReason": "짧은 시 열 편 남짓과 산문 서문으로 이루어져 한 자리에서 통독할 수 있고, 아크메이즘의 구체성이 역사적 증언으로 전환되는 지점을 한 편 안에서 보여준다.",
+    "readingOrder": [
+      "anna-akhmatova--rekviem",
+      "anna-akhmatova--vecher",
+      "anna-akhmatova--chetki",
+      "anna-akhmatova--beg-vremeni"
+    ],
+    "readingWarning": "초기 연애시만 뽑은 선집으로 그를 '사랑의 시인'으로 읽으면, 1930년대 이후 그의 시가 감당한 것이 통째로 빠진다.",
+    "difficulty": 2,
+    "difficultyReason": "시행이 짧고 어휘가 평이해 진입은 쉽지만, 검열을 피하려 생략한 고유명사와 사건은 주석 없이 복원하기 어렵고 원문의 운율은 번역에서 대부분 사라진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--chukovskaya-zapiski",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "marina-tsvetaeva",
+    "names": {
+      "ko": "마리나 츠베타예바",
+      "original": "Марина Цветаева",
+      "aliases": [
+        "츠베타에바",
+        "Marina Tsvetaeva",
+        "Марина Ивановна Цветаева"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1941,
+    "activeRange": [
+      1910,
+      1941
+    ],
+    "anchorYear": 1926,
+    "gender": "female",
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "locations": [
+      {
+        "label": "모스크바",
+        "lat": 55.7558,
+        "lon": 37.6173,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 초기 시집과 혁명기 연작의 무대이며, 1939년 귀국 후 마지막 시기를 보낸 곳"
+      },
+      {
+        "label": "프라하",
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "role": "exile"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "exile"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "러시아 시의 문장을 압축과 파열 쪽으로 밀어붙였다. 접속사와 술어를 생략하고 줄표로 끊는 통사, 강세를 어긋내는 리듬, 한 낱말을 어근 단위로 쪼개 다시 조립하는 방식으로 감정의 속도를 의미보다 앞세우는 시행을 만들었다. 어느 유파에도 속하지 않은 채 장시·서정시·산문·서한을 한 몸으로 운용했고, 1926년 릴케·파스테르나크와 주고받은 삼각 서한은 별도의 책으로 묶여 널리 읽힌다.",
+    "readingEntry": "marina-tsvetaeva--moy-pushkin",
+    "readingEntryReason": "산문이라 통사의 장벽이 없고 분량이 짧으며, 문학을 어떻게 몸으로 겪었는지가 유년의 장면들로 직접 드러나 시로 들어가는 통로가 된다.",
+    "readingOrder": [
+      "marina-tsvetaeva--moy-pushkin",
+      "marina-tsvetaeva--vecherniy-albom",
+      "marina-tsvetaeva--posle-rossii",
+      "marina-tsvetaeva--poema-kontsa"
+    ],
+    "readingWarning": "그의 시를 전기(망명·궁핍·1941년의 자살)의 삽화로 먼저 읽으면, 정작 시행이 하는 일 — 통사의 파괴 — 이 배경으로 밀려난다.",
+    "difficulty": 4,
+    "difficultyReason": "생략된 술어와 줄표, 어긋난 강세가 의미의 축이라 원문에서도 여러 번 읽어야 하고, 번역에서는 리듬이 사라져 문장이 오히려 더 불투명해진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "sadegh-hedayat",
+    "names": {
+      "ko": "사데크 헤다야트",
+      "original": "صادق هدایت",
+      "aliases": [
+        "헤다야트",
+        "Sadegh Hedayat",
+        "Sādeq Hedāyat"
+      ]
+    },
+    "birthYear": 1903,
+    "deathYear": 1951,
+    "activeRange": [
+      1930,
+      1951
+    ],
+    "anchorYear": 1937,
+    "gender": "male",
+    "languages": [
+      "fa"
+    ],
+    "regions": [
+      "middle-east-north-africa"
+    ],
+    "locations": [
+      {
+        "label": "테헤란",
+        "lat": 35.6892,
+        "lon": 51.389,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 단편집 대부분을 쓰고 민속 채집을 수행한 활동의 중심"
+      },
+      {
+        "label": "봄베이",
+        "lat": 19.076,
+        "lon": 72.8777,
+        "role": "activity",
+        "note": "『눈먼 부엉이』를 완성해 등사판으로 처음 찍은 곳"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "other"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "페르시아 산문을 고전 수사와 교훈에서 떼어내 구어와 심리 쪽으로 옮겼다. 『눈먼 부엉이』는 화자가 같은 장면을 서로 다른 시대의 배경으로 두 번 겪게 만들어 서사의 인과 자체를 무너뜨리는 구조를 만들었고, 이란 밖에서 페르시아 현대문학을 대표하는 텍스트가 되었다. 동시에 그는 이란 민속과 팔라비어 문헌을 채집·번역하고 카프카를 페르시아어로 소개해, 자국 문학의 재료와 외래 형식을 같은 작업대에 올려놓았다.",
+    "readingEntry": "sadegh-hedayat--buf-e-kur",
+    "readingEntryReason": "백여 쪽의 단일 작품이고 그의 이름이 이란 밖에서 알려진 이유가 이 한 편에 집중되어 있어, 배경 지식 없이도 곧바로 진입할 수 있다.",
+    "readingOrder": [
+      "sadegh-hedayat--buf-e-kur",
+      "sadegh-hedayat--se-qatre-khun",
+      "sadegh-hedayat--sag-e-velgard",
+      "sadegh-hedayat--haji-aqa"
+    ],
+    "readingWarning": "『하지 아가』 같은 풍자로 시작하면 1940년대 테헤란 정치의 지시 대상을 모르는 채 읽게 되어, 그의 문장이 겨냥한 것이 대부분 보이지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 간결하지만 『눈먼 부엉이』는 같은 장면이 다른 시대의 배경으로 되풀이되는 구조라 인물과 시간이 계속 겹치고, 풍자작들은 이란 근대사의 지시 대상을 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--hedayat-buf-e-kur-bombay-1936",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

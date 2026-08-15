@@ -1,0 +1,716 @@
+[
+  {
+    "id": "gabriel-garcia-marquez",
+    "names": {
+      "ko": "가브리엘 가르시아 마르케스",
+      "original": "Gabriel García Márquez",
+      "aliases": [
+        "마르케스",
+        "가르시아 마르케스",
+        "가보",
+        "Gabo"
+      ]
+    },
+    "birthYear": 1927,
+    "deathYear": 2014,
+    "activeRange": [
+      1947,
+      2004
+    ],
+    "anchorYear": 1967,
+    "gender": "male",
+    "languages": [
+      "es"
+    ],
+    "regions": [
+      "latin-america"
+    ],
+    "locations": [
+      {
+        "label": "아라카타카",
+        "lat": 10.5919,
+        "lon": -74.1897,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 마콘도의 원형. 집필 활동의 중심은 멕시코시티였으나 작품 세계의 지리적 기원을 대표 좌표로 둔다"
+      },
+      {
+        "label": "멕시코시티",
+        "lat": 19.4326,
+        "lon": -99.1332,
+        "role": "activity",
+        "note": "1961년부터 사망까지 거주하며 『백년의 고독』 이후 대부분의 작품을 쓴 곳"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "magical-realism",
+      "latin-american-boom"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "라틴아메리카 구전 서사의 과장법과 유럽 모더니즘의 시간 구조를 한 문장 안에서 결합하는 산문을 만들었다. 승천과 유령을 날씨를 보고하듯 진술하는 이 어조는 '마술적 사실주의'라는 이름을 얻어, 아프리카·남아시아·동유럽 소설이 자기 역사를 서술할 때 빌려 쓰는 공용 문법이 되었다. 『백년의 고독』은 6대에 걸친 가계도를 소설의 뼈대로 세워 개인의 일대기가 아니라 한 공동체의 시간 전체를 한 권에 담는 규모를 소설에 되돌려주었다. 1982년 노벨문학상 수상으로 라틴아메리카 소설의 국제적 위치가 확정되었다.",
+    "readingEntry": "gabriel-garcia-marquez--cronica-de-una-muerte-anunciada",
+    "readingEntryReason": "결말을 첫 줄에 밝히고 시작하는 100여 쪽짜리 중편이라 하루면 끝나고, 그 안에 마르케스의 취재하는 화자와 순환하는 시간이 모두 들어 있다.",
+    "readingOrder": [
+      "gabriel-garcia-marquez--cronica-de-una-muerte-anunciada",
+      "gabriel-garcia-marquez--el-coronel-no-tiene-quien-le-escriba",
+      "gabriel-garcia-marquez--cien-anos-de-soledad",
+      "gabriel-garcia-marquez--el-amor-en-los-tiempos-del-colera",
+      "gabriel-garcia-marquez--el-otono-del-patriarca"
+    ],
+    "readingWarning": "『족장의 가을』로 시작하면 한 문장이 여러 쪽을 넘기고 화자가 문장 중간에 바뀌는 표기 때문에 문장 단위에서 막힌다. 이 책은 마지막에 둔다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 어렵지 않으나 『백년의 고독』은 같은 이름이 대를 이어 반복되어 가계도를 옆에 두지 않으면 인물이 섞이고, 후기작은 서술 시점이 예고 없이 이동한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "italo-calvino",
+    "names": {
+      "ko": "이탈로 칼비노",
+      "original": "Italo Calvino",
+      "aliases": [
+        "칼비노",
+        "Calvino"
+      ]
+    },
+    "birthYear": 1923,
+    "deathYear": 1985,
+    "activeRange": [
+      1947,
+      1985
+    ],
+    "anchorYear": 1972,
+    "gender": "male",
+    "languages": [
+      "it"
+    ],
+    "regions": [
+      "italy"
+    ],
+    "locations": [
+      {
+        "label": "토리노",
+        "lat": 45.0703,
+        "lon": 7.6869,
+        "role": "activity",
+        "primary": true,
+        "note": "에이나우디 출판사 편집자로 20년 가까이 일하며 작가가 된 활동의 중심지"
+      },
+      {
+        "label": "산레모",
+        "lat": 43.8159,
+        "lon": 7.7761,
+        "role": "other",
+        "note": "두 살부터 자란 리구리아의 도시. 데뷔작의 파르티잔 지형이 이 배후 산지다"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "activity",
+        "note": "1967년부터 13년간 거주하며 울리포에 참여한 시기"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "oulipo",
+      "postmodernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "전후 이탈리아의 저항 서사에서 출발해, 매 작품마다 서사의 규칙을 새로 정하고 그 규칙을 독자에게 드러내는 방식으로 소설을 다시 설계했다. 『보이지 않는 도시들』은 55개의 도시 묘사를 대칭 격자 위에 배열해 줄거리 없이도 책이 성립함을 보였고, 『어느 겨울밤 한 여행자가』는 첫 장만 있는 소설 열 편을 겹쳐 읽는 행위 자체를 주인공으로 만들었다. 울리포의 수학적 제약을 이탈리아 산문으로 옮기면서도 우화의 명료한 문장을 끝까지 유지해, 형식 실험이 난해함과 같은 말이 아님을 작품으로 증명했다.",
+    "readingEntry": "italo-calvino--le-citta-invisibili",
+    "readingEntryReason": "한 도시가 한 쪽 안에 끝나 아무 데서나 펼쳐 읽을 수 있고, 분량이 짧으면서도 칼비노가 소설로 무엇을 하려 했는지가 가장 선명하게 드러난다.",
+    "readingOrder": [
+      "italo-calvino--le-citta-invisibili",
+      "italo-calvino--il-barone-rampante",
+      "italo-calvino--le-cosmicomiche",
+      "italo-calvino--se-una-notte-d-inverno-un-viaggiatore",
+      "italo-calvino--lezioni-americane"
+    ],
+    "readingWarning": "『어느 겨울밤 한 여행자가』로 시작하면 소설의 관습을 이미 알고 있어야 성립하는 농담이 대부분 지나가버려, 미완의 조각 모음처럼만 읽힌다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 맑고 짧지만 책마다 다른 규칙 위에 세워져 있어 지금 무엇을 읽고 있는지 먼저 파악해야 하고, 후기작은 소설사에 대한 배경지식을 전제한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--treccani",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "toni-morrison",
+    "names": {
+      "ko": "토니 모리슨",
+      "original": "Toni Morrison",
+      "aliases": [
+        "모리슨",
+        "클로이 워퍼드",
+        "Chloe Ardelia Wofford"
+      ]
+    },
+    "birthYear": 1931,
+    "deathYear": 2019,
+    "activeRange": [
+      1970,
+      2019
+    ],
+    "anchorYear": 1987,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "뉴욕",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "role": "activity",
+        "primary": true,
+        "note": "랜덤하우스 편집자로 흑인 작가들의 책을 기획하면서 자기 소설을 쓴 활동의 중심지"
+      },
+      {
+        "label": "로레인",
+        "lat": 41.4528,
+        "lon": -82.1824,
+        "role": "birth",
+        "note": "오하이오의 제철 도시. 『가장 푸른 눈』의 무대가 되었다"
+      },
+      {
+        "label": "프린스턴",
+        "lat": 40.3573,
+        "lon": -74.6672,
+        "role": "activity",
+        "note": "1989년부터 프린스턴 대학에서 가르치며 후기작을 쓴 곳"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "흑인의 경험을 백인 독자에게 설명하는 시선을 서술에서 걷어내고, 공동체 내부의 말과 침묵을 그대로 소설의 문법으로 삼았다. 『빌러비드』는 노예제의 기억을 유령이라는 실체로 등장시켜 역사 서술이 감당하지 못하는 부분을 소설이 떠맡게 했고, 1988년 퓰리처상과 1993년 노벨문학상을 거치며 미국 흑인 서사는 소수자 문학의 항목이 아니라 미국 문학 정전의 중심으로 자리를 옮겼다. 1960년대 후반부터 1983년까지 랜덤하우스 편집자로 일하며 흑인 작가들의 책을 직접 기획해, 출판 구조 안에서도 같은 이동을 만들었다. 『어둠 속의 유희』에서는 미국 백인 문학이 흑인의 존재를 배경으로만 사용해온 방식을 비평의 언어로 정리했다.",
+    "readingEntry": "toni-morrison--the-bluest-eye",
+    "readingEntryReason": "가장 짧은 데뷔작이면서 문제 설정이 가장 직접적이다. 백인의 미(美) 기준이 어떻게 내면화되는지를 아동의 시점에서 따라가므로 배경지식 없이 들어갈 수 있다.",
+    "readingOrder": [
+      "toni-morrison--the-bluest-eye",
+      "toni-morrison--sula",
+      "toni-morrison--song-of-solomon",
+      "toni-morrison--beloved",
+      "toni-morrison--playing-in-the-dark"
+    ],
+    "readingWarning": "『빌러비드』로 시작하면 화자가 여럿으로 갈라지고 과거가 조각으로만 돌아오는 구조 때문에, 무슨 일이 일어났는지 파악하기 전에 지친다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 강렬하고 읽히지만 서술이 사건의 순서를 의도적으로 감추고 여러 목소리로 갈라지며, 미국 노예제와 흑인 공동체의 역사를 어느 정도 알아야 사건의 무게가 전달된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--library-of-america",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "thomas-pynchon",
+    "names": {
+      "ko": "토머스 핀천",
+      "original": "Thomas Pynchon",
+      "aliases": [
+        "핀천",
+        "토마스 핀천",
+        "Pynchon"
+      ]
+    },
+    "birthYear": 1937,
+    "activeRange": [
+      1959,
+      2013
+    ],
+    "anchorYear": 1973,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "글렌코브",
+        "lat": 40.8623,
+        "lon": -73.6337,
+        "role": "birth",
+        "primary": true,
+        "note": "생존 작가이므로 거주지는 기록하지 않는다. 공개적으로 확인되는 출생지를 대표 좌표로 둔다"
+      },
+      {
+        "label": "이서카",
+        "lat": 42.444,
+        "lon": -76.5019,
+        "role": "activity",
+        "note": "코넬 대학 재학 시절. 첫 단편이 이곳 교내지에 실렸다"
+      },
+      {
+        "label": "시애틀",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "role": "activity",
+        "note": "보잉에서 기술문서를 작성한 시기. 이후 소설의 공학 어휘가 이 경력에서 나왔다"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postmodernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "anchor",
+    "importanceReason": "로켓 공학·열역학·정보이론의 어휘를 비유가 아니라 서사의 작동 원리로 미국 소설에 끌어들였다. 『중력의 무지개』는 V-2 로켓의 낙하 지점과 한 인물의 신체 반응이 통계적으로 일치한다는 설정에서 출발해, 400명이 넘는 인물과 노래·만화·수식이 뒤섞인 삽화 연쇄로 2차 대전 말기를 재구성한다. 편집증을 병리가 아니라 하나의 인식 방법으로 다루어, 모든 것이 연결되어 있다는 가설과 아무것도 연결되어 있지 않다는 가설 사이에서 판정을 끝까지 유예하는 플롯을 만들었다. 이 구조는 이후 미국 소설이 거대한 체계를 서술할 때 쓰는 표준 도구가 되었다.",
+    "readingEntry": "thomas-pynchon--the-crying-of-lot-49",
+    "readingEntryReason": "150쪽 안에 핀천의 장치 전부 — 지하 조직, 해독되지 않는 기호, 판정을 미루는 결말 — 가 들어 있어, 장편에 들어가기 전 이 방식이 자기에게 맞는지 확인할 수 있다.",
+    "readingOrder": [
+      "thomas-pynchon--the-crying-of-lot-49",
+      "thomas-pynchon--v",
+      "thomas-pynchon--gravitys-rainbow",
+      "thomas-pynchon--mason-and-dixon"
+    ],
+    "readingWarning": "『중력의 무지개』로 시작하면 인물이 소개되자마자 사라지고 삽화가 예고 없이 교체되는 첫 100쪽에서 대부분 멈춘다. 짧은 작품으로 서술 규칙을 익힌 뒤 들어가야 한다.",
+    "difficulty": 5,
+    "difficultyReason": "인물 수가 수백 명이고 물리학·역사 자료가 요약 없이 서사에 직접 들어오며, 플롯이 해결이 아니라 확산으로 끝나기 때문에 줄거리를 붙잡으려는 독법 자체가 작동하지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "georges-perec",
+    "names": {
+      "ko": "조르주 페렉",
+      "original": "Georges Perec",
+      "aliases": [
+        "페렉",
+        "Perec"
+      ]
+    },
+    "birthYear": 1936,
+    "deathYear": 1982,
+    "activeRange": [
+      1965,
+      1982
+    ],
+    "anchorYear": 1978,
+    "gender": "male",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "birth",
+        "primary": true,
+        "note": "출생지이자 평생의 거주·집필지. 『인생사용법』의 아파트 건물이 놓인 도시다"
+      },
+      {
+        "label": "빌라르드랑",
+        "lat": 45.0703,
+        "lon": 5.5525,
+        "role": "other",
+        "note": "전쟁 중 보내진 알프스 산간 마을. 『W 또는 유년의 기억』의 회상층이 여기서 시작된다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [
+      "oulipo"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "울리포의 수학적 제약을 형식 놀이에서 개인사의 도구로 바꿔놓았다. 알파벳 e를 한 번도 쓰지 않은 『실종』에서 사라진 글자는 제약인 동시에 전쟁 중 사라진 부모의 자리이고, 『W 또는 유년의 기억』은 유년 회상과 가상의 섬 이야기를 번갈아 배치해 기억이 직접 서술될 수 없다는 사실 자체를 구조로 만들었다. 『인생사용법』에서는 파리의 한 아파트 정면을 10×10 격자로 세우고 체스 나이트의 이동 경로로 방을 순회하며, 목록·도면·색인을 소설의 부록이 아니라 본문으로 승격시켰다.",
+    "readingEntry": "georges-perec--les-choses",
+    "readingEntryReason": "제약이 겉으로 드러나지 않는 130쪽짜리 데뷔작이라 보통 소설처럼 읽을 수 있으면서도, 인물의 내면 대신 물건 목록으로 사람을 서술하는 페렉의 기본 동작이 이미 완성되어 있다.",
+    "readingOrder": [
+      "georges-perec--les-choses",
+      "georges-perec--un-homme-qui-dort",
+      "georges-perec--especes-d-espaces",
+      "georges-perec--w-ou-le-souvenir-d-enfance",
+      "georges-perec--la-vie-mode-d-emploi"
+    ],
+    "readingWarning": "『실종』을 번역으로 먼저 읽으면 e를 쓰지 않는다는 규칙이 다른 언어로 옮겨지는 과정에서 보이지 않게 되어, 규칙 없이 이상하기만 한 소설로 남는다.",
+    "difficulty": 4,
+    "difficultyReason": "제약이 본문에 표시되지 않아 무엇이 규칙인지 모른 채 읽게 되고, 『인생사용법』은 99개 장이 건물 평면도를 따라 배열되어 뒤에 붙은 색인과 연표를 함께 쓰지 않으면 길을 잃는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "milan-kundera",
+    "names": {
+      "ko": "밀란 쿤데라",
+      "original": "Milan Kundera",
+      "aliases": [
+        "쿤데라",
+        "Kundera"
+      ]
+    },
+    "birthYear": 1929,
+    "deathYear": 2023,
+    "activeRange": [
+      1963,
+      2014
+    ],
+    "anchorYear": 1984,
+    "gender": "male",
+    "languages": [
+      "cs",
+      "fr"
+    ],
+    "regions": [
+      "central-europe",
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "exile",
+        "primary": true,
+        "note": "1975년 망명 이후 사망까지의 집필 중심지이자 프랑스어 창작으로 전환한 곳"
+      },
+      {
+        "label": "브르노",
+        "lat": 49.1951,
+        "lon": 16.6068,
+        "role": "birth",
+        "note": "출생지. 음악가였던 아버지 아래에서 자란 모라비아의 도시"
+      },
+      {
+        "label": "프라하",
+        "lat": 50.0875,
+        "lon": 14.4213,
+        "role": "activity",
+        "note": "영화학교에서 가르치며 『농담』을 쓴 1950–60년대의 활동지"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "anchor",
+    "importanceReason": "소설을 이야기와 사유가 번갈아 진행되는 형식으로 재편했다. 서술자가 사건을 멈추고 '가벼움'이나 '키치' 같은 개념을 몇 쪽에 걸쳐 정의한 다음 인물에게 돌아가는 구성은, 에세이를 소설 바깥의 해설이 아니라 소설의 한 성부로 만들었다. 1975년 프랑스 망명과 1979년 체코 국적 박탈을 거치며 체코어 소설이 본국에서 금지된 채 번역으로 먼저 읽히는 상태를 겪었고, 1980년대 중반부터는 에세이를, 1990년대 중반부터는 소설을 프랑스어로 직접 써서 두 언어에 걸친 작품 목록을 남겼다. 중부유럽을 소련권도 서구도 아닌 독자적 문화 단위로 서구 독자에게 각인시킨 것도 그의 산문과 에세이다.",
+    "readingEntry": "milan-kundera--nesnesitelna-lehkost-byti",
+    "readingEntryReason": "네 인물의 관계라는 읽기 쉬운 표면 위에 서술자의 개념 논의가 얹혀 있어, 쿤데라 특유의 구성을 부담 없이 처음 겪을 수 있다. 분량도 그의 장편 중 중간 정도다.",
+    "readingOrder": [
+      "milan-kundera--nesnesitelna-lehkost-byti",
+      "milan-kundera--zert",
+      "milan-kundera--kniha-smichu-a-zapomneni",
+      "milan-kundera--la-lenteur",
+      "milan-kundera--l-art-du-roman"
+    ],
+    "readingWarning": "후기 프랑스어 소설은 짧아서 입문서로 골라지기 쉽지만, 앞선 소설들이 세워둔 화자의 규칙을 전제하고 쓰여 처음 읽으면 골격만 남은 이야기로 보인다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 사건은 평이하지만 서술자가 수시로 소설을 멈추고 개념을 정의하는 구성에 익숙해져야 하고, 프라하의 봄 전후 체코 현대사를 모르면 인물들의 선택이 밋밋하게 읽힌다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "stanislaw-lem",
+    "names": {
+      "ko": "스타니스와프 렘",
+      "original": "Stanisław Lem",
+      "aliases": [
+        "렘",
+        "스타니스와브 렘",
+        "Stanislaw Lem"
+      ]
+    },
+    "birthYear": 1921,
+    "deathYear": 2006,
+    "activeRange": [
+      1951,
+      1987
+    ],
+    "anchorYear": 1961,
+    "gender": "male",
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "locations": [
+      {
+        "label": "크라쿠프",
+        "lat": 50.0647,
+        "lon": 19.945,
+        "role": "activity",
+        "primary": true,
+        "note": "1946년 이후 대부분의 시기를 보내며 거의 모든 작품을 쓴 활동의 중심지"
+      },
+      {
+        "label": "르비우",
+        "lat": 49.8397,
+        "lon": 24.0297,
+        "role": "birth",
+        "note": "출생 당시 폴란드령 르부프. 의대에 다니다 전쟁으로 학업이 끊긴 곳이다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "speculative": true,
+    "tier": "major",
+    "importanceReason": "외계 지성·자동기계·우주 항행이라는 SF의 도구를 모험의 소재가 아니라 인식론의 실험 장치로 사용했다. 『솔라리스』는 접촉에 성공하는 이야기가 아니라 방대한 연구 문헌이 쌓였는데도 대상이 끝내 해석되지 않는 상태를 기록하고, 인간이 외계에서 찾아내는 것이 결국 자기 자신뿐이라는 결론을 서사로 밀고 간다. 『주인의 목소리』는 우주에서 온 신호를 해독하지 못하는 과학자 집단의 보고서 형식으로 과학 공동체의 자기기만을 해부했고, 『완전한 진공』은 존재하지 않는 책들의 서평만으로 한 권을 채워 비평과 창작의 구분을 지웠다. 소설과 나란히 『기술 대전』 같은 논고를 써서 같은 문제를 이론의 언어로도 전개했다.",
+    "readingEntry": "stanislaw-lem--solaris",
+    "readingEntryReason": "가장 널리 번역된 대표작이고 설정이 한 문장으로 요약되며, 렘이 SF를 무엇에 쓰는지 — 해답이 아니라 해석의 실패를 기록하는 데 쓴다 — 가 이 한 권에 다 들어 있다.",
+    "readingOrder": [
+      "stanislaw-lem--solaris",
+      "stanislaw-lem--cyberiada",
+      "stanislaw-lem--glos-pana",
+      "stanislaw-lem--doskonala-proznia",
+      "stanislaw-lem--summa-technologiae"
+    ],
+    "readingWarning": "영화판으로 『솔라리스』를 먼저 접하면 사랑 이야기로 축소된 판본이 기준이 되어, 소설이 실제로 다루는 인식 불가능한 대상의 문제가 배경으로 밀려난다.",
+    "difficulty": 3,
+    "difficultyReason": "문장보다 렘이 서사에 통째로 얹는 논증 — 가상의 학문 문헌 요약, 정보이론과 통계 토론 — 을 건너뛰지 않고 읽어야 이야기가 성립하고, 후기작은 존재하지 않는 책의 서평 형식이라 어디까지가 농담인지 독자가 판정해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--culture-pl",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "umberto-eco",
+    "names": {
+      "ko": "움베르토 에코",
+      "original": "Umberto Eco",
+      "aliases": [
+        "에코",
+        "Eco"
+      ]
+    },
+    "birthYear": 1932,
+    "deathYear": 2016,
+    "activeRange": [
+      1956,
+      2015
+    ],
+    "anchorYear": 1980,
+    "gender": "male",
+    "languages": [
+      "it"
+    ],
+    "regions": [
+      "italy"
+    ],
+    "locations": [
+      {
+        "label": "볼로냐",
+        "lat": 44.4949,
+        "lon": 11.3426,
+        "role": "activity",
+        "primary": true,
+        "note": "1971년부터 볼로냐 대학 기호학 교수로 이론 작업을 수행한 중심지"
+      },
+      {
+        "label": "알레산드리아",
+        "lat": 44.9133,
+        "lon": 8.615,
+        "role": "birth",
+        "note": "피에몬테의 출생지. 후기 소설이 반복해서 돌아가는 지역이다"
+      },
+      {
+        "label": "밀라노",
+        "lat": 45.4642,
+        "lon": 9.19,
+        "role": "activity",
+        "note": "출판사 편집자로 일하고 만년에 거주한 곳"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "postmodernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "기호학자로서 텍스트가 독자의 협력 없이는 완성되지 않는다는 이론을 먼저 세운 뒤, 그 이론을 자기 소설로 시험했다. 『열린 예술작품』과 『이야기 속의 독자』가 세운 '모델 독자' 개념은 『장미의 이름』에서 중세 수도원 추리극이라는 대중 형식과 결합해, 이론서와 베스트셀러가 같은 문제를 다룰 수 있음을 실물로 보였다. 인용·목록·위서(僞書)를 서사의 재료로 쓰는 그의 방식은 이후 포스트모던 소설의 표준 도구가 되었고, 그 자신은 그것을 이미 다 말해진 것을 아이러니와 함께 다시 말하기로 정식화했다.",
+    "readingEntry": "umberto-eco--il-nome-della-rosa",
+    "readingEntryReason": "수도원 연쇄 죽음이라는 추리소설의 뼈대가 중세 신학 논쟁과 기호 해석을 그대로 실어 나르기 때문에, 이론서를 먼저 읽지 않고도 에코의 문제의식 전체를 통과하게 된다.",
+    "readingOrder": [
+      "umberto-eco--il-nome-della-rosa",
+      "umberto-eco--postille-al-nome-della-rosa",
+      "umberto-eco--il-pendolo-di-foucault",
+      "umberto-eco--baudolino",
+      "umberto-eco--opera-aperta"
+    ],
+    "readingWarning": "『푸코의 진자』를 먼저 잡으면 앞부분 수백 쪽이 오컬트 문헌 목록처럼 읽혀, 소설이 움직이기 시작하기 전에 손을 놓기 쉽다.",
+    "difficulty": 4,
+    "difficultyReason": "소설 안에 라틴어 인용과 중세 신학·오컬트 문헌이 요약 없이 들어와 주석을 따라가지 않으면 상당 부분이 장식으로 지나가고, 이론서 쪽은 기호학 용어를 이미 알고 있다고 전제한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--treccani",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "jose-saramago",
+    "names": {
+      "ko": "주제 사라마구",
+      "original": "José Saramago",
+      "aliases": [
+        "사라마구",
+        "사라마고",
+        "Saramago"
+      ]
+    },
+    "birthYear": 1922,
+    "deathYear": 2010,
+    "activeRange": [
+      1977,
+      2009
+    ],
+    "anchorYear": 1995,
+    "gender": "male",
+    "languages": [
+      "pt"
+    ],
+    "regions": [
+      "iberia"
+    ],
+    "locations": [
+      {
+        "label": "리스본",
+        "lat": 38.7223,
+        "lon": -9.1393,
+        "role": "activity",
+        "primary": true,
+        "note": "정비공·기자·번역가로 일하다 쉰 넘어 전업 작가가 된 활동의 중심지"
+      },
+      {
+        "label": "아지냐가",
+        "lat": 39.24,
+        "lon": -8.55,
+        "role": "birth",
+        "note": "히바테주의 농촌 마을. 소작농 조부모 아래에서 보낸 유년이 초기작의 배경이다"
+      },
+      {
+        "label": "티아스 (란사로테)",
+        "lat": 28.96,
+        "lon": -13.65,
+        "role": "exile",
+        "note": "『예수복음』을 둘러싼 정부와의 충돌 뒤 1993년 옮겨 가 사망까지 지낸 곳"
+      }
+    ],
+    "periods": [
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "tier": "major",
+    "importanceReason": "마침표와 쉼표만 남긴 긴 문단, 따옴표 없이 지문 안으로 이어 붙인 대화, 끊임없이 끼어드는 서술자 — 이 세 가지를 한 묶음으로 만들어 구어 이야기꾼의 목소리를 인쇄된 소설의 문법으로 옮겼다. 하나의 가정을 세우고 그 결과만 냉정하게 추적하는 우화 구조를 반복해, 환상이 아니라 사고실험으로 읽히는 소설 형식을 확립했다. 포르투갈 소설이 국제적으로 읽히는 통로를 열었고 1998년 포르투갈어권에서 처음으로 노벨문학상을 받았다.",
+    "readingEntry": "jose-saramago--ensaio-sobre-a-cegueira",
+    "readingEntryReason": "설정이 한 문장으로 끝나고 사건이 빠르게 밀고 나가기 때문에, 문장부호가 거의 없는 사라마구의 표기에 적응하기에 가장 부담이 적다.",
+    "readingOrder": [
+      "jose-saramago--ensaio-sobre-a-cegueira",
+      "jose-saramago--as-intermitencias-da-morte",
+      "jose-saramago--o-ano-da-morte-de-ricardo-reis",
+      "jose-saramago--memorial-do-convento",
+      "jose-saramago--o-evangelho-segundo-jesus-cristo"
+    ],
+    "readingWarning": "『리카르두 레이스가 죽은 해』로 시작하면 페소아와 그의 이명(異名) 체계를 모른 채 읽게 되어, 소설의 전제 자체가 성립하지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "몇 쪽에 걸친 문단이 마침표와 쉼표만으로 이어지고 대화가 줄바꿈이나 따옴표 없이 지문 안에 붙어 있어, 누가 말하는지 세면서 읽는 방식을 처음부터 새로 익혀야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--fundacao-jose-saramago",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]

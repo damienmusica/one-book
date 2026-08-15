@@ -1,0 +1,386 @@
+[
+  {
+    "id": "contrast--ryunosuke-akutagawa--yasunari-kawabata",
+    "sourceId": "ryunosuke-akutagawa",
+    "targetId": "yasunari-kawabata",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "가와바타는 1933년 수필 「말기의 눈」의 제목을 아쿠타가와의 유서 「어느 옛 친구에게 보내는 수기」(1927)에서 그대로 가져왔다. 죽음을 앞둔 눈에 자연이 더 아름답게 비친다고 쓴 대목을 인용한 뒤, 어떤 경우에도 자살은 깨달음의 모습이 아니라고 반박했다. 일본 근대문학 연구는 두 글을 예술과 죽음을 두고 갈라선 한 쌍으로 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--akutagawa-kyuyu-e-okuru-shuki-1927",
+      "src--kawabata-matsugo-no-me-1933"
+    ]
+  },
+  {
+    "id": "influence--james-joyce--yasunari-kawabata",
+    "sourceId": "james-joyce",
+    "targetId": "yasunari-kawabata",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "『율리시스』의 일본어 번역이 진행되던 1931년에 가와바타는 「수정 환상」을 발표해 의식의 흐름을 일본어 문장으로 시험했다. 일본 근대문학 연구는 신감각파 시기의 이 실험을 가와바타의 조이스 독서와 직접 연결해 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "influence--ryunosuke-akutagawa--osamu-dazai",
+    "sourceId": "ryunosuke-akutagawa",
+    "targetId": "osamu-dazai",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "다자이는 십대에 아쿠타가와를 탐독했고 1927년 아쿠타가와의 자살에 큰 충격을 받았다. 1935년과 1936년에는 아쿠타가와상 수상을 달라고 심사위원들에게 직접 편지를 써 청원했으며, 그 편지들이 서간집에 남아 있다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dazai-akutagawa-sho-shokan",
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "dialogue--yasunari-kawabata--osamu-dazai",
+    "sourceId": "yasunari-kawabata",
+    "targetId": "osamu-dazai",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.8,
+    "summary": "제1회 아쿠타가와상 심사에서 가와바타가 다자이의 「역행」을 두고 작가의 생활을 문제 삼는 심사평을 쓰자, 다자이는 1935년 10월 「가와바타 야스나리에게」를 발표해 공개적으로 반박했다. 이듬해에는 같은 상대에게 수상을 청원하는 편지를 보냈다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dazai-kawabata-yasunari-e-1935",
+      "src--dazai-akutagawa-sho-shokan"
+    ]
+  },
+  {
+    "id": "influence--lu-xun--osamu-dazai",
+    "sourceId": "lu-xun",
+    "targetId": "osamu-dazai",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "다자이는 1945년 장편 『석별』에서 센다이 의학전문학교 시절의 저우수런, 곧 루쉰을 주인공으로 삼았다. 루쉰의 회상 「후지노 선생」을 비롯한 자료를 읽고 쓴 작품이며, 일본문학보국회의 위촉으로 대동아 문화 정책 안에서 집필됐다는 조건도 함께 기록된다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dazai-sekibetsu-1945",
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "influence--fyodor-dostoevsky--osamu-dazai",
+    "sourceId": "fyodor-dostoevsky",
+    "targetId": "osamu-dazai",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "『인간 실격』의 화자는 도스토옙스키의 『죄와 벌』을 이름 그대로 불러내, 죄와 벌이 왜 반의어처럼 나란히 놓이는지를 되묻는다. 죄의식을 고백체의 축으로 삼은 다자이의 방법에서 도스토옙스키는 작품 본문 안에 명시된 참조점이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "mentorship--yasunari-kawabata--yukio-mishima",
+    "sourceId": "yasunari-kawabata",
+    "targetId": "yukio-mishima",
+    "type": "mentorship",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "패전 직후 가마쿠라의 가와바타를 찾아간 스무 살의 미시마는 원고를 보였고, 가와바타의 추천으로 1946년 잡지 『인간』에 「담배」가 실리며 전후 문단에 등단했다. 두 사람은 1970년까지 서한을 주고받았고 그 왕복 서간은 단행본으로 묶여 있다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kawabata-mishima-ofuku-shokan",
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "dialogue--osamu-dazai--yukio-mishima",
+    "sourceId": "osamu-dazai",
+    "targetId": "yukio-mishima",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.8,
+    "summary": "미시마는 1955년 『소설가의 휴가』에서 다자이의 성격적 결함은 냉수마찰과 규칙적인 생활로 절반은 고쳐졌을 것이라고 쓰며 그의 문학을 정면으로 거부했다. 1963년 회고 『나의 편력시대』에서는 다자이를 만난 자리에서 당신의 문학이 싫다고 직접 말했다고 기록했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--mishima-shosetsuka-no-kyuka-1955",
+      "src--mishima-watashi-no-henreki-jidai"
+    ]
+  },
+  {
+    "id": "dialogue--kobo-abe--yukio-mishima",
+    "sourceId": "kobo-abe",
+    "targetId": "yukio-mishima",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.75,
+    "summary": "1967년 2월 아베와 미시마는 가와바타 야스나리·이시카와 준과 함께 중국 문화대혁명의 학문·예술 탄압에 항의하는 공동성명을 냈다. 정치적 입장이 정반대로 갈라져 있던 두 사람이 같은 문서에 이름을 올린 기록이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--bunka-daikakumei-kyodo-seimei-1967"
+    ]
+  },
+  {
+    "id": "influence--thomas-mann--yukio-mishima",
+    "sourceId": "thomas-mann",
+    "targetId": "yukio-mishima",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "미시마 연구는 예술가의 자의식과 미의 파괴를 다루는 그의 소설을 토마스 만의 『베니스에서의 죽음』·『토니오 크뢰거』 계보에 놓고 반복해 논해 왔다. 유럽 교양소설의 관념을 고전 일본어 어휘로 옮겨 쓴 대목이 그 비교의 근거로 지목된다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "influence--friedrich-nietzsche--yukio-mishima",
+    "sourceId": "friedrich-nietzsche",
+    "targetId": "yukio-mishima",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "미시마 연구는 『비극의 탄생』의 아폴론·디오니소스 대립을 그의 미학의 골격으로 다룬다. 그리스 여행 이후의 신체 단련과 『태양과 철』의 육체론이 그 독서 위에서 설명되는 것이 표준적인 독법이다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "influence--franz-kafka--kobo-abe",
+    "sourceId": "franz-kafka",
+    "targetId": "kobo-abe",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "이름이 지워진 인물이 해명 없는 조건 아래 놓이는 아베의 설정은 국제 비평이 카프카와 나란히 놓고 다루는 표준 항목이고, 「벽 — S. 카르마 씨의 범죄」 이후의 작업이 그 계보로 읽혀 왔다. 아베 본인의 카프카 독서 진술을 특정 문헌으로 확정하지 못해 수준을 한 단계 낮춰 기록한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "dialogue--yasunari-kawabata--kobo-abe",
+    "sourceId": "yasunari-kawabata",
+    "targetId": "kobo-abe",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "1967년 2월 가와바타와 아베는 이시카와 준·미시마 유키오와 함께 중국 문화대혁명의 학문·예술 탄압에 항의하는 공동성명을 발표했다. 세대도 방법도 전혀 다른 두 작가가 같은 문서에 이름을 올린 자리다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--bunka-daikakumei-kyodo-seimei-1967"
+    ]
+  },
+  {
+    "id": "influence--rainer-maria-rilke--kobo-abe",
+    "sourceId": "rainer-maria-rilke",
+    "targetId": "kobo-abe",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "아베의 1940년대 초기 시와 첫 소설 『끝난 길의 표지에(終りし道の標に)』는 릴케를 읽던 시기의 산물로 다루어진다. 존재와 사물을 묻는 초기의 관념적 문체가 이후의 건조한 설정 소설로 바뀌는 지점이 그 독서와 함께 설명된다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "affinity--samuel-beckett--kobo-abe",
+    "sourceId": "samuel-beckett",
+    "targetId": "kobo-abe",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 이름과 내력이 지워진 인물을 하나의 조건 안에 가둔 뒤 그 조건만으로 소설과 희곡을 끝까지 미는 방법이 겹친다는 이유로 둘을 가까이 놓는다.",
+    "evidenceLevel": "editorial_inference",
+    "sourceIds": []
+  },
+  {
+    "id": "dialogue--kobo-abe--kenzaburo-oe",
+    "sourceId": "kobo-abe",
+    "targetId": "kenzaburo-oe",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "두 사람은 전후 일본 문학의 실험적 축을 나누어 맡으며 정치적 발언에서도 같은 편에 서 온 동료로 널리 논의된다. 오에가 아베를 노벨상에 값하는 선배로 꼽아 왔다는 회고는 여러 대담에서 전해지나, 특정 1차 문서로 확정하지 못해 학계 정설 수준으로 기록한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "contrast--yasunari-kawabata--kenzaburo-oe",
+    "sourceId": "yasunari-kawabata",
+    "targetId": "kenzaburo-oe",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.75,
+    "summary": "가와바타의 1968년 수상 강연 「아름다운 일본의 나」는 자기 작업을 중세 선과 와카의 계보에 접속시켰다. 오에는 1994년 강연 「애매한 일본의 나」에서 그 제목을 한 낱말만 바꿔 인용하며, 근대 일본이 서구와 아시아 사이에서 찢겨 있다는 사실을 덮는 자기규정이라고 반박했다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--kawabata-nobel-lecture",
+      "src--oe-nobel-lecture"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--kenzaburo-oe",
+    "sourceId": "william-faulkner",
+    "targetId": "kenzaburo-oe",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "오에가 시코쿠 골짜기의 마을을 여러 작품에 걸쳐 되풀이 축조한 방식은 포크너의 요크나파토파 군을 모델로 한 것으로 반복해 논의된다. 오에 자신도 포크너를 자기 독서의 중심에 놓아 왔으나 그 진술이 실린 문헌을 특정하지 못해 수준을 한 단계 낮춰 기록한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "influence--william-butler-yeats--kenzaburo-oe",
+    "sourceId": "william-butler-yeats",
+    "targetId": "kenzaburo-oe",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "오에는 1994년 수상 강연 「애매한 일본의 나」에서 1923년 아일랜드 상원이 예이츠에게 바친 결의문을 인용하며 자신이 따르고 싶은 자리로 삼았다. 마지막 장편으로 예고한 3부작 『타오르는 푸른 나무』의 제목도 예이츠의 시에서 가져온 것이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--oe-nobel-lecture"
+    ]
+  },
+  {
+    "id": "contrast--yukio-mishima--kenzaburo-oe",
+    "sourceId": "yukio-mishima",
+    "targetId": "kenzaburo-oe",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "전후 일본문학 연구는 천황과 전후 헌법을 두고 정반대 위치에 선 두 작가를 한 쌍으로 다룬다. 미시마는 전후 체제의 부정과 천황을 향한 궐기로 나아갔고, 오에는 전후 민주주의와 헌법 9조의 옹호를 소설과 르포 양쪽에서 밀고 나갔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--keene-dawn-to-the-west"
+    ]
+  },
+  {
+    "id": "contrast--lu-xun--eileen-chang",
+    "sourceId": "lu-xun",
+    "targetId": "eileen-chang",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.65,
+    "summary": "샤즈칭의 『중국현대소설사』(1961)는 계몽과 국민성 비판을 축으로 삼은 루쉰 이후의 주류 옆에, 혼담과 재산을 축으로 삼은 장아이링을 정전으로 나란히 세웠다. 중국 현대소설이 무엇을 써야 하는가를 두고 갈라진 두 방향으로 이후 연구가 반복해 대비해 왔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--hsia-modern-chinese-fiction"
+    ]
+  },
+  {
+    "id": "translation--ernest-hemingway--eileen-chang",
+    "sourceId": "ernest-hemingway",
+    "targetId": "eileen-chang",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "장아이링은 1950년대 홍콩 체류기에 헤밍웨이의 『노인과 바다』를 중국어로 옮기고 역자 서문을 직접 붙였다. 미국공보원의 지원으로 이루어진 번역 일감 가운데 하나였고, 이 시기의 번역 노동이 그의 미국 이주 전 생계 조건이었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--chang-laoren-yu-hai"
+    ]
+  },
+  {
+    "id": "affinity--vladimir-nabokov--eileen-chang",
+    "sourceId": "vladimir-nabokov",
+    "targetId": "eileen-chang",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.45,
+    "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 망명 뒤 두 언어를 오가며 자기 작품을 스스로 옮기고 다시 쓰기를 평생 되풀이했다는 점에서 둘을 가까이 놓는다. 장아이링이 「금쇄기」를 중국어와 영어로 여러 차례 고쳐 쓴 이력이 그 예다.",
+    "evidenceLevel": "editorial_inference",
+    "sourceIds": []
+  },
+  {
+    "id": "affinity--eileen-chang--park-kyung-ni",
+    "sourceId": "eileen-chang",
+    "targetId": "park-kyung-ni",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.45,
+    "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 여성 인물을 가문사의 관찰자가 아니라 토지·재산·혼인을 계산하고 경영하는 주체로 배치해 동아시아 근대의 계급 변동을 서술했다는 공통점으로 둘을 가까이 놓는다.",
+    "evidenceLevel": "editorial_inference",
+    "sourceIds": []
+  },
+  {
+    "id": "influence--anton-chekhov--saadat-hasan-manto",
+    "sourceId": "anton-chekhov",
+    "targetId": "saadat-hasan-manto",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "만토는 습작기에 러시아 단편을 우르두어로 옮기는 일부터 시작했고, 우르두 문학 연구는 논평을 걷어내고 장면만 남기는 그의 단편을 체호프의 계보에서 반복해 다뤄 왔다. 체호프 작품을 직접 옮겼는지는 서지로 확정하지 못해 수준을 한 단계 낮춰 기록한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--jalal-pity-of-partition"
+    ]
+  },
+  {
+    "id": "contrast--premchand--saadat-hasan-manto",
+    "sourceId": "premchand",
+    "targetId": "saadat-hasan-manto",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "프렘찬드는 1936년 전인도 진보작가협회 창립대회 연설 「문학의 목적」에서 문학이 사회적 목적에 복무해야 한다고 정식화했다. 만토는 그 강령을 따르지 않고 판단을 유보한 채 행위만 남겼고, 진보 진영과 갈라선 그의 위치를 우르두 문학사는 이 대립축 위에서 설명한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--premchand-pwa-address-1936",
+      "src--jalal-pity-of-partition"
+    ]
+  },
+  {
+    "id": "affinity--isaac-babel--saadat-hasan-manto",
+    "sourceId": "isaac-babel",
+    "targetId": "saadat-hasan-manto",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.45,
+    "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 내전과 분단의 학살을 몇 쪽짜리 장면으로 끊어내고 논평도 위로도 붙이지 않은 채 판단을 독자에게 넘기는 단편 형식이 겹친다는 이유로 둘을 가까이 놓는다.",
+    "evidenceLevel": "editorial_inference",
+    "sourceIds": []
+  },
+  {
+    "id": "contrast--premchand--rk-narayan",
+    "sourceId": "premchand",
+    "targetId": "rk-narayan",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.45,
+    "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 식민지 인도의 마을과 소도시를 같은 시기에 무대로 삼으면서, 프렘찬드는 개혁이 필요한 사회로 나라얀은 되풀이되는 일상으로 서술했다는 반대 방향을 보이기 위해 둘을 마주 놓는다.",
+    "evidenceLevel": "editorial_inference",
+    "sourceIds": []
+  },
+  {
+    "id": "affinity--william-faulkner--rk-narayan",
+    "sourceId": "william-faulkner",
+    "targetId": "rk-narayan",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 요크나파토파 군과 말구디라는 가공의 지명을 각자 만들어 수십 년간 같은 무대와 같은 인물들을 되풀이해 쓴 방법이 겹친다는 이유로 둘을 가까이 놓는다.",
+    "evidenceLevel": "editorial_inference",
+    "sourceIds": []
+  },
+  {
+    "id": "affinity--leo-tolstoy--park-kyung-ni",
+    "sourceId": "leo-tolstoy",
+    "targetId": "park-kyung-ni",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 한 가문의 여러 세대를 따라가며 그 위로 전쟁과 체제 변동을 통과시키는 대하 장편의 설계가 겹친다는 이유로 『토지』를 『전쟁과 평화』 옆에 놓는다.",
+    "evidenceLevel": "editorial_inference",
+    "sourceIds": []
+  }
+]

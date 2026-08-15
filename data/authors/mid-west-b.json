@@ -1,0 +1,553 @@
+[
+  {
+    "id": "zora-neale-hurston",
+    "names": {
+      "ko": "조라 닐 허스턴",
+      "original": "Zora Neale Hurston",
+      "aliases": [
+        "허스턴",
+        "Hurston"
+      ]
+    },
+    "birthYear": 1891,
+    "deathYear": 1960,
+    "activeRange": [
+      1925,
+      1948
+    ],
+    "anchorYear": 1937,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "노타설가",
+        "lat": 32.5568,
+        "lon": -85.6733,
+        "role": "birth"
+      },
+      {
+        "label": "이튼빌",
+        "lat": 28.6156,
+        "lon": -81.3773,
+        "role": "activity",
+        "primary": true,
+        "note": "출생지는 앨라배마 노타설가지만, 미국 최초로 법인화된 흑인 자치 도시로 알려진 이튼빌이 유년기이자 민담 채록의 거점이며 대표작의 무대다"
+      },
+      {
+        "label": "할렘",
+        "lat": 40.8116,
+        "lon": -73.9465,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "early-modernism",
+      "mid-century"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "컬럼비아대에서 프란츠 보애스에게 배운 인류학 현지조사 방법을 플로리다의 흑인 마을과 아이티·자메이카에 적용해 채록한 구술 자료를, 인용 표본이 아니라 소설의 문장 자체로 옮겼다. 흑인 남부 구어를 인물의 대사 안에 가두지 않고 서술 전체에 흡수시켜, 표준영어 화자와 방언 화자를 위계로 나누던 당대 소설의 관습을 무너뜨렸다. 인종을 손실과 항의의 언어로만 쓰던 동시대 흐름과 거리를 둔 탓에 1950년대에 절판되어 잊혔다가, 1970년대 앨리스 워커의 재발견 이후 미국 소설의 정전으로 복귀했다.",
+    "readingEntry": "zora-neale-hurston--their-eyes-were-watching-god",
+    "readingEntryReason": "300쪽이 안 되는 분량 안에 허스턴의 두 축 — 채록한 구어를 서술에 녹인 문장과, 자기 목소리를 얻어가는 인물 — 이 함께 작동하고, 국내 번역본으로 가장 접근하기 쉽다.",
+    "readingOrder": [
+      "zora-neale-hurston--their-eyes-were-watching-god",
+      "zora-neale-hurston--mules-and-men",
+      "zora-neale-hurston--barracoon",
+      "zora-neale-hurston--jonahs-gourd-vine"
+    ],
+    "readingWarning": "『노새와 인간』이나 『내 말에게 전해라』 같은 현지조사 기록부터 시작하면 허스턴을 민속학자로 분류해버리기 쉽다. 소설을 먼저 읽어야 채록이 무엇을 위한 작업이었는지 보인다.",
+    "difficulty": 3,
+    "difficultyReason": "이야기 자체는 따라가기 쉽지만 흑인 남부 구어를 소리 나는 대로 적은 표기가 원문 독서를 늦추고, 번역본에서는 그 층위가 다른 문제로 바뀌어 있어 원문·번역의 차이를 감안해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--hurston-mules-and-men-boas-preface",
+      "src--hurston-how-it-feels-colored-me",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "ralph-ellison",
+    "names": {
+      "ko": "랠프 엘리슨",
+      "original": "Ralph Ellison",
+      "aliases": [
+        "엘리슨",
+        "Ellison",
+        "Ralph Waldo Ellison"
+      ]
+    },
+    "birthYear": 1913,
+    "deathYear": 1994,
+    "activeRange": [
+      1937,
+      1986
+    ],
+    "anchorYear": 1952,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "오클라호마시티",
+        "lat": 35.4676,
+        "lon": -97.5164,
+        "role": "birth"
+      },
+      {
+        "label": "터스키기",
+        "lat": 32.4243,
+        "lon": -85.6919,
+        "role": "activity"
+      },
+      {
+        "label": "할렘",
+        "lat": 40.8116,
+        "lon": -73.9465,
+        "role": "activity",
+        "primary": true,
+        "note": "오클라호마시티 출생이지만 1936년 뉴욕 이주 이후 집필·편집·강연 활동이 모두 할렘을 거점으로 이루어졌다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "완성한 장편 한 편으로, 흑인이 쓴 서사를 사회학적 증언으로 읽는 독법 자체를 서술 형식으로 반박했다. 『보이지 않는 인간』은 남부 흑인대학·북부 공장·할렘의 정치조직을 차례로 통과하는 성장소설의 뼈대 위에 설교와 블루스의 어법, 재즈의 즉흥, 초현실적 삽화를 겹쳐, 자연주의 항의소설과 모더니즘 실험 중 하나를 고르라는 요구를 거부했다. 어빙 하우와 벌인 「세계와 항아리」 논쟁은 흑인 작가에게 항의문학의 의무를 부과하는 비평에 대한 반론으로 지금도 반복 인용된다.",
+    "readingEntry": "ralph-ellison--invisible-man",
+    "readingEntryReason": "엘리슨의 사실상 유일한 완성 장편이고, 그의 평문들이 다루는 문제 — 흑인 서사가 증언으로만 읽히는 상황 — 이 이 소설의 구조 안에서 먼저 제시되기 때문에 순서상 여기서 시작해야 한다.",
+    "readingOrder": [
+      "ralph-ellison--invisible-man",
+      "ralph-ellison--shadow-and-act",
+      "ralph-ellison--going-to-the-territory",
+      "ralph-ellison--juneteenth"
+    ],
+    "readingWarning": "사후 편집본 『준틴스』로 시작하면 편집자가 수천 장의 원고에서 골라 조립한 판본을 엘리슨의 완성된 설계로 오인하게 된다.",
+    "difficulty": 4,
+    "difficultyReason": "장이 바뀔 때마다 자연주의·풍자·초현실로 문체가 갈아타고, 각 삽화가 미국 흑인사와 민속의 특정 장면을 겨냥한 응답이라 배경 지식 없이는 농담과 인용이 지나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--paris-review",
+      "src--cambridge-companions",
+      "src--ellison-world-and-the-jug",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "james-baldwin",
+    "names": {
+      "ko": "제임스 볼드윈",
+      "original": "James Baldwin",
+      "aliases": [
+        "볼드윈",
+        "Baldwin",
+        "James Arthur Baldwin"
+      ]
+    },
+    "birthYear": 1924,
+    "deathYear": 1987,
+    "activeRange": [
+      1948,
+      1985
+    ],
+    "anchorYear": 1963,
+    "gender": "male",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "할렘",
+        "lat": 40.8116,
+        "lon": -73.9465,
+        "role": "birth",
+        "primary": true,
+        "note": "1948년 이후 집필의 상당 부분은 프랑스에서 이루어졌으나, 소설과 에세이의 대상이자 반복해 돌아온 지점은 할렘이다"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "exile"
+      },
+      {
+        "label": "생폴드방스",
+        "lat": 43.6959,
+        "lon": 7.1222,
+        "role": "activity"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "1949년 「모두의 항의소설」에서 리처드 라이트의 항의소설을 정면으로 비판하며, 피해자의 통계적 초상이 인물을 지운다고 논증했다. 이후 그는 설교단의 리듬을 옮긴 긴 호흡의 문장으로 에세이를 쓰고, 소설에서는 인종과 성애를 분리하지 않는 인물들을 다뤘다 — 백인 미국인 남성을 화자로 세운 『조반니의 방』은 흑인 작가에게 기대되던 소재의 범위를 스스로 폐기한 선택이었다. 1948년 파리로 건너간 뒤에야 할렘을 쓸 수 있었다는 그의 진술은, 거리가 대상을 보이게 한다는 20세기 이주 문학의 사례로 반복 인용된다.",
+    "readingEntry": "james-baldwin--the-fire-next-time",
+    "readingEntryReason": "100쪽 남짓의 두 편짜리 책이라 하루면 끝나고, 조카에게 쓰는 사적 편지와 종교·정치에 대한 공적 분석이 나란히 놓여 볼드윈의 두 목소리를 한 번에 들을 수 있다.",
+    "readingOrder": [
+      "james-baldwin--the-fire-next-time",
+      "james-baldwin--giovannis-room",
+      "james-baldwin--go-tell-it-on-the-mountain",
+      "james-baldwin--another-country"
+    ],
+    "readingWarning": "에세이만 읽고 소설을 건너뛰면 볼드윈이 민권운동 시기의 논객으로만 축소된다. 사랑과 성애가 인종과 어떻게 얽히는지는 소설에서만 끝까지 밀어붙여진다.",
+    "difficulty": 3,
+    "difficultyReason": "종속절을 겹겹이 쌓았다가 마지막에 뒤집는 긴 문장이 반복되고, 에세이는 1940–60년대 미국의 인종 정치와 흑인 교회의 구체적 사정을 전제하고 쓰여 있다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--paris-review",
+      "src--baldwin-everybodys-protest-novel",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "flannery-oconnor",
+    "names": {
+      "ko": "플래너리 오코너",
+      "original": "Flannery O'Connor",
+      "aliases": [
+        "오코너",
+        "O'Connor",
+        "Mary Flannery O'Connor"
+      ]
+    },
+    "birthYear": 1925,
+    "deathYear": 1964,
+    "activeRange": [
+      1946,
+      1964
+    ],
+    "anchorYear": 1955,
+    "gender": "female",
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "locations": [
+      {
+        "label": "서배너",
+        "lat": 32.0809,
+        "lon": -81.0912,
+        "role": "birth"
+      },
+      {
+        "label": "아이오와시티",
+        "lat": 41.6611,
+        "lon": -91.5302,
+        "role": "activity"
+      },
+      {
+        "label": "밀리지빌",
+        "lat": 33.0801,
+        "lon": -83.2321,
+        "role": "activity",
+        "primary": true,
+        "note": "1951년 루푸스 진단 이후 밀리지빌 외곽 안달루시아 농장에 머물며 거의 모든 작품을 그곳에서 썼다"
+      }
+    ],
+    "periods": [
+      "mid-century"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "조지아의 평범한 가정과 도로변을 무대로 삼아 수다스러운 일상 대화를 정확히 받아 적은 뒤, 마지막 몇 문단에서 폭력을 통해 인물을 자기 인식으로 밀어넣는 단편 구조를 열 편 넘게 반복해 다듬었다. 그는 이 폭력을 취향이 아니라 형식의 요구로 설명했다 — 은총을 받아들일 수 없는 인물에게 은총이 전달되려면 그를 흔들어 깨우는 사건이 필요하고, 신앙을 공유하지 않는 독자에게는 그 사건이 크고 거칠어야 한다는 것이었다. 가톨릭 교리를 개신교 남부의 어휘와 풍경으로 번역한 이 방법은 종교를 주제가 아니라 소설 구조의 문제로 다룬 드문 사례이며, 이후 미국 단편의 결말 처리에서 반복 참조된다.",
+    "readingEntry": "flannery-oconnor--a-good-man-is-hard-to-find",
+    "readingEntryReason": "단편집이라 한 편씩 끊어 읽을 수 있고, 표제작 한 편 안에 오코너의 방법 전체 — 가족 여행, 상투어로 가득한 수다, 그리고 마지막 몇 쪽에서 뒤집히는 폭력 — 이 들어 있다.",
+    "readingOrder": [
+      "flannery-oconnor--a-good-man-is-hard-to-find",
+      "flannery-oconnor--everything-that-rises-must-converge",
+      "flannery-oconnor--wise-blood",
+      "flannery-oconnor--the-violent-bear-it-away",
+      "flannery-oconnor--mystery-and-manners"
+    ],
+    "readingWarning": "『현명한 피』를 먼저 펴면 헤이즐 모츠의 반(反)교회 설교가 종교 풍자로만 읽혀, 이후 소설을 지탱하는 신학적 축이 보이지 않는다. 단편을 먼저 통과하는 편이 안전하다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 건조해 읽기 자체는 빠르지만, 결말의 폭력이 왜 구원의 장면으로 배치되었는지는 가톨릭 은총론이라는 전제를 알아야 보이고, 그 전제는 본문에 설명되지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--oconnor-habit-of-being",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "marguerite-duras",
+    "names": {
+      "ko": "마르그리트 뒤라스",
+      "original": "Marguerite Duras",
+      "aliases": [
+        "뒤라스",
+        "Duras",
+        "Marguerite Donnadieu",
+        "마르그리트 도나디외"
+      ]
+    },
+    "birthYear": 1914,
+    "deathYear": 1996,
+    "activeRange": [
+      1943,
+      1995
+    ],
+    "anchorYear": 1964,
+    "gender": "female",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "사이공",
+        "lat": 10.8231,
+        "lon": 106.6297,
+        "role": "birth"
+      },
+      {
+        "label": "사덱",
+        "lat": 10.2925,
+        "lon": 105.7594,
+        "role": "other"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "activity",
+        "primary": true,
+        "note": "인도차이나에서 태어났으나 10대 후반에 프랑스로 건너간 이후 집필·출판·영화 작업이 모두 파리를 거점으로 이루어졌다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "nouveau-roman"
+    ],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "tier": "major",
+    "importanceReason": "인물의 내면을 진술하는 대신 짧은 절의 반복, 지워진 고유명사, 어긋나는 시제로 사건의 윤곽만 남기는 산문을 만들었고, 미뉘에서 낸 『모데라토 칸타빌레』를 계기로 1950년대 말 누보로망의 실천 사례로 함께 묶였다. 그러나 사물의 표면을 계측하는 로브그리예식 방법과 달리 그는 정동을 제거하지 않았고, 「히로시마 내 사랑」의 시나리오와 이후의 영화 연출로 소설·희곡·영화 사이를 오가며 그 분류를 벗어났다. 1984년 『연인』은 자전적 소재를 다시 쓰는 일이 회고가 아니라 형식 실험일 수 있음을 보여주며 공쿠르상을 받았고, 후기 작업 전체가 같은 인도차이나 장면을 반복 개작하는 방향으로 이어졌다.",
+    "readingEntry": "marguerite-duras--lamant",
+    "readingEntryReason": "120쪽 남짓의 분량 안에 뒤라스의 문장 — 시제를 미끄러뜨리는 짧은 단락, 이름 없는 인물, 반복 — 이 전부 들어 있고, 그가 평생 다시 쓴 인도차이나의 장면이 가장 선명하게 나온다.",
+    "readingOrder": [
+      "marguerite-duras--lamant",
+      "marguerite-duras--moderato-cantabile",
+      "marguerite-duras--hiroshima-mon-amour",
+      "marguerite-duras--le-ravissement-de-lol-v-stein"
+    ],
+    "readingWarning": "『롤 베 스타인의 환희』로 시작하면 서술자의 정체와 시점이 끝까지 흔들려 이야기 자체가 잡히지 않는다. 『연인』이나 『모데라토 칸타빌레』로 문장에 먼저 익숙해지는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "어휘와 구문은 평이하지만 지시 대상이 의도적으로 비어 있어 누가 말하는지, 언제 일어난 일인지가 결정되지 않은 채 진행되고, 그 미결정을 견디는 것이 독서의 조건이 된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--duras-apostrophes",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "alain-robbe-grillet",
+    "names": {
+      "ko": "알랭 로브그리예",
+      "original": "Alain Robbe-Grillet",
+      "aliases": [
+        "로브그리예",
+        "Robbe-Grillet",
+        "알랭 로브 그리예"
+      ]
+    },
+    "birthYear": 1922,
+    "deathYear": 2008,
+    "activeRange": [
+      1953,
+      2007
+    ],
+    "anchorYear": 1957,
+    "gender": "male",
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "locations": [
+      {
+        "label": "브레스트",
+        "lat": 48.3904,
+        "lon": -4.4861,
+        "role": "birth"
+      },
+      {
+        "label": "파리",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "role": "activity",
+        "primary": true,
+        "note": "브레스트 출생이지만 미뉘 출판사의 문학 감독으로서 집필·편집·논쟁이 모두 파리에서 이루어졌다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [
+      "nouveau-roman"
+    ],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "인물의 심리와 플롯의 인과를 서술에서 걷어내고, 대상의 위치·거리·개수를 측량하듯 기술하는 문장을 소설의 기본 단위로 삼았다. 『질투』는 감정을 가리키는 낱말을 한 번도 쓰지 않고 블라인드 살의 수와 바나나 나무의 열을 세는 서술만으로 질투를 발생시켜, 내면을 진술하지 않고 내면을 만드는 방법을 증명했다. 미뉘 출판사의 문학 감독으로 사로트·뷔토르·시몽의 작업을 한 흐름으로 묶어내고 『누보로망을 위하여』로 그 강령을 정식화해, 창작과 이론과 편집을 한 사람이 동시에 수행한 드문 사례를 남겼다.",
+    "readingEntry": "alain-robbe-grillet--la-jalousie",
+    "readingEntryReason": "100쪽 남짓으로 짧고, 감정어를 쓰지 않고 사물의 배치만 세는 서술이 질투라는 상태를 만들어내는 과정이 한 권 안에서 처음부터 끝까지 완결되어 방법 전체를 볼 수 있다.",
+    "readingOrder": [
+      "alain-robbe-grillet--la-jalousie",
+      "alain-robbe-grillet--les-gommes",
+      "alain-robbe-grillet--lannee-derniere-a-marienbad",
+      "alain-robbe-grillet--dans-le-labyrinthe",
+      "alain-robbe-grillet--pour-un-nouveau-roman"
+    ],
+    "readingWarning": "이론서 『누보로망을 위하여』를 먼저 읽으면 이후의 소설을 강령의 예시로만 확인하게 된다. 소설 두세 편을 통과한 뒤 이론으로 가는 순서를 권한다.",
+    "difficulty": 4,
+    "difficultyReason": "문장 자체는 명료하지만 같은 장면이 조금씩 달라지며 반복되고 시간 순서를 복원할 단서가 주어지지 않아, 줄거리를 재구성하려는 독법으로는 끝까지 읽히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--robbe-grillet-pour-un-nouveau-roman",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  },
+  {
+    "id": "wislawa-szymborska",
+    "names": {
+      "ko": "비스와바 심보르스카",
+      "original": "Wisława Szymborska",
+      "aliases": [
+        "심보르스카",
+        "쉼보르스카",
+        "비스와바 쉼보르스카",
+        "Szymborska"
+      ]
+    },
+    "birthYear": 1923,
+    "deathYear": 2012,
+    "activeRange": [
+      1945,
+      2012
+    ],
+    "anchorYear": 1976,
+    "gender": "female",
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "locations": [
+      {
+        "label": "쿠르니크",
+        "lat": 52.2436,
+        "lon": 17.0947,
+        "role": "birth"
+      },
+      {
+        "label": "크라쿠프",
+        "lat": 50.0647,
+        "lon": 19.945,
+        "role": "activity",
+        "primary": true,
+        "note": "1931년 이후 평생을 크라쿠프에서 살며 주간지 『문학생활』 편집자로 일했고 시집 대부분을 그곳에서 냈다"
+      }
+    ],
+    "periods": [
+      "mid-century",
+      "late-postmodern",
+      "contemporary"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "tier": "major",
+    "importanceReason": "한 편의 시를 하나의 질문으로 설계하고, 일상어와 농담의 어조를 유지한 채 그 질문을 역사·생물학·확률의 축척으로 옮기는 방식을 30년에 걸쳐 다듬었다. 전쟁과 학살을 다룰 때도 비탄의 수사 대신 숫자와 사물의 목록을 쓰는 이 절제는, 전후 폴란드 시가 증언의 의무와 선전의 압력 사이에서 찾아낸 제3의 어법으로 읽힌다. 1952·1954년의 사회주의 리얼리즘 시집 두 권을 스스로 물리고 1957년 『예티를 향한 부름』에서 다시 출발한 이력은, 정치적 언어를 버리는 과정 자체가 시법이 된 사례다. 1996년 노벨문학상 이후 그의 시는 여러 언어로 번역되며 '쉬운 표면과 어려운 질문'이라는 서정시의 한 모델이 되었다.",
+    "readingEntry": "wislawa-szymborska--koniec-i-poczatek",
+    "readingEntryReason": "국내에 같은 제목의 선집으로 가장 널리 소개된 묶음이고, 전쟁이 끝난 자리를 치우는 사람들을 다룬 표제시와 「빈 아파트의 고양이」가 나란히 놓여 역사와 사적 상실을 같은 어조로 다루는 그의 방법을 한 번에 보여준다.",
+    "readingOrder": [
+      "wislawa-szymborska--koniec-i-poczatek",
+      "wislawa-szymborska--lektury-nadobowiazkowe",
+      "wislawa-szymborska--ludzie-na-moscie",
+      "wislawa-szymborska--wielka-liczba",
+      "wislawa-szymborska--sol"
+    ],
+    "readingWarning": "1952년과 1954년에 낸 첫 두 시집은 사회주의 리얼리즘 시기의 작업으로 작가 자신이 물린 것이라, 거기서 시작하면 심보르스카의 시를 만나지 못한다.",
+    "difficulty": 2,
+    "difficultyReason": "시가 짧고 문장이 평이해 첫 독서는 막히지 않지만, 농담의 표면 아래 폴란드 전후사와 과학·철학의 참조가 깔려 있어 두 번째 읽기에서 같은 시가 달라진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-08-15"
+  }
+]
