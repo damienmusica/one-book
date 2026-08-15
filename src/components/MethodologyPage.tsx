@@ -145,7 +145,9 @@ export function MethodologyPage() {
           (현재 v{dataset.positions.version}, seed {dataset.positions.seed}). 새 작가가
           추가되어도 기존 좌표는 재계산하지 않고, 이웃 앵커의 가중 중심으로 증분 배치한다 —
           사용자의 공간 기억을 보존하기 위해서다.{" "}
-          <strong>실제 지리 모드</strong>는 작가의 대표 활동지 경위도를 그대로 쓴다. 두 모드의
+          <strong>실제 지리 모드</strong>는 작가의 대표 활동지 경위도를 쓰되, 도시가 밀집한
+          지역(예: 중부유럽)에서는 겹친 점이 읽히도록 결정적 최소 변위를 적용한다 — 지도학의
+          표준적 displacement 관행이며, 정확한 좌표는 데이터 파일에 보존된다. 두 모드의
           분리가 이 지도의 핵심 주장이다: 문학적 거리는 지리적 거리가 아니다.
         </p>
       </section>

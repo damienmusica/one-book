@@ -63,12 +63,50 @@ export function semanticPositions(dataset: Dataset): Map<string, Vec3> {
   return map;
 }
 
-/** author id → unit vector from the primary location in real geography */
+/**
+ * author id → unit vector from the primary location in real geography.
+ * Dense clusters (e.g. central Europe) get a deterministic minimum-displacement
+ * relaxation so overlapping cities stay readable as individual stars —
+ * standard cartographic displacement, disclosed on the methodology page.
+ */
 export function geoPositions(dataset: Dataset): Map<string, Vec3> {
   const map = new Map<string, Vec3>();
   for (const a of dataset.authors) {
     const primary = a.locations.find((l) => l.primary) ?? a.locations[0];
     if (primary) map.set(a.id, latLonToVec3(primary.lat, primary.lon));
   }
+  relaxGeoOverlaps(map, 0.045, 40);
   return map;
+}
+
+export function relaxGeoOverlaps(
+  map: Map<string, Vec3>,
+  minDist: number,
+  rounds: number
+): void {
+  const ids = [...map.keys()].sort();
+  for (let round = 0; round < rounds; round++) {
+    let moved = false;
+    for (let i = 0; i < ids.length; i++) {
+      for (let j = i + 1; j < ids.length; j++) {
+        const ia = ids[i]!;
+        const ib = ids[j]!;
+        const a = map.get(ia)!;
+        const b = map.get(ib)!;
+        const dx = b[0] - a[0];
+        const dy = b[1] - a[1];
+        const dz = b[2] - a[2];
+        const d = Math.hypot(dx, dy, dz); // chord ≈ angle for small separations
+        if (d >= minDist) continue;
+        moved = true;
+        // deterministic tie-break for exactly coincident cities
+        const [ux, uy, uz] =
+          d < 1e-6 ? [0.7, 0.3, 0.64] : [dx / d, dy / d, dz / d];
+        const push = (minDist - d) / 2 + 0.001;
+        map.set(ia, normalize([a[0] - ux * push, a[1] - uy * push, a[2] - uz * push]));
+        map.set(ib, normalize([b[0] + ux * push, b[1] + uy * push, b[2] + uz * push]));
+      }
+    }
+    if (!moved) break;
+  }
 }

@@ -1,38 +1,51 @@
-// Single source for the visual language: dark observatory + old editorial map.
-// CSS custom properties in styles.css mirror these values.
+// Single source for the visual language — values fixed by docs/design-thesis.md
+// ("읽는 관측 기기": warm-black ink ground, brass instrument lines, stellar-
+// spectrum period ramp). CSS custom properties in styles.css mirror these.
 
 import type { PeriodId, RelationType } from "./types.ts";
 
 export const COLORS = {
-  bg: "#0b1216",
-  surface: "#121c21",
-  surfaceRaised: "#18242b",
-  line: "#22323a",
-  text: "#e9dfc8",
-  textDim: "#a89f8c",
-  textFaint: "#6d6a5c",
-  brass: "#c2a15c",
-  teal: "#5fa8a0",
-  red: "#b25b4e",
-  focus: "#e8c884"
+  bg: "#0f0d0a",
+  surface: "#161210",
+  surfaceRaised: "#1e1914",
+  line: "#332b1f",
+  lineStrong: "#4f4331",
+  lineAccent: "#6a5a3a",
+  text: "#ecdfc3",
+  textDim: "#b5aa90",
+  textFaint: "#8f8674",
+  brass: "#cfa759",
+  brassBright: "#eccb82",
+  teal: "#6aab9c",
+  red: "#c4685a",
+  inkOnAccent: "#191307",
+  focus: "#eccb82"
+} as const;
+
+/** geography mode — midnight cobalt plate (Burritt-style value inversion) */
+export const GEO_COLORS = {
+  surface: "#14223a",
+  line: "#2e4568",
+  lineStrong: "#4a6a9c",
+  atmosphere: "#3f6296"
 } as const;
 
 export const RELATION_COLORS: Record<RelationType, string> = {
-  documented_influence: "#c2a15c",
-  translation: "#86a873",
-  mentorship: "#dcc389",
-  dialogue: "#b25b4e",
-  affinity: "#5fa8a0",
-  contrast: "#8e6a94"
+  documented_influence: "#cfa759",
+  translation: "#8fae74",
+  mentorship: "#cd8a4e",
+  dialogue: "#c4685a",
+  affinity: "#6aab9c",
+  contrast: "#9a7fa4"
 };
 
-/** subtle per-layer node tint — depth without shouting */
+/** stellar-spectrum ramp: old literature = warm amber star, contemporary = blue-white */
 export const PERIOD_TINT: Record<PeriodId, string> = {
-  roots: "#c8b28e",
-  "early-modernism": "#ead0c5",
-  "mid-century": "#d7e3da",
-  "late-postmodern": "#dfd0e0",
-  contemporary: "#c9d4e3"
+  roots: "#d8ac6e",
+  "early-modernism": "#e7c893",
+  "mid-century": "#f1e0bf",
+  "late-postmodern": "#ede7d9",
+  contemporary: "#d9e2ea"
 };
 
 export const GLOBE = {

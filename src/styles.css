@@ -1,19 +1,21 @@
 /* ————— 문학의 행성 — dark observatory + old editorial map ————— */
 
 :root {
-  --bg: #0b1216;
-  --surface: #121c21;
-  --surface-raised: #18242b;
-  --surface-overlay: rgba(13, 20, 24, 0.92);
-  --line: #22323a;
-  --line-strong: #354a54;
-  --text: #e9dfc8;
-  --text-dim: #a89f8c;
-  --text-faint: #79756a;
-  --brass: #c2a15c;
-  --brass-bright: #e8c884;
-  --teal: #5fa8a0;
-  --red: #b25b4e;
+  --bg: #0f0d0a;
+  --surface: #161210;
+  --surface-raised: #1e1914;
+  --surface-overlay: rgba(23, 19, 16, 0.93);
+  --line: #332b1f;
+  --line-strong: #4f4331;
+  --line-accent: #6a5a3a;
+  --text: #ecdfc3;
+  --text-dim: #b5aa90;
+  --text-faint: #8f8674;
+  --brass: #cfa759;
+  --brass-bright: #eccb82;
+  --teal: #6aab9c;
+  --red: #c4685a;
+  --ink-on-accent: #191307;
   --font-serif: "Nanum Myeongjo", "AppleMyungjo", "Noto Serif KR", "Batang", Georgia, serif;
   --font-sans: "Apple SD Gothic Neo", Pretendard, "Noto Sans KR", system-ui, -apple-system,
     sans-serif;
@@ -34,7 +36,7 @@ body,
 }
 
 body {
-  background: radial-gradient(120% 90% at 50% 30%, #101b21 0%, var(--bg) 62%, #070c0f 100%);
+  background: radial-gradient(120% 90% at 50% 30%, #15110a 0%, var(--bg) 62%, #060503 100%);
   color: var(--text);
   font-family: var(--font-sans);
   font-size: 14px;
@@ -125,10 +127,24 @@ a:hover {
 }
 
 .brand-sub {
-  font-size: 11.5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
   color: var(--text-faint);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.14em;
+  font-variant-caps: all-small-caps;
   white-space: nowrap;
+}
+
+/* plate-caption rules flanking the counts (cartouche idiom, D7) */
+.brand-sub::before,
+.brand-sub::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 1px;
+  background: var(--line-accent);
 }
 
 .app-nav {
@@ -183,7 +199,7 @@ a:hover {
 
 .mode-toggle button[aria-pressed="true"] {
   background: var(--brass);
-  color: #14100a;
+  color: var(--ink-on-accent);
   font-weight: 600;
 }
 
@@ -237,7 +253,7 @@ a:hover {
 }
 
 .search-results li.is-active {
-  background: rgba(194, 161, 92, 0.14);
+  background: rgba(207, 167, 89, 0.14);
 }
 
 .hit-ko {
@@ -296,6 +312,7 @@ a:hover {
   top: 0;
   white-space: nowrap;
   color: var(--text-dim);
+  letter-spacing: 0.02em;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
   will-change: transform;
 }
@@ -330,14 +347,16 @@ a:hover {
   color: var(--brass-bright);
   font-weight: 700;
   font-size: 13.5px;
+  border-bottom: 1px solid var(--line-accent);
+  padding-bottom: 1px;
 }
 
 .globe-label--movement {
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 15px;
-  letter-spacing: 0.14em;
-  color: rgba(194, 161, 92, 0.5);
+  letter-spacing: 0.2em;
+  color: rgba(207, 167, 89, 0.5);
   text-transform: none;
 }
 
@@ -445,7 +464,7 @@ a:hover {
 .chip[aria-pressed="true"] {
   background: var(--brass);
   border-color: var(--brass);
-  color: #14100a;
+  color: var(--ink-on-accent);
   font-weight: 600;
 }
 
@@ -478,7 +497,7 @@ a:hover {
 .tour-list button:hover,
 .tour-list button.is-active {
   border-color: var(--brass);
-  background: rgba(194, 161, 92, 0.08);
+  background: rgba(207, 167, 89, 0.08);
 }
 
 .tour-title {
@@ -542,7 +561,9 @@ a:hover {
   justify-content: space-between;
   gap: 8px;
   padding: 16px 16px 10px;
+  /* engraved-plate double rule — the one quotation of the cream atlas border */
   border-bottom: 1px solid var(--line);
+  box-shadow: 0 3px 0 -2px var(--line);
 }
 
 .detail-name {
@@ -587,10 +608,14 @@ a:hover {
   letter-spacing: 0.12em;
   color: var(--brass);
   margin: 18px 0 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
 }
 
 .detail-body h3:first-child {
   margin-top: 4px;
+  padding-top: 0;
+  border-top: none;
 }
 
 .detail-body h4 {
@@ -820,7 +845,7 @@ a:hover {
 
 .timeline-mode button[aria-pressed="true"] {
   background: var(--teal);
-  color: #0a1412;
+  color: var(--ink-on-accent);
   font-weight: 600;
 }
 
@@ -1064,7 +1089,7 @@ a:hover {
 .tour-controls button[aria-pressed="true"] {
   background: var(--teal);
   border-color: var(--teal);
-  color: #0a1412;
+  color: var(--ink-on-accent);
 }
 
 .tour-exit {
@@ -1135,7 +1160,7 @@ a:hover {
 }
 
 .writers-table tbody tr:hover {
-  background: rgba(194, 161, 92, 0.05);
+  background: rgba(207, 167, 89, 0.05);
 }
 
 .sort-btn {
@@ -1245,8 +1270,8 @@ a:hover {
   height: 100vh;
   padding: 24px;
   text-align: center;
-  background: var(--bg, #0b1216);
-  color: var(--text, #e9dfc8);
+  background: var(--bg, #0f0d0a);
+  color: var(--text, #ecdfc3);
   font-family: var(--font-sans, sans-serif);
 }
 
