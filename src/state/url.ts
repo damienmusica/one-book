@@ -1,6 +1,7 @@
 import { GENRE_DEFS, PERIOD_DEFS, RELATION_DEFS } from "../types.ts";
 import type { GenreId, PeriodId, RelationType } from "../types.ts";
 import { TIMELINE_MAX, TIMELINE_MIN } from "../lib/filter.ts";
+import { DEFAULT_LOCALE, isLocale } from "../i18n/index.ts";
 import { defaultFilters, type AppState, type Page, type Store } from "./store.ts";
 
 // URL shape (hash-based so any static host works without rewrites):
@@ -27,6 +28,7 @@ function sameSet(a: string[], b: string[]): boolean {
 export function serializeState(s: AppState): string {
   const q = new URLSearchParams();
   const d = defaultFilters();
+  if (s.locale !== DEFAULT_LOCALE) q.set("l", s.locale);
   if (s.selectedAuthorId) q.set("a", s.selectedAuthorId);
   if (s.compareAuthorId) q.set("cmp", s.compareAuthorId);
   if (s.mode === "geo") q.set("m", "geo");
@@ -70,6 +72,9 @@ export function parseHash(hash: string, valid: UrlValidIds): Partial<AppState> {
   const patch: Partial<AppState> = { page };
   const d = defaultFilters();
   const filters = { ...d };
+
+  const l = q.get("l");
+  patch.locale = isLocale(l) ? l : DEFAULT_LOCALE;
 
   const a = q.get("a");
   patch.selectedAuthorId = a && valid.authorIds.has(a) ? a : null;

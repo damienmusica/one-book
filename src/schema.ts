@@ -169,6 +169,59 @@ export const registrySchema = z.array(
     .strict()
 );
 
+// --- translations (data/translations/<locale>/…) ---------------------------
+
+export const authorTranslationSchema = z
+  .object({
+    id: z.string().regex(AUTHOR_ID),
+    name: z.string().min(1),
+    aliases: z.array(z.string().min(1)).optional(),
+    importanceReason: z.string().min(60),
+    readingEntryReason: z.string().min(30),
+    readingWarning: z.string().min(10).optional(),
+    difficultyReason: z.string().min(20),
+    worksException: z.string().min(10).optional()
+  })
+  .strict();
+
+export const workTranslationSchema = z
+  .object({
+    id: z.string().regex(WORK_ID),
+    title: z.string().min(1),
+    significance: z.string().min(30)
+  })
+  .strict();
+
+export const relationTranslationSchema = z
+  .object({
+    id: z.string().regex(RELATION_ID),
+    summary: z.string().min(40)
+  })
+  .strict();
+
+export const movementTranslationSchema = z
+  .object({
+    id: z.string().regex(SLUG),
+    name: z.string().min(1),
+    description: z.string().min(20)
+  })
+  .strict();
+
+export const tourTranslationSchema = z
+  .object({
+    id: z.string().regex(SLUG),
+    title: z.string().min(1),
+    description: z.string().min(20),
+    stopNotes: z.array(z.string().min(60))
+  })
+  .strict();
+
+export const authorTranslationsFileSchema = z.array(authorTranslationSchema);
+export const workTranslationsFileSchema = z.array(workTranslationSchema);
+export const relationTranslationsFileSchema = z.array(relationTranslationSchema);
+export const movementTranslationsFileSchema = z.array(movementTranslationSchema);
+export const tourTranslationsFileSchema = z.array(tourTranslationSchema);
+
 export const authorsFileSchema = z.array(authorSchema);
 export const worksFileSchema = z.array(workSchema);
 export const relationsFileSchema = z.array(relationSchema);

@@ -1,18 +1,13 @@
 import { useMemo } from "react";
-import { useAppState, useServices } from "./ctx.ts";
-import { AuthorLink, EvidenceBadge, relationLabel } from "./bits.tsx";
-import { EVIDENCE_LEVEL_KO } from "../types.ts";
-
-const LEVEL_EXPLANATION: Record<string, string> = {
-  documented: "서신·인터뷰·번역·회고록 같은 1차 기록으로 확인되는 관계입니다.",
-  scholarly_consensus: "신뢰할 만한 2차 연구가 반복적으로 다뤄 온 계보입니다.",
-  editorial_inference:
-    "직접 접촉의 기록은 없습니다. 형식·주제의 친연성을 근거로 이 지도가 가까이 놓은, 편집적 판단이 포함된 관계입니다."
-};
+import { useAppState, useContent, useServices, useT } from "./ctx.ts";
+import { relationTypeLabel } from "../i18n/index.ts";
+import { AuthorLink, EvidenceBadge } from "./bits.tsx";
 
 export function RelationDialog() {
   const state = useAppState();
   const { store, relationById, dataset } = useServices();
+  const t = useT();
+  const content = useContent();
   const relation = state.pickedRelationId
     ? relationById.get(state.pickedRelationId)
     : undefined;
@@ -28,14 +23,14 @@ export function RelationDialog() {
       className="relation-dialog"
       role="dialog"
       aria-modal="false"
-      aria-label="관계 설명"
+      aria-label={t.relationDialogAria}
     >
       <div className="relation-dialog-head">
-        <span className="relation-type">{relationLabel(relation.type)}</span>
+        <span className="relation-type">{relationTypeLabel(relation.type, state.locale)}</span>
         <button
           type="button"
           className="icon-btn"
-          aria-label="닫기"
+          aria-label={t.close}
           onClick={() => store.set({ pickedRelationId: null })}
         >
           ✕
@@ -48,16 +43,12 @@ export function RelationDialog() {
         </span>
         <AuthorLink id={relation.targetId} />
       </p>
-      <p className="relation-summary">{relation.summary}</p>
+      <p className="relation-summary">{content.relationSummary(relation)}</p>
       <p className="relation-evidence">
         <EvidenceBadge level={relation.evidenceLevel} />
-        <span className="evidence-explain">
-          {LEVEL_EXPLANATION[relation.evidenceLevel] ?? EVIDENCE_LEVEL_KO[relation.evidenceLevel]}
-        </span>
+        <span className="evidence-explain">{t.evidenceExplain[relation.evidenceLevel]}</span>
       </p>
-      <p className="relation-weight">
-        관계 강도 {(relation.weight * 100).toFixed(0)}%
-      </p>
+      <p className="relation-weight">{t.weightLabel(Number((relation.weight * 100).toFixed(0)))}</p>
       {relation.sourceIds.length > 0 && (
         <ul className="source-list">
           {relation.sourceIds.map((sid) => {

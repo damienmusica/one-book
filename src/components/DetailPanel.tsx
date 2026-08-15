@@ -1,23 +1,24 @@
 import { useMemo } from "react";
-import { useAppState, useServices } from "./ctx.ts";
+import { useAppState, useContent, useServices, useT } from "./ctx.ts";
 import { neighborsOf } from "../lib/graph.ts";
 import type { Relation, RelationType } from "../types.ts";
 import { RELATION_DEFS } from "../types.ts";
+import { languageLabel, regionLabel, relationTypeLabel } from "../i18n/index.ts";
 import {
   AuthorLink,
   DifficultyDots,
   EvidenceBadge,
   ReviewBadge,
-  languageLabel,
-  lifeSpan,
-  regionLabel,
-  relationLabel
+  lifeSpan
 } from "./bits.tsx";
 
 export function DetailPanel() {
   const state = useAppState();
   const services = useServices();
+  const t = useT();
+  const content = useContent();
   const { store, dataset, worksByAuthor, adjacency } = services;
+  const locale = state.locale;
 
   const author = useMemo(
     () => dataset.authors.find((a) => a.id === state.selectedAuthorId) ?? null,
@@ -46,22 +47,20 @@ export function DetailPanel() {
   }
 
   const entryWork = workById.get(author.readingEntry);
+  const name = content.authorName(author);
+  const readingWarning = content.authorField(author, "readingWarning");
+  const worksException = content.authorField(author, "worksException");
 
   return (
-    <section className="detail-panel" aria-label={`${author.names.ko} 상세 정보`}>
+    <section className="detail-panel" aria-label={t.detailAria(name)}>
       <div className="detail-head">
         <div>
-          <h2 className="detail-name">{author.names.ko}</h2>
-          <p className="detail-original">
-            {author.names.original}
-            {author.names.aliases.length > 0 && (
-              <span className="detail-aliases"> · {author.names.aliases.join(" · ")}</span>
-            )}
-          </p>
+          <h2 className="detail-name">{name}</h2>
+          <p className="detail-original">{content.authorAltNames(author).join(" · ")}</p>
           <p className="detail-life">
-            {lifeSpan(author)} · 활동 {author.activeRange[0]}–{author.activeRange[1]} ·{" "}
-            {author.regions.map(regionLabel).join(", ")} ·{" "}
-            {author.languages.map(languageLabel).join(", ")}
+            {lifeSpan(author, t)} · {t.activeLabel} {author.activeRange[0]}–{author.activeRange[1]}{" "}
+            · {author.regions.map((r) => regionLabel(r, locale)).join(", ")} ·{" "}
+            {author.languages.map((c) => languageLabel(c, locale)).join(", ")}
           </p>
           <p className="detail-tags">
             {author.movements.map((m) => {
@@ -71,20 +70,22 @@ export function DetailPanel() {
                   key={m}
                   type="button"
                   className="chip chip--sm"
-                  title={mv.description}
+                  title={content.movementDesc(mv)}
                   onClick={() => store.setFilters({ movements: [m] })}
                 >
-                  {mv.ko}
+                  {content.movementName(mv)}
                 </button>
               ) : null;
             })}
-            {author.speculative && <span className="chip chip--sm is-static">사변·SF</span>}
+            {author.speculative && (
+              <span className="chip chip--sm is-static">{t.speculativeChip}</span>
+            )}
           </p>
         </div>
         <button
           type="button"
           className="icon-btn detail-close"
-          aria-label="상세 패널 닫기"
+          aria-label={t.closeDetail}
           onClick={() => store.selectAuthor(null)}
         >
           ✕
@@ -92,19 +93,19 @@ export function DetailPanel() {
       </div>
 
       <div className="detail-body">
-        <h3>왜 중요한가</h3>
-        <p>{author.importanceReason}</p>
+        <h3>{t.whyImportant}</h3>
+        <p>{content.authorField(author, "importanceReason")}</p>
 
-        <h3>어디서부터 읽을까</h3>
+        <h3>{t.whereToStart}</h3>
         {entryWork && (
           <p className="entry-work">
-            <strong>{entryWork.titleKo}</strong>
+            <strong>{content.workTitle(entryWork)}</strong>
             <span className="work-meta">
               {" "}
               ({entryWork.titleOriginal}, {entryWork.year})
             </span>
             <br />
-            {author.readingEntryReason}
+            {content.authorField(author, "readingEntryReason")}
           </p>
         )}
         <ol className="reading-order">
@@ -112,56 +113,52 @@ export function DetailPanel() {
             const w = workById.get(wid);
             return w ? (
               <li key={wid}>
-                {w.titleKo} <span className="work-meta">({w.year})</span>
+                {content.workTitle(w)} <span className="work-meta">({w.year})</span>
               </li>
             ) : null;
           })}
         </ol>
-        {author.readingWarning && (
+        {readingWarning && (
           <p className="reading-warning" role="note">
-            {author.readingWarning}
+            {readingWarning}
           </p>
         )}
         <p className="difficulty-row">
-          독서 난도 <DifficultyDots value={author.difficulty} />
-          <span className="difficulty-reason">{author.difficultyReason}</span>
+          {t.readingDifficulty} <DifficultyDots value={author.difficulty} />
+          <span className="difficulty-reason">
+            {content.authorField(author, "difficultyReason")}
+          </span>
         </p>
 
-        <h3>대표작</h3>
+        <h3>{t.majorWorks}</h3>
         <ul className="work-list">
           {works.map((w) => (
             <li key={w.id}>
-              <strong>{w.titleKo}</strong>
+              <strong>{content.workTitle(w)}</strong>
               <span className="work-meta">
                 {" "}
                 {w.titleOriginal} · {w.year}
               </span>
-              <p>{w.significance}</p>
+              <p>{content.workSignificance(w)}</p>
             </li>
           ))}
         </ul>
-        {author.worksException && (
-          <p className="works-exception">{author.worksException}</p>
-        )}
+        {worksException && <p className="works-exception">{worksException}</p>}
 
-        <h3>관계</h3>
-        {neighbors.length === 0 && (
-          <p className="empty-note">
-            아직 기록된 관계가 없습니다. 관계 데이터는 단계적으로 채워지고 있습니다.
-          </p>
-        )}
+        <h3>{t.relationsHead}</h3>
+        {neighbors.length === 0 && <p className="empty-note">{t.noRelations}</p>}
         {RELATION_DEFS.filter((d) => byType.has(d.id)).map((def) => (
           <div key={def.id} className="relation-group">
-            <h4>{relationLabel(def.id)}</h4>
+            <h4>{relationTypeLabel(def.id, locale)}</h4>
             <ul>
               {(byType.get(def.id) ?? []).map(({ otherId, relation }) => (
                 <li key={relation.id} className="relation-item">
                   <div className="relation-line">
                     {relation.direction === "directed" ? (
                       relation.sourceId === author.id ? (
-                        <span className="rel-dir">→ 영향을 준 작가</span>
+                        <span className="rel-dir">{t.influencedArrow}</span>
                       ) : (
-                        <span className="rel-dir">← 영향을 받은 원천</span>
+                        <span className="rel-dir">{t.influencedByArrow}</span>
                       )
                     ) : (
                       <span className="rel-dir">↔</span>
@@ -169,14 +166,14 @@ export function DetailPanel() {
                     <AuthorLink id={otherId} />
                     <EvidenceBadge level={relation.evidenceLevel} />
                   </div>
-                  <p className="relation-summary">{relation.summary}</p>
+                  <p className="relation-summary">{content.relationSummary(relation)}</p>
                 </li>
               ))}
             </ul>
           </div>
         ))}
 
-        <h3>근거 출처</h3>
+        <h3>{t.sourcesHead}</h3>
         <ul className="source-list">
           {author.sourceIds.map((sid) => {
             const s = sourceById.get(sid);
@@ -204,13 +201,13 @@ export function DetailPanel() {
             type="button"
             onClick={() => store.set({ comparePicking: true, compareAuthorId: null })}
           >
-            다른 작가와 비교
+            {t.compareOther}
           </button>
           <button
             type="button"
             onClick={() => services.globeRef.current?.focusAuthor(author.id)}
           >
-            지도 중앙으로
+            {t.centerOnMap}
           </button>
         </div>
       </div>

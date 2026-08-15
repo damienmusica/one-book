@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useAppState, useServices } from "./ctx.ts";
+import { useAppState, useServices, useT } from "./ctx.ts";
 import { Header } from "./Header.tsx";
 import { GlobeView } from "./GlobeView.tsx";
 import { FilterPanel } from "./FilterPanel.tsx";
@@ -14,11 +14,20 @@ import { MethodologyPage } from "./MethodologyPage.tsx";
 export function App() {
   const state = useAppState();
   const { store } = useServices();
+  const t = useT();
 
   useEffect(() => {
     // wide screens start with the exploration panel open
     if (window.innerWidth >= 1200) store.set({ filtersOpen: true });
   }, [store]);
+
+  useEffect(() => {
+    document.documentElement.lang = state.locale;
+    document.title =
+      state.locale === "ko"
+        ? "문학의 행성 — 20세기 세계문학 지도"
+        : "Literary Planet — a map of 20th-century world literature";
+  }, [state.locale]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -37,7 +46,7 @@ export function App() {
   return (
     <div className="app">
       <a className="skip-link" href="#/writers">
-        키보드로 탐색하기: 작가 목록 페이지로 이동
+        {t.skipLink}
       </a>
       <Header />
       {state.page === "globe" && (
@@ -49,9 +58,9 @@ export function App() {
           {state.tourId && <TourOverlay />}
           {state.comparePicking && (
             <div className="compare-hint" role="status">
-              비교할 두 번째 작가를 검색하거나 지도에서 선택하세요.{" "}
+              {t.compareHint}{" "}
               <button type="button" onClick={() => store.set({ comparePicking: false })}>
-                취소
+                {t.cancel}
               </button>
             </div>
           )}

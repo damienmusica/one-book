@@ -107,6 +107,7 @@ export function makeDataset(
       tier: a.tier,
       batch: "test"
     })),
+    translations: [],
     ...extra
   };
 }

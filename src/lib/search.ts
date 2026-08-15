@@ -20,14 +20,27 @@ interface IndexEntry {
   forms: Array<{ raw: string; norm: string }>;
 }
 
-export function buildSearchIndex(authors: Author[]): IndexEntry[] {
-  return authors.map((author) => ({
-    author,
-    forms: [author.names.ko, author.names.original, ...author.names.aliases].map((raw) => ({
-      raw,
-      norm: normalizeQuery(raw)
-    }))
-  }));
+export function buildSearchIndex(
+  authors: Author[],
+  extraForms?: Map<string, string[]>
+): IndexEntry[] {
+  return authors.map((author) => {
+    const raws = [
+      author.names.ko,
+      author.names.original,
+      ...author.names.aliases,
+      ...(extraForms?.get(author.id) ?? [])
+    ];
+    const seen = new Set<string>();
+    const forms: IndexEntry["forms"] = [];
+    for (const raw of raws) {
+      const norm = normalizeQuery(raw);
+      if (seen.has(norm)) continue;
+      seen.add(norm);
+      forms.push({ raw, norm });
+    }
+    return { author, forms };
+  });
 }
 
 export function searchAuthors(index: IndexEntry[], query: string, limit = 12): SearchHit[] {

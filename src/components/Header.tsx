@@ -1,11 +1,13 @@
 import { useMemo } from "react";
-import { useAppState, useServices } from "./ctx.ts";
+import { useAppState, useServices, useT } from "./ctx.ts";
 import { visibleAuthorIds, visibleRelations } from "../lib/filter.ts";
+import { LOCALES } from "../i18n/index.ts";
 import { SearchBox } from "./SearchBox.tsx";
 
 export function Header() {
   const state = useAppState();
   const { store, dataset } = useServices();
+  const t = useT();
 
   const counts = useMemo(() => {
     const vis = visibleAuthorIds(dataset.authors, state.filters, state.year, state.yearMode);
@@ -17,10 +19,10 @@ export function Header() {
     <header className="app-header">
       <div className="brand">
         <a href="#/" className="brand-title">
-          문학의 행성
+          {t.brand}
         </a>
-        <span className="brand-sub" aria-label="현재 표시 중인 작가와 관계 수">
-          작가 {counts.authors} · 관계 {counts.relations}
+        <span className="brand-sub" aria-label={t.brandSubAria}>
+          {t.brandSub(counts.authors, counts.relations)}
         </span>
       </div>
 
@@ -32,42 +34,56 @@ export function Header() {
             aria-expanded={state.filtersOpen}
             onClick={() => store.set({ filtersOpen: !state.filtersOpen })}
           >
-            탐색·필터
+            {t.panelToggle}
           </button>
           <SearchBox />
-          <div className="mode-toggle" role="group" aria-label="좌표계 선택">
+          <div className="mode-toggle" role="group" aria-label={t.modeAria}>
             <button
               type="button"
               aria-pressed={state.mode === "semantic"}
               onClick={() => store.set({ mode: "semantic" })}
             >
-              문학적 친연성
+              {t.modeSemantic}
             </button>
             <button
               type="button"
               aria-pressed={state.mode === "geo"}
               onClick={() => store.set({ mode: "geo" })}
             >
-              실제 지리
+              {t.modeGeo}
             </button>
           </div>
         </>
       )}
 
-      <nav className="app-nav" aria-label="페이지">
+      <nav className="app-nav" aria-label={t.navAria}>
         <a href="#/" aria-current={state.page === "globe" ? "page" : undefined}>
-          지도
+          {t.navMap}
         </a>
         <a href="#/writers" aria-current={state.page === "writers" ? "page" : undefined}>
-          작가 목록
+          {t.navWriters}
         </a>
         <a
           href="#/methodology"
           aria-current={state.page === "methodology" ? "page" : undefined}
         >
-          방법론
+          {t.navMethodology}
         </a>
       </nav>
+
+      <div className="mode-toggle locale-toggle" role="group" aria-label={t.localeAria}>
+        {LOCALES.map((l) => (
+          <button
+            key={l.id}
+            type="button"
+            aria-pressed={state.locale === l.id}
+            title={l.label}
+            onClick={() => store.set({ locale: l.id })}
+          >
+            {l.short}
+          </button>
+        ))}
+      </div>
     </header>
   );
 }

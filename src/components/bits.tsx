@@ -1,48 +1,28 @@
-import type { Author, EvidenceLevel, RelationType } from "../types.ts";
-import {
-  EVIDENCE_LEVEL_KO,
-  LANGUAGE_LABELS,
-  REGION_DEFS,
-  RELATION_DEFS,
-  REVIEW_STATUS_KO
-} from "../types.ts";
-import { focusAuthor, useServices } from "./ctx.ts";
-
-const regionKo = new Map(REGION_DEFS.map((r) => [r.id, r.ko]));
-export function regionLabel(id: string): string {
-  return regionKo.get(id) ?? id;
-}
-
-export function languageLabel(code: string): string {
-  return LANGUAGE_LABELS[code] ?? code;
-}
-
-const relationDef = new Map(RELATION_DEFS.map((r) => [r.id, r]));
-export function relationLabel(type: RelationType): string {
-  return relationDef.get(type)?.ko ?? type;
-}
-export function relationShort(type: RelationType): string {
-  return relationDef.get(type)?.short ?? type;
-}
+import type { Author, EvidenceLevel } from "../types.ts";
+import { evidenceLabel, reviewLabel, type UIStrings } from "../i18n/index.ts";
+import { focusAuthor, useAppState, useContent, useServices, useT } from "./ctx.ts";
 
 export function EvidenceBadge({ level }: { level: EvidenceLevel }) {
+  const { locale } = useAppState();
   return (
-    <span className={`evidence-badge evidence--${level}`}>{EVIDENCE_LEVEL_KO[level]}</span>
+    <span className={`evidence-badge evidence--${level}`}>{evidenceLabel(level, locale)}</span>
   );
 }
 
 export function ReviewBadge({ author }: { author: Author }) {
+  const { locale } = useAppState();
   return (
     <span className={`review-badge review--${author.reviewStatus}`}>
-      {REVIEW_STATUS_KO[author.reviewStatus]}
+      {reviewLabel(author.reviewStatus, locale)}
       {author.reviewedAt ? ` · ${author.reviewedAt}` : ""}
     </span>
   );
 }
 
 export function DifficultyDots({ value }: { value: number }) {
+  const t = useT();
   return (
-    <span className="difficulty-dots" aria-label={`독서 난도 5점 중 ${value}점`}>
+    <span className="difficulty-dots" aria-label={t.difficultyAria(value)}>
       {[1, 2, 3, 4, 5].map((i) => (
         <span key={i} className={i <= value ? "dot is-on" : "dot"} aria-hidden="true" />
       ))}
@@ -52,17 +32,17 @@ export function DifficultyDots({ value }: { value: number }) {
 
 export function AuthorLink({ id, children }: { id: string; children?: React.ReactNode }) {
   const services = useServices();
+  const content = useContent();
   const author = services.dataset.authors.find((a) => a.id === id);
   if (!author) return null;
   return (
     <button type="button" className="author-link" onClick={() => focusAuthor(services, id)}>
-      {children ?? author.names.ko}
+      {children ?? content.authorName(author)}
     </button>
   );
 }
 
-export function lifeSpan(a: Author): string {
+export function lifeSpan(a: Author, t: UIStrings): string {
   const b = a.birthYear !== undefined ? String(a.birthYear) : "?";
-  const d = a.deathYear !== undefined ? String(a.deathYear) : "";
-  return a.deathYear !== undefined ? `${b}–${d}` : `${b}년생`;
+  return a.deathYear !== undefined ? `${b}–${a.deathYear}` : t.bornSuffix(a.birthYear ?? 0);
 }

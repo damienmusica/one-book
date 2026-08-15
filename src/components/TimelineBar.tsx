@@ -1,35 +1,36 @@
-import { useAppState, useServices } from "./ctx.ts";
+import { useAppState, useServices, useT } from "./ctx.ts";
 import { TIMELINE_MAX, TIMELINE_MIN } from "../lib/filter.ts";
 
 export function TimelineBar() {
   const state = useAppState();
   const { store, globeRef } = useServices();
+  const t = useT();
 
   const label =
     state.year >= TIMELINE_MAX
-      ? "전체 시기"
+      ? t.allYears
       : state.yearMode === "cumulative"
-        ? `${state.year}년까지`
-        : `${state.year}년 활동`;
+        ? t.upToYear(state.year)
+        : t.activeInYear(state.year);
 
   return (
     <div className="timeline-bar">
-      <div className="timeline-mode" role="group" aria-label="연대 보기 방식">
+      <div className="timeline-mode" role="group" aria-label={t.yearModeAria}>
         <button
           type="button"
           aria-pressed={state.yearMode === "cumulative"}
-          title="선택 연도까지 등장한 작가를 누적해 보여줍니다"
+          title={t.cumulativeTitle}
           onClick={() => store.set({ yearMode: "cumulative" })}
         >
-          누적
+          {t.cumulative}
         </button>
         <button
           type="button"
           aria-pressed={state.yearMode === "active"}
-          title="선택 연도에 활동 중이던 작가만 보여줍니다"
+          title={t.activeTitle}
           onClick={() => store.set({ yearMode: "active" })}
         >
-          당시 활동
+          {t.activeMode}
         </button>
       </div>
 
@@ -40,7 +41,7 @@ export function TimelineBar() {
         max={TIMELINE_MAX}
         step={1}
         value={state.year}
-        aria-label="연대 슬라이더"
+        aria-label={t.yearSliderAria}
         aria-valuetext={label}
         onChange={(e) => store.set({ year: Number(e.target.value) })}
       />
@@ -48,19 +49,11 @@ export function TimelineBar() {
         {label}
       </output>
 
-      <div className="view-controls" role="group" aria-label="화면 제어">
-        <button
-          type="button"
-          aria-label="확대"
-          onClick={() => globeRef.current?.zoomBy(0.72)}
-        >
+      <div className="view-controls" role="group" aria-label={t.viewControlsAria}>
+        <button type="button" aria-label={t.zoomIn} onClick={() => globeRef.current?.zoomBy(0.72)}>
           +
         </button>
-        <button
-          type="button"
-          aria-label="축소"
-          onClick={() => globeRef.current?.zoomBy(1.38)}
-        >
+        <button type="button" aria-label={t.zoomOut} onClick={() => globeRef.current?.zoomBy(1.38)}>
           −
         </button>
         <button
@@ -71,7 +64,7 @@ export function TimelineBar() {
             globeRef.current?.resetCamera();
           }}
         >
-          초기화
+          {t.resetView}
         </button>
       </div>
     </div>

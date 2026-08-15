@@ -1,14 +1,16 @@
 import { useEffect, useRef, useState } from "react";
-import { useAppState, useServices } from "./ctx.ts";
+import { useAppState, useContent, useServices, useT } from "./ctx.ts";
 
 export function TourOverlay() {
   const state = useAppState();
   const services = useServices();
   const { store, dataset } = services;
+  const t = useT();
+  const content = useContent();
   const [autoplay, setAutoplay] = useState(false);
   const timerRef = useRef<number>(0);
 
-  const tour = dataset.tours.find((t) => t.id === state.tourId);
+  const tour = dataset.tours.find((x) => x.id === state.tourId);
   const stop = tour?.stops[state.tourStop];
 
   // arriving at a stop selects + focuses its author
@@ -36,29 +38,29 @@ export function TourOverlay() {
   const isLast = state.tourStop === tour.stops.length - 1;
 
   return (
-    <div className="tour-overlay" role="region" aria-label={`안내 여정: ${tour.title}`}>
+    <div className="tour-overlay" role="region" aria-label={t.tourAria(content.tourTitle(tour))}>
       <div className="tour-head">
-        <span className="tour-name">{tour.title}</span>
+        <span className="tour-name">{content.tourTitle(tour)}</span>
         <span className="tour-progress">
           {state.tourStop + 1} / {tour.stops.length}
         </span>
       </div>
-      <p className="tour-note">{stop.note}</p>
+      <p className="tour-note">{content.tourStopNote(tour, state.tourStop)}</p>
       <div className="tour-controls">
         <button
           type="button"
           disabled={isFirst}
           onClick={() => store.set({ tourStop: Math.max(0, state.tourStop - 1) })}
         >
-          이전
+          {t.prev}
         </button>
         <button
           type="button"
           aria-pressed={autoplay}
           onClick={() => setAutoplay((a) => !a)}
-          title="9초 간격으로 자동 진행"
+          title={t.autoplayTitle}
         >
-          {autoplay ? "일시정지" : "자동 진행"}
+          {autoplay ? t.pause : t.autoplay}
         </button>
         <button
           type="button"
@@ -67,10 +69,10 @@ export function TourOverlay() {
             store.set({ tourStop: Math.min(tour.stops.length - 1, state.tourStop + 1) })
           }
         >
-          다음
+          {t.next}
         </button>
         <button type="button" className="tour-exit" onClick={() => store.endTour()}>
-          자유 탐색으로
+          {t.exitTour}
         </button>
       </div>
     </div>

@@ -206,3 +206,32 @@ role=activity(망명 규정 회피) · 박경리 primary=원주 · 한국 작품
 전환해 재실행: **99 일치 · 1 불일치(엘리슨) · 이름검색 폴백 0** — 원 QC 결과의 결정적 재현.
 불변식 추가: `reviewed` 이상은 `externalIds.wikidata` 필수 · QID 중복 차단. 생성기는 이
 필드를 기입하지 않는다(editorial-guide §2 — QID 기억은 신뢰 불가 실측).
+
+## EN 번역 웨이브 (2026-08-15, 세션 #2 — 19기 병렬, 전원 claude-sonnet-5 자기보고)
+
+**903/903 전 항목 커버리지** (작가 100 · 작품 512 · 관계 263 · 운동 19 · 투어 9/노트 66) —
+패리티 기계검증 누락·초과·중복 0, `reviewed`-로케일 완전성 불변식 그린. 계약
+(`docs/translation-guide.md`): 번역≠리서치·새 사실 금지·근거 어조 보존·확립 영어 제목만.
+정독 샘플 3/3 클린(카프카 프로필·프루스트↔무질 affinity 헤지·투어 노트 — (34) 미러).
+특기: mid-south-b 생성기가 자기 드리프트 4건 자가 적발·수정 후 보고, 다수 에이전트가
+선착 배치를 하우스 스타일 선례로 교차 참조(따옴표·별칭 규칙 수렴), rel-midcentury-west는
+악령을 자체 판단 대신 **프로젝트 캐논("Demons")에 맞춤**.
+
+**UNCERTAIN 원장 (에이전트 자기보고 합산 ~60건, 3분류):**
+1. **경쟁 확립 제목 중 택일(~30)** — The Stranger/Outsider · Coming of Age/Old Age ·
+   Demons/Possessed(캐논=Demons) · Death with Interruptions/at Intervals · Good
+   Woman/Person of Setzuan · A/The Madman's Diary · Burning Plain/Plain in Flames ·
+   Children of the Alley/Gebelawi · Prize Stock/The Catch 등 — 전부 실존 출판 제목,
+   선택 근거 트랜스크립트에 기록.
+2. **확립 영어 제목 부재 → 로마자/원제 유지(~25)** — 쉼보르스카 시집 4 · 이상 3 ·
+   김소월 4 · 한용운 3 · 코르타사르 초기 단편집 3 · 박경리 2 · 아베 『벽』 · 다자이
+   『만년』 · 오에 3부작 · 첼란 Sprachgitter 등. **최우선 검토 1건: 『님의 침묵』**
+   ("Nimui Chimmuk"로 유지 — "The Silence of Love" / "Everything Yearned For" 두
+   경쟁 출판 번역 실재, 편집 판단 필요).
+3. **운동 명칭 2** — 구인회 "Guinhoe"(Kuinhoe/Circle of Nine 대안), 신감각파
+   "New Sensationism"(Neo-Perceptionism 등 통용 변이).
+
+**기지 불일치 1건(비차단, v1.1 편집 패스行)**: 기마랑이스 호자 대표작 — works 캐논은
+유일 출판 영역 "The Devil to Pay in the Backlands", rel-global-south 요약 3곳은 최근
+학계 관행대로 "Grande Sertão: Veredas" 유지(해당 에이전트가 근거와 함께 플래그).
+둘 다 실재 표기라 오류 아님; 통일 방향은 편집 결정으로 남김.

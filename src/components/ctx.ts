@@ -1,10 +1,17 @@
-import { createContext, useContext, useSyncExternalStore } from "react";
+import { createContext, useContext, useMemo, useSyncExternalStore } from "react";
 import type { Dataset, Relation, Work } from "../types.ts";
 import type { AppState, Store } from "../state/store.ts";
 import type { Adjacency } from "../lib/graph.ts";
 import { buildAdjacency } from "../lib/graph.ts";
 import { buildSearchIndex } from "../lib/search.ts";
 import type { GlobeHandle } from "../globe/renderer.ts";
+import {
+  buildContentAccess,
+  translationSearchForms,
+  UI,
+  type ContentAccess,
+  type UIStrings
+} from "../i18n/index.ts";
 
 export interface AppServices {
   store: Store;
@@ -27,7 +34,7 @@ export function buildServices(store: Store, dataset: Dataset): AppServices {
   return {
     store,
     dataset,
-    searchIndex: buildSearchIndex(dataset.authors),
+    searchIndex: buildSearchIndex(dataset.authors, translationSearchForms(dataset)),
     adjacency: buildAdjacency(dataset.relations),
     worksByAuthor,
     relationById: new Map(dataset.relations.map((r) => [r.id, r])),
@@ -46,6 +53,18 @@ export function useServices(): AppServices {
 export function useAppState(): AppState {
   const { store } = useServices();
   return useSyncExternalStore(store.subscribe, store.getState, store.getState);
+}
+
+/** the active UI-chrome dictionary */
+export function useT(): UIStrings {
+  return UI[useAppState().locale];
+}
+
+/** locale-aware access to editorial content (names, prose, titles) */
+export function useContent(): ContentAccess {
+  const { dataset } = useServices();
+  const { locale } = useAppState();
+  return useMemo(() => buildContentAccess(dataset, locale), [dataset, locale]);
 }
 
 /** select an author and swing the globe to face them */

@@ -1,9 +1,11 @@
 import { useEffect, useId, useRef, useState } from "react";
-import { focusAuthor, useServices } from "./ctx.ts";
+import { focusAuthor, useContent, useServices, useT } from "./ctx.ts";
 import { searchAuthors, type SearchHit } from "../lib/search.ts";
 
 export function SearchBox() {
   const services = useServices();
+  const t = useT();
+  const content = useContent();
   const [query, setQuery] = useState("");
   const [hits, setHits] = useState<SearchHit[]>([]);
   const [open, setOpen] = useState(false);
@@ -59,36 +61,40 @@ export function SearchBox() {
         aria-expanded={open}
         aria-controls={listId}
         aria-activedescendant={open && hits[active] ? `${listId}-${active}` : undefined}
-        aria-label="작가 검색 — 한국어·원어·다른 표기 지원"
-        placeholder="작가 검색 (한국어·원어)"
+        aria-label={t.searchAria}
+        placeholder={t.searchPlaceholder}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyDown={onKeyDown}
         onFocus={() => hits.length > 0 && setOpen(true)}
       />
       {open && (
-        <ul className="search-results" role="listbox" id={listId} aria-label="검색 결과">
-          {hits.map((hit, i) => (
-            <li
-              key={hit.author.id}
-              id={`${listId}-${i}`}
-              role="option"
-              aria-selected={i === active}
-              className={i === active ? "is-active" : ""}
-              onPointerDown={(e) => {
-                e.preventDefault();
-                choose(hit);
-              }}
-              onPointerEnter={() => setActive(i)}
-            >
-              <span className="hit-ko">{hit.author.names.ko}</span>
-              <span className="hit-original">{hit.author.names.original}</span>
-              {hit.matched !== hit.author.names.ko &&
-                hit.matched !== hit.author.names.original && (
+        <ul className="search-results" role="listbox" id={listId} aria-label={t.searchResultsAria}>
+          {hits.map((hit, i) => {
+            const name = content.authorName(hit.author);
+            const secondary =
+              hit.author.names.original !== name ? hit.author.names.original : hit.author.names.ko;
+            return (
+              <li
+                key={hit.author.id}
+                id={`${listId}-${i}`}
+                role="option"
+                aria-selected={i === active}
+                className={i === active ? "is-active" : ""}
+                onPointerDown={(e) => {
+                  e.preventDefault();
+                  choose(hit);
+                }}
+                onPointerEnter={() => setActive(i)}
+              >
+                <span className="hit-ko">{name}</span>
+                <span className="hit-original">{secondary}</span>
+                {hit.matched !== name && hit.matched !== secondary && (
                   <span className="hit-alias">{hit.matched}</span>
                 )}
-            </li>
-          ))}
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>

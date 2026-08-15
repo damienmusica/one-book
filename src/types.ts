@@ -166,6 +166,59 @@ export interface RegistryEntry {
   batch: string;
 }
 
+// ---------------------------------------------------------------------------
+// Translations — editorial content in additional locales. The default locale
+// (ko) lives on the records themselves; every other locale is a pack under
+// data/translations/<locale>/. Graph topology never depends on any of this.
+// ---------------------------------------------------------------------------
+
+export interface AuthorTranslation {
+  id: string;
+  /** display name in this locale (e.g. standard English romanization) */
+  name: string;
+  aliases?: string[];
+  importanceReason: string;
+  readingEntryReason: string;
+  readingWarning?: string;
+  difficultyReason: string;
+  worksException?: string;
+}
+
+export interface WorkTranslation {
+  id: string;
+  /** established title in this locale (e.g. "Snow Country") */
+  title: string;
+  significance: string;
+}
+
+export interface RelationTranslation {
+  id: string;
+  summary: string;
+}
+
+export interface MovementTranslation {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export interface TourTranslation {
+  id: string;
+  title: string;
+  description: string;
+  /** parallel to the tour's stops array, same length */
+  stopNotes: string[];
+}
+
+export interface LocalePack {
+  locale: string;
+  authors: AuthorTranslation[];
+  works: WorkTranslation[];
+  relations: RelationTranslation[];
+  movements: MovementTranslation[];
+  tours: TourTranslation[];
+}
+
 export interface Dataset {
   authors: Author[];
   works: Work[];
@@ -175,6 +228,7 @@ export interface Dataset {
   tours: Tour[];
   positions: PositionsFile;
   registry: RegistryEntry[];
+  translations: LocalePack[];
 }
 
 // ---------------------------------------------------------------------------
@@ -184,58 +238,94 @@ export interface Dataset {
 export const PERIOD_DEFS: ReadonlyArray<{
   id: PeriodId;
   ko: string;
+  en: string;
+  /** first-token style short forms for dense tables */
+  shortKo: string;
+  shortEn: string;
   range: [number, number];
   defaultOn: boolean;
   description: string;
+  descriptionEn: string;
 }> = [
   {
     id: "roots",
     ko: "뿌리층 1850–1900",
+    en: "Roots 1850–1900",
+    shortKo: "뿌리층",
+    shortEn: "Roots",
     range: [1850, 1900],
     defaultOn: true,
-    description: "20세기 문학을 가능하게 한 사실주의·상징주의·근대극·심리소설의 전사."
+    description: "20세기 문학을 가능하게 한 사실주의·상징주의·근대극·심리소설의 전사.",
+    descriptionEn:
+      "The prehistory that made 20th-century literature possible: realism, symbolism, modern drama, the psychological novel."
   },
   {
     id: "early-modernism",
     ko: "초기 모더니즘 1890–1945",
+    en: "Early Modernism 1890–1945",
+    shortKo: "초기",
+    shortEn: "Early",
     range: [1890, 1945],
     defaultOn: true,
-    description: "고도 모더니즘과 아방가르드, 동아시아 근대문학, 혁명과 식민지의 문학."
+    description: "고도 모더니즘과 아방가르드, 동아시아 근대문학, 혁명과 식민지의 문학.",
+    descriptionEn:
+      "High modernism and the avant-garde, East Asian modern literature, the literature of revolution and colony."
   },
   {
     id: "mid-century",
     ko: "중기 현대문학 1930–1970",
+    en: "Mid-Century 1930–1970",
+    shortKo: "중기",
+    shortEn: "Mid-Century",
     range: [1930, 1970],
     defaultOn: true,
-    description: "전쟁 이후, 실존주의와 부조리, 탈식민주의, 라틴아메리카 붐의 전개."
+    description: "전쟁 이후, 실존주의와 부조리, 탈식민주의, 라틴아메리카 붐의 전개.",
+    descriptionEn:
+      "After the wars: existentialism and the absurd, decolonization, the unfolding of the Latin American Boom."
   },
   {
     id: "late-postmodern",
     ko: "후기·포스트모던 1960–2000",
+    en: "Late & Postmodern 1960–2000",
+    shortKo: "후기",
+    shortEn: "Late",
     range: [1960, 2000],
     defaultOn: true,
-    description: "메타픽션, 사변소설, 기억문학, 후기 자본주의와 매체의 문학."
+    description: "메타픽션, 사변소설, 기억문학, 후기 자본주의와 매체의 문학.",
+    descriptionEn:
+      "Metafiction, speculative fiction, the literature of memory, late capitalism and its media."
   },
   {
     id: "contemporary",
     ko: "21세기 후속층 1990–현재",
+    en: "Contemporary 1990–present",
+    shortKo: "21세기",
+    shortEn: "Contemporary",
     range: [1990, 2026],
     defaultOn: false,
-    description: "정전화가 진행 중인 확장층. 기본적으로 꺼져 있다."
+    description: "정전화가 진행 중인 확장층. 기본적으로 꺼져 있다.",
+    descriptionEn: "An extension layer still being canonized. Off by default."
   }
 ];
 
-export const GENRE_DEFS: ReadonlyArray<{ id: GenreId; ko: string; defaultOn: boolean }> = [
-  { id: "fiction", ko: "소설·단편", defaultOn: true },
-  { id: "poetry", ko: "시", defaultOn: true },
-  { id: "drama", ko: "희곡", defaultOn: true },
-  { id: "essay-criticism", ko: "에세이·비평", defaultOn: true }
+export const GENRE_DEFS: ReadonlyArray<{
+  id: GenreId;
+  ko: string;
+  en: string;
+  defaultOn: boolean;
+}> = [
+  { id: "fiction", ko: "소설·단편", en: "Fiction", defaultOn: true },
+  { id: "poetry", ko: "시", en: "Poetry", defaultOn: true },
+  { id: "drama", ko: "희곡", en: "Drama", defaultOn: true },
+  { id: "essay-criticism", ko: "에세이·비평", en: "Essay & criticism", defaultOn: true }
 ];
 
 export const RELATION_DEFS: ReadonlyArray<{
   id: RelationType;
   ko: string;
+  en: string;
   short: string;
+  shortEn: string;
   direction: "directed" | "bidirectional";
   /** evidence levels this type may carry */
   levels: ReadonlyArray<EvidenceLevel>;
@@ -244,72 +334,95 @@ export const RELATION_DEFS: ReadonlyArray<{
   dashed: boolean;
   defaultOn: boolean;
   description: string;
+  descriptionEn: string;
 }> = [
   {
     id: "documented_influence",
     ko: "확인된 직접 영향",
+    en: "Documented influence",
     short: "직접 영향",
+    shortEn: "influence",
     direction: "directed",
     levels: ["documented", "scholarly_consensus"],
     sourcesRequired: true,
     dashed: false,
     defaultOn: true,
-    description: "서신·인터뷰·회고록·명시적 독서 기록, 또는 학계가 반복적으로 다루는 계보."
+    description: "서신·인터뷰·회고록·명시적 독서 기록, 또는 학계가 반복적으로 다루는 계보.",
+    descriptionEn:
+      "Letters, interviews, memoirs, explicit reading records — or a lineage scholarship keeps returning to."
   },
   {
     id: "translation",
     ko: "번역·소개",
+    en: "Translation & introduction",
     short: "번역",
+    shortEn: "translation",
     direction: "directed",
     levels: ["documented"],
     sourcesRequired: true,
     dashed: false,
     defaultOn: true,
-    description: "한 작가가 다른 작가를 번역하거나 자기 언어권에 소개한 확인된 사실."
+    description: "한 작가가 다른 작가를 번역하거나 자기 언어권에 소개한 확인된 사실.",
+    descriptionEn:
+      "A confirmed fact of one writer translating another, or introducing them to their own language."
   },
   {
     id: "mentorship",
     ko: "사사·후원",
+    en: "Mentorship & patronage",
     short: "사사",
+    shortEn: "mentorship",
     direction: "directed",
     levels: ["documented"],
     sourcesRequired: true,
     dashed: false,
     defaultOn: true,
-    description: "스승-제자 관계, 편집자적 후원, 등단 지원 같은 확인된 인적 관계."
+    description: "스승-제자 관계, 편집자적 후원, 등단 지원 같은 확인된 인적 관계.",
+    descriptionEn:
+      "Confirmed personal relationships: teacher and student, editorial patronage, help into print."
   },
   {
     id: "dialogue",
     ko: "교류·논쟁",
+    en: "Dialogue & debate",
     short: "대화",
+    shortEn: "dialogue",
     direction: "bidirectional",
     levels: ["documented", "scholarly_consensus"],
     sourcesRequired: true,
     dashed: false,
     defaultOn: true,
-    description: "동시대의 실질적 교류, 우정, 공개 논쟁, 비판적 대화."
+    description: "동시대의 실질적 교류, 우정, 공개 논쟁, 비판적 대화.",
+    descriptionEn: "Substantive contemporary exchange: friendship, public argument, critical dialogue."
   },
   {
     id: "affinity",
     ko: "형식적·주제적 친연성",
+    en: "Formal & thematic affinity",
     short: "친연성",
+    shortEn: "affinity",
     direction: "bidirectional",
     levels: ["scholarly_consensus", "editorial_inference"],
     sourcesRequired: false,
     dashed: true,
     defaultOn: true,
-    description: "직접 접촉의 근거는 없으나 형식·주제·문제의식이 가까워 비교되는 관계. 이 지도의 편집적 판단이 포함된다."
+    description: "직접 접촉의 근거는 없으나 형식·주제·문제의식이 가까워 비교되는 관계. 이 지도의 편집적 판단이 포함된다.",
+    descriptionEn:
+      "No evidence of direct contact, but form, theme, or concern sit close enough to compare. Includes this map's editorial judgment."
   },
   {
     id: "contrast",
     ko: "대조·반대항",
+    en: "Contrast & counterpoint",
     short: "대조",
+    shortEn: "contrast",
     direction: "bidirectional",
     levels: ["scholarly_consensus", "editorial_inference"],
     sourcesRequired: false,
     dashed: true,
     defaultOn: false,
-    description: "같은 문제에 반대 방향으로 답해 서로를 비추는 관계."
+    description: "같은 문제에 반대 방향으로 답해 서로를 비추는 관계.",
+    descriptionEn: "Writers who answer the same question in opposite directions, and so illuminate each other."
   }
 ];
 
@@ -319,29 +432,41 @@ export const EVIDENCE_LEVEL_KO: Record<EvidenceLevel, string> = {
   editorial_inference: "편집적 친연성 (이 지도의 판단)"
 };
 
+export const EVIDENCE_LEVEL_EN: Record<EvidenceLevel, string> = {
+  documented: "Documented",
+  scholarly_consensus: "Widely discussed in scholarship",
+  editorial_inference: "Editorial affinity (this map's judgment)"
+};
+
 export const REVIEW_STATUS_KO: Record<ReviewStatus, string> = {
   draft: "초안 (검토 전)",
   reviewed: "검토됨 (기계 검증 + 편집 검토)",
   verified: "확증됨 (외부 검증)"
 };
 
-export const REGION_DEFS: ReadonlyArray<{ id: string; ko: string }> = [
-  { id: "western-europe", ko: "서유럽" },
-  { id: "central-europe", ko: "중부유럽" },
-  { id: "eastern-europe", ko: "동유럽" },
-  { id: "russia", ko: "러시아" },
-  { id: "britain-ireland", ko: "영국·아일랜드" },
-  { id: "nordic", ko: "북유럽" },
-  { id: "iberia", ko: "이베리아" },
-  { id: "italy", ko: "이탈리아" },
-  { id: "north-america", ko: "북미" },
-  { id: "latin-america", ko: "라틴아메리카" },
-  { id: "caribbean", ko: "카리브" },
-  { id: "east-asia", ko: "동아시아" },
-  { id: "south-asia", ko: "남아시아" },
-  { id: "middle-east-north-africa", ko: "중동·북아프리카" },
-  { id: "sub-saharan-africa", ko: "사하라 이남 아프리카" },
-  { id: "oceania", ko: "오세아니아" }
+export const REVIEW_STATUS_EN: Record<ReviewStatus, string> = {
+  draft: "Draft (pre-review)",
+  reviewed: "Reviewed (machine checks + editorial review)",
+  verified: "Verified (external verification)"
+};
+
+export const REGION_DEFS: ReadonlyArray<{ id: string; ko: string; en: string }> = [
+  { id: "western-europe", ko: "서유럽", en: "Western Europe" },
+  { id: "central-europe", ko: "중부유럽", en: "Central Europe" },
+  { id: "eastern-europe", ko: "동유럽", en: "Eastern Europe" },
+  { id: "russia", ko: "러시아", en: "Russia" },
+  { id: "britain-ireland", ko: "영국·아일랜드", en: "Britain & Ireland" },
+  { id: "nordic", ko: "북유럽", en: "Nordic countries" },
+  { id: "iberia", ko: "이베리아", en: "Iberia" },
+  { id: "italy", ko: "이탈리아", en: "Italy" },
+  { id: "north-america", ko: "북미", en: "North America" },
+  { id: "latin-america", ko: "라틴아메리카", en: "Latin America" },
+  { id: "caribbean", ko: "카리브", en: "Caribbean" },
+  { id: "east-asia", ko: "동아시아", en: "East Asia" },
+  { id: "south-asia", ko: "남아시아", en: "South Asia" },
+  { id: "middle-east-north-africa", ko: "중동·북아프리카", en: "Middle East & North Africa" },
+  { id: "sub-saharan-africa", ko: "사하라 이남 아프리카", en: "Sub-Saharan Africa" },
+  { id: "oceania", ko: "오세아니아", en: "Oceania" }
 ];
 
 export const LANGUAGE_LABELS: Record<string, string> = {
@@ -368,9 +493,45 @@ export const LANGUAGE_LABELS: Record<string, string> = {
   zh: "중국어"
 };
 
+export const LANGUAGE_LABELS_EN: Record<string, string> = {
+  ar: "Arabic",
+  bn: "Bengali",
+  cs: "Czech",
+  de: "German",
+  en: "English",
+  es: "Spanish",
+  fa: "Persian",
+  fr: "French",
+  hi: "Hindi",
+  it: "Italian",
+  ja: "Japanese",
+  ki: "Gikuyu",
+  ko: "Korean",
+  no: "Norwegian",
+  pl: "Polish",
+  pt: "Portuguese",
+  ru: "Russian",
+  sv: "Swedish",
+  ur: "Urdu",
+  yi: "Yiddish",
+  zh: "Chinese"
+};
+
 export const GENDER_KO: Record<Gender, string> = {
   female: "여성",
   male: "남성",
   other: "기타",
   unknown: "미상"
+};
+
+export const GENDER_EN: Record<Gender, string> = {
+  female: "Female",
+  male: "Male",
+  other: "Other",
+  unknown: "Unknown"
+};
+
+export const TIER_LABELS: Record<"ko" | "en", Record<Tier, string>> = {
+  ko: { anchor: "앵커", major: "주요", context: "맥락" },
+  en: { anchor: "Anchor", major: "Major", context: "Context" }
 };

@@ -1,12 +1,14 @@
 import { GENRE_DEFS, PERIOD_DEFS, RELATION_DEFS } from "../types.ts";
 import type { GenreId, PeriodId, RelationType } from "../types.ts";
 import { TIMELINE_MAX, type Filters, type YearMode } from "../lib/filter.ts";
+import { DEFAULT_LOCALE, type Locale } from "../i18n/index.ts";
 
 export type Page = "globe" | "writers" | "methodology";
 export type GlobeMode = "semantic" | "geo";
 
 export interface AppState {
   page: Page;
+  locale: Locale;
   mode: GlobeMode;
   selectedAuthorId: string | null;
   hoveredAuthorId: string | null;
@@ -38,6 +40,7 @@ export function defaultFilters(): Filters {
 export function initialState(): AppState {
   return {
     page: "globe",
+    locale: DEFAULT_LOCALE,
     mode: "semantic",
     selectedAuthorId: null,
     hoveredAuthorId: null,

@@ -35,7 +35,13 @@ export function loadDataset(): Dataset {
     movements: (singleJson(import.meta.glob("../../data/movements.json", { eager: true }))),
     tours: singleJson(import.meta.glob("../../data/tours.json", { eager: true })),
     positions: singleJson(import.meta.glob("../../data/positions.v1.json", { eager: true })),
-    registry: singleJson(import.meta.glob("../../data/registry.json", { eager: true }))
+    registry: singleJson(import.meta.glob("../../data/registry.json", { eager: true })),
+    translationFiles: stripTranslationPaths(
+      import.meta.glob("../../data/translations/**/*.json", { eager: true }) as Record<
+        string,
+        unknown
+      >
+    )
   };
   // pre-freeze dev state (placeholder positions) loads leniently; a shipped
   // bundle has frozen positions and validates strictly
@@ -52,6 +58,16 @@ export function loadDataset(): Dataset {
 function singleJson(mods: Record<string, unknown>): unknown {
   const first = Object.values(mods)[0];
   return (first as { default: unknown } | undefined)?.default ?? null;
+}
+
+/** key by the path after data/translations/ (e.g. "en/authors/roots.json") */
+function stripTranslationPaths(mods: Record<string, unknown>): Record<string, unknown> {
+  const out: Record<string, unknown> = {};
+  for (const [path, mod] of Object.entries(mods)) {
+    const rel = path.split("/translations/")[1];
+    if (rel) out[rel] = (mod as { default: unknown }).default;
+  }
+  return out;
 }
 
 /** author id → unit vector for the literary-affinity sphere */

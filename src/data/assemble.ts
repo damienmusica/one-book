@@ -7,10 +7,18 @@ import {
   movementsFileSchema,
   toursFileSchema,
   positionsSchema,
-  registrySchema
+  registrySchema,
+  authorTranslationsFileSchema,
+  workTranslationsFileSchema,
+  relationTranslationsFileSchema,
+  movementTranslationsFileSchema,
+  tourTranslationsFileSchema
 } from "../schema.ts";
 import { RELATION_DEFS, PERIOD_DEFS } from "../types.ts";
-import type { Author, Dataset, Relation, RelationType, Work } from "../types.ts";
+import type { Author, Dataset, LocalePack, Relation, RelationType, Work } from "../types.ts";
+
+/** locales whose pack, once present, must cover the entire dataset */
+const COMPLETE_LOCALES = new Set(["en"]);
 
 export interface RawCollections {
   /** file name → parsed JSON, for error attribution */
@@ -22,6 +30,11 @@ export interface RawCollections {
   tours: unknown;
   positions: unknown;
   registry: unknown;
+  /**
+   * path relative to data/translations (e.g. "en/authors/roots.json",
+   * "en/tours.json") → parsed JSON
+   */
+  translationFiles?: Record<string, unknown>;
 }
 
 export interface AssembleResult {
@@ -67,6 +80,61 @@ function checkUnique(kind: string, ids: string[], errors: string[]): void {
   }
 }
 
+function emptyPack(locale: string): LocalePack {
+  return { locale, authors: [], works: [], relations: [], movements: [], tours: [] };
+}
+
+/** Group data/translations/<locale>/… files into per-locale packs. */
+function parseTranslationFiles(
+  files: Record<string, unknown>,
+  errors: string[]
+): LocalePack[] {
+  const packs = new Map<string, LocalePack>();
+  const packOf = (locale: string): LocalePack => {
+    let p = packs.get(locale);
+    if (!p) {
+      p = emptyPack(locale);
+      packs.set(locale, p);
+    }
+    return p;
+  };
+  for (const [path, raw] of Object.entries(files)) {
+    const segs = path.split("/");
+    const locale = segs[0] ?? "";
+    const rest = segs.slice(1).join("/");
+    const at = `translations/${path}`;
+    if (!/^[a-z]{2}$/.test(locale)) {
+      errors.push(`${at}: locale directory must be a two-letter code`);
+      continue;
+    }
+    const pack = packOf(locale);
+    if (rest.startsWith("authors/")) {
+      const parsed = authorTranslationsFileSchema.safeParse(raw);
+      if (parsed.success) pack.authors.push(...parsed.data);
+      else errors.push(...zodIssues(at, parsed.error));
+    } else if (rest.startsWith("works/")) {
+      const parsed = workTranslationsFileSchema.safeParse(raw);
+      if (parsed.success) pack.works.push(...parsed.data);
+      else errors.push(...zodIssues(at, parsed.error));
+    } else if (rest.startsWith("relations/")) {
+      const parsed = relationTranslationsFileSchema.safeParse(raw);
+      if (parsed.success) pack.relations.push(...parsed.data);
+      else errors.push(...zodIssues(at, parsed.error));
+    } else if (rest === "movements.json") {
+      const parsed = movementTranslationsFileSchema.safeParse(raw);
+      if (parsed.success) pack.movements.push(...parsed.data);
+      else errors.push(...zodIssues(at, parsed.error));
+    } else if (rest === "tours.json") {
+      const parsed = tourTranslationsFileSchema.safeParse(raw);
+      if (parsed.success) pack.tours.push(...parsed.data);
+      else errors.push(...zodIssues(at, parsed.error));
+    } else {
+      errors.push(`${at}: unrecognized translation file location`);
+    }
+  }
+  return [...packs.values()].sort((a, b) => a.locale.localeCompare(b.locale));
+}
+
 const CURRENT_YEAR = 2026;
 
 export interface AssembleOptions {
@@ -109,6 +177,7 @@ export function assembleDataset(
     ? positionsParsed.data
     : { version: "0", seed: 0, generatedAt: "", positions: {} };
   const registry = registryParsed.success ? registryParsed.data : [];
+  const translations = parseTranslationFiles(raw.translationFiles ?? {}, errors);
 
   // --- uniqueness -----------------------------------------------------------
   checkUnique("author", authors.map((a) => a.id), errors);
@@ -297,6 +366,76 @@ export function assembleDataset(
     }
   }
 
+  // --- translations ---------------------------------------------------------
+  const workIdSet = new Set(works.map((w) => w.id));
+  const relationIdSet = new Set(relations.map((r) => r.id));
+  const tourById = new Map(tours.map((t) => [t.id, t]));
+  for (const pack of translations) {
+    const L = `translations/${pack.locale}`;
+    checkUnique(`${pack.locale} author translation`, pack.authors.map((x) => x.id), errors);
+    checkUnique(`${pack.locale} work translation`, pack.works.map((x) => x.id), errors);
+    checkUnique(`${pack.locale} relation translation`, pack.relations.map((x) => x.id), errors);
+    checkUnique(`${pack.locale} movement translation`, pack.movements.map((x) => x.id), errors);
+    checkUnique(`${pack.locale} tour translation`, pack.tours.map((x) => x.id), errors);
+
+    for (const ta of pack.authors) {
+      const a = authorById.get(ta.id);
+      if (!a) {
+        errors.push(`${L}: unknown author ${ta.id}`);
+        continue;
+      }
+      // optional fields must mirror the source record exactly
+      if (a.readingWarning !== undefined && ta.readingWarning === undefined)
+        errors.push(`${L}/${ta.id}: missing readingWarning translation`);
+      if (a.readingWarning === undefined && ta.readingWarning !== undefined)
+        errors.push(`${L}/${ta.id}: readingWarning translation has no source field`);
+      if (a.worksException !== undefined && ta.worksException === undefined)
+        errors.push(`${L}/${ta.id}: missing worksException translation`);
+      if (a.worksException === undefined && ta.worksException !== undefined)
+        errors.push(`${L}/${ta.id}: worksException translation has no source field`);
+    }
+    for (const tw of pack.works) {
+      if (!workIdSet.has(tw.id)) errors.push(`${L}: unknown work ${tw.id}`);
+    }
+    for (const tr of pack.relations) {
+      if (!relationIdSet.has(tr.id)) errors.push(`${L}: unknown relation ${tr.id}`);
+    }
+    for (const tm of pack.movements) {
+      if (!movementIds.has(tm.id)) errors.push(`${L}: unknown movement ${tm.id}`);
+    }
+    for (const tt of pack.tours) {
+      const t = tourById.get(tt.id);
+      if (!t) {
+        errors.push(`${L}: unknown tour ${tt.id}`);
+        continue;
+      }
+      if (tt.stopNotes.length !== t.stops.length)
+        errors.push(
+          `${L}/${tt.id}: stopNotes length ${tt.stopNotes.length} != stops length ${t.stops.length}`
+        );
+    }
+
+    // a locale we ship must cover everything — half-translated modes are
+    // dishonest UI; during staged generation this degrades to warnings
+    if (COMPLETE_LOCALES.has(pack.locale)) {
+      const sink = partial ? warnings : errors;
+      const cover = (kind: string, have: Set<string>, want: string[]): void => {
+        const missing = want.filter((id) => !have.has(id));
+        if (missing.length > 0)
+          sink.push(
+            `${L}: incomplete ${kind} coverage — ${missing.length} missing (e.g. ${missing
+              .slice(0, 3)
+              .join(", ")})`
+          );
+      };
+      cover("author", new Set(pack.authors.map((x) => x.id)), authors.map((a) => a.id));
+      cover("work", new Set(pack.works.map((x) => x.id)), works.map((w) => w.id));
+      cover("relation", new Set(pack.relations.map((x) => x.id)), relations.map((r) => r.id));
+      cover("movement", new Set(pack.movements.map((x) => x.id)), movements.map((m) => m.id));
+      cover("tour", new Set(pack.tours.map((x) => x.id)), tours.map((t) => t.id));
+    }
+  }
+
   // --- movements usage ------------------------------------------------------
   const usedMovements = new Set(authors.flatMap((a) => a.movements));
   for (const m of movements) {
@@ -321,7 +460,8 @@ export function assembleDataset(
     movements,
     tours,
     positions,
-    registry
+    registry,
+    translations
   };
   return { dataset: errors.length === 0 ? dataset : null, errors, warnings };
 }
