@@ -237,8 +237,8 @@ export function MethodologyPage() {
           </li>
         </ul>
         <p>
-          이 프로젝트는 지식 아틀라스 Noosphere의 자매 프로토타입('Booksphere' 계보)이며, 같은
-          원칙을 상속한다: <em>담론의 상태를 기록하되, 판정하지 않는다.</em>
+          이 프로젝트는 지식 아틀라스 Noosphere 항성계의 <strong>제1행성</strong>('Booksphere'
+          계보)이며, 같은 원칙을 상속한다: <em>담론의 상태를 기록하되, 판정하지 않는다.</em>
         </p>
       </section>
     </main>
