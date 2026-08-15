@@ -29,6 +29,8 @@ JSON은 2칸 들여쓰기, UTF-8, 배열 루트. 필드 순서는 스키마 선�
 ## 2. Author 필드별 규율
 
 - `names.aliases`: 국내 다른 표기, 로마자 표기, 필명·본명. ko/original과 동일 문자열 금지.
+- `externalIds`: **쓰지 마라.** Wikidata QID는 `qc:backfill-qids` 도구가 라이브 대조로
+  기입한다 — LLM의 QID 기억은 신뢰 불가(실측 0/8). 초안은 이 필드 없이 제출한다.
 - `birthYear`/`deathYear`: 확실할 때만. `activeRange`: **문학 활동 기간**(첫 주요 발표 ~
   마지막 주요 활동), 생몰년이 아니다. `anchorYear`: 대표작 활동의 무게중심 연도 하나.
 - `gender`: 공적으로 알려진 사실대로. 애매하면 `"unknown"`.
@@ -39,7 +41,7 @@ JSON은 2칸 들여쓰기, UTF-8, 배열 루트. 필드 순서는 스키마 선�
   좌표는 도시 수준 (소수 2–4자리). 확신 없으면 batch 리포트에 `UNCERTAIN:`.
 - `periods`: 주 활동이 걸치는 층 전부. 레지스트리의 `layer`는 주 층이며 반드시 포함.
   1990년 이후에도 주요 작품을 냈다면 `"contemporary"`를 추가.
-- `movements`: `data/movements.json`의 20개 id만. 실제 소속·핵심 관련만 (억지 배정 금지, 0개 허용).
+- `movements`: `data/movements.json`의 19개 id만. 실제 소속·핵심 관련만 (억지 배정 금지, 0개 허용).
 - `genres`: 실제 주요 장르 전부. SF·사변 계보의 작가는 `speculative: true`.
 - `importanceReason`: 2–4문장. ① 무엇을 형식적으로 새로 만들었나 ② 문학사적으로 무엇을
   바꿨나. 구체적 명사로.

@@ -45,6 +45,22 @@ describe("invariant checks (synthetic)", () => {
     expect(errors.some((e) => e.includes("not allowed for type 'affinity'"))).toBe(true);
   });
 
+  it("blocks duplicate wikidata QIDs and reviewed authors without one", () => {
+    const ds = makeDataset([
+      makeAuthor({ id: "a", externalIds: { wikidata: "Q1" } }),
+      makeAuthor({ id: "b", externalIds: { wikidata: "Q1" } }),
+      makeAuthor({
+        id: "c",
+        externalIds: undefined,
+        reviewStatus: "reviewed",
+        reviewedAt: "2026-08-15"
+      })
+    ]);
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors.some((e) => e.includes("duplicate author wikidata QID"))).toBe(true);
+    expect(errors.some((e) => e.includes("requires externalIds.wikidata"))).toBe(true);
+  });
+
   it("blocks self-relations, unknown endpoints, duplicates and reverse duplicates", () => {
     const a = makeAuthor({ id: "a" });
     const b = makeAuthor({ id: "b" });

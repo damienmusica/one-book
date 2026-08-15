@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run validate:data && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
@@ -16,7 +16,8 @@
     "layout:generate": "tsx scripts/generate-layout.ts",
     "layout:full": "tsx scripts/generate-layout.ts --full",
     "report:coverage": "tsx scripts/coverage-report.ts",
-    "qc:crosscheck-dates": "tsx scripts/crosscheck-dates.ts"
+    "qc:crosscheck-dates": "tsx scripts/crosscheck-dates.ts",
+    "qc:backfill-qids": "tsx scripts/backfill-qids.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

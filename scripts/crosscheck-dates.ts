@@ -1,55 +1,38 @@
 // Maintainer QC tool — cross-checks every author's birth/death year against
 // Wikidata (P569/P570). LOCAL-ONLY NETWORK, run interactively; never part of
-// build/CI (repo LLM/network boundary). Polite: sequential, ~350ms spacing.
+// build/CI (repo LLM/network boundary). Polite: sequential, 600ms spacing.
+//
+// Authors carry their QID in externalIds.wikidata (backfilled once by
+// scripts/backfill-qids.ts), so the check fetches each entity directly —
+// reproducible, no name-search ambiguity. Name search remains only as a
+// fallback for drafts that have not been through backfill yet.
 //
 //   npm run qc:crosscheck-dates            # all authors
 //   npm run qc:crosscheck-dates -- --only mid-asia
+//
+// Exit 2 on any mismatch. Known standing dispute: ralph-ellison birth year
+// (data 1913 per post-Rampersad scholarship vs Wikidata 1914 self-reported) —
+// see docs/qc-ledger.md; the tool still reports it, the ledger owns the call.
 
 import { assembleDataset } from "../src/data/assemble.ts";
 import { loadRawCollections } from "./lib/load-node.ts";
+import { getClaims, searchEntities, sleep, yearOf } from "./lib/wikidata.ts";
+import type { WdClaims } from "./lib/wikidata.ts";
 
-const UA = "LiteraryPlanet-QC/0.1 (maintainer tool; contact: repo owner)";
+import type { Author } from "../src/types.ts";
 
-interface WdSearchResult {
-  search?: Array<{ id: string; label?: string; description?: string }>;
-}
-
-interface WdEntities {
-  entities?: Record<
-    string,
-    {
-      claims?: Record<string, Array<{ mainsnak?: { datavalue?: { value?: { time?: string } } } }>>;
-      labels?: Record<string, { value?: string }>;
-      descriptions?: Record<string, { value?: string }>;
-    }
-  >;
-}
-
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
-async function wdJson<T>(url: string): Promise<T> {
-  for (let attempt = 0; ; attempt++) {
-    const res = await fetch(url, { headers: { "user-agent": UA } });
-    if (res.status === 429 && attempt < 3) {
-      await sleep(15000 * (attempt + 1)); // polite backoff on throttle
-      continue;
-    }
-    if (!res.ok) throw new Error(`${res.status} ${url}`);
-    return (await res.json()) as T;
+function compare(a: Author, qid: string, claims: WdClaims): { ok: boolean; line: string } {
+  const born = yearOf(claims, "P569");
+  const died = yearOf(claims, "P570");
+  const bornOk = a.birthYear === undefined || born === a.birthYear;
+  const diedOk = a.deathYear === undefined ? died === undefined : died === a.deathYear;
+  if (bornOk && diedOk) {
+    return { ok: true, line: `ok ${a.id}: ${qid} ${born}–${died ?? "living"}` };
   }
-}
-
-function yearOf(claims: WdEntities["entities"] extends infer E
-  ? E extends Record<string, infer V>
-    ? V extends { claims?: infer C }
-      ? C
-      : never
-    : never
-  : never, prop: string): number | undefined {
-  const c = (claims as Record<string, Array<{ mainsnak?: { datavalue?: { value?: { time?: string } } } }>> | undefined)?.[prop];
-  const time = c?.[0]?.mainsnak?.datavalue?.value?.time;
-  const m = time?.match(/^([+-]\d+)-/);
-  return m?.[1] !== undefined ? Number(m[1]) : undefined;
+  return {
+    ok: false,
+    line: `!! ${a.id}: data ${a.birthYear ?? "?"}–${a.deathYear ?? "living"} vs ${qid} ${born ?? "?"}–${died ?? "living"}`
+  };
 }
 
 async function main(): Promise<void> {
@@ -68,44 +51,47 @@ async function main(): Promise<void> {
   let mismatches = 0;
   let unresolved = 0;
   for (const a of dataset.authors) {
-    const query = a.names.original.replace(/\s+/g, " ");
     try {
-      const search = await wdJson<WdSearchResult>(
-        `https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=${encodeURIComponent(query)}`
-      );
+      const qid = a.externalIds?.wikidata;
+      if (qid) {
+        const claims = await getClaims(qid);
+        await sleep(600);
+        if (!claims) {
+          console.log(`?  ${a.id}: ${qid} has no claims on Wikidata`);
+          unresolved++;
+          continue;
+        }
+        const { ok, line } = compare(a, qid, claims);
+        console.log(line);
+        if (!ok) mismatches++;
+        continue;
+      }
+
+      // fallback for pre-backfill drafts: resolve by name, match by dates
+      const query = a.names.original.replace(/\s+/g, " ");
+      const search = await searchEntities(query);
       await sleep(600);
       const candidates = search.search ?? [];
       if (candidates.length === 0) {
-        console.log(`?  ${a.id}: no Wikidata match for '${query}'`);
+        console.log(`?  ${a.id}: no stored QID and no Wikidata match for '${query}'`);
         unresolved++;
         continue;
       }
-      let verdict = `?  ${a.id}: no candidate matched years`;
+      let verdict = `?  ${a.id}: no stored QID, no candidate matched years`;
       let matched = false;
       for (const cand of candidates) {
-        const ent = await wdJson<WdEntities>(
-          `https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids=${cand.id}&props=claims&languages=en`
-        );
+        const claims = await getClaims(cand.id);
         await sleep(600);
-        const claims = ent.entities?.[cand.id]?.claims;
         if (!claims) continue;
-        const born = yearOf(claims, "P569");
-        const died = yearOf(claims, "P570");
-        if (born === undefined) continue;
-        const bornOk = a.birthYear === undefined || born === a.birthYear;
-        const diedOk =
-          a.deathYear === undefined ? died === undefined || died >= 2026 - 1 || true : died === a.deathYear;
-        if (bornOk && diedOk) {
-          verdict = `ok ${a.id}: ${cand.id} ${born}–${died ?? ""}`;
+        const { ok, line } = compare(a, cand.id, claims);
+        verdict = `${line} (name-search fallback — run backfill-qids)`;
+        if (ok) {
           matched = true;
           break;
         }
-        verdict = `!! ${a.id}: data ${a.birthYear ?? "?"}–${a.deathYear ?? "living"} vs ${cand.id} ${born}–${died ?? "living"}`;
       }
-      if (!matched) {
-        if (verdict.startsWith("!!")) mismatches++;
-        else unresolved++;
-      }
+      if (!matched && verdict.startsWith("!!")) mismatches++;
+      else if (!matched) unresolved++;
       console.log(verdict);
     } catch (e) {
       console.log(`x  ${a.id}: fetch failed (${String(e).slice(0, 80)})`);

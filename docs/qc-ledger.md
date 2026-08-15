@@ -196,3 +196,13 @@ role=activity(망명 규정 회피) · 박경리 primary=원주 · 한국 작품
 인터뷰 1945-11 월 단위 · 베케트 activeRange 시작 1929. JUDGMENT: 카뮈 대표좌표=알제(파리
 아님, QC 뒤집기 후보로 명시) · 나보코프 이타카 primary·몽트뢰 제외 · 첼란 movements 0 ·
 진입작 접근성 기준 2건(프닌·처녀 회상). 정독 시 확인.
+
+## QID 백필 (2026-08-15, 오케스트레이터 직접 집행 — 세션 #2)
+
+`qc:backfill-qids` 신설·실행: **100/100 해소, 미해결 0.** 매칭 래더 = ① 생몰년 정확 일치
+(생존 작가 7명은 WD 사망 클레임 부재 요구) ② 생년 ±1 + 몰년 정확(관용, `~` 표시). 관용
+매치는 정확히 1건 — **ralph-ellison Q299965** (data 1913 vs WD 1914): 위 '엘리슨 생년'
+분쟁 항목 그대로, record-not-resolve 유지. 이후 `qc:crosscheck-dates`를 저장 QID 직조회로
+전환해 재실행: **99 일치 · 1 불일치(엘리슨) · 이름검색 폴백 0** — 원 QC 결과의 결정적 재현.
+불변식 추가: `reviewed` 이상은 `externalIds.wikidata` 필수 · QID 중복 차단. 생성기는 이
+필드를 기입하지 않는다(editorial-guide §2 — QID 기억은 신뢰 불가 실측).

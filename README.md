@@ -29,7 +29,8 @@ npm run layout:generate  # 시맨틱 좌표 증분 생성 (동결 좌표 유지,
 npm run layout:full      # 전체 재계산 + 좌표 버전 범프 (공간 기억을 깨므로 신중히)
 npm run report:coverage  # docs/coverage-report.md 생성 (지역·언어·젠더·장르·검토 분포)
 
-npm run qc:crosscheck-dates   # 유지관리자 QC: Wikidata 생몰년 교차확인 (로컬 네트워크 전용)
+npm run qc:crosscheck-dates   # 유지관리자 QC: Wikidata 생몰년 교차확인 (저장 QID 직조회, 로컬 네트워크 전용)
+npm run qc:backfill-qids      # 유지관리자 QC: Wikidata QID 해소·기입 (1회성/신규 작가용, 로컬 네트워크 전용)
 ```
 
 배치별 부분 검증: `npm run validate:data -- --only <batch>` (작가 배치),
@@ -43,7 +44,7 @@ data/               JSON 데이터 (유일한 콘텐츠 원본 — UI에 하드�
   authors/ works/     배치별 작가 프로필·작품
   relations/          클러스터별 관계 (근거 수준 명시)
   sources/            출처 (core + 배치별 1차 문헌)
-  movements.json      문학운동 레지스트리 (20)
+  movements.json      문학운동 레지스트리 (19)
   tours.json          안내 여정
   positions.v1.json   동결된 시맨틱 좌표 (시드 고정·결정적)
 src/
@@ -54,7 +55,7 @@ src/
   globe/              three.js 렌더러 + DOM 레이블 레이어
   components/         React UI
 scripts/              검증·레이아웃·커버리지·QC 스크립트 (LLM·네트워크 비의존,
-                      단 qc:crosscheck-dates만 로컬 네트워크 사용)
+                      단 qc:crosscheck-dates·qc:backfill-qids만 로컬 네트워크 사용)
 docs/                 프로덕트 브리프 · 에디토리얼/관계 생성 계약 · QC 원장 · 커버리지
 tests/                vitest 스위트
 ```

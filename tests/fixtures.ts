@@ -5,6 +5,7 @@ let seq = 0;
 export function makeAuthor(overrides: Partial<Author> & { id: string }): Author {
   return {
     names: { ko: `작가${++seq}`, original: `Author ${seq}`, aliases: [] },
+    externalIds: { wikidata: `Q${900000 + seq}` },
     birthYear: 1900,
     deathYear: 1970,
     activeRange: [1925, 1965],

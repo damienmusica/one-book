@@ -50,6 +50,11 @@ export interface AuthorNames {
 export interface Author {
   id: string;
   names: AuthorNames;
+  /**
+   * provider identifiers — the cross-corpus join key (never used as display).
+   * Optional on drafts; required from reviewStatus 'reviewed' upward.
+   */
+  externalIds?: { wikidata: string };
   birthYear?: number;
   deathYear?: number;
   /** [from, to] — years of literary activity, not lifespan */

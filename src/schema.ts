@@ -45,6 +45,10 @@ export const authorSchema = z
         aliases: z.array(z.string().min(1))
       })
       .strict(),
+    // tool-populated (scripts/backfill-qids.ts resolves live); generators must
+    // never invent QIDs from memory. Optional on drafts, required for reviewed+
+    // (enforced in assemble).
+    externalIds: z.object({ wikidata: z.string().regex(/^Q\d+$/) }).strict().optional(),
     birthYear: year.optional(),
     deathYear: year.optional(),
     activeRange: z.tuple([year, year]),

@@ -112,6 +112,11 @@ export function assembleDataset(
 
   // --- uniqueness -----------------------------------------------------------
   checkUnique("author", authors.map((a) => a.id), errors);
+  checkUnique(
+    "author wikidata QID",
+    authors.map((a) => a.externalIds?.wikidata).filter((q): q is string => q !== undefined),
+    errors
+  );
   checkUnique("work", works.map((w) => w.id), errors);
   checkUnique("relation", relations.map((r) => r.id), errors);
   checkUnique("source", sources.map((s) => s.id), errors);
@@ -184,6 +189,13 @@ export function assembleDataset(
     }
     if ((a.reviewStatus === "reviewed" || a.reviewStatus === "verified") && !a.reviewedAt)
       errors.push(`${a.id}: reviewStatus '${a.reviewStatus}' requires reviewedAt`);
+    if (
+      (a.reviewStatus === "reviewed" || a.reviewStatus === "verified") &&
+      a.externalIds?.wikidata === undefined
+    )
+      errors.push(
+        `${a.id}: reviewStatus '${a.reviewStatus}' requires externalIds.wikidata (run qc:backfill-qids)`
+      );
 
     const lower = new Set([a.names.ko, a.names.original]);
     for (const alias of a.names.aliases) {
