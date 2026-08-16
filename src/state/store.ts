@@ -24,6 +24,8 @@ export interface AppState {
   comparePicking: boolean;
   /** relation opened by clicking a line — transient, not in URL */
   pickedRelationId: string | null;
+  /** work town opened by clicking its label — shareable via w= */
+  selectedWorkId: string | null;
   filters: Filters;
   year: number;
   yearMode: YearMode;
@@ -57,6 +59,7 @@ export function initialState(): AppState {
     compareAuthorId: null,
     comparePicking: false,
     pickedRelationId: null,
+    selectedWorkId: null,
     filters: defaultFilters(),
     year: TIMELINE_MAX,
     yearMode: "cumulative",
@@ -117,7 +120,9 @@ export class Store {
       // leaving an author clears the comparison against them
       compareAuthorId: id === null ? null : s.compareAuthorId,
       comparePicking: false,
-      pickedRelationId: null
+      pickedRelationId: null,
+      // a work card belongs to the author it was opened under
+      selectedWorkId: id === s.selectedAuthorId ? s.selectedWorkId : null
     });
   }
 

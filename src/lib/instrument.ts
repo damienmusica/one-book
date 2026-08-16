@@ -67,6 +67,16 @@ class Instrumentation {
     this.lastFrameAt = now;
   }
 
+  /**
+   * start a fresh measurement segment — the QA harness calls this after every
+   * beat so each beat reports the frames of its own segment (warm-up hitches
+   * must not haunt every later number)
+   */
+  resetFrames(): void {
+    this.frames = [];
+    this.lastFrameAt = 0;
+  }
+
   frameStats(): FrameStats | null {
     if (this.frames.length < 10) return null;
     const sorted = [...this.frames].sort((a, b) => a - b);
@@ -126,6 +136,7 @@ const WATCHED = [
   "panelOpen",
   "compareAuthorId",
   "pickedRelationId",
+  "selectedWorkId",
   "year",
   "yearMode",
   "tourId",
@@ -205,6 +216,7 @@ declare global {
       events(): InstrEvent[];
       state(): AppState;
       overlay(v: boolean): void;
+      resetFrames(): void;
     };
   }
 }
@@ -216,6 +228,7 @@ export function attachQAHandle(store: Store, dataset: Dataset): void {
     metrics: () => buildMetrics(store, dataset),
     events: () => instr.getEvents(),
     state: () => store.getState(),
-    overlay: (v: boolean) => instr.setOverlay(v)
+    overlay: (v: boolean) => instr.setOverlay(v),
+    resetFrames: () => instr.resetFrames()
   };
 }

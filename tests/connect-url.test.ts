@@ -5,7 +5,8 @@ import { connectUrl } from "../src/state/url.ts";
 
 const valid = {
   authorIds: new Set(["marcel-proust", "franz-kafka"]),
-  tourIds: new Set<string>()
+  tourIds: new Set<string>(),
+  workIds: new Set<string>()
 };
 
 /** simulate a user navigation: link click / back button */

@@ -23,7 +23,8 @@ try {
 
   connectUrl(store, {
     authorIds: new Set(dataset.authors.map((a) => a.id)),
-    tourIds: new Set(dataset.tours.map((t) => t.id))
+    tourIds: new Set(dataset.tours.map((t) => t.id)),
+    workIds: new Set(dataset.works.map((w) => w.id))
   });
 
   // instrumentation is always recording (bounded rings); the overlay and the

@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { useServices, useT } from "./ctx.ts";
 import { createGlobe } from "../globe/renderer.ts";
 import { geoPositions, semanticPositions } from "../data/load.ts";
-import { buildContentAccess, LOCALES, type ContentAccess, type Locale } from "../i18n/index.ts";
+import { buildContentAccess, LOCALES, UI, type ContentAccess, type Locale } from "../i18n/index.ts";
 import { webglAvailable } from "../lib/webgl.ts";
 import { FallbackExplorer } from "./FallbackExplorer.tsx";
 
@@ -32,7 +32,9 @@ export function GlobeView() {
         onSelect: (id) => store.selectAuthor(id),
         onHover: (id) => store.set({ hoveredAuthorId: id }),
         onRelationPick: (rel) => store.set({ pickedRelationId: rel.id }),
-        onRelationHover: (rel) => store.set({ hoveredRelationId: rel?.id ?? null })
+        onRelationHover: (rel) => store.set({ hoveredRelationId: rel?.id ?? null }),
+        // town → work card; the relation dialog yields (one card at a time)
+        onWorkPick: (wk) => store.set({ selectedWorkId: wk.id, pickedRelationId: null })
       },
       {
         authorLabel: (a, locale) =>
@@ -40,7 +42,11 @@ export function GlobeView() {
         movementLabel: (m, locale) =>
           (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.movementName(m),
         workLabel: (wk, locale) =>
-          (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.workTitle(wk)
+          (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.workTitle(wk),
+        workAria: (wk, locale) =>
+          UI[locale].workOpenAria(
+            (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.workTitle(wk)
+          )
       }
     );
     services.globeRef.current = handle;

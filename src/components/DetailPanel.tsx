@@ -137,7 +137,16 @@ export function DetailPanel() {
         <ul className="work-list">
           {works.map((w) => (
             <li key={w.id}>
-              <strong>{content.workTitle(w)}</strong>
+              {/* same card the map towns open — a keyboard path that works
+                  in the 2D fallback too */}
+              <button
+                type="button"
+                className="work-open"
+                aria-label={t.workOpenAria(content.workTitle(w))}
+                onClick={() => store.set({ selectedWorkId: w.id, pickedRelationId: null })}
+              >
+                <strong>{content.workTitle(w)}</strong>
+              </button>
               <span className="work-meta">
                 {" "}
                 {w.titleOriginal} · {w.year}

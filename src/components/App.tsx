@@ -9,10 +9,12 @@ import { TimelineBar } from "./TimelineBar.tsx";
 import { TourOverlay } from "./TourOverlay.tsx";
 import { CompareView } from "./CompareView.tsx";
 import { RelationDialog } from "./RelationDialog.tsx";
+import { WorkCard } from "./WorkCard.tsx";
 import { WritersPage } from "./WritersPage.tsx";
 import { MethodologyPage } from "./MethodologyPage.tsx";
 import { MiniCard } from "./MiniCard.tsx";
 import { GlobeHint } from "./GlobeHint.tsx";
+import { LegendPanel } from "./LegendPanel.tsx";
 import { DebugOverlay } from "./DebugOverlay.tsx";
 import { instr } from "../lib/instrument.ts";
 
@@ -26,10 +28,9 @@ export function App() {
   const { store } = useServices();
   const t = useT();
 
-  useEffect(() => {
-    // wide screens start with the exploration panel open
-    if (window.innerWidth >= 1200) store.set({ filtersOpen: true });
-  }, [store]);
+  // the planet is the first impression — the exploration drawer no longer
+  // auto-opens on wide screens (2026-08-16 review: panels were crowding the
+  // canvas into a background object)
 
   useEffect(() => {
     document.documentElement.lang = state.locale;
@@ -49,7 +50,8 @@ export function App() {
       }
       if (e.key !== "Escape") return;
       const s = store.getState();
-      if (s.pickedRelationId) store.set({ pickedRelationId: null });
+      if (s.selectedWorkId) store.set({ selectedWorkId: null });
+      else if (s.pickedRelationId) store.set({ pickedRelationId: null });
       else if (s.compareAuthorId) store.set({ compareAuthorId: null });
       else if (s.comparePicking) store.set({ comparePicking: false });
       else if (s.tourId) store.endTour();
@@ -88,6 +90,7 @@ export function App() {
           <DetailPanel />
           <MiniCard />
           <GlobeHint />
+          <LegendPanel />
           <TimelineBar />
           {state.tourId && <TourOverlay />}
           {state.comparePicking && (
@@ -100,6 +103,7 @@ export function App() {
           )}
           {state.compareAuthorId && state.selectedAuthorId && <CompareView />}
           {state.pickedRelationId && <RelationDialog />}
+          {state.selectedWorkId && <WorkCard />}
         </main>
       )}
       {state.page === "writers" && <WritersPage />}

@@ -50,7 +50,10 @@ export function DebugOverlay() {
       {row("geom / tex", r ? `${String(r.geometries)} / ${String(r.textures)}` : "—")}
       {row("authors", `${m.visible.authors}/${m.visible.authorsTotal}`)}
       {row("relations", `${m.visible.relations}/${m.visible.relationsTotal}`)}
-      {row("labels shown / collided", r ? `${String(r.labelsShown)} / ${String(r.labelsCollided)}` : "—")}
+      {row(
+        "labels shown / suppressed / overlap",
+        r ? `${String(r.labelsShown)} / ${String(r.labelsSuppressed)} / ${String(r.labelsOverlapping)}` : "—"
+      )}
       {row("flow sparks", r ? String(r.flowSparks) : "—")}
       {row("camera dist / lod", r ? `${String(r.cameraDistance)} / ${String(r.lod)}` : "—")}
       {row(

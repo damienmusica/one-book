@@ -18,7 +18,9 @@ export function duotoneInto(
   if (w === 0 || h === 0) return;
   canvas.width = w;
   canvas.height = h;
-  const ctx = canvas.getContext("2d");
+  // every call reads pixels straight back — willReadFrequently keeps the
+  // canvas on the CPU instead of round-tripping the GPU per portrait
+  const ctx = canvas.getContext("2d", { willReadFrequently: true });
   if (!ctx) return;
   ctx.drawImage(img, 0, 0);
   const data = ctx.getImageData(0, 0, w, h);

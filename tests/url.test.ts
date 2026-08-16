@@ -5,8 +5,24 @@ import type { AppState } from "../src/state/store.ts";
 
 const valid = {
   authorIds: new Set(["franz-kafka", "jorge-luis-borges"]),
-  tourIds: new Set(["kafka-constellation"])
+  tourIds: new Set(["kafka-constellation"]),
+  workIds: new Set(["franz-kafka--der-process"])
 };
+
+describe("work selection in the URL", () => {
+  it("round-trips w= and rejects unknown work ids", () => {
+    const s: AppState = {
+      ...initialState(),
+      selectedAuthorId: "franz-kafka",
+      panelOpen: true,
+      selectedWorkId: "franz-kafka--der-process"
+    };
+    const hash = serializeState(s);
+    expect(hash).toContain("w=franz-kafka--der-process");
+    expect(parseHash(hash, valid).selectedWorkId).toBe("franz-kafka--der-process");
+    expect(parseHash("#/?w=not-a-work", valid).selectedWorkId).toBeNull();
+  });
+});
 
 function roundTrip(patch: Partial<AppState>): Partial<AppState> {
   const state = { ...initialState(), ...patch };

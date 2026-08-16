@@ -439,6 +439,15 @@ a:hover {
   text-transform: none;
 }
 
+/* geo far view: regions speak for their authors */
+.globe-label--region {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  letter-spacing: 0.16em;
+  color: rgba(159, 190, 199, 0.78);
+  text-shadow: 0 1px 5px rgba(6, 10, 14, 0.9);
+}
+
 /* relation-type labels on the focused constellation's lines */
 .globe-label--relation {
   font-size: 10px;
@@ -1731,4 +1740,136 @@ a:hover {
 /* the hit line is transparent by design — focus paints it as a highlight */
 .fallback-edge-hit:focus-visible {
   stroke: rgba(194, 161, 92, 0.45);
+}
+
+/* --- legend panel (always-available map key) -------------------------------- */
+
+.legend-panel {
+  position: fixed;
+  left: 12px;
+  bottom: 86px;
+  z-index: 30;
+  width: 172px;
+  padding: 9px 11px;
+  background: rgba(13, 20, 23, 0.88);
+  border: 1px solid rgba(194, 161, 92, 0.28);
+  border-radius: 7px;
+  font-size: 11.5px;
+  color: #cdd6d3;
+  backdrop-filter: blur(4px);
+}
+
+.legend-chip {
+  position: fixed;
+  left: 12px;
+  bottom: 86px;
+  z-index: 30;
+  padding: 5px 11px;
+  background: rgba(13, 20, 23, 0.88);
+  border: 1px solid rgba(194, 161, 92, 0.28);
+  border-radius: 999px;
+  font-size: 11.5px;
+  color: #c2a15c;
+  cursor: pointer;
+}
+
+.legend-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.legend-mode {
+  color: #c2a15c;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+}
+
+.legend-close {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.legend-types {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.legend-types li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.legend-types li.is-off {
+  opacity: 0.32;
+}
+
+.legend-terrain {
+  margin: 7px 0 0;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(125, 138, 134, 0.3);
+  font-size: 10.5px;
+  line-height: 1.45;
+  color: #97a4a0;
+}
+
+@media (max-width: 900px) {
+  .legend-panel,
+  .legend-chip {
+    display: none;
+  }
+}
+
+/* --- selectable work towns + work card ------------------------------------- */
+
+.globe-label.is-interactive {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.globe-label.is-interactive:hover,
+.globe-label.is-interactive:focus-visible {
+  color: #e9d9ae;
+  text-shadow: 0 0 6px rgba(194, 161, 92, 0.65);
+  outline: none;
+}
+
+.globe-label--work.is-selected {
+  color: #f0e2bb;
+  text-shadow: 0 0 7px rgba(194, 161, 92, 0.8);
+}
+
+.work-card .work-card-title {
+  margin: 2px 0 4px;
+  font-size: 15px;
+}
+
+.work-card .work-card-order {
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  color: #c2a15c;
+}
+
+.work-open {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.work-open:hover strong,
+.work-open:focus-visible strong {
+  color: #e9d9ae;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }

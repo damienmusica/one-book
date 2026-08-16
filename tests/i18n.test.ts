@@ -14,7 +14,11 @@ import { initialState } from "../src/state/store.ts";
 import { assembleDataset, type RawCollections } from "../src/data/assemble.ts";
 import { makeAuthor, makeDataset } from "./fixtures.ts";
 
-const VALID = { authorIds: new Set(["a"]), tourIds: new Set<string>() };
+const VALID = {
+  authorIds: new Set(["a"]),
+  tourIds: new Set<string>(),
+  workIds: new Set<string>()
+};
 
 describe("locale in the URL", () => {
   it("serializes only when non-default and round-trips", () => {

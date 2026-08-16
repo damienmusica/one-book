@@ -11,6 +11,7 @@ import { defaultFilters, type AppState, type Page, type Store } from "./store.ts
 export interface UrlValidIds {
   authorIds: Set<string>;
   tourIds: Set<string>;
+  workIds: Set<string>;
 }
 
 const PAGE_PATH: Record<Page, string> = {
@@ -34,6 +35,7 @@ export function serializeState(s: AppState): string {
   // plain a= deep links still open the profile
   if (s.selectedAuthorId && !s.panelOpen) q.set("pv", "0");
   if (s.compareAuthorId) q.set("cmp", s.compareAuthorId);
+  if (s.selectedWorkId) q.set("w", s.selectedWorkId);
   if (s.mode === "geo") q.set("m", "geo");
   if (s.year !== TIMELINE_MAX) q.set("y", String(s.year));
   if (s.yearMode === "active") q.set("ym", "active");
@@ -99,6 +101,8 @@ export function parseHash(hash: string, valid: UrlValidIds): Partial<AppState> {
   if (patch.panelOpen) patch.filtersOpen = false;
   const cmp = q.get("cmp");
   patch.compareAuthorId = cmp && valid.authorIds.has(cmp) ? cmp : null;
+  const wk = q.get("w");
+  patch.selectedWorkId = wk && valid.workIds.has(wk) ? wk : null;
   patch.mode = q.get("m") === "geo" ? "geo" : "semantic";
 
   const y = q.get("y");
