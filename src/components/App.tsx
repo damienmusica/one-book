@@ -13,6 +13,8 @@ import { WritersPage } from "./WritersPage.tsx";
 import { MethodologyPage } from "./MethodologyPage.tsx";
 import { MiniCard } from "./MiniCard.tsx";
 import { GlobeHint } from "./GlobeHint.tsx";
+import { DebugOverlay } from "./DebugOverlay.tsx";
+import { instr } from "../lib/instrument.ts";
 
 // dev-only review catalogs (?seals, ?portraits): the literal false branch
 // lets production builds drop these chunks entirely
@@ -39,6 +41,12 @@ export function App() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      // maintainer/QA metrics panel — not part of the reading surface
+      if ((e.metaKey || e.ctrlKey) && e.shiftKey && e.key.toLowerCase() === "d") {
+        e.preventDefault();
+        instr.toggleOverlay();
+        return;
+      }
       if (e.key !== "Escape") return;
       const s = store.getState();
       if (s.pickedRelationId) store.set({ pickedRelationId: null });
@@ -96,6 +104,7 @@ export function App() {
       )}
       {state.page === "writers" && <WritersPage />}
       {state.page === "methodology" && <MethodologyPage />}
+      <DebugOverlay />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { loadDataset } from "./data/load.ts";
 import { Store } from "./state/store.ts";
 import { connectUrl } from "./state/url.ts";
+import { attachQAHandle, connectInstrumentation, instr } from "./lib/instrument.ts";
 import { AppCtx, buildServices } from "./components/ctx.ts";
 import { App } from "./components/App.tsx";
 import { ErrorBoundary } from "./components/ErrorBoundary.tsx";
@@ -24,6 +25,12 @@ try {
     authorIds: new Set(dataset.authors.map((a) => a.id)),
     tourIds: new Set(dataset.tours.map((t) => t.id))
   });
+
+  // instrumentation is always recording (bounded rings); the overlay and the
+  // QA harness are just two readers of the same data
+  connectInstrumentation(store);
+  attachQAHandle(store, dataset);
+  if (new URLSearchParams(window.location.search).has("debug")) instr.setOverlay(true);
 
   const services = buildServices(store, dataset);
   root.render(

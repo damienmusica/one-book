@@ -48,7 +48,11 @@ export function RelationDialog() {
         <EvidenceBadge level={relation.evidenceLevel} />
         <span className="evidence-explain">{t.evidenceExplain[relation.evidenceLevel]}</span>
       </p>
-      <p className="relation-weight">{t.weightLabel(Number((relation.weight * 100).toFixed(0)))}</p>
+      {/* weight is an editorial band value (relations-guide §1), not a
+          measurement — present it as a tier, never as a percentage */}
+      <p className="relation-weight" title={t.weightTitle}>
+        {t.weightTier(relation.weight >= 0.7 ? "strong" : relation.weight >= 0.5 ? "medium" : "light")}
+      </p>
       {relation.sourceIds.length > 0 && (
         <ul className="source-list">
           {relation.sourceIds.map((sid) => {

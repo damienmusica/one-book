@@ -134,6 +134,7 @@ export function MethodologyPage() {
           <strong>{evidenceLabel("editorial_inference", locale)}</strong>
           {m.relClose.post}
         </p>
+        <p>{m.relWeight}</p>
       </section>
 
       <section>
