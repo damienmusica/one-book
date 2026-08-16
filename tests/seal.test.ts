@@ -52,3 +52,41 @@ describe("firstGrapheme", () => {
     expect(firstGrapheme("")).toBe("");
   });
 });
+
+describe("seal carving (D9 v2)", async () => {
+  const { sealCarve, SEAL_SIZE } = await import("../src/globe/seal-texture.ts");
+
+  it("is deterministic per author key and distinct across keys", () => {
+    const a1 = sealCarve("franz-kafka");
+    const a2 = sealCarve("franz-kafka");
+    expect(a1).toEqual(a2);
+    const b = sealCarve("james-joyce");
+    expect(JSON.stringify(b)).not.toBe(JSON.stringify(a1));
+  });
+
+  it("keeps the stamping rotation within ±2.2 degrees", () => {
+    for (const key of ["a", "b", "c", "kim-souwol", "toni-morrison"]) {
+      const deg = (sealCarve(key).rotation * 180) / Math.PI;
+      expect(Math.abs(deg)).toBeLessThanOrEqual(2.2 + 1e-9);
+    }
+  });
+
+  it("punches nicks only along the face border band", () => {
+    const inset = 30;
+    for (const key of ["x", "y", "z"]) {
+      const { nicks } = sealCarve(key);
+      expect(nicks.length).toBeGreaterThanOrEqual(10);
+      expect(nicks.length).toBeLessThanOrEqual(16);
+      for (const n of nicks) {
+        expect(n.r).toBeGreaterThanOrEqual(1.2);
+        expect(n.r).toBeLessThanOrEqual(4.6);
+        // center sits within jitter distance of the face perimeter rectangle
+        const dLeft = Math.abs(n.x - inset);
+        const dRight = Math.abs(n.x - (SEAL_SIZE - inset));
+        const dTop = Math.abs(n.y - inset);
+        const dBottom = Math.abs(n.y - (SEAL_SIZE - inset));
+        expect(Math.min(dLeft, dRight, dTop, dBottom)).toBeLessThanOrEqual(2 + 1e-9);
+      }
+    }
+  });
+});

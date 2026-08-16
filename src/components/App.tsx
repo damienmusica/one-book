@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { Suspense, lazy, useEffect } from "react";
 import { useAppState, useServices, useT } from "./ctx.ts";
 import { Header } from "./Header.tsx";
 import { GlobeView } from "./GlobeView.tsx";
@@ -10,6 +10,10 @@ import { CompareView } from "./CompareView.tsx";
 import { RelationDialog } from "./RelationDialog.tsx";
 import { WritersPage } from "./WritersPage.tsx";
 import { MethodologyPage } from "./MethodologyPage.tsx";
+
+// 인보 (dev-only, ?seals): the literal false branch lets production builds
+// drop the chunk entirely
+const SealCatalog = import.meta.env.DEV ? lazy(() => import("./SealCatalog.tsx")) : null;
 
 export function App() {
   const state = useAppState();
@@ -42,6 +46,14 @@ export function App() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [store]);
+
+  if (SealCatalog && new URLSearchParams(window.location.search).has("seals")) {
+    return (
+      <Suspense fallback={null}>
+        <SealCatalog />
+      </Suspense>
+    );
+  }
 
   return (
     <div className="app">
