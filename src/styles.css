@@ -39,7 +39,7 @@ body {
   background: radial-gradient(120% 90% at 50% 30%, #15110a 0%, var(--bg) 62%, #060503 100%);
   color: var(--text);
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
   overflow: hidden;
 }
@@ -130,7 +130,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-faint);
   letter-spacing: 0.14em;
   font-variant-caps: all-small-caps;
@@ -157,7 +157,7 @@ a:hover {
   padding: 5px 11px;
   border-radius: var(--radius);
   color: var(--text-dim);
-  font-size: 13px;
+  font-size: 13.5px;
 }
 
 .app-nav a:hover {
@@ -290,13 +290,92 @@ a:hover {
   cursor: grabbing;
 }
 
-.globe-fallback {
-  display: grid;
-  place-content: center;
-  gap: 10px;
+/* ————— no-WebGL fallback: 2D ego-graph explorer ————— */
+
+.fallback-explorer {
   height: 100%;
-  text-align: center;
-  padding: 24px;
+  overflow-y: auto;
+  padding: 18px 20px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.fallback-note {
+  max-width: 760px;
+  padding: 10px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+  color: var(--text-dim);
+  font-size: 13.5px;
+}
+
+.fallback-note strong {
+  color: var(--text);
+}
+
+.fallback-hint {
+  color: var(--text-dim);
+  font-size: 14px;
+}
+
+.fallback-roster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  max-width: 880px;
+}
+
+.fallback-roster-chip.is-anchor {
+  border-color: var(--brass);
+  color: var(--brass-bright);
+}
+
+.fallback-toolbar {
+  align-self: flex-start;
+}
+
+.fallback-ego {
+  width: min(960px, 100%);
+  height: auto;
+}
+
+.fallback-node {
+  cursor: pointer;
+}
+
+.fallback-node circle {
+  fill: var(--surface-raised);
+  stroke: var(--brass);
+  stroke-width: 1.6;
+}
+
+.fallback-node:hover circle {
+  fill: var(--brass);
+}
+
+.fallback-node text {
+  fill: var(--text);
+  font-size: 13px;
+  font-family: var(--font-sans);
+}
+
+.fallback-node--center circle {
+  fill: var(--brass);
+  stroke: var(--brass-bright);
+}
+
+.fallback-edge-label {
+  font-size: 11.5px;
+  font-family: var(--font-sans);
+  opacity: 0.9;
+}
+
+.fallback-edge-hit {
+  cursor: pointer;
 }
 
 .globe-labels {
@@ -464,7 +543,7 @@ a:hover {
 
 .mini-card__meta {
   margin: 0 0 10px;
-  font-size: 11.5px;
+  font-size: 12.5px;
   color: var(--text-dim);
 }
 
@@ -474,7 +553,7 @@ a:hover {
   background: transparent;
   border: 1px solid var(--line-accent);
   color: var(--brass);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.08em;
   cursor: pointer;
 }
@@ -554,7 +633,7 @@ a:hover {
   top: 12px;
   left: 12px;
   bottom: 76px;
-  width: 264px;
+  width: 284px;
   overflow-y: auto;
   background: var(--surface-overlay);
   border: 1px solid var(--line);
@@ -585,7 +664,7 @@ a:hover {
 
 .filter-section summary {
   cursor: pointer;
-  font-size: 12.5px;
+  font-size: 13.5px;
   letter-spacing: 0.06em;
   color: var(--text-dim);
   padding: 4px 0;
@@ -606,7 +685,7 @@ a:hover {
   align-items: center;
   gap: 8px;
   padding: 4px 2px;
-  font-size: 13px;
+  font-size: 13.5px;
   cursor: pointer;
 }
 
@@ -628,7 +707,7 @@ a:hover {
 }
 
 .legend-note {
-  font-size: 11.5px;
+  font-size: 12.5px;
   color: var(--text-faint);
   padding: 6px 2px 0;
 }
@@ -642,7 +721,7 @@ a:hover {
 
 .chip {
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 12.5px;
   border: 1px solid var(--line-strong);
   border-radius: 999px;
   color: var(--text-dim);
@@ -690,12 +769,12 @@ a:hover {
 .tour-title {
   display: block;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 13.5px;
 }
 
 .tour-desc {
   display: block;
-  font-size: 11.5px;
+  font-size: 12.5px;
   color: var(--text-faint);
   line-height: 1.45;
 }
@@ -732,7 +811,7 @@ a:hover {
   top: 12px;
   right: 12px;
   bottom: 76px;
-  width: min(400px, calc(100vw - 24px));
+  width: min(480px, calc(100vw - 24px));
   display: flex;
   flex-direction: column;
   background: var(--surface-overlay);
@@ -761,17 +840,17 @@ a:hover {
 
 .detail-original {
   color: var(--text-dim);
-  font-size: 13px;
+  font-size: 13.5px;
   margin-top: 2px;
 }
 
 .detail-aliases {
   color: var(--text-faint);
-  font-size: 12px;
+  font-size: 12.5px;
 }
 
 .detail-life {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-faint);
   margin-top: 6px;
 }
@@ -791,7 +870,7 @@ a:hover {
 
 .detail-body h3 {
   font-family: var(--font-serif);
-  font-size: 13.5px;
+  font-size: 14.5px;
   letter-spacing: 0.12em;
   color: var(--brass);
   margin: 18px 0 6px;
@@ -806,7 +885,7 @@ a:hover {
 }
 
 .detail-body h4 {
-  font-size: 12.5px;
+  font-size: 13.5px;
   color: var(--text-dim);
   margin: 12px 0 4px;
 }
@@ -818,7 +897,7 @@ a:hover {
 
 .work-meta {
   color: var(--text-faint);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .reading-order {
@@ -830,7 +909,7 @@ a:hover {
   padding: 8px 10px;
   border-left: 2px solid var(--red);
   background: rgba(178, 91, 78, 0.08);
-  font-size: 12.5px;
+  font-size: 13.5px;
 }
 
 .difficulty-row {
@@ -839,7 +918,7 @@ a:hover {
   gap: 8px;
   flex-wrap: wrap;
   margin-top: 10px;
-  font-size: 12.5px;
+  font-size: 13px;
   color: var(--text-dim);
 }
 
@@ -859,7 +938,7 @@ a:hover {
 
 .difficulty-reason {
   flex-basis: 100%;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-faint);
 }
 
@@ -871,17 +950,17 @@ a:hover {
 }
 
 .work-list p {
-  font-size: 12.5px;
+  font-size: 13.5px;
   color: var(--text-dim);
 }
 
 .work-list--compact {
   list-style: none;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .works-exception {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-faint);
   margin-top: 6px;
 }
@@ -903,12 +982,12 @@ a:hover {
 }
 
 .rel-dir {
-  font-size: 11.5px;
+  font-size: 12.5px;
   color: var(--text-faint);
 }
 
 .relation-summary {
-  font-size: 12.5px;
+  font-size: 13.5px;
   color: var(--text-dim);
   margin-top: 3px;
 }
@@ -929,7 +1008,7 @@ a:hover {
 }
 
 .evidence-badge {
-  font-size: 10.5px;
+  font-size: 11px;
   padding: 1px 7px;
   border-radius: 999px;
   border: 1px solid;
@@ -953,7 +1032,7 @@ a:hover {
 }
 
 .review-badge {
-  font-size: 11px;
+  font-size: 11.5px;
   color: var(--text-faint);
 }
 
@@ -967,7 +1046,7 @@ a:hover {
 
 .source-list {
   list-style: none;
-  font-size: 12.5px;
+  font-size: 13.5px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -987,7 +1066,7 @@ a:hover {
   padding: 7px 12px;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
-  font-size: 12.5px;
+  font-size: 13.5px;
   color: var(--text-dim);
 }
 
@@ -997,7 +1076,7 @@ a:hover {
 }
 
 .empty-note {
-  font-size: 12.5px;
+  font-size: 13px;
   color: var(--text-faint);
 }
 
@@ -1117,12 +1196,12 @@ a:hover {
 }
 
 .evidence-explain {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-faint);
 }
 
 .relation-weight {
-  font-size: 11.5px;
+  font-size: 12.5px;
   color: var(--text-faint);
   margin: 6px 0;
 }
@@ -1183,7 +1262,7 @@ a:hover {
 }
 
 .compare-col h4 {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   color: var(--brass);
   margin: 12px 0 4px;
@@ -1195,7 +1274,7 @@ a:hover {
 }
 
 .compare-links h4 {
-  font-size: 12.5px;
+  font-size: 13.5px;
   letter-spacing: 0.08em;
   color: var(--brass);
   margin: 10px 0 6px;
@@ -1206,13 +1285,13 @@ a:hover {
 }
 
 .compare-path {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2;
 }
 
 .path-hop {
   color: var(--text-faint);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .tour-overlay {
@@ -1250,7 +1329,7 @@ a:hover {
 
 .tour-note {
   margin: 8px 0 12px;
-  font-size: 13.5px;
+  font-size: 14.5px;
   line-height: 1.7;
 }
 
@@ -1305,7 +1384,7 @@ a:hover {
 
 .writers-note {
   color: var(--text-faint);
-  font-size: 12.5px;
+  font-size: 13.5px;
   margin-bottom: 12px;
 }
 
@@ -1328,7 +1407,7 @@ a:hover {
 .writers-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 13px;
+  font-size: 13.5px;
   min-width: 900px;
 }
 
@@ -1344,7 +1423,7 @@ a:hover {
   position: sticky;
   top: 0;
   background: var(--surface-raised);
-  font-size: 12px;
+  font-size: 12.5px;
   letter-spacing: 0.04em;
   color: var(--text-dim);
   z-index: 2;
@@ -1383,7 +1462,7 @@ a:hover {
 }
 
 .method-lede {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   color: var(--text-dim);
   margin: 8px 0 18px;
@@ -1404,7 +1483,7 @@ a:hover {
 }
 
 .methodology-page h3 {
-  font-size: 13.5px;
+  font-size: 14.5px;
   margin-bottom: 6px;
   color: var(--text-dim);
 }
@@ -1431,7 +1510,7 @@ a:hover {
 .dist-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 12.5px;
+  font-size: 13px;
 }
 
 .dist-table th,

@@ -27,6 +27,31 @@ export function neighborsOf(adj: Adjacency, id: string): Array<{ otherId: string
     .sort((a, b) => b.relation.weight - a.relation.weight);
 }
 
+export interface PathHop {
+  fromId: string;
+  toId: string;
+  relation: Relation;
+  /**
+   * How the traversal runs relative to the relation's canonical
+   * source→target direction. Rendering must derive arrows from this plus
+   * `relation.direction` — never from traversal order alone, or a hop walked
+   * against a directed edge shows the influence reversed.
+   */
+  along: "forward" | "backward";
+}
+
+/** Resolve a BFS path (which is undirected) into hops that keep each relation's canonical direction. */
+export function pathHops(path: Relation[], fromId: string): PathHop[] {
+  let cur = fromId;
+  return path.map((relation) => {
+    const along = relation.sourceId === cur ? "forward" : "backward";
+    const toId = along === "forward" ? relation.targetId : relation.sourceId;
+    const hop: PathHop = { fromId: cur, toId, relation, along };
+    cur = toId;
+    return hop;
+  });
+}
+
 /**
  * Shortest relation path between two authors (undirected BFS).
  * Returns the sequence of relations, or null when no path exists.

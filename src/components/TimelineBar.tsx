@@ -1,5 +1,6 @@
 import { useAppState, useServices, useT } from "./ctx.ts";
 import { TIMELINE_MAX, TIMELINE_MIN } from "../lib/filter.ts";
+import { webglAvailable } from "../lib/webgl.ts";
 
 export function TimelineBar() {
   const state = useAppState();
@@ -50,12 +51,24 @@ export function TimelineBar() {
       </output>
 
       <div className="view-controls" role="group" aria-label={t.viewControlsAria}>
-        <button type="button" aria-label={t.zoomIn} onClick={() => globeRef.current?.zoomBy(0.72)}>
-          +
-        </button>
-        <button type="button" aria-label={t.zoomOut} onClick={() => globeRef.current?.zoomBy(1.38)}>
-          −
-        </button>
+        {webglAvailable && (
+          <>
+            <button
+              type="button"
+              aria-label={t.zoomIn}
+              onClick={() => globeRef.current?.zoomBy(0.72)}
+            >
+              +
+            </button>
+            <button
+              type="button"
+              aria-label={t.zoomOut}
+              onClick={() => globeRef.current?.zoomBy(1.38)}
+            >
+              −
+            </button>
+          </>
+        )}
         <button
           type="button"
           className="reset-view"

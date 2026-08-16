@@ -30,6 +30,9 @@ export function serializeState(s: AppState): string {
   const d = defaultFilters();
   if (s.locale !== DEFAULT_LOCALE) q.set("l", s.locale);
   if (s.selectedAuthorId) q.set("a", s.selectedAuthorId);
+  // focus mode (constellation without the profile) survives page switches;
+  // plain a= deep links still open the profile
+  if (s.selectedAuthorId && !s.panelOpen) q.set("pv", "0");
   if (s.compareAuthorId) q.set("cmp", s.compareAuthorId);
   if (s.mode === "geo") q.set("m", "geo");
   if (s.year !== TIMELINE_MAX) q.set("y", String(s.year));
@@ -48,6 +51,16 @@ export function serializeState(s: AppState): string {
   }
   const qs = q.toString();
   return `#${PAGE_PATH[s.page]}${qs ? `?${qs}` : ""}`;
+}
+
+/**
+ * href for an in-app page link that carries the whole current state along.
+ * Bare hashes like "#/writers" would reset filters, timeline, mode, and
+ * selection on every route change (the map and the list must read the same
+ * state), so navigation must always be built through this.
+ */
+export function pageHref(s: AppState, page: Page): string {
+  return serializeState({ ...s, page });
 }
 
 function parseList<T extends string>(
@@ -78,8 +91,12 @@ export function parseHash(hash: string, valid: UrlValidIds): Partial<AppState> {
 
   const a = q.get("a");
   patch.selectedAuthorId = a && valid.authorIds.has(a) ? a : null;
-  // a deep link means "take me to this author" — open the profile directly
-  patch.panelOpen = patch.selectedAuthorId !== null;
+  // a deep link means "take me to this author" — open the profile directly,
+  // unless the URL explicitly recorded focus mode (pv=0)
+  patch.panelOpen = patch.selectedAuthorId !== null && q.get("pv") !== "0";
+  // the profile and the explore drawer never fight for the map (UX audit
+  // P1-4) — deep links obey the same rule as clicks
+  if (patch.panelOpen) patch.filtersOpen = false;
   const cmp = q.get("cmp");
   patch.compareAuthorId = cmp && valid.authorIds.has(cmp) ? cmp : null;
   patch.mode = q.get("m") === "geo" ? "geo" : "semantic";

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildAdjacency, neighborsOf, shortestPath } from "../src/lib/graph.ts";
+import { buildAdjacency, neighborsOf, pathHops, shortestPath } from "../src/lib/graph.ts";
 import { makeRelation } from "./fixtures.ts";
 
 // a→b→c→d chain plus a shortcut a~d via affinity? no — test both cases
@@ -42,6 +42,39 @@ describe("shortestPath", () => {
   it("returns empty path for identical endpoints", () => {
     const adj = buildAdjacency(chain);
     expect(shortestPath(adj, "a", "a")).toEqual([]);
+  });
+});
+
+describe("pathHops", () => {
+  it("keeps canonical direction when the path follows edges", () => {
+    const adj = buildAdjacency(chain);
+    const hops = pathHops(shortestPath(adj, "a", "d")!, "a");
+    expect(hops.map((h) => h.along)).toEqual(["forward", "forward", "forward"]);
+    expect(hops.map((h) => h.toId)).toEqual(["b", "c", "d"]);
+  });
+
+  it("marks hops walked against a directed edge as backward", () => {
+    // the Proust bug: b→a exists as influence, walking a→b must NOT render a→b
+    const adj = buildAdjacency(chain);
+    const hops = pathHops(shortestPath(adj, "d", "a")!, "d");
+    expect(hops.map((h) => h.along)).toEqual(["backward", "backward", "backward"]);
+    expect(hops.map((h) => h.toId)).toEqual(["c", "b", "a"]);
+    // each backward hop's relation still points fromId ← toId canonically
+    for (const h of hops) {
+      expect(h.relation.sourceId).toBe(h.toId);
+      expect(h.relation.targetId).toBe(h.fromId);
+    }
+  });
+
+  it("chains mixed directions without losing the walk order", () => {
+    // a→b (influence), c→b (influence): path a…c walks forward then backward
+    const rels = [makeRelation("a", "b"), makeRelation("c", "b")];
+    const adj = buildAdjacency(rels);
+    const hops = pathHops(shortestPath(adj, "a", "c")!, "a");
+    expect(hops.map((h) => [h.fromId, h.toId, h.along])).toEqual([
+      ["a", "b", "forward"],
+      ["b", "c", "backward"]
+    ]);
   });
 });
 

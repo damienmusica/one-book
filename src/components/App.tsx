@@ -1,5 +1,6 @@
 import { Suspense, lazy, useEffect } from "react";
 import { useAppState, useServices, useT } from "./ctx.ts";
+import { pageHref } from "../state/url.ts";
 import { Header } from "./Header.tsx";
 import { GlobeView } from "./GlobeView.tsx";
 import { FilterPanel } from "./FilterPanel.tsx";
@@ -68,7 +69,7 @@ export function App() {
 
   return (
     <div className="app">
-      <a className="skip-link" href="#/writers">
+      <a className="skip-link" href={pageHref(state, "writers")}>
         {t.skipLink}
       </a>
       <Header />

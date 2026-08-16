@@ -133,7 +133,7 @@ export function DetailPanel() {
           </span>
         </p>
 
-        <h3>{t.majorWorks}</h3>
+        <h3>{t.worksHead}</h3>
         <ul className="work-list">
           {works.map((w) => (
             <li key={w.id}>

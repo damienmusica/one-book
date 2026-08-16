@@ -1,29 +1,19 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useServices, useT } from "./ctx.ts";
 import { createGlobe } from "../globe/renderer.ts";
 import { geoPositions, semanticPositions } from "../data/load.ts";
 import { buildContentAccess, LOCALES, type ContentAccess, type Locale } from "../i18n/index.ts";
-
-function detectWebGL(): boolean {
-  try {
-    const canvas = document.createElement("canvas");
-    return Boolean(
-      canvas.getContext("webgl2") ?? canvas.getContext("webgl")
-    );
-  } catch {
-    return false;
-  }
-}
+import { webglAvailable } from "../lib/webgl.ts";
+import { FallbackExplorer } from "./FallbackExplorer.tsx";
 
 export function GlobeView() {
   const services = useServices();
   const t = useT();
   const ref = useRef<HTMLDivElement>(null);
-  const [webglOk] = useState(detectWebGL);
 
   useEffect(() => {
     const el = ref.current;
-    if (!webglOk || !el) return;
+    if (!webglAvailable || !el) return;
     const { dataset, store } = services;
     const sem = semanticPositions(dataset);
     const geo = geoPositions(dataset);
@@ -58,20 +48,9 @@ export function GlobeView() {
       services.globeRef.current = null;
       handle.dispose();
     };
-  }, [services, webglOk]);
+  }, [services]);
 
-  if (!webglOk) {
-    return (
-      <div className="globe-fallback">
-        <h2>{t.webglTitle}</h2>
-        <p>
-          {t.webglBody1}
-          <a href="#/writers">{t.webglLinkText}</a>
-          {t.webglBody2}
-        </p>
-      </div>
-    );
-  }
+  if (!webglAvailable) return <FallbackExplorer />;
 
   return <div className="globe-container" ref={ref} role="application" aria-label={t.globeAria} />;
 }

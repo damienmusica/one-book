@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { useAppState, useContent, useServices, useT } from "./ctx.ts";
 import { visibleAuthorIds } from "../lib/filter.ts";
+import { majorWorksOf } from "../lib/works.ts";
 import { searchAuthors } from "../lib/search.ts";
 import {
   languageLabel,
@@ -96,7 +97,9 @@ export function WritersPage() {
               {header("anchorYear", t.colAnchorYear)}
               <th scope="col">{t.colPeriods}</th>
               <th scope="col">{t.colRegionLang}</th>
-              <th scope="col">{t.colWorks}</th>
+              <th scope="col" title={t.colWorksTitle}>
+                {t.colWorks}
+              </th>
               {header("difficulty", t.colDifficulty)}
               {header("tier", t.colTier)}
               <th scope="col">{t.colReview}</th>
@@ -125,8 +128,7 @@ export function WritersPage() {
                     {a.languages.map((c) => languageLabel(c, locale)).join(", ")}
                   </td>
                   <td className="col-works">
-                    {works
-                      .slice(0, 3)
+                    {majorWorksOf(a, works, 3)
                       .map((w) => content.workTitle(w))
                       .join(" · ")}
                   </td>

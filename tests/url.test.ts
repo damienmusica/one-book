@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseHash, serializeState } from "../src/state/url.ts";
+import { pageHref, parseHash, serializeState } from "../src/state/url.ts";
 import { initialState } from "../src/state/store.ts";
 import type { AppState } from "../src/state/store.ts";
 
@@ -67,5 +67,38 @@ describe("url state", () => {
   it("ignores unknown filter values", () => {
     const out = parseHash("#/?p=roots,fake-period", valid);
     expect(out.filters?.periods).toEqual(["roots"]);
+  });
+
+  // the feedback repro: leaving the map for /writers must not reset filters
+  it("pageHref carries filters, year, and mode across page switches", () => {
+    const state: AppState = {
+      ...initialState(),
+      mode: "geo",
+      year: 1950,
+      filters: { ...initialState().filters, periods: ["roots"] }
+    };
+    const href = pageHref(state, "writers");
+    expect(href).toContain("/writers");
+    const back = parseHash(href, valid);
+    expect(back.page).toBe("writers");
+    expect(back.filters?.periods).toEqual(["roots"]);
+    expect(back.year).toBe(1950);
+    expect(back.mode).toBe("geo");
+    // and the return trip to the map keeps everything too
+    const again = parseHash(pageHref({ ...state, ...back } as AppState, "globe"), valid);
+    expect(again.page).toBe("globe");
+    expect(again.filters?.periods).toEqual(["roots"]);
+  });
+
+  it("focus mode (selection without profile) survives the round trip", () => {
+    const focus = roundTrip({ selectedAuthorId: "franz-kafka", panelOpen: false });
+    expect(focus.selectedAuthorId).toBe("franz-kafka");
+    expect(focus.panelOpen).toBe(false);
+
+    const profile = roundTrip({ selectedAuthorId: "franz-kafka", panelOpen: true });
+    expect(profile.panelOpen).toBe(true);
+
+    // bare external deep links still open the profile
+    expect(parseHash("#/?a=franz-kafka", valid).panelOpen).toBe(true);
   });
 });

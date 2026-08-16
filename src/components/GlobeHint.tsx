@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from "react";
 import { useAppState, useT } from "./ctx.ts";
+import { webglAvailable } from "../lib/webgl.ts";
 
 const SEEN_KEY = "lp-hint-seen";
 
@@ -29,7 +30,8 @@ export function GlobeHint() {
     }
   }, [seen, state.selectedAuthorId]);
 
-  if (seen || state.selectedAuthorId || state.tourId) return null;
+  // the hint teaches globe gestures — meaningless in the 2D fallback
+  if (!webglAvailable || seen || state.selectedAuthorId || state.tourId) return null;
   return (
     <div className="globe-hint" role="status">
       <span>{t.onboardHint}</span>

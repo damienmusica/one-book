@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { useAppState, useContent, useServices, useT } from "./ctx.ts";
-import { shortestPath } from "../lib/graph.ts";
+import { pathHops, shortestPath } from "../lib/graph.ts";
+import { majorWorksOf } from "../lib/works.ts";
 import type { Author } from "../types.ts";
 import { languageLabel, regionLabel, relationTypeShort } from "../i18n/index.ts";
 import { AuthorLink, DifficultyDots, EvidenceBadge, lifeSpan } from "./bits.tsx";
@@ -43,7 +44,7 @@ function CompareColumn({ author }: { author: Author }) {
       )}
       <h4>{t.majorWorks}</h4>
       <ul className="work-list--compact">
-        {works.slice(0, 4).map((w) => (
+        {majorWorksOf(author, works, 4).map((w) => (
           <li key={w.id}>
             {content.workTitle(w)} <span className="work-meta">({w.year})</span>
           </li>
@@ -79,16 +80,21 @@ export function CompareView() {
       (r.sourceId === b.id && r.targetId === a.id)
   );
 
-  // walk the path to render A → X → … → B with each hop's relation
-  const hops: Array<{ fromId: string; toId: string; label: string }> = [];
-  if (path) {
-    let cur = a.id;
-    for (const rel of path) {
-      const next = rel.sourceId === cur ? rel.targetId : rel.sourceId;
-      hops.push({ fromId: cur, toId: next, label: relationTypeShort(rel.type, locale) });
-      cur = next;
-    }
-  }
+  // walk the path A → X → … → B; each hop keeps its relation's canonical
+  // direction (Flaubert influenced Proust must read ←influence—, never
+  // —influence→, even when the path walks Proust-first)
+  const hops = path
+    ? pathHops(path, a.id).map((h) => {
+        const label = relationTypeShort(h.relation.type, locale);
+        const connector =
+          h.relation.direction === "bidirectional"
+            ? `—${label}—`
+            : h.along === "forward"
+              ? `—${label}→`
+              : `←${label}—`;
+        return { ...h, connector };
+      })
+    : [];
 
   return (
     <div className="compare-view" role="dialog" aria-modal="true" aria-label={t.compareAria}>
@@ -133,7 +139,7 @@ export function CompareView() {
             {hops.map((h, i) => (
               <span key={i}>
                 {i === 0 && <AuthorLink id={h.fromId} />}
-                <span className="path-hop"> —{h.label}→ </span>
+                <span className="path-hop"> {h.connector} </span>
                 <AuthorLink id={h.toId} />
               </span>
             ))}
