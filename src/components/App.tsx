@@ -11,6 +11,7 @@ import { RelationDialog } from "./RelationDialog.tsx";
 import { WritersPage } from "./WritersPage.tsx";
 import { MethodologyPage } from "./MethodologyPage.tsx";
 import { MiniCard } from "./MiniCard.tsx";
+import { GlobeHint } from "./GlobeHint.tsx";
 
 // dev-only review catalogs (?seals, ?portraits): the literal false branch
 // lets production builds drop these chunks entirely
@@ -77,6 +78,7 @@ export function App() {
           <FilterPanel />
           <DetailPanel />
           <MiniCard />
+          <GlobeHint />
           <TimelineBar />
           {state.tourId && <TourOverlay />}
           {state.comparePicking && (

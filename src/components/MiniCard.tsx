@@ -34,7 +34,7 @@ export function MiniCard() {
       <button
         type="button"
         className="mini-card__open"
-        onClick={() => store.set({ panelOpen: true })}
+        onClick={() => store.set({ panelOpen: true, filtersOpen: false })}
       >
         {t.openProfile} →
       </button>

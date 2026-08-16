@@ -111,6 +111,9 @@ export class Store {
       selectedAuthorId: id,
       panelOpen,
       hoveredRelationId: null,
+      // the profile and the explore panel never fight for the map
+      // (UX audit P1-4)
+      ...(panelOpen ? { filtersOpen: false } : {}),
       // leaving an author clears the comparison against them
       compareAuthorId: id === null ? null : s.compareAuthorId,
       comparePicking: false,

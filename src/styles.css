@@ -404,6 +404,39 @@ a:hover {
   vertical-align: baseline;
 }
 
+/* first-visit coach line */
+.globe-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 84px;
+  transform: translateX(-50%);
+  z-index: 22;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: min(92%, 520px);
+  padding: 8px 12px;
+  background: rgba(22, 18, 16, 0.92);
+  border: 1px solid var(--line-accent);
+  color: var(--text-dim);
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
+}
+
+.globe-hint__dismiss {
+  background: transparent;
+  border: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+@media (max-width: 767px) {
+  .globe-hint {
+    bottom: 128px;
+  }
+}
+
 /* focus-mode mini card (first click = constellation, second = profile) */
 .mini-card {
   position: absolute;
@@ -452,12 +485,23 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  /* keep clear of the timeline bar and give the close button real hit room
+     (UX audit P0-1: the card fought the slider and neighboring labels) */
   .mini-card {
     top: auto;
     right: 10px;
     left: 10px;
-    bottom: 96px;
+    bottom: 168px;
     width: auto;
+    padding: 10px 12px;
+  }
+
+  .mini-card__close {
+    padding: 8px 10px;
+  }
+
+  .mini-card__meta {
+    margin-bottom: 8px;
   }
 }
 
@@ -873,11 +917,15 @@ a:hover {
   color: var(--brass);
   padding: 0;
   font-size: inherit;
+  cursor: pointer;
+  /* a jump you can take must look like one (UX audit P1-3) */
+  text-decoration: underline dotted rgba(207, 167, 89, 0.55);
+  text-underline-offset: 3px;
 }
 
 .author-link:hover {
   color: var(--brass-bright);
-  text-decoration: underline;
+  text-decoration: underline solid var(--brass-bright);
 }
 
 .evidence-badge {
