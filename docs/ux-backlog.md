@@ -1,5 +1,14 @@
 # UX backlog — accepted from real-use feedback, not yet built
 
+> 2026-08-16 second review (external desktop/QA spec): its verified items
+> shipped the same day — methodology→map routing fix, instrumentation +
+> debug overlay, the QA capture harness (docs/qa-harness.md), 2D fallback
+> keyboard access + label collision pass, and qualitative relation-weight
+> presentation. The desktop shell (Electron/Tauri) and any monorepo
+> restructuring were deferred with rationale in docs/adr/0001 — the engine,
+> data, and QA scenes stay shell-independent, and the shell decision waits
+> for a real distribution need plus three-platform measurements.
+
 Provenance: external real-use feedback received 2026-08-16. Its five falsifiable
 correctness claims all reproduced and were fixed the same day (commits e2daf17,
 fd2d832 — state-carrying nav, canonical path arrows, curated major works,

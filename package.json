@@ -2,7 +2,7 @@
   "name": "literary-planet",
   "version": "0.1.0",
   "private": true,
-  "description": "Literary Planet \u2014 a rotatable globe of 20th-century world literature. Booksphere-lineage side project of Noosphere (decision (86)).",
+  "description": "Literary Planet — a rotatable globe of 20th-century world literature. Booksphere-lineage side project of Noosphere (decision (86)).",
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
@@ -18,7 +18,11 @@
     "report:coverage": "tsx scripts/coverage-report.ts",
     "qc:crosscheck-dates": "tsx scripts/crosscheck-dates.ts",
     "qc:backfill-qids": "tsx scripts/backfill-qids.ts",
-    "terrain:plate": "tsx scripts/generate-terrain.ts"
+    "terrain:plate": "tsx scripts/generate-terrain.ts",
+    "qa:capture": "node qa/capture.mjs",
+    "qa:all": "node qa/capture.mjs --all",
+    "qa:bundle": "node qa/bundle.mjs",
+    "qa:source-zip": "git archive --format=zip --prefix=literary-planet/ -o literary-planet-source.zip HEAD:. && echo literary-planet-source.zip"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -36,6 +40,7 @@
     "@types/three": "0.172.0",
     "@vitejs/plugin-react": "^4.3.4",
     "jsdom": "^25.0.1",
+    "playwright": "^1.62.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "vite": "^6.0.7",

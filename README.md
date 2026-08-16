@@ -33,7 +33,15 @@ npm run report:coverage  # docs/coverage-report.md 생성 (지역·언어·젠�
 
 npm run qc:crosscheck-dates   # 유지관리자 QC: Wikidata 생몰년 교차확인 (저장 QID 직조회, 로컬 네트워크 전용)
 npm run qc:backfill-qids      # 유지관리자 QC: Wikidata QID 해소·기입 (1회성/신규 작가용, 로컬 네트워크 전용)
+
+npm run qa:capture -- --scene kafka   # 결정적 3D 씬 캡처 (frames/webm/metrics/events, docs/qa-harness.md)
+npm run qa:all                        # 전 씬 캡처 (자동 검증 + 오프라인 증명 포함)
+npm run qa:bundle                     # artifacts/ → 외부 검토용 zip + summary.md
 ```
+
+디버그 오버레이: `?debug=1` 또는 `Cmd/Ctrl+Shift+D` (fps·GL·draw calls·표시 계수).
+오프라인 실행: `dist/`를 아무 정적 서버로 서빙하면 전 기능 동작 (외부 요청 0 —
+QA가 회귀 검증). 데스크톱 셸은 의도적으로 유보 (docs/adr/0001).
 
 배치별 부분 검증: `npm run validate:data -- --only <batch>` (작가 배치),
 `-- --only-rel <cluster>` (관계 배치), `-- --allow-partial` (좌표 동결 전 전체).
