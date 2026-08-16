@@ -3,6 +3,7 @@
 // and the same seed produces the same planet forever.
 
 import { mulberry32 } from "../../src/lib/rng.ts";
+import { vec3ToGrid } from "../../src/lib/territory-geometry.ts";
 import type { Dataset } from "../../src/types.ts";
 import type { Vec3 } from "../../src/lib/sphere.ts";
 
@@ -566,6 +567,8 @@ export interface BakedGeometry {
   /** open territory borders on land, same coordinate convention as coast */
   boundaries: number[][];
   ownerRle: number[][];
+  /** P3: works as towns, reading entries as ports, reading orders as roads */
+  cities?: Record<string, AuthorCities>;
 }
 
 function unwrapPts(line: Pt[], width: number): Pt[] {
@@ -650,11 +653,12 @@ function contourFlat(
   return out;
 }
 
-/** the whole renderer-facing bake: contours + borders + owner raster */
+/** the whole renderer-facing bake: contours + borders + owner raster + cities */
 export function bakeGeometry(
   kernels: AuthorKernel[],
   params: TerrainParams,
-  opts: BakeOptions = DEFAULT_BAKE
+  opts: BakeOptions = DEFAULT_BAKE,
+  cityInput?: CityBakeInput
 ): BakedGeometry {
   const grid = rasterizeEquirect(kernels, params, opts.gridWidth, opts.gridHeight);
   const coast = contourFlat(grid, params.tau, 0.35, "coast");
@@ -682,8 +686,165 @@ export function bakeGeometry(
     coast,
     waterlines,
     boundaries,
-    ownerRle: encodeOwnerRle(grid, params.tau)
+    ownerRle: encodeOwnerRle(grid, params.tau),
+    ...(cityInput ? { cities: bakeCities(grid, kernels, params.tau, cityInput) } : {})
   };
+}
+
+// --- P3: cities, ports, roads ------------------------------------------------
+// Works become towns inside their author's territory, the reading entry
+// becomes the port (the coast cell nearest the capital), and the reading
+// order becomes the road. All seeded per author — the atlas never reshuffles.
+
+export interface AuthorCities {
+  /** [x, y] coast town where the reading enters; null for landlocked realms */
+  port: [number, number] | null;
+  portWork: string | null;
+  towns: Array<{ id: string; x: number; y: number }>;
+  /** reading route: port (or capital) → readingOrder towns, flat [x,y,…] */
+  road: number[];
+}
+
+export interface CityBakeInput {
+  /** author id → work ids, readingOrder first, remainder in stable order */
+  worksByAuthor: Map<string, string[]>;
+  readingEntry: Map<string, string>;
+  readingOrder: Map<string, string[]>;
+}
+
+function cityHash(s: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h | 0;
+}
+
+/** wrap-aware grid distance with a cos-lat correction on the x axis */
+function gridDist(a: [number, number], b: [number, number], W: number, H: number): number {
+  let dx = Math.abs(a[0] - b[0]);
+  if (dx > W / 2) dx = W - dx;
+  const midLat = Math.PI / 2 - (((a[1] + b[1]) / 2) / (H - 1)) * Math.PI;
+  return Math.hypot(dx * Math.cos(midLat), a[1] - b[1]);
+}
+
+export function bakeCities(
+  grid: EquirectGrid,
+  kernels: AuthorKernel[],
+  tau: number,
+  input: CityBakeInput
+): Record<string, AuthorCities> {
+  const { width: W, height: H, field, owner } = grid;
+  const land = (i: number, j: number) => field[j * W + i]! >= tau;
+
+  // owner index → that author's land cells and coast cells, one scan
+  const cells = new Map<number, Array<[number, number]>>();
+  const coast = new Map<number, Array<[number, number]>>();
+  for (let j = 0; j < H; j++) {
+    for (let i = 0; i < W; i++) {
+      if (!land(i, j)) continue;
+      const k = owner[j * W + i]!;
+      if (k < 0) continue;
+      let list = cells.get(k);
+      if (!list) cells.set(k, (list = []));
+      list.push([i, j]);
+      const iL = (i - 1 + W) % W;
+      const iR = (i + 1) % W;
+      const seaAdj =
+        !land(iL, j) || !land(iR, j) || (j > 0 && !land(i, j - 1)) || (j < H - 1 && !land(i, j + 1));
+      if (seaAdj) {
+        let cl = coast.get(k);
+        if (!cl) coast.set(k, (cl = []));
+        cl.push([i, j]);
+      }
+    }
+  }
+
+  const out: Record<string, AuthorCities> = {};
+  kernels.forEach((kernel, k) => {
+    const id = kernel.id;
+    const works = input.worksByAuthor.get(id) ?? [];
+    const myCells = cells.get(k) ?? [];
+    const capital = vec3ToGrid(kernel.seed, W, H);
+    if (works.length === 0 || myCells.length === 0) {
+      out[id] = { port: null, portWork: null, towns: [], road: [] };
+      return;
+    }
+    const rand = mulberry32(cityHash(id));
+
+    // port: coast cell nearest the capital (deterministic scan-order tie-break)
+    const myCoast = coast.get(k) ?? [];
+    let port: [number, number] | null = null;
+    let best = Infinity;
+    for (const c of myCoast) {
+      const d = gridDist([c[0] + 0.5, c[1]], capital, W, H);
+      if (d < best) {
+        best = d;
+        port = [c[0] + 0.5, c[1]];
+      }
+    }
+    const entry = input.readingEntry.get(id) ?? null;
+
+    // towns by farthest-point sampling over the author's own land cells —
+    // spread out from the capital, the port, and one another
+    const anchors: Array<[number, number]> = [capital];
+    if (port) anchors.push(port);
+    const towns: AuthorCities["towns"] = [];
+    const townPos = new Map<string, [number, number]>();
+    for (const workId of works) {
+      // the port town IS the reading entry — it sits at the harbor
+      if (port && workId === entry) {
+        towns.push({ id: workId, x: round1(port[0]), y: round1(port[1]) });
+        townPos.set(workId, port);
+        continue;
+      }
+      const tries = Math.min(myCells.length, 200);
+      let bestCell: [number, number] | null = null;
+      let bestScore = -1;
+      for (let t = 0; t < tries; t++) {
+        const c = myCells[Math.floor(rand() * myCells.length)]!;
+        const p: [number, number] = [c[0] + 0.5, c[1] + 0.5];
+        let minD = Infinity;
+        for (const a of anchors) minD = Math.min(minD, gridDist(p, a, W, H));
+        if (minD > bestScore) {
+          bestScore = minD;
+          bestCell = p;
+        }
+      }
+      const p: [number, number] = [
+        bestCell![0] + (rand() - 0.5) * 0.7,
+        bestCell![1] + (rand() - 0.5) * 0.7
+      ];
+      anchors.push(p);
+      towns.push({ id: workId, x: round1(((p[0] % W) + W) % W), y: round1(p[1]) });
+      townPos.set(workId, p);
+    }
+
+    // road: harbor (or capital, when landlocked) → reading order
+    const road: number[] = [];
+    const start = port ?? capital;
+    road.push(round1(start[0]), round1(start[1]));
+    for (const workId of input.readingOrder.get(id) ?? []) {
+      const p = townPos.get(workId);
+      if (!p) continue;
+      const last: [number, number] = [road[road.length - 2]!, road[road.length - 1]!];
+      if (Math.abs(p[0] - last[0]) < 1e-9 && Math.abs(p[1] - last[1]) < 1e-9) continue;
+      road.push(round1(((p[0] % W) + W) % W), round1(p[1]));
+    }
+
+    out[id] = {
+      port: port ? [round1(port[0]), round1(port[1])] : null,
+      portWork: port && entry && townPos.has(entry) ? entry : null,
+      towns,
+      road: road.length >= 4 ? road : []
+    };
+  });
+  return out;
+}
+
+function round1(x: number): number {
+  return Math.round(x * 10) / 10;
 }
 
 // --- area accounting (gate ③: does the hierarchy read?) ----------------------

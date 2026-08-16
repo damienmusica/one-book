@@ -360,6 +360,16 @@ a:hover {
   text-transform: none;
 }
 
+/* work towns (P3): small italic place-names on the selected territory */
+.globe-label--work {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+  opacity: 0.9;
+}
+
 /* ————— filter panel ————— */
 
 .filter-panel {

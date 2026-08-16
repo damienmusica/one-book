@@ -161,6 +161,15 @@ export interface PositionsFile {
  * flat [x0,y0,…] arrays in equirect grid coordinates (x wraps at gridWidth);
  * ownerRle rows are [count, value, …] with 0 = sea, k > 0 = authors[k−1].
  */
+export interface TerritoryCities {
+  /** [x, y] coast town where the reading enters; null for landlocked realms */
+  port: [number, number] | null;
+  portWork: string | null;
+  towns: Array<{ id: string; x: number; y: number }>;
+  /** reading route: port (or capital) → readingOrder towns, flat [x,y,…] */
+  road: number[];
+}
+
 export interface TerritoryGeometry {
   gridWidth: number;
   gridHeight: number;
@@ -175,6 +184,7 @@ export interface TerritoryGeometry {
   };
   boundaries: number[][];
   ownerRle: number[][];
+  cities: Record<string, TerritoryCities>;
 }
 
 /** Frozen terrain — data/territory.v1.json (baked by scripts/generate-terrain.ts) */

@@ -191,7 +191,22 @@ export const territorySchema = z
           })
           .strict(),
         boundaries: z.array(flatLine),
-        ownerRle: z.array(z.array(z.number().int().nonnegative()))
+        ownerRle: z.array(z.array(z.number().int().nonnegative())),
+        // P3: works as towns, reading entry as port, reading order as road
+        cities: z.record(
+          z.string().regex(AUTHOR_ID),
+          z
+            .object({
+              port: z.tuple([z.number(), z.number()]).nullable(),
+              portWork: z.string().regex(WORK_ID).nullable(),
+              towns: z
+                .array(
+                  z.object({ id: z.string().regex(WORK_ID), x: z.number(), y: z.number() }).strict()
+                ),
+              road: z.array(z.number())
+            })
+            .strict()
+        )
       })
       .strict()
   })

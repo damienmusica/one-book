@@ -206,19 +206,36 @@ console.log(`plate: ${out} (${(svg.length / 1024).toFixed(0)} KB)`);
 if (FREEZE) {
   // P1: bake the renderer-facing geometry from the same field. Deterministic —
   // re-baking the same seed+params is a byte-identical no-op (except the date).
+  // P3: works ride along as towns/ports/roads inside their author's territory.
   const t0 = Date.now();
-  const geometry = bakeGeometry(kernels, params);
+  const worksByAuthor = new Map<string, string[]>();
+  for (const a of dataset.authors) {
+    const order = a.readingOrder;
+    const rest = dataset.works
+      .filter((w) => w.authorId === a.id && !order.includes(w.id))
+      .sort((x, y) => x.year - y.year || x.id.localeCompare(y.id))
+      .map((w) => w.id);
+    worksByAuthor.set(a.id, [...order, ...rest]);
+  }
+  const geometry = bakeGeometry(kernels, params, undefined, {
+    worksByAuthor,
+    readingEntry: new Map(dataset.authors.map((a) => [a.id, a.readingEntry])),
+    readingOrder: new Map(dataset.authors.map((a) => [a.id, a.readingOrder]))
+  });
   const nPts = (lines: number[][]) => lines.reduce((s, l) => s + l.length / 2, 0);
+  const cityVals = Object.values(geometry.cities ?? {});
   console.log(
     `bake: coast ${geometry.coast.length} loops/${nPts(geometry.coast)} pts · ` +
       `waterlines ${geometry.waterlines.inner.length}+${geometry.waterlines.outer.length} loops/` +
       `${nPts(geometry.waterlines.inner) + nPts(geometry.waterlines.outer)} pts · ` +
       `boundaries ${geometry.boundaries.length} lines/${nPts(geometry.boundaries)} pts · ` +
-      `rle ${geometry.ownerRle.length} rows (${((Date.now() - t0) / 1000).toFixed(1)}s)`
+      `rle ${geometry.ownerRle.length} rows · ` +
+      `towns ${cityVals.reduce((s, c) => s + c.towns.length, 0)} / ports ${cityVals.filter((c) => c.port).length} / landlocked ${cityVals.filter((c) => !c.port && c.towns.length > 0).length} ` +
+      `(${((Date.now() - t0) / 1000).toFixed(1)}s)`
   );
 
   const territory = {
-    version: "1.1.0",
+    version: "1.2.0",
     seed: params.seed,
     generatedAt: new Date().toISOString().slice(0, 10),
     params: {

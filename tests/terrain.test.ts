@@ -205,6 +205,82 @@ describe("equirect bake (P1)", () => {
   });
 });
 
+describe("cities bake (P3)", () => {
+  const BP = { ...P, R0: 0.3 };
+  const seeds = new Map<string, Vec3>([
+    ["seam-anchor", [-1, 0, 0]],
+    ["mid-major", [0.2 / Math.hypot(0.2, 0.15, 0.97), 0.15 / Math.hypot(0.2, 0.15, 0.97), 0.97 / Math.hypot(0.2, 0.15, 0.97)]]
+  ]);
+  const weights = new Map([
+    ["seam-anchor", 2.4],
+    ["mid-major", 1]
+  ]);
+  const kernels = buildKernels(seeds, weights, BP);
+  const opts = { gridWidth: 128, gridHeight: 65, waterGridWidth: 64, waterGridHeight: 33 };
+  const input = {
+    worksByAuthor: new Map([
+      ["seam-anchor", ["seam-anchor--w1", "seam-anchor--w2", "seam-anchor--w3"]],
+      ["mid-major", ["mid-major--w1", "mid-major--w2"]]
+    ]),
+    readingEntry: new Map([
+      ["seam-anchor", "seam-anchor--w1"],
+      ["mid-major", "mid-major--w1"]
+    ]),
+    readingOrder: new Map([
+      ["seam-anchor", ["seam-anchor--w1", "seam-anchor--w2"]],
+      ["mid-major", ["mid-major--w1"]]
+    ])
+  };
+
+  it("places every town on its author's own land, ports on the coast", () => {
+    const g = bakeGeometry(kernels, BP, opts, input);
+    const grid = rasterizeEquirect(kernels, BP, opts.gridWidth, opts.gridHeight);
+    const W = grid.width;
+    const land = (i: number, j: number) => grid.field[j * W + i]! >= BP.tau;
+    for (const [aid, c] of Object.entries(g.cities!)) {
+      const k = g.authors.indexOf(aid);
+      expect(c.towns.length).toBe(input.worksByAuthor.get(aid)!.length);
+      for (const town of c.towns) {
+        const i = Math.floor(town.x) % W;
+        const j = Math.floor(town.y);
+        expect(land(i, j)).toBe(true);
+        expect(grid.owner[j * W + i]).toBe(k);
+      }
+      if (c.port) {
+        const i = Math.floor(c.port[0]) % W;
+        const j = Math.floor(c.port[1]);
+        expect(land(i, j)).toBe(true);
+        const iL = (i - 1 + W) % W;
+        const iR = (i + 1) % W;
+        const seaAdj =
+          !land(iL, j) ||
+          !land(iR, j) ||
+          (j > 0 && !land(i, j - 1)) ||
+          (j < grid.height - 1 && !land(i, j + 1));
+        expect(seaAdj).toBe(true);
+      }
+    }
+  });
+
+  it("routes the road from the harbor along the reading order", () => {
+    const g = bakeGeometry(kernels, BP, opts, input);
+    const c = g.cities!["seam-anchor"]!;
+    expect(c.port).not.toBeNull();
+    expect(c.portWork).toBe("seam-anchor--w1");
+    // road starts at the port; the entry town IS the port, so the next stop
+    // is the second reading-order town
+    expect(c.road.slice(0, 2)).toEqual(c.port);
+    const w2 = c.towns.find((t) => t.id === "seam-anchor--w2")!;
+    expect(c.road.slice(-2)).toEqual([w2.x, w2.y]);
+  });
+
+  it("bakes cities deterministically", () => {
+    const a = bakeGeometry(kernels, BP, opts, input);
+    const b = bakeGeometry(kernels, BP, opts, input);
+    expect(JSON.stringify(a.cities)).toBe(JSON.stringify(b.cities));
+  });
+});
+
 describe("polyline decimation", () => {
   const chainDist = (p: [number, number], chain: Array<[number, number]>): number => {
     let best = Infinity;

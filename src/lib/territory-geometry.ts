@@ -42,3 +42,31 @@ export function eachRun(
     x += count;
   }
 }
+
+// --- grid ↔ sphere ----------------------------------------------------------
+// The bake grid is aligned with three.js SphereGeometry UVs: column x ↦
+// φ = 2πx/width with p = [−cosφ·cosLat, sinLat, sinφ·cosLat], row y ↦
+// lat = 90° − 180°·y/(height−1). These two are exact inverses.
+
+export function gridToVec3(
+  x: number,
+  y: number,
+  width: number,
+  height: number
+): [number, number, number] {
+  const phi = (x / width) * Math.PI * 2;
+  const lat = Math.PI / 2 - (y / (height - 1)) * Math.PI;
+  const cosLat = Math.cos(lat);
+  return [-Math.cos(phi) * cosLat, Math.sin(lat), Math.sin(phi) * cosLat];
+}
+
+export function vec3ToGrid(
+  p: readonly [number, number, number],
+  width: number,
+  height: number
+): [number, number] {
+  let phi = Math.atan2(p[2], -p[0]);
+  if (phi < 0) phi += Math.PI * 2;
+  const lat = Math.asin(Math.max(-1, Math.min(1, p[1])));
+  return [(phi / (Math.PI * 2)) * width, ((Math.PI / 2 - lat) / Math.PI) * (height - 1)];
+}

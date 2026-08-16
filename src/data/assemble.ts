@@ -510,6 +510,42 @@ export function assembleDataset(
       checkBounds(g.boundaries, g.gridWidth, g.gridHeight, "boundary");
       checkBounds(g.waterlines.inner, g.waterlines.gridWidth, g.waterlines.gridHeight, "inner waterline");
       checkBounds(g.waterlines.outer, g.waterlines.gridWidth, g.waterlines.gridHeight, "outer waterline");
+      // cities must mirror the works corpus exactly — a works edit without a
+      // re-bake fails here on purpose (stale atlas is a data error)
+      const worksByAuthorId = new Map<string, Set<string>>();
+      for (const w of works) {
+        let set = worksByAuthorId.get(w.authorId);
+        if (!set) worksByAuthorId.set(w.authorId, (set = new Set()));
+        set.add(w.id);
+      }
+      for (const [aid, c] of Object.entries(g.cities)) {
+        if (!authorById.has(aid)) {
+          errors.push(`territory.v1.json: cities entry for unknown author ${aid}`);
+          continue;
+        }
+        const want = worksByAuthorId.get(aid) ?? new Set();
+        const have = new Set(c.towns.map((tw) => tw.id));
+        if (have.size !== c.towns.length)
+          errors.push(`territory.v1.json: cities[${aid}] has duplicate towns`);
+        if (want.size !== have.size || [...want].some((id) => !have.has(id)))
+          errors.push(
+            `territory.v1.json: cities[${aid}] towns do not match the author's works — re-bake territory`
+          );
+        for (const tw of c.towns) {
+          if (tw.x < 0 || tw.x > g.gridWidth || tw.y < 0 || tw.y > g.gridHeight - 1)
+            errors.push(`territory.v1.json: cities[${aid}] town ${tw.id} outside grid`);
+        }
+        if (c.road.length % 2 !== 0 || (c.road.length > 0 && c.road.length < 4))
+          errors.push(`territory.v1.json: cities[${aid}] road must be empty or ≥2 points`);
+        if (c.port === null && c.portWork !== null)
+          errors.push(`territory.v1.json: cities[${aid}] portWork without a port`);
+        if (c.portWork !== null && !have.has(c.portWork))
+          errors.push(`territory.v1.json: cities[${aid}] portWork is not one of its towns`);
+      }
+      for (const a of authors) {
+        if ((worksByAuthorId.get(a.id)?.size ?? 0) > 0 && !(a.id in g.cities))
+          errors.push(`territory.v1.json: author ${a.id} missing from cities — re-bake territory`);
+      }
       territory = t.data as Territory;
     }
   }

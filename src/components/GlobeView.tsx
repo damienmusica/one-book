@@ -47,7 +47,9 @@ export function GlobeView() {
         authorLabel: (a, locale) =>
           (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.authorName(a),
         movementLabel: (m, locale) =>
-          (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.movementName(m)
+          (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.movementName(m),
+        workLabel: (wk, locale) =>
+          (contentByLocale.get(locale) ?? contentByLocale.get("ko"))!.workTitle(wk)
       }
     );
     services.globeRef.current = handle;
