@@ -78,6 +78,8 @@ export function parseHash(hash: string, valid: UrlValidIds): Partial<AppState> {
 
   const a = q.get("a");
   patch.selectedAuthorId = a && valid.authorIds.has(a) ? a : null;
+  // a deep link means "take me to this author" — open the profile directly
+  patch.panelOpen = patch.selectedAuthorId !== null;
   const cmp = q.get("cmp");
   patch.compareAuthorId = cmp && valid.authorIds.has(cmp) ? cmp : null;
   patch.mode = q.get("m") === "geo" ? "geo" : "semantic";

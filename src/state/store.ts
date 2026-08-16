@@ -11,7 +11,15 @@ export interface AppState {
   locale: Locale;
   mode: GlobeMode;
   selectedAuthorId: string | null;
+  /**
+   * Two-stage reading: the first click on a star focuses its constellation on
+   * the globe (panel closed); the second click — or an explicit profile
+   * action — opens the detail panel.
+   */
+  panelOpen: boolean;
   hoveredAuthorId: string | null;
+  /** relation line under the pointer — transient, drives the edge tooltip */
+  hoveredRelationId: string | null;
   compareAuthorId: string | null;
   comparePicking: boolean;
   /** relation opened by clicking a line — transient, not in URL */
@@ -43,7 +51,9 @@ export function initialState(): AppState {
     locale: DEFAULT_LOCALE,
     mode: "semantic",
     selectedAuthorId: null,
+    panelOpen: false,
     hoveredAuthorId: null,
+    hoveredRelationId: null,
     compareAuthorId: null,
     comparePicking: false,
     pickedRelationId: null,
@@ -85,14 +95,22 @@ export class Store {
 
   // --- semantic actions -----------------------------------------------------
 
-  selectAuthor(id: string | null): void {
+  selectAuthor(id: string | null, opts: { openPanel?: boolean } = {}): void {
     const s = this.state;
     if (s.comparePicking && id !== null && id !== s.selectedAuthorId) {
       this.set({ compareAuthorId: id, comparePicking: false });
       return;
     }
+    // globe clicks focus first and escalate on the second click; search,
+    // lists, and deep links pass openPanel to jump straight to the profile
+    const panelOpen =
+      id === null
+        ? false
+        : (opts.openPanel ?? (id === s.selectedAuthorId ? true : false));
     this.set({
       selectedAuthorId: id,
+      panelOpen,
+      hoveredRelationId: null,
       // leaving an author clears the comparison against them
       compareAuthorId: id === null ? null : s.compareAuthorId,
       comparePicking: false,
@@ -123,7 +141,9 @@ export class Store {
     this.set({
       mode: "semantic",
       selectedAuthorId: null,
+      panelOpen: false,
       hoveredAuthorId: null,
+      hoveredRelationId: null,
       compareAuthorId: null,
       comparePicking: false,
       filters: defaultFilters(),

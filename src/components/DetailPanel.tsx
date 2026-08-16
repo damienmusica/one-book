@@ -38,7 +38,7 @@ export function DetailPanel() {
     [dataset.movements]
   );
 
-  if (!author) return null;
+  if (!author || !state.panelOpen) return null;
 
   const byType = new Map<RelationType, Array<{ otherId: string; relation: Relation }>>();
   for (const n of neighbors) {

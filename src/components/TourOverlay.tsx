@@ -16,7 +16,7 @@ export function TourOverlay() {
   // arriving at a stop selects + focuses its author
   useEffect(() => {
     if (!stop) return;
-    store.selectAuthor(stop.authorId);
+    store.selectAuthor(stop.authorId, { openPanel: true });
     requestAnimationFrame(() => services.globeRef.current?.focusAuthor(stop.authorId));
   }, [services, store, stop]);
 

@@ -360,6 +360,107 @@ a:hover {
   text-transform: none;
 }
 
+/* relation-type labels on the focused constellation's lines */
+.globe-label--relation {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  text-transform: none;
+  opacity: 0.95;
+}
+
+/* edge hover tooltip: who connects to whom, without a click */
+.globe-edge-tooltip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 30;
+  pointer-events: none;
+  background: rgba(22, 18, 16, 0.94);
+  border: 1px solid var(--line-accent);
+  padding: 7px 10px;
+  max-width: 240px;
+  will-change: transform;
+}
+
+.globe-edge-tooltip .et-names {
+  font-family: var(--font-serif);
+  font-size: 12.5px;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.globe-edge-tooltip .et-meta {
+  margin-top: 3px;
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.globe-edge-tooltip .et-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  vertical-align: baseline;
+}
+
+/* focus-mode mini card (first click = constellation, second = profile) */
+.mini-card {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 24;
+  width: 232px;
+  background: rgba(22, 18, 16, 0.94);
+  border: 1px solid var(--line-strong);
+  padding: 12px 14px;
+}
+
+.mini-card__close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.mini-card__name {
+  margin: 0 14px 2px 0;
+  font-family: var(--font-serif);
+  font-size: 16px;
+  color: var(--text);
+}
+
+.mini-card__meta {
+  margin: 0 0 10px;
+  font-size: 11.5px;
+  color: var(--text-dim);
+}
+
+.mini-card__open {
+  width: 100%;
+  padding: 6px 8px;
+  background: transparent;
+  border: 1px solid var(--line-accent);
+  color: var(--brass);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.mini-card__open:hover {
+  background: rgba(207, 167, 89, 0.12);
+  color: var(--brass-bright);
+}
+
+@media (max-width: 767px) {
+  .mini-card {
+    top: auto;
+    right: 10px;
+    left: 10px;
+    bottom: 96px;
+    width: auto;
+  }
+}
+
 /* work towns (P3): small italic place-names on the selected territory */
 .globe-label--work {
   font-family: var(--font-serif);

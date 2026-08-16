@@ -35,7 +35,7 @@ describe("SearchBox", () => {
 describe("DetailPanel", () => {
   it("renders the full editorial profile for the selected author", () => {
     const { store } = renderWithServices(() => <DetailPanel />);
-    act(() => store.selectAuthor("franz-kafka"));
+    act(() => store.selectAuthor("franz-kafka", { openPanel: true }));
     expect(screen.getByRole("heading", { name: "프란츠 카프카" })).toBeInTheDocument();
     expect(screen.getByText(/불가해한 죄의식/)).toBeInTheDocument();
     expect(screen.getByText(/장편으로 시작하면/)).toBeInTheDocument();
@@ -47,9 +47,23 @@ describe("DetailPanel", () => {
   it("close button clears the selection", async () => {
     const user = userEvent.setup();
     const { store } = renderWithServices(() => <DetailPanel />);
-    act(() => store.selectAuthor("franz-kafka"));
+    act(() => store.selectAuthor("franz-kafka", { openPanel: true }));
     await user.click(screen.getByRole("button", { name: "상세 패널 닫기" }));
     expect(store.getState().selectedAuthorId).toBeNull();
+  });
+
+  it("two-stage selection: first click focuses, second opens the panel", () => {
+    const { store } = renderWithServices(() => <DetailPanel />);
+    act(() => store.selectAuthor("franz-kafka"));
+    // focus mode: constellation highlighted, panel closed
+    expect(store.getState().panelOpen).toBe(false);
+    expect(screen.queryByRole("heading", { name: "프란츠 카프카" })).toBeNull();
+    act(() => store.selectAuthor("franz-kafka"));
+    expect(store.getState().panelOpen).toBe(true);
+    expect(screen.getByRole("heading", { name: "프란츠 카프카" })).toBeInTheDocument();
+    // switching to another star drops back to focus mode
+    act(() => store.selectAuthor("jorge-luis-borges"));
+    expect(store.getState().panelOpen).toBe(false);
   });
 
   it("renders nothing without a selection", () => {

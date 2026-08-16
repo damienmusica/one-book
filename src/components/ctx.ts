@@ -67,10 +67,10 @@ export function useContent(): ContentAccess {
   return useMemo(() => buildContentAccess(dataset, locale), [dataset, locale]);
 }
 
-/** select an author and swing the globe to face them */
+/** select an author, open their profile, and swing the globe to face them */
 export function focusAuthor(services: AppServices, id: string): void {
   services.store.set({ page: "globe" });
-  services.store.selectAuthor(id);
+  services.store.selectAuthor(id, { openPanel: true });
   // renderer mounts asynchronously when coming from another page
   requestAnimationFrame(() => services.globeRef.current?.focusAuthor(id));
 }

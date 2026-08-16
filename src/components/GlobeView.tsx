@@ -41,7 +41,8 @@ export function GlobeView() {
       {
         onSelect: (id) => store.selectAuthor(id),
         onHover: (id) => store.set({ hoveredAuthorId: id }),
-        onRelationPick: (rel) => store.set({ pickedRelationId: rel.id })
+        onRelationPick: (rel) => store.set({ pickedRelationId: rel.id }),
+        onRelationHover: (rel) => store.set({ hoveredRelationId: rel?.id ?? null })
       },
       {
         authorLabel: (a, locale) =>

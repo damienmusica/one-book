@@ -10,6 +10,7 @@ import { CompareView } from "./CompareView.tsx";
 import { RelationDialog } from "./RelationDialog.tsx";
 import { WritersPage } from "./WritersPage.tsx";
 import { MethodologyPage } from "./MethodologyPage.tsx";
+import { MiniCard } from "./MiniCard.tsx";
 
 // dev-only review catalogs (?seals, ?portraits): the literal false branch
 // lets production builds drop these chunks entirely
@@ -42,6 +43,7 @@ export function App() {
       else if (s.compareAuthorId) store.set({ compareAuthorId: null });
       else if (s.comparePicking) store.set({ comparePicking: false });
       else if (s.tourId) store.endTour();
+      else if (s.panelOpen) store.set({ panelOpen: false }); // back to the constellation
       else if (s.selectedAuthorId) store.selectAuthor(null);
     };
     window.addEventListener("keydown", onKey);
@@ -74,6 +76,7 @@ export function App() {
           <GlobeView />
           <FilterPanel />
           <DetailPanel />
+          <MiniCard />
           <TimelineBar />
           {state.tourId && <TourOverlay />}
           {state.comparePicking && (
