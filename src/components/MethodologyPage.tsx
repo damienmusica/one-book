@@ -160,6 +160,10 @@ export function MethodologyPage() {
           {m.srcBody.mid2}
           {m.srcBody.post}
         </p>
+        <p>
+          <strong>{m.srcPortrait.strong}</strong>
+          {m.srcPortrait.body}
+        </p>
         <table className="dist-table dist-table--wide">
           <tbody>
             {[...dist.review].map(([k, n]) => (

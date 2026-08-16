@@ -370,6 +370,38 @@ a:hover {
   opacity: 0.9;
 }
 
+/* ————— imagined-portrait plate (P4) ————— */
+
+.portrait-plate {
+  margin: 0 0 18px;
+}
+
+.portrait-plate__frame {
+  border: 1px solid var(--line-accent);
+  outline: 1px solid var(--line);
+  outline-offset: 3px;
+  padding: 6px;
+  background: var(--surface-raised);
+  max-width: 260px;
+  margin: 2px auto 0;
+}
+
+.portrait-plate__frame canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portrait-plate__cartouche {
+  margin-top: 8px;
+  text-align: center;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 11.5px;
+  letter-spacing: 0.12em;
+  color: var(--text-faint);
+}
+
 /* ————— filter panel ————— */
 
 .filter-panel {

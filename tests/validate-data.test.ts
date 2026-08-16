@@ -117,3 +117,79 @@ describe("real dataset", () => {
     expect(errors).toEqual([]);
   });
 });
+
+describe("imagined portraits (thesis ④ rights ladder)", () => {
+  const basePortraits = (entries: unknown[]) => ({
+    version: "0.1.0",
+    model: "test-model",
+    postProcess: "test grayscale pipeline for fixture purposes",
+    entries
+  });
+  const faceEntry = (authorId: string, overrides: Record<string, unknown> = {}) => ({
+    authorId,
+    mode: "face",
+    rung: 1,
+    motif: null,
+    motifRationale: null,
+    iconographyNote: "fixture iconography note long enough for the schema",
+    prompt:
+      "fixture prompt describing an antique engraving frontispiece portrait, long enough to satisfy the schema minimum length",
+    seed: 1,
+    generatedAt: "2026-08-16",
+    reviewStatus: "draft",
+    ...overrides
+  });
+
+  it("accepts a dead author's face and a living author's object portrait", () => {
+    const ds = makeDataset([
+      makeAuthor({ id: "dead-face" }),
+      makeAuthor({ id: "living-object", deathYear: undefined })
+    ]);
+    const raw = {
+      ...rawFrom(ds),
+      portraits: basePortraits([
+        faceEntry("dead-face"),
+        faceEntry("living-object", {
+          mode: "object",
+          rung: 3,
+          motif: "a muted post horn",
+          motifRationale: "fixture rationale grounded in the author's central emblem"
+        })
+      ])
+    };
+    const { errors, dataset } = assembleDataset(raw);
+    expect(errors).toEqual([]);
+    expect(dataset?.portraits.length).toBe(2);
+  });
+
+  it("blocks a generated face for a living author", () => {
+    const ds = makeDataset([makeAuthor({ id: "alive", deathYear: undefined })]);
+    const raw = { ...rawFrom(ds), portraits: basePortraits([faceEntry("alive")]) };
+    const { errors } = assembleDataset(raw);
+    expect(errors.some((e) => e.includes("living") && e.includes("prohibited"))).toBe(true);
+  });
+
+  it("blocks rung 3 with face mode and objects without motif at the schema", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" })]);
+    const rungFace = { ...rawFrom(ds), portraits: basePortraits([faceEntry("a", { rung: 3 })]) };
+    expect(
+      assembleDataset(rungFace).errors.some((e) => e.includes("object portrait"))
+    ).toBe(true);
+    const noMotif = {
+      ...rawFrom(ds),
+      portraits: basePortraits([faceEntry("a", { mode: "object", rung: 3 })])
+    };
+    expect(assembleDataset(noMotif).errors.some((e) => e.includes("motif"))).toBe(true);
+  });
+
+  it("blocks unknown authors and duplicates", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" })]);
+    const raw = {
+      ...rawFrom(ds),
+      portraits: basePortraits([faceEntry("a"), faceEntry("a"), faceEntry("ghost")])
+    };
+    const { errors } = assembleDataset(raw);
+    expect(errors.some((e) => e.includes("unknown author ghost"))).toBe(true);
+    expect(errors.some((e) => e.includes("duplicate entry"))).toBe(true);
+  });
+});

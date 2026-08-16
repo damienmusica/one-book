@@ -212,6 +212,38 @@ export const territorySchema = z
   })
   .strict();
 
+/** data/portraits.json — editorial iconography records (thesis ④-3) */
+export const portraitsSchema = z
+  .object({
+    version: z.string().min(1),
+    model: z.string().min(1),
+    postProcess: z.string().min(1),
+    entries: z.array(
+      z
+        .object({
+          authorId: z.string().regex(AUTHOR_ID),
+          mode: z.enum(["face", "object"]),
+          /** rights ladder rung (thesis ④-2): 1 PD, 2 copyright-photo era, 3 living, 4 no iconography */
+          rung: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]),
+          motif: z.string().min(1).nullable(),
+          motifRationale: z.string().min(20).nullable(),
+          iconographyNote: z.string().min(20),
+          prompt: z.string().min(60),
+          seed: z.number().int(),
+          generatedAt: z.string().regex(ISO_DATE),
+          reviewStatus: z.enum(["draft", "reviewed"])
+        })
+        .strict()
+        .refine((e) => (e.rung >= 3 ? e.mode === "object" : true), {
+          message: "rung 3–4 requires an object portrait (no generated faces)"
+        })
+        .refine((e) => (e.mode === "object" ? e.motif !== null && e.motifRationale !== null : true), {
+          message: "object portraits need a motif and its editorial rationale"
+        })
+    )
+  })
+  .strict();
+
 export const positionsSchema = z
   .object({
     version: z.string().min(1),

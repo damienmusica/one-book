@@ -6,6 +6,7 @@ import {
   sourcesFileSchema,
   movementsFileSchema,
   toursFileSchema,
+  portraitsSchema,
   positionsSchema,
   registrySchema,
   territorySchema,
@@ -46,6 +47,8 @@ export interface RawCollections {
   translationFiles?: Record<string, unknown>;
   /** data/territory.v1.json (frozen terrain), when generated */
   territory?: unknown;
+  /** data/portraits.json (imagined-portrait editorial records), when present */
+  portraits?: unknown;
 }
 
 export interface AssembleResult {
@@ -550,6 +553,34 @@ export function assembleDataset(
     }
   }
 
+  // --- imagined portraits (optional until the pilot) ------------------------
+  let portraits: Dataset["portraits"] = [];
+  if (raw.portraits !== undefined && raw.portraits !== null) {
+    const p = portraitsSchema.safeParse(raw.portraits);
+    if (!p.success) {
+      errors.push(...zodIssues("portraits.json", p.error));
+    } else {
+      const seen = new Set<string>();
+      for (const e of p.data.entries) {
+        const a = authorById.get(e.authorId);
+        if (!a) {
+          errors.push(`portraits.json: unknown author ${e.authorId}`);
+          continue;
+        }
+        if (seen.has(e.authorId))
+          errors.push(`portraits.json: duplicate entry for ${e.authorId}`);
+        seen.add(e.authorId);
+        // the rights ladder's bright line, cross-checked against the corpus:
+        // a living author (no deathYear) must never carry a generated face
+        if (a.deathYear === undefined && e.mode === "face")
+          errors.push(
+            `portraits.json: ${e.authorId} is living — face portraits are prohibited (rung 3)`
+          );
+      }
+      portraits = p.data.entries as Dataset["portraits"];
+    }
+  }
+
   // --- movements usage ------------------------------------------------------
   const usedMovements = new Set(authors.flatMap((a) => a.movements));
   for (const m of movements) {
@@ -576,7 +607,8 @@ export function assembleDataset(
     positions,
     registry,
     translations,
-    territory
+    territory,
+    portraits
   };
   return { dataset: errors.length === 0 ? dataset : null, errors, warnings };
 }

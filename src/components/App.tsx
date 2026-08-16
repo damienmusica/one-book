@@ -11,9 +11,10 @@ import { RelationDialog } from "./RelationDialog.tsx";
 import { WritersPage } from "./WritersPage.tsx";
 import { MethodologyPage } from "./MethodologyPage.tsx";
 
-// 인보 (dev-only, ?seals): the literal false branch lets production builds
-// drop the chunk entirely
+// dev-only review catalogs (?seals, ?portraits): the literal false branch
+// lets production builds drop these chunks entirely
 const SealCatalog = import.meta.env.DEV ? lazy(() => import("./SealCatalog.tsx")) : null;
+const PortraitCatalog = import.meta.env.DEV ? lazy(() => import("./PortraitCatalog.tsx")) : null;
 
 export function App() {
   const state = useAppState();
@@ -51,6 +52,13 @@ export function App() {
     return (
       <Suspense fallback={null}>
         <SealCatalog />
+      </Suspense>
+    );
+  }
+  if (PortraitCatalog && new URLSearchParams(window.location.search).has("portraits")) {
+    return (
+      <Suspense fallback={null}>
+        <PortraitCatalog />
       </Suspense>
     );
   }

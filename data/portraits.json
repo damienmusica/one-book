@@ -1,0 +1,103 @@
+{
+  "version": "0.1.0",
+  "model": "Z-Image-Turbo (Hugging Face Space mcp-tools/Z-Image-Turbo, 8-step turbo)",
+  "postProcess": "sips grayscale (Generic Gray ICC) → 648×864 JPEG q80; duotone token mapping at runtime (thesis §⑤-3: no full-color raster enters the repo)",
+  "entries": [
+    {
+      "authorId": "franz-kafka",
+      "mode": "face",
+      "rung": 1,
+      "motif": null,
+      "motifRationale": null,
+      "iconographyNote": "PD-era photographs exist (d. 1924). General-impression bust: gaunt face, large ears, flat-combed dark hair, 1910s narrow suit. First take drifted to an 1840s Romantic gentleman; era pinned in v2.",
+      "prompt": "Antique copperplate engraving, frontispiece bust portrait of a gaunt young writer around age thirty, Prague 1915: narrow bony face, very large protruding ears, short dark hair combed flat with a sharp side part, piercing dark deep-set eyes, clean-shaven, slight melancholic smile, wearing a modern narrow dark lounge suit with white shirt and plain dark necktie of the 1910s (not Victorian, no cravat, no curls). Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved line work of a book frontispiece, plain vignette background fading to paper. No frame, no text, no signature, not photorealistic.",
+      "seed": 20260817,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "authorId": "natsume-soseki",
+      "mode": "face",
+      "rung": 1,
+      "motif": null,
+      "motifRationale": null,
+      "iconographyNote": "PD-era photographs exist (d. 1916). Meiji Western-suit iconography with mustache. Pilot finding: v1 westernized the face despite 'Japanese novelist' — East Asian features must be stated explicitly (fairness trap recorded for the batch).",
+      "prompt": "Antique copperplate engraving, frontispiece bust portrait of a Japanese novelist in Meiji-era Tokyo, around age forty-five, unmistakably East Asian features: almond eyes, black hair neatly parted, a thick well-groomed mustache, composed scholarly expression, wearing a dark Western three-piece suit with high white wing collar of the 1900s. Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved book-frontispiece line work in the style of Meiji-period woodblock-influenced portrait prints, plain vignette background fading to paper. Dignified, restrained. No frame, no text, no signature, not photorealistic.",
+      "seed": 20260819,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "authorId": "rabindranath-tagore",
+      "mode": "face",
+      "rung": 1,
+      "motif": null,
+      "motifRationale": null,
+      "iconographyNote": "PD-era photographs and paintings exist (d. 1941). Sage iconography: long white beard and hair, scholar's robe.",
+      "prompt": "Antique copperplate engraving, frontispiece bust portrait of an elderly Bengali poet-sage around age seventy: long flowing white beard, long white hair swept back from a high forehead, deep contemplative dark eyes, South Asian features, wearing a simple dark scholar's robe closed at the neck. Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved book-frontispiece line work, plain vignette background fading to paper. Serene, luminous, dignified. No frame, no text, no signature, not photorealistic.",
+      "seed": 20260820,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "authorId": "virginia-woolf",
+      "mode": "face",
+      "rung": 1,
+      "motif": null,
+      "motifRationale": null,
+      "iconographyNote": "PD-era photographs exist (incl. the 1902 Beresford profiles). Profile-with-low-bun general impression; free reference permitted on rung 1, no single-photo composition copied.",
+      "prompt": "Antique copperplate engraving, frontispiece profile portrait of an English woman writer of the 1920s, around age forty: aquiline aristocratic profile, deep-set melancholy eyes, dark hair gathered loosely in a low bun, long elegant neck, wearing a simple soft blouse with a cardigan draped over the shoulders. Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved book-frontispiece line work, plain vignette background fading to paper. Intelligent, austere, luminous. No frame, no text, no signature, not photorealistic.",
+      "seed": 20260821,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "authorId": "jorge-luis-borges",
+      "mode": "face",
+      "rung": 2,
+      "motif": null,
+      "motifRationale": null,
+      "iconographyNote": "Copyright-photo era (d. 1986): general impression only — blind serene gaze, clean-shaven round face, cane; no specific photograph's composition or moment. Pilot finding: the 'elderly man of letters' prior grows a mustache and negations fail; fixed by positive redescription ('smooth upper lip', 'eyes closed') in v3.",
+      "prompt": "Antique copperplate engraving, frontispiece bust portrait: a smooth-shaven eighty-year-old blind librarian from Buenos Aires, his bare smooth round face soft as a monk's, full smooth cheeks and smooth upper lip, thin gray hair combed straight back from a high forehead, both pale eyes closed almost shut in serene blindness, a faint knowing smile, plain dark 1970s suit with narrow tie, hands folded over a cane handle at the bottom edge. Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved book-frontispiece line work, plain vignette background. No frame, no text, not photorealistic.",
+      "seed": 20260824,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "authorId": "toni-morrison",
+      "mode": "face",
+      "rung": 2,
+      "motif": null,
+      "motifRationale": null,
+      "iconographyNote": "Copyright-photo era (d. 2019): general impression only — silver hair, commanding warmth; many independent photo sources, no single iconic dependency. Dark skin rendered with rich tonal hatching, not lightened (dignity check).",
+      "prompt": "Antique copperplate engraving, frontispiece bust portrait of a distinguished African-American woman writer around age sixty-five: deep warm knowing eyes, high cheekbones, silver-gray locs gathered back from her face, a serene commanding presence with the hint of a smile, wearing an elegant dark blouse and a draped shawl. Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved book-frontispiece line work rendering dark skin with rich tonal hatching, plain vignette background fading to paper. Majestic, warm, dignified. No frame, no text, no signature, not photorealistic.",
+      "seed": 20260825,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "authorId": "salman-rushdie",
+      "mode": "object",
+      "rung": 3,
+      "motif": "sealed chutney jar with a pocket watch at midnight, on manuscript pages",
+      "motifRationale": "Midnight's Children: Saleem preserves history in pickle jars — the novel names it the 'chutnification of history' — and the narrator is born at the exact midnight of independence. Jar + midnight watch are the book's own emblem pair.",
+      "iconographyNote": "Living author — face generation prohibited (rung 3 bright line). Still-life frontispiece: the object sits in the portrait's place (thesis ④-3). VAD rejected v1: the watch leaked the stock 10:10 convention — for this motif the midnight hands ARE the content. v2 fused jar and clock; v3 pinned a single timepiece with merged hands at 12.",
+      "prompt": "Antique copperplate engraving, still-life frontispiece: two separate objects on a writing desk with loose manuscript pages. On the left, a clear glass jar filled with dark chutney, sealed with waxed cloth tied by twine. On the right, clearly apart from the jar, one single open pocket watch lying flat, its dial fully visible, hour hand and minute hand merged into one line pointing straight up at the 12 — exactly twelve o'clock, midnight. Only one timepiece in the whole image. Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved book-frontispiece line work, plain vignette background fading to paper. Intimate, mythic, restrained. No frame, no text, no signature, not photorealistic.",
+      "seed": 20260830,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "authorId": "thomas-pynchon",
+      "mode": "object",
+      "rung": 3,
+      "motif": "muted post horn resting on undelivered letters",
+      "motifRationale": "The Crying of Lot 49: the muted post horn is the Trystero/W.A.S.T.E. emblem — the novel's central symbol, and the fitting mark for literature's most famously unseen author.",
+      "iconographyNote": "Living author — face generation prohibited (rung 3 bright line; also the author's own lifelong refusal of portraiture makes the object-portrait the honest form). v2 pinned the wooden mute onto the horn.",
+      "prompt": "Antique copperplate engraving, still-life frontispiece: an old brass post horn shown in strict side profile, coiled once, its bell opening pointing to the right and plugged shut by a large round wooden mute stopper that visibly fills and silences the bell mouth. The silenced horn rests centered like a bust upon a small stack of undelivered letters with dark wax seals. Dense crosshatching and stipple shading, monochrome black ink on aged cream paper, engraved book-frontispiece line work, plain vignette background fading to paper. Conspiratorial, quiet. No frame, no text, no signature, not photorealistic.",
+      "seed": 20260828,
+      "generatedAt": "2026-08-16",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -109,6 +109,7 @@ export function makeDataset(
     })),
     translations: [],
     territory: null,
+    portraits: [],
     ...extra
   };
 }

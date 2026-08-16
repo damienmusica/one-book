@@ -187,6 +187,24 @@ export interface TerritoryGeometry {
   cities: Record<string, TerritoryCities>;
 }
 
+/**
+ * One imagined-portrait record — data/portraits.json (thesis ④). The asset
+ * lives at public/portraits/<authorId>.jpg as a grayscale plate; the app maps
+ * it to duotone tokens at render time.
+ */
+export interface PortraitEntry {
+  authorId: string;
+  mode: "face" | "object";
+  rung: 1 | 2 | 3 | 4;
+  motif: string | null;
+  motifRationale: string | null;
+  iconographyNote: string;
+  prompt: string;
+  seed: number;
+  generatedAt: string;
+  reviewStatus: "draft" | "reviewed";
+}
+
 /** Frozen terrain — data/territory.v1.json (baked by scripts/generate-terrain.ts) */
 export interface Territory {
   version: string;
@@ -282,6 +300,8 @@ export interface Dataset {
   translations: LocalePack[];
   /** frozen terrain bake, null until generated */
   territory: Territory | null;
+  /** imagined-portrait editorial records, empty until the pilot */
+  portraits: PortraitEntry[];
 }
 
 // ---------------------------------------------------------------------------

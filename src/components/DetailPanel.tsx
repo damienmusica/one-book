@@ -11,6 +11,7 @@ import {
   ReviewBadge,
   lifeSpan
 } from "./bits.tsx";
+import { PortraitPlate } from "./PortraitPlate.tsx";
 
 export function DetailPanel() {
   const state = useAppState();
@@ -93,6 +94,8 @@ export function DetailPanel() {
       </div>
 
       <div className="detail-body">
+        <PortraitPlate author={author} />
+
         <h3>{t.whyImportant}</h3>
         <p>{content.authorField(author, "importanceReason")}</p>
 
