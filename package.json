@@ -22,7 +22,7 @@
     "qa:capture": "node qa/capture.mjs",
     "qa:all": "node qa/capture.mjs --all",
     "qa:bundle": "node qa/bundle.mjs",
-    "qa:source-zip": "git archive --format=zip --prefix=literary-planet/ -o literary-planet-source.zip HEAD:. && echo literary-planet-source.zip"
+    "qa:source-zip": "git -C .. archive --format=zip -o literary-planet/literary-planet-source.zip HEAD literary-planet && echo literary-planet-source.zip"
   },
   "dependencies": {
     "react": "^18.3.1",

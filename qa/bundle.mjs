@@ -93,12 +93,17 @@ if (existsSync(beforeDir)) {
   }
 }
 
-// complete source snapshot (tracked files + lockfile) via git archive
+// complete source snapshot (tracked files + lockfile) via git archive —
+// run from the repo root with a path filter; subtree-ish forms (HEAD:./)
+// produce empty archives from a package subdirectory
 const sourceZip = "literary-planet-source.zip";
+const repoRoot = execFileSync("git", ["rev-parse", "--show-toplevel"], { cwd: ROOT })
+  .toString()
+  .trim();
 execFileSync(
   "git",
-  ["archive", "--format=zip", "--prefix=literary-planet/", "-o", sourceZip, "HEAD:."],
-  { cwd: ROOT }
+  ["archive", "--format=zip", "-o", path.join(ROOT, sourceZip), "HEAD", "literary-planet"],
+  { cwd: repoRoot }
 );
 
 await writeFile(
