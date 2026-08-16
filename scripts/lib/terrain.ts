@@ -246,41 +246,47 @@ function interp(a: Pt, b: Pt, fa: number, fb: number, iso: number): Pt {
   return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
 }
 
+function marchCell(
+  f00: number, f10: number, f01: number, f11: number,
+  p00: Pt, p10: Pt, p01: Pt, p11: Pt,
+  iso: number,
+  segs: Array<[Pt, Pt]>
+): void {
+  let idx = 0;
+  if (f00 >= iso) idx |= 1;
+  if (f10 >= iso) idx |= 2;
+  if (f11 >= iso) idx |= 4;
+  if (f01 >= iso) idx |= 8;
+  if (idx === 0 || idx === 15) return;
+  const top = () => interp(p00, p10, f00, f10, iso);
+  const bottom = () => interp(p01, p11, f01, f11, iso);
+  const left = () => interp(p00, p01, f00, f01, iso);
+  const rightE = () => interp(p10, p11, f10, f11, iso);
+  const emit = (a: Pt, b: Pt) => segs.push([a, b]);
+  switch (idx) {
+    case 1: case 14: emit(left(), top()); break;
+    case 2: case 13: emit(top(), rightE()); break;
+    case 3: case 12: emit(left(), rightE()); break;
+    case 4: case 11: emit(rightE(), bottom()); break;
+    case 6: case 9: emit(top(), bottom()); break;
+    case 7: case 8: emit(left(), bottom()); break;
+    case 5: emit(left(), top()); emit(rightE(), bottom()); break;
+    case 10: emit(top(), rightE()); emit(left(), bottom()); break;
+  }
+}
+
 /** iso-contour segments of grid.field at `iso`, in grid coordinates */
 export function marchingSquares(grid: HemisphereGrid, iso: number): Array<[Pt, Pt]> {
   const { n, field } = grid;
   const segs: Array<[Pt, Pt]> = [];
   for (let j = 0; j < n - 1; j++) {
     for (let i = 0; i < n - 1; i++) {
-      const f00 = field[j * n + i]!;
-      const f10 = field[j * n + i + 1]!;
-      const f01 = field[(j + 1) * n + i]!;
-      const f11 = field[(j + 1) * n + i + 1]!;
-      let idx = 0;
-      if (f00 >= iso) idx |= 1;
-      if (f10 >= iso) idx |= 2;
-      if (f11 >= iso) idx |= 4;
-      if (f01 >= iso) idx |= 8;
-      if (idx === 0 || idx === 15) continue;
-      const p00: Pt = [i, j];
-      const p10: Pt = [i + 1, j];
-      const p01: Pt = [i, j + 1];
-      const p11: Pt = [i + 1, j + 1];
-      const top = () => interp(p00, p10, f00, f10, iso);
-      const bottom = () => interp(p01, p11, f01, f11, iso);
-      const left = () => interp(p00, p01, f00, f01, iso);
-      const rightE = () => interp(p10, p11, f10, f11, iso);
-      const emit = (a: Pt, b: Pt) => segs.push([a, b]);
-      switch (idx) {
-        case 1: case 14: emit(left(), top()); break;
-        case 2: case 13: emit(top(), rightE()); break;
-        case 3: case 12: emit(left(), rightE()); break;
-        case 4: case 11: emit(rightE(), bottom()); break;
-        case 6: case 9: emit(top(), bottom()); break;
-        case 7: case 8: emit(left(), bottom()); break;
-        case 5: emit(left(), top()); emit(rightE(), bottom()); break;
-        case 10: emit(top(), rightE()); emit(left(), bottom()); break;
-      }
+      marchCell(
+        field[j * n + i]!, field[j * n + i + 1]!,
+        field[(j + 1) * n + i]!, field[(j + 1) * n + i + 1]!,
+        [i, j], [i + 1, j], [i, j + 1], [i + 1, j + 1],
+        iso, segs
+      );
     }
   }
   return segs;
@@ -353,6 +359,331 @@ export function boundarySegments(grid: HemisphereGrid, iso: number): Array<[Pt, 
     }
   }
   return segs;
+}
+
+// --- equirect bake (P1, thesis §②-6/7) ---------------------------------------
+// View-independent geometry for the renderer: the app draws only what is baked
+// here — it never evaluates noise or kernels ("렌더러는 난수를 모른다").
+
+export interface EquirectGrid {
+  /** sample columns; x wraps (column `width` ≡ column 0) */
+  width: number;
+  /** sample rows, poles inclusive (row 0 = +90°, last row = −90°) */
+  height: number;
+  field: Float32Array;
+  owner: Int16Array;
+}
+
+/**
+ * Sample the field on an equirectangular grid aligned with three.js
+ * SphereGeometry UVs: column i ↦ φ = 2πi/width with world point
+ * p = [−cosφ·cosLat, sinLat, sinφ·cosLat], row j ↦ lat = 90° − 180°·j/(height−1).
+ * A canvas texture painted in these grid coordinates therefore lands each
+ * texel on the exact world point it was sampled at, on an unrotated sphere.
+ */
+export function rasterizeEquirect(
+  kernels: AuthorKernel[],
+  params: TerrainParams,
+  width: number,
+  height: number
+): EquirectGrid {
+  const field = new Float32Array(width * height);
+  const owner = new Int16Array(width * height).fill(-1);
+  for (let j = 0; j < height; j++) {
+    const lat = Math.PI / 2 - (j / (height - 1)) * Math.PI;
+    const cosLat = Math.cos(lat);
+    const sinLat = Math.sin(lat);
+    for (let i = 0; i < width; i++) {
+      const phi = (i / width) * Math.PI * 2;
+      const p: Vec3 = [-Math.cos(phi) * cosLat, sinLat, Math.sin(phi) * cosLat];
+      const s = sampleField(p, kernels, params);
+      field[j * width + i] = s.value;
+      owner[j * width + i] = s.owner as number;
+    }
+  }
+  return { width, height, field, owner };
+}
+
+/**
+ * Seam-aware marching squares on an equirect grid: the cell column between
+ * sample W−1 and sample 0 is marched too, and points landing on x = W are
+ * normalized onto column 0 so stitching closes contours across the wrap.
+ */
+export function marchingSquaresEquirect(grid: EquirectGrid, iso: number): Array<[Pt, Pt]> {
+  const { width: W, height: H, field } = grid;
+  const segs: Array<[Pt, Pt]> = [];
+  for (let j = 0; j < H - 1; j++) {
+    for (let i = 0; i < W; i++) {
+      const i1 = (i + 1) % W;
+      marchCell(
+        field[j * W + i]!, field[j * W + i1]!,
+        field[(j + 1) * W + i]!, field[(j + 1) * W + i1]!,
+        [i, j], [i + 1, j], [i, j + 1], [i + 1, j + 1],
+        iso, segs
+      );
+    }
+  }
+  for (const seg of segs) {
+    for (const p of seg) if (p[0] >= W) p[0] -= W;
+  }
+  return segs;
+}
+
+/** owner borders between adjacent land samples, seam-aware */
+export function boundarySegmentsEquirect(grid: EquirectGrid, iso: number): Array<[Pt, Pt]> {
+  const { width: W, height: H, field, owner } = grid;
+  const segs: Array<[Pt, Pt]> = [];
+  const land = (j: number, i: number) => field[j * W + i]! >= iso;
+  for (let j = 0; j < H; j++) {
+    for (let i = 0; i < W; i++) {
+      const i1 = (i + 1) % W;
+      if (land(j, i) && land(j, i1) && owner[j * W + i] !== owner[j * W + i1]) {
+        segs.push([[i + 0.5, j - 0.5], [i + 0.5, j + 0.5]]);
+      }
+      if (j + 1 < H && land(j, i) && land(j + 1, i) && owner[j * W + i] !== owner[(j + 1) * W + i]) {
+        // i = 0 emits x = −0.5, i.e. the seam edge; wrap it into range
+        segs.push([[i === 0 ? W - 0.5 : i - 0.5, j + 0.5], [i + 0.5, j + 0.5]]);
+      }
+    }
+  }
+  return segs;
+}
+
+/**
+ * Douglas–Peucker with fixed endpoints. Closed loops (first == last) are
+ * anchored at the point farthest from the start so simplification cannot
+ * collapse them. Every dropped point stays within `eps` of the kept chain.
+ */
+export function decimatePolyline(line: Pt[], eps: number): Pt[] {
+  const n = line.length;
+  if (n <= 2) return line.slice();
+  const perpDist = (p: Pt, a: Pt, b: Pt): number => {
+    const dx = b[0] - a[0];
+    const dy = b[1] - a[1];
+    const len2 = dx * dx + dy * dy;
+    if (len2 < 1e-12) return Math.hypot(p[0] - a[0], p[1] - a[1]);
+    const t = Math.max(0, Math.min(1, ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / len2));
+    return Math.hypot(p[0] - (a[0] + t * dx), p[1] - (a[1] + t * dy));
+  };
+  const keep = new Uint8Array(n);
+  keep[0] = keep[n - 1] = 1;
+  const stack: Array<[number, number]> = [];
+  const closed = line[0]![0] === line[n - 1]![0] && line[0]![1] === line[n - 1]![1];
+  if (closed && n > 3) {
+    let m = 1;
+    let best = -1;
+    for (let i = 1; i < n - 1; i++) {
+      const d = Math.hypot(line[i]![0] - line[0]![0], line[i]![1] - line[0]![1]);
+      if (d > best) {
+        best = d;
+        m = i;
+      }
+    }
+    keep[m] = 1;
+    stack.push([0, m], [m, n - 1]);
+  } else {
+    stack.push([0, n - 1]);
+  }
+  while (stack.length > 0) {
+    const [a, b] = stack.pop()!;
+    if (b - a < 2) continue;
+    let idx = -1;
+    let dmax = eps;
+    for (let i = a + 1; i < b; i++) {
+      const d = perpDist(line[i]!, line[a]!, line[b]!);
+      if (d > dmax) {
+        dmax = d;
+        idx = i;
+      }
+    }
+    if (idx >= 0) {
+      keep[idx] = 1;
+      stack.push([a, idx], [idx, b]);
+    }
+  }
+  const out: Pt[] = [];
+  for (let i = 0; i < n; i++) if (keep[i]) out.push(line[i]!);
+  return out;
+}
+
+/**
+ * Per-sample-row owner runs as [count, value, count, value, …]: value 0 = sea,
+ * k > 0 = kernels[k−1]. The south-pole sample row is omitted — run row j
+ * paints the cell band between sample rows j and j+1.
+ */
+export function encodeOwnerRle(grid: EquirectGrid, tau: number): number[][] {
+  const rows: number[][] = [];
+  for (let j = 0; j < grid.height - 1; j++) {
+    const row: number[] = [];
+    let runVal = -1;
+    let runLen = 0;
+    for (let i = 0; i < grid.width; i++) {
+      const idx = j * grid.width + i;
+      const v = grid.field[idx]! >= tau && grid.owner[idx]! >= 0 ? grid.owner[idx]! + 1 : 0;
+      if (v === runVal) {
+        runLen++;
+      } else {
+        if (runLen > 0) row.push(runLen, runVal);
+        runVal = v;
+        runLen = 1;
+      }
+    }
+    if (runLen > 0) row.push(runLen, runVal);
+    rows.push(row);
+  }
+  return rows;
+}
+
+export interface BakeOptions {
+  gridWidth: number;
+  gridHeight: number;
+  waterGridWidth: number;
+  waterGridHeight: number;
+}
+
+export const DEFAULT_BAKE: BakeOptions = {
+  gridWidth: 1024,
+  gridHeight: 513,
+  waterGridWidth: 512,
+  waterGridHeight: 257
+};
+
+export interface BakedGeometry {
+  gridWidth: number;
+  gridHeight: number;
+  /** owner-index palette: RLE value k > 0 refers to authors[k−1] */
+  authors: string[];
+  /** closed coast loops (τ iso), flat [x,y,…] in grid coords, x ∈ [0, gridWidth) */
+  coast: number[][];
+  waterlines: {
+    gridWidth: number;
+    gridHeight: number;
+    /** iso levels as fractions of τ: [inner, outer] */
+    isoFactors: [number, number];
+    inner: number[][];
+    outer: number[][];
+  };
+  /** open territory borders on land, same coordinate convention as coast */
+  boundaries: number[][];
+  ownerRle: number[][];
+}
+
+function unwrapPts(line: Pt[], width: number): Pt[] {
+  const out: Pt[] = [line[0]!.slice() as Pt];
+  for (let k = 1; k < line.length; k++) {
+    const prev = out[k - 1]![0];
+    let x = line[k]![0];
+    while (x - prev > width / 2) x -= width;
+    while (prev - x > width / 2) x += width;
+    out.push([x, line[k]![1]]);
+  }
+  return out;
+}
+
+function toFlatWrapped(line: Pt[], width: number): number[] {
+  const flat: number[] = [];
+  for (const [x, y] of line) {
+    let xr = Math.round(x * 10) / 10;
+    const yr = Math.round(y * 10) / 10;
+    xr = ((xr % width) + width) % width;
+    flat.push(xr, yr);
+  }
+  return flat;
+}
+
+/**
+ * Consumers reconstruct seam wraps from step continuity (nearest
+ * representative), so no stored step may span more than half the width —
+ * long straight runs (polar rings) get midpoints re-inserted.
+ */
+function densifyUnwrapped(line: Pt[], width: number): Pt[] {
+  const maxDx = width / 4;
+  const out: Pt[] = [line[0]!];
+  for (let k = 1; k < line.length; k++) {
+    const a = out[out.length - 1]!;
+    const b = line[k]!;
+    const steps = Math.max(1, Math.ceil(Math.abs(b[0] - a[0]) / maxDx));
+    for (let s = 1; s <= steps; s++) {
+      out.push([a[0] + ((b[0] - a[0]) * s) / steps, a[1] + ((b[1] - a[1]) * s) / steps]);
+    }
+  }
+  return out;
+}
+
+function contourFlat(
+  grid: EquirectGrid,
+  iso: number,
+  eps: number,
+  what: string
+): number[][] {
+  const lines = stitchSegments(marchingSquaresEquirect(grid, iso));
+  const out: number[][] = [];
+  for (const raw of lines) {
+    const line = unwrapPts(raw, grid.width);
+    // near-node crossings orphan micro-segments (classic marching-squares
+    // degeneracy); the real ring routes around them — drop the dust
+    let arc = 0;
+    for (let k = 1; k < line.length; k++) {
+      arc += Math.hypot(line[k]![0] - line[k - 1]![0], line[k]![1] - line[k - 1]![1]);
+    }
+    if (arc < 1) continue;
+    const first = line[0]!;
+    const last = line[line.length - 1]!;
+    // Level sets on the sphere close, but the equirect chart has two shapes of
+    // "closed": an ordinary loop (endpoints coincide) or a polar ring around a
+    // pole (endpoints coincide modulo one horizontal wrap — the affinity layout
+    // does put authors near the poles). Anything else is a bake bug. Tolerance
+    // sits above the stitch key precision (1e-3) to absorb float dust.
+    const dx = Math.abs(last[0] - first[0]);
+    const dy = Math.abs(last[1] - first[1]);
+    const ordinary = dx < 0.02 && dy < 0.02;
+    const polar = Math.abs(dx - grid.width) < 0.02 && dy < 0.02;
+    if (!ordinary && !polar) {
+      throw new Error(
+        `open ${what} contour (${line.length} pts) at [${first[0].toFixed(1)},${first[1].toFixed(1)}]…[${last[0].toFixed(1)},${last[1].toFixed(1)}]`
+      );
+    }
+    const dec = decimatePolyline(line, eps);
+    if (dec.length < 4 && !polar) continue; // sub-texel islet — invisible dust
+    out.push(toFlatWrapped(densifyUnwrapped(dec, grid.width), grid.width));
+  }
+  return out;
+}
+
+/** the whole renderer-facing bake: contours + borders + owner raster */
+export function bakeGeometry(
+  kernels: AuthorKernel[],
+  params: TerrainParams,
+  opts: BakeOptions = DEFAULT_BAKE
+): BakedGeometry {
+  const grid = rasterizeEquirect(kernels, params, opts.gridWidth, opts.gridHeight);
+  const coast = contourFlat(grid, params.tau, 0.35, "coast");
+
+  const boundaries: number[][] = [];
+  for (const raw of stitchSegments(boundarySegmentsEquirect(grid, params.tau))) {
+    const dec = decimatePolyline(unwrapPts(raw, grid.width), 1.3);
+    if (dec.length < 2) continue;
+    boundaries.push(toFlatWrapped(densifyUnwrapped(dec, grid.width), grid.width));
+  }
+
+  const waterGrid = rasterizeEquirect(kernels, params, opts.waterGridWidth, opts.waterGridHeight);
+  const waterlines = {
+    gridWidth: opts.waterGridWidth,
+    gridHeight: opts.waterGridHeight,
+    isoFactors: [0.72, 0.5] as [number, number],
+    inner: contourFlat(waterGrid, params.tau * 0.72, 0.5, "inner waterline"),
+    outer: contourFlat(waterGrid, params.tau * 0.5, 0.5, "outer waterline")
+  };
+
+  return {
+    gridWidth: opts.gridWidth,
+    gridHeight: opts.gridHeight,
+    authors: kernels.map((k) => k.id),
+    coast,
+    waterlines,
+    boundaries,
+    ownerRle: encodeOwnerRle(grid, params.tau)
+  };
 }
 
 // --- area accounting (gate ③: does the hierarchy read?) ----------------------

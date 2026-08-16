@@ -36,6 +36,7 @@ export function loadDataset(): Dataset {
     tours: singleJson(import.meta.glob("../../data/tours.json", { eager: true })),
     positions: singleJson(import.meta.glob("../../data/positions.v1.json", { eager: true })),
     registry: singleJson(import.meta.glob("../../data/registry.json", { eager: true })),
+    territory: singleJson(import.meta.glob("../../data/territory.v1.json", { eager: true })),
     translationFiles: stripTranslationPaths(
       import.meta.glob("../../data/translations/**/*.json", { eager: true }) as Record<
         string,

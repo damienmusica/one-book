@@ -16,6 +16,7 @@ import type { Vec3 } from "../src/lib/sphere.ts";
 import { COLORS, PERIOD_TINT } from "../src/theme.ts";
 import {
   DEFAULT_PARAMS,
+  bakeGeometry,
   boundarySegments,
   buildKernels,
   computeWeights,
@@ -27,6 +28,7 @@ import {
   type AuthorKernel,
   type TerrainParams
 } from "./lib/terrain.ts";
+import { territorySchema } from "../src/schema.ts";
 
 function arg(name: string): string | undefined {
   const idx = process.argv.indexOf(`--${name}`);
@@ -43,7 +45,11 @@ const params: TerrainParams = {
 const N = Number(arg("n") ?? 640);
 const FREEZE = process.argv.includes("--freeze");
 
-const { dataset, errors } = assembleDataset(loadRawCollections(), {});
+// the generator rebuilds the territory file — never validate against (or
+// depend on) its own previous output
+const rawCollections = loadRawCollections();
+rawCollections.territory = undefined;
+const { dataset, errors } = assembleDataset(rawCollections, {});
 if (!dataset) {
   console.error(errors.slice(0, 10).join("\n"));
   process.exit(1);
@@ -198,8 +204,21 @@ writeFileSync(out, svg);
 console.log(`plate: ${out} (${(svg.length / 1024).toFixed(0)} KB)`);
 
 if (FREEZE) {
+  // P1: bake the renderer-facing geometry from the same field. Deterministic —
+  // re-baking the same seed+params is a byte-identical no-op (except the date).
+  const t0 = Date.now();
+  const geometry = bakeGeometry(kernels, params);
+  const nPts = (lines: number[][]) => lines.reduce((s, l) => s + l.length / 2, 0);
+  console.log(
+    `bake: coast ${geometry.coast.length} loops/${nPts(geometry.coast)} pts · ` +
+      `waterlines ${geometry.waterlines.inner.length}+${geometry.waterlines.outer.length} loops/` +
+      `${nPts(geometry.waterlines.inner) + nPts(geometry.waterlines.outer)} pts · ` +
+      `boundaries ${geometry.boundaries.length} lines/${nPts(geometry.boundaries)} pts · ` +
+      `rle ${geometry.ownerRle.length} rows (${((Date.now() - t0) / 1000).toFixed(1)}s)`
+  );
+
   const territory = {
-    version: "1.0.0",
+    version: "1.1.0",
     seed: params.seed,
     generatedAt: new Date().toISOString().slice(0, 10),
     params: {
@@ -213,9 +232,24 @@ if (FREEZE) {
     },
     landFraction: Number(landFraction.toFixed(4)),
     weights: Object.fromEntries([...weights.entries()].sort().map(([k, v]) => [k, Number(v.toFixed(4))])),
-    areaShares: Object.fromEntries([...shares.entries()].sort().map(([k, v]) => [k, Number(v.toFixed(6))]))
+    areaShares: Object.fromEntries([...shares.entries()].sort().map(([k, v]) => [k, Number(v.toFixed(6))])),
+    geometry
   };
+
+  // header stays human-reviewable (indented); the geometry subtree is compact —
+  // pretty-printing 40k coordinates would put each number on its own line
+  const { geometry: geom, ...head } = territory;
+  const out = JSON.stringify(head, null, 2).replace(
+    /\n}\s*$/,
+    `,\n  "geometry": ${JSON.stringify(geom)}\n}`
+  );
+  const parsed = territorySchema.safeParse(JSON.parse(out));
+  if (!parsed.success) {
+    console.error("freeze aborted — payload fails territorySchema:");
+    console.error(parsed.error.issues.slice(0, 5));
+    process.exit(1);
+  }
   const tOut = join(PKG_ROOT, "data", "territory.v1.json");
-  writeFileSync(tOut, JSON.stringify(territory, null, 2) + "\n");
-  console.log(`frozen: ${tOut}`);
+  writeFileSync(tOut, out + "\n");
+  console.log(`frozen: ${tOut} (${(out.length / 1024).toFixed(0)} KB)`);
 }

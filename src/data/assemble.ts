@@ -16,7 +16,15 @@ import {
   tourTranslationsFileSchema
 } from "../schema.ts";
 import { RELATION_DEFS, PERIOD_DEFS } from "../types.ts";
-import type { Author, Dataset, LocalePack, Relation, RelationType, Work } from "../types.ts";
+import type {
+  Author,
+  Dataset,
+  LocalePack,
+  Relation,
+  RelationType,
+  Territory,
+  Work
+} from "../types.ts";
 
 /** locales whose pack, once present, must cover the entire dataset */
 const COMPLETE_LOCALES = new Set(["en"]);
@@ -440,6 +448,7 @@ export function assembleDataset(
   }
 
   // --- frozen terrain (optional until generated) ----------------------------
+  let territory: Territory | null = null;
   if (raw.territory !== undefined && raw.territory !== null) {
     const t = territorySchema.safeParse(raw.territory);
     if (!t.success) {
@@ -456,6 +465,52 @@ export function assembleDataset(
         if (!(a.id in t.data.weights))
           errors.push(`territory.v1.json: author missing from weights: ${a.id}`);
       }
+      // baked geometry must be self-consistent — the renderer trusts it blindly
+      const g = t.data.geometry;
+      const authorIds = new Set(authors.map((a) => a.id));
+      if (
+        g.authors.length !== authorIds.size ||
+        g.authors.some((id) => !authorIds.has(id))
+      ) {
+        errors.push(
+          "territory.v1.json: geometry.authors must list exactly the corpus author ids"
+        );
+      }
+      if (g.ownerRle.length !== g.gridHeight - 1) {
+        errors.push(
+          `territory.v1.json: ownerRle has ${g.ownerRle.length} rows, expected gridHeight-1 = ${g.gridHeight - 1}`
+        );
+      }
+      g.ownerRle.forEach((row, j) => {
+        let sum = 0;
+        for (let k = 0; k + 1 < row.length; k += 2) {
+          sum += row[k]!;
+          const v = row[k + 1]!;
+          if (v > g.authors.length)
+            errors.push(`territory.v1.json: ownerRle row ${j} references owner ${v} out of range`);
+        }
+        if (sum !== g.gridWidth)
+          errors.push(
+            `territory.v1.json: ownerRle row ${j} sums to ${sum}, expected gridWidth = ${g.gridWidth}`
+          );
+      });
+      const checkBounds = (lines: number[][], w: number, h: number, what: string): void => {
+        for (const line of lines) {
+          for (let k = 0; k + 1 < line.length; k += 2) {
+            const x = line[k]!;
+            const y = line[k + 1]!;
+            if (x < 0 || x > w || y < 0 || y > h - 1) {
+              errors.push(`territory.v1.json: ${what} point (${x}, ${y}) outside grid ${w}×${h}`);
+              return;
+            }
+          }
+        }
+      };
+      checkBounds(g.coast, g.gridWidth, g.gridHeight, "coast");
+      checkBounds(g.boundaries, g.gridWidth, g.gridHeight, "boundary");
+      checkBounds(g.waterlines.inner, g.waterlines.gridWidth, g.waterlines.gridHeight, "inner waterline");
+      checkBounds(g.waterlines.outer, g.waterlines.gridWidth, g.waterlines.gridHeight, "outer waterline");
+      territory = t.data as Territory;
     }
   }
 
@@ -484,7 +539,8 @@ export function assembleDataset(
     tours,
     positions,
     registry,
-    translations
+    translations,
+    territory
   };
   return { dataset: errors.length === 0 ? dataset : null, errors, warnings };
 }

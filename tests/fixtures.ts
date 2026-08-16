@@ -108,6 +108,7 @@ export function makeDataset(
       batch: "test"
     })),
     translations: [],
+    territory: null,
     ...extra
   };
 }

@@ -48,9 +48,26 @@ export const PERIOD_TINT: Record<PeriodId, string> = {
   contemporary: "#d9e2ea"
 };
 
+/**
+ * Terrain period wash — the stellar ramp translated into aged-paper inks.
+ * Stars may go blue-white, but a wash must never cool below the plate's
+ * temperature: a cool tint over the warm-dark land cancels the land/sea
+ * warmth separation and the territory reads as a hole in the ocean
+ * (VAD P1 finding A, the late-period polar supercontinent).
+ */
+export const PERIOD_WASH: Record<PeriodId, string> = {
+  roots: "#d8a660",
+  "early-modernism": "#e0bc82",
+  "mid-century": "#e8d2a4",
+  "late-postmodern": "#e4d6b4",
+  contemporary: "#daccb0"
+};
+
 export const GLOBE = {
   radius: 100,
   surfaceRadius: 99,
+  /** baked-terrain shell: above the surface, below the instrument graticule */
+  terrainRadius: 99.15,
   graticuleRadius: 99.4,
   atmosphereScale: 1.045,
   arcSegments: 24

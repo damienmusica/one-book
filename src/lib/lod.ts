@@ -1,9 +1,11 @@
 import type { Tier } from "../types.ts";
 
 // Camera distances are in globe-radius units × 100 (globe R = 100).
-export const CAMERA_MIN = 128;
+// MIN bounds terrain-texture magnification so the etched coast never becomes
+// a rope; DEFAULT starts (and resets to) the true far view — the star chart.
+export const CAMERA_MIN = 150;
 export const CAMERA_MAX = 430;
-export const CAMERA_DEFAULT = 320;
+export const CAMERA_DEFAULT = 360;
 
 export type LodLevel = "far" | "mid" | "near";
 

@@ -144,6 +144,10 @@ export function MethodologyPage() {
           <strong>{m.coord.geoStrong}</strong>
           {m.coord.geoBody}
         </p>
+        <p>
+          <strong>{m.coord.terrainStrong}</strong>
+          {m.coord.terrainBody}
+        </p>
       </section>
 
       <section>

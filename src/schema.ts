@@ -147,6 +147,13 @@ export const tourSchema = z
   })
   .strict();
 
+/** flat [x0,y0,x1,y1,…] polyline in baked grid coordinates */
+const flatLine = z
+  .array(z.number())
+  .refine((a) => a.length % 2 === 0 && a.length >= 4, {
+    message: "flat polyline needs an even count of at least 4 numbers"
+  });
+
 export const territorySchema = z
   .object({
     version: z.string().min(1),
@@ -165,7 +172,28 @@ export const territorySchema = z
       .strict(),
     landFraction: z.number().min(0).max(1),
     weights: z.record(z.string().regex(AUTHOR_ID), z.number().positive()),
-    areaShares: z.record(z.string().regex(AUTHOR_ID), z.number().min(0))
+    areaShares: z.record(z.string().regex(AUTHOR_ID), z.number().min(0)),
+    // renderer-facing bake (scripts/lib/terrain.ts bakeGeometry) — the app
+    // draws only this; it never evaluates the noise field itself
+    geometry: z
+      .object({
+        gridWidth: z.number().int().min(2),
+        gridHeight: z.number().int().min(2),
+        authors: z.array(z.string().regex(AUTHOR_ID)).min(1),
+        coast: z.array(flatLine),
+        waterlines: z
+          .object({
+            gridWidth: z.number().int().min(2),
+            gridHeight: z.number().int().min(2),
+            isoFactors: z.tuple([z.number().positive(), z.number().positive()]),
+            inner: z.array(flatLine),
+            outer: z.array(flatLine)
+          })
+          .strict(),
+        boundaries: z.array(flatLine),
+        ownerRle: z.array(z.array(z.number().int().nonnegative()))
+      })
+      .strict()
   })
   .strict();
 

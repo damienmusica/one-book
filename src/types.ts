@@ -156,6 +156,47 @@ export interface PositionsFile {
   positions: Record<string, [number, number, number]>;
 }
 
+/**
+ * Renderer-facing terrain bake inside data/territory.v1.json. Polylines are
+ * flat [x0,y0,…] arrays in equirect grid coordinates (x wraps at gridWidth);
+ * ownerRle rows are [count, value, …] with 0 = sea, k > 0 = authors[k−1].
+ */
+export interface TerritoryGeometry {
+  gridWidth: number;
+  gridHeight: number;
+  authors: string[];
+  coast: number[][];
+  waterlines: {
+    gridWidth: number;
+    gridHeight: number;
+    isoFactors: [number, number];
+    inner: number[][];
+    outer: number[][];
+  };
+  boundaries: number[][];
+  ownerRle: number[][];
+}
+
+/** Frozen terrain — data/territory.v1.json (baked by scripts/generate-terrain.ts) */
+export interface Territory {
+  version: string;
+  seed: number;
+  generatedAt: string;
+  params: {
+    R0: number;
+    tau: number;
+    warpAmp: number;
+    warpFreq: number;
+    warpOctaves: number;
+    kappa: string;
+    areaWeight: string;
+  };
+  landFraction: number;
+  weights: Record<string, number>;
+  areaShares: Record<string, number>;
+  geometry: TerritoryGeometry;
+}
+
 export interface RegistryEntry {
   id: string;
   ko: string;
@@ -229,6 +270,8 @@ export interface Dataset {
   positions: PositionsFile;
   registry: RegistryEntry[];
   translations: LocalePack[];
+  /** frozen terrain bake, null until generated */
+  territory: Territory | null;
 }
 
 // ---------------------------------------------------------------------------
