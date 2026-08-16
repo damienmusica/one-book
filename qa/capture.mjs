@@ -128,7 +128,31 @@ for (const sceneName of sceneNames) {
     viewport: VIEWPORT,
     deviceScaleFactor: 1,
     locale: "ko-KR",
-    recordVideo: { dir: path.join(outDir, "video-tmp"), size: VIEWPORT }
+    recordVideo: { dir: path.join(outDir, "video-tmp"), size: VIEWPORT },
+    // scenes may pin reducedMotion, deviceScaleFactor, locale …
+    ...(scene.contextOptions ?? {})
+  });
+  // visible cursor + click flash so review videos show the input, not just
+  // its consequences (2026-08-16 review)
+  await context.addInitScript(() => {
+    window.addEventListener("DOMContentLoaded", () => {
+      const dot = document.createElement("div");
+      dot.style.cssText =
+        "position:fixed;z-index:99999;width:15px;height:15px;border:2px solid #ffd27a;" +
+        "border-radius:50%;pointer-events:none;transform:translate(-50%,-50%);" +
+        "box-shadow:0 0 7px rgba(255,210,122,.8);left:-60px;top:-60px";
+      document.body.appendChild(dot);
+      window.addEventListener("pointermove", (e) => {
+        dot.style.left = `${e.clientX}px`;
+        dot.style.top = `${e.clientY}px`;
+      });
+      window.addEventListener("pointerdown", () => {
+        dot.style.background = "rgba(255,210,122,.55)";
+      });
+      window.addEventListener("pointerup", () => {
+        dot.style.background = "transparent";
+      });
+    });
   });
   // QA scenes must not touch the network beyond the local bundle — this also
   // proves the build is fully self-contained (offline requirement).
@@ -195,6 +219,9 @@ for (const sceneName of sceneNames) {
       const m = await this.metrics();
       beats.push({ file, name, at: new Date().toISOString() });
       stateSnapshots.push({ beat: name, metrics: m });
+      // each beat's frame stats cover only its own segment — warm-up hitches
+      // must not haunt every later number
+      await page.evaluate(() => window.__lpQA.resetFrames());
     },
     async drag([x0, y0], [x1, y1]) {
       await page.mouse.move(x0, y0);
@@ -235,6 +262,17 @@ for (const sceneName of sceneNames) {
     try {
       await page.screenshot({ path: path.join(outDir, "frames", "999-error.png") });
     } catch {}
+  }
+
+  // release budget: placed labels must never overlap on screen (suppression
+  // is the greedy pass doing its job; overlap is a real legibility failure —
+  // only must-show labels can produce it, and at most a selected+hovered pair)
+  {
+    const worst = stateSnapshots.reduce(
+      (mx, snap) => Math.max(mx, snap.metrics.renderer?.labelsOverlapping ?? 0),
+      0
+    );
+    ctx.assert("label-overlap-budget", worst <= 2, `worst on-screen overlaps: ${worst} (budget 2)`);
   }
 
   // --- artifacts -------------------------------------------------------------

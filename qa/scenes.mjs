@@ -32,8 +32,11 @@ export const SCENES = {
       ctx.assert("planet-loaded", m0.renderer !== null, "renderer probe registered");
       ctx.assert(
         "default-counts",
-        m0.visible.authors === 100 && m0.visible.relations === 229,
-        `authors ${m0.visible.authors}/100, relations ${m0.visible.relations}/229`
+        m0.visible.authors === 100 &&
+          m0.visible.relations === 229 &&
+          m0.visible.relationsTotal === 263,
+        `visible authors ${m0.visible.authors} (expected 100 of corpus ${m0.visible.authorsTotal}); ` +
+          `visible relations ${m0.visible.relations} (expected 229 — contrast is default-off — of corpus ${m0.visible.relationsTotal})`
       );
       ctx.assert(
         "anchor-labels",
@@ -106,6 +109,22 @@ export const SCENES = {
       await ctx.beat("return-kafka");
       const m = await ctx.metrics();
       ctx.assert("returned-to-kafka", m.state.selectedAuthorId === KAFKA, "");
+
+      // an unhurried interaction take for the review video: rotate, hover the
+      // constellation, ride the zoom — cursor overlay makes the input visible
+      await ctx.drag([1100, 500], [860, 470]);
+      await ctx.settle(1200);
+      await ctx.page.mouse.move(960, 540, { steps: 20 });
+      await ctx.settle(900);
+      await ctx.page.mouse.move(1150, 420, { steps: 25 });
+      await ctx.settle(900);
+      await ctx.page.locator('button[aria-label="확대"]').click();
+      await ctx.waitIdle();
+      await ctx.settle(1200);
+      await ctx.page.locator('button[aria-label="축소"]').click();
+      await ctx.waitIdle();
+      await ctx.settle(1000);
+      await ctx.beat("interaction-take");
     }
   },
 
@@ -142,11 +161,51 @@ export const SCENES = {
       );
       await ctx.beat("towns");
 
-      // 작품 도시는 아직 라벨이지 선택 대상이 아니다 (ux-backlog #4) —
-      // 거짓 장면을 만들지 않고 미구현으로 보고한다
+      // towns are destinations now: open 소송 with a real click, read the
+      // card, confirm the camera never moved, close with Escape
+      const before = await ctx.metrics();
+      await ctx.page.getByRole("button", { name: "작품 카드 열기: 소송" }).click();
+      await ctx.page.locator(".work-card").waitFor({ timeout: 5000 });
+      await ctx.beat("work-card");
+      const cardText = await ctx.page.locator(".work-card").textContent();
+      ctx.assert(
+        "work-card-substantive",
+        Boolean(
+          cardText &&
+            cardText.includes("소송") &&
+            cardText.includes("권장 읽기 순서") &&
+            cardText.length > 120
+        ),
+        `card length ${cardText?.length ?? 0}`
+      );
+      const after = await ctx.metrics();
+      ctx.assert(
+        "camera-preserved-on-card",
+        Math.abs((after.renderer?.cameraDistance ?? 0) - (before.renderer?.cameraDistance ?? 0)) < 2,
+        `${before.renderer?.cameraDistance} → ${after.renderer?.cameraDistance}`
+      );
+      ctx.assert(
+        "work-url-shareable",
+        (await ctx.page.evaluate(() => window.location.hash)).includes("w=franz-kafka--der-process"),
+        "w= in hash"
+      );
+      await ctx.page.keyboard.press("Escape");
+      await ctx.page.locator(".work-card").waitFor({ state: "detached", timeout: 5000 });
+
+      // keyboard path: focus a town label, Enter opens its card
+      await ctx.page.getByRole("button", { name: "작품 카드 열기: 변신" }).focus();
+      await ctx.page.keyboard.press("Enter");
+      await ctx.page.locator(".work-card").waitFor({ timeout: 5000 });
+      await ctx.beat("work-card-keyboard");
+      ctx.assert("work-keyboard-open", true, "Enter on focused town label");
+      await ctx.page.keyboard.press("Escape");
+
+      // ring size = curated reading rank + ◆ harbor = entry are live; the
+      // full city system (thematic districts, translation ports, adaptation
+      // bridges) stays declared roadmap, not staged
       ctx.notImplemented(
-        "work-selection",
-        "towns are labels only; work cards are ux-backlog item 4"
+        "city-districts",
+        "districts/ports/bridges are P2 roadmap (ux-backlog); size+shape+route encodings shipped"
       );
     }
   },
@@ -233,6 +292,141 @@ export const SCENES = {
         const note = await ctx.page.locator(".tour-note").textContent();
         ctx.assert(`stop-${i + 1}-has-note`, Boolean(note && note.trim().length > 0), "");
       }
+    }
+  },
+
+  compare: {
+    title: "두 작가 비교: cmp 딥링크, 정본 방향 경로",
+    async run(ctx) {
+      await ctx.goto("#/?a=marcel-proust&cmp=franz-kafka");
+      await ctx.waitIdle();
+      await ctx.page.locator(".compare-view").waitFor({ timeout: 5000 });
+      await ctx.beat("compare-open");
+      const text = (await ctx.page.locator(".compare-view").textContent()) ?? "";
+      ctx.assert(
+        "compare-deep-link",
+        text.includes("마르셀 프루스트") && text.includes("프란츠 카프카"),
+        "both authors named"
+      );
+      // the Proust ← Flaubert → Kafka canonical-direction pin, live
+      ctx.assert(
+        "path-canonical-directions",
+        text.includes("←") && text.includes("→"),
+        "path renders both canonical directions"
+      );
+      const m = await ctx.metrics();
+      ctx.assert(
+        "compare-state",
+        m.state.selectedAuthorId === "marcel-proust" && m.state.compareAuthorId === KAFKA,
+        `${m.state.selectedAuthorId} vs ${m.state.compareAuthorId}`
+      );
+      await ctx.page.keyboard.press("Escape");
+      await ctx.settle(300);
+      const m2 = await ctx.metrics();
+      ctx.assert("escape-closes-compare", m2.state.compareAuthorId === null, "");
+      await ctx.beat("compare-closed");
+    }
+  },
+
+  "reduced-motion": {
+    title: "reduced-motion: 스파크 제거, 방향 인코딩 유지",
+    contextOptions: { reducedMotion: "reduce" },
+    async run(ctx) {
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      await searchSelect(ctx, "카프카", KAFKA);
+      await ctx.settle(500);
+      await ctx.beat("selected-static");
+      const m = await ctx.metrics();
+      ctx.assert("no-sparks", (m.renderer?.flowSparks ?? -1) === 0, `sparks: ${m.renderer?.flowSparks}`);
+      ctx.assert(
+        "arrows-preserved",
+        (m.renderer?.arrowInstances ?? 0) > 0,
+        `static arrowheads: ${m.renderer?.arrowInstances}`
+      );
+      const flows = (await ctx.events()).filter((e) => e.type === "flows-built");
+      ctx.assert("no-flow-events", flows.length === 0, `flows-built events: ${flows.length}`);
+    }
+  },
+
+  "geo-density": {
+    title: "실제 지리 밀도: 원경 지역 클러스터, 억제율 예산",
+    async run(ctx) {
+      await ctx.goto("#/?m=geo");
+      await ctx.waitIdle();
+      await ctx.settle(400);
+      await ctx.beat("geo-far");
+      const far = await ctx.metrics();
+      const r = far.renderer ?? {};
+      ctx.assert(
+        "region-clusters-at-far",
+        (r.labelsByKind?.region ?? 0) >= 6,
+        `region labels: ${r.labelsByKind?.region ?? 0} (front hemisphere)`
+      );
+      const farRate =
+        (r.labelsSuppressed ?? 0) / Math.max(1, (r.labelsShown ?? 0) + (r.labelsSuppressed ?? 0));
+      ctx.assert(
+        "far-suppression-budget",
+        farRate <= 0.25,
+        `suppressed ${r.labelsSuppressed}/${(r.labelsShown ?? 0) + (r.labelsSuppressed ?? 0)} = ${(farRate * 100).toFixed(1)}% (budget 25%)`
+      );
+
+      // mid zoom: authors return; rate is recorded as the known city-cluster
+      // gap (backlog), not asserted
+      await ctx.page.locator('button[aria-label="확대"]').click();
+      await ctx.waitIdle();
+      await ctx.page.locator('button[aria-label="확대"]').click();
+      await ctx.waitIdle();
+      await ctx.settle(400);
+      await ctx.beat("geo-mid");
+      const mid = (await ctx.metrics()).renderer ?? {};
+      ctx.data.geoMidSuppression = {
+        shown: mid.labelsShown,
+        suppressed: mid.labelsSuppressed,
+        overlapping: mid.labelsOverlapping
+      };
+      ctx.notImplemented(
+        "geo-city-clusters",
+        `mid-zoom dense areas still suppress ${mid.labelsSuppressed} label candidates; city-level clustering is backlogged`
+      );
+    }
+  },
+
+  "en-locale": {
+    title: "EN locale: 헤더·범례·프로필 영어 전환",
+    async run(ctx) {
+      await ctx.goto("#/?l=en&a=franz-kafka");
+      await ctx.waitIdle();
+      await ctx.beat("en-profile");
+      const header = (await ctx.page.locator(".app-header").textContent()) ?? "";
+      ctx.assert(
+        "en-mode-toggle",
+        header.includes("Literary affinity") && header.includes("Real geography"),
+        "mode toggle in English"
+      );
+      const legend = (await ctx.page.locator(".legend-panel").textContent()) ?? "";
+      ctx.assert("en-legend", legend.includes("Coordinates:"), "legend in English");
+      const panel = (await ctx.page.locator(".detail-panel").textContent()) ?? "";
+      ctx.assert("en-profile-name", panel.includes("Franz Kafka"), "profile in English");
+    }
+  },
+
+  dpr2: {
+    title: "DPR 2: 고해상도 렌더·라벨 예산 준수",
+    contextOptions: { deviceScaleFactor: 2 },
+    async run(ctx) {
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      await ctx.beat("dpr2-overview");
+      const m = await ctx.metrics();
+      ctx.assert("dpr-reported", m.viewport?.dpr === 2, `dpr: ${m.viewport?.dpr}`);
+      ctx.assert(
+        "pixel-ratio-capped",
+        (m.renderer?.pixelRatio ?? 0) === 2,
+        `renderer pixelRatio: ${m.renderer?.pixelRatio} (cap 2)`
+      );
+      await searchSelect(ctx, "카프카", KAFKA);
+      await ctx.beat("dpr2-selected");
     }
   },
 

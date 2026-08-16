@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 // Build the review package: everything an external reviewer (human or LLM)
-// needs to evaluate the current visual state without running the app —
-// WebM/PNG captures, metrics, event logs, a summary table, and repro
-// commands. Complements (does not include) the source archive:
-//   npm run qa:source-zip
+// needs to evaluate AND run the current build — WebM/PNG captures, metrics,
+// event logs, a summary table, the runnable static bundle (dist/, works
+// offline: `npx serve dist`), a complete source archive with lockfile
+// (git archive), before/after key frames when a baseline exists, and repro
+// commands.
 import { execFileSync } from "node:child_process";
 import { existsSync } from "node:fs";
-import { readFile, readdir, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -71,7 +72,51 @@ await writeFile(path.join(artifacts, "summary.md"), lines.join("\n"));
 
 const version = meta.final?.app?.version ?? "0.0.0";
 const commit = meta.final?.app?.commit ?? "unknown";
+
+// before/after key frames, when a preserved baseline exists
+const beforeDir = path.join(ROOT, "artifacts-before");
+const pairsDir = path.join(artifacts, "before-after");
+if (existsSync(beforeDir)) {
+  await rm(pairsDir, { recursive: true, force: true });
+  await mkdir(pairsDir, { recursive: true });
+  const KEY_FRAMES = [
+    ["overview", "000-initial.png"],
+    ["kafka", "010-constellation.png"],
+    ["works-cities", "010-towns.png"],
+    ["coordinate-transition", "020-geo.png"]
+  ];
+  for (const [scene, frame] of KEY_FRAMES) {
+    const b = path.join(beforeDir, scene, "frames", frame);
+    const a = path.join(artifacts, scene, "frames", frame);
+    if (existsSync(b)) await copyFile(b, path.join(pairsDir, `${scene}--${frame.replace(".png", "")}--before.png`));
+    if (existsSync(a)) await copyFile(a, path.join(pairsDir, `${scene}--${frame.replace(".png", "")}--after.png`));
+  }
+}
+
+// complete source snapshot (tracked files + lockfile) via git archive
+const sourceZip = "literary-planet-source.zip";
+execFileSync(
+  "git",
+  ["archive", "--format=zip", "--prefix=literary-planet/", "-o", sourceZip, "HEAD:."],
+  { cwd: ROOT }
+);
+
+await writeFile(
+  path.join(ROOT, "REVIEW.md"),
+  [
+    `# Literary Planet review package — v${version} @${commit}`,
+    ``,
+    `- \`artifacts/\` — QA captures: per-scene frames, recording.webm, metrics/events/state/console JSON, sha256 manifest; \`artifacts/summary.md\` is the scoreboard${existsSync(pairsDir) ? "; `artifacts/before-after/` holds key-frame pairs" : ""}.`,
+    `- \`dist/\` — the runnable app itself. No install, no network: \`npx serve dist\` (or any static server). QA runs with every non-localhost request blocked, so offline operation is machine-verified.`,
+    `- \`${sourceZip}\` — complete tracked source + package-lock.json. Reproduce: unzip, \`npm ci && npm run build && npm run qa:all && npm run qa:bundle\`.`,
+    ``,
+    `Renderer modes: \`--renderer auto|hardware|swiftshader\` (auto = hardware first, SwiftShader fallback; the mode used is recorded in each metrics.json — never read SwiftShader numbers as GPU performance).`,
+    ``
+  ].join("\n")
+);
+
 const zipName = `literary-planet-review-${version}-${commit}.zip`;
-execFileSync("zip", ["-qr", zipName, "artifacts"], { cwd: ROOT });
-console.log(`review bundle: ${zipName}`);
+await rm(path.join(ROOT, zipName), { force: true });
+execFileSync("zip", ["-qr", zipName, "artifacts", "dist", sourceZip, "REVIEW.md"], { cwd: ROOT });
+console.log(`review bundle: ${zipName} (artifacts + runnable dist + source zip + REVIEW.md)`);
 console.log(`summary: artifacts/summary.md`);
