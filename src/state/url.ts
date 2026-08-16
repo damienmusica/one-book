@@ -140,7 +140,6 @@ export function parseHash(hash: string, valid: UrlValidIds): Partial<AppState> {
 /** two-way binding between the store and location.hash */
 export function connectUrl(store: Store, valid: UrlValidIds): () => void {
   let applying = false;
-  let lastWritten = "";
 
   const apply = () => {
     applying = true;
@@ -149,9 +148,12 @@ export function connectUrl(store: Store, valid: UrlValidIds): () => void {
   };
   apply();
 
-  const onHashChange = () => {
-    if (window.location.hash !== lastWritten) apply();
-  };
+  // Every hashchange is a real navigation (link click, back/forward, manual
+  // edit) and must be applied: our own writes go through replaceState, which
+  // never fires hashchange. A "did we write this hash?" guard here once
+  // swallowed navigations that happened to match the last store-written URL —
+  // URL and nav switched while the body stayed on the previous page.
+  const onHashChange = () => apply();
   window.addEventListener("hashchange", onHashChange);
 
   let raf = 0;
@@ -161,8 +163,8 @@ export function connectUrl(store: Store, valid: UrlValidIds): () => void {
     raf = requestAnimationFrame(() => {
       const next = serializeState(store.getState());
       if (next === window.location.hash) return;
-      lastWritten = next;
-      // history entries only for author/page jumps keeps back-button useful
+      // replaceState (not pushState): link clicks already create history
+      // entries; store-driven refinements just canonicalize the current one
       window.history.replaceState(null, "", next);
     });
   });
