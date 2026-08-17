@@ -332,16 +332,27 @@ export const SCENES = {
   },
 
   "era-morph": {
-    title: "시대 페이더: 주권 크로스페이드·연합 조약 (해안선 불변)",
+    title: "시대 페이더: 판구조 성장 + 주권 크로스페이드 + 연합 조약",
     async run(ctx) {
-      // 카프카 국가의 생애 4막 — 미형성 유령 해안 → 건국 램프 → 활동 → 유산 파티나
+      // v2.5: tectonic keyframe plates paint lazily — wait for the full set
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.metrics().renderer?.era?.platesReady === true,
+        undefined,
+        { timeout: 25000 }
+      );
+      ctx.assert("tectonic-plates-ready", true, "8 keyframe plates painted");
+
+      // 카프카 국가의 생애 4막 — 미형성 유령 섬 → 건국 램프 → 활동 → 유산
+      // 파티나 — 이제 지형 자체가 브래킷을 따라 자란다
       const stages = [
-        [1880, "unformed", (l) => Math.abs(l.presence - 0.15) < 0.02 && l.patina === 0],
-        [1908, "founding", (l) => l.presence > 0.4 && l.presence < 0.75],
-        [1915, "active", (l) => l.presence === 1 && l.patina === 0],
-        [1960, "heritage", (l) => l.presence === 1 && l.patina > 0.8]
+        [1880, "unformed", (l) => Math.abs(l.presence - 0.15) < 0.02 && l.patina === 0, [1880, 1900], 0],
+        [1908, "founding", (l) => l.presence > 0.4 && l.presence < 0.75, [1900, 1920], 0.4],
+        [1915, "active", (l) => l.presence === 1 && l.patina === 0, [1900, 1920], 0.75],
+        [1960, "heritage", (l) => l.presence === 1 && l.patina > 0.8, [1960, 1980], 0]
       ];
-      for (const [y, name, ok] of stages) {
+      for (const [y, name, ok, bracket, mix] of stages) {
         await ctx.goto(`#/?a=franz-kafka&pv=0&y=${y}`);
         await ctx.waitIdle();
         await ctx.settle(350);
@@ -353,6 +364,17 @@ export const SCENES = {
           Boolean(life?.on && life.selected && ok(life.selected)),
           `presence ${life?.selected?.presence}, patina ${life?.selected?.patina}`
         );
+        const era = m.renderer?.era;
+        ctx.assert(
+          `tectonic-bracket-${y}`,
+          Boolean(
+            era?.active &&
+              era.bracket?.[0] === bracket[0] &&
+              era.bracket?.[1] === bracket[1] &&
+              Math.abs(era.mix - mix) < 0.02
+          ),
+          `bracket ${JSON.stringify(era?.bracket)}, mix ${era?.mix} (expected ${JSON.stringify(bracket)} @ ${mix})`
+        );
       }
 
       // 전체 시기(누적)에서는 셰이더가 완전 우회 — v1 도판 보존 계약
@@ -362,17 +384,50 @@ export const SCENES = {
       const full = await ctx.metrics();
       ctx.assert(
         "default-look-preserved",
-        full.renderer?.lifecycle?.on === false,
-        "lifecycle bypassed at 전체 시기 cumulative"
+        full.renderer?.lifecycle?.on === false && full.renderer?.era?.active === false,
+        "lifecycle + tectonic bracket both bypassed at 전체 시기 cumulative"
       );
 
-      // 1925 중경: 연합 조약 오버레이가 뜨고, 라벨이 조약기를 새긴다
+      // clause 4 실증: 카프카 도시들은 출간년에 창건된다 — 1913 선고 하나,
+      // 1919 셋(선고·변신·유형지), 전체 시기 다섯. 해시 인페이지 변경으로
+      // 카메라를 유지한 채 시간을 이동한다.
+      await ctx.goto("#/?a=franz-kafka&pv=0&y=1913");
+      await ctx.waitIdle();
+      for (let i = 0; i < 8; i++) {
+        if ((await ctx.metrics()).renderer?.lod === "near") break;
+        await ctx.page.locator('button[aria-label="확대"]').click();
+        await ctx.waitIdle();
+      }
+      await ctx.settle(400);
+      const founded = async () => (await ctx.metrics()).renderer?.cityMarkers?.count ?? -1;
+      ctx.assert("founding-1913", (await founded()) === 1, `towns at 1913: ${await founded()}`);
+      await ctx.beat("founding-1913");
+      await ctx.page.evaluate(() => {
+        window.location.hash = "#/?a=franz-kafka&pv=0&y=1919";
+        window.dispatchEvent(new HashChangeEvent("hashchange"));
+      });
+      await ctx.settle(600);
+      ctx.assert("founding-1919", (await founded()) === 3, `towns at 1919: ${await founded()}`);
+      await ctx.beat("founding-1919");
+      await ctx.page.evaluate(() => {
+        window.location.hash = "#/?a=franz-kafka&pv=0";
+        window.dispatchEvent(new HashChangeEvent("hashchange"));
+      });
+      await ctx.settle(600);
+      ctx.assert("founding-atlas", (await founded()) === 5, `towns at atlas: ${await founded()}`);
+      await ctx.beat("founding-atlas");
+
+      // 1925 중경: 연합 조약 오버레이가 뜨고, 라벨이 조약기를 새긴다.
+      // goto는 해시-온리 내비라 카메라가 이월된다 — 어느 쪽에서 오든 mid로
+      // 수렴하도록 양방향으로 조준한다.
       await ctx.goto("#/?y=1925");
       await ctx.waitIdle();
-      for (let i = 0; i < 6; i++) {
+      for (let i = 0; i < 8; i++) {
         const lod = (await ctx.metrics()).renderer?.lod;
         if (lod === "mid") break;
-        await ctx.page.locator('button[aria-label="확대"]').click();
+        await ctx.page
+          .locator(`button[aria-label="${lod === "near" ? "축소" : "확대"}"]`)
+          .click();
         await ctx.waitIdle();
       }
       await ctx.settle(1400); // union uniform eases in over ~40 frames
