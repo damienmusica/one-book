@@ -52,7 +52,9 @@
   /* R10 paper-planet: letterpress label slips + album mounts */
   --slip-bg: rgba(233, 223, 196, 0.92);
   --slip-ink: #2b2015;
+  --slip-ink-strong: #140e08;
   --slip-line: rgba(43, 32, 21, 0.4);
+  --vermilion: #c0392e; /* 감상인 — the selection channel's only user */
   --mount-shadow: rgba(0, 0, 0, 0.5);
   --debug-bg: rgba(10, 15, 18, 0.92);
   --debug-dim: #7d8a86;
@@ -668,6 +670,45 @@ a:hover {
   opacity: 0.62;
 }
 
+/* Slip-genre state colors (blind A/B round 1 finding): the pre-R10 state
+   classes painted light-on-dark text tones, which on paper chips rendered
+   as EMPTY slips — neighbors were literally blank beside their seals. On a
+   slip, state modulates ink weight and chip presence, never ink-to-light.
+   Same class pairs, declared later, so the cascade lands on ink. */
+.globe-label--author.is-normal,
+.globe-label--relation {
+  color: var(--slip-ink);
+}
+
+.globe-label--author.is-dim {
+  color: var(--slip-ink);
+}
+
+.globe-label--author.is-neighbor {
+  color: var(--slip-ink);
+  font-weight: 600;
+}
+
+.globe-label--author.is-hovered {
+  color: var(--slip-ink-strong);
+  font-weight: 600;
+  border-color: var(--slip-ink);
+}
+
+.globe-label--author.is-selected,
+.globe-label--work.is-selected {
+  color: var(--slip-ink);
+  font-weight: 700;
+  text-shadow: none;
+  border-bottom: 2px solid var(--vermilion);
+}
+
+.globe-label--work.is-interactive:hover,
+.globe-label--work.is-interactive:focus-visible {
+  color: var(--slip-ink-strong);
+  text-shadow: none;
+}
+
 /* R10 archival portrait mount: the photograph is pasted into the album */
 .portrait-plate--archival .portrait-mount {
   position: relative;
@@ -825,7 +866,9 @@ a:hover {
   font-style: italic;
   font-size: 13px; /* was 11.5 — floor */
   letter-spacing: 0.04em;
-  color: var(--text-dim);
+  /* slip ink, declared HERE: this base rule sits after the R10 slip block,
+     so an ink override there silently loses the cascade (A/B round 1 bis) */
+  color: var(--slip-ink);
   opacity: 0.9;
 }
 
