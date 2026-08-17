@@ -86,6 +86,42 @@ export function GlobeView() {
     };
   }, [services]);
 
+  // safe-area framing (7th review PR1): measure how much viewport the open
+  // panels cover and hand the insets to the camera — the selection must land
+  // in the uncovered map, not under the panel. rAF lets the panel mount first.
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      const handle = services.globeRef.current;
+      if (!handle) return;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      let right = 0;
+      let bottom = 0;
+      for (const el of document.querySelectorAll<HTMLElement>(
+        ".detail-panel, .relation-dialog"
+      )) {
+        const r = el.getBoundingClientRect();
+        if (r.width <= 0 || r.height <= 0) continue;
+        if (r.width >= vw * 0.9) bottom = Math.max(bottom, vh - r.top);
+        else if (r.right >= vw - 40) right = Math.max(right, vw - r.left);
+      }
+      // never shift more than half the viewport — a tiny window with a huge
+      // panel should clamp, not fold the map away
+      handle.setSafeInsets({
+        right: Math.min(right, vw * 0.5),
+        bottom: Math.min(bottom, vh * 0.4)
+      });
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [
+    services,
+    state.selectedAuthorId,
+    state.selectedWorkId,
+    state.pickedRelationId,
+    state.panelOpen,
+    state.compareAuthorId
+  ]);
+
   // popover lifecycle: focus in on open; Escape/close/select returns focus
   // to the "+N" chip that opened it (PR5 a11y — the 6th review found focus
   // stranded after Escape)

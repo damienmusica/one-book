@@ -793,6 +793,197 @@ export const SCENES = {
     }
   },
 
+  "camera-interrupt": {
+    title: "카메라 주권: 자동 focus를 드래그·휠이 즉시 끊고, Escape가 북마크로 복귀",
+    async run(ctx) {
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      const home = (await ctx.metrics()).renderer;
+
+      // selection starts a 450–650ms focus flight — the real user path
+      const input = ctx.page.locator(".searchbox input");
+      await input.fill("카프카");
+      await ctx.page.locator(".search-results li").first().waitFor({ timeout: 5000 });
+      await input.press("Enter");
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.metrics().renderer?.cameraAnimating === true,
+        undefined,
+        { timeout: 2000 }
+      );
+      await ctx.settle(220);
+      // interrupt mid-flight with a drag; the capture-phase cancel runs inside
+      // the same pointerdown dispatch — measure wall time to the probe flip
+      const dirBefore = (await ctx.metrics()).renderer.cameraDir;
+      const t0 = Date.now();
+      await ctx.page.mouse.move(960, 540);
+      await ctx.page.mouse.down();
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.metrics().renderer?.cameraAnimating === false,
+        undefined,
+        { timeout: 1000 }
+      );
+      const cancelWallMs = Date.now() - t0;
+      for (let i = 1; i <= 14; i++) {
+        await ctx.page.mouse.move(960 - i * 14, 540 - i * 4);
+      }
+      await ctx.page.mouse.up();
+      const events = await ctx.events();
+      const cancelled = events.filter((e) => e.type === "camera-cancelled");
+      ctx.assert(
+        "camera-cancel-on-pointer",
+        cancelled.some((e) => e.trigger === "pointer"),
+        `camera-cancelled events: ${cancelled.map((e) => e.trigger).join(",") || "none"} ` +
+          `(probe flipped ${cancelWallMs}ms after mouse.down incl. driver IPC; ` +
+          `the cancel itself runs inside the pointerdown dispatch)`
+      );
+      ctx.assert("camera-cancel-fast", cancelWallMs < 150, `${cancelWallMs}ms wall`);
+      // the gesture must have taken effect from the adopted pose
+      const dirAfter = (await ctx.metrics()).renderer.cameraDir;
+      const dot = dirBefore[0] * dirAfter[0] + dirBefore[1] * dirAfter[1] + dirBefore[2] * dirAfter[2];
+      ctx.assert("drag-took-over", dot < 0.9995, `camera moved by drag (dot ${dot.toFixed(5)})`);
+      // no post-gesture snap: the damping tail must decay smoothly
+      const maxStep = await ctx.page.evaluate(
+        () =>
+          new Promise((resolve) => {
+            let prev = null;
+            let worst = 0;
+            let n = 0;
+            const tick = () => {
+              const r = window.__lpQA.metrics().renderer;
+              const cur = r.cameraDir;
+              if (prev) {
+                const dot2 = Math.min(1, prev[0] * cur[0] + prev[1] * cur[1] + prev[2] * cur[2]);
+                worst = Math.max(worst, Math.acos(dot2));
+              }
+              prev = cur;
+              if (++n < 24) requestAnimationFrame(tick);
+              else resolve(worst);
+            };
+            requestAnimationFrame(tick);
+          })
+      );
+      ctx.assert(
+        "no-post-cancel-snap",
+        maxStep < 0.1,
+        `worst per-frame angular step after gesture: ${maxStep.toFixed(4)} rad`
+      );
+      await ctx.beat("cancelled-mid-focus");
+
+      // wheel also cancels — hop to Borges (author→author keeps the original
+      // planet bookmark), then start another flight back to Kafka
+      await searchSelect(ctx, "보르헤스", BORGES);
+      await ctx.page.locator(".searchbox input").fill("카프카");
+      await ctx.page.locator(".search-results li").first().waitFor({ timeout: 5000 });
+      await ctx.page.locator(".searchbox input").press("Enter");
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.metrics().renderer?.cameraAnimating === true,
+        undefined,
+        { timeout: 2000 }
+      );
+      await ctx.settle(180);
+      await ctx.wheel(960, 540, -80);
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.metrics().renderer?.cameraAnimating === false,
+        undefined,
+        { timeout: 1000 }
+      );
+      const cancelled2 = (await ctx.events()).filter((e) => e.type === "camera-cancelled");
+      ctx.assert(
+        "camera-cancel-on-wheel",
+        cancelled2.some((e) => e.trigger === "wheel"),
+        `triggers so far: ${cancelled2.map((e) => e.trigger).join(",")}`
+      );
+      await ctx.waitIdle();
+
+      // Escape walks the ladder back out (panel → selection) and the final
+      // deselect restores the pre-selection bookmark
+      for (let i = 0; i < 4; i++) {
+        if ((await ctx.page.evaluate(() => window.__lpQA.state().selectedAuthorId)) === null) break;
+        await ctx.page.keyboard.press("Escape");
+        await ctx.settle(150);
+      }
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.state().selectedAuthorId === null,
+        undefined,
+        { timeout: 3000 }
+      );
+      await ctx.waitIdle();
+      const back = (await ctx.metrics()).renderer;
+      const dotHome =
+        home.cameraDir[0] * back.cameraDir[0] +
+        home.cameraDir[1] * back.cameraDir[1] +
+        home.cameraDir[2] * back.cameraDir[2];
+      ctx.assert(
+        "escape-restores-bookmark",
+        dotHome > 0.995 && Math.abs(back.cameraDistance - home.cameraDistance) < 8,
+        `deselect flew home: dot ${dotHome.toFixed(4)}, dist ${back.cameraDistance} (home ${home.cameraDistance})`
+      );
+      await ctx.beat("escape-restored");
+    }
+  },
+
+  "lod-hysteresis": {
+    title: "LOD 히스테리시스: 경계 진동이 세계를 재구축하지 않는다",
+    async run(ctx) {
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+
+      // park just inside the far/mid deadband with real wheel input
+      for (let i = 0; i < 60; i++) {
+        const d = (await ctx.metrics()).renderer.cameraDistance;
+        if (d <= 314) break;
+        await ctx.wheel(960, 540, -55);
+        await ctx.settle(40);
+      }
+      await ctx.settle(700);
+      const before = await ctx.metrics();
+      const t0 = before.renderer.interaction.lodTransitions;
+      for (let i = 0; i < 30; i++) {
+        await ctx.wheel(960, 540, i % 2 === 0 ? -42 : 42);
+        await ctx.settle(40);
+      }
+      await ctx.settle(700);
+      const mid = await ctx.metrics();
+      const delta310 = mid.renderer.interaction.lodTransitions - t0;
+      ctx.assert(
+        "lod-no-thrash-310",
+        delta310 <= 1,
+        `30× wheel oscillation at ~${mid.renderer.cameraDistance} (deadband 300–320): ${delta310} transitions`
+      );
+      await ctx.beat("oscillated-310");
+
+      // descend into the mid/near deadband and oscillate again
+      for (let i = 0; i < 80; i++) {
+        const d = (await ctx.metrics()).renderer.cameraDistance;
+        if (d <= 211) break;
+        await ctx.wheel(960, 540, -55);
+        await ctx.settle(40);
+      }
+      await ctx.settle(700);
+      const b2 = (await ctx.metrics()).renderer.interaction.lodTransitions;
+      for (let i = 0; i < 30; i++) {
+        await ctx.wheel(960, 540, i % 2 === 0 ? -42 : 42);
+        await ctx.settle(40);
+      }
+      await ctx.settle(700);
+      const end = await ctx.metrics();
+      const delta205 = end.renderer.interaction.lodTransitions - b2;
+      ctx.assert(
+        "lod-no-thrash-205",
+        delta205 <= 1,
+        `30× wheel oscillation at ~${end.renderer.cameraDistance} (deadband 195–215): ${delta205} transitions`
+      );
+      // deliberate travel still changes tiers: the whole descent from far
+      // must have produced real transitions (far→mid→…)
+      ctx.assert(
+        "lod-deliberate-still-works",
+        end.renderer.interaction.lodTransitions >= 1 && end.renderer.lod !== "far",
+        `total transitions ${end.renderer.interaction.lodTransitions}, tier now ${end.renderer.lod}`
+      );
+      await ctx.beat("oscillated-205");
+    }
+  },
+
   "memory-soak": {
     title: "메모리 soak: 연도 스크럽 20회 + 선택 20회 후 기준선 복귀",
     async run(ctx) {

@@ -214,7 +214,7 @@ for (const sceneName of sceneNames) {
           if (!m) return false;
           const r = m.renderer;
           if (!r) return true; // 2D fallback / non-globe pages have no renderer
-          return !r.cameraAnimating && !r.modeTransition;
+          return !r.cameraAnimating && !r.modeTransition && !r.safeAreaSettling;
         },
         undefined,
         { timeout }
@@ -246,6 +246,10 @@ for (const sceneName of sceneNames) {
         await page.mouse.move(x0 + ((x1 - x0) * i) / steps, y0 + ((y1 - y0) * i) / steps);
       }
       await page.mouse.up();
+    },
+    async wheel(x, y, deltaY) {
+      await page.mouse.move(x, y);
+      await page.mouse.wheel(0, deltaY);
     },
     assert(name, ok, detail) {
       assertions.push({ name, ok: Boolean(ok), detail });

@@ -385,6 +385,23 @@ a:hover {
   pointer-events: none;
 }
 
+/* LOD switch crossfade (7th review PR1): the tier rebuild replaces the label
+   set in one frame — restart a short fade-in so the swap reads as a dissolve,
+   not a pop. Reduced motion renders instantly. */
+.globe-labels.lod-fade .globe-label {
+  animation: lod-label-fade 200ms ease-out;
+}
+@keyframes lod-label-fade {
+  from {
+    opacity: 0.15;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .globe-labels.lod-fade .globe-label {
+    animation: none;
+  }
+}
+
 .globe-label {
   position: absolute;
   left: 0;

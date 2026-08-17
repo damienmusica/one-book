@@ -7,7 +7,9 @@ import { AuthorLink } from "./bits.tsx";
  * The card a work town opens (2026-08-16 review P0-4: towns are
  * destinations, not decoration). Original title, year, genre, curated
  * reading position, editorial significance, and sources — the same evidence
- * discipline as relation cards. Opening it never moves the camera.
+ * discipline as relation cards. Opening it never yanks the camera; the
+ * safe-area framing (7th review PR1) may shift the projection so the town
+ * stays visible beside the card, and that shift is always cancellable.
  */
 export function WorkCard() {
   const state = useAppState();
