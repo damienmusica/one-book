@@ -60,11 +60,19 @@ evidence levels, direction, uncertainty — is never weakened by styling.)
 | signature_traced.svg | rabindranath-tagore | Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_Signature.svg | PD-India | 221x59 (SVG, vector -- nominal viewbox size) |
 | gitanjali_title_page_1913.jpg | rabindranath-tagore | Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Gitanjali_title_page_Rabindranath_Tagore.jpg | PD-India, PD-US (dual license per file page) | 1897x3226 |
 | gitanjali_manuscript_page20.jpg | rabindranath-tagore | Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Original_manuscript_of_Gitanjali_-_Rabindranath_Tagore_-_Rothenstein_collection.pdf | Public Domain Mark 1.0 (CC0-equivalent per file page) | 960x1474 |
+| kafka-der-prozess-1925-firstedition-cover.jpg | franz-kafka | Antiquariat Dr. Haack Leipzig → private collection (photographed by H.-P. Haack) | https://commons.wikimedia.org/wiki/File:Kafka_Der_Prozess_1925.jpg | CC-PD-Mark / PD-old-70-expired (file page license template = pd) | 1132x1577 |
+| kafka-das-schloss-1926-firstedition-cover.jpg | franz-kafka | Antiquariat Dr. Haack Leipzig → private collection, Switzerland (photographed by H.-P. Haack) | https://commons.wikimedia.org/wiki/File:Kafka_Das_Schloss_1926.jpg | PD-text (plain typographic cover below threshold of originality; UsageTerms=Public domain, AttributionRequired=false per API extmetadata) | 1166x1580 |
+| kafka-in-der-strafkolonie-1919-firstedition-titlepage.jpg | franz-kafka | Antiquariat Dr. Haack Leipzig (photographed by H.-P. Haack) | https://commons.wikimedia.org/wiki/File:Kafka_Strafkolonie_(1919).jpg | CC-BY-3.0 (attribution H.-P. Haack — REQUIRED in-app if shipped) | 1055x1532 |
+| 06_cover_sorekara_1910_shunyodo.jpg | natsume-soseki | National Diet Library Digital Collections (dl.ndl.go.jp/pid/887086), mirrored to Wikimedia Commons | https://commons.wikimedia.org/wiki/File:NDL887086_%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89_part1.pdf | PD-Japan / PD-scan | 6224x9360 |
+| 07_cover_sanshiro_1909_shunyodo.jpg | natsume-soseki | National Diet Library Digital Collections (dl.ndl.go.jp/pid/886555), mirrored to Wikimedia Commons | https://commons.wikimedia.org/wiki/File:NDL886555_%E4%B8%89%E5%9B%9B%E9%83%8E_part1.pdf | PD-Japan / PD-scan | 5679x8857 |
+| 08_cover_uzurakago-botchan_1907_shunyodo.jpg | natsume-soseki | National Diet Library Digital Collections (dl.ndl.go.jp/pid/885509), mirrored to Wikimedia Commons | https://commons.wikimedia.org/wiki/File:NDL885509_%E9%B6%89%E7%B1%A0_part1.pdf | PD-Japan / PD-scan | 5394x9047 |
+| gitanjali_bengali_titlepage_1913_3rdedition.jpg | rabindranath-tagore | Digital Library of India scan, mirrored to Wikimedia Commons (Bengali Gitanjali, 1913 3rd edition — NOT the 1910 1st; recorded below) | https://commons.wikimedia.org/wiki/File:%E0%A6%97%E0%A7%80%E0%A6%A4%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%B2%E0%A6%BF_-_%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0.djvu | PD-old-80-expired, CC-PD-Mark | 1920x2938 (Commons thumb renderer caps the 2700x4132 djvu page at 1920px) |
+| home_and_the_world_cover_macmillan.jpg | rabindranath-tagore | Internet Archive (archive.org/details/hometheworld00tagouoft), mirrored to Wikimedia Commons | https://commons.wikimedia.org/wiki/File:The_Home_and_the_World_-_cover_page.jpg | PD-US | 535x881 |
 
 Deviations recorded by the collectors (honest gaps, not silently filled):
 - Kafka: Starke-illustrated 1915 jacket exists only on Pinterest/dealer sites → excluded by rule; the plain first-edition binding (CC-BY-3.0, attribution H.-P. Haack required if shipped) stands in. An NLI press photo carried a false CC-PD-Mark (AFP credit) → rejected.
 - Soseki: no Kokoro manuscript on Commons (I-am-a-Cat MS page used); the 1905 Japanese first edition is absent (1906 English Goyō-design cover used); banknote-source claim for the 1912 portrait is unverified.
-- Tagore: no Latin signature exists on Commons (Bengali only — a finding, not a gap); the Gitanjali manuscript is the English Rothenstein autograph (with corrections), not Bengali.
+- Tagore: no Latin signature exists on Commons (Bengali only — a finding, not a gap); the Gitanjali manuscript is the English Rothenstein autograph (with corrections), not Bengali; the Bengali Gitanjali title page is the 1913 3rd edition — no 1910 1st-edition scan exists on Commons/DLI.
 
 ## Chosen direction (2026-08-18, three independent verdicts converged)
 
@@ -90,6 +98,25 @@ letter centers — 5 confirmed label-destroying overlaps), fallback boards
 must visibly carry their hatching (never read as broken images), line/label
 avoidance, and coverage: collect more slice-work covers so Kafka's realm is
 not 4/5 fallback.
+
+### Implementation scope (what shipped in R10-3, what deliberately did not)
+
+Shipped: cloth sea, paper land + laid-line texture, deckle coasts, stitch
+borders, manuscript facsimile grounds (3 slice authors, worker-clipped to
+nation runs), real signature/brush marks (compact when unengaged — the full
+spread is a selection/near reading), 감상인 selection frame + life dial
+(ticks/brass arc/needle = real years), standing first-edition cover boards
+(11 works) with hatched fallback boards, letterpress label slips, photo-corner
+archival portraits (labeled 기록 사진).
+
+NOT shipped, recorded honestly — **relation-line re-encoding** (mockup: ink
+route conventions, width = evidence count, pecked = disputed). This is a
+semantic re-encoding, not a re-skin: it changes what the legend promises and
+what the contract tests pin (`relation type → color+dash` is the proven,
+tested channel). Doing it inside R10-3 would have re-opened the R5-A semantic
+contract mid-art-pass. Left as the first candidate for a follow-up pass with
+its own legend/methodology/test change, per the taxonomy-change rule
+(taxonomy doc + schema + validation in the same change).
 
 ## Discarded directions
 
