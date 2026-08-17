@@ -9,7 +9,6 @@ import { TimelineBar } from "./TimelineBar.tsx";
 import { TourOverlay } from "./TourOverlay.tsx";
 import { CompareView } from "./CompareView.tsx";
 import { RelationDialog } from "./RelationDialog.tsx";
-import { WorkCard } from "./WorkCard.tsx";
 import { WritersPage } from "./WritersPage.tsx";
 import { MethodologyPage } from "./MethodologyPage.tsx";
 import { MiniCard } from "./MiniCard.tsx";
@@ -103,7 +102,8 @@ export function App() {
           )}
           {state.compareAuthorId && state.selectedAuthorId && <CompareView />}
           {state.pickedRelationId && <RelationDialog />}
-          {state.selectedWorkId && <WorkCard />}
+          {/* works open INSIDE the DetailPanel inspector (8th review) —
+              author and work never compete as two surfaces */}
         </main>
       )}
       {state.page === "writers" && <WritersPage />}

@@ -9,12 +9,13 @@ import { lifeSpan } from "./bits.tsx";
 
 export function MiniCard() {
   const state = useAppState();
-  const { store, dataset, adjacency, worksByAuthor } = useServices();
+  const { store, dataset, adjacency, worksByAuthor, globeRef } = useServices();
   const t = useT();
   const content = useContent();
   const author =
     dataset.authors.find((a) => a.id === state.selectedAuthorId) ?? null;
-  if (!author || state.panelOpen) return null;
+  // the unified inspector owns the surface once a work is open (8th review)
+  if (!author || state.panelOpen || state.selectedWorkId) return null;
   const relations = neighborsOf(adjacency, author.id).length;
   const works = worksByAuthor.get(author.id)?.length ?? 0;
   return (
@@ -37,6 +38,16 @@ export function MiniCard() {
         onClick={() => store.set({ panelOpen: true, filtersOpen: false })}
       >
         {t.openProfile} →
+      </button>
+      {/* the disclosed door into the realm — towns, roads, relief live at
+          reading depth (8th review: no more unexplained manual zooming) */}
+      <button
+        type="button"
+        className="mini-card__enter"
+        title={t.enterTerritoryTitle}
+        onClick={() => globeRef.current?.enterTerritory(author.id)}
+      >
+        {t.enterTerritory} ↓
       </button>
     </aside>
   );

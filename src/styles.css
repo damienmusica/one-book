@@ -642,6 +642,68 @@ a:hover {
   color: var(--brass-bright);
 }
 
+/* unified inspector: work depth (8th review) */
+.work-inspector__head {
+  align-items: center;
+}
+
+.work-inspector__back {
+  background: transparent;
+  border: none;
+  color: var(--brass);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.work-inspector__back:hover {
+  color: var(--brass-bright);
+}
+
+.work-inspector__genre {
+  color: var(--text-dim);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+}
+
+.work-inspector__title {
+  font-size: 22px;
+  margin: 0 0 2px;
+}
+
+.work-inspector__original {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.work-inspector__road {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 14px 0 4px;
+}
+
+/* the disclosed door into the realm (8th review) — primary next step */
+.mini-card__enter {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px 8px;
+  background: var(--brass-a12);
+  border: 1px solid var(--brass);
+  color: var(--brass-bright);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.mini-card__enter:hover {
+  background: var(--brass-a28);
+}
+
 @media (max-width: 767px) {
   /* keep clear of the timeline bar and give the close button real hit room
      (UX audit P0-1: the card fought the slider and neighboring labels) */

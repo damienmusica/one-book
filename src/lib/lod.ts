@@ -75,14 +75,25 @@ export function labelPriority(opts: {
   isHovered: boolean;
   isNeighborOfSelected: boolean;
   facingDot: number; // dot(nodeDir, cameraDir): 1 = front center, <0 = back side
+  /**
+   * A story is running (an author is selected) and this label belongs to a
+   * bystander — not the cast, not hovered, not edge-emphasized. At mid/near
+   * the bystander says nothing (8th review: every unrelated name at full
+   * strength buried the selected scene); at far a heavy demotion keeps a few
+   * anchors for orientation only.
+   */
+  storyBystander?: boolean;
+  lod?: LodLevel;
 }): number {
   if (opts.facingDot < 0.05) return -1; // back hemisphere: never label
+  if (opts.storyBystander && opts.lod !== "far") return -1;
   let p = opts.facingDot * 10;
   if (opts.tier === "anchor") p += 40;
   else if (opts.tier === "major") p += 20;
   if (opts.isNeighborOfSelected) p += 60;
   if (opts.isHovered) p += 120;
   if (opts.isSelected) p += 200;
+  if (opts.storyBystander) p -= 45;
   return p;
 }
 

@@ -1,5 +1,6 @@
-import { useMemo } from "react";
+import { useLayoutEffect, useMemo, useRef } from "react";
 import { useAppState, useContent, useServices, useT } from "./ctx.ts";
+import { WorkInspector } from "./WorkCard.tsx";
 import { neighborsOf } from "../lib/graph.ts";
 import type { Relation, RelationType } from "../types.ts";
 import { RELATION_DEFS } from "../types.ts";
@@ -39,7 +40,31 @@ export function DetailPanel() {
     [dataset.movements]
   );
 
+  // unified inspector (8th review): the panel drills into a work and comes
+  // back to the profile at the same scroll position — one surface, one close
+  const bodyRef = useRef<HTMLDivElement | null>(null);
+  const savedScroll = useRef(0);
+  const wasWork = useRef(false);
+  useLayoutEffect(() => {
+    const nowWork = Boolean(state.selectedWorkId);
+    if (!nowWork && wasWork.current && bodyRef.current) {
+      bodyRef.current.scrollTop = savedScroll.current;
+    }
+    wasWork.current = nowWork;
+  }, [state.selectedWorkId]);
+
   if (!author || !state.panelOpen) return null;
+
+  const openWork = state.selectedWorkId
+    ? dataset.works.find((wk) => wk.id === state.selectedWorkId && wk.authorId === author.id)
+    : undefined;
+  if (openWork) {
+    return (
+      <section className="detail-panel" aria-label={t.workCardAria}>
+        <WorkInspector work={openWork} author={author} />
+      </section>
+    );
+  }
 
   const byType = new Map<RelationType, Array<{ otherId: string; relation: Relation }>>();
   for (const n of neighbors) {
@@ -111,7 +136,7 @@ export function DetailPanel() {
         </button>
       </div>
 
-      <div className="detail-body">
+      <div className="detail-body" ref={bodyRef}>
         <PortraitPlate author={author} />
 
         <h3>{t.whyImportant}</h3>
@@ -170,7 +195,12 @@ export function DetailPanel() {
                 type="button"
                 className="work-open"
                 aria-label={t.workOpenAria(content.workTitle(w))}
-                onClick={() => store.set({ selectedWorkId: w.id, pickedRelationId: null })}
+                onClick={() => {
+                  // drill into the work — remember where the profile was
+                  // scrolled so ← comes back to the same place
+                  savedScroll.current = bodyRef.current?.scrollTop ?? 0;
+                  store.set({ selectedWorkId: w.id, pickedRelationId: null });
+                }}
               >
                 <strong>{content.workTitle(w)}</strong>
               </button>
@@ -260,6 +290,13 @@ export function DetailPanel() {
         </p>
 
         <div className="detail-actions">
+          <button
+            type="button"
+            title={t.enterTerritoryTitle}
+            onClick={() => services.globeRef.current?.enterTerritory(author.id)}
+          >
+            {t.enterTerritory} ↓
+          </button>
           <button
             type="button"
             onClick={() => store.set({ comparePicking: true, compareAuthorId: null })}

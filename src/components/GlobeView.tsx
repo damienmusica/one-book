@@ -54,14 +54,28 @@ export function GlobeView() {
         // the 7th review's loop step 3; a map click centers its author just
         // like the search path always did
         onSelect: (id) => {
+          // second click on the already-selected star = enter the territory
+          // (8th review): the same gesture that engaged the story now walks
+          // through the door it opened — no unexplained zooming
+          if (id && id === store.getState().selectedAuthorId) {
+            services.globeRef.current?.enterTerritory(id);
+            return;
+          }
           store.selectAuthor(id);
           if (id) services.globeRef.current?.focusAuthor(id);
         },
         onHover: (id) => store.set({ hoveredAuthorId: id }),
         onRelationPick: (rel) => store.set({ pickedRelationId: rel.id }),
         onRelationHover: (rel) => store.set({ hoveredRelationId: rel?.id ?? null }),
-        // town → work card; the relation dialog yields (one card at a time)
-        onWorkPick: (wk) => store.set({ selectedWorkId: wk.id, pickedRelationId: null }),
+        // town → the inspector's work depth (8th review): same panel the
+        // profile uses, so author and work never compete as two surfaces
+        onWorkPick: (wk) =>
+          store.set({
+            selectedWorkId: wk.id,
+            pickedRelationId: null,
+            panelOpen: true,
+            filtersOpen: false
+          }),
         onWorkHover: (wk) => store.set({ hoveredWorkId: wk?.id ?? null }),
         onClusterPick: (ids, at, repId) => setCluster({ ids, x: at.x, y: at.y, chipId: repId })
       },

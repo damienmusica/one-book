@@ -103,6 +103,9 @@ export function parseHash(hash: string, valid: UrlValidIds): Partial<AppState> {
   patch.compareAuthorId = cmp && valid.authorIds.has(cmp) ? cmp : null;
   const wk = q.get("w");
   patch.selectedWorkId = wk && valid.workIds.has(wk) ? wk : null;
+  // a work deep link IS the inspector's work depth (8th review: one
+  // surface) — it overrides a stale pv=0 from pre-unification URLs
+  if (patch.selectedWorkId && patch.selectedAuthorId) patch.panelOpen = true;
   patch.mode = q.get("m") === "geo" ? "geo" : "semantic";
 
   const y = q.get("y");

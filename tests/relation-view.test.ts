@@ -44,6 +44,29 @@ const base = {
   egoExpanded: false
 };
 
+describe("resolveRelationView — selected story is LOD-invariant (8th review)", () => {
+  const rels = [
+    rel({ id: "r1", sourceId: "sel", targetId: "a1" }),
+    rel({ id: "r2", sourceId: "a2", targetId: "sel" }),
+    rel({ id: "r3", sourceId: "a3", targetId: "a4" })
+  ];
+  it("the ego raw set is identical at far, mid and near", () => {
+    const ids = (lod: "far" | "mid" | "near") =>
+      resolveRelationView({
+        ...base,
+        mode: "semantic",
+        lod,
+        selectedAuthorId: "sel",
+        visibleRelations: rels
+      })
+        .raw.map((r) => r.id)
+        .sort();
+    expect(ids("mid")).toEqual(["r1", "r2"]);
+    expect(ids("far")).toEqual(ids("mid"));
+    expect(ids("near")).toEqual(ids("mid"));
+  });
+});
+
 describe("resolveRelationView — ego cap (6th review: never silently drop)", () => {
   const many = Array.from({ length: 25 }, (_, i) =>
     rel({

@@ -117,4 +117,12 @@ describe("url state", () => {
     // bare external deep links still open the profile
     expect(parseHash("#/?a=franz-kafka", valid).panelOpen).toBe(true);
   });
+
+  it("a work deep link opens the unified inspector even against a stale pv=0", () => {
+    const p = parseHash("#/?a=franz-kafka&w=franz-kafka--der-process&pv=0", valid);
+    expect(p.selectedWorkId).toBe("franz-kafka--der-process");
+    // 8th review: the work depth lives INSIDE the panel — a work link
+    // without the panel would render nothing
+    expect(p.panelOpen).toBe(true);
+  });
 });
