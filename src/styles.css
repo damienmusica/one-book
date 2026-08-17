@@ -53,7 +53,7 @@
   --slip-bg: rgba(233, 223, 196, 0.92);
   --slip-ink: #2b2015;
   --slip-ink-strong: #140e08;
-  --slip-line: rgba(43, 32, 21, 0.4);
+  --slip-line: rgba(43, 32, 21, 0.62);
   --vermilion: #c0392e; /* 감상인 — the selection channel's only user */
   --mount-shadow: rgba(0, 0, 0, 0.5);
   --debug-bg: rgba(10, 15, 18, 0.92);
@@ -661,7 +661,10 @@ a:hover {
   border: 1px solid var(--slip-line);
   border-radius: 1px;
   padding: 1px 7px 2px;
-  box-shadow: 0 1px 4px var(--mount-shadow);
+  /* A/B round 2 (designer): busy manuscript grounds can soften a chip's
+     edge — a firmer line + drop shadow keeps slips reading as OBJECTS on
+     the page at every ground density */
+  box-shadow: 0 1.5px 5px var(--mount-shadow);
   text-shadow: none;
 }
 
