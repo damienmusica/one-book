@@ -10,6 +10,7 @@ import {
   positionsSchema,
   registrySchema,
   territorySchema,
+  territoryErasSchema,
   authorTranslationsFileSchema,
   workTranslationsFileSchema,
   relationTranslationsFileSchema,
@@ -24,6 +25,7 @@ import type {
   Relation,
   RelationType,
   Territory,
+  TerritoryEras,
   Work
 } from "../types.ts";
 
@@ -47,6 +49,8 @@ export interface RawCollections {
   translationFiles?: Record<string, unknown>;
   /** data/territory.v1.json (frozen terrain), when generated */
   territory?: unknown;
+  /** data/territory.v1.eras.json (tectonic keyframes), when baked */
+  territoryEras?: unknown;
   /** data/portraits.json (imagined-portrait editorial records), when present */
   portraits?: unknown;
 }
@@ -451,6 +455,20 @@ export function assembleDataset(
   }
 
   // --- frozen terrain (optional until generated) ----------------------------
+  let territoryEras: TerritoryEras | null = null;
+  if (raw.territoryEras !== undefined && raw.territoryEras !== null) {
+    const e = territoryErasSchema.safeParse(raw.territoryEras);
+    if (!e.success) {
+      errors.push(...zodIssues("territory.v1.eras.json", e.error));
+    } else {
+      const years = e.data.keyframes.map((k) => k.year);
+      if (!years.every((y, i) => i === 0 || y > years[i - 1]!)) {
+        errors.push("territory.v1.eras.json: keyframe years must be strictly increasing");
+      }
+      territoryEras = e.data;
+    }
+  }
+
   let territory: Territory | null = null;
   if (raw.territory !== undefined && raw.territory !== null) {
     const t = territorySchema.safeParse(raw.territory);
@@ -608,6 +626,7 @@ export function assembleDataset(
     registry,
     translations,
     territory,
+    territoryEras,
     portraits
   };
   return { dataset: errors.length === 0 ? dataset : null, errors, warnings };

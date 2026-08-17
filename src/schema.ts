@@ -213,6 +213,34 @@ export const territorySchema = z
   .strict();
 
 /** data/portraits.json — editorial iconography records (thesis ④-3) */
+export const territoryErasSchema = z
+  .object({
+    version: z.string().min(1),
+    derivedFrom: z.string().min(1),
+    seed: z.number().int(),
+    params: z
+      .object({
+        gMin: z.number().min(0).max(1),
+        foundingRamp: z.number().positive(),
+        jitterRad: z.number().min(0),
+        growth: z.string(),
+        erosion: z.string()
+      })
+      .strict(),
+    keyframes: z
+      .array(
+        z
+          .object({
+            year: z.number().int(),
+            ownerRle: z.array(z.array(z.number().int().min(0))),
+            coast: z.array(z.array(z.number()))
+          })
+          .strict()
+      )
+      .min(2)
+  })
+  .strict();
+
 export const portraitsSchema = z
   .object({
     version: z.string().min(1),

@@ -205,6 +205,27 @@ export interface PortraitEntry {
   reviewStatus: "draft" | "reviewed";
 }
 
+/**
+ * Plate-tectonics keyframes — data/territory.v1.eras.json (baked by
+ * scripts/generate-territory-eras.ts). Each keyframe is a nested erosion of
+ * the frozen v1 plate: same grid, ownerRle convention, and coast polyline
+ * format; the tectonic contract (determinism, terminal identity, monotone
+ * growth) is asserted at bake time and CI-gated by tests.
+ */
+export interface TerritoryEras {
+  version: string;
+  derivedFrom: string;
+  seed: number;
+  params: {
+    gMin: number;
+    foundingRamp: number;
+    jitterRad: number;
+    growth: string;
+    erosion: string;
+  };
+  keyframes: Array<{ year: number; ownerRle: number[][]; coast: number[][] }>;
+}
+
 /** Frozen terrain — data/territory.v1.json (baked by scripts/generate-terrain.ts) */
 export interface Territory {
   version: string;
@@ -300,6 +321,8 @@ export interface Dataset {
   translations: LocalePack[];
   /** frozen terrain bake, null until generated */
   territory: Territory | null;
+  /** v2.5 plate-tectonics keyframes (nested erosion of the v1 plate), null until baked */
+  territoryEras: TerritoryEras | null;
   /** imagined-portrait editorial records, empty until the pilot */
   portraits: PortraitEntry[];
 }
