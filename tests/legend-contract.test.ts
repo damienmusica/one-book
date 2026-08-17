@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { UI } from "../src/i18n/index.ts";
 import { METHODOLOGY } from "../src/i18n/methodology.ts";
+import { UNION_COLORS } from "../src/theme.ts";
 
 /**
  * Truth contract (2026-08-16 4th review P0-1): what the UI says a visual
@@ -53,5 +54,18 @@ describe("legend/methodology ↔ territory bake contract", () => {
   it("the art thesis height ban still stands in the design record", () => {
     const thesis = readFileSync(new URL("../docs/terrain-art-thesis.md", import.meta.url), "utf8");
     expect(thesis).toContain("높이 금지");
+  });
+
+  it("union legend declares the landless-treaty model (D1)", () => {
+    expect(UI.ko.legendUnion).toContain("조약");
+    expect(UI.ko.legendUnion).toContain("작가");
+    expect(UI.en.legendUnion.toLowerCase()).toContain("treat");
+    expect(UNION_COLORS.length).toBeGreaterThanOrEqual(8);
+  });
+
+  it("methodology explains the era fader as sovereignty crossfade, not moving coastlines", () => {
+    expect(METHODOLOGY.ko.coord.terrainBody).toContain("해안선");
+    expect(METHODOLOGY.ko.coord.terrainBody).toContain("조약");
+    expect(METHODOLOGY.en.coord.terrainBody.toLowerCase()).toContain("coastline");
   });
 });

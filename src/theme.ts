@@ -72,3 +72,21 @@ export const GLOBE = {
   atmosphereScale: 1.045,
   arcSegments: 24
 } as const;
+
+/**
+ * Union treaty inks (territory grammar v2, D1) — thin membership lines drawn
+ * inside member coastlines, cycled by movement index. Hand-tint hues in the
+ * antique-atlas register: muted enough to sit on the land plate, distinct
+ * enough to tell neighboring treaties apart. The sky keeps the relation
+ * palette; these belong to the ground.
+ */
+export const UNION_COLORS: ReadonlyArray<string> = [
+  "#7fb3a4", // verdigris
+  "#c4776a", // madder
+  "#8a93c9", // indigo wash
+  "#a8b06a", // olive
+  "#b58ac9", // violet
+  "#6fae8f", // sea green
+  "#7d9fc0", // slate blue
+  "#c9968a" // rose ochre
+];

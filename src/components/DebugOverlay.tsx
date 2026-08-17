@@ -59,6 +59,16 @@ export function DebugOverlay() {
         "seals visible / overlap pairs",
         r?.seals ? `${String((r.seals as { visible: number }).visible)} / ${String((r.seals as { overlapPairs: number }).overlapPairs)}` : "—"
       )}
+      {row(
+        "era / treaties / union",
+        r?.lifecycle
+          ? `${(r.lifecycle as { on: boolean }).on ? "on" : "bypass"} / ${String((r.lifecycle as { activeTreaties: number }).activeTreaties)} / ${String(r.unionOverlay)}`
+          : "—"
+      )}
+      {row(
+        "city markers",
+        r?.cityMarkers ? String((r.cityMarkers as { count: number }).count) : "—"
+      )}
       {row("camera dist / lod", r ? `${String(r.cameraDistance)} / ${String(r.lod)}` : "—")}
       {row(
         "anim",

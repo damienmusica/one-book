@@ -34,7 +34,8 @@ export function GlobeView() {
         onRelationPick: (rel) => store.set({ pickedRelationId: rel.id }),
         onRelationHover: (rel) => store.set({ hoveredRelationId: rel?.id ?? null }),
         // town → work card; the relation dialog yields (one card at a time)
-        onWorkPick: (wk) => store.set({ selectedWorkId: wk.id, pickedRelationId: null })
+        onWorkPick: (wk) => store.set({ selectedWorkId: wk.id, pickedRelationId: null }),
+        onWorkHover: (wk) => store.set({ hoveredWorkId: wk?.id ?? null })
       },
       {
         authorLabel: (a, locale) =>

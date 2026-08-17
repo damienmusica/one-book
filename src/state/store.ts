@@ -26,6 +26,8 @@ export interface AppState {
   pickedRelationId: string | null;
   /** work town opened by clicking its label — shareable via w= */
   selectedWorkId: string | null;
+  /** work town under the pointer (3D marker or label) — transient */
+  hoveredWorkId: string | null;
   filters: Filters;
   year: number;
   yearMode: YearMode;
@@ -60,6 +62,7 @@ export function initialState(): AppState {
     comparePicking: false,
     pickedRelationId: null,
     selectedWorkId: null,
+    hoveredWorkId: null,
     filters: defaultFilters(),
     year: TIMELINE_MAX,
     yearMode: "cumulative",
@@ -122,7 +125,8 @@ export class Store {
       comparePicking: false,
       pickedRelationId: null,
       // a work card belongs to the author it was opened under
-      selectedWorkId: id === s.selectedAuthorId ? s.selectedWorkId : null
+      selectedWorkId: id === s.selectedAuthorId ? s.selectedWorkId : null,
+      hoveredWorkId: null
     });
   }
 

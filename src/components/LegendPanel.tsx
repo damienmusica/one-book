@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAppState, useT } from "./ctx.ts";
 import { relationTypeShort } from "../i18n/index.ts";
-import { RELATION_COLORS } from "../theme.ts";
+import { RELATION_COLORS, UNION_COLORS } from "../theme.ts";
 import { RELATION_DEFS } from "../types.ts";
 
 /**
@@ -71,6 +71,13 @@ export function LegendPanel() {
       </ul>
       <p className="legend-terrain" title={t.legendTerrainTitle}>
         {t.legendTerrain}
+      </p>
+      <p className="legend-terrain legend-union">
+        <svg width="30" height="10" aria-hidden="true" style={{ verticalAlign: "-1px" }}>
+          <line x1="1" y1="3" x2="29" y2="3" stroke={UNION_COLORS[0]} strokeWidth="1.6" />
+          <line x1="1" y1="7" x2="29" y2="7" stroke={UNION_COLORS[2]} strokeWidth="1.6" />
+        </svg>{" "}
+        {t.legendUnion}
       </p>
     </div>
   );
