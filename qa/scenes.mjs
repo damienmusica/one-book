@@ -383,11 +383,15 @@ export const SCENES = {
       ctx.data.geoMidSuppression = {
         shown: mid.labelsShown,
         suppressed: mid.labelsSuppressed,
-        overlapping: mid.labelsOverlapping
+        overlapping: mid.labelsOverlapping,
+        seals: mid.seals
       };
+      // the eye and the numbers must point at the same failure: seal-sprite
+      // overlap is now measured, declared, and waiting on city clustering
       ctx.notImplemented(
         "geo-city-clusters",
-        `mid-zoom dense areas still suppress ${mid.labelsSuppressed} label candidates; city-level clustering is backlogged`
+        `mid zoom: ${mid.seals?.overlapPairs ?? "?"} overlapping seal pairs (${mid.seals?.visible ?? "?"} visible), ` +
+          `${mid.labelsSuppressed} label candidates suppressed; city-level clustering is backlogged (ux-backlog 14)`
       );
     }
   },

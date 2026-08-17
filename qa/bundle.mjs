@@ -27,7 +27,25 @@ for (const dir of (await readdir(artifacts, { withFileTypes: true })).filter((d)
   const metrics = JSON.parse(
     await readFile(path.join(artifacts, dir.name, "metrics.json"), "utf8")
   );
-  scenes.push({ dir: dir.name, manifest, metrics });
+  // frame stats live in the per-beat snapshots (final.frame is empty by
+  // design — the ring resets after every beat); aggregate them here
+  let frame = null;
+  const statePath = path.join(artifacts, dir.name, "scene-state.json");
+  if (existsSync(statePath)) {
+    const beats = JSON.parse(await readFile(statePath, "utf8"))
+      .map((s) => s.metrics?.frame)
+      .filter(Boolean);
+    if (beats.length > 0) {
+      const avgs = beats.map((f) => f.avgFps).sort((a, b) => a - b);
+      frame = {
+        beats: beats.length,
+        steadyFps: avgs[Math.floor(avgs.length / 2)],
+        worstP95Ms: Math.max(...beats.map((f) => f.p95Ms)),
+        worstP99Ms: Math.max(...beats.map((f) => f.p99Ms))
+      };
+    }
+  }
+  scenes.push({ dir: dir.name, manifest, metrics, frame });
 }
 if (scenes.length === 0) {
   console.error("artifacts/ contains no scene manifests — run qa:capture first");
@@ -35,7 +53,6 @@ if (scenes.length === 0) {
 }
 
 const meta = scenes[0].metrics;
-const fps = (m) => m.final?.frame?.avgFps ?? "—";
 const lines = [
   `# Literary Planet — QA review bundle`,
   ``,
@@ -45,12 +62,13 @@ const lines = [
   `- hardware accelerated: ${meta.hardwareAccelerated}`,
   `- viewport: ${meta.viewport.width}×${meta.viewport.height} @ dpr ${meta.deviceScaleFactor}, locale ${meta.locale}`,
   ``,
-  `| scene | status | beats | asserts | avg fps | console errors | blocked ext. requests |`,
-  `|---|---|---|---|---|---|---|`,
-  ...scenes.map(({ dir, manifest, metrics }) => {
+  `| scene | status | beats | pass | gap | fail | steady fps (med) | worst p95 ms | console errors | blocked ext. requests |`,
+  `|---|---|---|---|---|---|---|---|---|---|`,
+  ...scenes.map(({ dir, manifest, frame }) => {
     const ok = manifest.assertions.filter((a) => a.ok === true).length;
-    const total = manifest.assertions.filter((a) => a.ok !== null).length;
-    return `| ${dir} | ${manifest.status} | ${manifest.beats.length} | ${ok}/${total} | ${fps(metrics)} | ${manifest.consoleErrors} | ${manifest.blockedExternalRequests} |`;
+    const gaps = manifest.assertions.filter((a) => a.notImplemented).length;
+    const fails = manifest.assertions.filter((a) => a.ok === false).length;
+    return `| ${dir} | ${manifest.status} | ${manifest.beats.length} | ${ok} | ${gaps || "·"} | ${fails ? `**${fails}**` : "·"} | ${frame ? frame.steadyFps : "—"} | ${frame ? frame.worstP95Ms : "—"} | ${manifest.consoleErrors} | ${manifest.blockedExternalRequests} |`;
   }),
   ``,
   `## Not implemented (declared, not staged)`,

@@ -383,9 +383,14 @@ for (const sceneName of sceneNames) {
     )
   );
 
-  console.log(
-    `  → ${status} · ${beats.length} beats · ${assertions.filter((a) => a.ok === true).length}/${assertions.filter((a) => a.ok !== null).length} asserts · ${appErrors.length} console errors · ${outDir}`
-  );
+  {
+    const okN = assertions.filter((a) => a.ok === true).length;
+    const gapN = assertions.filter((a) => a.notImplemented).length;
+    const failN = assertions.filter((a) => a.ok === false).length;
+    console.log(
+      `  → ${status} · ${beats.length} beats · ${okN} pass${gapN ? ` / ${gapN} gap` : ""}${failN ? ` / ${failN} FAIL` : ""} · ${appErrors.length} console errors · ${outDir}`
+    );
+  }
   if (envFailed) worstExit = Math.max(worstExit, 3);
   else if (status === "failed") worstExit = Math.max(worstExit, 2);
 }

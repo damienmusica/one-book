@@ -106,6 +106,34 @@ listed at the bottom so we don't re-litigate them.
     memory-growth repetition scene; budgets per commodity-GPU baseline when
     hardware is available.
 
+> 2026-08-16 fourth review (source-audited): shipped same day — legend truth
+> contract (the "size AND height = documented influence" line was wrong on
+> all three counts; fixed + legend-contract test binds legend ↔ methodology
+> ↔ territory.v1 formula), CPO-reported zoom bugs (rotate speed now scales
+> with height above surface; near terrain plate 4096→6144px where the GPU
+> allows), seal screen-space overlap metric (the geo-near collapse is now
+> measured, not invisible), FPS summary regression fixed (per-beat
+> aggregation: steady median + worst p95), pass/gap/fail reported
+> separately, 44px town hit targets. The reviewer formally accepted both
+> prior rebuttals. **Territory grammar v2 (nations / movement unions / era
+> morphing) is designed, not built — docs/territory-grammar-v2.md, CPO
+> decision points D1–D5.**
+
+22. **Spatial compare mode**: keep the globe visible with both nations and
+    the path highlighted; cards link to the map; hover cross-highlighting;
+    swap second author without closing (4th review P1).
+23. **Tour reading panel**: one unified journey panel instead of
+    profile+tour card+legend+timeline stacking; collapse timeline during
+    tours; legend to chip (4th review P1).
+24. **Bundle splitting**: main chunk 1.76MB raw — lazy-load author/work/
+    translation data and split per-page code before the corpus grows.
+25. **E2E depth**: 3D relation-line pointer picking, work deep-link reload
+    restore, active-year timeline mode, small/ultrawide windows, 200% zoom,
+    touch/pinch, memory soak; cross-platform (Windows iGPU / Linux) when
+    hardware exists.
+26. **Editorial surface honesty**: expose reviewed≠verified distinction and
+    QC-ledger open items in UI copy; claim-level sources wave remains item 8.
+
 ## Feedback claims we checked and rejected (do not re-open without new evidence)
 
 - **"2026 acts as an undeclared all-time sentinel"** — the timeline label and
