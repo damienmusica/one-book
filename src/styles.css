@@ -396,12 +396,14 @@ a:hover {
   will-change: transform;
 }
 
+/* 5th review P0-4: core map text was 10–12.5px at 1080p. The scale below
+   pairs with the planet scale-up (R 100→118) — bigger ground, bigger type. */
 .globe-label--md {
-  font-size: 12.5px;
+  font-size: 14px;
 }
 
 .globe-label--sm {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .globe-label--author.is-normal {
@@ -425,7 +427,7 @@ a:hover {
 .globe-label--author.is-selected {
   color: var(--brass-bright);
   font-weight: 700;
-  font-size: 13.5px;
+  font-size: 15px;
   border-bottom: 1px solid var(--line-accent);
   padding-bottom: 1px;
 }
@@ -433,7 +435,7 @@ a:hover {
 .globe-label--movement {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.2em;
   color: rgba(207, 167, 89, 0.5);
   text-transform: none;
@@ -442,7 +444,7 @@ a:hover {
 /* geo far view: regions speak for their authors */
 .globe-label--region {
   font-family: var(--font-serif);
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 0.16em;
   color: rgba(159, 190, 199, 0.78);
   text-shadow: 0 1px 5px rgba(6, 10, 14, 0.9);
@@ -450,11 +452,31 @@ a:hover {
 
 /* relation-type labels on the focused constellation's lines */
 .globe-label--relation {
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   font-weight: 600;
   text-transform: none;
   opacity: 0.95;
+}
+
+/* geo seal cluster chip: the "+N" door under a representative seal */
+.globe-label--cluster {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--ink-on-accent);
+  background: var(--brass);
+  border-radius: 999px;
+  padding: 6px 12px;
+  margin: -4px -4px;
+  line-height: 1;
+}
+
+.globe-label--cluster:hover,
+.globe-label--cluster:focus-visible {
+  background: var(--brass-bright);
+  color: var(--ink-on-accent);
+  text-shadow: none;
 }
 
 /* edge hover tooltip: who connects to whom, without a click */
@@ -597,7 +619,7 @@ a:hover {
 .globe-label--work {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 10.5px;
+  font-size: 11.5px;
   letter-spacing: 0.04em;
   color: var(--text-dim);
   opacity: 0.9;
@@ -1783,7 +1805,7 @@ a:hover {
 
 .legend-mode {
   color: #c2a15c;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.02em;
 }
 
@@ -1815,16 +1837,97 @@ a:hover {
   margin: 7px 0 0;
   padding-top: 6px;
   border-top: 1px dashed rgba(125, 138, 134, 0.3);
-  font-size: 10.5px;
-  line-height: 1.45;
-  color: #97a4a0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #a3b0ac;
 }
 
+/* small screens keep the key reachable: the chip opens a bottom sheet
+   instead of the legend vanishing (5th review P0-4) */
 @media (max-width: 900px) {
-  .legend-panel,
-  .legend-chip {
-    display: none;
+  .legend-panel {
+    position: fixed;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    top: auto;
+    width: auto;
+    max-height: 42vh;
+    overflow-y: auto;
+    z-index: 40;
   }
+}
+
+/* geo cluster member list (R5-B): expands a "+N" chip into real doors */
+.cluster-popover {
+  position: absolute;
+  z-index: 30;
+  width: 188px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: var(--surface-overlay);
+  border: 1px solid var(--line-accent);
+  border-radius: var(--radius);
+  padding: 8px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.55);
+}
+
+.cluster-popover-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+  margin-bottom: 4px;
+}
+
+.cluster-popover ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.cluster-popover li button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 8px;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.cluster-popover li button:hover,
+.cluster-popover li button:focus-visible {
+  background: var(--surface-raised);
+  color: var(--brass-bright);
+  outline: none;
+}
+
+.cluster-popover li button.is-current {
+  color: var(--brass-bright);
+  font-weight: 600;
+}
+
+/* sovereignty-state badge on the profile while the fader is engaged */
+.detail-era-badge {
+  display: inline-block;
+  margin: 2px 0 0;
+  padding: 2px 9px;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: var(--brass-bright);
+  border: 1px solid var(--line-accent);
+  border-radius: 999px;
+  background: rgba(207, 167, 89, 0.12);
 }
 
 /* --- selectable work towns + work card ------------------------------------- */

@@ -63,12 +63,20 @@ export const PERIOD_WASH: Record<PeriodId, string> = {
   contemporary: "#daccb0"
 };
 
+/**
+ * R 100 → 118 (CPO 2026-08-17): the planet was too small for what it must
+ * hold. Camera distances and LOD thresholds are untouched, so the same
+ * dial positions now sit relatively closer to a larger surface — the world
+ * fills more of the frame at every distance and reading distance gets
+ * meaningfully closer to the ground (min height above surface 50 → 32).
+ * All positions are unit vectors × these radii; nothing else encodes size.
+ */
 export const GLOBE = {
-  radius: 100,
-  surfaceRadius: 99,
+  radius: 118,
+  surfaceRadius: 116.8,
   /** baked-terrain shell: above the surface, below the instrument graticule */
-  terrainRadius: 99.15,
-  graticuleRadius: 99.4,
+  terrainRadius: 117.0,
+  graticuleRadius: 117.3,
   atmosphereScale: 1.045,
   arcSegments: 24
 } as const;

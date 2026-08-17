@@ -86,7 +86,11 @@ describe("buildLifeTexData", () => {
 describe("treatyOf", () => {
   it("runs while at least two members are active concurrently", () => {
     const t = treatyOf([kafka, borges]); // overlap 1923–1924
-    expect(t).toEqual({ start: 1923, end: 1924 });
+    expect(t).toEqual({
+      intervals: [{ start: 1923, end: 1924 }],
+      start: 1923,
+      end: 1924
+    });
   });
 
   it("no concurrent overlap → no treaty", () => {
@@ -94,21 +98,28 @@ describe("treatyOf", () => {
     expect(treatyOf([kafka])).toBeNull();
   });
 
-  it("three members extend the treaty across the union of ≥2-deep spans", () => {
+  it("a corpus lull stays a separate interval — gaps are never merged (5th review)", () => {
     const c = makeAuthor({
       id: "elias-canetti",
       activeRange: [1935, 1994],
       anchorYear: 1960,
       periods: ["mid-century"]
     });
-    const t = treatyOf([kafka, borges, c]); // 1923–24, then 1935–85
+    // ≥2-deep spans: 1923–24 (kafka+borges), 1935–85 (borges+canetti);
+    // 1925–34 has only borges — not treaty time
+    const t = treatyOf([kafka, borges, c]);
+    expect(t?.intervals).toEqual([
+      { start: 1923, end: 1924 },
+      { start: 1935, end: 1985 }
+    ]);
+    // the cartouche's ≈ display span is the outer envelope
     expect(t?.start).toBe(1923);
     expect(t?.end).toBe(1985);
   });
 });
 
 describe("treatyPresence", () => {
-  const t = { start: 1910, end: 1945 };
+  const t = { intervals: [{ start: 1910, end: 1945 }], start: 1910, end: 1945 };
   it("full strength at the atlas view (fader parked)", () => {
     expect(treatyPresence(t, TIMELINE_MAX, "cumulative")).toBe(1);
   });
@@ -116,5 +127,19 @@ describe("treatyPresence", () => {
     expect(treatyPresence(t, 1900, "cumulative")).toBe(0);
     expect(treatyPresence(t, 1925, "cumulative")).toBe(1);
     expect(treatyPresence(t, 1965, "cumulative")).toBe(0);
+  });
+  it("multi-interval treaties dip in the gap and re-form with the next generation", () => {
+    const g = {
+      intervals: [
+        { start: 1900, end: 1912 },
+        { start: 1930, end: 1950 }
+      ],
+      start: 1900,
+      end: 1950
+    };
+    expect(treatyPresence(g, 1906, "cumulative")).toBe(1); // first span holds
+    const lull = treatyPresence(g, 1924, "cumulative");
+    expect(lull).toBeLessThan(0.2); // ink dissolved 12y past the first span
+    expect(treatyPresence(g, 1940, "cumulative")).toBe(1); // re-formed
   });
 });

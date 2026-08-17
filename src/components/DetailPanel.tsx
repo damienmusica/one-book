@@ -12,6 +12,7 @@ import {
   lifeSpan
 } from "./bits.tsx";
 import { PortraitPlate } from "./PortraitPlate.tsx";
+import { GHOST, lifecycleEngaged, lifecycleOf } from "../globe/lifecycle.ts";
 
 export function DetailPanel() {
   const state = useAppState();
@@ -49,6 +50,18 @@ export function DetailPanel() {
 
   const entryWork = workById.get(author.readingEntry);
   const name = content.authorName(author);
+  // era-filter vs selection conflict (5th review P1-2): while the fader is
+  // engaged, say what state this nation is in at that year — the card keeps
+  // working, the badge explains the ghosted territory behind it
+  const eraBadge = (() => {
+    if (!lifecycleEngaged(state.year, state.yearMode)) return null;
+    const lc = lifecycleOf(author, state.year, state.yearMode);
+    if (state.yearMode === "active" && lc.presence <= GHOST + 0.02) return t.eraBadgeInactive;
+    if (lc.presence <= GHOST + 0.02) return t.eraBadgeUnformed;
+    if (lc.presence < 0.98) return t.eraBadgeForming;
+    if (lc.patina > 0.4) return t.eraBadgeHeritage;
+    return null;
+  })();
   const readingWarning = content.authorField(author, "readingWarning");
   const worksException = content.authorField(author, "worksException");
 
@@ -63,6 +76,11 @@ export function DetailPanel() {
             · {author.regions.map((r) => regionLabel(r, locale)).join(", ")} ·{" "}
             {author.languages.map((c) => languageLabel(c, locale)).join(", ")}
           </p>
+          {eraBadge && (
+            <p className="detail-era-badge" title={t.eraBadgeTitle} data-qa="era-badge">
+              {state.year} · {eraBadge}
+            </p>
+          )}
           <p className="detail-tags">
             {author.movements.map((m) => {
               const mv = movementById.get(m);

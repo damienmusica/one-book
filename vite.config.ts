@@ -7,12 +7,19 @@ const pkg = JSON.parse(readFileSync(new URL("./package.json", import.meta.url), 
   version: string;
 };
 const commit = (() => {
+  // reproducibility ladder (5th review): env pin > live git > BUILD_COMMIT
+  // file (written into source snapshots, where .git does not exist)
+  if (process.env.BUILD_COMMIT) return process.env.BUILD_COMMIT.trim();
   try {
     return execSync("git rev-parse --short HEAD", { stdio: ["ignore", "pipe", "ignore"] })
       .toString()
       .trim();
   } catch {
-    return "unknown";
+    try {
+      return readFileSync(new URL("./BUILD_COMMIT", import.meta.url), "utf8").trim();
+    } catch {
+      return "unknown";
+    }
   }
 })();
 

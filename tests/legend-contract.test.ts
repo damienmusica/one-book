@@ -15,6 +15,10 @@ import { UNION_COLORS } from "../src/theme.ts";
 const meta = JSON.parse(readFileSync(new URL("../data/territory.v1.json", import.meta.url), "utf8"))
   .params as Record<string, string>;
 
+const eras = JSON.parse(
+  readFileSync(new URL("../data/territory.v1.eras.json", import.meta.url), "utf8")
+) as { params: Record<string, unknown>; keyframes: Array<{ year: number }> };
+
 describe("legend/methodology ↔ territory bake contract", () => {
   it("the baked area formula is what the contract expects", () => {
     // if the bake formula ever changes, this pins force a legend +
@@ -63,9 +67,58 @@ describe("legend/methodology ↔ territory bake contract", () => {
     expect(UNION_COLORS.length).toBeGreaterThanOrEqual(8);
   });
 
-  it("methodology explains the era fader as sovereignty crossfade, not moving coastlines", () => {
-    expect(METHODOLOGY.ko.coord.terrainBody).toContain("해안선");
-    expect(METHODOLOGY.ko.coord.terrainBody).toContain("조약");
-    expect(METHODOLOGY.en.coord.terrainBody.toLowerCase()).toContain("coastline");
+  it("treaty spans are marked as computed, not historical (5th review P0-2)", () => {
+    expect(UI.ko.legendUnion).toContain("≈");
+    expect(UI.ko.legendUnion).toContain("계산");
+    expect(UI.en.legendUnion).toContain("≈");
+    expect(UI.en.legendUnion.toLowerCase()).toContain("computed");
+    expect(METHODOLOGY.ko.coord.terrainBody).toContain("활동 중첩");
+    expect(METHODOLOGY.en.coord.terrainBody.toLowerCase()).toContain("active ranges");
+  });
+
+  it("legend + methodology tell the v2.5 tectonic story the bake actually implements", () => {
+    // the retired claim must never come back: the fader DOES move coastlines
+    expect(METHODOLOGY.ko.coord.terrainBody).not.toContain("해안선을 움직이지 않는다");
+    expect(METHODOLOGY.en.coord.terrainBody.toLowerCase()).not.toContain("moves no coastline");
+
+    // bind the user-facing numbers to the shipped eras file
+    const years = eras.keyframes.map((k) => k.year);
+    const span = `${years[0]}–${years[years.length - 1]}`;
+    const count = String(eras.keyframes.length);
+    const gMin = String(eras.params.gMin);
+    for (const locale of ["ko", "en"] as const) {
+      const legend = UI[locale].legendEra;
+      const title = UI[locale].legendEraTitle;
+      const body = METHODOLOGY[locale].coord.terrainBody;
+      expect(legend).toContain(span);
+      expect(legend).toMatch(new RegExp(`${count}\\s?(개 키프레임|keyframes)`));
+      expect(legend).toMatch(locale === "ko" ? /계산치/ : /computed/i);
+      expect(title).toContain(gMin);
+      expect(title).toContain("territory.v1.eras.json");
+      expect(body).toContain(gMin);
+      expect(body).toContain(String(years[0]));
+      expect(body).toContain(String(years[years.length - 1]));
+      // the curated-corpus caveat: growth is editorial, not measured output
+      expect(body).toMatch(locale === "ko" ? /수록 작품|선별/ : /curated/i);
+    }
+    // the growth story in prose must stay anchored to the bake's formula string
+    expect(String(eras.params.growth)).toContain("0.5*foundingRamp");
+    expect(String(eras.params.growth)).toContain("0.5*publishedWorksShare");
+    expect(UI.ko.legendEraTitle).toContain("0.5 × 건국 램프");
+    expect(UI.en.legendEraTitle).toContain("0.5 × founding ramp");
+  });
+
+  it("sovereignty states named in the legend match the lifecycle model", () => {
+    for (const [ko, en] of [
+      ["미형성", "unformed"],
+      ["형성", "founding"],
+      ["활동", "active"],
+      ["유산", "heritage"]
+    ] as const) {
+      expect(UI.ko.legendEra).toContain(ko);
+      expect(UI.en.legendEra.toLowerCase()).toContain(en);
+    }
+    expect(UI.ko.legendEra).toContain("출간");
+    expect(UI.en.legendEra.toLowerCase()).toContain("publication");
   });
 });

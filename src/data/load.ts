@@ -37,9 +37,8 @@ export function loadDataset(): Dataset {
     positions: singleJson(import.meta.glob("../../data/positions.v1.json", { eager: true })),
     registry: singleJson(import.meta.glob("../../data/registry.json", { eager: true })),
     territory: singleJson(import.meta.glob("../../data/territory.v1.json", { eager: true })),
-    territoryEras: singleJson(
-      import.meta.glob("../../data/territory.v1.eras.json", { eager: true })
-    ),
+    // territory.v1.eras.json deliberately absent: the tectonic keyframes load
+    // late as their own chunk (src/data/load-eras.ts) — never eager here
     portraits: singleJson(import.meta.glob("../../data/portraits.json", { eager: true })),
     translationFiles: stripTranslationPaths(
       import.meta.glob("../../data/translations/**/*.json", { eager: true }) as Record<

@@ -13,7 +13,11 @@ import { RELATION_DEFS } from "../types.ts";
 export function LegendPanel() {
   const state = useAppState();
   const t = useT();
-  const [open, setOpen] = useState(true);
+  // small screens keep the legend reachable as a chip-opened sheet instead of
+  // hiding it outright (5th review P0-4: no screen size loses the key)
+  const [open, setOpen] = useState(
+    () => typeof window === "undefined" || window.innerWidth > 900
+  );
 
   if (!open) {
     return (
@@ -71,6 +75,9 @@ export function LegendPanel() {
       </ul>
       <p className="legend-terrain" title={t.legendTerrainTitle}>
         {t.legendTerrain}
+      </p>
+      <p className="legend-terrain legend-era" title={t.legendEraTitle}>
+        {t.legendEra}
       </p>
       <p className="legend-terrain legend-union">
         <svg width="30" height="10" aria-hidden="true" style={{ verticalAlign: "-1px" }}>

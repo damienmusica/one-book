@@ -1,8 +1,11 @@
 import type { Tier } from "../types.ts";
 
-// Camera distances are in globe-radius units × 100 (globe R = 100).
-// MIN bounds terrain-texture magnification so the etched coast never becomes
-// a rope; DEFAULT starts (and resets to) the true far view — the star chart.
+// Camera distances are absolute scene units (globe R = 118 since the
+// 2026-08-17 planet-scale directive — distances kept, so every threshold now
+// sits relatively closer to a larger surface). MIN bounds terrain-texture
+// magnification so the etched coast never becomes a rope (the near plate
+// densified to cell 8 alongside the scale-up); DEFAULT starts (and resets
+// to) the true far view — the star chart.
 export const CAMERA_MIN = 150;
 export const CAMERA_MAX = 430;
 export const CAMERA_DEFAULT = 360;
