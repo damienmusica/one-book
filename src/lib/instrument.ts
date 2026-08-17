@@ -31,10 +31,30 @@ export interface FrameStats {
   p50Ms: number;
   p95Ms: number;
   p99Ms: number;
+  /** single worst frame in the segment */
+  maxMs: number;
+  /** frames over 50ms — the stalls a user feels, hidden by p95 (6th review) */
+  longTasks: number;
 }
 
 const EVENT_CAP = 1200;
 const FRAME_CAP = 480;
+
+// browser long tasks with absolute timestamps (6th review PR1): lets QA
+// separate "app bootstrap before first paint" from "stall during interaction"
+const longTaskLog: Array<{ start: number; duration: number }> = [];
+if (typeof PerformanceObserver !== "undefined") {
+  try {
+    new PerformanceObserver((list) => {
+      for (const e of list.getEntries()) {
+        longTaskLog.push({ start: Math.round(e.startTime), duration: Math.round(e.duration) });
+      }
+      if (longTaskLog.length > 100) longTaskLog.splice(0, longTaskLog.length - 100);
+    }).observe({ type: "longtask", buffered: true });
+  } catch {
+    // longtask unsupported (non-Chromium) — the frame ring still covers it
+  }
+}
 
 class Instrumentation {
   private events: InstrEvent[] = [];
@@ -89,7 +109,9 @@ class Instrumentation {
       minFps: Math.round(10000 / sorted[sorted.length - 1]!) / 10,
       p50Ms: Math.round(pick(0.5) * 10) / 10,
       p95Ms: Math.round(pick(0.95) * 10) / 10,
-      p99Ms: Math.round(pick(0.99) * 10) / 10
+      p99Ms: Math.round(pick(0.99) * 10) / 10,
+      maxMs: Math.round(sorted[sorted.length - 1]! * 10) / 10,
+      longTasks: sorted.filter((d) => d > 50).length
     };
   }
 
@@ -205,6 +227,7 @@ export function buildMetrics(store: Store, dataset: Dataset): Record<string, unk
             dpr: window.devicePixelRatio
           },
     frame: instr.frameStats(),
+    longTaskLog: [...longTaskLog],
     renderer: instr.rendererInfo()
   };
 }

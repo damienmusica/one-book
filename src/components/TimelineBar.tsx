@@ -14,6 +14,10 @@ export function TimelineBar() {
         ? t.upToYear(state.year)
         : t.activeInYear(state.year);
 
+  // PR2 demand loading: reaching for the fader (focus/press/keys) is the
+  // intent signal — the tectonic keyframes start loading here, never at boot
+  const intent = () => globeRef.current?.timelineIntent?.();
+
   return (
     <div className="timeline-bar">
       <div className="timeline-mode" role="group" aria-label={t.yearModeAria}>
@@ -29,7 +33,11 @@ export function TimelineBar() {
           type="button"
           aria-pressed={state.yearMode === "active"}
           title={t.activeTitle}
-          onClick={() => store.set({ yearMode: "active" })}
+          onPointerDown={intent}
+          onClick={() => {
+            intent();
+            store.set({ yearMode: "active" });
+          }}
         >
           {t.activeMode}
         </button>
@@ -44,10 +52,14 @@ export function TimelineBar() {
         value={state.year}
         aria-label={t.yearSliderAria}
         aria-valuetext={label}
+        onFocus={intent}
+        onPointerDown={intent}
+        onKeyDown={intent}
         onChange={(e) => store.set({ year: Number(e.target.value) })}
       />
-      <output className="timeline-label" aria-live="off">
+      <output className="timeline-label" aria-live="polite">
         {label}
+        {state.eraLoading && <span className="timeline-preparing"> · {t.eraPreparing}</span>}
       </output>
 
       <div className="view-controls" role="group" aria-label={t.viewControlsAria}>

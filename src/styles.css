@@ -1164,6 +1164,13 @@ a:hover {
   font-variant-numeric: tabular-nums;
 }
 
+/* the temporal plates are painting in the worker (PR2) — quiet, honest */
+.timeline-preparing {
+  color: var(--brass);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
 .view-controls {
   display: flex;
   gap: 4px;
@@ -1915,6 +1922,48 @@ a:hover {
 .cluster-popover li button.is-current {
   color: var(--brass-bright);
   font-weight: 600;
+}
+
+/* PR5: legend folds — four short keys, formulas stay in titles/methodology */
+.legend-fold {
+  border-top: 1px dashed rgba(125, 138, 134, 0.3);
+  margin-top: 6px;
+  padding-top: 4px;
+}
+
+.legend-fold summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+}
+
+.legend-fold summary::before {
+  content: "▸ ";
+}
+
+.legend-fold[open] summary::before {
+  content: "▾ ";
+}
+
+.legend-fold .legend-terrain {
+  border-top: none;
+  margin-top: 4px;
+  padding-top: 0;
+}
+
+.cluster-popover-note {
+  margin: 6px 2px 0;
+  font-size: 10.5px;
+  line-height: 1.4;
+  color: var(--text-faint);
+}
+
+.relation-cap-note {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin: 2px 0 8px;
 }
 
 /* sovereignty-state badge on the profile while the fader is engaged */

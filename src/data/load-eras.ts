@@ -1,9 +1,10 @@
-// The tectonic keyframes are the heaviest data file (~1.4MB raw) and only
-// matter once the user touches the year fader's world — so they load as
-// their own async chunk instead of riding the main bundle (5th review:
-// main gzip grew 71% when the eras shipped eagerly). Validation lives here
-// because this path bypasses assembleDataset; scripts and validate:data
-// still validate the same file through assemble.
+// The tectonic keyframes are the heaviest data file (~1.4MB raw). This
+// loader is imported ONLY by the terrain paint worker (PR2): the JSON is
+// requested on first timeline intent and parsed off the main thread — the
+// main bundle never sees it (the 6th review caught the previous version
+// loading it at mount; "chunk splitting alone is not demand loading").
+// Validation lives here because this path bypasses assembleDataset;
+// scripts and validate:data still validate the same file through assemble.
 
 import { territoryErasSchema } from "../schema.ts";
 import type { TerritoryEras } from "../types.ts";

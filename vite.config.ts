@@ -32,6 +32,8 @@ export default defineConfig({
     __BUILD_COMMIT__: JSON.stringify(commit)
   },
   plugins: [react()],
+  // the paint worker dynamic-imports the eras chunk — ES-module workers only
+  worker: { format: "es" },
   build: {
     target: "es2022",
     chunkSizeWarningLimit: 900,

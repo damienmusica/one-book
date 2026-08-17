@@ -176,6 +176,18 @@ export function DetailPanel() {
         {worksException && <p className="works-exception">{worksException}</p>}
 
         <h3>{t.relationsHead}</h3>
+        {state.egoHiddenCount > 0 && (
+          <p className="relation-cap-note">
+            {t.mapRelationsCapped(neighbors.length - state.egoHiddenCount, neighbors.length)}{" "}
+            <button
+              type="button"
+              className="chip chip--sm"
+              onClick={() => store.set({ egoExpanded: true })}
+            >
+              {t.showAllRelations}
+            </button>
+          </p>
+        )}
         {neighbors.length === 0 && <p className="empty-note">{t.noRelations}</p>}
         {RELATION_DEFS.filter((d) => byType.has(d.id)).map((def) => (
           <div key={def.id} className="relation-group">

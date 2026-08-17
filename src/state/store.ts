@@ -35,6 +35,12 @@ export interface AppState {
   tourStop: number;
   filtersOpen: boolean;
   reducedMotion: boolean;
+  /** the temporal terrain is painting the requested year (PR2) — transient */
+  eraLoading: boolean;
+  /** map ego cap override ("모두 보기") — resets on selection change (PR3) */
+  egoExpanded: boolean;
+  /** ego relations the map cap hid for the current selection — transient */
+  egoHiddenCount: number;
 }
 
 export function defaultFilters(): Filters {
@@ -69,7 +75,10 @@ export function initialState(): AppState {
     tourId: null,
     tourStop: 0,
     filtersOpen: false,
-    reducedMotion: false
+    reducedMotion: false,
+    eraLoading: false,
+    egoExpanded: false,
+    egoHiddenCount: 0
   };
 }
 
@@ -126,7 +135,9 @@ export class Store {
       pickedRelationId: null,
       // a work card belongs to the author it was opened under
       selectedWorkId: id === s.selectedAuthorId ? s.selectedWorkId : null,
-      hoveredWorkId: null
+      hoveredWorkId: null,
+      // the map's ego cap resets with the selection (PR3)
+      egoExpanded: id === s.selectedAuthorId ? s.egoExpanded : false
     });
   }
 
