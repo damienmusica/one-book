@@ -239,30 +239,42 @@ listed at the bottom so we don't re-litigate them.
 > R7 (PR0–PR5 below) executes its prescription; scope frozen (no galaxy, no
 > new authors, no new pages) until the Kafka vertical slice passes.
 
-32. **CameraController + LOD hysteresis** (7th review PR1): cancellable
-    focus (1-frame interrupt on pointer/wheel), distance-scaled 450–650ms
-    duration, zoom-to-cursor, safe-area framing, Escape pose bookmarks,
-    enter/exit LOD thresholds + dwell + crossfade. → shipped in R7.
-33. **FlowStory lifecycle** (7th review PR2): story clock survives
-    geometry rebuilds (storyId), scrub preview/commit split, diff-not-restart
-    on filter changes, explicit replay only. → shipped in R7.
-34. **Immediate contact feedback** (7th review PR2): 0–50ms node/territory
-    response on selection, before the camera and the narrative. → shipped in R7.
-35. **Visual hierarchy regrade v2** (7th review PR3): five-value luminance
-    tokens, highest-value ownership rule (selection, transiently pulse),
-    seal de-emphasis outside selection, semantic-mid aggregation, union-line
-    retreat, CSS color-token unification + lint, ≥13px map text floor.
-    Subsumes items 17/30/31 scope where shipped; art-directed palette pass
-    (17) remains open.
-36. **Kafka vertical slice** (7th review PR4): lens-based 2.5D territory
-    shading (§4¾ contract), instanced work cities with archetypes
-    (capital/port/city), founding growth, reading-order roads, map↔profile
-    bidirectional hover, city focus + safe-area card, 20s uncut loop scene.
-37. **Memory/line-quality spike** (7th review PR5): seal texture atlas
-    (single GPU upload), near-plate alternative spike (visible patch vs
-    8192 full-world equirect — adopt only if numbers improve), soak
-    20/100/500 slope convergence. Translation sea routes stay data-blocked
-    (no translation edges in the relation taxonomy yet — grammar reserved).
+32. **CameraController + LOD hysteresis** (7th review PR1) — SHIPPED R7:
+    cancel measured 21ms wall incl. driver IPC, worst post-gesture step
+    0.039rad; 0 tier transitions across 30× wheel oscillation in both
+    deadbands; Escape restored dist 360.9→360.9. Crossfade shipped for the
+    DOM label layer only (WebGL layers already fade continuously with
+    distance) — full geometry crossfade not implemented.
+33. **FlowStory lifecycle** (7th review PR2) — SHIPPED R7: storyBuilds
+    stayed 1 across 2 LOD transitions + camera drag; 20-step held scrub =
+    0 builds/0 diffs during, +1 diff on commit; replay chip = the only
+    reset (builds 2). Removed sparks fade 150ms; joiners enter ambient.
+34. **Immediate contact feedback** (7th review PR2) — SHIPPED R7: press→
+    applied p95 0.3ms (same dispatch), terrain flash 50ms attack/160ms
+    decay, search/keyboard selections covered, reduced-motion skips.
+35. **Visual hierarchy regrade v2** (7th review PR3) — SHIPPED R7:
+    below-10%-L pixel share 91.6%→68.0% (sea = its own L1 value at the
+    mode palette), QA pins the band; 45 color literals → tokens + vitest
+    lint; 13px map-text floor lint; semantic mid 229 raw → ≤24
+    constellation corridors; seal + treaty-ink retreat. Art-directed
+    palette pass (17) remains open; 30/31 subsumed.
+36. **Kafka vertical slice** (7th review PR4) — SHIPPED R7: 11-assert
+    uncut loop scene (hover p95 17.6ms → contact 0.3ms → narrative live →
+    lens relief amp 0.97 → 5 towns/5 clusters/2 road segments →
+    bidirectional hover → town card with safe-area framing → Escape
+    ladder → drag cuts the restore flight). Port/sea-route archetypes
+    stay data-blocked (no translation edges in the taxonomy yet).
+37. **Memory/line-quality** (7th review PR5) — PARTIAL R7: seal atlas
+    shipped (100 CanvasTextures → 1 shared source, one GPU upload; bytes
+    honestly ±0 at the same 256px cells — the win is binds/uploads/
+    lifecycle, recorded per the "adopt only if numbers improve" rule);
+    memory-soak-long shipped (bytes flat at 64.8MiB across 20/100/500
+    scrub checkpoints, slope 0, release back to 54.1MiB). NOT implemented:
+    the near-plate visible-patch spike — analysis recorded: full-equirect
+    8192×4096 near plate ≈170.7MiB with mips vs a 2048² camera-window
+    patch ≈22.4MiB (−87%), at the cost of worker repaints on camera pan
+    with hysteresis margins; do this spike before any galaxy-scale corpus,
+    together with the SDF coast/line-quality experiment.
 38. **Touch two-stage select** (7th review P1, deferred): first tap =
     preselect/context chip, second tap = enter. Needs a real touch-device
     pass, not just emulation; do with item 25's device matrix.

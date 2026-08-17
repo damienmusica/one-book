@@ -38,6 +38,11 @@ SwiftShader 폴백 — 사용된 모드는 `metrics.json`의 `rendererLaunched`�
 | `reduced-motion` | 스파크 0 + 정적 화살촉 유지 (방향 정보는 모션 없이도 보존) |
 | `geo-density` | 지리 원경 지역 클러스터 + 억제율 ≤25%(하드), **관계 LOD**: 미선택 raw 간선 0(229였다) — far 지역 항로 ≤16·상중경 항로 ≤24·인장 줌 quiet, **인장 군집** 겹침 ≤2(하드), 칩→팝오버→선택 E2E |
 | `memory-soak` | 연도 스크럽 20회+선택 20회 후 텍스처/지오메트리/추정 바이트 기준선 복귀(LRU·해제 검증) |
+| `vertical-slice` | **R7 20초 무편집 루프**: 회전으로 카프카 탐색 → hover p95≤50ms → 클릭 접촉 p95≤50ms → 취소 가능 focus → 활성 서사 → **렌즈 기복**(§4¾) → 도시 실루엣·읽기 가도 → 프로필↔지도 양방향 hover → 도시 진입 카드 **safe-area**(패널에 안 묻힘) → Escape 사다리 복귀 → 드래그가 자동 비행 절단 |
+| `flow-lifecycle` | **서사 수명주기**: LOD 2회 전환·카메라 드래그에 storyBuilds 불변, 스크럽 중 preview만(재시작 0), commit은 diff ≤1, 재생 버튼만 리셋 |
+| `camera-interrupt` | **카메라 주권**: pointerdown/wheel이 자동 focus를 같은 디스패치에서 절단(월 21ms), 인계 후 스냅 0(최악 프레임 스텝 <0.1rad), Escape 북마크 복원(dist 오차 <8) |
+| `lod-hysteresis` | 경계 ±3% 휠 진동 30회 × 두 경계에서 티어 전환 0, 의도된 이동은 전환됨 |
+| `memory-soak-long` | **20/100/500 체크포인트 기울기 수렴**(바이트 @500 ≤ @100×1.02), 카운트 유계, 최종 해제 복귀 |
 | `en-locale` | 헤더·범례·프로필 영어 전환 |
 | `dpr2` | deviceScaleFactor 2에서 렌더·pixelRatio 캡 검증 |
 | `fallback-2d` | `?nowebgl=1` 2D 에고 그래프: 근거 카드, 키보드 조작(Enter/Escape/이동), 3D 컨트롤 비노출 |

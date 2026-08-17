@@ -136,6 +136,9 @@ Encoding { channel(면적|링크기|테두리|파티나|…), metric, formula, v
 | 도시 등장 | 작품 출간년 ≤ 페이더 연도 | legendEra | 3층 동시 필터(플레이트·라벨·마커) |
 | 조약 잉크 | 가맹 해안 안쪽 인셋 세선 × treatyPresence | legendUnion | 최종-범위 기하, landNow 마스크 |
 | 조약 기간 (≈) | 가맹 작가 activeRange의 ≥2 동시 활동 인터벌 | legendUnion | **계산치** — 역사적 존속 기간 아님; 공백은 병합하지 않고 잉크가 소산·재형성 |
+| 도시 실루엣 (R7) | capital=readingOrder 입구(다층+첨탑) / city=랭크 내(2층) / outpost=랭크 외(1층); footprint=랭크 가중 | legendTerrainTitle | 큐레이션된 읽기 지위의 형태 번역 — 판매량·명성 아님 |
+| 읽기 가도 (R7) | readingOrder 인접쌍을 잇는 점선 지표 호 | legendTerrainTitle | 큐레이션 경로 — 역사적 이동로 아님 |
+| 렌즈 기복 (§4¾) | corpus-density × smoothstep(국경 거리) 음영 | lensCorpusNote (렌즈 켤 때만) | 명시 옵트인 — 꺼진 화면의 산맥은 버그 |
 
 - 고도 도입 조건은 §4¾ 렌즈 계약으로 승격됐다 (7차 리뷰, 2026-08-17).
 - 레지스트리에 없는 채널은 QA legend-contract가 실패시킨다.

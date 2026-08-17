@@ -1413,6 +1413,67 @@ export const SCENES = {
     }
   },
 
+  "memory-soak-long": {
+    title: "메모리 soak 20/100/500: 자원 기울기가 0으로 수렴한다",
+    async run(ctx) {
+      // 7th review: "20회 복귀"는 누수 없음의 증명이 아니다 — 체크포인트
+      // 사이의 기울기가 0으로 수렴해야 한다. 연도 키보드 스텝은 커밋마다
+      // 시대 브래킷·수명 텍스처·flow diff 경로를 두드리는 실사용 스트레스다.
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      await ctx.settle(2600); // deferred boot work (seal atlas, union plate)
+      const slider = ctx.page.locator(".timeline-slider");
+      await slider.focus();
+      await ctx.settle(400);
+      const read = async () => {
+        const m = await ctx.metrics();
+        return {
+          textures: m.renderer.textures,
+          geometries: m.renderer.geometries,
+          bytes: m.renderer.memory.textureBytesEstimate
+        };
+      };
+      const checkpoints = [20, 100, 500];
+      const samples = [];
+      let done = 0;
+      for (const target of checkpoints) {
+        while (done < target) {
+          // one step down, one step up — era brackets churn, year commits
+          await slider.press("ArrowLeft");
+          await ctx.page.waitForTimeout(18);
+          await slider.press("ArrowRight");
+          await ctx.page.waitForTimeout(18);
+          done++;
+        }
+        await ctx.settle(1500); // release timers breathe
+        samples.push({ n: target, ...(await read()) });
+      }
+      // extra idle so the 10s era-plate release can run before the verdict
+      await ctx.settle(11000);
+      const final = await read();
+      const s20 = samples[0];
+      const s100 = samples[1];
+      const s500 = samples[2];
+      ctx.assert(
+        "soak-slope-converges",
+        s500.bytes <= s100.bytes * 1.02 && s100.bytes <= s20.bytes * 1.05,
+        `bytes @20 ${(s20.bytes / 1048576).toFixed(1)}MiB → @100 ${(s100.bytes / 1048576).toFixed(1)} → @500 ${(s500.bytes / 1048576).toFixed(1)} (slope→0)`
+      );
+      ctx.assert(
+        "soak-counts-bounded",
+        Math.abs(s500.textures - s20.textures) <= 3 &&
+          Math.abs(s500.geometries - s20.geometries) <= 4,
+        `textures ${s20.textures}→${s500.textures}, geometries ${s20.geometries}→${s500.geometries}`
+      );
+      ctx.assert(
+        "soak-final-release",
+        final.bytes <= s20.bytes * 1.05,
+        `after release wait: ${(final.bytes / 1048576).toFixed(1)}MiB vs @20 ${(s20.bytes / 1048576).toFixed(1)}MiB`
+      );
+      await ctx.beat("after-500");
+    }
+  },
+
   "en-locale": {
     title: "EN locale: 헤더·범례·프로필 영어 전환",
     async run(ctx) {
