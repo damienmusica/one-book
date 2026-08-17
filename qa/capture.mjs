@@ -68,6 +68,10 @@ async function loadRelations() {
 }
 const relationsById = await loadRelations();
 const tours = JSON.parse(await readFile(path.join(ROOT, "data", "tours.json"), "utf8"));
+// canonical tectonic keyframes — scenes bind user-facing text to this file
+const erasData = JSON.parse(
+  await readFile(path.join(ROOT, "data", "territory.v1.eras.json"), "utf8")
+);
 
 // --- browser per renderer mode ----------------------------------------------
 // hardware = headed Chromium on the host GPU. swiftshader = headless software
@@ -184,6 +188,7 @@ for (const sceneName of sceneNames) {
     page,
     relationsById,
     tours,
+    erasData,
     data: {},
     async goto(hash) {
       await page.goto(`${baseUrl}${hash}`, { waitUntil: "load" });

@@ -103,6 +103,30 @@ export const SCENES = {
         `incoming ${incoming}, outgoing ${outgoing}`
       );
 
+      // 도착 반응 (5th review P0-5): wait past the longest first lap, then the
+      // event log must show the selected star answering an incoming spark and
+      // outgoing receivers answering theirs — each node pulses exactly once
+      await ctx.settle(4200);
+      await ctx.beat("arrival-pulses");
+      const arrivals = (await ctx.events()).filter((e) => e.type === "flow-arrival");
+      ctx.assert(
+        "selected-star-answers-incoming",
+        arrivals.some((e) => e.kind === "incoming" && e.node === KAFKA),
+        `arrivals: ${arrivals.length} (${arrivals.filter((e) => e.kind === "incoming").length} in)`
+      );
+      ctx.assert(
+        "receivers-answer-outgoing",
+        arrivals.some((e) => e.kind === "outgoing" && e.node !== KAFKA),
+        `outgoing arrivals: ${arrivals.filter((e) => e.kind === "outgoing").length}`
+      );
+      const perNode = new Map();
+      for (const a of arrivals) perNode.set(a.node, (perNode.get(a.node) ?? 0) + 1);
+      ctx.assert(
+        "one-pulse-per-node",
+        [...perNode.values()].every((n) => n === 1),
+        `${perNode.size} nodes pulsed, max per node ${Math.max(0, ...perNode.values())}`
+      );
+
       await searchSelect(ctx, "보르헤스", BORGES);
       await ctx.beat("travel-borges");
       await searchSelect(ctx, "카프카", KAFKA);
@@ -201,39 +225,58 @@ export const SCENES = {
       await ctx.page.keyboard.press("Escape");
       await ctx.page.locator(".work-card").waitFor({ state: "detached", timeout: 5000 });
 
-      // v2.0 first-class entities: hover then click the 3D marker's own
-      // screen position — a true raycast pick, not the DOM label
+      // v2.0 first-class entities: hover then click a 3D marker's own screen
+      // position — a true raycast pick, not the DOM label. The probe point
+      // must reach the CANVAS: any interactive DOM label (padded work labels)
+      // swallows pointer events, so pick a marker+offset whose point clears
+      // every visible label rect (typography grew in R5-C — measured, not
+      // assumed).
       const mk = (await ctx.metrics()).renderer?.cityMarkers;
       ctx.assert("city-markers-live", (mk?.count ?? 0) >= 4, `markers: ${mk?.count ?? 0}`);
-      const target = mk?.screen.find((p) => p.id === "franz-kafka--das-schloss");
-      if (target) {
-        // 18px above center clears the label's padded box — the canvas (and
-        // only the raycaster) sees this point. Two-step move defeats the
-        // hover rAF coalescing.
-        const px = target.x;
-        const py = target.y - 18;
-        await ctx.page.mouse.move(px, py, { steps: 8 });
+      const labelRects = await ctx.page
+        .locator(".globe-label.is-interactive:visible")
+        .evaluateAll((els) =>
+          els.map((el) => {
+            const r = el.getBoundingClientRect();
+            return { x0: r.left, x1: r.right, y0: r.top, y1: r.bottom };
+          })
+        );
+      const clearOf = (x, y) =>
+        !labelRects.some((r) => x >= r.x0 - 2 && x <= r.x1 + 2 && y >= r.y0 - 2 && y <= r.y1 + 2);
+      let probePoint = null;
+      for (const cand of mk?.screen ?? []) {
+        for (const [dx, dy] of [[0, -22], [0, -30], [24, -12], [-24, -12]]) {
+          if (clearOf(cand.x + dx, cand.y + dy)) {
+            probePoint = { id: cand.id, x: cand.x + dx, y: cand.y + dy };
+            break;
+          }
+        }
+        if (probePoint) break;
+      }
+      if (probePoint) {
+        // two-step move defeats the hover rAF coalescing
+        await ctx.page.mouse.move(probePoint.x, probePoint.y, { steps: 8 });
         await ctx.settle(200);
-        await ctx.page.mouse.move(px + 1, py);
+        await ctx.page.mouse.move(probePoint.x + 1, probePoint.y);
         await ctx.settle(250);
         const hovered = await ctx.page.evaluate(() => window.__lpQA.state().hoveredWorkId);
         ctx.assert(
           "marker-hover-shared",
-          hovered === "franz-kafka--das-schloss",
-          `hoveredWorkId (via raycast): ${hovered}`
+          hovered === probePoint.id,
+          `hoveredWorkId (via raycast): ${hovered} (probe ${probePoint.id})`
         );
-        await ctx.page.mouse.click(px, py);
+        await ctx.page.mouse.click(probePoint.x, probePoint.y);
         await ctx.page.locator(".work-card").waitFor({ timeout: 5000 });
-        const cardT = await ctx.page.locator(".work-card").textContent();
+        const pickedWork = await ctx.page.evaluate(() => window.__lpQA.state().selectedWorkId);
         ctx.assert(
           "marker-raycast-pick",
-          Boolean(cardT && cardT.includes("성")),
-          "3D marker click opened 『성』 card"
+          pickedWork === probePoint.id,
+          `3D marker click opened the card for ${pickedWork}`
         );
         await ctx.beat("marker-pick");
         await ctx.page.keyboard.press("Escape");
       } else {
-        ctx.assert("marker-raycast-pick", false, "das-schloss marker not on screen");
+        ctx.assert("marker-raycast-pick", false, "no marker had a label-clear probe point");
       }
 
       // ring size = curated reading rank + ◆ harbor = entry are live; the
@@ -342,7 +385,27 @@ export const SCENES = {
         undefined,
         { timeout: 25000 }
       );
-      ctx.assert("tectonic-plates-ready", true, "8 keyframe plates painted");
+      ctx.assert("tectonic-plates-ready", true, "8 keyframe plates painted (async chunk)");
+
+      // semantic contract (5th review P0-1): what the legend tells the reader
+      // must be bound to the shipped eras file — years, keyframe count, the
+      // computed-not-measured marking — checked against data, not vibes
+      const erasFile = ctx.erasData;
+      const legendEra = (await ctx.page.locator(".legend-era").textContent()) ?? "";
+      const eraSpan = `${erasFile.keyframes[0].year}–${erasFile.keyframes.at(-1).year}`;
+      ctx.assert(
+        "legend-era-matches-data",
+        legendEra.includes(eraSpan) &&
+          legendEra.includes(`${erasFile.keyframes.length}개 키프레임`) &&
+          legendEra.includes("계산치"),
+        `legend says: ${legendEra.slice(0, 90)}…`
+      );
+      ctx.assert(
+        "eras-growth-formula-pinned",
+        String(erasFile.params.growth).includes("0.5*foundingRamp") &&
+          String(erasFile.params.growth).includes("0.5*publishedWorksShare"),
+        String(erasFile.params.growth)
+      );
 
       // 카프카 국가의 생애 4막 — 미형성 유령 섬 → 건국 램프 → 활동 → 유산
       // 파티나 — 이제 지형 자체가 브래킷을 따라 자란다
@@ -376,6 +439,20 @@ export const SCENES = {
           `bracket ${JSON.stringify(era?.bracket)}, mix ${era?.mix} (expected ${JSON.stringify(bracket)} @ ${mix})`
         );
       }
+
+      // the open profile must name the sovereignty state while the fader
+      // filters (P1-2: selection vs era-filter conflict) — the selection is
+      // kept, the badge explains the ghosted territory behind the card
+      await ctx.goto("#/?a=franz-kafka&y=1880");
+      await ctx.waitIdle();
+      await ctx.settle(300);
+      const badge = await ctx.page.locator('[data-qa="era-badge"]').textContent();
+      ctx.assert(
+        "era-badge-on-profile",
+        Boolean(badge && badge.includes("미형성") && badge.includes("1880")),
+        `badge: ${badge ?? "(none)"}`
+      );
+      await ctx.beat("era-badge-profile");
 
       // 전체 시기(누적)에서는 셰이더가 완전 우회 — v1 도판 보존 계약
       await ctx.goto("#/?a=franz-kafka&pv=0");
@@ -453,17 +530,19 @@ export const SCENES = {
           .evaluateAll((els) =>
             els.filter((el) => el.style.display !== "none").map((el) => el.textContent ?? "")
           );
-        cartouche = mvLabels.find((t) => /·\s*1\d{3}–\d{4}/.test(t)) ?? null;
+        cartouche = mvLabels.find((t) => /≈\s*1\d{3}–\d{4}/.test(t)) ?? null;
         if (!cartouche) {
           await ctx.drag([960, 500], [700, 500]);
           await ctx.settle(800);
         }
       }
       if (cartouche) await ctx.beat("treaty-cartouche");
+      // the ≈ prefix is load-bearing: it marks the span as computed from
+      // corpus activity overlap, not a curated historical period
       ctx.assert(
-        "treaty-period-on-label",
-        cartouche !== null,
-        cartouche ?? "no treaty cartouche found in a full sweep"
+        "treaty-period-marked-computed",
+        cartouche !== null && cartouche.includes("≈"),
+        cartouche ?? "no ≈-marked treaty cartouche found in a full sweep"
       );
     }
   },
@@ -519,11 +598,18 @@ export const SCENES = {
       );
       const flows = (await ctx.events()).filter((e) => e.type === "flows-built");
       ctx.assert("no-flow-events", flows.length === 0, `flows-built events: ${flows.length}`);
+      // no sparks → no arrivals → no pulses (the static encodings carry it all)
+      const arrivals = (await ctx.events()).filter((e) => e.type === "flow-arrival");
+      ctx.assert(
+        "no-arrival-pulses",
+        arrivals.length === 0 && (m.renderer?.flowArrivals ?? -1) === 0,
+        `arrival events: ${arrivals.length}, pulsed nodes: ${m.renderer?.flowArrivals}`
+      );
     }
   },
 
   "geo-density": {
-    title: "실제 지리 밀도: 원경 지역 클러스터, 억제율 예산",
+    title: "실제 지리 밀도: 원경 지역 클러스터 + 중경 인장 군집(겹침 예산)",
     async run(ctx) {
       await ctx.goto("#/?m=geo");
       await ctx.waitIdle();
@@ -544,13 +630,14 @@ export const SCENES = {
         `suppressed ${r.labelsSuppressed}/${(r.labelsShown ?? 0) + (r.labelsSuppressed ?? 0)} = ${(farRate * 100).toFixed(1)}% (budget 25%)`
       );
 
-      // mid zoom: authors return; rate is recorded as the known city-cluster
-      // gap (backlog), not asserted
+      // mid zoom: seals develop — colliding seals now collapse into
+      // representative + "+N" chip (R5-B), so the true-overlap metric that
+      // measured 144 pairs on 2d5a3e3 becomes a hard release gate
       await ctx.page.locator('button[aria-label="확대"]').click();
       await ctx.waitIdle();
       await ctx.page.locator('button[aria-label="확대"]').click();
       await ctx.waitIdle();
-      await ctx.settle(400);
+      await ctx.settle(600);
       await ctx.beat("geo-mid");
       const mid = (await ctx.metrics()).renderer ?? {};
       ctx.data.geoMidSuppression = {
@@ -559,13 +646,37 @@ export const SCENES = {
         overlapping: mid.labelsOverlapping,
         seals: mid.seals
       };
-      // the eye and the numbers must point at the same failure: seal-sprite
-      // overlap is now measured, declared, and waiting on city clustering
-      ctx.notImplemented(
-        "geo-city-clusters",
-        `mid zoom: ${mid.seals?.overlapPairs ?? "?"} overlapping seal pairs (${mid.seals?.visible ?? "?"} visible), ` +
-          `${mid.labelsSuppressed} label candidates suppressed; city-level clustering is backlogged (ux-backlog 14)`
+      ctx.assert(
+        "geo-mid-seals-clustered",
+        (mid.seals?.clusters ?? 0) >= 1 && (mid.seals?.clusteredMembers ?? 0) >= 1,
+        `${mid.seals?.clusters} clusters absorb ${mid.seals?.clusteredMembers} members ` +
+          `(${mid.seals?.visible} seals visible)`
       );
+      ctx.assert(
+        "geo-mid-overlap-budget",
+        (mid.seals?.overlapPairs ?? 99) <= 2,
+        `overlapping seal pairs: ${mid.seals?.overlapPairs} (budget ≤2; was 144 on 2d5a3e3)`
+      );
+
+      // the chip is a real door: click → member list → select a writer
+      const chip = ctx.page.locator(".globe-label--cluster:visible").first();
+      await chip.waitFor({ timeout: 5000 });
+      await chip.click();
+      await ctx.page.locator('[data-qa="cluster-popover"]').waitFor({ timeout: 5000 });
+      await ctx.beat("cluster-popover");
+      const memberButtons = ctx.page.locator('[data-qa="cluster-popover"] button[data-author-id]');
+      const memberCount = await memberButtons.count();
+      ctx.assert("cluster-popover-lists-members", memberCount >= 2, `${memberCount} members listed`);
+      const targetId = await memberButtons.nth(1).getAttribute("data-author-id");
+      await memberButtons.nth(1).click();
+      await ctx.settle(600);
+      const sel = await ctx.page.evaluate(() => window.__lpQA.state().selectedAuthorId);
+      ctx.assert(
+        "cluster-member-selectable",
+        sel === targetId,
+        `selected ${sel} (wanted ${targetId})`
+      );
+      await ctx.beat("cluster-selected");
     }
   },
 

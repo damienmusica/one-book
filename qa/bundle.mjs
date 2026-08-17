@@ -118,9 +118,22 @@ const sourceZip = "literary-planet-source.zip";
 const repoRoot = execFileSync("git", ["rev-parse", "--show-toplevel"], { cwd: ROOT })
   .toString()
   .trim();
+// BUILD_COMMIT rides inside the snapshot so a rebuild from the zip stamps
+// the real commit instead of "unknown" (5th review reproducibility finding)
+const headShort = execFileSync("git", ["rev-parse", "--short", "HEAD"], { cwd: repoRoot })
+  .toString()
+  .trim();
 execFileSync(
   "git",
-  ["archive", "--format=zip", "-o", path.join(ROOT, sourceZip), "HEAD", "literary-planet"],
+  [
+    "archive",
+    "--format=zip",
+    `--add-virtual-file=literary-planet/BUILD_COMMIT:${headShort}`,
+    "-o",
+    path.join(ROOT, sourceZip),
+    "HEAD",
+    "literary-planet"
+  ],
   { cwd: repoRoot }
 );
 
