@@ -170,6 +170,32 @@ listed at the bottom so we don't re-litigate them.
 > exit 0) — the reviewer's hanging-process observation did not reproduce on
 > macOS; likely their sandbox's tsx/IPC quirk, watch in CI.
 
+> 2026-08-17 sixth review (source-audited, of a601479): again zero
+> rebuttals — every number matched our own artifacts (renderer 2,323 lines,
+> overview boot p99 133.3ms, geo mid 229 relations / 8,112 glLines, 13
+> outgoing pulses inside a 166ms window against a 12-slot pool). The review
+> prescribed the sprint (PR1–6) and we executed it same-day: instrumentation
+> first (p99/max/long-task columns, texture-byte ledger, per-scene request
+> log), then TRUE demand loading — the eras JSON now loads and parses inside
+> the paint worker on first timeline intent, era/near/union plates paint
+> off-thread, resident era plates LRU ≤3, target/display year split commits
+> atomically with a "시간 지도 준비 중" state. Boot went from hitches in
+> 12/12 scenes to ONE 66ms bootstrap task before first paint; the
+> first-interaction window gates at p99 <50ms + zero long tasks (measured
+> 18.6ms). RelationLayer policy: unselected geo draws 0 raw edges (was 229)
+> — ≤16 region corridors at far, ≤24 cluster corridors at mid, quiet at
+> near; selection ego caps at 20 with "더 보기" (max degree today is 18, so
+> the cap is dormant but tested). Flow state machine v2: staggered incoming,
+> an impact RING at the center, outgoing in 3 waves (arrival spread 967ms,
+> was 166ms), pulse pool sized to receivers (14 starts / 14 ends, no
+> truncation), pulse-start/end events + an event-synced live-pulse capture.
+> Cluster popover: focus returns to the +N chip, bottom clamp, majority-
+> region title, aria-describedby. Selection reticle: single ring + short
+> halo. Legend: four folding keys. New memory-soak scene: 20 scrubs + 20
+> selections return textures/bytes to baseline (7→10→8 textures, 54.1MiB
+> steady). Deliberately NOT finished: the ≤900-line coordinator (item 29
+> stays open — two layers extracted as real modules, the rest continues).
+
 27. **Movement historical periods (editorial data model)**: curated
     movement-level activeRange with sources + uncertainty + per-author
     membership spans (join/leave or core-participation years), stored as
@@ -178,11 +204,16 @@ listed at the bottom so we don't re-litigate them.
 28. **Movement selection**: treaty cartouche + inset strokes clickable →
     movement card (description, members, period basis ≈ formula + sources,
     multi-membership); "보이는 것은 역으로 설명 가능해야 한다" (5th review).
-29. **Renderer Layer decomposition** (dedicated sprint, deliberately NOT
-    bundled into the fix sprint): renderer.ts ~2,100 lines → the documented
-    Layer interface (update/render/pick/describe/metrics/dispose) from
-    territory-grammar §6; the QA harness is the safety net. Planet/era data
-    lazy-loading landed first (this sprint) so the split can be mechanical.
+29. **Renderer Layer decomposition** (strangler, in progress): the 6th-review
+    sprint extracted `layers/temporal-terrain.ts` (worker paints, LRU,
+    demand loading, own metrics/dispose) and `layers/relation-view.ts` (the
+    raw/aggregate/ego display policy, unit-tested), and rewrote the flow
+    state machine + pulse pool in place. renderer.ts is 2,681 lines as of
+    R6 — still the coordinator AND the nation/seal/label/pick host; the
+    remaining extractions (NationLayer, SealClusterLayer, FlowLayer file
+    moves, ≤900-line coordinator) continue next sprint with the QA scenes
+    as the characterization net. Do not update this count by hand — run
+    `wc -l src/globe/renderer.ts`.
 30. **Era-growth legibility pass**: the 1880→1915 change is subtle in the
     low-value palette (5th review) — candidate treatments: brighter embryonic
     islet ink, coastline-delta shimmer during scrub, era readout near the
