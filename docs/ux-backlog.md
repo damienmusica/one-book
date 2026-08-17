@@ -81,6 +81,8 @@ listed at the bottom so we don't re-litigate them.
 13. **City-system depth** (third review P2): thematic districts, translation
     ports, adaptation bridges inside a territory; work-level metrics need
     registered semantics + legend before any "importance" encoding.
+    *(2026-08-17: entity promotion shipped in territory v2.0 — raycastable
+    markers, shared hover, 44px+ hits; districts/ports/bridges remain.)*
 14. **Geo mid-zoom city clustering.** Far LOD now clusters by region; dense
     mid-zoom areas (Europe) still suppress many label candidates — cluster
     same-city authors with spiral expansion on focus.

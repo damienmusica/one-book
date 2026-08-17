@@ -199,6 +199,42 @@ export const SCENES = {
       await ctx.beat("work-card-keyboard");
       ctx.assert("work-keyboard-open", true, "Enter on focused town label");
       await ctx.page.keyboard.press("Escape");
+      await ctx.page.locator(".work-card").waitFor({ state: "detached", timeout: 5000 });
+
+      // v2.0 first-class entities: hover then click the 3D marker's own
+      // screen position — a true raycast pick, not the DOM label
+      const mk = (await ctx.metrics()).renderer?.cityMarkers;
+      ctx.assert("city-markers-live", (mk?.count ?? 0) >= 4, `markers: ${mk?.count ?? 0}`);
+      const target = mk?.screen.find((p) => p.id === "franz-kafka--das-schloss");
+      if (target) {
+        // 18px above center clears the label's padded box — the canvas (and
+        // only the raycaster) sees this point. Two-step move defeats the
+        // hover rAF coalescing.
+        const px = target.x;
+        const py = target.y - 18;
+        await ctx.page.mouse.move(px, py, { steps: 8 });
+        await ctx.settle(200);
+        await ctx.page.mouse.move(px + 1, py);
+        await ctx.settle(250);
+        const hovered = await ctx.page.evaluate(() => window.__lpQA.state().hoveredWorkId);
+        ctx.assert(
+          "marker-hover-shared",
+          hovered === "franz-kafka--das-schloss",
+          `hoveredWorkId (via raycast): ${hovered}`
+        );
+        await ctx.page.mouse.click(px, py);
+        await ctx.page.locator(".work-card").waitFor({ timeout: 5000 });
+        const cardT = await ctx.page.locator(".work-card").textContent();
+        ctx.assert(
+          "marker-raycast-pick",
+          Boolean(cardT && cardT.includes("성")),
+          "3D marker click opened 『성』 card"
+        );
+        await ctx.beat("marker-pick");
+        await ctx.page.keyboard.press("Escape");
+      } else {
+        ctx.assert("marker-raycast-pick", false, "das-schloss marker not on screen");
+      }
 
       // ring size = curated reading rank + ◆ harbor = entry are live; the
       // full city system (thematic districts, translation ports, adaptation
@@ -292,6 +328,88 @@ export const SCENES = {
         const note = await ctx.page.locator(".tour-note").textContent();
         ctx.assert(`stop-${i + 1}-has-note`, Boolean(note && note.trim().length > 0), "");
       }
+    }
+  },
+
+  "era-morph": {
+    title: "시대 페이더: 주권 크로스페이드·연합 조약 (해안선 불변)",
+    async run(ctx) {
+      // 카프카 국가의 생애 4막 — 미형성 유령 해안 → 건국 램프 → 활동 → 유산 파티나
+      const stages = [
+        [1880, "unformed", (l) => Math.abs(l.presence - 0.15) < 0.02 && l.patina === 0],
+        [1908, "founding", (l) => l.presence > 0.4 && l.presence < 0.75],
+        [1915, "active", (l) => l.presence === 1 && l.patina === 0],
+        [1960, "heritage", (l) => l.presence === 1 && l.patina > 0.8]
+      ];
+      for (const [y, name, ok] of stages) {
+        await ctx.goto(`#/?a=franz-kafka&pv=0&y=${y}`);
+        await ctx.waitIdle();
+        await ctx.settle(350);
+        await ctx.beat(`y${y}-${name}`);
+        const m = await ctx.metrics();
+        const life = m.renderer?.lifecycle;
+        ctx.assert(
+          `kafka-${name}-${y}`,
+          Boolean(life?.on && life.selected && ok(life.selected)),
+          `presence ${life?.selected?.presence}, patina ${life?.selected?.patina}`
+        );
+      }
+
+      // 전체 시기(누적)에서는 셰이더가 완전 우회 — v1 도판 보존 계약
+      await ctx.goto("#/?a=franz-kafka&pv=0");
+      await ctx.waitIdle();
+      await ctx.beat("full-view-bypass");
+      const full = await ctx.metrics();
+      ctx.assert(
+        "default-look-preserved",
+        full.renderer?.lifecycle?.on === false,
+        "lifecycle bypassed at 전체 시기 cumulative"
+      );
+
+      // 1925 중경: 연합 조약 오버레이가 뜨고, 라벨이 조약기를 새긴다
+      await ctx.goto("#/?y=1925");
+      await ctx.waitIdle();
+      for (let i = 0; i < 6; i++) {
+        const lod = (await ctx.metrics()).renderer?.lod;
+        if (lod === "mid") break;
+        await ctx.page.locator('button[aria-label="확대"]').click();
+        await ctx.waitIdle();
+      }
+      await ctx.settle(1400); // union uniform eases in over ~40 frames
+      await ctx.beat("y1925-unions-mid");
+      const mid = await ctx.metrics();
+      ctx.assert(
+        "union-overlay-at-mid",
+        (mid.renderer?.unionOverlay ?? 0) > 0.5,
+        `uUnion ${mid.renderer?.unionOverlay}`
+      );
+      ctx.assert(
+        "treaties-active-1925",
+        (mid.renderer?.lifecycle?.activeTreaties ?? 0) >= 3,
+        `active treaties: ${mid.renderer?.lifecycle?.activeTreaties}`
+      );
+      // the treaty cartouche lives at its members' centroid — sweep the
+      // globe until one faces the camera (movement gates: ≥3 visible
+      // members, coherent centroid, front-facing)
+      let cartouche = null;
+      for (let i = 0; i < 7 && !cartouche; i++) {
+        const mvLabels = await ctx.page
+          .locator(".globe-label--movement")
+          .evaluateAll((els) =>
+            els.filter((el) => el.style.display !== "none").map((el) => el.textContent ?? "")
+          );
+        cartouche = mvLabels.find((t) => /·\s*1\d{3}–\d{4}/.test(t)) ?? null;
+        if (!cartouche) {
+          await ctx.drag([960, 500], [700, 500]);
+          await ctx.settle(800);
+        }
+      }
+      if (cartouche) await ctx.beat("treaty-cartouche");
+      ctx.assert(
+        "treaty-period-on-label",
+        cartouche !== null,
+        cartouche ?? "no treaty cartouche found in a full sweep"
+      );
     }
   },
 
