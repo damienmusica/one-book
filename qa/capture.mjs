@@ -167,6 +167,15 @@ for (const sceneName of sceneNames) {
     return route.abort();
   });
   const page = await context.newPage();
+  // local asset log with timestamps: the demand-loading gates assert what was
+  // requested WHEN (e.g. the eras chunk must not load before timeline intent)
+  const requestLog = [];
+  const captureStartedAt = Date.now();
+  page.on("request", (req) => {
+    const url = req.url();
+    if (!url.startsWith(server.origin)) return;
+    requestLog.push({ t: Date.now() - captureStartedAt, path: url.slice(server.origin.length) });
+  });
   page.on("console", (msg) => {
     if (msg.type() === "error" || msg.type() === "warning") {
       consoleLog.push({ kind: msg.type(), text: msg.text() });
@@ -189,6 +198,7 @@ for (const sceneName of sceneNames) {
     relationsById,
     tours,
     erasData,
+    requests: () => [...requestLog],
     data: {},
     async goto(hash) {
       await page.goto(`${baseUrl}${hash}`, { waitUntil: "load" });
@@ -333,6 +343,7 @@ for (const sceneName of sceneNames) {
     path.join(outDir, "console.json"),
     JSON.stringify({ messages: consoleLog, blockedExternalRequests: violations }, null, 2)
   );
+  await writeFile(path.join(outDir, "requests.json"), JSON.stringify(requestLog, null, 2));
   if (envFailed) {
     await writeFile(
       path.join(outDir, "failure-report.json"),

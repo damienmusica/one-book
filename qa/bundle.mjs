@@ -41,7 +41,11 @@ for (const dir of (await readdir(artifacts, { withFileTypes: true })).filter((d)
         beats: beats.length,
         steadyFps: avgs[Math.floor(avgs.length / 2)],
         worstP95Ms: Math.max(...beats.map((f) => f.p95Ms)),
-        worstP99Ms: Math.max(...beats.map((f) => f.p99Ms))
+        // p95 hid the 100ms+ stalls users feel most (6th review) — surface
+        // the tail and the long-task count in the headline table
+        worstP99Ms: Math.max(...beats.map((f) => f.p99Ms)),
+        worstMaxMs: Math.max(...beats.map((f) => f.maxMs ?? 0)),
+        longTasks: beats.reduce((s, f) => s + (f.longTasks ?? 0), 0)
       };
     }
   }
@@ -62,13 +66,13 @@ const lines = [
   `- hardware accelerated: ${meta.hardwareAccelerated}`,
   `- viewport: ${meta.viewport.width}×${meta.viewport.height} @ dpr ${meta.deviceScaleFactor}, locale ${meta.locale}`,
   ``,
-  `| scene | status | beats | pass | gap | fail | steady fps (med) | worst p95 ms | console errors | blocked ext. requests |`,
-  `|---|---|---|---|---|---|---|---|---|---|`,
+  `| scene | status | beats | pass | gap | fail | steady fps (med) | worst p95 ms | worst p99 ms | worst frame ms | long tasks >50ms | console errors | blocked ext. requests |`,
+  `|---|---|---|---|---|---|---|---|---|---|---|---|---|`,
   ...scenes.map(({ dir, manifest, frame }) => {
     const ok = manifest.assertions.filter((a) => a.ok === true).length;
     const gaps = manifest.assertions.filter((a) => a.notImplemented).length;
     const fails = manifest.assertions.filter((a) => a.ok === false).length;
-    return `| ${dir} | ${manifest.status} | ${manifest.beats.length} | ${ok} | ${gaps || "·"} | ${fails ? `**${fails}**` : "·"} | ${frame ? frame.steadyFps : "—"} | ${frame ? frame.worstP95Ms : "—"} | ${manifest.consoleErrors} | ${manifest.blockedExternalRequests} |`;
+    return `| ${dir} | ${manifest.status} | ${manifest.beats.length} | ${ok} | ${gaps || "·"} | ${fails ? `**${fails}**` : "·"} | ${frame ? frame.steadyFps : "—"} | ${frame ? frame.worstP95Ms : "—"} | ${frame ? frame.worstP99Ms : "—"} | ${frame ? frame.worstMaxMs : "—"} | ${frame ? frame.longTasks : "—"} | ${manifest.consoleErrors} | ${manifest.blockedExternalRequests} |`;
   }),
   ``,
   `## Not implemented (declared, not staged)`,

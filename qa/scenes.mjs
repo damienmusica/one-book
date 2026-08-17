@@ -44,9 +44,41 @@ export const SCENES = {
         `author labels shown: ${m0.renderer?.labelsByKind?.author ?? 0}`
       );
 
-      // drag = partial planet rotation (fixed pixels, fixed steps)
+      // PR2 true-lazy gate: before any timeline intent, the eras chunk must
+      // not have been requested and the first beat must be stall-free —
+      // the 6th review measured p99 133ms here when eras loaded at mount
+      const erasRequested = ctx
+        .requests()
+        .filter((r) => r.path.includes("territory.v1.eras"));
+      ctx.assert(
+        "no-eras-before-intent",
+        erasRequested.length === 0,
+        erasRequested.length ? `requested: ${erasRequested[0].path}` : "0 era requests at overview"
+      );
+      // app bootstrap long tasks (script eval + globe construction, before
+      // first paint) are LOAD time — recorded honestly, gated separately
+      // from interaction: sub-100ms boot is healthy, a stall mid-rotate is not
+      ctx.data.bootLongTasks = (m0.longTaskLog ?? []).filter((t) => t.start < 1500);
+
+      // drag = partial planet rotation (fixed pixels, fixed steps).
+      // This segment (post-beat ring reset → settle) is the FIRST INTERACTION
+      // window — the 6th-review gate: p99 < 50ms, zero long tasks. On
+      // a601479 the era paints landed here (p99 133ms); they now live in the
+      // worker, on demand.
       await ctx.drag([960, 540], [560, 500]);
       await ctx.settle(900);
+      const inter = await ctx.metrics();
+      const hw = !String(inter.renderer?.gl?.renderer ?? "").includes("SwiftShader");
+      if (hw && inter.frame) {
+        const lateTasks = (inter.longTaskLog ?? []).filter((t) => t.start >= 1500);
+        ctx.assert(
+          "first-interaction-responsive",
+          inter.frame.p99Ms < 50 && (inter.frame.longTasks ?? 99) === 0 && lateTasks.length === 0,
+          `rotate window p99 ${inter.frame.p99Ms}ms, ring long tasks ${inter.frame.longTasks}, ` +
+            `page long tasks after boot ${lateTasks.length} ` +
+            `(boot: ${ctx.data.bootLongTasks.map((t) => `${t.duration}ms@${t.start}ms`).join(",") || "none"})`
+        );
+      }
       await ctx.beat("rotated");
 
       await ctx.page.locator('button[aria-label="확대"]').click();
@@ -68,6 +100,18 @@ export const SCENES = {
       await ctx.goto("#/");
       await ctx.waitIdle();
       await searchSelect(ctx, "카프카", KAFKA);
+
+      // event-synced pulse capture (PR4): the frame is taken WHILE a pulse is
+      // alive — the a601479 "arrival-pulses" frame was shot after the last
+      // pulse had already ended
+      await ctx.page.waitForFunction(
+        () => (window.__lpQA.metrics().renderer?.activePulses ?? 0) > 0,
+        undefined,
+        { timeout: 4000 }
+      );
+      const live = (await ctx.metrics()).renderer?.activePulses ?? 0;
+      await ctx.beat("impact-ripple");
+      ctx.assert("pulse-captured-live", live > 0, `active pulses in frame: ${live}`);
       await ctx.beat("selected-profile");
 
       // Esc: profile closes, the constellation (and its sparks) stays
@@ -103,28 +147,40 @@ export const SCENES = {
         `incoming ${incoming}, outgoing ${outgoing}`
       );
 
-      // 도착 반응 (5th review P0-5): wait past the longest first lap, then the
-      // event log must show the selected star answering an incoming spark and
-      // outgoing receivers answering theirs — each node pulses exactly once
-      await ctx.settle(4200);
+      // 도착 반응 v2 (6th review PR4): the staged story — impact ripple at the
+      // center, then outgoing waves whose arrivals spread ≥800ms, one pulse
+      // per node with start/end both logged (no sprite truncation)
+      await ctx.settle(4600);
       await ctx.beat("arrival-pulses");
-      const arrivals = (await ctx.events()).filter((e) => e.type === "flow-arrival");
+      const evAll = await ctx.events();
+      const arrivals = evAll.filter((e) => e.type === "flow-arrival");
+      const starts = evAll.filter((e) => e.type === "pulse-start");
+      const ends = evAll.filter((e) => e.type === "pulse-end");
       ctx.assert(
-        "selected-star-answers-incoming",
-        arrivals.some((e) => e.kind === "incoming" && e.node === KAFKA),
-        `arrivals: ${arrivals.length} (${arrivals.filter((e) => e.kind === "incoming").length} in)`
+        "impact-ripple-at-center",
+        starts.filter((e) => e.kind === "impact" && e.node === KAFKA).length === 1,
+        `impact pulses at selected star: ${starts.filter((e) => e.kind === "impact").length}`
       );
       ctx.assert(
         "receivers-answer-outgoing",
         arrivals.some((e) => e.kind === "outgoing" && e.node !== KAFKA),
         `outgoing arrivals: ${arrivals.filter((e) => e.kind === "outgoing").length}`
       );
-      const perNode = new Map();
-      for (const a of arrivals) perNode.set(a.node, (perNode.get(a.node) ?? 0) + 1);
+      const outT = arrivals.filter((e) => e.kind === "outgoing").map((e) => e.t);
+      const spread = outT.length > 1 ? Math.max(...outT) - Math.min(...outT) : 0;
       ctx.assert(
-        "one-pulse-per-node",
-        [...perNode.values()].every((n) => n === 1),
-        `${perNode.size} nodes pulsed, max per node ${Math.max(0, ...perNode.values())}`
+        "outgoing-waves-spread",
+        spread >= 800,
+        `outgoing arrivals spread ${spread}ms across ${outT.length} receivers ` +
+          `(≥800ms; was 166ms on a601479)`
+      );
+      const perNode = new Map();
+      for (const a of starts) perNode.set(a.node, (perNode.get(a.node) ?? 0) + 1);
+      ctx.assert(
+        "one-pulse-per-node-completed",
+        [...perNode.values()].every((n) => n === 1) && ends.length === starts.length,
+        `${perNode.size} nodes pulsed once; ${starts.length} starts / ${ends.length} ends ` +
+          `(completion before reuse — pool sized to receivers)`
       );
 
       await searchSelect(ctx, "보르헤스", BORGES);
@@ -377,15 +433,29 @@ export const SCENES = {
   "era-morph": {
     title: "시대 페이더: 판구조 성장 + 주권 크로스페이드 + 연합 조약",
     async run(ctx) {
-      // v2.5: tectonic keyframe plates paint lazily — wait for the full set
+      // PR2 demand loading: at the atlas view NOTHING era-shaped may have
+      // loaded — no eras chunk request, temporal layer idle
       await ctx.goto("#/");
       await ctx.waitIdle();
-      await ctx.page.waitForFunction(
-        () => window.__lpQA.metrics().renderer?.era?.platesReady === true,
-        undefined,
-        { timeout: 25000 }
+      const preIntent = ctx.requests().filter((r) => r.path.includes("territory.v1.eras"));
+      const idleEra = (await ctx.metrics()).renderer?.era;
+      ctx.assert(
+        "eras-idle-before-intent",
+        preIntent.length === 0 && idleEra?.status === "idle",
+        `requests ${preIntent.length}, status ${idleEra?.status}`
       );
-      ctx.assert("tectonic-plates-ready", true, "8 keyframe plates painted (async chunk)");
+
+      // a year deep link IS timeline intent — the worker loads + paints the
+      // bracket and the world commits atomically when it lands
+      const waitCommit = (yy) =>
+        ctx.page.waitForFunction(
+          (target) => {
+            const e = window.__lpQA.metrics().renderer?.era;
+            return e?.active === true && e?.displayYear === target;
+          },
+          yy,
+          { timeout: 20000 }
+        );
 
       // semantic contract (5th review P0-1): what the legend tells the reader
       // must be bound to the shipped eras file — years, keyframe count, the
@@ -418,6 +488,7 @@ export const SCENES = {
       for (const [y, name, ok, bracket, mix] of stages) {
         await ctx.goto(`#/?a=franz-kafka&pv=0&y=${y}`);
         await ctx.waitIdle();
+        await waitCommit(y);
         await ctx.settle(350);
         await ctx.beat(`y${y}-${name}`);
         const m = await ctx.metrics();
@@ -440,11 +511,20 @@ export const SCENES = {
         );
       }
 
+      // LRU: after touring four years the layer may hold at most 3 plates
+      const resident = (await ctx.metrics()).renderer?.era?.residentPlates ?? [];
+      ctx.assert(
+        "era-plate-lru-bounded",
+        resident.length <= 3,
+        `resident era plates: [${resident.join(", ")}] (cap 3)`
+      );
+
       // the open profile must name the sovereignty state while the fader
       // filters (P1-2: selection vs era-filter conflict) — the selection is
       // kept, the badge explains the ghosted territory behind the card
       await ctx.goto("#/?a=franz-kafka&y=1880");
       await ctx.waitIdle();
+      await waitCommit(1880);
       await ctx.settle(300);
       const badge = await ctx.page.locator('[data-qa="era-badge"]').textContent();
       ctx.assert(
@@ -470,6 +550,7 @@ export const SCENES = {
       // 카메라를 유지한 채 시간을 이동한다.
       await ctx.goto("#/?a=franz-kafka&pv=0&y=1913");
       await ctx.waitIdle();
+      await waitCommit(1913);
       for (let i = 0; i < 8; i++) {
         if ((await ctx.metrics()).renderer?.lod === "near") break;
         await ctx.page.locator('button[aria-label="확대"]').click();
@@ -483,7 +564,8 @@ export const SCENES = {
         window.location.hash = "#/?a=franz-kafka&pv=0&y=1919";
         window.dispatchEvent(new HashChangeEvent("hashchange"));
       });
-      await ctx.settle(600);
+      await waitCommit(1919);
+      await ctx.settle(400);
       ctx.assert("founding-1919", (await founded()) === 3, `towns at 1919: ${await founded()}`);
       await ctx.beat("founding-1919");
       await ctx.page.evaluate(() => {
@@ -499,6 +581,7 @@ export const SCENES = {
       // 수렴하도록 양방향으로 조준한다.
       await ctx.goto("#/?y=1925");
       await ctx.waitIdle();
+      await waitCommit(1925);
       for (let i = 0; i < 8; i++) {
         const lod = (await ctx.metrics()).renderer?.lod;
         if (lod === "mid") break;
@@ -599,11 +682,13 @@ export const SCENES = {
       const flows = (await ctx.events()).filter((e) => e.type === "flows-built");
       ctx.assert("no-flow-events", flows.length === 0, `flows-built events: ${flows.length}`);
       // no sparks → no arrivals → no pulses (the static encodings carry it all)
-      const arrivals = (await ctx.events()).filter((e) => e.type === "flow-arrival");
+      const quietEvents = await ctx.events();
+      const arrivals = quietEvents.filter((e) => e.type === "flow-arrival");
+      const pulses = quietEvents.filter((e) => e.type === "pulse-start");
       ctx.assert(
         "no-arrival-pulses",
-        arrivals.length === 0 && (m.renderer?.flowArrivals ?? -1) === 0,
-        `arrival events: ${arrivals.length}, pulsed nodes: ${m.renderer?.flowArrivals}`
+        arrivals.length === 0 && pulses.length === 0 && (m.renderer?.flowArrivals ?? -1) === 0,
+        `arrival events ${arrivals.length}, pulse events ${pulses.length}, pulsed nodes ${m.renderer?.flowArrivals}`
       );
     }
   },
@@ -622,6 +707,15 @@ export const SCENES = {
         (r.labelsByKind?.region ?? 0) >= 6,
         `region labels: ${r.labelsByKind?.region ?? 0} (front hemisphere)`
       );
+      // PR3: the unselected geo view draws ZERO raw relations — aggregate
+      // corridors only (229 raw edges was the 6th review's biggest visual finding)
+      ctx.assert(
+        "geo-far-no-raw-edges",
+        r.relationView?.rawDrawn === 0 &&
+          (r.relationView?.aggregateRoutes ?? 99) <= 16 &&
+          (r.relationView?.aggregateRoutes ?? 0) > 0,
+        `raw ${r.relationView?.rawDrawn}, routes ${r.relationView?.aggregateRoutes} (≤16)`
+      );
       const farRate =
         (r.labelsSuppressed ?? 0) / Math.max(1, (r.labelsShown ?? 0) + (r.labelsSuppressed ?? 0));
       ctx.assert(
@@ -630,11 +724,24 @@ export const SCENES = {
         `suppressed ${r.labelsSuppressed}/${(r.labelsShown ?? 0) + (r.labelsSuppressed ?? 0)} = ${(farRate * 100).toFixed(1)}% (budget 25%)`
       );
 
-      // mid zoom: seals develop — colliding seals now collapse into
-      // representative + "+N" chip (R5-B), so the true-overlap metric that
-      // measured 144 pairs on 2d5a3e3 becomes a hard release gate
+      // upper mid (seals not yet developed): corridors still speak in regions
       await ctx.page.locator('button[aria-label="확대"]').click();
       await ctx.waitIdle();
+      await ctx.settle(500);
+      await ctx.beat("geo-upper-mid");
+      const um = (await ctx.metrics()).renderer ?? {};
+      ctx.assert(
+        "geo-upper-mid-corridors",
+        um.relationView?.rawDrawn === 0 &&
+          (um.relationView?.aggregateRoutes ?? 0) > 0 &&
+          (um.relationView?.aggregateRoutes ?? 99) <= 24,
+        `raw ${um.relationView?.rawDrawn}, corridors ${um.relationView?.aggregateRoutes} (region-grouped, ≤24)`
+      );
+
+      // seal zoom: colliding seals collapse into representative + "+N" chip
+      // (R5-B); the true-overlap metric that measured 144 pairs on 2d5a3e3
+      // is a hard gate, and the relation policy goes quiet here (hover/
+      // selection carry the lines)
       await ctx.page.locator('button[aria-label="확대"]').click();
       await ctx.waitIdle();
       await ctx.settle(600);
@@ -657,6 +764,12 @@ export const SCENES = {
         (mid.seals?.overlapPairs ?? 99) <= 2,
         `overlapping seal pairs: ${mid.seals?.overlapPairs} (budget ≤2; was 144 on 2d5a3e3)`
       );
+      ctx.assert(
+        "geo-seal-zoom-no-raw-edges",
+        mid.relationView?.rawDrawn === 0 && (mid.relationView?.aggregateRoutes ?? 99) <= 24,
+        `raw ${mid.relationView?.rawDrawn} (was 229 on a601479), ` +
+          `routes ${mid.relationView?.aggregateRoutes} (policy: quiet at near, ≤24 at mid)`
+      );
 
       // the chip is a real door: click → member list → select a writer
       const chip = ctx.page.locator(".globe-label--cluster:visible").first();
@@ -677,6 +790,79 @@ export const SCENES = {
         `selected ${sel} (wanted ${targetId})`
       );
       await ctx.beat("cluster-selected");
+    }
+  },
+
+  "memory-soak": {
+    title: "메모리 soak: 연도 스크럽 20회 + 선택 20회 후 기준선 복귀",
+    async run(ctx) {
+      // baseline AFTER deferred boot work settles (idle seal batches, worker
+      // union plate) — resources are counted, then hammered, then compared
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      await ctx.settle(2600);
+      const read = async () => {
+        const r = (await ctx.metrics()).renderer ?? {};
+        return {
+          textures: r.textures ?? 0,
+          geometries: r.geometries ?? 0,
+          bytes: r.memory?.textureBytesEstimate ?? 0
+        };
+      };
+      const base = await read();
+      await ctx.beat("baseline");
+
+      // 20 year scrubs across every bracket (in-page hash: camera keeps)
+      const years = [1880, 1908, 1925, 1944, 1961, 1979, 1993, 1852, 1900, 1968];
+      for (let i = 0; i < 20; i++) {
+        const y = years[i % years.length];
+        await ctx.page.evaluate((yy) => {
+          window.location.hash = `#/?y=${yy}`;
+          window.dispatchEvent(new HashChangeEvent("hashchange"));
+        }, y);
+        await ctx.settle(220);
+      }
+      const during = await read();
+      ctx.assert(
+        "era-plates-bounded-during-scrub",
+        during.textures <= base.textures + 4,
+        `textures during scrub ${during.textures} (baseline ${base.textures}; LRU ≤3 + near)`
+      );
+
+      // 20 selection cycles (kafka/borges alternating, then clear)
+      for (let i = 0; i < 20; i++) {
+        const a = i % 2 === 0 ? "franz-kafka" : "jorge-luis-borges";
+        await ctx.page.evaluate((id) => {
+          window.location.hash = `#/?a=${id}`;
+          window.dispatchEvent(new HashChangeEvent("hashchange"));
+        }, a);
+        await ctx.settle(200);
+      }
+      await ctx.page.evaluate(() => {
+        window.location.hash = "#/";
+        window.dispatchEvent(new HashChangeEvent("hashchange"));
+      });
+      // the era plates release 10s after returning to the atlas view
+      await ctx.settle(11500);
+      const final = await read();
+      await ctx.beat("after-soak");
+      ctx.data.memorySoak = { base, during, final };
+      ctx.assert(
+        "textures-return-to-baseline",
+        final.textures <= base.textures + 2,
+        `textures ${base.textures} → ${during.textures} → ${final.textures} (tolerance +2)`
+      );
+      ctx.assert(
+        "geometries-return-to-baseline",
+        final.geometries <= base.geometries + 4,
+        `geometries ${base.geometries} → ${final.geometries} (tolerance +4)`
+      );
+      ctx.assert(
+        "texture-bytes-return-to-baseline",
+        final.bytes <= base.bytes * 1.05,
+        `estimated texture bytes ${(base.bytes / 1048576).toFixed(1)}MiB → ` +
+          `${(final.bytes / 1048576).toFixed(1)}MiB (tolerance +5%)`
+      );
     }
   },
 
