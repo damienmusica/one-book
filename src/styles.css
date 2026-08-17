@@ -824,6 +824,34 @@ a:hover {
   vertical-align: 2px;
 }
 
+/* map→profile half of the bidirectional work hover (7th review PR4) */
+.work-list li.is-map-hovered {
+  background: var(--brass-a08);
+  outline: 1px solid var(--brass-a28);
+  border-radius: var(--radius);
+}
+
+/* lens elevation control in the territory fold (§4¾) */
+.legend-lens {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.legend-lens select {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  font-size: 12px;
+  padding: 1px 4px;
+}
+
+.legend-lens-note {
+  margin-top: 4px;
+}
+
 .chip.is-static {
   cursor: default;
 }

@@ -154,7 +154,16 @@ export function DetailPanel() {
         <h3>{t.worksHead}</h3>
         <ul className="work-list">
           {works.map((w) => (
-            <li key={w.id}>
+            // bidirectional map↔profile hover (7th review PR4 §3.5): hovering
+            // the list item lights the town; hovering the town lights this row
+            <li
+              key={w.id}
+              className={state.hoveredWorkId === w.id ? "is-map-hovered" : undefined}
+              onMouseEnter={() => store.set({ hoveredWorkId: w.id })}
+              onMouseLeave={() => {
+                if (store.getState().hoveredWorkId === w.id) store.set({ hoveredWorkId: null });
+              }}
+            >
               {/* same card the map towns open — a keyboard path that works
                   in the 2D fallback too */}
               <button

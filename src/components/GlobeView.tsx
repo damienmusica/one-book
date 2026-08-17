@@ -50,7 +50,13 @@ export function GlobeView() {
       geo,
       store,
       {
-        onSelect: (id) => store.selectAuthor(id),
+        // click → contact (renderer) → cancellable 450–650ms focus flight —
+        // the 7th review's loop step 3; a map click centers its author just
+        // like the search path always did
+        onSelect: (id) => {
+          store.selectAuthor(id);
+          if (id) services.globeRef.current?.focusAuthor(id);
+        },
         onHover: (id) => store.set({ hoveredAuthorId: id }),
         onRelationPick: (rel) => store.set({ pickedRelationId: rel.id }),
         onRelationHover: (rel) => store.set({ hoveredRelationId: rel?.id ?? null }),

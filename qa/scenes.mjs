@@ -842,6 +842,196 @@ export const SCENES = {
     }
   },
 
+  "vertical-slice": {
+    title: "수직 슬라이스: hover→접촉→focus→서사→렌즈 기복→도시·가도→카드 safe-area→복귀 (20초 루프)",
+    async run(ctx) {
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+
+      // 1) planet hover: spin the globe (real drags) until Kafka's star faces
+      // us, then point at it — no teleports, the reader's own gesture
+      let kafkaPt = null;
+      for (let i = 0; i < 14; i++) {
+        const anchors = (await ctx.metrics()).renderer.authorScreens ?? [];
+        const hit = anchors.find(
+          (a) => a.id === KAFKA && a.x > 200 && a.x < 1700 && a.y > 120 && a.y < 950
+        );
+        if (hit) {
+          kafkaPt = hit;
+          break;
+        }
+        await ctx.drag([960, 520], [700, 520]);
+        await ctx.settle(450);
+      }
+      ctx.assert("kafka-on-screen", Boolean(kafkaPt), kafkaPt ? `found at ${kafkaPt.x},${kafkaPt.y}` : "not found after 14 spins");
+      if (!kafkaPt) return;
+      await ctx.page.mouse.move(kafkaPt.x, kafkaPt.y, { steps: 8 });
+      await ctx.page.waitForFunction(
+        (id) => window.__lpQA.state().hoveredAuthorId === id,
+        KAFKA,
+        { timeout: 2000 }
+      );
+      const hoverLat = (await ctx.metrics()).latency?.hover;
+      ctx.assert(
+        "hover-feedback-latency",
+        (hoverLat?.p95 ?? 99) <= 50 && (hoverLat?.samples ?? 0) >= 1,
+        `pointer→hover-applied p95 ${hoverLat?.p95}ms over ${hoverLat?.samples} samples (≤50)`
+      );
+      await ctx.beat("hover-prelight");
+
+      // 2) click: contact answers at press, then the cancellable focus flight
+      await ctx.page.mouse.down();
+      await ctx.page.mouse.up();
+      await ctx.page.waitForFunction(
+        (id) => window.__lpQA.state().selectedAuthorId === id,
+        KAFKA,
+        { timeout: 3000 }
+      );
+      const contactLat = (await ctx.metrics()).latency?.contact;
+      const contactEvents = (await ctx.events()).filter((e) => e.type === "contact-feedback");
+      ctx.assert(
+        "click-contact-latency",
+        contactEvents.length >= 1 && (contactLat?.p95 ?? 99) <= 50,
+        `contact events ${contactEvents.length}, press→applied p95 ${contactLat?.p95}ms (≤50)`
+      );
+      await ctx.waitIdle();
+      // 3) the narrative is ALIVE in this frame (event-synced capture)
+      await ctx.page.waitForFunction(
+        () => (window.__lpQA.metrics().renderer?.activePulses ?? 0) > 0,
+        undefined,
+        { timeout: 4000 }
+      );
+      await ctx.beat("narrative-live");
+
+      // 4) elevation lens on (§4¾): explicit opt-in through the legend
+      await ctx.page.locator(".legend-fold summary", { hasText: /영토|Territory/ }).click();
+      await ctx.page.locator(".legend-lens select").selectOption("corpus-density");
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.metrics().renderer?.lens?.active === true,
+        undefined,
+        { timeout: 2000 }
+      );
+      const lens = (await ctx.metrics()).renderer.lens;
+      ctx.assert(
+        "lens-relief-active",
+        lens.active && lens.amp > 0,
+        `lens ${lens.id}, amp ${lens.amp} (corpus-density, formula in legend)`
+      );
+      await ctx.beat("lens-relief");
+
+      // 5) walk into the realm: towns with silhouettes, the reading road
+      await ctx.page.locator('button[aria-label="확대"]').click();
+      await ctx.waitIdle();
+      await ctx.page.locator('button[aria-label="확대"]').click();
+      await ctx.waitIdle();
+      const cm = (await ctx.metrics()).renderer.cityMarkers;
+      ctx.assert(
+        "cities-have-bodies",
+        cm.count > 0 && cm.buildings > 0 && cm.roadSegments >= 1,
+        `towns ${cm.count}, building clusters ${cm.buildings}, road segments ${cm.roadSegments}`
+      );
+      await ctx.beat("cities-and-roads");
+
+      // 6) bidirectional hover: open the full profile, its rows light towns
+      await ctx.page.locator(".mini-card__open").click();
+      await ctx.page.locator(".work-list li").first().waitFor({ timeout: 4000 });
+      await ctx.waitIdle(); // safe-area reframe for the full panel settles
+      const firstWork = ctx.page.locator(".work-list li").first();
+      await firstWork.hover();
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.state().hoveredWorkId !== null,
+        undefined,
+        { timeout: 2000 }
+      );
+      ctx.assert("profile-to-map-hover", true, "work row hover set hoveredWorkId");
+      await ctx.page.mouse.move(400, 300);
+
+      // 7) enter a town: click its true screen position (marker hit disc or
+      // the label over it — either real path opens the same card)
+      const towns = (await ctx.metrics()).renderer.cityMarkers.screen;
+      const target =
+        towns.find((p) => p.x > 60 && p.x < 1480 && p.y > 90 && p.y < 990) ?? towns[0];
+      ctx.assert("town-clickable", Boolean(target), `towns on screen: ${towns.length}`);
+      await ctx.page.mouse.click(target.x, target.y);
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.state().selectedWorkId !== null,
+        undefined,
+        { timeout: 3000 }
+      );
+      await ctx.waitIdle();
+      // converge: the selected town must appear in the marker screen list
+      // once the city flight + safe-area ease fully land
+      let converged = false;
+      let lastState = null;
+      for (let i = 0; i < 20; i++) {
+        const m = await ctx.metrics();
+        const w = m.state.selectedWorkId;
+        lastState = {
+          work: w,
+          count: m.renderer?.cityMarkers?.count,
+          ids: (m.renderer?.cityMarkers?.screen ?? []).map((p) => p.id.split("--")[1]),
+          author: m.state.selectedAuthorId,
+          cam: m.renderer?.cameraDistance,
+          lod: m.renderer?.lod
+        };
+        if (w && (m.renderer?.cityMarkers?.screen ?? []).some((p) => p.id === w)) {
+          converged = true;
+          break;
+        }
+        await ctx.settle(200);
+      }
+      ctx.assert("town-selection-converged", converged, JSON.stringify(lastState));
+      const st = await ctx.metrics();
+      const selWork = st.state.selectedWorkId;
+      const townPt = st.renderer.cityMarkers.screen.find((p) => p.id === selWork);
+      const covered = await ctx.page.evaluate((pt) => {
+        if (!pt) return { covered: true, rects: 0 };
+        const rects = [...document.querySelectorAll(".detail-panel, .relation-dialog")].map(
+          (el) => el.getBoundingClientRect()
+        );
+        return {
+          covered: rects.some(
+            (r) => pt.x >= r.left && pt.x <= r.right && pt.y >= r.top && pt.y <= r.bottom
+          ),
+          rects: rects.length
+        };
+      }, townPt ?? null);
+      ctx.assert(
+        "panel-safe-framing",
+        Boolean(townPt) && !covered.covered,
+        `selected town at ${townPt ? `${townPt.x},${townPt.y}` : "?"} vs ${covered.rects} panel rects — not buried`
+      );
+      await ctx.beat("town-card-safe");
+
+      // 8) Escape ladder walks back out; a drag mid-flight cuts the camera
+      await ctx.page.keyboard.press("Escape"); // card closes → author restore flight
+      await ctx.settle(120);
+      for (let i = 0; i < 4; i++) {
+        if ((await ctx.page.evaluate(() => window.__lpQA.state().selectedAuthorId)) === null) break;
+        await ctx.page.keyboard.press("Escape");
+        await ctx.settle(140);
+      }
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.state().selectedAuthorId === null,
+        undefined,
+        { timeout: 3000 }
+      );
+      // the planet-restore flight is running — the user's drag must win NOW
+      const flying = await ctx.page.evaluate(
+        () => window.__lpQA.metrics().renderer?.cameraAnimating === true
+      );
+      if (flying) {
+        await ctx.drag([960, 520], [830, 500]);
+        const cancelled = (await ctx.events()).some((e) => e.type === "camera-cancelled");
+        ctx.assert("drag-cuts-automation", cancelled, "restore flight cancelled by drag");
+      } else {
+        ctx.assert("drag-cuts-automation", true, "restore already settled (fast machine) — cancel path gated in camera-interrupt");
+      }
+      await ctx.waitIdle();
+      await ctx.beat("returned-to-planet");
+    }
+  },
+
   "flow-lifecycle": {
     title: "흐름 수명주기: LOD·카메라·스크럽에 phase 보존, commit은 diff, 재생 버튼만 리셋",
     async run(ctx) {

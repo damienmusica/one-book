@@ -52,6 +52,12 @@ export interface AppState {
    * the ONLY sanctioned story-clock reset besides selection/mode change.
    */
   flowReplayToken: number;
+  /**
+   * Elevation lens (grammar §4¾). Default flat; "corpus-density" shades the
+   * selected territory by documented corpus density — never a "greatness"
+   * score. Formula + bias note live in the legend while active.
+   */
+  lens: "none" | "corpus-density";
 }
 
 export function defaultFilters(): Filters {
@@ -91,7 +97,8 @@ export function initialState(): AppState {
     egoExpanded: false,
     egoHiddenCount: 0,
     yearPreview: null,
-    flowReplayToken: 0
+    flowReplayToken: 0,
+    lens: "none"
   };
 }
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAppState, useT } from "./ctx.ts";
+import { useAppState, useServices, useT } from "./ctx.ts";
 import { relationTypeShort } from "../i18n/index.ts";
 import { RELATION_COLORS, UNION_COLORS } from "../theme.ts";
 import { RELATION_DEFS } from "../types.ts";
@@ -12,6 +12,7 @@ import { RELATION_DEFS } from "../types.ts";
  */
 export function LegendPanel() {
   const state = useAppState();
+  const { store } = useServices();
   const t = useT();
   // small screens keep the legend reachable as a chip-opened sheet instead of
   // hiding it outright (5th review P0-4: no screen size loses the key)
@@ -84,6 +85,23 @@ export function LegendPanel() {
         <p className="legend-terrain" title={t.legendTerrainTitle}>
           {t.legendTerrain}
         </p>
+        {/* lens elevation (§4¾): explicit opt-in; the formula and its bias
+            appear the moment the lens is on — never silent relief */}
+        <label className="legend-lens">
+          {t.lensLabel}{" "}
+          <select
+            value={state.lens}
+            onChange={(e) =>
+              store.set({ lens: e.target.value as typeof state.lens })
+            }
+          >
+            <option value="none">{t.lensNone}</option>
+            <option value="corpus-density">{t.lensCorpus}</option>
+          </select>
+        </label>
+        {state.lens === "corpus-density" && (
+          <p className="legend-terrain legend-lens-note">{t.lensCorpusNote}</p>
+        )}
       </details>
       <details className="legend-fold">
         <summary>{t.legendSecTime}</summary>
