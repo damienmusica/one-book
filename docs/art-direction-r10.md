@@ -66,9 +66,47 @@ Deviations recorded by the collectors (honest gaps, not silently filled):
 - Soseki: no Kokoro manuscript on Commons (I-am-a-Cat MS page used); the 1905 Japanese first edition is absent (1906 English Goyō-design cover used); banknote-source claim for the 1912 portrait is unverified.
 - Tagore: no Latin signature exists on Commons (Bengali only — a finding, not a gap); the Gitanjali manuscript is the English Rothenstein autograph (with corrections), not Bengali.
 
+## Chosen direction (2026-08-18, three independent verdicts converged)
+
+**paper-planet (종이의 행성) + the copperplate life dial** — the planet's
+crust is the paper the authors left: cloth-bound far globe (period-dye
+color), manuscript-paper territories (facsimile ground for asset-verified
+authors, laid-paper + hatched band as the HONEST fallback), deckle-edge +
+stitch borders, real first editions standing as work buildings (plain board
++ letterpress spine slip + diagonal hatching when unowned), the author's
+REAL mark (signature / brush + red seals) inked at the territory heart,
+photo-corner-mounted archival portraits, and the 감상인(鑑賞印) selection
+protocol — vermilion is the selection channel's only user. Zoom depth IS
+evidence depth. Grafted from the losing direction: the LIFE DIAL as the
+selection instrument (tick ring = years, brass arc = active span, pointer =
+timeline year, works at their year positions) — it encodes real data where
+the appreciation stamp alone encoded only a binary state.
+
+Convergence: the maker's own recommendation and both independent judges
+(graphic-designer, visual-art-director) reached the same hybrid without
+seeing each other's verdicts. Mandatory fixes carried into implementation:
+badge anchoring at the label's leading edge (mockups anchored badges on
+letter centers — 5 confirmed label-destroying overlaps), fallback boards
+must visibly carry their hatching (never read as broken images), line/label
+avoidance, and coverage: collect more slice-work covers so Kafka's realm is
+not 4/5 fallback.
+
 ## Discarded directions
 
-<!-- direction name · keyframes path · why it lost -->
+- **copperplate-uranographia** (art-r10/directions/copperplate-uranographia/)
+  — the strongest single instrument (life dial) and the strictest
+  quantitative encoding, but: its identity layer (linescreen portrait +
+  signature facsimile) has NO fallback grammar for asset-poor authors —
+  the most branded element is undesigned at scale; and it renders every
+  culture through one European engraving lens (the AD: "그 문화를 유럽
+  판화로 그린다") where paper-planet differentiates material by culture.
+  The dial survives via the graft.
+- **specimen-atlas** (no keyframes — rejected at thesis stage by the maker)
+  — Penguin-Clothbound repeated-motif fields: motif density/placement
+  carries no information (grammar-principle violation risk is structural),
+  and flat two-tone fields discard the height/wash channels that already
+  carry data. Its strongest idea (author's mark as monument) is absorbed
+  stronger by paper-planet's real-hand marks.
 
 ## Decision log
 
