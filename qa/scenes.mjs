@@ -329,6 +329,10 @@ export const SCENES = {
       ctx.assert("work-keyboard-open", true, "Enter on focused town label");
       await ctx.page.keyboard.press("Escape");
       await ctx.page.locator(".work-card").waitFor({ state: "detached", timeout: 5000 });
+      // PR4 gave work open/close its own camera flights (city focus +
+      // bookmark restore) — marker screen positions are only measurable
+      // once the restore flight and the safe-area ease have landed
+      await ctx.waitIdle();
 
       // v2.0 first-class entities: hover then click a 3D marker's own screen
       // position — a true raycast pick, not the DOM label. The probe point
