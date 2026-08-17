@@ -1873,3 +1873,10 @@ a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+/* 44px pointer hit target for interactive town labels (4th review P0-3) —
+   negative margin keeps the visual anchor unchanged */
+.globe-label--work.is-interactive {
+  padding: 15px 16px;
+  margin: -15px -16px;
+}

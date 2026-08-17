@@ -69,7 +69,9 @@ export function LegendPanel() {
           );
         })}
       </ul>
-      <p className="legend-terrain">{t.legendTerrain}</p>
+      <p className="legend-terrain" title={t.legendTerrainTitle}>
+        {t.legendTerrain}
+      </p>
     </div>
   );
 }

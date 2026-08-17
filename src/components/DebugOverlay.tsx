@@ -55,6 +55,10 @@ export function DebugOverlay() {
         r ? `${String(r.labelsShown)} / ${String(r.labelsSuppressed)} / ${String(r.labelsOverlapping)}` : "—"
       )}
       {row("flow sparks", r ? String(r.flowSparks) : "—")}
+      {row(
+        "seals visible / overlap pairs",
+        r?.seals ? `${String((r.seals as { visible: number }).visible)} / ${String((r.seals as { overlapPairs: number }).overlapPairs)}` : "—"
+      )}
       {row("camera dist / lod", r ? `${String(r.cameraDistance)} / ${String(r.lod)}` : "—")}
       {row(
         "anim",
