@@ -113,6 +113,7 @@ export function WorkInspector({ work, author }: { work: Work; author: Author }) 
         <div className="detail-actions">
           <button
             type="button"
+            className="btn-door"
             title={t.enterTerritoryTitle}
             onClick={() => globeRef.current?.enterTerritory(author.id)}
           >

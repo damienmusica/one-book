@@ -1,4 +1,4 @@
-import { useLayoutEffect, useMemo, useRef } from "react";
+import { useMemo } from "react";
 import { useAppState, useContent, useServices, useT } from "./ctx.ts";
 import { WorkInspector } from "./WorkCard.tsx";
 import { neighborsOf } from "../lib/graph.ts";
@@ -40,31 +40,11 @@ export function DetailPanel() {
     [dataset.movements]
   );
 
-  // unified inspector (8th review): the panel drills into a work and comes
-  // back to the profile at the same scroll position — one surface, one close
-  const bodyRef = useRef<HTMLDivElement | null>(null);
-  const savedScroll = useRef(0);
-  const wasWork = useRef(false);
-  useLayoutEffect(() => {
-    const nowWork = Boolean(state.selectedWorkId);
-    if (!nowWork && wasWork.current && bodyRef.current) {
-      bodyRef.current.scrollTop = savedScroll.current;
-    }
-    wasWork.current = nowWork;
-  }, [state.selectedWorkId]);
-
   if (!author || !state.panelOpen) return null;
 
   const openWork = state.selectedWorkId
     ? dataset.works.find((wk) => wk.id === state.selectedWorkId && wk.authorId === author.id)
     : undefined;
-  if (openWork) {
-    return (
-      <section className="detail-panel" aria-label={t.workCardAria}>
-        <WorkInspector work={openWork} author={author} />
-      </section>
-    );
-  }
 
   const byType = new Map<RelationType, Array<{ otherId: string; relation: Relation }>>();
   for (const n of neighbors) {
@@ -91,7 +71,17 @@ export function DetailPanel() {
   const worksException = content.authorField(author, "worksException");
 
   return (
-    <section className="detail-panel" aria-label={t.detailAria(name)}>
+    <section
+      className="detail-panel"
+      aria-label={openWork ? t.workCardAria : t.detailAria(name)}
+    >
+      {/* the profile stays MOUNTED beneath the work depth (9th round):
+          visibility:hidden keeps its scroll position and the decoded
+          portrait alive, so ← returns with zero flash and zero JS */}
+      <div
+        className={openWork ? "detail-profile is-behind" : "detail-profile"}
+        aria-hidden={openWork ? true : undefined}
+      >
       <div className="detail-head">
         <div>
           <h2 className="detail-name">{name}</h2>
@@ -136,7 +126,26 @@ export function DetailPanel() {
         </button>
       </div>
 
-      <div className="detail-body" ref={bodyRef}>
+      <div className="detail-body">
+        {/* primary actions live ABOVE the fold (9th round: the territory
+            door must be discoverable without scrolling — it sat below the
+            whole profile and only QA's auto-scroll ever found it) */}
+        <div className="detail-actions detail-actions--top">
+          <button
+            type="button"
+            className="btn-door"
+            title={t.enterTerritoryTitle}
+            onClick={() => services.globeRef.current?.enterTerritory(author.id)}
+          >
+            {t.enterTerritory} ↓
+          </button>
+          <button
+            type="button"
+            onClick={() => store.set({ comparePicking: true, compareAuthorId: null })}
+          >
+            {t.compareOther}
+          </button>
+        </div>
         <PortraitPlate author={author} />
 
         <h3>{t.whyImportant}</h3>
@@ -195,12 +204,7 @@ export function DetailPanel() {
                 type="button"
                 className="work-open"
                 aria-label={t.workOpenAria(content.workTitle(w))}
-                onClick={() => {
-                  // drill into the work — remember where the profile was
-                  // scrolled so ← comes back to the same place
-                  savedScroll.current = bodyRef.current?.scrollTop ?? 0;
-                  store.set({ selectedWorkId: w.id, pickedRelationId: null });
-                }}
+                onClick={() => store.set({ selectedWorkId: w.id, pickedRelationId: null })}
               >
                 <strong>{content.workTitle(w)}</strong>
               </button>
@@ -292,16 +296,11 @@ export function DetailPanel() {
         <div className="detail-actions">
           <button
             type="button"
+            className="btn-door"
             title={t.enterTerritoryTitle}
             onClick={() => services.globeRef.current?.enterTerritory(author.id)}
           >
             {t.enterTerritory} ↓
-          </button>
-          <button
-            type="button"
-            onClick={() => store.set({ comparePicking: true, compareAuthorId: null })}
-          >
-            {t.compareOther}
           </button>
           <button
             type="button"
@@ -311,6 +310,8 @@ export function DetailPanel() {
           </button>
         </div>
       </div>
+      </div>
+      {openWork && <WorkInspector work={openWork} author={author} />}
     </section>
   );
 }

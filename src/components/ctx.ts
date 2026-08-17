@@ -68,9 +68,20 @@ export function useContent(): ContentAccess {
 }
 
 /** select an author, open their profile, and swing the globe to face them */
-export function focusAuthor(services: AppServices, id: string): void {
+export function focusAuthor(
+  services: AppServices,
+  id: string,
+  opts: { openPanel?: boolean } = {}
+): void {
   services.store.set({ page: "globe" });
-  services.store.selectAuthor(id, { openPanel: true });
-  // renderer mounts asynchronously when coming from another page
-  requestAnimationFrame(() => services.globeRef.current?.focusAuthor(id));
+  // list pages and cross-links jump straight to the profile; the map's own
+  // search stays in focus mode (9th round: the planet is the surface, and
+  // the mini card puts 상세 프로필/영토 입장 in view without any scrolling)
+  services.store.selectAuthor(id, { openPanel: opts.openPanel ?? true });
+  // start the focus flight IN THIS TICK when the globe is live — an rAF
+  // deferral opened a race where a fast follow-up action froze the camera
+  // mid-nowhere (9th round, reproduced only under full-suite load). The
+  // rAF path remains solely for cross-page mounts.
+  if (services.globeRef.current) services.globeRef.current.focusAuthor(id);
+  else requestAnimationFrame(() => services.globeRef.current?.focusAuthor(id));
 }

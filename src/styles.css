@@ -642,7 +642,45 @@ a:hover {
   color: var(--brass-bright);
 }
 
-/* unified inspector: work depth (8th review) */
+/* unified inspector: work depth (8th review; 9th round — the profile stays
+   mounted beneath, so ← returns with its scroll and decoded portrait intact) */
+.detail-profile {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+/* the territory door above the fold (9th round discoverability) */
+.detail-actions--top {
+  margin: 0 0 14px;
+}
+
+/* ONE door, ONE weight (9th round visual review): every 영토 입장 button
+   carries the mini card's filled grammar — the same action must never ask
+   to be re-judged as primary vs optional */
+.detail-actions button.btn-door {
+  background: var(--brass-a12);
+  border-color: var(--brass);
+  color: var(--brass-bright);
+}
+
+.detail-actions button.btn-door:hover {
+  background: var(--brass-a28);
+}
+
+.detail-profile.is-behind {
+  visibility: hidden;
+}
+
+.work-inspector {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
 .work-inspector__head {
   align-items: center;
 }

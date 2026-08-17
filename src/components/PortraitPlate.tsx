@@ -25,7 +25,12 @@ export function PortraitPlate({ author }: { author: Author }) {
     if (!canvas) return;
     const img = new Image();
     img.onload = () => {
-      if (canvasRef.current === canvas) duotoneInto(canvas, img);
+      if (canvasRef.current === canvas) {
+        duotoneInto(canvas, img);
+        // painted-state marker: the return-from-work verification waits for
+        // a PAINTED plate, not a mounted blank canvas (9th round)
+        canvas.dataset.ready = "1";
+      }
     };
     img.onerror = () => setFailed(true);
     img.src = `${import.meta.env.BASE_URL}portraits/${author.id}.jpg`;

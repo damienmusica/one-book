@@ -31,7 +31,9 @@ export function SearchBox() {
   function choose(hit: SearchHit): void {
     setQuery("");
     setOpen(false);
-    focusAuthor(services, hit.author.id);
+    // focus mode: the found star centers with its mini card — profile and
+    // territory doors both in view, no scroll (9th round discoverability)
+    focusAuthor(services, hit.author.id, { openPanel: false });
   }
 
   function onKeyDown(e: React.KeyboardEvent): void {
