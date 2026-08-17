@@ -21,6 +21,37 @@ async function searchSelect(ctx, query, expectId) {
   await ctx.waitIdle();
 }
 
+/**
+ * Click a control the way a user can: it must ALREADY be fully inside the
+ * viewport — no Playwright auto-scroll, no elementHandle magic (9th round:
+ * auto-scroll to a buried button manufactured a discoverability pass).
+ * Returns the box so scenes can also assert placement.
+ */
+async function clickVisible(ctx, locator, name) {
+  const box = await locator.boundingBox();
+  const inView =
+    box && box.y >= 0 && box.x >= 0 && box.y + box.height <= 1080 && box.x + box.width <= 1920;
+  ctx.assert(
+    `${name}-visible-without-scroll`,
+    Boolean(inView),
+    box
+      ? `${name} at ${Math.round(box.x)},${Math.round(box.y)} ${Math.round(box.width)}×${Math.round(box.height)} — fully in viewport`
+      : `${name} has no box`
+  );
+  if (!inView) throw new Error(`${name} is not visible without scrolling`);
+  await ctx.page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+  return box;
+}
+
+/** the profile door: mini card in focus mode, no-op when a deep link already
+ *  opened the profile — both are real user states */
+async function openProfile(ctx) {
+  if ((await ctx.page.locator(".detail-panel").count()) > 0) return;
+  await clickVisible(ctx, ctx.page.locator(".mini-card__open"), "profile-door");
+  await ctx.page.locator(".detail-panel").waitFor({ timeout: 4000 });
+  await ctx.waitIdle();
+}
+
 export const SCENES = {
   overview: {
     title: "행성 전체: 초기 진입, 회전, 확대·축소",
@@ -161,6 +192,8 @@ export const SCENES = {
       const live = (await ctx.metrics()).renderer?.activePulses ?? 0;
       await ctx.beat("impact-ripple");
       ctx.assert("pulse-captured-live", live > 0, `active pulses in frame: ${live}`);
+      // focus-mode search: the profile opens through the mini door (9th)
+      await openProfile(ctx);
       await ctx.beat("selected-profile");
 
       // Esc: profile closes, the constellation (and its sparks) stays
@@ -263,8 +296,7 @@ export const SCENES = {
       await ctx.goto("#/");
       await ctx.waitIdle();
       await searchSelect(ctx, "카프카", KAFKA);
-      await ctx.page.keyboard.press("Escape"); // keep the selection, free the map
-      await ctx.settle(300);
+      // focus mode: the map is already free — no panel to dismiss (9th)
 
       // zoom until the near LOD places the selected author's works as towns
       for (let i = 0; i < 8; i++) {
@@ -308,10 +340,12 @@ export const SCENES = {
         `card length ${cardText?.length ?? 0}`
       );
       const after = await ctx.metrics();
+      // 9th round: opening a work performs a GENTLE itinerary reframe (the
+      // network stays framed) — bounded and cancellable, never a dive
       ctx.assert(
-        "camera-preserved-on-card",
-        Math.abs((after.renderer?.cameraDistance ?? 0) - (before.renderer?.cameraDistance ?? 0)) < 2,
-        `${before.renderer?.cameraDistance} → ${after.renderer?.cameraDistance}`
+        "card-reframe-gentle",
+        Math.abs((after.renderer?.cameraDistance ?? 0) - (before.renderer?.cameraDistance ?? 0)) <= 40,
+        `${before.renderer?.cameraDistance} → ${after.renderer?.cameraDistance} (bounded itinerary fit, not a surface dive)`
       );
       ctx.assert(
         "work-url-shareable",
@@ -860,10 +894,11 @@ export const SCENES = {
       const bytes0 = await bytes();
       await ctx.beat("overview");
 
-      // 1) a new user finds Kafka the disclosed way: one orientation drag,
-      // then the search box — selection centers him with a cancellable flight
-      await ctx.drag([960, 520], [820, 500]);
-      await ctx.settle(350);
+      // 1) a new user finds Kafka the disclosed way: the search box —
+      // selection centers him with a cancellable flight. (No scripted spin:
+      // the recording is the user journey, and the Escape return must land
+      // on the very view the reader left.)
+      const dir0 = (await ctx.metrics()).renderer.cameraDir;
       await searchSelect(ctx, "카프카", KAFKA);
       await ctx.settle(400);
 
@@ -883,6 +918,16 @@ export const SCENES = {
         `aggregate routes ${mSel.renderer.relationView?.aggregateRoutes} (story owns the stage)`
       );
       ctx.assert(
+        "treaty-ink-retires-during-story",
+        (mSel.renderer.unionOverlay ?? 1) <= 0.05,
+        `union overlay ${mSel.renderer.unionOverlay} (was 0.94 — a second information system over the story)`
+      );
+      ctx.assert(
+        "bystander-seals-leave-the-stage",
+        (mSel.renderer.seals?.visible ?? 99) <= cast + 1,
+        `seals visible ${mSel.renderer.seals?.visible} ≤ cast ${cast}+hover (was 71)`
+      );
+      ctx.assert(
         "towns-visible-from-approach",
         (mSel.renderer.cityMarkers?.count ?? 0) > 0 && mSel.renderer.lod === "mid",
         `towns at mid: ${mSel.renderer.cityMarkers?.count} (no undisclosed zoom needed to learn they exist)`
@@ -896,50 +941,13 @@ export const SCENES = {
       );
       await ctx.beat("selected-mid");
 
-      // 3) relation identity across LOD + orbit: the story set is pinned by
-      // ID equality, not counts — far, near, and a drag must change nothing
-      const idsAt = async () =>
-        (await ctx.metrics()).renderer.interaction.storyRelationIds.join(",");
-      const key0 = mSel.renderer.interaction.storyKey;
-      await ctx.wheel(960, 540, 1200); // out toward far
-      await ctx.settle(500);
-      await ctx.wheel(960, 540, 1200);
-      await ctx.settle(700);
-      const idsFar = await idsAt();
-      const lodFar = (await ctx.metrics()).renderer.lod;
-      await ctx.wheel(960, 540, -1200);
-      await ctx.settle(500);
-      await ctx.wheel(960, 540, -1200); // deep toward near
-      await ctx.settle(500);
-      await ctx.wheel(960, 540, -900);
-      await ctx.settle(700);
-      const idsNear = await idsAt();
-      const lodNear = (await ctx.metrics()).renderer.lod;
-      await ctx.drag([960, 520], [1050, 560]);
-      await ctx.settle(500);
-      const idsDrag = await idsAt();
-      const mAfter = await ctx.metrics();
-      ctx.assert(
-        "story-identity-across-lod",
-        lodFar === "far" &&
-          lodNear === "near" &&
-          idsFar === ids0.join(",") &&
-          idsNear === idsFar &&
-          idsDrag === idsFar,
-        `relation IDs identical across ${lodFar}/${lodNear}/orbit (${ids0.length} ids; tiers genuinely reached)`
-      );
-      ctx.assert(
-        "story-clock-untouched",
-        mAfter.renderer.interaction.flowStoryBuilds === builds0 &&
-          mAfter.renderer.interaction.flowStoryDiffs === 0 &&
-          mAfter.renderer.interaction.storyKey === key0,
-        `builds ${mAfter.renderer.interaction.flowStoryBuilds}, diffs ${mAfter.renderer.interaction.flowStoryDiffs}, key stable`
-      );
+      // (the far/near/orbit identity sweep runs in kafka-soak — verification
+      // choreography must not masquerade as the user journey on film)
 
-      // 4) the disclosed door: the 영토 입장 button flies to reading depth
-      // (search selection opens the profile panel, map clicks the mini card —
-      // BOTH carry the same door). Frame time across the entry is gated.
-      await ctx.page.getByRole("button", { name: /영토 입장|Enter territory/ }).first().click();
+      // 4) the disclosed door: search leaves the reader in focus mode, so
+      // the mini card's 영토 입장 must be fully in view — clicked at its box,
+      // never via auto-scroll (9th round). Frame time across the entry gated.
+      await clickVisible(ctx, ctx.page.locator(".mini-card__enter"), "territory-door");
       await ctx.waitIdle();
       const mEntry = await ctx.metrics();
       ctx.assert(
@@ -1066,6 +1074,27 @@ export const SCENES = {
         `work opened INSIDE the panel (floating cards: ${inspector.floatingCards})`
       );
       {
+        // opening a city must not amputate its network (9th round): several
+        // towns and the reading road stay in the unobscured viewport
+        const mW = await ctx.metrics();
+        const panelRects = await ctx.page.evaluate(() =>
+          [...document.querySelectorAll(".detail-panel, .relation-dialog")].map((el) => {
+            const r = el.getBoundingClientRect();
+            return { left: r.left, right: r.right, top: r.top, bottom: r.bottom };
+          })
+        );
+        const open = (mW.renderer.cityMarkers.screen ?? []).filter(
+          (t) =>
+            t.x > 8 && t.x < 1912 && t.y > 66 && t.y < 1010 &&
+            !panelRects.some((r) => t.x >= r.left && t.x <= r.right && t.y >= r.top && t.y <= r.bottom)
+        );
+        ctx.assert(
+          "network-survives-work-focus",
+          open.length >= 3 && (mW.renderer.cityMarkers.roadSegments ?? 0) >= 1,
+          `${open.length} towns + ${mW.renderer.cityMarkers.roadSegments} road segments still in the open viewport beside the inspector (was: focus dove to the surface and left the network)`
+        );
+      }
+      {
         const m = await ctx.metrics();
         const selWork = m.state.selectedWorkId;
         const pt = (m.renderer.cityMarkers.screen ?? []).find((p) => p.id === selWork);
@@ -1108,6 +1137,19 @@ export const SCENES = {
         undefined,
         { timeout: 3000 }
       );
+      await ctx.waitIdle(); // the author-bookmark restore flight lands first
+      // the profile must come back ALREADY PAINTED — camera restored and the
+      // portrait decoded (9th round: the return used to flash a blank plate)
+      await ctx.page.waitForFunction(
+        () => {
+          const c = document.querySelector(
+            ".detail-profile:not(.is-behind) .portrait-plate canvas"
+          );
+          return Boolean(c && c.dataset.ready === "1");
+        },
+        undefined,
+        { timeout: 4000 }
+      );
       const backState = await ctx.page.evaluate(() => ({
         panelOpen: window.__lpQA.state().panelOpen,
         profile: Boolean(document.querySelector(".detail-panel .work-list")),
@@ -1139,13 +1181,92 @@ export const SCENES = {
         Math.abs(bytesOut - bytes0) < 4 * 1048576,
         `after full exit ${mib(bytesOut)}MiB vs start ${mib(bytes0)}MiB (nation window freed on deselect)`
       );
+      {
+        // "깔끔하게 돌아온다" is a pose claim: the Escape ladder must land on
+        // the very view the reader left (9th round visual review)
+        const d1 = (await ctx.metrics()).renderer.cameraDir;
+        const dot = d1[0] * dir0[0] + d1[1] * dir0[1] + d1[2] * dir0[2];
+        ctx.assert(
+          "return-lands-on-departure-view",
+          dot > 0.999,
+          `camera dir dot(start, return) = ${dot.toFixed(5)} (same view, same stars)`
+        );
+      }
+      // park the visible-cursor overlay in dead space — the film must end
+      // on the planet, not on a stray input ring (9th round visual review
+      // read the resting cursor as a UI artifact)
+      await ctx.page.mouse.move(1908, 1072, { steps: 6 });
+      await ctx.settle(150);
       await ctx.beat("returned");
 
+    }
+  },
+
+  "kafka-soak": {
+    title: "카프카 soak: 진입-이탈 ×3 — 자원 평탄·무스크롤 문·폭주 빌드 0 (여정 녹화와 분리)",
+    async run(ctx) {
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      const bytes = async () =>
+        (await ctx.metrics()).renderer?.memory?.textureBytesEstimate ?? 0;
+      const mib = (b) => Math.round((b / 1048576) * 10) / 10;
+      const bytes0 = await bytes();
       // 9) repeated entry/exit soak ×3 through BOTH doors (second click on
       // the selected star, profile button): bytes flat, no runaway builds
       const doors = ["star", "button", "star"];
+      const idsAt = async () =>
+        (await ctx.metrics()).renderer.interaction.storyRelationIds.join(",");
       for (let round = 0; round < 3; round++) {
         await searchSelect(ctx, "카프카", KAFKA);
+        if (round === 0) {
+          // relation identity across LOD + orbit (moved from the journey
+          // film): the story set is pinned by ID equality, not counts
+          const m0 = await ctx.metrics();
+          const ids0 = m0.renderer.interaction.storyRelationIds;
+          const key0 = m0.renderer.interaction.storyKey;
+          const builds0 = m0.renderer.interaction.flowStoryBuilds;
+          await ctx.wheel(960, 540, 1200);
+          await ctx.settle(500);
+          await ctx.wheel(960, 540, 1200);
+          await ctx.settle(700);
+          const idsFar = await idsAt();
+          const lodFar = (await ctx.metrics()).renderer.lod;
+          await ctx.wheel(960, 540, -1200);
+          await ctx.settle(500);
+          await ctx.wheel(960, 540, -1200);
+          await ctx.settle(500);
+          await ctx.wheel(960, 540, -900);
+          await ctx.settle(700);
+          const idsNear = await idsAt();
+          const lodNear = (await ctx.metrics()).renderer.lod;
+          await ctx.drag([960, 520], [1050, 560]);
+          await ctx.settle(500);
+          const idsDrag = await idsAt();
+          const mA = await ctx.metrics();
+          ctx.assert(
+            "story-identity-across-lod",
+            lodFar === "far" &&
+              lodNear === "near" &&
+              idsFar === ids0.join(",") &&
+              idsNear === idsFar &&
+              idsDrag === idsFar,
+            `relation IDs identical across ${lodFar}/${lodNear}/orbit (${ids0.length} ids; tiers genuinely reached)`
+          );
+          ctx.assert(
+            "story-clock-untouched",
+            mA.renderer.interaction.flowStoryBuilds === builds0 &&
+              mA.renderer.interaction.flowStoryDiffs === 0 &&
+              mA.renderer.interaction.storyKey === key0,
+            `builds ${mA.renderer.interaction.flowStoryBuilds}, diffs ${mA.renderer.interaction.flowStoryDiffs}, key stable`
+          );
+          for (let i = 0; i < 5; i++) {
+            if ((await ctx.page.evaluate(() => window.__lpQA.state().selectedAuthorId)) === null) break;
+            await ctx.page.keyboard.press("Escape");
+            await ctx.settle(150);
+          }
+          await ctx.waitIdle();
+          await searchSelect(ctx, "카프카", KAFKA);
+        }
         if (doors[round] === "star") {
           const pt = ((await ctx.metrics()).renderer.authorScreens ?? []).find(
             (a) => a.id === KAFKA && a.x > 100 && a.x < 1500 && a.y > 100 && a.y < 980
@@ -1153,10 +1274,17 @@ export const SCENES = {
           if (pt) {
             await ctx.page.mouse.click(pt.x, pt.y); // second click = enter
           } else {
-            await ctx.page.getByRole("button", { name: /영토 입장|Enter territory/ }).first().click();
+            await clickVisible(ctx, ctx.page.locator(".mini-card__enter"), `soak-${round + 1}-door`);
           }
         } else {
-          await ctx.page.getByRole("button", { name: /영토 입장|Enter territory/ }).first().click();
+          // the profile door: open it through the mini card, then the top
+          // action row — visible WITHOUT scrolling (it sat below the fold)
+          await openProfile(ctx);
+          await clickVisible(
+            ctx,
+            ctx.page.locator(".detail-actions--top button").first(),
+            `soak-${round + 1}-profile-door`
+          );
         }
         await ctx.waitIdle();
         const mR = await ctx.metrics();
@@ -1291,7 +1419,9 @@ export const SCENES = {
       );
       await ctx.beat("scrub-committed");
 
-      // 4) the replay chip is the ONLY sanctioned story reset
+      // 4) the replay chip is the ONLY sanctioned story reset — it lives in
+      // the profile, entered through the mini card door (focus-mode search)
+      await openProfile(ctx);
       await ctx.page.locator(".chip--replay").click();
       await ctx.settle(300);
       const replayed = await ctx.metrics();
@@ -1643,6 +1773,7 @@ export const SCENES = {
       );
       const legend = (await ctx.page.locator(".legend-panel").textContent()) ?? "";
       ctx.assert("en-legend", legend.includes("Coordinates:"), "legend in English");
+      await openProfile(ctx);
       const panel = (await ctx.page.locator(".detail-panel").textContent()) ?? "";
       ctx.assert("en-profile-name", panel.includes("Franz Kafka"), "profile in English");
     }
@@ -1663,6 +1794,19 @@ export const SCENES = {
         `renderer pixelRatio: ${m.renderer?.pixelRatio} (cap 2)`
       );
       await searchSelect(ctx, "카프카", KAFKA);
+      await ctx.settle(600);
+      const sel = await ctx.metrics();
+      const hw2 = sel.renderer.gl && !/swiftshader|llvmpipe/i.test(sel.renderer.gl.renderer);
+      const fr = sel.frame;
+      if (hw2) {
+        ctx.assert(
+          "dpr2-selection-frame-time",
+          (fr?.maxMs ?? 999) <= 80,
+          `selection segment max frame ${fr?.maxMs}ms at DPR2 (≤80 — a 265ms frame once passed unnoticed)`
+        );
+      } else {
+        ctx.assert("dpr2-selection-frame-time", true, `swiftshader run — gate applies on hardware (max ${fr?.maxMs}ms recorded)`);
+      }
       await ctx.beat("dpr2-selected");
     }
   },

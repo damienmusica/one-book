@@ -309,6 +309,34 @@ listed at the bottom so we don't re-litigate them.
 > geometry order (99/100 misaligned); state-only QA had passed over it for
 > a full release (§4¾ owner 인덱스 계약, tests/nation-index.test.ts).
 
+> 2026-08-17 9th round (CPO: judge the rendered journey, not the passed
+> labels — three failures + harness-honesty repairs): shipped same-day as
+> R9, gated by an INDEPENDENT fresh-context visual reviewer (3 rounds:
+> 보류→보류→합격; implementation notes withheld each time).
+> ① territory door below a long scroll (QA auto-scroll had manufactured
+> the discovery) → search stays in focus mode (mini card: both doors in
+> view), profile actions moved above the fold, and the harness now clicks
+> only controls whose boundingBox is already fully in the viewport;
+> ② selected scene overload (18 rels + 15 arrows + 30 sparks + 71 seals +
+> 0.94 union at the midpoint) → subtraction: the union overlay retires to
+> 0 during a story, bystander seals leave the stage entirely (71→11,
+> hover re-lights), rails/arrowheads decay one step after the narrative
+> settles (~3.6s) so pulses and ground carry;
+> ③ opening 《변신》 dove to the surface (neighbors off-screen) and the
+> return flashed a blank portrait → work focus is an itinerary-fit biased
+> 55% toward the town (5 towns + 2 road segments stay visible beside the
+> inspector, gated), and the profile stays mounted under the work depth
+> (visibility) so ← returns with scroll + painted portrait (return gated
+> on camera idle + canvas[data-ready]).
+> Harness honesty: dpr2 gained a selection frame gate (a 265ms frame had
+> passed; unreproducible in 3 isolated probes at true size — likely the
+> 4K screencast encoder — now it fails loudly if it recurs); npm test
+> pinned to --pool=forks for the reported Node 24 hang class; the journey
+> film carries the user journey ONLY (LOD identity sweep + enter/exit
+> soak moved to kafka-soak; return pose pinned dot>0.999; the harness
+> cursor parks off-stage at the end — a visual reviewer read the resting
+> input ring as a UI artifact).
+
 ## Feedback claims we checked and rejected (do not re-open without new evidence)
 
 - **"2026 acts as an undeclared all-time sentinel"** — the timeline label and

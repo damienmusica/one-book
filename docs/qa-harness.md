@@ -38,7 +38,8 @@ SwiftShader 폴백 — 사용된 모드는 `metrics.json`의 `rendererLaunched`�
 | `reduced-motion` | 스파크 0 + 정적 화살촉 유지 (방향 정보는 모션 없이도 보존) |
 | `geo-density` | 지리 원경 지역 클러스터 + 억제율 ≤25%(하드), **관계 LOD**: 미선택 raw 간선 0(229였다) — far 지역 항로 ≤16·상중경 항로 ≤24·인장 줌 quiet, **인장 군집** 겹침 ≤2(하드), 칩→팝오버→선택 E2E |
 | `memory-soak` | 연도 스크럽 20회+선택 20회 후 텍스처/지오메트리/추정 바이트 기준선 복귀(LRU·해제 검증) |
-| `kafka-journey` | **R8 신규 사용자 완주 (vertical-slice 계승)**: 검색 선택 → **위계**(작가 라벨 ≤ cast·집계 0·도시 mid 가시) → **관계 정체성**(far/near/드래그에 관계 ID 집합·storyKey·diff 0 불변) → **영토 입장 버튼**(도착 near·진입 세그먼트 max frame ≤60ms·메모리 +패치(~2MiB, 전판 170.7MiB였다)) → **상위 3도시 투영 반경 ≥8px·화면 안·패널 비가림** → **렌즈 픽셀 증명**(켜기 전후 영토 영역 mean |ΔL| ≥0.008 — 상태 플래그가 아니라 픽셀; owner-index 버그 재발 방지) → 도시 클릭 = **단일 인스펙터** 작품 깊이(부유 카드 0) + safe-area → 읽기 가도 이전/다음 → ← 프로필 복원 → Escape 완주 시 **패치 즉시 해제**(바이트 시작 ±4MiB) → 진입-이탈 ×3 soak(바이트 평탄·diff 0) |
+| `kafka-journey` | **R9 신규 사용자 완주 — 필름은 여정만**: 검색(focus mode) → **위계**(라벨 ≤ cast·집계 0·**조약 오버레이 0**·**bystander 인장 퇴장(71→cast만)**·도시 mid 가시) → **영토 문 무스크롤 클릭**(boundingBox가 뷰포트 안임을 단언 후 좌표 클릭 — Playwright 자동 스크롤 금지) → 도착 near·진입 max frame ≤60ms·메모리 +패치(~2MiB) → 상위 3도시 ≥8px 비가림 → 렌즈 픽셀 증명(mean \|ΔL\| ≥0.008) → 도시 클릭 = 단일 인스펙터 + **네트워크 생존**(도시 ≥3 + 가도가 인스펙터 옆 비가림 뷰포트에 잔존) → 가도 이전/다음 → ← 복귀는 **카메라 정착 + 초상 페인트 완료 후** 판정 → Escape 완주 → **출발 뷰 착지**(camera dir dot >0.999) + 패치 해제(바이트 ±4MiB). 검증 안무는 필름 밖(→ kafka-soak) |
+| `kafka-soak` | **검증 안무 전용 (여정 필름과 분리)**: 관계 **ID 동등성** far/near/궤도 스윕(diff 0·storyKey 불변) + 진입-이탈 ×3(문 3종 전부 무스크롤 박스 클릭: 별 재클릭·미니카드·프로필 상단) — 바이트 평탄·폭주 빌드 0 |
 | `flow-lifecycle` | **서사 수명주기**: LOD 2회 전환·카메라 드래그에 storyBuilds 불변, 스크럽 중 preview만(재시작 0), commit은 diff ≤1, 재생 버튼만 리셋 |
 | `camera-interrupt` | **카메라 주권**: pointerdown/wheel이 자동 focus를 같은 디스패치에서 절단(월 21ms), 인계 후 스냅 0(최악 프레임 스텝 <0.1rad), Escape 북마크 복원(dist 오차 <8) |
 | `lod-hysteresis` | 경계 ±3% 휠 진동 30회 × 두 경계에서 티어 전환 0, 의도된 이동은 전환됨 |
