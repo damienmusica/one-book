@@ -4,9 +4,20 @@
 
 import type { PeriodId, RelationType } from "./types.ts";
 
+// Five-value luminance ladder (7th review PR3) — in one state, one layer owns
+// the peak. L0 space < L1 sea/sphere < L2 unselected territory < L3
+// interactive (nodes/labels/routes) < L4 selection (pulse transiently tops
+// it). The 7th review measured the initial frame at mean L 0.0735 with 91.6%
+// of pixels under 10%: L0–L2 were indistinguishable. The sea got its own
+// value above the page ground, and the far terrain fade floor rose with it.
 export const COLORS = {
   bg: "#0f0d0a",
   surface: "#161210",
+  /** L1 — the globe's sea/sphere: above page ground (~L .06), below the
+   * territory wash (~L .15). At #20 1a 15 the sea sits near L .105 — the
+   * first frame stops reading as one near-black band without leaving the
+   * warm-black world. */
+  sea: "#201a15",
   surfaceRaised: "#1e1914",
   line: "#332b1f",
   lineStrong: "#4f4331",

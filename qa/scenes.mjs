@@ -81,15 +81,64 @@ export const SCENES = {
       }
       await ctx.beat("rotated");
 
+      // five-value ladder regression (7th review PR3 / backlog 31): the
+      // initial frame must not collapse into one near-black band. Before the
+      // regrade: mean 0.0735 with 91.6% of pixels under L 0.10.
+      const shot = await ctx.page.screenshot();
+      const lum = await ctx.page.evaluate(async (b64) => {
+        const img = new Image();
+        img.src = "data:image/png;base64," + b64;
+        await img.decode();
+        const c = document.createElement("canvas");
+        c.width = Math.round(img.width / 4);
+        c.height = Math.round(img.height / 4);
+        const g = c.getContext("2d");
+        g.drawImage(img, 0, 0, c.width, c.height);
+        const d = g.getImageData(0, 0, c.width, c.height).data;
+        let sum = 0;
+        let below = 0;
+        const n = d.length / 4;
+        for (let i = 0; i < d.length; i += 4) {
+          const l = (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2]) / 255;
+          sum += l;
+          if (l < 0.1) below++;
+        }
+        return { mean: sum / n, below10: below / n };
+      }, shot.toString("base64"));
+      ctx.assert(
+        "value-ladder-legible",
+        lum.mean >= 0.078 && lum.mean <= 0.14 && lum.below10 <= 0.8,
+        `mean L ${lum.mean.toFixed(4)} (band 0.078–0.14), below-10% share ${(lum.below10 * 100).toFixed(1)}% (≤80; was 91.6)`
+      );
+
       await ctx.page.locator('button[aria-label="확대"]').click();
       await ctx.page.locator('button[aria-label="확대"]').click();
       await ctx.waitIdle();
+      // semantic mid+ unselected: the raw milky way is a FAR reading —
+      // closer in, constellation-pair routes carry the story (7th review)
+      const zi = await ctx.metrics();
+      ctx.assert(
+        "semantic-mid-aggregated",
+        zi.renderer.relationView?.reason === "semantic-aggregate" &&
+          zi.renderer.relationView?.rawDrawn === 0 &&
+          zi.renderer.relationView?.aggregateRoutes > 0 &&
+          zi.renderer.relationView?.aggregateRoutes <= 24,
+        `reason ${zi.renderer.relationView?.reason}, raw ${zi.renderer.relationView?.rawDrawn}, ` +
+          `routes ${zi.renderer.relationView?.aggregateRoutes} (≤24)`
+      );
       await ctx.beat("zoom-in");
 
       await ctx.page.locator('button[aria-label="축소"]').click();
       await ctx.page.locator('button[aria-label="축소"]').click();
       await ctx.page.locator('button[aria-label="축소"]').click();
       await ctx.waitIdle();
+      const zo = await ctx.metrics();
+      ctx.assert(
+        "semantic-far-milky-way",
+        zo.renderer.relationView?.reason === "semantic-overview" &&
+          zo.renderer.relationView?.rawDrawn > 0,
+        `back out: reason ${zo.renderer.relationView?.reason}, raw ${zo.renderer.relationView?.rawDrawn}`
+      );
       await ctx.beat("zoom-out");
     }
   },

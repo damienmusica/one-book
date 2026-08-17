@@ -30,9 +30,17 @@ const REGION: Record<string, string> = {
   a4: "north-america"
 };
 
+const MOVEMENT: Record<string, string> = {
+  a1: "mv:modernism",
+  a2: "mv:surrealism",
+  a3: "mv:surrealism",
+  a4: "mv:beat"
+};
+
 const base = {
   regionOf: (id: string) => REGION[id],
   clusterGroupOf: (id: string) => (id === "a1" || id === "sel" ? "rep1" : "rep2"),
+  movementOf: (id: string) => MOVEMENT[id],
   egoExpanded: false
 };
 
@@ -124,7 +132,7 @@ describe("resolveRelationView — geo aggregates replace the raw tangle", () => 
     ]);
   });
 
-  it("near unselected stays quiet; semantic keeps its milky way", () => {
+  it("near unselected stays quiet; the milky way is a FAR reading only", () => {
     const near = resolveRelationView({
       ...base,
       mode: "geo",
@@ -133,6 +141,18 @@ describe("resolveRelationView — geo aggregates replace the raw tangle", () => 
       visibleRelations: rels
     });
     expect(near.raw.length + near.aggregates.length).toBe(0);
+    const semFar = resolveRelationView({
+      ...base,
+      mode: "semantic",
+      lod: "far",
+      selectedAuthorId: null,
+      visibleRelations: rels
+    });
+    expect(semFar.raw.length).toBe(rels.length);
+    expect(semFar.reason).toBe("semantic-overview");
+  });
+
+  it("semantic mid unselected: constellation routes, 0 raw (7th review)", () => {
     const sem = resolveRelationView({
       ...base,
       mode: "semantic",
@@ -140,6 +160,23 @@ describe("resolveRelationView — geo aggregates replace the raw tangle", () => 
       selectedAuthorId: null,
       visibleRelations: rels
     });
-    expect(sem.raw.length).toBe(rels.length);
+    expect(sem.raw.length).toBe(0);
+    expect(sem.reason).toBe("semantic-aggregate");
+    // r1 modernism↔surrealism, r2 modernism↔surrealism (r3 intra-surrealism
+    // silent), r4 modernism↔beat
+    const ms = sem.aggregates.find((a) => a.a === "mv:modernism" && a.b === "mv:surrealism");
+    expect(ms?.count).toBe(2);
+    expect(sem.aggregates.length).toBe(2);
+    // authors without a movement fall back to their region group
+    const semFallback = resolveRelationView({
+      ...base,
+      movementOf: () => undefined,
+      mode: "semantic",
+      lod: "near",
+      selectedAuthorId: null,
+      visibleRelations: rels
+    });
+    expect(semFallback.raw.length).toBe(0);
+    expect(semFallback.aggregates.length).toBeGreaterThan(0);
   });
 });
