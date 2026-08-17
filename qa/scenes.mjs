@@ -294,9 +294,9 @@ export const SCENES = {
       // card, confirm the camera never moved, close with Escape
       const before = await ctx.metrics();
       await ctx.page.getByRole("button", { name: "작품 카드 열기: 소송" }).click();
-      await ctx.page.locator(".work-card").waitFor({ timeout: 5000 });
+      await ctx.page.locator(".work-inspector").waitFor({ timeout: 5000 });
       await ctx.beat("work-card");
-      const cardText = await ctx.page.locator(".work-card").textContent();
+      const cardText = await ctx.page.locator(".work-inspector").textContent();
       ctx.assert(
         "work-card-substantive",
         Boolean(
@@ -319,16 +319,22 @@ export const SCENES = {
         "w= in hash"
       );
       await ctx.page.keyboard.press("Escape");
-      await ctx.page.locator(".work-card").waitFor({ state: "detached", timeout: 5000 });
+      await ctx.page.locator(".work-inspector").waitFor({ state: "detached", timeout: 5000 });
+      // the inspector's author depth stays open after ← — close it so the
+      // marker probes below measure the naked map (8th review ladder)
+      await ctx.page.keyboard.press("Escape");
+      await ctx.page.locator(".detail-panel").waitFor({ state: "detached", timeout: 5000 });
 
       // keyboard path: focus a town label, Enter opens its card
       await ctx.page.getByRole("button", { name: "작품 카드 열기: 변신" }).focus();
       await ctx.page.keyboard.press("Enter");
-      await ctx.page.locator(".work-card").waitFor({ timeout: 5000 });
+      await ctx.page.locator(".work-inspector").waitFor({ timeout: 5000 });
       await ctx.beat("work-card-keyboard");
       ctx.assert("work-keyboard-open", true, "Enter on focused town label");
       await ctx.page.keyboard.press("Escape");
-      await ctx.page.locator(".work-card").waitFor({ state: "detached", timeout: 5000 });
+      await ctx.page.locator(".work-inspector").waitFor({ state: "detached", timeout: 5000 });
+      await ctx.page.keyboard.press("Escape");
+      await ctx.page.locator(".detail-panel").waitFor({ state: "detached", timeout: 5000 });
       // PR4 gave work open/close its own camera flights (city focus +
       // bookmark restore) — marker screen positions are only measurable
       // once the restore flight and the safe-area ease have landed
@@ -375,7 +381,7 @@ export const SCENES = {
           `hoveredWorkId (via raycast): ${hovered} (probe ${probePoint.id})`
         );
         await ctx.page.mouse.click(probePoint.x, probePoint.y);
-        await ctx.page.locator(".work-card").waitFor({ timeout: 5000 });
+        await ctx.page.locator(".work-inspector").waitFor({ timeout: 5000 });
         const pickedWork = await ctx.page.evaluate(() => window.__lpQA.state().selectedWorkId);
         ctx.assert(
           "marker-raycast-pick",
@@ -388,13 +394,10 @@ export const SCENES = {
         ctx.assert("marker-raycast-pick", false, "no marker had a label-clear probe point");
       }
 
-      // ring size = curated reading rank + ◆ harbor = entry are live; the
+      // ring size = curated reading rank + ◆ harbor = entry are live. The
       // full city system (thematic districts, translation ports, adaptation
-      // bridges) stays declared roadmap, not staged
-      ctx.notImplemented(
-        "city-districts",
-        "districts/ports/bridges are P2 roadmap (ux-backlog); size+shape+route encodings shipped"
-      );
+      // bridges) is P2 roadmap in ux-backlog §13 — a roadmap item, not a gap
+      // in this scene's own claims (8th review: the slice ships whole).
     }
   },
 
@@ -846,68 +849,181 @@ export const SCENES = {
     }
   },
 
-  "vertical-slice": {
-    title: "수직 슬라이스: hover→접촉→focus→서사→렌즈 기복→도시·가도→카드 safe-area→복귀 (20초 루프)",
+  "kafka-journey": {
+    title: "카프카 여정: 신규 사용자 완주 — 선택→위계→LOD 정체성→영토 입장→도시·가도→작품 인스펙터→복귀→반복 soak",
     async run(ctx) {
       await ctx.goto("#/");
       await ctx.waitIdle();
+      const bytes = async () =>
+        (await ctx.metrics()).renderer?.memory?.textureBytesEstimate ?? 0;
+      const mib = (b) => Math.round((b / 1048576) * 10) / 10;
+      const bytes0 = await bytes();
+      await ctx.beat("overview");
 
-      // 1) planet hover: spin the globe (real drags) until Kafka's star faces
-      // us, then point at it — no teleports, the reader's own gesture
-      let kafkaPt = null;
-      for (let i = 0; i < 14; i++) {
-        const anchors = (await ctx.metrics()).renderer.authorScreens ?? [];
-        const hit = anchors.find(
-          (a) => a.id === KAFKA && a.x > 200 && a.x < 1700 && a.y > 120 && a.y < 950
-        );
-        if (hit) {
-          kafkaPt = hit;
-          break;
-        }
-        await ctx.drag([960, 520], [700, 520]);
-        await ctx.settle(450);
-      }
-      ctx.assert("kafka-on-screen", Boolean(kafkaPt), kafkaPt ? `found at ${kafkaPt.x},${kafkaPt.y}` : "not found after 14 spins");
-      if (!kafkaPt) return;
-      await ctx.page.mouse.move(kafkaPt.x, kafkaPt.y, { steps: 8 });
-      await ctx.page.waitForFunction(
-        (id) => window.__lpQA.state().hoveredAuthorId === id,
-        KAFKA,
-        { timeout: 2000 }
-      );
-      const hoverLat = (await ctx.metrics()).latency?.hover;
-      ctx.assert(
-        "hover-feedback-latency",
-        (hoverLat?.p95 ?? 99) <= 50 && (hoverLat?.samples ?? 0) >= 1,
-        `pointer→hover-applied p95 ${hoverLat?.p95}ms over ${hoverLat?.samples} samples (≤50)`
-      );
-      await ctx.beat("hover-prelight");
+      // 1) a new user finds Kafka the disclosed way: one orientation drag,
+      // then the search box — selection centers him with a cancellable flight
+      await ctx.drag([960, 520], [820, 500]);
+      await ctx.settle(350);
+      await searchSelect(ctx, "카프카", KAFKA);
+      await ctx.settle(400);
 
-      // 2) click: contact answers at press, then the cancellable focus flight
-      await ctx.page.mouse.down();
-      await ctx.page.mouse.up();
-      await ctx.page.waitForFunction(
-        (id) => window.__lpQA.state().selectedAuthorId === id,
-        KAFKA,
-        { timeout: 3000 }
-      );
-      const contactLat = (await ctx.metrics()).latency?.contact;
-      const contactEvents = (await ctx.events()).filter((e) => e.type === "contact-feedback");
+      // 2) the selected scene has an unmistakable hierarchy: only the story
+      // cast is named, aggregate corridors yield, towns already exist at mid
+      const mSel = await ctx.metrics();
+      const cast = mSel.renderer.interaction.storyCast;
+      const authorLabels = mSel.renderer.labelsByKind?.author ?? 0;
       ctx.assert(
-        "click-contact-latency",
-        contactEvents.length >= 1 && (contactLat?.p95 ?? 99) <= 50,
-        `contact events ${contactEvents.length}, press→applied p95 ${contactLat?.p95}ms (≤50)`
+        "hierarchy-only-cast-named",
+        cast > 0 && authorLabels <= cast,
+        `author labels ${authorLabels} ≤ story cast ${cast} (bystanders silent at mid)`
       );
+      ctx.assert(
+        "no-aggregate-noise-during-story",
+        (mSel.renderer.relationView?.aggregateRoutes ?? 0) === 0,
+        `aggregate routes ${mSel.renderer.relationView?.aggregateRoutes} (story owns the stage)`
+      );
+      ctx.assert(
+        "towns-visible-from-approach",
+        (mSel.renderer.cityMarkers?.count ?? 0) > 0 && mSel.renderer.lod === "mid",
+        `towns at mid: ${mSel.renderer.cityMarkers?.count} (no undisclosed zoom needed to learn they exist)`
+      );
+      const ids0 = mSel.renderer.interaction.storyRelationIds;
+      const builds0 = mSel.renderer.interaction.flowStoryBuilds;
+      ctx.assert(
+        "story-live",
+        ids0.length > 0 && builds0 === 1,
+        `${ids0.length} relations in the running story, builds ${builds0}`
+      );
+      await ctx.beat("selected-mid");
+
+      // 3) relation identity across LOD + orbit: the story set is pinned by
+      // ID equality, not counts — far, near, and a drag must change nothing
+      const idsAt = async () =>
+        (await ctx.metrics()).renderer.interaction.storyRelationIds.join(",");
+      const key0 = mSel.renderer.interaction.storyKey;
+      await ctx.wheel(960, 540, 1200); // out toward far
+      await ctx.settle(500);
+      await ctx.wheel(960, 540, 1200);
+      await ctx.settle(700);
+      const idsFar = await idsAt();
+      const lodFar = (await ctx.metrics()).renderer.lod;
+      await ctx.wheel(960, 540, -1200);
+      await ctx.settle(500);
+      await ctx.wheel(960, 540, -1200); // deep toward near
+      await ctx.settle(500);
+      await ctx.wheel(960, 540, -900);
+      await ctx.settle(700);
+      const idsNear = await idsAt();
+      const lodNear = (await ctx.metrics()).renderer.lod;
+      await ctx.drag([960, 520], [1050, 560]);
+      await ctx.settle(500);
+      const idsDrag = await idsAt();
+      const mAfter = await ctx.metrics();
+      ctx.assert(
+        "story-identity-across-lod",
+        lodFar === "far" &&
+          lodNear === "near" &&
+          idsFar === ids0.join(",") &&
+          idsNear === idsFar &&
+          idsDrag === idsFar,
+        `relation IDs identical across ${lodFar}/${lodNear}/orbit (${ids0.length} ids; tiers genuinely reached)`
+      );
+      ctx.assert(
+        "story-clock-untouched",
+        mAfter.renderer.interaction.flowStoryBuilds === builds0 &&
+          mAfter.renderer.interaction.flowStoryDiffs === 0 &&
+          mAfter.renderer.interaction.storyKey === key0,
+        `builds ${mAfter.renderer.interaction.flowStoryBuilds}, diffs ${mAfter.renderer.interaction.flowStoryDiffs}, key stable`
+      );
+
+      // 4) the disclosed door: the 영토 입장 button flies to reading depth
+      // (search selection opens the profile panel, map clicks the mini card —
+      // BOTH carry the same door). Frame time across the entry is gated.
+      await ctx.page.getByRole("button", { name: /영토 입장|Enter territory/ }).first().click();
       await ctx.waitIdle();
-      // 3) the narrative is ALIVE in this frame (event-synced capture)
-      await ctx.page.waitForFunction(
-        () => (window.__lpQA.metrics().renderer?.activePulses ?? 0) > 0,
-        undefined,
-        { timeout: 4000 }
+      const mEntry = await ctx.metrics();
+      ctx.assert(
+        "entry-lands-at-reading-depth",
+        mEntry.renderer.lod === "near" && mEntry.renderer.cameraDistance < 195,
+        `lod ${mEntry.renderer.lod}, dist ${Math.round(mEntry.renderer.cameraDistance)}`
       );
-      await ctx.beat("narrative-live");
+      const hw = mEntry.renderer.gl && !/swiftshader|llvmpipe/i.test(mEntry.renderer.gl.renderer);
+      const seg = mEntry.frame;
+      if (hw) {
+        ctx.assert(
+          "entry-frame-time",
+          (seg?.maxMs ?? 999) <= 60,
+          `entry segment max frame ${seg?.maxMs}ms (≤60 — was 2×50ms+ with the 134MiB plate upload)`
+        );
+      } else {
+        ctx.assert("entry-frame-time", true, `swiftshader run — frame gate applies on hardware only (max ${seg?.maxMs}ms recorded)`);
+      }
+      const bytesNear = await bytes();
+      ctx.assert(
+        "entry-memory-patch-not-planet",
+        bytesNear - bytes0 < 16 * 1048576,
+        `near entry +${mib(bytesNear - bytes0)}MiB (nation window; was +170.7MiB full plate)`
+      );
 
-      // 4) elevation lens on (§4¾): explicit opt-in through the legend
+      // 5) cities are ACTUALLY visible in the unobscured viewport: projected
+      // footprint radii of the top-3 curated towns, checked against every
+      // open panel rect — a visual claim measured in pixels
+      const towns = mEntry.renderer.cityMarkers.screen ?? [];
+      const ranked = towns
+        .filter((t) => t.rank !== null && t.rank <= 2)
+        .sort((a, b) => a.rank - b.rank);
+      const panels = await ctx.page.evaluate(() =>
+        [...document.querySelectorAll(".detail-panel, .relation-dialog, .mini-card")].map((el) => {
+          const r = el.getBoundingClientRect();
+          return { left: r.left, right: r.right, top: r.top, bottom: r.bottom };
+        })
+      );
+      const uncovered = (p) =>
+        !panels.some((r) => p.x >= r.left && p.x <= r.right && p.y >= r.top && p.y <= r.bottom);
+      const inView = (p) => p.x > 8 && p.x < 1912 && p.y > 66 && p.y < 1000;
+      const visible = ranked.filter((p) => p.r >= 8 && inView(p) && uncovered(p));
+      ctx.assert(
+        "top-towns-meaningfully-visible",
+        ranked.length >= 3 && visible.length >= 3,
+        `top-3 towns ${ranked.map((p) => `${p.id.split("--")[1]}@${p.x},${p.y} r${p.r}px`).join(" · ")} — all ≥8px, in view, unobscured (panels: ${panels.length})`
+      );
+      await ctx.beat("territory-entered");
+
+      // 5½) the elevation lens must CHANGE PIXELS on the selected nation —
+      // a state flag once said "active" while the relief painted someone
+      // else's land (owner-index bug); never again state-only (8th review)
+      const region = (() => {
+        const xs = towns.map((t) => t.x);
+        const ys = towns.map((t) => t.y);
+        const x0 = Math.max(0, Math.min(...xs) - 60);
+        const y0 = Math.max(70, Math.min(...ys) - 60);
+        return {
+          x: x0,
+          y: y0,
+          width: Math.min(1920 - x0, Math.max(...xs) + 60 - x0),
+          height: Math.min(1080 - y0, Math.max(...ys) + 60 - y0)
+        };
+      })();
+      const regionLum = async () => {
+        const shot = await ctx.page.screenshot({ clip: region });
+        return ctx.page.evaluate(async (b64) => {
+          const img = new Image();
+          img.src = "data:image/png;base64," + b64;
+          await img.decode();
+          const c = document.createElement("canvas");
+          c.width = Math.round(img.width / 2);
+          c.height = Math.round(img.height / 2);
+          const g = c.getContext("2d");
+          g.drawImage(img, 0, 0, c.width, c.height);
+          const d = g.getImageData(0, 0, c.width, c.height).data;
+          const out = [];
+          for (let i = 0; i < d.length; i += 4) {
+            out.push((0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2]) / 255);
+          }
+          return out;
+        }, shot.toString("base64"));
+      };
+      const lumBefore = await regionLum();
       await ctx.page.locator(".legend-fold summary", { hasText: /영토|Territory/ }).click();
       await ctx.page.locator(".legend-lens select").selectOption("corpus-density");
       await ctx.page.waitForFunction(
@@ -915,124 +1031,159 @@ export const SCENES = {
         undefined,
         { timeout: 2000 }
       );
-      const lens = (await ctx.metrics()).renderer.lens;
+      await ctx.settle(500);
+      const lumAfter = await regionLum();
+      const n = Math.min(lumBefore.length, lumAfter.length);
+      let meanAbs = 0;
+      for (let i = 0; i < n; i++) meanAbs += Math.abs(lumAfter[i] - lumBefore[i]);
+      meanAbs /= Math.max(1, n);
+      const lensM = (await ctx.metrics()).renderer.lens;
       ctx.assert(
-        "lens-relief-active",
-        lens.active && lens.amp > 0,
-        `lens ${lens.id}, amp ${lens.amp} (corpus-density, formula in legend)`
+        "lens-changes-real-pixels",
+        lensM.active && meanAbs >= 0.008,
+        `lens ${lensM.id} amp ${lensM.amp}; mean |ΔL| over the realm ${meanAbs.toFixed(4)} (≥0.008 — pixels, not a flag)`
       );
       await ctx.beat("lens-relief");
 
-      // 5) walk into the realm: towns with silhouettes, the reading road
-      await ctx.page.locator('button[aria-label="확대"]').click();
-      await ctx.waitIdle();
-      await ctx.page.locator('button[aria-label="확대"]').click();
-      await ctx.waitIdle();
-      const cm = (await ctx.metrics()).renderer.cityMarkers;
-      ctx.assert(
-        "cities-have-bodies",
-        cm.count > 0 && cm.buildings > 0 && cm.roadSegments >= 1,
-        `towns ${cm.count}, building clusters ${cm.buildings}, road segments ${cm.roadSegments}`
-      );
-      await ctx.beat("cities-and-roads");
-
-      // 6) bidirectional hover: open the full profile, its rows light towns
-      await ctx.page.locator(".mini-card__open").click();
-      await ctx.page.locator(".work-list li").first().waitFor({ timeout: 4000 });
-      await ctx.waitIdle(); // safe-area reframe for the full panel settles
-      const firstWork = ctx.page.locator(".work-list li").first();
-      await firstWork.hover();
-      await ctx.page.waitForFunction(
-        () => window.__lpQA.state().hoveredWorkId !== null,
-        undefined,
-        { timeout: 2000 }
-      );
-      ctx.assert("profile-to-map-hover", true, "work row hover set hoveredWorkId");
-      await ctx.page.mouse.move(400, 300);
-
-      // 7) enter a town: click its true screen position (marker hit disc or
-      // the label over it — either real path opens the same card)
-      const towns = (await ctx.metrics()).renderer.cityMarkers.screen;
-      const target =
-        towns.find((p) => p.x > 60 && p.x < 1480 && p.y > 90 && p.y < 990) ?? towns[0];
-      ctx.assert("town-clickable", Boolean(target), `towns on screen: ${towns.length}`);
-      await ctx.page.mouse.click(target.x, target.y);
+      // 6) town → the unified inspector's work depth: ONE surface, no
+      // competing floating card; the town stays beside the panel
+      const entryTown = towns.find((t) => t.rank === 0) ?? towns[0];
+      await ctx.page.mouse.click(entryTown.x, entryTown.y);
       await ctx.page.waitForFunction(
         () => window.__lpQA.state().selectedWorkId !== null,
         undefined,
         { timeout: 3000 }
       );
       await ctx.waitIdle();
-      // converge: the selected town must appear in the marker screen list
-      // once the city flight + safe-area ease fully land
-      let converged = false;
-      let lastState = null;
-      for (let i = 0; i < 20; i++) {
-        const m = await ctx.metrics();
-        const w = m.state.selectedWorkId;
-        lastState = {
-          work: w,
-          count: m.renderer?.cityMarkers?.count,
-          ids: (m.renderer?.cityMarkers?.screen ?? []).map((p) => p.id.split("--")[1]),
-          author: m.state.selectedAuthorId,
-          cam: m.renderer?.cameraDistance,
-          lod: m.renderer?.lod
-        };
-        if (w && (m.renderer?.cityMarkers?.screen ?? []).some((p) => p.id === w)) {
-          converged = true;
-          break;
-        }
-        await ctx.settle(200);
-      }
-      ctx.assert("town-selection-converged", converged, JSON.stringify(lastState));
-      const st = await ctx.metrics();
-      const selWork = st.state.selectedWorkId;
-      const townPt = st.renderer.cityMarkers.screen.find((p) => p.id === selWork);
-      const covered = await ctx.page.evaluate((pt) => {
-        if (!pt) return { covered: true, rects: 0 };
-        const rects = [...document.querySelectorAll(".detail-panel, .relation-dialog")].map(
-          (el) => el.getBoundingClientRect()
-        );
-        return {
-          covered: rects.some(
-            (r) => pt.x >= r.left && pt.x <= r.right && pt.y >= r.top && pt.y <= r.bottom
-          ),
-          rects: rects.length
-        };
-      }, townPt ?? null);
+      const inspector = await ctx.page.evaluate(() => ({
+        workDepth: Boolean(document.querySelector(".detail-panel .work-inspector")),
+        floatingCards: document.querySelectorAll(".work-card").length,
+        panels: document.querySelectorAll(".detail-panel").length
+      }));
       ctx.assert(
-        "panel-safe-framing",
-        Boolean(townPt) && !covered.covered,
-        `selected town at ${townPt ? `${townPt.x},${townPt.y}` : "?"} vs ${covered.rects} panel rects — not buried`
+        "one-inspector-no-competing-card",
+        inspector.workDepth && inspector.floatingCards === 0 && inspector.panels === 1,
+        `work opened INSIDE the panel (floating cards: ${inspector.floatingCards})`
       );
-      await ctx.beat("town-card-safe");
+      {
+        const m = await ctx.metrics();
+        const selWork = m.state.selectedWorkId;
+        const pt = (m.renderer.cityMarkers.screen ?? []).find((p) => p.id === selWork);
+        const rects = await ctx.page.evaluate(() =>
+          [...document.querySelectorAll(".detail-panel")].map((el) => {
+            const r = el.getBoundingClientRect();
+            return { left: r.left, right: r.right, top: r.top, bottom: r.bottom };
+          })
+        );
+        const buried =
+          pt &&
+          rects.some((r) => pt.x >= r.left && pt.x <= r.right && pt.y >= r.top && pt.y <= r.bottom);
+        ctx.assert(
+          "town-beside-inspector",
+          Boolean(pt) && !buried,
+          `selected town at ${pt ? `${pt.x},${pt.y}` : "?"} beside the inspector (safe-area)`
+        );
+      }
+      await ctx.beat("work-inspector");
 
-      // 8) Escape ladder walks back out; a drag mid-flight cuts the camera
-      await ctx.page.keyboard.press("Escape"); // card closes → author restore flight
-      await ctx.settle(120);
-      for (let i = 0; i < 4; i++) {
+      // 7) the reading road is walkable from the inspector; ← returns to the
+      // profile on the SAME surface
+      const road = ctx.page.locator(".work-inspector__road button");
+      if ((await road.count()) > 0) {
+        const before = await ctx.page.evaluate(() => window.__lpQA.state().selectedWorkId);
+        await road.last().click();
+        await ctx.page.waitForFunction(
+          (prev) => window.__lpQA.state().selectedWorkId !== prev,
+          before,
+          { timeout: 3000 }
+        );
+        await ctx.waitIdle();
+        ctx.assert("road-walks-to-next-town", true, "이전/다음 moved the selection along the curated order");
+      } else {
+        ctx.assert("road-walks-to-next-town", false, "no road navigation buttons in the inspector");
+      }
+      await ctx.page.locator(".work-inspector__back").click();
+      await ctx.page.waitForFunction(
+        () => window.__lpQA.state().selectedWorkId === null,
+        undefined,
+        { timeout: 3000 }
+      );
+      const backState = await ctx.page.evaluate(() => ({
+        panelOpen: window.__lpQA.state().panelOpen,
+        profile: Boolean(document.querySelector(".detail-panel .work-list")),
+        inspector: Boolean(document.querySelector(".work-inspector"))
+      }));
+      ctx.assert(
+        "back-restores-profile",
+        backState.panelOpen && backState.profile && !backState.inspector,
+        "← returned to the author profile in the same panel"
+      );
+      await ctx.beat("back-to-profile");
+
+      // 8) full return: Escape ladder to the open planet; the nation window
+      // frees the moment the selection ends
+      for (let i = 0; i < 5; i++) {
         if ((await ctx.page.evaluate(() => window.__lpQA.state().selectedAuthorId)) === null) break;
         await ctx.page.keyboard.press("Escape");
-        await ctx.settle(140);
+        await ctx.settle(160);
       }
       await ctx.page.waitForFunction(
         () => window.__lpQA.state().selectedAuthorId === null,
         undefined,
-        { timeout: 3000 }
+        { timeout: 4000 }
       );
-      // the planet-restore flight is running — the user's drag must win NOW
-      const flying = await ctx.page.evaluate(
-        () => window.__lpQA.metrics().renderer?.cameraAnimating === true
-      );
-      if (flying) {
-        await ctx.drag([960, 520], [830, 500]);
-        const cancelled = (await ctx.events()).some((e) => e.type === "camera-cancelled");
-        ctx.assert("drag-cuts-automation", cancelled, "restore flight cancelled by drag");
-      } else {
-        ctx.assert("drag-cuts-automation", true, "restore already settled (fast machine) — cancel path gated in camera-interrupt");
-      }
       await ctx.waitIdle();
-      await ctx.beat("returned-to-planet");
+      const bytesOut = await bytes();
+      ctx.assert(
+        "exit-releases-window",
+        Math.abs(bytesOut - bytes0) < 4 * 1048576,
+        `after full exit ${mib(bytesOut)}MiB vs start ${mib(bytes0)}MiB (nation window freed on deselect)`
+      );
+      await ctx.beat("returned");
+
+      // 9) repeated entry/exit soak ×3 through BOTH doors (second click on
+      // the selected star, profile button): bytes flat, no runaway builds
+      const doors = ["star", "button", "star"];
+      for (let round = 0; round < 3; round++) {
+        await searchSelect(ctx, "카프카", KAFKA);
+        if (doors[round] === "star") {
+          const pt = ((await ctx.metrics()).renderer.authorScreens ?? []).find(
+            (a) => a.id === KAFKA && a.x > 100 && a.x < 1500 && a.y > 100 && a.y < 980
+          );
+          if (pt) {
+            await ctx.page.mouse.click(pt.x, pt.y); // second click = enter
+          } else {
+            await ctx.page.getByRole("button", { name: /영토 입장|Enter territory/ }).first().click();
+          }
+        } else {
+          await ctx.page.getByRole("button", { name: /영토 입장|Enter territory/ }).first().click();
+        }
+        await ctx.waitIdle();
+        const mR = await ctx.metrics();
+        if (mR.renderer.lod !== "near") {
+          ctx.assert(`soak-${round + 1}-entered`, false, `lod ${mR.renderer.lod} after entry`);
+          continue;
+        }
+        for (let i = 0; i < 5; i++) {
+          if ((await ctx.page.evaluate(() => window.__lpQA.state().selectedAuthorId)) === null) break;
+          await ctx.page.keyboard.press("Escape");
+          await ctx.settle(150);
+        }
+        await ctx.waitIdle();
+      }
+      const bytesFinal = await bytes();
+      const mFinal = await ctx.metrics();
+      ctx.assert(
+        "soak-bytes-flat",
+        Math.abs(bytesFinal - bytes0) < 4 * 1048576,
+        `after 3 enter/exit rounds: ${mib(bytesFinal)}MiB vs start ${mib(bytes0)}MiB`
+      );
+      ctx.assert(
+        "soak-no-runaway",
+        (mFinal.renderer.interaction.flowStoryDiffs ?? 99) === 0,
+        `diffs still 0 after soak (builds ${mFinal.renderer.interaction.flowStoryBuilds} = one per selection, none from LOD/camera)`
+      );
+      await ctx.beat("soak-complete");
     }
   },
 

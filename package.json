@@ -21,6 +21,7 @@
     "terrain:plate": "tsx scripts/generate-terrain.ts",
     "qa:capture": "node qa/capture.mjs",
     "qa:all": "node qa/capture.mjs --all",
+    "qa:journey": "node qa/capture.mjs --scene kafka-journey",
     "qa:bundle": "node qa/bundle.mjs",
     "qa:source-zip": "git -C .. archive --format=zip --add-virtual-file=\"literary-planet/BUILD_COMMIT:$(git rev-parse --short HEAD)\" -o literary-planet/literary-planet-source.zip HEAD literary-planet && echo literary-planet-source.zip",
     "release": "npm run typecheck && npm run test && npm run build"

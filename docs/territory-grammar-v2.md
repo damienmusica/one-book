@@ -164,6 +164,15 @@ Encoding { channel(면적|링크기|테두리|파티나|…), metric, formula, v
 문헌 수용·매개성·형식 혁신 렌즈는 출처 있는 지표 데이터가 생기기 전까지 등록하지
 않는다 (근거 없는 시각 채널 금지).
 
+**owner 인덱스 계약 (8차 리뷰, 2026-08-17 — 유혈로 확립):** 셰이더 `oid`는
+`territory.geometry.authors`의 인덱스이고, 이 순서는 **dataset 순서와 다르다**
+(실측 99/100 불일치). `oid`와 비교되거나 `oid`로 조회되는 모든 값 — lifeTex 슬롯,
+`uLensNation`, `uContactIdx`, `uCastTex` 슬롯, 국가 bbox/마스크 함수의 nationIdx —
+은 반드시 geometry 순서(`nationIdxOf`)에서 나와야 한다. dataset 인덱스를 쓰면
+렌즈·접촉 플래시·주권 lifecycle이 **엉뚱한 국가**에 그려지며, 상태 프로브는 그대로
+초록이다 (한 릴리스 동안 실제로 그랬다 — tests/nation-index.test.ts가 이 계급의
+버그를 상시 적발한다).
+
 ## 4½. 수용 용량 (CPO 2026-08-17: "행성이 담을 정보에 비해 너무 작다")
 
 행성은 **고정 주소 공간**이다 — 판은 커지지 않고, 역사가 바다를 채운다.

@@ -38,7 +38,7 @@ SwiftShader 폴백 — 사용된 모드는 `metrics.json`의 `rendererLaunched`�
 | `reduced-motion` | 스파크 0 + 정적 화살촉 유지 (방향 정보는 모션 없이도 보존) |
 | `geo-density` | 지리 원경 지역 클러스터 + 억제율 ≤25%(하드), **관계 LOD**: 미선택 raw 간선 0(229였다) — far 지역 항로 ≤16·상중경 항로 ≤24·인장 줌 quiet, **인장 군집** 겹침 ≤2(하드), 칩→팝오버→선택 E2E |
 | `memory-soak` | 연도 스크럽 20회+선택 20회 후 텍스처/지오메트리/추정 바이트 기준선 복귀(LRU·해제 검증) |
-| `vertical-slice` | **R7 20초 무편집 루프**: 회전으로 카프카 탐색 → hover p95≤50ms → 클릭 접촉 p95≤50ms → 취소 가능 focus → 활성 서사 → **렌즈 기복**(§4¾) → 도시 실루엣·읽기 가도 → 프로필↔지도 양방향 hover → 도시 진입 카드 **safe-area**(패널에 안 묻힘) → Escape 사다리 복귀 → 드래그가 자동 비행 절단 |
+| `kafka-journey` | **R8 신규 사용자 완주 (vertical-slice 계승)**: 검색 선택 → **위계**(작가 라벨 ≤ cast·집계 0·도시 mid 가시) → **관계 정체성**(far/near/드래그에 관계 ID 집합·storyKey·diff 0 불변) → **영토 입장 버튼**(도착 near·진입 세그먼트 max frame ≤60ms·메모리 +패치(~2MiB, 전판 170.7MiB였다)) → **상위 3도시 투영 반경 ≥8px·화면 안·패널 비가림** → **렌즈 픽셀 증명**(켜기 전후 영토 영역 mean |ΔL| ≥0.008 — 상태 플래그가 아니라 픽셀; owner-index 버그 재발 방지) → 도시 클릭 = **단일 인스펙터** 작품 깊이(부유 카드 0) + safe-area → 읽기 가도 이전/다음 → ← 프로필 복원 → Escape 완주 시 **패치 즉시 해제**(바이트 시작 ±4MiB) → 진입-이탈 ×3 soak(바이트 평탄·diff 0) |
 | `flow-lifecycle` | **서사 수명주기**: LOD 2회 전환·카메라 드래그에 storyBuilds 불변, 스크럽 중 preview만(재시작 0), commit은 diff ≤1, 재생 버튼만 리셋 |
 | `camera-interrupt` | **카메라 주권**: pointerdown/wheel이 자동 focus를 같은 디스패치에서 절단(월 21ms), 인계 후 스냅 0(최악 프레임 스텝 <0.1rad), Escape 북마크 복원(dist 오차 <8) |
 | `lod-hysteresis` | 경계 ±3% 휠 진동 30회 × 두 경계에서 티어 전환 0, 의도된 이동은 전환됨 |

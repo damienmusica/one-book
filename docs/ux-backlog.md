@@ -269,15 +269,45 @@ listed at the bottom so we don't re-litigate them.
     honestly ±0 at the same 256px cells — the win is binds/uploads/
     lifecycle, recorded per the "adopt only if numbers improve" rule);
     memory-soak-long shipped (bytes flat at 64.8MiB across 20/100/500
-    scrub checkpoints, slope 0, release back to 54.1MiB). NOT implemented:
-    the near-plate visible-patch spike — analysis recorded: full-equirect
-    8192×4096 near plate ≈170.7MiB with mips vs a 2048² camera-window
-    patch ≈22.4MiB (−87%), at the cost of worker repaints on camera pan
-    with hysteresis margins; do this spike before any galaxy-scale corpus,
-    together with the SDF coast/line-quality experiment.
+    scrub checkpoints, slope 0, release back to 54.1MiB).
+    **R8 UPDATE — the near-patch shipped for the SELECTION path**: at near
+    with an author selected, the shader composites that nation's window
+    painted at full cell density (Kafka: 2.2MiB) over the mid plate and the
+    134MiB planet plate never paints — measured near entry 224.8→56.3MiB,
+    entry max frame 50ms+→17.7ms, release on deselect immediate
+    (kafka-journey gates all three). HONEST RESIDUAL: near roaming with
+    NO selection still one-shot-paints the full 8192 plate (unchanged
+    quality + its one-time ~50ms first-bind hitch); a camera-window patch
+    for that path + the SDF coast experiment remain, still before any
+    galaxy-scale corpus.
 38. **Touch two-stage select** (7th review P1, deferred): first tap =
     preselect/context chip, second tap = enter. Needs a real touch-device
-    pass, not just emulation; do with item 25's device matrix.
+    pass, not just emulation; do with item 25's device matrix. NOTE (R8):
+    on pointer devices the second click on a selected star now ENTERS the
+    territory — the touch pass must reconcile with that gesture.
+
+> 2026-08-17 8th round (CPO symptom list, no prescriptions — "observed
+> symptoms, not prescribed implementations"): all five symptoms root-caused
+> and shipped same-day as R8, gated by the `kafka-journey` scene:
+> ① unrelated visual info during selection → **story-cast hierarchy**
+> (castTex nation recede in-shader, bystander labels silent at mid/near,
+> rest web 0.16→0.08, emblem/reticle/halo/rails bow out at reading depth);
+> ② LOD/camera altering the story → **membership divorced from tiers**
+> (selected ego uses filter-visible relations, never tier-filtered; cast
+> stars pinned visible; relation-ID equality gated across far/near/orbit);
+> ③ cities behind undisclosed zooming → **disclosed doors** (영토 입장
+> buttons + second-click-enters) and an entry flight that frames the top-3
+> towns' centroid at a fitted distance (all ≥8px projected, unobscured);
+> ④ competing author/work interfaces → **unified inspector** (work drills
+> into the same panel, breadcrumb back restores scroll, reading-road
+> prev/next, floating WorkCard deleted); ⑤ near entry spike → **selected-
+> nation patch** (2.2MiB window composited over the mid plate; near entry
+> 224.8→56.3MiB, entry max frame 50ms+→17.7ms, release-on-deselect).
+> Plus one bug the symptom list did not name, found by inspection: the
+> **owner-index space corruption** — lens relief, contact flash and
+> lifecycle rows were addressed by dataset index while the shader reads
+> geometry order (99/100 misaligned); state-only QA had passed over it for
+> a full release (§4¾ owner 인덱스 계약, tests/nation-index.test.ts).
 
 ## Feedback claims we checked and rejected (do not re-open without new evidence)
 
