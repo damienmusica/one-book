@@ -222,6 +222,51 @@ listed at the bottom so we don't re-litigate them.
     measurement (surface/territory/relation/node/selection bands) pinned in
     QA once item 17's regrade lands.
 
+> **Provenance — 7th external review (GPT sol max, 2026-08-17, of v0.1.0
+> @2d6aade):** the game-grade UX review. Verified with ZERO rebuttals again —
+> every number reproduced exactly (initial-frame mean luminance 0.0735 /
+> 91.6% below 10%, kafka flows-built restart at 928ms during the focus
+> flight, era-morph double rebuild at 7956/7957ms, 57 hard-coded colors in
+> styles.css, Line raycast threshold 1.5 world units ≈ 6.5 screen px,
+> zoomToCursor present-but-off in three 0.172). Confirmed P0 mechanisms:
+> rebuildEdges() calls buildFlows() so LOD/scrub/filter changes restart the
+> relation story; camAnim has no cancellation path and skips
+> controls.update() so gesture deltas accumulate and snap at animation end;
+> lodLevel() is a single-threshold function (310/205) with no hysteresis or
+> dwell; year changes rebuild flows on every slider value; first contact
+> feedback arrives ~1.2s after selection. The review's verdict stands: the
+> engine earned trust, the product surface is not yet game-grade. Sprint
+> R7 (PR0–PR5 below) executes its prescription; scope frozen (no galaxy, no
+> new authors, no new pages) until the Kafka vertical slice passes.
+
+32. **CameraController + LOD hysteresis** (7th review PR1): cancellable
+    focus (1-frame interrupt on pointer/wheel), distance-scaled 450–650ms
+    duration, zoom-to-cursor, safe-area framing, Escape pose bookmarks,
+    enter/exit LOD thresholds + dwell + crossfade. → shipped in R7.
+33. **FlowStory lifecycle** (7th review PR2): story clock survives
+    geometry rebuilds (storyId), scrub preview/commit split, diff-not-restart
+    on filter changes, explicit replay only. → shipped in R7.
+34. **Immediate contact feedback** (7th review PR2): 0–50ms node/territory
+    response on selection, before the camera and the narrative. → shipped in R7.
+35. **Visual hierarchy regrade v2** (7th review PR3): five-value luminance
+    tokens, highest-value ownership rule (selection, transiently pulse),
+    seal de-emphasis outside selection, semantic-mid aggregation, union-line
+    retreat, CSS color-token unification + lint, ≥13px map text floor.
+    Subsumes items 17/30/31 scope where shipped; art-directed palette pass
+    (17) remains open.
+36. **Kafka vertical slice** (7th review PR4): lens-based 2.5D territory
+    shading (§4¾ contract), instanced work cities with archetypes
+    (capital/port/city), founding growth, reading-order roads, map↔profile
+    bidirectional hover, city focus + safe-area card, 20s uncut loop scene.
+37. **Memory/line-quality spike** (7th review PR5): seal texture atlas
+    (single GPU upload), near-plate alternative spike (visible patch vs
+    8192 full-world equirect — adopt only if numbers improve), soak
+    20/100/500 slope convergence. Translation sea routes stay data-blocked
+    (no translation edges in the relation taxonomy yet — grammar reserved).
+38. **Touch two-stage select** (7th review P1, deferred): first tap =
+    preselect/context chip, second tap = enter. Needs a real touch-device
+    pass, not just emulation; do with item 25's device matrix.
+
 ## Feedback claims we checked and rejected (do not re-open without new evidence)
 
 - **"2026 acts as an undeclared all-time sentinel"** — the timeline label and

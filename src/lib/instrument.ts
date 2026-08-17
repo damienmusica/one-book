@@ -56,12 +56,17 @@ if (typeof PerformanceObserver !== "undefined") {
   }
 }
 
+const LATENCY_CAP = 240;
+
 class Instrumentation {
   private events: InstrEvent[] = [];
   private frames: number[] = [];
   private lastFrameAt = 0;
   private probe: RendererProbe | null = null;
   private overlayListeners = new Set<() => void>();
+  // input→visible-response latency rings, keyed by channel ("hover", "contact")
+  // — the 7th review's game-feel gates measure these, not frame times
+  private latencies = new Map<string, number[]>();
   overlayVisible = false;
 
   log(type: string, data?: Record<string, unknown>): void {
@@ -69,6 +74,33 @@ class Instrumentation {
     if (this.events.length > EVENT_CAP) {
       this.events.splice(0, this.events.length - EVENT_CAP);
     }
+  }
+
+  latency(channel: string, ms: number): void {
+    let ring = this.latencies.get(channel);
+    if (!ring) {
+      ring = [];
+      this.latencies.set(channel, ring);
+    }
+    ring.push(ms);
+    if (ring.length > LATENCY_CAP) ring.shift();
+  }
+
+  latencyStats(): Record<string, { samples: number; p50: number; p95: number; max: number }> {
+    const out: Record<string, { samples: number; p50: number; p95: number; max: number }> = {};
+    for (const [channel, ring] of this.latencies) {
+      if (ring.length === 0) continue;
+      const sorted = [...ring].sort((a, b) => a - b);
+      const pick = (q: number) =>
+        sorted[Math.min(sorted.length - 1, Math.floor(q * sorted.length))]!;
+      out[channel] = {
+        samples: sorted.length,
+        p50: Math.round(pick(0.5) * 10) / 10,
+        p95: Math.round(pick(0.95) * 10) / 10,
+        max: Math.round(sorted[sorted.length - 1]! * 10) / 10
+      };
+    }
+    return out;
   }
 
   getEvents(): InstrEvent[] {
@@ -227,6 +259,7 @@ export function buildMetrics(store: Store, dataset: Dataset): Record<string, unk
             dpr: window.devicePixelRatio
           },
     frame: instr.frameStats(),
+    latency: instr.latencyStats(),
     longTaskLog: [...longTaskLog],
     renderer: instr.rendererInfo()
   };
