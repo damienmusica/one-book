@@ -49,6 +49,11 @@
   --shadow-pop: 0 6px 22px rgba(0, 0, 0, 0.55);
   --geo-text: rgba(159, 190, 199, 0.78);
   --geo-ink-shadow: rgba(6, 10, 14, 0.9);
+  /* R10 paper-planet: letterpress label slips + album mounts */
+  --slip-bg: rgba(233, 223, 196, 0.92);
+  --slip-ink: #2b2015;
+  --slip-line: rgba(43, 32, 21, 0.4);
+  --mount-shadow: rgba(0, 0, 0, 0.5);
   --debug-bg: rgba(10, 15, 18, 0.92);
   --debug-dim: #7d8a86;
   --debug-line: rgba(125, 138, 134, 0.35);
@@ -641,6 +646,57 @@ a:hover {
   background: var(--brass-a12);
   color: var(--brass-bright);
 }
+
+/* R10 label slips: names are letterpress slips laid on the map — dark ink
+   on paper chips, readable over cloth sea AND paper land alike */
+.globe-label--author,
+.globe-label--work,
+.globe-label--relation,
+.globe-label--cluster {
+  white-space: nowrap;
+  background: var(--slip-bg);
+  color: var(--slip-ink);
+  border: 1px solid var(--slip-line);
+  border-radius: 1px;
+  padding: 1px 7px 2px;
+  box-shadow: 0 1px 4px var(--mount-shadow);
+  text-shadow: none;
+}
+
+.globe-label--author.is-dim,
+.globe-label--work.is-dim {
+  opacity: 0.62;
+}
+
+/* R10 archival portrait mount: the photograph is pasted into the album */
+.portrait-plate--archival .portrait-mount {
+  position: relative;
+  margin: 4px 10px 8px;
+  transform: rotate(-1.1deg);
+  box-shadow: 0 3px 12px var(--mount-shadow);
+}
+
+.portrait-plate--archival img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: sepia(0.18) contrast(1.02);
+}
+
+.photo-corner {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: var(--slip-bg);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  box-shadow: 0 1px 2px var(--mount-shadow);
+  z-index: 2;
+}
+
+.pc-tl { top: -6px; left: -6px; }
+.pc-tr { top: -6px; right: -6px; transform: rotate(90deg); }
+.pc-bl { bottom: -6px; left: -6px; transform: rotate(-90deg); }
+.pc-br { bottom: -6px; right: -6px; transform: rotate(180deg); }
 
 /* unified inspector: work depth (8th review; 9th round — the profile stays
    mounted beneath, so ← returns with its scroll and decoded portrait intact) */

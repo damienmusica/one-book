@@ -136,10 +136,15 @@ export const SCENES = {
         }
         return { mean: sum / n, below10: below / n };
       }, shot.toString("base64"));
+      // R10 re-pin: the paper flip lifts land to paper values and darkens the
+      // sea to cloth, so the dark-pixel share sits at ~80.6% while the frame
+      // is demonstrably legible (mean 0.1017, dead-center of the band). The
+      // cap moves 0.80 → 0.84 — still ~7pt from the 91.6% collapse state the
+      // guard exists for; the mean band stays the primary ladder check.
       ctx.assert(
         "value-ladder-legible",
-        lum.mean >= 0.078 && lum.mean <= 0.14 && lum.below10 <= 0.8,
-        `mean L ${lum.mean.toFixed(4)} (band 0.078–0.14), below-10% share ${(lum.below10 * 100).toFixed(1)}% (≤80; was 91.6)`
+        lum.mean >= 0.078 && lum.mean <= 0.14 && lum.below10 <= 0.84,
+        `mean L ${lum.mean.toFixed(4)} (band 0.078–0.14), below-10% share ${(lum.below10 * 100).toFixed(1)}% (≤84; collapse ref 91.6)`
       );
 
       await ctx.page.locator('button[aria-label="확대"]').click();
@@ -1142,10 +1147,17 @@ export const SCENES = {
       // portrait decoded (9th round: the return used to flash a blank plate)
       await ctx.page.waitForFunction(
         () => {
-          const c = document.querySelector(
-            ".detail-profile:not(.is-behind) .portrait-plate canvas"
+          // two plate genres since R10: duotone canvas (imagined) marks
+          // readiness via dataset; the archival branch is an <img> whose
+          // readiness is decode-completion. Either way: PAINTED, not blank.
+          const plate = document.querySelector(
+            ".detail-profile:not(.is-behind) .portrait-plate"
           );
-          return Boolean(c && c.dataset.ready === "1");
+          if (!plate) return false;
+          const c = plate.querySelector("canvas");
+          if (c) return c.dataset.ready === "1";
+          const img = plate.querySelector("img");
+          return Boolean(img && img.complete && img.naturalWidth > 0);
         },
         undefined,
         { timeout: 4000 }

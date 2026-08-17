@@ -30,7 +30,26 @@ export const COLORS = {
   teal: "#6aab9c",
   red: "#c4685a",
   inkOnAccent: "#191307",
-  focus: "#eccb82"
+  focus: "#eccb82",
+
+  /* R10 paper-planet grammar (docs/art-direction-r10.md): material IS the
+     code. Territories are the authors' paper (light), the sea is bound
+     cloth (dark, stays L1) — the value ladder flips on land only, and the
+     grammar's red channel is reserved for material seals + selection. */
+  /** territory ground — warm archival paper */
+  paper: "#e2d6b8",
+  /** paper slightly toned for alternate/laid ground */
+  paperLaid: "#d9ccab",
+  /** deckle-edge highlight along the coast */
+  paperEdge: "#f0e7cd",
+  /** coast shadow under the deckle (the page lifts off the cloth) */
+  paperShadow: "#4a3c28",
+  /** manuscript/letterpress ink on paper */
+  paperInk: "#2b2015",
+  /** stitching thread for interior borders */
+  stitch: "#7a6644",
+  /** appreciation-stamp vermilion — the SELECTION channel's only user */
+  vermilion: "#c0392e"
 } as const;
 
 /** geography mode — midnight cobalt plate (Burritt-style value inversion) */

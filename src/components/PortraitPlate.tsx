@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from "react";
 import { useServices, useT } from "./ctx.ts";
 import { duotoneInto } from "../lib/duotone.ts";
 import { lifeSpan } from "./bits.tsx";
+import { artUrl, loadArtManifest, type ArtManifest } from "../globe/art-assets.ts";
 import type { Author } from "../types.ts";
 
 export function PortraitPlate({ author }: { author: Author }) {
@@ -16,6 +17,17 @@ export function PortraitPlate({ author }: { author: Author }) {
   const t = useT();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [failed, setFailed] = useState(false);
+  const [art, setArt] = useState<ArtManifest | null>(null);
+  useEffect(() => {
+    let live = true;
+    loadArtManifest().then((m) => {
+      if (live) setArt(m);
+    });
+    return () => {
+      live = false;
+    };
+  }, []);
+  const archival = art?.archival[author.id];
   const entry = dataset.portraits.find((p) => p.authorId === author.id);
 
   useEffect(() => {
@@ -36,6 +48,25 @@ export function PortraitPlate({ author }: { author: Author }) {
     img.src = `${import.meta.env.BASE_URL}portraits/${author.id}.jpg`;
   }, [entry, author.id]);
 
+  // R10: a rights-verified archival photograph outranks the imagined plate —
+  // mounted with photo corners (album grammar) and labeled as the RECORD it
+  // is. The imagined portrait stays the honest fallback for everyone else.
+  if (archival) {
+    return (
+      <figure className="portrait-plate portrait-plate--archival">
+        <div className="portrait-mount">
+          <span className="photo-corner pc-tl" />
+          <span className="photo-corner pc-tr" />
+          <span className="photo-corner pc-bl" />
+          <span className="photo-corner pc-br" />
+          <img src={artUrl(archival.file)} alt="" width={archival.w} height={archival.h} />
+        </div>
+        <figcaption className="portrait-plate__cartouche">
+          {lifeSpan(author, t)} · {t.archivalPhoto}
+        </figcaption>
+      </figure>
+    );
+  }
   if (!entry || failed) return null;
   const label = entry.mode === "face" ? t.imaginedPortrait : t.emblemPortrait;
   return (
