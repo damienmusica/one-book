@@ -83,18 +83,29 @@ listed at the bottom so we don't re-litigate them.
     registered semantics + legend before any "importance" encoding.
     *(2026-08-17: entity promotion shipped in territory v2.0 — raycastable
     markers, shared hover, 44px+ hits; districts/ports/bridges remain.)*
-14. **Geo mid-zoom city clustering.** Far LOD now clusters by region; dense
-    mid-zoom areas (Europe) still suppress many label candidates — cluster
-    same-city authors with spiral expansion on focus.
+14. ~~**Geo mid-zoom city clustering.**~~ **Shipped 2026-08-17** (5th review
+    P0-3): screen-space seal clustering at geo mid/near — colliding seals
+    collapse into the highest-priority seal + "+N" chip; chip opens a member
+    popover (list expansion, not spiderfy — a11y-friendlier); the collision
+    predicate matches the overlap metric, so `overlapPairs` fell 144 → ≤2
+    and is now a hard scene budget. Remaining nuance: hysteresis is
+    camera-delta throttling only; boundary flicker during slow pans is
+    possible (revisit if it reads badly in real use).
 15. **Incoming/outgoing/all relation view toggle** on selection (staged
     reveal shipped; the filter toggle is UI + state work).
-16. **Arrival pulse** on the receiving node when a spark lands (staging
-    shipped without it — needs a cheap per-arrival glow that respects
-    reduced-motion).
+16. ~~**Arrival pulse.**~~ **Shipped 2026-08-17** (5th review P0-5): each
+    receiving node answers its first arriving spark with one additive glow
+    pulse (dim → incoming → selected answers → outgoing → receivers answer
+    once → steady); `flow-arrival` events logged per node, QA asserts
+    in/out arrivals + exactly-once per node; reduced-motion keeps zero
+    pulses (asserted).
 17. **Palette contrast regrade** (five distinct value tiers for surface /
     territory / relation / node / selection) — deliberately routed through
     an art-directed pass, not a unilateral CSS change: the antique-atlas
-    identity is CPO-approved.
+    identity is CPO-approved. *(2026-08-17 partial: map typography scaled
+    up — author md 12.5→14 / sm 11→12 / selected 15 / work 11.5 / legend 12
+    — alongside the planet scale-up R 100→118; the tonal regrade itself
+    still awaits the art pass.)*
 18. **Navigation depth**: selection history back/forward, breadcrumb
     (행성 > 지역 > 작가 > 작품), bookmarks/collections, A→B path finder UI.
 19. **A11y audit batch**: full keyboard travel in 3D, screen-reader scene
@@ -127,14 +138,58 @@ listed at the bottom so we don't re-litigate them.
 23. **Tour reading panel**: one unified journey panel instead of
     profile+tour card+legend+timeline stacking; collapse timeline during
     tours; legend to chip (4th review P1).
-24. **Bundle splitting**: main chunk 1.76MB raw — lazy-load author/work/
-    translation data and split per-page code before the corpus grows.
+24. **Bundle splitting**: *(2026-08-17 partial: territory.v1.eras.json now
+    loads as its own async chunk — main 3.14MB→1.79MB raw, gzip 939→559KB.)*
+    Remaining: lazy author/work/translation data and per-page code splits
+    before the corpus grows.
 25. **E2E depth**: 3D relation-line pointer picking, work deep-link reload
     restore, active-year timeline mode, small/ultrawide windows, 200% zoom,
     touch/pinch, memory soak; cross-platform (Windows iGPU / Linux) when
     hardware exists.
 26. **Editorial surface honesty**: expose reviewed≠verified distinction and
     QC-ledger open items in UI copy; claim-level sources wave remains item 8.
+
+> 2026-08-17 fifth review (source-audited, of 2d5a3e3): **every claim
+> verified accurate — zero rebuttals this round** (a first). Shipped same
+> day: the era-morph truth contract (methodology's "the fader moves no
+> coastline" was flatly false against shipped v2.5 — rewritten in both
+> locales with the real growth formula + curated-corpus caveat; the
+> legend-contract test that had PINNED the false sentence now binds legend ↔
+> methodology ↔ territory.v1.eras.json params), legend era row + sovereignty
+> state key, treaty spans demoted to ≈ computed values (treatyOf returns
+> gap-preserving intervals — the merged-gap shortcut the reviewer flagged is
+> fixed and unit-pinned; cartouche reads "모더니즘 ≈ 1895–1985"), geo mid
+> seal clustering (144 overlap pairs → ≤2 hard budget + popover E2E),
+> arrival pulses, map typography scale-up, small-screen legend bottom-sheet,
+> profile sovereignty badge, eras async chunk, BUILD_COMMIT reproducibility
+> (env > git > file ladder; source zips embed the sha via
+> --add-virtual-file), canvas pointerleave now clears work hover (and a
+> latent compare-after-assign bug that made marker hover emphasis dead code),
+> planet scale-up R 100→118 + capacity ceilings raised (lifeTex 128→256;
+> registry §4½) per CPO directive. Vitest exits cleanly here (157/157,
+> exit 0) — the reviewer's hanging-process observation did not reproduce on
+> macOS; likely their sandbox's tsx/IPC quirk, watch in CI.
+
+27. **Movement historical periods (editorial data model)**: curated
+    movement-level activeRange with sources + uncertainty + per-author
+    membership spans (join/leave or core-participation years), stored as
+    interval arrays; only then may the cartouche drop the ≈. Until curated,
+    computed-overlap display is the honest ceiling (5th review P0-2).
+28. **Movement selection**: treaty cartouche + inset strokes clickable →
+    movement card (description, members, period basis ≈ formula + sources,
+    multi-membership); "보이는 것은 역으로 설명 가능해야 한다" (5th review).
+29. **Renderer Layer decomposition** (dedicated sprint, deliberately NOT
+    bundled into the fix sprint): renderer.ts ~2,100 lines → the documented
+    Layer interface (update/render/pick/describe/metrics/dispose) from
+    territory-grammar §6; the QA harness is the safety net. Planet/era data
+    lazy-loading landed first (this sprint) so the split can be mechanical.
+30. **Era-growth legibility pass**: the 1880→1915 change is subtle in the
+    low-value palette (5th review) — candidate treatments: brighter embryonic
+    islet ink, coastline-delta shimmer during scrub, era readout near the
+    fader. Pairs with item 17's art pass.
+31. **Five-value luminance regression**: screenshot-based value-tier
+    measurement (surface/territory/relation/node/selection bands) pinned in
+    QA once item 17's regrade lands.
 
 ## Feedback claims we checked and rejected (do not re-open without new evidence)
 
