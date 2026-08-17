@@ -793,6 +793,123 @@ export const SCENES = {
     }
   },
 
+  "flow-lifecycle": {
+    title: "흐름 수명주기: LOD·카메라·스크럽에 phase 보존, commit은 diff, 재생 버튼만 리셋",
+    async run(ctx) {
+      await ctx.goto("#/");
+      await ctx.waitIdle();
+      await searchSelect(ctx, "카프카", KAFKA);
+      await ctx.settle(400);
+      const m0 = await ctx.metrics();
+      const builds0 = m0.renderer.interaction.flowStoryBuilds;
+      const key0 = m0.renderer.interaction.storyKey;
+      ctx.assert(
+        "story-built-once-on-select",
+        builds0 === 1 && key0 !== null,
+        `builds ${builds0}, key ${key0}`
+      );
+      // contact feedback fired for the selection (search path — no pointer)
+      const contactEvents = (await ctx.events()).filter((e) => e.type === "contact-feedback");
+      ctx.assert(
+        "contact-feedback-fired",
+        contactEvents.length >= 1,
+        `contact events: ${contactEvents.length}`
+      );
+
+      // 1) LOD crossings: zoom to reading distance and back — the 7th review
+      // caught rebuildEdges() restarting the story at every tier change
+      await ctx.page.locator('button[aria-label="확대"]').click();
+      await ctx.waitIdle();
+      await ctx.page.locator('button[aria-label="확대"]').click();
+      await ctx.waitIdle();
+      await ctx.page.locator('button[aria-label="축소"]').click();
+      await ctx.waitIdle();
+      const m1 = await ctx.metrics();
+      ctx.assert(
+        "flow-story-persists-across-lod",
+        m1.renderer.interaction.flowStoryBuilds === builds0 &&
+          m1.renderer.interaction.storyKey === key0 &&
+          m1.renderer.interaction.lodTransitions >= 1,
+        `builds ${m1.renderer.interaction.flowStoryBuilds} (was ${builds0}), ` +
+          `lod transitions ${m1.renderer.interaction.lodTransitions}, key unchanged ${
+            m1.renderer.interaction.storyKey === key0
+          }`
+      );
+      // 2) camera drag: same contract
+      await ctx.drag([960, 500], [760, 480]);
+      await ctx.settle(500);
+      const m2 = await ctx.metrics();
+      ctx.assert(
+        "flow-story-persists-across-camera",
+        m2.renderer.interaction.flowStoryBuilds === builds0,
+        `builds ${m2.renderer.interaction.flowStoryBuilds}`
+      );
+      await ctx.beat("story-alive-after-lod");
+
+      // 3) held scrub: the world previews, the story neither restarts nor diffs
+      const slider = ctx.page.locator(".timeline-slider");
+      const box = await slider.boundingBox();
+      const range = await slider.evaluate((el) => ({
+        min: Number(el.min),
+        max: Number(el.max)
+      }));
+      const xFor = (year) =>
+        // clamp inside the box: the exact right edge lands on the canvas
+        Math.min(
+          box.x + box.width - 3,
+          box.x + box.width * ((year - range.min) / (range.max - range.min))
+        );
+      const diffs2 = m2.renderer.interaction.flowStoryDiffs;
+      await ctx.page.mouse.move(xFor(range.max), box.y + box.height / 2);
+      await ctx.page.mouse.down();
+      const steps = 20;
+      for (let i = 1; i <= steps; i++) {
+        const year = range.max - ((range.max - 1930) * i) / steps;
+        await ctx.page.mouse.move(xFor(year), box.y + box.height / 2);
+        await ctx.page.waitForTimeout(30);
+      }
+      const during = await ctx.metrics();
+      ctx.assert(
+        "scrub-previews-world",
+        during.renderer.era.previewYear !== null &&
+          during.state.year === range.max,
+        `previewYear ${during.renderer.era.previewYear}, committed year ${during.state.year}` +
+          ` (display ${during.renderer.era.displayYear}${during.renderer.era.loading ? ", painting" : ""})`
+      );
+      ctx.assert(
+        "scrub-no-flow-restart-during",
+        during.renderer.interaction.flowStoryBuilds === builds0 &&
+          during.renderer.interaction.flowStoryDiffs === diffs2,
+        `during drag: builds ${during.renderer.interaction.flowStoryBuilds}, diffs ${during.renderer.interaction.flowStoryDiffs}`
+      );
+      await ctx.beat("scrub-held-preview");
+      await ctx.page.mouse.up();
+      await ctx.settle(700);
+      const after = await ctx.metrics();
+      ctx.assert(
+        "scrub-commit-diffs-not-restarts",
+        after.renderer.interaction.flowStoryBuilds === builds0 &&
+          after.renderer.interaction.flowStoryDiffs - diffs2 <= 1 &&
+          after.state.year === 1930 &&
+          after.renderer.era.previewYear === null,
+        `after release: builds ${after.renderer.interaction.flowStoryBuilds}, ` +
+          `diffs +${after.renderer.interaction.flowStoryDiffs - diffs2}, year ${after.state.year}`
+      );
+      await ctx.beat("scrub-committed");
+
+      // 4) the replay chip is the ONLY sanctioned story reset
+      await ctx.page.locator(".chip--replay").click();
+      await ctx.settle(300);
+      const replayed = await ctx.metrics();
+      ctx.assert(
+        "replay-restarts-story",
+        replayed.renderer.interaction.flowStoryBuilds === builds0 + 1,
+        `builds ${replayed.renderer.interaction.flowStoryBuilds} after replay`
+      );
+      await ctx.beat("replayed");
+    }
+  },
+
   "camera-interrupt": {
     title: "카메라 주권: 자동 focus를 드래그·휠이 즉시 끊고, Escape가 북마크로 복귀",
     async run(ctx) {

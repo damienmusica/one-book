@@ -787,6 +787,12 @@ a:hover {
   padding: 2px 8px;
 }
 
+/* the relation-narrative replay chip sits inline with the section head */
+.chip--replay {
+  margin-left: 8px;
+  vertical-align: 2px;
+}
+
 .chip.is-static {
   cursor: default;
 }

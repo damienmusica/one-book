@@ -41,6 +41,17 @@ export interface AppState {
   egoExpanded: boolean;
   /** ego relations the map cap hid for the current selection — transient */
   egoHiddenCount: number;
+  /**
+   * The year under a HELD fader drag (7th review R7-PR2). The world previews
+   * it (terrain/sovereignty/towns); relations, filters and the URL follow
+   * `year` and move only when the drag commits. null = no scrub in progress.
+   */
+  yearPreview: number | null;
+  /**
+   * Bumping this replays the relation narrative for the current selection —
+   * the ONLY sanctioned story-clock reset besides selection/mode change.
+   */
+  flowReplayToken: number;
 }
 
 export function defaultFilters(): Filters {
@@ -78,7 +89,9 @@ export function initialState(): AppState {
     reducedMotion: false,
     eraLoading: false,
     egoExpanded: false,
-    egoHiddenCount: 0
+    egoHiddenCount: 0,
+    yearPreview: null,
+    flowReplayToken: 0
   };
 }
 

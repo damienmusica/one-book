@@ -175,7 +175,19 @@ export function DetailPanel() {
         </ul>
         {worksException && <p className="works-exception">{worksException}</p>}
 
-        <h3>{t.relationsHead}</h3>
+        <h3>
+          {t.relationsHead}
+          {!state.reducedMotion && neighbors.length > 0 && (
+            <button
+              type="button"
+              className="chip chip--sm chip--replay"
+              title={t.replayFlowsTitle}
+              onClick={() => store.set({ flowReplayToken: state.flowReplayToken + 1 })}
+            >
+              {t.replayFlows}
+            </button>
+          )}
+        </h3>
         {state.egoHiddenCount > 0 && (
           <p className="relation-cap-note">
             {t.mapRelationsCapped(neighbors.length - state.egoHiddenCount, neighbors.length)}{" "}
