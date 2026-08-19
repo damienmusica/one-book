@@ -7,6 +7,9 @@ import { readFileSync } from "node:fs";
 
 describe("styles.css color-token lint", () => {
   const css = readFileSync(new URL("../src/styles.css", import.meta.url), "utf8");
+  // R11: the star-system sheet inherits the same discipline — it declares no
+  // tokens of its own, so every color in it must resolve through :root
+  const universeCss = readFileSync(new URL("../src/universe/universe.css", import.meta.url), "utf8");
 
   it("declares the token sheet", () => {
     expect(css.includes(":root {")).toBe(true);
@@ -22,6 +25,14 @@ describe("styles.css color-token lint", () => {
     const rgb = noComments.match(/rgba?\(/g) ?? [];
     expect(hex, `hex literals outside :root: ${hex.join(", ")}`).toEqual([]);
     expect(rgb.length, `rgb()/rgba() literals outside :root: ${rgb.length}`).toBe(0);
+  });
+
+  it("the universe sheet uses tokens only", () => {
+    const noComments = universeCss.replace(/\/\*[\s\S]*?\*\//g, "");
+    const hex = noComments.match(/#[0-9a-fA-F]{3,8}\b/g) ?? [];
+    const rgb = noComments.match(/rgba?\(/g) ?? [];
+    expect(hex, `hex literals in universe.css: ${hex.join(", ")}`).toEqual([]);
+    expect(rgb.length, `rgb()/rgba() literals in universe.css: ${rgb.length}`).toBe(0);
   });
 
   it("map text floor: no label font-size below 13px (1080p reference)", () => {

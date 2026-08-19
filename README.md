@@ -18,6 +18,16 @@ npm install
 npm run dev        # http://localhost:5173
 ```
 
+두 개의 엔트리가 있다.
+
+| 경로 | 무엇인가 | 상태 |
+|---|---|---|
+| `/` (index.html) | **행성** — 하나의 구면 위 100인의 영토 지도. R10 종이 문법까지 출하됨 | 출하 · QA 20/20 계약 |
+| `/universe.html` | **성계** — 천구의 별 → 접근 → 작가 천체 착륙. R11 구조 프로토타입 | 프로토타입 · [docs/universe-thesis.md](docs/universe-thesis.md) |
+
+성계는 같은 `/data`·같은 동결 좌표·같은 R10 자산을 쓰며, 행성 앱의 코드와 QA 계약을
+건드리지 않는다. 구조가 비준되면 그때 한 앱으로 합친다.
+
 ## 명령
 
 ```bash
@@ -28,6 +38,10 @@ npm run build            # validate:data 통과 후 프로덕션 빌드 (dist/)
 npm run preview          # 프로덕션 빌드 로컬 서빙
 
 npm run layout:generate  # 시맨틱 좌표 증분 생성 (동결 좌표 유지, 신규만 배치)
+
+# R11 성계 프로토타입 (dist 빌드 후)
+node art-r11/capture-universe.mjs   # 콘셉트 프레임 16장 + 전환 6프레임
+node art-r11/verify-journey.mjs     # 세 문화권 작가 여정 계약 48건
 npm run layout:full      # 전체 재계산 + 좌표 버전 범프 (공간 기억을 깨므로 신중히)
 npm run report:coverage  # docs/coverage-report.md 생성 (지역·언어·젠더·장르·검토 분포)
 

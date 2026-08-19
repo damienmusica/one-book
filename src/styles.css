@@ -55,6 +55,7 @@
   --slip-ink-strong: #140e08;
   --slip-line: rgba(43, 32, 21, 0.62);
   --vermilion: #c0392e; /* 감상인 — the selection channel's only user */
+  --ink-on-vermilion: #f6ece0; /* text/glyphs sitting ON the selection stamp */
   --mount-shadow: rgba(0, 0, 0, 0.5);
   --debug-bg: rgba(10, 15, 18, 0.92);
   --debug-dim: #7d8a86;

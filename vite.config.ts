@@ -38,6 +38,12 @@ export default defineConfig({
     target: "es2022",
     chunkSizeWarningLimit: 900,
     rollupOptions: {
+      // R11: the star-system prototype ships as its own entry so the shipped
+      // planet app (index.html) keeps its frozen bundle and QA contract
+      input: {
+        main: new URL("./index.html", import.meta.url).pathname,
+        universe: new URL("./universe.html", import.meta.url).pathname
+      },
       output: {
         manualChunks: {
           three: ["three"],
