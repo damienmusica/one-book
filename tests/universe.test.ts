@@ -5,6 +5,9 @@ import { describe, expect, it } from "vitest";
 import { makeAuthor, makeRelation } from "./fixtures.ts";
 import {
   LANDING_ALT,
+  LENS_MAX,
+  LENS_MIN,
+  lensCompress,
   SHELL_R,
   STAR_TO_DISC_PX,
   apparentRadiusPx,
@@ -25,7 +28,7 @@ import {
   encodeShare,
   growth,
   readOrder,
-  recommend
+  recommendTracks
 } from "../src/universe/personal.ts";
 
 const LABELS = { region: (id: string) => id, language: (c: string) => c };
@@ -53,6 +56,34 @@ describe("표현 사다리 — 계층이 아니라 겉보기 크기", () => {
     const ap = apparentRadiusPx(bodyRadius(1), 900, 42, 900);
     expect(ap).toBeLessThan(STAR_TO_DISC_PX);
     expect(representationFor(ap, 900)).toBe("star");
+  });
+});
+
+describe("관측 렌즈 — 회귀 방지 계약(지각적 성공은 사람이 판정한다)", () => {
+  it("압축은 단조 증가한다", () => {
+    const a = lensCompress(200, 200, 1600);
+    const b = lensCompress(800, 200, 1600);
+    const c = lensCompress(1600, 200, 1600);
+    expect(a).toBeLessThan(b);
+    expect(b).toBeLessThan(c);
+  });
+
+  it("압축 결과는 렌즈 반경 범위 안에 있다 — 확대된 천체와 겹치지 않는다", () => {
+    for (const d of [200, 500, 900, 1600]) {
+      const r = lensCompress(d, 200, 1600);
+      expect(r).toBeGreaterThanOrEqual(LENS_MIN);
+      expect(r).toBeLessThanOrEqual(LENS_MAX);
+    }
+  });
+
+  it("반경만 바꾼다 — 방향은 호출부가 그대로 보존한다", () => {
+    // 렌즈는 스칼라 함수다. 각방향 보존은 이 함수가 방향을 다루지 않음으로써
+    // 구조적으로 보장된다(scene.ts 는 ray 를 정규화해 곱하기만 한다).
+    expect(lensCompress(500, 200, 1600)).toBe(lensCompress(500, 200, 1600));
+  });
+
+  it("범위가 퇴화해도 하한을 돌려준다", () => {
+    expect(lensCompress(5, 10, 10)).toBe(LENS_MIN);
   });
 });
 
@@ -153,13 +184,28 @@ describe("관측층 — 성좌는 켜져 있는 렌즈의 산물", () => {
     expect(byLanguage.lit.has("a1")).toBe(true);
     // 같은 별이지만 이웃이 다르다 — 소속이 아니라 해석이기 때문
     expect(byMovement.groups[0]?.memberIds).not.toEqual(byLanguage.groups[0]?.memberIds);
+    expect(byMovement.marks.get("a1")).toBeDefined();
+    expect(byLanguage.marks.get("a1")).toBeDefined();
   });
 
-  it("속성 성좌는 그룹당 n-1 개의 선으로 이어진다 (각거리 최소신장트리)", () => {
+  it("속성 렌즈는 선을 그리지 않는다 — 선 채널은 실제 관계의 것이다", () => {
+    for (const id of ["movement", "language", "exile"] as const)
+      expect(buildLens(id, lensInput()).lines).toHaveLength(0);
+  });
+
+  it("소속은 색인 번호로만 말한다 — 밝기·색·링을 빌리지 않는다", () => {
     const r = buildLens("movement", lensInput());
     expect(r.groups).toHaveLength(1);
-    expect(r.groups[0]?.memberIds).toHaveLength(3);
-    expect(r.lines).toHaveLength(2);
+    expect(r.groups[0]?.index).toBe(1);
+    expect(r.marks.get("a1")).toEqual([1]);
+    expect(r.marks.has("a4")).toBe(false);
+  });
+
+  it("여러 하늘에 속하면 색인 번호가 여러 개 붙는다", () => {
+    const r = buildLens("language", lensInput());
+    const multi = [...r.marks.values()].some((v) => v.length >= 1);
+    expect(multi).toBe(true);
+    expect(r.groups.length).toBeGreaterThanOrEqual(2);
   });
 
   it("관계 렌즈는 해당 유형만 그린다", () => {
@@ -208,32 +254,37 @@ describe("개인 성좌 — 계정 없이", () => {
     expect(readOrder(p)).toEqual(["a", "b"]);
   });
 
-  it("추천은 읽은 별을 제외하고, 비어 있는 지역에 가산점을 준다", () => {
+  it("갈래는 서로 다른 목적을 따로 답한다 — 하나의 점수로 뭉치지 않는다", () => {
     const authors = [
-      makeAuthor({ id: "read1", regions: ["western-europe"] }),
-      makeAuthor({ id: "near", regions: ["western-europe"] }),
-      makeAuthor({ id: "gap", regions: ["sub-saharan-africa"], languages: ["yo"] })
+      makeAuthor({ id: "read1", regions: ["western-europe"], languages: ["fr"] }),
+      makeAuthor({ id: "near", regions: ["western-europe"], languages: ["fr"], difficulty: 5 }),
+      makeAuthor({ id: "gap", regions: ["sub-saharan-africa"], languages: ["yo"], difficulty: 4 }),
+      makeAuthor({ id: "easy", regions: ["western-europe"], languages: ["fr"], difficulty: 1 })
     ];
     const rels = [makeRelation("read1", "near"), makeRelation("read1", "gap")];
     const p = emptyPersonal();
     p.read.read1 = 1;
-    const recs = recommend(p, authors, rels, (a) => a.difficulty, LABELS, 5);
-    expect(recs.map((r) => r.authorId)).not.toContain("read1");
-    const gap = recs.find((r) => r.authorId === "gap");
-    const near = recs.find((r) => r.authorId === "near");
-    expect(gap && near && gap.score).toBeGreaterThan(near!.score);
-    expect(gap?.reasons.join(" ")).toContain("아직 비어 있는 지역");
+    const tracks = recommendTracks(p, authors, rels, (a) => a.difficulty, LABELS);
+    const byId = Object.fromEntries(tracks.map((t) => [t.id, t.items.map((i) => i.authorId)]));
+    expect(byId.lineage?.[0]).toBe("near");
+    expect(byId.unfamiliar).toContain("gap");
+    expect(byId.unfamiliar).not.toContain("near");
+    expect(byId.gentle?.[0]).toBe("easy");
+    for (const t of tracks) expect(t.items.map((i) => i.authorId)).not.toContain("read1");
   });
 
   it("모든 추천은 근거 문장을 갖는다 — 블랙박스 금지", () => {
-    const authors = [makeAuthor({ id: "r" }), makeAuthor({ id: "x" })];
+    const authors = [makeAuthor({ id: "r" }), makeAuthor({ id: "x", difficulty: 1 })];
     const p = emptyPersonal();
     p.read.r = 1;
-    for (const rec of recommend(p, authors, [makeRelation("r", "x")], (a) => a.difficulty, LABELS))
-      expect(rec.reasons.length).toBeGreaterThan(0);
+    const tracks = recommendTracks(p, authors, [makeRelation("r", "x")], (a) => a.difficulty, LABELS);
+    expect(tracks.length).toBeGreaterThan(0);
+    for (const t of tracks) for (const rec of t.items) expect(rec.reasons.length).toBeGreaterThan(0);
   });
 
   it("아무것도 안 읽었으면 추천하지 않는다", () => {
-    expect(recommend(emptyPersonal(), [makeAuthor({ id: "a" })], [], () => 3, LABELS)).toEqual([]);
+    expect(recommendTracks(emptyPersonal(), [makeAuthor({ id: "a" })], [], () => 3, LABELS)).toEqual(
+      []
+    );
   });
 });
