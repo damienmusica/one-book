@@ -3,34 +3,82 @@
   "franz-kafka": {
    "file": "marks/franz-kafka.png",
    "w": 1621,
-   "h": 420
+   "h": 420,
+   "provenance": {
+    "title": "Franz Kafka's Signature (vectorized)",
+    "collection": "Wikimedia Commons (vector traced by user Jon C from a GIF sourced via projekt-gutenberg.org, c. 1913 signature)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka%27s_signature.svg",
+    "licence": "PD-signature (DE)",
+    "licenceBasis": "A mere signature is below the threshold of originality for copyright in Germany/US regardless of the signer's death date",
+    "commercialUse": "yes"
+   }
   },
   "rabindranath-tagore": {
    "file": "marks/rabindranath-tagore.png",
    "w": 1448,
-   "h": 420
+   "h": 420,
+   "provenance": {
+    "title": "রবীন্দ্রনাথ ঠাকুর বাংলা স্বাক্ষর (Bengali signature of Rabindranath Tagore)",
+    "collection": "Wikimedia Commons",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0.jpg",
+    "licence": "PD-India-URAA (public domain per file page license tags)",
+    "licenceBasis": "Actual handwritten Bengali-script signature, extracted from a 1920 book page. Tagore died 1941, so the underlying work is public domain in India; file page's PD tag treats it as PD for reuse (author-death rationale, not an anonymous-work rationale).",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   },
   "natsume-soseki": {
    "file": "marks/natsume-soseki.png",
    "w": 158,
-   "h": 420
+   "h": 420,
+   "provenance": {
+    "title": "Calligraphy of Natsume Soseki — five-character kanshi (Chinese quatrain) with artist's seal, 1912 (Meiji 45)",
+    "collection": "Wikimedia Commons (privately owned original; photographic reproduction uploaded to Commons)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Calligraphy_of_Natsume_Souseki.jpg",
+    "licence": "PD (Public Domain, Japan + US)",
+    "licenceBasis": "Author Natsume Soseki, died 1916 → PD in Japan (50 years p.m.a. under the pre-2018 term that governed this work) and in the US.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   }
  },
  "archival": {
   "franz-kafka": {
    "file": "archival/franz-kafka.jpg",
    "w": 760,
-   "h": 950
+   "h": 950,
+   "provenance": {
+    "title": "Last extant portrait photograph of Franz Kafka (Berlin, c. September 1923)",
+    "collection": "Wikimedia Commons (photographer unknown; cited from Klaus Wagenbach, Kafka Bildarchiv, Morgan Library exhibition, Reiner Stach)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg",
+    "licence": "PD-two (PD-EU-no author disclosure + PD-1996)",
+    "licenceBasis": "Unknown/undisclosed author; published before 1996 URAA cutoff, and EU anonymous-work term (70 years from publication) has expired",
+    "commercialUse": "yes"
+   }
   },
   "natsume-soseki": {
    "file": "archival/natsume-soseki.jpg",
    "w": 760,
-   "h": 950
+   "h": 950,
+   "provenance": {
+    "title": "Portrait of Natsume Soseki (夏目漱石), photographed September/October 1912",
+    "collection": "Wikimedia Commons, reproduced from National Diet Library digitized volume 'Soseki Zenshu, Vol. 8' (漱石全集. 第8巻, 1929)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Natsume_Souseki.jpg",
+    "licence": "PD (Public Domain, Japan + US)",
+    "licenceBasis": "Photographer Ogawa Kazumasa (小川一真, 1860–1929); photograph taken 1912, published in a 1929 volume. PD in Japan (photographic works published before 1957/pre-1899 Copyright Act provisions; Ogawa died 1929, well past any personal-authorship term) and PD in the US (published before 1929 cutoff under URAA rules applied by Commons). Note: a near-duplicate/related capture from the same 1912 sitting is also on Commons as File:NATSUME_Soseki.jpg (823x1201, from 'Soseki no Omoide', 1928) with the same PD basis — not downloaded, kept as a documented alternate.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   },
   "rabindranath-tagore": {
    "file": "archival/rabindranath-tagore.jpg",
    "w": 759,
-   "h": 950
+   "h": 950,
+   "provenance": {
+    "title": "Rabindranath Tagore in 1909",
+    "collection": "Wikimedia Commons",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg",
+    "licence": "PD-old-100-expired, CC-PD-Mark",
+    "licenceBasis": "Photo taken 1909, credited to Generalstabens litografiska anstalt (Swedish lithographic institution), published 1914 in 'Les Prix Nobel 1913' (Sweden), p.60. File page states public domain in countries with life+100-or-fewer copyright terms and marks it CC-PD-Mark 1.0.",
+    "commercialUse": "yes"
+   }
   }
  },
  "covers": {
@@ -38,84 +86,196 @@
    "file": "covers/franz-kafka--die-verwandlung.jpg",
    "w": 385,
    "h": 620,
-   "license": "CC-BY-3.0 H.-P. Haack"
+   "license": "CC-BY-3.0 H.-P. Haack",
+   "provenance": {
+    "title": "Die Verwandlung, 1st edition, original blue cardboard binding (Kurt Wolff Verlag, Leipzig, printed November 1915 as vol. 22/23 of 'Der jungste Tag')",
+    "collection": "Antiquariat Dr. Haack Leipzig -> private Vienna collection (photographed by H.-P. Haack)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka_Die_Verwandlung_1916_Orig.-Pappband.jpg",
+    "licence": "CC-BY-3.0",
+    "licenceBasis": "Photographer H.-P. Haack self-published under CC BY 3.0 (own photo of a physical PD-era book object; the photo itself, not the 1915 text, carries this license)",
+    "commercialUse": "yes"
+   }
   },
   "franz-kafka--der-process": {
    "file": "covers/franz-kafka--der-process.jpg",
    "w": 420,
    "h": 585,
-   "license": "PD"
+   "license": "PD",
+   "provenance": {
+    "title": "Der Prozess, 1st edition, original cloth binding (Verlag Die Schmiede, Berlin, 1925, 411 pages -- Wilpert/Guhring 8; Raabe 8)",
+    "collection": "Antiquariat Dr. Haack Leipzig -> private collection (photographed by H.-P. Haack)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Der_Prozess_1925.jpg",
+    "licence": "CC-PD-Mark / PD-old-70-expired (Commons categories); file page license template = pd",
+    "licenceBasis": "Commons file page carries the 'pd' license template with UsageTerms=Public domain and AttributionRequired=false; categorized PD-old-70-expired and CC-PD-Mark. This is a photograph of the plain cloth original binding (spine label + front-board title label) of the first edition.",
+    "commercialUse": "yes"
+   }
   },
   "franz-kafka--das-schloss": {
    "file": "covers/franz-kafka--das-schloss.jpg",
    "w": 420,
    "h": 569,
-   "license": "PD-text"
+   "license": "PD-text",
+   "provenance": {
+    "title": "Das Schloss, 1st edition, original paperback wrapper (Kurt Wolff Verlag, Munich, 1926, 502 pages -- Wilpert/Guhring 9; Raabe 9)",
+    "collection": "Antiquariat Dr. Haack Leipzig -> private collection, Switzerland (photographed by H.-P. Haack)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Das_Schloss_1926.jpg",
+    "licence": "PD-text",
+    "licenceBasis": "Commons file page rationale (verified via API extmetadata Permission field): the depicted cover is plain typographic text below the threshold of originality ('not a literary work or other protected type'), so it is public domain regardless of the photographer's rights in the photo itself. License template = pd; UsageTerms=Public domain; AttributionRequired=false.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   },
   "franz-kafka--in-der-strafkolonie": {
    "file": "covers/franz-kafka--in-der-strafkolonie.jpg",
    "w": 420,
    "h": 610,
-   "license": "CC-BY-3.0 H.-P. Haack"
+   "license": "CC-BY-3.0 H.-P. Haack",
+   "provenance": {
+    "title": "In der Strafkolonie, title page of the first printing (Kurt Wolff Verlag, Leipzig, October 1919)",
+    "collection": "Antiquariat Dr. Haack Leipzig (photographed by H.-P. Haack)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Strafkolonie_(1919).jpg",
+    "licence": "CC-BY-3.0",
+    "licenceBasis": "Photographer H.-P. Haack self-published under CC BY 3.0 (verified via Commons API extmetadata: LicenseShortName=CC BY 3.0, AttributionRequired=true, LicenseUrl=creativecommons.org/licenses/by/3.0). The photo, not the 1919 text, carries this license.",
+    "commercialUse": "yes"
+   }
   },
   "natsume-soseki--wagahai-wa-neko-de-aru": {
    "file": "covers/natsume-soseki--wagahai-wa-neko-de-aru.jpg",
    "w": 420,
    "h": 601,
-   "license": "PD"
+   "license": "PD",
+   "provenance": {
+    "title": "\"I Am a Cat\" (吾輩ハ猫デアル), English-edition binding/cover design by Hashiguchi Goyo, translated by K. Ando, 1906",
+    "collection": "Wikimedia Commons, digitized from Yale University Beinecke Rare Book & Manuscript Library",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:I_AM_A_CAT_by_K._Ando.jpg",
+    "licence": "PD Mark 1.0",
+    "licenceBasis": "Designer Hashiguchi Goyo (橋口五葉), died 1921 → PD (published before 1931, and >50/70 years p.m.a. in Japan).",
+    "commercialUse": "yes"
+   }
   },
   "natsume-soseki--kokoro": {
    "file": "covers/natsume-soseki--kokoro.jpg",
    "w": 252,
    "h": 325,
-   "license": "PD"
+   "license": "PD",
+   "provenance": {
+    "title": "Book cover, first edition of『こゝろ』(Kokoro), 1914 — self-designed binding by Natsume Soseki",
+    "collection": "Wikimedia Commons (source listed on file page only as 'Katalog', i.e. an auction/library catalog scan)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Natsume_S%C3%B4seki_Umschlag_%22Kokoro%22.jpg",
+    "licence": "PD-Japan",
+    "licenceBasis": "Soseki designed his own binding for Kokoro (1914) and died in 1916 → PD in Japan (50 years p.m.a.) and US.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   },
   "natsume-soseki--sorekara": {
    "file": "covers/natsume-soseki--sorekara.jpg",
    "w": 412,
    "h": 620,
-   "license": "PD-Japan"
+   "license": "PD-Japan",
+   "provenance": {
+    "title": "Front cover, first edition of『それから』(And Then / Sorekara), Shunyodo, January 1910 (Meiji 43)",
+    "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/887086), mirrored to Wikimedia Commons as File:NDL887086 それから part1.pdf",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL887086_%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89_part1.pdf",
+    "licence": "PD-Japan / PD-scan (PD-Japan)",
+    "licenceBasis": "Commons file categorized PD-Japan and PD-scan (PD-Japan); NDL Digital Collections item is marked internet-public (protection-period-expired). Verified via Commons API extmetadata (License=pd, UsageTerms=Public domain) and independently confirmed publisher/date against the NDL bibliographic record (dl.ndl.go.jp/pid/887086: 著者：夏目漱石 著, 出版者：春陽堂, 出版年月日：明43.1 -- i.e. author Natsume Soseki, publisher Shunyodo, Meiji 43 = January 1910), which matches the documented first-book-edition date.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   },
   "natsume-soseki--sanshiro": {
    "file": "covers/natsume-soseki--sanshiro.jpg",
    "w": 397,
    "h": 620,
-   "license": "PD-Japan"
+   "license": "PD-Japan",
+   "provenance": {
+    "title": "Front cover, first edition of『三四郎』(Sanshiro), Shunyodo, May 1909 (Meiji 42)",
+    "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/886555), mirrored to Wikimedia Commons as File:NDL886555 三四郎 part1.pdf",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL886555_%E4%B8%89%E5%9B%9B%E9%83%8E_part1.pdf",
+    "licence": "PD-Japan / PD-scan (PD-Japan)",
+    "licenceBasis": "Commons file categorized PD-Japan and PD-scan (PD-Japan), extmetadata License=pd. Cross-checked against the NDL bibliographic record (dl.ndl.go.jp/pid/886555: 著者：夏目漱石 著, 出版者：春陽堂, 出版年月日：明42.5 -- Shunyodo, Meiji 42 = May 1909), matching the documented first-book-edition date. Design attribution to Hashiguchi Goyo (橋口五葉, d. 1921) is the commonly cited designer for Soseki's Shunyodo bindings of this period but is not independently confirmed on the Commons/NDL file page itself -- flagged as unconfirmed attribution, not asserted as fact.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   },
   "natsume-soseki--botchan": {
    "file": "covers/natsume-soseki--botchan.jpg",
    "w": 370,
    "h": 620,
-   "license": "PD-Japan"
+   "license": "PD-Japan",
+   "provenance": {
+    "title": "Front cover, first edition of『鶉籠』(Uzura Kago), Shunyodo, January 1907 (Meiji 40) -- the collection volume containing the first book publication of『坊っちゃん』(Botchan)",
+    "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/885509), mirrored to Wikimedia Commons as File:NDL885509 鶉籠 part1.pdf",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL885509_%E9%B6%89%E7%B1%A0_part1.pdf",
+    "licence": "PD-Japan / PD-scan (PD-Japan)",
+    "licenceBasis": "Commons file categorized PD-Japan and PD-scan (PD-Japan), extmetadata License=pd. Cross-checked against the NDL bibliographic record (dl.ndl.go.jp/pid/885509: 著者：夏目漱石（金之助）著, 出版者：春陽堂, 出版年月日：明40.1 -- Shunyodo, Meiji 40 = January 1907), matching Botchan's documented first-book-edition date (serialized in Hototogisu in 1906, then collected into this Shunyodo anthology on 1 January 1907). Note: Botchan itself was not published as a freestanding first-edition volume -- its first book appearance is inside this multi-work Uzura Kago collection (with 'I Am a Cat' excerpts and other short works), so this cover represents Botchan's true first-edition binding rather than a substitute.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   },
   "rabindranath-tagore--gitanjali": {
    "file": "covers/rabindranath-tagore--gitanjali.jpg",
    "w": 405,
    "h": 620,
-   "license": "PD"
+   "license": "PD",
+   "provenance": {
+    "title": "Title page,『গীতাঞ্জলি』(Gitanjali), original Bengali text, Sri Rabindranath Tagore -- তৃতীয় সংস্করণ (Third Edition), Indian Press, Allahabad, Bengali year ১৩২০ (Bengali Era 1320 = c. 1913 CE)",
+    "collection": "Digital Library of India scan, mirrored to Wikimedia Commons as File:গীতাঞ্জলি - রবীন্দ্রনাথ ঠাকুর.djvu (uploaded by Commons user Jayanta Nath)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%97%E0%A7%80%E0%A6%A4%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%B2%E0%A6%BF_-_%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0.djvu",
+    "licence": "PD-old-80-expired, CC-PD-Mark",
+    "licenceBasis": "Commons file categorized PD-old-80-expired and CC-PD-Mark, extmetadata License=pd, UsageTerms=Public domain, AttributionRequired=false. Author Rabindranath Tagore died 1941, well past any life+70/80 term; text itself first published 1910.",
+    "commercialUse": "yes"
+   }
   },
   "rabindranath-tagore--ghare-baire": {
    "file": "covers/rabindranath-tagore--ghare-baire.jpg",
    "w": 377,
    "h": 620,
-   "license": "PD-US"
+   "license": "PD-US",
+   "provenance": {
+    "title": "Cover, \"The Home and the World\" (English translation of ঘরে বাইরে / Ghare Baire), Rabindranath Tagore",
+    "collection": "Internet Archive (archive.org/details/hometheworld00tagouoft), mirrored to Wikimedia Commons as File:The Home and the World - cover page.jpg",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Home_and_the_World_-_cover_page.jpg",
+    "licence": "PD-US",
+    "licenceBasis": "Commons file categorized PD US, extmetadata License=pd, UsageTerms=Public domain, AttributionRequired=false. Commons' own DateTimeOriginal field records 1921 for this specific scanned copy/printing.",
+    "commercialUse": "unverified-outside-source-jurisdiction"
+   }
   }
  },
  "grounds": {
   "franz-kafka": {
    "file": "grounds/franz-kafka.jpg",
    "w": 1280,
-   "h": 805
+   "h": 805,
+   "provenance": {
+    "title": "Kafka's notebook -- German-Hebrew vocabulary page, Prague 1922 (autograph manuscript)",
+    "collection": "National Library of Israel, Givat Ram, Jerusalem (Vessel to Vessel digital gallery)",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka%27s_notebook.JPG",
+    "licence": "PD-old (generic)",
+    "licenceBasis": "Author (Franz Kafka) died 1924; life+70 protection expired 1994",
+    "commercialUse": "yes"
+   }
   },
   "natsume-soseki": {
    "file": "grounds/natsume-soseki.jpg",
    "w": 1280,
-   "h": 957
+   "h": 957,
+   "provenance": {
+    "title": "Manuscript page of『吾輩は猫である』(I Am a Cat)",
+    "collection": "Wikimedia Commons, reproduced from National Diet Library Digital Collections — 1936 'Soseki Zenshu' (漱石全集) published by Soseki Zenshu Kankokai",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Manuscripts_of_%22I_Am_a_Cat%22.jpg",
+    "licence": "PD Mark 1.0",
+    "licenceBasis": "Author Natsume Soseki, died 1916; work published in facsimile before 1931 → PD in Japan and US per Commons PD Mark rationale.",
+    "commercialUse": "yes"
+   }
   },
   "rabindranath-tagore": {
    "file": "grounds/rabindranath-tagore.jpg",
    "w": 834,
-   "h": 1280
+   "h": 1280,
+   "provenance": {
+    "title": "Original manuscript of Gitanjali - Rabindranath Tagore - Rothenstein collection.pdf, notebook page numbered '20' (printed folio '11')",
+    "collection": "Wikimedia Commons",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Original_manuscript_of_Gitanjali_-_Rabindranath_Tagore_-_Rothenstein_collection.pdf",
+    "licence": "Public Domain Mark 1.0 (CC0-equivalent per file page)",
+    "licenceBasis": "File page states public domain because the author (Tagore) died in 1941 and the manuscript predates 1931. Source: Rothenstein Papers collection, Houghton Library, Harvard University -- Tagore's autograph manuscript, given to William Rothenstein in London in 1912.",
+    "commercialUse": "yes"
+   }
   }
  }
 }
