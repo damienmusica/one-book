@@ -40,8 +40,8 @@ npm run preview          # 프로덕션 빌드 로컬 서빙
 npm run layout:generate  # 시맨틱 좌표 증분 생성 (동결 좌표 유지, 신규만 배치)
 
 # R11 성계 프로토타입 (dist 빌드 후)
-node art-r11/capture-universe.mjs   # 콘셉트 프레임 16장 + 전환 6프레임
-node art-r11/verify-journey.mjs     # 세 문화권 작가 여정 계약 48건
+node art-r11/capture-universe.mjs   # 콘셉트 프레임 24장 (전환 6프레임 포함)
+node art-r11/verify-journey.mjs     # 여정 계약 91건 (준비 착륙 3인 + 미준비 궤도 1인)
 npm run layout:full      # 전체 재계산 + 좌표 버전 범프 (공간 기억을 깨므로 신중히)
 npm run report:coverage  # docs/coverage-report.md 생성 (지역·언어·젠더·장르·검토 분포)
 

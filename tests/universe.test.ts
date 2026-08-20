@@ -335,7 +335,10 @@ describe("개인 성좌 — 계정 없이", () => {
 
   it("갈래는 서로 다른 목적을 따로 답한다 — 하나의 점수로 뭉치지 않는다", () => {
     const authors = [
-      makeAuthor({ id: "read1", regions: ["western-europe"], languages: ["fr"] }),
+      // 읽은 작가에게 **한 갈래 이상 자격을 준다**(난도 1 → gentle 후보).
+      // 그러지 않으면 "읽은 작가 제외" 규칙이 사라져도 다른 필터가 우연히
+      // 가려서 테스트가 통과한다 — 변이 스윕이 이 오탐을 적발했다(2026-08-20).
+      makeAuthor({ id: "read1", regions: ["western-europe"], languages: ["fr"], difficulty: 1 }),
       makeAuthor({ id: "near", regions: ["western-europe"], languages: ["fr"], difficulty: 5 }),
       makeAuthor({ id: "gap", regions: ["sub-saharan-africa"], languages: ["yo"], difficulty: 4 }),
       makeAuthor({ id: "easy", regions: ["western-europe"], languages: ["fr"], difficulty: 1 })

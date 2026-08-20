@@ -24,7 +24,9 @@
     "qa:journey": "node qa/capture.mjs --scene kafka-journey",
     "qa:bundle": "node qa/bundle.mjs",
     "qa:source-zip": "git -C .. archive --format=zip --add-virtual-file=\"literary-planet/BUILD_COMMIT:$(git rev-parse --short HEAD)\" -o literary-planet/literary-planet-source.zip HEAD literary-planet && echo literary-planet-source.zip",
-    "release": "npm run typecheck && npm run test && npm run build"
+    "release": "npm run typecheck && npm run test && npm run build",
+    "universe:reproduce": "node art-r11/reproduce.mjs",
+    "universe:mutation-sweep": "python3 ../scripts/universe-mutation-sweep.py --browser"
   },
   "dependencies": {
     "react": "^18.3.1",
