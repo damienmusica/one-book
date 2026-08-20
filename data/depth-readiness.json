@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "note": "착륙지 준비도는 자산 파일의 존재로 추론하지 않는다. 편집 검수를 거쳐 여기에 명시적으로 기록된 상태만 착륙을 연다(R11-c, CPO 2026-08-20). 이 파일에 없는 작가의 기본 상태는 not-started 이며, 그 작가는 항성과 궤도 아카이브로만 존재한다.",
+  "criteria": {
+    "manuscriptGround": "권리 확인된 육필 원고 또는 그에 준하는 실물 지면 — 천체 표면이 된다",
+    "coverPlates": "권리 확인된 실물 초판 표지 2종 이상 — 표면의 작품 거점이 된다",
+    "archivalPortrait": "권리 확인된 기록 초상",
+    "editorialPass": "착륙 표면 편집 검수 완료 — 표면에서 읽히는 모든 문구를 사람이 확인"
+  },
+  "states": {
+    "ready": "착륙 가능. 위 기준 전부 충족 + 검수 완료",
+    "in-progress": "자산 일부 확보. 착륙은 아직 열지 않는다",
+    "not-started": "자산 수집 전. 항성 + 궤도 아카이브"
+  },
+  "default": "not-started",
+  "entries": [
+    {
+      "authorId": "franz-kafka",
+      "state": "ready",
+      "met": ["manuscriptGround", "coverPlates", "archivalPortrait", "editorialPass"],
+      "verifiedAt": "2026-08-20",
+      "verifiedBy": "R10 art pass + R11 landing review",
+      "note": "1922 노트 원고 · 초판 4종(2종은 CC BY 3.0 Haack) · 1923 기록 사진"
+    },
+    {
+      "authorId": "natsume-soseki",
+      "state": "ready",
+      "met": ["manuscriptGround", "coverPlates", "archivalPortrait", "editorialPass"],
+      "verifiedAt": "2026-08-20",
+      "verifiedBy": "R10 art pass + R11 landing review",
+      "note": "『猫』 육필 원고 · 슌요도 초판 4종 · 1912 기록 초상 · 족자 서명과 낙관"
+    },
+    {
+      "authorId": "rabindranath-tagore",
+      "state": "ready",
+      "met": ["manuscriptGround", "coverPlates", "archivalPortrait", "editorialPass"],
+      "verifiedAt": "2026-08-20",
+      "verifiedBy": "R10 art pass + R11 landing review",
+      "note": "기탄잘리 로텐스타인 자필 · 초판 2종(1913 3판 속표지 · Macmillan) · 1909 기록 초상"
+    }
+  ]
+}

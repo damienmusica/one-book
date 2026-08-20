@@ -8,6 +8,7 @@ import {
   LENS_MAX,
   LENS_MIN,
   lensCompress,
+  lensPosition,
   SHELL_R,
   STAR_TO_DISC_PX,
   apparentRadiusPx,
@@ -22,6 +23,12 @@ import {
   SILHOUETTE_AMP
 } from "../src/universe/grammar.ts";
 import { LENSES, buildLens, type LensInput } from "../src/universe/lenses.ts";
+import {
+  READINESS,
+  READY_IDS,
+  isLandable,
+  readinessState
+} from "../src/universe/readiness.ts";
 import {
   decodeShare,
   emptyPersonal,
@@ -76,10 +83,35 @@ describe("관측 렌즈 — 회귀 방지 계약(지각적 성공은 사람이 �
     }
   });
 
-  it("반경만 바꾼다 — 방향은 호출부가 그대로 보존한다", () => {
-    // 렌즈는 스칼라 함수다. 각방향 보존은 이 함수가 방향을 다루지 않음으로써
-    // 구조적으로 보장된다(scene.ts 는 ray 를 정규화해 곱하기만 한다).
-    expect(lensCompress(500, 200, 1600)).toBe(lensCompress(500, 200, 1600));
+  it("각방향을 정확히 보존한다 — 반경만 바뀐다", () => {
+    // 이전 테스트는 `lensCompress(500) === lensCompress(500)` 이라는 결정성만
+    // 확인하는 오탐이었다(R11-c). 이제 장면이 실제로 쓰는 함수를 검증한다.
+    const focus: [number, number, number] = [900, 0, 0];
+    const unit = (v: number[]): number[] => {
+      const n = Math.hypot(v[0] as number, v[1] as number, v[2] as number);
+      return v.map((x) => x / n);
+    };
+    for (const orig of [
+      [400, 700, 200],
+      [-100, -300, 850],
+      [905, 3, -1200]
+    ] as Array<[number, number, number]>) {
+      const moved = lensPosition(focus, orig, 200, 1600);
+      const before = unit([orig[0] - focus[0], orig[1] - focus[1], orig[2] - focus[2]]);
+      const after = unit([moved[0] - focus[0], moved[1] - focus[1], moved[2] - focus[2]]);
+      for (let k = 0; k < 3; k++)
+        expect(after[k] as number).toBeCloseTo(before[k] as number, 10);
+      // 그리고 반경은 실제로 바뀌었다
+      const dBefore = Math.hypot(orig[0] - focus[0], orig[1] - focus[1], orig[2] - focus[2]);
+      const dAfter = Math.hypot(moved[0] - focus[0], moved[1] - focus[1], moved[2] - focus[2]);
+      expect(dAfter).not.toBeCloseTo(dBefore, 1);
+      expect(dAfter).toBeGreaterThanOrEqual(LENS_MIN - 1e-9);
+      expect(dAfter).toBeLessThanOrEqual(LENS_MAX + 1e-9);
+    }
+  });
+
+  it("초점 자신은 움직이지 않는다", () => {
+    expect(lensPosition([900, 0, 0], [900, 0, 0], 200, 1600)).toEqual([900, 0, 0]);
   });
 
   it("범위가 퇴화해도 하한을 돌려준다", () => {
@@ -201,11 +233,28 @@ describe("관측층 — 성좌는 켜져 있는 렌즈의 산물", () => {
     expect(r.marks.has("a4")).toBe(false);
   });
 
-  it("여러 하늘에 속하면 색인 번호가 여러 개 붙는다", () => {
-    const r = buildLens("language", lensInput());
-    const multi = [...r.marks.values()].some((v) => v.length >= 1);
-    expect(multi).toBe(true);
-    expect(r.groups.length).toBeGreaterThanOrEqual(2);
+  it("여러 그룹에 속하면 색인 번호가 여러 개 붙는다", () => {
+    // 이전 테스트는 `v.length >= 1` 이어서 소속이 하나여도 통과하는 오탐이었다.
+    const input = lensInput();
+    // a3 를 두 언어에 소속시킨다 (일본어 + 영어)
+    const a3 = input.authors.find((a) => a.id === "a3");
+    if (a3) a3.languages = ["ja", "en"];
+    const a1 = input.authors.find((a) => a.id === "a1");
+    if (a1) a1.languages = ["de", "en"];
+    const r = buildLens("language", input);
+    expect(r.marks.get("a3")?.length).toBe(2);
+    expect(r.marks.get("a2")?.length).toBe(1);
+    // 서로 다른 그룹의 번호가 붙는다
+    expect(new Set(r.marks.get("a3") ?? []).size).toBe(2);
+  });
+
+  it("모든 색인 번호는 범례에 실린 그룹의 것이다 — 미아 번호 없음", () => {
+    for (const id of ["movement", "language", "exile"] as const) {
+      const r = buildLens(id, lensInput());
+      const listed = new Set(r.groups.map((g) => g.index));
+      for (const nums of r.marks.values())
+        for (const n of nums) expect(listed.has(n)).toBe(true);
+    }
   });
 
   it("관계 렌즈는 해당 유형만 그린다", () => {
@@ -232,6 +281,36 @@ describe("관측층 — 성좌는 켜져 있는 렌즈의 산물", () => {
 
   it("일곱 개 렌즈가 모두 정의돼 있다", () => {
     expect(LENSES).toHaveLength(7);
+  });
+});
+
+describe("착륙지 준비도 — 자산 존재가 아니라 명시적 검증 상태", () => {
+  it("파일이 스키마를 지킨다", () => {
+    expect(READINESS.version).toBe(1);
+    expect(READINESS.default).toBe("not-started");
+    for (const e of READINESS.entries) {
+      expect(["ready", "in-progress", "not-started"]).toContain(e.state);
+      expect(e.verifiedAt).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(e.verifiedBy.length).toBeGreaterThan(3);
+      for (const m of e.met) expect(Object.keys(READINESS.criteria)).toContain(m);
+    }
+  });
+
+  it("ready 는 네 기준을 전부 충족해야 한다", () => {
+    for (const e of READINESS.entries.filter((x) => x.state === "ready"))
+      expect(e.met.length).toBe(Object.keys(READINESS.criteria).length);
+  });
+
+  it("기재되지 않은 작가는 착륙할 수 없다", () => {
+    expect(isLandable("marcel-proust")).toBe(false);
+    expect(readinessState("marcel-proust")).toBe("not-started");
+  });
+
+  it("검수된 작가만 착륙이 열린다", () => {
+    expect([...READY_IDS].sort()).toEqual(
+      ["franz-kafka", "natsume-soseki", "rabindranath-tagore"].sort()
+    );
+    for (const id of READY_IDS) expect(isLandable(id)).toBe(true);
   });
 });
 
@@ -286,5 +365,23 @@ describe("개인 성좌 — 계정 없이", () => {
     expect(recommendTracks(emptyPersonal(), [makeAuthor({ id: "a" })], [], () => 3, LABELS)).toEqual(
       []
     );
+  });
+});
+
+describe("색인은 전부 해독 가능해야 한다", () => {
+  it("모든 언어 코드에 한국어 이름이 있다", async () => {
+    const { LANGUAGE_KO } = await import("../src/universe/lenses.ts");
+    const fs = await import("node:fs");
+    const path = await import("node:path");
+    const dir = path.resolve(import.meta.dirname, "../data/authors");
+    const codes = new Set<string>();
+    for (const f of fs.readdirSync(dir)) {
+      const authors = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as Array<{
+        languages: string[];
+      }>;
+      for (const a of authors) for (const l of a.languages) codes.add(l);
+    }
+    const missing = [...codes].filter((c) => !LANGUAGE_KO[c]);
+    expect(missing, `한국어 이름이 없는 언어 코드: ${missing.join(", ")}`).toEqual([]);
   });
 });
