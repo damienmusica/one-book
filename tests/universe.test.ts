@@ -20,7 +20,17 @@ import {
   representationFor,
   starLife,
   starPixels,
-  SILHOUETTE_AMP
+  SILHOUETTE_AMP,
+  silhouetteRadius,
+  SHELF_LON,
+  VOL_AIR,
+  VOL_ASPECT,
+  VOL_DEPTH,
+  VOL_W_MAX,
+  volumeWidth,
+  shelfLongitudes,
+  shelfTickStep,
+  yearToLon
 } from "../src/universe/grammar.ts";
 import { LENSES, buildLens, type LensInput } from "../src/universe/lenses.ts";
 import {
@@ -386,5 +396,115 @@ describe("색인은 전부 해독 가능해야 한다", () => {
     }
     const missing = [...codes].filter((c) => !LANGUAGE_KO[c]);
     expect(missing, `한국어 이름이 없는 언어 코드: ${missing.join(", ")}`).toEqual([]);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// 연도 서가 — 작품 도시의 배치
+// ---------------------------------------------------------------------------
+
+describe("연도 서가 — 두 권이 한 자리를 다투지 않는다", () => {
+  const KAFKA = [1913, 1915, 1919, 1925, 1926];
+
+  it("경도 순서는 연도 순서다", () => {
+    const lons = shelfLongitudes(KAFKA, volumeWidth(KAFKA.length) * VOL_AIR);
+    for (let i = 1; i < lons.length; i++) expect(lons[i]!).toBeGreaterThan(lons[i - 1]!);
+  });
+
+  it("인접 연도라도 책 폭만큼의 간격은 남는다 — 겹침은 기하의 문제다", () => {
+    // 비례 배치만 쓰면 1925 와 1926 이 책 폭보다 좁게 붙는다. 아래에서 그
+    // 사실 자체를 계산해 확인한다 — 수치를 주석에 박아 두면 SHELF_LON 이
+    // 바뀔 때마다 주석이 조용히 틀려진다(실측: 22° 시절의 3.4° 가 남아 있었다).
+    const minGap = volumeWidth(KAFKA.length) * VOL_AIR;
+    const naive = KAFKA.map(
+      (y) => -SHELF_LON + 2 * SHELF_LON * ((y - 1913) / (1926 - 1913))
+    );
+    expect(naive[4]! - naive[3]!).toBeLessThan(minGap);
+    const lons = shelfLongitudes(KAFKA, minGap);
+    for (let i = 1; i < lons.length; i++)
+      expect(lons[i]! - lons[i - 1]!).toBeGreaterThanOrEqual(minGap - 1e-9);
+  });
+
+  it("서가 띠를 넘어가지 않는다", () => {
+    for (const years of [KAFKA, [1892, 1910, 1910, 1912, 1916, 1917], [1900, 1901]]) {
+      const lons = shelfLongitudes(years, volumeWidth(years.length) * VOL_AIR);
+      for (const l of lons) {
+        expect(l).toBeGreaterThanOrEqual(-SHELF_LON - 1e-9);
+        expect(l).toBeLessThanOrEqual(SHELF_LON + 1e-9);
+      }
+    }
+  });
+
+  it("작품이 많으면 책이 줄지, 책이 겹치지 않는다", () => {
+    expect(volumeWidth(2)).toBe(VOL_W_MAX);
+    expect(volumeWidth(12)).toBeLessThan(volumeWidth(5));
+    const many = Array.from({ length: 12 }, (_, i) => 1900 + i);
+    const lons = shelfLongitudes(many, volumeWidth(12) * VOL_AIR);
+    for (let i = 1; i < lons.length; i++)
+      expect(lons[i]! - lons[i - 1]!).toBeGreaterThanOrEqual(volumeWidth(12) * VOL_AIR - 1e-9);
+  });
+
+  it("한 해에 몰린 작품도 자리를 나눠 갖는다", () => {
+    const lons = shelfLongitudes([1910, 1910, 1910], volumeWidth(3) * VOL_AIR);
+    const sorted = [...lons].sort((a, b) => a - b);
+    for (let i = 1; i < sorted.length; i++)
+      expect(sorted[i]! - sorted[i - 1]!).toBeGreaterThan(0);
+  });
+
+  it("눈금은 같은 사상을 통과한다 — 밀린 구간에서 눈금도 같이 밀린다", () => {
+    const minGap = volumeWidth(KAFKA.length) * VOL_AIR;
+    const lons = shelfLongitudes(KAFKA, minGap);
+    const pairs = KAFKA.map((y, i) => [y, lons[i]!] as const);
+    // 작품 연도에 놓인 눈금은 그 작품의 경도와 정확히 같다
+    KAFKA.forEach((y, i) => expect(yearToLon(y, pairs)).toBeCloseTo(lons[i]!, 9));
+    // 사이의 눈금은 두 작품 사이에 단조롭게 놓인다
+    expect(yearToLon(1920, pairs)).toBeGreaterThan(yearToLon(1919, pairs));
+    expect(yearToLon(1920, pairs)).toBeLessThan(yearToLon(1925, pairs));
+    // 범위 밖은 끝값에 붙는다 — 축 밖으로 새지 않는다
+    expect(yearToLon(1800, pairs)).toBe(lons[0]!);
+    expect(yearToLon(2100, pairs)).toBe(lons[4]!);
+  });
+
+  it("눈금 단위는 3~6개가 놓이도록 고른다", () => {
+    for (const [lo, hi] of [
+      [1913, 1926],
+      [1892, 1917],
+      [1900, 2000],
+      [1910, 1912]
+    ] as const) {
+      const step = shelfTickStep(lo, hi);
+      const n = Math.floor(hi / step) - Math.ceil(lo / step) + 1;
+      expect(n).toBeLessThanOrEqual(6);
+    }
+  });
+
+  it("판형은 세로로 길고 두께는 상수다 — 쪽수를 갖고 있지 않으므로", () => {
+    expect(VOL_ASPECT).toBeGreaterThan(1.2);
+    expect(VOL_DEPTH).toBeLessThan(0.4);
+  });
+});
+
+describe("표면에 놓이는 것은 실루엣을 따른다", () => {
+  it("장르 조화가 표면 반경을 ±6% 안에서 흔든다", () => {
+    const poet = genreHarmonics(makeAuthor({ id: "p", genres: ["poetry"] }));
+    let lo = Infinity;
+    let hi = -Infinity;
+    for (let i = 0; i < 120; i++)
+      for (let j = 0; j < 120; j++) {
+        const th = (i / 120) * Math.PI;
+        const ph = (j / 120) * Math.PI * 2;
+        const r = silhouetteRadius(
+          poet,
+          Math.sin(th) * Math.cos(ph),
+          Math.cos(th),
+          Math.sin(th) * Math.sin(ph)
+        );
+        lo = Math.min(lo, r);
+        hi = Math.max(hi, r);
+      }
+    expect(hi - 1).toBeLessThanOrEqual(SILHOUETTE_AMP + 1e-9);
+    expect(1 - lo).toBeLessThanOrEqual(SILHOUETTE_AMP + 1e-9);
+    // 상수 1.0 을 쓰면 부푼 쪽에서 지각 안으로 파묻힌다 — 그 폭이 0 이 아님을 못박는다
+    expect(hi).toBeGreaterThan(1.001);
   });
 });
