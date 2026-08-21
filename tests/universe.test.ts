@@ -316,6 +316,23 @@ describe("착륙지 준비도 — 자산 존재가 아니라 명시적 검증 �
     expect(readinessState("marcel-proust")).toBe("not-started");
   });
 
+  it("ready 가 주장하는 자산은 매니페스트에 실재한다 — 추론이 아니라 주장의 정합성 검사", async () => {
+    // R11-c 는 "자산 존재로 준비도를 추론하지 않는다"고 했다. 이것은 그 반대
+    // 방향이다: 기재된 주장(met)이 실제 자산과 어긋나면 기재가 거짓이다.
+    const m = (await import("../public/art/manifest.json")).default as {
+      grounds: Record<string, unknown>;
+      archival: Record<string, unknown>;
+      covers: Record<string, unknown>;
+    };
+    for (const e of READINESS.entries.filter((x) => x.state === "ready")) {
+      if (e.met.includes("manuscriptGround")) expect(m.grounds[e.authorId]).toBeTruthy();
+      if (e.met.includes("archivalPortrait")) expect(m.archival[e.authorId]).toBeTruthy();
+      if (e.met.includes("coverPlates"))
+        expect(Object.keys(m.covers).filter((w) => w.startsWith(`${e.authorId}--`)).length).toBeGreaterThanOrEqual(2);
+      expect(e.verifiedBy).not.toMatch(/^R10 art pass/); // 과정 이름이 아니라 사람·세션
+    }
+  });
+
   it("검수된 작가만 착륙이 열린다", () => {
     expect([...READY_IDS].sort()).toEqual(
       ["franz-kafka", "natsume-soseki", "rabindranath-tagore"].sort()

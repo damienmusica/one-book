@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "착륙지 준비도는 자산 파일의 존재로 추론하지 않는다. 편집 검수를 거쳐 여기에 명시적으로 기록된 상태만 착륙을 연다(R11-c, CPO 2026-08-20). 이 파일에 없는 작가의 기본 상태는 not-started 이며, 그 작가는 항성과 궤도 아카이브로만 존재한다.",
+  "note": "착륙지 준비도는 자산 파일의 존재로 추론하지 않는다. 편집 검수를 거쳐 여기에 명시적으로 기록된 상태만 착륙을 연다(R11-c, CPO 2026-08-20). 이 파일에 없는 작가의 기본 상태는 not-started 이며, 그 작가는 항성과 궤도 아카이브로만 존재한다. verifiedBy 는 과정 이름이 아니라 검수한 사람·세션을 적고, surfaceVerifiedAt 은 그 검수가 읽은 표면의 시각이다 — 표면 코드가 그 뒤에 바뀌면 검수는 낡은 것이다(모의 심사 지적, 2026-08-21).",
   "criteria": {
     "manuscriptGround": "권리 확인된 육필 원고 또는 그에 준하는 실물 지면 — 천체 표면이 된다",
     "coverPlates": "권리 확인된 실물 초판 표지 2종 이상 — 표면의 작품 거점이 된다",
@@ -17,26 +17,44 @@
     {
       "authorId": "franz-kafka",
       "state": "ready",
-      "met": ["manuscriptGround", "coverPlates", "archivalPortrait", "editorialPass"],
-      "verifiedAt": "2026-08-20",
-      "verifiedBy": "R10 art pass + R11 landing review",
-      "note": "1922 노트 원고 · 초판 4종(2종은 CC BY 3.0 Haack) · 1923 기록 사진"
+      "met": [
+        "manuscriptGround",
+        "coverPlates",
+        "archivalPortrait",
+        "editorialPass"
+      ],
+      "verifiedAt": "2026-08-21",
+      "verifiedBy": "CTO(Claude Opus 5 세션) — R11-e HEAD 표면 문구 재검 2026-08-21 · CPO 아트 룰링 2026-08-20 · CPO 표면 판독은 결재 Ⅰ-1 대기",
+      "note": "1922 노트 원고 · 초판 4종(2종은 CC BY 3.0 Haack) · 1923 기록 사진",
+      "surfaceVerifiedAt": "2026-08-21T15:30+09:00"
     },
     {
       "authorId": "natsume-soseki",
       "state": "ready",
-      "met": ["manuscriptGround", "coverPlates", "archivalPortrait", "editorialPass"],
-      "verifiedAt": "2026-08-20",
-      "verifiedBy": "R10 art pass + R11 landing review",
-      "note": "『猫』 육필 원고 · 슌요도 초판 4종 · 1912 기록 초상 · 족자 서명과 낙관"
+      "met": [
+        "manuscriptGround",
+        "coverPlates",
+        "archivalPortrait",
+        "editorialPass"
+      ],
+      "verifiedAt": "2026-08-21",
+      "verifiedBy": "CTO(Claude Opus 5 세션) — R11-e HEAD 표면 문구 재검 2026-08-21 · CPO 아트 룰링 2026-08-20 · CPO 표면 판독은 결재 Ⅰ-1 대기",
+      "note": "『猫』 육필 원고 · 슌요도 초판 4종 · 1912 기록 초상 · 족자 서명과 낙관",
+      "surfaceVerifiedAt": "2026-08-21T15:30+09:00"
     },
     {
       "authorId": "rabindranath-tagore",
       "state": "ready",
-      "met": ["manuscriptGround", "coverPlates", "archivalPortrait", "editorialPass"],
-      "verifiedAt": "2026-08-20",
-      "verifiedBy": "R10 art pass + R11 landing review",
-      "note": "기탄잘리 로텐스타인 자필 · 초판 2종(1913 3판 속표지 · Macmillan) · 1909 기록 초상"
+      "met": [
+        "manuscriptGround",
+        "coverPlates",
+        "archivalPortrait",
+        "editorialPass"
+      ],
+      "verifiedAt": "2026-08-21",
+      "verifiedBy": "CTO(Claude Opus 5 세션) — R11-e HEAD 표면 문구 재검 2026-08-21 · CPO 아트 룰링 2026-08-20 · CPO 표면 판독은 결재 Ⅰ-1 대기",
+      "note": "기탄잘리 로텐스타인 자필 · 초판 2종(1913 3판 속표지 · Macmillan) · 1909 기록 초상",
+      "surfaceVerifiedAt": "2026-08-21T15:30+09:00"
     }
   ]
 }

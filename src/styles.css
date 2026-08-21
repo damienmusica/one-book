@@ -2318,3 +2318,13 @@ a:hover {
   padding: 15px 16px;
   margin: -15px -16px;
 }
+
+/* 슬립(지각 위 작품 라벨)의 hover/focus 는 종이 위 잉크여야 한다. 위의 하늘용
+   hover 규칙(--text-hover + 놋쇠 글로우)이 같은 특이성으로 뒤에 서서 슬립을
+   1.05:1 로 씻어 냈다(실측, 출하 앱 포함). 뒤에 서는 쪽이 이기므로 여기 둔다. */
+.globe-label--work.is-interactive:hover,
+.globe-label--work.is-interactive:focus-visible {
+  color: var(--slip-ink-strong);
+  text-shadow: none;
+  border-color: var(--slip-ink);
+}
