@@ -129,7 +129,8 @@
     "weight": 0.8,
     "summary": "1936년 폴란드어판 『소송』은 슐츠의 이름으로 출간되었고 그가 후기를 붙였다. 번역을 실제로 수행한 사람을 둘러싼 논의가 있으므로, 여기서는 그의 이름으로 나온 판본과 그가 쓴 후기라는 사실만 기록한다. 폴란드어권에 카프카를 세운 판본이다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--kafka-proces-pl-1936"]
+    "sourceIds": ["src--kafka-proces-pl-1936"],
+    "anchors": [{ "workId": "franz-kafka--der-process", "year": 1936 }]
   },
   {
     "id": "dialogue--bruno-schulz--witold-gombrowicz",
@@ -250,7 +251,8 @@
     "weight": 0.8,
     "summary": "카네티는 카프카가 펠리체 바우어에게 보낸 편지 전체를 읽고 『또 하나의 소송』(1969) 한 권을 썼다. 약혼과 파혼의 왕복 서한을 권력관계의 문서로 읽는 이 작업은, 『군중과 권력』의 방법을 한 작가의 사생활에 적용한 사례다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--canetti-der-andere-prozess-1969", "src--kafka-letters-felice"]
+    "sourceIds": ["src--canetti-der-andere-prozess-1969", "src--kafka-letters-felice"],
+    "anchors": [{ "year": 1969 }]
   },
   {
     "id": "dialogue--rainer-maria-rilke--marina-tsvetaeva",
@@ -316,7 +318,8 @@
     "weight": 0.85,
     "summary": "헤다야트는 카프카를 페르시아어로 옮겼고, 1948년 페르시아어판 『유형지에서』에 붙인 긴 서문 「카프카의 전언」에서 카프카를 이란 독자에게 처음 체계적으로 소개했다. 개별 작품의 번역 명의를 둘러싼 이견이 있어, 여기서는 이 서문과 그가 주도한 소개 작업을 기록한다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--hedayat-payam-e-kafka-1948", "src--encyclopaedia-iranica"]
+    "sourceIds": ["src--hedayat-payam-e-kafka-1948", "src--encyclopaedia-iranica"],
+    "anchors": [{ "workId": "franz-kafka--in-der-strafkolonie", "year": 1948 }]
   },
   {
     "id": "contrast--rabindranath-tagore--lu-xun",

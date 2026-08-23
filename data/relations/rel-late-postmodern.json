@@ -8,7 +8,8 @@
     "weight": 0.9,
     "summary": "자서전 『이야기하기 위해 살다』에서 가르시아 마르케스는 1947년 보고타 하숙집에서 『변신』의 첫 문장을 읽고 소설을 이렇게 써도 된다는 것을 처음 알았다고 서술했다. 그 다음 날부터 습작을 시작했다는 이 장면은 그가 인터뷰에서도 반복해 인용한 출발점이다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--garcia-marquez-vivir-para-contarla", "src--paris-review"]
+    "sourceIds": ["src--garcia-marquez-vivir-para-contarla", "src--paris-review"],
+    "anchors": [{ "workId": "franz-kafka--die-verwandlung", "year": 1947 }]
   },
   {
     "id": "influence--william-faulkner--gabriel-garcia-marquez",
@@ -393,7 +394,8 @@
     "weight": 0.85,
     "summary": "제발트는 독문학자로서 카프카 『성』의 모티프 구조를 분석한 논문을 발표했고, 『현기증. 감정들』의 제3부 「Dr. K.s Badereise nach Riva」에서는 1913년 리바에 머무는 카프카를 'K. 박사'로 등장시켜 그 여정을 다시 썼다. 학술 독서와 소설 서술이 같은 대상 위에서 겹친 경우다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--sebald-kafka-writings"]
+    "sourceIds": ["src--sebald-kafka-writings"],
+    "anchors": [{ "workId": "franz-kafka--das-schloss" }, { "year": 1913 }]
   },
   {
     "id": "influence--vladimir-nabokov--wg-sebald",

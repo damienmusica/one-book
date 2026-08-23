@@ -90,6 +90,41 @@ export interface Author {
   reviewedAt?: string;
 }
 
+/**
+ * 작품 세계 (R12) — 책을 눌러 얻는 것이 한 문장(significance)뿐이던 자리에
+ * 실물 자료로 쓴 한 장. 전부 출처를 달고, 여는 문장의 한국어는 **자체 번역**임을
+ * 표시한다(기존 번역은 저작물이다).
+ */
+export interface WorkEdition {
+  /** first-printing = 잡지·연감 첫 인쇄 · first-edition = 초판 단행본 */
+  kind: "first-printing" | "first-edition";
+  /** 잡지·연감 이름(first-printing 일 때) */
+  venue?: string;
+  publisher: string;
+  place: string;
+  year: number;
+  month?: number;
+  series?: string;
+  note?: string;
+  sourceIds: string[];
+}
+
+export interface WorkWorld {
+  /** 여는 문장 — 원문 그대로(1–2문장)와 우리 번역 */
+  opening: {
+    original: string;
+    ko: string;
+    /** "self" = 이 프로젝트의 자체 번역. 다른 값은 아직 허용하지 않는다 */
+    translation: "self";
+    sourceId: string;
+  };
+  /** 집필 시기 — 서술형("1912년 9월 22–23일 밤") */
+  written?: string;
+  editions: WorkEdition[];
+  /** 유고 출간 — 편집자와 경위 */
+  posthumous?: { editor: string; note: string; sourceIds: string[] };
+}
+
 export interface Work {
   id: string;
   authorId: string;
@@ -101,6 +136,7 @@ export interface Work {
   speculative?: boolean;
   significance: string;
   sourceIds: string[];
+  world?: WorkWorld;
 }
 
 export interface Relation {
@@ -115,6 +151,20 @@ export interface Relation {
   summary: string;
   evidenceLevel: EvidenceLevel;
   sourceIds: string[];
+  /**
+   * 앵커 (R12) — 요약문이 지목하는 **구체적인 책·연도**. 산문을 파싱하지 않고 편집이
+   * 손으로 적는다. 선이 하늘에서 작가의 서고로 내려올 때 어느 책·어느 연도 칸에
+   * 닿는지를 정한다. 요약에 없는 사실은 적지 않는다(새 조사 0). 없으면 선은 이름에
+   * 닿는다 — 그것도 정직한 독해다.
+   */
+  anchors?: RelationAnchor[];
+}
+
+export interface RelationAnchor {
+  /** 관계의 어느 쪽 작가의 작품인가 — 보통 영향을 준 쪽 */
+  workId?: string;
+  /** 요약이 지목하는 연도(편지·서문·판본·에세이의 해) */
+  year?: number;
 }
 
 export interface Source {

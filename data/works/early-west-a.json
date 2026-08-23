@@ -67,7 +67,34 @@
     "year": 1913,
     "genre": "fiction",
     "significance": "1912년 하룻밤 사이에 쓴 단편. 아버지가 아들에게 익사형을 선고하고 아들이 그대로 따르는 결말로, 이유 없는 판결에 복종하는 카프카적 상황이 처음 완성된 형태로 나타난다.",
-    "sourceIds": ["src--britannica"]
+    "sourceIds": ["src--britannica"],
+    "world": {
+      "opening": {
+        "original": "Es war an einem Sonntagvormittag im schönsten Frühjahr.",
+        "ko": "더없이 아름다운 봄날의 어느 일요일 오전이었다.",
+        "translation": "self",
+        "sourceId": "src--wikisource-de-das-urteil"
+      },
+      "written": "1912년 9월 22–23일 밤, 하룻밤 사이에",
+      "editions": [
+        {
+          "kind": "first-printing",
+          "venue": "연감 『Arkadia. Ein Jahrbuch für Dichtkunst』 (막스 브로트 편)",
+          "publisher": "Kurt Wolff Verlag",
+          "place": "Leipzig",
+          "year": 1913,
+          "sourceIds": ["src--dewiki-das-urteil"]
+        },
+        {
+          "kind": "first-edition",
+          "publisher": "Kurt Wolff Verlag",
+          "place": "Leipzig",
+          "year": 1916,
+          "series": "Der jüngste Tag, Bd. 34",
+          "sourceIds": ["src--dewiki-das-urteil", "src--dewiki-der-juengste-tag-liste"]
+        }
+      ]
+    }
   },
   {
     "id": "franz-kafka--die-verwandlung",
@@ -77,7 +104,35 @@
     "year": 1915,
     "genre": "fiction",
     "significance": "한 문장의 변신 선언으로 시작해 가족과 노동의 일상이 괴물성을 흡수하는 과정을 기록한다. 20세기 단편의 가장 유명한 첫 문장이 된 작품.",
-    "sourceIds": ["src--britannica"]
+    "sourceIds": ["src--britannica"],
+    "world": {
+      "opening": {
+        "original": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.",
+        "ko": "어느 날 아침 그레고르 잠자가 불안한 꿈에서 깨어났을 때, 그는 침대 속에서 자신이 한 마리 거대한 해충으로 변해 있는 것을 발견했다.",
+        "translation": "self",
+        "sourceId": "src--wikisource-de-die-verwandlung"
+      },
+      "written": "1912년 11–12월",
+      "editions": [
+        {
+          "kind": "first-printing",
+          "venue": "월간지 『Die Weißen Blätter』 2. Jg. Heft 10 (르네 시켈레 편)",
+          "publisher": "Verlag der Weißen Bücher",
+          "place": "Leipzig",
+          "year": 1915,
+          "month": 10,
+          "sourceIds": ["src--wikisource-de-die-verwandlung"]
+        },
+        {
+          "kind": "first-edition",
+          "publisher": "Kurt Wolff Verlag",
+          "place": "Leipzig",
+          "year": 1915,
+          "series": "Der jüngste Tag, Bd. 22/23",
+          "sourceIds": ["src--dewiki-der-juengste-tag-liste"]
+        }
+      ]
+    }
   },
   {
     "id": "franz-kafka--in-der-strafkolonie",
@@ -87,7 +142,25 @@
     "year": 1919,
     "genre": "fiction",
     "significance": "판결문을 죄수의 몸에 새기는 처형 기계를 장교가 설명서 읽듯 소개하는 단편. 관료제의 언어와 신체의 고통을 같은 문체로 붙여 놓았다.",
-    "sourceIds": ["src--britannica"]
+    "sourceIds": ["src--britannica"],
+    "world": {
+      "opening": {
+        "original": "„Es ist ein eigentümlicher Apparat,“ sagte der Offizier zu dem Forschungsreisenden und überblickte mit einem gewissermassen bewundernden Blick den ihm doch wohlbekannten Apparat.",
+        "ko": "「특이한 장치입니다.」 장교가 탐험가에게 말하며, 자기에게는 이미 익숙할 그 장치를 어딘지 감탄하는 듯한 눈길로 훑어보았다.",
+        "translation": "self",
+        "sourceId": "src--wikisource-de-in-der-strafkolonie"
+      },
+      "written": "1914년 11월",
+      "editions": [
+        {
+          "kind": "first-edition",
+          "publisher": "Kurt Wolff Verlag",
+          "place": "Leipzig",
+          "year": 1919,
+          "sourceIds": ["src--wikisource-de-in-der-strafkolonie"]
+        }
+      ]
+    }
   },
   {
     "id": "franz-kafka--der-process",
@@ -97,7 +170,32 @@
     "year": 1925,
     "genre": "fiction",
     "significance": "사후 출간. 죄목을 끝내 알려 주지 않는 법정에 기소된 은행원의 1년을 따라가며, 절차만 있고 내용이 없는 심급 구조를 서사로 구현했다. 카프카가 소각을 유언했으나 막스 브로트가 어긋난 순서의 미완 원고를 편집해 냈다.",
-    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+    "sourceIds": ["src--britannica", "src--cambridge-companions"],
+    "world": {
+      "opening": {
+        "original": "Jemand mußte Josef K. verleumdet haben, denn ohne daß er etwas Böses getan hätte, wurde er eines Morgens verhaftet.",
+        "ko": "누군가 요제프 K.를 중상한 것이 틀림없었다. 그는 아무 나쁜 짓도 하지 않았는데 어느 날 아침 체포되었으니까.",
+        "translation": "self",
+        "sourceId": "src--wikisource-de-der-prozess-1925"
+      },
+      "written": "1914–1915년",
+      "editions": [
+        {
+          "kind": "first-edition",
+          "publisher": "Verlag Die Schmiede",
+          "place": "Berlin",
+          "year": 1925,
+          "month": 4,
+          "note": "초판 표제지 표기는 „Der Prozess“",
+          "sourceIds": ["src--dewiki-der-process", "src--wikisource-de-der-prozess-1925"]
+        }
+      ],
+      "posthumous": {
+        "editor": "막스 브로트",
+        "note": "미완성 원고를 사후에 브로트가 엮어 냈다. 카프카는 생전에 브로트에게 원고 대부분을 없애 달라고 부탁했고, 브로트는 그 뜻을 따르지 않았다.",
+        "sourceIds": ["src--dewiki-der-process"]
+      }
+    }
   },
   {
     "id": "franz-kafka--das-schloss",
@@ -107,7 +205,30 @@
     "year": 1926,
     "genre": "fiction",
     "significance": "사후 출간. 측량기사 K가 마을에 도착해 성의 승인을 얻으려 하지만 어느 창구에도 닿지 못하는 이야기로, 문장 중간에서 끊긴 채 남았다. 접근 불가능한 권위라는 형상을 가장 멀리 밀고 간 미완의 장편.",
-    "sourceIds": ["src--britannica", "src--cambridge-companions"]
+    "sourceIds": ["src--britannica", "src--cambridge-companions"],
+    "world": {
+      "opening": {
+        "original": "Es war spät abends, als K. ankam. Das Dorf lag in tiefem Schnee.",
+        "ko": "K.가 도착한 것은 늦은 저녁이었다. 마을은 깊은 눈 속에 잠겨 있었다.",
+        "translation": "self",
+        "sourceId": "src--wikisource-de-das-schloss-1926"
+      },
+      "written": "1922년",
+      "editions": [
+        {
+          "kind": "first-edition",
+          "publisher": "Kurt Wolff Verlag",
+          "place": "München",
+          "year": 1926,
+          "sourceIds": ["src--dewiki-das-schloss", "src--wikisource-de-das-schloss-1926"]
+        }
+      ],
+      "posthumous": {
+        "editor": "막스 브로트",
+        "note": "미완성 장편 셋 중 하나. 1922년에 쓰였고 사후에 브로트가 엮어 냈다 — 원고를 없애 달라는 부탁은 카프카의 미발표 유고 전체에 대한 것이었다.",
+        "sourceIds": ["src--dewiki-das-schloss", "src--dewiki-der-process"]
+      }
+    }
   },
   {
     "id": "james-joyce--dubliners",

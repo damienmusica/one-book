@@ -525,3 +525,188 @@ describe("표면에 놓이는 것은 실루엣을 따른다", () => {
     expect(hi).toBeGreaterThan(1.001);
   });
 });
+
+// ---------------------------------------------------------------------------
+// 관계 인과성 (R12) — 선은 왜 그어졌는가
+// ---------------------------------------------------------------------------
+import {
+  EVIDENCE_KO,
+  REL_KO,
+  anchorChips,
+  isDirected,
+  relationCaption,
+  relationGlyph,
+  sortRelations
+} from "../src/universe/relations.ts";
+
+describe("relation causality — glyph, order, caption", () => {
+  const self = "franz-kafka";
+  const out = makeRelation(self, "jorge-luis-borges");
+  const inc = makeRelation("fyodor-dostoevsky", self);
+  const mutual = makeRelation(self, "samuel-beckett", "affinity");
+
+  it("reads direction from the selected star's side", () => {
+    expect(relationGlyph(out, self)).toBe("→");
+    expect(relationGlyph(inc, self)).toBe("←");
+    expect(relationGlyph(mutual, self)).toBe("↔");
+    // 같은 관계를 상대편에서 보면 화살이 뒤집힌다
+    expect(relationGlyph(out, "jorge-luis-borges")).toBe("←");
+  });
+
+  it("gives arrowheads only to directed relations", () => {
+    expect(isDirected(out)).toBe(true);
+    expect(isDirected(mutual)).toBe(false);
+  });
+
+  it("orders strong evidence first, then weight, deterministically", () => {
+    const rows = [
+      { rel: { ...mutual, evidenceLevel: "editorial_inference" as const, weight: 0.9 } },
+      { rel: { ...inc, evidenceLevel: "documented" as const, weight: 0.5 } },
+      { rel: { ...out, evidenceLevel: "documented" as const, weight: 0.8 } },
+      { rel: { ...makeRelation(self, "kobo-abe"), evidenceLevel: "scholarly_consensus" as const, weight: 0.95 } }
+    ];
+    const ids = sortRelations(rows).map((r) => r.rel.id);
+    expect(ids).toEqual([out.id, inc.id, "influence--franz-kafka--kobo-abe", mutual.id]);
+    // 입력 순서에 무관하다
+    expect(sortRelations([...rows].reverse()).map((r) => r.rel.id)).toEqual(ids);
+  });
+
+  it("never shows a code value to the reader", () => {
+    for (const v of Object.values(EVIDENCE_KO)) expect(v).not.toMatch(/[a-z_]/);
+    for (const v of Object.values(REL_KO)) expect(v).not.toMatch(/[a-z_]/);
+  });
+
+  it("writes the caption from the origin toward the destination", () => {
+    const name = (id: string) => ({ "franz-kafka": "카프카", "fyodor-dostoevsky": "도스토옙스키", "jorge-luis-borges": "보르헤스", "samuel-beckett": "베케트" })[id] ?? id;
+    const o = relationCaption({ ...out, summary: "보르헤스가 서문을 썼다." }, self, name);
+    expect(o.startsWith("카프카 → 보르헤스 · 영향 · ")).toBe(true);
+    expect(o.endsWith("— 보르헤스가 서문을 썼다.")).toBe(true);
+    const i = relationCaption({ ...inc, summary: "편지의 혈족." }, self, name);
+    expect(i.startsWith("도스토옙스키 → 카프카")).toBe(true);
+    expect(relationCaption({ ...mutual, summary: "x" }, self, name).startsWith("카프카 ↔ 베케트 · 친연")).toBe(true);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// 작품 세계 (R12) — 여는 문장·판본·유고는 출처와 연도 논리를 갖는다
+// ---------------------------------------------------------------------------
+import { assembleDataset, type RawCollections } from "../src/data/assemble.ts";
+import { makeDataset, makeWork } from "./fixtures.ts";
+import { workWorldSchema } from "../src/schema.ts";
+
+function rawOf(ds: ReturnType<typeof makeDataset>): RawCollections {
+  return {
+    authorFiles: { "authors/t.json": ds.authors },
+    workFiles: { "works/t.json": ds.works },
+    relationFiles: { "relations/t.json": ds.relations },
+    sourceFiles: { "sources/t.json": ds.sources },
+    movements: ds.movements,
+    tours: ds.tours,
+    positions: ds.positions,
+    registry: ds.registry
+  };
+}
+
+describe("work world — schema and validation", () => {
+  const WORLD = {
+    opening: { original: "Es war spät abends, als K. ankam.", ko: "K.가 도착한 것은 늦은 저녁이었다.", translation: "self" as const, sourceId: "src--britannica" },
+    editions: [{ kind: "first-edition" as const, publisher: "Kurt Wolff", place: "München", year: 1940, sourceIds: ["src--britannica"] }]
+  };
+
+  it("accepts a well-formed world and refuses a translation that is not declared ours", () => {
+    expect(workWorldSchema.safeParse(WORLD).success).toBe(true);
+    expect(workWorldSchema.safeParse({ ...WORLD, opening: { ...WORLD.opening, translation: "published" } }).success).toBe(false);
+    expect(workWorldSchema.safeParse({ ...WORLD, editions: [] }).success).toBe(false);
+  });
+
+  it("rejects an edition dated before the work's publication year", () => {
+    const a = makeAuthor({ id: "a", deathYear: 1950 });
+    const ds = makeDataset([a], []);
+    ds.works = [makeWork("a", 1, { year: 1940, world: { ...WORLD, editions: [{ ...WORLD.editions[0]!, year: 1939 }] } })];
+    const { errors } = assembleDataset(rawOf(ds));
+    expect(errors.some((e) => e.includes("precedes the work's publication year"))).toBe(true);
+  });
+
+  it("rejects a posthumous claim when the first edition is not after the author's death", () => {
+    const a = makeAuthor({ id: "a", deathYear: 1950 });
+    const ds = makeDataset([a], []);
+    ds.works = [
+      makeWork("a", 1, {
+        year: 1940,
+        world: { ...WORLD, posthumous: { editor: "편집자", note: "사후에 엮어 냈다는 주장이다.", sourceIds: ["src--britannica"] } }
+      })
+    ];
+    const { errors } = assembleDataset(rawOf(ds));
+    expect(errors.some((e) => e.includes("posthumous claim"))).toBe(true);
+    // 사망 뒤의 초판이면 통과
+    ds.works[0]!.world!.editions[0]!.year = 1951;
+    ds.works[0]!.year = 1951;
+    expect(assembleDataset(rawOf(ds)).errors.filter((e) => e.includes("posthumous"))).toEqual([]);
+  });
+
+  it("rejects world claims that cite unknown sources", () => {
+    const a = makeAuthor({ id: "a", deathYear: 1950 });
+    const ds = makeDataset([a], []);
+    ds.works = [makeWork("a", 1, { year: 1940, world: { ...WORLD, opening: { ...WORLD.opening, sourceId: "src--nowhere" } } })];
+    const { errors } = assembleDataset(rawOf(ds));
+    expect(errors.some((e) => e.includes("world.opening cites unknown source"))).toBe(true);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// 서명 파도 (R12) — 매니페스트의 마크는 전부 근거를 달고, 생존 작가는 없다
+// ---------------------------------------------------------------------------
+import { readFileSync as readFs, readdirSync as readDir } from "node:fs";
+
+describe("signature wave — every mark ships with provenance, no living author", () => {
+  const manifest = JSON.parse(readFs(new URL("../public/art/manifest.json", import.meta.url), "utf8"));
+  const authors = readDir(new URL("../data/authors", import.meta.url)).flatMap((f) =>
+    JSON.parse(readFs(new URL(`../data/authors/${f}`, import.meta.url), "utf8"))
+  ) as Array<{ id: string; deathYear?: number }>;
+  const byId = new Map(authors.map((a) => [a.id, a]));
+
+  const all = { ...manifest.marks, ...manifest.signatures } as Record<string, { file: string; provenance: { pageUrl?: string; licence?: string } | null }>;
+
+  it("keeps the shipped app's seal set at the R10 three and carries the wave apart", () => {
+    expect(Object.keys(manifest.marks)).toEqual(["franz-kafka", "rabindranath-tagore", "natsume-soseki"]);
+    expect(Object.keys(manifest.signatures).length).toBeGreaterThanOrEqual(59);
+    for (const id of Object.keys(manifest.signatures)) expect(manifest.marks[id], id).toBeUndefined();
+  });
+
+  it("every mark and signature names a file page and a licence, and belongs to a corpus author", () => {
+    for (const [id, m] of Object.entries(all)) {
+      expect(byId.has(id), id).toBe(true);
+      expect(/^(marks|signatures)\//.test(m.file), id).toBe(true);
+      expect(m.provenance?.pageUrl?.startsWith("https://"), id).toBe(true);
+      expect((m.provenance?.licence ?? "").length, id).toBeGreaterThan(2);
+    }
+  });
+
+  it("holds living authors out of the wave (conservative rule)", () => {
+    for (const id of Object.keys(all)) expect(byId.get(id)?.deathYear, id).toBeDefined();
+  });
+});
+
+describe("relation anchors — the line knows which book and which year", () => {
+  it("turns anchors into chips and refuses a title it does not know", () => {
+    const titleOf = (id: string) => ({ "franz-kafka--die-verwandlung": "변신" })[id];
+    expect(anchorChips({ anchors: [{ workId: "franz-kafka--die-verwandlung", year: 1947 }, { year: 1913 }, { workId: "x--unknown" }] }, titleOf))
+      .toEqual(["『변신』 1947", "1913"]);
+    expect(anchorChips({ anchors: undefined }, titleOf)).toEqual([]);
+  });
+
+  it("validation refuses an anchor on a third party's work or an unknown work", () => {
+    const a = makeAuthor({ id: "a", deathYear: 1950 });
+    const b = makeAuthor({ id: "b", deathYear: 1960 });
+    const c = makeAuthor({ id: "c", deathYear: 1970 });
+    const ds = makeDataset([a, b, c], [makeRelation("a", "b", "documented_influence", { anchors: [{ workId: "c--w1" }] })]);
+    let { errors } = assembleDataset(rawOf(ds));
+    expect(errors.some((e) => e.includes("belongs to neither party"))).toBe(true);
+    ds.relations[0]!.anchors = [{ workId: "a--nope" }];
+    ({ errors } = assembleDataset(rawOf(ds)));
+    expect(errors.some((e) => e.includes("unknown work"))).toBe(true);
+    ds.relations[0]!.anchors = [{ workId: "a--w1", year: 1940 }];
+    ({ errors } = assembleDataset(rawOf(ds)));
+    expect(errors.filter((e) => e.includes("anchor"))).toEqual([]);
+  });
+});

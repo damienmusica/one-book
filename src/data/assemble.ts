@@ -313,7 +313,30 @@ export function assembleDataset(
     for (const sid of w.sourceIds) {
       if (!sourceIds.has(sid)) errors.push(`${w.id}: unknown source ${sid}`);
     }
+    // 작품 세계: 모든 주장이 실재하는 출처를 가리키고, 판본은 발표 연도보다 앞설 수 없다
+    if (w.world) {
+      if (!sourceIds.has(w.world.opening.sourceId))
+        errors.push(`${w.id}: world.opening cites unknown source ${w.world.opening.sourceId}`);
+      for (const e of w.world.editions) {
+        if (e.year < w.year)
+          errors.push(`${w.id}: edition ${e.kind} ${e.year} precedes the work's publication year ${w.year}`);
+        if (e.kind === "first-printing" && !e.venue)
+          errors.push(`${w.id}: first-printing edition needs a venue`);
+        for (const sid of e.sourceIds)
+          if (!sourceIds.has(sid)) errors.push(`${w.id}: edition cites unknown source ${sid}`);
+      }
+      const first = w.world.editions.find((e) => e.kind === "first-edition");
+      if (!first) errors.push(`${w.id}: world needs a first-edition entry`);
+      if (w.world.posthumous) {
+        if (a.deathYear === undefined || (first && first.year <= a.deathYear))
+          errors.push(`${w.id}: posthumous claim but the first edition is not after the author's death`);
+        for (const sid of w.world.posthumous.sourceIds)
+          if (!sourceIds.has(sid)) errors.push(`${w.id}: posthumous cites unknown source ${sid}`);
+      }
+    }
   }
+
+  const workById = new Map(works.map((w) => [w.id, w]));
 
   // --- relations ------------------------------------------------------------
   const defByType = new Map(RELATION_DEFS.map((d) => [d.id, d]));
@@ -325,6 +348,15 @@ export function assembleDataset(
     if (!authorById.has(r.targetId)) errors.push(`${r.id}: unknown targetId ${r.targetId}`);
     if (r.sourceId === r.targetId) errors.push(`${r.id}: self-relation forbidden`);
 
+    // 앵커는 두 당사자 중 한 사람의 실재하는 작품만 가리킨다 — 제3자의 책에 닿는 선은 거짓말이다
+    for (const an of r.anchors ?? []) {
+      if (an.workId) {
+        const w = workById.get(an.workId);
+        if (!w) errors.push(`${r.id}: anchor names unknown work ${an.workId}`);
+        else if (w.authorId !== r.sourceId && w.authorId !== r.targetId)
+          errors.push(`${r.id}: anchor work ${an.workId} belongs to neither party`);
+      }
+    }
     const expectedId = `${RELATION_ID_PREFIX[r.type]}--${r.sourceId}--${r.targetId}`;
     if (r.id !== expectedId)
       errors.push(`${r.id}: id must be '${expectedId}' (type/source/target mismatch)`);
@@ -609,6 +641,15 @@ export function assembleDataset(
   const usedSources = new Set<string>([
     ...authors.flatMap((a) => a.sourceIds),
     ...works.flatMap((w) => w.sourceIds),
+    ...works.flatMap((w) =>
+      w.world
+        ? [
+            w.world.opening.sourceId,
+            ...w.world.editions.flatMap((e) => e.sourceIds),
+            ...(w.world.posthumous?.sourceIds ?? [])
+          ]
+        : []
+    ),
     ...relations.flatMap((r) => r.sourceIds)
   ]);
   for (const s of sources) {

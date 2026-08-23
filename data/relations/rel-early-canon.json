@@ -140,7 +140,8 @@
     "weight": 0.85,
     "summary": "카프카는 1913년 9월 펠리체에게 보낸 편지에서 도스토옙스키를 자신의 '진짜 혈족' 넷 중 하나로 꼽았다. 심문받는 자의 의식을 안쪽에서 서술하는 『죄와 벌』의 죄의식 구조는 『소송』의 전제와 깊이 공명한다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--kafka-letters-felice"]
+    "sourceIds": ["src--kafka-letters-felice"],
+    "anchors": [{ "year": 1913 }, { "workId": "franz-kafka--der-process" }]
   },
   {
     "id": "influence--gustave-flaubert--franz-kafka",
@@ -151,7 +152,8 @@
     "weight": 0.8,
     "summary": "같은 1913년 편지의 '진짜 혈족' 넷에 플로베르도 들어 있다. 카프카는 플로베르를 프랑스어로 읽었고 『감정 교육』을 특히 아꼈으며, 감정을 논평하지 않고 사태만 정확히 기록하는 문장을 자기 산문의 기준으로 삼았다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--kafka-letters-felice"]
+    "sourceIds": ["src--kafka-letters-felice"],
+    "anchors": [{ "year": 1913 }]
   },
   {
     "id": "influence--henrik-ibsen--james-joyce",
