@@ -4,7 +4,6 @@
 import { describe, expect, it } from "vitest";
 import { makeAuthor, makeRelation } from "./fixtures.ts";
 import {
-  LANDING_ALT,
   LENS_MAX,
   LENS_MIN,
   lensCompress,
@@ -22,15 +21,20 @@ import {
   starPixels,
   SILHOUETTE_AMP,
   silhouetteRadius,
-  SHELF_LON,
+
   VOL_AIR,
   VOL_ASPECT,
   VOL_DEPTH,
   VOL_W_MAX,
   volumeWidth,
-  shelfLongitudes,
-  shelfTickStep,
-  yearToLon
+  corridorSpan,
+  corridorTheta,
+  corridorCellArc,
+  anchorYearOf,
+  CORRIDOR_LEAD_YEARS,
+  CORRIDOR_TAIL_YEARS,
+  CORRIDOR_ARC_MAX,
+  CORRIDOR_CELL_AIR
 } from "../src/universe/grammar.ts";
 import { LENSES, buildLens, type LensInput } from "../src/universe/lenses.ts";
 import {
@@ -56,7 +60,7 @@ describe("표현 사다리 — 계층이 아니라 겉보기 크기", () => {
     const h = 900;
     const far = apparentRadiusPx(r, SHELL_R * 2, 42, h);
     const mid = apparentRadiusPx(r, 60, 42, h);
-    const near = apparentRadiusPx(r, r * LANDING_ALT, 42, h);
+    const near = apparentRadiusPx(r, r * 1.5, 42, h);
     expect(representationFor(far, h)).toBe("star");
     expect(representationFor(mid, h)).toBe("resolved");
     expect(representationFor(near, h)).toBe("surface");
@@ -65,7 +69,7 @@ describe("표현 사다리 — 계층이 아니라 겉보기 크기", () => {
   it("착륙 고도에서 천체가 화면을 지배한다 (겉보기 반경 > 화면 높이의 22%)", () => {
     const r = bodyRadius(0.4);
     const h = 900;
-    expect(apparentRadiusPx(r, r * LANDING_ALT, 42, h)).toBeGreaterThan(h * 0.22);
+    expect(apparentRadiusPx(r, r * 1.5, 42, h)).toBeGreaterThan(h * 0.22);
   });
 
   it("천구 안으로 들어가도 이웃 천체는 별로 남는다 (검은 하늘 회귀 방지)", () => {
@@ -420,79 +424,46 @@ describe("색인은 전부 해독 가능해야 한다", () => {
 // 연도 서가 — 작품 도시의 배치
 // ---------------------------------------------------------------------------
 
-describe("연도 서가 — 두 권이 한 자리를 다투지 않는다", () => {
-  const KAFKA = [1913, 1915, 1919, 1925, 1926];
-
-  it("경도 순서는 연도 순서다", () => {
-    const lons = shelfLongitudes(KAFKA, volumeWidth(KAFKA.length) * VOL_AIR);
-    for (let i = 1; i < lons.length; i++) expect(lons[i]!).toBeGreaterThan(lons[i - 1]!);
+describe("서가 회랑 — 연도 칸은 균일하고 회랑은 행성을 감지 않는다", () => {
+  it("구간은 작품·앵커·사망 연도를 전부 품고 앞뒤 여유를 갖는다", () => {
+    // 기대값은 **리터럴**이다 — 상수로 검증하면 상수 변이가 검증식도 같이
+    // 바꿔 동어반복이 된다(스윕 실측: 꼬리 여유 변이가 생존했다).
+    const span = corridorSpan([1915, 1925], [1947, 1969], 1924);
+    expect(span.yStart).toBe(1915 - 2);
+    expect(span.yEnd).toBe(1969 + 4);
+    // 사망 연도가 최댓값이면 그것이 구간을 정한다
+    expect(corridorSpan([1905], [], 1916).yEnd).toBe(1916 + 4);
   });
 
-  it("인접 연도라도 책 폭만큼의 간격은 남는다 — 겹침은 기하의 문제다", () => {
-    // 비례 배치만 쓰면 1925 와 1926 이 책 폭보다 좁게 붙는다. 아래에서 그
-    // 사실 자체를 계산해 확인한다 — 수치를 주석에 박아 두면 SHELF_LON 이
-    // 바뀔 때마다 주석이 조용히 틀려진다(실측: 22° 시절의 3.4° 가 남아 있었다).
-    const minGap = volumeWidth(KAFKA.length) * VOL_AIR;
-    const naive = KAFKA.map(
-      (y) => -SHELF_LON + 2 * SHELF_LON * ((y - 1913) / (1926 - 1913))
-    );
-    expect(naive[4]! - naive[3]!).toBeLessThan(minGap);
-    const lons = shelfLongitudes(KAFKA, minGap);
-    for (let i = 1; i < lons.length; i++)
-      expect(lons[i]! - lons[i - 1]!).toBeGreaterThanOrEqual(minGap - 1e-9);
+  it("연도 → 호는 균일하다 — 연도가 다르면 자리도 다르고 간격은 같다", () => {
+    const span = { yStart: 1900, yEnd: 1960 };
+    const arc = 0.04;
+    const a = corridorTheta(1910, span, arc);
+    const b = corridorTheta(1911, span, arc);
+    const c = corridorTheta(1912, span, arc);
+    expect(b - a).toBeCloseTo(arc, 12);
+    expect(c - b).toBeCloseTo(arc, 12);
+    expect(corridorTheta(span.yStart, span, arc)).toBe(0);
   });
 
-  it("서가 띠를 넘어가지 않는다", () => {
-    for (const years of [KAFKA, [1892, 1910, 1910, 1912, 1916, 1917], [1900, 1901]]) {
-      const lons = shelfLongitudes(years, volumeWidth(years.length) * VOL_AIR);
-      for (const l of lons) {
-        expect(l).toBeGreaterThanOrEqual(-SHELF_LON - 1e-9);
-        expect(l).toBeLessThanOrEqual(SHELF_LON + 1e-9);
-      }
+  it("회랑 전체 호는 상한을 넘지 않는다 — 책이 행성을 감으면 회랑이 아니다", () => {
+    for (const bays of [10, 17, 62, 120]) {
+      const arc = corridorCellArc(bays, volumeWidth(5));
+      // 리터럴 2.4 — 상수로 재면 상수 변이가 검증식을 함께 바꾼다
+      expect(arc * bays).toBeLessThanOrEqual(2.4 + 1e-9);
+      expect(arc).toBeGreaterThan(0);
     }
+    // 칸이 적으면 책 폭 비례가 그대로 산다 · 칸은 언제나 책보다 넓다(관통 불가)
+    expect(corridorCellArc(5, 0.05)).toBeCloseTo(0.05 * CORRIDOR_CELL_AIR, 12);
+    expect(CORRIDOR_CELL_AIR).toBeGreaterThan(1.2);
   });
 
-  it("작품이 많으면 책이 줄지, 책이 겹치지 않는다", () => {
-    expect(volumeWidth(2)).toBe(VOL_W_MAX);
-    expect(volumeWidth(12)).toBeLessThan(volumeWidth(5));
-    const many = Array.from({ length: 12 }, (_, i) => 1900 + i);
-    const lons = shelfLongitudes(many, volumeWidth(12) * VOL_AIR);
-    for (let i = 1; i < lons.length; i++)
-      expect(lons[i]! - lons[i - 1]!).toBeGreaterThanOrEqual(volumeWidth(12) * VOL_AIR - 1e-9);
-  });
-
-  it("한 해에 몰린 작품도 자리를 나눠 갖는다", () => {
-    const lons = shelfLongitudes([1910, 1910, 1910], volumeWidth(3) * VOL_AIR);
-    const sorted = [...lons].sort((a, b) => a - b);
-    for (let i = 1; i < sorted.length; i++)
-      expect(sorted[i]! - sorted[i - 1]!).toBeGreaterThan(0);
-  });
-
-  it("눈금은 같은 사상을 통과한다 — 밀린 구간에서 눈금도 같이 밀린다", () => {
-    const minGap = volumeWidth(KAFKA.length) * VOL_AIR;
-    const lons = shelfLongitudes(KAFKA, minGap);
-    const pairs = KAFKA.map((y, i) => [y, lons[i]!] as const);
-    // 작품 연도에 놓인 눈금은 그 작품의 경도와 정확히 같다
-    KAFKA.forEach((y, i) => expect(yearToLon(y, pairs)).toBeCloseTo(lons[i]!, 9));
-    // 사이의 눈금은 두 작품 사이에 단조롭게 놓인다
-    expect(yearToLon(1920, pairs)).toBeGreaterThan(yearToLon(1919, pairs));
-    expect(yearToLon(1920, pairs)).toBeLessThan(yearToLon(1925, pairs));
-    // 범위 밖은 끝값에 붙는다 — 축 밖으로 새지 않는다
-    expect(yearToLon(1800, pairs)).toBe(lons[0]!);
-    expect(yearToLon(2100, pairs)).toBe(lons[4]!);
-  });
-
-  it("눈금 단위는 3~6개가 놓이도록 고른다", () => {
-    for (const [lo, hi] of [
-      [1913, 1926],
-      [1892, 1917],
-      [1900, 2000],
-      [1910, 1912]
-    ] as const) {
-      const step = shelfTickStep(lo, hi);
-      const n = Math.floor(hi / step) - Math.ceil(lo / step) + 1;
-      expect(n).toBeLessThanOrEqual(6);
-    }
+  it("책 앵커는 그 책의 발표 연도로 해상된다 — 모르는 책은 연도로 물러난다", () => {
+    const yearOf = (id: string) => ({ "a--w1": 1915 })[id];
+    expect(anchorYearOf({ workId: "a--w1", year: 1947 }, yearOf)).toBe(1915);
+    expect(anchorYearOf({ workId: "a--nope", year: 1947 }, yearOf)).toBe(1947);
+    expect(anchorYearOf({ year: 1913 }, yearOf)).toBe(1913);
+    expect(anchorYearOf({ workId: "a--nope" }, yearOf)).toBeUndefined();
   });
 
   it("판형은 세로로 길고 두께는 상수다 — 쪽수를 갖고 있지 않으므로", () => {
