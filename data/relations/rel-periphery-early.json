@@ -131,15 +131,19 @@
     "type": "mentorship",
     "direction": "directed",
     "weight": 0.75,
-    "summary": "예이츠는 타고르가 스스로 영역한 『Song Offerings』(1912) 초판에 서문을 쓰고 런던 문단에 그를 소개했으며, 이듬해의 노벨문학상 수상은 이 통로를 거쳤다. 문학적 사사가 아니라 영어권 진입을 매개한 편집자적 후원으로 기록한다.",
+    "summary": "예이츠는 타고르가 스스로 영역한 『Song Offerings』(1912) 초판에 서문을 쓰고 런던 문단에 그를 소개했으며, 이듬해의 노벨문학상 수상은 이 통로를 거쳤다. 그 선집에 들어간 53편은 벵골어 『기탄잘리』(1910)에서 온 것이지만 두 책의 수록 구성은 같지 않다 — 영어권이 만난 타고르는 그가 스스로 고르고 다시 쓴 판본이었다. 문학적 사사가 아니라 영어권 진입을 매개한 편집자적 후원으로 기록한다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--gitanjali-song-offerings-1912",
+      "src--bnwiki-gitanjali",
       "src--nobelprize"
     ],
     "anchors": [
       {
         "year": 1912
+      },
+      {
+        "workId": "rabindranath-tagore--gitanjali"
       }
     ]
   },

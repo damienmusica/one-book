@@ -7,7 +7,7 @@
 //   npm run terrain:plate -- --R0 0.12 --tau 0.5 --warp 0.1
 //   npm run terrain:plate -- --freeze        # also freeze data/territory.v1.json
 
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { assembleDataset } from "../src/data/assemble.ts";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
@@ -267,6 +267,36 @@ if (FREEZE) {
     process.exit(1);
   }
   const tOut = join(PKG_ROOT, "data", "territory.v1.json");
+  // **얼어 있는 것은 지형이 아니라 파라미터다.** validate-data 는 작품이 늘면
+  // "re-bake territory" 를 시키는데, 이 생성기의 DEFAULT_PARAMS 는 동결 당시의
+  // 값이 아니다(동결 R0 0.085·tau 0.62·warp 0.12 vs 기본 0.11·0.5·0.1). 그래서
+  // 시키는 대로 `--freeze` 만 돌리면 **다른 행성이 덮어써진다** — 실측:
+  // landFraction 0.3229 → 0.6675, 소유권 셀 전면 재배치. 작품 한 편을 더한
+  // 사람이 대륙을 갈아엎게 두지 않는다. 기존 동결본이 있으면 그 params 와
+  // 대조하고, 다르면 **거부하고 정확한 명령을 알려 준다**(--force-params 로만 뚫린다).
+  if (existsSync(tOut) && !process.argv.includes("--force-params")) {
+    const prev = JSON.parse(readFileSync(tOut, "utf8")) as {
+      params?: Record<string, unknown>;
+    };
+    const pp = prev.params ?? {};
+    const drift = (["R0", "tau", "warpAmp", "warpFreq", "warpOctaves"] as const).filter(
+      (k) => pp[k] !== undefined && pp[k] !== params[k]
+    );
+    if (drift.length) {
+      console.error(
+        `freeze aborted — 동결본과 파라미터가 다르다: ${drift
+          .map((k) => `${k} ${String(pp[k])} → ${String(params[k])}`)
+          .join(" · ")}`
+      );
+      console.error(
+        `  같은 행성을 다시 구우려면: npm run terrain:plate -- --freeze --R0 ${String(
+          pp.R0
+        )} --tau ${String(pp.tau)} --warp ${String(pp.warpAmp)}`
+      );
+      console.error("  의도적으로 새 행성을 구우려면 --force-params 를 붙인다.");
+      process.exit(1);
+    }
+  }
   writeFileSync(tOut, out + "\n");
   console.log(`frozen: ${tOut} (${(out.length / 1024).toFixed(0)} KB)`);
 }
