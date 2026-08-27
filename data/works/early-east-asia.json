@@ -7,7 +7,10 @@
     "year": 1892,
     "genre": "fiction",
     "significance": "카불에서 온 행상과 캘커타 소녀의 짧은 교류로 이방인과 아버지의 시간을 겹쳐 놓는다. 잡지 연재로 쓰인 1890년대 단편 연작 가운데 가장 널리 읽힌 편이며, 벵골어 단편소설이 하나의 형식으로 자리 잡는 과정을 보여준다.",
-    "sourceIds": ["src--britannica", "src--rabindra-bhavana"]
+    "sourceIds": [
+      "src--britannica",
+      "src--rabindra-bhavana"
+    ]
   },
   {
     "id": "rabindranath-tagore--gitanjali",
@@ -21,7 +24,29 @@
       "src--nobelprize",
       "src--gitanjali-song-offerings-1912",
       "src--rabindra-bhavana"
-    ]
+    ],
+    "world": {
+      "opening": {
+        "original": "আমার মাথা নত করে দাও হে তোমার চরণ-ধূলার তলে।",
+        "ko": "내 머리를 숙이게 하소서, 당신의 발티끌 아래로.",
+        "translation": "self",
+        "sourceId": "src--bnwikisource-gitanjali-1913"
+      },
+      "written": "1908–09년 여러 잡지에 흩어져 실린 시들을 묶었다",
+      "editions": [
+        {
+          "kind": "first-edition",
+          "publisher": "ইন্ডিয়ান পাবলিশিং হাউস (인디언 퍼블리싱 하우스)",
+          "place": "কলকাতা (콜카타)",
+          "year": 1910,
+          "month": 9,
+          "note": "9월 5일(벵골력 1317년 바드로월) 간행 · 사티시찬드라 미트라 발행 · 칸틱 프레스의 모틸랄 강고파디아이 인쇄 · 전 157편",
+          "sourceIds": [
+            "src--bnwiki-gitanjali"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "rabindranath-tagore--gora",
@@ -31,7 +56,10 @@
     "year": 1910,
     "genre": "fiction",
     "significance": "힌두 정통주의를 열렬히 옹호하던 청년이 자신의 출생 내력을 알게 되는 구성으로, 종교·카스트·민족이 어떻게 한 사람의 정체성으로 굳는지를 논쟁 그 자체를 서사로 삼아 다룬다. 타고르의 장편 가운데 가장 규모가 크다.",
-    "sourceIds": ["src--britannica", "src--rabindra-bhavana"]
+    "sourceIds": [
+      "src--britannica",
+      "src--rabindra-bhavana"
+    ]
   },
   {
     "id": "rabindranath-tagore--dak-ghar",
@@ -41,7 +69,31 @@
     "year": 1912,
     "genre": "drama",
     "significance": "방에 갇힌 병든 아이가 오지 않는 편지를 기다리는 단막에 가까운 희곡으로, 사건 대신 기다림의 시간만으로 무대를 지탱한다. 타고르 희곡 가운데 여러 언어로 가장 자주 상연된 작품이다.",
-    "sourceIds": ["src--britannica", "src--rabindra-bhavana"]
+    "sourceIds": [
+      "src--britannica",
+      "src--rabindra-bhavana"
+    ],
+    "world": {
+      "opening": {
+        "original": "মুস্কিলে পড়ে গেছি। যখন ও ছিল না, তখন ছিলই না—কোনো ভাবনাই ছিল না।",
+        "ko": "난처하게 됐습니다. 저 아이가 없을 때는 아예 없었으니, 아무 걱정도 없었지요.",
+        "translation": "self",
+        "sourceId": "src--bnwikisource-dakghar"
+      },
+      "editions": [
+        {
+          "kind": "first-edition",
+          "publisher": "ইণ্ডিয়ান্ পাব্লিশিং হাউস (인디언 퍼블리싱 하우스)",
+          "place": "কলিকাতা (콜카타) 콘월리스가 22번지",
+          "year": 1912,
+          "note": "발행처와 주소는 위키문헌 스캔의 판권장에서 직접 읽었고(발행 마닐랄 강고파디아이 · 인쇄 칸틱 프레스), 연도는 벵골어 위키백과가 밝힌 1912년이다 — 판권장에는 연도 표기가 없다",
+          "sourceIds": [
+            "src--bnwikisource-dakghar",
+            "src--bnwiki-dakghar"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "rabindranath-tagore--ghare-baire",
@@ -51,7 +103,10 @@
     "year": 1916,
     "genre": "fiction",
     "significance": "지주와 그의 아내, 스와데시 운동가 세 사람이 각자의 1인칭으로 번갈아 서술하는 구성으로, 같은 사건에 대한 세 개의 도덕적 계산을 나란히 놓는다. 반식민 운동 내부의 폭력을 운동 바깥이 아니라 안에서 문제 삼은 드문 소설이다.",
-    "sourceIds": ["src--britannica", "src--rabindra-bhavana"]
+    "sourceIds": [
+      "src--britannica",
+      "src--rabindra-bhavana"
+    ]
   },
   {
     "id": "rabindranath-tagore--nationalism",
@@ -61,7 +116,32 @@
     "year": 1917,
     "genre": "essay-criticism",
     "significance": "일본과 미국에서 한 강연을 묶은 영어 논설집으로, 제국을 비판하면서 동시에 그에 맞서는 민족국가라는 형식 자체를 의심한다. 식민지 지식인이 독립의 목표를 국가로 두지 않을 수 있음을 보여준 텍스트다.",
-    "sourceIds": ["src--britannica", "src--rabindra-bhavana"]
+    "sourceIds": [
+      "src--britannica",
+      "src--rabindra-bhavana"
+    ],
+    "world": {
+      "opening": {
+        "original": "Man's history is being shaped according to the difficulties it encounters.",
+        "ko": "인간의 역사는 그것이 부딪치는 어려움에 따라 빚어진다.",
+        "translation": "self",
+        "sourceId": "src--enwikisource-nationalism-1917"
+      },
+      "written": "1916–17년 일본과 미국 순회 강연 원고를 묶었다 — 첫 글이 「Nationalism in the West」 다",
+      "editions": [
+        {
+          "kind": "first-edition",
+          "publisher": "The Macmillan Company",
+          "place": "New York",
+          "year": 1917,
+          "month": 9,
+          "note": "판권장 표기 'Published September, 1917' · 저작권은 The Atlantic Monthly Company(1917)와 The Macmillan Company(1916·1917)가 나란히 · 인쇄 Norwood Press",
+          "sourceIds": [
+            "src--enwikisource-nationalism-1917"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "natsume-soseki--wagahai-wa-neko-de-aru",
@@ -71,7 +151,45 @@
     "year": 1905,
     "genre": "fiction",
     "significance": "이름 없는 고양이를 화자로 세워 메이지 지식인 사회를 관찰하게 한 연재물로, 소세키의 문단 데뷔작이다. 한문 전거와 라쿠고의 구어 리듬을 한 문장 안에서 쓰는 그의 산문이 처음 완성된 형태로 나타난다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ],
+    "world": {
+      "opening": {
+        "original": "吾輩は猫である。名前はまだ無い。",
+        "ko": "나는 고양이로소이다. 이름은 아직 없다.",
+        "translation": "self",
+        "sourceId": "src--aozora-soseki-wagahai"
+      },
+      "written": "1904년 12월, 다카하마 교시의 문장회 '야마카이(山会)'에서 단발 단편으로 낭독 — 호평에 힘입어 열한 차례 연재로 이어졌다",
+      "editions": [
+        {
+          "kind": "first-printing",
+          "venue": "俳句 잡지 「ホトトギス」",
+          "publisher": "ホトトギス発行所",
+          "place": "東京",
+          "year": 1905,
+          "month": 1,
+          "note": "1905년 1월호에 단발로 실린 뒤 1906년 8월까지 전 11회 연재",
+          "sourceIds": [
+            "src--aozora-soseki-wagahai",
+            "src--jawiki-wagahai"
+          ]
+        },
+        {
+          "kind": "first-edition",
+          "publisher": "大倉書店·服部書店",
+          "place": "東京",
+          "year": 1905,
+          "month": 10,
+          "note": "3분책 — 上 1905.10.6 · 中 1906.11.4 · 下 1907.5.19 (표제 표기 『吾輩ハ猫デアル』)",
+          "sourceIds": [
+            "src--jawiki-wagahai"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "natsume-soseki--botchan",
@@ -81,7 +199,44 @@
     "year": 1906,
     "genre": "fiction",
     "significance": "지방 중학교에 부임한 도쿄 출신 교사의 좌충우돌을 속도감 있는 1인칭 구어로 서술한다. 소세키가 시코쿠에서 교사로 일한 경험이 바탕이며, 일본에서 가장 널리 읽힌 근대소설로 남았다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ],
+    "world": {
+      "opening": {
+        "original": "親譲りの無鉄砲で小供の時から損ばかりしている。",
+        "ko": "부모에게서 물려받은 무모함 탓에 어릴 적부터 손해만 보고 산다.",
+        "translation": "self",
+        "sourceId": "src--aozora-soseki-botchan"
+      },
+      "written": "열흘이 채 안 되어 탈고했다",
+      "editions": [
+        {
+          "kind": "first-printing",
+          "venue": "俳句 잡지 「ホトトギス」",
+          "publisher": "ホトトギス発行所",
+          "place": "東京",
+          "year": 1906,
+          "month": 4,
+          "sourceIds": [
+            "src--aozora-soseki-botchan"
+          ]
+        },
+        {
+          "kind": "first-edition",
+          "venue": "단편집 『鶉籠』",
+          "publisher": "春陽堂",
+          "place": "東京",
+          "year": 1907,
+          "month": 1,
+          "note": "1907년 1월 1일 발행 — 단독 단행본이 아니라 『二百十日』·『草枕』 와 묶인 합본이었다",
+          "sourceIds": [
+            "src--jawiki-botchan"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "natsume-soseki--bungakuron",
@@ -91,7 +246,33 @@
     "year": 1907,
     "genre": "essay-criticism",
     "significance": "런던 유학기의 독서와 도쿄제국대학 강의를 정리한 이론서로, 문학의 작동을 (F+f)라는 인지·정서의 결합으로 설명하려 했다. 영문학의 평가 기준을 빌리지 않고 문학 일반의 원리를 세우려 한 시도라는 점에서 소세키 비평의 출발점이다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ],
+    "world": {
+      "opening": {
+        "original": "余はこの書を公けにするにあたつて、この書が如何なる動機のもとに萌芽し、如何なる機縁のもとに講義となり、今また如何なる事故のために出版せらるるかを述ぶるの必要あるを信ず。",
+        "ko": "나는 이 책을 세상에 내놓으며, 이 책이 어떤 동기에서 싹텄고 어떤 인연으로 강의가 되었으며 지금 또 어떤 사정으로 출판되는지를 서술할 필요가 있다고 믿는다.",
+        "translation": "self",
+        "sourceId": "src--aozora-soseki-bungakuron-jo"
+      },
+      "written": "1900년 영국 유학 명령에서 시작해 귀국 뒤 도쿄제국대학 강의로 이어진 원고 — 서(序)가 그 경위를 처음부터 끝까지 직접 서술한다",
+      "editions": [
+        {
+          "kind": "first-edition",
+          "publisher": "大倉書店",
+          "place": "東京",
+          "year": 1907,
+          "month": 5,
+          "sourceIds": [
+            "src--ndl-bungakuron-1907",
+            "src--aozora-soseki-bungakuron-jo"
+          ],
+          "note": "강의 원고를 묶은 단행본 — 『문학론』은 연재된 적이 없고, 서(序)만 1906년 11월 4일 「読売新聞」 지면에 먼저 실렸다"
+        }
+      ]
+    }
   },
   {
     "id": "natsume-soseki--sanshiro",
@@ -101,7 +282,43 @@
     "year": 1908,
     "genre": "fiction",
     "significance": "규슈에서 상경한 대학 신입생이 도쿄의 학문과 연애와 계층을 차례로 통과하는 성장소설이며, 이른바 전기 3부작의 첫 권이다. 아사히신문 연재 소설이 문학의 중심 형식이 된 시기를 대표한다.",
-    "sourceIds": ["src--soseki-asahi-serialization", "src--aozora-bunko"]
+    "sourceIds": [
+      "src--soseki-asahi-serialization",
+      "src--aozora-bunko"
+    ],
+    "world": {
+      "opening": {
+        "original": "うとうととして目がさめると女はいつのまにか、隣のじいさんと話を始めている。",
+        "ko": "깜빡 졸다 눈을 뜨니 여자는 어느새 옆자리 노인과 이야기를 시작하고 있었다.",
+        "translation": "self",
+        "sourceId": "src--aozora-soseki-sanshiro"
+      },
+      "editions": [
+        {
+          "kind": "first-printing",
+          "venue": "「朝日新聞」 연재",
+          "publisher": "朝日新聞社",
+          "place": "東京",
+          "year": 1908,
+          "month": 9,
+          "note": "1908년 9월 1일–12월 29일",
+          "sourceIds": [
+            "src--aozora-soseki-sanshiro",
+            "src--jawiki-sanshiro"
+          ]
+        },
+        {
+          "kind": "first-edition",
+          "publisher": "春陽堂",
+          "place": "東京",
+          "year": 1909,
+          "month": 5,
+          "sourceIds": [
+            "src--jawiki-sanshiro"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "natsume-soseki--sorekara",
@@ -111,7 +328,43 @@
     "year": 1909,
     "genre": "fiction",
     "significance": "일하지 않고 집안의 돈으로 사는 남자가 친구에게 양보했던 여자를 다시 선택하며 생계와 사회적 위치를 함께 잃는다. 개인의 윤리적 선택이 곧 경제적 파산이 되는 구조를 소세키가 가장 냉정하게 계산한 작품이다.",
-    "sourceIds": ["src--soseki-asahi-serialization", "src--aozora-bunko"]
+    "sourceIds": [
+      "src--soseki-asahi-serialization",
+      "src--aozora-bunko"
+    ],
+    "world": {
+      "opening": {
+        "original": "誰か慌たゞしく門前を馳けて行く足音がした時、代助の頭の中には、大きな俎下駄が空から、ぶら下つてゐた。",
+        "ko": "누군가 황망히 문 앞을 달려가는 발소리가 났을 때, 다이스케의 머릿속에는 커다란 도마 같은 게다가 하늘에서 매달려 있었다.",
+        "translation": "self",
+        "sourceId": "src--aozora-soseki-sorekara"
+      },
+      "editions": [
+        {
+          "kind": "first-printing",
+          "venue": "「東京朝日新聞」·「大阪朝日新聞」 동시 연재",
+          "publisher": "朝日新聞社",
+          "place": "東京·大阪",
+          "year": 1909,
+          "month": 6,
+          "note": "1909년 6월 27일 연재 개시",
+          "sourceIds": [
+            "src--aozora-soseki-sorekara",
+            "src--jawiki-sorekara"
+          ]
+        },
+        {
+          "kind": "first-edition",
+          "publisher": "春陽堂",
+          "place": "東京",
+          "year": 1910,
+          "month": 1,
+          "sourceIds": [
+            "src--jawiki-sorekara"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "natsume-soseki--kokoro",
@@ -121,7 +374,46 @@
     "year": 1914,
     "genre": "fiction",
     "significance": "청년의 회상과 '선생님'의 긴 유서를 이어 붙인 3부 구성으로, 친구를 배신한 기억을 평생 안고 산 한 사람의 계산을 뒤늦게 공개한다. 메이지 천황의 죽음과 노기 마레스케의 순사를 개인의 결심에 연결해, 한 시대의 종언을 사적인 죄의식으로 번역했다.",
-    "sourceIds": ["src--soseki-asahi-serialization", "src--aozora-bunko", "src--kr-world-lit-editions"]
+    "sourceIds": [
+      "src--soseki-asahi-serialization",
+      "src--aozora-bunko",
+      "src--kr-world-lit-editions"
+    ],
+    "world": {
+      "opening": {
+        "original": "私はその人を常に先生と呼んでいた。",
+        "ko": "나는 그 사람을 늘 선생님이라고 불렀다.",
+        "translation": "self",
+        "sourceId": "src--aozora-soseki-kokoro"
+      },
+      "written": "노기 마레스케의 순사(1912)에 영향을 받아 썼다",
+      "editions": [
+        {
+          "kind": "first-printing",
+          "venue": "「朝日新聞」 연재 (연재 제목 「心 先生の遺書」)",
+          "publisher": "朝日新聞社",
+          "place": "東京",
+          "year": 1914,
+          "month": 4,
+          "note": "1914년 4월 20일–8월 11일 · 전 56회",
+          "sourceIds": [
+            "src--aozora-soseki-kokoro",
+            "src--jawiki-kokoro"
+          ]
+        },
+        {
+          "kind": "first-edition",
+          "publisher": "岩波書店",
+          "place": "東京",
+          "year": 1914,
+          "month": 9,
+          "note": "9월 20일 간행 · 소세키 자신의 장정 · 이와나미쇼텐이 출판사로서 본격 발간한 첫 소설",
+          "sourceIds": [
+            "src--jawiki-kokoro"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "lu-xun--kuangren-riji",
@@ -131,7 +423,10 @@
     "year": 1918,
     "genre": "fiction",
     "significance": "『신청년』에 실린 중국 최초의 본격 백화 단편으로, 문언으로 쓴 서문이 백화로 쓴 일기를 감싸는 이중 구조를 취한다. 유교 도덕의 기록을 '사람을 잡아먹는' 문서로 읽어내는 화자를 세워, 전통의 정당성 자체를 서술 형식으로 심문했다. 1923년 첫 소설집 『외침』에 수록되었다.",
-    "sourceIds": ["src--xinqingnian-1918", "src--lu-xun-quanji"]
+    "sourceIds": [
+      "src--xinqingnian-1918",
+      "src--lu-xun-quanji"
+    ]
   },
   {
     "id": "lu-xun--ah-q-zhengzhuan",
@@ -141,7 +436,10 @@
     "year": 1921,
     "genre": "fiction",
     "significance": "1921년 12월부터 이듬해 2월까지 신문 부간에 연재된 중편으로, 맞고도 이겼다고 기억하는 날품팔이 아Q를 통해 '정신승리법'이라는 진단명을 만들었다. 인물의 이름이 한 사회의 자기인식을 가리키는 보통명사가 된 드문 사례이며, 1923년 『외침』에 수록되었다.",
-    "sourceIds": ["src--chenbao-fukan-1921", "src--lu-xun-quanji"]
+    "sourceIds": [
+      "src--chenbao-fukan-1921",
+      "src--lu-xun-quanji"
+    ]
   },
   {
     "id": "lu-xun--zhongguo-xiaoshuo-shilue",
@@ -151,7 +449,10 @@
     "year": 1923,
     "genre": "essay-criticism",
     "significance": "베이징대학 강의를 정리한 통사로, 문언 정통 바깥에 있던 지괴·전기·화본·백화 장편을 하나의 계보로 처음 배열했다. 천대받던 소설을 학문의 대상으로 세운 저작이며 이후 중국 소설사 연구의 기본 틀이 되었다.",
-    "sourceIds": ["src--lu-xun-quanji", "src--britannica"]
+    "sourceIds": [
+      "src--lu-xun-quanji",
+      "src--britannica"
+    ]
   },
   {
     "id": "lu-xun--panghuang",
@@ -161,7 +462,10 @@
     "year": 1926,
     "genre": "fiction",
     "significance": "두 번째 소설집으로 「축복」, 「고독자」, 「죽음을 슬퍼하며」 등을 묶었다. 계몽의 구호가 걷힌 자리에서 지식인의 무력과 여성의 죽음을 다루며, 『외침』의 공격적 어조가 자기 회의로 바뀌는 지점을 보여준다.",
-    "sourceIds": ["src--lu-xun-quanji", "src--kr-world-lit-editions"]
+    "sourceIds": [
+      "src--lu-xun-quanji",
+      "src--kr-world-lit-editions"
+    ]
   },
   {
     "id": "lu-xun--yecao",
@@ -171,7 +475,9 @@
     "year": 1927,
     "genre": "poetry",
     "significance": "1924년부터 잡지에 흩어 발표한 산문시를 묶은 유일한 시집으로, 꿈·그림자·묘비명 같은 형상으로 자기 부정을 밀고 나간다. 루쉰의 저작 가운데 형식이 가장 실험적이며 소설과 잡문 어디에도 속하지 않는다.",
-    "sourceIds": ["src--lu-xun-quanji"]
+    "sourceIds": [
+      "src--lu-xun-quanji"
+    ]
   },
   {
     "id": "lu-xun--gushi-xinbian",
@@ -181,7 +487,9 @@
     "year": 1936,
     "genre": "fiction",
     "significance": "우 임금·백이숙제·묵자·노자 같은 고대의 인물과 신화를 다시 쓰면서 현대의 말투와 장면을 의도적으로 섞어 넣은 마지막 소설집이다. 고전의 권위를 인용이 아니라 시대착오의 충돌로 해체하는 방법을 썼다.",
-    "sourceIds": ["src--lu-xun-quanji"]
+    "sourceIds": [
+      "src--lu-xun-quanji"
+    ]
   },
   {
     "id": "ryunosuke-akutagawa--rashomon",
@@ -191,7 +499,10 @@
     "year": 1915,
     "genre": "fiction",
     "significance": "『곤자쿠 이야기집』의 짧은 삽화에서 줄거리만 가져와, 굶어 죽을 것인가 도둑이 될 것인가를 앞둔 하인의 결심을 몇 분의 장면으로 압축했다. 고전 설화를 근대 심리의 실험 조건으로 쓰는 아쿠타가와의 방법이 처음 완성된 작품이다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ]
   },
   {
     "id": "ryunosuke-akutagawa--hana",
@@ -201,7 +512,10 @@
     "year": 1916,
     "genre": "fiction",
     "significance": "긴 코를 부끄러워하던 승려가 코가 짧아지자 오히려 사람들의 조롱을 받는 이야기로, 타인의 불행이 회복될 때 느끼는 반감을 사건 하나로 드러낸다. 나쓰메 소세키가 발표 직후 높이 평가한 것이 아쿠타가와의 문단 진입 계기가 되었다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ]
   },
   {
     "id": "ryunosuke-akutagawa--jigokuhen",
@@ -211,7 +525,10 @@
     "year": 1918,
     "genre": "fiction",
     "significance": "지옥도를 그리기 위해 딸이 불타는 광경을 보아야 했던 화가의 이야기로, 예술의 완성이 요구하는 대가를 극단까지 밀어붙인다. 사건을 목격자의 회고로만 전달해 화가의 내면을 끝내 비워 두는 서술이 특징이다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ]
   },
   {
     "id": "ryunosuke-akutagawa--yabu-no-naka",
@@ -221,7 +538,10 @@
     "year": 1922,
     "genre": "fiction",
     "significance": "하나의 살인을 두고 관련자들의 진술만을 차례로 나열하고 어느 것이 사실인지 판정하지 않는다. 서술의 신빙성 문제를 소설의 주제로 세운 구조이며, '어느 쪽 말이 맞는지 알 수 없는 상태'를 가리키는 관용구를 남겼다.",
-    "sourceIds": ["src--aozora-bunko", "src--kr-world-lit-editions"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--kr-world-lit-editions"
+    ]
   },
   {
     "id": "ryunosuke-akutagawa--kappa",
@@ -232,7 +552,10 @@
     "genre": "fiction",
     "speculative": true,
     "significance": "정신병원 환자가 갓파의 나라에서 겪었다고 말하는 견문기 형식의 풍자로, 출산과 노동과 예술의 제도를 뒤집어 놓은 사회를 그린다. 일본 근대문학에서 사변적 설정을 사회 비판의 장치로 쓴 이른 사례다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ]
   },
   {
     "id": "ryunosuke-akutagawa--haguruma",
@@ -242,7 +565,10 @@
     "year": 1927,
     "genre": "fiction",
     "significance": "시야에 반투명한 톱니바퀴가 나타나는 증상을 비롯해 붕괴하는 감각을 단절된 여섯 절로 기록한 만년작으로, 자살한 해에 사후 발표되었다. 고전 설화를 재구성하던 초기 방법을 버리고 자기 자신을 관찰 대상으로 삼은 마지막 국면을 보여준다.",
-    "sourceIds": ["src--aozora-bunko", "src--britannica"]
+    "sourceIds": [
+      "src--aozora-bunko",
+      "src--britannica"
+    ]
   },
   {
     "id": "yi-sang--geonchuk-muhan-yukmyeon-gakche",
@@ -252,7 +578,10 @@
     "year": 1932,
     "genre": "poetry",
     "significance": "조선건축회 기관지에 일본어로 발표한 연작으로, 수식과 기하 용어와 광고 문안을 시행으로 끌어들였다. 한국어 시로 알려진 이상의 실험이 실은 일본어 지면에서 먼저 시작되었음을 보여주는 초기 작업이다.",
-    "sourceIds": ["src--joseon-to-kenchiku", "src--encykorea"]
+    "sourceIds": [
+      "src--joseon-to-kenchiku",
+      "src--encykorea"
+    ]
   },
   {
     "id": "yi-sang--ogamdo",
@@ -262,7 +591,10 @@
     "year": 1934,
     "genre": "poetry",
     "significance": "신문 문예란에 실린 연작시로, 띄어쓰기를 없앤 행과 숫자표, 좌우가 뒤집힌 활자를 인쇄 지면 그대로 밀어붙였다. 독자 항의로 15편에서 연재가 중단된 사건 자체가 한국 근대시에서 형식 실험이 부딪힌 한계를 기록으로 남겼다.",
-    "sourceIds": ["src--joseon-jungang-ilbo-1934", "src--encykorea"]
+    "sourceIds": [
+      "src--joseon-jungang-ilbo-1934",
+      "src--encykorea"
+    ]
   },
   {
     "id": "yi-sang--nalgae",
@@ -272,7 +604,10 @@
     "year": 1936,
     "genre": "fiction",
     "significance": "아내가 벌어 오는 돈으로 살며 방 안에서 시간을 소비하는 화자의 하루를 기록한다. 서두의 아포리즘과 본문의 서사가 서로를 배신하도록 배치되어, 식민지 지식인의 무능이 설명되지 않은 채 구조로 제시된다.",
-    "sourceIds": ["src--encykorea", "src--lti-korea"]
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea"
+    ]
   },
   {
     "id": "yi-sang--jongsaenggi",
@@ -282,7 +617,10 @@
     "year": 1937,
     "genre": "fiction",
     "significance": "자기 죽음을 미리 기술하는 형식을 취해 화자와 작가와 인물의 경계를 겹쳐 놓은 후기작으로, 도쿄에서 죽은 해에 사후 발표되었다. 소설을 이야기가 아니라 자기 문장에 대한 주석으로 쓰는 방향의 끝에 있다.",
-    "sourceIds": ["src--encykorea", "src--lti-korea"]
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea"
+    ]
   },
   {
     "id": "yi-sang--gwontae",
@@ -292,7 +630,10 @@
     "year": 1937,
     "genre": "essay-criticism",
     "significance": "여름 농촌에 머물며 아무 일도 일어나지 않는 하루를 관찰한 수필로, 사후 신문에 발표되었다. 실험적 표기를 걷어낸 평이한 문장에서도 이상 특유의 시간 감각이 유지된다는 점에서 그의 산문을 이해하는 입구가 된다.",
-    "sourceIds": ["src--encykorea", "src--lti-korea"]
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea"
+    ]
   },
   {
     "id": "kim-sowol--jindallaekkot",
@@ -302,7 +643,10 @@
     "year": 1925,
     "genre": "poetry",
     "significance": "생전에 낸 유일한 시집으로 표제작을 비롯한 대표작 대부분이 여기 실렸다. 민요의 3음보와 7·5조를 인쇄된 자유시의 행갈이로 옮겨, 이별을 견디는 화자의 어조를 한국어 서정시의 기준 음역으로 고정했다.",
-    "sourceIds": ["src--encykorea", "src--lti-korea"]
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea"
+    ]
   },
   {
     "id": "kim-sowol--chohon",
@@ -312,7 +656,9 @@
     "year": 1925,
     "genre": "poetry",
     "significance": "죽은 이의 이름을 부르는 전통 상례의 절차를 시의 형식으로 삼아, 부름이 끝내 닿지 않는 구조를 반복으로 만든다. 『진달래꽃』 수록작 가운데 상실의 어조가 가장 격한 편이다.",
-    "sourceIds": ["src--encykorea"]
+    "sourceIds": [
+      "src--encykorea"
+    ]
   },
   {
     "id": "kim-sowol--sanyuhwa",
@@ -322,7 +668,9 @@
     "year": 1925,
     "genre": "poetry",
     "significance": "피고 지는 산의 꽃을 사람의 사연 없이 그대로 서술해, 소월의 시가 감정의 토로만이 아니라 거리를 둔 관찰로도 성립함을 보여준다. 짧은 행과 반복만으로 계절의 순환을 구성한다.",
-    "sourceIds": ["src--encykorea"]
+    "sourceIds": [
+      "src--encykorea"
+    ]
   },
   {
     "id": "kim-sowol--sihon",
@@ -332,7 +680,10 @@
     "year": 1925,
     "genre": "essay-criticism",
     "significance": "잡지 『개벽』에 실은 시론으로, 시의 값이 소재의 크기가 아니라 '혼'의 깊이에 있다고 주장하며 자기 시의 원리를 직접 정식화했다. 소월이 남긴 유일한 본격 비평문이다.",
-    "sourceIds": ["src--gaebyeok", "src--encykorea"]
+    "sourceIds": [
+      "src--gaebyeok",
+      "src--encykorea"
+    ]
   },
   {
     "id": "kim-sowol--sowol-sicho",
@@ -342,7 +693,10 @@
     "year": 1939,
     "genre": "poetry",
     "significance": "스승 김억이 소월 사후에 엮은 선집으로, 흩어져 있던 잡지 발표작을 함께 묶었다. 소월의 정전이 사후에 어떤 손을 거쳐 만들어졌는지를 보여주는 판본이다.",
-    "sourceIds": ["src--encykorea", "src--lti-korea"]
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea"
+    ]
   },
   {
     "id": "han-yong-un--joseon-bulgyo-yusinnon",
@@ -352,7 +706,9 @@
     "year": 1913,
     "genre": "essay-criticism",
     "significance": "조선 불교의 교육·의례·승려 결혼·사찰 운영을 항목별로 비판하고 개혁안을 제시한 논설이다. 종교 개혁의 언어로 근대의 제도 문제를 다룬 저작이며, 만해의 사유가 시로 옮겨 가기 전의 논리를 보여준다.",
-    "sourceIds": ["src--encykorea"]
+    "sourceIds": [
+      "src--encykorea"
+    ]
   },
   {
     "id": "han-yong-un--bulgyo-daejeon",
@@ -362,7 +718,9 @@
     "year": 1914,
     "genre": "essay-criticism",
     "significance": "방대한 불교 경전에서 구절을 뽑아 주제별로 다시 배열한 편찬서로, 경전을 신앙의 대상이 아니라 읽고 인용할 수 있는 텍스트로 재편했다. 『님의 침묵』의 역설 구문이 어디에서 왔는지를 보여주는 자료다.",
-    "sourceIds": ["src--encykorea"]
+    "sourceIds": [
+      "src--encykorea"
+    ]
   },
   {
     "id": "han-yong-un--joseon-dongnibui-seo",
@@ -372,7 +730,10 @@
     "year": 1919,
     "genre": "essay-criticism",
     "significance": "3·1운동으로 수감된 뒤 옥중에서 쓴 논설로, 자유와 평화를 근거로 독립의 정당성을 논증한다. 법정 진술을 대신하는 글이라는 조건이 문장의 구조를 결정한 사례이며, 만해 산문 가운데 논리가 가장 밀도 높다.",
-    "sourceIds": ["src--encykorea", "src--lti-korea"]
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea"
+    ]
   },
   {
     "id": "han-yong-un--nimui-chimmuk",
@@ -382,7 +743,11 @@
     "year": 1926,
     "genre": "poetry",
     "significance": "한 권 전체가 '님'을 향한 발화로 이어지는 연작 시집이다. '님'을 연인·부처·잃어버린 주권 어느 하나로 확정하지 않는 설계 덕분에, 검열 아래에서 연가와 종교시와 정치적 발화가 같은 문장을 공유할 수 있었다.",
-    "sourceIds": ["src--nimui-chimmuk-1926", "src--encykorea", "src--lti-korea"]
+    "sourceIds": [
+      "src--nimui-chimmuk-1926",
+      "src--encykorea",
+      "src--lti-korea"
+    ]
   },
   {
     "id": "premchand--sevasadan",
@@ -392,7 +757,9 @@
     "year": 1918,
     "genre": "fiction",
     "significance": "제목은 '봉사의 집'을 뜻한다. 결혼 제도와 지참금이 여성을 어디로 밀어내는지를 도시의 성매매 문제와 연결한 첫 힌디 장편으로, 우르두판과 힌디판이 따로 존재한다.",
-    "sourceIds": ["src--britannica"]
+    "sourceIds": [
+      "src--britannica"
+    ]
   },
   {
     "id": "premchand--rangbhoomi",
@@ -402,7 +769,9 @@
     "year": 1925,
     "genre": "fiction",
     "significance": "제목은 '싸움터'를 뜻한다. 앞을 못 보는 걸인이 공장 부지로 수용되려는 자기 땅을 끝까지 지키는 이야기로, 산업화와 토지 수탈을 한 사람의 저항으로 좁혀 서술한 프렘찬드 최대 규모의 장편이다.",
-    "sourceIds": ["src--britannica"]
+    "sourceIds": [
+      "src--britannica"
+    ]
   },
   {
     "id": "premchand--kafan",
@@ -412,7 +781,10 @@
     "year": 1936,
     "genre": "fiction",
     "significance": "해산 중에 죽어 가는 며느리를 두고 밖에 앉아 감자를 굽던 부자가 장례비로 걷은 돈을 술로 쓰는 이야기다. 도덕적 논평을 완전히 걷어낸 마지막 단편으로, 초기의 계몽적 어조가 어디까지 갔는지를 보여준다.",
-    "sourceIds": ["src--britannica", "src--kr-world-lit-editions"]
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ]
   },
   {
     "id": "premchand--godan",
@@ -422,7 +794,10 @@
     "year": 1936,
     "genre": "fiction",
     "significance": "제목은 '소의 헌납'을 뜻한다. 소 한 마리를 갖고 싶었던 소작농 호리가 빚과 벌금과 관습적 지출로 무너지는 과정을 계절의 순환에 맞춰 서술한 마지막 완성 장편이며, 인도 농촌소설의 기준 텍스트로 남았다.",
-    "sourceIds": ["src--britannica", "src--kr-world-lit-editions"]
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ]
   },
   {
     "id": "premchand--sahitya-ka-uddeshya",
@@ -432,6 +807,8 @@
     "year": 1936,
     "genre": "essay-criticism",
     "significance": "전인도 진보작가협회 창립대회의 의장 연설문으로, 문학을 오락이나 장식이 아니라 현실을 심판하는 척도로 규정했다. 죽기 몇 달 전의 발언이며 이후 인도 진보주의 문학의 강령 문서가 되었다.",
-    "sourceIds": ["src--premchand-pwa-address-1936"]
+    "sourceIds": [
+      "src--premchand-pwa-address-1936"
+    ]
   }
 ]
