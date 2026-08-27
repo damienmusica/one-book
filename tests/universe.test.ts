@@ -732,8 +732,28 @@ describe("relation anchors — the line knows which book and which year", () => 
     ds.relations[0]!.anchors = [{ workId: "a--nope" }];
     ({ errors } = assembleDataset(rawOf(ds)));
     expect(errors.some((e) => e.includes("unknown work"))).toBe(true);
+    // 요약이 그 책과 그 해를 **직접 지목할 때만** 앵커가 선다(아래 계약 참조)
+    ds.relations[0]!.summary =
+      "『작품 1』을 1940년에 옮긴 사실이 이 관계의 근거다. 최소 길이 요건을 채우는 문장이다.";
     ds.relations[0]!.anchors = [{ workId: "a--w1", year: 1940 }];
     ({ errors } = assembleDataset(rawOf(ds)));
     expect(errors.filter((e) => e.includes("anchor"))).toEqual([]);
+  });
+
+  it("요약이 지목하지 않은 책이나 해는 앵커가 될 수 없다 (새 조사가 원장에 새는 것을 막는다)", () => {
+    // 물량 트랙 ②의 규율 — "요약문이 이미 지목하는 책·연도만 승격" — 은 지금까지
+    // 산문으로만 있었다. 승격 웨이브가 189건을 한 번에 올리는 이상, 사람의 주의가
+    // 아니라 검증기가 그것을 지켜야 한다. 카드의 칩은 근거처럼 보이므로,
+    // 요약이 뒷받침하지 않는 칩은 출처 없는 주장이 된다.
+    const a = makeAuthor({ id: "a", deathYear: 1950 });
+    const b = makeAuthor({ id: "b", deathYear: 1960 });
+    const ds = makeDataset([a, b], [makeRelation("a", "b", "documented_influence")]);
+    ds.relations[0]!.anchors = [{ workId: "a--w1" }];
+    let { errors } = assembleDataset(rawOf(ds));
+    expect(errors.some((e) => e.includes("not named in the summary"))).toBe(true);
+
+    ds.relations[0]!.anchors = [{ year: 1940 }];
+    ({ errors } = assembleDataset(rawOf(ds)));
+    expect(errors.some((e) => e.includes("anchor year 1940 is not named"))).toBe(true);
   });
 });

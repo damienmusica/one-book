@@ -33,6 +33,11 @@
     "sourceIds": [
       "src--lu-xun-henan-essays-1907-08",
       "src--lu-xun-quanji"
+    ],
+    "anchors": [
+      {
+        "workId": "friedrich-nietzsche--also-sprach-zarathustra"
+      }
     ]
   },
   {
@@ -66,6 +71,17 @@
     "sourceIds": [
       "src--xiandai-riben-xiaoshuo-ji-1923",
       "src--lu-xun-quanji"
+    ],
+    "anchors": [
+      {
+        "year": 1923
+      },
+      {
+        "workId": "ryunosuke-akutagawa--hana"
+      },
+      {
+        "workId": "ryunosuke-akutagawa--rashomon"
+      }
     ]
   },
   {
@@ -79,6 +95,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--lu-xun-quanji"
+    ],
+    "anchors": [
+      {
+        "year": 1936
+      }
     ]
   },
   {
@@ -93,6 +114,14 @@
     "sourceIds": [
       "src--lu-xun-nora-lecture-1923",
       "src--lu-xun-quanji"
+    ],
+    "anchors": [
+      {
+        "year": 1923
+      },
+      {
+        "workId": "henrik-ibsen--et-dukkehjem"
+      }
     ]
   },
   {
@@ -145,6 +174,14 @@
     "sourceIds": [
       "src--kim-yunsik-kim-hyeon-hanguk-munhaksa",
       "src--encykorea"
+    ],
+    "anchors": [
+      {
+        "workId": "kim-sowol--jindallaekkot"
+      },
+      {
+        "workId": "han-yong-un--nimui-chimmuk"
+      }
     ]
   },
   {
@@ -156,7 +193,15 @@
     "weight": 0.45,
     "summary": "『트릴세』(1922)와 「오감도」(1934)는 각각 스페인어와 한국어의 표기 규약을 인쇄 지면 위에서 깨뜨렸다. 두 사람 사이에 직접 접촉이나 상호 인지의 기록은 없다. 주변부의 시가 중심의 형식을 수입하는 대신 자기 언어의 표기 자체를 재료로 삼은 두 사례로 이 지도가 나란히 놓은 것이다.",
     "evidenceLevel": "editorial_inference",
-    "sourceIds": []
+    "sourceIds": [],
+    "anchors": [
+      {
+        "workId": "cesar-vallejo--trilce"
+      },
+      {
+        "workId": "yi-sang--ogamdo"
+      }
+    ]
   },
   {
     "id": "translation--leo-tolstoy--premchand",
@@ -170,6 +215,11 @@
     "sourceIds": [
       "src--premchand-tolstoy-ki-kahaniyan-1923",
       "src--britannica"
+    ],
+    "anchors": [
+      {
+        "year": 1923
+      }
     ]
   },
   {
@@ -202,6 +252,14 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--gombrowicz-schulz-open-letters-1936"
+    ],
+    "anchors": [
+      {
+        "year": 1936
+      },
+      {
+        "workId": "witold-gombrowicz--ferdydurke"
+      }
     ]
   },
   {
@@ -216,6 +274,17 @@
     "sourceIds": [
       "src--gombrowicz-dziennik",
       "src--gombrowicz-testament"
+    ],
+    "anchors": [
+      {
+        "year": 1939
+      },
+      {
+        "workId": "witold-gombrowicz--dziennik"
+      },
+      {
+        "workId": "witold-gombrowicz--ferdydurke"
+      }
     ]
   },
   {
@@ -241,6 +310,11 @@
     "sourceIds": [
       "src--canetti-broch-rede-1936",
       "src--canetti-das-augenspiel-1985"
+    ],
+    "anchors": [
+      {
+        "year": 1936
+      }
     ]
   },
   {
@@ -254,6 +328,20 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--broch-joyce-und-die-gegenwart-1936"
+    ],
+    "anchors": [
+      {
+        "workId": "hermann-broch--james-joyce-und-die-gegenwart"
+      },
+      {
+        "workId": "james-joyce--ulysses"
+      },
+      {
+        "workId": "hermann-broch--der-tod-des-vergil"
+      },
+      {
+        "year": 1938
+      }
     ]
   },
   {
@@ -267,6 +355,14 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--cambridge-companions"
+    ],
+    "anchors": [
+      {
+        "workId": "robert-musil--der-mann-ohne-eigenschaften"
+      },
+      {
+        "workId": "hermann-broch--die-schlafwandler"
+      }
     ]
   },
   {
@@ -280,6 +376,11 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--cambridge-companions"
+    ],
+    "anchors": [
+      {
+        "workId": "hermann-broch--die-schlafwandler"
+      }
     ]
   },
   {
@@ -293,6 +394,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--canetti-das-augenspiel-1985"
+    ],
+    "anchors": [
+      {
+        "workId": "elias-canetti--die-blendung"
+      }
     ]
   },
   {
@@ -306,6 +412,17 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--canetti-das-augenspiel-1985"
+    ],
+    "anchors": [
+      {
+        "year": 1931
+      },
+      {
+        "year": 1935
+      },
+      {
+        "workId": "elias-canetti--die-blendung"
+      }
     ]
   },
   {
@@ -319,6 +436,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--canetti-die-fackel-im-ohr-1980"
+    ],
+    "anchors": [
+      {
+        "year": 1928
+      }
     ]
   },
   {
@@ -351,6 +473,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--rilke-tsvetaeva-pasternak-1926"
+    ],
+    "anchors": [
+      {
+        "year": 1926
+      }
     ]
   },
   {
@@ -365,6 +492,14 @@
     "sourceIds": [
       "src--tsvetaeva-stikhi-k-akhmatovoy-1916",
       "src--chukovskaya-zapiski"
+    ],
+    "anchors": [
+      {
+        "year": 1916
+      },
+      {
+        "year": 1941
+      }
     ]
   },
   {
@@ -378,6 +513,12 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--tsvetaeva-plavanie-1940"
+    ],
+    "anchors": [
+      {
+        "workId": "charles-baudelaire--les-fleurs-du-mal",
+        "year": 1940
+      }
     ]
   },
   {
@@ -391,6 +532,14 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--tsvetaeva-lorca-translations-1941"
+    ],
+    "anchors": [
+      {
+        "year": 1939
+      },
+      {
+        "year": 1941
+      }
     ]
   },
   {

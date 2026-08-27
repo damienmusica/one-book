@@ -32,6 +32,15 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--borges-hojas-de-hierba-1969"
+    ],
+    "anchors": [
+      {
+        "workId": "walt-whitman--leaves-of-grass",
+        "year": 1969
+      },
+      {
+        "workId": "jorge-luis-borges--otras-inquisiciones"
+      }
     ]
   },
   {
@@ -45,6 +54,16 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--borges-orlando-cuarto-propio-sur"
+    ],
+    "anchors": [
+      {
+        "workId": "virginia-woolf--a-room-of-ones-own",
+        "year": 1936
+      },
+      {
+        "workId": "virginia-woolf--orlando",
+        "year": 1937
+      }
     ]
   },
   {
@@ -58,6 +77,15 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--borges-palmeras-salvajes-1940"
+    ],
+    "anchors": [
+      {
+        "workId": "william-faulkner--absalom-absalom",
+        "year": 1937
+      },
+      {
+        "year": 1940
+      }
     ]
   },
   {
@@ -71,6 +99,12 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--borges-proa-ulises-1925"
+    ],
+    "anchors": [
+      {
+        "workId": "james-joyce--ulysses",
+        "year": 1925
+      }
     ]
   },
   {
@@ -85,6 +119,11 @@
     "sourceIds": [
       "src--borges-historia-de-la-eternidad-1936",
       "src--nietzsche-colli-montinari"
+    ],
+    "anchors": [
+      {
+        "year": 1936
+      }
     ]
   },
   {
@@ -98,6 +137,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--borges-discusion-1932"
+    ],
+    "anchors": [
+      {
+        "year": 1932
+      }
     ]
   },
   {
@@ -111,6 +155,17 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--neruda-confieso-que-he-vivido"
+    ],
+    "anchors": [
+      {
+        "year": 1974
+      },
+      {
+        "workId": "pablo-neruda--canto-general"
+      },
+      {
+        "workId": "walt-whitman--leaves-of-grass"
+      }
     ]
   },
   {
@@ -146,6 +201,20 @@
     "sourceIds": [
       "src--discurso-al-alimon-1933",
       "src--neruda-confieso-que-he-vivido"
+    ],
+    "anchors": [
+      {
+        "year": 1933
+      },
+      {
+        "workId": "pablo-neruda--residencia-en-la-tierra"
+      },
+      {
+        "year": 1936
+      },
+      {
+        "workId": "pablo-neruda--espana-en-el-corazon"
+      }
     ]
   },
   {
@@ -159,6 +228,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--neruda-confieso-que-he-vivido"
+    ],
+    "anchors": [
+      {
+        "year": 1938
+      }
     ]
   },
   {
@@ -187,6 +261,11 @@
     "sourceIds": [
       "src--anales-de-buenos-aires-1946",
       "src--paris-review"
+    ],
+    "anchors": [
+      {
+        "year": 1946
+      }
     ]
   },
   {
@@ -215,6 +294,14 @@
     "sourceIds": [
       "src--cervantes-virtual",
       "src--academia-brasileira-letras"
+    ],
+    "anchors": [
+      {
+        "workId": "joao-guimaraes-rosa--grande-sertao-veredas"
+      },
+      {
+        "workId": "juan-rulfo--pedro-paramo"
+      }
     ]
   },
   {
@@ -228,6 +315,17 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--academia-brasileira-letras"
+    ],
+    "anchors": [
+      {
+        "workId": "joao-guimaraes-rosa--grande-sertao-veredas"
+      },
+      {
+        "workId": "james-joyce--ulysses"
+      },
+      {
+        "workId": "james-joyce--finnegans-wake"
+      }
     ]
   },
   {
@@ -265,6 +363,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--lispector-jornal-do-brasil-cronicas"
+    ],
+    "anchors": [
+      {
+        "workId": "katherine-mansfield--bliss-and-other-stories"
+      }
     ]
   },
   {
@@ -278,6 +381,11 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--academia-brasileira-letras"
+    ],
+    "anchors": [
+      {
+        "workId": "clarice-lispector--perto-do-coracao-selvagem"
+      }
     ]
   },
   {
@@ -291,6 +399,14 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--academia-brasileira-letras"
+    ],
+    "anchors": [
+      {
+        "workId": "clarice-lispector--perto-do-coracao-selvagem"
+      },
+      {
+        "workId": "james-joyce--a-portrait-of-the-artist-as-a-young-man"
+      }
     ]
   },
   {
@@ -304,6 +420,14 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--cervantes-virtual"
+    ],
+    "anchors": [
+      {
+        "workId": "alejo-carpentier--los-pasos-perdidos"
+      },
+      {
+        "workId": "joseph-conrad--heart-of-darkness"
+      }
     ]
   },
   {
@@ -317,6 +441,14 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--achebe-image-of-africa-lecture"
+    ],
+    "anchors": [
+      {
+        "year": 1975
+      },
+      {
+        "workId": "joseph-conrad--heart-of-darkness"
+      }
     ]
   },
   {
@@ -330,6 +462,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--heinemann-african-writers-series"
+    ],
+    "anchors": [
+      {
+        "workId": "chinua-achebe--things-fall-apart"
+      }
     ]
   },
   {
@@ -343,6 +480,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--heinemann-african-writers-series"
+    ],
+    "anchors": [
+      {
+        "workId": "chinua-achebe--no-longer-at-ease"
+      }
     ]
   },
   {
@@ -370,6 +512,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--makerere-conference-1962"
+    ],
+    "anchors": [
+      {
+        "year": 1962
+      }
     ]
   },
   {
@@ -384,6 +531,11 @@
     "sourceIds": [
       "src--soyinka-myth-literature-african-world",
       "src--makerere-conference-1962"
+    ],
+    "anchors": [
+      {
+        "year": 1976
+      }
     ]
   },
   {
@@ -397,6 +549,14 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--soyinka-opera-wonyosi-1977"
+    ],
+    "anchors": [
+      {
+        "workId": "bertolt-brecht--die-dreigroschenoper"
+      },
+      {
+        "year": 1977
+      }
     ]
   },
   {
@@ -422,6 +582,15 @@
     "sourceIds": [
       "src--makerere-conference-1962",
       "src--heinemann-african-writers-series"
+    ],
+    "anchors": [
+      {
+        "year": 1962
+      },
+      {
+        "workId": "ngugi-wa-thiongo--weep-not-child",
+        "year": 1964
+      }
     ]
   },
   {
@@ -436,6 +605,14 @@
     "sourceIds": [
       "src--achebe-african-writer-english-language",
       "src--ngugi-decolonising-the-mind"
+    ],
+    "anchors": [
+      {
+        "year": 1965
+      },
+      {
+        "workId": "ngugi-wa-thiongo--decolonising-the-mind"
+      }
     ]
   },
   {
@@ -449,6 +626,14 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--ngugi-homecoming-1972"
+    ],
+    "anchors": [
+      {
+        "workId": "joseph-conrad--under-western-eyes"
+      },
+      {
+        "workId": "ngugi-wa-thiongo--a-grain-of-wheat"
+      }
     ]
   },
   {
@@ -462,6 +647,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--makerere-conference-1962"
+    ],
+    "anchors": [
+      {
+        "year": 1962
+      }
     ]
   },
   {
@@ -476,6 +666,14 @@
     "sourceIds": [
       "src--cambridge-history-arabic-literature",
       "src--heinemann-african-writers-series"
+    ],
+    "anchors": [
+      {
+        "workId": "tayeb-salih--mawsim-al-hijra-ila-al-shamal"
+      },
+      {
+        "workId": "joseph-conrad--heart-of-darkness"
+      }
     ]
   },
   {
@@ -502,6 +700,11 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--cambridge-history-arabic-literature"
+    ],
+    "anchors": [
+      {
+        "workId": "thomas-mann--buddenbrooks"
+      }
     ]
   },
   {
@@ -529,6 +732,14 @@
     "sourceIds": [
       "src--carpentier-prologo-reino-1949",
       "src--cesaire-tragedie-roi-christophe-1963"
+    ],
+    "anchors": [
+      {
+        "workId": "alejo-carpentier--el-reino-de-este-mundo"
+      },
+      {
+        "workId": "aime-cesaire--la-tragedie-du-roi-christophe"
+      }
     ]
   },
   {
@@ -554,6 +765,11 @@
     "sourceIds": [
       "src--walcott-muse-of-history",
       "src--cesaire-discours-colonialisme"
+    ],
+    "anchors": [
+      {
+        "year": 1974
+      }
     ]
   },
   {
@@ -579,7 +795,15 @@
     "weight": 0.45,
     "summary": "두 사람은 각각 『모두의 노래』(1950)와 『오메로스』(1990)에서 아메리카의 지형과 노동을 유럽 서사시의 형식 안에 넣었다. 한쪽은 대륙의 지질과 정복사를 목록으로 호명했고 다른 쪽은 한 섬의 어부들에게 호메로스의 이름을 붙였다. 직접 접촉의 기록은 없고, 이 지도가 반구를 가로질러 놓은 비교다.",
     "evidenceLevel": "editorial_inference",
-    "sourceIds": []
+    "sourceIds": [],
+    "anchors": [
+      {
+        "workId": "pablo-neruda--canto-general"
+      },
+      {
+        "workId": "derek-walcott--omeros"
+      }
+    ]
   },
   {
     "id": "affinity--juan-rulfo--tayeb-salih",

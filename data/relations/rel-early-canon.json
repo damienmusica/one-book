@@ -8,7 +8,16 @@
     "weight": 0.7,
     "summary": "두 사람은 끝내 만난 적이 없다. 도스토옙스키는 『작가의 일기』(1877)에서 『안나 카레니나』를 길게 논했고, 톨스토이는 스트라호프 앞 편지에서 『죽음의 집의 기록』을 근대 산문의 최고봉으로 꼽았다. 메레시콥스키(1901–02) 이래 두 사람을 서양 소설의 대립하는 두 극 — 바깥에서 관찰된 삶과 안에서 쏟아지는 목소리 — 으로 놓고 읽는 비교 전통이 조지 스타이너까지 이어진다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--dostoevsky-writers-diary", "src--steiner-tolstoy-or-dostoevsky"]
+    "sourceIds": [
+      "src--dostoevsky-writers-diary",
+      "src--steiner-tolstoy-or-dostoevsky"
+    ],
+    "anchors": [
+      {
+        "workId": "leo-tolstoy--anna-karenina",
+        "year": 1877
+      }
+    ]
   },
   {
     "id": "dialogue--leo-tolstoy--anton-chekhov",
@@ -19,7 +28,14 @@
     "weight": 0.85,
     "summary": "체호프는 1895년 야스나야 폴랴나로 톨스토이를 찾아갔고, 1901–02년 크림에서도 자주 만났다. 톨스토이는 그의 단편을 러시아 산문의 정점으로 여기면서도 희곡은 끝내 견디지 못했다. 체호프는 서한에서 톨스토이의 도덕철학에 깊이 감화되었다가 사할린 여행 이후 거기서 빠져나왔다고 스스로 적었다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--chekhov-letters"]
+    "sourceIds": [
+      "src--chekhov-letters"
+    ],
+    "anchors": [
+      {
+        "year": 1895
+      }
+    ]
   },
   {
     "id": "contrast--henrik-ibsen--anton-chekhov",
@@ -30,7 +46,9 @@
     "weight": 0.6,
     "summary": "근대극의 두 출발점이 정반대 방향에서 세워졌다. 입센은 감춰진 과거가 현재를 무너뜨리는 소급적 플롯으로 극을 조였고, 체호프는 사건의 해결을 아예 걷어내고 어긋나는 대화만 남겼다. 레이먼드 윌리엄스 이후의 연극사 서술은 이 둘을 20세기 극작술이 갈라져 나온 두 갈래로 나란히 놓는다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--williams-drama-ibsen-to-brecht"]
+    "sourceIds": [
+      "src--williams-drama-ibsen-to-brecht"
+    ]
   },
   {
     "id": "influence--gustave-flaubert--henry-james",
@@ -41,7 +59,15 @@
     "weight": 0.8,
     "summary": "제임스는 1875–76년 파리에 머물며 플로베르의 일요 모임에 드나들어 그를 직접 만났고, 『소설가론』(1914)에 실린 「귀스타브 플로베르」에서 그를 '소설가의 소설가'로 규정했다. 작가의 논평을 문장 밖으로 밀어내는 플로베르의 규율은 제임스가 뉴욕판 서문에서 시점 통제와 극화로 정식화한 것의 직접적 전사다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--james-notes-on-novelists-1914", "src--james-ny-edition-prefaces"]
+    "sourceIds": [
+      "src--james-notes-on-novelists-1914",
+      "src--james-ny-edition-prefaces"
+    ],
+    "anchors": [
+      {
+        "year": 1914
+      }
+    ]
   },
   {
     "id": "influence--henrik-ibsen--henry-james",
@@ -52,7 +78,14 @@
     "weight": 0.72,
     "summary": "제임스는 1891년 『뉴 리뷰』에 「헤다 가블러에 관하여」를 싣는 등 입센에 관한 평문을 여러 편 썼고, 같은 시기 자신도 극작에 뛰어들었다. 응접실의 대화만으로 사회의 거짓말을 심문하는 입센의 방법은 그가 후기 소설에서 '극화'라 부른 장면 중심 구성으로 옮겨 갔다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--james-scenic-art"]
+    "sourceIds": [
+      "src--james-scenic-art"
+    ],
+    "anchors": [
+      {
+        "year": 1891
+      }
+    ]
   },
   {
     "id": "dialogue--henry-james--joseph-conrad",
@@ -63,7 +96,18 @@
     "weight": 0.75,
     "summary": "두 사람은 켄트와 서식스에 이웃해 살며 왕래했다. 콘래드는 1905년 「헨리 제임스 — 하나의 평가」를 써서 그를 산문의 스승으로 세웠고, 제임스는 1914년 「새로운 소설」에서 『운명』의 겹겹의 화자 구조를 조목조목 따졌다. 서로를 읽고 공개적으로 논평한 이 왕복이 영어 소설의 시점 실험을 밀고 나갔다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--conrad-notes-on-life-and-letters-1921", "src--james-notes-on-novelists-1914"]
+    "sourceIds": [
+      "src--conrad-notes-on-life-and-letters-1921",
+      "src--james-notes-on-novelists-1914"
+    ],
+    "anchors": [
+      {
+        "year": 1905
+      },
+      {
+        "year": 1914
+      }
+    ]
   },
   {
     "id": "influence--gustave-flaubert--joseph-conrad",
@@ -74,7 +118,14 @@
     "weight": 0.6,
     "summary": "콘래드가 프랑스 소설의 문장 규율 — 정확한 낱말과 서술자의 개입 억제 — 을 영어 산문으로 옮겨 왔다는 것은 콘래드 연구의 표준 서술이다. 1897년 소설 서문이 내건 '무엇보다 보게 하는 것'이라는 목표도 플로베르–모파상 계열의 관찰 규율 안에서 읽힌다. 다만 콘래드 본인이 플로베르를 스승으로 지목한 진술은 서한 안에서도 단편적이라 학계 정설 수준으로만 기록한다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--cambridge-companions"]
+    "sourceIds": [
+      "src--cambridge-companions"
+    ],
+    "anchors": [
+      {
+        "year": 1897
+      }
+    ]
   },
   {
     "id": "contrast--fyodor-dostoevsky--joseph-conrad",
@@ -85,7 +136,17 @@
     "weight": 0.65,
     "summary": "콘래드는 도스토옙스키를 노골적으로 싫어해 에드워드 가넷 앞 편지에서 그를 견딜 수 없다고 썼지만, 『서구인의 눈으로』는 자백과 밀고를 축으로 삼아 『죄와 벌』을 되받아 쓴 소설로 읽힌다. 러시아 전제와 혁명가 양쪽을 동시에 거부하는 이 구도를 도스토옙스키와의 대결로 다루는 것이 콘래드 연구의 표준 논점이다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--cambridge-companions"]
+    "sourceIds": [
+      "src--cambridge-companions"
+    ],
+    "anchors": [
+      {
+        "workId": "joseph-conrad--under-western-eyes"
+      },
+      {
+        "workId": "fyodor-dostoevsky--prestuplenie-i-nakazanie"
+      }
+    ]
   },
   {
     "id": "dialogue--charles-baudelaire--gustave-flaubert",
@@ -96,7 +157,17 @@
     "weight": 0.75,
     "summary": "1857년 두 사람은 몇 달 간격으로 나란히 풍기문란 재판을 받았다. 보들레르는 그해 10월 『라르티스트』에 『보바리 부인』 서평을 실어 감상을 제거한 자리에 이 소설이 무엇을 세웠는지 논했고, 플로베르는 『악의 꽃』을 받고 낭만주의를 다시 젊게 만들었다는 편지를 보냈다. 서로의 책에 대한 이 왕복이 남아 있다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--flaubert-correspondance"]
+    "sourceIds": [
+      "src--flaubert-correspondance"
+    ],
+    "anchors": [
+      {
+        "year": 1857
+      },
+      {
+        "workId": "charles-baudelaire--les-fleurs-du-mal"
+      }
+    ]
   },
   {
     "id": "influence--fyodor-dostoevsky--friedrich-nietzsche",
@@ -107,7 +178,15 @@
     "weight": 0.85,
     "summary": "니체는 1887년 초 니스의 서점에서 『지하생활자의 수기』 프랑스어 판본을 우연히 집어 들었고, 2월 23일 오버베크에게 보낸 편지에서 그 발견을 생애의 큰 행운으로 적었다. 『우상의 황혼』에서는 도스토옙스키를 자신이 무언가를 배운 유일한 심리학자로 부른다. 자기 이익을 배반하는 과잉 자의식이라는 도스토옙스키의 인물형이 니체 후기의 심리학 어휘에 직접 들어와 있다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--nietzsche-letter-overbeck-1887", "src--nietzsche-colli-montinari"]
+    "sourceIds": [
+      "src--nietzsche-letter-overbeck-1887",
+      "src--nietzsche-colli-montinari"
+    ],
+    "anchors": [
+      {
+        "year": 1887
+      }
+    ]
   },
   {
     "id": "influence--charles-baudelaire--friedrich-nietzsche",
@@ -118,7 +197,14 @@
     "weight": 0.5,
     "summary": "니체는 1888년의 유고 노트에 보들레르의 산문을 옮겨 적었고, 바그너를 프랑스에서 처음 옹호한 인물로 그를 거론한다. 데카당스를 병리 현상이 아니라 시대의 형식으로 다루는 니체 만년의 어휘가 보들레르 경유로 형성되었다는 것은 니체 문헌학이 유고를 근거로 다루는 논점이다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--nietzsche-colli-montinari"]
+    "sourceIds": [
+      "src--nietzsche-colli-montinari"
+    ],
+    "anchors": [
+      {
+        "year": 1888
+      }
+    ]
   },
   {
     "id": "contrast--walt-whitman--emily-dickinson",
@@ -129,7 +215,15 @@
     "weight": 0.65,
     "summary": "미국시의 두 출발점이 서로를 모른 채 세워졌다. 디킨슨은 1862년 히긴슨에게 보낸 편지에서 휘트먼의 책을 읽은 적이 없고 그가 부도덕하다고 들었다고 적었다. 목록의 반복으로 국가 전체를 삼키는 긴 행과, 찬송가 운율 안에서 대시로 끊는 열 행 — 같은 시기 같은 나라에서 정반대로 갈라진 이 대비는 미국시사 서술의 기본 축이다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--dickinson-letters-higginson", "src--poetry-foundation"]
+    "sourceIds": [
+      "src--dickinson-letters-higginson",
+      "src--poetry-foundation"
+    ],
+    "anchors": [
+      {
+        "year": 1862
+      }
+    ]
   },
   {
     "id": "influence--fyodor-dostoevsky--franz-kafka",
@@ -140,8 +234,17 @@
     "weight": 0.85,
     "summary": "카프카는 1913년 9월 펠리체에게 보낸 편지에서 도스토옙스키를 자신의 '진짜 혈족' 넷 중 하나로 꼽았다. 심문받는 자의 의식을 안쪽에서 서술하는 『죄와 벌』의 죄의식 구조는 『소송』의 전제와 깊이 공명한다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--kafka-letters-felice"],
-    "anchors": [{ "year": 1913 }, { "workId": "franz-kafka--der-process" }]
+    "sourceIds": [
+      "src--kafka-letters-felice"
+    ],
+    "anchors": [
+      {
+        "year": 1913
+      },
+      {
+        "workId": "franz-kafka--der-process"
+      }
+    ]
   },
   {
     "id": "influence--gustave-flaubert--franz-kafka",
@@ -152,8 +255,14 @@
     "weight": 0.8,
     "summary": "같은 1913년 편지의 '진짜 혈족' 넷에 플로베르도 들어 있다. 카프카는 플로베르를 프랑스어로 읽었고 『감정 교육』을 특히 아꼈으며, 감정을 논평하지 않고 사태만 정확히 기록하는 문장을 자기 산문의 기준으로 삼았다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--kafka-letters-felice"],
-    "anchors": [{ "year": 1913 }]
+    "sourceIds": [
+      "src--kafka-letters-felice"
+    ],
+    "anchors": [
+      {
+        "year": 1913
+      }
+    ]
   },
   {
     "id": "influence--henrik-ibsen--james-joyce",
@@ -164,7 +273,15 @@
     "weight": 0.85,
     "summary": "조이스는 열여덟에 「입센의 새 희곡」(『포트나이틀리 리뷰』 1900. 4.)을 발표해 『우리 죽은 자들이 깨어날 때』를 논했고, 입센이 번역자 윌리엄 아처를 통해 사의를 전하자 이듬해 3월 입센의 생일에 노르웨이어로 편지를 보냈다. 원어로 읽으려고 배운 언어였다. 산문 사실주의 희곡이 무엇을 심문할 수 있는지가 그가 입센에게서 가져온 것이다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--joyce-ibsens-new-drama-1900", "src--ellmann-james-joyce"]
+    "sourceIds": [
+      "src--joyce-ibsens-new-drama-1900",
+      "src--ellmann-james-joyce"
+    ],
+    "anchors": [
+      {
+        "year": 1900
+      }
+    ]
   },
   {
     "id": "influence--gustave-flaubert--james-joyce",
@@ -175,7 +292,18 @@
     "weight": 0.65,
     "summary": "『젊은 예술가의 초상』 끝부분에서 예술가를 창조 뒤로 물러나 손톱을 다듬는 신에 비유한 대목은, 예술가는 창조 속의 신처럼 보이지 않으면서 어디에나 있어야 한다는 플로베르의 1852년 루이즈 콜레 앞 편지를 거의 그대로 옮긴 것이다. 조이스 연구는 이 계보를 자유간접화법의 전수 경로로 함께 다룬다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--flaubert-correspondance", "src--cambridge-companions"]
+    "sourceIds": [
+      "src--flaubert-correspondance",
+      "src--cambridge-companions"
+    ],
+    "anchors": [
+      {
+        "year": 1852
+      },
+      {
+        "workId": "james-joyce--a-portrait-of-the-artist-as-a-young-man"
+      }
+    ]
   },
   {
     "id": "dialogue--william-butler-yeats--james-joyce",
@@ -186,7 +314,17 @@
     "weight": 0.7,
     "summary": "1902년 더블린에서 스무 살의 조이스가 서른일곱의 예이츠를 만난 자리는 선배가 너무 늙었다고 잘라 말한 일화로 남았지만, 예이츠는 이후 그를 아서 시먼스와 파운드에게 연결해 주고 문학기금 지원을 주선했다. 1932년에는 아일랜드 문예 아카데미에 그를 초청했고 조이스는 거절했다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--ellmann-james-joyce"]
+    "sourceIds": [
+      "src--ellmann-james-joyce"
+    ],
+    "anchors": [
+      {
+        "year": 1902
+      },
+      {
+        "year": 1932
+      }
+    ]
   },
   {
     "id": "influence--gustave-flaubert--marcel-proust",
@@ -197,7 +335,14 @@
     "weight": 0.8,
     "summary": "프루스트는 1920년 1월 『NRF』에 「플로베르의 '문체'에 관하여」를 실어, 반과거와 단순과거의 교체와 접속사의 절약만으로 시간의 흐름 자체를 문법에 새긴 작가로 플로베르를 읽었다. 플로베르를 문체의 문제로 환원해 옹호한 이 글은 프루스트가 자기 문장의 원리를 설명한 가장 직접적인 문서이기도 하다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--proust-flaubert-style-1920"]
+    "sourceIds": [
+      "src--proust-flaubert-style-1920"
+    ],
+    "anchors": [
+      {
+        "year": 1920
+      }
+    ]
   },
   {
     "id": "influence--fyodor-dostoevsky--marcel-proust",
@@ -208,7 +353,9 @@
     "weight": 0.55,
     "summary": "『갇힌 여인』에는 화자가 알베르틴에게 도스토옙스키의 새로움을 길게 설명하는 대목이 있다. 인물을 설명하는 대신 그가 사는 집과 장면의 구도로 제시하는 방법을 프루스트가 회화에 견주어 논한 이 삽화를, 프루스트 주해 전통은 두 작가를 잇는 표준 근거로 다룬다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--pleiade"]
+    "sourceIds": [
+      "src--pleiade"
+    ]
   },
   {
     "id": "influence--anton-chekhov--virginia-woolf",
@@ -219,7 +366,17 @@
     "weight": 0.75,
     "summary": "울프는 『보통의 독자』(1925)의 「러시아인의 관점」에서 체호프의 단편이 결말 없이 끝나는 것처럼 보이는 이유를 강조점의 이동으로 설명했다. 사건이 아니라 지각의 변화를 서사의 단위로 삼는 이 방법은 그 자신의 단편과 『댈러웨이 부인』의 구성 원리와 같은 것이다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--woolf-common-reader-1925"]
+    "sourceIds": [
+      "src--woolf-common-reader-1925"
+    ],
+    "anchors": [
+      {
+        "year": 1925
+      },
+      {
+        "workId": "virginia-woolf--mrs-dalloway"
+      }
+    ]
   },
   {
     "id": "translation--fyodor-dostoevsky--virginia-woolf",
@@ -230,7 +387,15 @@
     "weight": 0.7,
     "summary": "울프는 S. S. 코텔리안스키와 함께 『악령』에서 삭제된 장을 옮겨 『스타브로긴의 고백』(1922)으로 호가스 출판사에서 냈다. 러시아어를 배워 가며 진행한 이 공역은 영국 모더니즘이 러시아 소설을 흡수하던 경로를 그대로 보여 준다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--woolf-stavrogins-confession-1922"]
+    "sourceIds": [
+      "src--woolf-stavrogins-confession-1922"
+    ],
+    "anchors": [
+      {
+        "workId": "fyodor-dostoevsky--besy",
+        "year": 1922
+      }
+    ]
   },
   {
     "id": "influence--marcel-proust--virginia-woolf",
@@ -241,7 +406,17 @@
     "weight": 0.78,
     "summary": "울프는 1922년 로저 프라이에게 프루스트가 자기 표현 욕구를 너무 자극해 문장을 쓸 수 없을 지경이라고 썼다. 『잃어버린 시간을 찾아서』를 읽던 해가 『댈러웨이 부인』의 구상기와 겹치고, 지각의 미세한 진동을 문장의 길이로 감당하는 방식이 그 뒤 그의 산문에 들어온다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--woolf-letters-diary"]
+    "sourceIds": [
+      "src--woolf-letters-diary"
+    ],
+    "anchors": [
+      {
+        "year": 1922
+      },
+      {
+        "workId": "virginia-woolf--mrs-dalloway"
+      }
+    ]
   },
   {
     "id": "contrast--james-joyce--virginia-woolf",
@@ -252,7 +427,14 @@
     "weight": 0.65,
     "summary": "같은 1882년에 태어난 두 사람이 각각 하루를 다룬 장편을 3년 사이에 냈다. 울프는 일기에 『율리시스』를 배우지 못한 자의 책이라고 적었지만, 의식을 문장으로 옮기는 문제에서 두 사람은 같은 과제를 반대 기질로 풀었다 — 백과사전적 축적과 장별 문체 교체, 그리고 절제된 자유간접화법. 모더니즘 연구는 이 대비를 늘 함께 다룬다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--woolf-letters-diary"]
+    "sourceIds": [
+      "src--woolf-letters-diary"
+    ],
+    "anchors": [
+      {
+        "workId": "james-joyce--ulysses"
+      }
+    ]
   },
   {
     "id": "dialogue--virginia-woolf--katherine-mansfield",
@@ -263,7 +445,16 @@
     "weight": 0.8,
     "summary": "호가스 출판사는 1918년 맨스필드의 「서곡」을 초기 간행물의 하나로 냈고, 두 사람은 서로의 작업을 질투 섞인 눈으로 읽는 친구이자 경쟁자였다. 맨스필드가 죽은 뒤 울프는 일기에 자기가 질투한 유일한 글쓰기였다고 적었다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--woolf-letters-diary", "src--mansfield-letters-journal"]
+    "sourceIds": [
+      "src--woolf-letters-diary",
+      "src--mansfield-letters-journal"
+    ],
+    "anchors": [
+      {
+        "workId": "katherine-mansfield--prelude",
+        "year": 1918
+      }
+    ]
   },
   {
     "id": "influence--anton-chekhov--katherine-mansfield",
@@ -274,7 +465,14 @@
     "weight": 0.85,
     "summary": "맨스필드는 일기와 서간 전체에서 체호프를 자기 단편의 기준으로 삼았고, 결말의 반전 대신 지각의 이동으로 끝내는 그의 구조를 영어권에 정착시켰다. 초기작 「지친 아이」(1910)가 체호프의 「잠이 오네」와 얼마나 가까운지는 지금도 논쟁거리로 남아 있다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--mansfield-letters-journal"]
+    "sourceIds": [
+      "src--mansfield-letters-journal"
+    ],
+    "anchors": [
+      {
+        "year": 1910
+      }
+    ]
   },
   {
     "id": "influence--friedrich-nietzsche--thomas-mann",
@@ -285,7 +483,17 @@
     "weight": 0.85,
     "summary": "만은 1947년 강연 「우리 경험에 비추어 본 니체의 철학」에서 니체를 자기 세대의 사상적 전제이자 독일 파국의 공범으로 동시에 다루었다. 『파우스트 박사』의 작곡가 레버퀸에게는 니체의 전기 — 매독 감염과 정신의 붕괴 — 가 거의 그대로 배당되어 있다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--mann-essays-reden"]
+    "sourceIds": [
+      "src--mann-essays-reden"
+    ],
+    "anchors": [
+      {
+        "year": 1947
+      },
+      {
+        "workId": "thomas-mann--doktor-faustus"
+      }
+    ]
   },
   {
     "id": "influence--leo-tolstoy--thomas-mann",
@@ -296,7 +504,17 @@
     "weight": 0.72,
     "summary": "만은 1921년 뤼베크 강연 「괴테와 톨스토이」에서 두 사람을 자연에서 나온 서사시적 작가로 묶고, 자기가 속한 계보를 그 반대편에 놓았다. 자기 소설의 자리를 정하기 위해 톨스토이를 좌표로 쓴 셈이며, 『마의 산』의 대화 구성도 이 대비 위에서 설계되었다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--mann-essays-reden"]
+    "sourceIds": [
+      "src--mann-essays-reden"
+    ],
+    "anchors": [
+      {
+        "year": 1921
+      },
+      {
+        "workId": "thomas-mann--der-zauberberg"
+      }
+    ]
   },
   {
     "id": "influence--fyodor-dostoevsky--thomas-mann",
@@ -307,7 +525,14 @@
     "weight": 0.72,
     "summary": "만은 영역 도스토옙스키 선집에 붙인 서문 「절제된 도스토옙스키」에서 그를 니체와 나란히 병을 통해 인식에 이른 작가로 읽었다. 예술의 대가를 질병과 맞바꾸는 계약으로 『파우스트 박사』를 구성한 데에는 이 독법이 깔려 있다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--mann-essays-reden"]
+    "sourceIds": [
+      "src--mann-essays-reden"
+    ],
+    "anchors": [
+      {
+        "workId": "thomas-mann--doktor-faustus"
+      }
+    ]
   },
   {
     "id": "influence--joseph-conrad--william-faulkner",
@@ -318,7 +543,17 @@
     "weight": 0.72,
     "summary": "포크너는 1956년 『파리 리뷰』 인터뷰에서 해마다 다시 읽는 작가로 콘래드를 꼽았다. 화자가 사건을 다 알지 못한 채 전달하는 액자 구조와 뒤늦게야 풀리는 해독은 『압살롬, 압살롬!』의 서술 설계에 그대로 들어와 있다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--paris-review"]
+    "sourceIds": [
+      "src--paris-review"
+    ],
+    "anchors": [
+      {
+        "year": 1956
+      },
+      {
+        "workId": "william-faulkner--absalom-absalom"
+      }
+    ]
   },
   {
     "id": "influence--james-joyce--william-faulkner",
@@ -329,7 +564,17 @@
     "weight": 0.75,
     "summary": "포크너는 1957–58년 버지니아대 문답에서 『율리시스』를 성서 대하듯 믿음을 가지고 읽으라고 말했고, 1920년대 초에 이미 읽었다는 증언이 남아 있다. 인용부호 없는 내적 독백과 화자마다 갈리는 문체는 『소리와 분노』의 네 부 구성으로 옮겨 갔다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--faulkner-in-the-university"]
+    "sourceIds": [
+      "src--faulkner-in-the-university"
+    ],
+    "anchors": [
+      {
+        "workId": "james-joyce--ulysses"
+      },
+      {
+        "workId": "william-faulkner--the-sound-and-the-fury"
+      }
+    ]
   },
   {
     "id": "influence--friedrich-nietzsche--robert-musil",
@@ -340,7 +585,14 @@
     "weight": 0.72,
     "summary": "무질은 일기에 청년기 니체 전집 독서의 충격을 기록했다. 도덕을 주어진 사실이 아니라 역사적으로 만들어진 것으로 서술하는 방법은 『특성 없는 남자』에서 판단을 유보한 채 사유만 전개하는 에세이즘으로 옮겨 간다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--musil-tagebuecher"]
+    "sourceIds": [
+      "src--musil-tagebuecher"
+    ],
+    "anchors": [
+      {
+        "workId": "robert-musil--der-mann-ohne-eigenschaften"
+      }
+    ]
   },
   {
     "id": "affinity--marcel-proust--robert-musil",
@@ -351,7 +603,14 @@
     "weight": 0.55,
     "summary": "유럽 모더니즘 장편 연구는 『잃어버린 시간을 찾아서』와 『특성 없는 남자』를 함께 다룬다. 사건의 진행 대신 지각과 사유가 서사를 채우고, 작가의 죽음으로 완결이 유예된 대(大)장편이라는 조건이 같기 때문이다. 두 사람 사이에 직접 접촉의 기록은 없다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--cambridge-companions"]
+    "sourceIds": [
+      "src--cambridge-companions"
+    ],
+    "anchors": [
+      {
+        "workId": "robert-musil--der-mann-ohne-eigenschaften"
+      }
+    ]
   },
   {
     "id": "influence--walt-whitman--fernando-pessoa",
@@ -362,7 +621,14 @@
     "weight": 0.78,
     "summary": "페소아는 이명 알바루 드 캄푸스의 이름으로 「월트 휘트먼에게 보내는 인사」를 썼고, 「해상 송시」의 폭주하는 목록과 감탄은 휘트먼의 긴 행을 포르투갈어로 옮겨 놓은 것이다. 캄푸스라는 인격 자체가 휘트먼적 확장을 담당하도록 설계되어 있다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--pessoa-campos-saudacao-whitman"]
+    "sourceIds": [
+      "src--pessoa-campos-saudacao-whitman"
+    ],
+    "anchors": [
+      {
+        "workId": "fernando-pessoa--ode-maritima"
+      }
+    ]
   },
   {
     "id": "influence--friedrich-nietzsche--william-butler-yeats",
@@ -373,7 +639,14 @@
     "weight": 0.72,
     "summary": "예이츠는 1902년 존 퀸이 보내 준 니체를 읽고 레이디 그레고리에게 그가 블레이크를 완성하는 강력한 마술사라고 썼다. 여기서 얻은 대립하는 자아(가면)의 도식은 『비전』의 상징 체계와, 유미적 흐릿함을 버린 후기 시의 단단한 어조로 이어진다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--yeats-collected-letters"]
+    "sourceIds": [
+      "src--yeats-collected-letters"
+    ],
+    "anchors": [
+      {
+        "year": 1902
+      }
+    ]
   },
   {
     "id": "influence--leo-tolstoy--rainer-maria-rilke",
@@ -384,7 +657,17 @@
     "weight": 0.7,
     "summary": "릴케는 1899년과 1900년 두 차례 러시아를 여행하며 톨스토이를 찾아갔고, 야스나야 폴랴나 방문의 정황을 편지에 남겼다. 이 여행에서 얻은 러시아 체험 — 기도의 형식과 순례하는 화자 — 이 『시도서』의 어법을 만들었다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--rilke-briefe"]
+    "sourceIds": [
+      "src--rilke-briefe"
+    ],
+    "anchors": [
+      {
+        "year": 1899
+      },
+      {
+        "year": 1900
+      }
+    ]
   },
   {
     "id": "influence--charles-baudelaire--rainer-maria-rilke",
@@ -395,7 +678,17 @@
     "weight": 0.75,
     "summary": "『말테의 수기』에서 말테는 보들레르의 「썩은 시체」를 들어, 시인은 끔찍한 것 앞에서도 눈을 돌리지 않고 그 안의 존재를 보아야 한다고 적는다. 릴케가 1907년 세잔에 관한 편지들에서 같은 시를 다시 불러내는 것을 보면, 사물시의 규율은 로댕과 세잔만이 아니라 보들레르에게서도 왔다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--rilke-briefe"]
+    "sourceIds": [
+      "src--rilke-briefe"
+    ],
+    "anchors": [
+      {
+        "workId": "rainer-maria-rilke--die-aufzeichnungen-des-malte-laurids-brigge"
+      },
+      {
+        "year": 1907
+      }
+    ]
   },
   {
     "id": "influence--charles-baudelaire--ts-eliot",
@@ -406,7 +699,20 @@
     "weight": 0.82,
     "summary": "엘리엇은 1930년 이셔우드가 옮긴 『내면 일기』에 붙인 서문 「보들레르」에서, 그를 도시의 추악함을 시의 재료로 만든 최초의 시인이자 선악의 실재를 되살린 시인으로 규정했다. 『황무지』 1부 끝의 '위선적인 독자여'는 『악의 꽃』 서시를 그대로 끌어온 것이다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--eliot-selected-essays-1932"]
+    "sourceIds": [
+      "src--eliot-selected-essays-1932"
+    ],
+    "anchors": [
+      {
+        "year": 1930
+      },
+      {
+        "workId": "ts-eliot--the-waste-land"
+      },
+      {
+        "workId": "charles-baudelaire--les-fleurs-du-mal"
+      }
+    ]
   },
   {
     "id": "influence--william-butler-yeats--ts-eliot",
@@ -417,7 +723,17 @@
     "weight": 0.7,
     "summary": "엘리엇은 1940년 애비 극장에서 열린 제1회 예이츠 강연에서, 노년에 문체를 통째로 갈아엎은 예이츠를 자기 세대가 가진 가장 중요한 사례로 들었다. 『네 개의 사중주』의 「리틀 기딩」에 나오는 낯익은 혼령의 대목은 그 예이츠를 불러 세운 자리로 읽힌다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--eliot-on-poetry-and-poets-1957"]
+    "sourceIds": [
+      "src--eliot-on-poetry-and-poets-1957"
+    ],
+    "anchors": [
+      {
+        "year": 1940
+      },
+      {
+        "workId": "ts-eliot--four-quartets"
+      }
+    ]
   },
   {
     "id": "influence--joseph-conrad--ts-eliot",
@@ -428,7 +744,17 @@
     "weight": 0.75,
     "summary": "『황무지』의 제사는 원래 『암흑의 핵심』의 마지막 외침이었고, 콘래드는 그만한 무게가 없다는 파운드의 반대로 빠졌다. 초고 영인본에 그 흔적이 남아 있다. 3년 뒤 「텅 빈 사람들」의 제사로 커츠의 죽음을 알리는 한 줄이 다시 올라온다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--waste-land-facsimile-1971"]
+    "sourceIds": [
+      "src--waste-land-facsimile-1971"
+    ],
+    "anchors": [
+      {
+        "workId": "ts-eliot--the-waste-land"
+      },
+      {
+        "workId": "joseph-conrad--heart-of-darkness"
+      }
+    ]
   },
   {
     "id": "influence--james-joyce--ts-eliot",
@@ -439,7 +765,17 @@
     "weight": 0.75,
     "summary": "엘리엇은 1923년 11월 『다이얼』에 실은 「율리시스, 질서, 신화」에서 신화를 동시대의 혼란에 형태를 주는 틀로 쓰는 방법을 '신화적 방법'이라 이름 붙이고, 이를 서사 형식의 대체물로 제시했다. 『황무지』가 어떤 원리로 조립되었는지를 그가 조이스를 빌려 설명한 글이다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--eliot-ulysses-order-and-myth-1923"]
+    "sourceIds": [
+      "src--eliot-ulysses-order-and-myth-1923"
+    ],
+    "anchors": [
+      {
+        "year": 1923
+      },
+      {
+        "workId": "ts-eliot--the-waste-land"
+      }
+    ]
   },
   {
     "id": "influence--henry-james--gertrude-stein",
@@ -450,7 +786,9 @@
     "weight": 0.7,
     "summary": "스타인은 1934–35년 미국 순회 강연에서 헨리 제임스를 20세기의 문학적 방법을 먼저 찾아낸 선구자로 지목하고 자기 계보를 그에게 댔다. 문장이 사건 대신 인식의 진행을 담게 만든다는 점에서 두 사람은 같은 문제를 붙들었다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--stein-lectures-in-america-1935"]
+    "sourceIds": [
+      "src--stein-lectures-in-america-1935"
+    ]
   },
   {
     "id": "influence--gustave-flaubert--gertrude-stein",
@@ -461,7 +799,14 @@
     "weight": 0.75,
     "summary": "스타인은 『세 개의 삶』을 쓰기 시작할 무렵 플로베르의 「소박한 마음」을 번역 연습 삼아 옮기고 있었다고 『앨리스 B. 토클라스의 자서전』에 적었다. 하녀의 생애를 감정의 논평 없이 기록하는 그 단편의 구도가 세 여자의 삶을 나란히 놓은 자기 첫 책의 구성으로 옮겨 갔다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--stein-autobiography-toklas"]
+    "sourceIds": [
+      "src--stein-autobiography-toklas"
+    ],
+    "anchors": [
+      {
+        "workId": "gertrude-stein--the-autobiography-of-alice-b-toklas"
+      }
+    ]
   },
   {
     "id": "contrast--henrik-ibsen--luigi-pirandello",
@@ -472,7 +817,9 @@
     "weight": 0.55,
     "summary": "입센은 객석 쪽에 보이지 않는 네 번째 벽을 세워 응접실을 심문했고, 피란델로는 완성되지 않은 인물들을 무대에 난입시켜 그 벽을 안에서 무너뜨렸다. 근대극 연구는 피란델로의 메타연극을 입센이 확립한 사실주의 무대의 뒤집기로 서술한다. 피란델로 자신은 입센을 셰익스피어 다음가는 극작가로 꼽았으므로, 이 대조는 인적 반목이 아니라 형식의 반대항이다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--cambridge-companions"]
+    "sourceIds": [
+      "src--cambridge-companions"
+    ]
   },
   {
     "id": "affinity--machado-de-assis--luigi-pirandello",
@@ -483,7 +830,15 @@
     "weight": 0.4,
     "summary": "리우데자네이루의 소설가와 시칠리아의 극작가 사이에 직접 접촉의 기록은 없다. 이 지도가 둘을 가까이 놓는 이유는 자아를 타인이 부여한 배역들의 합으로 다루는 방법이 같기 때문이다 — 『동 카스무후』는 아내의 배신 여부에 대한 판결을 독자에게 떠넘기고, 『하나, 아무도 아닌, 십만 명』은 이름을 잃은 자리에서 다시 시작한다.",
     "evidenceLevel": "editorial_inference",
-    "sourceIds": []
+    "sourceIds": [],
+    "anchors": [
+      {
+        "workId": "machado-de-assis--dom-casmurro"
+      },
+      {
+        "workId": "luigi-pirandello--uno-nessuno-e-centomila"
+      }
+    ]
   },
   {
     "id": "contrast--henrik-ibsen--bertolt-brecht",
@@ -494,7 +849,9 @@
     "weight": 0.6,
     "summary": "브레히트의 서사극은 관객을 무대의 환영 안으로 끌어들이는 극작술 전체를 겨냥했고, 그 표준형이 입센의 응접실극이었다. 레이먼드 윌리엄스가 근대극의 궤적을 입센에서 브레히트까지로 그은 것도 이 반전 때문이다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--williams-drama-ibsen-to-brecht"]
+    "sourceIds": [
+      "src--williams-drama-ibsen-to-brecht"
+    ]
   },
   {
     "id": "affinity--luigi-pirandello--bertolt-brecht",
@@ -505,7 +862,9 @@
     "weight": 0.55,
     "summary": "20세기 반환영주의 연극 연구는 두 사람을 나란히 다룬다. 피란델로는 극 중 극으로 무대의 재현 장치를 노출시켰고, 브레히트는 노래와 자막으로 몰입을 끊었다. 목적은 갈렸다 — 한쪽은 정체성의 불확정을, 다른 쪽은 역사의 가변성을 보이려 했다. 두 사람 사이의 직접 교류는 확인되지 않는다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--cambridge-companions"]
+    "sourceIds": [
+      "src--cambridge-companions"
+    ]
   },
   {
     "id": "influence--fyodor-dostoevsky--mikhail-bulgakov",
@@ -516,7 +875,17 @@
     "weight": 0.6,
     "summary": "『거장과 마르가리타』의 예루살렘 장(章)은 권력이 진실을 어떻게 처리하는가를 심문하며, 『카라마조프 형제』의 대심문관 삽화가 세운 문제 설정을 이어받는다. 악마를 심판자의 자리에 앉히는 이 구도를 도스토옙스키 계보 안에서 읽는 것이 불가코프 연구의 표준 논점이다.",
     "evidenceLevel": "scholarly_consensus",
-    "sourceIds": ["src--cambridge-companions"]
+    "sourceIds": [
+      "src--cambridge-companions"
+    ],
+    "anchors": [
+      {
+        "workId": "mikhail-bulgakov--master-i-margarita"
+      },
+      {
+        "workId": "fyodor-dostoevsky--bratya-karamazovy"
+      }
+    ]
   },
   {
     "id": "influence--walt-whitman--federico-garcia-lorca",
@@ -527,6 +896,13 @@
     "weight": 0.8,
     "summary": "로르카는 1929–30년 뉴욕 체류에서 쓴 『뉴욕의 시인』에 「월트 휘트먼에게 바치는 송가」를 넣었다. 자본의 도시가 짓밟은 노동과 몸을 노래하기 위해 휘트먼의 긴 행과 호명의 어법을 그대로 빌려 왔고, 동시에 그 목소리를 자기 시대의 위선과 맞세웠다.",
     "evidenceLevel": "documented",
-    "sourceIds": ["src--fundacion-lorca"]
+    "sourceIds": [
+      "src--fundacion-lorca"
+    ],
+    "anchors": [
+      {
+        "workId": "federico-garcia-lorca--poeta-en-nueva-york"
+      }
+    ]
   }
 ]

@@ -348,14 +348,28 @@ export function assembleDataset(
     if (!authorById.has(r.targetId)) errors.push(`${r.id}: unknown targetId ${r.targetId}`);
     if (r.sourceId === r.targetId) errors.push(`${r.id}: self-relation forbidden`);
 
-    // 앵커는 두 당사자 중 한 사람의 실재하는 작품만 가리킨다 — 제3자의 책에 닿는 선은 거짓말이다
+    // 앵커는 두 당사자 중 한 사람의 실재하는 작품만 가리킨다 — 제3자의 책에 닿는 선은 거짓말이다.
+    //
+    // 그리고 앵커는 **요약이 이미 지목한 것만** 승격한다(물량 트랙 ②의 규율).
+    // 그 규율은 지금까지 산문으로만 있었고, 승격 웨이브마다 사람이 지키기로 한
+    // 약속이었다 — 기존 앵커 25개가 전부 이 조건을 만족한다는 것을 확인하고
+    // 규칙으로 세운다. 요약에 없는 연도나 책이 앵커로 들어오면 그것은 **새
+    // 조사가 원장에 몰래 들어온 것**이고, 카드의 칩은 그것을 근거처럼 보이게
+    // 한다. 요약을 고쳐서 통과시키는 것이 정당한 경로다(그때는 요약의 출처가
+    // 그 사실을 뒷받침해야 한다).
     for (const an of r.anchors ?? []) {
       if (an.workId) {
         const w = workById.get(an.workId);
         if (!w) errors.push(`${r.id}: anchor names unknown work ${an.workId}`);
         else if (w.authorId !== r.sourceId && w.authorId !== r.targetId)
           errors.push(`${r.id}: anchor work ${an.workId} belongs to neither party`);
+        else if (!r.summary.includes(w.titleKo) && !r.summary.includes(w.titleOriginal))
+          errors.push(
+            `${r.id}: anchor work ${an.workId} is not named in the summary ('${w.titleKo}')`
+          );
       }
+      if (an.year !== undefined && !r.summary.includes(String(an.year)))
+        errors.push(`${r.id}: anchor year ${an.year} is not named in the summary`);
     }
     const expectedId = `${RELATION_ID_PREFIX[r.type]}--${r.sourceId}--${r.targetId}`;
     if (r.id !== expectedId)

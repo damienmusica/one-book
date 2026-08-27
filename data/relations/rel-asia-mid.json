@@ -11,6 +11,14 @@
     "sourceIds": [
       "src--akutagawa-kyuyu-e-okuru-shuki-1927",
       "src--kawabata-matsugo-no-me-1933"
+    ],
+    "anchors": [
+      {
+        "year": 1927
+      },
+      {
+        "year": 1933
+      }
     ]
   },
   {
@@ -24,6 +32,12 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--keene-dawn-to-the-west"
+    ],
+    "anchors": [
+      {
+        "workId": "james-joyce--ulysses",
+        "year": 1931
+      }
     ]
   },
   {
@@ -38,6 +52,17 @@
     "sourceIds": [
       "src--dazai-akutagawa-sho-shokan",
       "src--keene-dawn-to-the-west"
+    ],
+    "anchors": [
+      {
+        "year": 1927
+      },
+      {
+        "year": 1935
+      },
+      {
+        "year": 1936
+      }
     ]
   },
   {
@@ -52,6 +77,11 @@
     "sourceIds": [
       "src--dazai-kawabata-yasunari-e-1935",
       "src--dazai-akutagawa-sho-shokan"
+    ],
+    "anchors": [
+      {
+        "year": 1935
+      }
     ]
   },
   {
@@ -66,6 +96,11 @@
     "sourceIds": [
       "src--dazai-sekibetsu-1945",
       "src--keene-dawn-to-the-west"
+    ],
+    "anchors": [
+      {
+        "year": 1945
+      }
     ]
   },
   {
@@ -79,6 +114,14 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--keene-dawn-to-the-west"
+    ],
+    "anchors": [
+      {
+        "workId": "osamu-dazai--ningen-shikkaku"
+      },
+      {
+        "workId": "fyodor-dostoevsky--prestuplenie-i-nakazanie"
+      }
     ]
   },
   {
@@ -93,6 +136,14 @@
     "sourceIds": [
       "src--kawabata-mishima-ofuku-shokan",
       "src--keene-dawn-to-the-west"
+    ],
+    "anchors": [
+      {
+        "year": 1946
+      },
+      {
+        "year": 1970
+      }
     ]
   },
   {
@@ -107,6 +158,14 @@
     "sourceIds": [
       "src--mishima-shosetsuka-no-kyuka-1955",
       "src--mishima-watashi-no-henreki-jidai"
+    ],
+    "anchors": [
+      {
+        "year": 1955
+      },
+      {
+        "year": 1963
+      }
     ]
   },
   {
@@ -120,6 +179,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--bunka-daikakumei-kyodo-seimei-1967"
+    ],
+    "anchors": [
+      {
+        "year": 1967
+      }
     ]
   },
   {
@@ -146,6 +210,11 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--keene-dawn-to-the-west"
+    ],
+    "anchors": [
+      {
+        "workId": "friedrich-nietzsche--die-geburt-der-tragoedie"
+      }
     ]
   },
   {
@@ -172,6 +241,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--bunka-daikakumei-kyodo-seimei-1967"
+    ],
+    "anchors": [
+      {
+        "year": 1967
+      }
     ]
   },
   {
@@ -223,6 +297,14 @@
     "sourceIds": [
       "src--kawabata-nobel-lecture",
       "src--oe-nobel-lecture"
+    ],
+    "anchors": [
+      {
+        "year": 1968
+      },
+      {
+        "year": 1994
+      }
     ]
   },
   {
@@ -249,6 +331,14 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--oe-nobel-lecture"
+    ],
+    "anchors": [
+      {
+        "year": 1994
+      },
+      {
+        "workId": "kenzaburo-oe--moeagaru-midori-no-ki"
+      }
     ]
   },
   {
@@ -275,6 +365,11 @@
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--hsia-modern-chinese-fiction"
+    ],
+    "anchors": [
+      {
+        "year": 1961
+      }
     ]
   },
   {
@@ -288,6 +383,11 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--chang-laoren-yu-hai"
+    ],
+    "anchors": [
+      {
+        "workId": "ernest-hemingway--the-old-man-and-the-sea"
+      }
     ]
   },
   {
@@ -299,7 +399,12 @@
     "weight": 0.45,
     "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 망명 뒤 두 언어를 오가며 자기 작품을 스스로 옮기고 다시 쓰기를 평생 되풀이했다는 점에서 둘을 가까이 놓는다. 장아이링이 「금쇄기」를 중국어와 영어로 여러 차례 고쳐 쓴 이력이 그 예다.",
     "evidenceLevel": "editorial_inference",
-    "sourceIds": []
+    "sourceIds": [],
+    "anchors": [
+      {
+        "workId": "eileen-chang--jin-suo-ji"
+      }
+    ]
   },
   {
     "id": "affinity--eileen-chang--park-kyung-ni",
@@ -337,6 +442,11 @@
     "sourceIds": [
       "src--premchand-pwa-address-1936",
       "src--jalal-pity-of-partition"
+    ],
+    "anchors": [
+      {
+        "workId": "premchand--sahitya-ka-uddeshya"
+      }
     ]
   },
   {
@@ -381,6 +491,14 @@
     "weight": 0.5,
     "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 한 가문의 여러 세대를 따라가며 그 위로 전쟁과 체제 변동을 통과시키는 대하 장편의 설계가 겹친다는 이유로 『토지』를 『전쟁과 평화』 옆에 놓는다.",
     "evidenceLevel": "editorial_inference",
-    "sourceIds": []
+    "sourceIds": [],
+    "anchors": [
+      {
+        "workId": "park-kyung-ni--toji"
+      },
+      {
+        "workId": "leo-tolstoy--voyna-i-mir"
+      }
+    ]
   }
 ]
