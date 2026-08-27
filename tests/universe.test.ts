@@ -19,6 +19,8 @@ import {
   representationFor,
   starLife,
   starPixels,
+  starDiameterPx,
+  STAR_MAX_PX,
   SILHOUETTE_AMP,
   silhouetteRadius,
 
@@ -77,6 +79,52 @@ describe("표현 사다리 — 계층이 아니라 겉보기 크기", () => {
     const ap = apparentRadiusPx(bodyRadius(1), 900, 42, 900);
     expect(ap).toBeLessThan(STAR_TO_DISC_PX);
     expect(representationFor(ap, 900)).toBe("star");
+  });
+});
+
+describe("별에도 크기가 있다 — 광휘 바닥과 실제 원반", () => {
+  const h = 900;
+  const glareOf = (mag: number) => starPixels(mag);
+  const discAt = (mag: number, d: number) => apparentRadiusPx(bodyRadius(mag), d, 42, h);
+
+  it("먼 하늘에서는 광도만 말한다 — 거리가 절반이 되어도 크기가 같다", () => {
+    const mag = 1;
+    const a = starDiameterPx(glareOf(mag), discAt(mag, SHELL_R * 3));
+    const b = starDiameterPx(glareOf(mag), discAt(mag, SHELL_R * 1.5));
+    expect(a).toBe(glareOf(mag));
+    expect(b).toBe(a);
+  });
+
+  it("다가가면 자란다 — 이전 판이 잃고 있던 사실", () => {
+    // 실측(2026-08-27): 이 항이 없던 판에서 카메라가 2189 → 379 로 다가가는
+    // 동안 카프카의 발광 픽셀 폭은 2~3px 로 고정이었다. 크기가 자라는 유일한
+    // 길이 구로 분해되는 것이었고, 분해는 준비된 작가 셋에게만 열린다.
+    const mag = 0.2;
+    const sizes = [900, 400, 200, 100].map((d) => starDiameterPx(glareOf(mag), discAt(mag, d)));
+    for (let i = 1; i < sizes.length; i++) {
+      expect(sizes[i] as number).toBeGreaterThanOrEqual(sizes[i - 1] as number);
+    }
+    expect(sizes[3] as number).toBeGreaterThan((sizes[0] as number) * 1.5);
+  });
+
+  it("같은 거리에서는 영향력이 큰 별이 더 크다", () => {
+    const d = 150;
+    expect(starDiameterPx(glareOf(1), discAt(1, d))).toBeGreaterThan(
+      starDiameterPx(glareOf(0), discAt(0, d))
+    );
+  });
+
+  it("구가 나타나는 순간의 스프라이트는 이미 그 구의 지름이다 (전환이 연속이다)", () => {
+    // 전환은 겉보기 반경 STAR_TO_DISC_PX 에서 일어난다 — 그때 원반 지름은
+    // 2×STAR_TO_DISC_PX 이고, 광휘가 그보다 작으면 스프라이트는 이미 원반이다.
+    const mag = 0.2;
+    const d = bodyRadius(mag) / Math.tan((42 * Math.PI) / 360) / ((2 * STAR_TO_DISC_PX) / h);
+    expect(apparentRadiusPx(bodyRadius(mag), d, 42, h)).toBeCloseTo(STAR_TO_DISC_PX, 1);
+    expect(starDiameterPx(glareOf(mag), STAR_TO_DISC_PX)).toBe(2 * STAR_TO_DISC_PX);
+  });
+
+  it("별이 화면을 통째로 덮지 않는다 — 넘겨받을 구가 없는 별에도 상한이 있다", () => {
+    expect(starDiameterPx(10, 10_000)).toBe(STAR_MAX_PX);
   });
 });
 
