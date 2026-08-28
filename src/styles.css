@@ -46,6 +46,7 @@
   --brass-a80: rgba(207, 167, 89, 0.8);
   --red-a08: rgba(178, 91, 78, 0.08);
   --ink-shadow: rgba(0, 0, 0, 0.9);
+  --hull-vignette: rgba(16, 10, 3, 0.42); /* 관측창 프레임(R13-d) — 창의 가장자리 그늘 */
   --shadow-pop: 0 6px 22px rgba(0, 0, 0, 0.55);
   --geo-text: rgba(159, 190, 199, 0.78);
   --geo-ink-shadow: rgba(6, 10, 14, 0.9);

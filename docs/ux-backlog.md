@@ -354,3 +354,12 @@ listed at the bottom so we don't re-litigate them.
 - **"Move secondary nodes with constrained optimization, version layouts"** —
   rejected for now: frozen positions v1 are a deliberate trust property (stable
   addresses, stable terrain); revisit only at a major corpus expansion.
+
+## R13 내부 심사 잔여 (2026-08-28)
+
+- **선 없는 분홍 화살촉(심사 ⑦, 사소)**: 궤도 카드 상태에서 관계선은 그 거리에서
+  안 보이는데 화살촉(egoArrows)만 목표 곁에 떠 있다 — 촉의 가시성을 "선이 화면에서
+  실제 길이를 갖는가"에 물려야 한다. 계약 없음이 원인(촉 계약은 "도착 끝"만 잼).
+- **관찰 2건(결함 아님, 심사 기각분)**: ① 접근 스트립의 여는 문장이 원문 단독 —
+  테제 명시 선택이나 첫 독자 체감은 미검증 ② 착륙 카드의 "도시 N" — 정식 은유이나
+  설명 없는 표면화. 둘 다 사람 관찰의 슬레이트 후보.
