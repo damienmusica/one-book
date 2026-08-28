@@ -653,7 +653,16 @@ export const SCENES = {
       }
       await ctx.settle(400);
       const founded = async () => (await ctx.metrics()).renderer?.cityMarkers?.count ?? -1;
-      ctx.assert("founding-1913", (await founded()) === 1, `towns at 1913: ${await founded()}`);
+      // 이 씬은 도시가 **시간에 따라 서는 것**을 본다. 숫자는 `data/works` 의
+      // 카프카 작품 연도에서 온다 — 1913 『선고』 · 1915 『변신』 · 1919
+      // 『유형지에서』 · 1925 『소송』 · 1926 『성』 · 1927 『실종자』(유고).
+      //
+      // 절대값을 쓰는 이유는 마을이 **조용히 사라지는** 회귀를 잡기 위해서다.
+      // 대신 결합을 한 곳에 모아 둔다: 카프카 작품이 늘거나 줄면 여기가 같이
+      // 움직인다(2026-08-28, 『실종자』 추가로 atlas 5 → 6 — 출하 행성 앱의
+      // 씬이 성계 쪽 데이터 변경에 걸린 첫 사례다).
+      const KAFKA_TOWNS = { y1913: 1, y1919: 3, atlas: 6 };
+      ctx.assert("founding-1913", (await founded()) === KAFKA_TOWNS.y1913, `towns at 1913: ${await founded()}`);
       await ctx.beat("founding-1913");
       await ctx.page.evaluate(() => {
         window.location.hash = "#/?a=franz-kafka&pv=0&y=1919";
@@ -661,14 +670,14 @@ export const SCENES = {
       });
       await waitCommit(1919);
       await ctx.settle(400);
-      ctx.assert("founding-1919", (await founded()) === 3, `towns at 1919: ${await founded()}`);
+      ctx.assert("founding-1919", (await founded()) === KAFKA_TOWNS.y1919, `towns at 1919: ${await founded()}`);
       await ctx.beat("founding-1919");
       await ctx.page.evaluate(() => {
         window.location.hash = "#/?a=franz-kafka&pv=0";
         window.dispatchEvent(new HashChangeEvent("hashchange"));
       });
       await ctx.settle(600);
-      ctx.assert("founding-atlas", (await founded()) === 5, `towns at atlas: ${await founded()}`);
+      ctx.assert("founding-atlas", (await founded()) === KAFKA_TOWNS.atlas, `towns at atlas: ${await founded()}`);
       await ctx.beat("founding-atlas");
 
       // 1925 중경: 연합 조약 오버레이가 뜨고, 라벨이 조약기를 새긴다.
