@@ -65,10 +65,22 @@ describe("staleSurfaceVerifications — 규칙 하나당 케이스 하나", () =
 
 describe("라이브 계약 — 이 레포의 스탬프 대 이 레포의 표면 코드", () => {
   it("모든 ready 착륙지의 검수는 src/universe 의 마지막 변경보다 새것이다", () => {
-    const iso = execSync("git log -1 --format=%cI -- src/universe", {
-      encoding: "utf8",
-    }).trim();
-    expect(iso, "git 이 src/universe 의 마지막 커밋을 주지 못했다").not.toBe("");
+    // 두 팔 규칙. 기본은 "스탬프 ≥ src/universe 마지막 커밋 시각"인데, 검수
+    // 세션은 스탬프를 표면 변경과 **같은 커밋**에 싣는 것이 정당한 경로라서
+    // (게이트 재실행 → 스탬프 → 커밋), 커밋 시각이 스탬프를 몇 분 차이로
+    // 이기는 거짓 낡음이 생긴다(실측: #204 스쿼시 직후 main 이 이 모양으로
+    // 빨갰다). 마지막 src 커밋이 스탬프 파일도 함께 실었다면 그 세션이 그
+    // 트리를 보고 찍은 것이므로, 그때는 **직전 src 커밋**과 비교한다 — 스탬프
+    // 없이 표면만 실은 커밋은 여전히 첫 팔에 걸린다.
+    const git = (cmd: string) => execSync(cmd, { encoding: "utf8" }).trim();
+    const lastSrc = git("git log -1 --format=%H -- src/universe");
+    const lastStamp = git("git log -1 --format=%H -- data/depth-readiness.json");
+    expect(lastSrc, "git 이 src/universe 의 마지막 커밋을 주지 못했다").not.toBe("");
+    const iso =
+      lastSrc === lastStamp
+        ? git("git log --skip=1 -1 --format=%cI -- src/universe")
+        : git("git log -1 --format=%cI -- src/universe");
+    expect(iso, "비교할 커밋 시각이 없다").not.toBe("");
     const latest = new Date(iso);
     const stale = staleSurfaceVerifications(READINESS.entries, latest);
     expect(
