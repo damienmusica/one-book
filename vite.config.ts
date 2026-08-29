@@ -38,8 +38,9 @@ export default defineConfig({
     target: "es2022",
     chunkSizeWarningLimit: 900,
     rollupOptions: {
-      // R11: the star-system prototype ships as its own entry so the shipped
-      // planet app (index.html) keeps its frozen bundle and QA contract
+      // 정문 교체 (2026-08-29, CPO): index.html 이 곧 성계다. universe.html 은
+      // 같은 앱의 별칭 엔트리로 남는다 — 프로토콜·문서·하네스의 /universe
+      // 딥링크가 살아 있어야 하므로. 행성 앱은 git 히스토리로 은퇴했다.
       input: {
         main: new URL("./index.html", import.meta.url).pathname,
         universe: new URL("./universe.html", import.meta.url).pathname

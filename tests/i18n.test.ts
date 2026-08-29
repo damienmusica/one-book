@@ -9,8 +9,6 @@ import {
 } from "../src/types.ts";
 import { buildContentAccess, translationSearchForms } from "../src/i18n/index.ts";
 import { buildSearchIndex, searchAuthors } from "../src/lib/search.ts";
-import { parseHash, serializeState } from "../src/state/url.ts";
-import { initialState } from "../src/state/store.ts";
 import { assembleDataset, type RawCollections } from "../src/data/assemble.ts";
 import { makeAuthor, makeDataset } from "./fixtures.ts";
 
@@ -20,18 +18,8 @@ const VALID = {
   workIds: new Set<string>()
 };
 
-describe("locale in the URL", () => {
-  it("serializes only when non-default and round-trips", () => {
-    const s = initialState();
-    expect(serializeState(s)).not.toContain("l=");
-    const en = { ...s, locale: "en" as const };
-    const hash = serializeState(en);
-    expect(hash).toContain("l=en");
-    expect(parseHash(hash, VALID).locale).toBe("en");
-    expect(parseHash("#/", VALID).locale).toBe("ko");
-    expect(parseHash("#/?l=xx", VALID).locale).toBe("ko");
-  });
-});
+// URL-로케일 왕복 케이스는 행성 앱의 해시 라우터와 함께 은퇴했다(2026-08-29,
+// 정문 교체). 사전 완전성·검색·라벨 커버리지는 성계가 같은 모듈을 쓰므로 남는다.
 
 describe("dictionary completeness", () => {
   it("every display registry carries an English label", () => {
