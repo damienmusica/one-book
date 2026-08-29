@@ -46,12 +46,15 @@ import {
   readinessState
 } from "../src/universe/readiness.ts";
 import {
+  authorReadOrder,
   decodeShare,
+  deriveAuthorSky,
   emptyPersonal,
   encodeShare,
   growth,
   readOrder,
-  recommendTracks
+  recommendTracks,
+  type AuthorSky
 } from "../src/universe/personal.ts";
 
 const LABELS = { region: (id: string) => id, language: (c: string) => c };
@@ -393,15 +396,49 @@ describe("착륙지 준비도 — 자산 존재가 아니라 명시적 검증 �
   });
 });
 
-describe("개인 성좌 — 계정 없이", () => {
-  it("공유 링크는 왕복한다", () => {
+describe("개인 성좌 — 계정 없이, 기록은 책에", () => {
+  it("공유 링크는 왕복한다 (작품 단위)", () => {
     const p = emptyPersonal();
-    p.read["franz-kafka"] = 1;
-    p.read["natsume-soseki"] = 2;
-    p.want["rabindranath-tagore"] = 3;
+    p.read["franz-kafka--die-verwandlung"] = 1;
+    p.read["natsume-soseki--kokoro"] = 2;
+    p.want["rabindranath-tagore--gitanjali"] = 3;
     const back = decodeShare(encodeShare(p));
-    expect(back && readOrder(back)).toEqual(["franz-kafka", "natsume-soseki"]);
-    expect(back && Object.keys(back.want)).toEqual(["rabindranath-tagore"]);
+    expect(back && readOrder(back)).toEqual([
+      "franz-kafka--die-verwandlung",
+      "natsume-soseki--kokoro"
+    ]);
+    expect(back && Object.keys(back.want)).toEqual(["rabindranath-tagore--gitanjali"]);
+  });
+
+  it("v1(작가 단위) 링크는 무효다 — 빈 공유 성좌를 여는 대신 링크를 버린다", () => {
+    const legacy = emptyPersonal();
+    legacy.read["franz-kafka"] = 1; // 작가 ID — v2 의 아는 작품 집합에 없다
+    const known = new Set(["franz-kafka--die-verwandlung"]);
+    expect(decodeShare(encodeShare(legacy), known)).toBeNull();
+    // 아는 작품이 하나라도 실려 있으면 그 부분은 살아 돌아온다
+    legacy.read["franz-kafka--die-verwandlung"] = 2;
+    const back = decodeShare(encodeShare(legacy), known);
+    expect(back && readOrder(back)).toEqual(["franz-kafka--die-verwandlung"]);
+  });
+
+  it("작가의 별은 책 기록에서 파생된다 — 첫 책의 시각이 성좌 순서를 정한다", () => {
+    const p = emptyPersonal();
+    p.read["b--w1"] = 300; // 두 번째로 만난 작가
+    p.read["a--w1"] = 200;
+    p.read["a--w2"] = 100; // 같은 작가의 더 이른 책 — 이 시각이 작가의 시각
+    // 순회의 마지막 항목이 최솟값이 아니어야 "마지막 책으로 선다" 변이가 죽는다
+    p.read["a--w3"] = 150;
+    p.want["c--w1"] = 400;
+    p.want["a--w3"] = 500; // 읽은 작가도 다른 책을 담아 둘 수 있다
+    const authorOf = (id: string) => id.split("--")[0];
+    const sky = deriveAuthorSky(p, authorOf);
+    expect(authorReadOrder(sky)).toEqual(["a", "b"]);
+    expect(sky.readAt.get("a")).toBe(100);
+    expect([...sky.want].sort()).toEqual(["a", "c"]);
+    // 모르는 작품은 어느 작가도 세우지 않는다
+    const blind = deriveAuthorSky(p, () => undefined);
+    expect(blind.readAt.size).toBe(0);
+    expect(blind.want.size).toBe(0);
   });
 
   it("성좌의 성장은 표시한 시각 순서다", () => {
@@ -423,9 +460,8 @@ describe("개인 성좌 — 계정 없이", () => {
       makeAuthor({ id: "easy", regions: ["western-europe"], languages: ["fr"], difficulty: 1 })
     ];
     const rels = [makeRelation("read1", "near"), makeRelation("read1", "gap")];
-    const p = emptyPersonal();
-    p.read.read1 = 1;
-    const tracks = recommendTracks(p, authors, rels, (a) => a.difficulty, LABELS);
+    const sky: AuthorSky = { readAt: new Map([["read1", 1]]), want: new Set() };
+    const tracks = recommendTracks(sky, authors, rels, (a) => a.difficulty, LABELS);
     const byId = Object.fromEntries(tracks.map((t) => [t.id, t.items.map((i) => i.authorId)]));
     expect(byId.lineage?.[0]).toBe("near");
     expect(byId.unfamiliar).toContain("gap");
@@ -436,17 +472,26 @@ describe("개인 성좌 — 계정 없이", () => {
 
   it("모든 추천은 근거 문장을 갖는다 — 블랙박스 금지", () => {
     const authors = [makeAuthor({ id: "r" }), makeAuthor({ id: "x", difficulty: 1 })];
-    const p = emptyPersonal();
-    p.read.r = 1;
-    const tracks = recommendTracks(p, authors, [makeRelation("r", "x")], (a) => a.difficulty, LABELS);
+    const sky: AuthorSky = { readAt: new Map([["r", 1]]), want: new Set() };
+    const tracks = recommendTracks(sky, authors, [makeRelation("r", "x")], (a) => a.difficulty, LABELS);
     expect(tracks.length).toBeGreaterThan(0);
     for (const t of tracks) for (const rec of t.items) expect(rec.reasons.length).toBeGreaterThan(0);
   });
 
+  it("담아 둔 근거는 책의 이름으로 말한다", () => {
+    const authors = [makeAuthor({ id: "r" }), makeAuthor({ id: "x", difficulty: 1 })];
+    const sky: AuthorSky = { readAt: new Map([["r", 1]]), want: new Set(["x"]) };
+    const tracks = recommendTracks(sky, authors, [makeRelation("r", "x")], (a) => a.difficulty, {
+      ...LABELS,
+      wanted: (id) => (id === "x" ? "『소송』을 담아 두었다" : null)
+    });
+    const rec = tracks.flatMap((t) => t.items).find((i) => i.authorId === "x");
+    expect(rec?.reasons).toContain("『소송』을 담아 두었다");
+  });
+
   it("아무것도 안 읽었으면 추천하지 않는다", () => {
-    expect(recommendTracks(emptyPersonal(), [makeAuthor({ id: "a" })], [], () => 3, LABELS)).toEqual(
-      []
-    );
+    const empty: AuthorSky = { readAt: new Map(), want: new Set() };
+    expect(recommendTracks(empty, [makeAuthor({ id: "a" })], [], () => 3, LABELS)).toEqual([]);
   });
 });
 
