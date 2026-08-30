@@ -114,6 +114,7 @@ function page(o: {
 <title>${esc(o.title)}</title>
 <meta name="description" content="${esc(o.desc)}">
 <link rel="canonical" href="${BASE}${o.path}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='2.6' fill='%23eccb82'/%3E%3Ccircle cx='7' cy='9' r='1.3' fill='%23cfa759'/%3E%3Ccircle cx='25' cy='11' r='1.1' fill='%23cfa759'/%3E%3Ccircle cx='22' cy='24' r='1.5' fill='%23cfa759'/%3E%3Cpath d='M7 9 L16 16 L25 11 M16 16 L22 24' stroke='%236a5a3a' stroke-width='.8' fill='none'/%3E%3C/svg%3E">
 <meta property="og:title" content="${esc(o.title)}">
 <meta property="og:description" content="${esc(o.desc)}">
 <style>${CSS}</style>
@@ -122,7 +123,7 @@ ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` :
 <body>
 <header class="site">
   <a class="brand" href="/authors/">문학의 성계</a>
-  <nav><a href="/">성계(3D)</a><a href="/chart.html">성좌도(2D)</a><a href="/walk/">산책</a></nav>
+  <nav><a href="/">산책</a><a href="/chart.html">성좌도(2D)</a><a href="/universe.html">성계(3D)</a></nav>
 </header>
 ${o.body}
 <footer class="site">
@@ -165,7 +166,7 @@ function authorPage(a: Author): string {
 <p class="why">${esc(a.importanceReason)}</p>
 <div class="doors">
   <a href="/universe.html?lens=movement&a=${esc(a.id)}${landable ? "&land=1" : ""}">${landable ? "성계에서 착륙" : "성계에서 보기"}</a>
-  <a href="/walk/#${esc(a.id)}">여기서 산책 시작</a>
+  <a href="/#${esc(a.id)}">여기서 산책 시작</a>
 </div>
 <h2>입문 순서 ${ordered.length}</h2>
 <ol class="works">${ordered.map((w, i) => workRow(w, i === 0 ? a.readingEntryReason : undefined)).join("\n")}</ol>
@@ -270,7 +271,7 @@ function indexPage(): string {
 <h1>작가 ${d.authors.length}인</h1>
 <p class="life">20세기 세계문학 — 발자국이 검토된 이들만. 각 방은 입문 순서·관계·난도를 싣는다.</p>
 <div class="doors">
-  <a href="/">성계(3D)로 탐험</a><a href="/chart.html">성좌도(2D)로 보기</a><a href="/walk/">인도된 산책</a>
+  <a href="/">인도된 산책</a><a href="/chart.html">성좌도(2D)로 보기</a><a href="/universe.html">성계(3D)로 탐험</a>
 </div>
 <ul class="idx">
 ${sorted.map((a) => `<li><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${a.birthYear ?? "?"}–${a.deathYear ?? ""}</span></li>`).join("\n")}
@@ -361,7 +362,7 @@ function render(id){
   html+='<p class="orig">'+h(a.or)+' · '+h(a.life)+'</p>';
   html+='<p class="why">'+h(a.why)+'</p>';
   html+='<h2>여기서 읽기 시작한다면</h2><ul class="works">'+a.works.map(function(w,i){
-    return '<li><span class="t">'+h(w.t)+'</span><span class="y">'+w.y+'</span>'+
+    return '<li><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span>'+
     '<button class="want" data-want="'+w.id+'" onclick="lpWant(\\''+w.id+'\\',this)">읽고 싶음</button>'+
     (i===0&&a.entry?'<p class="entrywhy">'+h(a.entry)+'</p>':'')+
     '<p class="sig">'+h(w.s)+'</p></li>';}).join('')+'</ul>';
@@ -393,7 +394,7 @@ if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
   return page({
     title: "성좌 산책 — 문학의 성계",
     desc: "조종 없는 문학 산책 — 걸음마다 작가 하나, 인연을 골라 다음으로. 읽고 싶은 책을 담는다.",
-    path: "/walk/",
+    path: "/",
     body
   });
 }
@@ -415,12 +416,17 @@ for (const w of d.works) {
 }
 mkdirSync(join(OUT, "authors"), { recursive: true });
 writeFileSync(join(OUT, "authors", "index.html"), indexPage());
+// 정문 교체 (2026-08-31, 결정 (131)): 루트가 산책이다. vite 가 기입한
+// dist/index.html(성계 SPA)을 여기서 덮어쓴다 — 성계는 /universe.html 로
+// 계속 살아 있고, 3안 비교의 A안 입구는 그 주소다. 근거: CPO 1분 실사와
+// 그 재현(직접 영향 렌즈 = 이름 0개의 실타래, 카드 850자·1430px·버튼 40).
 mkdirSync(join(OUT, "walk"), { recursive: true });
 writeFileSync(join(OUT, "walk", "index.html"), walkPage());
+writeFileSync(join(OUT, "index.html"), walkPage());
 
 const urls = [
+  `${BASE}/`,
   `${BASE}/authors/`,
-  `${BASE}/walk/`,
   ...d.authors.map((a) => `${BASE}/authors/${a.id}/`),
   ...d.works.map((w) => `${BASE}/works/${w.id}/`)
 ];
