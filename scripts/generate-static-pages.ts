@@ -206,6 +206,12 @@ ${rels
 function workPage(w: Work): string {
   const a = byId.get(w.authorId);
   const world = w.world;
+  // 증언의 결정 지점 배치(선행 연구 Ⅴ-2): 이 작품을 앵커로 지목한 관계 =
+  // 작가가 작가에게 남긴 검토된 증언. BookTok 방정식(감정적 증언이 책을
+  // 판다, 증거 최강)의 우리식 정직 번역 — 지어낸 것 0.
+  const testimony = d.relations.filter((r) =>
+    (r.anchors ?? []).some((an) => (an as { workId?: string }).workId === w.id)
+  );
   const body = `
 <article>
 <h1>${esc(w.titleKo)}</h1>
@@ -218,6 +224,22 @@ ${
 ${world.written ? `<p class="edrow">집필 — ${esc(world.written)}</p>` : ""}
 ${world.editions.map((e) => `<p class="edrow">${e.kind === "first-edition" ? "초판" : "첫 인쇄"} — ${e.year}${e.month ? `. ${e.month}.` : ""} · ${esc(`${e.venue ? `${e.venue} · ` : ""}${e.publisher}, ${e.place}`)}${e.note ? ` — ${esc(e.note)}` : ""}</p>`).join("\n")}
 ${world.posthumous ? `<p class="edrow">유고 — ${esc(world.posthumous.note)}</p>` : ""}`
+    : ""
+}
+${
+  testimony.length
+    ? `<h2>이 책을 지목한 작가들의 증언 ${testimony.length}</h2>
+<ul class="rels">
+${testimony
+  .map((r) => {
+    const witnessId = r.sourceId === w.authorId ? r.targetId : r.sourceId;
+    const witness = byId.get(witnessId);
+    if (!witness) return "";
+    return `<li><a href="/authors/${esc(witnessId)}/"><strong>${esc(witness.names.ko)}</strong></a><span class="rt">${esc(REL_KO[r.type] ?? r.type)}</span>
+    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
+  })
+  .join("\n")}
+</ul>`
     : ""
 }
 <div class="doors">
@@ -304,11 +326,32 @@ var DATA=${JSON.stringify(capsule)};
 var STARTS=${JSON.stringify(STARTS)};
 var trail=[];
 function h(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+function weekly(){
+  // 유한 배달(선행 연구 Ⅴ-3): ISO 주차가 이번 주의 출발 작가를 결정한다 —
+  // 매주 다른 산책이 기다린다는 것이 "일주일 뒤 돌아온다"의 기제다.
+  var ids=Object.keys(DATA).filter(function(k){return DATA[k].hops.length>=2;}).sort();
+  var now=new Date();var jan=new Date(now.getFullYear(),0,1);
+  var week=Math.floor(((now-jan)/86400000+jan.getDay())/7);
+  return ids[(now.getFullYear()*53+week)%ids.length];
+}
 function render(id){
   var app=document.getElementById('app');
   if(!id){
-    app.innerHTML='<h2>어디서 시작할까</h2><div class="doors">'+STARTS.map(function(s){
-      return '<a href="#'+s+'" onclick="go(\\''+s+'\\');return false">'+h(DATA[s].ko)+'</a>';}).join('')+'</div>';
+    var wk=weekly();
+    app.innerHTML='<h2>어디서 시작할까</h2>'+
+      '<div class="doors"><a href="#'+wk+'" onclick="go(\\''+wk+'\\');return false">이번 주의 산책 — '+h(DATA[wk].ko)+'</a>'+
+      STARTS.map(function(s){
+      return '<a href="#'+s+'" onclick="go(\\''+s+'\\');return false">'+h(DATA[s].ko)+'</a>';}).join('')+'</div>'+
+      '<h2 style="margin-top:22px">아는 작가에서 시작</h2>'+
+      '<input id="anchor" list="authors" placeholder="좋아한 작가 이름" style="font:inherit;font-size:14px;background:none;border:1px solid var(--line);color:var(--text);padding:7px 11px;width:min(320px,100%)">'+
+      '<datalist id="authors">'+Object.keys(DATA).map(function(k){return '<option value="'+h(DATA[k].ko)+'">';}).join('')+'</datalist>';
+    var inp=document.getElementById('anchor');
+    var jump=function(){
+      var v=(inp.value||'').trim();if(!v)return;
+      for(var k in DATA){if(DATA[k].ko===v||DATA[k].ko.indexOf(v)>=0||DATA[k].or.toLowerCase().indexOf(v.toLowerCase())>=0){go(k);return;}}
+    };
+    inp.addEventListener('change',jump);
+    inp.addEventListener('keydown',function(e){if(e.key==='Enter')jump();});
     return;
   }
   var a=DATA[id];if(!a){render(null);return;}
