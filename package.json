@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run validate:data && vite build",
+    "build": "npm run validate:data && vite build && tsx scripts/generate-static-pages.ts",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --pool=forks",
@@ -25,7 +25,8 @@
     "universe:mobile": "node art-r11/verify-mobile.mjs",
     "universe:reproduce": "node art-r11/reproduce.mjs",
     "universe:mutation-sweep": "python3 ../scripts/universe-mutation-sweep.py --browser",
-    "universe:bundle": "node art-r11/bundle.mjs"
+    "universe:bundle": "node art-r11/bundle.mjs",
+    "pages:static": "tsx scripts/generate-static-pages.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -43,7 +43,9 @@ export default defineConfig({
       // 딥링크가 살아 있어야 하므로. 행성 앱은 git 히스토리로 은퇴했다.
       input: {
         main: new URL("./index.html", import.meta.url).pathname,
-        universe: new URL("./universe.html", import.meta.url).pathname
+        universe: new URL("./universe.html", import.meta.url).pathname,
+        // B안(2D 성좌도) — 3안 비교 프로토타입 (판결 §5-1)
+        chart: new URL("./chart.html", import.meta.url).pathname
       },
       output: {
         manualChunks: {
