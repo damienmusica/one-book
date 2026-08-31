@@ -115,3 +115,33 @@ describe("실물 기록 게이트 — 준비도 사다리가 표면을 지배한
     expect(showsPhysicalRecord({ authorId: "franz-kafka" })).toBe(false);
   });
 });
+
+describe("시대층은 활동 기간과 겹쳐야 한다 — 조용한 거짓 태그를 막는다", () => {
+  // 2026-08-31 고전 확장 조사가 지목한 자리. 최하 시대층이 `roots 1850–1900`
+  // 이므로 괴테(활동 ~1832)를 넣으려면 새 층이 필요한데, 겹침 검사가 경고였고
+  // 검증기가 경고에 exit 0 이라 **거짓 태그가 탐지된 뒤 무시되고 있었다.**
+  //
+  // 합성 레코드는 손으로 쓰지 않고 **실제 작가를 복제해 연도만 옮긴다** — 손으로
+  // 쓰면 다른 필드에서 먼저 걸려 정작 이 검사에 도달하지 못한다(실측).
+  // 새 작가를 만들지 않는다 — 새 id 는 자기 작품이 없어 다른 검사에 먼저 걸린다.
+  // 실제 작가 하나의 **활동 기간만** 시대층 밖으로 옮긴다.
+  const shiftFirstAuthor = (activeRange: [number, number]) => {
+    const files = REAL.authorFiles as Record<string, unknown>;
+    const key = Object.keys(files).find((k) => Array.isArray(files[k]) && (files[k] as unknown[]).length)!;
+    const list = structuredClone(files[key] as Record<string, unknown>[]);
+    list[0]!["activeRange"] = activeRange;
+    list[0]!["anchorYear"] = activeRange[0] + 1;
+    return { ...REAL, authorFiles: { ...files, [key]: list } };
+  };
+
+  it("활동 기간 밖의 시대층은 조립을 막는다", () => {
+    const { dataset, errors } = assembleDataset(shiftFirstAuthor([1770, 1832]));
+    expect(dataset).toBeNull();
+    expect(errors.join(" ")).toContain("does not overlap activeRange");
+  });
+
+  it("오늘의 코퍼스 100인은 전부 겹친다", () => {
+    const { errors } = assembleDataset(REAL);
+    expect(errors.filter((e) => e.includes("does not overlap"))).toEqual([]);
+  });
+});

@@ -284,11 +284,21 @@ export function assembleDataset(
       if (lower.has(alias)) warnings.push(`${a.id}: alias duplicates a primary name: '${alias}'`);
     }
 
-    // periods should overlap the author's active range (soft check)
+    // 시대층은 활동 기간과 겹쳐야 한다 — **경고가 아니라 에러다.**
+    //
+    // 2026-08-31 고전 확장 조사가 이 자리를 지목했다: 시대층의 최하층이
+    // `roots 1850–1900` 이라 괴테(활동 ~1832)·오스틴·발자크에게 정직한 층이
+    // 없는데, 검증기가 enum 멤버십만 보고 통과시키면 **거짓 태그가 합법**이
+    // 된다. 겹침 검사는 이미 여기 있었지만 경고였고, `validate-data.ts` 는
+    // 경고에 exit 0 이다 — 즉 거짓말이 탐지된 뒤 무시되고 있었다.
+    // 이제 막힌다. 새 시대층 없이 옛 작가를 밀어 넣는 길이 없어졌다.
     for (const p of a.periods) {
       const def = PERIOD_DEFS.find((d) => d.id === p);
       if (def && (to < def.range[0] || from > def.range[1]))
-        warnings.push(`${a.id}: period '${p}' does not overlap activeRange [${from}, ${to}]`);
+        errors.push(
+          `${a.id}: period '${p}' (${def.range[0]}–${def.range[1]}) does not overlap activeRange [${from}, ${to}] — ` +
+            `정직한 시대층이 없으면 층을 만들어야지, 있는 층에 밀어 넣으면 안 된다`
+        );
     }
   }
 
