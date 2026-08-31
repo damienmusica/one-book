@@ -9,8 +9,8 @@
 // 하드 제약 준수: 정적 HTML 뿐. 계정·DB·외부 요청·추적 없음. 담기(읽고 싶음)는
 // 방문자 브라우저의 localStorage(lp.universe.personal.v2)에만 남는다.
 
-import { cpSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { join, resolve } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
 import type { Author, Edition, Relation, Work } from "../src/types.ts";
@@ -19,7 +19,16 @@ import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
 
 const BASE = "https://literary-planet.pages.dev";
 const outArg = process.argv.indexOf("--out");
-const OUT = join(PKG_ROOT, outArg >= 0 ? (process.argv[outArg + 1] ?? "dist") : "dist");
+// resolve — join 은 절대 경로 인자를 이어 붙인다(`<root>/var/folders/…`).
+// 그 버그 때문에 --out 이 조용히 엉뚱한 자리에 굽고 있었다.
+const OUT = resolve(PKG_ROOT, outArg >= 0 ? (process.argv[outArg + 1] ?? "dist") : "dist");
+
+// 출력을 먼저 비운다. 번들러가 하던 청소를 아무도 물려받지 않아, 첫 배포에서
+// 은퇴한 진입점(universe.html · chart.html · 옛 assets 청크)이 dist 에 남은 채
+// 함께 올라갔다 — 삭제한 표면이 프로덕션에서 200 을 반환했다. 생성기는 쓰기만
+// 하고 지우지 않으므로, 지우는 것도 생성기의 일이다.
+rmSync(OUT, { recursive: true, force: true });
+mkdirSync(OUT, { recursive: true });
 
 const { dataset, errors } = assembleDataset(loadRawCollections());
 if (!dataset) throw new Error(`dataset failed: ${errors.join("; ")}`);

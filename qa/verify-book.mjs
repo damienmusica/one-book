@@ -112,6 +112,18 @@ check("증언 블록이 살아 있다", body.includes("증언"));
 
 // ─── 죽은 표면으로 가는 링크가 없다 ──────────────────────────────────────────
 console.log("\n철거 확인");
+// 철거는 dist 에서도 철거여야 한다. 첫 배포에서 이것이 거짓이었다 — 생성기가
+// 출력을 비우지 않아 은퇴한 진입점이 dist 에 남은 채 함께 올라갔고, 프로덕션의
+// /universe.html 이 옛 앱을 반환했다. 링크가 없는 것과 파일이 없는 것은 다르다.
+//
+// 주의 — **프로덕션에서 200 은 증거가 아니다**: Cloudflare Pages 는 없는 경로에
+// 404 대신 `index.html` 을 돌려준다. 그래서 배포 확인은 상태 코드가 아니라
+// **돌아온 제목**으로 한다. 여기(로컬 serve.mjs)는 404 를 돌려주므로 파일의
+// 부재를 그대로 잰다.
+for (const gone of ["/universe.html", "/chart.html", "/assets/main-oOTPV1Du.js"]) {
+  const res = await fetch(`${server.origin}${gone}`);
+  check(`${gone} 는 배포본에 없다`, res.status === 404, `HTTP ${res.status}`);
+}
 for (const p of ["/", "/authors/", "/authors/franz-kafka/", "/works/franz-kafka--die-verwandlung/"]) {
   await page.goto(`${server.origin}${p}`, { waitUntil: "load" });
   const dead = await page.evaluate(() =>
