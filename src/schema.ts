@@ -22,7 +22,26 @@ const relationTypes = RELATION_DEFS.map((r) => r.id) as [RelationType, ...Relati
 const regionIds = new Set(REGION_DEFS.map((r) => r.id));
 const languageCodes = new Set(Object.keys(LANGUAGE_LABELS));
 
-const year = z.number().int().min(1700).max(2030);
+// ── 연도 (2026-08-31, 결정 (134) — 고전 확장) ────────────────────────────────
+//
+// 하나였던 `year`(1700–2030)가 셰익스피어·세르반테스·무라사키를 Zod 단계에서
+// 죽이고 있었다. 그리고 그 선은 문학적 경계가 아니라 사고였다 — 루소(1712)는
+// 통과하고 **볼테르(1694)는 실패**했다.
+//
+// 그렇다고 일괄로 풀면 안 된다. 같은 상수가 **초간 연도**에도 걸려 있어서,
+// 하한을 -3000 으로 내리면 초판이 기원전 800년이라고 적어도 통과한다. 오늘
+// 오타를 잡던 검사가 약해지는 것이다. 그래서 타입을 나눈다 — `editionSchema.year`
+// 가 이미 `min(1900)` 으로 분리돼 있었다는 선례를 따른다.
+//
+//   lifeYear   생몰·활동·기준 연도. 기원전을 음수로 적는다(호메로스 -750 등).
+//   workYear   작품의 연도. 전승 문학은 `yearBasis` 로 그 수가 무엇인지 말한다.
+//   printYear  인쇄본이 나온 해. 구텐베르크 이전은 없다.
+const lifeYear = z.number().int().min(-3000).max(2030);
+const workYear = z.number().int().min(-3000).max(2030);
+const printYear = z.number().int().min(1400).max(2030);
+
+/** 뒤 호환용 별칭 — 관계 앵커의 연도는 작품 연도와 같은 축이다 */
+const year = workYear;
 
 export const locationSchema = z
   .object({
@@ -49,10 +68,13 @@ export const authorSchema = z
     // never invent QIDs from memory. Optional on drafts, required for reviewed+
     // (enforced in assemble).
     externalIds: z.object({ wikidata: z.string().regex(/^Q\d+$/) }).strict().optional(),
-    birthYear: year.optional(),
-    deathYear: year.optional(),
-    activeRange: z.tuple([year, year]),
-    anchorYear: year,
+    birthYear: lifeYear.optional(),
+    deathYear: lifeYear.optional(),
+    // 사람이 아닌 항목(익명 전승)은 `corpus`. 그때 생몰년은 비고 activeRange 가
+    // 전승 확인 구간이 된다 — 없는 저자를 만들어 넣지 않기 위한 유일한 장치다.
+    authorKind: z.enum(["person", "corpus"]).optional(),
+    activeRange: z.tuple([lifeYear, lifeYear]),
+    anchorYear: lifeYear,
     gender: z.enum(["female", "male", "other", "unknown"]),
     languages: z
       .array(z.string().refine((c) => languageCodes.has(c), { message: "unknown language code" }))
@@ -86,7 +108,7 @@ const workEditionSchema = z
     venue: z.string().min(1).optional(),
     publisher: z.string().min(1),
     place: z.string().min(1),
-    year,
+    year: printYear,
     month: z.number().int().min(1).max(12).optional(),
     series: z.string().min(1).optional(),
     note: z.string().min(1).optional(),
@@ -124,7 +146,13 @@ export const workSchema = z
     authorId: z.string().regex(AUTHOR_ID),
     titleKo: z.string().min(1),
     titleOriginal: z.string().min(1),
-    year,
+    year: workYear,
+    // 그 수가 무엇인지 말한다. 전승 문학에서 연도 한 칸은 "모른다"를 "안다"로
+    // 바꾸는 자리다 — 길가메시·베오울프·향가에 확정 연도는 없다. 생략하면
+    // `attested`(그 해에 나온 것이 확인됨)로 읽는다.
+    yearBasis: z
+      .enum(["attested", "composition-range", "earliest-manuscript", "first-print"])
+      .optional(),
     genre: z.enum(genreIds),
     speculative: z.boolean().optional(),
     significance: z.string().min(30),
@@ -216,6 +244,16 @@ export const editionSchema = z
     translator: z.string().min(1).optional(),
     year: z.number().int().min(1900).max(2100),
     language: z.string().min(2),
+    /**
+     * 이 판본이 무엇에서 왔는가. 2026-08-31 결정 (134).
+     *
+     * `original` 원전 직역 · `relay` 중역(제3언어를 경유) · `adaptation` 번안·재화.
+     * 이걸 적지 않으면 "한국어로 읽을 수 있다"는 표시 자체가 독자를 속인다 —
+     * 조사 실측: 김난주 겐지=세토우치 현대어역의 중역, 부희령 샤나메=Zimmern
+     * 영역 축약, 윤준 루바이야트=FitzGerald 번안, 임호경 천일야화=갈랑 프랑스어판.
+     * 번역서에는 필수다(원어가 한국어면 생략).
+     */
+    sourceTextBasis: z.enum(["original", "relay", "adaptation"]).optional(),
     verifiedFrom: z.string().min(4),
     verifiedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     note: z.string().min(1).optional()
@@ -227,7 +265,31 @@ export const editionsFileSchema = z
     version: z.string().min(1),
     checkedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     note: z.string().min(1),
-    editions: z.record(z.string(), z.array(editionSchema).min(1))
+    editions: z.record(z.string(), z.array(editionSchema).min(1)),
+    /**
+     * **없음의 원장** (2026-08-31 결정 (134), CPO: "판본 없는 작가도 남겨").
+     *
+     * 한국어 판본을 찾지 못한 작품은 지도에서 지우지 않는다 — 이름을 두고
+     * "찾지 못했다"를 **날짜와 어디를 뒤졌는지와 함께** 적는다. 산문으로 적으면
+     * 기계가 못 읽고 늙은 확인이 스스로 드러나지 않으므로 타입을 준다.
+     *
+     * `searched` 는 실제로 뒤진 목록의 이름이다. 한 곳만 뒤지고 "없음"이라
+     * 적는 것이 이 원장이 막으려는 바로 그 일이다(실측: 서양의 "없음" 99건은
+     * 2종 전집만 본 판정이었고, 다섯 계열을 더 보자 몰리에르·라신·스위프트가
+     * 되돌아왔다).
+     */
+    absent: z
+      .record(
+        z.string(),
+        z
+          .object({
+            checkedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+            searched: z.array(z.string().min(2)).min(2, "한 곳만 뒤지고 없다고 적지 않는다"),
+            note: z.string().min(1).optional()
+          })
+          .strict()
+      )
+      .optional()
   })
   .strict();
 

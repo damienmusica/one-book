@@ -63,6 +63,7 @@ G = "scripts/generate-static-pages.ts"
 R = "src/book/readiness.ts"
 A = "src/data/assemble.ts"
 S = "src/schema.ts"
+T = "src/types.ts"
 
 MUTATIONS = [
     # --- 정보 폭탄 절단: 목록은 잘려 있어야 한다 -------------------------------
@@ -105,6 +106,38 @@ MUTATIONS = [
     ("browser", "옛 이름을 되돌린다", G,
      '  <a class="brand" href="/authors/">하나의 책</a>',
      '  <a class="brand" href="/authors/">문학의 성계</a>'),
+    # --- 고전 확장 (결정 (134)) --------------------------------------------------
+    ("fast", "연도 하한을 1700 으로 되돌린다 (고전이 Zod 에서 죽는다)", S,
+     "const lifeYear = z.number().int().min(-3000).max(2030);",
+     "const lifeYear = z.number().int().min(1700).max(2030);"),
+    ("fast", "초간 연도를 작품 연도와 같은 축으로 되돌린다 (기원전 초판이 통과한다)", S,
+     "const printYear = z.number().int().min(1400).max(2030);",
+     "const printYear = z.number().int().min(-3000).max(2030);"),
+    ("fast", "yearBasis 를 아무 문자열이나 받게 한다", S,
+     '      .enum(["attested", "composition-range", "earliest-manuscript", "first-print"])',
+     "      .string()"),
+    ("fast", "authorKind 를 아무 문자열이나 받게 한다 (없는 저자 유형이 생긴다)", S,
+     'authorKind: z.enum(["person", "corpus"]).optional(),',
+     "authorKind: z.string().optional(),"),
+    ("fast", "저본 유형을 아무 문자열이나 받게 한다 (중역이 원전 직역이 된다)", S,
+     'sourceTextBasis: z.enum(["original", "relay", "adaptation"]).optional(),',
+     "sourceTextBasis: z.string().optional(),"),
+    ("fast", "한 곳만 뒤지고 없다고 적을 수 있게 한다", S,
+     'searched: z.array(z.string().min(2)).min(2, "한 곳만 뒤지고 없다고 적지 않는다"),',
+     "searched: z.array(z.string().min(2)),"),
+    ("fast", "부재 원장이 유령 작품을 가리켜도 통과시킨다", A,
+     "        if (!workById.has(workId)) errors.push(`editions.json: unknown work id '${workId}' (absent)`);",
+     "        if (false) errors.push(`editions.json: unknown work id '${workId}' (absent)`);"),
+    ("fast", "고대·중세 시대층을 지운다", T,
+     '    id: "antiquity-medieval",',
+     '    id: "roots-duplicate-probe",'),
+    ("fast", "부재를 미검수와 같은 문장으로 낸다 (찾았고 없었다가 아직 안 봤다가 된다)", G,
+     "  const gone = d.editions.absent?.[w.id];",
+     "  const gone = undefined as { checkedAt: string; searched: string[]; note?: string } | undefined;"),
+    ("fast", "관계 0인 작가가 빈 섹션을 다시 찍는다", G,
+     "  if (!rels.length) {",
+     "  if (false) {"),
+
     # --- 상태 사다리 (2026-08-31, CPO) ------------------------------------------
     ("browser", "「모르는 책」 기본값을 저장한다 (표시하지 않은 책이 레코드가 된다)", G,
      "  if(s)p.state[id]={s:s,at:Date.now()};else delete p.state[id];",

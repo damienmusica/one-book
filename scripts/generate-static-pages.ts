@@ -9,7 +9,7 @@
 // 하드 제약 준수: 정적 HTML 뿐. 계정·DB·외부 요청·추적 없음. 담기(읽고 싶음)는
 // 방문자 브라우저의 localStorage(lp.universe.personal.v2)에만 남는다.
 
-import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
@@ -30,7 +30,12 @@ const OUT = resolve(PKG_ROOT, outArg >= 0 ? (process.argv[outArg + 1] ?? "dist")
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 
-const { dataset, errors } = assembleDataset(loadRawCollections());
+const edArg = process.argv.indexOf("--editions");
+const rawCollections = loadRawCollections();
+if (edArg >= 0 && process.argv[edArg + 1]) {
+  rawCollections.editions = JSON.parse(readFileSync(resolve(process.argv[edArg + 1]!), "utf8"));
+}
+const { dataset, errors } = assembleDataset(rawCollections);
 if (!dataset) throw new Error(`dataset failed: ${errors.join("; ")}`);
 const d = dataset;
 const byId = new Map(d.authors.map((a) => [a.id, a]));
@@ -43,6 +48,15 @@ const esc = (s: string): string =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 const GLYPH: Record<string, string> = { out: "→", in: "←", both: "↔" };
+
+// 연도 한 칸이 무엇인지 말한다. 전승 문학에서 이걸 적지 않으면 "모른다"가
+// "안다"가 된다 — 길가메시·베오울프·향가에 확정 연도는 없다.
+const YEAR_BASIS_KO: Record<string, string> = {
+  attested: "",
+  "composition-range": " 무렵(성립 시기 추정)",
+  "earliest-manuscript": " (현존 최고 사본)",
+  "first-print": " (초간)"
+};
 
 // ── 상태 사다리 (2026-08-31, CPO) ────────────────────────────────────────────
 //
@@ -213,12 +227,24 @@ function acquireBlock(w: Work, a: Author | undefined): string {
 <ul class="eds">
 ${eds
   .map(
-    (e) => `  <li><span class="pub">${esc(e.publisher)}</span>${e.translator ? `<span class="meta">${esc(e.translator)} 옮김</span>` : ""}<span class="meta">${e.year}</span>${e.title !== w.titleKo ? `<span class="meta">『${esc(e.title)}』 수록</span>` : ""}
+    (e) => `  <li><span class="pub">${esc(e.publisher)}</span>${e.translator ? `<span class="meta">${esc(e.translator)} 옮김</span>` : ""}<span class="meta">${e.year}</span>${e.title !== w.titleKo ? `<span class="meta">『${esc(e.title)}』 수록</span>` : ""}${e.sourceTextBasis && e.sourceTextBasis !== "original" ? `<span class="meta">${e.sourceTextBasis === "relay" ? "중역" : "번안·재화"}</span>` : ""}
     <div><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a> · <a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a> <span class="isbn">ISBN ${esc(e.isbn13)}</span></div>
     <p class="sig">${esc(e.verifiedFrom)} · ${esc(e.verifiedAt)} 확인${e.note ? ` — ${esc(e.note)}` : ""}</p></li>`
   )
   .join("\n")}
 </ul>`;
+  }
+  // 없음의 원장이 이 작품을 이름으로 지목했다면, "아직 안 봤다"가 아니라
+  // **"찾았고 없었다"**가 사실이다. 둘은 다른 문장이고 다른 날짜를 갖는다.
+  const gone = d.editions.absent?.[w.id];
+  if (gone) {
+    return `<h2>구하기</h2>
+<p class="absent">한국어 판본을 <strong>찾지 못했다</strong> — ${esc(gone.checkedAt)} 확인. 뒤진 곳: ${esc(gone.searched.join(" · "))}.${gone.note ? ` ${esc(gone.note)}` : ""}
+이 작품은 지도에 남는다. 없는 것은 없다고 적는다.</p>
+<div class="doors">
+  <a href="${ALADIN_SEARCH(term)}" rel="nofollow noopener">그래도 찾아보기 — 알라딘</a>
+  <a href="${NL_SEARCH(term)}" rel="nofollow noopener">국립중앙도서관</a>
+</div>`;
   }
   return `<h2>구하기</h2>
 <p class="absent">한국어 판본을 아직 검수하지 않았다 (${esc(d.editions.checkedAt)} 확인). 아래는 검색으로 나가는 문이고, 우리가 확인한 판본이 아니다.</p>
@@ -264,6 +290,15 @@ function relRow(r: Relation | undefined, selfId: string): string {
 // 독자가 그 책 하나를 두고 결정하는 자리다 — 목록에서 문단을 겹쳐 쌓으면
 // 농도만 올라가고 클릭은 내려간다(Upworthy 사전등록 메타분석: 고농도 맥락에서
 // +1SD → CTR −9.9%).
+/** 이어지는 한 사람 — 0건 경로가 있어서 순수 함수로 뺐다(유닛으로 잡힌다). */
+export function relationsSection(rels: Relation[], selfId: string): string {
+  if (!rels.length) {
+    return `<p class="absent">아직 이 작가에게서 이어지는 선을 긋지 못했다. 관계는 출처가 있을 때만 그린다.</p>`;
+  }
+  return `<h2>이어지는 한 사람</h2>
+<ul class="rels">${relRow(rels[0], selfId)}</ul>`;
+}
+
 function workRow(w: Work, entryWhy?: string): string {
   return `<li>
     <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${w.year}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${stateControl(w.id)}
@@ -294,8 +329,7 @@ function authorPage(a: Author): string {
 ${rest.length ? `<details><summary>그 밖의 작품 ${rest.length}</summary><ul class="works">${rest.map((w) => workRow(w)).join("\n")}</ul></details>` : ""}
 ${a.readingWarning ? `<p class="warn">주의 — ${esc(a.readingWarning)}</p>` : ""}
 <p class="warn">난도 ${a.difficulty}/5 — ${esc(a.difficultyReason)}</p>
-<h2>이어지는 한 사람</h2>
-<ul class="rels">${relRow(rels[0], a.id)}</ul>
+${relationsSection(rels, a.id)}
 ${
   rels.length > 1
     ? `<details><summary>나머지 관계 ${rels.length - 1} — 선이 그어진 이유</summary>
@@ -337,7 +371,7 @@ function workPage(w: Work): string {
 <article>
 <h1>${esc(w.titleKo)}</h1>
 <p class="orig">${esc(w.titleOriginal ?? "")}</p>
-<p class="life">${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${w.year} · ${esc(w.genre ?? "")} ${stateControl(w.id)}</p>
+<p class="life">${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${w.year}${YEAR_BASIS_KO[w.yearBasis ?? "attested"] ?? ""} · ${esc(w.genre ?? "")} ${stateControl(w.id)}</p>
 <p class="why">${esc(w.significance)}</p>
 ${
   verified && world

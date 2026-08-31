@@ -520,6 +520,13 @@ export function assembleDataset(
       errors.push(...zodIssues("editions.json", e.error));
     } else {
       editions = e.data;
+      // 없음의 원장도 실재하는 작품만 가리켜야 한다 — 유령 작품의 부재를
+      // 적어 두면 원장이 자기 크기로 거짓말한다.
+      for (const workId of Object.keys(e.data.absent ?? {})) {
+        if (!workById.has(workId)) errors.push(`editions.json: unknown work id '${workId}' (absent)`);
+        else if (e.data.editions[workId])
+          errors.push(`editions.json: ${workId} 는 판본이 있으면서 동시에 부재로 적혀 있다`);
+      }
       const seen = new Set<string>();
       for (const [workId, list] of Object.entries(e.data.editions)) {
         if (!workById.has(workId)) {

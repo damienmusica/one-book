@@ -4,13 +4,28 @@
 // through src/data/load.ts so the data source can be swapped later.
 
 export type PeriodId =
+  // 2026-08-31 결정 (134): 고전 확장이 아래로 세 층을 연다. 최하층이
+  // `roots 1850–1900` 이라 괴테·오스틴·발자크에게 정직한 층이 없었고,
+  // 겹침 검사를 에러로 올린 뒤로는 그들을 **넣을 수 없었다**.
+  | "antiquity-medieval"
+  | "renaissance-baroque"
+  | "enlightenment-romantic"
   | "roots"
   | "early-modernism"
   | "mid-century"
   | "late-postmodern"
   | "contemporary";
 
-export type GenreId = "fiction" | "poetry" | "drama" | "essay-criticism";
+export type GenreId =
+  | "fiction"
+  | "poetry"
+  | "drama"
+  | "essay-criticism"
+  // 2026-08-31 결정 (134). `epic` 은 일리아스·아이네이스·샤나메·마하바라타가
+  // 갈 곳이 없어서, `history` 는 CPO 결재로 — 헤로도토스·사마천·플루타르코스를
+  // 서울대 권장도서 100선이 문학으로 취급하고, 우리도 그렇게 한다.
+  | "epic"
+  | "history";
 
 export type Tier = "anchor" | "major" | "context";
 
@@ -67,6 +82,15 @@ export interface Author {
   regions: string[];
   locations: AuthorLocation[];
   periods: PeriodId[];
+  /**
+   * 이 노드가 사람인가, 전승되는 텍스트 덩어리인가. 기본값 `person`.
+   *
+   * 2026-08-31 결정 (134). 목표 프레임의 20% 이상이 저자가 없다 — 길가메시·
+   * 베오울프·롤랑의 노래·천일야화·향가·시경. **익명 작품에 가짜 저자 노드를
+   * 만드는 것이 곧 지어내기이므로**, 그런 항목은 `corpus` 로 들어와 생몰년을
+   * 비우고 `activeRange` 를 전승이 확인되는 구간으로 쓴다.
+   */
+  authorKind?: "person" | "corpus";
   movements: string[];
   genres: GenreId[];
   /** 사변소설·SF 계보 태그 (fiction 층 안의 독립 필터) */
@@ -132,6 +156,12 @@ export interface Work {
   titleOriginal: string;
   /** first publication year (original language) */
   year: number;
+  /**
+   * `year` 가 무엇인지. 생략 = `attested`(그 해에 나온 것이 확인됨).
+   * 전승 문학에서 연도 한 칸은 "모른다"를 "안다"로 바꾸는 자리다 —
+   * 길가메시·베오울프·향가에 확정 연도는 없다.
+   */
+  yearBasis?: "attested" | "composition-range" | "earliest-manuscript" | "first-print";
   genre: GenreId;
   speculative?: boolean;
   significance: string;
@@ -247,6 +277,8 @@ export interface Edition {
   year: number;
   /** BCP-47 기본 태그. 오늘은 "ko" 만 쓴다 */
   language: string;
+  /** 원전 직역 / 중역 / 번안 — 번역서에는 반드시 적는다 */
+  sourceTextBasis?: "original" | "relay" | "adaptation";
   /** 이 레코드를 어디서 확인했는가 — 사람이 읽는 한 줄 */
   verifiedFrom: string;
   /** 확인한 날짜 (YYYY-MM-DD) */
@@ -262,6 +294,8 @@ export interface EditionsFile {
   checkedAt: string;
   note: string;
   editions: Record<string, Edition[]>;
+  /** 없음의 원장 — 찾지 못한 작품을 날짜·뒤진 곳과 함께 적는다 */
+  absent?: Record<string, { checkedAt: string; searched: string[]; note?: string }>;
 }
 
 export interface RegistryEntry {
@@ -360,6 +394,44 @@ export const PERIOD_DEFS: ReadonlyArray<{
   descriptionEn: string;
 }> = [
   {
+    id: "antiquity-medieval",
+    ko: "고대·중세 –1400",
+    en: "Antiquity & the Middle Ages –1400",
+    shortKo: "고대·중세",
+    shortEn: "Antiquity",
+    range: [-3000, 1400],
+    defaultOn: false,
+    description:
+      "서사시·비극·경전·기행이 문학의 형식을 처음 정한 시기. 저자가 없는 작품과 여러 세기에 걸쳐 전승된 텍스트가 여기 모인다.",
+    descriptionEn:
+      "When epic, tragedy, scripture and travel first fixed the forms of literature. Anonymous works and texts transmitted across centuries gather here."
+  },
+  {
+    id: "renaissance-baroque",
+    ko: "르네상스·바로크 1400–1700",
+    en: "Renaissance & Baroque 1400–1700",
+    shortKo: "르네상스",
+    shortEn: "Renaissance",
+    range: [1400, 1700],
+    defaultOn: false,
+    description: "인쇄술이 독자를 만들고, 희곡과 소설이 지금 우리가 아는 모양을 얻은 시기.",
+    descriptionEn:
+      "Print made readers, and drama and the novel took the shape we still recognise."
+  },
+  {
+    id: "enlightenment-romantic",
+    ko: "계몽·낭만 1700–1850",
+    en: "Enlightenment & Romanticism 1700–1850",
+    shortKo: "계몽·낭만",
+    shortEn: "Enlightenment",
+    range: [1700, 1850],
+    defaultOn: false,
+    description:
+      "'세계문학'이라는 말이 이 시기에 만들어졌다. 소설이 지배 형식이 되고, 개인의 내면이 문학의 주제가 된다.",
+    descriptionEn:
+      "The phrase 'world literature' was coined here. The novel became the dominant form and the private self became a subject."
+  },
+  {
     id: "roots",
     ko: "뿌리층 1850–1900",
     en: "Roots 1850–1900",
@@ -429,7 +501,9 @@ export const GENRE_DEFS: ReadonlyArray<{
   { id: "fiction", ko: "소설·단편", en: "Fiction", defaultOn: true },
   { id: "poetry", ko: "시", en: "Poetry", defaultOn: true },
   { id: "drama", ko: "희곡", en: "Drama", defaultOn: true },
-  { id: "essay-criticism", ko: "에세이·비평", en: "Essay & criticism", defaultOn: true }
+  { id: "essay-criticism", ko: "에세이·비평", en: "Essay & criticism", defaultOn: true },
+  { id: "epic", ko: "서사시", en: "Epic", defaultOn: true },
+  { id: "history", ko: "역사·전기", en: "History & biography", defaultOn: true }
 ];
 
 export const RELATION_DEFS: ReadonlyArray<{
@@ -578,10 +652,46 @@ export const REGION_DEFS: ReadonlyArray<{ id: string; ko: string; en: string }> 
   { id: "south-asia", ko: "남아시아", en: "South Asia" },
   { id: "middle-east-north-africa", ko: "중동·북아프리카", en: "Middle East & North Africa" },
   { id: "sub-saharan-africa", ko: "사하라 이남 아프리카", en: "Sub-Saharan Africa" },
-  { id: "oceania", ko: "오세아니아", en: "Oceania" }
+  { id: "oceania", ko: "오세아니아", en: "Oceania" },
+  // 2026-08-31 결정 (134) — 고전 확장이 필요로 하는 권역. 남아 있던 공백이
+  // 우연이 아니라 20세기 코퍼스의 지문이었다.
+  { id: "central-asia", ko: "중앙아시아", en: "Central Asia" },
+  { id: "southeast-asia", ko: "동남아시아", en: "Southeast Asia" },
+  { id: "anatolia", ko: "아나톨리아", en: "Anatolia" },
+  { id: "mesoamerica", ko: "메소아메리카", en: "Mesoamerica" },
+  { id: "andes", ko: "안데스", en: "The Andes" },
+  { id: "east-africa", ko: "동아프리카", en: "East Africa" },
+  { id: "horn-of-africa", ko: "아프리카의 뿔", en: "Horn of Africa" }
 ];
 
 export const LANGUAGE_LABELS: Record<string, string> = {
+  // ── 2026-08-31 결정 (134): 고전이 요구하는 언어 ──────────────────────────
+  // 전부 실재하는 ISO 639 코드다. 코드를 발명하지 않는다 — 발명이 곧 지어내기다.
+  // `zh` 하나가 상고 한문·문언·백화를 덮던 문제는 `lzh`(문언문)로 나눈다.
+  // 같은 이유로 `ojp`(상대 일본어)·`okm`(중세 한국어)를 둔다.
+  la: "라틴어",
+  grc: "고대 그리스어",
+  el: "그리스어",
+  sa: "산스크리트",
+  pi: "팔리어",
+  ta: "타밀어",
+  he: "히브리어",
+  nl: "네덜란드어",
+  tr: "튀르키예어",
+  chg: "차가타이어",
+  gez: "게에즈어",
+  sw: "스와힐리어",
+  nah: "나우아틀어",
+  qu: "케추아어",
+  haw: "하와이어",
+  non: "고대 노르드어",
+  enm: "중세 영어",
+  ang: "고대 영어",
+  fro: "고대 프랑스어",
+  gmh: "중세 고지 독일어",
+  lzh: "문언문(한문)",
+  ojp: "상대 일본어",
+  okm: "중세 한국어",
   ar: "아랍어",
   bn: "벵골어",
   cs: "체코어",
@@ -606,6 +716,29 @@ export const LANGUAGE_LABELS: Record<string, string> = {
 };
 
 export const LANGUAGE_LABELS_EN: Record<string, string> = {
+  la: "Latin",
+  grc: "Ancient Greek",
+  el: "Greek",
+  sa: "Sanskrit",
+  pi: "Pali",
+  ta: "Tamil",
+  he: "Hebrew",
+  nl: "Dutch",
+  tr: "Turkish",
+  chg: "Chagatai",
+  gez: "Geʽez",
+  sw: "Swahili",
+  nah: "Nahuatl",
+  qu: "Quechua",
+  haw: "Hawaiian",
+  non: "Old Norse",
+  enm: "Middle English",
+  ang: "Old English",
+  fro: "Old French",
+  gmh: "Middle High German",
+  lzh: "Literary Chinese",
+  ojp: "Old Japanese",
+  okm: "Middle Korean",
   ar: "Arabic",
   bn: "Bengali",
   cs: "Czech",
