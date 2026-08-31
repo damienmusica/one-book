@@ -44,21 +44,58 @@ const esc = (s: string): string =>
 
 const GLYPH: Record<string, string> = { out: "→", in: "←", both: "↔" };
 
-// 담기 저장소 + 성과 계측(첫 로드·첫 담기 타임스탬프 — 낯선-눈
-// 테스트의 보조 계기다. 전송 없음: 값은 이 브라우저에만 남는다).
+// ── 상태 사다리 (2026-08-31, CPO) ────────────────────────────────────────────
+//
+//   모르는 책 → 관심 있는 책 → 펼쳐본 책 → 구매한 책 → 읽은 책
+//
+// **「모르는 책」은 기본값이고 저장되지 않는다.** 사용자가 "나는 이걸 모른다"를
+// 선언하는 제품은 세상에 없다 — 그건 나머지 전부의 여집합이니까. 그런데 그
+// 여집합에 **이름을 붙이는 것**은 다른 얘기고, 그게 이 사다리의 핵심이다:
+// 표시되지 않은 책은 빈칸이 아니라 아직 만나지 않은 책이다. 새 책을 볼 때마다
+// 그 자리에서 한 칸 올리면 된다.
+//
+// 다섯 칸 전부 **독자의 선언**이다. 우리는 누가 무엇을 펼쳤는지 관측할 수 없고,
+// 페이지를 열었다는 사실에서 그것을 추론하면 지어내는 것이 된다. 「읽은 책」은
+// v2 의 `read` 를 이어받는 칸이다 — 그 기록을 버리지 않기 위해 사다리 끝에 둔다.
+//
+// 카운터·퍼센트·연속일은 없다. 독서에 대해 직접 측정된 유일한 개입이 그것을
+// 금지한다(Etkin, JCR 2016: 페이지 카운터가 독서량을 올렸지만 즐거움을 떨어뜨렸고,
+// 카운터를 떼자 그 집단이 오히려 덜 읽었다 — 3.75 vs 4.20, p=.034).
+//
+// 전송 없음: 값은 이 브라우저에만 남는다.
 const RUNTIME_JS = `
-(function(){try{var m=JSON.parse(localStorage.getItem('lp.metrics')||'{}');
-if(!m.firstLoad){m.firstLoad=Date.now();localStorage.setItem('lp.metrics',JSON.stringify(m));}}catch(e){}})();
-function lpWant(id,btn){try{var k='lp.universe.personal.v2';
-var p=JSON.parse(localStorage.getItem(k)||'{"v":2,"read":{},"want":{}}');
-if(p.want[id]){delete p.want[id];btn.classList.remove('on');btn.textContent='읽고 싶음';}
-else{p.want[id]=Date.now();btn.classList.add('on');btn.textContent='담아 둠 ✓';
-var m=JSON.parse(localStorage.getItem('lp.metrics')||'{}');
-if(!m.firstWant){m.firstWant=Date.now();localStorage.setItem('lp.metrics',JSON.stringify(m));}}
-localStorage.setItem(k,JSON.stringify(p));}catch(e){}}
-(function(){try{var p=JSON.parse(localStorage.getItem('lp.universe.personal.v2')||'null');
-if(!p)return;document.querySelectorAll('[data-want]').forEach(function(b){
-if(p.want&&p.want[b.getAttribute('data-want')]){b.classList.add('on');b.textContent='담아 둠 ✓';}});}catch(e){}})();
+var LP_STATES=[['','모르는 책'],['want','관심 있는 책'],['opened','펼쳐본 책'],['have','구매한 책'],['read','읽은 책']];
+var LP_KEY='lp.reader.v3';
+function lpLoad(){try{
+  var raw=localStorage.getItem(LP_KEY);
+  if(raw)return JSON.parse(raw);
+  // v2 이관 — want/read 는 같은 작품 키에 대한 같은 주장이다. 타임스탬프를 보존해 옮긴다.
+  var old=JSON.parse(localStorage.getItem('lp.universe.personal.v2')||'null');
+  var p={v:3,state:{}};
+  if(old){
+    for(var k in (old.want||{}))p.state[k]={s:'want',at:old.want[k]};
+    for(var k2 in (old.read||{}))p.state[k2]={s:'read',at:old.read[k2]};
+    localStorage.setItem(LP_KEY,JSON.stringify(p));
+  }
+  return p;
+}catch(e){return {v:3,state:{}};}}
+function lpSave(p){try{localStorage.setItem(LP_KEY,JSON.stringify(p));}catch(e){}}
+function lpMetric(name){try{var m=JSON.parse(localStorage.getItem('lp.metrics')||'{}');
+if(!m[name]){m[name]=Date.now();localStorage.setItem('lp.metrics',JSON.stringify(m));}}catch(e){}}
+function lpSet(id,s,el){var p=lpLoad();
+  if(s)p.state[id]={s:s,at:Date.now()};else delete p.state[id];
+  lpSave(p);
+  if(el)el.setAttribute('data-state',s||'');
+  lpMetric('firstMark');
+  if(s==='want')lpMetric('firstWant');}
+function lpPaint(){var p=lpLoad();
+  var sels=document.querySelectorAll('select[data-work]');
+  for(var i=0;i<sels.length;i++){var el=sels[i];var id=el.getAttribute('data-work');
+    var cur=(p.state[id]&&p.state[id].s)||'';el.value=cur;el.setAttribute('data-state',cur);
+    if(!el.getAttribute('data-bound')){el.setAttribute('data-bound','1');
+      el.addEventListener('change',function(){lpSet(this.getAttribute('data-work'),this.value,this);});}}}
+(function(){lpMetric('firstLoad');
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',lpPaint);else lpPaint();})();
 `.trim();
 
 const CSS = `
@@ -82,9 +119,15 @@ ol.works,ul.works{list-style:none}
 .works .sig{color:var(--dim);font-size:13.5px;margin-top:3px}
 .works .entrywhy{color:var(--text);font-size:13.5px;margin-top:3px}
 .tag{font-size:10.5px;border:1px solid var(--line);border-radius:2px;padding:1px 6px;margin-left:7px;color:var(--dim);vertical-align:1px}
-button.want{font:inherit;font-size:11px;letter-spacing:.05em;color:var(--dim);background:none;
-border:1px solid var(--line);border-radius:2px;padding:2px 8px;margin-left:8px;cursor:pointer;white-space:nowrap;vertical-align:1px}
-button.want.on{background:rgba(207,167,89,.16);color:var(--text);border-color:var(--brass)}
+select.state{font:inherit;font-size:11px;letter-spacing:.05em;color:var(--faint);background:none;
+border:1px solid var(--line);border-radius:2px;padding:2px 6px;margin-left:8px;cursor:pointer;
+vertical-align:1px;-webkit-appearance:none;appearance:none}
+select.state option{background:var(--bg);color:var(--text)}
+/* 사다리를 오를수록 잉크가 진해진다. 숫자도 퍼센트도 없다 — 칸의 이름뿐이다. */
+select.state[data-state="want"]{color:var(--brass-b);border-color:var(--brass-a55,rgba(207,167,89,.5))}
+select.state[data-state="opened"]{color:var(--brass-b);border-color:var(--brass);background:rgba(207,167,89,.08)}
+select.state[data-state="have"]{color:var(--text);border-color:var(--brass);background:rgba(207,167,89,.16)}
+select.state[data-state="read"]{color:var(--paper);border-color:var(--brass-b);background:rgba(207,167,89,.28)}
 ul.rels{list-style:none}
 .rels li{padding:8px 0;border-bottom:1px dashed var(--line);font-size:14px}
 .rels .g{color:var(--brass);margin-right:6px}.rels .rt{font-size:11px;color:var(--faint);margin:0 6px}
@@ -131,6 +174,7 @@ function page(o: {
 <meta property="og:title" content="${esc(o.title)}">
 <meta property="og:description" content="${esc(o.desc)}">
 <style>${CSS}</style>
+<script>${RUNTIME_JS}</script>
 ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` : ""}
 </head>
 <body>
@@ -143,7 +187,6 @@ ${o.body}
   작가 ${d.authors.length}인 · 작품 ${d.works.length}편 · 관계 ${d.relations.length}건 · 출처 ${d.sources.length}건 —
   전부 검토된 큐레이션이다. 지어내지 않는다: 없는 것은 없다고 적는다.
 </footer>
-<script>${RUNTIME_JS}</script>
 </body>
 </html>`;
 }
@@ -186,8 +229,18 @@ ${eds
 </div>`;
 }
 
-function wantBtn(workId: string): string {
-  return `<button class="want" data-want="${esc(workId)}" onclick="lpWant('${esc(workId)}',this)">읽고 싶음</button>`;
+const STATE_OPTIONS = [
+  ["", "모르는 책"],
+  ["want", "관심 있는 책"],
+  ["opened", "펼쳐본 책"],
+  ["have", "구매한 책"],
+  ["read", "읽은 책"]
+] as const;
+
+/** 사다리 한 칸. 기본값 「모르는 책」은 저장되지 않고, 이름만 갖는다. */
+function stateControl(workId: string): string {
+  const opts = STATE_OPTIONS.map(([v, ko]) => `<option value="${v}">${ko}</option>`).join("");
+  return `<select class="state" data-work="${esc(workId)}" data-state="" aria-label="상태">${opts}</select>`;
 }
 
 // 관계 한 줄. 2026-08-31 실측: 배포된 작가 페이지 100/100 이 카드 부채 상한
@@ -213,7 +266,7 @@ function relRow(r: Relation | undefined, selfId: string): string {
 // +1SD → CTR −9.9%).
 function workRow(w: Work, entryWhy?: string): string {
   return `<li>
-    <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${w.year}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${wantBtn(w.id)}
+    <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${w.year}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${stateControl(w.id)}
     ${entryWhy ? `<p class="entrywhy">${esc(firstSentence(entryWhy))}</p>` : ""}
     <p class="sig">${esc(firstSentence(w.significance))}</p>
   </li>`;
@@ -284,7 +337,7 @@ function workPage(w: Work): string {
 <article>
 <h1>${esc(w.titleKo)}</h1>
 <p class="orig">${esc(w.titleOriginal ?? "")}</p>
-<p class="life">${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${w.year} · ${esc(w.genre ?? "")} ${wantBtn(w.id)}</p>
+<p class="life">${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${w.year} · ${esc(w.genre ?? "")} ${stateControl(w.id)}</p>
 <p class="why">${esc(w.significance)}</p>
 ${
   verified && world
@@ -431,7 +484,7 @@ function render(id){
   html+='<p class="why">'+h(a.why)+'</p>';
   html+='<h2>여기서 읽기 시작한다면</h2><ul class="works">'+a.works.map(function(w,i){
     return '<li><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span>'+
-    '<button class="want" data-want="'+w.id+'" onclick="lpWant(\\''+w.id+'\\',this)">읽고 싶음</button>'+
+    lpControl(w.id)+
     (i===0&&a.entry?'<p class="entrywhy">'+h(a.entry)+'</p>':'')+
     '<p class="sig">'+h(w.s)+'</p></li>';}).join('')+'</ul>';
   html+='<h2>다음 걸음 — 인연을 골라라</h2><ul class="rels">'+a.hops.map(function(x){
@@ -441,20 +494,25 @@ function render(id){
   html+='<div class="doors"><a href="/authors/'+id+'/">이 작가의 방(전체 기록)</a>'+
     '<a href="#" onclick="finish();return false">오늘 여기까지</a></div>';
   app.innerHTML=html;
-  try{var p=JSON.parse(localStorage.getItem('lp.universe.personal.v2')||'null');
-  if(p&&p.want)document.querySelectorAll('[data-want]').forEach(function(b){
-  if(p.want[b.getAttribute('data-want')]){b.classList.add('on');b.textContent='담아 둠 ✓';}});}catch(e){}
+  lpPaint();
   window.scrollTo(0,0);
 }
 function go(id){trail.push(id);history.replaceState(null,'','#'+id);render(id);}
+function lpControl(id){
+  var o='';for(var i=0;i<LP_STATES.length;i++)o+='<option value="'+LP_STATES[i][0]+'">'+LP_STATES[i][1]+'</option>';
+  return '<select class="state" data-work="'+id+'" data-state="" aria-label="상태">'+o+'</select>';
+}
 function finish(){
-  var app=document.getElementById('app');var n=0,items=[];
-  try{var p=JSON.parse(localStorage.getItem('lp.universe.personal.v2')||'null');
-  if(p&&p.want){for(var k in p.want){n++;items.push(k);}}}catch(e){}
-  app.innerHTML='<h2>오늘 담은 것</h2><p class="why">담은 책 '+n+'권. '+
-  (n?'담은 것들: '+items.map(function(k){return '<a href="/works/'+k+'/">'+k+'</a>';}).join(' · '):
-  '아직 없다 — 괜찮다, 책은 닫히지 않는다.')+'</p>'+
-  '<div class="doors"><a href="#" onclick="trail=[];render(null);return false">다시 펴기</a><a href="/authors/">작가 색인</a></div>';
+  var app=document.getElementById('app');var p=lpLoad();var by={};var any=[];
+  for(var k in p.state){var s=p.state[k].s;(by[s]=by[s]||[]).push(k);any.push(k);}
+  var lines='';
+  for(var i=1;i<LP_STATES.length;i++){var code=LP_STATES[i][0];var list=by[code]||[];
+    if(!list.length)continue;
+    lines+='<h2>'+LP_STATES[i][1]+' '+list.length+'</h2><p class="sig">'+
+      list.map(function(k){return '<a href="/works/'+k+'/">'+k+'</a>';}).join(' · ')+'</p>';}
+  app.innerHTML='<h2>오늘 여기까지</h2>'+
+    (any.length?lines:'<p class="why">아직 표시한 책이 없다 — 괜찮다, 책은 닫히지 않는다.</p>')+
+    '<div class="doors"><a href="#" onclick="trail=[];render(null);return false">다시 펴기</a><a href="/authors/">작가 색인</a></div>';
 }
 var start=location.hash.replace('#','');
 if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
