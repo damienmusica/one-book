@@ -17,7 +17,8 @@
     "qc:backfill-qids": "tsx scripts/backfill-qids.ts",
     "editions:resolve": "tsx scripts/resolve-editions.ts",
     "verify:book": "node qa/verify-book.mjs",
-    "release": "npm run typecheck && npm run test && npm run build && npm run verify:book"
+    "release": "npm run typecheck && npm run test && npm run build && npm run verify:book",
+    "mutation-sweep": "python3 scripts/mutation-sweep.py --browser"
   },
   "dependencies": {
     "zod": "^3.24.1"

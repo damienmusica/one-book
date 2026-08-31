@@ -17,7 +17,7 @@ vault `reference/booksphere-literature-boundary-thesis.md`가 상류 근거다. 
 같은 인물(예: 카프카)이 두 구체에 다른 렌즈로 존재할 수 있다.
 
 **지위:** 사이드프로젝트 · 프로토타입. Noosphere 본체의 `/data`, `foundry/`, 거버넌스 문서와
-완전히 분리된 자립 패키지(`literary-planet/`)로 존재한다. 본체 차터에 대한 스코프 포인터 추가는
+완전히 분리된 자립 레포로 존재한다(2026-08-31 분가; 그 전에는 `literary-planet/` 하위 디렉터리였다). 본체 차터에 대한 스코프 포인터 추가는
 CPO 게이트(결정 (91) stop-set: 거버넌스 변경)이므로 이 프로토타입은 수행하지 않는다.
 
 ## 상속하는 하드 제약 (Noosphere 부트스트랩 규율 미러 — 결정 (86) §4)

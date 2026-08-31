@@ -9,10 +9,13 @@
 정체성과 경계는 [docs/one-book.md](docs/one-book.md), 상급 게이트와 손 떼기
 조건은 [docs/one-sentence-contract.md](docs/one-sentence-contract.md).
 
+2026-08-31 에 [Noosphere](https://github.com/damienmusica/Noosphere) 에서 분가했다
+(그 전 히스토리는 `literary-planet/` 하위에 있다). 두 레포는 코드를 공유하지 않고,
+엔티티 동일성의 조인 키는 Wikidata QID 다.
+
 ## 실행
 
 ```bash
-cd literary-planet
 npm install
 npm run build      # validate:data → 정적 616쪽을 dist/ 에 굽는다
 npm run serve      # dist/ 를 띄운다
@@ -31,7 +34,7 @@ npm run build
 npm run verify:book    # 브라우저 계약 — 그려진 글자를 잰다
 npm run release        # 위 넷을 순서대로
 
-python3 ../scripts/book-mutation-sweep.py --browser   # 계약에 이빨이 있는가 (유지보수자용)
+npm run mutation-sweep    # 계약에 이빨이 있는가 (유지보수자용, 느림)
 ```
 
 `verify:book` 이 재는 것은 DOM 노드가 아니라 **그려진 글자**(innerText)다.
