@@ -108,9 +108,8 @@ export function makeDataset(
       batch: "test"
     })),
     translations: [],
-    territory: null,
-    territoryEras: null,
     portraits: [],
+  editions: { version: "1", checkedAt: "2026-08-31", note: "fixture", editions: {} },
     ...extra
   };
 }

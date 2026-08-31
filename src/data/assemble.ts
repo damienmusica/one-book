@@ -7,10 +7,9 @@ import {
   movementsFileSchema,
   toursFileSchema,
   portraitsSchema,
+  editionsFileSchema,
   positionsSchema,
   registrySchema,
-  territorySchema,
-  territoryErasSchema,
   authorTranslationsFileSchema,
   workTranslationsFileSchema,
   relationTranslationsFileSchema,
@@ -24,8 +23,6 @@ import type {
   LocalePack,
   Relation,
   RelationType,
-  Territory,
-  TerritoryEras,
   Work
 } from "../types.ts";
 
@@ -47,12 +44,10 @@ export interface RawCollections {
    * "en/tours.json") → parsed JSON
    */
   translationFiles?: Record<string, unknown>;
-  /** data/territory.v1.json (frozen terrain), when generated */
-  territory?: unknown;
-  /** data/territory.v1.eras.json (tectonic keyframes), when baked */
-  territoryEras?: unknown;
   /** data/portraits.json (imagined-portrait editorial records), when present */
   portraits?: unknown;
+  /** data/editions.json (검수된 판본 원장), when present */
+  editions?: unknown;
 }
 
 export interface AssembleResult {
@@ -500,120 +495,38 @@ export function assembleDataset(
     }
   }
 
-  // --- frozen terrain (optional until generated) ----------------------------
-  let territoryEras: TerritoryEras | null = null;
-  if (raw.territoryEras !== undefined && raw.territoryEras !== null) {
-    const e = territoryErasSchema.safeParse(raw.territoryEras);
+  // --- 판본 원장 ------------------------------------------------------------
+  // 원장은 비어 있어도 유효하다 — 비어 있음이 곧 "아직 검수하지 않았다"는
+  // 사실이고, checkedAt 이 그 사실에 날짜를 붙인다.
+  let editions: Dataset["editions"] = {
+    version: "0",
+    checkedAt: "unset",
+    note: "data/editions.json 이 없다",
+    editions: {}
+  };
+  if (raw.editions !== undefined && raw.editions !== null) {
+    const e = editionsFileSchema.safeParse(raw.editions);
     if (!e.success) {
-      errors.push(...zodIssues("territory.v1.eras.json", e.error));
+      errors.push(...zodIssues("editions.json", e.error));
     } else {
-      const years = e.data.keyframes.map((k) => k.year);
-      if (!years.every((y, i) => i === 0 || y > years[i - 1]!)) {
-        errors.push("territory.v1.eras.json: keyframe years must be strictly increasing");
-      }
-      territoryEras = e.data;
-    }
-  }
-
-  let territory: Territory | null = null;
-  if (raw.territory !== undefined && raw.territory !== null) {
-    const t = territorySchema.safeParse(raw.territory);
-    if (!t.success) {
-      errors.push(...zodIssues("territory.v1.json", t.error));
-    } else {
-      for (const id of Object.keys(t.data.weights)) {
-        if (!authorById.has(id)) errors.push(`territory.v1.json: unknown author in weights: ${id}`);
-      }
-      for (const id of Object.keys(t.data.areaShares)) {
-        if (!authorById.has(id))
-          errors.push(`territory.v1.json: unknown author in areaShares: ${id}`);
-      }
-      for (const a of authors) {
-        if (!(a.id in t.data.weights))
-          errors.push(`territory.v1.json: author missing from weights: ${a.id}`);
-      }
-      // baked geometry must be self-consistent — the renderer trusts it blindly
-      const g = t.data.geometry;
-      const authorIds = new Set(authors.map((a) => a.id));
-      if (
-        g.authors.length !== authorIds.size ||
-        g.authors.some((id) => !authorIds.has(id))
-      ) {
-        errors.push(
-          "territory.v1.json: geometry.authors must list exactly the corpus author ids"
-        );
-      }
-      if (g.ownerRle.length !== g.gridHeight - 1) {
-        errors.push(
-          `territory.v1.json: ownerRle has ${g.ownerRle.length} rows, expected gridHeight-1 = ${g.gridHeight - 1}`
-        );
-      }
-      g.ownerRle.forEach((row, j) => {
-        let sum = 0;
-        for (let k = 0; k + 1 < row.length; k += 2) {
-          sum += row[k]!;
-          const v = row[k + 1]!;
-          if (v > g.authors.length)
-            errors.push(`territory.v1.json: ownerRle row ${j} references owner ${v} out of range`);
-        }
-        if (sum !== g.gridWidth)
-          errors.push(
-            `territory.v1.json: ownerRle row ${j} sums to ${sum}, expected gridWidth = ${g.gridWidth}`
-          );
-      });
-      const checkBounds = (lines: number[][], w: number, h: number, what: string): void => {
-        for (const line of lines) {
-          for (let k = 0; k + 1 < line.length; k += 2) {
-            const x = line[k]!;
-            const y = line[k + 1]!;
-            if (x < 0 || x > w || y < 0 || y > h - 1) {
-              errors.push(`territory.v1.json: ${what} point (${x}, ${y}) outside grid ${w}×${h}`);
-              return;
-            }
-          }
-        }
-      };
-      checkBounds(g.coast, g.gridWidth, g.gridHeight, "coast");
-      checkBounds(g.boundaries, g.gridWidth, g.gridHeight, "boundary");
-      checkBounds(g.waterlines.inner, g.waterlines.gridWidth, g.waterlines.gridHeight, "inner waterline");
-      checkBounds(g.waterlines.outer, g.waterlines.gridWidth, g.waterlines.gridHeight, "outer waterline");
-      // cities must mirror the works corpus exactly — a works edit without a
-      // re-bake fails here on purpose (stale atlas is a data error)
-      const worksByAuthorId = new Map<string, Set<string>>();
-      for (const w of works) {
-        let set = worksByAuthorId.get(w.authorId);
-        if (!set) worksByAuthorId.set(w.authorId, (set = new Set()));
-        set.add(w.id);
-      }
-      for (const [aid, c] of Object.entries(g.cities)) {
-        if (!authorById.has(aid)) {
-          errors.push(`territory.v1.json: cities entry for unknown author ${aid}`);
+      editions = e.data;
+      const seen = new Set<string>();
+      for (const [workId, list] of Object.entries(e.data.editions)) {
+        if (!workById.has(workId)) {
+          errors.push(`editions.json: unknown work id '${workId}'`);
           continue;
         }
-        const want = worksByAuthorId.get(aid) ?? new Set();
-        const have = new Set(c.towns.map((tw) => tw.id));
-        if (have.size !== c.towns.length)
-          errors.push(`territory.v1.json: cities[${aid}] has duplicate towns`);
-        if (want.size !== have.size || [...want].some((id) => !have.has(id)))
-          errors.push(
-            `territory.v1.json: cities[${aid}] towns do not match the author's works — re-bake territory`
-          );
-        for (const tw of c.towns) {
-          if (tw.x < 0 || tw.x > g.gridWidth || tw.y < 0 || tw.y > g.gridHeight - 1)
-            errors.push(`territory.v1.json: cities[${aid}] town ${tw.id} outside grid`);
+        for (const ed of list) {
+          if (seen.has(ed.isbn13)) errors.push(`editions.json: ISBN 중복 ${ed.isbn13}`);
+          seen.add(ed.isbn13);
+          const w = workById.get(workId)!;
+          if (ed.year < w.year) {
+            errors.push(
+              `editions.json: ${workId} 판본 연도 ${ed.year} 가 작품 연도 ${w.year} 보다 앞선다`
+            );
+          }
         }
-        if (c.road.length % 2 !== 0 || (c.road.length > 0 && c.road.length < 4))
-          errors.push(`territory.v1.json: cities[${aid}] road must be empty or ≥2 points`);
-        if (c.port === null && c.portWork !== null)
-          errors.push(`territory.v1.json: cities[${aid}] portWork without a port`);
-        if (c.portWork !== null && !have.has(c.portWork))
-          errors.push(`territory.v1.json: cities[${aid}] portWork is not one of its towns`);
       }
-      for (const a of authors) {
-        if ((worksByAuthorId.get(a.id)?.size ?? 0) > 0 && !(a.id in g.cities))
-          errors.push(`territory.v1.json: author ${a.id} missing from cities — re-bake territory`);
-      }
-      territory = t.data as Territory;
     }
   }
 
@@ -680,9 +593,8 @@ export function assembleDataset(
     positions,
     registry,
     translations,
-    territory,
-    territoryEras,
-    portraits
+    portraits,
+    editions
   };
   return { dataset: errors.length === 0 ? dataset : null, errors, warnings };
 }

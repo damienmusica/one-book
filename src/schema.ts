@@ -194,100 +194,44 @@ export const tourSchema = z
   })
   .strict();
 
-/** flat [x0,y0,x1,y1,…] polyline in baked grid coordinates */
-const flatLine = z
-  .array(z.number())
-  .refine((a) => a.length % 2 === 0 && a.length >= 4, {
-    message: "flat polyline needs an even count of at least 4 numbers"
-  });
 
-export const territorySchema = z
+// --- 판본 원장 (2026-08-31) ------------------------------------------------
+// 지어내지 않는다의 기계 판본: ISBN 은 체크섬이 맞아야 하고, 모든 레코드는
+// **어디서 확인했는지와 언제 확인했는지**를 들고 와야 한다. 확인 없이 들어온
+// 판본은 존재하지 않는 판본이다.
+
+/** ISBN-13 체크섬 — 마지막 자리는 앞 12자리가 정한다 */
+export function isbn13Valid(s: string): boolean {
+  if (!/^\d{13}$/.test(s)) return false;
+  let sum = 0;
+  for (let i = 0; i < 12; i++) sum += Number(s[i]) * (i % 2 === 0 ? 1 : 3);
+  return (10 - (sum % 10)) % 10 === Number(s[12]);
+}
+
+export const editionSchema = z
+  .object({
+    isbn13: z.string().refine(isbn13Valid, { message: "ISBN-13 체크섬이 맞지 않는다" }),
+    title: z.string().min(1),
+    publisher: z.string().min(1),
+    translator: z.string().min(1).optional(),
+    year: z.number().int().min(1900).max(2100),
+    language: z.string().min(2),
+    verifiedFrom: z.string().min(4),
+    verifiedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    note: z.string().min(1).optional()
+  })
+  .strict();
+
+export const editionsFileSchema = z
   .object({
     version: z.string().min(1),
-    seed: z.number().int(),
-    generatedAt: z.string().min(1),
-    params: z
-      .object({
-        R0: z.number().positive(),
-        tau: z.number().positive(),
-        warpAmp: z.number().min(0),
-        warpFreq: z.number().positive(),
-        warpOctaves: z.number().int().positive(),
-        kappa: z.string(),
-        areaWeight: z.string()
-      })
-      .strict(),
-    landFraction: z.number().min(0).max(1),
-    weights: z.record(z.string().regex(AUTHOR_ID), z.number().positive()),
-    areaShares: z.record(z.string().regex(AUTHOR_ID), z.number().min(0)),
-    // renderer-facing bake (scripts/lib/terrain.ts bakeGeometry) — the app
-    // draws only this; it never evaluates the noise field itself
-    geometry: z
-      .object({
-        gridWidth: z.number().int().min(2),
-        gridHeight: z.number().int().min(2),
-        authors: z.array(z.string().regex(AUTHOR_ID)).min(1),
-        coast: z.array(flatLine),
-        waterlines: z
-          .object({
-            gridWidth: z.number().int().min(2),
-            gridHeight: z.number().int().min(2),
-            isoFactors: z.tuple([z.number().positive(), z.number().positive()]),
-            inner: z.array(flatLine),
-            outer: z.array(flatLine)
-          })
-          .strict(),
-        boundaries: z.array(flatLine),
-        ownerRle: z.array(z.array(z.number().int().nonnegative())),
-        // P3: works as towns, reading entry as port, reading order as road
-        cities: z.record(
-          z.string().regex(AUTHOR_ID),
-          z
-            .object({
-              port: z.tuple([z.number(), z.number()]).nullable(),
-              portWork: z.string().regex(WORK_ID).nullable(),
-              towns: z
-                .array(
-                  z.object({ id: z.string().regex(WORK_ID), x: z.number(), y: z.number() }).strict()
-                ),
-              road: z.array(z.number())
-            })
-            .strict()
-        )
-      })
-      .strict()
+    checkedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    note: z.string().min(1),
+    editions: z.record(z.string(), z.array(editionSchema).min(1))
   })
   .strict();
 
 /** data/portraits.json — editorial iconography records (thesis ④-3) */
-export const territoryErasSchema = z
-  .object({
-    version: z.string().min(1),
-    derivedFrom: z.string().min(1),
-    seed: z.number().int(),
-    params: z
-      .object({
-        gMin: z.number().min(0).max(1),
-        foundingRamp: z.number().positive(),
-        jitterRad: z.number().min(0),
-        growth: z.string(),
-        erosion: z.string()
-      })
-      .strict(),
-    keyframes: z
-      .array(
-        z
-          .object({
-            year: z.number().int(),
-            ownerRle: z.array(z.array(z.number().int().min(0))),
-            coast: z.array(z.array(z.number()))
-          })
-          .strict()
-      )
-      .min(2)
-  })
-  .strict();
-
 export const portraitsSchema = z
   .object({
     version: z.string().min(1),

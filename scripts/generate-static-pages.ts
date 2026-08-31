@@ -1,25 +1,21 @@
-// 정적 표면 생성기 — 판결 §5-2(정직성의 위치 이동)와 §5-6(발견 가능한 표면)의
-// 집행 (2026-08-30, CPO 전면 수용).
+// 하나의 책 — 정적 표면 생성기. 이 파일이 제품의 전부다.
 //
-// 작가 100인·작품 513편 전부에 대해, 우리가 이미 소유한 큐레이션 산문
-// (importanceReason·significance·관계 요약·입문 순서·난도·자체 번역)으로
-// **심층 페이지**를 굽는다. 실물 자산은 관문이 아니라 보석이다 — 있으면 얹는다.
-// 캔버스 SPA는 검색엔진·LLM 에 불가시였다(라이벌 §7 "당신은 세계를 지었고
-// 나는 주소를 지었다") — 이 페이지들이 주소다.
+// 2026-08-31 철거(결정 (132)) 이후 이 레포에 번들러도 SPA 도 없다. 작가 100인·
+// 작품 513편·관계 263건을 우리가 이미 소유한 큐레이션 산문으로 구운 **정적
+// HTML** 이 제품이고, 이 스크립트가 그것을 굽는다.
 //
 //   tsx scripts/generate-static-pages.ts [--out dist]
 //
-// 하드 제약 준수: 정적 HTML 뿐. 계정·DB·외부 요청 없음. 담기(읽고 싶음)는
-// 성계와 같은 localStorage(lp.universe.personal.v2)를 쓴다 — 표면이 달라도
-// 성좌는 하나다.
+// 하드 제약 준수: 정적 HTML 뿐. 계정·DB·외부 요청·추적 없음. 담기(읽고 싶음)는
+// 방문자 브라우저의 localStorage(lp.universe.personal.v2)에만 남는다.
 
-import { mkdirSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
-import type { Author, Relation, Work } from "../src/types.ts";
-import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/universe/relations.ts";
-import { READY_IDS } from "../src/universe/readiness.ts";
+import type { Author, Edition, Relation, Work } from "../src/types.ts";
+import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/book/relations.ts";
+import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
 
 const BASE = "https://literary-planet.pages.dev";
 const outArg = process.argv.indexOf("--out");
@@ -39,7 +35,7 @@ const esc = (s: string): string =>
 
 const GLYPH: Record<string, string> = { out: "→", in: "←", both: "↔" };
 
-// 성계와 같은 성좌 저장소 + 성과 계측(첫 로드·첫 담기 타임스탬프 — 낯선-눈
+// 담기 저장소 + 성과 계측(첫 로드·첫 담기 타임스탬프 — 낯선-눈
 // 테스트의 보조 계기다. 전송 없음: 값은 이 브라우저에만 남는다).
 const RUNTIME_JS = `
 (function(){try{var m=JSON.parse(localStorage.getItem('lp.metrics')||'{}');
@@ -95,6 +91,14 @@ blockquote.open .lbl{font-size:10.5px;color:var(--faint);letter-spacing:.1em}
 footer.site{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--faint)}
 .idx{columns:2;column-gap:28px;font-size:14.5px}.idx li{padding:4px 0;list-style:none;break-inside:avoid}
 .idx .y{color:var(--faint);font-size:11.5px;margin-left:6px}
+details{margin:6px 0 2px}
+details>summary{cursor:pointer;font-size:12.5px;letter-spacing:.12em;color:var(--faint);padding:4px 0}
+details>summary:hover{color:var(--brass-b)}
+ul.eds{list-style:none}
+.eds li{padding:8px 0;border-bottom:1px dashed var(--line);font-size:14px}
+.eds .pub{color:var(--text)}.eds .meta{color:var(--faint);font-size:12px;margin-left:6px}
+.eds .isbn{color:var(--faint);font-size:11.5px;letter-spacing:.04em}
+.absent{color:var(--dim);font-size:13.5px;margin:6px 0 10px}
 @media(max-width:560px){.idx{columns:1}}
 `.trim();
 
@@ -122,8 +126,8 @@ ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` :
 </head>
 <body>
 <header class="site">
-  <a class="brand" href="/authors/">문학의 성계</a>
-  <nav><a href="/">산책</a><a href="/chart.html">성좌도(2D)</a><a href="/universe.html">성계(3D)</a></nav>
+  <a class="brand" href="/authors/">하나의 책</a>
+  <nav><a href="/">첫 장</a><a href="/authors/">색인</a></nav>
 </header>
 ${o.body}
 <footer class="site">
@@ -137,15 +141,72 @@ ${o.body}
 
 const firstSentence = (s: string): string => s.match(/^.*?다\./)?.[0] ?? s;
 
+// ── 구하기 (판본 레이어) ───────────────────────────────────────────────────
+// 서점·도서관으로 나가는 문은 **결정론적 링크**다: 크롤링도 API 키도 없이,
+// 제목과 작가 이름만으로 주소가 정해진다. 검수된 판본이 있으면 그 ISBN 의
+// 상품 페이지로, 없으면 검색으로 — 그리고 없다는 사실을 날짜와 함께 적는다.
+const q = (s: string): string => encodeURIComponent(s);
+const ALADIN_ISBN = (isbn: string): string =>
+  `https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=${isbn}`;
+const ALADIN_SEARCH = (s: string): string =>
+  `https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=${q(s)}`;
+const KYOBO_SEARCH = (s: string): string => `https://search.kyobobook.co.kr/search?keyword=${q(s)}`;
+const NL_SEARCH = (s: string): string => `https://www.nl.go.kr/NL/contents/search.do?kwd=${q(s)}`;
+
+function acquireBlock(w: Work, a: Author | undefined): string {
+  const eds: Edition[] = d.editions.editions[w.id] ?? [];
+  const term = `${w.titleKo} ${a ? a.names.ko : ""}`.trim();
+  if (eds.length) {
+    return `<h2>구하기 — 검수된 판본 ${eds.length}</h2>
+<ul class="eds">
+${eds
+  .map(
+    (e) => `  <li><span class="pub">${esc(e.publisher)}</span>${e.translator ? `<span class="meta">${esc(e.translator)} 옮김</span>` : ""}<span class="meta">${e.year}</span>${e.title !== w.titleKo ? `<span class="meta">『${esc(e.title)}』 수록</span>` : ""}
+    <div><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a> · <a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a> <span class="isbn">ISBN ${esc(e.isbn13)}</span></div>
+    <p class="sig">${esc(e.verifiedFrom)} · ${esc(e.verifiedAt)} 확인${e.note ? ` — ${esc(e.note)}` : ""}</p></li>`
+  )
+  .join("\n")}
+</ul>`;
+  }
+  return `<h2>구하기</h2>
+<p class="absent">한국어 판본을 아직 검수하지 않았다 (${esc(d.editions.checkedAt)} 확인). 아래는 검색으로 나가는 문이고, 우리가 확인한 판본이 아니다.</p>
+<div class="doors">
+  <a href="${ALADIN_SEARCH(term)}" rel="nofollow noopener">알라딘에서 찾기</a>
+  <a href="${KYOBO_SEARCH(term)}" rel="nofollow noopener">교보문고에서 찾기</a>
+  <a href="${NL_SEARCH(term)}" rel="nofollow noopener">국립중앙도서관에서 찾기</a>
+</div>`;
+}
+
 function wantBtn(workId: string): string {
   return `<button class="want" data-want="${esc(workId)}" onclick="lpWant('${esc(workId)}',this)">읽고 싶음</button>`;
 }
 
+// 관계 한 줄. 2026-08-31 실측: 배포된 작가 페이지 100/100 이 카드 부채 상한
+// (880자)을 넘겼고 평균 2,332자·최대 4,519자·관계 블록 최대 18개였다 — 3D
+// 카드를 정문에서 끌어내린 그 결함이 정적 페이지로 이주해 2.5배로 자라 있었다.
+// 계측기(verify-journey)가 universe.html 만 열었기 때문에 아무도 재지 않았다.
+// 증거가 지시하는 개입은 슬롯을 더 만드는 것이 아니라 **목록을 자르는 것**이다
+// (위키백과: 신규 링크의 66%가 한 달간 클릭 0 · Upworthy: 고농도에서 +1SD 농도
+// → CTR −9.9%). 하나만 펴고 나머지는 접는다.
+function relRow(r: Relation | undefined, selfId: string): string {
+  if (!r) return "";
+  const otherId = r.sourceId === selfId ? r.targetId : r.sourceId;
+  const other = byId.get(otherId);
+  if (!other) return "";
+  const g = GLYPH[relationGlyph(r, selfId)] ?? "·";
+  return `<li><span class="g">${g}</span><a href="/authors/${esc(otherId)}/">${esc(other.names.ko)}</a><span class="rt">${esc(REL_KO[r.type] ?? r.type)}</span>
+    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
+}
+
+// 목록의 한 줄은 **한 문장**이다. 산문 전체는 그 작품의 페이지에 있고, 거기가
+// 독자가 그 책 하나를 두고 결정하는 자리다 — 목록에서 문단을 겹쳐 쌓으면
+// 농도만 올라가고 클릭은 내려간다(Upworthy 사전등록 메타분석: 고농도 맥락에서
+// +1SD → CTR −9.9%).
 function workRow(w: Work, entryWhy?: string): string {
   return `<li>
     <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${w.year}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${wantBtn(w.id)}
-    ${entryWhy ? `<p class="entrywhy">${esc(entryWhy)}</p>` : ""}
-    <p class="sig">${esc(w.significance)}</p>
+    ${entryWhy ? `<p class="entrywhy">${esc(firstSentence(entryWhy))}</p>` : ""}
+    <p class="sig">${esc(firstSentence(w.significance))}</p>
   </li>`;
 }
 
@@ -156,7 +217,6 @@ function authorPage(a: Author): string {
     .filter((w): w is Work => Boolean(w));
   const rest = works.filter((w) => !a.readingOrder.includes(w.id)).sort((x, y) => x.year - y.year);
   const rels = relsOf(a.id).sort((x, y) => (y.weight ?? 0.7) - (x.weight ?? 0.7));
-  const landable = READY_IDS.has(a.id);
   const life = `${a.birthYear ?? "?"}–${a.deathYear ?? ""} · ${a.languages.join("·")} · ${a.regions.join("·")}${a.movements.length ? ` · ${a.movements.map(movementKo).join("·")}` : ""} · 난도 ${a.difficulty}/5`;
   const body = `
 <article>
@@ -165,31 +225,25 @@ function authorPage(a: Author): string {
 <p class="life">${esc(life)}</p>
 <p class="why">${esc(a.importanceReason)}</p>
 <div class="doors">
-  <a href="/universe.html?lens=movement&a=${esc(a.id)}${landable ? "&land=1" : ""}">${landable ? "성계에서 착륙" : "성계에서 보기"}</a>
-  <a href="/#${esc(a.id)}">여기서 산책 시작</a>
+  <a href="/#${esc(a.id)}">여기서 읽기 시작</a>
 </div>
 <h2>입문 순서 ${ordered.length}</h2>
 <ol class="works">${ordered.map((w, i) => workRow(w, i === 0 ? a.readingEntryReason : undefined)).join("\n")}</ol>
-${rest.length ? `<h2>그 밖의 작품 ${rest.length}</h2><ul class="works">${rest.map((w) => workRow(w)).join("\n")}</ul>` : ""}
+${rest.length ? `<details><summary>그 밖의 작품 ${rest.length}</summary><ul class="works">${rest.map((w) => workRow(w)).join("\n")}</ul></details>` : ""}
 ${a.readingWarning ? `<p class="warn">주의 — ${esc(a.readingWarning)}</p>` : ""}
 <p class="warn">난도 ${a.difficulty}/5 — ${esc(a.difficultyReason)}</p>
-<h2>관계 ${rels.length} — 선이 그어진 이유</h2>
-<ul class="rels">
-${rels
-  .map((r) => {
-    const otherId = r.sourceId === a.id ? r.targetId : r.sourceId;
-    const other = byId.get(otherId);
-    if (!other) return "";
-    const g = GLYPH[relationGlyph(r, a.id)] ?? "·";
-    return `<li><span class="g">${g}</span><a href="/authors/${esc(otherId)}/">${esc(other.names.ko)}</a><span class="rt">${esc(REL_KO[r.type] ?? r.type)}</span>
-    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
-  })
-  .join("\n")}
-</ul>
+<h2>이어지는 한 사람</h2>
+<ul class="rels">${relRow(rels[0], a.id)}</ul>
+${
+  rels.length > 1
+    ? `<details><summary>나머지 관계 ${rels.length - 1} — 선이 그어진 이유</summary>
+<ul class="rels">${rels.slice(1).map((r) => relRow(r, a.id)).join("\n")}</ul></details>`
+    : ""
+}
 <p class="life">출처 ${a.sourceIds.length}건 · ${esc(a.reviewStatus)}${a.reviewedAt ? ` · ${esc(a.reviewedAt)}` : ""}</p>
 </article>`;
   return page({
-    title: `${a.names.ko} — 문학의 성계`,
+    title: `${a.names.ko} — 하나의 책`,
     desc: firstSentence(a.importanceReason),
     path: `/authors/${a.id}/`,
     body,
@@ -207,6 +261,10 @@ ${rels
 function workPage(w: Work): string {
   const a = byId.get(w.authorId);
   const world = w.world;
+  // 실물 기록은 **검수된 작가에게만** 선다 — 게이트는 readiness.ts 의 한 함수다
+  // (인라인으로 두면 변이 스윕이 그 자리를 SURVIVED 로 잡는다: 오늘 실물
+  //  데이터를 가진 작가가 전부 ready 라서 인라인 조건은 합성 없이 시험 불가).
+  const verified = showsPhysicalRecord(w);
   // 증언의 결정 지점 배치(선행 연구 Ⅴ-2): 이 작품을 앵커로 지목한 관계 =
   // 작가가 작가에게 남긴 검토된 증언. BookTok 방정식(감정적 증언이 책을
   // 판다, 증거 최강)의 우리식 정직 번역 — 지어낸 것 0.
@@ -220,7 +278,7 @@ function workPage(w: Work): string {
 <p class="life">${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${w.year} · ${esc(w.genre ?? "")} ${wantBtn(w.id)}</p>
 <p class="why">${esc(w.significance)}</p>
 ${
-  world
+  verified && world
     ? `<blockquote class="open"><p>${esc(world.opening.original)}</p><p class="ko">${esc(world.opening.ko)}</p><span class="lbl">여는 문장 · 자체 번역</span></blockquote>
 ${world.written ? `<p class="edrow">집필 — ${esc(world.written)}</p>` : ""}
 ${world.editions.map((e) => `<p class="edrow">${e.kind === "first-edition" ? "초판" : "첫 인쇄"} — ${e.year}${e.month ? `. ${e.month}.` : ""} · ${esc(`${e.venue ? `${e.venue} · ` : ""}${e.publisher}, ${e.place}`)}${e.note ? ` — ${esc(e.note)}` : ""}</p>`).join("\n")}
@@ -243,14 +301,15 @@ ${testimony
 </ul>`
     : ""
 }
+${acquireBlock(w, a)}
 <div class="doors">
   ${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}의 방으로</a>` : ""}
-  <a href="/universe.html?lens=movement&a=${esc(w.authorId)}">성계에서 보기</a>
+  ${a ? `<a href="/#${esc(a.id)}">이 작가에서 시작</a>` : ""}
 </div>
 <p class="life">출처 ${w.sourceIds.length}건</p>
 </article>`;
   return page({
-    title: `${w.titleKo}${a ? ` — ${a.names.ko}` : ""} · 문학의 성계`,
+    title: `${w.titleKo}${a ? ` — ${a.names.ko}` : ""} · 하나의 책`,
     desc: firstSentence(w.significance),
     path: `/works/${w.id}/`,
     body,
@@ -271,20 +330,20 @@ function indexPage(): string {
 <h1>작가 ${d.authors.length}인</h1>
 <p class="life">20세기 세계문학 — 발자국이 검토된 이들만. 각 방은 입문 순서·관계·난도를 싣는다.</p>
 <div class="doors">
-  <a href="/">인도된 산책</a><a href="/chart.html">성좌도(2D)로 보기</a><a href="/universe.html">성계(3D)로 탐험</a>
+  <a href="/">여기서 시작</a>
 </div>
 <ul class="idx">
 ${sorted.map((a) => `<li><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${a.birthYear ?? "?"}–${a.deathYear ?? ""}</span></li>`).join("\n")}
 </ul>`;
   return page({
-    title: "작가 색인 — 문학의 성계",
+    title: "작가 색인 — 하나의 책",
     desc: `20세기 세계문학 작가 ${d.authors.length}인의 큐레이션 색인 — 입문 순서, 관계의 이유, 난도.`,
     path: "/authors/",
     body
   });
 }
 
-// ——— C안: 성좌 산책 (자유항법 0 — 인도된 홉) ———
+// ——— 첫 장 — 걸음마다 작가 하나, 인연을 골라 다음으로 ———
 function walkPage(): string {
   const capsule = Object.fromEntries(
     d.authors.map((a) => {
@@ -318,9 +377,9 @@ function walkPage(): string {
   );
   const STARTS = ["franz-kafka", "jorge-luis-borges", "virginia-woolf"].filter((id) => byId.has(id));
   const body = `
-<h1>성좌 산책</h1>
-<p class="life">조종은 없다. 걸음마다 작가 하나가 서고, 인연을 골라 다음으로 건넌다.
-읽고 싶은 책이 생기면 담아라 — 그게 이 산책의 전부다.</p>
+<h1>하나의 책</h1>
+<p class="life">모든 책을 품은 하나의 책. 조종은 없다 — 걸음마다 작가 하나가 서고,
+인연을 골라 다음으로 건넌다. 읽고 싶은 책이 생기면 담아라. 그게 전부다.</p>
 <div id="app"></div>
 <script>
 var DATA=${JSON.stringify(capsule)};
@@ -329,7 +388,7 @@ var trail=[];
 function h(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
 function weekly(){
   // 유한 배달(선행 연구 Ⅴ-3): ISO 주차가 이번 주의 출발 작가를 결정한다 —
-  // 매주 다른 산책이 기다린다는 것이 "일주일 뒤 돌아온다"의 기제다.
+  // 매주 다른 길이 기다린다는 것이 "일주일 뒤 돌아온다"의 기제다.
   var ids=Object.keys(DATA).filter(function(k){return DATA[k].hops.length>=2;}).sort();
   var now=new Date();var jan=new Date(now.getFullYear(),0,1);
   var week=Math.floor(((now-jan)/86400000+jan.getDay())/7);
@@ -340,7 +399,7 @@ function render(id){
   if(!id){
     var wk=weekly();
     app.innerHTML='<h2>어디서 시작할까</h2>'+
-      '<div class="doors"><a href="#'+wk+'" onclick="go(\\''+wk+'\\');return false">이번 주의 산책 — '+h(DATA[wk].ko)+'</a>'+
+      '<div class="doors"><a href="#'+wk+'" onclick="go(\\''+wk+'\\');return false">이번 주의 길 — '+h(DATA[wk].ko)+'</a>'+
       STARTS.map(function(s){
       return '<a href="#'+s+'" onclick="go(\\''+s+'\\');return false">'+h(DATA[s].ko)+'</a>';}).join('')+'</div>'+
       '<h2 style="margin-top:22px">아는 작가에서 시작</h2>'+
@@ -371,7 +430,7 @@ function render(id){
     return '<li><span class="g">'+x.g+'</span><a href="#'+x.to+'" onclick="go(\\''+x.to+'\\');return false">'+h(o.ko)+'</a>'+
     '<span class="rt">'+h(x.t)+'</span><p class="sum">'+h(x.s)+'</p></li>';}).join('')+'</ul>';
   html+='<div class="doors"><a href="/authors/'+id+'/">이 작가의 방(전체 기록)</a>'+
-    '<a href="#" onclick="finish();return false">산책 끝내기</a></div>';
+    '<a href="#" onclick="finish();return false">오늘 여기까지</a></div>';
   app.innerHTML=html;
   try{var p=JSON.parse(localStorage.getItem('lp.universe.personal.v2')||'null');
   if(p&&p.want)document.querySelectorAll('[data-want]').forEach(function(b){
@@ -383,17 +442,17 @@ function finish(){
   var app=document.getElementById('app');var n=0,items=[];
   try{var p=JSON.parse(localStorage.getItem('lp.universe.personal.v2')||'null');
   if(p&&p.want){for(var k in p.want){n++;items.push(k);}}}catch(e){}
-  app.innerHTML='<h2>오늘의 성좌</h2><p class="why">담은 책 '+n+'권. '+
+  app.innerHTML='<h2>오늘 담은 것</h2><p class="why">담은 책 '+n+'권. '+
   (n?'담은 것들: '+items.map(function(k){return '<a href="/works/'+k+'/">'+k+'</a>';}).join(' · '):
-  '아직 없다 — 괜찮다, 산책은 또 있다.')+'</p>'+
-  '<div class="doors"><a href="#" onclick="trail=[];render(null);return false">다시 걷기</a><a href="/authors/">작가 색인</a></div>';
+  '아직 없다 — 괜찮다, 책은 닫히지 않는다.')+'</p>'+
+  '<div class="doors"><a href="#" onclick="trail=[];render(null);return false">다시 펴기</a><a href="/authors/">작가 색인</a></div>';
 }
 var start=location.hash.replace('#','');
 if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
 </script>`;
   return page({
-    title: "성좌 산책 — 문학의 성계",
-    desc: "조종 없는 문학 산책 — 걸음마다 작가 하나, 인연을 골라 다음으로. 읽고 싶은 책을 담는다.",
+    title: "하나의 책 — 20세기 세계문학",
+    desc: "모든 책을 품은 하나의 책 — 걸음마다 작가 하나, 인연을 골라 다음으로. 읽고 싶은 책을 담는다. 작가 100인·작품 513편, 전부 검토된 큐레이션.",
     path: "/",
     body
   });
@@ -416,10 +475,11 @@ for (const w of d.works) {
 }
 mkdirSync(join(OUT, "authors"), { recursive: true });
 writeFileSync(join(OUT, "authors", "index.html"), indexPage());
-// 정문 교체 (2026-08-31, 결정 (131)): 루트가 산책이다. vite 가 기입한
-// dist/index.html(성계 SPA)을 여기서 덮어쓴다 — 성계는 /universe.html 로
-// 계속 살아 있고, 3안 비교의 A안 입구는 그 주소다. 근거: CPO 1분 실사와
-// 그 재현(직접 영향 렌즈 = 이름 0개의 실타래, 카드 850자·1430px·버튼 40).
+// 정문: 루트가 첫 장이다. /walk/ 는 옛 딥링크를 살려 두는 별칭.
+// 번들러가 하던 일 — public/ 을 dist/ 로 옮긴다 (초상·육필·표지 원본)
+const PUBLIC_DIR = join(PKG_ROOT, "public");
+if (existsSync(PUBLIC_DIR)) cpSync(PUBLIC_DIR, OUT, { recursive: true });
+
 mkdirSync(join(OUT, "walk"), { recursive: true });
 writeFileSync(join(OUT, "walk", "index.html"), walkPage());
 writeFileSync(join(OUT, "index.html"), walkPage());
@@ -446,9 +506,15 @@ const coverage = {
   workPages,
   worksWithOpening: d.works.filter((w) => w.world).length,
   landable: READY_IDS.size,
-  depthCoveragePct: Math.round((authorPages / d.authors.length) * 100)
+  depthCoveragePct: Math.round((authorPages / d.authors.length) * 100),
+  // 판본 커버리지 — 0 도 사실이고, checkedAt 이 그 사실에 날짜를 붙인다
+  editionsCheckedAt: d.editions.checkedAt,
+  worksWithEdition: Object.keys(d.editions.editions).length,
+  editionRecords: Object.values(d.editions.editions).reduce((n, l) => n + l.length, 0)
 };
 writeFileSync(join(OUT, "coverage.json"), JSON.stringify(coverage, null, 2) + "\n");
 console.log(
-  `정적 표면 — 작가 방 ${authorPages}/${d.authors.length} (${coverage.depthCoveragePct}%) · 작품 ${workPages} · 여는 문장 ${coverage.worksWithOpening} · 착륙 ${coverage.landable} · sitemap ${urls.length} urls`
+  `정적 표면 — 작가 방 ${authorPages}/${d.authors.length} (${coverage.depthCoveragePct}%) · 작품 ${workPages} · ` +
+    `여는 문장 ${coverage.worksWithOpening} · 실물 ${coverage.landable} · ` +
+    `판본 ${coverage.worksWithEdition}/${workPages}작품 ${coverage.editionRecords}건 (${coverage.editionsCheckedAt} 확인) · sitemap ${urls.length} urls`
 );

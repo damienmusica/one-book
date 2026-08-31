@@ -207,40 +207,8 @@ export interface PositionsFile {
 }
 
 /**
- * Renderer-facing terrain bake inside data/territory.v1.json. Polylines are
- * flat [x0,y0,…] arrays in equirect grid coordinates (x wraps at gridWidth);
- * ownerRle rows are [count, value, …] with 0 = sea, k > 0 = authors[k−1].
- */
-export interface TerritoryCities {
-  /** [x, y] coast town where the reading enters; null for landlocked realms */
-  port: [number, number] | null;
-  portWork: string | null;
-  towns: Array<{ id: string; x: number; y: number }>;
-  /** reading route: port (or capital) → readingOrder towns, flat [x,y,…] */
-  road: number[];
-}
-
-export interface TerritoryGeometry {
-  gridWidth: number;
-  gridHeight: number;
-  authors: string[];
-  coast: number[][];
-  waterlines: {
-    gridWidth: number;
-    gridHeight: number;
-    isoFactors: [number, number];
-    inner: number[][];
-    outer: number[][];
-  };
-  boundaries: number[][];
-  ownerRle: number[][];
-  cities: Record<string, TerritoryCities>;
-}
-
-/**
  * One imagined-portrait record — data/portraits.json (thesis ④). The asset
- * lives at public/portraits/<authorId>.jpg as a grayscale plate; the app maps
- * it to duotone tokens at render time.
+ * lives at public/portraits/<authorId>.jpg as a grayscale plate.
  */
 export interface PortraitEntry {
   authorId: string;
@@ -255,45 +223,45 @@ export interface PortraitEntry {
   reviewStatus: "draft" | "reviewed";
 }
 
-/**
- * Plate-tectonics keyframes — data/territory.v1.eras.json (baked by
- * scripts/generate-territory-eras.ts). Each keyframe is a nested erosion of
- * the frozen v1 plate: same grid, ownerRle convention, and coast polyline
- * format; the tectonic contract (determinism, terminal identity, monotone
- * growth) is asserted at bake time and CI-gated by tests.
- */
-export interface TerritoryEras {
-  version: string;
-  derivedFrom: string;
-  seed: number;
-  params: {
-    gMin: number;
-    foundingRamp: number;
-    jitterRad: number;
-    growth: string;
-    erosion: string;
-  };
-  keyframes: Array<{ year: number; ownerRle: number[][]; coast: number[][] }>;
+// ---------------------------------------------------------------------------
+// 판본 레이어 (2026-08-31) — data/editions.json
+//
+// `Work` 는 **작품**이지 판본이 아니다. 독자가 실제로 손에 넣는 것은 판본이고,
+// 그 사실은 우리 코퍼스에 없었다(ISBN 0개). 이 레이어가 그 자리다.
+//
+// 기계 채움은 없다. 키 없는 공개 API 중 한국어 판본을 주는 것이 실측으로
+// 없었고(구글 북스 익명 쿼터 소진 429 · 오픈라이브러리 한국어 판본 0),
+// 하드 제약이 API 키를 금지한다. 그러므로 이 원장은 **손으로 검수해 넣고**,
+// 넣지 않은 것은 넣지 않았다고 날짜와 함께 적는다.
+// ---------------------------------------------------------------------------
+
+/** 한국어(또는 그 밖의 언어) 판본 하나 — 검수된 것만 들어온다 */
+export interface Edition {
+  /** ISBN-13, 하이픈 없이. 체크섬이 맞아야 한다 */
+  isbn13: string;
+  /** 판본의 표제 (선집이면 작품명과 다를 수 있다) */
+  title: string;
+  publisher: string;
+  /** 옮긴이 — 번역서가 아니면 생략 */
+  translator?: string;
+  year: number;
+  /** BCP-47 기본 태그. 오늘은 "ko" 만 쓴다 */
+  language: string;
+  /** 이 레코드를 어디서 확인했는가 — 사람이 읽는 한 줄 */
+  verifiedFrom: string;
+  /** 확인한 날짜 (YYYY-MM-DD) */
+  verifiedAt: string;
+  /** 절판·개정 같은 편집 메모 */
+  note?: string;
 }
 
-/** Frozen terrain — data/territory.v1.json (baked by scripts/generate-terrain.ts) */
-export interface Territory {
+/** data/editions.json — 작품 id → 검수된 판본들 */
+export interface EditionsFile {
   version: string;
-  seed: number;
-  generatedAt: string;
-  params: {
-    R0: number;
-    tau: number;
-    warpAmp: number;
-    warpFreq: number;
-    warpOctaves: number;
-    kappa: string;
-    areaWeight: string;
-  };
-  landFraction: number;
-  weights: Record<string, number>;
-  areaShares: Record<string, number>;
-  geometry: TerritoryGeometry;
+  /** 원장 전체를 마지막으로 훑은 날 — 부재를 날짜 붙은 사실로 만든다 */
+  checkedAt: string;
+  note: string;
+  editions: Record<string, Edition[]>;
 }
 
 export interface RegistryEntry {
@@ -369,12 +337,10 @@ export interface Dataset {
   positions: PositionsFile;
   registry: RegistryEntry[];
   translations: LocalePack[];
-  /** frozen terrain bake, null until generated */
-  territory: Territory | null;
-  /** v2.5 plate-tectonics keyframes (nested erosion of the v1 plate), null until baked */
-  territoryEras: TerritoryEras | null;
   /** imagined-portrait editorial records, empty until the pilot */
   portraits: PortraitEntry[];
+  /** 검수된 판본 원장 — 비어 있을 수 있고, 비어 있음도 사실이다 */
+  editions: EditionsFile;
 }
 
 // ---------------------------------------------------------------------------

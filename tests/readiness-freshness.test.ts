@@ -5,17 +5,21 @@
 // 2026-08-28 실측: 스탬프 2026-08-21 인 채 표면 코드 커밋 10건 — 규칙을 읽는
 // 코드가 타입 주석 한 줄뿐이라 어느 게이트도 빨갛지 않았다. 이 파일이 그 이빨이다.
 //
-// 라이브 계약의 "표면 코드" 범위는 src/universe 다 — 스탬프가 재는 것은 성계
-// 착륙 표면의 문구·연출이고, 그 코드가 전부 거기 산다. (데이터 웨이브도 표면
-// 문구를 바꾸지만 그쪽은 자기 웨이브의 검증 규율이 든다 — 여기 섞으면 모든
-// 데이터 커밋이 착륙 검수를 무효화해 스탬프가 소음이 된다.)
+// 라이브 계약의 "표면 코드" 범위는 2026-08-31 에 재조준됐다. 성계 렌더러가
+// 은퇴하면서 실물 자산을 그리는 코드가 전부 정적 생성기로 옮겨졌다 — 옛 범위
+// (src/universe)는 이제 존재하지 않는 디렉터리이고, 그대로 두면 이 계약은
+// "빈 경로의 마지막 커밋"을 재며 조용히 초록이 된다. 범위 = 표면을 그리는
+// 생성기 + 준비도 사다리. (데이터 웨이브도 표면 문구를 바꾸지만 그쪽은 자기
+// 웨이브의 검증 규율이 든다 — 여기 섞으면 모든 데이터 커밋이 검수를 무효화해
+// 스탬프가 소음이 된다.)
+const SURFACE = "scripts/generate-static-pages.ts src/book/readiness.ts";
 import { describe, expect, it } from "vitest";
 import { execSync } from "node:child_process";
 import {
   READINESS,
   staleSurfaceVerifications,
   type ReadinessEntry,
-} from "../src/universe/readiness";
+} from "../src/book/readiness";
 
 const entry = (over: Partial<ReadinessEntry>): ReadinessEntry => ({
   authorId: "synthetic",
@@ -64,7 +68,7 @@ describe("staleSurfaceVerifications — 규칙 하나당 케이스 하나", () =
 });
 
 describe("라이브 계약 — 이 레포의 스탬프 대 이 레포의 표면 코드", () => {
-  it("모든 ready 착륙지의 검수는 src/universe 의 마지막 변경보다 새것이다", () => {
+  it("모든 ready 항목의 검수는 표면 코드의 마지막 변경보다 새것이다", () => {
     // 두 팔 규칙. 기본은 "스탬프 ≥ src/universe 마지막 커밋 시각"인데, 검수
     // 세션은 스탬프를 표면 변경과 **같은 커밋**에 싣는 것이 정당한 경로라서
     // (게이트 재실행 → 스탬프 → 커밋), 커밋 시각이 스탬프를 몇 분 차이로
@@ -73,19 +77,19 @@ describe("라이브 계약 — 이 레포의 스탬프 대 이 레포의 표면 
     // 트리를 보고 찍은 것이므로, 그때는 **직전 src 커밋**과 비교한다 — 스탬프
     // 없이 표면만 실은 커밋은 여전히 첫 팔에 걸린다.
     const git = (cmd: string) => execSync(cmd, { encoding: "utf8" }).trim();
-    const lastSrc = git("git log -1 --format=%H -- src/universe");
+    const lastSrc = git(`git log -1 --format=%H -- ${SURFACE}`);
     const lastStamp = git("git log -1 --format=%H -- data/depth-readiness.json");
-    expect(lastSrc, "git 이 src/universe 의 마지막 커밋을 주지 못했다").not.toBe("");
+    expect(lastSrc, "git 이 표면 코드의 마지막 커밋을 주지 못했다").not.toBe("");
     const iso =
       lastSrc === lastStamp
-        ? git("git log --skip=1 -1 --format=%cI -- src/universe")
-        : git("git log -1 --format=%cI -- src/universe");
+        ? git(`git log --skip=1 -1 --format=%cI -- ${SURFACE}`)
+        : git(`git log -1 --format=%cI -- ${SURFACE}`);
     expect(iso, "비교할 커밋 시각이 없다").not.toBe("");
     const latest = new Date(iso);
     const stale = staleSurfaceVerifications(READINESS.entries, latest);
     expect(
       stale,
-      `착륙 검수가 낡았다 — 표면(src/universe)의 마지막 변경 ${iso} 이 스탬프보다 뒤다. ` +
+      `검수가 낡았다 — 표면(${SURFACE})의 마지막 변경 ${iso} 이 스탬프보다 뒤다. ` +
         `표면을 다시 검수하고(게이트 + 문구 대조) depth-readiness.json 의 surfaceVerifiedAt 을 ` +
         `갱신하는 것이 유일한 정당한 경로다: ${stale.map((s) => `${s.authorId}(${s.reason})`).join(", ")}`
     ).toHaveLength(0);
