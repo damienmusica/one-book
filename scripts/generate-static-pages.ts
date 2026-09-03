@@ -10,6 +10,7 @@
 // 방문자 브라우저의 localStorage(lp.universe.personal.v2)에만 남는다.
 
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { join, resolve } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
@@ -749,6 +750,12 @@ if (!marks.length) {
 }
 
 // ——— 첫 장 — 걸음마다 작가 하나, 인연을 골라 다음으로 ———
+//
+// 캡슐(1,465명의 이름·책·인연)은 HTML 에 박혀 있었다. 압축 후 214KB 였고, 그 전부를
+// 매 방문마다 다시 받았다 — 한 사람을 보러 온 사람이. 이제 별도 파일로 나가고 이름에
+// 내용 해시가 붙는다: 데이터가 그대로면 브라우저가 다시 받지 않는다. 주에 한 번 오는
+// 제품에서 이 차이가 재방문 전체를 만든다.
+let walkDataPath = "";
 function walkPage(): string {
   const capsule = Object.fromEntries(
     d.authors.map((a) => {
@@ -785,13 +792,15 @@ function walkPage(): string {
     })
   );
   const STARTS = ["franz-kafka", "jorge-luis-borges", "virginia-woolf"].filter((id) => byId.has(id));
+  walkDataPath = `/walk-${createHash("sha256").update(JSON.stringify(capsule)).digest("hex").slice(0, 10)}.json`;
+  writeFileSync(join(OUT, walkDataPath.slice(1)), JSON.stringify(capsule));
   const body = `
 <h1>하나의 책</h1>
 <p class="life">모든 책을 품은 하나의 책. 세계는 처음부터 전부 여기 있고, 아직 만나지
 않은 이름은 실루엣으로 서 있다. 읽은 것이 다음 것을 연다.</p>
 <div id="app"></div>
 <script>
-var DATA=${JSON.stringify(capsule)};
+var DATA={};
 var STARTS=${JSON.stringify(STARTS)};
 var trail=[];
 function h(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
@@ -932,8 +941,16 @@ function finish(){
     (any.length?lines:'<p class="why">아직 표시한 책이 없다 — 괜찮다, 책은 닫히지 않는다.</p>')+
     '<div class="doors"><a href="#" data-reopen="1">다시 펴기</a><a href="/authors/">작가 색인</a></div>';
 }
-var start=location.hash.replace('#','');
-if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
+// 캡슐을 받고서 시작한다. 받지 못하면 첫 장은 빈 화면이 아니라 문장 하나를 남긴다.
+fetch('${walkDataPath}').then(function(r){return r.json();}).then(function(j){
+  DATA=j;
+  var start=location.hash.replace('#','');
+  if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
+}).catch(function(){
+  document.getElementById('app').innerHTML=
+    '<p class="absent">책을 펴지 못했다 — 잠시 뒤 다시 시도해 주세요. ' +
+    '<a href="/authors/">색인</a>은 지금도 열려 있다.</p>';
+});
 </script>`;
   return page({
     title: "하나의 책 — 세계문학의 지도",

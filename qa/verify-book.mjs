@@ -211,6 +211,28 @@ for (const p of ["/", "/authors/", "/authors/franz-kafka/", "/works/franz-kafka-
   check(`${p} 에 죽은 표면 링크 0`, dead.length === 0, dead.join(" "));
 }
 
+// ─── 첫 장의 무게 ────────────────────────────────────────────────────────────
+// 캡슐이 HTML 에 박혀 있을 때 첫 장은 압축 후 214KB 였고, 한 사람을 보러 온 사람이
+// 1,465명분을 매 방문 다시 받았다. 주에 한 번 오는 제품에서 그것이 재방문 전체다.
+console.log("\n첫 장 — 한 사람을 보러 온 사람에게 1,465명을 보내지 않는다");
+{
+  const res = await fetch(`${server.origin}/`);
+  const html = await res.text();
+  check("첫 장 HTML 이 40KB 아래다", html.length < 40000, `${Math.round(html.length / 1024)}KB`);
+  const m = html.match(/\/walk-[0-9a-f]{10}\.json/);
+  check("캡슐은 내용 해시가 이름인 별도 파일이다", Boolean(m), m?.[0] ?? "(없음)");
+  const cap = await fetch(`${server.origin}${m[0]}`);
+  check("그 파일이 실제로 선다", cap.ok, `HTTP ${cap.status}`);
+  // 캡슐을 못 받는 날에도 빈 화면을 주지 않는다
+  await page.route("**/walk-*.json", (r) => r.abort());
+  await page.goto(`${server.origin}/`, { waitUntil: "load" });
+  await page.waitForTimeout(700);
+  const fallback = await page.locator("#app").innerText();
+  check("캡슐을 못 받아도 빈 화면이 아니다", /책을 펴지 못했다/.test(fallback), fallback.slice(0, 40));
+  check("그 문장이 나갈 문을 준다", (await page.locator("#app a[href='/authors/']").count()) === 1);
+  await page.unroute("**/walk-*.json");
+}
+
 // ─── 서재 ────────────────────────────────────────────────────────────────────
 // 도감은 모으는 것이고, 모은 것을 볼 자리가 없으면 표시는 그냥 사라진다.
 console.log("\n서재 — 표시한 것이 모이는 자리");
