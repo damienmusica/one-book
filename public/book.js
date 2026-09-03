@@ -39,7 +39,8 @@ export function mergeMarks(local, server) {
     const lS = l && (g == null || l.at >= g) ? l.s : null; // 로컬의 최신 사실
     const sv = srv.get(id);
     if (sv && sv.at >= lAt) {
-      state[id] = { s: sv.s, at: sv.at }; // 서버가 늦다 → 서버가 이긴다
+      if (sv.s) state[id] = { s: sv.s, at: sv.at }; // 서버가 늦다 → 서버가 이긴다
+      else gone[id] = sv.at;
     } else if (lAt > -Infinity) {
       if (lS) state[id] = { s: lS, at: lAt };
       else gone[id] = lAt;
@@ -203,7 +204,10 @@ async function paintReadiness() {
   if (!el) return;
   const id = el.getAttribute("data-author");
   try {
-    const A = await import("/atlas.js");
+    // 지정자를 계산해 둔다 — vite 의 정적 스캔이 public/ 절대경로 import 를 거부하고,
+  // 그 거부가 이 파일을 Node 에서 아예 못 읽게 만든다(합침 규칙 계약이 여기 있다).
+  const ATLAS = "/atlas" + ".js";
+  const A = await import(/* @vite-ignore */ ATLAS);
     const g = await A.graph();
     const lit = A.litAuthors(A.readerState());
     if (lit.has(id)) {
