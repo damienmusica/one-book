@@ -205,6 +205,35 @@ for (const p of ["/", "/authors/", "/authors/franz-kafka/", "/works/franz-kafka-
   check(`${p} 에 죽은 표면 링크 0`, dead.length === 0, dead.join(" "));
 }
 
+// ─── 색인의 찾기 ─────────────────────────────────────────────────────────────
+// 100인일 때 색인은 한 화면이었다. 1,465인에서는 스크롤이고, 스크롤은 CPO 가 3D
+// 정문에서 이미 기각한 것이다 — "탐색 자체가 거의 불가능하다".
+console.log("\n색인 — 1,465인에서 이름을 찾는다");
+await page.goto(`${server.origin}/authors/`, { waitUntil: "load" });
+const visibleRows = () => page.locator(".idx > li:not([hidden])").count();
+const allRows = await page.locator(".idx > li").count();
+check("색인이 전원을 정적으로 담는다", allRows >= 1400, `${allRows}행`);
+await page.locator("#q").fill("카프카");
+await page.waitForTimeout(120);
+const kafka = await visibleRows();
+check("이름을 치면 그 이름만 남는다", kafka >= 1 && kafka <= 5, `${kafka}인`);
+check("남은 것이 실제로 그 사람이다", /카프카/.test(await page.locator(".idx > li:not([hidden])").first().innerText()));
+await page.locator("#q").fill("Sappho");
+await page.waitForTimeout(120);
+check("원어·로마자로도 찾는다", (await visibleRows()) >= 1, `${await visibleRows()}인`);
+await page.locator("#q").fill("");
+await page.locator("#fr").selectOption("east-asia");
+await page.waitForTimeout(120);
+const ea = await visibleRows();
+check("권역으로 좁힌다", ea > 10 && ea < allRows, `동아시아 ${ea}인`);
+await page.locator("#fp").selectOption("antiquity-medieval");
+await page.waitForTimeout(120);
+const eaAnc = await visibleRows();
+check("시대와 함께 좁힌다 — 두 조건은 곱해진다", eaAnc > 0 && eaAnc < ea, `동아시아·고대 ${eaAnc}인`);
+await page.locator("#q").fill("zzzzz");
+await page.waitForTimeout(120);
+check("하나도 없으면 절 제목까지 접는다", (await page.locator(".idx:not([hidden])").count()) === 0);
+
 console.log(`\nconsole errors: ${errors.length}`);
 if (errors.length) console.log(errors.slice(0, 5).join("\n"));
 console.log(`\n${pass} passed · ${fail} failed`);

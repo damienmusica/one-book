@@ -13,7 +13,7 @@ import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } fr
 import { join, resolve } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
-import { GENRE_DEFS, LANGUAGE_LABELS, REGION_DEFS } from "../src/types.ts";
+import { GENRE_DEFS, LANGUAGE_LABELS, PERIOD_DEFS, REGION_DEFS } from "../src/types.ts";
 import type { Author, Edition, Relation, Work } from "../src/types.ts";
 import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/book/relations.ts";
 import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
@@ -169,6 +169,12 @@ blockquote.open .lbl{font-size:10.5px;color:var(--faint);letter-spacing:.1em}
 footer.site{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--faint)}
 .idx{columns:2;column-gap:28px;font-size:14.5px}.idx li{padding:4px 0;list-style:none;break-inside:avoid}
 .idx .y{color:var(--faint);font-size:11.5px;margin-left:6px}
+.find{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0 6px}
+.find input[type=search]{flex:1 1 220px;min-width:180px;padding:7px 10px;font:inherit;font-size:14px;
+  color:var(--ink);background:var(--paper-2,transparent);border:1px solid var(--rule);border-radius:2px}
+.find input[type=search]:focus{outline:none;border-color:var(--brass-b)}
+.find select{padding:6px 8px;font:inherit;font-size:13px;color:var(--ink);background:transparent;
+  border:1px solid var(--rule);border-radius:2px}
 details{margin:6px 0 2px}
 details>summary{cursor:pointer;font-size:12.5px;letter-spacing:.12em;color:var(--faint);padding:4px 0}
 details>summary:hover{color:var(--brass-b)}
@@ -574,14 +580,27 @@ function indexPage(): string {
   const sorted = [...d.authors].sort((x, y) => x.names.ko.localeCompare(y.names.ko, "ko"));
   const plates = sorted.filter((a) => (a.depth ?? "plate") !== "silhouette");
   const sils = sorted.filter((a) => (a.depth ?? "plate") === "silhouette");
+  // 검색은 이미 페이지에 있는 것을 거른다 — 1,465행이 전부 정적 HTML 로 서 있으므로
+  // 색인은 통째로 SEO 에 잡히고, 걸러내기는 DOM 순회 한 번이면 끝난다. 인덱스도,
+  // 라이브러리도, 네트워크 왕복도 없다.
+  const hay = (a: Author): string =>
+    [a.names.ko, a.names.original, ...a.names.aliases, a.id.replace(/-/g, " ")].join(" ").toLowerCase();
   const row = (a: Author): string =>
-    `<li><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span></li>`;
+    `<li data-h="${esc(hay(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span></li>`;
+  const regionsUsed = REGION_DEFS.filter((r) => d.authors.some((a) => a.regions.includes(r.id)));
+  const periodsUsed = PERIOD_DEFS.filter((pd) => d.authors.some((a) => a.periods.includes(pd.id)));
   const body = `
 <h1>색인 — 작가 ${d.authors.length}인</h1>
 <p class="life">세계는 처음부터 전부 여기 있다. 도판 ${plates.length}인은 쪽이 채워졌고,
 실루엣 ${sils.length}인은 이름과 자리로 서 있다 — 아직 만나지 않은 것의 모양이다.</p>
 <div class="doors">
   <a href="/">책을 펴기</a>
+</div>
+<div class="find">
+  <input type="search" id="q" placeholder="이름으로 찾기 — 한글·원어 모두" autocomplete="off" spellcheck="false">
+  <select id="fr"><option value="">권역 전체</option>${regionsUsed.map((r) => `<option value="${esc(r.id)}">${esc(r.ko)}</option>`).join("")}</select>
+  <select id="fp"><option value="">시대 전체</option>${periodsUsed.map((pd) => `<option value="${esc(pd.id)}">${esc(pd.ko)}</option>`).join("")}</select>
+  <span id="cnt" class="y"></span>
 </div>
 <h2>도판 ${plates.length}</h2>
 <ul class="idx">
@@ -594,7 +613,31 @@ ${
 ${sils.map(row).join("\n")}
 </ul>`
     : ""
-}`;
+}
+<script>
+(function(){
+  var q=document.getElementById("q"), fr=document.getElementById("fr"), fp=document.getElementById("fp"),
+      cnt=document.getElementById("cnt"), rows=[].slice.call(document.querySelectorAll(".idx>li")),
+      heads=[].slice.call(document.querySelectorAll(".idx")).map(function(u){return u.previousElementSibling;});
+  function run(){
+    var s=q.value.trim().toLowerCase(), r=fr.value, p=fp.value, n=0;
+    for(var i=0;i<rows.length;i++){
+      var el=rows[i], ok=true;
+      if(s&&el.getAttribute("data-h").indexOf(s)<0) ok=false;
+      if(ok&&r&&(" "+el.getAttribute("data-r")+" ").indexOf(" "+r+" ")<0) ok=false;
+      if(ok&&p&&(" "+el.getAttribute("data-p")+" ").indexOf(" "+p+" ")<0) ok=false;
+      el.hidden=!ok; if(ok) n++;
+    }
+    // 한 칸도 남지 않은 절은 제목까지 접는다 — 빈 제목은 없는 것을 있다고 말한다
+    [].slice.call(document.querySelectorAll(".idx")).forEach(function(u,j){
+      var any=[].slice.call(u.children).some(function(c){return !c.hidden;});
+      u.hidden=!any; if(heads[j]) heads[j].hidden=!any;
+    });
+    cnt.textContent = (s||r||p) ? n+"인" : "";
+  }
+  q.addEventListener("input",run); fr.addEventListener("change",run); fp.addEventListener("change",run);
+})();
+</script>`;
   return page({
     title: "색인 — 하나의 책",
     desc: `세계문학 작가 ${d.authors.length}인의 색인. 도판 ${plates.length}, 실루엣 ${sils.length}.`,
