@@ -234,6 +234,31 @@ await page.locator("#q").fill("zzzzz");
 await page.waitForTimeout(120);
 check("하나도 없으면 절 제목까지 접는다", (await page.locator(".idx:not([hidden])").count()) === 0);
 
+// ─── 밖으로 나가지 않는다 ─────────────────────────────────────────────────────
+// 이 제품은 독자의 표시를 밖으로 내보내지 않는다고 말한다. 폰트 CDN 한 줄이면 그 말이
+// 모든 쪽에서 반만 참이 된다 — 독자의 IP 가 매 방문 제3자에게 간다.
+console.log("\n제3자 — 한 곳도 부르지 않는다");
+{
+  const seen = [];
+  const onReq = (r) => seen.push(r.url());
+  page.on("request", onReq);
+  for (const path of ["/", "/authors/", "/authors/franz-kafka/", "/works/franz-kafka--die-verwandlung/"]) {
+    await page.goto(`${server.origin}${path}`, { waitUntil: "load" });
+    await page.waitForTimeout(400);
+  }
+  page.off("request", onReq);
+  const outside = [...new Set(seen.filter((u) => !u.startsWith(server.origin) && !u.startsWith("data:")))];
+  check("네 쪽 어디도 제3자를 부르지 않는다", outside.length === 0, outside.slice(0, 4).join(" "));
+  await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
+  const faces = await page.evaluate(async () => {
+    await document.fonts.ready;
+    return [...document.fonts].filter((f) => f.status === "loaded").length;
+  });
+  check("본문 활자가 실제로 실려 있다", faces > 0, `${faces} 페이스`);
+  const sharp = await page.evaluate(() => document.body.innerText.includes("Weißen"));
+  check("라틴 확장 글자가 제 모양으로 온다 — ß", sharp);
+}
+
 console.log(`\nconsole errors: ${errors.length}`);
 if (errors.length) console.log(errors.slice(0, 5).join("\n"));
 console.log(`\n${pass} passed · ${fail} failed`);

@@ -128,7 +128,7 @@ const CSS = `
 :root{--bg:#14100a;--paper:#f0e7cd;--ink:#2b2015;--text:#ecdfc3;--dim:#b5aa90;--faint:#8f8674;
 --brass:#cfa759;--brass-b:#e9c76f;--line:rgba(207,167,89,.22);--veil:rgba(20,16,10,.6)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:'Noto Serif KR',serif;line-height:1.7;
+body{background:var(--bg);color:var(--text);font-family:'Noto Serif KR','Apple SD Gothic Neo','Nanum Myeongjo','Malgun Gothic',serif;line-height:1.7;
 padding:0 18px 80px;max-width:760px;margin:0 auto}
 a{color:var(--brass-b);text-decoration:none}a:hover{text-decoration:underline}
 header.site{display:flex;gap:14px;align-items:baseline;padding:22px 0 14px;border-bottom:1px solid var(--line);margin-bottom:26px}
@@ -169,12 +169,16 @@ blockquote.open .lbl{font-size:10.5px;color:var(--faint);letter-spacing:.1em}
 footer.site{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--faint)}
 .idx{columns:2;column-gap:28px;font-size:14.5px}.idx li{padding:4px 0;list-style:none;break-inside:avoid}
 .idx .y{color:var(--faint);font-size:11.5px;margin-left:6px}
-.find{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0 6px}
-.find input[type=search]{flex:1 1 220px;min-width:180px;padding:7px 10px;font:inherit;font-size:14px;
-  color:var(--ink);background:var(--paper-2,transparent);border:1px solid var(--rule);border-radius:2px}
-.find input[type=search]:focus{outline:none;border-color:var(--brass-b)}
-.find select{padding:6px 8px;font:inherit;font-size:13px;color:var(--ink);background:transparent;
-  border:1px solid var(--rule);border-radius:2px}
+.find{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:16px 0 4px}
+.find input[type=search]{flex:1 1 100%;padding:11px 13px;font:inherit;font-size:15px;
+  color:var(--text);background:rgba(207,167,89,.07);border:1px solid var(--line);border-radius:3px;
+  -webkit-appearance:none;appearance:none}
+.find input[type=search]::placeholder{color:var(--faint)}
+.find input[type=search]:focus{outline:none;border-color:var(--brass-b);background:rgba(207,167,89,.12)}
+.find select{flex:1 1 0;min-width:0;padding:9px 10px;font:inherit;font-size:13px;color:var(--dim);
+  background:rgba(207,167,89,.05);border:1px solid var(--line);border-radius:3px}
+.find select:focus{outline:none;border-color:var(--brass-b)}
+.find #cnt{flex:0 0 auto;font-size:12px;color:var(--brass)}
 details{margin:6px 0 2px}
 details>summary{cursor:pointer;font-size:12.5px;letter-spacing:.12em;color:var(--faint);padding:4px 0}
 details>summary:hover{color:var(--brass-b)}
@@ -199,8 +203,18 @@ ul.meters{list-style:none;margin:0}
 .meters .meter i{display:block;height:100%;background:var(--brass);border-radius:3px}
 .meters .y{flex:0 0 52px;text-align:right;color:var(--faint);font-size:11.5px}
 .auth{margin:34px 0 0;padding-top:14px;border-top:1px dashed var(--line);font-size:13px}
-.auth input{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text);padding:5px 9px;width:min(260px,60%)}
-.auth .sig{color:var(--dim);font-size:12.5px;margin-top:6px}
+.auth form{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.auth input{flex:1 1 200px;min-width:0;font:inherit;font-size:14px;background:rgba(207,167,89,.07);
+  border:1px solid var(--line);border-radius:3px;color:var(--text);padding:10px 12px;-webkit-appearance:none;appearance:none}
+.auth input::placeholder{color:var(--faint)}
+.auth input:focus{outline:none;border-color:var(--brass-b);background:rgba(207,167,89,.12)}
+/* 사이트에 버튼은 이 하나뿐이다 — 문(.doors a)과 같은 옷을 입힌다. */
+.auth button{flex:0 0 auto;font:inherit;font-size:13px;letter-spacing:.02em;color:var(--brass-b);
+  background:none;border:1px solid var(--brass);border-radius:2px;padding:9px 15px;cursor:pointer;
+  -webkit-appearance:none;appearance:none}
+.auth button:hover{background:rgba(207,167,89,.12)}
+.auth button:disabled{opacity:.5;cursor:default}
+.auth .sig{flex:1 1 100%;color:var(--dim);font-size:12.5px;margin-top:6px}
 @media(max-width:560px){.idx{columns:1}}
 `.trim();
 
@@ -220,6 +234,7 @@ function page(o: {
 <title>${esc(o.title)}</title>
 <meta name="description" content="${esc(o.desc)}">
 <link rel="canonical" href="${BASE}${o.path}">
+<link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='2.6' fill='%23eccb82'/%3E%3Ccircle cx='7' cy='9' r='1.3' fill='%23cfa759'/%3E%3Ccircle cx='25' cy='11' r='1.1' fill='%23cfa759'/%3E%3Ccircle cx='22' cy='24' r='1.5' fill='%23cfa759'/%3E%3Cpath d='M7 9 L16 16 L25 11 M16 16 L22 24' stroke='%236a5a3a' stroke-width='.8' fill='none'/%3E%3C/svg%3E">
 <meta property="og:title" content="${esc(o.title)}">
 <meta property="og:description" content="${esc(o.desc)}">
