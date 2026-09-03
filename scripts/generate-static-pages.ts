@@ -314,12 +314,18 @@ ${eds
   <a href="${NL_SEARCH(term)}" rel="nofollow noopener">국립중앙도서관</a>
 </div>`;
   }
+  // 코퍼스의 절반은 한국어 번역이 있는지조차 모르는 책이다. 한국어 제목으로만 검색을
+  // 걸면 그 책들은 "없다"가 아니라 "찾을 수 없다"가 되고, 원제로 한 번 더 두드리면
+  // 도서관 목록에는 대개 원서가 있다.
+  const orig = (w.titleOriginal ?? "").trim();
+  const origTerm = `${orig} ${a ? a.names.original : ""}`.trim();
   return `<h2>구하기</h2>
 <p class="absent">한국어 판본을 아직 검수하지 않았다 (${esc(d.editions.checkedAt)} 확인). 아래는 검색으로 나가는 문이고, 우리가 확인한 판본이 아니다.</p>
 <div class="doors">
   <a href="${ALADIN_SEARCH(term)}" rel="nofollow noopener">알라딘에서 찾기</a>
   <a href="${KYOBO_SEARCH(term)}" rel="nofollow noopener">교보문고에서 찾기</a>
   <a href="${NL_SEARCH(term)}" rel="nofollow noopener">국립중앙도서관에서 찾기</a>
+${orig && orig !== w.titleKo ? `  <a href="${NL_SEARCH(origTerm)}" rel="nofollow noopener">원제로 찾기 — ${esc(orig)}</a>` : ""}
 </div>`;
 }
 
