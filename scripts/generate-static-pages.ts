@@ -327,6 +327,71 @@ function workRow(w: Work, entryWhy?: string): string {
   </li>`;
 }
 
+// ── 동시대인 ────────────────────────────────────────────────────────────────
+// 실루엣 1,365명을 세워놓고 문을 내지 않으면 그들은 색인에만 있는 이름이다. 문은
+// **이미 데이터에 있는 것**으로 낸다: 같은 권역, 겹치는 활동 구간. 영향을 주장하지
+// 않는다 — 주장에는 출처가 필요하고 우리에겐 그 출처가 없다. 같은 자리 같은 때에
+// 있었다는 것은 주장이 아니라 우리가 이미 적어둔 두 좌표의 교차다.
+// 권역별로 **활동 시작 연도 순** 줄. 이 줄이 격자의 뼈대다.
+const byRegionYear = (() => {
+  const m = new Map<string, Author[]>();
+  for (const a of d.authors) for (const r of a.regions) m.set(r, (m.get(r) ?? []).concat([a]));
+  for (const list of m.values()) list.sort((x, y) => x.activeRange[0] - y.activeRange[0] || x.id.localeCompare(y.id));
+  return m;
+})();
+const idHash = (s: string): number => {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  return (h >>> 0) / 4294967296;
+};
+
+/**
+ * 겹침만으로 고르면 밀집 권역이 끊긴다. 영국·아일랜드 228명에서 "겹침 상위 8명"은
+ * 활동 구간이 거의 같은 사람들이고, 그들이 서로만 가리키면 18세기 한 덩어리가 통째로
+ * 섬이 된다 (실측: 1,465명 중 529명 도달 불가).
+ *
+ * 그래서 두 가지를 함께 낸다 — **겹침**(같은 때 가장 오래 함께 있었던 사람)과
+ * **줄에서 바로 앞뒤**(권역을 활동 시작순으로 세웠을 때의 이웃). 뒤엣것이 각 권역을
+ * 하나의 사슬로 꿰므로 어디서 걷기 시작해도 그 권역 전체에 닿는다.
+ */
+function contemporaries(a: Author, n = 10): Author[] {
+  const [from, to] = a.activeRange;
+  const pool = new Map<string, Author>();
+  const chain: Author[] = [];
+  for (const r of a.regions) {
+    const line = byRegionYear.get(r) ?? [];
+    const i = line.findIndex((b) => b.id === a.id);
+    for (const b of line) if (b.id !== a.id) pool.set(b.id, b);
+    if (i > 0) chain.push(line[i - 1]!);
+    if (i >= 0 && i + 1 < line.length) chain.push(line[i + 1]!);
+  }
+  const overlap = [...pool.values()]
+    .map((b) => ({ b, o: Math.min(to, b.activeRange[1]) - Math.max(from, b.activeRange[0]) }))
+    .filter((x) => x.o >= 0)
+    .sort(
+      (x, y) =>
+        y.o - x.o ||
+        Number((y.b.depth ?? "plate") !== "silhouette") - Number((x.b.depth ?? "plate") !== "silhouette") ||
+        idHash(a.id + x.b.id) - idHash(a.id + y.b.id)
+    )
+    .map((x) => x.b);
+  const out = new Map<string, Author>();
+  for (const b of chain) out.set(b.id, b);
+  for (const b of overlap) { if (out.size >= n) break; out.set(b.id, b); }
+  return [...out.values()].sort((x, y) => x.activeRange[0] - y.activeRange[0]);
+}
+
+function contemporariesSection(a: Author): string {
+  const near = contemporaries(a);
+  if (!near.length) return "";
+  const row = (b: Author) =>
+    `<li><span class="t"><a href="/authors/${esc(b.id)}/">${esc(b.names.ko)}</a></span>` +
+    `<span class="y">${b.activeRange[0]}–${b.activeRange[1]}</span>` +
+    `${(b.depth ?? "plate") === "silhouette" ? "" : `<span class="tag">도판</span>`}</li>`;
+  return `<details class="near"><summary>같은 자리, 같은 때 — ${near.length}명</summary>
+<ul class="works">${near.map(row).join("\n")}</ul></details>`;
+}
+
 function authorPage(a: Author): string {
   const works = worksOf(a.id);
   const ordered = a.readingOrder
@@ -350,6 +415,7 @@ function authorPage(a: Author): string {
 <p class="absent"><strong>아직 실루엣이다.</strong> 이름과 자리는 안다 — 언제 어느 언어로 썼는지까지.
 그 너머는 아직 우리가 읽지 않았다. 이 쪽은 비어 있는 것이 아니라 아직 채워지지 않았다.</p>
 ${relationsSection(rels, a.id)}
+${contemporariesSection(a)}
 <div class="doors">
   <a href="/#${esc(a.id)}">책에서 이 자리 보기</a>
   <a href="/authors/">색인</a>
@@ -393,7 +459,8 @@ ${
 <ul class="rels">${rels.slice(1).map((r) => relRow(r, a.id)).join("\n")}</ul></details>`
     : ""
 }
-<p class="life">출처 ${a.sourceIds.length}건 · ${esc(a.reviewStatus)}${a.reviewedAt ? ` · ${esc(a.reviewedAt)}` : ""}</p>
+${contemporariesSection(a)}
+<p class="life">출처 ${a.sourceIds.length}건</p>
 </article>`;
   return page({
     title: `${a.names.ko} — 하나의 책`,
@@ -504,7 +571,7 @@ ${sils.map(row).join("\n")}
 }`;
   return page({
     title: "색인 — 하나의 책",
-    desc: `20세기 세계문학과 그 앞뒤 — 작가 ${d.authors.length}인의 색인. 도판 ${plates.length}, 실루엣 ${sils.length}.`,
+    desc: `세계문학 작가 ${d.authors.length}인의 색인. 도판 ${plates.length}, 실루엣 ${sils.length}.`,
     path: "/authors/",
     body
   });
@@ -695,8 +762,8 @@ var start=location.hash.replace('#','');
 if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
 </script>`;
   return page({
-    title: "하나의 책 — 20세기 세계문학",
-    desc: "모든 책을 품은 하나의 책 — 걸음마다 작가 하나, 인연을 골라 다음으로. 읽고 싶은 책을 담는다. 작가 100인·작품 513편, 전부 검토된 큐레이션.",
+    title: "하나의 책 — 세계문학의 지도",
+    desc: `모든 책을 품은 하나의 책 — 호메로스에서 지금까지 작가 ${d.authors.length}인. 읽은 것이 다음 것을 연다. 도판 ${d.authors.filter((a) => (a.depth ?? "plate") !== "silhouette").length}인은 전부 검토된 큐레이션이고, 작품 ${d.works.length}편이 그 안에 있다.`,
     path: "/",
     body
   });
