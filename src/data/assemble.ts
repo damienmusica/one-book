@@ -225,8 +225,9 @@ export function assembleDataset(
   // 원장에 올랐는데 실루엣으로 남아 있으면, 그리기로 한 작가를 그리지 않은 것이다.
   for (const a of authors) {
     const depth = a.depth ?? "plate";
-    if (depth === "silhouette") {
-      if (registryIds.has(a.id)) errors.push(`registry author still a silhouette: ${a.id}`);
+    // 배차된 것은 도판이다. 스케치도 실루엣도 배차가 아니라 아직 그려지는 중이다.
+    if (depth !== "plate") {
+      if (registryIds.has(a.id)) errors.push(`registry author is only a ${depth}: ${a.id}`);
       continue;
     }
     if (registryIds.size > 0 && !registryIds.has(a.id))
@@ -257,7 +258,9 @@ export function assembleDataset(
       if (!sourceIds.has(sid)) errors.push(`${a.id}: unknown source ${sid}`);
     }
 
-    if (depth !== "silhouette") {
+    // 장소는 도판의 것이다. 스케치는 한 문장을 더한 실루엣이지 축소된 도판이 아니다 —
+    // 스케치에 도판의 요구를 걸면 그 칸은 영원히 비고 사다리는 두 칸으로 되돌아간다.
+    if (depth === "plate") {
       const primaries = (a.locations ?? []).filter((l) => l.primary === true);
       if (primaries.length !== 1)
         errors.push(`${a.id}: exactly one primary location required (found ${primaries.length})`);
@@ -274,6 +277,13 @@ export function assembleDataset(
       }
       if ((a.readingOrder ?? []).length > 0)
         errors.push(`${a.id}: 실루엣에는 입문 순서가 없다`);
+    } else if (depth === "sketch") {
+      for (const w of authorWorks) {
+        if ((w.depth ?? "plate") === "plate")
+          errors.push(`${w.id}: 작가가 스케치인데 작품이 도판이다 — 작가부터 올려라`);
+      }
+      if ((a.readingOrder ?? []).length > 0)
+        errors.push(`${a.id}: 스케치에는 입문 순서가 없다 — 순서는 큐레이션이고 도판의 것이다`);
     } else {
       if (authorWorks.length < 3 && a.worksException === undefined)
         errors.push(

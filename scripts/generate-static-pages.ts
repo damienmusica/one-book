@@ -51,6 +51,8 @@ const genreKo = (id: string): string => GENRE_DEFS.find((g) => g.id === id)?.ko 
  * 연도 한 칸. 고대가 318명 들어오면서 `-340`은 더 이상 읽히는 수가 아니게 됐다.
  * 기원전은 기원전이라고 쓴다 — 부호는 데이터의 것이지 독자의 것이 아니다.
  */
+/** 깊이의 순서 — 도판이 가장 깊다. 「실루엣이 아닌 것」은 이제 도판을 뜻하지 않는다. */
+const rank = (a: Author): number => ({ plate: 2, sketch: 1, silhouette: 0 })[a.depth ?? "plate"];
 const yr = (n: number): string => (n < 0 ? `기원전 ${-n}` : String(n));
 const span = (from: number, to: number | undefined): string =>
   to === undefined ? `${yr(from)}–` : from < 0 && to < 0 ? `기원전 ${-from}–${-to}` : `${yr(from)}–${yr(to)}`;
@@ -251,7 +253,11 @@ ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` :
 ${o.body}
 <div id="lp-auth" class="auth" hidden></div>
 <footer class="site">
-  도판 ${d.authors.filter((a) => (a.depth ?? "plate") !== "silhouette").length}인 검토 · 실루엣 ${d.authors.filter((a) => (a.depth ?? "plate") === "silhouette").length}인은 이름과 자리 ·
+  도판 ${d.authors.filter((a) => (a.depth ?? "plate") === "plate").length}인 검토${
+    d.authors.some((a) => a.depth === "sketch")
+      ? ` · 스케치 ${d.authors.filter((a) => a.depth === "sketch").length}인은 한 문장`
+      : ""
+  } · 실루엣 ${d.authors.filter((a) => (a.depth ?? "plate") === "silhouette").length}인은 이름과 자리 ·
   작품 ${d.works.length} · 관계 ${d.relations.length} · 출처 ${d.sources.length}. 지어내지 않는다: 없는 것은 없다고 적는다.
 </footer>
 </body>
@@ -404,7 +410,7 @@ function contemporaries(a: Author, n = 10): Author[] {
     .sort(
       (x, y) =>
         y.o - x.o ||
-        Number((y.b.depth ?? "plate") !== "silhouette") - Number((x.b.depth ?? "plate") !== "silhouette") ||
+        rank(y.b) - rank(x.b) ||
         idHash(a.id + x.b.id) - idHash(a.id + y.b.id)
     )
     .map((x) => x.b);
@@ -420,7 +426,7 @@ function contemporariesSection(a: Author): string {
   const row = (b: Author) =>
     `<li><span class="t"><a href="/authors/${esc(b.id)}/">${esc(b.names.ko)}</a></span>` +
     `<span class="y">${esc(span(b.activeRange[0], b.activeRange[1]))}</span>` +
-    `${(b.depth ?? "plate") === "silhouette" ? "" : `<span class="tag">도판</span>`}</li>`;
+    `${(b.depth ?? "plate") === "plate" ? `<span class="tag">도판</span>` : ""}</li>`;
   return `<details class="near"><summary>같은 자리, 같은 때 — ${near.length}명</summary>
 <ul class="works">${near.map(row).join("\n")}</ul></details>`;
 }
@@ -438,21 +444,31 @@ function authorPage(a: Author): string {
   // ── 실루엣 (결정 (137)) ─────────────────────────────────────────────────
   // 지도 위의 자리다. 우리가 아는 것만 적고, 모르는 것은 **모른다고 적는다** —
   // 빈 페이지가 아니라 아직 채워지지 않은 페이지라고 말하는 것이 정직이다.
-  if (depth === "silhouette") {
+  // 도판이 아닌 쪽 — 실루엣과 스케치. 스케치는 **한 문장을 더한 실루엣**이다:
+  // 왜 이 사람이 지도에 있는지 한 줄. 그 한 줄이 빈 쪽을 읽고 싶은 쪽으로 바꾼다.
+  if (depth !== "plate") {
+    const stillMissing =
+      depth === "sketch"
+        ? `<p class="absent"><strong>아직 스케치다.</strong> 왜 이 사람이 지도에 있는지 한 줄까지 안다.
+입문 순서와 판본은 아직 우리가 놓지 않았다.</p>`
+        : works.length
+          ? `<p class="absent"><strong>아직 실루엣이다.</strong> 이 책들이 있다는 것과 언제 어느 말로 쓰였는지는 안다.
+무엇이 이 사람을 그 자리에 세웠는지는 아직 우리가 읽지 않았다.</p>`
+          : `<p class="absent"><strong>아직 실루엣이다.</strong> 이름과 자리는 안다 — 언제 어느 언어로 썼는지까지.
+그 너머는 아직 우리가 읽지 않았다. 이 쪽은 비어 있는 것이 아니라 아직 채워지지 않았다.</p>`;
     const body = `
-<article class="silhouette">
+<article class="${depth}">
 <h1>${esc(a.names.ko)}</h1>
 <p class="orig">${esc(a.names.original)}</p>
 <p class="life">${esc(life)} · 활동 ${esc(span(a.activeRange[0], a.activeRange[1]))}</p>
 <p class="ready" id="lp-ready" data-author="${esc(a.id)}" hidden></p>
+${a.importanceReason ? `<p class="why">${esc(a.importanceReason)}</p>` : ""}
 ${
   works.length
     ? `<h2>책 ${works.length}</h2>
 <ul class="works">${[...works].sort((x, y) => x.year - y.year).map((w) => workRow(w)).join("\n")}</ul>
-<p class="absent"><strong>아직 실루엣이다.</strong> 이 책들이 있다는 것과 언제 어느 말로 쓰였는지는 안다.
-무엇이 이 사람을 그 자리에 세웠는지는 아직 우리가 읽지 않았다.</p>`
-    : `<p class="absent"><strong>아직 실루엣이다.</strong> 이름과 자리는 안다 — 언제 어느 언어로 썼는지까지.
-그 너머는 아직 우리가 읽지 않았다. 이 쪽은 비어 있는 것이 아니라 아직 채워지지 않았다.</p>`
+${stillMissing}`
+    : stillMissing
 }
 ${relationsSection(rels, a.id)}
 ${contemporariesSection(a)}
@@ -463,7 +479,9 @@ ${contemporariesSection(a)}
 </article>`;
     return page({
       title: `${a.names.ko} — 하나의 책`,
-      desc: `${a.names.ko}(${a.names.original}) — ${span(a.activeRange[0], a.activeRange[1])}. 「하나의 책」의 실루엣 항목.`,
+      desc: a.importanceReason
+        ? firstSentence(a.importanceReason)
+        : `${a.names.ko}(${a.names.original}) — ${span(a.activeRange[0], a.activeRange[1])}. 「하나의 책」의 실루엣 항목.`,
       path: `/authors/${a.id}/`,
       body,
       ld: {
@@ -593,7 +611,8 @@ ${w.sourceIds.length ? `<p class="life">출처 ${w.sourceIds.length}건</p>` : "
 
 function indexPage(): string {
   const sorted = [...d.authors].sort((x, y) => x.names.ko.localeCompare(y.names.ko, "ko"));
-  const plates = sorted.filter((a) => (a.depth ?? "plate") !== "silhouette");
+  const plates = sorted.filter((a) => (a.depth ?? "plate") === "plate");
+  const sketches = sorted.filter((a) => a.depth === "sketch");
   const sils = sorted.filter((a) => (a.depth ?? "plate") === "silhouette");
   // 검색은 이미 페이지에 있는 것을 거른다 — 1,465행이 전부 정적 HTML 로 서 있으므로
   // 색인은 통째로 SEO 에 잡히고, 걸러내기는 DOM 순회 한 번이면 끝난다. 인덱스도,
@@ -606,7 +625,9 @@ function indexPage(): string {
   const periodsUsed = PERIOD_DEFS.filter((pd) => d.authors.some((a) => a.periods.includes(pd.id)));
   const body = `
 <h1>색인 — 작가 ${d.authors.length}인</h1>
-<p class="life">세계는 처음부터 전부 여기 있다. 도판 ${plates.length}인은 쪽이 채워졌고,
+<p class="life">세계는 처음부터 전부 여기 있다. 도판 ${plates.length}인은 쪽이 채워졌고,${
+  sketches.length ? ` 스케치 ${sketches.length}인은 한 문장을 얻었으며,` : ""
+}
 실루엣 ${sils.length}인은 이름과 자리로 서 있다 — 아직 만나지 않은 것의 모양이다.</p>
 <div class="doors">
   <a href="/">책을 펴기</a>
@@ -621,6 +642,14 @@ function indexPage(): string {
 <ul class="idx">
 ${plates.map(row).join("\n")}
 </ul>
+${
+  sketches.length
+    ? `<h2>스케치 ${sketches.length}</h2>
+<ul class="idx sk">
+${sketches.map(row).join("\n")}
+</ul>`
+    : ""
+}
 ${
   sils.length
     ? `<h2>실루엣 ${sils.length}</h2>
@@ -655,7 +684,7 @@ ${sils.map(row).join("\n")}
 </script>`;
   return page({
     title: "색인 — 하나의 책",
-    desc: `세계문학 작가 ${d.authors.length}인의 색인. 도판 ${plates.length}, 실루엣 ${sils.length}.`,
+    desc: `세계문학 작가 ${d.authors.length}인의 색인. 도판 ${plates.length}, 스케치 ${sketches.length}, 실루엣 ${sils.length}.`,
     path: "/authors/",
     body
   });
@@ -908,7 +937,7 @@ if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
 </script>`;
   return page({
     title: "하나의 책 — 세계문학의 지도",
-    desc: `모든 책을 품은 하나의 책 — 호메로스에서 지금까지 작가 ${d.authors.length}인. 읽은 것이 다음 것을 연다. 도판 ${d.authors.filter((a) => (a.depth ?? "plate") !== "silhouette").length}인은 전부 검토된 큐레이션이고, 작품 ${d.works.length}편이 그 안에 있다.`,
+    desc: `모든 책을 품은 하나의 책 — 호메로스에서 지금까지 작가 ${d.authors.length}인. 읽은 것이 다음 것을 연다. 도판 ${d.authors.filter((a) => (a.depth ?? "plate") === "plate").length}인은 전부 검토된 큐레이션이고, 작품 ${d.works.length}편이 그 안에 있다.`,
     path: "/",
     body
   });

@@ -207,7 +207,7 @@ describe("배차 원장은 도판 작가만 잰다", () => {
     ];
     ds.works = ds.works.filter((w) => w.authorId !== "s");
     const { errors } = assembleDataset(rawFrom(ds));
-    expect(errors.some((e) => e.includes("registry author still a silhouette: s"))).toBe(true);
+    expect(errors.some((e) => e.includes("registry author is only a silhouette: s"))).toBe(true);
   });
 
   it("원장에 없는 도판 작가는 여전히 막는다", () => {
@@ -279,5 +279,67 @@ describe("사후 출간 검사는 연도 오타를 잡는 것이지 문학사에
   });
   it("성립 시기 추정도 통과시킨다", () => {
     expect(late("composition-range").some((e) => e.includes("posthumously"))).toBe(false);
+  });
+});
+
+describe("스케치는 축소된 도판이 아니라 한 문장을 더한 실루엣이다", () => {
+  // 이 칸에 도판의 요구(장소·3편·입문 순서)를 걸면 그 칸은 영원히 비고
+  // 사다리는 두 칸으로 되돌아간다.
+  const sketch = (id: string, over: Record<string, unknown> = {}) =>
+    makeAuthor({
+      id,
+      depth: "sketch",
+      reviewStatus: "draft",
+      importanceReason: "한 문장으로 왜 이 사람이 지도에 있는지 말한다.",
+      locations: [],
+      genres: [],
+      difficulty: undefined,
+      sourceIds: [],
+      readingEntry: undefined,
+      readingOrder: [],
+      ...over
+    });
+
+  it("장소도 난도도 출처도 없이 선다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s")], []);
+    ds.works = ds.works
+      .filter((w) => w.authorId !== "s")
+      .concat([makeWork("s", 1, { depth: "silhouette", significance: undefined, sourceIds: [] })]);
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
+    expect(assembleDataset(rawFrom(ds)).errors).toEqual([]);
+  });
+
+  it("한 문장이 없으면 스케치가 아니다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s", { importanceReason: undefined })], []);
+    ds.works = ds.works.filter((w) => w.authorId !== "s");
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("importanceReason"))).toBe(true);
+  });
+
+  it("작품이 작가보다 깊을 수 없다 — 스케치에도 같은 규칙", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s")], []);
+    ds.works = ds.works.filter((w) => w.authorId !== "s").concat([makeWork("s", 1)]);
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("작가가 스케치인데"))).toBe(true);
+  });
+
+  it("입문 순서는 큐레이션이고 도판의 것이다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s", { readingOrder: ["s--w1"] })], []);
+    ds.works = ds.works
+      .filter((w) => w.authorId !== "s")
+      .concat([makeWork("s", 1, { depth: "silhouette", significance: undefined, sourceIds: [] })]);
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("스케치에는 입문 순서가 없다"))).toBe(true);
+  });
+
+  it("도판은 여전히 전부 요구받는다 — 사다리가 무너지지 않았다", () => {
+    // 장소를 아예 비우면 스키마가 먼저 잡는다. 여기서 재는 것은 그 다음 문 —
+    // 장소는 있는데 어느 것이 그 사람의 자리인지 말하지 않는 경우다.
+    const noPrimary = makeAuthor({ id: "b" });
+    const ds = makeDataset(
+      [makeAuthor({ id: "a" }), { ...noPrimary, locations: noPrimary.locations.map((l) => ({ ...l, primary: false })) }],
+      []
+    );
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("primary location"))).toBe(true);
   });
 });
