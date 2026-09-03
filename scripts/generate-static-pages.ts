@@ -171,6 +171,8 @@ ul.eds{list-style:none}
 .silhouette h1{color:var(--dim)}
 .silhouette .orig,.silhouette .life{color:var(--faint)}
 .idx.sil a{color:var(--dim)}
+/* 준비도 — 당신이 읽은 것이 이 사람을 열었다는 한 줄 */
+.ready{margin:10px 0 16px;padding:8px 12px;border-left:2px solid var(--brass);background:rgba(207,167,89,.07);color:var(--brass-b);font-size:13.5px}
 .auth{margin:34px 0 0;padding-top:14px;border-top:1px dashed var(--line);font-size:13px}
 .auth input{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text);padding:5px 9px;width:min(260px,60%)}
 .auth .sig{color:var(--dim);font-size:12.5px;margin-top:6px}
@@ -337,6 +339,7 @@ function authorPage(a: Author): string {
 <h1>${esc(a.names.ko)}</h1>
 <p class="orig">${esc(a.names.original)}</p>
 <p class="life">${esc(life)} · 활동 ${a.activeRange[0]}–${a.activeRange[1]}</p>
+<p class="ready" id="lp-ready" data-author="${esc(a.id)}" hidden></p>
 <p class="absent"><strong>아직 실루엣이다.</strong> 이름과 자리는 안다 — 언제 어느 언어로 썼는지까지.
 그 너머는 아직 우리가 읽지 않았다. 이 쪽은 비어 있는 것이 아니라 아직 채워지지 않았다.</p>
 ${relationsSection(rels, a.id)}
@@ -366,6 +369,7 @@ ${relationsSection(rels, a.id)}
 <h1>${esc(a.names.ko)}</h1>
 <p class="orig">${esc(a.names.original)}</p>
 <p class="life">${esc(life)}</p>
+<p class="ready" id="lp-ready" data-author="${esc(a.id)}" hidden></p>
 ${a.importanceReason ? `<p class="why">${esc(a.importanceReason)}</p>` : ""}
 <div class="doors">
   <a href="/#${esc(a.id)}">여기서 읽기 시작</a>

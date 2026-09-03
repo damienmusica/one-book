@@ -96,6 +96,29 @@ const authTxt = await page.locator("#lp-auth").innerText();
 check("저장되는 것이 무엇인지 한 줄로 말한다", /어떤 책을 어느 칸에/.test(authTxt) && /언제/.test(authTxt));
 check("모듈 로드에 콘솔 에러 없음", errors.length === 0, errors.slice(0, 2).join(" | "));
 
+// ─── 준비도 배지 — 스포티파이가 못 쓰는 문장 ─────────────────────────────
+// "이 책은 당신이 읽은 것에 대한 답이다." 유사성이 아니라 선행 조건이고, 근거는
+// 우리 관계 원장에 출처와 함께 있다. 사용자 0명에서도 돈다.
+console.log("\n준비도");
+await page.goto(`${server.origin}/authors/gabriel-garcia-marquez/`, { waitUntil: "load" });
+await page.waitForTimeout(900);
+check("아무것도 안 읽었으면 배지가 없다 — 추측하지 않는다", !(await page.locator("#lp-ready").isVisible()));
+
+await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
+await page.waitForTimeout(300);
+await page.locator("select.state").first().selectOption("read");
+await page.waitForTimeout(250);
+await page.goto(`${server.origin}/authors/gabriel-garcia-marquez/`, { waitUntil: "load" });
+await page.waitForTimeout(1100);
+const badge = await page.locator("#lp-ready").innerText();
+check("읽은 뒤에는 왜 열렸는지 사람 이름으로 말한다", /카프카를 읽었으니 이제 열린다/.test(badge), badge.slice(0, 60));
+check("그 이유가 관계 원장의 실제 문장이다", badge.length > 60, `${badge.length}자`);
+
+await page.goto(`${server.origin}/authors/franz-kafka/`, { waitUntil: "load" });
+await page.waitForTimeout(900);
+check("이미 만난 사람에게는 열 것이 없다고 말한다", /이미 만난 사람/.test(await page.locator("#lp-ready").innerText()));
+await page.evaluate(() => localStorage.clear());
+
 // ─── 작가 페이지: 정보 폭탄 상한 ─────────────────────────────────────────────
 // 예산은 3D 카드에서 물려받은 880자가 아니다. 그 수는 패널의 수였고 페이지에는
 // 근거가 없다. 페이지의 예산은 여기서 새로 정한다: **접힌 것을 뺀 그려진 글자**.

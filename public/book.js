@@ -195,6 +195,34 @@ function paintAuth(s) {
   }
 }
 
+// ── 준비도 배지 (결정 (137)) ────────────────────────────────────────────────
+// 작가 페이지 상단에 한 줄. "지금 이 사람이 열려 있는가"는 도감의 핵심 감각이고,
+// 그 답은 독자가 읽은 것에서만 나온다 — 서버도 모델도 필요 없다.
+async function paintReadiness() {
+  const el = document.getElementById("lp-ready");
+  if (!el) return;
+  const id = el.getAttribute("data-author");
+  try {
+    const A = await import("/atlas.js");
+    const g = await A.graph();
+    const lit = A.litAuthors(A.readerState());
+    if (lit.has(id)) {
+      el.textContent = "이미 만난 사람이다.";
+      el.hidden = false;
+      return;
+    }
+    const row = A.readiness(g, lit).find((r) => r.id === id);
+    if (!row) return;                       // 아직 아무 불도 이 사람에게 닿지 않았다
+    const from = g.byId.get(row.from);
+    const name = from ? from.k : row.from;
+    el.textContent = A.KIND_KO[row.kind] ? A.KIND_KO[row.kind](name) + "." : "";
+    if (row.why) el.textContent += " " + row.why;
+    el.hidden = false;
+  } catch {
+    /* 엔진이 없으면 배지도 없다 — 페이지는 그대로다 */
+  }
+}
+
 if (typeof window !== "undefined" && typeof document !== "undefined") {
   absorbCallback();
   // lpSet 을 감싼다 — 로컬 쓰기는 원래 함수가, 서버 쓰기는 여기가.
@@ -213,6 +241,9 @@ if (typeof window !== "undefined" && typeof document !== "undefined") {
       session().then((s) => s && serverSet(s, id, st || null, at)).catch((e) => console.warn("set", e));
     };
   }
-  const go = () => syncOnLoad();
+  const go = () => {
+    syncOnLoad();
+    paintReadiness();
+  };
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", go) : go();
 }
