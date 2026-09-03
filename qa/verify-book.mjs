@@ -211,6 +211,31 @@ for (const p of ["/", "/authors/", "/authors/franz-kafka/", "/works/franz-kafka-
   check(`${p} 에 죽은 표면 링크 0`, dead.length === 0, dead.join(" "));
 }
 
+// ─── 색인 허가 ───────────────────────────────────────────────────────────────
+// 색인은 SEO 의 문제이지 탐험의 문제가 아니다. 스케치 1,363명의 한 문장은 아직 아무도
+// 검증하지 않았고, 그것을 검색엔진에 사실이라고 제출하지는 않는다.
+console.log("\n색인 허가 — 검토된 것만 제출한다");
+{
+  const robots = async (p) => {
+    const h = await (await fetch(`${server.origin}${p}`)).text();
+    return /name="robots" content="noindex/.test(h);
+  };
+  check("도판 작가 쪽은 색인된다", (await robots("/authors/franz-kafka/")) === false);
+  check("스케치 작가 쪽은 색인하지 않는다", await robots("/authors/qu-yuan/"));
+  check("도판 작품 쪽은 색인된다", (await robots("/works/franz-kafka--die-verwandlung/")) === false);
+  check("실루엣 작품 쪽은 색인하지 않는다", await robots("/works/qu-yuan--lisao/"));
+  check("색인과 첫 장은 색인된다", (await robots("/authors/")) === false && (await robots("/")) === false);
+  const sm = await (await fetch(`${server.origin}/sitemap.xml`)).text();
+  const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  check("sitemap 이 검토되지 않은 쪽을 제출하지 않는다", !locs.some((u) => u.includes("/authors/qu-yuan/")), `${locs.length} urls`);
+  check("그래도 도판은 전부 제출한다", locs.filter((u) => /\/authors\/[^/]+\/$/.test(u)).length === 100);
+  // 사람은 여전히 걸어 들어온다 — noindex 는 탐험을 막지 않는다
+  await page.goto(`${server.origin}/authors/`, { waitUntil: "load" });
+  await page.locator("#q").fill("굴원");
+  await page.waitForTimeout(120);
+  check("색인하지 않는 쪽도 사람은 찾을 수 있다", (await page.locator(".idx > li:not([hidden])").count()) >= 1);
+}
+
 // ─── 첫 장의 무게 ────────────────────────────────────────────────────────────
 // 캡슐이 HTML 에 박혀 있을 때 첫 장은 압축 후 214KB 였고, 한 사람을 보러 온 사람이
 // 1,465명분을 매 방문 다시 받았다. 주에 한 번 오는 제품에서 그것이 재방문 전체다.

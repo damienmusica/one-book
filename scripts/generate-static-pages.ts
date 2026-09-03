@@ -221,12 +221,19 @@ ul.meters{list-style:none;margin:0}
 @media(max-width:560px){.idx{columns:1}}
 `.trim();
 
+/**
+ * 색인은 SEO 의 문제이지 탐험의 문제가 아니다. 검토되지 않은 쪽도 사람은 색인·검색·
+ * 격자로 얼마든지 걸어 들어온다 — 다만 우리가 **검색엔진에 사실이라고 제출하지는**
+ * 않는다. 스케치 1,363명의 한 문장은 아직 아무도 검증하지 않았다.
+ * `follow` 는 남긴다: 크롤러가 격자를 걸어 도판에 닿는 길은 열어 둔다.
+ */
 function page(o: {
   title: string;
   desc: string;
   path: string;
   body: string;
   ld?: object;
+  noindex?: boolean;
 }): string {
   return `<!doctype html>
 <html lang="ko">
@@ -236,6 +243,7 @@ function page(o: {
 <meta name="color-scheme" content="dark">
 <title>${esc(o.title)}</title>
 <meta name="description" content="${esc(o.desc)}">
+${o.noindex ? `<meta name="robots" content="noindex,follow">` : ""}
 <link rel="canonical" href="${BASE}${o.path}">
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='2.6' fill='%23eccb82'/%3E%3Ccircle cx='7' cy='9' r='1.3' fill='%23cfa759'/%3E%3Ccircle cx='25' cy='11' r='1.1' fill='%23cfa759'/%3E%3Ccircle cx='22' cy='24' r='1.5' fill='%23cfa759'/%3E%3Cpath d='M7 9 L16 16 L25 11 M16 16 L22 24' stroke='%236a5a3a' stroke-width='.8' fill='none'/%3E%3C/svg%3E">
@@ -487,6 +495,7 @@ ${contemporariesSection(a)}
         : `${a.names.ko}(${a.names.original}) — ${span(a.activeRange[0], a.activeRange[1])}. 「하나의 책」의 실루엣 항목.`,
       path: `/authors/${a.id}/`,
       body,
+      noindex: true,
       ld: {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -601,6 +610,7 @@ ${w.sourceIds.length ? `<p class="life">출처 ${w.sourceIds.length}건</p>` : "
       : `${w.titleKo}(${w.titleOriginal}) — ${a ? `${a.names.ko}, ` : ""}${w.year}. 「하나의 책」의 실루엣 항목.`,
     path: `/works/${w.id}/`,
     body,
+    noindex: w.significance === undefined,
     ld: {
       "@context": "https://schema.org",
       "@type": "Book",
@@ -1037,11 +1047,14 @@ mkdirSync(join(OUT, "walk"), { recursive: true });
 writeFileSync(join(OUT, "walk", "index.html"), walkPage());
 writeFileSync(join(OUT, "index.html"), walkPage());
 
+// sitemap 은 "이것을 색인해 달라"는 제출이다. 검토된 것만 제출한다 — 나머지 쪽에는
+// noindex 가 붙어 있으므로 두 신호가 같은 말을 한다.
 const urls = [
   `${BASE}/`,
   `${BASE}/authors/`,
-  ...d.authors.map((a) => `${BASE}/authors/${a.id}/`),
-  ...d.works.map((w) => `${BASE}/works/${w.id}/`)
+  `${BASE}/shelf/`,
+  ...d.authors.filter((a) => (a.depth ?? "plate") === "plate").map((a) => `${BASE}/authors/${a.id}/`),
+  ...d.works.filter((w) => w.significance !== undefined).map((w) => `${BASE}/works/${w.id}/`)
 ];
 writeFileSync(
   join(OUT, "sitemap.xml"),
