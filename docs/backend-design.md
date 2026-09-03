@@ -45,12 +45,20 @@ CPO: *"내가 이미 이용 중인 서비스 위주로 고려해서 설계해."*
   `book`** 하나로 격리한다. 이름 충돌 0, 권한 경계 명확, 나중에 프로젝트를 분리해야 하면
   `pg_dump -n book` 한 줄이다.
 
-### API: Edge Function 한 개, RPC 여섯 개
+### API: 서버 코드 0 — PostgREST + RLS (짓다가 고친 결정)
 
-now-ml 의 패턴을 그대로 쓴다 — 클라는 REST 를 직접 부르지 않고 Edge Function 을 부르고,
-Edge 가 service role 로 RPC 를 대신 부른다. **다른 점 하나**: now-ml 은 익명키였지만 여기는
-로그인 사용자라, Edge 는 `Authorization: Bearer <user JWT>` 를 검증해 `auth.uid()` 를 얻고
-그 값으로만 RPC 를 부른다. RLS 는 켜고 정책은 없다(now-ml 과 동일 — service role 만 통과).
+초안은 now-ml 처럼 Edge Function 한 겹을 두려 했다. 짓기 전에 다시 물었다 — now-ml 이 Edge 를
+둔 이유는 **신원이 없어서**였다(토스 익명키는 JWT 가 아니라 RLS 의 `auth.uid()` 를 못 쓴다).
+여기는 Supabase Auth 사용자라 그 제약이 없다. 그래서 **정석**을 쓴다:
+
+- 브라우저가 공개 anon 키 + 사용자 JWT 로 PostgREST 를 직접 부른다(`Accept-Profile: book`).
+- RLS 정책 `user_id = auth.uid()` 가 지킨다. anon 은 어느 정책에도 걸리지 않아 **401** 이다
+  (라이브 확인). 지키는 것은 키가 아니라 정책이고, anon 키는 공개 설계다.
+- 서버 코드 0줄. 함수는 SQL 셋뿐 — `mark_set`(갱신 + 이벤트, 늦은 시각 승), `marks_merge`(로그인
+  순간 합침), `account_export`(내 도감 전부 = 저장되는 것의 전부). 전부 `security invoker` 라
+  호출자의 RLS 그대로.
+
+now-ml 패턴을 그대로 복사하지 않은 것이 이번 라운드의 "상속한 가정" 점검이다.
 
 ### Toss — 이 제품에는 맞지 않는다 (CPO 질문에 대한 답, 2026-09-03)
 
@@ -158,17 +166,16 @@ alter table book.mark_events enable row level security;
 
 ## 8. 첫 라운드 (짓기 전 결재 대기)
 
-1. `book` 스키마 + RPC 6 — SQL 한 파일, Supabase SQL Editor 1회 실행(now-ml 방식).
-2. Edge Function `book` 하나 — JWT 검증 → RPC. now-ml `push/index.ts` 를 본으로 60줄.
-3. 정적 페이지에 로그인 한 줄("이메일로 이 도감 지키기") + 상태 사다리에 서버 쓰기 훅.
-4. 합치기 규칙(§4)의 유닛 계약 — 늦은 `at` 이 이긴다 · 삭제도 이벤트다 · 서버 실패 시 로컬 보존.
-5. **실제 아이폰으로 7일 실측** — 로컬을 지운 뒤 로그인해 도감이 돌아오는가. 이게 이 라운드의
-   유일한 성공 지표다.
+1. ✅ `book` 스키마 + 함수 3 — `supabase/migrations/20260903000001_book.sql`, `supabase db push` 로 적용(2026-09-03).
+2. ✅ Edge Function — **짓지 않았다**(위 §2 API). 서버 코드 0.
+3. ✅ 정적 페이지 하단 「도감 지키기」(이메일 폼) + `public/book.js` 가 `lpSet` 을 감싸 서버에도 쓴다.
+4. ✅ 합침 규칙 계약 9건(`tests/merge.test.ts`) · 브라우저 계약 4건(모듈 로드·비로그인 동작·정직 문장).
+5. ⏳ **실제 아이폰으로 7일 실측** — 로컬을 지운 뒤 로그인해 도감이 돌아오는가. CPO 의 기기와
+   이메일이 필요하다. 이게 이 라운드의 유일한 성공 지표다.
 
 측정 불가인 것은 측정 불가라고 적는다: 이 라운드는 "몇 명이 로그인하는가"를 재지 않는다.
 재는 것은 "로그인한 사람의 도감이 살아남는가" 하나다.
 
 ---
 
-**결재 필요**: §2 신원 방식(매직링크) · 스키마 격리 방식(같은 프로젝트, `book` 스키마).
-둘 다 승인이면 첫 라운드를 시작한다. (Toss 는 결재 항목이 아니다 — 뺐다.)
+**상태 (2026-09-03)**: 첫 라운드 배포됨. 남은 것은 5번 — 사람의 기기와 7일.
