@@ -173,6 +173,13 @@ ul.eds{list-style:none}
 .idx.sil a{color:var(--dim)}
 /* 준비도 — 당신이 읽은 것이 이 사람을 열었다는 한 줄 */
 .ready{margin:10px 0 16px;padding:8px 12px;border-left:2px solid var(--brass);background:rgba(207,167,89,.07);color:var(--brass-b);font-size:13.5px}
+.literacy h3{font-size:11.5px;letter-spacing:.2em;color:var(--faint);margin:16px 0 6px;font-weight:600}
+ul.meters{list-style:none;margin:0}
+.meters li{display:flex;align-items:center;gap:10px;padding:3px 0;font-size:12.5px}
+.meters .t{flex:0 0 108px;color:var(--dim)}
+.meters .meter{flex:1;height:5px;background:rgba(207,167,89,.13);border-radius:3px;overflow:hidden}
+.meters .meter i{display:block;height:100%;background:var(--brass);border-radius:3px}
+.meters .y{flex:0 0 52px;text-align:right;color:var(--faint);font-size:11.5px}
 .auth{margin:34px 0 0;padding-top:14px;border-top:1px dashed var(--line);font-size:13px}
 .auth input{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text);padding:5px 9px;width:min(260px,60%)}
 .auth .sig{color:var(--dim);font-size:12.5px;margin-top:6px}
@@ -623,8 +630,21 @@ function openBook(app){
         }
       }
       // 도감 계수 — 목표도 퍼센트도 없다. 세계가 얼마나 열렸는가만.
+      // 도감 계수 + 문해의 지도. 지도는 접어 둔다 — 펼치는 것은 독자의 선택이고,
+      // 접힌 것은 페이지 예산에 세지 않는다.
       html+='<p class="census">만난 작가 <strong>'+c.met+'</strong> / '+c.total+
         (c.openNow?' · 지금 열린 쪽 <strong>'+c.openNow+'</strong>':'')+'</p>';
+      var L=A.literacy(g,lit);
+      var bar=function(row){
+        var pct=row.total?Math.round(row.met/row.total*100):0;
+        return '<li><span class="t">'+h(row.ko)+'</span>'+
+          '<span class="meter"><i style="width:'+pct+'%"></i></span>'+
+          '<span class="y">'+row.met+'/'+row.total+'</span></li>';
+      };
+      html+='<details class="literacy"><summary>문해의 지도 — 어느 영역이 열려 있는가</summary>'+
+        '<p class="sig">배지가 아니다. 어디를 지도 없이 읽을 수 있는지를 말한다.</p>'+
+        '<h3>권역</h3><ul class="meters">'+L.regions.map(bar).join('')+'</ul>'+
+        '<h3>시대</h3><ul class="meters">'+L.periods.map(bar).join('')+'</ul></details>';
       html+='<h2>아는 이름에서 펴기</h2>'+
         '<input id="anchor" list="authors" placeholder="좋아한 작가 이름" style="font:inherit;font-size:14px;background:none;border:1px solid var(--line);color:var(--text);padding:7px 11px;width:min(320px,100%)">'+
         '<datalist id="authors">'+Object.keys(DATA).map(function(k){return '<option value="'+h(DATA[k].ko)+'">';}).join('')+'</datalist>';

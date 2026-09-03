@@ -84,6 +84,16 @@ check("읽은 뒤에는 만난 수가 오른다", /만난 작가\s*[1-9]/.test(a
 check("읽은 것이 다음 것을 연다 — 지금 열린 쪽이 생긴다", /지금 열린 쪽\s*\d+/.test(after), after.replace(/\n/g, " "));
 const openedTxt = await appTxt();
 check("연 이유가 사람 이름으로 말해진다", /읽었으니 이제 열린다|의 뿌리다|의 곁이다/.test(openedTxt));
+
+// 문해의 지도 — 도감의 "박사"는 모은 개수가 아니라 열린 영역이다.
+check("문해의 지도가 접힌 채로 있다", (await page.locator("details.literacy").count()) === 1);
+await page.locator(".literacy summary").click();
+await page.waitForTimeout(200);
+const meters = await page.locator(".meters li").count();
+check("권역과 시대로 나뉜다", meters >= 10, `${meters}행`);
+const litTxt = await page.locator(".literacy").innerText();
+check("점수가 아니라 지도라고 말한다", /지도 없이 읽을 수 있는지/.test(litTxt));
+check("읽은 권역이 채워진다", /\b1\/\d+/.test(litTxt), litTxt.split("\n").slice(4, 6).join(" "));
 await page.evaluate(() => localStorage.clear());
 
 // ─── 도감 지키기 (결정 (136)) — 로그인은 관문이 아니다 ─────────────────────
