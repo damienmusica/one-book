@@ -83,7 +83,13 @@ const after = await page.locator(".census").innerText();
 check("읽은 뒤에는 만난 수가 오른다", /만난 작가\s*[1-9]/.test(after), after.replace(/\n/g, " "));
 check("읽은 것이 다음 것을 연다 — 지금 열린 쪽이 생긴다", /지금 열린 쪽\s*\d+/.test(after), after.replace(/\n/g, " "));
 const openedTxt = await appTxt();
-check("연 이유가 사람 이름으로 말해진다", /읽었으니 이제 열린다|의 뿌리다|의 곁이다/.test(openedTxt));
+// 네 문장뿐이고 넷은 서로 다른 근거다 — 셋은 출처 있는 엣지, 넷째는 좌표의 교차.
+// 어느 주냐에 따라 셋 중 하나이거나 넷째다(세 주에 한 주는 이웃의 주).
+check(
+  "연 이유가 사람 이름으로 말해진다",
+  /읽었으니 이제 열린다|의 뿌리다|의 곁이다|같은 때, 같은 자리에 있었다/.test(openedTxt),
+  (openedTxt.match(/.{0,24}(열린다|뿌리다|곁이다|있었다)/) ?? [""])[0]
+);
 
 // 문해의 지도 — 도감의 "박사"는 모은 개수가 아니라 열린 영역이다.
 check("문해의 지도가 접힌 채로 있다", (await page.locator("details.literacy").count()) === 1);

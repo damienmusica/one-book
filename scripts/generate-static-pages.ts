@@ -666,10 +666,13 @@ function walkPage(): string {
   const capsule = Object.fromEntries(
     d.authors.map((a) => {
       const works = worksOf(a.id);
-      const ordered = a.readingOrder
+      // 도판은 큐레이터가 정한 입문 순서로, 실루엣은 연도순으로. 실루엣에는
+      // readingOrder 가 없고(있으면 안 되고), 그것만 읽으면 책 3권을 가진 작가가
+      // 첫 장에서 빈손으로 열린다 — 열어도 담을 것이 없는 쪽이 된다.
+      const byOrder = a.readingOrder
         .map((id) => works.find((w) => w.id === id))
-        .filter((w): w is Work => Boolean(w))
-        .slice(0, 3);
+        .filter((w): w is Work => Boolean(w));
+      const ordered = (byOrder.length ? byOrder : [...works].sort((x, y) => x.year - y.year)).slice(0, 3);
       const hops = relsOf(a.id)
         .sort((x, y) => (y.weight ?? 0.7) - (x.weight ?? 0.7))
         .slice(0, 3)
@@ -878,6 +881,7 @@ writeFileSync(join(OUT, "authors", "index.html"), indexPage());
 // 왜 클라이언트인가: 서버가 계산하면 "누가 무엇을 읽었는지"를 서버가 알아야 한다.
 // 그래프는 공개 데이터이고 독자의 표시는 독자 것이므로, 그 둘이 만나는 자리는
 // 독자의 브라우저다.
+const authorIndex = new Map(d.authors.map((a, i) => [a.id, i]));
 const capsule = {
   generatedAt: new Date().toISOString().slice(0, 10),
   authors: d.authors.map((a) => ({
@@ -902,7 +906,10 @@ const capsule = {
     d: r.direction === "directed" ? 1 : 0,
     v: r.evidenceLevel === "documented" ? 3 : r.evidenceLevel === "scholarly_consensus" ? 2 : 1,
     m: (r.summary ?? "").slice(0, 120)
-  }))
+  })),
+  // 격자 — 정적 쪽의 "같은 자리, 같은 때"와 **같은 계산 결과**를 싣는다. 규칙을
+  // 두 번 구현하면 두 표면이 조용히 갈라진다. 인덱스로 저장한다(id 문자열의 1/8).
+  near: d.authors.map((a) => contemporaries(a).map((b) => authorIndex.get(b.id) ?? -1).filter((n) => n >= 0))
 };
 writeFileSync(join(OUT, "graph.json"), JSON.stringify(capsule));
 

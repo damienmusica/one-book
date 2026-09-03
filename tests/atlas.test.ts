@@ -4,7 +4,7 @@
 // 사용자 0명에서도 돈다. 아래가 그 주장을 실제로 재는 자리다.
 import { describe, expect, it } from "vitest";
 // @ts-expect-error — 브라우저 ESM 이지만 순수 함수는 그대로 import 된다
-import { authorOf, census, litAuthors, openAt, readiness, isoWeek } from "../public/atlas.js";
+import { authorOf, census, KIND_KO, litAuthors, openAt, readiness, isoWeek } from "../public/atlas.js";
 
 const A = (i: string, over: Record<string, unknown> = {}) => ({
   i, k: i, o: i, b: 1900, e: 1980, y: 1950, r: "western-europe", l: "fr",
@@ -14,7 +14,7 @@ const E = (s: string, t: string, over: Record<string, unknown> = {}) =>
   ({ s, t, y: "documented_influence", d: 1, v: 3, m: `${s}가 ${t}에게`, ...over });
 
 /** graph() 는 fetch 를 쓰므로, 테스트는 같은 모양의 객체를 손으로 만든다. */
-function buildGraph(authors: unknown[], edges: unknown[]) {
+function buildGraph(authors: unknown[], edges: unknown[], near: number[][] = []) {
   const byId = new Map(authors.map((a: any) => [a.i, a]));
   const out = new Map(); const inn = new Map(); const side = new Map();
   const push = (m: Map<string, unknown[]>, k: string, v: unknown) => m.set(k, (m.get(k) || []).concat([v]));
@@ -23,7 +23,12 @@ function buildGraph(authors: unknown[], edges: unknown[]) {
     if (e.d) { push(out, e.s, rec(e.t)); push(inn, e.t, rec(e.s)); }
     else { push(side, e.s, rec(e.t)); push(side, e.t, rec(e.s)); }
   }
-  return { raw: { authors, edges }, byId, out, inn, side } as any;
+  const nearMap = new Map<string, string[]>();
+  near.forEach((list, i) => {
+    const from = (authors as any[])[i];
+    if (from) nearMap.set(from.i, list.map((n) => (authors as any[])[n]).filter(Boolean).map((b: any) => b.i));
+  });
+  return { raw: { authors, edges, near }, byId, out, inn, side, near: nearMap } as any;
 }
 
 describe("불이 켜진 작가 — 작품 표시가 작가로 올라간다", () => {
@@ -138,5 +143,95 @@ describe("주차", () => {
     const w = isoWeek(new Date("2026-09-04"));
     expect(w).toBeGreaterThan(0);
     expect(w).toBeLessThanOrEqual(53);
+  });
+});
+
+describe("격자 — 세계의 93%가 첫 장에 오는 길", () => {
+  // 준비도(엣지)와 격자(같은 때 같은 자리)는 다른 물음이다. 인구조사의 '지금 열린 쪽'은
+  // 준비도만 세고, 오늘 어느 쪽이 열리는가에는 둘 다 후보가 된다 — 아니면 도판 100인이
+  // 100주에 소진되고 실루엣 1,365명은 영영 첫 장에 오지 못한다.
+  const four = () => [A("kafka"), A("rilke"), A("musil"), A("broch", { d: "silhouette" })];
+
+  // 세 주에 한 주는 이웃의 주다. 계약은 두 종류의 주를 다 시험해야 하므로 둘을 찾아둔다.
+  const NEAR_WEEK = [...Array(60).keys()].find((w) => {
+    const g = buildGraph(four(), [E("kafka", "musil")], [[1, 2, 3], [0], [0], [0]]);
+    return openAt(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } }), w)?.kind === "near";
+  })!;
+  const EDGE_WEEK = [...Array(60).keys()].find((w) => {
+    const g = buildGraph(four(), [E("kafka", "musil")], [[1, 2, 3], [0], [0], [0]]);
+    return openAt(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } }), w)?.kind === "opens";
+  })!;
+
+  it("두 종류의 주가 둘 다 존재한다 — 한쪽만 있으면 규칙이 죽은 것이다", () => {
+    expect(NEAR_WEEK).toBeDefined();
+    expect(EDGE_WEEK).toBeDefined();
+  });
+
+  it("엣지가 하나도 없어도 표시가 있으면 쪽이 열린다", () => {
+    const g = buildGraph(four(), [], [[1, 2, 3], [0], [0], [0]]);
+    const o = openAt(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } }), EDGE_WEEK);
+    expect(o?.first).toBe(false);
+    expect(o?.kind).toBe("near");
+    expect(["rilke", "musil", "broch"]).toContain(o?.id);
+  });
+
+  it("격자로 열린 쪽은 다른 문장을 쓴다", () => {
+    expect(KIND_KO.near("카프카")).toBe("카프카와 같은 때, 같은 자리에 있었다");
+    expect(KIND_KO.near("카프카")).not.toBe(KIND_KO.beside("카프카"));
+  });
+
+  it("보통 주에는 엣지가 이긴다 — 근거가 다른 종류다", () => {
+    const g = buildGraph(four(), [E("kafka", "musil")], [[1, 2, 3], [0], [0], [0]]);
+    const o = openAt(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } }), EDGE_WEEK);
+    expect(o?.kind).toBe("opens");
+    expect(o?.id).toBe("musil");
+  });
+
+  it("이웃의 주에는 엣지가 있어도 이웃이 온다 — 점수가 아니라 자리다", () => {
+    const g = buildGraph(four(), [E("kafka", "musil")], [[1, 2, 3], [0], [0], [0]]);
+    const o = openAt(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } }), NEAR_WEEK);
+    expect(o?.kind).toBe("near");
+  });
+
+  it("이웃의 주라도 이웃이 없으면 엣지로 연다 — 빈 주는 없다", () => {
+    const g = buildGraph([A("kafka"), A("musil")], [E("kafka", "musil")], [[], []]);
+    const o = openAt(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } }), NEAR_WEEK);
+    expect(o?.kind).toBe("opens");
+  });
+
+  it("책이 없는 이웃은 열지 않는다 — 열어도 담을 것이 없다", () => {
+    const g = buildGraph([A("kafka"), A("rilke", { w: 0 })], [], [[1], [0]]);
+    const o = openAt(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } }), NEAR_WEEK);
+    expect(o?.first).toBe(true);
+  });
+
+  it("이미 만난 사람은 격자로도 다시 열리지 않는다", () => {
+    const g = buildGraph([A("kafka"), A("rilke")], [], [[1], [0]]);
+    const lit = litAuthors({ state: { "kafka--w": { s: "read", at: 1 }, "rilke--w": { s: "read", at: 2 } } });
+    expect(openAt(g, lit, NEAR_WEEK)?.first).toBe(true);
+  });
+
+  it("인구조사의 '지금 열린 쪽'은 격자를 세지 않는다", () => {
+    const g = buildGraph(four(), [], [[1, 2, 3], [0], [0], [0]]);
+    expect(census(g, litAuthors({ state: { "kafka--w": { s: "read", at: 1 } } })).openNow).toBe(0);
+  });
+});
+
+describe("조사 — 이름은 데이터에서 오고 데이터에는 둘 다 있다", () => {
+  it("받침이 있으면 을·과", () => {
+    expect(KIND_KO.opens("토니 모리슨")).toBe("토니 모리슨을 읽었으니 이제 열린다");
+    expect(KIND_KO.near("토니 모리슨")).toBe("토니 모리슨과 같은 때, 같은 자리에 있었다");
+  });
+  it("받침이 없으면 를·와", () => {
+    expect(KIND_KO.opens("프란츠 카프카")).toBe("프란츠 카프카를 읽었으니 이제 열린다");
+    expect(KIND_KO.near("프란츠 카프카")).toBe("프란츠 카프카와 같은 때, 같은 자리에 있었다");
+  });
+  it("이름 앞이 로마자여도 끝글자로 판정한다 — '트'는 종성이 없다", () => {
+    expect(KIND_KO.near("W. G. 제발트")).toBe("W. G. 제발트와 같은 때, 같은 자리에 있었다");
+    expect(KIND_KO.opens("김소월")).toBe("김소월을 읽었으니 이제 열린다");
+  });
+  it("한글이 아닌 끝글자는 받침 없음으로 읽는다", () => {
+    expect(KIND_KO.near("Kafka")).toBe("Kafka와 같은 때, 같은 자리에 있었다");
+    expect(KIND_KO.opens("魯迅")).toBe("魯迅를 읽었으니 이제 열린다");
   });
 });

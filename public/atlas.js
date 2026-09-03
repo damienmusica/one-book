@@ -39,7 +39,13 @@ export async function graph() {
       push(side, e.t, rec(e.s));
     }
   }
-  G = { raw, byId, out, inn, side };
+  // 격자 — 빌드가 정적 쪽과 **같은 규칙으로** 계산해 인덱스로 실어 보낸 것.
+  const near = new Map();
+  (raw.near || []).forEach((list, i) => {
+    const from = raw.authors[i];
+    if (from) near.set(from.i, list.map((n) => raw.authors[n]).filter(Boolean).map((b) => b.i));
+  });
+  G = { raw, byId, out, inn, side, near };
   return G;
 }
 
@@ -96,10 +102,23 @@ export function readiness(g, lit) {
   return [...rows.values()].sort((x, y) => y.score - x.score);
 }
 
+/**
+ * 받침이 있으면 앞의 조사를, 없으면 뒤의 조사를. 이름은 데이터에서 오고 데이터에는
+ * 「토니 모리슨」도 「프란츠 카프카」도 있다 — 한 벌로 고정하면 둘 중 하나는 반드시 틀린다.
+ * 한글이 아닌 끝글자(로마자·한자)는 받침 없음으로 읽는다.
+ */
+export function josa(word, withFinal, withoutFinal) {
+  const last = String(word).trim().slice(-1);
+  const code = last.charCodeAt(0);
+  const hangul = code >= 0xac00 && code <= 0xd7a3;
+  return hangul && (code - 0xac00) % 28 !== 0 ? withFinal : withoutFinal;
+}
+
 export const KIND_KO = {
-  opens: (from) => `${from}를 읽었으니 이제 열린다`,
+  opens: (from) => `${from}${josa(from, "을", "를")} 읽었으니 이제 열린다`,
   root: (from) => `${from}의 뿌리다`,
-  beside: (from) => `${from}의 곁이다`
+  beside: (from) => `${from}의 곁이다`,
+  near: (from) => `${from}${josa(from, "과", "와")} 같은 때, 같은 자리에 있었다`
 };
 
 // ── 2. 조우 ──────────────────────────────────────────────────────────────────
@@ -134,16 +153,40 @@ const hash = (s) => {
 /**
  * 책이 오늘 열리는 쪽. 표시가 있으면 준비도 상위에서, 없으면 도판(깊이가 있는 작가)에서.
  * 같은 독자·같은 주는 같은 쪽 — 다시 찾을 수 있어야 오솔길이 된다(『모래의 책』의 교훈).
+ * `week` 는 계약이 두 종류의 주를 다 시험하기 위한 것이다(생략하면 이번 주).
  */
-export function openAt(g, lit) {
-  const wk = isoWeek();
+export function openAt(g, lit, week) {
+  const wk = week === undefined ? isoWeek() : week;
   const s = seen();
   const ready = readiness(g, lit);
-  if (ready.length) {
-    const top = ready.slice(0, 12).map((r) => ({ ...r, w: r.score * decay(s, r.id) * (0.75 + 0.5 * hash(r.id + wk)) }));
-    top.sort((a, b) => b.w - a.w);
-    return { ...top[0], first: false };
+  // 준비도와 격자는 **다른 물음**이다. 준비도는 "무엇을 읽을 준비가 됐는가"이고
+  // 격자는 "그때 그 자리에 누가 또 있었는가"다. 그래서 인구조사의 '지금 열린 쪽'은
+  // 준비도만 센다. 하지만 오늘 어느 쪽이 열리는가에는 둘 다 후보가 된다 — 아니면
+  // 도판 100인이 100주 만에 소진되고, 세계의 93%는 영영 첫 장에 오지 못한다.
+  const pool = ready.slice(0, 12).map((r) => ({ ...r, w: r.score * decay(s, r.id) * (0.75 + 0.5 * hash(r.id + wk)) }));
+  for (const [src, level] of lit) {
+    const from = g.byId.get(src);
+    for (const id of (g.near && g.near.get(src)) || []) {
+      if (lit.has(id) || pool.some((p) => p.id === id)) continue;
+      const a = g.byId.get(id);
+      if (!a || !a.w) continue;                    // 책이 없으면 열어도 담을 것이 없다
+      pool.push({
+        id, kind: "near", from: src, fromKo: from ? from.k : "", ev: 0, why: "",
+        score: level * 0.3,
+        w: level * 0.3 * decay(s, id) * (0.75 + 0.5 * hash(id + wk))
+      });
+    }
   }
+  // 점수로 겨루게 하면 격자는 영영 지고 실루엣은 첫 장에 오지 못한다(실측: 8주 연속
+  // 엣지가 이겼다). 근거의 종류가 다른 둘을 한 저울에 올린 것이 잘못이었다.
+  // **세 주에 한 주는 이웃의 주다** — 자리를 주지, 점수를 올려주지 않는다.
+  const neighbourWeek = hash(`${wk}|near`) < 1 / 3;
+  const first = neighbourWeek ? pool.filter((p) => p.kind === "near") : [];
+  const rest = neighbourWeek ? pool.filter((p) => p.kind !== "near") : pool;
+  first.sort((a, b) => b.w - a.w);
+  rest.sort((a, b) => b.w - a.w);
+  const picked = first.concat(rest);
+  if (picked.length) return { ...picked[0], first: false };
   // 아직 아무 표시도 없다 — 도판 중에서 결정론적으로 한 사람.
   const plates = g.raw.authors.filter((a) => a.d === "plate" && a.w > 0);
   const pick = plates.sort((a, b) => hash(a.i + wk) - hash(b.i + wk))[0];
