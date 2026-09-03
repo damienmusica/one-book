@@ -440,7 +440,9 @@ function authorPage(a: Author): string {
   const rest = works.filter((w) => !a.readingOrder.includes(w.id)).sort((x, y) => x.year - y.year);
   const rels = relsOf(a.id).sort((x, y) => (y.weight ?? 0.7) - (x.weight ?? 0.7));
   const depth = a.depth ?? "plate";
-  const life = `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")} · ${a.regions.map(regionKo).join("·")}${a.movements.length ? ` · ${a.movements.map(movementKo).join("·")}` : ""}${a.difficulty ? ` · 난도 ${a.difficulty}/5` : ""}`;
+  const life = `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")} · ${a.regions.map(regionKo).join("·")}${a.movements.length ? ` · ${a.movements.map(movementKo).join("·")}` : ""}`;
+  // 난도는 아래에 이유와 함께 한 번 선다. 머리글에 숫자만 또 적으면 같은 것을 두 번
+  // 읽히고, 그 자리는 예산에서 가장 값이 낮은 글자다.
 
   // ── 실루엣 (결정 (137)) ─────────────────────────────────────────────────
   // 지도 위의 자리다. 우리가 아는 것만 적고, 모르는 것은 **모른다고 적는다** —
