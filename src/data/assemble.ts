@@ -333,8 +333,16 @@ export function assembleDataset(
       errors.push(`${w.id}: work id must be '<authorId>--<slug>'`);
     if (a.birthYear !== undefined && w.year < a.birthYear + 10)
       errors.push(`${w.id}: published before author age 10 (${w.year})`);
-    if (a.deathYear !== undefined && w.year > a.deathYear + 60)
-      errors.push(`${w.id}: published more than 60y posthumously (${w.year}) — check year`);
+    // 사후 60년은 **연도 오타를 잡는 검사**였지 문학사에 대한 주장이 아니었다.
+    // 고전이 들어오자 참인 사실 7건을 거짓으로 판정했다 — 첼리니 자서전 1728,
+    // 윤선도 고산유고 1798, 김시습 매월당집 1583. 전부 사후 편찬이 정상인 문학이다.
+    // 그리고 그 7건은 전부 `yearBasis: first-print` 였다 — 데이터가 이미 "이 수는
+    // 출간 연도다"라고 말하고 있었고 규칙이 그 선언을 읽지 않았다.
+    const basis = w.yearBasis ?? "attested";
+    if (basis === "attested" && a.deathYear !== undefined && w.year > a.deathYear + 60)
+      errors.push(
+        `${w.id}: published more than 60y posthumously (${w.year}) — check year, or say what that number is with yearBasis`
+      );
     for (const sid of w.sourceIds ?? []) {
       if (!sourceIds.has(sid)) errors.push(`${w.id}: unknown source ${sid}`);
     }

@@ -259,3 +259,25 @@ describe("작품에도 깊이가 있다 (2026-09-04)", () => {
     expect(errors.some((e) => e.includes("도판 작품에는 significance 가 필요하다"))).toBe(true);
   });
 });
+
+describe("사후 출간 검사는 연도 오타를 잡는 것이지 문학사에 대한 주장이 아니다", () => {
+  // 고전이 들어오자 이 규칙이 참인 사실 7건을 거짓으로 판정했다(첼리니 1728 ·
+  // 윤선도 1798 · 김시습 1583). 전부 사후 편찬이 정상인 문학이고, 전부 이미
+  // `yearBasis: first-print` 로 그 수가 무엇인지 말하고 있었다.
+  const late = (basis?: string) => {
+    const ds = makeDataset([makeAuthor({ id: "a", birthYear: 1500, deathYear: 1571 })], []);
+    ds.works = ds.works.map((w, i) =>
+      i === 0 ? { ...w, year: 1728, ...(basis ? { yearBasis: basis as never } : {}) } : { ...w, year: 1560 }
+    );
+    return assembleDataset(rawFrom(ds)).errors;
+  };
+  it("무슨 수인지 말하지 않으면 막는다 — 오타일 수 있다", () => {
+    expect(late().some((e) => e.includes("posthumously"))).toBe(true);
+  });
+  it("첫 인쇄라고 말하면 통과시킨다", () => {
+    expect(late("first-print").some((e) => e.includes("posthumously"))).toBe(false);
+  });
+  it("성립 시기 추정도 통과시킨다", () => {
+    expect(late("composition-range").some((e) => e.includes("posthumously"))).toBe(false);
+  });
+});
