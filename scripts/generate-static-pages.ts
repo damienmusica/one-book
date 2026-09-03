@@ -165,6 +165,8 @@ ul.eds{list-style:none}
 .eds .pub{color:var(--text)}.eds .meta{color:var(--faint);font-size:12px;margin-left:6px}
 .eds .isbn{color:var(--faint);font-size:11.5px;letter-spacing:.04em}
 .absent{color:var(--dim);font-size:13.5px;margin:6px 0 10px}
+.census{margin:26px 0 8px;padding-top:12px;border-top:1px dashed var(--line);color:var(--faint);font-size:12.5px;letter-spacing:.06em}
+.census strong{color:var(--brass-b);font-weight:600}
 .auth{margin:34px 0 0;padding-top:14px;border-top:1px dashed var(--line);font-size:13px}
 .auth input{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text);padding:5px 9px;width:min(260px,60%)}
 .auth .sig{color:var(--dim);font-size:12.5px;margin-top:6px}
@@ -468,7 +470,8 @@ function walkPage(): string {
           ko: a.names.ko,
           or: a.names.original,
           life: `${a.birthYear ?? "?"}–${a.deathYear ?? ""} · ${a.languages.join("·")}`,
-          why: firstSentence(a.importanceReason),
+          why: a.importanceReason ? firstSentence(a.importanceReason) : "",
+          depth: a.depth ?? "plate",
           entry: a.readingEntryReason,
           works: ordered.map((w) => ({ id: w.id, t: w.titleKo, y: w.year, s: firstSentence(w.significance) })),
           hops
@@ -479,8 +482,8 @@ function walkPage(): string {
   const STARTS = ["franz-kafka", "jorge-luis-borges", "virginia-woolf"].filter((id) => byId.has(id));
   const body = `
 <h1>하나의 책</h1>
-<p class="life">모든 책을 품은 하나의 책. 조종은 없다 — 걸음마다 작가 하나가 서고,
-인연을 골라 다음으로 건넌다. 읽고 싶은 책이 생기면 담아라. 그게 전부다.</p>
+<p class="life">모든 책을 품은 하나의 책. 세계는 처음부터 전부 여기 있고, 아직 만나지
+않은 이름은 실루엣으로 서 있다. 읽은 것이 다음 것을 연다.</p>
 <div id="app"></div>
 <script>
 var DATA=${JSON.stringify(capsule)};
@@ -497,45 +500,103 @@ function weekly(){
 }
 function render(id){
   var app=document.getElementById('app');
-  if(!id){
-    var wk=weekly();
-    app.innerHTML='<h2>어디서 시작할까</h2>'+
-      '<div class="doors"><a href="#'+wk+'" onclick="go(\\''+wk+'\\');return false">이번 주의 길 — '+h(DATA[wk].ko)+'</a>'+
-      STARTS.map(function(s){
-      return '<a href="#'+s+'" onclick="go(\\''+s+'\\');return false">'+h(DATA[s].ko)+'</a>';}).join('')+'</div>'+
-      '<h2 style="margin-top:22px">아는 작가에서 시작</h2>'+
-      '<input id="anchor" list="authors" placeholder="좋아한 작가 이름" style="font:inherit;font-size:14px;background:none;border:1px solid var(--line);color:var(--text);padding:7px 11px;width:min(320px,100%)">'+
-      '<datalist id="authors">'+Object.keys(DATA).map(function(k){return '<option value="'+h(DATA[k].ko)+'">';}).join('')+'</datalist>';
-    var inp=document.getElementById('anchor');
-    var jump=function(){
-      var v=(inp.value||'').trim();if(!v)return;
-      for(var k in DATA){if(DATA[k].ko===v||DATA[k].ko.indexOf(v)>=0||DATA[k].or.toLowerCase().indexOf(v.toLowerCase())>=0){go(k);return;}}
-    };
-    inp.addEventListener('change',jump);
-    inp.addEventListener('keydown',function(e){if(e.key==='Enter')jump();});
-    return;
-  }
-  var a=DATA[id];if(!a){render(null);return;}
+  if(!id){ openBook(app); return; }
+  var a=DATA[id];if(!a){openBook(app);return;}
   var html='';
-  if(trail.length>1){html+='<p class="life">'+trail.map(function(t){return h(DATA[t].ko);}).join(' → ')+'</p>';}
+  if(trail.length>1){html+='<p class="life">'+trail.map(function(t){return h(DATA[t].ko);}).join(' \u2192 ')+'</p>';}
   html+='<h2 style="letter-spacing:.05em;font-size:22px;color:var(--text)">'+h(a.ko)+'</h2>';
   html+='<p class="orig">'+h(a.or)+' · '+h(a.life)+'</p>';
-  html+='<p class="why">'+h(a.why)+'</p>';
-  html+='<h2>여기서 읽기 시작한다면</h2><ul class="works">'+a.works.map(function(w,i){
-    return '<li><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span>'+
-    lpControl(w.id)+
-    (i===0&&a.entry?'<p class="entrywhy">'+h(a.entry)+'</p>':'')+
-    '<p class="sig">'+h(w.s)+'</p></li>';}).join('')+'</ul>';
-  html+='<h2>다음 걸음 — 인연을 골라라</h2><ul class="rels">'+a.hops.map(function(x){
-    var o=DATA[x.to];if(!o)return '';
-    return '<li><span class="g">'+x.g+'</span><a href="#'+x.to+'" onclick="go(\\''+x.to+'\\');return false">'+h(o.ko)+'</a>'+
-    '<span class="rt">'+h(x.t)+'</span><p class="sum">'+h(x.s)+'</p></li>';}).join('')+'</ul>';
+  if(a.depth==='silhouette'){
+    html+='<p class="absent">아직 실루엣이다 — 이름과 자리만 안다. 이 사람의 쪽은 아직 비어 있다.</p>';
+  } else if(a.why){ html+='<p class="why">'+h(a.why)+'</p>'; }
+  if(a.works.length){
+    html+='<h2>여기서 읽기 시작한다면</h2><ul class="works">'+a.works.map(function(w,i){
+      return '<li><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span>'+
+      lpControl(w.id)+
+      (i===0&&a.entry?'<p class="entrywhy">'+h(a.entry)+'</p>':'')+
+      '<p class="sig">'+h(w.s)+'</p></li>';}).join('')+'</ul>';
+  }
+  if(a.hops.length){
+    html+='<h2>다음 걸음 — 인연을 골라라</h2><ul class="rels">'+a.hops.map(function(x){
+      var o=DATA[x.to];if(!o)return '';
+      return '<li><span class="g">'+x.g+'</span><a href="#'+x.to+'" data-go="'+x.to+'">'+h(o.ko)+'</a>'+
+      '<span class="rt">'+h(x.t)+'</span><p class="sum">'+h(x.s)+'</p></li>';}).join('')+'</ul>';
+  }
   html+='<div class="doors"><a href="/authors/'+id+'/">이 작가의 방(전체 기록)</a>'+
-    '<a href="#" onclick="finish();return false">오늘 여기까지</a></div>';
+    '<a href="#" data-reopen="1">책을 다시 펴기</a></div>';
   app.innerHTML=html;
   lpPaint();
   window.scrollTo(0,0);
 }
+
+// ── 책이 열리는 쪽 ──────────────────────────────────────────────────────────
+// 묻지 않는다. 책이 이미 어느 쪽에서 열려 있고, 그 쪽은 당신이 읽은 것에서 한 걸음
+// 너머다. 표시가 아직 없으면 이번 주의 쪽이 열린다 — 매주 다른 쪽.
+function openBook(app){
+  app.innerHTML='<p class="sig">책을 펴는 중…</p>';
+  import('/atlas.js').then(function(A){
+    return A.graph().then(function(g){
+      var lit=A.litAuthors(A.readerState());
+      var open=A.openAt(g,lit);
+      var c=A.census(g,lit);
+      var html='';
+      if(open){
+        var a=DATA[open.id];
+        var node=g.byId.get(open.id);
+        var ko=a?a.ko:(node?node.k:open.id);
+        var reason=open.first
+          ? '이번 주에 열린 쪽'
+          : (A.KIND_KO[open.kind]?A.KIND_KO[open.kind]((DATA[open.from]&&DATA[open.from].ko)||(g.byId.get(open.from)||{}).k||open.from):'');
+        html+='<p class="sig">'+h(reason)+'</p>';
+        html+='<h2 style="letter-spacing:.05em;font-size:22px;color:var(--text)">'+h(ko)+'</h2>';
+        if(open.why){html+='<p class="why">'+h(open.why)+'</p>';}
+        else if(a&&a.why){html+='<p class="why">'+h(a.why)+'</p>';}
+        A.markSeen(open.id);
+        if(a){
+          if(a.works.length){
+            html+='<ul class="works">'+a.works.map(function(w){
+              return '<li><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span>'+lpControl(w.id)+
+              '<p class="sig">'+h(w.s)+'</p></li>';}).join('')+'</ul>';
+          }
+          html+='<div class="doors"><a href="#'+open.id+'" data-go="'+open.id+'">이 쪽을 펴기</a>'+
+            '<a href="#" data-reopen="1">다른 쪽</a></div>';
+        } else {
+          html+='<p class="absent">아직 실루엣이다 — 이름과 자리만 안다.</p>'+
+            '<div class="doors"><a href="#" data-reopen="1">다른 쪽</a></div>';
+        }
+      }
+      // 도감 계수 — 목표도 퍼센트도 없다. 세계가 얼마나 열렸는가만.
+      html+='<p class="census">만난 작가 <strong>'+c.met+'</strong> / '+c.total+
+        (c.openNow?' · 지금 열린 쪽 <strong>'+c.openNow+'</strong>':'')+'</p>';
+      html+='<h2>아는 이름에서 펴기</h2>'+
+        '<input id="anchor" list="authors" placeholder="좋아한 작가 이름" style="font:inherit;font-size:14px;background:none;border:1px solid var(--line);color:var(--text);padding:7px 11px;width:min(320px,100%)">'+
+        '<datalist id="authors">'+Object.keys(DATA).map(function(k){return '<option value="'+h(DATA[k].ko)+'">';}).join('')+'</datalist>';
+      app.innerHTML=html;
+      lpPaint();
+      var inp=document.getElementById('anchor');
+      var jump=function(){
+        var v=(inp.value||'').trim();if(!v)return;
+        for(var k in DATA){if(DATA[k].ko===v||DATA[k].ko.indexOf(v)>=0||DATA[k].or.toLowerCase().indexOf(v.toLowerCase())>=0){go(k);return;}}
+      };
+      inp.addEventListener('change',jump);
+      inp.addEventListener('keydown',function(e){if(e.key==='Enter')jump();});
+    });
+  }).catch(function(e){
+    // 엔진이 없어도 책은 열린다 — 도판 하나를 결정론적으로.
+    var ids=Object.keys(DATA).filter(function(k){return DATA[k].works.length;}).sort();
+    var pick=ids[(new Date().getFullYear()*53+Math.floor(Date.now()/604800000))%ids.length];
+    trail=[pick];render(pick);
+  });
+}
+// 클릭 위임 — 인라인 핸들러는 TS 템플릿 안의 JS 문자열 안의 따옴표라 세 겹이 되고,
+// 실제로 한 번 깨져 첫 장이 통째로 죽었다(2026-08-31). 마크업은 마크업으로 남긴다.
+document.addEventListener('click',function(e){
+  var g=e.target.closest&&e.target.closest('[data-go]');
+  if(g){e.preventDefault();go(g.getAttribute('data-go'));return;}
+  var r=e.target.closest&&e.target.closest('[data-reopen]');
+  if(r){e.preventDefault();trail=[];render(null);}
+});
+
 function go(id){trail.push(id);history.replaceState(null,'','#'+id);render(id);}
 function lpControl(id){
   var o='';for(var i=0;i<LP_STATES.length;i++)o+='<option value="'+LP_STATES[i][0]+'">'+LP_STATES[i][1]+'</option>';
@@ -551,7 +612,7 @@ function finish(){
       list.map(function(k){return '<a href="/works/'+k+'/">'+k+'</a>';}).join(' · ')+'</p>';}
   app.innerHTML='<h2>오늘 여기까지</h2>'+
     (any.length?lines:'<p class="why">아직 표시한 책이 없다 — 괜찮다, 책은 닫히지 않는다.</p>')+
-    '<div class="doors"><a href="#" onclick="trail=[];render(null);return false">다시 펴기</a><a href="/authors/">작가 색인</a></div>';
+    '<div class="doors"><a href="#" data-reopen="1">다시 펴기</a><a href="/authors/">작가 색인</a></div>';
 }
 var start=location.hash.replace('#','');
 if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
@@ -582,6 +643,41 @@ for (const w of d.works) {
 mkdirSync(join(OUT, "authors"), { recursive: true });
 writeFileSync(join(OUT, "authors", "index.html"), indexPage());
 // 정문: 루트가 첫 장이다. /walk/ 는 옛 딥링크를 살려 두는 별칭.
+// ── 그래프 캡슐 (결정 (137)) ────────────────────────────────────────────────
+// 준비도 엔진이 브라우저에서 도는 데 필요한 전부. 산문 0자 — 이름·연도·권역·시대·
+// 깊이와 엣지의 방향·유형·근거만. 1,300 노드가 60KB 안쪽이고 gzip 뒤엔 그 절반이다.
+//
+// 왜 클라이언트인가: 서버가 계산하면 "누가 무엇을 읽었는지"를 서버가 알아야 한다.
+// 그래프는 공개 데이터이고 독자의 표시는 독자 것이므로, 그 둘이 만나는 자리는
+// 독자의 브라우저다.
+const capsule = {
+  generatedAt: new Date().toISOString().slice(0, 10),
+  authors: d.authors.map((a) => ({
+    i: a.id,
+    k: a.names.ko,
+    o: a.names.original,
+    b: a.birthYear ?? null,
+    e: a.deathYear ?? null,
+    y: a.anchorYear,
+    r: a.regions[0] ?? "",
+    l: a.languages[0] ?? "",
+    p: a.periods,
+    d: a.depth ?? "plate",
+    t: a.tier,
+    w: worksOf(a.id).length
+  })),
+  // 방향은 데이터 그대로: source → target = source 가 target 에게 영향을 주었다.
+  edges: d.relations.map((r) => ({
+    s: r.sourceId,
+    t: r.targetId,
+    y: r.type,
+    d: r.direction === "directed" ? 1 : 0,
+    v: r.evidenceLevel === "documented" ? 3 : r.evidenceLevel === "scholarly_consensus" ? 2 : 1,
+    m: (r.summary ?? "").slice(0, 120)
+  }))
+};
+writeFileSync(join(OUT, "graph.json"), JSON.stringify(capsule));
+
 // 번들러가 하던 일 — public/ 을 dist/ 로 옮긴다 (초상·육필·표지 원본)
 const PUBLIC_DIR = join(PKG_ROOT, "public");
 if (existsSync(PUBLIC_DIR)) cpSync(PUBLIC_DIR, OUT, { recursive: true });

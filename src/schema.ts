@@ -54,6 +54,26 @@ export const locationSchema = z
   })
   .strict();
 
+// ── 깊이 등급 (2026-09-04, 결정 (137)) ──────────────────────────────────────
+//
+// **존재는 공짜고, 깊이는 점진적이다.**
+//
+// 2026-08-15 부터 이 코퍼스는 "작가 1인 = 산문 3,742자 + 작품 3편 + 출처 + 입문 순서"를
+// 존재의 조건으로 요구했다. 그 조건이 세계문학을 100명에서 멈춰 세웠다 — 큐레이션이
+// 모자라서가 아니라 **바닥이 존재를 막았기 때문**이다.
+//
+// 도감은 반대로 작동한다. 151마리는 첫날부터 전부 거기 있고, 만나지 않은 것은 실루엣으로
+// 보인다. 당신은 모르는 것의 **모양**을 안다. 그래서 세 등급을 둔다:
+//
+//   silhouette  이름·생몰·언어·권역·시대. 작품 0편, 산문 0자. **지도 위의 자리.**
+//   sketch      + 왜 중요한가 한 문장 + 대표작 몇 편.
+//   plate       현행 100인 — 입문 순서·난도·경고·출처까지 갖춘 도판.
+//
+// 정직성은 그대로다: 실루엣은 **실루엣이라고 화면에 적는다**. 우리가 아는 것만 말하고,
+// 모르는 것은 모른다고 적는다. 줄인 것은 정직성이 아니라 **입장 요건**이다.
+export const DEPTHS = ["silhouette", "sketch", "plate"] as const;
+export type Depth = (typeof DEPTHS)[number];
+
 export const authorSchema = z
   .object({
     id: z.string().regex(AUTHOR_ID),
@@ -68,6 +88,8 @@ export const authorSchema = z
     // never invent QIDs from memory. Optional on drafts, required for reviewed+
     // (enforced in assemble).
     externalIds: z.object({ wikidata: z.string().regex(/^Q\d+$/) }).strict().optional(),
+    /** 생략 = plate (기존 100인). 아래 superRefine 이 등급별 요건을 건다. */
+    depth: z.enum(DEPTHS).optional(),
     birthYear: lifeYear.optional(),
     deathYear: lifeYear.optional(),
     // 사람이 아닌 항목(익명 전승)은 `corpus`. 그때 생몰년은 비고 activeRange 가
@@ -82,29 +104,56 @@ export const authorSchema = z
     regions: z
       .array(z.string().refine((r) => regionIds.has(r), { message: "unknown region id" }))
       .min(1),
-    locations: z.array(locationSchema).min(1),
+    locations: z.array(locationSchema).default([]),
     periods: z.array(z.enum(periodIds)).min(1),
-    movements: z.array(z.string().regex(SLUG)),
-    genres: z.array(z.enum(genreIds)).min(1),
+    movements: z.array(z.string().regex(SLUG)).default([]),
+    genres: z.array(z.enum(genreIds)).default([]),
     speculative: z.boolean().optional(),
     tier: z.enum(["anchor", "major", "context"]),
     // 2026-08-31 결정 (135): 바닥은 "문장 하나"다. 60자(2–4문장)·30자·20자는 백과사전
     // 항목의 바닥이었고, 그 바닥이 작가 1인 = 3,742자를 만들어 16일간 관계 순증 0을
     // 낳았다. 목적은 독서 안내다 — 한 줄의 이유가 없는 것보다 낫고, 네 문장은 나중에
     // 자란다. 검증기는 형태(비어 있지 않음)만 보고 깊이는 편집이 본다.
-    importanceReason: z.string().min(10),
-    readingEntry: z.string().regex(WORK_ID),
+    importanceReason: z.string().min(10).optional(),
+    readingEntry: z.string().regex(WORK_ID).optional(),
     readingEntryReason: z.string().min(10).optional(),
-    readingOrder: z.array(z.string().regex(WORK_ID)).min(1),
+    readingOrder: z.array(z.string().regex(WORK_ID)).default([]),
     readingWarning: z.string().min(10).optional(),
-    difficulty: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]),
+    difficulty: z
+      .union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)])
+      .optional(),
     difficultyReason: z.string().min(10).optional(),
     worksException: z.string().min(10).optional(),
-    sourceIds: z.array(z.string().regex(SOURCE_ID)).min(1),
+    sourceIds: z.array(z.string().regex(SOURCE_ID)).default([]),
     reviewStatus: z.enum(["draft", "reviewed", "verified"]),
     reviewedAt: z.string().regex(ISO_DATE).optional()
   })
-  .strict();
+  .strict()
+  .superRefine((a, ctx) => {
+    const depth: Depth = a.depth ?? "plate";
+    const need = (cond: boolean, path: string, msg: string) => {
+      if (!cond) ctx.addIssue({ code: z.ZodIssueCode.custom, path: [path], message: msg });
+    };
+    if (depth === "silhouette") {
+      // 실루엣은 **검수된 것이 아니다.** 검수를 주장하려면 도판이어야 한다.
+      need(a.reviewStatus === "draft", "reviewStatus", "silhouette 은 draft 여야 한다 — 검수를 주장하지 않는다");
+      need(a.readingOrder.length === 0, "readingOrder", "silhouette 에는 입문 순서가 없다 (작품이 없다)");
+      need(a.readingEntry === undefined, "readingEntry", "silhouette 에는 입문작이 없다");
+      return;
+    }
+    // sketch 이상 — 왜 중요한가는 있어야 한다
+    need(a.importanceReason !== undefined, "importanceReason", `${depth} 는 importanceReason 이 필요하다`);
+    if (depth === "plate") {
+      need(a.locations.length > 0, "locations", "plate 는 장소가 필요하다");
+      need(a.genres.length > 0, "genres", "plate 는 장르가 필요하다");
+      need(a.difficulty !== undefined, "difficulty", "plate 는 난도가 필요하다");
+      need(a.sourceIds.length > 0, "sourceIds", "plate 는 출처가 필요하다");
+      need(a.readingEntry !== undefined, "readingEntry", "plate 는 입문작이 필요하다");
+      need(a.readingOrder.length > 0, "readingOrder", "plate 는 입문 순서가 필요하다");
+    }
+  });
+
+
 
 const workEditionSchema = z
   .object({
@@ -120,7 +169,6 @@ const workEditionSchema = z
   })
   .strict();
 
-/** 작품 세계 — 여는 문장은 출처를, 번역은 '자체' 표시를, 판본은 출처를 반드시 갖는다 */
 export const workWorldSchema = z
   .object({
     opening: z

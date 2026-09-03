@@ -62,6 +62,8 @@ export interface AuthorNames {
   aliases: string[];
 }
 
+export type Depth = "silhouette" | "sketch" | "plate";
+
 export interface Author {
   id: string;
   names: AuthorNames;
@@ -81,6 +83,8 @@ export interface Author {
   languages: string[];
   regions: string[];
   locations: AuthorLocation[];
+  /** 깊이 등급 — 생략 = plate. 실루엣은 지도 위의 자리이고, 도판은 갖춰진 항목이다. */
+  depth?: Depth;
   periods: PeriodId[];
   /**
    * 이 노드가 사람인가, 전승되는 텍스트 덩어리인가. 기본값 `person`.
@@ -99,13 +103,13 @@ export interface Author {
   /** 왜 중요한가 — 구체적인 형식적·역사적 기여, 2–4문장 */
   importanceReason: string;
   /** work id of the recommended entry point */
-  readingEntry: string;
+  readingEntry?: string;
   readingEntryReason?: string;
   /** ordered work ids; first item must equal readingEntry */
   readingOrder: string[];
   /** 피해야 할 잘못된 입문 경로 (있을 때만) */
   readingWarning?: string;
-  difficulty: 1 | 2 | 3 | 4 | 5;
+  difficulty?: 1 | 2 | 3 | 4 | 5;
   difficultyReason?: string;
   /** why fewer than 3 works are listed, when that is the case */
   worksException?: string;

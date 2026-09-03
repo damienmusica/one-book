@@ -239,32 +239,42 @@ export function assembleDataset(
     if (to > lifeEnd)
       errors.push(`${a.id}: activeRange ends after death/current year`);
 
-    const primaries = a.locations.filter((l) => l.primary === true);
-    if (primaries.length !== 1)
-      errors.push(`${a.id}: exactly one primary location required (found ${primaries.length})`);
-
-    for (const m of a.movements) {
+    // 등급별 교차검증. 실루엣은 **지도 위의 자리**라서 작품·입문 순서·장소를 요구하지
+    // 않는다 — 요구하는 순간 다시 존재의 조건이 되고, 그게 100명에서 멈춘 이유였다.
+    const depth = a.depth ?? "plate";
+    for (const m of a.movements ?? []) {
       if (!movementIds.has(m)) errors.push(`${a.id}: unknown movement '${m}'`);
+    }
+    for (const sid of a.sourceIds ?? []) {
+      if (!sourceIds.has(sid)) errors.push(`${a.id}: unknown source ${sid}`);
+    }
+
+    if (depth !== "silhouette") {
+      const primaries = (a.locations ?? []).filter((l) => l.primary === true);
+      if (primaries.length !== 1)
+        errors.push(`${a.id}: exactly one primary location required (found ${primaries.length})`);
     }
 
     const authorWorks = worksByAuthor.get(a.id) ?? [];
     const workIds = new Set(authorWorks.map((w) => w.id));
-    if (authorWorks.length < 3 && a.worksException === undefined)
-      errors.push(
-        `${a.id}: fewer than 3 works (${authorWorks.length}) without worksException note`
-      );
-    if (!workIds.has(a.readingEntry))
-      errors.push(`${a.id}: readingEntry ${a.readingEntry} is not one of the author's works`);
-    for (const wid of a.readingOrder) {
-      if (!workIds.has(wid)) errors.push(`${a.id}: readingOrder references unknown work ${wid}`);
+    if (depth === "silhouette") {
+      if (authorWorks.length > 0)
+        errors.push(`${a.id}: silhouette 인데 작품이 ${authorWorks.length}편 있다 — 등급을 올려라`);
+    } else {
+      if (authorWorks.length < 3 && a.worksException === undefined)
+        errors.push(
+          `${a.id}: fewer than 3 works (${authorWorks.length}) without worksException note`
+        );
+      if (a.readingEntry !== undefined && !workIds.has(a.readingEntry))
+        errors.push(`${a.id}: readingEntry ${a.readingEntry} is not one of the author's works`);
+      for (const wid of a.readingOrder ?? []) {
+        if (!workIds.has(wid)) errors.push(`${a.id}: readingOrder references unknown work ${wid}`);
+      }
+      if ((a.readingOrder ?? []).length > 0 && a.readingOrder?.[0] !== a.readingEntry)
+        errors.push(`${a.id}: readingOrder must start with readingEntry`);
+      checkUnique(`${a.id} readingOrder`, a.readingOrder ?? [], errors);
     }
-    if (a.readingOrder[0] !== a.readingEntry)
-      errors.push(`${a.id}: readingOrder must start with readingEntry`);
-    checkUnique(`${a.id} readingOrder`, a.readingOrder, errors);
 
-    for (const sid of a.sourceIds) {
-      if (!sourceIds.has(sid)) errors.push(`${a.id}: unknown source ${sid}`);
-    }
     if ((a.reviewStatus === "reviewed" || a.reviewStatus === "verified") && !a.reviewedAt)
       errors.push(`${a.id}: reviewStatus '${a.reviewStatus}' requires reviewedAt`);
     if (
@@ -562,7 +572,7 @@ export function assembleDataset(
 
   // --- source usage ---------------------------------------------------------
   const usedSources = new Set<string>([
-    ...authors.flatMap((a) => a.sourceIds),
+    ...authors.flatMap((a) => a.sourceIds ?? []),
     ...works.flatMap((w) => w.sourceIds),
     ...works.flatMap((w) =>
       w.world
@@ -580,7 +590,7 @@ export function assembleDataset(
   }
 
   const dataset: Dataset = {
-    authors,
+    authors: authors as Dataset["authors"],
     works,
     relations,
     sources,

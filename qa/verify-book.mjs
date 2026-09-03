@@ -47,100 +47,44 @@ const visible = () =>
   });
 
 // ─── 정문 ────────────────────────────────────────────────────────────────────
-console.log("\n정문");
+console.log("\n정문 — 책은 묻지 않고 열린다");
 await page.goto(`${server.origin}/`, { waitUntil: "load" });
 check("루트가 첫 장을 연다", ((await page.locator("h1").first().textContent()) ?? "").includes("하나의 책"));
-const starts = await page.locator("#app .doors a").count();
-check("입구에 출발점이 서 있다", starts >= 4, `출발 ${starts}`);
-await page.locator("#app .doors a").nth(1).click();
-await page.waitForTimeout(150);
+await page.waitForTimeout(1200);
+const appTxt = () => page.locator("#app").innerText();
 
-// ─── 상태 사다리 ────────────────────────────────────────────────────────────
-// 모르는 책 → 관심 있는 책 → 펼쳐본 책 → 구매한 책 → 읽은 책.
-// 「모르는 책」은 **기본값이고 저장되지 않는다** — 이름은 있고 레코드는 없다.
-const sel = page.locator("#app select.state").first();
-check("작품마다 상태 칸이 선다", (await page.locator("#app select.state").count()) >= 1);
-const labels = await sel.locator("option").allTextContents();
-check(
-  "사다리는 다섯 칸이고 기본값은 「모르는 책」이다",
-  labels.join("|") === "모르는 책|관심 있는 책|펼쳐본 책|구매한 책|읽은 책" &&
-    (await sel.inputValue()) === "",
-  labels.join(" · ")
-);
-const store = () =>
-  page.evaluate(() => {
-    try {
-      return JSON.parse(localStorage.getItem("lp.reader.v3") ?? "null");
-    } catch {
-      return null;
-    }
-  });
-check("표시하기 전에는 아무것도 저장되지 않는다", (await store()) === null);
+// 결정 (137): 도감은 묻지 않는다. 예전 첫 장은 "어디서 시작할까"로 독자에게 결정을
+// 떠넘겼다 — 다음 책을 못 고르는 사람에게 고르라고 묻는 화면이었다.
+check("어디서 시작할지 묻지 않는다", !/어디서 시작할까/.test(await appTxt()));
+check("표시가 없어도 책이 어느 쪽에서 열려 있다", (await page.locator("#app h2").count()) >= 1);
+check("그 쪽에 담을 책이 서 있다", (await page.locator("#app select.state").count()) >= 1);
+check("왜 지금 이 쪽인지 말한다", /이번 주에 열린 쪽|열린다|뿌리다|곁이다/.test(await appTxt()));
 
-await sel.selectOption("want");
-await page.waitForTimeout(120);
-let p3 = await store();
-const firstId = Object.keys(p3?.state ?? {})[0];
-check("한 번의 선택이 작품 id 로 남는다", Object.keys(p3?.state ?? {}).length === 1, firstId ?? "없음");
-check("칸 이름이 그대로 저장된다", p3?.state?.[firstId]?.s === "want");
-check("칸을 오른 시각이 남는다", typeof p3?.state?.[firstId]?.at === "number");
-check("올린 칸이 화면에 남는다", (await sel.getAttribute("data-state")) === "want");
+// 도감 계수 — 목표도 퍼센트도 연속일도 없다. 세계가 얼마나 열렸는가만.
+const census = await page.locator(".census").innerText();
+check("도감 계수가 만난 수와 전체를 말한다", /만난 작가\s*\d+\s*\/\s*\d+/.test(census), census.replace(/\n/g, " "));
+check("목표·퍼센트·연속일이 없다", !/%|목표|연속|남았|달성/.test(census));
 
-await sel.selectOption("have");
-await page.waitForTimeout(120);
-p3 = await store();
-check("사다리는 위로도 간다 — 구매한 책", p3?.state?.[firstId]?.s === "have");
-
-await sel.selectOption("");
-await page.waitForTimeout(120);
-p3 = await store();
-check("모르는 책으로 되돌리면 레코드가 사라진다", !(firstId in (p3?.state ?? {})));
-
-// 새로고침 뒤에도 칸이 남는다 — 표시는 페이지가 아니라 독자의 것이다
-await sel.selectOption("opened");
-await page.waitForTimeout(120);
-// 새로고침하면 해시가 그 작가를 다시 펴므로 클릭이 필요 없다
-await page.reload({ waitUntil: "load" });
-await page.waitForTimeout(250);
-check(
-  "새로고침 뒤에도 칸이 서 있다",
-  (await page.locator(`#app select.state[data-work="${firstId}"]`).inputValue()) === "opened"
-);
-
-// v2 이관 — 옛 기록을 버리지 않는다
-await page.evaluate(() => {
-  localStorage.clear();
-  localStorage.setItem(
-    "lp.universe.personal.v2",
-    JSON.stringify({ v: 2, want: { "franz-kafka--die-verwandlung": 111 }, read: { "natsume-soseki--kokoro": 222 } })
-  );
+// 표시 하나가 세계를 켠다 — 준비도 엔진의 핵심 주장
+await page.locator("#app select.state").first().selectOption("read");
+await page.waitForTimeout(300);
+const readerLit = await page.evaluate(() => {
+  try {
+    const p = JSON.parse(localStorage.getItem("lp.reader.v3") ?? "null");
+    return Object.keys(p?.state ?? {}).length;
+  } catch {
+    return -1;
+  }
 });
-await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
-await page.waitForTimeout(150);
-const migrated = await store();
-check(
-  "v2 의 want·read 가 타임스탬프째 이관된다",
-  migrated?.state?.["franz-kafka--die-verwandlung"]?.s === "want" &&
-    migrated?.state?.["franz-kafka--die-verwandlung"]?.at === 111 &&
-    migrated?.state?.["natsume-soseki--kokoro"]?.s === "read" &&
-    migrated?.state?.["natsume-soseki--kokoro"]?.at === 222,
-  JSON.stringify(migrated?.state ?? {})
-);
-check(
-  "이관된 칸이 작품 페이지에 그려진다",
-  (await page.locator('select.state[data-work="franz-kafka--die-verwandlung"]').inputValue()) === "want"
-);
-
-// 카운터 금지 — 측정된 해악(Etkin JCR 2016)
-const bodyText = await page.evaluate(() => document.body.innerText);
-check(
-  "진행 카운터·퍼센트·연속일이 없다",
-  !/\d+\s*\/\s*\d+\s*권|\d+%|연속\s*\d+일|\d+권 남았/.test(bodyText)
-);
-
-await page.goto(`${server.origin}/`, { waitUntil: "load" });
-const html = await page.content();
-check("옛 이름이 남아 있지 않다", !html.includes("문학의 성계") && !html.includes("성좌 산책"), "성계/성좌 0");
+check("표시가 작품 id 로 남는다", readerLit === 1, `표시 ${readerLit}`);
+await page.reload({ waitUntil: "load" });
+await page.waitForTimeout(1400);
+const after = await page.locator(".census").innerText();
+check("읽은 뒤에는 만난 수가 오른다", /만난 작가\s*[1-9]/.test(after), after.replace(/\n/g, " "));
+check("읽은 것이 다음 것을 연다 — 지금 열린 쪽이 생긴다", /지금 열린 쪽\s*\d+/.test(after), after.replace(/\n/g, " "));
+const openedTxt = await appTxt();
+check("연 이유가 사람 이름으로 말해진다", /읽었으니 이제 열린다|의 뿌리다|의 곁이다/.test(openedTxt));
+await page.evaluate(() => localStorage.clear());
 
 // ─── 도감 지키기 (결정 (136)) — 로그인은 관문이 아니다 ─────────────────────
 console.log("\n도감 지키기");
