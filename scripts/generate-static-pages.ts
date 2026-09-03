@@ -246,7 +246,7 @@ ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` :
 <body>
 <header class="site">
   <a class="brand" href="/authors/">하나의 책</a>
-  <nav><a href="/">첫 장</a><a href="/authors/">색인</a></nav>
+  <nav><a href="/">첫 장</a><a href="/shelf/">서재</a><a href="/authors/">색인</a></nav>
 </header>
 ${o.body}
 <div id="lp-auth" class="auth" hidden></div>
@@ -661,6 +661,64 @@ ${sils.map(row).join("\n")}
   });
 }
 
+// ——— 서재 — 표시한 것이 모이는 자리 ———
+//
+// 도감은 모으는 것이고, 모은 것을 볼 자리가 없으면 표시는 그냥 사라진다. 상태 사다리를
+// 다섯 칸으로 만들어놓고 그 칸들이 어디에도 모이지 않는 것이 지금까지의 결함이었다.
+//
+// 데이터는 독자의 브라우저에만 있다. 이 쪽은 빈 껍데기로 배포되고 책 이름은
+// /works.json 에서 온다 — 서재를 여는 사람만 그 사전을 받는다.
+function shelfPage(): string {
+  const body = `
+<h1>서재</h1>
+<p class="life" id="shelf-sum">표시한 책이 여기 모인다. 이 기록은 이 브라우저 안에 있다.</p>
+<div id="shelf"></div>
+<div class="doors">
+  <a href="/">책을 펴기</a>
+  <a href="/authors/">색인</a>
+</div>
+<script type="module">
+import { readerState, authorOf, yearKo } from "/atlas.js";
+const KO = { read: "읽은 책", have: "구매한 책", opened: "펼쳐본 책", want: "관심 있는 책" };
+const ORDER = ["read", "have", "opened", "want"];
+const el = document.getElementById("shelf");
+const sum = document.getElementById("shelf-sum");
+const marks = Object.entries(readerState().state || {});
+if (!marks.length) {
+  el.innerHTML = '<p class="absent">아직 아무것도 표시하지 않았다. 책을 펴고 한 권을 ' +
+    '「관심 있는 책」으로 옮기면 여기 선다.</p>';
+} else {
+  const dict = await fetch("/works.json").then((r) => r.json()).catch(() => ({}));
+  const bucket = Object.fromEntries(ORDER.map((k) => [k, []]));
+  for (const [id, m] of marks) if (bucket[m.s]) bucket[m.s].push([id, m.at]);
+  const authors = new Set(marks.map(([id]) => authorOf(id)));
+  sum.textContent =
+    marks.length + "권 / " + Object.keys(dict).length + " · 작가 " + authors.size +
+    "인. 이 기록은 이 브라우저 안에 있다.";
+  el.innerHTML = ORDER.filter((k) => bucket[k].length)
+    .map((k) => {
+      const rows = bucket[k]
+        .sort((a, b) => b[1] - a[1])
+        .map(([id]) => {
+          const w = dict[id];
+          const t = w ? w[0] : id;
+          const meta = w ? '<span class="y">' + w[2] + " · " + yearKo(w[1]) + "</span>" : "";
+          return '<li><span class="t"><a href="/works/' + id + '/">' + t + "</a></span>" + meta + "</li>";
+        })
+        .join("");
+      return "<h2>" + KO[k] + " " + bucket[k].length + '</h2><ul class="works">' + rows + "</ul>";
+    })
+    .join("");
+}
+</script>`;
+  return page({
+    title: "서재 — 하나의 책",
+    desc: "표시한 책이 모이는 자리. 기록은 읽는 사람의 브라우저 안에 있다.",
+    path: "/shelf/",
+    body
+  });
+}
+
 // ——— 첫 장 — 걸음마다 작가 하나, 인연을 골라 다음으로 ———
 function walkPage(): string {
   const capsule = Object.fromEntries(
@@ -912,6 +970,16 @@ const capsule = {
   near: d.authors.map((a) => contemporaries(a).map((b) => authorIndex.get(b.id) ?? -1).filter((n) => n >= 0))
 };
 writeFileSync(join(OUT, "graph.json"), JSON.stringify(capsule));
+
+// 서재의 책 사전 — 서재를 여는 사람만 받는다. [제목, 연도, 작가]
+mkdirSync(join(OUT, "shelf"), { recursive: true });
+writeFileSync(join(OUT, "shelf", "index.html"), shelfPage());
+writeFileSync(
+  join(OUT, "works.json"),
+  JSON.stringify(
+    Object.fromEntries(d.works.map((w) => [w.id, [w.titleKo, w.year, byId.get(w.authorId)?.names.ko ?? ""]]))
+  )
+);
 
 // 번들러가 하던 일 — public/ 을 dist/ 로 옮긴다 (초상·육필·표지 원본)
 const PUBLIC_DIR = join(PKG_ROOT, "public");

@@ -211,6 +211,31 @@ for (const p of ["/", "/authors/", "/authors/franz-kafka/", "/works/franz-kafka-
   check(`${p} 에 죽은 표면 링크 0`, dead.length === 0, dead.join(" "));
 }
 
+// ─── 서재 ────────────────────────────────────────────────────────────────────
+// 도감은 모으는 것이고, 모은 것을 볼 자리가 없으면 표시는 그냥 사라진다.
+console.log("\n서재 — 표시한 것이 모이는 자리");
+await page.goto(`${server.origin}/shelf/`, { waitUntil: "load" });
+await page.waitForTimeout(600);
+check("아무 표시도 없으면 빈 목록이 아니라 문장이 선다", /아직 아무것도 표시하지 않았다/.test(await page.locator("#shelf").innerText()));
+await page.evaluate(() => {
+  const now = Date.now();
+  localStorage.setItem("lp.reader.v3", JSON.stringify({ v: 3, state: {
+    "franz-kafka--die-verwandlung": { s: "read", at: now },
+    "qu-yuan--lisao": { s: "want", at: now - 1000 },
+    "orhan-pamuk--kar": { s: "have", at: now - 2000 }
+  }}));
+});
+await page.reload({ waitUntil: "load" });
+await page.waitForTimeout(900);
+const shelfTxt = await page.locator("#shelf").innerText();
+check("표시한 책이 제목으로 선다", /변신/.test(shelfTxt) && /이소/.test(shelfTxt) && /눈/.test(shelfTxt), shelfTxt.split("\n")[1]);
+check("칸별로 나뉜다 — 사다리가 목록이 된다", /읽은 책 1/.test(shelfTxt) && /구매한 책 1/.test(shelfTxt) && /관심 있는 책 1/.test(shelfTxt));
+check("기원전이 기원전으로 적힌다", /기원전 300/.test(shelfTxt) && !/-300/.test(shelfTxt));
+check("전체 대비를 말한다 — 도감이다", /3권 \/ \d{3,}/.test(await page.locator("#shelf-sum").innerText()), await page.locator("#shelf-sum").innerText());
+const shelfLinks = await page.evaluate(() => [...document.querySelectorAll("#shelf a")].map((a) => a.getAttribute("href")));
+check("각 책이 그 작품 쪽으로 나간다", shelfLinks.length === 3 && shelfLinks.every((h) => h.startsWith("/works/")), shelfLinks.join(" "));
+await page.evaluate(() => localStorage.removeItem("lp.reader.v3"));
+
 // ─── 색인의 찾기 ─────────────────────────────────────────────────────────────
 // 100인일 때 색인은 한 화면이었다. 1,465인에서는 스크롤이고, 스크롤은 CPO 가 3D
 // 정문에서 이미 기각한 것이다 — "탐색 자체가 거의 불가능하다".
