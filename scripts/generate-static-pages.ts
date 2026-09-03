@@ -165,6 +165,9 @@ ul.eds{list-style:none}
 .eds .pub{color:var(--text)}.eds .meta{color:var(--faint);font-size:12px;margin-left:6px}
 .eds .isbn{color:var(--faint);font-size:11.5px;letter-spacing:.04em}
 .absent{color:var(--dim);font-size:13.5px;margin:6px 0 10px}
+.auth{margin:34px 0 0;padding-top:14px;border-top:1px dashed var(--line);font-size:13px}
+.auth input{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text);padding:5px 9px;width:min(260px,60%)}
+.auth .sig{color:var(--dim);font-size:12.5px;margin-top:6px}
 @media(max-width:560px){.idx{columns:1}}
 `.trim();
 
@@ -189,6 +192,7 @@ function page(o: {
 <meta property="og:description" content="${esc(o.desc)}">
 <style>${CSS}</style>
 <script>${RUNTIME_JS}</script>
+<script type="module" src="/book.js"></script>
 ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` : ""}
 </head>
 <body>
@@ -197,6 +201,7 @@ ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` :
   <nav><a href="/">첫 장</a><a href="/authors/">색인</a></nav>
 </header>
 ${o.body}
+<div id="lp-auth" class="auth" hidden></div>
 <footer class="site">
   작가 ${d.authors.length}인 · 작품 ${d.works.length}편 · 관계 ${d.relations.length}건 · 출처 ${d.sources.length}건 —
   전부 검토된 큐레이션이다. 지어내지 않는다: 없는 것은 없다고 적는다.

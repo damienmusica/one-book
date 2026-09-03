@@ -8,6 +8,11 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 const TYPES = {
   ".html": "text/html; charset=utf-8",
+  // 모듈 스크립트는 MIME 이 정확하지 않으면 브라우저가 거부한다 — 이 표에 .js 가 없어
+  // application/octet-stream 으로 나갔고 하네스가 잡았다(Pages 는 원래 맞게 준다).
+  ".js": "text/javascript; charset=utf-8",
+  ".mjs": "text/javascript; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".txt": "text/plain; charset=utf-8",
   ".xml": "application/xml; charset=utf-8",

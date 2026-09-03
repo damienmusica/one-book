@@ -142,6 +142,16 @@ await page.goto(`${server.origin}/`, { waitUntil: "load" });
 const html = await page.content();
 check("옛 이름이 남아 있지 않다", !html.includes("문학의 성계") && !html.includes("성좌 산책"), "성계/성좌 0");
 
+// ─── 도감 지키기 (결정 (136)) — 로그인은 관문이 아니다 ─────────────────────
+console.log("\n도감 지키기");
+await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
+await page.waitForTimeout(400);
+check("로그인 상자가 모듈에 의해 채워진다 (비로그인 = 이메일 폼)", (await page.locator("#lp-auth form#lp-login input[type=email]").count()) === 1);
+check("비로그인이어도 상태 칸은 그대로 동작한다 — 로컬이 먼저다", (await page.locator("select.state").count()) >= 1);
+const authTxt = await page.locator("#lp-auth").innerText();
+check("저장되는 것이 무엇인지 한 줄로 말한다", /어떤 책을 어느 칸에/.test(authTxt) && /언제/.test(authTxt));
+check("모듈 로드에 콘솔 에러 없음", errors.length === 0, errors.slice(0, 2).join(" | "));
+
 // ─── 작가 페이지: 정보 폭탄 상한 ─────────────────────────────────────────────
 // 예산은 3D 카드에서 물려받은 880자가 아니다. 그 수는 패널의 수였고 페이지에는
 // 근거가 없다. 페이지의 예산은 여기서 새로 정한다: **접힌 것을 뺀 그려진 글자**.
