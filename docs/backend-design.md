@@ -20,7 +20,7 @@ CPO: *"내가 이미 이용 중인 서비스 위주로 고려해서 설계해."*
 | **Cloudflare R2** | `damien-assets`, `lashhill-assets` | 해당 없음(도감은 텍스트) |
 | **Cloudflare Email Routing** | damienmusica.com 에 활성 | 발신은 아님. 매직링크 메일은 Supabase 가 보낸다 |
 | **Supabase** | 프로젝트 1개 `ianojiicjdskogzjeuqw`, ap-southeast-1, Postgres 17, **free 플랜**, **Email 인증 켜짐**(OTP/매직링크 경로 존재, `mailer_autoconfirm=false`), 익명 로그인 꺼짐, OAuth 전부 꺼짐, SMTP 미설정(Supabase 기본 메일러). `public` 에 **다른 앱 5개의 테이블 21개**가 이미 산다(now-ml·스케줄포탈·체스·크레·한숨) | **신원 + 저장소 + API.** 사장님 코드베이스의 확립된 패턴: 클라 → Edge Function(service role) → RPC, RLS on + 정책 없음 |
-| **Apps in Toss** | 워크스페이스 `Lashhillapps`(56431), OPEN 미니앱 3(오늘의 크레·날씨력 측정기·체스 오프닝북), 대기 4. now-ml 은 `getAnonymousKey()` 로 사용자를 식별 | **2단계 유통 채널.** 1단계에는 없다 |
+| **Apps in Toss** | 워크스페이스 `Lashhillapps`(56431), OPEN 미니앱 3(오늘의 크레·날씨력 측정기·체스 오프닝북), 대기 4. now-ml 은 `getAnonymousKey()` 로 사용자를 식별 | **해당 없음.** 이유는 §2 — 이 제품의 모양이 아니다 |
 | GitHub | `damienmusica/one-book` 공개 | 소스·CI |
 
 ## 2. 결정
@@ -52,22 +52,26 @@ Edge 가 service role 로 RPC 를 대신 부른다. **다른 점 하나**: now-m
 로그인 사용자라, Edge 는 `Authorization: Bearer <user JWT>` 를 검증해 `auth.uid()` 를 얻고
 그 값으로만 RPC 를 부른다. RLS 는 켜고 정책은 없다(now-ml 과 동일 — service role 만 통과).
 
-### 유통 2단계: Toss 미니앱 — **지금 아니다**
+### Toss — 이 제품에는 맞지 않는다 (CPO 질문에 대한 답, 2026-09-03)
 
-- 사장님이 이미 쓰는 채널이고 OPEN 앱이 셋이라 언젠가 자연스럽다. 그러나 Toss 표면은 **토스
-  앱 안에서만** 돈다. 지금 제품은 공개 웹이다.
-- `getAnonymousKey()` 는 미니앱 안에서 사용자별로 안정적이지만 **외부 계정에 연결할 수 없다**
-  (토스 개발자 커뮤니티 공식 답변: *"토스 로그인을 사용하는 경우 맵핑할 수 있으나,
-  getAnonymousKey() 만 사용하셨다면 불가합니다."*). 도감이 토스 안팎에서 하나여야 하므로
-  토스 진입은 **토스 로그인 → Supabase 계정 연결**이어야 하고, 그건 토스 로그인 약관·심사가
-  붙는 별도 라운드다.
-- 그래서 지금 설계가 준비하는 것은 한 칸뿐이다: `book.identities(user_id, provider, provider_key)`
-  — 나중에 토스 신원 한 행을 넣으면 같은 사람이다. 토스 문서(신원 이관 가이드)는 파트너가
-  `hash`(익명키) 와 `authorizationCode`(토스 로그인) 를 받아 **자기 서버에서 맵핑**하는
-  형태(`/api/auth/migration/link`)를 정식 패턴으로 적고 있으므로, `provider` 는 `toss-userkey`
-  와 `toss-hash` 둘을 받는다. 공식 문장 그대로: 익명키는 *"같은 미니앱 안에서 동일한 사용자에게
-  항상 같은 값"*, 서버 검증은 `POST /api-partner/v1/apps-in-toss/users/anon-key/verify` 에
-  **mTLS 필수** — 사장님 `now-ml-push` 워커에 그 인증서가 이미 바인딩돼 있다.
+사장님이 Toss 를 쓴 이유는 **앱인토스가 유통 채널**이어서였고, 그 채널에 맞는 제품은 날씨·
+운세·오프닝북처럼 **하루 한 번 열고 닫는 생활 유틸리티**다. 하나의 책은 그 모양이 아니다.
+넷이 어긋난다:
+
+1. **TDS 강제.** 비게임 미니앱은 심사 통과를 위해 토스 디자인 시스템을 써야 한다. 이 제품의
+   정체성은 세리프·여백·"책"의 조판이다. 핀테크 디자인 시스템 안에서 책은 책이 아니다.
+2. **토스 웹뷰 안에서만.** 616쪽의 주소·sitemap·딥링크 — 라이벌의 "당신은 세계를 지었고 나는
+   주소를 지었다"를 닫은 그 정적 표면이 토스 안에서는 존재하지 않는다. 공유되지 않고, 검색되지
+   않고, 링크되지 않는다. 표면이 둘로 갈린다.
+3. **의도가 다르다.** 토스 안의 사용자는 돈을 보러 왔다. "다음 읽을 책"을 15분 고민하는 의도는
+   거기 없다. 선행 연구가 찾은 책 발견 채널(서점 큐레이션·독서 SNS·나무위키)에 토스는 없다.
+4. **신원이 둘이 된다.** 토스 로그인은 토스 안에서만 되고 공개 웹의 로그인이 될 수 없다.
+   안팎을 잇려면 맵핑 층이 필요하고, 그건 1인 유지보수자에게 두 번째 계정 시스템이다.
+
+**그래서 뺀다.** 2단계 자리(`identities` 테이블)도 함께 뺀다 — "언젠가 쓸지도"로 남기는
+자리가 곧 어제 정정받은 쓸데없는 가정이다. 토스가 맞는 유일한 모양은 **파생물**이다: "오늘의
+한 문장" 같은 하루 한 번짜리 얇은 앱을 따로 만든다면 그건 토스 모양이고, 그때 코퍼스는 공유해도
+제품은 별개다. 이 설계의 범위가 아니다.
 
 ## 3. 스키마 (`book`)
 
@@ -95,19 +99,8 @@ create table book.mark_events (
 );
 create index on book.mark_events (user_id, at desc);
 
--- 외부 신원 연결 자리. 지금은 비어 있다. 나중에 toss userKey 가 여기 온다.
-create table book.identities (
-  user_id       uuid not null references auth.users(id) on delete cascade,
-  provider      text not null check (provider in ('toss-userkey','toss-hash')),
-  provider_key  text not null,
-  linked_at     timestamptz not null default now(),
-  primary key (provider, provider_key),
-  unique (user_id, provider)
-);
-
-alter table book.marks        enable row level security;
-alter table book.mark_events  enable row level security;
-alter table book.identities   enable row level security;
+alter table book.marks       enable row level security;
+alter table book.mark_events enable row level security;
 -- 정책 없음: anon/authenticated 직접 접근 0. Edge(service role)만 통과. now-ml 과 같은 규율.
 ```
 
@@ -160,7 +153,7 @@ alter table book.identities   enable row level security;
   있고 사장님 코드가 그 패턴으로 짜여 있다. 두 벤더에 같은 층을 두 번 두지 않는다.
 - 별도 Supabase 프로젝트를 파지 않는다(§2).
 - 소셜 로그인·프로필·팔로우·댓글·공개 도감을 만들지 않는다. 목적지 세 절에 없다.
-- Toss 를 1단계에 넣지 않는다. 자리(`identities`)만 남긴다.
+- Toss 를 넣지 않는다. 자리도 남기지 않는다(§2).
 - 추천기를 이 설계에 넣지 않는다. 자리(`marks`)만 남긴다.
 
 ## 8. 첫 라운드 (짓기 전 결재 대기)
@@ -177,20 +170,5 @@ alter table book.identities   enable row level security;
 
 ---
 
-**결재 필요**: §2 신원 방식(매직링크) · 스키마 격리 방식(같은 프로젝트, `book` 스키마) ·
-Toss 는 2단계. 셋 다 승인이면 첫 라운드를 시작한다.
-
-## 참고 — 토스 공식 문서 (2단계 착수 시 읽을 것, 지금 읽지 않는다)
-
-이번 설계에서 확인한 사실은 둘뿐이고, 둘 다 위 §2 에 반영됐다: (a) `getAnonymousKey()` 는
-미니앱마다 고유하고 같은 사용자는 항상 같은 값을 받는다(토스 블로그 「토스 로그인, 꼭
-붙여야 할까요?」), (b) 익명키만으로는 다른 신원과 맵핑할 수 없고 토스 로그인이면 가능하다
-(개발자 커뮤니티 공식 답변). 나머지 — 로그인 흐름·토큰 교환·mTLS·제공 개인정보 항목 — 는
-2단계의 일이다.
-
-- 토스 로그인: https://developers-apps-in-toss.toss.im/documentation/common/authentication/toss-login.md
-- 익명 키(해시 키): https://developers-apps-in-toss.toss.im/documentation/common/authentication/hash-key.md
-- 신원 이관 가이드: https://developers-apps-in-toss.toss.im/guide/authentication/migration.md
-- 사용자 정보 동의 항목: https://developers-apps-in-toss.toss.im/guide/authentication/user-info.md
-- 서버 API — 사용자 키: https://developers-apps-in-toss.toss.im/api/user-key.md
-- 블로그 「토스 로그인, 꼭 붙여야 할까요?」: https://toss.im/apps-in-toss/blog/toss-login-vs-anonkey
+**결재 필요**: §2 신원 방식(매직링크) · 스키마 격리 방식(같은 프로젝트, `book` 스키마).
+둘 다 승인이면 첫 라운드를 시작한다. (Toss 는 결재 항목이 아니다 — 뺐다.)
