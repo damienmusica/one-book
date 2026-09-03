@@ -8,7 +8,6 @@ import {
   toursFileSchema,
   portraitsSchema,
   editionsFileSchema,
-  positionsSchema,
   registrySchema,
   authorTranslationsFileSchema,
   workTranslationsFileSchema,
@@ -27,7 +26,11 @@ import type {
 } from "../types.ts";
 
 /** locales whose pack, once present, must cover the entire dataset */
-const COMPLETE_LOCALES = new Set(["en"]);
+// 2026-08-31 결정 (135): 완전해야 하는 로케일이 없다. 한국어 우선 제품에서 작가마다
+// 영어 팩 2,674자(작가 비용의 70%)를 필수로 걸어 둔 것은 누스피어에서 상속한 가정이었다.
+// 번역은 있으면 싣고, 없으면 없다. 한 로케일 안에서의 부분 번역도 "반쪽 UI"가 아니라
+// 그냥 아직 번역되지 않은 항목이다.
+const COMPLETE_LOCALES = new Set<string>();
 
 export interface RawCollections {
   /** file name → parsed JSON, for error attribution */
@@ -37,7 +40,6 @@ export interface RawCollections {
   sourceFiles: Record<string, unknown>;
   movements: unknown;
   tours: unknown;
-  positions: unknown;
   registry: unknown;
   /**
    * path relative to data/translations (e.g. "en/authors/roots.json",
@@ -153,7 +155,6 @@ const CURRENT_YEAR = 2026;
 export interface AssembleOptions {
   /**
    * During staged data generation: registry entries without author data and
-   * missing layout positions degrade to warnings. Final validation runs strict.
    */
   allowPartial?: boolean;
 }
@@ -173,12 +174,10 @@ export function assembleDataset(
 
   const movementsParsed = movementsFileSchema.safeParse(raw.movements);
   const toursParsed = toursFileSchema.safeParse(raw.tours);
-  const positionsParsed = positionsSchema.safeParse(raw.positions);
   const registryParsed = registrySchema.safeParse(raw.registry);
 
   if (!movementsParsed.success) errors.push(...zodIssues("movements.json", movementsParsed.error));
   if (!toursParsed.success) errors.push(...zodIssues("tours.json", toursParsed.error));
-  if (!positionsParsed.success) errors.push(...zodIssues("positions.v1.json", positionsParsed.error));
   if (!registryParsed.success) errors.push(...zodIssues("registry.json", registryParsed.error));
 
   if (errors.length > 0) {
@@ -186,9 +185,6 @@ export function assembleDataset(
   }
   const movements = movementsParsed.success ? movementsParsed.data : [];
   const tours = toursParsed.success ? toursParsed.data : [];
-  const positions = positionsParsed.success
-    ? positionsParsed.data
-    : { version: "0", seed: 0, generatedAt: "", positions: {} };
   const registry = registryParsed.success ? registryParsed.data : [];
   const translations = parseTranslationFiles(raw.translationFiles ?? {}, errors);
 
@@ -410,23 +406,6 @@ export function assembleDataset(
     }
   }
 
-  // --- positions ------------------------------------------------------------
-  const posIds = new Set(Object.keys(positions.positions));
-  for (const a of authors) {
-    const p = positions.positions[a.id];
-    if (!p) {
-      if (partial) warnings.push(`positions: not yet generated for ${a.id}`);
-      else errors.push(`positions: missing coordinates for ${a.id}`);
-      continue;
-    }
-    const norm = Math.hypot(p[0], p[1], p[2]);
-    if (Math.abs(norm - 1) > 0.02)
-      errors.push(`positions: ${a.id} not on unit sphere (|v|=${norm.toFixed(4)})`);
-  }
-  for (const pid of posIds) {
-    if (!authorById.has(pid)) warnings.push(`positions: orphan coordinates for '${pid}'`);
-  }
-
   // --- tours ----------------------------------------------------------------
   for (const t of tours) {
     for (const stop of t.stops) {
@@ -607,7 +586,6 @@ export function assembleDataset(
     sources,
     movements,
     tours,
-    positions,
     registry,
     translations,
     portraits,

@@ -90,15 +90,6 @@ export function makeDataset(
     ],
     movements: [],
     tours: [],
-    positions: {
-      version: "1.0.0",
-      seed: 1,
-      generatedAt: "2026-08-15",
-      positions: Object.fromEntries(authors.map((a, i) => {
-        const phi = (i / Math.max(1, authors.length)) * Math.PI * 2;
-        return [a.id, [Math.cos(phi), 0, Math.sin(phi)]];
-      }))
-    },
     registry: authors.map((a) => ({
       id: a.id,
       ko: a.names.ko,

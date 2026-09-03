@@ -14,8 +14,9 @@ export interface ReadinessEntry {
   met: string[];
   verifiedAt: string;
   verifiedBy: string;
-  /** 검수가 읽은 표면의 시각 — 표면 코드가 이 뒤에 바뀌면 검수는 낡은 것이다 */
+  /** 마지막으로 표면을 눈으로 확인한 시각 — 기록이지 게이트가 아니다(결정 (135)) */
   surfaceVerifiedAt?: string;
+  surfaceVerifiedNote?: string;
   note: string;
 }
 
@@ -59,48 +60,13 @@ export const READY_IDS: ReadonlySet<string> = new Set(
 // 표면 코드의 마지막 변경보다 오래되면 npm test 가 빨갛다. 스탬프를 갱신하는
 // 유일한 정당한 경로는 표면을 다시 검수하는 것이다.
 
-export type SurfaceStaleReason = "no-stamp" | "bad-stamp" | "stale";
-
-export interface StaleSurfaceVerification {
-  authorId: string;
-  reason: SurfaceStaleReason;
-  surfaceVerifiedAt?: string;
-}
-
-/**
- * ready 항목 중 표면 검수가 낡은 것을 돌려준다. 순수 함수 — 표면 코드의 마지막
- * 변경 시각은 호출자가 잰다(게이트에서는 git 이 정본).
- */
-export function staleSurfaceVerifications(
-  entries: readonly ReadinessEntry[],
-  latestSurfaceChangeAt: Date
-): StaleSurfaceVerification[] {
-  const out: StaleSurfaceVerification[] = [];
-  for (const e of entries) {
-    if (e.state !== "ready") continue;
-    if (!e.surfaceVerifiedAt) {
-      out.push({ authorId: e.authorId, reason: "no-stamp" });
-      continue;
-    }
-    const stamp = new Date(e.surfaceVerifiedAt);
-    if (Number.isNaN(stamp.getTime())) {
-      out.push({ authorId: e.authorId, reason: "bad-stamp", surfaceVerifiedAt: e.surfaceVerifiedAt });
-      continue;
-    }
-    if (stamp.getTime() < latestSurfaceChangeAt.getTime()) {
-      out.push({ authorId: e.authorId, reason: "stale", surfaceVerifiedAt: e.surfaceVerifiedAt });
-    }
-  }
-  return out;
-}
-
 /**
  * 실물 기록(여는 문장·집필 시기·초판 서지·유고 경위)을 이 작품 쪽에 세울 것인가.
  *
  * 두 조건이 **모두** 있어야 한다: 그 작품에 실물 데이터가 있고, 그 작가가
  * 준비도 사다리에서 검수를 통과했을 것. 데이터 유무만으로 게이트하면 사다리가
- * 표면을 지배하지 못하고, 그 순간 검수 신선도 계약이 아무것도 재지 않는
- * 계약이 된다(2026-08-31 변이 스윕이 이 자리를 SURVIVED 로 잡았다).
+ * 표면을 지배하지 못한다(2026-08-31 변이 스윕이 이 자리를 SURVIVED 로 잡았다).
+ * 실물 기록은 관문이 아니라 보석이다 — 그래서 여기엔 신선도 리추얼이 없다.
  */
 export function showsPhysicalRecord(work: { authorId: string; world?: unknown }): boolean {
   return Boolean(work.world) && READY_IDS.has(work.authorId);

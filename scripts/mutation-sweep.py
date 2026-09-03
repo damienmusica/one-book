@@ -93,9 +93,6 @@ MUTATIONS = [
     ("fast", "미검수 작가의 작품도 실물 기록을 주장한다", R,
      "  return Boolean(work.world) && READY_IDS.has(work.authorId);",
      "  return Boolean(work.world);"),
-    ("fast", "무스탬프를 신선으로 친다 (검수 안 한 것이 검수된 것이 된다)", R,
-     'reason: "no-stamp"',
-     'reason: "stale"'),
     # --- 철거가 되돌아오지 않는다 ---------------------------------------------
     ("fast", "출력을 비우지 않는다 (은퇴한 진입점이 dist 에 남아 함께 배포된다)", G,
      "rmSync(OUT, { recursive: true, force: true });",

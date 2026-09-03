@@ -88,13 +88,17 @@ export const authorSchema = z
     genres: z.array(z.enum(genreIds)).min(1),
     speculative: z.boolean().optional(),
     tier: z.enum(["anchor", "major", "context"]),
-    importanceReason: z.string().min(60, "importanceReason must be 2–4 substantive sentences"),
+    // 2026-08-31 결정 (135): 바닥은 "문장 하나"다. 60자(2–4문장)·30자·20자는 백과사전
+    // 항목의 바닥이었고, 그 바닥이 작가 1인 = 3,742자를 만들어 16일간 관계 순증 0을
+    // 낳았다. 목적은 독서 안내다 — 한 줄의 이유가 없는 것보다 낫고, 네 문장은 나중에
+    // 자란다. 검증기는 형태(비어 있지 않음)만 보고 깊이는 편집이 본다.
+    importanceReason: z.string().min(10),
     readingEntry: z.string().regex(WORK_ID),
-    readingEntryReason: z.string().min(30),
+    readingEntryReason: z.string().min(10).optional(),
     readingOrder: z.array(z.string().regex(WORK_ID)).min(1),
     readingWarning: z.string().min(10).optional(),
     difficulty: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]),
-    difficultyReason: z.string().min(20),
+    difficultyReason: z.string().min(10).optional(),
     worksException: z.string().min(10).optional(),
     sourceIds: z.array(z.string().regex(SOURCE_ID)).min(1),
     reviewStatus: z.enum(["draft", "reviewed", "verified"]),
@@ -169,7 +173,10 @@ export const relationSchema = z
     type: z.enum(relationTypes),
     direction: z.enum(["directed", "bidirectional"]),
     weight: z.number().min(0).max(1),
-    summary: z.string().min(40, "summary must explain the link in 1–3 Korean sentences"),
+    // 관계는 이 제품의 핵심 가치인데 그 엣지가 가장 비싸서 263에서 멈췄다(결정 (135)).
+    // 한 줄이면 선을 그을 수 있다. 근거 수준은 그대로 요구한다 — 그건 enum 하나라 싸고,
+    // 정직성은 길이가 아니라 그 한 칸에 있다.
+    summary: z.string().min(10),
     evidenceLevel: z.enum(["documented", "scholarly_consensus", "editorial_inference"]),
     sourceIds: z.array(z.string().regex(SOURCE_ID)),
     anchors: z
@@ -325,15 +332,6 @@ export const portraitsSchema = z
   })
   .strict();
 
-export const positionsSchema = z
-  .object({
-    version: z.string().min(1),
-    seed: z.number().int(),
-    generatedAt: z.string().min(1),
-    positions: z.record(z.string().regex(AUTHOR_ID), z.tuple([z.number(), z.number(), z.number()]))
-  })
-  .strict();
-
 export const registrySchema = z.array(
   z
     .object({
@@ -354,10 +352,10 @@ export const authorTranslationSchema = z
     id: z.string().regex(AUTHOR_ID),
     name: z.string().min(1),
     aliases: z.array(z.string().min(1)).optional(),
-    importanceReason: z.string().min(60),
-    readingEntryReason: z.string().min(30),
+    importanceReason: z.string().min(10),
+    readingEntryReason: z.string().min(10).optional(),
     readingWarning: z.string().min(10).optional(),
-    difficultyReason: z.string().min(20),
+    difficultyReason: z.string().min(10).optional(),
     worksException: z.string().min(10).optional()
   })
   .strict();
@@ -373,7 +371,7 @@ export const workTranslationSchema = z
 export const relationTranslationSchema = z
   .object({
     id: z.string().regex(RELATION_ID),
-    summary: z.string().min(40)
+    summary: z.string().min(10)
   })
   .strict();
 

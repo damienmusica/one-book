@@ -68,12 +68,6 @@ export function loadRawCollections(onlyBatch?: string, onlyRel?: string): RawCol
     sourceFiles: readDirJson("sources", sourceOnly),
     movements: readJson("movements.json", []),
     tours: readJson("tours.json", []),
-    positions: readJson("positions.v1.json", {
-      version: "0.0.0",
-      seed: 0,
-      generatedAt: "unset",
-      positions: {}
-    }),
     registry: readJson("registry.json", []),
     // batch-scoped runs skip translations — coverage is a whole-dataset question
     translationFiles: onlyBatch || onlyRel ? {} : readTranslationFiles(),

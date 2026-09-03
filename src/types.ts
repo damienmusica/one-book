@@ -100,13 +100,13 @@ export interface Author {
   importanceReason: string;
   /** work id of the recommended entry point */
   readingEntry: string;
-  readingEntryReason: string;
+  readingEntryReason?: string;
   /** ordered work ids; first item must equal readingEntry */
   readingOrder: string[];
   /** 피해야 할 잘못된 입문 경로 (있을 때만) */
   readingWarning?: string;
   difficulty: 1 | 2 | 3 | 4 | 5;
-  difficultyReason: string;
+  difficultyReason?: string;
   /** why fewer than 3 works are listed, when that is the case */
   worksException?: string;
   sourceIds: string[];
@@ -227,7 +227,7 @@ export interface Tour {
   stops: TourStop[];
 }
 
-/** Frozen deterministic layout — data/positions.v1.json */
+/** @deprecated retired 2026-08-31 (결정 (135)) — kept only so old fixtures type-check until removed */
 export interface PositionsFile {
   version: string;
   seed: number;
@@ -320,9 +320,9 @@ export interface AuthorTranslation {
   name: string;
   aliases?: string[];
   importanceReason: string;
-  readingEntryReason: string;
+  readingEntryReason?: string;
   readingWarning?: string;
-  difficultyReason: string;
+  difficultyReason?: string;
   worksException?: string;
 }
 
@@ -368,7 +368,6 @@ export interface Dataset {
   sources: Source[];
   movements: Movement[];
   tours: Tour[];
-  positions: PositionsFile;
   registry: RegistryEntry[];
   translations: LocalePack[];
   /** imagined-portrait editorial records, empty until the pilot */

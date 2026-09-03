@@ -52,7 +52,7 @@ const md = [
   "",
   `생성일: ${new Date().toISOString().slice(0, 10)} · 이 파일은 \`npm run report:coverage\`가 생성한다.`,
   "",
-  `작가 **${a.length}** · 작품 **${dataset.works.length}** · 관계 **${r.length}** · 출처 **${dataset.sources.length}** · 투어 **${dataset.tours.length}** · 좌표 v${dataset.positions.version}`,
+  `작가 **${a.length}** · 작품 **${dataset.works.length}** · 관계 **${r.length}** · 출처 **${dataset.sources.length}** · 투어 **${dataset.tours.length}**`,
   "",
   "어떤 정전도 중립적이지 않다. 아래 수치는 이 지도가 무엇을 과대·과소 대표하는지 공개한다.",
   "",

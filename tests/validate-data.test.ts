@@ -12,7 +12,6 @@ function rawFrom(ds: ReturnType<typeof makeDataset>): RawCollections {
     sourceFiles: { "sources/test.json": ds.sources },
     movements: ds.movements,
     tours: ds.tours,
-    positions: ds.positions,
     registry: ds.registry
   };
 }
@@ -100,20 +99,12 @@ describe("invariant checks (synthetic)", () => {
     expect(errors.some((e) => e.includes("birthYear >= deathYear"))).toBe(true);
   });
 
-  it("blocks positions off the unit sphere", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" })]);
-    ds.positions.positions["a"] = [2, 0, 0];
-    const { errors } = assembleDataset(rawFrom(ds));
-    expect(errors.some((e) => e.includes("not on unit sphere"))).toBe(true);
-  });
 });
 
 describe("real dataset", () => {
-  it("validates (strict once positions are frozen)", () => {
+  it("validates strictly", () => {
     const raw = loadRawCollections();
-    const positions = raw.positions as { version?: string };
-    const allowPartial = positions.version === "0.0.0";
-    const { errors } = assembleDataset(raw, { allowPartial });
+    const { errors } = assembleDataset(raw);
     expect(errors).toEqual([]);
   });
 });

@@ -328,7 +328,7 @@ function authorPage(a: Author): string {
 <ol class="works">${ordered.map((w, i) => workRow(w, i === 0 ? a.readingEntryReason : undefined)).join("\n")}</ol>
 ${rest.length ? `<details><summary>그 밖의 작품 ${rest.length}</summary><ul class="works">${rest.map((w) => workRow(w)).join("\n")}</ul></details>` : ""}
 ${a.readingWarning ? `<p class="warn">주의 — ${esc(a.readingWarning)}</p>` : ""}
-<p class="warn">난도 ${a.difficulty}/5 — ${esc(a.difficultyReason)}</p>
+<p class="warn">난도 ${a.difficulty}/5${a.difficultyReason ? ` — ${esc(a.difficultyReason)}` : ""}</p>
 ${relationsSection(rels, a.id)}
 ${
   rels.length > 1

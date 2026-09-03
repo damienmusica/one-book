@@ -33,7 +33,6 @@ if (dataset) {
       `sources    ${dataset.sources.length}`,
       `movements  ${dataset.movements.length}`,
       `tours      ${dataset.tours.length}`,
-      `positions  ${Object.keys(dataset.positions.positions).length} (v${dataset.positions.version})`,
       `warnings   ${warnings.length}`
     ].join("\n")
   );
