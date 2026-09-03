@@ -13,6 +13,7 @@ import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } fr
 import { join, resolve } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
+import { GENRE_DEFS, LANGUAGE_LABELS, REGION_DEFS } from "../src/types.ts";
 import type { Author, Edition, Relation, Work } from "../src/types.ts";
 import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/book/relations.ts";
 import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
@@ -43,6 +44,17 @@ const worksOf = (id: string): Work[] => d.works.filter((w) => w.authorId === id)
 const relsOf = (id: string): Relation[] =>
   d.relations.filter((r) => r.sourceId === id || r.targetId === id);
 const movementKo = (id: string): string => d.movements.find((m) => m.id === id)?.ko ?? id;
+const regionKo = (id: string): string => REGION_DEFS.find((r) => r.id === id)?.ko ?? id;
+const langKo = (id: string): string => LANGUAGE_LABELS[id] ?? id;
+const genreKo = (id: string): string => GENRE_DEFS.find((g) => g.id === id)?.ko ?? id;
+/**
+ * 연도 한 칸. 고대가 318명 들어오면서 `-340`은 더 이상 읽히는 수가 아니게 됐다.
+ * 기원전은 기원전이라고 쓴다 — 부호는 데이터의 것이지 독자의 것이 아니다.
+ */
+const yr = (n: number): string => (n < 0 ? `기원전 ${-n}` : String(n));
+const span = (from: number, to: number | undefined): string =>
+  to === undefined ? `${yr(from)}–` : from < 0 && to < 0 ? `기원전 ${-from}–${-to}` : `${yr(from)}–${yr(to)}`;
+
 
 const esc = (s: string): string =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -218,8 +230,8 @@ ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` :
 ${o.body}
 <div id="lp-auth" class="auth" hidden></div>
 <footer class="site">
-  작가 ${d.authors.length}인 · 작품 ${d.works.length}편 · 관계 ${d.relations.length}건 · 출처 ${d.sources.length}건 —
-  전부 검토된 큐레이션이다. 지어내지 않는다: 없는 것은 없다고 적는다.
+  도판 ${d.authors.filter((a) => (a.depth ?? "plate") !== "silhouette").length}인 검토 · 실루엣 ${d.authors.filter((a) => (a.depth ?? "plate") === "silhouette").length}인은 이름과 자리 ·
+  작품 ${d.works.length} · 관계 ${d.relations.length} · 출처 ${d.sources.length}. 지어내지 않는다: 없는 것은 없다고 적는다.
 </footer>
 </body>
 </html>`;
@@ -321,9 +333,9 @@ export function relationsSection(rels: Relation[], selfId: string): string {
 
 function workRow(w: Work, entryWhy?: string): string {
   return `<li>
-    <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${w.year}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${stateControl(w.id)}
+    <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${esc(yr(w.year))}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${stateControl(w.id)}
     ${entryWhy ? `<p class="entrywhy">${esc(firstSentence(entryWhy))}</p>` : ""}
-    <p class="sig">${esc(firstSentence(w.significance))}</p>
+    ${w.significance ? `<p class="sig">${esc(firstSentence(w.significance))}</p>` : ""}
   </li>`;
 }
 
@@ -386,7 +398,7 @@ function contemporariesSection(a: Author): string {
   if (!near.length) return "";
   const row = (b: Author) =>
     `<li><span class="t"><a href="/authors/${esc(b.id)}/">${esc(b.names.ko)}</a></span>` +
-    `<span class="y">${b.activeRange[0]}–${b.activeRange[1]}</span>` +
+    `<span class="y">${esc(span(b.activeRange[0], b.activeRange[1]))}</span>` +
     `${(b.depth ?? "plate") === "silhouette" ? "" : `<span class="tag">도판</span>`}</li>`;
   return `<details class="near"><summary>같은 자리, 같은 때 — ${near.length}명</summary>
 <ul class="works">${near.map(row).join("\n")}</ul></details>`;
@@ -400,7 +412,7 @@ function authorPage(a: Author): string {
   const rest = works.filter((w) => !a.readingOrder.includes(w.id)).sort((x, y) => x.year - y.year);
   const rels = relsOf(a.id).sort((x, y) => (y.weight ?? 0.7) - (x.weight ?? 0.7));
   const depth = a.depth ?? "plate";
-  const life = `${a.birthYear ?? "?"}–${a.deathYear ?? ""} · ${a.languages.join("·")} · ${a.regions.join("·")}${a.movements.length ? ` · ${a.movements.map(movementKo).join("·")}` : ""}${a.difficulty ? ` · 난도 ${a.difficulty}/5` : ""}`;
+  const life = `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")} · ${a.regions.map(regionKo).join("·")}${a.movements.length ? ` · ${a.movements.map(movementKo).join("·")}` : ""}${a.difficulty ? ` · 난도 ${a.difficulty}/5` : ""}`;
 
   // ── 실루엣 (결정 (137)) ─────────────────────────────────────────────────
   // 지도 위의 자리다. 우리가 아는 것만 적고, 모르는 것은 **모른다고 적는다** —
@@ -410,10 +422,17 @@ function authorPage(a: Author): string {
 <article class="silhouette">
 <h1>${esc(a.names.ko)}</h1>
 <p class="orig">${esc(a.names.original)}</p>
-<p class="life">${esc(life)} · 활동 ${a.activeRange[0]}–${a.activeRange[1]}</p>
+<p class="life">${esc(life)} · 활동 ${esc(span(a.activeRange[0], a.activeRange[1]))}</p>
 <p class="ready" id="lp-ready" data-author="${esc(a.id)}" hidden></p>
-<p class="absent"><strong>아직 실루엣이다.</strong> 이름과 자리는 안다 — 언제 어느 언어로 썼는지까지.
-그 너머는 아직 우리가 읽지 않았다. 이 쪽은 비어 있는 것이 아니라 아직 채워지지 않았다.</p>
+${
+  works.length
+    ? `<h2>책 ${works.length}</h2>
+<ul class="works">${[...works].sort((x, y) => x.year - y.year).map((w) => workRow(w)).join("\n")}</ul>
+<p class="absent"><strong>아직 실루엣이다.</strong> 이 책들이 있다는 것과 언제 어느 말로 쓰였는지는 안다.
+무엇이 이 사람을 그 자리에 세웠는지는 아직 우리가 읽지 않았다.</p>`
+    : `<p class="absent"><strong>아직 실루엣이다.</strong> 이름과 자리는 안다 — 언제 어느 언어로 썼는지까지.
+그 너머는 아직 우리가 읽지 않았다. 이 쪽은 비어 있는 것이 아니라 아직 채워지지 않았다.</p>`
+}
 ${relationsSection(rels, a.id)}
 ${contemporariesSection(a)}
 <div class="doors">
@@ -423,7 +442,7 @@ ${contemporariesSection(a)}
 </article>`;
     return page({
       title: `${a.names.ko} — 하나의 책`,
-      desc: `${a.names.ko}(${a.names.original}) — ${a.activeRange[0]}–${a.activeRange[1]}. 「하나의 책」의 실루엣 항목.`,
+      desc: `${a.names.ko}(${a.names.original}) — ${span(a.activeRange[0], a.activeRange[1])}. 「하나의 책」의 실루엣 항목.`,
       path: `/authors/${a.id}/`,
       body,
       ld: {
@@ -495,8 +514,13 @@ function workPage(w: Work): string {
 <article>
 <h1>${esc(w.titleKo)}</h1>
 <p class="orig">${esc(w.titleOriginal ?? "")}</p>
-<p class="life">${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${w.year}${YEAR_BASIS_KO[w.yearBasis ?? "attested"] ?? ""} · ${esc(w.genre ?? "")} ${stateControl(w.id)}</p>
-<p class="why">${esc(w.significance)}</p>
+<p class="life">${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${esc(yr(w.year))}${YEAR_BASIS_KO[w.yearBasis ?? "attested"] ?? ""} · ${esc(genreKo(w.genre))} ${stateControl(w.id)}</p>
+${
+  w.significance
+    ? `<p class="why">${esc(w.significance)}</p>`
+    : `<p class="absent"><strong>아직 실루엣이다.</strong> 이 책이 있다는 것과 언제 어느 말로 쓰였는지는 안다.
+그 너머 — 무엇이 이 책을 그 자리에 세웠는지 — 는 아직 우리가 읽지 않았다.</p>`
+}
 ${
   verified && world
     ? `<blockquote class="open"><p>${esc(world.opening.original)}</p><p class="ko">${esc(world.opening.ko)}</p><span class="lbl">여는 문장 · 자체 번역</span></blockquote>
@@ -526,11 +550,13 @@ ${acquireBlock(w, a)}
   ${a ? `<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}의 방으로</a>` : ""}
   ${a ? `<a href="/#${esc(a.id)}">이 작가에서 시작</a>` : ""}
 </div>
-<p class="life">출처 ${w.sourceIds.length}건</p>
+${w.sourceIds.length ? `<p class="life">출처 ${w.sourceIds.length}건</p>` : ""}
 </article>`;
   return page({
     title: `${w.titleKo}${a ? ` — ${a.names.ko}` : ""} · 하나의 책`,
-    desc: firstSentence(w.significance),
+    desc: w.significance
+      ? firstSentence(w.significance)
+      : `${w.titleKo}(${w.titleOriginal}) — ${a ? `${a.names.ko}, ` : ""}${w.year}. 「하나의 책」의 실루엣 항목.`,
     path: `/works/${w.id}/`,
     body,
     ld: {
@@ -549,7 +575,7 @@ function indexPage(): string {
   const plates = sorted.filter((a) => (a.depth ?? "plate") !== "silhouette");
   const sils = sorted.filter((a) => (a.depth ?? "plate") === "silhouette");
   const row = (a: Author): string =>
-    `<li><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${a.birthYear ?? "?"}–${a.deathYear ?? ""}</span></li>`;
+    `<li><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span></li>`;
   const body = `
 <h1>색인 — 작가 ${d.authors.length}인</h1>
 <p class="life">세계는 처음부터 전부 여기 있다. 도판 ${plates.length}인은 쪽이 채워졌고,
@@ -600,11 +626,11 @@ function walkPage(): string {
         {
           ko: a.names.ko,
           or: a.names.original,
-          life: `${a.birthYear ?? "?"}–${a.deathYear ?? ""} · ${a.languages.join("·")}`,
+          life: `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")}`,
           why: a.importanceReason ? firstSentence(a.importanceReason) : "",
           depth: a.depth ?? "plate",
           entry: a.readingEntryReason,
-          works: ordered.map((w) => ({ id: w.id, t: w.titleKo, y: w.year, s: firstSentence(w.significance) })),
+          works: ordered.map((w) => ({ id: w.id, t: w.titleKo, y: w.year, s: w.significance ? firstSentence(w.significance) : "" })),
           hops
         }
       ];

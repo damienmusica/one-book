@@ -208,7 +208,7 @@ export function assembleDataset(
   const worksByAuthor = new Map<string, Work[]>();
   for (const w of works) {
     const list = worksByAuthor.get(w.authorId) ?? [];
-    list.push(w);
+    list.push(w as Dataset["works"][number]);
     worksByAuthor.set(w.authorId, list);
   }
 
@@ -266,8 +266,14 @@ export function assembleDataset(
     const authorWorks = worksByAuthor.get(a.id) ?? [];
     const workIds = new Set(authorWorks.map((w) => w.id));
     if (depth === "silhouette") {
-      if (authorWorks.length > 0)
-        errors.push(`${a.id}: silhouette 인데 작품이 ${authorWorks.length}편 있다 — 등급을 올려라`);
+      // 실루엣 작가도 책을 갖는다 — 단 그 책도 실루엣이다. 산문이 붙은 작품은
+      // 작가가 도판일 때만 설 수 있다(작품이 작가보다 깊을 수 없다).
+      for (const w of authorWorks) {
+        if ((w.depth ?? "plate") !== "silhouette")
+          errors.push(`${w.id}: 작가가 실루엣인데 작품이 ${w.depth ?? "plate"} 다 — 작가부터 올려라`);
+      }
+      if ((a.readingOrder ?? []).length > 0)
+        errors.push(`${a.id}: 실루엣에는 입문 순서가 없다`);
     } else {
       if (authorWorks.length < 3 && a.worksException === undefined)
         errors.push(
@@ -329,7 +335,7 @@ export function assembleDataset(
       errors.push(`${w.id}: published before author age 10 (${w.year})`);
     if (a.deathYear !== undefined && w.year > a.deathYear + 60)
       errors.push(`${w.id}: published more than 60y posthumously (${w.year}) — check year`);
-    for (const sid of w.sourceIds) {
+    for (const sid of w.sourceIds ?? []) {
       if (!sourceIds.has(sid)) errors.push(`${w.id}: unknown source ${sid}`);
     }
     // 작품 세계: 모든 주장이 실재하는 출처를 가리키고, 판본은 발표 연도보다 앞설 수 없다
@@ -581,7 +587,7 @@ export function assembleDataset(
   // --- source usage ---------------------------------------------------------
   const usedSources = new Set<string>([
     ...authors.flatMap((a) => a.sourceIds ?? []),
-    ...works.flatMap((w) => w.sourceIds),
+    ...works.flatMap((w) => w.sourceIds ?? []),
     ...works.flatMap((w) =>
       w.world
         ? [
@@ -599,7 +605,7 @@ export function assembleDataset(
 
   const dataset: Dataset = {
     authors: authors as Dataset["authors"],
-    works,
+    works: works as Dataset["works"],
     relations,
     sources,
     movements,

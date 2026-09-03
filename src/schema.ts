@@ -207,11 +207,29 @@ export const workSchema = z
       .optional(),
     genre: z.enum(genreIds),
     speculative: z.boolean().optional(),
-    significance: z.string().min(30),
-    sourceIds: z.array(z.string().regex(SOURCE_ID)),
+    // 작품에도 깊이가 있다 (2026-09-04). 실루엣 작가 1,365명에게 산문 30자를 요구하면
+    // 그 요구가 곧 "책이 없다"가 된다 — 도감의 93%가 빈 칸이 된 이유가 그것이었다.
+    // 실루엣 작품은 서가의 책등이다: 제목·원제·연도·장르. 독자는 그것으로 충분히
+    // 표시하고 찾아 나선다. 산문은 도판으로 올라올 때 붙는다.
+    depth: z.enum(DEPTHS).optional(),
+    significance: z.string().min(30).optional(),
+    sourceIds: z.array(z.string().regex(SOURCE_ID)).default([]),
     world: workWorldSchema.optional()
   })
-  .strict();
+  .strict()
+  .superRefine((w, ctx) => {
+    const depth: Depth = w.depth ?? "plate";
+    const need = (ok: boolean, path: string, message: string) => {
+      if (!ok) ctx.addIssue({ code: z.ZodIssueCode.custom, path: [path], message });
+    };
+    if (depth === "silhouette") {
+      need(w.significance === undefined, "significance", "실루엣 작품은 산문을 갖지 않는다");
+      need(w.world === undefined, "world", "여는 문장은 도판 작품의 것이다");
+      need(w.sourceIds.length === 0, "sourceIds", "실루엣 작품은 출처를 달지 않는다");
+      return;
+    }
+    need(w.significance !== undefined, "significance", "도판 작품에는 significance 가 필요하다");
+  });
 
 export const relationSchema = z
   .object({

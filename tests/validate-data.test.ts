@@ -217,3 +217,45 @@ describe("배차 원장은 도판 작가만 잰다", () => {
     expect(errors.some((e) => e.includes("author not in registry: b"))).toBe(true);
   });
 });
+
+describe("작품에도 깊이가 있다 (2026-09-04)", () => {
+  // 실루엣 작가에게 산문 30자를 요구하면 그 요구가 곧 "책이 없다"가 된다.
+  // 실루엣 작품은 서가의 책등이다 — 제목·원제·연도·장르. 그 경계를 여기서 잰다.
+  const silAuthor = (id: string) =>
+    makeAuthor({ id, depth: "silhouette", reviewStatus: "draft", readingOrder: [], readingEntry: undefined });
+  const silWork = (authorId: string, n: number) =>
+    makeWork(authorId, n, { depth: "silhouette", significance: undefined, sourceIds: [] });
+
+  it("실루엣 작가가 실루엣 작품을 갖는 것은 정상이다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), silAuthor("s")], []);
+    ds.works = ds.works.filter((w) => w.authorId !== "s").concat([silWork("s", 1), silWork("s", 2)]);
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors).toEqual([]);
+  });
+
+  it("작품이 작가보다 깊을 수는 없다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), silAuthor("s")], []);
+    ds.works = ds.works.filter((w) => w.authorId !== "s").concat([makeWork("s", 1)]);
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors.some((e) => e.includes("작가가 실루엣인데 작품이"))).toBe(true);
+  });
+
+  it("실루엣 작품은 산문을 갖지 못한다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), silAuthor("s")], []);
+    ds.works = ds.works
+      .filter((w) => w.authorId !== "s")
+      .concat([makeWork("s", 1, { depth: "silhouette", sourceIds: [] })]);
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors.some((e) => e.includes("실루엣 작품은 산문을 갖지 않는다"))).toBe(true);
+  });
+
+  it("도판 작품에서 산문을 빼면 막는다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" })], []);
+    ds.works = ds.works.map((w) => (w.authorId === "b" ? { ...w, significance: undefined } : w));
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors.some((e) => e.includes("도판 작품에는 significance 가 필요하다"))).toBe(true);
+  });
+});

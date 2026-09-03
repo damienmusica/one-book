@@ -168,7 +168,10 @@ export interface Work {
   yearBasis?: "attested" | "composition-range" | "earliest-manuscript" | "first-print";
   genre: GenreId;
   speculative?: boolean;
-  significance: string;
+  /** 서가의 책등(실루엣)인가, 큐레이션된 쪽(도판)인가. 생략 = 도판. */
+  depth?: Depth;
+  /** 도판 작품에만 있다 — 실루엣 작품은 제목·연도·장르가 전부다. */
+  significance?: string;
   sourceIds: string[];
   world?: WorkWorld;
 }
