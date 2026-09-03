@@ -220,7 +220,15 @@ export function assembleDataset(
       else errors.push(`registry author missing from data: ${r.id}`);
     }
   }
+  // 레지스트리는 **배차 원장**이다 — 도판으로 그리기로 정한 작가가 거기 오른다.
+  // 실루엣은 배차가 아니라 존재의 목록이므로 원장에 없어도 된다. 뒤집힌 쪽이 오류다:
+  // 원장에 올랐는데 실루엣으로 남아 있으면, 그리기로 한 작가를 그리지 않은 것이다.
   for (const a of authors) {
+    const depth = a.depth ?? "plate";
+    if (depth === "silhouette") {
+      if (registryIds.has(a.id)) errors.push(`registry author still a silhouette: ${a.id}`);
+      continue;
+    }
     if (registryIds.size > 0 && !registryIds.has(a.id))
       errors.push(`author not in registry: ${a.id}`);
   }

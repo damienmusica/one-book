@@ -184,3 +184,36 @@ describe("imagined portraits (thesis ④ rights ladder)", () => {
     expect(errors.some((e) => e.includes("duplicate entry"))).toBe(true);
   });
 });
+
+describe("배차 원장은 도판 작가만 잰다", () => {
+  // 실루엣이 들어오면서 "모든 작가는 배차된 작가다"라는 전제가 사라졌다.
+  // 세 문장이 남는다 — 그 셋이 실제로 무엇을 막는지 여기서 잰다.
+  const silhouette = (id: string) =>
+    makeAuthor({ id, depth: "silhouette", reviewStatus: "draft", readingOrder: [], readingEntry: undefined });
+
+  it("원장에 없는 실루엣은 통과한다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), silhouette("s")], []);
+    ds.registry = [{ id: "a", ko: "가", original: "A", layer: "roots", tier: "anchor", batch: "t" }];
+    ds.works = ds.works.filter((w) => w.authorId !== "s");
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors).toEqual([]);
+  });
+
+  it("원장에 올랐는데 실루엣이면 막는다 — 그리기로 한 작가를 그리지 않았다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), silhouette("s")], []);
+    ds.registry = [
+      { id: "a", ko: "가", original: "A", layer: "roots", tier: "anchor", batch: "t" },
+      { id: "s", ko: "실", original: "S", layer: "roots", tier: "context", batch: "t" }
+    ];
+    ds.works = ds.works.filter((w) => w.authorId !== "s");
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors.some((e) => e.includes("registry author still a silhouette: s"))).toBe(true);
+  });
+
+  it("원장에 없는 도판 작가는 여전히 막는다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" })], []);
+    ds.registry = [{ id: "a", ko: "가", original: "A", layer: "roots", tier: "anchor", batch: "t" }];
+    const { errors } = assembleDataset(rawFrom(ds));
+    expect(errors.some((e) => e.includes("author not in registry: b"))).toBe(true);
+  });
+});
