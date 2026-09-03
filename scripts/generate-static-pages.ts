@@ -167,6 +167,10 @@ ul.eds{list-style:none}
 .absent{color:var(--dim);font-size:13.5px;margin:6px 0 10px}
 .census{margin:26px 0 8px;padding-top:12px;border-top:1px dashed var(--line);color:var(--faint);font-size:12.5px;letter-spacing:.06em}
 .census strong{color:var(--brass-b);font-weight:600}
+/* 실루엣은 잉크가 옅다 — 만나지 않은 것의 모양 */
+.silhouette h1{color:var(--dim)}
+.silhouette .orig,.silhouette .life{color:var(--faint)}
+.idx.sil a{color:var(--dim)}
 .auth{margin:34px 0 0;padding-top:14px;border-top:1px dashed var(--line);font-size:13px}
 .auth input{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--text);padding:5px 9px;width:min(260px,60%)}
 .auth .sig{color:var(--dim);font-size:12.5px;margin-top:6px}
@@ -321,21 +325,56 @@ function authorPage(a: Author): string {
     .filter((w): w is Work => Boolean(w));
   const rest = works.filter((w) => !a.readingOrder.includes(w.id)).sort((x, y) => x.year - y.year);
   const rels = relsOf(a.id).sort((x, y) => (y.weight ?? 0.7) - (x.weight ?? 0.7));
-  const life = `${a.birthYear ?? "?"}–${a.deathYear ?? ""} · ${a.languages.join("·")} · ${a.regions.join("·")}${a.movements.length ? ` · ${a.movements.map(movementKo).join("·")}` : ""} · 난도 ${a.difficulty}/5`;
+  const depth = a.depth ?? "plate";
+  const life = `${a.birthYear ?? "?"}–${a.deathYear ?? ""} · ${a.languages.join("·")} · ${a.regions.join("·")}${a.movements.length ? ` · ${a.movements.map(movementKo).join("·")}` : ""}${a.difficulty ? ` · 난도 ${a.difficulty}/5` : ""}`;
+
+  // ── 실루엣 (결정 (137)) ─────────────────────────────────────────────────
+  // 지도 위의 자리다. 우리가 아는 것만 적고, 모르는 것은 **모른다고 적는다** —
+  // 빈 페이지가 아니라 아직 채워지지 않은 페이지라고 말하는 것이 정직이다.
+  if (depth === "silhouette") {
+    const body = `
+<article class="silhouette">
+<h1>${esc(a.names.ko)}</h1>
+<p class="orig">${esc(a.names.original)}</p>
+<p class="life">${esc(life)} · 활동 ${a.activeRange[0]}–${a.activeRange[1]}</p>
+<p class="absent"><strong>아직 실루엣이다.</strong> 이름과 자리는 안다 — 언제 어느 언어로 썼는지까지.
+그 너머는 아직 우리가 읽지 않았다. 이 쪽은 비어 있는 것이 아니라 아직 채워지지 않았다.</p>
+${relationsSection(rels, a.id)}
+<div class="doors">
+  <a href="/#${esc(a.id)}">책에서 이 자리 보기</a>
+  <a href="/authors/">색인</a>
+</div>
+</article>`;
+    return page({
+      title: `${a.names.ko} — 하나의 책`,
+      desc: `${a.names.ko}(${a.names.original}) — ${a.activeRange[0]}–${a.activeRange[1]}. 「하나의 책」의 실루엣 항목.`,
+      path: `/authors/${a.id}/`,
+      body,
+      ld: {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: a.names.original,
+        alternateName: a.names.ko,
+        birthDate: a.birthYear ? String(a.birthYear) : undefined,
+        deathDate: a.deathYear ? String(a.deathYear) : undefined
+      }
+    });
+  }
+
   const body = `
 <article>
 <h1>${esc(a.names.ko)}</h1>
 <p class="orig">${esc(a.names.original)}</p>
 <p class="life">${esc(life)}</p>
-<p class="why">${esc(a.importanceReason)}</p>
+${a.importanceReason ? `<p class="why">${esc(a.importanceReason)}</p>` : ""}
 <div class="doors">
   <a href="/#${esc(a.id)}">여기서 읽기 시작</a>
 </div>
-<h2>입문 순서 ${ordered.length}</h2>
+${ordered.length ? `<h2>입문 순서 ${ordered.length}</h2>` : ""}
 <ol class="works">${ordered.map((w, i) => workRow(w, i === 0 ? a.readingEntryReason : undefined)).join("\n")}</ol>
 ${rest.length ? `<details><summary>그 밖의 작품 ${rest.length}</summary><ul class="works">${rest.map((w) => workRow(w)).join("\n")}</ul></details>` : ""}
 ${a.readingWarning ? `<p class="warn">주의 — ${esc(a.readingWarning)}</p>` : ""}
-<p class="warn">난도 ${a.difficulty}/5${a.difficultyReason ? ` — ${esc(a.difficultyReason)}` : ""}</p>
+${a.difficulty ? `<p class="warn">난도 ${a.difficulty}/5${a.difficultyReason ? ` — ${esc(a.difficultyReason)}` : ""}</p>` : ""}
 ${relationsSection(rels, a.id)}
 ${
   rels.length > 1
@@ -429,18 +468,32 @@ ${acquireBlock(w, a)}
 
 function indexPage(): string {
   const sorted = [...d.authors].sort((x, y) => x.names.ko.localeCompare(y.names.ko, "ko"));
+  const plates = sorted.filter((a) => (a.depth ?? "plate") !== "silhouette");
+  const sils = sorted.filter((a) => (a.depth ?? "plate") === "silhouette");
+  const row = (a: Author): string =>
+    `<li><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${a.birthYear ?? "?"}–${a.deathYear ?? ""}</span></li>`;
   const body = `
-<h1>작가 ${d.authors.length}인</h1>
-<p class="life">20세기 세계문학 — 발자국이 검토된 이들만. 각 방은 입문 순서·관계·난도를 싣는다.</p>
+<h1>색인 — 작가 ${d.authors.length}인</h1>
+<p class="life">세계는 처음부터 전부 여기 있다. 도판 ${plates.length}인은 쪽이 채워졌고,
+실루엣 ${sils.length}인은 이름과 자리로 서 있다 — 아직 만나지 않은 것의 모양이다.</p>
 <div class="doors">
-  <a href="/">여기서 시작</a>
+  <a href="/">책을 펴기</a>
 </div>
+<h2>도판 ${plates.length}</h2>
 <ul class="idx">
-${sorted.map((a) => `<li><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${a.birthYear ?? "?"}–${a.deathYear ?? ""}</span></li>`).join("\n")}
-</ul>`;
+${plates.map(row).join("\n")}
+</ul>
+${
+  sils.length
+    ? `<h2>실루엣 ${sils.length}</h2>
+<ul class="idx sil">
+${sils.map(row).join("\n")}
+</ul>`
+    : ""
+}`;
   return page({
-    title: "작가 색인 — 하나의 책",
-    desc: `20세기 세계문학 작가 ${d.authors.length}인의 큐레이션 색인 — 입문 순서, 관계의 이유, 난도.`,
+    title: "색인 — 하나의 책",
+    desc: `20세기 세계문학과 그 앞뒤 — 작가 ${d.authors.length}인의 색인. 도판 ${plates.length}, 실루엣 ${sils.length}.`,
     path: "/authors/",
     body
   });
@@ -712,11 +765,18 @@ const coverage = {
   // 판본 커버리지 — 0 도 사실이고, checkedAt 이 그 사실에 날짜를 붙인다
   editionsCheckedAt: d.editions.checkedAt,
   worksWithEdition: Object.keys(d.editions.editions).length,
-  editionRecords: Object.values(d.editions.editions).reduce((n, l) => n + l.length, 0)
+  editionRecords: Object.values(d.editions.editions).reduce((n, l) => n + l.length, 0),
+  // 깊이 분포 — 도감이 얼마나 채워졌는가. 실루엣은 미완이 아니라 **지도**다.
+  depths: d.authors.reduce<Record<string, number>>((m, a) => {
+    const k = a.depth ?? "plate";
+    m[k] = (m[k] ?? 0) + 1;
+    return m;
+  }, {})
 };
 writeFileSync(join(OUT, "coverage.json"), JSON.stringify(coverage, null, 2) + "\n");
 console.log(
   `정적 표면 — 작가 방 ${authorPages}/${d.authors.length} (${coverage.depthCoveragePct}%) · 작품 ${workPages} · ` +
+    `도판 ${coverage.depths.plate ?? 0} · 실루엣 ${coverage.depths.silhouette ?? 0} · ` +
     `여는 문장 ${coverage.worksWithOpening} · 실물 ${coverage.landable} · ` +
     `판본 ${coverage.worksWithEdition}/${workPages}작품 ${coverage.editionRecords}건 (${coverage.editionsCheckedAt} 확인) · sitemap ${urls.length} urls`
 );
