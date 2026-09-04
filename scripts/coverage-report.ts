@@ -48,7 +48,7 @@ const genreKo = new Map<string, string>(GENRE_DEFS.map((x) => [x.id, x.ko]));
 const relKo = new Map<string, string>(RELATION_DEFS.map((x) => [x.id, x.ko]));
 
 const md = [
-  "# Coverage Report — 문학의 행성",
+  "# Coverage Report — 하나의 책",
   "",
   `생성일: ${new Date().toISOString().slice(0, 10)} · 이 파일은 \`npm run report:coverage\`가 생성한다.`,
   "",
