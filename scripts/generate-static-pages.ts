@@ -14,7 +14,7 @@ import { createHash } from "node:crypto";
 import { join, resolve } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
-import { GENRE_DEFS, LANGUAGE_LABELS, PERIOD_DEFS, REGION_DEFS } from "../src/types.ts";
+import { GENRE_DEFS, LANGUAGE_LABELS, PERIOD_DEFS, REGION_DEFS, REGION_NEIGHBORS } from "../src/types.ts";
 import type { Author, Edition, Relation, Work } from "../src/types.ts";
 import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/book/relations.ts";
 import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
@@ -422,12 +422,7 @@ function contemporaries(a: Author, n = 10): Author[] {
   const overlap = [...pool.values()]
     .map((b) => ({ b, o: Math.min(to, b.activeRange[1]) - Math.max(from, b.activeRange[0]) }))
     .filter((x) => x.o >= 0)
-    .sort(
-      (x, y) =>
-        y.o - x.o ||
-        rank(y.b) - rank(x.b) ||
-        idHash(a.id + x.b.id) - idHash(a.id + y.b.id)
-    )
+    .sort((x, y) => y.o - x.o || rank(y.b) - rank(x.b) || idHash(a.id + x.b.id) - idHash(a.id + y.b.id))
     .map((x) => x.b);
   const out = new Map<string, Author>();
   for (const b of chain) out.set(b.id, b);
@@ -435,15 +430,43 @@ function contemporaries(a: Author, n = 10): Author[] {
   return [...out.values()].sort((x, y) => x.activeRange[0] - y.activeRange[0]);
 }
 
+/**
+ * 이웃한 자리 — 같은 권역에서 이웃을 넉넉히 못 찾을 때만. 동남아 59명은 그 권역에
+ * 도판이 없고 다른 권역과 겹치는 사람도 없어 격자에서 섬이었다(2026-09-04 실측).
+ * 사람을 더 채워도 섬은 섬이었다 — 다리는 사람이 아니라 지리다. 인접은 REGION_NEIGHBORS
+ * 의 지리 사실이고, 이 목록은 "같은 자리"와 **다른 소절**에 다른 문장으로 선다.
+ */
+const NEAR_ENOUGH = 6;
+function neighbouring(a: Author, already: Author[], n = 6): Author[] {
+  if (already.length >= NEAR_ENOUGH) return [];
+  const [from, to] = a.activeRange;
+  const skip = new Set([a.id, ...already.map((b) => b.id)]);
+  const pool = new Map<string, Author>();
+  for (const r of a.regions)
+    for (const nb of REGION_NEIGHBORS[r] ?? [])
+      for (const b of byRegionYear.get(nb) ?? []) if (!skip.has(b.id)) pool.set(b.id, b);
+  return [...pool.values()]
+    .map((b) => ({ b, o: Math.min(to, b.activeRange[1]) - Math.max(from, b.activeRange[0]) }))
+    .filter((x) => x.o >= 0)
+    .sort((x, y) => y.o - x.o || rank(y.b) - rank(x.b) || idHash(a.id + x.b.id) - idHash(a.id + y.b.id))
+    .slice(0, n)
+    .map((x) => x.b)
+    .sort((x, y) => x.activeRange[0] - y.activeRange[0]);
+}
+
 function contemporariesSection(a: Author): string {
   const near = contemporaries(a);
-  if (!near.length) return "";
+  const beside = neighbouring(a, near);
+  if (!near.length && !beside.length) return "";
   const row = (b: Author) =>
     `<li><span class="t"><a href="/authors/${esc(b.id)}/">${esc(b.names.ko)}</a></span>` +
     `<span class="y">${esc(span(b.activeRange[0], b.activeRange[1]))}</span>` +
     `${(b.depth ?? "plate") === "plate" ? `<span class="tag">도판</span>` : ""}</li>`;
-  return `<details class="near"><summary>같은 자리, 같은 때 — ${near.length}명</summary>
-<ul class="works">${near.map(row).join("\n")}</ul></details>`;
+  const head = near.length ? `같은 자리, 같은 때 — ${near.length}명` : `이웃한 자리, 같은 때 — ${beside.length}명`;
+  return `<details class="near"><summary>${head}</summary>
+${near.length ? `<ul class="works">${near.map(row).join("\n")}</ul>` : ""}
+${beside.length && near.length ? `<h3>이웃한 자리 — ${beside.map((b) => regionKo(b.regions[0]!)).filter((v, i, arr) => arr.indexOf(v) === i).join("·")}</h3>` : ""}
+${beside.length ? `<ul class="works">${beside.map(row).join("\n")}</ul>` : ""}</details>`;
 }
 
 function authorPage(a: Author): string {

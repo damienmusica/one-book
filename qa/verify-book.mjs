@@ -215,6 +215,33 @@ for (const p of ["/", "/authors/", "/authors/franz-kafka/", "/works/franz-kafka-
   check(`${p} 에 죽은 표면 링크 0`, dead.length === 0, dead.join(" "));
 }
 
+// ─── 격자 도달성 ────────────────────────────────────────────────────────────
+// "세계는 처음부터 전부 여기 있다"는 걸어서 닿을 때만 참이다. 배포본의 격자 링크를
+// 그대로 읽어 도판 100인에서 출발해 전원에 닿는지 잰다. 실측 이력: 겹침만 → 529명 섬,
+// 연대순 사슬 → 3명, 얇은 권역을 채우자 59명(전원 동남아 — 사람을 채워도 섬은 섬),
+// 권역 인접 다리 → 0. 이 수는 파이프라인에서만 알 수 있고 브라우저 계약이 지킨다.
+console.log("\n격자 — 걸어서 전원에 닿는다");
+{
+  const { readFileSync } = await import("node:fs");
+  const dir = new URL("../dist/authors/", import.meta.url);
+  const g = JSON.parse(readFileSync(new URL("../dist/graph.json", import.meta.url), "utf8"));
+  const depth = new Map(g.authors.map((a) => [a.i, a.d]));
+  const und = new Map();
+  const link = (a, b) => { (und.get(a) ?? und.set(a, new Set()).get(a)).add(b); (und.get(b) ?? und.set(b, new Set()).get(b)).add(a); };
+  for (const id of readdirSync(dir).filter((n) => !n.endsWith(".html"))) {
+    const html = readFileSync(new URL(`${id}/index.html`, dir), "utf8");
+    const m = html.match(/<details class="near">([\s\S]*?)<\/details>/);
+    if (!m) continue;
+    for (const [, to] of m[1].matchAll(/href="\/authors\/([^/"]+)\/"/g)) link(id, to);
+  }
+  const seen = new Set([...depth].filter(([, d]) => d === "plate").map(([i]) => i));
+  let q = [...seen], hops = 0;
+  while (q.length) { const nx = []; for (const x of q) for (const y of und.get(x) ?? []) if (!seen.has(y)) { seen.add(y); nx.push(y); } q = nx; if (nx.length) hops++; }
+  const iso = [...depth.keys()].filter((i) => !seen.has(i));
+  check("도판에서 격자로 전원에 닿는다", iso.length === 0, `${seen.size}/${depth.size} · 못 닿음 ${iso.length}${iso.length ? " (" + iso.slice(0, 3).join(", ") + ")" : ""}`);
+  check("가장 먼 사람도 30홉 안이다", hops <= 30, `최장 ${hops}홉`);
+}
+
 // ─── 색인 허가 ───────────────────────────────────────────────────────────────
 // 색인은 SEO 의 문제이지 탐험의 문제가 아니다. 스케치 1,363명의 한 문장은 아직 아무도
 // 검증하지 않았고, 그것을 검색엔진에 사실이라고 제출하지는 않는다.

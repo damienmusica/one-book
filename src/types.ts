@@ -670,6 +670,39 @@ export const REGION_DEFS: ReadonlyArray<{ id: string; ko: string; en: string }> 
   { id: "horn-of-africa", ko: "아프리카의 뿔", en: "Horn of Africa" }
 ];
 
+/**
+ * 권역 인접 — 지리 사실이다(육상 접경 또는 오랜 교역·문화 접경). 격자가 같은 권역
+ * 안에서 이웃을 못 찾을 때 **이웃한 자리**를 여기서 찾는다. 2026-09-04 실측: 동남아
+ * 59명이 도판 100인에서 격자로 닿지 않았다 — 그 권역에 도판이 없고 다른 권역과 겹치는
+ * 사람도 없어 섬이었고, 사람을 더 채워도 섬은 섬이었다. 다리는 사람이 아니라 지리다.
+ * 대칭이어야 한다 — 계약이 잰다.
+ */
+export const REGION_NEIGHBORS: Readonly<Record<string, readonly string[]>> = {
+  "western-europe": ["central-europe", "britain-ireland", "iberia", "italy", "nordic"],
+  "central-europe": ["western-europe", "eastern-europe", "italy", "nordic", "russia"],
+  "eastern-europe": ["central-europe", "russia", "anatolia", "nordic"],
+  russia: ["eastern-europe", "central-europe", "central-asia", "nordic", "east-asia"],
+  "britain-ireland": ["western-europe", "nordic", "north-america"],
+  nordic: ["britain-ireland", "western-europe", "central-europe", "eastern-europe", "russia"],
+  iberia: ["western-europe", "middle-east-north-africa", "latin-america"],
+  italy: ["western-europe", "central-europe", "middle-east-north-africa", "anatolia"],
+  "north-america": ["britain-ireland", "mesoamerica", "caribbean"],
+  "latin-america": ["mesoamerica", "andes", "caribbean", "iberia"],
+  caribbean: ["north-america", "mesoamerica", "latin-america", "sub-saharan-africa"],
+  "east-asia": ["southeast-asia", "central-asia", "russia"],
+  "south-asia": ["southeast-asia", "central-asia", "middle-east-north-africa", "east-africa"],
+  "middle-east-north-africa": ["anatolia", "iberia", "italy", "south-asia", "central-asia", "sub-saharan-africa", "horn-of-africa", "east-africa"],
+  "sub-saharan-africa": ["middle-east-north-africa", "east-africa", "horn-of-africa", "caribbean"],
+  oceania: ["southeast-asia"],
+  "central-asia": ["russia", "east-asia", "south-asia", "middle-east-north-africa", "anatolia"],
+  "southeast-asia": ["east-asia", "south-asia", "oceania"],
+  anatolia: ["eastern-europe", "middle-east-north-africa", "central-asia", "italy"],
+  mesoamerica: ["north-america", "latin-america", "caribbean", "andes"],
+  andes: ["latin-america", "mesoamerica"],
+  "east-africa": ["sub-saharan-africa", "horn-of-africa", "middle-east-north-africa", "south-asia"],
+  "horn-of-africa": ["east-africa", "middle-east-north-africa", "sub-saharan-africa"]
+};
+
 export const LANGUAGE_LABELS: Record<string, string> = {
   // ── 2026-08-31 결정 (134): 고전이 요구하는 언어 ──────────────────────────
   // 전부 실재하는 ISO 639 코드다. 코드를 발명하지 않는다 — 발명이 곧 지어내기다.
