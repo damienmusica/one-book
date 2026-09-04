@@ -61,10 +61,11 @@ check("표시가 없어도 책이 어느 쪽에서 열려 있다", (await page.l
 check("그 쪽에 담을 책이 서 있다", (await page.locator("#app select.state").count()) >= 1);
 check("왜 지금 이 쪽인지 말한다", /이번 주에 열린 쪽|열린다|뿌리다|곁이다/.test(await appTxt()));
 
-// 도감 계수 — 목표도 퍼센트도 연속일도 없다. 세계가 얼마나 열렸는가만.
+// 도감 계수 — 분모는 지도고 퍼센트는 절망이다(3,752 중 3 = 0.08%). 연속일은 강요.
+// "만난 작가 N / 전체"는 있고, %·연속·목표·달성 문구는 없다 (2026-09-04 개정 규칙).
 const census = await page.locator(".census").innerText();
 check("도감 계수가 만난 수와 전체를 말한다", /만난 작가\s*\d+\s*\/\s*\d+/.test(census), census.replace(/\n/g, " "));
-check("목표·퍼센트·연속일이 없다", !/%|목표|연속|남았|달성/.test(census));
+check("연속일·퍼센트·목표 문구가 없다 — 분모는 있다", !/%|목표|연속|남았|달성/.test(census) && /\/\s*\d/.test(census));
 
 // 표시 하나가 세계를 켠다 — 준비도 엔진의 핵심 주장
 await page.locator("#app select.state").first().selectOption("read");
