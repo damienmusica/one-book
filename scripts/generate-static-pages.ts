@@ -636,8 +636,18 @@ function indexPage(): string {
   // 검색은 이미 페이지에 있는 것을 거른다 — 1,465행이 전부 정적 HTML 로 서 있으므로
   // 색인은 통째로 SEO 에 잡히고, 걸러내기는 DOM 순회 한 번이면 끝난다. 인덱스도,
   // 라이브러리도, 네트워크 왕복도 없다.
+  // 사람은 작가 이름보다 책 제목을 더 자주 기억한다 — 「변신」을 치는 사람이 카프카를
+  // 찾고 있다. 작품 제목(한국어·원어)까지 건초더미에 넣는다.
   const hay = (a: Author): string =>
-    [a.names.ko, a.names.original, ...a.names.aliases, a.id.replace(/-/g, " ")].join(" ").toLowerCase();
+    [
+      a.names.ko,
+      a.names.original,
+      ...a.names.aliases,
+      a.id.replace(/-/g, " "),
+      ...worksOf(a.id).flatMap((w) => [w.titleKo, w.titleOriginal])
+    ]
+      .join(" ")
+      .toLowerCase();
   const row = (a: Author): string =>
     `<li data-h="${esc(hay(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a><span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span></li>`;
   const regionsUsed = REGION_DEFS.filter((r) => d.authors.some((a) => a.regions.includes(r.id)));
@@ -652,7 +662,7 @@ function indexPage(): string {
   <a href="/">책을 펴기</a>
 </div>
 <div class="find">
-  <input type="search" id="q" placeholder="이름으로 찾기 — 한글·원어 모두" autocomplete="off" spellcheck="false">
+  <input type="search" id="q" placeholder="이름이나 책 제목으로 찾기" autocomplete="off" spellcheck="false">
   <select id="fr"><option value="">권역 전체</option>${regionsUsed.map((r) => `<option value="${esc(r.id)}">${esc(r.ko)}</option>`).join("")}</select>
   <select id="fp"><option value="">시대 전체</option>${periodsUsed.map((pd) => `<option value="${esc(pd.id)}">${esc(pd.ko)}</option>`).join("")}</select>
   <span id="cnt" class="y"></span>

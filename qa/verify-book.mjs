@@ -8,6 +8,7 @@
 // **그려진 글자**(innerText)다. 접힌 <details> 는 세지 않는다. 접혔으니까.
 //
 //   node qa/verify-book.mjs
+import { readdirSync } from "node:fs";
 import { chromium } from "playwright";
 import { serveDist } from "./serve.mjs";
 
@@ -143,10 +144,12 @@ console.log("\n작가 페이지 — 그려진 글자 예산");
 // — 그래서 **전수**로 잰다. 상한은 오늘의 실측 최댓값 바로 위에 못 박은 래칫이고,
 // 값은 내려갈 수만 있다.
 const BUDGET = 1750;
-const ids = (await (await fetch(`${server.origin}/sitemap.xml`)).text())
-  .split("\n")
-  .map((l) => l.match(/<loc>[^<]*\/authors\/([^/<]+)\/<\/loc>/)?.[1])
-  .filter(Boolean);
+// 전수는 **배포본 디렉토리**에서 센다. sitemap 에서 뽑던 시절 sitemap 이 도판만 담게 되자
+// 이 계약이 조용히 100인으로 줄었다 — 스케치 1,611쪽이 안 재진 채 초록이었다.
+const ids = readdirSync(new URL("../dist/authors/", import.meta.url))
+  .filter((n) => !n.endsWith(".html"));
+const corpusSize = (await (await fetch(`${server.origin}/graph.json`)).json()).authors.length;
+check("예산은 전수를 잰다 — 코퍼스 크기와 같다", ids.length === corpusSize, `${ids.length} / ${corpusSize}`);
 const measured = [];
 for (const id of ids) {
   await page.goto(`${server.origin}/authors/${id}/`, { waitUntil: "load" });
@@ -296,6 +299,11 @@ await page.waitForTimeout(120);
 const kafka = await visibleRows();
 check("이름을 치면 그 이름만 남는다", kafka >= 1 && kafka <= 5, `${kafka}인`);
 check("남은 것이 실제로 그 사람이다", /카프카/.test(await page.locator(".idx > li:not([hidden])").first().innerText()));
+await page.locator("#q").fill("변신");
+await page.waitForTimeout(120);
+const byTitle = await page.locator(".idx > li:not([hidden])").count();
+check("책 제목으로도 그 작가를 찾는다", byTitle >= 1 && byTitle <= 20, `${byTitle}인`);
+check("그 작가가 실제로 카프카다", /카프카/.test(await page.locator(".idx > li:not([hidden])").first().innerText()));
 await page.locator("#q").fill("Sappho");
 await page.waitForTimeout(120);
 check("원어·로마자로도 찾는다", (await visibleRows()) >= 1, `${await visibleRows()}인`);
