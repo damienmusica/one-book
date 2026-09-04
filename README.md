@@ -2,12 +2,21 @@
 
 > **모든 책을 품은 하나의 책.**
 
-20세기 세계문학 작가 100인 · 작품 513편 · 관계 263건 · 출처 239건. 전부 검토된
-큐레이션이고, 전부 **정적 HTML 616쪽**이다. 계정도, 데이터베이스도, 추적도,
-광고도, 런타임 LLM 호출도 없다.
+호메로스에서 지금까지, 세계문학 작가 **1,700여 인**과 작품 **3,700여 편**, 22 권역.
+이 가운데 도판 100인이 검토된 큐레이션이고, 나머지는 한 문장을 가진 스케치와
+이름·자리만 아는 실루엣이다 — 검토되지 않은 쪽은 검색엔진에 제출하지 않는다.
+전부 **정적 HTML** 이고, 정확한 수는 빌드가 찍는다. 추적도, 광고도, 제3자 요청도,
+런타임 LLM 호출도 없다. 독자의 표시는 브라우저에 있고, 원하면 이메일 하나로 기기
+사이에 동기화된다.
+
+읽은 것이 다음 것을 연다 — 첫 장은 묻지 않고 한 쪽을 열어 두고, 표시가 쌓이면
+그것이 그래프에 불을 켜 다음 쪽을 고른다. 세 주에 한 주는 같은 자리·같은 때의
+이웃이 온다.
 
 정체성과 경계는 [docs/one-book.md](docs/one-book.md), 상급 게이트와 손 떼기
-조건은 [docs/one-sentence-contract.md](docs/one-sentence-contract.md).
+조건은 [docs/one-sentence-contract.md](docs/one-sentence-contract.md), 에이전트
+지침은 [CLAUDE.md](CLAUDE.md). 생성물 QC 의 실측은
+[docs/qc-sketch-wave.md](docs/qc-sketch-wave.md).
 
 2026-08-31 에 [Noosphere](https://github.com/damienmusica/Noosphere) 에서 분가했다
 (그 전 히스토리는 `literary-planet/` 하위에 있다). 두 레포는 코드를 공유하지 않고,
@@ -17,7 +26,7 @@
 
 ```bash
 npm install
-npm run build      # validate:data → 정적 616쪽을 dist/ 에 굽는다
+npm run build      # validate:data → 정적 쪽 전부를 dist/ 에 굽는다
 npm run serve      # dist/ 를 띄운다
 ```
 
