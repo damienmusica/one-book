@@ -30,10 +30,10 @@ const byId = new Map(dataset.authors.map((a) => [a.id, a]));
 // 평가어 — 이 낱말들은 내용 없이 자리만 차지한다. 한 문장뿐인데 그중 하나가
 // "위대한"이면 그 문장은 아무것도 말하지 않은 것이다.
 const EMPTY = ["위대한", "뛰어난", "대표적인", "손꼽히는", "거장", "불멸의", "최고의", "가장 유명한"];
-// 최상급은 그 사람에 대한 주장이 아니라 **그전에 살았던 모든 사람에 대한 주장**이고,
-// 대개 앞선 사람을 확인하지 않고 쓰인다. 2026-09-04 적대적 QC 실측: 최상급을 담은
+// 최초형은 그 사람에 대한 주장이 아니라 **그전에 살았던 모든 사람에 대한 주장**이고,
+// 대개 앞선 사람을 확인하지 않고 쓰인다. 2026-09-04 적대적 QC 실측: 최초형을 담은
 // 문장의 오류율 27.8% vs 그 밖 2.8% — 열 배다(docs/qc-sketch-wave.md).
-// 금지하지는 않는다. 참인 최상급도 있고, 금지하면 문장이 더 모호한 표현으로 도망칠
+// 금지하지는 않는다. 참인 최초형도 있고, 금지하면 문장이 더 모호한 표현으로 도망칠
 // 뿐이다. **세는 것이 규율이다** — 세어서 보고하면 다음 QC 가 어디를 볼지 안다.
 const SUPERLATIVE = /처음|최초|유일|가장 이른|첫 번째|시초|효시/;
 const MIN = 30;
@@ -75,7 +75,7 @@ const supers = [...accepted.values()].filter((l) => SUPERLATIVE.test(l)).length;
 console.log(
   `${rewrite ? "고쳐 쓴 문장" : "스케치"} ${accepted.size}명` +
     (demoted.size ? ` · 실루엣으로 내림 ${demoted.size}명` : "") +
-    ` · 버림 ${dropped.length} · 최상급 주장 ${supers}` +
+    ` · 버림 ${dropped.length} · 최초형 주장 ${supers}` +
     (accepted.size ? ` (${((supers / accepted.size) * 100).toFixed(1)}% — QC 는 여기부터 본다)` : "")
 );
 if (dropped.length) {
