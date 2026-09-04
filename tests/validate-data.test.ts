@@ -332,14 +332,18 @@ describe("스케치는 축소된 도판이 아니라 한 문장을 더한 실루
     expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("스케치에는 입문 순서가 없다"))).toBe(true);
   });
 
-  it("도판은 여전히 전부 요구받는다 — 사다리가 무너지지 않았다", () => {
-    // 장소를 아예 비우면 스키마가 먼저 잡는다. 여기서 재는 것은 그 다음 문 —
-    // 장소는 있는데 어느 것이 그 사람의 자리인지 말하지 않는 경우다.
-    const noPrimary = makeAuthor({ id: "b" });
+  it("도판은 여전히 입문작을 요구받는다 — 사다리가 무너지지 않았다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b", readingEntry: undefined, readingOrder: [] })], []);
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("readingEntry") || e.includes("입문"))).toBe(true);
+  });
+  it("좌표는 요구하지 않지만, 있으면 대표는 하나다", () => {
+    const some = makeAuthor({ id: "b" });
     const ds = makeDataset(
-      [makeAuthor({ id: "a" }), { ...noPrimary, locations: noPrimary.locations.map((l) => ({ ...l, primary: false })) }],
+      [makeAuthor({ id: "a" }), { ...some, locations: some.locations.map((l) => ({ ...l, primary: false })) }],
       []
     );
-    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("primary location"))).toBe(true);
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("primary is not exactly one"))).toBe(true);
+    const none = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b", locations: [] })], []);
+    expect(assembleDataset(rawFrom(none)).errors).toEqual([]);
   });
 });

@@ -144,7 +144,8 @@ export const authorSchema = z
     // sketch 이상 — 왜 중요한가는 있어야 한다
     need(a.importanceReason !== undefined, "importanceReason", `${depth} 는 importanceReason 이 필요하다`);
     if (depth === "plate") {
-      need(a.locations.length > 0, "locations", "plate 는 장소가 필요하다");
+      // locations 는 요구하지 않는다 — 좌표는 지리 모드의 것이었고 지리 모드는 철거됐다.
+      // 도판의 값은 어디서 시작하나·누구와 이어지나·얼마나 어렵나, 셋이다.
       need(a.genres.length > 0, "genres", "plate 는 장르가 필요하다");
       need(a.difficulty !== undefined, "difficulty", "plate 는 난도가 필요하다");
       need(a.sourceIds.length > 0, "sourceIds", "plate 는 출처가 필요하다");

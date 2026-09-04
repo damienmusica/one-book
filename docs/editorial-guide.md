@@ -36,15 +36,15 @@ JSON은 2칸 들여쓰기, UTF-8, 배열 루트. 필드 순서는 스키마 선�
 - `gender`: 공적으로 알려진 사실대로. 애매하면 `"unknown"`.
 - `languages`: **집필 언어** ISO 코드 (`src/types.ts`의 `LANGUAGE_LABELS`에 있는 코드만).
 - `regions`: `REGION_DEFS`의 id만. 복수 허용 (예: 망명 작가).
-- `locations`: 1–3개. `primary: true` 정확히 1개 — 지리 모드에서 쓰이는 대표 좌표.
-  출생지가 아니라 **문학 활동의 중심지**를 대표로 골라도 된다. 그 경우 `note`에 이유 한 줄.
-  좌표는 도시 수준 (소수 2–4자리). 확신 없으면 batch 리포트에 `UNCERTAIN:`.
+- `locations`: **쓰지 마라.** 좌표는 지리 모드의 것이었고 지리 모드는 철거됐다. 자리는 `regions` 다.
 - `periods`: 주 활동이 걸치는 층 전부. 레지스트리의 `layer`는 주 층이며 반드시 포함.
   1990년 이후에도 주요 작품을 냈다면 `"contemporary"`를 추가.
 - `movements`: `data/movements.json`의 19개 id만. 실제 소속·핵심 관련만 (억지 배정 금지, 0개 허용).
 - `genres`: 실제 주요 장르 전부. SF·사변 계보의 작가는 `speculative: true`.
-- `importanceReason`: 2–4문장. ① 무엇을 형식적으로 새로 만들었나 ② 문학사적으로 무엇을
-  바꿨나. 구체적 명사로.
+- `importanceReason`: 2–3문장. ① 무엇을 형식적으로 새로 만들었나 ② 문학사적으로 무엇을
+  바꿨나. 구체적 명사로. **최초·처음·유일·열었다·들여왔다 를 쓰지 않는다** — 우리가 아는 것은
+  "이 사람이 X 했다"이지 "아무도 그전에 X 하지 않았다"가 아니다. 좁힐수록 참에 가까워진다.
+  스케치의 한 문장이 있으면 그것을 첫 문장으로 삼아 넓힌다.
 - `readingEntry`+`readingEntryReason`: 처음 읽을 한 편과 그 이유 (분량·접근성·대표성).
 - `readingOrder`: 3–5편, 첫 항목 = readingEntry. 난도 상승 순서로.
 - `readingWarning`: 잘못 시작하기 쉬운 경로가 실제로 있을 때만.

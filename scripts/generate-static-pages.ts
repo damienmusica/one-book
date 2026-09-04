@@ -262,11 +262,7 @@ ${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` :
 ${o.body}
 <div id="lp-auth" class="auth" hidden></div>
 <footer class="site">
-  도판 ${d.authors.filter((a) => (a.depth ?? "plate") === "plate").length}인 검토${
-    d.authors.some((a) => a.depth === "sketch")
-      ? ` · 스케치 ${d.authors.filter((a) => a.depth === "sketch").length}인은 한 문장`
-      : ""
-  } · 실루엣 ${d.authors.filter((a) => (a.depth ?? "plate") === "silhouette").length}인은 이름과 자리 ·
+  검토 ${d.authors.filter((a) => a.reviewStatus !== "draft").length} · 도판 ${d.authors.filter((a) => (a.depth ?? "plate") === "plate").length} · 스케치 ${d.authors.filter((a) => a.depth === "sketch").length} · 실루엣 ${d.authors.filter((a) => (a.depth ?? "plate") === "silhouette").length} ·
   작품 ${d.works.length} · 관계 ${d.relations.length} · 출처 ${d.sources.length}. 지어내지 않는다: 없는 것은 없다고 적는다.
 </footer>
 </body>
@@ -524,7 +520,7 @@ ${contemporariesSection(a)}
         : `${a.names.ko}(${a.names.original}) — ${span(a.activeRange[0], a.activeRange[1])}. 「하나의 책」의 실루엣 항목.`,
       path: `/authors/${a.id}/`,
       body,
-      noindex: true,
+      noindex: a.reviewStatus === "draft",
       ld: {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -564,6 +560,7 @@ ${contemporariesSection(a)}
   return page({
     title: `${a.names.ko} — 하나의 책`,
     desc: firstSentence(a.importanceReason),
+    noindex: a.reviewStatus === "draft",
     path: `/authors/${a.id}/`,
     body,
     ld: {
@@ -639,7 +636,7 @@ ${w.sourceIds.length ? `<p class="life">출처 ${w.sourceIds.length}건</p>` : "
       : `${w.titleKo}(${w.titleOriginal}) — ${a ? `${a.names.ko}, ` : ""}${w.year}. 「하나의 책」의 실루엣 항목.`,
     path: `/works/${w.id}/`,
     body,
-    noindex: w.significance === undefined,
+    noindex: (a?.reviewStatus ?? "draft") === "draft",
     ld: {
       "@context": "https://schema.org",
       "@type": "Book",
@@ -1005,7 +1002,7 @@ fetch('${walkDataPath}').then(function(r){return r.json();}).then(function(j){
 </script>`;
   return page({
     title: "하나의 책 — 세계문학의 지도",
-    desc: `모든 책을 품은 하나의 책 — 호메로스에서 지금까지 작가 ${d.authors.length}인. 읽은 것이 다음 것을 연다. 도판 ${d.authors.filter((a) => (a.depth ?? "plate") === "plate").length}인은 전부 검토된 큐레이션이고, 작품 ${d.works.length}편이 그 안에 있다.`,
+    desc: `모든 책을 품은 하나의 책 — 호메로스에서 지금까지 작가 ${d.authors.length}인. 읽은 것이 다음 것을 연다. 검토된 ${d.authors.filter((a) => a.reviewStatus !== "draft").length}인이 큐레이션이고, 작품 ${d.works.length}편이 그 안에 있다.`,
     path: "/",
     body
   });
@@ -1092,8 +1089,9 @@ const urls = [
   `${BASE}/`,
   `${BASE}/authors/`,
   `${BASE}/shelf/`,
-  ...d.authors.filter((a) => (a.depth ?? "plate") === "plate").map((a) => `${BASE}/authors/${a.id}/`),
-  ...d.works.filter((w) => w.significance !== undefined).map((w) => `${BASE}/works/${w.id}/`)
+  // 깊이와 검토는 다른 축이다. 도판이어도 사람이 검토하지 않았으면 제출하지 않는다.
+  ...d.authors.filter((a) => a.reviewStatus !== "draft").map((a) => `${BASE}/authors/${a.id}/`),
+  ...d.works.filter((w) => byId.get(w.authorId)?.reviewStatus !== "draft").map((w) => `${BASE}/works/${w.id}/`)
 ];
 writeFileSync(
   join(OUT, "sitemap.xml"),

@@ -258,12 +258,11 @@ export function assembleDataset(
       if (!sourceIds.has(sid)) errors.push(`${a.id}: unknown source ${sid}`);
     }
 
-    // 장소는 도판의 것이다. 스케치는 한 문장을 더한 실루엣이지 축소된 도판이 아니다 —
-    // 스케치에 도판의 요구를 걸면 그 칸은 영원히 비고 사다리는 두 칸으로 되돌아간다.
-    if (depth === "plate") {
+    // 좌표가 있으면 대표는 하나다. 있어야 하는 것은 아니다 — 지리 모드가 철거되어 이유가 없다.
+    {
       const primaries = (a.locations ?? []).filter((l) => l.primary === true);
-      if (primaries.length !== 1)
-        errors.push(`${a.id}: exactly one primary location required (found ${primaries.length})`);
+      if ((a.locations ?? []).length > 0 && primaries.length !== 1)
+        errors.push(`${a.id}: locations given but primary is not exactly one (found ${primaries.length})`);
     }
 
     const authorWorks = worksByAuthor.get(a.id) ?? [];
@@ -390,6 +389,12 @@ export function assembleDataset(
     if (!authorById.has(r.sourceId)) errors.push(`${r.id}: unknown sourceId ${r.sourceId}`);
     if (!authorById.has(r.targetId)) errors.push(`${r.id}: unknown targetId ${r.targetId}`);
     if (r.sourceId === r.targetId) errors.push(`${r.id}: self-relation forbidden`);
+    // 관계는 출처 있는 주장이고 주장은 도판의 것이다 — 스케치·실루엣에 선을 긋지 않는다.
+    for (const end of [r.sourceId, r.targetId]) {
+      const e = authorById.get(end);
+      if (e && (e.depth ?? "plate") !== "plate")
+        errors.push(`${r.id}: ${end} 는 ${e.depth} 다 — 관계는 도판 사이에만 긋는다`);
+    }
 
     // 앵커는 두 당사자 중 한 사람의 실재하는 작품만 가리킨다 — 제3자의 책에 닿는 선은 거짓말이다.
     //
