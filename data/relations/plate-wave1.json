@@ -1,0 +1,1913 @@
+[
+  {
+    "id": "influence--william-shakespeare--victor-hugo",
+    "sourceId": "william-shakespeare",
+    "targetId": "victor-hugo",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "위고는 「크롬웰 서문」(1827)에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어내 삼일치 규칙을 공격했고, 망명 중 쓴 단행본 『윌리엄 셰익스피어』(1864)에서 그 독해를 자기 극작 원리의 근거로 다시 정리했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hugo-preface-de-cromwell-1827",
+      "src--hugo-william-shakespeare-1864"
+    ]
+  },
+  {
+    "id": "dialogue--victor-hugo--charles-baudelaire",
+    "sourceId": "victor-hugo",
+    "targetId": "charles-baudelaire",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.8,
+    "summary": "보들레르는 1859년 위고에게 편지를 보내 「백조」의 헌정을 청했고, 위고는 답신에서 그의 시가 '새로운 전율(frisson nouveau)'을 만들어 냈다고 썼다. 이 헌정시는 『악의 꽃』 재판(1861)의 '파리 풍경'에 실렸다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fleurs-du-mal-1861",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--victor-hugo--fyodor-dostoevsky",
+    "sourceId": "victor-hugo",
+    "targetId": "fyodor-dostoevsky",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "도스토옙스키는 자신이 편집하던 잡지 『시대』 1862년 9호에 실린 『파리의 노트르담』 러시아어 번역에 서문을 붙여, 위고 문학의 근본 주제를 '몰락한 인간의 회복'이라 규정하고 이를 19세기 예술 전체의 과제로 확장했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dostoevsky-vremya-notre-dame-1862"
+    ]
+  },
+  {
+    "id": "influence--william-shakespeare--alexander-pushkin",
+    "sourceId": "william-shakespeare",
+    "targetId": "alexander-pushkin",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "푸시킨은 1825년 7월 니콜라이 라예프스키에게 보낸 편지에서 『보리스 고두노프』를 쓰며 프랑스 고전극 대신 셰익스피어의 자유로운 장면 구성을 본보기로 삼았다고 적었고, 그 결과 삼일치를 버린 스물세 장면의 사극이 나왔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--pushkin-letter-raevsky-1825"
+    ]
+  },
+  {
+    "id": "influence--alexander-pushkin--fyodor-dostoevsky",
+    "sourceId": "alexander-pushkin",
+    "targetId": "fyodor-dostoevsky",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "도스토옙스키는 1880년 모스크바 푸시킨 기념비 제막식 연설(『작가의 일기』 1880년 특별호에 수록)에서 타티야나와 오네긴을 러시아 정신의 두 유형으로 읽고, 푸시킨을 자기 문학의 근거로 공개 선언했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dostoevsky-writers-diary"
+    ]
+  },
+  {
+    "id": "influence--alexander-pushkin--leo-tolstoy",
+    "sourceId": "alexander-pushkin",
+    "targetId": "leo-tolstoy",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "톨스토이가 『벨킨 이야기』를 산문의 모범으로 반복해 언급했고 『안나 카레니나』의 착수 경위가 푸시킨 산문 단편의 독서와 결부된다는 계보는 톨스토이 연구에서 표준적으로 다뤄진다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--alexander-pushkin--anna-akhmatova",
+    "sourceId": "alexander-pushkin",
+    "targetId": "anna-akhmatova",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "아흐마토바는 시인이자 푸시킨 연구자로서 「푸시킨의 『석상 손님』」을 비롯한 논문을 여러 편 발표했고, 그 독해는 자기 후기 시의 인용과 운율 선택에 그대로 이어진다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica",
+      "src--chukovskaya-zapiski"
+    ]
+  },
+  {
+    "id": "influence--homer--virgil",
+    "sourceId": "homer",
+    "targetId": "virgil",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "『아이네이스』 전반부의 방랑과 후반부의 전쟁이 『오디세이아』와 『일리아스』의 순서를 뒤집어 배치한 구성이라는 독해는, 마크로비우스가 『사투르날리아』에서 차용 대목을 대조한 이래 고전문헌학이 표준으로 다루는 계보다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--macrobius-saturnalia",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--homer--james-joyce",
+    "sourceId": "homer",
+    "targetId": "james-joyce",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "조이스는 『율리시스』의 각 삽화를 『오디세이아』의 장면·기관·기법에 대응시킨 도표(리나티 도식, 길버트 도식)를 직접 작성해 친구들에게 돌렸고, 엘먼의 전기가 그 유통 경위를 기록하고 있다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ellmann-james-joyce"
+    ]
+  },
+  {
+    "id": "influence--homer--derek-walcott",
+    "sourceId": "homer",
+    "targetId": "derek-walcott",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "월컷은 『오메로스』(1990)에서 아킬·헥토르·헬렌이라는 호메로스의 이름을 세인트루시아의 어부와 하녀에게 옮겨 놓았고, 노벨 강연 「앤틸리스: 서사적 기억의 파편들」(1992)에서 카리브해의 서사시적 기억이라는 그 기획을 직접 설명했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nobelprize",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--sophocles--aristotle",
+    "sourceId": "sophocles",
+    "targetId": "aristotle",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "아리스토텔레스는 『시학』에서 『오이디푸스 왕』을 인지(아나그노리시스)와 급전(페리페테이아)이 한 지점에서 함께 일어나는 사례로 거듭 인용하며 비극 플롯의 기준으로 삼는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--homer--sophocles",
+    "sourceId": "homer",
+    "targetId": "sophocles",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.65,
+    "summary": "고대 전기 전승이 소포클레스를 '가장 호메로스적인' 비극 시인으로 부른 이래, 고전문헌학은 그의 극이 서사시 순환(에픽 사이클)의 소재와 어법을 무대 형식으로 옮긴 계보를 표준적으로 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "translation--sophocles--william-butler-yeats",
+    "sourceId": "sophocles",
+    "targetId": "william-butler-yeats",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "예이츠는 애비 극장 상연을 위해 『오이디푸스 왕』을 현대 무대용 영어 대본으로 옮겼고, 1926년 초연을 거쳐 1928년 『Sophocles' King Oedipus: A Version for the Modern Stage』로 출간했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica",
+      "src--yeats-collected-letters"
+    ]
+  },
+  {
+    "id": "mentorship--plato--aristotle",
+    "sourceId": "plato",
+    "targetId": "aristotle",
+    "type": "mentorship",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "아리스토텔레스는 열일곱 살에 아카데메이아에 들어가 플라톤이 죽을 때까지 스무 해를 머물렀고, 『니코마코스 윤리학』 1권에서 스승의 이데아론을 이름을 밝혀 비판하며 자기 방법을 갈라 세웠다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "contrast--plato--friedrich-nietzsche",
+    "sourceId": "plato",
+    "targetId": "friedrich-nietzsche",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.75,
+    "summary": "니체는 『선악의 저편』(1886) 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 부르며 플라톤이 세운 이데아의 위계를 뒤집는 일을 자기 과제로 삼았고, 니체 연구는 그의 저작 전체를 이 반플라톤주의의 전개로 읽는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--nietzsche-colli-montinari"
+    ]
+  },
+  {
+    "id": "influence--plato--jorge-luis-borges",
+    "sourceId": "plato",
+    "targetId": "jorge-luis-borges",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "보르헤스는 『영원의 역사』(1936)의 표제 에세이를 플라톤의 원형(이데아) 개념에서 시작해 영원 관념의 계보로 다시 서술했고, 이후 단편들에서 반복되는 원형과 개별자의 역설이 그 독해에서 나온다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--borges-historia-de-la-eternidad-1936"
+    ]
+  },
+  {
+    "id": "influence--aristotle--dante-alighieri",
+    "sourceId": "aristotle",
+    "targetId": "dante-alighieri",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "단테는 『신곡』 「지옥편」 11곡에서 지옥의 죄 분류 근거로 '너의 윤리학', 곧 아리스토텔레스의 『니코마코스 윤리학』을 이름을 들어 지목하며 절제 없음·폭력·기만의 위계를 설명한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--treccani",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--aristotle--umberto-eco",
+    "sourceId": "aristotle",
+    "targetId": "umberto-eco",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "에코는 『장미의 이름』(1980)의 플롯 전체를 『시학』 제2권(희극론)의 사라진 사본을 둘러싼 연쇄 살인으로 짰고, 웃음을 금지하려는 수도원장과 그 책의 존재 자체를 소설의 중심에 놓았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica",
+      "src--eco-sulla-letteratura"
+    ]
+  },
+  {
+    "id": "contrast--aristotle--bertolt-brecht",
+    "sourceId": "aristotle",
+    "targetId": "bertolt-brecht",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.75,
+    "summary": "브레히트는 자기 서사극을 '비아리스토텔레스적 극작'이라 이름 붙이고 감정이입과 카타르시스를 겨냥해 소격효과를 세웠으며, 레이먼드 윌리엄스 이래 근대 연극사는 두 사람을 같은 문제의 반대항으로 나란히 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--williams-drama-ibsen-to-brecht",
+      "src--brecht-arbeitsjournal"
+    ]
+  },
+  {
+    "id": "influence--jonathan-swift--voltaire",
+    "sourceId": "jonathan-swift",
+    "targetId": "voltaire",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "볼테르는 영국 체류(1726–28) 중 『걸리버 여행기』를 읽었고, 『철학편지』(1734) 제22신에서 스위프트를 '분별을 갖춘 라블레'라 부르며 그의 산문을 프랑스 독자에게 소개했다. 척도를 바꿔 인간을 재는 『미크로메가스』(1752)의 장치가 그 독서와 함께 논의된다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--voltaire-lettres-philosophiques-1734",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--jonathan-swift--george-orwell",
+    "sourceId": "jonathan-swift",
+    "targetId": "george-orwell",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "오웰은 「정치 대 문학: 『걸리버 여행기』에 대한 검토」(Polemic, 1946)에서 스위프트의 정치적 태도를 비판하면서도, 모든 책이 사라질 때 남길 여섯 권 중 하나로 이 책을 꼽았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--orwell-politics-vs-literature-1946"
+    ]
+  },
+  {
+    "id": "contrast--jonathan-swift--daniel-defoe",
+    "sourceId": "jonathan-swift",
+    "targetId": "daniel-defoe",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "18세기 영국 산문 연구는 같은 시기 런던의 팸플릿 시장에서 활동한 두 사람을, 사실적 보고의 문체(디포)와 반어적 화자의 문체(스위프트)라는 대립항으로 반복해 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  {
+    "id": "dialogue--voltaire--jean-jacques-rousseau",
+    "sourceId": "voltaire",
+    "targetId": "jean-jacques-rousseau",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.9,
+    "summary": "볼테르는 『인간 불평등 기원론』을 받고 1755년 8월 30일 답장에서 사람을 짐승으로 만들려 이토록 재기를 쓴 적이 없다고 비꼬았고, 루소는 「섭리에 관하여 볼테르 씨에게 보내는 편지」(1756)로 리스본 지진 시편에 반박했다. 이후 제네바와 연극을 둘러싼 공개 논쟁으로 적대가 이어졌다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--rousseau-lettre-providence-1756",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "translation--voltaire--johann-wolfgang-von-goethe",
+    "sourceId": "voltaire",
+    "targetId": "johann-wolfgang-von-goethe",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "괴테는 실러의 권유로 볼테르의 비극 『마호메트』를 독일어로 옮겼고, 이 번역은 1800년 바이마르 궁정극장에서 상연되었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--goethe-mahomet-weimar-1800"
+    ]
+  },
+  {
+    "id": "influence--jean-jacques-rousseau--johann-wolfgang-von-goethe",
+    "sourceId": "jean-jacques-rousseau",
+    "targetId": "johann-wolfgang-von-goethe",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "독일 문학사 연구는 『쥘리, 또는 신엘로이즈』의 서간체와 감정 서술을 『젊은 베르테르의 슬픔』의 형식적 전제로 다루며, 1770년대 독일 감상주의(Empfindsamkeit)의 루소 수용을 그 배경으로 본다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions"
+    ]
+  },
+  {
+    "id": "influence--jean-jacques-rousseau--leo-tolstoy",
+    "sourceId": "jean-jacques-rousseau",
+    "targetId": "leo-tolstoy",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "톨스토이 연구는 그가 십대에 루소를 통독하고 루소의 초상 메달을 걸고 다녔다는 회고를 근거로, 『고백록』과 『유년시절』의 자기 서술, 『에밀』과 야스나야폴랴나 농민학교의 교육 실험을 잇는 계보를 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica",
+      "src--tolstoy-what-is-art"
+    ]
+  },
+  {
+    "id": "influence--william-shakespeare--johann-wolfgang-von-goethe",
+    "sourceId": "william-shakespeare",
+    "targetId": "johann-wolfgang-von-goethe",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "괴테는 1771년 연설 「셰익스피어 명명일에」에서 프랑스 고전극의 삼일치를 버리고 셰익스피어를 자기 세대의 척도로 선언했으며, 『빌헬름 마이스터의 수업시대』의 『햄릿』 해석 장들로 그 독서를 소설 안에 옮겼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--goethe-zum-shakespeares-tag-1771"
+    ]
+  },
+  {
+    "id": "influence--johann-wolfgang-von-goethe--thomas-mann",
+    "sourceId": "johann-wolfgang-von-goethe",
+    "targetId": "thomas-mann",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "토마스 만은 「괴테와 톨스토이」(1922), 「시민 시대의 대표자로서의 괴테」(1932) 등 일련의 강연·에세이에서 괴테를 자기 문학의 준거로 세웠고, 소설 『바이마르의 로테』(1939)에서 노년의 괴테를 직접 인물로 다루었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--mann-essays-reden"
+    ]
+  },
+  {
+    "id": "influence--johann-wolfgang-von-goethe--hermann-hesse",
+    "sourceId": "johann-wolfgang-von-goethe",
+    "targetId": "hermann-hesse",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "헤세는 에세이 「괴테에게 바치는 감사」(1932)에서 괴테를 평생의 독서 대상으로 밝혔고, 『황야의 이리』에는 주인공이 괴테를 만나는 꿈 장면이 들어 있다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hesse-dank-an-goethe-1932"
+    ]
+  },
+  {
+    "id": "influence--jane-austen--virginia-woolf",
+    "sourceId": "jane-austen",
+    "targetId": "virginia-woolf",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "울프는 『보통의 독자』(1925)에 실린 에세이 「제인 오스틴」에서 오스틴의 문장이 작은 장면 안에서 감정의 전모를 드러내는 방식을 분석했고, 공동 거실에서 원고를 감추며 쓴 조건을 여성 작가의 물질적 조건 논의로 이어갔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--woolf-common-reader-1925"
+    ]
+  },
+  {
+    "id": "influence--jane-austen--natsume-soseki",
+    "sourceId": "jane-austen",
+    "targetId": "natsume-soseki",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "소세키는 『문학론』(1907)에서 『오만과 편견』 도입부의 부부 대화를 인용하며 오스틴을 사실 묘사의 대가로 논했고, 이 분석을 자신의 소설 문체론의 근거로 삼았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ndl-bungakuron-1907"
+    ]
+  },
+  {
+    "id": "influence--charles-dickens--franz-kafka",
+    "sourceId": "charles-dickens",
+    "targetId": "franz-kafka",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "카프카는 1917년 10월 8일 일기에서 『데이비드 코퍼필드』를 읽고 자신의 「화부」와 미완 장편 『실종자』가 디킨스의 모방이라고 적으며, 어떤 점을 계승하고 어떤 점을 버렸는지 항목별로 나열했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kafka-tagebuch-1917-dickens"
+    ]
+  },
+  {
+    "id": "influence--charles-dickens--leo-tolstoy",
+    "sourceId": "charles-dickens",
+    "targetId": "leo-tolstoy",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "톨스토이는 『예술이란 무엇인가』(1898)에서 디킨스의 소설을 계급과 국경을 넘어 감정을 전달하는 보편적 예술의 예로 들었고, 평생 그를 애독 작가로 반복해 꼽았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--tolstoy-what-is-art"
+    ]
+  },
+  {
+    "id": "influence--charles-dickens--fyodor-dostoevsky",
+    "sourceId": "charles-dickens",
+    "targetId": "fyodor-dostoevsky",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "러시아 소설 연구는 도스토옙스키가 유형 이후 디킨스를 애독했다는 기록과, 미시킨 공작의 구상 참조로 피크윅을 든 서한을 근거로 『백치』와 『죄와 벌』의 도시 빈민 묘사를 디킨스 수용으로 다룬다. 1862년 런던 회견설은 위조로 밝혀졌으므로 근거에서 제외한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions"
+    ]
+  },
+  {
+    "id": "influence--plato--cicero",
+    "sourceId": "plato",
+    "targetId": "cicero",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "키케로는 『국가론』을 플라톤의 『국가』에 맞세우는 대화편으로 구상하고 본문에서 그 모델을 명시하며, 『법률론』도 플라톤의 『법률』 배치를 따라 이어 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  {
+    "id": "influence--aristotle--cicero",
+    "sourceId": "aristotle",
+    "targetId": "cicero",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.65,
+    "summary": "키케로는 『최고선악론』에서 페리파토스학파의 윤리설을 항목별로 검토하고 반박한다. 그의 수사학 저작이 아리스토텔레스 『수사학』의 분류를 라틴어로 옮겨 재배열했다는 것은 고전 수사학 연구의 표준 서술이다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--cicero--voltaire",
+    "sourceId": "cicero",
+    "targetId": "voltaire",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "볼테르는 비극 『구원받은 로마, 또는 카틸리나』(1752)에서 카틸리나 탄핵의 정황을 무대에 올리고 키케로를 주인공으로 세웠다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--voltaire-rome-sauvee-1752"
+    ]
+  },
+  {
+    "id": "influence--virgil--dante-alighieri",
+    "sourceId": "virgil",
+    "targetId": "dante-alighieri",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.95,
+    "summary": "단테는 『신곡』에서 베르길리우스를 지옥과 연옥의 안내자로 세우고, 「지옥」 제1곡에서 그를 '나의 스승이자 나의 저자'라 부른다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dante-inferno-i-maestro"
+    ]
+  },
+  {
+    "id": "influence--virgil--ts-eliot",
+    "sourceId": "virgil",
+    "targetId": "ts-eliot",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "엘리엇은 버질 협회 강연 「고전이란 무엇인가」(1944)에서 베르길리우스를 고전 개념 자체와 동일시했고 「베르길리우스와 기독교 세계」(1951)에서 그 논의를 이어갔다. 두 글 모두 『시와 시인론』(1957)에 실려 있다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--eliot-on-poetry-and-poets-1957"
+    ]
+  },
+  {
+    "id": "influence--virgil--ovid",
+    "sourceId": "virgil",
+    "targetId": "ovid",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.65,
+    "summary": "『변신 이야기』 13~14권은 아이네아스의 항해와 이탈리아 도착을 다시 서술해 라틴 문학 연구에서 '작은 아이네이스'로 불리며, 오비디우스가 선행 서사시의 장면을 비틀어 되받는 대목으로 다뤄진다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  {
+    "id": "influence--ovid--dante-alighieri",
+    "sourceId": "ovid",
+    "targetId": "dante-alighieri",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "단테는 「지옥」 제4곡의 림보에서 오비디우스를 호메로스·호라티우스·루카누스와 나란히 세우고, 제25곡에서 뱀과 사람이 뒤바뀌는 변신을 쓰면서 '오비디우스는 입을 다물라'며 자기 솜씨를 그와 견준다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dante-inferno-xxv-ovidio"
+    ]
+  },
+  {
+    "id": "influence--ovid--william-shakespeare",
+    "sourceId": "ovid",
+    "targetId": "william-shakespeare",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "『타이터스 앤드로니커스』 4막 1장에서는 『변신 이야기』 책이 실제 소품으로 무대에 올라 필로멜라 대목이 펼쳐지고, 프랜시스 미어스는 『팔라디스 타미아』(1598)에서 셰익스피어를 두고 '오비디우스의 달콤한 재치 있는 혼이 그에게 살아 있다'고 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--meres-palladis-tamia-1598"
+    ]
+  },
+  {
+    "id": "influence--ovid--johann-wolfgang-von-goethe",
+    "sourceId": "ovid",
+    "targetId": "johann-wolfgang-von-goethe",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "괴테의 『로마 비가』(1795)는 오비디우스와 프로페르티우스의 라틴 연애 비가 형식을 독일어 2행연구로 옮긴 시집이며, 독일 고전주의 연구는 이 시집을 로마 비가 수용의 사례로 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "dialogue--li-bai--du-fu",
+    "sourceId": "li-bai",
+    "targetId": "du-fu",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.9,
+    "summary": "두 사람은 744년 낙양에서 만나 한동안 함께 유람했고, 두보는 「이백에게 부침」·「봄날 이백을 생각하며」·「꿈에 이백을 보다」 두 수 등 여러 편을 이백에게 바쳤다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--du-fu-shipian-li-bai"
+    ]
+  },
+  {
+    "id": "influence--li-bai--matsuo-basho",
+    "sourceId": "li-bai",
+    "targetId": "matsuo-basho",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "『오쿠노 호소미치』의 서두 '세월은 백대의 나그네'는 이백 「춘야연도리원서」의 '光陰者百代之過客'을 그대로 옮겨 온 문장이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--oku-no-hosomichi-jobun"
+    ]
+  },
+  {
+    "id": "influence--du-fu--matsuo-basho",
+    "sourceId": "du-fu",
+    "targetId": "matsuo-basho",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "바쇼는 『오쿠노 호소미치』의 히라이즈미 대목에서 「춘망」의 '國破山河在 城春草木深'을 옮겨 적고, 그 폐허 위에서 자기 홋쿠를 이어 붙인다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--oku-no-hosomichi-hiraizumi"
+    ]
+  },
+  {
+    "id": "influence--murasaki-shikibu--yasunari-kawabata",
+    "sourceId": "murasaki-shikibu",
+    "targetId": "yasunari-kawabata",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "가와바타는 노벨문학상 수상 강연 「아름다운 일본의 나」(1968)에서 『겐지 이야기』를 일본 소설의 정점으로 지목하며 헤이안 산문의 감각을 자기 작업의 바탕으로 밝혔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kawabata-nobel-lecture"
+    ]
+  },
+  {
+    "id": "affinity--murasaki-shikibu--virginia-woolf",
+    "sourceId": "murasaki-shikibu",
+    "targetId": "virginia-woolf",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "울프는 1925년 『보그』에 아서 웨일리 영역본 『겐지 이야기』 제1권의 서평을 실어 이 작품을 유럽 소설사 안에서 논했고, 비교문학 연구는 두 사람의 내면 서술을 나란히 놓고 다루는 계보를 이어 왔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--woolf-tale-of-genji-vogue-1925"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--edouard-glissant",
+    "sourceId": "william-faulkner",
+    "targetId": "edouard-glissant",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "글리상은 단행본 『포크너, 미시시피』(1996)에서 요크나파토파의 은폐된 혈통 서술을 앙티유 플랜테이션의 계보 문제와 겹쳐 읽으며, 포크너를 자기 소설 방법의 참조점으로 명시한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--glissant-faulkner-mississippi"
+    ]
+  },
+  {
+    "id": "contrast--aime-cesaire--edouard-glissant",
+    "sourceId": "aime-cesaire",
+    "targetId": "edouard-glissant",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "글리상은 『앙티유 담론』(1981)에서 네그리튀드의 아프리카 회귀를 마르티니크의 현실과 어긋난 좌표로 보고 '앙티야니테'를 대안으로 세운다. 프랑스어권 카리브 사상사가 반복해 다루는 세대적 대립축이다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--glissant-discours-antillais-1981"
+    ]
+  },
+  {
+    "id": "influence--frantz-fanon--edouard-glissant",
+    "sourceId": "frantz-fanon",
+    "targetId": "edouard-glissant",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.65,
+    "summary": "카리브 사상사 연구는 파농의 식민적 소외 분석에서 글리상의 '강요된 시학'으로 이어지는 계보를 다룬다. 두 사람은 같은 마르티니크 세대에 속하며 글리상은 파농의 알제리행을 자기 텍스트에서 반복해 거론한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica",
+      "src--glissant-discours-antillais-1981"
+    ]
+  },
+  {
+    "id": "affinity--edouard-glissant--kamau-brathwaite",
+    "sourceId": "edouard-glissant",
+    "targetId": "kamau-brathwaite",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "크레올화를 이론화한 두 축 — 글리상의 créolisation과 브래스웨이트의 creolization(『자메이카 크레올 사회의 형성』, 1971) — 을 카리브 비교연구가 프랑스어권/영어권을 가로질러 나란히 놓고 읽는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--maryse-conde",
+    "sourceId": "william-faulkner",
+    "targetId": "maryse-conde",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "『맹그로브 횡단』(1989)이 한 구의 시신을 둘러싸고 마을 사람들의 독백을 돌려 세우는 구조를 포크너 『내가 죽어 누워 있을 때』의 다성 형식과 겹쳐 읽는 비교문학 연구가 반복돼 왔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "contrast--aime-cesaire--maryse-conde",
+    "sourceId": "aime-cesaire",
+    "targetId": "maryse-conde",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "네그리튀드가 상정한 아프리카 귀속을, 콩데는 실제 서아프리카 체류를 바탕으로 한 『세구』(1984)와 『나, 티투바』(1986)에서 낯섦과 배제의 경험으로 되받아 쓴다. 프랑스어권 카리브 비평이 세대적 대립항으로 다루는 관계다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "affinity--maryse-conde--toni-morrison",
+    "sourceId": "maryse-conde",
+    "targetId": "toni-morrison",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "노예제 기록에서 지워진 흑인 여성을 1인칭으로 복원하는 작업으로 『나, 티투바』(1986)와 모리슨 『빌러비드』(1987)를 나란히 읽는 흑인 페미니즘 비평의 계보가 있다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "mentorship--aime-cesaire--frantz-fanon",
+    "sourceId": "aime-cesaire",
+    "targetId": "frantz-fanon",
+    "type": "mentorship",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "파농은 포르드프랑스의 리세 셸셰르에서 세제르에게 배웠고, 『검은 피부, 하얀 가면』(1952)은 『귀향 수첩』의 구절을 거듭 인용하며 스승의 네그리튀드를 검증한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fanon-peau-noire-1952",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "dialogue--frantz-fanon--jean-paul-sartre",
+    "sourceId": "frantz-fanon",
+    "targetId": "jean-paul-sartre",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.85,
+    "summary": "사르트르는 『대지의 저주받은 사람들』(1961)의 서문을 썼고, 두 사람은 그해 로마에서 만나 밤을 새우며 논쟁했다 — 보부아르가 『사물의 힘』에 그 만남을 기록했다. 파농은 그 이전 『검은 피부, 하얀 가면』에서 사르트르의 「검은 오르페우스」를 정면으로 반박한 바 있다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fanon-damnes-preface-sartre-1961",
+      "src--beauvoir-force-des-choses"
+    ]
+  },
+  {
+    "id": "influence--frantz-fanon--ngugi-wa-thiongo",
+    "sourceId": "frantz-fanon",
+    "targetId": "ngugi-wa-thiongo",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "응구기는 에세이집 『귀향』(1972)에서 파농의 '민족의식의 함정'을 독립 이후 동아프리카의 계급 분화를 읽는 틀로 삼고, 이후 소설의 정치적 구도를 여기서 끌어온다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ngugi-homecoming-1972"
+    ]
+  },
+  {
+    "id": "influence--joseph-conrad--vs-naipaul",
+    "sourceId": "joseph-conrad",
+    "targetId": "vs-naipaul",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "나이폴은 에세이 「콘래드의 어둠」(1974)에서 콘래드를 자신이 쓰려는 변방의 세계를 이미 다룬 작가로 꼽았고, 『굽이치는 강』(1979)은 『암흑의 핵심』의 강 거슬러 오르기를 독립 직후 아프리카로 옮겨 다시 쓴다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--naipaul-conrads-darkness-1974"
+    ]
+  },
+  {
+    "id": "influence--rk-narayan--vs-naipaul",
+    "sourceId": "rk-narayan",
+    "targetId": "vs-naipaul",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "나이폴은 『인도: 상처받은 문명』(1977)에서 나라얀의 『미스터 샘파스』를 여러 쪽에 걸쳐 읽으며, 그 소설의 체념을 인도 사회 진단의 출발점으로 삼는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--naipaul-india-wounded-civilization-1977"
+    ]
+  },
+  {
+    "id": "contrast--derek-walcott--vs-naipaul",
+    "sourceId": "derek-walcott",
+    "targetId": "vs-naipaul",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "월컷은 에세이 「The Garden Path」(『황혼이 하는 말』 수록)에서 나이폴의 카리브 진단을 정면으로 반박했다. 카리브 문학사는 두 사람을 '결여로 보는 눈'과 '창조로 보는 눈'의 대립항으로 세워 읽는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--walcott-what-the-twilight-says-garden-path"
+    ]
+  },
+  {
+    "id": "influence--herman-melville--clr-james",
+    "sourceId": "herman-melville",
+    "targetId": "clr-james",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "제임스는 단행본 『선원, 배신자, 표류자』(1953)를 통째로 『모비 딕』에 바쳤고, 엘리스섬 억류 중에 쓴 이 책에서 피쿼드호 선원 집단을 자기 정치 분석의 모형으로 삼는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--james-mariners-renegades-1953"
+    ]
+  },
+  {
+    "id": "influence--aime-cesaire--clr-james",
+    "sourceId": "aime-cesaire",
+    "targetId": "clr-james",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "제임스는 『블랙 자코뱅』 1963년 개정판 부록 「투생 루베르튀르에서 피델 카스트로까지」에서 세제르의 『귀향 수첩』을 인용하며, 카리브의 자기 규정 문제를 아이티 혁명의 연장선에 놓는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--james-black-jacobins-appendix-1963"
+    ]
+  },
+  {
+    "id": "contrast--clr-james--vs-naipaul",
+    "sourceId": "clr-james",
+    "targetId": "vs-naipaul",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "카리브 문학사는 같은 트리니다드 출신의 두 산문가를 맞세워 읽는다 — 제임스는 식민지 사회에서 자기 조직의 역량을 읽고, 나이폴은 같은 사회에서 모방과 결여를 읽는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--ts-eliot--kamau-brathwaite",
+    "sourceId": "ts-eliot",
+    "targetId": "kamau-brathwaite",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "브래스웨이트는 『목소리의 역사』(1984)에서 엘리엇의 낭독 음반이 서인도제도 시인들에게 준 충격 — 웅변조가 아니라 말하는 목소리의 지친 어조 — 을 네이션 랭귀지의 전사(前史)로 명시한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--brathwaite-history-of-the-voice-1984"
+    ]
+  },
+  {
+    "id": "contrast--kamau-brathwaite--derek-walcott",
+    "sourceId": "kamau-brathwaite",
+    "targetId": "derek-walcott",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "영어권 카리브 시학의 표준 대립축. 브래스웨이트는 아프리카 구어의 박자를 척도로 삼고, 월컷은 「역사의 뮤즈」(1974)에서 아프리카로의 소급과 복수의 역사관을 거부하며 크레올 영어의 종합을 택한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--walcott-muse-of-history",
+      "src--brathwaite-history-of-the-voice-1984"
+    ]
+  },
+  {
+    "id": "affinity--kamau-brathwaite--ngugi-wa-thiongo",
+    "sourceId": "kamau-brathwaite",
+    "targetId": "ngugi-wa-thiongo",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "탈식민 언어 논쟁 연구는 응구기의 『정신의 탈식민화』(1986)와 브래스웨이트의 네이션 랭귀지를 같은 문제 — 식민자의 언어로 쓰는 대가 — 에 대한 두 갈래 해법으로 나란히 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--ngugi-decolonising-the-mind"
+    ]
+  },
+  {
+    "id": "influence--matsuo-basho--ryunosuke-akutagawa",
+    "sourceId": "matsuo-basho",
+    "targetId": "ryunosuke-akutagawa",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "아쿠타가와는 연작 비평 「芭蕉雑記」(1923–24)에서 바쇼의 발구를 한 편씩 읽었고, 단편 「고야쇼(枯野抄)」(1918)에서는 바쇼의 임종 자리에 모인 제자들을 소설로 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--akutagawa-basho-zakki"
+    ]
+  },
+  {
+    "id": "influence--dante-alighieri--ts-eliot",
+    "sourceId": "dante-alighieri",
+    "targetId": "ts-eliot",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "엘리엇은 『선집』(1932)에 실린 장문의 에세이 「단테」에서 『신곡』을 시의 시각적 명료함의 척도로 삼고, 자기 시의 노선을 그 기준 위에서 설명했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--eliot-selected-essays-1932"
+    ]
+  },
+  {
+    "id": "influence--dante-alighieri--jorge-luis-borges",
+    "sourceId": "dante-alighieri",
+    "targetId": "jorge-luis-borges",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "보르헤스는 『아홉 편의 단테 에세이』(1982)에서 우골리노와 율리시스 등 개별 장면을 거듭 읽고, 통근 전차에서 『신곡』을 한 곡씩 읽던 자신의 독서를 서문에 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--borges-nueve-ensayos-dantescos"
+    ]
+  },
+  {
+    "id": "influence--gustave-flaubert--mario-vargas-llosa",
+    "sourceId": "gustave-flaubert",
+    "targetId": "mario-vargas-llosa",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "바르가스 요사는 『영원한 향연: 플로베르와 「보바리 부인」』(1975) 한 권을 플로베르에게 바치며, 자기 소설의 문장 통제와 시점 규율을 그로부터 배웠다고 본문에서 밝혔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--vargas-llosa-orgia-perpetua-1975"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--mario-vargas-llosa",
+    "sourceId": "william-faulkner",
+    "targetId": "mario-vargas-llosa",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "『파리 리뷰』 인터뷰(The Art of Fiction No. 120, 1990)에서 포크너를 연필과 종이를 들고 읽은 소설가로 꼽으며, 시점 분할과 시간 재배열의 기법을 그에게서 익혔다고 말했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--paris-review"
+    ]
+  },
+  {
+    "id": "dialogue--gabriel-garcia-marquez--mario-vargas-llosa",
+    "sourceId": "gabriel-garcia-marquez",
+    "targetId": "mario-vargas-llosa",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.85,
+    "summary": "바르가스 요사는 박사 논문을 단행본으로 낸 『가르시아 마르케스: 어느 신 살해자의 역사』(1971)로 그의 전작을 다뤘고, 두 사람은 붐 세대의 중심 교우였다가 1976년 멕시코시티에서 결별했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--vargas-llosa-historia-de-un-deicidio-1971"
+    ]
+  },
+  {
+    "id": "influence--jean-paul-sartre--mario-vargas-llosa",
+    "sourceId": "jean-paul-sartre",
+    "targetId": "mario-vargas-llosa",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "『사르트르와 카뮈 사이』(1981)에서 자신의 초기 문학관이 사르트르의 참여문학론 위에 세워졌음을 서술하고, 그로부터 멀어진 경위를 밝혔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--vargas-llosa-entre-sartre-y-camus-1981"
+    ]
+  },
+  {
+    "id": "influence--miguel-de-cervantes--gustave-flaubert",
+    "sourceId": "miguel-de-cervantes",
+    "targetId": "gustave-flaubert",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "플로베르는 루이즈 콜레에게 보낸 서한에서 글을 읽을 줄 알기 전부터 외우고 있던 책으로 『돈키호테』를 꼽으며 자기 기원을 그 책에서 찾는다고 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--flaubert-correspondance"
+    ]
+  },
+  {
+    "id": "influence--miguel-de-cervantes--fyodor-dostoevsky",
+    "sourceId": "miguel-de-cervantes",
+    "targetId": "fyodor-dostoevsky",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "도스토옙스키는 『작가의 일기』에서 『돈키호테』를 인간이 만든 가장 슬픈 책으로 꼽으며, 선한 인물이 세상에서 우스워지는 문제를 자기 소설의 과제로 옮겨 놓았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dostoevsky-writers-diary"
+    ]
+  },
+  {
+    "id": "influence--miguel-de-cervantes--jorge-luis-borges",
+    "sourceId": "miguel-de-cervantes",
+    "targetId": "jorge-luis-borges",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "보르헤스는 「피에르 메나르, 『돈키호테』의 저자」(『수르』 56호, 1939)에서 같은 문장을 다른 시대에 다시 쓴다는 설정으로 세르반테스 본문을 자기 소설의 재료로 삼았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--borges-pierre-menard-1939"
+    ]
+  },
+  {
+    "id": "influence--miguel-de-cervantes--milan-kundera",
+    "sourceId": "miguel-de-cervantes",
+    "targetId": "milan-kundera",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "쿤데라는 『소설의 기술』(1986) 첫 장에서 유럽 소설의 역사를 '평가절하된 세르반테스의 유산'으로 규정하고, 자기 소설관 전체를 그 계보 위에 세운다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kundera-art-du-roman"
+    ]
+  },
+  {
+    "id": "influence--william-shakespeare--herman-melville",
+    "sourceId": "william-shakespeare",
+    "targetId": "herman-melville",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "멜빌은 「호손과 그의 이끼」(1850)에서 셰익스피어를 미국 작가가 겨뤄야 할 척도로 세웠고, 같은 시기 『모비 딕』에 무대 지시문과 독백 장면을 그대로 들여 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--melville-hawthorne-and-his-mosses-1850"
+    ]
+  },
+  {
+    "id": "influence--william-shakespeare--ts-eliot",
+    "sourceId": "william-shakespeare",
+    "targetId": "ts-eliot",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "엘리엇은 『선집』(1932)에 수록된 「햄릿」에서 이 작품을 예술적 실패로 규정하며 '객관적 상관물' 개념을 제시했고, 그 개념이 그의 시론 전체의 축이 되었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--eliot-selected-essays-1932"
+    ]
+  },
+  {
+    "id": "contrast--william-shakespeare--aime-cesaire",
+    "sourceId": "william-shakespeare",
+    "targetId": "aime-cesaire",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "세제르는 『어떤 태풍』(1969)에서 『템페스트』를 캘리번을 흑인 노예로, 에어리얼을 혼혈 노예로 바꿔 다시 썼고, 탈식민 비평은 이 되받아 쓰기를 카리브 문학의 대표 사례로 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--cesaire-une-tempete-1969"
+    ]
+  },
+  {
+    "id": "translation--edgar-allan-poe--charles-baudelaire",
+    "sourceId": "edgar-allan-poe",
+    "targetId": "charles-baudelaire",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.95,
+    "summary": "보들레르는 『기이한 이야기들』(1856)과 『새로운 기이한 이야기들』(1857)로 포를 프랑스어로 옮기고 「에드거 포, 그의 생애와 작품」을 서문으로 붙여, 프랑스어권에서 포가 읽히는 방식을 결정했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--baudelaire-histoires-extraordinaires-1856"
+    ]
+  },
+  {
+    "id": "influence--edgar-allan-poe--arthur-conan-doyle",
+    "sourceId": "edgar-allan-poe",
+    "targetId": "arthur-conan-doyle",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "코넌 도일은 『마법의 문을 지나』(1907)에서 포를 단편의 스승으로 꼽았고, 『주홍색 연구』(1887)에서는 홈스가 뒤팽을 깎아내리게 함으로써 자신이 무엇을 이어받았는지 본문에 새겼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--doyle-through-the-magic-door-1907"
+    ]
+  },
+  {
+    "id": "influence--edgar-allan-poe--fyodor-dostoevsky",
+    "sourceId": "edgar-allan-poe",
+    "targetId": "fyodor-dostoevsky",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "도스토옙스키는 자신이 낸 잡지 『시대』(1861)에 포의 단편 세 편을 싣고 직접 서문을 붙여, 환상이 아니라 세부의 정확성으로 밀고 가는 포의 방법을 짚었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--dostoevsky-vremya-poe-preface-1861"
+    ]
+  },
+  {
+    "id": "influence--edgar-allan-poe--jorge-luis-borges",
+    "sourceId": "edgar-allan-poe",
+    "targetId": "jorge-luis-borges",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "보르헤스는 강연 「추리 이야기」(1978, 『보르헤스 구술』 수록)에서 추리 장르의 계보를 포의 뒤팽 이야기에서부터 정리하고, 그 장르가 만들어 낸 독자를 자기 소설의 전제로 삼았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--borges-el-cuento-policial-1978"
+    ]
+  },
+  {
+    "id": "translation--john-steinbeck--chairil-anwar",
+    "sourceId": "john-steinbeck",
+    "targetId": "chairil-anwar",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "차이릴 안와르는 스타인벡의 『달은 지다』를 인도네시아어 『Kena Gempur』로 옮겼다(사후 1951년 간행). H. B. 자신의 『Chairil Anwar: Pelopor Angkatan 45』가 그의 번역 목록에 이 작품을 올려 놓았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--jassin-chairil-anwar-pelopor"
+    ]
+  },
+  {
+    "id": "translation--ernest-hemingway--chairil-anwar",
+    "sourceId": "ernest-hemingway",
+    "targetId": "chairil-anwar",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "차이릴 안와르는 헤밍웨이의 단편 「깨끗하고 불빛 환한 곳」을 「Tempat yang Bersih dan Lampunya Terang」으로 옮겼다 — 같은 번역 목록에 함께 실린 항목이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--jassin-chairil-anwar-pelopor"
+    ]
+  },
+  {
+    "id": "influence--rainer-maria-rilke--chairil-anwar",
+    "sourceId": "rainer-maria-rilke",
+    "targetId": "chairil-anwar",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "인도네시아 문학 연구는 차이릴이 네덜란드어 판으로 읽은 릴케를 그의 시행 단축과 죽음 모티프의 배경으로 반복해서 다룬다. H. B. 자신의 연구와 A. Teeuw의 『Modern Indonesian Literature』가 그 계보를 기술한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--jassin-chairil-anwar-pelopor",
+      "src--teeuw-modern-indonesian-literature"
+    ]
+  },
+  {
+    "id": "affinity--pramoedya-ananta-toer--chairil-anwar",
+    "sourceId": "pramoedya-ananta-toer",
+    "targetId": "chairil-anwar",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "인도네시아 문학사는 '45년 세대'(Angkatan 45)를 차이릴의 시와 프라무디아의 산문 두 축으로 서술한다. A. Teeuw의 『Modern Indonesian Literature』가 세운 시대 구분이 그 표준이다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--teeuw-modern-indonesian-literature"
+    ]
+  },
+  {
+    "id": "affinity--pramoedya-ananta-toer--ngugi-wa-thiongo",
+    "sourceId": "pramoedya-ananta-toer",
+    "targetId": "ngugi-wa-thiongo",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "탈식민 문학 연구는 '수감 중에 만들어진 민족 서사'라는 항목으로 부루섬의 4부작과 카미티 감옥의 응구기를 함께 다룬다. 두 사람 사이의 접촉 기록이 아니라 연구 전통이 만든 묶음이다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "affinity--sunthorn-phu--francisco-balagtas",
+    "sourceId": "sunthorn-phu",
+    "targetId": "francisco-balagtas",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.45,
+    "summary": "동남아시아 문학사 서술은 19세기 전반의 토착어 장편 운문 로망스 — 시암의 klon 서사시와 필리핀의 awit — 를 같은 유형으로 다룬다. 『The Cambridge History of Southeast Asia』의 문학 서술이 그 틀이며, 두 사람 사이의 접촉 기록에 근거한 관계가 아니다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--cambridge-history-southeast-asia"
+    ]
+  },
+  {
+    "id": "contrast--francisco-balagtas--nick-joaquin",
+    "sourceId": "francisco-balagtas",
+    "targetId": "nick-joaquin",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "필리핀 문학 연구는 '국민문학의 언어와 유산' 문제를 두 기준점으로 서술한다 — 타갈로그 운문 전통의 정점인 발라그타스와, 영어로 쓰면서 스페인 식민기 3세기를 필리핀이 만들어진 과정으로 옹호한 호아킨(『Culture and History』, 1988). 부엔베니도 룸베라의 타갈로그 시 연구가 전자의 계보를 정리한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--lumbera-tagalog-poetry",
+      "src--joaquin-culture-and-history"
+    ]
+  },
+  {
+    "id": "influence--james-joyce--nick-joaquin",
+    "sourceId": "james-joyce",
+    "targetId": "nick-joaquin",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.55,
+    "summary": "희곡 『필리피노로서의 예술가의 초상』(1950)은 제목에서 조이스의 『젊은 예술가의 초상』을 그대로 인용한다. 필리핀 문학 연구는 이 인용을 식민 도시의 예술가상을 조이스의 더블린 위에 겹쳐 읽게 하는 장치로 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--daniel-defoe--jm-coetzee",
+    "sourceId": "daniel-defoe",
+    "targetId": "jm-coetzee",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "쿳시는 노벨문학상 수상 강연 「그와 그의 사람」(He and His Man, 2003)을 로빈슨 크루소와 디포의 관계에 대한 허구로 썼고, 그에 앞서 장편 『포』(Foe, 1986)에서 크루소 이야기를 다시 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nobelprize"
+    ]
+  },
+  {
+    "id": "influence--daniel-defoe--virginia-woolf",
+    "sourceId": "daniel-defoe",
+    "targetId": "virginia-woolf",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "울프는 『보통 독자』(1925)에 실은 에세이 「디포」에서 『몰 플랜더스』와 『록사나』를 영국 소설의 위대한 작품으로 꼽고, 디포의 사실 축적을 소설의 관점 문제로 논했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--woolf-common-reader-1925"
+    ]
+  },
+  {
+    "id": "contrast--henry-lawson--patrick-white",
+    "sourceId": "henry-lawson",
+    "targetId": "patrick-white",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "화이트는 에세이 「탕자」(Australian Letters, 1958)에서 오스트레일리아 소설이 저널리즘적 사실주의의 산물이 아님을 증명하려 했다고 썼고, 오스트레일리아 문학사 서술은 그가 겨눈 그 부시 사실주의 전통의 중심에 로슨의 단편을 놓는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--white-prodigal-son-1958",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--james-joyce--patrick-white",
+    "sourceId": "james-joyce",
+    "targetId": "patrick-white",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "화이트 연구와 데이비드 마의 전기 『패트릭 화이트: 한 생애』(1991)는 그의 의식의 흐름 서술과 신화적 구성을 조이스 모더니즘 수용의 결과로 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--marr-patrick-white-a-life",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "affinity--katherine-mansfield--janet-frame",
+    "sourceId": "katherine-mansfield",
+    "targetId": "janet-frame",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "뉴질랜드 문학사 서술은 맨스필드와 프레임을 지방 소도시의 폐쇄와 아이의 의식을 산문의 문제로 삼은 두 축으로 나란히 놓고, 프레임의 첫 단편집 『석호』(1951)를 맨스필드 이후의 뉴질랜드 단편 계보 안에서 읽어 왔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--te-ara-nz",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "contrast--ngugi-wa-thiongo--albert-wendt",
+    "sourceId": "ngugi-wa-thiongo",
+    "targetId": "albert-wendt",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "응구기는 『정신의 탈식민지화』(1986)에서 영어 집필을 그만두고 기쿠유어로 돌아섰고, 웬트는 「새로운 오세아니아를 향하여」(Mana Review, 1976)에서 영어를 태평양의 어법으로 고쳐 쓰는 쪽을 택했다. 탈식민 문학 연구는 두 선택을 같은 언어 문제의 반대항으로 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--ngugi-decolonising-the-mind",
+      "src--wendt-towards-a-new-oceania-1976"
+    ]
+  },
+  {
+    "id": "affinity--chinua-achebe--albert-wendt",
+    "sourceId": "chinua-achebe",
+    "targetId": "albert-wendt",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "탈식민 문학 연구는 아체베의 이보 마을 서사와 웬트의 사모아 서사를, 지배자의 언어로 쓰되 토착 사회의 친족·서열 구조를 서사의 단위로 삼은 같은 문제의 두 사례로 나란히 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--wendt-towards-a-new-oceania-1976",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--du-fu--nguyen-trai",
+    "sourceId": "du-fu",
+    "targetId": "nguyen-trai",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.5,
+    "summary": "대월의 과거 시험이 당시(唐詩)를 규범 텍스트로 삼았고 『억재시집』의 율시는 그 규범 안에서 쓰였다. 동아시아 한문학 연구는 그 규범의 중심에 두보의 우국(憂國) 율시를 놓는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica",
+      "src--nom-foundation-quoc-am-tu-dien"
+    ]
+  },
+  {
+    "id": "affinity--lu-xun--nam-cao",
+    "sourceId": "lu-xun",
+    "targetId": "nam-cao",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "베트남·중국 비교문학 연구는 「찌 페오」의 마을 밖으로 밀려난 인간과 루쉰 「아Q정전」의 아Q를, 촌락의 위계가 사람을 어떻게 형해화하는가라는 같은 문제의 두 판본으로 나란히 읽어 왔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--lu-xun-quanji",
+      "src--chi-pheo-doi-moi-1941"
+    ]
+  },
+  {
+    "id": "affinity--ernest-hemingway--bao-ninh",
+    "sourceId": "ernest-hemingway",
+    "targetId": "bao-ninh",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "영어권 전쟁문학 비평은 1994년 영역본 이후 『전쟁의 슬픔』을, 전투가 끝난 뒤에도 서술이 전장으로 되돌아가는 귀환병 소설 계열 — 헤밍웨이의 「병사의 집」과 레마르크의 계보 — 안에서 읽어 왔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--sorrow-of-war-palmos-1993"
+    ]
+  },
+  {
+    "id": "influence--arthur-conan-doyle--agatha-christie",
+    "sourceId": "arthur-conan-doyle",
+    "targetId": "agatha-christie",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "크리스티는 『자서전』(1977)에서 초기작을 두고 '여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰(잽 경감)'이라고 적었다. 화자 헤이스팅스가 왓슨의 자리에 놓인 것도 이 계보에서 나왔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--christie-an-autobiography"
+    ]
+  },
+  {
+    "id": "influence--edgar-allan-poe--agatha-christie",
+    "sourceId": "edgar-allan-poe",
+    "targetId": "agatha-christie",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "줄리언 시먼스의 『Bloody Murder』(1972) 같은 표준 장르사는 포의 뒤팽 3부작이 만든 배치 — 괴짜 탐정, 범속한 화자, 봉인된 문제 — 가 황금기 크리스티에서 완성형에 이르렀다고 반복해 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--symons-bloody-murder"
+    ]
+  },
+  {
+    "id": "influence--jrr-tolkien--ursula-k-le-guin",
+    "sourceId": "jrr-tolkien",
+    "targetId": "ursula-k-le-guin",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "르 귄은 강연 「엘프랜드에서 포킵시로」(1973, 『밤의 언어』 수록)에서 톨킨의 문체를 판타지 산문의 기준으로 놓고 분석하며, 아무 목소리도 없던 세계에서 말하는 작가의 '무서운 책임'을 그에게서 끌어냈다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--le-guin-language-of-the-night"
+    ]
+  },
+  {
+    "id": "contrast--jrr-tolkien--umberto-eco",
+    "sourceId": "jrr-tolkien",
+    "targetId": "umberto-eco",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "중세주의(medievalism) 연구는 두 사람을 같은 목록에 놓고 대비한다. 톨킨은 중세의 재료로 완결된 이차 세계를 지어 그 안에서 믿게 만들고, 에코는 「중세를 꿈꾸며」(『하이퍼리얼리티 여행』)에서 되살아난 중세를 열 가지 유형으로 분류해 그 되살림 자체를 분석 대상으로 돌린다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--eco-dreaming-of-the-middle-ages"
+    ]
+  },
+  {
+    "id": "influence--charles-dickens--roald-dahl",
+    "sourceId": "charles-dickens",
+    "targetId": "roald-dahl",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "디킨스는 달이 어린 시절 애독한 작가로 평전(도널드 스터록 『Storyteller』, 2010)에 기록돼 있고, 『마틸다』(1988)는 주인공이 도서관에서 읽는 책으로 『위대한 유산』과 『니콜라스 니클비』를 명시한다. 학대받는 아이와 희화화된 악인이라는 디킨스적 배치를 달의 아동물이 되풀이한다는 독법은 아동문학 연구에서 표준적이다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--sturrock-storyteller-roald-dahl"
+    ]
+  },
+  {
+    "id": "dialogue--jean-paul-sartre--simone-de-beauvoir",
+    "sourceId": "jean-paul-sartre",
+    "targetId": "simone-de-beauvoir",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.9,
+    "summary": "1929년 이후 평생의 지적 동반 관계로, 보부아르는 『상황의 힘』에서 서로의 원고를 먼저 읽고 고치는 일상을 기록했고, 두 사람은 1945년 잡지 『레 탕 모데른』을 함께 만들었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--beauvoir-force-des-choses"
+    ]
+  },
+  {
+    "id": "dialogue--jean-paul-sartre--albert-camus",
+    "sourceId": "jean-paul-sartre",
+    "targetId": "albert-camus",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.85,
+    "summary": "사르트르는 「『이방인』 해설」(1943)로 카뮈를 읽어냈고, 1952년 『레 탕 모데른』 지면에서 『반항하는 인간』(1951)을 둘러싼 공개 논쟁 끝에 절교했다. 전후 프랑스 지식인의 분기점으로 남은 교류다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--sartre-explication-etranger-1943",
+      "src--camus-homme-revolte-1951"
+    ]
+  },
+  {
+    "id": "contrast--jean-paul-sartre--gustave-flaubert",
+    "sourceId": "jean-paul-sartre",
+    "targetId": "gustave-flaubert",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "『문학이란 무엇인가』(1947)에서 사르트르는 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 '막기 위해 한 줄도 쓰지 않았다'고 썼고, 뒤에 『집안의 백치』(1971–72) 세 권을 그 플로베르 한 사람에게 바쳤다. 예술을 위해 물러난 작가와 참여하는 작가라는 두 상은 사르트르 연구가 한 쌍으로 다루는 대립항이다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--sartre-quest-ce-que-la-litterature",
+      "src--sartre-idiot-de-la-famille"
+    ]
+  },
+  {
+    "id": "influence--antoine-de-saint-exupery--jean-paul-sartre",
+    "sourceId": "antoine-de-saint-exupery",
+    "targetId": "jean-paul-sartre",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "사르트르는 『문학이란 무엇인가』(1947)에서 '그의 뒤에, 헤밍웨이의 뒤에 우리가 어떻게 묘사를 생각할 수 있겠는가'라고 쓰며 생텍쥐페리를 사물을 행위 속에 담그는 서술의 이름으로 지목했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--sartre-quest-ce-que-la-litterature"
+    ]
+  },
+  {
+    "id": "influence--friedrich-nietzsche--antoine-de-saint-exupery",
+    "sourceId": "friedrich-nietzsche",
+    "targetId": "antoine-de-saint-exupery",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "생텍쥐페리는 1926년 11월 편지에 '니체를 옆구리에 끼고 다닌다, 이 사람을 한없이 사랑한다'고 적었다. 올리비에 오데르의 『Saint-Exupéry écrivain』(2018)은 『남방 우편기』와 『성채』의 가치·고귀함 어법을 그 독서와 연결해 다룬다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--odaert-saint-exupery-ecrivain"
+    ]
+  },
+  {
+    "id": "dialogue--hermann-hesse--thomas-mann",
+    "sourceId": "hermann-hesse",
+    "targetId": "thomas-mann",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.85,
+    "summary": "두 사람은 수십 년에 걸쳐 편지를 주고받았고(『헤르만 헤세–토마스 만 서간집』, 주어캄프 1968), 나치 집권 이후에는 서로의 원고와 정치적 판단을 교환하며 독일 바깥에서 독일어 문학의 자리를 함께 지켰다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hesse-mann-briefwechsel"
+    ]
+  },
+  {
+    "id": "influence--friedrich-nietzsche--hermann-hesse",
+    "sourceId": "friedrich-nietzsche",
+    "targetId": "hermann-hesse",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "헤세는 1919년 「차라투스트라의 귀환 — 독일 청년에게 보내는 말」을 익명으로 발표해 니체의 화자를 빌려 전후 독일에 말했다. 같은 해 『데미안』의 아프락사스와 '알을 깨고 나오는' 성장 도식도 헤세 연구가 이 독서와 함께 다루는 대목이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hesse-zarathustras-wiederkehr-1919"
+    ]
+  },
+  {
+    "id": "affinity--magtymguly-pyragy--abai-qunanbaiuly",
+    "sourceId": "magtymguly-pyragy",
+    "targetId": "abai-qunanbaiuly",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "두 사람 사이의 접촉 기록은 없다. 다만 투르크어권 문학사 서술은 부족의 구어를 문학어의 기준으로 세운 시인의 계열로 마흐툼쿨리와 아바이를 반복해 나란히 놓아 왔고, 각 공화국에서 '고전'의 자리가 이 틀 위에서 정리되었다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--unesco-history-civilizations-central-asia"
+    ]
+  },
+  {
+    "id": "influence--johann-wolfgang-von-goethe--mihai-eminescu",
+    "sourceId": "johann-wolfgang-von-goethe",
+    "targetId": "mihai-eminescu",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.55,
+    "summary": "빈(1869–72)과 베를린(1872–74)에서 철학을 수강하며 독일어 원전으로 읽은 이력을 근거로, 마이오레스쿠의 1889년 비평 이후 투도르 비아누로 이어지는 루마니아 비교문학 연구는 에미네스쿠의 시 세계를 괴테를 포함한 독일 낭만주의·이상주의 수용의 자장 안에서 반복해 서술한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--maiorescu-eminescu-si-poeziile-lui-1889",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "translation--william-shakespeare--sandor-petofi",
+    "sourceId": "william-shakespeare",
+    "targetId": "sandor-petofi",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "페퇴피는 1848년 셰익스피어 『코리올라누스』를 헝가리어로 옮겨 출판했다. 어러니 야노시·뵈뢰슈머르티 미하이와 셋이 계획한 셰익스피어 헝가리어 전집의 첫 결과물이며, 그의 극시 어휘가 어디에서 왔는지를 보여 주는 1차 근거다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--petofi-coriolanus-1848"
+    ]
+  },
+  {
+    "id": "influence--sandor-petofi--lu-xun",
+    "sourceId": "sandor-petofi",
+    "targetId": "lu-xun",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "루쉰은 『허난(河南)』에 실은 「마라시력설(摩羅詩力說)」(1908)에서 바이런·셸리·푸시킨과 나란히 페퇴피를 '마라파' 시인으로 논했고, 이후 그의 시를 중국어로 옮겼다. 「망각을 위한 기념」(1933)에는 페퇴피 시집을 젊은 작가에게 건넨 일이 적혀 있다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--lu-xun-henan-essays-1907-08"
+    ]
+  },
+  {
+    "id": "translation--friedrich-nietzsche--imre-kertesz",
+    "sourceId": "friedrich-nietzsche",
+    "targetId": "imre-kertesz",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "케르테스는 오랫동안 독일어 문학·철학의 헝가리어 번역으로 생계를 꾸렸고 니체는 그가 옮긴 대표적 저자다. 노벨 재단의 전기·저작 기록이 그의 번역 목록에 니체를 올려 두었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nobelprize"
+    ]
+  },
+  {
+    "id": "translation--elias-canetti--imre-kertesz",
+    "sourceId": "elias-canetti",
+    "targetId": "imre-kertesz",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "같은 번역 이력의 일부로 케르테스는 카네티를 헝가리어로 옮겼다. 노벨 재단의 전기·저작 기록이 호프만스탈·슈니츨러·프로이트·비트겐슈타인과 함께 카네티를 그의 번역 목록에 올려 두었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nobelprize"
+    ]
+  },
+  {
+    "id": "affinity--imre-kertesz--albert-camus",
+    "sourceId": "imre-kertesz",
+    "targetId": "albert-camus",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "케르테스 연구는 『운명』의 화자가 자기 처지에 대한 도덕적 판단을 끝까지 유예하는 서술 태도를 카뮈 『이방인』의 뫼르소와 나란히 놓고 반복해 다뤄 왔다. 두 소설의 관계는 영향의 기록이 아니라 서술 태도의 비교로 논의된다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "contrast--taras-shevchenko--alexander-pushkin",
+    "sourceId": "taras-shevchenko",
+    "targetId": "alexander-pushkin",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "제국의 변경을 노래하는 두 시선이 마주 놓인다. 미로슬라우 슈칸드리의 『러시아와 우크라이나: 문학과 제국의 담론』(2001) 이후의 탈식민 연구는 셰우첸코의 「캅카스」(1845)를 푸시킨 계열의 캅카스 시편이 세운 정복의 낭만과 정면으로 반대되는 항으로 읽는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--shkandrij-russia-and-ukraine"
+    ]
+  },
+  {
+    "id": "affinity--taras-shevchenko--sandor-petofi",
+    "sourceId": "taras-shevchenko",
+    "targetId": "sandor-petofi",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "1840년대 중동유럽의 '국민 시인' 형성을 다루는 비교문학 연구는 농노 출신의 셰우첸코와 농민 출신의 페퇴피를 같은 국면의 두 사례로 반복해 함께 서술한다. 둘 사이의 직접 접촉이나 독서 기록은 확인되지 않는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--internet-encyclopedia-of-ukraine"
+    ]
+  },
+  {
+    "id": "influence--babur--abdulla-qodiriy",
+    "sourceId": "babur",
+    "targetId": "abdulla-qodiriy",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.5,
+    "summary": "우즈베크 문학사 서술은 『보부르나마』의 차가타이 산문을 우즈베크 산문의 정본으로 놓고 코디리의 근대 소설을 같은 계보의 다음 마디로 기술한다. 브리태니커의 우즈베크 문학 항목도 근대 우즈베크 문학을 차가타이 문학의 연속으로 서술한다. 코디리가 바부르를 읽었다는 개별 기록이 아니라 문학사 계보 서술에 근거한 관계다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "translation--anton-chekhov--abdulla-qodiriy",
+    "sourceId": "anton-chekhov",
+    "targetId": "abdulla-qodiriy",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "코디리는 1936년 체호프의 『벚꽃 동산』(우즈베크어 제목 「올차조르」)을 우즈베크어로 옮겼다. 전해에는 고골의 『결혼』을 옮겼고, 1934년 카잔에서 나온 노-우즈베크어 사전 편찬에도 참여했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "translation--alexander-pushkin--abai-qunanbaiuly",
+    "sourceId": "alexander-pushkin",
+    "targetId": "abai-qunanbaiuly",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "아바이는 1880년대 말 『예브게니 오네긴』에서 타티야나의 편지를 비롯한 대목을 카자흐어 운문으로 옮기고 직접 선율을 붙였다. 이 노래가 초원에서 불리면서 푸시킨의 인물이 카자흐 구전 레퍼토리에 들어갔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica",
+      "src--adebiportal-kz"
+    ]
+  },
+  {
+    "id": "translation--johann-wolfgang-von-goethe--abai-qunanbaiuly",
+    "sourceId": "johann-wolfgang-von-goethe",
+    "targetId": "abai-qunanbaiuly",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "괴테의 「나그네의 밤노래」를 레르몬토프의 러시아어 역 「괴테에게서(산봉우리들)」를 경유해 1892년 「어두운 밤 산이 졸고」로 카자흐어에 옮겼다. 독일어 원문이 아니라 러시아어 중역을 거친 사실이 판본 연구에서 확인된다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--adebiportal-kz"
+    ]
+  },
+  {
+    "id": "influence--abai-qunanbaiuly--mukhtar-auezov",
+    "sourceId": "abai-qunanbaiuly",
+    "targetId": "mukhtar-auezov",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "아우에조프는 아바이 연구(아바이타누)를 학문 분야로 세우고 아바이의 저작을 편찬했으며, 1942년부터 1956년까지 4부작 『아바이의 길』로 아바이의 생애를 소설로 다시 썼다. 아바이의 아내 아이게림의 유르트에서 자기 첫 희곡을 초연한 1917년부터 이어진 관계다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica",
+      "src--adebiportal-kz"
+    ]
+  },
+  {
+    "id": "translation--william-shakespeare--mukhtar-auezov",
+    "sourceId": "william-shakespeare",
+    "targetId": "mukhtar-auezov",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "아우에조프는 셰익스피어의 『오셀로』와 『말괄량이 길들이기』를 카자흐어로 옮겼고, 고골의 『검찰관』도 함께 옮겼다. 카자흐 극단의 상연 목록에 세계 고전을 카자흐어 대사로 올린 작업이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--britannica",
+      "src--adebiportal-kz"
+    ]
+  },
+  {
+    "id": "influence--mukhtar-auezov--chinghiz-aitmatov",
+    "sourceId": "mukhtar-auezov",
+    "targetId": "chinghiz-aitmatov",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "1952년 프룬제 과학아카데미가 『마나스』를 사회주의 리얼리즘에 어긋난다며 심의에 부쳤을 때 카자흐인 아우에조프가 서사시를 옹호했고, 그 자리에 있던 아이트마토프는 자기 글에서 그 장면을 회고했다. 삼십 년 뒤 아이트마토프는 아우에조프가 채록한 녹음을 바탕으로 한 『마나스』 인쇄본의 책임편집을 맡았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--aramcoworld-manas-aitmatov"
+    ]
+  },
+  {
+    "id": "influence--mikhail-bulgakov--chinghiz-aitmatov",
+    "sourceId": "mikhail-bulgakov",
+    "targetId": "chinghiz-aitmatov",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "『단두대』(1986)에 삽입된 그리스도-빌라도 대면 장면을 두고, 소비에트 후기 문학의 '빌라도 주제'를 다루는 슬라브 문학 연구는 이 소설을 『거장과 마르가리타』 이후 그 주제를 본격적으로 이어받은 사례로 기술한다(마거릿 지올코프스키, 「최근 러시아 문학의 빌라도와 빌라도주의」, 1992). 아이트마토프 자신은 그런 대응 관계를 의도했다는 것을 부인했으므로, 작가의 진술이 아니라 연구 전통이 세운 계보다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--ziolkowski-pilate-and-pilatism-1992"
+    ]
+  },
+  {
+    "id": "affinity--abdulla-qodiriy--sadriddin-ayni",
+    "sourceId": "abdulla-qodiriy",
+    "targetId": "sadriddin-ayni",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "중앙아시아 자디드 운동 연구 — 아디브 할리드의 『무슬림 문화개혁의 정치: 중앙아시아의 자디드주의』(1998)가 대표적이다 — 는 코디리와 아이니를 같은 개혁 국면의 두 사례로 나란히 다룬다. 둘 다 시와 계몽 논설에서 출발해 산문 서사로 옮겨 갔고, 각각 우즈베크어와 타지크어에서 근대 산문의 척도를 만들었다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--khalid-jadidism-central-asia",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--herman-melville--william-faulkner",
+    "sourceId": "herman-melville",
+    "targetId": "william-faulkner",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "포크너는 1927년 7월 16일 시카고 트리뷴에 기고한 「내가 썼더라면 하는 책」에서 『모비 딕』을 꼽았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--faulkner-i-wish-i-had-written-that-1927"
+    ]
+  },
+  {
+    "id": "translation--herman-melville--jorge-luis-borges",
+    "sourceId": "herman-melville",
+    "targetId": "jorge-luis-borges",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "보르헤스가 『필경사 바틀비』를 스페인어로 옮기고 서문을 붙여 에메세(Emecé)에서 펴냈다. 이 번역이 라틴아메리카에서 멜빌 단편을 읽는 통로가 되었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--borges-bartleby-emece"
+    ]
+  },
+  {
+    "id": "influence--mark-twain--ernest-hemingway",
+    "sourceId": "mark-twain",
+    "targetId": "ernest-hemingway",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "헤밍웨이는 『아프리카의 푸른 언덕』(1935)에서 현대 미국 문학 전체가 『허클베리 핀』이라는 한 권에서 나왔으며 그것이 우리가 가진 최상의 책이라고 썼고, 다만 짐이 붙잡힌 뒤의 결말부는 읽지 말라고 덧붙였다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hemingway-green-hills-of-africa"
+    ]
+  },
+  {
+    "id": "influence--mark-twain--ralph-ellison",
+    "sourceId": "mark-twain",
+    "targetId": "ralph-ellison",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "엘리슨은 『그림자와 행위』(1964)에 묶인 에세이들에서 『허클베리 핀』을 거듭 논하며, 헤밍웨이가 잘라 내라고 한 짐 구출 대목이야말로 이 소설의 구조적·상징적·도덕적 필연이라고 반박했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ellison-shadow-and-act"
+    ]
+  },
+  {
+    "id": "influence--mark-twain--toni-morrison",
+    "sourceId": "mark-twain",
+    "targetId": "toni-morrison",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "모리슨은 옥스퍼드 마크 트웨인 판 『허클베리 핀의 모험』(1996)에 서문을 쓰고, 이 책이 주는 불편함을 출발점 삼아 짐의 재현과 백인 화자의 시선을 다시 읽었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--morrison-oxford-mark-twain-huck-intro"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--john-steinbeck",
+    "sourceId": "william-faulkner",
+    "targetId": "john-steinbeck",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "스타인벡은 1962년 노벨 문학상 수상 강연에서 포크너를 '나의 위대한 선배'로 부르며, 포크너가 같은 자리에서 말한 '자기 자신과 싸우는 인간의 마음'을 자기 논의의 출발점으로 삼았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nobelprize"
+    ]
+  },
+  {
+    "id": "influence--walt-whitman--john-steinbeck",
+    "sourceId": "walt-whitman",
+    "targetId": "john-steinbeck",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "미국 문학 연구의 스타인벡 비평은 프레더릭 카펜터의 「철학하는 조드 일가」(College English, 1941) 이래, 짐 케이시의 설교와 『분노의 포도』의 집단 인간 관념을 에머슨·휘트먼의 초월주의 계보가 소설로 옮겨 온 자리로 읽어 왔다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--carpenter-philosophical-joads-1941"
+    ]
+  },
+  {
+    "id": "influence--omar-khayyam--sadegh-hedayat",
+    "sourceId": "omar-khayyam",
+    "targetId": "sadegh-hedayat",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "헤다야트는 하이얌 사행시집을 두 차례 엮었고(1923, 그리고 1934년의 『하이얌의 노래』), 하이얌을 신비주의자가 아니라 유물론적 회의주의자로 읽는 해설을 붙여 근대 이란의 하이얌 상을 다시 세웠다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hedayat-taraneha-ye-khayyam-1934",
+      "src--encyclopaedia-iranica"
+    ]
+  },
+  {
+    "id": "influence--omar-khayyam--jorge-luis-borges",
+    "sourceId": "omar-khayyam",
+    "targetId": "jorge-luis-borges",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "보르헤스는 에세이 「에드워드 피츠제럴드의 수수께끼」(『또 다른 심문』, 1952)에서 하이얌과 그의 영국인 번역자가 시간을 건너 한 사람의 시인을 이루었다고 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--borges-otras-inquisiciones-1952"
+    ]
+  },
+  {
+    "id": "contrast--rumi--omar-khayyam",
+    "sourceId": "rumi",
+    "targetId": "omar-khayyam",
+    "type": "contrast",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "브라운의 『페르시아 문학사』 이래의 페르시아 문학사 서술은 같은 언어·같은 세기 언저리의 두 축으로 루미의 수피 서정과 하이얌에게 귀속된 회의적 사행시를 마주 세워 다룬다. 루미의 스승 샴스 타브리지를 포함한 수피 계열이 하이얌을 배격했다는 당대 기록이 그 대비의 근거로 거듭 인용된다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--browne-literary-history-of-persia",
+      "src--encyclopaedia-iranica"
+    ]
+  },
+  {
+    "id": "influence--arthur-conan-doyle--umberto-eco",
+    "sourceId": "arthur-conan-doyle",
+    "targetId": "umberto-eco",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "에코는 세벅과 함께 엮은 『셋의 기호: 뒤팽, 홈즈, 퍼스』(1984)에서 홈즈의 추론을 퍼스의 가추법으로 분석했고, 『장미의 이름』(1980)의 수도사 탐정에게 '바스커빌의 윌리엄'이라는 이름을 붙였다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--eco-sebeok-sign-of-three-1984"
+    ]
+  }
+]

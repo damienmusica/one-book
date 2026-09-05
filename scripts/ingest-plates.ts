@@ -49,6 +49,19 @@ const candidates: Raw[] = Array.isArray(parsed) ? parsed : (parsed.plates ?? [])
 const waveIds = new Set(candidates.map((c) => String(c.id)));
 const plateIds = new Set(dataset.authors.filter((a) => (a.depth ?? "plate") === "plate").map((a) => a.id));
 
+// 새 출처는 웨이브 전체가 공유하는 풀이다. 한 배치가 한 컨텍스트에서 여섯 명을 쓰면 같은
+// 문헌을 여럿이 인용하고, 정의는 한 사람 밑에만 적힌다 (실측: 66명 중 5명이 이 이유로 탈락).
+// 정의자가 탈락해도 참조하는 사람이 남으면 그 출처는 남는다 — 최종 파일엔 참조된 것만 쓴다.
+const sourcePool = new Map<string, Raw>();
+for (const c of candidates)
+  for (const s of Array.isArray(c.newSources) ? c.newSources : []) {
+    const sid = String(s.id ?? "");
+    if (!SOURCE_ID.test(sid) || !String(s.title ?? "").trim() || !String(s.publisherOrInstitution ?? "").trim()) continue;
+    if (s.url && !/^https:\/\//.test(String(s.url))) continue;
+    if (!sourcePool.has(sid)) sourcePool.set(sid, { id: sid, title: String(s.title).trim(), publisherOrInstitution: String(s.publisherOrInstitution).trim(),
+      ...(s.citation ? { citation: String(s.citation).trim() } : {}), ...(s.url ? { url: String(s.url) } : {}) });
+  }
+
 const dropped: { id: string; why: string }[] = [];
 const accepted: {
   author: Raw;
@@ -117,18 +130,16 @@ for (const c of candidates) {
   const entryReason = String(c.readingEntryReason ?? "").trim();
   if (entryReason.length < 10) { fail("입문 이유 없음"); continue; }
 
-  // 출처 — 기존 id 또는 이 후보가 정의한 새 출처
+  // 출처 — 기존 id 또는 웨이브 풀의 새 출처. 이 후보가 낸 정의가 형식에 어긋나면 그 후보 탈락.
   const newSources: Raw[] = Array.isArray(c.newSources) ? c.newSources : [];
-  const localSrc = new Set<string>();
   for (const s of newSources) {
     const sid = String(s.id ?? "");
     if (!SOURCE_ID.test(sid)) { bad = `출처 id 형식 ${sid}`; break; }
     if (!String(s.title ?? "").trim() || !String(s.publisherOrInstitution ?? "").trim()) { bad = `${sid} 제목·기관 누락`; break; }
     if (s.url && !/^https:\/\//.test(String(s.url))) { bad = `${sid} url`; break; }
-    localSrc.add(sid);
   }
   if (bad) { fail(bad); continue; }
-  const hasSrc = (sid: string) => sourceIds.has(sid) || localSrc.has(sid);
+  const hasSrc = (sid: string) => sourceIds.has(sid) || sourcePool.has(sid);
   const profileSrc: string[] = (c.sourceIds ?? []).map(String);
   if (!profileSrc.length || profileSrc.some((s: string) => !hasSrc(s))) { fail("프로필 출처 없음/미정의"); continue; }
 
@@ -167,8 +178,9 @@ for (const c of candidates) {
       readingWarning: c.readingWarning ? String(c.readingWarning) : undefined, sourceIds: profileSrc },
     works: { existing, fresh },
     relations: outRels,
-    sources: newSources.map((s) => ({ id: s.id, title: String(s.title).trim(), publisherOrInstitution: String(s.publisherOrInstitution).trim(),
-      ...(s.citation ? { citation: String(s.citation).trim() } : {}), ...(s.url ? { url: String(s.url) } : {}) }))
+    sources: [...new Set([...profileSrc, ...outRels.flatMap((r) => r.sourceIds as string[])])]
+      .filter((sid) => !sourceIds.has(sid))
+      .map((sid) => sourcePool.get(sid)!)
   });
 }
 
@@ -184,9 +196,16 @@ for (const x of accepted) {
   });
   x.relations = keep;
 }
-// 같은 선을 두 작가가 각자 냈으면 하나만
+// 같은 선을 두 작가가 각자 냈으면 하나만 — 양방향 관계는 반대 방향으로 낸 것도 같은 선이다
+// (실측: 디포↔스위프트 contrast, 사르트르↔파농 dialogue 가 양쪽에서 한 번씩 왔다).
 const seenRel = new Set<string>();
-for (const x of accepted) x.relations = x.relations.filter((r) => (seenRel.has(r.id) ? false : (seenRel.add(r.id), true)));
+for (const x of accepted)
+  x.relations = x.relations.filter((r) => {
+    const rev = relId(r.type, r.targetId, r.sourceId);
+    if (seenRel.has(r.id) || (r.direction === "bidirectional" && seenRel.has(rev))) return false;
+    seenRel.add(r.id);
+    return true;
+  });
 const seenSrc = new Set<string>();
 for (const x of accepted) x.sources = x.sources.filter((s) => (sourceIds.has(s.id) || seenSrc.has(s.id) ? false : (seenSrc.add(s.id), true)));
 

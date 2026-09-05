@@ -6,7 +6,7 @@
       "original": "Daniel Defoe",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1660,
     "deathYear": 1731,
     "activeRange": [
@@ -25,13 +25,30 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "daniel-defoe--robinson-crusoe",
+      "daniel-defoe--moll-flanders",
+      "daniel-defoe--a-journal-of-the-plague-year",
+      "daniel-defoe--roxana"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "허구를 실제 회고록처럼 보이게 하는 자잘한 사실의 축적을 소설의 방법으로 삼아, 무인도의 생존과 런던의 역병을 겪은 사람이 직접 남긴 기록처럼 써 냈다."
+    "importanceReason": "허구를 실제 회고록처럼 보이게 하는 자잘한 사실의 축적을 소설의 방법으로 삼아, 무인도의 생존과 런던의 역병을 겪은 사람이 직접 남긴 기록처럼 써 냈다. 날짜와 물품 목록, 금액과 교구별 사망자 통계표를 서술에 박아 넣고 화자에게는 편집자의 겸양을 부여함으로써, 산문 허구가 증언의 외형을 빌리는 방식을 확립했다. 도둑과 정부(情婦)의 일인칭 회고를 참회록의 형식에 담은 『몰 플랜더스』와 『록사나』는 영국 소설이 다룰 인물의 범위를 상인·범죄자·하층민까지 넓혔다.",
+    "difficulty": 3,
+    "difficultyReason": "단락이 길고 한 문장이 여러 절로 이어지는 18세기 산문이라 속도가 붙지 않는다. 사건보다 목록과 계산이 서술의 중심이어서, 근대 소설의 플롯을 기대하면 중반에 지루해진다.",
+    "readingEntry": "daniel-defoe--robinson-crusoe",
+    "readingEntryReason": "사건이 시간순으로 이어지고 화자가 하나여서 디포의 방법 — 날짜·물품·계산의 축적 — 이 가장 또렷하게 보인다.",
+    "readingWarning": "축약된 아동용 『로빈슨 크루소』로 시작하면 디포의 방법 자체가 사라진다. 원본의 절반은 물품 목록과 회계, 종교적 자기 심문이며 그것이 이 소설의 내용이다."
   },
   {
     "id": "jonathan-swift",
@@ -40,7 +57,7 @@
       "original": "Jonathan Swift",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1667,
     "deathYear": 1745,
     "activeRange": [
@@ -59,13 +76,29 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "jonathan-swift--a-modest-proposal",
+      "jonathan-swift--gullivers-travels",
+      "jonathan-swift--a-tale-of-a-tub"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "제안하는 사람의 목소리를 끝까지 유지한 채 아일랜드의 굶주림에 아이를 먹자고 적어, 반어를 문장이 아니라 화자 자체에 거는 풍자를 완성했다."
+    "importanceReason": "제안하는 사람의 목소리를 끝까지 유지한 채 아일랜드의 굶주림에 아이를 먹자고 적어, 반어를 문장이 아니라 화자 자체에 거는 풍자를 만들었다. 『걸리버 여행기』는 항해기의 건조한 사실 문체를 빌려 소인국·거인국·야후의 척도 변화만으로 인간의 자기 이미지를 반복해 깎아낸다. 이후 풍자는 무엇을 조롱하는가보다 누가 말하고 있는가를 먼저 설계하게 되었고, 오웰을 비롯한 20세기 정치 우화가 그 설계를 이어받았다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 명료하지만 반어가 화자에게 걸려 있어 액면 그대로 읽으면 정반대의 뜻이 된다. 겨냥한 대상(아일랜드 경제 정책, 국교회 분열, 왕립학회)이 각주 없이는 잘 보이지 않는다.",
+    "readingEntry": "jonathan-swift--a-modest-proposal",
+    "readingEntryReason": "열 쪽 남짓 안에 스위프트의 방법 전체 — 끝까지 진지함을 유지하는 제안자의 목소리 — 가 들어 있어, 이후 걸리버의 화자를 읽는 눈이 여기서 만들어진다.",
+    "readingWarning": "『걸리버 여행기』를 아동용 축약본으로 시작하면 1·2부만 남고 3·4부의 풍자가 통째로 빠진다. 완역본으로 읽을 것."
   },
   {
     "id": "alexander-pope",
@@ -1304,7 +1337,7 @@
         "François-Marie Arouet"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1694,
     "deathYear": 1778,
     "activeRange": [
@@ -1323,13 +1356,31 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "voltaire--candide",
+      "voltaire--micromegas",
+      "voltaire--traite-sur-la-tolerance",
+      "voltaire--lettres-philosophiques"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "억울하게 처형된 사람의 재심을 여론으로 이끌어내며 관용을 논증했고, 이 세상이 최선이라는 낙관론을 짧은 이야기의 형식으로 조롱해 철학 콩트를 만들었다."
+    "importanceReason": "억울하게 처형된 장 칼라스의 재심을 여론으로 이끌어내며 관용을 논증했고, 이 세상이 최선이라는 낙관론을 짧은 이야기의 형식으로 조롱해 철학 콩트를 만들었다. 『캉디드』는 리스본 지진과 종교재판과 전쟁을 서른 장 남짓의 속도로 통과시키며, 논증 대신 사건의 누적으로 명제를 무너뜨린다. 소설이 철학의 예시가 아니라 철학의 도구가 될 수 있다는 이 형식은 18세기 유럽의 논쟁 문체를 바꾸었다.",
+    "difficulty": 2,
+    "difficultyReason": "장이 짧고 사건이 빠르게 굴러가 문장 자체의 저항은 거의 없다. 다만 조롱의 표적인 라이프니츠식 낙관론, 리스본 지진, 종교재판 같은 당대 논쟁을 알아야 웃음의 방향이 잡힌다.",
+    "readingEntry": "voltaire--candide",
+    "readingEntryReason": "하루면 읽히는 분량 안에 볼테르의 무기가 모두 들어 있다 — 속도, 반복되는 재난, 그리고 형이상학을 노동으로 갈아치우는 결말.",
+    "readingWarning": "『철학편지』나 『관용론』부터 집으면 반박 대상이 보이지 않아 논박문만 읽게 된다. 이야기 두 편을 먼저 통과할 것."
   },
   {
     "id": "montesquieu",
@@ -1374,7 +1425,7 @@
       "original": "Jean-Jacques Rousseau",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1712,
     "deathYear": 1778,
     "activeRange": [
@@ -1393,13 +1444,31 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "essay-criticism",
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "jean-jacques-rousseau--les-confessions",
+      "jean-jacques-rousseau--discours-sur-lorigine-de-linegalite",
+      "jean-jacques-rousseau--du-contrat-social",
+      "jean-jacques-rousseau--julie-ou-la-nouvelle-heloise",
+      "jean-jacques-rousseau--emile"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "정치의 정당성을 신이나 세습이 아니라 구성원들의 합의에 둔 『사회계약론』과, 자기 치부까지 적어 근대 자서전의 형식을 연 『고백록』을 함께 남겼다."
+    "importanceReason": "정치의 정당성을 신이나 세습이 아니라 구성원들의 합의에 둔 『사회계약론』과, 자기 치부까지 적은 『고백록』을 함께 남겼다. 『고백록』은 미화를 포기한 자기 서술을 문학의 재료로 삼아, 자서전을 변명이 아니라 증거 제출의 형식으로 바꾸었다. 『쥘리』의 서간체와 감정 서술은 유럽 감상주의 소설의 표준 문법이 되어 『젊은 베르테르의 슬픔』을 포함한 한 세대의 형식을 규정했다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 평이하지만 『사회계약론』은 일반의지·주권 같은 개념어가 짧은 장 안에 정의 없이 겹겹이 쌓인다. 『고백록』과 『쥘리』는 분량이 커서 완독에 지구력이 필요하다.",
+    "readingEntry": "jean-jacques-rousseau--les-confessions",
+    "readingEntryReason": "『고백록』 1부는 서사가 있는 자기 서술이라 진입이 쉽고, 뒤이어 정치 저작을 읽을 때 그 논증이 어떤 사람의 것인지가 함께 보인다.",
+    "readingWarning": "『에밀』을 육아·교육 지침서로 기대하고 시작하면 4권 「사부아 보좌신부의 신앙 고백」에서 논지가 급선회해 중도에 놓기 쉽다."
   },
   {
     "id": "denis-diderot",
@@ -2296,7 +2365,7 @@
       "original": "Johann Wolfgang von Goethe",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1749,
     "deathYear": 1832,
     "activeRange": [
@@ -2315,13 +2384,31 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "drama",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers",
+      "johann-wolfgang-von-goethe--die-wahlverwandtschaften",
+      "johann-wolfgang-von-goethe--wilhelm-meisters-lehrjahre",
+      "johann-wolfgang-von-goethe--faust"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "편지로만 이루어진 『젊은 베르테르의 슬픔』이 유럽에 파란 연미복과 노란 조끼의 유행을 퍼뜨렸고, 평생에 걸쳐 쓴 『파우스트』에 끝나지 않는 근대인의 욕망을 담았다."
+    "importanceReason": "편지로만 이루어진 『젊은 베르테르의 슬픔』이 유럽에 파란 연미복과 노란 조끼의 유행을 퍼뜨렸고, 평생에 걸쳐 쓴 『파우스트』에 끝나지 않는 근대인의 욕망을 담았다. 『빌헬름 마이스터의 수업시대』는 한 사람이 세계와 부딪히며 형성되는 과정을 소설의 뼈대로 삼아 교양소설의 표준형을 제공했다. 세계문학(Weltliteratur)이라는 말을 자기 시대의 과제로 제시한 것도 그이며, 이 말은 문학을 국민문학의 합이 아니라 번역과 교류의 장으로 보는 관점의 이름이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "『베르테르』는 하룻밤 분량이지만 『파우스트』 2부는 그리스 신화, 연금술, 궁정 알레고리가 층으로 겹쳐 주석 없이는 장면의 목적이 잡히지 않는다. 『빌헬름 마이스터』는 삽화적 구성이라 줄거리의 견인력이 약하다.",
+    "readingEntry": "johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers",
+    "readingEntryReason": "편지 형식의 짧은 소설이라 하룻밤에 읽히고, 감정을 서술의 중심에 놓는 괴테 초기의 방법이 그대로 드러난다.",
+    "readingWarning": "『파우스트』로 시작하면 1부의 그레트헨 비극은 따라가더라도 2부의 알레고리에서 막히기 쉽다."
   },
   {
     "id": "friedrich-schiller",
@@ -3913,7 +4000,7 @@
       "original": "Jane Austen",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1775,
     "deathYear": 1817,
     "activeRange": [
@@ -3932,13 +4019,30 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "jane-austen--pride-and-prejudice",
+      "jane-austen--sense-and-sensibility",
+      "jane-austen--persuasion",
+      "jane-austen--emma",
+      "jane-austen--mansfield-park"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "인물의 생각과 서술자의 목소리를 한 문장에 겹치는 화법을 완성해 소설이 사람의 속마음을 안에서 보여줄 수 있게 했고, 결혼이 곧 생계인 사회를 아이러니로 해부했다."
+    "importanceReason": "인물의 생각과 서술자의 목소리를 한 문장에 겹치는 자유간접화법을 소설의 기본 도구로 정착시켜, 인물의 오판을 독자가 인물보다 조금 먼저 보게 만들었다. 결혼이 곧 생계인 사회에서 한정상속과 연수입이 감정을 어떻게 규정하는지를, 무도회와 방문과 편지라는 좁은 무대 안에서만 서술한다. 이 방법으로 영국 소설은 사건의 크기가 아니라 의식의 정확도로 승부하는 길을 얻었다.",
+    "difficulty": 2,
+    "difficultyReason": "종속절이 긴 18세기 후반 산문이라 문장을 한 번에 넘기기 어렵고, 한정상속과 연수입이라는 재산 제도를 모르면 대화 속 이해관계와 아이러니의 표적이 함께 흐려진다.",
+    "readingEntry": "jane-austen--pride-and-prejudice",
+    "readingEntryReason": "플롯이 빠르고 대화 비중이 높아, 서술자의 아이러니가 어느 인물의 어느 판단에 걸려 있는지 가장 빨리 감지된다.",
+    "readingWarning": "『맨스필드 파크』나 『엠마』로 시작하면 서술자의 아이러니가 인물의 판단과 겹쳐 읽혀 주인공이 밉살스럽게만 보이기 쉽다."
   },
   {
     "id": "maria-edgeworth",
@@ -4161,7 +4265,7 @@
       "original": "Charles Dickens",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1812,
     "deathYear": 1870,
     "activeRange": [
@@ -4181,13 +4285,30 @@
       "roots"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "charles-dickens--great-expectations",
+      "charles-dickens--oliver-twist",
+      "charles-dickens--a-tale-of-two-cities",
+      "charles-dickens--david-copperfield",
+      "charles-dickens--bleak-house"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "월간 분책 연재로 독자의 반응을 보며 이야기를 이어 가는 방식을 확립했고, 구빈원과 채무자 감옥과 빈민가를 소설의 무대로 끌어들여 실제 제도를 움직이게 했다."
+    "importanceReason": "월간 분책 연재로 독자의 반응을 보며 이야기를 이어 가는 방식을 확립했고, 구빈원과 채무자 감옥과 빈민가를 소설의 무대로 삼았다. 인물의 말버릇 하나로 계급과 직업을 즉시 알아보게 하는 조형법과, 매회 끝에 갈고리를 거는 연재의 리듬이 결합해 장편소설을 대중의 매체로 만들었다. 그의 연재가 요크셔 기숙학교와 구빈법을 둘러싼 여론을 실제로 움직이면서, 소설이 제도에 개입할 수 있다는 전제가 19세기 사회소설의 조건이 되었다.",
+    "difficulty": 2,
+    "difficultyReason": "사건과 문장은 직진하지만 분책 연재로 쓰인 탓에 분량이 크고 등장인물이 많아, 중반 이후 인물 관계를 놓치지 않는 지속적 독서가 필요하다.",
+    "readingEntry": "charles-dickens--great-expectations",
+    "readingEntryReason": "디킨스 장편 중 분량이 절제되어 있고 1인칭 회고라 시점이 하나로 모여, 연재 장편의 리듬을 처음 겪기에 부담이 적다.",
+    "readingWarning": "『황폐한 집』처럼 이중 서술과 다중 플롯을 쓴 장편으로 시작하면 인물표 없이는 중반을 넘기기 어렵다."
   },
   {
     "id": "william-makepeace-thackeray",
@@ -5594,7 +5715,7 @@
       "original": "Victor Hugo",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1802,
     "deathYear": 1885,
     "activeRange": [
@@ -5614,13 +5735,31 @@
       "roots"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "poetry",
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "victor-hugo--notre-dame-de-paris",
+      "victor-hugo--hernani",
+      "victor-hugo--les-miserables",
+      "victor-hugo--les-contemplations"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "고전 비극의 규칙을 무대에서 무너뜨려 낭만주의 연극을 열었고, 19년의 망명 동안 빈곤과 사법 제도가 한 사람을 어떻게 만드는지를 소설 한 편의 규모로 밀어붙였다."
+    "importanceReason": "고전 비극의 삼일치 규칙을 무대에서 무너뜨리고 숭고와 그로테스크를 한 인물 안에 겹쳐 놓는 극작술을 「크롬웰 서문」(1827)과 『에르나니』(1830)로 밀고 나갔다. 19년의 망명 기간에 완성한 『레 미제라블』은 빈곤과 사법 제도가 한 사람을 어떻게 만드는지를 장편 하나의 규모로 검증하면서, 워털루와 하수도와 봉기의 삽입장을 서사에 끌어들여 소설이 사회의 단면도가 될 수 있음을 보여 주었다. 그 결과 사회 구조를 인물의 운명으로 번역하는 형식이 19세기 프랑스 소설의 중심에 놓였다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 평이하지만 완역본의 분량이 크고, 서사 진행을 멈추는 긴 삽입장(워털루 전투, 파리 하수도, 수도원)이 반복된다. 7월 왕정과 1832년 6월 봉기 같은 프랑스 정치사 배경이 각주 없이는 흐릿하다.",
+    "readingEntry": "victor-hugo--notre-dame-de-paris",
+    "readingEntryReason": "위고 특유의 역사·건축 서술과 인물 운명의 결합이 이미 완성되어 있으면서도 『레 미제라블』의 3분의 1 분량이라, 삽입장의 리듬에 적응하기에 알맞다.",
+    "readingWarning": "『레 미제라블』 완역본으로 시작하면 워털루 전투와 파리 하수도 장에서 서사가 멈추는 지점을 견디지 못하고 중도에 놓기 쉽다. 짧은 장편으로 위고의 삽입장 리듬에 먼저 익숙해지는 편이 낫다."
   },
   {
     "id": "alfred-de-musset",
@@ -6268,7 +6407,7 @@
         "Alexander Pushkin"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1799,
     "deathYear": 1837,
     "activeRange": [
@@ -6287,13 +6426,31 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "fiction",
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "alexander-pushkin--kapitanskaya-dochka",
+      "alexander-pushkin--povesti-belkina",
+      "alexander-pushkin--evgeniy-onegin",
+      "alexander-pushkin--mednyy-vsadnik",
+      "alexander-pushkin--boris-godunov"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "운문으로 쓴 소설과 민담과 역사극을 넘나들며 구어와 문어를 하나로 녹여, 이후 러시아 문학이 사용할 표준 언어를 사실상 혼자 만들어냈다."
+    "importanceReason": "구어와 문어, 교회슬라브어 어휘와 프랑스어 어법 사이에서 갈라져 있던 러시아어를 운문 소설·민담·역사극에 걸쳐 하나의 문학어로 녹여냈다. 『예브게니 오네긴』의 14행 연은 인물의 일상과 작가의 여담을 같은 연 안에서 교차시키는 형식을 만들었고, 『벨킨 이야기』와 『대위의 딸』의 건조한 산문은 이후 러시아 소설이 문장의 기준으로 삼은 자리가 되었다. 도스토옙스키의 1880년 기념 연설 이후 러시아 문학은 자기 계보의 출발점을 말할 때 이 이름을 놓고 논쟁해 왔다.",
+    "difficulty": 3,
+    "difficultyReason": "산문은 짧고 평이하지만 대표작이 운문 소설이라 '오네긴 연'의 각운 구조가 번역마다 달라지고, 『보리스 고두노프』와 『대위의 딸』은 동란 시대와 푸가초프 반란이라는 러시아사 배경 지식을 요구한다.",
+    "readingEntry": "alexander-pushkin--kapitanskaya-dochka",
+    "readingEntryReason": "200쪽 남짓의 짧은 장편이면서 회고록 형식으로 사건이 한 줄기로 이어져, 푸시킨 산문의 절제된 문장을 번역 손실 없이 그대로 만날 수 있다.",
+    "readingWarning": "『예브게니 오네긴』을 첫 책으로 잡으면 번역본마다 운문·산문 처리가 달라 형식의 핵심인 연 구조가 잘 전달되지 않아 실망하기 쉽다. 산문 두 편을 먼저 읽고 운문 소설로 넘어가는 편이 안전하다."
   },
   {
     "id": "yevgeny-baratynsky",
@@ -6674,7 +6831,7 @@
         "호머"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "activeRange": [
       -750,
       -700
@@ -6691,13 +6848,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "epic",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "homer--odysseia",
+      "homer--ilias",
+      "homer--hymnoi-homerikoi"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "구술로 떠돌던 영웅 노래를 『일리아스』와 『오디세이아』라는 두 편의 긴 서사로 붙들어, 서양 문학이 분노와 귀향, 인간과 신을 다루는 방식의 원형을 만들었다."
+    "importanceReason": "구술로 떠돌던 영웅 노래를 『일리아스』와 『오디세이아』라는 두 편의 긴 서사로 붙들어, 분노 하나와 귀향 하나에 각각 이야기 전체를 걸었다. 정형 수식어구와 확장 직유로 짜인 이 운율 체계는 서양 문학이 영웅·신·죽음·귀향을 다루는 어휘가 되었고, 베르길리우스의 『아이네이스』에서 조이스의 『율리시스』와 월컷의 『오메로스』에 이르기까지 자기 시대의 서사를 다시 세우려는 작가들이 되돌아가는 좌표로 남았다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 어렵지 않지만 정형 수식어·인물 목록·확장 직유의 반복이 현대의 독서 리듬과 다르고, 신들의 계보와 인명 수가 많아 초반에는 계보도를 옆에 두어야 한다. 번역본이 운문이냐 산문이냐에 따라 체감 난도가 크게 달라진다.",
+    "readingEntry": "homer--odysseia",
+    "readingEntryReason": "귀향이라는 단일한 목표가 처음부터 끝까지 이야기를 끌고 가고 삽화 하나하나가 독립적으로 완결되어, 서사시의 리듬에 적응하기에 가장 부담이 적다.",
+    "readingWarning": "『일리아스』부터 시작하면 2권의 '선박 목록'에서 수백 행의 지명·인명 나열을 만나 대개 그 자리에서 멈춘다. 『오디세이아』로 서사시의 문법에 익숙해진 뒤 넘어가는 편이 낫다."
   },
   {
     "id": "hesiod",
@@ -7344,7 +7517,7 @@
       "original": "Σοφοκλῆς",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": -497,
     "deathYear": -406,
     "activeRange": [
@@ -7363,13 +7536,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "sophocles--oidipous-tyrannos",
+      "sophocles--antigone",
+      "sophocles--philoktetes",
+      "sophocles--oidipous-epi-kolono"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "세 번째 배우를 도입해 인물 사이의 관계를 복잡하게 만들었고, 『오이디푸스 왕』에서는 주인공이 자기 정체를 알아 가는 과정 자체를 파국의 동력으로 삼았다."
+    "importanceReason": "세 번째 배우와 확대된 합창단을 써서 인물들 사이의 관계 자체를 사건의 동력으로 만들었고, 『오이디푸스 왕』에서는 주인공이 자기 정체를 알아 가는 과정과 파국이 같은 선 위에서 진행되도록 플롯을 짰다. 인지와 급전이 한 지점에서 겹치는 이 구성을 아리스토텔레스가 『시학』에서 비극의 표본으로 분석했고, 이후 서양 극작술은 '잘 짜인 플롯'을 말할 때마다 이 작품으로 돌아갔다.",
+    "difficulty": 2,
+    "difficultyReason": "한 편이 100쪽 남짓이고 사건이 하루 안에 끝나 줄거리는 쉽게 따라간다. 다만 합창 대목의 압축된 서정과 테베·라이오스 가문 전설, 신탁 관습이 각주 없이는 건너뛰어지기 쉽다.",
+    "readingEntry": "sophocles--oidipous-tyrannos",
+    "readingEntryReason": "역병의 원인을 캐는 수사가 곧 수사관 자신의 정체를 밝히는 과정이 되는 단일 구성이라 한 자리에서 읽히고, 이 지도에서 소포클레스의 자리를 결정하는 작품이기도 하다.",
+    "readingWarning": "'테바이 3부작'으로 묶인 판본을 이야기 순서(오이디푸스 왕 → 콜로노스의 오이디푸스 → 안티고네)대로 읽는 경우가 많지만, 세 편은 40년에 걸쳐 따로 쓰인 별개의 작품이고 만년작인 『콜로노스의 오이디푸스』가 가장 정적이라 중간에서 걸린다."
   },
   {
     "id": "euripides",
@@ -7650,7 +7839,7 @@
       "original": "Πλάτων",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": -428,
     "deathYear": -348,
     "activeRange": [
@@ -7669,13 +7858,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "plato--apologia-sokratous",
+      "plato--symposion",
+      "plato--phaidros",
+      "plato--politeia"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "철학을 논문이 아니라 인물들이 부딪치는 대화로 씀으로써 결론보다 묻는 과정을 남겼고, 스승의 재판을 기록해 사유가 도시와 충돌하는 장면을 문학으로 만들었다."
+    "importanceReason": "철학을 논문이 아니라 인물들이 부딪치는 대화로 씀으로써 결론보다 묻는 과정을 문장에 남겼고, 스승의 재판과 죽음을 기록해 사유가 도시와 충돌하는 장면을 하나의 서사로 만들었다. 대화편은 논증과 희극적 장면과 신화(동굴, 영혼의 마차)를 한 편 안에 섞어 놓아 철학 저술이 문학 형식을 빌리는 표본이 되었고, 『국가』 10권의 시인 추방론은 이후 모든 시 옹호론이 반박해야 할 상대로 남았다.",
+    "difficulty": 3,
+    "difficultyReason": "대화체라 문장은 읽히지만 논증이 되짚고 물러서기를 반복하고, 이데아론·상기설 같은 개념이 여러 대화편에 흩어져 있어 한 편만으로는 논의가 닫히지 않는다. 소크라테스가 상대를 몰아가는 대목에서는 전제의 이동을 놓치기 쉽다.",
+    "readingEntry": "plato--apologia-sokratous",
+    "readingEntryReason": "30쪽 남짓의 한 사람의 변론이라 논증이 끊기지 않는 한 줄기로 이어지고, 플라톤이 왜 대화라는 형식을 택했는지가 법정이라는 장면 자체로 설명된다.",
+    "readingWarning": "『국가』부터 시작하면 1권의 트라시마코스 논쟁 뒤로 이상 국가 설계와 선분·동굴 비유가 이어지며 논의가 열 권에 걸쳐 누적되어, 앞선 대화편에서 다뤄진 전제를 모르는 채 따라가기 어렵다."
   },
   {
     "id": "aristotle",
@@ -7684,7 +7889,7 @@
       "original": "Ἀριστοτέλης",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": -384,
     "deathYear": -322,
     "activeRange": [
@@ -7703,13 +7908,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "aristotle--peri-poietikes",
+      "aristotle--rhetorike",
+      "aristotle--ethika-nikomacheia",
+      "aristotle--politika"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "세계를 분야별로 나누어 각각의 원리를 따로 세우는 학문의 틀을 만들었고, 『시학』에서 비극을 줄거리의 구조로 분석해 이후 문학 이론이 딛고 설 자리를 냈다."
+    "importanceReason": "세계를 분야별로 나누고 각 분야의 원리를 따로 세우는 학문의 틀을 만들었고, 『시학』에서는 비극을 인물의 성격이나 교훈이 아니라 사건의 배열, 곧 플롯의 구조로 분석했다. 미메시스·하마르티아·카타르시스라는 용어와 '시작-중간-끝'이라는 구성 요구는 르네상스의 삼일치 규칙에서 브레히트의 '비아리스토텔레스적 극작'이라는 반대 명명에 이르기까지, 서양 문학 이론이 딛거나 밀어내야 하는 바닥이 되었다.",
+    "difficulty": 4,
+    "difficultyReason": "전해지는 저작이 완성 원고가 아니라 강의 노트 편집본이라 논증의 연결이 자주 생략되고 문장이 압축되어 있다. 미메시스·에네르게이아 같은 용어가 정의된 자리를 다른 저작에서 찾아야 하고, 『시학』은 희극을 다룬 제2권이 사라져 논의가 중간에서 끊긴다.",
+    "readingEntry": "aristotle--peri-poietikes",
+    "readingEntryReason": "50쪽 남짓으로 짧고, 이 지도에서 아리스토텔레스의 자리를 결정하는 문서이며, 앞서 읽은 『오이디푸스 왕』이 그대로 예시로 쓰여 논의를 곧바로 확인할 수 있다.",
+    "readingWarning": "전해지는 저작은 그가 출간한 완성 원고가 아니라 후대에 편집된 강의 노트다. 매끄러운 저서를 기대하고 읽으면 반복과 단절을 오역이나 판본 문제로 오해하기 쉽다."
   },
   {
     "id": "theophrastus",
@@ -8743,7 +8964,7 @@
       "original": "Marcus Tullius Cicero",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": -106,
     "deathYear": -43,
     "activeRange": [
@@ -8762,13 +8983,30 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "cicero--in-catilinam",
+      "cicero--de-officiis",
+      "cicero--tusculanae-disputationes",
+      "cicero--epistulae-ad-atticum",
+      "cicero--de-re-publica"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--voltaire-rome-sauvee-1752"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "그리스 철학의 개념을 옮길 라틴어 낱말을 만들어 유럽이 천 년 넘게 쓸 추상어의 바탕을 놓았고, 친구에게 보낸 편지가 남아 정치가의 사생활이 기록으로 전해졌다."
+    "importanceReason": "그리스 철학의 개념을 옮길 라틴어 낱말을 만들어 유럽이 천 년 넘게 쓸 추상어의 바탕을 놓았다. 법정과 원로원의 연설을 다듬는 과정에서 여러 겹의 종속절이 절정에서 한 번에 닫히는 주기문(周期文)을 산문의 표준 단위로 만들었고, 이 문장 모형은 르네상스 라틴어 교육의 교본이 되었다. 900통 가까운 편지가 남아 공화정이 무너지는 동안 한 정치가가 공적 발언과 사적 계산 사이에서 흔들리는 과정이 그대로 읽히는, 고대의 드문 기록이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체가 여러 겹의 종속절을 쌓아 올린 주기문이라 번역본에서도 한 문장이 길게 이어지고, 연설문은 기원전 1세기 로마 정계의 인물과 사건을 알아야 그 겨냥점이 보인다.",
+    "readingEntry": "cicero--in-catilinam",
+    "readingEntryReason": "연설 네 편 분량으로 짧고 사건의 긴장이 그대로 살아 있어, 키케로의 문장 리듬과 정치적 상황을 한 번에 만날 수 있다.",
+    "readingWarning": "『국가론』부터 시작하면 막힌다. 이 책은 대부분이 소실되어 「스키피오의 꿈」을 제외하면 끊긴 단편들로 전해지므로, 완결된 텍스트를 먼저 읽고 오는 편이 낫다."
   },
   {
     "id": "lucretius",
@@ -8917,7 +9155,7 @@
         "버질"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": -70,
     "deathYear": -19,
     "activeRange": [
@@ -8936,13 +9174,31 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "epic",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "virgil--aeneis",
+      "virgil--bucolica",
+      "virgil--georgica"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--treccani",
+      "src--macrobius-saturnalia",
+      "src--dante-inferno-i-maestro"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "승리하는 영웅 대신 불탄 도시를 등에 지고 의무를 따르는 인물을 세워 로마의 건국 신화를 썼고, 목가로는 뒷날 유럽이 되풀이해 찾는 아르카디아라는 장소를 만들었다."
+    "importanceReason": "승리하는 영웅 대신 불탄 도시를 등에 지고 의무를 따르는 인물을 세워 로마의 건국 신화를 썼다. 방랑을 앞 여섯 권에, 전쟁을 뒤 여섯 권에 배치해 호메로스의 두 서사시를 뒤집어 놓고, 디도를 버리고 배를 띄우는 장면을 무게중심에 두어 서사시가 승리의 노래이면서 동시에 그 대가를 세는 장부일 수 있게 했다. 목가에서는 아르카디아라는 장소를 만들어, 르네상스 이후 유럽 시가 되풀이해 돌아가는 배경이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "이야기 자체는 따라가기 쉬우나 거의 모든 장면이 호메로스의 대응 장면과 겹쳐 읽히도록 짜여 있어 주석 없이는 절반이 지나가고, 『목가』와 『농경시』는 내전기의 토지 몰수 같은 당대 정치가 알레고리로 깔려 있어 더 까다롭다.",
+    "readingEntry": "virgil--aeneis",
+    "readingEntryReason": "트로이아의 함락(2권)과 디도의 죽음(4권)이 각각 독립된 단위로 읽히면서 이 시인의 윤리 전체를 담고 있어, 열두 권 전체를 읽기 전에도 무엇이 걸려 있는지 곧바로 드러난다.",
+    "readingWarning": "『농경시』부터 들어가면 농사 지침의 나열로 보이기 쉽다. 이 시집의 층위는 『아이네이스』의 국가 서사를 먼저 겪은 뒤에야 드러난다."
   },
   {
     "id": "horace",
@@ -9089,7 +9345,7 @@
       "original": "Publius Ovidius Naso",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": -43,
     "deathYear": 17,
     "activeRange": [
@@ -9108,13 +9364,31 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "epic"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "ovid--metamorphoses",
+      "ovid--ars-amatoria",
+      "ovid--heroides",
+      "ovid--tristia"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--dante-inferno-xxv-ovidio",
+      "src--meres-palladis-tamia-1598"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "변신이라는 하나의 사건으로 신화 전체를 끊기지 않는 한 편의 시로 꿰어 유럽의 화가와 시인이 신화를 찾을 때 먼저 펼치는 책을 만들었고, 유배지의 시로 추방 문학을 열었다."
+    "importanceReason": "변신이라는 하나의 사건으로 신화 전체를 끊기지 않는 한 편의 시로 꿰어, 유럽의 화가와 시인이 신화를 찾을 때 먼저 펼치는 책을 만들었다. 이야기와 이야기를 인물·장소·인과의 고리로 이어 붙이는 그 연결 기술이 15권 1만 2천 행을 하나의 흐름으로 묶는다. 흑해 유배지에서 쓴 『슬픔의 노래』는 추방된 자가 자기 처지 자체를 시의 주제로 삼는 형식을 라틴 시 안에 남겼다.",
+    "difficulty": 3,
+    "difficultyReason": "개별 이야기는 짧고 전개가 빨라 읽기 쉽지만 등장하는 신과 지명이 수백 개라 주석을 계속 오가야 하고, 유배 시집은 아우구스투스 치세의 정치적 정황을 모르면 되풀이되는 탄원의 강도가 읽히지 않는다.",
+    "readingEntry": "ovid--metamorphoses",
+    "readingEntryReason": "삽화들이 각각 독립해 있어 한 대목씩 끊어 읽어도 손해가 없고, 이후의 유럽 문학과 회화가 참조하는 신화의 판본이 대부분 여기에서 나온다.",
+    "readingWarning": "『슬픔의 노래』부터 시작하면 탄식의 반복으로만 보인다. 유배 이전의 시들이 어떤 태도로 쓰였는지를 먼저 겪어야 그 목소리의 변화가 드러난다."
   },
   {
     "id": "phaedrus",
@@ -10267,7 +10541,7 @@
         "이태백"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 701,
     "deathYear": 762,
     "activeRange": [
@@ -10286,13 +10560,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "li-bai--jingyesi",
+      "li-bai--yuexiaduzhuo",
+      "li-bai--jiangjinjiu",
+      "li-bai--shudaonan"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--du-fu-shipian-li-bai",
+      "src--oku-no-hosomichi-jobun"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "정형의 율시가 지배하던 시대에 길이도 가락도 매이지 않는 가행과 악부로 되돌아가, 술과 달과 신선의 상상으로 한시가 규칙 바깥에서도 설 수 있음을 보여주었다."
+    "importanceReason": "정형의 율시가 지배하던 시대에 길이도 가락도 매이지 않는 가행과 악부로 되돌아가, 술과 달과 신선의 상상으로 한시가 규칙 바깥에서도 설 수 있음을 보여주었다. 「촉도난」처럼 행의 길이가 들쭉날쭉한 장편에서는 구법의 파격 자체가 험한 길의 형상이 되어, 형식과 내용이 맞물리는 방식을 넓혔다. 두보와 나란히 놓이면서 한시는 규범과 자유라는 두 축을 갖게 되었고, 이후 동아시아의 시인들은 대체로 둘 중 하나를 자기 계보로 골랐다.",
+    "difficulty": 3,
+    "difficultyReason": "번역으로 읽으면 이미지는 곧바로 오지만 「장진주」·「촉도난」은 전고와 지명이 촘촘해 주석 없이는 표면만 지나가고, 가행체는 원문의 가락이 시의 절반이어서 원문을 나란히 실은 판본이 사실상 필요하다.",
+    "readingEntry": "li-bai--jingyesi",
+    "readingEntryReason": "스무 자 넉 줄이라 한 호흡에 끝나고, 달빛과 고향 생각이라는 가장 단순한 재료만으로 이 시인의 이미지 감각을 곧바로 보여준다.",
+    "readingWarning": "「촉도난」부터 시작하면 지명과 전설의 주석에 막힌다. 짧은 절구에서 가행체 장편으로 올라가는 순서를 권한다."
   },
   {
     "id": "du-fu",
@@ -10303,7 +10593,7 @@
         "두공부"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 712,
     "deathYear": 770,
     "activeRange": [
@@ -10322,13 +10612,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "du-fu--chunwang",
+      "du-fu--shihaoli",
+      "du-fu--dengao",
+      "du-fu--qiuxingbashou"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--dusi-eonhae-1481",
+      "src--oku-no-hosomichi-hiraizumi"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "안녹산의 난에 휩쓸린 백성의 고통을 자기 처지와 함께 율시의 엄격한 틀 안에 눌러 담아, 시로 시대를 기록한다는 '시사'의 자리를 만들었다."
+    "importanceReason": "안녹산의 난에 휩쓸린 백성의 고통을 자기 처지와 함께 율시의 엄격한 틀 안에 눌러 담아, 시로 시대를 기록한다는 '시사(詩史)'의 자리를 만들었다. 대구와 성률의 규칙을 어기지 않으면서 징집·굶주림·피난 같은 산문적 사실을 시 안으로 끌어들여, 형식의 엄밀함이 오히려 증언의 밀도를 높이는 문장을 썼다. 송대 이후 그는 시를 배우는 사람이 반드시 거치는 표준 교본이 되었고, 조선에서는 『두시언해』라는 관찬 번역의 대상이 되었다.",
+    "difficulty": 4,
+    "difficultyReason": "율시의 대구는 한 글자씩 짝을 맞춰 압축돼 있어 번역에서 가장 많이 손실되고, 「추흥팔수」 같은 연작은 안사의 난 전후의 정황과 전고를 함께 알아야 여덟 수가 하나의 구조로 묶인다.",
+    "readingEntry": "du-fu--chunwang",
+    "readingEntryReason": "여덟 구 마흔 자로 짧고, 「나라는 부서졌어도 산하는 남았다」는 첫 구가 이미 널리 알려져 있어 전란과 개인이 겹치는 두보의 자리를 가장 적은 분량으로 보여준다.",
+    "readingWarning": "「추흥팔수」부터 들어가면 전고와 기주 시절의 정황에 막힌다. 사건이 표면에 드러난 짧은 시부터 읽고 만년의 연작으로 올라가는 편이 낫다."
   },
   {
     "id": "bai-juyi",
@@ -11606,7 +11912,7 @@
       "original": "紫式部",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 973,
     "deathYear": 1014,
     "activeRange": [
@@ -11625,13 +11931,31 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "murasaki-shikibu--genjimonogatari",
+      "murasaki-shikibu--murasakishikibunikki",
+      "murasaki-shikibu--murasakishikibushu"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions",
+      "src--kawabata-nobel-lecture",
+      "src--woolf-tale-of-genji-vogue-1925"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "수백 인물의 심리를 좇아 네 세대 칠십여 년을 한 편에 담은 『겐지 이야기』를 써서, 사건의 나열이 아니라 내면으로 움직이는 장편 이야기를 일본어 산문 안에 세웠다."
+    "importanceReason": "수백 인물의 심리를 좇아 네 세대 칠십여 년을 한 편에 담은 『겐지 이야기』를 써서, 사건의 나열이 아니라 내면으로 움직이는 장편 이야기를 일본어 산문 안에 세웠다. 인물의 마음을 서술자의 목소리와 겹쳐 놓아 지문과 심중어의 경계를 흐리는 문장을 쓰고, 계절·의복·와카 증답이 감정을 대신 말하게 하는 방법을 결합했다. 이 작품은 이후 일본 문학이 '모노노아와레'라는 이름으로 자기 미의식을 설명할 때 근거로 삼는 텍스트가 되었다.",
+    "difficulty": 4,
+    "difficultyReason": "주어가 자주 생략되고 인물이 이름 대신 관직과 거처로 불려 누가 말하는지 계속 추적해야 하며, 54첩의 분량 안에서 와카 증답이 대화의 절반을 맡는다. 계보표와 주석이 붙은 판본이 사실상 필수다.",
+    "readingEntry": "murasaki-shikibu--genjimonogatari",
+    "readingEntryReason": "이 사람의 전부가 이 한 편에 있고, 「기리쓰보」에서 「와카무라사키」까지의 앞부분이 하나의 단위로 읽혀 전체를 읽기 전에도 서술 방식이 드러난다.",
+    "readingWarning": "마지막 「우지 십첩」만 따로 떼어 읽거나 계보 없이 중반부터 들어가면, 관직명으로만 불리는 인물들의 관계가 무너진다. 계보표가 붙은 판본으로 앞에서부터 읽는 편이 낫다."
   },
   {
     "id": "sei-shonagon",
@@ -11946,7 +12270,7 @@
       "original": "松尾芭蕉",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1644,
     "deathYear": 1694,
     "activeRange": [
@@ -11965,13 +12289,31 @@
       "renaissance-baroque"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "matsuo-basho--oku-no-hosomichi",
+      "matsuo-basho--nozarashi-kiko",
+      "matsuo-basho--sarumino",
+      "matsuo-basho--fuyu-no-hi"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--aozora-bunko",
+      "src--keene-world-within-walls",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "말장난에 머물던 하이카이를 한순간의 감각을 붙드는 시로 바꾸고, 동북 지방을 걸으며 산문과 발구를 엮은 『오쿠로 가는 좁은 길』로 기행문의 형식을 새로 만들었다."
+    "importanceReason": "말재간 겨루기에 머물던 하이카이에서 발구를 떼어내, 계어와 기레지로 한순간의 감각을 끊어 세우는 한 편의 시로 만들었다. 『오쿠로 가는 좁은 길』은 1689년의 실제 도보 여정을 압축하고 재배치한 산문 사이에 발구를 박아 넣어, 기행과 시가 서로를 설명하지 않고 겹치게 하는 하이분의 틀을 굳혔다. 이후 하이쿠라는 독립된 시형과 일본 기행문학이 함께 되돌아보는 기준점이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "발구 한 편이 계어·기레지·고전 인용에 기대어 접혀 있어 주석 없이는 장면이 펴지지 않고, 5·7·5의 소리는 번역에서 사라져 원문과 주석을 함께 보게 된다. 기행문 쪽 산문은 문장이 짧고 평이하다.",
+    "readingEntry": "matsuo-basho--oku-no-hosomichi",
+    "readingEntryReason": "산문과 발구가 번갈아 나와 발구만 모은 선집보다 맥락이 잡히고, 여정이 이야기의 뼈대를 대신해 주기 때문에 하이카이의 규칙을 몰라도 끝까지 읽힌다.",
+    "readingWarning": "『사루미노』나 『겨울날』부터 펴면 가센(연구)의 이어짓기 규칙과 계어 지식이 먼저 필요해 진도가 나가지 않는다."
   },
   {
     "id": "ihara-saikaku",
@@ -18732,7 +19074,7 @@
         "단테"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1265,
     "deathYear": 1321,
     "activeRange": [
@@ -18752,13 +19094,31 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "epic",
+      "poetry",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "dante-alighieri--la-vita-nuova",
+      "dante-alighieri--la-divina-commedia",
+      "dante-alighieri--il-convivio",
+      "dante-alighieri--de-vulgari-eloquentia"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--treccani",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "라틴어가 아닌 토스카나 속어로 저승 전체를 삼행운으로 설계하고 그 안에 동시대 사람들을 실명으로 배치해, 이탈리아어를 문학의 언어로 만들었다."
+    "importanceReason": "라틴어 대신 토스카나 속어로 저승의 세 층위를 삼행운(테르차 리마)의 연쇄로 설계하고, 그 안에 동시대 피렌체 사람들을 실명과 죄목으로 배치했다. 신학 체계를 걸어서 통과할 수 있는 지형으로 번역한 이 구조 덕분에 속어가 신학과 정치를 감당하는 문장이 되었고, 그가 쓴 토스카나어는 이탈리아 문학어의 기준이 되었다. 『향연』과 『속어론』은 그 선택을 스스로 논증한 산문이다.",
+    "difficulty": 4,
+    "difficultyReason": "삼행운의 압축된 구문에 스콜라 신학, 프톨레마이오스 우주론, 13세기 피렌체 정파 정치가 전제로 깔려 있어 한 곡을 읽는 동안 본문과 주석을 계속 왕복해야 한다.",
+    "readingEntry": "dante-alighieri--la-vita-nuova",
+    "readingEntryReason": "시 31편과 그 사이의 짧은 산문 해설로 이루어져 하룻밤에 읽히고, 베아트리체가 누구이며 왜 『신곡』의 안내자가 되는지가 여기서 마련된다.",
+    "readingWarning": "주석이 얇은 판본으로 『신곡』을 시작하면 지옥편의 피렌체 인명에서 멈춘다. 주석 분량이 본문에 맞먹는 판을 고르는 편이 낫다."
   },
   {
     "id": "giovanni-villani",
@@ -22482,7 +22842,7 @@
       "original": "Mario Vargas Llosa",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1936,
     "deathYear": 2025,
     "activeRange": [
@@ -22503,13 +22863,30 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "mario-vargas-llosa--la-ciudad-y-los-perros",
+      "mario-vargas-llosa--la-fiesta-del-chivo",
+      "mario-vargas-llosa--la-casa-verde",
+      "mario-vargas-llosa--conversacion-en-la-catedral"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "여러 시간대와 화자를 한 문장 안에서 겹쳐 놓는 구성을 밀어붙여 라틴아메리카 소설의 형식을 바꿨고, 군사학교와 독재를 통해 권력이 개인을 어떻게 길들이는지 썼다."
+    "importanceReason": "여러 시간대와 화자를 한 문단 안에 겹쳐 놓는 '중국 상자'와 '연통관' 같은 구성 장치를 소설 전체를 지탱하는 원리로 밀어붙였다. 군사학교, 아마존 밀림, 독재 정권을 그 구조 위에 올려 권력이 개인의 언어와 습관을 어떻게 길들이는지를 서술의 형식 자체로 보이게 했다. 붐 세대의 장편이 실험적 구성과 정치적 서사를 동시에 감당할 수 있다는 것을 그의 작품들이 증명했다.",
+    "difficulty": 4,
+    "difficultyReason": "화자를 밝히지 않은 채 시점을 옮기고, 한 문단 안에서 서로 다른 시간대의 대화를 교대로 놓기 때문에 누가 언제 말하는지를 독자가 계속 재구성해야 한다.",
+    "readingEntry": "mario-vargas-llosa--la-ciudad-y-los-perros",
+    "readingEntryReason": "구성 장치가 가장 얇게 쓰인 데뷔 장편이고, 군사학교라는 닫힌 공간이 시간 교차의 혼선을 잡아 준다.",
+    "readingWarning": "『라 카테드랄에서의 대화』로 시작하면 서로 다른 시간대의 대화가 한 문단에서 교대하는 방식 때문에 초반 100쪽에서 방향을 잃기 쉽다."
   },
   {
     "id": "guillermo-cabrera-infante",
@@ -28173,7 +28550,7 @@
         "세르반테스"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1547,
     "deathYear": 1616,
     "activeRange": [
@@ -28192,13 +28569,30 @@
       "renaissance-baroque"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "miguel-de-cervantes--don-quijote-de-la-mancha",
+      "miguel-de-cervantes--novelas-ejemplares",
+      "miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda",
+      "miguel-de-cervantes--la-galatea"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--cervantes-virtual",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "기사도 소설을 너무 읽은 노인을 들판에 내보내 읽은 것과 보이는 것이 어긋나는 자리에서 인물의 내면이 생기게 했고, 2부에서는 등장인물들이 1부를 읽은 세계를 다시 썼다."
+    "importanceReason": "기사도 소설을 너무 읽은 노인을 들판에 내보내, 읽은 것과 보이는 것이 어긋나는 자리에서 인물의 내면이 생겨나게 했다. 2부에서는 등장인물들이 1부를 이미 읽은 세계를 다시 써서, 소설이 자기 자신을 인용하고 반박하는 장치를 본문 안에 집어넣었다. 패러디에서 출발한 이 구조가 근대 장편소설이 착오와 자의식을 다루는 표준 문법이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "문장과 사건 자체는 어렵지 않지만 분량이 1000쪽을 넘고, 겨냥하는 기사도 소설과 목가 소설의 관습을 주석으로 채워야 농담이 농담으로 읽힌다.",
+    "readingEntry": "miguel-de-cervantes--don-quijote-de-la-mancha",
+    "readingEntryReason": "삽화들이 각각 완결되어 있어 끊어 읽어도 되고, 2부의 자기 인용 구조는 1부를 통과한 뒤라야 작동한다.",
+    "readingWarning": "『라 갈라테아』나 『페르실레스』부터 들어가면 목가·비잔틴 로맨스의 관습이 그대로 남아 있어, 『돈키호테』가 무엇을 겨냥했는지 알기 전에 지친다."
   },
   {
     "id": "lope-de-vega",
@@ -29476,7 +29870,7 @@
       "original": "William Shakespeare",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1564,
     "deathYear": 1616,
     "activeRange": [
@@ -29495,13 +29889,31 @@
       "renaissance-baroque"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "drama",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "william-shakespeare--macbeth",
+      "william-shakespeare--the-tempest",
+      "william-shakespeare--hamlet",
+      "william-shakespeare--king-lear",
+      "william-shakespeare--sonnets"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "독백을 인물이 자기 말을 듣고 생각을 바꾸는 자리로 만들어, 무대 위의 사람이 말하는 동안 다른 사람이 되는 일을 가능하게 했고 비극과 희극의 경계도 한 작품 안에서 흔들었다."
+    "importanceReason": "독백을 인물이 자기 말을 듣고 생각을 바꾸는 자리로 만들어, 무대 위의 사람이 말하는 동안 다른 사람이 되는 과정을 관객이 지켜보게 했다. 무운시의 행을 문장 도중에 끊고 산문과 섞어 신분과 정신 상태에 따라 말의 결을 바꿨고, 비극 안에 광대와 익살을 남겨 장르의 경계를 한 작품 안에서 흔들었다. 이 방법이 이후 연극과 소설이 인물의 내면을 다루는 기본형이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "무운시의 행이 문장 중간에서 끊기고 한 단어가 두세 뜻으로 동시에 쓰여, 번역본에서도 주석을 짚어 가며 읽게 된다. 사건의 줄기 자체는 따라가기 쉽다.",
+    "readingEntry": "william-shakespeare--macbeth",
+    "readingEntryReason": "비극 가운데 가장 짧고 곁가지가 없어 한자리에서 끝까지 간다. 독백이 인물의 결심을 뒤집는 장면이 연달아 나와 그의 핵심 방법을 바로 만난다.",
+    "readingWarning": "『소네트』나 『리어 왕』부터 시작하면 압축된 은유와 판본 차이 때문에 문장 단위에서 멈춘다."
   },
   {
     "id": "christopher-marlowe",
@@ -30890,7 +31302,7 @@
       "original": "Edgar Allan Poe",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1809,
     "deathYear": 1849,
     "activeRange": [
@@ -30909,13 +31321,33 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "poetry",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "edgar-allan-poe--the-fall-of-the-house-of-usher",
+      "edgar-allan-poe--the-murders-in-the-rue-morgue",
+      "edgar-allan-poe--the-raven",
+      "edgar-allan-poe--the-philosophy-of-composition",
+      "edgar-allan-poe--arthur-gordon-pym"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--library-of-america",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "추리소설이라는 장르를 사실상 혼자 발명했고, 단편은 한자리에서 읽혀 하나의 효과로 수렴해야 한다는 원리를 세워 근대 단편소설의 형식을 규정했다."
+    "importanceReason": "단편은 한자리에서 읽혀 하나의 효과로 수렴해야 한다는 원리를 「구성의 철학」에서 명시하고, 그 원리대로 분량과 어휘와 후렴을 계산해 쓴 이야기들을 남겼다. 뒤팽이 나오는 세 편에서는 밀실, 아마추어 추론가, 둔한 기록자 화자, 논리로 되짚는 해결이라는 부품을 한 세트로 갖춘 이야기를 만들었다. 이 두 가지가 근대 단편소설의 형식과 추리 장르의 골격이 되었다.",
+    "difficulty": 2,
+    "difficultyReason": "단편은 짧고 사건이 선명하지만, 19세기 미국 산문의 만연체와 라틴어·고전 인용, 화자의 과장된 어조가 속도를 늦춘다.",
+    "readingEntry": "edgar-allan-poe--the-fall-of-the-house-of-usher",
+    "readingEntryReason": "짧고 사건이 하나뿐이라 한자리에서 읽히며, 그가 말한 '단일한 효과'가 어떻게 작동하는지 이 한 편으로 확인된다.",
+    "readingWarning": "『아서 고든 핌의 모험』으로 시작하면 항해 기록 문체의 장광설과 갑작스러운 결말 때문에, 그의 단편이 가진 밀도를 만나기 전에 지친다."
   },
   {
     "id": "oliver-wendell-holmes",
@@ -31103,7 +31535,7 @@
       "original": "Herman Melville",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1819,
     "deathYear": 1891,
     "activeRange": [
@@ -31124,13 +31556,30 @@
       "early-modernism"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "herman-melville--bartleby-the-scrivener",
+      "herman-melville--benito-cereno",
+      "herman-melville--billy-budd",
+      "herman-melville--moby-dick"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "포경선 항해기에 희곡과 논문과 성서 주석을 뒤섞어 소설이 무엇이든 삼킬 수 있는 형식임을 보였고, 『필경사 바틀비』의 거절 한마디로 근대 사무실의 저항을 예고했다."
+    "importanceReason": "포경선 항해기에 희곡과 논문과 성서 주석을 뒤섞어 소설이 무엇이든 삼킬 수 있는 형식임을 보였다. 『모비 딕』은 고래 해부학을 다루는 장과 셰익스피어식 방백·무대 지시문을 한 권 안에 나란히 두어 장르의 경계를 실무 문서 쪽으로 밀어냈고, 『필경사 바틀비』의 '하지 않는 편을 택하겠습니다'라는 거절 한마디는 근대 사무실의 저항을 한 문장으로 압축했다. 생전에 절판된 채 잊혔던 이 소설들은 1919년 탄생 100주년 이후의 재발견을 거쳐 미국 소설이 자기 규모를 재는 척도가 되었다.",
+    "difficulty": 4,
+    "difficultyReason": "『모비 딕』은 고래학 논문·설교·희곡 장면이 서사를 계속 끊고, 항해 실무 용어와 성서·셰익스피어 인유가 문장 단위로 깔려 있어 주석 없이는 속도가 나지 않는다. 단편들은 같은 작가라고 믿기 어려울 만큼 정연하다.",
+    "readingEntry": "herman-melville--bartleby-the-scrivener",
+    "readingEntryReason": "한두 시간 분량 안에 멜빌의 핵심 — 설명되지 않는 거절과 그것을 견디지 못하는 조직 — 이 다 들어 있고, 문장도 그의 산문 중 가장 정돈되어 있다.",
+    "readingWarning": "『모비 딕』부터 잡으면 항해가 시작된 뒤 이어지는 고래학 장들에서 대개 멈춘다. 단편 두세 편으로 문체에 익숙해진 뒤에 가는 편이 안전하다."
   },
   {
     "id": "louisa-may-alcott",
@@ -31175,7 +31624,7 @@
         "Samuel Langhorne Clemens"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1835,
     "deathYear": 1910,
     "activeRange": [
@@ -31195,13 +31644,30 @@
       "early-modernism"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "mark-twain--the-adventures-of-tom-sawyer",
+      "mark-twain--the-prince-and-the-pauper",
+      "mark-twain--adventures-of-huckleberry-finn",
+      "mark-twain--life-on-the-mississippi"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "미시시피 강가 소년의 입말을 그대로 소설의 문장으로 삼아 미국 산문이 영국식 문어에서 떨어져 나오는 지점을 만들었고, 그 목소리로 노예제와 위선을 안에서 무너뜨렸다."
+    "importanceReason": "미시시피 강가 소년의 입말을 그대로 소설의 문장으로 삼아, 미국 산문이 영국식 문어에서 떨어져 나오는 지점을 만들었다. 『허클베리 핀의 모험』은 화자의 무지와 방언을 손대지 않은 채 노예제를 다루어, 헉이 짐을 신고하지 않기로 하며 '그럼 좋아, 나는 지옥에 가겠다'고 말하는 대목처럼 가장 큰 도덕적 판단을 문법이 틀린 소년의 문장 안에 숨겨 둔다. 그 결과 같은 책이 소년 모험담으로도, 그 사회를 안에서부터 무너뜨리는 기록으로도 읽힌다.",
+    "difficulty": 2,
+    "difficultyReason": "문장이 구어라 술술 읽히지만, 작가가 서두에서 밝힌 대로 일곱 갈래 방언이 표기 그대로 쓰여 원문 독서는 속도가 크게 떨어진다. 19세기 미시시피 유역의 인종 어휘와 관습도 주석 없이는 오독되기 쉽다.",
+    "readingEntry": "mark-twain--the-adventures-of-tom-sawyer",
+    "readingEntryReason": "분량이 짧고 사건이 에피소드 단위로 끊겨 있어 강가 마을의 지형과 인물이 자연스럽게 손에 익는다. 『허클베리 핀』의 무대와 인물이 여기서 그대로 이어진다.",
+    "readingWarning": "『허클베리 핀의 모험』을 『톰 소여』의 아동용 속편으로 읽으면 헉이 짐을 신고하지 않기로 하는 중반의 전환이 통째로 지나간다. 아동용 축약본은 그 대목과 인종 어휘를 함께 잘라 낸 경우가 많다."
   },
   {
     "id": "william-dean-howells",
@@ -32246,7 +32712,7 @@
       "original": "John Steinbeck",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1902,
     "deathYear": 1968,
     "activeRange": [
@@ -32267,13 +32733,29 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "john-steinbeck--of-mice-and-men",
+      "john-steinbeck--cannery-row",
+      "john-steinbeck--the-grapes-of-wrath",
+      "john-steinbeck--east-of-eden"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--library-of-america"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "대공황기 오클라호마 소작농의 이주를 직접 취재해 신문 기사의 문체와 성서적 문체를 나란히 붙여 놓았고, 『분노의 포도』는 실제 농업 노동 정책 논쟁까지 끌어냈다."
+    "importanceReason": "대공황기 오클라호마 소작농의 이주를 직접 취재해, 신문 기사의 문체와 성서적 문체를 한 권 안에 나란히 붙여 놓았다. 『분노의 포도』는 조드 가족의 이야기 사이사이에 이주 전체를 다루는 짧은 삽입장을 규칙적으로 끼워 넣어, 한 가족의 사연과 수십만 명의 통계를 같은 리듬으로 읽게 만든다. 출간 직후 캘리포니아 농업 노동 정책 논쟁의 자료로 인용되고 컨 카운티에서는 금서가 되면서, 소설이 정책 현장으로 곧장 끌려 나온 사례가 되었다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 사건은 평이하지만 『분노의 포도』의 삽입장이 서사를 규칙적으로 끊어 처음에는 리듬을 잃기 쉽고, 오클라호마 방언 대사가 길게 이어지는 구간에서 호흡이 달라진다.",
+    "readingEntry": "john-steinbeck--of-mice-and-men",
+    "readingEntryReason": "희곡처럼 장면 단위로 짜인 100쪽 안팎의 중편이라 하루면 끝나고, 스타인벡이 평생 다룬 주제 — 땅을 갖지 못한 노동자와 그들 사이의 부양 관계 — 가 여기에 압축되어 있다.",
+    "readingWarning": "『에덴의 동쪽』으로 시작하면 두 가문 4대의 계보와 「창세기」 카인·아벨 구도를 동시에 따라가야 해서 초반이 무겁다. 중편에서 장편으로 가는 순서를 권한다."
   },
   {
     "id": "langston-hughes",
@@ -35557,7 +36039,7 @@
         "우마르 하이얌"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1048,
     "deathYear": 1131,
     "activeRange": [
@@ -35576,13 +36058,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "omar-khayyam--rubaiyat",
+      "omar-khayyam--risala-fi-l-jabr-wa-l-muqabala",
+      "omar-khayyam--sharh-musadarat-uqlidis"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "달력을 고치던 천문학자가 네 줄짜리 루바이로 죽음과 무상을 말했고, 19세기 피츠제럴드의 영어 번역본이 판을 거듭하며 영어권의 애송시가 되었다."
+    "importanceReason": "달력을 고치던 천문학자가 네 줄짜리 루바이로 죽음과 무상을 말했고, 술잔·흙·지나간 왕들이라는 몇 개의 사물만으로 같은 회의를 끝없이 변주했다. 3차방정식을 원뿔곡선의 교점으로 푸는 대수 논고를 쓴 사람과 동일인이라는 사정 때문에, 그의 사행시는 페르시아 문학에서 수피 신비주의로도 무신론적 회의로도 읽히는 이중 국적을 얻었다. 19세기 피츠제럴드의 영어 번역본이 판을 거듭하며 영어권의 애송시가 되었고, 그 인기가 거꾸로 이란 안에서의 하이얌 연구를 자극했다.",
+    "difficulty": 2,
+    "difficultyReason": "한 편이 네 줄로 끝나는 형식이라 문장의 장벽은 없다. 대신 어느 사본을 저본으로 삼느냐에 따라 수록 편수가 수십에서 천 편까지 달라지고 번역본마다 시인의 인상이 달라진다는 사정을, 읽기 전에 알아 두어야 한다.",
+    "readingEntry": "omar-khayyam--rubaiyat",
+    "readingEntryReason": "남은 저작 가운데 문학 작품은 이 사행시집뿐이고, 아무 쪽에서나 펼쳐 읽어도 되는 형식이라 진입 비용이 사실상 없다.",
+    "readingWarning": "피츠제럴드의 1859년 영역본은 배열과 시상을 상당 부분 다시 쓴 번안에 가깝다. 그것만 읽고 하이얌을 읽었다고 하면, 사본 계열마다 진작 판정이 갈린다는 이 시집의 근본 사정이 통째로 빠진다."
   },
   {
     "id": "sanai",
@@ -35702,7 +36200,7 @@
         "메블라나"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1207,
     "deathYear": 1273,
     "activeRange": [
@@ -35722,13 +36220,29 @@
       "antiquity-medieval"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "rumi--divan-e-shams-e-tabrizi",
+      "rumi--fihi-ma-fihi",
+      "rumi--masnavi-i-manavi"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "샴스와의 만남과 상실을 계기로 신학 교사에서 시인이 되었고, 이야기와 우화를 층층이 쌓은 『마스나비』로 페르시아어 신비주의 시의 가장 큰 뼈대를 세웠다."
+    "importanceReason": "샴스와의 만남과 상실을 계기로 신학 교사에서 시인이 되었고, 이야기 안에 이야기를 접어 넣는 방식으로 『마스나비』 여섯 권을 썼다. 우화가 끝나기 전에 다음 우화가 시작되고 그 사이로 코란 구절의 해설이 끼어드는 이 구조는, 교리를 설명하는 대신 독자가 비유 사이에서 길을 잃는 경험 자체를 방법으로 삼는다. 그의 문하는 사후 메블레비 교단으로 정비되어 시와 선회무를 함께 전승했고, 페르시아어 신비주의 시의 가장 큰 뼈대가 그의 이름으로 남았다.",
+    "difficulty": 4,
+    "difficultyReason": "『마스나비』는 2만 5천 행 규모에 액자가 여러 겹 겹치고, 코란과 하디스 인용이 예고 없이 본문에 섞여 들어 어디서 비유가 끝나고 주석이 시작되는지 주석서 없이는 잡기 어렵다.",
+    "readingEntry": "rumi--divan-e-shams-e-tabrizi",
+    "readingEntryReason": "한 편이 짧은 서정시들의 묶음이라 어디서 끊어 읽어도 되고, 상실과 도취라는 루미의 정서가 가장 직접적으로 드러난다.",
+    "readingWarning": "영어권에서 널리 읽히는 '루미'의 상당수는 페르시아어 원문이 아니라 기존 영역본을 다시 쓴 번안이며(콜먼 바크스 판이 대표적), 그런 판본에서는 코란 인용과 이야기의 액자 구조가 대부분 지워져 있다. 중역본을 고를 때 저본을 확인해야 한다."
   },
   {
     "id": "saadi-shirazi",
@@ -43053,7 +43567,7 @@
         "코난 도일"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1859,
     "deathYear": 1930,
     "activeRange": [
@@ -43074,13 +43588,28 @@
       "mid-century"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "arthur-conan-doyle--the-adventures-of-sherlock-holmes",
+      "arthur-conan-doyle--the-hound-of-the-baskervilles",
+      "arthur-conan-doyle--a-study-in-scarlet",
+      "arthur-conan-doyle--the-lost-world"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "관찰과 추론만으로 사건을 푸는 탐정을 세워 추리소설의 문법을 굳혔고, 잡지 연재를 같은 주인공의 독립된 단편들로 묶어 시리즈물의 틀을 만들었다."
+    "importanceReason": "관찰과 추론만으로 사건을 푸는 탐정을 세워 추리소설의 문법을 굳혔고, 잡지 연재를 같은 주인공의 독립된 단편들로 묶어 시리즈물의 틀을 만들었다. 《스트랜드》에 매달 한 편씩 완결되는 홈즈 단편을 실으면서, 독자가 다음 호를 사게 만드는 것은 이어지는 줄거리가 아니라 되돌아오는 인물이라는 사실을 잡지 산업에 증명했다. 그 결과 홈즈는 작가가 라이헨바흐 폭포에서 죽인 뒤 독자의 항의에 밀려 되살려야 했던, 저자의 통제를 벗어난 인물이 되었다.",
+    "difficulty": 1,
+    "difficultyReason": "문장이 짧고 사건이 의뢰–관찰–해답의 순서로 정연히 진행되어 배경지식 없이 읽힌다. 걸리는 것은 빅토리아 시대 런던의 지명과 직업·화폐 단위 정도이고 대개 각주로 해결된다.",
+    "readingEntry": "arthur-conan-doyle--the-adventures-of-sherlock-holmes",
+    "readingEntryReason": "한 편이 스무 쪽 남짓에 끝나는 단편 열두 편 묶음이라 어디서 멈춰도 되고, 홈즈와 왓슨의 관계와 추론의 규칙이 첫 편 「보헤미아 왕국 스캔들」 하나에 다 드러난다.",
+    "readingWarning": "『주홍색 연구』로 시작하면 2부 전체가 홈즈도 왓슨도 나오지 않는 유타의 모르몬 서사로 넘어가, 첫 독자에게는 책이 두 동강 난 것처럼 읽힌다. 단편집을 먼저 읽고 오는 편이 낫다."
   },
   {
     "id": "agatha-christie",
@@ -43089,7 +43618,7 @@
       "original": "Agatha Christie",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1890,
     "deathYear": 1976,
     "activeRange": [
@@ -43110,13 +43639,30 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "agatha-christie--and-then-there-were-none",
+      "agatha-christie--the-mysterious-affair-at-styles",
+      "agatha-christie--murder-on-the-orient-express",
+      "agatha-christie--the-murder-of-roger-ackroyd"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--christie-an-autobiography",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "독자에게 단서를 모두 보여주고도 속이는 규칙을 세워 추리소설을 하나의 게임으로 만들었고, 서술자를 믿을 수 있다는 전제까지 뒤집어 그 규칙의 한계를 스스로 시험했다."
+    "importanceReason": "독자에게 단서를 모두 보여주고도 속이는 규칙을 세워 추리소설을 하나의 게임으로 만들었고, 서술자를 믿을 수 있다는 전제까지 뒤집어 그 규칙의 한계를 스스로 시험했다. 저택·열차·섬처럼 용의자를 가둘 수 있는 폐쇄 공간, 잡담 속에 숨긴 결정적 진술, 마지막 장의 집합 추리라는 조립 부품을 표준화해 이후 추리소설이 변형해 쓸 판형을 남겼다. 66편의 장편을 통해 그 판형은 대중 독자가 '추리소설'이라는 말로 떠올리는 형태 자체가 되었고, 유네스코 번역 통계에서 가장 많이 번역된 작가로 꼽힌다.",
+    "difficulty": 1,
+    "difficultyReason": "문장이 짧고 사건이 대화로 굴러가 배경지식이 필요 없다. 다만 한 작품에 등장인물이 열 명 넘게 한꺼번에 나오는 편이라 이름과 알리바이를 메모하며 읽으면 훨씬 편하다.",
+    "readingEntry": "agatha-christie--and-then-there-were-none",
+    "readingEntryReason": "시리즈 탐정 없이 한 권으로 완결되고 분량이 짧으며, 열 사람이 동요의 순서대로 줄어드는 구조가 크리스티의 규칙을 가장 선명하게 보여준다.",
+    "readingWarning": "『애크로이드 살인 사건』부터 집으면 트릭이 널리 알려져 있어 효과가 반감된다. 장르의 관습을 두어 권 겪은 뒤에 읽어야 그 위반이 무엇을 건드렸는지 보인다."
   },
   {
     "id": "jrr-tolkien",
@@ -43127,7 +43673,7 @@
         "John Ronald Reuel Tolkien"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1892,
     "deathYear": 1973,
     "activeRange": [
@@ -43148,13 +43694,30 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "jrr-tolkien--the-hobbit",
+      "jrr-tolkien--the-lord-of-the-rings",
+      "jrr-tolkien--on-fairy-stories",
+      "jrr-tolkien--the-silmarillion"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "언어를 먼저 만들고 그 언어가 쓰일 역사와 신화를 지어 세계를 완성해, 이후의 판타지가 따르게 될 '이차 세계'의 규격을 세웠다."
+    "importanceReason": "언어를 먼저 만들고 그 언어가 쓰일 역사와 신화를 지어 세계를 완성해, 이후의 판타지가 따르게 될 '이차 세계'의 규격을 세웠다. 지명·계보·연대기·부록까지 갖춘 중간계는 소설의 배경이 아니라 인용할 수 있는 문헌 체계로 제시되고, 강연을 고친 「요정 이야기에 관하여」는 그 방법을 '이차 믿음'과 회복·도피·위안이라는 개념으로 정리했다. 고대 영어 문헌학자의 훈련이 그대로 창작 원리가 된 이 작업 이후, 판타지는 개별 이야기가 아니라 세계를 짓는 장르로 취급되었다.",
+    "difficulty": 3,
+    "difficultyReason": "『호빗』은 평이하지만 『반지의 제왕』은 세 권 분량에 삽입 시가와 부록·연대표가 붙고, 『실마릴리온』은 인물 대신 계보가 서술을 끌어가는 신화지 문체라 고유명사 밀도가 급격히 올라간다.",
+    "readingEntry": "jrr-tolkien--the-hobbit",
+    "readingEntryReason": "300쪽 남짓 단권이고 어조가 아이에게 말하듯 명료해서, 이후 장편이 아무 설명 없이 전제하는 중간계의 지리와 종족을 이야기를 따라가는 동안 익히게 된다.",
+    "readingWarning": "『실마릴리온』으로 시작하면 인물보다 계보와 지명이 먼저 쏟아져 중도에 놓기 쉽다. 『호빗』에서 장편으로 올라가는 순서를 권한다."
   },
   {
     "id": "cs-lewis",
@@ -44675,7 +45238,7 @@
       "original": "Roald Dahl",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1916,
     "deathYear": 1990,
     "activeRange": [
@@ -44697,13 +45260,29 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "roald-dahl--charlie-and-the-chocolate-factory",
+      "roald-dahl--matilda",
+      "roald-dahl--the-bfg",
+      "roald-dahl--kiss-kiss"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--sturrock-storyteller-roald-dahl",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "아이를 보호받는 존재가 아니라 어른의 악의와 맞서 끝내 복수하는 주인공으로 세워, 아동문학에 잔혹한 웃음을 허용했다."
+    "importanceReason": "아이를 보호받는 존재가 아니라 어른의 악의와 맞서 끝내 복수하는 주인공으로 세워, 아동문학에 잔혹한 웃음을 허용했다. 아이 편에 붙은 화자, 우스꽝스럽게 과장된 악인, 발명된 낱말과 교훈시처럼 삽입된 노래라는 장치를 붙여 훈육담이 있던 자리에 보복담을 놓았고, 같은 잔혹함을 성인 단편에서는 마지막 한 줄의 반전으로 썼다. 그 결과 아동문학은 어른의 세계를 미화하지 않고도 아이에게 읽힐 수 있는 영역이 되었다.",
+    "difficulty": 1,
+    "difficultyReason": "장이 짧고 문장이 구어에 가까워 소리 내어 읽어도 걸리는 데가 없다. 발명된 낱말과 말장난이 많아 번역본에 따라 웃음의 결이 달라지는 것이 거의 전부의 어려움이다.",
+    "readingEntry": "roald-dahl--charlie-and-the-chocolate-factory",
+    "readingEntryReason": "국내에서 가장 널리 알려져 있고, 다섯 아이가 각자의 악덕대로 공장에서 사라지는 구조 안에 달의 규칙 — 악의에는 응징, 아이 편에 선 화자 — 이 한 권으로 압축돼 있다.",
+    "readingWarning": "『키스 키스』 같은 성인 단편집을 아동서로 알고 집으면 어긋난다. 잔혹함의 종류는 같지만 독자가 다르고, 결말이 아이를 위해 정리되지 않는다."
   },
   {
     "id": "beatrix-potter",
@@ -45396,7 +45975,7 @@
       "original": "Jean-Paul Sartre",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1905,
     "deathYear": 1980,
     "activeRange": [
@@ -45417,13 +45996,32 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "jean-paul-sartre--huis-clos",
+      "jean-paul-sartre--la-nausee",
+      "jean-paul-sartre--l-existentialisme-est-un-humanisme",
+      "jean-paul-sartre--les-mots",
+      "jean-paul-sartre--l-etre-et-le-neant"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "실존이 본질에 앞선다는 명제를 소설과 희곡으로 옮겨 철학을 이야기의 형태로 유통시켰고, 작가가 제도에 편입되는 것을 거부하며 노벨상을 사양했다."
+    "importanceReason": "실존이 본질에 앞선다는 명제를 소설과 희곡으로 옮겨 철학을 이야기의 형태로 유통시켰고, 작가가 제도에 편입되는 것을 거부하며 노벨상을 사양했다. 『구토』의 마로니에 뿌리 앞에서 밀려드는 구역질, 『닫힌 방』의 사라지지 않는 타인의 시선처럼 개념을 한 장면으로 응축하는 서술을 만들었고, 『레 탕 모데른』을 창간해 그 개념을 잡지·논쟁·성명이라는 상설 형식으로 옮겼다. 전후 20여 년간 유럽에서 문학의 '참여'는 그가 규정한 뜻으로 쓰였다.",
+    "difficulty": 4,
+    "difficultyReason": "소설과 희곡은 읽히지만 『존재와 무』는 후설·하이데거의 용어를 전제한 현상학 논문이고, 소설의 장면들도 즉자·대자·자기기만 같은 개념의 번역이라 개념 없이 읽으면 사건이 헛돈다.",
+    "readingEntry": "jean-paul-sartre--huis-clos",
+    "readingEntryReason": "한 시간 남짓 분량의 단막극이라 하루 저녁에 끝나고, 시선·자유·타인이라는 그의 주제가 무대 장치 없이 세 인물의 대사만으로 드러난다.",
+    "readingWarning": "『존재와 무』부터 읽으면 현상학 용어 때문에 초반에서 멈추기 쉽다. 희곡과 소설로 개념의 장면을 먼저 겪은 뒤에 여는 편이 낫다."
   },
   {
     "id": "raymond-queneau",
@@ -45757,7 +46355,7 @@
       "original": "Antoine de Saint-Exupéry",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1900,
     "deathYear": 1944,
     "activeRange": [
@@ -45777,13 +46375,30 @@
       "mid-century"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "antoine-de-saint-exupery--le-petit-prince",
+      "antoine-de-saint-exupery--vol-de-nuit",
+      "antoine-de-saint-exupery--terre-des-hommes",
+      "antoine-de-saint-exupery--pilote-de-guerre"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--odaert-saint-exupery-ecrivain",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "우편 비행사로서 사막과 밤하늘에서 본 것을 글로 옮겨 비행을 문학의 경험으로 만들었고, 망명지에서 쓴 『어린 왕자』를 남긴 뒤 정찰 비행에서 돌아오지 않았다."
+    "importanceReason": "우편 비행사로서 사막과 밤하늘에서 본 것을 글로 옮겨 비행을 문학의 경험으로 만들었고, 망명지에서 쓴 『어린 왕자』를 남긴 뒤 정찰 비행에서 돌아오지 않았다. 항로·기상·기체라는 직업의 언어를 그대로 쓰면서 의무와 동료애로 인간을 재는 산문을 만들었고, 사르트르는 『문학이란 무엇인가』에서 그를 헤밍웨이와 나란히 놓아 사물을 묘사하는 대신 행위 속에 담그는 서술의 이름으로 삼았다. 『어린 왕자』는 그 주제를 아이도 읽을 수 있는 우화로 압축해 수백 개 언어로 옮겨졌다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 짧고 명료하지만 비행 산문에는 항로·기상·기체의 용어가 그대로 나오고, 사건 대신 명상적 단상이 이어지는 구간이 있어 줄거리를 좇는 독법으로는 중간에 지루해지기 쉽다.",
+    "readingEntry": "antoine-de-saint-exupery--le-petit-prince",
+    "readingEntryReason": "한 시간이면 읽히고 이미 익숙하지만, 사막·불시착·길들임이라는 그의 평생 주제가 여기 가장 단순한 문장으로 모여 있어 이후 비행 산문을 읽는 열쇠가 된다.",
+    "readingWarning": "『어린 왕자』를 삽화 있는 아동서로만 읽고 덮으면, 같은 사막과 같은 불시착이 『인간의 대지』의 실제 조난 기록에서 다시 나온다는 것을 놓친다."
   },
   {
     "id": "georges-simenon",
@@ -45865,7 +46480,7 @@
       "original": "Hermann Hesse",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1877,
     "deathYear": 1962,
     "activeRange": [
@@ -45887,13 +46502,30 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "hermann-hesse--demian",
+      "hermann-hesse--siddhartha",
+      "hermann-hesse--der-steppenwolf",
+      "hermann-hesse--narziss-und-goldmund",
+      "hermann-hesse--das-glasperlenspiel"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "『싯다르타』와 『유리알 유희』에서 인도와 중국의 사유를 독일 교양소설의 뼈대에 접붙여, 자기를 찾아가는 여정을 동서양이 함께 쓰는 이야기로 만들었다."
+    "importanceReason": "『싯다르타』와 『유리알 유희』에서 인도와 중국의 사유를 독일 교양소설의 뼈대에 접붙여, 자기를 찾아가는 여정을 동서양이 함께 쓰는 이야기로 만들었다. 내면의 인도자(데미안), 갈라진 자아(황야의 이리), 정신과 감각의 분리(나르치스와 골드문트)처럼 심리적 대립항을 인물 둘로 나눠 세우는 구성을 반복해, 성장소설을 자기 분석의 형식으로 바꿨다. 1946년 노벨문학상 이후에도 그의 소설은 세대마다 다시 발견되어 1960년대 미국 반문화와 한국의 청소년 독서 목록에서 각각 다른 이유로 읽혔다.",
+    "difficulty": 3,
+    "difficultyReason": "문장과 서사는 평이하지만 인물이 융 심리학과 인도·중국 사유의 개념을 대신 짊어지고 있어 표면만 좇으면 성장담으로 축소되고, 『유리알 유희』는 가상 학문 카스탈리엔을 설명하는 서론이 길어 후반부 밀도가 급격히 올라간다.",
+    "readingEntry": "hermann-hesse--demian",
+    "readingEntryReason": "200쪽 안팎의 1인칭 성장담이라 진입이 쉽고, 이후 소설들이 반복할 구도 — 내면의 인도자와 갈라진 자아 — 가 여기서 가장 또렷하게 제시된다.",
+    "readingWarning": "『유리알 유희』로 시작하면 가상 학문 제도를 서술하는 서론이 길게 이어져 인물이 한참 뒤에야 등장한다."
   },
   {
     "id": "alfred-doblin",

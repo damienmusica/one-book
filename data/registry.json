@@ -1,113 +1,1330 @@
 [
-  { "id": "gustave-flaubert", "ko": "귀스타브 플로베르", "original": "Gustave Flaubert", "layer": "roots", "tier": "anchor", "batch": "roots" },
-  { "id": "leo-tolstoy", "ko": "레프 톨스토이", "original": "Лев Толстой", "layer": "roots", "tier": "anchor", "batch": "roots" },
-  { "id": "fyodor-dostoevsky", "ko": "표도르 도스토옙스키", "original": "Фёдор Достоевский", "layer": "roots", "tier": "anchor", "batch": "roots" },
-  { "id": "anton-chekhov", "ko": "안톤 체호프", "original": "Антон Чехов", "layer": "roots", "tier": "anchor", "batch": "roots" },
-  { "id": "henrik-ibsen", "ko": "헨리크 입센", "original": "Henrik Ibsen", "layer": "roots", "tier": "anchor", "batch": "roots" },
-  { "id": "henry-james", "ko": "헨리 제임스", "original": "Henry James", "layer": "roots", "tier": "major", "batch": "roots" },
-  { "id": "joseph-conrad", "ko": "조지프 콘래드", "original": "Joseph Conrad", "layer": "roots", "tier": "major", "batch": "roots" },
-  { "id": "machado-de-assis", "ko": "마샤두 지 아시스", "original": "Machado de Assis", "layer": "roots", "tier": "major", "batch": "roots" },
-  { "id": "charles-baudelaire", "ko": "샤를 보들레르", "original": "Charles Baudelaire", "layer": "roots", "tier": "anchor", "batch": "roots" },
-  { "id": "walt-whitman", "ko": "월트 휘트먼", "original": "Walt Whitman", "layer": "roots", "tier": "major", "batch": "roots" },
-  { "id": "emily-dickinson", "ko": "에밀리 디킨슨", "original": "Emily Dickinson", "layer": "roots", "tier": "major", "batch": "roots" },
-  { "id": "friedrich-nietzsche", "ko": "프리드리히 니체", "original": "Friedrich Nietzsche", "layer": "roots", "tier": "anchor", "batch": "roots" },
-
-  { "id": "marcel-proust", "ko": "마르셀 프루스트", "original": "Marcel Proust", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-a" },
-  { "id": "franz-kafka", "ko": "프란츠 카프카", "original": "Franz Kafka", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-a" },
-  { "id": "james-joyce", "ko": "제임스 조이스", "original": "James Joyce", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-a" },
-  { "id": "virginia-woolf", "ko": "버지니아 울프", "original": "Virginia Woolf", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-a" },
-  { "id": "william-faulkner", "ko": "윌리엄 포크너", "original": "William Faulkner", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-a" },
-  { "id": "thomas-mann", "ko": "토마스 만", "original": "Thomas Mann", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-a" },
-  { "id": "robert-musil", "ko": "로베르트 무질", "original": "Robert Musil", "layer": "early-modernism", "tier": "major", "batch": "early-west-a" },
-  { "id": "fernando-pessoa", "ko": "페르난두 페소아", "original": "Fernando Pessoa", "layer": "early-modernism", "tier": "major", "batch": "early-west-a" },
-  { "id": "william-butler-yeats", "ko": "윌리엄 버틀러 예이츠", "original": "William Butler Yeats", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-a" },
-
-  { "id": "rainer-maria-rilke", "ko": "라이너 마리아 릴케", "original": "Rainer Maria Rilke", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-b" },
-  { "id": "ts-eliot", "ko": "T. S. 엘리엇", "original": "T. S. Eliot", "layer": "early-modernism", "tier": "anchor", "batch": "early-west-b" },
-  { "id": "gertrude-stein", "ko": "거트루드 스타인", "original": "Gertrude Stein", "layer": "early-modernism", "tier": "major", "batch": "early-west-b" },
-  { "id": "katherine-mansfield", "ko": "캐서린 맨스필드", "original": "Katherine Mansfield", "layer": "early-modernism", "tier": "major", "batch": "early-west-b" },
-  { "id": "luigi-pirandello", "ko": "루이지 피란델로", "original": "Luigi Pirandello", "layer": "early-modernism", "tier": "major", "batch": "early-west-b" },
-  { "id": "bertolt-brecht", "ko": "베르톨트 브레히트", "original": "Bertolt Brecht", "layer": "early-modernism", "tier": "major", "batch": "early-west-b" },
-  { "id": "mikhail-bulgakov", "ko": "미하일 불가코프", "original": "Михаил Булгаков", "layer": "early-modernism", "tier": "major", "batch": "early-west-b" },
-  { "id": "isaac-babel", "ko": "이사크 바벨", "original": "Исаак Бабель", "layer": "early-modernism", "tier": "major", "batch": "early-west-b" },
-  { "id": "federico-garcia-lorca", "ko": "페데리코 가르시아 로르카", "original": "Federico García Lorca", "layer": "early-modernism", "tier": "major", "batch": "early-west-b" },
-
-  { "id": "rabindranath-tagore", "ko": "라빈드라나트 타고르", "original": "রবীন্দ্রনাথ ঠাকুর", "layer": "early-modernism", "tier": "anchor", "batch": "early-east-asia" },
-  { "id": "natsume-soseki", "ko": "나쓰메 소세키", "original": "夏目漱石", "layer": "early-modernism", "tier": "anchor", "batch": "early-east-asia" },
-  { "id": "lu-xun", "ko": "루쉰", "original": "魯迅", "layer": "early-modernism", "tier": "anchor", "batch": "early-east-asia" },
-  { "id": "ryunosuke-akutagawa", "ko": "아쿠타가와 류노스케", "original": "芥川龍之介", "layer": "early-modernism", "tier": "major", "batch": "early-east-asia" },
-  { "id": "yi-sang", "ko": "이상", "original": "李箱", "layer": "early-modernism", "tier": "major", "batch": "early-east-asia" },
-  { "id": "kim-sowol", "ko": "김소월", "original": "金素月", "layer": "early-modernism", "tier": "major", "batch": "early-east-asia" },
-  { "id": "han-yong-un", "ko": "한용운", "original": "韓龍雲", "layer": "early-modernism", "tier": "major", "batch": "early-east-asia" },
-  { "id": "premchand", "ko": "프렘찬드", "original": "प्रेमचंद", "layer": "early-modernism", "tier": "major", "batch": "early-east-asia" },
-
-  { "id": "bruno-schulz", "ko": "브루노 슐츠", "original": "Bruno Schulz", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-  { "id": "witold-gombrowicz", "ko": "비톨트 곰브로비치", "original": "Witold Gombrowicz", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-  { "id": "hermann-broch", "ko": "헤르만 브로흐", "original": "Hermann Broch", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-  { "id": "elias-canetti", "ko": "엘리아스 카네티", "original": "Elias Canetti", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-  { "id": "cesar-vallejo", "ko": "세사르 바예호", "original": "César Vallejo", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-  { "id": "anna-akhmatova", "ko": "안나 아흐마토바", "original": "Анна Ахматова", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-  { "id": "marina-tsvetaeva", "ko": "마리나 츠베타예바", "original": "Марина Цветаева", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-  { "id": "sadegh-hedayat", "ko": "사데크 헤다야트", "original": "صادق هدایت", "layer": "early-modernism", "tier": "major", "batch": "early-east-europe" },
-
-  { "id": "samuel-beckett", "ko": "사뮈엘 베케트", "original": "Samuel Beckett", "layer": "mid-century", "tier": "anchor", "batch": "mid-west-a" },
-  { "id": "vladimir-nabokov", "ko": "블라디미르 나보코프", "original": "Владимир Набоков", "layer": "mid-century", "tier": "anchor", "batch": "mid-west-a" },
-  { "id": "albert-camus", "ko": "알베르 카뮈", "original": "Albert Camus", "layer": "mid-century", "tier": "anchor", "batch": "mid-west-a" },
-  { "id": "ernest-hemingway", "ko": "어니스트 헤밍웨이", "original": "Ernest Hemingway", "layer": "mid-century", "tier": "anchor", "batch": "mid-west-a" },
-  { "id": "george-orwell", "ko": "조지 오웰", "original": "George Orwell", "layer": "mid-century", "tier": "anchor", "batch": "mid-west-a" },
-  { "id": "simone-de-beauvoir", "ko": "시몬 드 보부아르", "original": "Simone de Beauvoir", "layer": "mid-century", "tier": "major", "batch": "mid-west-a" },
-  { "id": "paul-celan", "ko": "파울 첼란", "original": "Paul Celan", "layer": "mid-century", "tier": "anchor", "batch": "mid-west-a" },
-
-  { "id": "zora-neale-hurston", "ko": "조라 닐 허스턴", "original": "Zora Neale Hurston", "layer": "mid-century", "tier": "major", "batch": "mid-west-b" },
-  { "id": "ralph-ellison", "ko": "랠프 엘리슨", "original": "Ralph Ellison", "layer": "mid-century", "tier": "major", "batch": "mid-west-b" },
-  { "id": "james-baldwin", "ko": "제임스 볼드윈", "original": "James Baldwin", "layer": "mid-century", "tier": "major", "batch": "mid-west-b" },
-  { "id": "flannery-oconnor", "ko": "플래너리 오코너", "original": "Flannery O'Connor", "layer": "mid-century", "tier": "major", "batch": "mid-west-b" },
-  { "id": "marguerite-duras", "ko": "마르그리트 뒤라스", "original": "Marguerite Duras", "layer": "mid-century", "tier": "major", "batch": "mid-west-b" },
-  { "id": "alain-robbe-grillet", "ko": "알랭 로브그리예", "original": "Alain Robbe-Grillet", "layer": "mid-century", "tier": "major", "batch": "mid-west-b" },
-  { "id": "wislawa-szymborska", "ko": "비스와바 심보르스카", "original": "Wisława Szymborska", "layer": "mid-century", "tier": "major", "batch": "mid-west-b" },
-
-  { "id": "jorge-luis-borges", "ko": "호르헤 루이스 보르헤스", "original": "Jorge Luis Borges", "layer": "mid-century", "tier": "anchor", "batch": "mid-south-a" },
-  { "id": "pablo-neruda", "ko": "파블로 네루다", "original": "Pablo Neruda", "layer": "mid-century", "tier": "anchor", "batch": "mid-south-a" },
-  { "id": "juan-rulfo", "ko": "후안 룰포", "original": "Juan Rulfo", "layer": "mid-century", "tier": "major", "batch": "mid-south-a" },
-  { "id": "julio-cortazar", "ko": "훌리오 코르타사르", "original": "Julio Cortázar", "layer": "mid-century", "tier": "major", "batch": "mid-south-a" },
-  { "id": "alejo-carpentier", "ko": "알레호 카르펜티에르", "original": "Alejo Carpentier", "layer": "mid-century", "tier": "major", "batch": "mid-south-a" },
-  { "id": "joao-guimaraes-rosa", "ko": "주앙 기마랑이스 호자", "original": "João Guimarães Rosa", "layer": "mid-century", "tier": "major", "batch": "mid-south-a" },
-  { "id": "clarice-lispector", "ko": "클라리시 리스펙토르", "original": "Clarice Lispector", "layer": "mid-century", "tier": "major", "batch": "mid-south-a" },
-
-  { "id": "chinua-achebe", "ko": "치누아 아체베", "original": "Chinua Achebe", "layer": "mid-century", "tier": "anchor", "batch": "mid-south-b" },
-  { "id": "naguib-mahfouz", "ko": "나기브 마푸즈", "original": "نجيب محفوظ", "layer": "mid-century", "tier": "major", "batch": "mid-south-b" },
-  { "id": "aime-cesaire", "ko": "에메 세제르", "original": "Aimé Césaire", "layer": "mid-century", "tier": "major", "batch": "mid-south-b" },
-  { "id": "wole-soyinka", "ko": "월레 소잉카", "original": "Wole Soyinka", "layer": "mid-century", "tier": "major", "batch": "mid-south-b" },
-  { "id": "ngugi-wa-thiongo", "ko": "응구기 와 시옹오", "original": "Ngũgĩ wa Thiong'o", "layer": "mid-century", "tier": "major", "batch": "mid-south-b" },
-  { "id": "tayeb-salih", "ko": "타예브 살리흐", "original": "الطيب صالح", "layer": "mid-century", "tier": "major", "batch": "mid-south-b" },
-  { "id": "derek-walcott", "ko": "데릭 월컷", "original": "Derek Walcott", "layer": "mid-century", "tier": "major", "batch": "mid-south-b" },
-
-  { "id": "yasunari-kawabata", "ko": "가와바타 야스나리", "original": "川端康成", "layer": "mid-century", "tier": "anchor", "batch": "mid-asia" },
-  { "id": "osamu-dazai", "ko": "다자이 오사무", "original": "太宰治", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-  { "id": "yukio-mishima", "ko": "미시마 유키오", "original": "三島由紀夫", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-  { "id": "kobo-abe", "ko": "아베 고보", "original": "安部公房", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-  { "id": "kenzaburo-oe", "ko": "오에 겐자부로", "original": "大江健三郎", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-  { "id": "eileen-chang", "ko": "장아이링", "original": "張愛玲", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-  { "id": "saadat-hasan-manto", "ko": "사다트 하산 만토", "original": "سعادت حسن منٹو", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-  { "id": "rk-narayan", "ko": "R. K. 나라얀", "original": "R. K. Narayan", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-  { "id": "park-kyung-ni", "ko": "박경리", "original": "朴景利", "layer": "mid-century", "tier": "major", "batch": "mid-asia" },
-
-  { "id": "gabriel-garcia-marquez", "ko": "가브리엘 가르시아 마르케스", "original": "Gabriel García Márquez", "layer": "late-postmodern", "tier": "anchor", "batch": "late-a" },
-  { "id": "italo-calvino", "ko": "이탈로 칼비노", "original": "Italo Calvino", "layer": "late-postmodern", "tier": "anchor", "batch": "late-a" },
-  { "id": "toni-morrison", "ko": "토니 모리슨", "original": "Toni Morrison", "layer": "late-postmodern", "tier": "anchor", "batch": "late-a" },
-  { "id": "thomas-pynchon", "ko": "토머스 핀천", "original": "Thomas Pynchon", "layer": "late-postmodern", "tier": "anchor", "batch": "late-a" },
-  { "id": "georges-perec", "ko": "조르주 페렉", "original": "Georges Perec", "layer": "late-postmodern", "tier": "major", "batch": "late-a" },
-  { "id": "milan-kundera", "ko": "밀란 쿤데라", "original": "Milan Kundera", "layer": "late-postmodern", "tier": "anchor", "batch": "late-a" },
-  { "id": "stanislaw-lem", "ko": "스타니스와프 렘", "original": "Stanisław Lem", "layer": "late-postmodern", "tier": "major", "batch": "late-a" },
-  { "id": "umberto-eco", "ko": "움베르토 에코", "original": "Umberto Eco", "layer": "late-postmodern", "tier": "major", "batch": "late-a" },
-  { "id": "jose-saramago", "ko": "주제 사라마구", "original": "José Saramago", "layer": "late-postmodern", "tier": "major", "batch": "late-a" },
-
-  { "id": "salman-rushdie", "ko": "살만 루슈디", "original": "Salman Rushdie", "layer": "late-postmodern", "tier": "anchor", "batch": "late-b" },
-  { "id": "wg-sebald", "ko": "W. G. 제발트", "original": "W. G. Sebald", "layer": "late-postmodern", "tier": "major", "batch": "late-b" },
-  { "id": "ursula-k-le-guin", "ko": "어슐러 K. 르 귄", "original": "Ursula K. Le Guin", "layer": "late-postmodern", "tier": "anchor", "batch": "late-b" },
-  { "id": "octavia-butler", "ko": "옥타비아 버틀러", "original": "Octavia E. Butler", "layer": "late-postmodern", "tier": "major", "batch": "late-b" },
-  { "id": "margaret-atwood", "ko": "마거릿 애트우드", "original": "Margaret Atwood", "layer": "late-postmodern", "tier": "major", "batch": "late-b" },
-  { "id": "don-delillo", "ko": "돈 드릴로", "original": "Don DeLillo", "layer": "late-postmodern", "tier": "major", "batch": "late-b" },
-  { "id": "kazuo-ishiguro", "ko": "가즈오 이시구로", "original": "Kazuo Ishiguro", "layer": "late-postmodern", "tier": "major", "batch": "late-b" },
-  { "id": "jm-coetzee", "ko": "J. M. 쿳시", "original": "J. M. Coetzee", "layer": "late-postmodern", "tier": "anchor", "batch": "late-b" }
+  {
+    "id": "gustave-flaubert",
+    "ko": "귀스타브 플로베르",
+    "original": "Gustave Flaubert",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "roots"
+  },
+  {
+    "id": "leo-tolstoy",
+    "ko": "레프 톨스토이",
+    "original": "Лев Толстой",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "roots"
+  },
+  {
+    "id": "fyodor-dostoevsky",
+    "ko": "표도르 도스토옙스키",
+    "original": "Фёдор Достоевский",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "roots"
+  },
+  {
+    "id": "anton-chekhov",
+    "ko": "안톤 체호프",
+    "original": "Антон Чехов",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "roots"
+  },
+  {
+    "id": "henrik-ibsen",
+    "ko": "헨리크 입센",
+    "original": "Henrik Ibsen",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "roots"
+  },
+  {
+    "id": "henry-james",
+    "ko": "헨리 제임스",
+    "original": "Henry James",
+    "layer": "roots",
+    "tier": "major",
+    "batch": "roots"
+  },
+  {
+    "id": "joseph-conrad",
+    "ko": "조지프 콘래드",
+    "original": "Joseph Conrad",
+    "layer": "roots",
+    "tier": "major",
+    "batch": "roots"
+  },
+  {
+    "id": "machado-de-assis",
+    "ko": "마샤두 지 아시스",
+    "original": "Machado de Assis",
+    "layer": "roots",
+    "tier": "major",
+    "batch": "roots"
+  },
+  {
+    "id": "charles-baudelaire",
+    "ko": "샤를 보들레르",
+    "original": "Charles Baudelaire",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "roots"
+  },
+  {
+    "id": "walt-whitman",
+    "ko": "월트 휘트먼",
+    "original": "Walt Whitman",
+    "layer": "roots",
+    "tier": "major",
+    "batch": "roots"
+  },
+  {
+    "id": "emily-dickinson",
+    "ko": "에밀리 디킨슨",
+    "original": "Emily Dickinson",
+    "layer": "roots",
+    "tier": "major",
+    "batch": "roots"
+  },
+  {
+    "id": "friedrich-nietzsche",
+    "ko": "프리드리히 니체",
+    "original": "Friedrich Nietzsche",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "roots"
+  },
+  {
+    "id": "marcel-proust",
+    "ko": "마르셀 프루스트",
+    "original": "Marcel Proust",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "franz-kafka",
+    "ko": "프란츠 카프카",
+    "original": "Franz Kafka",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "james-joyce",
+    "ko": "제임스 조이스",
+    "original": "James Joyce",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "virginia-woolf",
+    "ko": "버지니아 울프",
+    "original": "Virginia Woolf",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "william-faulkner",
+    "ko": "윌리엄 포크너",
+    "original": "William Faulkner",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "thomas-mann",
+    "ko": "토마스 만",
+    "original": "Thomas Mann",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "robert-musil",
+    "ko": "로베르트 무질",
+    "original": "Robert Musil",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "fernando-pessoa",
+    "ko": "페르난두 페소아",
+    "original": "Fernando Pessoa",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "william-butler-yeats",
+    "ko": "윌리엄 버틀러 예이츠",
+    "original": "William Butler Yeats",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-a"
+  },
+  {
+    "id": "rainer-maria-rilke",
+    "ko": "라이너 마리아 릴케",
+    "original": "Rainer Maria Rilke",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "ts-eliot",
+    "ko": "T. S. 엘리엇",
+    "original": "T. S. Eliot",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "gertrude-stein",
+    "ko": "거트루드 스타인",
+    "original": "Gertrude Stein",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "katherine-mansfield",
+    "ko": "캐서린 맨스필드",
+    "original": "Katherine Mansfield",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "luigi-pirandello",
+    "ko": "루이지 피란델로",
+    "original": "Luigi Pirandello",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "bertolt-brecht",
+    "ko": "베르톨트 브레히트",
+    "original": "Bertolt Brecht",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "mikhail-bulgakov",
+    "ko": "미하일 불가코프",
+    "original": "Михаил Булгаков",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "isaac-babel",
+    "ko": "이사크 바벨",
+    "original": "Исаак Бабель",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "federico-garcia-lorca",
+    "ko": "페데리코 가르시아 로르카",
+    "original": "Federico García Lorca",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-west-b"
+  },
+  {
+    "id": "rabindranath-tagore",
+    "ko": "라빈드라나트 타고르",
+    "original": "রবীন্দ্রনাথ ঠাকুর",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "natsume-soseki",
+    "ko": "나쓰메 소세키",
+    "original": "夏目漱石",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "lu-xun",
+    "ko": "루쉰",
+    "original": "魯迅",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "ryunosuke-akutagawa",
+    "ko": "아쿠타가와 류노스케",
+    "original": "芥川龍之介",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "yi-sang",
+    "ko": "이상",
+    "original": "李箱",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "kim-sowol",
+    "ko": "김소월",
+    "original": "金素月",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "han-yong-un",
+    "ko": "한용운",
+    "original": "韓龍雲",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "premchand",
+    "ko": "프렘찬드",
+    "original": "प्रेमचंद",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-asia"
+  },
+  {
+    "id": "bruno-schulz",
+    "ko": "브루노 슐츠",
+    "original": "Bruno Schulz",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "witold-gombrowicz",
+    "ko": "비톨트 곰브로비치",
+    "original": "Witold Gombrowicz",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "hermann-broch",
+    "ko": "헤르만 브로흐",
+    "original": "Hermann Broch",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "elias-canetti",
+    "ko": "엘리아스 카네티",
+    "original": "Elias Canetti",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "cesar-vallejo",
+    "ko": "세사르 바예호",
+    "original": "César Vallejo",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "anna-akhmatova",
+    "ko": "안나 아흐마토바",
+    "original": "Анна Ахматова",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "marina-tsvetaeva",
+    "ko": "마리나 츠베타예바",
+    "original": "Марина Цветаева",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "sadegh-hedayat",
+    "ko": "사데크 헤다야트",
+    "original": "صادق هدایت",
+    "layer": "early-modernism",
+    "tier": "major",
+    "batch": "early-east-europe"
+  },
+  {
+    "id": "samuel-beckett",
+    "ko": "사뮈엘 베케트",
+    "original": "Samuel Beckett",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-west-a"
+  },
+  {
+    "id": "vladimir-nabokov",
+    "ko": "블라디미르 나보코프",
+    "original": "Владимир Набоков",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-west-a"
+  },
+  {
+    "id": "albert-camus",
+    "ko": "알베르 카뮈",
+    "original": "Albert Camus",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-west-a"
+  },
+  {
+    "id": "ernest-hemingway",
+    "ko": "어니스트 헤밍웨이",
+    "original": "Ernest Hemingway",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-west-a"
+  },
+  {
+    "id": "george-orwell",
+    "ko": "조지 오웰",
+    "original": "George Orwell",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-west-a"
+  },
+  {
+    "id": "simone-de-beauvoir",
+    "ko": "시몬 드 보부아르",
+    "original": "Simone de Beauvoir",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-a"
+  },
+  {
+    "id": "paul-celan",
+    "ko": "파울 첼란",
+    "original": "Paul Celan",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-west-a"
+  },
+  {
+    "id": "zora-neale-hurston",
+    "ko": "조라 닐 허스턴",
+    "original": "Zora Neale Hurston",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-b"
+  },
+  {
+    "id": "ralph-ellison",
+    "ko": "랠프 엘리슨",
+    "original": "Ralph Ellison",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-b"
+  },
+  {
+    "id": "james-baldwin",
+    "ko": "제임스 볼드윈",
+    "original": "James Baldwin",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-b"
+  },
+  {
+    "id": "flannery-oconnor",
+    "ko": "플래너리 오코너",
+    "original": "Flannery O'Connor",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-b"
+  },
+  {
+    "id": "marguerite-duras",
+    "ko": "마르그리트 뒤라스",
+    "original": "Marguerite Duras",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-b"
+  },
+  {
+    "id": "alain-robbe-grillet",
+    "ko": "알랭 로브그리예",
+    "original": "Alain Robbe-Grillet",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-b"
+  },
+  {
+    "id": "wislawa-szymborska",
+    "ko": "비스와바 심보르스카",
+    "original": "Wisława Szymborska",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-west-b"
+  },
+  {
+    "id": "jorge-luis-borges",
+    "ko": "호르헤 루이스 보르헤스",
+    "original": "Jorge Luis Borges",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-south-a"
+  },
+  {
+    "id": "pablo-neruda",
+    "ko": "파블로 네루다",
+    "original": "Pablo Neruda",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-south-a"
+  },
+  {
+    "id": "juan-rulfo",
+    "ko": "후안 룰포",
+    "original": "Juan Rulfo",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-a"
+  },
+  {
+    "id": "julio-cortazar",
+    "ko": "훌리오 코르타사르",
+    "original": "Julio Cortázar",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-a"
+  },
+  {
+    "id": "alejo-carpentier",
+    "ko": "알레호 카르펜티에르",
+    "original": "Alejo Carpentier",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-a"
+  },
+  {
+    "id": "joao-guimaraes-rosa",
+    "ko": "주앙 기마랑이스 호자",
+    "original": "João Guimarães Rosa",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-a"
+  },
+  {
+    "id": "clarice-lispector",
+    "ko": "클라리시 리스펙토르",
+    "original": "Clarice Lispector",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-a"
+  },
+  {
+    "id": "chinua-achebe",
+    "ko": "치누아 아체베",
+    "original": "Chinua Achebe",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-south-b"
+  },
+  {
+    "id": "naguib-mahfouz",
+    "ko": "나기브 마푸즈",
+    "original": "نجيب محفوظ",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-b"
+  },
+  {
+    "id": "aime-cesaire",
+    "ko": "에메 세제르",
+    "original": "Aimé Césaire",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-b"
+  },
+  {
+    "id": "wole-soyinka",
+    "ko": "월레 소잉카",
+    "original": "Wole Soyinka",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-b"
+  },
+  {
+    "id": "ngugi-wa-thiongo",
+    "ko": "응구기 와 시옹오",
+    "original": "Ngũgĩ wa Thiong'o",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-b"
+  },
+  {
+    "id": "tayeb-salih",
+    "ko": "타예브 살리흐",
+    "original": "الطيب صالح",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-b"
+  },
+  {
+    "id": "derek-walcott",
+    "ko": "데릭 월컷",
+    "original": "Derek Walcott",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-south-b"
+  },
+  {
+    "id": "yasunari-kawabata",
+    "ko": "가와바타 야스나리",
+    "original": "川端康成",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "osamu-dazai",
+    "ko": "다자이 오사무",
+    "original": "太宰治",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "yukio-mishima",
+    "ko": "미시마 유키오",
+    "original": "三島由紀夫",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "kobo-abe",
+    "ko": "아베 고보",
+    "original": "安部公房",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "kenzaburo-oe",
+    "ko": "오에 겐자부로",
+    "original": "大江健三郎",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "eileen-chang",
+    "ko": "장아이링",
+    "original": "張愛玲",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "saadat-hasan-manto",
+    "ko": "사다트 하산 만토",
+    "original": "سعادت حسن منٹو",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "rk-narayan",
+    "ko": "R. K. 나라얀",
+    "original": "R. K. Narayan",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "park-kyung-ni",
+    "ko": "박경리",
+    "original": "朴景利",
+    "layer": "mid-century",
+    "tier": "major",
+    "batch": "mid-asia"
+  },
+  {
+    "id": "gabriel-garcia-marquez",
+    "ko": "가브리엘 가르시아 마르케스",
+    "original": "Gabriel García Márquez",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-a"
+  },
+  {
+    "id": "italo-calvino",
+    "ko": "이탈로 칼비노",
+    "original": "Italo Calvino",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-a"
+  },
+  {
+    "id": "toni-morrison",
+    "ko": "토니 모리슨",
+    "original": "Toni Morrison",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-a"
+  },
+  {
+    "id": "thomas-pynchon",
+    "ko": "토머스 핀천",
+    "original": "Thomas Pynchon",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-a"
+  },
+  {
+    "id": "georges-perec",
+    "ko": "조르주 페렉",
+    "original": "Georges Perec",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-a"
+  },
+  {
+    "id": "milan-kundera",
+    "ko": "밀란 쿤데라",
+    "original": "Milan Kundera",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-a"
+  },
+  {
+    "id": "stanislaw-lem",
+    "ko": "스타니스와프 렘",
+    "original": "Stanisław Lem",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-a"
+  },
+  {
+    "id": "umberto-eco",
+    "ko": "움베르토 에코",
+    "original": "Umberto Eco",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-a"
+  },
+  {
+    "id": "jose-saramago",
+    "ko": "주제 사라마구",
+    "original": "José Saramago",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-a"
+  },
+  {
+    "id": "salman-rushdie",
+    "ko": "살만 루슈디",
+    "original": "Salman Rushdie",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-b"
+  },
+  {
+    "id": "wg-sebald",
+    "ko": "W. G. 제발트",
+    "original": "W. G. Sebald",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-b"
+  },
+  {
+    "id": "ursula-k-le-guin",
+    "ko": "어슐러 K. 르 귄",
+    "original": "Ursula K. Le Guin",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-b"
+  },
+  {
+    "id": "octavia-butler",
+    "ko": "옥타비아 버틀러",
+    "original": "Octavia E. Butler",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-b"
+  },
+  {
+    "id": "margaret-atwood",
+    "ko": "마거릿 애트우드",
+    "original": "Margaret Atwood",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-b"
+  },
+  {
+    "id": "don-delillo",
+    "ko": "돈 드릴로",
+    "original": "Don DeLillo",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-b"
+  },
+  {
+    "id": "kazuo-ishiguro",
+    "ko": "가즈오 이시구로",
+    "original": "Kazuo Ishiguro",
+    "layer": "late-postmodern",
+    "tier": "major",
+    "batch": "late-b"
+  },
+  {
+    "id": "jm-coetzee",
+    "ko": "J. M. 쿳시",
+    "original": "J. M. Coetzee",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "late-b"
+  },
+  {
+    "id": "victor-hugo",
+    "ko": "빅토르 위고",
+    "original": "Victor Hugo",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "alexander-pushkin",
+    "ko": "알렉산드르 푸시킨",
+    "original": "Александр Пушкин",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "homer",
+    "ko": "호메로스",
+    "original": "Ὅμηρος",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "sophocles",
+    "ko": "소포클레스",
+    "original": "Σοφοκλῆς",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "plato",
+    "ko": "플라톤",
+    "original": "Πλάτων",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "aristotle",
+    "ko": "아리스토텔레스",
+    "original": "Ἀριστοτέλης",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "jonathan-swift",
+    "ko": "조너선 스위프트",
+    "original": "Jonathan Swift",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "voltaire",
+    "ko": "볼테르",
+    "original": "Voltaire",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "jean-jacques-rousseau",
+    "ko": "장자크 루소",
+    "original": "Jean-Jacques Rousseau",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "johann-wolfgang-von-goethe",
+    "ko": "요한 볼프강 폰 괴테",
+    "original": "Johann Wolfgang von Goethe",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "jane-austen",
+    "ko": "제인 오스틴",
+    "original": "Jane Austen",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "charles-dickens",
+    "ko": "찰스 디킨스",
+    "original": "Charles Dickens",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "cicero",
+    "ko": "키케로",
+    "original": "Marcus Tullius Cicero",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "virgil",
+    "ko": "베르길리우스",
+    "original": "Publius Vergilius Maro",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "ovid",
+    "ko": "오비디우스",
+    "original": "Publius Ovidius Naso",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "li-bai",
+    "ko": "이백",
+    "original": "李白",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "du-fu",
+    "ko": "두보",
+    "original": "杜甫",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "murasaki-shikibu",
+    "ko": "무라사키 시키부",
+    "original": "紫式部",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "edouard-glissant",
+    "ko": "에두아르 글리상",
+    "original": "Édouard Glissant",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "maryse-conde",
+    "ko": "마리즈 콩데",
+    "original": "Maryse Condé",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "frantz-fanon",
+    "ko": "프란츠 파농",
+    "original": "Frantz Fanon",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "vs-naipaul",
+    "ko": "V. S. 나이폴",
+    "original": "V. S. Naipaul",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "clr-james",
+    "ko": "C. L. R. 제임스",
+    "original": "C. L. R. James",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "kamau-brathwaite",
+    "ko": "카마우 브래스웨이트",
+    "original": "Kamau Brathwaite",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "matsuo-basho",
+    "ko": "마쓰오 바쇼",
+    "original": "松尾芭蕉",
+    "layer": "renaissance-baroque",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "dante-alighieri",
+    "ko": "단테 알리기에리",
+    "original": "Dante Alighieri",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "mario-vargas-llosa",
+    "ko": "마리오 바르가스 요사",
+    "original": "Mario Vargas Llosa",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "miguel-de-cervantes",
+    "ko": "미겔 데 세르반테스",
+    "original": "Miguel de Cervantes Saavedra",
+    "layer": "renaissance-baroque",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "william-shakespeare",
+    "ko": "윌리엄 셰익스피어",
+    "original": "William Shakespeare",
+    "layer": "renaissance-baroque",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "edgar-allan-poe",
+    "ko": "에드거 앨런 포",
+    "original": "Edgar Allan Poe",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "chairil-anwar",
+    "ko": "차이릴 안와르",
+    "original": "Chairil Anwar",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "pramoedya-ananta-toer",
+    "ko": "프라무디아 아난타 투르",
+    "original": "Pramoedya Ananta Toer",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "sunthorn-phu",
+    "ko": "순턴 푸",
+    "original": "สุนทรภู่",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "francisco-balagtas",
+    "ko": "프란시스코 발라그타스",
+    "original": "Francisco Balagtas",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "nick-joaquin",
+    "ko": "니크 호아킨",
+    "original": "Nick Joaquin",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "daniel-defoe",
+    "ko": "대니얼 디포",
+    "original": "Daniel Defoe",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "patrick-white",
+    "ko": "패트릭 화이트",
+    "original": "Patrick White",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "janet-frame",
+    "ko": "재닛 프레임",
+    "original": "Janet Frame",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "albert-wendt",
+    "ko": "앨버트 웬트",
+    "original": "Albert Wendt",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "nguyen-trai",
+    "ko": "응우옌 짜이",
+    "original": "Nguyễn Trãi",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "nam-cao",
+    "ko": "남 까오",
+    "original": "Nam Cao",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "bao-ninh",
+    "ko": "바오 닌",
+    "original": "Bảo Ninh",
+    "layer": "late-postmodern",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "agatha-christie",
+    "ko": "애거사 크리스티",
+    "original": "Agatha Christie",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "jrr-tolkien",
+    "ko": "J. R. R. 톨킨",
+    "original": "J. R. R. Tolkien",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "roald-dahl",
+    "ko": "로알드 달",
+    "original": "Roald Dahl",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "jean-paul-sartre",
+    "ko": "장폴 사르트르",
+    "original": "Jean-Paul Sartre",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "antoine-de-saint-exupery",
+    "ko": "앙투안 드 생텍쥐페리",
+    "original": "Antoine de Saint-Exupéry",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "hermann-hesse",
+    "ko": "헤르만 헤세",
+    "original": "Hermann Hesse",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "magtymguly-pyragy",
+    "ko": "마흐툼쿨리 프라기",
+    "original": "Magtymguly Pyragy",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "mihai-eminescu",
+    "ko": "미하이 에미네스쿠",
+    "original": "Mihai Eminescu",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "sandor-petofi",
+    "ko": "산도르 페퇴피",
+    "original": "Petőfi Sándor",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "imre-kertesz",
+    "ko": "임레 케르테스",
+    "original": "Kertész Imre",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "taras-shevchenko",
+    "ko": "타라스 셰우첸코",
+    "original": "Тарас Шевченко",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "henry-lawson",
+    "ko": "헨리 로슨",
+    "original": "Henry Lawson",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "babur",
+    "ko": "바부르",
+    "original": "Zahiriddin Muhammad Bobur",
+    "layer": "renaissance-baroque",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "abdulla-qodiriy",
+    "ko": "압둘라 코디리",
+    "original": "Abdulla Qodiriy",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "abai-qunanbaiuly",
+    "ko": "아바이 쿠난바이울리",
+    "original": "Абай Құнанбайұлы",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "mukhtar-auezov",
+    "ko": "묵타르 아우에조프",
+    "original": "Мұхтар Әуезов",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "chinghiz-aitmatov",
+    "ko": "칭기즈 아이트마토프",
+    "original": "Чыңгыз Айтматов",
+    "layer": "mid-century",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "sadriddin-ayni",
+    "ko": "사드리딘 아이니",
+    "original": "Садриддин Айнӣ",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "herman-melville",
+    "ko": "허먼 멜빌",
+    "original": "Herman Melville",
+    "layer": "enlightenment-romantic",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "mark-twain",
+    "ko": "마크 트웨인",
+    "original": "Mark Twain",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "john-steinbeck",
+    "ko": "존 스타인벡",
+    "original": "John Steinbeck",
+    "layer": "early-modernism",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "omar-khayyam",
+    "ko": "오마르 하이얌",
+    "original": "عمر خیام",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "rumi",
+    "ko": "루미",
+    "original": "جلال‌الدین محمد رومی",
+    "layer": "antiquity-medieval",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  },
+  {
+    "id": "arthur-conan-doyle",
+    "ko": "아서 코넌 도일",
+    "original": "Arthur Conan Doyle",
+    "layer": "roots",
+    "tier": "anchor",
+    "batch": "plate-wave1"
+  }
 ]

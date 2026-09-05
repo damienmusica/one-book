@@ -331,7 +331,8 @@ await page.locator("#q").fill("변신");
 await page.waitForTimeout(120);
 const byTitle = await page.locator(".idx > li:not([hidden])").count();
 check("책 제목으로도 그 작가를 찾는다", byTitle >= 1 && byTitle <= 20, `${byTitle}인`);
-check("그 작가가 실제로 카프카다", /카프카/.test(await page.locator(".idx > li:not([hidden])").first().innerText()));
+// 첫 행이 아니라 "결과 안에" — 『변신 이야기』(오비디우스)도 정직하게 나온다.
+check("그 작가들 중에 카프카가 있다", /카프카/.test(await page.locator(".idx > li:not([hidden])").allInnerTexts().then((a) => a.join(" "))));
 await page.locator("#q").fill("Sappho");
 await page.waitForTimeout(120);
 check("원어·로마자로도 찾는다", (await visibleRows()) >= 1, `${await visibleRows()}인`);

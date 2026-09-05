@@ -256,7 +256,7 @@
       "original": "Édouard Glissant",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1928,
     "deathYear": 2011,
     "activeRange": [
@@ -277,13 +277,31 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "edouard-glissant--la-lezarde",
+      "edouard-glissant--le-quatrieme-siecle",
+      "edouard-glissant--le-discours-antillais",
+      "edouard-glissant--poetique-de-la-relation"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions",
+      "src--glissant-discours-antillais-1981"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "'관계의 시학'과 크레올화 개념을 세워, 카리브의 혼종성을 결핍이 아니라 사유의 출발점으로 놓았다."
+    "importanceReason": "'관계의 시학'과 크레올화 개념을 세워, 카리브의 혼종성을 결핍이 아니라 사유의 출발점으로 놓았다. 뿌리 하나로 소급하는 정체성 대신 여러 갈래가 얽히는 '관계'를 단위로 삼고, 번역되기를 거부할 권리를 뜻하는 '불투명성(opacité)'을 그 윤리로 제시했다. 소설에서는 마르티니크의 구술 서사와 끊기는 통사를 겹쳐, 플랜테이션이 지워 버린 계보를 문장 구조 자체로 되살렸다.",
+    "difficulty": 4,
+    "difficultyReason": "후기 산문은 '관계', '전체-세계', '불투명성' 같은 자기 조어를 정의 없이 굴리고 들뢰즈·가타리의 리좀 어휘를 전제한다. 소설 쪽은 개념보다 통사가 어려워, 화자와 시제가 예고 없이 미끄러지는 문장을 따라가야 한다.",
+    "readingEntry": "edouard-glissant--la-lezarde",
+    "readingEntryReason": "200쪽 남짓한 첫 장편이고, 선거를 앞둔 여름 한 계절과 젊은 무리라는 뚜렷한 사건 축이 있어 개념을 몰라도 읽힌다. 강과 땅의 묘사에서 이후 이론의 이미지가 이미 다 나온다.",
+    "readingWarning": "『관계의 시학』부터 펼치면 용어가 정의 없이 등장해 중도 포기하기 쉽다. 소설 두 권으로 마르티니크의 시간 감각을 먼저 겪은 뒤 이론으로 올라가는 편이 안전하다."
   },
   {
     "id": "patrick-chamoiseau",
@@ -360,7 +378,7 @@
       "original": "Maryse Condé",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1934,
     "deathYear": 2024,
     "activeRange": [
@@ -380,13 +398,29 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "maryse-conde--moi-tituba-sorciere",
+      "maryse-conde--le-coeur-a-rire-et-a-pleurer",
+      "maryse-conde--traversee-de-la-mangrove",
+      "maryse-conde--segou"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "세일럼 재판 기록에 이름만 남은 노예 여성에게 목소리를 돌려주고, 서아프리카 왕국사를 대하소설의 규모로 세웠다."
+    "importanceReason": "세일럼 재판 기록에 이름만 남은 노예 여성에게 목소리를 돌려주고, 서아프리카 왕국사를 대하소설의 규모로 세웠다. 『세구』는 밤바라 왕국의 붕괴를 한 가문 3대의 개종·노예화·이산으로 서술해, 아프리카를 향수의 대상이 아니라 그 자체로 분열하는 역사로 다뤘다. 아이러니와 육체적 유머를 잃지 않는 카리브 여성 1인칭은 이후 프랑스어권 흑인 여성 서사가 반복해 참조하는 어조가 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 투명하고 사건 추진력이 강하지만, 『세구』는 900쪽 규모에 밤바라·풀라니·이슬람 세력이 얽힌 19세기 서아프리카 정세와 수십 명의 인명을 동시에 붙들어야 한다. 『맹그로브 횡단』은 열아홉 명의 화자가 돌아가며 말해 사건이 조각으로만 주어진다.",
+    "readingEntry": "maryse-conde--moi-tituba-sorciere",
+    "readingEntryReason": "300쪽 남짓한 1인칭 서술이고, 세일럼 마녀재판이라는 널리 알려진 무대 위에서 진행돼 배경 지식이 거의 필요 없다. 콩데의 아이러니와 육체성이 가장 선명하게 드러나는 작품이기도 하다.",
+    "readingWarning": "『세구』부터 시작하면 초반 100쪽의 인명과 씨족 관계에서 막히기 쉽다. 짧은 1인칭 작품으로 콩데의 목소리에 먼저 익숙해지는 편이 낫다."
   },
   {
     "id": "simone-schwarz-bart",
@@ -504,7 +538,7 @@
       "original": "Frantz Fanon",
       "aliases": []
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1925,
     "deathYear": 1961,
     "activeRange": [
@@ -524,13 +558,29 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "frantz-fanon--peau-noire-masques-blancs",
+      "frantz-fanon--lan-v-de-la-revolution-algerienne",
+      "frantz-fanon--les-damnes-de-la-terre",
+      "frantz-fanon--pour-la-revolution-africaine"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--presence-africaine",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "식민 지배가 피지배자의 내면에 남기는 자기 혐오를 임상 언어로 기술해, 탈식민 사상의 심리학적 토대를 놓았다."
+    "importanceReason": "식민 지배가 피지배자의 내면에 남기는 자기 혐오를 임상 언어로 기술해, 탈식민 사상의 심리학적 토대를 놓았다. 『검은 피부, 하얀 가면』은 언어·연애·가족이라는 일상의 장면에서 인종화가 작동하는 방식을 정신과 의사의 관찰로 기록하고, 『대지의 저주받은 사람들』은 그 분석을 알제리 전쟁의 정세로 옮겨 독립 이후 민족 부르주아지의 배신까지 서술한다. 두 책은 알제리에서 미국 흑인 운동까지 이어지는 저항 진영의 공용 어휘가 되었다.",
+    "difficulty": 4,
+    "difficultyReason": "헤겔의 인정 투쟁, 라캉의 거울 단계, 사르트르의 「검은 오르페우스」를 논박 상대로 삼는 문장이 임상 증례와 뒤섞여 있어 배경 지식 없이는 논쟁의 상대가 보이지 않는다. 후기작은 알제리 민족해방전선의 구체적 정세를 전제한다.",
+    "readingEntry": "frantz-fanon--peau-noire-masques-blancs",
+    "readingEntryReason": "개념보다 장면이 먼저 오는 책이다. 백인 아이가 '엄마, 저기 흑인이야'라고 외치는 순간처럼 구체적 일화에서 출발하고, 분량도 200쪽대로 짧다.",
+    "readingWarning": "『대지의 저주받은 사람들』을 1장 「폭력에 관하여」만 읽고 덮으면 폭력론만 남은 책으로 오해하기 쉽다. 민족의식의 함정을 다룬 후반부와 마지막 정신질환 증례집까지 함께 읽어야 한다."
   },
   {
     "id": "cirilo-villaverde",
@@ -1150,7 +1200,7 @@
         "Vidiadhar Surajprasad Naipaul"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1932,
     "deathYear": 2018,
     "activeRange": [
@@ -1171,13 +1221,30 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "vs-naipaul--miguel-street",
+      "vs-naipaul--a-house-for-mr-biswas",
+      "vs-naipaul--a-bend-in-the-river",
+      "vs-naipaul--the-enigma-of-arrival"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "트리니다드 인도계 이민 가정의 집 한 채를 향한 집착을 장편으로 밀어붙여, 주변부의 삶을 세계 소설의 중심 소재로 만들었다."
+    "importanceReason": "트리니다드 인도계 이민 가정의 집 한 채를 향한 집착을 장편으로 밀어붙여, 주변부의 삶을 세계 소설의 중심 소재로 만들었다. 아버지를 모델로 삼은 비스와스의 실패와 고집을 600쪽의 희비극으로 쌓아 올린 뒤, 후기작에서는 소설·여행기·역사 서술의 경계를 지운 1인칭 산문으로 옮겨 갔다. 탈식민 사회를 '모방'과 '결여'로 규정한 그의 진단은 카리브·아프리카 작가들의 반박을 불러, 그 논쟁 자체가 하나의 문학사가 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 투명해 읽기 자체는 어렵지 않다. 부담은 분량과 배경에 있다 — 『비스와스 씨를 위한 집』은 600쪽에 걸쳐 인도계 힌두 가문의 친족과 의례가 이름 설명 없이 등장하고, 후기작은 사건보다 화자의 관찰이 서술을 끌고 간다.",
+    "readingEntry": "vs-naipaul--miguel-street",
+    "readingEntryReason": "포트오브스페인 한 골목의 인물들을 한 명씩 한 장씩 그린 연작 단편집이라 어디서 끊어 읽어도 되고, 소년 화자의 시선 덕에 희극으로 먼저 읽힌다. 200쪽 남짓이다.",
+    "readingWarning": "『비스와스 씨를 위한 집』으로 시작하면 초반 100쪽의 툴시 가문 인물 관계에서 막히기 쉽다. 『미겔 스트리트』로 트리니다드의 골목을 먼저 익히는 편이 낫다."
   },
   {
     "id": "clr-james",
@@ -1188,7 +1255,7 @@
         "Cyril Lionel Robert James"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1901,
     "deathYear": 1989,
     "activeRange": [
@@ -1209,13 +1276,29 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "history",
+      "essay-criticism",
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "clr-james--the-black-jacobins",
+      "clr-james--beyond-a-boundary",
+      "clr-james--mariners-renegades-and-castaways"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "아이티 혁명을 노예 자신이 이끈 혁명으로 서술하고, 크리켓 경기장에서 식민 사회의 계급 구조를 읽어 냈다."
+    "importanceReason": "아이티 혁명을 노예 자신이 이끈 혁명으로 서술하고, 크리켓 경기장에서 식민 사회의 계급 구조를 읽어 냈다. 『블랙 자코뱅』은 산도맹그의 노예를 플랜테이션이라는 근대적 대공장에 묶인 프롤레타리아로 규정해, 혁명사의 무게중심을 파리의 의회에서 사탕수수밭으로 옮겼다. 『경계를 넘어』는 경기 기록·자서전·사회사를 한 권으로 묶어, 이후 문화 연구가 스포츠와 계급을 다루는 방식의 참조점이 되었다.",
+    "difficulty": 4,
+    "difficultyReason": "세 대표작이 각각 아이티 혁명사, 크리켓의 규칙과 서인도제도 클럽 문화, 멜빌이라는 다른 배경 지식을 요구한다. 문장 밑에는 1930~50년대 트로츠키주의 분파 논쟁의 어휘가 깔려 있어 정치적 맥락을 모르면 어조를 놓치기 쉽다.",
+    "readingEntry": "clr-james--the-black-jacobins",
+    "readingEntryReason": "투생 루베르튀르라는 한 인물의 부상과 몰락을 따라가는 서사여서 사전 지식 없이 읽히고, 노예를 근대 노동계급으로 보는 제임스의 시선이 가장 선명하게 드러난다.",
+    "readingWarning": "『경계를 넘어』를 크리켓 규칙 없이 첫 책으로 잡으면 초반 경기 서술에서 막힌다. 자서전으로 읽고 기술적 대목은 건너뛰어도 논지는 따라온다."
   },
   {
     "id": "samuel-selvon",
@@ -1335,7 +1418,7 @@
         "Edward Kamau Brathwaite"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1930,
     "deathYear": 2020,
     "activeRange": [
@@ -1356,13 +1439,31 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "essay-criticism",
+      "history"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "kamau-brathwaite--rights-of-passage",
+      "kamau-brathwaite--history-of-the-voice",
+      "kamau-brathwaite--the-arrivants",
+      "kamau-brathwaite--the-development-of-creole-society-in-jamaica"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "'네이션 랭귀지'라는 이름으로 카리브 구어의 운율을 시학으로 정식화하고, 아프리카와 신대륙을 삼부작 장시로 묶었다."
+    "importanceReason": "'네이션 랭귀지'라는 이름으로 카리브 구어의 운율을 시학으로 정식화하고, 아프리카와 신대륙을 삼부작 장시로 묶었다. 가나에서 보낸 7년의 경험을 「가면」에 넣어 아칸의 신명과 북 장단을 바베이도스 구어와 같은 행에 세웠고, 『목소리의 역사』에서는 캘립소와 설교의 박자를 약강 5보격에 맞서는 척도로 기술했다. 후기에는 활자 크기와 배치 자체가 의미를 만드는 조판법을 밀어붙여 시의 물성을 논쟁거리로 만들었다.",
+    "difficulty": 4,
+    "difficultyReason": "표준 영어와 바베이도스 구어, 아칸어 어휘가 한 행 안에서 교대해 소리 내어 읽지 않으면 리듬이 잡히지 않는다. 후기 시집은 'Sycorax video style'이라 부른 활자 배치가 의미의 일부라서 묵독과 번역 모두를 어렵게 한다.",
+    "readingEntry": "kamau-brathwaite--rights-of-passage",
+    "readingEntryReason": "삼부작의 첫 권이고, 아프리카에서 신대륙으로 이어지는 이주를 캘립소와 블루스의 박자로 밀고 가 소리로 먼저 읽힌다. 개념 설명 없이도 리듬이 논지를 전달한다.",
+    "readingWarning": "『도착한 사람들』을 처음부터 통독하려 하면 세 권 분량의 지명과 아칸 신격 이름에 막히기 쉽다. 「통과의 권리」 한 권을 소리 내어 먼저 읽는 편이 낫다."
   },
   {
     "id": "jamaica-kincaid",
@@ -1484,7 +1585,7 @@
         "Babur"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1483,
     "deathYear": 1530,
     "activeRange": [
@@ -1503,13 +1604,30 @@
       "renaissance-baroque"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "history",
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "babur--boburnoma",
+      "babur--devon",
+      "babur--mubayyin",
+      "babur--aruz-risolasi"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--thackston-baburnama"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "왕조의 패배와 병증까지 날짜별로 적은 자전적 회고를 페르시아어가 아닌 차가타이 튀르크어 산문으로 남겼다."
+    "importanceReason": "왕조의 패배와 병증까지 날짜별로 적은 자전적 회고를 페르시아어가 아닌 차가타이 튀르크어 산문으로 남겼다. 사마르칸트를 두 번 잃은 경위, 부하들의 이탈, 술을 끊었다 다시 잡은 기록이 인도의 과일과 새와 우기에 대한 관찰과 같은 문체·같은 무게로 나란히 놓인다. 통치자의 기록이 변명이 아니라 관찰과 자기 노출로 이루어질 수 있다는 것을 이 산문이 보여 주었고, 1589년 압둘 라힘 칸-이-하난이 페르시아어로 옮기면서 무굴 궁정의 정본이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 건조하고 명료하지만, 페르가나에서 카불을 거쳐 북인도까지의 지명과 씨족·부하 수백 명의 이름이 설명 없이 쏟아진다. 계보도와 지도를 옆에 두고 읽어야 하고, 원고에 결락이 있어 몇 해가 통째로 비는 대목에서 서사가 끊긴다.",
+    "readingEntry": "babur--boburnoma",
+    "readingEntryReason": "나머지 저작이 시집과 운율·법학 논서라 사실상 이 회고록 한 권이 저자로서의 바부르 전부에 가깝다. 일지 형식이라 어느 해에서 펼쳐도 읽히고, 중단했다 다시 잡기도 쉽다.",
+    "readingWarning": "무굴 제국사 개설서로 접근하면 실망하기 쉽다. 왕조의 성립보다 한 사람이 자기 실패를 어떻게 적었는가가 이 책의 내용이다."
   },
   {
     "id": "boborahim-mashrab",
@@ -1710,7 +1828,7 @@
         "عبدالله قادری"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1894,
     "deathYear": 1938,
     "activeRange": [
@@ -1730,13 +1848,28 @@
       "mid-century"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "abdulla-qodiriy--otkan-kunlar",
+      "abdulla-qodiriy--mehrobdan-chayon",
+      "abdulla-qodiriy--kalvak-mahzum",
+      "abdulla-qodiriy--obid-ketmon"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--khalid-jadidism-central-asia"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "역사 소재를 장편 구성과 인물 심리로 다루어, 우즈베크어 산문에 근대 소설의 형식을 처음 들여왔다."
+    "importanceReason": "1914–15년 희곡 「불행한 신랑」으로 시작해, 19세기 코칸트 칸국의 내분과 혼사를 배경으로 인물의 내면과 여러 줄기의 사건을 장편 분량으로 엮는 구성을 우즈베크어 산문에 세웠다. 운문 서사 다스톤과 계몽 논설이 맡던 자리에 산문 소설이 들어서면서, 이후 우즈베크 작가들이 쓰는 문장의 척도가 『지나간 날들』에서 나왔다. 1938년 총살되고 이름이 지워진 뒤에도 이 소설은 계속 읽혔고, 독립 이후 그는 우즈베크 소설의 기준점으로 복권되었다.",
+    "difficulty": 2,
+    "difficultyReason": "연애와 씨족 정치가 교차하는 줄거리라 따라가기 쉽고 문장도 길지 않다. 부담은 코칸트 칸국 말기의 관직명, 마르길란·타슈켄트의 씨족 관계, 혼인 관습이 설명 없이 전제된다는 점에 있다.",
+    "readingEntry": "abdulla-qodiriy--otkan-kunlar",
+    "readingEntryReason": "두 연인의 혼사가 칸국의 내분에 부서지는 이야기여서 줄거리만으로도 끝까지 읽히고, 코디리의 문장과 구성이 가장 완성된 형태로 나오는 작품이다."
   },
   {
     "id": "cholpon",
@@ -1976,7 +2109,7 @@
         "Абай Кунанбаев"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1845,
     "deathYear": 1904,
     "activeRange": [
@@ -1996,13 +2129,29 @@
       "early-modernism"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "abai-qunanbaiuly--qara-sozder",
+      "abai-qunanbaiuly--qarangy-tunde-tau-qalgyp",
+      "abai-qunanbaiuly--tatyana-khaty",
+      "abai-qunanbaiuly--olengderi-1909"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--adebiportal-kz",
+      "src--abai-olengderi-spb-1909"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "구술 아큰 전통을 문자 시로 옮기고 러시아와 유럽의 시를 번역해, 카자흐 문어의 기준을 만들었다."
+    "importanceReason": "구술로 겨루던 아큰의 시를 문자 텍스트로 정착시키고, 푸시킨·레르몬토프·크릴로프·괴테를 카자흐어 운율에 얹어 옮겼다. 1890년부터 1898년까지 쓴 「잠언집」 45편은 씨족의 허영, 게으름, 교육, 신앙을 산문으로 따져 물으면서 노래하는 목소리와 구별되는 논증하는 목소리를 카자흐어에 마련했다. 그가 고른 어휘와 시행 규칙이 20세기 카자흐 문어의 척도가 되었고, 아우에조프의 4부작 이후에는 그의 생애 자체가 카자흐 문학의 중심 서사가 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "시는 초원의 씨족 제도, 목축 달력, 이슬람 용어를 전제한 채 압축되어 있고, 「잠언집」은 짧은 글마다 반박 상대를 명시하지 않은 채 논박한다. 배경 주석 없이 읽으면 훈계처럼만 보이고 논쟁의 구도가 사라진다.",
+    "readingEntry": "abai-qunanbaiuly--qara-sozder",
+    "readingEntryReason": "45편이 각각 두세 쪽이라 아무 데서나 끊어 읽어도 되고, 카자흐 운율에 대한 지식 없이 아바이의 논지와 어조를 바로 만난다."
   },
   {
     "id": "ybyray-altynsarin",
@@ -2124,7 +2273,7 @@
         "Mukhtar Auezov"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1897,
     "deathYear": 1961,
     "activeRange": [
@@ -2145,13 +2294,29 @@
       "late-postmodern"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "mukhtar-auezov--enlik-kebek",
+      "mukhtar-auezov--qorghansyzdyn-kuni",
+      "mukhtar-auezov--qily-zaman",
+      "mukhtar-auezov--abai-zholy"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--adebiportal-kz"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "아바이의 생애를 4부작 장편으로 재구성해, 카자흐어 소설이 감당할 수 있는 규모를 처음 보여 주었다."
+    "importanceReason": "아바이의 생애를 1942년부터 1956년까지 네 권의 장편으로 재구성해, 한 시인의 일생과 19세기 카자흐 초원의 씨족 정치·계절 이동·구술 관습을 한 서사 안에 담았다. 『아바이의 길』은 소설이면서 동시에 민족지이고 아바이 연구의 자료 노릇을 하며, 이 이중성이 카자흐어 산문이 감당할 수 있는 규모를 다시 그렸다. 그는 셰익스피어와 고골을 카자흐어로 옮기고 키르기스 서사시 『마나스』를 연구했으며, 다권본 카자흐 문학사 편찬을 총괄했다.",
+    "difficulty": 3,
+    "difficultyReason": "문장과 구성은 정공법이지만 『아바이의 길』이 네 권 분량이고, 씨족 이름·비(bi, 관습법 재판관)·초원의 계절 이동 같은 배경이 각주 없이 나온다. 초반 백 쪽은 인물 관계를 따로 정리해 가며 읽어야 한다.",
+    "readingEntry": "mukhtar-auezov--enlik-kebek",
+    "readingEntryReason": "초원 전설을 바탕으로 한 짧은 비극이라 한 자리에서 읽히고, 아우에조프가 평생 다룬 소재 — 관습법이 개인을 부수는 자리 — 가 여기 이미 다 들어 있다.",
+    "readingWarning": "『아바이의 길』 1권부터 시작하면 아바이가 누구인지 모르는 채 씨족 계보와 초원 정치에 먼저 부딪힌다. 짧은 희곡과 단편으로 아우에조프의 초원을 익힌 뒤 4부작으로 가는 편이 낫다."
   },
   {
     "id": "olzhas-suleimenov",
@@ -2274,7 +2439,7 @@
         "Chinghiz Aitmatov"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1928,
     "deathYear": 2008,
     "activeRange": [
@@ -2296,13 +2461,28 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "chinghiz-aitmatov--jamiyla",
+      "chinghiz-aitmatov--proshchay-gulsary",
+      "chinghiz-aitmatov--belyy-parokhod",
+      "chinghiz-aitmatov--i-dolshe-veka-dlitsya-den",
+      "chinghiz-aitmatov--plakha"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "키르기스 구전 설화와 소비에트 현실을 한 서사 안에 겹쳐, 중앙아시아 소설을 다른 언어권 독자에게 열었다."
+    "importanceReason": "키르기스 구전 설화와 소비에트 현실을 한 서사 안에 겹쳐 놓았다. 『하루는 백 년보다 길다』의 만쿠르트 — 기억을 지우는 고문을 당해 제 어머니를 알아보지 못하는 노예 — 는 소설 밖으로 나가 러시아어와 중앙아시아 여러 언어에서 뿌리를 잃은 사람을 가리키는 보통명사가 되었다. 키르기스어와 러시아어 양쪽으로 쓰면서 그는 변방 공화국의 소설을 소련 전역과 그 바깥의 독자에게 도달시켰다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 맑고 이야기는 대체로 한 줄기를 따라간다. 부담은 후기 장편에 있다 — 철도 간이역의 현재, 초원 전설, 우주 정거장의 삽화가 예고 없이 교대되어 지금 어느 층에 있는지 붙잡고 읽어야 한다.",
+    "readingEntry": "chinghiz-aitmatov--jamiyla",
+    "readingEntryReason": "중편 한 편 분량 안에 아이트마토프의 재료가 다 있다 — 전시의 마을, 노래, 관습을 등지는 선택 — 이고, 그림 그리는 소년 화자의 시선이라 진입 문턱이 낮다."
   },
   {
     "id": "sayakbay-karalaev",
@@ -2352,7 +2532,7 @@
         "صدرالدین عینی"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1878,
     "deathYear": 1954,
     "activeRange": [
@@ -2373,13 +2553,30 @@
       "mid-century"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "sadriddin-ayni--margi-sudkhur",
+      "sadriddin-ayni--odina",
+      "sadriddin-ayni--ghulomon",
+      "sadriddin-ayni--yoddoshtho"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--khalid-jadidism-central-asia"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "부하라 감옥에서 풀려난 뒤 타지크어 산문 소설을 처음 써, 페르시아 고전과 구별되는 근대 타지크 문학을 시작했다."
+    "importanceReason": "1917년 부하라 아미르의 명으로 곤장 75대를 맞고 옵호나 감옥에 갇혔다가 풀려난 뒤, 그 사회를 산문 서사로 되돌려 썼다. 『오디나』에서 『노예들』까지 그는 부하라의 고리대와 예속을 인물의 생애로 서술했고, 『타지크 문학 표본』(1926)으로는 루다키 이래의 페르시아어 문학이 타지크의 것이기도 하다는 주장을 문헌 증거로 제출했다. 만년의 네 권짜리 『회상록』은 혁명 이전 부하라를 한 사람의 기억으로 복원한다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 평이한 서술체지만 부하라 아미르국의 관직 체계, 마드라사 제도, 고리대 관행이 설명 없이 전제된다. 『회상록』은 네 권 분량에 인물이 수백 명이고 시간이 앞뒤로 오가서 별도의 인내가 필요하다.",
+    "readingEntry": "sadriddin-ayni--margi-sudkhur",
+    "readingEntryReason": "인색한 고리대금업자 한 사람을 일화로 따라가는 짧은 풍자 중편이라 하루면 읽히고, 아이니가 부하라를 보는 눈 — 웃기면서 동시에 냉정한 — 이 가장 잘 드러난다.",
+    "readingWarning": "『회상록』 네 권으로 시작하면 부하라의 지명과 인명이 먼저 쏟아져 진도가 나가지 않는다. 짧은 소설로 그 도시를 한 번 겪은 뒤에 회상록을 펴는 편이 낫다."
   },
   {
     "id": "mirzo-tursunzoda",
@@ -2505,7 +2702,7 @@
         "Makhtumkuli"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1724,
     "deathYear": 1807,
     "activeRange": [
@@ -2524,13 +2721,27 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "magtymguly-pyragy--turkmenin",
+      "magtymguly-pyragy--turkmen-binasy",
+      "magtymguly-pyragy--diwan"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--unesco-history-civilizations-central-asia"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "아랍·페르시아 운율 대신 투르크멘 구어의 음절 율격을 시의 기본으로 세워, 부족의 말을 문학어로 바꿨다."
+    "importanceReason": "아랍·페르시아 운율 대신 투르크멘 구어의 음절 율격(바르마크)을 시의 기본 단위로 삼아, 부족의 일상어를 그대로 문학의 재료로 썼다. 사랑시와 수피 훈계시를 쓰면서도 흩어진 부족의 통합을 시의 주제로 끌어들여, 정치적 호소가 노래의 형식 안에서 유통되게 했다. 인쇄 이전에 박시(bagşy)들의 노래와 필사로 전해진 그의 시는 오늘날 투르크멘 문학어의 기준점 역할을 한다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 노래에 가깝지만, 수피 상징과 부족·지명 고유명사가 촘촘해 주석 없이는 무엇을 가리키는지 잡히지 않는다. 음절 율격이 만드는 음악은 번역에서 대부분 사라져 남는 것이 훈계처럼 읽히기 쉽다.",
+    "readingEntry": "magtymguly-pyragy--turkmenin",
+    "readingEntryReason": "그의 시 전체가 어디로 향하는지 — 부족의 통합 — 가 한 편 안에 들어 있고, 연마다 되돌아오는 후렴 구조 덕분에 번역으로도 율격의 반복이 남는다.",
+    "readingWarning": "선집을 앞에서부터 순서대로 읽으면 반복되는 수피 훈계시에 먼저 지친다. 정치·향토 시편에서 시작해 훈계시로 가는 편이 낫다."
   },
   {
     "id": "berdi-kerbabayev",
@@ -3755,7 +3966,7 @@
         "Mihail Eminovici"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1850,
     "deathYear": 1889,
     "activeRange": [
@@ -3774,13 +3985,29 @@
       "roots"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "fiction"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "mihai-eminescu--floare-albastra",
+      "mihai-eminescu--luceafarul",
+      "mihai-eminescu--sarmanul-dionis",
+      "mihai-eminescu--poesii"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--maiorescu-eminescu-si-poeziile-lui-1889"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "루마니아어의 음운과 통사를 시의 재료로 다시 벼려, 이후 세대가 쓸 시적 언어의 표준을 남겼다."
+    "importanceReason": "루마니아어의 음운과 통사를 시의 재료로 다시 벼려, 이후 세대가 쓸 시적 언어의 표준을 남겼다. 「샛별」에서는 민담의 뼈대 위에 쇼펜하우어적 시간론을 얹어, 불멸의 존재가 인간의 시간에서 스스로 물러나는 과정을 98연의 서사시로 밀고 나갔다. 산문 「가련한 디오니스」는 칸트의 시간·공간 형식을 소설의 장치로 삼아, 루마니아 환상 산문이 되풀이해 돌아오는 자리가 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "어휘 자체는 어렵지 않으나 루마니아어의 음운으로 짜인 운율이 번역에서 손실되고, 「샛별」과 「가련한 디오니스」는 쇼펜하우어·칸트의 시간론을 서사의 뼈대로 쓰기 때문에 배경 지식이 있는 쪽이 훨씬 잘 읽힌다.",
+    "readingEntry": "mihai-eminescu--floare-albastra",
+    "readingEntryReason": "한 편 분량이 짧고 낭만적 목가와 그 목가의 취소가 같은 시 안에 들어 있어, 「샛별」의 긴 구조로 들어가기 전에 그의 문법을 미리 볼 수 있다.",
+    "readingWarning": "「샛별」을 먼저 펴면 98연의 길이와 민담 배경 때문에 중반에서 놓기 쉽다. 짧은 서정시를 한두 편 지난 뒤에 들어가는 편이 낫다."
   },
   {
     "id": "ion-creanga",
@@ -4153,7 +4380,7 @@
         "Sándor Petőfi"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1823,
     "deathYear": 1849,
     "activeRange": [
@@ -4172,13 +4399,30 @@
       "enlightenment-romantic"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "epic"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "sandor-petofi--nemzeti-dal",
+      "sandor-petofi--szeptember-vegen",
+      "sandor-petofi--janos-vitez",
+      "sandor-petofi--az-apostol"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--petofi-irodalmi-muzeum",
+      "src--petofi-coriolanus-1848"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "구어체 헝가리어로 쓴 시를 광장의 낭독물로 만들어, 1848년 봉기의 첫날 문학이 사건의 일부가 되게 했다."
+    "importanceReason": "구어체 헝가리어로 쓴 시를 광장의 낭독물로 만들어, 1848년 3월 15일 페슈트에서 「민족의 노래」가 봉기 첫날의 일부가 되게 했다. 민담의 운율과 어휘를 그대로 쓴 「용사 야노시」는 이야기 시의 재료를 궁정과 고전에서 농촌의 말로 옮겨 놓았다. 스물여섯에 전장에서 사라진 그의 생애는 이후 헝가리 시에서 시인과 정치적 행위를 같은 것으로 보는 상(像)의 기준이 되었다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 구어체라 곧바로 읽히지만, 1848년 헝가리의 정세와 민담 어휘가 배경으로 깔려 있어 각주 없이는 고유명사와 정치적 지시가 비어 보인다.",
+    "readingEntry": "sandor-petofi--nemzeti-dal",
+    "readingEntryReason": "짧고 명령형이며 1848년 3월 15일이라는 사건과 붙어 있어, 시가 어떻게 사건의 일부가 되었는지를 한 편으로 확인할 수 있다.",
+    "readingWarning": "「민족의 노래」에서 멈추면 그를 구호 시인으로만 남기게 된다. 「9월 말에」까지 읽어야 같은 사람이 쓴 다른 목소리가 보인다."
   },
   {
     "id": "janos-arany",
@@ -4412,7 +4656,7 @@
         "Imre Kertész"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1929,
     "deathYear": 2016,
     "activeRange": [
@@ -4433,13 +4677,29 @@
       "contemporary"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "imre-kertesz--sorstalansag",
+      "imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert",
+      "imre-kertesz--a-kudarc",
+      "imre-kertesz--felszamolas"
+    ],
+    "sourceIds": [
+      "src--nobelprize",
+      "src--britannica"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "수용소를 겪는 소년의 시점을 끝까지 유지해, 아우슈비츠를 회고가 아니라 현재진행의 문법으로 서술했다."
+    "importanceReason": "수용소를 겪는 소년의 시점을 끝까지 유지해, 아우슈비츠를 회고가 아니라 현재진행의 문법으로 서술했다. 『운명』의 화자는 사후의 도덕적 정리를 거부하고 각 단계를 그때의 이해로만 기술하며, 이 유예가 판단의 자리를 독자에게 넘긴다. 뒤이은 『좌절』과 『태어나지 않은 아이를 위한 카디시』는 그 소설을 쓴 사람의 자리를 다시 서술 대상으로 삼아, 홀로코스트를 쓰는 행위 자체를 소재로 되돌리는 3부작이 되었다.",
+    "difficulty": 4,
+    "difficultyReason": "『운명』의 문장 자체는 평이하나 화자가 도덕적 판단을 끝까지 미루어 그 공백을 독자가 견뎌야 하고, 이후 작품들은 단락 없는 독백과 자기 인용으로 진행되어 형식을 감내해야 한다.",
+    "readingEntry": "imre-kertesz--sorstalansag",
+    "readingEntryReason": "소년 화자의 현재진행 시점이라는 그의 방법이 여기서 가장 순수하게 작동하고, 나머지 작품은 모두 이 소설을 쓴 뒤의 반향으로 읽힌다.",
+    "readingWarning": "『태어나지 않은 아이를 위한 카디시』부터 시작하면 단락 없는 한 덩어리의 독백이 『운명』의 전제를 이미 아는 독자를 향해 있어 진입이 어렵다."
   },
   {
     "id": "laszlo-krasznahorkai",
@@ -4561,7 +4821,7 @@
         "Taras Shevchenko"
       ]
     },
-    "depth": "sketch",
+    "depth": "plate",
     "birthYear": 1814,
     "deathYear": 1861,
     "activeRange": [
@@ -4581,13 +4841,31 @@
       "roots"
     ],
     "movements": [],
-    "genres": [],
+    "genres": [
+      "poetry",
+      "epic"
+    ],
     "locations": [],
-    "readingOrder": [],
-    "sourceIds": [],
+    "readingOrder": [
+      "taras-shevchenko--kobzar",
+      "taras-shevchenko--kateryna",
+      "taras-shevchenko--zapovit",
+      "taras-shevchenko--kavkaz",
+      "taras-shevchenko--haidamaky"
+    ],
+    "sourceIds": [
+      "src--britannica",
+      "src--internet-encyclopedia-of-ukraine",
+      "src--shkandrij-russia-and-ukraine"
+    ],
     "tier": "anchor",
     "reviewStatus": "draft",
-    "importanceReason": "농노로 태어나 속량된 뒤 우크라이나어로만 시집을 묶어, 제국의 언어 밖에서 문학어를 세우는 선례를 남겼다."
+    "importanceReason": "농노로 태어나 속량된 뒤 우크라이나어로만 시집을 묶어, 제국의 언어 밖에서 문학어를 세우는 선례를 남겼다. 방랑 악사 코브자르의 구송 율격을 시행의 기본으로 삼되 농노제, 1768년 봉기, 캅카스 정복 같은 당대의 정치를 그 율격 안에 넣었다. 유형과 창작 금지 처분 아래 쓰인 시들이 필사로 돌았고, 그 유통 방식 자체가 이후 우크라이나 문학의 성립 조건이 되었다.",
+    "difficulty": 3,
+    "difficultyReason": "시행은 민요 율격이라 소리 내어 읽으면 잡히지만, 농노제·1768년 봉기·제국 검열이 시 안에 압축돼 있어 배경 없이는 고유명사가 비고, 우크라이나어 운율은 번역에서 대부분 깎여 나간다.",
+    "readingEntry": "taras-shevchenko--kobzar",
+    "readingEntryReason": "1840년 초판은 여덟 편뿐이라 분량이 짧고, 이후의 시들이 모두 이 책의 확장으로 읽힌다.",
+    "readingWarning": "오늘날 『코브자르』라는 제목으로 나오는 판본은 대개 전집이라 1840년 초판(여덟 편)과 분량이 전혀 다르다. 어느 판본인지 먼저 확인하는 편이 낫다."
   },
   {
     "id": "ivan-kotliarevsky",
