@@ -189,3 +189,14 @@ for (const bag of [files.authorFiles, files.workFiles, files.relationFiles, file
 // 강등이 배차 원장에서 뺀 행도 파일로 — 메모리 검증은 통과하고 파일 검증은 빨간 상태를 한 번 만들었다.
 writeFileSync(join(PKG_ROOT, "data", "registry.json"), JSON.stringify(files.registry, null, 2) + "\n");
 console.log(`  → 썼다 (${log.length} 변경)`);
+
+// 쓴 뒤 파일에서 다시 조립한다. 메모리 검증은 파일에 쓰지 않은 것을 못 본다 — registry 를
+// 메모리에서만 고치고 파일엔 안 써서 다음 실행이 크래시한 적이 있다(2026-09-05).
+{
+  const after = assembleDataset(loadRawCollections());
+  if (after.errors.length) {
+    console.log(`\n⚠ 파일에서 다시 조립하니 빨강 ${after.errors.length}건 — 메모리와 파일이 어긋났다:`);
+    for (const e of after.errors.slice(0, 10)) console.log("  " + e);
+    process.exit(1);
+  }
+}

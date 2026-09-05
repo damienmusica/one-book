@@ -274,3 +274,14 @@ if (newRels.length) writeFileSync(join(PKG_ROOT, "data", `relations/plate-${KEY}
 if (newSrcs.length) writeFileSync(join(PKG_ROOT, "data", `sources/plate-${KEY}.json`), JSON.stringify(newSrcs, null, 2) + "\n");
 writeFileSync(join(PKG_ROOT, "data", "registry.json"), JSON.stringify(registry, null, 2) + "\n");
 console.log(`  → 작가 ${accepted.length} 승급 · works/plate-${KEY}.json ${freshWorks.length} · relations ${newRels.length} · sources ${newSrcs.length} · registry +${accepted.length}`);
+
+// 쓴 뒤 파일에서 다시 조립한다. 메모리 검증은 파일에 쓰지 않은 것을 못 본다 — registry 를
+// 메모리에서만 고치고 파일엔 안 써서 다음 실행이 크래시한 적이 있다(2026-09-05).
+{
+  const after = assembleDataset(loadRawCollections());
+  if (after.errors.length) {
+    console.log(`\n⚠ 파일에서 다시 조립하니 빨강 ${after.errors.length}건 — 메모리와 파일이 어긋났다:`);
+    for (const e of after.errors.slice(0, 10)) console.log("  " + e);
+    process.exit(1);
+  }
+}
