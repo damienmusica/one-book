@@ -17,9 +17,13 @@ type Raw = Record<string, any>;
 const parsed = JSON.parse(readFileSync(inFile, "utf8"));
 const plates: Raw[] = Array.isArray(parsed) ? parsed : parsed.plates ?? [];
 
+// 새 출처는 웨이브 전체의 풀이다 — 한 배치가 한 문헌을 한 사람 밑에만 정의한다. 자기 것만 보면
+// 실재하는 책이 "(정의 없음)"으로 QC 에 나가고, QC 는 그것을 sources:wrong 으로 돌려보낸다(실측 3건).
+const pool = new Map<string, Raw>();
+for (const p of plates) for (const s of p.newSources ?? []) if (!pool.has(s.id)) pool.set(s.id, s);
 const rows = plates.map((p) => {
   const a = byId.get(p.id);
-  const local = new Map<string, Raw>((p.newSources ?? []).map((s: Raw) => [s.id, s]));
+  const local = pool;
   const srcLine = (id: string) => {
     const s = src.get(id) ?? local.get(id);
     return s ? `${id} → ${s.title} (${s.publisherOrInstitution})` : `${id} → (정의 없음)`;
