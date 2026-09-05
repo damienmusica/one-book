@@ -192,15 +192,15 @@ describe("배차 원장은 도판 작가만 잰다", () => {
     makeAuthor({ id, depth: "silhouette", reviewStatus: "draft", readingOrder: [], readingEntry: undefined });
 
   it("원장에 없는 실루엣은 통과한다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), silhouette("s")], []);
-    ds.registry = [{ id: "a", ko: "가", original: "A", layer: "roots", tier: "anchor", batch: "t" }];
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), silhouette("s")], []);
+    ds.registry = ds.registry.filter((r) => r.id !== "s");
     ds.works = ds.works.filter((w) => w.authorId !== "s");
     const { errors } = assembleDataset(rawFrom(ds));
     expect(errors).toEqual([]);
   });
 
   it("원장에 올랐는데 실루엣이면 막는다 — 그리기로 한 작가를 그리지 않았다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), silhouette("s")], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), silhouette("s")], []);
     ds.registry = [
       { id: "a", ko: "가", original: "A", layer: "roots", tier: "anchor", batch: "t" },
       { id: "s", ko: "실", original: "S", layer: "roots", tier: "context", batch: "t" }
@@ -227,7 +227,7 @@ describe("작품에도 깊이가 있다 (2026-09-04)", () => {
     makeWork(authorId, n, { depth: "silhouette", significance: undefined, sourceIds: [] });
 
   it("실루엣 작가가 실루엣 작품을 갖는 것은 정상이다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), silAuthor("s")], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), silAuthor("s")], []);
     ds.works = ds.works.filter((w) => w.authorId !== "s").concat([silWork("s", 1), silWork("s", 2)]);
     ds.registry = ds.registry.filter((r) => r.id !== "s");
     const { errors } = assembleDataset(rawFrom(ds));
@@ -235,7 +235,7 @@ describe("작품에도 깊이가 있다 (2026-09-04)", () => {
   });
 
   it("작품이 작가보다 깊을 수는 없다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), silAuthor("s")], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), silAuthor("s")], []);
     ds.works = ds.works.filter((w) => w.authorId !== "s").concat([makeWork("s", 1)]);
     ds.registry = ds.registry.filter((r) => r.id !== "s");
     const { errors } = assembleDataset(rawFrom(ds));
@@ -243,7 +243,7 @@ describe("작품에도 깊이가 있다 (2026-09-04)", () => {
   });
 
   it("실루엣 작품은 산문을 갖지 못한다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), silAuthor("s")], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), silAuthor("s")], []);
     ds.works = ds.works
       .filter((w) => w.authorId !== "s")
       .concat([makeWork("s", 1, { depth: "silhouette", sourceIds: [] })]);
@@ -301,7 +301,7 @@ describe("스케치는 축소된 도판이 아니라 한 문장을 더한 실루
     });
 
   it("장소도 난도도 출처도 없이 선다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s")], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), sketch("s")], []);
     ds.works = ds.works
       .filter((w) => w.authorId !== "s")
       .concat([makeWork("s", 1, { depth: "silhouette", significance: undefined, sourceIds: [] })]);
@@ -310,21 +310,21 @@ describe("스케치는 축소된 도판이 아니라 한 문장을 더한 실루
   });
 
   it("한 문장이 없으면 스케치가 아니다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s", { importanceReason: undefined })], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), sketch("s", { importanceReason: undefined })], []);
     ds.works = ds.works.filter((w) => w.authorId !== "s");
     ds.registry = ds.registry.filter((r) => r.id !== "s");
     expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("importanceReason"))).toBe(true);
   });
 
   it("작품이 작가보다 깊을 수 없다 — 스케치에도 같은 규칙", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s")], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), sketch("s")], []);
     ds.works = ds.works.filter((w) => w.authorId !== "s").concat([makeWork("s", 1)]);
     ds.registry = ds.registry.filter((r) => r.id !== "s");
     expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("작가가 스케치인데"))).toBe(true);
   });
 
   it("입문 순서는 큐레이션이고 도판의 것이다", () => {
-    const ds = makeDataset([makeAuthor({ id: "a" }), sketch("s", { readingOrder: ["s--w1"] })], []);
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" }), sketch("s", { readingOrder: ["s--w1"] })], []);
     ds.works = ds.works
       .filter((w) => w.authorId !== "s")
       .concat([makeWork("s", 1, { depth: "silhouette", significance: undefined, sourceIds: [] })]);
@@ -345,5 +345,22 @@ describe("스케치는 축소된 도판이 아니라 한 문장을 더한 실루
     expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("primary is not exactly one"))).toBe(true);
     const none = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b", locations: [] })], []);
     expect(assembleDataset(rawFrom(none)).errors).toEqual([]);
+  });
+});
+
+describe("도판은 관계를 가진다 — 관계 0 인 도판은 엔진에 잡히지 않는 섬이다", () => {
+  it("관계 없는 도판을 막는다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" })], [makeRelation("a", "b")]);
+    ds.authors.push(makeAuthor({ id: "c" }));
+    ds.works = ds.works.concat([makeWork("c", 1), makeWork("c", 2), makeWork("c", 3)]);
+    ds.registry.push({ id: "c", ko: "다", original: "C", layer: "roots", tier: "context", batch: "t" });
+    const errors = assembleDataset(rawFrom(ds)).errors;
+    expect(errors.some((e) => e.includes("c: 도판인데 관계가 0"))).toBe(true);
+    expect(errors.some((e) => e.includes("a: 도판인데") || e.includes("b: 도판인데"))).toBe(false);
+  });
+  it("스케치·실루엣에는 요구하지 않는다", () => {
+    const ds = makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" })], [makeRelation("a", "b")]);
+    ds.authors.push(makeAuthor({ id: "s", depth: "sketch", reviewStatus: "draft", importanceReason: "한 문장으로 왜 이 사람이 지도에 있는지 말한다.", locations: [], genres: [], difficulty: undefined, sourceIds: [], readingEntry: undefined, readingOrder: [] }));
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("s: 도판인데"))).toBe(false);
   });
 });

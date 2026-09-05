@@ -77,10 +77,17 @@ export function makeDataset(
   extra: Partial<Dataset> = {}
 ): Dataset {
   const works = authors.flatMap((a) => [1, 2, 3].map((n) => makeWork(a.id, n)));
+  // 도판은 관계를 가진다(조립 계약). 관계를 명시하지 않은 픽스처는 도판들을 사슬로 이어
+  // 그 계약을 만족시킨다 — 시험하려는 것이 관계가 아닐 때 관계 때문에 빨개지지 않도록.
+  const plates = authors.filter((a) => (a.depth ?? "plate") === "plate");
+  const rels =
+    relations.length || plates.length < 2
+      ? relations
+      : plates.slice(1).map((b, i) => makeRelation(plates[i]!.id, b.id, "affinity", { evidenceLevel: "scholarly_consensus", sourceIds: ["src--britannica"] }));
   return {
     authors,
     works,
-    relations,
+    relations: rels,
     sources: [
       {
         id: "src--britannica",

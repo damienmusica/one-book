@@ -298,6 +298,11 @@ export function assembleDataset(
       checkUnique(`${a.id} readingOrder`, a.readingOrder ?? [], errors);
     }
 
+    // 도판의 값 셋 중 하나가 관계다. 관계 0 인 도판은 준비도 엔진에 잡히지 않는 섬이라
+    // 도판이 아니다. 인제스트가 막지만, 되돌림 적용이 관계를 지워 0 이 되는 길도 여기서 막는다.
+    if (depth === "plate" && !relations.some((r) => r.sourceId === a.id || r.targetId === a.id))
+      errors.push(`${a.id}: 도판인데 관계가 0 이다 — 읽은 것이 이 사람을 열 수 없다`);
+
     if ((a.reviewStatus === "reviewed" || a.reviewStatus === "verified") && !a.reviewedAt)
       errors.push(`${a.id}: reviewStatus '${a.reviewStatus}' requires reviewedAt`);
     if (
