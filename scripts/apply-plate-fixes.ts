@@ -7,7 +7,7 @@
 //   npx tsx scripts/apply-plate-fixes.ts <fixes.json> --key <wave> [--write]
 //
 // 입력: { fixes: [ { id, importanceReason?, difficulty?, difficultyReason?, readingEntry?,
-//   readingEntryReason?, readingOrder?, readingWarning?, works?: [{ id, significance }],
+//   readingEntryReason?, readingOrder?, readingWarning?, works?: [{ id, significance?, titleKo?, year?, yearBasis? }],
 //   relations?: [{ id, summary?, evidenceLevel?, sourceIds?, weight? }],
 //   newSources?: [{ id, title, publisherOrInstitution, citation?, url? }]  ← 총칭 출처 대신 실재 연구,
 //   sources?: [{ id, title?, publisherOrInstitution?, citation?, url? }]  ← 실재하는 출처의 표기를 고친다,
@@ -93,10 +93,18 @@ for (const f of fixes) {
   for (const w of Array.isArray(f.works) ? f.works : []) {
     const wr = findRow(files.workFiles, String(w.id));
     if (!wr) { skipped.push({ id, why: `작품 ${w.id} 없음` }); continue; }
-    const sig = String(w.significance ?? "").trim();
-    if (sig.length < 30) { skipped.push({ id, why: `작품 ${w.id} 의의 ${sig.length}자` }); continue; }
-    if (SUPERLATIVE.test(sig)) superlatives++;
-    wr.significance = sig; workEdits++; log.push(`${w.id}.significance`);
+    // 의의·한국어 제목·연도·연도 근거를 각각 따로 고친다 — close-read 가 제목 번역과 연도를 반박하는 경우가 있었다
+    // (「목축업자의 아내」는 본문만 고쳐지고 제목은 세 바퀴를 살아남았다).
+    let did = false;
+    if (typeof w.significance === "string") {
+      const sig = w.significance.trim();
+      if (sig.length < 30) skipped.push({ id, why: `작품 ${w.id} 의의 ${sig.length}자` });
+      else { if (SUPERLATIVE.test(sig)) superlatives++; wr.significance = sig; did = true; log.push(`${w.id}.significance`); }
+    }
+    if (typeof w.titleKo === "string" && w.titleKo.trim()) { wr.titleKo = w.titleKo.trim(); did = true; log.push(`${w.id}.titleKo`); }
+    if (typeof w.year === "number" && Number.isInteger(w.year)) { wr.year = w.year; did = true; log.push(`${w.id}.year`); }
+    if (typeof w.yearBasis === "string" && ["attested", "first-print", "composition-range", "earliest-manuscript"].includes(w.yearBasis)) { wr.yearBasis = w.yearBasis; did = true; log.push(`${w.id}.yearBasis`); }
+    if (did) workEdits++;
   }
   // 새 출처 — 재작성이 총칭 출처 대신 실재 연구를 지목한 경우. 웨이브 출처 파일에 더한다.
   // 형식이 어긋나면 그 출처만 건너뛴다(그것을 참조한 관계는 검증기가 "미정의"로 잡는다).

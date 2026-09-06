@@ -259,7 +259,12 @@ console.log("\n색인 허가 — 검토된 것만 제출한다");
   const sm = await (await fetch(`${server.origin}/sitemap.xml`)).text();
   const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   check("sitemap 이 검토되지 않은 쪽을 제출하지 않는다", !locs.some((u) => u.includes("/authors/qu-yuan/")), `${locs.length} urls`);
-  check("그래도 도판은 전부 제출한다", locs.filter((u) => /\/authors\/[^/]+\/$/.test(u)).length === 100);
+  // 검토된 작가는 전부 제출한다 — 수는 첫 장 푸터가 찍는 검토 수와 같아야 한다(100 으로 박아 두면
+  // 검토가 늘 때마다 계약이 거짓말한다).
+  const indexHtml = await (await fetch(`${server.origin}/`)).text();
+  const reviewedN = Number((indexHtml.match(/검토 ([\d,]+)/) ?? [])[1]?.replace(/,/g, ""));
+  const smAuthors = locs.filter((u) => /\/authors\/[^/]+\/$/.test(u)).length;
+  check("검토된 작가는 전부 제출한다 — 푸터의 검토 수와 같다", reviewedN > 0 && smAuthors === reviewedN, `sitemap ${smAuthors} · 푸터 ${reviewedN}`);
   // 사람은 여전히 걸어 들어온다 — noindex 는 탐험을 막지 않는다
   await page.goto(`${server.origin}/authors/`, { waitUntil: "load" });
   await page.locator("#q").fill("굴원");
