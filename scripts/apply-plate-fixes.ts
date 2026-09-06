@@ -115,6 +115,16 @@ for (const f of fixes) {
   for (const s of Array.isArray(f.sources) ? f.sources : []) {
     const sr = findRow(files.sourceFiles, String(s.id));
     if (!sr) { skipped.push({ id, why: `출처 ${s.id} 없음` }); continue; }
+    // 남이 함께 딛는 레코드는 고치지 않는다 — 같은 책의 다른 글을 가리키는 관계가 있을 수 있다(보르헤스
+    // 『영원의 역사』: 니체 관계는 「순환의 교리」, 플라톤 관계는 표제 에세이). 그때는 새 레코드로 가른다.
+    const others = [
+      ...Object.values(files.relationFiles).flatMap((rows) => (rows as Raw[])
+        .filter((r) => Array.isArray(r.sourceIds) && r.sourceIds.includes(s.id) && r.sourceId !== id && r.targetId !== id)
+        .map((r) => String(r.id))),
+      ...Object.values(files.authorFiles).flatMap((rows) => (rows as Raw[])
+        .filter((a) => a.id !== id && Array.isArray(a.sourceIds) && a.sourceIds.includes(s.id)).map((a) => String(a.id))),
+    ];
+    if (others.length) { skipped.push({ id, why: `출처 ${s.id} 는 공유 레코드(${others.join(", ")}) — 고치지 말고 새 레코드로 가르라` }); continue; }
     for (const k of ["title", "publisherOrInstitution", "citation"] as const)
       if (typeof s[k] === "string" && s[k].trim()) sr[k] = s[k].trim();
     if (typeof s.url === "string" && /^https:\/\//.test(s.url)) sr.url = s.url;
