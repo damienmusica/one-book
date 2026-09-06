@@ -10,6 +10,7 @@
 //   readingEntryReason?, readingOrder?, readingWarning?, works?: [{ id, significance }],
 //   relations?: [{ id, summary?, evidenceLevel?, sourceIds?, weight? }],
 //   newSources?: [{ id, title, publisherOrInstitution, citation?, url? }]  ← 총칭 출처 대신 실재 연구,
+//   sources?: [{ id, title?, publisherOrInstitution?, citation?, url? }]  ← 실재하는 출처의 표기를 고친다,
 //   dropRelations?: [relationId], dropSources?: [sourceId]  ← 이 작가의 참조에서 뺀다,
 //   unresolvable?: "why"  ← 관계를 하나도 못 지킨다: 스케치로 되돌린다 } ] }
 import { readFileSync, writeFileSync } from "node:fs";
@@ -42,7 +43,7 @@ const fixes: Raw[] = Array.isArray(parsed) ? parsed : parsed.fixes ?? [];
 const SUPERLATIVE = /처음|최초|유일|가장 이른|첫 번째|시초|효시/;
 const log: string[] = [];
 const skipped: { id: string; why: string }[] = [];
-let fieldEdits = 0, workEdits = 0, relEdits = 0, relDrops = 0, demoted = 0, newSrc = 0, superlatives = 0;
+let fieldEdits = 0, workEdits = 0, relEdits = 0, relDrops = 0, demoted = 0, newSrc = 0, srcEdits = 0, superlatives = 0;
 
 const findRow = (bag: Record<string, unknown>, id: string): Raw | undefined => {
   for (const rows of Object.values(bag)) {
@@ -108,6 +109,16 @@ for (const f of fixes) {
     if (!exists) { wave.push({ id: sid, title: String(s.title).trim(), publisherOrInstitution: String(s.publisherOrInstitution).trim(),
       ...(s.citation ? { citation: String(s.citation).trim() } : {}), ...(s.url && /^https:\/\//.test(String(s.url)) ? { url: String(s.url) } : {}) });
       newSrc++; log.push(`+${sid}`); }
+  }
+  // 출처 레코드 수정 — 책은 실재하되 수록 글·연도·출판사 표기가 틀린 경우(플라톤의 보르헤스 출처는
+  // 세 바퀴 동안 같은 지적을 받았다: 고칠 경로가 없었다). 웨이브 출처든 기존 출처든 레코드를 고친다.
+  for (const s of Array.isArray(f.sources) ? f.sources : []) {
+    const sr = findRow(files.sourceFiles, String(s.id));
+    if (!sr) { skipped.push({ id, why: `출처 ${s.id} 없음` }); continue; }
+    for (const k of ["title", "publisherOrInstitution", "citation"] as const)
+      if (typeof s[k] === "string" && s[k].trim()) sr[k] = s[k].trim();
+    if (typeof s.url === "string" && /^https:\/\//.test(s.url)) sr.url = s.url;
+    srcEdits++; log.push(`${s.id}.record`);
   }
   // 관계 부분 교체 — QC 가 근거 문서의 세부를 고쳐 준 경우. 빈 sourceIds 는 "바꾸지 않음"이다
   // (빈 배열을 그대로 쓰면 검증기가 출처 요구로 막는다 — 그건 재작성이 아니라 삭제 의도다).
@@ -193,7 +204,7 @@ if (wavePath in files.sourceFiles) {
   (files.sourceFiles as any)[wavePath] = kept;
 }
 
-console.log(`고침: 필드 ${fieldEdits} · 작품 의의 ${workEdits} · 관계 교체 ${relEdits} · 새 출처 ${newSrc} · 관계 삭제 ${relDrops} · 스케치로 강등 ${demoted} · 웨이브 출처 정리 ${srcDrops} · 최초형 ${superlatives} · 건너뜀 ${skipped.length}`);
+console.log(`고침: 필드 ${fieldEdits} · 작품 의의 ${workEdits} · 관계 교체 ${relEdits} · 새 출처 ${newSrc} · 출처 레코드 수정 ${srcEdits} · 관계 삭제 ${relDrops} · 스케치로 강등 ${demoted} · 웨이브 출처 정리 ${srcDrops} · 최초형 ${superlatives} · 건너뜀 ${skipped.length}`);
 for (const s of skipped.slice(0, 12)) console.log(`  건너뜀 ${s.id}: ${s.why}`);
 if (!write) { console.log("(--write 없이 실행 — 파일을 쓰지 않았다)"); process.exit(0); }
 
