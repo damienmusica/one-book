@@ -1,7 +1,7 @@
 // Build (or extend) a close-read ledger: every claim on a plate, its verdict, its evidence, and — once a fix
 // pass has run — how each unconfirmed claim was settled.
 //
-//   npx tsx scripts/closeread-ledger.ts --out qc/closeread/<batch>.json --verdicts v1.json [v2.json ...] [--fixes f1.json ...]
+//   npx tsx scripts/closeread-ledger.ts --out qc/closeread/<batch>.json [--verdicts v.json ...] [--reverdicts r.json ...] [--fixes f.json ...]
 //
 // Verdict files are the close-read output {plates:[{id, claims:[{field, claim, verdict, url?, quote?, correction?, note?}]}]}.
 // Fix files are the fixer output {fixes:[{id, ..., resolutions:[{field, claim, resolution, pendingWhere?}]}]}; resolutions are
@@ -22,7 +22,19 @@ for (const f of list("--verdicts")) {
     byId.set(p.id, { id: p.id, readAt: new Date().toISOString().slice(0, 10), claims: (p.claims ?? []).map((c: Raw) => ({ ...c })) });
   }
 }
-let settled = 0, unmatched = 0;
+let settled = 0, unmatched = 0, reread = 0;
+// 재판정 — 첫 조회가 읽지 못한 출처를 다른 길로 읽은 결과. 같은 (도판, 필드, 주장) 의 판정·증거를 덧씌운다.
+// confirmed 로 바뀐 주장은 그것으로 닫히고, 남은 pending 표시는 지운다; contradicted 로 바뀐 주장은 고침을 다시 기다린다.
+for (const f of list("--reverdicts")) {
+  for (const r of JSON.parse(readFileSync(f, "utf8")).claims ?? []) {
+    const p = byId.get(r.id); if (!p) { unmatched++; continue; }
+    const c = p.claims.find((x: Raw) => x.field === r.field && x.claim === r.claim) ?? p.claims.find((x: Raw) => x.claim === r.claim);
+    if (!c) { unmatched++; continue; }
+    c.verdict = r.verdict; for (const k of ["url", "quote", "correction", "note"]) if (r[k]) c[k] = r[k];
+    if (r.verdict === "confirmed" || r.verdict === "contradicted") { delete c.resolution; delete c.pendingWhere; }
+    c.rereadAt = new Date().toISOString().slice(0, 10); reread++;
+  }
+}
 for (const f of list("--fixes")) {
   for (const fx of JSON.parse(readFileSync(f, "utf8")).fixes ?? []) {
     const p = byId.get(fx.id); if (!p) { unmatched++; continue; }
@@ -43,4 +55,4 @@ for (const p of ledger.plates) for (const c of p.claims) {
 }
 ledger.totals = T;
 writeFileSync(out, JSON.stringify(ledger, null, 2) + "\n");
-console.log(`원장 ${out}: 도판 ${T.plates} · 주장 ${T.claims} · 확정 ${T.confirmed} · 반박 ${T.contradicted} · 미확인 ${T.unverifiable} · 접근 대기 ${T.pending} · 미결 ${T.open} (해결 기록 ${settled}, 짝 못 찾음 ${unmatched})`);
+console.log(`원장 ${out}: 도판 ${T.plates} · 주장 ${T.claims} · 확정 ${T.confirmed} · 반박 ${T.contradicted} · 미확인 ${T.unverifiable} · 접근 대기 ${T.pending} · 미결 ${T.open} (해결 기록 ${settled}, 재판정 ${reread}, 짝 못 찾음 ${unmatched})`);

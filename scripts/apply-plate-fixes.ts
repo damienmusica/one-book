@@ -64,6 +64,19 @@ const findRel = (id: string): { row: Raw; path: string; index: number } | undefi
       const i = arr.findIndex((r) => r.id === cand);
       if (i >= 0) return { row: arr[i]!, path, index: i };
     }
+  // 고침이 관계를 id 대신 "a→b" 로 가리키는 일이 있다(close-read 고침 72건 중 19건). 두 작가 사이의 선이
+  // 하나뿐이면 그것이다; 둘 이상이면 어느 선인지 모르니 찾지 못한 것으로 둔다.
+  const m = /^\s*(?:([a-z_]+)\s+)?([a-z0-9-]+)\s*(?:→|->)\s*([a-z0-9-]+)\s*$/.exec(id);
+  if (m) {
+    const [, type, x, y] = m;
+    let hits: { row: Raw; path: string; index: number }[] = [];
+    for (const [path, rows] of Object.entries(files.relationFiles))
+      (rows as Raw[]).forEach((r, index) => {
+        if ((r.sourceId === x && r.targetId === y) || (r.sourceId === y && r.targetId === x)) hits.push({ row: r, path, index });
+      });
+    if (type && hits.length > 1) hits = hits.filter((h) => h.row.type === type);
+    if (hits.length === 1) return hits[0];
+  }
   return undefined;
 };
 
