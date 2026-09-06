@@ -260,6 +260,10 @@ export const relationSchema = z
 export const sourceSchema = z
   .object({
     id: z.string().regex(SOURCE_ID),
+    // 총칭 참고문헌(백과·전집·상 목록)은 사실 확인의 출처는 되지만 "학계가 이렇게 다룬다"의
+    // 근거는 되지 못한다 — 학계가 어디인지 말하지 않기 때문이다. 이 표시가 있는 출처만으로
+    // scholarly_consensus 를 받칠 수 없다(조립 계약).
+    kind: z.enum(["general-reference"]).optional(),
     title: z.string().min(1),
     publisherOrInstitution: z.string().min(1),
     url: z.string().url().startsWith("https://").optional(),

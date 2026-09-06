@@ -4,14 +4,16 @@
     "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
     "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
     "url": "https://www.britannica.com",
-    "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조",
+    "kind": "general-reference"
   },
   {
     "id": "src--nobelprize",
     "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
     "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
     "url": "https://www.nobelprize.org",
-    "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용",
+    "kind": "general-reference"
   },
   {
     "id": "src--poetry-foundation",
@@ -44,7 +46,8 @@
     "id": "src--oxford-worlds-classics",
     "title": "Oxford World's Classics 서문·해제",
     "publisherOrInstitution": "Oxford University Press",
-    "citation": "정본 텍스트의 학술 서문·연보"
+    "citation": "정본 텍스트의 학술 서문·연보",
+    "kind": "general-reference"
   },
   {
     "id": "src--pleiade",
@@ -77,6 +80,7 @@
     "id": "src--kr-world-lit-editions",
     "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
     "publisherOrInstitution": "국내 문학 출판사",
-    "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다",
+    "kind": "general-reference"
   }
 ]

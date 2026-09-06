@@ -364,3 +364,26 @@ describe("도판은 관계를 가진다 — 관계 0 인 도판은 엔진에 잡
     expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("s: 도판인데"))).toBe(false);
   });
 });
+
+describe("학계 통설은 학계가 어디인지 말하는 출처가 있어야 한다", () => {
+  const withGeneric = (ds: ReturnType<typeof makeDataset>) => {
+    ds.sources = ds.sources.map((s) => (s.id === "src--britannica" ? { ...s, kind: "general-reference" as const } : s));
+    return ds;
+  };
+  it("총칭 참고문헌만 걸린 scholarly_consensus 를 막는다", () => {
+    const ds = withGeneric(makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" })],
+      [makeRelation("a", "b", "affinity", { evidenceLevel: "scholarly_consensus", sourceIds: ["src--britannica"] })]));
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("총칭 참고문헌뿐"))).toBe(true);
+  });
+  it("구체 출처가 하나라도 있으면 통과한다", () => {
+    const ds = withGeneric(makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" })],
+      [makeRelation("a", "b", "affinity", { evidenceLevel: "scholarly_consensus", sourceIds: ["src--britannica", "src--test-study"] })]));
+    ds.sources.push({ id: "src--test-study", title: "실재하는 연구", publisherOrInstitution: "대학 출판부" });
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("총칭 참고문헌뿐"))).toBe(false);
+  });
+  it("documented 는 이 규칙의 대상이 아니다 — 문서 실명은 요약이 진다", () => {
+    const ds = withGeneric(makeDataset([makeAuthor({ id: "a" }), makeAuthor({ id: "b" })],
+      [makeRelation("a", "b", "documented_influence", { evidenceLevel: "documented", sourceIds: ["src--britannica"] })]));
+    expect(assembleDataset(rawFrom(ds)).errors.some((e) => e.includes("총칭 참고문헌뿐"))).toBe(false);
+  });
+});

@@ -204,6 +204,7 @@ export function assembleDataset(
 
   const authorById = new Map(authors.map((a) => [a.id, a]));
   const sourceIds = new Set(sources.map((s) => s.id));
+  const sourceById = new Map(sources.map((s) => [s.id, s]));
   const movementIds = new Set(movements.map((m) => m.id));
   const worksByAuthor = new Map<string, Work[]>();
   for (const w of works) {
@@ -394,6 +395,12 @@ export function assembleDataset(
     if (!authorById.has(r.sourceId)) errors.push(`${r.id}: unknown sourceId ${r.sourceId}`);
     if (!authorById.has(r.targetId)) errors.push(`${r.id}: unknown targetId ${r.targetId}`);
     if (r.sourceId === r.targetId) errors.push(`${r.id}: self-relation forbidden`);
+    // "학계가 이렇게 다룬다"는 주장은 학계가 어디인지 말하는 출처가 하나는 있어야 한다.
+    // 총칭 참고문헌(백과·전집)만 걸린 scholarly_consensus 는 근거 없는 주장이다 — 도판
+    // 웨이브 1 재QC 가 되돌린 관계 12건이 전부 이 모양이었고, 사람이 큐레이션한 263건에는 0건이었다.
+    if (r.evidenceLevel === "scholarly_consensus" && r.sourceIds.length > 0 &&
+        r.sourceIds.every((sid) => sourceById.get(sid)?.kind === "general-reference"))
+      errors.push(`${r.id}: scholarly_consensus 인데 출처가 총칭 참고문헌뿐이다 — 학계가 어디인지 말하라`);
     // 관계는 출처 있는 주장이고 주장은 도판의 것이다 — 스케치·실루엣에 선을 긋지 않는다.
     for (const end of [r.sourceId, r.targetId]) {
       const e = authorById.get(end);

@@ -212,6 +212,8 @@ export interface Source {
   url?: string;
   citation?: string;
   accessedAt?: string;
+  /** 총칭 참고문헌 — 사실 확인엔 쓰이지만 학계 통설의 근거는 못 된다 */
+  kind?: "general-reference";
 }
 
 export interface Movement {

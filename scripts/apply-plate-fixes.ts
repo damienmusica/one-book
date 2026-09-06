@@ -26,9 +26,15 @@ if (!file) throw new Error("usage: apply-plate-fixes <fixes.json> --key <wave> [
 
 type Raw = Record<string, any>;
 const files = loadRawCollections();
+// 이 도구는 빨간 것을 고친다 — 코퍼스가 빨간 상태에서도 돌아야 한다. 필요한 것은 작가 목록뿐이니
+// 조립이 실패하면 원시 파일에서 만든다(한 번 그 이유로 여기서 크래시했다).
 const before = assembleDataset(files);
-if (!before.dataset) throw new Error("기존 코퍼스가 조립되지 않는다");
-const byId = new Map(before.dataset.authors.map((a) => [a.id, a]));
+const byId = new Map<string, Raw>(
+  before.dataset
+    ? before.dataset.authors.map((a) => [a.id, a as Raw])
+    : Object.values(files.authorFiles).flatMap((rows) => (rows as Raw[]).map((a) => [a.id, a] as [string, Raw]))
+);
+if (!before.dataset) console.log(`(코퍼스가 빨강 ${before.errors.length}건인 상태에서 시작 — 고친 뒤 초록이어야 쓴다)`);
 
 const parsed = JSON.parse(readFileSync(file, "utf8"));
 const fixes: Raw[] = Array.isArray(parsed) ? parsed : parsed.fixes ?? [];

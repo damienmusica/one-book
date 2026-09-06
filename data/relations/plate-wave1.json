@@ -73,10 +73,11 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.7,
-    "summary": "톨스토이가 『벨킨 이야기』를 산문의 모범으로 반복해 언급했고 『안나 카레니나』의 착수 경위가 푸시킨 산문 단편의 독서와 결부된다는 계보는 톨스토이 연구에서 표준적으로 다뤄진다.",
+    "summary": "톨스토이가 푸시킨 산문을 모범으로 삼았고 『안나 카레니나』의 착수가 푸시킨 산문 독서와 결부된다는 계보는 보리스 에이헨바움의 『1870년대의 톨스토이』가 정본이다 — 이 연구는 소설의 발생 과정을 푸시킨의 산문 및 『예브게니 오네긴』과 대조하며 추적하고, 이후 톨스토이 연구가 이 서술을 표준으로 이어받았다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
-      "src--britannica"
+      "src--britannica",
+      "src--eikhenbaum-tolstoi-seventies"
     ]
   },
   {
@@ -154,10 +155,11 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.65,
-    "summary": "고대 전기 전승이 소포클레스를 '가장 호메로스적인' 비극 시인으로 부른 이래, 고전문헌학은 그의 극이 서사시 순환(에픽 사이클)의 소재와 어법을 무대 형식으로 옮긴 계보를 표준적으로 다룬다.",
+    "summary": "고대 전기 전승이 소포클레스를 '가장 호메로스적인' 비극 시인으로 부른 이래, 고전문헌학은 그의 극이 서사시의 소재와 어법을 무대 형식으로 옮긴 계보를 다뤄 왔다. 리처드 가너의 『호메로스에서 비극으로: 그리스 시의 인유 기법』이 그 표준 연구로, 아이스킬로스·소포클레스·에우리피데스가 호메로스를 인유하는 방식과 그리스 교육에서 호메로스가 차지한 자리를 함께 분석한다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
-      "src--britannica"
+      "src--britannica",
+      "src--garner-homer-to-tragedy"
     ]
   },
   {
@@ -474,10 +476,11 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.65,
-    "summary": "키케로는 『최고선악론』에서 페리파토스학파의 윤리설을 항목별로 검토하고 반박한다.",
-    "evidenceLevel": "scholarly_consensus",
+    "summary": "키케로는 『토피카』(기원전 44년)를 아리스토텔레스적 논증술을 로마 법률가 트레바티우스에게 옮겨 놓은 책으로 제시하며 그 유래를 스스로 밝히고, 『최고선악론』 5권에서는 페리파토스학파의 윤리설을 항목별로 검토하고 반박한다. 두 텍스트 모두 키케로가 아리스토텔레스 전통을 이름 붙여 다룬 자리다.",
+    "evidenceLevel": "documented",
     "sourceIds": [
-      "src--britannica"
+      "src--britannica",
+      "src--reinhardt-cicero-topica"
     ]
   },
   {
@@ -526,11 +529,12 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.65,
-    "summary": "『변신 이야기』 13~14권은 아이네아스의 항해와 이탈리아 도착을 다시 서술해 라틴 문학 연구에서 '작은 아이네이스'로 불리며, 오비디우스가 선행 서사시의 장면을 비틀어 되받는 대목으로 다뤄진다.",
+    "summary": "『변신 이야기』 13~14권은 아이네아스의 항해와 이탈리아 도착을 다시 서술해 라틴 문학 연구에서 '작은 아이네이스'로 불린다. 필립 하디의 『베르길리우스의 서사시 후계자들』은 오비디우스를 루카누스·스타티우스·발레리우스 플라쿠스·실리우스 이탈리쿠스와 함께 아이네이스 모델을 무기력하게 모방한 것이 아니라 창조적으로 되받은 계보의 첫머리에 놓고 그 역학을 분석한다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--britannica",
-      "src--oxford-worlds-classics"
+      "src--oxford-worlds-classics",
+      "src--hardie-epic-successors-virgil"
     ]
   },
   {
@@ -566,10 +570,11 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.6,
-    "summary": "괴테의 『로마 비가』(1795)는 오비디우스와 프로페르티우스의 라틴 연애 비가 형식을 독일어 2행연구로 옮긴 시집이며, 독일 고전주의 연구는 이 시집을 로마 비가 수용의 사례로 다룬다.",
+    "summary": "괴테의 『로마 비가』(1795)는 라틴 연애 비가의 형식을 독일어 2행연구로 옮긴 연작이다. 고든 브레이든은 『오비디우스 수용 편람』(Wiley Blackwell)의 「연작으로서의 연애시」에서 오비디우스 『사랑노래(Amores)』를 '순서를 가진 연애시 연작'이라는 전통의 모델로 세우고, 페트라르카에서 시작된 그 전통의 끝에 괴테의 이 연작을 놓는다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
-      "src--britannica"
+      "src--britannica",
+      "src--braden-love-poems-in-sequence"
     ]
   },
   {
@@ -698,23 +703,12 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.6,
-    "summary": "『맹그로브 횡단』(1989)이 한 구의 시신을 둘러싸고 마을 사람들의 독백을 돌려 세우는 구조를 포크너 『내가 죽어 누워 있을 때』의 다성 형식과 겹쳐 읽는 비교문학 연구가 반복돼 왔다.",
+    "summary": "『맹그로브 횡단』(1989)은 한 구의 시신을 둘러싼 밤샘에서 마을 사람들의 독백을 차례로 돌려 세운다. 쥘리 브뤼지에는 이 소설과 포크너 『압살롬, 압살롬!』을 글리상의 '다른 아메리카' 틀에서 나란히 읽었고, 박사논문을 발전시킨 『소설 속 주변성과 공동체: 마리즈 콩데, 윌리엄 포크너, 라셸 지 케이로스』(Classiques Garnier, 2024)에서 두 작가의 공동체·주변성 시학을 하나의 비교 대상으로 묶었다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
-      "src--britannica"
-    ]
-  },
-  {
-    "id": "contrast--aime-cesaire--maryse-conde",
-    "sourceId": "aime-cesaire",
-    "targetId": "maryse-conde",
-    "type": "contrast",
-    "direction": "bidirectional",
-    "weight": 0.6,
-    "summary": "네그리튀드가 상정한 아프리카 귀속을, 콩데는 실제 서아프리카 체류를 바탕으로 한 『세구』(1984)와 『나, 티투바』(1986)에서 낯섦과 배제의 경험으로 되받아 쓴다. 프랑스어권 카리브 비평이 세대적 대립항으로 다루는 관계다.",
-    "evidenceLevel": "scholarly_consensus",
-    "sourceIds": [
-      "src--britannica"
+      "src--britannica",
+      "src--brugier-conde-faulkner-autre-amerique",
+      "src--brugier-marginalite-communaute"
     ]
   },
   {
@@ -724,10 +718,11 @@
     "type": "affinity",
     "direction": "bidirectional",
     "weight": 0.6,
-    "summary": "노예제 기록에서 지워진 흑인 여성을 1인칭으로 복원하는 작업으로 『나, 티투바』(1986)와 모리슨 『빌러비드』(1987)를 나란히 읽는 흑인 페미니즘 비평의 계보가 있다.",
+    "summary": "노예제 기록에서 지워진 흑인 여성을 1인칭으로 복원하는 작업으로 『나, 티투바』(1986)와 모리슨 『빌러비드』(1987)를 나란히 읽는 흑인 페미니즘 비평의 계보가 있다. 앨리슨 게스와 세라 오머는 『페미니스트 포메이션스』 36권 1호(2024)에서 두 소설을 땅·상속·유령의 문제로 함께 읽는 탈식민 흑인 페미니즘 독해를 제시한다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
-      "src--britannica"
+      "src--britannica",
+      "src--guess-ohmer-reappraising-land"
     ]
   },
   {
