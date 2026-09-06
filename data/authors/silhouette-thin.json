@@ -1298,7 +1298,7 @@
     "difficulty": 4,
     "difficultyReason": "네 권이 각각 트리니다드의 공동 주택, 아이티 혁명사, 멜빌, 크리켓의 규칙과 서인도제도 클럽 문화라는 다른 배경 지식을 요구한다. 문장 밑에는 1930~50년대 트로츠키주의 분파 논쟁의 어휘가 깔려 있어 정치적 맥락을 모르면 어조를 놓치기 쉽다.",
     "readingEntry": "clr-james--minty-alley",
-    "readingEntryReason": "네 권 가운데 가장 짧고, 포트오브스페인 공동 주택의 하숙 생활을 하숙인 청년의 시선으로 따라가는 이야기라 배경 지식 없이 읽힌다. 뒤의 세 권이 다루는 서인도제도 사회의 위계가 여기서는 한 집 안의 관계로 나온다.",
+    "readingEntryReason": "네 권 가운데 소설은 이 한 권뿐이고, 포트오브스페인 공동 주택의 하숙 생활을 하숙인 청년의 시선으로 따라가는 이야기라 배경 지식 없이 읽힌다. 뒤의 세 권이 다루는 서인도제도 사회의 위계가 여기서는 한 집 안의 관계로 나온다.",
     "readingWarning": "『경계를 넘어』를 크리켓 규칙 없이 첫 책으로 잡으면 초반 경기 서술에서 막힌다. 자서전으로 읽고 기술적 대목은 건너뛰어도 논지는 따라온다."
   },
   {
@@ -1585,7 +1585,7 @@
         "Babur"
       ]
     },
-    "depth": "plate",
+    "depth": "sketch",
     "birthYear": 1483,
     "deathYear": 1530,
     "activeRange": [
@@ -1604,30 +1604,13 @@
       "renaissance-baroque"
     ],
     "movements": [],
-    "genres": [
-      "history",
-      "poetry"
-    ],
     "locations": [],
-    "readingOrder": [
-      "babur--boburnoma",
-      "babur--devon",
-      "babur--mubayyin",
-      "babur--aruz-risolasi"
-    ],
-    "sourceIds": [
-      "src--britannica",
-      "src--encyclopaedia-iranica",
-      "src--thackston-baburnama"
-    ],
     "tier": "anchor",
     "reviewStatus": "draft",
     "importanceReason": "왕조의 패배와 병증까지 날짜별로 적은 자전적 회고를 페르시아어가 아닌 차가타이 튀르크어 산문으로 남겼다. 회고록이 적어 놓은 범위에서 사마르칸트를 두 번 잃은 경위, 부하들의 이탈, 술을 끊었다 다시 잡은 기록이 인도의 과일과 새와 우기에 대한 관찰과 같은 문체·같은 무게로 나란히 놓인다. 통치자의 기록이 변명이 아니라 관찰과 자기 노출로 이루어질 수 있다는 것을 이 산문이 보여 주었고, 1589년 압둘 라힘 칸-이-하난이 페르시아어로 옮기면서 무굴 궁정의 정본이 되었다.",
-    "difficulty": 3,
-    "difficultyReason": "문장 자체는 건조하고 명료하지만, 페르가나에서 카불을 거쳐 북인도까지의 지명과 씨족·부하 수백 명의 이름이 설명 없이 쏟아진다. 계보도와 지도를 옆에 두고 읽어야 하고, 원고에 결락이 있어 몇 해가 통째로 비는 대목에서 서사가 끊긴다.",
-    "readingEntry": "babur--boburnoma",
-    "readingEntryReason": "나머지 저작이 시집과 운율·법학 논서라 사실상 이 회고록 한 권이 저자로서의 바부르 전부에 가깝다. 일지 형식이라 어느 해에서 펼쳐도 읽히고, 중단했다 다시 잡기도 쉽다.",
-    "readingWarning": "무굴 제국사 개설서로 접근하면 실망하기 쉽다. 왕조의 성립보다 한 사람이 자기 실패를 어떻게 적었는가가 이 책의 내용이다."
+    "readingOrder": [],
+    "genres": [],
+    "sourceIds": []
   },
   {
     "id": "boborahim-mashrab",
