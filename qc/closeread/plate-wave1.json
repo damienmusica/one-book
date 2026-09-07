@@ -744,12 +744,13 @@
         {
           "field": "relation:documented_influence edgar-allan-poe → agatha-christie",
           "claim": "『Bloody Murder』가 그 배치는 황금기 크리스티에서 완성형에 이르렀다고 반복해 다룬다",
-          "verdict": "unverifiable",
-          "url": "https://archive.org/details/bloodymurder0000unse",
-          "note": "access: IA 1972·1985·1992 세 판본 모두 대출 제한(전문 403), search-inside 403, Google Books API 일일 쿼터 초과. 시먼스가 확실히 하는 말은 크리스티류 '퍼즐 미스터리'와 현대 '범죄소설'의 구분이다.",
-          "correction": "줄리언 시먼스의 『Bloody Murder』(1972)는 크리스티로 대표되는 고전 퍼즐 미스터리와 현대 범죄소설을 가르는 표준 장르사다",
-          "resolution": "pending",
-          "pendingWhere": "https://archive.org/details/bloodymurder0000unse — Julian Symons, Bloody Murder (IA 대출 제한·search-inside 403)"
+          "verdict": "contradicted",
+          "url": "https://books.google.com/books?id=IpaGAAAAIAAJ&q=%22Poe+was+the+founding+father%22",
+          "note": "Google Books 권내검색(id=IpaGAAAAIAAJ)으로 본문과 색인을 대봤다. 결정적 증거는 색인이다 — Poe: 15, 17, 25, 27, 34-41, 42, 55, 68, 72, 99, 110, 234 (p.256) / Christie, Agatha: 91-2, 97, 98, 117, 118-19, 140, 143, 151, 153, 187, 193, 235 (p.244). 겹치는 쪽이 하나도 없다. 황금기 두 장(‘The Golden Age: The Twenties’ 93–107, ‘The Thirties’ 108–122) 안의 포 언급 두 곳은 p.99(세이어즈가 포의 이야기를 몇 편까지 정전으로 셌는가)와 p.110(존 딕슨 카의 닥터 펠을 '포와 체스터턴'에 잇는 대목)으로, 둘 다 크리스티가 아니다. Dupin 색인도 36-7, 38-9, 41뿐(p.247). 인용문 p.42의 포 규정은 '주제를 제시한 창시자'까지이고, 그 뒤는 곧장 1850–60년대 영국 쪽 형성으로 넘어간다. IA 세 판본은 여전히 대출 제한, Google Books API는 일일 쿼터 초과 상태.",
+          "correction": "줄리언 시먼스의 『Bloody Murder』는 포를 장르의 '창시자'로 두되, 크리스티로 대표되는 고전 퍼즐 미스터리와 현대 범죄소설을 가르는 표준 장르사다 — 포의 배치가 황금기 크리스티에서 완성된다고 논하는 대목은 없다.",
+          "quote": "Poe was the founding father whose genius suggested the themes to be followed by other writers",
+          "rereadAt": "2026-09-07",
+          "resolution": "corrected"
         }
       ]
     },
@@ -1033,11 +1034,11 @@
         {
           "field": "relations[alexander-pushkin→leo-tolstoy].summary",
           "claim": "에이헨바움의 이 연구가 소설의 발생 과정을 푸시킨의 산문 및 『예브게니 오네긴』과 대조하며 추적한다",
-          "verdict": "unverifiable",
-          "url": "https://archive.org/details/tolstoiinseventi0000eikh",
-          "note": "access: archive.org 대출 제한(403)으로 본문·전문검색 불가. 목차나 서평으로도 이 구체적 서술을 확인하지 못했다.",
-          "resolution": "pending",
-          "pendingWhere": "https://archive.org/details/tolstoiinseventi0000eikh"
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=kw58AAAAIAAJ&q=%22Eugene+Onegin+and+The+Captain%22",
+          "note": "Eikhenbaum, 『Tolstoi in the Sixties』 p.243 (Google Books 권내검색, id=kw58AAAAIAAJ). 『전쟁과 평화』의 발생을 1820–30년대 러시아 소설의 두 계열 — 가정·일상('landowner's') 소설과 군사·역사 소설 — 이 교차해 절정에 이른 것으로 보고, 둘 다 푸시킨(『예브게니 오네긴』과 『대위의 딸』)으로 소급한다. 주의: 이 서술이 성립하는 것은 『Tolstoi in the Sixties』이고 『The Young Tolstoi』가 아니다 — 후자에는 'Onegin'이 0회다(id=WE5gAAAAMAAJ, 권내검색 결과 0건). 인용 대상이 후자라면 판정이 뒤집힌다. IA 대출본(bwb_P9-AQT-705, russiaukrainelit0000shka 등)은 djvu.txt 401·search-inside 차단으로 여전히 못 읽는다.",
+          "quote": "of the Russian novel, originating in the 1820s and 1830s, crossed and achieved their culmination ... (Eugene Onegin and The Captain's Daughter)",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[alexander-pushkin→leo-tolstoy].sources",
@@ -1092,11 +1093,11 @@
         {
           "field": "relations[taras-shevchenko→alexander-pushkin].summary",
           "claim": "슈칸드리 이후의 탈식민 연구는 「캅카스」를 푸시킨 계열 캅카스 시편이 세운 정복의 낭만과 정면으로 반대되는 항으로 읽는다",
-          "verdict": "unverifiable",
-          "url": "https://archive.org/details/russiaukrainelit0000shka",
-          "note": "access: 출판사 페이지는 제국 담론이라는 주제만 확인해 주고 푸시킨/셰우첸코 「캅카스」 대비는 언급하지 않는다. archive.org 본문은 대출 제한(403)으로 전문검색 불가.",
-          "resolution": "pending",
-          "pendingWhere": "https://archive.org/details/russiaukrainelit0000shka"
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=s-8Xa2ch1Y0C&q=%22imperial+paradigm+of+conquest%22",
+          "note": "Shkandrij, 『Russia and Ukraine』(2001) p.134, 절 제목이 'SHEVCHENKO'S \"CAUCASUS\" (1845)'다 (Google Books 권내검색, id=s-8Xa2ch1Y0C). 대조항도 같은 장 안에 명시된다 — p.139에서 푸시킨이 산악민을 두고 쓴 'your blood did not save you'와 「폴타바」 결말의 예언(정복은 곧 민담이 된다)을 셰우첸코의 「캅카스」에 정면으로 맞세우고, 원문 러시아어는 미주 p.306에 푸시킨 「캅카스의 포로」(1820–21)로 달려 있다. p.36이 '푸시킨의 「캅카스의 포로」(1822)에서 톨스토이 『하지 무라트』(1904)까지'로 그 계열을 세우고, 프레임은 Layton, 『Russian Literature and Empire: Conquest of the Caucasus from Pushkin to Tolstoy』(1994)다(p.336 서지, 본문 xiv·39·42·48·55에서 반복 인용). 다만 내가 대본 것은 슈칸드리 본인의 장(134–141)이고, '이후의' 문헌 계보를 개별 저작으로 확인하지는 못했다.",
+          "quote": "his rejection of the imperial paradigm of conquest and assimilation and the substitution of a counternarrative that legitimized local, native, and national struggles",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[alexander-pushkin→abai-qunanbaiuly].summary",
@@ -1161,12 +1162,11 @@
         {
           "field": "importanceReason",
           "claim": "사르트르가 『문학이란 무엇인가』에서 생텍쥐페리를 헤밍웨이와 나란히 놓았다",
-          "verdict": "unverifiable",
-          "url": "https://journals.openedition.org/polysemes/1773",
-          "quote": "[…] après Hemingway, comment pourrions-nous songer à décrire ?",
-          "note": "Situations II 287쪽의 이 문장은 확인했으나, 인용 가능한 모든 판본·논문에서 앞부분이 '[…]' 로 생략돼 있어 '그(lui)'가 생텍쥐페리인지 확인 불가. 폴리세메스 논문은 헤밍웨이만 다루고 생텍쥐페리를 언급하지 않는다. Google Books·archive.org 전문검색은 각각 쿼터 초과·API 미개방으로 실패.",
-          "resolution": "pending",
-          "pendingWhere": "Jean-Paul Sartre, 『Situations II』(Gallimard, 1948; Folio Essais 1986) 287쪽 원문 — 재수록본은 모두 인용문 앞부분('lui'의 지시 대상)을 생략한다. 확인 시도한 경로: https://journals.openedition.org/polysemes/1773 (헤밍웨이만 다룸), Google Books·archive.org 전문검색(쿼터 초과·API 미개방)"
+          "verdict": "confirmed",
+          "url": "http://web.archive.org/web/20251117171210/https://www.mcgill.ca/tsar/fr/bibliographie/jean-paul-sartre",
+          "quote": "Après lui [Saint-Exupéry], après Hemingway, comment pourrions-nous songer à décrire?",
+          "note": "관계문의 같은 주장이 재조회로 확정됨(TSAR 편집자 삽입 + 1949 영역본 전문) — 같은 증거를 서문 주장에 적용",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "importanceReason",
@@ -1262,9 +1262,9 @@
           "field": "relations[0].summary (documented_influence antoine-de-saint-exupery → jean-paul-sartre)",
           "claim": "사르트르는 '그의 뒤에, 헤밍웨이의 뒤에 우리가 어떻게 묘사를 생각할 수 있겠는가'라고 반문하며 생텍쥐페리의 이름을 헤밍웨이와 같은 자리에 놓았다",
           "verdict": "confirmed",
-          "url": "https://archive.org/stream/whatisliterature030271mbp/whatisliterature030271mbp_djvu.txt",
-          "quote": "Saint-Exupery has opened the way for us. ... After him, after Hemingway, how could we dream of describing?",
-          "note": "'lui'가 생텍쥐페리라는 것이 확정됐다. Bernard Frechtman 역 What Is Literature? (Philosophical Library, 1949) pp.238-239, 「Situation de l'écrivain en 1947」 장. 바로 앞 문단이 'Saint-Exupery has opened the way for us. He has shown that, for the pilot, the airplane is an organ of perception'이고 각주 1이 'See particularly Earth of Men'(= Terre des hommes), 이어지는 문장이 'After him, after Hemingway, how could we dream of describing?'다. 각주 2는 'Like Hemingway, for example in For Whom the Bell Tolls'. 프랑스어 원문(Situations II)은 열지 못했으나 영역본 전문으로 지시 대상은 확정된다.",
+          "url": "http://web.archive.org/web/20251117171210/https://www.mcgill.ca/tsar/fr/bibliographie/jean-paul-sartre",
+          "quote": "Après lui [Saint-Exupéry], après Hemingway, comment pourrions-nous songer à décrire?",
+          "note": "McGill 대학 연구 프로젝트 TSAR(Travaux sur les arts du roman, Jonathan Livernois 편)의 사르트르 항목이 이 문장을 인용하면서 'lui'를 [Saint-Exupéry]로 편집자 삽입 표기했다. 같은 페이지에서 두 번(본문 해설과 발췌 서지) 동일하게 표기된다. 원문의 주어는 대명사 'lui'이며 생텍쥐페리라는 이름이 그 자리에 직접 적혀 있지는 않다 — 지시 대상 확정은 이 학술 출처의 판단이다. 바로 이어지는 문장('faites-la survoler par l'aviateur')이 비행사 형상을 끌어오는 것도 이를 뒷받침한다. 판본 주의: TSAR 는 Gallimard coll. «Idées» 1948 판 p.287 로 인용한다(원장 기록의 Folio Essais 1986 Situations II p.287 과 쪽수는 같고 판본 표기가 다르다). 접근 경로: mcgill.ca 현재 URL 은 404, Wayback 2025-11-17 스냅숏으로 열람.",
           "rereadAt": "2026-09-07"
         },
         {
@@ -1297,9 +1297,9 @@
           "field": "relations[1].summary (documented_influence friedrich-nietzsche → antoine-de-saint-exupery)",
           "claim": "오데르의 『Saint-Exupéry écrivain』(2018)이 『남방 우편기』와 『성채』의 가치·고귀함 어법을 니체 독서와 연결해 다룬다",
           "verdict": "confirmed",
-          "url": "https://books.google.com/books?id=R3QTEAAAQBAJ&q=%22Po%C3%A9tique+de+la+valeur%22",
-          "quote": "1. Poétique de la valeur ... l'ascendant de Nietzsche sur Saint-Exupéry va au-delà de l'image que ces deux écrivains ont imprimée dans l'imaginaire collectif",
-          "note": "2018년 책 본문을 Google Books search-inside(volume id R3QTEAAAQBAJ, ISBN 9782875586797)로 직접 대조했다. p.107 절 제목이 「1. Poétique de la valeur」이고 그 절이 생텍쥐페리의 니체 독서로 시작한다(p.107 '자신의 독서', p.108 'l'ascendant de Nietzsche sur Saint-Exupéry'). p.111에서 오데르 자신이 「La haute Noblesse. Poétique de la valeur de Nietzsche à Saint-Exupéry」(Lettres de noblesse II) 논문을 각주로 인용하며 'poétique des valeurs ... à la suite de son modèle'라고 쓴다(서지는 p.210에도 재수록). 고귀함 어법은 p.145-146('les mots noblesse, justice, égalité, beauté'), p.153('« haute » noblesse, sa valeur'), p.171에 있다. 『성채』는 이 가치 논의 안에 있고(p.145, p.151), 『남방 우편기』는 같은 장의 p.113·p.116에 나온다. 근거를 2016년 논문으로 교체할 필요 없음 — 책이 그 논문을 흡수·인용한다. Acta fabula 서평(https://doi.org/10.58282/acta.12000)도 '니체 독서에서 물려받은 플라톤주의 가치 전복'과 '『남방 우편기』에서 『성채』까지'라는 분석 범위를 확인해 준다.",
+          "url": "https://books.google.com/books?id=R3QTEAAAQBAJ&q=Courrier+Sud+Nietzsche",
+          "quote": "Le texte de Courrier Sud porte explicitement la trace de ce compagnonnage",
+          "note": "Google Books 원문 검색(ISBN 9782875586797 → 볼륨 R3QTEAAAQBAJ)으로 2018년 책 본문을 직접 대조했다. 제2부 'Filiations' 1장 「Poétique de la valeur」(pp.107–119)가 생텍쥐페리의 니체 독서(Cap Juby 편지 «je lirai Nietzsche»)로 시작하고, p.107 이 인용문대로 『남방 우편기』 텍스트가 그 동반의 흔적을 명시적으로 지닌다고 말한다. p.111 은 『성채』에 대해 «Citadelle, dont on devine sans peine tout ce qu'elle doit à Also sprach Zarathustra» 라 하고, 같은 쪽 각주에서 2016년 논문 「La Haute Noblesse. Poétique de la valeur de Nietzsche à Saint-Exupéry」를 인용한다. p.145–146 은 『성채』가 니체를 따라 «les mots noblesse, justice, égalité, beauté» 를 재정의한다고, p.151 은 «la transmutation des valeurs chez Nietzsche et Saint-Exupéry» 를, p.153 은 «‹haute› noblesse, sa valeur» 를 다룬다. 목차(pul.uclouvain.be/book/?GCOI=29303100743010)도 3.2 'Transmutation des valeurs', 1.1 'Inversion du platonisme' 를 확인해 준다. 근거를 2016년 논문으로 교체할 필요 없음 — 2018년 책이 그 논지를 그대로 담고 있고 2016년 논문을 자기 출처로 인용한다.",
           "rereadAt": "2026-09-07"
         }
       ]
@@ -2093,11 +2093,11 @@
         {
           "field": "relation:documented_influence rainer-maria-rilke → chairil-anwar",
           "claim": "A. Teeuw의 『Modern Indonesian Literature』가 그 릴케 계보를 기술한다",
-          "verdict": "unverifiable",
-          "url": "https://doi.org/10.1007/978-94-015-0768-4_46",
-          "note": "access: 이 책의 'Chairil Anwar' 장(145–159쪽)은 존재를 확인했으나 본문·초록이 모두 유료 차단(Springer 인증 리다이렉트, Semantic Scholar abstract elided). 아카이브·HathiTrust·Google Books 경로도 전부 막혀 릴케 언급 여부를 대볼 수 없었다",
-          "resolution": "pending",
-          "pendingWhere": "https://doi.org/10.1007/978-94-015-0768-4_46 — A. Teeuw, Modern Indonesian Literature, 'Chairil Anwar' 장 145–159쪽 (Springer 유료 차단)"
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=yDTpCAAAQBAJ&q=Rilke",
+          "note": "Teeuw, 『Modern Indonesian Literature』 p.128 (Springer 재간본, Google Books 권내검색 id=yDTpCAAAQBAJ). 같은 책 권말 색인 p.306이 'Rilke, R. M., 128, 149'로, 149쪽은 문제의 'Chairil Anwar' 장(145–159) 안이다 — 즉 릴케는 그 장에도 등장한다. 인접 근거: p.124–125가 마르스만의 영향을 '가장 깊은' 것으로 놓고, p.144–146이 'foreign influence on the most recent Indonesian literature'를 이 장의 주제로 세운다. Springer 본문(chapter DOI …_46)은 구독 게이트(fetch 204), Brill 절 PDF와 HathiTrust는 봇월이라 그 경로로는 여전히 못 읽는다.",
+          "quote": "he translated or plagiarised besides Marsman, poets such as Slauerhoff, Elsschot, Archibald Macleish, Du Perron ... and once again Rilke",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relation:affinity pramoedya-ananta-toer → chairil-anwar",
@@ -2295,9 +2295,9 @@
           "claim": "카프카가 어떤 점을 계승하고 어떤 점을 버렸는지 항목별로 나열했다",
           "verdict": "confirmed",
           "correction": "디킨스에게서 가져온 요소들을 항목별로 나열했다",
-          "note": "1917년 10월 8일 일기 전문에 도달했다(빈 대학 Werner Haas의 카프카 일기 전사). 계승 항목이 열거된다: 'Koffergeschichte, der Beglückende und Bezaubernde, die niedrigen Arbeiten, die Geliebte auf dem Landgut die schmutzigen Häuser u. a. vor allem aber die Methode.' 버린 항목도 열거된다: 'Stellen grauenhafter Kraftlosigkeit', 'Barbarisch der Eindruck des unsinnigen Ganzen, ein Barbarentum, das allerdings ich ... vermieden habe', 'Herzlosigkeit hinter der von Gefühl überströmenden Manier', 'Diese Klötze roher Charakterisierung'. 독립 검증: 독일 학위논문(https://d-nb.info/1265430969/34)이 같은 문면을 직접 인용한다. 제안된 수정('디킨스에게서 가져온 요소들을 항목별로 나열했다')은 필요 없다 — 원래 서술이 정확하다.",
+          "note": "1917년 10월 8일 일기 전문을 빈 대학(Universität Wien) 소재 베르너 하스의 카프카 일기 전사본으로 열람했다. 원장이 제안한 수정('가져온 요소들을 항목별로 나열했다')은 필요 없다 — 항목은 양쪽 모두 있다. 계승: «Koffergeschichte, der Beglückende und Bezaubernde, die niedrigen Arbeiten, die Geliebte auf dem Landgut, die schmutzigen Häuser u. a. vor allem aber die Methode». 버린 것: 인용문의 'Barbarentum'(자신은 피했다고 명시), 'Herzlosigkeit', 그리고 «Diese Klötze roher Charakterisierung die künstlich bei jedem Menschen eingetrieben werden». 「화부」에 대한 자기 진단도 같은 문단에 있다 — «‹Der Heizer› glatte Dickensnachahmung, noch mehr der geplante Roman».",
           "url": "https://homepage.univie.ac.at/werner.haas/1917/tb17-022.htm",
-          "quote": "vor allem aber die Methode ... ein Barbarentum, das allerdings ich dank meiner Schwäche ... vermieden habe. Herzlosigkeit hinter der von Gefühl überströmenden Manier",
+          "quote": "ein Barbarentum, das allerdings ich dank meiner Schwäche und belehrt durch mein Epigonentum vermieden habe. Herzlosigkeit hinter der von Gefühl überströmenden Manier.",
           "rereadAt": "2026-09-07"
         },
         {
@@ -2359,11 +2359,12 @@
         {
           "field": "relations[dickens→roald-dahl].summary",
           "claim": "그 사실이 도널드 스터록 『Storyteller』(2010)에 기록돼 있다",
-          "verdict": "unverifiable",
+          "verdict": "confirmed",
           "correction": "디킨스는 달이 어린 시절 애독한 작가로 기록돼 있고",
-          "note": "access: 스터록 평전(2010, OUP 아님 HarperCollins) 은 실재하나 본문 검색이 막혔다 — Google Books API 429, archive.org search-inside 무응답. 위키백과의 해당 문장은 스터록이 아니라 Craats(2014) 를 전거로 단다. 스터록에 그 서술이 있는지 확인 불가",
-          "resolution": "pending",
-          "pendingWhere": "도널드 스터록 『Storyteller: The Life of Roald Dahl』(HarperCollins, 2010) 본문 — Google Books API 429, archive.org search-inside 무응답"
+          "note": "Google Books search-within-volume on the US edition (Simon & Schuster, Storyteller: The Authorized Biography of Roald Dahl). Hit is p.55, inside the St Peter's boarding-school chapter (pp.49-58, Dahl aged 9-13). The same page distinguishes Roald's own reading from his mother's ('his mother was an avid reader - Horace Walpole, Thomas Hardy and G. K. Chesterton were among her favorites'), so the Dickens/Stevenson/Kipling list is the boy's. Index confirms: 'Dickens, Charles, 16, 55, 239, 271, 396' (p.643). Correction not needed.",
+          "url": "https://books.google.com/books?id=fit6PwGWugEC&q=Dickens",
+          "quote": "Dickens novels, Stevenson's Treasure Island, and a great deal of Rudyard Kipling. He was already very comfortable with literature.",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[dickens→roald-dahl].summary",
@@ -2599,12 +2600,12 @@
         {
           "field": "relations[mikhail-bulgakov→chinghiz-aitmatov]",
           "claim": "그 연구가 『단두대』(1986)를 『거장과 마르가리타』 이후 빌라도 주제를 이어받은 사례로 기술한다",
-          "verdict": "unverifiable",
-          "url": "https://api.openalex.org/works?filter=doi:10.1007/978-1-349-22331-2_10",
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=EgaxCwAAQBAJ&q=%22Place+of+the+Skull%22",
           "correction": "소비에트 후기 문학의 '빌라도 주제'를 다루는 슬라브 문학 연구는 『거장과 마르가리타』를 이 주제의 전환점으로 놓는다(마거릿 지올코프스키, 「최근 러시아 문학의 빌라도와 빌라도주의」, 1992). 『단두대』를 그 계보에 놓는 서술은 러시아어 비교연구에서 확인된다.",
-          "note": "access: 챕터 본문이 Springer(JS 챌린지)·JSTOR·Project MUSE(검증 챌린지)·Internet Archive(대출 제한, 401)에서 모두 막혔다. OpenAlex 가 제공하는 첫 페이지 초록으로 확인된 범위는 여기까지다 — \"Undoubtedly best known is Mikhail Bulgakov's … Master i Margarita … which altered forever literary appreciation of … the encounter between Jesus and Pilate.\" 초록 안에 아이트마토프나 『단두대』는 나오지 않아, 이 챕터가 실제로 『단두대』를 다루는지는 확인하지 못했다. 다만 『단두대』–『거장과 마르가리타』 계보 자체는 별개 연구로 확인된다(cyberleninka.ru/article/n/evangelskaya-liniya-v-romanah-master-i-margarita-m-a-bulgakova-i-plaha-ch-t-aytmatova).",
-          "resolution": "pending",
-          "pendingWhere": "https://doi.org/10.1007/978-1-349-22331-2_10 — src--ziolkowski-pilate-and-pilatism-1992 챕터 본문 (Springer·JSTOR·Project MUSE·Internet Archive 모두 차단)"
+          "note": "Springer·JSTOR·MUSE·IA가 모두 막혔지만, 수록 단행본 New Directions in Soviet Literature(Graham 편, 1992)의 Google Books 전자판(id EgaxCwAAQBAJ)에서 챕터 본문에 도달했다. 인용문은 166쪽 — 지올코프스키 챕터의 수록 범위(164–181쪽) 안이며, 168쪽 스니펫에 러닝헤드 \"Pilate and Pilatism in Recent Russian Literature\"가 찍혀 있다. 169쪽이 계보를 명시한다: \"The Master and Margarita and The Place of the Skull contain the most extensive treatments of the figure of Pilate found in Russian literary works published in the past few decades.\" 179–180쪽 주석에서 아이트마토프 본인의 발언(『거장과 마르가리타』의 빌라도가 \"예수를 그늘로 밀어냈다\")까지 다룬다. 앞선 QC 교정안(러시아어 비교연구로 후퇴)은 불필요하다.",
+          "quote": "Plakha (The Place of the Skull, 1986), where the influence of Bulgakov's Procurator is clearly felt, but which offers a more circumscribed view",
+          "rereadAt": "2026-09-07"
         }
       ]
     },
@@ -2800,11 +2801,12 @@
         {
           "field": "relations[plato→cicero].summary",
           "claim": "맬컴 스코필드의 『키케로: 정치철학』(2021)이 이 두 저작을 플라톤의 해당 대화편과 나란히 놓고 검토한다",
-          "verdict": "unverifiable",
+          "verdict": "confirmed",
           "correction": "맬컴 스코필드의 『키케로: 정치철학』(2021)이 이 두 저작을 검토한다",
-          "note": "access: 책의 실재는 확인됨 — BMCR 2021.12.06 서평이 'Malcolm Schofield, Cicero: political philosophy. Founders of modern political and social thought. Oxford University Press, 2021' 로 표기. 그러나 서평 본문에 플라톤과 나란히 놓는다는 서술이 없고 OUP 상품 페이지는 본문이 비어 있어 '플라톤과 병치'라는 구체 주장의 소재는 확인 불가",
-          "resolution": "pending",
-          "pendingWhere": "Malcolm Schofield, 『Cicero: Political Philosophy』(OUP, 2021) 본문 — BMCR 2021.12.06 서평과 OUP 상품 페이지로는 확인 불가"
+          "note": "Volume verified as Malcolm Schofield, Cicero: Political Philosophy, Oxford University Press, 288pp. Quote is p.239. The juxtaposition runs throughout: p.90 'Plato's Republic and Laws (Leg. 2.14)'; p.80 contrasts Scipio's method with 'Plato's precedent in the Republic'; pp.116-117 set De legibus against Plato's Laws (proem on religion; Laws 12.955e-956b on dedications); p.68 and p.129 read Philus against Republic 2.358e-359b. BMCR 2021.12.06 independently confirms De re publica and De legibus are among the main texts discussed. Correction not needed.",
+          "url": "https://books.google.com/books?id=2ckQEAAAQBAJ&q=%22Plato%27s+Republic+and+Laws%22",
+          "quote": "Plato's Republic and Laws, very much the models for On the commonwealth and On laws",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[aristotle→cicero].summary",
@@ -3308,12 +3310,12 @@
         {
           "field": "relations[contrast jonathan-swift → daniel-defoe]",
           "claim": "맥키언이 디포의 사실 주장과 스위프트의 그에 대한 패러디를 한 국면의 두 극으로 서술한다",
-          "verdict": "unverifiable",
-          "url": "https://books.google.com/books/about/The_Origins_of_the_English_Novel_1600_17.html?id=_0UrEAAAQBAJ",
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=_0UrEAAAQBAJ&q=%22subverting+empirical+epistemology%22",
           "correction": "마이클 맥키언의 『영국 소설의 기원, 1600–1740』이 디포와 스위프트를 짝지은 장으로 다루며, 소박한 경험주의가 극단적 회의주의와 패러디를 낳는 변증법으로 이 국면을 서술한다",
-          "note": "access: 본문 열람 불가(Google Books 열람 한도 도달, archive.org 전문검색 403). 서평이 말하는 변증법은 'naive empiricism → extreme skepticism, 패러디'이고, 짝지어진 Defoe/Swift 장의 표제는 사실성이 아니라 욕망(desire)이다 — 디포·스위프트가 그 사실/패러디 축의 두 극이라는 대응은 확인하지 못했다",
-          "resolution": "pending",
-          "pendingWhere": "https://books.google.com/books/about/The_Origins_of_the_English_Novel_1600_17.html?id=_0UrEAAAQBAJ (src--mckeon-origins-english-novel 본문 — Google Books 열람 한도, archive.org 전문검색 403)"
+          "note": "Google Books search-inside(JHU 2002판, id _0UrEAAAQBAJ)로 본문 도달. 세 대목이 맞물린다 — 디포 쪽: \"Defoe, who doggedly pursued the problem of the false claim to historicity for the better part of two decades\"; 스위프트 쪽: \"Gulliver's Travels is, of course, a satire of the travel narrative, and of the naive empiricism with which it is so closely [associated]\", 그리고 \"Gulliver's Travels is adorned with all the claims to historicity and all the authenticating devices of 'modern history'\". 인용한 문장이 두 사람을 같은 운동의 두 방향(sponsoring/subverting)으로 명시한다. 장 표제가 desire인 것은 맞지만 그 장(9·10장) 안에서 사실 주장/패러디 축이 그대로 전개된다.",
+          "quote": "by subverting empirical epistemology, Swift contributes, as fully as Defoe does by sponsoring it, to the growth of modern ideas of realism",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[contrast jonathan-swift → daniel-defoe]",
@@ -4116,10 +4118,10 @@
           "field": "relation summary (→ jorge-luis-borges)",
           "claim": "그 강연이 추리 장르의 계보를 포의 뒤팽 이야기에서부터 정리하고 그 장르가 만들어 낸 독자를 자기 소설의 전제로 삼았다",
           "verdict": "contradicted",
-          "note": "강연 전문을 확보해 대조했다(1978-06-16, 『Borges, oral』 1979). 앞 절은 확인된다 — 뒤팽이 \"el primer detective de la historia de la literatura\"이고 \"que se llamará después Sherlock Holmes, que se llamará más tarde el padre Brown\"으로 계보가 이어진다. 뒤 절은 absent: 강연은 장르가 만든 독자를 일반 독서론의 전제로 쓴다(\"La novela policial ha creado un tipo especial de lector\", \"Nosotros, al leer una novela policial, somos una invención de Edgar Allan Poe\", 『돈키호테』를 추리소설로 읽는 예시). 자기 소설을 언급하는 유일한 대목은 인용한 자기 폄하 문장과 「죽음과 나침반」·비오이 카사레스 공저 언급뿐이다.",
-          "correction": "1978년 6월 16일 벨그라노 대학 강연 「El cuento policial」(1979년 『Borges, oral』 수록)에서 뒤팽을 \"el primero de todos ellos, el modelo, el arquetipo\"로 놓고 홈스·브라운 신부로 이어지는 계보를 정리했고, 추리소설이 만들어 낸 '의심하며 읽는 독자'를 장르 자체의 전제로 삼았다 — 자기 소설의 전제라고는 하지 않았다.",
+          "note": "강연 전문(1978년 6월 16일자, 『Borges, oral』 1979 수록)을 확보해 통독했다. 앞 절은 확인된다 — \"el modelo, el arquetipo podemos decir, es el caballero Charles Auguste Dupin\", \"si Poe creó el relato policial, creó después el tipo de lector de ficciones policiales\", \"Nosotros, al leer una novela policial, somos una invención de Edgar Allan Poe\". 뒤 절은 텍스트에 없다: 장르가 만든 독자는 '우리 모두'에 대한 일반 진술이지 자기 소설의 전제로 제시되지 않으며, 자기 추리물(「죽음과 나침반」, 비오이 카사레스와 쓴 이시드로 파로디)에 대해서는 오히려 자신 없다고 물러선다.",
+          "correction": "1978년 6월 16일 벨그라노 대학 강연 「추리 이야기」(1979년 『보르헤스 구술』 수록)에서 뒤팽을 원형으로 삼아 셜록 홈즈·브라운 신부로 이어지는 계보를 정리하고, 포가 추리소설을 쓰면서 그 독자라는 유형까지 만들어 냈다고 말한다.",
           "url": "https://borgestodoelanio.blogspot.com/2015/05/jorge-luis-borges-el-cuento-policial.html",
-          "quote": "He intentado el género policial alguna vez, no estoy demasiado orgulloso de lo que he hecho.",
+          "quote": "He intentado el género policial alguna vez, no estoy demasiado orgulloso de lo que he hecho. Lo he llevado a un terreno simbólico",
           "rereadAt": "2026-09-07",
           "resolution": "corrected"
         },
@@ -4133,10 +4135,10 @@
         {
           "field": "relation summary (→ agatha-christie)",
           "claim": "시먼스가 포의 뒤팽 3부작의 배치가 황금기 크리스티에서 완성형에 이르렀다고 반복해 다룬다",
-          "verdict": "contradicted",
-          "note": "『Bloody Murder』 본문 직접 열람은 실패했다(archive.org 3개 판본 모두 access-restricted-item, djvu.txt 401, fulltext/inside.php 'Item not available'; HathiTrust babel/catalog 403; Google Books API 429 · IpaGAAAAIAAJ 미리보기 없음). 대신 본문을 직접 인용하는 서평 두 편으로 대조했다 — Past Offences(2013, Penguin 1975판 인용)와 CrimeReads의 커티스 에번스(2024, https://crimereads.com/a-bloody-minded-business-julian-symons-evolution-as-a-crime-fiction-critic/). 시먼스의 논지는 탐정소설을 범죄소설로부터 '격리'하는 것이며, 황금기에 대해 \"it dropped into abysms of absurdity and dullness that have never again been plumbed\"라고 쓴다. '완성형' 귀속은 그의 논지와 정반대다.",
+          "verdict": "unverifiable",
+          "note": "access: 스니펫 수준까지만 도달했고 논지는 확인하지 못했다. 시도한 길 — archive.org 대출본(bloodymurderfrom00symo, mortalconsequenc00symo, bloodymurder0000unse)의 search-inside 엔드포인트는 전부 'Item not available', HathiTrust 전문 검색은 curl·WebFetch 모두 403, Google Books 접근성 모드(output=html_text)는 봇월(우회하지 않음), Google Books API 는 일일 할당 0. 통한 길은 openlibrary.org/search/inside 로, 장 제목 \"The Two Strands: Godwin, Vidocq, Poe\" 를 앵커로 걸어 책 내부 구절 존재를 확인할 수 있었다(예: \"The third of the Dupin stories, The Purloined...\"). 다만 스니펫이 책당 두 개로 제한돼 크리스티와 뒤팽 배치를 잇는 문장이 있는지는 확인 불가. 측정된 방증 하나: Google Books 권내 검색 집계로 1974년 펭귄판(270쪽)에서 'Dupin' 은 8쪽, 'Rue Morgue' 5쪽, 'Christie' 20쪽, 'Poirot' 8쪽에만 나온다 — '반복해 다룬다'는 서술을 뒷받침하기 어렵다. '완성형' 귀속은 여전히 미확인이며, 원 초안의 우려(시먼스는 크리스티의 인물 조형에 비판적)는 해소되지 않았다.",
           "correction": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 \"the undisputed father of the detective story\"로 세우고 크리스티의 『스타일스 저택의 괴사건』이 연 황금기까지 계보를 잇지만, 그것을 '완성형'으로 보지 않는다 — 황금기를 창작상의 막다른 길로 규정하고, 인용한 대로 크리스티의 데뷔작을 '퍼즐일 뿐, 인물에 대한 감정적 관여를 허용하지 않는 이야기'로 평한다.",
-          "url": "https://pastoffences.wordpress.com/2013/04/11/just-the-facts-julian-symons-bloody-murder/",
+          "url": "https://openlibrary.org/search/inside?q=%22The+Two+Strands%3A+Godwin%2C+Vidocq%2C+Poe%22",
           "quote": "a puzzle story which is solely that, which permits no emotional engagement with the characters",
           "rereadAt": "2026-09-07",
           "resolution": "corrected"
@@ -4310,12 +4312,12 @@
         {
           "field": "works[edouard-glissant--le-discours-antillais].significance",
           "claim": "역사·언어·경제·정신의학을 한 권에 모았다",
-          "verdict": "unverifiable",
-          "url": "https://fr.wikipedia.org/wiki/Le_Discours_antillais",
-          "quote": "Glissant analyse l'aliénation martiniquaise... perspectives psychanalytiques et marxistes",
-          "note": "access/absent: 목차를 여는 데 실패(UVA Press·HathiTrust 403, Google Books 쿼터 소진). 확인된 학문 축은 역사·언어·경제·정신분석이며 '정신의학'은 근거를 못 찾음",
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=KlJ7AAAAMAAJ&q=psychiatrie",
+          "quote": "Groupe de recherche sur la psychiatrie en Martinique, Institut martiniquais d'études, 1973",
+          "note": "Reached the original French edition (Seuil, 1981, 503pp) via Google Books search-within-volume. 정신의학 is explicit, not inferred: the cited research group above (p.286 n.6); p.289 'L'investigation psychiatrique en Martinique ne relève dès lors pas d'un caprice « anti-scientifique »'; p.292 'la psychiatrie (orientée par la psychanalyse)'; §73 'Du délire verbal « coutumier »' (pp.363-377) explicitly distinguishes délire coutumier from délire pathologique. Psychoanalysis is present too but as a subordinate orientation (p.305 'Psychanalyse. Maud Mannoni et Georges Payote'; p.96, p.101). The other three axes also verified: économie de survie (pp.59, 67-68), Creole/langue, history. The proposed swap 정신의학→정신분석 would make the entry less accurate, not more.",
           "correction": "역사·언어·경제·정신분석을 한 권에 모아",
-          "resolution": "narrowed"
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "works[edouard-glissant--le-discours-antillais].significance",
@@ -4705,7 +4707,7 @@
           "field": "relation:documented_influence frantz-fanon → ngugi-wa-thiongo",
           "claim": "응구기는 『귀향』(1972)에서 파농의 '민족의식의 함정'을 독립 이후 동아프리카의 계급 분화를 읽는 틀로 삼는다",
           "verdict": "confirmed",
-          "note": "archive.org 소장본(o00nggw)은 여전히 대출제한(search-inside 엔드포인트가 'Item not available')이지만, Google Books 최신 전자책판(volume id vMnREAAAQBAJ)의 search-inside로 본문에 도달했다. 오콧 비텍 『라위노의 노래』(우간다)를 다룬 장에서: 'Song of Lawino is a satiric assault on the African middle-class élite that has so unabashedly embraced Western bourgeois values and modes of life'(PT122), 이어 인용한 문장(PT124)이 파농의 '민족의식의 함정'을 명시적 틀로 쓰며 'the social calling that the colonial legacy has bequeathed to the African intelligentsia'로 계급을 지목하고, 바로 다음 문장이 'The significance of Song of Lawino in East Africa's literary consciousness'로 동아프리카를 명시한다. 별도로 PT92에도 'the neo-colonial élite, so aptly described by Frantz Fanon in The Wretched of the Earth, as a pitfall of national consciousness'가 나온다.",
+          "note": "archive.org 소장본(o00nggw)은 대출 제한이라 djvu.txt·search-inside 모두 막혔으나(fulltext/inside.php 가 'Item not available' 반환), Bloomsbury 재간본의 Google Books 원문 검색으로 본문에 도달했다. 인용 대목은 오콜 p'비텍의 『Song of Lawino』를 다루는 장으로, 이어지는 문장이 «The significance of Song of Lawino in East Africa's literary consciousness lies not only in this ruthless exposure...» 라 하여 동아프리카를 명시하고, 파농의 함정 틀을 «the social calling that the colonial legacy has bequeathed to the African intelligentsia» 라는 계급 규정에 적용한다. 계급 분화 축은 다른 대목에서도 반복된다 — p.92 «The relationship between the masses and the neo-colonial élite, so aptly described by Frantz Fanon in The Wretched of the Earth, as a pitfall of national consciousness», p.101 «a bourgeoisie which is stupidly, contemptibly, cynically bourgeois», p.203 «The national middle class which takes over power at the end of the colonial régime is an underdeveloped middle class».",
           "url": "https://books.google.com/books?id=vMnREAAAQBAJ&q=%22pitfalls+of+national+consciousness%22",
           "quote": "Like Fanon on the subject of the pitfalls of national consciousness in The Wretched of the Earth, Lawino is asking Ocol to consciously negate",
           "rereadAt": "2026-09-07"
@@ -5346,10 +5348,11 @@
         {
           "field": "relations[goethe→hesse]",
           "claim": "헤세가 그 에세이에서 괴테를 평생의 독서 대상으로 밝혔다",
-          "verdict": "unverifiable",
-          "note": "access: 에세이 본문을 볼 수 있는 곳(projekt-gutenberg.org, zeno.org)이 403/JS 차단, Google Books API 쿼터 소진. 본문 확인 실패.",
-          "resolution": "pending",
-          "pendingWhere": "「Dank an Goethe」 본문 — projekt-gutenberg.org·zeno.org 가 403/JS 차단, Google Books API 쿼터 소진"
+          "verdict": "confirmed",
+          "note": "「Dank an Goethe」(1932) 본문에 도달했다. hhesse.de가 Werkausgabe 12권 145–153쪽 쪽수와 함께 원문을 인용하고, 같은 에세이의 축약 재수록 전문이 libconservatism.wordpress.com/2021/06/04/dank-an-goethe-hermann-hesse/ 에 있다. 학술 대조본으로 Gunter Grimm, 「Hermann Hesses Goethe-Lektüren」(goethezeitportal.de/fileadmin/PDF/db/wiss/hesse/goethe-lektueren_grimm.pdf)이 같은 문장들을 SW 14, S. 452–459로 인용한다. '평생'은 에세이가 스스로 그리는 궤적이다 — \"Ich lernte ihn beinahe noch als Knabe kennen\", \"das fühlte ich schon als Zwanzigjähriger\", \"mit Goethe immer wieder Gedankengespräche und Gedankenkämpfe habe führen müssen\", \"Manche Jahre habe ich mich so mit Goethe geplagt und ihn zur Unruhe meines geistigen Lebens werden lassen\", 그리고 노년의 '지혜로운 괴테' 발견까지. 에세이 자체가 『황야의 이리』의 괴테 장면을 \"eines von ihnen steht im 'Steppenwolf'\"로 지목해 관계 요약의 뒷절도 함께 받쳐준다.",
+          "url": "https://hhesse.de/100/hesse-und-goethe/",
+          "quote": "Unter allen deutschen Dichtern ist Goethe derjenige, dem ich am meisten verdanke, der mich am meisten beschäftigt, bedrängt, ermuntert, zu Nachfolge oder Widerspruch gezwungen hat",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[goethe→hesse]",
@@ -5638,13 +5641,12 @@
         {
           "field": "relations[homer→james-joyce].summary",
           "claim": "엘먼의 전기(James Joyce, 1959/1982, Oxford University Press)가 그 유통 경위를 기록하고 있다",
-          "verdict": "unverifiable",
-          "url": "https://library.buffalo.edu/jamesjoyce/catalog/v-ulysses/va1a.html",
-          "quote": "transcribed and translated ... Ulysses on the Liffey (3rd rev. ed., London: Faber and Faber, 1984)",
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=kUO8AAAAIAAJ&q=%22personal+use+only%22",
+          "quote": "personal use only. In his letter of September 21 enclosing it, he said: 'I have given only catch-words in my scheme'",
           "correction": "(출처 보강: 리나티 도식의 전사·번역은 엘먼의 『Ulysses on the Liffey』에 실려 있고, 유통 경위는 버펄로대 조이스 컬렉션 목록이 기록한다)",
-          "note": "access: 서지 사항(1959 초판, 1982 개정판, Oxford University Press)은 archive.org 카탈로그로 확인. 그러나 전기 본문은 대출제한(djvu.txt 403, search-inside 차단)이고 Google Books API 쿼터 소진으로 해당 대목을 열지 못했다.",
-          "resolution": "pending",
-          "pendingWhere": "src--ellmann-james-joyce (Richard Ellmann, James Joyce, 1959/1982) 본문 — archive.org 대출제한(djvu.txt 403, search-inside 차단), Google Books API 쿼터 소진. 원본 열람 가능한 사람이 해당 대목을 확인해야 한다."
+          "note": "Volume verified as Richard Ellmann, James Joyce, Oxford University Press, 1982 (887pp, the revised centenary edition of the 1959 book) — matches the bibliographic detail in the summary. The schema's 유통 경위 is recorded on p.535: Joyce sent it to Linati in 1920 'for his personal use only' (letter of 21 September), and the same page tracks the onward leak through Larbaud — 'Larbaud ... scheme for the book. Joyce gave him only bits of it, and protested ... Sylvia Beach asked to see it, Benoîst-Méchin could not refuse her'. Note 106 (p.798) cites 'Letter to Carlo Linati, Sept. 21, 1920, Letters, pp. 146-7'. Also p.534: 'Linati, the intricate scheme for Ulysses which showed its Odyssean parallels and its special techniques.' Correction not needed — the Ellmann citation stands as written.",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[homer→derek-walcott].summary",
@@ -6305,11 +6307,13 @@
         {
           "field": "relations[katherine-mansfield→janet-frame].sources",
           "claim": "이 주장이 src--te-ara-nz와 src--britannica에 실려 있다",
-          "verdict": "unverifiable",
-          "note": "access: teara.govt.nz와 britannica.com 모두 Cloudflare 403(curl·WebFetch 모두 차단). 같은 내용은 read-nz.org 작가 항목에서 확인됨",
+          "verdict": "contradicted",
+          "note": "두 출처 모두 Wayback 으로 도달했다 — Te Ara /print 스냅샷 20251204, Britannica 스냅샷 20251201(http://web.archive.org/web/20251201015501/https://www.britannica.com/biography/Janet-Frame). 실제 내용: Te Ara 의 맨스필드 언급은 두 곳뿐 — 어머니가 픽턴의 보챔프가에서 하녀로 일했다는 것, 그리고 1974년 'Katherine Mansfield Fellow at Menton'. Britannica 는 맨스필드가 전 문서에 단 1회, 그 하녀 사실('a sometime-poet who had been a maid for the family of writer Katherine Mansfield')뿐이다. 어느 쪽도 맨스필드→프레임의 문학적 영향·계보를 진술하지 않는다. 그 진술은 read-nz.org 항목에만 있다: 'Stylistically, the stories are reminiscent of Mansfield's \"slices of (childhood) life\"'. 부수 정정: Te Ara 슬러그는 6f3 가 아니라 6f1 이다(6f3 은 존재하지 않아 앞선 조회가 헛돌았을 수 있다). 라이브 도메인은 curl·브라우저 모두 Cloudflare 챌린지라 우회하지 않았다.",
           "correction": "(출처: Read NZ Te Pou Muramura 작가 항목 https://www.read-nz.org/writer/frame-janet/)",
-          "resolution": "pending",
-          "pendingWhere": "src--te-ara-nz (https://teara.govt.nz) · src--britannica (https://www.britannica.com) — 둘 다 Cloudflare 403. 접근 권한이 있는 사람이 두 항목을 직접 읽어 확인해야 하며, 확인되지 않으면 read-nz.org 작가 항목(https://www.read-nz.org/writer/frame-janet/)을 출처로 교체한다. sourceIds는 그때까지 손대지 않았다."
+          "url": "https://teara.govt.nz/en/biographies/6f1/frame-janet-paterson",
+          "quote": "Lottie Clarice Godfrey (who had worked as a maid in the Picton home of Katherine Mansfield's family, the Beauchamps)",
+          "rereadAt": "2026-09-07",
+          "resolution": "corrected"
         }
       ]
     },
@@ -6534,10 +6538,11 @@
         {
           "field": "relations[documented_influence jean-jacques-rousseau→johann-wolfgang-von-goethe]",
           "claim": "1770년대 독일에서의 루소 수용이 그 책에서 배경으로 다뤄진다.",
-          "verdict": "unverifiable",
-          "note": "목차 1장이 'The cultural background' 인 것까지는 확인. 그 장이 1770년대 독일의 루소 수용을 다루는지는 본문 접근 실패(core.ac.uk PDF 403, JSTOR 본문 차단)로 확인하지 못했다.",
-          "resolution": "pending",
-          "pendingWhere": "src--hammer-goethe-rousseau-1973 (Goethe and Rousseau: Resonances of the Mind) 1장 'The cultural background' 본문 — core.ac.uk PDF 403, JSTOR 본문 차단"
+          "verdict": "confirmed",
+          "note": "JSTOR 본문은 지금도 차단(3,038바이트 챌린지)이고 core.ac.uk PDF 는 522/404, UKnowledge viewcontent 는 403 이다. 2019년 Wayback 스냅숏의 JSTOR 책 페이지가 장별 초록을 그대로 담고 있어 그것으로 확인했다. 1장 「I The Cultural Background」(pp. 10–31)의 전반부가 바로 이 내용이고, 후반부는 괴테의 프랑스 문학 지식 개관이다. 다만 해머 자신의 시간 틀은 '18세기 제3사분기'(1750–75)이므로, 서술을 「1770년대」대신 「18세기 제3사분기, 괴테의 청년기」로 고치면 책과 정확히 맞는다.",
+          "url": "http://web.archive.org/web/20190518144901/https://www.jstor.org/stable/j.ctt130jr9v",
+          "quote": "the reception of Rousseau's works in Germany during the third quarter of the eighteenth century, the period of Goethe's youth",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[documented_influence jean-jacques-rousseau→leo-tolstoy]",
@@ -6718,10 +6723,10 @@
           "field": "relations[documented_influence jean-paul-sartre → mario-vargas-llosa]",
           "claim": "바르가스 요사는 『사르트르와 카뮈 사이』(1981)에서 자신의 초기 문학관이 사르트르의 참여문학론 위에 세워졌음을 서술하고 그로부터 멀어진 경위를 밝혔다",
           "verdict": "confirmed",
-          "note": "IA 원문(entresartreycamu0000varg)은 여전히 401(djvu.txt·hocr 전부)이고 search-inside(fulltext/inside.php)도 'Item not available', HathiTrust 는 Cloudflare 챌린지라 우회하지 않았다. 대신 두 갈래로 확인했다. (1) Enriqueta Morillas 의 서평(Cervantes Virtual PDF, 1984)이 \"prólogo a la edición de Puerto Rico\"를 지목하며 바르가스 요사 자신의 문장을 인용한다: 사르트르와 카뮈의 논제가 자신이 생각하고 쓰는 것에 거듭 되살아나 \"hasta acabar dándole la razón a Camus dos décadas después de habérsela dado a Sartre\". (2) 그 문장이 1981년 Huracán 판 자체에 있음을 Google Books 책-내부 검색(https://books.google.com/books?id=e5JcAAAAMAAJ, 'Ediciones Huracán, 1981 - 143 páginas')으로 대조했다 — \"habérsela dado a Sartre\"·\"razón a Camus\"·\"mi propia aventura personal\"·\"dos décadas después\" 각 1페이지 일치. 같은 서문의 자기서술 \"itinerario de un latinoamericano que hizo su aprendizaje intelectual deslumbrado por … los vaivenes dialécticos de Sartre … terminó abrazando …\" 도 조각별로 전부 이 책 안에서 1페이지씩 일치했고, \"la teoría del compromiso\" 는 3페이지에 나온다. 즉 서문이 사르트르 아래에서의 지적·문학적 형성과 그로부터의 이탈을 직접 서술한다는 점이 원판에서 확인된다. 부수 확인: 1981년 판 색인·서지(pp. 142-143)에 「Los otros contra Sartre」·「Sartre y el Nobel」·「El mandarín」이 모두 나타나므로 수록 목록도 note 의 기술과 일치한다. 따라서 note 의 축소 correction 은 불필요하다.",
-          "url": "https://www.cervantesvirtual.com/research/mario-vargas-llosa-contra-viento-y-marea-940040/b5e43beb-8489-4132-aba6-2efa2b837fcc.pdf",
+          "note": "출처: 바르가스 요사 본인의 『Entre Sartre y Camus』(1981) 서문을 인용한 El Líbero(2018) 기사. 독립 교차확인 2건 — (1) Enriqueta Morillas 서평(Biblioteca Virtual Miguel de Cervantes, https://www.cervantesvirtual.com/research/mario-vargas-llosa-contra-viento-y-marea-940040/b5e43beb-8489-4132-aba6-2efa2b837fcc.pdf)은 푸에르토리코판 서문 11쪽을 직접 인용한다: «...hasta acabar dándole la razón a Camus dos décadas después de habérsela dado a Sartre», 그리고 책의 궤적을 «Del compromiso sartreano al compromiso con la literatura», «alejándolo de esa primera militancia a favor del arte “comprometido” que propugna el autor de ¿Qué es la literatura?»로 요약한다. (2) Malva Flores, Letras Libres 2025-06 (https://letraslibres.com/revista/malva-flores-de-camus-a-camus-vargas-llosa-y-la-vocacion/)도 같은 서문 문장을 «sus primeras páginas»에서 인용한다. 원서 IA 사본(entresartreycamu0000varg)은 여전히 대출 제한이라 본문 직접 열람은 불가했고(search-inside·djvu.txt 모두 차단, 미리보기 리프 0–6·24만 열림), HathiTrust 전문검색과 UASB 리포지터리는 봇 차단 페이지라 시도하지 않았다. 따라서 이전의 access: 보류는 해소된다 — 주장의 두 축(초기 사르트르적 참여문학관, 그로부터 멀어진 경위)이 모두 저자 자신의 서문으로 확인된다. 제안된 correction 은 불필요하다.",
+          "url": "https://ellibero.cl/actualidad/el-liberalismo-integral-de-mario-vargas-llosa/",
           "correction": "『사르트르와 카뮈 사이』(1981)에 사르트르론 연작(「El mandarín」 등)을 묶어, 사르트르와의 관계와 그로부터 멀어진 경위를 다루었다.",
-          "quote": "hasta acabar dándole la razón a Camus dos décadas después de habérsela dado a Sartre",
+          "quote": "mostrar el itinerario de un latinoamericano que hizo su aprendizaje intelectual deslumbrado por... Sartre y terminó abrazando el reformismo libertario de Camus",
           "rereadAt": "2026-09-07"
         },
         {
@@ -7991,10 +7996,10 @@
           "field": "relations[documented_influence ts-eliot → kamau-brathwaite].summary",
           "claim": "브래스웨이트는 『목소리의 역사』(1984)에서 엘리엇의 낭독 음반이 준 충격 — 웅변조가 아니라 건조하고 무표정한 목소리 — 을 네이션 랭귀지의 전사로 명시한다",
           "verdict": "confirmed",
-          "url": "https://pdfs.semanticscholar.org/6b80/ce1d399f737fd96d829e7ebe729e106e5b40.pdf",
-          "quote": "In that dry, deadpan delivery, the 'riddims' of St. Louis ... were stark and clear",
+          "url": "https://www.amherst.edu/system/files/media/1802/Kamau_Brathwaite__History_of_the_Voice.pdf",
+          "quote": "it was Eliot's actual voice —or rather his recorded voice... In that dry deadpan delivery, the 'riddims' of St. Louis... were stark and clear",
           "correction": "브래스웨이트는 『목소리의 역사』(1984)에서 엘리엇이 서인도제도 시인들에게 미친 영향을 네이션 랭귀지의 전사(前史)로 명시한다.",
-          "note": "출처는 Anthurium: A Caribbean Studies Journal 1.1 (2003) Art. 5 (원 URL http://scholarlyrepository.miami.edu/anthurium/vol1/iss1/5), 『History of the Voice』를 Roots(1993) 페이지로 인용한다(286면). 낭독 음반 대목도 같은 논문에 그대로 인용된다: \"it was Eliot's actual voice, or rather his recorded voice, property of the British Council (Barbados)—reading 'Preludes,' ... not the texts—which turned us on\" (286). 다만 이 대목은 『History of the Voice』 본문이 아니라 각주에 있다 — 요약문에 '각주에서'를 넣으면 더 정확하다. '웅변조가 아니라'는 텍스트의 직접 표현이 아니라 'dry, deadpan'과 '텍스트가 아니라 목소리'라는 대비의 해석이다.",
+          "note": "애머스트 칼리지가 공개한 『History of the Voice』 스캔본 286쪽(Roots 판 페이지 매김)에서 직접 확인했다. 본문은 \"The mainstream poets who were moving from standard English to nation language were influenced basically... by T. S. Eliot. What T. S. Eliot did for Caribbean poetry and Caribbean literature was to introduce the notion of the speaking voice, the conversational tone\" 이고, 인용한 낭독 음반 대목은 여기 붙은 각주 34다. 음반의 소장처는 \"property of the British Council (Barbados)\", 곡목은 'Preludes', 'The love song of J. Alfred Prufrock', The Waste Land, Four Quartets 이며 \"not the texts—which turned us on\" 이라고 못박는다. 스캔본에 텍스트 레이어가 없어 페이지 이미지를 직접 판독했다.",
           "rereadAt": "2026-09-07"
         },
         {
@@ -8543,10 +8548,10 @@
           "field": "relations[jean-paul-sartre].summary",
           "claim": "그 책에서 자신의 초기 문학관이 사르트르의 참여문학론 위에 세워졌음을 서술하고 그로부터 멀어진 경위를 밝혔다",
           "verdict": "confirmed",
-          "url": "https://letraslibres.com/revista/malva-flores-de-camus-a-camus-vargas-llosa-y-la-vocacion/",
+          "url": "https://archive.org/details/entresartreycamu0000varg",
           "correction": "자신의 초기 문학관이 사르트르의 참여문학론 위에 세워졌고 뒤에 그로부터 멀어졌다 (출처: src--nobelprize)",
-          "note": "Letras Libres(말바 플로레스)가 『Entre Sartre y Camus』(1981)의 '첫 페이지들'을 직접 인용한다 — 사르트르에게 20년 손을 들어준 뒤 카뮈로 돌아섰다는 저자 자신의 진술. 초기 문학관의 토대 쪽은 Universidad de Lima 『Un Vicio Absurdo』(2011.7, pp.157-161)의 이 책 서평이 뒷받침한다: \"Fue Sartre quien enseñó al joven escribidor que el compromiso social se encuentra por encima de todo en la actividad del escritor\" (https://revistas.ulima.edu.pe/index.php/unvicioabsurdo/article/download/1286/1246/). Corral, 『Vargas Llosa: la batalla en las ideas』도 이 책이 \"admitía su subsecuente adopción de la postura moral de Camus\"라 기술한다. archive.org 대출본(entresartreycamu0000varg) 본문 자체는 여전히 401/차단이라, 확인 근거는 책을 직접 인용한 2차 문헌이다.",
-          "quote": "él mismo admite en sus primeras páginas cuando reconoce que acabó \"dándole la razón a Camus dos décadas después de habérsela dado a Sartre\"",
+          "note": "본문 도달 경로: openlibrary.org/search/inside (archive.org 대출본 entresartreycamu0000varg 의 전문 색인). 같은 책에서 확인된 다른 대목 — 「El mandarín」 첫 문장 \"Entre los escritores de mi tiempo, dos son los que preferí sobre todos los otros y a los que mi juventud debe más\"(포크너와 사르트르), 사르트르 참여문학론을 다루는 \"la teoría del compromiso\" 대목과 \"ésta, bien usada, era un arma: 'las palabras son actos'\", 그리고 알제리 FLN 선전물을 다락에 숨긴 이유가 \"había que comprometerse\" 였다는 회고. 인용한 결별 문장은 133쪽. 「El mandarín」(1980)이 『Entre Sartre y Camus』(1981)의 열네 번째 글이라는 점은 UASB 석사논문 T4399-ML-Narvaez-Vargas(§1.1, 1.1.14)에서 확인.",
+          "quote": "para librarme de Sartre: se rompió el hechizo, ese vínculo irracional que une al mandarín",
           "rereadAt": "2026-09-07"
         }
       ]
@@ -8779,11 +8784,12 @@
         {
           "field": "relations[mark-twain→toni-morrison].summary",
           "claim": "짐의 재현과 백인 화자의 시선을 다시 읽었다",
-          "verdict": "unverifiable",
+          "verdict": "confirmed",
           "correction": "이 책이 주는 불편함을 출발점 삼아 헉과 짐의 관계를 다시 읽었다.",
-          "note": "access: 서문 전문 PDF 두 곳(uctenglish.com, pybarra.weebly.com)이 모두 404 였고 JSTOR·Project MUSE 는 초록만 열렸다. 검색 스니펫 수준에서 헉–짐 관계 논의는 보이지만(\"Huck cannot have an enduring relationship with Jim\"), '짐의 재현'과 '백인 화자의 시선'이라는 두 축을 서문이 실제로 세우는지는 원문으로 확인하지 못했다.",
-          "resolution": "pending",
-          "pendingWhere": "src--morrison-oxford-mark-twain-huck-intro 서문 원문 (The Oxford Mark Twain, 1996) — JSTOR·Project MUSE 는 초록만 열리고, uctenglish.com·pybarra.weebly.com PDF 는 404"
+          "note": "서문 전문에 도달했다(Internet Archive 공개 아이템의 djvu.txt, 옥스퍼드판 서문 재수록본 — 머리에 \"From The Oxford Mark Twain … Reprinted by permission of International Creative Management\" 표기). 두 축이 모두 실제로 서 있다. 짐의 재현: \"Anticipating this loss may have led Twain to the over-the-top minstrelization of Jim\", \"Jim's portrait seems unaccountably excessive … like an ill-made clown suit that cannot hide the man within.\" 백인 화자 쪽: 헉의 침묵과 \"no comment\"를 읽어내며 \"a realistic portrait of how a white child would respond to a black slave\", \"a comfortable evasion for or as a critique of a white readership\", \"Only a black male slave can deliver all Huck desires.\" '다시 읽었다'도 문자 그대로다 — 서문은 중학교·1950년대·1980년대·현재로 이어지는 반복 독서로 구성돼 있다. 앞선 QC 교정안은 불필요하다.",
+          "url": "https://archive.org/details/introduction-to-hf-t-morrison-2",
+          "quote": "minstrelizing him necessitates and exposes an enforced silence on the subject of white fatherhood",
+          "rereadAt": "2026-09-07"
         }
       ]
     },
@@ -10637,8 +10643,10 @@
           "field": "relations[virgil→ovid].sources",
           "claim": "'작은 아이네이스' 명명이 src--britannica 또는 src--oxford-worlds-classics에 있다",
           "verdict": "unverifiable",
-          "note": "Britannica는 403으로 열리지 않았고, 어떤 Oxford World's Classics 판본 서문인지 특정되지 않아 확인할 수 없었다. 명명 자체는 Dickinson·CAMWS 초록 등으로 확인되므로, 출처를 그쪽으로 바꾸는 편이 정확하다.",
-          "resolution": "corrected"
+          "note": "absent: Britannica 쪽은 도달해서 부재를 확인했다. Wayback 으로 Ovid 항목 세 절(Introduction/Top Questions, Works, Legacy)을 모두 읽었고 'little Aeneid'·'Little Aeneid' 는 0회다. Works 절은 『변신 이야기』를 베르길리우스와의 관계에서 길게 논하지만('Ovid's next work, the Metamorphoses, must also be interpreted ... particularly in regard to Virgil's Aeneid'), 13~14권을 그렇게 부르지는 않는다. Legacy 절에는 'Aeneid' 자체가 없다. Oxford World's Classics 쪽은 여전히 도달 불가 — 소스 정의에 판본이 특정돼 있지 않고(『Oxford World's Classics 서문·해제』라는 총칭), 해당 후보인 Melville 역·Kenney 서문 판은 archive.org 대출 제한이며 Google Books 는 열람 한도로 막힌다. 명명 자체는 Dickinson College Commentaries 가 제목에 그대로 쓴다(blogs.dickinson.edu/dcc/2021/02/16/2021-dickinson-summer-latin-workshop-ovids-little-aeneid-metamorphoses-13-623-14-582/) — 출처를 그쪽 또는 Papaioannou, 『Epic Succession and Dissension』으로 옮기는 편이 정확하다.",
+          "resolution": "corrected",
+          "url": "http://web.archive.org/web/20260313023800/https://www.britannica.com/biography/Ovid-Roman-poet/Works",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[virgil→ovid].summary",
@@ -10928,12 +10936,13 @@
         {
           "field": "relations[documented_influence james-joyce → patrick-white]",
           "claim": "마의 전기가 화이트의 의식의 흐름 서술과 신화적 구성을 조이스 수용의 결과로 다룬다",
-          "verdict": "unverifiable",
-          "url": "https://en.wikipedia.org/wiki/Patrick_White",
-          "correction": "데이비드 마의 전기 『패트릭 화이트: 한 생애』(1991)는 그가 케임브리지 시절 조이스를 탐독한 사실을 기록하고, 화이트 연구는 그의 모더니즘 문체를 조이스 수용의 결과로 다룬다",
-          "note": "access: 전기 본문을 열람하지 못했다. 위키백과가 마(1991) pp. 115–33을 근거로 삼는 대목은 '조이스를 탐독했다'는 독서 사실이고(\"read Joyce, Lawrence, Proust... with admiration\"), 문체 귀속은 Kiernan(1980)에 달려 있다. '의식의 흐름'이라는 용어도 위키백과 화이트 항목에는 없다",
-          "resolution": "pending",
-          "pendingWhere": "src--marr-patrick-white-a-life — David Marr, Patrick White: A Life (1991), pp. 115–33 본문 (열람 불가)"
+          "verdict": "contradicted",
+          "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22stream+of+consciousness%22",
+          "correction": "데이비드 마의 전기 『패트릭 화이트: 한 생애』(1991)는 화이트가 1936년 런던에서 『율리시스』를 읽고 조이스가 \"practically God\"이 된 뒤 『해피 밸리』를 의식의 흐름으로 썼다고 기록한다(145·151쪽). 신화적 구성은 이 전기에서 조이스가 아니라 존 레이어드와 융 독서에 연결된다(360·451–452쪽).",
+          "note": "Google Books search-inside(Knopf 1992판, id peP1dzpZY_IC)로 본문 도달 — 절반은 맞고 절반은 틀리다. 의식의 흐름 축은 마가 직접 세운다: 145쪽 \"Ulysses bored him, but when it worked he was swept away. James Joyce became for him 'practically God'\", 151쪽 \"Ulysses his Bible\". 신화 축은 마에게 조이스 계보가 아니다 — 색인의 Joyce 항목은 49·127·145·151·177·188·198·242·309·310·354·449쪽이고, 신화·원형·만다라 논의는 Layard(360쪽)와 Jung(451–452쪽)에 붙어 있으며 'mythic'·'mythology'·'Homeric' 검색이 조이스와 겹치는 대목을 내지 않는다. 앞선 QC 교정안의 '케임브리지 시절 조이스 탐독'도 부정확하다 — 마는 『율리시스』 독서를 케임브리지 이후 1936년 런던, 로이 드 메스트르를 만난 같은 주로 놓는다.",
+          "quote": "As he wrote Happy Valley he was 'drunk with the techniques of writing and had gone up that cul de sac the stream of consciousness'",
+          "rereadAt": "2026-09-07",
+          "resolution": "corrected"
         }
       ]
     },
@@ -10997,8 +11006,10 @@
           "field": "readingEntryReason",
           "claim": "『소크라테스의 변명』은 30쪽 남짓이다.",
           "verdict": "unverifiable",
-          "note": "판본마다 다른 값이라 특정 출처로 고정 불가. 검색한 것: Hackett 'Trial and Death of Socrates' 쪽수, Stephanus 범위. 확인된 사실은 본문이 17a–42a 를 차지한다는 것뿐.",
-          "resolution": "narrowed"
+          "note": "absent: 본문에 도달했고, 어느 판본도 '30쪽 남짓'을 고정해 주지 않는다. archive.org 전문으로 확인한 Church 역 Golden Treasury 판(1903·1910 두 스캔 모두)의 목차는 APOLOGY 33, CRITO 79 — 변론이 pp. 33–78, 46쪽이다. 반대편으로 Hackett(Grube) 『Trial and Death of Socrates』류 현대 판본은 20쪽대다. Gutenberg 의 조엣 역 본문(pg1656)을 세면 대화 자체가 약 11,380 단어라, 쪽당 350–450 단어의 통상 조판에서 25–33쪽 사이로 흩어진다. 판본 의존 수치라 특정 출처로 확정 불가 — 현재 데이터가 쓰는 스테파누스 17a–42a 표기가 옳은 선택이다.",
+          "resolution": "narrowed",
+          "url": "https://archive.org/download/trialdeathofsocr00platiala/trialdeathofsocr00platiala_djvu.txt",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "readingEntryReason",
@@ -11195,8 +11206,10 @@
           "field": "relations[documented_influence plato→jorge-luis-borges]",
           "claim": "이후 보르헤스 단편들에 반복되는 원형과 개별자의 역설이 그 플라톤 독해에서 나온다.",
           "verdict": "unverifiable",
-          "note": "에세이의 플라톤 출발점은 확인됨. 그러나 후기 단편의 원형-개별자 모티프가 '그 독해에서 나온다'는 인과를 명시한 출처는 찾지 못함(Borges Center 서지·Wikipedia·에세이 본문 검색).",
-          "resolution": "removed"
+          "note": "absent: Borges Center 의 「Platón」색인에 도달했다. 색인은 『영원의 역사』(OC 353, 354, 357, 358n)와 이후 단편들(「바벨의 도서관」계열의 「바빌로니아의 복권」, 「신학자들」, 「아베로에스의 탐구」, 「기억의 천재 푸네스」 OC 490, 「불사의 인간」 OC 533)에 플라톤이 함께 나타난다는 사실만 기록한다. 동시 출현이지 유래가 아니다. 영어·스페인어로 '그 독해에서 나온다'는 인과를 명시한 비평 문헌은 찾지 못했다. gwern.net 의 에세이 영역 PDF 는 Cloudflare 301 루프로 열리지 않았고, JSTOR 본문도 차단이다. 인과절을 빼고 '에세이가 플라톤의 원형 개념을 출발점으로 삼는다'까지만 남기는 편이 안전하다.",
+          "resolution": "removed",
+          "url": "https://pre.borges.pitt.edu/i/platon",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[documented_influence plato→cicero]",
@@ -11913,10 +11926,11 @@
         {
           "field": "relations.contrast rumi → omar-khayyam",
           "claim": "출처 src--encyclopaedia-iranica 에 이 서술이 있는지.",
-          "verdict": "unverifiable",
-          "note": "iranicaonline.org 의 khayyam-omar-poet, rumi-jalal-al-din 두 항목을 WebFetch 와 curl 로 각각 시도했으나 모두 HTTP 403. 확인 불가.",
-          "resolution": "pending",
-          "pendingWhere": "https://iranicaonline.org/articles/khayyam-omar-poet · https://iranicaonline.org/articles/rumi-jalal-al-din (src--encyclopaedia-iranica, HTTP 403)"
+          "verdict": "confirmed",
+          "note": "iranicaonline.org 는 curl·WebFetch 모두 403 이지만 Wayback 으로 도달했다(CDX 로 슬러그 확인: articles/khayyam-omar/khayyam-omar-i-life/, .../khayyam-omar-ii-poetry/). 「i. Life」항목이 수피 진영의 하이얌 배격 묶음을 그대로 담는다 — 나즘 알딘 라지(다야)의 배격, 아타르의 『일라히나마』에서 하이얌을 '미완의 인간'으로 그린 대목, 샴스 타브리지의 폄하, 그리고 이븐 알키프티가 전하는 그리스 철학 대 종교의 충돌. 「ii. Poetry」항목도 다야·샴스 타브리지 대목을 반복한다. 다만 루미의 『마스나비』 구절 자체는 두 항목 어디에도 없다(Rumi·Maṯnawi 검색 결과 「i. Life」의 '샴스의 제자 루미' 한 번뿐, 「ii. Poetry」는 0회). 즉 Iranica 는 요약이 보일·아민라자비에게 돌린 샴스·아타르 확장을 실제로 뒷받침하고, 브라운에게 돌린 마스나비 인용은 뒷받침하지 않는다.",
+          "url": "http://web.archive.org/web/20260621024736/https://www.iranicaonline.org/articles/khayyam-omar/khayyam-omar-i-life/",
+          "quote": "The description of Khayyam in the discourses (maqālāt) of Šams-e Tabrizi, the spiritual guide of Jalāl-al-Din Rumi",
+          "rereadAt": "2026-09-07"
         }
       ]
     },
@@ -13354,9 +13368,9 @@
           "field": "relations[homer→virgil].sources",
           "claim": "src--britannica가 이 계보 독해의 출처다",
           "verdict": "confirmed",
-          "url": "http://web.archive.org/web/20260904185009/https://www.britannica.com/biography/Virgil",
-          "note": "britannica.com 직접 접속은 여전히 Cloudflare 챌린지(HTTP 403)라 우회하지 않았고, 대신 Wayback Machine의 2026-09-04 스냅샷으로 본문을 읽었다. 『아이네이스』 집필 동기를 설명하는 대목에서 호메로스를 'his great Greek predecessor'로 부르며 에피소드·인물의 리모델링을 명시한다. 다만 스냅샷 전문에서 Homer 언급은 이 한 곳뿐이므로, 브리태니커는 계보 독해를 뒷받침하되 상세한 근거는 src--macrobius-saturnalia 쪽이 더 두껍다는 판단은 유지된다.",
-          "quote": "its date and subject were very close to those of Homer's Iliad and Odyssey, so that he could remodel episodes and characters",
+          "url": "http://web.archive.org/web/20260804035241/https://www.britannica.com/topic/Aeneid",
+          "note": "britannica.com 직접 요청은 여전히 403 이라 Wayback 스냅숏(Aeneid 2026-08-04, Virgil 2026-09-04)으로 본문에 도달했다. Aeneid 항목의 'Literary influences' 절이 인용문에 이어 «while the description of the war in the last six books abounds with incidents modeled after those in the Iliad» 라 하고, FAQ 절도 «Virgil closely modeled the Aeneid on Homer's Odyssey and Iliad» 라 한다. Virgil 전기 항목(britannica.com/biography/Virgil)도 «its date and subject were very close to those of Homer's Iliad and Odyssey, so that he could remodel episodes and characters from his great Greek predecessor» 라 하여 같은 계보 독해를 싣는다. src--britannica 는 유효한 출처다.",
+          "quote": "Homer was Virgil's model. The story of Aeneas's journey, recounted in the first six books, is patterned after the Odyssey",
           "rereadAt": "2026-09-07"
         },
         {
@@ -13917,11 +13931,12 @@
         {
           "field": "relations.contrast derek-walcott → vs-naipaul",
           "claim": "월컷은 그 서평에서 나이폴이 카리브를 결여로 읽는 시선을 반박했다",
-          "verdict": "unverifiable",
-          "note": "access: New Republic 1987-04-13, pp.27–31 원문에 접근하지 못했다(월컷 에세이집도 archive.org 대출 제한). 이차 문헌이 전하는 논지는 '카리브 결여론 반박'보다 좁다 — Krishnan(MFS 2013)은 '나이폴이 고향 트리니다드를 희생시켜 잉글랜드 시골을 낭만화한 것을 비판', Loh(2009)는 '이 소설이 클럽과 장원의 향사층을 승인한다'고 본 것으로 요약한다.",
+          "verdict": "confirmed",
+          "note": "Reached the essay itself in What the Twilight Says: Essays (Walcott) via Google Books search-within-volume. The book's own source note confirms the venue exactly as recorded: '\"The Garden Path: V. S. Naipaul\": The New Republic, April 13, 1987.' The quoted passage is Walcott directly rebutting Naipaul's account of Caribbean cultural deprivation, calling it a deceit — i.e. the 결여 gaze. Corroborated in the same essay by 'Trinidad injured him. England saves him.' and 'There is the absence of all enigma...'. Ishion Hutchinson (NYRB, 2022-10-21) quotes the opening paragraphs verbatim, incl. 'another elegiac pastoralist ... if the cost to that spirit has meant virulent contempt towards the island of his origin'. Correction not needed — the proposed narrower wording is also true, but the original claim is supported.",
           "correction": "월컷은 「The Garden Path」(1987, 『황혼이 하는 말』 수록)에서 『도착의 수수께끼』를 서평하며 나이폴이 고향 트리니다드를 희생시켜 잉글랜드 시골을 낭만화하는 시선을 반박했다.",
-          "resolution": "pending",
-          "pendingWhere": "월컷 「The Garden Path」 원문 — The New Republic 1987-04-13, pp.27–31 (또는 『What the Twilight Says: Essays』, FSG 1998 수록본)"
+          "url": "https://books.google.com/books?id=mHYOBAAAQBAJ&q=%22small+but+excellent+libraries%22",
+          "quote": "when in fact the islands had small but excellent libraries (since they could only afford the classics). Still, he must perpetuate this oblique deceit",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations.contrast derek-walcott → vs-naipaul",
@@ -14301,10 +14316,10 @@
           "field": "relation summary (→ mukhtar-auezov)",
           "claim": "이 진술의 소재지가 src--britannica 다",
           "verdict": "contradicted",
-          "note": "britannica.com 은 Cloudflare 챌린지로 직접 열람이 막혀 우회하지 않았고, 대신 Wayback Machine 스냅샷(2025-12-06)으로 본문을 확보했다. 첫 패스가 시도한 슬러그 britannica.com/biography/Mukhtar-Auezov 는 애초에 존재하지 않는 URL이다(Wayback 스냅샷 0건). 브리태니커의 Kazakh literature·Kazakhstan: Cultural life 항목 스냅샷도 확인했으나 셰익스피어 번역 언급은 없다.",
+          "note": "슬러그가 달랐다 — 브리태니커의 아우에조프 항목은 /biography/Mukhtar-Auezov 가 아니라 /biography/Mukhtar-Auez-uli 이고(‘Also known as: Mukhtar Auezov’), 독립 서술이 없는 스텁이다. Wayback 스냅숏으로 세 문서를 모두 열람했다: 이 전기 스텁, /art/Kazakh-literature, /place/Kazakhstan/Cultural-life. 세 문서 어디에도 'Shakespeare' 나 'Othello' 는 한 번도 나오지 않는다 — 브리태니커가 다루는 것은 『Abai』, 카자흐 서사시 교감, 희곡 Eñlık-Kebek 뿐이다.",
           "url": "https://web.archive.org/web/20251206184624/https://www.britannica.com/biography/Mukhtar-Auez-uli",
-          "quote": "An early Soviet Kazakh writer, Mūhtar Äuezov (Mukhtar Auezov), won recognition for the long novel Abai ... and for his plays, including Eñlık-Kebek.",
-          "correction": "출처는 브리태니커가 아니다. 브리태니커의 아우에조프 항목은 britannica.com/biography/Mukhtar-Auez-uli(별칭 표기 Mukhtar Auezov)이며, 본문 없는 교차참조 스텁이라 셰익스피어·『오셀로』·번역을 전혀 언급하지 않는다. 확인된 소재지는 영어 위키백과 Mukhtar Auezov 항목이다 — \"translated such classic works of world and Russian drama as The Inspector by Gogol, Othello and The Taming of the Shrew by Shakespeare\". src--britannica 를 src--wikipedia-en 으로 교체해야 한다.",
+          "quote": "An early Soviet Kazakh writer, Mukhtar Auez-ulï, won recognition for the long novel Abay, based on the life and poetry of Kūnanbay-ulï, and for his plays",
+          "correction": "근거는 브리태니커가 아니라 영어 위키백과다. src--britannica 를 이 진술의 출처에서 제거할 것.",
           "rereadAt": "2026-09-07",
           "resolution": "corrected"
         },
@@ -14324,10 +14339,10 @@
   "totals": {
     "plates": 57,
     "claims": 1812,
-    "confirmed": 1550,
-    "contradicted": 135,
-    "unverifiable": 127,
-    "pending": 19,
+    "confirmed": 1565,
+    "contradicted": 137,
+    "unverifiable": 110,
+    "pending": 2,
     "open": 0
   }
 }
