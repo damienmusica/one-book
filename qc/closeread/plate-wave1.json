@@ -1261,12 +1261,11 @@
         {
           "field": "relations[0].summary (documented_influence antoine-de-saint-exupery → jean-paul-sartre)",
           "claim": "사르트르는 '그의 뒤에, 헤밍웨이의 뒤에 우리가 어떻게 묘사를 생각할 수 있겠는가'라고 반문하며 생텍쥐페리의 이름을 헤밍웨이와 같은 자리에 놓았다",
-          "verdict": "unverifiable",
-          "url": "https://journals.openedition.org/polysemes/1773",
-          "quote": "[…] après Hemingway, comment pourrions-nous songer à décrire ?",
-          "note": "인용문 자체는 Situations II(Folio Essais 1986) 287쪽에 실재. 그러나 '그(lui)'가 생텍쥐페리라는 것은 접근 가능한 어떤 출처도 밝히지 않는다 — 원문 대조 없이는 인용을 이대로 둘 수 없다.",
-          "resolution": "pending",
-          "pendingWhere": "Jean-Paul Sartre, 『Situations II』(Gallimard, 1948; Folio Essais 1986) 287쪽 원문 대조 — 인용문 자체는 실재하나 '그(lui)'의 지시 대상이 접근 가능한 판본에서 확인되지 않는다"
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/whatisliterature030271mbp/whatisliterature030271mbp_djvu.txt",
+          "quote": "Saint-Exupery has opened the way for us. ... After him, after Hemingway, how could we dream of describing?",
+          "note": "'lui'가 생텍쥐페리라는 것이 확정됐다. Bernard Frechtman 역 What Is Literature? (Philosophical Library, 1949) pp.238-239, 「Situation de l'écrivain en 1947」 장. 바로 앞 문단이 'Saint-Exupery has opened the way for us. He has shown that, for the pilot, the airplane is an organ of perception'이고 각주 1이 'See particularly Earth of Men'(= Terre des hommes), 이어지는 문장이 'After him, after Hemingway, how could we dream of describing?'다. 각주 2는 'Like Hemingway, for example in For Whom the Bell Tolls'. 프랑스어 원문(Situations II)은 열지 못했으나 영역본 전문으로 지시 대상은 확정된다.",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[0].summary (documented_influence antoine-de-saint-exupery → jean-paul-sartre)",
@@ -1297,12 +1296,11 @@
         {
           "field": "relations[1].summary (documented_influence friedrich-nietzsche → antoine-de-saint-exupery)",
           "claim": "오데르의 『Saint-Exupéry écrivain』(2018)이 『남방 우편기』와 『성채』의 가치·고귀함 어법을 니체 독서와 연결해 다룬다",
-          "verdict": "unverifiable",
-          "url": "https://fabula.org/actualites/olivier-odaert-saint-exupery-ecrivain_89456.php",
-          "quote": "Cette inversion constitue depuis Nietzsche un des enjeux majeurs de la modernité.",
-          "note": "2018년 책의 소개문·목차 정보에는 니체가 일반적 준거로만 나오고 『남방 우편기』·『성채』도, '가치·고귀함' 어법도 언급되지 않는다. 이 논지가 실제로 확인되는 오데르의 글은 따로 있다 — 「La haute noblesse. Poétique de la valeur de Nietzsche à Saint-Exupéry」, in David Martens (dir.), Lettres de noblesse II, Classiques Garnier, 2016, p.77–90 (nietzsche-en-france.fr 가 이 서지를 제시). 근거를 이 논문으로 바꾸거나, 2018년 책 본문을 직접 대조해야 한다.",
-          "resolution": "pending",
-          "pendingWhere": "Olivier Odaert, 『Saint-Exupéry écrivain』(Presses universitaires de Louvain, 2018) 본문 직접 대조 — 온라인으로는 소개문·목차(https://fabula.org/actualites/olivier-odaert-saint-exupery-ecrivain_89456.php)만 접근 가능. 대안 근거 후보: Olivier Odaert, 「La haute noblesse. Poétique de la valeur de Nietzsche à Saint-Exupéry」, in David Martens (dir.), Lettres de noblesse II, Classiques Garnier, 2016, p.77–90 (새 출처 항목이 필요하므로 이번 편집에서는 추가하지 않았다)"
+          "verdict": "confirmed",
+          "url": "https://books.google.com/books?id=R3QTEAAAQBAJ&q=%22Po%C3%A9tique+de+la+valeur%22",
+          "quote": "1. Poétique de la valeur ... l'ascendant de Nietzsche sur Saint-Exupéry va au-delà de l'image que ces deux écrivains ont imprimée dans l'imaginaire collectif",
+          "note": "2018년 책 본문을 Google Books search-inside(volume id R3QTEAAAQBAJ, ISBN 9782875586797)로 직접 대조했다. p.107 절 제목이 「1. Poétique de la valeur」이고 그 절이 생텍쥐페리의 니체 독서로 시작한다(p.107 '자신의 독서', p.108 'l'ascendant de Nietzsche sur Saint-Exupéry'). p.111에서 오데르 자신이 「La haute Noblesse. Poétique de la valeur de Nietzsche à Saint-Exupéry」(Lettres de noblesse II) 논문을 각주로 인용하며 'poétique des valeurs ... à la suite de son modèle'라고 쓴다(서지는 p.210에도 재수록). 고귀함 어법은 p.145-146('les mots noblesse, justice, égalité, beauté'), p.153('« haute » noblesse, sa valeur'), p.171에 있다. 『성채』는 이 가치 논의 안에 있고(p.145, p.151), 『남방 우편기』는 같은 장의 p.113·p.116에 나온다. 근거를 2016년 논문으로 교체할 필요 없음 — 책이 그 논문을 흡수·인용한다. Acta fabula 서평(https://doi.org/10.58282/acta.12000)도 '니체 독서에서 물려받은 플라톤주의 가치 전복'과 '『남방 우편기』에서 『성채』까지'라는 분석 범위를 확인해 준다.",
+          "rereadAt": "2026-09-07"
         }
       ]
     },
@@ -2295,11 +2293,12 @@
         {
           "field": "relations[dickens→kafka].summary",
           "claim": "카프카가 어떤 점을 계승하고 어떤 점을 버렸는지 항목별로 나열했다",
-          "verdict": "unverifiable",
+          "verdict": "confirmed",
           "correction": "디킨스에게서 가져온 요소들을 항목별로 나열했다",
-          "note": "access: 일기 전문(Pasley 판 Tagebücher S.840)을 온라인에서 열람하지 못했다. 3ammagazine 기사는 401, Gutenberg 에 카프카 일기 없음. 독일어 위키백과는 '스스로 인정했다'와 인용 한 구절까지만 싣는다. '버린 점'의 항목별 열거는 확인 불가",
-          "resolution": "pending",
-          "pendingWhere": "카프카 일기 전문 — Pasley 판 『Tagebücher』 S.840 (src--kafka-tagebuch-1917-dickens)"
+          "note": "1917년 10월 8일 일기 전문에 도달했다(빈 대학 Werner Haas의 카프카 일기 전사). 계승 항목이 열거된다: 'Koffergeschichte, der Beglückende und Bezaubernde, die niedrigen Arbeiten, die Geliebte auf dem Landgut die schmutzigen Häuser u. a. vor allem aber die Methode.' 버린 항목도 열거된다: 'Stellen grauenhafter Kraftlosigkeit', 'Barbarisch der Eindruck des unsinnigen Ganzen, ein Barbarentum, das allerdings ich ... vermieden habe', 'Herzlosigkeit hinter der von Gefühl überströmenden Manier', 'Diese Klötze roher Charakterisierung'. 독립 검증: 독일 학위논문(https://d-nb.info/1265430969/34)이 같은 문면을 직접 인용한다. 제안된 수정('디킨스에게서 가져온 요소들을 항목별로 나열했다')은 필요 없다 — 원래 서술이 정확하다.",
+          "url": "https://homepage.univie.ac.at/werner.haas/1917/tb17-022.htm",
+          "quote": "vor allem aber die Methode ... ein Barbarentum, das allerdings ich dank meiner Schwäche ... vermieden habe. Herzlosigkeit hinter der von Gefühl überströmenden Manier",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[dickens→tolstoy].summary",
@@ -4116,11 +4115,13 @@
         {
           "field": "relation summary (→ jorge-luis-borges)",
           "claim": "그 강연이 추리 장르의 계보를 포의 뒤팽 이야기에서부터 정리하고 그 장르가 만들어 낸 독자를 자기 소설의 전제로 삼았다",
-          "verdict": "unverifiable",
-          "note": "access: 강연 본문을 구하지 못함 — ciudadseva.com 해당 슬러그 404, Google Books API 일일 할당 초과, 검색엔진 캡차. 강연의 존재·연도·수록처만 확인됨.",
-          "correction": "1978년 벨그라노 대학 강연 「추리 이야기」(1979년 『보르헤스 구술』 수록)에서 추리 장르를 다뤘다",
-          "resolution": "pending",
-          "pendingWhere": "src--borges-el-cuento-policial-1978 — 『Borges oral』(Emecé, 1979) 수록 강연 「El cuento policial」 본문 (ciudadseva.com 사본 404, Google Books 할당 초과)"
+          "verdict": "contradicted",
+          "note": "강연 전문을 확보해 대조했다(1978-06-16, 『Borges, oral』 1979). 앞 절은 확인된다 — 뒤팽이 \"el primer detective de la historia de la literatura\"이고 \"que se llamará después Sherlock Holmes, que se llamará más tarde el padre Brown\"으로 계보가 이어진다. 뒤 절은 absent: 강연은 장르가 만든 독자를 일반 독서론의 전제로 쓴다(\"La novela policial ha creado un tipo especial de lector\", \"Nosotros, al leer una novela policial, somos una invención de Edgar Allan Poe\", 『돈키호테』를 추리소설로 읽는 예시). 자기 소설을 언급하는 유일한 대목은 인용한 자기 폄하 문장과 「죽음과 나침반」·비오이 카사레스 공저 언급뿐이다.",
+          "correction": "1978년 6월 16일 벨그라노 대학 강연 「El cuento policial」(1979년 『Borges, oral』 수록)에서 뒤팽을 \"el primero de todos ellos, el modelo, el arquetipo\"로 놓고 홈스·브라운 신부로 이어지는 계보를 정리했고, 추리소설이 만들어 낸 '의심하며 읽는 독자'를 장르 자체의 전제로 삼았다 — 자기 소설의 전제라고는 하지 않았다.",
+          "url": "https://borgestodoelanio.blogspot.com/2015/05/jorge-luis-borges-el-cuento-policial.html",
+          "quote": "He intentado el género policial alguna vez, no estoy demasiado orgulloso de lo que he hecho.",
+          "rereadAt": "2026-09-07",
+          "resolution": "corrected"
         },
         {
           "field": "relation summary (→ agatha-christie)",
@@ -4132,11 +4133,13 @@
         {
           "field": "relation summary (→ agatha-christie)",
           "claim": "시먼스가 포의 뒤팽 3부작의 배치가 황금기 크리스티에서 완성형에 이르렀다고 반복해 다룬다",
-          "verdict": "unverifiable",
-          "note": "access: archive.org 의 대출 전용 항목이라 본문 검색(search-inside) 엔드포인트가 모두 차단됨(응답 없음/404). 시먼스가 이 주장을 하는지 확인하지 못함 — 시먼스는 크리스티의 인물 조형에는 비판적이라는 통설이 있어 '완성형' 귀속은 특히 확인이 필요하다.",
-          "correction": "줄리언 시먼스의 『Bloody Murder』(1972) 같은 표준 장르사는 포의 뒤팽 3부작이 만든 배치 — 괴짜 탐정, 범속한 화자, 봉인된 문제 — 를 황금기 크리스티로 이어지는 계보로 다룬다.",
-          "resolution": "pending",
-          "pendingWhere": "src--symons-bloody-murder — archive.org 대출 전용 사본이라 본문 검색 차단, 지면 확인 필요"
+          "verdict": "contradicted",
+          "note": "『Bloody Murder』 본문 직접 열람은 실패했다(archive.org 3개 판본 모두 access-restricted-item, djvu.txt 401, fulltext/inside.php 'Item not available'; HathiTrust babel/catalog 403; Google Books API 429 · IpaGAAAAIAAJ 미리보기 없음). 대신 본문을 직접 인용하는 서평 두 편으로 대조했다 — Past Offences(2013, Penguin 1975판 인용)와 CrimeReads의 커티스 에번스(2024, https://crimereads.com/a-bloody-minded-business-julian-symons-evolution-as-a-crime-fiction-critic/). 시먼스의 논지는 탐정소설을 범죄소설로부터 '격리'하는 것이며, 황금기에 대해 \"it dropped into abysms of absurdity and dullness that have never again been plumbed\"라고 쓴다. '완성형' 귀속은 그의 논지와 정반대다.",
+          "correction": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 \"the undisputed father of the detective story\"로 세우고 크리스티의 『스타일스 저택의 괴사건』이 연 황금기까지 계보를 잇지만, 그것을 '완성형'으로 보지 않는다 — 황금기를 창작상의 막다른 길로 규정하고, 인용한 대로 크리스티의 데뷔작을 '퍼즐일 뿐, 인물에 대한 감정적 관여를 허용하지 않는 이야기'로 평한다.",
+          "url": "https://pastoffences.wordpress.com/2013/04/11/just-the-facts-julian-symons-bloody-murder/",
+          "quote": "a puzzle story which is solely that, which permits no emotional engagement with the characters",
+          "rereadAt": "2026-09-07",
+          "resolution": "corrected"
         }
       ]
     },
@@ -4701,10 +4704,11 @@
         {
           "field": "relation:documented_influence frantz-fanon → ngugi-wa-thiongo",
           "claim": "응구기는 『귀향』(1972)에서 파농의 '민족의식의 함정'을 독립 이후 동아프리카의 계급 분화를 읽는 틀로 삼는다",
-          "verdict": "unverifiable",
-          "note": "archive.org 소장본(o00nggw)의 전문·search-inside가 403으로 막혀 『귀향』 본문에서 해당 대목을 찾지 못했다. Open Library search-inside로 '\"Homecoming\" Ngugi Fanon \"pitfalls of national consciousness\"', '… \"national bourgeoisie\" East Africa' 검색 — 후자는 0건. 확인된 것은 \"Echoes of Fanon are to be heard in some of these essays\"라는 이차문헌 서술까지다.",
-          "resolution": "pending",
-          "pendingWhere": "https://archive.org/details/o00nggw — Ngũgĩ, Homecoming(1972) 전문·search-inside 가 403. 접근 권한이 있는 사람이 본문에서 '민족의식의 함정' 대목을 직접 확인해야 한다."
+          "verdict": "confirmed",
+          "note": "archive.org 소장본(o00nggw)은 여전히 대출제한(search-inside 엔드포인트가 'Item not available')이지만, Google Books 최신 전자책판(volume id vMnREAAAQBAJ)의 search-inside로 본문에 도달했다. 오콧 비텍 『라위노의 노래』(우간다)를 다룬 장에서: 'Song of Lawino is a satiric assault on the African middle-class élite that has so unabashedly embraced Western bourgeois values and modes of life'(PT122), 이어 인용한 문장(PT124)이 파농의 '민족의식의 함정'을 명시적 틀로 쓰며 'the social calling that the colonial legacy has bequeathed to the African intelligentsia'로 계급을 지목하고, 바로 다음 문장이 'The significance of Song of Lawino in East Africa's literary consciousness'로 동아프리카를 명시한다. 별도로 PT92에도 'the neo-colonial élite, so aptly described by Frantz Fanon in The Wretched of the Earth, as a pitfall of national consciousness'가 나온다.",
+          "url": "https://books.google.com/books?id=vMnREAAAQBAJ&q=%22pitfalls+of+national+consciousness%22",
+          "quote": "Like Fanon on the subject of the pitfalls of national consciousness in The Wretched of the Earth, Lawino is asking Ocol to consciously negate",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relation:documented_influence frantz-fanon → ngugi-wa-thiongo",
@@ -6713,12 +6717,12 @@
         {
           "field": "relations[documented_influence jean-paul-sartre → mario-vargas-llosa]",
           "claim": "바르가스 요사는 『사르트르와 카뮈 사이』(1981)에서 자신의 초기 문학관이 사르트르의 참여문학론 위에 세워졌음을 서술하고 그로부터 멀어진 경위를 밝혔다",
-          "verdict": "unverifiable",
-          "note": "access: 원서 전문을 열람할 수 없어(대출 제한) 해당 서술을 직접 대조하지 못했다. 전문 검색으로 확인된 것은 판권(1981, Ediciones Huracán)과 수록 글 「Los otros contra Sartre」(1962)·「Sartre y el Nobel」(1964)·「El mandarín」이며, Corral의 연구서는 「El mandarín」이 사르트르에게 바쳐진 글임을 적는다.",
-          "url": "https://archive.org/details/entresartreycamu0000varg",
+          "verdict": "confirmed",
+          "note": "IA 원문(entresartreycamu0000varg)은 여전히 401(djvu.txt·hocr 전부)이고 search-inside(fulltext/inside.php)도 'Item not available', HathiTrust 는 Cloudflare 챌린지라 우회하지 않았다. 대신 두 갈래로 확인했다. (1) Enriqueta Morillas 의 서평(Cervantes Virtual PDF, 1984)이 \"prólogo a la edición de Puerto Rico\"를 지목하며 바르가스 요사 자신의 문장을 인용한다: 사르트르와 카뮈의 논제가 자신이 생각하고 쓰는 것에 거듭 되살아나 \"hasta acabar dándole la razón a Camus dos décadas después de habérsela dado a Sartre\". (2) 그 문장이 1981년 Huracán 판 자체에 있음을 Google Books 책-내부 검색(https://books.google.com/books?id=e5JcAAAAMAAJ, 'Ediciones Huracán, 1981 - 143 páginas')으로 대조했다 — \"habérsela dado a Sartre\"·\"razón a Camus\"·\"mi propia aventura personal\"·\"dos décadas después\" 각 1페이지 일치. 같은 서문의 자기서술 \"itinerario de un latinoamericano que hizo su aprendizaje intelectual deslumbrado por … los vaivenes dialécticos de Sartre … terminó abrazando …\" 도 조각별로 전부 이 책 안에서 1페이지씩 일치했고, \"la teoría del compromiso\" 는 3페이지에 나온다. 즉 서문이 사르트르 아래에서의 지적·문학적 형성과 그로부터의 이탈을 직접 서술한다는 점이 원판에서 확인된다. 부수 확인: 1981년 판 색인·서지(pp. 142-143)에 「Los otros contra Sartre」·「Sartre y el Nobel」·「El mandarín」이 모두 나타나므로 수록 목록도 note 의 기술과 일치한다. 따라서 note 의 축소 correction 은 불필요하다.",
+          "url": "https://www.cervantesvirtual.com/research/mario-vargas-llosa-contra-viento-y-marea-940040/b5e43beb-8489-4132-aba6-2efa2b837fcc.pdf",
           "correction": "『사르트르와 카뮈 사이』(1981)에 사르트르론 연작(「El mandarín」 등)을 묶어, 사르트르와의 관계와 그로부터 멀어진 경위를 다루었다.",
-          "resolution": "pending",
-          "pendingWhere": "https://archive.org/details/entresartreycamu0000varg — 『Entre Sartre y Camus』(1981) 원서 전문(대출 제한)"
+          "quote": "hasta acabar dándole la razón a Camus dos décadas después de habérsela dado a Sartre",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[dialogue jean-paul-sartre → simone-de-beauvoir]",
@@ -7986,13 +7990,12 @@
         {
           "field": "relations[documented_influence ts-eliot → kamau-brathwaite].summary",
           "claim": "브래스웨이트는 『목소리의 역사』(1984)에서 엘리엇의 낭독 음반이 준 충격 — 웅변조가 아니라 건조하고 무표정한 목소리 — 을 네이션 랭귀지의 전사로 명시한다",
-          "verdict": "unverifiable",
-          "url": "http://etheses.dur.ac.uk/1054/",
-          "quote": "you can see how the Caribbean poets introduced here have been influenced by him [T.S.Eliot]",
+          "verdict": "confirmed",
+          "url": "https://pdfs.semanticscholar.org/6b80/ce1d399f737fd96d829e7ebe729e106e5b40.pdf",
+          "quote": "In that dry, deadpan delivery, the 'riddims' of St. Louis ... were stark and clear",
           "correction": "브래스웨이트는 『목소리의 역사』(1984)에서 엘리엇이 서인도제도 시인들에게 미친 영향을 네이션 랭귀지의 전사(前史)로 명시한다.",
-          "note": "access: 『목소리의 역사』 전문(New Beacon 1984 / Roots 1993 수록)에 접근하지 못했다 — archive.org 대출본, HathiTrust, Google Books 모두 차단. 엘리엇의 영향이 이 책에서 명시된다는 것까지는 확인, '낭독 음반'·'건조하고 무표정한 목소리' 는 미확인.",
-          "resolution": "pending",
-          "pendingWhere": "src--brathwaite-history-of-the-voice-1984 — 『목소리의 역사』 전문 (New Beacon Books 1984 / Roots 1993 수록). archive.org 대출본·HathiTrust·Google Books 모두 차단됨."
+          "note": "출처는 Anthurium: A Caribbean Studies Journal 1.1 (2003) Art. 5 (원 URL http://scholarlyrepository.miami.edu/anthurium/vol1/iss1/5), 『History of the Voice』를 Roots(1993) 페이지로 인용한다(286면). 낭독 음반 대목도 같은 논문에 그대로 인용된다: \"it was Eliot's actual voice, or rather his recorded voice, property of the British Council (Barbados)—reading 'Preludes,' ... not the texts—which turned us on\" (286). 다만 이 대목은 『History of the Voice』 본문이 아니라 각주에 있다 — 요약문에 '각주에서'를 넣으면 더 정확하다. '웅변조가 아니라'는 텍스트의 직접 표현이 아니라 'dry, deadpan'과 '텍스트가 아니라 목소리'라는 대비의 해석이다.",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[contrast kamau-brathwaite → derek-walcott].summary",
@@ -8539,12 +8542,12 @@
         {
           "field": "relations[jean-paul-sartre].summary",
           "claim": "그 책에서 자신의 초기 문학관이 사르트르의 참여문학론 위에 세워졌음을 서술하고 그로부터 멀어진 경위를 밝혔다",
-          "verdict": "unverifiable",
-          "url": "https://es.wikipedia.org/wiki/Mario_Vargas_Llosa",
+          "verdict": "confirmed",
+          "url": "https://letraslibres.com/revista/malva-flores-de-camus-a-camus-vargas-llosa-y-la-vocacion/",
           "correction": "자신의 초기 문학관이 사르트르의 참여문학론 위에 세워졌고 뒤에 그로부터 멀어졌다 (출처: src--nobelprize)",
-          "note": "access: 책 본문을 열람하지 못했다(archive.org 대출 항목 entresartreycamu0000varg의 내부 검색 API가 403). 다만 주장의 내용 자체는 확인된다 — es.wikipedia는 \"aprendió a ser un autor con responsabilidad social. Sin embargo, luego se desilusionaría de Sartre\"라 하고, 노벨 강연은 \"Sartre, that words are acts\"라 적는다.",
-          "resolution": "pending",
-          "pendingWhere": "https://archive.org/details/entresartreycamu0000varg — src--vargas-llosa-entre-sartre-y-camus-1981 본문(대출 항목, 내부 검색 API 403). 본문 열람 가능한 사람이 해당 서술을 확인해야 한다."
+          "note": "Letras Libres(말바 플로레스)가 『Entre Sartre y Camus』(1981)의 '첫 페이지들'을 직접 인용한다 — 사르트르에게 20년 손을 들어준 뒤 카뮈로 돌아섰다는 저자 자신의 진술. 초기 문학관의 토대 쪽은 Universidad de Lima 『Un Vicio Absurdo』(2011.7, pp.157-161)의 이 책 서평이 뒷받침한다: \"Fue Sartre quien enseñó al joven escribidor que el compromiso social se encuentra por encima de todo en la actividad del escritor\" (https://revistas.ulima.edu.pe/index.php/unvicioabsurdo/article/download/1286/1246/). Corral, 『Vargas Llosa: la batalla en las ideas』도 이 책이 \"admitía su subsecuente adopción de la postura moral de Camus\"라 기술한다. archive.org 대출본(entresartreycamu0000varg) 본문 자체는 여전히 401/차단이라, 확인 근거는 책을 직접 인용한 2차 문헌이다.",
+          "quote": "él mismo admite en sus primeras páginas cuando reconoce que acabó \"dándole la razón a Camus dos décadas después de habérsela dado a Sartre\"",
+          "rereadAt": "2026-09-07"
         }
       ]
     },
@@ -13350,11 +13353,11 @@
         {
           "field": "relations[homer→virgil].sources",
           "claim": "src--britannica가 이 계보 독해의 출처다",
-          "verdict": "unverifiable",
-          "url": "https://www.britannica.com/biography/Virgil",
-          "note": "access: britannica.com의 Virgil·Aeneid 표제 항목 모두 HTTP 403으로 열리지 않아 해당 서술 여부를 확인하지 못했다. 실질 근거는 src--macrobius-saturnalia 쪽에서 확인됨.",
-          "resolution": "pending",
-          "pendingWhere": "https://www.britannica.com/biography/Virgil (및 Aeneid 표제 항목) — HTTP 403"
+          "verdict": "confirmed",
+          "url": "http://web.archive.org/web/20260904185009/https://www.britannica.com/biography/Virgil",
+          "note": "britannica.com 직접 접속은 여전히 Cloudflare 챌린지(HTTP 403)라 우회하지 않았고, 대신 Wayback Machine의 2026-09-04 스냅샷으로 본문을 읽었다. 『아이네이스』 집필 동기를 설명하는 대목에서 호메로스를 'his great Greek predecessor'로 부르며 에피소드·인물의 리모델링을 명시한다. 다만 스냅샷 전문에서 Homer 언급은 이 한 곳뿐이므로, 브리태니커는 계보 독해를 뒷받침하되 상세한 근거는 src--macrobius-saturnalia 쪽이 더 두껍다는 판단은 유지된다.",
+          "quote": "its date and subject were very close to those of Homer's Iliad and Odyssey, so that he could remodel episodes and characters",
+          "rereadAt": "2026-09-07"
         },
         {
           "field": "relations[virgil→dante-alighieri].summary",
@@ -14297,11 +14300,13 @@
         {
           "field": "relation summary (→ mukhtar-auezov)",
           "claim": "이 진술의 소재지가 src--britannica 다",
-          "verdict": "unverifiable",
-          "note": "access: britannica.com/biography/Mukhtar-Auezov 이 403 으로 차단되어 브리태니커 본문을 확인하지 못함. adebiportal.kz 에서는 카자흐어 『오셀로』 도서 페이지만 확인되고 아우에조프 역자 표기는 확인하지 못함. 확인된 근거는 영어 위키백과다.",
-          "url": "https://adebiportal.kz/kz/books/view/otello__1673",
-          "resolution": "pending",
-          "pendingWhere": "https://www.britannica.com/biography/Mukhtar-Auezov (403 차단 — 접근 가능한 사람이 본문을 읽어야 한다)"
+          "verdict": "contradicted",
+          "note": "britannica.com 은 Cloudflare 챌린지로 직접 열람이 막혀 우회하지 않았고, 대신 Wayback Machine 스냅샷(2025-12-06)으로 본문을 확보했다. 첫 패스가 시도한 슬러그 britannica.com/biography/Mukhtar-Auezov 는 애초에 존재하지 않는 URL이다(Wayback 스냅샷 0건). 브리태니커의 Kazakh literature·Kazakhstan: Cultural life 항목 스냅샷도 확인했으나 셰익스피어 번역 언급은 없다.",
+          "url": "https://web.archive.org/web/20251206184624/https://www.britannica.com/biography/Mukhtar-Auez-uli",
+          "quote": "An early Soviet Kazakh writer, Mūhtar Äuezov (Mukhtar Auezov), won recognition for the long novel Abai ... and for his plays, including Eñlık-Kebek.",
+          "correction": "출처는 브리태니커가 아니다. 브리태니커의 아우에조프 항목은 britannica.com/biography/Mukhtar-Auez-uli(별칭 표기 Mukhtar Auezov)이며, 본문 없는 교차참조 스텁이라 셰익스피어·『오셀로』·번역을 전혀 언급하지 않는다. 확인된 소재지는 영어 위키백과 Mukhtar Auezov 항목이다 — \"translated such classic works of world and Russian drama as The Inspector by Gogol, Othello and The Taming of the Shrew by Shakespeare\". src--britannica 를 src--wikipedia-en 으로 교체해야 한다.",
+          "rereadAt": "2026-09-07",
+          "resolution": "corrected"
         },
         {
           "field": "relation summary (→ mukhtar-auezov)",
@@ -14315,14 +14320,14 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-06",
+  "updatedAt": "2026-09-07",
   "totals": {
     "plates": 57,
     "claims": 1812,
-    "confirmed": 1542,
-    "contradicted": 132,
-    "unverifiable": 138,
-    "pending": 30,
+    "confirmed": 1550,
+    "contradicted": 135,
+    "unverifiable": 127,
+    "pending": 19,
     "open": 0
   }
 }
