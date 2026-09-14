@@ -75,6 +75,8 @@ for (const [workId, list] of Object.entries(cands.found as Record<string, Raw[]>
   pools.set(workId, { w, a, pool, picked: [], seen: new Set() });
 }
 const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
+  if (!/^97[89]\d{10}$/.test(String(c.isbn13))) return; // 유통 바코드(480…)는 ISBN 이 아니다
+  if (!String(c.publisher ?? "").trim() || !String(c.title ?? "").trim()) return; // 출판사·제목 없는 레코드는 올리지 않는다
   const k = `${c.publisher}|${c.translator ?? ""}`;
   if (st.seen.has(k) || usedIsbn.has(c.isbn13)) return;
   st.seen.add(k); usedIsbn.add(c.isbn13);

@@ -132,7 +132,10 @@ const PROVIDERS: Record<string, Provider> = {
     normalize(raw) {
       return [...String(raw).matchAll(/<recordData>([\s\S]*?)<\/recordData>/g)].map((m) => m[1]!).map((b): Item => {
         const isbn = ([...b.matchAll(/<dc:identifier[^>]*xsi:type="tel:ISBN"[^>]*>([^<]*)</g)].map((m) => isbn13Of(m[1]!)).find(Boolean)) ?? "";
-        const pub = unescapeXml((xmlText(b, "dc:publisher")[0] ?? "").split(/\s+:\s+/).pop() ?? "");
+        // DNB 의 oai_dc 는 출판사를 비워 보내는 레코드가 있다(하나·피셔의 정본 판이 그렇다). ISBN 등록자 접두는
+        // 출판사에 고정 배정된 사실이라 그것으로 채운다 — 없는 접두면 비워 두고, 승격은 빈 출판사를 올리지 않는다.
+        let pub = unescapeXml((xmlText(b, "dc:publisher")[0] ?? "").split(/\s+:\s+/).pop() ?? "");
+        if (!pub && isbn) pub = DE_REGISTRANT.find(([pre]) => isbn.startsWith("978" + pre))?.[1] ?? "";
         return { title: unescapeXml(xmlText(b, "dc:title")[0] ?? ""), author: unescapeXml(xmlText(b, "dc:creator").join(", ")).replace(/\s*\[[^\]]*\]/g, ""), translators: [], publisher: pub,
           year: Number((xmlText(b, "dc:date")[0] ?? "").slice(0, 4)), isbn13: isbn, language: "de", ebook: /online|elektronisch|e-?book/i.test(xmlText(b, "dc:type").join(" ") + xmlText(b, "dc:format").join(" ")) };
       });
@@ -183,8 +186,11 @@ const PROVIDERS: Record<string, Provider> = {
     },
   },
 };
+// 독일어권 주요 문학 출판사의 ISBN 등록자 접두(978-3-…). 등록자 접두 → 출판사는 ISBN 기관이 배정한 고정 사실이다.
+const DE_REGISTRANT: [string, string][] = [["310", "S. Fischer"], ["3596", "Fischer Taschenbuch"], ["3446", "Hanser"], ["315", "Reclam"], ["3518", "Suhrkamp"], ["3423", "dtv"], ["3458", "Insel"], ["3257", "Diogenes"], ["3499", "Rowohlt"], ["3406", "C.H. Beck"], ["38353", "Wallstein"], ["3492", "Piper"], ["3717", "Manesse"], ["3462", "Kiepenheuer & Witsch"], ["3548", "Ullstein"], ["3630", "Luchterhand"], ["3608", "Klett-Cotta"], ["3455", "Hoffmann und Campe"], ["3351", "Aufbau"], ["3150", "Reclam"], ["3618", "Deutscher Klassiker Verlag"], ["3730", "Anaconda"]];
 // ISBN 국가 접두로 언어를 한 번 더 건다 — NDL 이 중국어판을, BnF 가 다른 나라 판을 함께 내기도 한다.
-const ISBN_GROUP: Record<string, RegExp> = { ko: /^97889/, fr: /^9782/, de: /^9783/, ja: /^9784/, en: /^978[01]/ };
+// 979-11 도 한국이다. 480… 은 ISBN 이 아니라 유통 바코드인데 체크섬이 같아 스키마를 통과한다 — 여기서 막는다.
+const ISBN_GROUP: Record<string, RegExp> = { ko: /^(97889|9791)/, fr: /^(9782|97910)/, de: /^(9783|97912)/, ja: /^9784/, en: /^978[01]/ };
 
 // ── matching — same rule for every provider ─────────────────────────────────────────────────────────────────
 export function matchItems(work: Raw, author: Raw, items: Item[], lang: string) {
