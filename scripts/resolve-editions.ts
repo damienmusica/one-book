@@ -16,7 +16,7 @@ import { homedir } from "node:os";
 import { isbn13Valid } from "../src/schema.js";
 
 type Raw = Record<string, any>;
-interface Item { title: string; author: string; translators: string[]; publisher: string; year: number; isbn13: string; category?: string; ebook?: boolean }
+interface Item { title: string; author: string; translators: string[]; publisher: string; year: number; isbn13: string; category?: string; ebook?: boolean; status?: string }
 const args = process.argv.slice(2);
 const flag = (k: string) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : undefined; };
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
@@ -33,13 +33,14 @@ const stripVolume = (t: string) => t.replace(/\s*[\(\[][^)\]]*[\)\]]\s*/g, " ").
 const isbn13Of = (s: string) => (String(s).match(/\d{13}/) ?? [""])[0];
 
 // ── providers ──────────────────────────────────────────────────────────────────────────────────────────────
-const PROVIDERS: Record<string, { key: string; issue: string; search: (key: string, q: string) => Promise<Raw>; normalize: (raw: Raw) => Item[] }> = {
+const PROVIDERS: Record<string, { key: string; issue: string; search: (key: string, q: string, target?: string) => Promise<Raw>; normalize: (raw: Raw) => Item[] }> = {
   kakao: {
     key: "KAKAO_REST_KEY",
     issue: "https://developers.kakao.com/console/app → 애플리케이션 추가 → 앱 키 → REST API 키",
-    async search(key, q) {
+    async search(key, q, target: string | undefined = "title") {
       const u = new URL("https://dapi.kakao.com/v3/search/book");
-      u.searchParams.set("target", "title"); u.searchParams.set("query", q); u.searchParams.set("size", "50");
+      if (target) u.searchParams.set("target", target);
+      u.searchParams.set("query", q); u.searchParams.set("size", "50");
       const r = await fetch(u, { headers: { Authorization: `KakaoAK ${key}` } });
       if (!r.ok) throw new Error(`kakao ${r.status} ${(await r.text()).slice(0, 120)}`);
       return r.json();
@@ -48,7 +49,7 @@ const PROVIDERS: Record<string, { key: string; issue: string; search: (key: stri
       return (raw.documents ?? []).map((d: Raw): Item => ({
         title: String(d.title ?? ""), author: (d.authors ?? []).join(", "), translators: (d.translators ?? []).map(String),
         publisher: String(d.publisher ?? ""), year: Number(String(d.datetime ?? "").slice(0, 4)), isbn13: isbn13Of(d.isbn ?? ""),
-        ebook: /e-?book|전자책/i.test(String(d.title ?? "")),
+        ebook: /e-?book|전자책/i.test(String(d.title ?? "")), status: d.status ? String(d.status) : undefined,
       }));
     },
   },
@@ -85,15 +86,18 @@ export function matchItems(work: Raw, author: Raw, items: Item[]) {
     if (/세트|전집|합본/.test(it.title)) continue;
     const t = norm(stripVolume(it.title));
     if (!wantTitle || !(t.startsWith(wantTitle) || t.includes(wantTitle))) continue;
-    const authorOk = koTokens.some((k) => it.author.includes(k)) || (surname.length >= 3 && it.author.toLowerCase().includes(surname.toLowerCase()));
+    const flatAuthor = norm(it.author);
+    const authorOk = (it as any).authorQuery === true
+      || koTokens.some((k) => it.author.includes(k) || flatAuthor.includes(norm(k)))
+      || (surname.length >= 3 && it.author.toLowerCase().includes(surname.toLowerCase()));
     if (!authorOk) continue;
     if (!isbn13Valid(it.isbn13)) continue;
     if (!(it.year >= 1900)) continue;
     out.push({
       workId: work.id, isbn13: it.isbn13, title: it.title.trim(), publisher: it.publisher.trim(), year: it.year,
       ...(it.translators.length ? { translator: it.translators.join(", ") } : {}), language: "ko",
-      ...(it.category ? { category: it.category } : {}), exact: t === wantTitle,
-      ...(/어린이|청소년|만화|축약|다이제스트/.test((it.category ?? "") + it.title) ? { note: "어린이·청소년·축약 표시 — 번안일 수 있다" } : {}),
+      ...(it.category ? { category: it.category } : {}), ...(it.status ? { status: it.status } : {}), exact: t === wantTitle,
+      ...(/어린이|아동|청소년|주니어|키즈|만화|축약|다이제스트|리라이팅/.test((it.category ?? "") + it.title + " " + it.publisher) ? { note: "어린이·청소년·축약 표시 — 번안일 수 있다" } : {}),
     });
   }
   out.sort((a, b) => Number(b.exact) - Number(a.exact) || b.year - a.year);
@@ -129,8 +133,18 @@ async function main() {
     try {
       const raw = await P.search(key, w.titleKo); calls++;
       if (calls === 1) console.log(`  첫 응답 표본: ${JSON.stringify(raw).slice(0, 400)}`);
-      const m = matchItems(w, a, P.normalize(raw));
-      if (m.length) found[w.id] = m; else none.push(`${w.id}: 검색 ${P.normalize(raw).length}건 중 일치 0`);
+      let m = matchItems(w, a, P.normalize(raw));
+      let via = "title";
+      if (!m.length && pname === "kakao" && a.names?.ko) {
+        // 제목이 흔한 말이거나(『우체국』·『문학론』) 표기가 다르면(나쓰메/나츠메) 제목 검색은 저자를 못 잡는다 —
+        // 성(마지막 토큰)을 붙인 전체 검색을 한 번 더 — 풀네임은 표기 차이(라빈드라나트/라빈드라나드)로 빠진다. 이 결과는 카카오가 저자로 걸러 준 것이라 제목만 대본다.
+        await sleep(350);
+        const last = String(a.names.ko).trim().split(/\s+/).pop()!;
+        const raw2 = await P.search(key, `${w.titleKo} ${last}`, undefined); calls++;
+        m = matchItems(w, a, P.normalize(raw2).map((it) => ({ ...it, authorQuery: true } as any)));
+        via = "title+author";
+      }
+      if (m.length) { found[w.id] = m.map((x) => ({ ...x, via })); } else none.push(`${w.id}: 검색 ${P.normalize(raw).length}건 중 일치 0`);
     } catch (e) { none.push(`${w.id}: ${(e as Error).message}`); if (/429|quota|한도/i.test(String(e))) break; }
     await sleep(350);
   }

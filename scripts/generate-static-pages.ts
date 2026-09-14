@@ -291,8 +291,8 @@ function acquireBlock(w: Work, a: Author | undefined): string {
 <ul class="eds">
 ${eds
   .map(
-    (e) => `  <li><span class="pub">${esc(e.publisher)}</span>${e.translator ? `<span class="meta">${esc(e.translator)} 옮김</span>` : ""}<span class="meta">${e.year}</span>${e.title !== w.titleKo ? `<span class="meta">『${esc(e.title)}』 수록</span>` : ""}${e.sourceTextBasis && e.sourceTextBasis !== "original" ? `<span class="meta">${e.sourceTextBasis === "relay" ? "중역" : "번안·재화"}</span>` : ""}
-    <div><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a> · <a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a> <span class="isbn">ISBN ${esc(e.isbn13)}</span></div>
+    (e) => `  <li><span class="pub">${esc(e.publisher)}</span>${e.language !== "ko" ? `<span class="meta">${esc(LANGUAGE_LABELS[e.language] ?? e.language)}${a && !a.languages.includes("ko") && a.languages.includes(e.language) ? " 원서" : "판"}</span>` : ""}${e.translator ? `<span class="meta">${esc(e.translator)} 옮김</span>` : ""}<span class="meta">${e.year}</span>${e.title !== w.titleKo ? `<span class="meta">『${esc(e.title)}』 수록</span>` : ""}${e.sourceTextBasis && e.sourceTextBasis !== "original" ? `<span class="meta">${e.sourceTextBasis === "relay" ? "중역" : "번안·재화"}</span>` : ""}${!e.sourceTextBasis && a && !a.languages.includes("ko") ? `<span class="meta">저본 미확인</span>` : ""}
+    <div><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a> · <a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a>${e.language !== "ko" ? ` · <a href="https://search.worldcat.org/isbn/${esc(e.isbn13)}" rel="nofollow noopener">WorldCat</a>` : ""} <span class="isbn">ISBN ${esc(e.isbn13)}</span></div>
     <p class="sig">${esc(e.verifiedFrom)} · ${esc(e.verifiedAt)} 확인${e.note ? ` — ${esc(e.note)}` : ""}</p></li>`
   )
   .join("\n")}
