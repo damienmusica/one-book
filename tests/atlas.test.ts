@@ -235,3 +235,40 @@ describe("조사 — 이름은 데이터에서 오고 데이터에는 둘 다 �
     expect(KIND_KO.opens("魯迅")).toBe("魯迅를 읽었으니 이제 열린다");
   });
 });
+
+// 2026-09-20 독자 걸음 평가가 라이브에서 재현한 결함들 — 고친 것을 계약으로 못 박는다.
+describe("첫 장의 문 — 표시가 없는 독자에게도 작동한다", () => {
+  const many = Array.from({ length: 157 }, (_, i) => A(`p${String(i).padStart(3, "0")}`));
+  const g = buildGraph(many, []);
+
+  it("주가 바뀌면 사람이 바뀐다 — 53주에 35명 이상, 연속 같은 사람은 3번 이하", () => {
+    const ids = Array.from({ length: 53 }, (_, w) => openAt(g, new Map(), w + 1)!.id);
+    const repeats = ids.filter((id, i) => i > 0 && id === ids[i - 1]).length;
+    expect(new Set(ids).size).toBeGreaterThanOrEqual(35);   // 고치기 전 실측: 26
+    expect(repeats).toBeLessThanOrEqual(3);                 // 고치기 전 실측: 16
+  });
+  it("「다른 쪽」은 다른 사람을 연다 — 같은 답을 다시 계산하는 버튼은 죽은 버튼이다", () => {
+    const seen = new Set(Array.from({ length: 6 }, (_, t) => openAt(g, new Map(), 38, t)!.id));
+    expect(seen.size).toBe(6);                              // 고치기 전 실측: 6번 눌러 1명
+  });
+  it("같은 주·같은 차례는 같은 쪽이다 — 오솔길은 남는다", () => {
+    expect(openAt(g, new Map(), 38, 2)!.id).toBe(openAt(g, new Map(), 38, 2)!.id);
+  });
+  it("표시가 있는 독자에게도 「다른 쪽」은 다음 사람이다", () => {
+    const g2 = buildGraph([A("kafka"), A("marquez"), A("borges"), A("sebald")], [E("kafka", "marquez"), E("kafka", "borges"), E("kafka", "sebald")]);
+    const lit = new Map([["kafka", 3]]);
+    expect(openAt(g2, lit, 10, 0)!.id).not.toBe(openAt(g2, lit, 10, 1)!.id);
+  });
+  it("한국어로 구할 책이 없는 사람은 첫인사로 오지 않는다", () => {
+    const g3 = buildGraph([A("none", { ke: 0 }), A("has", { ke: 2 })], []);
+    for (let w = 1; w <= 53; w++) expect(openAt(g3, new Map(), w)!.id).toBe("has");
+  });
+});
+
+describe("말한 만큼만 말한다 — 담아 둔 것을 읽었다고 하지 않는다", () => {
+  it("관심 있는 책(1)은 '담아 두었으니', 읽은 책(3)은 '읽었으니'", () => {
+    expect(KIND_KO.opens("프란츠 카프카", 1)).toBe("프란츠 카프카를 담아 두었으니 이제 열린다");
+    expect(KIND_KO.opens("프란츠 카프카", 2)).toBe("프란츠 카프카를 곁에 두었으니 이제 열린다");
+    expect(KIND_KO.opens("프란츠 카프카", 3)).toBe("프란츠 카프카를 읽었으니 이제 열린다");
+  });
+});

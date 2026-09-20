@@ -115,7 +115,9 @@ export function josa(word, withFinal, withoutFinal) {
 }
 
 export const KIND_KO = {
-  opens: (from) => `${from}${josa(from, "을", "를")} 읽었으니 이제 열린다`,
+  // 「관심 있는 책」으로만 담아 둔 사람에게 "읽었으니"라고 단언하지 않는다 — 칸이 말한 만큼만 말한다.
+  opens: (from, level = 3) =>
+    `${from}${josa(from, "을", "를")} ${level >= 3 ? "읽었으니" : level >= 2 ? "곁에 두었으니" : "담아 두었으니"} 이제 열린다`,
   root: (from) => `${from}의 뿌리다`,
   beside: (from) => `${from}의 곁이다`,
   near: (from) => `${from}${josa(from, "과", "와")} 같은 때, 같은 자리에 있었다`
@@ -126,14 +128,17 @@ export const KIND_KO = {
 function seen() {
   return read(SEEN_KEY) || {};
 }
-export function markSeen(id) {
+// 한 주에 한 번만 센다 — 새로고침할 때마다 세면 같은 주 안에서 쪽이 계속 바뀌고(실측: 8회 방문에
+// 8명), "같은 독자·같은 주는 같은 쪽"이라는 오솔길이 사라진다.
+export function markSeen(id, wk = isoWeek()) {
   const s = seen();
-  s[id] = { n: (s[id]?.n || 0) + 1, last: Date.now() };
+  if (s[id]?.wk === wk) return;
+  s[id] = { n: (s[id]?.n || 0) + 1, last: Date.now(), wk };
   write(SEEN_KEY, s);
 }
-const decay = (s, id) => {
+const decay = (s, id, wk) => {
   const r = s[id];
-  if (!r) return 1;
+  if (!r || r.wk === wk) return 1;                 // 이번 주의 노출은 이번 주의 선택을 흔들지 않는다
   const days = (Date.now() - r.last) / 86400000;
   return (1 / (1 + r.n)) * (1 - Math.exp(-days / 14));
 };
@@ -144,9 +149,12 @@ export function isoWeek(d = new Date()) {
   t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
   return Math.ceil(((t - Date.UTC(t.getUTCFullYear(), 0, 1)) / 86400000 + 1) / 7);
 }
+// FNV-1a 뒤에 눈사태 단계를 붙인다. 없으면 입력 끝자리(주차)가 1 바뀔 때 전원의 값이 같은 방향으로
+// 평행이동해 순위가 그대로 남는다 — 실측: 53주에 26명, 주 전환 52번 중 16번이 지난주와 같은 사람.
 const hash = (s) => {
   let h = 2166136261;
   for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  h ^= h >>> 16; h = Math.imul(h, 0x85ebca6b); h ^= h >>> 13; h = Math.imul(h, 0xc2b2ae35); h ^= h >>> 16;
   return (h >>> 0) / 4294967296;
 };
 
@@ -155,7 +163,7 @@ const hash = (s) => {
  * 같은 독자·같은 주는 같은 쪽 — 다시 찾을 수 있어야 오솔길이 된다(『모래의 책』의 교훈).
  * `week` 는 계약이 두 종류의 주를 다 시험하기 위한 것이다(생략하면 이번 주).
  */
-export function openAt(g, lit, week) {
+export function openAt(g, lit, week, turn = 0) {
   const wk = week === undefined ? isoWeek() : week;
   const s = seen();
   const ready = readiness(g, lit);
@@ -163,7 +171,7 @@ export function openAt(g, lit, week) {
   // 격자는 "그때 그 자리에 누가 또 있었는가"다. 그래서 인구조사의 '지금 열린 쪽'은
   // 준비도만 센다. 하지만 오늘 어느 쪽이 열리는가에는 둘 다 후보가 된다 — 아니면
   // 도판 100인이 100주 만에 소진되고, 세계의 93%는 영영 첫 장에 오지 못한다.
-  const pool = ready.slice(0, 12).map((r) => ({ ...r, w: r.score * decay(s, r.id) * (0.75 + 0.5 * hash(r.id + wk)) }));
+  const pool = ready.slice(0, 12).map((r) => ({ ...r, w: r.score * decay(s, r.id, wk) * (0.75 + 0.5 * hash(`${wk}|${r.id}`)) }));
   for (const [src, level] of lit) {
     const from = g.byId.get(src);
     for (const id of (g.near && g.near.get(src)) || []) {
@@ -173,7 +181,7 @@ export function openAt(g, lit, week) {
       pool.push({
         id, kind: "near", from: src, fromKo: from ? from.k : "", ev: 0, why: "",
         score: level * 0.3,
-        w: level * 0.3 * decay(s, id) * (0.75 + 0.5 * hash(id + wk))
+        w: level * 0.3 * decay(s, id, wk) * (0.75 + 0.5 * hash(`${wk}|${id}`))
       });
     }
   }
@@ -185,11 +193,15 @@ export function openAt(g, lit, week) {
   const rest = neighbourWeek ? pool.filter((p) => p.kind !== "near") : pool;
   first.sort((a, b) => b.w - a.w);
   rest.sort((a, b) => b.w - a.w);
+  // `turn` 은 독자가 「다른 쪽」을 누른 횟수다. 같은 주·같은 독자의 순서는 고정이고(오솔길), 누를 때마다
+  // 그 순서의 다음 사람이 온다 — 다시 계산해서 같은 답에 도착하는 버튼은 죽은 버튼이다.
   const picked = first.concat(rest);
-  if (picked.length) return { ...picked[0], first: false };
-  // 아직 아무 표시도 없다 — 도판 중에서 결정론적으로 한 사람.
-  const plates = g.raw.authors.filter((a) => a.d === "plate" && a.w > 0);
-  const pick = plates.sort((a, b) => hash(a.i + wk) - hash(b.i + wk))[0];
+  if (picked.length) return { ...picked[turn % picked.length], first: false };
+  // 아직 아무 표시도 없다 — 도판 중에서, **한국어로 구할 수 있는 책이 있는** 사람을 결정론적으로.
+  // 첫인사가 "원제로 검색해 보라"이면 15분 안에 표시할 책이 없다. (ke 가 없는 그래프는 거르지 않는다.)
+  const plates = g.raw.authors.filter((a) => a.d === "plate" && a.w > 0 && (a.ke === undefined || a.ke > 0));
+  plates.sort((a, b) => hash(`${wk}|${a.i}`) - hash(`${wk}|${b.i}`));
+  const pick = plates[turn % Math.max(plates.length, 1)];
   return pick ? { id: pick.i, kind: "first", from: null, why: "", score: 0, first: true } : null;
 }
 

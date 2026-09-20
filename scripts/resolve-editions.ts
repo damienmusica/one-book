@@ -51,7 +51,7 @@ function isbn10to13(i10: string): string { const core = "978" + i10.slice(0, 9);
 const xmlText = (block: string, tag: string): string[] => [...block.matchAll(new RegExp(`<${tag}(?:\\s[^>]*)?>([^<]*)<\\/${tag.split(" ")[0]}>`, "g"))].map((m) => m[1]!.trim());
 const unescapeXml = (s: string) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)));
 // 자가출판·재간 공장 — 배제. 정본 시리즈의 순위는 promote-editions.ts 가 매긴다.
-const POD = /epubli|independently publish|john galt|ararauna|graded reader|lettura graduata|simplified|vereinfacht|klett sprachen|gröls|nexx verlag|hofenberg|jazzybee|null papier|boer verlag|henricus|vergangenheitsverlag|europäischer hochschulverlag|edition holzinger|contumax|sarastro|bibebook|la gibecière|éditions de londres|publie\.net|ebooks libres|books on demand|\bbod\b|createspace|independently published|\blulu\b|hansebooks|outlook verlag|legare street|alpha editions|wentworth press|forgotten books|kessinger|tredition|salzwasser|ligaran|culturea|e-artnow|musaicum|dodo press|general books|nabu press|bibliolife|lightning source|amazon|kindle|europäischer literaturverlag|reink|scholar select|palala|andesite|franklin classics|sagwan|trieste publishing|pinnacle press|blurb|createspace|publishing house of|hard press|hardpress|the classics us|read books|literary licensing|book jungle|echo library|digireads|spastic cat|lector house|maven|prabhat|yesterday's classics|throne classics/i;
+const POD = /유페이퍼|온이퍼브|크레용소프트|디즈비즈북스|해밀누리|스토리요|^한들$|부크크|e퍼플|위즈덤커넥트|recorded books|blackstone|naxos|tantor|brilliance|highbridge|\baudio\b|comicarts|\bbange\b|epubli|independently publish|john galt|ararauna|graded reader|lettura graduata|simplified|vereinfacht|klett sprachen|gröls|nexx verlag|hofenberg|jazzybee|null papier|boer verlag|henricus|vergangenheitsverlag|europäischer hochschulverlag|edition holzinger|contumax|sarastro|bibebook|la gibecière|éditions de londres|publie\.net|ebooks libres|books on demand|\bbod\b|createspace|independently published|\blulu\b|hansebooks|outlook verlag|legare street|alpha editions|wentworth press|forgotten books|kessinger|tredition|salzwasser|ligaran|culturea|e-artnow|musaicum|dodo press|general books|nabu press|bibliolife|lightning source|amazon|kindle|europäischer literaturverlag|reink|scholar select|palala|andesite|franklin classics|sagwan|trieste publishing|pinnacle press|blurb|createspace|publishing house of|hard press|hardpress|the classics us|read books|literary licensing|book jungle|echo library|digireads|spastic cat|lector house|maven|prabhat|yesterday's classics|throne classics/i;
 async function getText(url: URL): Promise<string> { const r = await fetch(url, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error(`${url.host} ${r.status}`); return r.text(); }
 // SRU 는 페이지를 준다 — 흔한 제목은 첫 50건이 재간 공장으로 차서 정본이 뒤에 온다. 최대 3쪽까지 이어 받아 하나로 합친다.
 async function sruPages(u: URL, pageSize: number, pages = 3): Promise<string> {
@@ -180,8 +180,9 @@ const PROVIDERS: Record<string, Provider> = {
         const date = (df(rec, "264", "c")[0] ?? df(rec, "260", "c")[0] ?? "").replace(/[^0-9]/g, "").slice(0, 4);
         const f008 = /<controlfield tag="008">([^<]*)</.exec(rec)?.[1] ?? "";
         const langCode = f008.slice(35, 38) || (df(rec, "041", "a")[0] ?? "");
-        return { title: (df(rec, "245", "a")[0] ?? "").replace(/\s*[\/:;]\s*$/, ""), author: df(rec, "100", "a").join(", "), translators: df(rec, "700", "a").filter((_, i) => /tr|translator/i.test(df(rec, "700", "e")[i] ?? "")), publisher: pub,
-          year: Number(date), isbn13: isbn, language: langCode === "eng" ? "en" : langCode, ebook: /electronic|online resource/i.test(df(rec, "300", "a").join(" ") + df(rec, "337", "a").join(" ")) };
+        return { title: (df(rec, "245", "a")[0] ?? "").replace(/\s*[\/:;]\s*$/, ""), author: df(rec, "100", "a").join(", "), // 700 부출 표목에는 서문 필자·삽화가·편자가 섞여 있다. "tr" 부분일치는 illustrator 도 잡는다(실측) — 관계어가 translator 인 것만.
+          translators: [...rec.matchAll(/<datafield tag="700"[^>]*>([\s\S]*?)<\/datafield>/g)].map((m) => m[1]!).filter((f) => /<subfield code="e">\s*translator/i.test(f) || /<subfield code="4">trl</.test(f)).map((f) => unescapeXml(/<subfield code="a">([^<]*)</.exec(f)?.[1] ?? "").replace(/[,.]\s*$/, "")).filter(Boolean), publisher: pub,
+          year: Number(date), isbn13: isbn, language: langCode === "eng" ? "en" : langCode, ebook: /electronic|online resource|sound|audio|videodisc/i.test(df(rec, "300", "a").join(" ") + df(rec, "337", "a").join(" ") + df(rec, "338", "a").join(" ") + df(rec, "245", "h").join(" ")) || /graphic novel|comic/i.test(df(rec, "655", "a").join(" ")) };
       });
     },
   },
@@ -216,7 +217,7 @@ export function matchItems(work: Raw, author: Raw, items: Item[], lang: string) 
     out.push({
       workId: work.id, isbn13: it.isbn13, title: it.title.trim(), publisher: it.publisher.trim(), year: it.year, language: lang,
       ...(tr.length ? { translator: tr.join(", ") } : {}), ...(it.category ? { category: it.category } : {}), ...(it.status ? { status: it.status } : {}), exact: t === wantTitle,
-      ...(/어린이|아동|청소년|주니어|키즈|만화|축약|다이제스트|리라이팅|jeunesse|junior|kinder|jugend|abridged|retold|少年|児童|子ども|こども/i.test((it.category ?? "") + it.title + " " + it.publisher) ? { note: "어린이·청소년·축약 표시 — 번안일 수 있다" } : {}),
+      ...(/어린이|아동|청소년|주니어|키즈|만화|축약|다이제스트|리라이팅|가볍게 읽는|걸작선|한 권으로 읽는|논술|중학생|독후감|스파크노트|명저노트|해설서|jeunesse|junior|kinder|jugend|abridged|retold|study guide|erläuterungen|lektüreschlüssel|textanalyse|interpretation zu|graphic novel|少年|児童|子ども|こども/i.test((it.category ?? "") + it.title + " " + it.publisher) ? { note: "어린이·청소년·축약 표시 — 번안일 수 있다" } : {}),
     });
   }
   out.sort((a, b) => Number(b.exact) - Number(a.exact) || b.year - a.year);

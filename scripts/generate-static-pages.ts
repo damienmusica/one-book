@@ -53,6 +53,13 @@ const genreKo = (id: string): string => GENRE_DEFS.find((g) => g.id === id)?.ko 
  * 기원전은 기원전이라고 쓴다 — 부호는 데이터의 것이지 독자의 것이 아니다.
  */
 /** 깊이의 순서 — 도판이 가장 깊다. 「실루엣이 아닌 것」은 이제 도판을 뜻하지 않는다. */
+/** 문장 끝에서만 자른다. 첫 문장이 한도를 넘으면 그 문장은 통째로 둔다 — 중간에서 끊긴 이유는 이유가 아니다. */
+function firstSentences(text: string, limit: number): string {
+  const parts = text.match(/[^.!?。]+[.!?。]+["'”’)」』]*\s*/g) ?? [text];
+  let out = "";
+  for (const p of parts) { if (out && (out + p).length > limit) break; out += p; }
+  return (out || text).trim();
+}
 const rank = (a: Author): number => ({ plate: 2, sketch: 1, silhouette: 0 })[a.depth ?? "plate"];
 const yr = (n: number): string => (n < 0 ? `기원전 ${-n}` : String(n));
 const span = (from: number, to: number | undefined): string =>
@@ -283,6 +290,15 @@ const ALADIN_SEARCH = (s: string): string =>
 const KYOBO_SEARCH = (s: string): string => `https://search.kyobobook.co.kr/search?keyword=${q(s)}`;
 const NL_SEARCH = (s: string): string => `https://www.nl.go.kr/NL/contents/search.do?kwd=${q(s)}`;
 
+// 중역 판정에는 두 종류가 있다 — 책이나 출판사·도서관 기록이 스스로 밝힌 것과, 번역자의 이력에서 미룬 것.
+// 실명 번역자에 대한 판정이므로 뒤의 것은 "추정"이라고 적는다.
+const RELAY_ATTESTED = /명시|밝|표기|일러두기|546|041|원제가|저본으로|저본임|중역으로|옮긴이의 말|서문|병기|영역본에서|영어판에서|독일어판을|프랑스어판/;
+/** 판본의 제목이 작품 제목과 다르면 그대로 보여 준다 — 분권("모비 딕 1")과 합본("변신·시골의사")을 숨기지 않는다. */
+function editionTitleNote(e: Edition, w: Work): string {
+  const base = e.language === "ko" ? w.titleKo : (w.titleOriginal ?? w.titleKo);
+  if (!e.title || e.title === base) return "";
+  return `<span class="meta">『${esc(e.title)}』${e.title.startsWith(base) ? "" : " 수록"}</span>`;
+}
 function acquireBlock(w: Work, a: Author | undefined): string {
   const eds: Edition[] = d.editions.editions[w.id] ?? [];
   const term = `${w.titleKo} ${a ? a.names.ko : ""}`.trim();
@@ -291,7 +307,7 @@ function acquireBlock(w: Work, a: Author | undefined): string {
 <ul class="eds">
 ${eds
   .map(
-    (e) => `  <li><span class="pub">${esc(e.publisher)}</span>${e.language !== "ko" ? `<span class="meta">${esc(LANGUAGE_LABELS[e.language] ?? e.language)}${a && !a.languages.includes("ko") && a.languages.includes(e.language) ? " 원서" : "판"}</span>` : ""}${e.translator ? `<span class="meta">${esc(e.translator)} 옮김</span>` : ""}<span class="meta">${e.year}</span>${e.title !== (e.language === "ko" ? w.titleKo : (w.titleOriginal ?? w.titleKo)) && !e.title.startsWith(e.language === "ko" ? w.titleKo : (w.titleOriginal ?? "")) ? `<span class="meta">『${esc(e.title)}』 수록</span>` : ""}${e.sourceTextBasis && e.sourceTextBasis !== "original" ? `<span class="meta">${e.sourceTextBasis === "relay" ? "중역" : "번안·재화"}</span>` : ""}${!e.sourceTextBasis && a && !a.languages.includes("ko") ? `<span class="meta">저본 미확인</span>` : ""}
+    (e) => `  <li><span class="pub">${esc(e.publisher)}</span>${e.language !== "ko" ? `<span class="meta">${esc(LANGUAGE_LABELS[e.language] ?? e.language)}${a && !a.languages.includes("ko") && a.languages.includes(e.language) ? " 원서" : "판"}</span>` : ""}${e.translator ? `<span class="meta">${esc(e.translator)} 옮김</span>` : ""}<span class="meta">${e.year}</span>${editionTitleNote(e, w)}${e.sourceTextBasis && e.sourceTextBasis !== "original" ? `<span class="meta">${e.sourceTextBasis === "relay" ? (RELAY_ATTESTED.test(e.note ?? "") ? "중역" : "중역 추정") : "번안·재화"}</span>` : ""}${!e.sourceTextBasis && a && !a.languages.includes(e.language) ? `<span class="meta">저본 미확인</span>` : ""}
     <div><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a> · <a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a>${e.language !== "ko" ? ` · <a href="https://search.worldcat.org/isbn/${esc(e.isbn13)}" rel="nofollow noopener">WorldCat</a>` : ""} <span class="isbn">ISBN ${esc(e.isbn13)}</span></div>
     <p class="sig">${esc(e.verifiedFrom)} · ${esc(e.verifiedAt)} 확인${e.note ? ` — ${esc(e.note)}` : ""}</p></li>`
   )
@@ -456,7 +472,7 @@ function contemporariesSection(a: Author): string {
   if (!near.length && !beside.length) return "";
   const row = (b: Author) =>
     `<li><span class="t"><a href="/authors/${esc(b.id)}/">${esc(b.names.ko)}</a></span>` +
-    `<span class="y">${esc(span(b.activeRange[0], b.activeRange[1]))}</span>` +
+    `<span class="y">${esc(b.birthYear !== undefined ? span(b.birthYear, b.deathYear) : `활동 ${span(b.activeRange[0], b.activeRange[1])}`)}</span>` +
     `${(b.depth ?? "plate") === "plate" ? `<span class="tag">도판</span>` : ""}</li>`;
   const head = near.length ? `같은 자리, 같은 때 — ${near.length}명` : `이웃한 자리, 같은 때 — ${beside.length}명`;
   return `<details class="near"><summary>${head}</summary>
@@ -485,8 +501,8 @@ function authorPage(a: Author): string {
   if (depth !== "plate") {
     const stillMissing =
       depth === "sketch"
-        ? `<p class="absent"><strong>아직 스케치다.</strong> 왜 이 사람이 지도에 있는지 한 줄까지 안다.
-입문 순서와 판본은 아직 우리가 놓지 않았다.</p>`
+        ? `<p class="absent"><strong>아직 스케치다.</strong> 왜 이 사람이 지도에 있는지 한 줄까지 안다 —
+그 한 줄과 아래 연도는 <strong>아직 출처에 대보지 않았다.</strong> 입문 순서와 판본은 아직 우리가 놓지 않았다.</p>`
         : works.length
           ? `<p class="absent"><strong>아직 실루엣이다.</strong> 이 책들이 있다는 것과 언제 어느 말로 쓰였는지는 안다.
 무엇이 이 사람을 그 자리에 세웠는지는 아직 우리가 읽지 않았다.</p>`
@@ -899,7 +915,9 @@ function openBook(app){
   import('/atlas.js').then(function(A){
     return A.graph().then(function(g){
       var lit=A.litAuthors(A.readerState());
-      var open=A.openAt(g,lit);
+      var wk=A.isoWeek();var turn=0;
+      try{var tv=JSON.parse(sessionStorage.getItem('lp.turn.v1')||'null');if(tv&&tv.wk===wk)turn=tv.n|0;}catch(_){}
+      var open=A.openAt(g,lit,wk,turn);
       var c=A.census(g,lit);
       var html='';
       if(open){
@@ -908,7 +926,7 @@ function openBook(app){
         var ko=a?a.ko:(node?node.k:open.id);
         var reason=open.first
           ? '이번 주에 열린 쪽'
-          : (A.KIND_KO[open.kind]?A.KIND_KO[open.kind]((DATA[open.from]&&DATA[open.from].ko)||(g.byId.get(open.from)||{}).k||open.from):'');
+          : (A.KIND_KO[open.kind]?A.KIND_KO[open.kind]((DATA[open.from]&&DATA[open.from].ko)||(g.byId.get(open.from)||{}).k||open.from,lit.get(open.from)):'');
         html+='<p class="sig">'+h(reason)+'</p>';
         html+='<h2 style="letter-spacing:.05em;font-size:22px;color:var(--text)">'+h(ko)+'</h2>';
         if(open.why){html+='<p class="why">'+h(open.why)+'</p>';}
@@ -969,7 +987,12 @@ document.addEventListener('click',function(e){
   var g=e.target.closest&&e.target.closest('[data-go]');
   if(g){e.preventDefault();go(g.getAttribute('data-go'));return;}
   var r=e.target.closest&&e.target.closest('[data-reopen]');
-  if(r){e.preventDefault();trail=[];render(null);}
+  if(r){e.preventDefault();
+    // 「다른 쪽」은 이번 주 순서의 다음 사람이다 — 같은 답을 다시 계산하는 버튼이 아니다.
+    if(!trail.length){try{var wk2=0,n2=0;var tv2=JSON.parse(sessionStorage.getItem('lp.turn.v1')||'null');
+      import('/atlas.js').then(function(A){wk2=A.isoWeek();n2=(tv2&&tv2.wk===wk2?(tv2.n|0):0)+1;
+        sessionStorage.setItem('lp.turn.v1',JSON.stringify({wk:wk2,n:n2}));render(null);});return;}catch(_){}}
+    trail=[];render(null);}
 });
 
 function go(id){trail.push(id);history.replaceState(null,'','#'+id);render(id);}
@@ -1048,7 +1071,9 @@ const capsule = {
     p: a.periods,
     d: a.depth ?? "plate",
     t: a.tier,
-    w: worksOf(a.id).length
+    w: worksOf(a.id).length,
+    // 한국어 판본이 검수된 작품 수 — 첫 장은 표시가 없는 독자에게 구할 수 있는 책이 있는 사람만 내민다.
+    ke: worksOf(a.id).filter((w) => (d.editions.editions[w.id] ?? []).some((e) => e.language === "ko")).length
   })),
   // 방향은 데이터 그대로: source → target = source 가 target 에게 영향을 주었다.
   edges: d.relations.map((r) => ({
@@ -1057,7 +1082,8 @@ const capsule = {
     y: r.type,
     d: r.direction === "directed" ? 1 : 0,
     v: r.evidenceLevel === "documented" ? 3 : r.evidenceLevel === "scholarly_consensus" ? 2 : 1,
-    m: (r.summary ?? "").slice(0, 120)
+    // 이유 한 문장은 돌아온 독자가 받는 유일한 보상이다 — 120자에서 자르면 74%가 문장 중간에서 끊겼다.
+    m: firstSentences(r.summary ?? "", 240)
   })),
   // 격자 — 정적 쪽의 "같은 자리, 같은 때"와 **같은 계산 결과**를 싣는다. 규칙을
   // 두 번 구현하면 두 표면이 조용히 갈라진다. 인덱스로 저장한다(id 문자열의 1/8).

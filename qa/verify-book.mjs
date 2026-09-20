@@ -13,7 +13,8 @@ import { chromium } from "playwright";
 import { serveDist } from "./serve.mjs";
 
 const server = await serveDist();
-const browser = await chromium.launch();
+// 번들 브라우저 캐시가 없는 기계에서는 설치된 크롬으로 돈다: QA_CHANNEL=chrome node qa/verify-book.mjs
+const browser = await chromium.launch(process.env.QA_CHANNEL ? { channel: process.env.QA_CHANNEL } : {});
 const page = await browser.newPage({ viewport: { width: 1280, height: 800 }, locale: "ko-KR" });
 
 const errors = [];
@@ -377,6 +378,34 @@ console.log("\n제3자 — 한 곳도 부르지 않는다");
   check("본문 활자가 실제로 실려 있다", faces > 0, `${faces} 페이스`);
   const sharp = await page.evaluate(() => document.body.innerText.includes("Weißen"));
   check("라틴 확장 글자가 제 모양으로 온다 — ß", sharp);
+}
+
+// ─── 첫 장의 문 — 표시가 없는 독자 (2026-09-20 독자 걸음 평가가 라이브에서 재현한 결함) ──
+console.log("\n첫 장의 문 — 표시가 없는 독자");
+{
+  const ctx = await browser.newContext({ viewport: { width: 375, height: 812 }, locale: "ko-KR" });
+  const p2 = await ctx.newPage();
+  await p2.goto(`${server.origin}/`, { waitUntil: "load" });
+  await p2.waitForSelector("#app h2");
+  const first = (await p2.locator("#app h2").first().innerText()).trim();
+  const names = new Set([first]);
+  for (let i = 0; i < 4; i++) {
+    await p2.locator('[data-reopen]', { hasText: "다른 쪽" }).first().click();
+    await p2.waitForFunction((prev) => document.querySelector("#app h2") && document.querySelector("#app h2").innerText.trim() !== prev, [...names].pop(), { timeout: 5000 }).catch(() => {});
+    names.add((await p2.locator("#app h2").first().innerText()).trim());
+  }
+  check("「다른 쪽」을 누르면 다른 사람이 열린다 — 표시가 하나도 없어도", names.size >= 4, [...names].join(" → "));
+  // 첫인사의 책은 한국어로 구할 수 있어야 한다 — 아니면 15분 안에 표시할 책이 없다.
+  await p2.goto(`${server.origin}/`, { waitUntil: "load" });
+  await ctx.clearCookies();
+  await p2.evaluate(() => sessionStorage.clear());
+  await p2.reload({ waitUntil: "load" });
+  await p2.waitForSelector("#app ul.works a");
+  const hrefs = await p2.locator("#app ul.works a").evaluateAll((as) => as.map((a) => a.getAttribute("href")));
+  let withEdition = 0;
+  for (const h of hrefs) { const html = await (await fetch(`${server.origin}${h}`)).text(); if (/검수된 판본 \d+/.test(html)) withEdition++; }
+  check("첫인사로 내민 책 가운데 한국어 판본이 검수된 것이 있다", withEdition > 0, `${withEdition} / ${hrefs.length}`);
+  await ctx.close();
 }
 
 console.log(`\nconsole errors: ${errors.length}`);

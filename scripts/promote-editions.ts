@@ -31,6 +31,10 @@ const PREFERRED: Record<string, string[]> = {
   ja: ["岩波書店","岩波文庫","新潮社","新潮文庫","角川","講談社","筑摩書房","ちくま","河出書房新社","集英社","中央公論","中公","光文社","文藝春秋","小学館","早川書房","白水社","みすず書房","平凡社","有斐閣","勉誠","汲古書院","笠間書院"],
   en: ["Penguin","Oxford University Press","Oxford World's Classics","Everyman","Norton","New York Review Books","NYRB","Vintage","Modern Library","Harvard University Press","Loeb","Cambridge University Press","Hackett","Dover","Library of America","Yale University Press","Princeton University Press","University of Chicago Press","Farrar","Knopf","Faber","Bloomsbury","Verso","Archipelago","Dalkey Archive","New Directions","Pushkin Press"],
 };
+// 서점이라면 반드시 꽂아 둘 판 — 세계문학전집·고전 총서를 내는 곳. 평가가 짚었다: 최신순만으로는 『죄와 벌』에서
+// 민음사·열린책들이 빠진다.
+const CANON_KO = ["민음사","문학동네","열린책들","을유문화사","창비","문학과지성사","펭귄클래식","현대문학","한길사","책세상","아카넷","도서출판숲","숲","문예출판사","시공사","대산세계문학"];
+const canon = (lang: string, pub: string) => lang === "ko" && CANON_KO.some((m) => pub.replace(/\s+/g, "") === m || pub.replace(/\s+/g, "").startsWith(m));
 const preferred = (lang: string, pub: string) => (PREFERRED[lang] ?? []).some((m) => pub.replace(/\s+/g, "").toLowerCase().includes(m.replace(/\s+/g, "").toLowerCase()));
 
 const read = (d: string) => readdirSync(join("data", d)).filter((f) => f.endsWith(".json")).flatMap((f) => JSON.parse(readFileSync(join("data", d, f), "utf8")) as Raw[]);
@@ -45,6 +49,9 @@ const basis: Record<string, { sourceTextBasis: string; note?: string }> = flag("
 const entryOnly = args.includes("--only-entry");
 const entryWorks = new Set([...authors.values()].map((a) => a.readingEntry).filter(Boolean));
 
+// 저본 판정은 ISBN 에 붙은 값이다 — 다시 고를 때 이미 판정된 ISBN 은 그 판정을 들고 간다.
+for (const list of Object.values(ledger.editions as Record<string, Raw[]>))
+  for (const e of list) if (e.sourceTextBasis && !basis[e.isbn13]) basis[e.isbn13] = { sourceTextBasis: e.sourceTextBasis, ...(e.note ? { note: e.note } : {}) };
 // ISBN 은 원장 전체에서 한 번 — 이번에 다시 고를 언어의 항목은 풀어 준다.
 const usedIsbn = new Set<string>();
 for (const [w, list] of Object.entries(ledger.editions as Record<string, Raw[]>))
@@ -69,7 +76,7 @@ for (const [workId, list] of Object.entries(cands.found as Record<string, Raw[]>
   let pool = list.filter((c) => !translation || c.translator);
   if (translation && !pool.length && list.length) skippedNoTranslator++;
   pool = pool.filter((c) => !c.note); // 어린이·축약 표시가 붙은 것은 판정 없이 올리지 않는다
-  pool.sort((x, y) => Number(preferred(LANG, y.publisher)) - Number(preferred(LANG, x.publisher))
+  pool.sort((x, y) => Number(canon(LANG, y.publisher)) - Number(canon(LANG, x.publisher)) || Number(preferred(LANG, y.publisher)) - Number(preferred(LANG, x.publisher))
     || Number((y.status ?? "정상판매") === "정상판매") - Number((x.status ?? "정상판매") === "정상판매")
     || Number(y.exact) - Number(x.exact) || y.year - x.year);
   pools.set(workId, { w, a, pool, picked: [], seen: new Set() });
@@ -77,6 +84,7 @@ for (const [workId, list] of Object.entries(cands.found as Record<string, Raw[]>
 const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
   if (!/^97[89]\d{10}$/.test(String(c.isbn13))) return; // 유통 바코드(480…)는 ISBN 이 아니다
   if (!String(c.publisher ?? "").trim() || !String(c.title ?? "").trim()) return; // 출판사·제목 없는 레코드는 올리지 않는다
+  if (basis[c.isbn13]?.sourceTextBasis === "adaptation") return; // 축약·재화로 판정된 판은 「구하기」에 올리지 않는다
   const k = `${c.publisher}|${c.translator ?? ""}`;
   if (st.seen.has(k) || usedIsbn.has(c.isbn13)) return;
   st.seen.add(k); usedIsbn.add(c.isbn13);

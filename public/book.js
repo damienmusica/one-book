@@ -219,7 +219,7 @@ async function paintReadiness() {
     if (!row) return;                       // 아직 아무 불도 이 사람에게 닿지 않았다
     const from = g.byId.get(row.from);
     const name = from ? from.k : row.from;
-    el.textContent = A.KIND_KO[row.kind] ? A.KIND_KO[row.kind](name) + "." : "";
+    el.textContent = A.KIND_KO[row.kind] ? A.KIND_KO[row.kind](name, lit.get(row.from)) + "." : "";
     if (row.why) el.textContent += " " + row.why;
     el.hidden = false;
   } catch {
