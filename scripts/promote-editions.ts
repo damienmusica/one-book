@@ -9,7 +9,7 @@
 // --replace (machine-picked entries may be re-picked by the machine; a ledger a person has touched is not). Other
 // languages' entries are always kept. --basis attaches sourceTextBasis (a separate judgment) by ISBN to new and
 // existing entries. The ledger's checkedAt becomes today. Nothing is written unless the whole file passes the schema.
-import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { editionsFileSchema } from "../src/schema.js";
 
@@ -49,6 +49,9 @@ const basis: Record<string, { sourceTextBasis: string; note?: string }> = flag("
 const entryOnly = args.includes("--only-entry");
 const entryWorks = new Set([...authors.values()].map((a) => a.readingEntry).filter(Boolean));
 
+// 제외 원장 — 조회로 "이건 판본이 아니다"라고 판정된 ISBN(축약·재화, 해설서, 오디오, 전자책, 다른 책). 원장에서 행을 지우면
+// 판정도 같이 사라져 다음 승격에 그 행이 되돌아온다(실측: 『일리아스』 재화본). 그래서 판정을 따로 남긴다.
+const EXCLUDED: Record<string, unknown> = existsSync(join("qc", "editions-excluded.json")) ? JSON.parse(readFileSync(join("qc", "editions-excluded.json"), "utf8")).excluded ?? {} : {};
 // 저본 판정은 ISBN 에 붙은 값이다 — 다시 고를 때 이미 판정된 ISBN 은 그 판정을 들고 간다.
 for (const list of Object.values(ledger.editions as Record<string, Raw[]>))
   for (const e of list) if (e.sourceTextBasis && !basis[e.isbn13]) basis[e.isbn13] = { sourceTextBasis: e.sourceTextBasis, ...(e.note ? { note: e.note } : {}) };
@@ -85,6 +88,7 @@ const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
   if (!/^97[89]\d{10}$/.test(String(c.isbn13))) return; // 유통 바코드(480…)는 ISBN 이 아니다
   if (!String(c.publisher ?? "").trim() || !String(c.title ?? "").trim()) return; // 출판사·제목 없는 레코드는 올리지 않는다
   if (basis[c.isbn13]?.sourceTextBasis === "adaptation") return; // 축약·재화로 판정된 판은 「구하기」에 올리지 않는다
+  if (EXCLUDED[c.isbn13]) return;
   const k = `${c.publisher}|${c.translator ?? ""}`;
   if (st.seen.has(k) || usedIsbn.has(c.isbn13)) return;
   st.seen.add(k); usedIsbn.add(c.isbn13);
@@ -97,7 +101,7 @@ const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
 };
 for (const pass of ["exact", "rest"] as const)
   for (const st of pools.values())
-    for (const c of st.pool) { if (st.picked.length >= MAX) break; if (pass === "exact" ? !c.exact : c.exact) continue; take(c, st); }
+    for (const c of st.pool) { if (st.picked.length >= MAX) break; if (pass === "exact" ? !c.exact : c.exact) continue; if (pass === "rest" && st.picked.length >= 2) break; take(c, st); } // 합본·수록은 정확 제목이 둘 미만일 때만
 for (const [workId, st] of pools) {
   const existing: Raw[] = ledger.editions[workId] ?? [];
   if (!st.picked.length) { noPick.push(workId); continue; }

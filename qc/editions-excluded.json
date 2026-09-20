@@ -1,0 +1,236 @@
+{
+  "note": "「구하기」에 올리지 않는 ISBN — 조회로 판정된 축약·재화, 해설서, 오디오·만화, 전자책·다른 책. promote-editions.ts 가 읽는다. 판정은 ISBN 에 붙은 값이라 원장에서 지워도 여기 남는다.",
+  "excluded": {
+    "9791194900795": {
+      "workId": "marcel-proust--du-cote-de-chez-swann",
+      "title": "스완네 집 쪽으로",
+      "publisher": "해밀누리",
+      "why": "저본 미확인 — 국중도 ISBN 기록에 역자 미기재·저자명 오기(푸르스트)·미납본, 알라딘도 옮긴이 없이 판매중지. 저본 언어 확인 불가(분량은 완역급).",
+      "excludedAt": "2026-09-20"
+    },
+    "9788962280531": {
+      "workId": "robert-musil--die-verwirrungen-des-zoeglings-toerless",
+      "title": "생도 퇴를레스의 혼란",
+      "publisher": "지만지고전천줄",
+      "why": "축약·재화 — '지만지고전천줄 85'. 출판사가 원전 직역 발췌 라인이라 명시. 179쪽으로, 같은 역자 완역이 2011년 소설선집(284쪽)으로 재간.",
+      "excludedAt": "2026-09-20"
+    },
+    "9783804419056": {
+      "workId": "bertolt-brecht--leben-des-galilei",
+      "title": "Textanalyse und Interpretation zu Bertolt Brecht, Leben des Galilei : alle erforderlichen Infos für Abitur, Matura, Klausur und Referat ; plus Musteraufgaben mit Lösungsansätzen / Wilhelm Große",
+      "publisher": "Bange",
+      "why": "해설서·학습가이드",
+      "excludedAt": "2026-09-20"
+    },
+    "9788927719984": {
+      "workId": "milan-kundera--nesnesitelna-lehkost-byti",
+      "title": "참을 수 없는 존재의 가벼움",
+      "publisher": "다락원",
+      "why": "해설서·학습가이드",
+      "excludedAt": "2026-09-20"
+    },
+    "9780453007504": {
+      "workId": "salman-rushdie--haroun-and-the-sea-of-stories",
+      "title": "Haroun and the sea of stories",
+      "publisher": "Penguin HighBridge Audio",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9781419728556": {
+      "workId": "octavia-butler--kindred",
+      "title": "Kindred",
+      "publisher": "Abrams Comicarts",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9781419754050": {
+      "workId": "octavia-butler--parable-of-the-sower",
+      "title": "Parable of the sower",
+      "publisher": "Abrams ComicArts",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9791158885854": {
+      "workId": "margaret-atwood--the-handmaids-tale",
+      "title": "시녀 이야기(그래픽 노블)",
+      "publisher": "황금가지",
+      "why": "축약·재화 — 알라딘 원서 표기가 The Handmaid's Tale (Graphic Novel) 2019, 르네 놀트 그림·240쪽 그래픽노블 분류. 소설을 만화로 각색한 판본을 영어에서 옮김.",
+      "excludedAt": "2026-09-20"
+    },
+    "9780553452037": {
+      "workId": "margaret-atwood--cats-eye",
+      "title": "Cat's eye",
+      "publisher": "Bantam Audio",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9780453007511": {
+      "workId": "don-delillo--white-noise",
+      "title": "White noise",
+      "publisher": "Penguin HighBridge Audio",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9791141612559": {
+      "workId": "alejo-carpentier--el-reino-de-este-mundo",
+      "title": "이 세상의 왕국",
+      "publisher": "문학동네",
+      "why": "문학동네 세계문학전집 180(종이책 2019) 전자책판, 원제 El reino de este mundo. 조구호는 『백년의 고독』을 스페인어 원전에서 옮긴 외대 교수.",
+      "excludedAt": "2026-09-20"
+    },
+    "9781556442834": {
+      "workId": "chinua-achebe--arrow-of-god",
+      "title": "Chinua Achebe reads Arrow of God and Anthills of the savannah (excerpts)",
+      "publisher": "American Audio Prose Library",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9780743564366": {
+      "workId": "ernest-hemingway--the-old-man-and-the-sea",
+      "title": "The old man and the sea",
+      "publisher": "Simon & Schuster Audio",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9788935916511": {
+      "workId": "henrik-ibsen--peer-gynt",
+      "title": "페르 귄트",
+      "publisher": "신원문화사",
+      "why": "축약·재화 — 신원문화사 '중학생 독후감 세계문학 147'. 255쪽에 '작품 알고 들어가기'·'독후감 길라잡이'를 붙인 중학생용 축약 편집본(저본 곽복록 역은 독문학자 중역).",
+      "excludedAt": "2026-09-20"
+    },
+    "9788959951734": {
+      "workId": "friedrich-nietzsche--zur-genealogie-der-moral",
+      "title": "도덕의 계보",
+      "publisher": "다락원",
+      "why": "해설서·학습가이드",
+      "excludedAt": "2026-09-20"
+    },
+    "9781559277570": {
+      "workId": "agatha-christie--murder-on-the-orient-express",
+      "title": "Murder on the Orient Express",
+      "publisher": "Audio Renaissance",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    },
+    "9788952247575": {
+      "workId": "charles-dickens--great-expectations",
+      "title": "위대한 유산",
+      "publisher": "살림",
+      "why": "축약·재화 — 출판사가 '축역본(remaster edition)의 정본'이라 명시, 청소년 눈높이 문장으로 재서술. 368쪽으로 원작 대폭 축약.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788952247728": {
+      "workId": "daniel-defoe--robinson-crusoe",
+      "title": "로빈슨 크루소",
+      "publisher": "살림",
+      "why": "축약·재화 — '축역본의 정본' 시리즈 15권. 204쪽으로 축약하고 청소년용으로 재서술, 원작에 없는 장 제목을 붙였다.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788917160598": {
+      "workId": "edgar-allan-poe--the-fall-of-the-house-of-usher",
+      "title": "어셔가의몰락(59.세계명작영어학습문고)(2판)",
+      "publisher": "시사영어사",
+      "why": "축약·재화 — 난이도 4단계 중고생 영어학습문고. 역자가 아니라 '시사영어사 편집부 엮음'이고, 시리즈는 원문을 요약한 판본 위주(예스24 상품평).",
+      "excludedAt": "2026-09-20"
+    },
+    "9783804419124": {
+      "workId": "hermann-hesse--demian",
+      "title": "Erläuterungen zu Hermann Hesse, Demian : alle erforderlichen Infos für Abitur, Matura, Klausur und Referat ; plus Musteraufgaben mit Lösungsansätzen / Maria-Felicitas Herforth",
+      "publisher": "Bange",
+      "why": "해설서·학습가이드",
+      "excludedAt": "2026-09-20"
+    },
+    "9788952237217": {
+      "workId": "homer--ilias",
+      "title": "일리아스",
+      "publisher": "살림",
+      "why": "축약·재화 — '진형준 교수의 세계문학컬렉션' 축약본 — 사건·인물 중심으로 줄이고 산문으로 풀어 쓴 재화.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788932029917": {
+      "workId": "homer--ilias",
+      "title": "일리아스",
+      "publisher": "문학과지성사",
+      "why": "축약·재화 — 김은애 판은 레히너의 독일어 재화본을 옮긴 '다시쓴고전'. 단 이 ISBN은 알라딘상 다른 책, 해당 판은 9788932030210.",
+      "excludedAt": "2026-09-20"
+    },
+    "9791199964969": {
+      "workId": "homer--odysseia",
+      "title": "오디세이아",
+      "publisher": "열림원(주)",
+      "why": "축약·재화 — 교보·알라딘 모두 '메네라오스 스테파니데스 엮음'으로 표기. 호메로스 원전이 아니라 스테파니데스 재화판이고, 역자 김세희는 아동문학 번역가.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788952241030": {
+      "workId": "homer--odysseia",
+      "title": "오디세이아",
+      "publisher": "살림",
+      "why": "축약·재화 — 살림 '큰글자 세계문학컬렉션' 200쪽. 진형준(불문학자)의 시리즈 자체가 청소년 눈높이 '축역본(remaster edition)'을 표방하는 축약본.",
+      "excludedAt": "2026-09-20"
+    },
+    "9791172376093": {
+      "workId": "jonathan-swift--a-modest-proposal",
+      "title": "겸손한 제안",
+      "publisher": "온이퍼브",
+      "why": "저본 미확인 — 알라딘에 책소개·옮긴이·원제 표기가 전혀 없고 국중도에도 미등록. 19쪽 전자책이라는 것 외에 완역인지 재화인지 확인 불가.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788952237453": {
+      "workId": "miguel-de-cervantes--don-quijote-de-la-mancha",
+      "title": "돈키호테",
+      "publisher": "살림",
+      "why": "축약·재화 — 살림 '진형준 교수의 세계문학컬렉션'은 청소년용 축역본 시리즈. 책소개가 '축역본의 정본'이라 명시, 220쪽 26개 소제목으로 압축.",
+      "excludedAt": "2026-09-20"
+    },
+    "9791128824555": {
+      "workId": "murasaki-shikibu--genjimonogatari",
+      "title": "겐지 이야기",
+      "publisher": "지식을만드는지식",
+      "why": "축약·재화 — 지만지 '천줄읽기' 발췌본 216쪽. 김종덕은 도쿄대 겐지모노가타리 박사로 일본어 직역이지만 텍스트 자체가 축약 선집.",
+      "excludedAt": "2026-09-20"
+    },
+    "9791155440773": {
+      "workId": "ovid--ars-amatoria",
+      "title": "사랑의 기술",
+      "publisher": "메티스",
+      "why": "축약·재화 — 표지·서지에 '김원익 평역' 명시. 독문학 박사·신화연구가의 해설을 곁들인 자유 번안.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788992708746": {
+      "workId": "ovid--ars-amatoria",
+      "title": "오비디우스의 사랑의 기술",
+      "publisher": "에버리치홀딩스",
+      "why": "축약·재화 — 책소개가 '신화연구가 김원익이 평역'이라 명시하고 명화 83점 해설 수록 — 라틴어 원전 완역 아님.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788960010208": {
+      "workId": "plato--politeia",
+      "title": "국가",
+      "publisher": "타임기획",
+      "why": "축약·재화 — '꼭 읽어야 할 인문고전' 청소년 논술 대비 기획. 이향만은 옮긴이가 아니라 '편저', 269쪽 축약판.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788952247582": {
+      "workId": "victor-hugo--notre-dame-de-paris",
+      "title": "파리의 노트르담",
+      "publisher": "살림",
+      "why": "축약·재화 — 살림 '진형준 교수의 세계문학컬렉션' 축역본. 국중도는 '진형준 편역'으로 기재, 300쪽·약 3.3만 단어(완역은 900쪽대). 저본은 프랑스어.",
+      "excludedAt": "2026-09-20"
+    },
+    "9788952247827": {
+      "workId": "virgil--aeneis",
+      "title": "아이네이스",
+      "publisher": "살림",
+      "why": "축약·재화 — 살림 진형준판은 출판사가 '축약본(remaster edition)'으로 명시한 청소년용 리라이팅. 다만 이 ISBN은 알라딘·교보에서 '과학관 옆 사회교실'(살림Friends, 2023)로 조회됨 — 진형준 아이네이",
+      "excludedAt": "2026-09-20"
+    },
+    "9781980007487": {
+      "workId": "thomas-pynchon--mason-and-dixon",
+      "title": "Mason & Dixon",
+      "publisher": "Recorded Books",
+      "why": "책이 아니다(오디오·만화)",
+      "excludedAt": "2026-09-20"
+    }
+  }
+}
