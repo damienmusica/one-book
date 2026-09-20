@@ -76,7 +76,8 @@
     "sourceIds": [
       "src--britannica",
       "src--kr-world-lit-editions"
-    ]
+    ],
+    "yearBasis": "first-print"
   },
   {
     "id": "ts-eliot--the-love-song-of-j-alfred-prufrock",
@@ -459,7 +460,8 @@
       "src--britannica",
       "src--cambridge-companions",
       "src--kr-world-lit-editions"
-    ]
+    ],
+    "yearBasis": "first-print"
   },
   {
     "id": "mikhail-bulgakov--sobache-serdtse",
@@ -473,7 +475,8 @@
     "sourceIds": [
       "src--britannica",
       "src--kr-world-lit-editions"
-    ]
+    ],
+    "yearBasis": "first-print"
   },
   {
     "id": "isaac-babel--istoriya-moey-golubyatni",
@@ -579,7 +582,8 @@
     "sourceIds": [
       "src--poetry-foundation",
       "src--fundacion-lorca"
-    ]
+    ],
+    "yearBasis": "first-print"
   },
   {
     "id": "federico-garcia-lorca--la-casa-de-bernarda-alba",
@@ -593,6 +597,7 @@
       "src--britannica",
       "src--fundacion-lorca",
       "src--kr-world-lit-editions"
-    ]
+    ],
+    "yearBasis": "first-print"
   }
 ]

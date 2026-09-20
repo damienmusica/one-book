@@ -37,7 +37,10 @@ function keyFor(name: string): string | undefined {
 
 // ── text helpers ─────────────────────────────────────────────────────────────────────────────────────────────
 const norm = (s: string) => s.normalize("NFKC").toLowerCase().replace(/[̀-ͯ]/g, "").replace(/[\s\p{P}\p{S}]+/gu, "");
-const stripVolume = (t: string) => t.replace(/\s*[\(\[][^)\]]*[\)\]]\s*/g, " ").replace(/\s*(세트|전집|합본|상|중|하|\d+권?|[상중하]권)\s*$/u, "").trim();
+// 권수 꼬리표는 앞에 공백이 있을 때만 뗀다 — 아니면 『1984』가 통째로 지워진다(실측: 민음사 판이 빠졌다).
+const stripVolume = (t: string) => t.replace(/\s*[\(\[][^)\]]*[\)\]]\s*/g, " ").trim().replace(/\s+(세트|전집|합본|상|중|하|\d+권?|[상중하]권)\s*$/u, "").trim();
+/** 분권이면 몇 권째인가 — 1권·상권만 「구하기」에 올린다(2권을 내밀면 독자는 중간부터 산다). */
+const volumeOf = (t: string): string | undefined => /(?:\s|\()(\d+|상|중|하)권?\)?\s*(?:\([^)]*\))?\s*$/u.exec(t.replace(/\s*\((?!\s*(?:\d+|상|중|하)\s*\))[^)]*\)\s*$/u, ""))?.[1];
 const mainTitle = (t: string) => t.split(/\s+\/\s+/)[0]!.split(/\s+[:=]\s+/)[0]!.trim(); // "Madame Bovary / Flaubert : moeurs…" → "Madame Bovary"
 // "978-3-328-11538-0 : EUR 10.00 (DE)" 처럼 가격이 따라오는 국립도서관 표기도 받는다 — ISBN 모양의 토큰을 먼저 뜯어낸다.
 const isbn13Of = (s: string) => {
@@ -52,6 +55,17 @@ const xmlText = (block: string, tag: string): string[] => [...block.matchAll(new
 const unescapeXml = (s: string) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)));
 // 자가출판·재간 공장 — 배제. 정본 시리즈의 순위는 promote-editions.ts 가 매긴다.
 const POD = /유페이퍼|온이퍼브|크레용소프트|디즈비즈북스|해밀누리|스토리요|^한들$|부크크|e퍼플|위즈덤커넥트|recorded books|blackstone|naxos|tantor|brilliance|highbridge|\baudio\b|comicarts|\bbange\b|epubli|independently publish|john galt|ararauna|graded reader|lettura graduata|simplified|vereinfacht|klett sprachen|gröls|nexx verlag|hofenberg|jazzybee|null papier|boer verlag|henricus|vergangenheitsverlag|europäischer hochschulverlag|edition holzinger|contumax|sarastro|bibebook|la gibecière|éditions de londres|publie\.net|ebooks libres|books on demand|\bbod\b|createspace|independently published|\blulu\b|hansebooks|outlook verlag|legare street|alpha editions|wentworth press|forgotten books|kessinger|tredition|salzwasser|ligaran|culturea|e-artnow|musaicum|dodo press|general books|nabu press|bibliolife|lightning source|amazon|kindle|europäischer literaturverlag|reink|scholar select|palala|andesite|franklin classics|sagwan|trieste publishing|pinnacle press|blurb|createspace|publishing house of|hard press|hardpress|the classics us|read books|literary licensing|book jungle|echo library|digireads|spastic cat|lector house|maven|prabhat|yesterday's classics|throne classics/i;
+// 원응답 캐시 — 매칭 규칙을 고칠 때마다 API 를 다시 두드리지 않는다. --cache <dir> 가 있을 때만.
+import { createHash } from "node:crypto";
+import { mkdirSync } from "node:fs";
+const CACHE_DIR = flag("--cache");
+if (CACHE_DIR) mkdirSync(CACHE_DIR, { recursive: true });
+async function cached<T>(keyParts: string[], fetcher: () => Promise<T>): Promise<T> {
+  if (!CACHE_DIR) return fetcher();
+  const f = join(CACHE_DIR, createHash("sha1").update(keyParts.join("|")).digest("hex") + ".json");
+  if (existsSync(f)) return JSON.parse(readFileSync(f, "utf8")).v as T;
+  const v = await fetcher(); writeFileSync(f, JSON.stringify({ k: keyParts, v })); return v;
+}
 async function getText(url: URL): Promise<string> { const r = await fetch(url, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error(`${url.host} ${r.status}`); return r.text(); }
 // SRU 는 페이지를 준다 — 흔한 제목은 첫 50건이 재간 공장으로 차서 정본이 뒤에 온다. 최대 3쪽까지 이어 받아 하나로 합친다.
 async function sruPages(u: URL, pageSize: number, pages = 3): Promise<string> {
@@ -203,7 +217,15 @@ export function matchItems(work: Raw, author: Raw, items: Item[], lang: string) 
     if (it.ebook) continue;
     if (lang === "ko" && /세트|전집|합본/.test(it.title)) continue;
     const t = norm(lang === "ko" ? stripVolume(it.title) : mainTitle(it.title));
-    if (!wantTitle || !(t.startsWith(wantTitle) || t.includes(wantTitle) || (wantTitle.length >= 6 && wantTitle.includes(t) && t.length >= 6))) continue;
+    // 역제는 판마다 다르다(『카라마조프 형제』 ↔ 『카라마조프 가의 형제들』) — 우리 제목의 낱말이 전부 들어 있으면 같은 작품으로 본다.
+    const tokens = String(lang === "ko" ? work.titleKo ?? "" : mainTitle(work.titleOriginal ?? "")).split(/\s+/).map(norm).filter((x) => x.length >= 2);
+    const tokenMatch = tokens.length >= 2 && tokens.every((x) => t.includes(x));
+    if (!wantTitle || !(t.startsWith(wantTitle) || t.includes(wantTitle) || tokenMatch || (wantTitle.length >= 6 && wantTitle.includes(t) && t.length >= 6))) continue;
+    if (lang === "ko") {
+      const vol = volumeOf(it.title);
+      if (vol && !["1", "상"].includes(vol)) continue;
+      if (/큰글자|큰글씨|미니북|필사|워크북|컬러링|영한대역|한영대역|대역|원서 ?읽기|오디오북|포켓북|핸디북/.test(it.title)) continue;
+    }
     const flatAuthor = norm(it.author);
     const authorOk = it.authorQuery === true
       || koTokens.some((k) => it.author.includes(k) || flatAuthor.includes(norm(k)))
@@ -259,7 +281,7 @@ async function main() {
       let items: Item[];
       if (P.lang === "ko") {
         if (!w.titleKo) { none.push(`${w.id}: 한국어 제목 없음`); continue; }
-        const raw = await P.search(key, w.titleKo, undefined); calls++;
+        const raw = await cached([pname, w.titleKo, ""], () => P.search(key, w.titleKo, undefined)); calls++;
         if (calls === 1) console.log(`  첫 응답 표본: ${JSON.stringify(raw).slice(0, 300)}`);
         items = P.normalize(raw);
         if (pname === "kakao" && a.names?.ko) {
@@ -267,13 +289,13 @@ async function main() {
           // 성(마지막 토큰)을 붙인 전체 검색을 항상 한 번 더 하고 ISBN 으로 합친다. 풀네임은 표기 차이(라빈드라나트/라빈드라나드)로 빠진다.
           await sleep(350);
           const last = String(a.names.ko).trim().split(/\s+/).pop()!;
-          const raw2 = await P.search(key, w.titleKo, last); calls++;
+          const raw2 = await cached([pname, w.titleKo, last], () => P.search(key, w.titleKo, last)); calls++;
           const seen = new Set(items.map((it) => it.isbn13));
           for (const it of P.normalize(raw2)) if (!seen.has(it.isbn13)) items.push({ ...it, authorQuery: true });
         }
       } else {
         const surname = P.lang === "ja" ? String(a.names.original).replace(/\s+/g, "") : (String(a.names.original).trim().split(/\s+/).pop() ?? "");
-        const raw = await P.search(undefined, mainTitle(w.titleOriginal), surname); calls++;
+        const raw = await cached([pname, mainTitle(w.titleOriginal), surname], () => P.search(undefined, mainTitle(w.titleOriginal), surname)); calls++;
         if (calls === 1) console.log(`  첫 응답 표본: ${String(typeof raw === "string" ? raw : JSON.stringify(raw)).replace(/\s+/g, " ").slice(0, 300)}`);
         items = P.normalize(raw).map((it) => ({ ...it, authorQuery: true }));
       }

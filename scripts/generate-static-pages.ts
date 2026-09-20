@@ -73,6 +73,8 @@ const GLYPH: Record<string, string> = { out: "→", in: "←", both: "↔" };
 
 // 연도 한 칸이 무엇인지 말한다. 전승 문학에서 이걸 적지 않으면 "모른다"가
 // "안다"가 된다 — 길가메시·베오울프·향가에 확정 연도는 없다.
+// 작가 쪽의 작품 줄은 연도만 찍었다 — 성립 시기 추정(『결박된 프로메테우스』 기원전 430)이 확증된 해처럼 읽혔다.
+const YEAR_BASIS_SHORT: Record<string, string> = { attested: "", "composition-range": " 무렵", "earliest-manuscript": " 사본", "first-print": " 초간" };
 const YEAR_BASIS_KO: Record<string, string> = {
   attested: "",
   "composition-range": " 무렵(성립 시기 추정)",
@@ -387,7 +389,7 @@ export function relationsSection(rels: Relation[], selfId: string): string {
 
 function workRow(w: Work, entryWhy?: string): string {
   return `<li>
-    <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${esc(yr(w.year))}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${stateControl(w.id)}
+    <span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${esc(yr(w.year))}${YEAR_BASIS_SHORT[w.yearBasis ?? "attested"] ?? ""}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}${stateControl(w.id)}
     ${entryWhy ? `<p class="entrywhy">${esc(firstSentence(entryWhy))}</p>` : ""}
     ${w.significance ? `<p class="sig">${esc(firstSentence(w.significance))}</p>` : ""}
   </li>`;

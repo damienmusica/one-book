@@ -62,7 +62,8 @@
     "sourceIds": [
       "src--britannica",
       "src--pleiade"
-    ]
+    ],
+    "yearBasis": "first-print"
   },
   {
     "id": "marcel-proust--contre-sainte-beuve",
@@ -74,7 +75,8 @@
     "significance": "사후 원고에서 편집된 비평. 작품을 작가의 생애로 설명하는 방법을 반박하며, 책을 쓰는 자아는 사교계의 자아와 다른 사람이라는 명제를 세운다. 『잃어버린 시간을 찾아서』의 이론적 예고편에 해당한다.",
     "sourceIds": [
       "src--pleiade"
-    ]
+    ],
+    "yearBasis": "first-print"
   },
   {
     "id": "franz-kafka--das-urteil",
@@ -237,7 +239,8 @@
           "src--dewiki-der-process"
         ]
       }
-    }
+    },
+    "yearBasis": "first-print"
   },
   {
     "id": "franz-kafka--das-schloss",
@@ -279,7 +282,8 @@
           "src--dewiki-der-process"
         ]
       }
-    }
+    },
+    "yearBasis": "first-print"
   },
   {
     "id": "james-joyce--dubliners",
@@ -635,7 +639,8 @@
     "sourceIds": [
       "src--britannica",
       "src--kr-world-lit-editions"
-    ]
+    ],
+    "yearBasis": "first-print"
   },
   {
     "id": "william-butler-yeats--the-wind-among-the-reeds",
@@ -741,6 +746,7 @@
           "src--dewiki-der-verschollene"
         ]
       }
-    }
+    },
+    "yearBasis": "first-print"
   }
 ]
