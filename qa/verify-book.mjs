@@ -48,6 +48,16 @@ const visible = () =>
     return Math.max(0, document.body.innerText.replace(/\s+/g, " ").trim().length - hidden);
   });
 
+// 상태 칸은 이제 <select> 가 아니라 눌리는 인주다: 한 번 누르면 「관심 있는 책」, 그 뒤로는 사다리가 열린다.
+// 계약은 사람이 하는 대로 누른다 — localStorage 를 직접 쓰면 칸이 죽어도 초록이다.
+const setMark = async (m, state) => {
+  if (!(await m.getAttribute("data-state"))) await m.locator(".mark-main").click();
+  if (state === "want") return;
+  const step = m.locator(`.mark-ladder button[data-set="${state}"]`);
+  if (!(await step.isVisible())) await m.locator(".mark-main").click();
+  await step.click();
+};
+
 // ─── 정문 ────────────────────────────────────────────────────────────────────
 console.log("\n정문 — 책은 묻지 않고 열린다");
 await page.goto(`${server.origin}/`, { waitUntil: "load" });
@@ -59,7 +69,7 @@ const appTxt = () => page.locator("#app").innerText();
 // 떠넘겼다 — 다음 책을 못 고르는 사람에게 고르라고 묻는 화면이었다.
 check("어디서 시작할지 묻지 않는다", !/어디서 시작할까/.test(await appTxt()));
 check("표시가 없어도 책이 어느 쪽에서 열려 있다", (await page.locator("#app h2").count()) >= 1);
-check("그 쪽에 담을 책이 서 있다", (await page.locator("#app select.state").count()) >= 1);
+check("그 쪽에 담을 책이 서 있다", (await page.locator("#app .mark .mark-main").count()) >= 1);
 check("왜 지금 이 쪽인지 말한다", /이번 주에 열린 쪽|열린다|뿌리다|곁이다/.test(await appTxt()));
 
 // 도감 계수 — 분모는 지도고 퍼센트는 절망이다(3,752 중 3 = 0.08%). 연속일은 강요.
@@ -69,7 +79,11 @@ check("도감 계수가 만난 수와 전체를 말한다", /만난 작가\s*\d+
 check("연속일·퍼센트·목표 문구가 없다 — 분모는 있다", !/%|목표|연속|남았|달성/.test(census) && /\/\s*\d/.test(census));
 
 // 표시 하나가 세계를 켠다 — 준비도 엔진의 핵심 주장
-await page.locator("#app select.state").first().selectOption("read");
+// 한 번 누르면 관심 있는 책이다 — 사다리를 열 줄 몰라도 표시는 남는다.
+await page.locator("#app .mark .mark-main").first().click();
+const oneTap = await page.evaluate(() => Object.values(JSON.parse(localStorage.getItem("lp.reader.v3") ?? "{}").state ?? {}).map((m) => m.s).join(","));
+check("한 번 누르면 「관심 있는 책」이 된다", oneTap === "want", oneTap);
+await setMark(page.locator("#app .mark").first(), "read");
 await page.waitForTimeout(300);
 const readerLit = await page.evaluate(() => {
   try {
@@ -110,7 +124,7 @@ console.log("\n도감 지키기");
 await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
 await page.waitForTimeout(400);
 check("로그인 상자가 모듈에 의해 채워진다 (비로그인 = 이메일 폼)", (await page.locator("#lp-auth form#lp-login input[type=email]").count()) === 1);
-check("비로그인이어도 상태 칸은 그대로 동작한다 — 로컬이 먼저다", (await page.locator("select.state").count()) >= 1);
+check("비로그인이어도 상태 칸은 그대로 동작한다 — 로컬이 먼저다", (await page.locator(".mark.big .mark-main").count()) === 1);
 const authTxt = await page.locator("#lp-auth").innerText();
 check("저장되는 것이 무엇인지 한 줄로 말한다", /어떤 책을 어느 칸에/.test(authTxt) && /언제/.test(authTxt));
 check("모듈 로드에 콘솔 에러 없음", errors.length === 0, errors.slice(0, 2).join(" | "));
@@ -125,8 +139,9 @@ check("아무것도 안 읽었으면 배지가 없다 — 추측하지 않는다
 
 await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
 await page.waitForTimeout(300);
-await page.locator("select.state").first().selectOption("read");
+await setMark(page.locator(".mark.big"), "read");
 await page.waitForTimeout(250);
+check("찍힌 자리가 보인다 — 칸의 글자가 바뀐다", /읽은 책/.test(await page.locator(".mark.big .mark-label").innerText()));
 await page.goto(`${server.origin}/authors/gabriel-garcia-marquez/`, { waitUntil: "load" });
 await page.waitForTimeout(1100);
 const badge = await page.locator("#lp-ready").innerText();
@@ -182,7 +197,7 @@ await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUn
 const acq = (await page.locator("h2", { hasText: "구하기" }).count()) > 0;
 check("구하기 블록이 선다", acq);
 const body = await page.evaluate(() => document.body.innerText);
-const hasRecord = (await page.locator("ul.eds li").count()) > 0;
+const hasRecord = (await page.locator("table.eds tbody tr").count()) > 0;
 if (hasRecord) {
   check("검수된 판본은 ISBN 상품 주소로 나간다", (await page.locator('a[href*="wproduct.aspx?ISBN="]').count()) > 0);
 } else {
@@ -318,6 +333,11 @@ check("기원전이 기원전으로 적힌다", /기원전 300/.test(shelfTxt) &
 check("전체 대비를 말한다 — 도감이다", /3권 \/ \d{3,}/.test(await page.locator("#shelf-sum").innerText()), await page.locator("#shelf-sum").innerText());
 const shelfLinks = await page.evaluate(() => [...document.querySelectorAll("#shelf a")].map((a) => a.getAttribute("href")));
 check("각 책이 그 작품 쪽으로 나간다", shelfLinks.length === 3 && shelfLinks.every((h) => h.startsWith("/works/")), shelfLinks.join(" "));
+// 서재는 읽기 전용이 아니다 — 「구매한 책」을 「읽은 책」으로 옮기는 자리가 바로 여기다.
+await setMark(page.locator('#shelf .mark[data-work="orhan-pamuk--kar"]'), "read");
+await page.waitForTimeout(300);
+const moved = await page.locator("#shelf").innerText();
+check("서재에서 칸을 옮기면 선반이 다시 짜인다", /읽은 책 2/.test(moved) && !/구매한 책 \d/.test(moved), (moved.match(/(읽은|구매한|관심 있는) 책 \d/g) ?? []).join(" · "));
 await page.evaluate(() => localStorage.removeItem("lp.reader.v3"));
 
 // ─── 색인의 찾기 ─────────────────────────────────────────────────────────────
