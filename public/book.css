@@ -456,3 +456,4 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appeara
 .cover img{box-shadow:0 0 0 1px rgba(43,32,21,.3)}
 .index-head .none{display:none;margin:22px auto 0;max-width:31rem;font-size:15.5px;color:var(--seal-deep)}
 .index-head .none:not([hidden]){display:block}
+.mark-err{flex-basis:100%;margin:6px 0 0;font-size:14.5px;color:var(--seal-deep)}

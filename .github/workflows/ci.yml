@@ -24,5 +24,9 @@ jobs:
       - run: npm run build
       # 브라우저 계약 — 그려진 글자를 잰다. 이 제품은 16일간 자기 CI 가 없었고,
       # 그 사이 정보 폭탄이 재지지 않은 채 배포됐다(결정 (135) #17).
-      - run: npx playwright install --with-deps chromium
+      # 로컬과 같은 브라우저로 잰다 — 로컬은 설치된 크롬(QA_CHANNEL=chrome), CI 는 번들 크로미엄이던 시절
+      # 로컬 초록·CI 빨강이 두 번 배포됐다(2026-09-23).
+      - run: npx playwright install --with-deps chrome
       - run: npm run verify:book
+        env:
+          QA_CHANNEL: chrome

@@ -129,6 +129,35 @@ check("비로그인이어도 상태 칸은 그대로 동작한다 — 로컬이 
 const authTxt = await page.locator("#lp-auth").innerText();
 check("저장되는 것이 무엇인지 한 줄로 말한다", /어떤 책을 어느 칸에/.test(authTxt) && /언제/.test(authTxt));
 check("모듈 로드에 콘솔 에러 없음", errors.length === 0, errors.slice(0, 2).join(" | "));
+// 매직링크는 이 쪽으로 돌아와야 한다. GoTrue 는 돌아올 주소를 쿼리(redirect_to)에서만 읽는다 — 본문에만 두면 토큰이
+// 이 Supabase 프로젝트의 Site URL(다른 앱)로 갈 수 있었다(2026-09-23 감사). 실제 서버는 부르지 않고 가로챈다.
+{
+  let otpUrl = "";
+  await page.route("**/auth/v1/otp**", (r) => { otpUrl = r.request().url(); r.fulfill({ status: 200, contentType: "application/json", body: "{}" }); });
+  await page.locator("#lp-login input[type=email]").fill("reader@example.org");
+  await page.locator("#lp-login button[type=submit]").click();
+  await page.waitForTimeout(300);
+  const rt = new URL(otpUrl || "http://x/").searchParams.get("redirect_to") ?? "";
+  check("매직링크 요청이 돌아올 쪽을 redirect_to 로 보낸다", rt.endsWith("/works/franz-kafka--die-verwandlung/"), rt || "(redirect_to 없음)");
+  await page.unroute("**/auth/v1/otp**");
+  // 기본 메일러가 팀 밖 주소를 거절하면, 서버 원문(JSON)이 아니라 사람의 문장으로 말한다.
+  await page.reload({ waitUntil: "load" }); await page.waitForTimeout(300);
+  await page.route("**/auth/v1/otp**", (r) => r.fulfill({ status: 400, contentType: "application/json", body: '{"code":400,"error_code":"email_address_not_authorized","msg":"Email address reader@example.org not authorized"}' }));
+  await page.locator("#lp-login input[type=email]").fill("reader@example.org");
+  await page.locator("#lp-login button[type=submit]").click();
+  await page.waitForTimeout(300);
+  const refusal = await page.locator("#lp-auth").innerText();
+  check("메일 발송 거절을 원문 없이 사람의 말로 전한다", /보낼 수 없다/.test(refusal) && !/\{|error_code|not authorized/.test(refusal), refusal.slice(0, 60));
+  await page.unroute("**/auth/v1/otp**");
+  // 토큰이 있다는 것은 도감이 서버에 있다는 뜻이 아니다 — 서버가 거절하면 그렇다고 말한다.
+  await page.evaluate(() => localStorage.setItem("lp.session.v1", JSON.stringify({ access_token: "x", refresh_token: "y", expires_at: Date.now() + 3600e3 })));
+  await page.route("**/rest/v1/**", (r) => r.fulfill({ status: 401, contentType: "application/json", body: '{"message":"JWT invalid"}' }));
+  await page.reload({ waitUntil: "load" }); await page.waitForTimeout(600);
+  const syncTxt = await page.locator("#lp-auth").innerText();
+  check("서버가 거절하면 「서버에도 있다」고 말하지 않는다", !/서버에도 있다/.test(syncTxt) && /닿지 못했다/.test(syncTxt), syncTxt.slice(0, 50));
+  await page.unroute("**/rest/v1/**");
+  await page.evaluate(() => localStorage.clear());
+}
 
 // ─── 준비도 배지 — 스포티파이가 못 쓰는 문장 ─────────────────────────────
 // "이 책은 당신이 읽은 것에 대한 답이다." 유사성이 아니라 선행 조건이고, 근거는
@@ -213,6 +242,16 @@ if (hasRecord) {
   check("그래도 문은 열린다 — 검색 링크 3", (await page.locator('.doors a[href^="https://"]').count()) >= 3);
 }
 check("증언 블록이 살아 있다", body.includes("증언"));
+// 증언은 뒤의 작가가 이 책을 지목한 것뿐이다. 『인간 실격』에 도스토옙스키를 「증언」으로 세우던 것은 방향이 거꾸로였다
+// (2026-09-23 감사: 190건 중 참된 증언 57). 뿌리와 곁은 「이 책에 이어진 사람」에 선다.
+{
+  await page.goto(`${server.origin}/works/osamu-dazai--ningen-shikkaku/`, { waitUntil: "load" });
+  const heads = await page.locator("h2.side").allInnerTexts();
+  check("『인간 실격』에 도스토옙스키는 증언이 아니라 이어진 사람이다", !heads.some((h) => /증언/.test(h)) && heads.some((h) => /이 책에 이어진 사람/.test(h)), heads.join(" | "));
+  await page.goto(`${server.origin}/works/fyodor-dostoevsky--prestuplenie-i-nakazanie/`, { waitUntil: "load" });
+  const wit = await page.locator("section.row", { has: page.locator("h2", { hasText: "증언" }) }).innerText().catch(() => "");
+  check("『죄와 벌』의 증언은 이 책을 지목한 뒤의 작가다 — 다자이", /다자이/.test(wit), wit.split("\n").slice(0, 2).join(" "));
+}
 // 2026-09-23 견고성 심사: 긴 출판사 이름(nowrap)이 판본 있는 556쪽 중 28쪽을 옆으로 끌었다 — 최악 다섯을 손 안 폭에서 잰다.
 {
   const ctx375 = await browser.newContext({ viewport: { width: 375, height: 812 }, locale: "ko-KR" });
@@ -306,6 +345,31 @@ console.log("\n색인 허가 — 검토된 것만 제출한다");
   const reviewedN = Number((indexHtml.match(/검토 ([\d,]+)/) ?? [])[1]?.replace(/,/g, ""));
   const smAuthors = locs.filter((u) => /\/authors\/[^/]+\/$/.test(u)).length;
   check("검토된 작가는 전부 제출한다 — 푸터의 검토 수와 같다", reviewedN > 0 && smAuthors === reviewedN, `sitemap ${smAuthors} · 푸터 ${reviewedN}`);
+  // 한 사람(굴원)만 보는 계약은 필터가 "검토됨"에서 "도판"으로 바뀌어도 초록이었다(2026-09-23 변이 실측 — draft 인
+  // 아리스토텔레스가 제출됐다). 배포본 전수를 양방향으로 대조한다: 제출된 쪽은 noindex 가 아니고, noindex 가 아닌 쪽은
+  // (canonical 이 자기 자신이면) 제출돼 있다.
+  {
+    const { readFileSync, readdirSync, statSync } = await import("node:fs");
+    const { join } = await import("node:path");
+    const DIST = new URL("../dist/", import.meta.url).pathname;
+    const pathOf = (u) => new URL(u).pathname;
+    const inMap = new Set(locs.map(pathOf));
+    const submittedNoindex = [], indexableMissing = [];
+    (function walk(dir, rel) {
+      for (const n of readdirSync(dir)) {
+        const f = join(dir, n);
+        if (statSync(f).isDirectory()) { walk(f, rel + n + "/"); continue; }
+        if (n !== "index.html") continue;
+        const h = readFileSync(f, "utf8");
+        const noindex = /name="robots" content="noindex/.test(h);
+        const canon = (h.match(/rel="canonical" href="([^"]+)"/) ?? [])[1];
+        if (inMap.has(rel) && noindex) submittedNoindex.push(rel);
+        if (!noindex && canon && pathOf(canon) === rel && !inMap.has(rel)) indexableMissing.push(rel);
+      }
+    })(DIST, "/");
+    check("sitemap 에 제출된 쪽은 하나도 noindex 가 아니다", submittedNoindex.length === 0, submittedNoindex.slice(0, 3).join(" ") || `${inMap.size} urls`);
+    check("색인되는 쪽은 전부 sitemap 에 있다", indexableMissing.length === 0, indexableMissing.slice(0, 3).join(" ") || "누락 0");
+  }
   // 사람은 여전히 걸어 들어온다 — noindex 는 탐험을 막지 않는다
   await page.goto(`${server.origin}/authors/`, { waitUntil: "load" });
   await page.locator("#q").fill("굴원");
@@ -427,8 +491,9 @@ check("첫 장의 문이 넘긴 이름(?q=)으로 색인이 바로 좁혀진다"
   const png = decodePng(await page.screenshot({ clip: box }));
   const strip = (pred) => { let n = 0; for (let y = 0; y < png.height; y++) for (let x = Math.max(0, png.width - 44); x < png.width; x++) { const [r, g, b] = png.at(x, y); if (pred(r, g, b)) n++; } return n; };
   const drawn = strip((r, g, b) => Math.abs(r - 0xf7) + Math.abs(g - 0xf0) + Math.abs(b - 0xdc) > 60 && Math.abs(r - 0xf0) + Math.abs(g - 0xe7) + Math.abs(b - 0xcd) > 60);
-  const blue = countPixels(png, (r, g, b) => b > r + 30 && b > g + 20);
-  check("검색칸 지우기 단추가 팔레트 안에 있다 — 그려져 있고, 파란 픽셀 0", drawn > 20 && blue === 0, `그려진 픽셀 ${drawn} · 파란 픽셀 ${blue}`);
+  // 단추가 있는 오른쪽 띠만 센다. 칸 전체를 세면 운영체제마다 다른 글자 안티앨리어싱까지 파랑으로 잡힌다(CI 리눅스 78 픽셀).
+  const blue = strip((r, g, b) => b > r + 30 && b > g + 20);
+  check("검색칸 지우기 단추가 팔레트 안에 있다 — 그려져 있고, 파란 픽셀 0", drawn > 20 && blue === 0, `그려진 픽셀 ${drawn} · 단추 띠의 파란 픽셀 ${blue}`);
 }
 
 // ─── 밖으로 나가지 않는다 ─────────────────────────────────────────────────────
@@ -564,6 +629,22 @@ console.log("\n첫 장의 문 — 표시가 없는 독자");
   await p2.waitForTimeout(200);
   const zoomOverflow = await p2.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   check("200% 글자에서 첫 장이 옆으로 새지 않는다", zoomOverflow <= 0, `${zoomOverflow}px`);
+  await ctx.close();
+}
+
+// ─── 저장소가 막힌 브라우저 ─────────────────────────────────────────────────
+// 사생활 보호 모드처럼 localStorage 가 예외를 던지면 「관심 있는 책」은 조용히 아무것도 하지 않았다(2026-09-23 감사).
+console.log("\n저장소가 막힌 브라우저 — 누른 것이 사라지지 않는다");
+{
+  const ctx = await browser.newContext({ viewport: { width: 375, height: 812 }, locale: "ko-KR" });
+  await ctx.addInitScript(() => { Object.defineProperty(window, "localStorage", { get() { throw new DOMException("blocked", "SecurityError"); } }); });
+  const p3 = await ctx.newPage();
+  const pe = []; p3.on("pageerror", (e) => pe.push(String(e)));
+  await p3.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
+  await p3.locator(".mark.big .mark-main").click();
+  await p3.waitForTimeout(200);
+  check("저장하지 못하면 그렇다고 말한다", /저장하지 않는다/.test(await p3.locator(".mark.big").innerText()), (await p3.locator(".mark.big .mark-err").innerText().catch(() => "(문장 없음)")));
+  check("저장소가 막혀도 쪽이 죽지 않는다 — 스크립트 오류 0", pe.length === 0, pe.slice(0, 2).join(" | "));
   await ctx.close();
 }
 

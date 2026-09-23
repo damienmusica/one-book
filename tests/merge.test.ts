@@ -55,3 +55,37 @@ describe("합침 — 빈 입력", () => {
     expect(m.state.z.s).toBe("read");
   });
 });
+
+// 서버 모형 — supabase/migrations/20260923000001_book_tombstones.sql 의 mark_set 과 같은 규칙:
+// 되돌림도 행(state null)으로 남고, 늦은 시각이 이긴다. 두 기기가 번갈아 열어도 한 도감으로 모이는가.
+describe("두 기기 — 되돌림은 되살아나지 않는다", () => {
+  const server = new Map<string, { state: string | null; at: number }>();
+  const markSet = (id: string, state: string | null, at: number) => {
+    const cur = server.get(id);
+    if (!cur || at >= cur.at) server.set(id, { state, at });
+  };
+  const rows = () => [...server].map(([work_id, v]) => ({ work_id, state: v.state, at: new Date(v.at).toISOString() }));
+  const open = (local: Parameters<typeof mergeMarks>[0]) => {
+    const m = mergeMarks(local, rows());
+    for (const t of m.toServer) markSet(t.work_id, t.state, t.at);
+    return { v: 3, state: m.state, gone: m.gone };
+  };
+  it("A 가 표시 → B 가 받음 → A 가 되돌림 → B 가 다시 열어도 되돌림이 이긴다", () => {
+    let a = open({ v: 3, state: { "x--y": { s: "want", at: 100 } } });
+    let b = open({ v: 3, state: {} });
+    expect(b.state["x--y"]?.s).toBe("want");
+    a = { v: 3, state: {}, gone: { "x--y": 200 } };
+    a = open(a);
+    b = open(b); // B 는 아직 want@100 을 들고 있다
+    expect(b.state["x--y"]).toBeUndefined();
+    expect(b.gone["x--y"]).toBe(200);
+    a = open(a);
+    expect(a.state["x--y"]).toBeUndefined();
+    expect(server.get("x--y")).toEqual({ state: null, at: 200 });
+  });
+  it("늦게 도착한 옛 되돌림은 새 표시를 지우지 못한다", () => {
+    markSet("p--q", "read", 500);
+    markSet("p--q", null, 300);
+    expect(server.get("p--q")).toEqual({ state: "read", at: 500 });
+  });
+});

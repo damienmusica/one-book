@@ -70,7 +70,9 @@ const save = (k, v) => {
 const authHeaders = () => ({ apikey: SUPABASE_ANON, "Content-Type": "application/json" });
 
 export async function requestMagicLink(email, redirectTo) {
-  const r = await fetch(`${SUPABASE_URL}/auth/v1/otp`, {
+  // GoTrue 는 돌아올 주소를 본문이 아니라 쿼리(redirect_to)에서 읽는다. 본문에만 두면 Referer 의 도메인 루트로,
+  // Referer 가 없으면 이 Supabase 프로젝트의 Site URL(다른 앱)로 토큰이 간다.
+  const r = await fetch(`${SUPABASE_URL}/auth/v1/otp?redirect_to=${encodeURIComponent(redirectTo)}`, {
     method: "POST",
     headers: authHeaders(),
     body: JSON.stringify({ email, create_user: true, options: { email_redirect_to: redirectTo } })
@@ -152,7 +154,7 @@ export const serverMerge = (s, toServer) =>
 //  2) 로드 시 로그인 상태면 서버와 합쳐 로컬을 갱신하고 다시 그린다.
 async function syncOnLoad() {
   const s = await session();
-  paintAuth(s);
+  paintAuth(s, "pending");
   if (!s) return;
   try {
     const local = load(READER_KEY) || { v: 3, state: {} };
@@ -161,18 +163,22 @@ async function syncOnLoad() {
     if (m.toServer.length) await serverMerge(s, m.toServer);
     save(READER_KEY, { v: 3, state: m.state, gone: m.gone });
     window.lpPaint?.();
+    paintAuth(s, "ok");
   } catch (e) {
     console.warn("sync", e);
+    paintAuth(s, "failed");
   }
 }
 
-function paintAuth(s) {
+// 「서버에도 있다」는 서버가 대답한 뒤에만 말한다 — 토큰이 있다는 것은 도감이 거기 있다는 뜻이 아니다.
+const SYNC_KO = { pending: "서버와 맞추는 중…", ok: "도감이 서버에도 있다.", failed: "서버에 닿지 못했다 — 표시는 이 기기에 있다." };
+function paintAuth(s, sync = "pending") {
   const box = document.getElementById("lp-auth");
   if (!box) return;
   box.hidden = false;
   if (s) {
     box.innerHTML =
-      '<span class="sig">도감이 서버에도 있다.</span> ' +
+      `<span class="sig">${SYNC_KO[sync]}</span> ` +
       '<button class="want" id="lp-signout">나가기</button>';
     box.querySelector("#lp-signout").onclick = () => {
       signOut();
@@ -190,10 +196,18 @@ function paintAuth(s) {
         await requestMagicLink(email, location.origin + location.pathname);
         box.innerHTML = '<p class="sig">메일을 보냈다. 링크를 열면 이 도감이 서버에 남는다.</p>';
       } catch (err) {
-        box.innerHTML = `<p class="sig">보내지 못했다 — ${String(err.message).slice(0, 80)}</p>`;
+        box.innerHTML = `<p class="sig">보내지 못했다 — ${sendErrorKo(String(err.message))}</p>`;
       }
     };
   }
+}
+
+// 서버의 원문(JSON)을 독자에게 보이지 않는다. 기본 메일러는 프로젝트 팀 주소에만 보낸다 — 그 거절은 사실대로 말한다.
+function sendErrorKo(msg) {
+  if (/not authori[sz]ed|not allowed/i.test(msg)) return "이 주소로는 아직 메일을 보낼 수 없다. 표시는 이 기기에 그대로 있다.";
+  if (/429|rate limit|too many/i.test(msg)) return "잠시 뒤에 다시 — 메일을 너무 자주 보냈다.";
+  if (/invalid|email/i.test(msg)) return "이메일 주소를 다시 확인해 달라.";
+  return "잠시 뒤에 다시 시도해 달라. 표시는 이 기기에 그대로 있다.";
 }
 
 // ── 준비도 배지 (결정 (137)) ────────────────────────────────────────────────

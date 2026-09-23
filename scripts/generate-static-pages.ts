@@ -19,6 +19,7 @@ import type { Author, Edition, Relation, Work } from "../src/types.ts";
 import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/book/relations.ts";
 import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
 import { nameStance, resetSealIds, sealGlyphs, sealSvg, sizeClass, type SealRule } from "./lib/paper-seal.ts";
+import { editionTitleNote, jsonForScript } from "./lib/html.ts";
 
 const BASE = "https://literary-planet.pages.dev";
 const outArg = process.argv.indexOf("--out");
@@ -81,6 +82,7 @@ const esc = (s: string): string =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 const GLYPH: Record<string, string> = { out: "→", in: "←", both: "↔" };
+const TESTIMONY_TYPES = new Set(["documented_influence", "mentorship", "translation"]);
 
 // 연도 한 칸이 무엇인지 말한다. 전승 문학에서 이걸 적지 않으면 "모른다"가
 // "안다"가 된다 — 길가메시·베오울프·향가에 확정 연도는 없다.
@@ -128,13 +130,17 @@ function lpLoad(){try{
   }
   return p;
 }catch(e){return {v:3,state:{}};}}
-function lpSave(p){try{localStorage.setItem(LP_KEY,JSON.stringify(p));}catch(e){}}
+function lpSave(p){try{localStorage.setItem(LP_KEY,JSON.stringify(p));return true;}catch(e){return false;}}
 function lpMetric(name){try{var m=JSON.parse(localStorage.getItem('lp.metrics')||'{}');
 if(!m[name]){m[name]=Date.now();localStorage.setItem('lp.metrics',JSON.stringify(m));}}catch(e){}}
 function lpShelf(){try{return JSON.parse(localStorage.getItem('lp.shelf.v1')||'{}')||{};}catch(e){return {};}}
 function lpSet(id,s,el){var p=lpLoad();
   if(s)p.state[id]={s:s,at:Date.now()};else delete p.state[id];
-  lpSave(p);
+  // 저장소가 막힌 브라우저(사생활 보호 모드·저장 차단)에서는 누른 것이 아무 일도 안 한 것처럼 보였다 — 말한다.
+  if(!lpSave(p)){var mk=el&&el.closest?el.closest('.mark'):null;
+    if(mk&&!mk.querySelector('.mark-err')){var er=document.createElement('p');er.className='mark-err';er.setAttribute('role','status');
+      er.textContent='이 브라우저가 표시를 저장하지 않는다 — 사생활 보호 모드나 사이트 데이터 차단을 끄면 남는다.';mk.appendChild(er);}
+    return;}
   // 서재는 표시한 순간 들은 제목으로 첫 화면을 그린다 — 341KB 사전을 받은 뒤가 아니라.
   try{var sh=lpShelf();var m=el&&el.closest?el.closest('.mark'):null;
     if(s&&m&&m.getAttribute('data-t'))sh[id]=[m.getAttribute('data-t'),+m.getAttribute('data-y')||0,m.getAttribute('data-a')||''];
@@ -206,7 +212,7 @@ ${o.noindex ? `<meta name="robots" content="noindex,follow">` : ""}
 <meta property="og:description" content="${esc(o.desc)}">
 <script>${RUNTIME_JS}</script>
 <script type="module" src="/book.js"></script>
-${o.ld ? `<script type="application/ld+json">${JSON.stringify(o.ld)}</script>` : ""}
+${o.ld ? `<script type="application/ld+json">${jsonForScript(o.ld)}</script>` : ""}
 </head>
 <body${o.bodyAttr ? ` ${o.bodyAttr}` : ""}>
 <div class="wrap">
@@ -251,11 +257,6 @@ const NL_SEARCH = (s: string): string => `https://www.nl.go.kr/NL/contents/searc
 // 실명 번역자에 대한 판정이므로 뒤의 것은 "추정"이라고 적는다.
 // 추정인 판정은 원장의 note 가 「추정 — 」으로 시작한다(qc/edition-basis.json 의 attested=false).
 /** 판본의 제목이 작품 제목과 다르면 그대로 보여 준다 — 분권("모비 딕 1")과 합본("변신·시골의사")을 숨기지 않는다. */
-function editionTitleNote(e: Edition, w: Work): string {
-  const base = e.language === "ko" ? w.titleKo : (w.titleOriginal ?? w.titleKo);
-  if (!e.title || e.title === base) return "";
-  return `<span class="meta">『${esc(e.title)}』${e.title.startsWith(base) ? "" : " 수록"}</span>`;
-}
 function acquireBlock(w: Work, a: Author | undefined): string {
   const eds: Edition[] = d.editions.editions[w.id] ?? [];
   const term = `${w.titleKo} ${a ? a.names.ko : ""}`.trim();
@@ -591,9 +592,29 @@ function workPage(w: Work): string {
   // 증언의 결정 지점 배치(선행 연구 Ⅴ-2): 이 작품을 앵커로 지목한 관계 =
   // 작가가 작가에게 남긴 검토된 증언. BookTok 방정식(감정적 증언이 책을
   // 판다, 증거 최강)의 우리식 정직 번역 — 지어낸 것 0.
-  const testimony = d.relations.filter((r) =>
-    (r.anchors ?? []).some((an) => (an as { workId?: string }).workId === w.id)
-  );
+  // 「증언」은 이 책의 작가에게서 **나간** 방향 있는 관계 중 출처가 있는 것만이다 — 뒤의 작가가 이 책을 지목했다.
+  // 이 책의 작가가 받은 영향(뿌리)과 방향 없는 관계(친연·대조·대화)는 증언이 아니라 「이 책에 이어진 사람」이다.
+  // (2026-09-23 감사: 190건이 전부 증언 제목 아래 있었고, 참된 증언은 57건이었다.)
+  const anchored = d.relations.filter((r) => (r.anchors ?? []).some((an) => (an as { workId?: string }).workId === w.id));
+  const isTestimony = (r: Relation): boolean =>
+    TESTIMONY_TYPES.has(r.type) && r.sourceId === w.authorId && r.evidenceLevel !== "editorial_inference" && r.sourceIds.length > 0;
+  const testimony = anchored.filter(isTestimony);
+  const linked = anchored.filter((r) => !isTestimony(r));
+  const relList = (list: Relation[], head: string): string =>
+    list.length
+      ? `<section class="row"><h2 class="side label">${esc(head)}</h2><div class="main"><ul class="rels">
+${list
+  .map((r) => {
+    const otherId = r.sourceId === w.authorId ? r.targetId : r.sourceId;
+    const other = byId.get(otherId);
+    if (!other) return "";
+    const g = GLYPH[relationGlyph(r, w.authorId)] ?? "·";
+    return `<li>${seal(other, { tone: "ink", cls: "xs" })}<div class="who"><a href="/authors/${esc(otherId)}/">${esc(other.names.ko)}</a><span class="rt">${g} ${esc(REL_KO[r.type] ?? r.type)}</span></div>
+    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
+  })
+  .join("\n")}
+</ul></div></section>`
+      : "";
   const cover = ART.covers[w.id];
   const firstEd = world?.editions.find((e) => e.kind === "first-edition") ?? world?.editions[0];
   const stance = nameStance(w.titleOriginal ?? "");
@@ -625,20 +646,9 @@ ${world.posthumous ? `<tr><th>유고</th><td>${esc(world.posthumous.note)}</td><
     : ""
 }
 ${
-  testimony.length
-    ? `<section class="row"><h2 class="side label">이 책을 지목한 작가들의 증언 ${testimony.length}</h2><div class="main"><ul class="rels">
-${testimony
-  .map((r) => {
-    const witnessId = r.sourceId === w.authorId ? r.targetId : r.sourceId;
-    const witness = byId.get(witnessId);
-    if (!witness) return "";
-    return `<li>${seal(witness, { tone: "ink", cls: "xs" })}<div class="who"><a href="/authors/${esc(witnessId)}/">${esc(witness.names.ko)}</a><span class="rt">${esc(REL_KO[r.type] ?? r.type)}</span></div>
-    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
-  })
-  .join("\n")}
-</ul></div></section>`
-    : ""
+  relList(testimony, `이 책을 지목한 작가들의 증언 ${testimony.length}`)
 }
+${relList(linked, `이 책에 이어진 사람 ${linked.length}`)}
 ${acquireBlock(w, a)}
 <section class="row"><div class="side"></div><div class="main"><div class="doors">
   ${a ? `<a class="go" href="/authors/${esc(a.id)}/">${esc(a.names.ko)}의 방으로</a>` : ""}
@@ -948,14 +958,6 @@ function lpWorks(a,withEntry){
     return '<li><div class="head"><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span></div>'+
       (withEntry&&i===0&&a.entry?'<p class="entrywhy">'+h(a.entry)+'</p>':'')+
       (w.s?'<p class="sig">'+h(w.s)+'</p>':'')+lpControl(w.id,w.t,w.y,a.ko)+'</li>';}).join('')+'</ul>';}
-function weekly(){
-  // 유한 배달(선행 연구 Ⅴ-3): ISO 주차가 이번 주의 출발 작가를 결정한다 —
-  // 매주 다른 길이 기다린다는 것이 "일주일 뒤 돌아온다"의 기제다.
-  var ids=Object.keys(DATA).filter(function(k){return DATA[k].hops.length>=2;}).sort();
-  var now=new Date();var jan=new Date(now.getFullYear(),0,1);
-  var week=Math.floor(((now-jan)/86400000+jan.getDay())/7);
-  return ids[(now.getFullYear()*53+week)%ids.length];
-}
 function render(id){
   var app=document.getElementById('app');
   if(!id){ openBook(app); return; }
@@ -1072,18 +1074,6 @@ document.getElementById('anchor').addEventListener('change',function(){if(this.v
 function lpControl(id,t,y,a){
   return '<div class="mark" data-work="'+id+'" data-state="" data-t="'+h(t||'')+'" data-y="'+(y||0)+'" data-a="'+h(a||'')+'"><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>';
 }
-function finish(){
-  var app=document.getElementById('app');var p=lpLoad();var by={};var any=[];
-  for(var k in p.state){var s=p.state[k].s;(by[s]=by[s]||[]).push(k);any.push(k);}
-  var lines='';
-  for(var i=1;i<LP_STATES.length;i++){var code=LP_STATES[i][0];var list=by[code]||[];
-    if(!list.length)continue;
-    lines+='<h2>'+LP_STATES[i][1]+' '+list.length+'</h2><p class="sig">'+
-      list.map(function(k){return '<a href="/works/'+k+'/">'+k+'</a>';}).join(' · ')+'</p>';}
-  app.innerHTML='<h2>오늘 여기까지</h2>'+
-    (any.length?lines:'<p class="lede">아직 표시한 책이 없다 — 괜찮다, 책은 닫히지 않는다.</p>')+
-    '<div class="doors"><a href="#" data-reopen="1">다시 펴기</a><a href="/authors/">작가 색인</a></div>';
-}
 // 캡슐을 받고서 시작한다. 받지 못하면 첫 장은 빈 화면이 아니라 문장 하나를 남긴다.
 fetch('${walkDataPath}').then(function(r){return r.json();}).then(function(j){
   DATA=j;
@@ -1176,7 +1166,10 @@ writeFileSync(
 
 // 번들러가 하던 일 — public/ 을 dist/ 로 옮긴다 (초상·육필·표지 원본)
 const PUBLIC_DIR = join(PKG_ROOT, "public");
-if (existsSync(PUBLIC_DIR)) cpSync(PUBLIC_DIR, OUT, { recursive: true });
+// public/ 을 통째로 복사하되, 어느 쪽도 부르지 않는 것은 내보내지 않는다 — 특히 portraits/ 는 생성 모델이 그린
+// "상상 초상"이고, 이 제품은 그것을 싣지 않는다. 주소로 닿기만 해도 실은 것이다.
+const UNSHIPPED = ["portraits", "art/grounds", "art/archival"].map((d) => join(PUBLIC_DIR, d));
+if (existsSync(PUBLIC_DIR)) cpSync(PUBLIC_DIR, OUT, { recursive: true, filter: (src) => !UNSHIPPED.some((d) => src === d || src.startsWith(d + "/")) });
 
 mkdirSync(join(OUT, "walk"), { recursive: true });
 writeFileSync(join(OUT, "walk", "index.html"), walkPage());
