@@ -12,6 +12,7 @@
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { editionsFileSchema } from "../src/schema.js";
+import { applyEditionFix } from "./lib/edition-ledgers.ts";
 
 type Raw = Record<string, any>;
 const args = process.argv.slice(2);
@@ -103,11 +104,13 @@ const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
   if (st.seen.has(k) || usedIsbn.has(c.isbn13)) return;
   st.seen.add(k); usedIsbn.add(c.isbn13);
   const b = basis[c.isbn13];
-  st.picked.push({
+  const rec: Raw = {
     isbn13: c.isbn13, title: c.title, publisher: c.publisher, ...(c.translator ? { translator: c.translator } : {}), year: c.year, language: LANG,
     ...(b?.sourceTextBasis ? { sourceTextBasis: b.sourceTextBasis } : {}),
     verifiedFrom: SOURCE, verifiedAt: today, ...(b?.note ? { note: b.note } : {}),
-  });
+  };
+  applyEditionFix(rec as Record<string, unknown>); // 목록이 틀리게 준 역자·연도·역할 — qc/edition-fixes.json
+  st.picked.push(rec);
 };
 for (const pass of ["exact", "rest"] as const)
   for (const st of pools.values())

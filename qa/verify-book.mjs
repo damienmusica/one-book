@@ -236,6 +236,11 @@ if (hasRecord) {
   // 저본 칸이 비면 "원서"와 "모른다"가 같은 모양이다 — 독자가 번역을 고르는 단 하나의 칸이다.
   const flags = await page.locator("table.eds td.flag").allInnerTexts();
   check("저본 칸은 한 칸도 비지 않는다", flags.length > 0 && flags.every((t) => t.trim().length > 0), flags.join(" · "));
+  // 역자 이력에서 미룬 판정은 단정하지 않는다 — 김학수 『죄와 벌』(문예)은 이력 추정이다(2026-09-23 판본 감사).
+  await page.goto(`${server.origin}/works/fyodor-dostoevsky--prestuplenie-i-nakazanie/`, { waitUntil: "load" });
+  const row = await page.locator("table.eds tr.ed", { hasText: "9788931023916" }).innerText().catch(() => "");
+  check("이력으로 미룬 저본 판정은 「추정」이라고 적는다", /원전 직역 추정/.test(row), row.replace(/\s+/g, " ").slice(0, 70));
+  await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
 } else {
   check("판본이 없으면 없다고 날짜와 함께 적는다", /아직 검수하지 않았다 \(\d{4}-\d{2}-\d{2} 확인\)/.test(body));
   check("판본을 주장하지 않는다 — 상품 딥링크 0", (await page.locator('a[href*="wproduct.aspx"]').count()) === 0);

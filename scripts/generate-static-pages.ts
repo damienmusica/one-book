@@ -48,6 +48,9 @@ type ArtEntry = { file: string; w: number; h: number; license?: string; provenan
 const ART: Record<"marks" | "signatures" | "covers", Record<string, ArtEntry>> = JSON.parse(readFileSync(join(PKG_ROOT, "public", "art", "manifest.json"), "utf8"));
 const signatureOf = (authorId: string): ArtEntry | undefined => ART.signatures[authorId] ?? ART.marks[authorId];
 // 인장 글자 판정 원장 — 마지막 낱말이 성이 아닌 이름들. 헝가리 이름은 성이 앞에 선다.
+const BASIS_ATTESTED: Record<string, boolean | undefined> = Object.fromEntries(
+  Object.entries<{ attested?: boolean }>(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-basis.json"), "utf8")).byIsbn ?? {}).map(([k, v]) => [k, v.attested])
+);
 const SEAL_LETTERS: Record<string, { glyph: string; note: string }> = JSON.parse(readFileSync(join(PKG_ROOT, "qc", "seal-letters.json"), "utf8"));
 const sealRule = (a: Author): SealRule => ({ glyph: SEAL_LETTERS[a.id]?.glyph, familyFirst: a.languages[0] === "hu" });
 const proved = (a: Author): boolean => a.reviewStatus !== "draft";
@@ -266,7 +269,9 @@ function acquireBlock(w: Work, a: Author | undefined): string {
     // 저본 칸은 비지 않는다 — 빈 칸은 "모른다"와 "원서다"를 같은 모양으로 그린다.
     const flag = (e: Edition): string => {
       if (a && a.languages.includes(e.language)) return "원서";
-      const inferred = /^추정/.test(e.note ?? "");
+      // 책·출판사·도서관 기록이 스스로 밝힌 판정(attested)만 단정한다. 역자 이력에서 미룬 판정은 「추정」이다 —
+      // 2026-09-23 감사: 「원전 직역」 266건 중 밝혀진 것은 52건이었고 나머지가 확정처럼 나가고 있었다.
+      const inferred = BASIS_ATTESTED[e.isbn13] !== true || /^추정/.test(e.note ?? "");
       if (e.sourceTextBasis === "original") return inferred ? "원전 직역 추정" : "원전 직역";
       if (e.sourceTextBasis === "relay") return inferred ? "중역 추정" : "중역";
       if (e.sourceTextBasis) return "번안·재화";
