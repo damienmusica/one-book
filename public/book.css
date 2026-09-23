@@ -12,7 +12,7 @@
   --rule-2:rgba(43,32,21,.6);
   --seal:#b4271b;       /* cinnabar paste — the only chroma */
   --seal-deep:#8f1c12;
-  --pencil:#8d8573;     /* graphite: not yet pressed against sources */
+  --pencil:#7a705e;     /* graphite: not yet pressed against sources */
   --serif:'Noto Serif KR','Hiragino Mincho ProN','Songti SC','Apple SD Gothic Neo','Nanum Myeongjo','Times New Roman',serif;
   --gutter:clamp(20px,4.4vw,64px);
   --measure:35rem;
@@ -60,8 +60,8 @@ h2.label{font-size:13.5px;color:var(--ink)}
 .orig.v{writing-mode:vertical-rl;text-orientation:upright;font-size:clamp(3rem,7.4vw,5.6rem);line-height:1;letter-spacing:.06em;margin:.38em auto 0;display:block;height:max-content}
 .orig.rtl{direction:rtl}
 .autograph{position:relative;display:flex;justify-content:center;align-items:center;margin:clamp(14px,2.4vw,30px) auto 0;min-height:clamp(84px,11vw,132px)}
-.autograph img{height:clamp(64px,8.4vw,112px);width:auto;max-width:min(62vw,520px);object-fit:contain;mix-blend-mode:multiply;opacity:.92}
-.autograph .seal{margin-left:clamp(-16px,-1.2vw,-6px);flex:none}
+.autograph img{height:clamp(64px,8.4vw,112px);width:auto;max-width:min(54vw,520px);object-fit:contain;mix-blend-mode:multiply;opacity:.92}
+.autograph .seal{margin-left:clamp(6px,1vw,12px);flex:none}
 .autograph.solo .seal{margin-left:0}
 .imprint{display:inline-flex;flex-wrap:wrap;justify-content:center;gap:0 .7em;max-width:100%;margin-top:clamp(20px,3vw,36px);padding-top:14px;border-top:1px solid var(--ink);font-size:14.5px;letter-spacing:.14em;color:var(--ink-2);position:relative}
 .imprint span:not(:last-child)::after{content:"·";margin-left:.7em;color:var(--ink-3)}
@@ -146,14 +146,16 @@ h2.label{font-size:13.5px;color:var(--ink)}
 .mark-main:active{transform:translateY(1px) scale(.985)}
 .pip{flex:none;width:30px;height:30px;border-radius:50%;border:1.5px dashed rgba(240,231,205,.75);position:relative;overflow:hidden;transition:all .2s}
 .pip::after{content:"";position:absolute;left:0;right:0;bottom:0;height:0;background:var(--seal);transition:height .25s}
-.mark[data-state]:not([data-state=""]) .mark-main{background:transparent;color:var(--ink);border-color:var(--ink)}
-.mark[data-state]:not([data-state=""]) .pip{border:2px solid var(--seal);transform:rotate(-8deg)}
+.mark[data-state]:not([data-state=""]) .mark-main{background:var(--seal);color:var(--paper);border-color:var(--seal)}
+.mark[data-state]:not([data-state=""]) .mark-main:hover{background:var(--seal-deep)}
+.mark[data-state]:not([data-state=""]) .pip::after{background:var(--paper)}
+.mark[data-state]:not([data-state=""]) .pip{border:2px solid var(--paper);transform:rotate(-8deg)}
 .mark[data-state="want"] .pip::after{height:0}
-.mark[data-state="want"] .pip{box-shadow:inset 0 0 0 3px var(--paper),inset 0 0 0 5px var(--seal)}
+.mark[data-state="want"] .pip{box-shadow:inset 0 0 0 3px var(--seal),inset 0 0 0 5px var(--paper)}
 .mark[data-state="opened"] .pip::after{height:38%}
 .mark[data-state="have"] .pip::after{height:68%}
 .mark[data-state="read"] .pip::after{height:100%}
-.mark-main .chev{display:none;font-size:12px;margin-left:2px;color:var(--ink-3)}
+.mark-main .chev{display:none;font-size:12px;margin-left:2px;color:inherit;opacity:.8}
 .mark[data-state]:not([data-state=""]) .chev{display:inline}
 .mark-ladder{display:none;flex-wrap:wrap;gap:0;align-items:center;flex-basis:100%}
 .mark.open .mark-ladder,.mark.big .mark-ladder{display:flex}
@@ -194,7 +196,10 @@ h2.label{font-size:13.5px;color:var(--ink)}
   .dock .what{flex:1;min-width:0;font-size:13px;line-height:1.35;color:var(--ink-2)}
   .dock .what b{display:block;font-size:16px;color:var(--ink);font-weight:600}
   .dock .mark{flex:none}
-  .dock .mark-ladder,.dock .mark-done{display:none!important}
+  .dock .mark-done{display:none!important}
+  .dock .mark{position:relative}
+  .dock .mark-ladder{position:absolute;right:0;bottom:calc(100% + 14px);flex-basis:auto;flex-direction:column;align-items:stretch;background:var(--paper-hi);border:1.5px solid var(--ink);border-radius:10px;padding:6px 16px;min-width:12em;box-shadow:0 10px 30px rgba(43,32,21,.22)}
+  .dock .mark-ladder button{min-height:46px}
   .dock .mark-main{min-height:50px}
 }
 
@@ -284,16 +289,16 @@ details[open]>summary{margin-bottom:14px}
 .spread{display:grid;grid-template-columns:minmax(0,1fr)}
 .verso{text-align:center;padding:clamp(30px,5vw,72px) 0 clamp(30px,4vw,56px)}
 .recto{padding:clamp(30px,4vw,56px) 0;border-top:1px solid var(--rule)}
-.book-title{font-size:clamp(3.5rem,7.6vw,6.1rem);white-space:nowrap;font-weight:600;line-height:1.05;letter-spacing:-.01em}
+.book-title{font-size:min(clamp(3.5rem,7.6vw,6.1rem),18vw);white-space:nowrap;font-weight:600;line-height:1.05;letter-spacing:-.01em}
 .book-sub{margin-top:14px;font-size:14px;letter-spacing:.5em;text-indent:.5em;color:var(--ink-2);font-weight:600}
 .door{margin:clamp(26px,3.6vw,44px) auto 0;max-width:30rem;text-align:left}
 .door label{display:block;text-align:center;font-size:15px;font-weight:600;letter-spacing:.24em;margin-bottom:6px}
-.door .line{display:flex;align-items:stretch;border-bottom:3px solid var(--ink);background:var(--paper-hi);box-shadow:0 0 0 1px var(--rule)}
-.door input{flex:1;min-width:0;appearance:none;-webkit-appearance:none;border:0;background:transparent;color:var(--ink);font:inherit;font-size:clamp(1.2rem,2.2vw,1.5rem);padding:0 14px;height:64px;border-radius:0}
+.door .line{display:flex;flex-wrap:wrap;align-items:stretch;border-bottom:3px solid var(--ink);background:var(--paper-hi);box-shadow:0 0 0 1px var(--rule)}
+.door input{flex:999 1 10em;min-width:0;appearance:none;-webkit-appearance:none;border:0;background:transparent;color:var(--ink);font:inherit;font-size:clamp(1.2rem,2.2vw,1.5rem);padding:0 14px;height:64px;border-radius:0}
 .door input::placeholder{color:var(--ink-3);opacity:1}
 .door input:focus{outline:none}
 .door .line:focus-within{box-shadow:0 0 0 2px var(--ink)}
-.door button{appearance:none;-webkit-appearance:none;border:0;background:var(--ink);color:var(--paper);font:inherit;font-size:16px;font-weight:600;letter-spacing:.08em;padding:0 22px;cursor:pointer;white-space:nowrap}
+.door button{appearance:none;-webkit-appearance:none;border:0;background:var(--ink);color:var(--paper);font:inherit;font-size:16px;font-weight:600;letter-spacing:.08em;padding:0 22px;cursor:pointer;white-space:nowrap;flex:1 0 auto;min-height:56px}
 .door button:hover{background:#000}
 .door .miss{min-height:1.6em;margin-top:8px;font-size:14.5px;color:var(--seal-deep);text-align:center}
 .verso .lede{max-width:31rem;margin:clamp(18px,2.4vw,30px) auto 0;font-size:clamp(1rem,1.5vw,1.14rem);color:var(--ink-2)}
@@ -312,8 +317,8 @@ details[open]>summary{margin-bottom:14px}
 .recto .doors{margin-top:6px}
 @media(min-width:900px){
   .spread{grid-template-columns:minmax(0,1fr) minmax(0,1fr);position:relative}
-  .spread::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:84px;transform:translateX(-50%);pointer-events:none;
-    background:linear-gradient(90deg,transparent,rgba(43,32,21,.07) 46%,rgba(43,32,21,.16) 50%,rgba(43,32,21,.05) 54%,transparent)}
+  .spread::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:140px;transform:translateX(-50%);pointer-events:none;
+    background:linear-gradient(90deg,transparent,rgba(43,32,21,.09) 40%,rgba(43,32,21,.28) 50%,rgba(43,32,21,.07) 60%,transparent)}
   .spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;border-left:1px solid var(--rule)}
   .verso{padding-right:clamp(30px,4vw,64px);position:sticky;top:0;align-self:start;min-height:min(100vh,760px);display:flex;flex-direction:column;justify-content:center;align-items:center}
   .verso .door{width:100%}
@@ -351,7 +356,7 @@ details[open]>summary{margin-bottom:14px}
 .album a{display:grid;grid-template-columns:44px minmax(0,1fr) auto;column-gap:14px;align-items:center;min-height:68px;padding:9px 0;text-decoration:none}
 .album .seal{width:44px;grid-row:1 / span 2}
 .album .k{font-size:18px;font-weight:600;line-height:1.3;align-self:end}
-.album .o{grid-column:2;font-size:13.5px;line-height:1.4;color:var(--ink-2);align-self:start;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.album .o{grid-column:2;font-size:13.5px;line-height:1.4;color:var(--ink-2);align-self:start}
 .album .y{grid-column:3;grid-row:1 / span 2;font-size:13px;color:var(--ink-3);font-variant-numeric:tabular-nums;white-space:nowrap}
 .album a:hover .k{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em}
 .album.sk .k{font-weight:400}
@@ -432,3 +437,20 @@ h3.near-h{font-size:12px;font-weight:600;letter-spacing:.22em;color:var(--ink-3)
 #shelf li .y{color:var(--ink-3);font-size:14px}
 #shelf ul{list-style:none;margin:0;padding:0}
 #shelf h2{margin:34px 0 4px;padding-bottom:8px;border-bottom:3px double var(--ink);font-size:1.5rem}
+
+/* ── second review (2026-09-23): what the skeptics could reproduce ───────── */
+.mark.big .chev{display:none}                      /* the ladder is already open here — promise nothing */
+@media(max-width:899px){                           /* the stamp sits under the title, not across it — a long title meets it at 700px too */
+  .stamped{position:static;right:auto;top:auto;display:none;margin:16px auto 0;font-size:15px;padding:6px 14px 5px}
+  .has-mark .stamped{display:inline-block}
+}
+.recto #app{min-height:min(88vh,1040px)}           /* the page's settled height is reserved before the capsule lands */
+.verso .below{width:100%;max-width:31rem;margin-top:clamp(18px,2.4vw,30px);text-align:left}
+.verso .below .literacy{margin-top:0}
+input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none;width:14px;height:14px;margin-right:4px;background:var(--ink-3);cursor:pointer;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M2 2l10 10M12 2L2 12' stroke='%23000' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M2 2l10 10M12 2L2 12' stroke='%23000' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat}
+.idx .hit{grid-column:2;font-size:12.5px;line-height:1.4;color:var(--ink-3)}
+.idx .hit:empty{display:none}
+/* every first-edition cover gets the same hairline — scans with pale edges looked unframed next to dark ones */
+.cover img{box-shadow:0 0 0 1px rgba(43,32,21,.3)}

@@ -128,9 +128,15 @@ function lpLoad(){try{
 function lpSave(p){try{localStorage.setItem(LP_KEY,JSON.stringify(p));}catch(e){}}
 function lpMetric(name){try{var m=JSON.parse(localStorage.getItem('lp.metrics')||'{}');
 if(!m[name]){m[name]=Date.now();localStorage.setItem('lp.metrics',JSON.stringify(m));}}catch(e){}}
+function lpShelf(){try{return JSON.parse(localStorage.getItem('lp.shelf.v1')||'{}')||{};}catch(e){return {};}}
 function lpSet(id,s,el){var p=lpLoad();
   if(s)p.state[id]={s:s,at:Date.now()};else delete p.state[id];
   lpSave(p);
+  // 서재는 표시한 순간 들은 제목으로 첫 화면을 그린다 — 341KB 사전을 받은 뒤가 아니라.
+  try{var sh=lpShelf();var m=el&&el.closest?el.closest('.mark'):null;
+    if(s&&m&&m.getAttribute('data-t'))sh[id]=[m.getAttribute('data-t'),+m.getAttribute('data-y')||0,m.getAttribute('data-a')||''];
+    else if(!s)delete sh[id];
+    localStorage.setItem('lp.shelf.v1',JSON.stringify(sh));}catch(e){}
   if(el)el.setAttribute('data-state',s||'');
   lpMetric('firstMark');
   if(s==='want')lpMetric('firstWant');}
@@ -150,7 +156,9 @@ function lpPaint(){var p=lpLoad();var any=false;
     if(main){main.setAttribute('aria-pressed',cur?'true':'false');var lb=main.querySelector('.mark-label');if(lb)lb.textContent=LP_LABEL[cur]||'관심 있는 책';}
     var bs=m.querySelectorAll('.mark-ladder button');for(var j=0;j<bs.length;j++)bs[j].setAttribute('aria-pressed',bs[j].getAttribute('data-set')===cur&&cur?'true':'false');}
   if(document.body&&document.body.hasAttribute('data-work-page'))document.body.classList.toggle('has-mark',any);}
-document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.mark button');if(!b)return;
+document.addEventListener('click',function(e){
+  var op=document.querySelectorAll('.mark.open');for(var i=0;i<op.length;i++)if(!op[i].contains(e.target))op[i].classList.remove('open');
+  var b=e.target.closest&&e.target.closest('.mark button');if(!b)return;
   var m=b.closest('.mark');var id=m.getAttribute('data-work');var cur=m.getAttribute('data-state')||'';
   if(b.classList.contains('mark-main')){if(!cur)lpSet(id,'want',m);else{lpLadder(m);m.classList.toggle('open');}}
   else{lpSet(id,b.getAttribute('data-set')||'',m);m.classList.remove('open');}
@@ -251,10 +259,15 @@ function acquireBlock(w: Work, a: Author | undefined): string {
   if (eds.length) {
     // 한국어가 먼저, 그다음 원어, 그다음 나머지 — 독자의 언어에서 출발한다.
     const langs = [...new Set(eds.map((e) => e.language))].sort((x, y) => (x === "ko" ? -1 : y === "ko" ? 1 : 0));
-    const flag = (e: Edition): string =>
-      e.sourceTextBasis && e.sourceTextBasis !== "original"
-        ? e.sourceTextBasis === "relay" ? (/^추정/.test(e.note ?? "") ? "중역 추정" : "중역") : "번안·재화"
-        : !e.sourceTextBasis && a && !a.languages.includes(e.language) ? "저본 미확인" : "";
+    // 저본 칸은 비지 않는다 — 빈 칸은 "모른다"와 "원서다"를 같은 모양으로 그린다.
+    const flag = (e: Edition): string => {
+      if (a && a.languages.includes(e.language)) return "원서";
+      const inferred = /^추정/.test(e.note ?? "");
+      if (e.sourceTextBasis === "original") return inferred ? "원전 직역 추정" : "원전 직역";
+      if (e.sourceTextBasis === "relay") return inferred ? "중역 추정" : "중역";
+      if (e.sourceTextBasis) return "번안·재화";
+      return "저본 미확인";
+    };
     const group = (lang: string): string => {
       const list = eds.filter((e) => e.language === lang);
       const original = a ? a.languages.includes(lang) && lang !== "ko" : false;
@@ -305,8 +318,9 @@ const STATE_OPTIONS = [
 /** 사다리 한 칸. 기본값 「모르는 책」은 저장되지 않고, 이름만 갖는다. */
 // 제품이 독자에게 청하는 단 하나의 행동이다 — 그래서 쪽에서 가장 큰 조작물이다(이전: 77×25px 드롭다운).
 // 사다리의 나머지 칸은 누른 뒤에 열린다(런타임이 붙인다) — 접힌 것은 글자 예산에 세지 않는다.
-function stateControl(workId: string, big = false): string {
-  return `<div class="mark${big ? " big" : ""}" data-work="${esc(workId)}" data-state=""><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>`;
+const markMeta = (w: Work): string => ` data-t="${esc(w.titleKo)}" data-y="${w.year}" data-a="${esc(byId.get(w.authorId)?.names.ko ?? "")}"`;
+function stateControl(workId: string, big = false, meta = ""): string {
+  return `<div class="mark${big ? " big" : ""}" data-work="${esc(workId)}" data-state=""${meta}><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>`;
 }
 
 // 관계 한 줄. 2026-08-31 실측: 배포된 작가 페이지 100/100 이 카드 부채 상한
@@ -346,7 +360,7 @@ function workRow(w: Work, entryWhy?: string): string {
   return `<li>${coverOf(w)}<div class="head"><span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${esc(yr(w.year))}${YEAR_BASIS_SHORT[w.yearBasis ?? "attested"] ?? ""}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}</div>
     ${entryWhy ? `<p class="entrywhy">${esc(firstSentence(entryWhy))}</p>` : ""}
     ${w.significance ? `<p class="sig">${esc(firstSentence(w.significance))}</p>` : ""}
-    ${stateControl(w.id)}
+    ${stateControl(w.id, false, markMeta(w))}
   </li>`;
 }
 
@@ -587,7 +601,7 @@ function workPage(w: Work): string {
 <h1 class="name ${sizeClass(w.titleKo)}">${esc(w.titleKo)}</h1>
 ${w.titleOriginal && w.titleOriginal !== w.titleKo ? `<p class="orig ${stance === "rtl" ? "rtl" : ""}" lang="${esc(a?.languages[0] ?? "")}">${esc(w.titleOriginal)}</p>` : ""}
 <span class="stamped" aria-hidden="true">서재에 꽂힌 책</span>
-<div style="margin-top:clamp(24px,3.4vw,40px)">${stateControl(w.id, true)}</div>
+<div style="margin-top:clamp(24px,3.4vw,40px)">${stateControl(w.id, true, markMeta(w))}</div>
 </header>
 <div class="sheet">
 <section class="row"><div class="side"></div><div class="main">
@@ -630,7 +644,7 @@ ${acquireBlock(w, a)}
 ${w.sourceIds.length ? `<p class="srcs" style="margin-top:14px">출처 ${w.sourceIds.length}건</p>` : ""}</div></section>
 </div>
 </article>
-<div class="dock"><div class="what"><b>${esc(w.titleKo)}</b>${a ? esc(a.names.ko) : ""}</div>${stateControl(w.id)}</div>`;
+<div class="dock"><div class="what"><b>${esc(w.titleKo)}</b>${a ? esc(a.names.ko) : ""}</div>${stateControl(w.id, false, markMeta(w))}</div>`;
   return page({
     title: `${w.titleKo}${a ? ` — ${a.names.ko}` : ""} · 하나의 책`,
     desc: w.significance
@@ -673,8 +687,10 @@ function indexPage(): string {
       .toLowerCase();
   // 인장첩(印譜) — 줄마다 그 사람의 문자 한 글자. 1,806개의 SVG 는 색인을 1MB 넘게 만들므로 여기서는 글자 하나짜리
   // CSS 도장이다: 붉게 찍힌 것은 출처에 대본 쪽, 연필 점선은 아직 대보지 않은 쪽.
+  const names = (a: Author): string => [a.names.ko, a.names.original, ...a.names.aliases].join(" ").toLowerCase();
+  const titles = (a: Author): string => worksOf(a.id).map((w) => w.titleKo).join("|");
   const row = (a: Author): string =>
-    `<li data-h="${esc(hay(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/"><span class="chop${proved(a) ? "" : " d"}" aria-hidden="true">${esc(sealGlyphs(a.names.original || a.names.ko).glyphs[0] ?? "·")}</span><span class="k">${esc(a.names.ko)}</span>${a.names.original && a.names.original !== a.names.ko ? `<span class="o">${esc(a.names.original)}</span>` : ""}<span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span></a></li>`;
+    `<li data-h="${esc(hay(a))}" data-n="${esc(names(a))}" data-t="${esc(titles(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/"><span class="chop${proved(a) ? "" : " d"}" aria-hidden="true">${esc(sealGlyphs(a.names.original || a.names.ko).glyphs[0] ?? "·")}</span><span class="k">${esc(a.names.ko)}</span>${a.names.original && a.names.original !== a.names.ko ? `<span class="o">${esc(a.names.original)}</span>` : ""}<span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span><span class="hit"></span></a></li>`;
   const regionsUsed = REGION_DEFS.filter((r) => d.authors.some((a) => a.regions.includes(r.id)));
   const periodsUsed = PERIOD_DEFS.filter((pd) => d.authors.some((a) => a.periods.includes(pd.id)));
   const body = `
@@ -723,15 +739,23 @@ ${sils.map(row).join("\n")}
       if(ok&&r&&(" "+el.getAttribute("data-r")+" ").indexOf(" "+r+" ")<0) ok=false;
       if(ok&&p&&(" "+el.getAttribute("data-p")+" ").indexOf(" "+p+" ")<0) ok=false;
       el.hidden=!ok; if(ok) n++;
+      // 책 제목으로 걸렸으면 어느 제목인지 보여 준다 — 오비디우스가 『변신』에 나오는 이유가 화면에 있어야 한다
+      var hs=el.querySelector(".hit"), tt="";
+      if(ok&&s&&(el.getAttribute("data-n")||"").indexOf(s)<0){var ts=(el.getAttribute("data-t")||"").split("|");
+        for(var j=0;j<ts.length;j++){if(ts[j].toLowerCase().indexOf(s)>=0){tt="『"+ts[j]+"』";break;}}}
+      if(hs&&hs.textContent!==tt)hs.textContent=tt;
     }
-    // 한 칸도 남지 않은 절은 제목까지 접는다 — 빈 제목은 없는 것을 있다고 말한다
+    // 한 칸도 남지 않은 절은 제목까지 접는다 — 빈 제목은 없는 것을 있다고 말한다.
+    // 절 제목의 수는 지금 보이는 수다 — 한 줄 위에 「도판 157」을 두고 아래에 한 사람만 세우지 않는다.
     [].slice.call(document.querySelectorAll(".idx")).forEach(function(u,j){
-      var any=[].slice.call(u.children).some(function(c){return !c.hidden;});
-      u.hidden=!any; if(heads[j]) heads[j].hidden=!any;
+      var vis=[].slice.call(u.children).filter(function(c){return !c.hidden;}).length;
+      u.hidden=!vis; if(heads[j]){heads[j].hidden=!vis;var hn=heads[j].querySelector(".n");
+        if(hn){if(!hn.getAttribute("data-all"))hn.setAttribute("data-all",hn.textContent);hn.textContent=(s||r||p)?String(vis):hn.getAttribute("data-all");}}
     });
     cnt.textContent = (s||r||p) ? n+"인" : "";
   }
   q.addEventListener("input",run); fr.addEventListener("change",run); fp.addEventListener("change",run);
+  try{var pq=new URLSearchParams(location.search).get("q");if(pq){q.value=pq;run();}}catch(e){}
 })();
 </script>`;
   return page({
@@ -764,43 +788,54 @@ function shelfPage(): string {
 import { readerState, authorOf, yearKo } from "/atlas.js";
 const KO = { read: "읽은 책", have: "구매한 책", opened: "펼쳐본 책", want: "관심 있는 책" };
 const ORDER = ["read", "have", "opened", "want"];
+const TOTAL = ${d.works.length};
 const el = document.getElementById("shelf");
 const sum = document.getElementById("shelf-sum");
-const dict = await fetch("/works.json").then((r) => r.json()).catch(() => ({}));
-const control = (id) => '<div class="mark" data-work="' + id + '" data-state=""><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>';
-function draw() {
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+// 표시한 순간 들은 제목이 먼저다(lp.shelf.v1). 사전(works.json, 341KB)은 그 기억에 없는 책 — 다른 기기에서
+// 표시한 책 — 이 있을 때만 받는다. 첫 화면이 "비어 있다"고 거짓말하던 것을 이렇게 막는다.
+const heard = (() => { try { return JSON.parse(localStorage.getItem("lp.shelf.v1") || "{}") || {}; } catch { return {}; } })();
+let dict = null;
+const rowOf = (id) => heard[id] || (dict && dict[id]) || null;
+const control = (id, w) => '<div class="mark" data-work="' + id + '" data-state=""' + (w ? ' data-t="' + esc(w[0]) + '" data-y="' + w[1] + '" data-a="' + esc(w[2]) + '"' : "") +
+  '><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>';
+function paint() {
   const marks = Object.entries(readerState().state || {});
   if (!marks.length) {
     sum.textContent = "표시한 책이 여기 모인다. 이 기록은 이 브라우저 안에 있다.";
     el.innerHTML = '<p class="absent">아직 아무것도 표시하지 않았다. 책을 펴고 한 권을 ' +
       '「관심 있는 책」으로 옮기면 여기 선다.</p>';
-    return;
+    return 0;
   }
   const bucket = Object.fromEntries(ORDER.map((k) => [k, []]));
   for (const [id, m] of marks) if (bucket[m.s]) bucket[m.s].push([id, m.at]);
   const authors = new Set(marks.map(([id]) => authorOf(id)));
-  sum.textContent =
-    marks.length + "권 / " + Object.keys(dict).length + " · 작가 " + authors.size +
-    "인. 이 기록은 이 브라우저 안에 있다.";
+  sum.textContent = marks.length + "권 / " + TOTAL + " · 작가 " + authors.size + "인. 이 기록은 이 브라우저 안에 있다.";
+  let missing = 0;
   el.innerHTML = ORDER.filter((k) => bucket[k].length)
     .map((k) => {
       const rows = bucket[k]
         .sort((a, b) => b[1] - a[1])
         .map(([id]) => {
-          const w = dict[id];
-          const t = w ? w[0] : id;
-          const meta = w ? '<span class="y">' + w[2] + " · " + yearKo(w[1]) + "</span>" : "";
-          return '<li><a href="/works/' + id + '/">' + t + "</a>" + meta + control(id) + "</li>";
+          const w = rowOf(id);
+          if (!w) missing++;
+          const t = w ? esc(w[0]) : id;
+          const meta = w ? '<span class="y">' + esc(w[2]) + " · " + yearKo(w[1]) + "</span>" : "";
+          return '<li><a href="/works/' + id + '/">' + t + "</a>" + meta + control(id, w) + "</li>";
         })
         .join("");
       return "<h2>" + KO[k] + " " + bucket[k].length + "</h2><ul>" + rows + "</ul>";
     })
     .join("");
   window.lpPaint && window.lpPaint();
+  return missing;
 }
-draw();
+if (paint() > 0) {
+  dict = await fetch("/works.json").then((r) => r.json()).catch(() => ({}));
+  paint();
+}
 // 서재는 읽기 전용이 아니다 — 읽은 책으로 옮기는 자리가 바로 여기다. 칸이 바뀌면 선반을 다시 짠다.
-el.addEventListener("click", (e) => { if (e.target.closest(".mark-ladder button")) setTimeout(draw, 0); });
+el.addEventListener("click", (e) => { if (e.target.closest(".mark-ladder button")) setTimeout(paint, 0); });
 </script>`;
   return page({
     title: "서재 — 하나의 책",
@@ -842,6 +877,7 @@ function walkPage(): string {
         {
           ko: a.names.ko,
           or: a.names.original,
+          al: a.names.aliases.length ? a.names.aliases : undefined,
           life: `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")}`,
           why: a.importanceReason ? firstSentence(a.importanceReason) : "",
           depth: a.depth ?? "plate",
@@ -871,10 +907,10 @@ function walkPage(): string {
 <p class="lede">모든 책을 품은 하나의 책. 세계는 처음부터 전부 여기 있고, 아직 만나지
 않은 이름은 실루엣으로 서 있다. 읽은 것이 다음 것을 연다.</p>
 <p class="census" id="census"></p>
+<div class="below" id="below"></div>
 </section>
 <section class="recto"><div id="app"><p class="sig">책을 펴는 중…</p></div></section>
 </div>
-<div class="sheet" id="below"></div>
 <script>
 var DATA={};
 var STARTS=${JSON.stringify(STARTS)};
@@ -902,7 +938,7 @@ function lpWorks(a,withEntry){
   return '<ul class="works">'+a.works.map(function(w,i){
     return '<li><div class="head"><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span></div>'+
       (withEntry&&i===0&&a.entry?'<p class="entrywhy">'+h(a.entry)+'</p>':'')+
-      (w.s?'<p class="sig">'+h(w.s)+'</p>':'')+lpControl(w.id)+'</li>';}).join('')+'</ul>';}
+      (w.s?'<p class="sig">'+h(w.s)+'</p>':'')+lpControl(w.id,w.t,w.y,a.ko)+'</li>';}).join('')+'</ul>';}
 function weekly(){
   // 유한 배달(선행 연구 Ⅴ-3): ISO 주차가 이번 주의 출발 작가를 결정한다 —
   // 매주 다른 길이 기다린다는 것이 "일주일 뒤 돌아온다"의 기제다.
@@ -979,11 +1015,11 @@ function openBook(app){
           '<span class="m"><i style="width:'+pct+'%"></i></span>'+
           '<span class="y">'+row.met+'/'+row.total+'</span></li>';
       };
-      document.getElementById('below').innerHTML='<section class="row"><div class="side"></div><div class="wide">'+
+      document.getElementById('below').innerHTML=
         '<details class="literacy"><summary>문해의 지도 — 어느 영역이 열려 있는가</summary>'+
         '<p class="sig">배지가 아니다. 어디를 지도 없이 읽을 수 있는지를 말한다.</p>'+
         '<h3>권역</h3><ul class="meters">'+L.regions.map(bar).join('')+'</ul>'+
-        '<h3>시대</h3><ul class="meters">'+L.periods.map(bar).join('')+'</ul></details></div></section>';
+        '<h3>시대</h3><ul class="meters">'+L.periods.map(bar).join('')+'</ul></details>';
       app.innerHTML=html;
       lpPaint();
     });
@@ -1008,16 +1044,24 @@ document.addEventListener('click',function(e){
     trail=[];render(null);}
 });
 
-function go(id){trail.push(id);history.replaceState(null,'','#'+id);render(id);}
+function go(id){if(trail[trail.length-1]!==id)trail.push(id);history.replaceState(null,'','#'+id);render(id);}
 document.getElementById('door').addEventListener('submit',function(e){e.preventDefault();
   var inp=document.getElementById('anchor');var miss=document.getElementById('miss');var v=(inp.value||'').trim();miss.textContent='';if(!v)return;
-  var lo=v.toLowerCase();
-  for(var k in DATA){if(DATA[k].ko===v){go(k);return;}}
-  for(var k2 in DATA){if(DATA[k2].ko.indexOf(v)>=0||(DATA[k2].or||'').toLowerCase().indexOf(lo)>=0){go(k2);return;}}
-  miss.innerHTML='아직 없는 이름이다 — <a href="/authors/">색인</a>은 지금도 열려 있다.';});
+  // 이름·원어·별칭(도스토예프스키/도스토옙스키)을 띄어쓰기와 점을 빼고 견준다. 하나만 걸리면 편다,
+  // 여럿이면 고르게 한다, 없으면 「없다」가 아니라 「못 찾았다」 — 색인이 그 말을 받아 다시 찾는다.
+  var n=lpNorm(v),k,hit=null,part=[];
+  for(k in DATA){var a=DATA[k];if(lpNorm(a.ko)===n||lpNorm(a.or)===n||(a.al||[]).some(function(x){return lpNorm(x)===n;})){hit=k;break;}}
+  if(!hit){for(k in DATA){var b=DATA[k];var hay=[b.ko,b.or||''].concat(b.al||[]).map(lpNorm);
+      if(hay.some(function(x){return x&&(x.indexOf(n)>=0||(n.length>=4&&x.indexOf(n.slice(0,3))===0&&Math.abs(x.length-n.length)<=2));}))part.push(k);}
+    var pl=part.filter(function(x){return DATA[x].depth==='plate';});if(pl.length)part=pl;
+    if(part.length===1)hit=part[0];}
+  if(hit){go(hit);return;}
+  if(part.length>1){miss.innerHTML='여럿이 걸린다 — '+part.slice(0,4).map(function(x){return '<a href="#'+x+'" data-go="'+x+'">'+h(DATA[x].ko)+'</a>';}).join(' · ');return;}
+  miss.innerHTML='이 이름으로는 찾지 못했다 — <a href="/authors/?q='+encodeURIComponent(v)+'">색인에서 「'+h(v)+'」 찾기</a>';});
+function lpNorm(s){return (s||'').toLowerCase().replace(/[\s·.,\-_'’]/g,'');}
 document.getElementById('anchor').addEventListener('change',function(){if(this.value)document.getElementById('door').requestSubmit&&document.getElementById('door').requestSubmit();});
-function lpControl(id){
-  return '<div class="mark" data-work="'+id+'" data-state=""><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>';
+function lpControl(id,t,y,a){
+  return '<div class="mark" data-work="'+id+'" data-state="" data-t="'+h(t||'')+'" data-y="'+(y||0)+'" data-a="'+h(a||'')+'"><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>';
 }
 function finish(){
   var app=document.getElementById('app');var p=lpLoad();var by={};var any=[];

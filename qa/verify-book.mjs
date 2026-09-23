@@ -11,6 +11,7 @@
 import { readdirSync } from "node:fs";
 import { chromium } from "playwright";
 import { serveDist } from "./serve.mjs";
+import { decodePng, countPixels } from "./png.mjs";
 
 const server = await serveDist();
 // 번들 브라우저 캐시가 없는 기계에서는 설치된 크롬으로 돈다: QA_CHANNEL=chrome node qa/verify-book.mjs
@@ -142,6 +143,9 @@ await page.waitForTimeout(300);
 await setMark(page.locator(".mark.big"), "read");
 await page.waitForTimeout(250);
 check("찍힌 자리가 보인다 — 칸의 글자가 바뀐다", /읽은 책/.test(await page.locator(".mark.big .mark-label").innerText()));
+// 2026-09-23 독자 걸음: 표시 전 = 검은 단추, 표시 후 = 옅은 테두리 — 뒤집혀 읽혔다. 표시된 것은 인주색이다.
+const stampBg = await page.locator(".mark.big .mark-main").evaluate((b) => getComputedStyle(b).backgroundColor);
+check("표시된 칸은 인주색으로 찍힌다", stampBg === "rgb(180, 39, 27)", stampBg);
 await page.goto(`${server.origin}/authors/gabriel-garcia-marquez/`, { waitUntil: "load" });
 await page.waitForTimeout(1100);
 const badge = await page.locator("#lp-ready").innerText();
@@ -200,6 +204,9 @@ const body = await page.evaluate(() => document.body.innerText);
 const hasRecord = (await page.locator("table.eds tbody tr").count()) > 0;
 if (hasRecord) {
   check("검수된 판본은 ISBN 상품 주소로 나간다", (await page.locator('a[href*="wproduct.aspx?ISBN="]').count()) > 0);
+  // 저본 칸이 비면 "원서"와 "모른다"가 같은 모양이다 — 독자가 번역을 고르는 단 하나의 칸이다.
+  const flags = await page.locator("table.eds td.flag").allInnerTexts();
+  check("저본 칸은 한 칸도 비지 않는다", flags.length > 0 && flags.every((t) => t.trim().length > 0), flags.join(" · "));
 } else {
   check("판본이 없으면 없다고 날짜와 함께 적는다", /아직 검수하지 않았다 \(\d{4}-\d{2}-\d{2} 확인\)/.test(body));
   check("판본을 주장하지 않는다 — 상품 딥링크 0", (await page.locator('a[href*="wproduct.aspx"]').count()) === 0);
@@ -333,12 +340,25 @@ check("기원전이 기원전으로 적힌다", /기원전 300/.test(shelfTxt) &
 check("전체 대비를 말한다 — 도감이다", /3권 \/ \d{3,}/.test(await page.locator("#shelf-sum").innerText()), await page.locator("#shelf-sum").innerText());
 const shelfLinks = await page.evaluate(() => [...document.querySelectorAll("#shelf a")].map((a) => a.getAttribute("href")));
 check("각 책이 그 작품 쪽으로 나간다", shelfLinks.length === 3 && shelfLinks.every((h) => h.startsWith("/works/")), shelfLinks.join(" "));
+// 표시할 때 들은 제목이 있으면 사전(works.json)을 받지 않고도 첫 화면이 선다 — 2026-09-23 심사가 잡은
+// "표시한 책이 있는데 비어 있다고 먼저 말하는" 깜빡임의 반대 증명: 사전을 끊어도 제목이 선다.
+await page.evaluate(() => localStorage.setItem("lp.shelf.v1", JSON.stringify({
+  "franz-kafka--die-verwandlung": ["변신", 1915, "프란츠 카프카"],
+  "qu-yuan--lisao": ["이소", -300, "굴원"],
+  "orhan-pamuk--kar": ["눈", 2002, "오르한 파묵"]
+})));
+await page.route("**/works.json", (r) => r.abort());
+await page.reload({ waitUntil: "load" });
+await page.waitForTimeout(500);
+const heardTxt = await page.locator("#shelf").innerText();
+check("사전을 못 받아도 표시한 책은 제목으로 선다 — 표시할 때 들었다", /변신/.test(heardTxt) && /이소/.test(heardTxt) && /눈/.test(heardTxt) && !/아직 아무것도/.test(heardTxt), heardTxt.split("\n").slice(0, 3).join(" / "));
+await page.unroute("**/works.json");
 // 서재는 읽기 전용이 아니다 — 「구매한 책」을 「읽은 책」으로 옮기는 자리가 바로 여기다.
 await setMark(page.locator('#shelf .mark[data-work="orhan-pamuk--kar"]'), "read");
 await page.waitForTimeout(300);
 const moved = await page.locator("#shelf").innerText();
 check("서재에서 칸을 옮기면 선반이 다시 짜인다", /읽은 책 2/.test(moved) && !/구매한 책 \d/.test(moved), (moved.match(/(읽은|구매한|관심 있는) 책 \d/g) ?? []).join(" · "));
-await page.evaluate(() => localStorage.removeItem("lp.reader.v3"));
+await page.evaluate(() => { localStorage.removeItem("lp.reader.v3"); localStorage.removeItem("lp.shelf.v1"); });
 
 // ─── 색인의 찾기 ─────────────────────────────────────────────────────────────
 // 100인일 때 색인은 한 화면이었다. 1,465인에서는 스크롤이고, 스크롤은 CPO 가 3D
@@ -359,6 +379,7 @@ const byTitle = await page.locator(".idx > li:not([hidden])").count();
 check("책 제목으로도 그 작가를 찾는다", byTitle >= 1 && byTitle <= 20, `${byTitle}인`);
 // 첫 행이 아니라 "결과 안에" — 『변신 이야기』(오비디우스)도 정직하게 나온다.
 check("그 작가들 중에 카프카가 있다", /카프카/.test(await page.locator(".idx > li:not([hidden])").allInnerTexts().then((a) => a.join(" "))));
+check("제목으로 걸린 사람은 어느 제목인지 보인다 — 오비디우스 옆에 『변신 이야기』", /『변신 이야기』/.test(await page.locator(".idx > li:not([hidden])").allInnerTexts().then((a) => a.join(" "))));
 await page.locator("#q").fill("Sappho");
 await page.waitForTimeout(120);
 check("원어·로마자로도 찾는다", (await visibleRows()) >= 1, `${await visibleRows()}인`);
@@ -374,6 +395,22 @@ check("시대와 함께 좁힌다 — 두 조건은 곱해진다", eaAnc > 0 && 
 await page.locator("#q").fill("zzzzz");
 await page.waitForTimeout(120);
 check("하나도 없으면 절 제목까지 접는다", (await page.locator(".idx:not([hidden])").count()) === 0);
+await page.goto(`${server.origin}/authors/?q=${encodeURIComponent("카프카")}`, { waitUntil: "load" });
+await page.waitForTimeout(150);
+check("첫 장의 문이 넘긴 이름(?q=)으로 색인이 바로 좁혀진다", (await page.locator("#q").inputValue()) === "카프카" && (await visibleRows()) >= 1 && (await visibleRows()) <= 5);
+// 색인 검색칸의 지우기 단추는 브라우저 기본 파랑이었다 — 사이트에서 유일한 팔레트 밖 색. 계산 스타일은 가짜
+// 요소를 답하지 않으므로 그려진 픽셀을 센다: 칸의 오른쪽 끝에 무언가 그려져 있고(단추가 있다), 파란 픽셀은 0.
+{
+  // 프로그램으로 넣은 값에는 크롬이 지우기 단추를 그리지 않는다 — 사람처럼 친다.
+  await page.locator("#q").fill("카프카");
+  await page.waitForTimeout(150);
+  const box = await page.locator("#q").boundingBox();
+  const png = decodePng(await page.screenshot({ clip: box }));
+  const strip = (pred) => { let n = 0; for (let y = 0; y < png.height; y++) for (let x = Math.max(0, png.width - 44); x < png.width; x++) { const [r, g, b] = png.at(x, y); if (pred(r, g, b)) n++; } return n; };
+  const drawn = strip((r, g, b) => Math.abs(r - 0xf7) + Math.abs(g - 0xf0) + Math.abs(b - 0xdc) > 60 && Math.abs(r - 0xf0) + Math.abs(g - 0xe7) + Math.abs(b - 0xcd) > 60);
+  const blue = countPixels(png, (r, g, b) => b > r + 30 && b > g + 20);
+  check("검색칸 지우기 단추가 팔레트 안에 있다 — 그려져 있고, 파란 픽셀 0", drawn > 20 && blue === 0, `그려진 픽셀 ${drawn} · 파란 픽셀 ${blue}`);
+}
 
 // ─── 밖으로 나가지 않는다 ─────────────────────────────────────────────────────
 // 이 제품은 독자의 표시를 밖으로 내보내지 않는다고 말한다. 폰트 CDN 한 줄이면 그 말이
@@ -398,6 +435,21 @@ console.log("\n제3자 — 한 곳도 부르지 않는다");
   check("본문 활자가 실제로 실려 있다", faces > 0, `${faces} 페이스`);
   const sharp = await page.evaluate(() => document.body.innerText.includes("Weißen"));
   check("라틴 확장 글자가 제 모양으로 온다 — ß", sharp);
+  // 2026-09-23 실측: 색인 한 쪽이 Google 서브셋 78조각 4.1MB 를 받았다. 이제 전집 한 벌(두 굵기)이다 —
+  // 전집 밖 글자는 조각으로 떨어져도 된다(깨지지 않고 느려질 뿐). 그래서 조각 수가 아니라 바이트를 잰다.
+  const fontBytes = async (path) => {
+    const got = [];
+    const on = (r) => { if (r.url().includes("/fonts/")) got.push(r); };
+    page.on("response", on);
+    await page.goto(`${server.origin}${path}`, { waitUntil: "networkidle" });
+    page.off("response", on);
+    let n = 0; for (const r of got) n += (await r.body().catch(() => Buffer.alloc(0))).length;
+    return { files: got.length, kb: Math.round(n / 1024), subset: got.filter((r) => /\/fonts\/nskr-/.test(r.url())).length };
+  };
+  const fx = await fontBytes("/authors/");
+  check("색인이 받는 활자는 1MB 아래다 (전집 한 벌)", fx.kb < 1024 && fx.subset >= 2, `${fx.files}개 ${fx.kb}KB · 전집 ${fx.subset}`);
+  const fk = await fontBytes("/authors/franz-kafka/");
+  check("작가 쪽도 같은 한 벌을 쓴다 — 조각을 더 받지 않는다", fk.kb < 1024 && fk.files <= 4, `${fk.files}개 ${fk.kb}KB`);
 }
 
 // ─── 첫 장의 문 — 표시가 없는 독자 (2026-09-20 독자 걸음 평가가 라이브에서 재현한 결함) ──
@@ -425,6 +477,59 @@ console.log("\n첫 장의 문 — 표시가 없는 독자");
   let withEdition = 0;
   for (const h of hrefs) { const html = await (await fetch(`${server.origin}${h}`)).text(); if (/검수된 판본 \d+/.test(html)) withEdition++; }
   check("첫인사로 내민 책 가운데 한국어 판본이 검수된 것이 있다", withEdition > 0, `${withEdition} / ${hrefs.length}`);
+  // 문은 별칭을 안다 — 「도스토예프스키」는 우리 데이터에 있는 이름이고, 「없다」고 말하면 거짓이다.
+  await p2.locator("#anchor").fill("도스토예프스키");
+  await p2.locator("#door button[type=submit]").click();
+  await p2.waitForTimeout(400);
+  const doorName = (await p2.locator("#app h2").first().innerText()).trim();
+  check("옛 표기로도 그 사람이 열린다 — 도스토예프스키 → 도스토옙스키", /도스토옙스키/.test(doorName) && (await p2.locator("#miss").innerText()).trim() === "", doorName);
+  const crumb = (await p2.locator("#app .label").first().innerText()).trim();
+  check("문으로 연 첫 쪽의 꼬리표가 같은 이름을 두 번 적지 않는다", !/(.+) → \1$/.test(crumb), crumb);
+  await p2.locator("#anchor").fill("zzqx없는이름");
+  await p2.locator("#door button[type=submit]").click();
+  await p2.waitForTimeout(200);
+  check("없는 이름에는 「없다」가 아니라 「못 찾았다」와 색인으로 가는 문", /찾지 못했다/.test(await p2.locator("#miss").innerText()) && (await p2.locator('#miss a[href^="/authors/?q="]').count()) === 1);
+
+  // 작품 쪽, 손 안에서: 독(dock)의 화살표는 사다리를 연다. 도장은 제목을 덮지 않는다.
+  await p2.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
+  await p2.waitForTimeout(300);
+  await p2.locator(".dock .mark-main").click();
+  await p2.waitForTimeout(150);
+  await p2.locator(".dock .mark-main").click();
+  await p2.waitForTimeout(150);
+  check("독의 단추를 다시 누르면 사다리가 그 위로 선다", await p2.locator(".dock .mark-ladder").isVisible());
+  await p2.locator('.dock .mark-ladder button[data-set="read"]').click();
+  await p2.waitForTimeout(200);
+  check("독의 사다리로 칸이 옮겨진다", /읽은 책/.test(await p2.locator(".dock .mark-label").innerText()));
+  const boxes = await p2.evaluate(() => {
+    const r = (sel) => { const e = document.querySelector(sel); const b = e.getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height }; };
+    return { stamp: r(".stamped"), title: r("h1.name") };
+  });
+  const overlap = (a, b) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+  check("도장이 제목 위에 찍히지 않는다 — 제목 아래 제자리", boxes.stamp.w > 0 && !overlap(boxes.stamp, boxes.title), JSON.stringify(boxes));
+  await p2.evaluate(() => { localStorage.removeItem("lp.reader.v3"); localStorage.removeItem("lp.shelf.v1"); });
+
+  // 서명과 인장은 겹치지 않는다 — 진짜 서명만 싣는 쪽에서 서명의 끝 글자를 인장이 먹고 있었다.
+  await p2.goto(`${server.origin}/authors/franz-kafka/`, { waitUntil: "load" });
+  const sigBoxes = await p2.evaluate(() => {
+    const r = (sel) => { const b = document.querySelector(sel).getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height }; };
+    return { sig: r(".autograph img"), seal: r(".autograph .seal") };
+  });
+  check("서명과 인장이 겹치지 않는다", sigBoxes.sig.x + sigBoxes.sig.w <= sigBoxes.seal.x, `서명 끝 ${Math.round(sigBoxes.sig.x + sigBoxes.sig.w)} · 인장 시작 ${Math.round(sigBoxes.seal.x)}`);
+  // 연필(아직 대보지 않은 쪽)은 종이 위에서 3:1 은 넘는다 — 1,650행의 신뢰 신호가 가장 흐린 것이어서는 안 된다.
+  const pencilRatio = await p2.evaluate(() => {
+    const hex = getComputedStyle(document.documentElement).getPropertyValue("--pencil").trim();
+    const paper = getComputedStyle(document.documentElement).getPropertyValue("--paper").trim();
+    const lum = (h) => { const c = h.replace("#", ""); const [r, g, b] = [0, 2, 4].map((i) => parseInt(c.slice(i, i + 2), 16) / 255).map((v) => (v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4)); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+    return (lum(paper) + 0.05) / (lum(hex) + 0.05);
+  });
+  check("연필 인장의 대비가 3:1 을 넘는다", pencilRatio >= 3, pencilRatio.toFixed(2) + ":1");
+  // 200% 글자 크기에서도 첫 장은 옆으로 새지 않는다 — 저시력 독자가 처음 보는 것이 잘린 상표여서는 안 된다.
+  await p2.goto(`${server.origin}/`, { waitUntil: "load" });
+  await p2.evaluate(() => { document.documentElement.style.fontSize = "32px"; });
+  await p2.waitForTimeout(200);
+  const zoomOverflow = await p2.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  check("200% 글자에서 첫 장이 옆으로 새지 않는다", zoomOverflow <= 0, `${zoomOverflow}px`);
   await ctx.close();
 }
 

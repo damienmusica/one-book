@@ -55,3 +55,6 @@ PY
 [ -s "$OUT/OFL.txt" ] || curl -sf --max-time 20 \
   https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/LICENSE -o "$OUT/OFL.txt"
 echo "완료 — $(du -sh "$OUT" | cut -f1)"
+
+# 전집 한 벌(맨 뒤의 subset 블록)은 이 파일이 다시 쓰이면 사라진다 — 이어서 굽는다.
+echo "fonts.css 를 새로 썼다. 이제: npm run build && bash scripts/subset-fonts.sh && npm run build"
