@@ -9,18 +9,21 @@
 // this script only changes reviewStatus/reviewedAt, and the assembler still has the last word.
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { isOpen } from "./lib/closeread.ts";
 
 type Raw = Record<string, any>;
 const args = process.argv.slice(2);
 const flag = (k: string) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : undefined; };
 const WRITE = args.includes("--write");
-const SETTLED = new Set(["corrected", "narrowed", "removed", "relation-dropped"]);
+// --demote: 원장이 받치지 못하는 「검토됨」을 draft 로 내린다(--ids 로 대상을 좁혀 쓴다).
+const DEMOTE = args.includes("--demote");
+
 
 export function verdictFor(a: Raw, entry: Raw | undefined): { ok: boolean; why: string } {
   if ((a.depth ?? "plate") !== "plate") return { ok: false, why: `${a.depth} 는 검토 대상이 아니다` };
   if (!a.externalIds?.wikidata) return { ok: false, why: "QID 없음" };
   if (!entry) return { ok: false, why: "close-read 원장에 없음" };
-  const open = (entry.claims ?? []).filter((c: Raw) => c.verdict !== "confirmed" && !SETTLED.has(c.resolution));
+  const open = (entry.claims ?? []).filter(isOpen);
   if (open.length) {
     const pending = open.filter((c: Raw) => c.resolution === "pending").length;
     return { ok: false, why: `미결 주장 ${open.length}${pending ? ` (접근 대기 ${pending})` : ""}: ${open.slice(0, 2).map((c: Raw) => c.claim.slice(0, 40)).join(" / ")}` };
@@ -37,7 +40,10 @@ function main() {
     const noqid = verdictFor({ id: "p", depth: "plate" }, settled);
     const r1 = verdictFor(a, settled), r2 = verdictFor(a, pending);
     console.log(`probe settled → ${r1.ok} | pending → ${r2.ok} (${r2.why}) | no QID → ${noqid.ok} (${noqid.why})`);
-    if (!r1.ok || r2.ok || noqid.ok) { console.error("프로브 실패 — 검사가 열린 도판을 검토됨으로 올린다"); process.exit(1); }
+    const leak = verdictFor(a, { claims: [{ verdict: "confirmed", claim: "y", note: "다만 전칭은 확인되지 않았다" }] });
+    const leakSettled = verdictFor(a, { claims: [{ verdict: "confirmed", claim: "y", note: "다만 전칭은 확인되지 않았다", resolution: "narrowed" }] });
+    console.log(`probe leak → ${leak.ok} | leak settled → ${leakSettled.ok}`);
+    if (!r1.ok || r2.ok || noqid.ok || leak.ok || !leakSettled.ok) { console.error("프로브 실패 — 검사가 열린 도판을 검토됨으로 올린다"); process.exit(1); }
     return;
   }
   const ledgerPath = flag("--ledger"); if (!ledgerPath) throw new Error("--ledger <qc/closeread/x.json> 이 필요하다");
@@ -46,19 +52,23 @@ function main() {
   const only = flag("--ids") ? new Set(flag("--ids")!.split(",")) : undefined;
   const dir = join(process.cwd(), "data", "authors");
   const today = new Date().toISOString().slice(0, 10);
-  let flipped = 0; const held: string[] = []; const touched = new Set<string>();
+  let flipped = 0, demoted = 0; const held: string[] = []; const touched = new Set<string>();
   for (const f of readdirSync(dir).filter((x) => x.endsWith(".json"))) {
     const rows: Raw[] = JSON.parse(readFileSync(join(dir, f), "utf8"));
     for (const a of rows) {
       if (only ? !only.has(a.id) : !entries.has(a.id)) continue;
-      if (a.reviewStatus !== "draft") continue;
       const v = verdictFor(a, entries.get(a.id));
-      if (v.ok) { a.reviewStatus = "reviewed"; a.reviewedAt = today; flipped++; touched.add(f); console.log(`  ${a.id} → reviewed (${v.why})`); }
-      else held.push(`${a.id}: ${v.why}`);
+      if (a.reviewStatus === "draft") {
+        if (v.ok) { a.reviewStatus = "reviewed"; a.reviewedAt = today; flipped++; touched.add(f); console.log(`  ${a.id} → reviewed (${v.why})`); }
+        else held.push(`${a.id}: ${v.why}`);
+      } else if (DEMOTE && !v.ok) {
+        // 이미 「검토됨」인데 원장이 그것을 받치지 못한다 — 내린다. 정의가 바뀌었을 때 옛 기준으로 올라간 쪽을 정의에 맞추는 길.
+        a.reviewStatus = "draft"; delete a.reviewedAt; demoted++; touched.add(f); console.log(`  ${a.id} → draft (${v.why})`);
+      }
     }
     if (WRITE && touched.has(f)) writeFileSync(join(dir, f), JSON.stringify(rows, null, 2) + "\n");
   }
-  console.log(`검토됨 ${flipped} · 보류 ${held.length}`);
+  console.log(`검토됨 ${flipped} · 보류 ${held.length}${DEMOTE ? ` · 내림 ${demoted}` : ""}`);
   for (const h of held) console.log(`  - ${h}`);
   console.log(WRITE ? `  → 썼다 (${touched.size} 파일)` : "(--write 없이 실행 — 파일을 쓰지 않았다)");
 }

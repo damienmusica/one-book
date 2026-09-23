@@ -14,7 +14,7 @@ import { homedir } from "node:os";
 import { isbn13Valid } from "../src/schema.js";
 
 type Raw = Record<string, any>;
-interface Item { title: string; author: string; translators: string[]; publisher: string; year: number; isbn13: string; language: string; category?: string; ebook?: boolean; status?: string; authorQuery?: boolean }
+interface Item { title: string; author: string; translators: string[]; publisher: string; year: number; isbn13: string; language: string; category?: string; ebook?: boolean; status?: string; authorQuery?: boolean; unsellable?: boolean }
 interface Provider {
   lang: string;                 // language of the editions this provider yields
   key?: string;                 // env name, when a key is needed
@@ -36,7 +36,10 @@ function keyFor(name: string): string | undefined {
 }
 
 // ── text helpers ─────────────────────────────────────────────────────────────────────────────────────────────
-const norm = (s: string) => s.normalize("NFKC").toLowerCase().replace(/[̀-ͯ]/g, "").replace(/[\s\p{P}\p{S}]+/gu, "");
+// 한국어 역제의 표기 변이 — 같은 책이 다른 철자로 나온다(숲 천병희 『오뒷세이아』). 비교는 한 철자로 모은다.
+const KO_VARIANTS: [RegExp, string][] = [[/오뒷세이아/g, "오디세이아"], [/일리아드/g, "일리아스"]];
+export const koVariants = (t: string): string[] => ({ "오디세이아": ["오뒷세이아"], "일리아스": ["일리아드"] } as Record<string, string[]>)[t.trim()] ?? [];
+const norm = (s: string) => KO_VARIANTS.reduce((x, [re, to]) => x.replace(re, to), s.normalize("NFKC")).toLowerCase().replace(/[̀-ͯ]/g, "").replace(/[\s\p{P}\p{S}]+/gu, "");
 // 권수 꼬리표는 앞에 공백이 있을 때만 뗀다 — 아니면 『1984』가 통째로 지워진다(실측: 민음사 판이 빠졌다).
 const stripVolume = (t: string) => t.replace(/\s*[\(\[][^)\]]*[\)\]]\s*/g, " ").trim().replace(/\s+(세트|전집|합본|상|중|하|\d+권?|[상중하]권)\s*$/u, "").trim();
 /** 분권이면 몇 권째인가 — 1권·상권만 「구하기」에 올린다(2권을 내밀면 독자는 중간부터 산다). */
@@ -97,6 +100,8 @@ const PROVIDERS: Record<string, Provider> = {
         title: String(d.title ?? ""), author: (d.authors ?? []).join(", "), translators: (d.translators ?? []).map(String),
         publisher: String(d.publisher ?? ""), year: Number(String(d.datetime ?? "").slice(0, 4)), isbn13: isbn13Of(d.isbn ?? ""), language: "ko",
         ebook: /e-?book|전자책/i.test(String(d.title ?? "")), status: d.status ? String(d.status) : undefined,
+        // 판매 상태(status)는 절판본도 「정상판매」로 준다(2026-09-24 실측 3/3). sale_price -1 은 전자책·품절을 가렸다(3/3) — 이것만 믿는다.
+        unsellable: Number(d.sale_price) === -1,
       }));
     },
   },
@@ -214,7 +219,7 @@ export function matchItems(work: Raw, author: Raw, items: Item[], lang: string) 
   const origTokens = String(author.names?.original ?? "").split(/\s+/).filter((t) => t.length >= 3);
   const out: Raw[] = [];
   for (const it of items) {
-    if (it.ebook) continue;
+    if (it.ebook || it.unsellable) continue;
     if (lang === "ko" && /세트|전집|합본/.test(it.title)) continue;
     const t = norm(lang === "ko" ? stripVolume(it.title) : mainTitle(it.title));
     // 역제는 판마다 다르다(『카라마조프 형제』 ↔ 『카라마조프 가의 형제들』) — 우리 제목의 낱말이 전부 들어 있으면 같은 작품으로 본다.
@@ -252,6 +257,11 @@ function loadAll() {
   return { authors: new Map(authors.map((a) => [a.id, a])), works };
 }
 
+const PINS: Record<string, { isbn13: string; why: string }[]> = existsSync(join("qc", "edition-pins.json")) ? JSON.parse(readFileSync(join("qc", "edition-pins.json"), "utf8")).byWork ?? {} : {};
+async function kakaoIsbn(key: string, isbn: string) {
+  const u = new URL("https://dapi.kakao.com/v3/search/book"); u.searchParams.set("target", "isbn"); u.searchParams.set("query", isbn);
+  const r = await fetch(u, { headers: { Authorization: `KakaoAK ${key}` } }); if (!r.ok) throw new Error(`kakao ${r.status}`); return r.json();
+}
 async function main() {
   const { authors, works } = loadAll();
   const pname = flag("--provider") ?? "kakao";
@@ -292,6 +302,11 @@ async function main() {
           const raw2 = await cached([pname, w.titleKo, last], () => P.search(key, w.titleKo, last)); calls++;
           const seen = new Set(items.map((it) => it.isbn13));
           for (const it of P.normalize(raw2)) if (!seen.has(it.isbn13)) items.push({ ...it, authorQuery: true });
+          for (const v of koVariants(w.titleKo)) {
+            await sleep(350);
+            const raw3 = await cached([pname, v, last], () => P.search(key, v, last)); calls++;
+            for (const it of P.normalize(raw3)) if (!seen.has(it.isbn13)) { seen.add(it.isbn13); items.push({ ...it, authorQuery: true }); }
+          }
         }
       } else {
         const surname = P.lang === "ja" ? String(a.names.original).replace(/\s+/g, "") : (String(a.names.original).trim().split(/\s+/).pop() ?? "");
@@ -300,6 +315,17 @@ async function main() {
         items = P.normalize(raw).map((it) => ({ ...it, authorQuery: true }));
       }
       const m = matchItems(w, a, items, P.lang);
+      // 고정판 — 조회로 "이 작품의 지금 살 수 있는 표준판"이라고 판정된 ISBN(qc/edition-pins.json). 제목 규칙을 넘어서 들어간다.
+      for (const pin of (P.lang === "ko" ? PINS[w.id] ?? [] : [])) {
+        if (m.some((x) => x.isbn13 === pin.isbn13)) { m.find((x) => x.isbn13 === pin.isbn13)!.pinned = true; continue; }
+        await sleep(350);
+        const raw = await cached([pname, "isbn", pin.isbn13], () => kakaoIsbn(key!, pin.isbn13)); calls++;
+        const it = P.normalize(raw)[0];
+        if (!it) { none.push(`${w.id}: 고정판 ${pin.isbn13} 을 카카오가 모른다`); continue; }
+        const tr = it.translators.filter(Boolean);
+        m.unshift({ workId: w.id, isbn13: pin.isbn13, title: it.title.trim(), publisher: it.publisher.trim(), year: it.year, language: "ko",
+          ...(tr.length ? { translator: tr.join(", ") } : {}), exact: true, pinned: true });
+      }
       if (m.length) found[w.id] = m; else none.push(`${w.id}: 검색 ${items.length}건 중 일치 0`);
     } catch (e) { none.push(`${w.id}: ${(e as Error).message}`); if (/429|quota|한도/i.test(String(e))) break; }
     await sleep(P.lang === "ko" ? 350 : 700);

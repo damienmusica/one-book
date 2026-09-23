@@ -199,10 +199,18 @@ export function openAt(g, lit, week, turn = 0) {
   if (picked.length) return { ...picked[turn % picked.length], first: false };
   // 아직 아무 표시도 없다 — 도판 중에서, **한국어로 구할 수 있는 책이 있는** 사람을 결정론적으로.
   // 첫인사가 "원제로 검색해 보라"이면 15분 안에 표시할 책이 없다. (ke 가 없는 그래프는 거르지 않는다.)
-  const plates = g.raw.authors.filter((a) => a.d === "plate" && a.w > 0 && (a.ke === undefined || a.ke > 0));
-  plates.sort((a, b) => hash(`${wk}|${a.i}`) - hash(`${wk}|${b.i}`));
-  const pick = plates[turn % Math.max(plates.length, 1)];
-  return pick ? { id: pick.i, kind: "first", from: null, why: "", score: 0, first: true } : null;
+  const id = firstOpen(g.raw.authors.filter((a) => a.d === "plate" && a.w > 0 && (a.ke === undefined || a.ke > 0)).map((a) => a.i), wk, turn);
+  return id ? { id, kind: "first", from: null, why: "", score: 0, first: true } : null;
+}
+
+/**
+ * 첫인사 — 표시가 없는 독자에게 이번 주에 열리는 쪽. 주차와 「다른 쪽」 횟수와 적격 목록만 쓴다(본 기록도 그래프도
+ * 쓰지 않는다). 그래서 첫 장은 그래프(수백 KB) 없이, HTML 에 실린 적격 목록만으로 같은 사람을 연다.
+ */
+export function firstOpen(ids, week, turn = 0) {
+  const wk = week === undefined ? isoWeek() : week;
+  const list = [...ids].sort((a, b) => hash(`${wk}|${a}`) - hash(`${wk}|${b}`));
+  return list.length ? list[turn % list.length] : null;
 }
 
 // ── 3. 도감 계수 ─────────────────────────────────────────────────────────────

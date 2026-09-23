@@ -8,6 +8,7 @@
 // matched to the plate's unconfirmed claims in order, falling back to field+claim equality. The ledger is what
 // `mark-reviewed.ts` reads, and what a person samples when auditing the machine (decision 34).
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { isLeak, isOpen } from "./lib/closeread.ts";
 
 type Raw = Record<string, any>;
 const args = process.argv.slice(2);
@@ -38,7 +39,7 @@ for (const f of list("--reverdicts")) {
 for (const f of list("--fixes")) {
   for (const fx of JSON.parse(readFileSync(f, "utf8")).fixes ?? []) {
     const p = byId.get(fx.id); if (!p) { unmatched++; continue; }
-    const open = p.claims.filter((c: Raw) => c.verdict !== "confirmed");
+    const open = p.claims.filter((c: Raw) => c.verdict !== "confirmed" || isLeak(c));
     (fx.resolutions ?? []).forEach((r: Raw, i: number) => {
       const target = open.find((c: Raw) => c.field === r.field && c.claim === r.claim) ?? open[i];
       if (!target) { unmatched++; return; }
@@ -51,7 +52,7 @@ ledger.updatedAt = new Date().toISOString().slice(0, 10);
 const T = { plates: ledger.plates.length, claims: 0, confirmed: 0, contradicted: 0, unverifiable: 0, pending: 0, open: 0 };
 for (const p of ledger.plates) for (const c of p.claims) {
   T.claims++; (T as any)[c.verdict]++;
-  if (c.verdict !== "confirmed") { if (c.resolution === "pending") T.pending++; else if (!c.resolution) T.open++; }
+  if (c.resolution === "pending") T.pending++; else if (isOpen(c)) T.open++;
 }
 ledger.totals = T;
 writeFileSync(out, JSON.stringify(ledger, null, 2) + "\n");

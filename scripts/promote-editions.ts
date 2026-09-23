@@ -80,7 +80,7 @@ for (const [workId, list] of Object.entries(cands.found as Record<string, Raw[]>
   let pool = list.filter((c) => !translation || c.translator);
   if (translation && !pool.length && list.length) skippedNoTranslator++;
   pool = pool.filter((c) => !c.note); // 어린이·축약 표시가 붙은 것은 판정 없이 올리지 않는다
-  pool.sort((x, y) => Number(canon(LANG, y.publisher)) - Number(canon(LANG, x.publisher)) || Number(preferred(LANG, y.publisher)) - Number(preferred(LANG, x.publisher))
+  pool.sort((x, y) => Number(Boolean(y.pinned)) - Number(Boolean(x.pinned)) || Number(canon(LANG, y.publisher)) - Number(canon(LANG, x.publisher)) || Number(preferred(LANG, y.publisher)) - Number(preferred(LANG, x.publisher))
     || Number((y.status ?? "정상판매") === "정상판매") - Number((x.status ?? "정상판매") === "정상판매")
     || Number(y.exact) - Number(x.exact) || y.year - x.year);
   pools.set(workId, { w, a, pool, picked: [], seen: new Set() });
@@ -114,7 +114,7 @@ const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
 };
 for (const pass of ["exact", "rest"] as const)
   for (const st of pools.values())
-    for (const c of st.pool) { if (st.picked.length >= MAX) break; if (pass === "exact" ? !c.exact : c.exact) continue; if (pass === "rest" && st.picked.length >= 2) break; take(c, st); } // 합본·수록은 정확 제목이 둘 미만일 때만
+    for (const c of st.pool) { const ex = Boolean(c.exact || c.pinned); if (st.picked.length >= MAX) break; if (pass === "exact" ? !ex : ex) continue; if (pass === "rest" && st.picked.length >= 2) break; take(c, st); } // 합본·수록은 정확 제목이 둘 미만일 때만 — 고정판(pinned)은 조회로 판정된 것이라 정확 제목과 같이 먼저 간다
 for (const [workId, st] of pools) {
   const existing: Raw[] = ledger.editions[workId] ?? [];
   if (!st.picked.length) { noPick.push(workId); continue; }

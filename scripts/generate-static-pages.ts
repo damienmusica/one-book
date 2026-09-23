@@ -876,6 +876,7 @@ el.addEventListener("click", (e) => { if (e.target.closest(".mark-ladder button"
 // 제품에서 이 차이가 재방문 전체를 만든다.
 let walkDataPath = "";
 function walkPage(): string {
+  const sealSl = (a: Author) => (SEAL_LETTERS[a.id] || a.languages[0] === "hu" ? sealGlyphs(a.names.original || a.names.ko, sealRule(a)).glyphs : undefined);
   const capsule = Object.fromEntries(
     d.authors.map((a) => {
       const works = worksOf(a.id);
@@ -889,19 +890,20 @@ function walkPage(): string {
       const hops = relsOf(a.id)
         .sort((x, y) => (y.weight ?? 0.7) - (x.weight ?? 0.7))
         .slice(0, 3)
-        .map((r) => ({
-          to: r.sourceId === a.id ? r.targetId : r.sourceId,
-          g: GLYPH[relationGlyph(r, a.id)] ?? "·",
-          t: REL_KO[r.type] ?? r.type,
-          s: r.summary
-        }));
+        .map((r) => {
+          const to = r.sourceId === a.id ? r.targetId : r.sourceId;
+          const o = byId.get(to);
+          // 다음 걸음의 사람은 이름과 인장만 있으면 그려진다 — 그 사람의 캡슐을 따로 받지 않는다.
+          return { to, k: o?.names.ko ?? to, o: o?.names.original, pv: o && proved(o) ? 1 : 0, sl: o ? sealSl(o) : undefined,
+            g: GLYPH[relationGlyph(r, a.id)] ?? "·", t: REL_KO[r.type] ?? r.type, s: r.summary };
+        });
       return [
         a.id,
         {
           ko: a.names.ko,
           or: a.names.original,
           al: a.names.aliases.length ? a.names.aliases : undefined,
-          sl: SEAL_LETTERS[a.id] || a.languages[0] === "hu" ? sealGlyphs(a.names.original || a.names.ko, sealRule(a)).glyphs : undefined,
+          sl: sealSl(a),
           life: `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")}`,
           why: a.importanceReason ? firstSentence(a.importanceReason) : "",
           depth: a.depth ?? "plate",
@@ -915,8 +917,17 @@ function walkPage(): string {
     })
   );
   const STARTS = ["franz-kafka", "jorge-luis-borges", "virginia-woolf"].filter((id) => byId.has(id));
-  walkDataPath = `/walk-${createHash("sha256").update(JSON.stringify(capsule)).digest("hex").slice(0, 10)}.json`;
-  writeFileSync(join(OUT, walkDataPath.slice(1)), JSON.stringify(capsule));
+  // 첫 장이 받는 것은 한 사람이다. 1,806명분 캡슐(1.2MB)을 한 파일로 싣던 시절, 느린 망에서 이번 주의 쪽이 뜨기까지
+  // 13초가 걸렸다(2026-09-23 실측). 작가마다 한 파일, 문의 이름 색인은 한 파일(내용 해시가 이름) — 입력칸을 누를 때 받는다.
+  mkdirSync(join(OUT, "walk"), { recursive: true });
+  for (const [id, c] of Object.entries(capsule)) writeFileSync(join(OUT, "walk", `${id}.json`), JSON.stringify(c));
+  const nameIndex = d.authors.map((a) => [a.id, a.names.ko, a.names.original, (a.depth ?? "plate")[0], ...(a.names.aliases.length ? [a.names.aliases] : [])]);
+  walkDataPath = `/walk-${createHash("sha256").update(JSON.stringify(nameIndex)).digest("hex").slice(0, 10)}.json`;
+  writeFileSync(join(OUT, walkDataPath.slice(1)), JSON.stringify(nameIndex));
+  // 첫인사의 적격 목록 — atlas.js firstOpen 과 같은 조건(도판 · 작품 있음 · 한국어 판본 있음). 그래프 없이 같은 사람이 열린다.
+  const firstIds = d.authors
+    .filter((a) => (a.depth ?? "plate") === "plate" && worksOf(a.id).length > 0 && worksOf(a.id).some((w) => (d.editions.editions[w.id] ?? []).some((e) => e.language === "ko")))
+    .map((a) => a.id);
   const body = `
 <div class="spread">
 <section class="verso">
@@ -936,8 +947,15 @@ function walkPage(): string {
 <section class="recto"><div id="app"><p class="sig">책을 펴는 중…</p></div></section>
 </div>
 <script>
-var DATA={};
+var DATA={};var NAMES=null;
+var FIRST=${JSON.stringify(firstIds)};var TOTAL=${d.authors.length};
 var STARTS=${JSON.stringify(STARTS)};
+function cap(id){if(DATA[id])return Promise.resolve(DATA[id]);
+  return fetch('/walk/'+encodeURIComponent(id)+'.json').then(function(r){if(!r.ok)throw new Error('cap '+r.status);return r.json();}).then(function(j){DATA[id]=j;return j;});}
+function names(){if(NAMES)return Promise.resolve(NAMES);
+  return fetch('${walkDataPath}').then(function(r){if(!r.ok)throw new Error('names '+r.status);return r.json();}).then(function(j){NAMES=j;
+    document.getElementById('authors').innerHTML=j.filter(function(x){return x[3]==='p';}).map(function(x){return '<option value="'+h(x[1])+'">';}).join('');return j;});}
+function nameOf(id){if(DATA[id])return DATA[id].ko;if(NAMES)for(var i=0;i<NAMES.length;i++)if(NAMES[i][0]===id)return NAMES[i][1];return id;}
 var trail=[];
 function h(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
 // 인장 — 빌드의 sealSvg 와 같은 규칙의 작은 판(질감 필터 없음). 작가의 문자로 새기고 슬러그로 기운다.
@@ -948,7 +966,7 @@ function lpGlyphs(o){var L=Array.from(o||'').filter(function(c){return /\\p{L}/u
   var ws=(o||'').split(/[\\s\\-]+/).filter(function(w){return /\\p{L}/u.test(w);});var last=ws[ws.length-1]||o;
   var g=Array.from(last).filter(function(x){return /\\p{L}/u.test(x);})[0]||c;
   return [/\\p{Script=Latin}|\\p{Script=Cyrillic}|\\p{Script=Greek}/u.test(g)?g.toLocaleUpperCase():g];}
-function lpSeal(id,o,pv,cls,tone){var g=(DATA[id]&&DATA[id].sl)||lpGlyphs(o);var hh=2166136261;for(var i=0;i<id.length;i++)hh=Math.imul(hh^id.charCodeAt(i),16777619)>>>0;
+function lpSeal(id,o,pv,cls,tone,sl){var g=sl||(DATA[id]&&DATA[id].sl)||lpGlyphs(o);var hh=2166136261;for(var i=0;i<id.length;i++)hh=Math.imul(hh^id.charCodeAt(i),16777619)>>>0;
   var rot=((hh%900)/100-4.5).toFixed(1);var u='j'+(++sealN);
   var pos=g.length===1?[[50,52,72]]:g.length===2?[[50,30,40],[50,72,40]]:[[70,30,38],[70,72,38],[30,30,38],[30,72,38]];
   var tx=function(extra){return g.map(function(x,i){return '<text x="'+pos[i][0]+'" y="'+pos[i][1]+'" font-size="'+pos[i][2]+'" text-anchor="middle" dominant-baseline="central" '+extra+'>'+h(x)+'</text>';}).join('');};
@@ -966,17 +984,16 @@ function lpWorks(a,withEntry){
 function render(id){
   var app=document.getElementById('app');
   if(!id){ openBook(app); return; }
-  var a=DATA[id];if(!a){openBook(app);return;}
+  cap(id).then(function(a){
   var html='';
-  html+=lpHead(id,a,trail.length>1?trail.map(function(t){return DATA[t].ko;}).join(' → '):'책의 한 쪽');
+  html+=lpHead(id,a,trail.length>1?trail.map(nameOf).join(' → '):'책의 한 쪽');
   if(a.depth==='silhouette'){
     html+='<p class="absent">아직 실루엣이다 — 이름과 자리만 안다. 이 사람의 쪽은 아직 비어 있다.</p>';
   } else if(a.why){ html+='<p class="lede">'+h(a.why)+'</p>'; }
   if(a.works.length){ html+='<h3 class="label" style="margin-top:26px">여기서 읽기 시작한다면</h3>'+lpWorks(a,true); }
   if(a.hops.length){
     html+='<h3 class="label" style="margin:26px 0 12px">다음 걸음 — 인연을 골라라</h3><ul class="rels">'+a.hops.map(function(x){
-      var o=DATA[x.to];if(!o)return '';
-      return '<li>'+lpSeal(x.to,o.or||o.ko,1,'xs','ink')+'<div class="who"><a href="#'+x.to+'" data-go="'+x.to+'">'+h(o.ko)+'</a>'+
+      return '<li>'+lpSeal(x.to,x.o||x.k,1,'xs','ink',x.sl)+'<div class="who"><a href="#'+x.to+'" data-go="'+x.to+'">'+h(x.k)+'</a>'+
       '<span class="rt">'+x.g+' '+h(x.t)+'</span></div><p class="sum">'+h(x.s)+'</p></li>';}).join('')+'</ul>';
   }
   html+='<div class="doors" style="margin-top:22px"><a class="go" href="/authors/'+id+'/">이 작가의 방(전체 기록)</a>'+
@@ -984,66 +1001,58 @@ function render(id){
   app.innerHTML=html;
   lpPaint();
   window.scrollTo(0,0);
+  }).catch(function(){trail=[];openBook(app);});
 }
 
 // ── 책이 열리는 쪽 ──────────────────────────────────────────────────────────
 // 묻지 않는다. 책이 이미 어느 쪽에서 열려 있고, 그 쪽은 당신이 읽은 것에서 한 걸음
 // 너머다. 표시가 아직 없으면 이번 주의 쪽이 열린다 — 매주 다른 쪽.
+function pageHtml(id,a,reason,why){
+  var html=lpHead(id,a,reason);
+  if(a.depth==='silhouette'&&!a.works.length)return html+'<p class="absent">아직 실루엣이다 — 이름과 자리만 안다.</p><div class="doors"><a class="go quiet" href="#" data-reopen="1">다른 쪽</a></div>';
+  if(why||a.why)html+='<p class="lede">'+h(why||a.why)+'</p>';
+  if(a.works.length)html+=lpWorks(a,false);
+  return html+'<div class="doors"><a class="go" href="#'+id+'" data-go="'+id+'">이 쪽을 펴기</a><a class="go quiet" href="#" data-reopen="1">다른 쪽</a></div>';}
+function censusLine(met,total,openNow){document.getElementById('census').innerHTML='만난 작가 <strong>'+met+'</strong> <span>/ '+total+'</span>'+(openNow?' · 지금 열린 쪽 <strong>'+openNow+'</strong>':'');}
+// 문해의 지도 — 접혀 있다. 표시가 없는 독자에게는 펼칠 때 그래프를 받는다(접힌 것을 위해 첫 장을 무겁게 하지 않는다).
+function literacyBlock(A,g,lit){
+  var el=document.getElementById('below');
+  var fill=function(g2){var L=A.literacy(g2,lit||new Map());
+    var bar=function(row){var pct=row.total?Math.round(row.met/row.total*100):0;
+      return '<li><span class="t">'+h(row.ko)+'</span><span class="m"><i style="width:'+pct+'%"></i></span><span class="y">'+row.met+'/'+row.total+'</span></li>';};
+    return '<p class="sig">배지가 아니다. 어디를 지도 없이 읽을 수 있는지를 말한다.</p>'+
+      '<h3>권역</h3><ul class="meters">'+L.regions.map(bar).join('')+'</ul><h3>시대</h3><ul class="meters">'+L.periods.map(bar).join('')+'</ul>';};
+  el.innerHTML='<details class="literacy"><summary>문해의 지도 — 어느 영역이 열려 있는가</summary><div class="lit-body">'+(g?fill(g):'')+'</div></details>';
+  if(!g){var d=el.querySelector('details');d.addEventListener('toggle',function(){if(!d.open||d.getAttribute('data-filled'))return;d.setAttribute('data-filled','1');
+    A.graph().then(function(g2){d.querySelector('.lit-body').innerHTML=fill(g2);});});}
+}
 function openBook(app){
   app.innerHTML='<p class="sig">책을 펴는 중…</p>';
+  var marks=Object.keys((lpLoad().state)||{}).length;
   import('/atlas.js').then(function(A){
+    var wk=A.isoWeek();var turn=0;
+    try{var tv=JSON.parse(sessionStorage.getItem('lp.turn.v1')||'null');if(tv&&tv.wk===wk)turn=tv.n|0;}catch(_){}
+    if(!marks){
+      // 표시가 없는 독자 — 그래프 없이. 적격 목록(FIRST)과 주차만으로 atlas.openAt 과 같은 사람이 열린다.
+      var id=A.firstOpen(FIRST,wk,turn);
+      censusLine(0,TOTAL,0);literacyBlock(A,null,null);
+      if(!id){app.innerHTML='';return;}
+      A.markSeen(id);
+      return cap(id).then(function(a){app.innerHTML=pageHtml(id,a,'이번 주에 열린 쪽','');lpPaint();});
+    }
     return A.graph().then(function(g){
       var lit=A.litAuthors(A.readerState());
-      var wk=A.isoWeek();var turn=0;
-      try{var tv=JSON.parse(sessionStorage.getItem('lp.turn.v1')||'null');if(tv&&tv.wk===wk)turn=tv.n|0;}catch(_){}
       var open=A.openAt(g,lit,wk,turn);
       var c=A.census(g,lit);
-      var html='';
-      if(open){
-        var a=DATA[open.id];
-        var node=g.byId.get(open.id);
-        var ko=a?a.ko:(node?node.k:open.id);
-        var reason=open.first
-          ? '이번 주에 열린 쪽'
-          : (A.KIND_KO[open.kind]?A.KIND_KO[open.kind]((DATA[open.from]&&DATA[open.from].ko)||(g.byId.get(open.from)||{}).k||open.from,lit.get(open.from)):'');
-        A.markSeen(open.id);
-        if(a){
-          html+=lpHead(open.id,a,reason);
-          if(open.why){html+='<p class="lede">'+h(open.why)+'</p>';}
-          else if(a.why){html+='<p class="lede">'+h(a.why)+'</p>';}
-          if(a.works.length){html+=lpWorks(a,false);}
-          html+='<div class="doors"><a class="go" href="#'+open.id+'" data-go="'+open.id+'">이 쪽을 펴기</a>'+
-            '<a class="go quiet" href="#" data-reopen="1">다른 쪽</a></div>';
-        } else {
-          html+='<p class="label">'+h(reason)+'</p><h2 class="name">'+h(ko)+'</h2><p class="absent">아직 실루엣이다 — 이름과 자리만 안다.</p>'+
-            '<div class="doors"><a class="go quiet" href="#" data-reopen="1">다른 쪽</a></div>';
-        }
-      }
-      // 도감 계수 — 목표도 퍼센트도 없다. 세계가 얼마나 열렸는가만.
-      // 도감 계수 + 문해의 지도. 지도는 접어 둔다 — 펼치는 것은 독자의 선택이고,
-      // 접힌 것은 페이지 예산에 세지 않는다.
-      document.getElementById('census').innerHTML='만난 작가 <strong>'+c.met+'</strong> <span>/ '+c.total+'</span>'+
-        (c.openNow?' · 지금 열린 쪽 <strong>'+c.openNow+'</strong>':'');
-      var L=A.literacy(g,lit);
-      var bar=function(row){
-        var pct=row.total?Math.round(row.met/row.total*100):0;
-        return '<li><span class="t">'+h(row.ko)+'</span>'+
-          '<span class="m"><i style="width:'+pct+'%"></i></span>'+
-          '<span class="y">'+row.met+'/'+row.total+'</span></li>';
-      };
-      document.getElementById('below').innerHTML=
-        '<details class="literacy"><summary>문해의 지도 — 어느 영역이 열려 있는가</summary>'+
-        '<p class="sig">배지가 아니다. 어디를 지도 없이 읽을 수 있는지를 말한다.</p>'+
-        '<h3>권역</h3><ul class="meters">'+L.regions.map(bar).join('')+'</ul>'+
-        '<h3>시대</h3><ul class="meters">'+L.periods.map(bar).join('')+'</ul></details>';
-      app.innerHTML=html;
-      lpPaint();
+      censusLine(c.met,c.total,c.openNow);literacyBlock(A,g,lit);
+      if(!open){app.innerHTML='';return;}
+      var reason=open.first?'이번 주에 열린 쪽'
+        :(A.KIND_KO[open.kind]?A.KIND_KO[open.kind]((g.byId.get(open.from)||{}).k||open.from,lit.get(open.from)):'');
+      A.markSeen(open.id);
+      return cap(open.id).then(function(a){app.innerHTML=pageHtml(open.id,a,reason,open.why);lpPaint();});
     });
-  }).catch(function(e){
-    // 엔진이 없어도 책은 열린다 — 도판 하나를 결정론적으로.
-    var ids=Object.keys(DATA).filter(function(k){return DATA[k].works.length;}).sort();
-    var pick=ids[(new Date().getFullYear()*53+Math.floor(Date.now()/604800000))%ids.length];
-    trail=[pick];render(pick);
+  }).catch(function(){
+    app.innerHTML='<p class="absent">책을 펴지 못했다 — 잠시 뒤 다시 시도해 주세요. '+'<a href="/authors/">색인</a>은 지금도 열려 있다.</p>';
   });
 }
 // 클릭 위임 — 인라인 핸들러는 TS 템플릿 안의 JS 문자열 안의 따옴표라 세 겹이 되고,
@@ -1065,31 +1074,26 @@ document.getElementById('door').addEventListener('submit',function(e){e.preventD
   var inp=document.getElementById('anchor');var miss=document.getElementById('miss');var v=(inp.value||'').trim();miss.textContent='';if(!v)return;
   // 이름·원어·별칭(도스토예프스키/도스토옙스키)을 띄어쓰기와 점을 빼고 견준다. 하나만 걸리면 편다,
   // 여럿이면 고르게 한다, 없으면 「없다」가 아니라 「못 찾았다」 — 색인이 그 말을 받아 다시 찾는다.
-  var n=lpNorm(v),k,hit=null,part=[];
-  for(k in DATA){var a=DATA[k];if(lpNorm(a.ko)===n||lpNorm(a.or)===n||(a.al||[]).some(function(x){return lpNorm(x)===n;})){hit=k;break;}}
-  if(!hit){for(k in DATA){var b=DATA[k];var hay=[b.ko,b.or||''].concat(b.al||[]).map(lpNorm);
-      if(hay.some(function(x){return x&&(x.indexOf(n)>=0||(n.length>=4&&x.indexOf(n.slice(0,3))===0&&Math.abs(x.length-n.length)<=2));}))part.push(k);}
-    var pl=part.filter(function(x){return DATA[x].depth==='plate';});if(pl.length)part=pl;
-    if(part.length===1)hit=part[0];}
-  if(hit){go(hit);return;}
-  if(part.length>1){miss.innerHTML='여럿이 걸린다 — '+part.slice(0,4).map(function(x){return '<a href="#'+x+'" data-go="'+x+'">'+h(DATA[x].ko)+'</a>';}).join(' · ');return;}
-  miss.innerHTML='이 이름으로는 찾지 못했다 — <a href="/authors/?q='+encodeURIComponent(v)+'">색인에서 「'+h(v)+'」 찾기</a>';});
+  names().then(function(N){
+    var n=lpNorm(v),hit=null,part=[];
+    var keys=function(x){return [x[1],x[2]||''].concat(x[4]||[]).map(lpNorm);};
+    for(var i=0;i<N.length;i++){if(keys(N[i]).some(function(k){return k===n;})){hit=N[i][0];break;}}
+    if(!hit){for(var j=0;j<N.length;j++){if(keys(N[j]).some(function(x){return x&&(x.indexOf(n)>=0||(n.length>=4&&x.indexOf(n.slice(0,3))===0&&Math.abs(x.length-n.length)<=2));}))part.push(N[j]);}
+      var pl=part.filter(function(x){return x[3]==='p';});if(pl.length)part=pl;
+      if(part.length===1)hit=part[0][0];}
+    if(hit){go(hit);return;}
+    if(part.length>1){miss.innerHTML='여럿이 걸린다 — '+part.slice(0,4).map(function(x){return '<a href="#'+x[0]+'" data-go="'+x[0]+'">'+h(x[1])+'</a>';}).join(' · ');return;}
+    miss.innerHTML='이 이름으로는 찾지 못했다 — <a href="/authors/?q='+encodeURIComponent(v)+'">색인에서 「'+h(v)+'」 찾기</a>';
+  }).catch(function(){miss.innerHTML='이름 색인을 받지 못했다 — <a href="/authors/?q='+encodeURIComponent(v)+'">색인에서 「'+h(v)+'」 찾기</a>';});});
 function lpNorm(s){return (s||'').toLowerCase().replace(/[\s·.,\-_'’]/g,'');}
 document.getElementById('anchor').addEventListener('change',function(){if(this.value)document.getElementById('door').requestSubmit&&document.getElementById('door').requestSubmit();});
 function lpControl(id,t,y,a){
   return '<div class="mark" data-work="'+id+'" data-state="" data-t="'+h(t||'')+'" data-y="'+(y||0)+'" data-a="'+h(a||'')+'"><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>';
 }
-// 캡슐을 받고서 시작한다. 받지 못하면 첫 장은 빈 화면이 아니라 문장 하나를 남긴다.
-fetch('${walkDataPath}').then(function(r){return r.json();}).then(function(j){
-  DATA=j;
-  document.getElementById('authors').innerHTML=Object.keys(DATA).filter(function(k){return DATA[k].depth==='plate';}).map(function(k){return '<option value="'+h(DATA[k].ko)+'">';}).join('');
-  var start=location.hash.replace('#','');
-  if(start&&DATA[start]){trail=[start];render(start);}else{render(null);}
-}).catch(function(){
-  document.getElementById('app').innerHTML=
-    '<p class="absent">책을 펴지 못했다 — 잠시 뒤 다시 시도해 주세요. ' +
-    '<a href="/authors/">색인</a>은 지금도 열려 있다.</p>';
-});
+// 시작 — 주소에 사람이 있으면 그 쪽을, 없으면 책이 열린 쪽을. 이름 색인은 문을 두드릴 때 받는다.
+(function(){var start=location.hash.replace('#','');
+  if(start){trail=[start];render(start);}else{render(null);}
+  document.getElementById('anchor').addEventListener('focus',function(){names().catch(function(){});},{once:true});})();
 </script>`;
   return page({
     title: "하나의 책 — 세계문학의 지도",

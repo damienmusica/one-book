@@ -394,7 +394,21 @@ console.log("\n첫 장 — 한 사람을 보러 온 사람에게 1,465명을 보
   check("캡슐은 내용 해시가 이름인 별도 파일이다", Boolean(m), m?.[0] ?? "(없음)");
   const cap = await fetch(`${server.origin}${m[0]}`);
   check("그 파일이 실제로 선다", cap.ok, `HTTP ${cap.status}`);
+  // 첫 방문 독자(표시 없음)는 이번 주의 한 사람만 받는다 — 그래프(수백 KB)도 이름 색인도 입력 전에는 받지 않는다.
+  // 2026-09-23 실측: 캡슐 1.2MB + 그래프 605KB 를 먼저 받아 느린 망에서 첫 쪽이 13초 뒤에 떴다.
+  {
+    const got = [];
+    const on = (r) => { const u = r.url(); if (/\.json(\?|$)/.test(u)) got.push(u.replace(server.origin, "")); };
+    await page.evaluate(() => localStorage.clear());
+    page.on("request", on);
+    await page.goto(`${server.origin}/`, { waitUntil: "networkidle" });
+    page.off("request", on);
+    const heavy = got.filter((u) => /graph\.json|\/walk-[0-9a-f]+\.json/.test(u));
+    check("첫 방문 독자는 입력 전에 그래프도 이름 색인도 받지 않는다 — 한 사람의 캡슐뿐", heavy.length === 0 && got.some((u) => /^\/walk\/[a-z0-9-]+\.json$/.test(u)), got.join(" "));
+    check("그래도 이번 주의 쪽이 선다", (await page.locator("#app h2").count()) === 1 && /이번 주에 열린 쪽/.test(await page.locator("#app").innerText()));
+  }
   // 캡슐을 못 받는 날에도 빈 화면을 주지 않는다
+  await page.route("**/walk/**", (r) => r.abort());
   await page.route("**/walk-*.json", (r) => r.abort());
   await page.goto(`${server.origin}/`, { waitUntil: "load" });
   await page.waitForTimeout(700);
@@ -402,6 +416,7 @@ console.log("\n첫 장 — 한 사람을 보러 온 사람에게 1,465명을 보
   check("캡슐을 못 받아도 빈 화면이 아니다", /책을 펴지 못했다/.test(fallback), fallback.slice(0, 40));
   check("그 문장이 나갈 문을 준다", (await page.locator("#app a[href='/authors/']").count()) === 1);
   await page.unroute("**/walk-*.json");
+  await page.unroute("**/walk/**");
 }
 
 // ─── 서재 ────────────────────────────────────────────────────────────────────
