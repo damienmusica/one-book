@@ -213,6 +213,24 @@ if (hasRecord) {
   check("그래도 문은 열린다 — 검색 링크 3", (await page.locator('.doors a[href^="https://"]').count()) >= 3);
 }
 check("증언 블록이 살아 있다", body.includes("증언"));
+// 2026-09-23 견고성 심사: 긴 출판사 이름(nowrap)이 판본 있는 556쪽 중 28쪽을 옆으로 끌었다 — 최악 다섯을 손 안 폭에서 잰다.
+{
+  const ctx375 = await browser.newContext({ viewport: { width: 375, height: 812 }, locale: "ko-KR" });
+  const p375 = await ctx375.newPage();
+  const worst = ["william-shakespeare--sonnets", "ts-eliot--the-waste-land", "henry-lawson--the-drovers-wife", "roald-dahl--charlie-and-the-chocolate-factory", "jrr-tolkien--the-hobbit"];
+  const over = [];
+  for (const id of worst) {
+    const res = await p375.goto(`${server.origin}/works/${id}/`, { waitUntil: "load" });
+    if (!res || res.status() !== 200) { over.push(`${id}: HTTP ${res?.status()}`); continue; }
+    const ov = await p375.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+    if (ov > 0) over.push(`${id}: +${ov}px`);
+  }
+  check("긴 출판사 이름도 손 안에서 줄을 바꾼다 — 옆으로 새는 쪽 0", over.length === 0, over.join(" · ") || `${worst.length}쪽 모두 0`);
+  await p375.goto(`${server.origin}/works/flannery-oconnor--mystery-and-manners/`, { waitUntil: "load" });
+  const pubs = await p375.locator("table.eds td.pub").allInnerTexts();
+  check("출판사 칸에 목록의 찌꺼기(주소·괄호)가 없다", pubs.length > 0 && pubs.every((t) => !/^[\(\[]/.test(t) && !/WC1N/.test(t)), pubs.join(" · "));
+  await ctx375.close();
+}
 
 // ─── 죽은 표면으로 가는 링크가 없다 ──────────────────────────────────────────
 console.log("\n철거 확인");
@@ -395,6 +413,7 @@ check("시대와 함께 좁힌다 — 두 조건은 곱해진다", eaAnc > 0 && 
 await page.locator("#q").fill("zzzzz");
 await page.waitForTimeout(120);
 check("하나도 없으면 절 제목까지 접는다", (await page.locator(".idx:not([hidden])").count()) === 0);
+check("하나도 없으면 빈 화면이 아니라 문장이 선다 — 큰 제목의 수도 0 이다", /맞는 이름이 없다/.test(await page.locator("#none").innerText()) && (await page.locator("#none").isVisible()) && (await page.locator(".index-head .n").innerText()).trim() === "0");
 await page.goto(`${server.origin}/authors/?q=${encodeURIComponent("카프카")}`, { waitUntil: "load" });
 await page.waitForTimeout(150);
 check("첫 장의 문이 넘긴 이름(?q=)으로 색인이 바로 좁혀진다", (await page.locator("#q").inputValue()) === "카프카" && (await visibleRows()) >= 1 && (await visibleRows()) <= 5);
@@ -449,7 +468,22 @@ console.log("\n제3자 — 한 곳도 부르지 않는다");
   const fx = await fontBytes("/authors/");
   check("색인이 받는 활자는 1MB 아래다 (전집 한 벌)", fx.kb < 1024 && fx.subset >= 2, `${fx.files}개 ${fx.kb}KB · 전집 ${fx.subset}`);
   const fk = await fontBytes("/authors/franz-kafka/");
-  check("작가 쪽도 같은 한 벌을 쓴다 — 조각을 더 받지 않는다", fk.kb < 1024 && fk.files <= 4, `${fk.files}개 ${fk.kb}KB`);
+  check("작가 쪽도 같은 한 벌을 쓴다 — 조각을 더 받지 않는다", fk.kb < 1024 && fk.files <= 6, `${fk.files}개 ${fk.kb}KB`);
+  // 그리스 이름 58/58 이 가운데서 글꼴이 바뀌었다(ά 는 KR 폰트에 없다). 이제 한 이름은 한 글꼴이다 — 실제로 그린 글꼴을 CDP 로 묻는다.
+  await page.goto(`${server.origin}/authors/plato/`, { waitUntil: "networkidle" });
+  const cdp = await page.context().newCDPSession(page);
+  await cdp.send("DOM.enable"); await cdp.send("CSS.enable");
+  const { root } = await cdp.send("DOM.getDocument", { depth: -1 });
+  const { nodeId } = await cdp.send("DOM.querySelector", { nodeId: root.nodeId, selector: ".title-page .orig" });
+  const { fonts: platformFonts } = await cdp.send("CSS.getPlatformFontsForNode", { nodeId });
+  const fams = [...new Set(platformFonts.map((f) => f.familyName))];
+  check("Πλάτων 은 한 글꼴로 그려진다 — ά 가 시스템 글꼴로 떨어지지 않는다", fams.length === 1 && platformFonts.every((f) => f.isCustomFont), platformFonts.map((f) => `${f.familyName}:${f.glyphCount}`).join(" "));
+  await cdp.detach();
+  // 인장 글자는 성이다 — 별칭(Venerabilis)·존칭(Magnus)·부칭이 아니라. 헝가리는 성이 앞에 선다.
+  const sealLetter = async (id) => { await page.goto(`${server.origin}/authors/${id}/`, { waitUntil: "load" }); return (await page.locator(".title-page .seal").getAttribute("aria-label")) ?? ""; };
+  check("베다의 인장은 B 다 — Venerabilis 의 V 가 아니라", /— B\b/.test(await sealLetter("bede")), await sealLetter("bede"));
+  check("케르테스 임레의 인장은 K 다 — 헝가리는 성이 앞에 선다", /— K\b/.test(await sealLetter("imre-kertesz")), await sealLetter("imre-kertesz"));
+  check("세르반테스의 인장은 C 다", /— C\b/.test(await sealLetter("miguel-de-cervantes")), await sealLetter("miguel-de-cervantes"));
 }
 
 // ─── 첫 장의 문 — 표시가 없는 독자 (2026-09-20 독자 걸음 평가가 라이브에서 재현한 결함) ──

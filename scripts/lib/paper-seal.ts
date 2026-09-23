@@ -2,7 +2,8 @@
 // 손으로 고른 값은 0 이다. (설계와 근거: docs/design/2026-09/paper-seal/THESIS.md)
 //
 //  · 인장의 글자 = 원어 이름의 문자로. 한자·가나 → 이름 첫 글자(川·紫) / 한글 → 음절 초성(ㄱㅅㅇ) /
-//    그 밖 → 마지막 단어의 첫 자소, 대문자(K·А·م).
+//    그 밖 → 성(姓)의 첫 자소, 대문자(K·А·م). 성은 보통 마지막 낱말이다 — 헝가리는 첫 낱말이고, Sr./Jr./Ⅱ 는
+//    성이 아니며, 별칭·지명·부칭이 뒤에 붙는 옛 이름은 qc/seal-letters.json 이 판정한다.
 //  · 인장의 상태 = 검토. 붉은 백문은 "출처에 대본 쪽", 연필 점선은 "아직 대보지 않은 쪽". 다른 작가를
 //    가리키는 작은 인장은 먹색 — 한 쪽에 붉은 인장은 그 쪽 주인 하나다.
 //  · 기울기 = FNV(slug) → ±4.5°. 같은 K 도 같은 자국이 아니다.
@@ -29,18 +30,21 @@ export function scriptOf(s: string): Script {
   return "other";
 }
 
-export function sealGlyphs(original: string): { glyphs: string[]; script: Script } {
+export type SealRule = { glyph?: string; familyFirst?: boolean };
+const SUFFIX = /^(sr|jr|i{1,3}|iv|v)\.?$/i;
+export function sealGlyphs(original: string, rule: SealRule = {}): { glyphs: string[]; script: Script } {
   const script = scriptOf(original);
   const letters = graphemes(original).filter(isLetter);
+  if (rule.glyph) return { glyphs: [rule.glyph], script };
   if (!letters.length) return { glyphs: ["·"], script };
   if (script === "han" || script === "kana") return { glyphs: [letters[0]!], script };
   if (script === "hangul") {
     const cho = letters.filter((g) => g >= "가" && g <= "힣").map((g) => CHO[Math.floor((g.charCodeAt(0) - 0xac00) / 588)]!).slice(0, 4);
     return { glyphs: cho.length ? cho : [letters[0]!], script };
   }
-  const words = original.split(/[\s\-]+/).filter((w) => graphemes(w).some(isLetter));
-  const last = words[words.length - 1] ?? original;
-  const g = graphemes(last).find(isLetter) ?? letters[0]!;
+  const words = original.split(/[\s\-]+/).filter((w) => graphemes(w).some(isLetter) && !SUFFIX.test(w));
+  const family = (rule.familyFirst ? words[0] : words[words.length - 1]) ?? original;
+  const g = graphemes(family).find(isLetter) ?? letters[0]!;
   return { glyphs: [["latin", "cyrillic", "greek"].includes(script) ? g.toLocaleUpperCase() : g], script };
 }
 
@@ -54,13 +58,15 @@ let uid = 0;
 /** 한 쪽 안에서 SVG id 가 겹치지 않게 — 쪽을 그리기 시작할 때 부른다. */
 export const resetSealIds = (): void => { uid = 0; };
 
-export function sealSvg(o: { id: string; nameKo: string; original: string; proved: boolean; tone?: "red" | "ink"; cls?: string; texture?: boolean }): string {
-  const { glyphs, script } = sealGlyphs(o.original || o.nameKo);
+export function sealSvg(o: { id: string; nameKo: string; original: string; proved: boolean; tone?: "red" | "ink"; cls?: string; texture?: boolean; rule?: SealRule }): string {
+  const { glyphs, script } = sealGlyphs(o.original || o.nameKo, o.rule);
   const h = fnv(o.id);
   const rot = (h % 900) / 100 - 4.5;
   const id = `s${++uid}`;
-  const size = ({ han: 70, kana: 66, latin: 80, cyrillic: 78, greek: 76, hangul: 60, arabic: 86 } as Record<string, number>)[script] ?? 60;
-  const dy = ({ latin: 4, cyrillic: 4, greek: 4, arabic: -12 } as Record<string, number>)[script] ?? 1;
+  // 문자마다 글자의 몸이 다르다: 아랍 낱글자는 꼬리와 함자가 위아래로 길어 작게·조금 위에, 히브리·타이·타밀은
+  // 라틴 대문자 높이에 맞춰 키운다(2026-09-23 심사: 60 은 빈 돌 속의 작은 글자였다).
+  const size = ({ han: 70, kana: 66, latin: 80, cyrillic: 78, greek: 76, hangul: 60, arabic: 62, hebrew: 74 } as Record<string, number>)[script] ?? 60;
+  const dy = ({ latin: 4, cyrillic: 4, greek: 4, arabic: -5, hebrew: 2 } as Record<string, number>)[script] ?? -3; // 타이·타밀·벵골 모음 기호가 위아래로 뻗는다
   const pos: [number, number, number][] =
     glyphs.length === 1 ? [[50, 50 + dy, size]]
     : glyphs.length === 2 ? [[50, 30, 40], [50, 72, 40]]

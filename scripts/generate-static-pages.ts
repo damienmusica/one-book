@@ -18,7 +18,7 @@ import { GENRE_DEFS, LANGUAGE_LABELS, PERIOD_DEFS, REGION_DEFS, REGION_NEIGHBORS
 import type { Author, Edition, Relation, Work } from "../src/types.ts";
 import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/book/relations.ts";
 import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
-import { nameStance, resetSealIds, sealGlyphs, sealSvg, sizeClass } from "./lib/paper-seal.ts";
+import { nameStance, resetSealIds, sealGlyphs, sealSvg, sizeClass, type SealRule } from "./lib/paper-seal.ts";
 
 const BASE = "https://literary-planet.pages.dev";
 const outArg = process.argv.indexOf("--out");
@@ -46,9 +46,12 @@ const byId = new Map(d.authors.map((a) => [a.id, a]));
 type ArtEntry = { file: string; w: number; h: number; license?: string; provenance?: { title?: string; collection?: string; licence?: string } };
 const ART: Record<"marks" | "signatures" | "covers", Record<string, ArtEntry>> = JSON.parse(readFileSync(join(PKG_ROOT, "public", "art", "manifest.json"), "utf8"));
 const signatureOf = (authorId: string): ArtEntry | undefined => ART.signatures[authorId] ?? ART.marks[authorId];
+// 인장 글자 판정 원장 — 마지막 낱말이 성이 아닌 이름들. 헝가리 이름은 성이 앞에 선다.
+const SEAL_LETTERS: Record<string, { glyph: string; note: string }> = JSON.parse(readFileSync(join(PKG_ROOT, "qc", "seal-letters.json"), "utf8"));
+const sealRule = (a: Author): SealRule => ({ glyph: SEAL_LETTERS[a.id]?.glyph, familyFirst: a.languages[0] === "hu" });
 const proved = (a: Author): boolean => a.reviewStatus !== "draft";
 const seal = (a: Author, o: { tone?: "red" | "ink"; cls?: string; texture?: boolean } = {}): string =>
-  sealSvg({ id: a.id, nameKo: a.names.ko, original: a.names.original, proved: proved(a), ...o });
+  sealSvg({ id: a.id, nameKo: a.names.ko, original: a.names.original, proved: proved(a), rule: sealRule(a), ...o });
 const worksOf = (id: string): Work[] => d.works.filter((w) => w.authorId === id);
 const relsOf = (id: string): Relation[] =>
   d.relations.filter((r) => r.sourceId === id || r.targetId === id);
@@ -690,13 +693,14 @@ function indexPage(): string {
   const names = (a: Author): string => [a.names.ko, a.names.original, ...a.names.aliases].join(" ").toLowerCase();
   const titles = (a: Author): string => worksOf(a.id).map((w) => w.titleKo).join("|");
   const row = (a: Author): string =>
-    `<li data-h="${esc(hay(a))}" data-n="${esc(names(a))}" data-t="${esc(titles(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/"><span class="chop${proved(a) ? "" : " d"}" aria-hidden="true">${esc(sealGlyphs(a.names.original || a.names.ko).glyphs[0] ?? "·")}</span><span class="k">${esc(a.names.ko)}</span>${a.names.original && a.names.original !== a.names.ko ? `<span class="o">${esc(a.names.original)}</span>` : ""}<span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span><span class="hit"></span></a></li>`;
+    `<li data-h="${esc(hay(a))}" data-n="${esc(names(a))}" data-t="${esc(titles(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/"><span class="chop${proved(a) ? "" : " d"}" aria-hidden="true">${esc(sealGlyphs(a.names.original || a.names.ko, sealRule(a)).glyphs[0] ?? "·")}</span><span class="k">${esc(a.names.ko)}</span>${a.names.original && a.names.original !== a.names.ko ? `<span class="o">${esc(a.names.original)}</span>` : ""}<span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span><span class="hit"></span></a></li>`;
   const regionsUsed = REGION_DEFS.filter((r) => d.authors.some((a) => a.regions.includes(r.id)));
   const periodsUsed = PERIOD_DEFS.filter((pd) => d.authors.some((a) => a.periods.includes(pd.id)));
   const body = `
 <header class="index-head">
 <h1 class="name m">색인 <span class="n">${d.authors.length}</span></h1>
 <p class="index-lede">도판 ${plates.length}인은 쪽이 채워졌고,${sketches.length ? ` 스케치 ${sketches.length}인은 한 문장을 얻었으며,` : ""} 실루엣 ${sils.length}인은 이름과 자리로 서 있다.</p>
+<p class="none" id="none" role="status" hidden></p>
 </header>
 <div class="find">
   <div class="line"><input type="search" id="q" placeholder="이름이나 책 제목으로 찾기" autocomplete="off" spellcheck="false"></div>
@@ -753,6 +757,10 @@ ${sils.map(row).join("\n")}
         if(hn){if(!hn.getAttribute("data-all"))hn.setAttribute("data-all",hn.textContent);hn.textContent=(s||r||p)?String(vis):hn.getAttribute("data-all");}}
     });
     cnt.textContent = (s||r||p) ? n+"인" : "";
+    // 큰 제목의 수도 지금 보이는 수다. 0 이면 빈 화면이 아니라 문장이 선다 — 문에서 넘어온 독자가 서는 자리다.
+    var hd=document.querySelector(".index-head .n"); if(hd){if(!hd.getAttribute("data-all"))hd.setAttribute("data-all",hd.textContent);hd.textContent=(s||r||p)?String(n):hd.getAttribute("data-all");}
+    var none=document.getElementById("none");
+    if(none){if(n===0&&(s||r||p)){none.textContent=(s?"「"+q.value.trim()+"」에 맞는 이름이 없다":"이 조건에 맞는 사람이 없다")+" — 책 제목이나 원어 이름으로도 찾는다. 스케치와 실루엣도 한 색인이다.";none.hidden=false;}else{none.hidden=true;}}
   }
   q.addEventListener("input",run); fr.addEventListener("change",run); fp.addEventListener("change",run);
   try{var pq=new URLSearchParams(location.search).get("q");if(pq){q.value=pq;run();}}catch(e){}
@@ -878,6 +886,7 @@ function walkPage(): string {
           ko: a.names.ko,
           or: a.names.original,
           al: a.names.aliases.length ? a.names.aliases : undefined,
+          sl: SEAL_LETTERS[a.id] || a.languages[0] === "hu" ? sealGlyphs(a.names.original || a.names.ko, sealRule(a)).glyphs : undefined,
           life: `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")}`,
           why: a.importanceReason ? firstSentence(a.importanceReason) : "",
           depth: a.depth ?? "plate",
@@ -924,7 +933,7 @@ function lpGlyphs(o){var L=Array.from(o||'').filter(function(c){return /\\p{L}/u
   var ws=(o||'').split(/[\\s\\-]+/).filter(function(w){return /\\p{L}/u.test(w);});var last=ws[ws.length-1]||o;
   var g=Array.from(last).filter(function(x){return /\\p{L}/u.test(x);})[0]||c;
   return [/\\p{Script=Latin}|\\p{Script=Cyrillic}|\\p{Script=Greek}/u.test(g)?g.toLocaleUpperCase():g];}
-function lpSeal(id,o,pv,cls,tone){var g=lpGlyphs(o);var hh=2166136261;for(var i=0;i<id.length;i++)hh=Math.imul(hh^id.charCodeAt(i),16777619)>>>0;
+function lpSeal(id,o,pv,cls,tone){var g=(DATA[id]&&DATA[id].sl)||lpGlyphs(o);var hh=2166136261;for(var i=0;i<id.length;i++)hh=Math.imul(hh^id.charCodeAt(i),16777619)>>>0;
   var rot=((hh%900)/100-4.5).toFixed(1);var u='j'+(++sealN);
   var pos=g.length===1?[[50,52,72]]:g.length===2?[[50,30,40],[50,72,40]]:[[70,30,38],[70,72,38],[30,30,38],[30,72,38]];
   var tx=function(extra){return g.map(function(x,i){return '<text x="'+pos[i][0]+'" y="'+pos[i][1]+'" font-size="'+pos[i][2]+'" text-anchor="middle" dominant-baseline="central" '+extra+'>'+h(x)+'</text>';}).join('');};

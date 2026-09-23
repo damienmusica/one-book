@@ -84,9 +84,19 @@ for (const [workId, list] of Object.entries(cands.found as Record<string, Raw[]>
     || Number(y.exact) - Number(x.exact) || y.year - x.year);
   pools.set(workId, { w, a, pool, picked: [], seen: new Set() });
 }
+// 도서관 목록의 출판사 칸에는 주소·괄호·오타가 딸려 온다. 판정 원장(qc/publisher-fixes.json)이 아는 것은 고치고,
+// 괄호로 시작하거나 우편번호가 든 것은 고쳐지지 않은 채로는 올리지 않는다 — 표지에 찍힌 이름만 표에 선다.
+const PUB_FIX: Record<string, string> = JSON.parse(readFileSync("qc/publisher-fixes.json", "utf8"));
+const cleanPublisher = (raw: string): string | undefined => {
+  const p = PUB_FIX[raw] ?? raw;
+  if (/^[\(\[]/.test(p) || /\b[A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}\b/.test(p)) return undefined;
+  return p;
+};
 const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
   if (!/^97[89]\d{10}$/.test(String(c.isbn13))) return; // 유통 바코드(480…)는 ISBN 이 아니다
-  if (!String(c.publisher ?? "").trim() || !String(c.title ?? "").trim()) return; // 출판사·제목 없는 레코드는 올리지 않는다
+  const pub = cleanPublisher(String(c.publisher ?? "").trim());
+  if (!pub || !String(c.title ?? "").trim()) return; // 출판사·제목 없는(또는 목록 찌꺼기인) 레코드는 올리지 않는다
+  c = { ...c, publisher: pub };
   if (basis[c.isbn13]?.sourceTextBasis === "adaptation") return; // 축약·재화로 판정된 판은 「구하기」에 올리지 않는다
   if (EXCLUDED[c.isbn13]) return;
   const k = `${c.publisher}|${c.translator ?? ""}`;
