@@ -195,7 +195,14 @@ export function openAt(g, lit, week, turn = 0) {
   rest.sort((a, b) => b.w - a.w);
   // `turn` 은 독자가 「다른 쪽」을 누른 횟수다. 같은 주·같은 독자의 순서는 고정이고(오솔길), 누를 때마다
   // 그 순서의 다음 사람이 온다 — 다시 계산해서 같은 답에 도착하는 버튼은 죽은 버튼이다.
-  const picked = first.concat(rest);
+  let picked = first.concat(rest);
+  // 한 사람의 표시가 매주를 독차지하지 않게 — 표시한 작가마다 차례가 온다. 「읽은 책」 하나가 12주 내내 모든 쪽을
+  // 냈고, 나중에 표시한 한강·하루키는 한 번도 쪽을 열지 못했다(2026-09-24 감사). 순서는 여전히 이 주 안에서 고정이다.
+  const sources = [...new Set(picked.map((p) => p.from))];
+  if (sources.length > 1) {
+    const lead = sources[wk % sources.length];
+    picked = picked.filter((p) => p.from === lead).concat(picked.filter((p) => p.from !== lead));
+  }
   if (picked.length) return { ...picked[turn % picked.length], first: false };
   // 아직 아무 표시도 없다 — 도판 중에서, **한국어로 구할 수 있는 책이 있는** 사람을 결정론적으로.
   // 첫인사가 "원제로 검색해 보라"이면 15분 안에 표시할 책이 없다. (ke 가 없는 그래프는 거르지 않는다.)

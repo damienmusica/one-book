@@ -280,3 +280,12 @@ describe("문해의 지도와 색인은 같은 이름을 쓴다", () => {
     expect(PERIOD_KO).toEqual(Object.fromEntries(PERIOD_DEFS.map((p) => [p.id, p.ko])));
   });
 });
+
+describe("돌아온 독자 — 한 표시가 매주를 독차지하지 않는다", () => {
+  it("표시한 작가가 둘이면 두 주 사이에 둘 다 쪽을 연다", () => {
+    const g = buildGraph([A("kafka"), A("marquez"), A("hangang"), A("bae")], [E("kafka", "marquez"), E("hangang", "bae")]);
+    const lit = new Map([["kafka", 3], ["hangang", 1]]);
+    const froms = new Set([0, 1, 2, 3].map((w) => openAt(g, lit, 200 + w)?.from).filter(Boolean));
+    expect(froms).toEqual(new Set(["kafka", "hangang"]));
+  });
+});

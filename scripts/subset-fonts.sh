@@ -41,6 +41,8 @@ fetch NotoSerifKR-Regular.otf  https://github.com/notofonts/noto-cjk/raw/main/Se
 fetch NotoSerifKR-SemiBold.otf https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/KR/NotoSerifKR-SemiBold.otf
 fetch NotoSerifJP-Regular.otf  https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/JP/NotoSerifJP-Regular.otf
 fetch NotoSerifJP-SemiBold.otf https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/JP/NotoSerifJP-SemiBold.otf
+fetch NotoSerifSC-Regular.otf  https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/SC/NotoSerifSC-Regular.otf
+fetch NotoSerifSC-SemiBold.otf https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/SC/NotoSerifSC-SemiBold.otf
 fetch NotoSerif-Regular.ttf    https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSerif/hinted/ttf/NotoSerif-Regular.ttf
 fetch NotoSerif-SemiBold.ttf   https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSerif/hinted/ttf/NotoSerif-SemiBold.ttf
 
@@ -78,8 +80,12 @@ L400="$(bake lgc-400 NotoSerif-Regular.ttf rest.txt)"
 L600="$(bake lgc-600 NotoSerif-SemiBold.ttf rest.txt)"
 J400="$(bake jp-400 NotoSerifJP-Regular.otf rest.txt)"
 J600="$(bake jp-600 NotoSerifJP-SemiBold.otf rest.txt)"
+# 간체자(余华·许三观卖血记)는 KR·JP 어느 쪽에도 없다 — 같은 Noto Serif CJK 설계의 SC 에서 잘라 잇는다(2026-09-24 감사:
+# 이름 한가운데 글자가 시스템 글꼴로 떨어졌다).
+S400="$(bake sc-400 NotoSerifSC-Regular.otf rest.txt)"
+S600="$(bake sc-600 NotoSerifSC-SemiBold.otf rest.txt)"
 
-$PY - "$CSS" "$TMP/all.txt" "$OUT/$F400" "$OUT/$F600" "$OUT/$L400" "$OUT/$L600" "$OUT/$J400" "$OUT/$J600" <<'PYEOF'
+$PY - "$CSS" "$TMP/all.txt" "$OUT/$F400" "$OUT/$F600" "$OUT/$L400" "$OUT/$L600" "$OUT/$J400" "$OUT/$J600" "$OUT/$S400" "$OUT/$S600" <<'PYEOF'
 import sys, re, os
 from fontTools.ttLib import TTFont
 css_path, corpus_path, *files = sys.argv[1:]
