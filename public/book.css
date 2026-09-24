@@ -458,3 +458,26 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appeara
 .index-head .none:not([hidden]){display:block}
 .mark-err{flex-basis:100%;margin:6px 0 0;font-size:14.5px;color:var(--seal-deep)}
 .eds .oop{display:inline-block;margin-left:8px;font-size:12px;letter-spacing:.08em;color:var(--seal-deep);font-weight:600}
+
+/* ── third review (2026-09-24): the exhaustive audit ───────────────────────── */
+:root{color-scheme:only light}                     /* Chrome's auto-dark honours only "only light" — it inverted the paper and erased the seal glyphs */
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.eds .yr{white-space:nowrap}                       /* a year printed as 201 / 4 at 720px and up */
+.eds .tr,.eds .pub{overflow-wrap:break-word}       /* names break between words, not mid-name; a single overlong word still wraps */
+.stamped{position:static;right:auto;top:auto;display:none;margin:16px auto 0;font-size:15px;padding:6px 14px 5px}
+.has-mark .stamped{display:inline-block}           /* under the title at every width — at 900px+ it landed on long titles */
+.sketch .works .y,.sketch .imprint,.album.sil .k,.album.sil .o{color:var(--ink-3)}  /* pencil grey was 3.95:1 as text; pencil stays for seals and rules */
+@media(max-width:719px){
+  html{scroll-padding-bottom:96px}                 /* focus never lands under the fixed dock (WCAG 2.4.11) */
+  .eds .get{grid-column:1 / -1;text-align:left}    /* the bookstore links drew over the ISBN and the 절판 notice at 320–390px */
+  .eds .get a:first-child{margin-left:0}
+  .find select{font-size:16px}                     /* iOS Safari zooms the page on focus under 16px */
+}
+.move{margin-top:44px;padding-top:18px;border-top:3px double var(--ink)}
+.move h2{font-size:1.25rem;margin-bottom:8px}
+.move .doors,.move-in .doors{margin-top:12px}
+.move-in{margin:18px 0;padding:14px 16px;border:1.5px solid var(--ink);background:var(--paper-hi)}
+.move-url{width:100%;margin-top:8px;font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--ink-3);background:var(--paper-hi)}
+.inapp{margin:10px 0 0;padding:8px 12px;border:1px dashed var(--ink-3);font-size:14px}
+.auth-d summary{cursor:pointer;font-size:15px;color:var(--ink-2);min-height:44px;display:flex;align-items:center}
+.auth-d[open] summary{color:var(--ink)}

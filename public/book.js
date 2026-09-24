@@ -68,6 +68,7 @@ const save = (k, v) => {
 
 // ── 인증 (GoTrue REST) ──────────────────────────────────────────────────────
 const authHeaders = () => ({ apikey: SUPABASE_ANON, "Content-Type": "application/json" });
+const PENDING_KEY = "lp.auth.pending.v1";
 
 export async function requestMagicLink(email, redirectTo) {
   // GoTrue 는 돌아올 주소를 본문이 아니라 쿼리(redirect_to)에서 읽는다. 본문에만 두면 Referer 의 도메인 루트로,
@@ -78,13 +79,32 @@ export async function requestMagicLink(email, redirectTo) {
     body: JSON.stringify({ email, create_user: true, options: { email_redirect_to: redirectTo } })
   });
   if (!r.ok) throw new Error(`otp ${r.status}: ${await r.text()}`);
+  // 이 브라우저가 링크를 청했다는 표 — 청하지 않은 브라우저는 주소에 실려 온 토큰을 받지 않는다(아래).
+  save(PENDING_KEY, { at: Date.now() });
 }
 
-/** 매직링크로 돌아온 URL 의 #access_token… 을 세션으로 굽고 해시를 지운다. */
+/**
+ * 매직링크로 돌아온 URL 의 #access_token… 을 세션으로 굽고 해시를 지운다.
+ * **링크를 청한 브라우저에서만** 받는다. 아무 링크에나 실린 토큰을 받으면, 남이 만든 링크 하나로 독자가 모르는
+ * 계정에 로그인되고 이 브라우저의 표시가 그 계정으로 올라간다(2026-09-24 감사). 다른 브라우저에서 열린 링크는
+ * 여기의 표시를 올리지도 못한다 — 그래서 받지 않고, 왜 받지 않았는지 말한다.
+ * 반환: 세션 | { refused: "…" } | null
+ */
 export function absorbCallback() {
   const h = location.hash;
+  const clear = () => history.replaceState(null, "", location.pathname + location.search);
+  if (h.includes("error=")) {
+    const p = new URLSearchParams(h.slice(1));
+    clear();
+    return { refused: /expired|invalid/i.test(`${p.get("error_code")} ${p.get("error_description")}`) ? "로그인 링크가 만료됐거나 이미 쓰였다. 다시 받아 달라." : "로그인하지 못했다. 다시 받아 달라." };
+  }
   if (!h.includes("access_token=")) return null;
   const p = new URLSearchParams(h.slice(1));
+  clear();
+  const pending = load(PENDING_KEY);
+  if (!pending || Date.now() - pending.at > 2 * 3600_000) {
+    return { refused: "이 브라우저에서 청한 로그인이 아니라서 받지 않았다. 표시가 있는 브라우저에서 링크를 받아, 그 브라우저에서 열어 달라." };
+  }
   const s = {
     access_token: p.get("access_token"),
     refresh_token: p.get("refresh_token"),
@@ -92,18 +112,24 @@ export function absorbCallback() {
   };
   if (!s.access_token) return null;
   save(SESSION_KEY, s);
-  history.replaceState(null, "", location.pathname + location.search);
-  return s;
+  try { localStorage.removeItem(PENDING_KEY); } catch { /* 없다 */ }
+  return load(SESSION_KEY) ? s : { refused: "이 브라우저는 저장을 막고 있어 로그인을 기억하지 못한다(사이트 데이터 차단)." };
 }
 
 async function refresh(s) {
-  const r = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, {
-    method: "POST",
-    headers: authHeaders(),
-    body: JSON.stringify({ refresh_token: s.refresh_token })
-  });
+  let r;
+  try {
+    r = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, {
+      method: "POST",
+      headers: authHeaders(),
+      body: JSON.stringify({ refresh_token: s.refresh_token })
+    });
+  } catch {
+    return null; // 오프라인 — 세션은 그대로 둔다. 다음 방문에 다시 새로 고친다.
+  }
   if (!r.ok) {
-    localStorage.removeItem(SESSION_KEY);
+    // 토큰이 죽었을 때만 로그아웃이다. 서버가 잠시 아프거나(5xx) 한도에 걸렸다고(429) 독자를 내보내지 않는다.
+    if (r.status === 400 || r.status === 401) localStorage.removeItem(SESSION_KEY);
     return null;
   }
   const j = await r.json();
@@ -118,8 +144,23 @@ export async function session() {
   return s.expires_at - Date.now() < 60_000 ? refresh(s) : s;
 }
 
-export function signOut() {
+/** 로그인한 주소 — 토큰의 본문에서. 누구로 로그인했는지 보이지 않으면 남의 계정에 들어가 있어도 모른다. */
+export function sessionEmail(s) {
+  try {
+    const b = s.access_token.split(".")[1].replace(/-/g, "+").replace(/_/g, "/");
+    return JSON.parse(decodeURIComponent(escape(atob(b)))).email || "";
+  } catch {
+    return "";
+  }
+}
+
+export async function signOut() {
+  const s = load(SESSION_KEY);
   localStorage.removeItem(SESSION_KEY);
+  // 서버의 세션도 끊는다 — 브라우저에서 토큰만 지우면 새로 고침 토큰은 서버에서 계속 산다.
+  if (s?.access_token) {
+    await fetch(`${SUPABASE_URL}/auth/v1/logout?scope=local`, { method: "POST", headers: { ...authHeaders(), Authorization: `Bearer ${s.access_token}` } }).catch(() => {});
+  }
 }
 
 // ── 데이터 (PostgREST, 스키마 book) ────────────────────────────────────────
@@ -147,21 +188,28 @@ export const serverSet = (s, workId, state, atMs) =>
   });
 export const serverMerge = (s, toServer) =>
   rest("rpc/marks_merge", s, { method: "POST", body: JSON.stringify({ p_local: toServer }) });
+export const serverErase = (s) => rest("rpc/account_erase", s, { method: "POST", body: "{}" });
 
 // ── 페이지 결합 ─────────────────────────────────────────────────────────────
 // 페이지의 lpSet/lpPaint(생성기 인라인) 는 그대로 두고, 여기서 두 가지만 얹는다:
 //  1) 로그인 상태면 lpSet 뒤에 서버에도 쓴다(실패해도 로컬은 이미 썼다).
 //  2) 로드 시 로그인 상태면 서버와 합쳐 로컬을 갱신하고 다시 그린다.
-async function syncOnLoad() {
-  const s = await session();
-  paintAuth(s, "pending");
+async function syncOnLoad(note) {
+  let s = null;
+  try {
+    s = await session();
+  } catch {
+    s = null;
+  }
+  paintAuth(s, s ? "pending" : note ? "refused" : "", note);
   if (!s) return;
   try {
-    const local = load(READER_KEY) || { v: 3, state: {} };
     const server = await serverMarks(s);
-    const m = mergeMarks(local, server);
+    // 서버를 기다리는 동안 독자가 한 표시를 덮지 않는다 — 합치기 직전의 로컬을 다시 읽는다.
+    const m = mergeMarks(load(READER_KEY) || { v: 3, state: {} }, server);
     if (m.toServer.length) await serverMerge(s, m.toServer);
-    save(READER_KEY, { v: 3, state: m.state, gone: m.gone });
+    const latest = mergeMarks(load(READER_KEY) || { v: 3, state: {} }, server);
+    save(READER_KEY, { v: 3, state: latest.state, gone: latest.gone });
     window.lpPaint?.();
     paintAuth(s, "ok");
   } catch (e) {
@@ -171,43 +219,57 @@ async function syncOnLoad() {
 }
 
 // 「서버에도 있다」는 서버가 대답한 뒤에만 말한다 — 토큰이 있다는 것은 도감이 거기 있다는 뜻이 아니다.
-const SYNC_KO = { pending: "서버와 맞추는 중…", ok: "도감이 서버에도 있다.", failed: "서버에 닿지 못했다 — 표시는 이 기기에 있다." };
-function paintAuth(s, sync = "pending") {
+const SYNC_KO = { pending: "서버와 맞추는 중…", ok: "표시가 서버에도 있다.", failed: "서버에 닿지 못했다 — 표시는 이 브라우저에 있다." };
+function paintAuth(s, sync = "", note = "") {
   const box = document.getElementById("lp-auth");
   if (!box) return;
   box.hidden = false;
   if (s) {
+    const who = sessionEmail(s);
     box.innerHTML =
-      `<span class="sig">${SYNC_KO[sync]}</span> ` +
+      `<span class="sig">${who ? `${esc(who)}로 로그인했다. ` : ""}${SYNC_KO[sync] || ""}</span> ` +
       '<button class="want" id="lp-signout">나가기</button>';
-    box.querySelector("#lp-signout").onclick = () => {
-      signOut();
-      paintAuth(null);
+    box.querySelector("#lp-signout").onclick = async () => {
+      await signOut();
+      box.innerHTML =
+        '<p class="sig">나갔다. 이 브라우저의 표시는 남아 있다. 함께 쓰는 기기라면 — <button class="want" id="lp-wipe">이 브라우저의 표시도 지우기</button></p>';
+      box.querySelector("#lp-wipe").onclick = () => {
+        try { localStorage.removeItem(READER_KEY); localStorage.removeItem("lp.shelf.v1"); } catch { /* 없다 */ }
+        window.lpPaint?.();
+        box.innerHTML = '<p class="sig">이 브라우저의 표시를 지웠다. 서버의 기록은 <a href="/privacy/">처리방침</a>에서 지운다.</p>';
+      };
     };
-  } else {
-    box.innerHTML =
-      '<form id="lp-login"><input type="email" required placeholder="이메일" autocomplete="email">' +
-      ' <button class="want" type="submit">도감 지키기</button>' +
-      '<p class="sig">저장은 어떤 책을 어느 칸에, 언제 — 그것뿐.</p></form>';
-    box.querySelector("#lp-login").onsubmit = async (e) => {
-      e.preventDefault();
-      const email = e.target.querySelector("input").value.trim();
-      try {
-        await requestMagicLink(email, location.origin + location.pathname);
-        box.innerHTML = '<p class="sig">메일을 보냈다. 링크를 열면 이 도감이 서버에 남는다.</p>';
-      } catch (err) {
-        box.innerHTML = `<p class="sig">보내지 못했다 — ${sendErrorKo(String(err.message))}</p>`;
-      }
-    };
+    return;
   }
+  // 로그인은 관문이 아니다 — 무엇을 위한 것인지, 누가 쓸 수 있는지, 무엇이 저장되는지를 같은 자리에서 말한다.
+  // 접어 둔다 — 모든 쪽의 바닥에 펼쳐 두면 그 쪽의 그려진 글자 예산을 로그인이 먹는다.
+  box.innerHTML =
+    (note ? `<p class="sig">${esc(note)}</p>` : "") +
+    '<details class="auth-d"' + (note ? " open" : "") + '><summary>다른 기기에서 이어 보기</summary>' +
+    '<p class="sig">이메일로 로그인 링크를 보낸다. 시험 중이라 지금은 운영자 주소로만 메일이 간다. ' +
+    '다른 브라우저로 옮기기만 하려면 <a href="/shelf/#move">서재의 옮기기 주소</a>를 쓴다.</p>' +
+    '<form id="lp-login"><input type="email" required placeholder="이메일" autocomplete="email" aria-label="이메일">' +
+    ' <button class="want" type="submit">링크 받기</button>' +
+    '<p class="sig">서버에 남는 것: 이메일 주소, 어떤 책을 어느 칸에 언제 두었는지. <a href="/privacy/">처리방침</a></p></form></details>';
+  box.querySelector("#lp-login").onsubmit = async (e) => {
+    e.preventDefault();
+    const email = e.target.querySelector("input").value.trim();
+    try {
+      await requestMagicLink(email, location.origin + location.pathname);
+      box.innerHTML = '<p class="sig">메일을 보냈다. <b>이 브라우저에서</b> 링크를 열어야 여기의 표시가 서버에 올라간다.</p>';
+    } catch (err) {
+      box.innerHTML = `<p class="sig">보내지 못했다 — ${sendErrorKo(String(err.message))}</p>`;
+    }
+  };
 }
+const esc = (x) => String(x).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 // 서버의 원문(JSON)을 독자에게 보이지 않는다. 기본 메일러는 프로젝트 팀 주소에만 보낸다 — 그 거절은 사실대로 말한다.
 function sendErrorKo(msg) {
-  if (/not authori[sz]ed|not allowed/i.test(msg)) return "이 주소로는 아직 메일을 보낼 수 없다. 표시는 이 기기에 그대로 있다.";
-  if (/429|rate limit|too many/i.test(msg)) return "잠시 뒤에 다시 — 메일을 너무 자주 보냈다.";
+  if (/not authori[sz]ed|not allowed/i.test(msg)) return "이 주소로는 아직 메일을 보낼 수 없다(시험 중). 표시는 이 브라우저에 그대로 있다.";
+  if (/429|rate limit|too many/i.test(msg)) return "지금은 메일을 보낼 수 없다 — 이 사이트 전체의 시간당 발송 한도에 걸렸다. 한 시간 뒤에 다시.";
   if (/invalid|email/i.test(msg)) return "이메일 주소를 다시 확인해 달라.";
-  return "잠시 뒤에 다시 시도해 달라. 표시는 이 기기에 그대로 있다.";
+  return "잠시 뒤에 다시 시도해 달라. 표시는 이 브라우저에 그대로 있다.";
 }
 
 // ── 준비도 배지 (결정 (137)) ────────────────────────────────────────────────
@@ -217,6 +279,8 @@ async function paintReadiness() {
   const el = document.getElementById("lp-ready");
   if (!el) return;
   const id = el.getAttribute("data-author");
+  // 표시가 하나도 없으면 이 사람에게 닿은 불도 없다 — 그래프(수백 KB)를 받을 까닭이 없다.
+  if (!Object.keys(load(READER_KEY)?.state || {}).length) return;
   try {
     // 지정자를 계산해 둔다 — vite 의 정적 스캔이 public/ 절대경로 import 를 거부하고,
   // 그 거부가 이 파일을 Node 에서 아예 못 읽게 만든다(합침 규칙 계약이 여기 있다).
@@ -241,8 +305,53 @@ async function paintReadiness() {
   }
 }
 
+// ── 앱 안의 브라우저 ────────────────────────────────────────────────────────
+// 카카오톡·네이버·인스타그램 안의 브라우저는 사파리·크롬과 저장소가 다르다. 여기서 한 표시는 그 앱 안에만 남고,
+// 일주일 뒤 사파리로 돌아온 독자에게는 없다(2026-09-24 감사). 모르게 두지 않는다.
+function inAppNotice() {
+  const ua = navigator.userAgent || "";
+  const app = /KAKAOTALK/i.test(ua) ? "카카오톡" : /NAVER\(inapp/i.test(ua) ? "네이버 앱" : /DaumApps/i.test(ua) ? "다음 앱"
+    : /Instagram/i.test(ua) ? "인스타그램" : /FBAN|FBAV/i.test(ua) ? "페이스북" : /\bLine\//i.test(ua) ? "라인" : "";
+  if (!app) return;
+  const url = location.href;
+  const open = app === "카카오톡" ? `kakaotalk://web/openExternal?url=${encodeURIComponent(url)}`
+    : app === "라인" ? `${url}${url.includes("?") ? "&" : "?"}openExternalBrowser=1` : "";
+  const bar = document.createElement("p");
+  bar.className = "inapp sig";
+  bar.innerHTML = `지금은 ${app} 안의 브라우저다. 여기서 한 표시는 이 앱 안에만 남는다 — ` +
+    (open ? `<a href="${esc(open)}">브라우저에서 열기</a>` : "오른쪽 위 메뉴의 「다른 브라우저로 열기」로 옮겨 달라.");
+  document.querySelector(".wrap")?.prepend(bar);
+}
+
+// ── 처리방침 쪽의 내려받기·지우기 ────────────────────────────────────────────
+async function paintErase() {
+  const box = document.getElementById("lp-erase");
+  if (!box) return;
+  let s = null;
+  try { s = await session(); } catch { s = null; }
+  if (!s) return;
+  box.innerHTML = `<p class="sig">${esc(sessionEmail(s) || "이 계정")}의 서버 기록.</p>` +
+    '<div class="doors"><button type="button" class="want" id="lp-export">내려받기</button><button type="button" class="want" id="lp-erase-go">서버의 표시와 이력 지우기</button></div><p class="sig" id="lp-erase-msg" role="status"></p>';
+  const msg = box.querySelector("#lp-erase-msg");
+  box.querySelector("#lp-export").onclick = async () => {
+    try {
+      const j = await rest("rpc/account_export", s, { method: "POST", body: "{}" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([JSON.stringify(j, null, 2)], { type: "application/json" }));
+      a.download = "one-book-export.json";
+      a.click();
+      msg.textContent = "내려받았다.";
+    } catch { msg.textContent = "서버에 닿지 못했다. 잠시 뒤에 다시."; }
+  };
+  box.querySelector("#lp-erase-go").onclick = async () => {
+    if (!confirm("서버의 표시와 이력을 모두 지운다. 이 브라우저의 표시는 남는다.")) return;
+    try { await serverErase(s); msg.textContent = "지웠다. 서버에 남은 것은 로그인 주소뿐이다 — 그것도 지우려면 아래 주소로 요청한다."; }
+    catch { msg.textContent = "지우지 못했다 — 서버에 닿지 못했다. 잠시 뒤에 다시."; }
+  };
+}
+
 if (typeof window !== "undefined" && typeof document !== "undefined") {
-  absorbCallback();
+  const note = absorbCallback();
   // lpSet 을 감싼다 — 로컬 쓰기는 원래 함수가, 서버 쓰기는 여기가.
   const orig = window.lpSet;
   if (typeof orig === "function") {
@@ -260,8 +369,10 @@ if (typeof window !== "undefined" && typeof document !== "undefined") {
     };
   }
   const go = () => {
-    syncOnLoad();
+    syncOnLoad(note && note.refused ? note.refused : "");
     paintReadiness();
+    inAppNotice();
+    paintErase();
   };
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", go) : go();
 }

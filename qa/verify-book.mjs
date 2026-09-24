@@ -125,6 +125,9 @@ console.log("\n도감 지키기");
 await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
 await page.waitForTimeout(400);
 check("로그인 상자가 모듈에 의해 채워진다 (비로그인 = 이메일 폼)", (await page.locator("#lp-auth form#lp-login input[type=email]").count()) === 1);
+// 접혀 있다 — 모든 쪽 바닥의 글자 예산을 로그인이 먹지 않는다. 사람이 하듯 펼치고 잰다.
+check("로그인 상자는 접힌 한 줄이다", (await page.locator("#lp-auth details.auth-d:not([open])").count()) === 1);
+await page.locator("#lp-auth summary").click();
 check("비로그인이어도 상태 칸은 그대로 동작한다 — 로컬이 먼저다", (await page.locator(".mark.big .mark-main").count()) === 1);
 const authTxt = await page.locator("#lp-auth").innerText();
 check("저장되는 것이 무엇인지 한 줄로 말한다", /어떤 책을 어느 칸에/.test(authTxt) && /언제/.test(authTxt));
@@ -142,6 +145,7 @@ check("모듈 로드에 콘솔 에러 없음", errors.length === 0, errors.slice
   await page.unroute("**/auth/v1/otp**");
   // 기본 메일러가 팀 밖 주소를 거절하면, 서버 원문(JSON)이 아니라 사람의 문장으로 말한다.
   await page.reload({ waitUntil: "load" }); await page.waitForTimeout(300);
+  await page.locator("#lp-auth summary").click();
   await page.route("**/auth/v1/otp**", (r) => r.fulfill({ status: 400, contentType: "application/json", body: '{"code":400,"error_code":"email_address_not_authorized","msg":"Email address reader@example.org not authorized"}' }));
   await page.locator("#lp-login input[type=email]").fill("reader@example.org");
   await page.locator("#lp-login button[type=submit]").click();
@@ -242,7 +246,7 @@ if (hasRecord) {
   check("이력으로 미룬 저본 판정은 「추정」이라고 적는다", /원전 직역 추정/.test(row), row.replace(/\s+/g, " ").slice(0, 70));
   await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
 } else {
-  check("판본이 없으면 없다고 날짜와 함께 적는다", /아직 검수하지 않았다 \(\d{4}-\d{2}-\d{2} 확인\)/.test(body));
+  check("판본이 없으면 없다고 날짜와 함께 적는다", /아직 검수하지 않았다 \(\d{4}-\d{2}-\d{2} 기준\)/.test(body));
   check("판본을 주장하지 않는다 — 상품 딥링크 0", (await page.locator('a[href*="wproduct.aspx"]').count()) === 0);
   check("그래도 문은 열린다 — 검색 링크 3", (await page.locator('.doors a[href^="https://"]').count()) >= 3);
 }
@@ -431,7 +435,8 @@ console.log("\n첫 장 — 한 사람을 보러 온 사람에게 1,465명을 보
 console.log("\n서재 — 표시한 것이 모이는 자리");
 await page.goto(`${server.origin}/shelf/`, { waitUntil: "load" });
 await page.waitForTimeout(600);
-check("아무 표시도 없으면 빈 목록이 아니라 문장이 선다", /아직 아무것도 표시하지 않았다/.test(await page.locator("#shelf").innerText()));
+// 「아직 아무것도 표시하지 않았다」는 우리가 알 수 없다 — 다른 브라우저에서 했거나 이 브라우저가 지웠을 수 있다.
+check("아무 표시도 없으면 빈 목록이 아니라 문장이 선다 — 이 브라우저에 없다고만", /이 브라우저에는 아직 표시가 없다/.test(await page.locator("#shelf").innerText()));
 await page.evaluate(() => {
   const now = Date.now();
   localStorage.setItem("lp.reader.v3", JSON.stringify({ v: 3, state: {
@@ -601,7 +606,8 @@ console.log("\n첫 장의 문 — 표시가 없는 독자");
   await p2.waitForSelector("#app ul.works a");
   const hrefs = await p2.locator("#app ul.works a").evaluateAll((as) => as.map((a) => a.getAttribute("href")));
   let withEdition = 0;
-  for (const h of hrefs) { const html = await (await fetch(`${server.origin}${h}`)).text(); if (/검수된 판본 \d+/.test(html)) withEdition++; }
+  // 「한국어 N」 묶음이 있어야 한다 — 「검수된 판본 N」은 영어 원서 한 줄만 있어도 맞았다(2026-09-24 감사: 합성 위반이 통과).
+  for (const h of hrefs) { const html = await (await fetch(`${server.origin}${h}`)).text(); if (/<tr class="gh"><th colspan="6">한국어 [1-9]/.test(html)) withEdition++; }
   check("첫인사로 내민 책 가운데 한국어 판본이 검수된 것이 있다", withEdition > 0, `${withEdition} / ${hrefs.length}`);
   // 문은 별칭을 안다 — 「도스토예프스키」는 우리 데이터에 있는 이름이고, 「없다」고 말하면 거짓이다.
   await p2.locator("#anchor").fill("도스토예프스키");
@@ -673,6 +679,91 @@ console.log("\n저장소가 막힌 브라우저 — 누른 것이 사라지지 �
   check("저장하지 못하면 그렇다고 말한다", /저장하지 않는다/.test(await p3.locator(".mark.big").innerText()), (await p3.locator(".mark.big .mark-err").innerText().catch(() => "(문장 없음)")));
   check("저장소가 막혀도 쪽이 죽지 않는다 — 스크립트 오류 0", pe.length === 0, pe.slice(0, 2).join(" | "));
   await ctx.close();
+}
+
+// ─── 2026-09-24 전수 감사가 찾은 것 — 다시 깨지지 않게 ─────────────────────
+console.log("\n전수 감사 — 문·화살표·뒤로 가기·없는 쪽·옮기기");
+{
+  const ctx = await browser.newContext({ viewport: { width: 375, height: 812 }, locale: "ko-KR", permissions: [] });
+  const p4 = await ctx.newPage();
+  const pe = []; p4.on("pageerror", (e) => pe.push(String(e)));
+  await p4.goto(`${server.origin}/`, { waitUntil: "load" });
+  await p4.waitForSelector("#app h2");
+  const door = async (v) => {
+    await p4.locator("#anchor").fill(v);
+    await p4.locator("#door button[type=submit]").click();
+    await p4.waitForTimeout(500);
+    return { hash: await p4.evaluate(() => location.hash), h2: (await p4.locator("#app h2").first().innerText()).trim(), miss: (await p4.locator("#miss").innerText()).trim(), label: (await p4.locator("#app .label").first().innerText()).trim() };
+  };
+  // 문의 규칙이 역슬래시를 잃어 공백을 못 지우고 s 와 숫자를 지웠다 — 「조지오웰」은 찾지 못했고 「1984」는 도판 193명이었다.
+  let r = await door("조지오웰");
+  check("붙여 쓴 이름이 연다 — 조지오웰", r.hash === "#george-orwell", JSON.stringify(r));
+  r = await door("1984");
+  check("책 제목이 그 작가를 연다 — 1984 → 조지 오웰, 꼬리표가 그렇게 말한다", r.hash === "#george-orwell" && /『1984』의 작가/.test(r.label), JSON.stringify(r));
+  r = await door("무라카미 류");
+  check("비슷한 이름은 열지 않는다 — 무라카미 류는 하루키가 아니다", r.hash !== "#haruki-murakami" && /그대로의 이름은 이 책에 없다/.test(r.miss) && /무라카미 하루키/.test(r.miss), JSON.stringify(r));
+  r = await door("카프카");
+  check("이름의 한 낱말이 한 사람이면 연다 — 카프카", r.hash === "#franz-kafka", r.hash);
+  // 걸음마다 기록이 남는다 — 폰의 뒤로 가기가 앞 사람에게 돌아간다.
+  const hop = p4.locator("#app .rels a[data-go]").first();
+  const hopTo = await hop.getAttribute("data-go");
+  await hop.click(); await p4.waitForTimeout(500);
+  check("다음 걸음이 그 사람을 연다", (await p4.evaluate(() => location.hash)) === `#${hopTo}`, hopTo);
+  await p4.goBack(); await p4.waitForTimeout(500);
+  check("뒤로 가기는 앞 사람에게 돌아간다 — 책 밖으로 나가지 않는다", (await p4.evaluate(() => location.hash)) === "#franz-kafka" && /프란츠 카프카/.test(await p4.locator("#app h2").first().innerText()), await p4.evaluate(() => location.href));
+  // 첫 장의 연도는 정적 쪽과 같은 말이다 — 「-750」이 아니라 「기원전 750 무렵」.
+  await p4.goto(`${server.origin}/#homer`, { waitUntil: "load" }); await p4.waitForSelector("#app h2");
+  const ys = await p4.locator("#app ul.works .y").allInnerTexts();
+  check("첫 장이 기원전 연도를 날것으로 적지 않는다", ys.length > 0 && ys.every((y) => !/^-\d/.test(y)) && ys.some((y) => /기원전/.test(y)), ys.join(" · "));
+  // 입문 순서가 없는 사람에게 「여기서 읽기 시작한다면」을 달지 않는다.
+  await p4.goto(`${server.origin}/#stephen-king`, { waitUntil: "load" }); await p4.waitForSelector("#app h2");
+  check("스케치의 책 목록을 입문 추천처럼 부르지 않는다", !/여기서 읽기 시작한다면/.test(await p4.locator("#app").innerText()), (await p4.locator("#app h3").first().innerText()));
+  // 없는 쪽은 없다고 말한다.
+  await p4.goto(`${server.origin}/#nobody-here`, { waitUntil: "load" }); await p4.waitForTimeout(800);
+  check("주소의 없는 사람을 말없이 이번 주의 쪽으로 바꾸지 않는다", /쪽은 이 책에 없다/.test(await p4.locator("#miss").innerText()));
+  const nf = await fetch(`${server.origin}/404.html`);
+  check("없는 경로에 내줄 404 쪽이 있다", nf.ok && /없는 쪽/.test(await nf.text()));
+  check("첫 장 스크립트 오류 0", pe.length === 0, pe.slice(0, 2).join(" | "));
+  // 관계의 방향 — 「·」만 그려져 누가 누구에게 영향을 주었는지 알 수 없었다.
+  await p4.goto(`${server.origin}/authors/homer/`, { waitUntil: "load" });
+  const outG = await p4.locator(".rels .rt").allInnerTexts();
+  await p4.goto(`${server.origin}/authors/james-joyce/`, { waitUntil: "load" });
+  const inG = await p4.locator(".rels li", { hasText: "호메로스" }).locator(".rt").allInnerTexts();
+  check("방향 있는 관계는 출발 쪽에 →, 도착 쪽에 ← 로 그려진다", outG.some((t) => t.startsWith("→")) && inG.some((t) => t.startsWith("←")), `${outG[0]} / ${inG[0]}`);
+  // 한 쪽의 단추 다섯이 다 「관심 있는 책」이라고만 말하지 않는다.
+  const labels = await p4.locator(".works .mark-main").evaluateAll((bs) => bs.map((b) => b.getAttribute("aria-label") || ""));
+  check("상태 단추의 이름에 책 제목이 있다", labels.length > 0 && labels.every((l) => /^「.+」 — /.test(l)), labels[0]);
+  // 옮기기 주소 — 서버 없이 다른 브라우저로.
+  await p4.evaluate(() => localStorage.setItem("lp.reader.v3", JSON.stringify({ v: 3, state: { "franz-kafka--die-verwandlung": { s: "read", at: Date.now() - 5000 }, "homer--odysseia": { s: "want", at: Date.now() - 9000 } } })));
+  await p4.goto(`${server.origin}/shelf/`, { waitUntil: "load" }); await p4.waitForTimeout(400);
+  await p4.locator("#move-copy").click(); await p4.waitForTimeout(300);
+  const moveUrl = await p4.evaluate(() => { const i = document.querySelector(".move-url"); return i ? i.value : ""; }) || await p4.evaluate(() => navigator.clipboard.readText().catch(() => ""));
+  check("서재가 옮기기 주소를 낸다", /\/shelf\/#m=.+/.test(moveUrl), moveUrl.slice(0, 80));
+  const other = await browser.newContext({ viewport: { width: 375, height: 812 }, locale: "ko-KR" });
+  const p5 = await other.newPage();
+  await p5.goto(moveUrl.replace(/^https?:\/\/[^/]+/, server.origin), { waitUntil: "load" }); await p5.waitForTimeout(400);
+  check("다른 브라우저가 그 주소를 열면 합칠지 묻는다", /2권이 실려 있다/.test(await p5.locator("#move-in").innerText()));
+  await p5.locator("#move-yes").click(); await p5.waitForTimeout(500);
+  const moved = await p5.evaluate(() => Object.keys(JSON.parse(localStorage.getItem("lp.reader.v3") || "{}").state || {}));
+  check("합치면 같은 표시가 선다", moved.length === 2 && moved.includes("franz-kafka--die-verwandlung"), moved.join(" "));
+  // 청하지 않은 로그인 — 주소에 실린 토큰을 받지 않는다.
+  await p5.goto(`${server.origin}/works/franz-kafka--die-verwandlung/#access_token=aaa&refresh_token=bbb&expires_in=3600`, { waitUntil: "load" }); await p5.waitForTimeout(500);
+  check("청하지 않은 로그인 링크의 토큰을 받지 않는다", (await p5.evaluate(() => localStorage.getItem("lp.session.v1"))) === null && /청한 로그인이 아니라서/.test(await p5.locator("#lp-auth").innerText()));
+  await other.close();
+  await ctx.close();
+}
+{
+  const html = await (await fetch(`${server.origin}/`)).text();
+  check("강제 다크 모드를 끈다 — color-scheme only light", /name="color-scheme" content="only light"/.test(html));
+  const build = await fetch(`${server.origin}/build.txt`);
+  check("배포 확인용 build.txt 가 커밋을 적는다", build.ok && /^[0-9a-f]{40}\n$/.test(await build.text()));
+  // 첫 글자를 크게 앉히는 것은 한글 음절로 시작할 때만.
+  let badCap = 0, seenCap = 0;
+  for (const dir of ["authors", "works"]) for (const id of readdirSync(new URL(`../dist/${dir}/`, import.meta.url)).filter((n) => !n.endsWith(".html"))) {
+    const h = await (await fetch(`${server.origin}/${dir}/${id}/`)).text();
+    for (const m of h.matchAll(/<p class="lede cap">([^<]{0,2})/g)) { seenCap++; if (!/^[가-힣]{2}/.test(m[1])) badCap++; }
+  }
+  check("큰 첫 글자가 숫자·괄호를 쪼개지 않는다", seenCap > 0 && badCap === 0, `${badCap} / ${seenCap}`);
 }
 
 console.log(`\nconsole errors: ${errors.length}`);

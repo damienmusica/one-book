@@ -63,7 +63,8 @@ function main() {
         if (v.ok) { a.reviewStatus = "reviewed"; a.reviewedAt = today; flipped++; touched.add(f); console.log(`  ${a.id} → reviewed (${v.why})`); }
         else held.push(`${a.id}: ${v.why}`);
       } else if (DEMOTE && v.ok) {
-        if (a.reviewedAt !== today) { a.reviewedAt = today; reaffirmed++; touched.add(f); }
+        // 다시 확인한 것은 날짜를 바꾸지 않는다 — reviewedAt 은 「언제 검토됐는가」다. 돌릴 때마다 오늘로 바꾸면 그 뜻이 사라진다.
+        reaffirmed++;
       } else if (DEMOTE && !v.ok) {
         // 이미 「검토됨」인데 원장이 그것을 받치지 못한다 — 내린다. 정의가 바뀌었을 때 옛 기준으로 올라간 쪽을 정의에 맞추는 길.
         a.reviewStatus = "draft"; delete a.reviewedAt; demoted++; touched.add(f); console.log(`  ${a.id} → draft (${v.why})`);

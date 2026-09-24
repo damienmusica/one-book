@@ -11,6 +11,7 @@
 
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
+import { execSync } from "node:child_process";
 import { join, resolve } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
@@ -20,12 +21,14 @@ import { EVIDENCE_KO, REL_KO, relationGlyph } from "../src/book/relations.ts";
 import { READY_IDS, showsPhysicalRecord } from "../src/book/readiness.ts";
 import { nameStance, resetSealIds, sealGlyphs, sealSvg, sizeClass, type SealRule } from "./lib/paper-seal.ts";
 import { editionTitleNote, jsonForScript } from "./lib/html.ts";
+import { buildNameIndex, DOOR_JS } from "./lib/door.ts";
 
 const BASE = "https://literary-planet.pages.dev";
 const outArg = process.argv.indexOf("--out");
 // resolve — join 은 절대 경로 인자를 이어 붙인다(`<root>/var/folders/…`).
 // 그 버그 때문에 --out 이 조용히 엉뚱한 자리에 굽고 있었다.
-const OUT = resolve(PKG_ROOT, outArg >= 0 ? (process.argv[outArg + 1] ?? "dist") : "dist");
+// ONE_BOOK_OUT — 유닛이 이 모듈을 import 할 때(관계 절 렌더) 저장소의 dist 를 지우고 다시 짓지 않게(2026-09-24 감사).
+const OUT = resolve(PKG_ROOT, outArg >= 0 ? (process.argv[outArg + 1] ?? "dist") : (process.env.ONE_BOOK_OUT ?? "dist"));
 
 // 출력을 먼저 비운다. 번들러가 하던 청소를 아무도 물려받지 않아, 첫 배포에서
 // 은퇴한 진입점(universe.html · chart.html · 옛 assets 청크)이 dist 에 남은 채
@@ -86,7 +89,37 @@ const span = (from: number, to: number | undefined): string =>
 const esc = (s: string): string =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-const GLYPH: Record<string, string> = { out: "→", in: "←", both: "↔" };
+// 첫 글자를 크게 앉히는 것은 한글 음절 둘로 시작할 때만 — 「1 / 969년」, 「『스 / 무 편의…」처럼 숫자·괄호를 쪼개지 않는다.
+const ledeClass = (text: string): string => (/^[가-힣]{2}/.test(text) ? "lede cap" : "lede");
+
+// 몰년이 없는 옛사람을 산 사람처럼 「966–」로 적지 않는다 — 태어난 지 110년이 넘었는데 몰년이 없으면 「–?」다.
+const THIS_YEAR = new Date().getFullYear();
+const lifeSpan = (a: Author): string =>
+  a.birthYear === undefined
+    ? `활동 ${span(a.activeRange[0], a.activeRange[1])}`
+    : a.deathYear === undefined && a.birthYear < THIS_YEAR - 110
+      ? `${yr(a.birthYear)}–?`
+      : span(a.birthYear, a.deathYear);
+
+// lang 은 글자가 그 말의 문자일 때만 단다. 로마자로 적힌 제목에 ja 를, 키릴로 적힌 이름에 en 을 달면 읽어 주는
+// 목소리가 틀린다. 오른쪽에서 읽는 문자에는 dir 도 단다(CSS direction 은 접근성 트리에 닿지 않는다).
+const SCRIPT_OF: Record<string, RegExp> = {
+  ja: /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u, zh: /\p{Script=Han}/u, lzh: /\p{Script=Han}/u, ko: /[\p{Script=Hangul}\p{Script=Han}]/u,
+  ru: /\p{Script=Cyrillic}/u, uk: /\p{Script=Cyrillic}/u, be: /\p{Script=Cyrillic}/u, bg: /\p{Script=Cyrillic}/u, sr: /\p{Script=Cyrillic}/u, kk: /\p{Script=Cyrillic}/u, ky: /\p{Script=Cyrillic}/u,
+  ar: /\p{Script=Arabic}/u, fa: /\p{Script=Arabic}/u, ur: /\p{Script=Arabic}/u, ps: /\p{Script=Arabic}/u, he: /\p{Script=Hebrew}/u, yi: /\p{Script=Hebrew}/u, syc: /\p{Script=Syriac}/u,
+  el: /\p{Script=Greek}/u, grc: /\p{Script=Greek}/u, hi: /\p{Script=Devanagari}/u, mr: /\p{Script=Devanagari}/u, ne: /\p{Script=Devanagari}/u, sa: /\p{Script=Devanagari}/u,
+  bn: /\p{Script=Bengali}/u, pa: /\p{Script=Gurmukhi}/u, gu: /\p{Script=Gujarati}/u, ta: /\p{Script=Tamil}/u, te: /\p{Script=Telugu}/u, kn: /\p{Script=Kannada}/u, ml: /\p{Script=Malayalam}/u,
+  si: /\p{Script=Sinhala}/u, th: /\p{Script=Thai}/u, lo: /\p{Script=Lao}/u, km: /\p{Script=Khmer}/u, my: /\p{Script=Myanmar}/u, bo: /\p{Script=Tibetan}/u,
+  am: /\p{Script=Ethiopic}/u, ti: /\p{Script=Ethiopic}/u, gez: /\p{Script=Ethiopic}/u, hy: /\p{Script=Armenian}/u, ka: /\p{Script=Georgian}/u, mn: /[\p{Script=Cyrillic}\p{Script=Mongolian}]/u
+};
+const langAttr = (text: string | undefined, lang: string | undefined): string => {
+  if (!text || !lang) return "";
+  const own = SCRIPT_OF[lang];
+  const fits = own ? own.test(text) : /\p{Script=Latin}/u.test(text) && !/[^\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u.test(text);
+  if (!fits) return "";
+  return ` lang="${esc(lang)}"${/[\p{Script=Arabic}\p{Script=Hebrew}\p{Script=Syriac}\p{Script=Thaana}]/u.test(text) ? ' dir="rtl"' : ""}`;
+};
+
 const TESTIMONY_TYPES = new Set(["documented_influence", "mentorship", "translation"]);
 
 // 연도 한 칸이 무엇인지 말한다. 전승 문학에서 이걸 적지 않으면 "모른다"가
@@ -167,7 +200,9 @@ function lpPaint(){var p=lpLoad();var any=false;
     var cur=(p.state[id]&&p.state[id].s)||'';m.setAttribute('data-state',cur);if(cur)any=true;
     if(m.classList.contains('big')||cur)lpLadder(m);
     var main=m.querySelector('.mark-main');
-    if(main){main.setAttribute('aria-pressed',cur?'true':'false');var lb=main.querySelector('.mark-label');if(lb)lb.textContent=LP_LABEL[cur]||'관심 있는 책';}
+    if(main){main.setAttribute('aria-pressed',cur?'true':'false');var lb=main.querySelector('.mark-label');var lt=LP_LABEL[cur]||'관심 있는 책';if(lb)lb.textContent=lt;
+      // 한 쪽에 단추가 다섯이면 다섯이 다 「관심 있는 책」이라고만 말했다 — 어느 책인지 이름에 넣는다.
+      var tt=m.getAttribute('data-t');if(tt)main.setAttribute('aria-label','「'+tt+'」 — '+lt);}
     var bs=m.querySelectorAll('.mark-ladder button');for(var j=0;j<bs.length;j++)bs[j].setAttribute('aria-pressed',bs[j].getAttribute('data-set')===cur&&cur?'true':'false');}
   if(document.body&&document.body.hasAttribute('data-work-page'))document.body.classList.toggle('has-mark',any);}
 document.addEventListener('click',function(e){
@@ -204,7 +239,7 @@ function page(o: {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="only light">
 <meta name="theme-color" content="#f0e7cd">
 <title>${esc(o.title)}</title>
 <meta name="description" content="${esc(o.desc)}">
@@ -213,8 +248,14 @@ ${o.noindex ? `<meta name="robots" content="noindex,follow">` : ""}
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="stylesheet" href="/book.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='2' width='28' height='28' rx='4' fill='%23b4271b'/%3E%3Cpath d='M9 10h14M9 16h14M9 22h9' stroke='%23f0e7cd' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:title" content="${esc(o.title)}">
 <meta property="og:description" content="${esc(o.desc)}">
+<meta property="og:url" content="${BASE}${o.path}">
+<meta property="og:type" content="${o.path.startsWith("/works/") ? "book" : o.path.startsWith("/authors/") && o.path !== "/authors/" ? "profile" : "website"}">
+<meta property="og:site_name" content="하나의 책">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="${BASE}/icon-512.png">
 <script>${RUNTIME_JS}</script>
 <script type="module" src="/book.js"></script>
 ${o.ld ? `<script type="application/ld+json">${jsonForScript(o.ld)}</script>` : ""}
@@ -235,7 +276,7 @@ ${
   // 계수는 책의 앞붙이(첫 장·색인·서재)에 찍는다. 한 사람의 쪽마다 코퍼스 전체의 수를 다시 적으면 그 쪽의
   // 그려진 글자 예산을 그 사람이 아닌 것이 먹는다.
   ["/", "/authors/", "/shelf/"].includes(o.path)
-    ? `<p class="counts">검토 ${d.authors.filter((a) => a.reviewStatus !== "draft").length} · 도판 ${d.authors.filter((a) => (a.depth ?? "plate") === "plate").length} · 스케치 ${d.authors.filter((a) => a.depth === "sketch").length} · 실루엣 ${d.authors.filter((a) => (a.depth ?? "plate") === "silhouette").length} · 작품 ${d.works.length} · 관계 ${d.relations.length} · 출처 ${d.sources.length}</p>`
+    ? `<p class="counts"><a href="/privacy/">처리방침</a></p><p class="counts">검토 ${d.authors.filter((a) => a.reviewStatus !== "draft").length} · 도판 ${d.authors.filter((a) => (a.depth ?? "plate") === "plate").length} · 스케치 ${d.authors.filter((a) => a.depth === "sketch").length} · 실루엣 ${d.authors.filter((a) => (a.depth ?? "plate") === "silhouette").length} · 작품 ${d.works.length} · 관계 ${d.relations.length} · 출처 ${d.sources.length}</p>`
     : ""
 }
 </footer>
@@ -250,6 +291,19 @@ const firstSentence = (s: string): string => s.match(/^.*?다\./)?.[0] ?? s;
 // 서점·도서관으로 나가는 문은 **결정론적 링크**다: 크롤링도 API 키도 없이,
 // 제목과 작가 이름만으로 주소가 정해진다. 검수된 판본이 있으면 그 ISBN 의
 // 상품 페이지로, 없으면 검색으로 — 그리고 없다는 사실을 날짜와 함께 적는다.
+// 판본 줄의 출처는 독자의 말로 적는다 — 「카카오 책 검색 API」「SRU」「국중도 MARC」는 우리 도구의 이름이다(2026-09-24 감사: 656쪽).
+const readerSource = (from: string): string =>
+  /^(카카오 책 검색|kakao book search)/i.test(from) ? "서점 목록과 제목·저자·ISBN 대조"
+  : /^Library of Congress/.test(from) ? "미국 의회도서관 목록과 대조"
+  : /^Bibliothèque nationale de France/.test(from) ? "프랑스 국립도서관 목록과 대조"
+  : /^Deutsche Nationalbibliothek/.test(from) ? "독일 국립도서관 목록과 대조"
+  : /^国立国会図書館/.test(from) ? "일본 국립국회도서관 목록과 대조"
+  : from;
+const readerNote = (note: string): string =>
+  note
+    .replace(/^추정 — /, "")
+    .replace(/\((\d{4}-\d{2}-\d{2}) 입문작 판본 확인, ([^)]*)\)/g, "($1, $2로 확인)")
+    .replace(/국중도 MARC|국중도 서지|국중도/g, "국립중앙도서관 서지");
 const q = (s: string): string => encodeURIComponent(s);
 const ALADIN_ISBN = (isbn: string): string =>
   `https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=${isbn}`;
@@ -285,7 +339,7 @@ function acquireBlock(w: Work, a: Author | undefined): string {
       const head = lang === "ko" ? "한국어" : `${LANGUAGE_LABELS[lang] ?? lang}${original ? " 원서" : "판"}`;
       return `<tbody class="grp"><tr class="gh"><th colspan="6">${esc(head)} ${list.length}</th></tr>
 ${list.map((e) => `<tr class="ed"><td class="pub">${esc(e.publisher)}</td><td class="tr">${e.translator ? `${esc(e.translator)} 옮김` : ""}</td><td class="yr">${e.year}</td><td class="flag">${flag(e)}</td><td class="isbn">ISBN ${esc(e.isbn13)}${OUT_OF_PRINT.has(e.isbn13) ? ` <span class="oop">절판 — 도서관에서</span>` : ""}</td><td class="get"><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a><a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a>${e.language !== "ko" ? `<a href="https://search.worldcat.org/isbn/${esc(e.isbn13)}" rel="nofollow noopener">WorldCat</a>` : ""}</td></tr>
-<tr class="why"><td colspan="6">${editionTitleNote(e, w)}${e.note ? esc(e.note.replace(/^추정 — /, "")) : ""}<span class="src">${esc(e.verifiedFrom)} · ${esc(e.verifiedAt)} 확인</span></td></tr>`).join("\n")}</tbody>`;
+<tr class="why"><td colspan="6">${editionTitleNote(e, w)}${e.note ? esc(readerNote(e.note)) : ""}<span class="src">${esc(readerSource(e.verifiedFrom))} · ${esc(e.verifiedAt)}</span></td></tr>`).join("\n")}</tbody>`;
     };
     return `<section class="row"><h2 class="side label">구하기 — 검수된 판본 ${eds.length}</h2><div class="wide">
 <table class="eds"><thead><tr><th>출판사</th><th>옮긴이</th><th>연도</th><th>저본</th><th>ISBN</th><th></th></tr></thead>
@@ -309,12 +363,12 @@ ${langs.map(group).join("\n")}</table></div></section>`;
   const orig = (w.titleOriginal ?? "").trim();
   const origTerm = `${orig} ${a ? a.names.original : ""}`.trim();
   return `<section class="row"><h2 class="side label">구하기</h2><div class="main">
-<p class="absent">한국어 판본을 아직 검수하지 않았다 (${esc(d.editions.checkedAt)} 확인). 아래는 검색으로 나가는 문이고, 우리가 확인한 판본이 아니다.</p>
+<p class="absent">한국어 판본을 아직 검수하지 않았다 (${esc(d.editions.checkedAt)} 기준). 아래는 검색으로 나가는 문이고, 우리가 확인한 판본이 아니다.</p>
 <div class="doors">
   <a class="go quiet" href="${ALADIN_SEARCH(term)}" rel="nofollow noopener">알라딘에서 찾기</a>
   <a class="go quiet" href="${KYOBO_SEARCH(term)}" rel="nofollow noopener">교보문고에서 찾기</a>
   <a class="go quiet" href="${NL_SEARCH(term)}" rel="nofollow noopener">국립중앙도서관에서 찾기</a>
-${orig && orig !== w.titleKo ? `  <a class="go quiet" href="${NL_SEARCH(origTerm)}" rel="nofollow noopener">원제로 찾기 — ${esc(orig)}</a>` : ""}
+${orig && orig !== w.titleKo ? `  <a class="go quiet" href="${NL_SEARCH(origTerm)}" rel="nofollow noopener">원제로 찾기 — <span${langAttr(orig, a?.languages[0])}>${esc(orig)}</span></a>` : ""}
 </div></div></section>`;
 }
 
@@ -346,7 +400,7 @@ function relRow(r: Relation | undefined, selfId: string): string {
   const otherId = r.sourceId === selfId ? r.targetId : r.sourceId;
   const other = byId.get(otherId);
   if (!other) return "";
-  const g = GLYPH[relationGlyph(r, selfId)] ?? "·";
+  const g = relationGlyph(r, selfId);
   return `<li>${seal(other, { tone: "ink", cls: "xs" })}<div class="who"><a href="/authors/${esc(otherId)}/">${esc(other.names.ko)}</a><span class="rt">${g} ${esc(REL_KO[r.type] ?? r.type)}</span></div>
     <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
 }
@@ -455,7 +509,7 @@ function contemporariesSection(a: Author): string {
   const row = (b: Author) =>
     `<li>${seal(b, { tone: "ink", cls: "xxs" })}<a href="/authors/${esc(b.id)}/">${esc(b.names.ko)}</a>` +
     `${(b.depth ?? "plate") === "plate" ? `<span class="tag">도판</span>` : ""}` +
-    `<span class="y">${esc(b.birthYear !== undefined ? span(b.birthYear, b.deathYear) : `활동 ${span(b.activeRange[0], b.activeRange[1])}`)}</span></li>`;
+    `<span class="y">${esc(lifeSpan(b))}</span></li>`;
   const head = near.length ? `같은 자리, 같은 때 — ${near.length}명` : `이웃한 자리, 같은 때 — ${beside.length}명`;
   return `<details class="near"><summary>${head}</summary>
 ${near.length ? `<ul class="near">${near.map(row).join("\n")}</ul>` : ""}
@@ -468,7 +522,7 @@ function titlePage(a: Author): string {
   const stance = nameStance(a.names.original);
   const sig = signatureOf(a.id);
   const life = [
-    a.birthYear === undefined ? `활동 ${span(a.activeRange[0], a.activeRange[1])}` : span(a.birthYear, a.deathYear),
+    lifeSpan(a),
     a.languages.map(langKo).join("·"),
     a.regions.map(regionKo).join("·"),
     ...(a.movements.length ? [a.movements.map(movementKo).join("·")] : [])
@@ -477,7 +531,7 @@ function titlePage(a: Author): string {
   const band = proved(a) ? "" : `<p class="unproved"><b>${depth === "plate" ? "도판" : depth === "sketch" ? "스케치" : "실루엣"}</b>${depth === "silhouette" ? "이름과 자리만 안다" : "아직 출처에 대보지 않은 쪽"}</p>`;
   return `${band}<header class="title-page">
 <h1 class="name ${sizeClass(a.names.ko) === "m" ? "m" : ""}">${esc(a.names.ko)}</h1>
-${a.names.original && a.names.original !== a.names.ko ? `<p class="orig ${stance}" lang="${esc(a.languages[0] ?? "")}">${esc(a.names.original)}</p>` : ""}
+${a.names.original && a.names.original !== a.names.ko ? `<p class="orig ${stance}"${langAttr(a.names.original, a.languages[0])}>${esc(a.names.original)}</p>` : ""}
 <div class="autograph${sig ? "" : " solo"}">${sig ? `<img src="/art/${esc(sig.file)}" width="${sig.w}" height="${sig.h}" alt="${esc(a.names.ko)}의 서명">` : ""}${seal(a, { texture: true })}</div>
 <p class="imprint">${life.map((x) => `<span>${esc(x)}</span>`).join("")}</p>
 </header>`;
@@ -506,8 +560,8 @@ function authorPage(a: Author): string {
     "@type": "Person",
     name: a.names.original,
     alternateName: a.names.ko,
-    birthDate: a.birthYear ? String(a.birthYear) : undefined,
-    deathDate: a.deathYear ? String(a.deathYear) : undefined
+    birthDate: a.birthYear !== undefined && a.birthYear > 0 ? String(a.birthYear) : undefined,
+    deathDate: a.deathYear !== undefined && a.deathYear > 0 ? String(a.deathYear) : undefined
   };
   const doors = `<div class="doors"><a class="go quiet" href="/#${esc(a.id)}">책에서 이 자리 보기</a><a class="go quiet" href="/authors/">색인</a></div>`;
   const nearRow = contemporariesSection(a);
@@ -559,7 +613,7 @@ ${titlePage(a)}
 <div class="sheet">
 <section class="row"><div class="side"><p class="label">도판</p></div><div class="main">
 <p class="ready" id="lp-ready" data-author="${esc(a.id)}" hidden></p>
-${a.importanceReason ? `<p class="lede cap">${esc(a.importanceReason)}</p>` : ""}
+${a.importanceReason ? `<p class="${ledeClass(a.importanceReason)}">${esc(a.importanceReason)}</p>` : ""}
 <a class="go" href="/#${esc(a.id)}">여기서 읽기 시작</a></div></section>
 <section class="row">${ordered.length ? `<h2 class="side label">입문 순서 ${ordered.length}</h2>` : `<div class="side"></div>`}<div class="main">
 <ol class="works ord">${ordered.map((w, i) => workRow(w, i === 0 ? a.readingEntryReason : undefined)).join("\n")}</ol></div>
@@ -615,7 +669,7 @@ ${list
     const otherId = r.sourceId === w.authorId ? r.targetId : r.sourceId;
     const other = byId.get(otherId);
     if (!other) return "";
-    const g = GLYPH[relationGlyph(r, w.authorId)] ?? "·";
+    const g = relationGlyph(r, w.authorId);
     return `<li>${seal(other, { tone: "ink", cls: "xs" })}<div class="who"><a href="/authors/${esc(otherId)}/">${esc(other.names.ko)}</a><span class="rt">${g} ${esc(REL_KO[r.type] ?? r.type)}</span></div>
     <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
   })
@@ -630,7 +684,7 @@ ${list
 <header class="title-page" style="position:relative">
 <p class="label">${a ? `${seal(a, { cls: "xxs" })} &nbsp;<a href="/authors/${esc(a.id)}/">${esc(a.names.ko)}</a> · ` : ""}${esc(yr(w.year))}${YEAR_BASIS_KO[w.yearBasis ?? "attested"] ?? ""} · ${esc(genreKo(w.genre))}</p>
 <h1 class="name ${sizeClass(w.titleKo)}">${esc(w.titleKo)}</h1>
-${w.titleOriginal && w.titleOriginal !== w.titleKo ? `<p class="orig ${stance === "rtl" ? "rtl" : ""}" lang="${esc(a?.languages[0] ?? "")}">${esc(w.titleOriginal)}</p>` : ""}
+${w.titleOriginal && w.titleOriginal !== w.titleKo ? `<p class="orig ${stance === "rtl" ? "rtl" : ""}"${langAttr(w.titleOriginal, a?.languages[0])}>${esc(w.titleOriginal)}</p>` : ""}
 <span class="stamped" aria-hidden="true">서재에 꽂힌 책</span>
 <div style="margin-top:clamp(24px,3.4vw,40px)">${stateControl(w.id, true, markMeta(w))}</div>
 </header>
@@ -638,11 +692,11 @@ ${w.titleOriginal && w.titleOriginal !== w.titleKo ? `<p class="orig ${stance ==
 <section class="row"><div class="side"></div><div class="main">
 ${
   w.significance
-    ? `<p class="lede cap">${esc(w.significance)}</p>`
+    ? `<p class="${ledeClass(w.significance)}">${esc(w.significance)}</p>`
     : `<p class="absent"><strong>아직 실루엣이다.</strong> 이 책이 있다는 것과 언제 어느 말로 쓰였는지는 안다.
 그 너머 — 무엇이 이 책을 그 자리에 세웠는지 — 는 아직 우리가 읽지 않았다.</p>`
 }
-${verified && world ? `<blockquote class="opening"><p lang="${esc(a?.languages[0] ?? "")}">${esc(world.opening.original)}</p><p class="ko">${esc(world.opening.ko)}</p><span class="label">여는 문장 · 자체 번역</span></blockquote>` : ""}</div>
+${verified && world ? `<blockquote class="opening"><p${langAttr(world.opening.original, a?.languages[0])}>${esc(world.opening.original)}</p><p class="ko">${esc(world.opening.ko)}</p><span class="label">여는 문장 · 자체 번역</span></blockquote>` : ""}</div>
 ${cover ? `<aside class="aside"><figure class="cover fig"><img src="/art/${esc(cover.file)}" width="${cover.w}" height="${cover.h}" alt="『${esc(w.titleKo)}』 초판 표지"><figcaption>${firstEd ? `초판 — ${firstEd.year} · ${esc(firstEd.publisher)}, ${esc(firstEd.place)}<br>` : ""}사진 ${esc(cover.license ?? cover.provenance?.licence ?? "PD")} · Wikimedia Commons</figcaption></figure></aside>` : ""}</section>
 ${
   verified && world
@@ -669,7 +723,7 @@ ${w.sourceIds.length ? `<p class="srcs" style="margin-top:14px">출처 ${w.sourc
     title: `${w.titleKo}${a ? ` — ${a.names.ko}` : ""} · 하나의 책`,
     desc: w.significance
       ? firstSentence(w.significance)
-      : `${w.titleKo}(${w.titleOriginal}) — ${a ? `${a.names.ko}, ` : ""}${w.year}. 「하나의 책」의 실루엣 항목.`,
+      : `${w.titleKo}${w.titleOriginal && w.titleOriginal !== w.titleKo ? `(${w.titleOriginal})` : ""} — ${a ? `${a.names.ko}, ` : ""}${yr(w.year)}${YEAR_BASIS_SHORT[w.yearBasis ?? "attested"] ?? ""}. 「하나의 책」의 실루엣 항목.`,
     path: `/works/${w.id}/`,
     body,
     bodyAttr: 'data-work-page class="has-dock"',
@@ -679,7 +733,8 @@ ${w.sourceIds.length ? `<p class="srcs" style="margin-top:14px">출처 ${w.sourc
       "@type": "Book",
       name: w.titleOriginal ?? w.titleKo,
       alternateName: w.titleKo,
-      datePublished: String(w.year),
+      // 기원전·성립 추정 연도는 날짜가 아니다 — 「-458」을 datePublished 로 내보내지 않는다.
+      datePublished: w.year > 0 && (w.yearBasis ?? "attested") !== "composition-range" ? String(w.year) : undefined,
       author: a ? { "@type": "Person", name: a.names.original } : undefined
     }
   });
@@ -703,14 +758,14 @@ function indexPage(): string {
       a.id.replace(/-/g, " "),
       ...worksOf(a.id).flatMap((w) => [w.titleKo, w.titleOriginal])
     ]
-      .join(" ")
-      .toLowerCase();
+      .filter(Boolean)
+      .join("|");
   // 인장첩(印譜) — 줄마다 그 사람의 문자 한 글자. 1,806개의 SVG 는 색인을 1MB 넘게 만들므로 여기서는 글자 하나짜리
   // CSS 도장이다: 붉게 찍힌 것은 출처에 대본 쪽, 연필 점선은 아직 대보지 않은 쪽.
   const names = (a: Author): string => [a.names.ko, a.names.original, ...a.names.aliases].join(" ").toLowerCase();
   const titles = (a: Author): string => worksOf(a.id).map((w) => w.titleKo).join("|");
   const row = (a: Author): string =>
-    `<li data-h="${esc(hay(a))}" data-n="${esc(names(a))}" data-t="${esc(titles(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/"><span class="chop${proved(a) ? "" : " d"}" aria-hidden="true">${esc(sealGlyphs(a.names.original || a.names.ko, sealRule(a)).glyphs[0] ?? "·")}</span><span class="k">${esc(a.names.ko)}</span>${a.names.original && a.names.original !== a.names.ko ? `<span class="o">${esc(a.names.original)}</span>` : ""}<span class="y">${esc(a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear))}</span><span class="hit"></span></a></li>`;
+    `<li data-h="${esc(hay(a))}" data-n="${esc(names(a))}" data-t="${esc(titles(a))}" data-r="${esc(a.regions.join(" "))}" data-p="${esc(a.periods.join(" "))}"><a href="/authors/${esc(a.id)}/"><span class="chop${proved(a) ? "" : " d"}" aria-hidden="true">${esc(sealGlyphs(a.names.original || a.names.ko, sealRule(a)).glyphs[0] ?? "·")}</span><span class="k">${esc(a.names.ko)}</span>${a.names.original && a.names.original !== a.names.ko ? `<span class="o"${langAttr(a.names.original, a.languages[0])}>${esc(a.names.original)}</span>` : ""}<span class="y">${esc(lifeSpan(a))}</span><span class="hit"></span></a></li>`;
   const regionsUsed = REGION_DEFS.filter((r) => d.authors.some((a) => a.regions.includes(r.id)));
   const periodsUsed = PERIOD_DEFS.filter((pd) => d.authors.some((a) => a.periods.includes(pd.id)));
   const body = `
@@ -748,22 +803,25 @@ ${sils.map(row).join("\n")}
     : ""
 }
 <script>
+${DOOR_JS}
 (function(){
   var q=document.getElementById("q"), fr=document.getElementById("fr"), fp=document.getElementById("fp"),
       cnt=document.getElementById("cnt"), rows=[].slice.call(document.querySelectorAll(".idx>li")),
       heads=[].slice.call(document.querySelectorAll(".idx")).map(function(u){return u.previousElementSibling;});
   function run(){
-    var s=q.value.trim().toLowerCase(), r=fr.value, p=fp.value, n=0;
+    // 첫 장의 문과 같은 키로 견준다(scripts/lib/door.ts) — 띄어쓰기·악센트·점을 지운다. 「조지오웰」 「Jose Saramago」.
+    var s=lpNorm(q.value.trim()), r=fr.value, p=fp.value, n=0;
     for(var i=0;i<rows.length;i++){
       var el=rows[i], ok=true;
-      if(s&&el.getAttribute("data-h").indexOf(s)<0) ok=false;
+      if(!el.__h)el.__h=(el.getAttribute("data-h")||"").split("|").map(lpNorm);
+      if(s&&!el.__h.some(function(k){return k.indexOf(s)>=0;})) ok=false;
       if(ok&&r&&(" "+el.getAttribute("data-r")+" ").indexOf(" "+r+" ")<0) ok=false;
       if(ok&&p&&(" "+el.getAttribute("data-p")+" ").indexOf(" "+p+" ")<0) ok=false;
       el.hidden=!ok; if(ok) n++;
       // 책 제목으로 걸렸으면 어느 제목인지 보여 준다 — 오비디우스가 『변신』에 나오는 이유가 화면에 있어야 한다
       var hs=el.querySelector(".hit"), tt="";
-      if(ok&&s&&(el.getAttribute("data-n")||"").indexOf(s)<0){var ts=(el.getAttribute("data-t")||"").split("|");
-        for(var j=0;j<ts.length;j++){if(ts[j].toLowerCase().indexOf(s)>=0){tt="『"+ts[j]+"』";break;}}}
+      if(ok&&s&&lpNorm(el.getAttribute("data-n")||"").indexOf(s)<0){var ts=(el.getAttribute("data-t")||"").split("|");
+        for(var j=0;j<ts.length;j++){if(lpNorm(ts[j]).indexOf(s)>=0){tt="『"+ts[j]+"』";break;}}}
       if(hs&&hs.textContent!==tt)hs.textContent=tt;
     }
     // 한 칸도 남지 않은 절은 제목까지 접는다 — 빈 제목은 없는 것을 있다고 말한다.
@@ -779,7 +837,9 @@ ${sils.map(row).join("\n")}
     var none=document.getElementById("none");
     if(none){if(n===0&&(s||r||p)){none.textContent=(s?"「"+q.value.trim()+"」에 맞는 이름이 없다":"이 조건에 맞는 사람이 없다")+" — 책 제목이나 원어 이름으로도 찾는다. 스케치와 실루엣도 한 색인이다.";none.hidden=false;}else{none.hidden=true;}}
   }
-  q.addEventListener("input",run); fr.addEventListener("change",run); fp.addEventListener("change",run);
+  // 한글은 한 음절을 짓는 동안에도 input 이 온다 — 짓는 중에는 거르지 않는다(「이 이름은 없다」가 깜박인다).
+  q.addEventListener("input",function(e){if(!e.isComposing)run();}); q.addEventListener("compositionend",run);
+  fr.addEventListener("change",run); fp.addEventListener("change",run);
   try{var pq=new URLSearchParams(location.search).get("q");if(pq){q.value=pq;run();}}catch(e){}
 })();
 </script>`;
@@ -804,7 +864,16 @@ function shelfPage(): string {
 <h1 class="name m">서재</h1>
 <p class="index-lede" id="shelf-sum">표시한 책이 여기 모인다. 이 기록은 이 브라우저 안에 있다.</p>
 </header>
+<div id="move-in" class="move-in" hidden></div>
 <div id="shelf"></div>
+<section class="move" id="move">
+<h2>다른 브라우저로 옮기기</h2>
+<p class="sig">표시는 이 브라우저 안에만 있다. 아이폰 사파리는 이 사이트를 7일 넘게 열지 않으면 지울 수 있고, 사생활 보호 창과
+카카오톡 같은 앱 안 브라우저의 표시는 그 안에서 끝난다. 아래 주소를 자신에게 보내 두거나 다른 브라우저에서 열면, 그 주소를 연 곳에
+같은 표시가 선다. 주소에는 책과 칸과 시각만 실리고, 서버를 거치지 않는다.</p>
+<div class="doors"><button type="button" class="want" id="move-copy">옮기기 주소 복사</button><button type="button" class="want" id="move-share" hidden>보내기</button></div>
+<p class="sig" id="move-msg" role="status"></p>
+</section>
 <div class="doors" style="margin-top:26px">
   <a class="go" href="/">책을 펴기</a>
   <a class="go quiet" href="/authors/">색인</a>
@@ -828,8 +897,9 @@ function paint() {
   const marks = Object.entries(readerState().state || {});
   if (!marks.length) {
     sum.textContent = "표시한 책이 여기 모인다. 이 기록은 이 브라우저 안에 있다.";
-    el.innerHTML = '<p class="absent">아직 아무것도 표시하지 않았다. 책을 펴고 한 권을 ' +
-      '「관심 있는 책」으로 옮기면 여기 선다.</p>';
+    // 「아직 아무것도 표시하지 않았다」는 우리가 알 수 없는 말이다 — 다른 브라우저에서 했거나, 이 브라우저가 지웠을 수 있다.
+    el.innerHTML = '<p class="absent">이 브라우저에는 아직 표시가 없다. 책을 펴고 한 권을 ' +
+      '「관심 있는 책」으로 옮기면 여기 선다. 다른 브라우저에서 표시했다면 그곳의 <a href="#move">옮기기 주소</a>로 가져온다.</p>';
     return 0;
   }
   const bucket = Object.fromEntries(ORDER.map((k) => [k, []]));
@@ -861,6 +931,57 @@ if (paint() > 0) {
 }
 // 서재는 읽기 전용이 아니다 — 읽은 책으로 옮기는 자리가 바로 여기다. 칸이 바뀌면 선반을 다시 짠다.
 el.addEventListener("click", (e) => { if (e.target.closest(".mark-ladder button")) setTimeout(paint, 0); });
+
+// ── 옮기기 주소 — 서버도 메일도 없이 표시를 다른 브라우저로 ───────────────────
+// 주소의 # 뒤는 서버로 가지 않는다. 한 권 = 작품id~칸~시각(36진수), 쉼표로 잇는다.
+const RK = "lp.reader.v3";
+const LETTER = { want: "w", opened: "o", have: "h", read: "r" };
+const FROM_LETTER = { w: "want", o: "opened", h: "have", r: "read" };
+const readRaw = () => { try { return JSON.parse(localStorage.getItem(RK) || "null") || { v: 3, state: {} }; } catch { return { v: 3, state: {} }; } };
+const moveUrl = () => {
+  const st = readRaw().state || {};
+  const body = Object.entries(st).filter(([, m]) => LETTER[m.s]).map(([id, m]) => id + "~" + LETTER[m.s] + "~" + Math.round(m.at).toString(36)).join(",");
+  return location.origin + "/shelf/#m=" + body;
+};
+const msg = document.getElementById("move-msg");
+document.getElementById("move-copy").addEventListener("click", async () => {
+  const n = Object.keys(readRaw().state || {}).length;
+  if (!n) { msg.textContent = "옮길 표시가 없다."; return; }
+  const url = moveUrl();
+  try { await navigator.clipboard.writeText(url); msg.textContent = n + "권의 옮기기 주소를 복사했다. 다른 브라우저의 주소창에 붙이거나 자신에게 보내 둔다."; }
+  catch { msg.innerHTML = '복사하지 못했다 — 아래 주소를 길게 눌러 복사한다.<br><input readonly class="move-url" value="' + esc(url) + '">'; }
+});
+if (navigator.share) {
+  const sh = document.getElementById("move-share");
+  sh.hidden = false;
+  sh.addEventListener("click", () => {
+    if (!Object.keys(readRaw().state || {}).length) { msg.textContent = "옮길 표시가 없다."; return; }
+    navigator.share({ title: "하나의 책 — 서재 옮기기", url: moveUrl() }).catch(() => {});
+  });
+}
+// 주소로 들어온 표시 — 묻고 합친다. 같은 책이면 늦게 한 쪽이 이긴다(서버와 같은 규칙), 이 브라우저에서 지운 것은 되살리지 않는다.
+if (location.hash.startsWith("#m=")) {
+  const rows = location.hash.slice(3).split(",").map((x) => x.split("~")).filter((x) => x.length === 3 && /^[a-z0-9-]+--[a-z0-9-]+$/.test(x[0]) && FROM_LETTER[x[1]])
+    .map(([id, l, t]) => ({ id, s: FROM_LETTER[l], at: parseInt(t, 36) })).filter((r) => r.at > 0 && r.at <= Date.now() + 300000);
+  const box = document.getElementById("move-in");
+  box.hidden = false;
+  box.innerHTML = rows.length
+    ? '<p class="sig">이 주소에 표시 ' + rows.length + '권이 실려 있다. 이 브라우저의 서재에 합칠까?</p><div class="doors"><button type="button" class="want" id="move-yes">합치기</button><button type="button" class="want" id="move-no">그만두기</button></div>'
+    : '<p class="sig">이 주소에서 읽을 수 있는 표시가 없다.</p>';
+  const done = (t) => { history.replaceState(null, "", location.pathname); box.innerHTML = '<p class="sig">' + t + "</p>"; };
+  document.getElementById("move-yes")?.addEventListener("click", () => {
+    const p = readRaw(); p.state = p.state || {}; let n = 0;
+    for (const r of rows) {
+      const cur = p.state[r.id], gone = p.gone && p.gone[r.id];
+      if ((cur && cur.at >= r.at) || (gone && gone >= r.at)) continue;
+      p.state[r.id] = { s: r.s, at: r.at }; if (p.gone) delete p.gone[r.id]; n++;
+    }
+    try { localStorage.setItem(RK, JSON.stringify(p)); done(n + "권을 합쳤다" + (rows.length > n ? " (" + (rows.length - n) + "권은 이 브라우저의 것이 더 늦어 그대로 두었다)" : "") + "."); }
+    catch { done("이 브라우저는 저장을 막고 있어 합치지 못했다(사생활 보호 창·사이트 데이터 차단)."); }
+    if (paint() > 0) fetch("/works.json").then((r) => r.json()).then((j) => { dict = j; paint(); }).catch(() => {});
+  });
+  document.getElementById("move-no")?.addEventListener("click", () => done("합치지 않았다."));
+}
 </script>`;
   return page({
     title: "서재 — 하나의 책",
@@ -868,6 +989,48 @@ el.addEventListener("click", (e) => { if (e.target.closest(".mark-ladder button"
     path: "/shelf/",
     body
   });
+}
+
+// ——— 처리방침 — 로그인하는 독자에게서 무엇을 받는가 ———
+// 로그인은 선택이고, 하지 않으면 서버에 아무것도 가지 않는다. 하는 사람에게는 무엇을, 왜, 어디에, 언제까지 두는지와
+// 지우는 길을 한 쪽에 적는다. 운영자 창구는 래시힐앱스의 대외 문의 주소다(portfolio/ACCOUNTS.md).
+function privacyPage(): string {
+  const body = `
+<header class="title-page">
+<h1 class="name m">처리방침</h1>
+<p class="index-lede">하나의 책이 독자에게서 받는 것과 그것을 지우는 길. 2026년 9월 24일부터.</p>
+</header>
+<section class="row"><h2 class="side label">받지 않는 것</h2><div class="main">
+<p>로그인하지 않으면 서버에 아무것도 보내지 않는다. 표시(어떤 책을 어느 칸에 두었는지)는 이 브라우저의 저장소에만 있다.
+광고·분석 도구·추적 쿠키는 쓰지 않는다. 쪽을 내주는 Cloudflare 는 접속 기록(IP 주소 등)을 자기 방침에 따라 처리하고, 우리는 그 기록을 받지 않는다.</p>
+</div></section>
+<section class="row"><h2 class="side label">로그인하면</h2><div class="main">
+<p><b>받는 것</b> — 이메일 주소, 표시(작품, 칸, 시각), 표시를 바꾼 이력(같은 항목의 시간순 기록).</p>
+<p><b>왜</b> — 다른 기기와 브라우저에서 같은 서재를 보게 하려고. 다른 목적으로 쓰지 않고, 누구에게도 넘기지 않는다.</p>
+<p><b>언제까지</b> — 아래에서 지우거나 삭제를 요청할 때까지.</p>
+<p><b>어디에</b> — Supabase Inc.(미국)의 데이터베이스, 저장 위치 싱가포르(AWS ap-southeast-1). 로그인 링크 메일도 Supabase 가 보낸다.
+로그인 링크를 청하는 순간 이메일 주소가, 로그인한 뒤 표시가 그곳으로 전송된다(국외 이전). 로그인을 쓰지 않으면 이전되지 않는다.</p>
+</div></section>
+<section class="row"><h2 class="side label">지우기</h2><div class="main">
+<div id="lp-erase"><p class="sig">로그인한 브라우저에서 이 쪽을 열면 서버의 기록을 내려받거나 지울 수 있다.</p></div>
+<p>로그인 주소는 운영자의 다른 서비스와 함께 쓰는 인증 저장소에 있어 여기서 바로 지우지 않는다 — 아래 주소로 요청하면 지운다.
+열람·정정·삭제·처리 정지도 같은 주소로 요청한다.</p>
+</div></section>
+<section class="row"><h2 class="side label">운영자</h2><div class="main">
+<p>래시힐앱스(Lashhillapps) · 개인정보 보호책임자 겸 문의 <a href="mailto:lashhillapps@gmail.com">lashhillapps@gmail.com</a></p>
+</div></section>`;
+  return page({ title: "처리방침 — 하나의 책", desc: "하나의 책이 로그인한 독자에게서 받는 것, 두는 곳, 지우는 길.", path: "/privacy/", body });
+}
+
+// ——— 없는 쪽 ———
+function notFoundPage(): string {
+  const body = `
+<header class="title-page">
+<h1 class="name m">없는 쪽</h1>
+<p class="index-lede">이 주소의 쪽은 이 책에 없다. 옮겨졌거나, 처음부터 없던 쪽이다.</p>
+</header>
+<div class="doors"><a class="go" href="/">첫 장</a><a class="go quiet" href="/authors/">색인에서 찾기</a></div>`;
+  return page({ title: "없는 쪽 — 하나의 책", desc: "이 주소의 쪽은 없다.", path: "/404", body, noindex: true });
 }
 
 // ——— 첫 장 — 걸음마다 작가 하나, 인연을 골라 다음으로 ———
@@ -888,7 +1051,9 @@ function walkPage(): string {
       const byOrder = a.readingOrder
         .map((id) => works.find((w) => w.id === id))
         .filter((w): w is Work => Boolean(w));
-      const ordered = (byOrder.length ? byOrder : [...works].sort((x, y) => x.year - y.year)).slice(0, 3);
+      // 순서가 없는 사람(스케치·실루엣)은 한국어로 구할 수 있는 책을 앞에 — 첫 장에서 담을 수 없는 원서 셋만 내밀지 않는다.
+      const hasKo = (w: Work): number => ((d.editions.editions[w.id] ?? []).some((e) => e.language === "ko") ? 1 : 0);
+      const ordered = (byOrder.length ? byOrder : [...works].sort((x, y) => hasKo(y) - hasKo(x) || x.year - y.year)).slice(0, 3);
       const hops = relsOf(a.id)
         .sort((x, y) => (y.weight ?? 0.7) - (x.weight ?? 0.7))
         .slice(0, 3)
@@ -897,7 +1062,7 @@ function walkPage(): string {
           const o = byId.get(to);
           // 다음 걸음의 사람은 이름과 인장만 있으면 그려진다 — 그 사람의 캡슐을 따로 받지 않는다.
           return { to, k: o?.names.ko ?? to, o: o?.names.original, pv: o && proved(o) ? 1 : 0, sl: o ? sealSl(o) : undefined,
-            g: GLYPH[relationGlyph(r, a.id)] ?? "·", t: REL_KO[r.type] ?? r.type, s: r.summary };
+            g: relationGlyph(r, a.id), t: REL_KO[r.type] ?? r.type, s: r.summary };
         });
       return [
         a.id,
@@ -906,13 +1071,16 @@ function walkPage(): string {
           or: a.names.original,
           al: a.names.aliases.length ? a.names.aliases : undefined,
           sl: sealSl(a),
-          life: `${a.birthYear === undefined ? "?" : span(a.birthYear, a.deathYear)} · ${a.languages.map(langKo).join("·")}`,
+          life: `${lifeSpan(a)} · ${a.languages.map(langKo).join("·")}`,
           why: a.importanceReason ? firstSentence(a.importanceReason) : "",
           depth: a.depth ?? "plate",
           pv: proved(a) ? 1 : 0,
           sg: signatureOf(a.id)?.file,
-          entry: a.readingEntryReason,
-          works: ordered.map((w) => ({ id: w.id, t: w.titleKo, y: w.year, s: w.significance ? firstSentence(w.significance) : "" })),
+          entry: a.readingEntryReason ? firstSentence(a.readingEntryReason) : undefined,
+          // 입문 순서가 있는 사람만 「여기서 읽기 시작한다면」이다. 연도순 목록에 그 제목을 달면 없는 추천을 지어낸다.
+          ord: byOrder.length ? 1 : 0,
+          nw: works.length,
+          works: ordered.map((w) => ({ id: w.id, t: w.titleKo, y: w.year, yk: `${yr(w.year)}${YEAR_BASIS_SHORT[w.yearBasis ?? "attested"] ?? ""}`, s: w.significance ? firstSentence(w.significance) : "" })),
           hops
         }
       ];
@@ -923,7 +1091,7 @@ function walkPage(): string {
   // 13초가 걸렸다(2026-09-23 실측). 작가마다 한 파일, 문의 이름 색인은 한 파일(내용 해시가 이름) — 입력칸을 누를 때 받는다.
   mkdirSync(join(OUT, "walk"), { recursive: true });
   for (const [id, c] of Object.entries(capsule)) writeFileSync(join(OUT, "walk", `${id}.json`), JSON.stringify(c));
-  const nameIndex = d.authors.map((a) => [a.id, a.names.ko, a.names.original, (a.depth ?? "plate")[0], ...(a.names.aliases.length ? [a.names.aliases] : [])]);
+  const nameIndex = buildNameIndex(d.authors, d.works);
   walkDataPath = `/walk-${createHash("sha256").update(JSON.stringify(nameIndex)).digest("hex").slice(0, 10)}.json`;
   writeFileSync(join(OUT, walkDataPath.slice(1)), JSON.stringify(nameIndex));
   // 첫인사의 적격 목록 — atlas.js firstOpen 과 같은 조건(도판 · 작품 있음 · 한국어 판본 있음). 그래프 없이 같은 사람이 열린다.
@@ -941,7 +1109,7 @@ function walkPage(): string {
 <datalist id="authors"></datalist>
 <p class="miss" id="miss" role="status"></p>
 </form>
-<p class="lede">모든 책을 품은 하나의 책. 세계는 처음부터 전부 여기 있고, 아직 만나지
+<p class="lede">모든 책을 품으려는 하나의 책. 지금 작가 ${d.authors.length}명이 들어와 있고, 아직 만나지
 않은 이름은 실루엣으로 서 있다. 읽은 것이 다음 것을 연다.</p>
 <p class="census" id="census"></p>
 <div class="below" id="below"></div>
@@ -949,17 +1117,19 @@ function walkPage(): string {
 <section class="recto"><div id="app"><p class="sig">책을 펴는 중…</p></div></section>
 </div>
 <script>
-var DATA={};var NAMES=null;
+var DATA={};var NAMES=null;var TITLES=[];
 var FIRST=${JSON.stringify(firstIds)};var TOTAL=${d.authors.length};
 var STARTS=${JSON.stringify(STARTS)};
 function cap(id){if(DATA[id])return Promise.resolve(DATA[id]);
   return fetch('/walk/'+encodeURIComponent(id)+'.json').then(function(r){if(!r.ok)throw new Error('cap '+r.status);return r.json();}).then(function(j){DATA[id]=j;return j;});}
 function names(){if(NAMES)return Promise.resolve(NAMES);
-  return fetch('${walkDataPath}').then(function(r){if(!r.ok)throw new Error('names '+r.status);return r.json();}).then(function(j){NAMES=j;
-    document.getElementById('authors').innerHTML=j.filter(function(x){return x[3]==='p';}).map(function(x){return '<option value="'+h(x[1])+'">';}).join('');return j;});}
+  return fetch('${walkDataPath}').then(function(r){if(!r.ok)throw new Error('names '+r.status);return r.json();}).then(function(j){NAMES=j.n;TITLES=j.t;
+    document.getElementById('authors').innerHTML=j.n.map(function(x){return '<option value="'+h(x[1])+'">';}).join('');return NAMES;});}
 function nameOf(id){if(DATA[id])return DATA[id].ko;if(NAMES)for(var i=0;i<NAMES.length;i++)if(NAMES[i][0]===id)return NAMES[i][1];return id;}
 var trail=[];
-function h(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+// 속성 값에도 쓰인다(data-t·alt·option) — 따옴표까지 막는다.
+function h(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
+var DIR={'→':'이 쪽의 사람이 상대에게','←':'상대가 이 쪽의 사람에게','↔':'서로'};
 // 인장 — 빌드의 sealSvg 와 같은 규칙의 작은 판(질감 필터 없음). 작가의 문자로 새기고 슬러그로 기운다.
 var CHO='ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ';var sealN=0;
 function lpGlyphs(o){var L=Array.from(o||'').filter(function(c){return /\\p{L}/u.test(c);});if(!L.length)return ['·'];
@@ -980,30 +1150,35 @@ function lpHead(id,a,label){
     '<div class="autograph'+(a.sg?'':' solo')+'">'+(a.sg?'<img src="/art/'+a.sg+'" alt="'+h(a.ko)+'의 서명">':'')+lpSeal(id,a.or||a.ko,a.pv)+'</div>';}
 function lpWorks(a,withEntry){
   return '<ul class="works">'+a.works.map(function(w,i){
-    return '<li><div class="head"><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+w.y+'</span></div>'+
+    return '<li><div class="head"><span class="t"><a href="/works/'+w.id+'/">'+h(w.t)+'</a></span><span class="y">'+h(w.yk||w.y)+'</span></div>'+
       (withEntry&&i===0&&a.entry?'<p class="entrywhy">'+h(a.entry)+'</p>':'')+
       (w.s?'<p class="sig">'+h(w.s)+'</p>':'')+lpControl(w.id,w.t,w.y,a.ko)+'</li>';}).join('')+'</ul>';}
-function render(id){
+function render(id,note,scroll){
   var app=document.getElementById('app');
   if(!id){ openBook(app); return; }
   cap(id).then(function(a){
   var html='';
-  html+=lpHead(id,a,trail.length>1?trail.map(nameOf).join(' → '):'책의 한 쪽');
+  html+=lpHead(id,a,note||(trail.length>1?trail.map(nameOf).join(' → '):'책의 한 쪽'));
   if(a.depth==='silhouette'){
-    html+='<p class="absent">아직 실루엣이다 — 이름과 자리만 안다. 이 사람의 쪽은 아직 비어 있다.</p>';
+    html+='<p class="absent">아직 실루엣이다 — '+(a.works.length?'이름과 자리, 책의 목록만 안다.':'이름과 자리만 안다.')+' 이 사람의 쪽은 아직 비어 있다.</p>';
   } else if(a.why){ html+='<p class="lede">'+h(a.why)+'</p>'; }
-  if(a.works.length){ html+='<h3 class="label" style="margin-top:26px">여기서 읽기 시작한다면</h3>'+lpWorks(a,true); }
+  if(a.works.length){ html+='<h3 class="label" style="margin-top:26px">'+(a.ord?'여기서 읽기 시작한다면':'이 사람의 책'+(a.nw>a.works.length?' — '+a.nw+'권 중 '+a.works.length+'권':''))+'</h3>'+lpWorks(a,Boolean(a.ord)); }
   if(a.hops.length){
     html+='<h3 class="label" style="margin:26px 0 12px">다음 걸음 — 인연을 골라라</h3><ul class="rels">'+a.hops.map(function(x){
       return '<li>'+lpSeal(x.to,x.o||x.k,1,'xs','ink',x.sl)+'<div class="who"><a href="#'+x.to+'" data-go="'+x.to+'">'+h(x.k)+'</a>'+
-      '<span class="rt">'+x.g+' '+h(x.t)+'</span></div><p class="sum">'+h(x.s)+'</p></li>';}).join('')+'</ul>';
+      '<span class="rt"><span class="g" title="'+h(DIR[x.g]||'')+'" aria-label="'+h(DIR[x.g]||'')+'">'+h(x.g)+'</span> '+h(x.t)+'</span></div><p class="sum">'+h(x.s)+'</p></li>';}).join('')+'</ul>';
   }
   html+='<div class="doors" style="margin-top:22px"><a class="go" href="/authors/'+id+'/">이 작가의 방(전체 기록)</a>'+
     '<a class="go quiet" href="#" data-reopen="1">책을 다시 펴기</a></div>';
   app.innerHTML=html;
   lpPaint();
-  window.scrollTo(0,0);
-  }).catch(function(){trail=[];openBook(app);});
+  // 고른 사람의 쪽으로 — 창의 맨 위로 올리면 폰에서는 문과 머리말만 보이고 그 사람은 접힌 선 아래에 있다.
+  if(scroll)app.scrollIntoView({block:'start'});
+  }).catch(function(){
+    // 없는 쪽을 말없이 이번 주의 쪽으로 바꾸지 않는다.
+    trail=[];history.replaceState(null,'',location.pathname);
+    document.getElementById('miss').textContent='주소의 「'+id+'」 쪽은 이 책에 없다. 이번 주의 쪽을 편다.';
+    openBook(app);});
 }
 
 // ── 책이 열리는 쪽 ──────────────────────────────────────────────────────────
@@ -1019,7 +1194,9 @@ function censusLine(met,total,openNow){document.getElementById('census').innerHT
 // 문해의 지도 — 접혀 있다. 표시가 없는 독자에게는 펼칠 때 그래프를 받는다(접힌 것을 위해 첫 장을 무겁게 하지 않는다).
 function literacyBlock(A,g,lit){
   var el=document.getElementById('below');
-  var fill=function(g2){var L=A.literacy(g2,lit||new Map());
+  // 「지도 없이 읽을 수 있는 곳」은 관심만으로 열리지 않는다 — 펼쳐 봤거나 샀거나 읽은 작가만 센다.
+  var opened=new Map();if(lit)lit.forEach(function(v,k){if(v>=2)opened.set(k,v);});
+  var fill=function(g2){var L=A.literacy(g2,opened);
     var bar=function(row){var pct=row.total?Math.round(row.met/row.total*100):0;
       return '<li><span class="t">'+h(row.ko)+'</span><span class="m"><i style="width:'+pct+'%"></i></span><span class="y">'+row.met+'/'+row.total+'</span></li>';};
     return '<p class="sig">배지가 아니다. 어디를 지도 없이 읽을 수 있는지를 말한다.</p>'+
@@ -1036,7 +1213,10 @@ function openBook(app){
     try{var tv=JSON.parse(sessionStorage.getItem('lp.turn.v1')||'null');if(tv&&tv.wk===wk)turn=tv.n|0;}catch(_){}
     if(!marks){
       // 표시가 없는 독자 — 그래프 없이. 적격 목록(FIRST)과 주차만으로 atlas.openAt 과 같은 사람이 열린다.
-      var id=A.firstOpen(FIRST,wk,turn);
+      // 이번 주의 쪽은 한 주 동안 그 사람이다 — 주 중간의 배포가 적격 목록을 바꿔도 돌아온 독자의 쪽을 바꾸지 않는다.
+      var pin=null;try{pin=JSON.parse(localStorage.getItem('lp.week.v1')||'null');}catch(_){}
+      var id=pin&&pin.wk===wk&&pin.n===turn&&FIRST.indexOf(pin.id)>=0?pin.id:A.firstOpen(FIRST,wk,turn);
+      try{localStorage.setItem('lp.week.v1',JSON.stringify({wk:wk,n:turn,id:id}));}catch(_){}
       censusLine(0,TOTAL,0);literacyBlock(A,null,null);
       if(!id){app.innerHTML='';return;}
       A.markSeen(id);
@@ -1054,7 +1234,7 @@ function openBook(app){
       return cap(open.id).then(function(a){app.innerHTML=pageHtml(open.id,a,reason,open.why);lpPaint();});
     });
   }).catch(function(){
-    app.innerHTML='<p class="absent">책을 펴지 못했다 — 잠시 뒤 다시 시도해 주세요. '+'<a href="/authors/">색인</a>은 지금도 열려 있다.</p>';
+    app.innerHTML='<p class="absent">책을 펴지 못했다 — 잠시 뒤 다시 시도해 달라. '+'<a href="/authors/">색인</a>은 지금도 열려 있다.</p>';
   });
 }
 // 클릭 위임 — 인라인 핸들러는 TS 템플릿 안의 JS 문자열 안의 따옴표라 세 겹이 되고,
@@ -1071,35 +1251,38 @@ document.addEventListener('click',function(e){
     trail=[];render(null);}
 });
 
-function go(id){if(trail[trail.length-1]!==id)trail.push(id);history.replaceState(null,'','#'+id);render(id);}
+// 걸음마다 기록을 남긴다 — 폰의 뒤로 가기는 앞 사람에게 돌아가야지 책 밖으로 나가면 안 된다.
+function go(id,note){if(trail[trail.length-1]!==id)trail.push(id);history.pushState({id:id},'','#'+id);document.getElementById('miss').textContent='';render(id,note,true);}
+window.addEventListener('popstate',function(){var id=location.hash.replace('#','');
+  if(!id){trail=[];render(null);return;}
+  var at=trail.lastIndexOf(id);trail=at>=0?trail.slice(0,at+1):[id];render(id,null,true);});
+${DOOR_JS}
 document.getElementById('door').addEventListener('submit',function(e){e.preventDefault();
   var inp=document.getElementById('anchor');var miss=document.getElementById('miss');var v=(inp.value||'').trim();miss.textContent='';if(!v)return;
-  // 이름·원어·별칭(도스토예프스키/도스토옙스키)을 띄어쓰기와 점을 빼고 견준다. 하나만 걸리면 편다,
-  // 여럿이면 고르게 한다, 없으면 「없다」가 아니라 「못 찾았다」 — 색인이 그 말을 받아 다시 찾는다.
+  // 규칙은 scripts/lib/door.ts — 확실할 때만 연다. 비슷한 이름은 「그대로의 이름은 없다」와 함께 내민다.
+  var find='<a href="/authors/?q='+encodeURIComponent(v)+'">색인에서 다른 표기로 찾기</a>';
   names().then(function(N){
-    var n=lpNorm(v),hit=null,part=[];
-    var keys=function(x){return [x[1],x[2]||''].concat(x[4]||[]).map(lpNorm);};
-    for(var i=0;i<N.length;i++){if(keys(N[i]).some(function(k){return k===n;})){hit=N[i][0];break;}}
-    if(!hit){for(var j=0;j<N.length;j++){if(keys(N[j]).some(function(x){return x&&(x.indexOf(n)>=0||(n.length>=4&&x.indexOf(n.slice(0,3))===0&&Math.abs(x.length-n.length)<=2));}))part.push(N[j]);}
-      var pl=part.filter(function(x){return x[3]==='p';});if(pl.length)part=pl;
-      if(part.length===1)hit=part[0][0];}
-    if(hit){go(hit);return;}
-    if(part.length>1){miss.innerHTML='여럿이 걸린다 — '+part.slice(0,4).map(function(x){return '<a href="#'+x[0]+'" data-go="'+x[0]+'">'+h(x[1])+'</a>';}).join(' · ');return;}
-    miss.innerHTML='이 이름으로는 찾지 못했다 — <a href="/authors/?q='+encodeURIComponent(v)+'">색인에서 「'+h(v)+'」 찾기</a>';
-  }).catch(function(){miss.innerHTML='이름 색인을 받지 못했다 — <a href="/authors/?q='+encodeURIComponent(v)+'">색인에서 「'+h(v)+'」 찾기</a>';});});
-function lpNorm(s){return (s||'').toLowerCase().replace(/[\s·.,\-_'’]/g,'');}
-document.getElementById('anchor').addEventListener('change',function(){if(this.value)document.getElementById('door').requestSubmit&&document.getElementById('door').requestSubmit();});
+    var r=doorMatch(N,TITLES,v);
+    var list=function(ids){return ids.slice(0,6).map(function(id){return '<a href="#'+id+'" data-go="'+id+'">'+h(nameOf(id))+'</a>';}).join(' · ');};
+    if(r.kind==='open'){go(r.id);return;}
+    if(r.kind==='title'){go(r.id,'『'+r.title+'』의 작가');return;}
+    if(r.kind==='choose'){miss.innerHTML='「'+h(v)+'」 — 여럿이다. 고르라: '+list(r.ids);return;}
+    if(r.kind==='near'){miss.innerHTML='「'+h(v)+'」 그대로의 이름은 이 책에 없다. 가까운 이름: '+list(r.ids)+' — 또는 '+find;return;}
+    // 「없다」고 단정하지 않는다 — 이름·별칭·책 제목을 다 봤어도 우리가 모르는 표기일 수 있다.
+    var c=v.charCodeAt(v.length-1),fin=c>=0xAC00&&c<=0xD7A3?(c-0xAC00)%28:0,ro=fin&&fin!==8?'으로':'로';
+    miss.innerHTML='「'+h(v)+'」'+ro+'는 찾지 못했다 — 아직 이 책에 없는 이름이거나 다른 표기다. '+find;
+  }).catch(function(){miss.innerHTML='이름 색인을 받지 못했다 — '+find;});});
 function lpControl(id,t,y,a){
   return '<div class="mark" data-work="'+id+'" data-state="" data-t="'+h(t||'')+'" data-y="'+(y||0)+'" data-a="'+h(a||'')+'"><button type="button" class="mark-main" aria-pressed="false"><span class="pip" aria-hidden="true"></span><span class="mark-label">관심 있는 책</span><span class="chev" aria-hidden="true">▾</span></button></div>';
 }
 // 시작 — 주소에 사람이 있으면 그 쪽을, 없으면 책이 열린 쪽을. 이름 색인은 문을 두드릴 때 받는다.
 (function(){var start=location.hash.replace('#','');
-  if(start){trail=[start];render(start);}else{render(null);}
+  if(start){trail=[start];render(start,null,true);}else{render(null);}
   document.getElementById('anchor').addEventListener('focus',function(){names().catch(function(){});},{once:true});})();
 </script>`;
   return page({
     title: "하나의 책 — 세계문학의 지도",
-    desc: `모든 책을 품은 하나의 책 — 호메로스에서 지금까지 작가 ${d.authors.length}인. 읽은 것이 다음 것을 연다. 검토된 ${d.authors.filter((a) => a.reviewStatus !== "draft").length}인이 큐레이션이고, 작품 ${d.works.length}편이 그 안에 있다.`,
+    desc: `모든 책을 품으려는 하나의 책 — 호메로스에서 지금까지 작가 ${d.authors.length}인. 읽은 것이 다음 것을 연다. 검토된 ${d.authors.filter((a) => a.reviewStatus !== "draft").length}인이 큐레이션이고, 작품 ${d.works.length}편이 그 안에 있다.`,
     path: "/",
     body
   });
@@ -1168,6 +1351,17 @@ writeFileSync(join(OUT, "graph.json"), JSON.stringify(capsule));
 // 서재의 책 사전 — 서재를 여는 사람만 받는다. [제목, 연도, 작가]
 mkdirSync(join(OUT, "shelf"), { recursive: true });
 writeFileSync(join(OUT, "shelf", "index.html"), shelfPage());
+// 배포 확인용 — 라이브의 이 파일이 배포한 커밋이어야 한다(scripts/deploy.sh). 캡슐 이름은 이름이 바뀔 때만 바뀌어 증거가 못 됐다.
+writeFileSync(join(OUT, "build.txt"), `${process.env.GITHUB_SHA ?? execSync("git rev-parse HEAD", { cwd: PKG_ROOT }).toString().trim()}\n`);
+mkdirSync(join(OUT, "privacy"), { recursive: true });
+writeFileSync(join(OUT, "privacy", "index.html"), privacyPage());
+// 없는 주소는 없다고 말한다. 이 파일이 있으면 Pages 는 모르는 경로에 첫 장을 200 으로 내주던 SPA 대체를 끄고 404 를 준다.
+writeFileSync(join(OUT, "404.html"), notFoundPage());
+// 내용 해시가 이름인 파일만 오래 둔다 — 이름이 같으면 내용도 같다. 나머지(HTML·book.css·캡슐)는 매번 다시 묻는다.
+writeFileSync(
+  join(OUT, "_headers"),
+  ["/walk-*.json", "/fonts/nskr-*.woff2"].map((p) => `${p}\n  Cache-Control: public, max-age=31536000, immutable\n`).join("\n")
+);
 writeFileSync(
   join(OUT, "works.json"),
   JSON.stringify(
@@ -1192,6 +1386,7 @@ const urls = [
   `${BASE}/`,
   `${BASE}/authors/`,
   `${BASE}/shelf/`,
+  `${BASE}/privacy/`,
   // 깊이와 검토는 다른 축이다. 도판이어도 사람이 검토하지 않았으면 제출하지 않는다.
   ...d.authors.filter((a) => a.reviewStatus !== "draft").map((a) => `${BASE}/authors/${a.id}/`),
   ...d.works.filter((w) => byId.get(w.authorId)?.reviewStatus !== "draft").map((w) => `${BASE}/works/${w.id}/`)

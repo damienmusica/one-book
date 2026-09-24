@@ -489,9 +489,9 @@ export const PERIOD_DEFS: ReadonlyArray<{
   },
   {
     id: "contemporary",
-    ko: "21세기 후속층 1990–현재",
+    ko: "동시대 1990–현재",
     en: "Contemporary 1990–present",
-    shortKo: "21세기",
+    shortKo: "동시대",
     shortEn: "Contemporary",
     range: [1990, 2026],
     defaultOn: false,

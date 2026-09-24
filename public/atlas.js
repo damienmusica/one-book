@@ -238,20 +238,41 @@ export const yearKo = (n) => (n < 0 ? `기원전 ${-n}` : String(n));
 // ── 문해의 지도 ──────────────────────────────────────────────────────────────
 // 배지가 아니다. **당신이 어느 영역을 지도 없이 읽을 수 있는가**를 권역과 시대로
 // 말한다. 도감의 "박사"는 모은 개수가 아니라 열린 영역이다.
+// 색인의 절 이름과 한 벌이다(src/types.ts REGION_DEFS·PERIOD_DEFS) — tests/atlas.test.ts 가 둘이 같은지 본다.
 export const REGION_KO = {
-  "western-europe": "서유럽", "central-europe": "중부유럽", "eastern-europe": "동유럽",
-  russia: "러시아", "britain-ireland": "영국·아일랜드", nordic: "북유럽", iberia: "이베리아",
-  italy: "이탈리아", "north-america": "북미", "latin-america": "라틴아메리카",
-  caribbean: "카리브", "east-asia": "동아시아", "south-asia": "남아시아",
-  "middle-east-north-africa": "중동·북아프리카", "sub-saharan-africa": "사하라 이남",
-  oceania: "오세아니아", "central-asia": "중앙아시아", "southeast-asia": "동남아시아",
-  anatolia: "아나톨리아", mesoamerica: "메소아메리카", andes: "안데스",
-  "east-africa": "동아프리카", "horn-of-africa": "아프리카의 뿔"
+  "western-europe": "서유럽",
+  "central-europe": "중부유럽",
+  "eastern-europe": "동유럽",
+  "russia": "러시아",
+  "britain-ireland": "영국·아일랜드",
+  "nordic": "북유럽",
+  "iberia": "이베리아",
+  "italy": "이탈리아",
+  "north-america": "북미",
+  "latin-america": "라틴아메리카",
+  "caribbean": "카리브",
+  "east-asia": "동아시아",
+  "south-asia": "남아시아",
+  "middle-east-north-africa": "중동·북아프리카",
+  "sub-saharan-africa": "사하라 이남 아프리카",
+  "oceania": "오세아니아",
+  "central-asia": "중앙아시아",
+  "southeast-asia": "동남아시아",
+  "anatolia": "아나톨리아",
+  "mesoamerica": "메소아메리카",
+  "andes": "안데스",
+  "east-africa": "동아프리카",
+  "horn-of-africa": "아프리카의 뿔"
 };
 export const PERIOD_KO = {
-  "antiquity-medieval": "고대·중세", "renaissance-baroque": "르네상스·바로크",
-  "enlightenment-romantic": "계몽·낭만", roots: "뿌리층", "early-modernism": "초기 모더니즘",
-  "mid-century": "중기 현대", "late-postmodern": "후기·포스트모던", contemporary: "동시대"
+  "antiquity-medieval": "고대·중세 –1400",
+  "renaissance-baroque": "르네상스·바로크 1400–1700",
+  "enlightenment-romantic": "계몽·낭만 1700–1850",
+  "roots": "뿌리층 1850–1900",
+  "early-modernism": "초기 모더니즘 1890–1945",
+  "mid-century": "중기 현대문학 1930–1970",
+  "late-postmodern": "후기·포스트모던 1960–2000",
+  "contemporary": "동시대 1990–현재"
 };
 
 /** 권역·시대별로 만난 수와 전체. 순위를 매기지 않는다 — 지도이지 점수판이 아니다. */

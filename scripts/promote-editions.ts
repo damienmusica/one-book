@@ -77,9 +77,11 @@ for (const [workId, list] of Object.entries(cands.found as Record<string, Raw[]>
   if (sameLang.length && !REPLACE) { skippedHave++; continue; }
   const a = authors.get(w.authorId);
   const translation = !(a?.languages ?? []).includes(LANG);
-  let pool = list.filter((c) => !translation || c.translator);
+  // 조회로 판정된 표준판(pinned)은 거르지 않는다 — 목록에 역자가 비었거나 자동 메모가 붙었다고 사람이 확인한 판을
+  // 떨어뜨리면, 이백 「정야사」처럼 「아직 검수하지 않았다」가 선다(2026-09-24 감사: 핀 244개 중 17개가 쪽에 닿지 못했다).
+  let pool = list.filter((c) => c.pinned || !translation || c.translator);
   if (translation && !pool.length && list.length) skippedNoTranslator++;
-  pool = pool.filter((c) => !c.note); // 어린이·축약 표시가 붙은 것은 판정 없이 올리지 않는다
+  pool = pool.filter((c) => c.pinned || !c.note); // 어린이·축약 표시가 붙은 것은 판정 없이 올리지 않는다
   pool.sort((x, y) => Number(y.pinned ?? 0) - Number(x.pinned ?? 0) || Number(canon(LANG, y.publisher)) - Number(canon(LANG, x.publisher)) || Number(preferred(LANG, y.publisher)) - Number(preferred(LANG, x.publisher))
     || Number((y.status ?? "정상판매") === "정상판매") - Number((x.status ?? "정상판매") === "정상판매")
     || Number(y.exact) - Number(x.exact) || y.year - x.year);

@@ -30,3 +30,11 @@ jobs:
       - run: npm run verify:book
         env:
           QA_CHANNEL: chrome
+      # 배포는 이 산출물을 그대로 올린다(scripts/deploy.sh). 로컬에서 다시 지으면 CI 가 보지 않은 파일
+      # (커밋되지 않은 data/·public/)이 따라 올라갈 수 있었다(2026-09-24 감사).
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'push'
+        with:
+          name: dist
+          path: dist
+          retention-days: 14

@@ -4,7 +4,8 @@
 // 사용자 0명에서도 돈다. 아래가 그 주장을 실제로 재는 자리다.
 import { describe, expect, it } from "vitest";
 // @ts-expect-error — 브라우저 ESM 이지만 순수 함수는 그대로 import 된다
-import { authorOf, census, KIND_KO, litAuthors, openAt, readiness, isoWeek } from "../public/atlas.js";
+import { authorOf, census, KIND_KO, litAuthors, openAt, readiness, isoWeek, REGION_KO, PERIOD_KO } from "../public/atlas.js";
+import { PERIOD_DEFS, REGION_DEFS } from "../src/types.ts";
 
 const A = (i: string, over: Record<string, unknown> = {}) => ({
   i, k: i, o: i, b: 1900, e: 1980, y: 1950, r: "western-europe", l: "fr",
@@ -270,5 +271,12 @@ describe("말한 만큼만 말한다 — 담아 둔 것을 읽었다고 하지 �
     expect(KIND_KO.opens("프란츠 카프카", 1)).toBe("프란츠 카프카를 담아 두었으니 이제 열린다");
     expect(KIND_KO.opens("프란츠 카프카", 2)).toBe("프란츠 카프카를 곁에 두었으니 이제 열린다");
     expect(KIND_KO.opens("프란츠 카프카", 3)).toBe("프란츠 카프카를 읽었으니 이제 열린다");
+  });
+});
+
+describe("문해의 지도와 색인은 같은 이름을 쓴다", () => {
+  it("권역·시대 이름이 src/types.ts 와 한 벌이다", () => {
+    expect(REGION_KO).toEqual(Object.fromEntries(REGION_DEFS.map((r) => [r.id, r.ko])));
+    expect(PERIOD_KO).toEqual(Object.fromEntries(PERIOD_DEFS.map((p) => [p.id, p.ko])));
   });
 });

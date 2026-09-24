@@ -209,6 +209,7 @@ describe("없음의 원장 — 지도에서 지우지 않고 적는다", () => {
 
 describe("표면 — 부재와 관계 0이 화면에서 다른 문장이 된다", () => {
   it("관계가 0이면 빈 제목이 아니라 없다는 문장이 선다", async () => {
+    process.env.ONE_BOOK_OUT = mkdtempSync(join(tmpdir(), "one-book-import-"));
     const { relationsSection } = await import("../scripts/generate-static-pages.ts");
     const empty = relationsSection([], "someone");
     expect(empty).not.toContain("이어지는 한 사람");
