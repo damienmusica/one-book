@@ -224,9 +224,15 @@ const relShown = await page.locator("ul.rels > li:visible").count();
 check("펼쳐진 관계는 하나다", relShown === 1, `보이는 관계 ${relShown}`);
 const folds = await page.locator("details").count();
 check("나머지는 접혀 있다", folds >= 1, `접힘 ${folds}`);
-await page.locator("details > summary").first().click();
+// 관계를 담은 접힘을 연다 — 쪽의 첫 접힘은 이제 출처 목록일 수 있다.
+await page.locator("details:has(ul.rels) > summary").first().click();
 await page.waitForTimeout(120);
 check("접힘은 열린다 — 기록은 사라지지 않았다", (await page.locator("ul.rels > li:visible").count()) > 1);
+// 「출처 N건」은 펼치면 그 N건의 이름이 선다.
+await page.locator("details.srcs > summary").first().click();
+await page.waitForTimeout(120);
+const srcItems = await page.locator("details.srcs[open] li").count();
+check("출처 수를 펼치면 출처의 이름이 선다", srcItems > 0, `${srcItems}건`);
 
 // ─── 작품 페이지: 구하기(판본 레이어) ────────────────────────────────────────
 console.log("\n작품 페이지 — 구하기");

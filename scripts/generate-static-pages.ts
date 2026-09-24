@@ -66,6 +66,19 @@ const creditHtml = (e: ArtEntry): string => {
   return `${licHtml}${p.creator && !lic.includes(p.creator) ? ` ${esc(p.creator)}` : ""} · ${src}`;
 };
 const coverShows = (c: ArtEntry): string => c.provenance?.shows ?? "초판 표지";
+// 「출처 N건」은 그 N건이 무엇인지 보여 줘야 한다 — 706쪽이 수만 적고 이름을 한 번도 대지 않았다(2026-09-24 감사).
+// 접어 둔다: 읽는 사람이 펼칠 때만 그려진다(글자 예산은 접힌 것을 세지 않는다).
+const sourceById = new Map(d.sources.map((x) => [x.id, x]));
+function sourcesDetails(ids: string[], cls = "srcs"): string {
+  if (!ids.length) return "";
+  const li = (id: string): string => {
+    const x = sourceById.get(id);
+    if (!x) return "";
+    const title = x.url ? `<a href="${esc(x.url)}" rel="nofollow noopener">${esc(x.title)}</a>` : esc(x.title);
+    return `<li>${title} — ${esc(x.publisherOrInstitution)}${x.citation ? ` · ${esc(x.citation)}` : ""}</li>`;
+  };
+  return `<details class="${cls}"><summary>출처 ${ids.length}건</summary><ol>${ids.map(li).join("")}</ol></details>`;
+}
 // 인장 글자 판정 원장 — 마지막 낱말이 성이 아닌 이름들. 헝가리 이름은 성이 앞에 선다.
 // 판매 상태 — 서점 상품 페이지에서 확인한 것만(qc/edition-availability.json). 카카오의 판매 상태는 절판본도 정상판매라 한다.
 const OUT_OF_PRINT = new Set(Object.entries<{ status?: string }>(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-availability.json"), "utf8")).byIsbn ?? {}).filter(([, v]) => v.status === "out-of-print").map(([k]) => k));
@@ -430,7 +443,7 @@ function relRow(r: Relation | undefined, selfId: string): string {
   if (!other) return "";
   const g = relationGlyph(r, selfId);
   return `<li>${seal(other, { tone: "ink", cls: "xs" })}<div class="who"><a href="/authors/${esc(otherId)}/">${esc(other.names.ko)}</a><span class="rt">${g} ${esc(REL_KO[r.type] ?? r.type)}</span></div>
-    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
+    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)}</span></p>${sourcesDetails(r.sourceIds, "srcs rel")}</li>`;
 }
 
 // 목록의 한 줄은 **한 문장**이다. 산문 전체는 그 작품의 페이지에 있고, 거기가
@@ -657,7 +670,7 @@ ${
     : ""
 }</div></section>
 ${nearRow ? `<section class="row"><h2 class="side label">같은 자리</h2><div class="main">${nearRow}</div></section>` : ""}
-<section class="row"><div class="side"></div><div class="main"><p class="srcs">출처 ${a.sourceIds.length}건</p></div></section>
+<section class="row"><div class="side"></div><div class="main">${sourcesDetails(a.sourceIds)}</div></section>
 </div>
 </article>`;
   return page({
@@ -698,7 +711,7 @@ ${list
     if (!other) return "";
     const g = relationGlyph(r, w.authorId);
     return `<li>${seal(other, { tone: "ink", cls: "xs" })}<div class="who"><a href="/authors/${esc(otherId)}/">${esc(other.names.ko)}</a><span class="rt">${g} ${esc(REL_KO[r.type] ?? r.type)}</span></div>
-    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)} · 출처 ${r.sourceIds.length}건</span></p></li>`;
+    <p class="sum">${esc(r.summary)} <span class="ev">${esc(EVIDENCE_KO[r.evidenceLevel] ?? r.evidenceLevel)}</span></p>${sourcesDetails(r.sourceIds, "srcs rel")}</li>`;
   })
   .join("\n")}
 </ul></div></section>`
@@ -742,7 +755,7 @@ ${acquireBlock(w, a)}
   ${a ? `<a class="go" href="/authors/${esc(a.id)}/">${esc(a.names.ko)}의 방으로</a>` : ""}
   ${a ? `<a class="go quiet" href="/#${esc(a.id)}">이 작가에서 시작</a>` : ""}
 </div>
-${w.sourceIds.length ? `<p class="srcs" style="margin-top:14px">출처 ${w.sourceIds.length}건</p>` : ""}</div></section>
+${w.sourceIds.length ? `<div style="margin-top:14px">${sourcesDetails(w.sourceIds)}</div>` : ""}</div></section>
 </div>
 </article>
 <div class="dock"><div class="what"><b>${esc(w.titleKo)}</b>${a ? esc(a.names.ko) : ""}</div>${stateControl(w.id, false, markMeta(w))}</div>`;

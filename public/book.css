@@ -484,3 +484,8 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appeara
 .eds .vol{display:block;font-size:13px;color:var(--ink-3);letter-spacing:.02em}
 .eds .ok{display:inline-block;font-size:12px;letter-spacing:.06em;color:var(--ink-2);border:1px solid var(--rule-2);border-radius:3px;padding:0 5px;margin-left:4px;white-space:nowrap}
 .eds-note{margin:0 0 10px;font-size:13.5px;color:var(--ink-3)}
+details.srcs summary{cursor:pointer;font-size:13px;letter-spacing:.06em;color:var(--ink-3);list-style:none;display:inline-flex;align-items:center;min-height:32px}
+details.srcs summary::before{content:"＋";margin-right:6px;font-size:11px}
+details.srcs[open] summary::before{content:"－"}
+details.srcs ol{margin:4px 0 8px 1.2em;padding:0;font-size:13.5px;line-height:1.6;color:var(--ink-2)}
+details.srcs.rel{margin-top:-2px}
