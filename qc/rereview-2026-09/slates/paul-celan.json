@@ -1,0 +1,161 @@
+{
+  "id": "paul-celan",
+  "page": "https://literary-planet.pages.dev/authors/paul-celan/",
+  "author": {
+    "names": {
+      "ko": "파울 첼란",
+      "original": "Paul Celan",
+      "aliases": [
+        "첼란",
+        "Paul Antschel",
+        "파울 안첼",
+        "Paul Ancel"
+      ]
+    },
+    "birthYear": 1920,
+    "deathYear": 1970,
+    "activeRange": [
+      1947,
+      1970
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "eastern-europe",
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "importanceReason": "홀로코스트로 부모를 잃은 뒤 가해자의 언어인 독일어로 시를 쓰는 문제를 작업의 조건으로 삼아, 그 언어를 쪼개고 조어를 만들어 다시 붙이는 방식으로 시를 썼다. 「죽음의 푸가」는 수용소의 학살을 푸가처럼 반복·교차하는 구절로 배치해 널리 읽혔지만, 첼란 자신은 이 시가 낭송용 대표작으로 굳는 것을 경계하며 이후 점점 더 짧고 압축된 언어로 옮겨 갔다. 1960년 뷔히너상 수상 연설 「자오선」에서 시를 누군가를 향해 보내는 말로 규정한 시론은 전후 유럽 시의 참조점이 되었다.",
+    "readingEntry": "paul-celan--todesfuge",
+    "readingEntryReason": "시 한 편으로 첼란의 좌표 — 학살의 기억, 독일어, 반복되는 구조 — 가 한꺼번에 제시되고, 후기로 갈수록 급격히 좁아지는 언어의 출발점을 먼저 볼 수 있다.",
+    "readingOrder": [
+      "paul-celan--todesfuge",
+      "paul-celan--mohn-und-gedaechtnis",
+      "paul-celan--sprachgitter",
+      "paul-celan--die-niemandsrose",
+      "paul-celan--atemwende"
+    ],
+    "readingWarning": "후기 시집부터 시작하면 조어와 생략이 극단으로 간 상태여서 문장의 단위조차 잡히지 않는다. 「죽음의 푸가」에서 연대순으로 올라가는 편이 낫다.",
+    "difficulty": 5,
+    "difficultyReason": "후기 시는 독일어 낱말을 쪼개 새로 만든 조어로 쓰이고, 유대 전승·수용소 지명·광물학과 식물학 어휘가 주석 없이 겹친다. 번역으로 소실되는 층이 커서 대역본과 주석이 사실상 필수다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--celan-meridian-1960",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "paul-celan--todesfuge",
+      "titleKo": "죽음의 푸가",
+      "titleOriginal": "Todesfuge",
+      "year": 1948,
+      "genre": "poetry",
+      "significance": "수용소의 학살을 푸가의 성부처럼 반복·교차하는 구절로 배치한 시. 1947년 루마니아어 번역으로 먼저 발표되었고, 1948년 빈에서 나온 첫 시집 『유골 항아리에서 나온 모래』에 독일어 원문이 실렸으며, 1952년 『양귀비와 기억』에 재수록되면서 널리 읽혔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "paul-celan--mohn-und-gedaechtnis",
+      "titleKo": "양귀비와 기억",
+      "titleOriginal": "Mohn und Gedächtnis",
+      "year": 1952,
+      "genre": "poetry",
+      "significance": "첼란의 이름을 독일어권에 알린 시집. 「죽음의 푸가」를 포함해 상실과 기억의 이미지가 아직 비교적 열린 문장으로 쓰여 있어, 후기의 압축과 대조된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "paul-celan--sprachgitter",
+      "titleKo": "언어 창살",
+      "titleOriginal": "Sprachgitter",
+      "year": 1959,
+      "genre": "poetry",
+      "significance": "언어가 소통의 매체이자 동시에 격자·차단막이라는 인식이 표제로 제시된 시집. 행과 낱말이 짧아지고 여백이 늘어나는 후기 문체가 여기서 시작된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "paul-celan--die-niemandsrose",
+      "titleKo": "누구도 아닌 자의 장미",
+      "titleOriginal": "Die Niemandsrose",
+      "year": 1963,
+      "genre": "poetry",
+      "significance": "만델슈탐의 기억에 바친 시집으로, 유대 전승과 동유럽 지명이 전면에 나온다. 첼란이 번역하던 러시아 시인들과의 대화가 시 안에서 직접 이루어진다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "paul-celan--atemwende",
+      "titleKo": "숨결전환",
+      "titleOriginal": "Atemwende",
+      "year": 1967,
+      "genre": "poetry",
+      "significance": "낱말 단위까지 잘라낸 후기 문체가 확립된 시집. 한 편이 몇 행에 그치고, 새로 만든 합성어와 여백이 문장을 대신한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--paul-celan--wislawa-szymborska",
+      "type": "contrast",
+      "from": "paul-celan (파울 첼란)",
+      "to": "wislawa-szymborska (비스와바 심보르스카)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "학살 이후 무엇으로 쓸 것인가에 두 사람은 반대 방향으로 답했다. 첼란은 가해자의 언어를 쪼개고 다시 붙여 읽기 어려운 시로 갔고, 심보르스카는 일상어와 농담의 표면을 유지한 채 숫자와 사물의 목록으로 같은 세기의 폭력을 다뤘다. 두 사람 사이의 직접 교류 기록은 없다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "translation--emily-dickinson--paul-celan (→ emily-dickinson 의 슬레이트에서 본다)",
+    "influence--marina-tsvetaeva--paul-celan (→ marina-tsvetaeva 의 슬레이트에서 본다)",
+    "influence--rainer-maria-rilke--paul-celan (→ rainer-maria-rilke 의 슬레이트에서 본다)",
+    "influence--franz-kafka--paul-celan (→ franz-kafka 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--celan-meridian-1960": {
+      "id": "src--celan-meridian-1960",
+      "title": "게오르크 뷔히너상 수상 연설 「자오선」 (다름슈타트, 1960. 10.)",
+      "publisherOrInstitution": "Deutsche Akademie für Sprache und Dichtung",
+      "citation": "첼란의 시론이 정식화된 1차 문헌 — 1961년 S. Fischer에서 단행본으로 간행"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

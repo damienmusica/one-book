@@ -1,0 +1,159 @@
+{
+  "id": "clr-james",
+  "page": "https://literary-planet.pages.dev/authors/clr-james/",
+  "author": {
+    "names": {
+      "ko": "C. L. R. 제임스",
+      "original": "C. L. R. James",
+      "aliases": [
+        "Cyril Lionel Robert James"
+      ]
+    },
+    "birthYear": 1901,
+    "deathYear": 1989,
+    "activeRange": [
+      1929,
+      1989
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "caribbean"
+    ],
+    "movements": [],
+    "genres": [
+      "history",
+      "essay-criticism",
+      "fiction"
+    ],
+    "importanceReason": "아이티 혁명을 노예 자신이 이끈 혁명으로 서술하고, 크리켓 경기장에서 식민 사회의 계급 구조를 읽어 냈다. 『블랙 자코뱅』은 산도맹그의 노예를 플랜테이션이라는 근대적 대공장에 묶인 프롤레타리아로 규정해, 혁명사의 무게중심을 파리의 의회에서 사탕수수밭으로 옮겼다. 『경계를 넘어』는 경기 기록·자서전·사회사를 한 권으로 묶어, 이후 문화 연구가 스포츠와 계급을 다루는 방식의 참조점이 되었다.",
+    "readingEntry": "clr-james--minty-alley",
+    "readingEntryReason": "네 권 가운데 소설은 이 한 권뿐이고, 포트오브스페인 공동 주택의 하숙 생활을 하숙인 청년의 시선으로 따라가는 이야기라 배경 지식 없이 읽힌다. 뒤의 세 권이 다루는 서인도제도 사회의 위계가 여기서는 한 집 안의 관계로 나온다.",
+    "readingOrder": [
+      "clr-james--minty-alley",
+      "clr-james--the-black-jacobins",
+      "clr-james--beyond-a-boundary",
+      "clr-james--mariners-renegades-and-castaways"
+    ],
+    "readingWarning": "『경계를 넘어』를 크리켓 규칙 없이 첫 책으로 잡으면 초반 경기 서술에서 막힌다. 자서전으로 읽고 기술적 대목은 건너뛰어도 논지는 따라온다.",
+    "difficulty": 4,
+    "difficultyReason": "네 권이 각각 트리니다드의 공동 주택, 아이티 혁명사, 멜빌, 크리켓의 규칙과 서인도제도 클럽 문화라는 다른 배경 지식을 요구한다. 문장 밑에는 1930~50년대 트로츠키주의 분파 논쟁의 어휘가 깔려 있어 정치적 맥락을 모르면 어조를 놓치기 쉽다.",
+    "sourceIds": [
+      "src--britannica"
+    ]
+  },
+  "works": [
+    {
+      "id": "clr-james--mariners-renegades-and-castaways",
+      "titleKo": "선원, 배신자, 표류자",
+      "titleOriginal": "Mariners, Renegades and Castaways: The Story of Herman Melville and the World We Live In",
+      "year": 1953,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "엘리스섬에 억류된 상태에서 쓴 『모비 딕』 연구. 피쿼드호를 공장으로, 에이해브를 '산업의 선장'으로 읽고 선원 집단을 그 지배 아래 파멸로 끌려가는 근대의 대중으로 삼아, 미국 문학 비평과 정치 분석을 겹쳐 놓았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "clr-james--beyond-a-boundary",
+      "titleKo": "경계를 넘어",
+      "titleOriginal": "Beyond a Boundary",
+      "year": 1963,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "크리켓 회고와 서인도제도 사회사를 한 권으로 엮어, 클럽의 인종·계급 분할에서 식민 사회의 구조를 읽어 낸다. 스포츠를 문화 분석의 대상으로 삼은 저술의 원형으로 꼽힌다.",
+      "sourceIds": []
+    },
+    {
+      "id": "clr-james--minty-alley",
+      "titleKo": "민티 앨리",
+      "titleOriginal": "Minty Alley",
+      "year": 1936,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "포트오브스페인의 공동 주택에 하숙하게 된 중간계급 청년이 이웃들의 삶을 관찰하는 장편. 1920년대 트리니다드에서 쓰였다가 런던에서 출간된 서인도제도 초기 소설의 대표 사례다.",
+      "sourceIds": []
+    },
+    {
+      "id": "clr-james--the-black-jacobins",
+      "titleKo": "블랙 자코뱅",
+      "titleOriginal": "The Black Jacobins",
+      "year": 1938,
+      "yearBasis": "attested",
+      "genre": "history",
+      "significance": "아이티 혁명을 투생 루베르튀르를 축으로 서술하며, 산도맹그의 노예를 플랜테이션이라는 근대 생산 체제의 프롤레타리아로 규정한 혁명사. 탈식민 역사서술의 표준 참조 텍스트가 되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--herman-melville--clr-james",
+      "type": "documented_influence",
+      "from": "herman-melville (허먼 멜빌)",
+      "to": "clr-james (C. L. R. 제임스)",
+      "evidenceLevel": "documented",
+      "summary": "제임스는 단행본 『선원, 배신자, 표류자』(1953)를 통째로 『모비 딕』에 바쳤고, 엘리스섬 억류 중에 쓴 이 책에서 피쿼드호 선원 집단을 자기 정치 분석의 모형으로 삼는다.",
+      "sourceIds": [
+        "src--james-mariners-renegades-1953"
+      ]
+    },
+    {
+      "id": "influence--aime-cesaire--clr-james",
+      "type": "documented_influence",
+      "from": "aime-cesaire (에메 세제르)",
+      "to": "clr-james (C. L. R. 제임스)",
+      "evidenceLevel": "documented",
+      "summary": "제임스는 『블랙 자코뱅』 1963년 개정판 부록 「투생 루베르튀르에서 피델 카스트로까지」에서 세제르의 『귀향 수첩』을 직접 번역해 길게 분석하며, 카리브의 자기 규정 문제를 아이티 혁명의 연장선에 놓는다.",
+      "sourceIds": [
+        "src--james-black-jacobins-appendix-1963"
+      ]
+    },
+    {
+      "id": "contrast--clr-james--vs-naipaul",
+      "type": "contrast",
+      "from": "clr-james (C. L. R. 제임스)",
+      "to": "vs-naipaul (V. S. 나이폴)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "에드워드 사이드의 『문화와 제국주의』(1993)는 『블랙 자코뱅』을 식민지 지식인이 유럽의 서술 안으로 들어가 그것을 되받아 쓰는 계보에 놓는다. 나이폴을 서구 측 증인으로 부른 유명한 구절은 사이드의 논문 「탈식민 세계의 지식인」(Salmagundi 70–71호, 1986)에 있다. 카리브를 두고 제임스는 노예와 예속 계급이 새 사회의 지식인이 되는 경로를, 나이폴은 모방과 결여를 읽는다.",
+      "sourceIds": [
+        "src--said-culture-and-imperialism-1993",
+        "src--said-intellectuals-postcolonial-1986"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--james-mariners-renegades-1953": {
+      "id": "src--james-mariners-renegades-1953",
+      "title": "Mariners, Renegades and Castaways (1953)",
+      "publisherOrInstitution": "C. L. R. James 자비 출판 (New York)",
+      "citation": "제임스가 엘리스섬 억류 중 쓴 멜빌 연구 단행본 — 멜빌 영향의 1차 근거."
+    },
+    "src--james-black-jacobins-appendix-1963": {
+      "id": "src--james-black-jacobins-appendix-1963",
+      "title": "「From Toussaint L'Ouverture to Fidel Castro」 — The Black Jacobins 개정판 부록 (1963)",
+      "publisherOrInstitution": "Vintage Books (New York)",
+      "citation": "제임스가 1963년 재판에 붙인 부록 — 카리브 문학과 세제르를 아이티 혁명의 연장선에서 논한다."
+    },
+    "src--said-culture-and-imperialism-1993": {
+      "id": "src--said-culture-and-imperialism-1993",
+      "title": "Culture and Imperialism",
+      "publisherOrInstitution": "Alfred A. Knopf",
+      "citation": "Edward W. Said, Culture and Imperialism (New York: Alfred A. Knopf, 1993)"
+    },
+    "src--said-intellectuals-postcolonial-1986": {
+      "id": "src--said-intellectuals-postcolonial-1986",
+      "title": "Intellectuals in the Post-Colonial World",
+      "publisherOrInstitution": "Salmagundi 70–71호 (Skidmore College)",
+      "citation": "Edward W. Said, 「Intellectuals in the Post-Colonial World」, Salmagundi, no. 70/71 (Spring–Summer 1986), 44–64쪽 — 나이폴을 서구 측 증인으로 규정한 대목의 출처"
+    }
+  }
+}

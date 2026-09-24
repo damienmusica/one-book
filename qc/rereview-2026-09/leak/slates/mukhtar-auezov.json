@@ -1,0 +1,148 @@
+{
+  "id": "mukhtar-auezov",
+  "page": "https://literary-planet.pages.dev/authors/mukhtar-auezov/",
+  "author": {
+    "names": {
+      "ko": "묵타르 아우에조프",
+      "original": "Мұхтар Әуезов",
+      "aliases": [
+        "Mukhtar Auezov"
+      ]
+    },
+    "birthYear": 1897,
+    "deathYear": 1961,
+    "activeRange": [
+      1917,
+      1961
+    ],
+    "languages": [
+      "kk"
+    ],
+    "regions": [
+      "central-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "importanceReason": "아바이의 생애를 1942년부터 1956년까지 네 권의 장편으로 재구성해, 한 시인의 일생과 19세기 카자흐 초원의 씨족 정치·계절 이동·구술 관습을 한 서사 안에 담았다. 『아바이의 길』은 소설이면서 동시에 민족지이고 아바이 연구의 자료 노릇을 하며, 이 이중성이 카자흐어 산문이 감당할 수 있는 규모를 다시 그렸다. 그는 셰익스피어와 고골을 카자흐어로 옮기고 키르기스 서사시 『마나스』를 연구했으며, 다권본 카자흐 문학사 편찬을 총괄했다.",
+    "readingEntry": "mukhtar-auezov--enlik-kebek",
+    "readingEntryReason": "초원 전설을 바탕으로 한 짧은 비극이라 한 자리에서 읽히고, 아우에조프가 평생 다룬 소재 — 관습법이 개인을 부수는 자리 — 가 여기 이미 다 들어 있다.",
+    "readingOrder": [
+      "mukhtar-auezov--enlik-kebek",
+      "mukhtar-auezov--qorghansyzdyn-kuni",
+      "mukhtar-auezov--qily-zaman",
+      "mukhtar-auezov--abai-zholy"
+    ],
+    "readingWarning": "『아바이의 길』 1권부터 시작하면 아바이가 누구인지 모르는 채 씨족 계보와 초원 정치에 먼저 부딪힌다. 짧은 희곡과 단편으로 아우에조프의 초원을 익힌 뒤 4부작으로 가는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "문장과 구성은 정공법이지만 『아바이의 길』이 네 권 분량이고, 씨족 이름·비(bi, 관습법 재판관)·초원의 계절 이동 같은 배경이 각주 없이 나온다. 초반 백 쪽은 인물 관계를 따로 정리해 가며 읽어야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--adebiportal-kz"
+    ]
+  },
+  "works": [
+    {
+      "id": "mukhtar-auezov--qorghansyzdyn-kuni",
+      "titleKo": "의지할 데 없는 이의 나날",
+      "titleOriginal": "Қорғансыздың күні",
+      "year": 1921,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "보호자를 잃은 소녀가 초원의 관습과 관리의 폭력 사이에서 무너지는 단편. 감상 없이 사회적 폭력을 기록하는 아우에조프 산문의 방식이 여기서 자리를 잡는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "mukhtar-auezov--qily-zaman",
+      "titleKo": "험난한 시절",
+      "titleOriginal": "Қилы заман",
+      "year": 1928,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "1916년 중앙아시아 봉기를 알반 씨족의 시선에서 서술한 중편으로 1928년 크즐오르다에서 간행되었다. 제국의 징집령에 맞선 봉기를 승리담이 아니라 공동체의 파국으로 적는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "mukhtar-auezov--abai-zholy",
+      "titleKo": "아바이의 길",
+      "titleOriginal": "Абай жолы",
+      "year": 1956,
+      "yearBasis": "composition-range",
+      "genre": "fiction",
+      "significance": "1942·1947·1952·1956년에 걸쳐 네 권으로 나온 4부작으로, 아바이의 소년기부터 죽음까지를 따라간다. 1959년 레닌상을 받았고 여러 언어로 옮겨지면서 카자흐 소설이 국경 밖에서 읽히는 통로가 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "mukhtar-auezov--enlik-kebek",
+      "titleKo": "엥릭과 케벡",
+      "titleOriginal": "Еңлік-Кебек",
+      "year": 1922,
+      "yearBasis": "first-print",
+      "genre": "drama",
+      "significance": "씨족의 금기를 어기고 달아난 두 연인이 관습법에 처형되는 초원 전설을 희곡으로 옮긴 첫 작품. 1917년 아바이의 부인 아이게림의 유르트에서 초연되었고, 이후 판본이 인쇄되어 지금도 카자흐 무대에 오른다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--abai-qunanbaiuly--mukhtar-auezov",
+      "type": "documented_influence",
+      "from": "abai-qunanbaiuly (아바이 쿠난바이울리)",
+      "to": "mukhtar-auezov (묵타르 아우에조프)",
+      "evidenceLevel": "documented",
+      "summary": "아우에조프는 아바이 연구(아바이타누)를 학문 분야로 세우고 아바이의 저작을 편찬했으며, 1942년부터 1956년까지 4부작 『아바이의 길』로 아바이의 생애를 소설로 다시 썼다.",
+      "sourceIds": [
+        "src--adebiportal-kz"
+      ]
+    },
+    {
+      "id": "translation--william-shakespeare--mukhtar-auezov",
+      "type": "translation",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "mukhtar-auezov (묵타르 아우에조프)",
+      "evidenceLevel": "documented",
+      "summary": "아우에조프는 셰익스피어의 『오셀로』와 『말괄량이 길들이기』를 카자흐어로 옮겼고, 고골의 『검찰관』도 함께 옮겼다.",
+      "sourceIds": [
+        "src--adebiportal-kz"
+      ]
+    },
+    {
+      "id": "influence--mukhtar-auezov--chinghiz-aitmatov",
+      "type": "documented_influence",
+      "from": "mukhtar-auezov (묵타르 아우에조프)",
+      "to": "chinghiz-aitmatov (칭기즈 아이트마토프)",
+      "evidenceLevel": "documented",
+      "summary": "1952년 프룬제 과학아카데미가 『마나스』를 사회주의 리얼리즘에 어긋난다며 심의에 부쳤을 때 카자흐인 아우에조프가 서사시를 옹호했고, 그 자리에 있던 아이트마토프는 자기 글에서 그 장면을 회고했다. 삼십 년 뒤 아이트마토프는 『마나스』 인쇄본의 책임편집을 맡았다.",
+      "sourceIds": [
+        "src--aramcoworld-manas-aitmatov"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--adebiportal-kz": {
+      "id": "src--adebiportal-kz",
+      "title": "Әдебиет порталы (adebiportal.kz)",
+      "publisherOrInstitution": "카자흐스탄 문학 포털",
+      "url": "https://adebiportal.kz",
+      "citation": "카자흐 작가·작품의 연보와 서지를 제공하는 카자흐스탄의 국가 문학 포털"
+    },
+    "src--aramcoworld-manas-aitmatov": {
+      "id": "src--aramcoworld-manas-aitmatov",
+      "title": "After Manas, My Kyrgyz, Your Chingiz",
+      "publisherOrInstitution": "AramcoWorld (2019)",
+      "url": "https://www.aramcoworld.com/articles/2019/after-manas-my-kyrgyz-your-chingiz",
+      "citation": "1952년 프룬제 과학아카데미의 『마나스』 심의에서 아우에조프가 서사시를 옹호한 장면과 그것을 목격한 아이트마토프의 회고, 그리고 아이트마토프가 아우에조프의 녹음을 바탕으로 『마나스』 인쇄본을 책임편집한 사실을 기록한다"
+    }
+  }
+}

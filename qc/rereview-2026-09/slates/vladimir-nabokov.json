@@ -1,0 +1,234 @@
+{
+  "id": "vladimir-nabokov",
+  "page": "https://literary-planet.pages.dev/authors/vladimir-nabokov/",
+  "author": {
+    "names": {
+      "ko": "블라디미르 나보코프",
+      "original": "Владимир Набоков",
+      "aliases": [
+        "Vladimir Nabokov",
+        "나보코프",
+        "블라디미르 시린",
+        "V. Sirin"
+      ]
+    },
+    "birthYear": 1899,
+    "deathYear": 1977,
+    "activeRange": [
+      1926,
+      1974
+    ],
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "regions": [
+      "russia",
+      "central-europe",
+      "north-america"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "러시아어로 아홉 편의 장편을 쓴 뒤 마흔이 넘어 영어로 옮겨 가 두 번째 전집을 만들었고, 두 언어 사이에서 자기 작품을 직접 옮기며 각 판본을 다시 썼다. 『롤리타』에서는 변명하는 살인자의 화려한 문장 자체를 독자를 시험하는 장치로 만들어, 신뢰할 수 없는 화자를 소설의 구조 원리로 밀어붙였다. 『창백한 불꽃』은 999행의 시와 그 주석만으로 이루어진 장편을 세워 학술 편집 장치를 서사 형식으로 전환했고, 이후 메타픽션이 반복해 참조하는 모델이 되었다.",
+    "readingEntry": "vladimir-nabokov--pnin",
+    "readingEntryReason": "짧은 연작 장편 안에 나보코프의 문장과 망명이라는 주제가 함께 들어 있고, 『롤리타』·『창백한 불꽃』과 달리 도덕적·구조적 함정이 없어 첫 책으로 안전하다.",
+    "readingOrder": [
+      "vladimir-nabokov--pnin",
+      "vladimir-nabokov--lolita",
+      "vladimir-nabokov--speak-memory",
+      "vladimir-nabokov--pale-fire",
+      "vladimir-nabokov--dar"
+    ],
+    "readingWarning": "『창백한 불꽃』으로 시작하면 시와 주석을 오가는 상호 참조 구조에 붙들려 장치만 남고 인물이 보이지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "문장은 유려하게 읽히지만 다국어 말장난·문학적 인유·의도된 오독이 겹겹이 깔려 있어 주석 없이는 한 층만 읽게 된다. 『창백한 불꽃』과 『재능』은 구조 자체가 독해의 과제다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--paris-review",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "vladimir-nabokov--dar",
+      "titleKo": "재능",
+      "titleOriginal": "Дар",
+      "year": 1938,
+      "genre": "fiction",
+      "significance": "베를린 망명 사회를 무대로 젊은 작가의 성장과 러시아 문학사를 겹쳐 놓은, 나보코프가 러시아어로 쓴 마지막이자 가장 긴 장편. 1937–38년 망명 저널에 연재될 때 체르니솁스키를 다룬 4장이 편집진에 의해 빠졌고, 완전한 러시아어 단행본은 1952년에야 나왔다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "vladimir-nabokov--speak-memory",
+      "titleKo": "말하라, 기억이여",
+      "titleOriginal": "Speak, Memory",
+      "year": 1951,
+      "genre": "essay-criticism",
+      "significance": "혁명 이전 러시아의 유년을 시간 순서가 아니라 되풀이되는 무늬로 배열한 회고록. 1951년 미국에서 『결정적 증거』라는 제목으로 먼저 나왔고 러시아어판을 거쳐 1966년 증보 개정판으로 확정되었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "vladimir-nabokov--lolita",
+      "titleKo": "롤리타",
+      "titleOriginal": "Lolita",
+      "year": 1955,
+      "genre": "fiction",
+      "significance": "미국 출판사들이 모두 거절해 1955년 파리 올랭피아에서 먼저 나왔고, 1958년 미국판 이후 논쟁의 중심이 되었다. 화자의 문장이 아름다울수록 그가 저지른 일이 가려지는 구조로, 독자의 독해를 시험한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nabokov-olympia-lolita"
+      ]
+    },
+    {
+      "id": "vladimir-nabokov--pnin",
+      "titleKo": "프닌",
+      "titleOriginal": "Pnin",
+      "year": 1957,
+      "genre": "fiction",
+      "significance": "미국 대학에 끝내 자리 잡지 못하는 러시아 망명 교수의 연작. 우스꽝스럽게 그려지던 인물의 상실이 마지막에 서술자의 정체가 드러나며 뒤집힌다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "vladimir-nabokov--pale-fire",
+      "titleKo": "창백한 불꽃",
+      "titleOriginal": "Pale Fire",
+      "year": 1962,
+      "genre": "fiction",
+      "significance": "999행의 시 한 편과 그것을 가로채는 주석으로만 구성된 장편. 주석자가 시를 자기 망명 왕국의 이야기로 바꿔 읽는 과정에서 어느 쪽이 허구인지 결정할 수 없게 된다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--vladimir-nabokov--eileen-chang",
+      "type": "affinity",
+      "from": "vladimir-nabokov (블라디미르 나보코프)",
+      "to": "eileen-chang (장아이링)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 망명 뒤 두 언어를 오가며 자기 작품을 스스로 옮기고 다시 쓰기를 평생 되풀이했다는 점에서 둘을 가까이 놓는다. 장아이링이 「금쇄기」를 중국어와 영어로 여러 차례 고쳐 쓴 이력이 그 예다.",
+      "anchors": [
+        {
+          "workId": "eileen-chang--jin-suo-ji"
+        }
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "influence--vladimir-nabokov--thomas-pynchon",
+      "type": "documented_influence",
+      "from": "vladimir-nabokov (블라디미르 나보코프)",
+      "to": "thomas-pynchon (토머스 핀천)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "핀천은 1950년대 후반 코넬 대학 재학 중 나보코프의 문학 강의를 수강했다. 나보코프 본인은 그를 기억하지 못했고 베라 나보코프가 특이한 필적의 답안만 기억한다고 말했기 때문에, 미국 포스트모던 소설 연구는 이 접촉을 확정된 사사가 아니라 거듭 검토되는 계보로 다룬다.",
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--vladimir-nabokov--wg-sebald",
+      "type": "documented_influence",
+      "from": "vladimir-nabokov (블라디미르 나보코프)",
+      "to": "wg-sebald (W. G. 제발트)",
+      "evidenceLevel": "documented",
+      "summary": "『이민자들』의 네 이야기 모두에 나비채를 든 남자가 잠깐씩 나타나며, 제발트는 인터뷰에서 그가 나보코프이고 『말하라, 기억이여』가 이 책의 기억 서술을 지탱한다고 밝혔다. 망명과 회상을 사진 없는 증거처럼 다루는 산문의 형식이 여기서 왔다.",
+      "anchors": [
+        {
+          "workId": "wg-sebald--die-ausgewanderten"
+        },
+        {
+          "workId": "vladimir-nabokov--speak-memory"
+        }
+      ],
+      "sourceIds": [
+        "src--sebald-emergence-of-memory"
+      ]
+    },
+    {
+      "id": "affinity--vladimir-nabokov--alain-robbe-grillet",
+      "type": "affinity",
+      "from": "vladimir-nabokov (블라디미르 나보코프)",
+      "to": "alain-robbe-grillet (알랭 로브그리예)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "나보코프는 대담집 『Strong Opinions』(1973)에서 읽을 만한 동시대 프랑스 작가로 로브그리예를 거듭 꼽았다. 서술의 표면을 정밀하게 계측하면서 인물의 내면 진술을 미루는 방식에서 두 사람은 20세기 후반 소설론에서 함께 논의된다.",
+      "anchors": [
+        {
+          "year": 1973
+        }
+      ],
+      "sourceIds": [
+        "src--nabokov-strong-opinions",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--gustave-flaubert--vladimir-nabokov (→ gustave-flaubert 의 슬레이트에서 본다)",
+    "influence--james-joyce--vladimir-nabokov (→ james-joyce 의 슬레이트에서 본다)",
+    "influence--marcel-proust--vladimir-nabokov (→ marcel-proust 의 슬레이트에서 본다)",
+    "influence--leo-tolstoy--vladimir-nabokov (→ leo-tolstoy 의 슬레이트에서 본다)",
+    "influence--anton-chekhov--vladimir-nabokov (→ anton-chekhov 의 슬레이트에서 본다)",
+    "contrast--fyodor-dostoevsky--vladimir-nabokov (→ fyodor-dostoevsky 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--nabokov-olympia-lolita": {
+      "id": "src--nabokov-olympia-lolita",
+      "title": "『롤리타』 초판 (Olympia Press, Paris, 1955)",
+      "publisherOrInstitution": "Olympia Press",
+      "citation": "미국 출판사들이 거절한 뒤 파리에서 먼저 나온 초판 — 발표 연도·출판지와 1958년 미국판 사이의 3년 간격 근거"
+    },
+    "src--sebald-emergence-of-memory": {
+      "id": "src--sebald-emergence-of-memory",
+      "title": "The Emergence of Memory: Conversations with W. G. Sebald (Lynne Sharon Schwartz 엮음, 2007)",
+      "publisherOrInstitution": "Seven Stories Press",
+      "citation": "제발트 생전 인터뷰와 대담 모음 — 사진 삽입, 기억의 전달 구조, 장르 경계에 대한 저자 자신의 설명이 실린 1차 기록"
+    },
+    "src--nabokov-strong-opinions": {
+      "id": "src--nabokov-strong-opinions",
+      "title": "『Strong Opinions』 (1973)",
+      "publisherOrInstitution": "McGraw-Hill",
+      "citation": "1960년대 이후의 인터뷰·서한·기고를 모은 책 — 나보코프가 동시대 작가에 대한 호오를 직접 밝힌 1차 기록"
+    }
+  }
+}

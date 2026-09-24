@@ -1,0 +1,159 @@
+{
+  "id": "kenzaburo-oe",
+  "page": "https://literary-planet.pages.dev/authors/kenzaburo-oe/",
+  "author": {
+    "names": {
+      "ko": "오에 겐자부로",
+      "original": "大江健三郎",
+      "aliases": [
+        "오에",
+        "Oe Kenzaburo"
+      ]
+    },
+    "birthYear": 1935,
+    "deathYear": 2023,
+    "activeRange": [
+      1957,
+      2013
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "시코쿠 골짜기의 마을을 신화와 반란의 역사를 가진 소우주로 반복 축조해, 전후 일본의 정치사를 하나의 지형 위에서 되풀이해 서술했다. 장애를 안고 태어난 아들과의 공생을 소재가 아니라 서술의 조건으로 삼아 『개인적인 체험』 이후의 작업 전체를 그 관계 위에 세웠다. 『히로시마 노트』·『오키나와 노트』로 르포와 소설을 같은 문제의식 안에 두었고, 1994년 노벨문학상 수상 강연 「애매한 일본의 나」에서 가와바타의 1968년 강연을 제목부터 바꿔 인용하며 '아름다운 일본'이라는 자기규정을 반박했다.",
+    "readingEntry": "kenzaburo-oe--kojinteki-na-taiken",
+    "readingEntryReason": "단권 분량에 며칠이라는 짧은 시간 축을 쓰고, 오에의 이후 작업 전체가 딛고 선 관계가 여기서 시작되므로 입구로 가장 확실하다.",
+    "readingOrder": [
+      "kenzaburo-oe--kojinteki-na-taiken",
+      "kenzaburo-oe--shiiku",
+      "kenzaburo-oe--hiroshima-noto",
+      "kenzaburo-oe--man-en-gannen-no-futtoboru"
+    ],
+    "readingWarning": "『만연원년의 풋볼』이나 후기 3부작으로 시작하면 골짜기 마을의 신화와 봉기의 역사가 여러 작품에 걸쳐 축적된 전제라서, 처음 읽는 독자에게는 설명 없이 주어진 배경처럼 지나간다.",
+    "difficulty": 4,
+    "difficultyReason": "한 문장 안에 인용·괄호·전문 용어가 겹쳐 구문이 길고, 시코쿠 골짜기의 가공 신화와 전후 일본 정치사가 배경 지식으로 요구된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--oe-nobel-lecture",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "kenzaburo-oe--shiiku",
+      "titleKo": "사육",
+      "titleOriginal": "飼育",
+      "year": 1958,
+      "genre": "fiction",
+      "significance": "전쟁 중 산골 마을에 추락한 흑인 미군 병사를 마을이 가축처럼 가두어 두는 며칠을 소년의 시점으로 서술한 단편. 아쿠타가와상 수상작이며, 이후 반복되는 골짜기 마을이라는 무대가 여기서 처음 나타난다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kenzaburo-oe--kojinteki-na-taiken",
+      "titleKo": "개인적인 체험",
+      "titleOriginal": "個人的な体験",
+      "year": 1964,
+      "genre": "fiction",
+      "significance": "머리에 장애를 안고 태어난 아이를 앞에 두고 도망을 궁리하는 아버지의 며칠을 따라간다. 오에 자신의 경험을 소설의 조건으로 끌어들인 전환점이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kenzaburo-oe--hiroshima-noto",
+      "titleKo": "히로시마 노트",
+      "titleOriginal": "ヒロシマ・ノート",
+      "year": 1965,
+      "genre": "essay-criticism",
+      "significance": "히로시마를 여러 차례 취재하며 피폭자와 의사들을 만난 기록. 원폭을 상징이 아니라 계속되는 치료와 행정의 문제로 서술해 오에의 사회 산문 계열을 열었다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kenzaburo-oe--man-en-gannen-no-futtoboru",
+      "titleKo": "만연원년의 풋볼",
+      "titleOriginal": "万延元年のフットボール",
+      "year": 1967,
+      "genre": "fiction",
+      "significance": "시코쿠 골짜기로 돌아온 두 형제의 이야기와 1860년 농민 봉기를 겹쳐, 100년 간격의 두 반란을 같은 지형 위에 포갠 장편. 다니자키 준이치로상 수상작이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kenzaburo-oe--moeagaru-midori-no-ki",
+      "titleKo": "타오르는 푸른 나무",
+      "titleOriginal": "燃えあがる緑の木",
+      "year": 1993,
+      "genre": "fiction",
+      "significance": "시코쿠 골짜기에 생긴 신흥 종교 공동체의 형성과 붕괴를 3부에 걸쳐 서술한다. 1993년부터 1995년까지 발표됐고, 오에가 한때 마지막 소설이라고 밝힌 작업이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "dialogue--kobo-abe--kenzaburo-oe (→ kobo-abe 의 슬레이트에서 본다)",
+    "contrast--yasunari-kawabata--kenzaburo-oe (→ yasunari-kawabata 의 슬레이트에서 본다)",
+    "influence--william-faulkner--kenzaburo-oe (→ william-faulkner 의 슬레이트에서 본다)",
+    "influence--william-butler-yeats--kenzaburo-oe (→ william-butler-yeats 의 슬레이트에서 본다)",
+    "contrast--yukio-mishima--kenzaburo-oe (→ yukio-mishima 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--oe-nobel-lecture": {
+      "id": "src--oe-nobel-lecture",
+      "title": "「애매한 일본의 나」 (あいまいな日本の私, 1994년 노벨문학상 수상 강연)",
+      "publisherOrInstitution": "Svenska Akademien 수상 강연 기록",
+      "citation": "가와바타의 1968년 강연 제목을 바꿔 인용하며 '아름다운 일본'이라는 자기규정을 반박한 1차 발언"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

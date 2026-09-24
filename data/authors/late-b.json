@@ -79,11 +79,9 @@
     "sourceIds": [
       "src--britannica",
       "src--cambridge-companions",
-      "src--paris-review",
-      "src--kr-world-lit-editions"
+      "src--paris-review"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "wg-sebald",
@@ -161,11 +159,9 @@
     "difficultyReason": "한 문장이 한 쪽을 넘기기도 하고 장 구분과 대화 표시가 거의 없어 화자가 누구인지 계속 재확인해야 하며, 사건이 진전되는 대신 연상과 여담으로 이동하는 구조를 견뎌야 한다.",
     "sourceIds": [
       "src--britannica",
-      "src--sebald-emergence-of-memory",
-      "src--kr-world-lit-editions"
+      "src--sebald-emergence-of-memory"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "ursula-k-le-guin",
@@ -237,11 +233,9 @@
     "sourceIds": [
       "src--britannica",
       "src--paris-review",
-      "src--le-guin-language-of-the-night",
-      "src--kr-world-lit-editions"
+      "src--le-guin-language-of-the-night"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "octavia-butler",
@@ -311,11 +305,9 @@
     "difficultyReason": "문장은 짧고 서사는 사건 중심이라 읽는 속도 자체는 빠르다. 난도는 문체가 아니라 노예제·생식·강제된 동의를 신체 수준에서 구체적으로 서술하는 장면을 계속 견뎌야 한다는 데 있다.",
     "sourceIds": [
       "src--britannica",
-      "src--butler-bloodchild-afterwords",
-      "src--kr-world-lit-editions"
+      "src--butler-bloodchild-afterwords"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "margaret-atwood",
@@ -334,7 +326,7 @@
     "birthYear": 1939,
     "activeRange": [
       1961,
-      2023
+      2025
     ],
     "anchorYear": 1993,
     "gender": "female",
@@ -372,27 +364,25 @@
     ],
     "speculative": true,
     "tier": "major",
-    "importanceReason": "『시녀 이야기』에서 어딘가에서 실제로 시행된 적이 있는 제도와 법만을 재료로 쓴다는 규칙을 걸고 근미래 신정 체제를 구성해, 사변소설을 현재의 제도를 뒤집어 검사하는 논증의 형식으로 만들었다. 『눈먼 암살자』에서는 회고록과 신문 기사, 액자 속 통속 SF를 교차시켜 한 여성의 진술이 어디서 편집되고 무엇이 빠졌는지를 독자가 재구성하게 했다. 시로 출발해 소설과 비평으로 옮겨 가면서, 캐나다 문학을 독자적 계보로 논증한 비평서도 함께 썼다.",
+    "importanceReason": "『시녀 이야기』에서 어딘가에서 실제로 시행된 적이 있는 제도와 법만을 재료로 쓴다는 규칙을 걸고 근미래 신정 체제를 구성해, 사변소설을 현재의 제도를 뒤집어 검사하는 논증의 형식으로 만들었다. 『눈먼 암살자』에서는 회고록과 신문 기사, 그리고 연인의 밀회를 그린 액자 소설(그 안에서 남자가 통속 SF 이야기를 들려준다)을 교차시켜 한 여성의 진술이 어디서 편집되고 무엇이 빠졌는지를 독자가 재구성하게 했다. 시로 출발해 소설과 비평으로 옮겨 가면서, 캐나다 문학을 '생존'이라는 중심 상징과 '희생자'의 위치로 묶어 영국·미국 문학과 구별되는 독자적 문학으로 논증한 주제 비평서 『생존』(1972)도 함께 썼다.",
     "readingEntry": "margaret-atwood--the-handmaids-tale",
-    "readingEntryReason": "분량이 적당하고 화자의 목소리가 처음부터 끝까지 하나로 유지되며, 애트우드의 설정 구성 방식과 서술 태도를 한 권 안에서 모두 확인할 수 있다.",
+    "readingEntryReason": "분량이 적당하고 본문이 처음부터 끝까지 오브프레드 한 사람의 1인칭 목소리로 이어지며(말미의 「역사적 주석」에서만 후대 학회 발표자의 목소리로 바뀐다), 애트우드의 설정 구성 방식과 서술 태도를 한 권 안에서 모두 확인할 수 있다.",
     "readingOrder": [
       "margaret-atwood--the-handmaids-tale",
       "margaret-atwood--cats-eye",
       "margaret-atwood--alias-grace",
       "margaret-atwood--the-blind-assassin"
     ],
-    "readingWarning": "『눈먼 암살자』를 첫 책으로 잡으면 회고·신문 기사·액자 속 소설이 번갈아 나오는 3중 구조 때문에 초반 백여 쪽 동안 누구의 이야기인지 잡히지 않는다.",
+    "readingWarning": "『눈먼 암살자』를 첫 책으로 잡으면 회고·신문 기사·액자 속 소설이 번갈아 나오는 3중 구조 때문에 어느 층의 진술인지부터 추적하며 읽어야 한다.",
     "difficulty": 2,
     "difficultyReason": "문장은 명료하고 장면 전환이 빨라 읽기 자체는 어렵지 않다. 난도는 후기 장편에서 여러 층의 텍스트가 교차할 때 어느 층의 진술인지 계속 추적해야 한다는 데서 생긴다.",
     "sourceIds": [
       "src--britannica",
-      "src--cambridge-companions",
       "src--paris-review",
-      "src--atwood-in-other-worlds",
-      "src--kr-world-lit-editions"
+      "src--atwood-in-other-worlds"
     ],
     "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewedAt": "2026-09-24"
   },
   {
     "id": "don-delillo",
@@ -462,11 +452,9 @@
     "sourceIds": [
       "src--britannica",
       "src--cambridge-companions",
-      "src--paris-review",
-      "src--kr-world-lit-editions"
+      "src--paris-review"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "kazuo-ishiguro",
@@ -535,11 +523,9 @@
     "sourceIds": [
       "src--nobelprize",
       "src--britannica",
-      "src--paris-review",
-      "src--kr-world-lit-editions"
+      "src--paris-review"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "jm-coetzee",
@@ -615,10 +601,8 @@
       "src--nobelprize",
       "src--britannica",
       "src--cambridge-companions",
-      "src--coetzee-doubling-the-point",
-      "src--kr-world-lit-editions"
+      "src--coetzee-doubling-the-point"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   }
 ]

@@ -1,0 +1,172 @@
+{
+  "id": "premchand",
+  "page": "https://literary-planet.pages.dev/authors/premchand/",
+  "author": {
+    "names": {
+      "ko": "프렘찬드",
+      "original": "प्रेमचंद",
+      "aliases": [
+        "문시 프렘찬드",
+        "Munshi Premchand",
+        "단파트 라이 스리바스타바",
+        "Dhanpat Rai Srivastava"
+      ]
+    },
+    "birthYear": 1880,
+    "deathYear": 1936,
+    "activeRange": [
+      1908,
+      1936
+    ],
+    "languages": [
+      "hi",
+      "ur"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "프렘찬드는 우르두로 쓰기 시작해 힌디로 옮겨 간 이중언어 작가로, 두 문자 체계로 갈라지고 있던 힌두스타니 산문을 같은 이야기의 두 판본으로 남겼다. 페르시아·우르두 로맨스의 장식적 서사 대신 소작료와 부채와 소송 같은 농촌의 경제적 사실을 소설의 사건으로 삼아, 힌디 소설의 재료 자체를 바꾸었다. 『고단』(1936)은 한 농민 가족의 파산을 통계가 아니라 계절과 빚의 시간으로 서술해 인도 소설의 기준 텍스트가 되었다. 1936년 전인도 진보작가협회 창립대회 의장 연설에서는 문학을 오락이 아니라 현실을 심판하는 척도로 규정해, 이후 인도 좌파 문학의 출발 문서를 남겼다.",
+    "readingEntry": "premchand--kafan",
+    "readingEntryReason": "열 쪽 남짓의 단편이며, 굶주린 부자가 며느리의 장례비를 술값으로 쓰는 사태를 논평 없이 제시하는 후기의 냉정한 시선이 가장 짧게 요약되어 있다.",
+    "readingOrder": [
+      "premchand--kafan",
+      "premchand--sahitya-ka-uddeshya",
+      "premchand--godan",
+      "premchand--sevasadan",
+      "premchand--rangbhoomi"
+    ],
+    "readingWarning": "국내 번역이 드물어 영역본으로 접근하게 되는데, 힌디판과 우르두판이 같은 작품에서도 제목과 본문이 갈라지는 경우가 있으므로 어느 판본을 옮긴 것인지 확인하는 편이 낫다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 구성은 평이한 사실주의지만, 소작·부채·카스트·법정 절차 같은 식민지 농촌의 제도 어휘가 서사의 동력이라 그 배경 없이는 갈등의 크기가 잡히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--premchand-pwa-address-1936",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "premchand--sevasadan",
+      "titleKo": "세바사단",
+      "titleOriginal": "सेवासदन",
+      "year": 1918,
+      "genre": "fiction",
+      "significance": "제목은 '봉사의 집'을 뜻한다. 결혼 제도와 지참금이 여성을 어디로 밀어내는지를 도시의 성매매 문제와 연결한 첫 힌디 장편으로, 우르두판과 힌디판이 따로 존재한다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "premchand--rangbhoomi",
+      "titleKo": "랑그부미",
+      "titleOriginal": "रंगभूमि",
+      "year": 1925,
+      "genre": "fiction",
+      "significance": "제목은 '싸움터'를 뜻한다. 앞을 못 보는 걸인이 공장 부지로 수용되려는 자기 땅을 끝까지 지키는 이야기로, 산업화와 토지 수탈을 한 사람의 저항으로 좁혀 서술한 프렘찬드 최대 규모의 장편이다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "premchand--kafan",
+      "titleKo": "수의",
+      "titleOriginal": "कफ़न",
+      "year": 1936,
+      "genre": "fiction",
+      "significance": "해산 중에 죽어 가는 며느리를 두고 밖에 앉아 감자를 굽던 부자가 장례비로 걷은 돈을 술로 쓰는 이야기다. 도덕적 논평을 완전히 걷어낸 마지막 단편으로, 초기의 계몽적 어조가 어디까지 갔는지를 보여준다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "premchand--godan",
+      "titleKo": "고단",
+      "titleOriginal": "गोदान",
+      "year": 1936,
+      "genre": "fiction",
+      "significance": "제목은 '소의 헌납'을 뜻한다. 소 한 마리를 갖고 싶었던 소작농 호리가 빚과 벌금과 관습적 지출로 무너지는 과정을 계절의 순환에 맞춰 서술한 마지막 완성 장편이며, 인도 농촌소설의 기준 텍스트로 남았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "premchand--sahitya-ka-uddeshya",
+      "titleKo": "문학의 목적",
+      "titleOriginal": "साहित्य का उद्देश्य",
+      "year": 1936,
+      "genre": "essay-criticism",
+      "significance": "전인도 진보작가협회 창립대회의 의장 연설문으로, 문학을 오락이나 장식이 아니라 현실을 심판하는 척도로 규정했다. 죽기 몇 달 전의 발언이며 이후 인도 진보주의 문학의 강령 문서가 되었다.",
+      "sourceIds": [
+        "src--premchand-pwa-address-1936"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--premchand--saadat-hasan-manto",
+      "type": "contrast",
+      "from": "premchand (프렘찬드)",
+      "to": "saadat-hasan-manto (사다트 하산 만토)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "프렘찬드는 1936년 전인도 진보작가협회 창립대회 연설 「문학의 목적」에서 문학이 사회적 목적에 복무해야 한다고 정식화했다. 만토는 그 강령을 따르지 않고 판단을 유보한 채 행위만 남겼고, 진보 진영과 갈라선 그의 위치를 우르두 문학사는 이 대립축 위에서 설명한다.",
+      "anchors": [
+        {
+          "workId": "premchand--sahitya-ka-uddeshya"
+        }
+      ],
+      "sourceIds": [
+        "src--premchand-pwa-address-1936",
+        "src--jalal-pity-of-partition"
+      ]
+    },
+    {
+      "id": "contrast--premchand--rk-narayan",
+      "type": "contrast",
+      "from": "premchand (프렘찬드)",
+      "to": "rk-narayan (R. K. 나라얀)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 식민지 인도의 마을과 소도시를 같은 시기에 무대로 삼으면서, 프렘찬드는 개혁이 필요한 사회로 나라얀은 되풀이되는 일상으로 서술했다는 반대 방향을 보이기 위해 둘을 마주 놓는다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "translation--leo-tolstoy--premchand (→ leo-tolstoy 의 슬레이트에서 본다)",
+    "contrast--rabindranath-tagore--premchand (→ rabindranath-tagore 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--premchand-pwa-address-1936": {
+      "id": "src--premchand-pwa-address-1936",
+      "title": "「문학의 목적(साहित्य का उद्देश्य)」 — 전인도 진보작가협회 창립대회 의장 연설 (1936년 4월, 러크나우)",
+      "publisherOrInstitution": "전인도 진보작가협회(All-India Progressive Writers' Association)",
+      "citation": "프렘찬드가 문학의 사회적 기능을 직접 정식화한 연설문 — 인도 진보주의 문학 강령의 출발 문서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--jalal-pity-of-partition": {
+      "id": "src--jalal-pity-of-partition",
+      "title": "The Pity of Partition: Manto's Life, Times, and Work across the India-Pakistan Divide",
+      "publisherOrInstitution": "Princeton University Press / Ayesha Jalal",
+      "citation": "만토의 생애·이주·외설 재판과 작품 발표 시기를 다룬 전기적 연구"
+    }
+  }
+}

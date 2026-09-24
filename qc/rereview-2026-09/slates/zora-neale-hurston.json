@@ -1,0 +1,212 @@
+{
+  "id": "zora-neale-hurston",
+  "page": "https://literary-planet.pages.dev/authors/zora-neale-hurston/",
+  "author": {
+    "names": {
+      "ko": "조라 닐 허스턴",
+      "original": "Zora Neale Hurston",
+      "aliases": [
+        "허스턴",
+        "Hurston"
+      ]
+    },
+    "birthYear": 1891,
+    "deathYear": 1960,
+    "activeRange": [
+      1925,
+      1948
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [
+      "harlem-renaissance"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "컬럼비아대에서 프란츠 보애스에게 배운 인류학 현지조사 방법을 플로리다의 흑인 마을과 아이티·자메이카에 적용해 채록한 구술 자료를, 인용 표본이 아니라 소설의 문장 자체로 옮겼다. 흑인 남부 구어를 인물의 대사 안에 가두지 않고 서술 전체에 흡수시켜, 표준영어 화자와 방언 화자를 위계로 나누던 당대 소설의 관습을 무너뜨렸다. 인종을 손실과 항의의 언어로만 쓰던 동시대 흐름과 거리를 둔 탓에 1950년대에 절판되어 잊혔다가, 1970년대 앨리스 워커의 재발견 이후 미국 소설의 정전으로 복귀했다.",
+    "readingEntry": "zora-neale-hurston--their-eyes-were-watching-god",
+    "readingEntryReason": "300쪽이 안 되는 분량 안에 허스턴의 두 축 — 채록한 구어를 서술에 녹인 문장과, 자기 목소리를 얻어가는 인물 — 이 함께 작동하고, 국내 번역본으로 가장 접근하기 쉽다.",
+    "readingOrder": [
+      "zora-neale-hurston--their-eyes-were-watching-god",
+      "zora-neale-hurston--mules-and-men",
+      "zora-neale-hurston--barracoon",
+      "zora-neale-hurston--jonahs-gourd-vine"
+    ],
+    "readingWarning": "『노새와 인간』이나 『내 말에게 전해라』 같은 현지조사 기록부터 시작하면 허스턴을 민속학자로 분류해버리기 쉽다. 소설을 먼저 읽어야 채록이 무엇을 위한 작업이었는지 보인다.",
+    "difficulty": 3,
+    "difficultyReason": "이야기 자체는 따라가기 쉽지만 흑인 남부 구어를 소리 나는 대로 적은 표기가 원문 독서를 늦추고, 번역본에서는 그 층위가 다른 문제로 바뀌어 있어 원문·번역의 차이를 감안해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--hurston-mules-and-men-boas-preface",
+      "src--hurston-how-it-feels-colored-me",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "zora-neale-hurston--jonahs-gourd-vine",
+      "titleKo": "요나의 박넝쿨",
+      "titleOriginal": "Jonah's Gourd Vine",
+      "year": 1934,
+      "genre": "fiction",
+      "significance": "설교자 존 피어슨의 생애를 통해 흑인 교회의 설교를 소설의 문장 안으로 끌어들인 첫 장편. 채록한 구어와 설교의 리듬이 인물의 대사를 넘어 서술 자체로 번지기 시작한 지점이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "zora-neale-hurston--mules-and-men",
+      "titleKo": "노새와 인간",
+      "titleOriginal": "Mules and Men",
+      "year": 1935,
+      "genre": "essay-criticism",
+      "significance": "플로리다 벌목 캠프와 뉴올리언스의 후두 의례에서 채록한 흑인 민담과 주술을, 학술 보고가 아니라 채록자 자신이 등장하는 서사로 엮었다. 프란츠 보애스가 서문을 쓴 이 책은 민속지와 문학의 경계를 흐린 초기 사례다.",
+      "sourceIds": [
+        "src--hurston-mules-and-men-boas-preface",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "zora-neale-hurston--their-eyes-were-watching-god",
+      "titleKo": "그들의 눈은 신을 보고 있었다",
+      "titleOriginal": "Their Eyes Were Watching God",
+      "year": 1937,
+      "genre": "fiction",
+      "significance": "세 번의 결혼을 지나며 자기 목소리를 얻는 재니의 이야기를, 표준영어 서술과 흑인 남부 구어를 한 문장 안에 섞는 자유간접화법으로 썼다. 아이티 체류 중 몇 주 만에 쓴 이 소설은 1970년대 재발견 이후 미국 소설의 정전에 진입했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "zora-neale-hurston--tell-my-horse",
+      "titleKo": "내 말에게 전해라",
+      "titleOriginal": "Tell My Horse",
+      "year": 1938,
+      "genre": "essay-criticism",
+      "significance": "자메이카와 아이티에서 수행한 현지조사 기록으로, 부두 의례와 빙의 사례를 두 나라의 정치사와 나란히 서술한다. 카리브를 미국 남부 흑인 문화의 연장선에서 본 시각이 이후 흑인 대서양 연구의 선례로 인용된다.",
+      "sourceIds": [
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "zora-neale-hurston--moses-man-of-the-mountain",
+      "titleKo": "산의 사람 모세",
+      "titleOriginal": "Moses, Man of the Mountain",
+      "year": 1939,
+      "genre": "fiction",
+      "significance": "출애굽기의 모세를 후두 주술사로 다시 쓴 장편. 성서의 해방 서사를 미국 노예제의 경험 위에 겹치고 인물의 말을 남부 구어로 옮겨, 채록한 민간 신앙과 정전 텍스트를 같은 평면에 놓았다.",
+      "sourceIds": [
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "zora-neale-hurston--barracoon",
+      "titleKo": "바라쿤",
+      "titleOriginal": "Barracoon: The Story of the Last \"Black Cargo\"",
+      "year": 2018,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "대서양 노예무역으로 끌려온 마지막 생존자 가운데 한 사람으로 알려진 쿠조 루이스를 1920년대 후반에 인터뷰해 1931년 원고를 완성했으나, 구술을 표준영어로 고치라는 출판사 요구를 거부해 묻혔다가 2018년에야 출간되었다. 증언을 화자의 발음 그대로 남기려 한 원칙이 출판 자체를 막은 사례다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--zora-neale-hurston--toni-morrison",
+      "type": "affinity",
+      "from": "zora-neale-hurston (조라 닐 허스턴)",
+      "to": "toni-morrison (토니 모리슨)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "앨리스 워커의 1975년 글이 허스턴을 복원한 뒤 미국 흑인 여성 문학 연구는 허스턴에서 모리슨으로 이어지는 계보를 반복해 서술해 왔다. 다만 모리슨 자신은 초기 소설을 쓸 당시 허스턴을 읽지 않았다고 밝혀 왔으므로, 영향이 아니라 같은 재료를 다룬 두 지점의 친연성으로만 기록한다.",
+      "anchors": [
+        {
+          "year": 1975
+        }
+      ],
+      "sourceIds": [
+        "src--walker-in-search-of-hurston-1975",
+        "src--paris-review"
+      ]
+    },
+    {
+      "id": "affinity--zora-neale-hurston--flannery-oconnor",
+      "type": "affinity",
+      "from": "zora-neale-hurston (조라 닐 허스턴)",
+      "to": "flannery-oconnor (플래너리 오코너)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "남부의 말을 그대로 받아 적는 두 방향이다. 허스턴은 흑인 자치 마을의 이야기판을 서술 전체에 녹였고, 오코너는 백인 개신교 남부의 상투어를 정확히 옮긴 뒤 결말에서 뒤집었다. 두 사람 사이의 직접 접촉을 보여주는 기록은 없고, 이 지도가 남부 구어라는 축으로 나란히 놓은 관계다.",
+      "sourceIds": []
+    },
+    {
+      "id": "contrast--zora-neale-hurston--ralph-ellison",
+      "type": "contrast",
+      "from": "zora-neale-hurston (조라 닐 허스턴)",
+      "to": "ralph-ellison (랠프 엘리슨)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "흑인 남부 구어를 문학 언어로 삼는 두 방향이다. 허스턴은 채록한 이야기판의 어법을 서술 자체로 옮겼고, 엘리슨은 같은 구어를 블루스와 설교의 형식 원리로 추상화해 장편의 구조로 썼다. 두 사람의 직접 교류를 보여주는 기록은 이 배치에서 확인하지 못했다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--hurston-mules-and-men-boas-preface": {
+      "id": "src--hurston-mules-and-men-boas-preface",
+      "title": "『Mules and Men』 서문 (프란츠 보애스, 1935)",
+      "publisherOrInstitution": "J. B. Lippincott",
+      "citation": "허스턴의 컬럼비아대 인류학 수학과 남부 현지조사를 지도교수 보애스가 직접 보증한 1차 기록 — 채록 방법의 학술적 근거"
+    },
+    "src--hurston-how-it-feels-colored-me": {
+      "id": "src--hurston-how-it-feels-colored-me",
+      "title": "「How It Feels to Be Colored Me」 (1928)",
+      "publisherOrInstitution": "The World Tomorrow",
+      "citation": "인종을 손실이 아니라 관찰의 위치로 서술한 허스턴 자신의 산문 — 동시대 항의문학과의 거리를 보여주는 1차 근거"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--walker-in-search-of-hurston-1975": {
+      "id": "src--walker-in-search-of-hurston-1975",
+      "title": "「조라 닐 허스턴을 찾아서」 (Alice Walker, 1975. 3.)",
+      "publisherOrInstitution": "Ms. magazine",
+      "citation": "묘비 없는 무덤을 찾아가 허스턴을 미국 흑인 여성 문학의 계보로 복원한 글 — 이후 허스턴에서 모리슨으로 이어지는 계보 서술이 시작된 지점"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    }
+  }
+}

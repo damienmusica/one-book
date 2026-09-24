@@ -1,0 +1,188 @@
+{
+  "id": "robert-musil",
+  "page": "https://literary-planet.pages.dev/authors/robert-musil/",
+  "author": {
+    "names": {
+      "ko": "로베르트 무질",
+      "original": "Robert Musil",
+      "aliases": [
+        "무질",
+        "Musil"
+      ]
+    },
+    "birthYear": 1880,
+    "deathYear": 1942,
+    "activeRange": [
+      1906,
+      1942
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "서술을 사건의 진행이 아니라 사유의 전개로 채우는 '에세이즘'을 장편의 구성 원리로 삼아, 판단이 유보된 상태 자체를 서술 대상으로 만들었다. 붕괴 직전의 오스트리아-헝가리를 '카카니엔'이라 부르며, 국가가 성대한 기념 사업을 준비하는 동안 끝내 아무것도 결정되지 않는 상태를 천 쪽 넘게 지속시켰다. 정밀과학의 정확성과 '다른 상태'라 부른 신비 경험을 한 인물 안에 나란히 두어, 근대의 지식과 감정이 서로를 번역하지 못하는 지점을 소설의 문제로 정식화했다.",
+    "readingEntry": "robert-musil--die-verwirrungen-des-zoeglings-toerless",
+    "readingEntryReason": "기숙학교라는 닫힌 무대에 사건이 뚜렷하게 있는 짧은 장편이면서, 수학의 허수를 계기로 설명 가능한 것과 그렇지 않은 것 사이가 벌어지는 무질의 핵심 문제가 이미 나와 있다.",
+    "readingOrder": [
+      "robert-musil--die-verwirrungen-des-zoeglings-toerless",
+      "robert-musil--drei-frauen",
+      "robert-musil--der-mann-ohne-eigenschaften"
+    ],
+    "readingWarning": "『특성 없는 남자』부터 시작하면 천 쪽이 넘는 미완의 분량 이전에, 사건 대신 에세이가 앞서 나가는 구성 때문에 중도에 놓기 쉽다.",
+    "difficulty": 4,
+    "difficultyReason": "줄거리가 진행되는 대신 인물의 사유가 논문처럼 전개되고, 합스부르크 말기 오스트리아의 정치·과학 담론을 전제로 깔고 있다. 게다가 대표작은 미완이라 결말이 없다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "robert-musil--die-verwirrungen-des-zoeglings-toerless",
+      "titleKo": "생도 퇴를레스의 혼란",
+      "titleOriginal": "Die Verwirrungen des Zöglings Törleß",
+      "year": 1906,
+      "genre": "fiction",
+      "significance": "기숙 군사학교에서 벌어지는 동급생 가혹 행위를 지켜보는 소년의 내면을 따라간다. 수학의 허수를 계기로, 설명되는 세계와 설명되지 않는 경험이 갈라지는 무질의 평생 문제가 여기서 시작된다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "robert-musil--drei-frauen",
+      "titleKo": "세 여인",
+      "titleOriginal": "Drei Frauen",
+      "year": 1924,
+      "genre": "fiction",
+      "significance": "세 편의 중편으로 이루어진 소설집. 남자들이 자기 삶의 확실성을 잃는 순간을 여성 인물과의 만남에 걸어, 장편에서 전개할 '다른 상태'를 짧은 형식으로 시험한다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "robert-musil--der-mann-ohne-eigenschaften",
+      "titleKo": "특성 없는 남자",
+      "titleOriginal": "Der Mann ohne Eigenschaften",
+      "year": 1930,
+      "genre": "fiction",
+      "significance": "1913년 빈에서 황제 즉위 70주년 기념 사업을 준비하는 위원회를 무대로, 아무것도 결정되지 않는 상태를 천 쪽 넘게 지속시킨다. 저자의 죽음으로 미완에 그쳤고 남은 초고의 배열은 판본마다 다르다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "robert-musil--nachlass-zu-lebzeiten",
+      "titleKo": "생전 유고",
+      "titleOriginal": "Nachlaß zu Lebzeiten",
+      "year": 1936,
+      "genre": "fiction",
+      "significance": "파리끈끈이나 원숭이 섬 같은 사소한 대상을 현미경처럼 들여다보는 짧은 산문 모음. 장편이 진척되지 않던 시기에 낸 책으로, 무질의 관찰 문체를 가장 압축된 형태로 볼 수 있다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--robert-musil--milan-kundera",
+      "type": "documented_influence",
+      "from": "robert-musil (로베르트 무질)",
+      "to": "milan-kundera (밀란 쿤데라)",
+      "evidenceLevel": "documented",
+      "summary": "쿤데라는 『소설의 기술』에서 무질을 브로흐와 나란히 놓고, 소설에 사유를 들여온 중부유럽 계보의 한 축으로 반복해 지목한다. 인물의 행동보다 그 행동을 둘러싼 개념 논의가 지면을 차지하는 구성이 두 사람의 접점이다.",
+      "anchors": [
+        {
+          "workId": "milan-kundera--l-art-du-roman"
+        }
+      ],
+      "sourceIds": [
+        "src--kundera-art-du-roman"
+      ]
+    },
+    {
+      "id": "affinity--robert-musil--hermann-broch",
+      "type": "affinity",
+      "from": "robert-musil (로베르트 무질)",
+      "to": "hermann-broch (헤르만 브로흐)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『특성 없는 남자』(1930)와 『몽유병자들』(1931–32)은 같은 시기 빈에서, 소설 안에 논문을 들여놓아 가치 체계의 붕괴를 서술한다는 같은 기획으로 쓰였다. 독일어권 연구는 두 작품을 '에세이적 소설'의 두 형태로 나란히 다룬다.",
+      "anchors": [
+        {
+          "workId": "robert-musil--der-mann-ohne-eigenschaften"
+        },
+        {
+          "workId": "hermann-broch--die-schlafwandler"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "dialogue--robert-musil--elias-canetti",
+      "type": "dialogue",
+      "from": "robert-musil (로베르트 무질)",
+      "to": "elias-canetti (엘리아스 카네티)",
+      "evidenceLevel": "documented",
+      "summary": "카네티는 『눈의 유희』에서 무질이 『현혹』을 읽고 보인 반응을 기록했다. 무질은 처음 이 소설을 인정했다가 브로흐도 같은 평가를 했다는 말을 듣고 태도를 거두었고, 카네티는 그 철회의 순간을 빈 문단의 위계가 작동하는 방식으로 서술했다.",
+      "anchors": [
+        {
+          "workId": "elias-canetti--die-blendung"
+        }
+      ],
+      "sourceIds": [
+        "src--canetti-das-augenspiel-1985"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--friedrich-nietzsche--robert-musil (→ friedrich-nietzsche 의 슬레이트에서 본다)",
+    "affinity--marcel-proust--robert-musil (→ marcel-proust 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--kundera-art-du-roman": {
+      "id": "src--kundera-art-du-roman",
+      "title": "『소설의 기술』 (L'Art du roman, 1986)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카프카·브로흐·무질·곰브로비치를 중부유럽 소설의 계보로 묶고 「『몽유병자들』에서 촉발된 노트」와 카프카론을 각각 한 부로 배치한 쿤데라 자신의 소설론"
+    },
+    "src--canetti-das-augenspiel-1985": {
+      "id": "src--canetti-das-augenspiel-1985",
+      "title": "엘리아스 카네티, 『눈의 유희(Das Augenspiel)』 (1985)",
+      "publisherOrInstitution": "Carl Hanser Verlag",
+      "citation": "자서전 3부 — 빈 시절 브로흐·무질·토마스 만과의 대면을 장별로 기록한 1차 회고"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "fixes": [
+    {
+      "id": "kim-sowol",
+      "importanceReason": "김소월은 민요의 3음보와 7·5조를 근대 인쇄 지면의 자유시 안으로 옮겨, 공동체가 부르던 노래의 리듬을 한 사람의 목소리로 다시 쓰는 방법을 만들었다. 『진달래꽃』(1925)은 이별을 견디는 화자의 어조를 한국어 서정시의 기준 음역으로 고정했고, 근대시의 형성과 전개 과정에 폭넓은 영향을 끼쳐 한국 시단의 이정표 구실을 한 시집으로 평가된다. 평안도 방언 어휘를 표준어의 예외가 아니라 시어로 쓴 점, 그리고 「시혼」(1925)에서 자기 시의 원리를 스스로 정식화한 점이 함께 평가된다.",
+      "readingEntryReason": "생전에 낸 유일한 시집이 곧 대표작이고 127편을 16부로 나눠 묶은 한 권이라, 표제작 한 편이 아니라 한 권의 어조 전체를 확인할 수 있다.",
+      "readingWarning": "「진달래꽃」 한 편만 이별시로 읽고 끝내지 않는 편이 좋다. 시집 전체는 떠난 이를 두고 홀로 남은 심정을 주로 다루지만, 죽은 이를 부르는 「초혼」과 '여수(旅愁)' 부의 시처럼 「진달래꽃」 한 편보다 넓은 폭의 시도 함께 실려 있다.",
+      "works": [
+        {
+          "id": "kim-sowol--chohon",
+          "significance": "죽은 이의 이름을 부르는 전통 상례의 절차를 시의 형식으로 삼아, 부름이 끝내 닿지 않는 구조를 반복으로 만든다."
+        },
+        {
+          "id": "kim-sowol--sanyuhwa",
+          "significance": "피고 지는 산의 꽃을 사람의 사연 없이 그대로 서술해, 소월의 시가 감정의 토로만이 아니라 거리를 둔 관찰로도 성립함을 보여준다. 짧은 행에서 같은 구절을 반복·변형하고 '꽃피네'와 '꽃지네'를 대비시켜 계절의 순환을 구성한다."
+        },
+        {
+          "id": "kim-sowol--sihon",
+          "significance": "잡지 『개벽』에 실은 시론으로, 시혼은 영혼 그 자체라 깊어지거나 얕아지지 않으며 시의 우열은 작품에 드러난 '음영(陰影)'의 가치에서 갈린다고 주장하며 자기 시의 원리를 직접 정식화했다. 소월이 남긴 유일한 시론이다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "이후의 한국시는 그 음역을 이어받거나 그것에 반발하는 방식으로 자기 자리를 정했다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "시집 『진달래꽃』은 분량이 짧다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "「진달래꽃」 한 편만 교과서적 이별시로 읽는 것이 가장 흔한 오독 경로다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "시집 전체에서는 유랑, 돌아갈 수 없는 고향, 죽은 이를 부르는 목소리가 (이별보다) 더 큰 비중을 차지한다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[kim-sowol--chohon].significance",
+          "claim": "『진달래꽃』 수록작 가운데 상실의 어조가 가장 격한 편이다",
+          "resolution": "removed"
+        },
+        {
+          "field": "works[kim-sowol--sanyuhwa].significance",
+          "claim": "짧은 행과 반복만으로 계절의 순환을 구성한다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[kim-sowol--sihon].significance",
+          "claim": "시의 값이 소재의 크기가 아니라 '혼'의 깊이에 있다고 주장했다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[kim-sowol--sihon].significance",
+          "claim": "소월이 남긴 유일한 본격 비평문이다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

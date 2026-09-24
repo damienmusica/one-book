@@ -1,0 +1,21 @@
+{
+  "id": "jean-jacques-rousseau",
+  "claims": [
+    {
+      "field": "relations[documented_influence jean-jacques-rousseau→johann-wolfgang-von-goethe]",
+      "claim": "1770년대 독일에서의 루소 수용이 그 책에서 배경으로 다뤄진다.",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20190518144901/https://www.jstor.org/stable/j.ctt130jr9v",
+      "quote": "the reception of Rousseau's works in Germany during the third quarter of the eighteenth century, the period of Goethe's youth",
+      "note": "JSTOR 본문은 지금도 차단(3,038바이트 챌린지)이고 core.ac.uk PDF 는 522/404, UKnowledge viewcontent 는 403 이다. 2019년 Wayback 스냅숏의 JSTOR 책 페이지가 장별 초록을 그대로 담고 있어 그것으로 확인했다. 1장 「I The Cultural Background」(pp. 10–31)의 전반부가 바로 이 내용이고, 후반부는 괴테의 프랑스 문학 지식 개관이다. 다만 해머 자신의 시간 틀은 '18세기 제3사분기'(1750–75)이므로, 서술을 「1770년대」대신 「18세기 제3사분기, 괴테의 청년기」로 고치면 책과 정확히 맞는다."
+    },
+    {
+      "field": "relations[documented_influence jean-jacques-rousseau→leo-tolstoy]",
+      "claim": "그 전제가 『코사크』와 『전쟁과 평화』를 쓰던 시기의 인물 구성까지 이어지는 경로를 다룬다.",
+      "verdict": "confirmed",
+      "url": "https://press.princeton.edu/books/ebook/9781400820887/tolstoys-art-and-thought-1847-1880",
+      "quote": "covers the period during which he wrote The Cossacks, War and Peace, and Anna Karenina",
+      "note": "소개문은 『코사크』(1863) 분석을 통해 '자연적 도덕만으로는 충분하지 않다'는 인식에 이르는 경로를 밝힌다고 적는다. 다만 '인물 구성'이라는 특정은 소개문에 없다."
+    }
+  ]
+}

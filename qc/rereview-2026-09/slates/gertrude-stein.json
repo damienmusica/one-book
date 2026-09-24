@@ -1,0 +1,189 @@
+{
+  "id": "gertrude-stein",
+  "page": "https://literary-planet.pages.dev/authors/gertrude-stein/",
+  "author": {
+    "names": {
+      "ko": "거트루드 스타인",
+      "original": "Gertrude Stein",
+      "aliases": [
+        "스타인",
+        "Stein"
+      ]
+    },
+    "birthYear": 1874,
+    "deathYear": 1946,
+    "activeRange": [
+      1909,
+      1946
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "movements": [
+      "modernism",
+      "lost-generation"
+    ],
+    "genres": [
+      "fiction",
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "반복과 현재분사로 문장의 시간을 정지시키는 연속적 현재의 산문을 만들어, 서사가 진행이 아니라 상태의 지속으로도 쓰일 수 있음을 보였다. 『텐더 버튼스』에서는 명사에서 지시 기능을 떼어내 단어를 사물처럼 배열해, 큐비즘 회화가 대상에 한 일을 산문에서 시도했다. 파리의 살롱은 피카소·마티스와 전후 파리의 미국 작가들이 만나는 결절점이었고, 헤밍웨이와 앤더슨의 문장 훈련에 직접 개입했다.",
+    "readingEntry": "gertrude-stein--the-autobiography-of-alice-b-toklas",
+    "readingEntryReason": "동반자의 목소리를 빌려 쓴 회고록이라 스타인의 실험적 통사 바깥에 있고, 1900–1930년대 파리 예술계의 인물 지도를 그대로 보여 준다.",
+    "readingOrder": [
+      "gertrude-stein--the-autobiography-of-alice-b-toklas",
+      "gertrude-stein--three-lives",
+      "gertrude-stein--composition-as-explanation",
+      "gertrude-stein--tender-buttons",
+      "gertrude-stein--the-making-of-americans"
+    ],
+    "readingWarning": "『미국인의 형성』으로 시작하면 900쪽 넘는 분량에서 같은 구문이 변주되며 반복돼 거의 예외 없이 중도에 멈춘다.",
+    "difficulty": 4,
+    "difficultyReason": "줄거리를 좇는 독법이 작동하지 않도록 설계된 문장이다. 반복과 현재분사로 서사의 진행을 의도적으로 정지시키고, 『텐더 버튼스』는 통사 자체를 해체해 의미 복원 대신 리듬을 듣는 독법을 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "gertrude-stein--three-lives",
+      "titleKo": "세 인생",
+      "titleOriginal": "Three Lives",
+      "year": 1909,
+      "genre": "fiction",
+      "significance": "세 여성의 삶을 각각 다룬 중편 셋. 특히 「멜랑크타」에서 반복되는 구문으로 인물의 의식을 서술하는 방법이 처음 시도되었다.",
+      "sourceIds": [
+        "src--library-of-america",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "gertrude-stein--tender-buttons",
+      "titleKo": "텐더 버튼스",
+      "titleOriginal": "Tender Buttons: Objects, Food, Rooms",
+      "year": 1914,
+      "genre": "poetry",
+      "significance": "사물·음식·방을 표제로 삼은 짧은 산문시 모음. 명사에서 지시 기능을 떼어내 단어를 배열함으로써 큐비즘의 문제를 언어로 옮겼다.",
+      "sourceIds": [
+        "src--poetry-foundation",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "gertrude-stein--the-making-of-americans",
+      "titleKo": "미국인의 형성",
+      "titleOriginal": "The Making of Americans",
+      "year": 1925,
+      "genre": "fiction",
+      "significance": "1900년대에 쓰고 1925년 파리에서 출간한 900쪽 넘는 장편. 한 가족의 연대기를 유형 분류와 반복 구문으로 서술해 서사의 진행 자체를 정지시킨다.",
+      "sourceIds": [
+        "src--library-of-america",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "gertrude-stein--composition-as-explanation",
+      "titleKo": "구성으로서의 설명",
+      "titleOriginal": "Composition as Explanation",
+      "year": 1926,
+      "genre": "essay-criticism",
+      "significance": "1926년 옥스퍼드와 케임브리지에서 한 강연을 호가스 출판사가 같은 해 책으로 낸 글. 연속적 현재라는 용어로 자기 산문의 시간 처리를 직접 설명한 1차 자료다.",
+      "sourceIds": [
+        "src--library-of-america",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "gertrude-stein--the-autobiography-of-alice-b-toklas",
+      "titleKo": "앨리스 B. 토클라스의 자서전",
+      "titleOriginal": "The Autobiography of Alice B. Toklas",
+      "year": 1933,
+      "genre": "essay-criticism",
+      "significance": "동반자 앨리스 토클라스의 1인칭을 빌려 쓴 자기 회고록. 파리 예술계의 인물들을 일화로 기록해 상업적으로 성공했고, 스타인을 대중 독자에게 알린 책이 되었다.",
+      "sourceIds": [
+        "src--library-of-america",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "mentorship--gertrude-stein--ernest-hemingway",
+      "type": "mentorship",
+      "from": "gertrude-stein (거트루드 스타인)",
+      "to": "ernest-hemingway (어니스트 헤밍웨이)",
+      "evidenceLevel": "documented",
+      "summary": "1922년 파리에서 스타인은 헤밍웨이의 초기 원고를 읽고 형용사와 설명을 걷어내라고 요구했다. 그가 옮긴 '너희는 모두 잃어버린 세대다'라는 말은 『태양은 다시 떠오른다』(1926)의 제사가 되어 한 세대의 이름으로 굳었고, 두 사람의 사사와 결별은 『앨리스 B. 토클라스의 자서전』(1933)과 『A Moveable Feast』(1964)에 서로 다른 판본으로 남았다.",
+      "anchors": [
+        {
+          "year": 1922
+        },
+        {
+          "workId": "ernest-hemingway--the-sun-also-rises"
+        },
+        {
+          "workId": "gertrude-stein--the-autobiography-of-alice-b-toklas"
+        }
+      ],
+      "sourceIds": [
+        "src--stein-autobiography-toklas",
+        "src--hemingway-moveable-feast"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--henry-james--gertrude-stein (→ henry-james 의 슬레이트에서 본다)",
+    "influence--gustave-flaubert--gertrude-stein (→ gustave-flaubert 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--stein-autobiography-toklas": {
+      "id": "src--stein-autobiography-toklas",
+      "title": "『The Autobiography of Alice B. Toklas』 (1933)",
+      "publisherOrInstitution": "Harcourt, Brace and Company",
+      "citation": "스타인이 동반자의 목소리를 빌려 쓴 회고 — 파리의 미국인 작가들과 헤밍웨이에 대한 스타인 자신의 서술"
+    },
+    "src--hemingway-moveable-feast": {
+      "id": "src--hemingway-moveable-feast",
+      "title": "『A Moveable Feast』 (1964, 사후 간행)",
+      "publisherOrInstitution": "Charles Scribner's Sons",
+      "citation": "1920년대 파리 시절의 회고 — 스타인의 지도와 결별, '잃어버린 세대'라는 말의 유래를 헤밍웨이 자신이 서술한 기록"
+    }
+  }
+}

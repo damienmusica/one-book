@@ -1,0 +1,372 @@
+{
+  "id": "virginia-woolf",
+  "page": "https://literary-planet.pages.dev/authors/virginia-woolf/",
+  "author": {
+    "names": {
+      "ko": "버지니아 울프",
+      "original": "Virginia Woolf",
+      "aliases": [
+        "울프",
+        "Woolf",
+        "Adeline Virginia Stephen"
+      ]
+    },
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "activeRange": [
+      1915,
+      1941
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "인물의 의식과 서술자의 목소리가 문장 단위로 미끄러지며 겹치는 자유간접화법을 다듬어, 한 문장 안에서 말하는 사람이 바뀌어도 서사가 끊기지 않는 산문을 만들었다. 하루(『댈러웨이 부인』)와 십 년의 공백(『등대로』의 「시간이 흐르다」)을 한 책 안에서 전혀 다른 속도로 서술해, 소설의 시간 단위를 사건에서 지각으로 옮겼다. 『자기만의 방』에서는 여성이 쓰지 못한 이유를 재능이 아니라 연 500파운드와 잠글 수 있는 문이라는 물질 조건으로 환산해, 문학사 서술의 전제를 심문하는 비평의 형식을 열었다.",
+    "readingEntry": "virginia-woolf--mrs-dalloway",
+    "readingEntryReason": "6월의 하루, 런던 한 도시로 무대가 묶여 있어 분량이 짧고, 파티 준비와 전쟁 후유증이라는 두 축이 병렬로 진행되어 시점 이동을 따라가기가 비교적 쉽다.",
+    "readingOrder": [
+      "virginia-woolf--mrs-dalloway",
+      "virginia-woolf--orlando",
+      "virginia-woolf--to-the-lighthouse",
+      "virginia-woolf--the-waves"
+    ],
+    "readingWarning": "『파도』를 첫 책으로 고르면 막힌다. 여섯 인물의 독백만으로 이루어져 사건도 대화도 없는 이 책은 울프가 자기 방법을 끝까지 밀어붙인 종착점이지 입구가 아니다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 맑지만 시점이 표시 없이 인물 사이를 옮겨 다녀, 지금 누구의 생각을 읽고 있는지를 독자가 계속 판정해야 한다. 줄거리로 요약되는 사건은 거의 없다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "virginia-woolf--mrs-dalloway",
+      "titleKo": "댈러웨이 부인",
+      "titleOriginal": "Mrs Dalloway",
+      "year": 1925,
+      "genre": "fiction",
+      "significance": "런던의 6월 하루를 따라가며 파티를 준비하는 상류층 여성과 전쟁 후유증에 시달리는 참전병의 의식을 교차시킨다. 두 사람은 만나지 않지만 같은 시계 소리로 묶인다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "virginia-woolf--to-the-lighthouse",
+      "titleKo": "등대로",
+      "titleOriginal": "To the Lighthouse",
+      "year": 1927,
+      "genre": "fiction",
+      "significance": "하루를 다룬 1부와 3부 사이에 십 년의 세월을 빈집의 시점으로 압축한 「시간이 흐르다」를 끼워 넣었다. 인물의 죽음마저 괄호 안 한 문장으로 처리하는 이 중간부가 소설의 시간 서술을 다시 정의했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "virginia-woolf--orlando",
+      "titleKo": "올랜도",
+      "titleOriginal": "Orlando: A Biography",
+      "year": 1928,
+      "genre": "fiction",
+      "significance": "16세기부터 300년을 살며 도중에 성별이 바뀌는 인물의 '전기'. 전기라는 장르의 관습을 패러디하면서 성별을 고정된 사실이 아니라 시대가 입히는 의상으로 서술한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "virginia-woolf--a-room-of-ones-own",
+      "titleKo": "자기만의 방",
+      "titleOriginal": "A Room of One's Own",
+      "year": 1929,
+      "genre": "essay-criticism",
+      "significance": "여성이 소설을 쓰려면 돈과 자기 방이 필요하다는 명제를 강연 형식으로 전개한다. 셰익스피어에게 똑같이 재능 있는 누이가 있었다면 어떻게 되었을까라는 가정을 세워, 재능이 아니라 조건이 문학사를 만든다고 논증했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "virginia-woolf--the-waves",
+      "titleKo": "파도",
+      "titleOriginal": "The Waves",
+      "year": 1931,
+      "genre": "fiction",
+      "significance": "여섯 인물의 독백만으로 이루어지고 사이사이에 바다의 하루를 묘사한 간주가 놓인다. 대화도 사건 서술도 없이 인물의 일생을 통과하는, 울프의 방법이 가장 멀리 간 지점.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--jane-austen--virginia-woolf",
+      "type": "documented_influence",
+      "from": "jane-austen (제인 오스틴)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "documented",
+      "summary": "울프는 『보통의 독자』(1925)에 실린 에세이 「제인 오스틴」에서 오스틴의 문장이 작은 장면 안에서 감정의 전모를 드러내는 방식을 분석했다.",
+      "sourceIds": [
+        "src--woolf-common-reader-1925"
+      ]
+    },
+    {
+      "id": "affinity--murasaki-shikibu--virginia-woolf",
+      "type": "affinity",
+      "from": "murasaki-shikibu (무라사키 시키부)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "울프는 1925년 『보그』에 아서 웨일리 영역본 『겐지 이야기』 제1권의 서평을 실어 이 작품을 유럽 소설사 안에서 논했다.",
+      "sourceIds": [
+        "src--woolf-tale-of-genji-vogue-1925"
+      ]
+    },
+    {
+      "id": "influence--daniel-defoe--virginia-woolf",
+      "type": "documented_influence",
+      "from": "daniel-defoe (대니얼 디포)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "documented",
+      "summary": "울프는 『보통 독자』(1925)에 실은 에세이 「디포」에서 『몰 플랜더스』와 『록사나』를 영국 소설의 위대한 작품으로 꼽고, 사실에 의존한다는 디포 자신의 주장을 두고 그가 목표로 삼은 '사실의 진실'보다 '통찰의 진실'에 이르렀다고 논했다.",
+      "sourceIds": [
+        "src--woolf-common-reader-1925"
+      ]
+    },
+    {
+      "id": "dialogue--virginia-woolf--katherine-mansfield",
+      "type": "dialogue",
+      "from": "virginia-woolf (버지니아 울프)",
+      "to": "katherine-mansfield (캐서린 맨스필드)",
+      "evidenceLevel": "documented",
+      "summary": "호가스 출판사는 1918년 맨스필드의 「서곡」을 초기 간행물의 하나로 냈고, 두 사람은 서로의 작업을 질투 섞인 눈으로 읽는 친구이자 경쟁자였다. 맨스필드가 죽은 뒤 울프는 일기에 자기가 질투한 유일한 글쓰기였다고 적었다.",
+      "anchors": [
+        {
+          "workId": "katherine-mansfield--prelude",
+          "year": 1918
+        }
+      ],
+      "sourceIds": [
+        "src--woolf-letters-diary",
+        "src--mansfield-letters-journal"
+      ]
+    },
+    {
+      "id": "translation--virginia-woolf--jorge-luis-borges",
+      "type": "translation",
+      "from": "virginia-woolf (버지니아 울프)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 『자기만의 방』(1936)과 『올랜도』(1937)를 스페인어로 옮겨 부에노스아이레스의 에디토리알 수르에서 냈다. 울프의 산문이 스페인어권 독자에게 들어온 초기 통로가 이 두 권이었다.",
+      "anchors": [
+        {
+          "workId": "virginia-woolf--a-room-of-ones-own",
+          "year": 1936
+        },
+        {
+          "workId": "virginia-woolf--orlando",
+          "year": 1937
+        }
+      ],
+      "sourceIds": [
+        "src--borges-orlando-cuarto-propio-sur"
+      ]
+    },
+    {
+      "id": "affinity--virginia-woolf--clarice-lispector",
+      "type": "affinity",
+      "from": "virginia-woolf (버지니아 울프)",
+      "to": "clarice-lispector (클라리시 리스펙토르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "1943년 『야생의 심장 가까이』가 나오자 브라질 비평은 곧바로 이 소설을 울프의 의식 서술과 나란히 놓았고, 그 비교는 이후 리스펙토르 연구의 상수가 됐다. 리스펙토르 자신은 데뷔 당시 울프를 읽지 않았다고 밝혔다 — 계보가 아니라 같은 문제에 따로 도달한 두 문장이다.",
+      "anchors": [
+        {
+          "workId": "clarice-lispector--perto-do-coracao-selvagem"
+        }
+      ],
+      "sourceIds": [
+        "src--academia-brasileira-letras"
+      ]
+    },
+    {
+      "id": "influence--virginia-woolf--gabriel-garcia-marquez",
+      "type": "documented_influence",
+      "from": "virginia-woolf (버지니아 울프)",
+      "to": "gabriel-garcia-marquez (가브리엘 가르시아 마르케스)",
+      "evidenceLevel": "documented",
+      "summary": "가르시아 마르케스는 파리 리뷰 인터뷰와 자서전에서 『댈러웨이 부인』의 한 대목이 자기 시간 감각을 바꿔 놓았다고 말했다. 한 문장 안에 현재와 수십 년을 함께 담는 이 방식은 화자가 예고 없이 이동하는 『족장의 가을』의 서술로 이어진다.",
+      "anchors": [
+        {
+          "workId": "virginia-woolf--mrs-dalloway"
+        },
+        {
+          "workId": "gabriel-garcia-marquez--el-otono-del-patriarca"
+        }
+      ],
+      "sourceIds": [
+        "src--paris-review",
+        "src--garcia-marquez-vivir-para-contarla"
+      ]
+    },
+    {
+      "id": "influence--virginia-woolf--toni-morrison",
+      "type": "documented_influence",
+      "from": "virginia-woolf (버지니아 울프)",
+      "to": "toni-morrison (토니 모리슨)",
+      "evidenceLevel": "documented",
+      "summary": "모리슨은 1955년 코넬 대학 석사논문에서 버지니아 울프와 윌리엄 포크너가 소외된 인물을 다루는 방식을 비교했다. 여러 목소리가 사건의 순서를 흩뜨리며 진행되는 그의 소설 서술은 이 정독의 시기와 겹친다.",
+      "anchors": [
+        {
+          "year": 1955
+        }
+      ],
+      "sourceIds": [
+        "src--morrison-cornell-thesis-1955"
+      ]
+    },
+    {
+      "id": "influence--virginia-woolf--ursula-k-le-guin",
+      "type": "documented_influence",
+      "from": "virginia-woolf (버지니아 울프)",
+      "to": "ursula-k-le-guin (어슐러 K. 르 귄)",
+      "evidenceLevel": "documented",
+      "summary": "르 귄은 『세상 끝에서 춤추다』에 실은 「어부의 딸」에서 『자기만의 방』의 논지를 이어받아 여성 작가의 조건을 다시 계산했고, 작법에 관한 글에서도 울프의 문장 리듬을 산문 호흡의 기준으로 들었다. 그가 명시적으로 자기 계보로 지목한 몇 안 되는 작가다.",
+      "anchors": [
+        {
+          "workId": "virginia-woolf--a-room-of-ones-own"
+        }
+      ],
+      "sourceIds": [
+        "src--le-guin-dancing-at-the-edge"
+      ]
+    },
+    {
+      "id": "influence--virginia-woolf--simone-de-beauvoir",
+      "type": "documented_influence",
+      "from": "virginia-woolf (버지니아 울프)",
+      "to": "simone-de-beauvoir (시몬 드 보부아르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "페미니즘 비평은 여성의 글쓰기를 재능이 아니라 돈·방·시간이라는 물질적 조건의 문제로 옮긴 『자기만의 방』(1929)의 논의를 『제2의 성』(1949)의 직접적 선행 작업으로 다룬다. 다만 보부아르가 울프를 어느 대목에서 어떻게 인용했는지는 이 배치에서 특정하지 않는다.",
+      "anchors": [
+        {
+          "workId": "virginia-woolf--a-room-of-ones-own"
+        },
+        {
+          "workId": "simone-de-beauvoir--le-deuxieme-sexe"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions",
+        "src--beauvoir-deuxieme-sexe-1949"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--anton-chekhov--virginia-woolf (→ anton-chekhov 의 슬레이트에서 본다)",
+    "translation--fyodor-dostoevsky--virginia-woolf (→ fyodor-dostoevsky 의 슬레이트에서 본다)",
+    "influence--marcel-proust--virginia-woolf (→ marcel-proust 의 슬레이트에서 본다)",
+    "contrast--james-joyce--virginia-woolf (→ james-joyce 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--woolf-common-reader-1925": {
+      "id": "src--woolf-common-reader-1925",
+      "title": "The Common Reader (1925)",
+      "publisherOrInstitution": "The Hogarth Press — Virginia Woolf",
+      "citation": "「러시아인의 관점」과 「현대소설」이 실린 첫 평론집 — 울프가 체호프·도스토옙스키·톨스토이의 방법을 자기 소설론의 좌표로 삼은 1차 문헌"
+    },
+    "src--woolf-tale-of-genji-vogue-1925": {
+      "id": "src--woolf-tale-of-genji-vogue-1925",
+      "title": "\"The Tale of Genji\" (Vogue, 1925년 7월)",
+      "publisherOrInstitution": "Virginia Woolf, Vogue (London)",
+      "citation": "아서 웨일리 영역본 『겐지 이야기』 제1권을 논평한 서평"
+    },
+    "src--woolf-letters-diary": {
+      "id": "src--woolf-letters-diary",
+      "title": "버지니아 울프 일기·서간 (The Diary of Virginia Woolf / The Letters of Virginia Woolf)",
+      "publisherOrInstitution": "The Hogarth Press / Harcourt Brace Jovanovich",
+      "citation": "1922년 로저 프라이 앞 편지의 프루스트 언급, 같은 해 『율리시스』에 대한 일기의 혹평, 1923년 맨스필드의 죽음 뒤 남긴 질투의 기록 등이 실린 1차 자료"
+    },
+    "src--mansfield-letters-journal": {
+      "id": "src--mansfield-letters-journal",
+      "title": "캐서린 맨스필드 일기·서간 (Journal of Katherine Mansfield, 1927 / The Letters of Katherine Mansfield)",
+      "publisherOrInstitution": "Constable & Co. — 존 미들턴 머리 편",
+      "citation": "체호프를 자기 단편의 기준으로 삼은 평생의 언급과 울프와의 교유가 기록된 1차 자료"
+    },
+    "src--borges-orlando-cuarto-propio-sur": {
+      "id": "src--borges-orlando-cuarto-propio-sur",
+      "title": "버지니아 울프 『자기만의 방』(1936)·『올랜도』(1937) 스페인어판, 보르헤스 옮김",
+      "publisherOrInstitution": "Editorial Sur, Buenos Aires",
+      "citation": "울프의 산문이 스페인어권에 들어온 초기 통로 — 번역 사실의 1차 서지"
+    },
+    "src--academia-brasileira-letras": {
+      "id": "src--academia-brasileira-letras",
+      "title": "Academia Brasileira de Letras — 회원 작가 공식 연보",
+      "publisherOrInstitution": "Academia Brasileira de Letras",
+      "url": "https://www.academia.org.br",
+      "citation": "브라질 문학 아카데미 회원 작가의 선출·취임·사망 일자와 저작 목록 확인용"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--garcia-marquez-vivir-para-contarla": {
+      "id": "src--garcia-marquez-vivir-para-contarla",
+      "title": "『이야기하기 위해 살다』 (Vivir para contarla, 2002)",
+      "publisherOrInstitution": "Editorial Norma / Mondadori — 가브리엘 가르시아 마르케스 자서전",
+      "citation": "1947년 보고타 하숙집에서 카프카 『변신』의 첫 문장을 읽은 밤과 그 직후의 습작, 그리고 포크너·울프 독서 이력을 저자 자신이 서술한 회고 — 초기 영향 관계의 1차 근거"
+    },
+    "src--morrison-cornell-thesis-1955": {
+      "id": "src--morrison-cornell-thesis-1955",
+      "title": "토니 모리슨 코넬 대학교 영문학 석사학위 논문 (1955)",
+      "publisherOrInstitution": "Cornell University",
+      "citation": "버지니아 울프와 윌리엄 포크너가 소외된 인물을 다루는 방식을 비교한 석사논문 — 모리슨이 두 작가를 학위 과정에서 정독한 명시적 기록. 논문의 정확한 표제 표기는 QC가 확인한다"
+    },
+    "src--le-guin-dancing-at-the-edge": {
+      "id": "src--le-guin-dancing-at-the-edge",
+      "title": "『세상 끝에서 춤추다』 (Dancing at the Edge of the World, 1989)",
+      "publisherOrInstitution": "Grove Press",
+      "citation": "「어부의 딸」을 포함한 르 귄의 강연·에세이 모음 — 버지니아 울프 『자기만의 방』의 논지를 이어받아 여성 작가의 조건과 문장의 리듬을 논한 저자 자신의 글"
+    },
+    "src--beauvoir-deuxieme-sexe-1949": {
+      "id": "src--beauvoir-deuxieme-sexe-1949",
+      "title": "『제2의 성』 초판 서지 (Gallimard, 1949, 전 2권)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "1949년에 『사실과 신화』·『체험』 두 권으로 나뉘어 나온 초판 — 발표 연도와 2권 구성 확인용"
+    }
+  }
+}

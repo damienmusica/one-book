@@ -1,0 +1,148 @@
+{
+  "id": "john-steinbeck",
+  "page": "https://literary-planet.pages.dev/authors/john-steinbeck/",
+  "author": {
+    "names": {
+      "ko": "존 스타인벡",
+      "original": "John Steinbeck",
+      "aliases": []
+    },
+    "birthYear": 1902,
+    "deathYear": 1968,
+    "activeRange": [
+      1929,
+      1968
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "대공황기 오클라호마 소작농의 이주를 직접 취재해, 신문 기사의 문체와 성서적 문체를 한 권 안에 나란히 붙여 놓았다. 『분노의 포도』는 조드 가족의 이야기 사이사이에 이주 전체를 다루는 짧은 삽입장을 규칙적으로 끼워 넣어, 한 가족의 사연과 수십만 명의 통계를 같은 리듬으로 읽게 만든다. 출간 직후 캘리포니아 농업 노동 정책 논쟁의 자료로 인용되고 컨 카운티에서는 금서가 되면서, 소설이 정책 현장으로 곧장 끌려 나온 사례가 되었다.",
+    "readingEntry": "john-steinbeck--of-mice-and-men",
+    "readingEntryReason": "희곡처럼 장면 단위로 짜인 100쪽 안팎의 중편이라 하루면 끝나고, 스타인벡이 평생 다룬 주제 — 땅을 갖지 못한 노동자와 그들 사이의 부양 관계 — 가 여기에 압축되어 있다.",
+    "readingOrder": [
+      "john-steinbeck--of-mice-and-men",
+      "john-steinbeck--cannery-row",
+      "john-steinbeck--the-grapes-of-wrath",
+      "john-steinbeck--east-of-eden"
+    ],
+    "readingWarning": "『에덴의 동쪽』으로 시작하면 두 가문 3대의 계보와 「창세기」 카인·아벨 구도를 동시에 따라가야 해서 초반이 무겁다. 중편에서 장편으로 가는 순서를 권한다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 사건은 평이하지만 『분노의 포도』의 삽입장이 서사를 규칙적으로 끊어 처음에는 리듬을 잃기 쉽고, 오클라호마 방언 대사가 길게 이어지는 구간에서 호흡이 달라진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--library-of-america"
+    ]
+  },
+  "works": [
+    {
+      "id": "john-steinbeck--cannery-row",
+      "titleKo": "통조림공장 골목",
+      "titleOriginal": "Cannery Row",
+      "year": 1945,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "몬터레이 정어리 공장 골목의 부랑자와 매춘부, 해양생물 채집상을 짧은 삽화의 연쇄로 엮었다. 고발보다 관찰을 앞세워 공동체를 그리는 스타인벡의 다른 얼굴을 보여준다.",
+      "sourceIds": []
+    },
+    {
+      "id": "john-steinbeck--east-of-eden",
+      "titleKo": "에덴의 동쪽",
+      "titleOriginal": "East of Eden",
+      "year": 1952,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "살리나스 계곡의 두 가문 3대를 카인과 아벨 구도로 겹쳐 놓은 장편. 소설이 히브리어라고 제시하는 단어 '팀셸(너는 할 수 있다)'의 해석을 소설의 결론 자리에 두어, 선택의 자유를 주제로 못 박는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "john-steinbeck--of-mice-and-men",
+      "titleKo": "생쥐와 인간",
+      "titleOriginal": "Of Mice and Men",
+      "year": 1937,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "캘리포니아 농장을 떠도는 두 일꾼의 며칠을 장면 단위로만 서술한 중편. 무대에 그대로 올릴 수 있게 설계되어 같은 해 희곡으로도 공연되었고, 스타인벡의 주제가 가장 적은 분량에 담긴 형태다.",
+      "sourceIds": []
+    },
+    {
+      "id": "john-steinbeck--the-grapes-of-wrath",
+      "titleKo": "분노의 포도",
+      "titleOriginal": "The Grapes of Wrath",
+      "year": 1939,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "먼지폭풍에 밀려난 조드 가족의 캘리포니아 이주를, 이주 전체를 다루는 삽입장과 번갈아 배치해 서술한다. 출간 직후 농업 노동 논쟁의 자료가 되었고 일부 카운티에서 금서 처분을 받았다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--john-steinbeck--chairil-anwar",
+      "type": "translation",
+      "from": "john-steinbeck (존 스타인벡)",
+      "to": "chairil-anwar (차이릴 안와르)",
+      "evidenceLevel": "documented",
+      "summary": "차이릴 안와르는 스타인벡의 단편 「The Raid」를 인도네시아어 「Kena Gempur」로 옮겼다. 1947년 2월 1일 잡지 『Pantja Raja』에 실렸고, H. B. Jassin의 『Chairil Anwar: Pelopor Angkatan 45』가 그의 번역 목록에 이 작품을 올려 놓았다.",
+      "sourceIds": [
+        "src--jassin-chairil-anwar-pelopor"
+      ]
+    },
+    {
+      "id": "influence--walt-whitman--john-steinbeck",
+      "type": "documented_influence",
+      "from": "walt-whitman (월트 휘트먼)",
+      "to": "john-steinbeck (존 스타인벡)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "미국 문학 연구의 스타인벡 비평은 프레더릭 카펜터의 「철학하는 조드 일가」(College English, 1941) 이래, 짐 케이시의 설교와 『분노의 포도』의 집단 인간 관념을 에머슨·휘트먼의 초월주의 계보가 소설로 옮겨 온 자리로 읽어 왔다.",
+      "sourceIds": [
+        "src--carpenter-philosophical-joads-1941"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--jassin-chairil-anwar-pelopor": {
+      "id": "src--jassin-chairil-anwar-pelopor",
+      "title": "Chairil Anwar: Pelopor Angkatan 45",
+      "publisherOrInstitution": "H. B. Jassin / Gunung Agung",
+      "citation": "차이릴 안와르의 시·번역 목록과 그가 네덜란드어로 읽은 유럽 시인들을 정리한 표준 연구서. 번역 작업과 매클리시 논쟁의 1차 정리."
+    },
+    "src--carpenter-philosophical-joads-1941": {
+      "id": "src--carpenter-philosophical-joads-1941",
+      "title": "The Philosophical Joads",
+      "publisherOrInstitution": "College English, 제2권 (1941)",
+      "citation": "프레더릭 I. 카펜터의 논문. 짐 케이시의 설교를 에머슨의 대령(大靈)과 휘트먼의 민주적 사랑, 듀이의 실용주의가 합류한 자리로 읽은 고전적 독법"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "arthur-conan-doyle",
+  "page": "https://literary-planet.pages.dev/authors/arthur-conan-doyle/",
+  "author": {
+    "names": {
+      "ko": "아서 코넌 도일",
+      "original": "Arthur Conan Doyle",
+      "aliases": [
+        "코난 도일"
+      ]
+    },
+    "birthYear": 1859,
+    "deathYear": 1930,
+    "activeRange": [
+      1887,
+      1930
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "관찰과 추론만으로 사건을 푸는 탐정을 세워 추리소설의 문법을 굳혔고, 잡지 연재를 같은 주인공의 독립된 단편들로 묶는 방식을 대량 판매 잡지에서 관철시켰다. 《스트랜드》에 매달 한 편씩 완결되는 홈즈 단편을 실으면서, 독자가 다음 호를 사게 만드는 것은 이어지는 줄거리가 아니라 되돌아오는 인물이라는 사실을 잡지 산업에 증명했다. 그 결과 홈즈는 작가가 라이헨바흐 폭포에서 죽인 뒤 독자의 항의에 밀려 되살려야 했던, 저자의 통제를 벗어난 인물이 되었다.",
+    "readingEntry": "arthur-conan-doyle--the-adventures-of-sherlock-holmes",
+    "readingEntryReason": "단편 열두 편 묶음이라 어디서 멈춰도 되고, 홈즈와 왓슨의 관계와 추론의 규칙이 첫 편 「보헤미아 왕국 스캔들」 하나에 다 드러난다.",
+    "readingOrder": [
+      "arthur-conan-doyle--the-adventures-of-sherlock-holmes",
+      "arthur-conan-doyle--the-hound-of-the-baskervilles",
+      "arthur-conan-doyle--a-study-in-scarlet",
+      "arthur-conan-doyle--the-lost-world"
+    ],
+    "readingWarning": "『주홍색 연구』로 시작하면 2부의 앞 다섯 장이 홈즈도 왓슨도 나오지 않는 유타의 모르몬 서사로 넘어가, 첫 독자에게는 책이 두 동강 난 것처럼 읽힌다. 왓슨의 서술과 홈즈의 해설은 2부 6~7장에서야 돌아오므로, 단편집을 먼저 읽고 오는 편이 낫다.",
+    "difficulty": 1,
+    "difficultyReason": "문장이 짧고 사건이 의뢰–관찰–해답의 순서로 정연히 진행되어 배경지식 없이 읽힌다. 걸리는 것은 빅토리아 시대 런던의 지명과 직업·화폐 단위 정도이고 대개 각주로 해결된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "arthur-conan-doyle--the-lost-world",
+      "titleKo": "잃어버린 세계",
+      "titleOriginal": "The Lost World",
+      "year": 1912,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "챌린저 교수를 앞세워 남미 고원의 공룡 생존지를 탐사하는 모험 소설. '잃어버린 세계'라는 하위 장르의 이름이 이 작품의 제목에서 나왔고, 홈즈 바깥의 도일을 보여준다.",
+      "sourceIds": []
+    },
+    {
+      "id": "arthur-conan-doyle--a-study-in-scarlet",
+      "titleKo": "주홍색 연구",
+      "titleOriginal": "A Study in Scarlet",
+      "year": 1887,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "홈즈와 왓슨이 만나는 장편. 왓슨이 홈즈를 포의 뒤팽에 견주자 홈즈가 뒤팽을 깎아내리는 대목이 있어, 이 인물이 어느 계보에서 나왔는지가 작품 안에서 명시된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "arthur-conan-doyle--the-adventures-of-sherlock-holmes",
+      "titleKo": "셜록 홈즈의 모험",
+      "titleOriginal": "The Adventures of Sherlock Holmes",
+      "year": 1892,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "《스트랜드》 연재 단편 열두 편을 묶은 책. 매 편이 독립적으로 완결되면서 같은 인물이 다음 호에 돌아오는 구성으로, 이후 잡지 연재물과 시리즈물의 표준 형식이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "arthur-conan-doyle--the-hound-of-the-baskervilles",
+      "titleKo": "바스커빌 가의 개",
+      "titleOriginal": "The Hound of the Baskervilles",
+      "year": 1902,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "홈즈가 죽은 것으로 되어 있던 시기에 라이헨바흐 이전의 사건으로 설정해 연재한 장편이며, 홈즈의 생환은 뒤이은 「빈 집의 모험」(1903)에서 서술된다. 황무지의 전설과 물증에 의한 해답을 정면으로 맞붙여, 초자연으로 보이던 사건이 인과로 환원되는 구조를 가장 넓은 무대에서 보여준다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--edgar-allan-poe--arthur-conan-doyle",
+      "type": "documented_influence",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "arthur-conan-doyle (아서 코넌 도일)",
+      "evidenceLevel": "documented",
+      "summary": "코넌 도일은 『마법의 문을 지나』(1907)에서 포를 단편의 스승으로 꼽았고, 『주홍색 연구』(1887) 1부 2장 본문에서는 홈스가 뒤팽을 깎아내리게 함으로써 자신이 무엇을 이어받았는지 작품 안에 새겼다.",
+      "sourceIds": [
+        "src--doyle-through-the-magic-door-1907"
+      ]
+    },
+    {
+      "id": "influence--arthur-conan-doyle--agatha-christie",
+      "type": "documented_influence",
+      "from": "arthur-conan-doyle (아서 코넌 도일)",
+      "to": "agatha-christie (애거사 크리스티)",
+      "evidenceLevel": "documented",
+      "summary": "크리스티는 『자서전』(1977)에서 푸아로와 헤이스팅스라는 두 인물에게 묶여 버린 시절을 돌아보며 '여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰(잽 경감)'이라고 적었다. 화자 헤이스팅스가 왓슨의 자리에 놓인 것도 이 계보에서 나왔다.",
+      "sourceIds": [
+        "src--christie-an-autobiography"
+      ]
+    },
+    {
+      "id": "influence--arthur-conan-doyle--umberto-eco",
+      "type": "documented_influence",
+      "from": "arthur-conan-doyle (아서 코넌 도일)",
+      "to": "umberto-eco (움베르토 에코)",
+      "evidenceLevel": "documented",
+      "summary": "에코는 세벅과 함께 엮은 『셋의 기호: 뒤팽, 홈즈, 퍼스』(Indiana University Press, 1983)에서 홈즈의 추론을 퍼스의 가추법으로 분석했고, 『장미의 이름』(1980)의 수도사 탐정에게 '바스커빌의 윌리엄'이라는 이름을 붙였다.",
+      "sourceIds": [
+        "src--eco-sebeok-sign-of-three-1984"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--doyle-through-the-magic-door-1907": {
+      "id": "src--doyle-through-the-magic-door-1907",
+      "title": "Through the Magic Door (1907)",
+      "publisherOrInstitution": "Arthur Conan Doyle / Smith, Elder & Co.",
+      "citation": "코넌 도일이 자기 서가를 순회하며 쓴 독서 에세이 — 포를 단편의 스승으로 꼽은 대목이 들어 있다"
+    },
+    "src--christie-an-autobiography": {
+      "id": "src--christie-an-autobiography",
+      "title": "An Autobiography",
+      "publisherOrInstitution": "Collins (Agatha Christie 자서전, 1977)",
+      "citation": "초기작을 두고 '나는 여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰'이라고 적은 대목 — 도일 영향의 1차 근거"
+    },
+    "src--eco-sebeok-sign-of-three-1984": {
+      "id": "src--eco-sebeok-sign-of-three-1984",
+      "title": "The Sign of Three: Dupin, Holmes, Peirce (1983)",
+      "publisherOrInstitution": "Umberto Eco·Thomas A. Sebeok 편, Indiana University Press, Bloomington, 1983",
+      "citation": "포의 뒤팽과 도일의 홈즈가 쓰는 추론을 퍼스의 가추법으로 분석한 논문 모음(초판 1983, Midland 페이퍼백 1988). 에코가 공동 편자이자 필자"
+    }
+  }
+}

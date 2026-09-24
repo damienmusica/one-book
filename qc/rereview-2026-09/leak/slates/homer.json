@@ -1,0 +1,176 @@
+{
+  "id": "homer",
+  "page": "https://literary-planet.pages.dev/authors/homer/",
+  "author": {
+    "names": {
+      "ko": "호메로스",
+      "original": "Ὅμηρος",
+      "aliases": [
+        "호머"
+      ]
+    },
+    "activeRange": [
+      -750,
+      -700
+    ],
+    "languages": [
+      "grc"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "epic",
+      "poetry"
+    ],
+    "importanceReason": "구술로 떠돌던 영웅 노래를 『일리아스』와 『오디세이아』라는 두 편의 긴 서사로 붙들어, 분노 하나와 귀향 하나에 각각 이야기 전체를 걸었다. 정형 수식어구와 확장 직유로 짜인 이 운율 체계는 서양 문학이 영웅·신·죽음·귀향을 다루는 어휘가 되었고, 베르길리우스의 『아이네이스』에서 조이스의 『율리시스』와 월컷의 『오메로스』에 이르기까지 자기 시대의 서사를 다시 세우려는 작가들이 되돌아가는 좌표로 남았다.",
+    "readingEntry": "homer--odysseia",
+    "readingEntryReason": "귀향이라는 단일한 목표가 처음부터 끝까지 이야기를 끌고 가고 삽화 하나하나가 독립적으로 완결되어, 서사시의 리듬에 적응하기에 가장 부담이 적다.",
+    "readingOrder": [
+      "homer--odysseia",
+      "homer--ilias",
+      "homer--hymnoi-homerikoi"
+    ],
+    "readingWarning": "『일리아스』부터 시작하면 2권의 '선박 목록'에서 수백 행의 지명·인명 나열을 만나 대개 그 자리에서 멈춘다. 『오디세이아』로 서사시의 문법에 익숙해진 뒤 넘어가는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 어렵지 않지만 정형 수식어·인물 목록·확장 직유의 반복이 현대의 독서 리듬과 다르고, 신들의 계보와 인명 수가 많아 초반에는 계보도를 옆에 두어야 한다. 번역본이 운문이냐 산문이냐에 따라 체감 난도가 크게 달라진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "homer--hymnoi-homerikoi",
+      "titleKo": "호메로스 찬가",
+      "titleOriginal": "Ὁμηρικοὶ Ὕμνοι",
+      "year": -700,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "데메테르·아폴론·헤르메스·아프로디테 등에게 바친 33편의 운문 찬가로, 서사시와 같은 육보격과 정형구를 쓴다. 전승은 호메로스에게 귀속시켰으나 오늘날 학계는 같은 운율 전통 안의 여러 시인의 작품으로 본다.",
+      "sourceIds": []
+    },
+    {
+      "id": "homer--ilias",
+      "titleKo": "일리아스",
+      "titleOriginal": "Ἰλιάς",
+      "year": -750,
+      "yearBasis": "composition-range",
+      "genre": "epic",
+      "significance": "10년 전쟁 가운데 아킬레우스의 분노가 이어진 쉰 날 남짓을 잘라내 24권으로 펼친 서사시. 전투 묘사와 확장 직유, 신들의 개입이 교차하다가 헥토르의 시신을 돌려주는 마지막 권에서 분노가 풀린다.",
+      "sourceIds": []
+    },
+    {
+      "id": "homer--odysseia",
+      "titleKo": "오디세이아",
+      "titleOriginal": "Ὀδύσσεια",
+      "year": -750,
+      "yearBasis": "composition-range",
+      "genre": "epic",
+      "significance": "귀향에 스무 해가 걸린 한 인간의 여정을 시간 순서가 아니라 회상과 액자 구성으로 배치한 서사시. 괴물과 마녀의 삽화들이 결국 이타케의 집과 침대라는 사적인 장소로 수렴한다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--homer--virgil",
+      "type": "documented_influence",
+      "from": "homer (호메로스)",
+      "to": "virgil (베르길리우스)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『아이네이스』 전반부의 방랑과 후반부의 전쟁이 『오디세이아』와 『일리아스』에 각각 대응한다는 것은 고전문헌학의 표준적 독해이고, 베르길리우스가 호메로스에게서 빌려 온 대목은 일찍이 마크로비우스가 『사투르날리아』에서 하나하나 대조했다.",
+      "sourceIds": [
+        "src--macrobius-saturnalia",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "influence--homer--james-joyce",
+      "type": "documented_influence",
+      "from": "homer (호메로스)",
+      "to": "james-joyce (제임스 조이스)",
+      "evidenceLevel": "documented",
+      "summary": "조이스는 『율리시스』의 각 삽화를 『오디세이아』의 장면·기관·기법에 대응시킨 도표(리나티 도식, 길버트 도식)를 직접 작성해 친구들에게 돌렸고, 엘먼의 전기가 그 유통 경위를 기록하고 있다.",
+      "sourceIds": [
+        "src--ellmann-james-joyce"
+      ]
+    },
+    {
+      "id": "influence--homer--derek-walcott",
+      "type": "documented_influence",
+      "from": "homer (호메로스)",
+      "to": "derek-walcott (데릭 월컷)",
+      "evidenceLevel": "documented",
+      "summary": "월컷은 『오메로스』(1990)에서 아킬·헥토르·헬렌이라는 호메로스의 이름을 세인트루시아의 어부와 하녀에게 옮겨 놓았고, 노벨 강연 「앤틸리스: 서사적 기억의 파편들」(1992)에서 카리브해의 서사시적 기억이라는 주제를 다뤘다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "influence--homer--sophocles",
+      "type": "documented_influence",
+      "from": "homer (호메로스)",
+      "to": "sophocles (소포클레스)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "고대부터 소포클레스와 호메로스의 계보가 논의된 이래, 고전문헌학은 그의 극이 서사시의 소재와 어법을 무대 형식으로 옮긴 과정을 다뤄 왔다. 리처드 가너의 『호메로스에서 비극으로: 그리스 시의 인유 기법』이 그 표준 연구로, 아이스킬로스·소포클레스·에우리피데스가 호메로스를 인유하는 방식과 그리스 교육에서 호메로스가 차지한 자리를 함께 분석한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--garner-homer-to-tragedy"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--macrobius-saturnalia": {
+      "id": "src--macrobius-saturnalia",
+      "title": "사투르날리아 (Saturnalia)",
+      "publisherOrInstitution": "마크로비우스, 5세기",
+      "citation": "베르길리우스가 호메로스에게서 가져온 대목을 권별로 대조한 고대 주석 — 호메로스→베르길리우스 계보의 가장 오래된 정리"
+    },
+    "src--ellmann-james-joyce": {
+      "id": "src--ellmann-james-joyce",
+      "title": "James Joyce (1959, 개정판 1982)",
+      "publisherOrInstitution": "Oxford University Press — Richard Ellmann",
+      "citation": "조이스 표준 전기 — 1902년 예이츠와의 첫 만남, 예이츠의 소개와 문학기금 주선, 1932년 아일랜드 문예 아카데미 초청과 거절 등 인적 관계의 표준 근거"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--garner-homer-to-tragedy": {
+      "id": "src--garner-homer-to-tragedy",
+      "title": "From Homer to Tragedy: The Art of Allusion in Greek Poetry",
+      "publisherOrInstitution": "Routledge",
+      "citation": "Richard Garner, From Homer to Tragedy: The Art of Allusion in Greek Poetry, London and New York: Routledge, 1990."
+    }
+  }
+}

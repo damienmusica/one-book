@@ -1,0 +1,437 @@
+{
+  "plate": {
+    "id": "jd-salinger",
+    "importanceReason": "퇴학당한 열여섯 살 홀든 콜필드의 구어와 냉소를 그대로 일인칭 화자의 목소리로 삼아 청소년기의 소외를 그렸다. 『호밀밭의 파수꾼』(1951) 이후 세대마다 이 소설을 제 식으로 다시 쓴 작품이 나와 하나의 장르처럼 이어졌다. 1948년부터는 거의 『뉴요커』에만 발표하며 설명을 아끼고 간결한 대화와 말하지 않은 것으로 긴장을 만드는 단편을 썼고, 일곱 남매를 둔 글래스 가족을 여러 편에 걸쳐 쌓아 가는 연작으로 옮겨 갔다. 1965년 『뉴요커』에 실린 중편이 마지막 발표작이다.",
+    "genres": [
+      "fiction"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "문장은 십대의 구어라 막힘이 없다. 어려움은 홀든의 허세 섞인 말투 밑에 깔린 상실, 곧 세상을 떠난 동생 앨리를 읽어 내는 데 있다. 글래스 가족 연작으로 넘어가면 이야기가 길어지고 줄거리가 줄며 여담과 괄호가 늘어 집중해서 읽어야 한다.",
+    "works": [
+      {
+        "id": "jd-salinger--the-catcher-in-the-rye",
+        "titleKo": "호밀밭의 파수꾼",
+        "titleOriginal": "The Catcher in the Rye",
+        "year": 1951,
+        "genre": "fiction",
+        "significance": "명문 사립 예비학교에서 네 번째로 퇴학당한 열여섯 살 홀든 콜필드가 집에 돌아가기 전 뉴욕에서 보낸 며칠을 스스로 털어놓는 장편. 어른 세계의 ‘가짜’를 향한 냉소와, 통찰력 있지만 믿을 수 없는 화자의 자기모순이 한 목소리 안에서 함께 움직인다."
+      },
+      {
+        "id": "jd-salinger--nine-stories",
+        "titleKo": "아홉 가지 이야기",
+        "titleOriginal": "Nine Stories",
+        "year": 1953,
+        "genre": "fiction",
+        "significance": "『뉴요커』에 실린 일곱 편과 이 잡지가 거절한 두 편을 묶은 단편집. 첫 편 「A Perfect Day for Bananafish」(1948)는 글래스 가족이 처음 등장한 작품이고, 설명을 아끼고 대화와 침묵으로 긴장을 쌓는 샐린저 단편의 방법이 이 책에 모여 있다."
+      },
+      {
+        "id": "jd-salinger--franny-and-zooey",
+        "titleKo": "프래니와 주이",
+        "titleOriginal": "Franny and Zooey",
+        "year": 1961,
+        "genre": "fiction",
+        "significance": "글래스 가의 막내 프래니가 주변의 이기심과 허위에 지쳐 러시아 순례자의 책에서 배운 ‘예수 기도’에 매달리다 무너지고, 배우인 오빠 주이가 부모의 아파트에서 긴 대화로 그녀를 붙든다. 1955년과 1957년 『뉴요커』에 실린 두 편을 1961년 한 권으로 묶었다."
+      },
+      {
+        "id": "jd-salinger--raise-high-the-roof-beam-carpenters-and-seymour-an-introduction",
+        "titleKo": "목수들아, 대들보를 높이 올려라",
+        "titleOriginal": "Raise High the Roof Beam, Carpenters and Seymour: An Introduction",
+        "year": 1963,
+        "genre": "fiction",
+        "significance": "둘째 버디 글래스가 화자로, 1942년 자기 결혼식에 나타나지 않은 형 시모어를 하객들의 말을 통해 비추는 중편(1955)과, 1948년에 스스로 목숨을 끊은 시모어를 독자에게 소개하려는 의식의 흐름식 중편 「Seymour: An Introduction」(1959)을 묶어 1963년 처음 책으로 냈다."
+      }
+    ],
+    "readingEntry": "jd-salinger--the-catcher-in-the-rye",
+    "readingEntryReason": "퇴학당한 소년이 집에 돌아가기 전 며칠을 한 사람의 목소리로 따라가는 단선 구조라 배경지식 없이 읽히고, 320쪽 남짓이다. 지금 서점에서 구할 수 있는 민음사 세계문학전집판(정영목 옮김, 2023)으로 시작하면 된다.",
+    "readingOrder": [
+      "jd-salinger--the-catcher-in-the-rye",
+      "jd-salinger--nine-stories",
+      "jd-salinger--franny-and-zooey",
+      "jd-salinger--raise-high-the-roof-beam-carpenters-and-seymour-an-introduction"
+    ],
+    "readingWarning": "『목수들아, 대들보를 높이 올려라』의 뒤쪽 중편 「Seymour: An Introduction」부터 읽으면, 화자가 죽은 형을 소개하려다 여담으로 계속 비껴가는 형식 때문에 샐린저를 줄거리 없는 작가로 오해하기 쉽다. 글래스 가족은 『아홉 가지 이야기』의 첫 단편에서 만나는 편이 낫다.",
+    "sourceIds": [
+      "src--menand-holden-at-fifty-2001",
+      "src--hamilton-in-search-of-salinger-1988",
+      "src--minumsa-catcher-jeong-young-mok-2023",
+      "src--kr-world-lit-editions"
+    ],
+    "newSources": [
+      {
+        "id": "src--menand-holden-at-fifty-2001",
+        "title": "Louis Menand, 「Holden at Fifty」",
+        "publisherOrInstitution": "The New Yorker",
+        "citation": "2001년 10월 1일 호. 『호밀밭의 파수꾼』의 ‘다시 쓰기’가 하나의 장르가 되었고 샐린저가 『뉴요커』의 단편 미학을 바꿨다는 평론.",
+        "url": "https://www.newyorker.com/magazine/2001/10/01/holden-at-fifty"
+      },
+      {
+        "id": "src--hamilton-in-search-of-salinger-1988",
+        "title": "Ian Hamilton, 『In Search of J. D. Salinger』 (1988)",
+        "publisherOrInstitution": "Random House",
+        "citation": "53·64쪽 — 1940년대 편지에서 샐린저가 셔우드 앤더슨·링 라드너·F. 스콧 피츠제럴드를 높이 샀고 한동안 자신을 ‘피츠제럴드의 후계자’로 여겼다는 서술. 『뉴요커』 편집을 거친 뒤의 ‘spare, teasingly mysterious, withheld’ 문체에 대한 평가."
+      },
+      {
+        "id": "src--salinger-seymour-an-introduction-new-yorker-1959",
+        "title": "J. D. Salinger, 「Seymour: An Introduction」",
+        "publisherOrInstitution": "The New Yorker",
+        "citation": "1959년 6월 6일 호. 첫머리 제사 두 개 가운데 첫째가 카프카의 문장이고, 화자 버디 글래스가 본문에서 그 출처를 카프카라고 밝힌다 — 카프카→샐린저 영향의 1차 근거.",
+        "url": "https://www.newyorker.com/magazine/1959/06/06/seymour-an-introduction"
+      },
+      {
+        "id": "src--maxwell-bomc-news-salinger-1951",
+        "title": "William Maxwell, J. D. Salinger 인물평 (Book-of-the-Month Club News, 1951년 7월)",
+        "publisherOrInstitution": "Book-of-the-Month Club",
+        "citation": "문학적 영향을 묻는 맥스웰에게 샐린저가 ‘사랑하는 작가’로 카프카·플로베르·톨스토이·체호프·도스토옙스키·프루스트 등을 꼽은 대목. Al Silverman 편 『The Book of the Month: Sixty Years of Books in American Life』(Little, Brown, 1986), 129–130쪽 재수록."
+      },
+      {
+        "id": "src--baker-hemingway-life-story-1969",
+        "title": "Carlos Baker, 『Ernest Hemingway: A Life Story』 (1969)",
+        "publisherOrInstitution": "Charles Scribner's Sons",
+        "citation": "420쪽 — 전쟁 중 샐린저와 헤밍웨이의 만남, 그리고 1946년 7월 샐린저가 헤밍웨이에게 보낸 편지(그와의 대화가 전쟁에서 몇 안 되는 희망의 순간이었다는 내용)."
+      },
+      {
+        "id": "src--murakami-trans-catcher-hakusuisha-2003",
+        "title": "J.D.サリンジャー 『キャッチャー・イン・ザ・ライ』 村上春樹 訳",
+        "publisherOrInstitution": "白水社",
+        "citation": "2003년 4월, 353쪽, ISBN 4-560-04764-2. 국립국회도서관 서지 ID 000004087530 — 샐린저→무라카미 번역 관계의 1차 근거.",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004087530"
+      },
+      {
+        "id": "src--murakami-trans-franny-zooey-shinchosha-2014",
+        "title": "サリンジャー 『フラニーとズーイ』 村上春樹 訳 (新潮文庫)",
+        "publisherOrInstitution": "新潮社",
+        "citation": "2014년 3월, ISBN 978-4-10-205704-9. 국립국회도서관 서지 ID 025257856. 새 번역, 역자 에세이 별지 수록.",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025257856"
+      },
+      {
+        "id": "src--murakami-shibata-salinger-senki-2003",
+        "title": "村上春樹·柴田元幸 『サリンジャー戦記』 (文春新書 翻訳夜話 2)",
+        "publisherOrInstitution": "文藝春秋",
+        "citation": "2003년 7월. 『キャッチャー・イン・ザ・ライ』를 새로 옮긴 무라카미 하루키가 번역가 시바타 모토유키와 이 소설을 두고 이야기한 책.",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004189173"
+      },
+      {
+        "id": "src--minumsa-catcher-jeong-young-mok-2023",
+        "title": "J. D. 샐린저, 『호밀밭의 파수꾼』 정영목 옮김 (민음사 세계문학전집 47)",
+        "publisherOrInstitution": "민음사",
+        "citation": "2023년 1월 17일 발행, 320쪽, ISBN 978-89-374-6047-0.",
+        "url": "https://minumsa.minumsa.com/book/1716/"
+      }
+    ],
+    "relations": [
+      {
+        "type": "translation",
+        "sourceId": "jd-salinger",
+        "targetId": "haruki-murakami",
+        "evidenceLevel": "documented",
+        "summary": "무라카미 하루키는 『호밀밭의 파수꾼』을 새로 옮긴 『キャッチャー・イン・ザ・ライ』(白水社, 2003)와 『프래니와 주이』의 새 번역 『フラニーとズーイ』(新潮文庫, 2014)를 냈다. 2003년에는 번역가 시바타 모토유키와 이 소설을 두고 이야기한 『サリンジャー戦記』(文春新書)도 함께 펴냈다.",
+        "weight": 0.9,
+        "sourceIds": [
+          "src--murakami-trans-catcher-hakusuisha-2003",
+          "src--murakami-trans-franny-zooey-shinchosha-2014",
+          "src--murakami-shibata-salinger-senki-2003"
+        ]
+      },
+      {
+        "type": "documented_influence",
+        "sourceId": "franz-kafka",
+        "targetId": "jd-salinger",
+        "evidenceLevel": "documented",
+        "summary": "샐린저는 1951년 『Book-of-the-Month Club News』에 실린 윌리엄 맥스웰의 인물평에서 사랑하는 작가를 꼽으며 카프카를 맨 앞에 두었고, 중편 「Seymour: An Introduction」(『뉴요커』, 1959)의 첫 제사로 카프카의 문장을 올렸다.",
+        "weight": 0.8,
+        "sourceIds": [
+          "src--maxwell-bomc-news-salinger-1951",
+          "src--salinger-seymour-an-introduction-new-yorker-1959"
+        ]
+      },
+      {
+        "type": "dialogue",
+        "sourceId": "ernest-hemingway",
+        "targetId": "jd-salinger",
+        "evidenceLevel": "documented",
+        "summary": "샐린저는 제2차 세계대전 중 파리에서 종군기자로 일하던 헤밍웨이를 찾아가 만났고, 이후 둘은 편지를 주고받았다. 카를로스 베이커의 전기 『Ernest Hemingway: A Life Story』(1969)는 1946년 7월 샐린저가 헤밍웨이에게 그와 나눈 대화가 전쟁에서 몇 안 되는 좋은 기억이었다고 쓴 편지를 전한다.",
+        "weight": 0.75,
+        "sourceIds": [
+          "src--baker-hemingway-life-story-1969"
+        ]
+      },
+      {
+        "type": "documented_influence",
+        "sourceId": "f-scott-fitzgerald",
+        "targetId": "jd-salinger",
+        "evidenceLevel": "documented",
+        "summary": "샐린저는 1940년대 편지들에서 셔우드 앤더슨·링 라드너와 함께 피츠제럴드를 높이 샀다. 전기 작가 이언 해밀턴은 『In Search of J. D. Salinger』(1988)에서 그가 한동안 자신을 ‘피츠제럴드의 후계자’로 여겼다고 썼다.",
+        "weight": 0.7,
+        "sourceIds": [
+          "src--hamilton-in-search-of-salinger-1988"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "field": "plate.importanceReason",
+      "claim": "『호밀밭의 파수꾼』은 청소년기의 소외를 그렸다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "Salinger's depiction of adolescent alienation and loss of innocence was influential, especially among adolescent readers."
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "세대마다 『호밀밭의 파수꾼』을 다시 쓴 작품이 하나의 장르처럼 이어졌다",
+      "url": "https://www.newyorker.com/magazine/2001/10/01/holden-at-fifty",
+      "quote": "rewrites, a literary genre all its own"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "1948년 「A Perfect Day for Bananafish」 이후 거의 『뉴요커』에만 발표했다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "led him to publish almost exclusively in The New Yorker"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "설명을 아끼고 간결한 대화와 말하지 않은 것으로 긴장을 만드는 단편",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "to refine his writing into the \"spare, teasingly mysterious, withheld\" qualities of \"A Perfect Day for Bananafish\" (1948)"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "간결한 대화가 그의 작품의 두드러진 특징으로 꼽혔다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "Salinger's language, especially his energetic, realistically sparse dialogue, was revolutionary at the time his first stories were published"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "일곱 남매를 둔 글래스 가족을 여러 편에 걸쳐 쌓았다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "Salinger published seven stories about the Glasses, developing a detailed family history"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "1965년 『뉴요커』에 실린 중편이 마지막 발표작",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "Salinger's last published work, the novella Hapworth 16, 1924, appeared in The New Yorker on June 19, 1965."
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "샐린저는 『뉴요커』의 단편 미학을 바꿨다",
+      "url": "https://www.newyorker.com/magazine/2001/10/01/holden-at-fifty",
+      "quote": "Salinger changed The New Yorker’s aesthetic"
+    },
+    {
+      "field": "plate.works[jd-salinger--the-catcher-in-the-rye].year",
+      "claim": "『호밀밭의 파수꾼』 1951년 7월 16일 리틀 브라운 출간",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "Little, Brown and Company published The Catcher in the Rye on July 16, 1951."
+    },
+    {
+      "field": "plate.works[jd-salinger--the-catcher-in-the-rye].significance",
+      "claim": "네 번째 퇴학 뒤 열여섯 살 홀든이 뉴욕에서 보낸 며칠",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "detailing 16-year-old Holden's experiences in New York City after his fourth expulsion and departure from an elite college preparatory school."
+    },
+    {
+      "field": "plate.works[jd-salinger--the-catcher-in-the-rye].significance",
+      "claim": "어른 세계의 ‘가짜’를 향한 냉소, 통찰력 있지만 믿을 수 없는 화자",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "He serves as an insightful but unreliable narrator who expounds on the importance of loyalty, the \"phoniness\" of adulthood, and his own duplicity."
+    },
+    {
+      "field": "plate.works[jd-salinger--nine-stories].year",
+      "claim": "『아홉 가지 이야기』 1953년 4월 출간",
+      "url": "https://en.wikipedia.org/wiki/Nine_Stories_(Salinger)",
+      "quote": "Nine Stories is a collection of short stories by American fiction writer J. D. Salinger published in April 1953."
+    },
+    {
+      "field": "plate.works[jd-salinger--nine-stories].significance",
+      "claim": "『뉴요커』에 실린 일곱 편과 거절된 두 편",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "In 1953, Salinger published a collection of seven stories from The New Yorker (including \"Bananafish\"), as well as two the magazine had rejected."
+    },
+    {
+      "field": "plate.works[jd-salinger--nine-stories].significance",
+      "claim": "「A Perfect Day for Bananafish」는 글래스 가족이 처음 등장한 작품",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "\"Bananafish\" was also the first of Salinger's published stories to feature the Glasses"
+    },
+    {
+      "field": "plate.works[jd-salinger--nine-stories].significance",
+      "claim": "「A Perfect Day for Bananafish」는 1948년 1월 31일 호 『뉴요커』에 실렸다",
+      "url": "https://www.newyorker.com/magazine/1948/01/31/a-perfect-day-for-bananafish",
+      "quote": "Published in the print edition of the January 31, 1948, issue."
+    },
+    {
+      "field": "plate.works[jd-salinger--nine-stories].significance",
+      "claim": "설명을 아끼고 대화와 침묵으로 긴장을 쌓는 방법이 이 시기 단편에 모여 있다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "qualities of \"A Perfect Day for Bananafish\" (1948), The Catcher in the Rye, and his stories of the early 1950s."
+    },
+    {
+      "field": "plate.works[jd-salinger--franny-and-zooey].year",
+      "claim": "1961년 한 권으로 묶였고 1955·1957년 『뉴요커』 발표",
+      "url": "https://en.wikipedia.org/wiki/Franny_and_Zooey",
+      "quote": "The two works were published together as a book in 1961, having originally appeared in The New Yorker in 1955 and 1957 respectively."
+    },
+    {
+      "field": "plate.works[jd-salinger--franny-and-zooey].significance",
+      "claim": "프래니는 이기심과 허위에 지쳐 영적인 길로 벗어나려 한다",
+      "url": "https://en.wikipedia.org/wiki/Franny_and_Zooey",
+      "quote": "Disenchanted with the selfishness and inauthenticity she perceives all around her, she aims to escape it through spiritual means."
+    },
+    {
+      "field": "plate.works[jd-salinger--franny-and-zooey].significance",
+      "claim": "러시아 순례자의 책에서 배운 예수 기도",
+      "url": "https://en.wikipedia.org/wiki/Franny_and_Zooey",
+      "quote": "She explains that the book is titled The Way of a Pilgrim and tells the story of how a Russian wanderer learns the power of \"praying without ceasing\"."
+    },
+    {
+      "field": "plate.works[jd-salinger--franny-and-zooey].significance",
+      "claim": "배우인 오빠 주이가 부모의 아파트에서 프래니를 돕는다",
+      "url": "https://en.wikipedia.org/wiki/Franny_and_Zooey",
+      "quote": "While actor Zooey's younger sister Franny suffers a spiritual and existential breakdown in their parents' Manhattan living room"
+    },
+    {
+      "field": "plate.works[jd-salinger--raise-high-the-roof-beam-carpenters-and-seymour-an-introduction].year",
+      "claim": "1955·1959년 『뉴요커』 발표, 1963년 리틀 브라운에서 처음 책으로",
+      "url": "https://en.wikipedia.org/wiki/Raise_High_the_Roof_Beam,_Carpenters_and_Seymour:_An_Introduction",
+      "quote": "Little, Brown republished them in this anthology in 1963. It was the first time the novellas had appeared in book form."
+    },
+    {
+      "field": "plate.works[jd-salinger--raise-high-the-roof-beam-carpenters-and-seymour-an-introduction].significance",
+      "claim": "버디가 화자, 1942년 결혼식에 시모어가 나타나지 않는다",
+      "url": "https://en.wikipedia.org/wiki/Raise_High_the_Roof_Beam,_Carpenters_and_Seymour:_An_Introduction",
+      "quote": "It describes Buddy's visit on Army leave (during World War II, in 1942) to attend the wedding of his brother Seymour to Muriel and tells of the aftermath when Seymour fails to show."
+    },
+    {
+      "field": "plate.works[jd-salinger--raise-high-the-roof-beam-carpenters-and-seymour-an-introduction].significance",
+      "claim": "「Seymour: An Introduction」은 1948년 자살한 시모어를 소개하는 의식의 흐름식 서술",
+      "url": "https://en.wikipedia.org/wiki/Raise_High_the_Roof_Beam,_Carpenters_and_Seymour:_An_Introduction",
+      "quote": "The story is told in a stream of consciousness narrative as Buddy reminisces in his secluded home."
+    },
+    {
+      "field": "plate.works[jd-salinger--raise-high-the-roof-beam-carpenters-and-seymour-an-introduction].significance",
+      "claim": "시모어는 1948년에 스스로 목숨을 끊었다",
+      "url": "https://en.wikipedia.org/wiki/Raise_High_the_Roof_Beam,_Carpenters_and_Seymour:_An_Introduction",
+      "quote": "the story represents an attempt by Buddy Glass to introduce the reader to his brother Seymour, who had committed suicide in 1948."
+    },
+    {
+      "field": "plate.works[jd-salinger--the-catcher-in-the-rye].titleKo",
+      "claim": "민음사 세계문학전집 47 『호밀밭의 파수꾼』 정영목 새 번역, 320쪽",
+      "url": "https://minumsa.minumsa.com/book/1716/",
+      "quote": "정영목 교수의 새 번역으로 만나는 새로운 『호밀밭의 파수꾼』"
+    },
+    {
+      "field": "plate.readingEntry",
+      "claim": "민음사판 『호밀밭의 파수꾼』(정영목 옮김, 2023)은 지금 주문 가능",
+      "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460470",
+      "quote": "정영목 (옮긴이) 민음사 2023-01-17 원제 : The Catcher in the Rye"
+    },
+    {
+      "field": "plate.works[jd-salinger--nine-stories].titleKo",
+      "claim": "한국어판 『아홉 가지 이야기』 최승자 옮김, 문학동네",
+      "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788982819056",
+      "quote": "아홉 가지 이야기 제롬 데이비드 샐린저 (지은이), 최승자 (옮긴이) 문학동네 2004-12-24"
+    },
+    {
+      "field": "plate.works[jd-salinger--franny-and-zooey].titleKo",
+      "claim": "한국어판 『프래니와 주이』 박찬원 옮김, 문학동네 2015",
+      "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954636568",
+      "quote": "프래니와 주이 제롬 데이비드 샐린저 (지은이), 박찬원 (옮긴이) 문학동네 2015-08-05 원제 : Franny and Zooey"
+    },
+    {
+      "field": "plate.works[jd-salinger--raise-high-the-roof-beam-carpenters-and-seymour-an-introduction].titleKo",
+      "claim": "한국어판 『목수들아, 대들보를 높이 올려라』 정영목 옮김, 문학동네 — 두 중편 수록",
+      "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788982817595",
+      "quote": "목수들아, 대들보를 높이 올려라 제롬 데이비드 샐린저 (지은이), 정영목 (옮긴이) 문학동네 2004-06-29 원제 : Raise High the Roof Beam, Carpenters and Seymour : An introduction"
+    },
+    {
+      "field": "plate.readingEntryReason",
+      "claim": "퇴학당한 주인공이 집으로 돌아오기까지 며칠간의 일을 담은 소설",
+      "url": "https://minumsa.minumsa.com/book/1716/",
+      "quote": "사립학교의 문제아 홀든 콜필드가 퇴학을 당하고 집으로 돌아오기까지 며칠간의 일들을 담은 작품이다."
+    },
+    {
+      "field": "plate.readingEntryReason",
+      "claim": "민음사 세계문학전집판은 320쪽",
+      "url": "https://minumsa.minumsa.com/book/1716/",
+      "quote": "반양장 · 변형판 132x225 · 320쪽"
+    },
+    {
+      "field": "plate.difficultyReason",
+      "claim": "홀든의 세상을 떠난 동생 앨리",
+      "url": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+      "quote": "Holden's late brother, Allie, who died from leukemia years earlier."
+    },
+    {
+      "field": "plate.difficultyReason",
+      "claim": "후기 이야기는 길어지고 줄거리가 줄며 여담과 괄호가 늘었다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "his stories became longer, less plot-driven, and increasingly filled with digression and parenthetical remarks."
+    },
+    {
+      "field": "plate.relations[translation jd-salinger→haruki-murakami]",
+      "claim": "무라카미 하루키 옮김 『キャッチャー・イン・ザ・ライ』 白水社 2003",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004087530",
+      "quote": "不朽の青春文学「ライ麦畑でつかまえて」が、村上春樹の新しい訳を得て、４０年ぶりに生まれ変わる。"
+    },
+    {
+      "field": "plate.relations[translation jd-salinger→haruki-murakami]",
+      "claim": "『フラニーとズーイ』 신초문고 2014, 무라카미 하루키 새 번역",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I025257856",
+      "quote": "新訳。訳者・村上春樹の特別エッセイを掲載した別紙挟み込み付き。"
+    },
+    {
+      "field": "plate.relations[translation jd-salinger→haruki-murakami]",
+      "claim": "『サリンジャー戦記』 2003, 무라카미 하루키·시바타 모토유키",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004189173",
+      "quote": "サリンジャー『キャッチャー・イン・ザ・ライ』の新訳を果たした村上春樹が翻訳仲間の柴田元幸と、その魅力・謎・真実の全てを語り明す"
+    },
+    {
+      "field": "plate.relations[documented_influence franz-kafka→jd-salinger]",
+      "claim": "「Seymour: An Introduction」 첫 제사는 카프카의 문장",
+      "url": "https://www.newyorker.com/magazine/1959/06/06/seymour-an-introduction",
+      "quote": "I’d like to start out with some rather unstinting words about those two opening quotations. “The actors by their presence. . .” is from Kafka."
+    },
+    {
+      "field": "plate.relations[documented_influence franz-kafka→jd-salinger]",
+      "claim": "1951년 BOMC News 인물평에서 사랑하는 작가로 카프카를 맨 앞에",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "I love Kafka, Flaubert, Tolstoy, Chekhov, Dostoevsky, Proust"
+    },
+    {
+      "field": "plate.relations[documented_influence franz-kafka→jd-salinger]",
+      "claim": "그 인물평은 1951년 7월 Book of the Month Club News의 윌리엄 맥스웰 글",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "In a July 1951 profile in Book of the Month Club News, Salinger's friend and New Yorker editor William Maxwell asked Salinger about his literary influences."
+    },
+    {
+      "field": "plate.relations[dialogue ernest-hemingway→jd-salinger]",
+      "claim": "전쟁 중 파리에서 종군기자로 일하던 헤밍웨이를 찾아가 만났다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "Salinger arranged to meet Ernest Hemingway, a writer who had influenced him and was then working as a war correspondent in Paris."
+    },
+    {
+      "field": "plate.relations[dialogue ernest-hemingway→jd-salinger]",
+      "claim": "둘은 편지를 주고받았고 1946년 7월 편지에서 대화가 전쟁 중 몇 안 되는 좋은 기억이었다고 썼다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "The two began corresponding; Salinger wrote to Hemingway in July 1946 that their talks were among his few positive memories of the war"
+    },
+    {
+      "field": "plate.relations[dialogue ernest-hemingway→jd-salinger]",
+      "claim": "그 편지 내용의 출처는 베이커의 헤밍웨이 전기(1969) 420쪽",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+      "quote": "In a letter to Hemingway, Salinger claimed their talks \"had given him his only hopeful minutes of the entire war\""
+    },
+    {
+      "field": "plate.relations[documented_influence f-scott-fitzgerald→jd-salinger]",
+      "claim": "1940년대 편지에서 앤더슨·라드너·피츠제럴드를 높이 샀다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "In letters from the 1940s, Salinger expressed his admiration of three living, or recently deceased, writers: Sherwood Anderson, Ring Lardner, and F. Scott Fitzgerald"
+    },
+    {
+      "field": "plate.relations[documented_influence f-scott-fitzgerald→jd-salinger]",
+      "claim": "해밀턴: 한동안 자신을 피츠제럴드의 후계자로 여겼다",
+      "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
+      "quote": "Ian Hamilton wrote that Salinger even saw himself for some time as \"Fitzgerald's successor\"."
+    }
+  ]
+}

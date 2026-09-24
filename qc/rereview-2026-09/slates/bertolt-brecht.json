@@ -1,0 +1,227 @@
+{
+  "id": "bertolt-brecht",
+  "page": "https://literary-planet.pages.dev/authors/bertolt-brecht/",
+  "author": {
+    "names": {
+      "ko": "베르톨트 브레히트",
+      "original": "Bertolt Brecht",
+      "aliases": [
+        "브레히트",
+        "Brecht",
+        "Eugen Berthold Friedrich Brecht"
+      ]
+    },
+    "birthYear": 1898,
+    "deathYear": 1956,
+    "activeRange": [
+      1922,
+      1956
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [
+      "epic-theatre",
+      "modernism"
+    ],
+    "genres": [
+      "drama",
+      "poetry"
+    ],
+    "importanceReason": "관객의 몰입을 목표로 삼지 않는 연극의 문법을 세웠다. 장면을 자족적 단위로 끊고, 노래와 자막으로 서사를 중단시키며, 배우가 인물이 되는 대신 인물을 보여 주게 하는 거리두기(Verfremdung)가 그 장치다. 마르크스주의 역사관을 주제가 아니라 무대의 형식 문제로 번역했고, 망명기에 쓴 『억척어멈과 그 자식들』과 『갈릴레이의 생애』는 이 방법이 비극적 인물에게도 작동함을 보였다. 1949년 베를리너 앙상블을 세워 이론을 상설 극단의 훈련과 연출 기록으로 정착시켰다.",
+    "readingEntry": "bertolt-brecht--die-dreigroschenoper",
+    "readingEntryReason": "장면이 짧게 끊기고 노래가 계속 서사를 멈춰 세우기 때문에, 서사극의 장치를 가장 적은 분량으로 직접 겪을 수 있다.",
+    "readingOrder": [
+      "bertolt-brecht--die-dreigroschenoper",
+      "bertolt-brecht--mutter-courage-und-ihre-kinder",
+      "bertolt-brecht--leben-des-galilei",
+      "bertolt-brecht--der-kaukasische-kreidekreis"
+    ],
+    "readingWarning": "연극론을 먼저 읽고 희곡으로 가면 거리두기를 개념으로만 익혀, 무대에서 그것이 노래와 웃음으로 작동한다는 사실을 놓치기 쉽다.",
+    "difficulty": 2,
+    "difficultyReason": "대사와 줄거리는 평이하지만, 주인공에게 감정이입하지 않도록 설계된 구조라 공감하며 읽는 독법으로는 각 장면이 무엇을 논증하는지 놓치게 된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--brecht-arbeitsjournal",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "bertolt-brecht--die-dreigroschenoper",
+      "titleKo": "서푼짜리 오페라",
+      "titleOriginal": "Die Dreigroschenoper",
+      "year": 1928,
+      "genre": "drama",
+      "significance": "존 게이의 18세기 발라드 오페라를 베를린의 범죄 세계로 옮기고 쿠르트 바일의 음악을 붙인 작품. 노래가 줄거리를 계속 중단시키는 구조로 서사극의 장치를 대중적으로 성립시켰다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "bertolt-brecht--svendborger-gedichte",
+      "titleKo": "스벤보르 시집",
+      "titleOriginal": "Svendborger Gedichte",
+      "year": 1939,
+      "genre": "poetry",
+      "significance": "덴마크 망명지에서 엮어 1939년 코펜하겐에서 낸 시집. 망명자의 정치적 발언을 짧고 건조한 구문으로 처리해 희곡과 같은 방법이 시에서도 작동함을 보여 주며, 생전에 낸 마지막 신작 시집이다.",
+      "sourceIds": [
+        "src--brecht-arbeitsjournal",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "bertolt-brecht--mutter-courage-und-ihre-kinder",
+      "titleKo": "억척어멈과 그 자식들",
+      "titleOriginal": "Mutter Courage und ihre Kinder",
+      "year": 1941,
+      "genre": "drama",
+      "significance": "30년 전쟁의 종군 상인이 장사를 지키려다 세 자식을 모두 잃는 연대기. 1939년 스웨덴 망명 중에 쓰고 1941년 취리히에서 초연했으며, 관객이 주인공을 동정하되 그 선택에는 동의하지 않도록 설계되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "bertolt-brecht--leben-des-galilei",
+      "titleKo": "갈릴레이의 생애",
+      "titleOriginal": "Leben des Galilei",
+      "year": 1943,
+      "genre": "drama",
+      "significance": "지동설을 철회한 갈릴레이를 영웅도 배신자도 아닌 계산하는 인물로 그린다. 1938년 덴마크에서 초고를 쓰고 1943년 취리히에서 초연했으며, 이후 미국판과 베를린판으로 두 차례 다시 썼다.",
+      "sourceIds": [
+        "src--brecht-arbeitsjournal",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "bertolt-brecht--der-gute-mensch-von-sezuan",
+      "titleKo": "사천의 선인",
+      "titleOriginal": "Der gute Mensch von Sezuan",
+      "year": 1943,
+      "genre": "drama",
+      "significance": "착하게 살려면 냉혹한 사촌을 연기해야 하는 여성의 이야기로, 선함이 경제적 조건과 양립할 수 있는가를 무대 위의 실험으로 제시한다. 1943년 취리히 초연.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "bertolt-brecht--der-kaukasische-kreidekreis",
+      "titleKo": "코카서스의 백묵원",
+      "titleOriginal": "Der kaukasische Kreidekreis",
+      "year": 1954,
+      "genre": "drama",
+      "significance": "버려진 아이를 기른 하녀와 낳은 귀족 어머니 중 누구의 아이인가를 묻는 액자극. 1944년 미국 망명 중에 썼고 1948년 미국에서 영어로 먼저 초연되었으며, 독일어 초연은 1954년 베를리너 앙상블 무대였다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--aristotle--bertolt-brecht",
+      "type": "contrast",
+      "from": "aristotle (아리스토텔레스)",
+      "to": "bertolt-brecht (베르톨트 브레히트)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "브레히트는 자기 서사극을 '비아리스토텔레스적 극작'이라 이름 붙이고 감정이입과 카타르시스를 겨냥해 소격효과를 세웠다.",
+      "sourceIds": [
+        "src--williams-drama-ibsen-to-brecht"
+      ]
+    },
+    {
+      "id": "influence--bertolt-brecht--wole-soyinka",
+      "type": "documented_influence",
+      "from": "bertolt-brecht (베르톨트 브레히트)",
+      "to": "wole-soyinka (월레 소잉카)",
+      "evidenceLevel": "documented",
+      "summary": "소잉카의 『오페라 워뇨시』(1977년 초연)는 브레히트 『서푼짜리 오페라』를 중앙아프리카 황제의 궁정으로 옮긴 번안이다. 노래로 장면을 끊고 관객을 판단의 자리에 세우는 브레히트의 장치를 그는 자기 무대의 정치 풍자에 그대로 가져다 썼다.",
+      "anchors": [
+        {
+          "workId": "bertolt-brecht--die-dreigroschenoper"
+        },
+        {
+          "year": 1977
+        }
+      ],
+      "sourceIds": [
+        "src--soyinka-opera-wonyosi-1977"
+      ]
+    },
+    {
+      "id": "dialogue--bertolt-brecht--elias-canetti",
+      "type": "dialogue",
+      "from": "bertolt-brecht (베르톨트 브레히트)",
+      "to": "elias-canetti (엘리아스 카네티)",
+      "evidenceLevel": "documented",
+      "summary": "카네티는 『귀 속의 횃불』에서 1928년 베를린에서 브레히트를 만난 일을 기록했다. 문학의 진지함을 내세우는 스물세 살의 카네티를 브레히트가 냉소로 맞받은 이 대면을, 카네티는 자기 문학관이 굳어진 계기로 서술했다.",
+      "anchors": [
+        {
+          "year": 1928
+        }
+      ],
+      "sourceIds": [
+        "src--canetti-die-fackel-im-ohr-1980"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--henrik-ibsen--bertolt-brecht (→ henrik-ibsen 의 슬레이트에서 본다)",
+    "affinity--luigi-pirandello--bertolt-brecht (→ luigi-pirandello 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--brecht-arbeitsjournal": {
+      "id": "src--brecht-arbeitsjournal",
+      "title": "베르톨트 브레히트 작업일지 (Arbeitsjournal, 1938–1955)",
+      "publisherOrInstitution": "Bertolt Brecht 유고 — Suhrkamp 판 작업일지",
+      "citation": "망명기의 집필 상황과 서사극 개념의 형성 과정을 작가 자신이 날짜별로 기록한 1차 자료"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--williams-drama-ibsen-to-brecht": {
+      "id": "src--williams-drama-ibsen-to-brecht",
+      "title": "Drama from Ibsen to Brecht (1968 개정판, 초판 Drama from Ibsen to Eliot 1952)",
+      "publisherOrInstitution": "Chatto & Windus — Raymond Williams",
+      "citation": "입센에서 브레히트까지 근대극의 형식 변화를 하나의 궤적으로 서술한 표준 연구 — 입센·체호프·브레히트를 같은 계보 안에서 대조하는 연극사 서술의 근거"
+    },
+    "src--soyinka-opera-wonyosi-1977": {
+      "id": "src--soyinka-opera-wonyosi-1977",
+      "title": "『오페라 워뇨시』 (Opera Wonyosi, 1977년 이페 초연)",
+      "publisherOrInstitution": "University of Ife / Wole Soyinka",
+      "citation": "브레히트 『서푼짜리 오페라』를 중앙아프리카의 궁정으로 옮긴 소잉카의 번안 — 브레히트 수용의 1차 근거"
+    },
+    "src--canetti-die-fackel-im-ohr-1980": {
+      "id": "src--canetti-die-fackel-im-ohr-1980",
+      "title": "엘리아스 카네티, 『귀 속의 횃불(Die Fackel im Ohr)』 (1980)",
+      "publisherOrInstitution": "Carl Hanser Verlag",
+      "citation": "자서전 2부 — 1928년 베를린 체류와 브레히트와의 대면이 기록된 1차 회고"
+    }
+  }
+}

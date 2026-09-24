@@ -1,4 +1,1719 @@
 {
-    "note": "조회로 판정된 표준판 — 지금 새 종이책으로 살 수 있는, 그 작품의 완역본. resolve-editions.ts 가 카카오 ISBN 조회로 불러와 맨 앞에 세운다.",
-    "byWork": {}
+  "note": "조회로 판정된 표준판 — 지금 새 종이책으로 살 수 있는, 그 작품의 완역본. resolve-editions.ts 가 카카오 ISBN 조회로 불러와 맨 앞에 세운다.",
+  "byWork": {
+    "rabindranath-tagore--gitanjali": [
+      {
+        "isbn13": "9788932911519",
+        "why": "열린책들 세계문학 151, 영문학자 장경렬이 타고르 자신의 영어판을 옮기고 영어 원문을 함께 실은 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932911519",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791186686256",
+        "why": "시인 류시화가 영어판 산문시 103편 전편을 옮긴 판본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791186686256",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788973814794",
+        "why": "소담 베스트셀러 월드북 22, 예이츠 서문과 기탄잘리 전편을 실은 김광자 번역 보급판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788973814794",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "natsume-soseki--kokoro": [
+      {
+        "isbn13": "9788932317960",
+        "why": "현암사 나쓰메 소세키 소설 전집 12, 송태욱의 일본어 원전 번역 양장본, 알라딘 판매지수 최상위, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932317960",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954642484",
+        "why": "문학동네 세계문학전집 143, 유은경의 일본어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954642484",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912769",
+        "why": "열린책들 세계문학 276, 일본문학 번역가 양윤옥의 일본어 원전 번역 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912769",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "lu-xun--kuangren-riji": [
+      {
+        "isbn13": "9788936479466",
+        "why": "창비 루쉰 소설선 『아Q정전』 개정증보판, 중문학자 전형준 번역, 「광인일기」가 첫 수록작, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936479466",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788976821331",
+        "why": "「광인일기」가 처음 실린 소설집 『외침』 전체를 옮긴 그린비 루쉰문고 3(루쉰전집번역위원회 공상철), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788976821331",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954625197",
+        "why": "표제작 「광인일기」 등 8편, 루쉰 연구자 이욱연 번역에 자오옌녠 판화를 곁들인 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954625197",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "ryunosuke-akutagawa--rashomon": [
+      {
+        "isbn13": "9788937463266",
+        "why": "민음사 세계문학전집 326, 「라쇼몬」·「덤불 속」·「지옥변」 등 14편을 옮긴 서은혜 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463266",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931025514",
+        "why": "문예 세계문학선 61 2025년 신판, 「라쇼몽」 포함 중단편 17편, 김영식 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931025514",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791173571176",
+        "why": "아르테 클래식 라이브러리 18, 「라쇼몬」·「덤불 숲」·「갓파」 등을 실은 이민희 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791173571176",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "bruno-schulz--sklepy-cynamonowe": [
+      {
+        "isbn13": "9788932403939",
+        "why": "을유세계문학전집 61, 『계피색 가게들』 전편과 『모래시계 요양원』을 함께 실은 정보라 번역(폴란드어판 Proza 저본) 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932403939",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "witold-gombrowicz--ferdydurke": [
+      {
+        "isbn13": "9788937461019",
+        "why": "민음사 세계문학전집 101, 알라딘에서 확인되는 유일한 한국어 완역본으로 수전 손택 해설 수록, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461019",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "hermann-broch--die-schlafwandler": [
+      {
+        "isbn13": "9788932909783",
+        "why": "열린책들 세계문학 61, 전 2권 중 상권(1부 파제노·2부 에슈), 김경연 번역 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909783",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932909790",
+        "why": "열린책들 세계문학 62, 하권(3부 후게나우), 상권과 함께 사야 작품이 완결됨, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909790",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "elias-canetti--die-gerettete-zunge": [
+      {
+        "isbn13": "9788932040592",
+        "why": "대산세계문학총서 180 『자유를 찾은 혀』, 독일어 원전(Die gerettete Zunge) 완역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=307668099",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "cesar-vallejo--los-heraldos-negros": [
+      {
+        "isbn13": "9788937475528",
+        "why": "민음사 세계시인선 52 『조금밖에 죽지 않은 오후』, 스페인어 원전 『검은 전령』 전편(7부 전부) 완역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=280987540",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "sadegh-hedayat--buf-e-kur": [
+      {
+        "isbn13": "9788932024080",
+        "why": "문학과지성사 양장본, 소설가 배수아가 독일어판(Die Blinde Eule)에서 옮긴 중역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=27028573",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791195026104",
+        "why": "연금술사 양장본 『눈먼 올빼미』, 영미권 전문 번역가 공경희 번역(원어 직역 여부 미표기), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=26903023",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "marcel-proust--du-cote-de-chez-swann": [
+      {
+        "isbn13": "9788937485619",
+        "why": "민음사판 『잃어버린 시간을 찾아서』 1권, 불문학자 김희영의 프랑스어 직역, 2권(9788937485626)까지 읽어야 『스완네 집 쪽으로』 전체, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=19609053",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931025989",
+        "why": "문예출판사 세계문학 94 『스완네 쪽으로』, 콩브레·스완의 사랑·고장의 이름들 3부 전체를 한 권에 담은 프랑스어 완역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=375195788",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788949715445",
+        "why": "동서문화사 세계문학전집 79 『잃어버린 시간을 찾아서 1』, 제1편 『스완네 집 쪽으로』 전체가 실린 불문학자 민희식의 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=106827457",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "franz-kafka--die-verwandlung": [
+      {
+        "isbn13": "9788937460043",
+        "why": "민음사 세계문학전집 4 『변신·시골의사』, 독문학자 전영애의 독일어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=60471",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791141600709",
+        "why": "문학동네 세계문학전집 247 『변신·단식 광대』, 독일어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=340098635",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788936477912",
+        "why": "창비세계문학 78 『변신·단식 광대』 카프카 단편선, 카프카 연구자 편영수·임홍배의 독일어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=234302519",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "james-joyce--dubliners": [
+      {
+        "isbn13": "9788936464684",
+        "why": "창비세계문학 68, 영문학자 성은애의 원문 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=192264892",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954611831",
+        "why": "문학동네 세계문학전집 43, 진선주 번역, 주석이 충실한 464쪽 판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=7645559",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937463075",
+        "why": "민음사 세계문학전집 307, 이종일 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=22209648",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "virginia-woolf--mrs-dalloway": [
+      {
+        "isbn13": "9788937464843",
+        "why": "민음사 세계문학전집 484, 이미애의 2025년 새 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937464843",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932405421",
+        "why": "을유세계문학전집 142, 주석·판본 소개를 붙인 손영주의 2025년 번역(양장), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932405421",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791141602147",
+        "why": "문학동네 세계문학전집 262, 민은영의 2025년 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791141602147",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "william-faulkner--as-i-lay-dying": [
+      {
+        "isbn13": "9788937460814",
+        "why": "민음사 세계문학전집 81, 김명주 번역으로 오래 읽혀 온 표준판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460814",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932475844",
+        "why": "을유세계문학전집 145, 주석·판본 소개를 붙인 윤교찬의 2025년 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932475844",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791173572739",
+        "why": "아르테 클래식 라이브러리 20, 강지현의 2025년 번역(제목 ‘내 죽으며 누워 있을 때’), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791173572739",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "thomas-mann--der-tod-in-venedig": [
+      {
+        "isbn13": "9788937460081",
+        "why": "민음사 세계문학전집 8, 안삼환 등 4인 공역으로 「베니스에서의 죽음」과 「토니오 크뢰거」「트리스탄」을 함께 실은 표준판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460081",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932909332",
+        "why": "열린책들 세계문학 20, 홍성광의 독일어 번역으로 표제작과 「토니오 크뢰거」 등 8편 수록, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909332",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937429880",
+        "why": "민음사 쏜살 문고, 이 작품만 담은 박동자 번역 단행본(안삼환 해설), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937429880",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "robert-musil--die-verwirrungen-des-zoeglings-toerless": [
+      {
+        "isbn13": "9788936464837",
+        "why": "창비세계문학 84, 정현규의 2021년 번역(제목 ‘소년 퇴를레스의 혼란’), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936464837",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791185136424",
+        "why": "울력 2018년 개정판, 박종대 옮김, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791185136424",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "fernando-pessoa--livro-do-desassossego": [
+      {
+        "isbn13": "9788954625760",
+        "why": "문학동네 세계문학전집 130, 오진영의 포르투갈어 원전 완역(책소개 명시), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954625760",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788996997962",
+        "why": "소설가 배수아가 독일어판·영어판을 참고해 옮긴 808쪽 완역본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788996997962",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "william-butler-yeats--the-tower": [
+      {
+        "isbn13": "9788971074688",
+        "why": "예이츠 시 번역 총서 4, 한국예이츠학회가 「비잔티움 항행」부터 「만령절」까지 『탑』 수록 시 전편을 옮김, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788971074688",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "rainer-maria-rilke--briefe-an-einen-jungen-dichter": [
+      {
+        "isbn13": "9791169561136",
+        "why": "릴케 연구·번역자인 고려대 독문과 김재혁 교수의 번역·해설, 2025년 개정판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791169561136",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932476063",
+        "why": "카푸스가 보낸 편지까지 함께 실은 왕복 서한집, 최성웅의 2026년 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932476063",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931010862",
+        "why": "문예출판사판, 송영택 옮김(「젊은 여인에게 보내는 편지」 함께 수록), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931010862",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "ts-eliot--the-love-song-of-j-alfred-prufrock": [
+      {
+        "isbn13": "9788937475177",
+        "why": "민음사 세계시인선 리뉴얼판 17 『황무지』에 「프루프록의 사랑 노래」가 원문과 함께 실림(목차 확인), 황동규 옮김, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937475177",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "gertrude-stein--the-autobiography-of-alice-b-toklas": [
+      {
+        "isbn13": "9791141609955",
+        "why": "문학동네 세계문학전집 261, 영문학자 윤희기의 완역(7장 전체), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791141609955",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788994054964",
+        "why": "연암서가판 완역 403쪽, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788994054964",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "katherine-mansfield--the-garden-party-and-other-stories": [
+      {
+        "isbn13": "9788949717982",
+        "why": "동서문화사 월드북 300, 원작 15편 중 14편과 다른 단편 15편 수록(「하녀」만 빠짐), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949717982",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788949718156",
+        "why": "같은 오정환 번역의 미네르바 3권 판형(29편 수록, 「하녀」만 빠짐), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949718156",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "luigi-pirandello--sei-personaggi-in-cerca-d-autore": [
+      {
+        "isbn13": "9791128858147",
+        "why": "이탈리아어 원전 직역에 원전에만 있는 작가 서문까지 실은 판, 주문형 인쇄(POD)로 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791128858147",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "bertolt-brecht--die-dreigroschenoper": [
+      {
+        "isbn13": "9788932403861",
+        "why": "을유세계문학전집 54, 독문학자 김길웅의 번역으로 「남자는 남자다」 함께 수록, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932403861",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912004",
+        "why": "열린책들 세계문학 200, 독문학 박사 이은희의 번역으로 「억척어멈과 자식들」 함께 수록, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912004",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791128835636",
+        "why": "브레히트 희곡 여러 편을 옮긴 이원양의 번역 단행본, 주문형 인쇄(POD)로 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791128835636",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "mikhail-bulgakov--sobache-serdtse": [
+      {
+        "isbn13": "9788932912134",
+        "why": "열린책들 세계문학 213, 불가코프 연구서를 낸 정연호의 번역으로 「악마의 서사시」 함께 수록, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912134",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788936464189",
+        "why": "창비세계문학 18, 러시아문학 교수 김세일의 번역으로 『개의 심장』만 실은 단행본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936464189",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "federico-garcia-lorca--bodas-de-sangre": [
+      {
+        "isbn13": "9791128835186",
+        "why": "고려대 스페인어과 교수 안영옥의 스페인어 번역(3막 전체), 주문형 인쇄(POD)로 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791128835186",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788984380974",
+        "why": "예니판 완역 희곡 단행본, 판매 중(번역 저본 확인 안 됨)",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788984380974",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "gabriel-garcia-marquez--cronica-de-una-muerte-anunciada": [
+      {
+        "isbn13": "9788937481970",
+        "why": "민음사 양장판, 콜롬비아에서 박사 학위를 받은 중남미문학자 조구호의 스페인어 번역, 판매 중",
+        "url": "https://www.yes24.com/Product/Goods/3045435",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "italo-calvino--le-citta-invisibili": [
+      {
+        "isbn13": "9788937461385",
+        "why": "민음사 세계문학전집 138, 이탈리아 문학 번역가 이현경의 이탈리아어 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461385",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "toni-morrison--the-bluest-eye": [
+      {
+        "isbn13": "9791141600167",
+        "why": "문학동네 세계문학전집 249 『가장 파란 눈』, 영어 원문 번역, 지금 새 책으로 살 수 있는 유일한 완역본",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791141600167",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "thomas-pynchon--the-crying-of-lot-49": [
+      {
+        "isbn13": "9788937461477",
+        "why": "민음사 세계문학전집 147, 영문학자 김성곤의 영어 원문 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461477",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "georges-perec--les-choses": [
+      {
+        "isbn13": "9788901288451",
+        "why": "펭귄클래식판 김명숙 번역을 2024년 양장으로 다시 낸 개정판, 현재 판매 중인 유일한 판",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788901288451",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "milan-kundera--nesnesitelna-lehkost-byti": [
+      {
+        "isbn13": "9788937462344",
+        "why": "민음사 세계문학전집 234, 쿤데라가 원본과 같은 권위를 인정한 프랑스어판을 옮긴 이재룡 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462344",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937404665",
+        "why": "밀란 쿤데라 전집(리커버) 6, 같은 이재룡 번역의 2026년 새 장정, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937404665",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937437564",
+        "why": "국내 출간 30주년 기념 리커버 특별판(양장), 같은 이재룡 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937437564",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "stanislaw-lem--solaris": [
+      {
+        "isbn13": "9788937444708",
+        "why": "민음사 스타니스와프 렘 소설, 폴란드 문학자 최성은의 폴란드어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937444708",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "umberto-eco--il-nome-della-rosa": [
+      {
+        "isbn13": "9788932909974",
+        "why": "열린책들 세계문학 80(상권), 이윤기 번역, 판매 중 — 하권(세계문학 81)과 함께 사야 한다",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909974",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932906751",
+        "why": "열린책들 단행본 양장 상권(462쪽), 같은 이윤기 번역, 판매 중 — 하권은 따로 사야 한다",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932906751",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "jose-saramago--ensaio-sobre-a-cegueira": [
+      {
+        "isbn13": "9788973374939",
+        "why": "해냄 탄생 100주년 기념 스페셜 에디션(양장 476쪽, 완역), 영어판을 거친 정영목 번역, 현재 판매 중인 유일한 판",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788973374939",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "salman-rushdie--midnights-children": [
+      {
+        "isbn13": "9788954615341",
+        "why": "문학동네 세계문학전집 79(무선) 김진준 번역 1권, 판매 중이며 2권(9788954615358, 세계문학전집 80 무선)도 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954615341",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "wg-sebald--die-ausgewanderten": [
+      {
+        "isbn13": "9788936476977",
+        "why": "창비 2019년 개정판(양장), 이재영 번역, 판매 중인 유일한 한국어판.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936476977",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "ursula-k-le-guin--the-left-hand-of-darkness": [
+      {
+        "isbn13": "9788952771827",
+        "why": "시공사 '어슐러 K. 르 귄 걸작선' 1권(양장), 최용준 번역, 판매 중인 유일한 한국어판.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788952771827",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "octavia-butler--kindred": [
+      {
+        "isbn13": "9788934974260",
+        "why": "비채 2016년 일반판(양장), 이수현 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788934974260",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "margaret-atwood--the-handmaids-tale": [
+      {
+        "isbn13": "9791158883843",
+        "why": "황금가지 리커버 일반판(무선), 김선형 번역, 현재 판매 중인 유일한 완역본.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791158883843",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "don-delillo--white-noise": [
+      {
+        "isbn13": "9788936479176",
+        "why": "창비 2022년 전면개정판, 강미숙 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936479176",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "kazuo-ishiguro--the-remains-of-the-day": [
+      {
+        "isbn13": "9788937463884",
+        "why": "민음사 세계문학전집 388, 송은경 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463884",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937444357",
+        "why": "같은 송은경 번역의 민음사 2021년 단행본 개정판, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937444357",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "jm-coetzee--waiting-for-the-barbarians": [
+      {
+        "isbn13": "9788954655033",
+        "why": "문학동네 세계문학전집 174, 왕은철 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954655033",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "yasunari-kawabata--izu-no-odoriko": [
+      {
+        "isbn13": "9788932403694",
+        "why": "을유세계문학전집 39, 일본어 직역 완역으로 「천 마리 학」「호수」와 함께 실린 유일한 현행 정본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=8414432",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "osamu-dazai--ningen-shikkaku": [
+      {
+        "isbn13": "9788937461033",
+        "why": "민음사 세계문학전집 103, 일문학자 김춘미의 일본어 직역으로 가장 오래 읽혀 온 정본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=491611",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791141602383",
+        "why": "문학동네 세계문학전집 263, 2025년 홍은주의 새 일본어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=366550432",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912776",
+        "why": "열린책들 세계문학 277, 김난주의 일본어 직역으로 「사양」까지 한 권에 담김, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=296752268",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "yukio-mishima--kinkakuji": [
+      {
+        "isbn13": "9788901215907",
+        "why": "웅진지식하우스 일문학선집 3, 일문학자 허호의 일본어 직역으로 현재 유일하게 판매 중인 완역본",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=107413605",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "kobo-abe--suna-no-onna": [
+      {
+        "isbn13": "9788937460555",
+        "why": "민음사 세계문학전집 55, 김난주의 일본어 직역으로 현재 유일하게 판매 중인 정본",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=304293",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "kenzaburo-oe--kojinteki-na-taiken": [
+      {
+        "isbn13": "9788932403526",
+        "why": "을유세계문학전집 22, 일문학자 서은혜의 일본어 직역으로 현재 유일하게 판매 중인 완역본",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=4355391",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "jorge-luis-borges--ficciones": [
+      {
+        "isbn13": "9788937462757",
+        "why": "민음사 세계문학전집 275, 중남미문학자 송병선의 스페인어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462757",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937401763",
+        "why": "민음사 보르헤스 전집 2, 황병하의 스페인어 원전 번역으로 지금도 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937401763",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "pablo-neruda--veinte-poemas-de-amor-y-una-cancion-desesperada": [
+      {
+        "isbn13": "9788937407413",
+        "why": "시인 정현종의 완역본(양장 62쪽)으로, 지금 살 수 있는 유일한 번역본",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937407413",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "juan-rulfo--el-llano-en-llamas": [
+      {
+        "isbn13": "9788937463242",
+        "why": "민음사 세계문학전집 324, 『뻬드로 빠라모』 역자 정창의 스페인어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463242",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "alejo-carpentier--el-reino-de-este-mundo": [
+      {
+        "isbn13": "9788954655859",
+        "why": "문학동네 세계문학전집 180, 스페인어문학자 조구호의 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954655859",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "clarice-lispector--a-hora-da-estrela": [
+      {
+        "isbn13": "9788932461366",
+        "why": "을유문화사 암실문고, 민승남 번역, 지금 살 수 있는 유일한 번역본",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932461366",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "chinua-achebe--things-fall-apart": [
+      {
+        "isbn13": "9788937461712",
+        "why": "민음사 세계문학전집 171, 영문학자 조규형의 영어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461712",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "ngugi-wa-thiongo--weep-not-child": [
+      {
+        "isbn13": "9788956609065",
+        "why": "은행나무판, 황가한의 영어 원문 완역으로 유일한 한국어판이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788956609065",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "tayeb-salih--mawsim-al-hijra-ila-al-shamal": [
+      {
+        "isbn13": "9791156620396",
+        "why": "아시아 문학선 6, 아랍어 전공 번역가 이상숙의 번역으로 유일한 한국어판이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791156620396",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "samuel-beckett--en-attendant-godot": [
+      {
+        "isbn13": "9788937460432",
+        "why": "민음사 세계문학전집 43, 불문학자 오증자의 프랑스어 원작 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460432",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931023763",
+        "why": "문예 세계문학선 78 개정판, 영문학자 홍복유 번역(베케트 자신의 영어판 계열로 보임), 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931023763",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "vladimir-nabokov--pnin": [
+      {
+        "isbn13": "9788932041926",
+        "why": "문학과지성사판, 영문학·비교문학 연구자 김정아의 영어 원문 완역으로 유일한 한국어판이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932041926",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "albert-camus--l-etranger": [
+      {
+        "isbn13": "9788937443848",
+        "why": "민음사 세계문학전집 266, 카뮈 연구자 김화영의 프랑스어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937443848",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791171311798",
+        "why": "책세상 알베르 카뮈 전집 개정판 1권, 김화영 번역의 최신 개정본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791171311798",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932911724",
+        "why": "열린책들 세계문학 172, 김예령의 프랑스어 직역 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932911724",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "ernest-hemingway--the-old-man-and-the-sea": [
+      {
+        "isbn13": "9788937462788",
+        "why": "민음사 세계문학전집 278, 영문학자 김욱동 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462788",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954617291",
+        "why": "문학동네 세계문학전집 91, 이인규 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954617291",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932911984",
+        "why": "열린책들 세계문학 198, 이종인 번역 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932911984",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "george-orwell--animal-farm": [
+      {
+        "isbn13": "9788937460050",
+        "why": "민음사 세계문학전집 5, 영문학자 도정일 번역의 스테디셀러, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460050",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931026252",
+        "why": "문예출판사 세계문학선 13, 김승욱 번역의 2025년판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931026252",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788901082059",
+        "why": "펭귄클래식 4, 최희섭 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788901082059",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "simone-de-beauvoir--memoires-dune-jeune-fille-rangee": [
+      {
+        "isbn13": "9788949706603",
+        "why": "동서문화사 월드북 109, 『처녀시절』과 『여자 한창때』를 한 권에 묶은 유일한 판매 중 한국어판",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949706603",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "paul-celan--todesfuge": [
+      {
+        "isbn13": "9788937483837",
+        "why": "표제작 「죽음의 푸가」를 실은 첼란 시선집, 첼란 연구자 전영애의 독일어 직역 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937483837",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954676441",
+        "why": "문학동네 파울 첼란 전집 1권, 「죽음의 푸가」가 실린 첫 시집 『양귀비와 기억』 수록, 허수경 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954676441",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "zora-neale-hurston--their-eyes-were-watching-god": [
+      {
+        "isbn13": "9788932012537",
+        "why": "문학과지성사 대산세계문학총서 07, 이시영 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932012537",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931024081",
+        "why": "문예출판사 세계문학선 114, 이미선 번역의 2024년 새 판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931024081",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791155816424",
+        "why": "윌북 클래식 불꽃 컬렉션, 권진아의 2023년 새 번역 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791155816424",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "ralph-ellison--invisible-man": [
+      {
+        "isbn13": "9788937461903",
+        "why": "민음사 세계문학전집 190(전 2권 중 1권, 2권은 191), 조영환 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461903",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931026283",
+        "why": "문예출판사 세계문학선 103(전 2권 중 1권, 2권은 104), 송무 번역의 2025년 새 판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931026283",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "flannery-oconnor--a-good-man-is-hard-to-find": [
+      {
+        "isbn13": "9788972757108",
+        "why": "현대문학 세계문학 단편선 12 오코너 단편전집으로, 이 소설집 10편을 모두 싣고 있으며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788972757108",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "marguerite-duras--lamant": [
+      {
+        "isbn13": "9788937461446",
+        "why": "민음사 세계문학전집 144, 김인환의 프랑스어 번역, 지금 새 책으로 살 수 있는 유일한 판본.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461446",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "alain-robbe-grillet--la-jalousie": [
+      {
+        "isbn13": "9788937460845",
+        "why": "민음사 세계문학전집 84, 박이문·박희원 공역, 지금 새 책으로 살 수 있는 유일한 판본.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460845",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "wislawa-szymborska--koniec-i-poczatek": [
+      {
+        "isbn13": "9788932029115",
+        "why": "대산세계문학총서 62 쉼보르스카 시선집, 최성은의 폴란드어 직역, 『끝과 시작』(1993) 절에 17편 수록, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932029115",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932038711",
+        "why": "같은 최성은 번역의 대산세계문학총서 20주년 리커버판, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932038711",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "gustave-flaubert--madame-bovary": [
+      {
+        "isbn13": "9788937460364",
+        "why": "민음사 세계문학전집 36, 불문학자 김화영의 프랑스어 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460364",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932405025",
+        "why": "을유세계문학전집 109, 플로베르 연구자 진인혜의 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932405025",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954681704",
+        "why": "문학동네 세계문학전집 200, 김남주의 새 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954681704",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "leo-tolstoy--smert-ivana-ilicha": [
+      {
+        "isbn13": "9788937464386",
+        "why": "민음사 세계문학전집 438, 노문학자 김연경의 러시아어 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937464386",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788936464073",
+        "why": "창비세계문학 7, 이강은의 러시아어 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936464073",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912387",
+        "why": "열린책들 세계문학 238, 석영중·정지원 번역에 「광인의 수기」도 함께 실렸고, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912387",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "fyodor-dostoevsky--prestuplenie-i-nakazanie": [
+      {
+        "isbn13": "9788937462849",
+        "why": "민음사 세계문학전집 284–285(전 2권), 김연경의 러시아어 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462849",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932909158",
+        "why": "열린책들 세계문학 1–2(상·하), 홍대화의 러시아어 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909158",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954671774",
+        "why": "문학동네 세계문학전집 188–189(전 2권), 이문영의 러시아어 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954671774",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "anton-chekhov--dama-s-sobachkoy": [
+      {
+        "isbn13": "9788932909202",
+        "why": "열린책들 세계문학 6, 이 단편을 표제작으로 한 오종우의 러시아어 번역 선집, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909202",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791141600068",
+        "why": "문학동네 세계문학전집 248 『상자 속의 사나이』, 「강아지를 데리고 다니는 여인」과 후기 대표작들을 실었고 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791141600068",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937464614",
+        "why": "민음사 세계문학전집 461 『사랑에 대하여』, 「개를 데리고 다니는 부인」을 실었고 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937464614",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "henrik-ibsen--et-dukkehjem": [
+      {
+        "isbn13": "9788937462481",
+        "why": "민음사 세계문학전집 248, 스칸디나비아어문학 전공 번역가 안미란의 노르웨이어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462481",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932911182",
+        "why": "열린책들 세계문학 118, 연극학자 김창화 번역의 양장본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932911182",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788957868287",
+        "why": "완역 헨리크 입센 희곡 전집 6(「사회의 기둥들」 합본), 연극학자 김미혜의 노르웨이어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788957868287",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "henry-james--daisy-miller": [
+      {
+        "isbn13": "9788972758495",
+        "why": "현대문학 세계문학 단편선 31, 「데이지 밀러」 전문을 포함한 8편 중단편집(이종인 번역), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788972758495",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788949707976",
+        "why": "동서문화사 월드북 207, 「데이지 밀러」와 「나사의 회전」 합본 양장, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949707976",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "joseph-conrad--heart-of-darkness": [
+      {
+        "isbn13": "9788937460074",
+        "why": "민음사 세계문학전집 7, 영문학자 이상옥 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460074",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932403397",
+        "why": "을유세계문학전집 9 「어둠의 심연」, 영문학자 이석구 번역, 양장, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932403397",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791170872283",
+        "why": "휴머니스트 세계문학 41 「어둠의 심장」, 시인 황유원의 2024년 새 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791170872283",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "machado-de-assis--memorias-postumas-de-bras-cubas": [
+      {
+        "isbn13": "9788936464202",
+        "why": "창비세계문학 20, 브라질문학자 박원복의 포르투갈어 직역, 판매 중이며 국내 유일 번역",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936464202",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "charles-baudelaire--le-spleen-de-paris": [
+      {
+        "isbn13": "9788954636650",
+        "why": "불문학자 황현산의 프랑스어 직역과 상세한 주석, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954636650",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937461682",
+        "why": "민음사 세계문학전집 168, 불문학자 윤영애의 프랑스어 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461682",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "walt-whitman--leaves-of-grass": [
+      {
+        "isbn13": "9788932911670",
+        "why": "열린책들 세계문학 167, 1855년 초판(서문과 시 12편) 완역, 시인이자 영문학자인 허현숙 번역, 양장, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932911670",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932924021",
+        "why": "같은 허현숙 초판 완역을 담은 열린책들 모노 에디션 보급판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932924021",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "emily-dickinson--poems-1890": [
+      {
+        "isbn13": "9788932405193",
+        "why": "을유세계문학전집 126, 영문학자 조애리의 대표 시 선집, 판매 중(1890년 시집 자체의 번역본은 없음)",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932405193",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937475115",
+        "why": "민음사 세계시인선 11, 시인 강은교가 옮긴 짧은 선집, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937475115",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "friedrich-nietzsche--zur-genealogie-der-moral": [
+      {
+        "isbn13": "9788957337356",
+        "why": "아카넷 니체 선집, 철학자 박찬국의 독일어 직역과 해설을 담은 단행본 양장, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788957337356",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788970133089",
+        "why": "책세상 니체전집 14(「선악의 저편」 합본), 김정현의 독일어 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788970133089",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791160870619",
+        "why": "독문학자 홍성광의 독일어 번역 2020년 개정판 「도덕의 계보학」, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791160870619",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "maryse-conde--moi-tituba-sorciere": [
+      {
+        "isbn13": "9791167375889",
+        "why": "은행나무 세계문학 에세 27, 정혜용 번역 2025년 개정판으로 판매 중인 유일한 한국어판.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791167375889",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "frantz-fanon--peau-noire-masques-blancs": [
+      {
+        "isbn13": "9788954685047",
+        "why": "문학동네 인문 라이브러리 8 개정판(양장), 노서경의 프랑스어 원전 번역이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954685047",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788974185763",
+        "why": "인간사랑 2013년 전면개정판, 이석호 번역으로 판매 중. 다만 원전 번역을 원하면 문학동네판이 먼저다.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788974185763",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "vs-naipaul--miguel-street": [
+      {
+        "isbn13": "9788937460920",
+        "why": "민음사 세계문학전집 92, 이상옥 번역으로 판매 중인 유일한 한국어판.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460920",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "abdulla-qodiriy--otkan-kunlar": [
+      {
+        "isbn13": "9791165162535",
+        "why": "계명대학교출판부 2025, 김중순 번역(영어본 세 가지와 독일어본을 바탕으로 우즈벡어 원문과 대조), 550쪽이며 판매 중인 유일한 한국어판.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791165162535",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "sandor-petofi--nemzeti-dal": [
+      {
+        "isbn13": "9791159019524",
+        "why": "한국외대 헝가리어과 교수 한경민이 엮고 옮긴 페퇴피 탄생 200주년 시선집(120여 편)으로, 「민족의 노래」(164쪽)가 실려 있고 판매 중이다.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791159019524",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "imre-kertesz--sorstalansag": [
+      {
+        "isbn13": "9788937463402",
+        "why": "민음사 세계문학전집 340으로, ELTE에서 헝가리 문학 박사를 받은 유진일이 헝가리어에서 직접 옮겼고 판매 중이다.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463402",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "taras-shevchenko--kateryna": [
+      {
+        "isbn13": "9788935656530",
+        "why": "한길그레이트북스 69 『유랑시인』은 서양사학자 한정숙이 셰브첸코의 장시 21편을 편역·해설한 책으로, 「카테리나」(163–198쪽)가 실려 있고 판매 중이다.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788935656530",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "janet-frame--an-angel-at-my-table": [
+      {
+        "isbn13": "9788952767714",
+        "why": "시공사 세계문학의 숲 26, 고정아의 영어 원문 번역. 한국어로 나온 유일한 완역본이며 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788952767714",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788952767721",
+        "why": "같은 판의 2권(세계문학의 숲 27). 자서전 3부작이 두 권에 나뉘어 있어 1권과 함께 사야 한다. 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788952767721",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "nam-cao--chi-pheo": [
+      {
+        "isbn13": "9791156621942",
+        "why": "아시아 문학선 15 『물결의 비밀』에 「지 패오」 수록. 베트남문학 전공자 하재홍의 번역으로 보이며 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791156621942",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "daniel-defoe--robinson-crusoe": [
+      {
+        "isbn13": "9788932403359",
+        "why": "을유세계문학전집 5, 18세기 영문학 연구자 윤혜준의 영어 원문 번역(주석 포함), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932403359",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932911632",
+        "why": "열린책들 세계문학 163, 류경희의 영어 원문 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932911632",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931025521",
+        "why": "문예 세계문학선 89, 이덕형 번역을 2025년에 다시 낸 개정판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931025521",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "voltaire--candide": [
+      {
+        "isbn13": "9788932909714",
+        "why": "열린책들 세계문학 54 『캉디드 혹은 낙관주의』, 불문학자 이봉지의 프랑스어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909714",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954611909",
+        "why": "문학동네 세계문학전집 50, 「미크로메가스」와 함께 실린 이병애의 프랑스어 번역(무선판), 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954611909",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "jean-jacques-rousseau--les-confessions": [
+      {
+        "isbn13": "9788930085250",
+        "why": "한국연구재단 학술명저번역총서 310, 루소 전문가 이용철의 프랑스어 원전 완역, 2권(9788930085267)과 함께 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788930085250",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788970139043",
+        "why": "책세상 루소전집 1 『고백』 1권, 박아르마의 프랑스어 원전 번역, 2권(9788970139050)과 함께 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788970139043",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788949703992",
+        "why": "동서문화사 월드북 20 『참회록』, 서울대 불문과 교수를 지낸 홍승오 번역, 12권 전체를 한 권(713쪽)에 담은 판, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949703992",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers": [
+      {
+        "isbn13": "9788937460258",
+        "why": "민음사 세계문학전집 25, 독문학자 박찬기의 독일어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460258",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788936464011",
+        "why": "창비세계문학 1 『젊은 베르터의 고뇌』, 독문학자 임홍배의 독일어 직역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936464011",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954611824",
+        "why": "문학동네 세계문학전집 42 무선판, 독문학자 안장혁의 독일어 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954611824",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "jane-austen--pride-and-prejudice": [
+      {
+        "isbn13": "9788937460883",
+        "why": "민음사 세계문학전집 88, 영문학자 윤지관·전승희의 영어 원문 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460883",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932403922",
+        "why": "을유세계문학전집 60, 영문학자 조선정의 영어 원문 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932403922",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954648325",
+        "why": "문학동네 세계문학전집 154, 영어 원문 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954648325",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "charles-dickens--great-expectations": [
+      {
+        "isbn13": "9788937462122",
+        "why": "민음사 세계문학전집 212–213(전 2권), 디킨스 연구자 이인규의 영어 원문 번역, 두 권 모두 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462122",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912219",
+        "why": "열린책들 세계문학 221–222(상·하), 영어 원문 번역, 두 권 모두 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912219",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "victor-hugo--notre-dame-de-paris": [
+      {
+        "isbn13": "9788937461132",
+        "why": "민음사 세계문학전집 113–114(전 2권), 불문학자 정기수의 프랑스어 원전 완역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461132",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788972883609",
+        "why": "아셰트클래식 3, 불어 번역가 성귀수의 프랑스어 완역에 삽화를 곁들인 양장 한 권본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788972883609",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788949707945",
+        "why": "동서문화사 월드북 198 『노트르담 드 파리』, 한 권짜리 완역본, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949707945",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "alexander-pushkin--kapitanskaya-dochka": [
+      {
+        "isbn13": "9788932909264",
+        "why": "열린책들 세계문학 12, 러시아문학자 석영중의 러시아어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932909264",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788936464431",
+        "why": "창비세계문학 43, 러시아어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936464431",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937464331",
+        "why": "민음사 세계문학전집 433 『예브게니 오네긴·대위의 딸』, 러시아어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937464331",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "homer--odysseia": [
+      {
+        "isbn13": "9788991290150",
+        "why": "도서출판 숲 원전으로 읽는 순수고전세계, 천병희의 그리스어 원전 완역, 판매 중(현재 알라딘은 리커버 특별판 표지로 판매)",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788991290150",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788957338865",
+        "why": "호메로스 전공자 이준석의 그리스어 원전 완역, 양장 664쪽, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788957338865",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937470219",
+        "why": "민음사 인문학 클래식 1, 고대 그리스문학 전공자 김기영의 희랍어 원전 완역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937470219",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "sophocles--oidipous-tyrannos": [
+      {
+        "isbn13": "9788937462177",
+        "why": "민음사 세계문학전집 217, 서양고전학자 강대진의 그리스어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462177",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788991290761",
+        "why": "도서출판 숲 푸른시원 『오이디푸스 왕 / 콜로노스의 오이디푸스』, 천병희의 그리스어 원전 완역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788991290761",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932403724",
+        "why": "을유세계문학전집 42 『오이디푸스 왕 외』, 그리스어 원전 번역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932403724",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "plato--apologia-sokratous": [
+      {
+        "isbn13": "9788957336687",
+        "why": "아카넷 정암고전총서 플라톤 전집, 강철웅의 그리스어 원전 번역과 상세한 주석, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788957336687",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788991290754",
+        "why": "도서출판 숲 푸른시원 『소크라테스의 변론 / 크리톤 / 파이돈』, 천병희의 그리스어 원전 완역, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788991290754",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788930606202",
+        "why": "서광사 『플라톤의 네 대화 편』, 플라톤 연구자 박종현의 그리스어 역주, 판매 중",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788930606202",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "aristotle--peri-poietikes": [
+      {
+        "isbn13": "9788931004021",
+        "why": "천병희의 그리스어 원전 번역에 호라티우스 『시학』·플라톤 시론·롱기누스 『숭고에 관하여』를 함께 실은 판으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931004021",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791166812453",
+        "why": "현대지성 클래식 35, 그리스어 원전 완역 136쪽 단행본으로 가장 가볍게 시작할 수 있고 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791166812453",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788964452721",
+        "why": "코기토 총서 47, 그리스 철학 전공자 이상인의 그리스어-우리말 대역 학술 번역으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788964452721",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "virgil--aeneis": [
+      {
+        "isbn13": "9788991290181",
+        "why": "원전으로 읽는 순수고전세계, 천병희의 라틴어 원전 완역을 한 권(607쪽)에 담은 판으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788991290181",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932916057",
+        "why": "서양고전학자 김남우 번역으로 2025년 3권이 나와 완간되었고, 1권(제1~4권)부터 전권 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932916057",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "ovid--metamorphoses": [
+      {
+        "isbn13": "9788991290808",
+        "why": "원전으로 읽는 순수고전세계, 천병희의 라틴어 원전 완역 개정판 한 권(752쪽)으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788991290808",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937460012",
+        "why": "민음사 세계문학전집 1·2, 이윤기 번역 두 권으로 가장 널리 읽히는 판이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460012",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912356",
+        "why": "열린책들 세계문학 235, 제1~15권을 한 권(632쪽)에 담은 이종인 번역으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912356",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "li-bai--jingyesi": [
+      {
+        "isbn13": "9788932311715",
+        "why": "현암사 동양고전 『이백시선』, 이원섭 역으로 이 시가 「정야(靜夜)」라는 제목으로 실려 있고 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932311715",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788972706809",
+        "why": "명문당 중국고전한시인선 1 『신역 이태백』, 장기근 역으로 「정야사」가 실려 있고 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788972706809",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "du-fu--chunwang": [
+      {
+        "isbn13": "9788932311722",
+        "why": "현암사 『두보시선』, 이원섭 역으로 「춘망(春望)」이 실려 있고 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932311722",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788952120397",
+        "why": "『두보 근체시 명편』, 두보 전집을 옮긴 연구진의 역주로 「봄날 바라보다[春望]」가 실려 있고 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788952120397",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788964068168",
+        "why": "지만지 시선집 『두보 시선』(POD 종이책), 김의정 역으로 「봄의 전망(春望)」이 실려 있고 주문 가능.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788964068168",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "murasaki-shikibu--genjimonogatari": [
+      {
+        "isbn13": "9788949717425",
+        "why": "동서문화사 월드북 292~294, 추영현 역 3권으로 54첩 전체(마지막 첩 「꿈속의 다리」까지)를 담았고 세 권 모두 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949717425",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791160781816",
+        "why": "다산글방 『겐지모노가따리』, 이승웅 역 7권 완결판으로 1~7권 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791160781816",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "dante-alighieri--la-vita-nuova": [
+      {
+        "isbn13": "9788937461156",
+        "why": "민음사 세계문학전집 115, 보카치오의 「단테의 생애」까지 실은 정본 시리즈판이지만 로세티 영역본을 옮긴 중역이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937461156",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791186998779",
+        "why": "부클래식 77, 비교문학자 염승섭의 번역으로 해설이 붙은 단행본이며 판매 중(번역 대본은 알라딘에 표기되지 않음).",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791186998779",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "mario-vargas-llosa--la-fiesta-del-chivo": [
+      {
+        "isbn13": "9788954613071",
+        "why": "문학동네 세계문학전집 51, 울산대 스페인중남미학과 교수 송병선의 직역, 판매 중(2권 9788954613088도 판매 중).",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954613071",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "miguel-de-cervantes--don-quijote-de-la-mancha": [
+      {
+        "isbn13": "9788932916804",
+        "why": "스페인어문학자 안영옥의 직역, 1권이 1605년 전편이며 판매 중(2권 9788932916811).",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932916804",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788936464035",
+        "why": "창비세계문학 3, 스페인어 원전 완역, 1권이 1605년 전편이며 판매 중(2권 9788936464042).",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788936464035",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788952773548",
+        "why": "세르반테스 연구자 박철의 스페인어 직역 개정판, 1권이 1605년 전편이며 판매 중(2권 9788952773555).",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788952773548",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "william-shakespeare--macbeth": [
+      {
+        "isbn13": "9788937460999",
+        "why": "민음사 세계문학전집 99, 셰익스피어 전공 최종철이 아든판과 리버사이드판을 대조한 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460999",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791141603601",
+        "why": "문학동네 세계문학전집 280, 2026년 9월에 나온 박우수의 새 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791141603601",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932911557",
+        "why": "열린책들 세계문학 155, 권오숙의 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932911557",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "edgar-allan-poe--the-fall-of-the-house-of-usher": [
+      {
+        "isbn13": "9788937463082",
+        "why": "민음사 세계문학전집 308 『에드거 앨런 포 단편선』으로, 「어셔가의 몰락」을 포함한 14편을 싣고 있으며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463082",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932475738",
+        "why": "을유세계문학전집 143 『에드거 앨런 포 단편선』(2025)으로, 「어셔가의 몰락」을 포함한 13편을 싣고 있으며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932475738",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912721",
+        "why": "열린책들 세계문학 272 『에드거 앨런 포 단편선』으로, 「어셔가의 붕괴」를 포함한 12편을 싣고 있으며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912721",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "herman-melville--bartleby-the-scrivener": [
+      {
+        "isbn13": "9788932912950",
+        "why": "열린책들 세계문학 295(2025), 표제작 「필경사 바틀비」에 「빌리 버드」 등 중단편 4편을 더한 판, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912950",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788937464508",
+        "why": "민음사 세계문학전집 450 『필경사 바틀비·선원 빌리 버드』(2024), 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937464508",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954614443",
+        "why": "문학동네 '일러스트와 함께 읽는 세계명작', 공진호의 번역으로 이 작품만 담은 단행본이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954614443",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "mark-twain--the-adventures-of-tom-sawyer": [
+      {
+        "isbn13": "9788937462030",
+        "why": "민음사 세계문학전집 203, 김욱동의 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937462030",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954613125",
+        "why": "문학동네 세계문학전집 56 무선판, 강미경의 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954613125",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931024463",
+        "why": "문예 세계문학선 80(2025), 초판 트루 윌리엄스 삽화를 곁들인 이덕형의 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931024463",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "john-steinbeck--of-mice-and-men": [
+      {
+        "isbn13": "9788949715582",
+        "why": "동서문화사 세계문학전집 93 『분노의 포도 / 생쥐와 인간』 합본으로, 지금 새 책으로 살 수 있는 유일한 완역본이다.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788949715582",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "omar-khayyam--rubaiyat": [
+      {
+        "isbn13": "9791128852770",
+        "why": "지만지 시선집, 피츠제럴드 영역 초판 75편 전편을 영문학자 윤준이 옮긴 판본으로 POD 종이책 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=232255603",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "rumi--divan-e-shams-e-tabrizi": [
+      {
+        "isbn13": "9788954699990",
+        "why": "문학동네 『태양시집』, 『샴스 타브리지 시집』의 가잘 3,229편 가운데 40편을 페르시아어 원전에서 직접 옮긴 선집이며 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954699990",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "arthur-conan-doyle--the-adventures-of-sherlock-holmes": [
+      {
+        "isbn13": "9788932912820",
+        "why": "열린책들 세계문학 282, 단편 12편을 모두 실은 456쪽 완역본으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912820",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788982734052",
+        "why": "황금가지 셜록 홈즈 전집 5(양장), 파젯 삽화를 곁들인 가장 널리 읽힌 전집판으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788982734052",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954643108",
+        "why": "엘릭시르 셜록 홈스 전집, 536쪽 완역본으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954643108",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "agatha-christie--and-then-there-were-none": [
+      {
+        "isbn13": "9788960177758",
+        "why": "황금가지 애거서 크리스티 에디터스 초이스, 크리스티 재단 공식 완역본으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788960177758",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788938201010",
+        "why": "해문 애거서 크리스티 추리문학 베스트 1(양장), 오래 읽혀 온 이가형 번역으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788938201010",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "jrr-tolkien--the-hobbit": [
+      {
+        "isbn13": "9788950992521",
+        "why": "아르테 톨킨 문학선(양장), 현재 국내 판권을 가진 이미애 번역의 정본으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788950992521",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9791171177035",
+        "why": "아르테 70주년 기념 비기너 에디션, 같은 이미애 번역을 두 권으로 나눈 세트로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9791171177035",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "roald-dahl--charlie-and-the-chocolate-factory": [
+      {
+        "isbn13": "9788952788719",
+        "why": "시공주니어 문고 2단계 7 개정판, 퀜틴 블레이크 그림을 그대로 실은 원작 완역본으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788952788719",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "jean-paul-sartre--huis-clos": [
+      {
+        "isbn13": "9788937463150",
+        "why": "민음사 세계문학전집 315 『닫힌 방·악마와 선한 신』, 불문학자 지영래의 프랑스어 번역으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463150",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "antoine-de-saint-exupery--le-petit-prince": [
+      {
+        "isbn13": "9788932917245",
+        "why": "열린책들 양장본, 불문학자 황현산의 프랑스어 번역으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932917245",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954603096",
+        "why": "문학동네 양장본, 불문학자 김화영의 프랑스어 번역으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954603096",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788931021295",
+        "why": "문예출판사 소프트커버 개정판, 오래 읽혀 온 전성자의 프랑스어 번역으로 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788931021295",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "hermann-hesse--demian": [
+      {
+        "isbn13": "9788937460449",
+        "why": "민음사 세계문학전집 44, 독문학자 전영애의 독일어 직역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937460449",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788954620147",
+        "why": "문학동네 세계문학전집 101, 독문 번역가 안인희의 독일어 직역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788954620147",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "isbn13": "9788932912271",
+        "why": "열린책들 세계문학 227, 김인순의 독일어 번역, 판매 중.",
+        "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788932912271",
+        "checkedAt": "2026-09-24"
+      }
+    ]
+  }
 }

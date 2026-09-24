@@ -1,0 +1,173 @@
+{
+  "id": "fernando-pessoa",
+  "page": "https://literary-planet.pages.dev/authors/fernando-pessoa/",
+  "author": {
+    "names": {
+      "ko": "페르난두 페소아",
+      "original": "Fernando Pessoa",
+      "aliases": [
+        "페르난도 페소아",
+        "페소아",
+        "Pessoa"
+      ]
+    },
+    "birthYear": 1888,
+    "deathYear": 1935,
+    "activeRange": [
+      1912,
+      1935
+    ],
+    "languages": [
+      "pt",
+      "en"
+    ],
+    "regions": [
+      "iberia"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "fiction"
+    ],
+    "importanceReason": "필명이 아니라 '이명(heteronym)'을 만들었다. 알베르투 카에이루, 히카르두 헤이스, 알바루 드 캄푸스에게 각각 다른 생몰년과 사상, 문체, 그리고 서로에 대한 비평까지 부여해, 한 사람의 시집이 아니라 여러 시인이 논쟁하는 문학장을 한 사람 안에 세웠다. 그래서 개별 시편이 아니라 인격들의 배치를 함께 읽어야 뜻이 서고, '누가 쓰는가'라는 물음이 주제가 아니라 작품의 형식 자체가 되었다. 생전에 낸 포르투갈어 단행본은 『메시지』 한 권뿐이었고, 트렁크에 남긴 미간행 원고 뭉치가 사후 수십 년에 걸쳐 편집되면서 그의 전집은 지금도 판본마다 다르다.",
+    "readingEntry": "fernando-pessoa--livro-do-desassossego",
+    "readingEntryReason": "완결된 줄거리가 없는 단상 모음이라 아무 쪽에서 시작해 아무 쪽에서 멈춰도 되고, 페소아 산문의 정조가 첫 열 쪽에서 이미 드러난다.",
+    "readingOrder": [
+      "fernando-pessoa--livro-do-desassossego",
+      "fernando-pessoa--o-guardador-de-rebanhos",
+      "fernando-pessoa--ode-maritima",
+      "fernando-pessoa--mensagem"
+    ],
+    "readingWarning": "『메시지』를 첫 책으로 고르면 막힌다. 포르투갈 왕조사의 인물들과 밀교적 상징 체계를 전제로 쓰인 시집이라, 배경 없이는 고유명의 나열로만 읽힌다.",
+    "difficulty": 3,
+    "difficultyReason": "시행과 문장 자체는 평이하다. 어려운 것은 지금 어느 인격이 말하고 있는지를 함께 읽어야 한다는 점, 그리고 텍스트 대부분이 사후에 편집된 미정리 원고라 판본마다 구성과 배열이 달라진다는 점이다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--pessoa-letter-casais-monteiro",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "fernando-pessoa--ode-maritima",
+      "titleKo": "해상 송시",
+      "titleOriginal": "Ode Marítima",
+      "year": 1915,
+      "genre": "poetry",
+      "significance": "이명 알바루 드 캄푸스의 이름으로 잡지 『오르페우』 2호에 실린 장시. 부두에 선 화자가 항해와 해적질과 폭력의 환상 속으로 끌려 들어가며 휘트먼식 열거가 파열에 이른다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "fernando-pessoa--o-banqueiro-anarquista",
+      "titleKo": "무정부주의자 은행가",
+      "titleOriginal": "O Banqueiro Anarquista",
+      "year": 1922,
+      "genre": "fiction",
+      "significance": "은행가가 자신이야말로 유일하게 일관된 무정부주의자라고 저녁 내내 논증하는 대화편. 흠 없는 논리로 정반대 결론에 도달하는 형식 자체가 풍자의 방법이다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "fernando-pessoa--o-guardador-de-rebanhos",
+      "titleKo": "양 떼를 지키는 사람",
+      "titleOriginal": "O Guardador de Rebanhos",
+      "year": 1925,
+      "genre": "poetry",
+      "significance": "다른 이명들이 스승으로 떠받드는 알베르투 카에이루의 연작시. 사물을 해석하지 않고 보기만 하겠다는 반형이상학의 태도를 평이한 시행으로 밀고 나가, 페소아 이명 체계의 출발점 노릇을 한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "fernando-pessoa--mensagem",
+      "titleKo": "메시지",
+      "titleOriginal": "Mensagem",
+      "year": 1934,
+      "genre": "poetry",
+      "significance": "페소아가 생전에 출간한 유일한 포르투갈어 단행본. 대항해 시대의 인물들을 짧은 시로 배열해 국가의 신화를 다시 쓰되, 신비주의 상징 체계를 배경에 깔았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "fernando-pessoa--livro-do-desassossego",
+      "titleKo": "불안의 서",
+      "titleOriginal": "Livro do Desassossego",
+      "year": 1982,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "1982년 사후 출간. 리스본의 회계 보조 베르나르두 소아르스의 이름으로 쓰인 단상 모음으로, 트렁크에 흩어져 있던 원고를 편집자가 모아 엮었다. 확정된 순서가 없어 판본마다 구성이 달라지는, 완성될 수 없는 형식의 책이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--fernando-pessoa--jose-saramago",
+      "type": "documented_influence",
+      "from": "fernando-pessoa (페르난두 페소아)",
+      "to": "jose-saramago (주제 사라마구)",
+      "evidenceLevel": "documented",
+      "summary": "사라마구는 『리카르두 레이스가 죽은 해』(1984)에서 페소아의 이명(異名) 가운데 하나를 주인공으로 삼고 죽은 페소아를 그의 대화 상대로 등장시켰다. 한 작가의 이명 체계를 소설의 전제로 통째로 가져온 이 구성 자체가 페소아 독서의 명시적 기록이다.",
+      "anchors": [
+        {
+          "workId": "jose-saramago--o-ano-da-morte-de-ricardo-reis"
+        }
+      ],
+      "sourceIds": [
+        "src--fundacao-jose-saramago",
+        "src--pessoa-letter-casais-monteiro"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--walt-whitman--fernando-pessoa (→ walt-whitman 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--pessoa-letter-casais-monteiro": {
+      "id": "src--pessoa-letter-casais-monteiro",
+      "title": "아돌푸 카사이스 몬테이루에게 보낸 편지 (1935. 1. 13.)",
+      "publisherOrInstitution": "Fernando Pessoa 서간",
+      "citation": "이명(heteronym)들이 어떻게 생겨났는지와 1914년 3월 8일의 경위를 페소아 자신이 서술한 편지 — 이명 체계의 1차 근거"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--fundacao-jose-saramago": {
+      "id": "src--fundacao-jose-saramago",
+      "title": "Fundação José Saramago — 작가 연보·저작 목록",
+      "publisherOrInstitution": "Fundação José Saramago (Casa dos Bicos, Lisboa)",
+      "citation": "사라마구의 저작 연보와 전기 사실 확인용 재단 자료. 도메인을 확인하지 못해 URL은 기록하지 않는다 — QC가 확인 후 채운다"
+    }
+  }
+}

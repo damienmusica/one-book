@@ -1,0 +1,136 @@
+{
+  "id": "li-bai",
+  "page": "https://literary-planet.pages.dev/authors/li-bai/",
+  "author": {
+    "names": {
+      "ko": "이백",
+      "original": "李白",
+      "aliases": [
+        "이태백"
+      ]
+    },
+    "birthYear": 701,
+    "deathYear": 762,
+    "activeRange": [
+      720,
+      762
+    ],
+    "languages": [
+      "lzh"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "importanceReason": "율시가 자리를 잡아 가던 시대에 율시를 적게 쓰고 길이도 가락도 매이지 않는 가행과 악부로 되돌아가, 술과 달과 신선의 상상으로 한시가 규칙 바깥에서도 설 수 있음을 보여주었다. 「촉도난」처럼 행의 길이가 들쭉날쭉한 장편에서는 구법의 파격 자체가 험한 길의 형상이 되어, 형식과 내용이 맞물리는 방식을 넓혔다. 두보와 나란히 놓이면서 한시는 규범과 자유라는 두 축을 갖게 되었으나, 송대 이후의 시학은 두보를 배워서 따를 수 있는 전범으로 두고 이백은 배워서 따를 수 없는 쪽에 놓았고, 강서시파에서 『두시언해』까지 제도로 이어진 계보는 두보 쪽이었다.",
+    "readingEntry": "li-bai--jingyesi",
+    "readingEntryReason": "스무 자 넉 줄이라 한 호흡에 끝나고, 달빛과 고향 생각이라는 가장 단순한 재료만으로 이 시인의 이미지 감각을 곧바로 보여준다.",
+    "readingOrder": [
+      "li-bai--jingyesi",
+      "li-bai--yuexiaduzhuo",
+      "li-bai--jiangjinjiu",
+      "li-bai--shudaonan"
+    ],
+    "readingWarning": "「촉도난」부터 시작하면 지명과 전설의 주석에 막힌다. 짧은 절구에서 가행체 장편으로 올라가는 순서를 권한다.",
+    "difficulty": 3,
+    "difficultyReason": "번역으로 읽으면 이미지는 곧바로 오지만 「장진주」·「촉도난」은 전고와 지명이 촘촘해 주석 없이는 표면만 지나가고, 가행체는 원문의 가락이 시의 절반이어서 원문을 나란히 실은 판본이 사실상 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--du-fu-shipian-li-bai",
+      "src--oku-no-hosomichi-jobun"
+    ]
+  },
+  "works": [
+    {
+      "id": "li-bai--yuexiaduzhuo",
+      "titleKo": "월하독작",
+      "titleOriginal": "月下獨酌",
+      "year": 744,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "「월하독작」 네 수 가운데 제1수는 달과 자기 그림자를 불러 셋이 마신다는 설정으로 혼자 마시는 술자리를 세 사람의 자리로 바꾼다. 고독을 과장 없이 유희로 전환하는 이백의 방법이 그 한 수 안에 다 들어 있다.",
+      "sourceIds": []
+    },
+    {
+      "id": "li-bai--jiangjinjiu",
+      "titleKo": "장진주",
+      "titleOriginal": "將進酒",
+      "year": 752,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "악부의 옛 제목을 빌려 길이가 들쭉날쭉한 행으로 쓴 권주가. 황하의 물이 하늘에서 내려온다는 첫 구로 시작해 시간의 소진과 술을 맞세우는, 이백 가행체의 대표작이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "li-bai--jingyesi",
+      "titleKo": "정야사",
+      "titleOriginal": "靜夜思",
+      "year": 726,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "다섯 자 넉 줄로 달빛과 고향 생각을 잇는 절구. 오늘 통용되는 본문은 명대 판본에서 정착한 이본이며, 동아시아의 한시 선집과 초학 교재에 거듭 실려 온 시로 전고 없이도 성립하는 이백의 평이한 쪽을 대표한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "li-bai--shudaonan",
+      "titleKo": "촉도난",
+      "titleOriginal": "蜀道難",
+      "year": 742,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "촉으로 가는 길의 험함을 감탄사와 불규칙한 구법으로 쌓아 올린 장편 악부. 구법의 파격이 그대로 길의 험준함이 되는 구성으로 당대에도 그의 대표작으로 꼽혔다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--li-bai--du-fu",
+      "type": "dialogue",
+      "from": "li-bai (이백)",
+      "to": "du-fu (두보)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 744년 낙양에서 만나 한동안 함께 유람했고, 두보는 「이백에게 부침」·「봄날 이백을 생각하며」·「꿈에 이백을 보다」 두 수 등 여러 편을 이백에게 바쳤다.",
+      "sourceIds": [
+        "src--du-fu-shipian-li-bai",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "influence--li-bai--matsuo-basho",
+      "type": "documented_influence",
+      "from": "li-bai (이백)",
+      "to": "matsuo-basho (마쓰오 바쇼)",
+      "evidenceLevel": "documented",
+      "summary": "『오쿠노 호소미치』 서두의 '月日は百代の過客にして'는 이백 「춘야연도리원서」의 '光陰者百代之過客'에서 어구를 가져오되 光陰을 月日로 바꿔 적은 것이다.",
+      "sourceIds": [
+        "src--oku-no-hosomichi-jobun"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--du-fu-shipian-li-bai": {
+      "id": "src--du-fu-shipian-li-bai",
+      "title": "杜甫 「贈李白」·「春日憶李白」·「夢李白二首」",
+      "publisherOrInstitution": "『杜工部集』 수록",
+      "citation": "두보가 이백에게 부친 시편들 — 두 사람의 교유를 남긴 자료"
+    },
+    "src--oku-no-hosomichi-jobun": {
+      "id": "src--oku-no-hosomichi-jobun",
+      "title": "『奥の細道』 서두 「月日は百代の過客にして」",
+      "publisherOrInstitution": "松尾芭蕉, 1702년 간행",
+      "citation": "이백 「春夜宴桃李園序」의 '光陰者百代之過客'을 옮겨 온 첫 문장"
+    }
+  }
+}

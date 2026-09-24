@@ -76,11 +76,9 @@
     "difficultyReason": "한 문장이 한 쪽을 넘기며 종속절로 뻗고, 사건이 아니라 지각의 미세한 변화가 수십 쪽을 차지한다. 인물 수백 명이 수십 년에 걸쳐 다시 등장하므로 앞 권의 이름을 기억한 채로 읽어야 한다.",
     "sourceIds": [
       "src--britannica",
-      "src--pleiade",
-      "src--kr-world-lit-editions"
+      "src--pleiade"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "franz-kafka",
@@ -148,11 +146,9 @@
     "difficultyReason": "문장 자체는 평이하지만 사건의 논리가 해석을 계속 미끄러뜨리고, 장편은 미완성이라 중반 이후 밀도 있는 독서가 필요하다.",
     "sourceIds": [
       "src--britannica",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "james-joyce",
@@ -230,11 +226,9 @@
     "difficultyReason": "입구는 평이하지만 출구가 멀다. 『율리시스』는 장마다 문체가 바뀌고 더블린의 지명·유행가·가톨릭 전례가 주석 없이 박혀 있으며, 『피네간의 경야』는 수십 개 언어를 합성한 조어로 쓰여 있어 사전과 안내서를 옆에 두는 독서가 전제된다.",
     "sourceIds": [
       "src--britannica",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "virginia-woolf",
@@ -306,11 +300,9 @@
     "difficultyReason": "문장은 맑지만 시점이 표시 없이 인물 사이를 옮겨 다녀, 지금 누구의 생각을 읽고 있는지를 독자가 계속 판정해야 한다. 줄거리로 요약되는 사건은 거의 없다.",
     "sourceIds": [
       "src--britannica",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "william-faulkner",
@@ -382,11 +374,9 @@
     "sourceIds": [
       "src--britannica",
       "src--library-of-america",
-      "src--nobelprize",
-      "src--kr-world-lit-editions"
+      "src--nobelprize"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "thomas-mann",
@@ -466,11 +456,9 @@
     "difficultyReason": "문장은 정연하고 줄거리도 명료하지만, 반어의 층이 두꺼워 서술자의 진심을 어디에 두어야 할지 판정하기 어렵다. 장편에서는 사상 논쟁이 수십 쪽씩 서사를 대신한다.",
     "sourceIds": [
       "src--britannica",
-      "src--nobelprize",
-      "src--kr-world-lit-editions"
+      "src--nobelprize"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "robert-musil",
@@ -546,11 +534,9 @@
     "difficultyReason": "줄거리가 진행되는 대신 인물의 사유가 논문처럼 전개되고, 합스부르크 말기 오스트리아의 정치·과학 담론을 전제로 깔고 있다. 게다가 대표작은 미완이라 결말이 없다.",
     "sourceIds": [
       "src--britannica",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "fernando-pessoa",
@@ -624,11 +610,9 @@
     "sourceIds": [
       "src--britannica",
       "src--poetry-foundation",
-      "src--pessoa-letter-casais-monteiro",
-      "src--kr-world-lit-editions"
+      "src--pessoa-letter-casais-monteiro"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "william-butler-yeats",
@@ -710,10 +694,8 @@
     "sourceIds": [
       "src--britannica",
       "src--poetry-foundation",
-      "src--nobelprize",
-      "src--kr-world-lit-editions"
+      "src--nobelprize"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   }
 ]

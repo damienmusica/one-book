@@ -1,0 +1,37 @@
+{
+  "id": "sadriddin-ayni",
+  "claims": [
+    {
+      "field": "importanceReason",
+      "claim": "1917년 부하라 아미르의 명으로 곤장 75대를 맞고 갇혔다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%BD%D0%B8,_%D0%A1%D0%B0%D0%B4%D1%80%D0%B8%D0%B4%D0%B4%D0%B8%D0%BD",
+      "quote": "он получил 75 ударов палками … мрачное подземелье — тюрьму Обхона",
+      "note": "태형 75대는 아디브 할리드도 확인한다 — \"Sadriddin Ayni was arrested and imprisoned … where he was ultimately given seventy-five lashes of the whip\"(Making Uzbekistan, 62). 다만 할리드는 순서를 '투옥 뒤 태형'으로 적어 러시아어 위키백과('태형 뒤 투옥')와 어긋난다. 이란 백과는 \"a brief imprisonment and severe beating by the amir's men in Bukhara in April\" 로만 적고 횟수를 밝히지 않는다."
+    },
+    {
+      "field": "works[sadriddin-ayni--namunai-adabiyoti-tojik].significance",
+      "claim": "루다키 이래 페르시아어 문학의 선집과 해설을 묶었다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/oapen-20.500.12657-88187",
+      "quote": "from Rudaki (d. ca. 941) to Fitrat and Ayni himself … very much a traditional work in the tazkira genre",
+      "note": "할리드 Making Uzbekistan 9장(310쪽). 다만 그는 선집의 초점이 '시'라고 특정한다 — \"From its focus on poetry to its use of the Islamic (hijri) calendar\"."
+    },
+    {
+      "field": "works[sadriddin-ayni--ghulomon].significance",
+      "claim": "19세기 부하라에서 소비에트 초기까지 한 예속 가문의 여러 세대를 따라간다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260831075132/https://www.iranicaonline.org/articles/ayni-sadr-al-din/",
+      "quote": "chronicles the life of Tajik peasants from the early nineteenth century to the triumph of the kolkhoz in the 1930s",
+      "note": "세대 연속은 인물 설정으로도 확인된다 — \"the kolkhoz member Hasan, the son of slaves\". 다만 이란 백과는 무대를 '부하라'로 특정하지 않고 '타지크 농민'이라고 쓴다."
+    },
+    {
+      "field": "works[sadriddin-ayni--odina].significance",
+      "claim": "타지크어 산문 소설의 출발점으로 다뤄지는 텍스트다",
+      "verdict": "confirmed",
+      "url": "https://cyberleninka.ru/article/n/osobennosti-zhanra-povesti-v-zhurnale-rahbari-donish-i-ego-vliyanie-na-povest-sadriddina-ayni-odina",
+      "quote": "о первой таджикской литературной повести «Одина»",
+      "note": "이란 백과도 같은 취지 — \"Odina was indeed unlike anything that had appeared before in Tajik prose\". 다만 '타지크어 최초의 장편소설'은 별개로 『도훈다』에 귀속된다."
+    }
+  ]
+}

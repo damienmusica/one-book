@@ -226,13 +226,18 @@ export function matchItems(work: Raw, author: Raw, items: Item[], lang: string) 
     const tokens = String(lang === "ko" ? work.titleKo ?? "" : mainTitle(work.titleOriginal ?? "")).split(/\s+/).map(norm).filter((x) => x.length >= 2);
     const tokenMatch = tokens.length >= 2 && tokens.every((x) => t.includes(x));
     if (!wantTitle || !(t.startsWith(wantTitle) || t.includes(wantTitle) || tokenMatch || (wantTitle.length >= 6 && wantTitle.includes(t) && t.length >= 6))) continue;
+    // 두세 글자 제목(『일기』)은 다른 책 제목 속에도 있다(『마녀들의 비밀일기』) — 앞머리가 맞아야 한다.
+    if (wantTitle.length <= 3 && !t.startsWith(wantTitle)) continue;
     if (lang === "ko") {
       const vol = volumeOf(it.title);
       if (vol && !["1", "상"].includes(vol)) continue;
       if (/큰글자|큰글씨|미니북|필사|워크북|컬러링|영한대역|한영대역|대역|원서 ?읽기|오디오북|포켓북|핸디북/.test(it.title)) continue;
     }
     const flatAuthor = norm(it.author);
-    const authorOk = it.authorQuery === true
+    // 한국어로 쓰는 작가의 이름은 표기가 흔들리지 않는다 — 저자 칸에 실제로 있어야 한다. 제목+이름 검색은 동명의
+    // 번역가(황정은 옮김 『마녀들의 비밀일기』)도 돌려준다.
+    const nativeKo = lang === "ko" && (author.languages ?? []).includes("ko");
+    const authorOk = (it.authorQuery === true && !nativeKo)
       || koTokens.some((k) => it.author.includes(k) || flatAuthor.includes(norm(k)))
       || origTokens.some((k) => flatAuthor.includes(norm(k)));
     if (!authorOk) continue;
@@ -316,15 +321,18 @@ async function main() {
       }
       const m = matchItems(w, a, items, P.lang);
       // 고정판 — 조회로 "이 작품의 지금 살 수 있는 표준판"이라고 판정된 ISBN(qc/edition-pins.json). 제목 규칙을 넘어서 들어간다.
-      for (const pin of (P.lang === "ko" ? PINS[w.id] ?? [] : [])) {
-        if (m.some((x) => x.isbn13 === pin.isbn13)) { m.find((x) => x.isbn13 === pin.isbn13)!.pinned = true; continue; }
+      const pinList = P.lang === "ko" ? PINS[w.id] ?? [] : [];
+      for (const [rank, pin] of pinList.entries()) {
+        // 고정판의 순서는 판정의 순서다(가장 권할 판이 먼저) — 값이 클수록 앞에 선다.
+        const weight = pinList.length - rank;
+        if (m.some((x) => x.isbn13 === pin.isbn13)) { m.find((x) => x.isbn13 === pin.isbn13)!.pinned = weight; continue; }
         await sleep(350);
         const raw = await cached([pname, "isbn", pin.isbn13], () => kakaoIsbn(key!, pin.isbn13)); calls++;
         const it = P.normalize(raw)[0];
         if (!it) { none.push(`${w.id}: 고정판 ${pin.isbn13} 을 카카오가 모른다`); continue; }
         const tr = it.translators.filter(Boolean);
         m.unshift({ workId: w.id, isbn13: pin.isbn13, title: it.title.trim(), publisher: it.publisher.trim(), year: it.year, language: "ko",
-          ...(tr.length ? { translator: tr.join(", ") } : {}), exact: true, pinned: true });
+          ...(tr.length ? { translator: tr.join(", ") } : {}), exact: true, pinned: weight });
       }
       if (m.length) found[w.id] = m; else none.push(`${w.id}: 검색 ${items.length}건 중 일치 0`);
     } catch (e) { none.push(`${w.id}: ${(e as Error).message}`); if (/429|quota|한도/i.test(String(e))) break; }

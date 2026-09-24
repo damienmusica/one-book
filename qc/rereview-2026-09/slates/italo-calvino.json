@@ -1,0 +1,215 @@
+{
+  "id": "italo-calvino",
+  "page": "https://literary-planet.pages.dev/authors/italo-calvino/",
+  "author": {
+    "names": {
+      "ko": "이탈로 칼비노",
+      "original": "Italo Calvino",
+      "aliases": [
+        "칼비노",
+        "Calvino"
+      ]
+    },
+    "birthYear": 1923,
+    "deathYear": 1985,
+    "activeRange": [
+      1947,
+      1985
+    ],
+    "languages": [
+      "it"
+    ],
+    "regions": [
+      "italy"
+    ],
+    "movements": [
+      "oulipo",
+      "postmodernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "전후 이탈리아의 저항 서사에서 출발해, 매 작품마다 서사의 규칙을 새로 정하고 그 규칙을 독자에게 드러내는 방식으로 소설을 다시 설계했다. 『보이지 않는 도시들』은 55개의 도시 묘사를 대칭 격자 위에 배열해 줄거리 없이도 책이 성립함을 보였고, 『어느 겨울밤 한 여행자가』는 첫 장만 있는 소설 열 편을 겹쳐 읽는 행위 자체를 주인공으로 만들었다. 울리포의 수학적 제약을 이탈리아 산문으로 옮기면서도 우화의 명료한 문장을 끝까지 유지해, 형식 실험이 난해함과 같은 말이 아님을 작품으로 증명했다.",
+    "readingEntry": "italo-calvino--le-citta-invisibili",
+    "readingEntryReason": "한 도시가 한 쪽 안에 끝나 아무 데서나 펼쳐 읽을 수 있고, 분량이 짧으면서도 칼비노가 소설로 무엇을 하려 했는지가 가장 선명하게 드러난다.",
+    "readingOrder": [
+      "italo-calvino--le-citta-invisibili",
+      "italo-calvino--il-barone-rampante",
+      "italo-calvino--le-cosmicomiche",
+      "italo-calvino--se-una-notte-d-inverno-un-viaggiatore",
+      "italo-calvino--lezioni-americane"
+    ],
+    "readingWarning": "『어느 겨울밤 한 여행자가』로 시작하면 소설의 관습을 이미 알고 있어야 성립하는 농담이 대부분 지나가버려, 미완의 조각 모음처럼만 읽힌다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 맑고 짧지만 책마다 다른 규칙 위에 세워져 있어 지금 무엇을 읽고 있는지 먼저 파악해야 하고, 후기작은 소설사에 대한 배경지식을 전제한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--treccani",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "italo-calvino--il-sentiero-dei-nidi-di-ragno",
+      "titleKo": "거미집으로 가는 오솔길",
+      "titleOriginal": "Il sentiero dei nidi di ragno",
+      "year": 1947,
+      "genre": "fiction",
+      "significance": "파르티잔 부대에 끼어든 소년의 시선으로 저항운동을 서술한 데뷔작. 전후 이탈리아의 공통 소재를 다루면서도 어른들의 전쟁을 이해하지 못하는 시점을 택해, 이후 우화적 서술의 출발점이 되었다.",
+      "sourceIds": [
+        "src--treccani",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "italo-calvino--il-barone-rampante",
+      "titleKo": "나무 위의 남작",
+      "titleOriginal": "Il barone rampante",
+      "year": 1957,
+      "genre": "fiction",
+      "significance": "열두 살에 나무 위로 올라가 평생 땅을 밟지 않은 귀족의 일생을 연대기 형식으로 서술한다. 규칙 하나를 끝까지 지키면 세계가 어떻게 달라 보이는지를 시험하는 칼비노식 설정의 완성형이다.",
+      "sourceIds": [
+        "src--treccani",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "italo-calvino--le-cosmicomiche",
+      "titleKo": "우주 만화",
+      "titleOriginal": "Le cosmicomiche",
+      "year": 1965,
+      "genre": "fiction",
+      "significance": "우주 팽창이나 달의 이동 같은 과학 명제를 각 편 첫머리에 인용해 놓고, 그 조건 아래 살아온 화자 Qfwfq의 회상으로 이야기를 전개하는 연작 단편집. 과학 서술과 민담의 어조를 맞붙였다.",
+      "sourceIds": [
+        "src--treccani",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "italo-calvino--le-citta-invisibili",
+      "titleKo": "보이지 않는 도시들",
+      "titleOriginal": "Le città invisibili",
+      "year": 1972,
+      "genre": "fiction",
+      "significance": "마르코 폴로가 쿠빌라이 칸에게 55개 도시를 보고하는 형식의 산문 연작. 도시들은 열한 개 범주로 나뉘어 대칭 격자 위에 배열되고, 줄거리 대신 그 배열이 구조를 담당한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "italo-calvino--se-una-notte-d-inverno-un-viaggiatore",
+      "titleKo": "어느 겨울밤 한 여행자가",
+      "titleOriginal": "Se una notte d'inverno un viaggiatore",
+      "year": 1979,
+      "genre": "fiction",
+      "significance": "'당신'이라는 독자를 주인공으로 세우고, 매번 첫 장에서 끊기는 소설 열 편을 그 사이에 끼워 넣는다. 오식·오제본·검열 같은 출판 유통의 사고를 소설의 사건으로 만든 메타픽션이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "italo-calvino--lezioni-americane",
+      "titleKo": "미국 강의",
+      "titleOriginal": "Lezioni americane: Sei proposte per il prossimo millennio",
+      "year": 1988,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "하버드 강연을 위해 준비하다 사망 직전까지 다섯 편을 쓴 원고로, 1988년 사후 출간되었다. 가벼움·빠름·정확·가시성·다양성을 다음 세기 문학이 지켜야 할 값으로 제시한다.",
+      "sourceIds": [
+        "src--treccani",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--italo-calvino--georges-perec",
+      "type": "dialogue",
+      "from": "italo-calvino (이탈로 칼비노)",
+      "to": "georges-perec (조르주 페렉)",
+      "evidenceLevel": "documented",
+      "summary": "페렉은 1967년, 칼비노는 1970년대 초에 울리포에 들어가 같은 작업장에서 제약 문학의 규칙을 함께 다뤘다. 월례 회합 기록에 두 사람의 참석과 발표가 남아 있고, 격자와 정해진 순회 경로를 소설의 골격으로 쓰는 방법이 이 시기 두 사람에게서 나란히 나타난다.",
+      "anchors": [
+        {
+          "year": 1967
+        }
+      ],
+      "sourceIds": [
+        "src--oulipo-workshop-records"
+      ]
+    },
+    {
+      "id": "affinity--italo-calvino--umberto-eco",
+      "type": "affinity",
+      "from": "italo-calvino (이탈로 칼비노)",
+      "to": "umberto-eco (움베르토 에코)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "이탈리아 전후 산문 연구는 두 사람을, 독자를 텍스트의 협력자로 세우는 같은 문제를 서로 다른 경로 — 한쪽은 소설의 규칙 설계, 다른 쪽은 기호학 이론 — 로 다룬 짝으로 취급한다. 같은 시기 같은 출판 지형 안에서 편집자와 이론가로 활동했다는 사정도 함께 거론된다.",
+      "sourceIds": [
+        "src--treccani"
+      ]
+    },
+    {
+      "id": "influence--italo-calvino--salman-rushdie",
+      "type": "documented_influence",
+      "from": "italo-calvino (이탈로 칼비노)",
+      "to": "salman-rushdie (살만 루슈디)",
+      "evidenceLevel": "documented",
+      "summary": "『상상의 조국』에는 루슈디가 칼비노를 다룬 서평이 함께 실려 있고, 그는 우화와 환상을 현대 소설의 정당한 도구로 되돌린 사례로 칼비노를 든다. 이야기 안에 이야기를 겹쳐 넣고 그 겹침을 독자에게 드러내는 루슈디의 액자 구조가 이 계보에 놓인다.",
+      "sourceIds": [
+        "src--rushdie-imaginary-homelands"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--jorge-luis-borges--italo-calvino (→ jorge-luis-borges 의 슬레이트에서 본다)",
+    "influence--joseph-conrad--italo-calvino (→ joseph-conrad 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--treccani": {
+      "id": "src--treccani",
+      "title": "Treccani — Enciclopedia Italiana / Dizionario Biografico degli Italiani",
+      "publisherOrInstitution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it",
+      "citation": "이탈리아 작가의 생애·저작 연보와 비평사 확인용 표준 참조"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--oulipo-workshop-records": {
+      "id": "src--oulipo-workshop-records",
+      "title": "울리포(Ouvroir de littérature potentielle) 회원·회합 기록 (1960– )",
+      "publisherOrInstitution": "Oulipo / Bibliothèque Oulipienne",
+      "citation": "월례 회합의 참석·발표 기록과 회원 가입 연도 — 페렉의 1967년 가입과 칼비노의 1970년대 초 가입, 두 사람이 같은 작업장에서 제약 문학을 함께 다룬 사실의 1차 근거"
+    },
+    "src--rushdie-imaginary-homelands": {
+      "id": "src--rushdie-imaginary-homelands",
+      "title": "『상상의 조국 — 에세이와 비평 1981–1991』 (Imaginary Homelands, 1991)",
+      "publisherOrInstitution": "Granta Books / Viking",
+      "citation": "가르시아 마르케스·칼비노 등 동시대 작가에 대한 루슈디의 서평과 자기 계보 진술이 함께 실린 산문집 — 루슈디가 누구를 읽었는지에 대한 1차 기록"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "id": "walt-whitman",
+  "page": "https://literary-planet.pages.dev/authors/walt-whitman/",
+  "author": {
+    "names": {
+      "ko": "월트 휘트먼",
+      "original": "Walt Whitman",
+      "aliases": [
+        "휘트먼",
+        "Walter Whitman"
+      ]
+    },
+    "birthYear": 1819,
+    "deathYear": 1892,
+    "activeRange": [
+      1855,
+      1892
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "각운과 정형 운율 대신 호흡의 길이로 행을 끊는 자유시를 영어에 정착시켰고, 목록의 반복만으로 한 편의 시가 국가 전체를 담는 규모를 만들었다. 노동·신체·성·일상의 사물을 시어에서 배제하지 않음으로써 시의 어휘에 걸려 있던 계급적 제한을 걷어냈다. 1855년 초판 이후 죽을 때까지 같은 책을 증보하고 재배열한 방식은 완결된 작품이 아니라 평생 자라는 텍스트라는 관념을 남겼고, 20세기 미국시 대부분이 그의 계승이나 반발로 자기 위치를 정했다.",
+    "readingEntry": "walt-whitman--leaves-of-grass",
+    "readingEntryReason": "1855년 초판은 열두 편, 95쪽 분량으로 후기 판본보다 훨씬 짧으면서도 자유시와 목록이라는 그의 발명이 이미 완성되어 있다.",
+    "readingOrder": [
+      "walt-whitman--leaves-of-grass",
+      "walt-whitman--drum-taps",
+      "walt-whitman--specimen-days",
+      "walt-whitman--democratic-vistas"
+    ],
+    "readingWarning": "1891–92년 임종판의 두께로 시작하면 40년치 증보가 뒤섞인 배열 때문에 반복과 목록에 먼저 지친다. 초판 또는 초판 기반 선집을 권한다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 어휘는 평이하지만 같은 구조의 행이 길게 이어지는 목록 형식이라, 산문을 읽듯 눈으로만 좇으면 리듬이 살지 않고 지루해진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--whitman-1855-preface",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "walt-whitman--leaves-of-grass",
+      "titleKo": "풀잎",
+      "titleOriginal": "Leaves of Grass",
+      "year": 1855,
+      "genre": "poetry",
+      "significance": "제목 없는 열두 편의 시와 산문 서문으로 이루어진 95쪽 분량의 자비 출판 초판. 자유시와 목록의 형식이 이미 완성되어 있었고, 이후 죽을 때까지 같은 제목 아래 증보·재배열되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--whitman-1855-preface",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "walt-whitman--drum-taps",
+      "titleKo": "북소리",
+      "titleOriginal": "Drum-Taps",
+      "year": 1865,
+      "genre": "poetry",
+      "significance": "남북전쟁 야전병원에서 부상병을 돌보며 쓴 전쟁 시집. 속편에 실린 링컨 애도시들과 함께 전쟁을 영웅담이 아니라 신체와 간병의 기록으로 옮겨 놓았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "walt-whitman--democratic-vistas",
+      "titleKo": "민주주의의 전망",
+      "titleOriginal": "Democratic Vistas",
+      "year": 1871,
+      "genre": "essay-criticism",
+      "significance": "전후 미국의 물질주의와 정치 부패를 비판하면서도 민주주의에 걸맞은 문학은 아직 없다고 주장한 장문의 산문. 시인이 자기 시학의 정치적 근거를 직접 진술한 문서다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "walt-whitman--specimen-days",
+      "titleKo": "표본이 된 나날들",
+      "titleOriginal": "Specimen Days",
+      "year": 1882,
+      "genre": "essay-criticism",
+      "significance": "전쟁 병원의 기록과 회복기의 자연 관찰을 시간 순서 없이 이어 붙인 산문집. 완결된 서사 대신 단편적 기록을 그대로 제시하는 구성이 20세기 논픽션 산문의 선례가 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--walt-whitman--john-steinbeck",
+      "type": "documented_influence",
+      "from": "walt-whitman (월트 휘트먼)",
+      "to": "john-steinbeck (존 스타인벡)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "미국 문학 연구의 스타인벡 비평은 프레더릭 카펜터의 「철학하는 조드 일가」(College English, 1941) 이래, 짐 케이시의 설교와 『분노의 포도』의 집단 인간 관념을 에머슨·휘트먼의 초월주의 계보가 소설로 옮겨 온 자리로 읽어 왔다.",
+      "sourceIds": [
+        "src--carpenter-philosophical-joads-1941"
+      ]
+    },
+    {
+      "id": "contrast--walt-whitman--emily-dickinson",
+      "type": "contrast",
+      "from": "walt-whitman (월트 휘트먼)",
+      "to": "emily-dickinson (에밀리 디킨슨)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "미국시의 두 출발점이 서로를 모른 채 세워졌다. 디킨슨은 1862년 히긴슨에게 보낸 편지에서 휘트먼의 책을 읽은 적이 없고 그가 부도덕하다고 들었다고 적었다. 목록의 반복으로 국가 전체를 삼키는 긴 행과, 찬송가 운율 안에서 대시로 끊는 열 행 — 같은 시기 같은 나라에서 정반대로 갈라진 이 대비는 미국시사 서술의 기본 축이다.",
+      "anchors": [
+        {
+          "year": 1862
+        }
+      ],
+      "sourceIds": [
+        "src--dickinson-letters-higginson",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "influence--walt-whitman--fernando-pessoa",
+      "type": "documented_influence",
+      "from": "walt-whitman (월트 휘트먼)",
+      "to": "fernando-pessoa (페르난두 페소아)",
+      "evidenceLevel": "documented",
+      "summary": "페소아는 이명 알바루 드 캄푸스의 이름으로 「월트 휘트먼에게 보내는 인사」를 썼고, 「해상 송시」의 폭주하는 목록과 감탄은 휘트먼의 긴 행을 포르투갈어로 옮겨 놓은 것이다. 캄푸스라는 인격 자체가 휘트먼적 확장을 담당하도록 설계되어 있다.",
+      "anchors": [
+        {
+          "workId": "fernando-pessoa--ode-maritima"
+        }
+      ],
+      "sourceIds": [
+        "src--pessoa-campos-saudacao-whitman"
+      ]
+    },
+    {
+      "id": "influence--walt-whitman--federico-garcia-lorca",
+      "type": "documented_influence",
+      "from": "walt-whitman (월트 휘트먼)",
+      "to": "federico-garcia-lorca (페데리코 가르시아 로르카)",
+      "evidenceLevel": "documented",
+      "summary": "로르카는 1929–30년 뉴욕 체류에서 쓴 『뉴욕의 시인』에 「월트 휘트먼에게 바치는 송가」를 넣었다. 자본의 도시가 짓밟은 노동과 몸을 노래하기 위해 휘트먼의 긴 행과 호명의 어법을 그대로 빌려 왔고, 동시에 그 목소리를 자기 시대의 위선과 맞세웠다.",
+      "anchors": [
+        {
+          "workId": "federico-garcia-lorca--poeta-en-nueva-york"
+        }
+      ],
+      "sourceIds": [
+        "src--fundacion-lorca"
+      ]
+    },
+    {
+      "id": "translation--walt-whitman--jorge-luis-borges",
+      "type": "translation",
+      "from": "walt-whitman (월트 휘트먼)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 1969년 『풀잎』의 스페인어 선역을 직접 고르고 옮겨 서문과 함께 냈다. 그보다 앞서 『또 다른 심문들』(1952)에 실은 「월트 휘트먼에 관한 노트」에서 그는 시 속의 '월트 휘트먼'을 시인이 만들어 낸 인물로 읽는 방법을 제시했고, 그 독법이 번역의 전제가 됐다.",
+      "anchors": [
+        {
+          "workId": "walt-whitman--leaves-of-grass",
+          "year": 1969
+        },
+        {
+          "workId": "jorge-luis-borges--otras-inquisiciones"
+        }
+      ],
+      "sourceIds": [
+        "src--borges-hojas-de-hierba-1969"
+      ]
+    },
+    {
+      "id": "influence--walt-whitman--pablo-neruda",
+      "type": "documented_influence",
+      "from": "walt-whitman (월트 휘트먼)",
+      "to": "pablo-neruda (파블로 네루다)",
+      "evidenceLevel": "documented",
+      "summary": "네루다는 회고록 『내가 살았음을 고백한다』(1974)에서 휘트먼을 자기 시의 출발점으로 꼽고 서재에 그의 초상을 걸어 두었다고 적었다. 『모두의 노래』가 아메리카의 지질·광산 노동·정복사를 목록으로 호명하는 방식은 『풀잎』의 열거를 스페인어 시행으로 옮긴 것이다.",
+      "anchors": [
+        {
+          "year": 1974
+        },
+        {
+          "workId": "pablo-neruda--canto-general"
+        },
+        {
+          "workId": "walt-whitman--leaves-of-grass"
+        }
+      ],
+      "sourceIds": [
+        "src--neruda-confieso-que-he-vivido"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--whitman-1855-preface": {
+      "id": "src--whitman-1855-preface",
+      "title": "『풀잎』 1855년 초판 서문",
+      "publisherOrInstitution": "월트 휘트먼 자비 출판 초판",
+      "citation": "자유시와 민주주의적 시학의 강령을 시인이 직접 선언한 1차 문헌"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--carpenter-philosophical-joads-1941": {
+      "id": "src--carpenter-philosophical-joads-1941",
+      "title": "The Philosophical Joads",
+      "publisherOrInstitution": "College English, 제2권 (1941)",
+      "citation": "프레더릭 I. 카펜터의 논문. 짐 케이시의 설교를 에머슨의 대령(大靈)과 휘트먼의 민주적 사랑, 듀이의 실용주의가 합류한 자리로 읽은 고전적 독법"
+    },
+    "src--dickinson-letters-higginson": {
+      "id": "src--dickinson-letters-higginson",
+      "title": "토머스 웬트워스 히긴슨에게 보낸 편지 (1862. 4.)",
+      "publisherOrInstitution": "에밀리 디킨슨 서한 — Houghton Library, Harvard University 소장 원고",
+      "citation": "휘트먼의 책을 읽은 적이 없고 그가 부도덕하다고 들었다고 적은 편지 — 두 시인 사이에 접촉이 없었다는 사실의 1차 근거"
+    },
+    "src--pessoa-campos-saudacao-whitman": {
+      "id": "src--pessoa-campos-saudacao-whitman",
+      "title": "「월트 휘트먼에게 보내는 인사」 (Saudação a Walt Whitman) — 알바루 드 캄푸스 명의, 1915년 무렵 집필·사후 간행",
+      "publisherOrInstitution": "페르난두 페소아 유고 — Espólio de Fernando Pessoa, Biblioteca Nacional de Portugal",
+      "citation": "휘트먼을 직접 호명하는 캄푸스의 장시 — 페소아가 휘트먼의 어법을 이명 하나에 배당했다는 사실의 1차 근거"
+    },
+    "src--fundacion-lorca": {
+      "id": "src--fundacion-lorca",
+      "title": "Fundación Federico García Lorca 연보·소장 자료 안내",
+      "publisherOrInstitution": "Centro Federico García Lorca (Granada)",
+      "citation": "로르카의 연보·원고·라 바라카 활동 자료를 관리하는 기관의 자료"
+    },
+    "src--borges-hojas-de-hierba-1969": {
+      "id": "src--borges-hojas-de-hierba-1969",
+      "title": "월트 휘트먼 『풀잎』 스페인어 선역 (Hojas de hierba, 보르헤스 옮김·서문, 1969)",
+      "publisherOrInstitution": "Juárez Editor, Buenos Aires",
+      "citation": "보르헤스가 직접 고르고 옮긴 휘트먼 선집 — 번역 사실의 1차 서지"
+    },
+    "src--neruda-confieso-que-he-vivido": {
+      "id": "src--neruda-confieso-que-he-vivido",
+      "title": "『내가 살았음을 고백한다』 (Confieso que he vivido: Memorias, 1974, 사후 출간)",
+      "publisherOrInstitution": "Editorial Seix Barral",
+      "citation": "네루다가 휘트먼·바예호·로르카와의 관계를 직접 서술한 회고록 — 독서와 교류의 1차 진술"
+    }
+  }
+}

@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "influence--simone-de-beauvoir--annie-ernaux",
+    "sourceId": "simone-de-beauvoir",
+    "targetId": "annie-ernaux",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "에르노는 노벨재단에 실린 자전 약력(Biographical, 2022)에서, 루앙의 고등학교에서 바칼로레아 철학 과정을 밟던 열여덟 살 무렵 보부아르의 『제2의 성』이 '계시'였고 '남자들이 남자들을 위해 만든 세계'에 눈뜨게 했다고 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ernaux-nobel-biographical-2022"
+    ]
+  },
+  {
+    "id": "influence--marcel-proust--annie-ernaux",
+    "sourceId": "marcel-proust",
+    "targetId": "annie-ernaux",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "에르노는 노벨 수상 강연(2022)에서 플로베르·울프와 함께 프루스트를 자신을 길러 준 '흠모하고 내면화한 작품'의 모델로 꼽으면서, 다시 쓰기 시작했을 때는 그들이 도움이 되지 않아 '잘 쓰기'와 결별해야 했다고 말했다. 노벨문학위원장 안데르스 올손의 bio-bibliography는 에르노가 『잃어버린 시간을 찾아서』를 자주 언급한다고 적고, 『세월』에는 프루스트적 의미의 정서적 기억 대신 집단 기억의 3인칭이 있다고 대비한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ernaux-nobel-lecture-2022",
+      "src--nobel-bio-bibliography-ernaux-2022"
+    ]
+  },
+  {
+    "id": "influence--jean-jacques-rousseau--annie-ernaux",
+    "sourceId": "jean-jacques-rousseau",
+    "targetId": "annie-ernaux",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "에르노는 노벨 수상 강연(2022)에서 자기가 계속 '나'라고 써야 했던 이유를 말하며, 1인칭이 18세기 프랑스의 민주적 쟁취였다는 근거로 루소 『고백록』의 첫 서문 — 평민이라도 왕들보다 더 많이, 더 잘 생각했다면 자기 영혼의 이야기가 더 흥미롭다는 대목 — 을 인용했다. 안데르스 올손의 bio-bibliography는 진실을 드러내려는 야심에서 에르노를 루소의 상속자로 부른다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ernaux-nobel-lecture-2022",
+      "src--nobel-bio-bibliography-ernaux-2022"
+    ]
+  },
+  {
+    "id": "influence--albert-camus--annie-ernaux",
+    "sourceId": "albert-camus",
+    "targetId": "annie-ernaux",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "에르노는 노벨 수상 강연(2022)에서 학교의 권장보다 우연이 고른 독서 목록에 카뮈의 『이방인』을 넣고, 계급을 건너온 작가가 출신 세계의 언어를 쓰기 어렵다는 딜레마를 말하며 그 언어의 거칢과 침묵의 예로 어머니와 아들의 대면을 그린 카뮈의 산문 「긍정과 부정의 사이」(Entre oui et non, 『안과 겉』 수록)를 '매우 아름다운 글'로 들었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--ernaux-nobel-lecture-2022"
+    ]
+  },
+  {
+    "id": "influence--kim-sowol--baek-seok",
+    "sourceId": "kim-sowol",
+    "targetId": "baek-seok",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.65,
+    "summary": "『한국민족문화대백과사전』 「백석」 항목(문혜원 집필)은 백석이 오산학교 시절 6년 선배 김소월을 동경하며 시인의 꿈을 키웠다고 쓴다. 오연경의 「백석 시의 ‘장소애’와 미적 토속성의 계보 ― 소월과의 상관성을 중심으로」(『한국시학연구』 32, 2011)는 고향을 지역 방언으로 노래한 백석의 토속성을 소월을 계승한 내적 계보로 읽고, 이경수(『비교한국학』 23권 1호, 2015)는 백석이 동화시에서 쓰기 시작한 종결어미 '-네'에서 동향 선배 김억·김소월의 영향을 짚는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--encykorea",
+      "src--oh-yeon-kyung-baek-seok-sowol-2011",
+      "src--lee-kyung-soo-jipgene-marshak-2015"
+    ]
+  },
+  {
+    "id": "translation--alexander-pushkin--baek-seok",
+    "sourceId": "alexander-pushkin",
+    "targetId": "baek-seok",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "1947년 무렵부터 러시아 문학 번역에 매진한 백석은 푸시킨의 시도 한국어로 옮겼다. 배대화의 「백석의 푸시킨 번역시 연구」(『슬라브연구』 28권 4호, 2012)는 백석이 옮긴 「작은 새」·「겨울길」·「겨울 아침」을 1920~30년대의 다른 번역과 비교하고, 장시 「짜르스코에 마을에서의 추억」의 백석 번역을 원시와 대조해 분석한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--bae-dae-hwa-baek-seok-pushkin-2012",
+      "src--encykorea"
+    ]
+  },
+  {
+    "id": "affinity--rainer-maria-rilke--baek-seok",
+    "sourceId": "rainer-maria-rilke",
+    "targetId": "baek-seok",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "백석은 1941년 만주 신경에서 발표한 「흰 바람벽이 있어」에서 프랑시스 잠과 함께 라이너 마리아 릴케의 이름을 불렀다. 노병춘의 「백석과 릴케와 잠 연구」(『인문논총』 62, 2023)는 두 시인의 자기 고백 시가 가난과 슬픔 속의 높은 정신을 드러내는 구조를 견주고, 이혜원의 「유랑 체험의 심화와 정신적 고양의 도정 ― 릴케와 백석 시의 비교 연구」(『비교한국학』 30권 1호, 2022)는 유랑 체험과 '나무' 이미지를 중심으로 두 시인을 비교한다. 두 연구 모두 영향은 시 속 호명과 당시의 번역 상황(노병춘은 1939·1941년의 일본어 번역, 이혜원은 1930년대 중반 이후 문단의 릴케 번역)에 기댄 추정으로 제시한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--no-byeong-chun-baek-seok-rilke-jammes-2023",
+      "src--lee-hye-won-rilke-baek-seok-2022"
+    ]
+  },
+  {
+    "id": "affinity--haruki-murakami--banana-yoshimoto",
+    "sourceId": "haruki-murakami",
+    "targetId": "banana-yoshimoto",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "한국·일본·영어권 연구가 두 사람을 한 짝으로 읽어 왔다. 김용안의 KCI 등재 논문 「하루키와 바나나의 소설 소고」(『일본문화연구』 24, 2007)는 두 사람을 현대 일본 소설을 대표하는 작가로 놓고 대중적 인기, 해외 독자, 현대인의 고독이라는 제재, 읽기 쉬운 부드러운 문체를 공통점으로 든 뒤, 같은 고독을 두고 『토니 타키타니』는 풍경만 제시하고 『키친』은 치유와 긍정으로 향한다고 대비했다. 후미노부 무라카미의 연구서(Routledge, 2005)와 하가 다다히코의 『アメリカは日本文化をどう読んでいるか』(2018)도 두 작가를 함께 다룬다. 두 사람의 직접 교류를 근거로 한 관계는 아니다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--kim-yongan-haruki-banana-2007",
+      "src--murakami-fuminobu-postmodern-2005",
+      "src--haga-america-nihon-bunka-2018"
+    ]
+  },
+  {
+    "id": "influence--edgar-allan-poe--bernard-werber",
+    "sourceId": "edgar-allan-poe",
+    "targetId": "bernard-werber",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "베르베르는 공식 웹사이트의 자전 연보 「Biographie détaillée」에서 1970년에 쓴 세 번째 단편 「Les enquêtes de Taupin」(8쪽)을 불가능해 보이는 밀실 살인에 논리적 해답을 찾는 첫 작업으로 소개하고, 그 영향으로 에드거 앨런 포를 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--werber-biographie-detaillee"
+    ]
+  },
+  {
+    "id": "influence--arthur-conan-doyle--bernard-werber",
+    "sourceId": "arthur-conan-doyle",
+    "targetId": "bernard-werber",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "베르베르는 같은 자전 연보에서 『아버지들의 아버지』(Le Père de nos pères, 1998)로 ‘나의 셜록 홈스와 왓슨 박사’를 만들었다고 쓰고, 과학 기자 이지도르 카첸버그를 홈스에, 젊은 기자 뤼크레스 넴로드를 왓슨에 대응시켰다. 두 사람은 뒤에 『뇌』에서 다시 사건을 쫓는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--werber-biographie-detaillee"
+    ]
+  },
+  {
+    "id": "influence--antoine-de-saint-exupery--bernard-werber",
+    "sourceId": "antoine-de-saint-exupery",
+    "targetId": "bernard-werber",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "베르베르는 같은 자전 연보에서 『여행의 책』(Le Livre du voyage, 1997)이 생텍쥐페리 『어린 왕자』식 구조를 빌리되, 허구의 인물 대신 독자를 이야기 한가운데 두고 책이 독자에게 직접 말을 거는 실험이었다고 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--werber-biographie-detaillee"
+    ]
+  },
+  {
+    "id": "influence--gustave-flaubert--bernard-werber",
+    "sourceId": "gustave-flaubert",
+    "targetId": "bernard-werber",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "베르베르는 같은 자전 연보의 1982년 항목에서, 매일 아침 『개미』 원고를 고쳐 쓰던 무렵 필립 K. 딕 말고 자신을 감탄시킨 단 한 명의 작가로 플로베르의 『살람보』를 꼽고, 공들여 다듬었으면서도 정말 영화적이라는 점을 이유로 들었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--werber-biographie-detaillee"
+    ]
+  },
+  {
+    "id": "influence--park-wan-suh--cho-nam-joo",
+    "sourceId": "park-wan-suh",
+    "targetId": "cho-nam-joo",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "조남주는 박완서 8주기 오마주 소설집 『멜랑콜리 해피엔딩』(작가정신, 2019)에 짧은 소설 「어떤 전형」을 싣고, 막막할 때 박완서의 문장을 손끝으로 짚어 가며 읽는 것이 자신에게 '의식 같은 일'이라고 밝혔다(매일경제, 2019년 1월 27일). 같은 해 채널예스 팟캐스트 '책읽아웃'에서는 『세상에 예쁜 것』 이후 박완서의 산문을 찾아 읽으며 엄마로서, 뒤늦게 소설을 시작한 여성 작가로서 공감했고 그를 혼자 든든하게 여긴다고 말했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--mk-melancholy-happy-ending-2019",
+      "src--channel-yes-cho-nam-joo-2019",
+      "src--melancholy-happy-ending-2019"
+    ]
+  },
+  {
+    "id": "affinity--cho-se-hui--hwang-sok-yong",
+    "sourceId": "cho-se-hui",
+    "targetId": "hwang-sok-yong",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "이호규의 논문 「1970년대 저항의 두 지점 — 황석영의 〈객지〉와 조세희의 〈뫼비우스의 띠〉 비교 연구」(『현대문학의 연구』 28, 2006)는 두 작품을 1970년대 저항 서사의 두 지점으로 놓고 비교하고, 한국민족문화대백과사전의 「민중문학」·「도시소설」 항목도 두 사람을 1970년대 노동자·도시 주변부 서사의 대표로 함께 꼽는다. 황석영은 자신이 가려 뽑은 『황석영의 한국 명단편 101』(2015)에 조세희의 「난장이가 쏘아올린 작은 공」을 실었다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--lee-hogyu-1970s-resistance-2006",
+      "src--encykorea",
+      "src--hwang-sok-yong-101-2015"
+    ]
+  },
+  {
+    "id": "influence--yi-sang--choi-in-hoon",
+    "sourceId": "yi-sang",
+    "targetId": "choi-in-hoon",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "최인훈은 1960년대 연작 『크리스마스 캐럴』에서 '13인의 아해'·'까마귀'·'날개'라는 표현으로 이상의 「오감도」와 「날개」를 불러냈고, 마지막 장편 『화두』에서는 이상이 작품에 자기 아호를 써넣은 방식을 자기 반성의 형식으로 이어받았다. 이유경의 논문 「최인훈의 이상(李箱) 다시 쓰기」(『한국현대문학연구』 59, 2019)가 최인훈이 이상을 자기 문학적 계보의 맨 앞에 세운 과정으로 이를 추적한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--lee-yukyung-choi-in-hoon-yi-sang-2019"
+    ]
+  },
+  {
+    "id": "influence--charles-dickens--choi-in-hoon",
+    "sourceId": "charles-dickens",
+    "targetId": "choi-in-hoon",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.5,
+    "summary": "최인훈은 1960년대에 디킨스의 소설 제목을 그대로 가져온 다섯 편 연작 「크리스마스 캐럴」을 썼다. 배지연의 논문 「최인훈 『크리스마스 캐럴』 연작 연구」(『한국언어문학』 75, 2010)는 이 연작을 디킨스의 『크리스마스 캐럴』과 비교해, 두 작품이 모두 크리스마스를 배경으로 당대의 풍속과 담론을 다룬다는 공통점 위에서 최인훈이 디킨스를 패러디로 다시 썼다고 분석한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--bae-jiyeon-choi-in-hoon-christmas-carol-2010"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--cormac-mccarthy",
+    "sourceId": "william-faulkner",
+    "targetId": "cormac-mccarthy",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "리처드 B. 우드워드의 1992년 『뉴욕 타임스 매거진』 인터뷰 「Cormac McCarthy's Venomous Fiction」은 매카시의 어휘·구두법·수사·방언이 포크너에게 크게 빚졌고 매카시도 그 빚을 부정하지 않는다고 적었으며, 매카시는 같은 자리에서 포크너를 '좋은 작가'로 꼽았다. 2023년 『뉴욕 타임스』 부고는 첫 다섯 권의 편집자 앨버트 어스킨이 포크너의 마지막 편집자였다고 기록했고, 첫 장편 The Orchard Keeper(1965)는 1966년 윌리엄 포크너 재단상을 받았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nyt-woodward-mccarthy-1992",
+      "src--nyt-mccarthy-obituary-2023",
+      "src--britannica"
+    ]
+  },
+  {
+    "id": "influence--herman-melville--cormac-mccarthy",
+    "sourceId": "herman-melville",
+    "targetId": "cormac-mccarthy",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "매카시는 1992년 『뉴욕 타임스 매거진』 인터뷰(리처드 B. 우드워드)에서 삶과 죽음의 문제를 다루는 '좋은 작가'로 멜빌을 꼽았고, 인터뷰어는 『모비 딕』을 매카시가 가장 좋아하는 책으로 소개하며 『핏빛 자오선』의 판사 홀든이 에이해브 선장과 비슷한 장광설을 늘어놓는다고 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nyt-woodward-mccarthy-1992"
+    ]
+  },
+  {
+    "id": "influence--fyodor-dostoevsky--cormac-mccarthy",
+    "sourceId": "fyodor-dostoevsky",
+    "targetId": "cormac-mccarthy",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "매카시는 1992년 『뉴욕 타임스 매거진』 인터뷰(리처드 B. 우드워드)에서 삶과 죽음의 문제를 다루지 않는 작가를 빼고 '좋은 작가'로 멜빌·포크너와 함께 도스토옙스키를 꼽았으며, 같은 기준으로 프루스트와 헨리 제임스는 '문학이 아니다'라고 했다. 이 발언은 2023년 『뉴욕 타임스』 부고에 다시 인용되었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nyt-woodward-mccarthy-1992",
+      "src--nyt-mccarthy-obituary-2023"
+    ]
+  },
+  {
+    "id": "affinity--park-wan-suh--eun-hee-kyung",
+    "sourceId": "park-wan-suh",
+    "targetId": "eun-hee-kyung",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "한국 여성 성장소설 연구는 박완서와 은희경을 나란히 읽어 왔다. 나병철의 「여성 성장소설과 아버지의 부재」(『여성문학연구』 10호, 2003)는 박완서의 『나목』과 은희경의 『새의 선물』을 오정희의 「유년의 뜰」과 함께 분석했고, 하영미의 석사논문(한국교원대, 2004)과 오춘화의 박사논문(국제문화대학원대, 2009)은 박완서의 『그 많던 싱아는 누가 다 먹었을까』와 『새의 선물』을 1990년대 여성 성장소설로 묶어 다룬다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--na-byeongcheol-yeoseong-seongjangsoseol-2003",
+      "src--ha-yeongmi-1990s-yeoseong-seongjangsoseol-2004",
+      "src--oh-chunhwa-han-jung-yeoseong-seongjangsoseol-2009"
+    ]
+  },
+  {
+    "id": "dialogue--park-wan-suh--eun-hee-kyung",
+    "sourceId": "park-wan-suh",
+    "targetId": "eun-hee-kyung",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "은희경은 2011년 1월 박완서가 세상을 떠나자 트위터에 여섯 차례 추모글을 올려, 봄에 영화를 보고 맛있는 것을 사 주겠다던 박완서와의 약속을 지키지 못했고 병중에 오지 말라는 말에 찾아가지 않은 것을 후회한다고 썼다(한국일보 2011. 1. 23.). 2012년 1월 세계사 『박완서 소설전집』 결정판 출판기념회에서는 출판사에서 박완서를 처음 만난 일을 회고하며 삶에 대해 늘 긴장하고 의심하고 질문하는 박완서의 태도에 감명받았다고 말했다(서울신문 2012. 1. 28.).",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hankookilbo-2011-park-wan-suh-tributes",
+      "src--seoul-shinmun-2012-park-wan-suh-jeonjip"
+    ]
+  },
+  {
+    "id": "influence--yi-sang--han-kang",
+    "sourceId": "yi-sang",
+    "targetId": "han-kang",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "동아일보 영문판 인터뷰 기사 「Humans As Plants」(2007. 11. 2.)는 한강이 대학 시절 이상의 시집에서 인간이 식물이어야 한다는 구절에 사로잡혀 폭력의 시대를 산 시인이 왜 그렇게 썼는지를 생각했고, 그것이 식물이 되려는 여자를 그린 『채식주의자』 연작으로 이어졌다고 전한다. 한강은 2012년 연세대 대학원 석사논문 「이상의 회화와 문학세계」에서 이상의 자화상과 자의식적 시편을 겹쳐 읽었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--donga-humans-as-plants-2007",
+      "src--han-kang-ma-thesis-yi-sang-2012"
+    ]
+  },
+  {
+    "id": "translation--raymond-carver--haruki-murakami",
+    "sourceId": "raymond-carver",
+    "targetId": "haruki-murakami",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "무라카미 하루키는 1983년 카버 작품집 『ぼくが電話をかけている場所』를 일본어로 옮겨 낸 뒤, 중앙공론사판 『レイモンド・カーヴァー全集』 전 8권을 번역해 2004년에 완간했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--murakami-trans-carver-zenshu",
+      "src--jawiki-murakami-haruki"
+    ]
+  },
+  {
+    "id": "translation--jd-salinger--haruki-murakami",
+    "sourceId": "jd-salinger",
+    "targetId": "haruki-murakami",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "무라카미 하루키는 일본에서 『ライ麦畑でつかまえて』라는 제목으로 읽혀 온 샐린저의 장편을 새로 옮겨 2003년 하쿠스이샤에서 『キャッチャー・イン・ザ・ライ』로 냈다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--murakami-trans-catcher-2003"
+    ]
+  },
+  {
+    "id": "translation--ursula-k-le-guin--haruki-murakami",
+    "sourceId": "ursula-k-le-guin",
+    "targetId": "haruki-murakami",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "무라카미 하루키는 르 귄의 그림책 『Catwings』를 『空飛び猫』(고단샤, 1993)로 옮겼고, 이어 『帰ってきた空飛び猫』(1993), 『素晴らしいアレキサンダーと、空飛び猫たち』(1997), 『空を駆けるジェーン』(2001)까지 연작 네 권을 번역했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--murakami-trans-catwings"
+    ]
+  },
+  {
+    "id": "influence--fyodor-dostoevsky--haruki-murakami",
+    "sourceId": "fyodor-dostoevsky",
+    "targetId": "haruki-murakami",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "무라카미 하루키는 『グレート・ギャツビー』 번역본(2006)의 역자 후기에서 지금까지 만난 가장 중요한 책 세 권으로 『위대한 개츠비』, 『카라마조프 가의 형제들』, 챈들러의 『기나긴 이별』을 꼽았다. 1990년대 후반부터 ‘종합소설’을 쓰고 싶다고 말해 왔는데, 그 예로 드는 작품도 『카라마조프 가의 형제들』이다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--murakami-trans-great-gatsby-2006",
+      "src--jawiki-murakami-haruki"
+    ]
+  },
+  {
+    "id": "influence--cho-se-hui--hwang-jung-eun",
+    "sourceId": "cho-se-hui",
+    "targetId": "hwang-jung-eun",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "황정은은 2016년 『Asymptote』 인터뷰에서 국내 작가나 문학적 흐름 가운데 주요한 영향을 묻는 질문에, 조세희 『난장이가 쏘아올린 작은 공』의 '간단하고 명료한 문장들'을 무척 좋아했다고 답했다. 같은 인터뷰에서 그는 『百의 그림자』를 2009년 용산 참사 뒤에 썼다고 밝혔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--asymptote-hwang-jungeun-2016"
+    ]
+  },
+  {
+    "id": "influence--kim-seung-ok--hwang-jung-eun",
+    "sourceId": "kim-seung-ok",
+    "targetId": "hwang-jung-eun",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "같은 2016년 『Asymptote』 인터뷰의 같은 답변에서 황정은은 조세희와 함께 오정희와 김승옥의 단편들을 좋아했다고 꼽았다. 이름과 장르를 든 것 이상의 구체적인 영향 진술은 없어 그 정도로만 기록한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--asymptote-hwang-jungeun-2016"
+    ]
+  },
+  {
+    "id": "dialogue--han-kang--hwang-jung-eun",
+    "sourceId": "han-kang",
+    "targetId": "hwang-jung-eun",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "한강은 틸티드 액시스 출판사가 2016년 10월 낸 『百의 그림자』 영역본 『One Hundred Shadows』(정예원 옮김)에 서문을 써, 은교와 무재의 사랑을 두 사람을 둘러싼 세계의 폭력에 맞서는 거의 윤리적인 힘으로 읽었다. 한쪽이 다른 쪽의 책을 소개한 기록이며, 황정은이 한강에 대해 쓴 글은 여기 걸지 않는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--one-hundred-shadows-tilted-axis-2016",
+      "src--asymptote-hwang-jungeun-2016"
+    ]
+  },
+  {
+    "id": "dialogue--kenzaburo-oe--hwang-sok-yong",
+    "sourceId": "kenzaburo-oe",
+    "targetId": "hwang-sok-yong",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.8,
+    "summary": "황석영은 2005년 7월 도쿄 세타가야의 오에 겐자부로 자택을 찾아 대담했고, 『한겨레』가 이를 광복60돌 대담(2005. 8. 15.)으로 실었다. 이 대담에서 오에는 「객지」가 일본에 소개된 뒤로 황석영의 작품을 계속 읽어 왔고 『손님』 영어판 추천서를 썼다고 말했으며, 황석영은 대학생 때 오에의 「사육」 같은 단편을 읽고 전쟁 중 아이들의 이야기에 깊이 공감했다고 답했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hankyoreh-2005-hwang-oe-dialogue"
+    ]
+  },
+  {
+    "id": "influence--franz-kafka--jd-salinger",
+    "sourceId": "franz-kafka",
+    "targetId": "jd-salinger",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "샐린저는 1951년 『Book-of-the-Month Club News』에 실린 윌리엄 맥스웰의 인물평에서 사랑하는 작가를 꼽으며 카프카를 맨 앞에 두었고, 중편 「Seymour: An Introduction」(『뉴요커』, 1959)의 첫 제사로 카프카의 문장을 올렸다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--maxwell-bomc-news-salinger-1951",
+      "src--salinger-seymour-an-introduction-new-yorker-1959"
+    ]
+  },
+  {
+    "id": "dialogue--ernest-hemingway--jd-salinger",
+    "sourceId": "ernest-hemingway",
+    "targetId": "jd-salinger",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.75,
+    "summary": "샐린저는 제2차 세계대전 중 파리에서 종군기자로 일하던 헤밍웨이를 찾아가 만났고, 이후 둘은 편지를 주고받았다. 카를로스 베이커의 전기 『Ernest Hemingway: A Life Story』(1969)는 1946년 7월 샐린저가 헤밍웨이에게 그와 나눈 대화가 전쟁에서 몇 안 되는 좋은 기억이었다고 쓴 편지를 전한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--baker-hemingway-life-story-1969"
+    ]
+  },
+  {
+    "id": "translation--rabindranath-tagore--jeong-ji-yong",
+    "sourceId": "rabindranath-tagore",
+    "targetId": "jeong-ji-yong",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "휘문고보 5학년이던 정지용은 1923년 1월 교지 『휘문』 창간호에 타고르의 『기탄잘리』에서 고른 시 9편을 번역해 실었다. 최동호의 논문 「정지용의 타고르 시집 『기탄자리』 번역 시편」(『한국학연구』 39, 2011)이 이 번역을 발굴해 같은 해 3월 나온 김억의 번역과 대조했고, 정지용 자신도 산문 「조택원 무용에 관한 것」에서 그 무렵 '인도의 타고르 시에 미쳐 있었던 것'이라고 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hwimun-changganho-1923",
+      "src--choi-dong-ho-jeong-ji-yong-gitanjali-2011",
+      "src--encykorea"
+    ]
+  },
+  {
+    "id": "translation--walt-whitman--jeong-ji-yong",
+    "sourceId": "walt-whitman",
+    "targetId": "jeong-ji-yong",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "정지용은 최재서가 엮은 『해외서정시집』(인문사, 1938) 미국편에 휘트먼의 「수전 이야기」·「눈물」 등을 옮겨 실었고, 해방 뒤에는 경향신문사 주간을 맡았고 『경향신문』에 휘트먼 등의 시를 번역해 발표했다. 둘째 산문집 『산문』(1949)에는 「눈물」·「대로의 노래」·「나는 앉아서 바라본다」 등 휘트먼 역시가 묶였고, 정헌의 논문 「정지용의 월트 휘트먼 시 번역 작업의 목적」(『영미문화』 18권 2호, 2018)이 이 번역 작업을 다룬다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--haeoe-seojeong-sijip-1938",
+      "src--jeong-ji-yong-jeonjip-minumsa-2016",
+      "src--jeong-heon-jeong-ji-yong-whitman-2018",
+      "src--encykorea"
+    ]
+  },
+  {
+    "id": "mentorship--jeong-ji-yong--yi-sang",
+    "sourceId": "jeong-ji-yong",
+    "targetId": "yi-sang",
+    "type": "mentorship",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "정지용은 1933년 6월 창간된 천주교 잡지 『가톨릭청년』의 편찬위원(편집 고문)이었고, 이상의 첫 한글 시 「꽃나무」가 이 잡지 1933년 7월호에 실린 데 이어 「이런 시」·「거울」 등이 같은 해 이 잡지에 발표되었다. 민음사가 권영민 엮음 『정지용 전집』(2016)을 내며 쓴 소개는 정지용이 청록파 시인들을 비롯해 이상, 윤동주 등을 '발굴해 냈다'고 적는다. 이상은 이듬해인 1934년 정지용이 결성 회원이던 구인회에 가입했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--gatollik-cheongnyeon-1933",
+      "src--encykorea",
+      "src--catholic-encyclopedia-jeong-ji-yong",
+      "src--jeong-ji-yong-jeonjip-minumsa-2016"
+    ]
+  },
+  {
+    "id": "influence--charles-dickens--jeong-you-jeong",
+    "sourceId": "charles-dickens",
+    "targetId": "jeong-you-jeong",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "정유정은 『7년의 밤』 출간 인터뷰(『국민일보』 2011년 3월 18일)에서 헤밍웨이·찰스 디킨스·스티븐 킹을 정말 좋아하는 작가로 꼽고, 디킨스처럼 인물이 독자를 안달 나고 걱정하게 만드는 작품을 쓰고 싶다고 말했다. 2017년 『Korean Literature Now』의 산문 「I Dream of Fire, Always」에서는 디킨스가 평생 ‘아버지를 찾는 소년들’을 변주했다며 작가마다 평생의 주제가 있다는 예로 들었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kmib-jeong-you-jeong-2011",
+      "src--kln-jeong-you-jeong-i-dream-of-fire-2017"
+    ]
+  },
+  {
+    "id": "influence--ernest-hemingway--jeong-you-jeong",
+    "sourceId": "ernest-hemingway",
+    "targetId": "jeong-you-jeong",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "정유정은 『국민일보』 인터뷰(2011년 3월 18일)에서 헤밍웨이를 디킨스·스티븐 킹과 함께 정말 좋아하는 작가로 꼽았고, 2017년 산문 「I Dream of Fire, Always」(『Korean Literature Now』)에서 헤밍웨이가 여러 구조와 소재로 ‘죽음과 마주한 사람들’을 그렸다며 한 작가가 평생 붙드는 주제의 예로 들었다. 자신의 주제는 ‘우리 안의 야수’라고 밝혔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kmib-jeong-you-jeong-2011",
+      "src--kln-jeong-you-jeong-i-dream-of-fire-2017"
+    ]
+  },
+  {
+    "id": "translation--ovid--jhumpa-lahiri",
+    "sourceId": "ovid",
+    "targetId": "jhumpa-lahiri",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "라히리는 산문집 『나와 타인을 번역한다는 것』(2022)의 서문에서, 책을 닫는 후기 「변신을 번역한다는 것」이 프린스턴 고전학과 동료 옐레나 바라즈와 함께 오비디우스의 『변신 이야기』를 라틴어에서 영어로 공역하는 작업을 다룬다고 밝히고, 번역의 세계에서 이 시는 자신에게 태양이라고 썼다. 같은 책의 「에코 예찬」은 에코와 나르키소스 신화로 쓰기와 번역의 차이를 읽는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--lahiri-translating-myself-and-others-2022"
+    ]
+  },
+  {
+    "id": "translation--italo-calvino--jhumpa-lahiri",
+    "sourceId": "italo-calvino",
+    "targetId": "jhumpa-lahiri",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "라히리는 『나와 타인을 번역한다는 것』(2022) 서문에서, 이탈리아어로 쓴 에세이 「이국의 칼비노」(Calvino Abroad)를 쓸 무렵에는 칼비노를 포함해 여섯 명이 넘는 이탈리아 작가의 글을 영어로 옮긴 뒤였다고 적었다. 이 에세이는 번역된 작가로서 칼비노가 누린 인기를 다루며, 책 부록에 이탈리아어 원문이 실렸다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--lahiri-translating-myself-and-others-2022"
+    ]
+  },
+  {
+    "id": "influence--anton-chekhov--jhumpa-lahiri",
+    "sourceId": "anton-chekhov",
+    "targetId": "jhumpa-lahiri",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "라히리는 시카고 공공도서관 'One Book, One Chicago' 인터뷰(2006)에서 처음 본격적으로 쓰기 시작했을 때 조이스·체호프·플래너리 오코너·가르시아 마르케스의 단편을 공부했다고 답했고, 『뉴욕 타임스 북 리뷰』 「By the Book」 인터뷰(2013)에서도 좋아하는 단편 작가로 체호프를 꼽았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--chipublib-lahiri-interview-2006",
+      "src--nyt-by-the-book-lahiri-2013"
+    ]
+  },
+  {
+    "id": "influence--james-joyce--jhumpa-lahiri",
+    "sourceId": "james-joyce",
+    "targetId": "jhumpa-lahiri",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "라히리는 시카고 공공도서관 'One Book, One Chicago' 인터뷰(2006)에서 처음 본격적으로 쓰기 시작했을 때 공부한 단편의 첫 이름으로 제임스 조이스를 들었고, 『뉴욕 타임스 북 리뷰』 「By the Book」 인터뷰(2013)에서도 좋아하는 단편 작가로 조이스를 꼽았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--chipublib-lahiri-interview-2006",
+      "src--nyt-by-the-book-lahiri-2013"
+    ]
+  },
+  {
+    "id": "influence--flannery-oconnor--jhumpa-lahiri",
+    "sourceId": "flannery-oconnor",
+    "targetId": "jhumpa-lahiri",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "라히리는 시카고 공공도서관 'One Book, One Chicago' 인터뷰(2006)에서 처음 본격적으로 쓰기 시작했을 때 플래너리 오코너의 단편을 조이스·체호프·가르시아 마르케스와 함께 공부했다고 답했고, 『뉴욕 타임스 북 리뷰』 「By the Book」 인터뷰(2013)에서도 좋아하는 단편 작가 명단에 오코너를 넣었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--chipublib-lahiri-interview-2006",
+      "src--nyt-by-the-book-lahiri-2013"
+    ]
+  },
+  {
+    "id": "translation--samuel-beckett--jon-fosse",
+    "sourceId": "samuel-beckett",
+    "targetId": "jon-fosse",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "포세는 베케트의 「첫사랑」 등 짧은 산문 여섯 편을 베케트 자신의 영어판에서 뉘노르스크로 옮겨 『Fyrste kjærleik og annan kortare prosa』(Skald, 2018)로 냈다. 노벨위원회의 2023년 작가 소개(안데르스 올손)는 포세가 스스로 꼽는 친화의 이름(Wahlverwandtschaften)으로 베케트를 토마스 베른하르트·게오르크 트라클과 함께 든다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fosse-trans-beckett-fyrste-kjaerleik-2018",
+      "src--fosse-nobel-bio-bibliography-2023"
+    ]
+  },
+  {
+    "id": "translation--franz-kafka--jon-fosse",
+    "sourceId": "franz-kafka",
+    "targetId": "jon-fosse",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "포세는 카프카를 독일어에서 뉘노르스크로 옮겨 『Forvandlinga og andre tekstar』(Skald, 2016)와 『Prosessen』(Skald, 2022)을 냈다. 노벨 강연 「A Silent Language」(2023)에서는 글쓰기가 일종의 기도라고 했던 자기 말을 카프카도 똑같이 했다는 것을 읽고 위안을 얻었다고 말했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fosse-trans-kafka-forvandlinga-2016",
+      "src--fosse-trans-kafka-prosessen-2022",
+      "src--fosse-nobel-lecture-2023"
+    ]
+  },
+  {
+    "id": "translation--henrik-ibsen--jon-fosse",
+    "sourceId": "henrik-ibsen",
+    "targetId": "jon-fosse",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "포세는 입센의 『페르 귄트』를 뉘노르스크로 옮겼다. 2005년 2월 19일 Det Norske Teatret에서 초연된 공연본은 그가 뉘노르스크로 다시 쓰고 로버트 윌슨이 줄인 판본이었고, 2018년에는 Samlaget에서 그의 뉘노르스크 번역 『Peer Gynt: eit dramatisk dikt』가 책으로 나왔다. 노벨위원회 서지에 따르면 2015년에는 『인형의 집』을 바탕으로 한 단막 오페라 『Nora: too late』의 대본도 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fosse-peer-gynt-det-norske-teatret-2005",
+      "src--fosse-trans-ibsen-peer-gynt-2018",
+      "src--fosse-nobel-bio-bibliography-2023"
+    ]
+  },
+  {
+    "id": "translation--rainer-maria-rilke--jon-fosse",
+    "sourceId": "rainer-maria-rilke",
+    "targetId": "jon-fosse",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "포세는 릴케의 『두이노의 비가』를 뉘노르스크 시로 다시 지어 『Duino-elegiar』(Samlaget, 2022)로 냈다. 노벨위원회의 2023년 작가 소개는 이 책을 트라클의 『Sebastian i draum』(2019)과 함께, 그가 최근 뉘노르스크 번역 목록에 더한 현대 서정시의 고전 두 권으로 든다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fosse-trans-rilke-duino-elegiar-2022",
+      "src--fosse-nobel-bio-bibliography-2023"
+    ]
+  },
+  {
+    "id": "translation--james-joyce--jon-fosse",
+    "sourceId": "james-joyce",
+    "targetId": "jon-fosse",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "포세는 『더블린 사람들』을 끝맺는 단편 「죽은 사람들」을 영어에서 뉘노르스크로 옮겨 『Dei døde』(Skald, 2017)로 냈다. 앞서 1996년에는 얀 H. 란드로와 함께 노르웨이 북클럽 총서 '세기의 도서관(Århundrets bibliotek)'판 『율리시스』에 딸린 조이스 작가 소책자의 글을 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fosse-trans-joyce-dei-dode-2017",
+      "src--landro-fosse-james-joyce-1996"
+    ]
+  },
+  {
+    "id": "translation--antoine-de-saint-exupery--jon-fosse",
+    "sourceId": "antoine-de-saint-exupery",
+    "targetId": "jon-fosse",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "포세는 『어린 왕자』를 프랑스어에서 뉘노르스크로 옮겨 원작자의 삽화와 함께 『Den vesle prinsen』(Samlaget, 2020)으로 냈다. 출판사 소개는 이 책이 이 번역으로 마침내 뉘노르스크판을 얻었다고 적는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--fosse-trans-saint-exupery-vesle-prinsen-2020",
+      "src--fosse-nobel-bio-bibliography-2023"
+    ]
+  },
+  {
+    "id": "affinity--edgar-allan-poe--keigo-higashino",
+    "sourceId": "edgar-allan-poe",
+    "targetId": "keigo-higashino",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.55,
+    "summary": "비교문학 연구자 호리에 다마키는 논문 「東野圭吾とエドガー・アラン・ポー」(『大阪府立大学紀要』 60권, 2012)에서 비교문학의 시각으로는 히가시노에게서 란포보다 포의 자질이 보인다고 보고, 『超・殺人事件』의 인물이 밀실을 고안한 이는 포라며 「모르그 가의 살인」을 드는 대목과 『숙명』의 쌍둥이 형제의 반목을 포의 「윌리엄 윌슨」에 잇대어 읽었다. 같은 연구자는 「東野圭吾と猫」(2016)에서 히가시노 추리소설 속 고양이를 포의 「검은 고양이」에 견주었다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--horie-higashino-poe-2012",
+      "src--horie-higashino-neko-2016"
+    ]
+  },
+  {
+    "id": "affinity--haruki-murakami--keigo-higashino",
+    "sourceId": "haruki-murakami",
+    "targetId": "keigo-higashino",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "비교문학 연구자 오노 마사코의 연구서 『母恋い—メディアと、村上春樹・東野圭吾にみる〝母性〞』(2021)는 제2부에서 두 작가의 소설을 나란히 읽어, 무라카미에게서는 ‘잃어버린 모성’을, 히가시노에게서는 ‘그리움의 대상이 되는 모성’을 짚는다. 『백야행』과 『환야』를 다룬 장에서는 살인과 자기희생의 동기 밑에 부모와 유년에 대한 향수, 특히 어머니를 그리는 마음이 있다고 보며, 이 책에 대한 나카무라 미하루의 서평이 일본비교문학회 학회지 『比較文学』 66권(2024)에 실렸다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--ohno-hahakoi-2021",
+      "src--nakamura-review-hahakoi-2024"
+    ]
+  },
+  {
+    "id": "influence--cho-se-hui--kim-ae-ran",
+    "sourceId": "cho-se-hui",
+    "targetId": "kim-ae-ran",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "김애란은 2007년 YES24 기고문 「잊을 수 없는 소설 속 그 인물」에서 조세희 연작 『난장이가 쏘아올린 작은 공』 중 「칼날」의 신애를 잊을 수 없는 인물로 꼽았고, 산문집 『잊기 좋은 이름』(2019)의 표제 산문에서 그 글을 다시 인용했다. 단편 「좋은 이웃」(2021)에서는 주인공 부부가 버리는 책으로 『난장이가 쏘아올린 작은 공』을 골라 그 한 대목을 소설 말미에 넣었고, 2025년 경향신문·채널예스 인터뷰에서 집과 계층을 써 온 선배 세대의 역사를 의식하며 한 세대가 사랑한 작품 가운데 이 책을 택했다고 밝혔다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-ae-ran-sinae-essay-2007",
+      "src--khan-kim-ae-ran-2025-07-02",
+      "src--chyes24-kim-ae-ran-2025-07-22"
+    ]
+  },
+  {
+    "id": "dialogue--kim-yeon-su--kim-ae-ran",
+    "sourceId": "kim-yeon-su",
+    "targetId": "kim-ae-ran",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.75,
+    "summary": "김애란은 김연수의 산문집 『청춘의 문장들』 10주년 특별판 『청춘의 문장들+』(마음산책, 2014)에 발문을 썼고, 첫 산문집 『잊기 좋은 이름』(2019)에도 『청춘의 문장들』을 다시 펼친 날의 글을 실었다. 두 사람은 2015년 상트페테르부르크 문학행사에 함께 참가했고, 김애란은 발문과 인터뷰에서 김연수를 '선배'라 부른다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--cheongchun-ui-munjangdeul-plus-2014",
+      "src--cultura-kim-ae-ran-2023"
+    ]
+  },
+  {
+    "id": "influence--park-wan-suh--kim-ae-ran",
+    "sourceId": "park-wan-suh",
+    "targetId": "kim-ae-ran",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "2011년 제2회 문학동네 젊은작가상에서 박완서가 타계 직전 심사로 꼽은 김애란의 「물속 골리앗」이 대상을 받았고, 김애란은 한국일보 인터뷰에서 박완서의 타계를 두고 '큰 산이 거기 있었고 나도 거기에 기대고 있었구나'라고 말했다. 이듬해 나온 박완서 유작 소설집 『기나긴 하루』(2012)에는 김애란이 추천한 박완서의 기존 단편이 실렸다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hankookilbo-kim-ae-ran-2011-02-06",
+      "src--sisain-kim-ae-ran-2011-03-30",
+      "src--readersnews-gin-haru-2012"
+    ]
+  },
+  {
+    "id": "affinity--albert-camus--kim-hoon",
+    "sourceId": "albert-camus",
+    "targetId": "kim-hoon",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "불문학자 이찬규는 KCI 등재 논문 「알베르 카뮈와 김훈: 재난의 장소에 대하여」(『한국프랑스학논집』 91, 2015)에서 카뮈의 『페스트』와 김훈의 『남한산성』을 전염병과 전쟁이라는 재난에 갇힌 두 장소로 나란히 읽고, 두 소설이 영웅주의에 맞서 이념보다 몸의 고통과 구체적 삶의 편에 선다고 분석했다. 2017년 한국프랑스문화학회 발표 「김훈의 『남한산성』과 카뮈의 『페스트』」에서 이 비교를 다시 다뤘다. 두 작가 사이의 직접 교류를 말하는 관계는 아니다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--lee-chan-kyu-camus-kim-hoon-2015",
+      "src--lee-chan-kyu-namhansanseong-la-peste-2017"
+    ]
+  },
+  {
+    "id": "affinity--hwang-sok-yong--kim-hoon",
+    "sourceId": "hwang-sok-yong",
+    "targetId": "kim-hoon",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.5,
+    "summary": "이경재의 KCI 등재 논문 「한국현대노년소설과 말년성」(『현대소설연구』 79, 2020)은 황석영의 『해질 무렵』(2015)과 김훈의 『공터에서』(2017)를 한국 노년소설의 말년성이라는 틀로 함께 읽는다. 앞의 소설에서는 거대한 파국으로서의 말년성을, 뒤의 소설에서는 생물학적 차원에서 그려진 말년성을 읽어 내 두 작가의 늦은 장편을 짝지었다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--lee-kyung-jae-lateness-hwang-kim-2020"
+    ]
+  },
+  {
+    "id": "dialogue--yi-cheong-jun--kim-seung-ok",
+    "sourceId": "yi-cheong-jun",
+    "targetId": "kim-seung-ok",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.75,
+    "summary": "두 사람은 1960년 서울대 불문과와 독문과에 함께 입학한 동기로, 1961년 2학기 말 다음 학기 등록금을 걱정하다 김승옥의 주도로 함께 신춘문예에 도전하자고 도모했다(신형철, 「이청준 선생님 감사합니다」, 시사IN 2008). 김승옥은 등단 50주년 모임에서 '평생지기' 이청준과의 문청 시절을 회고했고(한국일보 2012. 3. 21.), 2016년 경향신문 필담 인터뷰에서는 세상을 떠난 친구로 이청준의 이름을 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hankookilbo-2012-kim-seung-ok-debut-50",
+      "src--sisain-2008-yi-cheong-jun-tribute",
+      "src--khan-2016-kim-seung-ok-interview"
+    ]
+  },
+  {
+    "id": "dialogue--kim-seung-ok--kim-hoon",
+    "sourceId": "kim-seung-ok",
+    "targetId": "kim-hoon",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "한국일보 문학 담당 기자였던 김훈은 기획 연재 「문학기행—명작의 무대」 1986년 5월 18일자에서 김승옥과 함께 「무진기행」의 무대인 순천만을 답사하고 한 면 기사를 썼다. 한국일보 2007년 10월 4일 「우리 시대의 명저 50」 기사가 이 연재의 경위와 함께 이 사실을 기록한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--hankookilbo-1986-munhak-gihaeng-mujin",
+      "src--hankookilbo-2007-munhak-gihaeng-myeongjeo"
+    ]
+  },
+  {
+    "id": "translation--pablo-neruda--kim-soo-young",
+    "sourceId": "pablo-neruda",
+    "targetId": "kim-soo-young",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "김수영은 1968년 『창작과 비평』에 파블로 네루다의 시 여섯 편을 「고양이의 꿈 외 5편」이라는 제목으로 번역해 실었다(국립중앙도서관 서지 'P. 네루다 ; 김수영 역'). 우석균의 논문 「칠레 문학 수용: 칠레 쿠데타 서사와 한국의 지적 계보」(『이베로아메리카연구』 30권 3호, 2019)는 한국에서 칠레 문학이 쿠데타 서사를 축으로 읽혀 온 현상의 뿌리를 시인 김수영의 이 1968년 네루다 번역에서 찾는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--nlk-neruda-kim-soo-young-1968",
+      "src--woo-seok-kyun-chile-reception-2019"
+    ]
+  },
+  {
+    "id": "influence--william-butler-yeats--kim-soo-young",
+    "sourceId": "william-butler-yeats",
+    "targetId": "kim-soo-young",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "김수영은 예이츠론 「신비주의와 민족주의의 시인 예이츠」를 썼고(『김수영 전집 2: 산문』, 민음사, 2018 수록), 박수연의 「김수영의 연극 시대, 그리고 예이츠 이후」(『비교한국학』 26권 3호, 2018)는 그가 1964년 예이츠를 번역한 뒤, 그해의 한일회담 반대 운동과 함께 예이츠의 민족주의와 그 번역 작업의 영향 아래 민족과 역사의 문제로 나아갔다고 본다. 한세정의 「김수영의 예이츠 문학 수용 양상 연구」(『한국예이츠 저널』 53, 2017)는 4·19 이후 그의 새 시 쓰기 모색이 예이츠 문학과 맞물려 있고, 『巨大한 뿌리』에서 아일랜드 전통에 대한 예이츠의 관심을 창조적으로 받아들였다고 분석한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-soo-young-jeonjip-2018",
+      "src--park-soo-yeon-kim-soo-young-yeats-2018",
+      "src--han-se-jeong-kim-soo-young-yeats-2017"
+    ]
+  },
+  {
+    "id": "influence--yi-sang--kim-soo-young",
+    "sourceId": "yi-sang",
+    "targetId": "kim-soo-young",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "한국 현대시 연구는 이상에서 김수영으로 이어지는 영향 관계를 따로 다뤄 왔다. 조강석의 「이상의 두 갈래 시적 영향 관계에 대한 소고(1): 김수영의 경우」(『한국현대문학연구』 32, 2010)는 두 시인이 일상을 적극적으로 시화하고 거침없는 병렬적 진술을 쓰며 서구적 근대와의 속도차라는 같은 문제의식을 붙들었다고 보고, 신형철의 「이상(李箱)의 시와 초현실주의 시론이 김수영의 후기 시론에 미친 영향」(『한국시학연구』 50, 2017)은 김수영의 산문 「참여시의 정리」(1967)를 중심으로 그 영향을 추적한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--cho-kang-sok-yi-sang-kim-soo-young-2010",
+      "src--shin-hyoung-cheol-yi-sang-kim-soo-young-2017"
+    ]
+  },
+  {
+    "id": "translation--raymond-carver--kim-yeon-su",
+    "sourceId": "raymond-carver",
+    "targetId": "kim-yeon-su",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "김연수는 레이먼드 카버의 소설집 『대성당』을 우리말로 옮겨 2007년 문학동네에서 냈고, 2014년 새로 다듬은 번역으로 문학동네 세계문학전집 개정판을 냈다. 자신의 소설집 『세계의 끝 여자친구』(2009)에는 「모두에게 복된 새해—레이먼드 카버에게」라는 단편을 실었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-yeon-su-trans-cathedral-2007",
+      "src--kim-yeon-su-segyeui-kkeut-yeojachingu-2009"
+    ]
+  },
+  {
+    "id": "translation--roald-dahl--kim-yeon-su",
+    "sourceId": "roald-dahl",
+    "targetId": "kim-yeon-su",
+    "type": "translation",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "김연수는 로알드 달의 동화 『창문닦이 삼총사』를 옮겨 1997년 시공주니어 문고로 냈다. 시공주니어 책의 역자 소개는 1993년 『작가세계』로 등단한 그의 역서로 이 책을 들고, 한국문학번역원 작가 소개도 그가 레이먼드 카버와 로알드 달을 번역했다고 적는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-yeon-su-trans-dahl-1997",
+      "src--lti-korea"
+    ]
+  },
+  {
+    "id": "influence--yi-sang--kim-yeon-su",
+    "sourceId": "yi-sang",
+    "targetId": "kim-yeon-su",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "김연수는 장편 『꾿빠이, 이상』(2001)에서 이상의 데드마스크와 「오감도 시 제16호」의 진위를 추적했다. 2016년 개정판 책 소개는 그가 필명의 ‘연(衍)’을 이상의 유고소설 「단발」 남자 주인공 이름에서 따왔다고 밝히고, 김연수는 한겨레 칼럼 「소녀잡지 속 박제가 된 천재를 아시오?」에서 이 소설이 아니었다면 소설가가 아닌 다른 일을 하고 있었을 것이라고 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-yeon-su-kkutppai-isang-2001",
+      "src--lti-korea"
+    ]
+  },
+  {
+    "id": "influence--baek-seok--kim-yeon-su",
+    "sourceId": "baek-seok",
+    "targetId": "kim-yeon-su",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "김연수의 장편 『일곱 해의 마지막』(2020)은 시집 『사슴』의 시인 백석을 모델로 한 ‘기행’이 전쟁 뒤 북한에서 보낸 1957–58년을 그린다. 작가는 ‘작가의 말’에서 이 소설을 백석이 살아보지 못한 세계와 그가 죽는 순간까지 놓지 않았던 소망에 대한 이야기라고 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-yeon-su-ilgop-haeui-majimak-2020",
+      "src--lti-korea"
+    ]
+  },
+  {
+    "id": "influence--jorge-luis-borges--kim-yeon-su",
+    "sourceId": "jorge-luis-borges",
+    "targetId": "kim-yeon-su",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.6,
+    "summary": "함정임의 논문 「21세기 한국 소설의 라틴아메리카 소설 경향」(『비교문화연구』 25, 2011)은 김연수의 첫 소설집 『스무 살』(2000)의 단편들을 보르헤스의 소설 기법과 겹쳐 읽는다. 한국문학번역원 작가 소개도 김연수의 소설 세계가 보르헤스에게 많은 빚을 졌고 그 영향이 『스무 살』에서 가장 두드러진다고 적는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--ham-jeong-im-latin-american-trend-2011",
+      "src--lti-korea"
+    ]
+  },
+  {
+    "id": "influence--sophocles--kim-young-ha",
+    "sourceId": "sophocles",
+    "targetId": "kim-young-ha",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "김영하는 강연 산문 『읽다』(2015)에서 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’을 발견했다고 썼다. 앞서 『살인자의 기억법』(2013)의 화자는 자신이 오이디푸스와 정반대 방향으로, 파멸에서 망각을 거쳐 무지로 간다고 스스로를 규정한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-young-ha-ikda-2015",
+      "src--kim-young-ha-sarinjaui-gieokbeop-2013"
+    ]
+  },
+  {
+    "id": "influence--homer--kim-young-ha",
+    "sourceId": "homer",
+    "targetId": "kim-young-ha",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "김영하는 『읽다』(2015)에서 『오디세이아』를 『오이디푸스 왕』과 함께 인간의 오만을 깨닫게 한 독서로 꼽았고, 『여행의 이유』(2019)의 산문 「노바디의 여행」에서는 『오디세이아』를 읽으며 허영과 자만을 버리고 자신을 낮추는 여행자의 태도를 이야기한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kim-young-ha-ikda-2015",
+      "src--kim-young-ha-yeohaengui-iyu-2019"
+    ]
+  },
+  {
+    "id": "dialogue--kim-yu-jeong--yi-sang",
+    "sourceId": "kim-yu-jeong",
+    "targetId": "yi-sang",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.8,
+    "summary": "이상은 자신이 편집을 맡은 구인회 동인지 『시와 소설』 창간호(1936) 편집후기에서 구인회가 김유정과 김환태를 새 회원으로 맞았다고 적었고, 두 사람이 모두 세상을 떠난 뒤 발표된 「김유정 — 소설체로 쓴 김유정론」(『청색지』, 1939)에서 창문사에서 교정을 보던 자기를 찾아와 말없이 마주 앉던 김유정을 그렸다. 한국민족문화대백과사전도 김유정이 후기 구인회의 일원으로 이상 등과 교분을 가지며 창작했다고 기록한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--wikisource-ko-yi-sang-siwa-soseol-afterword-1936",
+      "src--wikisource-ko-yi-sang-kim-yu-jeong-1939",
+      "src--encykorea"
+    ]
+  },
+  {
+    "id": "dialogue--jeong-ji-yong--kim-yu-jeong",
+    "sourceId": "jeong-ji-yong",
+    "targetId": "kim-yu-jeong",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "두 사람은 1936년 구인회 회원으로 동인지 『시와 소설』 창간호(1936년 3월)에 함께 작품을 실었다 — 정지용은 시 「유선형 애상」을, 김유정은 소설 「두꺼비」를. 같은 동인 이상은 「김유정 — 소설체로 쓴 김유정론」(『청색지』, 1939)에서 김기림·박태원·정지용·김유정 네 사람의 성격을 차례로 그린 뒤 이 네 사람이 서로 친하다고 적었고, 한국문학번역원의 작가 소개도 김유정이 가입한 구인회에 정지용과 이상이 있었다고 기록한다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--encykorea",
+      "src--wikisource-ko-yi-sang-kim-yu-jeong-1939",
+      "src--lti-korea"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--mo-yan",
+    "sourceId": "william-faulkner",
+    "targetId": "mo-yan",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "모옌은 노벨 강연 「이야기꾼(Storytellers)」(2012)에서 자기 문학 영토 '가오미 둥베이향'을 만드는 데 포크너와 가르시아 마르케스에게서 큰 영감을 받았다고 밝혔다. 많이 읽지는 않았지만 작가에게는 자기만의 땅이 있어야 한다는 것을 그들에게서 배웠고, 2년쯤 두 사람의 발자취를 따르다가 그들을 '타오르는 용광로', 자신을 '얼음덩어리'에 빗대며 그 영향에서 벗어나기로 했다고 말했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--mo-yan-nobel-lecture-2012",
+      "src--mo-yan-story-of-my-life-2012"
+    ]
+  },
+  {
+    "id": "influence--gabriel-garcia-marquez--mo-yan",
+    "sourceId": "gabriel-garcia-marquez",
+    "targetId": "mo-yan",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "모옌은 노벨재단에 낸 자전 「내 삶의 이야기(The Story of My Life)」에서 1984년 해방군예술학원에 들어가 번역으로 읽은 포크너와 가르시아 마르케스 등의 소설이 자신을 고향에 집중하게 했다고 적었고, 노벨 강연 「이야기꾼」에서도 가오미 둥베이향을 만드는 데 두 사람에게서 큰 영감을 받았다고 밝혔다. 같은 자전에서 『탄샹싱』(2001)은 서구, 특히 라틴아메리카 마술적 리얼리즘의 영향에서 벗어나려고 쓴 소설이라고 했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--mo-yan-story-of-my-life-2012",
+      "src--mo-yan-nobel-lecture-2012"
+    ]
+  },
+  {
+    "id": "influence--yasunari-kawabata--mo-yan",
+    "sourceId": "yasunari-kawabata",
+    "targetId": "mo-yan",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "모옌은 2007년 중국국제방송의 《中日网络对话·秋季对话》에서, 1980년대에 읽은 가와바타의 『설국』 속 검은 아키타견이 디딤돌 위에서 따뜻한 물을 오래 핥는 문장이 고향의 큰 흰 개를 떠올리게 해 단편 「백구와 그네」를 썼고 그때부터 '가오미 둥베이향'의 깃발을 들었다고 말했다(『北京娱乐信报』 2007. 10. 1. 보도).",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--beijing-yule-xinbao-mo-yan-snow-country-2007"
+    ]
+  },
+  {
+    "id": "influence--lu-xun--mo-yan",
+    "sourceId": "lu-xun",
+    "targetId": "mo-yan",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "모옌은 노벨재단에 낸 자전 「내 삶의 이야기(The Story of My Life)」에서, 청나라 말기를 배경으로 한 『탄샹싱』(2001)을 쓰며 루쉰을 비롯한 현대 작가들의 국민성 비판을 이어받아 발전시켰다고 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--mo-yan-story-of-my-life-2012"
+    ]
+  },
+  {
+    "id": "influence--thomas-mann--olga-tokarczuk",
+    "sourceId": "thomas-mann",
+    "targetId": "olga-tokarczuk",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "토카르추크는 1913년 결핵 요양원을 무대로 한 장편 『Empuzjon』(2022)의 영어판 출간 대담(Literary Hub, 2024. 9. 24., 번역가 안토니아 로이드존스와의 대화)에서 이 소설이 좋아하는 작가 토마스 만의 작품을 의식적으로 신중하게 참조한 것이며, 만이 한때 자신의 문학관에 매우 강한 영향을 주었고 『마의 산』을 여러 번 다시 읽었다고 말했다. 2019년 노벨 강연 「다정한 서술자」에서도 만의 『파우스트 박사』를 예로 들었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--lithub-tokarczuk-lloyd-jones-2024",
+      "src--tokarczuk-nobel-lecture-2019"
+    ]
+  },
+  {
+    "id": "influence--ts-eliot--olga-tokarczuk",
+    "sourceId": "ts-eliot",
+    "targetId": "olga-tokarczuk",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "토카르추크는 노벨재단 연감에 실린 자전 에세이에서 시에는 끝내 크게 끌리지 않았지만 T. S. 엘리엇만은 집요하게 읽었고 그 덕에 영어를 익히게 되었으며, 그의 대역 시집을 오래 들고 다니며 구할 수 있는 번역을 모두 오려 붙였다고 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--tokarczuk-nobel-autobiography"
+    ]
+  },
+  {
+    "id": "influence--julio-cortazar--olga-tokarczuk",
+    "sourceId": "julio-cortazar",
+    "targetId": "olga-tokarczuk",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.7,
+    "summary": "토카르추크는 노벨재단 연감에 실린 자전 에세이에서 고등학교 4년을 가장 큰 문학적 발견의 시기로 꼽으며 그때 포크너와 코르타사르로 되돌아가곤 했다고 쓰고, 바르샤바 대학 시절 대학 파업 기간에는 코르타사르를 전부 읽었다고 적었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--tokarczuk-nobel-autobiography"
+    ]
+  },
+  {
+    "id": "dialogue--park-kyung-ni--park-wan-suh",
+    "sourceId": "park-kyung-ni",
+    "targetId": "park-wan-suh",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.8,
+    "summary": "박완서는 2008년 5월 박경리의 임종을 가족과 함께 지켰고, 문인장으로 치러진 장례의 장례위원장을 맡아 빈소에서 고인을 '형님이자 어머니, 대선배'로 회고했다(국제신문·한국일보 2008. 5.). 2010년 산문집 『못 가본 길이 더 아름답다』에는 칩거하던 자신을 세상으로 이끌어 준 사람으로 박경리를 추모한 글과 그의 유고시집 서평을 실었다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--kookje-20080505-park-kyung-ni-binso",
+      "src--hankookilbo-20080506-park-kyung-ni",
+      "src--park-wan-suh-mot-gabon-gil-2010"
+    ]
+  },
+  {
+    "id": "influence--jorge-luis-borges--paulo-coelho",
+    "sourceId": "jorge-luis-borges",
+    "targetId": "paulo-coelho",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "코엘료는 2008년 자기 블로그의 독자 문답에서 보르헤스를 ‘끊임없는 영감의 원천’이라 부르며 『오 자히르』의 ‘자히르’를 보르헤스 단편에서 찾았다고 밝혔고, 2010년 블로그 글 「My new book」에서는 보르헤스 단편 「알레프」를 들어 새 소설 제목을 『알레프』로 정했다고 썼다. 다만 2011년 『뉴욕 타임스』 인터뷰에서는 보르헤스를 ‘나의 아이콘’이라 부르면서도 영향을 준 것은 그 사람이 아니라 알레프라는 개념이라고 말했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--coelho-blog-borges-2008",
+      "src--coelho-blog-my-new-book-2010",
+      "src--nyt-coelho-aleph-2011"
+    ]
+  },
+  {
+    "id": "influence--rumi--paulo-coelho",
+    "sourceId": "rumi",
+    "targetId": "paulo-coelho",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "코엘료는 2009년 시리아 영문 월간지 『포워드』의 사미 무바예드와 한 인터뷰(같은 문답이 그의 블로그에도 실렸다)에서 『연금술사』와 『오 자히르』에 수피 전통을 끌어왔다고 말하고, 영향을 준 수피로 루미를 가장 먼저 떠오르는 인물로 꼽았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--forward-magazine-coelho-2009",
+      "src--coelho-blog-sami-2009"
+    ]
+  },
+  {
+    "id": "influence--anton-chekhov--raymond-carver",
+    "sourceId": "anton-chekhov",
+    "targetId": "raymond-carver",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.9,
+    "summary": "카버는 1983년 『파리 리뷰』 인터뷰(「The Art of Fiction No. 76」)에서 문학적 영향이나 존경하는 작가를 묻자 체호프를 ‘작품을 가장 존경하는 작가’로 꼽고, 대학 시절 읽은 체호프의 편지와 단편이 사물을 전과 다르게 보게 했다고 말했다. 1981년 『뉴욕 타임스 북 리뷰』 에세이 「A Storyteller's Shoptalk」에는 체호프 단편의 한 구절을 카드에 적어 책상 옆에 붙여 두었다고 썼고, 1987년에는 체호프의 죽음을 다룬 단편 「심부름」을 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--carver-paris-review-1983",
+      "src--carver-storytellers-shoptalk-1981",
+      "src--nyt-carver-obituary-1988"
+    ]
+  },
+  {
+    "id": "influence--flannery-oconnor--raymond-carver",
+    "sourceId": "flannery-oconnor",
+    "targetId": "raymond-carver",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "카버는 에세이 「A Storyteller's Shoptalk」(『뉴욕 타임스 북 리뷰』, 1981)에서 플래너리 오코너의 에세이 「Writing Short Stories」를 길게 인용하며, 결말을 모른 채 쓰기 시작한다는 그녀의 말을 읽고 크게 용기를 얻었다고 썼다. 이어 첫 문장 하나만 가지고 앉아 시를 쓰듯 한 줄씩 이어 단편을 완성한 경험을 적었고, 1983년 『파리 리뷰』 인터뷰에서도 존경하는 작가로 오코너를 꼽았다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--carver-storytellers-shoptalk-1981",
+      "src--carver-paris-review-1983"
+    ]
+  },
+  {
+    "id": "influence--henrik-ibsen--yeom-sang-seop",
+    "sourceId": "henrik-ibsen",
+    "targetId": "yeom-sang-seop",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "염상섭은 평론 「지상선(至上善)을 위하여」(『신생활』 1922. 7.)에서 입센 『인형의 집』의 노라를 해방을 향해 돌진하는 정의로운 반역자로 높이 평가하며 자아 각성의 표상으로 삼았다. 같은 해 『개벽』에 발표한 「제야」는 『인형의 집』과 『바다에서 온 여인』을 겹쳐 받아들였다는 분석(등천, 『국제어문』 68, 2016)이 있고, 최인숙(『한국학연구』 25, 2011)은 「제야」·『사랑과 죄』 등에 되풀이되는 노라를 추적했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--yeom-jisangseon-1922",
+      "src--deng-qian-2016-yeom-ibsen",
+      "src--choi-in-suk-2011-yeom-nora",
+      "src--choi-won-sik-2025-yeoseong-munhak"
+    ]
+  },
+  {
+    "id": "influence--natsume-soseki--yeom-sang-seop",
+    "sourceId": "natsume-soseki",
+    "targetId": "yeom-sang-seop",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.55,
+    "summary": "권혁건(「나쓰메 소세키와 염상섭의 유학체험과 소설의 형상화 비교 고찰」, 『일본학보』 99, 2014)은 일본에서 중학과 대학 예과를 다닌 염상섭이 나쓰메 소세키·다카야마 조규·시가 나오야·아리시마 다케오 등 일본 근대작가에게서 수법상 영향을 받았다고 보았고, 김경수(「염상섭과 루쉰」, 『서강인문논총』 55, 2019)도 염상섭이 소세키의 영향 아래 소설을 썼다고 정리한다. 이 영향은 염상섭 자신의 발언이 아니라 연구자들의 비교 판단으로 기록한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--kwon-hyeok-geon-2014-soseki-yeom",
+      "src--kim-kyoung-soo-2019-yeom-lu-xun"
+    ]
+  },
+  {
+    "id": "affinity--lu-xun--yeom-sang-seop",
+    "sourceId": "lu-xun",
+    "targetId": "yeom-sang-seop",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "두 사람은 만난 적이 없지만 한국 비교문학은 둘을 거듭 나란히 읽어 왔다. 최인숙(『비교문학』 50, 2010)은 「제야」와 루쉰의 「상서(傷逝)」를 노라 이후의 신여성 이야기로, 서영채(『민족문학사연구』 51, 2013)는 염상섭·소세키·루쉰을 '둘째 아들의 서사'로, 김경수(『서강인문논총』 55, 2019)는 일본 유학, 입센 『인형의 집』 소개, 반제국주의 태도를 공통점으로 비교했다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--choi-in-suk-2010-yeom-lu-xun-nora",
+      "src--seo-young-chae-2013-second-son",
+      "src--kim-kyoung-soo-2019-yeom-lu-xun"
+    ]
+  },
+  {
+    "id": "affinity--choi-in-hoon--yi-cheong-jun",
+    "sourceId": "choi-in-hoon",
+    "targetId": "yi-cheong-jun",
+    "type": "affinity",
+    "direction": "bidirectional",
+    "weight": 0.6,
+    "summary": "한국 현대소설 연구는 최인훈과 이청준을 지식인의 관념과 글쓰기 자체를 문제 삼는 관념소설의 계보로 함께 다뤄 왔다. 장수익의 「한국 관념소설의 계보 — 장용학·최인훈·이청준의 경우」(『문학사와 비평』, 1993)와 허도경의 「4·19와 쓰기의 존재론」(『어문연구』, 2024)이 두 작가를 나란히 읽고, 한국문학번역원의 작가 소개도 이청준을 최인훈과 더불어 지적이고 관념적인 작품 세계를 가진 작가로 설명한다. 이 관계는 직접 교류가 아니라 연구의 병치에 근거한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--jang-suik-1993-gwannyeom-soseol-gyebo",
+      "src--heo-dokyung-2024-419-writing-ontology",
+      "src--lti-korea"
+    ]
+  },
+  {
+    "id": "influence--anton-chekhov--yi-hyo-seok",
+    "sourceId": "anton-chekhov",
+    "targetId": "yi-hyo-seok",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.65,
+    "summary": "정한모가 집필한 한국민족문화대백과사전 「이효석」 항목은 이효석이 학창 시절 체호프에 탐닉했고 표현과 구성 기법에서 체호프의 영향을 찾아볼 수 있다고 적는다. 이미림의 「이효석 문학의 유토피아 지향과 낭만적 요소」(『한국문예비평연구』 50, 2016)와 「김유정 · 이효석 문학 비교 연구」(『한중인문학연구』 65, 2019), 권기배의 「이효석의 문학적 자의식과 러시아 문학」(한국연구재단, 2018)도 체호프를 이효석의 독서와 서술 언어의 원천 가운데 하나로 다룬다. 이효석 자신의 진술은 찾지 못해 연구의 판단으로 기록한다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--encykorea-yi-hyo-seok",
+      "src--lee-mirim-2016-yi-hyo-seok-utopia",
+      "src--lee-mirim-2019-kim-yu-jeong-yi-hyo-seok",
+      "src--kwon-kibae-2018-yi-hyo-seok-russian-literature"
+    ]
+  },
+  {
+    "id": "influence--katherine-mansfield--yi-hyo-seok",
+    "sourceId": "katherine-mansfield",
+    "targetId": "yi-hyo-seok",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.55,
+    "summary": "한국민족문화대백과사전 「이효석」 항목(정한모 집필)은 이효석의 표현과 구성 기법에서 체호프와 함께 캐서린 맨스필드의 영향을 찾아볼 수 있다고 쓰고, 이미림의 「김유정 · 이효석 문학 비교 연구」(『한중인문학연구』 65, 2019)는 서정적 배경 묘사에 전조와 복선을 담는 이효석 소설이 맨스필드·체홉의 배경 묘사의 영향 아래 있다고 본다. 이효석이 맨스필드를 읽었다는 직접 기록은 찾지 못했다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--encykorea-yi-hyo-seok",
+      "src--lee-mirim-2019-kim-yu-jeong-yi-hyo-seok"
+    ]
+  },
+  {
+    "id": "dialogue--jeong-ji-yong--yi-hyo-seok",
+    "sourceId": "jeong-ji-yong",
+    "targetId": "yi-hyo-seok",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.7,
+    "summary": "두 사람은 1933년 8월 이종명·김유영의 발기로 결성된 문학 단체 구인회(九人會)의 창립 회원 9인에 함께 이름을 올렸다(한국민족문화대백과사전 「구인회」; 이현주, 「이효석과 '구인회'」, 『구보학보』 3, 2008). 다만 이효석은 발족 직후 탈퇴했으므로 이 관계는 같은 동인의 창립 명단에 근거하며, 그 이상의 교류 기록은 찾지 못했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--encykorea-guinhoe",
+      "src--lee-hyeonju-2008-yi-hyo-seok-guinhoe"
+    ]
+  },
+  {
+    "id": "influence--yasunari-kawabata--yu-hua",
+    "sourceId": "yasunari-kawabata",
+    "targetId": "yu-hua",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "위화는 『파리 리뷰』 인터뷰 「The Art of Fiction No. 261」(2023, 인터뷰어 마이클 베리)에서 이야기하는 법을 어떻게 배웠느냐는 물음에 가와바타 야스나리가 자신의 첫 스승이었다고 답했다. 산문 「奥克斯福的威廉·福克纳」에서도 자신에게 영향을 준 작가로 가와바타와 카프카를 먼저 꼽는다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--paris-review-yu-hua-2023",
+      "src--yu-hua-oxford-faulkner-essay"
+    ]
+  },
+  {
+    "id": "influence--franz-kafka--yu-hua",
+    "sourceId": "franz-kafka",
+    "targetId": "yu-hua",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "같은 『파리 리뷰』 인터뷰에서 위화는 친구에게 『전쟁과 평화』를 주고 카프카 단편선을 바꿔 와 「시골 의사」부터 읽었다고 회고하며, 부르면 나타나고 보내면 사라지는 말들을 보고 카프카가 그런 자유를 가르쳐 주었다고 말했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--paris-review-yu-hua-2023",
+      "src--yu-hua-oxford-faulkner-essay"
+    ]
+  },
+  {
+    "id": "influence--william-faulkner--yu-hua",
+    "sourceId": "william-faulkner",
+    "targetId": "yu-hua",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "위화는 1999년 미시시피주 옥스퍼드의 포크너 묘를 찾아간 일을 쓴 산문 「奥克斯福的威廉·福克纳」(『温暖和百感交集的旅程』, 2017 수록)에서 영향을 준 작가는 많아도 자신의 ‘사부(师傅)’는 포크너뿐이라고 썼다. 단편 「워시(Wash)」가 살인자의 격동하는 내면을 심리 묘사 대신 멍한 시각 묘사로 처리하는 것을 보고 심리 묘사를 다루는 법을 배웠다고 밝힌다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--yu-hua-oxford-faulkner-essay"
+    ]
+  },
+  {
+    "id": "influence--lu-xun--yu-hua",
+    "sourceId": "lu-xun",
+    "targetId": "yu-hua",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.75,
+    "summary": "위화는 『十个词汇里的中国』(한국어판 『사람의 목소리는 빛보다 멀리 간다』)에 실린 산문 「鲁迅：从一个词汇回到一个作家」에서 문화대혁명기 교과서로 억지로 읽던 루쉰을 1996년 영화 각색 자문을 계기로 다시 읽고 「광인일기」와 「쿵이지」에 놀라, 그 밤 루쉰이 ‘하나의 어휘에서 한 작가로 돌아왔다’고 썼다. 2017년 인터뷰에서는 성장기 10년 동안 곁에 있던 유일한 작가가 루쉰이고 그 영향은 분명히 있다고 말했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--yu-hua-lu-xun-essay",
+      "src--chinawriter-yu-hua-interview-2017"
+    ]
+  },
+  {
+    "id": "dialogue--mo-yan--yu-hua",
+    "sourceId": "mo-yan",
+    "targetId": "yu-hua",
+    "type": "dialogue",
+    "direction": "bidirectional",
+    "weight": 0.8,
+    "summary": "모옌과 위화는 1988년 루쉰문학원과 베이징사범대학이 함께 연 창작 연구생반에서 같은 방을 썼고, 모옌은 그 경험에서 출발한 평론 「清醒的说梦者——关于余华及其小说的杂感」을 『当代作家评论』 1991년 제2기에 실었다. 위화도 산문집 『没有一条道路是重复的』(2008)에서 그 방을 회고했으며, 2019년 베이징사범대학 행사에서는 모옌의 장편 『酒国』 원고를 저장성의 잡지에 싣게 하려고 짊어지고 갔던 일을 이야기했다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--mo-yan-qingxing-de-shuomengzhe-1991",
+      "src--yu-hua-meiyou-yitiao-daolu-2008",
+      "src--ycwb-mo-yan-yu-hua-bnu-2019"
+    ]
+  },
+  {
+    "id": "influence--jeong-ji-yong--yun-dong-ju",
+    "sourceId": "jeong-ji-yong",
+    "targetId": "yun-dong-ju",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.8,
+    "summary": "윤동주가 1936년 3월 19일 '동주소장'이라 적어 둔 『정지용 시집』 소장본에는 밑줄과 단어 풀이 메모가 남아 있고, 이 메모들은 『사진판 윤동주 자필 시고전집』(민음사, 1999)에 사진으로 실렸다. 정지용은 생전의 윤동주를 몰랐다고 쓰면서도 1948년 유고 시집 『하늘과 바람과 별과 시』의 서문을 썼고, 1947년 2월 13일 「쉽게 씌어진 시」가 『경향신문』에 처음 실릴 때 소개문을 썼다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--yun-dong-ju-japil-sigo-jeonjip-1999",
+      "src--haneulgwa-baramgwa-byeolgwa-si-1948",
+      "src--encykorea"
+    ]
+  },
+  {
+    "id": "influence--baek-seok--yun-dong-ju",
+    "sourceId": "baek-seok",
+    "targetId": "yun-dong-ju",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.85,
+    "summary": "윤동주는 100부 한정으로 나온 백석의 시집 『사슴』(1936)을 구하지 못해 1937년 8월 도서관에서 수록시 33편을 원고지에 모두 베껴 필사본을 만들었고, 「모닥불」 필사 끝에 붉은 색연필로 '걸작이다'라고 적었다. 이 필사본은 『사진판 윤동주 자필 시고전집』(민음사, 1999)에 실렸고, 김응교의 『서른세 번의 만남, 백석과 동주』(아카넷, 2020)가 이 필사에서 출발해 두 시인의 영향 관계를 다룬다.",
+    "evidenceLevel": "documented",
+    "sourceIds": [
+      "src--yun-dong-ju-japil-sigo-jeonjip-1999",
+      "src--kim-eung-gyo-baek-seok-dongju-2020"
+    ]
+  },
+  {
+    "id": "influence--rainer-maria-rilke--yun-dong-ju",
+    "sourceId": "rainer-maria-rilke",
+    "targetId": "yun-dong-ju",
+    "type": "documented_influence",
+    "direction": "directed",
+    "weight": 0.65,
+    "summary": "윤동주는 「별 헤는 밤」(1941년 11월 5일 작, 1948년 유고 시집 수록)에서 별 하나에 불러 보는 시인의 이름으로 프랑시스 잠과 함께 '라이넬 마리아 릴케'를 적었다. 이 수용은 연구에서 거듭 다뤄졌다. 문현미의 「윤동주의 나르시즘적 존재론: 윤동주와 릴케 시문학의 거울 모티브를 중심으로」(『한국시학연구』 2, 1999)는 두 시인의 거울 모티브를 나란히 읽고, 윤석성의 「한국 시의 릴케 受容」(『동악어문학』 50, 2008)은 윤동주를 릴케를 수용한 대표적 한국 시인으로 꼽는다.",
+    "evidenceLevel": "scholarly_consensus",
+    "sourceIds": [
+      "src--haneulgwa-baramgwa-byeolgwa-si-1948",
+      "src--mun-hyeon-mi-yun-dong-ju-rilke-1999",
+      "src--yun-seok-seong-rilke-suyong-2008"
+    ]
+  }
+]

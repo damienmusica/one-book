@@ -1,0 +1,299 @@
+{
+  "id": "ernest-hemingway",
+  "page": "https://literary-planet.pages.dev/authors/ernest-hemingway/",
+  "author": {
+    "names": {
+      "ko": "어니스트 헤밍웨이",
+      "original": "Ernest Hemingway",
+      "aliases": [
+        "헤밍웨이",
+        "Ernest Miller Hemingway"
+      ]
+    },
+    "birthYear": 1899,
+    "deathYear": 1961,
+    "activeRange": [
+      1923,
+      1961
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america",
+      "western-europe",
+      "caribbean"
+    ],
+    "movements": [
+      "modernism",
+      "lost-generation"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "전쟁과 폭력을 다루면서 추상적 명사와 감정 해설을 걷어내고, 짧은 평서문과 대화만으로 인물의 상태를 전달하는 산문을 정착시켰다. 중요한 것을 쓰지 않고 생략해 남은 표면이 그 무게를 지탱하게 하는 방법을 스스로 원리로 밝혔고, 이 방식은 20세기 영어 산문의 표준 문체 가운데 하나가 되었다. 1차 대전 후 파리의 미국인 작가 집단에서 형성된 이 문체는 하드보일드 범죄소설부터 전후 미국 단편까지 폭넓게 이식되었다.",
+    "readingEntry": "ernest-hemingway--the-old-man-and-the-sea",
+    "readingEntryReason": "중편 하나로 헤밍웨이 문체의 핵심 — 짧은 문장, 설명 없는 행동 묘사, 생략된 감정 — 을 전부 볼 수 있고 배경 지식도 거의 필요 없다.",
+    "readingOrder": [
+      "ernest-hemingway--the-old-man-and-the-sea",
+      "ernest-hemingway--in-our-time",
+      "ernest-hemingway--the-sun-also-rises",
+      "ernest-hemingway--a-farewell-to-arms",
+      "ernest-hemingway--for-whom-the-bell-tolls"
+    ],
+    "readingWarning": "『누구를 위하여 종은 울리나』를 첫 책으로 고르면 분량과 스페인 내전의 정파 지형 때문에 문체보다 배경 정리에 시간을 쓰게 된다.",
+    "difficulty": 2,
+    "difficultyReason": "어휘와 문장 구조는 평이하지만 감정과 동기가 문장 밖에 놓여 있어서, 표면만 따라 읽으면 아무 일도 일어나지 않는 이야기로 보인다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--paris-review",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "ernest-hemingway--in-our-time",
+      "titleKo": "우리들의 시대에",
+      "titleOriginal": "In Our Time",
+      "year": 1925,
+      "genre": "fiction",
+      "significance": "단편 사이에 전쟁과 투우의 짧은 삽화를 끼워 넣어 한 권을 하나의 구조로 묶은 단편집. 1924년 파리에서 삽화만 묶어 낸 소책자를 확장한 판본이며, 닉 애덤스 연작이 여기서 시작된다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ernest-hemingway--the-sun-also-rises",
+      "titleKo": "태양은 다시 떠오른다",
+      "titleOriginal": "The Sun Also Rises",
+      "year": 1926,
+      "genre": "fiction",
+      "significance": "1차 대전 후 파리와 팜플로나를 오가는 인물들의 표류를 대화 중심으로 기록한 첫 장편. 거트루드 스타인에게서 온 '잃어버린 세대'라는 말이 이 소설의 제사로 널리 퍼졌다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ernest-hemingway--a-farewell-to-arms",
+      "titleKo": "무기여 잘 있거라",
+      "titleOriginal": "A Farewell to Arms",
+      "year": 1929,
+      "genre": "fiction",
+      "significance": "이탈리아 전선의 구급차 운전병과 간호사의 관계를 후퇴와 죽음의 연대기 안에 놓는다. 영광·명예 같은 추상어가 구체적인 지명과 부대 번호 앞에서 무너진다고 화자가 말하는 대목은 전후 문학의 태도를 요약한 자리로 인용된다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ernest-hemingway--for-whom-the-bell-tolls",
+      "titleKo": "누구를 위하여 종은 울리나",
+      "titleOriginal": "For Whom the Bell Tolls",
+      "year": 1940,
+      "genre": "fiction",
+      "significance": "스페인 내전에서 다리를 폭파하러 산악 유격대에 합류한 미국인의 사흘을 그린다. 헤밍웨이의 장편 가운데 가장 길고, 양쪽 진영의 잔혹을 함께 기록해 좌우 모두에서 비판받았다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ernest-hemingway--the-old-man-and-the-sea",
+      "titleKo": "노인과 바다",
+      "titleOriginal": "The Old Man and the Sea",
+      "year": 1952,
+      "genre": "fiction",
+      "significance": "84일 동안 고기를 잡지 못한 노인이 청새치와 벌이는 사흘을 기록한 중편. 1953년 퓰리처상을 받았고, 1954년 노벨문학상 선정 사유에도 이 작품이 명시되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nobelprize"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--ernest-hemingway--chairil-anwar",
+      "type": "translation",
+      "from": "ernest-hemingway (어니스트 헤밍웨이)",
+      "to": "chairil-anwar (차이릴 안와르)",
+      "evidenceLevel": "documented",
+      "summary": "차이릴 안와르는 헤밍웨이의 단편 「깨끗하고 불빛 환한 곳」을 「Tempat yang Bersih dan Lampunya Terang」으로 옮겼다 — 같은 번역 목록에 함께 실린 항목이다.",
+      "sourceIds": [
+        "src--jassin-chairil-anwar-pelopor"
+      ]
+    },
+    {
+      "id": "influence--mark-twain--ernest-hemingway",
+      "type": "documented_influence",
+      "from": "mark-twain (마크 트웨인)",
+      "to": "ernest-hemingway (어니스트 헤밍웨이)",
+      "evidenceLevel": "documented",
+      "summary": "헤밍웨이는 『아프리카의 푸른 언덕』(1935)에서 현대 미국 문학 전체가 『허클베리 핀』이라는 한 권에서 나왔으며 그것이 우리가 가진 최상의 책이라고 썼고, 다만 짐이 붙잡힌 뒤의 결말부는 읽지 말라고 덧붙였다.",
+      "sourceIds": [
+        "src--hemingway-green-hills-of-africa"
+      ]
+    },
+    {
+      "id": "translation--ernest-hemingway--eileen-chang",
+      "type": "translation",
+      "from": "ernest-hemingway (어니스트 헤밍웨이)",
+      "to": "eileen-chang (장아이링)",
+      "evidenceLevel": "documented",
+      "summary": "장아이링은 1950년대 홍콩 체류기에 헤밍웨이의 『노인과 바다』를 중국어로 옮기고 역자 서문을 직접 붙였다. 미국공보원의 지원으로 이루어진 번역 일감 가운데 하나였고, 이 시기의 번역 노동이 그의 미국 이주 전 생계 조건이었다.",
+      "anchors": [
+        {
+          "workId": "ernest-hemingway--the-old-man-and-the-sea"
+        }
+      ],
+      "sourceIds": [
+        "src--chang-laoren-yu-hai"
+      ]
+    },
+    {
+      "id": "influence--ernest-hemingway--gabriel-garcia-marquez",
+      "type": "documented_influence",
+      "from": "ernest-hemingway (어니스트 헤밍웨이)",
+      "to": "gabriel-garcia-marquez (가브리엘 가르시아 마르케스)",
+      "evidenceLevel": "documented",
+      "summary": "1981년 뉴욕타임스 북리뷰에 실은 산문에서 가르시아 마르케스는 1957년 파리 거리에서 헤밍웨이를 보고 '마에스트로'라 외친 일을 적으며, 쓰지 않은 것이 쓴 것을 지탱한다는 단편의 원리를 그에게서 배웠다고 서술했다.",
+      "anchors": [
+        {
+          "year": 1957
+        },
+        {
+          "year": 1981
+        }
+      ],
+      "sourceIds": [
+        "src--garcia-marquez-hemingway-nyt-1981"
+      ]
+    },
+    {
+      "id": "influence--ernest-hemingway--albert-camus",
+      "type": "documented_influence",
+      "from": "ernest-hemingway (어니스트 헤밍웨이)",
+      "to": "albert-camus (알베르 카뮈)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "사르트르는 「『이방인』 해설」(1943)에서 카뮈의 짧은 평서문과 감정 해설의 삭제를 미국 소설, 특히 헤밍웨이의 문장에서 온 기법으로 읽었고 이 독법은 이후 카뮈 문체론의 표준 항목이 되었다. 다만 카뮈가 헤밍웨이를 자기 모델로 지목한 1차 기록은 여기 걸지 않는다.",
+      "anchors": [
+        {
+          "year": 1943
+        }
+      ],
+      "sourceIds": [
+        "src--sartre-explication-etranger-1943"
+      ]
+    },
+    {
+      "id": "contrast--ernest-hemingway--george-orwell",
+      "type": "contrast",
+      "from": "ernest-hemingway (어니스트 헤밍웨이)",
+      "to": "george-orwell (조지 오웰)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "두 사람 모두 스페인 내전을 자기 산문의 중심 사건으로 삼았지만, 헤밍웨이는 공화국 진영의 서사 안에서 개인의 죽음을 썼고 오웰은 그 진영 내부의 숙청을 고발하는 쪽으로 갔다. 스페인 내전 문학 연구는 『누구를 위하여 종은 울리나』와 『카탈로니아 찬가』를 같은 사건의 대립하는 기록으로 함께 다룬다.",
+      "anchors": [
+        {
+          "workId": "ernest-hemingway--for-whom-the-bell-tolls"
+        },
+        {
+          "workId": "george-orwell--homage-to-catalonia"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--ernest-hemingway--ralph-ellison",
+      "type": "documented_influence",
+      "from": "ernest-hemingway (어니스트 헤밍웨이)",
+      "to": "ralph-ellison (랠프 엘리슨)",
+      "evidenceLevel": "documented",
+      "summary": "「세계와 항아리」(1963–64)에서 엘리슨은 어빙 하우가 자신에게 배정한 계보를 거부하며, 리처드 라이트가 고를 수 없는 친척이라면 헤밍웨이는 자기가 고른 선조라고 썼다. 흑인 작가의 문학적 혈통을 인종이 아니라 기법의 선택으로 규정한 이 구분은 이후 반복 인용된다.",
+      "sourceIds": [
+        "src--ellison-world-and-the-jug"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "mentorship--gertrude-stein--ernest-hemingway (→ gertrude-stein 의 슬레이트에서 본다)",
+    "influence--gustave-flaubert--ernest-hemingway (→ gustave-flaubert 의 슬레이트에서 본다)",
+    "influence--leo-tolstoy--ernest-hemingway (→ leo-tolstoy 의 슬레이트에서 본다)",
+    "influence--joseph-conrad--ernest-hemingway (→ joseph-conrad 의 슬레이트에서 본다)",
+    "dialogue--james-joyce--ernest-hemingway (→ james-joyce 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--jassin-chairil-anwar-pelopor": {
+      "id": "src--jassin-chairil-anwar-pelopor",
+      "title": "Chairil Anwar: Pelopor Angkatan 45",
+      "publisherOrInstitution": "H. B. Jassin / Gunung Agung",
+      "citation": "차이릴 안와르의 시·번역 목록과 그가 네덜란드어로 읽은 유럽 시인들을 정리한 표준 연구서. 번역 작업과 매클리시 논쟁의 1차 정리."
+    },
+    "src--hemingway-green-hills-of-africa": {
+      "id": "src--hemingway-green-hills-of-africa",
+      "title": "아프리카의 푸른 언덕 (Green Hills of Africa)",
+      "publisherOrInstitution": "Charles Scribner's Sons, 1935",
+      "citation": "헤밍웨이가 현대 미국 문학이 『허클베리 핀』 한 권에서 나왔다고 쓴 대목이 실린 논픽션"
+    },
+    "src--chang-laoren-yu-hai": {
+      "id": "src--chang-laoren-yu-hai",
+      "title": "『老人與海』 — 헤밍웨이 『노인과 바다』 장아이링 중국어 번역, 역자 서문 포함",
+      "publisherOrInstitution": "홍콩 미국공보원(USIS) 지원 번역 사업 — 1950년대 홍콩 간행",
+      "citation": "장아이링이 홍콩 체류기에 맡은 번역 일감 가운데 하나 — 헤밍웨이 번역·수용의 1차 근거"
+    },
+    "src--garcia-marquez-hemingway-nyt-1981": {
+      "id": "src--garcia-marquez-hemingway-nyt-1981",
+      "title": "「가브리엘 가르시아 마르케스, 어니스트 헤밍웨이를 만나다」 (1981. 7.)",
+      "publisherOrInstitution": "The New York Times Book Review",
+      "citation": "1957년 봄 파리의 거리에서 헤밍웨이를 멀리서 보고 '마에스트로'라 외친 일화와, 단편 작법에서 헤밍웨이에게 배운 것을 가르시아 마르케스가 직접 서술한 산문"
+    },
+    "src--sartre-explication-etranger-1943": {
+      "id": "src--sartre-explication-etranger-1943",
+      "title": "「Explication de L'Étranger」 (Cahiers du Sud, 1943)",
+      "publisherOrInstitution": "Cahiers du Sud — 이후 『Situations I』 수록",
+      "citation": "『이방인』의 짧은 평서문을 미국 소설, 특히 헤밍웨이의 문장 기법과 연결해 읽은 초기 비평 — 이후 카뮈 문체론의 표준 참조점"
+    },
+    "src--ellison-world-and-the-jug": {
+      "id": "src--ellison-world-and-the-jug",
+      "title": "「The World and the Jug」 (1963–1964, 2부작 평문)",
+      "publisherOrInstitution": "The New Leader",
+      "citation": "어빙 하우의 「Black Boys and Native Sons」에 답하며 흑인 작가를 항의문학으로 환원하는 독법을 거부한 엘리슨의 논쟁문 — 이후 『Shadow and Act』에 수록"
+    }
+  }
+}

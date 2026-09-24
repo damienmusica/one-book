@@ -75,11 +75,9 @@
       "src--britannica",
       "src--nobelprize",
       "src--cambridge-companions",
-      "src--beckett-minuit-editions",
-      "src--kr-world-lit-editions"
+      "src--beckett-minuit-editions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "vladimir-nabokov",
@@ -164,11 +162,9 @@
     "sourceIds": [
       "src--britannica",
       "src--paris-review",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "albert-camus",
@@ -249,11 +245,9 @@
       "src--britannica",
       "src--nobelprize",
       "src--pleiade",
-      "src--camus-nouvelles-litteraires-1945",
-      "src--kr-world-lit-editions"
+      "src--camus-nouvelles-litteraires-1945"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "ernest-hemingway",
@@ -335,11 +329,9 @@
       "src--britannica",
       "src--nobelprize",
       "src--paris-review",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "george-orwell",
@@ -417,11 +409,9 @@
     "difficultyReason": "문장은 의도적으로 투명하고 어휘도 평이하다. 난도는 문체가 아니라 배경에서 온다 — 스페인 내전과 스탈린주의 논쟁을 모르면 무엇을 겨냥한 글인지 흐려진다.",
     "sourceIds": [
       "src--britannica",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "simone-de-beauvoir",
@@ -489,11 +479,9 @@
       "src--britannica",
       "src--pleiade",
       "src--cambridge-companions",
-      "src--beauvoir-deuxieme-sexe-1949",
-      "src--kr-world-lit-editions"
+      "src--beauvoir-deuxieme-sexe-1949"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "paul-celan",
@@ -566,10 +554,8 @@
     "sourceIds": [
       "src--britannica",
       "src--poetry-foundation",
-      "src--celan-meridian-1960",
-      "src--kr-world-lit-editions"
+      "src--celan-meridian-1960"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   }
 ]

@@ -1,0 +1,182 @@
+{
+  "id": "hermann-broch",
+  "page": "https://literary-planet.pages.dev/authors/hermann-broch/",
+  "author": {
+    "names": {
+      "ko": "헤르만 브로흐",
+      "original": "Hermann Broch",
+      "aliases": [
+        "브로흐",
+        "Broch"
+      ]
+    },
+    "birthYear": 1886,
+    "deathYear": 1951,
+    "activeRange": [
+      1931,
+      1951
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "소설을 인식의 도구로 쓰겠다는 목표 아래, 서사·서정·논문을 한 권 안에서 교대시키는 구성을 만들었다. 『몽유병자들』은 1888·1903·1918년의 세 세대를 각기 다른 문체로 서술하고 그 사이에 '가치의 붕괴'라는 논문 장을 끼워 넣어, 유럽의 가치 체계가 해체되는 과정을 소설의 형식으로 제시한다. 『베르길리우스의 죽음』은 죽어가는 시인의 마지막 열여덟 시간을 긴 호흡의 내적 독백으로 밀어붙여, 예술이 죽음과 정치 앞에서 정당화될 수 있는가를 소설 안에서 심문했다.",
+    "readingEntry": "hermann-broch--die-schlafwandler",
+    "readingEntryReason": "3부작이지만 1부 「파제노프 또는 낭만주의」가 그 자체로 완결된 짧은 소설이라, 우선 1부만 읽고 계속할지 정할 수 있다.",
+    "readingOrder": [
+      "hermann-broch--die-schlafwandler",
+      "hermann-broch--die-schuldlosen",
+      "hermann-broch--der-tod-des-vergil"
+    ],
+    "readingWarning": "『베르길리우스의 죽음』으로 시작하면 한 문장이 여러 쪽에 걸치는 내적 독백과 라틴 문학사 배경 때문에 거의 확실히 중단하게 된다.",
+    "difficulty": 5,
+    "difficultyReason": "소설 안에 인식론 논문이 그대로 들어 있고, 후기작은 한 문장이 여러 쪽에 걸치는 내적 독백으로 진행되어 전공자적 끈기를 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--canetti-broch-rede-1936",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "hermann-broch--die-schlafwandler",
+      "titleKo": "몽유병자들",
+      "titleOriginal": "Die Schlafwandler",
+      "year": 1931,
+      "genre": "fiction",
+      "significance": "1888·1903·1918년을 각각 낭만주의·무정부·즉물성의 문체로 쓴 3부작으로, 마지막 권에는 '가치의 붕괴'라는 논문 장을 서사 사이에 끼워 넣었다. 1931년에 앞의 두 권, 1932년에 마지막 권이 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "hermann-broch--james-joyce-und-die-gegenwart",
+      "titleKo": "제임스 조이스와 현재",
+      "titleOriginal": "James Joyce und die Gegenwart",
+      "year": 1936,
+      "genre": "essay-criticism",
+      "significance": "『율리시스』를 시대의 총체성을 담으려는 인식의 형식으로 읽어낸 강연문으로, 자기 소설이 무엇을 하려는지 밝히는 이론적 자기 설명이기도 하다.",
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "hermann-broch--der-tod-des-vergil",
+      "titleKo": "베르길리우스의 죽음",
+      "titleOriginal": "Der Tod des Vergil",
+      "year": 1945,
+      "genre": "fiction",
+      "significance": "『아이네이스』를 태우려는 베르길리우스의 마지막 열여덟 시간을 물·불·흙·공기의 네 부분으로 나누어 서술한 장편으로, 예술이 죽음과 정치 앞에서 정당한가를 묻는다. 망명지 미국에서 완성되어 독일어판과 영역판이 1945년에 함께 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "hermann-broch--die-schuldlosen",
+      "titleKo": "죄 없는 사람들",
+      "titleOriginal": "Die Schuldlosen",
+      "year": 1950,
+      "genre": "fiction",
+      "significance": "1913·1923·1933년을 배경으로 한 열한 편의 이야기를 하나의 장편으로 엮어, 나치즘에 적극 가담하지 않은 사람들의 '죄 없음'이 어떻게 정치적 무관심의 다른 이름이 되는지를 보여준다.",
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--hermann-broch--milan-kundera",
+      "type": "documented_influence",
+      "from": "hermann-broch (헤르만 브로흐)",
+      "to": "milan-kundera (밀란 쿤데라)",
+      "evidenceLevel": "documented",
+      "summary": "『소설의 기술』은 「『몽유병자들』에서 촉발된 노트」를 독립된 부로 싣고, 소설이 서사와 사유를 함께 진행시킬 수 있음을 브로흐가 먼저 보였다고 서술한다. 쿤데라 장편에서 서술자가 이야기를 멈추고 개념을 정의하는 구성은 이 계보를 이어받은 것이다.",
+      "anchors": [
+        {
+          "workId": "milan-kundera--l-art-du-roman"
+        },
+        {
+          "workId": "hermann-broch--die-schlafwandler"
+        }
+      ],
+      "sourceIds": [
+        "src--kundera-art-du-roman"
+      ]
+    },
+    {
+      "id": "dialogue--hermann-broch--elias-canetti",
+      "type": "dialogue",
+      "from": "hermann-broch (헤르만 브로흐)",
+      "to": "elias-canetti (엘리아스 카네티)",
+      "evidenceLevel": "documented",
+      "summary": "카네티는 1936년 빈에서 브로흐의 50세 생일 연설을 맡아 그의 소설관을 정면으로 다루었고, 자서전 『눈의 유희』에는 두 사람이 주고받은 대화가 여러 장에 걸쳐 기록되어 있다. 빈 시절 카네티를 문단 안으로 들여놓은 것도 브로흐였다.",
+      "anchors": [
+        {
+          "year": 1936
+        }
+      ],
+      "sourceIds": [
+        "src--canetti-broch-rede-1936",
+        "src--canetti-das-augenspiel-1985"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--james-joyce--hermann-broch (→ james-joyce 의 슬레이트에서 본다)",
+    "affinity--robert-musil--hermann-broch (→ robert-musil 의 슬레이트에서 본다)",
+    "influence--friedrich-nietzsche--hermann-broch (→ friedrich-nietzsche 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--canetti-broch-rede-1936": {
+      "id": "src--canetti-broch-rede-1936",
+      "title": "엘리아스 카네티, 「헤르만 브로흐 — 50세 생일 연설, 빈 1936년 11월」",
+      "publisherOrInstitution": "『말의 양심』(Das Gewissen der Worte) 수록, Carl Hanser Verlag",
+      "citation": "두 작가의 빈 시절 교류와 브로흐 소설관에 대한 동시대 1차 증언"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--kundera-art-du-roman": {
+      "id": "src--kundera-art-du-roman",
+      "title": "『소설의 기술』 (L'Art du roman, 1986)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카프카·브로흐·무질·곰브로비치를 중부유럽 소설의 계보로 묶고 「『몽유병자들』에서 촉발된 노트」와 카프카론을 각각 한 부로 배치한 쿤데라 자신의 소설론"
+    },
+    "src--canetti-das-augenspiel-1985": {
+      "id": "src--canetti-das-augenspiel-1985",
+      "title": "엘리아스 카네티, 『눈의 유희(Das Augenspiel)』 (1985)",
+      "publisherOrInstitution": "Carl Hanser Verlag",
+      "citation": "자서전 3부 — 빈 시절 브로흐·무질·토마스 만과의 대면을 장별로 기록한 1차 회고"
+    }
+  }
+}

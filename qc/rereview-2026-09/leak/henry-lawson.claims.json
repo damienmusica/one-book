@@ -1,0 +1,21 @@
+{
+  "id": "henry-lawson",
+  "claims": [
+    {
+      "field": "works[].significance (henry-lawson--while-the-billy-boils)",
+      "claim": "1896년 시드니에서 묶인 단편집이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/While_the_Billy_Boils_(short_story_collection)",
+      "quote": "published by Angus and Robertson in 1896",
+      "note": "Angus & Robertson 은 시드니 출판사이고 ADB 도 1896년 두 권 동시 간행을 기록. 다만 표제지에 'Sydney' 가 찍혔다는 서지 자체를 직접 대조하지는 못했다(위키소스에 올라온 것은 1913년 런던 재판)."
+    },
+    {
+      "field": "relations[0].summary (contrast henry-lawson → patrick-white)",
+      "claim": "오스트레일리아 문학사 서술은 화이트가 겨눈 부시 사실주의 전통의 중심에 로슨의 단편을 놓는다",
+      "verdict": "confirmed",
+      "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+      "quote": "Lawson's reputation must rest on his stories and on a relatively small group of them",
+      "note": "ADB + 영문 위키백과(Australian literature)가 로슨을 부시 사실주의 단편의 중심에 놓는 것은 확인. 다만 이 엣지가 함께 인용한 src--britannica 는 Cloudflare 차단으로 열리지 않아, 브리태니커 본문에서 이 진술이 나온다는 것은 대조하지 못했다 — 근거는 다른 문헌으로 대체해야 한다."
+    }
+  ]
+}

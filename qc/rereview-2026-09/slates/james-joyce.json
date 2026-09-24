@@ -1,0 +1,536 @@
+{
+  "id": "james-joyce",
+  "page": "https://literary-planet.pages.dev/authors/james-joyce/",
+  "author": {
+    "names": {
+      "ko": "제임스 조이스",
+      "original": "James Joyce",
+      "aliases": [
+        "조이스",
+        "Joyce"
+      ]
+    },
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "activeRange": [
+      1904,
+      1939
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland",
+      "western-europe"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "『율리시스』에서 장마다 문체를 갈아 끼우는 구성을 밀고 나가, 문체가 내용에 봉사하는 도구가 아니라 그 자체로 서술 대상이 될 수 있음을 보였다. 더블린의 하루를 『오디세이아』의 구조에 겹쳐, 신화적 틀과 생리적 세부를 동시에 작동시키는 방법을 정식화했다. 『피네간의 경야』에서는 여러 언어를 한 단어 안에 접어 넣는 조어로 산문의 해독 가능성 자체를 실험 대상으로 삼았고, 이후의 소설은 이 극단을 참조점 삼아 자기 위치를 정하게 되었다.",
+    "readingEntry": "james-joyce--dubliners",
+    "readingEntryReason": "열다섯 편의 단편이라 한 편씩 끊어 읽을 수 있고, 마지막 「죽은 사람들」에 이미 조이스의 방법인 에피퍼니와 자유간접화법이 완성된 형태로 들어 있다.",
+    "readingOrder": [
+      "james-joyce--dubliners",
+      "james-joyce--a-portrait-of-the-artist-as-a-young-man",
+      "james-joyce--ulysses",
+      "james-joyce--finnegans-wake"
+    ],
+    "readingWarning": "『율리시스』를 첫 책으로 고르면 3장 이후 인용 표시 없는 내적 독백과 장별 문체 전환에서 막힌다. 앞의 두 권이 같은 인물(스티븐 디덜러스)과 같은 도시를 미리 깔아 주는 예비 과정이다.",
+    "difficulty": 5,
+    "difficultyReason": "입구는 평이하지만 출구가 멀다. 『율리시스』는 장마다 문체가 바뀌고 더블린의 지명·유행가·가톨릭 전례가 주석 없이 박혀 있으며, 『피네간의 경야』는 수십 개 언어를 합성한 조어로 쓰여 있어 사전과 안내서를 옆에 두는 독서가 전제된다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "james-joyce--dubliners",
+      "titleKo": "더블린 사람들",
+      "titleOriginal": "Dubliners",
+      "year": 1914,
+      "genre": "fiction",
+      "significance": "유년기부터 노년까지 배열한 열다섯 편의 단편으로 한 도시의 마비 상태를 진단한다. 마지막 「죽은 사람들」은 조이스가 에피퍼니라 부른 순간의 구성법을 보여 주는 표본이 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "james-joyce--a-portrait-of-the-artist-as-a-young-man",
+      "titleKo": "젊은 예술가의 초상",
+      "titleOriginal": "A Portrait of the Artist as a Young Man",
+      "year": 1916,
+      "genre": "fiction",
+      "significance": "주인공의 나이에 따라 문체 자체가 유아어에서 학생의 논변으로 자라나는 성장소설. 서술의 언어가 인물의 의식 수준에 맞춰 변하는 방법을 처음 체계적으로 실행했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "james-joyce--ulysses",
+      "titleKo": "율리시스",
+      "titleOriginal": "Ulysses",
+      "year": 1922,
+      "genre": "fiction",
+      "significance": "1904년 6월 16일 더블린의 하루를 열여덟 개의 장으로 나누고, 각 장에 교리문답·신문 표제·연극 대본 같은 서로 다른 문체를 배정했다. 외설 시비로 영어권에서 오래 금지되었다가 1930년대에야 합법 출간되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "james-joyce--finnegans-wake",
+      "titleKo": "피네간의 경야",
+      "titleOriginal": "Finnegans Wake",
+      "year": 1939,
+      "genre": "fiction",
+      "significance": "17년에 걸쳐 쓴 마지막 작품. 여러 언어를 한 단어에 합성한 조어로 잠든 의식의 언어를 만들었고, 첫 문장이 마지막 문장의 뒷부분으로 이어지는 순환 구조를 갖는다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--homer--james-joyce",
+      "type": "documented_influence",
+      "from": "homer (호메로스)",
+      "to": "james-joyce (제임스 조이스)",
+      "evidenceLevel": "documented",
+      "summary": "조이스는 『율리시스』의 각 삽화를 『오디세이아』의 장면·기관·기법에 대응시킨 도표(리나티 도식, 길버트 도식)를 직접 작성해 친구들에게 돌렸고, 엘먼의 전기가 그 유통 경위를 기록하고 있다.",
+      "sourceIds": [
+        "src--ellmann-james-joyce"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--patrick-white",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "patrick-white (패트릭 화이트)",
+      "evidenceLevel": "documented",
+      "summary": "데이비드 마의 전기 『패트릭 화이트: 한 생애』(1991)는 화이트가 1936년 런던에서 『율리시스』를 읽고 조이스가 그에게 '거의 신'이 된 뒤 『해피 밸리』를 의식의 흐름으로 썼다고 기록한다. 신화적 구성은 같은 전기에서 조이스가 아니라 존 레이어드와 융 독서에 연결된다.",
+      "sourceIds": [
+        "src--marr-patrick-white-a-life"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--yasunari-kawabata",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "yasunari-kawabata (가와바타 야스나리)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『율리시스』의 일본어 번역이 진행되던 1931년에 가와바타는 「수정 환상」을 발표해 의식의 흐름을 일본어 문장으로 시험했다. 일본 근대문학 연구는 신감각파 시기의 이 실험을 가와바타의 조이스 독서와 직접 연결해 다룬다.",
+      "anchors": [
+        {
+          "workId": "james-joyce--ulysses",
+          "year": 1931
+        }
+      ],
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "contrast--james-joyce--virginia-woolf",
+      "type": "contrast",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "같은 1882년에 태어난 두 사람이 각각 하루를 다룬 장편을 3년 사이에 냈다. 울프는 일기에 『율리시스』를 배우지 못한 자의 책이라고 적었지만, 의식을 문장으로 옮기는 문제에서 두 사람은 같은 과제를 반대 기질로 풀었다 — 백과사전적 축적과 장별 문체 교체, 그리고 절제된 자유간접화법. 모더니즘 연구는 이 대비를 늘 함께 다룬다.",
+      "anchors": [
+        {
+          "workId": "james-joyce--ulysses"
+        }
+      ],
+      "sourceIds": [
+        "src--woolf-letters-diary"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--william-faulkner",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "william-faulkner (윌리엄 포크너)",
+      "evidenceLevel": "documented",
+      "summary": "포크너는 1957–58년 버지니아대 문답에서 『율리시스』를 성서 대하듯 믿음을 가지고 읽으라고 말했고, 1920년대 초에 이미 읽었다는 증언이 남아 있다. 인용부호 없는 내적 독백과 화자마다 갈리는 문체는 『소리와 분노』의 네 부 구성으로 옮겨 갔다.",
+      "anchors": [
+        {
+          "workId": "james-joyce--ulysses"
+        },
+        {
+          "workId": "william-faulkner--the-sound-and-the-fury"
+        }
+      ],
+      "sourceIds": [
+        "src--faulkner-in-the-university"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--ts-eliot",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 1923년 11월 『다이얼』에 실은 「율리시스, 질서, 신화」에서 신화를 동시대의 혼란에 형태를 주는 틀로 쓰는 방법을 '신화적 방법'이라 이름 붙이고, 이를 서사 형식의 대체물로 제시했다. 『황무지』가 어떤 원리로 조립되었는지를 그가 조이스를 빌려 설명한 글이다.",
+      "anchors": [
+        {
+          "year": 1923
+        },
+        {
+          "workId": "ts-eliot--the-waste-land"
+        }
+      ],
+      "sourceIds": [
+        "src--eliot-ulysses-order-and-myth-1923"
+      ]
+    },
+    {
+      "id": "translation--james-joyce--jorge-luis-borges",
+      "type": "translation",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 1925년 잡지 『프로아』에 『율리시스』의 마지막 쪽을 스페인어로 옮겨 싣고 「조이스의 율리시스」를 함께 발표했다. 전작이 아니라 한 쪽을 옮긴 소개였지만, 이 소설이 스페인어로 처음 인용된 자리였다.",
+      "anchors": [
+        {
+          "workId": "james-joyce--ulysses",
+          "year": 1925
+        }
+      ],
+      "sourceIds": [
+        "src--borges-proa-ulises-1925"
+      ]
+    },
+    {
+      "id": "affinity--james-joyce--joao-guimaraes-rosa",
+      "type": "affinity",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "joao-guimaraes-rosa (주앙 기마랑이스 호자)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "신조어와 합성어, 다른 언어의 어근을 끌어들여 모국어의 통사를 다시 짜는 작업을 두고 브라질과 유럽의 비평은 『거대한 오지: 베레다스』를 『율리시스』·『피네간의 경야』 옆에 반복해 놓았다. 호자가 조이스를 읽었다는 기록이 근거가 아니라, 두 언어 실험의 방법이 겹친다는 것이 이 비교의 근거다.",
+      "anchors": [
+        {
+          "workId": "joao-guimaraes-rosa--grande-sertao-veredas"
+        },
+        {
+          "workId": "james-joyce--ulysses"
+        },
+        {
+          "workId": "james-joyce--finnegans-wake"
+        }
+      ],
+      "sourceIds": [
+        "src--academia-brasileira-letras"
+      ]
+    },
+    {
+      "id": "affinity--james-joyce--clarice-lispector",
+      "type": "affinity",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "clarice-lispector (클라리시 리스펙토르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "데뷔작 『야생의 심장 가까이』의 제목과 제사는 조이스 『젊은 예술가의 초상』의 한 구절에서 왔지만, 리스펙토르는 그 구절을 친구에게서 전해 들었을 뿐 당시 조이스를 읽지 않았다고 밝혔다. 표지에 남은 그 인용 때문에 비평은 두 작가를 계속 함께 다뤄 왔다.",
+      "anchors": [
+        {
+          "workId": "clarice-lispector--perto-do-coracao-selvagem"
+        },
+        {
+          "workId": "james-joyce--a-portrait-of-the-artist-as-a-young-man"
+        }
+      ],
+      "sourceIds": [
+        "src--academia-brasileira-letras"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--naguib-mahfouz",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "naguib-mahfouz (나기브 마푸즈)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "1960년대 이후 마푸즈가 사실주의를 버리고 내적 독백과 짧은 장면의 몽타주로 옮겨 간 국면을, 아랍 소설 연구는 조이스 이후 유럽 모더니즘 서술의 수용으로 설명한다. 같은 카이로를 두 번 다르게 쓴 이력이 그 수용의 자취다.",
+      "sourceIds": [
+        "src--cambridge-history-arabic-literature"
+      ]
+    },
+    {
+      "id": "affinity--james-joyce--thomas-pynchon",
+      "type": "affinity",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "thomas-pynchon (토머스 핀천)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "에드워드 멘델슨의 1976년 논문 「백과전서적 서사」는 『율리시스』와 『중력의 무지개』를 한 계보로 묶어, 한 문화의 지식 전체를 한 권에 담으려는 소설 유형을 정의했다. 하루와 전쟁 말기라는 서로 다른 시간 단위를 목록으로 채운다는 구조적 대응이 그 근거다.",
+      "anchors": [
+        {
+          "year": 1976
+        },
+        {
+          "workId": "james-joyce--ulysses"
+        },
+        {
+          "workId": "thomas-pynchon--gravitys-rainbow"
+        }
+      ],
+      "sourceIds": [
+        "src--mendelson-encyclopedic-narrative-1976"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--umberto-eco",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "umberto-eco (움베르토 에코)",
+      "evidenceLevel": "documented",
+      "summary": "에코는 『열린 예술작품』(1962)에 실었던 조이스론을 확장해 1966년 『조이스의 시학』을 단행본으로 냈다. 작품이 독자의 해석 작업 없이는 닫히지 않는다는 '열린 작품' 개념 자체를 조이스에게서 끌어냈고, 이후 자기 소설을 그 이론의 시험대로 삼았다.",
+      "anchors": [
+        {
+          "workId": "umberto-eco--opera-aperta"
+        },
+        {
+          "year": 1966
+        }
+      ],
+      "sourceIds": [
+        "src--eco-poetiche-di-joyce"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--don-delillo",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "don-delillo (돈 드릴로)",
+      "evidenceLevel": "documented",
+      "summary": "드릴로는 파리 리뷰 인터뷰에서 젊을 때 『율리시스』를 읽고 문장이 그 자체로 무엇을 할 수 있는지 알게 됐다고 말했다. 상표와 방송 음성 같은 기성 언어를 그대로 문장에 박아 넣는 그의 방법은 이 독서에서 출발한다.",
+      "anchors": [
+        {
+          "workId": "james-joyce--ulysses"
+        }
+      ],
+      "sourceIds": [
+        "src--paris-review"
+      ]
+    },
+    {
+      "id": "mentorship--james-joyce--samuel-beckett",
+      "type": "mentorship",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "samuel-beckett (사뮈엘 베케트)",
+      "evidenceLevel": "documented",
+      "summary": "1928년 파리에 온 스물두 살의 베케트는 조이스와 가까워져, 시력이 나빠진 그를 대신해 자료를 읽고 찾는 일을 도왔다. 이듬해에는 『피네간의 경야』의 연재 원고를 옹호하는 논집(1929)의 첫 글 「단테… 브루노. 비코.. 조이스」를 써서 자기 첫 산문을 발표했다.",
+      "anchors": [
+        {
+          "year": 1928
+        },
+        {
+          "year": 1929
+        },
+        {
+          "workId": "james-joyce--finnegans-wake"
+        }
+      ],
+      "sourceIds": [
+        "src--beckett-our-exagmination-1929",
+        "src--beach-shakespeare-and-company"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--vladimir-nabokov",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "vladimir-nabokov (블라디미르 나보코프)",
+      "evidenceLevel": "documented",
+      "summary": "『Lectures on Literature』(1980)에는 『율리시스』를 따라가며 더블린의 하루를 지도와 시간표로 재구성한 강의가 실려 있다. 나보코프는 이 소설을 20세기 산문의 정점으로 꼽으면서도 『피네간의 경야』는 배격해, 조이스를 둘로 갈라 받아들였다.",
+      "anchors": [
+        {
+          "workId": "james-joyce--ulysses"
+        },
+        {
+          "workId": "james-joyce--finnegans-wake"
+        },
+        {
+          "year": 1980
+        }
+      ],
+      "sourceIds": [
+        "src--nabokov-lectures-on-literature"
+      ]
+    },
+    {
+      "id": "dialogue--james-joyce--ernest-hemingway",
+      "type": "dialogue",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "ernest-hemingway (어니스트 헤밍웨이)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 1920년대 파리의 서점 셰익스피어 앤드 컴퍼니를 매개로 알고 지냈다. 실비아 비치의 회고록(1959)은 미국 반입이 금지된 『율리시스』를 국경 너머로 들여보내는 일에 헤밍웨이가 방법을 마련해 준 경위를 기록한다.",
+      "anchors": [
+        {
+          "workId": "james-joyce--ulysses"
+        },
+        {
+          "year": 1959
+        }
+      ],
+      "sourceIds": [
+        "src--beach-shakespeare-and-company"
+      ]
+    },
+    {
+      "id": "influence--james-joyce--hermann-broch",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "hermann-broch (헤르만 브로흐)",
+      "evidenceLevel": "documented",
+      "summary": "브로흐는 조이스 50세를 계기로 쓴 강연 「제임스 조이스와 현재」에서 『율리시스』를 인식의 총체를 감당하는 소설 형식으로 읽었고, 그 독법은 『베르길리우스의 죽음』의 긴 내적 독백 구성으로 이어진다. 1938년 브로흐가 나치 당국에 붙잡혔을 때 출국을 도운 사람 가운데 조이스가 있었다.",
+      "anchors": [
+        {
+          "workId": "hermann-broch--james-joyce-und-die-gegenwart"
+        },
+        {
+          "workId": "james-joyce--ulysses"
+        },
+        {
+          "workId": "hermann-broch--der-tod-des-vergil"
+        },
+        {
+          "year": 1938
+        }
+      ],
+      "sourceIds": [
+        "src--broch-joyce-und-die-gegenwart-1936"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--henrik-ibsen--james-joyce (→ henrik-ibsen 의 슬레이트에서 본다)",
+    "influence--gustave-flaubert--james-joyce (→ gustave-flaubert 의 슬레이트에서 본다)",
+    "dialogue--william-butler-yeats--james-joyce (→ william-butler-yeats 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--ellmann-james-joyce": {
+      "id": "src--ellmann-james-joyce",
+      "title": "James Joyce (1959, 개정판 1982)",
+      "publisherOrInstitution": "Oxford University Press — Richard Ellmann",
+      "citation": "조이스 표준 전기 — 1902년 예이츠와의 첫 만남, 예이츠의 소개와 문학기금 주선, 1932년 아일랜드 문예 아카데미 초청과 거절 등 인적 관계의 표준 근거"
+    },
+    "src--marr-patrick-white-a-life": {
+      "id": "src--marr-patrick-white-a-life",
+      "title": "Patrick White: A Life (1991)",
+      "publisherOrInstitution": "David Marr, Random House Australia",
+      "citation": "화이트의 서한과 독서를 정리한 표준 전기 — 조이스·로런스·울프 수용에 관한 1차 자료의 소재를 제시한다"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--woolf-letters-diary": {
+      "id": "src--woolf-letters-diary",
+      "title": "버지니아 울프 일기·서간 (The Diary of Virginia Woolf / The Letters of Virginia Woolf)",
+      "publisherOrInstitution": "The Hogarth Press / Harcourt Brace Jovanovich",
+      "citation": "1922년 로저 프라이 앞 편지의 프루스트 언급, 같은 해 『율리시스』에 대한 일기의 혹평, 1923년 맨스필드의 죽음 뒤 남긴 질투의 기록 등이 실린 1차 자료"
+    },
+    "src--faulkner-in-the-university": {
+      "id": "src--faulkner-in-the-university",
+      "title": "Faulkner in the University: Class Conferences at the University of Virginia 1957–1958 (Frederick Gwynn·Joseph Blotner 편, 1959)",
+      "publisherOrInstitution": "University of Virginia Press",
+      "citation": "포크너가 학생들의 질문에 답한 문답 속기 기록 — 조이스 『율리시스』 독서와 자기 서술 방법에 대한 본인 발언의 1차 자료"
+    },
+    "src--eliot-ulysses-order-and-myth-1923": {
+      "id": "src--eliot-ulysses-order-and-myth-1923",
+      "title": "「율리시스, 질서, 신화」 (Ulysses, Order, and Myth, The Dial, 1923. 11.)",
+      "publisherOrInstitution": "The Dial (New York)",
+      "citation": "엘리엇이 조이스의 방법을 '신화적 방법'이라 명명하고 서사 형식의 대체물로 제시한 평문 — 모더니즘 시학의 1차 문헌"
+    },
+    "src--borges-proa-ulises-1925": {
+      "id": "src--borges-proa-ulises-1925",
+      "title": "「조이스의 율리시스」와 마지막 쪽 번역 (『프로아』 Proa, 1925)",
+      "publisherOrInstitution": "Revista Proa, Buenos Aires",
+      "citation": "『율리시스』의 일부가 스페인어로 처음 옮겨진 지면 — 보르헤스의 조이스 소개 1차 문헌"
+    },
+    "src--academia-brasileira-letras": {
+      "id": "src--academia-brasileira-letras",
+      "title": "Academia Brasileira de Letras — 회원 작가 공식 연보",
+      "publisherOrInstitution": "Academia Brasileira de Letras",
+      "url": "https://www.academia.org.br",
+      "citation": "브라질 문학 아카데미 회원 작가의 선출·취임·사망 일자와 저작 목록 확인용"
+    },
+    "src--cambridge-history-arabic-literature": {
+      "id": "src--cambridge-history-arabic-literature",
+      "title": "The Cambridge History of Arabic Literature — Modern Arabic Literature 권",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "20세기 아랍 소설사 표준 개설 — 마푸즈·살리흐의 발표 연도와 문학사적 위치 확인용"
+    },
+    "src--mendelson-encyclopedic-narrative-1976": {
+      "id": "src--mendelson-encyclopedic-narrative-1976",
+      "title": "「백과전서적 서사 — 단테에서 핀천까지」 (Edward Mendelson, 1976)",
+      "publisherOrInstitution": "MLN (Modern Language Notes), Johns Hopkins University Press",
+      "citation": "『율리시스』와 『중력의 무지개』를 한 장르 계보로 묶어 '백과전서적 서사' 개념을 정식화한 논문 — 조이스·핀천을 나란히 놓는 학술 전통의 출처"
+    },
+    "src--eco-poetiche-di-joyce": {
+      "id": "src--eco-poetiche-di-joyce",
+      "title": "『조이스의 시학』 (Le poetiche di Joyce, 1966)",
+      "publisherOrInstitution": "Bompiani",
+      "citation": "『열린 예술작품』(1962)에 실렸던 조이스론을 단행본으로 확장한 연구 — 에코가 '열린 작품' 개념을 조이스에게서 끌어냈다는 1차 근거"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--beckett-our-exagmination-1929": {
+      "id": "src--beckett-our-exagmination-1929",
+      "title": "「단테… 브루노. 비코.. 조이스」 — 『Our Exagmination Round His Factification for Incamination of Work in Progress』 수록 (1929)",
+      "publisherOrInstitution": "Shakespeare and Company, Paris",
+      "citation": "조이스가 연재 중이던 『피네간의 경야』 원고를 옹호하기 위해 그의 주변 인물 열둘이 쓴 논집의 첫 글 — 베케트가 처음 발표한 산문이자 파리 시절 두 사람의 관계를 보여주는 1차 문헌"
+    },
+    "src--beach-shakespeare-and-company": {
+      "id": "src--beach-shakespeare-and-company",
+      "title": "『Shakespeare and Company』 (1959)",
+      "publisherOrInstitution": "Harcourt, Brace and Company",
+      "citation": "『율리시스』를 처음 출판한 파리 서점 주인 실비아 비치의 회고록 — 조이스와 헤밍웨이를 포함한 1920년대 파리 문인들의 왕래에 대한 1차 증언"
+    },
+    "src--nabokov-lectures-on-literature": {
+      "id": "src--nabokov-lectures-on-literature",
+      "title": "『Lectures on Literature』 (Fredson Bowers 편, 1980)",
+      "publisherOrInstitution": "Harcourt Brace Jovanovich",
+      "citation": "웰즐리·코넬대 강의 노트를 사후에 묶은 책 — 플로베르·조이스·프루스트·카프카에 대한 나보코프의 독서를 문장 단위로 보여주는 기록"
+    },
+    "src--broch-joyce-und-die-gegenwart-1936": {
+      "id": "src--broch-joyce-und-die-gegenwart-1936",
+      "title": "헤르만 브로흐, 「제임스 조이스와 현재(James Joyce und die Gegenwart)」 (1932년 강연, 1936년 간행)",
+      "publisherOrInstitution": "Herbert Reichner Verlag (빈)",
+      "citation": "조이스 50세를 계기로 한 강연문 — 브로흐가 『율리시스』를 인식의 총체를 감당하는 소설 형식으로 읽은 1차 문헌"
+    }
+  }
+}

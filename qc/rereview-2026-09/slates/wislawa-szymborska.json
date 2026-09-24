@@ -1,0 +1,164 @@
+{
+  "id": "wislawa-szymborska",
+  "page": "https://literary-planet.pages.dev/authors/wislawa-szymborska/",
+  "author": {
+    "names": {
+      "ko": "비스와바 심보르스카",
+      "original": "Wisława Szymborska",
+      "aliases": [
+        "심보르스카",
+        "쉼보르스카",
+        "비스와바 쉼보르스카",
+        "Szymborska"
+      ]
+    },
+    "birthYear": 1923,
+    "deathYear": 2012,
+    "activeRange": [
+      1945,
+      2012
+    ],
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "한 편의 시를 하나의 질문으로 설계하고, 일상어와 농담의 어조를 유지한 채 그 질문을 역사·생물학·확률의 축척으로 옮기는 방식을 30년에 걸쳐 다듬었다. 전쟁과 학살을 다룰 때도 비탄의 수사 대신 숫자와 사물의 목록을 쓰는 이 절제는, 전후 폴란드 시가 증언의 의무와 선전의 압력 사이에서 찾아낸 제3의 어법으로 읽힌다. 1952·1954년의 사회주의 리얼리즘 시집 두 권을 스스로 물리고 1957년 『예티를 향한 부름』에서 다시 출발한 이력은, 정치적 언어를 버리는 과정 자체가 시법이 된 사례다. 1996년 노벨문학상 이후 그의 시는 여러 언어로 번역되며 '쉬운 표면과 어려운 질문'이라는 서정시의 한 모델이 되었다.",
+    "readingEntry": "wislawa-szymborska--koniec-i-poczatek",
+    "readingEntryReason": "국내에 같은 제목의 선집으로 가장 널리 소개된 묶음이고, 전쟁이 끝난 자리를 치우는 사람들을 다룬 표제시와 「빈 아파트의 고양이」가 나란히 놓여 역사와 사적 상실을 같은 어조로 다루는 그의 방법을 한 번에 보여준다.",
+    "readingOrder": [
+      "wislawa-szymborska--koniec-i-poczatek",
+      "wislawa-szymborska--lektury-nadobowiazkowe",
+      "wislawa-szymborska--ludzie-na-moscie",
+      "wislawa-szymborska--wielka-liczba",
+      "wislawa-szymborska--sol"
+    ],
+    "readingWarning": "1952년과 1954년에 낸 첫 두 시집은 사회주의 리얼리즘 시기의 작업으로 작가 자신이 물린 것이라, 거기서 시작하면 심보르스카의 시를 만나지 못한다.",
+    "difficulty": 2,
+    "difficultyReason": "시가 짧고 문장이 평이해 첫 독서는 막히지 않지만, 농담의 표면 아래 폴란드 전후사와 과학·철학의 참조가 깔려 있어 두 번째 읽기에서 같은 시가 달라진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "wislawa-szymborska--wolanie-do-yeti",
+      "titleKo": "예티를 향한 부름",
+      "titleOriginal": "Wołanie do Yeti",
+      "year": 1957,
+      "genre": "poetry",
+      "significance": "사회주의 리얼리즘 시기에 낸 초기 두 시집을 스스로 물리고 발표한 세 번째 시집. 표제 연작은 흔히 스탈린주의를 향한 발화로 읽히며, 이후 그의 시를 특징짓는 반어와 질문의 어조가 여기서 처음 나온다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "wislawa-szymborska--sol",
+      "titleKo": "소금",
+      "titleOriginal": "Sól",
+      "year": 1962,
+      "genre": "poetry",
+      "significance": "사물과 동물을 관찰 대상으로 놓고 인간의 자리를 되묻는 시들을 모은 네 번째 시집. 한 편의 시를 하나의 질문으로 설계하는 방법이 여기서 자리 잡고, 이후 선집에 반복 수록되는 시들이 나오기 시작한다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "wislawa-szymborska--lektury-nadobowiazkowe",
+      "titleKo": "읽거나 말거나",
+      "titleOriginal": "Lektury nadobowiązkowe",
+      "year": 1973,
+      "genre": "essay-criticism",
+      "significance": "요리책·실용 안내서·도감처럼 서평 대상이 되지 않는 책들을 골라 쓴 짧은 칼럼 모음. 시에서 쓰던 반어와 곁길로 새는 논리를 산문에 그대로 옮겨, 서평이라는 형식을 농담의 장르로 바꿨다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "wislawa-szymborska--wielka-liczba",
+      "titleKo": "거대한 숫자",
+      "titleOriginal": "Wielka liczba",
+      "year": 1976,
+      "genre": "poetry",
+      "significance": "수십억이라는 인구 앞에서 시가 한 사람을 어떻게 셀 수 있는지를 표제시가 묻는다. 통계와 확률의 어휘를 서정시에 끌어들이는 그의 방식이 가장 선명하게 드러나는 시집이다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "wislawa-szymborska--ludzie-na-moscie",
+      "titleKo": "다리 위의 사람들",
+      "titleOriginal": "Ludzie na moście",
+      "year": 1986,
+      "genre": "poetry",
+      "significance": "히로시게의 목판화 속에서 비를 맞으며 다리를 건너는 사람들이 영원히 도착하지 않는 장면을 두고, 시간을 멈추려는 예술의 시도를 표제시가 다룬다. 하나의 이미지를 끝까지 밀어붙여 존재론적 질문에 도달하는 후기 방식이 응축된 시집이다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "wislawa-szymborska--koniec-i-poczatek",
+      "titleKo": "끝과 시작",
+      "titleOriginal": "Koniec i początek",
+      "year": 1993,
+      "genre": "poetry",
+      "significance": "전쟁이 끝난 자리에서 잔해를 치우는 사람들을 다룬 표제시와, 주인이 죽은 집에 남겨진 고양이의 시점으로 쓴 「빈 아파트의 고양이」가 함께 실렸다. 노벨상 직전의 시집으로, 국내에는 같은 제목의 선집으로 가장 널리 소개되었다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--poetry-foundation",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "contrast--paul-celan--wislawa-szymborska (→ paul-celan 의 슬레이트에서 본다)",
+    "contrast--anna-akhmatova--wislawa-szymborska (→ anna-akhmatova 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

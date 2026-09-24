@@ -1,0 +1,161 @@
+{
+  "id": "alain-robbe-grillet",
+  "page": "https://literary-planet.pages.dev/authors/alain-robbe-grillet/",
+  "author": {
+    "names": {
+      "ko": "알랭 로브그리예",
+      "original": "Alain Robbe-Grillet",
+      "aliases": [
+        "로브그리예",
+        "Robbe-Grillet",
+        "알랭 로브 그리예"
+      ]
+    },
+    "birthYear": 1922,
+    "deathYear": 2008,
+    "activeRange": [
+      1953,
+      2007
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [
+      "nouveau-roman"
+    ],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "importanceReason": "인물의 심리와 플롯의 인과를 서술에서 걷어내고, 대상의 위치·거리·개수를 측량하듯 기술하는 문장을 소설의 기본 단위로 삼았다. 『질투』는 감정을 가리키는 낱말을 한 번도 쓰지 않고 블라인드 살의 수와 바나나 나무의 열을 세는 서술만으로 질투를 발생시켜, 내면을 진술하지 않고 내면을 만드는 방법을 증명했다. 미뉘 출판사의 문학 감독으로 사로트·뷔토르·시몽의 작업을 한 흐름으로 묶어내고 『누보로망을 위하여』로 그 강령을 정식화해, 창작과 이론과 편집을 한 사람이 동시에 수행한 드문 사례를 남겼다.",
+    "readingEntry": "alain-robbe-grillet--la-jalousie",
+    "readingEntryReason": "100쪽 남짓으로 짧고, 감정어를 쓰지 않고 사물의 배치만 세는 서술이 질투라는 상태를 만들어내는 과정이 한 권 안에서 처음부터 끝까지 완결되어 방법 전체를 볼 수 있다.",
+    "readingOrder": [
+      "alain-robbe-grillet--la-jalousie",
+      "alain-robbe-grillet--les-gommes",
+      "alain-robbe-grillet--lannee-derniere-a-marienbad",
+      "alain-robbe-grillet--dans-le-labyrinthe",
+      "alain-robbe-grillet--pour-un-nouveau-roman"
+    ],
+    "readingWarning": "이론서 『누보로망을 위하여』를 먼저 읽으면 이후의 소설을 강령의 예시로만 확인하게 된다. 소설 두세 편을 통과한 뒤 이론으로 가는 순서를 권한다.",
+    "difficulty": 4,
+    "difficultyReason": "문장 자체는 명료하지만 같은 장면이 조금씩 달라지며 반복되고 시간 순서를 복원할 단서가 주어지지 않아, 줄거리를 재구성하려는 독법으로는 끝까지 읽히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--robbe-grillet-pour-un-nouveau-roman",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "alain-robbe-grillet--les-gommes",
+      "titleKo": "고무지우개",
+      "titleOriginal": "Les Gommes",
+      "year": 1953,
+      "genre": "fiction",
+      "significance": "아직 일어나지 않은 살인을 수사하던 형사가 결국 그 살인을 저지르게 되는 스물네 시간을 추리소설의 외형으로 썼다. 오이디푸스 신화의 구조를 사건 대신 사물 묘사 위에 겹친 첫 장편이다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "alain-robbe-grillet--le-voyeur",
+      "titleKo": "엿보는 자",
+      "titleOriginal": "Le Voyeur",
+      "year": 1955,
+      "genre": "fiction",
+      "significance": "섬을 도는 시계 외판원의 하루에서 소녀의 죽음에 해당하는 시간만 서술에 비어 있는 구조로 쓰였다. 빠진 자리를 독자가 채우게 만드는 이 공백이 이후 그의 소설의 기본 장치가 되며, 발표 당시 격론 끝에 비평가상을 받았다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "alain-robbe-grillet--la-jalousie",
+      "titleKo": "질투",
+      "titleOriginal": "La Jalousie",
+      "year": 1957,
+      "genre": "fiction",
+      "significance": "열대 농장의 집에서 아내와 이웃 남자를 지켜보는 시선만 남고, 그 시선의 주체는 한 번도 '나'로 등장하지 않는다. 블라인드 살과 바나나 나무의 열을 세는 반복 서술이 감정을 가리키는 낱말 없이 질투를 발생시키는 구조를 완성했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "alain-robbe-grillet--dans-le-labyrinthe",
+      "titleKo": "미로 속에서",
+      "titleOriginal": "Dans le labyrinthe",
+      "year": 1959,
+      "genre": "fiction",
+      "significance": "눈 내린 도시에서 소포를 전할 곳을 찾지 못하는 병사의 이동을, 같은 거리와 같은 방을 조금씩 다르게 반복하는 문단들로 서술한다. 시간의 순서를 복원할 단서를 가장 철저히 제거한 그의 소설이다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "alain-robbe-grillet--lannee-derniere-a-marienbad",
+      "titleKo": "지난해 마리앙바드에서",
+      "titleOriginal": "L'Année dernière à Marienbad",
+      "year": 1961,
+      "genre": "drama",
+      "significance": "알랭 레네가 연출한 영화의 대본을 '시네로망'이라는 이름으로 출간한 텍스트. 두 인물이 작년의 만남을 두고 어긋난 기억을 각각 주장하는데, 무엇이 실제로 있었는지를 텍스트가 끝까지 결정하지 않는다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "alain-robbe-grillet--pour-un-nouveau-roman",
+      "titleKo": "누보로망을 위하여",
+      "titleOriginal": "Pour un nouveau roman",
+      "year": 1963,
+      "genre": "essay-criticism",
+      "significance": "발자크식 인물·플롯·심리 묘사를 소설의 필수 요건에서 제외하자고 주장한 평문들을 묶은 책. 사물은 인간의 감정을 담는 그릇이 아니라 그냥 거기 있다는 명제로, 이후 프랑스 소설 논쟁의 참조점이 되었다.",
+      "sourceIds": [
+        "src--robbe-grillet-pour-un-nouveau-roman"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "affinity--vladimir-nabokov--alain-robbe-grillet (→ vladimir-nabokov 의 슬레이트에서 본다)",
+    "influence--samuel-beckett--alain-robbe-grillet (→ samuel-beckett 의 슬레이트에서 본다)",
+    "influence--franz-kafka--alain-robbe-grillet (→ franz-kafka 의 슬레이트에서 본다)",
+    "influence--gustave-flaubert--alain-robbe-grillet (→ gustave-flaubert 의 슬레이트에서 본다)",
+    "contrast--marguerite-duras--alain-robbe-grillet (→ marguerite-duras 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--robbe-grillet-pour-un-nouveau-roman": {
+      "id": "src--robbe-grillet-pour-un-nouveau-roman",
+      "title": "『Pour un nouveau roman』 (1963) 수록 평문",
+      "publisherOrInstitution": "Éditions de Minuit",
+      "citation": "인물·플롯·심리 대신 사물의 표면을 서술하겠다는 강령을 로브그리예 자신이 정식화한 1차 문헌"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

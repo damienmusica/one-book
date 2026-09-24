@@ -46,21 +46,24 @@ function main() {
     if (!r1.ok || r2.ok || noqid.ok || leak.ok || !leakSettled.ok) { console.error("프로브 실패 — 검사가 열린 도판을 검토됨으로 올린다"); process.exit(1); }
     return;
   }
-  const ledgerPath = flag("--ledger"); if (!ledgerPath) throw new Error("--ledger <qc/closeread/x.json> 이 필요하다");
-  const ledger = JSON.parse(readFileSync(ledgerPath, "utf8"));
-  const entries = new Map<string, Raw>((ledger.plates ?? []).map((p: Raw) => [p.id, p]));
+  const ledgerPath = flag("--ledger"); if (!ledgerPath) throw new Error("--ledger <qc/closeread/x.json[,y.json]> 이 필요하다");
+  // 원장은 여럿일 수 있다(웨이브 1 · 재심). 같은 도판이 둘에 있으면 뒤의 것(나중에 읽은 것)이 이긴다.
+  const entries = new Map<string, Raw>();
+  for (const lp of ledgerPath.split(",")) for (const p of JSON.parse(readFileSync(lp, "utf8")).plates ?? []) entries.set(p.id, p);
   const only = flag("--ids") ? new Set(flag("--ids")!.split(",")) : undefined;
   const dir = join(process.cwd(), "data", "authors");
   const today = new Date().toISOString().slice(0, 10);
-  let flipped = 0, demoted = 0; const held: string[] = []; const touched = new Set<string>();
+  let flipped = 0, demoted = 0, reaffirmed = 0; const held: string[] = []; const touched = new Set<string>();
   for (const f of readdirSync(dir).filter((x) => x.endsWith(".json"))) {
     const rows: Raw[] = JSON.parse(readFileSync(join(dir, f), "utf8"));
     for (const a of rows) {
-      if (only ? !only.has(a.id) : !entries.has(a.id)) continue;
+      if (only ? !only.has(a.id) : !(entries.has(a.id) || (DEMOTE && a.reviewStatus !== "draft"))) continue;
       const v = verdictFor(a, entries.get(a.id));
       if (a.reviewStatus === "draft") {
         if (v.ok) { a.reviewStatus = "reviewed"; a.reviewedAt = today; flipped++; touched.add(f); console.log(`  ${a.id} → reviewed (${v.why})`); }
         else held.push(`${a.id}: ${v.why}`);
+      } else if (DEMOTE && v.ok) {
+        if (a.reviewedAt !== today) { a.reviewedAt = today; reaffirmed++; touched.add(f); }
       } else if (DEMOTE && !v.ok) {
         // 이미 「검토됨」인데 원장이 그것을 받치지 못한다 — 내린다. 정의가 바뀌었을 때 옛 기준으로 올라간 쪽을 정의에 맞추는 길.
         a.reviewStatus = "draft"; delete a.reviewedAt; demoted++; touched.add(f); console.log(`  ${a.id} → draft (${v.why})`);
@@ -68,7 +71,7 @@ function main() {
     }
     if (WRITE && touched.has(f)) writeFileSync(join(dir, f), JSON.stringify(rows, null, 2) + "\n");
   }
-  console.log(`검토됨 ${flipped} · 보류 ${held.length}${DEMOTE ? ` · 내림 ${demoted}` : ""}`);
+  console.log(`검토됨 ${flipped} · 보류 ${held.length}${DEMOTE ? ` · 내림 ${demoted} · 재확인 ${reaffirmed}` : ""}`);
   for (const h of held) console.log(`  - ${h}`);
   console.log(WRITE ? `  → 썼다 (${touched.size} 파일)` : "(--write 없이 실행 — 파일을 쓰지 않았다)");
 }

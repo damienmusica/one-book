@@ -1,0 +1,20 @@
+{
+  "id": "chinghiz-aitmatov",
+  "claims": [
+    {
+      "field": "works[chinghiz-aitmatov--i-dolshe-veka-dlitsya-den].titleKo",
+      "claim": "titleKo 「하루는 백 년보다 길다」",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/%EC%B9%9C%EA%B8%B0%EC%8A%A4_%EC%95%84%EC%9D%B4%ED%8A%B8%EB%A7%88%ED%86%A0%ED%94%84",
+      "note": "원제 «И дольше века длится день» 의 직역으로 정확하다. 다만 국내 유통본(열린책들, 황보석 역)의 제목은 『백년보다 긴 하루』이므로 통용 표제와는 다르다."
+    },
+    {
+      "field": "relations[mukhtar-auezov→chinghiz-aitmatov]",
+      "claim": "그 자리에 있던 아이트마토프가 자기 글에서 그 장면을 회고했다",
+      "verdict": "confirmed",
+      "url": "https://www.aramcoworld.com/articles/2019/after-manas-my-kyrgyz-your-chingiz",
+      "quote": "The hall \"was packed to the brim,\" Aitmatov recalled. \"People hung from the door handles\"",
+      "note": "아이트마토프가 문간에서 참관했고 그 장면을 회고했다는 점은 확인됨. 다만 회고가 '자기 글'(집필)인지 구술인지는 기사가 특정하지 않는다."
+    }
+  ]
+}

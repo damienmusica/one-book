@@ -1,0 +1,144 @@
+{
+  "id": "park-kyung-ni",
+  "page": "https://literary-planet.pages.dev/authors/park-kyung-ni/",
+  "author": {
+    "names": {
+      "ko": "박경리",
+      "original": "朴景利",
+      "aliases": [
+        "박금이",
+        "朴今伊",
+        "Park Kyongni"
+      ]
+    },
+    "birthYear": 1926,
+    "deathYear": 2008,
+    "activeRange": [
+      1955,
+      1994
+    ],
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "1969년부터 1994년까지 25년에 걸쳐 5부작 『토지』를 완성해, 구한말 하동 평사리의 한 가문에서 시작한 이야기를 진주·간도·도쿄로 옮기며 식민지 시기 전체를 인물 계보로 서술했다. 여성 인물을 가문사의 관찰자가 아니라 토지와 자본을 소유하고 경영하는 주체로 배치해 대하소설의 관습적 시점을 바꿨다. 경상도·전라도 방언 대화와 무속·풍속의 어휘를 각주 없이 서사 언어로 끌어올렸고, 한 작가가 25년간 연재를 이어 완간한 이 규모는 한국 장편소설의 연재 관행 자체를 시험한 사례가 되었다.",
+    "readingEntry": "park-kyung-ni--kim-yakguk-ui-ttaldeul",
+    "readingEntryReason": "단권 분량에 통영이라는 뚜렷한 무대가 있고, 가계를 따라 인물의 운명이 어긋나는 박경리의 구성이 압축되어 있어 『토지』로 가는 예비 독서로 적합하다.",
+    "readingOrder": [
+      "park-kyung-ni--kim-yakguk-ui-ttaldeul",
+      "park-kyung-ni--bulsinsidae",
+      "park-kyung-ni--sijang-gwa-jeonjang",
+      "park-kyung-ni--toji"
+    ],
+    "readingWarning": "『토지』부터 시작하면 5부에 걸친 분량과 수백 명의 인물 계보 때문에 1부 중반에서 놓기 쉽다. 단권 장편으로 문체와 방언에 익숙해진 뒤 들어가는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 어렵지 않으나 경상도·전라도 방언 대화가 그대로 실리고, 『토지』는 구한말부터 해방까지의 사건과 인물 계보를 독자가 계속 붙들고 있어야 한다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--toji-serialization-record",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "park-kyung-ni--bulsinsidae",
+      "titleKo": "불신시대",
+      "titleOriginal": "불신시대",
+      "year": 1957,
+      "genre": "fiction",
+      "significance": "전쟁으로 남편과 아들을 잃은 여자가 병원과 절에서 겪는 기만을 따라가는 단편. 1957년 현대문학 신인상을 받으며 박경리의 이름을 알린 작품이다.",
+      "sourceIds": [
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "park-kyung-ni--pyoryudo",
+      "titleKo": "표류도",
+      "titleOriginal": "표류도",
+      "year": 1959,
+      "genre": "fiction",
+      "significance": "전쟁으로 남편을 잃은 여자가 다방을 운영하며 살아가는 서울을 무대로, 여성 생활자의 경제와 소문을 정면으로 다룬 초기 장편이다.",
+      "sourceIds": [
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "park-kyung-ni--kim-yakguk-ui-ttaldeul",
+      "titleKo": "김약국의 딸들",
+      "titleOriginal": "김약국의 딸들",
+      "year": 1962,
+      "genre": "fiction",
+      "significance": "통영의 한약방 집안 딸들의 삶이 차례로 어긋나는 과정을 가계의 시간으로 서술한다. 『토지』 이전 박경리 장편 중 가장 널리 읽혔고 여러 차례 영화와 드라마로 옮겨졌다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    },
+    {
+      "id": "park-kyung-ni--sijang-gwa-jeonjang",
+      "titleKo": "시장과 전장",
+      "titleOriginal": "시장과 전장",
+      "year": 1964,
+      "genre": "fiction",
+      "significance": "한국전쟁을 시장의 생활과 전장의 이념이라는 두 축으로 나누어 교차 서술한 장편. 좌익 인물을 이념의 도구가 아니라 생활인으로 배치했다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    },
+    {
+      "id": "park-kyung-ni--toji",
+      "titleKo": "토지",
+      "titleOriginal": "토지",
+      "year": 1969,
+      "genre": "fiction",
+      "significance": "1969년 「현대문학」 연재를 시작해 1994년 5부를 완간하기까지 25년이 걸린 대하소설. 구한말 하동 평사리의 최씨 가문에서 출발해 서희와 길상의 세대를 따라 진주·간도·도쿄로 무대를 옮기며 식민지 시기 전체를 인물 계보로 서술한다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea",
+        "src--toji-serialization-record"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "affinity--eileen-chang--park-kyung-ni (→ eileen-chang 의 슬레이트에서 본다)",
+    "affinity--leo-tolstoy--park-kyung-ni (→ leo-tolstoy 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--encykorea": {
+      "id": "src--encykorea",
+      "title": "한국민족문화대백과사전 — 작가·작품 항목",
+      "publisherOrInstitution": "한국학중앙연구원",
+      "url": "https://encykorea.aks.ac.kr",
+      "citation": "한국 작가의 생애·작품 기초 사실 확인용"
+    },
+    "src--lti-korea": {
+      "id": "src--lti-korea",
+      "title": "한국문학번역원 작가 소개 자료",
+      "publisherOrInstitution": "Literature Translation Institute of Korea",
+      "url": "https://www.ltikorea.or.kr",
+      "citation": "한국 작가의 해외 소개용 공식 프로필"
+    },
+    "src--toji-serialization-record": {
+      "id": "src--toji-serialization-record",
+      "title": "『토지』 연재 이력 기록 (1969–1994, 5부 완간)",
+      "publisherOrInstitution": "연재 수록 문예지·일간지 지면",
+      "citation": "1969년 「현대문학」 연재 개시 이후 매체를 옮겨 가며 25년간 이어진 연재와 1994년 완간 시점 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

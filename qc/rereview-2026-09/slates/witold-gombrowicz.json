@@ -1,0 +1,199 @@
+{
+  "id": "witold-gombrowicz",
+  "page": "https://literary-planet.pages.dev/authors/witold-gombrowicz/",
+  "author": {
+    "names": {
+      "ko": "비톨트 곰브로비치",
+      "original": "Witold Gombrowicz",
+      "aliases": [
+        "곰브로비치",
+        "Gombrowicz",
+        "비톨드 곰브로비치"
+      ]
+    },
+    "birthYear": 1904,
+    "deathYear": 1969,
+    "activeRange": [
+      1933,
+      1969
+    ],
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "eastern-europe"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "importanceReason": "미성숙·형식·얼굴(gęba)이라는 자기 용어로, 인간은 타인 앞에서 강제로 형식을 뒤집어쓴다는 관계의 역학을 소설의 플롯 자체로 만들었다. 『페르디두르케』는 서른 살 남자를 학교로 돌려보내 어른됨이라는 형식을 희극적으로 해체했고, 아르헨티나 망명기에 쓴 『일기』는 폴란드성·조국·문학적 권위를 상대로 1인칭으로 벌인 공개 논쟁을 하나의 장르로 굳혔다. 자기 서술을 계속 조롱하는 화자와 반(反)엄숙주의는 이후 중부·동유럽 산문이 국가 서사에 저항하는 방식의 한 원형이 되었다.",
+    "readingEntry": "witold-gombrowicz--ferdydurke",
+    "readingEntryReason": "그의 어휘(미성숙·형식·얼굴)가 처음부터 끝까지 한 권 안에서 작동하고, 학교와 저택이라는 익숙한 무대 위에서 진행되어 사전 지식 없이 진입할 수 있다.",
+    "readingOrder": [
+      "witold-gombrowicz--ferdydurke",
+      "witold-gombrowicz--pornografia",
+      "witold-gombrowicz--dziennik",
+      "witold-gombrowicz--kosmos"
+    ],
+    "readingWarning": "『코스모스』나 『트란스아틀란티크』로 시작하면 각각 강박적 기호 해석과 옛 폴란드 이야기체 패러디가 장벽이 되어, 그가 무엇을 놀리는지 모르는 채 문장만 남는다.",
+    "difficulty": 4,
+    "difficultyReason": "문장은 어렵지 않으나 화자가 계속 자기 서술을 조롱하며 방향을 틀고, 폴란드 지식인 사회와 귀족 문화라는 조롱 대상의 맥락을 어느 정도 알아야 농담이 성립한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--culture-pl",
+      "src--gombrowicz-dziennik",
+      "src--gombrowicz-testament",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "witold-gombrowicz--ferdydurke",
+      "titleKo": "페르디두르케",
+      "titleOriginal": "Ferdydurke",
+      "year": 1937,
+      "genre": "fiction",
+      "significance": "서른 살 작가가 교사에게 끌려가 다시 중학생이 되는 설정으로, 성숙이라는 사회적 형식이 어떻게 강제되는지를 희극적 플롯으로 증명한다. '미성숙'과 '얼굴'이라는 그의 핵심 어휘가 여기서 정립되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--culture-pl"
+      ]
+    },
+    {
+      "id": "witold-gombrowicz--iwona-ksiezniczka-burgunda",
+      "titleKo": "이보나, 부르군드의 공주",
+      "titleOriginal": "Iwona, księżniczka Burgunda",
+      "year": 1938,
+      "genre": "drama",
+      "significance": "말이 거의 없는 여자를 궁정에 들여놓는 것만으로 궁정 전체가 자기 형식에 걸려 무너지는 희곡. 침묵을 무대의 동력으로 삼는 이 구조는 전후 부조리극과 자주 비교된다.",
+      "sourceIds": [
+        "src--culture-pl"
+      ]
+    },
+    {
+      "id": "witold-gombrowicz--trans-atlantyk",
+      "titleKo": "트란스아틀란티크",
+      "titleOriginal": "Trans-Atlantyk",
+      "year": 1953,
+      "genre": "fiction",
+      "significance": "1939년 부에노스아이레스에 발이 묶인 폴란드인을 화자로 삼아, 조국에 대한 의무와 그로부터의 해방을 옛 폴란드 이야기체(gawęda)를 패러디한 문체로 서술한다. 망명 폴란드 사회와 정면으로 충돌한 작품이다.",
+      "sourceIds": [
+        "src--culture-pl",
+        "src--gombrowicz-testament"
+      ]
+    },
+    {
+      "id": "witold-gombrowicz--dziennik",
+      "titleKo": "일기",
+      "titleOriginal": "Dziennik",
+      "year": 1953,
+      "genre": "essay-criticism",
+      "significance": "파리의 망명지 잡지 『쿨투라』에 연재를 시작해 세 권으로 묶인 일기로, 사적 기록이 아니라 폴란드성·가톨릭·문학적 권위를 상대로 공개적으로 벌인 논쟁의 형식을 취한다. 연재는 1953년에 시작되어 사망 직전까지 이어졌다.",
+      "sourceIds": [
+        "src--gombrowicz-dziennik",
+        "src--culture-pl"
+      ]
+    },
+    {
+      "id": "witold-gombrowicz--pornografia",
+      "titleKo": "포르노그라피아",
+      "titleOriginal": "Pornografia",
+      "year": 1960,
+      "genre": "fiction",
+      "significance": "독일 점령기 폴란드 시골을 배경으로 두 중년 남자가 젊은 남녀를 서로에게 밀어붙이며 상황을 연출하는 소설. 젊음을 훔쳐보고 조작하려는 시선 자체를 서사의 엔진으로 삼는다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--culture-pl"
+      ]
+    },
+    {
+      "id": "witold-gombrowicz--kosmos",
+      "titleKo": "코스모스",
+      "titleOriginal": "Kosmos",
+      "year": 1965,
+      "genre": "fiction",
+      "significance": "목매달린 참새와 천장의 얼룩 같은 사소한 기호에서 화자가 강박적으로 의미의 연쇄를 만들어내는 소설로, 탐정소설의 형식을 해석 강박의 실험으로 뒤집는다. 1967년 국제문학상(Prix International)을 받았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--gombrowicz-testament"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--witold-gombrowicz--milan-kundera",
+      "type": "documented_influence",
+      "from": "witold-gombrowicz (비톨트 곰브로비치)",
+      "to": "milan-kundera (밀란 쿤데라)",
+      "evidenceLevel": "documented",
+      "summary": "쿤데라는 『소설의 기술』과 『배신당한 유언들』에서 곰브로비치를 카프카·브로흐·무질과 함께 중부유럽 소설의 계보에 넣고 거듭 인용한다. 진지한 상황을 우스꽝스러운 것으로 뒤집어 인물의 자기규정을 무너뜨리는 방법이 두 사람에게 공통된다.",
+      "anchors": [
+        {
+          "workId": "milan-kundera--l-art-du-roman"
+        }
+      ],
+      "sourceIds": [
+        "src--kundera-art-du-roman",
+        "src--kundera-testaments-trahis"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "dialogue--bruno-schulz--witold-gombrowicz (→ bruno-schulz 의 슬레이트에서 본다)",
+    "contrast--jorge-luis-borges--witold-gombrowicz (→ jorge-luis-borges 의 슬레이트에서 본다)",
+    "affinity--luigi-pirandello--witold-gombrowicz (→ luigi-pirandello 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--culture-pl": {
+      "id": "src--culture-pl",
+      "title": "Culture.pl — 폴란드 작가·작품 프로필",
+      "publisherOrInstitution": "Instytut Adama Mickiewicza (Adam Mickiewicz Institute)",
+      "url": "https://culture.pl",
+      "citation": "폴란드 문학 작가의 생애·저작 목록과 해외 번역 수용 확인용 공식 문화기관 자료"
+    },
+    "src--gombrowicz-dziennik": {
+      "id": "src--gombrowicz-dziennik",
+      "title": "비톨트 곰브로비치, 『일기』 — 파리 『쿨투라』 연재본 (1953년 시작)",
+      "publisherOrInstitution": "Instytut Literacki / Kultura, Paris",
+      "citation": "망명기의 거처·활동·논쟁 상대를 저자 자신이 기록한 1차 문헌"
+    },
+    "src--gombrowicz-testament": {
+      "id": "src--gombrowicz-testament",
+      "title": "비톨트 곰브로비치, 『테스타멘트 — 도미니크 드 루와의 대담』 (1968)",
+      "publisherOrInstitution": "Éditions Belfond, Paris",
+      "citation": "작품별 집필 경위와 자기 해석을 밝힌 만년의 대담집"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--kundera-art-du-roman": {
+      "id": "src--kundera-art-du-roman",
+      "title": "『소설의 기술』 (L'Art du roman, 1986)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카프카·브로흐·무질·곰브로비치를 중부유럽 소설의 계보로 묶고 「『몽유병자들』에서 촉발된 노트」와 카프카론을 각각 한 부로 배치한 쿤데라 자신의 소설론"
+    },
+    "src--kundera-testaments-trahis": {
+      "id": "src--kundera-testaments-trahis",
+      "title": "『배신당한 유언들』 (Les Testaments trahis, 1993)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카프카 수용사('카프카학') 비판, 톨스토이 『안나 카레니나』의 내적 독백 분석, 오웰 『1984』가 삶을 정치 차원으로 환원한다는 비판이 함께 실린 쿤데라의 에세이집"
+    }
+  }
+}

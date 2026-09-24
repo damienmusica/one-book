@@ -1,0 +1,428 @@
+{
+  "id": "william-faulkner",
+  "page": "https://literary-planet.pages.dev/authors/william-faulkner/",
+  "author": {
+    "names": {
+      "ko": "윌리엄 포크너",
+      "original": "William Faulkner",
+      "aliases": [
+        "포크너",
+        "Faulkner"
+      ]
+    },
+    "birthYear": 1897,
+    "deathYear": 1962,
+    "activeRange": [
+      1924,
+      1962
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "요크나파토파라는 가상의 군을 여러 장편과 단편에 걸쳐 반복 사용해, 개별 작품이 아니라 한 지역의 역사 전체가 하나의 서사 단위가 되는 연작 구조를 만들었다. 지적장애가 있는 인물, 죽어 가는 어머니, 강박에 사로잡힌 남부 백인의 시점을 예고 없이 교대시켜, 사건이 아니라 사건을 감당하지 못하는 의식을 서술의 중심에 놓았다. 노예제와 남북전쟁의 과거가 현재 인물의 문장 구조 자체를 침식하게 만드는 이 방식은, 가르시아 마르케스를 비롯해 자기 지역의 역사를 써야 했던 후속 세대가 반복해서 참조한 모델이 되었다.",
+    "readingEntry": "william-faulkner--as-i-lay-dying",
+    "readingEntryReason": "쉰아홉 개의 짧은 독백 장으로 끊어져 있어 한 번에 읽는 단위가 작고, 관을 싣고 가는 여정이라는 단순한 뼈대가 있어 다중 화자 방식이 처음부터 눈에 들어온다.",
+    "readingOrder": [
+      "william-faulkner--as-i-lay-dying",
+      "william-faulkner--light-in-august",
+      "william-faulkner--the-sound-and-the-fury",
+      "william-faulkner--absalom-absalom"
+    ],
+    "readingWarning": "『소리와 분노』 1부로 시작하면 대부분 30쪽 안에서 멈춘다. 시간 표시 없이 30년을 오가는 벤지의 서술은 뒤의 세 부를 읽고 되돌아올 때 풀리도록 설계되어 있다.",
+    "difficulty": 4,
+    "difficultyReason": "문장이 절을 겹쳐 한 쪽을 넘기고, 시점과 시간이 예고 없이 이동한다. 같은 인물과 사건이 여러 책에 나뉘어 있어 한 권만으로는 앞뒤가 맞지 않는 대목이 남는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "william-faulkner--the-sound-and-the-fury",
+      "titleKo": "소리와 분노",
+      "titleOriginal": "The Sound and the Fury",
+      "year": 1929,
+      "genre": "fiction",
+      "significance": "몰락한 남부 가문의 이야기를 지적장애가 있는 아들, 자살 직전의 형, 냉혹한 동생, 그리고 3인칭 서술이라는 네 개의 판본으로 반복한다. 시간 표시 없이 30년을 오가는 1부가 20세기 영어 소설의 난제로 남았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "william-faulkner--as-i-lay-dying",
+      "titleKo": "내가 죽어 누워 있을 때",
+      "titleOriginal": "As I Lay Dying",
+      "year": 1930,
+      "genre": "fiction",
+      "significance": "어머니의 관을 싣고 40마일을 가는 가족의 여정을 열다섯 명의 화자가 쉰아홉 개의 짧은 장으로 나누어 말한다. 죽은 어머니 본인의 장까지 포함되며, 한 장은 단 다섯 단어다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "william-faulkner--light-in-august",
+      "titleKo": "8월의 빛",
+      "titleOriginal": "Light in August",
+      "year": 1932,
+      "genre": "fiction",
+      "significance": "자신이 흑인 피를 가졌는지조차 확인할 수 없는 남자를 중심에 놓아, 인종이 생물학적 사실이 아니라 공동체가 부과하는 판정임을 서사로 드러낸다. 포크너의 장편 가운데 서술이 비교적 선형적이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "william-faulkner--absalom-absalom",
+      "titleKo": "압살롬, 압살롬!",
+      "titleOriginal": "Absalom, Absalom!",
+      "year": 1936,
+      "genre": "fiction",
+      "significance": "서트펜 가문의 몰락을 여러 화자가 전해 들은 이야기로 거듭 재구성하며, 어느 판본도 확정되지 않는다. 과거를 아는 일이 원리적으로 불가능하다는 것을 서술 구조 자체로 보여 준다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "william-faulkner--go-down-moses",
+      "titleKo": "모세여, 내려가라",
+      "titleOriginal": "Go Down, Moses",
+      "year": 1942,
+      "genre": "fiction",
+      "significance": "한 가문의 백인 혈통과 흑인 혈통을 함께 따라가는 연작 단편집. 중편 「곰」에서 사냥과 삼림 파괴를 통해 토지 소유와 노예제를 같은 문제로 묶는다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--william-faulkner--edouard-glissant",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "edouard-glissant (에두아르 글리상)",
+      "evidenceLevel": "documented",
+      "summary": "글리상은 단행본 『포크너, 미시시피』(1996)에서 요크나파토파의 은폐된 혈통 서술을 앙티유 플랜테이션의 계보 문제와 겹쳐 읽으며, 포크너를 자기 소설 방법의 참조점으로 명시한다.",
+      "sourceIds": [
+        "src--glissant-faulkner-mississippi"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--maryse-conde",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "maryse-conde (마리즈 콩데)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『맹그로브 횡단』(1989)은 한 구의 시신을 둘러싼 밤샘에서 마을 사람들의 독백을 차례로 돌려 세운다. 쥘리 브뤼지에는 이 소설과 포크너 『압살롬, 압살롬!』을 글리상의 '다른 아메리카' 틀에서 나란히 읽었고, 박사논문을 발전시킨 『소설 속 주변성과 공동체: 마리즈 콩데, 윌리엄 포크너, 라셸 지 케이로스』(Classiques Garnier, 2024)에서 두 작가의 공동체·주변성 시학을 하나의 비교 대상으로 묶었다.",
+      "sourceIds": [
+        "src--brugier-conde-faulkner-autre-amerique",
+        "src--brugier-marginalite-communaute"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--mario-vargas-llosa",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "mario-vargas-llosa (마리오 바르가스 요사)",
+      "evidenceLevel": "documented",
+      "summary": "『파리 리뷰』 인터뷰(The Art of Fiction No. 120, 1990)에서 포크너를 펜과 종이를 들고 읽은 첫 소설가로 꼽으며, 시점 분할과 시간 재배열의 기법을 그에게서 익혔다고 말했다.",
+      "sourceIds": [
+        "src--paris-review"
+      ]
+    },
+    {
+      "id": "influence--herman-melville--william-faulkner",
+      "type": "documented_influence",
+      "from": "herman-melville (허먼 멜빌)",
+      "to": "william-faulkner (윌리엄 포크너)",
+      "evidenceLevel": "documented",
+      "summary": "포크너는 1927년 7월 16일 시카고 트리뷴에 기고한 「내가 썼더라면 하는 책」에서 『모비 딕』을 꼽았다.",
+      "sourceIds": [
+        "src--faulkner-i-wish-i-had-written-that-1927"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--kenzaburo-oe",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "kenzaburo-oe (오에 겐자부로)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "오에가 시코쿠 골짜기의 마을을 여러 작품에 걸쳐 되풀이 축조한 방식은 포크너의 요크나파토파 군을 모델로 한 것으로 반복해 논의된다. 오에 자신도 포크너를 자기 독서의 중심에 놓아 왔으나 그 진술이 실린 문헌을 특정하지 못해 수준을 한 단계 낮춰 기록한다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "affinity--william-faulkner--rk-narayan",
+      "type": "affinity",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "rk-narayan (R. K. 나라얀)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 요크나파토파 군과 말구디라는 가공의 지명을 각자 만들어 수십 년간 같은 무대와 같은 인물들을 되풀이해 쓴 방법이 겹친다는 이유로 둘을 가까이 놓는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "translation--william-faulkner--jorge-luis-borges",
+      "type": "translation",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 1940년 『야생 종려나무』를 스페인어로 옮겼고, 그에 앞서 1937년에는 『압살롬, 압살롬!』의 서평을 잡지에 실었다. 이 번역본이 리오데라플라타의 작가들이 포크너의 시간 구성과 다중 화자를 읽은 표준 판본이 됐다.",
+      "anchors": [
+        {
+          "workId": "william-faulkner--absalom-absalom",
+          "year": 1937
+        },
+        {
+          "year": 1940
+        }
+      ],
+      "sourceIds": [
+        "src--borges-palmeras-salvajes-1940"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--juan-rulfo",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "juan-rulfo (후안 룰포)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "몰락한 가문, 파편으로 흩어진 화자, 순서를 무시하는 시간을 두고 라틴아메리카 소설 연구는 요크나파토파와 코말라를 반복해 나란히 놓는다. 다만 룰포 본인은 인터뷰에서 포크너의 영향을 부인하고 자신이 배운 것은 함순·락스네스 같은 북구 작가라고 밝혔다. 이 계보는 작가의 승인이 아니라 학계의 독법이다.",
+      "sourceIds": [
+        "src--cervantes-virtual",
+        "src--fce-letras-mexicanas-rulfo"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--gabriel-garcia-marquez",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "gabriel-garcia-marquez (가브리엘 가르시아 마르케스)",
+      "evidenceLevel": "documented",
+      "summary": "1982년 노벨문학상 수상 연설에서 가르시아 마르케스는 같은 자리에 앞서 섰던 포크너를 '나의 스승'으로 지목했고, 파리 리뷰 인터뷰에서도 초기작이 포크너의 방법으로 쓰였음을 인정했다. 한 마을을 인물의 배경이 아니라 여러 작품에 걸쳐 지속되는 지형으로 다루는 구성이 요크나파토파 연작에서 왔다.",
+      "anchors": [
+        {
+          "year": 1982
+        }
+      ],
+      "sourceIds": [
+        "src--nobelprize",
+        "src--paris-review"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--toni-morrison",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "toni-morrison (토니 모리슨)",
+      "evidenceLevel": "documented",
+      "summary": "같은 1955년 석사논문의 다른 한 축이 포크너였고, 모리슨은 1985년 미시시피 대학의 포크너 학술대회에 초청되어 자기 독서를 직접 말했다. 한 공동체의 과거가 여러 화자의 조각으로만 돌아오는 구성에서 두 사람은 같은 문제를 다룬다.",
+      "anchors": [
+        {
+          "year": 1955
+        },
+        {
+          "year": 1985
+        }
+      ],
+      "sourceIds": [
+        "src--morrison-cornell-thesis-1955",
+        "src--morrison-faulkner-yoknapatawpha-1985"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--albert-camus",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "albert-camus (알베르 카뮈)",
+      "evidenceLevel": "documented",
+      "summary": "카뮈는 포크너의 『수녀를 위한 레퀴엠』을 프랑스어 희곡으로 각색해 1956년에 냈다. 죄를 저지른 뒤에 남는 시간을 다루는 이 작업은 같은 해의 『전락』과 나란히 놓이며, 그가 미국 소설을 읽은 방식을 보여주는 가장 구체적인 기록이다.",
+      "anchors": [
+        {
+          "year": 1956
+        },
+        {
+          "workId": "albert-camus--la-chute"
+        }
+      ],
+      "sourceIds": [
+        "src--camus-requiem-pour-une-nonne-1956"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--ralph-ellison",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "ralph-ellison (랠프 엘리슨)",
+      "evidenceLevel": "documented",
+      "summary": "엘리슨은 「세계와 항아리」(1963–64)의 선조 목록에 포크너를 넣었고, 『그림자와 행위』(1964)에 묶인 평문들에서 그를 흑인 인물을 상투형 너머로 밀고 간 몇 안 되는 백인 작가로 다뤘다. 남부와 인종을 다루는 미국 소설의 계보에서 그는 포크너를 자기 바로 앞자리에 놓았다.",
+      "anchors": [
+        {
+          "workId": "ralph-ellison--shadow-and-act"
+        }
+      ],
+      "sourceIds": [
+        "src--ellison-world-and-the-jug",
+        "src--ellison-shadow-and-act"
+      ]
+    },
+    {
+      "id": "influence--william-faulkner--flannery-oconnor",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "flannery-oconnor (플래너리 오코너)",
+      "evidenceLevel": "documented",
+      "summary": "오코너는 『신비와 매너』(1969)에 묶인 강연에서, 남부 작가는 딕시 특급이 달려오는 선로 위에 자기 노새와 수레를 세워 둘 수 없다고 썼다 — 포크너를 그 기차로 지목한 문장이다. 같은 지역을 쓰면서 그와 겹치지 않을 방법을 찾는 일이 그의 형식 문제였다.",
+      "anchors": [
+        {
+          "workId": "flannery-oconnor--mystery-and-manners"
+        }
+      ],
+      "sourceIds": [
+        "src--oconnor-mystery-and-manners"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--joseph-conrad--william-faulkner (→ joseph-conrad 의 슬레이트에서 본다)",
+    "influence--james-joyce--william-faulkner (→ james-joyce 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--glissant-faulkner-mississippi": {
+      "id": "src--glissant-faulkner-mississippi",
+      "title": "Faulkner, Mississippi (1996)",
+      "publisherOrInstitution": "Éditions Stock (Paris)",
+      "citation": "글리상이 포크너를 정면으로 다룬 단행본 — 요크나파토파의 계보 서술과 앙티유의 뒤엉킨 혈통을 겹쳐 읽는다. 포크너 영향의 1차 근거."
+    },
+    "src--brugier-conde-faulkner-autre-amerique": {
+      "id": "src--brugier-conde-faulkner-autre-amerique",
+      "title": "Des rives du Mississippi aux berges de la mangrove : Maryse Condé et William Faulkner, récits de l'« Autre Amérique »",
+      "publisherOrInstitution": "Presses universitaires de Rennes",
+      "citation": "Julie Brugier, « Des rives du Mississippi aux berges de la mangrove : Maryse Condé et William Faulkner, récits de l'\"Autre Amérique\" », in Charles Brion (dir.), Fragments d'une littérature littorale atlantique, Rennes: Presses universitaires de Rennes, 2024."
+    },
+    "src--brugier-marginalite-communaute": {
+      "id": "src--brugier-marginalite-communaute",
+      "title": "Marginalité et communauté dans le roman. Maryse Condé, William Faulkner et Rachel de Queiroz",
+      "publisherOrInstitution": "Classiques Garnier",
+      "citation": "Julie Brugier, Marginalité et communauté dans le roman. Maryse Condé, William Faulkner et Rachel de Queiroz, Paris: Classiques Garnier, coll. « Perspectives comparatistes », 2024, 573 p."
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--faulkner-i-wish-i-had-written-that-1927": {
+      "id": "src--faulkner-i-wish-i-had-written-that-1927",
+      "title": "내가 썼더라면 하는 책 (I Wish I Had Written That)",
+      "publisherOrInstitution": "Chicago Tribune, 1927. 7. 16.",
+      "citation": "포크너가 『모비 딕』을 자기가 썼더라면 하는 책으로 꼽은 짧은 기고. Parker·Hayford 편 노턴 비평판 『모비 딕』(2001)에 재수록"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--borges-palmeras-salvajes-1940": {
+      "id": "src--borges-palmeras-salvajes-1940",
+      "title": "윌리엄 포크너 『야생 종려나무』 스페인어판 (Las palmeras salvajes, 보르헤스 옮김, 1940)",
+      "publisherOrInstitution": "Editorial Sudamericana, Buenos Aires",
+      "citation": "리오데라플라타 작가들이 포크너를 읽은 표준 판본 — 번역 사실의 1차 서지"
+    },
+    "src--cervantes-virtual": {
+      "id": "src--cervantes-virtual",
+      "title": "Biblioteca Virtual Miguel de Cervantes — 작가 포털",
+      "publisherOrInstitution": "Fundación Biblioteca Virtual Miguel de Cervantes",
+      "url": "https://www.cervantesvirtual.com",
+      "citation": "스페인어권 작가의 연보·서지·학술 해제를 모은 공개 디지털 도서관 — 초판 연도와 판본 확인용"
+    },
+    "src--fce-letras-mexicanas-rulfo": {
+      "id": "src--fce-letras-mexicanas-rulfo",
+      "title": "Fondo de Cultura Económica — Letras Mexicanas 총서 룰포 초판 서지",
+      "publisherOrInstitution": "Fondo de Cultura Económica",
+      "citation": "『불타는 평원』(1953)과 『페드로 파라모』(1955)를 처음 낸 출판사의 총서 서지 — 발표 연도 확인용"
+    },
+    "src--morrison-cornell-thesis-1955": {
+      "id": "src--morrison-cornell-thesis-1955",
+      "title": "토니 모리슨 코넬 대학교 영문학 석사학위 논문 (1955)",
+      "publisherOrInstitution": "Cornell University",
+      "citation": "버지니아 울프와 윌리엄 포크너가 소외된 인물을 다루는 방식을 비교한 석사논문 — 모리슨이 두 작가를 학위 과정에서 정독한 명시적 기록. 논문의 정확한 표제 표기는 QC가 확인한다"
+    },
+    "src--morrison-faulkner-yoknapatawpha-1985": {
+      "id": "src--morrison-faulkner-yoknapatawpha-1985",
+      "title": "포크너와 요크나파토파 학술대회 모리슨 발표 (미시시피 대학, 1985)",
+      "publisherOrInstitution": "The University of Mississippi — Faulkner and Yoknapatawpha Conference",
+      "citation": "모리슨이 포크너 전문 학술대회에 초청되어 포크너 독서와 자기 소설의 관계를 직접 말한 자리. 발표 표제와 연도는 QC가 확인한다"
+    },
+    "src--camus-requiem-pour-une-nonne-1956": {
+      "id": "src--camus-requiem-pour-une-nonne-1956",
+      "title": "『Requiem pour une nonne』 — 포크너 『수녀를 위한 레퀴엠』의 프랑스어 무대 각색 (1956)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카뮈가 각색한 포크너 희곡의 간행 판본 — 포크너 수용의 1차 근거"
+    },
+    "src--ellison-world-and-the-jug": {
+      "id": "src--ellison-world-and-the-jug",
+      "title": "「The World and the Jug」 (1963–1964, 2부작 평문)",
+      "publisherOrInstitution": "The New Leader",
+      "citation": "어빙 하우의 「Black Boys and Native Sons」에 답하며 흑인 작가를 항의문학으로 환원하는 독법을 거부한 엘리슨의 논쟁문 — 이후 『Shadow and Act』에 수록"
+    },
+    "src--ellison-shadow-and-act": {
+      "id": "src--ellison-shadow-and-act",
+      "title": "『Shadow and Act』 (1964)",
+      "publisherOrInstitution": "Random House",
+      "citation": "엘리슨의 첫 산문집 — 「세계와 항아리」와 터스키기 시절의 독서를 다룬 「감춰진 이름과 복잡한 운명」, 포크너를 논한 평문이 함께 실려 있다"
+    },
+    "src--oconnor-mystery-and-manners": {
+      "id": "src--oconnor-mystery-and-manners",
+      "title": "『Mystery and Manners: Occasional Prose』 (Sally & Robert Fitzgerald 편, 1969)",
+      "publisherOrInstitution": "Farrar, Straus and Giroux",
+      "citation": "오코너의 강연과 평문을 묶은 사후 산문집 — 포크너를 '딕시 특급'에 비유한 대목과 콘래드의 소설론을 자기 목표로 인용한 대목이 실린 1차 문헌"
+    }
+  }
+}

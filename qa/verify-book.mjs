@@ -236,9 +236,9 @@ if (hasRecord) {
   // 저본 칸이 비면 "원서"와 "모른다"가 같은 모양이다 — 독자가 번역을 고르는 단 하나의 칸이다.
   const flags = await page.locator("table.eds td.flag").allInnerTexts();
   check("저본 칸은 한 칸도 비지 않는다", flags.length > 0 && flags.every((t) => t.trim().length > 0), flags.join(" · "));
-  // 역자 이력에서 미룬 판정은 단정하지 않는다 — 김학수 『죄와 벌』(문예)은 이력 추정이다(2026-09-23 판본 감사).
+  // 역자 이력에서 미룬 판정은 단정하지 않는다 — 김연경 『죄와 벌』(민음사)은 판본 확인에서 역자 이력으로 판정했다(2026-09-24).
   await page.goto(`${server.origin}/works/fyodor-dostoevsky--prestuplenie-i-nakazanie/`, { waitUntil: "load" });
-  const row = await page.locator("table.eds tr.ed", { hasText: "9788931023916" }).innerText().catch(() => "");
+  const row = await page.locator("table.eds tr.ed", { hasText: "9788937462849" }).innerText().catch(() => "");
   check("이력으로 미룬 저본 판정은 「추정」이라고 적는다", /원전 직역 추정/.test(row), row.replace(/\s+/g, " ").slice(0, 70));
   await page.goto(`${server.origin}/works/franz-kafka--die-verwandlung/`, { waitUntil: "load" });
 } else {
@@ -336,9 +336,16 @@ console.log("\n색인 허가 — 검토된 것만 제출한다");
     const h = await (await fetch(`${server.origin}${p}`)).text();
     return /name="robots" content="noindex/.test(h);
   };
-  check("도판 작가 쪽은 색인된다", (await robots("/authors/franz-kafka/")) === false);
+  // 검토는 깊이가 아니다 — 검토된 도판은 색인되고, 검토 전 도판(원장 재심 중)은 색인되지 않는다. 예시는 데이터에서 고른다
+  // (카프카를 박아 두었더니 재심으로 draft 가 되자 계약이 거짓말했다).
+  const { readFileSync: rf, readdirSync: rd } = await import("node:fs");
+  const AU = rd(new URL("../data/authors/", import.meta.url)).filter((f) => f.endsWith(".json")).flatMap((f) => JSON.parse(rf(new URL(`../data/authors/${f}`, import.meta.url), "utf8")));
+  const revPlate = AU.find((a) => (a.depth ?? "plate") === "plate" && a.reviewStatus !== "draft");
+  const draftPlate = AU.find((a) => (a.depth ?? "plate") === "plate" && a.reviewStatus === "draft");
+  check("검토된 도판 작가 쪽은 색인된다", (await robots(`/authors/${revPlate.id}/`)) === false, revPlate.id);
+  check("검토 전 도판 작가 쪽은 색인하지 않는다", await robots(`/authors/${draftPlate.id}/`), draftPlate.id);
   check("스케치 작가 쪽은 색인하지 않는다", await robots("/authors/qu-yuan/"));
-  check("도판 작품 쪽은 색인된다", (await robots("/works/franz-kafka--die-verwandlung/")) === false);
+  check("검토된 도판의 작품 쪽은 색인된다", (await robots(`/works/${revPlate.readingEntry}/`)) === false, revPlate.readingEntry);
   check("실루엣 작품 쪽은 색인하지 않는다", await robots("/works/qu-yuan--lisao/"));
   check("색인과 첫 장은 색인된다", (await robots("/authors/")) === false && (await robots("/")) === false);
   const sm = await (await fetch(`${server.origin}/sitemap.xml`)).text();

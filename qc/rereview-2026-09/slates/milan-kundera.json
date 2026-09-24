@@ -1,0 +1,166 @@
+{
+  "id": "milan-kundera",
+  "page": "https://literary-planet.pages.dev/authors/milan-kundera/",
+  "author": {
+    "names": {
+      "ko": "밀란 쿤데라",
+      "original": "Milan Kundera",
+      "aliases": [
+        "쿤데라",
+        "Kundera"
+      ]
+    },
+    "birthYear": 1929,
+    "deathYear": 2023,
+    "activeRange": [
+      1963,
+      2014
+    ],
+    "languages": [
+      "cs",
+      "fr"
+    ],
+    "regions": [
+      "central-europe",
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "소설을 이야기와 사유가 번갈아 진행되는 형식으로 재편했다. 서술자가 사건을 멈추고 '가벼움'이나 '키치' 같은 개념을 몇 쪽에 걸쳐 정의한 다음 인물에게 돌아가는 구성은, 에세이를 소설 바깥의 해설이 아니라 소설의 한 성부로 만들었다. 1975년 프랑스 망명과 1979년 체코 국적 박탈을 거치며 체코어 소설이 본국에서 금지된 채 번역으로 먼저 읽히는 상태를 겪었고, 1980년대 중반부터는 에세이를, 1990년대 중반부터는 소설을 프랑스어로 직접 써서 두 언어에 걸친 작품 목록을 남겼다. 중부유럽을 소련권도 서구도 아닌 독자적 문화 단위로 서구 독자에게 각인시킨 것도 그의 산문과 에세이다.",
+    "readingEntry": "milan-kundera--nesnesitelna-lehkost-byti",
+    "readingEntryReason": "네 인물의 관계라는 읽기 쉬운 표면 위에 서술자의 개념 논의가 얹혀 있어, 쿤데라 특유의 구성을 부담 없이 처음 겪을 수 있다. 분량도 그의 장편 중 중간 정도다.",
+    "readingOrder": [
+      "milan-kundera--nesnesitelna-lehkost-byti",
+      "milan-kundera--zert",
+      "milan-kundera--kniha-smichu-a-zapomneni",
+      "milan-kundera--la-lenteur",
+      "milan-kundera--l-art-du-roman"
+    ],
+    "readingWarning": "후기 프랑스어 소설은 짧아서 입문서로 골라지기 쉽지만, 앞선 소설들이 세워둔 화자의 규칙을 전제하고 쓰여 처음 읽으면 골격만 남은 이야기로 보인다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 사건은 평이하지만 서술자가 수시로 소설을 멈추고 개념을 정의하는 구성에 익숙해져야 하고, 프라하의 봄 전후 체코 현대사를 모르면 인물들의 선택이 밋밋하게 읽힌다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--paris-review",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "milan-kundera--zert",
+      "titleKo": "농담",
+      "titleOriginal": "Žert",
+      "year": 1967,
+      "genre": "fiction",
+      "significance": "엽서에 쓴 농담 한 줄로 당에서 제명된 남자가 십수 년 뒤 복수를 시도하는 이야기를 네 인물의 시점으로 나눠 서술한다. 정치적 숙청을 비극이 아니라 오해와 우연의 연쇄로 다룬 첫 장편이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "milan-kundera--kniha-smichu-a-zapomneni",
+      "titleKo": "웃음과 망각의 책",
+      "titleOriginal": "Kniha smíchu a zapomnění",
+      "year": 1981,
+      "genre": "fiction",
+      "significance": "서로 이어지지 않는 일곱 부를 하나의 주제 변주로 묶어, 소설과 에세이와 자전을 한 권 안에서 교대시킨다. 1979년 프랑스어 번역이 먼저 나오고 체코어판은 토론토의 망명 출판사에서 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "milan-kundera--nesnesitelna-lehkost-byti",
+      "titleKo": "참을 수 없는 존재의 가벼움",
+      "titleOriginal": "Nesnesitelná lehkost bytí",
+      "year": 1985,
+      "genre": "fiction",
+      "significance": "1968년 프라하를 배경으로 네 인물의 관계를 따라가며, 서술자가 수시로 끼어들어 무거움과 가벼움, 키치 같은 개념을 직접 정의한다. 1984년 프랑스어 번역이 먼저 출간되고 체코어 원본은 이듬해 토론토에서 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--paris-review",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "milan-kundera--l-art-du-roman",
+      "titleKo": "소설의 기술",
+      "titleOriginal": "L'Art du roman",
+      "year": 1986,
+      "genre": "essay-criticism",
+      "significance": "세르반테스에서 브로흐·무질·곰브로비치로 이어지는 계보를 세우고 소설을 존재의 탐구로 정의한 에세이집. 자기 소설의 형식적 선택을 이론으로 진술한 문서다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "milan-kundera--la-lenteur",
+      "titleKo": "느림",
+      "titleOriginal": "La Lenteur",
+      "year": 1995,
+      "genre": "fiction",
+      "significance": "18세기 소설의 하룻밤과 현대의 학회가 열리는 같은 성을 겹쳐놓고, 속도가 기억을 어떻게 지우는지를 논한다. 쿤데라가 프랑스어로 직접 쓴 첫 소설이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--miguel-de-cervantes--milan-kundera",
+      "type": "documented_influence",
+      "from": "miguel-de-cervantes (미겔 데 세르반테스)",
+      "to": "milan-kundera (밀란 쿤데라)",
+      "evidenceLevel": "documented",
+      "summary": "쿤데라는 『소설의 기술』(1986) 첫 장에서 유럽 소설의 역사를 '평가절하된 세르반테스의 유산'으로 규정하고, 자기 소설관 전체를 그 계보 위에 세운다.",
+      "sourceIds": [
+        "src--kundera-art-du-roman"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--franz-kafka--milan-kundera (→ franz-kafka 의 슬레이트에서 본다)",
+    "influence--hermann-broch--milan-kundera (→ hermann-broch 의 슬레이트에서 본다)",
+    "influence--robert-musil--milan-kundera (→ robert-musil 의 슬레이트에서 본다)",
+    "influence--witold-gombrowicz--milan-kundera (→ witold-gombrowicz 의 슬레이트에서 본다)",
+    "influence--leo-tolstoy--milan-kundera (→ leo-tolstoy 의 슬레이트에서 본다)",
+    "contrast--fyodor-dostoevsky--milan-kundera (→ fyodor-dostoevsky 의 슬레이트에서 본다)",
+    "contrast--george-orwell--milan-kundera (→ george-orwell 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--kundera-art-du-roman": {
+      "id": "src--kundera-art-du-roman",
+      "title": "『소설의 기술』 (L'Art du roman, 1986)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카프카·브로흐·무질·곰브로비치를 중부유럽 소설의 계보로 묶고 「『몽유병자들』에서 촉발된 노트」와 카프카론을 각각 한 부로 배치한 쿤데라 자신의 소설론"
+    }
+  }
+}

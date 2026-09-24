@@ -1,0 +1,125 @@
+{
+  "id": "rumi",
+  "page": "https://literary-planet.pages.dev/authors/rumi/",
+  "author": {
+    "names": {
+      "ko": "루미",
+      "original": "جلال‌الدین محمد رومی",
+      "aliases": [
+        "잘랄루딘 루미",
+        "메블라나"
+      ]
+    },
+    "birthYear": 1207,
+    "deathYear": 1273,
+    "activeRange": [
+      1240,
+      1273
+    ],
+    "languages": [
+      "fa"
+    ],
+    "regions": [
+      "anatolia",
+      "central-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "샴스와의 만남과 상실을 계기로 신학 교사에서 시인이 되었고, 이야기 안에 이야기를 접어 넣는 방식으로 『마스나비』 여섯 권을 썼다. 우화가 끝나기 전에 다음 우화가 시작되고 그 사이로 코란 구절의 해설이 끼어드는 이 구조는, 교리를 설명하는 대신 독자가 비유 사이에서 길을 잃는 경험 자체를 방법으로 삼는다. 그의 문하는 사후 메블레비 교단으로 정비되어 시와 선회무를 함께 전승했고, 페르시아어 신비주의 시의 가장 큰 뼈대가 그의 이름으로 남았다.",
+    "readingEntry": "rumi--divan-e-shams-e-tabrizi",
+    "readingEntryReason": "한 편이 짧은 서정시들의 묶음이라 어디서 끊어 읽어도 되고, 상실과 도취라는 루미의 정서가 가장 직접적으로 드러난다.",
+    "readingOrder": [
+      "rumi--divan-e-shams-e-tabrizi",
+      "rumi--fihi-ma-fihi",
+      "rumi--masnavi-i-manavi"
+    ],
+    "readingWarning": "영어권에서 널리 읽히는 '루미'의 상당수는 페르시아어 원문이 아니라 기존 영역본을 다시 쓴 번안이며(콜먼 바크스 판이 대표적), 그런 판본에서는 코란 인용이 대부분 지워져 있다. 중역본을 고를 때 저본을 확인해야 한다.",
+    "difficulty": 4,
+    "difficultyReason": "『마스나비』는 2만 5천 행 규모에 액자가 여러 겹 겹치고, 코란과 하디스 인용이 예고 없이 본문에 섞여 들어 어디서 비유가 끝나고 주석이 시작되는지 주석서 없이는 잡기 어렵다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "rumi--divan-e-shams-e-tabrizi",
+      "titleKo": "샴스 타브리지 시집",
+      "titleOriginal": "دیوان شمس تبریزی",
+      "year": 1247,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "1247년 무렵 종적을 감춘 스승 샴스의 이름을 자기 시의 서명 자리에 놓은 서정시 묶음. 부르는 자와 불리는 자가 뒤섞이는 이 장치가 신비주의 서정시의 화자 문제를 시의 표면으로 끌어올린다.",
+      "sourceIds": []
+    },
+    {
+      "id": "rumi--fihi-ma-fihi",
+      "titleKo": "피히 마 피히",
+      "titleOriginal": "فیه ما فیه",
+      "year": 1273,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "제자들 앞에서 한 71편의 담화를 기록한 산문집. 루미가 직접 집필한 책이 아니라 제자들의 필기에서 편집되었고, 구어체라 그의 사유에 가장 쉽게 닿는 통로가 된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "rumi--masnavi-i-manavi",
+      "titleKo": "마스나비",
+      "titleOriginal": "مثنوی معنوی",
+      "year": 1273,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "여섯 권 2만 5천 행에 걸쳐 우화와 코란 해설을 겹쳐 쌓은 교훈시. 페르시아어권에서 '페르시아어로 된 코란'이라 불려 왔고, 니컬슨의 교정본·영역·주해(1925–1940)가 근대 연구의 기준본이 되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--rumi--omar-khayyam",
+      "type": "contrast",
+      "from": "rumi (루미)",
+      "to": "omar-khayyam (오마르 하이얌)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "브라운의 『페르시아 문학사』는 하이얌을 페르시아에서 시인으로 거의 쳐주지 않는 인물로 다루면서도, 하이얌 항목에서 그리스 철학을 배격하는 루미의 『마스나비』 구절을 끌어와 둘을 맞세운다. 나즘 알딘 다야가 하이얌을 배격했다는 서술은 브라운에게 있고, 샴스 타브리지·아타르로 목록을 넓힌 것은 보일의 『케임브리지 이란사』와 아민라자비다.",
+      "sourceIds": [
+        "src--browne-literary-history-of-persia",
+        "src--encyclopaedia-iranica"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--encyclopaedia-iranica": {
+      "id": "src--encyclopaedia-iranica",
+      "title": "Encyclopædia Iranica — 표제 항목",
+      "publisherOrInstitution": "Encyclopaedia Iranica Foundation / Columbia University",
+      "url": "https://iranicaonline.org",
+      "citation": "이란 문학·역사 전문 백과 — 헤다야트의 생애와 저작 연표 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--browne-literary-history-of-persia": {
+      "id": "src--browne-literary-history-of-persia",
+      "title": "A Literary History of Persia",
+      "publisherOrInstitution": "E. G. Browne, Cambridge University Press, 1902–1924 (전 4권)",
+      "citation": "페르시아 문학사의 표준 서술. 하이얌의 회의적 사행시 전통과 루미의 수피 서정시를 같은 언어 안의 대비되는 축으로 배치한다"
+    }
+  }
+}

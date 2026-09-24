@@ -1,0 +1,144 @@
+{
+  "id": "sophocles",
+  "page": "https://literary-planet.pages.dev/authors/sophocles/",
+  "author": {
+    "names": {
+      "ko": "소포클레스",
+      "original": "Σοφοκλῆς",
+      "aliases": []
+    },
+    "birthYear": -497,
+    "deathYear": -406,
+    "activeRange": [
+      -468,
+      -406
+    ],
+    "languages": [
+      "grc"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "drama"
+    ],
+    "importanceReason": "세 번째 배우와 확대된 합창단을 써서 인물들 사이의 관계 자체를 사건의 동력으로 만들었고, 『오이디푸스 왕』에서는 주인공이 자기 정체를 알아 가는 과정과 파국이 같은 선 위에서 진행되도록 플롯을 짰다. 인지와 급전이 한 지점에서 겹치는 이 구성을 아리스토텔레스가 『시학』에서 비극의 표본으로 분석했고, 이후 서양 극작술은 '잘 짜인 플롯'을 말할 때마다 이 작품으로 돌아갔다.",
+    "readingEntry": "sophocles--oidipous-tyrannos",
+    "readingEntryReason": "역병의 원인을 캐는 수사가 곧 수사관 자신의 정체를 밝히는 과정이 되는 단일 구성이라 한 자리에서 읽히고, 이 지도에서 소포클레스의 자리를 결정하는 작품이기도 하다.",
+    "readingOrder": [
+      "sophocles--oidipous-tyrannos",
+      "sophocles--antigone",
+      "sophocles--philoktetes",
+      "sophocles--oidipous-epi-kolono"
+    ],
+    "readingWarning": "'테바이 3부작'으로 묶인 판본을 이야기 순서(오이디푸스 왕 → 콜로노스의 오이디푸스 → 안티고네)대로 읽는 경우가 많지만, 세 편은 36년에 걸쳐 따로 쓰인 별개의 작품이고 만년작인 『콜로노스의 오이디푸스』가 가장 정적이라 중간에서 걸린다.",
+    "difficulty": 2,
+    "difficultyReason": "한 편이 100쪽 남짓이고 사건이 하루 안에 끝나 줄거리는 쉽게 따라간다. 다만 합창 대목의 압축된 서정과 테베·라이오스 가문 전설, 신탁 관습이 각주 없이는 건너뛰어지기 쉽다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "sophocles--philoktetes",
+      "titleKo": "필록테테스",
+      "titleOriginal": "Φιλοκτήτης",
+      "year": -409,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "상처 입고 버려진 궁수를 다시 전장으로 데려와야 하는 임무를 맡은 젊은 네오프톨레모스가 속임수와 연민 사이에서 흔들린다. 기원전 409년 상연에서 1등을 한, 만년의 인물 심리 묘사가 가장 밀도 높은 작품.",
+      "sourceIds": []
+    },
+    {
+      "id": "sophocles--antigone",
+      "titleKo": "안티고네",
+      "titleOriginal": "Ἀντιγόνη",
+      "year": -441,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "매장을 금한 국법과 죽은 자를 묻어야 한다는 의무가 어느 쪽도 명백히 틀리지 않은 채 충돌한다. 국가와 가족(신의 법)이라는 문제를 헤겔 이래 정치철학이 반복해 인용해 온 희곡.",
+      "sourceIds": []
+    },
+    {
+      "id": "sophocles--oidipous-epi-kolono",
+      "titleKo": "콜로노스의 오이디푸스",
+      "titleOriginal": "Οἰδίπους ἐπὶ Κολωνῷ",
+      "year": -401,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "추방된 오이디푸스가 아테네 근교 콜로노스의 성역에서 죽음을 맞는 마지막 하루. 소포클레스가 죽은 뒤 기원전 401년에 상연되었고, 자기 고향 구역을 무대로 삼은 만년작이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sophocles--oidipous-tyrannos",
+      "titleKo": "오이디푸스 왕",
+      "titleOriginal": "Οἰδίπους Τύραννος",
+      "year": -429,
+      "yearBasis": "composition-range",
+      "genre": "drama",
+      "significance": "역병의 원인을 찾는 수사가 곧 수사관 자신의 정체를 밝히는 과정이 되는 구성. 인지와 급전이 한 지점에서 겹치는 이 플롯을 아리스토텔레스는 『시학』에서 비극 구성의 표본으로 들었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--sophocles--aristotle",
+      "type": "documented_influence",
+      "from": "sophocles (소포클레스)",
+      "to": "aristotle (아리스토텔레스)",
+      "evidenceLevel": "documented",
+      "summary": "아리스토텔레스는 『시학』에서 『오이디푸스 왕』을 인지(아나그노리시스)와 급전(페리페테이아)이 한 지점에서 함께 일어나는 사례로 거듭 인용하며 비극 플롯의 기준으로 삼는다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "translation--sophocles--william-butler-yeats",
+      "type": "translation",
+      "from": "sophocles (소포클레스)",
+      "to": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "evidenceLevel": "documented",
+      "summary": "예이츠는 『오이디푸스 왕』을 애비 극장 상연용 대본으로 고쳐 썼고, 1926년 12월 초연을 거쳐 1928년 『Sophocles' King Oedipus: A Version for the Modern Stage』로 출간했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--yeats-collected-letters"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--homer--sophocles (→ homer 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--yeats-collected-letters": {
+      "id": "src--yeats-collected-letters",
+      "title": "W. B. 예이츠 서간집 (The Collected Letters of W. B. Yeats)",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "1902년 존 퀸이 보낸 니체를 읽고 레이디 그레고리에게 쓴 편지 등 — 예이츠의 독서와 인적 관계의 1차 근거"
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "silhouette": {
+    "id": "han-kang",
+    "names": {
+      "ko": "한강",
+      "original": "한강",
+      "aliases": [
+        "Han Kang",
+        "Han Gang",
+        "韓江"
+      ]
+    },
+    "birthYear": 1970,
+    "activeRange": [
+      1993,
+      2026
+    ],
+    "anchorYear": 2014,
+    "gender": "female",
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "tier": "anchor",
+    "wikidata": "Q5646626"
+  },
+  "plate": {
+    "id": "han-kang",
+    "importanceReason": "한 인물을 그 자신의 목소리 대신 주변 사람들의 시선과 목소리로 조각조각 모아 보이는 서술을 자기 방법으로 삼았다. 『채식주의자』는 고기를 끊은 영혜를 남편·형부·언니 세 사람의 서술로만 보여주고, 『소년이 온다』는 1980년 5월 광주에서 죽은 열다섯 살 동호를 장마다 다른 인물의 기억으로 불러내 2인칭으로 호명하며, 『작별하지 않는다』는 1948년 겨울 제주의 민간인 학살을 두 친구의 애도로 옮긴다. 쓰는 사람의 몸의 감각을 문장에 실어 역사의 폭력을 증언하는 이 작업으로 2024년 대한민국 작가로는 처음 노벨문학상을 받았다.",
+    "genres": [
+      "fiction",
+      "poetry"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 평이하지만, 인물을 주변 사람의 시선이나 2인칭 호명으로만 보여주고 산 자와 죽은 자, 꿈과 현실 사이를 설명 없이 넘나들어 장면의 관계를 스스로 짜 맞추며 읽어야 한다. 학살과 고문, 몸에 가해지는 폭력을 피하지 않고 그리기 때문에 감정적으로 버티는 힘도 요구한다.",
+    "works": [
+      {
+        "id": "han-kang--chaesikjuuija",
+        "titleKo": "채식주의자",
+        "titleOriginal": "채식주의자",
+        "year": 2004,
+        "genre": "fiction",
+        "significance": "어느 날 고기를 끊은 영혜를 남편·형부·언니 세 사람의 서술로만 보여주며, 폭력을 거부하다 끝내 식물이 되려는 인물의 침묵을 주변의 반응으로 그린다. 중편 세 편으로 된 연작으로, 가운데 편 「몽고반점」이 2004년 『문학과사회』 가을호에 먼저 실려 2005년 이상문학상을 받았고 한 권의 장편으로는 2007년에 나왔다. 2016년 인터내셔널 부커상 수상작이다."
+      },
+      {
+        "id": "han-kang--huirabeo-sigan",
+        "titleKo": "희랍어 시간",
+        "titleOriginal": "희랍어 시간",
+        "year": 2011,
+        "genre": "fiction",
+        "significance": "말을 잃은 여자가 고대 희랍어 강의를 듣고, 그 강사는 유전병으로 시력을 잃어간다. 작가는 주인공의 실어를 언어에 스민 폭력을 거부하는 몸짓이라고 설명했고, 소설은 여자가 남자의 손바닥에 손가락으로 몇 글자를 쓰는 순간을 향해 느리게 나아간다."
+      },
+      {
+        "id": "han-kang--sonyeoni-onda",
+        "titleKo": "소년이 온다",
+        "titleOriginal": "소년이 온다",
+        "year": 2013,
+        "genre": "fiction",
+        "significance": "1980년 5월 광주 도청 상무관에서 시신 수습을 돕다가 그 5월을 넘기지 못한 열다섯 살 동호를, 그를 기억하는 인물들이 장마다 바뀌어 가며 불러내고 소설 대부분에서 2인칭으로 부른다. 2013년 11월부터 창비 문학블로그 '창문'에 연재했고, 5장을 완전히 새로 쓴 뒤 2014년 책으로 냈다."
+      },
+      {
+        "id": "han-kang--seorabe-jeonyeogeul-neoeo-dueotda",
+        "titleKo": "서랍에 저녁을 넣어 두었다",
+        "titleOriginal": "서랍에 저녁을 넣어 두었다",
+        "year": 2013,
+        "genre": "poetry",
+        "significance": "1993년 『문학과사회』 겨울호에 시를 발표하며 작품 활동을 시작한 뒤 틈틈이 쓴 시 가운데 60편을 추려 데뷔 20년 만에 묶은 첫 시집이다. 출판사는 이 시집을 한강 문학의 시적 기원으로 소개했다."
+      },
+      {
+        "id": "han-kang--huin",
+        "titleKo": "흰",
+        "titleOriginal": "흰",
+        "year": 2016,
+        "genre": "fiction",
+        "significance": "태어난 지 두 시간 만에 세상을 떠난 언니에게 자기 삶을 잠시 빌려주고 싶다는 마음으로 쓴 책으로, 흰 사물에 관한 짧은 글들을 이어 붙여 한 권의 애도를 만든다. 작가는 노벨 강연에서 앞으로 쓸 소설 하나가 이 책과 형식으로 이어진다고 밝혔다."
+      },
+      {
+        "id": "han-kang--jakbyeolhaji-anneunda",
+        "titleKo": "작별하지 않는다",
+        "titleOriginal": "작별하지 않는다",
+        "year": 2019,
+        "genre": "fiction",
+        "significance": "폭설을 뚫고 제주 산간의 친구 인선의 집으로 가는 경하의 여정에서 1948년 겨울 제주의 민간인 학살로 내려가, 사랑하는 이의 뼈 한 조각이라도 되찾으려 애도를 멈추지 않은 인선의 어머니 정심을 중심에 세운다. 2019년 겨울부터 이듬해 봄까지 계간 『문학동네』에 전반부를 연재했고 2021년 책으로 나왔으며, 2023년 프랑스 메디치 외국문학상을 받았다."
+      }
+    ],
+    "readingEntry": "han-kang--sonyeoni-onda",
+    "readingEntryReason": "1980년 5월 광주라는 한국 독자에게 익숙한 역사를 다뤄 배경 설명 없이 들어갈 수 있고, 216쪽 여섯 장이 저마다 다른 인물의 목소리로 한 소년을 불러내는 구조라 한강의 서술 방법이 가장 선명하게 보인다. 작가는 노벨상 발표 직후 인터뷰에서 첫 책으로 『작별하지 않는다』를 권하면서 『소년이 온다』가 그 책과 직접 이어진다고 말했는데, 분량이 더 짧고 구조가 더 분명한 이쪽에서 시작하면 그 책으로 가는 길도 쉬워진다.",
+    "readingOrder": [
+      "han-kang--sonyeoni-onda",
+      "han-kang--chaesikjuuija",
+      "han-kang--jakbyeolhaji-anneunda",
+      "han-kang--huin",
+      "han-kang--huirabeo-sigan"
+    ],
+    "readingWarning": "『흰』은 180쪽 남짓한 짧은 책이라 첫 책으로 고르기 쉽지만, 줄거리 대신 흰 사물에 관한 짧은 글들을 이어 붙인 애도의 책이어서 노벨위원회의 소개처럼 소설보다 '세속의 기도서'에 가깝다. 한강의 장편을 한두 권 읽은 뒤에 펴야 그 이미지들이 어디서 왔는지 보인다.",
+    "sourceIds": [
+      "src--nobelprize",
+      "src--han-kang-nobel-lecture-2024",
+      "src--white-review-han-kang-2016",
+      "src--channel-yes-han-kang-2014"
+    ],
+    "newSources": [
+      {
+        "id": "src--han-kang-nobel-lecture-2024",
+        "title": "「빛과 실(Light and Thread)」 — 2024년 노벨문학상 수상 강연",
+        "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+        "citation": "2024년 12월 7일 스톡홀름. 『채식주의자』(2003–2005 집필)·『희랍어 시간』·『소년이 온다』·『작별하지 않는다』·『흰』의 출발점을 작가가 직접 서술",
+        "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/"
+      },
+      {
+        "id": "src--white-review-han-kang-2016",
+        "title": "Interview with Han Kang (Sarah Shin 인터뷰, Deborah Smith 번역)",
+        "publisherOrInstitution": "The White Review",
+        "citation": "2016년 3월 온라인 게재 이메일 인터뷰 — 『채식주의자』·『소년이 온다』의 서술 형식과 2인칭 호명에 대한 작가의 답변",
+        "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/"
+      },
+      {
+        "id": "src--donga-humans-as-plants-2007",
+        "title": "「Humans As Plants」 — 『채식주의자』 출간 인터뷰 기사 (2007. 11. 2.)",
+        "publisherOrInstitution": "동아일보 영문판(The Dong-A Ilbo)",
+        "citation": "2007년 10월 31일 인터뷰에 근거해, 한강이 대학 시절 이상의 시집에서 읽은 '인간은 식물이어야 한다'는 구절에 사로잡혔던 일이 『채식주의자』 연작으로 이어졌다고 보도",
+        "url": "https://www.donga.com/en/List/article/all/20071102/255688/1"
+      },
+      {
+        "id": "src--han-kang-ma-thesis-yi-sang-2012",
+        "title": "한강, 「이상의 회화와 문학세계」 (석사학위논문, 2012. 8.)",
+        "publisherOrInstitution": "연세대학교 대학원 국어국문학과",
+        "citation": "이상의 유화·드로잉 자화상과 자의식적 시편을 겹쳐 읽은 학위논문 — RISS 서지 T12943802",
+        "url": "https://www.riss.kr/link?id=T12943802"
+      },
+      {
+        "id": "src--channel-yes-han-kang-2014",
+        "title": "「한강 “벌 받는 기분으로 책상에 앉았다”」 (엄지혜, 2014. 6. 10.)",
+        "publisherOrInstitution": "예스24 채널예스",
+        "citation": "『소년이 온다』 출간 인터뷰 — 창비문학블로그 '창문' 연재(2013. 11.–2014. 1.)와 연재 후 개고 경위",
+        "url": "https://ch.yes24.com/Article/Details/25422"
+      }
+    ],
+    "relations": [
+      {
+        "type": "documented_influence",
+        "sourceId": "yi-sang",
+        "targetId": "han-kang",
+        "evidenceLevel": "documented",
+        "summary": "동아일보 영문판 인터뷰 기사 「Humans As Plants」(2007. 11. 2.)는 한강이 대학 시절 이상의 시집에서 인간이 식물이어야 한다는 구절에 사로잡혀 폭력의 시대를 산 시인이 왜 그렇게 썼는지를 생각했고, 그것이 식물이 되려는 여자를 그린 『채식주의자』 연작으로 이어졌다고 전한다. 한강은 2012년 연세대 대학원 석사논문 「이상의 회화와 문학세계」에서 이상의 자화상과 자의식적 시편을 겹쳐 읽었다.",
+        "weight": 0.85,
+        "sourceIds": [
+          "src--donga-humans-as-plants-2007",
+          "src--han-kang-ma-thesis-yi-sang-2012"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "field": "silhouette.wikidata/gender",
+      "claim": "Wikidata Q5646626 = 한강(Han Kang), 대한민국 작가, 여성",
+      "url": "https://www.wikidata.org/wiki/Q5646626",
+      "quote": "South Korean writer"
+    },
+    {
+      "field": "silhouette.gender",
+      "claim": "Wikidata 성별 = 여성",
+      "url": "https://www.wikidata.org/wiki/Q5646626",
+      "quote": "sex or gender female"
+    },
+    {
+      "field": "silhouette.aliases",
+      "claim": "Wikidata 별칭 Han Gang",
+      "url": "https://www.wikidata.org/wiki/Q5646626",
+      "quote": "Han Kang South Korean writer Han Gang"
+    },
+    {
+      "field": "silhouette.birthYear",
+      "claim": "1970년 11월 27일 광주 출생",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/facts/",
+      "quote": "Born: 27 November 1970, Gwangju, South Korea"
+    },
+    {
+      "field": "silhouette.languages",
+      "claim": "집필 언어 한국어",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/facts/",
+      "quote": "Language: Korean"
+    },
+    {
+      "field": "silhouette.activeRange",
+      "claim": "1993년 『문학과사회』에 시를 발표하며 활동 시작",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/bio-bibliography/",
+      "quote": "Han Kang began her career in 1993 with the publication of a number of poems in the magazine 문학과사회"
+    },
+    {
+      "field": "silhouette.aliases",
+      "claim": "한자 표기 韓江",
+      "url": "https://m.yes24.com/Goods/Detail/13137546",
+      "quote": "Han Kang,韓江 1970년 늦은 11월에 태어났다."
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "2024년 노벨문학상, 수상 이유",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/facts/",
+      "quote": "“for her intense poetic prose that confronts historical traumas and exposes the fragility of human life”"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "영혜는 짧은 꿈 독백으로만 목소리를 얻고 주변 사람들의 시선과 목소리로 모인다는 작가의 설명 — 『소년이 온다』와 같은 형식",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "Yeong-hye only has a voice in very brief dream-monologues, so the image of this singularly tough and determined woman is gathered into an imperfect composite, through the gazes and voices of those around her."
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "같은 형식을 『채식주의자』에도 썼다",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "I used this form in The Vegetarian , too."
+    },
+    {
+      "field": "works.chaesikjuuija.significance",
+      "claim": "『채식주의자』는 독립된 중편 세 편을 한 장편으로 묶은 형식이라는 작가의 말",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "Like The Vegetarian , it will be three independent novellas collected as a novel"
+    },
+    {
+      "field": "works.sonyeoni-onda.significance",
+      "claim": "열다섯 살 동호는 1980년 5월을 넘기지 못했다",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "Though the fifteen-year-old boy Dong-ho could not make it through May 1980"
+    },
+    {
+      "field": "plate.difficultyReason",
+      "claim": "가해자와 피해자, 몸과 영혼, 산 자와 죽은 자의 경계가 흔들린다",
+      "url": "https://www.nobelprize.org/what-to-read-han-kang/",
+      "quote": "the border between perpetrator and victim, body and soul, or even between living and dead, is fluctuating"
+    },
+    {
+      "field": "plate.difficultyReason",
+      "claim": "『작별하지 않는다』는 꿈의 악몽 같은 이미지와 증언 문학 사이를 오간다",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/bio-bibliography/",
+      "quote": "the book moves with great originality between the nightmarish images of the dream and the inclination of witness literature to speak the truth"
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "그 천재가 왜 인간이 식물이기를 바랐는지 궁금해했다",
+      "url": "https://www.donga.com/en/List/article/all/20071102/255688/1",
+      "quote": "She wondered why such a genius would want a strictly animal human to be so."
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "이상이 살던 식민지 시대를 그려 보았다",
+      "url": "https://www.donga.com/en/List/article/all/20071102/255688/1",
+      "quote": "Han tried to picture the era in which Lee Sang lived."
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "대한민국 작가로는 처음 노벨문학상 수상",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/interview/",
+      "quote": "she reflects on being the first South Korean literature laureate"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "쓸 때 몸의 감각을 문장에 싣는다는 작가 자신의 설명",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "I try to infuse those vivid sensations that I feel as a mortal being with blood coursing through her body into my sentences."
+    },
+    {
+      "field": "works.chaesikjuuija.significance",
+      "claim": "영혜는 침묵하고 이야기는 남편·형부·언니 세 사람의 서술로 전해진다",
+      "url": "https://www.nobelprize.org/what-to-read-han-kang/",
+      "quote": "The vegetarian herself is silent in the novel, her story is instead told in three different narratives by her husband, her brother-in-law and her older sister (in that order)."
+    },
+    {
+      "field": "works.chaesikjuuija.significance",
+      "claim": "2016년 인터내셔널 부커상 수상",
+      "url": "https://www.nobelprize.org/what-to-read-han-kang/",
+      "quote": "The Vegetarian is Han Kang’s international breakthrough novel which won the International Booker prize in 2016."
+    },
+    {
+      "field": "works.chaesikjuuija.significance",
+      "claim": "폭력을 거부해 고기를 끊고 끝내 식물이 되었다고 믿는 영혜",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "Electing not to eat meat in a refusal of violence, and in the end declining all food and drink except water in the belief that she has transformed into a plant"
+    },
+    {
+      "field": "works.chaesikjuuija.year",
+      "claim": "「몽고반점」은 2004년 계간 『문학과사회』 가을호에 실렸고 제29회(2005) 이상문학상 수상작",
+      "url": "https://www.hani.co.kr/arti/culture/culture_general/1267.html",
+      "quote": "수상작은 지난해 계간 `문학과 사회' 가을호에 실린 중편 `몽고반점'."
+    },
+    {
+      "field": "works.chaesikjuuija.significance",
+      "claim": "「몽고반점」 2005년 이상문학상",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "its central novella ‘Mongolian Mark’ awarded the prestigious Yi Sang Literary Prize in 2005"
+    },
+    {
+      "field": "works.chaesikjuuija.year",
+      "claim": "2003–2005년에 집필",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "While writing my third novel, The Vegetarian , from 2003 to 2005"
+    },
+    {
+      "field": "works.chaesikjuuija.year",
+      "claim": "처음부터 3부로 구성된 장편으로 구상됐다는 작가의 말(개정판)",
+      "url": "https://m.yes24.com/Goods/Detail/108422348",
+      "quote": "그때 『채식주의자』는 이미 3부로 구성된 장편소설이었고"
+    },
+    {
+      "field": "works.chaesikjuuija.significance",
+      "claim": "단행본은 2007년 창비",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/bio-bibliography/",
+      "quote": "채식주의자. – 경기도 파주시 : 창비, 2007"
+    },
+    {
+      "field": "works.huirabeo-sigan.year",
+      "claim": "2011년 11월 10일 문학동네, 194쪽 — 현재 판매 중",
+      "url": "https://m.yes24.com/Goods/Detail/5926713",
+      "quote": "발행일 2011년 11월 10일 쪽수, 무게, 크기 194쪽"
+    },
+    {
+      "field": "works.huirabeo-sigan.significance",
+      "claim": "말을 잃은 여자와 시력을 잃어가는 희랍어 강사",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/bio-bibliography/",
+      "quote": "A young woman who, following a string of traumatic experiences, has lost the power of speech connects with her teacher in Ancient Greek, who is himself losing his sight."
+    },
+    {
+      "field": "works.huirabeo-sigan.significance",
+      "claim": "강사의 실명은 유전병 때문",
+      "url": "https://www.nobelprize.org/what-to-read-han-kang/",
+      "quote": "the male protagonist slowly is losing his sight due to a hereditary disease"
+    },
+    {
+      "field": "works.huirabeo-sigan.significance",
+      "claim": "실어는 언어에 스민 폭력을 거부하는 것이라는 작가의 설명",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "the protagonist loses speech as a way of rejecting the violence which saturates language"
+    },
+    {
+      "field": "works.huirabeo-sigan.significance",
+      "claim": "여자가 남자의 손바닥에 손가락으로 글자를 쓰는 순간",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "the woman’s hand reaches out and writes a few words in the man’s palm"
+    },
+    {
+      "field": "works.sonyeoni-onda.year",
+      "claim": "2013년 11월부터 2014년 1월까지 창비문학블로그 '창문'에 연재",
+      "url": "https://ch.yes24.com/Article/Details/25422",
+      "quote": "2013년 11월부터 올해 1월까지 창비문학블로그 ‘창문’에서 연재한 『소년이 온다』 는"
+    },
+    {
+      "field": "works.sonyeoni-onda.significance",
+      "claim": "연재 후 5장을 완전히 새로 썼다는 작가의 말",
+      "url": "https://ch.yes24.com/Article/Details/25422",
+      "quote": "연재하고 나서 많이 고쳤다. 5장을 완전히 새롭게 썼다."
+    },
+    {
+      "field": "works.sonyeoni-onda.significance",
+      "claim": "동호는 도청 상무관에서 시신 관리를 돕는다",
+      "url": "https://ch.yes24.com/Article/Details/25422",
+      "quote": "도청 상무관에서 시신들을 관리하는 일을 돕게 되면서 시작된다."
+    },
+    {
+      "field": "works.sonyeoni-onda.significance",
+      "claim": "열다섯 살 동호는 1980년 5월을 넘기지 못했고, 장마다 다른 화자가 그를 불러낸다",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "Dong-ho is invoked and remembered by a continuous series of narrators, a different character for each chapter"
+    },
+    {
+      "field": "works.sonyeoni-onda.significance",
+      "claim": "동호는 소설 대부분에서 2인칭으로 등장한다",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "Dong-Ho appears in most of the novel in the second person"
+    },
+    {
+      "field": "works.sonyeoni-onda.significance",
+      "claim": "열다섯 살 동호",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "we witness fifteen-year-old Dong-ho laying white sheets over the bodies and lighting candles"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "2014년 5월 19일 창비, 216쪽, 현재 판매 중(종이책 13,500원)",
+      "url": "https://m.yes24.com/Goods/Detail/13137546",
+      "quote": "발행일 2014년 05월 19일 쪽수, 무게, 크기 216쪽"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "여섯 장과 에필로그",
+      "url": "https://m.yes24.com/Goods/Detail/13137546",
+      "quote": "1장 어린 새 2장 검은 숨 3장 일곱개의 뺨 4장 쇠와 피 5장 밤의 눈동자 6장 꽃 핀 쪽으로 에필로그. 눈 덮인 램프"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "작가는 『작별하지 않는다』를 첫 책으로 권했다",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/interview/",
+      "quote": "But I feel the start could be We Do Not Part ."
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『소년이 온다』는 『작별하지 않는다』와 직접 이어진다는 작가의 말",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/interview/",
+      "quote": "And Human Acts is connected directly with this book We Do Not Part ."
+    },
+    {
+      "field": "works.seorabe-jeonyeogeul-neoeo-dueotda",
+      "claim": "2013년 11월 15일 문학과지성사, 데뷔 20년 만의 첫 시집, 60편",
+      "url": "https://m.yes24.com/Goods/Detail/11467936",
+      "quote": "1993년 계간 『문학과사회』 겨울호에 시 「서울의 겨울」 외 4편을 발표하고 이듬해 『서울신문』 신춘문예에 단편소설 「붉은 닻」이 당선되어 작품 활동을 시작한 한강이 틈틈이 쓰고 발표한 시들 중 60편을 추려 묶어 데뷔 20년 만에 펴낸 첫 시집이다."
+    },
+    {
+      "field": "works.seorabe-jeonyeogeul-neoeo-dueotda",
+      "claim": "출판사 소개: 한강 문학의 시적 기원",
+      "url": "https://m.yes24.com/Goods/Detail/11467936",
+      "quote": "한강 문학의 시적 기원!"
+    },
+    {
+      "field": "works.seorabe-jeonyeogeul-neoeo-dueotda.year",
+      "claim": "발행일 2013년 11월 15일",
+      "url": "https://m.yes24.com/Goods/Detail/11467936",
+      "quote": "발행일 2013년 11월 15일 쪽수, 무게, 크기 165쪽"
+    },
+    {
+      "field": "works.huin.year",
+      "claim": "흰, 문학동네 2016",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/bio-bibliography/",
+      "quote": "흰. – 경기도 파주시 : 문학 동네, 2016"
+    },
+    {
+      "field": "works.huin.significance",
+      "claim": "두 시간 만에 세상을 떠난 언니에게 삶을 빌려주고 싶어서 쓴 책, 앞으로 쓸 소설과 형식으로 이어짐",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "It is a novel that is formally linked to The White Book , which I wrote out of a wish to lend my life, for a brief time, to my older sister who left the world a mere two hours after she was born"
+    },
+    {
+      "field": "works.huin.significance",
+      "claim": "흰 사물에 관한 짧은 글들의 연쇄 / '세속의 기도서'",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/bio-bibliography/",
+      "quote": "In a sequence of short notes, all concerning white objects, it is through this colour of grief that the work as a whole is associatively constructed. This renders it less a novel and more a kind of ‘secular prayer book’, as it has also been described."
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『흰』 현행 문학동네 개정판 180쪽",
+      "url": "https://m.yes24.com/Goods/Detail/143896198",
+      "quote": "발행일 2025년 03월 31일 판형 양장 ? 쪽수, 무게, 크기 180쪽"
+    },
+    {
+      "field": "works.jakbyeolhaji-anneunda.year",
+      "claim": "2019년 겨울–2020년 봄 계간 『문학동네』에 전반부 연재",
+      "url": "https://m.yes24.com/Goods/Detail/103495056",
+      "quote": "2019년 겨울부터 이듬해 봄까지 계간 『문학동네』에 전반부를 연재하면서부터 큰 관심을 모았고"
+    },
+    {
+      "field": "works.jakbyeolhaji-anneunda.year",
+      "claim": "2021년 9월 9일 문학동네, 332쪽",
+      "url": "https://m.yes24.com/Goods/Detail/103495056",
+      "quote": "발행일 2021년 09월 09일 쪽수, 무게, 크기 332쪽"
+    },
+    {
+      "field": "works.jakbyeolhaji-anneunda.significance",
+      "claim": "2023년 메디치 외국문학상",
+      "url": "https://m.yes24.com/Goods/Detail/103495056",
+      "quote": "2023 메디치상 외국문학상 수상작"
+    },
+    {
+      "field": "works.jakbyeolhaji-anneunda.significance",
+      "claim": "1948년 겨울 제주의 민간인 학살로 내려가는 2부",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "to the winter of 1948 when civilians on Jeju were slaughtered"
+    },
+    {
+      "field": "works.jakbyeolhaji-anneunda.significance",
+      "claim": "경하가 폭설을 뚫고 제주 산간의 인선의 집으로 가는 1부",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "the first part is a horizontal journey that follows the narrator, Kyungha, from Seoul to her friend Inseon’s home in the Jeju uplands through heavy snow"
+    },
+    {
+      "field": "works.jakbyeolhaji-anneunda.significance",
+      "claim": "뼈 한 조각이라도 찾으려 애도를 멈추지 않는 인선의 어머니 정심",
+      "url": "https://www.nobelprize.org/prizes/literature/2024/han/lecture/",
+      "quote": "its true protagonist and the person linked to both Kyungha and Inseon is Inseon’s mother, Jeongsim. She who, having survived the massacres on Jeju, has fought to recover even a fragment of her loved one’s bones"
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "대학 시절 이상의 시집 속 한 구절에 사로잡혔다는 2007년 인터뷰 기사",
+      "url": "https://www.donga.com/en/List/article/all/20071102/255688/1",
+      "quote": "During college, Han Kang (37) was fixated by a line in a book of poetry by Lee Sang:"
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "그 구절: 인간은 식물이어야 한다고 믿는다(영문 기사 표기)",
+      "url": "https://www.donga.com/en/List/article/all/20071102/255688/1",
+      "quote": "I believe that humans should be plants."
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "폭력의 시대를 산 시인이 왜 그렇게 썼는지 생각했고 그것이 『채식주의자』 연작으로 이어졌다",
+      "url": "https://www.donga.com/en/List/article/all/20071102/255688/1",
+      "quote": "Forced to live in a violent world, the sensitive poet had wanted humans to become plants."
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "『채식주의자』 연작에서 동물성에 저항하려 한다",
+      "url": "https://www.donga.com/en/List/article/all/20071102/255688/1",
+      "quote": "Han tries to resist this animalistic nature in the novel series Vegetarian, published by Changbi Publishers."
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "같은 계보를 2016년 The White Review 도 전한다",
+      "url": "https://www.thewhitereview.org/feature/interview-with-han-kang/",
+      "quote": "reportedly obsessed Han during university and became the seed for The Vegetarian"
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "석사논문 「이상의 회화와 문학세계」, 연세대 대학원 국어국문학과 2012",
+      "url": "https://www.riss.kr/link?id=T12943802",
+      "quote": "학위논문(석사) -- 연세대학교 대학원 , 국어국문학과 , 2012. 8"
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "논문은 이상의 자화상과 자의식적 시편을 겹쳐 읽는다",
+      "url": "https://www.riss.kr/link?id=T12943802",
+      "quote": "이상이 남긴 두 점의 초기 유화 자화상과 이상의 자의식적 시편들에는 ‘가난’과 ‘측은’의 자기 이미지가 중첩되어 나타난다."
+    },
+    {
+      "field": "relations[yi-sang].summary",
+      "claim": "이 논문의 저자가 소설가 한강임을 확인하는 보도",
+      "url": "https://www.asiae.co.kr/article/2024101121561014892",
+      "quote": "그의 석사 논문 제목은 '이상의 회화와 문학세계'로"
+    }
+  ]
+}

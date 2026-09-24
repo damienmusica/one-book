@@ -1,0 +1,266 @@
+{
+  "id": "henrik-ibsen",
+  "page": "https://literary-planet.pages.dev/authors/henrik-ibsen/",
+  "author": {
+    "names": {
+      "ko": "헨리크 입센",
+      "original": "Henrik Ibsen",
+      "aliases": [
+        "입센",
+        "Ibsen",
+        "헨리크 요한 입센"
+      ]
+    },
+    "birthYear": 1828,
+    "deathYear": 1906,
+    "activeRange": [
+      1850,
+      1899
+    ],
+    "languages": [
+      "no"
+    ],
+    "regions": [
+      "nordic"
+    ],
+    "movements": [
+      "realism",
+      "modern-drama"
+    ],
+    "genres": [
+      "drama"
+    ],
+    "importanceReason": "응접실의 산문 대화만으로 사회 제도와 개인의 거짓말을 심문하는 극을 만들었고, 감춰진 과거가 현재를 무너뜨리는 소급적 플롯을 근대극의 기본 구조로 확립했다. 『인형의 집』의 마지막 퇴장은 유럽 연극이 결말에서 도덕적 화해를 제공하던 관습을 끝냈다. 조이스가 그의 희곡을 원어로 읽으려고 노르웨이어를 배웠을 만큼, 20세기 초의 작가들에게 그는 과거의 대가가 아니라 형식의 동시대인이었다.",
+    "readingEntry": "henrik-ibsen--et-dukkehjem",
+    "readingEntryReason": "사흘간의 사건을 3막에 담은 짧은 희곡이고, 마지막 장면 하나가 근대극이 무엇을 끝냈는지 바로 보여준다.",
+    "readingOrder": [
+      "henrik-ibsen--et-dukkehjem",
+      "henrik-ibsen--gengangere",
+      "henrik-ibsen--hedda-gabler",
+      "henrik-ibsen--vildanden",
+      "henrik-ibsen--peer-gynt"
+    ],
+    "readingWarning": "『페르 귄트』로 시작하면 운문 민담극의 산만한 구조 탓에 입센의 근대극이 무엇인지 오히려 흐려진다. 산문 사실주의 희곡을 먼저 읽는 편이 낫다.",
+    "difficulty": 2,
+    "difficultyReason": "희곡이라 분량이 짧고 대사가 명료하지만, 인물의 진짜 동기가 대사 아래에 감춰져 있어 지문만 훑으면 사건의 무게를 놓친다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--ibsen-letters-speeches",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "henrik-ibsen--peer-gynt",
+      "titleKo": "페르 귄트",
+      "titleOriginal": "Peer Gynt",
+      "year": 1867,
+      "genre": "drama",
+      "significance": "허풍쟁이가 세계를 떠돌면서 정작 자기 자신이 되는 데 실패하는 5막 운문극. 민담과 환상의 형식으로 자아의 공허를 다루어, 이후의 산문 사실주의 희곡과 정반대 방향에서 같은 문제를 건드린다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "henrik-ibsen--et-dukkehjem",
+      "titleKo": "인형의 집",
+      "titleOriginal": "Et dukkehjem",
+      "year": 1879,
+      "genre": "drama",
+      "significance": "위조 서명이 드러나는 사흘 동안 한 결혼이 해체되는 3막극. 아내가 집을 나가며 문을 닫는 결말은 유럽 연극이 결말에서 도덕적 화해를 제공하던 관습을 끝냈다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--ibsen-letters-speeches"
+      ]
+    },
+    {
+      "id": "henrik-ibsen--gengangere",
+      "titleKo": "유령",
+      "titleOriginal": "Gengangere",
+      "year": 1881,
+      "genre": "drama",
+      "significance": "감춰둔 과거의 병이 아들에게서 되돌아오는 3막극. 유전병과 성병을 무대에 올려 여러 나라에서 상연이 막혔고, 검열과 근대극의 충돌을 상징하는 사례가 되었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "henrik-ibsen--vildanden",
+      "titleKo": "들오리",
+      "titleOriginal": "Vildanden",
+      "year": 1884,
+      "genre": "drama",
+      "significance": "진실을 말해야 한다는 이상주의가 한 가족을 파괴하는 과정을 그린다. 앞선 폭로극의 구조를 스스로 반박하면서 다락의 들오리라는 상징을 사실주의 무대에 도입했다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "henrik-ibsen--hedda-gabler",
+      "titleKo": "헤다 가블레르",
+      "titleOriginal": "Hedda Gabler",
+      "year": 1890,
+      "genre": "drama",
+      "significance": "가능성이 봉쇄된 여자가 타인의 삶을 조종하다 자기를 파괴하는 4막극. 동기를 설명하지 않는 인물 조형으로 20세기 연기술이 반복해 도전하는 배역을 만들었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--henrik-ibsen--anton-chekhov",
+      "type": "contrast",
+      "from": "henrik-ibsen (헨리크 입센)",
+      "to": "anton-chekhov (안톤 체호프)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "근대극의 두 출발점이 정반대 방향에서 세워졌다. 입센은 감춰진 과거가 현재를 무너뜨리는 소급적 플롯으로 극을 조였고, 체호프는 사건의 해결을 아예 걷어내고 어긋나는 대화만 남겼다. 레이먼드 윌리엄스 이후의 연극사 서술은 이 둘을 20세기 극작술이 갈라져 나온 두 갈래로 나란히 놓는다.",
+      "sourceIds": [
+        "src--williams-drama-ibsen-to-brecht"
+      ]
+    },
+    {
+      "id": "influence--henrik-ibsen--henry-james",
+      "type": "documented_influence",
+      "from": "henrik-ibsen (헨리크 입센)",
+      "to": "henry-james (헨리 제임스)",
+      "evidenceLevel": "documented",
+      "summary": "제임스는 1891년 『뉴 리뷰』에 「헤다 가블러에 관하여」를 싣는 등 입센에 관한 평문을 여러 편 썼고, 같은 시기 자신도 극작에 뛰어들었다. 응접실의 대화만으로 사회의 거짓말을 심문하는 입센의 방법은 그가 후기 소설에서 '극화'라 부른 장면 중심 구성으로 옮겨 갔다.",
+      "anchors": [
+        {
+          "year": 1891
+        }
+      ],
+      "sourceIds": [
+        "src--james-scenic-art"
+      ]
+    },
+    {
+      "id": "influence--henrik-ibsen--james-joyce",
+      "type": "documented_influence",
+      "from": "henrik-ibsen (헨리크 입센)",
+      "to": "james-joyce (제임스 조이스)",
+      "evidenceLevel": "documented",
+      "summary": "조이스는 열여덟에 「입센의 새 희곡」(『포트나이틀리 리뷰』 1900. 4.)을 발표해 『우리 죽은 자들이 깨어날 때』를 논했고, 입센이 번역자 윌리엄 아처를 통해 사의를 전하자 이듬해 3월 입센의 생일에 노르웨이어로 편지를 보냈다. 원어로 읽으려고 배운 언어였다. 산문 사실주의 희곡이 무엇을 심문할 수 있는지가 그가 입센에게서 가져온 것이다.",
+      "anchors": [
+        {
+          "year": 1900
+        }
+      ],
+      "sourceIds": [
+        "src--joyce-ibsens-new-drama-1900",
+        "src--ellmann-james-joyce"
+      ]
+    },
+    {
+      "id": "contrast--henrik-ibsen--luigi-pirandello",
+      "type": "contrast",
+      "from": "henrik-ibsen (헨리크 입센)",
+      "to": "luigi-pirandello (루이지 피란델로)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "입센은 객석 쪽에 보이지 않는 네 번째 벽을 세워 응접실을 심문했고, 피란델로는 완성되지 않은 인물들을 무대에 난입시켜 그 벽을 안에서 무너뜨렸다. 근대극 연구는 피란델로의 메타연극을 입센이 확립한 사실주의 무대의 뒤집기로 서술한다. 피란델로 자신은 입센을 셰익스피어 다음가는 극작가로 꼽았으므로, 이 대조는 인적 반목이 아니라 형식의 반대항이다.",
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "contrast--henrik-ibsen--bertolt-brecht",
+      "type": "contrast",
+      "from": "henrik-ibsen (헨리크 입센)",
+      "to": "bertolt-brecht (베르톨트 브레히트)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "브레히트의 서사극은 관객을 무대의 환영 안으로 끌어들이는 극작술 전체를 겨냥했고, 그 표준형이 입센의 응접실극이었다. 레이먼드 윌리엄스가 근대극의 궤적을 입센에서 브레히트까지로 그은 것도 이 반전 때문이다.",
+      "sourceIds": [
+        "src--williams-drama-ibsen-to-brecht"
+      ]
+    },
+    {
+      "id": "influence--henrik-ibsen--lu-xun",
+      "type": "documented_influence",
+      "from": "henrik-ibsen (헨리크 입센)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 1923년 베이징여자고등사범학교 강연 「노라는 떠난 뒤 어떻게 되었는가」에서 『인형의 집』의 결말을 그대로 이어받아, 경제적 조건이 없는 각성은 타락이나 귀가로 끝난다고 답했다. 신문화운동의 입센 수용을 안에서 되짚은 발언이다.",
+      "anchors": [
+        {
+          "year": 1923
+        },
+        {
+          "workId": "henrik-ibsen--et-dukkehjem"
+        }
+      ],
+      "sourceIds": [
+        "src--lu-xun-nora-lecture-1923",
+        "src--lu-xun-quanji"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--ibsen-letters-speeches": {
+      "id": "src--ibsen-letters-speeches",
+      "title": "헨리크 입센 서한·연설집",
+      "publisherOrInstitution": "헨리크 입센 서한 및 공개 연설 기록",
+      "citation": "1898년 노르웨이 여성권리연맹 만찬 연설 — 『인형의 집』을 여성해방 강령으로 쓰지 않았다는 본인 진술의 1차 근거"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--williams-drama-ibsen-to-brecht": {
+      "id": "src--williams-drama-ibsen-to-brecht",
+      "title": "Drama from Ibsen to Brecht (1968 개정판, 초판 Drama from Ibsen to Eliot 1952)",
+      "publisherOrInstitution": "Chatto & Windus — Raymond Williams",
+      "citation": "입센에서 브레히트까지 근대극의 형식 변화를 하나의 궤적으로 서술한 표준 연구 — 입센·체호프·브레히트를 같은 계보 안에서 대조하는 연극사 서술의 근거"
+    },
+    "src--james-scenic-art": {
+      "id": "src--james-scenic-art",
+      "title": "The Scenic Art: Notes on Acting and the Drama, 1872–1901 (Allan Wade 편, 1948)",
+      "publisherOrInstitution": "Rutgers University Press",
+      "citation": "헨리 제임스의 연극 평문 모음 — 「헤다 가블러에 관하여」(New Review, 1891)를 비롯한 입센 관련 글들이 실린 1차 문헌"
+    },
+    "src--joyce-ibsens-new-drama-1900": {
+      "id": "src--joyce-ibsens-new-drama-1900",
+      "title": "「입센의 새 희곡」 (Ibsen's New Drama, The Fortnightly Review, 1900. 4.)",
+      "publisherOrInstitution": "The Fortnightly Review (London)",
+      "citation": "열여덟 살의 조이스가 『우리 죽은 자들이 깨어날 때』를 논한 평문. 입센이 번역자 윌리엄 아처를 통해 사의를 전했고, 조이스는 이듬해 노르웨이어로 입센에게 편지를 보냈다"
+    },
+    "src--ellmann-james-joyce": {
+      "id": "src--ellmann-james-joyce",
+      "title": "James Joyce (1959, 개정판 1982)",
+      "publisherOrInstitution": "Oxford University Press — Richard Ellmann",
+      "citation": "조이스 표준 전기 — 1902년 예이츠와의 첫 만남, 예이츠의 소개와 문학기금 주선, 1932년 아일랜드 문예 아카데미 초청과 거절 등 인적 관계의 표준 근거"
+    },
+    "src--lu-xun-nora-lecture-1923": {
+      "id": "src--lu-xun-nora-lecture-1923",
+      "title": "「노라는 떠난 뒤 어떻게 되었는가(娜拉走後怎樣)」 — 베이징여자고등사범학교 강연 (1923. 12.)",
+      "publisherOrInstitution": "北京女子高等師範學校",
+      "citation": "『인형의 집』의 결말을 이어받아 경제적 조건 없는 각성의 귀결을 물은 강연 — 루쉰의 입센 수용을 보여주는 1차 문헌"
+    },
+    "src--lu-xun-quanji": {
+      "id": "src--lu-xun-quanji",
+      "title": "『魯迅全集』 주석·연보",
+      "publisherOrInstitution": "人民文學出版社",
+      "citation": "루쉰 저작의 초출 지면·발표 연도·필명이 정리된 정본 전집의 주석과 연보"
+    }
+  }
+}

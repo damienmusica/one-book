@@ -1,0 +1,154 @@
+{
+  "id": "georges-perec",
+  "page": "https://literary-planet.pages.dev/authors/georges-perec/",
+  "author": {
+    "names": {
+      "ko": "조르주 페렉",
+      "original": "Georges Perec",
+      "aliases": [
+        "페렉",
+        "Perec"
+      ]
+    },
+    "birthYear": 1936,
+    "deathYear": 1982,
+    "activeRange": [
+      1965,
+      1982
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [
+      "oulipo"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "울리포의 수학적 제약을 형식 놀이에서 개인사의 도구로 바꿔놓았다. 알파벳 e를 한 번도 쓰지 않은 『실종』에서 사라진 글자는 제약인 동시에 전쟁 중 사라진 부모의 자리이고, 『W 또는 유년의 기억』은 유년 회상과 가상의 섬 이야기를 번갈아 배치해 기억이 직접 서술될 수 없다는 사실 자체를 구조로 만들었다. 『인생사용법』에서는 파리의 한 아파트 정면을 10×10 격자로 세우고 체스 나이트의 이동 경로로 방을 순회하며, 목록·도면·색인을 소설의 부록이 아니라 본문으로 승격시켰다.",
+    "readingEntry": "georges-perec--les-choses",
+    "readingEntryReason": "제약이 겉으로 드러나지 않는 130쪽짜리 데뷔작이라 보통 소설처럼 읽을 수 있으면서도, 인물의 내면 대신 물건 목록으로 사람을 서술하는 페렉의 기본 동작이 이미 완성되어 있다.",
+    "readingOrder": [
+      "georges-perec--les-choses",
+      "georges-perec--un-homme-qui-dort",
+      "georges-perec--especes-d-espaces",
+      "georges-perec--w-ou-le-souvenir-d-enfance",
+      "georges-perec--la-vie-mode-d-emploi"
+    ],
+    "readingWarning": "『실종』을 번역으로 먼저 읽으면 e를 쓰지 않는다는 규칙이 다른 언어로 옮겨지는 과정에서 보이지 않게 되어, 규칙 없이 이상하기만 한 소설로 남는다.",
+    "difficulty": 4,
+    "difficultyReason": "제약이 본문에 표시되지 않아 무엇이 규칙인지 모른 채 읽게 되고, 『인생사용법』은 99개 장이 건물 평면도를 따라 배열되어 뒤에 붙은 색인과 연표를 함께 쓰지 않으면 길을 잃는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "georges-perec--les-choses",
+      "titleKo": "사물들",
+      "titleOriginal": "Les Choses: Une histoire des années soixante",
+      "year": 1965,
+      "genre": "fiction",
+      "significance": "젊은 부부가 갖고 싶어 하는 물건들을 조건법 문장의 목록으로 서술한다. 인물의 내면 대신 소유 욕망의 목록으로 1960년대 프랑스를 기록한 데뷔작이다.",
+      "sourceIds": [
+        "src--pleiade",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "georges-perec--un-homme-qui-dort",
+      "titleKo": "잠자는 남자",
+      "titleOriginal": "Un homme qui dort",
+      "year": 1967,
+      "genre": "fiction",
+      "significance": "시험을 포기하고 방에서 나오지 않기로 한 학생의 나날을 2인칭 '너'로 서술한다. 무관심을 끝까지 밀고 나가는 실험을 다른 책들에서 가져온 인용문으로 짜인 문장으로 수행한다.",
+      "sourceIds": [
+        "src--pleiade",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "georges-perec--la-disparition",
+      "titleKo": "실종",
+      "titleOriginal": "La Disparition",
+      "year": 1969,
+      "genre": "fiction",
+      "significance": "프랑스어에서 가장 흔한 글자 e를 한 번도 쓰지 않고 쓴 장편. 사라진 것을 찾는 추리 구조와 사라진 글자가 겹쳐, 제약이 곧 내용이 되는 울리포의 대표 사례가 되었다.",
+      "sourceIds": [
+        "src--pleiade",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "georges-perec--especes-d-espaces",
+      "titleKo": "공간의 종류들",
+      "titleOriginal": "Espèces d'espaces",
+      "year": 1974,
+      "genre": "essay-criticism",
+      "significance": "페이지·침대·방·아파트·거리·도시·세계로 축척을 넓혀가며 공간을 기술하는 산문. 목록과 지시문으로 이루어진 이 글쓰기 방식이 이후 소설의 방법론이 되었다.",
+      "sourceIds": [
+        "src--pleiade",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "georges-perec--w-ou-le-souvenir-d-enfance",
+      "titleKo": "W 또는 유년의 기억",
+      "titleOriginal": "W ou le souvenir d'enfance",
+      "year": 1975,
+      "genre": "fiction",
+      "significance": "유년 회상 장과 올림픽 경기만으로 운영되는 가상의 섬 이야기를 번갈아 배치한다. 두 계열이 끝에서 수용소의 이미지로 겹치며, 직접 서술될 수 없는 기억을 구조로 말한다.",
+      "sourceIds": [
+        "src--pleiade",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "georges-perec--la-vie-mode-d-emploi",
+      "titleKo": "인생사용법",
+      "titleOriginal": "La Vie mode d'emploi",
+      "year": 1978,
+      "genre": "fiction",
+      "significance": "파리의 한 아파트 건물 정면을 10×10 격자로 세우고, 체스 나이트의 이동 경로에 따라 99개 장을 배치한다. 각 방의 사물과 그 내력을 목록처럼 기술해 소설을 하나의 재고 조사로 만들었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "dialogue--italo-calvino--georges-perec (→ italo-calvino 의 슬레이트에서 본다)",
+    "influence--gustave-flaubert--georges-perec (→ gustave-flaubert 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "marina-tsvetaeva",
+  "page": "https://literary-planet.pages.dev/authors/marina-tsvetaeva/",
+  "author": {
+    "names": {
+      "ko": "마리나 츠베타예바",
+      "original": "Марина Цветаева",
+      "aliases": [
+        "츠베타에바",
+        "Marina Tsvetaeva",
+        "Марина Ивановна Цветаева"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1941,
+    "activeRange": [
+      1910,
+      1941
+    ],
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "러시아 시의 문장을 압축과 파열 쪽으로 밀어붙였다. 접속사와 술어를 생략하고 줄표로 끊는 통사, 강세를 어긋내는 리듬, 한 낱말을 어근 단위로 쪼개 다시 조립하는 방식으로 감정의 속도를 의미보다 앞세우는 시행을 만들었다. 어느 유파에도 속하지 않은 채 장시·서정시·산문·서한을 한 몸으로 운용했고, 1926년 릴케·파스테르나크와 주고받은 삼각 서한은 별도의 책으로 묶여 널리 읽힌다.",
+    "readingEntry": "marina-tsvetaeva--moy-pushkin",
+    "readingEntryReason": "산문이라 통사의 장벽이 없고 분량이 짧으며, 문학을 어떻게 몸으로 겪었는지가 유년의 장면들로 직접 드러나 시로 들어가는 통로가 된다.",
+    "readingOrder": [
+      "marina-tsvetaeva--moy-pushkin",
+      "marina-tsvetaeva--vecherniy-albom",
+      "marina-tsvetaeva--posle-rossii",
+      "marina-tsvetaeva--poema-kontsa"
+    ],
+    "readingWarning": "그의 시를 전기(망명·궁핍·1941년의 자살)의 삽화로 먼저 읽으면, 정작 시행이 하는 일 — 통사의 파괴 — 이 배경으로 밀려난다.",
+    "difficulty": 4,
+    "difficultyReason": "생략된 술어와 줄표, 어긋난 강세가 의미의 축이라 원문에서도 여러 번 읽어야 하고, 번역에서는 리듬이 사라져 문장이 오히려 더 불투명해진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "marina-tsvetaeva--vecherniy-albom",
+      "titleKo": "저녁 앨범",
+      "titleOriginal": "Вечерний альбом",
+      "year": 1910,
+      "genre": "poetry",
+      "significance": "열여덟 살에 자비로 낸 첫 시집으로, 브류소프·구밀료프·볼로신의 서평을 받으며 곧바로 문단에 진입했다. 유년과 가정을 소재로 삼으면서도 특유의 직접화법이 이미 나타난다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "marina-tsvetaeva--remeslo",
+      "titleKo": "수공업",
+      "titleOriginal": "Ремесло",
+      "year": 1923,
+      "genre": "poetry",
+      "significance": "베를린에서 낸 시집으로, 시를 영감이 아니라 손으로 하는 노동으로 규정하는 제목 아래 압축과 파열의 통사가 본격화된다.",
+      "sourceIds": [
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "marina-tsvetaeva--poema-kontsa",
+      "titleKo": "끝의 시",
+      "titleOriginal": "Поэма Конца",
+      "year": 1926,
+      "genre": "poetry",
+      "significance": "프라하에서 한 남자와 헤어지며 도시를 걷는 몇 시간을 장시로 쓴 작품으로, 대화의 파편과 줄표만으로 이별의 시간을 진행시킨다. 1924년에 쓰고 1926년에 발표했다.",
+      "sourceIds": [
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "marina-tsvetaeva--posle-rossii",
+      "titleKo": "러시아 이후",
+      "titleOriginal": "После России",
+      "year": 1928,
+      "genre": "poetry",
+      "significance": "파리에서 낸 생전 마지막 시집으로, 망명 초기의 시를 묶었다. 이후 그는 죽을 때까지 새 시집을 내지 못했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "marina-tsvetaeva--moy-pushkin",
+      "titleKo": "나의 푸시킨",
+      "titleOriginal": "Мой Пушкин",
+      "year": 1937,
+      "genre": "essay-criticism",
+      "significance": "푸시킨 사망 100주년에 쓴 산문으로, 국민시인이라는 공적 초상 대신 어린아이가 집 안의 그림과 금지된 책으로 만난 푸시킨을 복원한다.",
+      "sourceIds": [
+        "src--poetry-foundation"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--marina-tsvetaeva--paul-celan",
+      "type": "documented_influence",
+      "from": "marina-tsvetaeva (마리나 츠베타예바)",
+      "to": "paul-celan (파울 첼란)",
+      "evidenceLevel": "documented",
+      "summary": "첼란은 『누구도 아닌 자의 장미』(1963)에 실린 「그리고 타루사에서 온 책과 함께」의 제사로 츠베타예바의 「끝의 시」에서 가져온 시행, 모든 시인은 유대인이라는 구절을 걸었다. 러시아 시를 독일어로 옮기며 자기 어휘를 만들어 간 그의 작업에서 츠베타예바는 인용의 대상이자 좌표였다.",
+      "anchors": [
+        {
+          "workId": "paul-celan--die-niemandsrose"
+        },
+        {
+          "workId": "marina-tsvetaeva--poema-kontsa"
+        }
+      ],
+      "sourceIds": [
+        "src--celan-niemandsrose-1963"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "dialogue--rainer-maria-rilke--marina-tsvetaeva (→ rainer-maria-rilke 의 슬레이트에서 본다)",
+    "dialogue--anna-akhmatova--marina-tsvetaeva (→ anna-akhmatova 의 슬레이트에서 본다)",
+    "translation--charles-baudelaire--marina-tsvetaeva (→ charles-baudelaire 의 슬레이트에서 본다)",
+    "translation--federico-garcia-lorca--marina-tsvetaeva (→ federico-garcia-lorca 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--celan-niemandsrose-1963": {
+      "id": "src--celan-niemandsrose-1963",
+      "title": "『Die Niemandsrose』 (1963)",
+      "publisherOrInstitution": "S. Fischer Verlag",
+      "citation": "만델슈탐에게 헌정된 시집 초판 — 「그리고 타루사에서 온 책과 함께」에 츠베타예바의 시행이 제사로 붙은 1차 판본"
+    }
+  }
+}

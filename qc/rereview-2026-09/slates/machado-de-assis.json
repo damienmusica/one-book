@@ -1,0 +1,179 @@
+{
+  "id": "machado-de-assis",
+  "page": "https://literary-planet.pages.dev/authors/machado-de-assis/",
+  "author": {
+    "names": {
+      "ko": "마샤두 지 아시스",
+      "original": "Machado de Assis",
+      "aliases": [
+        "Joaquim Maria Machado de Assis",
+        "마샤두 데 아시스",
+        "마차도 데 아시스"
+      ]
+    },
+    "birthYear": 1839,
+    "deathYear": 1908,
+    "activeRange": [
+      1864,
+      1908
+    ],
+    "languages": [
+      "pt"
+    ],
+    "regions": [
+      "latin-america"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "이미 죽은 화자가 독자를 불러 세우고 자기 생애를 짧은 장으로 흩어 놓는 『브라스 쿠바스의 사후 회고록』으로, 사실주의가 정점이던 1881년에 서술의 신뢰성 자체를 농담거리로 만들었다. 『동 카스무후』는 아내의 배신 여부를 끝내 판정하지 않고 판결을 독자에게 떠넘기는 구조를 취해, 신뢰할 수 없는 화자를 소설의 설계 원리로 세웠다. 제국 변방의 리우데자네이루에서 유럽 모더니즘보다 수십 년 앞서 나온 이 장치들은 20세기 후반에야 세계 문학의 목록에 들어왔고, 자유민의 손자로 태어난 그가 노예제 사회의 위선을 다룬 방식도 함께 재발견되었다.",
+    "readingEntry": "machado-de-assis--memorias-postumas-de-bras-cubas",
+    "readingEntryReason": "장 하나가 한두 쪽에 불과해 진입이 쉽고, 첫 장부터 죽은 화자가 말을 걸기 때문에 그의 방법이 무엇인지 즉시 드러난다.",
+    "readingOrder": [
+      "machado-de-assis--memorias-postumas-de-bras-cubas",
+      "machado-de-assis--o-alienista",
+      "machado-de-assis--dom-casmurro",
+      "machado-de-assis--quincas-borba"
+    ],
+    "readingWarning": "1872년 이전의 낭만주의 시기 작품부터 읽으면 그를 평범한 지역 작가로 오해하게 된다. 1881년 이후의 소설에서 시작해야 한다.",
+    "difficulty": 2,
+    "difficultyReason": "짧은 장과 구어체 서술 덕분에 문장은 쉽게 읽히지만, 화자의 진술을 곧이곧대로 믿으면 작품의 절반을 놓치기 때문에 의심하며 읽는 태도가 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--abl-machado",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "machado-de-assis--memorias-postumas-de-bras-cubas",
+      "titleKo": "브라스 쿠바스의 사후 회고록",
+      "titleOriginal": "Memórias Póstumas de Brás Cubas",
+      "year": 1881,
+      "genre": "fiction",
+      "significance": "이미 죽은 화자가 독자를 부르며 자기 생애를 160개의 짧은 장으로 늘어놓는다. 사실주의가 정점이던 시기에 서술의 순서·신뢰성·완결성을 모두 농담의 대상으로 삼아 브라질 소설의 방향을 바꾼 작품이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "machado-de-assis--o-alienista",
+      "titleKo": "알리에니스타",
+      "titleOriginal": "O alienista",
+      "year": 1882,
+      "genre": "fiction",
+      "significance": "한 의사가 마을 사람을 차례로 정신병원에 수용했다가 판정 기준을 통째로 뒤집는 중편. 정상과 광기의 경계가 분류하는 자의 권한일 뿐임을 희극의 형식으로 논증한다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "machado-de-assis--quincas-borba",
+      "titleKo": "킨카스 보르바",
+      "titleOriginal": "Quincas Borba",
+      "year": 1891,
+      "genre": "fiction",
+      "significance": "승자의 생존을 정당화하는 사이비 철학을 물려받은 인물이 파멸하는 과정을 추적한다. 앞선 소설의 조연을 표제로 삼아 사상이 유통되는 방식 자체를 서사로 만들었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "machado-de-assis--dom-casmurro",
+      "titleKo": "동 카스무후",
+      "titleOriginal": "Dom Casmurro",
+      "year": 1899,
+      "genre": "fiction",
+      "significance": "질투에 사로잡힌 화자가 아내의 배신을 회고하지만 증거는 전부 그의 진술뿐이다. 판결을 독자에게 떠넘기는 구조 덕분에 한 세기 넘게 해석 논쟁이 이어지고 있다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "machado-de-assis--memorial-de-aires",
+      "titleKo": "아이리스의 비망록",
+      "titleOriginal": "Memorial de Aires",
+      "year": 1908,
+      "genre": "fiction",
+      "significance": "은퇴한 외교관의 일기 형식으로 노년의 관찰만 남긴 마지막 장편. 사건을 거의 제거하고 기록자의 시선만 남긴 점에서 그의 서술 실험이 도달한 종착지다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--abl-machado"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--machado-de-assis--luigi-pirandello",
+      "type": "affinity",
+      "from": "machado-de-assis (마샤두 지 아시스)",
+      "to": "luigi-pirandello (루이지 피란델로)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "리우데자네이루의 소설가와 시칠리아의 극작가 사이에 직접 접촉의 기록은 없다. 이 지도가 둘을 가까이 놓는 이유는 자아를 타인이 부여한 배역들의 합으로 다루는 방법이 같기 때문이다 — 『동 카스무후』는 아내의 배신 여부에 대한 판결을 독자에게 떠넘기고, 『하나, 아무도 아닌, 십만 명』은 이름을 잃은 자리에서 다시 시작한다.",
+      "anchors": [
+        {
+          "workId": "machado-de-assis--dom-casmurro"
+        },
+        {
+          "workId": "luigi-pirandello--uno-nessuno-e-centomila"
+        }
+      ],
+      "sourceIds": []
+    },
+    {
+      "id": "contrast--machado-de-assis--joao-guimaraes-rosa",
+      "type": "contrast",
+      "from": "machado-de-assis (마샤두 지 아시스)",
+      "to": "joao-guimaraes-rosa (주앙 기마랑이스 호자)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "브라질 산문이 도달한 두 극이다. 마샤두는 리우의 응접실에서 독자를 놀리는 화자로 소설의 신뢰를 무너뜨렸고, 호자는 세르탕의 구어를 인공 언어로 재조립해 문장 자체를 낯설게 만들었다. 두 사람 사이에 직접 접촉이나 계보의 기록은 없고, 이 지도가 브라질 소설의 두 가능성을 나란히 보이기 위해 놓은 대조다.",
+      "sourceIds": []
+    },
+    {
+      "id": "affinity--machado-de-assis--natsume-soseki",
+      "type": "affinity",
+      "from": "machado-de-assis (마샤두 지 아시스)",
+      "to": "natsume-soseki (나쓰메 소세키)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "『브라스 쿠바스의 사후 회고록』(1881)과 『나는 고양이로소이다』(1905)는 둘 다 유럽 소설의 형식을 수입한 자리에서, 곁길로 새는 1인칭 화자와 반어로 그 형식을 되받는다. 두 사람 사이에 접촉이나 독서의 기록은 없다. 주변부의 소설이 중심의 규범을 다루는 두 방식으로 이 지도가 나란히 놓은 것이다.",
+      "anchors": [
+        {
+          "workId": "machado-de-assis--memorias-postumas-de-bras-cubas"
+        },
+        {
+          "workId": "natsume-soseki--wagahai-wa-neko-de-aru"
+        }
+      ],
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--abl-machado": {
+      "id": "src--abl-machado",
+      "title": "Academia Brasileira de Letras — 마샤두 지 아시스 관련 기관 자료",
+      "publisherOrInstitution": "Academia Brasileira de Letras",
+      "citation": "1897년 브라질 문학 아카데미 창립과 초대 회장 재임 사실 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

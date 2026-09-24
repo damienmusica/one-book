@@ -74,11 +74,9 @@
     "sourceIds": [
       "src--britannica",
       "src--nobelprize",
-      "src--paris-review",
-      "src--kr-world-lit-editions"
+      "src--paris-review"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "italo-calvino",
@@ -160,11 +158,9 @@
     "sourceIds": [
       "src--britannica",
       "src--treccani",
-      "src--paris-review",
-      "src--kr-world-lit-editions"
+      "src--paris-review"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "toni-morrison",
@@ -244,11 +240,9 @@
     "sourceIds": [
       "src--britannica",
       "src--nobelprize",
-      "src--library-of-america",
-      "src--kr-world-lit-editions"
+      "src--library-of-america"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "thomas-pynchon",
@@ -326,11 +320,9 @@
     "difficultyReason": "인물 수가 수백 명이고 물리학·역사 자료가 요약 없이 서사에 직접 들어오며, 플롯이 해결이 아니라 확산으로 끝나기 때문에 줄거리를 붙잡으려는 독법 자체가 작동하지 않는다.",
     "sourceIds": [
       "src--britannica",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "georges-perec",
@@ -403,11 +395,9 @@
     "difficultyReason": "제약이 본문에 표시되지 않아 무엇이 규칙인지 모른 채 읽게 되고, 『인생사용법』은 99개 장이 건물 평면도를 따라 배열되어 뒤에 붙은 색인과 연표를 함께 쓰지 않으면 길을 잃는다.",
     "sourceIds": [
       "src--britannica",
-      "src--pleiade",
-      "src--kr-world-lit-editions"
+      "src--pleiade"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "milan-kundera",
@@ -488,11 +478,9 @@
     "difficultyReason": "문장과 사건은 평이하지만 서술자가 수시로 소설을 멈추고 개념을 정의하는 구성에 익숙해져야 하고, 프라하의 봄 전후 체코 현대사를 모르면 인물들의 선택이 밋밋하게 읽힌다.",
     "sourceIds": [
       "src--britannica",
-      "src--paris-review",
-      "src--kr-world-lit-editions"
+      "src--paris-review"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "stanislaw-lem",
@@ -565,11 +553,9 @@
     "difficultyReason": "문장보다 렘이 서사에 통째로 얹는 논증 — 가상의 학문 문헌 요약, 정보이론과 통계 토론 — 을 건너뛰지 않고 읽어야 이야기가 성립하고, 후기작은 존재하지 않는 책의 서평 형식이라 어디까지가 농담인지 독자가 판정해야 한다.",
     "sourceIds": [
       "src--britannica",
-      "src--culture-pl",
-      "src--kr-world-lit-editions"
+      "src--culture-pl"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "umberto-eco",
@@ -651,11 +637,9 @@
     "sourceIds": [
       "src--britannica",
       "src--treccani",
-      "src--paris-review",
-      "src--kr-world-lit-editions"
+      "src--paris-review"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "jose-saramago",
@@ -734,10 +718,8 @@
     "sourceIds": [
       "src--britannica",
       "src--nobelprize",
-      "src--fundacao-jose-saramago",
-      "src--kr-world-lit-editions"
+      "src--fundacao-jose-saramago"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   }
 ]

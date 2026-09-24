@@ -1,0 +1,13 @@
+{
+  "id": "homer",
+  "claims": [
+    {
+      "field": "relations[homer→virgil].summary",
+      "claim": "마크로비우스가 『사투르날리아』에서 베르길리우스의 호메로스 차용 대목을 대조했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Saturnalia_(Macrobius)",
+      "quote": "The third, fourth, fifth and sixth books are devoted to Virgil, dwelling ... on ... his debt to Homer (with a comparison of the art of the two)",
+      "note": "차용 대목 대조는 확인. 다만 위 '순서 뒤집기' 독해가 마크로비우스에서 비롯됐다는 계보 주장까지는 확인되지 않았다."
+    }
+  ]
+}

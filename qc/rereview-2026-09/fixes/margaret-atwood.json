@@ -1,0 +1,118 @@
+{
+  "fixes": [
+    {
+      "id": "margaret-atwood",
+      "importanceReason": "『시녀 이야기』에서 어딘가에서 실제로 시행된 적이 있는 제도와 법만을 재료로 쓴다는 규칙을 걸고 근미래 신정 체제를 구성해, 사변소설을 현재의 제도를 뒤집어 검사하는 논증의 형식으로 만들었다. 『눈먼 암살자』에서는 회고록과 신문 기사, 그리고 연인의 밀회를 그린 액자 소설(그 안에서 남자가 통속 SF 이야기를 들려준다)을 교차시켜 한 여성의 진술이 어디서 편집되고 무엇이 빠졌는지를 독자가 재구성하게 했다. 시로 출발해 소설과 비평으로 옮겨 가면서, 캐나다 문학을 '생존'이라는 중심 상징과 '희생자'의 위치로 묶어 영국·미국 문학과 구별되는 독자적 문학으로 논증한 주제 비평서 『생존』(1972)도 함께 썼다.",
+      "readingEntryReason": "분량이 적당하고 본문이 처음부터 끝까지 오브프레드 한 사람의 1인칭 목소리로 이어지며(말미의 「역사적 주석」에서만 후대 학회 발표자의 목소리로 바뀐다), 애트우드의 설정 구성 방식과 서술 태도를 한 권 안에서 모두 확인할 수 있다.",
+      "readingWarning": "『눈먼 암살자』를 첫 책으로 잡으면 회고·신문 기사·액자 속 소설이 번갈아 나오는 3중 구조 때문에 어느 층의 진술인지부터 추적하며 읽어야 한다.",
+      "works": [
+        {
+          "id": "margaret-atwood--the-circle-game",
+          "year": 1964,
+          "significance": "애트우드를 시인으로 먼저 알린 초기 시집으로, 표제시 「서클 게임」은 아이들의 원 놀이와 연인의 '지도' 이미지를 겹쳐 관계 속 고립을 다룬다. 캐나다 총독문학상을 받으며 그의 출발점이 소설이 아니라 시였음을 확인시킨 책이다."
+        },
+        {
+          "id": "margaret-atwood--cats-eye",
+          "significance": "회고전을 위해 토론토로 돌아온 화가가 어린 시절 소녀들 사이의 괴롭힘을 다시 불러내면서, 기억이 그림처럼 다시 칠해지는 과정을 서술한다. 1988년 총독문학상과 1989년 부커상 최종 후보에 오른 작품이다."
+        },
+        {
+          "id": "margaret-atwood--the-blind-assassin",
+          "significance": "노년 화자의 회고, 당대 신문 기사, 그리고 연인의 밀회를 그린 액자 소설(그 안에서 남자가 여자에게 통속 SF 이야기를 들려준다)을 교차시켜 자매의 죽음을 둘러싼 진술이 어디서 편집되었는지를 독자가 조립하게 만든다. 부커상 수상작이다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "affinity--margaret-atwood--octavia-butler",
+          "summary": "『시녀 이야기』와 『씨앗을 뿌리는 사람의 우화』는 모두 무너져 가는 근미래 미국을 여성 화자의 1인칭 기록 형식으로 서술한다. 애트우드는 『오릭스와 크레이크』를 쓴 뒤에 버틀러의 『Lilith's Brood』를 읽었다고 밝혔지만(라이트스피드 인터뷰), 『시녀 이야기』와 『씨앗을 뿌리는 사람의 우화』 사이의 직접 영향이나 두 사람의 접촉 기록은 확인되지 않는다. 같은 시기 같은 문제를 다룬 두 지점을 비교하기 위해 이 지도가 둔 관계다."
+        },
+        {
+          "id": "affinity--margaret-atwood--kazuo-ishiguro",
+          "summary": "『시녀 이야기』와 『나를 보내지 마』는 모두 사변적 전제 하나를 세운 뒤 그 안에서 살아가는 화자의 담담한 진술만으로 사회의 규칙을 드러낸다. 장르 소설의 장치를 쓰면서도 SF라는 이름과 거리를 두는 태도까지 겹친다. 두 작품을 나란히 비교한 연구가 있고, 애트우드 자신이 2005년 슬레이트에 『나를 보내지 마』 서평을 써 『다른 세계에서』(2011)에 다시 실었다.",
+          "evidenceLevel": "editorial_inference"
+        }
+      ],
+      "dropSources": [
+        "src--cambridge-companions"
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "『눈먼 암살자』는 회고록·신문 기사·액자 속 통속 SF를 교차시킨다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "캐나다 문학을 독자적 '계보'로 논증한 비평서(『생존』)를 썼다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『시녀 이야기』는 화자의 목소리가 처음부터 끝까지 하나로 유지된다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『눈먼 암살자』를 첫 책으로 잡으면 초반 백여 쪽 동안 누구의 이야기인지 잡히지 않는다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.lifespan",
+          "claim": "활동 기간 1961–2023년(데이터 activeRange)",
+          "resolution": "corrected",
+          "note": "activeRange must become [1961, 2025] per the correction; apply-plate-fixes has no activeRange field, so this needs a direct data edit and stays open."
+        },
+        {
+          "field": "works[margaret-atwood--the-circle-game].year",
+          "claim": "『서클 게임』 1966년 출간",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[margaret-atwood--the-circle-game].significance",
+          "claim": "시집이 관계를 놀이의 규칙과 지도의 은유로 다룬다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[margaret-atwood--cats-eye].significance",
+          "claim": "애트우드의 비사변 장편 중 가장 자주 논의되는 작품이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[margaret-atwood--the-blind-assassin].significance",
+          "claim": "노년 화자의 회고, 당대 신문 기사, 액자 속의 통속 SF 소설을 교차시킨다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relations[affinity--margaret-atwood--octavia-butler].summary",
+          "claim": "두 사람 사이에 직접 접촉이나 독서의 기록은 없다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relations[affinity--margaret-atwood--kazuo-ishiguro].summary",
+          "claim": "영어권 디스토피아 연구가 두 작품을 함께 다룬다(학계 통설)",
+          "resolution": "corrected"
+        },
+        {
+          "field": "sources[src--cambridge-companions]",
+          "claim": "Cambridge Companions to Literature 총서(CUP)는 학계 표준 개설서다",
+          "resolution": "removed"
+        },
+        {
+          "field": "sources[src--kr-world-lit-editions]",
+          "claim": "국내 주요 세계문학전집 해설(민음사·문학동네·을유문화사·창비 등)이 이 작가의 작품 근거다",
+          "resolution": "removed",
+          "note": "총칭 출처를 코퍼스에서 걷어냈다(scripts/drop-generic-source.ts, 2026-09-24) — 한국어 제목은 판본 원장이 댄다"
+        },
+        {
+          "field": "works[margaret-atwood--the-circle-game].titleKo",
+          "claim": "한국어 제목 『서클 게임』",
+          "resolution": "accepted",
+          "evidence": "메모가 짚은 「첫 시집」「스물한 살」은 현재 페이지에 없다 — 의의 문장은 「애트우드를 시인으로 먼저 알린 초기 시집」(2026-09-24 오케스트레이터 확인)"
+        }
+      ],
+      "activeRange": [
+        1961,
+        2025
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "juan-rulfo",
+  "page": "https://literary-planet.pages.dev/authors/juan-rulfo/",
+  "author": {
+    "names": {
+      "ko": "후안 룰포",
+      "original": "Juan Rulfo",
+      "aliases": [
+        "룰포",
+        "Rulfo",
+        "후안 네포무세노 카를로스 페레스 룰포 비스카이노"
+      ]
+    },
+    "birthYear": 1917,
+    "deathYear": 1986,
+    "activeRange": [
+      1945,
+      1958
+    ],
+    "languages": [
+      "es"
+    ],
+    "regions": [
+      "latin-america"
+    ],
+    "movements": [
+      "magical-realism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "죽은 자들이 서로의 말을 이어받는 목소리의 층으로 마을 하나를 세워, 생사의 구분과 시간 순서를 서술의 층위에서 지웠다. 멕시코 시골의 구어를 그대로 쓰되 상황을 설명하는 문장을 전부 걷어내, 사실주의의 건조한 문장이 유령 이야기를 감당할 수 있음을 보였다. 얇은 두 권을 내고 사실상 침묵한 이력과 함께, 가르시아 마르케스를 비롯한 붐 세대가 자기 출발점으로 지목한 작가가 됐다.",
+    "readingEntry": "juan-rulfo--el-llano-en-llamas",
+    "readingEntryReason": "각 편이 짧고 화자가 분명해 룰포의 건조한 구어 문장에 먼저 익숙해질 수 있고, 이 리듬을 알고 나면 『페드로 파라모』의 파편 구조가 훨씬 잘 잡힌다.",
+    "readingOrder": [
+      "juan-rulfo--el-llano-en-llamas",
+      "juan-rulfo--pedro-paramo",
+      "juan-rulfo--el-gallo-de-oro"
+    ],
+    "readingWarning": "『페드로 파라모』를 아무 예비 없이 한 번만 읽으면 화자가 바뀌는 지점을 놓쳐, 누가 죽었고 누가 말하는지 끝까지 정리되지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧은 구어체라 쉽게 읽히지만 『페드로 파라모』는 화자와 시간이 예고 없이 바뀌어, 얇은 분량에도 두 번 읽을 각오가 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cervantes-virtual",
+      "src--fce-letras-mexicanas-rulfo",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "juan-rulfo--el-llano-en-llamas",
+      "titleKo": "불타는 평원",
+      "titleOriginal": "El Llano en llamas",
+      "year": 1953,
+      "genre": "fiction",
+      "significance": "혁명 이후 할리스코 시골을 배경으로 한 단편집. 화자가 자기 처지를 설명하지 않고 말하는 구어체로, 폭력과 가난을 감정의 개입 없이 기록하는 문장을 확립했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--fce-letras-mexicanas-rulfo",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "juan-rulfo--pedro-paramo",
+      "titleKo": "페드로 파라모",
+      "titleOriginal": "Pedro Páramo",
+      "year": 1955,
+      "genre": "fiction",
+      "significance": "죽은 아버지를 찾아 코말라에 도착한 아들이 이미 죽은 자들의 마을에 들어섰음을 알게 되는 짧은 장편. 화자와 시간을 표시 없이 교차시켜 산 자와 죽은 자의 목소리를 같은 층위에 놓았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--fce-letras-mexicanas-rulfo",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "juan-rulfo--el-gallo-de-oro",
+      "titleKo": "황금 수탉",
+      "titleOriginal": "El gallo de oro",
+      "year": 1980,
+      "genre": "fiction",
+      "significance": "1950년대에 영화용 텍스트로 쓴 중편이 20여 년 뒤 단행본으로 출간된 작품. 투계꾼의 상승과 몰락을 따라가며 룰포의 구어체가 대중적 서사에서 어떻게 작동하는지 보여준다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cervantes-virtual"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--juan-rulfo--tayeb-salih",
+      "type": "affinity",
+      "from": "juan-rulfo (후안 룰포)",
+      "to": "tayeb-salih (타예브 살리흐)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "두 사람은 각각 코말라와 와드 하미드라는 가상의 마을 하나를 만들어 몇 권 안 되는 책을 그 안에서 되풀이했고, 둘 다 이른 침묵으로 창작 이력을 끝냈다. 직접 접촉의 기록은 없고, 마을 하나를 세계 전체로 쓰는 방법이 서로 다른 대륙에서 따로 나타났다는 점이 이 연결의 근거다.",
+      "sourceIds": []
+    },
+    {
+      "id": "influence--juan-rulfo--gabriel-garcia-marquez",
+      "type": "documented_influence",
+      "from": "juan-rulfo (후안 룰포)",
+      "to": "gabriel-garcia-marquez (가브리엘 가르시아 마르케스)",
+      "evidenceLevel": "documented",
+      "summary": "1961년 멕시코시티에서 알바로 무티스가 건넨 『페드로 파라모』를 읽고 막혀 있던 집필이 풀렸으며 그 책을 통째로 암송할 수 있을 만큼 되풀이해 읽었다고, 가르시아 마르케스는 룰포에 관한 회고 산문에서 밝혔다. 죽은 자가 산 자와 같은 어조로 말하는 서술 규칙이 『백년의 고독』의 전제가 되었다.",
+      "anchors": [
+        {
+          "workId": "juan-rulfo--pedro-paramo",
+          "year": 1961
+        },
+        {
+          "workId": "gabriel-garcia-marquez--cien-anos-de-soledad"
+        }
+      ],
+      "sourceIds": [
+        "src--garcia-marquez-rulfo-memoir-essay",
+        "src--fce-letras-mexicanas-rulfo"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--william-faulkner--juan-rulfo (→ william-faulkner 의 슬레이트에서 본다)",
+    "affinity--joao-guimaraes-rosa--juan-rulfo (→ joao-guimaraes-rosa 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cervantes-virtual": {
+      "id": "src--cervantes-virtual",
+      "title": "Biblioteca Virtual Miguel de Cervantes — 작가 포털",
+      "publisherOrInstitution": "Fundación Biblioteca Virtual Miguel de Cervantes",
+      "url": "https://www.cervantesvirtual.com",
+      "citation": "스페인어권 작가의 연보·서지·학술 해제를 모은 공개 디지털 도서관 — 초판 연도와 판본 확인용"
+    },
+    "src--fce-letras-mexicanas-rulfo": {
+      "id": "src--fce-letras-mexicanas-rulfo",
+      "title": "Fondo de Cultura Económica — Letras Mexicanas 총서 룰포 초판 서지",
+      "publisherOrInstitution": "Fondo de Cultura Económica",
+      "citation": "『불타는 평원』(1953)과 『페드로 파라모』(1955)를 처음 낸 출판사의 총서 서지 — 발표 연도 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--garcia-marquez-rulfo-memoir-essay": {
+      "id": "src--garcia-marquez-rulfo-memoir-essay",
+      "title": "후안 룰포에 관한 가르시아 마르케스의 회고 산문 (1980)",
+      "publisherOrInstitution": "가브리엘 가르시아 마르케스 산문 — 룰포 헌정 지면 게재 후 산문집 수록",
+      "citation": "1961년 멕시코시티에서 알바로 무티스가 건넨 『페드로 파라모』를 읽고 막혀 있던 집필이 풀린 경위와, 그 책을 통째로 암송할 수 있을 정도로 반복해 읽었다는 저자 자신의 진술. 정확한 표제와 초출 지면은 QC가 확인한다"
+    }
+  }
+}

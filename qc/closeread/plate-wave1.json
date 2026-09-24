@@ -4843,7 +4843,8 @@
           "verdict": "confirmed",
           "url": "https://en.wikipedia.org/wiki/While_the_Billy_Boils_(short_story_collection)",
           "quote": "published by Angus and Robertson in 1896",
-          "note": "Angus & Robertson 은 시드니 출판사이고 ADB 도 1896년 두 권 동시 간행을 기록. 다만 표제지에 'Sydney' 가 찍혔다는 서지 자체를 직접 대조하지는 못했다(위키소스에 올라온 것은 1913년 런던 재판)."
+          "note": "Angus & Robertson 은 시드니 출판사이고 ADB 도 1896년 두 권 동시 간행을 기록. 다만 표제지에 'Sydney' 가 찍혔다는 서지 자체를 직접 대조하지는 못했다(위키소스에 올라온 것은 1913년 런던 재판).",
+          "resolution": "narrowed"
         },
         {
           "field": "works[].significance (henry-lawson--while-the-billy-boils)",
@@ -4881,7 +4882,8 @@
           "verdict": "confirmed",
           "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
           "quote": "Lawson's reputation must rest on his stories and on a relatively small group of them",
-          "note": "ADB + 영문 위키백과(Australian literature)가 로슨을 부시 사실주의 단편의 중심에 놓는 것은 확인. 다만 이 엣지가 함께 인용한 src--britannica 는 Cloudflare 차단으로 열리지 않아, 브리태니커 본문에서 이 진술이 나온다는 것은 대조하지 못했다 — 근거는 다른 문헌으로 대체해야 한다."
+          "note": "ADB + 영문 위키백과(Australian literature)가 로슨을 부시 사실주의 단편의 중심에 놓는 것은 확인. 다만 이 엣지가 함께 인용한 src--britannica 는 Cloudflare 차단으로 열리지 않아, 브리태니커 본문에서 이 진술이 나온다는 것은 대조하지 못했다 — 근거는 다른 문헌으로 대체해야 한다.",
+          "resolution": "corrected"
         }
       ]
     },
@@ -10993,7 +10995,8 @@
           "verdict": "confirmed",
           "url": "https://en.wikipedia.org/wiki/An_Apology_for_Poetry",
           "quote": "Sidney primarily addresses more general objections to poetry, such as those of Plato",
-          "note": "시드니 『시의 옹호』·셸리 『시의 옹호』(1821)가 실제로 플라톤을 상대한다. 다만 '이후 모든 시 옹호론'이라는 전칭은 검증 불가."
+          "note": "시드니 『시의 옹호』·셸리 『시의 옹호』(1821)가 실제로 플라톤을 상대한다. 다만 '이후 모든 시 옹호론'이라는 전칭은 검증 불가.",
+          "resolution": "narrowed"
         },
         {
           "field": "difficultyReason",
@@ -14335,7 +14338,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-24",
   "totals": {
     "plates": 57,
     "claims": 1812,
@@ -14343,6 +14346,6 @@
     "contradicted": 137,
     "unverifiable": 110,
     "pending": 2,
-    "open": 0
+    "open": 32
   }
 }

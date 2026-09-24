@@ -1,0 +1,162 @@
+{
+  "id": "naguib-mahfouz",
+  "page": "https://literary-planet.pages.dev/authors/naguib-mahfouz/",
+  "author": {
+    "names": {
+      "ko": "나기브 마푸즈",
+      "original": "نجيب محفوظ",
+      "aliases": [
+        "나깁 마푸즈",
+        "나기브 마흐푸즈",
+        "Naguib Mahfouz"
+      ]
+    },
+    "birthYear": 1911,
+    "deathYear": 2006,
+    "activeRange": [
+      1939,
+      1988
+    ],
+    "languages": [
+      "ar"
+    ],
+    "regions": [
+      "middle-east-north-africa"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "카이로의 한 가족이 3대에 걸쳐 지나온 시간을 1919년 혁명부터 2차 대전 이후까지 이어 붙여, 유럽 사실주의 장편의 구조를 아랍어 산문의 것으로 옮겼다. 3부작 이후에는 같은 도시를 내적 독백과 짧은 장면의 몽타주로 다시 써서, 아랍 소설이 사실주의 다음으로 갈 통로를 자기 손으로 열었다. 『우리 동네 아이들』은 종교사를 한 골목의 세대극으로 옮긴 알레고리 탓에 이집트에서 오래 단행본으로 나오지 못했고, 1988년 노벨문학상은 아랍어로 쓰인 문학에 처음 주어진 것이었다. 이 배치에서 그는 제국을 향해 되받아 쓰지 않은 쪽 — 식민 지배를 배경으로 밀어 두고 도시 내부의 시간과 믿음의 문제를 서사의 중심에 놓은 쪽 — 을 대표한다.",
+    "readingEntry": "naguib-mahfouz--zuqaq-al-midaqq",
+    "readingEntryReason": "단권으로 완결되고 한 골목의 인물들만으로 구성되어, 3부작의 분량 부담 없이 마푸즈가 도시를 다루는 방식을 확인할 수 있다.",
+    "readingOrder": [
+      "naguib-mahfouz--zuqaq-al-midaqq",
+      "naguib-mahfouz--bayn-al-qasrayn",
+      "naguib-mahfouz--qasr-al-shawq",
+      "naguib-mahfouz--al-sukkariyya",
+      "naguib-mahfouz--awlad-haratina"
+    ],
+    "readingWarning": "『우리 동네 아이들』부터 읽으면 인물들이 예언자들의 알레고리라는 층위를 놓쳐 밋밋한 동네 연대기로만 읽히기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 어렵지 않으나 3부작이 1,500쪽에 이르고 등장인물과 세대가 계속 늘어나며, 이집트 근대사의 정변이 배경 설명 없이 지나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--cambridge-history-arabic-literature",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "naguib-mahfouz--zuqaq-al-midaqq",
+      "titleKo": "미다크 골목",
+      "titleOriginal": "زقاق المدق",
+      "year": 1947,
+      "genre": "fiction",
+      "significance": "2차 대전기 카이로의 좁은 골목 하나를 무대로 삼아 그 안의 인물들이 각자 골목을 벗어나려다 실패하는 과정을 병렬로 배치한다. 마푸즈의 도시 사실주의가 한 권 안에서 완결된 형태로 나타난 초기 대표작이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-history-arabic-literature"
+      ]
+    },
+    {
+      "id": "naguib-mahfouz--bayn-al-qasrayn",
+      "titleKo": "궁전 샛길",
+      "titleOriginal": "بين القصرين",
+      "year": 1956,
+      "genre": "fiction",
+      "significance": "카이로 3부작의 1부. 1919년 혁명기를 배경으로 가부장 압둘 자와드 가족의 하루 단위 생활을 축적해, 정치사가 가정의 규율을 통해 도착하는 방식을 서술한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-history-arabic-literature"
+      ]
+    },
+    {
+      "id": "naguib-mahfouz--qasr-al-shawq",
+      "titleKo": "욕망의 궁전",
+      "titleOriginal": "قصر الشوق",
+      "year": 1957,
+      "genre": "fiction",
+      "significance": "3부작의 2부. 아들 세대가 세속 학문과 종교 사이에서 갈라지는 1920년대를 다루며, 가부장의 권위가 안에서부터 흔들리는 과정을 인물별 시점의 교대로 서술한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-history-arabic-literature"
+      ]
+    },
+    {
+      "id": "naguib-mahfouz--al-sukkariyya",
+      "titleKo": "설탕 거리",
+      "titleOriginal": "السكرية",
+      "year": 1957,
+      "genre": "fiction",
+      "significance": "3부작의 3부. 손자 세대가 공산주의와 무슬림형제단으로 갈라서는 1930~40년대를 다루어, 3대의 시간을 이집트 근대 정치사의 분기와 겹쳐 마무리한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-history-arabic-literature"
+      ]
+    },
+    {
+      "id": "naguib-mahfouz--awlad-haratina",
+      "titleKo": "우리 동네 아이들",
+      "titleOriginal": "أولاد حارتنا",
+      "year": 1959,
+      "genre": "fiction",
+      "significance": "한 골목의 세대 교체를 통해 유일신 종교의 역사를 알레고리로 옮긴 작품. 1959년 신문 연재로 발표된 뒤 종교계의 반발로 이집트에서 오래 단행본으로 나오지 못했고, 1967년 베이루트판으로 유통되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-history-arabic-literature"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--naguib-mahfouz--tayeb-salih",
+      "type": "documented_influence",
+      "from": "naguib-mahfouz (나기브 마푸즈)",
+      "to": "tayeb-salih (타예브 살리흐)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "마푸즈가 1940–50년대에 아랍어 장편소설을 하나의 성립한 형식으로 만든 뒤에야 살리흐 세대가 그 형식을 전제로 삼아 실험할 수 있었다는 것이 현대 아랍 소설사의 표준 서술이다. 살리흐는 마푸즈가 세운 도시 연대기 대신 액자와 역행하는 시간을 택했다.",
+      "sourceIds": [
+        "src--cambridge-history-arabic-literature"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--thomas-mann--naguib-mahfouz (→ thomas-mann 의 슬레이트에서 본다)",
+    "influence--james-joyce--naguib-mahfouz (→ james-joyce 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--cambridge-history-arabic-literature": {
+      "id": "src--cambridge-history-arabic-literature",
+      "title": "The Cambridge History of Arabic Literature — Modern Arabic Literature 권",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "20세기 아랍 소설사 표준 개설 — 마푸즈·살리흐의 발표 연도와 문학사적 위치 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

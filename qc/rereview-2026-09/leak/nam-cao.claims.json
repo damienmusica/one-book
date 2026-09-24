@@ -1,0 +1,21 @@
+{
+  "id": "nam-cao",
+  "claims": [
+    {
+      "field": "works[lao-hac].significance",
+      "claim": "베트남 중등 교과서에 실려 지금도 가장 널리 읽히는 단편이다",
+      "verdict": "confirmed",
+      "url": "https://vi.wikipedia.org/wiki/Lão_Hạc",
+      "quote": "Truyện đã được đưa vào sách giáo khoa Ngữ văn 8, tập 2 (bộ sách giáo khoa Cánh diều) và Ngữ văn 12, tập 1",
+      "note": "교과서 수록은 확인. '가장 널리 읽히는'이라는 최상급은 확인하지 못함"
+    },
+    {
+      "field": "works[chi-pheo].significance",
+      "claim": "1946년 작가가 지금의 제목으로 고쳤다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Nam_Cao",
+      "quote": "originally titled Cái lò gạch cũ (\"The Old Brick Kiln\"), was retitled Chí Phèo upon its 1946 reprint",
+      "note": "vi 위키 Chí Phèo 항목도 『Luống cày』(1946) 재수록 시 개제라고 적는다. 다만 vi 위키 Nam Cao 항목은 같은 사건을 1945년으로 적어 충돌한다"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "saadat-hasan-manto",
+  "page": "https://literary-planet.pages.dev/authors/saadat-hasan-manto/",
+  "author": {
+    "names": {
+      "ko": "사다트 하산 만토",
+      "original": "سعادت حسن منٹو",
+      "aliases": [
+        "만토",
+        "Saadat Hasan Manto",
+        "사아다트 하산 만토"
+      ]
+    },
+    "birthYear": 1912,
+    "deathYear": 1955,
+    "activeRange": [
+      1934,
+      1955
+    ],
+    "languages": [
+      "ur"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "movements": [
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "1947년 분단의 폭력을 통계나 정치 서사가 아니라 열 쪽 안팎의 단편이 감당할 수 있는 한 장면으로 기록했다. 「토바 텍 싱」은 정신병원 수용자를 종교별로 교환하는 행정 절차를 통해 국경 자체를 서술 대상으로 삼았고, 『검은 여백』의 짧은 단장들은 논평을 걷어내고 행위만 남겨 판단을 독자에게 넘겼다. 봄베이 영화계와 유곽을 무대로 한 초기 연작에서는 매춘부와 포주를 도덕적 예시가 아니라 노동하는 인물로 그렸고, 이 때문에 영국령 인도와 파키스탄 양쪽에서 외설 혐의로 여러 차례 법정에 섰다.",
+    "readingEntry": "saadat-hasan-manto--toba-tek-singh",
+    "readingEntryReason": "열 쪽 남짓 안에 분단이라는 사건과 만토의 방법이 모두 들어 있고, 정신병원의 국적 교환이라는 설정 하나만 이해하면 배경 지식 없이 읽힌다.",
+    "readingOrder": [
+      "saadat-hasan-manto--toba-tek-singh",
+      "saadat-hasan-manto--siyah-hashiye",
+      "saadat-hasan-manto--khol-do",
+      "saadat-hasan-manto--thanda-gosht",
+      "saadat-hasan-manto--chacha-sam-ke-naam-khutoot"
+    ],
+    "readingWarning": "분단 단편만 골라 읽으면 봄베이 시절의 유곽·영화판 연작이 빠져 만토가 분단 작가로만 축소된다.",
+    "difficulty": 2,
+    "difficultyReason": "문장이 짧고 사건이 명료하지만, 학살과 강간을 논평 없이 끊어내는 결말이 많아 판단의 부담이 독자에게 넘어온다. 펀자브의 지명과 공동체 명칭이 설명 없이 지나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--jalal-pity-of-partition",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "saadat-hasan-manto--kali-shalwar",
+      "titleKo": "검은 샬와르",
+      "titleOriginal": "کالی شلوار",
+      "year": 1941,
+      "genre": "fiction",
+      "significance": "델리로 옮겨 온 매춘부가 명절에 입을 검은 하의 한 벌을 구하려는 며칠을 따라간다. 인물의 처지를 설명하지 않고 물건 하나의 거래로만 보여주는 초기 방법이 나타나며, 외설 혐의로 기소된 작품 중 하나다.",
+      "sourceIds": [
+        "src--jalal-pity-of-partition"
+      ]
+    },
+    {
+      "id": "saadat-hasan-manto--khol-do",
+      "titleKo": "열어라",
+      "titleOriginal": "کھول دو",
+      "year": 1948,
+      "genre": "fiction",
+      "significance": "피란 열차에서 딸을 잃은 아버지가 수색대에 수색을 부탁하고, 병원에서 딸을 다시 만나는 몇 쪽짜리 단편. 마지막 두 문장이 사건의 성격을 뒤집는 구성으로, 발표 직후 게재지가 발행 정지 처분을 받았다.",
+      "sourceIds": [
+        "src--jalal-pity-of-partition",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "saadat-hasan-manto--siyah-hashiye",
+      "titleKo": "검은 여백",
+      "titleOriginal": "سیاہ حاشیے",
+      "year": 1948,
+      "genre": "fiction",
+      "significance": "분단기의 약탈과 학살을 서너 줄에서 한 쪽 남짓으로 끊어 쓴 단장 모음. 논평과 감정 표현을 모두 걷어내고 행위만 남겨, 독자가 웃고 나서 자기가 무엇에 웃었는지 되짚게 만든다.",
+      "sourceIds": [
+        "src--jalal-pity-of-partition"
+      ]
+    },
+    {
+      "id": "saadat-hasan-manto--thanda-gosht",
+      "titleKo": "차가운 고기",
+      "titleOriginal": "ٹھنڈا گوشت",
+      "year": 1950,
+      "genre": "fiction",
+      "significance": "폭동에 가담했던 남자가 아내에게 자신이 무엇을 저질렀는지 털어놓는 단편. 파키스탄에서 외설 혐의로 기소돼 만토의 재판 가운데 가장 오래 다투어진 사건이 되었다.",
+      "sourceIds": [
+        "src--jalal-pity-of-partition",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "saadat-hasan-manto--chacha-sam-ke-naam-khutoot",
+      "titleKo": "엉클 샘에게 보내는 편지",
+      "titleOriginal": "چچا سام کے نام خطوط",
+      "year": 1951,
+      "genre": "essay-criticism",
+      "significance": "미국을 '엉클 샘'이라 부르며 보내는 형식의 공개 서한 연작. 냉전기 미국의 파키스탄 군사 원조를 조롱하는 어조로 쓰였고, 1951년부터 사망 전까지 아홉 편이 발표됐다.",
+      "sourceIds": [
+        "src--jalal-pity-of-partition"
+      ]
+    },
+    {
+      "id": "saadat-hasan-manto--toba-tek-singh",
+      "titleKo": "토바 텍 싱",
+      "titleOriginal": "ٹوبہ ٹیک سنگھ",
+      "year": 1955,
+      "genre": "fiction",
+      "significance": "분단 몇 해 뒤 두 나라가 정신병원 수용자들을 종교별로 교환하기로 하면서, 자기 고향이 어느 쪽에 속하는지 끝내 확인하지 못한 남자가 국경선 위에 남는다. 만토가 사망한 1955년에 단편집에 실려 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--jalal-pity-of-partition",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "influence--anton-chekhov--saadat-hasan-manto (→ anton-chekhov 의 슬레이트에서 본다)",
+    "contrast--premchand--saadat-hasan-manto (→ premchand 의 슬레이트에서 본다)",
+    "affinity--isaac-babel--saadat-hasan-manto (→ isaac-babel 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--jalal-pity-of-partition": {
+      "id": "src--jalal-pity-of-partition",
+      "title": "The Pity of Partition: Manto's Life, Times, and Work across the India-Pakistan Divide",
+      "publisherOrInstitution": "Princeton University Press / Ayesha Jalal",
+      "citation": "만토의 생애·이주·외설 재판과 작품 발표 시기를 다룬 전기적 연구"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

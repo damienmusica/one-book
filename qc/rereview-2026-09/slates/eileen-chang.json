@@ -1,0 +1,153 @@
+{
+  "id": "eileen-chang",
+  "page": "https://literary-planet.pages.dev/authors/eileen-chang/",
+  "author": {
+    "names": {
+      "ko": "장아이링",
+      "original": "張愛玲",
+      "aliases": [
+        "아일린 창",
+        "Eileen Chang",
+        "Zhang Ailing",
+        "장애령"
+      ]
+    },
+    "birthYear": 1920,
+    "deathYear": 1995,
+    "activeRange": [
+      1943,
+      1994
+    ],
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "regions": [
+      "east-asia",
+      "north-america"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "일본 점령기 상하이에서 1943년부터 2년 남짓 사이에 「경성지련」·「금쇄기」를 포함한 대표작 대부분을 발표했다. 혁명과 계몽을 서사의 축으로 삼던 5·4 이후의 주류에서 벗어나, 혼담·재산·셋집 같은 가정 규모의 거래를 통해 식민지 도시의 계급을 서술했다. 인물의 속셈과 대화의 표면을 어긋나게 두는 반어에 색채·직물·소리에 밀착한 묘사를 결합했고, 1952년 상하이를 떠나 홍콩을 거쳐 1955년 미국으로 이주한 뒤에도 중국어와 영어로 같은 작업을 이어갔다. 1961년 샤즈칭의 『중국현대소설사』가 정전으로 편입한 뒤 타이완·홍콩에서 '장파(張派)'로 불리는 계보가 형성됐다.",
+    "readingEntry": "eileen-chang--qing-cheng-zhi-lian",
+    "readingEntryReason": "중편 분량이고 홍콩 함락이라는 뚜렷한 사건 축이 있어, 인물의 속셈과 대화가 어긋나는 장아이링의 반어를 가장 적은 배경 지식으로 따라갈 수 있다.",
+    "readingOrder": [
+      "eileen-chang--qing-cheng-zhi-lian",
+      "eileen-chang--jin-suo-ji",
+      "eileen-chang--se-jie",
+      "eileen-chang--liuyan",
+      "eileen-chang--yang-ge"
+    ],
+    "readingWarning": "『앙가』부터 읽으면 냉전기 홍콩에서 미국 공보원의 의뢰로 쓰인 정치적 맥락이 앞서 보여, 1943–45년 상하이 소설의 방법이 가려진다.",
+    "difficulty": 3,
+    "difficultyReason": "이미지가 촘촘한 문장 자체는 읽히지만, 인물의 속셈이 대화의 표면과 늘 어긋나 반어를 놓치면 통속 연애담으로 읽힌다. 1940년대 상하이·홍콩의 계급과 혼인 관행이 전제로 깔려 있다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--hsia-modern-chinese-fiction",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "eileen-chang--qing-cheng-zhi-lian",
+      "titleKo": "경성지련",
+      "titleOriginal": "傾城之戀",
+      "year": 1943,
+      "genre": "fiction",
+      "significance": "이혼한 여자와 화교 사업가가 홍콩에서 벌이는 밀고 당기는 거래를, 태평양전쟁의 홍콩 함락이 결혼으로 끝맺게 만드는 중편. 도시 하나가 무너져야 성립하는 혼인이라는 반어가 장아이링의 방법을 대표한다.",
+      "sourceIds": [
+        "src--hsia-modern-chinese-fiction",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "eileen-chang--jin-suo-ji",
+      "titleKo": "금쇄기",
+      "titleOriginal": "金鎖記",
+      "year": 1943,
+      "genre": "fiction",
+      "significance": "약재상 집안에 팔려 들어간 여자가 재산을 지키며 자식들의 삶을 차례로 망가뜨리는 30년을 서술한다. 샤즈칭이 중국 현대 중편의 대표작으로 꼽으며 장아이링 재평가의 근거가 되었다.",
+      "sourceIds": [
+        "src--hsia-modern-chinese-fiction",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "eileen-chang--liuyan",
+      "titleKo": "유언",
+      "titleOriginal": "流言",
+      "year": 1944,
+      "genre": "essay-criticism",
+      "significance": "옷·음식·이웃·영화를 다룬 산문 모음. 전시 상하이의 생활을 정치 언어를 거치지 않고 기록해, 소설과 같은 관찰의 밀도를 산문에서 보여준다.",
+      "sourceIds": [
+        "src--hsia-modern-chinese-fiction"
+      ]
+    },
+    {
+      "id": "eileen-chang--yang-ge",
+      "titleKo": "앙가",
+      "titleOriginal": "秧歌",
+      "year": 1954,
+      "genre": "fiction",
+      "significance": "토지개혁 이후 농촌의 굶주림과 공출을 다룬 장편. 홍콩 체류 중 미국 공보원의 의뢰로 쓰였고, 중국어판에 이어 저자 자신의 영어판이 나왔다.",
+      "sourceIds": [
+        "src--hsia-modern-chinese-fiction",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "eileen-chang--se-jie",
+      "titleKo": "색, 계",
+      "titleOriginal": "色，戒",
+      "year": 1979,
+      "genre": "fiction",
+      "significance": "친일 정권의 정보 책임자를 암살하려는 학생 조직과, 임무 도중 마음이 흔들리는 실행자를 그린 단편. 1950년대에 착상해 20여 년을 고쳐 쓴 뒤에야 발표했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--eileen-chang--park-kyung-ni",
+      "type": "affinity",
+      "from": "eileen-chang (장아이링)",
+      "to": "park-kyung-ni (박경리)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 여성 인물을 가문사의 관찰자가 아니라 토지·재산·혼인을 계산하고 경영하는 주체로 배치해 동아시아 근대의 계급 변동을 서술했다는 공통점으로 둘을 가까이 놓는다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--lu-xun--eileen-chang (→ lu-xun 의 슬레이트에서 본다)",
+    "translation--ernest-hemingway--eileen-chang (→ ernest-hemingway 의 슬레이트에서 본다)",
+    "affinity--vladimir-nabokov--eileen-chang (→ vladimir-nabokov 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--hsia-modern-chinese-fiction": {
+      "id": "src--hsia-modern-chinese-fiction",
+      "title": "A History of Modern Chinese Fiction (中國現代小說史)",
+      "publisherOrInstitution": "Yale University Press / C. T. Hsia (夏志清)",
+      "citation": "1961년 초판. 장아이링을 중국 현대소설 정전에 편입시킨 연구 — 1943–54년 작품의 평가사 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

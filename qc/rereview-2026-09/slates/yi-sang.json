@@ -1,0 +1,150 @@
+{
+  "id": "yi-sang",
+  "page": "https://literary-planet.pages.dev/authors/yi-sang/",
+  "author": {
+    "names": {
+      "ko": "이상",
+      "original": "李箱",
+      "aliases": [
+        "김해경",
+        "金海卿",
+        "Yi Sang"
+      ]
+    },
+    "birthYear": 1910,
+    "deathYear": 1937,
+    "activeRange": [
+      1930,
+      1937
+    ],
+    "languages": [
+      "ko",
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [
+      "guinhoe"
+    ],
+    "genres": [
+      "poetry",
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "이상은 식민지 경성의 인쇄 지면 자체를 시의 재료로 삼았다. 숫자표와 기하 도형, 좌우가 뒤집힌 활자, 띄어쓰기를 지운 행을 신문 문예란에 그대로 밀어 넣어, 한국어 시가 의미의 전달이 아니라 표기의 사건일 수 있음을 처음 실증했다. 산문에서는 무기력한 화자와 그를 부양하는 아내라는 배치로 식민지 지식인의 경제적·성적 무능을 설명이나 알레고리 없이 기록했다. 총독부 건축기수로 일하며 일본어 잡지에 먼저 시를 발표한 이중언어 조건은 그의 실험이 서구 아방가르드의 수입이 아니라 제도와 지면의 조건에서 자라났음을 보여준다.",
+    "readingEntry": "yi-sang--nalgae",
+    "readingEntryReason": "단편 한 편 분량이고, 서두의 아포리즘과 본문의 서사가 서로 어긋나도록 배치된 구조가 이상의 방법을 가장 알아보기 쉽게 드러낸다.",
+    "readingOrder": [
+      "yi-sang--nalgae",
+      "yi-sang--gwontae",
+      "yi-sang--jongsaenggi",
+      "yi-sang--ogamdo",
+      "yi-sang--geonchuk-muhan-yukmyeon-gakche"
+    ],
+    "readingWarning": "「오감도」부터 시작하면 숫자판과 거울상 표기의 규칙을 찾다가 멈추기 쉽다. 산문 「날개」와 「권태」로 문장 감각을 먼저 익힌 뒤 시로 가는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "띄어쓰기를 없앤 표기, 숫자와 도형이 시행을 대신하는 판면, 일본어로 먼저 쓰인 시편의 이중언어 층위가 겹쳐, 원문을 그대로 따라 읽으려면 형식 실험을 끝까지 감내해야 한다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--joseon-jungang-ilbo-1934",
+      "src--joseon-to-kenchiku"
+    ]
+  },
+  "works": [
+    {
+      "id": "yi-sang--geonchuk-muhan-yukmyeon-gakche",
+      "titleKo": "건축무한육면각체",
+      "titleOriginal": "建築無限六面角體",
+      "year": 1932,
+      "genre": "poetry",
+      "significance": "조선건축회 기관지에 일본어로 발표한 연작으로, 수식과 기하 용어와 광고 문안을 시행으로 끌어들였다. 한국어 시로 알려진 이상의 실험이 실은 일본어 지면에서 먼저 시작되었음을 보여주는 초기 작업이다.",
+      "sourceIds": [
+        "src--joseon-to-kenchiku",
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "yi-sang--ogamdo",
+      "titleKo": "오감도",
+      "titleOriginal": "烏瞰圖",
+      "year": 1934,
+      "genre": "poetry",
+      "significance": "신문 문예란에 실린 연작시로, 띄어쓰기를 없앤 행과 숫자표, 좌우가 뒤집힌 활자를 인쇄 지면 그대로 밀어붙였다. 독자 항의로 15편에서 연재가 중단된 사건 자체가 한국 근대시에서 형식 실험이 부딪힌 한계를 기록으로 남겼다.",
+      "sourceIds": [
+        "src--joseon-jungang-ilbo-1934",
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "yi-sang--nalgae",
+      "titleKo": "날개",
+      "titleOriginal": "날개",
+      "year": 1936,
+      "genre": "fiction",
+      "significance": "아내가 벌어 오는 돈으로 살며 방 안에서 시간을 소비하는 화자의 하루를 기록한다. 서두의 아포리즘과 본문의 서사가 서로를 배신하도록 배치되어, 식민지 지식인의 무능이 설명되지 않은 채 구조로 제시된다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    },
+    {
+      "id": "yi-sang--jongsaenggi",
+      "titleKo": "종생기",
+      "titleOriginal": "終生記",
+      "year": 1937,
+      "genre": "fiction",
+      "significance": "자기 죽음을 미리 기술하는 형식을 취해 화자와 작가와 인물의 경계를 겹쳐 놓은 후기작으로, 도쿄에서 죽은 해에 사후 발표되었다. 소설을 이야기가 아니라 자기 문장에 대한 주석으로 쓰는 방향의 끝에 있다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    },
+    {
+      "id": "yi-sang--gwontae",
+      "titleKo": "권태",
+      "titleOriginal": "倦怠",
+      "year": 1937,
+      "genre": "essay-criticism",
+      "significance": "여름 농촌에 머물며 아무 일도 일어나지 않는 하루를 관찰한 수필로, 사후 신문에 발표되었다. 실험적 표기를 걷어낸 평이한 문장에서도 이상 특유의 시간 감각이 유지된다는 점에서 그의 산문을 이해하는 입구가 된다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "affinity--cesar-vallejo--yi-sang (→ cesar-vallejo 의 슬레이트에서 본다)",
+    "affinity--franz-kafka--yi-sang (→ franz-kafka 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--encykorea": {
+      "id": "src--encykorea",
+      "title": "한국민족문화대백과사전 — 작가·작품 항목",
+      "publisherOrInstitution": "한국학중앙연구원",
+      "url": "https://encykorea.aks.ac.kr",
+      "citation": "한국 작가의 생애·작품 기초 사실 확인용"
+    },
+    "src--lti-korea": {
+      "id": "src--lti-korea",
+      "title": "한국문학번역원 작가 소개 자료",
+      "publisherOrInstitution": "Literature Translation Institute of Korea",
+      "url": "https://www.ltikorea.or.kr",
+      "citation": "한국 작가의 해외 소개용 공식 프로필"
+    },
+    "src--joseon-jungang-ilbo-1934": {
+      "id": "src--joseon-jungang-ilbo-1934",
+      "title": "『조선중앙일보』 「오감도」 연재 지면 (1934년 7–8월)",
+      "publisherOrInstitution": "조선중앙일보사",
+      "citation": "이상의 연작시 「오감도」가 신문 문예란에 연재되다 독자 항의로 중단된 경위의 1차 근거"
+    },
+    "src--joseon-to-kenchiku": {
+      "id": "src--joseon-to-kenchiku",
+      "title": "『조선과 건축(朝鮮と建築)』 지면 (1929–1932)",
+      "publisherOrInstitution": "朝鮮建築會",
+      "citation": "이상이 일본어로 쓴 초기 시편을 발표한 조선건축회 기관지 — 이중언어 집필 조건의 1차 근거"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "janet-frame",
+  "page": "https://literary-planet.pages.dev/authors/janet-frame/",
+  "author": {
+    "names": {
+      "ko": "재닛 프레임",
+      "original": "Janet Frame",
+      "aliases": []
+    },
+    "birthYear": 1924,
+    "deathYear": 2004,
+    "activeRange": [
+      1951,
+      2004
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "oceania"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "정신병원에 갇힌 시간을 언어의 문제로 되돌려 써서, 광기와 문체를 분리하지 않는 산문을 뉴질랜드 소설에 남겼다. 『물속의 얼굴들』은 병동을 고발의 대상이 아니라 서술자가 자기 문장을 지키려 애쓰는 장소로 그리고, 후기작 『카르파티아 산맥』에서는 한 거리(코와이 스트리트)의 언어 자체가 밤사이 부서지는 것이 소설의 사건이 된다. 자전 3부작은 그 이력을 병력(病歷)이 아니라 한 작가의 독서와 문장 훈련의 기록으로 다시 세웠다.",
+    "readingEntry": "janet-frame--an-angel-at-my-table",
+    "readingEntryReason": "자전 3부작 가운데 권으로 문장이 가장 평이하고, 이후 소설들의 언어 실험이 어떤 경험에서 나왔는지를 먼저 알려 준다.",
+    "readingOrder": [
+      "janet-frame--an-angel-at-my-table",
+      "janet-frame--faces-in-the-water",
+      "janet-frame--owls-do-cry",
+      "janet-frame--the-carpathians"
+    ],
+    "readingWarning": "제인 캠피언의 영화(1990)를 먼저 보면 프레임의 일생을 병력으로만 기억하기 쉽다. 소설의 관심은 병이 아니라 그 시간을 서술하는 언어에 있다.",
+    "difficulty": 3,
+    "difficultyReason": "자전 3부작은 시간 순서를 따르는 평이한 산문이지만, 소설로 넘어가면 은유가 사건을 대신하고 화자가 문단 사이에서 바뀌며, 후기작은 소설 안에 그 소설이 쓰이는 과정을 겹쳐 둔다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--te-ara-nz"
+    ]
+  },
+  "works": [
+    {
+      "id": "janet-frame--the-carpathians",
+      "titleKo": "카르파티아 산맥",
+      "titleOriginal": "The Carpathians",
+      "year": 1988,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "기억을 채집하러 뉴질랜드 소도시에 온 뉴욕 여자가 이웃들이 사람의 말을 잃고 알파벳이 비처럼 쏟아지는 하룻밤을 겪는다. 커먼웰스 작가상 수상작이자 생전에 출간된 마지막 장편.",
+      "sourceIds": []
+    },
+    {
+      "id": "janet-frame--an-angel-at-my-table",
+      "titleKo": "내 책상 위의 천사",
+      "titleOriginal": "An Angel at My Table",
+      "year": 1984,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "자전 3부작의 두 번째 권. 사범학교 시절과 정신병원을 드나든 8년(실제 입원 기간은 모두 4년 반), 그리고 단편집 『석호』(1951년으로 표기됐으나 실제 출간 1952)가 상을 받으면서 예정돼 있던 뇌엽 절제 수술이 취소된 경위를 담는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "janet-frame--faces-in-the-water",
+      "titleKo": "물속의 얼굴들",
+      "titleOriginal": "Faces in the Water",
+      "year": 1961,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "정신병원 병동을 이스티나 마베트(Istina Mavet)라는 화자의 시점에서 서술하며, 치료와 처벌이 구분되지 않는 일과를 문장의 리듬으로 재현한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "janet-frame--owls-do-cry",
+      "titleKo": "올빼미도 운다",
+      "titleOriginal": "Owls Do Cry",
+      "year": 1957,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "소도시 쓰레기장에서 보물을 줍던 남매 가운데 하나가 병원에 갇히기까지를 따라가는 첫 장편. 산문 사이에 시에 가까운 단락을 끼워 넣어 서술 층위를 갈라놓는다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--katherine-mansfield--janet-frame",
+      "type": "affinity",
+      "from": "katherine-mansfield (캐서린 맨스필드)",
+      "to": "janet-frame (재닛 프레임)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "뉴질랜드 문학사 서술은 맨스필드와 프레임을 지방 소도시의 폐쇄와 아이의 의식을 산문의 문제로 삼은 두 축으로 나란히 놓고, 프레임의 첫 단편집 『석호』(1951년 표기, 실제 출간 1952)를 맨스필드 이후의 뉴질랜드 단편 계보 안에서 읽어 왔다.",
+      "sourceIds": [
+        "src--read-nz-frame-janet"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--te-ara-nz": {
+      "id": "src--te-ara-nz",
+      "title": "Te Ara: The Encyclopedia of New Zealand — Dictionary of New Zealand Biography 인물 항목",
+      "publisherOrInstitution": "New Zealand Ministry for Culture and Heritage (Manatū Taonga)",
+      "citation": "맨스필드의 웰링턴 시기 가계·유년·도영 시점 등 뉴질랜드 측 전기 사실 확인용"
+    },
+    "src--read-nz-frame-janet": {
+      "id": "src--read-nz-frame-janet",
+      "title": "Janet Frame — 작가 항목",
+      "publisherOrInstitution": "Read NZ Te Pou Muramura (뉴질랜드 도서 협회)",
+      "url": "https://www.read-nz.org/writer/frame-janet/",
+      "citation": "프레임의 첫 단편집 『석호』의 문체를 맨스필드 계보에 놓는 진술의 소재지"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "fixes": [
+    {
+      "id": "lu-xun",
+      "importanceReason": "루쉰의 「광인일기」(1918)는 서구식 근대 단편을 백화로 쓴 초기작으로, 문학혁명기 백화 소설의 출발점으로 꼽힌다(백화 소설 자체는 명·청대의 장편에서 이미 쓰이고 있었다). 문언으로 쓴 서문과 백화로 쓴 본문을 한 작품 안에 나란히 놓아, 언어의 교체 자체를 작품의 사건으로 만든 구성이었다. 「아Q정전」에서는 패배를 승리로 바꿔 기억하는 '정신승리법'이라는 진단명을 만들어, 소설의 인물이 한 사회의 자기인식을 가리키는 보통명사가 되게 했다. 만년의 잡문(雜文)은 짧은 논쟁문을 문학 장르로 확립했고, 『중국소설사략』은 신화·지괴·전기에서 백화 장편까지 중국 소설 전체를 다룬, 중국에서 나온 최초의 본격 소설 통사였다.",
+      "works": [
+        {
+          "id": "lu-xun--kuangren-riji",
+          "significance": "『신청년』에 실린 단편으로, 흔히 중국 최초의 근대 백화 소설로 꼽히지만 1917년 천헝저의 백화 단편 「하루(一日)」가 먼저 발표되었다. 문언으로 쓴 서문이 백화로 쓴 일기를 감싸는 이중 구조를 취한다. 유교 도덕의 기록을 '사람을 잡아먹는' 문서로 읽어내는 화자를 세워, 전통의 정당성 자체를 서술 형식으로 심문했다. 1923년 첫 소설집 『외침』에 수록되었다."
+        },
+        {
+          "id": "lu-xun--zhongguo-xiaoshuo-shilue",
+          "significance": "베이징대학 강의를 정리한 책으로, 문언 정통 바깥에 있던 지괴·전기·화본·백화 장편을 하나의 계보로 배열한, 중국에서 나온 최초의 본격 소설 통사다. 천대받던 소설을 학문의 대상으로 세운 저작이며 이후 중국 소설사 연구의 기본 틀이 되었다."
+        },
+        {
+          "id": "lu-xun--yecao",
+          "significance": "1924–26년 『어사(語絲)』에 발표한 산문시를 묶은 산문시집으로, 꿈·그림자·묘비명 같은 형상으로 자기 부정을 밀고 나간다. 루쉰의 저작 가운데 형식이 가장 실험적이며 소설과 잡문 어디에도 속하지 않는다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "contrast--lu-xun--eileen-chang",
+          "summary": "샤즈칭의 『중국현대소설사』(1961)는 계몽과 국민성 비판을 축으로 삼은 루쉰 이후의 주류 옆에, 재산 때문에 한 혼인이 인물을 옥죄는 『금쇄기』의 장아이링을 정전으로 나란히 세웠다."
+        }
+      ],
+      "sources": [
+        {
+          "id": "src--xinqingnian-1918",
+          "publisherOrInstitution": "群益書社 (상하이)"
+        },
+        {
+          "id": "src--dazai-sekibetsu-1945",
+          "publisherOrInstitution": "朝日新聞社, 1945년 9월 5일 간행 (내각정보국·일본문학보국회 위촉작)"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "2천 년 동안 문언이 글을 독점해 왔고, 「광인일기」 한 편이 백화로 소설을 쓸 수 있음을 증명했다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "『중국소설사략』이 천대받던 백화 서사를 학문의 대상으로 처음 정리했다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[lu-xun--kuangren-riji].significance",
+          "claim": "중국 최초의 본격 백화 단편이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].significance",
+          "claim": "그런 계보 배열을 처음 한 저작이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "works[lu-xun--yecao].significance",
+          "claim": "루쉰의 유일한 시집이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relations[contrast--lu-xun--eileen-chang].summary",
+          "claim": "장아이링의 소설은 혼담과 재산을 축으로 한다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relations[contrast--lu-xun--eileen-chang].summary",
+          "claim": "이후 연구가 루쉰과 장아이링을 중국 현대소설의 갈라진 두 방향으로 반복해 대비해 왔다",
+          "resolution": "removed"
+        },
+        {
+          "field": "sources[src--xinqingnian-1918]",
+          "claim": "『신청년』 4권 5호(1918년 5월)의 발행처는 新靑年社다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "sources[src--kr-world-lit-editions]",
+          "claim": "'국내 주요 세계문학전집 해설(민음사·문학동네·을유문화사·창비 등)'이라는 문헌",
+          "resolution": "removed",
+          "note": "총칭 출처를 코퍼스에서 걷어냈다(scripts/drop-generic-source.ts, 2026-09-24) — 한국어 제목은 판본 원장이 댄다"
+        },
+        {
+          "field": "sources[src--dazai-sekibetsu-1945]",
+          "claim": "『석별(惜別)』(1945)의 발행처 표기는 '일본문학보국회 위촉작 — 1945년 간행 단행본'이다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

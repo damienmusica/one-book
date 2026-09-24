@@ -1,0 +1,189 @@
+{
+  "id": "kobo-abe",
+  "page": "https://literary-planet.pages.dev/authors/kobo-abe/",
+  "author": {
+    "names": {
+      "ko": "아베 고보",
+      "original": "安部公房",
+      "aliases": [
+        "아베 기미후사",
+        "Abe Kobo",
+        "Kobo Abe"
+      ]
+    },
+    "birthYear": 1924,
+    "deathYear": 1993,
+    "activeRange": [
+      1947,
+      1991
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [
+      "absurdism"
+    ],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "importanceReason": "전후 일본 소설에서 지역과 혈연에 뿌리내린 인물을 걷어내고, 이름과 신분이 지워진 익명의 도시인을 주인공으로 세웠다. 모래·가면·상자처럼 사물 하나를 설정으로 밀어붙여 서사 전체를 그 조건 아래 두는 구성을 반복했고, 이 방법이 카프카·베케트와 나란히 논의되는 근거가 되었다. 『제4간빙기』로 일본어 장편 SF의 초기 사례를 남겼고, 1973년 아베 고보 스튜디오를 만들어 배우 훈련과 희곡 상연을 직접 운영했다.",
+    "readingEntry": "kobo-abe--suna-no-onna",
+    "readingEntryReason": "모래 구덩이에 갇힌다는 설정 하나로 끝까지 밀고 가는 구조라 아베의 방법이 가장 선명하게 보이고, 단권 분량에 번역도 널리 나와 있다.",
+    "readingOrder": [
+      "kobo-abe--suna-no-onna",
+      "kobo-abe--tanin-no-kao",
+      "kobo-abe--dai-yon-kanpyoki",
+      "kobo-abe--hako-otoko"
+    ],
+    "readingWarning": "『상자 인간』으로 시작하면 화자가 여럿으로 갈라지고 누가 쓰는지 확정되지 않는 구성 때문에, 아베의 설정 실험을 혼란으로 오해하기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 건조하고 명료하지만 설정이 은유인지 사실인지 끝까지 확정되지 않고, 후기작은 기록·수기·주석이 겹쳐 서술 층위를 독자가 정리해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "kobo-abe--kabe",
+      "titleKo": "벽",
+      "titleOriginal": "壁",
+      "year": 1951,
+      "genre": "fiction",
+      "significance": "자기 이름을 잃어버린 남자가 사물과 사건에 차례로 밀려나는 표제작을 포함한 초기 소설집. 수록작 「S. 카르마 씨의 범죄」로 아쿠타가와상을 받으며 아베가 문단에 자리를 얻었다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kobo-abe--dai-yon-kanpyoki",
+      "titleKo": "제4간빙기",
+      "titleOriginal": "第四間氷期",
+      "year": 1958,
+      "genre": "fiction",
+      "significance": "미래를 예측하는 계산기가 개발자 자신의 운명을 산출하면서 시작하는 장편. 해수면 상승 이후를 상정한 인류 개조라는 설정으로, 일본어 장편 SF의 초기 사례로 꼽힌다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kobo-abe--suna-no-onna",
+      "titleKo": "모래의 여자",
+      "titleOriginal": "砂の女",
+      "year": 1962,
+      "genre": "fiction",
+      "significance": "곤충 채집을 나간 교사가 모래 구덩이 속 집에 갇혀 매일 모래를 퍼내는 노동에 편입되는 과정을 서술한다. 데시가하라 히로시의 1964년 영화로 국제적으로 알려졌다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kobo-abe--tanin-no-kao",
+      "titleKo": "타인의 얼굴",
+      "titleOriginal": "他人の顔",
+      "year": 1964,
+      "genre": "fiction",
+      "significance": "얼굴에 화상을 입은 남자가 정교한 가면을 만들어 다른 사람 행세로 아내에게 접근하는 과정을, 그가 남긴 노트라는 형식으로 기록한다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "kobo-abe--tomodachi",
+      "titleKo": "친구들",
+      "titleOriginal": "友達",
+      "year": 1967,
+      "genre": "drama",
+      "significance": "낯선 한 가족이 혼자 사는 남자의 집에 들어와 선의를 명분으로 그를 관리하기 시작하는 희곡. 아베의 극작이 소설과 같은 설정 실험을 공유함을 보여주는 대표작이다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "kobo-abe--hako-otoko",
+      "titleKo": "상자 인간",
+      "titleOriginal": "箱男",
+      "year": 1973,
+      "genre": "fiction",
+      "significance": "골판지 상자를 뒤집어쓰고 도시를 배회하는 남자의 수기에 다른 화자들의 기록이 겹쳐 쓰이며, 누가 쓰고 있는지 끝까지 확정되지 않는 구성을 취한다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--kobo-abe--yukio-mishima",
+      "type": "dialogue",
+      "from": "kobo-abe (아베 고보)",
+      "to": "yukio-mishima (미시마 유키오)",
+      "evidenceLevel": "documented",
+      "summary": "1967년 2월 아베와 미시마는 가와바타 야스나리·이시카와 준과 함께 중국 문화대혁명의 학문·예술 탄압에 항의하는 공동성명을 냈다. 정치적 입장이 정반대로 갈라져 있던 두 사람이 같은 문서에 이름을 올린 기록이다.",
+      "anchors": [
+        {
+          "year": 1967
+        }
+      ],
+      "sourceIds": [
+        "src--bunka-daikakumei-kyodo-seimei-1967"
+      ]
+    },
+    {
+      "id": "dialogue--kobo-abe--kenzaburo-oe",
+      "type": "dialogue",
+      "from": "kobo-abe (아베 고보)",
+      "to": "kenzaburo-oe (오에 겐자부로)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "두 사람은 전후 일본 문학의 실험적 축을 나누어 맡으며 정치적 발언에서도 같은 편에 서 온 동료로 널리 논의된다. 오에가 아베를 노벨상에 값하는 선배로 꼽아 왔다는 회고는 여러 대담에서 전해지나, 특정 1차 문서로 확정하지 못해 학계 정설 수준으로 기록한다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--franz-kafka--kobo-abe (→ franz-kafka 의 슬레이트에서 본다)",
+    "dialogue--yasunari-kawabata--kobo-abe (→ yasunari-kawabata 의 슬레이트에서 본다)",
+    "influence--rainer-maria-rilke--kobo-abe (→ rainer-maria-rilke 의 슬레이트에서 본다)",
+    "affinity--samuel-beckett--kobo-abe (→ samuel-beckett 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--bunka-daikakumei-kyodo-seimei-1967": {
+      "id": "src--bunka-daikakumei-kyodo-seimei-1967",
+      "title": "중국 문화대혁명에 관한 공동성명 (1967. 2. 28.)",
+      "publisherOrInstitution": "가와바타 야스나리·이시카와 준·아베 고보·미시마 유키오 공동 발표 — 일본 각 일간지 게재",
+      "citation": "네 작가가 학문·예술의 자유 탄압에 항의해 함께 낸 성명 — 세 사람이 같은 문서에 이름을 올린 1차 기록"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "emily-dickinson",
+  "page": "https://literary-planet.pages.dev/authors/emily-dickinson/",
+  "author": {
+    "names": {
+      "ko": "에밀리 디킨슨",
+      "original": "Emily Dickinson",
+      "aliases": [
+        "Emily Elizabeth Dickinson",
+        "디킨슨"
+      ]
+    },
+    "birthYear": 1830,
+    "deathYear": 1886,
+    "activeRange": [
+      1858,
+      1886
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "importanceReason": "찬송가의 짧은 운율 안에서 대시로 문장을 끊고 문법의 연결 고리를 생략하는 방식으로, 열 행 남짓한 시에 인식의 급전을 담는 형식을 만들었다. 죽음·의식·믿음의 붕괴를 추상어가 아니라 가정의 사물과 신체 감각으로 서술해, 20세기 시가 사용할 압축의 기술을 앞서 완성했다. 생전에 발표한 것은 익명의 열 편 남짓이고 1,700편이 넘는 시를 손수 실로 묶은 원고 뭉치로 남겼기 때문에, 출판 제도 바깥에서 만들어진 정전이라는 예외적 사례가 되었다.",
+    "readingEntry": "emily-dickinson--poems-1890",
+    "readingEntryReason": "그의 시가 세상에 처음 나온 형태이자 115편이 한 권으로 완결되어 전체 지형을 볼 수 있다. 다만 국내 번역 선집은 대개 20세기 학술판을 저본으로 삼으므로 그쪽을 고르는 편이 낫다.",
+    "readingOrder": [
+      "emily-dickinson--poems-1890",
+      "emily-dickinson--poems-second-series",
+      "emily-dickinson--poems-third-series",
+      "emily-dickinson--letters-of-emily-dickinson"
+    ],
+    "readingWarning": "1890년대 초판 계열을 그대로 옮긴 번역으로 읽으면 편집자들이 정리해 붙인 구두점과 제목을 원문으로 오해하게 된다. 대시와 대문자를 살린 학술판을 저본으로 한 번역을 고르라.",
+    "difficulty": 4,
+    "difficultyReason": "한 편이 짧은 대신 대시와 생략으로 문법의 연결이 빠져 있고 대명사의 지시 대상이 명시되지 않아, 행과 행 사이의 논리를 독자가 매번 다시 세워야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--poets-org",
+      "src--dickinson-fascicles",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "emily-dickinson--poems-1890",
+      "titleKo": "에밀리 디킨슨 시집",
+      "titleOriginal": "Poems by Emily Dickinson",
+      "year": 1890,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "사후 4년 만에 지인들이 원고를 골라 엮은 첫 시집으로, 115편이 실렸다. 편집자들이 대시와 파격 문법을 당대 규범에 맞게 고쳐 놓았지만 초판이 곧 매진되면서 그의 이름을 처음 알린 책이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "emily-dickinson--poems-second-series",
+      "titleKo": "에밀리 디킨슨 시집 제2집",
+      "titleOriginal": "Poems by Emily Dickinson: Second Series",
+      "year": 1891,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "초판의 성공에 이어 이듬해 나온 두 번째 묶음이다. 미발표 원고가 계속 발견되면서 한 시인의 시집이 연속 간행물처럼 이어지는 예외적 출판 상황이 만들어졌다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--dickinson-fascicles"
+      ]
+    },
+    {
+      "id": "emily-dickinson--letters-of-emily-dickinson",
+      "titleKo": "에밀리 디킨슨 서한집",
+      "titleOriginal": "Letters of Emily Dickinson",
+      "year": 1894,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "시와 구분되지 않는 문체로 쓴 편지들을 모은 사후 서한집. 그의 산문이 시와 같은 압축과 대시를 사용한다는 사실이 이 책으로 처음 공개되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--dickinson-fascicles"
+      ]
+    },
+    {
+      "id": "emily-dickinson--poems-third-series",
+      "titleKo": "에밀리 디킨슨 시집 제3집",
+      "titleOriginal": "Poems by Emily Dickinson: Third Series",
+      "year": 1896,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "초기 편집 방침으로 나온 마지막 시선집이다. 육필 원고의 대시와 행갈이를 그대로 살린 정본은 20세기 중반의 학술판을 기다려야 했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--dickinson-fascicles"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--emily-dickinson--paul-celan",
+      "type": "translation",
+      "from": "emily-dickinson (에밀리 디킨슨)",
+      "to": "paul-celan (파울 첼란)",
+      "evidenceLevel": "documented",
+      "summary": "첼란은 러시아어·프랑스어·영어 시를 독일어로 옮기는 작업을 평생 병행했고, 그 목록에 디킨슨의 시 몇 편이 들어 있다. 대시로 끊기는 디킨슨의 구문은 첼란 후기 시의 절단된 행과 함께 읽혀 왔다.",
+      "sourceIds": [
+        "src--celan-uebertragungen"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--walt-whitman--emily-dickinson (→ walt-whitman 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--poets-org": {
+      "id": "src--poets-org",
+      "title": "poets.org — 시인 프로필",
+      "publisherOrInstitution": "Academy of American Poets",
+      "url": "https://poets.org",
+      "citation": "시인 전기·대표작 확인용"
+    },
+    "src--dickinson-fascicles": {
+      "id": "src--dickinson-fascicles",
+      "title": "에밀리 디킨슨 육필 원고와 파시클(수제 시집 묶음)",
+      "publisherOrInstitution": "Amherst College Archives / Houghton Library, Harvard University",
+      "citation": "생전 미출간 원고의 상태, 대시와 행갈이의 원형, 40여 묶음의 파시클 구성 확인용 1차 자료"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--celan-uebertragungen": {
+      "id": "src--celan-uebertragungen",
+      "title": "파울 첼란 번역 시편 (Gesammelte Werke, Übertragungen 권)",
+      "publisherOrInstitution": "Suhrkamp Verlag",
+      "citation": "첼란이 러시아어·프랑스어·영어 시를 독일어로 옮긴 작업을 모은 전집 권 — 디킨슨 번역을 포함한다. 개별 번역의 최초 게재 지면과 연도는 QC가 확인한다"
+    }
+  }
+}

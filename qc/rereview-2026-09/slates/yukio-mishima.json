@@ -1,0 +1,157 @@
+{
+  "id": "yukio-mishima",
+  "page": "https://literary-planet.pages.dev/authors/yukio-mishima/",
+  "author": {
+    "names": {
+      "ko": "미시마 유키오",
+      "original": "三島由紀夫",
+      "aliases": [
+        "히라오카 기미타케",
+        "平岡公威",
+        "Mishima Yukio"
+      ]
+    },
+    "birthYear": 1925,
+    "deathYear": 1970,
+    "activeRange": [
+      1944,
+      1970
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "importanceReason": "고전 일본어의 한자 어휘와 유럽 낭만주의의 관념을 한 문장에 겹쳐 쓰는 산문을 만들어, 미와 죽음을 논증하듯 전개하는 소설을 썼다. 노(能)의 곡목을 현대 회화극으로 옮긴 『근대 능악집』으로 전통 극형식을 동시대 무대에 접속시켰고, 4부작 『풍요의 바다』에서는 윤회를 구성 원리 자체로 삼아 20세기 일본 60년을 시대별 네 권으로 나눴다. 1970년 11월 25일 자위대 이치가야 주둔지에서 궐기를 호소한 뒤 할복으로 사망했고, 4부작 최종권 원고는 그날 아침 출판사에 넘겨졌다.",
+    "readingEntry": "yukio-mishima--kinkakuji",
+    "readingEntryReason": "실제 방화 사건이라는 뚜렷한 사건 축이 있어 관념이 서사를 이탈하지 않고, 단권 분량이며 미시마의 주제가 가장 압축되어 있다.",
+    "readingOrder": [
+      "yukio-mishima--kinkakuji",
+      "yukio-mishima--kamen-no-kokuhaku",
+      "yukio-mishima--kindai-nogakushu",
+      "yukio-mishima--hojo-no-umi"
+    ],
+    "readingWarning": "『풍요의 바다』부터 시작하면 환생이라는 설계가 4권에 걸쳐서야 드러나므로 1권만 읽고 멈추면 구조가 보이지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "수식이 길고 한자어 밀도가 높아 번역본에서도 문장이 무겁고, 관념의 논증이 사건보다 앞서 나가는 대목에서 속도가 급격히 떨어진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "yukio-mishima--kamen-no-kokuhaku",
+      "titleKo": "가면의 고백",
+      "titleOriginal": "仮面の告白",
+      "year": 1949,
+      "genre": "fiction",
+      "significance": "동성에게 끌리는 자신을 정상으로 연기해 온 화자가 그 연기의 내력을 순서대로 진술하는 1인칭 장편. 미시마가 전후 문단에서 자리를 얻은 첫 작품이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yukio-mishima--shiosai",
+      "titleKo": "파도 소리",
+      "titleOriginal": "潮騒",
+      "year": 1954,
+      "genre": "fiction",
+      "significance": "그리스 고전 『다프니스와 클로에』의 구조를 이세만의 작은 섬으로 옮긴 연애 소설. 미시마의 소설 중 관념의 개입이 가장 적고 문장이 짧다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yukio-mishima--kinkakuji",
+      "titleKo": "금각사",
+      "titleOriginal": "金閣寺",
+      "year": 1956,
+      "genre": "fiction",
+      "significance": "1950년 실제로 일어난 금각사 방화 사건을 말을 더듬는 승려 견습생의 1인칭으로 재구성했다. 아름다움이 삶을 가로막는다는 논지를 사건의 인과가 아니라 화자의 논증으로 밀고 간다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yukio-mishima--kindai-nogakushu",
+      "titleKo": "근대 능악집",
+      "titleOriginal": "近代能楽集",
+      "year": 1956,
+      "genre": "drama",
+      "significance": "노(能)의 고전 곡목을 현대 도시의 회화극으로 옮긴 희곡 모음. 원곡의 구조는 유지한 채 배경과 인물만 바꿔, 전통 극형식이 동시대 무대에서 작동하는지 시험했다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yukio-mishima--hojo-no-umi",
+      "titleKo": "풍요의 바다",
+      "titleOriginal": "豊饒の海",
+      "year": 1965,
+      "genre": "fiction",
+      "significance": "1965년 연재를 시작해 1971년 완간된 4부작. 한 인물이 세대를 건너 다시 태어난다는 설정을 구성 원리로 삼아 20세기 일본 60년을 시대별 네 권으로 나눴다. 최종권 원고는 저자가 사망한 날 아침에 넘겨졌고 4권은 사후에 간행됐다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--yukio-mishima--kenzaburo-oe",
+      "type": "contrast",
+      "from": "yukio-mishima (미시마 유키오)",
+      "to": "kenzaburo-oe (오에 겐자부로)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "전후 일본문학 연구는 천황과 전후 헌법을 두고 정반대 위치에 선 두 작가를 한 쌍으로 다룬다. 미시마는 전후 체제의 부정과 천황을 향한 궐기로 나아갔고, 오에는 전후 민주주의와 헌법 9조의 옹호를 소설과 르포 양쪽에서 밀고 나갔다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "mentorship--yasunari-kawabata--yukio-mishima (→ yasunari-kawabata 의 슬레이트에서 본다)",
+    "dialogue--osamu-dazai--yukio-mishima (→ osamu-dazai 의 슬레이트에서 본다)",
+    "dialogue--kobo-abe--yukio-mishima (→ kobo-abe 의 슬레이트에서 본다)",
+    "influence--thomas-mann--yukio-mishima (→ thomas-mann 의 슬레이트에서 본다)",
+    "influence--friedrich-nietzsche--yukio-mishima (→ friedrich-nietzsche 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

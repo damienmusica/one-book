@@ -1,0 +1,121 @@
+{
+  "id": "nam-cao",
+  "page": "https://literary-planet.pages.dev/authors/nam-cao/",
+  "author": {
+    "names": {
+      "ko": "남 까오",
+      "original": "Nam Cao",
+      "aliases": [
+        "Trần Hữu Tri"
+      ]
+    },
+    "birthYear": 1915,
+    "deathYear": 1951,
+    "activeRange": [
+      1936,
+      1951
+    ],
+    "languages": [
+      "vi"
+    ],
+    "regions": [
+      "southeast-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "굶주림과 체면 사이에서 무너지는 농민과 시골 지식인을 그려, 식민지 베트남 사실주의 단편의 표본을 만들었다. 몰락을 사건으로 보여 주는 대신 그 사람이 자기 몰락을 어떻게 변명하는지를 따라가서, 「찌 페오」의 주정뱅이와 『닳아 가는 삶』의 교사가 같은 문법으로 서술된다.",
+    "readingEntry": "nam-cao--chi-pheo",
+    "readingEntryReason": "단편 한 편 분량 안에 남 까오의 세계 — 마을의 위계, 술, 얼굴의 흉터, 돌아갈 자리가 없는 사람 — 가 전부 들어 있다.",
+    "readingOrder": [
+      "nam-cao--chi-pheo",
+      "nam-cao--lao-hac",
+      "nam-cao--doi-mat",
+      "nam-cao--song-mon"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "문장이 짧고 사건이 명료하다. 다만 식민지 말기 농촌의 지주–소작 관계와 마을 행정의 위계를 모르면 인물이 왜 그 지경까지 밀리는지 동기가 흐려진다.",
+    "sourceIds": [
+      "src--chi-pheo-doi-moi-1941",
+      "src--ngu-van-vn-textbook"
+    ]
+  },
+  "works": [
+    {
+      "id": "nam-cao--lao-hac",
+      "titleKo": "라오 학",
+      "titleOriginal": "Lão Hạc",
+      "year": 1943,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "가난과 병 끝에 기르던 개를 팔고 스스로 목숨을 끊는 노인을, 이웃 교사의 시점에서 지켜본다. 베트남 중등 교과서에 실려 지금도 가장 널리 읽히는 단편이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "nam-cao--doi-mat",
+      "titleKo": "두 눈",
+      "titleOriginal": "Đôi mắt",
+      "year": 1948,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "항전기에 농민을 바라보는 두 작가의 시선을 맞세운 단편. 1945년 이후 남 까오가 자기 자리를 어디로 옮겼는지 보여 주는 글로 읽힌다.",
+      "sourceIds": []
+    },
+    {
+      "id": "nam-cao--chi-pheo",
+      "titleKo": "찌 페오",
+      "titleOriginal": "Chí Phèo",
+      "year": 1941,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "감옥에서 나온 뒤 마을의 해결사이자 주정뱅이로 살아가던 남자가 잠시 사람으로 돌아가려다 실패하는 단편. 1941년 초판은 출판사가 붙인 『어울리는 한 쌍』이라는 제목으로 나왔고, 1946년 작가가 지금의 제목으로 고쳤다.",
+      "sourceIds": []
+    },
+    {
+      "id": "nam-cao--song-mon",
+      "titleKo": "닳아 가는 삶",
+      "titleOriginal": "Sống mòn",
+      "year": 1944,
+      "yearBasis": "composition-range",
+      "genre": "fiction",
+      "significance": "교사·문인·사무원의 경제적 불안과 생활고를 그린 반자전 장편. 1944년 『죽어 가는 삶(Chết mòn)』이라는 제목으로 탈고했고, 작가가 죽은 뒤 1956년에 지금 제목으로 출간됐다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--lu-xun--nam-cao",
+      "type": "affinity",
+      "from": "lu-xun (루쉰)",
+      "to": "nam-cao (남 까오)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "베트남·중국 비교문학 연구는 「찌 페오」의 마을 밖으로 밀려난 인간과 루쉰 「아Q정전」의 아Q를, 촌락의 위계가 사람을 어떻게 형해화하는가라는 같은 문제의 두 판본으로 나란히 읽어 왔다.",
+      "sourceIds": [
+        "src--quach-ah-q-chi-pheo-2018"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--chi-pheo-doi-moi-1941": {
+      "id": "src--chi-pheo-doi-moi-1941",
+      "title": "『어울리는 한 쌍(Đôi lứa xứng đôi)』 초판 (1941)",
+      "publisherOrInstitution": "Đời mới 출판사, 하노이",
+      "citation": "「찌 페오」의 첫 단행본 출간 — 원제 「옛 벽돌 가마」를 출판사가 바꿔 붙였고, 1946년 『루옹 까이』 수록 때 작가가 「찌 페오」로 고친 경위의 근거"
+    },
+    "src--ngu-van-vn-textbook": {
+      "id": "src--ngu-van-vn-textbook",
+      "title": "『국어문학(Ngữ văn)』 중등 교과서",
+      "publisherOrInstitution": "베트남 교육출판사(NXB Giáo dục Việt Nam)",
+      "citation": "「라오 학」(8학년)·「찌 페오」(11학년) 수록 — 남 까오 단편의 베트남 국내 정전 지위를 확인하는 자료"
+    },
+    "src--quach-ah-q-chi-pheo-2018": {
+      "id": "src--quach-ah-q-chi-pheo-2018",
+      "title": "Simple Remarks of The True Story of Ah Q and Chi Pheo",
+      "publisherOrInstitution": "Journal of Literature and Art Studies 8(2), 2018 (Quach Van-Dau)",
+      "url": "https://doi.org/10.17265/2159-5836/2018.02.008",
+      "citation": "「아Q정전」과 「찌 페오」를 나란히 읽은 비교문학 논문 — 루쉰·남 까오 대비 독해의 실제 소재지"
+    }
+  }
+}

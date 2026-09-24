@@ -1,0 +1,704 @@
+{
+  "silhouette": {
+    "id": "haruki-murakami",
+    "names": {
+      "ko": "무라카미 하루키",
+      "original": "村上春樹",
+      "aliases": [
+        "하루키",
+        "Haruki Murakami",
+        "Murakami Haruki"
+      ]
+    },
+    "birthYear": 1949,
+    "activeRange": [
+      1979,
+      2026
+    ],
+    "anchorYear": 1994,
+    "gender": "male",
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "tier": "major",
+    "wikidata": "Q134798"
+  },
+  "plate": {
+    "id": "haruki-murakami",
+    "importanceReason": "평이한 문장으로 현실의 일상에서 비현실의 세계로 이음매 없이 넘어가는 소설을 자기 방법으로 만들었다. 작가는 문턱 낮은 문장을 브로티건과 보니것에게서, 『양을 쫓는 모험』의 구도 — 고독한 도시 생활자가 무언가를 찾아 나섰다가 마침내 찾았을 때 그것은 이미 손상되어 있다 — 를 챈들러에게서 가져왔다고 밝혔다. 『세계의 끝과 하드보일드 원더랜드』에서는 두 세계의 장을, 『해변의 카프카』에서는 1인칭과 3인칭의 장을 번갈아 놓았고, 『태엽 감는 새 연대기』부터는 노몬한 사건 같은 전쟁의 폭력을 정면으로 다뤘다. 레이먼드 카버 전집을 일본어로 옮긴 번역가이기도 하다.",
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "문장은 평이해 읽기 자체는 빠르다. 어려움은 설명 없이 남는 사건과 이미지에 있는데, 작가는 이를 논리가 아니라 이야기로 받아들이라고 권한다. 두 세계나 두 인물의 장이 번갈아 나오는 장편에서는 두 줄기를 함께 붙들고 읽어야 하고, 『태엽 감는 새 연대기』와 『1Q84』는 세 권에 걸친 분량 자체가 부담이다.",
+    "works": [
+      {
+        "id": "haruki-murakami--kaze-no-uta-o-kike",
+        "titleKo": "바람의 노래를 들어라",
+        "titleOriginal": "風の歌を聴け",
+        "year": 1979,
+        "genre": "fiction",
+        "significance": "1978년에 스물아홉 살이 된 ‘나’가 1970년 8월 8일부터 26일까지 18일 동안의 이야기를 적는다는 틀로, 40개의 단장과 허구가 섞인 후기로 이루어진 첫 장편. 군조 신인문학상을 받은 등단작이고 이른바 ‘쥐 3부작’의 첫 권이다."
+      },
+      {
+        "id": "haruki-murakami--hitsuji-o-meguru-boken",
+        "titleKo": "양을 쫓는 모험",
+        "titleOriginal": "羊をめぐる冒険",
+        "year": 1982,
+        "genre": "fiction",
+        "significance": "‘쥐 3부작’의 셋째 권으로 노마 문예신인상을 받았다. 작가는 1992년 버클리 강연에서, 고독한 도시 생활자가 무언가를 찾다가 복잡한 상황에 휘말리고 마침내 찾았을 때 그것이 이미 손상되어 있다는 챈들러 소설의 구도를 이 소설에 썼다고 말했다."
+      },
+      {
+        "id": "haruki-murakami--sekai-no-owari-to-hadoboirudo-wandarando",
+        "titleKo": "세계의 끝과 하드보일드 원더랜드",
+        "titleOriginal": "世界の終りとハードボイルド・ワンダーランド",
+        "year": 1985,
+        "genre": "fiction",
+        "significance": "40개 장에서 「하드보일드 원더랜드」 장과 「세계의 끝」 장이 번갈아 진행되고, 두 줄기는 서로 다른 세계의 1인칭 화자 ‘나(私)’와 ‘나(僕)’가 이끈다. 작가가 잡지 게재 없이 단행본으로 처음 쓴 장편으로 다니자키 준이치로상을 받았고, 「세계의 끝」 부분은 1980년 중편 「街と、その不確かな壁」를 바탕으로 했다."
+      },
+      {
+        "id": "haruki-murakami--noruwei-no-mori",
+        "titleKo": "노르웨이의 숲",
+        "titleOriginal": "ノルウェイの森",
+        "year": 1987,
+        "genre": "fiction",
+        "significance": "서른일곱 살의 와타나베가 비틀스의 「노르웨이의 숲」을 듣고, 자살한 친구 기즈키의 연인 나오코와 도쿄의 대학에서 만난 미도리 사이에서 보낸 학창 시절을 돌아본다. 작가는 자신이 쓴 띠지 문구 ‘100퍼센트 연애소설’에 대해 실은 ‘100퍼센트 리얼리즘 소설’이라고 쓰고 싶었다고 밝혔고, 일본 내 누적 발행 부수는 2009년에 1000만 부를 넘었다. 한국에서는 1989년 『상실의 시대』라는 제목으로 처음 나왔다."
+      },
+      {
+        "id": "haruki-murakami--nejimakidori-kuronikuru",
+        "titleKo": "태엽 감는 새 연대기",
+        "titleOriginal": "ねじまき鳥クロニクル",
+        "year": 1992,
+        "genre": "fiction",
+        "significance": "법률사무소 일을 그만두고 집안일을 하던 오카다 도루가 사라진 고양이와 아내 구미코를 찾는 동안, 노몬한 사건을 기억하는 마미야 중위의 이야기가 겹쳐진다. 작가의 소설로는 처음으로 전쟁 같은 거대한 폭력을 본격적으로 다뤘다. 제1부를 1992년 10월부터 『신초』에 연재한 뒤 1994–1995년 세 부의 책으로 냈고, 요미우리 문학상을 받았다."
+      },
+      {
+        "id": "haruki-murakami--umibe-no-kafuka",
+        "titleKo": "해변의 카프카",
+        "titleOriginal": "海辺のカフカ",
+        "year": 2002,
+        "genre": "fiction",
+        "significance": "아버지에게 걸린 저주를 피해 집을 나온 열다섯 살 다무라 카프카의 장(1인칭·2인칭 현재형)과 노인 나카타의 장(3인칭 과거형)이 번갈아 진행된다. 오이디푸스 왕 이야기와 『겐지 모노가타리』·『우게쓰 모노가타리』를 곳곳에 끌어들였고, 영어판은 뉴욕 타임스의 ‘올해의 책 10권’에 뽑혔다."
+      },
+      {
+        "id": "haruki-murakami--1q84",
+        "titleKo": "1Q84",
+        "titleOriginal": "1Q84",
+        "year": 2009,
+        "genre": "fiction",
+        "significance": "조지 오웰의 『1984』를 토대로 가까운 과거를 쓰려 한 장편. 스포츠 강사이자 암살자인 아오마메와 소설가 지망생 덴고의 이야기가 번갈아 진행되고, 셋째 권에는 두 사람을 뒤쫓는 우시카와의 이야기가 더해진다. 2009–2010년 세 권으로 나왔다."
+      },
+      {
+        "id": "haruki-murakami--shokugyo-to-shite-no-shosetsuka",
+        "titleKo": "직업으로서의 소설가",
+        "titleOriginal": "職業としての小説家",
+        "year": 2013,
+        "genre": "essay-criticism",
+        "significance": "2013년부터 잡지 『MONKEY』에 연재한 글과 강연 원고에 새로 쓴 글을 더해 2015년 책으로 묶은 자전적 에세이. 소설가가 된 무렵, 문학상, 오리지널리티, 장편소설 쓰기, 해외 진출 등을 열두 장에 걸쳐 이야기한다."
+      }
+    ],
+    "readingEntry": "haruki-murakami--noruwei-no-mori",
+    "readingEntryReason": "작가가 띠지에 『양을 쫓는 모험』이나 『세계의 끝과 하드보일드 원더랜드』와는 계열이 다른 ‘100퍼센트 리얼리즘 소설’이라고 쓰고 싶었다고 밝힌 장편이다. 1960년대 말 도쿄의 대학에 진학한 와타나베의 기억과 연애를 한 줄기로 따라가므로, 비현실의 장치에 익숙해지기 전에 하루키의 평이한 문장부터 익힐 수 있다. 민음사 세계문학전집판(양억관 옮김, 2013, 508쪽 한 권)으로 지금 살 수 있다.",
+    "readingOrder": [
+      "haruki-murakami--noruwei-no-mori",
+      "haruki-murakami--hitsuji-o-meguru-boken",
+      "haruki-murakami--sekai-no-owari-to-hadoboirudo-wandarando",
+      "haruki-murakami--umibe-no-kafuka",
+      "haruki-murakami--nejimakidori-kuronikuru"
+    ],
+    "readingWarning": "짧은 데뷔작 『바람의 노래를 들어라』에서 시작하고 싶어지지만, 이 책은 40개의 단장과 허구가 섞인 후기로 이루어져 줄거리를 따라 읽는 소설이 아니다. 작가 자신도 초기 두 장편을 미숙한 시절의 작품으로 평가했고, 그 때문에 오랫동안 일본 밖에서는 영어판이 나오지 않았다.",
+    "sourceIds": [
+      "src--jawiki-murakami-haruki",
+      "src--minumsa-norwegian-wood-2013"
+    ],
+    "newSources": [
+      {
+        "id": "src--jawiki-murakami-haruki",
+        "title": "村上春樹 — 일본어 위키백과",
+        "publisherOrInstitution": "ja.wikipedia.org",
+        "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9"
+      },
+      {
+        "id": "src--minumsa-norwegian-wood-2013",
+        "title": "민음사 도서 소개 — 『노르웨이의 숲』 (세계문학전집 310, 양억관 옮김, 2013)",
+        "publisherOrInstitution": "민음사",
+        "url": "https://minumsa.minumsa.com/book/5279/"
+      },
+      {
+        "id": "src--murakami-trans-carver-zenshu",
+        "title": "『レイモンド・カーヴァー全集』 전 8권 — 레이먼드 카버 지음, 무라카미 하루키 옮김 (2004년 완간)",
+        "publisherOrInstitution": "中央公論社",
+        "citation": "국립국회도서관 서지: 「レイモンド・カーヴァー 著 ; 村上春樹 訳」. 전집 3권 『大聖堂』 1990년 5월 간행, 2004년 전 8권 완간 — 카버→무라카미 번역 관계의 1차 근거.",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I09111100403696"
+      },
+      {
+        "id": "src--murakami-trans-my-lost-city",
+        "title": "F. 스콧 피츠제럴드, 『マイ・ロスト・シティー』 — 무라카미 하루키 옮김 (1981; 村上春樹翻訳ライブラリー 개역판 2006)",
+        "publisherOrInstitution": "中央公論社 (1981) / 中央公論新社 (2006)",
+        "citation": "무라카미 하루키의 첫 번역서. 2006년 개역판 소개문: 「何年ものあいだ、フィッツジェラルドだけが僕の師であり、大学であり、文学仲間であった」.",
+        "url": "https://www.chuko.co.jp/tanko/2006/05/403498.html"
+      },
+      {
+        "id": "src--murakami-trans-great-gatsby-2006",
+        "title": "F. 스콧 피츠제럴드, 『グレート・ギャツビー』 — 무라카미 하루키 옮김 (村上春樹翻訳ライブラリー, 2006)",
+        "publisherOrInstitution": "中央公論新社",
+        "citation": "2006년 11월 10일 초판. 역자 후기(333쪽)에서 인생에서 만난 가장 중요한 책 세 권으로 『グレート・ギャツビー』·『カラマーゾフの兄弟』·『ロング・グッドバイ』를 꼽았다.",
+        "url": "https://www.chuko.co.jp/tanko/2006/11/403504.html"
+      },
+      {
+        "id": "src--murakami-trans-catcher-2003",
+        "title": "J. D. 샐린저, 『キャッチャー・イン・ザ・ライ』 — 무라카미 하루키 옮김 (2003)",
+        "publisherOrInstitution": "白水社",
+        "citation": "2003년 4월 간행. 국립국회도서관 서지: 「J.D.サリンジャー [著] 村上春樹 訳」.",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004087530"
+      },
+      {
+        "id": "src--murakami-trans-catwings",
+        "title": "어슐러 K. 르 귄, 『空飛び猫』 연작 4권 — 무라카미 하루키 옮김 (1993–2001)",
+        "publisherOrInstitution": "講談社",
+        "citation": "『空飛び猫』(Catwings, 1993.3)·『帰ってきた空飛び猫』(Catwings return, 1993.11)·『素晴らしいアレキサンダーと、空飛び猫たち』(Wonderful Alexander and the catwings, 1997.6)·『空を駆けるジェーン』(Jane on her own, 2001.9). 국립국회도서관 서지.",
+        "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002240348"
+      }
+    ],
+    "relations": [
+      {
+        "type": "translation",
+        "sourceId": "raymond-carver",
+        "targetId": "haruki-murakami",
+        "evidenceLevel": "documented",
+        "summary": "무라카미 하루키는 1983년 카버 작품집 『ぼくが電話をかけている場所』를 일본어로 옮겨 낸 뒤, 중앙공론사판 『レイモンド・カーヴァー全集』 전 8권을 번역해 2004년에 완간했다.",
+        "weight": 0.9,
+        "sourceIds": [
+          "src--murakami-trans-carver-zenshu",
+          "src--jawiki-murakami-haruki"
+        ]
+      },
+      {
+        "type": "translation",
+        "sourceId": "f-scott-fitzgerald",
+        "targetId": "haruki-murakami",
+        "evidenceLevel": "documented",
+        "summary": "무라카미 하루키의 첫 번역서는 피츠제럴드 작품집 『マイ・ロスト・シティー』(1981)였고, 2006년에는 『グレート・ギャツビー』를 번역해 냈다. 『マイ・ロスト・シティー』 개역판(2006) 소개문에는 ‘여러 해 동안 피츠제럴드만이 나의 스승이었고 대학이었고 문학 동료였다’는 그의 말이 실려 있다.",
+        "weight": 0.9,
+        "sourceIds": [
+          "src--murakami-trans-my-lost-city",
+          "src--murakami-trans-great-gatsby-2006"
+        ]
+      },
+      {
+        "type": "translation",
+        "sourceId": "jd-salinger",
+        "targetId": "haruki-murakami",
+        "evidenceLevel": "documented",
+        "summary": "무라카미 하루키는 일본에서 『ライ麦畑でつかまえて』라는 제목으로 읽혀 온 샐린저의 장편을 새로 옮겨 2003년 하쿠스이샤에서 『キャッチャー・イン・ザ・ライ』로 냈다.",
+        "weight": 0.85,
+        "sourceIds": [
+          "src--murakami-trans-catcher-2003"
+        ]
+      },
+      {
+        "type": "translation",
+        "sourceId": "ursula-k-le-guin",
+        "targetId": "haruki-murakami",
+        "evidenceLevel": "documented",
+        "summary": "무라카미 하루키는 르 귄의 그림책 『Catwings』를 『空飛び猫』(고단샤, 1993)로 옮겼고, 이어 『帰ってきた空飛び猫』(1993), 『素晴らしいアレキサンダーと、空飛び猫たち』(1997), 『空を駆けるジェーン』(2001)까지 연작 네 권을 번역했다.",
+        "weight": 0.7,
+        "sourceIds": [
+          "src--murakami-trans-catwings"
+        ]
+      },
+      {
+        "type": "documented_influence",
+        "sourceId": "fyodor-dostoevsky",
+        "targetId": "haruki-murakami",
+        "evidenceLevel": "documented",
+        "summary": "무라카미 하루키는 『グレート・ギャツビー』 번역본(2006)의 역자 후기에서 지금까지 만난 가장 중요한 책 세 권으로 『위대한 개츠비』, 『카라마조프 가의 형제들』, 챈들러의 『기나긴 이별』을 꼽았다. 1990년대 후반부터 ‘종합소설’을 쓰고 싶다고 말해 왔는데, 그 예로 드는 작품도 『카라마조프 가의 형제들』이다.",
+        "weight": 0.75,
+        "sourceIds": [
+          "src--murakami-trans-great-gatsby-2006",
+          "src--jawiki-murakami-haruki"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "field": "silhouette.wikidata",
+      "claim": "Wikidata Q134798 = 무라카미 하루키 (1949년생 일본 작가)",
+      "url": "https://www.wikidata.org/wiki/Q134798?uselang=en",
+      "quote": "Japanese writer (born 1949) Murakami Haruki"
+    },
+    {
+      "field": "silhouette.birthYear",
+      "claim": "1949년 1월 12일생",
+      "url": "https://www.wikidata.org/wiki/Q134798?uselang=en",
+      "quote": "date of birth 12 January 1949"
+    },
+    {
+      "field": "silhouette.gender",
+      "claim": "남성",
+      "url": "https://www.wikidata.org/wiki/Q134798?uselang=en",
+      "quote": "sex or gender male"
+    },
+    {
+      "field": "silhouette.languages",
+      "claim": "집필 언어 일본어",
+      "url": "https://www.wikidata.org/wiki/Q134798?uselang=en",
+      "quote": "writing language Japanese"
+    },
+    {
+      "field": "silhouette.names",
+      "claim": "일본어 표기 村上春樹, 헵번식 로마자 Murakami Haruki",
+      "url": "https://www.wikidata.org/wiki/Q134798?uselang=en",
+      "quote": "applies to name of subject 村上春樹 (Japanese) revised Hepburn romanization Murakami Haruki"
+    },
+    {
+      "field": "silhouette.names.aliases",
+      "claim": "한국어 위키백과 표제 무라카미 하루키, 약칭 하루키",
+      "url": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8_%ED%95%98%EB%A3%A8%ED%82%A4",
+      "quote": "무라카미 하루키(일본어: 村上春樹, 1949년 1월 12일 ~ )는 일본의 소설가이자 번역가다."
+    },
+    {
+      "field": "silhouette.names.aliases",
+      "claim": "한국어 문헌에서 약칭 ‘하루키’",
+      "url": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8_%ED%95%98%EB%A3%A8%ED%82%A4",
+      "quote": "하루키는 국어교사였던 부모로부터 일본 문학에 관해 배웠다."
+    },
+    {
+      "field": "silhouette.activeRange[0]",
+      "claim": "1979년 『바람의 노래를 들어라』로 군조 신인문학상을 받으며 등단",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "1979年、『風の歌を聴け』で群像新人文学賞を受賞してデビューする。1985年、『世界の終りとハードボイルド・ワンダーランド』で谷崎潤一郎賞を受賞する。"
+    },
+    {
+      "field": "silhouette.activeRange[1]",
+      "claim": "2026년 7월 3일 장편 『夏帆 The Tale of KAHO』 발표",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "2026年7月3日、『夏帆 The Tale of KAHO』を発表する。"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "평이한 문체로 현실에서 비현실의 세계로 이음매 없이 이동하는 작풍",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "このような「平易な文体で高度な内容を取り扱い、現実世界から非現実の異界へとシームレスに（＝つなぎ目なく）移動する」という作風"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "평이한 문장은 브로티건과 보니것에게서 받은 영향이라고 작가가 밝힘",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "平易で親しみやすい文章は村上がデビュー当時から意識して行ったことであり、村上によれば「敷居の低さ」で「心に訴えかける」文章は、アメリカ作家のブローティガンとヴォネガットからの影響だという"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "『양을 쫓는 모험』의 구도를 챈들러에게서 가져왔다고 1992년 버클리 강연에서 밝힘",
+      "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E5%86%92%E9%99%BA",
+      "quote": "1992年11月17日にバークレーで行った講演で次のように語っている。 「この小説はストラクチャーについてはレイモンド・チャンドラーの小説の影響を色濃く受けています。（中略） 僕はこの小説の中で、その小説的構図を使ってみようと思ったのです。まず第一に主人公が孤独な都市生活者であること。それから、彼が何かを捜そうとしていること。そしてその何かを捜しているうちに、様々な複雑な状況に巻き込まれていくこと。そして彼がその何かをついに見つけたときには、その何かは既に損なわれ、失われてしまっていることです。これは明らかにチャンドラーの用いていた手法です。僕はそのような構図を使用して、この『羊をめぐる冒険』という小説を書きました。」"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "『세계의 끝과 하드보일드 원더랜드』는 두 세계의 장이 번갈아 진행",
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+      "quote": "作品は40章からなり、「ハードボイルド・ワンダーランド」の章と「世界の終り」の章が交互に進行し、それぞれ世界を異にする一人称視点（「私」と「僕」）で描かれる"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "『해변의 카프카』는 1인칭(과 2인칭) 장과 3인칭 장이 번갈아 나옴",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "『海辺のカフカ』（一人称と三人称が交互に現れる）"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "『태엽 감는 새 연대기』에서 전쟁 같은 거대한 폭력을 본격적으로 다룸",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+      "quote": "村上の小説としては初めて、戦争等の巨大な暴力を本格的に扱っている。"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "『해변의 카프카』가 『태엽 감는 새 연대기』의 폭력·전쟁 주제를 이어받음",
+      "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+      "quote": "本作は『ねじまき鳥クロニクル』からの暴力、戦争といったテーマが引き継がれており"
+    },
+    {
+      "field": "plate.importanceReason",
+      "claim": "카버를 일본에 소개하고 피츠제럴드 등을 번역",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "キャリアの最初期から翻訳を精力的に行い、レイモンド・カーヴァーを日本に紹介したほか、スコット・フィッツジェラルド、トルーマン・カポーティ、レイモンド・チャンドラーなど多数の作家の作品を訳している。"
+    },
+    {
+      "field": "plate.difficultyReason",
+      "claim": "문장은 평이하나 이야기는 난해하다는 평가, 작가는 논리가 아니라 이야기로 이해하라고 권함",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "村上自身はこの「物語の難解さ」について、「論理」ではなく「物語」としてテクストを理解するよう読者に促している。"
+    },
+    {
+      "field": "plate.difficultyReason",
+      "claim": "『태엽 감는 새 연대기』는 세 부(1994–1995)",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+      "quote": "第1部 泥棒かささぎ編 新潮社 1994年4月12日 『新潮』1992年10月号 - 1993年8月号に掲載された。 第2部 予言する鳥編 新潮社 1994年4月12日 書き下ろし 第3部 鳥刺し男編 新潮社 1995年8月25日"
+    },
+    {
+      "field": "plate.difficultyReason",
+      "claim": "『1Q84』는 BOOK1–3 세 권(2009–2010)",
+      "url": "https://ja.wikipedia.org/wiki/1Q84",
+      "quote": "BOOK1: 2009年5月29日 BOOK2: 2009年5月29日 BOOK3: 2010年4月16日"
+    },
+    {
+      "field": "plate.readingEntryReason",
+      "claim": "작가는 『노르웨이의 숲』을 『양을 쫓는 모험』·『세계의 끝』과 계열이 다른 ‘100퍼센트 리얼리즘 소설’이라고 쓰고 싶었다고 말함",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+      "quote": "村上自身が書いた「100パーセントの恋愛小説」というキャッチコピーについて本人は、「僕はそのときほんとうは『これは100パーセントのリアリズム小説です』と書きたかったのだけれど（つまり『羊』や『世界の終り』とはラインが違いますということです）"
+    },
+    {
+      "field": "plate.readingEntryReason",
+      "claim": "민음사 세계문학전집 310, 양억관 옮김, 2013년 9월 2일, 508쪽",
+      "url": "https://minumsa.minumsa.com/book/5279/",
+      "quote": "원제 ノルウェイの森 글 무라카미 하루키 | 옮김 양억관 출판사 민음사 | 발행일 2013년 9월 2일 | ISBN 978-89-374-6310-5 패키지 반양장 · 변형판 132x225 · 508쪽 | 가격 14,000원 시리즈 세계문학전집 310"
+    },
+    {
+      "field": "plate.readingEntryReason",
+      "claim": "민음사 세계문학전집판이 현재 정가 판매 중(품절·절판 표시 없음)",
+      "url": "https://search.kyobobook.co.kr/search?keyword=%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4%EC%9D%98%20%EC%88%B2%20%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8%20%ED%95%98%EB%A3%A8%ED%82%A4&gbCode=TOT&target=total",
+      "quote": "(세계문학전집 310) 무라카미 하루키 저자(글) | 양억관 번역 외 더보기 닫기 저자 모두보기 민음사 · 2013년 09월 02일 10% 12,600 원 정가 14,000원"
+    },
+    {
+      "field": "plate.readingEntryReason",
+      "claim": "도쿄의 사립 대학에 진학한 와타나베",
+      "url": "https://minumsa.minumsa.com/book/5279/",
+      "quote": "열아홉 살이 된 와타나베는 도쿄의 한 사립 대학에 진학하여 슬픈 기억이 남은 고향을 떠나고"
+    },
+    {
+      "field": "plate.readingEntryReason",
+      "claim": "1960년대 말 일본이 배경",
+      "url": "https://minumsa.minumsa.com/book/5279/",
+      "quote": "1960년대 말 고도성장기 일본을 배경으로"
+    },
+    {
+      "field": "plate.readingWarning",
+      "claim": "『바람의 노래를 들어라』 초판 단행본 202쪽 (짧은 데뷔작)",
+      "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+      "quote": "形態 上製本 ページ数 202"
+    },
+    {
+      "field": "plate.readingWarning",
+      "claim": "『바람의 노래를 들어라』는 40개의 단장과 허구를 포함한 후기로 이루어짐",
+      "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+      "quote": "当時の村上と同じく1978年に29歳になった「僕」が、1970年8月8日から8月26日までの18日間の物語を記す、という形をとり、40の断章と、虚構を含むあとがき[注 2]から成る。"
+    },
+    {
+      "field": "plate.readingWarning",
+      "claim": "작가가 초기 두 장편을 미숙한 시절의 작품으로 평가해 오랫동안 일본 밖 영어판이 나오지 않음",
+      "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+      "quote": "村上自身が同2作を「自身が未熟な時代の作品」と評価していたため、長い間日本国外での英訳版の刊行は一切行われていなかった"
+    },
+    {
+      "field": "works.kaze-no-uta-o-kike",
+      "claim": "1979년 발표한 첫 장편, 같은 해 군조 신인문학상 수상",
+      "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+      "quote": "は、村上春樹が1979年に発表した1作目の長編小説。同年の群像新人文学賞受賞作品。"
+    },
+    {
+      "field": "works.kaze-no-uta-o-kike",
+      "claim": "‘쥐 3부작’의 첫 권",
+      "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+      "quote": "「鼠三部作」の1作目"
+    },
+    {
+      "field": "works.kaze-no-uta-o-kike.titleKo",
+      "claim": "한국어판 제목 『바람의 노래를 들어라』(문학사상, 윤성원 옮김) 판매 중",
+      "url": "https://search.kyobobook.co.kr/search?keyword=%EB%B0%94%EB%9E%8C%EC%9D%98%20%EB%85%B8%EB%9E%98%EB%A5%BC%20%EB%93%A4%EC%96%B4%EB%9D%BC%20%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8%20%ED%95%98%EB%A3%A8%ED%82%A4&gbCode=TOT&target=total",
+      "quote": "개정판 3판 | 양장본 HardCover 무라카미 하루키 저자(글) | 윤성원 번역 외 더보기 닫기 저자 모두보기 문학사상 · 2024년 06월 18일 10% 12,150 원 정가 13,500원"
+    },
+    {
+      "field": "works.hitsuji-o-meguru-boken",
+      "claim": "『군조』 1982년 8월호 게재, 같은 해 단행본, 쥐 3부작 셋째 권, 노마 문예신인상",
+      "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E5%86%92%E9%99%BA",
+      "quote": "文芸誌『群像』1982年8月号に掲載され、同年10月13日に講談社より単行本化された[1]。表紙の絵は佐々木マキ[注 1]。「鼠三部作」の3作目である。1985年10月8日に講談社文庫として上下二分冊で文庫化され、2004年11月16日には文庫版の改訂版が出版された（詳しくは#書誌情報を参照）。本書により村上は第4回野間文芸新人賞（1982年）を受賞した。"
+    },
+    {
+      "field": "works.hitsuji-o-meguru-boken",
+      "claim": "챈들러 소설의 구도: 고독한 도시 생활자가 무언가를 찾다가, 찾았을 때 이미 손상되어 있음",
+      "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E5%86%92%E9%99%BA",
+      "quote": "まず第一に主人公が孤独な都市生活者であること。それから、彼が何かを捜そうとしていること。そしてその何かを捜しているうちに、様々な複雑な状況に巻き込まれていくこと。そして彼がその何かをついに見つけたときには、その何かは既に損なわれ、失われてしまっていることです。これは明らかにチャンドラーの用いていた手法です。"
+    },
+    {
+      "field": "works.hitsuji-o-meguru-boken.titleKo",
+      "claim": "한국어판 제목 『양을 쫓는 모험』(문학사상, 신태영 옮김) 판매 중",
+      "url": "https://search.kyobobook.co.kr/search?keyword=%EC%96%91%EC%9D%84%20%EC%AB%93%EB%8A%94%20%EB%AA%A8%ED%97%98%20%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8%20%ED%95%98%EB%A3%A8%ED%82%A4&gbCode=TOT&target=total",
+      "quote": "노마문예신인상 수상작 | 양장본 HardCover 무라카미 하루키 저자(글) | 신태영 번역 외 더보기 닫기 저자 모두보기 문학사상 · 2021년 06월 17일 10% 12,150 원 정가 13,500원"
+    },
+    {
+      "field": "works.sekai-no-owari-to-hadoboirudo-wandarando",
+      "claim": "1985년 6월 15일 신초샤, 작가의 첫 전작(書き下ろし) 장편",
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+      "quote": "村上春樹の4作目の長編小説で、1985年6月15日、新潮社より刊行された。著者としては初めての書き下ろし長編小説である。"
+    },
+    {
+      "field": "works.sekai-no-owari-to-hadoboirudo-wandarando",
+      "claim": "다니자키 준이치로상 수상",
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+      "quote": "第21回谷崎潤一郎賞を受賞した"
+    },
+    {
+      "field": "works.sekai-no-owari-to-hadoboirudo-wandarando",
+      "claim": "「세계의 끝」 부분은 1980년 중편 「街と、その不確かな壁」가 바탕",
+      "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+      "quote": "「世界の終り」の部分は『文學界』（1980年9月号）に発表された中編小説『街と、その不確かな壁』が基になっている"
+    },
+    {
+      "field": "works.sekai-no-owari-to-hadoboirudo-wandarando.titleKo",
+      "claim": "한국어판 제목 『세계의 끝과 하드보일드 원더랜드』(민음사, 김난주 옮김) 판매 중",
+      "url": "https://search.kyobobook.co.kr/search?keyword=%EC%84%B8%EA%B3%84%EC%9D%98%20%EB%81%9D%EA%B3%BC%20%ED%95%98%EB%93%9C%EB%B3%B4%EC%9D%BC%EB%93%9C%20%EC%9B%90%EB%8D%94%EB%9E%9C%EB%93%9C&gbCode=TOT&target=total",
+      "quote": "(세계문학전집 429) 무라카미 하루키 저자(글) | 김난주 번역 외 더보기 닫기 저자 모두보기 민음사 · 2023년 10월 20일 10% 14,400 원 정가 16,000원"
+    },
+    {
+      "field": "works.noruwei-no-mori",
+      "claim": "1987년 9월 4일 고단샤에서 전작 장편으로 상하권 간행",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+      "quote": "1987年9月4日、講談社から書き下ろし作品として上下二分冊で刊行された"
+    },
+    {
+      "field": "works.noruwei-no-mori",
+      "claim": "37세의 와타나베가 비틀스의 「노르웨이의 숲」을 듣고 학창 시절을 회상; 나오코는 친구 기즈키의 연인, 기즈키는 자살",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+      "quote": "37歳のワタナベは、ハンブルク空港に到着した飛行機のBGMでビートルズの「ノルウェイの森」を聴き、激しい混乱を覚えた。そして学生時代のことを回想した。 直子とはじめて会ったのは神戸にいた高校2年のときで、直子はワタナベの友人キズキの恋人だった。3人でよく遊んだが、キズキは高校3年の5月に自殺した。"
+    },
+    {
+      "field": "works.noruwei-no-mori",
+      "claim": "같은 대학에서 만난 미도리",
+      "url": "https://minumsa.minumsa.com/book/5279/",
+      "quote": "한편 같은 대학에서 만난 미도리는 나오코와는 전혀 다른 매력의 소유자로"
+    },
+    {
+      "field": "works.noruwei-no-mori",
+      "claim": "일본 내 누적 발행 1000만 부 돌파(2009년 8월 5일 시점 증쇄)",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+      "quote": "2009年8月5日時点の増刷で1000万3400部[16]となり、国内累計発行部数は1000万部を突破した。"
+    },
+    {
+      "field": "works.noruwei-no-mori",
+      "claim": "한국에서는 1989년 『상실의 시대』라는 제목으로 처음 출간",
+      "url": "https://minumsa.minumsa.com/book/5279/",
+      "quote": "이 작품은 1989년 『상실의 시대』라는 제명으로 처음 출간된 이래"
+    },
+    {
+      "field": "works.nejimakidori-kuronikuru",
+      "claim": "법률사무소 일을 그만두고 집안일을 하는 오카다 도루, 사라진 고양이를 찾아 달라는 아내의 부탁",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+      "quote": "法律事務所の下働きを辞めて日々家事を営む「僕」こと岡田亨と、雑誌編集者として働く妻・クミコの結婚生活は、それなりに平穏に過ぎていた。自宅でスパゲティーを茹でていた亨のもとに一本の電話がかかってくる。それは、見知らぬ女からの性的な電話であったが、女は「僕」のことを知っているといい、年齢など特徴を言い当てる。僕は、その電話を切った直後に、妻から電話で失踪された猫を探すように頼まれる。"
+    },
+    {
+      "field": "works.nejimakidori-kuronikuru",
+      "claim": "사라진 아내 구미코를 찾는 동안 노몬한 사건을 기억하는 마미야 중위의 이야기",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+      "quote": "岡田亨は失踪した妻クミコを探す中で、加納マルタや本田老人といった奇妙な人物たちと出会い、彼らとの交流を通して、現実と幻想が入り混じる不可思議な世界へと足を踏み入れていく。 その後、クミコは別の男と過ごしており、亨との関係を終わらせたいと考えていることを知る。 亨は、ノモンハン事件の記憶を持つ間宮中尉の語りを通じて、戦争の記憶や人間の心の闇に触れる。"
+    },
+    {
+      "field": "works.nejimakidori-kuronikuru",
+      "claim": "제1부가 『신초』 1992년 10월호–1993년 8월호에 연재된 뒤 1994–1995년 세 부로 간행 (연재 시작 해 = 1992)",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+      "quote": "第1部 泥棒かささぎ編 新潮社 1994年4月12日 『新潮』1992年10月号 - 1993年8月号に掲載された。 第2部 予言する鳥編 新潮社 1994年4月12日 書き下ろし 第3部 鳥刺し男編 新潮社 1995年8月25日"
+    },
+    {
+      "field": "works.nejimakidori-kuronikuru",
+      "claim": "요미우리 문학상 수상",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+      "quote": "1996年2月に第47回読売文学賞を受賞した。"
+    },
+    {
+      "field": "works.nejimakidori-kuronikuru.titleKo",
+      "claim": "한국어판 제목 『태엽 감는 새 연대기』(민음사, 김난주 옮김) 판매 중",
+      "url": "https://search.kyobobook.co.kr/search?keyword=%ED%83%9C%EC%97%BD%20%EA%B0%90%EB%8A%94%20%EC%83%88%20%EC%97%B0%EB%8C%80%EA%B8%B0&gbCode=TOT&target=total",
+      "quote": "태엽 감는 새 연대기 1: 도둑 까치 더보기 닫기 · · | | | | (세계문학전집 372) | 반양장 무라카미 하루키 저자(글) | 김난주 번역 외 더보기 닫기 저자 모두보기 민음사 · 2020년 12월 04일 10% 10,800 원 정가 12,000원"
+    },
+    {
+      "field": "works.umibe-no-kafuka",
+      "claim": "2002년 9월 12일 신초샤에서 상하권 간행",
+      "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+      "quote": "2002年9月12日、新潮社より上下二分冊で刊行され"
+    },
+    {
+      "field": "works.umibe-no-kafuka",
+      "claim": "아버지의 저주를 피해 가출한 15세 다무라 카프카",
+      "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+      "quote": "「僕」田村カフカは東京都中野区野方に住む15歳の中学3年生である。父親にかけられた呪いから逃れるために家出を決心。"
+    },
+    {
+      "field": "works.umibe-no-kafuka",
+      "claim": "‘나’의 장은 1인칭·2인칭 현재형, 나카타의 장은 3인칭 과거형",
+      "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+      "quote": "「僕」の章は一人称および二人称現在形、「ナカタさん」の章は三人称過去形で物語られる。"
+    },
+    {
+      "field": "works.umibe-no-kafuka",
+      "claim": "오이디푸스 왕 이야기와 『겐지 모노가타리』·『우게쓰 모노가타리』 활용",
+      "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+      "quote": "ギリシア悲劇のエディプス王の物語と、『源氏物語』や『雨月物語』などの日本の古典小説が物語の各所で用いられている。"
+    },
+    {
+      "field": "works.umibe-no-kafuka",
+      "claim": "영어판이 뉴욕 타임스 ‘올해의 책 10권’에 선정",
+      "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+      "quote": "「ニューヨーク・タイムズ」紙で年間の「ベストブック10冊」および世界幻想文学大賞に選出された"
+    },
+    {
+      "field": "works.umibe-no-kafuka.titleKo",
+      "claim": "한국어판 제목 『해변의 카프카』(문학사상, 김춘미 옮김) 판매 중",
+      "url": "https://search.kyobobook.co.kr/search?keyword=%ED%95%B4%EB%B3%80%EC%9D%98%20%EC%B9%B4%ED%94%84%EC%B9%B4%20%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8&gbCode=TOT&target=total",
+      "quote": "전면개정판 3판 | 양장본 HardCover 무라카미 하루키 저자(글) | 김춘미 번역 외 더보기 닫기 저자 모두보기 문학사상 · 2024년 06월 10일 10% 15,120 원 정가 16,800원"
+    },
+    {
+      "field": "works.1q84",
+      "claim": "오웰의 『1984년』을 토대로 가까운 과거의 소설을 쓰고 싶었다는 집필 동기",
+      "url": "https://ja.wikipedia.org/wiki/1Q84",
+      "quote": "執筆の動機として、ジョージ・オーウェルの近未来小説『1984年』を土台に、近過去の小説を書きたいと以前から思っていた"
+    },
+    {
+      "field": "works.1q84",
+      "claim": "아오마메와 덴고의 이야기가 번갈아, 3권에서 우시카와의 이야기 추가",
+      "url": "https://ja.wikipedia.org/wiki/1Q84",
+      "quote": "BOOK1、BOOK2では、スポーツインストラクターであると同時に暗殺者としての裏の顔を持つ青豆を描いた「青豆の物語」と、予備校教師で小説家を志す天吾を主人公とした「天吾の物語」が交互に描かれる。 BOOK3では2つの物語に加え、青豆と天吾を調査・探索する牛河を主人公とした「牛河の物語」が加わる。"
+    },
+    {
+      "field": "works.1q84.titleKo",
+      "claim": "한국어판 제목 『1Q84』(문학동네, 양윤옥 옮김) 판매 중",
+      "url": "https://search.kyobobook.co.kr/search?keyword=1Q84%20%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8%20%ED%95%98%EB%A3%A8%ED%82%A4&gbCode=TOT&target=total",
+      "quote": "[국내도서] 1Q84 1 더보기 닫기 · · | | | | 4월-6월 | 양장본 HardCover 무라카미 하루키 저자(글) | 양윤옥 번역 외 더보기 닫기 저자 모두보기 문학동네 · 2009년 08월 25일 10% 13,320 원 정가 14,800원"
+    },
+    {
+      "field": "works.shokugyo-to-shite-no-shosetsuka",
+      "claim": "2015년 9월 10일 스위치 퍼블리싱에서 간행, 『MONKEY』 연재·강연 원고·새로 쓴 글로 구성",
+      "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+      "quote": "2015年9月10日、スイッチ・パブリッシングより刊行された[1]。雑誌『MONKEY』に連載されたエッセイ「村上春樹私的講演録 職業としての小説家」、『考える人』に掲載された講演原稿[注 2]、および書き下ろしの文章から成る。"
+    },
+    {
+      "field": "works.shokugyo-to-shite-no-shosetsuka",
+      "claim": "첫 연재분(제1회)이 『MONKEY』 2013년 10월 7일 발행호에 실림 (연재 시작 해 = 2013)",
+      "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+      "quote": "第一回 小説家は寛容な人種なのか 『MONKEY』2013年10月7日発行 Vol.1"
+    },
+    {
+      "field": "works.shokugyo-to-shite-no-shosetsuka",
+      "claim": "제12회는 『考える人』 2013년 여름호에 실린 강연 원고",
+      "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+      "quote": "第十二回 物語があるところ・河合隼雄先生の思い出 『考える人』2013年夏号"
+    },
+    {
+      "field": "works.shokugyo-to-shite-no-shosetsuka",
+      "claim": "장 구성: 소설가가 된 무렵, 문학상, 오리지널리티",
+      "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+      "quote": "第二回 小説家になった頃 『MONKEY』2014年2月15日発行 Vol.2 デイブ・ヒルトン[注 4]、アゴタ・クリストフ、『風の歌を聴け』、向井滋春、高瀬アキ、杉本喜代志、川口大三郎事件[注 5] 第三回 文学賞について 『MONKEY』2014年6月15日発行 Vol.3 レイモンド・チャンドラー、ネルソン・オルグレン、芥川龍之介賞、群像新人文学賞 第四回 オリジナリティーについて"
+    },
+    {
+      "field": "works.shokugyo-to-shite-no-shosetsuka",
+      "claim": "장 구성: 장편소설 쓰기",
+      "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+      "quote": "第六回 時間を味方につける──長編小説を書くこと"
+    },
+    {
+      "field": "works.shokugyo-to-shite-no-shosetsuka",
+      "claim": "장 구성: 해외 진출, 제12회까지",
+      "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+      "quote": "第十一回 海外へ出て行く。新しいフロンティア 書き下ろし アマンダ・アーバン、サニー・メータ、ゲーリー・フィスケットジョン、ロバート・ゴッドリーブ、 リンダ・アッシャー、チップ・キッド、アルフレッド・バーンバウム、ジェイ・ルービン、 フィリップ・ガブリエル、テッド・グーセン 第十二回"
+    },
+    {
+      "field": "works.shokugyo-to-shite-no-shosetsuka.titleKo",
+      "claim": "한국어판 제목 『직업으로서의 소설가』(현대문학, 양윤옥 옮김) 판매 중",
+      "url": "https://search.kyobobook.co.kr/search?keyword=%EC%A7%81%EC%97%85%EC%9C%BC%EB%A1%9C%EC%84%9C%EC%9D%98%20%EC%86%8C%EC%84%A4%EA%B0%80&gbCode=TOT&target=total",
+      "quote": "무라카미 하루키 자전적 에세이 | 양장본 HardCover 무라카미 하루키 저자(글) | 양윤옥 번역 외 더보기 닫기 저자 모두보기 현대문학 · 2016년 04월 25일 10% 15,120 원 정가 16,800원"
+    },
+    {
+      "field": "relations.translation.raymond-carver",
+      "claim": "1983년 카버 작품집 번역, 2004년 『レイモンド・カーヴァー全集』 전 8권 번역 완료",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "1983年7月、レイモンド・カーヴァーの作品集『ぼくが電話をかけている場所』（中央公論社）を刊行。2004年7月、『レイモンド・カーヴァー全集』全8巻の翻訳を成し遂げた。"
+    },
+    {
+      "field": "relations.translation.raymond-carver",
+      "claim": "국립국회도서관 서지: 레이먼드 카버 지음, 무라카미 하루키 옮김, 중앙공론사",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I09111100403696",
+      "quote": "著者・編者 レイモンド・カーヴァー 著 ; 村上春樹 訳 タイトル標目 レイモンド・カーヴァー全集 レイモンド カー バー ゼンシュウ 著者標目 レイモンド・カーヴァー カ－ヴア－，レイモンド 村上春樹 ムラカミ，ハルキ 出版事項 東京 : 中央公論社"
+    },
+    {
+      "field": "relations.translation.raymond-carver",
+      "claim": "전집 3권 『大聖堂』 1990년 5월 20일 간행",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000134-I000096515",
+      "quote": "巻次・部編番号 ３ 部編名 大聖堂 著者・編者 村上春樹 出版事項 中央公論社 出版年月日等 1990.5.20"
+    },
+    {
+      "field": "relations.translation.f-scott-fitzgerald",
+      "claim": "1981년 첫 번역서 『マイ・ロスト・シティー』",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "1981年5月、中央公論社より初めての翻訳書『マイ・ロスト・シティー フィッツジェラルド作品集』を刊行。"
+    },
+    {
+      "field": "relations.translation.f-scott-fitzgerald",
+      "claim": "『マイ・ロスト・シティー』 개역판 소개문의 무라카미 발언",
+      "url": "https://www.chuko.co.jp/tanko/2006/05/403498.html",
+      "quote": "何年ものあいだ、フィッツジェラルドだけが僕の師であり、大学であり、文学仲間であった"
+    },
+    {
+      "field": "relations.translation.f-scott-fitzgerald",
+      "claim": "『グレート・ギャツビー』 무라카미 하루키 옮김, 2006년 11월 10일 초판",
+      "url": "https://www.chuko.co.jp/tanko/2006/11/403504.html",
+      "quote": "グレート・ギャツビー 村上春樹 訳 スコット・フィッツジェラルド 著 村上春樹が人生で巡り会った、最もたいせつな小説を、あなたに－－読書家として夢中になり、小説家として目標のひとつとしてきた名作に、翻訳家として挑む、構想二十年、満を持しての訳業。 書誌データ 初版刊行日2006/11/10"
+    },
+    {
+      "field": "relations.translation.jd-salinger",
+      "claim": "2003년 4월 『キャッチャー・イン・ザ・ライ』 신역 발표",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "同年4月、『ライ麦畑でつかまえて』のタイトルで親しまれてきたサリンジャーの長編の新訳『キャッチャー・イン・ザ・ライ』を発表。"
+    },
+    {
+      "field": "relations.translation.jd-salinger",
+      "claim": "국립국회도서관 서지: 샐린저 지음, 무라카미 하루키 옮김, 하쿠스이샤 2003.4",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000004087530",
+      "quote": "タイトル キャッチャー・イン・ザ・ライ タイトルよみ キャッチャー イン ザ ライ 著者・編者 J.D.サリンジャー [著] 村上春樹 訳 著者標目 Salinger, Jerome David, 1919-2010 ( 00455187 )典拠 村上, 春樹, 1949- ムラカミ, ハルキ, 1949- ( 00104237 )典拠 出版事項 東京 : 白水社 出版年月日等 2003.4"
+    },
+    {
+      "field": "relations.translation.ursula-k-le-guin",
+      "claim": "『空飛び猫』(Catwings) 르 귄 지음, 무라카미 하루키 옮김, 고단샤 1993.3",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002240348",
+      "quote": "タイトル 空飛び猫 タイトルよみ ソラトビ ネコ 著者・編者 アーシュラ・K.ル=グウィン 著 村上春樹 訳 S.D.シンドラー 絵 著者標目 Le Guin, Ursula K., 1929-2018 ( 00447081 )典拠 村上, 春樹, 1949- ムラカミ, ハルキ, 1949- ( 00104237 )典拠 Schindler, S. D., 1952- ( 00474569 )典拠 出版事項 東京 : 講談社 出版年月日等 1993.3"
+    },
+    {
+      "field": "relations.translation.ursula-k-le-guin",
+      "claim": "『帰ってきた空飛び猫』(Catwings return) 고단샤 1993.11",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002293787",
+      "quote": "タイトル 帰ってきた空飛び猫 タイトルよみ カエッテキタ ソラトビネコ 著者・編者 アーシュラ・K.ル=グウィン 著 村上春樹 訳 著者標目 Le Guin, Ursula K., 1929-2018 ( 00447081 )典拠 村上, 春樹, 1949- ムラカミ, ハルキ, 1949- ( 00104237 )典拠 出版事項 東京 : 講談社 出版年月日等 1993.11"
+    },
+    {
+      "field": "relations.translation.ursula-k-le-guin",
+      "claim": "『素晴らしいアレキサンダーと、空飛び猫たち』 고단샤 1997.6",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002608014",
+      "quote": "タイトル 素晴らしいアレキサンダーと、空飛び猫たち タイトルよみ スバラシイ アレキサンダー ト ソラトビネコタチ 著者・編者 アーシュラ・K.ル=グウィン 著 S.D.シンドラー 絵 村上春樹 訳 著者標目 Le Guin, Ursula K., 1929-2018 ( 00447081 )典拠 Schindler, S. D., 1952- ( 00474569 )典拠 村上, 春樹, 1949- ムラカミ, ハルキ, 1949- ( 00104237 )典拠 出版事項 東京 : 講談社 出版年月日等 1997.6"
+    },
+    {
+      "field": "relations.translation.ursula-k-le-guin",
+      "claim": "『空を駆けるジェーン』(Jane on her own) 고단샤 2001.9",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000003028271",
+      "quote": "タイトル 空を駆けるジェーン : 空飛び猫物語 タイトルよみ ソラ オ カケル ジェーン : ソラトビ ネコ モノガタリ 著者・編者 アーシュラ・K.ル=グウィン 著 村上春樹 訳 著者標目 Le Guin, Ursula K., 1929-2018 ( 00447081 )典拠 村上, 春樹, 1949- ムラカミ, ハルキ, 1949- ( 00104237 )典拠 出版事項 東京 : 講談社 出版年月日等 2001.9"
+    },
+    {
+      "field": "relations.documented_influence.fyodor-dostoevsky",
+      "claim": "인생에서 만난 가장 중요한 책 세 권으로 『グレート・ギャツビー』·『カラマーゾフの兄弟』·『ロング・グッドバイ』를 꼽음",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "「これまでの人生で巡り会ったもっとも重要な本」としてフィッツジェラルドの『グレート・ギャツビー』、ドストエフスキーの『カラマーゾフの兄弟』、そしてチャンドラーの『ロング・グッドバイ』の3冊を挙げている"
+    },
+    {
+      "field": "relations.documented_influence.fyodor-dostoevsky",
+      "claim": "그 발언의 출처는 『グレート・ギャツビー』(中央公論新社, 2006) 333쪽 후기",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "スコット・フィッツジェラルド 『グレート・ギャツビー』中央公論新社、2006年11月、333頁。あとがきより。"
+    },
+    {
+      "field": "relations.documented_influence.fyodor-dostoevsky",
+      "claim": "1990년대 후반부터 ‘종합소설’을 쓰고 싶다고 말하며 그 예로 『カラマーゾフの兄弟』를 듦",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+      "quote": "村上は1990年代後半より、しきりに「総合小説を書きたい」ということを口にしている。「総合小説」として村上はドストエフスキーの『カラマーゾフの兄弟』を引き合いに出している。"
+    }
+  ]
+}

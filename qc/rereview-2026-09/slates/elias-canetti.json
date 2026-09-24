@@ -1,0 +1,163 @@
+{
+  "id": "elias-canetti",
+  "page": "https://literary-planet.pages.dev/authors/elias-canetti/",
+  "author": {
+    "names": {
+      "ko": "엘리아스 카네티",
+      "original": "Elias Canetti",
+      "aliases": [
+        "카네티",
+        "Canetti"
+      ]
+    },
+    "birthYear": 1905,
+    "deathYear": 1994,
+    "activeRange": [
+      1932,
+      1985
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "importanceReason": "단 한 편의 장편 『현혹』에서 장서 2만 5천 권과 함께 불타는 중국학자를 통해, 지식이 세계와의 접촉을 끊었을 때 벌어지는 파국을 그렸다. 이후 30여 년을 군중이라는 현상 하나를 설명하는 데 쓴 『군중과 권력』은 신화·의례·정치사의 사례를 소설가의 관찰 문장으로 재배열해, 권력자를 '살아남은 자'로 규정하는 이론을 세웠다. 소설·희곡·비망록·자서전 사이를 오가며 장르 구분보다 관찰의 단위를 앞세운 글쓰기를 유지했고, 1981년 노벨문학상을 받았다.",
+    "readingEntry": "elias-canetti--die-gerettete-zunge",
+    "readingEntryReason": "짧은 장면 단위로 끊어지는 자서전이라 진입이 쉽고, 라디노어에서 독일어로 옮겨간 언어 획득의 내력이 이후의 소설과 이론이 어디서 나왔는지를 먼저 보여준다.",
+    "readingOrder": [
+      "elias-canetti--die-gerettete-zunge",
+      "elias-canetti--die-stimmen-von-marrakesch",
+      "elias-canetti--die-blendung",
+      "elias-canetti--masse-und-macht"
+    ],
+    "readingWarning": "『군중과 권력』을 첫 책으로 잡으면 출처 표시 없이 이어지는 인류학 사례의 나열에 방향을 잃기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "자서전과 여행기는 평이하지만 『현혹』은 인물 전원이 각자의 강박 안에 갇힌 채 진행되고, 『군중과 권력』은 논증보다 사례의 축적으로 밀고 나가 독자가 스스로 뼈대를 세워야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--canetti-broch-rede-1936",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "elias-canetti--hochzeit",
+      "titleKo": "결혼식",
+      "titleOriginal": "Hochzeit",
+      "year": 1932,
+      "genre": "drama",
+      "significance": "무너지기 직전의 임대 건물에 모인 인물들이 저마다 소유욕을 떠들다 붕괴를 맞는 희곡. 인물을 각자의 고정된 말투, 곧 '음향 가면'으로만 구성하는 그의 방법이 여기서 처음 실행되었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "elias-canetti--die-blendung",
+      "titleKo": "현혹",
+      "titleOriginal": "Die Blendung",
+      "year": 1935,
+      "genre": "fiction",
+      "significance": "장서 2만 5천 권과 함께 사는 중국학자가 가정부와의 결혼으로 세계와 충돌하다 서재와 함께 불타는 장편. 1930~31년에 쓰여 1935년에 나왔고, 그가 남긴 유일한 소설이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "elias-canetti--masse-und-macht",
+      "titleKo": "군중과 권력",
+      "titleOriginal": "Masse und Macht",
+      "year": 1960,
+      "genre": "essay-criticism",
+      "significance": "군중의 발생과 유형, 그리고 권력자를 '살아남은 자'로 규정하는 이론을 신화·의례·정치사의 사례로 구성한 연구. 1927년 빈 법원 방화 사건에서 겪은 군중 경험 이후 30여 년에 걸쳐 쓴 그의 중심 저작이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "elias-canetti--die-stimmen-von-marrakesch",
+      "titleKo": "마라케시의 목소리들",
+      "titleOriginal": "Die Stimmen von Marrakesch",
+      "year": 1968,
+      "genre": "essay-criticism",
+      "significance": "1954년 마라케시 체류의 기록으로, 알아듣지 못하는 언어를 소리로만 관찰하는 방식을 택해 여행기를 청각의 기록으로 바꾸었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "elias-canetti--die-gerettete-zunge",
+      "titleKo": "구제된 혀",
+      "titleOriginal": "Die gerettete Zunge",
+      "year": 1977,
+      "genre": "essay-criticism",
+      "significance": "라디노어를 쓰던 루세의 유년에서 어머니가 강제한 독일어 습득까지를 다룬 자서전 3부작의 첫 권으로, 왜 그가 독일어로 쓰게 되었는지를 언어 획득의 장면들로 설명한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nobelprize"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--elias-canetti--imre-kertesz",
+      "type": "translation",
+      "from": "elias-canetti (엘리아스 카네티)",
+      "to": "imre-kertesz (임레 케르테스)",
+      "evidenceLevel": "documented",
+      "summary": "같은 번역 이력의 일부로 케르테스는 카네티를 헝가리어로 옮겼다. 노벨 재단의 전기·저작 기록이 호프만스탈·슈니츨러·프로이트·비트겐슈타인과 함께 카네티를 그의 번역 목록에 올려 두었다.",
+      "sourceIds": [
+        "src--nobelprize"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "dialogue--hermann-broch--elias-canetti (→ hermann-broch 의 슬레이트에서 본다)",
+    "dialogue--robert-musil--elias-canetti (→ robert-musil 의 슬레이트에서 본다)",
+    "dialogue--thomas-mann--elias-canetti (→ thomas-mann 의 슬레이트에서 본다)",
+    "dialogue--bertolt-brecht--elias-canetti (→ bertolt-brecht 의 슬레이트에서 본다)",
+    "influence--franz-kafka--elias-canetti (→ franz-kafka 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--canetti-broch-rede-1936": {
+      "id": "src--canetti-broch-rede-1936",
+      "title": "엘리아스 카네티, 「헤르만 브로흐 — 50세 생일 연설, 빈 1936년 11월」",
+      "publisherOrInstitution": "『말의 양심』(Das Gewissen der Worte) 수록, Carl Hanser Verlag",
+      "citation": "두 작가의 빈 시절 교류와 브로흐 소설관에 대한 동시대 1차 증언"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

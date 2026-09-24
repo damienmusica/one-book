@@ -1,0 +1,217 @@
+{
+  "id": "henry-james",
+  "page": "https://literary-planet.pages.dev/authors/henry-james/",
+  "author": {
+    "names": {
+      "ko": "헨리 제임스",
+      "original": "Henry James",
+      "aliases": [
+        "제임스",
+        "Henry James Jr."
+      ]
+    },
+    "birthYear": 1843,
+    "deathYear": 1916,
+    "activeRange": [
+      1875,
+      1916
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america",
+      "britain-ireland"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "서술의 자리를 전지적 화자에서 한 인물의 중심 의식으로 옮기고, 사건을 그 의식이 감지하는 만큼만 제시하는 시점 통제를 소설의 기술로 정식화했다. 뉴욕판 서문에서 시점·구성·극화를 이론으로 정리해, 20세기 소설론과 창작 교육이 지금도 쓰는 어휘를 제공했다. 판단을 지연시키고 유보하는 후기의 문장은 의식의 흐름 서술이 등장하기 직전의 마지막 단계이며, 미국인이 유럽에서 겪는 문화 충돌을 소설의 항구적 주제로 만든 것도 그의 몫이다.",
+    "readingEntry": "henry-james--daisy-miller",
+    "readingEntryReason": "100쪽이 안 되는 초기 중편이라 후기의 난해한 문체를 만나기 전에 그의 주제와 시점 운용을 확인할 수 있다.",
+    "readingOrder": [
+      "henry-james--daisy-miller",
+      "henry-james--the-turn-of-the-screw",
+      "henry-james--the-portrait-of-a-lady",
+      "henry-james--the-art-of-fiction",
+      "henry-james--the-ambassadors"
+    ],
+    "readingWarning": "『대사들』이나 『황금 잔』 같은 후기 소설로 시작하면 한 문장이 반 페이지를 넘고 핵심어가 계속 유예되는 만년의 문체 때문에 거의 반드시 실패한다.",
+    "difficulty": 4,
+    "difficultyReason": "초기작은 평이하지만 후기 3부작에서 종속절이 겹겹이 쌓이고 사건이 인물의 추측으로만 전달되어, 문장 단위로 다시 읽지 않으면 무슨 일이 있었는지 확정되지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--james-ny-edition-prefaces",
+      "src--library-of-america",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "henry-james--daisy-miller",
+      "titleKo": "데이지 밀러",
+      "titleOriginal": "Daisy Miller",
+      "year": 1878,
+      "genre": "fiction",
+      "significance": "유럽의 관습을 무시하는 미국 처녀를 유럽화된 미국인 남자의 시선으로만 서술한다. 국제적 주제와 제한된 시점이라는 제임스의 두 방법이 처음 결합된 중편이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "henry-james--the-portrait-of-a-lady",
+      "titleKo": "여인의 초상",
+      "titleOriginal": "The Portrait of a Lady",
+      "year": 1881,
+      "genre": "fiction",
+      "significance": "유산을 물려받은 미국 여성이 자유를 행사한 결과 스스로 감옥을 선택하는 과정을 추적한다. 사건 없이 한 인물의 의식만으로 한 장(章)을 채운 밤샘 장면은 제임스 자신이 뉴욕판 서문에서 최선의 성취로 꼽은 대목이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--james-ny-edition-prefaces"
+      ]
+    },
+    {
+      "id": "henry-james--the-art-of-fiction",
+      "titleKo": "소설의 기술",
+      "titleOriginal": "The Art of Fiction",
+      "year": 1884,
+      "genre": "essay-criticism",
+      "significance": "소설에 도덕적 목적이나 정해진 종류의 사건이 필요하다는 통념을 반박하고, 소설을 경험의 인상을 조직하는 형식으로 정의한 논쟁적 에세이. 영어권 소설론의 출발 문서로 인용된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--library-of-america"
+      ]
+    },
+    {
+      "id": "henry-james--the-turn-of-the-screw",
+      "titleKo": "나사의 회전",
+      "titleOriginal": "The Turn of the Screw",
+      "year": 1898,
+      "genre": "fiction",
+      "significance": "가정교사의 수기만으로 전달되는 유령 이야기로, 유령이 실재하는지 화자의 환각인지 텍스트가 끝내 결정하지 않는다. 서술자의 신뢰성을 독자가 판정해야 하는 구조의 표준 사례다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "henry-james--the-ambassadors",
+      "titleKo": "대사들",
+      "titleOriginal": "The Ambassadors",
+      "year": 1903,
+      "genre": "fiction",
+      "significance": "청년을 데리러 파리에 간 중년 남자가 자기 삶을 다시 판단하게 되는 과정을, 그 한 사람의 의식이 감지하는 범위 안에서만 서술한다. 제임스가 자기 최고작으로 지목한 후기 문체의 완성형이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--james-ny-edition-prefaces"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--henry-james--joseph-conrad",
+      "type": "dialogue",
+      "from": "henry-james (헨리 제임스)",
+      "to": "joseph-conrad (조지프 콘래드)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 켄트와 서식스에 이웃해 살며 왕래했다. 콘래드는 1905년 「헨리 제임스 — 하나의 평가」를 써서 그를 산문의 스승으로 세웠고, 제임스는 1914년 「새로운 소설」에서 『운명』의 겹겹의 화자 구조를 조목조목 따졌다. 서로를 읽고 공개적으로 논평한 이 왕복이 영어 소설의 시점 실험을 밀고 나갔다.",
+      "anchors": [
+        {
+          "year": 1905
+        },
+        {
+          "year": 1914
+        }
+      ],
+      "sourceIds": [
+        "src--conrad-notes-on-life-and-letters-1921",
+        "src--james-notes-on-novelists-1914"
+      ]
+    },
+    {
+      "id": "influence--henry-james--gertrude-stein",
+      "type": "documented_influence",
+      "from": "henry-james (헨리 제임스)",
+      "to": "gertrude-stein (거트루드 스타인)",
+      "evidenceLevel": "documented",
+      "summary": "스타인은 1934–35년 미국 순회 강연에서 헨리 제임스를 20세기의 문학적 방법을 먼저 찾아낸 선구자로 지목하고 자기 계보를 그에게 댔다. 문장이 사건 대신 인식의 진행을 담게 만든다는 점에서 두 사람은 같은 문제를 붙들었다.",
+      "sourceIds": [
+        "src--stein-lectures-in-america-1935"
+      ]
+    },
+    {
+      "id": "influence--henry-james--james-baldwin",
+      "type": "documented_influence",
+      "from": "henry-james (헨리 제임스)",
+      "to": "james-baldwin (제임스 볼드윈)",
+      "evidenceLevel": "documented",
+      "summary": "볼드윈은 여러 대담에서 헨리 제임스를 자기 산문의 모델로 반복해 꼽았다. 종속절을 쌓아 올렸다가 마지막에 방향을 뒤집는 그의 긴 문장과, 미국인을 유럽에 세워 놓고 관찰하는 구도는 제임스에게서 온 장치다.",
+      "sourceIds": [
+        "src--paris-review"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--gustave-flaubert--henry-james (→ gustave-flaubert 의 슬레이트에서 본다)",
+    "influence--henrik-ibsen--henry-james (→ henrik-ibsen 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--james-ny-edition-prefaces": {
+      "id": "src--james-ny-edition-prefaces",
+      "title": "뉴욕판 서문집 (Prefaces to the New York Edition, 1907–1909)",
+      "publisherOrInstitution": "Charles Scribner's Sons",
+      "citation": "시점·중심 의식·극화(dramatize) 개념을 헨리 제임스 본인이 정식화한 소설론 1차 문헌"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--conrad-notes-on-life-and-letters-1921": {
+      "id": "src--conrad-notes-on-life-and-letters-1921",
+      "title": "Notes on Life and Letters (1921)",
+      "publisherOrInstitution": "J. M. Dent & Sons — Joseph Conrad",
+      "citation": "1905년에 쓴 「헨리 제임스 — 하나의 평가」가 수록된 콘래드의 산문집 — 제임스와의 관계에 대한 본인 진술의 1차 근거"
+    },
+    "src--james-notes-on-novelists-1914": {
+      "id": "src--james-notes-on-novelists-1914",
+      "title": "Notes on Novelists, with Some Other Notes (1914)",
+      "publisherOrInstitution": "Charles Scribner's Sons — Henry James",
+      "citation": "「귀스타브 플로베르」(1902)와 「새로운 소설」(1914)이 함께 실린 평론집 — 제임스가 플로베르를 '소설가의 소설가'로 규정한 대목과 콘래드 『운명』의 화자 구조를 따진 대목의 1차 문헌"
+    },
+    "src--stein-lectures-in-america-1935": {
+      "id": "src--stein-lectures-in-america-1935",
+      "title": "Lectures in America (1935)",
+      "publisherOrInstitution": "Random House — Gertrude Stein",
+      "citation": "1934–35년 미국 순회 강연을 묶은 책 — 헨리 제임스를 20세기 문학 방법의 선구자로 지목한 대목이 실린 1차 문헌"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    }
+  }
+}

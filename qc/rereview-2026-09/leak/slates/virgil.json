@@ -1,0 +1,166 @@
+{
+  "id": "virgil",
+  "page": "https://literary-planet.pages.dev/authors/virgil/",
+  "author": {
+    "names": {
+      "ko": "베르길리우스",
+      "original": "Publius Vergilius Maro",
+      "aliases": [
+        "버질"
+      ]
+    },
+    "birthYear": -70,
+    "deathYear": -19,
+    "activeRange": [
+      -42,
+      -19
+    ],
+    "languages": [
+      "la"
+    ],
+    "regions": [
+      "italy"
+    ],
+    "movements": [],
+    "genres": [
+      "epic",
+      "poetry"
+    ],
+    "importanceReason": "승리하는 영웅 대신 불탄 도시를 등에 지고 의무를 따르는 인물을 세워 로마의 건국 신화를 썼다. 방랑을 앞 여섯 권에, 전쟁을 뒤 여섯 권에 배치해 호메로스의 두 서사시를 뒤집어 놓고, 디도를 버리고 배를 띄우는 장면을 무게중심에 두어 서사시가 승리의 노래이면서 동시에 그 대가를 세는 장부일 수 있게 했다. 목가에서는 아르카디아라는 장소를 만들어, 르네상스 이후 유럽 시가 되풀이해 돌아가는 배경이 되었다.",
+    "readingEntry": "virgil--aeneis",
+    "readingEntryReason": "트로이아의 함락(2권)과 디도의 죽음(4권)이 각각 독립된 단위로 읽히면서 이 시인의 윤리 전체를 담고 있어, 열두 권 전체를 읽기 전에도 무엇이 걸려 있는지 곧바로 드러난다.",
+    "readingOrder": [
+      "virgil--aeneis",
+      "virgil--bucolica",
+      "virgil--georgica"
+    ],
+    "readingWarning": "『농경시』부터 들어가면 농사 지침의 나열로 보이기 쉽다. 이 시집의 층위는 『아이네이스』의 국가 서사를 먼저 겪은 뒤에야 드러난다.",
+    "difficulty": 3,
+    "difficultyReason": "이야기 자체는 따라가기 쉬우나 거의 모든 장면이 호메로스의 대응 장면과 겹쳐 읽히도록 짜여 있어 주석 없이는 절반이 지나가고, 『목가』는 내전기의 토지 몰수 같은 당대 정치가 알레고리로 깔려 있어 더 까다롭다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--treccani",
+      "src--macrobius-saturnalia",
+      "src--dante-inferno-i-maestro"
+    ]
+  },
+  "works": [
+    {
+      "id": "virgil--aeneis",
+      "titleKo": "아이네이스",
+      "titleOriginal": "Aeneis",
+      "year": -19,
+      "yearBasis": "composition-range",
+      "genre": "epic",
+      "significance": "트로이아를 떠난 아이네아스의 방랑과 라티움에서의 전쟁을 담은 열두 권으로, 시인의 유언과 달리 미완인 채 사후에 간행되었다. 디도를 두고 배를 띄우는 대목은 공적 의무가 개인을 어떻게 부수는지 보여주는 유럽 서사시의 표준 장면이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "virgil--bucolica",
+      "titleKo": "목가",
+      "titleOriginal": "Bucolica",
+      "year": -38,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "목동들의 노래 열 편. 내전기의 토지 몰수가 배경으로 깔린 이 시집에서 아르카디아는 실재하는 지방이면서도 시가 만든 장소가 되었고, 제4가는 중세 내내 예언으로 읽혔다.",
+      "sourceIds": []
+    },
+    {
+      "id": "virgil--georgica",
+      "titleKo": "농경시",
+      "titleOriginal": "Georgica",
+      "year": -29,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "농사·과수·목축·양봉을 네 권에 나누어 노래한 교훈시. 노동의 세부를 시의 소재로 삼다가 마지막 권의 오르페우스 삽화로 시집 전체를 신화 쪽으로 되돌려 놓는 구성을 취한다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--virgil--dante-alighieri",
+      "type": "documented_influence",
+      "from": "virgil (베르길리우스)",
+      "to": "dante-alighieri (단테 알리기에리)",
+      "evidenceLevel": "documented",
+      "summary": "단테는 『신곡』에서 베르길리우스를 지옥과 연옥의 안내자로 세우고, 「지옥」 제1곡에서 그를 '나의 스승이자 나의 저자'라 부른다.",
+      "sourceIds": [
+        "src--dante-inferno-i-maestro"
+      ]
+    },
+    {
+      "id": "influence--virgil--ts-eliot",
+      "type": "documented_influence",
+      "from": "virgil (베르길리우스)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 버질 협회 강연 「고전이란 무엇인가」(1944)에서 베르길리우스를 고전 개념 자체와 동일시했고 「베르길리우스와 기독교 세계」(1951)에서 그 논의를 이어갔다. 두 글 모두 『시와 시인론』(1957)에 실려 있다.",
+      "sourceIds": [
+        "src--eliot-on-poetry-and-poets-1957"
+      ]
+    },
+    {
+      "id": "influence--virgil--ovid",
+      "type": "documented_influence",
+      "from": "virgil (베르길리우스)",
+      "to": "ovid (오비디우스)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『변신 이야기』 13~14권은 아이네아스의 항해와 이탈리아 도착을 다시 서술해 라틴 문학 연구에서 '작은 아이네이스'로 불린다. 필립 하디의 『베르길리우스의 서사시 후계자들』은 오비디우스를 루카누스·스타티우스·발레리우스 플라쿠스·실리우스 이탈리쿠스와 함께 아이네이스 모델을 무기력하게 모방한 것이 아니라 창조적으로 되받은 계보 안에 놓고 그 역학을 분석한다.",
+      "sourceIds": [
+        "src--hardie-epic-successors-virgil"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--homer--virgil (→ homer 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--treccani": {
+      "id": "src--treccani",
+      "title": "Treccani — Enciclopedia Italiana / Dizionario Biografico degli Italiani",
+      "publisherOrInstitution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it",
+      "citation": "이탈리아 작가의 생애·저작 연보와 비평사 확인용 표준 참조"
+    },
+    "src--macrobius-saturnalia": {
+      "id": "src--macrobius-saturnalia",
+      "title": "사투르날리아 (Saturnalia)",
+      "publisherOrInstitution": "마크로비우스, 5세기",
+      "citation": "베르길리우스가 호메로스에게서 가져온 대목을 권별로 대조한 고대 주석 — 호메로스→베르길리우스 계보의 가장 오래된 정리"
+    },
+    "src--dante-inferno-i-maestro": {
+      "id": "src--dante-inferno-i-maestro",
+      "title": "『신곡』 「지옥」 제1곡",
+      "publisherOrInstitution": "Dante Alighieri, 1321년 완성",
+      "citation": "베르길리우스를 안내자로 세우고 '나의 스승이자 나의 저자'라 부르는 대목"
+    },
+    "src--eliot-on-poetry-and-poets-1957": {
+      "id": "src--eliot-on-poetry-and-poets-1957",
+      "title": "On Poetry and Poets (1957)",
+      "publisherOrInstitution": "Faber and Faber — T. S. Eliot",
+      "citation": "1940년 애비 극장에서 열린 제1회 예이츠 강연 「예이츠」가 수록된 평론집"
+    },
+    "src--hardie-epic-successors-virgil": {
+      "id": "src--hardie-epic-successors-virgil",
+      "title": "The Epic Successors of Virgil: A Study in the Dynamics of a Tradition",
+      "publisherOrInstitution": "Cambridge University Press (Roman Literature and its Contexts)",
+      "citation": "Philip Hardie, The Epic Successors of Virgil: A Study in the Dynamics of a Tradition, Cambridge: Cambridge University Press, 1993."
+    }
+  }
+}

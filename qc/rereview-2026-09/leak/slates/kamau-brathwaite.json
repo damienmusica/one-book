@@ -1,0 +1,178 @@
+{
+  "id": "kamau-brathwaite",
+  "page": "https://literary-planet.pages.dev/authors/kamau-brathwaite/",
+  "author": {
+    "names": {
+      "ko": "카마우 브래스웨이트",
+      "original": "Kamau Brathwaite",
+      "aliases": [
+        "Edward Kamau Brathwaite"
+      ]
+    },
+    "birthYear": 1930,
+    "deathYear": 2020,
+    "activeRange": [
+      1967,
+      2020
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "caribbean"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism",
+      "history"
+    ],
+    "importanceReason": "'네이션 랭귀지'라는 이름으로 카리브 구어의 운율을 시학으로 정식화하고, 아프리카와 신대륙을 삼부작 장시로 묶었다. 가나에서 보낸 7년의 경험을 「가면」에 넣어 아칸의 신명(오도만코마)과 아툼판 북의 장단을 영어 시행의 척도로 세웠고, 『목소리의 역사』에서는 캘립소와 블루스의 박자를 약강 5보격에 맞서는 척도로 기술했다. 후기에는 활자 크기와 배치 자체가 의미를 만드는 조판법을 밀어붙여 시의 물성을 논쟁거리로 만들었다.",
+    "readingEntry": "kamau-brathwaite--rights-of-passage",
+    "readingEntryReason": "삼부작의 첫 권이고, 아프리카에서 신대륙으로 이어지는 이주를 블루스와 재즈의 박자로 밀고 가 소리로 먼저 읽힌다. 개념 설명 없이도 리듬이 논지를 전달한다.",
+    "readingOrder": [
+      "kamau-brathwaite--rights-of-passage",
+      "kamau-brathwaite--history-of-the-voice",
+      "kamau-brathwaite--the-arrivants",
+      "kamau-brathwaite--the-development-of-creole-society-in-jamaica"
+    ],
+    "readingWarning": "『도착한 사람들』을 처음부터 통독하려 하면 세 권 분량의 지명과 아칸 신격 이름에 막히기 쉽다. 「통과의 권리」 한 권을 소리 내어 먼저 읽는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "표준 영어와 바베이도스 구어, 아칸어 어휘가 시집들에 걸쳐 교대해 소리 내어 읽지 않으면 리듬이 잡히지 않는다. 후기 시집은 'Sycorax video style'이라 부른 활자 배치가 의미의 일부라서 묵독과 번역 모두를 어렵게 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation"
+    ]
+  },
+  "works": [
+    {
+      "id": "kamau-brathwaite--the-development-of-creole-society-in-jamaica",
+      "titleKo": "자메이카 크레올 사회의 형성",
+      "titleOriginal": "The Development of Creole Society in Jamaica, 1770–1820",
+      "year": 1971,
+      "yearBasis": "attested",
+      "genre": "history",
+      "significance": "박사논문을 바탕으로 한 사회사 연구로, 브래스웨이트의 카리브 문화 '크레올화 모델'의 토대가 되었다. 그의 시학이 딛고 선 역사적 근거다.",
+      "sourceIds": []
+    },
+    {
+      "id": "kamau-brathwaite--history-of-the-voice",
+      "titleKo": "목소리의 역사",
+      "titleOriginal": "History of the Voice: The Development of Nation Language in Anglophone Caribbean Poetry",
+      "year": 1984,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "강연에서 출발한 짧은 산문으로 '네이션 랭귀지' 개념을 정식화했다. 카리브 시의 박자를 약강 5보격이 아니라 캘립소와 블루스의 리듬에서 도출해, 영어권 카리브 시학의 기준 문서가 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "kamau-brathwaite--rights-of-passage",
+      "titleKo": "통과의 권리",
+      "titleOriginal": "Rights of Passage",
+      "year": 1967,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "신대륙 삼부작의 첫 권으로, 노예선 이후의 이주와 유랑을 블루스·재즈의 박자에 실어 서술한다. 카리브 구어를 시의 척도로 삼은 브래스웨이트의 방법이 처음 규모를 얻은 시집.",
+      "sourceIds": []
+    },
+    {
+      "id": "kamau-brathwaite--the-arrivants",
+      "titleKo": "도착한 사람들",
+      "titleOriginal": "The Arrivants: A New World Trilogy",
+      "year": 1973,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "「통과의 권리」·「가면」·「섬들」을 한 권으로 묶은 신대륙 삼부작의 완성판. 신대륙으로 흩어진 이산, 「가면」의 아프리카 쪽 귀환, 「섬들」의 카리브 귀착으로 이어지는 여정을 아칸의 북 장단과 카리브 구어로 엮었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--edouard-glissant--kamau-brathwaite",
+      "type": "affinity",
+      "from": "edouard-glissant (에두아르 글리상)",
+      "to": "kamau-brathwaite (카마우 브래스웨이트)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "글리상은 『앙티유 담론』(1981)에서 créolisation을 플랜테이션 아메리카 사회 전반이 형성되는 과정으로 서술했고, 브래스웨이트는 『자메이카 크레올 사회의 형성』(1971)에서 영어권 카리브의 creolization을 같은 이름으로 기술했다.",
+      "sourceIds": [
+        "src--glissant-discours-antillais-1981"
+      ]
+    },
+    {
+      "id": "influence--ts-eliot--kamau-brathwaite",
+      "type": "documented_influence",
+      "from": "ts-eliot (T. S. 엘리엇)",
+      "to": "kamau-brathwaite (카마우 브래스웨이트)",
+      "evidenceLevel": "documented",
+      "summary": "브래스웨이트는 『목소리의 역사』(1984)에서 엘리엇의 낭독 음반이 서인도제도 시인들에게 준 충격 — 웅변조가 아니라 건조하고 무표정하게 말하는 목소리 — 을 네이션 랭귀지의 전사(前史)로 명시한다.",
+      "sourceIds": [
+        "src--brathwaite-history-of-the-voice-1984"
+      ]
+    },
+    {
+      "id": "contrast--kamau-brathwaite--derek-walcott",
+      "type": "contrast",
+      "from": "kamau-brathwaite (카마우 브래스웨이트)",
+      "to": "derek-walcott (데릭 월컷)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "영어권 카리브 시학의 표준 대립축. 브래스웨이트는 아프리카 구어의 박자를 척도로 삼고, 월컷은 「역사의 뮤즈」(1974)에서 아프리카로의 소급과 복수의 역사관을 거부하며 '모든 조상의 특징을 흡수하는 성숙'을 택한다.",
+      "sourceIds": [
+        "src--walcott-muse-of-history",
+        "src--brathwaite-history-of-the-voice-1984"
+      ]
+    },
+    {
+      "id": "affinity--kamau-brathwaite--ngugi-wa-thiongo",
+      "type": "affinity",
+      "from": "kamau-brathwaite (카마우 브래스웨이트)",
+      "to": "ngugi-wa-thiongo (응구기 와 시옹오)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "응구기는 『정신의 탈식민화』(1986)에서 영어와 결별하고 기쿠유어로 쓰겠다고 선언했고, 브래스웨이트의 네이션 랭귀지는 같은 문제 — 식민자의 언어로 쓰는 대가 — 에 대한 다른 갈래의 해법이다.",
+      "sourceIds": [
+        "src--ngugi-decolonising-the-mind"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--glissant-discours-antillais-1981": {
+      "id": "src--glissant-discours-antillais-1981",
+      "title": "Le Discours antillais (1981)",
+      "publisherOrInstitution": "Éditions du Seuil (Paris)",
+      "citation": "글리상의 앙티야니테 선언에 해당하는 에세이집 — 네그리튀드에 대한 그의 거리 두기가 여기에 기술되어 있다."
+    },
+    "src--brathwaite-history-of-the-voice-1984": {
+      "id": "src--brathwaite-history-of-the-voice-1984",
+      "title": "History of the Voice (1984)",
+      "publisherOrInstitution": "New Beacon Books (London)",
+      "citation": "브래스웨이트가 네이션 랭귀지 개념을 정식화한 산문 — 엘리엇 낭독 음반의 영향을 자기 입으로 기록한 대목이 들어 있다."
+    },
+    "src--walcott-muse-of-history": {
+      "id": "src--walcott-muse-of-history",
+      "title": "The Muse of History (1974)",
+      "publisherOrInstitution": "Is Massa Day Dead? (Anchor Press) 수록 에세이",
+      "citation": "식민 지배에 대한 원한의 문학과 향수의 문학을 모두 거부한 월컷의 입장 — 네그리튀드 계열과 갈라서는 지점의 1차 문헌"
+    },
+    "src--ngugi-decolonising-the-mind": {
+      "id": "src--ngugi-decolonising-the-mind",
+      "title": "Decolonising the Mind: The Politics of Language in African Literature (1986)",
+      "publisherOrInstitution": "James Currey / Heinemann Educational Books",
+      "citation": "응구기가 영어로 쓰기를 그만두겠다고 밝힌 서문과 언어 전환의 논거 — 기쿠유어 전환의 1차 문헌"
+    }
+  }
+}

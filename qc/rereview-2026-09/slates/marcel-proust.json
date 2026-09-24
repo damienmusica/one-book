@@ -1,0 +1,275 @@
+{
+  "id": "marcel-proust",
+  "page": "https://literary-planet.pages.dev/authors/marcel-proust/",
+  "author": {
+    "names": {
+      "ko": "마르셀 프루스트",
+      "original": "Marcel Proust",
+      "aliases": [
+        "프루스트",
+        "Proust"
+      ]
+    },
+    "birthYear": 1871,
+    "deathYear": 1922,
+    "activeRange": [
+      1896,
+      1922
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "기억을 회상의 소재가 아니라 서술의 원리로 삼아, 한 문장 안에 여러 시간대를 겹쳐 붙드는 구문을 만들었다. 일곱 권의 『잃어버린 시간을 찾아서』를 원환으로 닫아, 마지막 권에 이르러 이 책을 쓰기로 하는 결심이 서사의 종착점이자 출발점이 되게 했다. 사교계의 사회학, 예술론, 질투의 심리학, 동성애의 서술을 한 서사 안에 포개면서 장편소설이 담을 수 있는 것의 범위를 다시 그었다.",
+    "readingEntry": "marcel-proust--du-cote-de-chez-swann",
+    "readingEntryReason": "연작의 1권이자 콩브레의 유년, 스완의 연애, 화자의 첫사랑이라는 세 덩어리가 각각 다른 서술 방식으로 붙어 있어 프루스트의 방법을 한 권에서 모두 볼 수 있다.",
+    "readingOrder": [
+      "marcel-proust--du-cote-de-chez-swann",
+      "marcel-proust--a-l-ombre-des-jeunes-filles-en-fleurs",
+      "marcel-proust--le-cote-de-guermantes",
+      "marcel-proust--sodome-et-gomorrhe",
+      "marcel-proust--le-temps-retrouve"
+    ],
+    "readingWarning": "「스완의 사랑」만 따로 떼어 읽고 프루스트를 읽었다고 여기기 쉽다. 그 장은 화자가 태어나기 전의 일이라 3인칭으로 서술되고, 연작 전체를 지탱하는 1인칭 회상의 구조가 빠져 있다.",
+    "difficulty": 4,
+    "difficultyReason": "한 문장이 한 쪽을 넘기며 종속절로 뻗고, 사건이 아니라 지각의 미세한 변화가 수십 쪽을 차지한다. 인물 수백 명이 수십 년에 걸쳐 다시 등장하므로 앞 권의 이름을 기억한 채로 읽어야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "marcel-proust--du-cote-de-chez-swann",
+      "titleKo": "스완네 집 쪽으로",
+      "titleOriginal": "Du côté de chez Swann",
+      "year": 1913,
+      "genre": "fiction",
+      "significance": "연작의 1권. 마들렌을 적신 홍차 한 모금에서 콩브레 전체가 되살아나는 장면으로 비자발적 기억이라는 이 작품의 작동 원리를 처음 제시한다. 출판사들에 거절당해 자비로 냈다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "marcel-proust--a-l-ombre-des-jeunes-filles-en-fleurs",
+      "titleKo": "꽃핀 소녀들의 그늘에서",
+      "titleOriginal": "À l'ombre des jeunes filles en fleurs",
+      "year": 1919,
+      "genre": "fiction",
+      "significance": "발베크 해변에서 알베르틴 무리를 만나는 2권. 공쿠르상을 받으며 프루스트를 무명의 사교계 인사에서 당대의 소설가로 옮겨 놓았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "marcel-proust--le-cote-de-guermantes",
+      "titleKo": "게르망트 쪽",
+      "titleOriginal": "Le Côté de Guermantes",
+      "year": 1920,
+      "genre": "fiction",
+      "significance": "화자가 귀족 사교계에 진입하는 3권. 동경하던 이름들이 가까이서 보면 진부한 사람들로 바뀌는 과정을 통해 연작 전체의 환멸 구조를 세운다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "marcel-proust--sodome-et-gomorrhe",
+      "titleKo": "소돔과 고모라",
+      "titleOriginal": "Sodome et Gomorrhe",
+      "year": 1921,
+      "genre": "fiction",
+      "significance": "동성애를 은폐된 스캔들이 아니라 사회 전체를 가로지르는 구조로 서술한 4권. 20세기 초 프랑스 소설이 이 주제를 정면으로 다룬 드문 사례다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "marcel-proust--le-temps-retrouve",
+      "titleKo": "되찾은 시간",
+      "titleOriginal": "Le Temps retrouvé",
+      "year": 1927,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "사후 출간된 마지막 권. 늙어 버린 인물들의 마지막 파티에서 화자가 이 책을 쓰기로 결심하며, 연작의 끝이 그 시작으로 이어지는 원환을 닫는다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "marcel-proust--contre-sainte-beuve",
+      "titleKo": "생트뵈브에 반하여",
+      "titleOriginal": "Contre Sainte-Beuve",
+      "year": 1954,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "사후 원고에서 편집된 비평. 작품을 작가의 생애로 설명하는 방법을 반박하며, 책을 쓰는 자아는 사교계의 자아와 다른 사람이라는 명제를 세운다. 『잃어버린 시간을 찾아서』의 이론적 예고편에 해당한다.",
+      "sourceIds": [
+        "src--pleiade"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--marcel-proust--virginia-woolf",
+      "type": "documented_influence",
+      "from": "marcel-proust (마르셀 프루스트)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "documented",
+      "summary": "울프는 1922년 로저 프라이에게 프루스트가 자기 표현 욕구를 너무 자극해 문장을 쓸 수 없을 지경이라고 썼다. 『잃어버린 시간을 찾아서』를 읽던 해가 『댈러웨이 부인』의 구상기와 겹치고, 지각의 미세한 진동을 문장의 길이로 감당하는 방식이 그 뒤 그의 산문에 들어온다.",
+      "anchors": [
+        {
+          "year": 1922
+        },
+        {
+          "workId": "virginia-woolf--mrs-dalloway"
+        }
+      ],
+      "sourceIds": [
+        "src--woolf-letters-diary"
+      ]
+    },
+    {
+      "id": "affinity--marcel-proust--robert-musil",
+      "type": "affinity",
+      "from": "marcel-proust (마르셀 프루스트)",
+      "to": "robert-musil (로베르트 무질)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "유럽 모더니즘 장편 연구는 『잃어버린 시간을 찾아서』와 『특성 없는 남자』를 함께 다룬다. 사건의 진행 대신 지각과 사유가 서사를 채우고, 작가의 죽음으로 완결이 유예된 대(大)장편이라는 조건이 같기 때문이다. 두 사람 사이에 직접 접촉의 기록은 없다.",
+      "anchors": [
+        {
+          "workId": "robert-musil--der-mann-ohne-eigenschaften"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--marcel-proust--kazuo-ishiguro",
+      "type": "documented_influence",
+      "from": "marcel-proust (마르셀 프루스트)",
+      "to": "kazuo-ishiguro (가즈오 이시구로)",
+      "evidenceLevel": "documented",
+      "summary": "이시구로는 파리 리뷰 인터뷰를 비롯한 여러 자리에서 『스완네 집 쪽으로』의 도입부를 읽고 장면을 사건이 아니라 연상으로 잇는 법을 배웠다고 밝혔다. 화자의 회상이 시간 순서 대신 기억의 연결을 따라 움직이는 그의 구성이 여기서 나왔다.",
+      "anchors": [
+        {
+          "workId": "marcel-proust--du-cote-de-chez-swann"
+        }
+      ],
+      "sourceIds": [
+        "src--paris-review"
+      ]
+    },
+    {
+      "id": "influence--marcel-proust--samuel-beckett",
+      "type": "documented_influence",
+      "from": "marcel-proust (마르셀 프루스트)",
+      "to": "samuel-beckett (사뮈엘 베케트)",
+      "evidenceLevel": "documented",
+      "summary": "베케트는 1931년 런던에서 단행본 『Proust』를 냈다. 습관을 지각을 마비시키는 장치로, 기억을 의지로 불러올 수 없는 것으로 읽은 이 논고는 이후 그의 소설이 다루게 되는 시간과 반복의 문제를 미리 정리해 놓았다.",
+      "anchors": [
+        {
+          "year": 1931
+        }
+      ],
+      "sourceIds": [
+        "src--beckett-proust-1931"
+      ]
+    },
+    {
+      "id": "influence--marcel-proust--vladimir-nabokov",
+      "type": "documented_influence",
+      "from": "marcel-proust (마르셀 프루스트)",
+      "to": "vladimir-nabokov (블라디미르 나보코프)",
+      "evidenceLevel": "documented",
+      "summary": "나보코프는 코넬대 강의에서 『스완네 집 쪽으로』를 다루며 기억이 사건을 뒤늦게 재구성하는 방식을 분석했다. 『Lectures on Literature』(1980)에 남은 이 독서는 『말하라, 기억이여』의 회상 구조와 함께 읽힌다.",
+      "anchors": [
+        {
+          "workId": "marcel-proust--du-cote-de-chez-swann"
+        },
+        {
+          "workId": "vladimir-nabokov--speak-memory"
+        },
+        {
+          "year": 1980
+        }
+      ],
+      "sourceIds": [
+        "src--nabokov-lectures-on-literature"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--gustave-flaubert--marcel-proust (→ gustave-flaubert 의 슬레이트에서 본다)",
+    "influence--fyodor-dostoevsky--marcel-proust (→ fyodor-dostoevsky 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--woolf-letters-diary": {
+      "id": "src--woolf-letters-diary",
+      "title": "버지니아 울프 일기·서간 (The Diary of Virginia Woolf / The Letters of Virginia Woolf)",
+      "publisherOrInstitution": "The Hogarth Press / Harcourt Brace Jovanovich",
+      "citation": "1922년 로저 프라이 앞 편지의 프루스트 언급, 같은 해 『율리시스』에 대한 일기의 혹평, 1923년 맨스필드의 죽음 뒤 남긴 질투의 기록 등이 실린 1차 자료"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--beckett-proust-1931": {
+      "id": "src--beckett-proust-1931",
+      "title": "『Proust』 (1931)",
+      "publisherOrInstitution": "Chatto & Windus, London",
+      "citation": "베케트가 습관·기억·시간을 축으로 『잃어버린 시간을 찾아서』를 읽은 단행본 논고 — 그의 초기 미학이 정리된 1차 문헌"
+    },
+    "src--nabokov-lectures-on-literature": {
+      "id": "src--nabokov-lectures-on-literature",
+      "title": "『Lectures on Literature』 (Fredson Bowers 편, 1980)",
+      "publisherOrInstitution": "Harcourt Brace Jovanovich",
+      "citation": "웰즐리·코넬대 강의 노트를 사후에 묶은 책 — 플로베르·조이스·프루스트·카프카에 대한 나보코프의 독서를 문장 단위로 보여주는 기록"
+    }
+  }
+}

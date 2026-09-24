@@ -1,0 +1,601 @@
+{
+  "silhouette": {
+    "id": "yun-dong-ju",
+    "names": {
+      "ko": "윤동주",
+      "original": "윤동주",
+      "aliases": [
+        "尹東柱",
+        "Yun Dong-ju",
+        "Yun Tong-chu"
+      ]
+    },
+    "birthYear": 1917,
+    "deathYear": 1945,
+    "activeRange": [
+      1936,
+      1942
+    ],
+    "anchorYear": 1941,
+    "gender": "male",
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "tier": "major",
+    "wikidata": "Q625089"
+  },
+  "plate": {
+    "id": "yun-dong-ju",
+    "importanceReason": "우물을 들여다보고 거울을 닦고 별 하나하나에 이름을 불러 보는 행위를 시의 뼈대로 삼아, 자기 얼굴을 응시하며 부끄러워하는 1인칭 화자를 한국어 서정시에 세웠다. 1941년 연희전문 졸업 때 스스로 고른 19편으로 시집을 내려 했으나 이루지 못했고, 1943년 7월 귀향 직전 항일운동 혐의로 검거되어 1945년 2월 후쿠오카형무소에서 죽었다. 1948년 정병욱과 아우 윤일주가 유고를 모아 정지용의 서문을 붙여 『하늘과 바람과 별과 시』로 펴냈고, 시 끝에 적어 둔 창작 날짜를 따라 1939년부터 1942년까지의 자기 성찰을 차례로 읽을 수 있다.",
+    "genres": [
+      "poetry"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "어휘와 통사가 평이하고 한 편이 짧다. 초간본을 되살린 판은 '太初의 아츰' 같은 옛 표기와 한자를 그대로 두어 걸리는 대목이 있고, 「쉽게 씌어진 시」와 「참회록」의 무게는 1942년 일본 유학을 전후한 사정을 알 때 제대로 드러난다.",
+    "works": [
+      {
+        "id": "yun-dong-ju--haneulgwa-baramgwa-byeolgwa-si",
+        "titleKo": "하늘과 바람과 별과 시",
+        "titleOriginal": "하늘과 바람과 별과 詩",
+        "year": 1948,
+        "yearBasis": "first-print",
+        "genre": "poetry",
+        "significance": "1941년 연희전문 졸업을 기념해 스스로 고른 19편으로 자필 시집 세 부를 만들었으나, 이양하가 검열 통과를 걱정해 출간을 만류하면서 보류되었다. 1948년 정병욱의 주선으로 유고 31편을 3부로 묶고 정지용의 서문을 붙여 정음사에서 펴냈고, 1968년 증보판은 시 66편·동시 22편·산문 5편으로 늘었다."
+      },
+      {
+        "id": "yun-dong-ju--jahwasang",
+        "titleKo": "자화상",
+        "titleOriginal": "自畵像",
+        "year": 1941,
+        "genre": "poetry",
+        "significance": "1939년 9월에 쓰고 1941년 6월 연희전문 교지 『문우』에 「우물속의 자상화(自像畵)」라는 제목으로 실은 시다. 산모퉁이 외딴 우물을 세 번 찾아가 들여다보는 동안 미움·가엾음·그리움이 번갈아 드는 구조로, 자기를 응시하는 윤동주 시의 기본 자세를 보여 준다."
+      },
+      {
+        "id": "yun-dong-ju--seosi",
+        "titleKo": "서시",
+        "titleOriginal": "序詩",
+        "year": 1948,
+        "yearBasis": "first-print",
+        "genre": "poetry",
+        "significance": "1941년 11월 20일 제목 없이 쓴 시로, 1948년 유고 시집을 낼 때 아우 윤일주와 후배 정병욱이 논의해 '서시'라는 제목을 붙이고 시집 맨 앞에 놓았다. 하늘·바람·별에 부끄럼·괴로움·사랑을 한 부분씩 맞물린 짧은 시가 시집 전체의 서문 노릇을 한다."
+      },
+      {
+        "id": "yun-dong-ju--byeol-heneun-bam",
+        "titleKo": "별 헤는 밤",
+        "titleOriginal": "별헤는 밤",
+        "year": 1948,
+        "yearBasis": "first-print",
+        "genre": "poetry",
+        "significance": "1941년 11월 5일에 쓴 10연 30행의 시로, 별 하나마다 소학교 친구들과 이웃, 짐승, 그리고 프랑시스 잠과 라이너 마리아 릴케의 이름을 불러 보며 북간도의 어머니와 떨어진 거리를 잰다. 자필 원고에는 마지막 4행이 창작 날짜 뒤에 적혀 있어 완성 뒤에 덧붙인 것으로 추정된다."
+      },
+      {
+        "id": "yun-dong-ju--swipge-ssiwojin-si",
+        "titleKo": "쉽게 씌어진 시",
+        "titleOriginal": "쉽게 씨워진 詩",
+        "year": 1947,
+        "yearBasis": "first-print",
+        "genre": "poetry",
+        "significance": "도쿄 릿쿄대학에 유학 중이던 1942년 6월 3일에 쓴 시로, 첫 연에서 '육첩방(六疊房)은 남의 나라'라고 쓴 뒤 시나 쓰는 자신의 무력을 부끄러워하다가 두 자아가 나누는 '최초의 악수'로 끝난다. 1947년 2월 13일 정지용의 소개문과 함께 『경향신문』에 처음 실렸다."
+      },
+      {
+        "id": "yun-dong-ju--chamhoerok",
+        "titleKo": "참회록",
+        "titleOriginal": "懺悔錄",
+        "year": 1948,
+        "yearBasis": "first-print",
+        "genre": "poetry",
+        "significance": "1942년 1월 24일에 쓴 시로, 파란 녹이 낀 구리거울에 남은 얼굴을 '어느 왕조의 유물'로 보며 만 스물네 해의 삶을 한 줄의 참회로 줄인다. 자필 원고 아래쪽에는 '詩란? 不知道', '生存', '生活', '힘' 같은 낙서가 남아 있다."
+      }
+    ],
+    "readingEntry": "yun-dong-ju--haneulgwa-baramgwa-byeolgwa-si",
+    "readingEntryReason": "1941년에 스스로 고른 19편(「서시」에서 「별 헤는 밤」까지)이 앞부분을 이루고 한 편 한 편이 짧아, 한자리에서 한 권을 읽으며 우물과 별로 이어지는 자기 응시의 흐름을 따라갈 수 있다. 지금 서점에 있는 판본(예: 1955년 정음사 판을 되살린 더스토리 판, 2024)은 정지용의 서문과 「쉽게 씌어진 시」, 산문까지 함께 싣는다.",
+    "readingOrder": [
+      "yun-dong-ju--haneulgwa-baramgwa-byeolgwa-si",
+      "yun-dong-ju--jahwasang",
+      "yun-dong-ju--byeol-heneun-bam",
+      "yun-dong-ju--swipge-ssiwojin-si",
+      "yun-dong-ju--chamhoerok"
+    ],
+    "readingWarning": "『사진판 윤동주 자필 시고전집』(민음사, 1999)은 자필 원고를 사진으로 싣고 퇴고 과정을 각주로 단 392쪽의 연구용 판본이라 첫 책으로는 맞지 않는다. 시집을 먼저 읽은 뒤 「별 헤는 밤」이나 「참회록」의 원고를 확인하는 데 쓰는 편이 낫다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--haneulgwa-baramgwa-byeolgwa-si-1948",
+      "src--haneulgwa-baramgwa-byeolgwa-si-1955",
+      "src--yun-dong-ju-japil-sigo-jeonjip-1999"
+    ],
+    "newSources": [
+      {
+        "id": "src--haneulgwa-baramgwa-byeolgwa-si-1948",
+        "title": "윤동주, 『하늘과 바람과 별과 詩』 초간본 (1948) — 정지용 서문·강처중 발문·유령 추도시 수록",
+        "publisherOrInstitution": "정음사",
+        "citation": "유고 31편 3부 구성. 한국어 위키문헌 전사본 기준",
+        "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)"
+      },
+      {
+        "id": "src--haneulgwa-baramgwa-byeolgwa-si-1955",
+        "title": "윤동주, 『하늘과 바람과 별과 詩』 10주기 증보판 (1955) — 시마다 창작 날짜 표기",
+        "publisherOrInstitution": "정음사",
+        "citation": "한국어 위키문헌 전사본 기준",
+        "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)"
+      },
+      {
+        "id": "src--yun-dong-ju-japil-sigo-jeonjip-1999",
+        "title": "『사진판 윤동주 자필 시고전집』 (1999) — 자필 시고, 백석 『사슴』 필사본, 정지용·김영랑 시집 소장본 자필 메모, 소장 도서 목록 수록",
+        "publisherOrInstitution": "민음사",
+        "citation": "ISBN 978-89-374-0677-5, 392쪽",
+        "url": "https://minumsa.minumsa.com/book/653/"
+      },
+      {
+        "id": "src--kim-eung-gyo-baek-seok-dongju-2020",
+        "title": "김응교, 『서른세 번의 만남, 백석과 동주』 (2020)",
+        "publisherOrInstitution": "아카넷",
+        "url": "https://www.yes24.com/Product/Goods/95783820"
+      },
+      {
+        "id": "src--yun-seok-seong-rilke-suyong-2008",
+        "title": "윤석성, 「한국 시의 릴케 受容」, 『동악어문학』 50 (2008), 289–310쪽",
+        "publisherOrInstitution": "동악어문학회",
+        "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001251469"
+      },
+      {
+        "id": "src--mun-hyeon-mi-yun-dong-ju-rilke-1999",
+        "title": "문현미, 「윤동주의 나르시즘적 존재론: 윤동주와 릴케 시문학의 거울 모티브를 중심으로」, 『한국시학연구』 2 (1999. 11.)",
+        "publisherOrInstitution": "한국시학회",
+        "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE00992889"
+      }
+    ],
+    "relations": [
+      {
+        "type": "documented_influence",
+        "sourceId": "jeong-ji-yong",
+        "targetId": "yun-dong-ju",
+        "evidenceLevel": "documented",
+        "summary": "윤동주가 1936년 3월 19일 '동주소장'이라 적어 둔 『정지용 시집』 소장본에는 밑줄과 단어 풀이 메모가 남아 있고, 이 메모들은 『사진판 윤동주 자필 시고전집』(민음사, 1999)에 사진으로 실렸다. 정지용은 생전의 윤동주를 몰랐다고 쓰면서도 1948년 유고 시집 『하늘과 바람과 별과 시』의 서문을 썼고, 1947년 2월 13일 「쉽게 씌어진 시」가 『경향신문』에 처음 실릴 때 소개문을 썼다.",
+        "weight": 0.8,
+        "sourceIds": [
+          "src--yun-dong-ju-japil-sigo-jeonjip-1999",
+          "src--haneulgwa-baramgwa-byeolgwa-si-1948",
+          "src--encykorea"
+        ]
+      },
+      {
+        "type": "documented_influence",
+        "sourceId": "baek-seok",
+        "targetId": "yun-dong-ju",
+        "evidenceLevel": "documented",
+        "summary": "윤동주는 100부 한정으로 나온 백석의 시집 『사슴』(1936)을 구하지 못해 1937년 8월 도서관에서 수록시 33편을 원고지에 모두 베껴 필사본을 만들었고, 「모닥불」 필사 끝에 붉은 색연필로 '걸작이다'라고 적었다. 이 필사본은 『사진판 윤동주 자필 시고전집』(민음사, 1999)에 실렸고, 김응교의 『서른세 번의 만남, 백석과 동주』(아카넷, 2020)가 이 필사에서 출발해 두 시인의 영향 관계를 다룬다.",
+        "weight": 0.85,
+        "sourceIds": [
+          "src--yun-dong-ju-japil-sigo-jeonjip-1999",
+          "src--kim-eung-gyo-baek-seok-dongju-2020"
+        ]
+      },
+      {
+        "type": "documented_influence",
+        "sourceId": "rainer-maria-rilke",
+        "targetId": "yun-dong-ju",
+        "evidenceLevel": "scholarly_consensus",
+        "summary": "윤동주는 「별 헤는 밤」(1941년 11월 5일 작, 1948년 유고 시집 수록)에서 별 하나에 불러 보는 시인의 이름으로 프랑시스 잠과 함께 '라이넬 마리아 릴케'를 적었다. 이 수용은 연구에서 거듭 다뤄졌다. 문현미의 「윤동주의 나르시즘적 존재론: 윤동주와 릴케 시문학의 거울 모티브를 중심으로」(『한국시학연구』 2, 1999)는 두 시인의 거울 모티브를 나란히 읽고, 윤석성의 「한국 시의 릴케 受容」(『동악어문학』 50, 2008)은 윤동주를 릴케를 수용한 대표적 한국 시인으로 꼽는다.",
+        "weight": 0.65,
+        "sourceIds": [
+          "src--haneulgwa-baramgwa-byeolgwa-si-1948",
+          "src--mun-hyeon-mi-yun-dong-ju-rilke-1999",
+          "src--yun-seok-seong-rilke-suyong-2008"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "field": "silhouette.birthYear",
+      "claim": "1917년 12월 30일 출생",
+      "url": "https://www.wikidata.org/wiki/Q625089",
+      "quote": "30 December 1917"
+    },
+    {
+      "field": "silhouette.deathYear",
+      "claim": "1945년 2월 16일 사망",
+      "url": "https://www.wikidata.org/wiki/Q625089",
+      "quote": "16 February 1945"
+    },
+    {
+      "field": "silhouette.wikidata",
+      "claim": "Wikidata QID Q625089 = 윤동주(1917–1945)",
+      "url": "https://www.wikidata.org/wiki/Q625089",
+      "quote": "Korean poet (1917–1945)"
+    },
+    {
+      "field": "silhouette.names.aliases",
+      "claim": "한자 이름 尹東柱",
+      "url": "https://encykorea.aks.ac.kr/Article/E0027887",
+      "quote": "윤동주(尹東柱)"
+    },
+    {
+      "field": "silhouette.gender",
+      "claim": "남성",
+      "url": "https://encykorea.aks.ac.kr/Article/E0042294",
+      "quote": "성별 남성"
+    },
+    {
+      "field": "silhouette.activeRange",
+      "claim": "첫 발표는 1936년 11월 『가톨릭 소년』의 동시",
+      "url": "https://encykorea.aks.ac.kr/Article/E0042294",
+      "quote": "간도 연길(延吉)에서 나온 『가톨릭 소년(少年)』에 동시 「병아리」(1936.11.)"
+    },
+    {
+      "field": "silhouette.activeRange",
+      "claim": "마지막 시 「쉽게 씌어진 시」는 1942년 6월 3일 작",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)/%EC%89%BD%EA%B2%8C_%EC%94%A8%EC%9B%8C%EC%A7%84_%EC%8B%9C",
+      "quote": "一九四二•六•三"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "1941년 졸업 때 자선 시집 발간 실패",
+      "url": "https://encykorea.aks.ac.kr/Article/E0042294",
+      "quote": "연희전문학교를 졸업하던 해인 1941년에 자선 시집 『하늘과 바람과 별과 시』를 발간하려 하였으나 실패하고"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "1943년 7월 귀향 직전 검거, 1945년 2월 후쿠오카형무소에서 사망",
+      "url": "https://encykorea.aks.ac.kr/Article/E0042294",
+      "quote": "1943년 7월 귀향 직전에 항일운동의 혐의를 받고 송몽규와 함께 일경에 검거되어 2년형을 선고받았다. 광복을 앞둔 1945년 2월 28세의 젊은 나이로 일본의 후쿠오카형무소[福岡刑務所]에서 생을 마쳤다."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "1948년 정병욱·윤일주가 유고를 모아 정음사에서 간행",
+      "url": "https://encykorea.aks.ac.kr/Article/E0042294",
+      "quote": "광복 후에 정병욱과 윤일주에 의하여 다른 유고와 함께"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "1942년 릿쿄대학 입학 후 도시샤대학으로 전학",
+      "url": "https://encykorea.aks.ac.kr/Article/E0042294",
+      "quote": "1942년 일본으로 건너가 릿쿄대학[立敎大學] 영문과에 입학하였고, 같은 해 가을에 도시샤대학[同志社大學] 영문과에 전학하였다."
+    },
+    {
+      "field": "works.haneulgwa-baramgwa-byeolgwa-si",
+      "claim": "자선 19편·자필 3부·이양하의 만류",
+      "url": "https://encykorea.aks.ac.kr/Article/E0060561",
+      "quote": "이 시집은 원래 윤동주가 연희전문학교 문과졸업기념(1941)으로 자신이 고른 시 19편을 77부 한정판으로 출판하기 위하여, 우선 자필로 3부를 만들어"
+    },
+    {
+      "field": "works.haneulgwa-baramgwa-byeolgwa-si",
+      "claim": "이양하가 검열을 걱정해 만류, 정병욱 주선으로 유고 31편 간행",
+      "url": "https://encykorea.aks.ac.kr/Article/E0060561",
+      "quote": "그때 이양하가 일제 검열의 통과 여부를 걱정하여 시집 출간을 만류하였기 때문에 보류되었던 것을"
+    },
+    {
+      "field": "works.haneulgwa-baramgwa-byeolgwa-si",
+      "claim": "1948년 정음사 초간본, 정지용 서문, 31편 3부",
+      "url": "https://encykorea.aks.ac.kr/Article/E0060561",
+      "quote": "정지용(鄭芝溶)의 서문과 강처중(姜處重)의 발문 및 유령(柳玲)의 추모시와 더불어"
+    },
+    {
+      "field": "works.haneulgwa-baramgwa-byeolgwa-si",
+      "claim": "1968년 증보판 시 66편·동시 22편·산문 5편",
+      "url": "https://encykorea.aks.ac.kr/Article/E0060561",
+      "quote": "1968년 정음사에서 간행한 증보판 시집은 시 66편, 동시 22편, 산문 5편이 5부로 나뉘어 실려 있고"
+    },
+    {
+      "field": "works.haneulgwa-baramgwa-byeolgwa-si.titleOriginal",
+      "claim": "원제 표기 하늘과 바람과 별과 詩, 초간본 목차 첫머리 序詩, 서문 정지용",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)",
+      "quote": "하늘과 바람과 별과 詩"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "처음 19편은 연희전문 시절 작",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)",
+      "quote": "처음 19편의 시는 모두 연희전문학교 시절에 쓰였다."
+    },
+    {
+      "field": "readingEntry",
+      "claim": "지금 구입 가능한 판본: 더스토리 2024년 12월 15일, 1955년 정음사 판 표지",
+      "url": "https://www.yes24.com/Product/Goods/140042426",
+      "quote": "초판본 하늘과 바람과 별과 시 1955년 정음사 오리지널 초판본 표지 디자인"
+    },
+    {
+      "field": "readingEntry",
+      "claim": "판매 중(바로구매), 정지용 서문·산문 수록 목차",
+      "url": "https://www.yes24.com/Product/Goods/140042426",
+      "quote": "정지용 서문(序文)"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "더스토리 판 목차에 「달을 쏘다」·「종시(終始)」 등 산문 수록",
+      "url": "https://www.yes24.com/Product/Goods/140042426",
+      "quote": "투르게네프의 언덕 / 달을 쏘다 / 별똥 떨어진 데 / 화원에 꽃이 핀다 / 종시(終始)"
+    },
+    {
+      "field": "readingEntry",
+      "claim": "더스토리 판 발행일 2024년 12월 15일",
+      "url": "https://www.yes24.com/Product/Goods/140042426",
+      "quote": "윤동주 저 | 더스토리 | 2024년 12월 15일"
+    },
+    {
+      "field": "readingEntry",
+      "claim": "바로구매 가능 — 현재 판매 중",
+      "url": "https://www.yes24.com/Product/Goods/140042426",
+      "quote": "바로구매"
+    },
+    {
+      "field": "works.swipge-ssiwojin-si",
+      "claim": "육첩방은 남의 나라 구절",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071398",
+      "quote": "‘육첩방(六疊房)은 남의 나라’라는 구절은"
+    },
+    {
+      "field": "works.swipge-ssiwojin-si",
+      "claim": "첫 연: 창밖에 밤비, 육첩방은 남의 나라",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)/%EC%89%BD%EA%B2%8C_%EC%94%A8%EC%9B%8C%EC%A7%84_%EC%8B%9C",
+      "quote": "六疊房은 남의 나라,"
+    },
+    {
+      "field": "works.jahwasang",
+      "claim": "산모퉁이 외딴 우물",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071331",
+      "quote": "이 때 시인이 찾아가는 공간 우물은 ‘산모퉁이 외딴’ 곳에 있다."
+    },
+    {
+      "field": "works.jahwasang",
+      "claim": "1939년 9월 작",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)/%EC%9E%90%ED%99%94%EC%83%81",
+      "quote": "一九三九•九"
+    },
+    {
+      "field": "works.jahwasang",
+      "claim": "1941년 『문우』에 「우물속의 自像畵」로 발표",
+      "url": "https://www.sctoday.co.kr/news/articleView.html?idxno=17521",
+      "quote": "윤동주는 [새로운 길]、 [우물속의 自像畵(자상화)]를 발표했다."
+    },
+    {
+      "field": "works.jahwasang",
+      "claim": "『문우』 1941년 6월 발행",
+      "url": "https://www.sctoday.co.kr/news/articleView.html?idxno=17521",
+      "quote": "1941년 6월에 발행한 연희전문학교 문우회 문예부의 [문우](비매품)"
+    },
+    {
+      "field": "works.jahwasang",
+      "claim": "우물을 세 번 찾아감, 미움·가엾음·그리움",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071331",
+      "quote": "시인은 세 차례 우물로 찾아 간다. 그와 함께 미움, 가엾음, 그리움의 세 가지 감정적 변화가 동반한다."
+    },
+    {
+      "field": "works.jahwasang",
+      "claim": "자기응시의 자세",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071331",
+      "quote": "이 시는 윤동주의 시적 특색 중 하나인 자기응시의 자세를 잘 보여주고 있다."
+    },
+    {
+      "field": "works.seosi",
+      "claim": "1941년 11월 20일 작, 1948년 유고 시집 수록",
+      "url": "https://encykorea.aks.ac.kr/Article/E0027887",
+      "quote": "1941년 11월 20일에 창작되었고 그의 유고 시집"
+    },
+    {
+      "field": "works.seosi",
+      "claim": "제목은 1948년 윤일주·정병욱이 붙임",
+      "url": "https://encykorea.aks.ac.kr/Article/E0027887",
+      "quote": "‘서시’라는 제목은 애초 윤동주가 지은 것이 아니며, 1948년 윤동주 유고 시집을 정음사에서 출간할 때 윤동주의 친동생 윤일주와 윤동주의 후배인 정병욱이 서로 논의하여 지었다고 알려져 있다."
+    },
+    {
+      "field": "works.seosi",
+      "claim": "하늘-부끄럼, 바람-괴로움, 별-사랑",
+      "url": "https://encykorea.aks.ac.kr/Article/E0027887",
+      "quote": "첫째 연은 ‘하늘-부끄럼’, 둘째 연은 ‘바람-괴로움', 셋째 연은 ‘별-사랑'을 중심으로 각각 짜여져 있다."
+    },
+    {
+      "field": "works.seosi",
+      "claim": "1955년판 날짜 표기",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)/%EC%84%9C%EC%8B%9C",
+      "quote": "一九四一•一一•二〇"
+    },
+    {
+      "field": "works.byeol-heneun-bam",
+      "claim": "1941년 11월 5일 작 10연 30행, 1948년 초간본 수록",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071330",
+      "quote": "10연 30행의 자유시이다. 1941년 11월 5일 지은 유작으로"
+    },
+    {
+      "field": "works.byeol-heneun-bam",
+      "claim": "어머니는 고향 북간도에",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071330",
+      "quote": "시인은 타향에 있고 어머니는 고향 북간도에 있다."
+    },
+    {
+      "field": "works.byeol-heneun-bam",
+      "claim": "프랑시스 잠·릴케를 시인의 이름으로 부름",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)/%EB%B3%84_%ED%97%A4%EB%8A%94_%EB%B0%A4",
+      "quote": "“푸랑시스 • 쨤”, “라이넬 • 마리아 • 릴케” 이런 詩人의 이름을 불러봅니다."
+    },
+    {
+      "field": "works.byeol-heneun-bam",
+      "claim": "소학교 친구, 이웃, 짐승의 이름",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)/%EB%B3%84_%ED%97%A4%EB%8A%94_%EB%B0%A4",
+      "quote": "가난한 이웃사람들의 이름과, 비둘기, 강아지, 토끼, 노새, 노루"
+    },
+    {
+      "field": "works.byeol-heneun-bam",
+      "claim": "마지막 4행은 창작 날짜 뒤에 적힘",
+      "url": "https://minumsa.minumsa.com/book/653/",
+      "quote": "은 창작 연월일(1941,11,5) 뒤에 씌어 있어, 시가 완성된 후에 첨가된 부분임을 추측해 볼 수 있다."
+    },
+    {
+      "field": "works.swipge-ssiwojin-si",
+      "claim": "1942년 6월 3일 작",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)/%EC%89%BD%EA%B2%8C_%EC%94%A8%EC%9B%8C%EC%A7%84_%EC%8B%9C",
+      "quote": "一九四二•六•三"
+    },
+    {
+      "field": "works.swipge-ssiwojin-si",
+      "claim": "릿쿄대 유학 중 창작, 1947년 2월 13일 정지용 소개문과 함께 경향신문 첫 발표",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071398",
+      "quote": "작자가 일본 릿쿄대학〔立敎大學〕에 유학 중이던 1942년에 창작된 것으로, 1947년 2월 13일 정지용(鄭芝溶)의 소개문과 함께『경향신문』에처음으로 발표되었다."
+    },
+    {
+      "field": "works.swipge-ssiwojin-si",
+      "claim": "육첩방은 남의 나라, 최초의 악수",
+      "url": "https://encykorea.aks.ac.kr/Article/E0071398",
+      "quote": "이 분열된 두 자아가 나누는 ‘최초(最初)의 악수(握手)’는"
+    },
+    {
+      "field": "works.swipge-ssiwojin-si.titleOriginal",
+      "claim": "초간본 제목 표기 쉽게 씨워진 詩",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)",
+      "quote": "쉽게 씨워진 詩"
+    },
+    {
+      "field": "works.swipge-ssiwojin-si.titleKo",
+      "claim": "현행 한국어판 제목 「쉽게 씌어진 시」",
+      "url": "https://www.yes24.com/Product/Goods/140042426",
+      "quote": "「쉽게 씌어진 시」를 발표하였다"
+    },
+    {
+      "field": "works.chamhoerok",
+      "claim": "1942년 1월 24일 작",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)/%EC%B0%B8%ED%9A%8C%EB%A1%9D",
+      "quote": "一九四二•一•二四"
+    },
+    {
+      "field": "works.chamhoerok",
+      "claim": "구리거울, 왕조의 유물, 만 24년 1개월",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1955%EB%85%84)/%EC%B0%B8%ED%9A%8C%EB%A1%9D",
+      "quote": "滿二十四年一個月을"
+    },
+    {
+      "field": "works.chamhoerok",
+      "claim": "1948년 초간본 3부 수록",
+      "url": "https://encykorea.aks.ac.kr/Article/E0060561",
+      "quote": "제3부 ‘밤’에는 「밤」 · 「유언」 · 「참회록」 등 7편이 각각 실려 있다."
+    },
+    {
+      "field": "works.chamhoerok",
+      "claim": "원고 아래 낙서",
+      "url": "https://minumsa.minumsa.com/book/653/",
+      "quote": "시가 씌어진 원고 아랫부분에 <詩란? 不知道>, <生存>, <生活>, <힘> 같은 낙서가 있어"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "초간본의 옛 표기",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)",
+      "quote": "太初의 아츰"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "사진판 시고전집: 392쪽, 퇴고 과정 각주",
+      "url": "https://minumsa.minumsa.com/book/653/",
+      "quote": "양장 · B5 176x250 · 392쪽"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "사진판 시고전집: 퇴고 과정을 각주로",
+      "url": "https://minumsa.minumsa.com/book/653/",
+      "quote": "사진판 원고에 실린 모든 글들의 퇴고 과정을 각주로 서술해 놓음으로써"
+    },
+    {
+      "field": "relations.jeong-ji-yong",
+      "claim": "윤동주 소장 정지용 시집에 1936년 3월 19일 '동주소장'",
+      "url": "http://www.sjpost.co.kr/news/articleView.html?idxno=34544",
+      "quote": "책에는 1936년 3월 19일 ‘동주소장’이라는 글귀가 친필로 쓰여있다."
+    },
+    {
+      "field": "relations.jeong-ji-yong",
+      "claim": "소장본에 밑줄·단어 해석 메모",
+      "url": "http://www.sjpost.co.kr/news/articleView.html?idxno=34544",
+      "quote": "시집에는 밑줄, 단어 해석 등 윤 시인의 메모가 그대로 기록돼있는데"
+    },
+    {
+      "field": "relations.jeong-ji-yong",
+      "claim": "사진판 시고전집이 정지용 시집 소장본 메모를 수록",
+      "url": "https://minumsa.minumsa.com/book/653/",
+      "quote": "시인이 소장했던 정지용, 김영랑 등의 시집에 기재된 자필 메모"
+    },
+    {
+      "field": "relations.jeong-ji-yong",
+      "claim": "정지용 서문: 윤동주를 몰랐다고 씀",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)/%EC%84%9C",
+      "quote": "내가 詩人 尹東柱를 몰랐기로서니 尹東柱의 詩가 바로 “詩”고 보면 그만 아니냐?"
+    },
+    {
+      "field": "relations.jeong-ji-yong",
+      "claim": "1948년 초간본 서문은 정지용",
+      "url": "https://ko.wikisource.org/wiki/%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(1948%EB%85%84)",
+      "quote": "序文 (정지용)"
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "사슴 1936년 1월, 100부 한정",
+      "url": "https://www.sedaily.com/NewsView/1ZBMOQ48XF",
+      "quote": "1936년 1월, 백석의 시집 ‘사슴’이 세상에 나왔다. 시인이 자비로 어렵게 낸 시집이었기에 100부 한정으로 인쇄됐다."
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "1937년 8월 원고지 필사, 33편 전부",
+      "url": "https://www.sedaily.com/NewsView/1ZBMOQ48XF",
+      "quote": "1937년 8월, 한 글자 한 글자 또박또박 정성껏 원고지에 필사했다. 사슴에 수록된 33편의 시를 모두 베껴 쓴 후엔 표지까지 손수 그려 만들었다."
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "필사한 시가 백석의 「모닥불」",
+      "url": "https://www.sedaily.com/NewsView/1ZBMOQ48XF",
+      "quote": "시인 윤동주가 1937년 원고지에 직접 필사한 시인 백석의 ‘모닥불’."
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "「모닥불」 필사 끝에 '걸작이다'",
+      "url": "https://www.sedaily.com/NewsView/1ZBMOQ48XF",
+      "quote": "윤동주는 필사 끝부분에 붉은 색연필로 ‘걸작(傑作)이다’라고 썼다."
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "도서관에서 필사",
+      "url": "https://www.yes24.com/Product/Goods/95783820",
+      "quote": "도서관에서 백석 시집을 원고지에 정성껏 필사한 윤동주는 베껴 쓴 시 위에 붉은 색연필로 감상을 적었다."
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "사진판 시고전집이 사슴 필사본 수록",
+      "url": "https://minumsa.minumsa.com/book/653/",
+      "quote": "윤동주가 직접 필사하여 읽었던 백석의 시집 『사슴』 필사본을 비롯해"
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "김응교 책: 아카넷, 2020년 11월 30일",
+      "url": "https://www.yes24.com/Product/Goods/95783820",
+      "quote": "서른세 번의 만남, 백석과 동주 | 김응교 | 아카넷 - 예스24"
+    },
+    {
+      "field": "relations.baek-seok",
+      "claim": "김응교가 필사에서 출발해 영향 관계를 짚음",
+      "url": "https://www.sedaily.com/NewsView/1ZBMOQ48XF",
+      "quote": "이에 김 교수는 두 시인의 영혼이 처음 맞닿았던 순간인 윤동주의 ‘사슴’ 필사에서 시작해"
+    },
+    {
+      "field": "relations.rainer-maria-rilke",
+      "claim": "윤석성 2008: 윤동주를 릴케 수용의 대표 시인으로",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001251469",
+      "quote": "이러한 릴케의 시를 수용한 한국의 대표적 시인들로는 윤동주, 김현승, 김춘수를 들 수 있다."
+    },
+    {
+      "field": "relations.rainer-maria-rilke",
+      "claim": "윤석성 2008 서지",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001251469",
+      "quote": "윤석성. (2008). 한국 시의 릴케 受容. 동악어문학, 50, 289-310."
+    },
+    {
+      "field": "relations.rainer-maria-rilke",
+      "claim": "문현미 1999 논문 서지",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE00992889",
+      "quote": "한국시학회의 한국시학연구 제권 제2호(1999.11)에 실린 문현미의 논문"
+    },
+    {
+      "field": "relations.rainer-maria-rilke",
+      "claim": "문현미 논문 제목",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE00992889",
+      "quote": "윤동주의 나르시즘적 존재론 : 윤동주와 릴케 시문학의 거울 모티브를 중심으로"
+    }
+  ]
+}

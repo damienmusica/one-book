@@ -1,0 +1,161 @@
+{
+  "id": "ovid",
+  "page": "https://literary-planet.pages.dev/authors/ovid/",
+  "author": {
+    "names": {
+      "ko": "오비디우스",
+      "original": "Publius Ovidius Naso",
+      "aliases": []
+    },
+    "birthYear": -43,
+    "deathYear": 17,
+    "activeRange": [
+      -25,
+      17
+    ],
+    "languages": [
+      "la"
+    ],
+    "regions": [
+      "italy"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "epic"
+    ],
+    "importanceReason": "변신이라는 하나의 사건으로 신화 전체를 끊기지 않는 한 편의 시로 꿰어, 유럽의 화가와 시인이 신화를 찾을 때 먼저 펼치는 책을 만들었다. 이야기와 이야기를 인물·장소·인과의 고리로 이어 붙이는 그 연결 기술이 15권 1만 2천 행을 하나의 흐름으로 묶는다. 흑해 유배지에서 쓴 『슬픔의 노래』는 추방된 자가 자기 처지 자체를 시의 주제로 삼는 형식을 라틴 시 안에 남겼다.",
+    "readingEntry": "ovid--metamorphoses",
+    "readingEntryReason": "삽화들이 각각 독립해 있어 한 대목씩 끊어 읽어도 손해가 없고, 이후의 유럽 문학과 회화가 참조하는 신화의 판본이 대부분 여기에서 나온다.",
+    "readingOrder": [
+      "ovid--metamorphoses",
+      "ovid--ars-amatoria",
+      "ovid--heroides",
+      "ovid--tristia"
+    ],
+    "readingWarning": "『슬픔의 노래』부터 시작하면 탄식의 반복으로만 보인다. 유배 이전의 시들이 어떤 태도로 쓰였는지를 먼저 겪어야 그 목소리의 변화가 드러난다.",
+    "difficulty": 3,
+    "difficultyReason": "개별 이야기는 짧고 전개가 빨라 읽기 쉽지만 등장하는 신과 지명이 수백 개라 주석을 계속 오가야 하고, 유배 시집은 아우구스투스 치세의 정치적 정황을 모르면 되풀이되는 탄원의 강도가 읽히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--dante-inferno-xxv-ovidio",
+      "src--meres-palladis-tamia-1598"
+    ]
+  },
+  "works": [
+    {
+      "id": "ovid--heroides",
+      "titleKo": "여인들의 편지",
+      "titleOriginal": "Heroides",
+      "year": -16,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "버림받은 신화 속 여인들이 떠난 남자에게 부치는 편지 형식의 연작. 서사시가 지나쳐 버린 인물의 시점에서 같은 이야기를 다시 말하는 방법을 보여준다.",
+      "sourceIds": []
+    },
+    {
+      "id": "ovid--ars-amatoria",
+      "titleKo": "사랑의 기술",
+      "titleOriginal": "Ars Amatoria",
+      "year": 2,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "연애의 기술을 교훈시의 형식으로 가르치는 세 권. 진지한 교훈시의 틀에 유혹의 실용 지침을 넣는 어긋남이 시의 농담이며, 뒷날 유배의 구실 가운데 하나로 지목되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "ovid--metamorphoses",
+      "titleKo": "변신 이야기",
+      "titleOriginal": "Metamorphoses",
+      "year": 8,
+      "yearBasis": "composition-range",
+      "genre": "epic",
+      "significance": "천지창조에서 카이사르의 신격화까지 250편 남짓의 변신 이야기를 15권 하나의 흐름으로 이은 시. 유럽 회화와 시가 신화를 참조할 때 사실상의 표준 판본으로 쓰였다.",
+      "sourceIds": []
+    },
+    {
+      "id": "ovid--tristia",
+      "titleKo": "슬픔의 노래",
+      "titleOriginal": "Tristia",
+      "year": 12,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "흑해 연안 토미스로 유배된 뒤 로마로 부친 다섯 권의 비가. 추방된 자가 자기 상태와 사면 청원을 시의 주제로 삼는 방식이 여기서 정리되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--ovid--dante-alighieri",
+      "type": "documented_influence",
+      "from": "ovid (오비디우스)",
+      "to": "dante-alighieri (단테 알리기에리)",
+      "evidenceLevel": "documented",
+      "summary": "단테는 「지옥」 제4곡의 림보에서 오비디우스를 호메로스·호라티우스·루카누스와 나란히 세우고, 제25곡에서 뱀과 사람이 뒤바뀌는 변신을 쓰면서 '오비디우스는 입을 다물라'며 자기 솜씨를 그와 견준다.",
+      "sourceIds": [
+        "src--dante-inferno-xxv-ovidio"
+      ]
+    },
+    {
+      "id": "influence--ovid--william-shakespeare",
+      "type": "documented_influence",
+      "from": "ovid (오비디우스)",
+      "to": "william-shakespeare (윌리엄 셰익스피어)",
+      "evidenceLevel": "documented",
+      "summary": "『타이터스 앤드로니커스』 4막 1장에서는 『변신 이야기』 책이 실제 소품으로 무대에 올라 필로멜라 대목이 펼쳐지고, 프랜시스 미어스는 『팔라디스 타미아』(1598)에서 셰익스피어를 두고 '오비디우스의 달콤한 재치 있는 혼이 그에게 살아 있다'고 적었다.",
+      "sourceIds": [
+        "src--meres-palladis-tamia-1598"
+      ]
+    },
+    {
+      "id": "influence--ovid--johann-wolfgang-von-goethe",
+      "type": "documented_influence",
+      "from": "ovid (오비디우스)",
+      "to": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "괴테의 『로마 비가』(1795)는 라틴 연애 비가의 형식을 독일어 2행연구로 옮긴 연작이다. 고든 브레이든은 『오비디우스 수용 편람』(Wiley Blackwell)의 「연작으로서의 연애시」에서 오비디우스 『사랑노래(Amores)』를 '순서를 가진 연애시 연작'이라는 전통의 모델로 세우고, 페트라르카의 소네트 연작으로 변형되며 이어진 그 전통 안에서 18세기 말 괴테의 이 연작을 새로운 국면의 시작으로 놓는다.",
+      "sourceIds": [
+        "src--braden-love-poems-in-sequence"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--virgil--ovid (→ virgil 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--dante-inferno-xxv-ovidio": {
+      "id": "src--dante-inferno-xxv-ovidio",
+      "title": "『신곡』 「지옥」 제4곡·제25곡",
+      "publisherOrInstitution": "Dante Alighieri, 1321년 완성",
+      "citation": "림보에서 오비디우스를 대시인의 하나로 꼽고, 변신 장면에서 '오비디우스는 입을 다물라'며 솜씨를 견주는 대목"
+    },
+    "src--meres-palladis-tamia-1598": {
+      "id": "src--meres-palladis-tamia-1598",
+      "title": "Palladis Tamia: Wits Treasury (1598)",
+      "publisherOrInstitution": "Francis Meres, London",
+      "citation": "셰익스피어에게서 '오비디우스의 달콤한 재치 있는 혼'을 읽어낸 동시대의 기록"
+    },
+    "src--braden-love-poems-in-sequence": {
+      "id": "src--braden-love-poems-in-sequence",
+      "title": "Love Poems in Sequence",
+      "publisherOrInstitution": "Wiley Blackwell",
+      "citation": "Gordon Braden, \"Love Poems in Sequence,\" in John F. Miller and Carole E. Newlands (eds.), A Handbook to the Reception of Ovid, Malden, MA: Wiley Blackwell, 2014, pp. 262–276."
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "id": "albert-camus",
+  "page": "https://literary-planet.pages.dev/authors/albert-camus/",
+  "author": {
+    "names": {
+      "ko": "알베르 카뮈",
+      "original": "Albert Camus",
+      "aliases": [
+        "카뮈",
+        "알베르 까뮈"
+      ]
+    },
+    "birthYear": 1913,
+    "deathYear": 1960,
+    "activeRange": [
+      1937,
+      1960
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe",
+      "middle-east-north-africa"
+    ],
+    "movements": [
+      "absurdism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "drama"
+    ],
+    "importanceReason": "『이방인』에서 감정의 설명을 삭제한 1인칭 문장으로 화자와 세계 사이의 거리를 문체 자체로 만들었고, 같은 해의 『시지프 신화』에서 그 거리를 부조리라는 개념으로 정식화했다. 부조리를 자살이나 신앙으로 해소하지 않고 그 상태를 유지한 채 사는 쪽을 선택지로 제시한 것이 전후 부조리 문학의 출발점이 되었다. 이후 『반항하는 인간』에서 혁명적 폭력의 정당화를 거부하며 사르트르와 결별했고, 이 논쟁은 전후 프랑스 지식인 지형을 갈랐다.",
+    "readingEntry": "albert-camus--l-etranger",
+    "readingEntryReason": "짧은 분량 안에 카뮈의 문체와 부조리라는 주제가 함께 들어 있고, 『시지프 신화』의 논의는 이 소설을 읽은 뒤라야 구체적인 대상을 얻는다.",
+    "readingOrder": [
+      "albert-camus--l-etranger",
+      "albert-camus--la-peste",
+      "albert-camus--la-chute",
+      "albert-camus--le-mythe-de-sisyphe",
+      "albert-camus--l-homme-revolte"
+    ],
+    "readingWarning": "『시지프 신화』나 『반항하는 인간』부터 시작하면 논고의 밀도와 인용 계보 때문에 카뮈가 다루는 문제 자체가 추상으로만 남는다.",
+    "difficulty": 2,
+    "difficultyReason": "소설의 문장은 짧고 투명해 바로 읽히지만, 같은 문제를 다룬 산문 논고는 그리스 비극부터 19세기 러시아 테러리즘까지의 참조를 전제해 난도가 한 단계 올라간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--pleiade",
+      "src--camus-nouvelles-litteraires-1945",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "albert-camus--l-etranger",
+      "titleKo": "이방인",
+      "titleOriginal": "L'Étranger",
+      "year": 1942,
+      "genre": "fiction",
+      "significance": "어머니의 장례에서 울지 않았다는 사실이 살인 재판의 핵심 증거가 되는 과정을, 감정을 설명하지 않는 1인칭으로 기록한다. 복합과거로 이어지는 문장이 화자와 세계의 단절을 문체로 실현한 예로 반복해 인용된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "albert-camus--le-mythe-de-sisyphe",
+      "titleKo": "시지프 신화",
+      "titleOriginal": "Le Mythe de Sisyphe",
+      "year": 1942,
+      "genre": "essay-criticism",
+      "significance": "자살을 가장 먼저 답해야 할 철학적 문제로 놓고 시작해, 의미를 요구하는 인간과 침묵하는 세계 사이의 어긋남을 부조리로 정의한다. 부조리를 해소하지 않고 견디는 삶을 결론으로 제시해 전후 부조리 문학의 참조점이 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "albert-camus--caligula",
+      "titleKo": "칼리굴라",
+      "titleOriginal": "Caligula",
+      "year": 1944,
+      "genre": "drama",
+      "significance": "누이의 죽음 이후 불가능한 것을 요구하기 시작한 황제가 자기 논리를 끝까지 밀어붙여 파국에 이르는 4막극. 1930년대 말에 쓰였고 1944년 출간, 1945년 파리에서 초연되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "albert-camus--la-peste",
+      "titleKo": "페스트",
+      "titleOriginal": "La Peste",
+      "year": 1947,
+      "genre": "fiction",
+      "significance": "알제리 오랑이 페스트로 봉쇄된 기간을 의사의 기록 형식으로 서술한다. 재난을 견디는 사람들의 일상적 성실을 부조리에 대한 집단의 응답으로 제시해, 개인의 부조리에서 연대의 문제로 넘어간 전환점.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "albert-camus--l-homme-revolte",
+      "titleKo": "반항하는 인간",
+      "titleOriginal": "L'Homme révolté",
+      "year": 1951,
+      "genre": "essay-criticism",
+      "significance": "반항이 혁명으로 제도화되면서 살인을 정당화하는 과정을 그리스 비극부터 20세기 전체주의까지 추적한다. 이 책을 둘러싼 논쟁으로 사르트르 진영과 결별했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "albert-camus--la-chute",
+      "titleKo": "전락",
+      "titleOriginal": "La Chute",
+      "year": 1956,
+      "genre": "fiction",
+      "significance": "암스테르담의 술집에서 한 남자가 이름 없는 상대에게 말을 거는 독백으로만 진행되는 중편. 자기 고백이 듣는 사람을 심판하는 장치로 뒤집히며, 카뮈가 생전에 완성한 마지막 소설이 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--jean-paul-sartre--albert-camus",
+      "type": "dialogue",
+      "from": "jean-paul-sartre (장폴 사르트르)",
+      "to": "albert-camus (알베르 카뮈)",
+      "evidenceLevel": "documented",
+      "summary": "사르트르는 「『이방인』 해설」(1943)로 카뮈를 읽어냈고, 1952년 『레 탕 모데른』 지면에서 『반항하는 인간』(1951)을 둘러싼 공개 논쟁 끝에 절교했다. 전후 프랑스 지식인의 분기점으로 남은 교류다.",
+      "sourceIds": [
+        "src--sartre-explication-etranger-1943",
+        "src--camus-homme-revolte-1951"
+      ]
+    },
+    {
+      "id": "affinity--albert-camus--jose-saramago",
+      "type": "affinity",
+      "from": "albert-camus (알베르 카뮈)",
+      "to": "jose-saramago (주제 사라마구)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "한 도시를 역병으로 봉쇄한 뒤 그 조건에서 사람들의 관계가 어떻게 재편되는지만 끝까지 추적하는 구조가 『페스트』와 『눈먼 자들의 도시』에 공통된다. 사라마구가 카뮈를 자기 출발점으로 지목한 직접 접촉의 기록은 없으며, 우화의 설계 방식을 비교하기 위해 이 지도가 나란히 둔 관계다.",
+      "anchors": [
+        {
+          "workId": "albert-camus--la-peste"
+        },
+        {
+          "workId": "jose-saramago--ensaio-sobre-a-cegueira"
+        }
+      ],
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--franz-kafka--albert-camus (→ franz-kafka 의 슬레이트에서 본다)",
+    "influence--fyodor-dostoevsky--albert-camus (→ fyodor-dostoevsky 의 슬레이트에서 본다)",
+    "influence--friedrich-nietzsche--albert-camus (→ friedrich-nietzsche 의 슬레이트에서 본다)",
+    "influence--william-faulkner--albert-camus (→ william-faulkner 의 슬레이트에서 본다)",
+    "dialogue--simone-de-beauvoir--albert-camus (→ simone-de-beauvoir 의 슬레이트에서 본다)",
+    "influence--ernest-hemingway--albert-camus (→ ernest-hemingway 의 슬레이트에서 본다)",
+    "contrast--samuel-beckett--albert-camus (→ samuel-beckett 의 슬레이트에서 본다)",
+    "affinity--george-orwell--albert-camus (→ george-orwell 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--camus-nouvelles-litteraires-1945": {
+      "id": "src--camus-nouvelles-litteraires-1945",
+      "title": "카뮈 인터뷰 — 실존주의자가 아니라는 공개 부인 (Les Nouvelles littéraires, 1945. 11.)",
+      "publisherOrInstitution": "Les Nouvelles littéraires",
+      "citation": "카뮈가 실존주의 딱지를 공개적으로 거부한 1차 기록 — movements를 absurdism으로 한정한 근거"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--sartre-explication-etranger-1943": {
+      "id": "src--sartre-explication-etranger-1943",
+      "title": "「Explication de L'Étranger」 (Cahiers du Sud, 1943)",
+      "publisherOrInstitution": "Cahiers du Sud — 이후 『Situations I』 수록",
+      "citation": "『이방인』의 짧은 평서문을 미국 소설, 특히 헤밍웨이의 문장 기법과 연결해 읽은 초기 비평 — 이후 카뮈 문체론의 표준 참조점"
+    },
+    "src--camus-homme-revolte-1951": {
+      "id": "src--camus-homme-revolte-1951",
+      "title": "『L'Homme révolté』 (1951)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "니체와 19세기 러시아 테러리즘을 포함한 반항의 계보를 다룬 논고 — 니체 수용의 1차 문헌이자 『현대』지 논쟁의 발단 텍스트"
+    }
+  }
+}

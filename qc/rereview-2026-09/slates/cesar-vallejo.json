@@ -1,0 +1,196 @@
+{
+  "id": "cesar-vallejo",
+  "page": "https://literary-planet.pages.dev/authors/cesar-vallejo/",
+  "author": {
+    "names": {
+      "ko": "세사르 바예호",
+      "original": "César Vallejo",
+      "aliases": [
+        "바예호",
+        "Vallejo",
+        "세자르 바예호",
+        "César Abraham Vallejo Mendoza"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1938,
+    "activeRange": [
+      1919,
+      1938
+    ],
+    "languages": [
+      "es"
+    ],
+    "regions": [
+      "latin-america"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "fiction"
+    ],
+    "importanceReason": "스페인어 시의 통사를 안에서부터 깨뜨렸다. 『트릴세』는 철자를 비틀고 숫자와 공백을 행에 끌어들여, 문법이 감당하지 못하는 고통의 시간을 표기 자체로 만들었고 라틴아메리카 전위시의 출발점으로 반복 인용된다. 파리 망명기에 축적되어 사후에 나온 『인간적인 시편들』과 스페인 내전 시편은 그 실험을 신체·굶주림·연대의 어휘로 되돌려, 형식 실험과 정치적 발언이 같은 문장 안에서 가능함을 보여주었다.",
+    "readingEntry": "cesar-vallejo--los-heraldos-negros",
+    "readingEntryReason": "안데스 가톨릭의 어휘와 모데르니스모의 음악성이 아직 남아 있어 진입 장벽이 낮고, 이후 『트릴세』가 무엇을 깨뜨렸는지 비교할 기준선이 된다.",
+    "readingOrder": [
+      "cesar-vallejo--los-heraldos-negros",
+      "cesar-vallejo--espana-aparta-de-mi-este-caliz",
+      "cesar-vallejo--poemas-humanos",
+      "cesar-vallejo--trilce"
+    ],
+    "readingWarning": "『트릴세』를 첫 책으로 잡으면 조어와 표기 실험이 번역에서 대부분 소실되어, 난해함만 남고 그 난해함의 이유는 전달되지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "조어·비문·표기 실험이 의미의 축이라 번역본에서는 원문의 파괴가 잘 보이지 않고, 후기 시는 안데스 지역어와 스페인 내전의 맥락을 함께 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--vallejo-trilce-1922-lima",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "cesar-vallejo--los-heraldos-negros",
+      "titleKo": "검은 전령들",
+      "titleOriginal": "Los heraldos negros",
+      "year": 1919,
+      "genre": "poetry",
+      "significance": "모데르니스모의 음악성을 물려받되 안데스 농촌의 가톨릭·가족·죄의식을 시의 소재로 끌어들인 첫 시집이다. 판권장에는 1918년으로 찍혔으나 실제 배포는 1919년에 이루어졌다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "cesar-vallejo--trilce",
+      "titleKo": "트릴세",
+      "titleOriginal": "Trilce",
+      "year": 1922,
+      "genre": "poetry",
+      "significance": "77편의 시에서 철자와 통사를 의도적으로 파괴하고 숫자·공백·조어를 도입해, 수감과 상실의 경험을 표기의 층위에서 재현했다. 초판은 리마 교도소 인쇄소에서 찍혔다.",
+      "sourceIds": [
+        "src--vallejo-trilce-1922-lima",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "cesar-vallejo--el-tungsteno",
+      "titleKo": "텅스텐",
+      "titleOriginal": "El tungsteno",
+      "year": 1931,
+      "genre": "fiction",
+      "significance": "안데스 광산의 외국 자본과 원주민 노동을 다룬 장편으로, 시에서의 실험을 접고 프롤레타리아 소설의 문법을 택한 예외적 작품이다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "cesar-vallejo--poemas-humanos",
+      "titleKo": "인간적인 시편들",
+      "titleOriginal": "Poemas humanos",
+      "year": 1939,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "파리 망명기에 쌓인 시들을 사후에 미망인 조르제트 바예호가 묶어 1939년 파리에서 낸 시집이다. 굶주림·병·노동하는 신체의 어휘로 『트릴세』의 실험을 인간의 시간에 다시 붙였다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "cesar-vallejo--espana-aparta-de-mi-este-caliz",
+      "titleKo": "스페인이여, 내게서 이 잔을 거두어다오",
+      "titleOriginal": "España, aparta de mí este cáliz",
+      "year": 1939,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "스페인 내전 중에 쓴 열다섯 편의 시로, 공화국 병사와 민중을 애도하면서도 구호가 아니라 신체와 기도의 언어를 유지한다. 저자가 죽은 이듬해인 1939년에 단행본으로 나왔다.",
+      "sourceIds": [
+        "src--poetry-foundation"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--cesar-vallejo--pablo-neruda",
+      "type": "dialogue",
+      "from": "cesar-vallejo (세사르 바예호)",
+      "to": "pablo-neruda (파블로 네루다)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 1920년대 말 파리에서 만난 뒤 교류했고, 스페인 내전기에는 공화국을 지지하는 같은 진영에서 활동했다. 네루다는 회고록에서 바예호와의 만남과 1938년 그의 죽음을 직접 기록했다. 같은 언어로 정반대의 문체를 쓰던 두 시인이 정치에서 만난 관계다.",
+      "anchors": [
+        {
+          "year": 1938
+        }
+      ],
+      "sourceIds": [
+        "src--neruda-confieso-que-he-vivido"
+      ]
+    },
+    {
+      "id": "affinity--cesar-vallejo--aime-cesaire",
+      "type": "affinity",
+      "from": "cesar-vallejo (세사르 바예호)",
+      "to": "aime-cesaire (에메 세제르)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "1930년대 파리에서 두 사람은 각각 스페인어와 프랑스어로, 유럽 아방가르드가 만든 어법을 식민지와 주변부의 몸에 붙이는 시를 썼다. 통사를 부수는 방식도 정치적 귀결도 가깝지만 두 사람이 만났다는 기록은 없고, 이 지도가 같은 도시의 두 궤적을 나란히 놓은 것이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "affinity--cesar-vallejo--yi-sang",
+      "type": "affinity",
+      "from": "cesar-vallejo (세사르 바예호)",
+      "to": "yi-sang (이상)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "『트릴세』(1922)와 「오감도」(1934)는 각각 스페인어와 한국어의 표기 규약을 인쇄 지면 위에서 깨뜨렸다. 두 사람 사이에 직접 접촉이나 상호 인지의 기록은 없다. 주변부의 시가 중심의 형식을 수입하는 대신 자기 언어의 표기 자체를 재료로 삼은 두 사례로 이 지도가 나란히 놓은 것이다.",
+      "anchors": [
+        {
+          "workId": "cesar-vallejo--trilce"
+        },
+        {
+          "workId": "yi-sang--ogamdo"
+        }
+      ],
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--vallejo-trilce-1922-lima": {
+      "id": "src--vallejo-trilce-1922-lima",
+      "title": "César Vallejo, 『트릴세』 초판 (Lima, 1922)",
+      "publisherOrInstitution": "Talleres Tipográficos de la Penitenciaría, Lima",
+      "citation": "안테노르 오레고의 서문이 붙은 초판 — 출간 연도·장소 확인용 1차 판본"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--neruda-confieso-que-he-vivido": {
+      "id": "src--neruda-confieso-que-he-vivido",
+      "title": "『내가 살았음을 고백한다』 (Confieso que he vivido: Memorias, 1974, 사후 출간)",
+      "publisherOrInstitution": "Editorial Seix Barral",
+      "citation": "네루다가 휘트먼·바예호·로르카와의 관계를 직접 서술한 회고록 — 독서와 교류의 1차 진술"
+    }
+  }
+}

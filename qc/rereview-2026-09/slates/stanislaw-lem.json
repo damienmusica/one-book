@@ -1,0 +1,174 @@
+{
+  "id": "stanislaw-lem",
+  "page": "https://literary-planet.pages.dev/authors/stanislaw-lem/",
+  "author": {
+    "names": {
+      "ko": "스타니스와프 렘",
+      "original": "Stanisław Lem",
+      "aliases": [
+        "렘",
+        "스타니스와브 렘",
+        "Stanislaw Lem"
+      ]
+    },
+    "birthYear": 1921,
+    "deathYear": 2006,
+    "activeRange": [
+      1951,
+      1987
+    ],
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "외계 지성·자동기계·우주 항행이라는 SF의 도구를 모험의 소재가 아니라 인식론의 실험 장치로 사용했다. 『솔라리스』는 접촉에 성공하는 이야기가 아니라 방대한 연구 문헌이 쌓였는데도 대상이 끝내 해석되지 않는 상태를 기록하고, 인간이 외계에서 찾아내는 것이 결국 자기 자신뿐이라는 결론을 서사로 밀고 간다. 『주인의 목소리』는 우주에서 온 신호를 해독하지 못하는 과학자 집단의 보고서 형식으로 과학 공동체의 자기기만을 해부했고, 『완전한 진공』은 존재하지 않는 책들의 서평만으로 한 권을 채워 비평과 창작의 구분을 지웠다. 소설과 나란히 『기술 대전』 같은 논고를 써서 같은 문제를 이론의 언어로도 전개했다.",
+    "readingEntry": "stanislaw-lem--solaris",
+    "readingEntryReason": "가장 널리 번역된 대표작이고 설정이 한 문장으로 요약되며, 렘이 SF를 무엇에 쓰는지 — 해답이 아니라 해석의 실패를 기록하는 데 쓴다 — 가 이 한 권에 다 들어 있다.",
+    "readingOrder": [
+      "stanislaw-lem--solaris",
+      "stanislaw-lem--cyberiada",
+      "stanislaw-lem--glos-pana",
+      "stanislaw-lem--doskonala-proznia",
+      "stanislaw-lem--summa-technologiae"
+    ],
+    "readingWarning": "영화판으로 『솔라리스』를 먼저 접하면 사랑 이야기로 축소된 판본이 기준이 되어, 소설이 실제로 다루는 인식 불가능한 대상의 문제가 배경으로 밀려난다.",
+    "difficulty": 3,
+    "difficultyReason": "문장보다 렘이 서사에 통째로 얹는 논증 — 가상의 학문 문헌 요약, 정보이론과 통계 토론 — 을 건너뛰지 않고 읽어야 이야기가 성립하고, 후기작은 존재하지 않는 책의 서평 형식이라 어디까지가 농담인지 독자가 판정해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--culture-pl",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "stanislaw-lem--solaris",
+      "titleKo": "솔라리스",
+      "titleOriginal": "Solaris",
+      "year": 1961,
+      "genre": "fiction",
+      "significance": "바다 전체가 하나의 지성인 행성을 연구하는 기지에서, 연구자들의 기억으로 만들어진 인물들이 나타난다. 접촉의 성공이 아니라 해석의 실패를 기록하며, 축적된 '솔라리스학' 문헌 요약을 본문에 그대로 집어넣는다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--culture-pl",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "stanislaw-lem--summa-technologiae",
+      "titleKo": "기술 대전",
+      "titleOriginal": "Summa Technologiae",
+      "year": 1964,
+      "genre": "essay-criticism",
+      "significance": "가상현실·인공지능·진화 공학의 문제를 1960년대에 미리 정식화한 논고. 소설이 다루던 문제를 이론의 언어로 밀고 나간 저작으로, 그의 사변소설의 이론적 짝이다.",
+      "sourceIds": [
+        "src--culture-pl"
+      ]
+    },
+    {
+      "id": "stanislaw-lem--cyberiada",
+      "titleKo": "사이버리아드",
+      "titleOriginal": "Cyberiada",
+      "year": 1965,
+      "genre": "fiction",
+      "significance": "로봇 발명가 트루를과 클라파우치우스가 우주를 돌아다니며 의뢰받은 문제를 해결하는 연작. 민담과 궁정 이야기의 어조로 확률·정보·전능함의 역설을 다루는 우화집이다.",
+      "sourceIds": [
+        "src--culture-pl",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "stanislaw-lem--glos-pana",
+      "titleKo": "주인의 목소리",
+      "titleOriginal": "Głos Pana",
+      "year": 1968,
+      "genre": "fiction",
+      "significance": "우주에서 온 신호를 해독하려는 기밀 연구단의 보고서 형식으로 쓰였다. 해독에 실패해가는 과정을 통해 과학 공동체가 스스로에게 거는 최면을 해부한다.",
+      "sourceIds": [
+        "src--culture-pl",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "stanislaw-lem--doskonala-proznia",
+      "titleKo": "완전한 진공",
+      "titleOriginal": "Doskonała próżnia",
+      "year": 1971,
+      "genre": "fiction",
+      "significance": "존재하지 않는 책들에 대한 서평만으로 이루어진 책. 서평이라는 2차 형식만으로 한 권을 성립시켜 비평과 창작의 구분을 지웠고, 첫 편은 이 책 자신에 대한 서평이다.",
+      "sourceIds": [
+        "src--culture-pl",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--stanislaw-lem--ursula-k-le-guin",
+      "type": "dialogue",
+      "from": "stanislaw-lem (스타니스와프 렘)",
+      "to": "ursula-k-le-guin (어슐러 K. 르 귄)",
+      "evidenceLevel": "documented",
+      "summary": "1973년 SFWA 명예회원이 된 렘은 미국 SF를 비판한 글들 이후 1976년 그 자격이 철회됐고, 르 귄은 이 결정에 항의해 자기 회원 자격을 내놓았다. 장르 바깥의 문학 기준을 SF에 적용할 수 있는가라는 물음을 두 사람이 같은 편에서 밀어붙인 사건이다.",
+      "anchors": [
+        {
+          "year": 1973
+        },
+        {
+          "year": 1976
+        }
+      ],
+      "sourceIds": [
+        "src--sfwa-lem-membership-1976",
+        "src--lem-microworlds"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--jorge-luis-borges--stanislaw-lem (→ jorge-luis-borges 의 슬레이트에서 본다)",
+    "affinity--franz-kafka--stanislaw-lem (→ franz-kafka 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--culture-pl": {
+      "id": "src--culture-pl",
+      "title": "Culture.pl — 폴란드 작가·작품 프로필",
+      "publisherOrInstitution": "Instytut Adama Mickiewicza (Adam Mickiewicz Institute)",
+      "url": "https://culture.pl",
+      "citation": "폴란드 문학 작가의 생애·저작 목록과 해외 번역 수용 확인용 공식 문화기관 자료"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--sfwa-lem-membership-1976": {
+      "id": "src--sfwa-lem-membership-1976",
+      "title": "SFWA 렘 명예회원 자격 관련 기록 (1973년 수여, 1976년 철회)",
+      "publisherOrInstitution": "Science Fiction and Fantasy Writers of America",
+      "citation": "렘의 미국 SF 비판 이후 명예회원 자격이 철회되고 일부 회원이 항의한 경위의 조직 기록. 철회 연도와 르 귄이 취한 대응의 형태(사퇴·자격 반납)는 QC가 확인한다"
+    },
+    "src--lem-microworlds": {
+      "id": "src--lem-microworlds",
+      "title": "『마이크로월즈 — SF와 판타지에 관한 글』 (Microworlds, Franz Rottensteiner 엮음, 1984)",
+      "publisherOrInstitution": "Harcourt Brace Jovanovich",
+      "citation": "렘의 SF 비평 영역 선집. 보르헤스 산문을 정면으로 다룬 「Unitas Oppositorum」과 미국 SF를 겨냥한 비판문이 함께 실려 있다 — 보르헤스 독서와 SFWA 사건의 배경 문서"
+    }
+  }
+}

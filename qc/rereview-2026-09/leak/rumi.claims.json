@@ -1,0 +1,29 @@
+{
+  "id": "rumi",
+  "claims": [
+    {
+      "field": "works.rumi--masnavi-i-manavi.significance",
+      "claim": "니컬슨의 교정본·영역·주해는 1925–1940년에 나왔다.",
+      "verdict": "confirmed",
+      "url": "https://www.dar-al-masnavi.org/about_translations.html",
+      "quote": "Nicholson's Commentary on Books III–VI (1940)",
+      "note": "제1권 1925, 주해 제8권 1940 으로 확인. 다만 위키백과 Masnavi 의 서지는 같은 8권 세트를 'London: Luzac, 1924–40' 으로 적어 개시 연도가 1년 어긋난다."
+    },
+    {
+      "field": "relations.contrast rumi → omar-khayyam",
+      "claim": "그 배격 기록들은 하이얌 사후 한 세기 가까이 뒤의 것이다.",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/in.ernet.dli.2015.69790",
+      "quote": "the Mirsádu’l-‘Ibád ... composed in a.d. 1223 by Najmu’d-Dín Rází",
+      "note": "1131→1223 은 92년으로 '한 세기 가까이'에 맞는다. 다만 샴스(1247/48 사망)까지 포함하면 116년 이상이라 '한 세기 남짓'이 더 정확하다."
+    },
+    {
+      "field": "relations.contrast rumi → omar-khayyam",
+      "claim": "출처 src--encyclopaedia-iranica 에 이 서술이 있는지.",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260621024736/https://www.iranicaonline.org/articles/khayyam-omar/khayyam-omar-i-life/",
+      "quote": "The description of Khayyam in the discourses (maqālāt) of Šams-e Tabrizi, the spiritual guide of Jalāl-al-Din Rumi",
+      "note": "iranicaonline.org 는 curl·WebFetch 모두 403 이지만 Wayback 으로 도달했다(CDX 로 슬러그 확인: articles/khayyam-omar/khayyam-omar-i-life/, .../khayyam-omar-ii-poetry/). 「i. Life」항목이 수피 진영의 하이얌 배격 묶음을 그대로 담는다 — 나즘 알딘 라지(다야)의 배격, 아타르의 『일라히나마』에서 하이얌을 '미완의 인간'으로 그린 대목, 샴스 타브리지의 폄하, 그리고 이븐 알키프티가 전하는 그리스 철학 대 종교의 충돌. 「ii. Poetry」항목도 다야·샴스 타브리지 대목을 반복한다. 다만 루미의 『마스나비』 구절 자체는 두 항목 어디에도 없다(Rumi·Maṯnawi 검색 결과 「i. Life」의 '샴스의 제자 루미' 한 번뿐, 「ii. Poetry」는 0회). 즉 Iranica 는 요약이 보일·아민라자비에게 돌린 샴스·아타르 확장을 실제로 뒷받침하고, 브라운에게 돌린 마스나비 인용은 뒷받침하지 않는다."
+    }
+  ]
+}

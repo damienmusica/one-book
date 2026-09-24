@@ -76,11 +76,9 @@
       "src--britannica",
       "src--nobelprize",
       "src--kawabata-nobel-lecture",
-      "src--keene-dawn-to-the-west",
-      "src--kr-world-lit-editions"
+      "src--keene-dawn-to-the-west"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "osamu-dazai",
@@ -150,11 +148,9 @@
     "difficultyReason": "문장이 구어에 가깝고 분량도 짧지만, 화자의 자기비하가 반어인지 고백인지 계속 흔들려 액면 그대로 읽으면 방향을 잃는다.",
     "sourceIds": [
       "src--britannica",
-      "src--keene-dawn-to-the-west",
-      "src--kr-world-lit-editions"
+      "src--keene-dawn-to-the-west"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "yukio-mishima",
@@ -218,11 +214,9 @@
     "difficultyReason": "수식이 길고 한자어 밀도가 높아 번역본에서도 문장이 무겁고, 관념의 논증이 사건보다 앞서 나가는 대목에서 속도가 급격히 떨어진다.",
     "sourceIds": [
       "src--britannica",
-      "src--keene-dawn-to-the-west",
-      "src--kr-world-lit-editions"
+      "src--keene-dawn-to-the-west"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "kobo-abe",
@@ -295,11 +289,9 @@
     "difficultyReason": "문장은 건조하고 명료하지만 설정이 은유인지 사실인지 끝까지 확정되지 않고, 후기작은 기록·수기·주석이 겹쳐 서술 층위를 독자가 정리해야 한다.",
     "sourceIds": [
       "src--britannica",
-      "src--keene-dawn-to-the-west",
-      "src--kr-world-lit-editions"
+      "src--keene-dawn-to-the-west"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "kenzaburo-oe",
@@ -371,11 +363,9 @@
       "src--britannica",
       "src--nobelprize",
       "src--oe-nobel-lecture",
-      "src--keene-dawn-to-the-west",
-      "src--kr-world-lit-editions"
+      "src--keene-dawn-to-the-west"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "eileen-chang",
@@ -455,11 +445,9 @@
     "difficultyReason": "이미지가 촘촘한 문장 자체는 읽히지만, 인물의 속셈이 대화의 표면과 늘 어긋나 반어를 놓치면 통속 연애담으로 읽힌다. 1940년대 상하이·홍콩의 계급과 혼인 관행이 전제로 깔려 있다.",
     "sourceIds": [
       "src--britannica",
-      "src--hsia-modern-chinese-fiction",
-      "src--kr-world-lit-editions"
+      "src--hsia-modern-chinese-fiction"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "saadat-hasan-manto",
@@ -538,11 +526,9 @@
     "difficultyReason": "문장이 짧고 사건이 명료하지만, 학살과 강간을 논평 없이 끊어내는 결말이 많아 판단의 부담이 독자에게 넘어온다. 펀자브의 지명과 공동체 명칭이 설명 없이 지나간다.",
     "sourceIds": [
       "src--britannica",
-      "src--jalal-pity-of-partition",
-      "src--kr-world-lit-editions"
+      "src--jalal-pity-of-partition"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "rk-narayan",
@@ -616,11 +602,9 @@
     "difficultyReason": "문장이 짧고 어휘가 평이하며 사건이 순서대로 진행되어 원문으로도 사전 없이 읽힌다. 남인도 카스트·친족 호칭이 설명 없이 지나가지만 줄거리를 따라가는 데는 지장이 없다.",
     "sourceIds": [
       "src--britannica",
-      "src--narayan-my-days",
-      "src--kr-world-lit-editions"
+      "src--narayan-my-days"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "park-kyung-ni",
@@ -697,10 +681,8 @@
     "sourceIds": [
       "src--encykorea",
       "src--lti-korea",
-      "src--toji-serialization-record",
-      "src--kr-world-lit-editions"
+      "src--toji-serialization-record"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   }
 ]

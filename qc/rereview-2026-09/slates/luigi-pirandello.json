@@ -1,0 +1,180 @@
+{
+  "id": "luigi-pirandello",
+  "page": "https://literary-planet.pages.dev/authors/luigi-pirandello/",
+  "author": {
+    "names": {
+      "ko": "루이지 피란델로",
+      "original": "Luigi Pirandello",
+      "aliases": [
+        "피란델로",
+        "Pirandello"
+      ]
+    },
+    "birthYear": 1867,
+    "deathYear": 1936,
+    "activeRange": [
+      1901,
+      1936
+    ],
+    "languages": [
+      "it"
+    ],
+    "regions": [
+      "italy"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "drama",
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "완성되지 않은 인물들이 자기를 써 줄 작가를 찾아 무대에 난입하게 함으로써, 연극의 재현 장치 자체를 극의 내용으로 만들었다. 소설에서는 법적으로 죽은 인물이나 이름을 잃은 인물을 통해 근대적 자아가 타인이 부여한 배역들의 합에 지나지 않음을 서술 구조로 증명했다. 『유머론』에서는 이 방법을 반대의 감정이라는 개념으로 이론화했고, 이 계보는 전후 부조리극이 자기 전사로 소급해 읽는 좌표가 되었다. 1934년 노벨문학상.",
+    "readingEntry": "luigi-pirandello--sei-personaggi-in-cerca-d-autore",
+    "readingEntryReason": "분량이 짧고 극 중 극 장치가 첫 장면부터 작동해, 그가 무대에서 무엇을 깨뜨렸는지 별도의 배경 지식 없이 바로 보인다.",
+    "readingOrder": [
+      "luigi-pirandello--sei-personaggi-in-cerca-d-autore",
+      "luigi-pirandello--enrico-iv",
+      "luigi-pirandello--il-fu-mattia-pascal",
+      "luigi-pirandello--uno-nessuno-e-centomila"
+    ],
+    "readingWarning": "『하나, 아무도 아닌, 십만 명』으로 시작하면 서술자의 논증적 독백이 계속돼 사건을 기다리는 독자는 곧 지친다.",
+    "difficulty": 3,
+    "difficultyReason": "문장과 무대 상황은 명료하지만 인물이 자기 정체를 논증하는 대사가 길고, 액자와 극 중 극이 겹치는 지점에서 누가 어떤 층위에서 말하는지 놓치면 논지 전체를 잃는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--treccani",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "luigi-pirandello--il-fu-mattia-pascal",
+      "titleKo": "죽은 마티아 파스칼",
+      "titleOriginal": "Il fu Mattia Pascal",
+      "year": 1904,
+      "genre": "fiction",
+      "significance": "사고로 죽은 것으로 처리된 남자가 새 이름으로 다시 살아 보려다 실패하는 이야기. 법적 신원이 사라진 자리에 무엇이 남는지를 실험한 그의 첫 대표작이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--treccani",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "luigi-pirandello--l-umorismo",
+      "titleKo": "유머론",
+      "titleOriginal": "L'umorismo",
+      "year": 1908,
+      "genre": "essay-criticism",
+      "significance": "웃음이 반대의 감정으로 뒤집히는 순간을 분석한 이론서. 그의 소설과 희곡이 작동하는 원리를 작가 자신이 정식화한 글이다.",
+      "sourceIds": [
+        "src--treccani",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "luigi-pirandello--sei-personaggi-in-cerca-d-autore",
+      "titleKo": "작가를 찾는 6인의 등장인물",
+      "titleOriginal": "Sei personaggi in cerca d'autore",
+      "year": 1921,
+      "genre": "drama",
+      "significance": "리허설 중인 극단에 완성되지 않은 여섯 인물이 난입해 자기 이야기를 써 달라고 요구한다. 1921년 로마 초연은 소란으로 끝났지만 이후 메타연극의 출발점이 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--treccani",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "luigi-pirandello--enrico-iv",
+      "titleKo": "엔리코 4세",
+      "titleOriginal": "Enrico IV",
+      "year": 1922,
+      "genre": "drama",
+      "significance": "낙마 사고로 자신을 중세 황제로 믿게 된 남자가 제정신을 되찾은 뒤에도 광인의 배역을 계속 연기한다. 가면과 정체의 문제를 한 인물의 선택으로 압축한 희곡이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--treccani"
+      ]
+    },
+    {
+      "id": "luigi-pirandello--uno-nessuno-e-centomila",
+      "titleKo": "하나, 아무도 아닌, 십만 명",
+      "titleOriginal": "Uno, nessuno e centomila",
+      "year": 1926,
+      "genre": "fiction",
+      "significance": "코가 삐뚤어졌다는 아내의 말 한마디에서 시작해 자기 정체를 끝까지 해체해 가는 남자의 기록. 오래 손보던 원고를 1925–26년에 분재해 완성한 마지막 장편이다.",
+      "sourceIds": [
+        "src--treccani",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--luigi-pirandello--bertolt-brecht",
+      "type": "affinity",
+      "from": "luigi-pirandello (루이지 피란델로)",
+      "to": "bertolt-brecht (베르톨트 브레히트)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "20세기 반환영주의 연극 연구는 두 사람을 나란히 다룬다. 피란델로는 극 중 극으로 무대의 재현 장치를 노출시켰고, 브레히트는 노래와 자막으로 몰입을 끊었다. 목적은 갈렸다 — 한쪽은 정체성의 불확정을, 다른 쪽은 역사의 가변성을 보이려 했다. 두 사람 사이의 직접 교류는 확인되지 않는다.",
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "affinity--luigi-pirandello--witold-gombrowicz",
+      "type": "affinity",
+      "from": "luigi-pirandello (루이지 피란델로)",
+      "to": "witold-gombrowicz (비톨트 곰브로비치)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "피란델로의 가면과 곰브로비치의 '얼굴(gęba)'은 둘 다, 타인 앞에서 강제로 뒤집어쓰게 되는 형식을 희곡의 사건 자체로 만든다. 두 사람 사이의 접촉이나 영향 관계를 확인해 주는 기록은 찾지 못했다. 같은 장치를 각각 독립적으로 세운 두 사례로 이 지도가 나란히 놓은 것이다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--henrik-ibsen--luigi-pirandello (→ henrik-ibsen 의 슬레이트에서 본다)",
+    "affinity--machado-de-assis--luigi-pirandello (→ machado-de-assis 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--treccani": {
+      "id": "src--treccani",
+      "title": "Treccani — Enciclopedia Italiana / Dizionario Biografico degli Italiani",
+      "publisherOrInstitution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it",
+      "citation": "이탈리아 작가의 생애·저작 연보와 비평사 확인용 표준 참조"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    }
+  }
+}

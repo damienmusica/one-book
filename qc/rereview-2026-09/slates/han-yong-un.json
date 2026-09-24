@@ -1,0 +1,152 @@
+{
+  "id": "han-yong-un",
+  "page": "https://literary-planet.pages.dev/authors/han-yong-un/",
+  "author": {
+    "names": {
+      "ko": "한용운",
+      "original": "韓龍雲",
+      "aliases": [
+        "만해",
+        "卍海",
+        "Han Yong-un",
+        "Manhae"
+      ]
+    },
+    "birthYear": 1879,
+    "deathYear": 1944,
+    "activeRange": [
+      1913,
+      1939
+    ],
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "한용운은 불교의 역설 논리 — 이별이 곧 만남이고 침묵이 곧 말이라는 — 를 한국어 경어체 산문시의 통사로 옮겼다. 『님의 침묵』(1926)의 '님'은 연인과 부처와 잃어버린 주권 가운데 어느 하나로 확정되지 않도록 설계되어, 검열 아래에서 연가와 종교적 발화와 정치적 발화가 같은 문장을 공유할 수 있게 만들었다. 이 설계는 그가 『조선불교유신론』(1913)에서 조선 불교의 제도 개혁을 주장한 승려이자 3·1 독립선언의 민족대표였다는 이력과 분리되지 않는다. 발화가 봉쇄된 조건에서 침묵을 발화 형식으로 삼는 방법이 시의 구조 자체가 되었기 때문이다.",
+    "readingEntry": "han-yong-un--nimui-chimmuk",
+    "readingEntryReason": "한 권으로 묶인 연작이라 통독이 가능하고, 첫 편과 서문 격의 「군말」만 읽어도 '님'이 한 항으로 고정되지 않도록 설계된 것이 드러난다.",
+    "readingOrder": [
+      "han-yong-un--nimui-chimmuk",
+      "han-yong-un--joseon-dongnibui-seo",
+      "han-yong-un--joseon-bulgyo-yusinnon",
+      "han-yong-un--bulgyo-daejeon"
+    ],
+    "readingWarning": "'님'을 곧바로 조국으로 치환해 읽는 해석이 오래 통용되었으나 시집 자체는 그 치환을 확정하지 않는다. 한 항으로 고정하면 편마다 달라지는 어조의 변화가 대부분 사라진다.",
+    "difficulty": 2,
+    "difficultyReason": "시행이 길고 어조는 평이한 경어체지만, 불교 용어와 '있음/없음', '만남/이별'을 뒤집는 역설 구문이 반복되어 한 편의 결론이 다음 편에서 뒤집히는 것을 따라가야 한다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--nimui-chimmuk-1926"
+    ]
+  },
+  "works": [
+    {
+      "id": "han-yong-un--joseon-bulgyo-yusinnon",
+      "titleKo": "조선불교유신론",
+      "titleOriginal": "朝鮮佛敎維新論",
+      "year": 1913,
+      "genre": "essay-criticism",
+      "significance": "조선 불교의 교육·의례·승려 결혼·사찰 운영을 항목별로 비판하고 개혁안을 제시한 논설이다. 종교 개혁의 언어로 근대의 제도 문제를 다룬 저작이며, 만해의 사유가 시로 옮겨 가기 전의 논리를 보여준다.",
+      "sourceIds": [
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "han-yong-un--bulgyo-daejeon",
+      "titleKo": "불교대전",
+      "titleOriginal": "佛敎大典",
+      "year": 1914,
+      "genre": "essay-criticism",
+      "significance": "방대한 불교 경전에서 구절을 뽑아 주제별로 다시 배열한 편찬서로, 경전을 신앙의 대상이 아니라 읽고 인용할 수 있는 텍스트로 재편했다. 『님의 침묵』의 역설 구문이 어디에서 왔는지를 보여주는 자료다.",
+      "sourceIds": [
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "han-yong-un--joseon-dongnibui-seo",
+      "titleKo": "조선 독립의 서",
+      "titleOriginal": "朝鮮獨立의 書",
+      "year": 1919,
+      "genre": "essay-criticism",
+      "significance": "3·1운동으로 수감된 뒤 옥중에서 쓴 논설로, 자유와 평화를 근거로 독립의 정당성을 논증한다. 법정 진술을 대신하는 글이라는 조건이 문장의 구조를 결정한 사례이며, 만해 산문 가운데 논리가 가장 밀도 높다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    },
+    {
+      "id": "han-yong-un--nimui-chimmuk",
+      "titleKo": "님의 침묵",
+      "titleOriginal": "님의 沈默",
+      "year": 1926,
+      "genre": "poetry",
+      "significance": "한 권 전체가 '님'을 향한 발화로 이어지는 연작 시집이다. '님'을 연인·부처·잃어버린 주권 어느 하나로 확정하지 않는 설계 덕분에, 검열 아래에서 연가와 종교시와 정치적 발화가 같은 문장을 공유할 수 있었다.",
+      "sourceIds": [
+        "src--nimui-chimmuk-1926",
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--han-yong-un--kim-sowol",
+      "type": "contrast",
+      "from": "han-yong-un (한용운)",
+      "to": "kim-sowol (김소월)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "한국 근대시사 서술은 『진달래꽃』(1925)과 『님의 침묵』(1926)을 같은 문제 — 떠난 님을 어떤 목소리로 부를 것인가 — 에 대한 두 개의 답으로 나란히 놓는다. 김소월은 민요의 3음보와 체념하는 화자로, 한용운은 불교의 역설을 실은 경어체 산문시로 답했다.",
+      "anchors": [
+        {
+          "workId": "kim-sowol--jindallaekkot"
+        },
+        {
+          "workId": "han-yong-un--nimui-chimmuk"
+        }
+      ],
+      "sourceIds": [
+        "src--kim-yunsik-kim-hyeon-hanguk-munhaksa",
+        "src--encykorea"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--rabindranath-tagore--han-yong-un (→ rabindranath-tagore 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--encykorea": {
+      "id": "src--encykorea",
+      "title": "한국민족문화대백과사전 — 작가·작품 항목",
+      "publisherOrInstitution": "한국학중앙연구원",
+      "url": "https://encykorea.aks.ac.kr",
+      "citation": "한국 작가의 생애·작품 기초 사실 확인용"
+    },
+    "src--lti-korea": {
+      "id": "src--lti-korea",
+      "title": "한국문학번역원 작가 소개 자료",
+      "publisherOrInstitution": "Literature Translation Institute of Korea",
+      "url": "https://www.ltikorea.or.kr",
+      "citation": "한국 작가의 해외 소개용 공식 프로필"
+    },
+    "src--nimui-chimmuk-1926": {
+      "id": "src--nimui-chimmuk-1926",
+      "title": "『님의 침묵』 초판 (1926)",
+      "publisherOrInstitution": "회동서관",
+      "citation": "한용운 시집 초판 — 서문 「군말」을 포함한 편제와 발행 연도의 1차 근거"
+    },
+    "src--kim-yunsik-kim-hyeon-hanguk-munhaksa": {
+      "id": "src--kim-yunsik-kim-hyeon-hanguk-munhaksa",
+      "title": "김윤식·김현, 『한국문학사』 (1973)",
+      "publisherOrInstitution": "민음사",
+      "citation": "1920년대 한국시를 김소월과 한용운의 두 축으로 서술하는 독법이 정착한 표준 문학사"
+    }
+  }
+}

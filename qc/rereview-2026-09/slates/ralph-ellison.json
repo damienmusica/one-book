@@ -1,0 +1,185 @@
+{
+  "id": "ralph-ellison",
+  "page": "https://literary-planet.pages.dev/authors/ralph-ellison/",
+  "author": {
+    "names": {
+      "ko": "랠프 엘리슨",
+      "original": "Ralph Ellison",
+      "aliases": [
+        "엘리슨",
+        "Ellison",
+        "Ralph Waldo Ellison"
+      ]
+    },
+    "birthYear": 1913,
+    "deathYear": 1994,
+    "activeRange": [
+      1937,
+      1986
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "완성한 장편 한 편으로, 흑인이 쓴 서사를 사회학적 증언으로 읽는 독법 자체를 서술 형식으로 반박했다. 『보이지 않는 인간』은 남부 흑인대학·북부 공장·할렘의 정치조직을 차례로 통과하는 성장소설의 뼈대 위에 설교와 블루스의 어법, 재즈의 즉흥, 초현실적 삽화를 겹쳐, 자연주의 항의소설과 모더니즘 실험 중 하나를 고르라는 요구를 거부했다. 어빙 하우와 벌인 「세계와 항아리」 논쟁은 흑인 작가에게 항의문학의 의무를 부과하는 비평에 대한 반론으로 지금도 반복 인용된다.",
+    "readingEntry": "ralph-ellison--invisible-man",
+    "readingEntryReason": "엘리슨의 사실상 유일한 완성 장편이고, 그의 평문들이 다루는 문제 — 흑인 서사가 증언으로만 읽히는 상황 — 이 이 소설의 구조 안에서 먼저 제시되기 때문에 순서상 여기서 시작해야 한다.",
+    "readingOrder": [
+      "ralph-ellison--invisible-man",
+      "ralph-ellison--shadow-and-act",
+      "ralph-ellison--going-to-the-territory",
+      "ralph-ellison--juneteenth"
+    ],
+    "readingWarning": "사후 편집본 『준틴스』로 시작하면 편집자가 수천 장의 원고에서 골라 조립한 판본을 엘리슨의 완성된 설계로 오인하게 된다.",
+    "difficulty": 4,
+    "difficultyReason": "장이 바뀔 때마다 자연주의·풍자·초현실로 문체가 갈아타고, 각 삽화가 미국 흑인사와 민속의 특정 장면을 겨냥한 응답이라 배경 지식 없이는 농담과 인용이 지나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--paris-review",
+      "src--cambridge-companions",
+      "src--ellison-world-and-the-jug",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "ralph-ellison--invisible-man",
+      "titleKo": "보이지 않는 인간",
+      "titleOriginal": "Invisible Man",
+      "year": 1952,
+      "genre": "fiction",
+      "significance": "이름 없는 화자가 남부 흑인대학에서 할렘의 정치조직까지 통과하며, 자신이 타인에게 보이지 않는 존재로 취급된다는 사실을 서술 형식 자체로 구현한 장편. 이듬해 전미도서상을 받으며 전후 미국 소설의 기준점이 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "ralph-ellison--shadow-and-act",
+      "titleKo": "그림자와 행위",
+      "titleOriginal": "Shadow and Act",
+      "year": 1964,
+      "genre": "essay-criticism",
+      "significance": "재즈와 블루스, 미국 민속, 자신의 문학 수업을 다룬 평문 모음. 흑인 작가를 사회학적 증언자로 한정하는 비평에 대한 반론인 「세계와 항아리」가 여기에 실려 있다.",
+      "sourceIds": [
+        "src--ellison-world-and-the-jug"
+      ]
+    },
+    {
+      "id": "ralph-ellison--going-to-the-territory",
+      "titleKo": "영토를 향하여",
+      "titleOriginal": "Going to the Territory",
+      "year": 1986,
+      "genre": "essay-criticism",
+      "significance": "20여 년 만에 낸 두 번째 평문집. 미국 문화가 흑과 백의 상호 침투로 만들어졌다는 그의 논지를 음악·언어·지역사의 구체적 사례로 확장한다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ralph-ellison--juneteenth",
+      "titleKo": "준틴스",
+      "titleOriginal": "Juneteenth",
+      "year": 1999,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "40년 넘게 쓰다 미완으로 남긴 두 번째 장편의 원고를 유고 관리자 존 캘러핸이 한 권으로 편집해 사후 출간한 판본. 인종을 바꿔 살아온 상원의원과 흑인 목사의 관계를 다루며, 편집본이라는 지위 자체가 논쟁의 대상이 되었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--mark-twain--ralph-ellison",
+      "type": "documented_influence",
+      "from": "mark-twain (마크 트웨인)",
+      "to": "ralph-ellison (랠프 엘리슨)",
+      "evidenceLevel": "documented",
+      "summary": "엘리슨은 『그림자와 행위』(1964)에 묶인 에세이들에서 『허클베리 핀』을 거듭 논하며, 헤밍웨이가 잘라 내라고 한 짐 구출 대목이야말로 이 소설의 구조적·상징적·도덕적 필연이라고 반박했다.",
+      "sourceIds": [
+        "src--ellison-shadow-and-act"
+      ]
+    },
+    {
+      "id": "affinity--ralph-ellison--james-baldwin",
+      "type": "affinity",
+      "from": "ralph-ellison (랠프 엘리슨)",
+      "to": "james-baldwin (제임스 볼드윈)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "두 사람은 각자의 평문에서 흑인 작가에게 항의소설의 의무를 부과하는 독법을 반박했다 — 볼드윈은 「모두의 항의소설」(1949)에서, 엘리슨은 「세계와 항아리」(1963–64)에서. 전후 미국 흑인 문학 연구는 이 두 글을 같은 문제에 대한 한 세대의 응답으로 함께 읽는다.",
+      "anchors": [
+        {
+          "year": 1949
+        }
+      ],
+      "sourceIds": [
+        "src--baldwin-everybodys-protest-novel",
+        "src--ellison-world-and-the-jug"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--zora-neale-hurston--ralph-ellison (→ zora-neale-hurston 의 슬레이트에서 본다)",
+    "influence--ts-eliot--ralph-ellison (→ ts-eliot 의 슬레이트에서 본다)",
+    "influence--ernest-hemingway--ralph-ellison (→ ernest-hemingway 의 슬레이트에서 본다)",
+    "influence--fyodor-dostoevsky--ralph-ellison (→ fyodor-dostoevsky 의 슬레이트에서 본다)",
+    "influence--william-faulkner--ralph-ellison (→ william-faulkner 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--ellison-world-and-the-jug": {
+      "id": "src--ellison-world-and-the-jug",
+      "title": "「The World and the Jug」 (1963–1964, 2부작 평문)",
+      "publisherOrInstitution": "The New Leader",
+      "citation": "어빙 하우의 「Black Boys and Native Sons」에 답하며 흑인 작가를 항의문학으로 환원하는 독법을 거부한 엘리슨의 논쟁문 — 이후 『Shadow and Act』에 수록"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--ellison-shadow-and-act": {
+      "id": "src--ellison-shadow-and-act",
+      "title": "『Shadow and Act』 (1964)",
+      "publisherOrInstitution": "Random House",
+      "citation": "엘리슨의 첫 산문집 — 「세계와 항아리」와 터스키기 시절의 독서를 다룬 「감춰진 이름과 복잡한 운명」, 포크너를 논한 평문이 함께 실려 있다"
+    },
+    "src--baldwin-everybodys-protest-novel": {
+      "id": "src--baldwin-everybodys-protest-novel",
+      "title": "「Everybody's Protest Novel」 (1949)",
+      "publisherOrInstitution": "Zero (파리) / Partisan Review",
+      "citation": "항의소설이 인물을 통계적 피해자로 축소한다고 논증하며 리처드 라이트와 결별한 볼드윈의 초기 평문 — 그의 소설관의 1차 근거"
+    }
+  }
+}

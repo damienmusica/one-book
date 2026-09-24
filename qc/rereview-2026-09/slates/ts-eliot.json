@@ -1,0 +1,273 @@
+{
+  "id": "ts-eliot",
+  "page": "https://literary-planet.pages.dev/authors/ts-eliot/",
+  "author": {
+    "names": {
+      "ko": "T. S. 엘리엇",
+      "original": "T. S. Eliot",
+      "aliases": [
+        "엘리엇",
+        "토머스 스턴스 엘리엇",
+        "Thomas Stearns Eliot"
+      ]
+    },
+    "birthYear": 1888,
+    "deathYear": 1965,
+    "activeRange": [
+      1915,
+      1959
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america",
+      "britain-ireland"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "essay-criticism",
+      "drama"
+    ],
+    "importanceReason": "도시의 파편적 독백과 여러 언어의 인용을 시의 구조 원리로 삼아, 화자의 감정을 진술하는 대신 장면과 목소리의 병치로 제시하는 어법을 만들었다. 비평가로서 객관적 상관물과 전통 개념을 제시해 시를 읽고 평가하는 어휘 자체를 바꾸었고, 페이버 앤 페이버의 편집자로 20세기 중반 영어권 시의 목록을 실질적으로 편성했다. 후기에는 운문극으로 무대를 다시 시도해 종교극과 응접실 희극의 형식을 시행했다. 1948년 노벨문학상.",
+    "readingEntry": "ts-eliot--the-love-song-of-j-alfred-prufrock",
+    "readingEntryReason": "한 편 분량 안에 엘리엇의 어법 전부 — 자의식 과잉의 독백, 도시의 저녁, 갑작스러운 인유 — 가 들어 있고, 주석 없이도 목소리가 그대로 들린다.",
+    "readingOrder": [
+      "ts-eliot--the-love-song-of-j-alfred-prufrock",
+      "ts-eliot--murder-in-the-cathedral",
+      "ts-eliot--the-waste-land",
+      "ts-eliot--four-quartets"
+    ],
+    "readingWarning": "『황무지』를 주석 없이 먼저 펴면 다섯 부분의 화자 전환과 인용의 그물에 걸려 대개 중반에서 멈춘다. 주석본을 쓰거나 「프루프록」 뒤로 미루는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "인유의 밀도가 행 단위로 걸려 있어 각주 없이는 문장이 이어지지 않고, 『네 개의 사중주』는 시간과 신앙에 관한 추상 어휘를 서사 없이 밀고 나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "ts-eliot--the-love-song-of-j-alfred-prufrock",
+      "titleKo": "J. 앨프리드 프루프록의 연가",
+      "titleOriginal": "The Love Song of J. Alfred Prufrock",
+      "year": 1915,
+      "genre": "poetry",
+      "significance": "머뭇거리는 중년 화자의 내적 독백을 도시의 저녁 풍경과 겹쳐 놓은 시. 1915년 시카고의 잡지 《Poetry》에 실리며 영어 시의 어법이 바뀌는 지점을 표시했다.",
+      "sourceIds": [
+        "src--poetry-foundation",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ts-eliot--the-sacred-wood",
+      "titleKo": "성스러운 숲",
+      "titleOriginal": "The Sacred Wood: Essays on Poetry and Criticism",
+      "year": 1920,
+      "genre": "essay-criticism",
+      "significance": "「전통과 개인의 재능」을 포함한 첫 평론집. 시를 시인의 개성 표현이 아니라 전통의 재배치로 설명하는 관점을 제시해 영미 비평의 방향을 바꾸었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "ts-eliot--the-waste-land",
+      "titleKo": "황무지",
+      "titleOriginal": "The Waste Land",
+      "year": 1922,
+      "genre": "poetry",
+      "significance": "전후 유럽의 정신적 고갈을 다섯 부분의 화자 전환과 여러 언어의 인용으로 조립한 장시. 에즈라 파운드의 편집으로 크게 축약되어 지금의 형태가 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "ts-eliot--murder-in-the-cathedral",
+      "titleKo": "대성당의 살인",
+      "titleOriginal": "Murder in the Cathedral",
+      "year": 1935,
+      "genre": "drama",
+      "significance": "토머스 베켓의 순교를 다룬 운문극으로 1935년 캔터베리 축제에서 초연되었다. 그리스 비극의 합창을 영어 종교극에 되살려 엘리엇의 후기 극작을 열었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "ts-eliot--four-quartets",
+      "titleKo": "네 개의 사중주",
+      "titleOriginal": "Four Quartets",
+      "year": 1943,
+      "genre": "poetry",
+      "significance": "1936–1942년에 따로 발표된 네 편의 장시를 1943년에 한 권으로 묶은 연작. 시간과 기억, 신앙의 문제를 음악의 악장 구조에 맞춰 배열했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--virgil--ts-eliot",
+      "type": "documented_influence",
+      "from": "virgil (베르길리우스)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 버질 협회 강연 「고전이란 무엇인가」(1944)에서 베르길리우스를 고전 개념 자체와 동일시했고 「베르길리우스와 기독교 세계」(1951)에서 그 논의를 이어갔다. 두 글 모두 『시와 시인론』(1957)에 실려 있다.",
+      "sourceIds": [
+        "src--eliot-on-poetry-and-poets-1957"
+      ]
+    },
+    {
+      "id": "influence--ts-eliot--kamau-brathwaite",
+      "type": "documented_influence",
+      "from": "ts-eliot (T. S. 엘리엇)",
+      "to": "kamau-brathwaite (카마우 브래스웨이트)",
+      "evidenceLevel": "documented",
+      "summary": "브래스웨이트는 『목소리의 역사』(1984)에서 엘리엇의 낭독 음반이 서인도제도 시인들에게 준 충격 — 웅변조가 아니라 건조하고 무표정하게 말하는 목소리 — 을 네이션 랭귀지의 전사(前史)로 명시한다.",
+      "sourceIds": [
+        "src--brathwaite-history-of-the-voice-1984"
+      ]
+    },
+    {
+      "id": "influence--dante-alighieri--ts-eliot",
+      "type": "documented_influence",
+      "from": "dante-alighieri (단테 알리기에리)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 『선집』(1932)에 실린 장문의 에세이 「단테」에서 『신곡』을 시의 시각적 명료함의 척도로 삼고, 단테를 시 쓰기를 배울 수 있는 시인의 기준으로 세웠다.",
+      "sourceIds": [
+        "src--eliot-selected-essays-1932"
+      ]
+    },
+    {
+      "id": "influence--william-shakespeare--ts-eliot",
+      "type": "documented_influence",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 『선집』(1932)에 수록된 「햄릿」에서 이 작품을 예술적 실패로 규정하며 '객관적 상관물' 개념을 제시했고, 그 개념이 그의 시론 전체의 축이 되었다.",
+      "sourceIds": [
+        "src--eliot-selected-essays-1932"
+      ]
+    },
+    {
+      "id": "influence--ts-eliot--chinua-achebe",
+      "type": "documented_influence",
+      "from": "ts-eliot (T. S. 엘리엇)",
+      "to": "chinua-achebe (치누아 아체베)",
+      "evidenceLevel": "documented",
+      "summary": "『더 이상 평안은 없다』(1960)의 제목과 제사는 엘리엇의 「동방박사의 여행」 마지막 대목에서 왔다. 돌아왔으나 옛 질서 안에서 더는 편안하지 않다는 그 문장이, 영국 유학에서 돌아온 주인공의 처지를 그대로 요약한다.",
+      "anchors": [
+        {
+          "workId": "chinua-achebe--no-longer-at-ease"
+        }
+      ],
+      "sourceIds": [
+        "src--heinemann-african-writers-series"
+      ]
+    },
+    {
+      "id": "influence--ts-eliot--ralph-ellison",
+      "type": "documented_influence",
+      "from": "ts-eliot (T. S. 엘리엇)",
+      "to": "ralph-ellison (랠프 엘리슨)",
+      "evidenceLevel": "documented",
+      "summary": "엘리슨은 터스키기 재학 중 「황무지」를 읽은 경험을 자신이 음악에서 문학으로 돌아선 계기로 반복해 진술했고, 「세계와 항아리」(1963–64)에서 고른 선조 목록에도 엘리엇을 넣었다. 인용과 단편적 삽화를 겹쳐 쌓는 『보이지 않는 인간』의 구성은 이 독서를 통과한 결과다.",
+      "anchors": [
+        {
+          "workId": "ts-eliot--the-waste-land"
+        },
+        {
+          "workId": "ralph-ellison--invisible-man"
+        }
+      ],
+      "sourceIds": [
+        "src--ellison-world-and-the-jug",
+        "src--ellison-shadow-and-act"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--charles-baudelaire--ts-eliot (→ charles-baudelaire 의 슬레이트에서 본다)",
+    "influence--william-butler-yeats--ts-eliot (→ william-butler-yeats 의 슬레이트에서 본다)",
+    "influence--joseph-conrad--ts-eliot (→ joseph-conrad 의 슬레이트에서 본다)",
+    "influence--james-joyce--ts-eliot (→ james-joyce 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--eliot-on-poetry-and-poets-1957": {
+      "id": "src--eliot-on-poetry-and-poets-1957",
+      "title": "On Poetry and Poets (1957)",
+      "publisherOrInstitution": "Faber and Faber — T. S. Eliot",
+      "citation": "1940년 애비 극장에서 열린 제1회 예이츠 강연 「예이츠」가 수록된 평론집"
+    },
+    "src--brathwaite-history-of-the-voice-1984": {
+      "id": "src--brathwaite-history-of-the-voice-1984",
+      "title": "History of the Voice (1984)",
+      "publisherOrInstitution": "New Beacon Books (London)",
+      "citation": "브래스웨이트가 네이션 랭귀지 개념을 정식화한 산문 — 엘리엇 낭독 음반의 영향을 자기 입으로 기록한 대목이 들어 있다."
+    },
+    "src--eliot-selected-essays-1932": {
+      "id": "src--eliot-selected-essays-1932",
+      "title": "Selected Essays (1932)",
+      "publisherOrInstitution": "Faber and Faber — T. S. Eliot",
+      "citation": "「보들레르」(1930년 크리스토퍼 이셔우드 영역 『내면 일기』 서문으로 처음 발표)와 「전통과 개인의 재능」(1919)이 수록된 평론집"
+    },
+    "src--heinemann-african-writers-series": {
+      "id": "src--heinemann-african-writers-series",
+      "title": "Heinemann African Writers Series 총서 해제·연보",
+      "publisherOrInstitution": "Heinemann Educational Books",
+      "citation": "1962년 아체베의 『모든 것이 산산이 부서지다』를 1번으로 창간되어 아체베·응구기·살리흐의 영역본을 영어권 표준 판본으로 만든 총서 — 발표 연도와 영역 수용사 확인용"
+    },
+    "src--ellison-world-and-the-jug": {
+      "id": "src--ellison-world-and-the-jug",
+      "title": "「The World and the Jug」 (1963–1964, 2부작 평문)",
+      "publisherOrInstitution": "The New Leader",
+      "citation": "어빙 하우의 「Black Boys and Native Sons」에 답하며 흑인 작가를 항의문학으로 환원하는 독법을 거부한 엘리슨의 논쟁문 — 이후 『Shadow and Act』에 수록"
+    },
+    "src--ellison-shadow-and-act": {
+      "id": "src--ellison-shadow-and-act",
+      "title": "『Shadow and Act』 (1964)",
+      "publisherOrInstitution": "Random House",
+      "citation": "엘리슨의 첫 산문집 — 「세계와 항아리」와 터스키기 시절의 독서를 다룬 「감춰진 이름과 복잡한 운명」, 포크너를 논한 평문이 함께 실려 있다"
+    }
+  }
+}

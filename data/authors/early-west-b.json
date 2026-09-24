@@ -79,11 +79,9 @@
     "difficultyReason": "『신시집』의 사물시는 한 편이 짧아 접근할 만하지만, 후기 장시는 고유 어휘를 시 안에서 스스로 정의하며 진행하고 번역본마다 그 어휘 선택이 달라 판본 간 인상 차이가 크다.",
     "sourceIds": [
       "src--britannica",
-      "src--poetry-foundation",
-      "src--kr-world-lit-editions"
+      "src--poetry-foundation"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "ts-eliot",
@@ -158,11 +156,9 @@
     "sourceIds": [
       "src--britannica",
       "src--nobelprize",
-      "src--poetry-foundation",
-      "src--kr-world-lit-editions"
+      "src--poetry-foundation"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "gertrude-stein",
@@ -238,11 +234,9 @@
     "sourceIds": [
       "src--britannica",
       "src--library-of-america",
-      "src--poetry-foundation",
-      "src--kr-world-lit-editions"
+      "src--poetry-foundation"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "katherine-mansfield",
@@ -313,11 +307,9 @@
     "sourceIds": [
       "src--britannica",
       "src--te-ara-nz",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "luigi-pirandello",
@@ -389,11 +381,9 @@
     "sourceIds": [
       "src--britannica",
       "src--nobelprize",
-      "src--treccani",
-      "src--kr-world-lit-editions"
+      "src--treccani"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "bertolt-brecht",
@@ -474,11 +464,9 @@
     "sourceIds": [
       "src--britannica",
       "src--brecht-arbeitsjournal",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "mikhail-bulgakov",
@@ -548,11 +536,9 @@
     "sourceIds": [
       "src--britannica",
       "src--bulgakov-letter-1930",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "isaac-babel",
@@ -622,11 +608,9 @@
     "sourceIds": [
       "src--britannica",
       "src--babel-1934-congress-speech",
-      "src--cambridge-companions",
-      "src--kr-world-lit-editions"
+      "src--cambridge-companions"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "federico-garcia-lorca",
@@ -706,10 +690,8 @@
       "src--britannica",
       "src--fundacion-lorca",
       "src--lorca-duende-lecture",
-      "src--poetry-foundation",
-      "src--kr-world-lit-editions"
+      "src--poetry-foundation"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   }
 ]

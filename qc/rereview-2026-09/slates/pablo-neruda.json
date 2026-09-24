@@ -1,0 +1,184 @@
+{
+  "id": "pablo-neruda",
+  "page": "https://literary-planet.pages.dev/authors/pablo-neruda/",
+  "author": {
+    "names": {
+      "ko": "파블로 네루다",
+      "original": "Pablo Neruda",
+      "aliases": [
+        "네루다",
+        "Neruda",
+        "네프탈리 리카르도 레예스 바소알토",
+        "Ricardo Eliécer Neftalí Reyes Basoalto"
+      ]
+    },
+    "birthYear": 1904,
+    "deathYear": 1973,
+    "activeRange": [
+      1923,
+      1973
+    ],
+    "languages": [
+      "es"
+    ],
+    "regions": [
+      "latin-america"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "importanceReason": "『스무 편의 사랑의 시와 한 편의 절망의 노래』에서 연애시의 관습적 수사를 신체와 지형의 이미지로 바꾼 뒤, 『지상의 거처』에서는 부패와 사물의 과잉을 나열하는 난해한 문체로 방향을 완전히 틀었다. 스페인 내전을 목격한 뒤에는 공적 발화를 시의 정당한 형식으로 삼아, 『모두의 노래』에서 아메리카 대륙의 지질·정복사·광산 노동을 하나의 장편 서사시로 편성했다. 만년의 송가 연작은 양파와 양말 같은 사물에 고전 송가 형식을 돌려주며 시의 어휘를 일상으로 되돌렸다. 한 시인이 세 번 문체를 갈아치우고 각각을 끝까지 밀고 간 이력 자체가 20세기 시의 참조점이 됐다.",
+    "readingEntry": "pablo-neruda--veinte-poemas-de-amor-y-una-cancion-desesperada",
+    "readingEntryReason": "스무 편의 짧은 시로 이루어져 한 시간이면 통독할 수 있고, 네루다의 감각적 이미지가 가장 직접적으로 드러난다.",
+    "readingOrder": [
+      "pablo-neruda--veinte-poemas-de-amor-y-una-cancion-desesperada",
+      "pablo-neruda--odas-elementales",
+      "pablo-neruda--canto-general",
+      "pablo-neruda--residencia-en-la-tierra"
+    ],
+    "readingWarning": "『지상의 거처』부터 시작하면 해체되는 이미지와 긴 호흡 때문에 네루다를 난해한 시인으로만 기억하게 된다.",
+    "difficulty": 2,
+    "difficultyReason": "대부분의 시가 구체적 사물과 감각에 붙어 있어 배경지식 없이 읽히지만, 『모두의 노래』는 분량과 라틴아메리카 역사 참조 때문에 완독에 인내가 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--memoria-chilena",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "pablo-neruda--veinte-poemas-de-amor-y-una-cancion-desesperada",
+      "titleKo": "스무 편의 사랑의 시와 한 편의 절망의 노래",
+      "titleOriginal": "Veinte poemas de amor y una canción desesperada",
+      "year": 1924,
+      "genre": "poetry",
+      "significance": "스무 살 무렵에 낸 두 번째 시집. 연애의 감정을 바다와 숲과 밤의 지형에 겹쳐 놓아 스페인어권에서 가장 널리 읽힌 시집이 됐다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--memoria-chilena",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "pablo-neruda--residencia-en-la-tierra",
+      "titleKo": "지상의 거처",
+      "titleOriginal": "Residencia en la tierra",
+      "year": 1933,
+      "genre": "poetry",
+      "significance": "물질의 부패와 시간의 마모를 나열하는 난해한 이미지로 초기 서정을 버린 전환점. 1935년 마드리드에서 증보판으로 다시 나오며 당대 스페인 시단에 충격을 줬다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--memoria-chilena"
+      ]
+    },
+    {
+      "id": "pablo-neruda--espana-en-el-corazon",
+      "titleKo": "가슴속의 스페인",
+      "titleOriginal": "España en el corazón",
+      "year": 1937,
+      "genre": "poetry",
+      "significance": "스페인 내전의 학살을 목격한 뒤 쓴 시집. 사적 서정에서 공적 증언으로 넘어간 지점을 표시하며, 이후 네루다의 정치시가 전부 여기서 갈라져 나온다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--memoria-chilena"
+      ]
+    },
+    {
+      "id": "pablo-neruda--canto-general",
+      "titleKo": "모두의 노래",
+      "titleOriginal": "Canto general",
+      "year": 1950,
+      "genre": "poetry",
+      "significance": "아메리카 대륙의 지질과 식물에서 시작해 정복과 독재와 광산 노동까지 훑는 열다섯 부의 장편 서사시. 정치적 도피 중에 완성돼 멕시코와 칠레에서 같은 해 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--memoria-chilena",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "pablo-neruda--odas-elementales",
+      "titleKo": "기본적인 것들에 바치는 송가",
+      "titleOriginal": "Odas elementales",
+      "year": 1954,
+      "genre": "poetry",
+      "significance": "양파와 토마토와 양말 같은 일상 사물에 고전적 송가 형식을 적용한 연작. 짧은 행과 평이한 어휘로 시가 다룰 수 있는 대상의 목록을 넓혔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--memoria-chilena"
+      ]
+    },
+    {
+      "id": "pablo-neruda--memorial-de-isla-negra",
+      "titleKo": "이슬라 네그라의 기억",
+      "titleOriginal": "Memorial de Isla Negra",
+      "year": 1964,
+      "genre": "poetry",
+      "significance": "예순 살에 낸 다섯 권짜리 자전적 시집. 남부의 숲에서 보낸 유년부터 정치적 이력까지를 시간 순으로 되짚으며 자기 문체의 변천을 스스로 정리한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--memoria-chilena"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--pablo-neruda--derek-walcott",
+      "type": "affinity",
+      "from": "pablo-neruda (파블로 네루다)",
+      "to": "derek-walcott (데릭 월컷)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "두 사람은 각각 『모두의 노래』(1950)와 『오메로스』(1990)에서 아메리카의 지형과 노동을 유럽 서사시의 형식 안에 넣었다. 한쪽은 대륙의 지질과 정복사를 목록으로 호명했고 다른 쪽은 한 섬의 어부들에게 호메로스의 이름을 붙였다. 직접 접촉의 기록은 없고, 이 지도가 반구를 가로질러 놓은 비교다.",
+      "anchors": [
+        {
+          "workId": "pablo-neruda--canto-general"
+        },
+        {
+          "workId": "derek-walcott--omeros"
+        }
+      ],
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--walt-whitman--pablo-neruda (→ walt-whitman 의 슬레이트에서 본다)",
+    "influence--rabindranath-tagore--pablo-neruda (→ rabindranath-tagore 의 슬레이트에서 본다)",
+    "dialogue--federico-garcia-lorca--pablo-neruda (→ federico-garcia-lorca 의 슬레이트에서 본다)",
+    "dialogue--cesar-vallejo--pablo-neruda (→ cesar-vallejo 의 슬레이트에서 본다)",
+    "contrast--jorge-luis-borges--pablo-neruda (→ jorge-luis-borges 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--memoria-chilena": {
+      "id": "src--memoria-chilena",
+      "title": "Memoria Chilena — 칠레 문학·역사 디지털 포털",
+      "publisherOrInstitution": "Biblioteca Nacional de Chile",
+      "url": "https://www.memoriachilena.gob.cl",
+      "citation": "칠레 작가의 연보·초판 서지·1차 자료 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

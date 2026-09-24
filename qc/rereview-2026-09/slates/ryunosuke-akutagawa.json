@@ -1,0 +1,271 @@
+{
+  "id": "ryunosuke-akutagawa",
+  "page": "https://literary-planet.pages.dev/authors/ryunosuke-akutagawa/",
+  "author": {
+    "names": {
+      "ko": "아쿠타가와 류노스케",
+      "original": "芥川龍之介",
+      "aliases": [
+        "아쿠타가와",
+        "Akutagawa Ryūnosuke",
+        "니이하라 류노스케"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1927,
+    "activeRange": [
+      1915,
+      1927
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "아쿠타가와는 『곤자쿠 이야기집』 같은 고전 설화에서 줄거리만 떼어내고 그 자리에 근대적 동기와 회의를 이식해, 역사소설을 과거의 재현이 아니라 인식의 실험실로 바꾸었다. 「덤불 속」은 하나의 살인에 대한 서로 어긋나는 증언만을 나열하고 판정을 끝내 내리지 않는 구성으로, 서술의 신빙성 문제 자체를 소설의 주제로 세웠다. 사소설이 지배하던 다이쇼 문단에서 끝까지 짜인 단편을 밀고 나갔고, 죽기 직전 다니자키 준이치로와 벌인 '줄거리 없는 소설' 논쟁은 그 대립을 문헌으로 남겼다. 1935년 제정된 아쿠타가와상은 그의 이름을 일본 신인 소설의 관문으로 남겼다.",
+    "readingEntry": "ryunosuke-akutagawa--rashomon",
+    "readingEntryReason": "열 쪽 남짓 분량에 아쿠타가와의 방법 — 고전 설화를 뼈대만 남기고 동기를 다시 심는 것 — 이 온전히 들어 있다.",
+    "readingOrder": [
+      "ryunosuke-akutagawa--rashomon",
+      "ryunosuke-akutagawa--hana",
+      "ryunosuke-akutagawa--yabu-no-naka",
+      "ryunosuke-akutagawa--jigokuhen",
+      "ryunosuke-akutagawa--haguruma"
+    ],
+    "readingWarning": "구로사와의 영화 〈라쇼몬〉을 읽은 것으로 여기고 접근하면 어긋난다. 영화는 「라쇼몬」의 배경과 「덤불 속」의 사건을 합쳐 만든 것이어서, 원작 두 편은 각각 다른 작품이다.",
+    "difficulty": 2,
+    "difficultyReason": "낱편이 짧고 사건이 선명해 진입은 쉽지만, 대부분 고전 설화를 비틀어 쓴 것이라 원전을 모르면 비틀기의 각도가 보이지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--aozora-bunko",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "ryunosuke-akutagawa--rashomon",
+      "titleKo": "라쇼몬",
+      "titleOriginal": "羅生門",
+      "year": 1915,
+      "genre": "fiction",
+      "significance": "『곤자쿠 이야기집』의 짧은 삽화에서 줄거리만 가져와, 굶어 죽을 것인가 도둑이 될 것인가를 앞둔 하인의 결심을 몇 분의 장면으로 압축했다. 고전 설화를 근대 심리의 실험 조건으로 쓰는 아쿠타가와의 방법이 처음 완성된 작품이다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ryunosuke-akutagawa--hana",
+      "titleKo": "코",
+      "titleOriginal": "鼻",
+      "year": 1916,
+      "genre": "fiction",
+      "significance": "긴 코를 부끄러워하던 승려가 코가 짧아지자 오히려 사람들의 조롱을 받는 이야기로, 타인의 불행이 회복될 때 느끼는 반감을 사건 하나로 드러낸다. 나쓰메 소세키가 발표 직후 높이 평가한 것이 아쿠타가와의 문단 진입 계기가 되었다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ryunosuke-akutagawa--jigokuhen",
+      "titleKo": "지옥변",
+      "titleOriginal": "地獄変",
+      "year": 1918,
+      "genre": "fiction",
+      "significance": "지옥도를 그리기 위해 딸이 불타는 광경을 보아야 했던 화가의 이야기로, 예술의 완성이 요구하는 대가를 극단까지 밀어붙인다. 사건을 목격자의 회고로만 전달해 화가의 내면을 끝내 비워 두는 서술이 특징이다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ryunosuke-akutagawa--yabu-no-naka",
+      "titleKo": "덤불 속",
+      "titleOriginal": "藪の中",
+      "year": 1922,
+      "genre": "fiction",
+      "significance": "하나의 살인을 두고 관련자들의 진술만을 차례로 나열하고 어느 것이 사실인지 판정하지 않는다. 서술의 신빙성 문제를 소설의 주제로 세운 구조이며, '어느 쪽 말이 맞는지 알 수 없는 상태'를 가리키는 관용구를 남겼다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "ryunosuke-akutagawa--kappa",
+      "titleKo": "갓파",
+      "titleOriginal": "河童",
+      "year": 1927,
+      "genre": "fiction",
+      "significance": "정신병원 환자가 갓파의 나라에서 겪었다고 말하는 견문기 형식의 풍자로, 출산과 노동과 예술의 제도를 뒤집어 놓은 사회를 그린다. 일본 근대문학에서 사변적 설정을 사회 비판의 장치로 쓴 이른 사례다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "ryunosuke-akutagawa--haguruma",
+      "titleKo": "톱니바퀴",
+      "titleOriginal": "歯車",
+      "year": 1927,
+      "genre": "fiction",
+      "significance": "시야에 반투명한 톱니바퀴가 나타나는 증상을 비롯해 붕괴하는 감각을 단절된 여섯 절로 기록한 만년작으로, 자살한 해에 사후 발표되었다. 고전 설화를 재구성하던 초기 방법을 버리고 자기 자신을 관찰 대상으로 삼은 마지막 국면을 보여준다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--matsuo-basho--ryunosuke-akutagawa",
+      "type": "documented_influence",
+      "from": "matsuo-basho (마쓰오 바쇼)",
+      "to": "ryunosuke-akutagawa (아쿠타가와 류노스케)",
+      "evidenceLevel": "documented",
+      "summary": "아쿠타가와는 연작 비평 「芭蕉雑記」(1923–24)에서 바쇼의 발구를 한 편씩 읽었다.",
+      "sourceIds": [
+        "src--akutagawa-basho-zakki"
+      ]
+    },
+    {
+      "id": "contrast--ryunosuke-akutagawa--yasunari-kawabata",
+      "type": "contrast",
+      "from": "ryunosuke-akutagawa (아쿠타가와 류노스케)",
+      "to": "yasunari-kawabata (가와바타 야스나리)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "가와바타는 1933년 수필 「말기의 눈」의 제목을 아쿠타가와의 유서 「어느 옛 친구에게 보내는 수기」(1927)에서 그대로 가져왔다. 죽음을 앞둔 눈에 자연이 더 아름답게 비친다고 쓴 대목을 인용한 뒤, 어떤 경우에도 자살은 깨달음의 모습이 아니라고 반박했다. 일본 근대문학 연구는 두 글을 예술과 죽음을 두고 갈라선 한 쌍으로 다룬다.",
+      "anchors": [
+        {
+          "year": 1927
+        },
+        {
+          "year": 1933
+        }
+      ],
+      "sourceIds": [
+        "src--akutagawa-kyuyu-e-okuru-shuki-1927",
+        "src--kawabata-matsugo-no-me-1933"
+      ]
+    },
+    {
+      "id": "influence--ryunosuke-akutagawa--osamu-dazai",
+      "type": "documented_influence",
+      "from": "ryunosuke-akutagawa (아쿠타가와 류노스케)",
+      "to": "osamu-dazai (다자이 오사무)",
+      "evidenceLevel": "documented",
+      "summary": "다자이는 십대에 아쿠타가와를 탐독했고 1927년 아쿠타가와의 자살에 큰 충격을 받았다. 1935년 제1회 아쿠타가와상 후보에 올랐으나 받지 못했고, 1936년에는 수상을 달라고 심사위원에게 직접 편지를 써 청원했으며, 그 편지가 서간집에 남아 있다.",
+      "anchors": [
+        {
+          "year": 1927
+        },
+        {
+          "year": 1935
+        },
+        {
+          "year": 1936
+        }
+      ],
+      "sourceIds": [
+        "src--dazai-akutagawa-sho-shokan",
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "translation--ryunosuke-akutagawa--lu-xun",
+      "type": "translation",
+      "from": "ryunosuke-akutagawa (아쿠타가와 류노스케)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "같은 『현대일본소설집』(1923)에서 루쉰은 아쿠타가와의 「코」와 「라쇼몬」을 중국어로 옮겼다. 고전 설화의 뼈대에 근대적 동기를 다시 심는 아쿠타가와의 방법이 백화소설 초기의 중국 독자에게 전달된 경로다.",
+      "anchors": [
+        {
+          "year": 1923
+        },
+        {
+          "workId": "ryunosuke-akutagawa--hana"
+        },
+        {
+          "workId": "ryunosuke-akutagawa--rashomon"
+        }
+      ],
+      "sourceIds": [
+        "src--xiandai-riben-xiaoshuo-ji-1923",
+        "src--lu-xun-quanji"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "mentorship--natsume-soseki--ryunosuke-akutagawa (→ natsume-soseki 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--aozora-bunko": {
+      "id": "src--aozora-bunko",
+      "title": "青空文庫 — 작품별 저본 서지 정보",
+      "publisherOrInstitution": "青空文庫",
+      "url": "https://www.aozora.gr.jp",
+      "citation": "일본 근대문학 공유저작물 텍스트의 초출 지면과 저본 판본을 작품마다 명시한 서지 — 발표 연도 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--akutagawa-basho-zakki": {
+      "id": "src--akutagawa-basho-zakki",
+      "title": "「芭蕉雑記」 (1923–24)",
+      "publisherOrInstitution": "芥川龍之介 전집 (青空文庫 수록)",
+      "citation": "아쿠타가와가 바쇼의 발구를 한 편씩 읽어 나간 연작 비평 — 바쇼 수용의 1차 근거"
+    },
+    "src--akutagawa-kyuyu-e-okuru-shuki-1927": {
+      "id": "src--akutagawa-kyuyu-e-okuru-shuki-1927",
+      "title": "「어느 옛 친구에게 보내는 수기(或旧友へ送る手記)」 (1927)",
+      "publisherOrInstitution": "아쿠타가와 류노스케 유고 — 1927년 7월 사후 공개",
+      "citation": "'막연한 불안'과 '말기의 눈(末期の眼)'이라는 구절이 나오는 유서 — 가와바타의 1933년 수필이 제목과 논점을 그대로 받아 온 문헌"
+    },
+    "src--kawabata-matsugo-no-me-1933": {
+      "id": "src--kawabata-matsugo-no-me-1933",
+      "title": "「말기의 눈(末期の眼)」 (1933)",
+      "publisherOrInstitution": "가와바타 야스나리 수필 — 1933년 발표",
+      "citation": "아쿠타가와의 유서 구절을 제목으로 삼아 인용한 뒤, 어떤 경우에도 자살은 깨달음의 모습이 아니라고 쓴 산문"
+    },
+    "src--dazai-akutagawa-sho-shokan": {
+      "id": "src--dazai-akutagawa-sho-shokan",
+      "title": "아쿠타가와상 청원 서간 (1935–1936, 사토 하루오·가와바타 야스나리 앞)",
+      "publisherOrInstitution": "『太宰治全集』 서간 권 (筑摩書房)",
+      "citation": "제2·3회 아쿠타가와상 수상을 심사위원들에게 직접 청원한 다자이의 편지들 — 아쿠타가와상 집착의 1차 근거"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--xiandai-riben-xiaoshuo-ji-1923": {
+      "id": "src--xiandai-riben-xiaoshuo-ji-1923",
+      "title": "『현대일본소설집(現代日本小說集)』 (1923)",
+      "publisherOrInstitution": "上海 商務印書館",
+      "citation": "루쉰과 저우쭤런이 함께 엮은 일본 근대소설 중국어 선집 — 루쉰이 옮긴 나쓰메 소세키·아쿠타가와 류노스케 단편과 작가 해제가 실린 1차 판본"
+    },
+    "src--lu-xun-quanji": {
+      "id": "src--lu-xun-quanji",
+      "title": "『魯迅全集』 주석·연보",
+      "publisherOrInstitution": "人民文學出版社",
+      "citation": "루쉰 저작의 초출 지면·발표 연도·필명이 정리된 정본 전집의 주석과 연보"
+    }
+  }
+}

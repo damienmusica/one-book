@@ -1,0 +1,218 @@
+{
+  "id": "george-orwell",
+  "page": "https://literary-planet.pages.dev/authors/george-orwell/",
+  "author": {
+    "names": {
+      "ko": "조지 오웰",
+      "original": "George Orwell",
+      "aliases": [
+        "오웰",
+        "Eric Arthur Blair",
+        "에릭 아서 블레어"
+      ]
+    },
+    "birthYear": 1903,
+    "deathYear": 1950,
+    "activeRange": [
+      1933,
+      1949
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "르포·회고·논쟁을 문학의 중심 장르로 끌어올렸고, 정치적 목적을 가진 글쓰기가 문장의 정확성과 양립할 수 있다는 것을 자기 산문으로 보여주었다. 완곡어법과 죽은 은유를 정치적 거짓말의 도구로 지목하고, 투명한 문장을 규율로 제안했다. 『1984』가 만든 신어·이중사고·빅브라더는 전체주의를 서술하는 국제적 공용어가 되었고, 우화와 디스토피아라는 두 형식이 그 주제의 표준 틀로 굳었다.",
+    "readingEntry": "george-orwell--animal-farm",
+    "readingEntryReason": "짧은 우화 한 편으로 오웰의 정치적 문제의식과 문장을 함께 볼 수 있고, 러시아 혁명사를 몰라도 이야기가 스스로 작동한다.",
+    "readingOrder": [
+      "george-orwell--animal-farm",
+      "george-orwell--nineteen-eighty-four",
+      "george-orwell--politics-and-the-english-language",
+      "george-orwell--down-and-out-in-paris-and-london",
+      "george-orwell--homage-to-catalonia"
+    ],
+    "readingWarning": "『카탈로니아 찬가』를 첫 책으로 고르면 1937년 바르셀로나의 정파 지형(POUM·아나키스트·공산당)을 모르는 채 중반의 논쟁에 들어가게 된다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 의도적으로 투명하고 어휘도 평이하다. 난도는 문체가 아니라 배경에서 온다 — 스페인 내전과 스탈린주의 논쟁을 모르면 무엇을 겨냥한 글인지 흐려진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "george-orwell--down-and-out-in-paris-and-london",
+      "titleKo": "파리와 런던의 밑바닥 생활",
+      "titleOriginal": "Down and Out in Paris and London",
+      "year": 1933,
+      "genre": "essay-criticism",
+      "significance": "파리 호텔 주방의 접시닦이와 런던 부랑자 숙소를 직접 겪고 기록한 첫 책. 에릭 블레어가 조지 오웰이라는 이름을 처음 쓴 자리이기도 하다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "george-orwell--homage-to-catalonia",
+      "titleKo": "카탈로니아 찬가",
+      "titleOriginal": "Homage to Catalonia",
+      "year": 1938,
+      "genre": "essay-criticism",
+      "significance": "POUM 민병대원으로 아라곤 전선과 1937년 바르셀로나 시가전을 겪은 기록. 공화파 내부의 숙청을 보고한 탓에 출간 당시 영국 좌파 진영에서 외면당했다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "george-orwell--animal-farm",
+      "titleKo": "동물농장",
+      "titleOriginal": "Animal Farm",
+      "year": 1945,
+      "genre": "fiction",
+      "significance": "농장 동물들이 주인을 몰아낸 뒤 새 지배가 옛 지배를 닮아 가는 과정을 우화로 압축했다. 전시 동맹국이던 소련을 겨냥한 탓에 여러 출판사가 거절해 종전 무렵에야 나왔다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "george-orwell--politics-and-the-english-language",
+      "titleKo": "정치와 영어",
+      "titleOriginal": "Politics and the English Language",
+      "year": 1946,
+      "genre": "essay-criticism",
+      "significance": "정치 언어가 상투구와 완곡어법으로 사실을 가리는 방식을 실제 예문 분석으로 보이고, 문장을 되살리기 위한 여섯 개 규칙을 제안한다. 1946년 4월 잡지 『호라이즌』에 실렸다.",
+      "sourceIds": [
+        "src--orwell-horizon-1946"
+      ]
+    },
+    {
+      "id": "george-orwell--nineteen-eighty-four",
+      "titleKo": "1984",
+      "titleOriginal": "Nineteen Eighty-Four",
+      "year": 1949,
+      "genre": "fiction",
+      "significance": "당이 과거의 기록을 계속 고쳐 쓰는 국가에서 기억과 언어가 어떻게 관리되는지를 서술한다. 부록으로 붙은 신어 해설이 소설의 언어 이론을 따로 제시하는 구조이며, 여기서 나온 어휘들이 전체주의를 말하는 공용어가 되었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--jonathan-swift--george-orwell",
+      "type": "documented_influence",
+      "from": "jonathan-swift (조너선 스위프트)",
+      "to": "george-orwell (조지 오웰)",
+      "evidenceLevel": "documented",
+      "summary": "오웰은 「정치 대 문학: 『걸리버 여행기』에 대한 검토」(Polemic, 1946)에서 스위프트의 정치적 태도를 비판하면서도, 모든 책이 사라질 때 남길 여섯 권 중 하나로 이 책을 꼽았다.",
+      "sourceIds": [
+        "src--orwell-politics-vs-literature-1946"
+      ]
+    },
+    {
+      "id": "contrast--george-orwell--milan-kundera",
+      "type": "contrast",
+      "from": "george-orwell (조지 오웰)",
+      "to": "milan-kundera (밀란 쿤데라)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "쿤데라는 『배신당한 유언들』에서 『1984』가 삶을 정치 차원으로 남김없이 환원해 버린다고 비판하며, 전체주의를 다루는 소설이 오히려 전체주의의 사고 방식을 되풀이할 수 있다고 썼다. 같은 체제를 소설의 재료로 삼으면서 정반대 방법을 택한 두 사례로 논의된다.",
+      "anchors": [
+        {
+          "workId": "george-orwell--nineteen-eighty-four"
+        }
+      ],
+      "sourceIds": [
+        "src--kundera-testaments-trahis"
+      ]
+    },
+    {
+      "id": "influence--george-orwell--margaret-atwood",
+      "type": "documented_influence",
+      "from": "george-orwell (조지 오웰)",
+      "to": "margaret-atwood (마거릿 애트우드)",
+      "evidenceLevel": "documented",
+      "summary": "애트우드는 『다른 세계에서』에 실은 오웰론에서 아홉 살에 『동물농장』을, 십대에 『1984』를 읽은 경위를 적고 『시녀 이야기』가 그 독서에 대한 응답임을 밝혔다. 소설 본문 뒤에 먼 미래의 학술대회 기록을 붙여 체제를 과거형으로 만든 장치도 『1984』의 신어 부록을 이어받은 것이다.",
+      "anchors": [
+        {
+          "workId": "george-orwell--animal-farm"
+        },
+        {
+          "workId": "george-orwell--nineteen-eighty-four"
+        },
+        {
+          "workId": "margaret-atwood--the-handmaids-tale"
+        }
+      ],
+      "sourceIds": [
+        "src--atwood-in-other-worlds"
+      ]
+    },
+    {
+      "id": "affinity--george-orwell--albert-camus",
+      "type": "affinity",
+      "from": "george-orwell (조지 오웰)",
+      "to": "albert-camus (알베르 카뮈)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "1945년에서 1949년 사이에 두 사람은 전체주의와 그 아래의 개인을 각각 알레고리로 옮겼다. 오웰은 우화와 디스토피아로, 카뮈는 페스트에 갇힌 도시로 같은 문제를 다뤘다. 두 사람의 직접 접촉이나 상호 독서를 보여주는 기록은 이 배치에서 확인하지 못했고, 이 지도가 비교를 위해 가까이 놓은 관계다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--leo-tolstoy--george-orwell (→ leo-tolstoy 의 슬레이트에서 본다)",
+    "contrast--ernest-hemingway--george-orwell (→ ernest-hemingway 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--orwell-horizon-1946": {
+      "id": "src--orwell-horizon-1946",
+      "title": "「정치와 영어」 초출 (Horizon, 1946. 4.)",
+      "publisherOrInstitution": "Horizon (편집 Cyril Connolly)",
+      "citation": "오웰의 산문 규율이 여섯 개 규칙으로 정식화된 자리 — 초출 지면과 연월 확인용"
+    },
+    "src--orwell-politics-vs-literature-1946": {
+      "id": "src--orwell-politics-vs-literature-1946",
+      "title": "조지 오웰 「정치 대 문학: 『걸리버 여행기』에 대한 검토」(1946)",
+      "publisherOrInstitution": "Polemic (London)",
+      "citation": "오웰이 스위프트의 정치적 반동성과 서술의 힘을 함께 분석한 에세이 — 스위프트 수용의 1차 근거"
+    },
+    "src--kundera-testaments-trahis": {
+      "id": "src--kundera-testaments-trahis",
+      "title": "『배신당한 유언들』 (Les Testaments trahis, 1993)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카프카 수용사('카프카학') 비판, 톨스토이 『안나 카레니나』의 내적 독백 분석, 오웰 『1984』가 삶을 정치 차원으로 환원한다는 비판이 함께 실린 쿤데라의 에세이집"
+    },
+    "src--atwood-in-other-worlds": {
+      "id": "src--atwood-in-other-worlds",
+      "title": "In Other Worlds: SF and the Human Imagination (2011)",
+      "publisherOrInstitution": "Nan A. Talese / Doubleday",
+      "citation": "애트우드가 'science fiction'과 'speculative fiction'을 자기 기준으로 구분하고 자기 작품을 후자로 규정한 저자 자신의 진술"
+    }
+  }
+}

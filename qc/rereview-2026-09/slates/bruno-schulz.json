@@ -1,0 +1,159 @@
+{
+  "id": "bruno-schulz",
+  "page": "https://literary-planet.pages.dev/authors/bruno-schulz/",
+  "author": {
+    "names": {
+      "ko": "브루노 슐츠",
+      "original": "Bruno Schulz",
+      "aliases": [
+        "슐츠",
+        "Schulz"
+      ]
+    },
+    "birthYear": 1892,
+    "deathYear": 1942,
+    "activeRange": [
+      1933,
+      1938
+    ],
+    "languages": [
+      "pl"
+    ],
+    "regions": [
+      "eastern-europe"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "갈리치아 소도시의 상점과 다락, 아버지의 광기를 우주 발생 신화의 규모로 번역하는 산문을 만들었다. 물질이 스스로 증식하고 퇴화한다는 '물질의 신화학'을 인물의 진술이 아니라 문장의 은유 밀도로 실행했고, 그 결과 유년의 기억은 회상이 아니라 창세기의 형식을 얻었다. 두 권의 단편집과 몇 편의 산문만 남았지만, 카프카나 조이스와 다른 경로로 모더니즘 산문의 감각을 확장한 사례로 폴란드 안팎에서 반복 참조된다.",
+    "readingEntry": "bruno-schulz--sklepy-cynamonowe",
+    "readingEntryReason": "아버지·상점·계절이라는 그의 세 좌표가 한 권 분량 안에 모두 들어 있고, 개별 단편이 독립적이어서 어디서 끊어 읽어도 손실이 적다.",
+    "readingOrder": [
+      "bruno-schulz--sklepy-cynamonowe",
+      "bruno-schulz--sanatorium-pod-klepsydra",
+      "bruno-schulz--mityzacja-rzeczywistosci"
+    ],
+    "readingWarning": "그림과 최후(게토에서의 죽음)에서 출발해 작품을 순교의 기록으로 읽으면, 정작 그의 문장이 하는 일 — 물질의 변신 — 이 배경으로 밀려난다.",
+    "difficulty": 4,
+    "difficultyReason": "사건이 거의 진행되지 않고 한 문장 안에서 은유가 여러 번 갈아 끼워지기 때문에, 줄거리를 따라가는 독법으로는 지면이 잘 넘어가지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--culture-pl",
+      "src--schulz-witkiewicz-1935",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "bruno-schulz--sklepy-cynamonowe",
+      "titleKo": "계피색 가게들",
+      "titleOriginal": "Sklepy cynamonowe",
+      "year": 1934,
+      "genre": "fiction",
+      "significance": "아버지의 상점과 드로호비치의 계절을 신화적 시간으로 재편한 첫 단편집으로, 조피아 나우코프스카의 추천으로 출간되며 무명 미술교사였던 저자를 폴란드 문단에 들여놓았다. 1933년 말에 인쇄되었으나 판권장 연도는 1934년이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--culture-pl"
+      ]
+    },
+    {
+      "id": "bruno-schulz--mityzacja-rzeczywistosci",
+      "titleKo": "현실의 신화화",
+      "titleOriginal": "Mityzacja rzeczywistości",
+      "year": 1936,
+      "genre": "essay-criticism",
+      "significance": "낱말은 본래 신화의 파편이며 시는 그 파편을 다시 잇는 일이라고 주장한 짧은 강령. 자기 산문이 무엇을 하려는지 저자가 직접 밝힌 가장 압축된 글이다.",
+      "sourceIds": [
+        "src--culture-pl",
+        "src--schulz-witkiewicz-1935"
+      ]
+    },
+    {
+      "id": "bruno-schulz--sanatorium-pod-klepsydra",
+      "titleKo": "모래시계 요양원",
+      "titleOriginal": "Sanatorium pod Klepsydrą",
+      "year": 1937,
+      "genre": "fiction",
+      "significance": "죽은 아버지가 시간을 되돌린 요양원에서 다시 살아 있는 표제작을 포함해, 첫 단편집의 세계를 시간 실험 쪽으로 확장한 두 번째이자 마지막 단편집이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--culture-pl"
+      ]
+    },
+    {
+      "id": "bruno-schulz--kometa",
+      "titleKo": "혜성",
+      "titleOriginal": "Kometa",
+      "year": 1938,
+      "genre": "fiction",
+      "significance": "지구를 향해 오던 혜성이 방향을 틀며 종말이 취소되는 이야기로, 생전에 활자화된 마지막 단편 가운데 하나다. 두 단편집에 묶이지 못한 채 잡지에만 실렸다.",
+      "sourceIds": [
+        "src--culture-pl"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--bruno-schulz--witold-gombrowicz",
+      "type": "dialogue",
+      "from": "bruno-schulz (브루노 슐츠)",
+      "to": "witold-gombrowicz (비톨트 곰브로비치)",
+      "evidenceLevel": "documented",
+      "summary": "1936년 잡지 『Studio』 지면에서 두 사람은 공개 서한을 주고받았다. 곰브로비치가 빌차 거리 의사 부인의 판정을 들이대며 슐츠의 예술이 형식의 권위에 기대고 있다고 도발했고 슐츠가 답장으로 응수한 이 왕복은, 폴란드 전간기 산문의 두 노선이 직접 부딪친 기록이다. 슐츠는 뒤에 『페르디두르케』를 다룬 평문도 썼다.",
+      "anchors": [
+        {
+          "year": 1936
+        },
+        {
+          "workId": "witold-gombrowicz--ferdydurke"
+        }
+      ],
+      "sourceIds": [
+        "src--gombrowicz-schulz-open-letters-1936"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "translation--franz-kafka--bruno-schulz (→ franz-kafka 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--culture-pl": {
+      "id": "src--culture-pl",
+      "title": "Culture.pl — 폴란드 작가·작품 프로필",
+      "publisherOrInstitution": "Instytut Adama Mickiewicza (Adam Mickiewicz Institute)",
+      "url": "https://culture.pl",
+      "citation": "폴란드 문학 작가의 생애·저작 목록과 해외 번역 수용 확인용 공식 문화기관 자료"
+    },
+    "src--schulz-witkiewicz-1935": {
+      "id": "src--schulz-witkiewicz-1935",
+      "title": "브루노 슐츠, 「스타니스와프 이그나치 비트키에비치에게 보내는 편지」 (1935)",
+      "publisherOrInstitution": "Tygodnik Ilustrowany (바르샤바) 게재, 이후 슐츠 산문집에 수록",
+      "citation": "『계피색 가게들』의 발생과 자기 시학을 저자가 직접 설명한 1차 문헌"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--gombrowicz-schulz-open-letters-1936": {
+      "id": "src--gombrowicz-schulz-open-letters-1936",
+      "title": "비톨트 곰브로비치·브루노 슐츠 공개 서한 (『Studio』, 1936)",
+      "publisherOrInstitution": "문예지 『Studio』 (바르샤바)",
+      "citation": "곰브로비치의 공개 도발과 슐츠의 답장이 지면에서 오간 기록 — 두 사람의 직접 교류의 1차 문헌"
+    }
+  }
+}

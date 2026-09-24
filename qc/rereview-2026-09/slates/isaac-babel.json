@@ -1,0 +1,141 @@
+{
+  "id": "isaac-babel",
+  "page": "https://literary-planet.pages.dev/authors/isaac-babel/",
+  "author": {
+    "names": {
+      "ko": "이사크 바벨",
+      "original": "Исаак Бабель",
+      "aliases": [
+        "바벨",
+        "Isaac Babel",
+        "Исаак Эммануилович Бабель"
+      ]
+    },
+    "birthYear": 1894,
+    "deathYear": 1940,
+    "activeRange": [
+      1916,
+      1939
+    ],
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "importanceReason": "폭력의 장면과 서정적 비유를 한 문장 안에 붙여 놓는 극도로 압축된 단편 산문을 만들었다. 『기병대』는 붉은 기병대에 종군한 유대인 지식인의 시선으로 혁명의 폭력을 미화도 규탄도 하지 않은 채 기록해, 내전 서사의 영웅 서술을 무효화했다. 『오데사 이야기』는 유대인 항구 도시의 구어와 갱단 신화를 러시아 문학어 안으로 들여왔다. 1930년대 후반 발표가 끊겼고 1939년 5월 체포되어 1940년 1월 총살되었으며, 1954년 복권될 때까지 이름이 소련 출판에서 지워졌다.",
+    "readingEntry": "isaac-babel--odesskie-rasskazy",
+    "readingEntryReason": "한 편이 열 쪽 안팎이고 갱단 두목 베냐 크리크를 중심으로 한 연작이라 사건이 명확해, 배경 지식 없이도 바벨의 문장 밀도를 먼저 경험할 수 있다.",
+    "readingOrder": [
+      "isaac-babel--odesskie-rasskazy",
+      "isaac-babel--istoriya-moey-golubyatni",
+      "isaac-babel--konarmiya",
+      "isaac-babel--zakat"
+    ],
+    "readingWarning": "『기병대』부터 펴면 1920년 폴란드-소비에트 전쟁의 전선 이동과 카자크 부대 안 유대인 서술자의 위치를 모른 채 장면만 흘러가, 삽화의 나열로 읽히기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "한 문장에 은유가 두세 겹 겹치는 고밀도 산문이라 속도를 늦춰야 하고, 『기병대』는 서술자와 그가 속한 부대 사이의 거리를 읽어 내지 못하면 폭력 장면의 의미가 잡히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--babel-1934-congress-speech",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "isaac-babel--istoriya-moey-golubyatni",
+      "titleKo": "나의 비둘기장 이야기",
+      "titleOriginal": "История моей голубятни",
+      "year": 1925,
+      "genre": "fiction",
+      "significance": "김나지움 입학 시험에 합격한 소년이 비둘기를 사러 간 날 포그롬을 겪는 단편. 1925년 잡지 《붉은 처녀지》에 실렸고 유년 연작의 출발점이 된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "isaac-babel--konarmiya",
+      "titleKo": "기병대",
+      "titleOriginal": "Конармия",
+      "year": 1926,
+      "genre": "fiction",
+      "significance": "1920년 폴란드-소비에트 전쟁에 종군한 경험을 서른 편 남짓한 짧은 단편으로 기록한 연작. 붉은 기병대 사령관 부존니의 공개 반발을 불렀고, 혁명의 전쟁을 영웅담으로 쓰지 않은 사례가 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "isaac-babel--zakat",
+      "titleKo": "일몰",
+      "titleOriginal": "Закат",
+      "year": 1927,
+      "genre": "drama",
+      "significance": "오데사의 유대인 운송업자 집안에서 아들이 아버지를 밀어내는 과정을 다룬 희곡. 1927년 바쿠에서 초연되고 이듬해 모스크바예술극장에서 상연되었으나 곧 레퍼토리에서 내려졌다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "isaac-babel--odesskie-rasskazy",
+      "titleKo": "오데사 이야기",
+      "titleOriginal": "Одесские рассказы",
+      "year": 1931,
+      "genre": "fiction",
+      "significance": "갱단 두목 베냐 크리크를 중심으로 한 오데사 몰다반카 지구의 연작. 1920년대에 흩어져 발표된 단편들을 1931년에 한 권으로 묶었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--isaac-babel--saadat-hasan-manto",
+      "type": "affinity",
+      "from": "isaac-babel (이사크 바벨)",
+      "to": "saadat-hasan-manto (사다트 하산 만토)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "두 사람 사이에 직접 접촉의 기록은 없다. 이 지도는 내전과 분단의 학살을 몇 쪽짜리 장면으로 끊어내고 논평도 위로도 붙이지 않은 채 판단을 독자에게 넘기는 단편 형식이 겹친다는 이유로 둘을 가까이 놓는다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--babel-1934-congress-speech": {
+      "id": "src--babel-1934-congress-speech",
+      "title": "제1차 전연방 소비에트 작가대회 연설 (1934. 8.)",
+      "publisherOrInstitution": "소비에트 작가동맹 제1차 대회 속기록",
+      "citation": "발표를 중단한 자신의 상태를 침묵이라는 장르로 표현한 발언이 남은 1차 자료"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

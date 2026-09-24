@@ -1,0 +1,42 @@
+{
+ "why": "관계 상대의 생성이 주간 한도로 실패했다 — 그 사람이 도판이 되면 다시 붙인다",
+ "relations": [
+  {
+   "from": "haruki-murakami",
+   "type": "translation",
+   "sourceId": "f-scott-fitzgerald",
+   "targetId": "haruki-murakami",
+   "evidenceLevel": "documented",
+   "summary": "무라카미 하루키의 첫 번역서는 피츠제럴드 작품집 『マイ・ロスト・シティー』(1981)였고, 2006년에는 『グレート・ギャツビー』를 번역해 냈다. 『マイ・ロスト・シティー』 개역판(2006) 소개문에는 ‘여러 해 동안 피츠제럴드만이 나의 스승이었고 대학이었고 문학 동료였다’는 그의 말이 실려 있다.",
+   "weight": 0.9,
+   "sourceIds": [
+    "src--murakami-trans-my-lost-city",
+    "src--murakami-trans-great-gatsby-2006"
+   ]
+  },
+  {
+   "from": "jd-salinger",
+   "type": "documented_influence",
+   "sourceId": "f-scott-fitzgerald",
+   "targetId": "jd-salinger",
+   "evidenceLevel": "documented",
+   "summary": "샐린저는 1940년대 편지들에서 셔우드 앤더슨·링 라드너와 함께 피츠제럴드를 높이 샀다. 전기 작가 이언 해밀턴은 『In Search of J. D. Salinger』(1988)에서 그가 한동안 자신을 ‘피츠제럴드의 후계자’로 여겼다고 썼다.",
+   "weight": 0.7,
+   "sourceIds": [
+    "src--hamilton-in-search-of-salinger-1988"
+   ]
+  },
+  {
+   "from": "kim-young-ha",
+   "type": "translation",
+   "sourceId": "f-scott-fitzgerald",
+   "targetId": "kim-young-ha",
+   "evidenceLevel": "documented",
+   "summary": "김영하는 F. 스콧 피츠제럴드의 『위대한 개츠비』를 우리말로 옮겨 2009년 문학동네 세계문학전집 7권으로 냈다(김영하 옮김). 그의 저자 소개에도 이 번역이 소설·산문 목록과 나란히 올라 있다.",
+   "weight": 0.85,
+   "sourceIds": [
+    "src--kim-young-ha-trans-great-gatsby-2009"
+   ]
+  }
+ ]
+}

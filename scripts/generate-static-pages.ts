@@ -48,6 +48,8 @@ type ArtEntry = { file: string; w: number; h: number; license?: string; provenan
 const ART: Record<"marks" | "signatures" | "covers", Record<string, ArtEntry>> = JSON.parse(readFileSync(join(PKG_ROOT, "public", "art", "manifest.json"), "utf8"));
 const signatureOf = (authorId: string): ArtEntry | undefined => ART.signatures[authorId] ?? ART.marks[authorId];
 // 인장 글자 판정 원장 — 마지막 낱말이 성이 아닌 이름들. 헝가리 이름은 성이 앞에 선다.
+// 판매 상태 — 서점 상품 페이지에서 확인한 것만(qc/edition-availability.json). 카카오의 판매 상태는 절판본도 정상판매라 한다.
+const OUT_OF_PRINT = new Set(Object.entries<{ status?: string }>(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-availability.json"), "utf8")).byIsbn ?? {}).filter(([, v]) => v.status === "out-of-print").map(([k]) => k));
 const BASIS_ATTESTED: Record<string, boolean | undefined> = Object.fromEntries(
   Object.entries<{ attested?: boolean }>(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-basis.json"), "utf8")).byIsbn ?? {}).map(([k, v]) => [k, v.attested])
 );
@@ -282,7 +284,7 @@ function acquireBlock(w: Work, a: Author | undefined): string {
       const original = a ? a.languages.includes(lang) && lang !== "ko" : false;
       const head = lang === "ko" ? "한국어" : `${LANGUAGE_LABELS[lang] ?? lang}${original ? " 원서" : "판"}`;
       return `<tbody class="grp"><tr class="gh"><th colspan="6">${esc(head)} ${list.length}</th></tr>
-${list.map((e) => `<tr class="ed"><td class="pub">${esc(e.publisher)}</td><td class="tr">${e.translator ? `${esc(e.translator)} 옮김` : ""}</td><td class="yr">${e.year}</td><td class="flag">${flag(e)}</td><td class="isbn">ISBN ${esc(e.isbn13)}</td><td class="get"><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a><a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a>${e.language !== "ko" ? `<a href="https://search.worldcat.org/isbn/${esc(e.isbn13)}" rel="nofollow noopener">WorldCat</a>` : ""}</td></tr>
+${list.map((e) => `<tr class="ed"><td class="pub">${esc(e.publisher)}</td><td class="tr">${e.translator ? `${esc(e.translator)} 옮김` : ""}</td><td class="yr">${e.year}</td><td class="flag">${flag(e)}</td><td class="isbn">ISBN ${esc(e.isbn13)}${OUT_OF_PRINT.has(e.isbn13) ? ` <span class="oop">절판 — 도서관에서</span>` : ""}</td><td class="get"><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a><a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a>${e.language !== "ko" ? `<a href="https://search.worldcat.org/isbn/${esc(e.isbn13)}" rel="nofollow noopener">WorldCat</a>` : ""}</td></tr>
 <tr class="why"><td colspan="6">${editionTitleNote(e, w)}${e.note ? esc(e.note.replace(/^추정 — /, "")) : ""}<span class="src">${esc(e.verifiedFrom)} · ${esc(e.verifiedAt)} 확인</span></td></tr>`).join("\n")}</tbody>`;
     };
     return `<section class="row"><h2 class="side label">구하기 — 검수된 판본 ${eds.length}</h2><div class="wide">

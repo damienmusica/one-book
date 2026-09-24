@@ -1,0 +1,291 @@
+{
+  "id": "charles-baudelaire",
+  "page": "https://literary-planet.pages.dev/authors/charles-baudelaire/",
+  "author": {
+    "names": {
+      "ko": "샤를 보들레르",
+      "original": "Charles Baudelaire",
+      "aliases": [
+        "Charles Pierre Baudelaire",
+        "보들레르"
+      ]
+    },
+    "birthYear": 1821,
+    "deathYear": 1867,
+    "activeRange": [
+      1845,
+      1866
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [
+      "symbolism"
+    ],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "정형시의 규칙을 버리지 않은 채 도시의 추함·권태·군중을 시의 정당한 소재로 만들었고, 『파리의 우울』에서는 운율 밖의 산문시를 하나의 장르로 정착시켰다. 사물 뒤의 관념을 설명하지 않고 감각의 대응으로 환기하는 방법은 말라르메와 랭보를 거쳐 상징주의가 되었으며, 20세기 시의 공통 문법으로 남았다. 『현대 생활의 화가』에서 제시한 모더니티 개념 — 일시적인 것에서 영원한 것을 건져내는 태도 — 은 예술이 자기 시대의 표면을 다루어도 된다는 허가였다.",
+    "readingEntry": "charles-baudelaire--le-spleen-de-paris",
+    "readingEntryReason": "산문으로 쓰인 50편의 짧은 시라 번역에서 잃는 것이 가장 적고, 한 편이 두세 쪽이어서 순서 없이 아무 데서나 시작할 수 있다.",
+    "readingOrder": [
+      "charles-baudelaire--le-spleen-de-paris",
+      "charles-baudelaire--les-fleurs-du-mal",
+      "charles-baudelaire--le-peintre-de-la-vie-moderne",
+      "charles-baudelaire--les-paradis-artificiels"
+    ],
+    "readingWarning": "『악의 꽃』을 처음부터 통독하려 하면 정형시의 운율이 번역에서 사라진 자리에 알레고리만 남아 시집 전체가 단조롭게 느껴지기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "어휘 자체는 어렵지 않지만 알레고리의 지시 대상이 19세기 파리의 구체적 사물과 사건이어서, 주석 없이 읽으면 무엇을 가리키는지 놓치는 대목이 많다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "charles-baudelaire--les-fleurs-du-mal",
+      "titleKo": "악의 꽃",
+      "titleOriginal": "Les Fleurs du mal",
+      "year": 1857,
+      "genre": "poetry",
+      "significance": "권태·도시·죽음·관능을 정형시의 엄격한 형식 안에서 다룬 시집. 출간 직후 풍기문란으로 기소되어 여섯 편이 삭제 판결을 받았고, 1861년 증보판에서 파리 연작이 더해졌다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "charles-baudelaire--les-paradis-artificiels",
+      "titleKo": "인공낙원",
+      "titleOriginal": "Les Paradis artificiels",
+      "year": 1860,
+      "genre": "essay-criticism",
+      "significance": "아편과 해시시가 만드는 의식 상태를 기록하고 그 대가를 계산한 산문. 드 퀸시의 아편 고백록을 번안하고 논평하면서 인공적 도취를 미학의 문제로 옮겨 놓았다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "charles-baudelaire--le-peintre-de-la-vie-moderne",
+      "titleKo": "현대 생활의 화가",
+      "titleOriginal": "Le Peintre de la vie moderne",
+      "year": 1863,
+      "genre": "essay-criticism",
+      "significance": "삽화가 콩스탕탱 기스를 논하면서 모더니티를 일시적인 것에서 영원한 것을 건져내는 태도로 정의한 평론. 예술이 자기 시대의 표면을 정당한 소재로 삼을 수 있다는 근거가 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "charles-baudelaire--le-spleen-de-paris",
+      "titleKo": "파리의 우울",
+      "titleOriginal": "Le Spleen de Paris",
+      "year": 1869,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "운율의 구속 없이 산문으로 쓴 50편의 짧은 시를 묶은 사후 출간 시집. 산문시를 하나의 장르로 정착시켜 20세기 시가 정형 밖에서도 작동할 수 있게 했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--victor-hugo--charles-baudelaire",
+      "type": "dialogue",
+      "from": "victor-hugo (빅토르 위고)",
+      "to": "charles-baudelaire (샤를 보들레르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "보들레르는 1859년 「일곱 늙은이」와 「가엾은 노파들」을 위고에게 헌정했고, 10월 6일 위고의 답신에 '새로운 전율(frisson nouveau)'이라는 문구가 나온다. 그해 12월에 청한 「백조」의 헌정에 위고는 '당신의 백조는 하나의 관념'이라고 답했으며, 이 시는 『악의 꽃』 재판(1861)의 '파리 풍경'에 실렸다.",
+      "sourceIds": [
+        "src--fleurs-du-mal-1861"
+      ]
+    },
+    {
+      "id": "translation--edgar-allan-poe--charles-baudelaire",
+      "type": "translation",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "charles-baudelaire (샤를 보들레르)",
+      "evidenceLevel": "documented",
+      "summary": "보들레르는 『기이한 이야기들』(1856)과 『새로운 기이한 이야기들』(1857)로 포를 프랑스어로 옮기고 「에드거 포, 그의 생애와 작품」을 서문으로 붙여, 프랑스어권에서 포가 읽히는 방식을 결정했다.",
+      "sourceIds": [
+        "src--baudelaire-histoires-extraordinaires-1856"
+      ]
+    },
+    {
+      "id": "dialogue--charles-baudelaire--gustave-flaubert",
+      "type": "dialogue",
+      "from": "charles-baudelaire (샤를 보들레르)",
+      "to": "gustave-flaubert (귀스타브 플로베르)",
+      "evidenceLevel": "documented",
+      "summary": "1857년 두 사람은 몇 달 간격으로 나란히 풍기문란 재판을 받았다. 보들레르는 그해 10월 『라르티스트』에 『보바리 부인』 서평을 실어 감상을 제거한 자리에 이 소설이 무엇을 세웠는지 논했고, 플로베르는 『악의 꽃』을 받고 낭만주의를 다시 젊게 만들었다는 편지를 보냈다. 서로의 책에 대한 이 왕복이 남아 있다.",
+      "anchors": [
+        {
+          "year": 1857
+        },
+        {
+          "workId": "charles-baudelaire--les-fleurs-du-mal"
+        }
+      ],
+      "sourceIds": [
+        "src--flaubert-correspondance"
+      ]
+    },
+    {
+      "id": "influence--charles-baudelaire--friedrich-nietzsche",
+      "type": "documented_influence",
+      "from": "charles-baudelaire (샤를 보들레르)",
+      "to": "friedrich-nietzsche (프리드리히 니체)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "니체는 1888년의 유고 노트에 보들레르의 산문을 옮겨 적었고, 바그너를 프랑스에서 처음 옹호한 인물로 그를 거론한다. 데카당스를 병리 현상이 아니라 시대의 형식으로 다루는 니체 만년의 어휘가 보들레르 경유로 형성되었다는 것은 니체 문헌학이 유고를 근거로 다루는 논점이다.",
+      "anchors": [
+        {
+          "year": 1888
+        }
+      ],
+      "sourceIds": [
+        "src--nietzsche-colli-montinari"
+      ]
+    },
+    {
+      "id": "influence--charles-baudelaire--rainer-maria-rilke",
+      "type": "documented_influence",
+      "from": "charles-baudelaire (샤를 보들레르)",
+      "to": "rainer-maria-rilke (라이너 마리아 릴케)",
+      "evidenceLevel": "documented",
+      "summary": "『말테의 수기』에서 말테는 보들레르의 「썩은 시체」를 들어, 시인은 끔찍한 것 앞에서도 눈을 돌리지 않고 그 안의 존재를 보아야 한다고 적는다. 릴케가 1907년 세잔에 관한 편지들에서 같은 시를 다시 불러내는 것을 보면, 사물시의 규율은 로댕과 세잔만이 아니라 보들레르에게서도 왔다.",
+      "anchors": [
+        {
+          "workId": "rainer-maria-rilke--die-aufzeichnungen-des-malte-laurids-brigge"
+        },
+        {
+          "year": 1907
+        }
+      ],
+      "sourceIds": [
+        "src--rilke-briefe"
+      ]
+    },
+    {
+      "id": "influence--charles-baudelaire--ts-eliot",
+      "type": "documented_influence",
+      "from": "charles-baudelaire (샤를 보들레르)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 1930년 이셔우드가 옮긴 『내면 일기』에 붙인 서문 「보들레르」에서, 그를 도시의 추악함을 시의 재료로 만든 최초의 시인이자 선악의 실재를 되살린 시인으로 규정했다. 『황무지』 1부 끝의 '위선적인 독자여'는 『악의 꽃』 서시를 그대로 끌어온 것이다.",
+      "anchors": [
+        {
+          "year": 1930
+        },
+        {
+          "workId": "ts-eliot--the-waste-land"
+        },
+        {
+          "workId": "charles-baudelaire--les-fleurs-du-mal"
+        }
+      ],
+      "sourceIds": [
+        "src--eliot-selected-essays-1932"
+      ]
+    },
+    {
+      "id": "translation--charles-baudelaire--marina-tsvetaeva",
+      "type": "translation",
+      "from": "charles-baudelaire (샤를 보들레르)",
+      "to": "marina-tsvetaeva (마리나 츠베타예바)",
+      "evidenceLevel": "documented",
+      "summary": "귀국 후 생계를 번역에 의존하던 1940년, 츠베타예바는 『악의 꽃』의 마지막 시편 「여행」을 러시아어 「Плаванье」로 옮겼다. 원시의 각운 구조를 유지한 이 번역은 러시아어권에서 거듭 인용되는 보들레르 판본이 되었다.",
+      "anchors": [
+        {
+          "workId": "charles-baudelaire--les-fleurs-du-mal",
+          "year": 1940
+        }
+      ],
+      "sourceIds": [
+        "src--tsvetaeva-plavanie-1940"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--fleurs-du-mal-1861": {
+      "id": "src--fleurs-du-mal-1861",
+      "title": "악의 꽃 재판 (Les Fleurs du mal, 2e édition)",
+      "publisherOrInstitution": "Poulet-Malassis et de Broise, Paris, 1861",
+      "citation": "'파리 풍경' 연작이 추가된 판본 — 「백조」에 붙은 '위고에게' 헌사가 실려 있다"
+    },
+    "src--baudelaire-histoires-extraordinaires-1856": {
+      "id": "src--baudelaire-histoires-extraordinaires-1856",
+      "title": "Histoires extraordinaires, traduites par Charles Baudelaire (1856)",
+      "publisherOrInstitution": "Michel Lévy frères",
+      "citation": "보들레르의 포 번역 제1권과 서문 「에드거 포, 그의 생애와 작품」 — 프랑스어권 포 수용의 1차 근거"
+    },
+    "src--flaubert-correspondance": {
+      "id": "src--flaubert-correspondance",
+      "title": "귀스타브 플로베르 서간집 (Correspondance)",
+      "publisherOrInstitution": "Éditions Gallimard, Bibliothèque de la Pléiade",
+      "citation": "1852년 루이즈 콜레 앞 서신에서 주제 없는 책이라는 소설관과 문장 단위의 작업 규율을 직접 진술한 1차 문헌"
+    },
+    "src--nietzsche-colli-montinari": {
+      "id": "src--nietzsche-colli-montinari",
+      "title": "니체 전집 비판정본 (Kritische Gesamtausgabe / Kritische Studienausgabe, Colli·Montinari 편)",
+      "publisherOrInstitution": "Walter de Gruyter",
+      "citation": "출간본과 유고의 구분, 『권력에의 의지』가 사후 편집물이라는 사실 등 니체 텍스트의 서지 확인용 학술 정본"
+    },
+    "src--rilke-briefe": {
+      "id": "src--rilke-briefe",
+      "title": "라이너 마리아 릴케 서간집 (Briefe) — 『세잔에 관한 편지』(Briefe über Cézanne, 1907) 포함",
+      "publisherOrInstitution": "Insel Verlag",
+      "citation": "1899·1900년 두 차례의 러시아 여행과 톨스토이 방문 기록, 1907년 세잔에 관한 편지들의 보들레르 「썩은 시체」 언급이 실린 1차 자료"
+    },
+    "src--eliot-selected-essays-1932": {
+      "id": "src--eliot-selected-essays-1932",
+      "title": "Selected Essays (1932)",
+      "publisherOrInstitution": "Faber and Faber — T. S. Eliot",
+      "citation": "「보들레르」(1930년 크리스토퍼 이셔우드 영역 『내면 일기』 서문으로 처음 발표)와 「전통과 개인의 재능」(1919)이 수록된 평론집"
+    },
+    "src--tsvetaeva-plavanie-1940": {
+      "id": "src--tsvetaeva-plavanie-1940",
+      "title": "샤를 보들레르 「여행(Le Voyage)」의 러시아어역 「Плаванье」 — 마리나 츠베타예바 역 (1940)",
+      "publisherOrInstitution": "츠베타예바 번역 시편",
+      "citation": "귀국 후 번역으로 생계를 잇던 시기의 작업 — 러시아어권에서 거듭 인용되는 보들레르 번역"
+    }
+  }
+}

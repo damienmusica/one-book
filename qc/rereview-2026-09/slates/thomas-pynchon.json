@@ -1,0 +1,130 @@
+{
+  "id": "thomas-pynchon",
+  "page": "https://literary-planet.pages.dev/authors/thomas-pynchon/",
+  "author": {
+    "names": {
+      "ko": "토머스 핀천",
+      "original": "Thomas Pynchon",
+      "aliases": [
+        "핀천",
+        "토마스 핀천",
+        "Pynchon"
+      ]
+    },
+    "birthYear": 1937,
+    "activeRange": [
+      1959,
+      2013
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [
+      "postmodernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "로켓 공학·열역학·정보이론의 어휘를 비유가 아니라 서사의 작동 원리로 미국 소설에 끌어들였다. 『중력의 무지개』는 V-2 로켓의 낙하 지점과 한 인물의 신체 반응이 통계적으로 일치한다는 설정에서 출발해, 400명이 넘는 인물과 노래·만화·수식이 뒤섞인 삽화 연쇄로 2차 대전 말기를 재구성한다. 편집증을 병리가 아니라 하나의 인식 방법으로 다루어, 모든 것이 연결되어 있다는 가설과 아무것도 연결되어 있지 않다는 가설 사이에서 판정을 끝까지 유예하는 플롯을 만들었다. 이 구조는 이후 미국 소설이 거대한 체계를 서술할 때 쓰는 표준 도구가 되었다.",
+    "readingEntry": "thomas-pynchon--the-crying-of-lot-49",
+    "readingEntryReason": "150쪽 안에 핀천의 장치 전부 — 지하 조직, 해독되지 않는 기호, 판정을 미루는 결말 — 가 들어 있어, 장편에 들어가기 전 이 방식이 자기에게 맞는지 확인할 수 있다.",
+    "readingOrder": [
+      "thomas-pynchon--the-crying-of-lot-49",
+      "thomas-pynchon--v",
+      "thomas-pynchon--gravitys-rainbow",
+      "thomas-pynchon--mason-and-dixon"
+    ],
+    "readingWarning": "『중력의 무지개』로 시작하면 인물이 소개되자마자 사라지고 삽화가 예고 없이 교체되는 첫 100쪽에서 대부분 멈춘다. 짧은 작품으로 서술 규칙을 익힌 뒤 들어가야 한다.",
+    "difficulty": 5,
+    "difficultyReason": "인물 수가 수백 명이고 물리학·역사 자료가 요약 없이 서사에 직접 들어오며, 플롯이 해결이 아니라 확산으로 끝나기 때문에 줄거리를 붙잡으려는 독법 자체가 작동하지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "thomas-pynchon--v",
+      "titleKo": "브이",
+      "titleOriginal": "V.",
+      "year": 1963,
+      "genre": "fiction",
+      "significance": "1950년대 뉴욕을 표류하는 인물들과, 20세기 전반의 여러 시공간에 나타나는 'V.'라는 이니셜을 뒤쫓는 탐색을 교차시킨다. 역사가 하나의 음모로 수렴하는지 여부를 끝까지 판정하지 않는 그의 플롯 방식이 여기서 시작된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "thomas-pynchon--the-crying-of-lot-49",
+      "titleKo": "제49호 품목의 경매",
+      "titleOriginal": "The Crying of Lot 49",
+      "year": 1966,
+      "genre": "fiction",
+      "significance": "유산 집행인이 된 여자가 지하 우편 조직의 흔적을 발견하지만, 그것이 실재하는지 자기 착각인지 판정하지 못한 채 경매장에 앉는다. 짧은 분량 안에 편집증적 해석과 그 해석의 무근거함을 동시에 담았다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "thomas-pynchon--gravitys-rainbow",
+      "titleKo": "중력의 무지개",
+      "titleOriginal": "Gravity's Rainbow",
+      "year": 1973,
+      "genre": "fiction",
+      "significance": "2차 대전 말기의 런던과 점령지 독일을 무대로 V-2 로켓의 궤적을 좇는 인물들을 네 부에 걸쳐 따라간다. 물리학·행동심리학·기업사 자료가 요약 없이 서사에 들어와 소설과 자료의 구분을 없앤다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "thomas-pynchon--mason-and-dixon",
+      "titleKo": "메이슨과 딕슨",
+      "titleOriginal": "Mason & Dixon",
+      "year": 1997,
+      "genre": "fiction",
+      "significance": "미국 독립 이전에 측량선을 그은 두 실존 인물의 여정을 18세기 영어 문체를 재현한 산문으로 서술한다. 지도 위의 직선 하나가 어떻게 이후의 국경과 노예제의 경계가 되는지를 추적한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "influence--vladimir-nabokov--thomas-pynchon (→ vladimir-nabokov 의 슬레이트에서 본다)",
+    "affinity--jorge-luis-borges--thomas-pynchon (→ jorge-luis-borges 의 슬레이트에서 본다)",
+    "affinity--james-joyce--thomas-pynchon (→ james-joyce 의 슬레이트에서 본다)",
+    "affinity--don-delillo--thomas-pynchon (→ don-delillo 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    }
+  }
+}

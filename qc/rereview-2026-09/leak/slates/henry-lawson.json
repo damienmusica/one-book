@@ -1,0 +1,125 @@
+{
+  "id": "henry-lawson",
+  "page": "https://literary-planet.pages.dev/authors/henry-lawson/",
+  "author": {
+    "names": {
+      "ko": "헨리 로슨",
+      "original": "Henry Lawson",
+      "aliases": []
+    },
+    "birthYear": 1867,
+    "deathYear": 1922,
+    "activeRange": [
+      1887,
+      1922
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "oceania"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "poetry"
+    ],
+    "importanceReason": "총림 지대의 가난과 고립을 감상 없이 짧은 산문으로 적어, 호주 단편소설이 영국 문단의 문체에서 떨어져 나오는 자리를 만들었다. 「가축 몰이꾼의 아내」처럼 사건이 거의 없는 하룻밤을 스케치의 형식으로 끝내는 방식은, 플롯 대신 상황과 말투로 지탱되는 단편의 표본이 되었다. 『불레틴』 지면에서 밴조 패터슨과 벌인 논쟁은 총림을 낭만으로 볼 것인가 노동으로 볼 것인가를 문단의 공개 쟁점으로 만들었다.",
+    "readingEntry": "henry-lawson--the-drovers-wife",
+    "readingEntryReason": "한 편 분량 안에 그의 방법 전부가 들어 있다 — 사건은 거의 없고, 감상은 제거돼 있으며, 총림의 고립과 여성의 노동이 하룻밤으로 압축된다.",
+    "readingOrder": [
+      "henry-lawson--the-drovers-wife",
+      "henry-lawson--while-the-billy-boils",
+      "henry-lawson--joe-wilson-and-his-mates",
+      "henry-lawson--in-the-days-when-the-world-was-wide"
+    ],
+    "readingWarning": "시집부터 들어가면 발라드 율격과 은어가 번역에서 가장 많이 깎여 나가, 그의 산문이 왜 다른지 보이지 않는다.",
+    "difficulty": 2,
+    "difficultyReason": "문장이 짧고 구어라 빨리 읽히지만, 총림 노동의 어휘(빌리·스왜그맨·셀렉터)와 1890년대 불황·노조 배경이 각주 없이는 잘 잡히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--australian-dictionary-of-biography",
+      "src--white-prodigal-son-1958"
+    ]
+  },
+  "works": [
+    {
+      "id": "henry-lawson--the-drovers-wife",
+      "titleKo": "가축 몰이꾼의 아내",
+      "titleOriginal": "The Drover's Wife",
+      "year": 1892,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "『불레틴』 1892년 지면에 실린 단편 「가축 몰이꾼의 아내」. 남의 가축 떼를 몰러 나간 남편의 소식이 여섯 달째 끊긴 오두막에서 뱀 한 마리를 기다리는 하룻밤이 전부이며, 사건 대신 상황과 말투로 지탱되는 그의 방법이 가장 짧게 압축돼 있다.",
+      "sourceIds": []
+    },
+    {
+      "id": "henry-lawson--in-the-days-when-the-world-was-wide",
+      "titleKo": "세상이 넓던 시절, 그리고 다른 시들",
+      "titleOriginal": "In the Days When the World Was Wide and Other Verses",
+      "year": 1896,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "1896년에 묶인 첫 시집. 발라드 율격과 총림의 은어를 그대로 쓴 시들로, 그가 산문에서 걷어낸 낭만이 시에서는 어떻게 남아 있는지를 보여 준다.",
+      "sourceIds": []
+    },
+    {
+      "id": "henry-lawson--joe-wilson-and-his-mates",
+      "titleKo": "조 윌슨과 그의 친구들",
+      "titleOriginal": "Joe Wilson and His Mates",
+      "year": 1901,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "1901년 에든버러에서 나온 단편집. 스무 편 남짓 가운데 조 윌슨의 구애와 결혼과 그 이후의 시간을 다룬 네 편이 이어져, 스케치에 머물던 그의 형식이 인물의 생애를 감당하는 데까지 나아간 자리다.",
+      "sourceIds": []
+    },
+    {
+      "id": "henry-lawson--while-the-billy-boils",
+      "titleKo": "빌리가 끓는 동안",
+      "titleOriginal": "While the Billy Boils",
+      "year": 1896,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "1896년 시드니에서 묶인 단편집으로 「가축 몰이꾼의 아내」와 「조합이 죽은 이를 묻는다」를 포함한다. 총림의 노동과 고립을 감상 없이 기록한 산문의 표본으로 호주 단편의 기준선이 되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--henry-lawson--patrick-white",
+      "type": "contrast",
+      "from": "henry-lawson (헨리 로슨)",
+      "to": "patrick-white (패트릭 화이트)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "화이트는 에세이 「탕자」(Australian Letters, 1958)에서 오스트레일리아 소설이 저널리즘적 사실주의의 산물이 아님을 증명하려 했다고 썼고, 오스트레일리아 문학사 서술은 그가 겨눈 그 부시 사실주의 전통의 중심에 로슨의 단편을 놓는다.",
+      "sourceIds": [
+        "src--white-prodigal-son-1958",
+        "src--britannica"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--australian-dictionary-of-biography": {
+      "id": "src--australian-dictionary-of-biography",
+      "title": "Australian Dictionary of Biography",
+      "publisherOrInstitution": "National Centre of Biography, Australian National University",
+      "url": "https://adb.anu.edu.au",
+      "citation": "호주 인물 전기의 표준 참조 — 로슨의 생애와 발표 연표 확인용"
+    },
+    "src--white-prodigal-son-1958": {
+      "id": "src--white-prodigal-son-1958",
+      "title": "「탕자」(The Prodigal Son, 1958. 4.)",
+      "publisherOrInstitution": "Australian Letters 1권",
+      "citation": "앨리스터 커쇼의 「마지막 국외거주자」에 답해 유럽에서 돌아온 이유를 밝히고, 오스트레일리아 소설이 \"저널리즘적 사실주의의 칙칙한 잿빛 자손\"이 아님을 증명하려 했다고 쓴 에세이"
+    }
+  }
+}

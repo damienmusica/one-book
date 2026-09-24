@@ -1,0 +1,292 @@
+{
+  "id": "rabindranath-tagore",
+  "page": "https://literary-planet.pages.dev/authors/rabindranath-tagore/",
+  "author": {
+    "names": {
+      "ko": "라빈드라나트 타고르",
+      "original": "রবীন্দ্রনাথ ঠাকুর",
+      "aliases": [
+        "타고르",
+        "Rabindranath Tagore",
+        "로빈드로나트 타쿠르"
+      ]
+    },
+    "birthYear": 1861,
+    "deathYear": 1941,
+    "activeRange": [
+      1882,
+      1941
+    ],
+    "languages": [
+      "bn",
+      "en"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "importanceReason": "타고르는 산스크리트 전통과 영국식 교양 사이에서 굳어 있던 벵골어를 노래·소설·희곡·논설을 모두 감당하는 근대 문어로 다시 짰다. 1890년대 잡지에 연재한 단편들로 벵골어 단편소설이라는 형식 자체를 만들었고, 시와 곡을 분리하지 않는 라빈드라상기트를 통해 인쇄시와 구전 노래를 한 몸으로 유지했다. 『기탄잘리』를 스스로 영어로 옮겨 1913년 유럽 밖에서 처음 노벨문학상을 받은 사건은 비서구 문학이 민속 자료가 아니라 문학으로 읽히는 통로를 열었다. 논설집 『민족주의』에서는 식민지 지식인의 자리에서 제국을 비판하면서 동시에 민족국가라는 형식 자체를 의심해, 반식민 사유가 국가주의로 수렴하지 않는 길을 제시했다.",
+    "readingEntry": "rabindranath-tagore--gitanjali",
+    "readingEntryReason": "한 권 분량이 짧고, 타고르가 직접 영어로 옮긴 판본이 있어 번역자의 개입이 가장 적은 상태로 읽을 수 있는 드문 경우다.",
+    "readingOrder": [
+      "rabindranath-tagore--gitanjali",
+      "rabindranath-tagore--kabuliwala",
+      "rabindranath-tagore--dak-ghar",
+      "rabindranath-tagore--ghare-baire",
+      "rabindranath-tagore--gora"
+    ],
+    "readingWarning": "영역본 『기탄잘리』만 읽고 타고르를 '동방의 현자'로 정리하는 것이 가장 흔한 경로다. 영역은 벵골어 운문의 정형 율격을 산문 기도문 어조로 바꾼 것이어서, 원어의 리듬과 세속적 연애시의 층위가 거의 남지 않는다.",
+    "difficulty": 2,
+    "difficultyReason": "문장과 어휘는 평이하지만, 소설은 브라모 사마지의 종교 개혁 논쟁과 스와데시 운동을 인물의 선택 근거로 삼기 때문에 그 배경 없이는 갈등의 방향이 잡히지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--rabindra-bhavana",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "rabindranath-tagore--kabuliwala",
+      "titleKo": "카불리왈라",
+      "titleOriginal": "কাবুলিওয়ালা",
+      "year": 1892,
+      "genre": "fiction",
+      "significance": "카불에서 온 행상과 캘커타 소녀의 짧은 교류로 이방인과 아버지의 시간을 겹쳐 놓는다. 잡지 연재로 쓰인 1890년대 단편 연작 가운데 가장 널리 읽힌 편이며, 벵골어 단편소설이 하나의 형식으로 자리 잡는 과정을 보여준다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--rabindra-bhavana"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore--gitanjali",
+      "titleKo": "기탄잘리",
+      "titleOriginal": "গীতাঞ্জলি",
+      "year": 1910,
+      "genre": "poetry",
+      "significance": "벵골어 원본은 1910년에 나왔고, 타고르가 직접 영어로 옮겨 1912년 런던에서 낸 선집이 1913년 노벨문학상의 근거가 되었다. 영역본은 원본과 수록 구성이 같지 않으며 정형 율격을 산문 어조로 바꾼 판본이어서, 두 판본은 사실상 다른 책으로 읽힌다.",
+      "sourceIds": [
+        "src--nobelprize",
+        "src--gitanjali-song-offerings-1912",
+        "src--rabindra-bhavana"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore--gora",
+      "titleKo": "고라",
+      "titleOriginal": "গোরা",
+      "year": 1910,
+      "genre": "fiction",
+      "significance": "힌두 정통주의를 열렬히 옹호하던 청년이 자신의 출생 내력을 알게 되는 구성으로, 종교·카스트·민족이 어떻게 한 사람의 정체성으로 굳는지를 논쟁 그 자체를 서사로 삼아 다룬다. 타고르의 장편 가운데 가장 규모가 크다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--rabindra-bhavana"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore--dak-ghar",
+      "titleKo": "우체국",
+      "titleOriginal": "ডাকঘর",
+      "year": 1912,
+      "genre": "drama",
+      "significance": "방에 갇힌 병든 아이가 오지 않는 편지를 기다리는 단막에 가까운 희곡으로, 사건 대신 기다림의 시간만으로 무대를 지탱한다. 타고르 희곡 가운데 여러 언어로 가장 자주 상연된 작품이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--rabindra-bhavana"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore--ghare-baire",
+      "titleKo": "집과 세상",
+      "titleOriginal": "ঘরে বাইরে",
+      "year": 1916,
+      "genre": "fiction",
+      "significance": "지주와 그의 아내, 스와데시 운동가 세 사람이 각자의 1인칭으로 번갈아 서술하는 구성으로, 같은 사건에 대한 세 개의 도덕적 계산을 나란히 놓는다. 반식민 운동 내부의 폭력을 운동 바깥이 아니라 안에서 문제 삼은 드문 소설이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--rabindra-bhavana"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore--nationalism",
+      "titleKo": "민족주의",
+      "titleOriginal": "Nationalism",
+      "year": 1917,
+      "genre": "essay-criticism",
+      "significance": "일본과 미국에서 한 강연을 묶은 영어 논설집으로, 제국을 비판하면서 동시에 그에 맞서는 민족국가라는 형식 자체를 의심한다. 식민지 지식인이 독립의 목표를 국가로 두지 않을 수 있음을 보여준 텍스트다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--rabindra-bhavana"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--rabindranath-tagore--pablo-neruda",
+      "type": "documented_influence",
+      "from": "rabindranath-tagore (라빈드라나트 타고르)",
+      "to": "pablo-neruda (파블로 네루다)",
+      "evidenceLevel": "documented",
+      "summary": "『스무 편의 사랑의 시와 한 편의 절망의 노래』(1924)의 16번 시는 타고르 『정원사』의 한 편을 옮긴 것이다. 1934년 표절 논란이 인 뒤 네루다는 이후 판본에 그 사실을 밝히는 각주를 붙였다. 번안임을 책 자체가 기록하게 된 드문 사례다.",
+      "anchors": [
+        {
+          "workId": "pablo-neruda--veinte-poemas-de-amor-y-una-cancion-desesperada"
+        },
+        {
+          "year": 1934
+        }
+      ],
+      "sourceIds": [
+        "src--neruda-veinte-poemas-nota-tagore"
+      ]
+    },
+    {
+      "id": "influence--rabindranath-tagore--han-yong-un",
+      "type": "documented_influence",
+      "from": "rabindranath-tagore (라빈드라나트 타고르)",
+      "to": "han-yong-un (한용운)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『님의 침묵』(1926)에는 「타골의 시(GARDENISTO)를 읽고」가 실려 있어, 한용운이 타고르를 읽은 사실 자체는 시집 안에 남아 있다. 다만 경어체 산문시의 호격과 '님'의 설정을 타고르 수용으로 설명하는 것은 한국 근대시 연구가 반복해 온 계보이고, 조선어 번역을 매개한 경로여서 직접 영향으로 단정하지 않는다.",
+      "anchors": [
+        {
+          "workId": "han-yong-un--nimui-chimmuk"
+        }
+      ],
+      "sourceIds": [
+        "src--nimui-chimmuk-1926",
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "translation--rabindranath-tagore--anna-akhmatova",
+      "type": "translation",
+      "from": "rabindranath-tagore (라빈드라나트 타고르)",
+      "to": "anna-akhmatova (안나 아흐마토바)",
+      "evidenceLevel": "documented",
+      "summary": "자기 시의 출판이 막힌 기간 동안 아흐마토바는 번역으로 생계를 이었고, 그 목록에 타고르의 시편이 들어 있다. 벵골어를 몰랐으므로 축자역을 저본으로 삼았는데, 이는 소비에트 번역 제도가 시인들에게 배당한 작업 방식 그대로였다.",
+      "sourceIds": [
+        "src--akhmatova-tagore-translations"
+      ]
+    },
+    {
+      "id": "contrast--rabindranath-tagore--lu-xun",
+      "type": "contrast",
+      "from": "rabindranath-tagore (라빈드라나트 타고르)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "1924년 타고르의 중국 강연은 동양 정신문명의 옹호로 읽혔고 신문화운동 진영은 이를 정면으로 거부했다. 루쉰은 1934년 잡문 「욕해 죽이기와 치켜세워 죽이기」에서 타고르를 산 신선처럼 떠받든 중국 문단 쪽을 겨냥했다. 식민지·반식민지 아시아의 두 출발점이 전통을 두고 갈라선 자리다.",
+      "anchors": [
+        {
+          "year": 1924
+        },
+        {
+          "year": 1934
+        }
+      ],
+      "sourceIds": [
+        "src--lu-xun-quanji",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "contrast--rabindranath-tagore--premchand",
+      "type": "contrast",
+      "from": "rabindranath-tagore (라빈드라나트 타고르)",
+      "to": "premchand (프렘찬드)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "인도 근대문학사 서술은 두 사람을 같은 시기의 두 방향으로 놓는다. 타고르는 벵골어 서정과 자기번역을 통해 국제 문단으로 나갔고, 프렘찬드는 힌디·우르두 산문의 재료를 소작료와 부채로 바꾸었다. 1936년 진보작가협회 의장 연설에서 프렘찬드가 문학을 오락이 아니라 현실의 척도로 규정한 것이 그 방향 선택의 문서다.",
+      "anchors": [
+        {
+          "year": 1936
+        }
+      ],
+      "sourceIds": [
+        "src--premchand-pwa-address-1936",
+        "src--britannica"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "mentorship--william-butler-yeats--rabindranath-tagore (→ william-butler-yeats 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--rabindra-bhavana": {
+      "id": "src--rabindra-bhavana",
+      "title": "라빈드라 바바나(Rabindra-Bhavana) 타고르 아카이브",
+      "publisherOrInstitution": "Visva-Bharati University, Santiniketan",
+      "citation": "타고르의 원고·서한·연보를 보존한 기관 아카이브 — 벵골어 초판 연도와 자기번역 경위 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--gitanjali-song-offerings-1912": {
+      "id": "src--gitanjali-song-offerings-1912",
+      "title": "『Song Offerings』 초판 (1912), 예이츠 서문",
+      "publisherOrInstitution": "The India Society, London",
+      "citation": "타고르가 직접 영어로 옮긴 선집 초판 — 벵골어 『기탄잘리』(1910)와 수록 구성이 같지 않다는 사실의 1차 근거"
+    },
+    "src--neruda-veinte-poemas-nota-tagore": {
+      "id": "src--neruda-veinte-poemas-nota-tagore",
+      "title": "『스무 편의 사랑의 시와 한 편의 절망의 노래』 후기 판본의 16번 시 각주",
+      "publisherOrInstitution": "Editorial Losada / Pablo Neruda",
+      "citation": "16번 시가 타고르 『정원사』의 한 편을 옮긴 것임을 1934년 논란 뒤 밝힌 판본 각주 — 번안 사실의 1차 근거"
+    },
+    "src--nimui-chimmuk-1926": {
+      "id": "src--nimui-chimmuk-1926",
+      "title": "『님의 침묵』 초판 (1926)",
+      "publisherOrInstitution": "회동서관",
+      "citation": "한용운 시집 초판 — 서문 「군말」을 포함한 편제와 발행 연도의 1차 근거"
+    },
+    "src--encykorea": {
+      "id": "src--encykorea",
+      "title": "한국민족문화대백과사전 — 작가·작품 항목",
+      "publisherOrInstitution": "한국학중앙연구원",
+      "url": "https://encykorea.aks.ac.kr",
+      "citation": "한국 작가의 생애·작품 기초 사실 확인용"
+    },
+    "src--akhmatova-tagore-translations": {
+      "id": "src--akhmatova-tagore-translations",
+      "title": "안나 아흐마토바의 타고르 러시아어 번역 시편",
+      "publisherOrInstitution": "소비에트 시기 타고르 러시아어판",
+      "citation": "출판이 막힌 기간의 번역 작업 가운데 하나 — 벵골어 원문이 아니라 축자역(подстрочник)을 저본으로 삼은 소비에트 번역 제도의 방식이 함께 기록된다. 수록 판본과 간행 연도는 확인이 필요하다."
+    },
+    "src--lu-xun-quanji": {
+      "id": "src--lu-xun-quanji",
+      "title": "『魯迅全集』 주석·연보",
+      "publisherOrInstitution": "人民文學出版社",
+      "citation": "루쉰 저작의 초출 지면·발표 연도·필명이 정리된 정본 전집의 주석과 연보"
+    },
+    "src--premchand-pwa-address-1936": {
+      "id": "src--premchand-pwa-address-1936",
+      "title": "「문학의 목적(साहित्य का उद्देश्य)」 — 전인도 진보작가협회 창립대회 의장 연설 (1936년 4월, 러크나우)",
+      "publisherOrInstitution": "전인도 진보작가협회(All-India Progressive Writers' Association)",
+      "citation": "프렘찬드가 문학의 사회적 기능을 직접 정식화한 연설문 — 인도 진보주의 문학 강령의 출발 문서"
+    }
+  }
+}

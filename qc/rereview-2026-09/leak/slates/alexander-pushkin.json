@@ -1,0 +1,223 @@
+{
+  "id": "alexander-pushkin",
+  "page": "https://literary-planet.pages.dev/authors/alexander-pushkin/",
+  "author": {
+    "names": {
+      "ko": "알렉산드르 푸시킨",
+      "original": "Александр Пушкин",
+      "aliases": [
+        "Alexander Pushkin"
+      ]
+    },
+    "birthYear": 1799,
+    "deathYear": 1837,
+    "activeRange": [
+      1814,
+      1837
+    ],
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "fiction",
+      "drama"
+    ],
+    "importanceReason": "구어와 문어, 교회슬라브어 어휘와 프랑스어 어법 사이에서 갈라져 있던 러시아어를 운문 소설·민담·역사극에 걸쳐 하나의 문학어로 녹여냈다. 『예브게니 오네긴』의 14행 연은 인물의 일상과 작가의 여담을 같은 연 안에서 교차시키는 형식을 만들었고, 『벨킨 이야기』와 『대위의 딸』의 건조한 산문은 이후 러시아 소설이 문장의 기준으로 삼은 자리가 되었다. 도스토옙스키의 1880년 기념 연설 이후 러시아 문학은 자기 계보의 출발점을 말할 때 이 이름을 놓고 논쟁해 왔다.",
+    "readingEntry": "alexander-pushkin--kapitanskaya-dochka",
+    "readingEntryReason": "짧은 장편이면서 회고록 형식으로 사건이 한 줄기로 이어져, 푸시킨 산문의 절제된 문장을 번역 손실 없이 그대로 만날 수 있다.",
+    "readingOrder": [
+      "alexander-pushkin--kapitanskaya-dochka",
+      "alexander-pushkin--povesti-belkina",
+      "alexander-pushkin--evgeniy-onegin",
+      "alexander-pushkin--mednyy-vsadnik",
+      "alexander-pushkin--boris-godunov"
+    ],
+    "readingWarning": "『예브게니 오네긴』을 첫 책으로 잡으면 번역본마다 운문·산문 처리가 달라 형식의 핵심인 연 구조가 잘 전달되지 않아 실망하기 쉽다. 산문 두 편을 먼저 읽고 운문 소설로 넘어가는 편이 안전하다.",
+    "difficulty": 3,
+    "difficultyReason": "산문은 짧고 평이하지만 대표작이 운문 소설이라 '오네긴 연'의 각운 구조가 번역마다 달라지고, 『보리스 고두노프』와 『대위의 딸』은 동란 시대와 푸가초프 반란이라는 러시아사 배경 지식을 요구한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "alexander-pushkin--povesti-belkina",
+      "titleKo": "벨킨 이야기",
+      "titleOriginal": "Повести покойного Ивана Петровича Белкина",
+      "year": 1831,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "가공의 화자 벨킨이 모았다는 다섯 편의 단편집. 결투·유령·신분 위장 같은 낭만적 관습을 가져와 결말에서 조용히 비틀어 놓는 방식으로 러시아 산문 단편의 문법을 정리했다.",
+      "sourceIds": []
+    },
+    {
+      "id": "alexander-pushkin--mednyy-vsadnik",
+      "titleKo": "청동 기마상",
+      "titleOriginal": "Медный всадник",
+      "year": 1837,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "1824년 페테르부르크 대홍수를 배경으로 한 개인이 표트르 대제의 기마상 앞에서 무너지는 과정을 그린 서사시. 검열로 전문은 생전에 나오지 못했고, 1834년 『독서문고』에 서시 일부가 「페테르부르크. 서사시의 단편」으로 삭제를 거쳐 실린 뒤 1837년 사후에 『동시대인』에 주콥스키가 검열을 의식해 손질한 본문으로 인쇄되었다. 원본 그대로의 본문은 1904년에야 나왔다.",
+      "sourceIds": []
+    },
+    {
+      "id": "alexander-pushkin--boris-godunov",
+      "titleKo": "보리스 고두노프",
+      "titleOriginal": "Борис Годунов",
+      "year": 1831,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "동란 시대의 왕위 찬탈을 스무 개 넘는 장면으로 흩어 놓은 사극. 푸시킨 자신은 두 개의 단일성을 셰익스피어의 제단에 바치고 마지막 하나는 간신히 지켰다고 적었다. 1825년에 완성했으나 검열로 1831년에야 출간되었고, 무소륵스키의 오페라를 통해 더 널리 알려졌다.",
+      "sourceIds": []
+    },
+    {
+      "id": "alexander-pushkin--evgeniy-onegin",
+      "titleKo": "예브게니 오네긴",
+      "titleOriginal": "Евгений Онегин",
+      "year": 1833,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "14행의 '오네긴 연' 수백 개로 쌓아 올린 운문 소설. 1825년부터 분책으로 나오다 1833년에 완본이 되었고, 타티야나의 편지와 마지막 거절 장면은 러시아 문학이 반복해 되돌아가는 대목이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "alexander-pushkin--kapitanskaya-dochka",
+      "titleKo": "대위의 딸",
+      "titleOriginal": "Капитанская дочка",
+      "year": 1836,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "푸가초프 반란을 한 젊은 장교의 회고록 형식으로 서술해 역사적 사건과 개인의 명예·사랑을 같은 문장 안에 놓았다. 군더더기 없는 산문으로 러시아 역사소설의 기준이 된 짧은 장편.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--william-shakespeare--alexander-pushkin",
+      "type": "documented_influence",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "alexander-pushkin (알렉산드르 푸시킨)",
+      "evidenceLevel": "documented",
+      "summary": "푸시킨은 1825년 7월 니콜라이 라예프스키에게 보낸 편지에서 『보리스 고두노프』를 쓰며 프랑스 고전극 대신 셰익스피어의 자유로운 장면 구성을 본보기로 삼았다고 적었고, 그 결과 시간과 장소의 단일성을 버린 사극이 나왔다.",
+      "sourceIds": [
+        "src--pushkin-letter-raevsky-1825"
+      ]
+    },
+    {
+      "id": "influence--alexander-pushkin--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "alexander-pushkin (알렉산드르 푸시킨)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "documented",
+      "summary": "도스토옙스키는 1880년 모스크바 푸시킨 기념비 제막식 연설(『작가의 일기』 1880년 특별호에 수록)에서 타티야나와 오네긴을 러시아 정신의 두 유형으로 읽고, 푸시킨을 자기 문학의 근거로 공개 선언했다.",
+      "sourceIds": [
+        "src--dostoevsky-writers-diary"
+      ]
+    },
+    {
+      "id": "influence--alexander-pushkin--leo-tolstoy",
+      "type": "documented_influence",
+      "from": "alexander-pushkin (알렉산드르 푸시킨)",
+      "to": "leo-tolstoy (레프 톨스토이)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "톨스토이가 푸시킨 산문을 모범으로 삼았고 『안나 카레니나』의 착수가 푸시킨 산문 독서와 결부된다는 계보는 보리스 에이헨바움의 『1870년대의 톨스토이』가 정본이다 — 이 연구는 소설의 발생 과정을 푸시킨의 산문 및 『예브게니 오네긴』과 대조하며 추적하고, 이후 톨스토이 연구가 이 서술을 표준으로 이어받았다.",
+      "sourceIds": [
+        "src--eikhenbaum-tolstoi-seventies"
+      ]
+    },
+    {
+      "id": "influence--alexander-pushkin--anna-akhmatova",
+      "type": "documented_influence",
+      "from": "alexander-pushkin (알렉산드르 푸시킨)",
+      "to": "anna-akhmatova (안나 아흐마토바)",
+      "evidenceLevel": "documented",
+      "summary": "아흐마토바는 시인이자 푸시킨 연구자로서 「푸시킨의 『석상 손님』」을 비롯한 논문을 여러 편 발표했다.",
+      "sourceIds": [
+        "src--chukovskaya-zapiski"
+      ]
+    },
+    {
+      "id": "contrast--taras-shevchenko--alexander-pushkin",
+      "type": "contrast",
+      "from": "taras-shevchenko (타라스 셰우첸코)",
+      "to": "alexander-pushkin (알렉산드르 푸시킨)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "제국의 변경을 노래하는 두 시선이 마주 놓인다. 미로슬라우 슈칸드리의 『러시아와 우크라이나: 문학과 제국의 담론』(2001)은 셰우첸코의 「캅카스」(1845)를 푸시킨 계열의 캅카스 시편이 세운 정복의 낭만과 정면으로 반대되는 항으로 읽는다.",
+      "sourceIds": [
+        "src--shkandrij-russia-and-ukraine"
+      ]
+    },
+    {
+      "id": "translation--alexander-pushkin--abai-qunanbaiuly",
+      "type": "translation",
+      "from": "alexander-pushkin (알렉산드르 푸시킨)",
+      "to": "abai-qunanbaiuly (아바이 쿠난바이울리)",
+      "evidenceLevel": "documented",
+      "summary": "아바이는 『예브게니 오네긴』에서 타티야나의 편지를 비롯한 대목을 카자흐어 운문으로 옮기고 직접 선율을 붙였다. 이 노래가 초원에서 불리면서 푸시킨의 인물이 카자흐 구전 레퍼토리에 들어갔다.",
+      "sourceIds": [
+        "src--adebiportal-kz"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--pushkin-letter-raevsky-1825": {
+      "id": "src--pushkin-letter-raevsky-1825",
+      "title": "니콜라이 라예프스키에게 보낸 편지 (1825년 7월, 프랑스어)",
+      "publisherOrInstitution": "푸시킨 서간집",
+      "citation": "『보리스 고두노프』를 쓰며 셰익스피어의 자유로운 극작을 본보기로 삼았다고 밝힌 편지 — 삼일치 포기의 1차 근거"
+    },
+    "src--dostoevsky-writers-diary": {
+      "id": "src--dostoevsky-writers-diary",
+      "title": "작가의 일기 (Дневник писателя, 1873–1881)",
+      "publisherOrInstitution": "표도르 도스토옙스키 정기 연재물",
+      "citation": "소설 외부에서 사회·종교·문학관을 직접 서술한 1차 자료 — 후기 장편의 논쟁 구도를 확인하는 데 쓰인다"
+    },
+    "src--eikhenbaum-tolstoi-seventies": {
+      "id": "src--eikhenbaum-tolstoi-seventies",
+      "title": "Tolstoi in the Seventies",
+      "publisherOrInstitution": "Ardis",
+      "citation": "Boris Eikhenbaum, Tolstoi in the Seventies, trans. Albert Kaspin, Ann Arbor, Mich.: Ardis, 1982, 174 pp."
+    },
+    "src--chukovskaya-zapiski": {
+      "id": "src--chukovskaya-zapiski",
+      "title": "리디야 추콥스카야, 『안나 아흐마토바에 관한 기록』 (전 3권)",
+      "publisherOrInstitution": "Лидия Чуковская, «Записки об Анне Ахматовой» 러시아어 판본",
+      "citation": "1938년부터의 동석 기록 — 『레퀴엠』이 필사 없이 암기로 전해진 정황의 1차 증언"
+    },
+    "src--shkandrij-russia-and-ukraine": {
+      "id": "src--shkandrij-russia-and-ukraine",
+      "title": "Russia and Ukraine: Literature and the Discourse of Empire from Napoleonic to Postcolonial Times",
+      "publisherOrInstitution": "McGill-Queen's University Press (2001)",
+      "citation": "미로슬라우 슈칸드리의 연구 — 러시아 제국 문학과 우크라이나 문학의 관계를 탈식민 담론으로 읽는 표준 참조"
+    },
+    "src--adebiportal-kz": {
+      "id": "src--adebiportal-kz",
+      "title": "Әдебиет порталы (adebiportal.kz)",
+      "publisherOrInstitution": "카자흐스탄 문학 포털",
+      "url": "https://adebiportal.kz",
+      "citation": "카자흐 작가·작품의 연보와 서지를 제공하는 카자흐스탄의 국가 문학 포털"
+    }
+  }
+}

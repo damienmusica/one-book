@@ -1,0 +1,906 @@
+{
+ "key": "wave-kr",
+ "authors": [
+  {
+   "id": "baek-seok",
+   "names": {
+    "ko": "백석",
+    "original": "백석",
+    "aliases": [
+     "백기행",
+     "白石",
+     "白夔行",
+     "Baek Seok",
+     "Paek Sŏk",
+     "Paek Ki-haeng"
+    ]
+   },
+   "birthYear": 1912,
+   "deathYear": 1996,
+   "activeRange": [
+    1930,
+    1962
+   ],
+   "anchorYear": 1936,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q489436",
+   "periods": []
+  },
+  {
+   "id": "banana-yoshimoto",
+   "names": {
+    "ko": "요시모토 바나나",
+    "original": "吉本ばなな",
+    "aliases": [
+     "Banana Yoshimoto",
+     "Yoshimoto Banana",
+     "よしもとばなな",
+     "吉本真秀子"
+    ]
+   },
+   "birthYear": 1964,
+   "activeRange": [
+    1987,
+    2026
+   ],
+   "anchorYear": 1989,
+   "gender": "female",
+   "languages": [
+    "ja"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q238970",
+   "periods": []
+  },
+  {
+   "id": "bernard-werber",
+   "names": {
+    "ko": "베르나르 베르베르",
+    "original": "Bernard Werber",
+    "aliases": [
+     "베르베르",
+     "Werber"
+    ]
+   },
+   "birthYear": 1961,
+   "activeRange": [
+    1991,
+    2026
+   ],
+   "anchorYear": 1998,
+   "gender": "male",
+   "languages": [
+    "fr"
+   ],
+   "regions": [
+    "western-europe"
+   ],
+   "tier": "major",
+   "wikidata": "Q12054",
+   "periods": []
+  },
+  {
+   "id": "cho-nam-joo",
+   "names": {
+    "ko": "조남주",
+    "original": "조남주",
+    "aliases": [
+     "Cho Nam-joo",
+     "Cho Nam-ju",
+     "趙南柱"
+    ]
+   },
+   "birthYear": 1978,
+   "activeRange": [
+    2011,
+    2026
+   ],
+   "anchorYear": 2016,
+   "gender": "female",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q60713260",
+   "periods": []
+  },
+  {
+   "id": "cho-se-hui",
+   "names": {
+    "ko": "조세희",
+    "original": "조세희",
+    "aliases": [
+     "趙世熙",
+     "Cho Se-hui"
+    ]
+   },
+   "birthYear": 1942,
+   "deathYear": 2022,
+   "activeRange": [
+    1965,
+    1985
+   ],
+   "anchorYear": 1978,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q5103384",
+   "periods": []
+  },
+  {
+   "id": "choi-in-hoon",
+   "names": {
+    "ko": "최인훈",
+    "original": "최인훈",
+    "aliases": [
+     "崔仁勳",
+     "Choi In-hun",
+     "Choi In-hoon",
+     "Choe In-hun"
+    ]
+   },
+   "birthYear": 1936,
+   "deathYear": 2018,
+   "activeRange": [
+    1959,
+    2003
+   ],
+   "anchorYear": 1966,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q11274314",
+   "periods": []
+  },
+  {
+   "id": "eun-hee-kyung",
+   "names": {
+    "ko": "은희경",
+    "original": "은희경",
+    "aliases": [
+     "殷熙耕",
+     "Eun Hee-kyung",
+     "Eun Heekyung"
+    ]
+   },
+   "birthYear": 1959,
+   "activeRange": [
+    1995,
+    2026
+   ],
+   "anchorYear": 2005,
+   "gender": "female",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q541214",
+   "periods": []
+  },
+  {
+   "id": "han-kang",
+   "names": {
+    "ko": "한강",
+    "original": "한강",
+    "aliases": [
+     "Han Kang",
+     "Han Gang",
+     "韓江"
+    ]
+   },
+   "birthYear": 1970,
+   "activeRange": [
+    1993,
+    2026
+   ],
+   "anchorYear": 2014,
+   "gender": "female",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "anchor",
+   "wikidata": "Q5646626",
+   "periods": []
+  },
+  {
+   "id": "haruki-murakami",
+   "names": {
+    "ko": "무라카미 하루키",
+    "original": "村上春樹",
+    "aliases": [
+     "하루키",
+     "Haruki Murakami",
+     "Murakami Haruki"
+    ]
+   },
+   "birthYear": 1949,
+   "activeRange": [
+    1979,
+    2026
+   ],
+   "anchorYear": 1994,
+   "gender": "male",
+   "languages": [
+    "ja"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q134798",
+   "periods": []
+  },
+  {
+   "id": "hwang-jung-eun",
+   "names": {
+    "ko": "황정은",
+    "original": "황정은",
+    "aliases": [
+     "黃貞殷",
+     "Hwang Jungeun",
+     "Hwang Jung-eun",
+     "Hwang Jeong-eun",
+     "Hwang Jung Eun"
+    ]
+   },
+   "birthYear": 1976,
+   "activeRange": [
+    2005,
+    2026
+   ],
+   "anchorYear": 2014,
+   "gender": "female",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q12625900",
+   "periods": []
+  },
+  {
+   "id": "hwang-sok-yong",
+   "names": {
+    "ko": "황석영",
+    "original": "황석영",
+    "aliases": [
+     "黃晳暎",
+     "황수영",
+     "Hwang Sok-yong",
+     "Hwang Seok-yeong"
+    ]
+   },
+   "birthYear": 1943,
+   "activeRange": [
+    1962,
+    2025
+   ],
+   "anchorYear": 1984,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q484947",
+   "periods": []
+  },
+  {
+   "id": "jeong-ji-yong",
+   "names": {
+    "ko": "정지용",
+    "original": "정지용",
+    "aliases": [
+     "鄭芝溶",
+     "지용",
+     "Jeong Ji-yong",
+     "Cheong Chi-yong"
+    ]
+   },
+   "birthYear": 1902,
+   "deathYear": 1950,
+   "activeRange": [
+    1919,
+    1950
+   ],
+   "anchorYear": 1935,
+   "gender": "male",
+   "languages": [
+    "ko",
+    "ja"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q4707772",
+   "periods": []
+  },
+  {
+   "id": "jeong-you-jeong",
+   "names": {
+    "ko": "정유정",
+    "original": "정유정",
+    "aliases": [
+     "Jeong You-jeong",
+     "Jeong Yu-jeong",
+     "You-Jeong Jeong",
+     "丁柚井"
+    ]
+   },
+   "birthYear": 1966,
+   "activeRange": [
+    2000,
+    2026
+   ],
+   "anchorYear": 2013,
+   "gender": "female",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q17964174",
+   "periods": []
+  },
+  {
+   "id": "jhumpa-lahiri",
+   "names": {
+    "ko": "줌파 라히리",
+    "original": "Jhumpa Lahiri",
+    "aliases": [
+     "라히리",
+     "Nilanjana Sudeshna Lahiri"
+    ]
+   },
+   "birthYear": 1967,
+   "activeRange": [
+    1993,
+    2026
+   ],
+   "anchorYear": 2008,
+   "gender": "female",
+   "languages": [
+    "en",
+    "it"
+   ],
+   "regions": [
+    "north-america",
+    "italy"
+   ],
+   "tier": "major",
+   "wikidata": "Q465208",
+   "periods": []
+  },
+  {
+   "id": "jon-fosse",
+   "names": {
+    "ko": "욘 포세",
+    "original": "Jon Fosse",
+    "aliases": [
+     "Jon Olav Fosse",
+     "욘 올라브 포세"
+    ]
+   },
+   "birthYear": 1959,
+   "activeRange": [
+    1983,
+    2026
+   ],
+   "anchorYear": 2000,
+   "gender": "male",
+   "languages": [
+    "no"
+   ],
+   "regions": [
+    "nordic"
+   ],
+   "tier": "major",
+   "wikidata": "Q443868",
+   "periods": []
+  },
+  {
+   "id": "keigo-higashino",
+   "names": {
+    "ko": "히가시노 게이고",
+    "original": "東野圭吾",
+    "aliases": [
+     "히가시노 케이고",
+     "Keigo Higashino",
+     "Higashino Keigo"
+    ]
+   },
+   "birthYear": 1958,
+   "deathYear": 2026,
+   "activeRange": [
+    1985,
+    2026
+   ],
+   "anchorYear": 2005,
+   "gender": "male",
+   "languages": [
+    "ja"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q125970",
+   "periods": []
+  },
+  {
+   "id": "kim-ae-ran",
+   "names": {
+    "ko": "김애란",
+    "original": "김애란",
+    "aliases": [
+     "Kim Ae-ran",
+     "Ae-ran Kim",
+     "金愛爛"
+    ]
+   },
+   "birthYear": 1980,
+   "activeRange": [
+    2003,
+    2026
+   ],
+   "anchorYear": 2012,
+   "gender": "female",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q6408321",
+   "periods": []
+  },
+  {
+   "id": "kim-hoon",
+   "names": {
+    "ko": "김훈",
+    "original": "김훈",
+    "aliases": [
+     "Kim Hoon",
+     "Kim Hun",
+     "金薰"
+    ]
+   },
+   "birthYear": 1948,
+   "activeRange": [
+    1986,
+    2024
+   ],
+   "anchorYear": 2007,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q626092",
+   "periods": []
+  },
+  {
+   "id": "kim-seung-ok",
+   "names": {
+    "ko": "김승옥",
+    "original": "김승옥",
+    "aliases": [
+     "金承鈺",
+     "Kim Seung-ok",
+     "Kim Seungok"
+    ]
+   },
+   "birthYear": 1941,
+   "activeRange": [
+    1962,
+    1980
+   ],
+   "anchorYear": 1964,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q483284",
+   "periods": []
+  },
+  {
+   "id": "kim-soo-young",
+   "names": {
+    "ko": "김수영",
+    "original": "김수영",
+    "aliases": [
+     "金洙暎",
+     "Kim Soo-young",
+     "Kim Su-yeong"
+    ]
+   },
+   "birthYear": 1921,
+   "deathYear": 1968,
+   "activeRange": [
+    1945,
+    1968
+   ],
+   "anchorYear": 1964,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q4556301",
+   "periods": []
+  },
+  {
+   "id": "kim-yeon-su",
+   "names": {
+    "ko": "김연수",
+    "original": "김연수",
+    "aliases": [
+     "Kim Yeon-su",
+     "Kim Yeonsu",
+     "金衍洙",
+     "キム・ヨンス"
+    ]
+   },
+   "birthYear": 1970,
+   "activeRange": [
+    1993,
+    2026
+   ],
+   "anchorYear": 2009,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q6409607",
+   "periods": []
+  },
+  {
+   "id": "kim-young-ha",
+   "names": {
+    "ko": "김영하",
+    "original": "김영하",
+    "aliases": [
+     "Kim Young-ha",
+     "Kim Yeong-ha",
+     "金英夏"
+    ]
+   },
+   "birthYear": 1968,
+   "activeRange": [
+    1995,
+    2026
+   ],
+   "anchorYear": 2006,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q140135",
+   "periods": []
+  },
+  {
+   "id": "kim-yu-jeong",
+   "names": {
+    "ko": "김유정",
+    "original": "김유정",
+    "aliases": [
+     "金裕貞",
+     "Kim Yu-jeong",
+     "Gim Yujeong",
+     "Kim Yujung",
+     "Kim Yu-chŏng"
+    ]
+   },
+   "birthYear": 1908,
+   "deathYear": 1937,
+   "activeRange": [
+    1933,
+    1937
+   ],
+   "anchorYear": 1935,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q624299",
+   "periods": []
+  },
+  {
+   "id": "mo-yan",
+   "names": {
+    "ko": "모옌",
+    "original": "莫言",
+    "aliases": [
+     "Mo Yan",
+     "관모예",
+     "管谟业",
+     "Guan Moye"
+    ]
+   },
+   "birthYear": 1955,
+   "activeRange": [
+    1981,
+    2026
+   ],
+   "anchorYear": 1995,
+   "gender": "male",
+   "languages": [
+    "zh"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q8998",
+   "periods": []
+  },
+  {
+   "id": "park-wan-suh",
+   "names": {
+    "ko": "박완서",
+    "original": "박완서",
+    "aliases": [
+     "Park Wan-suh",
+     "Pak Wan-seo",
+     "朴婉緖"
+    ]
+   },
+   "birthYear": 1931,
+   "deathYear": 2011,
+   "activeRange": [
+    1970,
+    2010
+   ],
+   "anchorYear": 1985,
+   "gender": "female",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q465489",
+   "periods": []
+  },
+  {
+   "id": "paulo-coelho",
+   "names": {
+    "ko": "파울로 코엘료",
+    "original": "Paulo Coelho",
+    "aliases": [
+     "파울루 코엘류",
+     "Paulo Coelho de Souza",
+     "코엘료"
+    ]
+   },
+   "birthYear": 1947,
+   "activeRange": [
+    1982,
+    2026
+   ],
+   "anchorYear": 1988,
+   "gender": "male",
+   "languages": [
+    "pt"
+   ],
+   "regions": [
+    "latin-america"
+   ],
+   "tier": "major",
+   "wikidata": "Q12881",
+   "periods": []
+  },
+  {
+   "id": "yeom-sang-seop",
+   "names": {
+    "ko": "염상섭",
+    "original": "염상섭",
+    "aliases": [
+     "廉想涉",
+     "廉尙燮",
+     "횡보",
+     "Yom Sang-seop",
+     "Yeom Sang-seop"
+    ]
+   },
+   "birthYear": 1897,
+   "deathYear": 1963,
+   "activeRange": [
+    1920,
+    1963
+   ],
+   "anchorYear": 1931,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q8054832",
+   "periods": []
+  },
+  {
+   "id": "yi-cheong-jun",
+   "names": {
+    "ko": "이청준",
+    "original": "이청준",
+    "aliases": [
+     "李淸俊",
+     "Yi Chong-jun",
+     "Yi Cheong-jun",
+     "Lee Cheong-jun",
+     "Yi Ch'ŏngjun"
+    ]
+   },
+   "birthYear": 1939,
+   "deathYear": 2008,
+   "activeRange": [
+    1965,
+    2007
+   ],
+   "anchorYear": 1976,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q31737",
+   "periods": []
+  },
+  {
+   "id": "yi-hyo-seok",
+   "names": {
+    "ko": "이효석",
+    "original": "이효석",
+    "aliases": [
+     "李孝石",
+     "가산",
+     "可山",
+     "Lee Hyo-seok",
+     "Yi Hyoseok",
+     "Lee Hyoseok"
+    ]
+   },
+   "birthYear": 1907,
+   "deathYear": 1942,
+   "activeRange": [
+    1928,
+    1942
+   ],
+   "anchorYear": 1936,
+   "gender": "male",
+   "languages": [
+    "ko",
+    "ja"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q483075",
+   "periods": []
+  },
+  {
+   "id": "yu-hua",
+   "names": {
+    "ko": "위화",
+    "original": "余华",
+    "aliases": [
+     "Yu Hua",
+     "余華",
+     "여화"
+    ]
+   },
+   "birthYear": 1960,
+   "activeRange": [
+    1983,
+    2026
+   ],
+   "anchorYear": 1993,
+   "gender": "male",
+   "languages": [
+    "zh"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q379520",
+   "periods": []
+  },
+  {
+   "id": "yun-dong-ju",
+   "names": {
+    "ko": "윤동주",
+    "original": "윤동주",
+    "aliases": [
+     "尹東柱",
+     "Yun Dong-ju",
+     "Yun Tong-chu"
+    ]
+   },
+   "birthYear": 1917,
+   "deathYear": 1945,
+   "activeRange": [
+    1936,
+    1942
+   ],
+   "anchorYear": 1941,
+   "gender": "male",
+   "languages": [
+    "ko"
+   ],
+   "regions": [
+    "east-asia"
+   ],
+   "tier": "major",
+   "wikidata": "Q625089",
+   "periods": []
+  }
+ ]
+}

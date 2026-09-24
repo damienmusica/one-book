@@ -1,0 +1,170 @@
+{
+  "id": "vs-naipaul",
+  "page": "https://literary-planet.pages.dev/authors/vs-naipaul/",
+  "author": {
+    "names": {
+      "ko": "V. S. 나이폴",
+      "original": "V. S. Naipaul",
+      "aliases": [
+        "Vidiadhar Surajprasad Naipaul"
+      ]
+    },
+    "birthYear": 1932,
+    "deathYear": 2018,
+    "activeRange": [
+      1957,
+      2018
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "caribbean"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "트리니다드 인도계 이민 가정의 집 한 채를 향한 집착을 장편으로 밀어붙여, 주변부의 삶을 세계 소설의 중심 소재로 만들었다. 아버지를 모델로 삼은 비스와스의 실패와 고집을 600쪽의 희비극으로 쌓아 올린 뒤, 후기작에서는 소설·여행기·역사 서술의 경계를 지운 1인칭 산문으로 옮겨 갔다. 탈식민 사회를 '모방'과 '결여'로 규정한 그의 진단은 카리브 작가들의 반박을 불러, 그 논쟁 자체가 하나의 문학사가 되었다.",
+    "readingEntry": "vs-naipaul--miguel-street",
+    "readingEntryReason": "포트오브스페인 한 골목의 인물들을 한 명씩 한 장씩 그린 연작 단편집이라 어디서 끊어 읽어도 되고, 소년 화자의 시선 덕에 희극으로 먼저 읽힌다. 200쪽 남짓이다.",
+    "readingOrder": [
+      "vs-naipaul--miguel-street",
+      "vs-naipaul--a-house-for-mr-biswas",
+      "vs-naipaul--a-bend-in-the-river",
+      "vs-naipaul--the-enigma-of-arrival"
+    ],
+    "readingWarning": "『비스와스 씨를 위한 집』으로 시작하면 초반 100쪽의 툴시 가문 인물 관계에서 막히기 쉽다. 『미겔 스트리트』로 트리니다드의 골목을 먼저 익히는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 투명해 읽기 자체는 어렵지 않다. 부담은 분량과 배경에 있다 — 『비스와스 씨를 위한 집』은 600쪽에 걸쳐 인도계 힌두 가문의 친족과 의례가 이름 설명 없이 등장하고, 후기작은 사건보다 화자의 관찰이 서술을 끌고 간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "vs-naipaul--a-bend-in-the-river",
+      "titleKo": "굽이치는 강",
+      "titleOriginal": "A Bend in the River",
+      "year": 1979,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "독립 직후 중앙아프리카의 강변 도시에 가게를 연 인도계 상인의 시선으로 신생 국가의 부패와 붕괴를 기록한다. 나이폴의 탈식민 비관이 가장 논쟁적으로 드러난 장편.",
+      "sourceIds": []
+    },
+    {
+      "id": "vs-naipaul--the-enigma-of-arrival",
+      "titleKo": "도착의 수수께끼",
+      "titleOriginal": "The Enigma of Arrival",
+      "year": 1987,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "잉글랜드 남부 시골에 정착한 화자가 계절과 이웃의 쇠락을 관찰하는 자전적 장편. 소설·회고록·풍경 에세이의 경계를 지운 후기 문체가 완성된 작품이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "vs-naipaul--a-house-for-mr-biswas",
+      "titleKo": "비스와스 씨를 위한 집",
+      "titleOriginal": "A House for Mr Biswas",
+      "year": 1961,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "처가에 얹혀사는 신문기자 비스와스가 평생 자기 집 한 채를 갖겠다고 버티는 이야기. 나이폴의 아버지를 모델로 삼았고, 이민 사회의 종속과 자존을 한 인물의 집착으로 압축한 대표작이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "vs-naipaul--miguel-street",
+      "titleKo": "미겔 스트리트",
+      "titleOriginal": "Miguel Street",
+      "year": 1959,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "포트오브스페인 뒷골목의 실패자들을 소년 화자의 눈으로 한 편에 한 명씩 기록한 연작. 세 번째 출간작으로 1961년 서머싯 몸 상을 받았고, 카리브 구어의 리듬을 그대로 옮긴 대화가 특징이다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--joseph-conrad--vs-naipaul",
+      "type": "documented_influence",
+      "from": "joseph-conrad (조지프 콘래드)",
+      "to": "vs-naipaul (V. S. 나이폴)",
+      "evidenceLevel": "documented",
+      "summary": "나이폴은 에세이 「콘래드의 어둠」(1974)에서 콘래드를 자신이 쓰려는 변방의 세계를 이미 다룬 작가로 꼽았다.",
+      "sourceIds": [
+        "src--naipaul-conrads-darkness-1974"
+      ]
+    },
+    {
+      "id": "influence--rk-narayan--vs-naipaul",
+      "type": "documented_influence",
+      "from": "rk-narayan (R. K. 나라얀)",
+      "to": "vs-naipaul (V. S. 나이폴)",
+      "evidenceLevel": "documented",
+      "summary": "나이폴은 『인도: 상처받은 문명』(1977)에서 나라얀의 『미스터 샘파스』를 여러 쪽에 걸쳐 읽으며, 그 소설의 체념을 인도 사회 진단의 출발점으로 삼는다.",
+      "sourceIds": [
+        "src--naipaul-india-wounded-civilization-1977"
+      ]
+    },
+    {
+      "id": "contrast--derek-walcott--vs-naipaul",
+      "type": "contrast",
+      "from": "derek-walcott (데릭 월컷)",
+      "to": "vs-naipaul (V. S. 나이폴)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "월컷은 「The Garden Path」(1987, 『황혼이 하는 말』 수록)에서 『도착의 수수께끼』를 서평하며 나이폴이 카리브를 결여로 읽는 시선을 반박했다. 카리브 문학사는 두 사람을 '결여로 보는 눈'과 '창조로 보는 눈'의 대립항으로 세워 읽는다.",
+      "sourceIds": [
+        "src--walcott-what-the-twilight-says-garden-path"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--clr-james--vs-naipaul (→ clr-james 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--naipaul-conrads-darkness-1974": {
+      "id": "src--naipaul-conrads-darkness-1974",
+      "title": "「Conrad's Darkness」 (1974)",
+      "publisherOrInstitution": "The New York Review of Books / The Return of Eva Perón 수록 (1980)",
+      "citation": "나이폴이 콘래드를 자기 문제의 선행 사례로 지목한 에세이 — 콘래드 영향의 1차 근거."
+    },
+    "src--naipaul-india-wounded-civilization-1977": {
+      "id": "src--naipaul-india-wounded-civilization-1977",
+      "title": "India: A Wounded Civilization (1977)",
+      "publisherOrInstitution": "André Deutsch (London)",
+      "citation": "나이폴의 인도 3부작 중 두 번째 — 나라얀의 『미스터 샘파스』를 길게 읽는 장이 들어 있다."
+    },
+    "src--walcott-what-the-twilight-says-garden-path": {
+      "id": "src--walcott-what-the-twilight-says-garden-path",
+      "title": "What the Twilight Says: Essays 수록 「The Garden Path」",
+      "publisherOrInstitution": "Farrar, Straus and Giroux (1998)",
+      "citation": "월컷이 나이폴의 후기작과 카리브관을 정면으로 반박한 에세이."
+    }
+  }
+}

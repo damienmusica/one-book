@@ -1,0 +1,142 @@
+{
+  "id": "omar-khayyam",
+  "page": "https://literary-planet.pages.dev/authors/omar-khayyam/",
+  "author": {
+    "names": {
+      "ko": "오마르 하이얌",
+      "original": "عمر خیام",
+      "aliases": [
+        "우마르 하이얌"
+      ]
+    },
+    "birthYear": 1048,
+    "deathYear": 1131,
+    "activeRange": [
+      1070,
+      1131
+    ],
+    "languages": [
+      "fa"
+    ],
+    "regions": [
+      "middle-east-north-africa"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "달력을 고치던 천문학자가 네 줄짜리 루바이로 죽음과 무상을 말했고, 술잔·흙·지나간 왕들이라는 몇 개의 사물만으로 같은 회의를 끝없이 변주했다. 3차방정식을 원뿔곡선의 교점으로 푸는 대수 논고를 쓴 수학자이기도 했고, 그의 사행시는 페르시아 문학 안에서 수피 신비주의로도 무신론적 회의로도 읽혀 왔다. 19세기 피츠제럴드의 영어 번역본이 판을 거듭하며 영어권의 애송시가 되었고, 그 인기가 거꾸로 이란 안에서의 하이얌 연구를 자극했다.",
+    "readingEntry": "omar-khayyam--rubaiyat",
+    "readingEntryReason": "남은 저작 가운데 문학 작품은 이 사행시집뿐이고, 아무 쪽에서나 펼쳐 읽어도 되는 형식이라 시집 자체에는 진입 비용이 거의 없다.",
+    "readingOrder": [
+      "omar-khayyam--rubaiyat",
+      "omar-khayyam--risala-fi-l-jabr-wa-l-muqabala",
+      "omar-khayyam--sharh-musadarat-uqlidis"
+    ],
+    "readingWarning": "피츠제럴드의 1859년 영역본은 배열과 시상을 상당 부분 다시 쓴 번안에 가깝다. 그것만 읽고 하이얌을 읽었다고 하면, 사본 계열마다 진작 판정이 갈린다는 이 시집의 근본 사정이 통째로 빠진다.",
+    "difficulty": 3,
+    "difficultyReason": "한 편이 네 줄로 끝나는 사행시 자체에는 문장의 장벽이 없다. 대신 어느 사본을 저본으로 삼느냐에 따라 수록 편수가 수십에서 천 편까지 달라져 번역본마다 시인의 인상이 달라지고, 읽기 경로의 뒤 두 권은 3차방정식 작도와 평행선 공준을 다루는 수학 논고인데 한국어 상용 판본도 사실상 없다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "omar-khayyam--risala-fi-l-jabr-wa-l-muqabala",
+      "titleKo": "대수학 논고",
+      "titleOriginal": "رسالة في البراهين على مسائل الجبر والمقابلة",
+      "year": 1079,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "3차방정식을 유형별로 분류하고 각 유형을 원뿔곡선의 교점으로 작도해 푼 논고. 무상을 노래한 사행시와 같은 사람이 쓴 정밀한 기하학이라는 점에서, 그의 시를 읽는 배경이 된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "omar-khayyam--sharh-musadarat-uqlidis",
+      "titleKo": "유클리드 공준의 난점에 대한 주해",
+      "titleOriginal": "رسالة في شرح ما أشكل من مصادرات كتاب أقليدس",
+      "year": 1077,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "평행선 공준을 다른 공준들에서 이끌어내려 시도하며 사각형 윗각의 예각·둔각·직각 세 경우를 나누어 검토했다. 비유클리드 기하학으로 가는 길목의 문헌으로 수학사에서 인용된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "omar-khayyam--rubaiyat",
+      "titleKo": "루바이야트",
+      "titleOriginal": "رباعیات",
+      "year": 1460,
+      "yearBasis": "earliest-manuscript",
+      "genre": "poetry",
+      "significance": "하이얌에게 귀속되어 온 사행시들의 묶음. 12세기 후반부터 인용 기록이 나타나지만 개별 시의 진작 여부는 사본마다 갈리고, 1460년 시라즈에서 필사된 보들리언 사본이 피츠제럴드 번역의 저본이 되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--omar-khayyam--sadegh-hedayat",
+      "type": "documented_influence",
+      "from": "omar-khayyam (오마르 하이얌)",
+      "to": "sadegh-hedayat (사데크 헤다야트)",
+      "evidenceLevel": "documented",
+      "summary": "헤다야트는 하이얌 사행시집을 두 차례 엮었고(1923, 그리고 1934년의 『하이얌의 노래』), 하이얌을 신비주의자가 아니라 유물론적 회의주의자로 읽는 해설을 붙여 근대 이란의 하이얌 상을 다시 세웠다.",
+      "sourceIds": [
+        "src--hedayat-taraneha-ye-khayyam-1934",
+        "src--encyclopaedia-iranica"
+      ]
+    },
+    {
+      "id": "influence--omar-khayyam--jorge-luis-borges",
+      "type": "documented_influence",
+      "from": "omar-khayyam (오마르 하이얌)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 에세이 「에드워드 피츠제럴드의 수수께끼」(『또 다른 심문』, 1952)에서 하이얌과 그의 영국인 번역자가 시간을 건너 한 사람의 시인을 이루었다고 썼다.",
+      "sourceIds": [
+        "src--borges-otras-inquisiciones-1952"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--rumi--omar-khayyam (→ rumi 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--encyclopaedia-iranica": {
+      "id": "src--encyclopaedia-iranica",
+      "title": "Encyclopædia Iranica — 표제 항목",
+      "publisherOrInstitution": "Encyclopaedia Iranica Foundation / Columbia University",
+      "url": "https://iranicaonline.org",
+      "citation": "이란 문학·역사 전문 백과 — 헤다야트의 생애와 저작 연표 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--hedayat-taraneha-ye-khayyam-1934": {
+      "id": "src--hedayat-taraneha-ye-khayyam-1934",
+      "title": "하이얌의 노래 (ترانه‌های خیام / Tarānehā-ye Khayyām)",
+      "publisherOrInstitution": "사데크 헤다야트 편, 테헤란, 1934",
+      "citation": "헤다야트가 하이얌 사행시를 선별하고 해설을 붙인 판본. 그는 1923년에도 하이얌 사행시집을 엮었으며, 이 두 권이 근대 이란의 하이얌 재독해의 출발점"
+    },
+    "src--borges-otras-inquisiciones-1952": {
+      "id": "src--borges-otras-inquisiciones-1952",
+      "title": "또 다른 심문 (Otras inquisiciones)",
+      "publisherOrInstitution": "Sur, 부에노스아이레스, 1952",
+      "citation": "보르헤스의 에세이집. 「에드워드 피츠제럴드의 수수께끼」에서 페르시아 천문학자와 영국 번역자가 한 사람의 시인을 이루었다는 논지를 편다"
+    }
+  }
+}

@@ -72,11 +72,9 @@
     "sourceIds": [
       "src--britannica",
       "src--nobelprize",
-      "src--rabindra-bhavana",
-      "src--kr-world-lit-editions"
+      "src--rabindra-bhavana"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "natsume-soseki",
@@ -148,11 +146,9 @@
     "sourceIds": [
       "src--britannica",
       "src--aozora-bunko",
-      "src--soseki-asahi-serialization",
-      "src--kr-world-lit-editions"
+      "src--soseki-asahi-serialization"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "lu-xun",
@@ -215,7 +211,7 @@
       "essay-criticism"
     ],
     "tier": "anchor",
-    "importanceReason": "루쉰은 2천 년 동안 글의 자격을 독점해 온 문언을 버리고 백화로 소설을 쓰는 일이 가능하다는 것을 「광인일기」 한 편으로 증명했다. 문언으로 쓴 서문과 백화로 쓴 본문을 한 작품 안에 나란히 놓아, 언어의 교체 자체를 작품의 사건으로 만든 구성이었다. 「아Q정전」에서는 패배를 승리로 바꿔 기억하는 '정신승리법'이라는 진단명을 만들어, 소설의 인물이 한 사회의 자기인식을 가리키는 보통명사가 되게 했다. 만년의 잡문(雜文)은 짧은 논쟁문을 문학 장르로 확립했고, 『중국소설사략』은 천대받던 백화 서사를 학문의 대상으로 처음 정리했다.",
+    "importanceReason": "루쉰의 「광인일기」(1918)는 서구식 근대 단편을 백화로 쓴 초기작으로, 문학혁명기 백화 소설의 출발점으로 꼽힌다(백화 소설 자체는 명·청대의 장편에서 이미 쓰이고 있었다). 문언으로 쓴 서문과 백화로 쓴 본문을 한 작품 안에 나란히 놓아, 언어의 교체 자체를 작품의 사건으로 만든 구성이었다. 「아Q정전」에서는 패배를 승리로 바꿔 기억하는 '정신승리법'이라는 진단명을 만들어, 소설의 인물이 한 사회의 자기인식을 가리키는 보통명사가 되게 했다. 만년의 잡문(雜文)은 짧은 논쟁문을 문학 장르로 확립했고, 『중국소설사략』은 신화·지괴·전기에서 백화 장편까지 중국 소설 전체를 다룬, 중국에서 나온 최초의 본격 소설 통사였다.",
     "readingEntry": "lu-xun--kuangren-riji",
     "readingEntryReason": "십여 쪽 분량 안에 문언 서문과 백화 일기라는 이중 구조가 그대로 드러나, 중국 근대문학이 무엇을 끊고 시작했는지가 한 편으로 보인다.",
     "readingOrder": [
@@ -231,11 +227,10 @@
     "sourceIds": [
       "src--britannica",
       "src--lu-xun-quanji",
-      "src--xinqingnian-1918",
-      "src--kr-world-lit-editions"
+      "src--xinqingnian-1918"
     ],
     "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewedAt": "2026-09-24"
   },
   {
     "id": "ryunosuke-akutagawa",
@@ -298,11 +293,9 @@
     "difficultyReason": "낱편이 짧고 사건이 선명해 진입은 쉽지만, 대부분 고전 설화를 비틀어 쓴 것이라 원전을 모르면 비틀기의 각도가 보이지 않는다.",
     "sourceIds": [
       "src--britannica",
-      "src--aozora-bunko",
-      "src--kr-world-lit-editions"
+      "src--aozora-bunko"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "yi-sang",
@@ -380,8 +373,7 @@
       "src--joseon-jungang-ilbo-1934",
       "src--joseon-to-kenchiku"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "kim-sowol",
@@ -437,9 +429,9 @@
       "essay-criticism"
     ],
     "tier": "major",
-    "importanceReason": "김소월은 민요의 3음보와 7·5조를 근대 인쇄 지면의 자유시 안으로 옮겨, 공동체가 부르던 노래의 리듬을 한 사람의 목소리로 다시 쓰는 방법을 만들었다. 『진달래꽃』(1925)은 이별을 견디는 화자의 어조를 한국어 서정시의 기준 음역으로 고정했고, 이후의 한국시는 그 음역을 이어받거나 그것에 반발하는 방식으로 자기 자리를 정하게 되었다. 평안도 방언 어휘를 표준어의 예외가 아니라 시어로 쓴 점, 그리고 「시혼」(1925)에서 자기 시의 원리를 스스로 정식화한 점이 함께 평가된다.",
+    "importanceReason": "김소월은 민요의 3음보와 7·5조를 근대 인쇄 지면의 시 안으로 옮겨, 공동체가 부르던 노래의 리듬을 한 사람의 목소리로 다시 쓰는 방법을 만들었다. 『진달래꽃』(1925)은 이별을 견디는 화자의 어조를 한국어 서정시의 기준 음역으로 고정했고, 근대시의 형성과 전개 과정에 폭넓은 영향을 끼쳐 한국 시단의 이정표 구실을 한 시집으로 평가된다. 평안도 방언 어휘를 표준어의 예외가 아니라 시어로 쓴 점, 그리고 「시혼」(1925)에서 자기 시의 원리를 스스로 정식화한 점이 함께 평가된다.",
     "readingEntry": "kim-sowol--jindallaekkot",
-    "readingEntryReason": "생전에 낸 유일한 시집이 곧 대표작이고 분량이 짧아, 표제작 한 편이 아니라 한 권의 어조 전체를 한 번에 확인할 수 있다.",
+    "readingEntryReason": "생전에 낸 유일한 시집이 곧 대표작이고 127편을 16부로 나눠 묶은 한 권이라, 표제작 한 편이 아니라 한 권의 어조 전체를 확인할 수 있다.",
     "readingOrder": [
       "kim-sowol--jindallaekkot",
       "kim-sowol--chohon",
@@ -447,7 +439,7 @@
       "kim-sowol--sowol-sicho",
       "kim-sowol--sihon"
     ],
-    "readingWarning": "「진달래꽃」 한 편만 교과서적 이별시로 읽고 끝내는 것이 가장 흔한 오독 경로다. 시집 전체에서는 유랑, 돌아갈 수 없는 고향, 죽은 이를 부르는 목소리가 더 큰 비중을 차지한다.",
+    "readingWarning": "「진달래꽃」 한 편만 이별시로 읽고 끝내지 않는 편이 좋다. 시집 전체는 떠난 이를 두고 홀로 남은 심정을 주로 다루지만, 죽은 이를 부르는 「초혼」과 '여수(旅愁)' 부의 시처럼 「진달래꽃」 한 편보다 넓은 폭의 시도 함께 실려 있다.",
     "difficulty": 1,
     "difficultyReason": "어휘와 통사가 평이하고 한 편의 분량이 짧다. 다만 평안도 방언과 옛 표기가 주석 없이는 걸리는 대목이 몇 군데 있다.",
     "sourceIds": [
@@ -456,7 +448,7 @@
       "src--gaebyeok"
     ],
     "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewedAt": "2026-09-24"
   },
   {
     "id": "han-yong-un",
@@ -529,8 +521,7 @@
       "src--lti-korea",
       "src--nimui-chimmuk-1926"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   },
   {
     "id": "premchand",
@@ -602,10 +593,8 @@
     "difficultyReason": "문장과 구성은 평이한 사실주의지만, 소작·부채·카스트·법정 절차 같은 식민지 농촌의 제도 어휘가 서사의 동력이라 그 배경 없이는 갈등의 크기가 잡히지 않는다.",
     "sourceIds": [
       "src--britannica",
-      "src--premchand-pwa-address-1936",
-      "src--kr-world-lit-editions"
+      "src--premchand-pwa-address-1936"
     ],
-    "reviewStatus": "reviewed",
-    "reviewedAt": "2026-08-15"
+    "reviewStatus": "draft"
   }
 ]

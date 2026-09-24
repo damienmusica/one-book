@@ -1,0 +1,176 @@
+{
+  "id": "katherine-mansfield",
+  "page": "https://literary-planet.pages.dev/authors/katherine-mansfield/",
+  "author": {
+    "names": {
+      "ko": "캐서린 맨스필드",
+      "original": "Katherine Mansfield",
+      "aliases": [
+        "맨스필드",
+        "캐슬린 맨스필드 보챔프",
+        "Kathleen Mansfield Beauchamp"
+      ]
+    },
+    "birthYear": 1888,
+    "deathYear": 1923,
+    "activeRange": [
+      1911,
+      1922
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "oceania",
+      "britain-ireland"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "사건의 해결 대신 인물의 지각이 한 번 이동하는 순간에 이야기를 끝내는 단편 구조를 영어권에 정착시켰다. 체호프에게서 배운 무결말과 자유간접화법을 결합해 서술자의 목소리와 인물의 의식을 한 문장 안에서 겹치게 했다. 「서곡」과 「만 위에서」 연작에서는 뉴질랜드 식민지 유년의 가족을 줄거리 없이 장면의 연쇄로 기록해, 장편의 재료를 단편의 형식으로 다루는 방법을 만들었다.",
+    "readingEntry": "katherine-mansfield--the-garden-party-and-other-stories",
+    "readingEntryReason": "표제작과 「만 위에서」가 함께 실려 있어 그의 두 방향 — 계급의 균열을 건드리는 짧은 단편과 가족 연작 — 을 한 권에서 볼 수 있고, 한 편이 20–30쪽이라 부담이 없다.",
+    "readingOrder": [
+      "katherine-mansfield--the-garden-party-and-other-stories",
+      "katherine-mansfield--bliss-and-other-stories",
+      "katherine-mansfield--prelude"
+    ],
+    "readingWarning": "초기 『독일 하숙에서』부터 연대순으로 읽으면 풍자 스케치 단계에 오래 머물러, 그가 만든 단편 형식을 보기 전에 지치기 쉽다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 평이하고 분량도 짧지만 사건이 해결되지 않은 채 끝나므로, 무슨 일이 일어났는가를 묻는 독법에는 허탕처럼 읽힌다. 무엇이 달라졌는지를 인물의 지각에서 찾아야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--te-ara-nz",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "katherine-mansfield--in-a-german-pension",
+      "titleKo": "독일 하숙에서",
+      "titleOriginal": "In a German Pension",
+      "year": 1911,
+      "genre": "fiction",
+      "significance": "바이에른 요양지의 하숙을 무대로 한 첫 단편집. 독일 중산층을 겨눈 풍자 스케치로, 뒤에 그가 버리게 되는 초기 방법을 보여 준다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--te-ara-nz"
+      ]
+    },
+    {
+      "id": "katherine-mansfield--prelude",
+      "titleKo": "서곡",
+      "titleOriginal": "Prelude",
+      "year": 1918,
+      "genre": "fiction",
+      "significance": "뉴질랜드의 한 가족이 이사하는 며칠을 여러 개의 짧은 장면으로 나눈 중편. 1918년 울프 부부의 호가스 출판사가 수작업으로 찍어 냈고, 줄거리 없이 시점만 옮겨 가는 그의 방법이 확립된 작품이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "katherine-mansfield--bliss-and-other-stories",
+      "titleKo": "행복",
+      "titleOriginal": "Bliss and Other Stories",
+      "year": 1920,
+      "genre": "fiction",
+      "significance": "표제작 「행복」과 함께 「서곡」이 실린 단편집. 인물이 자기 삶의 조건을 한순간 알아차리고 이야기가 끝나는 구조가 반복적으로 시도된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "katherine-mansfield--the-garden-party-and-other-stories",
+      "titleKo": "가든파티",
+      "titleOriginal": "The Garden Party and Other Stories",
+      "year": 1922,
+      "genre": "fiction",
+      "significance": "생전에 낸 마지막 단편집. 표제작과 「만 위에서」가 실려 있고, 계급의 경계와 죽음을 인물의 지각이 이동하는 한순간으로 처리하는 방법이 가장 선명하다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--katherine-mansfield--janet-frame",
+      "type": "affinity",
+      "from": "katherine-mansfield (캐서린 맨스필드)",
+      "to": "janet-frame (재닛 프레임)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "뉴질랜드 문학사 서술은 맨스필드와 프레임을 지방 소도시의 폐쇄와 아이의 의식을 산문의 문제로 삼은 두 축으로 나란히 놓고, 프레임의 첫 단편집 『석호』(1951년 표기, 실제 출간 1952)를 맨스필드 이후의 뉴질랜드 단편 계보 안에서 읽어 왔다.",
+      "sourceIds": [
+        "src--read-nz-frame-janet"
+      ]
+    },
+    {
+      "id": "influence--katherine-mansfield--clarice-lispector",
+      "type": "documented_influence",
+      "from": "katherine-mansfield (캐서린 맨스필드)",
+      "to": "clarice-lispector (클라리시 리스펙토르)",
+      "evidenceLevel": "documented",
+      "summary": "리스펙토르는 십 대에 헌책방에서 맨스필드의 단편집 『행복』 포르투갈어판을 사고 그 책이 자기 자신이라고 느꼈다고 여러 차례 회고했다. 사건 대신 한 인물의 의식이 사물과 부딪히는 짧은 장면을 서사의 단위로 삼은 그의 초기 단편은 맨스필드에게서 온 형식이다.",
+      "anchors": [
+        {
+          "workId": "katherine-mansfield--bliss-and-other-stories"
+        }
+      ],
+      "sourceIds": [
+        "src--lispector-jornal-do-brasil-cronicas"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "dialogue--virginia-woolf--katherine-mansfield (→ virginia-woolf 의 슬레이트에서 본다)",
+    "influence--anton-chekhov--katherine-mansfield (→ anton-chekhov 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--te-ara-nz": {
+      "id": "src--te-ara-nz",
+      "title": "Te Ara: The Encyclopedia of New Zealand — Dictionary of New Zealand Biography 인물 항목",
+      "publisherOrInstitution": "New Zealand Ministry for Culture and Heritage (Manatū Taonga)",
+      "citation": "맨스필드의 웰링턴 시기 가계·유년·도영 시점 등 뉴질랜드 측 전기 사실 확인용"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--read-nz-frame-janet": {
+      "id": "src--read-nz-frame-janet",
+      "title": "Janet Frame — 작가 항목",
+      "publisherOrInstitution": "Read NZ Te Pou Muramura (뉴질랜드 도서 협회)",
+      "url": "https://www.read-nz.org/writer/frame-janet/",
+      "citation": "프레임의 첫 단편집 『석호』의 문체를 맨스필드 계보에 놓는 진술의 소재지"
+    },
+    "src--lispector-jornal-do-brasil-cronicas": {
+      "id": "src--lispector-jornal-do-brasil-cronicas",
+      "title": "『조르나우 두 브라지우』 주간 크로니카 연재 (1967–1973)",
+      "publisherOrInstitution": "Jornal do Brasil",
+      "citation": "리스펙토르가 신문 칼럼으로 발표한 크로니카 연작 — 후기 산문과 자기 서술 방식의 1차 자료"
+    }
+  }
+}

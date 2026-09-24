@@ -1,0 +1,138 @@
+{
+  "id": "kim-sowol",
+  "page": "https://literary-planet.pages.dev/authors/kim-sowol/",
+  "author": {
+    "names": {
+      "ko": "김소월",
+      "original": "金素月",
+      "aliases": [
+        "김정식",
+        "金廷湜",
+        "Kim Sowol",
+        "소월"
+      ]
+    },
+    "birthYear": 1902,
+    "deathYear": 1934,
+    "activeRange": [
+      1920,
+      1934
+    ],
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "김소월은 민요의 3음보와 7·5조를 근대 인쇄 지면의 자유시 안으로 옮겨, 공동체가 부르던 노래의 리듬을 한 사람의 목소리로 다시 쓰는 방법을 만들었다. 『진달래꽃』(1925)은 이별을 견디는 화자의 어조를 한국어 서정시의 기준 음역으로 고정했고, 이후의 한국시는 그 음역을 이어받거나 그것에 반발하는 방식으로 자기 자리를 정하게 되었다. 평안도 방언 어휘를 표준어의 예외가 아니라 시어로 쓴 점, 그리고 「시혼」(1925)에서 자기 시의 원리를 스스로 정식화한 점이 함께 평가된다.",
+    "readingEntry": "kim-sowol--jindallaekkot",
+    "readingEntryReason": "생전에 낸 유일한 시집이 곧 대표작이고 분량이 짧아, 표제작 한 편이 아니라 한 권의 어조 전체를 한 번에 확인할 수 있다.",
+    "readingOrder": [
+      "kim-sowol--jindallaekkot",
+      "kim-sowol--chohon",
+      "kim-sowol--sanyuhwa",
+      "kim-sowol--sowol-sicho",
+      "kim-sowol--sihon"
+    ],
+    "readingWarning": "「진달래꽃」 한 편만 교과서적 이별시로 읽고 끝내는 것이 가장 흔한 오독 경로다. 시집 전체에서는 유랑, 돌아갈 수 없는 고향, 죽은 이를 부르는 목소리가 더 큰 비중을 차지한다.",
+    "difficulty": 1,
+    "difficultyReason": "어휘와 통사가 평이하고 한 편의 분량이 짧다. 다만 평안도 방언과 옛 표기가 주석 없이는 걸리는 대목이 몇 군데 있다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--lti-korea",
+      "src--gaebyeok"
+    ]
+  },
+  "works": [
+    {
+      "id": "kim-sowol--jindallaekkot",
+      "titleKo": "진달래꽃",
+      "titleOriginal": "진달내꽃",
+      "year": 1925,
+      "genre": "poetry",
+      "significance": "생전에 낸 유일한 시집으로 표제작을 비롯한 대표작 대부분이 여기 실렸다. 민요의 3음보와 7·5조를 인쇄된 자유시의 행갈이로 옮겨, 이별을 견디는 화자의 어조를 한국어 서정시의 기준 음역으로 고정했다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    },
+    {
+      "id": "kim-sowol--chohon",
+      "titleKo": "초혼",
+      "titleOriginal": "招魂",
+      "year": 1925,
+      "genre": "poetry",
+      "significance": "죽은 이의 이름을 부르는 전통 상례의 절차를 시의 형식으로 삼아, 부름이 끝내 닿지 않는 구조를 반복으로 만든다. 『진달래꽃』 수록작 가운데 상실의 어조가 가장 격한 편이다.",
+      "sourceIds": [
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "kim-sowol--sanyuhwa",
+      "titleKo": "산유화",
+      "titleOriginal": "山有花",
+      "year": 1925,
+      "genre": "poetry",
+      "significance": "피고 지는 산의 꽃을 사람의 사연 없이 그대로 서술해, 소월의 시가 감정의 토로만이 아니라 거리를 둔 관찰로도 성립함을 보여준다. 짧은 행과 반복만으로 계절의 순환을 구성한다.",
+      "sourceIds": [
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "kim-sowol--sihon",
+      "titleKo": "시혼",
+      "titleOriginal": "詩魂",
+      "year": 1925,
+      "genre": "essay-criticism",
+      "significance": "잡지 『개벽』에 실은 시론으로, 시의 값이 소재의 크기가 아니라 '혼'의 깊이에 있다고 주장하며 자기 시의 원리를 직접 정식화했다. 소월이 남긴 유일한 본격 비평문이다.",
+      "sourceIds": [
+        "src--gaebyeok",
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "kim-sowol--sowol-sicho",
+      "titleKo": "소월시초",
+      "titleOriginal": "素月詩抄",
+      "year": 1939,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "스승 김억이 소월 사후에 엮은 선집으로, 흩어져 있던 잡지 발표작을 함께 묶었다. 소월의 정전이 사후에 어떤 손을 거쳐 만들어졌는지를 보여주는 판본이다.",
+      "sourceIds": [
+        "src--encykorea",
+        "src--lti-korea"
+      ]
+    }
+  ],
+  "relations": [],
+  "relationsCheckedElsewhere": [
+    "contrast--han-yong-un--kim-sowol (→ han-yong-un 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--encykorea": {
+      "id": "src--encykorea",
+      "title": "한국민족문화대백과사전 — 작가·작품 항목",
+      "publisherOrInstitution": "한국학중앙연구원",
+      "url": "https://encykorea.aks.ac.kr",
+      "citation": "한국 작가의 생애·작품 기초 사실 확인용"
+    },
+    "src--lti-korea": {
+      "id": "src--lti-korea",
+      "title": "한국문학번역원 작가 소개 자료",
+      "publisherOrInstitution": "Literature Translation Institute of Korea",
+      "url": "https://www.ltikorea.or.kr",
+      "citation": "한국 작가의 해외 소개용 공식 프로필"
+    },
+    "src--gaebyeok": {
+      "id": "src--gaebyeok",
+      "title": "『개벽(開闢)』 지면 (1920–1926)",
+      "publisherOrInstitution": "개벽사",
+      "citation": "1920년대 조선의 문예·사상 종합지 — 김소월 「진달래꽃」·「시혼」이 발표된 지면"
+    }
+  }
+}

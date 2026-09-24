@@ -1,0 +1,450 @@
+{
+  "id": "gustave-flaubert",
+  "page": "https://literary-planet.pages.dev/authors/gustave-flaubert/",
+  "author": {
+    "names": {
+      "ko": "귀스타브 플로베르",
+      "original": "Gustave Flaubert",
+      "aliases": [
+        "플로베르",
+        "Flaubert"
+      ]
+    },
+    "birthYear": 1821,
+    "deathYear": 1880,
+    "activeRange": [
+      1856,
+      1880
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "작가의 논평을 문장 밖으로 밀어내고, 자유간접화법으로 인물의 의식과 서술자의 목소리를 한 문장 안에 겹쳐 놓는 방법을 확립했다. 단어 하나를 고르기 위해 문장을 며칠씩 고쳐 쓰는 작업 규율은 소설을 즉흥적 이야기에서 설계된 산문으로 옮겨 놓았고, 20세기 소설이 시점의 통제를 기본기로 삼게 된 출발점이 되었다. 미완의 유작 『부바르와 페퀴셰』에서 상투어를 수집·나열한 시도는 통념 자체를 서술 대상으로 삼는 20세기의 반(反)소설을 앞당겼다.",
+    "readingEntry": "gustave-flaubert--madame-bovary",
+    "readingEntryReason": "대표작이면서 서사의 추진력이 강해 한 권으로 완결된 독서가 가능하고, 자유간접화법이 무엇인지 번역으로도 확인할 수 있는 유일한 입구다.",
+    "readingOrder": [
+      "gustave-flaubert--madame-bovary",
+      "gustave-flaubert--trois-contes",
+      "gustave-flaubert--l-education-sentimentale",
+      "gustave-flaubert--bouvard-et-pecuchet"
+    ],
+    "readingWarning": "『살람보』나 『부바르와 페퀴셰』로 시작하면 고고학적 세부와 학문 목록의 나열 때문에 플로베르를 지루한 자료 수집가로 오해하기 쉽다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 명료하고 사건도 따라가기 쉽지만, 작가가 판단을 말해주지 않기 때문에 인물의 어리석음과 서술자의 시선을 독자가 구별해내야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--flaubert-correspondance",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "gustave-flaubert--madame-bovary",
+      "titleKo": "마담 보바리",
+      "titleOriginal": "Madame Bovary",
+      "year": 1857,
+      "genre": "fiction",
+      "significance": "지방 의사의 아내가 소설에서 읽은 삶을 실제로 실행하려다 파산하는 과정을, 작가의 논평을 걷어내고 자유간접화법을 주된 수단으로 서술한다. 1856년 잡지 연재 직후 풍기문란으로 기소되었고 1857년 무죄 판결과 함께 단행본이 나오면서, 서술 방식 자체가 공적 쟁점이 된 사건이기도 하다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "gustave-flaubert--salammbo",
+      "titleKo": "살람보",
+      "titleOriginal": "Salammbô",
+      "year": 1862,
+      "genre": "fiction",
+      "significance": "기원전 3세기 카르타고의 용병 반란을 고고학·문헌 자료로 재구성한 역사소설. 동시대를 다루던 사실주의의 방법을 낯선 과거에 그대로 적용해, 사실주의가 소재가 아니라 방법임을 보여주었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "gustave-flaubert--l-education-sentimentale",
+      "titleKo": "감정 교육",
+      "titleOriginal": "L'Éducation sentimentale",
+      "year": 1869,
+      "genre": "fiction",
+      "significance": "1848년 혁명기의 파리를 배경으로 아무것도 이루지 못하는 청년의 20년을 기록한다. 성장소설의 관습을 뒤집어 주인공이 끝내 아무것도 배우지 못한 채 끝나는 구조를 택했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "gustave-flaubert--trois-contes",
+      "titleKo": "세 가지 이야기",
+      "titleOriginal": "Trois contes",
+      "year": 1877,
+      "genre": "fiction",
+      "significance": "19세기·고대·중세를 각각 배경으로 삼은 세 편의 중·단편 묶음. 한 하녀의 평생을 감정을 설명하지 않고 사물의 목록으로만 서술한 첫 편은 절제된 서술의 사례로 반복 인용된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "gustave-flaubert--bouvard-et-pecuchet",
+      "titleKo": "부바르와 페퀴셰",
+      "titleOriginal": "Bouvard et Pécuchet",
+      "year": 1881,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "은퇴한 두 필경사가 모든 학문을 차례로 시도했다가 실패하는 과정을 백과사전처럼 나열한다. 작가 사후 1881년에 미완인 채 출간되었고, 부록으로 계획된 상투어 사전과 함께 통념 자체를 서술 대상으로 삼은 실험이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--flaubert-correspondance"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--gustave-flaubert--mario-vargas-llosa",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "mario-vargas-llosa (마리오 바르가스 요사)",
+      "evidenceLevel": "documented",
+      "summary": "바르가스 요사는 『영원한 향연: 플로베르와 「보바리 부인」』(1975) 한 권을 플로베르에게 바쳤고, 자기 문학의 규율과 인내를 그로부터 배웠다고 노벨상 수상 강연에서 밝혔다.",
+      "sourceIds": [
+        "src--vargas-llosa-orgia-perpetua-1975",
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "influence--miguel-de-cervantes--gustave-flaubert",
+      "type": "documented_influence",
+      "from": "miguel-de-cervantes (미겔 데 세르반테스)",
+      "to": "gustave-flaubert (귀스타브 플로베르)",
+      "evidenceLevel": "documented",
+      "summary": "플로베르는 루이즈 콜레에게 보낸 서한에서 글을 읽을 줄 알기 전부터 외우고 있던 책으로 『돈키호테』를 꼽으며 자기 기원을 그 책에서 찾는다고 썼다.",
+      "sourceIds": [
+        "src--flaubert-correspondance"
+      ]
+    },
+    {
+      "id": "contrast--jean-paul-sartre--gustave-flaubert",
+      "type": "contrast",
+      "from": "jean-paul-sartre (장폴 사르트르)",
+      "to": "gustave-flaubert (귀스타브 플로베르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "「『레 탕 모데른』 창간사」(1945, 『Situations II』 수록)에서 사르트르는 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 '막기 위해 한 줄도 쓰지 않았다'고 썼고, 뒤에 『집안의 백치』(1971–72) 세 권을 그 플로베르 한 사람에게 바쳤다. 예술을 위해 물러난 작가와 참여하는 작가라는 두 상은 사르트르 연구가 한 쌍으로 다루는 대립항이다.",
+      "sourceIds": [
+        "src--sartre-quest-ce-que-la-litterature",
+        "src--sartre-idiot-de-la-famille"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--henry-james",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "henry-james (헨리 제임스)",
+      "evidenceLevel": "documented",
+      "summary": "제임스는 1875–76년 파리에 머물며 플로베르의 일요 모임에 드나들어 그를 직접 만났고, 『소설가론』(1914)에 실린 「귀스타브 플로베르」에서 그를 '소설가의 소설가'로 규정했다. 작가의 논평을 문장 밖으로 밀어내는 플로베르의 규율은 제임스가 뉴욕판 서문에서 시점 통제와 극화로 정식화한 것의 직접적 전사다.",
+      "anchors": [
+        {
+          "year": 1914
+        }
+      ],
+      "sourceIds": [
+        "src--james-notes-on-novelists-1914",
+        "src--james-ny-edition-prefaces"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--joseph-conrad",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "joseph-conrad (조지프 콘래드)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "콘래드가 프랑스 소설의 문장 규율 — 정확한 낱말과 서술자의 개입 억제 — 을 영어 산문으로 옮겨 왔다는 것은 콘래드 연구의 표준 서술이다. 1897년 소설 서문이 내건 '무엇보다 보게 하는 것'이라는 목표도 플로베르–모파상 계열의 관찰 규율 안에서 읽힌다. 다만 콘래드 본인이 플로베르를 스승으로 지목한 진술은 서한 안에서도 단편적이라 학계 정설 수준으로만 기록한다.",
+      "anchors": [
+        {
+          "year": 1897
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--franz-kafka",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "franz-kafka (프란츠 카프카)",
+      "evidenceLevel": "documented",
+      "summary": "같은 1913년 편지의 '진짜 혈족' 넷에 플로베르도 들어 있다. 카프카는 플로베르를 프랑스어로 읽었고 『감정 교육』을 특히 아꼈으며, 감정을 논평하지 않고 사태만 정확히 기록하는 문장을 자기 산문의 기준으로 삼았다.",
+      "anchors": [
+        {
+          "year": 1913
+        }
+      ],
+      "sourceIds": [
+        "src--kafka-letters-felice"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--james-joyce",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "james-joyce (제임스 조이스)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『젊은 예술가의 초상』 끝부분에서 예술가를 창조 뒤로 물러나 손톱을 다듬는 신에 비유한 대목은, 예술가는 창조 속의 신처럼 보이지 않으면서 어디에나 있어야 한다는 플로베르의 1852년 루이즈 콜레 앞 편지를 거의 그대로 옮긴 것이다. 조이스 연구는 이 계보를 자유간접화법의 전수 경로로 함께 다룬다.",
+      "anchors": [
+        {
+          "year": 1852
+        },
+        {
+          "workId": "james-joyce--a-portrait-of-the-artist-as-a-young-man"
+        }
+      ],
+      "sourceIds": [
+        "src--flaubert-correspondance",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--marcel-proust",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "marcel-proust (마르셀 프루스트)",
+      "evidenceLevel": "documented",
+      "summary": "프루스트는 1920년 1월 『NRF』에 「플로베르의 '문체'에 관하여」를 실어, 반과거와 단순과거의 교체와 접속사의 절약만으로 시간의 흐름 자체를 문법에 새긴 작가로 플로베르를 읽었다. 플로베르를 문체의 문제로 환원해 옹호한 이 글은 프루스트가 자기 문장의 원리를 설명한 가장 직접적인 문서이기도 하다.",
+      "anchors": [
+        {
+          "year": 1920
+        }
+      ],
+      "sourceIds": [
+        "src--proust-flaubert-style-1920"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--gertrude-stein",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "gertrude-stein (거트루드 스타인)",
+      "evidenceLevel": "documented",
+      "summary": "스타인은 『세 개의 삶』을 쓰기 시작할 무렵 플로베르의 『세 가지 이야기』를 번역 연습 삼아 옮기고 있었다고 『앨리스 B. 토클라스의 자서전』에 적었다. 그중 하녀의 생애를 감정의 논평 없이 기록하는 「소박한 마음」의 구도가 세 여자의 삶을 나란히 놓은 자기 첫 책의 구성으로 옮겨 갔다고 읽힌다.",
+      "anchors": [
+        {
+          "workId": "gertrude-stein--the-autobiography-of-alice-b-toklas"
+        }
+      ],
+      "sourceIds": [
+        "src--stein-autobiography-toklas"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--jorge-luis-borges",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 『토론』(1932)에 「부바르와 페퀴셰 옹호」와 「플로베르와 그의 모범적 운명」 두 편을 실어, 실패작으로 읽히던 플로베르의 마지막 소설을 모든 지식을 수집하려는 기획으로 다시 읽었다. 백과사전과 목록에 매달리다 좌초하는 인물이라는 보르헤스의 반복 소재가 이 독해에서 나온다.",
+      "anchors": [
+        {
+          "year": 1932
+        }
+      ],
+      "sourceIds": [
+        "src--borges-discusion-1932"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--georges-perec",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "georges-perec (조르주 페렉)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "페렉 연구는 데뷔작 『사물들』이 『감정 교육』의 결말 구조와 문장 리듬을 의도적으로 되풀이한다는 점을 표준적으로 다룬다. 인물의 내면 대신 소유물의 목록으로 사람을 서술하는 방법도 플로베르의 사물 묘사에서 끌어온 것으로 읽힌다.",
+      "anchors": [
+        {
+          "workId": "georges-perec--les-choses"
+        },
+        {
+          "workId": "gustave-flaubert--l-education-sentimentale"
+        }
+      ],
+      "sourceIds": [
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--vladimir-nabokov",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "vladimir-nabokov (블라디미르 나보코프)",
+      "evidenceLevel": "documented",
+      "summary": "나보코프는 코넬대 유럽 소설 강의에서 『마담 보바리』를 다루며 장면 전환과 대위법적 구성을 문장 단위로 분석했고, 그 강의는 사후 『Lectures on Literature』(1980)로 간행되었다.",
+      "anchors": [
+        {
+          "workId": "gustave-flaubert--madame-bovary"
+        },
+        {
+          "year": 1980
+        }
+      ],
+      "sourceIds": [
+        "src--nabokov-lectures-on-literature"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--ernest-hemingway",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "ernest-hemingway (어니스트 헤밍웨이)",
+      "evidenceLevel": "documented",
+      "summary": "헤밍웨이는 『파리 리뷰』 대담(1958)에서 자기 문학의 선행자를 열거하며 플로베르를 앞자리에 놓았다. 맞는 낱말 하나를 찾을 때까지 같은 문단을 다시 쓴다는 그의 작업 규율은 이 계보 안에서 설명된다.",
+      "anchors": [
+        {
+          "year": 1958
+        }
+      ],
+      "sourceIds": [
+        "src--paris-review"
+      ]
+    },
+    {
+      "id": "influence--gustave-flaubert--alain-robbe-grillet",
+      "type": "documented_influence",
+      "from": "gustave-flaubert (귀스타브 플로베르)",
+      "to": "alain-robbe-grillet (알랭 로브그리예)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "누보로망 연구는 이 계보의 출발점으로 플로베르가 1852년 서신에서 말한 '아무것도 아닌 것에 관한 책', 즉 주제가 아니라 문체로 지탱되는 소설이라는 구상을 놓는다. 인물과 플롯을 걷어내고 서술 자체를 소설의 내용으로 삼은 로브그리예의 강령은 그 구상의 극단이다.",
+      "anchors": [
+        {
+          "year": 1852
+        }
+      ],
+      "sourceIds": [
+        "src--flaubert-correspondance",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "dialogue--charles-baudelaire--gustave-flaubert (→ charles-baudelaire 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--flaubert-correspondance": {
+      "id": "src--flaubert-correspondance",
+      "title": "귀스타브 플로베르 서간집 (Correspondance)",
+      "publisherOrInstitution": "Éditions Gallimard, Bibliothèque de la Pléiade",
+      "citation": "1852년 루이즈 콜레 앞 서신에서 주제 없는 책이라는 소설관과 문장 단위의 작업 규율을 직접 진술한 1차 문헌"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--vargas-llosa-orgia-perpetua-1975": {
+      "id": "src--vargas-llosa-orgia-perpetua-1975",
+      "title": "La orgía perpetua: Flaubert y «Madame Bovary» (1975)",
+      "publisherOrInstitution": "Mario Vargas Llosa / Taurus",
+      "citation": "플로베르와 『보바리 부인』을 다룬 단행본 비평 — 플로베르 수용의 1차 근거"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--sartre-quest-ce-que-la-litterature": {
+      "id": "src--sartre-quest-ce-que-la-litterature",
+      "title": "Qu'est-ce que la littérature ?",
+      "publisherOrInstitution": "Jean-Paul Sartre, 『Situations II』 수록 (Gallimard, 1948)",
+      "citation": "참여문학론의 정본. 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목한 대목과, 생텍쥐페리·헤밍웨이 이후 '묘사'가 불가능해졌다고 쓴 대목이 함께 들어 있다"
+    },
+    "src--sartre-idiot-de-la-famille": {
+      "id": "src--sartre-idiot-de-la-famille",
+      "title": "L'Idiot de la famille : Gustave Flaubert de 1821 à 1857",
+      "publisherOrInstitution": "Jean-Paul Sartre, Gallimard (1971–1972)",
+      "citation": "플로베르 한 사람에게 바친 세 권 분량의 미완 연구 — 사르트르가 평생 붙들고 싸운 반대항의 기록"
+    },
+    "src--james-notes-on-novelists-1914": {
+      "id": "src--james-notes-on-novelists-1914",
+      "title": "Notes on Novelists, with Some Other Notes (1914)",
+      "publisherOrInstitution": "Charles Scribner's Sons — Henry James",
+      "citation": "「귀스타브 플로베르」(1902)와 「새로운 소설」(1914)이 함께 실린 평론집 — 제임스가 플로베르를 '소설가의 소설가'로 규정한 대목과 콘래드 『운명』의 화자 구조를 따진 대목의 1차 문헌"
+    },
+    "src--james-ny-edition-prefaces": {
+      "id": "src--james-ny-edition-prefaces",
+      "title": "뉴욕판 서문집 (Prefaces to the New York Edition, 1907–1909)",
+      "publisherOrInstitution": "Charles Scribner's Sons",
+      "citation": "시점·중심 의식·극화(dramatize) 개념을 헨리 제임스 본인이 정식화한 소설론 1차 문헌"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kafka-letters-felice": {
+      "id": "src--kafka-letters-felice",
+      "title": "펠리체 바우어에게 보낸 편지 (1913. 9.)",
+      "publisherOrInstitution": "Franz Kafka 서간집",
+      "citation": "그릴파르처·도스토옙스키·클라이스트·플로베르를 자신의 '진짜 혈족'으로 꼽은 편지 — 도스토옙스키 영향의 1차 근거"
+    },
+    "src--proust-flaubert-style-1920": {
+      "id": "src--proust-flaubert-style-1920",
+      "title": "「플로베르의 '문체'에 관하여」 (À propos du «style» de Flaubert, La Nouvelle Revue Française, 1920. 1.)",
+      "publisherOrInstitution": "La Nouvelle Revue Française (Gallimard)",
+      "citation": "알베르 티보데의 글에 답해 프루스트가 플로베르의 시제 운용과 접속사 절약을 분석한 에세이 — 프루스트가 자기 문체관을 가장 직접적으로 서술한 1차 문헌"
+    },
+    "src--stein-autobiography-toklas": {
+      "id": "src--stein-autobiography-toklas",
+      "title": "『The Autobiography of Alice B. Toklas』 (1933)",
+      "publisherOrInstitution": "Harcourt, Brace and Company",
+      "citation": "스타인이 동반자의 목소리를 빌려 쓴 회고 — 파리의 미국인 작가들과 헤밍웨이에 대한 스타인 자신의 서술"
+    },
+    "src--borges-discusion-1932": {
+      "id": "src--borges-discusion-1932",
+      "title": "『토론』 수록 「부바르와 페퀴셰 옹호」·「플로베르와 그의 모범적 운명」 (Discusión, 1932)",
+      "publisherOrInstitution": "Manuel Gleizer Editor, Buenos Aires",
+      "citation": "보르헤스가 플로베르의 마지막 소설을 백과사전적 기획으로 옹호한 두 편 — 플로베르 수용의 1차 문헌"
+    },
+    "src--nabokov-lectures-on-literature": {
+      "id": "src--nabokov-lectures-on-literature",
+      "title": "『Lectures on Literature』 (Fredson Bowers 편, 1980)",
+      "publisherOrInstitution": "Harcourt Brace Jovanovich",
+      "citation": "웰즐리·코넬대 강의 노트를 사후에 묶은 책 — 플로베르·조이스·프루스트·카프카에 대한 나보코프의 독서를 문장 단위로 보여주는 기록"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    }
+  }
+}

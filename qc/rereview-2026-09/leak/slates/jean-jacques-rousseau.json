@@ -1,0 +1,176 @@
+{
+  "id": "jean-jacques-rousseau",
+  "page": "https://literary-planet.pages.dev/authors/jean-jacques-rousseau/",
+  "author": {
+    "names": {
+      "ko": "장자크 루소",
+      "original": "Jean-Jacques Rousseau",
+      "aliases": []
+    },
+    "birthYear": 1712,
+    "deathYear": 1778,
+    "activeRange": [
+      1750,
+      1778
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "essay-criticism",
+      "fiction"
+    ],
+    "importanceReason": "정치의 정당성을 신이나 세습이 아니라 구성원들의 합의에 둔 『사회계약론』과, 자기 치부까지 적은 『고백록』을 함께 남겼다. 『고백록』은 미화를 포기한 자기 서술을 문학의 재료로 삼아, 자서전을 변명이 아니라 증거 제출의 형식으로 바꾸었다. 『쥘리』는 리처드슨을 읽은 흔적이 겹쳐진 서간체 소설로 다뤄지고, 편지 묶음 안에서 감정을 서술하는 그 방식이 유럽 각지에서 되풀이 읽히며 『젊은 베르테르의 슬픔』을 포함한 한 세대의 소설이 참조하는 본보기가 되었다.",
+    "readingEntry": "jean-jacques-rousseau--les-confessions",
+    "readingEntryReason": "『고백록』 1부(1~6권)는 서사가 있는 자기 서술이라 진입이 쉽고, 완독을 미루고 여기서 끊었다가 정치 저작으로 넘어가도 그 논증이 어떤 사람의 것인지가 함께 보인다.",
+    "readingOrder": [
+      "jean-jacques-rousseau--les-confessions",
+      "jean-jacques-rousseau--discours-sur-lorigine-de-linegalite",
+      "jean-jacques-rousseau--du-contrat-social",
+      "jean-jacques-rousseau--julie-ou-la-nouvelle-heloise",
+      "jean-jacques-rousseau--emile"
+    ],
+    "readingWarning": "『에밀』을 육아·교육 지침서로 기대하고 시작하면 4권 「사부아 보좌신부의 신앙 고백」에서 논지가 급선회해 중도에 놓기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 평이하지만 『사회계약론』은 일반의지·주권 같은 개념어가 짧은 장 안에 정의 없이 겹겹이 쌓인다. 『고백록』과 『쥘리』는 분량이 커서 완독에 지구력이 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "jean-jacques-rousseau--discours-sur-lorigine-de-linegalite",
+      "titleKo": "인간 불평등 기원론",
+      "titleOriginal": "Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+      "year": 1755,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "사유재산의 발생에서 불평등의 기원을 찾는 짧은 논고. 루소 정치사상의 전제이자 볼테르와의 논쟁을 촉발한 글이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "jean-jacques-rousseau--julie-ou-la-nouvelle-heloise",
+      "titleKo": "신엘로이즈",
+      "titleOriginal": "Julie, ou la Nouvelle Héloïse",
+      "year": 1761,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "가정교사와 귀족 여성의 사랑을 편지 묶음으로 서술한 대형 서간체 소설. 18세기 유럽 최대의 베스트셀러였고, 『포르투갈 수녀의 편지』(1669)와 『페르시아인의 편지』(1721)로 이어져 온 프랑스어 서간체 산문 위에 리처드슨을 읽은 흔적이 겹쳐진 작품으로 다뤄진다.",
+      "sourceIds": []
+    },
+    {
+      "id": "jean-jacques-rousseau--du-contrat-social",
+      "titleKo": "사회계약론",
+      "titleOriginal": "Du contrat social",
+      "year": 1762,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "정치적 정당성의 근거를 구성원들의 합의와 일반의지에 두고 주권의 양도 불가능성을 논증한다. 18세기 후반 혁명기의 어휘를 제공했다.",
+      "sourceIds": []
+    },
+    {
+      "id": "jean-jacques-rousseau--emile",
+      "titleKo": "에밀",
+      "titleOriginal": "Émile, ou De l'éducation",
+      "year": 1762,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "가공의 아이를 성인까지 기르는 서술로 교육론을 소설처럼 전개한다. 4권의 「사부아 보좌신부의 신앙 고백」 때문에 파리와 제네바에서 금서가 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "jean-jacques-rousseau--les-confessions",
+      "titleKo": "고백록",
+      "titleOriginal": "Les Confessions",
+      "year": 1782,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "미화를 포기하고 절도와 비겁까지 적은 자기 서술. 자서전을 해명이 아니라 증거 제출의 형식으로 다시 정의했으며 사후에 출간되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--voltaire--jean-jacques-rousseau",
+      "type": "dialogue",
+      "from": "voltaire (볼테르)",
+      "to": "jean-jacques-rousseau (장자크 루소)",
+      "evidenceLevel": "documented",
+      "summary": "루소는 「섭리에 관하여 볼테르 씨에게 보내는 편지」(1756)로 볼테르의 리스본 지진 시편에 반박했고, 이후 제네바와 연극을 둘러싼 공개 논쟁으로 적대가 이어졌다.",
+      "sourceIds": [
+        "src--rousseau-lettre-providence-1756",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "influence--jean-jacques-rousseau--johann-wolfgang-von-goethe",
+      "type": "documented_influence",
+      "from": "jean-jacques-rousseau (장자크 루소)",
+      "to": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "카를 해머의 『괴테와 루소』(1973)는 『젊은 베르테르의 슬픔』에 남은 루소 독서를 출발점으로 삼아, 괴테의 후기 작품까지 두 사람의 사유가 겹치는 지점을 장별로 추적한다. 1장 「문화적 배경」이 그 배경을 다룬다.",
+      "sourceIds": [
+        "src--hammer-goethe-rousseau-1973"
+      ]
+    },
+    {
+      "id": "influence--jean-jacques-rousseau--leo-tolstoy",
+      "type": "documented_influence",
+      "from": "jean-jacques-rousseau (장자크 루소)",
+      "to": "leo-tolstoy (레프 톨스토이)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "도나 터싱 오윈의 『톨스토이의 예술과 사상 1847–1880』은 1850년대 톨스토이의 초기 구상을, 문명이 만든 가치보다 자연적 도덕을 앞세우는 루소의 전제에서 끌어내고, 그 전제가 『코사크』와 『전쟁과 평화』를 쓰던 시기의 인물 구성까지 이어지는 경로를 다룬다.",
+      "sourceIds": [
+        "src--orwin-tolstoys-art-and-thought-1993"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--rousseau-lettre-providence-1756": {
+      "id": "src--rousseau-lettre-providence-1756",
+      "title": "루소 「섭리에 관하여 볼테르 씨에게 보내는 편지」(1756. 8. 18.)",
+      "publisherOrInstitution": "Correspondance de Jean-Jacques Rousseau",
+      "citation": "볼테르의 「리스본 재난에 대한 시」에 반박한 루소의 공개 서한 — 두 사람 논쟁의 1차 근거"
+    },
+    "src--hammer-goethe-rousseau-1973": {
+      "id": "src--hammer-goethe-rousseau-1973",
+      "title": "Goethe and Rousseau: Resonances of the Mind",
+      "publisherOrInstitution": "University Press of Kentucky",
+      "citation": "Carl Hammer Jr., Goethe and Rousseau: Resonances of the Mind, Lexington: University Press of Kentucky, 1973."
+    },
+    "src--orwin-tolstoys-art-and-thought-1993": {
+      "id": "src--orwin-tolstoys-art-and-thought-1993",
+      "title": "Tolstoy's Art and Thought, 1847–1880",
+      "publisherOrInstitution": "Princeton University Press",
+      "citation": "Donna Tussing Orwin, Tolstoy's Art and Thought, 1847–1880, Princeton: Princeton University Press, 1993."
+    }
+  }
+}

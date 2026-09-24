@@ -80,7 +80,7 @@ for (const [workId, list] of Object.entries(cands.found as Record<string, Raw[]>
   let pool = list.filter((c) => !translation || c.translator);
   if (translation && !pool.length && list.length) skippedNoTranslator++;
   pool = pool.filter((c) => !c.note); // 어린이·축약 표시가 붙은 것은 판정 없이 올리지 않는다
-  pool.sort((x, y) => Number(Boolean(y.pinned)) - Number(Boolean(x.pinned)) || Number(canon(LANG, y.publisher)) - Number(canon(LANG, x.publisher)) || Number(preferred(LANG, y.publisher)) - Number(preferred(LANG, x.publisher))
+  pool.sort((x, y) => Number(y.pinned ?? 0) - Number(x.pinned ?? 0) || Number(canon(LANG, y.publisher)) - Number(canon(LANG, x.publisher)) || Number(preferred(LANG, y.publisher)) - Number(preferred(LANG, x.publisher))
     || Number((y.status ?? "정상판매") === "정상판매") - Number((x.status ?? "정상판매") === "정상판매")
     || Number(y.exact) - Number(x.exact) || y.year - x.year);
   pools.set(workId, { w, a, pool, picked: [], seen: new Set() });

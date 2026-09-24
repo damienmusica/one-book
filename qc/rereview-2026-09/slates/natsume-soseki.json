@@ -1,0 +1,242 @@
+{
+  "id": "natsume-soseki",
+  "page": "https://literary-planet.pages.dev/authors/natsume-soseki/",
+  "author": {
+    "names": {
+      "ko": "나쓰메 소세키",
+      "original": "夏目漱石",
+      "aliases": [
+        "소세키",
+        "Natsume Sōseki",
+        "나쓰메 긴노스케",
+        "夏目金之助"
+      ]
+    },
+    "birthYear": 1867,
+    "deathYear": 1916,
+    "activeRange": [
+      1905,
+      1916
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "소세키는 한문 교양과 라쿠고의 구어 리듬을 동시에 쓸 수 있는 일본어 산문을 만들어, 언문일치가 이론이 아니라 실제로 소설을 지탱할 수 있음을 보였다. 사소설의 고백 대신 관계 안에서 작동하는 에고이즘을 사건으로 다루었고, 메이지가 수입한 근대가 개인에게 청구하는 대가를 삼각관계와 유산 문제 같은 구체적 사태로 번역했다. 1907년 대학을 떠나 아사히신문의 전속 작가가 되면서 신문 연재를 일본 문학의 중심 발표 형식으로 만들었고, 이후 작가가 저널리즘 안에서 직업으로 성립하는 경로를 열었다. 런던 유학의 실패 경험에서 나온 『문학론』은 영문학의 기준을 빌리지 않고 문학의 작동을 설명하려 한 최초의 체계적 시도였다.",
+    "readingEntry": "natsume-soseki--kokoro",
+    "readingEntryReason": "단권 분량에 3부 구성이 명료하고, 메이지의 종언과 개인의 죄의식이라는 소세키 후기의 문제가 한 권에 압축되어 있다.",
+    "readingOrder": [
+      "natsume-soseki--kokoro",
+      "natsume-soseki--botchan",
+      "natsume-soseki--sanshiro",
+      "natsume-soseki--sorekara",
+      "natsume-soseki--bungakuron"
+    ],
+    "readingWarning": "『나는 고양이로소이다』를 첫 책으로 고르면 메이지 지식인 사회의 내부 농담과 한문 전거에 기댄 풍자가 촘촘해, 주석 없이는 웃을 지점을 놓친 채 분량만 남는다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 평이한 구어체지만, 제국대학 학벌·집안의 유산·서양 유학이라는 메이지 특유의 제도가 인물의 선택을 결정하므로 그 배경 지식이 없으면 갈등이 사소해 보인다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--aozora-bunko",
+      "src--soseki-asahi-serialization",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "natsume-soseki--wagahai-wa-neko-de-aru",
+      "titleKo": "나는 고양이로소이다",
+      "titleOriginal": "吾輩は猫である",
+      "year": 1905,
+      "genre": "fiction",
+      "significance": "이름 없는 고양이를 화자로 세워 메이지 지식인 사회를 관찰하게 한 연재물로, 소세키의 문단 데뷔작이다. 한문 전거와 라쿠고의 구어 리듬을 한 문장 안에서 쓰는 그의 산문이 처음 완성된 형태로 나타난다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "natsume-soseki--botchan",
+      "titleKo": "도련님",
+      "titleOriginal": "坊っちゃん",
+      "year": 1906,
+      "genre": "fiction",
+      "significance": "지방 중학교에 부임한 도쿄 출신 교사의 좌충우돌을 속도감 있는 1인칭 구어로 서술한다. 소세키가 시코쿠에서 교사로 일한 경험이 바탕이며, 일본에서 가장 널리 읽힌 근대소설로 남았다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "natsume-soseki--bungakuron",
+      "titleKo": "문학론",
+      "titleOriginal": "文学論",
+      "year": 1907,
+      "genre": "essay-criticism",
+      "significance": "런던 유학기의 독서와 도쿄제국대학 강의를 정리한 이론서로, 문학의 작동을 (F+f)라는 인지·정서의 결합으로 설명하려 했다. 영문학의 평가 기준을 빌리지 않고 문학 일반의 원리를 세우려 한 시도라는 점에서 소세키 비평의 출발점이다.",
+      "sourceIds": [
+        "src--aozora-bunko",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "natsume-soseki--sanshiro",
+      "titleKo": "산시로",
+      "titleOriginal": "三四郎",
+      "year": 1908,
+      "genre": "fiction",
+      "significance": "규슈에서 상경한 대학 신입생이 도쿄의 학문과 연애와 계층을 차례로 통과하는 성장소설이며, 이른바 전기 3부작의 첫 권이다. 아사히신문 연재 소설이 문학의 중심 형식이 된 시기를 대표한다.",
+      "sourceIds": [
+        "src--soseki-asahi-serialization",
+        "src--aozora-bunko"
+      ]
+    },
+    {
+      "id": "natsume-soseki--sorekara",
+      "titleKo": "그 후",
+      "titleOriginal": "それから",
+      "year": 1909,
+      "genre": "fiction",
+      "significance": "일하지 않고 집안의 돈으로 사는 남자가 친구에게 양보했던 여자를 다시 선택하며 생계와 사회적 위치를 함께 잃는다. 개인의 윤리적 선택이 곧 경제적 파산이 되는 구조를 소세키가 가장 냉정하게 계산한 작품이다.",
+      "sourceIds": [
+        "src--soseki-asahi-serialization",
+        "src--aozora-bunko"
+      ]
+    },
+    {
+      "id": "natsume-soseki--kokoro",
+      "titleKo": "마음",
+      "titleOriginal": "こころ",
+      "year": 1914,
+      "genre": "fiction",
+      "significance": "청년의 회상과 '선생님'의 긴 유서를 이어 붙인 3부 구성으로, 친구를 배신한 기억을 평생 안고 산 한 사람의 계산을 뒤늦게 공개한다. 메이지 천황의 죽음과 노기 마레스케의 순사를 개인의 결심에 연결해, 한 시대의 종언을 사적인 죄의식으로 번역했다.",
+      "sourceIds": [
+        "src--soseki-asahi-serialization",
+        "src--aozora-bunko",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--jane-austen--natsume-soseki",
+      "type": "documented_influence",
+      "from": "jane-austen (제인 오스틴)",
+      "to": "natsume-soseki (나쓰메 소세키)",
+      "evidenceLevel": "documented",
+      "summary": "소세키는 『문학론』(1907)에서 『오만과 편견』 도입부의 부부 대화를 인용하며 오스틴을 사실 묘사의 대가로 논했다.",
+      "sourceIds": [
+        "src--ndl-bungakuron-1907"
+      ]
+    },
+    {
+      "id": "mentorship--natsume-soseki--ryunosuke-akutagawa",
+      "type": "mentorship",
+      "from": "natsume-soseki (나쓰메 소세키)",
+      "to": "ryunosuke-akutagawa (아쿠타가와 류노스케)",
+      "evidenceLevel": "documented",
+      "summary": "아쿠타가와는 1915년 말부터 소세키의 목요회에 드나들며 문하에 들었다. 1916년 2월 소세키는 「코」를 읽고, 이런 단편을 스무 편 남짓 더 쓰면 문단에 견줄 사람이 없을 것이라는 편지를 보냈다. 이 편지가 아쿠타가와의 등단을 사실상 결정했다.",
+      "anchors": [
+        {
+          "year": 1915
+        },
+        {
+          "workId": "ryunosuke-akutagawa--hana"
+        }
+      ],
+      "sourceIds": [
+        "src--soseki-letter-akutagawa-1916",
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "translation--natsume-soseki--lu-xun",
+      "type": "translation",
+      "from": "natsume-soseki (나쓰메 소세키)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 저우쭤런과 함께 엮은 『현대일본소설집』(1923)에 소세키의 단편을 직접 옮겨 실었고, 작가 해제에서 사건에 밀착하지 않는 소세키의 여유파(余裕派)적 태도를 중국 독자에게 소개했다.",
+      "anchors": [
+        {
+          "year": 1923
+        }
+      ],
+      "sourceIds": [
+        "src--xiandai-riben-xiaoshuo-ji-1923",
+        "src--lu-xun-quanji"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "affinity--machado-de-assis--natsume-soseki (→ machado-de-assis 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--aozora-bunko": {
+      "id": "src--aozora-bunko",
+      "title": "青空文庫 — 작품별 저본 서지 정보",
+      "publisherOrInstitution": "青空文庫",
+      "url": "https://www.aozora.gr.jp",
+      "citation": "일본 근대문학 공유저작물 텍스트의 초출 지면과 저본 판본을 작품마다 명시한 서지 — 발표 연도 확인용"
+    },
+    "src--soseki-asahi-serialization": {
+      "id": "src--soseki-asahi-serialization",
+      "title": "아사히신문 연재 소설 지면 (1907–1916)",
+      "publisherOrInstitution": "朝日新聞社",
+      "citation": "나쓰메 소세키가 1907년 대학 강사직을 그만두고 아사히신문사에 입사한 뒤 주요 장편을 전부 신문 연재로 발표한 사실의 1차 근거"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--ndl-bungakuron-1907": {
+      "id": "src--ndl-bungakuron-1907",
+      "title": "文学論 (夏目漱石, 大倉書店, 明治40년 5월) — 국립국회도서관 서지",
+      "publisherOrInstitution": "国立国会図書館",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I0000005022",
+      "citation": "초판 서지 — 『문학론』은 일본어 위키백과에 단독 항목이 없어 판본 근거를 국립국회도서관 서지에서 잡는다",
+      "accessedAt": "2026-08-27"
+    },
+    "src--soseki-letter-akutagawa-1916": {
+      "id": "src--soseki-letter-akutagawa-1916",
+      "title": "나쓰메 소세키가 아쿠타가와 류노스케에게 보낸 편지 (1916년 2월)",
+      "publisherOrInstitution": "『漱石全集』 서간 편",
+      "citation": "「코(鼻)」를 읽고 이런 단편을 스무 편 남짓 더 쓰면 문단에 견줄 사람이 없을 것이라고 격려한 편지 — 소세키 문하 입문과 사사 관계의 1차 근거. 발신 일자는 월까지만 기록한다."
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--xiandai-riben-xiaoshuo-ji-1923": {
+      "id": "src--xiandai-riben-xiaoshuo-ji-1923",
+      "title": "『현대일본소설집(現代日本小說集)』 (1923)",
+      "publisherOrInstitution": "上海 商務印書館",
+      "citation": "루쉰과 저우쭤런이 함께 엮은 일본 근대소설 중국어 선집 — 루쉰이 옮긴 나쓰메 소세키·아쿠타가와 류노스케 단편과 작가 해제가 실린 1차 판본"
+    },
+    "src--lu-xun-quanji": {
+      "id": "src--lu-xun-quanji",
+      "title": "『魯迅全集』 주석·연보",
+      "publisherOrInstitution": "人民文學出版社",
+      "citation": "루쉰 저작의 초출 지면·발표 연도·필명이 정리된 정본 전집의 주석과 연보"
+    }
+  }
+}

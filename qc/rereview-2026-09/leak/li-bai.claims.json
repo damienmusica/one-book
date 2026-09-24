@@ -1,0 +1,29 @@
+{
+  "id": "li-bai",
+  "claims": [
+    {
+      "field": "importanceReason",
+      "claim": "이백은 율시를 피하고 가행과 악부로 되돌아갔다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%9D%8E%E7%99%BD",
+      "quote": "李白擅長純樸自然的漢魏體古詩，而拙於刻鏤密麗的律詩 ... 李白也較為輕視律詩，「不屑束縛於格律對偶」",
+      "note": "같은 문서: 「於絕句與樂府歌行體成就尤大」, 「李白七律數量最少，現存只有十多首」. 다만 '율시가 지배하던 시대'라는 시대 규정 자체는 출처에 그대로 있지 않다."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "송대 이후 시학은 두보를 배워서 따를 수 있는 전범으로, 이백은 배워서 따를 수 없는 쪽에 놓았다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%9D%8E%E7%99%BD",
+      "quote": "陳師道評李白詩「無首無尾，不主故常，非墨工槧人所可擬議」",
+      "note": "두보 쪽 근거는 江西詩派 문서의 黃庭堅「無一字無來處」·「點鐵成金」 방법론과 方回《瀛奎律髓》의 '一祖三宗'(祖=杜甫). 다만 嚴羽는 두 사람의 우열을 강제로 나눌 수 없다고 했다(「子美不能為太白之飄逸，太白不能為子美之沉鬱」)."
+    },
+    {
+      "field": "relations[li-bai→du-fu].summary",
+      "claim": "두 사람은 744년 낙양에서 만났다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%8E%E7%99%BD",
+      "quote": "長安を去った李白は、744年に洛陽で杜甫と出会って意気投合し",
+      "note": "영어 위키백과 Du Fu도 \"In the autumn of 744, he met Li Bai for the first time\"로 연도를 확인. 다만 중국어 위키백과 李白은 만난 곳을 汴州·宋州 일대로 두고 낙양을 「一說」로 처리한다."
+    }
+  ]
+}

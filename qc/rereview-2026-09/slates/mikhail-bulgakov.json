@@ -1,0 +1,185 @@
+{
+  "id": "mikhail-bulgakov",
+  "page": "https://literary-planet.pages.dev/authors/mikhail-bulgakov/",
+  "author": {
+    "names": {
+      "ko": "미하일 불가코프",
+      "original": "Михаил Булгаков",
+      "aliases": [
+        "불가코프",
+        "Mikhail Bulgakov",
+        "Михаил Афанасьевич Булгаков"
+      ]
+    },
+    "birthYear": 1891,
+    "deathYear": 1940,
+    "activeRange": [
+      1921,
+      1940
+    ],
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "importanceReason": "악마 일행이 모스크바에 도착하는 환상 서사와 본디오 빌라도의 예루살렘 서사를 한 소설 안에서 교차시켜, 검열 사회의 일상을 사실주의 바깥의 문법으로 기록했다. 고골에서 이어지는 러시아 풍자를 주택난·문학 관료제·비밀경찰이라는 동시대의 구체적 표적에 겨누었고, 의사로 훈련받은 건조한 관찰을 환상 장면의 서술 톤으로 삼았다. 생전에 대부분 출판되지 못한 원고가 1960년대에 공간되면서 소련 후기 문학의 계보가 그를 소급해 자기 선행자로 포함하게 되었다.",
+    "readingEntry": "mikhail-bulgakov--sobache-serdtse",
+    "readingEntryReason": "100쪽 남짓한 중편이고 개가 사람이 되는 설정이 첫 장면부터 웃음을 만들어, 불가코프의 방법 — 환상적 전제에 의료 기록 같은 건조한 문장 — 을 가장 짧게 겪을 수 있다.",
+    "readingOrder": [
+      "mikhail-bulgakov--sobache-serdtse",
+      "mikhail-bulgakov--master-i-margarita",
+      "mikhail-bulgakov--belaya-gvardiya"
+    ],
+    "readingWarning": "『백위군』부터 읽으면 1918년 키이우에서 정권이 바뀌는 순서를 모른 채 인물이 쏟아져 초반에 길을 잃는다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 빠르고 유머는 즉각적이지만 풍자의 표적이 1930년대 모스크바의 제도라 배경 없이는 과녁이 보이지 않고, 『거장과 마르가리타』는 두 시대의 서사가 교차해 양쪽을 동시에 붙들어야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--bulgakov-letter-1930",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "mikhail-bulgakov--zapiski-yunogo-vracha",
+      "titleKo": "젊은 의사의 수기",
+      "titleOriginal": "Записки юного врача",
+      "year": 1925,
+      "genre": "fiction",
+      "significance": "1916–18년 시골 병원에 부임했던 자신의 경험을 바탕으로 한 연작 단편. 1925–27년 의학 잡지 등에 나뉘어 실렸고, 의료 기록 같은 건조한 문장이 그의 서술 톤의 출발점이 된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "mikhail-bulgakov--belaya-gvardiya",
+      "titleKo": "백위군",
+      "titleOriginal": "Белая гвардия",
+      "year": 1925,
+      "genre": "fiction",
+      "significance": "1918년 키이우에서 정권이 여러 차례 바뀌는 겨울을 한 가족의 집 안에서 바라본 장편. 1925년 잡지 《러시아》에 분재되다 중단되었고 완간본은 뒤에 국외에서 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "mikhail-bulgakov--dni-turbinykh",
+      "titleKo": "투르빈가의 나날",
+      "titleOriginal": "Дни Турбиных",
+      "year": 1926,
+      "genre": "drama",
+      "significance": "『백위군』을 모스크바예술극장 무대로 옮긴 희곡. 백군 장교들을 인간으로 그렸다는 이유로 공격받으면서도 상연이 이어진, 그의 생전에 무대에서 지속된 거의 유일한 성공작이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--bulgakov-letter-1930"
+      ]
+    },
+    {
+      "id": "mikhail-bulgakov--master-i-margarita",
+      "titleKo": "거장과 마르가리타",
+      "titleOriginal": "Мастер и Маргарита",
+      "year": 1966,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "1928년부터 죽을 때까지 고쳐 쓴 장편으로, 악마 일행의 모스크바 방문과 본디오 빌라도의 예루살렘이 교차한다. 1966년 11월과 1967년 1월 잡지 《모스크바》에 검열본으로 나뉘어 실린 사후 출간이며, 무삭제판은 1973년에야 소련에서 나왔다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "mikhail-bulgakov--sobache-serdtse",
+      "titleKo": "개의 심장",
+      "titleOriginal": "Собачье сердце",
+      "year": 1968,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "떠돌이 개에게 사람의 장기를 이식하는 실험으로 새 인간 만들기를 풍자한 중편. 1925년에 썼으나 출판이 막혔고, 러시아어 초판은 1968년 국외에서, 소련 내 공간은 1987년에 이루어진 사후 출간이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--mikhail-bulgakov--chinghiz-aitmatov",
+      "type": "documented_influence",
+      "from": "mikhail-bulgakov (미하일 불가코프)",
+      "to": "chinghiz-aitmatov (칭기즈 아이트마토프)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『단두대』(1986)에 삽입된 그리스도-빌라도 대면 장면을 두고, 소비에트 후기 문학의 '빌라도 주제'를 다루는 슬라브 문학 연구는 이 소설을 『거장과 마르가리타』 이후 그 주제를 이어받은 사례로 기술한다(마거릿 지올코프스키, 「최근 러시아 문학의 빌라도와 빌라도주의」, 1992). 작가 자신의 진술이 아니라 연구 전통이 세운 계보다.",
+      "sourceIds": [
+        "src--ziolkowski-pilate-and-pilatism-1992"
+      ]
+    },
+    {
+      "id": "influence--mikhail-bulgakov--salman-rushdie",
+      "type": "documented_influence",
+      "from": "mikhail-bulgakov (미하일 불가코프)",
+      "to": "salman-rushdie (살만 루슈디)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『악마의 시』를 다루는 연구는 악마가 대도시에 도착해 질서를 뒤집고 그와 나란히 종교 창시의 장면이 액자로 삽입되는 구성을 『거장과 마르가리타』와 반복해 대응시킨다. 두 소설이 모두 신성모독 시비 속에서 유통이 막힌 이력도 함께 거론된다.",
+      "anchors": [
+        {
+          "workId": "salman-rushdie--the-satanic-verses"
+        },
+        {
+          "workId": "mikhail-bulgakov--master-i-margarita"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--fyodor-dostoevsky--mikhail-bulgakov (→ fyodor-dostoevsky 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--bulgakov-letter-1930": {
+      "id": "src--bulgakov-letter-1930",
+      "title": "소련 정부에 보낸 편지 (1930. 3. 28.)",
+      "publisherOrInstitution": "미하일 불가코프 서한 — 러시아어 서한집 수록",
+      "citation": "작품의 상연·출판이 전면 금지된 상태에서 출국 허가 또는 극장 일자리를 요청한 문서. 1930년 4월 스탈린의 전화 통화로 이어진 1차 자료"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--ziolkowski-pilate-and-pilatism-1992": {
+      "id": "src--ziolkowski-pilate-and-pilatism-1992",
+      "title": "Pilate and Pilatism in Recent Russian Literature",
+      "publisherOrInstitution": "Palgrave Macmillan",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-349-22331-2_10",
+      "citation": "마거릿 지올코프스키의 논문, S. D. 그레이엄 편 『New Directions in Soviet Literature』(1992) 수록 — 소비에트 후기 문학의 '빌라도 주제' 계보에서 아이트마토프의 『단두대』를 불가코프 이후의 사례로 다룬다"
+    }
+  }
+}

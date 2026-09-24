@@ -1,0 +1,189 @@
+{
+  "id": "plato",
+  "page": "https://literary-planet.pages.dev/authors/plato/",
+  "author": {
+    "names": {
+      "ko": "플라톤",
+      "original": "Πλάτων",
+      "aliases": []
+    },
+    "birthYear": -428,
+    "deathYear": -348,
+    "activeRange": [
+      -399,
+      -348
+    ],
+    "languages": [
+      "grc"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "essay-criticism"
+    ],
+    "importanceReason": "철학을 논문이 아니라 인물들이 부딪치는 대화로 씀으로써 결론보다 묻는 과정을 문장에 남겼고, 스승의 재판과 죽음을 기록해 사유가 도시와 충돌하는 장면을 하나의 서사로 만들었다. 대화편은 논증과 희극적 장면과 신화(동굴, 영혼의 마차)를 한 편 안에 섞어 놓아 철학 저술이 문학 형식을 빌리는 표본이 되었고, 『국가』 10권의 시인 추방론은 시드니의 『시의 옹호』를 비롯한 후대의 시 옹호론이 반박하는 상대로 남았다.",
+    "readingEntry": "plato--apologia-sokratous",
+    "readingEntryReason": "스테파누스 쪽수로 17a–42a, 변론 한 편으로 끝나는 글이라 논증이 끊기지 않는 한 줄기로 이어지고, 이후 대화편들이 되돌아가는 인물 소크라테스가 어떤 자리에 서 있었는지를 법정 장면이 먼저 보여 준다.",
+    "readingOrder": [
+      "plato--apologia-sokratous",
+      "plato--symposion",
+      "plato--phaidros",
+      "plato--politeia"
+    ],
+    "readingWarning": "『국가』부터 시작하면 1권의 트라시마코스 논쟁 뒤로 이상 국가 설계와 선분·동굴 비유가 이어지며 논의가 열 권에 걸쳐 누적되어, 앞선 대화편에서 다뤄진 전제를 모르는 채 따라가기 어렵다.",
+    "difficulty": 3,
+    "difficultyReason": "대화체라 문장은 읽히지만 논증이 되짚고 물러서기를 반복하고, 이데아론·상기설 같은 개념이 여러 대화편에 흩어져 있어 한 편만으로는 논의가 닫히지 않는다. 소크라테스가 상대를 몰아가는 대목에서는 전제의 이동을 놓치기 쉽다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "plato--phaidros",
+      "titleKo": "파이드로스",
+      "titleOriginal": "Φαῖδρος",
+      "year": -370,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "성 밖 냇가에서 사랑과 수사를 두고 나누는 대화. 영혼을 두 마리 말과 마부에 빗댄 신화와, 글쓰기가 기억을 대신하면서 잃는 것을 논한 마지막 대목이 문학 이론의 오래된 참조점이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "plato--apologia-sokratous",
+      "titleKo": "소크라테스의 변명",
+      "titleOriginal": "Ἀπολογία Σωκράτους",
+      "year": -399,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "기원전 399년 재판정에 선 소크라테스의 변론을 한 편의 연설로 옮긴 글. 죽음보다 캐묻기를 그만두는 쪽이 더 나쁘다는 주장을 법정이라는 장면 안에 세운다.",
+      "sourceIds": []
+    },
+    {
+      "id": "plato--politeia",
+      "titleKo": "국가",
+      "titleOriginal": "Πολιτεία",
+      "year": -375,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "정의란 무엇인가라는 물음에서 출발해 이상 국가의 설계, 선분과 동굴의 비유, 시인 추방론까지 열 권으로 이어진다. 문학을 모방의 모방으로 규정한 10권은 이후 시 옹호론이 반박해야 할 상대가 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "plato--symposion",
+      "titleKo": "향연",
+      "titleOriginal": "Συμπόσιον",
+      "year": -385,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "술자리 참석자들이 에로스를 두고 차례로 연설하고, 마지막에 취한 알키비아데스가 들이닥쳐 소크라테스를 향한 사랑을 고백한다. 논증과 희극적 장면이 한 편 안에서 맞물리는 대화편.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "mentorship--plato--aristotle",
+      "type": "mentorship",
+      "from": "plato (플라톤)",
+      "to": "aristotle (아리스토텔레스)",
+      "evidenceLevel": "documented",
+      "summary": "아리스토텔레스는 열일곱 살에 아카데메이아에 들어가 플라톤이 죽을 때까지 스무 해를 머물렀고, 『니코마코스 윤리학』 1권 6장(1096a11–17)에서 '이데아를 도입한 친구들'이라 에둘러 부르며 그 이데아론을 비판해 자기 방법을 갈라 세웠다.",
+      "sourceIds": [
+        "src--aristotle-ethica-nicomachea-oct",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "contrast--plato--friedrich-nietzsche",
+      "type": "contrast",
+      "from": "plato (플라톤)",
+      "to": "friedrich-nietzsche (프리드리히 니체)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "니체는 『선악의 저편』(1886) 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 부르며 플라톤이 세운 이데아의 위계를 뒤집는 일을 자기 과제로 삼았고, 하이데거의 『니체』(1961)가 니체의 저작 전체를 '뒤집힌 플라톤주의'의 전개로 읽는 독법을 정식화했다.",
+      "sourceIds": [
+        "src--nietzsche-colli-montinari",
+        "src--heidegger-nietzsche-1961"
+      ]
+    },
+    {
+      "id": "influence--plato--jorge-luis-borges",
+      "type": "documented_influence",
+      "from": "plato (플라톤)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 에세이집 『영원의 역사』(부에노스아이레스, 1936)의 표제 에세이 「영원의 역사」에서 플라톤의 원형 개념을 출발점으로 삼아 영원 관념의 계보를 다시 서술했다.",
+      "sourceIds": [
+        "src--borges-historia-de-la-eternidad-1936-titular"
+      ]
+    },
+    {
+      "id": "influence--plato--cicero",
+      "type": "documented_influence",
+      "from": "plato (플라톤)",
+      "to": "cicero (키케로)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "키케로는 『국가론』을 플라톤의 『국가』에 맞세우는 대화편으로 구상하고 본문에서 그 모델을 밝히며, 『법률론』도 플라톤의 『법률』의 배치를 따라 이어 썼다.",
+      "sourceIds": [
+        "src--schofield-cicero-political-philosophy-2021"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--aristotle-ethica-nicomachea-oct": {
+      "id": "src--aristotle-ethica-nicomachea-oct",
+      "title": "Aristotelis Ethica Nicomachea (『니코마코스 윤리학』) 1권 6장 1096a11–17",
+      "publisherOrInstitution": "Oxford University Press (Oxford Classical Texts, I. Bywater 편)",
+      "citation": "아리스토텔레스가 '이데아를 도입한 친구들'을 거론하며 이데아론을 비판하는 대목 — 플라톤 비판의 1차 문헌"
+    },
+    "src--nietzsche-colli-montinari": {
+      "id": "src--nietzsche-colli-montinari",
+      "title": "니체 전집 비판정본 (Kritische Gesamtausgabe / Kritische Studienausgabe, Colli·Montinari 편)",
+      "publisherOrInstitution": "Walter de Gruyter",
+      "citation": "출간본과 유고의 구분, 『권력에의 의지』가 사후 편집물이라는 사실 등 니체 텍스트의 서지 확인용 학술 정본"
+    },
+    "src--heidegger-nietzsche-1961": {
+      "id": "src--heidegger-nietzsche-1961",
+      "title": "Nietzsche (전 2권)",
+      "publisherOrInstitution": "Verlag Günther Neske, Pfullingen",
+      "citation": "Martin Heidegger, Nietzsche, 2 Bde. (Pfullingen: Neske, 1961) — 니체의 저작을 뒤집힌 플라톤주의로 읽는 독법을 정식화한 연구"
+    },
+    "src--borges-historia-de-la-eternidad-1936-titular": {
+      "id": "src--borges-historia-de-la-eternidad-1936-titular",
+      "title": "『영원의 역사』 수록 표제 에세이 「영원의 역사」 (Historia de la eternidad, 1936)",
+      "publisherOrInstitution": "Editorial Viau y Zona, Buenos Aires",
+      "citation": "플라톤의 원형 개념에서 출발해 영원 관념의 계보를 다시 서술한 보르헤스의 에세이 — 플라톤 수용의 1차 문헌"
+    },
+    "src--schofield-cicero-political-philosophy-2021": {
+      "id": "src--schofield-cicero-political-philosophy-2021",
+      "title": "Cicero: Political Philosophy",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "Malcolm Schofield, Cicero: Political Philosophy, Founders of Modern Political and Social Thought (Oxford: Oxford University Press, 2021), ISBN 9780199684915"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "federico-garcia-lorca",
+  "page": "https://literary-planet.pages.dev/authors/federico-garcia-lorca/",
+  "author": {
+    "names": {
+      "ko": "페데리코 가르시아 로르카",
+      "original": "Federico García Lorca",
+      "aliases": [
+        "로르카",
+        "가르시아 로르카",
+        "Lorca"
+      ]
+    },
+    "birthYear": 1898,
+    "deathYear": 1936,
+    "activeRange": [
+      1918,
+      1936
+    ],
+    "languages": [
+      "es"
+    ],
+    "regions": [
+      "iberia"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "drama"
+    ],
+    "importanceReason": "안달루시아 민요와 집시 발라드의 운율을 아방가르드 이미지와 결합해, 구전 형식이 현대시의 형식으로 작동할 수 있음을 보였다. 후기 3부작 『피의 결혼』·『예르마』·『베르나르다 알바의 집』에서는 스페인 농촌의 명예와 억압된 욕망을 시적 대사와 합창적 장면으로 무대화해 근대 비극의 형태를 다시 짰다. 순회극단 라 바라카를 이끌고 고전극을 농촌 마을로 가져가 연극을 공공 사업으로 실천했다. 1936년 8월 내전 발발 직후 그라나다 인근에서 국민파 세력에 의해 피살되었고, 유해는 확인되지 않았다.",
+    "readingEntry": "federico-garcia-lorca--bodas-de-sangre",
+    "readingEntryReason": "3막 분량이 짧고 줄거리가 단순한 치정 비극이라 바로 읽히면서도, 후반부에 달과 죽음이 인물로 등장하는 전환에서 그의 시가 무대에서 어떻게 작동하는지 드러난다.",
+    "readingOrder": [
+      "federico-garcia-lorca--bodas-de-sangre",
+      "federico-garcia-lorca--la-casa-de-bernarda-alba",
+      "federico-garcia-lorca--romancero-gitano",
+      "federico-garcia-lorca--poeta-en-nueva-york"
+    ],
+    "readingWarning": "『뉴욕의 시인』부터 시작하면 초현실주의적 병치가 번역에서 이미지의 연결을 특히 잃어, 로르카를 난해한 시인으로만 기억하게 되기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "희곡은 줄거리가 명확해 바로 읽히지만, 시는 안달루시아 민요와 집시·투우의 관습적 이미지를 전제하고 있어 그 코드를 모르면 은유가 장식으로만 보인다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--fundacion-lorca",
+      "src--lorca-duende-lecture",
+      "src--poetry-foundation",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "federico-garcia-lorca--romancero-gitano",
+      "titleKo": "집시 로만세",
+      "titleOriginal": "Primer romancero gitano",
+      "year": 1928,
+      "genre": "poetry",
+      "significance": "안달루시아의 집시를 소재로 한 열여덟 편의 로만세 연작. 구전 발라드의 8음절 운율에 아방가르드 은유를 얹어 그를 스페인에서 가장 널리 읽히는 시인으로 만들었다.",
+      "sourceIds": [
+        "src--poetry-foundation",
+        "src--fundacion-lorca",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "federico-garcia-lorca--bodas-de-sangre",
+      "titleKo": "피의 결혼",
+      "titleOriginal": "Bodas de sangre",
+      "year": 1933,
+      "genre": "drama",
+      "significance": "결혼식 날 신부가 옛 연인과 달아나며 시작되는 비극. 실제 사건에서 출발했고, 후반부에 달과 죽음이 인물로 등장해 산문 무대를 시로 전환시킨다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--fundacion-lorca",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "federico-garcia-lorca--yerma",
+      "titleKo": "예르마",
+      "titleOriginal": "Yerma",
+      "year": 1934,
+      "genre": "drama",
+      "significance": "아이를 갖지 못한 농촌 여성이 명예와 소문의 규율 안에서 파국에 이르는 과정. 후기 3부작 가운데 합창과 의식 장면의 비중이 가장 크다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--fundacion-lorca"
+      ]
+    },
+    {
+      "id": "federico-garcia-lorca--poeta-en-nueva-york",
+      "titleKo": "뉴욕의 시인",
+      "titleOriginal": "Poeta en Nueva York",
+      "year": 1940,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "1929–30년 뉴욕 체류 중에 쓴 시들로, 민요적 운율을 버리고 대공황기 도시의 이미지를 초현실주의적 병치로 다룬다. 시인 사후인 1940년에야 출간되었다.",
+      "sourceIds": [
+        "src--poetry-foundation",
+        "src--fundacion-lorca"
+      ]
+    },
+    {
+      "id": "federico-garcia-lorca--la-casa-de-bernarda-alba",
+      "titleKo": "베르나르다 알바의 집",
+      "titleOriginal": "La casa de Bernarda Alba",
+      "year": 1945,
+      "yearBasis": "first-print",
+      "genre": "drama",
+      "significance": "상중의 어머니가 다섯 딸을 집 안에 가두는 8년의 애도 규율에서 시작되는 비극. 1936년 6월에 탈고했고 초연은 사후인 1945년 부에노스아이레스에서 이루어졌다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--fundacion-lorca",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--federico-garcia-lorca--pablo-neruda",
+      "type": "dialogue",
+      "from": "federico-garcia-lorca (페데리코 가르시아 로르카)",
+      "to": "pablo-neruda (파블로 네루다)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 1933년 부에노스아이레스에서 만나 PEN 클럽 만찬에서 루벤 다리오를 기리는 '알리몬 연설'을 한 문장씩 번갈아 낭독했다. 네루다는 『지상의 거처』 연작에 「페데리코 가르시아 로르카에게 바치는 송가」를 실었고, 1936년 로르카가 살해된 뒤에는 『가슴속의 스페인』으로 응답했다.",
+      "anchors": [
+        {
+          "year": 1933
+        },
+        {
+          "workId": "pablo-neruda--residencia-en-la-tierra"
+        },
+        {
+          "year": 1936
+        },
+        {
+          "workId": "pablo-neruda--espana-en-el-corazon"
+        }
+      ],
+      "sourceIds": [
+        "src--discurso-al-alimon-1933",
+        "src--neruda-confieso-que-he-vivido"
+      ]
+    },
+    {
+      "id": "translation--federico-garcia-lorca--marina-tsvetaeva",
+      "type": "translation",
+      "from": "federico-garcia-lorca (페데리코 가르시아 로르카)",
+      "to": "marina-tsvetaeva (마리나 츠베타예바)",
+      "evidenceLevel": "documented",
+      "summary": "1939년 소련으로 돌아온 뒤 츠베타예바가 맡은 마지막 작업 가운데 로르카의 시편 러시아어역이 있다. 1941년 그의 죽음으로 중단된 이 번역은, 스페인 내전 이후 로르카가 소비에트 지면에 소개되던 경로 위에 놓인다.",
+      "anchors": [
+        {
+          "year": 1939
+        },
+        {
+          "year": 1941
+        }
+      ],
+      "sourceIds": [
+        "src--tsvetaeva-lorca-translations-1941"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--walt-whitman--federico-garcia-lorca (→ walt-whitman 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--fundacion-lorca": {
+      "id": "src--fundacion-lorca",
+      "title": "Fundación Federico García Lorca 연보·소장 자료 안내",
+      "publisherOrInstitution": "Centro Federico García Lorca (Granada)",
+      "citation": "로르카의 연보·원고·라 바라카 활동 자료를 관리하는 기관의 자료"
+    },
+    "src--lorca-duende-lecture": {
+      "id": "src--lorca-duende-lecture",
+      "title": "「유희와 두엔데의 이론」 강연 (1933, 부에노스아이레스)",
+      "publisherOrInstitution": "페데리코 가르시아 로르카 강연록",
+      "citation": "두엔데 개념을 정식화한 강연 — 로르카 시학의 1차 자료"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--discurso-al-alimon-1933": {
+      "id": "src--discurso-al-alimon-1933",
+      "title": "로르카와 네루다의 '알리몬 연설' — 루벤 다리오를 기리는 공동 연설 (부에노스아이레스 PEN 클럽, 1933)",
+      "publisherOrInstitution": "PEN Club de Buenos Aires",
+      "citation": "두 시인이 한 문장씩 번갈아 낭독한 연설 기록 — 교류의 1차 문헌"
+    },
+    "src--neruda-confieso-que-he-vivido": {
+      "id": "src--neruda-confieso-que-he-vivido",
+      "title": "『내가 살았음을 고백한다』 (Confieso que he vivido: Memorias, 1974, 사후 출간)",
+      "publisherOrInstitution": "Editorial Seix Barral",
+      "citation": "네루다가 휘트먼·바예호·로르카와의 관계를 직접 서술한 회고록 — 독서와 교류의 1차 진술"
+    },
+    "src--tsvetaeva-lorca-translations-1941": {
+      "id": "src--tsvetaeva-lorca-translations-1941",
+      "title": "페데리코 가르시아 로르카 시편의 러시아어역 — 마리나 츠베타예바 역 (1940–1941)",
+      "publisherOrInstitution": "츠베타예바 번역 시편",
+      "citation": "1941년 그의 죽음으로 중단된 마지막 번역 작업 가운데 하나 — 옮긴 시편의 목록과 발표 지면은 확인이 필요하다."
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "wg-sebald",
+  "page": "https://literary-planet.pages.dev/authors/wg-sebald/",
+  "author": {
+    "names": {
+      "ko": "W. G. 제발트",
+      "original": "W. G. Sebald",
+      "aliases": [
+        "빈프리트 게오르크 제발트",
+        "제발트",
+        "Winfried Georg Sebald",
+        "Max Sebald"
+      ]
+    },
+    "birthYear": 1944,
+    "deathYear": 2001,
+    "activeRange": [
+      1988,
+      2001
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe",
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "산문에 출처와 설명을 붙이지 않은 흑백 사진을 끼워 넣고, 여행기·전기·에세이·허구의 경계를 지운 서술 형식을 만들었다. 문단과 장 구분을 최소화한 긴 문장으로 화자가 남에게 들은 이야기를 다시 옮기는 이중·삼중의 전달 구조를 써서, 20세기 유럽의 파괴와 이산을 직접 재현하지 않고 흔적과 우회로만으로 서술했다. 사진을 증거가 아니라 기억의 불확실성을 드러내는 장치로 사용한 이 방식은 이후 여러 언어권에서 반복되는 산문 계보가 되었다.",
+    "readingEntry": "wg-sebald--die-ausgewanderten",
+    "readingEntryReason": "네 사람의 생애를 각각 독립된 이야기로 다루어 분량이 나뉘어 있고, 사진과 산문이 함께 작동하는 방식을 가장 또렷하게 보여준다.",
+    "readingOrder": [
+      "wg-sebald--die-ausgewanderten",
+      "wg-sebald--die-ringe-des-saturn",
+      "wg-sebald--austerlitz",
+      "wg-sebald--schwindel-gefuehle"
+    ],
+    "readingWarning": "『현기증. 감정들』로 시작하면 화자의 이동과 인용된 타인의 여정이 예고 없이 겹쳐서, 제발트의 서술이 원래 이렇게 방향을 잃게 만드는 것인지 판단할 기준이 없는 채로 읽게 된다.",
+    "difficulty": 4,
+    "difficultyReason": "한 문장이 한 쪽을 넘기기도 하고 장 구분과 대화 표시가 거의 없어 화자가 누구인지 계속 재확인해야 하며, 사건이 진전되는 대신 연상과 여담으로 이동하는 구조를 견뎌야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--sebald-emergence-of-memory",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "wg-sebald--schwindel-gefuehle",
+      "titleKo": "현기증. 감정들",
+      "titleOriginal": "Schwindel. Gefühle.",
+      "year": 1990,
+      "genre": "fiction",
+      "significance": "스탕달과 카프카의 여행 기록에 화자 자신의 북이탈리아 여정을 겹쳐 놓아, 남의 생애와 자기 이동을 구분하지 않는 서술을 처음으로 시험한 산문이다. 이후 세 권의 방법이 여기서 시작된다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "wg-sebald--die-ausgewanderten",
+      "titleKo": "이민자들",
+      "titleOriginal": "Die Ausgewanderten",
+      "year": 1992,
+      "genre": "fiction",
+      "significance": "독일을 떠난 네 사람의 생애를 각각 독립된 이야기로 재구성하면서, 화자가 유족과 일기와 사진을 거쳐 간접적으로만 접근하게 만든다. 제발트의 이름을 독일어권 바깥에 알린 작품이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--sebald-emergence-of-memory"
+      ]
+    },
+    {
+      "id": "wg-sebald--die-ringe-des-saturn",
+      "titleKo": "토성의 고리",
+      "titleOriginal": "Die Ringe des Saturn",
+      "year": 1995,
+      "genre": "fiction",
+      "significance": "잉글랜드 서퍽 해안의 도보 여행을 뼈대로 삼아 누에 산업, 청어잡이, 식민지 폭력, 문인들의 생애로 계속 옆길로 새는 산문이다. 여행기와 에세이와 소설의 구분을 실질적으로 무효화했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "wg-sebald--luftkrieg-und-literatur",
+      "titleKo": "공중전과 문학",
+      "titleOriginal": "Luftkrieg und Literatur",
+      "year": 1999,
+      "genre": "essay-criticism",
+      "significance": "취리히 강연을 토대로, 독일 도시들에 대한 연합군 공습의 경험이 전후 독일 문학에서 서술되지 않은 채 남았다고 주장한 비평서다. 발표 당시 독일에서 큰 반론을 불렀다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "wg-sebald--austerlitz",
+      "titleKo": "아우스터리츠",
+      "titleOriginal": "Austerlitz",
+      "year": 2001,
+      "genre": "fiction",
+      "significance": "어린 시절 킨더트란스포르트로 영국에 보내진 남자가 자기 출신을 뒤늦게 추적하는 과정을, 화자가 그에게서 전해 들은 말로만 서술한다. 제발트가 세상을 뜨기 몇 달 전 발표한 마지막 장편이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--sebald-emergence-of-memory"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--wg-sebald--jm-coetzee",
+      "type": "affinity",
+      "from": "wg-sebald (W. G. 제발트)",
+      "to": "jm-coetzee (J. M. 쿳시)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "쿳시는 『내면의 작동』에 제발트를 다룬 글을 싣고 그의 산문이 기록과 허구의 경계를 어떻게 다루는지 분석했다. 20세기의 폭력을 정면으로 재현하지 않고 우회로와 흔적만으로 서술한다는 점에서 두 사람은 비평에서 나란히 놓인다.",
+      "sourceIds": [
+        "src--coetzee-inner-workings"
+      ]
+    },
+    {
+      "id": "affinity--wg-sebald--kazuo-ishiguro",
+      "type": "affinity",
+      "from": "wg-sebald (W. G. 제발트)",
+      "to": "kazuo-ishiguro (가즈오 이시구로)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "제발트의 화자가 남의 기억을 옮기며 자기 위치를 지우는 곳에서, 이시구로의 화자는 자기 기억을 말하면서 스스로 감춘다. 두 사람 사이의 직접 접촉이나 독서 기록은 없고, 기억을 신뢰할 수 없는 진술로 다루는 두 방향을 비교하기 위해 이 지도가 둔 관계다.",
+      "sourceIds": []
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--franz-kafka--wg-sebald (→ franz-kafka 의 슬레이트에서 본다)",
+    "influence--vladimir-nabokov--wg-sebald (→ vladimir-nabokov 의 슬레이트에서 본다)",
+    "influence--joseph-conrad--wg-sebald (→ joseph-conrad 의 슬레이트에서 본다)",
+    "influence--jorge-luis-borges--wg-sebald (→ jorge-luis-borges 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--sebald-emergence-of-memory": {
+      "id": "src--sebald-emergence-of-memory",
+      "title": "The Emergence of Memory: Conversations with W. G. Sebald (Lynne Sharon Schwartz 엮음, 2007)",
+      "publisherOrInstitution": "Seven Stories Press",
+      "citation": "제발트 생전 인터뷰와 대담 모음 — 사진 삽입, 기억의 전달 구조, 장르 경계에 대한 저자 자신의 설명이 실린 1차 기록"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--coetzee-inner-workings": {
+      "id": "src--coetzee-inner-workings",
+      "title": "『내면의 작동 — 문학 에세이 2000–2005』 (Inner Workings, 2007)",
+      "publisherOrInstitution": "Harvill Secker / Viking",
+      "citation": "쿳시가 동시대와 20세기 중부유럽 작가들을 다룬 서평 모음. 제발트를 한 편의 글로 따로 다룬다 — 두 작가를 나란히 놓는 판단이 쿳시 자신에게서 나왔다는 근거"
+    }
+  }
+}

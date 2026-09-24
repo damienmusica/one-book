@@ -1,0 +1,212 @@
+{
+  "id": "simone-de-beauvoir",
+  "page": "https://literary-planet.pages.dev/authors/simone-de-beauvoir/",
+  "author": {
+    "names": {
+      "ko": "시몬 드 보부아르",
+      "original": "Simone de Beauvoir",
+      "aliases": [
+        "보부아르",
+        "시몬 드 보봐르"
+      ]
+    },
+    "birthYear": 1908,
+    "deathYear": 1986,
+    "activeRange": [
+      1943,
+      1981
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [
+      "existentialism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "『제2의 성』에서 여성을 생물학적 사실이 아니라 남성을 기준으로 삼는 사회가 만들어 낸 '타자'로 분석하고, 여성은 태어나는 것이 아니라 그렇게 만들어진다는 명제를 신화·생물학·역사·증언을 가로질러 논증했다. 이 책은 이후 페미니즘 이론이 동의하든 반박하든 출발점으로 삼는 텍스트가 되었다. 네 권으로 이어진 회고록에서는 자기 삶을 상황 속의 선택으로 서술하는 방식을 만들어 회고록을 철학적 서술의 도구로 사용했고, 『노년』에서는 같은 타자화 분석을 늙음으로 확장했다.",
+    "readingEntry": "simone-de-beauvoir--memoires-dune-jeune-fille-rangee",
+    "readingEntryReason": "가톨릭 부르주아 가정에서 철학으로 빠져나오는 과정을 서술한 회고록이라 문턱이 낮고, 『제2의 성』이 어떤 경험 위에서 쓰였는지 먼저 볼 수 있다.",
+    "readingOrder": [
+      "simone-de-beauvoir--memoires-dune-jeune-fille-rangee",
+      "simone-de-beauvoir--l-invitee",
+      "simone-de-beauvoir--le-deuxieme-sexe",
+      "simone-de-beauvoir--les-mandarins",
+      "simone-de-beauvoir--la-vieillesse"
+    ],
+    "readingWarning": "『제2의 성』 1권의 생물학·정신분석·사적 유물론 검토부터 읽기 시작하면 논증의 목적이 보이기 전에 지친다. 2권의 체험 서술이나 회고록에서 진입하는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "소설과 회고록의 문장은 평이하지만, 두 권짜리 『제2의 성』과 『노년』은 분량이 크고 헤겔·후설 계열의 개념과 당대 생물학·인류학 논의를 함께 통과해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade",
+      "src--cambridge-companions",
+      "src--beauvoir-deuxieme-sexe-1949",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "simone-de-beauvoir--l-invitee",
+      "titleKo": "초대받은 여자",
+      "titleOriginal": "L'Invitée",
+      "year": 1943,
+      "genre": "fiction",
+      "significance": "한 커플과 그들이 받아들인 젊은 여자 사이의 삼각 관계를 통해, 타인의 의식이 나에게 가하는 위협을 서사로 옮긴 첫 소설.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir--le-deuxieme-sexe",
+      "titleKo": "제2의 성",
+      "titleOriginal": "Le Deuxième Sexe",
+      "year": 1949,
+      "genre": "essay-criticism",
+      "significance": "1949년 갈리마르에서 두 권으로 나온 여성 조건 연구. 생물학·정신분석·역사가 여성을 설명해 온 방식을 차례로 검토한 뒤, 여성이 남성을 기준으로 삼는 사회의 '타자'로 구성되는 과정을 체험의 층위에서 서술한다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--beauvoir-deuxieme-sexe-1949"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir--les-mandarins",
+      "titleKo": "레 망다랭",
+      "titleOriginal": "Les Mandarins",
+      "year": 1954,
+      "genre": "fiction",
+      "significance": "해방 직후 파리 지식인 집단이 소련의 수용소 문제와 냉전 앞에서 갈라지는 과정을 두 시점으로 교차 서술한다. 1954년 공쿠르상을 받았다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir--memoires-dune-jeune-fille-rangee",
+      "titleKo": "얌전한 처녀의 회상",
+      "titleOriginal": "Mémoires d'une jeune fille rangée",
+      "year": 1958,
+      "genre": "essay-criticism",
+      "significance": "가톨릭 부르주아 가정의 딸이 신앙과 결혼이라는 정해진 경로에서 벗어나 철학으로 향하는 스무 해를 서술한다. 네 권으로 이어지는 회고록 연작의 첫 권.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir--la-vieillesse",
+      "titleKo": "노년",
+      "titleOriginal": "La Vieillesse",
+      "year": 1970,
+      "genre": "essay-criticism",
+      "significance": "늙음을 생물학·역사·사회의 시선에서 검토하고, 노인이 사회적으로 배제되는 방식을 『제2의 성』과 같은 타자화 분석으로 다룬 후기 대작.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--jean-paul-sartre--simone-de-beauvoir",
+      "type": "dialogue",
+      "from": "jean-paul-sartre (장폴 사르트르)",
+      "to": "simone-de-beauvoir (시몬 드 보부아르)",
+      "evidenceLevel": "documented",
+      "summary": "1929년 이후 평생의 지적 동반 관계로, 두 사람은 1945년 잡지 『레 탕 모데른』을 함께 만들었다.",
+      "sourceIds": [
+        "src--beauvoir-force-des-choses"
+      ]
+    },
+    {
+      "id": "dialogue--simone-de-beauvoir--albert-camus",
+      "type": "dialogue",
+      "from": "simone-de-beauvoir (시몬 드 보부아르)",
+      "to": "albert-camus (알베르 카뮈)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 해방 직후 파리의 같은 지식인 집단에서 가까이 지냈고, 1951년 『반항하는 인간』이 나온 뒤 『현대』지 지면에서 벌어진 논쟁으로 관계가 끊어졌다. 보부아르는 『La Force des choses』(1963)에서 그 결별의 경위를 기록했고, 『레 망다랭』(1954)은 같은 시기의 집단을 소설로 옮겼다.",
+      "anchors": [
+        {
+          "workId": "albert-camus--l-homme-revolte"
+        },
+        {
+          "workId": "simone-de-beauvoir--les-mandarins"
+        },
+        {
+          "year": 1963
+        }
+      ],
+      "sourceIds": [
+        "src--beauvoir-force-des-choses"
+      ]
+    },
+    {
+      "id": "dialogue--simone-de-beauvoir--marguerite-duras",
+      "type": "dialogue",
+      "from": "simone-de-beauvoir (시몬 드 보부아르)",
+      "to": "marguerite-duras (마르그리트 뒤라스)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 1971년 4월 『르 누벨 옵세르바퇴르』에 실린 「343인 선언」에 함께 이름을 올렸다. 낙태를 했다고 공개 선언하고 법 개정을 요구한 이 문서는 전후 파리의 문학 집단이 당사자로 나선 자리였고, 문안은 보부아르가 맡았다.",
+      "anchors": [
+        {
+          "year": 1971
+        }
+      ],
+      "sourceIds": [
+        "src--manifeste-343-1971"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--virginia-woolf--simone-de-beauvoir (→ virginia-woolf 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--beauvoir-deuxieme-sexe-1949": {
+      "id": "src--beauvoir-deuxieme-sexe-1949",
+      "title": "『제2의 성』 초판 서지 (Gallimard, 1949, 전 2권)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "1949년에 『사실과 신화』·『체험』 두 권으로 나뉘어 나온 초판 — 발표 연도와 2권 구성 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--beauvoir-force-des-choses": {
+      "id": "src--beauvoir-force-des-choses",
+      "title": "『La Force des choses』 (1963)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "1944년 해방부터 1962년까지를 다룬 회고록 — 카뮈와의 교류와 『반항하는 인간』 이후의 결별을 당사자가 기록한 1차 자료"
+    },
+    "src--manifeste-343-1971": {
+      "id": "src--manifeste-343-1971",
+      "title": "「343인 선언」 (Le Nouvel Observateur, 1971. 4. 5.)",
+      "publisherOrInstitution": "Le Nouvel Observateur",
+      "citation": "낙태 경험을 공개 선언하고 법 개정을 요구한 서명 문서 — 보부아르와 뒤라스가 함께 이름을 올린 명단의 1차 자료"
+    }
+  }
+}

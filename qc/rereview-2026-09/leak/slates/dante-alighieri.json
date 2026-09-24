@@ -1,0 +1,167 @@
+{
+  "id": "dante-alighieri",
+  "page": "https://literary-planet.pages.dev/authors/dante-alighieri/",
+  "author": {
+    "names": {
+      "ko": "단테 알리기에리",
+      "original": "Dante Alighieri",
+      "aliases": [
+        "단테"
+      ]
+    },
+    "birthYear": 1265,
+    "deathYear": 1321,
+    "activeRange": [
+      1283,
+      1321
+    ],
+    "languages": [
+      "it",
+      "la"
+    ],
+    "regions": [
+      "italy"
+    ],
+    "movements": [],
+    "genres": [
+      "epic",
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "라틴어 대신 토스카나 속어로 저승의 세 층위를 삼행운(테르차 리마)의 연쇄로 설계하고, 그 안에 동시대 피렌체 사람들을 실명과 죄목으로 배치했다. 신학 체계를 걸어서 통과할 수 있는 지형으로 번역한 이 구조 덕분에 속어가 신학과 정치를 감당하는 문장이 되었고, 그가 쓴 토스카나어는 이탈리아 문학어의 기준이 되었다. 『향연』과 『속어론』은 그 선택을 스스로 논증한 산문이다.",
+    "readingEntry": "dante-alighieri--la-vita-nuova",
+    "readingEntryReason": "시 31편과 그 사이의 짧은 산문 해설로 이루어져 하룻밤에 읽히고, 베아트리체가 누구이며 왜 『신곡』의 안내자가 되는지가 여기서 마련된다.",
+    "readingOrder": [
+      "dante-alighieri--la-vita-nuova",
+      "dante-alighieri--la-divina-commedia",
+      "dante-alighieri--il-convivio",
+      "dante-alighieri--de-vulgari-eloquentia"
+    ],
+    "readingWarning": "주석이 얇은 판본으로 『신곡』을 시작하면 지옥편의 피렌체 인명에서 멈춘다. 주석 분량이 본문에 맞먹는 판을 고르는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "삼행운의 압축된 구문에 스콜라 신학, 프톨레마이오스 우주론, 13세기 피렌체 정파 정치가 전제로 깔려 있어 한 곡을 읽는 동안 본문과 주석을 계속 왕복해야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--treccani",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "dante-alighieri--de-vulgari-eloquentia",
+      "titleKo": "속어론",
+      "titleOriginal": "De vulgari eloquentia",
+      "year": 1305,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "라틴어로 쓴 속어 옹호론. 이탈리아 각지의 방언을 비교해 문학어로 삼을 '빛나는 속어'의 조건을 규정한 미완의 논고다.",
+      "sourceIds": []
+    },
+    {
+      "id": "dante-alighieri--il-convivio",
+      "titleKo": "향연",
+      "titleOriginal": "Il Convivio",
+      "year": 1307,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "자기 칸초네에 속어로 긴 주석을 단 미완의 논고. 철학적 산문을 속어로 쓸 수 있다는 것을 주장이 아니라 본문 자체로 보인다.",
+      "sourceIds": []
+    },
+    {
+      "id": "dante-alighieri--la-divina-commedia",
+      "titleKo": "신곡",
+      "titleOriginal": "La Divina Commedia",
+      "year": 1321,
+      "yearBasis": "composition-range",
+      "genre": "epic",
+      "significance": "지옥·연옥·천국 100곡을 삼행운으로 묶은 서사시. 각 곡이 동시대 인물에 대한 실명 심판이자 신학 강의이자 여행기로 동시에 읽힌다. 마지막 편은 사후에 전해졌다.",
+      "sourceIds": []
+    },
+    {
+      "id": "dante-alighieri--la-vita-nuova",
+      "titleKo": "새로운 삶",
+      "titleOriginal": "La Vita Nuova",
+      "year": 1294,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "소네트와 칸초네에 산문 해설을 붙여 베아트리체를 만난 일에서 그녀의 죽음까지를 한 편의 이야기로 엮은 청년기 작품. 시와 그 시에 대한 자기 주석을 한 권에 나란히 놓는다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--aristotle--dante-alighieri",
+      "type": "documented_influence",
+      "from": "aristotle (아리스토텔레스)",
+      "to": "dante-alighieri (단테 알리기에리)",
+      "evidenceLevel": "documented",
+      "summary": "단테는 『신곡』 「지옥편」 11곡에서 지옥의 죄 분류 근거로 '너의 윤리학', 곧 아리스토텔레스의 『니코마코스 윤리학』을 이름을 들어 지목하며 절제 없음·악의·짐승 같은 광포함이라는 세 성향을 불러온다.",
+      "sourceIds": [
+        "src--treccani",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "influence--dante-alighieri--ts-eliot",
+      "type": "documented_influence",
+      "from": "dante-alighieri (단테 알리기에리)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 『선집』(1932)에 실린 장문의 에세이 「단테」에서 『신곡』을 시의 시각적 명료함의 척도로 삼고, 단테를 시 쓰기를 배울 수 있는 시인의 기준으로 세웠다.",
+      "sourceIds": [
+        "src--eliot-selected-essays-1932"
+      ]
+    },
+    {
+      "id": "influence--dante-alighieri--jorge-luis-borges",
+      "type": "documented_influence",
+      "from": "dante-alighieri (단테 알리기에리)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 『아홉 편의 단테 에세이』(1982)에서 「우골리노의 거짓 문제」와 「율리시스의 마지막 여행」처럼 『신곡』의 개별 장면을 한 편씩 따로 떼어 읽었다.",
+      "sourceIds": [
+        "src--borges-nueve-ensayos-dantescos"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--virgil--dante-alighieri (→ virgil 의 슬레이트에서 본다)",
+    "influence--ovid--dante-alighieri (→ ovid 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--treccani": {
+      "id": "src--treccani",
+      "title": "Treccani — Enciclopedia Italiana / Dizionario Biografico degli Italiani",
+      "publisherOrInstitution": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it",
+      "citation": "이탈리아 작가의 생애·저작 연보와 비평사 확인용 표준 참조"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--eliot-selected-essays-1932": {
+      "id": "src--eliot-selected-essays-1932",
+      "title": "Selected Essays (1932)",
+      "publisherOrInstitution": "Faber and Faber — T. S. Eliot",
+      "citation": "「보들레르」(1930년 크리스토퍼 이셔우드 영역 『내면 일기』 서문으로 처음 발표)와 「전통과 개인의 재능」(1919)이 수록된 평론집"
+    },
+    "src--borges-nueve-ensayos-dantescos": {
+      "id": "src--borges-nueve-ensayos-dantescos",
+      "title": "Nueve ensayos dantescos (1982)",
+      "publisherOrInstitution": "Jorge Luis Borges / Espasa-Calpe",
+      "citation": "보르헤스가 『신곡』의 개별 장면들을 읽은 아홉 편의 에세이 모음 — 단테 수용의 1차 근거"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "osamu-dazai",
+  "page": "https://literary-planet.pages.dev/authors/osamu-dazai/",
+  "author": {
+    "names": {
+      "ko": "다자이 오사무",
+      "original": "太宰治",
+      "aliases": [
+        "쓰시마 슈지",
+        "津島修治",
+        "Dazai Osamu"
+      ]
+    },
+    "birthYear": 1909,
+    "deathYear": 1948,
+    "activeRange": [
+      1933,
+      1948
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "화자가 자신의 비루함을 먼저 고발해 독자의 판단을 선점하는 고백체를 일본어 산문에 정착시켰다. 자조와 응석이 구분되지 않는 이 목소리는 사소설의 자기 폭로를 희극적 반어로 바꿔놓았다. 『사양』은 몰락하는 화족 가문을 통해 패전 직후의 계급 해체를 기록해 '사양족'이라는 유행어를 낳았고, 『인간 실격』의 화자는 이후 일본 청년문학이 반복해 참조하는 인물 유형이 되었다.",
+    "readingEntry": "osamu-dazai--ningen-shikkaku",
+    "readingEntryReason": "짧은 장편 한 권 분량이고, 수기와 액자 화자라는 구성이 단순해 다자이의 고백체가 어떻게 작동하는지 한 번에 보인다.",
+    "readingOrder": [
+      "osamu-dazai--ningen-shikkaku",
+      "osamu-dazai--shayo",
+      "osamu-dazai--viyon-no-tsuma",
+      "osamu-dazai--hashire-merosu",
+      "osamu-dazai--bannen"
+    ],
+    "readingWarning": "「달려라 메로스」만 읽고 다자이를 곧은 우화 작가로 정리하거나, 첫 창작집 『만년』의 실험 단편들부터 들어가 초기 문체의 밀도에 막히는 두 경로가 흔하다.",
+    "difficulty": 2,
+    "difficultyReason": "문장이 구어에 가깝고 분량도 짧지만, 화자의 자기비하가 반어인지 고백인지 계속 흔들려 액면 그대로 읽으면 방향을 잃는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "osamu-dazai--bannen",
+      "titleKo": "만년",
+      "titleOriginal": "晩年",
+      "year": 1936,
+      "genre": "fiction",
+      "significance": "다자이가 첫 창작집으로 묶은 단편집. 유서로 쓸 작정이었다는 제목 아래 화자와 형식을 매번 바꿔 가며 자기 이야기를 어떻게 쓸지 시험한 초기 작업이 모여 있다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "osamu-dazai--hashire-merosu",
+      "titleKo": "달려라 메로스",
+      "titleOriginal": "走れメロス",
+      "year": 1940,
+      "genre": "fiction",
+      "significance": "약속을 지키러 돌아오는 남자의 이야기로, 자기 파괴적 화자가 지배하는 다자이의 작업 안에서 예외적으로 곧은 서사를 취한다. 일본 국어 교과서에 오래 실려 그의 단편 중 가장 널리 알려졌다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "osamu-dazai--shayo",
+      "titleKo": "사양",
+      "titleOriginal": "斜陽",
+      "year": 1947,
+      "genre": "fiction",
+      "significance": "패전 후 몰락하는 화족 가문의 딸을 화자로 삼아 계급이 해체되는 과정을 기록했다. '사양족'이라는 유행어를 낳으며 전후 일본 사회의 자기 인식을 만든 장편이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "osamu-dazai--viyon-no-tsuma",
+      "titleKo": "비용의 아내",
+      "titleOriginal": "ヴィヨンの妻",
+      "year": 1947,
+      "genre": "fiction",
+      "significance": "술값 빚에 쫓기는 시인의 아내가 스스로 술집에 나가 생활을 떠맡는 과정을 아내의 시점에서 서술한다. 무너지는 남자를 바깥에서 보는 다자이의 드문 단편이다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "osamu-dazai--ningen-shikkaku",
+      "titleKo": "인간 실격",
+      "titleOriginal": "人間失格",
+      "year": 1948,
+      "genre": "fiction",
+      "significance": "세 편의 수기와 그것을 소개하는 액자 화자로 구성해, 인간을 연기하는 데 실패했다는 고백을 문서의 형식으로 제시한다. 사망 직전 연재를 시작해 마지막 회는 사후에 실렸다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--osamu-dazai--yukio-mishima",
+      "type": "dialogue",
+      "from": "osamu-dazai (다자이 오사무)",
+      "to": "yukio-mishima (미시마 유키오)",
+      "evidenceLevel": "documented",
+      "summary": "미시마는 1955년 『소설가의 휴가』에서 다자이의 성격적 결함은 냉수마찰과 규칙적인 생활로 절반은 고쳐졌을 것이라고 쓰며 그의 문학을 정면으로 거부했다. 1963년 회고 『나의 편력시대』에서는 다자이를 만난 자리에서 당신의 문학이 싫다고 직접 말했다고 기록했다.",
+      "anchors": [
+        {
+          "year": 1955
+        },
+        {
+          "year": 1963
+        }
+      ],
+      "sourceIds": [
+        "src--mishima-shosetsuka-no-kyuka-1955",
+        "src--mishima-watashi-no-henreki-jidai"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--ryunosuke-akutagawa--osamu-dazai (→ ryunosuke-akutagawa 의 슬레이트에서 본다)",
+    "dialogue--yasunari-kawabata--osamu-dazai (→ yasunari-kawabata 의 슬레이트에서 본다)",
+    "influence--lu-xun--osamu-dazai (→ lu-xun 의 슬레이트에서 본다)",
+    "influence--fyodor-dostoevsky--osamu-dazai (→ fyodor-dostoevsky 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--mishima-shosetsuka-no-kyuka-1955": {
+      "id": "src--mishima-shosetsuka-no-kyuka-1955",
+      "title": "『소설가의 휴가(小説家の休暇)』 (1955)",
+      "publisherOrInstitution": "미시마 유키오 일기 형식 산문 — 1955년 간행",
+      "citation": "다자이의 성격적 결함은 냉수마찰과 규칙적인 생활로 절반은 고쳐졌을 것이라고 쓴 대목 — 미시마의 다자이 거부의 1차 문헌"
+    },
+    "src--mishima-watashi-no-henreki-jidai": {
+      "id": "src--mishima-watashi-no-henreki-jidai",
+      "title": "『나의 편력시대(私の遍歴時代)』 (1963)",
+      "publisherOrInstitution": "東京新聞 연재 (1963) — 이후 단행본 수록",
+      "citation": "다자이와 대면한 자리에서 그의 문학이 싫다고 직접 말했다고 미시마 자신이 기록한 회고"
+    }
+  }
+}

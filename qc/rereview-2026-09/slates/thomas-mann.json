@@ -1,0 +1,243 @@
+{
+  "id": "thomas-mann",
+  "page": "https://literary-planet.pages.dev/authors/thomas-mann/",
+  "author": {
+    "names": {
+      "ko": "토마스 만",
+      "original": "Thomas Mann",
+      "aliases": [
+        "Mann",
+        "Paul Thomas Mann"
+      ]
+    },
+    "birthYear": 1875,
+    "deathYear": 1955,
+    "activeRange": [
+      1898,
+      1955
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe",
+      "north-america"
+    ],
+    "movements": [
+      "modernism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "시민 계급 가족사의 연대기에서 출발해, 유럽 사상의 논쟁 자체를 인물들의 대화로 상연하는 장편 형식을 확립했다. 반어를 문체의 기본값으로 삼아, 서술자가 인물에게 밀착하면서 동시에 그를 관찰 대상으로 유지하는 거리를 만들어 냈다. 망명 이후에는 독일 문화가 어떻게 파국에 이르렀는가를 한 작곡가의 전기 형식으로 서술해, 예술의 자율성 주장과 정치적 책임을 한 서사 안에서 정면으로 충돌시켰다.",
+    "readingEntry": "thomas-mann--der-tod-in-venedig",
+    "readingEntryReason": "중편 한 편 분량이면서, 규율로 세운 예술가가 무너지는 과정이라는 만의 평생 주제와 반어적 서술 거리가 완결된 형태로 들어 있다.",
+    "readingOrder": [
+      "thomas-mann--der-tod-in-venedig",
+      "thomas-mann--buddenbrooks",
+      "thomas-mann--der-zauberberg",
+      "thomas-mann--doktor-faustus"
+    ],
+    "readingWarning": "네 권짜리 『요셉과 그 형제들』이나 『파우스트 박사』부터 잡으면, 분량 이전에 성서 주해와 12음 기법·독일 사상사라는 전제 지식에서 막힌다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 정연하고 줄거리도 명료하지만, 반어의 층이 두꺼워 서술자의 진심을 어디에 두어야 할지 판정하기 어렵다. 장편에서는 사상 논쟁이 수십 쪽씩 서사를 대신한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "thomas-mann--buddenbrooks",
+      "titleKo": "부덴브로크가의 사람들",
+      "titleOriginal": "Buddenbrooks",
+      "year": 1901,
+      "genre": "fiction",
+      "significance": "뤼베크 상인 가문 4대의 쇠퇴를 연대기로 서술한 첫 장편. 실무 능력이 줄어드는 자리를 예민한 감수성이 대신 채우는 과정을 세대별로 배치했다. 스물여섯 살에 발표했고 뒷날 노벨문학상 수상 사유에 명시되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "thomas-mann--der-tod-in-venedig",
+      "titleKo": "베네치아에서의 죽음",
+      "titleOriginal": "Der Tod in Venedig",
+      "year": 1912,
+      "genre": "fiction",
+      "significance": "규율로 자기를 세운 노작가가 소년의 아름다움 앞에서 무너지고, 도시의 역병을 알면서도 떠나지 않는 중편. 예술가의 절제와 도취를 한 인물 안에서 충돌시킨 만의 대표 설정이 완성된 형태로 나온다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "thomas-mann--der-zauberberg",
+      "titleKo": "마의 산",
+      "titleOriginal": "Der Zauberberg",
+      "year": 1924,
+      "genre": "fiction",
+      "significance": "3주 예정으로 알프스 요양원을 찾은 청년이 7년을 머무는 동안, 계몽주의자와 급진적 예수회원이 그를 두고 벌이는 논쟁이 서사를 대신한다. 시간 경험 자체를 서술 대상으로 삼은 장편.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "thomas-mann--joseph-und-seine-brueder",
+      "titleKo": "요셉과 그 형제들",
+      "titleOriginal": "Joseph und seine Brüder",
+      "year": 1933,
+      "genre": "fiction",
+      "significance": "창세기의 요셉 이야기를 네 권으로 확장한 연작으로, 1권 발표 해에 망명이 시작되어 완성까지 16년이 걸렸다. 신화를 반어와 심리 분석으로 다시 서술해, 나치가 독점하려 한 신화의 언어를 되찾으려 한 기획이다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "thomas-mann--doktor-faustus",
+      "titleKo": "파우스트 박사",
+      "titleOriginal": "Doktor Faustus",
+      "year": 1947,
+      "genre": "fiction",
+      "significance": "12음 기법을 고안한 가상의 작곡가가 매독과 악마의 계약으로 천재를 얻는 이야기를 친구의 전기 형식으로 쓴다. 예술의 극단적 자율성과 독일의 정치적 파국을 같은 곡선 위에 포갠 망명기의 결산.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--johann-wolfgang-von-goethe--thomas-mann",
+      "type": "documented_influence",
+      "from": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "to": "thomas-mann (토마스 만)",
+      "evidenceLevel": "documented",
+      "summary": "토마스 만은 「괴테와 톨스토이」(1921년 강연·1923년 간행), 「시민 시대의 대표자로서의 괴테」(1932) 등 일련의 강연·에세이에서 괴테를 자기 문학의 준거로 세웠고, 소설 『바이마르의 로테』(1939)에서 노년의 괴테를 직접 인물로 다루었다.",
+      "sourceIds": [
+        "src--mann-essays-reden"
+      ]
+    },
+    {
+      "id": "dialogue--hermann-hesse--thomas-mann",
+      "type": "dialogue",
+      "from": "hermann-hesse (헤르만 헤세)",
+      "to": "thomas-mann (토마스 만)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 수십 년에 걸쳐 편지를 주고받았고(『헤르만 헤세–토마스 만 서간집』, 주어캄프 1968), 나치 집권 이후에는 망명길의 토마스 만이 1933년 헤세를 찾았고 두 사람은 나치 거부에서 한편이었다.",
+      "sourceIds": [
+        "src--hesse-mann-briefwechsel"
+      ]
+    },
+    {
+      "id": "influence--thomas-mann--yukio-mishima",
+      "type": "documented_influence",
+      "from": "thomas-mann (토마스 만)",
+      "to": "yukio-mishima (미시마 유키오)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "미시마 연구는 예술가의 자의식과 미의 파괴를 다루는 그의 소설을 토마스 만의 『베니스에서의 죽음』·『토니오 크뢰거』 계보에 놓고 반복해 논해 왔다. 유럽 교양소설의 관념을 고전 일본어 어휘로 옮겨 쓴 대목이 그 비교의 근거로 지목된다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "influence--thomas-mann--naguib-mahfouz",
+      "type": "documented_influence",
+      "from": "thomas-mann (토마스 만)",
+      "to": "naguib-mahfouz (나기브 마푸즈)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "카이로 3부작이 한 가족의 3대를 통해 도시와 국가의 시간을 통과시키는 구조를 두고, 아랍 소설 연구는 『부덴브로크가의 사람들』 계열의 유럽 가족 연대기 소설이 아랍어로 옮겨진 사례로 반복해 설명한다. 마푸즈 자신도 유럽 장편의 독서를 자기 형성의 조건으로 꼽았다.",
+      "anchors": [
+        {
+          "workId": "thomas-mann--buddenbrooks"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-history-arabic-literature"
+      ]
+    },
+    {
+      "id": "dialogue--thomas-mann--elias-canetti",
+      "type": "dialogue",
+      "from": "thomas-mann (토마스 만)",
+      "to": "elias-canetti (엘리아스 카네티)",
+      "evidenceLevel": "documented",
+      "summary": "카네티는 1931년 『현혹』의 원고를 토마스 만에게 보냈고 만은 읽지 않은 채 돌려보냈다. 1935년 책이 나온 뒤 만은 읽고 나서 상찬하는 편지를 보냈으며, 카네티는 『눈의 유희』에서 이 두 통의 편지를 자기 문단 진입의 두 국면으로 기록했다.",
+      "anchors": [
+        {
+          "year": 1931
+        },
+        {
+          "year": 1935
+        },
+        {
+          "workId": "elias-canetti--die-blendung"
+        }
+      ],
+      "sourceIds": [
+        "src--canetti-das-augenspiel-1985"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--friedrich-nietzsche--thomas-mann (→ friedrich-nietzsche 의 슬레이트에서 본다)",
+    "influence--leo-tolstoy--thomas-mann (→ leo-tolstoy 의 슬레이트에서 본다)",
+    "influence--fyodor-dostoevsky--thomas-mann (→ fyodor-dostoevsky 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--mann-essays-reden": {
+      "id": "src--mann-essays-reden",
+      "title": "토마스 만 에세이·강연 (Essays und Reden)",
+      "publisherOrInstitution": "S. Fischer Verlag — Thomas Mann",
+      "citation": "「괴테와 톨스토이」(1921년 뤼베크 강연), 「절제된 도스토옙스키」(1946, 영역 도스토옙스키 선집 서문), 「우리 경험에 비추어 본 니체의 철학」(1947년 강연)이 수록된 에세이 모음 — 만이 자기 계보를 직접 지목한 1차 문헌들"
+    },
+    "src--hesse-mann-briefwechsel": {
+      "id": "src--hesse-mann-briefwechsel",
+      "title": "Hermann Hesse – Thomas Mann: Briefwechsel",
+      "publisherOrInstitution": "hrsg. Anni Carlsson, Suhrkamp (1968)",
+      "url": "https://archive.org/details/briefwechselherm0000hess",
+      "citation": "두 사람이 수십 년에 걸쳐 주고받은 편지 모음 — 망명기의 원고·정치 판단 교환을 담은 1차 자료"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--cambridge-history-arabic-literature": {
+      "id": "src--cambridge-history-arabic-literature",
+      "title": "The Cambridge History of Arabic Literature — Modern Arabic Literature 권",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "20세기 아랍 소설사 표준 개설 — 마푸즈·살리흐의 발표 연도와 문학사적 위치 확인용"
+    },
+    "src--canetti-das-augenspiel-1985": {
+      "id": "src--canetti-das-augenspiel-1985",
+      "title": "엘리아스 카네티, 『눈의 유희(Das Augenspiel)』 (1985)",
+      "publisherOrInstitution": "Carl Hanser Verlag",
+      "citation": "자서전 3부 — 빈 시절 브로흐·무질·토마스 만과의 대면을 장별로 기록한 1차 회고"
+    }
+  }
+}

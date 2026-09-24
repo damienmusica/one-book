@@ -1,0 +1,540 @@
+{
+  "id": "fyodor-dostoevsky",
+  "page": "https://literary-planet.pages.dev/authors/fyodor-dostoevsky/",
+  "author": {
+    "names": {
+      "ko": "표도르 도스토옙스키",
+      "original": "Фёдор Достоевский",
+      "aliases": [
+        "Fyodor Dostoevsky",
+        "도스토예프스키",
+        "표도르 미하일로비치 도스토옙스키"
+      ]
+    },
+    "birthYear": 1821,
+    "deathYear": 1881,
+    "activeRange": [
+      1846,
+      1881
+    ],
+    "languages": [
+      "ru"
+    ],
+    "regions": [
+      "russia"
+    ],
+    "movements": [
+      "realism"
+    ],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "인물마다 자기 논리를 끝까지 밀고 나가게 두고 작가가 판정하지 않는 서술 구조를 소설에 도입했다. 후에 바흐친이 다성성이라 이름 붙인 이 구조 덕분에 사상 논쟁이 곧 서사가 되는 소설이 가능해졌다. 자기 이익조차 배반하는 과잉 자의식의 1인칭 화자는 20세기 실존주의 소설과 부조리 문학이 반복해 사용한 원형이 되었고, 살인·자살·신앙 상실을 관념의 실험으로 다루는 방식은 사상소설이라는 갈래 자체를 성립시켰다.",
+    "readingEntry": "fyodor-dostoevsky--prestuplenie-i-nakazanie",
+    "readingEntryReason": "살인과 추적이라는 추리소설의 골격이 독서를 끌고 가기 때문에, 사상 논쟁에 익숙하지 않아도 끝까지 갈 수 있는 유일한 장편이다.",
+    "readingOrder": [
+      "fyodor-dostoevsky--prestuplenie-i-nakazanie",
+      "fyodor-dostoevsky--zapiski-iz-podpolya",
+      "fyodor-dostoevsky--idiot",
+      "fyodor-dostoevsky--besy",
+      "fyodor-dostoevsky--bratya-karamazovy"
+    ],
+    "readingWarning": "『카라마조프 형제』나 『악령』으로 시작하면 인물의 러시아식 삼중 호칭과 초반 100쪽의 사상 논쟁 밀도 때문에 이야기가 시작되기 전에 포기하기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 빠르게 읽히지만 인물들이 길게 쏟아내는 논쟁이 서사를 자주 멈춰 세우고, 19세기 러시아의 종교·정치 논쟁을 배경 지식으로 요구하는 대목이 많다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--dostoevsky-writers-diary",
+      "src--cambridge-companions",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "fyodor-dostoevsky--zapiski-iz-podpolya",
+      "titleKo": "지하로부터의 수기",
+      "titleOriginal": "Записки из подполья",
+      "year": 1864,
+      "genre": "fiction",
+      "significance": "이름 없는 퇴직 관리가 자기 비참을 독자에게 쏘아붙이는 1부와 그 내력을 이야기하는 2부로 나뉜다. 합리적 이익 계산을 스스로 배반하는 인간을 제시해 20세기 실존주의 서사의 화자 원형이 되었다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "fyodor-dostoevsky--prestuplenie-i-nakazanie",
+      "titleKo": "죄와 벌",
+      "titleOriginal": "Преступление и наказание",
+      "year": 1866,
+      "genre": "fiction",
+      "significance": "가난한 학생이 전당포 노파를 살해한 뒤의 의식을 거의 실시간에 가깝게 추적한다. 범죄소설의 추진력과 사상 논쟁을 하나의 서사 안에서 동시에 작동시킨 사례다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "fyodor-dostoevsky--idiot",
+      "titleKo": "백치",
+      "titleOriginal": "Идиот",
+      "year": 1869,
+      "genre": "fiction",
+      "significance": "선의만 가진 인물이 사교계에 들어갔을 때 어떻게 파괴되는가를 실험한다. 이상적 인간을 주인공으로 두고도 소설이 성립할 수 있는가라는 형식적 질문을 정면으로 던졌다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "fyodor-dostoevsky--besy",
+      "titleKo": "악령",
+      "titleOriginal": "Бесы",
+      "year": 1872,
+      "genre": "fiction",
+      "significance": "1869년 네차예프 사건을 바탕으로 혁명 조직 내부의 살인을 재구성한 정치소설. 이념이 사람을 소모품으로 만드는 절차를 서술해 20세기 전체주의 소설의 선례가 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--dostoevsky-writers-diary"
+      ]
+    },
+    {
+      "id": "fyodor-dostoevsky--bratya-karamazovy",
+      "titleKo": "카라마조프 형제",
+      "titleOriginal": "Братья Карамазовы",
+      "year": 1880,
+      "genre": "fiction",
+      "significance": "아버지 살해를 둘러싼 형제들의 재판을 축으로 신앙과 무신론의 논쟁을 인물의 목소리로 끝까지 대등하게 밀고 나간다. 어느 쪽에도 작가가 판정을 내리지 않는 이 구조가 다성성 개념의 대표 근거다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--victor-hugo--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "victor-hugo (빅토르 위고)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "documented",
+      "summary": "도스토옙스키는 자신이 편집하던 잡지 『시대』 1862년 9호에 실린 『파리의 노트르담』 러시아어 번역에 서문을 붙여, 위고 문학의 근본 주제를 '몰락한 인간의 회복'이라 규정하고 이를 19세기 예술 전체의 과제로 확장했다.",
+      "sourceIds": [
+        "src--dostoevsky-vremya-notre-dame-1862"
+      ]
+    },
+    {
+      "id": "influence--alexander-pushkin--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "alexander-pushkin (알렉산드르 푸시킨)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "documented",
+      "summary": "도스토옙스키는 1880년 모스크바 푸시킨 기념비 제막식 연설(『작가의 일기』 1880년 특별호에 수록)에서 타티야나와 오네긴을 러시아 정신의 두 유형으로 읽고, 푸시킨을 자기 문학의 근거로 공개 선언했다.",
+      "sourceIds": [
+        "src--dostoevsky-writers-diary"
+      ]
+    },
+    {
+      "id": "influence--charles-dickens--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "charles-dickens (찰스 디킨스)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "러시아 소설 연구는 도스토옙스키가 유형 이후 디킨스를 애독했다는 기록과, 미시킨 공작의 구상 참조로 피크윅을 든 서한을 근거로 『백치』와 『죄와 벌』의 도시 빈민 묘사를 디킨스 수용으로 다룬다. 1862년 런던 회견설은 위조로 밝혀졌으므로 근거에서 제외한다.",
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--miguel-de-cervantes--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "miguel-de-cervantes (미겔 데 세르반테스)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "documented",
+      "summary": "도스토옙스키는 『작가의 일기』에서 『돈키호테』를 인간이 만든 가장 슬픈 책으로 꼽으며, 선한 인물이 세상에서 우스워지는 문제를 자기 소설의 과제로 옮겨 놓았다.",
+      "sourceIds": [
+        "src--dostoevsky-writers-diary"
+      ]
+    },
+    {
+      "id": "influence--edgar-allan-poe--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "documented",
+      "summary": "도스토옙스키는 형 미하일이 낸 잡지 『시대』(1861)의 편집을 맡아 포의 단편 세 편을 싣고 직접 서문을 붙여, 환상이 아니라 세부의 정확성으로 밀고 가는 포의 방법을 짚었다.",
+      "sourceIds": [
+        "src--dostoevsky-vremya-poe-preface-1861"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--osamu-dazai",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "osamu-dazai (다자이 오사무)",
+      "evidenceLevel": "documented",
+      "summary": "『인간 실격』의 화자는 도스토옙스키의 『죄와 벌』을 이름 그대로 불러내, 죄와 벌이 왜 반의어처럼 나란히 놓이는지를 되묻는다. 죄의식을 고백체의 축으로 삼은 다자이의 방법에서 도스토옙스키는 작품 본문 안에 명시된 참조점이다.",
+      "anchors": [
+        {
+          "workId": "osamu-dazai--ningen-shikkaku"
+        },
+        {
+          "workId": "fyodor-dostoevsky--prestuplenie-i-nakazanie"
+        }
+      ],
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "contrast--fyodor-dostoevsky--leo-tolstoy",
+      "type": "contrast",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "leo-tolstoy (레프 톨스토이)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "두 사람은 끝내 만난 적이 없다. 도스토옙스키는 『작가의 일기』(1877)에서 『안나 카레니나』를 길게 논했고, 톨스토이는 스트라호프 앞 편지에서 『죽음의 집의 기록』을 근대 산문의 최고봉으로 꼽았다. 메레시콥스키(1901–02) 이래 두 사람을 서양 소설의 대립하는 두 극 — 바깥에서 관찰된 삶과 안에서 쏟아지는 목소리 — 으로 놓고 읽는 비교 전통이 조지 스타이너까지 이어진다.",
+      "anchors": [
+        {
+          "workId": "leo-tolstoy--anna-karenina",
+          "year": 1877
+        }
+      ],
+      "sourceIds": [
+        "src--dostoevsky-writers-diary",
+        "src--steiner-tolstoy-or-dostoevsky"
+      ]
+    },
+    {
+      "id": "contrast--fyodor-dostoevsky--joseph-conrad",
+      "type": "contrast",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "joseph-conrad (조지프 콘래드)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "콘래드는 도스토옙스키를 노골적으로 싫어해 에드워드 가넷 앞 편지에서 그를 견딜 수 없다고 썼지만, 『서구인의 눈으로』는 자백과 밀고를 축으로 삼아 『죄와 벌』을 되받아 쓴 소설로 읽힌다. 러시아 전제와 혁명가 양쪽을 동시에 거부하는 이 구도를 도스토옙스키와의 대결로 다루는 것이 콘래드 연구의 표준 논점이다.",
+      "anchors": [
+        {
+          "workId": "joseph-conrad--under-western-eyes"
+        },
+        {
+          "workId": "fyodor-dostoevsky--prestuplenie-i-nakazanie"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--friedrich-nietzsche",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "friedrich-nietzsche (프리드리히 니체)",
+      "evidenceLevel": "documented",
+      "summary": "니체는 1887년 초 니스의 서점에서 『지하생활자의 수기』 프랑스어 판본을 우연히 집어 들었고, 2월 23일 오버베크에게 보낸 편지에서 그 발견을 생애의 큰 행운으로 적었다. 『우상의 황혼』에서는 도스토옙스키를 자신이 무언가를 배운 유일한 심리학자로 부른다. 자기 이익을 배반하는 과잉 자의식이라는 도스토옙스키의 인물형이 니체 후기의 심리학 어휘에 직접 들어와 있다.",
+      "anchors": [
+        {
+          "year": 1887
+        }
+      ],
+      "sourceIds": [
+        "src--nietzsche-letter-overbeck-1887",
+        "src--nietzsche-colli-montinari"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--franz-kafka",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "franz-kafka (프란츠 카프카)",
+      "evidenceLevel": "documented",
+      "summary": "카프카는 1913년 9월 펠리체에게 보낸 편지에서 도스토옙스키를 자신의 '진짜 혈족' 넷 중 하나로 꼽았다. 심문받는 자의 의식을 안쪽에서 서술하는 『죄와 벌』의 죄의식 구조는 『소송』의 전제와 깊이 공명한다.",
+      "anchors": [
+        {
+          "year": 1913
+        },
+        {
+          "workId": "franz-kafka--der-process"
+        }
+      ],
+      "sourceIds": [
+        "src--kafka-letters-felice"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--marcel-proust",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "marcel-proust (마르셀 프루스트)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『갇힌 여인』에는 화자가 알베르틴에게 도스토옙스키의 새로움을 길게 설명하는 대목이 있다. 인물을 설명하는 대신 그가 사는 집과 장면의 구도로 제시하는 방법을 프루스트가 회화에 견주어 논한 이 삽화를, 프루스트 주해 전통은 두 작가를 잇는 표준 근거로 다룬다.",
+      "sourceIds": [
+        "src--pleiade"
+      ]
+    },
+    {
+      "id": "translation--fyodor-dostoevsky--virginia-woolf",
+      "type": "translation",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "documented",
+      "summary": "울프는 S. S. 코텔리안스키와 함께 『악령』에서 삭제된 장을 옮겨 『스타브로긴의 고백』(1922)으로 호가스 출판사에서 냈다. 러시아어를 배워 가며 진행한 이 공역은 영국 모더니즘이 러시아 소설을 흡수하던 경로를 그대로 보여 준다.",
+      "anchors": [
+        {
+          "workId": "fyodor-dostoevsky--besy",
+          "year": 1922
+        }
+      ],
+      "sourceIds": [
+        "src--woolf-stavrogins-confession-1922"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--thomas-mann",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "thomas-mann (토마스 만)",
+      "evidenceLevel": "documented",
+      "summary": "만은 영역 도스토옙스키 선집에 붙인 서문 「절제된 도스토옙스키」에서 그를 니체와 나란히 병을 통해 인식에 이른 작가로 읽었다. 예술의 대가를 질병과 맞바꾸는 계약으로 『파우스트 박사』를 구성한 데에는 이 독법이 깔려 있다.",
+      "anchors": [
+        {
+          "workId": "thomas-mann--doktor-faustus"
+        }
+      ],
+      "sourceIds": [
+        "src--mann-essays-reden"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--mikhail-bulgakov",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "mikhail-bulgakov (미하일 불가코프)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『거장과 마르가리타』의 예루살렘 장(章)은 권력이 진실을 어떻게 처리하는가를 심문하며, 『카라마조프 형제』의 대심문관 삽화가 세운 문제 설정을 이어받는다. 악마를 심판자의 자리에 앉히는 이 구도를 도스토옙스키 계보 안에서 읽는 것이 불가코프 연구의 표준 논점이다.",
+      "anchors": [
+        {
+          "workId": "mikhail-bulgakov--master-i-margarita"
+        },
+        {
+          "workId": "fyodor-dostoevsky--bratya-karamazovy"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "contrast--fyodor-dostoevsky--milan-kundera",
+      "type": "contrast",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "milan-kundera (밀란 쿤데라)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "쿤데라는 「어느 변주곡의 서문」에서 1968년 소련 침공 직후 『백치』 각색 제안을 받고 거절한 뒤 디드로를 택한 경위를 적으며, 감정을 가치의 근거로 삼는 도스토옙스키적 기후에 대한 거부를 밝혔다. 소설사 연구는 이 글과 그것을 반박한 응답들을 두 소설관이 갈라서는 지점으로 다룬다.",
+      "anchors": [
+        {
+          "year": 1968
+        },
+        {
+          "workId": "fyodor-dostoevsky--idiot"
+        }
+      ],
+      "sourceIds": [
+        "src--kundera-introduction-variation-1985"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--jm-coetzee",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "jm-coetzee (J. M. 쿳시)",
+      "evidenceLevel": "documented",
+      "summary": "쿳시는 『페테르부르크의 대가』(1994)에서 도스토옙스키를 주인공으로 세워, 의붓아들의 죽음을 쫓던 작가가 결국 그 죽음을 소설의 재료로 쓰게 되는 과정을 썼다. 남의 고통을 대신 말하는 행위가 정당한가라는 그의 문제가 이 인물 선택에 직접 걸려 있다.",
+      "anchors": [
+        {
+          "year": 1994
+        }
+      ],
+      "sourceIds": [
+        "src--britannica",
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "contrast--fyodor-dostoevsky--vladimir-nabokov",
+      "type": "contrast",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "vladimir-nabokov (블라디미르 나보코프)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "나보코프는 『Lectures on Russian Literature』(1981)에서 도스토옙스키를 값싼 긴장과 감상에 기댄 작가로 깎아내렸다. 죄와 구원의 논쟁을 소설의 중심에 놓는 쪽과, 문장의 정밀함과 독자를 시험하는 장치를 중심에 놓는 쪽이 러시아 산문의 계보를 두 방향으로 가른다.",
+      "anchors": [
+        {
+          "year": 1981
+        }
+      ],
+      "sourceIds": [
+        "src--nabokov-lectures-russian-literature"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--albert-camus",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "albert-camus (알베르 카뮈)",
+      "evidenceLevel": "documented",
+      "summary": "카뮈는 『시지프 신화』에서 『악령』의 키릴로프를 부조리한 자살의 사례로 분석했고, 1959년에는 『악령』 전체를 3부 구성의 희곡으로 각색했다. 청년기부터 이어진 이 독서는 그의 반항 개념이 러시아 소설의 논쟁 구도를 통과했음을 보여준다.",
+      "anchors": [
+        {
+          "workId": "albert-camus--le-mythe-de-sisyphe"
+        },
+        {
+          "workId": "fyodor-dostoevsky--besy"
+        },
+        {
+          "year": 1959
+        }
+      ],
+      "sourceIds": [
+        "src--camus-les-possedes-1959"
+      ]
+    },
+    {
+      "id": "influence--fyodor-dostoevsky--ralph-ellison",
+      "type": "documented_influence",
+      "from": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "to": "ralph-ellison (랠프 엘리슨)",
+      "evidenceLevel": "documented",
+      "summary": "엘리슨은 「세계와 항아리」(1963–64)의 선조 목록에 도스토옙스키를 넣었다. 지하에 들어앉아 자기 상태를 설명하는 익명의 화자로 『보이지 않는 인간』을 열고 닫는 구성은 『지하로부터의 수기』와 함께 읽힌다.",
+      "anchors": [
+        {
+          "workId": "ralph-ellison--invisible-man"
+        },
+        {
+          "workId": "fyodor-dostoevsky--zapiski-iz-podpolya"
+        }
+      ],
+      "sourceIds": [
+        "src--ellison-world-and-the-jug"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--dostoevsky-writers-diary": {
+      "id": "src--dostoevsky-writers-diary",
+      "title": "작가의 일기 (Дневник писателя, 1873–1881)",
+      "publisherOrInstitution": "표도르 도스토옙스키 정기 연재물",
+      "citation": "소설 외부에서 사회·종교·문학관을 직접 서술한 1차 자료 — 후기 장편의 논쟁 구도를 확인하는 데 쓰인다"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--dostoevsky-vremya-notre-dame-1862": {
+      "id": "src--dostoevsky-vremya-notre-dame-1862",
+      "title": "『파리의 노트르담』 러시아어역에 붙인 서문 (『시대(Время)』 1862년 9호)",
+      "publisherOrInstitution": "잡지 『시대(Время)』, 상트페테르부르크",
+      "citation": "도스토옙스키가 위고의 주제를 '몰락한 인간의 회복'으로 요약한 편집자 서문 — 위고 수용의 1차 근거"
+    },
+    "src--dostoevsky-vremya-poe-preface-1861": {
+      "id": "src--dostoevsky-vremya-poe-preface-1861",
+      "title": "«Три рассказа Эдгара Поэ» 서문 (『시대(Время)』, 1861)",
+      "publisherOrInstitution": "Ф. М. Достоевский / журнал «Время»",
+      "citation": "도스토옙스키가 자기 잡지에 포의 단편 세 편을 실으며 직접 붙인 소개문 — 러시아어권 포 수용의 1차 근거"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--steiner-tolstoy-or-dostoevsky": {
+      "id": "src--steiner-tolstoy-or-dostoevsky",
+      "title": "Tolstoy or Dostoevsky: An Essay in the Old Criticism (1959)",
+      "publisherOrInstitution": "Alfred A. Knopf / Faber and Faber — George Steiner",
+      "citation": "톨스토이와 도스토옙스키를 서양 소설의 대립하는 두 극으로 세운 비교 연구. 메레시콥스키의 『톨스토이와 도스토옙스키』(1901–02) 이래의 대비 전통을 20세기 영어권 비평에 정착시킨 책 — 두 사람을 나란히 놓는 학술 전통의 근거"
+    },
+    "src--nietzsche-letter-overbeck-1887": {
+      "id": "src--nietzsche-letter-overbeck-1887",
+      "title": "프란츠 오버베크에게 보낸 편지 (1887. 2. 23., 니스)",
+      "publisherOrInstitution": "프리드리히 니체 서한 — Kritische Gesamtausgabe Briefwechsel 수록",
+      "citation": "서점에서 도스토옙스키 프랑스어 판본을 우연히 발견했다고 알린 편지 — 니체의 도스토옙스키 독서 시점을 확정하는 1차 문헌"
+    },
+    "src--nietzsche-colli-montinari": {
+      "id": "src--nietzsche-colli-montinari",
+      "title": "니체 전집 비판정본 (Kritische Gesamtausgabe / Kritische Studienausgabe, Colli·Montinari 편)",
+      "publisherOrInstitution": "Walter de Gruyter",
+      "citation": "출간본과 유고의 구분, 『권력에의 의지』가 사후 편집물이라는 사실 등 니체 텍스트의 서지 확인용 학술 정본"
+    },
+    "src--kafka-letters-felice": {
+      "id": "src--kafka-letters-felice",
+      "title": "펠리체 바우어에게 보낸 편지 (1913. 9.)",
+      "publisherOrInstitution": "Franz Kafka 서간집",
+      "citation": "그릴파르처·도스토옙스키·클라이스트·플로베르를 자신의 '진짜 혈족'으로 꼽은 편지 — 도스토옙스키 영향의 1차 근거"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--woolf-stavrogins-confession-1922": {
+      "id": "src--woolf-stavrogins-confession-1922",
+      "title": "Stavrogin's Confession (1922) — S. S. 코텔리안스키·버지니아 울프 공역",
+      "publisherOrInstitution": "The Hogarth Press",
+      "citation": "『악령』에서 삭제된 장과 관련 초고를 옮긴 영역본 — 울프가 러시아어 원문 작업에 직접 참여한 번역 사실의 1차 근거"
+    },
+    "src--mann-essays-reden": {
+      "id": "src--mann-essays-reden",
+      "title": "토마스 만 에세이·강연 (Essays und Reden)",
+      "publisherOrInstitution": "S. Fischer Verlag — Thomas Mann",
+      "citation": "「괴테와 톨스토이」(1921년 뤼베크 강연), 「절제된 도스토옙스키」(1946, 영역 도스토옙스키 선집 서문), 「우리 경험에 비추어 본 니체의 철학」(1947년 강연)이 수록된 에세이 모음 — 만이 자기 계보를 직접 지목한 1차 문헌들"
+    },
+    "src--kundera-introduction-variation-1985": {
+      "id": "src--kundera-introduction-variation-1985",
+      "title": "「어느 변주곡의 서문」 (Introduction à une variation, 1985)",
+      "publisherOrInstitution": "『자크와 그의 주인』 서문 / The New York Times Book Review 게재",
+      "citation": "1968년 소련 침공 직후 『백치』 각색 제안을 거절하고 디드로를 택한 경위와, 도스토옙스키적 감정의 기후에 대한 자신의 거부감을 쿤데라가 직접 서술한 글"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--nabokov-lectures-russian-literature": {
+      "id": "src--nabokov-lectures-russian-literature",
+      "title": "『Lectures on Russian Literature』 (Fredson Bowers 편, 1981)",
+      "publisherOrInstitution": "Harcourt Brace Jovanovich",
+      "citation": "코넬대 러시아 문학 강의 노트 — 톨스토이·체호프에 대한 평가와 도스토옙스키에 대한 공개적 폄하가 함께 실린 1차 기록"
+    },
+    "src--camus-les-possedes-1959": {
+      "id": "src--camus-les-possedes-1959",
+      "title": "『Les Possédés』 — 도스토옙스키 『악령』의 3부 희곡 각색 (1959)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "카뮈가 직접 무대용으로 각색한 판본의 간행본 — 도스토옙스키 수용의 1차 근거"
+    },
+    "src--ellison-world-and-the-jug": {
+      "id": "src--ellison-world-and-the-jug",
+      "title": "「The World and the Jug」 (1963–1964, 2부작 평문)",
+      "publisherOrInstitution": "The New Leader",
+      "citation": "어빙 하우의 「Black Boys and Native Sons」에 답하며 흑인 작가를 항의문학으로 환원하는 독법을 거부한 엘리슨의 논쟁문 — 이후 『Shadow and Act』에 수록"
+    }
+  }
+}

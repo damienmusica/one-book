@@ -1,0 +1,398 @@
+{
+  "id": "friedrich-nietzsche",
+  "page": "https://literary-planet.pages.dev/authors/friedrich-nietzsche/",
+  "author": {
+    "names": {
+      "ko": "프리드리히 니체",
+      "original": "Friedrich Nietzsche",
+      "aliases": [
+        "니체",
+        "Friedrich Wilhelm Nietzsche"
+      ]
+    },
+    "birthYear": 1844,
+    "deathYear": 1900,
+    "activeRange": [
+      1872,
+      1888
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "essay-criticism"
+    ],
+    "importanceReason": "철학의 논증을 아포리즘과 시적 산문으로 옮겨 써서, 체계가 아니라 문체로 사유하는 산문의 모형을 남겼다. 『차라투스트라는 이렇게 말했다』는 성서의 문체를 빌린 서사시적 산문이라는 잡종 형식으로, 철학서가 문학 작품으로 읽히는 경로를 열었다. 도덕과 진리를 주어진 사실이 아니라 역사적으로 만들어진 것으로 서술하는 계보학적 방법은 20세기 작가들에게 서술의 대상 자체를 바꾸는 도구가 되었고, 토마스 만과 유진 오닐처럼 그를 직접 자기 전제로 밝힌 작가들부터 실존주의와 부조리 문학까지 그 출발점에 그가 있다.",
+    "readingEntry": "friedrich-nietzsche--zur-genealogie-der-moral",
+    "readingEntryReason": "세 편의 논문이 서로 이어지며 하나의 논증을 끝까지 수행하기 때문에, 아포리즘 사이의 공백을 독자가 메우지 않아도 그가 무엇을 주장하는지 확인할 수 있다.",
+    "readingOrder": [
+      "friedrich-nietzsche--zur-genealogie-der-moral",
+      "friedrich-nietzsche--jenseits-von-gut-und-boese",
+      "friedrich-nietzsche--die-froehliche-wissenschaft",
+      "friedrich-nietzsche--die-geburt-der-tragoedie",
+      "friedrich-nietzsche--also-sprach-zarathustra"
+    ],
+    "readingWarning": "『차라투스트라는 이렇게 말했다』로 시작하는 경로가 가장 흔하지만, 우화와 인유가 앞선 저작의 논증을 전제하고 있어 문장은 읽히는데 어떤 주장인지는 남지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "아포리즘 하나하나는 짧고 문장도 화려해 쉽게 읽히지만 한 권의 논증이 아포리즘들의 배열에 있어서, 문장 단위의 이해와 책 단위의 이해가 어긋난다. 누이가 사후에 편집한 유고 편집물이 그의 저작처럼 유통되어 온 사정도 걸림돌이다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nietzsche-colli-montinari",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "friedrich-nietzsche--die-geburt-der-tragoedie",
+      "titleKo": "비극의 탄생",
+      "titleOriginal": "Die Geburt der Tragödie",
+      "year": 1872,
+      "genre": "essay-criticism",
+      "significance": "그리스 비극을 아폴론적 형식과 디오니소스적 도취의 긴장으로 설명한 첫 저서. 고전문헌학의 절차를 벗어난 서술 때문에 학계에서 배척당했으나, 예술을 인식의 한 방식으로 놓는 20세기 예술론의 출발점이 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nietzsche-colli-montinari"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche--die-froehliche-wissenschaft",
+      "titleKo": "즐거운 학문",
+      "titleOriginal": "Die fröhliche Wissenschaft",
+      "year": 1882,
+      "genre": "essay-criticism",
+      "significance": "아포리즘과 시와 잠언을 섞어 배열한 책으로, 신의 죽음 선언과 영원회귀의 사고 실험이 여기서 처음 제시된다. 철학책의 형식을 단편(斷片)의 집합으로 재설계한 사례다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nietzsche-colli-montinari"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche--also-sprach-zarathustra",
+      "titleKo": "차라투스트라는 이렇게 말했다",
+      "titleOriginal": "Also sprach Zarathustra",
+      "year": 1883,
+      "genre": "essay-criticism",
+      "significance": "성서의 문체를 빌린 서사시적 산문으로 1883년부터 1885년까지 네 부로 나뉘어 나왔고 마지막 부는 사비로 소량만 인쇄되었다. 주장을 인물과 우화로 옮긴 형식 때문에 문학 작품으로 읽히는 철학서가 되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nietzsche-colli-montinari"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche--jenseits-von-gut-und-boese",
+      "titleKo": "선악의 저편",
+      "titleOriginal": "Jenseits von Gut und Böse",
+      "year": 1886,
+      "genre": "essay-criticism",
+      "significance": "번호를 붙인 아포리즘 296개로 철학자들의 편견과 도덕의 근거를 심문한다. 결론 대신 의심의 절차를 보여주는 서술이라 그의 방법이 가장 압축된 책으로 꼽힌다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nietzsche-colli-montinari"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche--zur-genealogie-der-moral",
+      "titleKo": "도덕의 계보",
+      "titleOriginal": "Zur Genealogie der Moral",
+      "year": 1887,
+      "genre": "essay-criticism",
+      "significance": "선악·죄책·금욕의 개념이 어떻게 역사적으로 만들어졌는지를 세 편의 연속된 논문으로 추적한다. 가치가 자연적 사실이 아니라 제작물이라는 계보학적 방법이 여기서 정식화되었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--nietzsche-colli-montinari"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--plato--friedrich-nietzsche",
+      "type": "contrast",
+      "from": "plato (플라톤)",
+      "to": "friedrich-nietzsche (프리드리히 니체)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "니체는 『선악의 저편』(1886) 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 부르며 플라톤이 세운 이데아의 위계를 뒤집는 일을 자기 과제로 삼았고, 하이데거의 『니체』(1961)가 니체의 저작 전체를 '뒤집힌 플라톤주의'의 전개로 읽는 독법을 정식화했다.",
+      "sourceIds": [
+        "src--nietzsche-colli-montinari",
+        "src--heidegger-nietzsche-1961"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--antoine-de-saint-exupery",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "antoine-de-saint-exupery (앙투안 드 생텍쥐페리)",
+      "evidenceLevel": "documented",
+      "summary": "생텍쥐페리는 1926년 11월 편지에 '니체를 옆구리에 끼고 다닌다, 이 사람을 한없이 사랑한다'고 적었다. 올리비에 오데르의 『Saint-Exupéry écrivain』(2018)은 『남방 우편기』와 『성채』의 가치·고귀함 어법을 그 독서와 연결해 다룬다.",
+      "sourceIds": [
+        "src--odaert-saint-exupery-ecrivain"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--hermann-hesse",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "hermann-hesse (헤르만 헤세)",
+      "evidenceLevel": "documented",
+      "summary": "헤세는 1919년 「차라투스트라의 귀환 — 독일 청년에게 보내는 말」을 익명으로 발표해, 니체의 화자를 빌려 전후 독일 청년에게 말하는 형식을 그대로 가져왔다. 『데미안』과 같은 해에 나온 이 소책자가 그의 니체 독서를 드러내는 1차 문서다.",
+      "sourceIds": [
+        "src--hesse-zarathustras-wiederkehr-1919"
+      ]
+    },
+    {
+      "id": "translation--friedrich-nietzsche--imre-kertesz",
+      "type": "translation",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "imre-kertesz (임레 케르테스)",
+      "evidenceLevel": "documented",
+      "summary": "케르테스는 오랫동안 독일어 문학·철학의 헝가리어 번역으로 생계를 꾸렸고 니체는 그가 옮긴 대표적 저자다. 노벨 재단의 전기·저작 기록이 그의 번역 목록에 니체를 올려 두었다.",
+      "sourceIds": [
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--yukio-mishima",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "yukio-mishima (미시마 유키오)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "미시마 연구는 『비극의 탄생』의 아폴론·디오니소스 대립을 그의 미학의 골격으로 다룬다. 그리스 여행 이후의 신체 단련과 『태양과 철』의 육체론이 그 독서 위에서 설명되는 것이 표준적인 독법이다.",
+      "anchors": [
+        {
+          "workId": "friedrich-nietzsche--die-geburt-der-tragoedie"
+        }
+      ],
+      "sourceIds": [
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--thomas-mann",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "thomas-mann (토마스 만)",
+      "evidenceLevel": "documented",
+      "summary": "만은 1947년 강연 「우리 경험에 비추어 본 니체의 철학」에서 니체를 자기 세대의 사상적 전제이자 독일 파국의 공범으로 동시에 다루었다. 『파우스트 박사』의 작곡가 레버퀸에게는 니체의 전기 — 매독 감염과 정신의 붕괴 — 가 거의 그대로 배당되어 있다.",
+      "anchors": [
+        {
+          "year": 1947
+        },
+        {
+          "workId": "thomas-mann--doktor-faustus"
+        }
+      ],
+      "sourceIds": [
+        "src--mann-essays-reden"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--robert-musil",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "robert-musil (로베르트 무질)",
+      "evidenceLevel": "documented",
+      "summary": "무질은 일기에 청년기 니체 전집 독서의 충격을 기록했다. 도덕을 주어진 사실이 아니라 역사적으로 만들어진 것으로 서술하는 방법은 『특성 없는 남자』에서 판단을 유보한 채 사유만 전개하는 에세이즘으로 옮겨 간다.",
+      "anchors": [
+        {
+          "workId": "robert-musil--der-mann-ohne-eigenschaften"
+        }
+      ],
+      "sourceIds": [
+        "src--musil-tagebuecher"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--william-butler-yeats",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "evidenceLevel": "documented",
+      "summary": "예이츠는 1902년 존 퀸이 보내 준 니체를 읽고 레이디 그레고리에게 그가 블레이크를 완성하는 강력한 마술사라고 썼다. 여기서 얻은 대립하는 자아(가면)의 도식은 『비전』의 상징 체계와, 유미적 흐릿함을 버린 후기 시의 단단한 어조로 이어진다.",
+      "anchors": [
+        {
+          "year": 1902
+        }
+      ],
+      "sourceIds": [
+        "src--yeats-collected-letters"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--jorge-luis-borges",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 『영원의 역사』(1936)에 실은 「순환의 교리」에서 니체의 영원회귀를 정면으로 검토하고 반박했다. 그러면서도 순환하는 시간과 반복되는 생은 이후 그의 단편이 되풀이해 쓰는 전제로 남았다. 동의가 아니라 반복된 반박이 영향의 형태였다.",
+      "anchors": [
+        {
+          "year": 1936
+        }
+      ],
+      "sourceIds": [
+        "src--borges-historia-de-la-eternidad-1936",
+        "src--nietzsche-colli-montinari"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--albert-camus",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "albert-camus (알베르 카뮈)",
+      "evidenceLevel": "documented",
+      "summary": "『반항하는 인간』(1951)은 니체를 한 장에 걸쳐 다루며, 신의 죽음 이후 남는 허무주의를 반항이 넘어서야 할 관문으로 설정한다. 카뮈는 니체를 계승하면서도 그의 이름으로 정당화된 20세기의 폭력과는 갈라서는 방식으로 읽었다.",
+      "anchors": [
+        {
+          "workId": "albert-camus--l-homme-revolte"
+        }
+      ],
+      "sourceIds": [
+        "src--camus-homme-revolte-1951"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--lu-xun",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 도쿄 유학 시절 문언으로 쓴 「문화편지론(文化偏至論)」에서 니체와 슈티르너를 끌어와, 다수의 물질문명에 맞서 개인의 정신을 세우는 논지를 폈다. 뒤에는 『차라투스트라는 이렇게 말했다』의 서문을 중국어로 옮기기도 했다.",
+      "anchors": [
+        {
+          "workId": "friedrich-nietzsche--also-sprach-zarathustra"
+        }
+      ],
+      "sourceIds": [
+        "src--lu-xun-henan-essays-1907-08",
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--hermann-broch",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "hermann-broch (헤르만 브로흐)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『몽유병자들』에 삽입된 논문 장 「가치의 붕괴」는 신이 죽은 뒤 가치 체계가 서로 무관한 부분 논리로 쪼개진다는 진단을 소설 안으로 들여온다. 브로흐 연구는 이 진단의 출발점을 니체 이후의 니힐리즘 문제로 놓는다.",
+      "anchors": [
+        {
+          "workId": "hermann-broch--die-schlafwandler"
+        }
+      ],
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--fyodor-dostoevsky--friedrich-nietzsche (→ fyodor-dostoevsky 의 슬레이트에서 본다)",
+    "influence--charles-baudelaire--friedrich-nietzsche (→ charles-baudelaire 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nietzsche-colli-montinari": {
+      "id": "src--nietzsche-colli-montinari",
+      "title": "니체 전집 비판정본 (Kritische Gesamtausgabe / Kritische Studienausgabe, Colli·Montinari 편)",
+      "publisherOrInstitution": "Walter de Gruyter",
+      "citation": "출간본과 유고의 구분, 『권력에의 의지』가 사후 편집물이라는 사실 등 니체 텍스트의 서지 확인용 학술 정본"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--heidegger-nietzsche-1961": {
+      "id": "src--heidegger-nietzsche-1961",
+      "title": "Nietzsche (전 2권)",
+      "publisherOrInstitution": "Verlag Günther Neske, Pfullingen",
+      "citation": "Martin Heidegger, Nietzsche, 2 Bde. (Pfullingen: Neske, 1961) — 니체의 저작을 뒤집힌 플라톤주의로 읽는 독법을 정식화한 연구"
+    },
+    "src--odaert-saint-exupery-ecrivain": {
+      "id": "src--odaert-saint-exupery-ecrivain",
+      "title": "Saint-Exupéry écrivain",
+      "publisherOrInstitution": "Olivier Odaert, Presses universitaires de Louvain (2018)",
+      "citation": "생텍쥐페리의 글쓰기 형성과 니체 독서의 흔적을 추적한 연구 — 1926년 편지를 포함한 서한 자료를 다룬다"
+    },
+    "src--hesse-zarathustras-wiederkehr-1919": {
+      "id": "src--hesse-zarathustras-wiederkehr-1919",
+      "title": "Zarathustras Wiederkehr. Ein Wort an die deutsche Jugend",
+      "publisherOrInstitution": "Hermann Hesse (1919, 익명 발표)",
+      "url": "https://www.suhrkamp.de/buch/hermann-hesse-zarathustras-wiederkehr-t-9783518387283",
+      "citation": "니체의 차라투스트라를 화자로 빌려 전후 독일 청년에게 말한 소책자 — 니체 독서의 1차 근거"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--mann-essays-reden": {
+      "id": "src--mann-essays-reden",
+      "title": "토마스 만 에세이·강연 (Essays und Reden)",
+      "publisherOrInstitution": "S. Fischer Verlag — Thomas Mann",
+      "citation": "「괴테와 톨스토이」(1921년 뤼베크 강연), 「절제된 도스토옙스키」(1946, 영역 도스토옙스키 선집 서문), 「우리 경험에 비추어 본 니체의 철학」(1947년 강연)이 수록된 에세이 모음 — 만이 자기 계보를 직접 지목한 1차 문헌들"
+    },
+    "src--musil-tagebuecher": {
+      "id": "src--musil-tagebuecher",
+      "title": "로베르트 무질 일기 (Tagebücher, Adolf Frisé 편)",
+      "publisherOrInstitution": "Rowohlt Verlag",
+      "citation": "청년기 니체 독서의 충격과 에세이즘 구상의 형성 과정을 무질 자신이 기록한 1차 자료"
+    },
+    "src--yeats-collected-letters": {
+      "id": "src--yeats-collected-letters",
+      "title": "W. B. 예이츠 서간집 (The Collected Letters of W. B. Yeats)",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "1902년 존 퀸이 보낸 니체를 읽고 레이디 그레고리에게 쓴 편지 등 — 예이츠의 독서와 인적 관계의 1차 근거"
+    },
+    "src--borges-historia-de-la-eternidad-1936": {
+      "id": "src--borges-historia-de-la-eternidad-1936",
+      "title": "『영원의 역사』 수록 「순환의 교리」 (Historia de la eternidad, 1936)",
+      "publisherOrInstitution": "Editorial Viau y Zona, Buenos Aires",
+      "citation": "니체의 영원회귀를 정면으로 검토하고 반박한 보르헤스의 에세이 — 니체 수용의 1차 문헌"
+    },
+    "src--camus-homme-revolte-1951": {
+      "id": "src--camus-homme-revolte-1951",
+      "title": "『L'Homme révolté』 (1951)",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "니체와 19세기 러시아 테러리즘을 포함한 반항의 계보를 다룬 논고 — 니체 수용의 1차 문헌이자 『현대』지 논쟁의 발단 텍스트"
+    },
+    "src--lu-xun-henan-essays-1907-08": {
+      "id": "src--lu-xun-henan-essays-1907-08",
+      "title": "루쉰 초기 문언 논문 — 『하남(河南)』 게재 (도쿄, 1907–1908)",
+      "publisherOrInstitution": "재일 중국인 유학생 잡지 『河南』",
+      "citation": "「문화편지론(文化偏至論)」·「마라시력설(摩羅詩力說)」 등이 실린 지면 — 니체·슈티르너·입센 수용과 개인주의 논지가 처음 정식화된 1차 자료"
+    },
+    "src--lu-xun-quanji": {
+      "id": "src--lu-xun-quanji",
+      "title": "『魯迅全集』 주석·연보",
+      "publisherOrInstitution": "人民文學出版社",
+      "citation": "루쉰 저작의 초출 지면·발표 연도·필명이 정리된 정본 전집의 주석과 연보"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    }
+  }
+}

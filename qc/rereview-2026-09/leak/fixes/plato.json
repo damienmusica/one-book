@@ -1,0 +1,22 @@
+{
+  "fixes": [
+    {
+      "id": "plato",
+      "importanceReason": "철학을 논문이 아니라 인물들이 부딪치는 대화로 씀으로써 결론보다 묻는 과정을 문장에 남겼고, 스승의 재판과 죽음을 기록해 사유가 도시와 충돌하는 장면을 하나의 서사로 만들었다. 대화편은 논증과 희극적 장면과 신화(동굴, 영혼의 마차)를 한 편 안에 섞어 놓아 철학 저술이 문학 형식을 빌리는 표본이 되었고, 『국가』 10권의 시인 추방론은 시드니의 『시의 옹호』가 반박하는 상대가 되었다.",
+      "works": [
+        {
+          "id": "plato--politeia",
+          "significance": "정의란 무엇인가라는 물음에서 출발해 이상 국가의 설계, 선분과 동굴의 비유, 시인 추방론까지 열 권으로 이어진다. 문학을 모방의 모방으로 규정한 10권은 시드니의 『시의 옹호』가 반박하는 상대가 되었다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "importanceReason",
+          "claim": "그 시인 추방론은 이후 시 옹호론들이 반박해야 할 상대로 남았다.",
+          "resolution": "narrowed",
+          "evidence": "The note verifies only that specific defences answer Plato; the quote (re-fetched from the Wikipedia raw text this session) covers Sidney alone: \"Sidney primarily addresses more general objections to poetry, such as those of Plato\". The Shelley half of the note is not borne out: the fetched A_Defence_of_Poetry article says Shelley \"nominated unlikely figures such as Plato and Jesus\" as users of poetic language, not that he rebuts Plato. The generalisation was still on the page twice: importanceReason said \"시드니의 『시의 옹호』를 비롯한 후대의 시 옹호론이 반박하는 상대로 남았다\" and plato--politeia significance still carried the claim's own wording, \"이후 시 옹호론이 반박해야 할 상대가 되었다\". Both now name only the verified instance: \"『국가』 10권의 시인 추방론은 시드니의 『시의 옹호』가 반박하는 상대가 되었다.\" / \"10권은 시드니의 『시의 옹호』가 반박하는 상대가 되었다.\""
+        }
+      ]
+    }
+  ]
+}

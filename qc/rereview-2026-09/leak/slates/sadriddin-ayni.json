@@ -1,0 +1,144 @@
+{
+  "id": "sadriddin-ayni",
+  "page": "https://literary-planet.pages.dev/authors/sadriddin-ayni/",
+  "author": {
+    "names": {
+      "ko": "사드리딘 아이니",
+      "original": "Садриддин Айнӣ",
+      "aliases": [
+        "Sadriddin Ayni",
+        "صدرالدین عینی"
+      ]
+    },
+    "birthYear": 1878,
+    "deathYear": 1954,
+    "activeRange": [
+      1899,
+      1954
+    ],
+    "languages": [
+      "tg"
+    ],
+    "regions": [
+      "central-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "1917년 부하라 아미르의 명으로 곤장 75대를 맞고 갇혔다가 카간의 노동자·병사 대표 소비에트가 보낸 볼셰비키들의 손에 풀려난 뒤, 그 사회를 산문 서사로 되돌려 썼다. 『오디나』에서 『노예들』까지 그는 부하라의 예속을 인물의 생애로 서술했고, 『타지크 문학 표본』(1926)으로는 루다키 이래의 페르시아어 문학이 타지크의 것이기도 하다는 주장을 문헌 증거로 제출했다. 만년의 네 권짜리 『회상록』은 혁명 이전 부하라를 한 사람의 기억으로 복원한다.",
+    "readingEntry": "sadriddin-ayni--margi-sudkhur",
+    "readingEntryReason": "인색한 고리대금업자 한 사람을 일화로 따라가는 짧은 풍자 중편이라 하루면 읽히고, 아이니가 부하라를 보는 눈 — 웃기면서 동시에 냉정한 — 이 가장 잘 드러난다.",
+    "readingOrder": [
+      "sadriddin-ayni--margi-sudkhur",
+      "sadriddin-ayni--odina",
+      "sadriddin-ayni--ghulomon",
+      "sadriddin-ayni--yoddoshtho"
+    ],
+    "readingWarning": "『회상록』 네 권으로 시작하면 부하라의 지명과 인명이 먼저 쏟아져 진도가 나가지 않는다. 짧은 소설로 그 도시를 한 번 겪은 뒤에 회상록을 펴는 편이 낫다. 『타지크 문학 표본』은 선집과 해설을 묶은 편찬물이라 이 순서에서 뺐고, 아이니의 주장은 그 책의 구성과 해설에서 따로 확인하면 된다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 평이한 서술체지만 부하라 아미르국의 관직 체계, 마드라사 제도, 고리대 관행이 설명 없이 전제된다. 『회상록』은 네 권 분량에 서로 독립된 이야기들이 잇달아 놓인 구성이라 별도의 인내가 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--encyclopaedia-iranica",
+      "src--khalid-jadidism-central-asia"
+    ]
+  },
+  "works": [
+    {
+      "id": "sadriddin-ayni--margi-sudkhur",
+      "titleKo": "고리대금업자의 죽음",
+      "titleOriginal": "Марги судхӯр",
+      "year": 1939,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "부하라의 고리대금업자 코리 이슈캄바의 인색함을 일화로 쌓아 올린 풍자 중편. 웃음의 대상으로 시작한 인물이 끝에 가면 한 사회의 경제 구조를 설명하는 자리로 옮겨 간다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sadriddin-ayni--yoddoshtho",
+      "titleKo": "회상록",
+      "titleOriginal": "Ёддоштҳо",
+      "year": 1949,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "1949년부터 1954년까지 네 권으로 쓴 자전적 회상록. 혁명 이전 부하라의 마드라사와 장인들의 세계를 소년기의 시선으로 복원했고, 아이니의 마지막 주저로 그의 이전 문학 작업 전체를 종합한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sadriddin-ayni--namunai-adabiyoti-tojik",
+      "titleKo": "타지크 문학 표본",
+      "titleOriginal": "Намунаи адабиёти тоҷик",
+      "year": 1926,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "루다키 이래 페르시아어 문학의 선집과 해설을 묶어 1926년 모스크바에서 펴낸 책. 중앙아시아의 민족 경계가 새로 그어지던 시기에 타지크가 독자적 문학 전통을 가진다는 주장을 문헌 증거로 제출했다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sadriddin-ayni--ghulomon",
+      "titleKo": "노예들",
+      "titleOriginal": "Ғуломон",
+      "year": 1934,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "19세기 부하라에서 소비에트 초기까지 한 예속 가문의 여러 세대를 따라가는 장편. 1934년 우즈베크어로 먼저 나왔고 타지크어판은 이듬해에 나왔다. 부하라의 노예 제도를 개인의 불행이 아니라 세대를 건너 지속되는 제도로 보이게 한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sadriddin-ayni--odina",
+      "titleKo": "오디나",
+      "titleOriginal": "Одина",
+      "year": 1924,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "산간 마을의 가난한 젊은이가 새 삶을 이루려다 끝내 좌절하는 과정을 따라간 중편. 타지크어 산문 소설의 출발점으로 다뤄지는 텍스트다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "affinity--abdulla-qodiriy--sadriddin-ayni",
+      "type": "affinity",
+      "from": "abdulla-qodiriy (압둘라 코디리)",
+      "to": "sadriddin-ayni (사드리딘 아이니)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "아디브 할리드의 『우즈베키스탄 만들기』(2015)는 혁명 이후의 우즈베크 문화 정치를 서술하면서 코디리와 아이니를 같은 개혁 세대의 인물로 다루고, 같은 저자의 『무슬림 문화개혁의 정치』(1998)는 1917년 이전 자디드 국면을 다룬다. 아이니는 시와 계몽 논설에서, 코디리는 희곡과 신문 풍자에서 출발해 둘 다 산문 서사로 옮겨 갔다.",
+      "sourceIds": [
+        "src--khalid-making-uzbekistan-2015",
+        "src--khalid-jadidism-central-asia"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--encyclopaedia-iranica": {
+      "id": "src--encyclopaedia-iranica",
+      "title": "Encyclopædia Iranica — 표제 항목",
+      "publisherOrInstitution": "Encyclopaedia Iranica Foundation / Columbia University",
+      "url": "https://iranicaonline.org",
+      "citation": "이란 문학·역사 전문 백과 — 헤다야트의 생애와 저작 연표 확인용"
+    },
+    "src--khalid-jadidism-central-asia": {
+      "id": "src--khalid-jadidism-central-asia",
+      "title": "The Politics of Muslim Cultural Reform: Jadidism in Central Asia",
+      "publisherOrInstitution": "University of California Press",
+      "citation": "아디브 할리드(1998) — 중앙아시아 자디드 운동을 다룬 표준 연구서로, 코디리·아이니·피트라트를 같은 개혁 국면의 인물로 함께 다룬다"
+    },
+    "src--khalid-making-uzbekistan-2015": {
+      "id": "src--khalid-making-uzbekistan-2015",
+      "title": "Making Uzbekistan: Nation, Empire, and Revolution in the Early USSR",
+      "publisherOrInstitution": "Cornell University Press",
+      "citation": "Adeeb Khalid, Making Uzbekistan: Nation, Empire, and Revolution in the Early USSR (Ithaca: Cornell University Press, 2015) — 1920–30년대 우즈베크 문화 정치와 코디리를 정면으로 다룬 연구"
+    }
+  }
+}

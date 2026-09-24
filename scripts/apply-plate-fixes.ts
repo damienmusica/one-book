@@ -6,7 +6,7 @@
 //
 //   npx tsx scripts/apply-plate-fixes.ts <fixes.json> --key <wave> [--write]
 //
-// 입력: { fixes: [ { id, importanceReason?, difficulty?, difficultyReason?, readingEntry?,
+// 입력: { fixes: [ { id, activeRange?, importanceReason?, difficulty?, difficultyReason?, readingEntry?,
 //   readingEntryReason?, readingOrder?, readingWarning?, works?: [{ id, significance?, titleKo?, year?, yearBasis? }],
 //   relations?: [{ id, summary?, evidenceLevel?, sourceIds?, weight? }],
 //   newSources?: [{ id, title, publisherOrInstitution, citation?, url? }]  ← 총칭 출처 대신 실재 연구,
@@ -88,6 +88,12 @@ for (const f of fixes) {
   const row = findRow(files.authorFiles, id);
   if (!row) { skipped.push({ id, why: "원본 파일에서 못 찾음" }); continue; }
 
+  // 활동 구간 — close-read 가 생몰·활동 연도를 고칠 때(2026-09-24: 애트우드 [1961, 2025]). 두 정수, 앞이 뒤보다 작거나 같다.
+  if (Array.isArray(f.activeRange)) {
+    const [from = NaN, to = NaN] = f.activeRange.map(Number);
+    if (Number.isInteger(from) && Number.isInteger(to) && from <= to) { row.activeRange = [from, to]; fieldEdits++; log.push(`${id}.activeRange=${from}-${to}`); }
+    else skipped.push({ id, why: `activeRange ${JSON.stringify(f.activeRange)}` });
+  }
   for (const k of ["importanceReason", "difficultyReason", "readingEntryReason", "readingWarning"] as const) {
     if (typeof f[k] === "string" && f[k].trim()) {
       const v = f[k].trim();

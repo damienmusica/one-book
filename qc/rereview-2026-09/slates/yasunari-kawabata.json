@@ -1,0 +1,272 @@
+{
+  "id": "yasunari-kawabata",
+  "page": "https://literary-planet.pages.dev/authors/yasunari-kawabata/",
+  "author": {
+    "names": {
+      "ko": "가와바타 야스나리",
+      "original": "川端康成",
+      "aliases": [
+        "가와바타",
+        "Kawabata Yasunari"
+      ]
+    },
+    "birthYear": 1899,
+    "deathYear": 1972,
+    "activeRange": [
+      1924,
+      1968
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [
+      "new-sensationism"
+    ],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "1924년 잡지 『문예시대』를 창간해 신감각파의 중심에 섰고, 서구 아방가르드의 감각 실험을 짧은 일본어 문장에 옮겨 심었다. 이후 사건의 인과를 잘라내고 장면 사이에 여백을 두는 서술을 확립해, 온천장·다실 같은 닫힌 공간의 감각만으로 이야기를 진행시켰다. 1968년 일본어권 최초로 노벨문학상을 받았고, 수상 강연 「아름다운 일본의 나」에서 자기 작업을 중세 선(禪)과 와카의 계보에 접속시켰다. 이 자기규정은 이후 일본문학이 해외에서 읽히는 틀이 되었고, 오에 겐자부로가 1994년 강연에서 정면으로 되받는 대상이 되었다.",
+    "readingEntry": "yasunari-kawabata--izu-no-odoriko",
+    "readingEntryReason": "한 시간 남짓의 분량 안에 가와바타의 방법이 다 들어 있다. 감정을 진술하지 않고 날씨와 거리와 소리로만 옮기는 서술을 가장 적은 부담으로 확인할 수 있다.",
+    "readingOrder": [
+      "yasunari-kawabata--izu-no-odoriko",
+      "yasunari-kawabata--yukiguni",
+      "yasunari-kawabata--senbazuru",
+      "yasunari-kawabata--yama-no-oto",
+      "yasunari-kawabata--nemureru-bijo"
+    ],
+    "readingWarning": "만년작 『잠자는 미녀』부터 집으면 노년의 성애라는 소재가 앞서 보여, 장면 사이의 생략으로 서사를 미는 방법이 가려진다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 어휘도 평이하지만 장면과 장면 사이의 생략이 커서 인과를 독자가 메워야 한다. 다도·계절어·전통 예능의 어휘가 각주 없이 지나가는 대목도 많다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--kawabata-nobel-lecture",
+      "src--keene-dawn-to-the-west",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "yasunari-kawabata--izu-no-odoriko",
+      "titleKo": "이즈의 무희",
+      "titleOriginal": "伊豆の踊子",
+      "year": 1926,
+      "genre": "fiction",
+      "significance": "고등학생 화자와 유랑 예인 일행이 이즈 반도를 함께 걷는 며칠을 사건 없이 따라간다. 감정을 진술하지 않고 날씨·소리·거리의 변화로만 옮기는 가와바타의 서술이 처음 완성된 단편이다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yasunari-kawabata--yukiguni",
+      "titleKo": "설국",
+      "titleOriginal": "雪国",
+      "year": 1935,
+      "genre": "fiction",
+      "significance": "1935년 잡지 연재로 시작해 1937년 단행본을 거쳐 1948년에야 완결된 장편이다. 눈에 갇힌 온천장이라는 닫힌 무대에서 도쿄에서 온 남자와 게이샤의 관계를 사건 대신 계절과 거리의 변화로 진행시킨다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yasunari-kawabata--senbazuru",
+      "titleKo": "천 마리 학",
+      "titleOriginal": "千羽鶴",
+      "year": 1949,
+      "genre": "fiction",
+      "significance": "다도의 도구와 예법을 인물 관계의 매개로 삼아, 아버지 세대의 관계가 아들 세대로 그대로 이월되는 과정을 찻잔 하나의 내력으로 서술한다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yasunari-kawabata--yama-no-oto",
+      "titleKo": "산소리",
+      "titleOriginal": "山の音",
+      "year": 1949,
+      "genre": "fiction",
+      "significance": "노년의 회사원이 아들 부부의 파탄을 곁에서 지켜보는 시점으로, 죽음이 다가오는 감각을 밤에 들리는 산의 소리라는 하나의 청각 이미지에 고정시킨 장편이다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    },
+    {
+      "id": "yasunari-kawabata--nemureru-bijo",
+      "titleKo": "잠자는 미녀",
+      "titleOriginal": "眠れる美女",
+      "year": 1960,
+      "genre": "fiction",
+      "significance": "약으로 잠든 여자 곁에서 밤을 보내는 노인들의 업소를 무대로, 말이 오가지 않는 관계만 남겨 감각과 기억의 서술을 끝까지 밀어붙인 중편이다.",
+      "sourceIds": [
+        "src--keene-dawn-to-the-west",
+        "src--kr-world-lit-editions"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--murasaki-shikibu--yasunari-kawabata",
+      "type": "documented_influence",
+      "from": "murasaki-shikibu (무라사키 시키부)",
+      "to": "yasunari-kawabata (가와바타 야스나리)",
+      "evidenceLevel": "documented",
+      "summary": "가와바타는 노벨문학상 수상 강연 「아름다운 일본의 나」(1968)에서 『겐지 이야기』를 일본 소설의 최고봉으로 들고, 헤이안 시대의 문학을 일본 예술 전반의 자양으로 말했다.",
+      "sourceIds": [
+        "src--kawabata-nobel-lecture"
+      ]
+    },
+    {
+      "id": "dialogue--yasunari-kawabata--osamu-dazai",
+      "type": "dialogue",
+      "from": "yasunari-kawabata (가와바타 야스나리)",
+      "to": "osamu-dazai (다자이 오사무)",
+      "evidenceLevel": "documented",
+      "summary": "제1회 아쿠타가와상 심사에서 가와바타가 다자이의 「역행」을 두고 작가의 생활을 문제 삼는 심사평을 쓰자, 다자이는 1935년 10월 「가와바타 야스나리에게」를 발표해 공개적으로 반박했다. 이듬해에는 같은 상대에게 수상을 청원하는 편지를 보냈다.",
+      "anchors": [
+        {
+          "year": 1935
+        }
+      ],
+      "sourceIds": [
+        "src--dazai-kawabata-yasunari-e-1935",
+        "src--dazai-akutagawa-sho-shokan"
+      ]
+    },
+    {
+      "id": "mentorship--yasunari-kawabata--yukio-mishima",
+      "type": "mentorship",
+      "from": "yasunari-kawabata (가와바타 야스나리)",
+      "to": "yukio-mishima (미시마 유키오)",
+      "evidenceLevel": "documented",
+      "summary": "패전 직후 가마쿠라의 가와바타를 찾아간 스무 살의 미시마는 원고를 보였고, 가와바타의 추천으로 1946년 잡지 『인간』에 「담배」가 실리며 전후 문단에 등단했다. 두 사람은 1970년까지 서한을 주고받았고 그 왕복 서간은 단행본으로 묶여 있다.",
+      "anchors": [
+        {
+          "year": 1946
+        },
+        {
+          "year": 1970
+        }
+      ],
+      "sourceIds": [
+        "src--kawabata-mishima-ofuku-shokan",
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "dialogue--yasunari-kawabata--kobo-abe",
+      "type": "dialogue",
+      "from": "yasunari-kawabata (가와바타 야스나리)",
+      "to": "kobo-abe (아베 고보)",
+      "evidenceLevel": "documented",
+      "summary": "1967년 2월 가와바타와 아베는 이시카와 준·미시마 유키오와 함께 중국 문화대혁명의 학문·예술 탄압에 항의하는 공동성명을 발표했다. 세대도 방법도 전혀 다른 두 작가가 같은 문서에 이름을 올린 자리다.",
+      "anchors": [
+        {
+          "year": 1967
+        }
+      ],
+      "sourceIds": [
+        "src--bunka-daikakumei-kyodo-seimei-1967"
+      ]
+    },
+    {
+      "id": "contrast--yasunari-kawabata--kenzaburo-oe",
+      "type": "contrast",
+      "from": "yasunari-kawabata (가와바타 야스나리)",
+      "to": "kenzaburo-oe (오에 겐자부로)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "가와바타의 1968년 수상 강연 「아름다운 일본의 나」는 자기 작업을 중세 선과 와카의 계보에 접속시켰다. 오에는 1994년 강연 「애매한 일본의 나」에서 그 제목을 한 낱말만 바꿔 인용하며, 근대 일본이 서구와 아시아 사이에서 찢겨 있다는 사실을 덮는 자기규정이라고 반박했다.",
+      "anchors": [
+        {
+          "year": 1968
+        },
+        {
+          "year": 1994
+        }
+      ],
+      "sourceIds": [
+        "src--kawabata-nobel-lecture",
+        "src--oe-nobel-lecture"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--ryunosuke-akutagawa--yasunari-kawabata (→ ryunosuke-akutagawa 의 슬레이트에서 본다)",
+    "influence--james-joyce--yasunari-kawabata (→ james-joyce 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--kawabata-nobel-lecture": {
+      "id": "src--kawabata-nobel-lecture",
+      "title": "「아름다운 일본의 나」 (美しい日本の私, 1968년 노벨문학상 수상 강연)",
+      "publisherOrInstitution": "Svenska Akademien 수상 강연 기록",
+      "citation": "가와바타가 자기 작업을 중세 선(禪)·와카의 계보로 규정한 1차 발언 — 오에의 1994년 강연이 직접 되받는 대상"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--dazai-kawabata-yasunari-e-1935": {
+      "id": "src--dazai-kawabata-yasunari-e-1935",
+      "title": "「가와바타 야스나리에게(川端康成へ)」 (1935. 10.)",
+      "publisherOrInstitution": "『文藝通信』 게재 — 다자이 오사무 산문",
+      "citation": "제1회 아쿠타가와상 심사평에 다자이가 실명으로 반박한 공개 문서 — 두 사람의 공개 논쟁의 1차 문헌"
+    },
+    "src--dazai-akutagawa-sho-shokan": {
+      "id": "src--dazai-akutagawa-sho-shokan",
+      "title": "아쿠타가와상 청원 서간 (1935–1936, 사토 하루오·가와바타 야스나리 앞)",
+      "publisherOrInstitution": "『太宰治全集』 서간 권 (筑摩書房)",
+      "citation": "제2·3회 아쿠타가와상 수상을 심사위원들에게 직접 청원한 다자이의 편지들 — 아쿠타가와상 집착의 1차 근거"
+    },
+    "src--kawabata-mishima-ofuku-shokan": {
+      "id": "src--kawabata-mishima-ofuku-shokan",
+      "title": "『川端康成・三島由紀夫 往復書簡』 (가와바타 야스나리·미시마 유키오 왕복서간)",
+      "publisherOrInstitution": "新潮社",
+      "citation": "미시마가 1940년대 중반 보낸 첫 편지부터 1970년까지 이어진 두 사람의 서한을 모은 책 — 등단 추천과 이후 교유의 1차 근거"
+    },
+    "src--bunka-daikakumei-kyodo-seimei-1967": {
+      "id": "src--bunka-daikakumei-kyodo-seimei-1967",
+      "title": "중국 문화대혁명에 관한 공동성명 (1967. 2. 28.)",
+      "publisherOrInstitution": "가와바타 야스나리·이시카와 준·아베 고보·미시마 유키오 공동 발표 — 일본 각 일간지 게재",
+      "citation": "네 작가가 학문·예술의 자유 탄압에 항의해 함께 낸 성명 — 세 사람이 같은 문서에 이름을 올린 1차 기록"
+    },
+    "src--oe-nobel-lecture": {
+      "id": "src--oe-nobel-lecture",
+      "title": "「애매한 일본의 나」 (あいまいな日本の私, 1994년 노벨문학상 수상 강연)",
+      "publisherOrInstitution": "Svenska Akademien 수상 강연 기록",
+      "citation": "가와바타의 1968년 강연 제목을 바꿔 인용하며 '아름다운 일본'이라는 자기규정을 반박한 1차 발언"
+    }
+  }
+}

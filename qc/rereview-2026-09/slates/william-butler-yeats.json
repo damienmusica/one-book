@@ -1,0 +1,342 @@
+{
+  "id": "william-butler-yeats",
+  "page": "https://literary-planet.pages.dev/authors/william-butler-yeats/",
+  "author": {
+    "names": {
+      "ko": "윌리엄 버틀러 예이츠",
+      "original": "William Butler Yeats",
+      "aliases": [
+        "예이츠",
+        "Yeats",
+        "W. B. Yeats"
+      ]
+    },
+    "birthYear": 1865,
+    "deathYear": 1939,
+    "activeRange": [
+      1885,
+      1939
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [
+      "symbolism",
+      "modernism"
+    ],
+    "genres": [
+      "poetry",
+      "drama"
+    ],
+    "importanceReason": "아일랜드 신화와 민담을 영어 시의 재료로 끌어와 문예부흥의 어휘를 만들고, 애비 극장을 세워 그 언어에 상설 무대를 붙였다. 1910년대 이후에는 초기의 유미적이고 흐릿한 상징을 버리고 구어의 리듬과 단단한 명사로 자기 시를 다시 썼는데, 노년에 문체를 통째로 갈아엎은 이 전환 자체가 이후 영어 시의 참조 사례가 되었다. 일본 노(能)의 형식을 빌려 무대 장치와 사실주의적 재현을 걷어낸 무용극을 시도해, 시극이 산문 사실주의 연극과 다른 경로로 갈 수 있음을 보였다.",
+    "readingEntry": "william-butler-yeats--the-tower",
+    "readingEntryReason": "얇은 시집 한 권에 「비잔티움으로의 항해」, 「1919년」, 「학교 아이들 사이에서」가 모여 있어, 후기 예이츠의 문체와 사상이 한 번에 잡힌다.",
+    "readingOrder": [
+      "william-butler-yeats--the-tower",
+      "william-butler-yeats--the-winding-stair-and-other-poems",
+      "william-butler-yeats--the-wind-among-the-reeds",
+      "william-butler-yeats--at-the-hawks-well"
+    ],
+    "readingWarning": "초기 시집부터 연대순으로 읽기 시작하면, 켈트 박명기의 흐릿한 상징과 낯선 아일랜드 고유명에 막혀 정작 그를 20세기 시인으로 만든 후기작에 닿지 못한다.",
+    "difficulty": 3,
+    "difficultyReason": "시행 자체는 명료하고 소리 내어 읽히지만, 아일랜드 신화·정치사와 『비전』에서 스스로 만든 상징 체계(나선, 달의 위상)를 배경에 깔고 있어 주석 없이는 고유명이 계속 미끄러진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--nobelprize",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "william-butler-yeats--the-wind-among-the-reeds",
+      "titleKo": "갈대숲의 바람",
+      "titleOriginal": "The Wind Among the Reeds",
+      "year": 1899,
+      "genre": "poetry",
+      "significance": "켈트 박명기 예이츠의 정점. 아일랜드 전설의 인물과 프랑스 상징주의의 어법을 결합해 문예부흥 시의 어휘를 만들었고, 뒷날 그가 의식적으로 버리게 될 문체이기도 하다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "william-butler-yeats--cathleen-ni-houlihan",
+      "titleKo": "캐슬린 니 훌리한",
+      "titleOriginal": "Cathleen ni Houlihan",
+      "year": 1902,
+      "genre": "drama",
+      "significance": "노파의 모습으로 나타난 아일랜드가 청년에게 목숨을 요구하는 단막극. 아일랜드 국민극장 운동의 상징이 되었고, 예이츠 자신이 뒷날 이 극이 사람들을 죽음으로 보냈는지 자문하게 만든 작품이다.",
+      "sourceIds": [
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "william-butler-yeats--at-the-hawks-well",
+      "titleKo": "매의 우물에서",
+      "titleOriginal": "At the Hawk's Well",
+      "year": 1917,
+      "genre": "drama",
+      "significance": "일본 노(能)의 형식을 빌려 가면과 악사만으로 상연하는 무용극. 무대 장치와 사실주의적 재현을 걷어내, 시극이 상업 극장 밖에서 갈 수 있는 경로를 열었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "william-butler-yeats--the-tower",
+      "titleKo": "탑",
+      "titleOriginal": "The Tower",
+      "year": 1928,
+      "genre": "poetry",
+      "significance": "「비잔티움으로의 항해」, 「1919년」, 「학교 아이들 사이에서」가 실린 후기 대표 시집. 늙는 몸과 내전의 폭력을 구어의 리듬과 단단한 명사로 서술하는, 그가 예순 넘어 새로 만든 문체의 결정판이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    },
+    {
+      "id": "william-butler-yeats--the-winding-stair-and-other-poems",
+      "titleKo": "나선 계단",
+      "titleOriginal": "The Winding Stair and Other Poems",
+      "year": 1933,
+      "genre": "poetry",
+      "significance": "「비잔티움」과 크레이지 제인 연작을 담은 시집. 앞 시집의 초월 지향을 스스로 반박하며 육체와 지상의 삶으로 돌아오는데, 두 권을 나란히 읽어야 이 논쟁이 보인다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--poetry-foundation"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--sophocles--william-butler-yeats",
+      "type": "translation",
+      "from": "sophocles (소포클레스)",
+      "to": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "evidenceLevel": "documented",
+      "summary": "예이츠는 『오이디푸스 왕』을 애비 극장 상연용 대본으로 고쳐 썼고, 1926년 12월 초연을 거쳐 1928년 『Sophocles' King Oedipus: A Version for the Modern Stage』로 출간했다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--yeats-collected-letters"
+      ]
+    },
+    {
+      "id": "influence--william-butler-yeats--kenzaburo-oe",
+      "type": "documented_influence",
+      "from": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "to": "kenzaburo-oe (오에 겐자부로)",
+      "evidenceLevel": "documented",
+      "summary": "오에는 1994년 수상 강연 「애매한 일본의 나」에서 1923년 아일랜드 상원이 예이츠에게 바친 결의문을 인용하며 자신이 따르고 싶은 자리로 삼았다. 마지막 장편으로 예고한 3부작 『타오르는 푸른 나무』의 제목도 예이츠의 시에서 가져온 것이다.",
+      "anchors": [
+        {
+          "year": 1994
+        },
+        {
+          "workId": "kenzaburo-oe--moeagaru-midori-no-ki"
+        }
+      ],
+      "sourceIds": [
+        "src--oe-nobel-lecture"
+      ]
+    },
+    {
+      "id": "dialogue--william-butler-yeats--james-joyce",
+      "type": "dialogue",
+      "from": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "to": "james-joyce (제임스 조이스)",
+      "evidenceLevel": "documented",
+      "summary": "1902년 더블린에서 스무 살의 조이스가 서른일곱의 예이츠를 만난 자리는 선배가 너무 늙었다고 잘라 말한 일화로 남았지만, 예이츠는 이후 그를 아서 시먼스와 파운드에게 연결해 주고 문학기금 지원을 주선했다. 1932년에는 아일랜드 문예 아카데미에 그를 초청했고 조이스는 거절했다.",
+      "anchors": [
+        {
+          "year": 1902
+        },
+        {
+          "year": 1932
+        }
+      ],
+      "sourceIds": [
+        "src--ellmann-james-joyce"
+      ]
+    },
+    {
+      "id": "influence--william-butler-yeats--ts-eliot",
+      "type": "documented_influence",
+      "from": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 1940년 애비 극장에서 열린 제1회 예이츠 강연에서, 노년에 문체를 통째로 갈아엎은 예이츠를 자기 세대가 가진 가장 중요한 사례로 들었다. 『네 개의 사중주』의 「리틀 기딩」에 나오는 낯익은 혼령의 대목은 그 예이츠를 불러 세운 자리로 읽힌다.",
+      "anchors": [
+        {
+          "year": 1940
+        },
+        {
+          "workId": "ts-eliot--four-quartets"
+        }
+      ],
+      "sourceIds": [
+        "src--eliot-on-poetry-and-poets-1957"
+      ]
+    },
+    {
+      "id": "influence--william-butler-yeats--chinua-achebe",
+      "type": "documented_influence",
+      "from": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "to": "chinua-achebe (치누아 아체베)",
+      "evidenceLevel": "documented",
+      "summary": "『모든 것이 산산이 부서지다』(1958)의 제목과 제사는 예이츠의 「재림」에서 왔다. 중심이 버티지 못하고 사물이 흩어진다는 그 구절을 아체베는 백인의 도착이 아니라 그 이전부터 벌어져 있던 이보 사회 내부의 균열에 붙였다.",
+      "anchors": [
+        {
+          "workId": "chinua-achebe--things-fall-apart"
+        }
+      ],
+      "sourceIds": [
+        "src--heinemann-african-writers-series"
+      ]
+    },
+    {
+      "id": "influence--william-butler-yeats--derek-walcott",
+      "type": "documented_influence",
+      "from": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "to": "derek-walcott (데릭 월컷)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "월컷의 초기 시는 예이츠 세대가 다듬은 영어 정형 운율을 카리브의 지형과 인물에 그대로 적용하는 데서 출발했고, 그는 아일랜드 작가들을 위대한 언어를 물려받은 식민지인으로 부르며 자기 처지를 그 위에 겹쳐 놓았다. 영어권 시 연구는 이 계보를 반복해 다룬다.",
+      "sourceIds": [
+        "src--poetry-foundation",
+        "src--paris-review"
+      ]
+    },
+    {
+      "id": "influence--william-butler-yeats--samuel-beckett",
+      "type": "documented_influence",
+      "from": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "to": "samuel-beckett (사뮈엘 베케트)",
+      "evidenceLevel": "documented",
+      "summary": "베케트의 후기 텔레비전극 「…but the clouds…」는 제목과 종결부를 예이츠의 시 「탑」(시집 『탑』, 1928)에서 그대로 가져왔다. 아일랜드를 떠나 프랑스어로 쓰던 시기의 베케트가 아일랜드 시의 구절을 무대 장치로 끌어 쓴 사례다.",
+      "anchors": [
+        {
+          "workId": "william-butler-yeats--the-tower"
+        }
+      ],
+      "sourceIds": [
+        "src--beckett-but-the-clouds"
+      ]
+    },
+    {
+      "id": "mentorship--william-butler-yeats--rabindranath-tagore",
+      "type": "mentorship",
+      "from": "william-butler-yeats (윌리엄 버틀러 예이츠)",
+      "to": "rabindranath-tagore (라빈드라나트 타고르)",
+      "evidenceLevel": "documented",
+      "summary": "예이츠는 타고르가 스스로 영역한 『Song Offerings』(1912) 초판에 서문을 쓰고 런던 문단에 그를 소개했으며, 이듬해의 노벨문학상 수상은 이 통로를 거쳤다. 그 선집에 들어간 53편은 벵골어 『기탄잘리』(1910)에서 온 것이지만 두 책의 수록 구성은 같지 않다 — 영어권이 만난 타고르는 그가 스스로 고르고 다시 쓴 판본이었다. 문학적 사사가 아니라 영어권 진입을 매개한 편집자적 후원으로 기록한다.",
+      "anchors": [
+        {
+          "year": 1912
+        },
+        {
+          "workId": "rabindranath-tagore--gitanjali"
+        }
+      ],
+      "sourceIds": [
+        "src--gitanjali-song-offerings-1912",
+        "src--bnwiki-gitanjali",
+        "src--nobelprize"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--friedrich-nietzsche--william-butler-yeats (→ friedrich-nietzsche 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--yeats-collected-letters": {
+      "id": "src--yeats-collected-letters",
+      "title": "W. B. 예이츠 서간집 (The Collected Letters of W. B. Yeats)",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "1902년 존 퀸이 보낸 니체를 읽고 레이디 그레고리에게 쓴 편지 등 — 예이츠의 독서와 인적 관계의 1차 근거"
+    },
+    "src--oe-nobel-lecture": {
+      "id": "src--oe-nobel-lecture",
+      "title": "「애매한 일본의 나」 (あいまいな日本の私, 1994년 노벨문학상 수상 강연)",
+      "publisherOrInstitution": "Svenska Akademien 수상 강연 기록",
+      "citation": "가와바타의 1968년 강연 제목을 바꿔 인용하며 '아름다운 일본'이라는 자기규정을 반박한 1차 발언"
+    },
+    "src--ellmann-james-joyce": {
+      "id": "src--ellmann-james-joyce",
+      "title": "James Joyce (1959, 개정판 1982)",
+      "publisherOrInstitution": "Oxford University Press — Richard Ellmann",
+      "citation": "조이스 표준 전기 — 1902년 예이츠와의 첫 만남, 예이츠의 소개와 문학기금 주선, 1932년 아일랜드 문예 아카데미 초청과 거절 등 인적 관계의 표준 근거"
+    },
+    "src--eliot-on-poetry-and-poets-1957": {
+      "id": "src--eliot-on-poetry-and-poets-1957",
+      "title": "On Poetry and Poets (1957)",
+      "publisherOrInstitution": "Faber and Faber — T. S. Eliot",
+      "citation": "1940년 애비 극장에서 열린 제1회 예이츠 강연 「예이츠」가 수록된 평론집"
+    },
+    "src--heinemann-african-writers-series": {
+      "id": "src--heinemann-african-writers-series",
+      "title": "Heinemann African Writers Series 총서 해제·연보",
+      "publisherOrInstitution": "Heinemann Educational Books",
+      "citation": "1962년 아체베의 『모든 것이 산산이 부서지다』를 1번으로 창간되어 아체베·응구기·살리흐의 영역본을 영어권 표준 판본으로 만든 총서 — 발표 연도와 영역 수용사 확인용"
+    },
+    "src--paris-review": {
+      "id": "src--paris-review",
+      "title": "The Paris Review — Art of Fiction / Art of Poetry 인터뷰",
+      "publisherOrInstitution": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "citation": "작가가 자기 영향·독서를 명시적으로 밝힌 1차 인터뷰 기록"
+    },
+    "src--beckett-but-the-clouds": {
+      "id": "src--beckett-but-the-clouds",
+      "title": "텔레비전극 「…but the clouds…」 (1976년 집필, BBC 방영)",
+      "publisherOrInstitution": "Faber and Faber (희곡 판본) / BBC",
+      "citation": "제목과 종결부를 예이츠의 시 「탑」에서 가져온 후기 텔레비전극 — 예이츠 인용의 1차 근거. 정확한 방영 연월은 QC가 확인한다"
+    },
+    "src--gitanjali-song-offerings-1912": {
+      "id": "src--gitanjali-song-offerings-1912",
+      "title": "『Song Offerings』 초판 (1912), 예이츠 서문",
+      "publisherOrInstitution": "The India Society, London",
+      "citation": "타고르가 직접 영어로 옮긴 선집 초판 — 벵골어 『기탄잘리』(1910)와 수록 구성이 같지 않다는 사실의 1차 근거"
+    },
+    "src--bnwiki-gitanjali": {
+      "id": "src--bnwiki-gitanjali",
+      "title": "গীতাঞ্জলি — 벵골어 위키백과",
+      "publisherOrInstitution": "bn.wikipedia.org",
+      "url": "https://bn.wikipedia.org/wiki/%E0%A6%97%E0%A7%80%E0%A6%A4%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%B2%E0%A6%BF",
+      "citation": "초판 서지 — 1910년 9월 5일(벵골력 1317년 바드로월) 콜카타 인디언 퍼블리싱 하우스, 사티시찬드라 미트라 발행, 칸틱 프레스의 모틸랄 강고파디아이 인쇄. 시들이 1908–09년 여러 잡지에 먼저 실렸다는 사실도 여기서 온다",
+      "accessedAt": "2026-08-27"
+    }
+  }
+}

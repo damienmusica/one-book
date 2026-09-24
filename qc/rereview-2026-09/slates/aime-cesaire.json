@@ -1,0 +1,270 @@
+{
+  "id": "aime-cesaire",
+  "page": "https://literary-planet.pages.dev/authors/aime-cesaire/",
+  "author": {
+    "names": {
+      "ko": "에메 세제르",
+      "original": "Aimé Césaire",
+      "aliases": [
+        "세제르",
+        "Aime Cesaire",
+        "에메 세자르"
+      ]
+    },
+    "birthYear": 1913,
+    "deathYear": 2008,
+    "activeRange": [
+      1939,
+      1982
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "caribbean"
+    ],
+    "movements": [
+      "negritude",
+      "postcolonial-literature"
+    ],
+    "genres": [
+      "poetry",
+      "drama",
+      "essay-criticism"
+    ],
+    "importanceReason": "1939년의 장시 『귀향 수첩』에서 '네그리튀드'라는 말을 만들어, 식민지가 부과한 흑인이라는 규정을 거부가 아니라 선언의 자리로 뒤집었다. 초현실주의의 이미지 연쇄를 프랑스어 시행에 끌어들이되 그 폭발력을 카리브의 지리와 노예제의 역사에 묶어 두어, 아방가르드의 기법을 정치적 발화의 도구로 전환했다. 『식민주의에 대한 담론』은 식민 지배가 피지배자보다 지배자를 먼저 야만화한다는 논리로 유럽의 자기 이미지를 되받아쳤고, 그의 제자였던 파농을 비롯한 다음 세대의 출발점이 되었다. 셰익스피어 『템페스트』를 칼리반의 자리에서 다시 쓴 후기 희곡은 정전 다시 쓰기라는 절차를 무대의 형식으로 옮긴 사례다.",
+    "readingEntry": "aime-cesaire--discours-sur-le-colonialisme",
+    "readingEntryReason": "100쪽이 채 되지 않는 산문 논고이고 논지가 직선적이어서, 난해한 시로 들어가기 전에 세제르가 무엇과 싸우고 있는지를 먼저 확보할 수 있다.",
+    "readingOrder": [
+      "aime-cesaire--discours-sur-le-colonialisme",
+      "aime-cesaire--une-tempete",
+      "aime-cesaire--cahier-dun-retour-au-pays-natal",
+      "aime-cesaire--les-armes-miraculeuses"
+    ],
+    "readingWarning": "『기적의 무기』 같은 초현실주의 시집부터 시작하면 참조점 없는 이미지의 연쇄만 남아 세제르의 시가 무엇을 겨누는지 잡히지 않는다.",
+    "difficulty": 4,
+    "difficultyReason": "신조어와 폭발적인 이미지 연쇄가 통사를 계속 끊고, 카리브의 식물·지명·노예제 관련 고유명이 주석 없이는 해독되지 않는다. 산문 논고만 예외적으로 평이하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--presence-africaine",
+      "src--cesaire-discours-colonialisme",
+      "src--kr-world-lit-editions"
+    ]
+  },
+  "works": [
+    {
+      "id": "aime-cesaire--cahier-dun-retour-au-pays-natal",
+      "titleKo": "귀향 수첩",
+      "titleOriginal": "Cahier d'un retour au pays natal",
+      "year": 1939,
+      "genre": "poetry",
+      "significance": "'네그리튀드'라는 말이 처음 등장한 장시. 마르티니크로 돌아오는 시선에서 시작해 식민지의 궁핍을 열거하다가 흑인성의 선언으로 돌아서는 구조를 취하며, 1947년과 1956년의 개정으로 시행이 크게 달라졌다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--presence-africaine"
+      ]
+    },
+    {
+      "id": "aime-cesaire--les-armes-miraculeuses",
+      "titleKo": "기적의 무기",
+      "titleOriginal": "Les Armes miraculeuses",
+      "year": 1946,
+      "genre": "poetry",
+      "significance": "초현실주의의 자동기술에 가까운 이미지 연쇄를 카리브의 화산·식물·바다의 어휘로 채운 첫 정규 시집. 세제르의 시가 정치적 발화이면서 동시에 아방가르드 실험이라는 점이 가장 뚜렷하게 드러난다.",
+      "sourceIds": [
+        "src--presence-africaine"
+      ]
+    },
+    {
+      "id": "aime-cesaire--discours-sur-le-colonialisme",
+      "titleKo": "식민주의에 대한 담론",
+      "titleOriginal": "Discours sur le colonialisme",
+      "year": 1950,
+      "genre": "essay-criticism",
+      "significance": "식민 지배가 피지배자를 파괴하기 전에 지배자를 먼저 야만화한다는 논변으로 유럽 인문주의의 자기 이미지를 되받아친 짧은 논고. 1955년 증보판이 널리 읽혔다.",
+      "sourceIds": [
+        "src--cesaire-discours-colonialisme",
+        "src--presence-africaine"
+      ]
+    },
+    {
+      "id": "aime-cesaire--la-tragedie-du-roi-christophe",
+      "titleKo": "크리스토프 왕의 비극",
+      "titleOriginal": "La Tragédie du roi Christophe",
+      "year": 1963,
+      "genre": "drama",
+      "significance": "아이티 혁명 이후 왕이 된 앙리 크리스토프를 통해, 해방된 자가 세운 국가가 다시 강제 노동과 위계를 만드는 과정을 무대에 올린다. 탈식민 이후의 권력을 다룬 세제르 희곡 3부작의 출발점이다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--presence-africaine"
+      ]
+    },
+    {
+      "id": "aime-cesaire--une-tempete",
+      "titleKo": "어떤 폭풍우",
+      "titleOriginal": "Une tempête",
+      "year": 1969,
+      "genre": "drama",
+      "significance": "셰익스피어 『템페스트』를 흑인 극단을 위해 다시 쓴 각색. 칼리반을 반란하는 피식민자로, 아리엘을 타협하는 혼혈 지식인으로 배치해 원작의 배역 구도 자체를 식민 관계의 도해로 바꾸었다.",
+      "sourceIds": [
+        "src--britannica",
+        "src--presence-africaine"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--aime-cesaire--edouard-glissant",
+      "type": "contrast",
+      "from": "aime-cesaire (에메 세제르)",
+      "to": "edouard-glissant (에두아르 글리상)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "글리상은 『앙티유 담론』(1981)에서 네그리튀드의 아프리카 회귀를 마르티니크의 현실과 어긋난 좌표로 보고, 1960년대부터 제기해 온 '앙티야니테'를 그 대안으로 체계화한다. 프랑스어권 카리브 사상사가 반복해 다루는 세대적 대립축이다.",
+      "sourceIds": [
+        "src--glissant-discours-antillais-1981"
+      ]
+    },
+    {
+      "id": "mentorship--aime-cesaire--frantz-fanon",
+      "type": "mentorship",
+      "from": "aime-cesaire (에메 세제르)",
+      "to": "frantz-fanon (프란츠 파농)",
+      "evidenceLevel": "documented",
+      "summary": "파농은 포르드프랑스의 리세 셸셰르에서 세제르에게 배웠고, 『검은 피부, 하얀 가면』(1952)은 『귀향 수첩』의 구절을 거듭 인용하며 스승의 네그리튀드를 검증한다.",
+      "sourceIds": [
+        "src--fanon-peau-noire-1952"
+      ]
+    },
+    {
+      "id": "influence--aime-cesaire--clr-james",
+      "type": "documented_influence",
+      "from": "aime-cesaire (에메 세제르)",
+      "to": "clr-james (C. L. R. 제임스)",
+      "evidenceLevel": "documented",
+      "summary": "제임스는 『블랙 자코뱅』 1963년 개정판 부록 「투생 루베르튀르에서 피델 카스트로까지」에서 세제르의 『귀향 수첩』을 직접 번역해 길게 분석하며, 카리브의 자기 규정 문제를 아이티 혁명의 연장선에 놓는다.",
+      "sourceIds": [
+        "src--james-black-jacobins-appendix-1963"
+      ]
+    },
+    {
+      "id": "contrast--william-shakespeare--aime-cesaire",
+      "type": "contrast",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "aime-cesaire (에메 세제르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "세제르는 『어떤 태풍』(1969)에서 『템페스트』를 캘리번을 흑인 노예로, 에어리얼을 혼혈 노예로 바꿔 다시 썼고, 탈식민 비평은 이 되받아 쓰기를 카리브 문학의 대표 사례로 다룬다.",
+      "sourceIds": [
+        "src--cesaire-une-tempete-1969"
+      ]
+    },
+    {
+      "id": "contrast--aime-cesaire--wole-soyinka",
+      "type": "contrast",
+      "from": "aime-cesaire (에메 세제르)",
+      "to": "wole-soyinka (월레 소잉카)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "소잉카는 1960년대 초 네그리튀드를 겨눠 호랑이는 자기의 호랑이다움을 선포하지 않는다고 말했고, 『신화, 문학, 아프리카 세계』(1976)에서 그 비판을 이론으로 정식화했다. 세제르가 만든 흑인성의 선언과, 선언 대신 행위로 증명하라는 소잉카의 반론이 아프리카 문학의 오래된 대립축이다.",
+      "anchors": [
+        {
+          "year": 1976
+        }
+      ],
+      "sourceIds": [
+        "src--soyinka-myth-literature-african-world",
+        "src--makerere-conference-1962"
+      ]
+    },
+    {
+      "id": "contrast--aime-cesaire--derek-walcott",
+      "type": "contrast",
+      "from": "aime-cesaire (에메 세제르)",
+      "to": "derek-walcott (데릭 월컷)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "월컷은 「역사의 뮤즈」(1974)에서 식민 지배에 대한 원한의 문학과 잃어버린 아프리카에 대한 향수의 문학을 함께 거부하고, 카리브의 시인을 사물에 처음 이름을 붙이는 아담의 자리에 놓았다. 세제르가 네그리튀드로 세운 회복의 서사와 월컷의 이 거부가 카리브 시의 두 방향이다.",
+      "anchors": [
+        {
+          "year": 1974
+        }
+      ],
+      "sourceIds": [
+        "src--walcott-muse-of-history",
+        "src--cesaire-discours-colonialisme"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "affinity--alejo-carpentier--aime-cesaire (→ alejo-carpentier 의 슬레이트에서 본다)",
+    "affinity--cesar-vallejo--aime-cesaire (→ cesar-vallejo 의 슬레이트에서 본다)"
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--presence-africaine": {
+      "id": "src--presence-africaine",
+      "title": "Présence Africaine — 잡지·출판사 (1947년 창간)",
+      "publisherOrInstitution": "Présence Africaine",
+      "citation": "프랑스어권 흑인 작가들의 발표 지면이자 정본 판본 발행처 — 네그리튀드 세대의 발표 연도 확인용"
+    },
+    "src--cesaire-discours-colonialisme": {
+      "id": "src--cesaire-discours-colonialisme",
+      "title": "Discours sur le colonialisme (1950, 증보판 1955)",
+      "publisherOrInstitution": "Éditions Réclame / Présence Africaine",
+      "citation": "식민 지배가 지배자를 먼저 야만화한다는 세제르의 논변 — 네그리튀드에서 탈식민 이론으로 이어지는 1차 문헌"
+    },
+    "src--kr-world-lit-editions": {
+      "id": "src--kr-world-lit-editions",
+      "kind": "general-reference",
+      "title": "국내 주요 세계문학전집 해설 (민음사·문학동네·을유문화사·창비 등)",
+      "publisherOrInstitution": "국내 문학 출판사",
+      "citation": "한국어 통용 번역 제목과 국내 수용사 확인용 — 제목은 출판사별로 다를 수 있어 원제를 병기한다"
+    },
+    "src--glissant-discours-antillais-1981": {
+      "id": "src--glissant-discours-antillais-1981",
+      "title": "Le Discours antillais (1981)",
+      "publisherOrInstitution": "Éditions du Seuil (Paris)",
+      "citation": "글리상의 앙티야니테 선언에 해당하는 에세이집 — 네그리튀드에 대한 그의 거리 두기가 여기에 기술되어 있다."
+    },
+    "src--fanon-peau-noire-1952": {
+      "id": "src--fanon-peau-noire-1952",
+      "title": "Peau noire, masques blancs (1952)",
+      "publisherOrInstitution": "Éditions du Seuil (Paris)",
+      "citation": "파농의 첫 저작 — 세제르의 『귀향 수첩』 인용과 사르트르 「검은 오르페우스」 논박이 여기에 있다."
+    },
+    "src--james-black-jacobins-appendix-1963": {
+      "id": "src--james-black-jacobins-appendix-1963",
+      "title": "「From Toussaint L'Ouverture to Fidel Castro」 — The Black Jacobins 개정판 부록 (1963)",
+      "publisherOrInstitution": "Vintage Books (New York)",
+      "citation": "제임스가 1963년 재판에 붙인 부록 — 카리브 문학과 세제르를 아이티 혁명의 연장선에서 논한다."
+    },
+    "src--cesaire-une-tempete-1969": {
+      "id": "src--cesaire-une-tempete-1969",
+      "title": "Une tempête (1969)",
+      "publisherOrInstitution": "Aimé Césaire / Éditions du Seuil",
+      "citation": "『템페스트』를 캘리번 중심으로 다시 쓴 희곡 — 탈식민 재기술의 1차 텍스트"
+    },
+    "src--soyinka-myth-literature-african-world": {
+      "id": "src--soyinka-myth-literature-african-world",
+      "title": "Myth, Literature and the African World (1976)",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "소잉카가 요루바 세계관을 문학 이론으로 정식화하고 네그리튀드를 비판한 1차 문헌"
+    },
+    "src--makerere-conference-1962": {
+      "id": "src--makerere-conference-1962",
+      "title": "영어로 쓰는 아프리카 작가 회의 (Conference of African Writers of English Expression, 마케레레 대학, 캄팔라, 1962년 6월)",
+      "publisherOrInstitution": "Makerere University College / Transition (Kampala)",
+      "citation": "아체베·소잉카·응구기가 함께 참석해 아프리카 문학의 언어와 범위를 논한 회의 — 인적 교류와 논쟁의 1차 기록"
+    },
+    "src--walcott-muse-of-history": {
+      "id": "src--walcott-muse-of-history",
+      "title": "The Muse of History (1974)",
+      "publisherOrInstitution": "Is Massa Day Dead? (Anchor Press) 수록 에세이",
+      "citation": "식민 지배에 대한 원한의 문학과 향수의 문학을 모두 거부한 월컷의 입장 — 네그리튀드 계열과 갈라서는 지점의 1차 문헌"
+    }
+  }
+}
