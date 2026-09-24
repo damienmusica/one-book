@@ -1,0 +1,861 @@
+{
+  "plates": [
+    {
+      "id": "raymond-carver",
+      "claims": [
+        {
+          "sids": [
+            "50af2cf4d9c7"
+          ],
+          "field": "author.facts",
+          "claim": "카버는 1938년에 태어나 1988년에 죽었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "Raymond Carver , in full Raymond Clevie Carver , (born May 25, 1938, Clatskanie, Oregon , U.S.—died August 2, 1988, Port Angeles , Washington)"
+        },
+        {
+          "sids": [
+            "50af2cf4d9c7"
+          ],
+          "field": "author.facts",
+          "claim": "영어로 쓴 북아메리카(미국) 작가다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "American short-story writer and poet whose realistic writings about the working poor mirrored his own life"
+        },
+        {
+          "sids": [
+            "ff3661fe61af"
+          ],
+          "field": "author.importanceReason",
+          "claim": "미국 태평양 연안 북서부 노동 빈곤층의 일상을 단편으로 썼다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "In his short stories Carver chronicled the everyday lives and problems of the working poor in the Pacific Northwest ."
+        },
+        {
+          "sids": [
+            "ff3661fe61af"
+          ],
+          "field": "author.importanceReason",
+          "claim": "인물들은 파경과 돈 문제, 직업의 실패에 무너진다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "His blue-collar characters are crushed by broken marriages, financial problems, and failed careers"
+        },
+        {
+          "sids": [
+            "ff3661fe61af"
+          ],
+          "field": "author.importanceReason",
+          "claim": "인물 가운데에는 실직자가 있고 술에 취해 있다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "unemployed salesmen, waitresses, motel managers -- in the midst of disheartening lives. … They drop their characters back down where they find them, inarticulate and alone, drunk at noon."
+        },
+        {
+          "sids": [
+            "24a6e8d3abf0"
+          ],
+          "field": "author.importanceReason",
+          "claim": "의자·포크 같은 평범한 사물과 무심해 보이는 대사 한 줄에 큰 힘을 싣는 글쓰기에 가장 관심이 있다고 스스로 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "to endow those things - a chair, a window curtain, a fork, a stone, a woman's earrings - with immense, even startling power. It is possible to write a line of seemingly innocuous dialogue and have it send a chill along the reader's spine - the source of artistic delight, as Nabokov would have it. That's the kind of writing that most interests me."
+        },
+        {
+          "sids": [
+            "24a6e8d3abf0"
+          ],
+          "field": "author.importanceReason",
+          "claim": "긴장은 빠진 것과 암시된 것에서도 나온다고 스스로 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "What creates tension in a piece of fiction is partly the way the concrete words are linked together to make up the visible action of the story. But it's also the things that are left out, that are implied"
+        },
+        {
+          "sids": [
+            "24a6e8d3abf0"
+          ],
+          "field": "author.importanceReason",
+          "claim": "카버 자신이 설명과 결말을 덜어내는 글쓰기를 지향했다",
+          "verdict": "contradicted",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "Lish cut about half the original words and rewrote 10 of the 13 endings.",
+          "correction": "『사랑을 말할 때 우리가 이야기하는 것』 무렵의 단편은 설명과 결말이 크게 덜어진 모습으로 나왔지만, 그 결말을 잘라내고 고쳐 쓴 것은 상당 부분 편집자 고든 리시였다.",
+          "note": "D. T. Max가 릴리 도서관 원고로 확인한 바 결말 삭제·개작은 리시의 손. 카버 스스로는 『파리 리뷰』에서 그 시기 '골수까지' 깎아냈다고 말했을 뿐 결말을 덜어내는 것을 지향했다고 말한 대목은 찾지 못함."
+        },
+        {
+          "sids": [
+            "7bfe2992ce5a"
+          ],
+          "field": "author.importanceReason",
+          "claim": "리시가 『사랑을 말할 때 우리가 이야기하는 것』(1981) 원고의 절반가량을 덜어냈다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "In the case of Carver's 1981 collection, \"What We Talk About When We Talk About Love,\" Lish cut about half the original words and rewrote 10 of the 13 endings."
+        },
+        {
+          "sids": [
+            "7bfe2992ce5a"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 책으로 ‘미니멀리스트’라 불렸다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "In a review of the last book, somebody called me a “minimalist” writer."
+        },
+        {
+          "sids": [
+            "7bfe2992ce5a"
+          ],
+          "field": "author.importanceReason",
+          "claim": "카버는 ‘미니멀리스트’라는 이름을 싫어했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "The reviewer meant it as a compliment. But I didn't like it. There's something about “minimalist” that smacks of smallness of vision and execution that I don't like."
+        },
+        {
+          "sids": [
+            "7bfe2992ce5a"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『대성당』에서는 인물들이 서로에게 가 닿는 결말로 나아갔다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "이러한 희망의 모습은 표제작인 「대성당」과 「별것 아니지만, 도움이 되는」에서 가장 극명하게 제시된다. … 하지만 이들의 단절이 가장 극에 달한 순간, 놀랍게도 카버는 진정한 소통의 가능성을 보여준다."
+        },
+        {
+          "sids": [
+            "3cb3f5e11977"
+          ],
+          "field": "author.importanceReason",
+          "claim": "20세기 후반 영어 단편소설을 되살리는 데 기여한 작가로 평가된다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "He is credited with helping revitalize the genre of the English-language short story in the late 20th century."
+        },
+        {
+          "sids": [
+            "869d013f6230"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『대성당』에는 단편 열두 편이 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "표제작 「대성당」을 비롯해 「별것 아닌 것 같지만, 도움이 되는」 「깃털들」 등 총 열두 편의 단편이 실려 있는 이 작품집은"
+        },
+        {
+          "sids": [
+            "4f3a26cdf280"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "카버는 표제작 「대성당」이 이전 작품과 다르다고 스스로 말했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "And then the first story I wrote was “Cathedral,” which I feel is totally different in conception and execution from any stories that have come before."
+        },
+        {
+          "sids": [
+            "4f3a26cdf280"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「별것 아닌 것 같지만, 도움이 되는」은 인물들이 서로에게 가 닿는 결말로 끝난다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "같은 일이 「별것 아닌 것 같지만, 도움이 되는」에서도 일어났습니다. 한 부부가 빵집 주인과 함께 있습니다. … 그 부부는 아이의 죽음을 받아들일 수 있게 되죠. 그게 긍정적이라는 겁니다."
+        },
+        {
+          "sids": [
+            "4f3a26cdf280"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "초·중기 단편집은 『대성당』보다 생략이 더 심하다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "But the early collections, which Lish edited, are stripped to the bone. They are minimalist in style with an almost abstract feel. They drop their characters back down where they find them, inarticulate and alone, drunk at noon. The later two collections are fuller, touched by optimism, even sentimentality."
+        },
+        {
+          "sids": [
+            "86516caa4c15"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "김연수가 옮긴 판이 문학동네 세계문학전집 119로 나와 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "문학동네 세계문학전집-119 \n 대성당 \n 레이먼드 카버 저/ 김연수 역"
+        },
+        {
+          "sids": [
+            "86516caa4c15"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 판은 2014년 개정판이고 348쪽이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "발행일 \n 2014년 05월 23일 \n 쪽수, 무게, 크기 \n 348쪽 | 453g | 140*210*30mm"
+        },
+        {
+          "sids": [
+            "86516caa4c15"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 판은 지금 판매 중이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "판매중",
+          "note": "2026-09-24 예스24 상품 페이지의 판매 상태 표시."
+        },
+        {
+          "sids": [
+            "3900f1dd4a52"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『풋내기들』은 『사랑을 말할 때 우리가 이야기하는 것』의 열일곱 편을 편집 전 원고로 되살린 책이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/What_We_Talk_About_When_We_Talk_About_Love",
+          "quote": "Carver's widow, Tess Gallagher, fought with Knopf for permission to republish the 17 stories in What We Talk About When We Talk About Love as they were originally written by Carver. … These original versions eventually appeared in Beginners, published by Jonathan Cape in 2009"
+        },
+        {
+          "sids": [
+            "ceafa0d0ae43"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "카버의 문장은 간결하고 일상적인 대화로 되어 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "카버는 간결한 문체와 일상적인 대화로 이들의 삶을 스케치하듯 보여준다."
+        },
+        {
+          "sids": [
+            "4c07b135559b"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "카버는 긴장이 빠진 것과 암시된 것에서 나온다고 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "But it's also the things that are left out, that are implied, the landscape just under the smooth (but sometimes broken and unsettled) surface of things."
+        },
+        {
+          "sids": [
+            "4c07b135559b"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『사랑을 말할 때 우리가 이야기하는 것』의 단편들은 설명 없이 인물을 말 못 하는 채로 두고 끝난다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "But the early collections, which Lish edited, are stripped to the bone. … They drop their characters back down where they find them, inarticulate and alone, drunk at noon."
+        },
+        {
+          "sids": [
+            "1350295fdea3"
+          ],
+          "field": "work:raymond-carver--beginners.facts",
+          "claim": "『풋내기들』(Beginners)은 2009년에 처음 출간된 단편집이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beginners_(short_story_collection)",
+          "quote": "Carver's original version of the collection, under his original title, was published in 2009, after his death."
+        },
+        {
+          "sids": [
+            "72b4ce73be52"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "『사랑을 말할 때 우리가 이야기하는 것』의 열일곱 편을 리시 편집 전 원고대로 되살렸다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/What_We_Talk_About_When_We_Talk_About_Love",
+          "quote": "Carver's widow, Tess Gallagher, fought with Knopf for permission to republish the 17 stories in What We Talk About When We Talk About Love as they were originally written by Carver. … These original versions eventually appeared in Beginners"
+        },
+        {
+          "sids": [
+            "72b4ce73be52"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "카버 사후 2009년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beginners_(short_story_collection)",
+          "quote": "Carver's original version of the collection, under his original title, was published in 2009, after his death."
+        },
+        {
+          "sids": [
+            "ffa2145ab22e"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "리시는 일부 작품의 제목과 인물 이름을 바꿨다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beginners_(short_story_collection)",
+          "quote": "His edits included cutting up to 78% of some stories, retitling stories, changing endings, and renaming characters."
+        },
+        {
+          "sids": [
+            "ffa2145ab22e"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "리시는 거의 모든 결말을 바꾸거나 잘라냈다",
+          "verdict": "contradicted",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "Lish cut about half the original words and rewrote 10 of the 13 endings.",
+          "correction": "리시는 일부 작품의 제목과 인물 이름을 바꾸고, D. T. 맥스가 원고로 확인한 열세 편 가운데 열 편의 결말을 고쳐 썼으며, 70퍼센트 넘게 덜어낸 단편도 있었다.",
+          "note": "'거의 모든'은 출처가 말하는 양(13편 중 10편)보다 넓다. 브리태니커는 'altered the endings of some stories'로 적는다."
+        },
+        {
+          "sids": [
+            "ffa2145ab22e"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "70퍼센트 넘게 덜어낸 단편도 있었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "Lish was shown to have changed characters’ names, cut the length of many stories (over 75 percent of the text in two cases), and altered the endings of some stories."
+        },
+        {
+          "sids": [
+            "0e7acc936d55"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "편집본과 원고본이 함께 나와 있어 한 편씩 대조할 수 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beginners_(short_story_collection)",
+          "quote": "Carver's original version of the whole collection was included in the 2009 Collected Stories, alongside Lish's version of the collection."
+        },
+        {
+          "sids": [
+            "4c7674a0b5a7"
+          ],
+          "field": "work:raymond-carver--all-of-us.facts",
+          "claim": "『우리 모두』(All of Us: The Collected Poems)는 1996년에 나온 시집이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Raymond_Carver",
+          "quote": "All of Us: The Collected Poems (1996)"
+        },
+        {
+          "sids": [
+            "fa5a910ca644"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "카버 사후에 묶인 시 전집이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Raymond_Carver",
+          "quote": "All of Us: The Collected Poems (1996)",
+          "note": "카버 사망은 1988년(브리태니커 'died August 2, 1988'), 전집 간행은 1996년이므로 사후 간행."
+        },
+        {
+          "sids": [
+            "e63110495a74"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "시집 다섯 권 분량을 한데 모았다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/108192527",
+          "quote": "『우리 모두』는 카버가 발표한 시집 다섯 권 분량의 시를 한데 모은 책으로"
+        },
+        {
+          "sids": [
+            "e63110495a74"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "『불』은 1983년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/108192527",
+          "quote": "불(1983)",
+          "note": "한국어판 목차의 부 제목."
+        },
+        {
+          "sids": [
+            "e63110495a74"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "『물이 다른 물과 합쳐지는 곳』은 1985년, 『울트라마린』은 1986년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "Carver’s poetry collections include At Night the Salmon Move (1976), Where Water Comes Together with Other Water (1985), and Ultramarine (1986)."
+        },
+        {
+          "sids": [
+            "e63110495a74"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "『폭포로 가는 새로운 길』은 사망 이듬해인 1989년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/108192527",
+          "quote": "폭포로 가는 새로운 길(1989)",
+          "note": "한국어판 목차의 부 제목. 사망은 1988년(브리태니커), 뉴욕타임스 부고는 카버가 이 시집을 마친 직후 죽었다고 적음."
+        },
+        {
+          "sids": [
+            "e63110495a74"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "『영웅담은 제발 그만』은 미수록 시 모음이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/108192527",
+          "quote": "미수록 시들: 영웅담은 제발 그만(1991)",
+          "note": "한국어판 목차의 부 제목."
+        },
+        {
+          "sids": [
+            "87170aac16cb"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "카버는 오랫동안 시와 소설 쓰기에 똑같이 관심을 두었다고 말했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "For a long time I was equally interested in the writing of poetry and the writing of fiction."
+        },
+        {
+          "sids": [
+            "87170aac16cb"
+          ],
+          "field": "work:raymond-carver--all-of-us.significance",
+          "claim": "한국어판(2022)은 640쪽이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/108192527",
+          "quote": "발행일 \n 2022년 03월 18일",
+          "note": "같은 페이지 품목정보: '640쪽 | 862g | 141*230*34mm'."
+        },
+        {
+          "sids": [
+            "4eb53b907e44"
+          ],
+          "field": "work:raymond-carver--cathedral.facts",
+          "claim": "『대성당』(Cathedral)은 1983년에 나온 소설(단편집)이다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-obit.html",
+          "quote": "That was also the year he published ''Cathedral,'' a critically acclaimed collection of stories nominated for a National Book Critics Circle award.",
+          "note": "'That year'는 앞 문장의 1983년. 브리태니커는 1984로 적으나 초판(Knopf) 연도는 1983."
+        },
+        {
+          "sids": [
+            "fea3444a804d"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "단편 열두 편이 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "총 열두 편의 단편이 실려 있는 이 작품집은"
+        },
+        {
+          "sids": [
+            "21e078c26992"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "카버는 표제작이 이전 작품들과 구상도 실행도 완전히 다르다고 말했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "“Cathedral,” which I feel is totally different in conception and execution from any stories that have come before."
+        },
+        {
+          "sids": [
+            "21e078c26992"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "화자는 아내의 오랜 지인인 시각장애인에게 대성당을 설명하지 못한다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "표제작「대성당」은 아내의 오랜 지인이 찾아오면서 벌어지는 이야기를 그린다. 시각장애인인 지인과 함께 거실에서 TV를 보던 ‘나’는 대성당이 무엇인지 설명하려다 곧 말문이 막혀버리고 만다."
+        },
+        {
+          "sids": [
+            "21e078c26992"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "화자는 시각장애인과 손을 겹친 채 종이에 대성당을 그린다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_(short_story)",
+          "quote": "Then Robert places his hand on the hand of the narrator that holds the pen."
+        },
+        {
+          "sids": [
+            "21e078c26992"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "화자는 눈을 감고 그리기를 이어 간다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_(short_story)",
+          "quote": "Finally, Robert tells the narrator to close his eyes and continue to draw."
+        },
+        {
+          "sids": [
+            "394e92c9e167"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "「별것 아닌 것 같지만, 도움이 되는」은 「목욕」을 다시 고쳐 쓴 작품이다",
+          "verdict": "contradicted",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "With a longer story, \"A Small, Good Thing,\" in which a couple anxiously wait for their child to come out of a coma, Lish cut the text by a third, eliminating most of the description -- and all of the introspection. He retitled it \"The Bath,\"",
+          "correction": "리시가 3분의 1을 잘라내 「목욕」으로 바꿔 냈던 원고를 원래 제목과 분량으로 되살린 「별것 아닌 것 같지만, 도움이 되는」에서는",
+          "note": "출판사 책 소개(예스24)와 위키백과는 「목욕」을 고쳐 쓴 확장판이라 적지만, 릴리 도서관 원고를 조사한 D. T. Max는 긴 판본이 먼저이고 「목욕」이 리시의 축약본임을 보여 준다. 『풋내기들』에도 편집 전 원고로 「A Small, Good Thing」이 실려 있다."
+        },
+        {
+          "sids": [
+            "394e92c9e167"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "아이를 잃은 부부가 빵집 주인 곁에서 그 죽음을 받아들인다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "한 부부가 빵집 주인과 함께 있습니다. 저는 애당초 이 소설을 영혼의 차원까지 끌어올릴 생각은 없었는데, 만약 그렇다고 하더라도 긍정적인 분위기로 끝납니다. 그 부부는 아이의 죽음을 받아들일 수 있게 되죠."
+        },
+        {
+          "sids": [
+            "abf4f469bb95"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "『대성당』은 전미도서비평가협회상과 퓰리처상 후보에 올랐다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "The collection was nominated for both a Pulitzer and a National Book Critics Circle Award."
+        },
+        {
+          "sids": [
+            "5df09bbd439b"
+          ],
+          "field": "work:raymond-carver--what-we-talk-about-when-we-talk-about-love.facts",
+          "claim": "『사랑을 말할 때 우리가 이야기하는 것』은 1981년에 나온 단편집이다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "In the case of Carver's 1981 collection, \"What We Talk About When We Talk About Love,\""
+        },
+        {
+          "sids": [
+            "8d30ce0bcfa6"
+          ],
+          "field": "work:raymond-carver--what-we-talk-about-when-we-talk-about-love.significance",
+          "claim": "단편 열일곱 편이 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/What_We_Talk_About_When_We_Talk_About_Love",
+          "quote": "republish the 17 stories in What We Talk About When We Talk About Love as they were originally written by Carver"
+        },
+        {
+          "sids": [
+            "6125d5be2c77"
+          ],
+          "field": "work:raymond-carver--what-we-talk-about-when-we-talk-about-love.significance",
+          "claim": "「춤 좀 추지 그래?」는 마당에 가구를 내놓은 남자와 그 가구를 사러 온 젊은 커플의 이야기다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Why_Don%27t_You_Dance%3F",
+          "quote": "\"Why Don't You Dance?\" tells the story of a middle-aged man overseeing a yard sale, where many of his possessions are being sold. A young couple stops by to select furniture for their new apartment."
+        },
+        {
+          "sids": [
+            "e2676e0ff34c"
+          ],
+          "field": "work:raymond-carver--what-we-talk-about-when-we-talk-about-love.significance",
+          "claim": "「춤 좀 추지 그래?」는 사연을 설명하지 않고 바깥 장면으로 안을 드러낸다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Why_Don%27t_You_Dance%3F",
+          "quote": "Literary scholar Charles E. May identified the story as being \"a particularly pure example of the Chekhovian story's convention of trying to express inner reality by focusing on outer reality.\""
+        },
+        {
+          "sids": [
+            "76bd9cdc7522"
+          ],
+          "field": "work:raymond-carver--what-we-talk-about-when-we-talk-about-love.significance",
+          "claim": "리시가 원고의 절반가량을 잘라내고 결말 여러 개를 고쳐 쓴 판본으로 나왔다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "Lish cut about half the original words and rewrote 10 of the 13 endings."
+        },
+        {
+          "sids": [
+            "76bd9cdc7522"
+          ],
+          "field": "work:raymond-carver--what-we-talk-about-when-we-talk-about-love.significance",
+          "claim": "카버가 붙인 원래 제목은 ‘Beginners’였다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "which Lish would ultimately title \"What We Talk About When We Talk About Love.\" (Carver had called it \"Beginners.\")"
+        },
+        {
+          "sids": [
+            "bf70f0b3dc26"
+          ],
+          "field": "work:raymond-carver--what-we-talk-about-when-we-talk-about-love.significance",
+          "claim": "카버는 이 책의 서평에서 ‘미니멀리스트’로 불렸다고 말했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "In a review of the last book, somebody called me a “minimalist” writer.",
+          "note": "'the last book'은 앞 문단에서 말한 『What We Talk About』."
+        },
+        {
+          "sids": [
+            "0c24444ca9e7"
+          ],
+          "field": "work:raymond-carver--will-you-please-be-quiet-please.facts",
+          "claim": "『제발 조용히 좀 해요』는 1976년에 나온 단편집이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "The highly successful short-story collection Will You Please Be Quiet, Please? (1976) established his reputation."
+        },
+        {
+          "sids": [
+            "ecd1fea0053e"
+          ],
+          "field": "work:raymond-carver--will-you-please-be-quiet-please.significance",
+          "claim": "카버의 이름을 굳힌 단편집이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20230320202200/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "The highly successful short-story collection Will You Please Be Quiet, Please? (1976) established his reputation."
+        },
+        {
+          "sids": [
+            "ecd1fea0053e"
+          ],
+          "field": "work:raymond-carver--will-you-please-be-quiet-please.significance",
+          "claim": "한국어판에는 초기작 스물두 편이 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/1373634",
+          "quote": "그의 '미니멀리스트'적인 문체의 매력을 마음껏 맛볼 수 있는 초기작 22편이 수록되어 있다."
+        },
+        {
+          "sids": [
+            "9d28409361eb"
+          ],
+          "field": "work:raymond-carver--will-you-please-be-quiet-please.significance",
+          "claim": "이웃의 사생활을 엿보며 묘한 희열을 느끼는 부부가 나온다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/1373634",
+          "quote": "이웃의 사생활을 엿보며 이상한 희열을 느끼는 부부"
+        },
+        {
+          "sids": [
+            "9d28409361eb"
+          ],
+          "field": "work:raymond-carver--will-you-please-be-quiet-please.significance",
+          "claim": "흔들리는 일상과 어긋나는 관계를, 표면 아래 감춰진 것이 드러나는 한 장면으로 포착한다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/1373634",
+          "quote": "불안하게 흔들리는 일상, 그리고 조금씩 어긋나는 관계... 이런 지리멸렬한 일상의 표면 아래 감춰진 삶의 진실을 마치 한 장의 스냅 사진처럼 포착해내는 독특한 글쓰기로"
+        },
+        {
+          "sids": [
+            "1e191a257e3d"
+          ],
+          "field": "work:raymond-carver--will-you-please-be-quiet-please.significance",
+          "claim": "전미도서상 후보에 올랐다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-obit.html",
+          "quote": "In 1976 a collection with ''Will You Please Be Quiet, Please?'' as the title story was was nominated for a National Book Award."
+        },
+        {
+          "sids": [
+            "24c9451cdf21"
+          ],
+          "field": "relation:translation--raymond-carver--haruki-murakami.facts",
+          "claim": "카버에서 무라카미로 향하는 번역 관계이며 문헌으로 확인된다",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+          "quote": "2004年7月、『レイモンド・カーヴァー全集』全8巻の翻訳を成し遂げた。"
+        },
+        {
+          "sids": [
+            "8309fc1d11f0"
+          ],
+          "field": "relation:translation--raymond-carver--haruki-murakami.summary",
+          "claim": "무라카미는 1983년 카버 작품집 『ぼくが電話をかけている場所』를 냈다",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+          "quote": "1981年5月、中央公論社より初めての翻訳書『マイ・ロスト・シティー フィッツジェラルド作品集』を刊行。1983年7月、レイモンド・カーヴァーの作品集『ぼくが電話をかけている場所』（中央公論社）を刊行。"
+        },
+        {
+          "sids": [
+            "8309fc1d11f0"
+          ],
+          "field": "relation:translation--raymond-carver--haruki-murakami.summary",
+          "claim": "무라카미는 『レイモンド・カーヴァー全集』 전 8권을 번역해 2004년에 완간했다",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+          "quote": "2004年7月、『レイモンド・カーヴァー全集』全8巻の翻訳を成し遂げた。"
+        },
+        {
+          "sids": [
+            "8309fc1d11f0"
+          ],
+          "field": "relation:translation--raymond-carver--haruki-murakami.summary",
+          "claim": "전집은 중앙공론사판이다",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+          "quote": "レイモンド・カーヴァー全集（全8巻、中央公論社、新版2004年）"
+        },
+        {
+          "sids": [
+            "50db6b2b3ca7"
+          ],
+          "field": "relation:translation--raymond-carver--kim-yeon-su.facts",
+          "claim": "카버에서 김연수로 향하는 번역 관계이며 문헌으로 확인된다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "레이먼드 카버 저/ 김연수 역"
+        },
+        {
+          "sids": [
+            "0e26df590028"
+          ],
+          "field": "relation:translation--raymond-carver--kim-yeon-su.summary",
+          "claim": "김연수는 『대성당』을 옮겨 2007년 문학동네에서 냈다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%8C%80%EC%84%B1%EB%8B%B9+%EC%B9%B4%EB%B2%84+%EA%B9%80%EC%97%B0%EC%88%98",
+          "quote": "대성당 Choice 레이몬드 카버 (지은이), 김연수 (옮긴이) | 문학동네 | 2007년 12월"
+        },
+        {
+          "sids": [
+            "0e26df590028"
+          ],
+          "field": "relation:translation--raymond-carver--kim-yeon-su.summary",
+          "claim": "2014년 새로 다듬은 번역으로 문학동네 세계문학전집 개정판을 냈다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "소설가 김연수의 번역으로 2007년 국내에 소개된 이래 독자들의 꾸준한 사랑을 받아온 이 작품이, 세계문학전집의 옷을 입고 개정판으로 새롭게 출간된다. 오랜 시간 고심하며 새로 다듬은 번역과",
+          "note": "같은 페이지 발행일 2014년 05월 23일."
+        },
+        {
+          "sids": [
+            "c1f02b767110"
+          ],
+          "field": "relation:translation--raymond-carver--kim-yeon-su.summary",
+          "claim": "김연수의 소설집 『세계의 끝 여자친구』에 「모두에게 복된 새해—레이먼드 카버에게」가 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/3517616",
+          "quote": "모두에게 복된 새해―레이먼드 카버에게"
+        },
+        {
+          "sids": [
+            "c1f02b767110"
+          ],
+          "field": "relation:translation--raymond-carver--kim-yeon-su.summary",
+          "claim": "『세계의 끝 여자친구』는 2009년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/3517616",
+          "quote": "발행일 \n 2009년 09월 08일"
+        },
+        {
+          "sids": [
+            "b9a8d186ab71"
+          ],
+          "field": "relation:influence--anton-chekhov--raymond-carver.facts",
+          "claim": "체호프에서 카버로 향하는 영향이 문헌(카버 본인의 발언)으로 확인된다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "Chekhov. I suppose he's the writer whose work I most admire."
+        },
+        {
+          "sids": [
+            "8d3cb94fae4e",
+            "97edef0a35e8"
+          ],
+          "field": "relation:influence--anton-chekhov--raymond-carver.summary",
+          "claim": "인터뷰는 1983년 『파리 리뷰』의 「The Art of Fiction No. 76」이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20181206170300/https://www.theparisreview.org/interviews/3059/raymond-carver-the-art-of-fiction-no-76-raymond-carver",
+          "quote": "Raymond Carver, The Art of Fiction No. 76 \n Interviewed by Mona Simpson, Lewis Buzbee \n Issue 88, Summer 1983"
+        },
+        {
+          "sids": [
+            "8d3cb94fae4e",
+            "97edef0a35e8"
+          ],
+          "field": "relation:influence--anton-chekhov--raymond-carver.summary",
+          "claim": "문학적 영향이나 존경하는 작가를 묻자 체호프를 작품을 가장 존경하는 작가로 꼽았다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "Can you talk a little about literary influences, or at least name some writers whose work you greatly admire? … Chekhov. I suppose he's the writer whose work I most admire."
+        },
+        {
+          "sids": [
+            "97edef0a35e8"
+          ],
+          "field": "relation:influence--anton-chekhov--raymond-carver.summary",
+          "claim": "대학 시절 읽은 체호프의 편지와 단편이 사물을 전과 다르게 보게 했다고 말했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "(Understand I was in college at the time and reading plays about princes and dukes and the overthrow of kingdoms. Quests and the like, large undertakings to establish heroes in their rightful places. Novels with larger-than-life heroes.) But reading what Chekhov had to say in that letter, and in other letters of his as well, and reading his stories, made me see things differently than I had before."
+        },
+        {
+          "sids": [
+            "41a3d0674b13"
+          ],
+          "field": "relation:influence--anton-chekhov--raymond-carver.summary",
+          "claim": "「A Storyteller's Shoptalk」에 체호프 단편의 한 구절을 카드에 적어 책상 옆에 붙여 두었다고 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "Someday I'll put that on a three-by-five card and tape it to the wall beside my desk. I have some three-by-five cards on the wall now. … I have a three-by-five up there with this fragment of a sentence from a story by Chekhov"
+        },
+        {
+          "sids": [
+            "41a3d0674b13"
+          ],
+          "field": "relation:influence--anton-chekhov--raymond-carver.summary",
+          "claim": "이 에세이는 1981년 『뉴욕 타임스 북 리뷰』에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "Some months ago, in this Book Review, John Barth said",
+          "note": "같은 페이지 머리의 날짜 'February 15, 1981'."
+        },
+        {
+          "sids": [
+            "41a3d0674b13"
+          ],
+          "field": "relation:influence--anton-chekhov--raymond-carver.summary",
+          "claim": "1987년 체호프의 죽음을 다룬 단편 「심부름」을 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-obit.html",
+          "quote": "He felt ''in the pink of health'' in 1987 when he wrote ''Errand,'' a story about Chekhov's death from tuberculosis."
+        },
+        {
+          "sids": [
+            "c0b5ef41bd96"
+          ],
+          "field": "relation:influence--flannery-oconnor--raymond-carver.facts",
+          "claim": "오코너에서 카버로 향하는 영향이 문헌(카버 본인의 글)으로 확인된다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "I remember being tremendously heartened by reading what she had to say on the subject."
+        },
+        {
+          "sids": [
+            "f88b3e1e923b"
+          ],
+          "field": "relation:influence--flannery-oconnor--raymond-carver.summary",
+          "claim": "「A Storyteller's Shoptalk」에서 오코너의 에세이 「Writing Short Stories」를 길게 인용했다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "In an essay called, simply enough, ''Writing Short Stories,'' Flannery O'Connor talks about writing as an act of discovery. … She uses ''Good Country People'' as an example of how she put together a short story whose ending she could not even guess at until she was nearly there:"
+        },
+        {
+          "sids": [
+            "f88b3e1e923b"
+          ],
+          "field": "relation:influence--flannery-oconnor--raymond-carver.summary",
+          "claim": "결말을 모른 채 쓰기 시작한다는 오코너의 말을 읽고 크게 용기를 얻었다고 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "O'Connor says she most often did not know where she was going when she sat down to work on a short story. … I remember being tremendously heartened by reading what she had to say on the subject."
+        },
+        {
+          "sids": [
+            "cb08cdabd2aa"
+          ],
+          "field": "relation:influence--flannery-oconnor--raymond-carver.summary",
+          "claim": "첫 문장 하나만 가지고 앉아 시를 쓰듯 한 줄씩 이어 단편을 완성한 경험을 적었다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "I did, and I sat down in the morning and wrote the first sentence, and other sentences promptly began to attach themselves. I made the story just as I'd make a poem; one line and then the next, and the next."
+        },
+        {
+          "sids": [
+            "cb08cdabd2aa"
+          ],
+          "field": "relation:influence--flannery-oconnor--raymond-carver.summary",
+          "claim": "1983년 『파리 리뷰』 인터뷰에서 존경하는 작가로 오코너를 꼽았다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20100926182322/http://www.theparisreview.org/interviews/3059/the-art-of-fiction-no-76-raymond-carver",
+          "quote": "Isaac Babel, Flannery O'Connor, Frank O'Connor. James Joyce's Dubliners ."
+        }
+      ],
+      "noClaim": {
+        "b548db5aee9a": "『풋내기들』로 시작하지 말라는 읽기 순서 권고로, 대볼 사실 주장이 없다.",
+        "43e70b145a7a": "난도의 출처에 대한 편집자의 평가로, 대볼 사실 주장이 없다."
+      }
+    }
+  ]
+}

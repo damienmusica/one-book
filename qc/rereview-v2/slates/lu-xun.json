@@ -1,0 +1,1373 @@
+{
+  "id": "lu-xun",
+  "page": "https://literary-planet.pages.dev/authors/lu-xun/",
+  "author": {
+    "names": {
+      "ko": "루쉰",
+      "original": "魯迅",
+      "aliases": [
+        "노신",
+        "Lu Xun",
+        "저우수런",
+        "周樹人"
+      ]
+    },
+    "birthYear": 1881,
+    "deathYear": 1936,
+    "activeRange": [
+      1918,
+      1936
+    ],
+    "languages": [
+      "zh"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "루쉰의 「광인일기」(1918)는 서구식 근대 단편을 백화로 쓴 초기작으로, 문학혁명기 백화 소설의 출발점으로 꼽힌다(백화 소설 자체는 명·청대의 장편에서 이미 쓰이고 있었다). 문언으로 쓴 서문과 백화로 쓴 본문을 한 작품 안에 나란히 놓아, 언어의 교체 자체를 작품의 사건으로 만든 구성이었다. 「아Q정전」에서는 패배를 승리로 바꿔 기억하는 '정신승리법'이라는 진단명을 만들어, 소설의 인물이 한 사회의 자기인식을 가리키는 보통명사가 되게 했다. 만년의 잡문(雜文)은 짧은 논쟁문을 문학 장르로 확립했고, 『중국소설사략』은 신화·지괴·전기에서 백화 장편까지 중국 소설 전체를 다룬, 중국에서 나온 최초의 본격 소설 통사였다.",
+    "readingEntry": "lu-xun--kuangren-riji",
+    "readingEntryReason": "십여 쪽 분량 안에 문언 서문과 백화 일기라는 이중 구조가 그대로 드러나, 중국 근대문학이 무엇을 끊고 시작했는지가 한 편으로 보인다.",
+    "readingOrder": [
+      "lu-xun--kuangren-riji",
+      "lu-xun--ah-q-zhengzhuan",
+      "lu-xun--panghuang",
+      "lu-xun--yecao",
+      "lu-xun--zhongguo-xiaoshuo-shilue"
+    ],
+    "readingWarning": "잡문부터 읽으면 1920–30년대 중국 문단 논쟁의 상대와 쟁점을 모르는 채로 읽게 되어, 정밀하게 겨냥된 반어가 그저 인신공격처럼 보인다.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 건조하지만 한 작품 안에서 문언과 백화가 교체되고, 반어의 표적이 당대의 정치·사상 논쟁이어서 주석 없이는 무엇을 겨누는지가 보이지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--lu-xun-quanji",
+      "src--xinqingnian-1918"
+    ]
+  },
+  "works": [
+    {
+      "id": "lu-xun--kuangren-riji",
+      "titleKo": "광인일기",
+      "titleOriginal": "狂人日記",
+      "year": 1918,
+      "genre": "fiction",
+      "significance": "『신청년』에 실린 단편으로, 흔히 중국 최초의 근대 백화 소설로 꼽히지만 1917년 천헝저의 백화 단편 「하루(一日)」가 먼저 발표되었다. 문언으로 쓴 서문이 백화로 쓴 일기를 감싸는 이중 구조를 취한다. 유교 도덕의 기록을 '사람을 잡아먹는' 문서로 읽어내는 화자를 세워, 전통의 정당성 자체를 서술 형식으로 심문했다. 1923년 첫 소설집 『외침』에 수록되었다.",
+      "sourceIds": [
+        "src--xinqingnian-1918",
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "lu-xun--ah-q-zhengzhuan",
+      "titleKo": "아Q정전",
+      "titleOriginal": "阿Q正傳",
+      "year": 1921,
+      "genre": "fiction",
+      "significance": "1921년 12월부터 이듬해 2월까지 신문 부간에 연재된 중편으로, 맞고도 이겼다고 기억하는 날품팔이 아Q를 통해 '정신승리법'이라는 진단명을 만들었다. 인물의 이름이 한 사회의 자기인식을 가리키는 보통명사가 된 드문 사례이며, 1923년 『외침』에 수록되었다.",
+      "sourceIds": [
+        "src--chenbao-fukan-1921",
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "lu-xun--zhongguo-xiaoshuo-shilue",
+      "titleKo": "중국소설사략",
+      "titleOriginal": "中國小說史略",
+      "year": 1923,
+      "genre": "essay-criticism",
+      "significance": "베이징대학 강의를 정리한 책으로, 문언 정통 바깥에 있던 지괴·전기·화본·백화 장편을 하나의 계보로 배열한, 중국에서 나온 최초의 본격 소설 통사다. 천대받던 소설을 학문의 대상으로 세운 저작이며 이후 중국 소설사 연구의 기본 틀이 되었다.",
+      "sourceIds": [
+        "src--lu-xun-quanji",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "lu-xun--panghuang",
+      "titleKo": "방황",
+      "titleOriginal": "彷徨",
+      "year": 1926,
+      "genre": "fiction",
+      "significance": "두 번째 소설집으로 「축복」, 「고독자」, 「죽음을 슬퍼하며」 등을 묶었다. 계몽의 구호가 걷힌 자리에서 지식인의 무력과 여성의 죽음을 다루며, 『외침』의 공격적 어조가 자기 회의로 바뀌는 지점을 보여준다.",
+      "sourceIds": [
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "lu-xun--yecao",
+      "titleKo": "들풀",
+      "titleOriginal": "野草",
+      "year": 1927,
+      "genre": "poetry",
+      "significance": "1924–26년 『어사(語絲)』에 발표한 산문시를 묶은 산문시집으로, 꿈·그림자·묘비명 같은 형상으로 자기 부정을 밀고 나간다. 루쉰의 저작 가운데 형식이 가장 실험적이며 소설과 잡문 어디에도 속하지 않는다.",
+      "sourceIds": [
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "lu-xun--gushi-xinbian",
+      "titleKo": "고사신편",
+      "titleOriginal": "故事新編",
+      "year": 1936,
+      "genre": "fiction",
+      "significance": "우 임금·백이숙제·묵자·노자 같은 고대의 인물과 신화를 다시 쓰면서 현대의 말투와 장면을 의도적으로 섞어 넣은 마지막 소설집이다. 고전의 권위를 인용이 아니라 시대착오의 충돌로 해체하는 방법을 썼다.",
+      "sourceIds": [
+        "src--lu-xun-quanji"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--lu-xun--mo-yan",
+      "type": "documented_influence",
+      "from": "lu-xun (루쉰)",
+      "to": "mo-yan (모옌)",
+      "evidenceLevel": "documented",
+      "summary": "모옌은 노벨재단에 낸 자전 「내 삶의 이야기(The Story of My Life)」에서, 청나라 말기를 배경으로 한 『탄샹싱』(2001)을 쓰며 루쉰을 비롯한 현대 작가들의 국민성 비판을 이어받아 발전시켰다고 적었다.",
+      "sourceIds": [
+        "src--mo-yan-story-of-my-life-2012"
+      ]
+    },
+    {
+      "id": "affinity--lu-xun--yeom-sang-seop",
+      "type": "affinity",
+      "from": "lu-xun (루쉰)",
+      "to": "yeom-sang-seop (염상섭)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "두 사람은 만난 적이 없지만 한국 비교문학은 둘을 거듭 나란히 읽어 왔다. 최인숙(『비교문학』 50, 2010)은 「제야」와 루쉰의 「상서(傷逝)」를 노라 이후의 신여성 이야기로, 서영채(『민족문학사연구』 51, 2013)는 염상섭·소세키·루쉰을 '둘째 아들의 서사'로, 김경수(『서강인문논총』 55, 2019)는 일본 유학, 입센 『인형의 집』 소개, 반제국주의 태도를 공통점으로 비교했다.",
+      "sourceIds": [
+        "src--choi-in-suk-2010-yeom-lu-xun-nora",
+        "src--seo-young-chae-2013-second-son",
+        "src--kim-kyoung-soo-2019-yeom-lu-xun"
+      ]
+    },
+    {
+      "id": "influence--lu-xun--yu-hua",
+      "type": "documented_influence",
+      "from": "lu-xun (루쉰)",
+      "to": "yu-hua (위화)",
+      "evidenceLevel": "documented",
+      "summary": "위화는 『十个词汇里的中国』(한국어판 『사람의 목소리는 빛보다 멀리 간다』)에 실린 산문 「鲁迅：从一个词汇回到一个作家」에서 문화대혁명기 교과서로 억지로 읽던 루쉰을 1996년 영화 각색 자문을 계기로 다시 읽고 「광인일기」와 「쿵이지」에 놀라, 그 밤 루쉰이 ‘하나의 어휘에서 한 작가로 돌아왔다’고 썼다. 2017년 인터뷰에서는 성장기 10년 동안 곁에 있던 유일한 작가가 루쉰이고 그 영향은 분명히 있다고 말했다.",
+      "sourceIds": [
+        "src--yu-hua-lu-xun-essay",
+        "src--chinawriter-yu-hua-interview-2017"
+      ]
+    },
+    {
+      "id": "affinity--lu-xun--nam-cao",
+      "type": "affinity",
+      "from": "lu-xun (루쉰)",
+      "to": "nam-cao (남 까오)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "베트남·중국 비교문학 연구는 「찌 페오」의 마을 밖으로 밀려난 인간과 루쉰 「아Q정전」의 아Q를, 촌락의 위계가 사람을 어떻게 형해화하는가라는 같은 문제의 두 판본으로 나란히 읽어 왔다.",
+      "sourceIds": [
+        "src--quach-ah-q-chi-pheo-2018"
+      ]
+    },
+    {
+      "id": "influence--lu-xun--osamu-dazai",
+      "type": "documented_influence",
+      "from": "lu-xun (루쉰)",
+      "to": "osamu-dazai (다자이 오사무)",
+      "evidenceLevel": "documented",
+      "summary": "다자이는 1945년 장편 『석별』에서 센다이 의학전문학교 시절의 저우수런, 곧 루쉰을 주인공으로 삼았다. 루쉰의 회상 「후지노 선생」을 비롯한 자료를 읽고 쓴 작품이며, 일본문학보국회의 위촉으로 대동아 문화 정책 안에서 집필됐다는 조건도 함께 기록된다.",
+      "anchors": [
+        {
+          "year": 1945
+        }
+      ],
+      "sourceIds": [
+        "src--dazai-sekibetsu-1945",
+        "src--keene-dawn-to-the-west"
+      ]
+    },
+    {
+      "id": "contrast--lu-xun--eileen-chang",
+      "type": "contrast",
+      "from": "lu-xun (루쉰)",
+      "to": "eileen-chang (장아이링)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "샤즈칭의 『중국현대소설사』(1961)는 계몽과 국민성 비판을 축으로 삼은 루쉰 이후의 주류 옆에, 재산 때문에 한 혼인이 인물을 옥죄는 『금쇄기』의 장아이링을 정전으로 나란히 세웠다.",
+      "anchors": [
+        {
+          "year": 1961
+        }
+      ],
+      "sourceIds": [
+        "src--hsia-modern-chinese-fiction"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--lu-xun",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 도쿄 유학 시절 문언으로 쓴 「문화편지론(文化偏至論)」에서 니체와 슈티르너를 끌어와, 다수의 물질문명에 맞서 개인의 정신을 세우는 논지를 폈다. 뒤에는 『차라투스트라는 이렇게 말했다』의 서문을 중국어로 옮기기도 했다.",
+      "anchors": [
+        {
+          "workId": "friedrich-nietzsche--also-sprach-zarathustra"
+        }
+      ],
+      "sourceIds": [
+        "src--lu-xun-henan-essays-1907-08",
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "translation--natsume-soseki--lu-xun",
+      "type": "translation",
+      "from": "natsume-soseki (나쓰메 소세키)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 저우쭤런과 함께 엮은 『현대일본소설집』(1923)에 소세키의 단편을 직접 옮겨 실었고, 작가 해제에서 사건에 밀착하지 않는 소세키의 여유파(余裕派)적 태도를 중국 독자에게 소개했다.",
+      "anchors": [
+        {
+          "year": 1923
+        }
+      ],
+      "sourceIds": [
+        "src--xiandai-riben-xiaoshuo-ji-1923",
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "translation--ryunosuke-akutagawa--lu-xun",
+      "type": "translation",
+      "from": "ryunosuke-akutagawa (아쿠타가와 류노스케)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 『현대일본소설집』(1923)에서 아쿠타가와의 「코」와 「라쇼몬」을 중국어로 옮겼다. 고전 설화의 뼈대에 근대적 동기를 다시 심는 아쿠타가와의 방법이 백화소설 초기의 중국 독자에게 전달된 경로다.",
+      "anchors": [
+        {
+          "year": 1923
+        },
+        {
+          "workId": "ryunosuke-akutagawa--hana"
+        },
+        {
+          "workId": "ryunosuke-akutagawa--rashomon"
+        }
+      ],
+      "sourceIds": [
+        "src--xiandai-riben-xiaoshuo-ji-1923",
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "translation--anton-chekhov--lu-xun",
+      "type": "translation",
+      "from": "anton-chekhov (안톤 체호프)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 1936년 체호프의 초기 유머 단편 여덟 편을 묶어 『나쁜 아이와 그 밖의 기담(壞孩子和別的奇聞)』으로 옮겼다. 러시아어가 아니라 유럽어 판본을 저본으로 삼은 중역이며, 만년까지 이어진 그의 번역 작업의 마지막 국면에 속한다.",
+      "anchors": [
+        {
+          "year": 1936
+        }
+      ],
+      "sourceIds": [
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "influence--henrik-ibsen--lu-xun",
+      "type": "documented_influence",
+      "from": "henrik-ibsen (헨리크 입센)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 1923년 베이징여자고등사범학교 강연 「노라는 떠난 뒤 어떻게 되었는가」에서 『인형의 집』의 결말을 그대로 이어받아, 경제적 조건이 없는 각성은 타락이나 귀가로 끝난다고 답했다. 신문화운동의 입센 수용을 안에서 되짚은 발언이다.",
+      "anchors": [
+        {
+          "year": 1923
+        },
+        {
+          "workId": "henrik-ibsen--et-dukkehjem"
+        }
+      ],
+      "sourceIds": [
+        "src--lu-xun-nora-lecture-1923",
+        "src--lu-xun-quanji"
+      ]
+    },
+    {
+      "id": "contrast--rabindranath-tagore--lu-xun",
+      "type": "contrast",
+      "from": "rabindranath-tagore (라빈드라나트 타고르)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "1924년 타고르의 중국 강연은 동양 정신문명의 옹호로 읽혔고 신문화운동 진영은 이를 정면으로 거부했다. 루쉰은 1934년 잡문 「욕해 죽이기와 치켜세워 죽이기」에서 타고르를 산 신선처럼 떠받든 중국 문단 쪽을 겨냥했다. 식민지·반식민지 아시아의 두 출발점이 전통을 두고 갈라선 자리다.",
+      "anchors": [
+        {
+          "year": 1924
+        },
+        {
+          "year": 1934
+        }
+      ],
+      "sourceIds": [
+        "src--lu-xun-quanji",
+        "src--britannica"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--sandor-petofi--lu-xun (→ sandor-petofi 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "e13aee06a466",
+      "where": "author.facts",
+      "text": "루쉰(魯迅) · 1881–1936 · zh · east-asia"
+    },
+    {
+      "sid": "da2cb4d5a883",
+      "where": "author.importanceReason",
+      "text": "루쉰의 「광인일기」(1918)는 서구식 근대 단편을 백화로 쓴 초기작으로, 문학혁명기 백화 소설의 출발점으로 꼽힌다(백화 소설 자체는 명·청대의 장편에서 이미 쓰이고 있었다)."
+    },
+    {
+      "sid": "32f5d0063de8",
+      "where": "author.importanceReason",
+      "text": "문언으로 쓴 서문과 백화로 쓴 본문을 한 작품 안에 나란히 놓아, 언어의 교체 자체를 작품의 사건으로 만든 구성이었다."
+    },
+    {
+      "sid": "25396115f4c1",
+      "where": "author.importanceReason",
+      "text": "「아Q정전」에서는 패배를 승리로 바꿔 기억하는 '정신승리법'이라는 진단명을 만들어, 소설의 인물이 한 사회의 자기인식을 가리키는 보통명사가 되게 했다."
+    },
+    {
+      "sid": "1f4b9ef5f92f",
+      "where": "author.importanceReason",
+      "text": "만년의 잡문(雜文)은 짧은 논쟁문을 문학 장르로 확립했고, 『중국소설사략』은 신화·지괴·전기에서 백화 장편까지 중국 소설 전체를 다룬, 중국에서 나온 최초의 본격 소설 통사였다."
+    },
+    {
+      "sid": "092841bc184e",
+      "where": "author.readingEntryReason",
+      "text": "십여 쪽 분량 안에 문언 서문과 백화 일기라는 이중 구조가 그대로 드러나, 중국 근대문학이 무엇을 끊고 시작했는지가 한 편으로 보인다."
+    },
+    {
+      "sid": "9c202cdb1171",
+      "where": "author.readingWarning",
+      "text": "잡문부터 읽으면 1920–30년대 중국 문단 논쟁의 상대와 쟁점을 모르는 채로 읽게 되어, 정밀하게 겨냥된 반어가 그저 인신공격처럼 보인다."
+    },
+    {
+      "sid": "ba7c957e1617",
+      "where": "author.difficultyReason",
+      "text": "문장은 짧고 건조하지만 한 작품 안에서 문언과 백화가 교체되고, 반어의 표적이 당대의 정치·사상 논쟁이어서 주석 없이는 무엇을 겨누는지가 보이지 않는다."
+    },
+    {
+      "sid": "671256ad5ed9",
+      "where": "work:lu-xun--kuangren-riji.facts",
+      "text": "『광인일기』(狂人日記) · 1918 · fiction"
+    },
+    {
+      "sid": "29a59b43eb6c",
+      "where": "work:lu-xun--kuangren-riji.significance",
+      "text": "『신청년』에 실린 단편으로, 흔히 중국 최초의 근대 백화 소설로 꼽히지만 1917년 천헝저의 백화 단편 「하루(一日)」가 먼저 발표되었다."
+    },
+    {
+      "sid": "2611c8139479",
+      "where": "work:lu-xun--kuangren-riji.significance",
+      "text": "문언으로 쓴 서문이 백화로 쓴 일기를 감싸는 이중 구조를 취한다."
+    },
+    {
+      "sid": "d817f52a147d",
+      "where": "work:lu-xun--kuangren-riji.significance",
+      "text": "유교 도덕의 기록을 '사람을 잡아먹는' 문서로 읽어내는 화자를 세워, 전통의 정당성 자체를 서술 형식으로 심문했다."
+    },
+    {
+      "sid": "6043c8519c8b",
+      "where": "work:lu-xun--kuangren-riji.significance",
+      "text": "1923년 첫 소설집 『외침』에 수록되었다."
+    },
+    {
+      "sid": "30efff9f2a19",
+      "where": "work:lu-xun--ah-q-zhengzhuan.facts",
+      "text": "『아Q정전』(阿Q正傳) · 1921 · fiction"
+    },
+    {
+      "sid": "a4e5149a3285",
+      "where": "work:lu-xun--ah-q-zhengzhuan.significance",
+      "text": "1921년 12월부터 이듬해 2월까지 신문 부간에 연재된 중편으로, 맞고도 이겼다고 기억하는 날품팔이 아Q를 통해 '정신승리법'이라는 진단명을 만들었다."
+    },
+    {
+      "sid": "99cb7de7daa7",
+      "where": "work:lu-xun--ah-q-zhengzhuan.significance",
+      "text": "인물의 이름이 한 사회의 자기인식을 가리키는 보통명사가 된 드문 사례이며, 1923년 『외침』에 수록되었다."
+    },
+    {
+      "sid": "a61100c503b3",
+      "where": "work:lu-xun--zhongguo-xiaoshuo-shilue.facts",
+      "text": "『중국소설사략』(中國小說史略) · 1923 · essay-criticism"
+    },
+    {
+      "sid": "468ffbec9212",
+      "where": "work:lu-xun--zhongguo-xiaoshuo-shilue.significance",
+      "text": "베이징대학 강의를 정리한 책으로, 문언 정통 바깥에 있던 지괴·전기·화본·백화 장편을 하나의 계보로 배열한, 중국에서 나온 최초의 본격 소설 통사다."
+    },
+    {
+      "sid": "7b84bb68e047",
+      "where": "work:lu-xun--zhongguo-xiaoshuo-shilue.significance",
+      "text": "천대받던 소설을 학문의 대상으로 세운 저작이며 이후 중국 소설사 연구의 기본 틀이 되었다."
+    },
+    {
+      "sid": "8fda741b175b",
+      "where": "work:lu-xun--panghuang.facts",
+      "text": "『방황』(彷徨) · 1926 · fiction"
+    },
+    {
+      "sid": "b3e8b0c74e8b",
+      "where": "work:lu-xun--panghuang.significance",
+      "text": "두 번째 소설집으로 「축복」, 「고독자」, 「죽음을 슬퍼하며」 등을 묶었다."
+    },
+    {
+      "sid": "6009e1b34e93",
+      "where": "work:lu-xun--panghuang.significance",
+      "text": "계몽의 구호가 걷힌 자리에서 지식인의 무력과 여성의 죽음을 다루며, 『외침』의 공격적 어조가 자기 회의로 바뀌는 지점을 보여준다."
+    },
+    {
+      "sid": "5294ca0c5c66",
+      "where": "work:lu-xun--yecao.facts",
+      "text": "『들풀』(野草) · 1927 · poetry"
+    },
+    {
+      "sid": "6e5b58c303a7",
+      "where": "work:lu-xun--yecao.significance",
+      "text": "1924–26년 『어사(語絲)』에 발표한 산문시를 묶은 산문시집으로, 꿈·그림자·묘비명 같은 형상으로 자기 부정을 밀고 나간다."
+    },
+    {
+      "sid": "2084365ffca8",
+      "where": "work:lu-xun--yecao.significance",
+      "text": "루쉰의 저작 가운데 형식이 가장 실험적이며 소설과 잡문 어디에도 속하지 않는다."
+    },
+    {
+      "sid": "7d2e6aa2fb99",
+      "where": "work:lu-xun--gushi-xinbian.facts",
+      "text": "『고사신편』(故事新編) · 1936 · fiction"
+    },
+    {
+      "sid": "80ae97b1a7f9",
+      "where": "work:lu-xun--gushi-xinbian.significance",
+      "text": "우 임금·백이숙제·묵자·노자 같은 고대의 인물과 신화를 다시 쓰면서 현대의 말투와 장면을 의도적으로 섞어 넣은 마지막 소설집이다."
+    },
+    {
+      "sid": "e9c4c3e5ca13",
+      "where": "work:lu-xun--gushi-xinbian.significance",
+      "text": "고전의 권위를 인용이 아니라 시대착오의 충돌로 해체하는 방법을 썼다."
+    },
+    {
+      "sid": "878982b73011",
+      "where": "relation:influence--lu-xun--mo-yan.facts",
+      "text": "루쉰 → 모옌 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "59d448496f69",
+      "where": "relation:influence--lu-xun--mo-yan.summary",
+      "text": "모옌은 노벨재단에 낸 자전 「내 삶의 이야기(The Story of My Life)」에서, 청나라 말기를 배경으로 한 『탄샹싱』(2001)을 쓰며 루쉰을 비롯한 현대 작가들의 국민성 비판을 이어받아 발전시켰다고 적었다."
+    },
+    {
+      "sid": "a0c3a57af00d",
+      "where": "relation:affinity--lu-xun--yeom-sang-seop.facts",
+      "text": "루쉰 → 염상섭 · affinity · bidirectional · scholarly_consensus"
+    },
+    {
+      "sid": "0bd6e8365979",
+      "where": "relation:affinity--lu-xun--yeom-sang-seop.summary",
+      "text": "두 사람은 만난 적이 없지만 한국 비교문학은 둘을 거듭 나란히 읽어 왔다."
+    },
+    {
+      "sid": "94dd11511988",
+      "where": "relation:affinity--lu-xun--yeom-sang-seop.summary",
+      "text": "최인숙(『비교문학』 50, 2010)은 「제야」와 루쉰의 「상서(傷逝)」를 노라 이후의 신여성 이야기로, 서영채(『민족문학사연구』 51, 2013)는 염상섭·소세키·루쉰을 '둘째 아들의 서사'로, 김경수(『서강인문논총』 55, 2019)는 일본 유학, 입센 『인형의 집』 소개, 반제국주의 태도를 공통점으로 비교했다."
+    },
+    {
+      "sid": "5ef0b7a88763",
+      "where": "relation:influence--lu-xun--yu-hua.facts",
+      "text": "루쉰 → 위화 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "46f0fecae691",
+      "where": "relation:influence--lu-xun--yu-hua.summary",
+      "text": "위화는 『十个词汇里的中国』(한국어판 『사람의 목소리는 빛보다 멀리 간다』)에 실린 산문 「鲁迅：从一个词汇回到一个作家」에서 문화대혁명기 교과서로 억지로 읽던 루쉰을 1996년 영화 각색 자문을 계기로 다시 읽고 「광인일기」와 「쿵이지」에 놀라, 그 밤 루쉰이 ‘하나의 어휘에서 한 작가로 돌아왔다’고 썼다."
+    },
+    {
+      "sid": "02d0243ee85a",
+      "where": "relation:influence--lu-xun--yu-hua.summary",
+      "text": "2017년 인터뷰에서는 성장기 10년 동안 곁에 있던 유일한 작가가 루쉰이고 그 영향은 분명히 있다고 말했다."
+    },
+    {
+      "sid": "9d4f13bcdc2a",
+      "where": "relation:affinity--lu-xun--nam-cao.facts",
+      "text": "루쉰 → 남 까오 · affinity · bidirectional · scholarly_consensus"
+    },
+    {
+      "sid": "92a61f4ecb97",
+      "where": "relation:affinity--lu-xun--nam-cao.summary",
+      "text": "베트남·중국 비교문학 연구는 「찌 페오」의 마을 밖으로 밀려난 인간과 루쉰 「아Q정전」의 아Q를, 촌락의 위계가 사람을 어떻게 형해화하는가라는 같은 문제의 두 판본으로 나란히 읽어 왔다."
+    },
+    {
+      "sid": "ecd923c2d203",
+      "where": "relation:influence--lu-xun--osamu-dazai.facts",
+      "text": "루쉰 → 다자이 오사무 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "d195a60de4a6",
+      "where": "relation:influence--lu-xun--osamu-dazai.summary",
+      "text": "다자이는 1945년 장편 『석별』에서 센다이 의학전문학교 시절의 저우수런, 곧 루쉰을 주인공으로 삼았다."
+    },
+    {
+      "sid": "b2c8b354489a",
+      "where": "relation:influence--lu-xun--osamu-dazai.summary",
+      "text": "루쉰의 회상 「후지노 선생」을 비롯한 자료를 읽고 쓴 작품이며, 일본문학보국회의 위촉으로 대동아 문화 정책 안에서 집필됐다는 조건도 함께 기록된다."
+    },
+    {
+      "sid": "02fd352f22b2",
+      "where": "relation:contrast--lu-xun--eileen-chang.facts",
+      "text": "루쉰 → 장아이링 · contrast · bidirectional · scholarly_consensus"
+    },
+    {
+      "sid": "ab04014b0d91",
+      "where": "relation:contrast--lu-xun--eileen-chang.summary",
+      "text": "샤즈칭의 『중국현대소설사』(1961)는 계몽과 국민성 비판을 축으로 삼은 루쉰 이후의 주류 옆에, 재산 때문에 한 혼인이 인물을 옥죄는 『금쇄기』의 장아이링을 정전으로 나란히 세웠다."
+    },
+    {
+      "sid": "7e764f90fdba",
+      "where": "relation:influence--friedrich-nietzsche--lu-xun.facts",
+      "text": "프리드리히 니체 → 루쉰 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "ac7ddddc4f5e",
+      "where": "relation:influence--friedrich-nietzsche--lu-xun.summary",
+      "text": "루쉰은 도쿄 유학 시절 문언으로 쓴 「문화편지론(文化偏至論)」에서 니체와 슈티르너를 끌어와, 다수의 물질문명에 맞서 개인의 정신을 세우는 논지를 폈다."
+    },
+    {
+      "sid": "bdd32046bbf4",
+      "where": "relation:influence--friedrich-nietzsche--lu-xun.summary",
+      "text": "뒤에는 『차라투스트라는 이렇게 말했다』의 서문을 중국어로 옮기기도 했다."
+    },
+    {
+      "sid": "798e44c5f954",
+      "where": "relation:translation--natsume-soseki--lu-xun.facts",
+      "text": "나쓰메 소세키 → 루쉰 · translation · directed · documented"
+    },
+    {
+      "sid": "55d6aa876ae9",
+      "where": "relation:translation--natsume-soseki--lu-xun.summary",
+      "text": "루쉰은 저우쭤런과 함께 엮은 『현대일본소설집』(1923)에 소세키의 단편을 직접 옮겨 실었고, 작가 해제에서 사건에 밀착하지 않는 소세키의 여유파(余裕派)적 태도를 중국 독자에게 소개했다."
+    },
+    {
+      "sid": "60fcf1d22539",
+      "where": "relation:translation--ryunosuke-akutagawa--lu-xun.facts",
+      "text": "아쿠타가와 류노스케 → 루쉰 · translation · directed · documented"
+    },
+    {
+      "sid": "3d3739e76c1b",
+      "where": "relation:translation--ryunosuke-akutagawa--lu-xun.summary",
+      "text": "루쉰은 『현대일본소설집』(1923)에서 아쿠타가와의 「코」와 「라쇼몬」을 중국어로 옮겼다."
+    },
+    {
+      "sid": "d7cd44059eb8",
+      "where": "relation:translation--ryunosuke-akutagawa--lu-xun.summary",
+      "text": "고전 설화의 뼈대에 근대적 동기를 다시 심는 아쿠타가와의 방법이 백화소설 초기의 중국 독자에게 전달된 경로다."
+    },
+    {
+      "sid": "77b3b34207e6",
+      "where": "relation:translation--anton-chekhov--lu-xun.facts",
+      "text": "안톤 체호프 → 루쉰 · translation · directed · documented"
+    },
+    {
+      "sid": "8e8da30aba13",
+      "where": "relation:translation--anton-chekhov--lu-xun.summary",
+      "text": "루쉰은 1936년 체호프의 초기 유머 단편 여덟 편을 묶어 『나쁜 아이와 그 밖의 기담(壞孩子和別的奇聞)』으로 옮겼다."
+    },
+    {
+      "sid": "2d4ba12ca130",
+      "where": "relation:translation--anton-chekhov--lu-xun.summary",
+      "text": "러시아어가 아니라 유럽어 판본을 저본으로 삼은 중역이며, 만년까지 이어진 그의 번역 작업의 마지막 국면에 속한다."
+    },
+    {
+      "sid": "2efbbcac2fcd",
+      "where": "relation:influence--henrik-ibsen--lu-xun.facts",
+      "text": "헨리크 입센 → 루쉰 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "87aecaea70dd",
+      "where": "relation:influence--henrik-ibsen--lu-xun.summary",
+      "text": "루쉰은 1923년 베이징여자고등사범학교 강연 「노라는 떠난 뒤 어떻게 되었는가」에서 『인형의 집』의 결말을 그대로 이어받아, 경제적 조건이 없는 각성은 타락이나 귀가로 끝난다고 답했다."
+    },
+    {
+      "sid": "bc954cc4cd6c",
+      "where": "relation:influence--henrik-ibsen--lu-xun.summary",
+      "text": "신문화운동의 입센 수용을 안에서 되짚은 발언이다."
+    },
+    {
+      "sid": "f43760591208",
+      "where": "relation:contrast--rabindranath-tagore--lu-xun.facts",
+      "text": "라빈드라나트 타고르 → 루쉰 · contrast · bidirectional · scholarly_consensus"
+    },
+    {
+      "sid": "57741bcd1b75",
+      "where": "relation:contrast--rabindranath-tagore--lu-xun.summary",
+      "text": "1924년 타고르의 중국 강연은 동양 정신문명의 옹호로 읽혔고 신문화운동 진영은 이를 정면으로 거부했다."
+    },
+    {
+      "sid": "892f37e16b8c",
+      "where": "relation:contrast--rabindranath-tagore--lu-xun.summary",
+      "text": "루쉰은 1934년 잡문 「욕해 죽이기와 치켜세워 죽이기」에서 타고르를 산 신선처럼 떠받든 중국 문단 쪽을 겨냥했다."
+    },
+    {
+      "sid": "55c631a3cdff",
+      "where": "relation:contrast--rabindranath-tagore--lu-xun.summary",
+      "text": "식민지·반식민지 아시아의 두 출발점이 전통을 두고 갈라선 자리다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "author.lifespan",
+      "claim": "생몰년은 1881–1936이다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260810083557/https://www.britannica.com/biography/Lu-Xun",
+      "quote": "Lu Xun (born September 25, 1881, Shaoxing, Zhejiang province, China—died October 19, 1936, Shanghai) was a Chinese writer"
+    },
+    {
+      "field": "author.importanceReason",
+      "claim": "2천 년 동안 문언이 글을 독점해 왔고, 「광인일기」 한 편이 백화로 소설을 쓸 수 있음을 증명했다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Written_vernacular_Chinese",
+      "quote": "Writing styles based on vernacular Mandarin Chinese were used in novels by Ming and Qing dynasty authors, and later refined by intellectuals associated with the May Fourth Movement.",
+      "correction": "「광인일기」(1918)는 서구식 근대 단편을 백화로 쓴 초기작으로, 문학혁명기 백화 소설의 출발점으로 꼽힌다. 백화 소설 자체는 명·청대의 장편에서 이미 쓰이고 있었다.",
+      "note": "명·청 백화 장편(『수호전』 등)이 이미 있었으므로 '백화 소설이 가능함을 증명'과 '문언의 독점'은 성립하지 않는다. zh.wikipedia 狂人日记도 1917년 천헝저의 백화 소설 「一日」이 먼저 발표되었다고 적는다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "author.importanceReason",
+      "claim": "「광인일기」는 문언으로 쓴 서문과 백화로 쓴 본문을 한 작품 안에 나란히 놓았다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/狂人日记",
+      "quote": "日记前言以醫生為角度，用文言文书写。",
+      "note": "같은 항목: \"正文則以白话文书写，为正文作者患病时的所見所聞。\""
+    },
+    {
+      "field": "author.importanceReason",
+      "claim": "「아Q정전」이 패배를 정신적 승리로 바꾸는 태도를 가리키는 말을 만들어, 인물 이름이 사회의 자기인식을 가리키는 보통명사가 되었다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260810083557/https://www.britannica.com/biography/Lu-Xun",
+      "quote": "it added “Ah Q-ism” to the modern Chinese language as a term characterizing the Chinese penchant for rationalizing defeat as a “spiritual victory.”"
+    },
+    {
+      "field": "author.importanceReason",
+      "claim": "만년의 잡문이 짧은 논쟁문을 하나의 문학 장르로 확립했다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅",
+      "quote": "鲁迅首创了以论理为主，形式灵活的新文体——“杂文”，并将之发扬光大。",
+      "note": "만년과의 연결은 브리태니커(상하이 시기 1927– ): \"Lu Xun stopped writing fiction and devoted himself to writing satiric critical essays (zawen)\"."
+    },
+    {
+      "field": "author.importanceReason",
+      "claim": "『중국소설사략』이 천대받던 백화 서사를 학문의 대상으로 처음 정리했다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/A_Brief_History_of_Chinese_Fiction",
+      "quote": "It was the first in-depth survey of Chinese fiction to be published in China, and has been influential in shaping later scholarship.",
+      "correction": "『중국소설사략』은 신화·지괴·전기에서 백화 장편까지 중국 소설 전체를 다룬, 중국에서 나온 최초의 본격 소설 통사다.",
+      "note": "출처가 받치는 것은 '중국에서 출간된 최초의 본격 개관'까지다. 같은 항목은 그 이전에는 자일스의 영문 문학사나 시오노야 온(鹽谷溫)의 일본어 개설서를 봐야 했다고 적는다. 또 다루는 범위는 백화에 한정되지 않고 문언 지괴·전기를 포함한다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "author.readingEntryReason",
+      "claim": "「광인일기」는 십여 쪽 분량이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/w/index.php?title=狂人日記&action=raw",
+      "quote": "<pages index=\"魯迅全集01_(1948).pdf\" from=\"298\" to=\"312\" />",
+      "note": "위키문헌 전사본이 1948년판 『魯迅全集』 제1권 스캔의 298–312쪽(15쪽)에 해당한다. 『신청년』판 본문은 약 4,900자다(같은 위키문헌 1918년본에서 계수)."
+    },
+    {
+      "field": "author.readingEntryReason",
+      "claim": "「광인일기」는 문언 서문과 백화 일기의 이중 구조다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/狂人日记",
+      "quote": "正文則以白话文书写，为正文作者患病时的所見所聞。",
+      "note": "같은 항목: \"日记前言以醫生為角度，用文言文书写。\""
+    },
+    {
+      "field": "author.readingWarning",
+      "claim": "루쉰의 잡문은 1920–30년대 중국 문단 논쟁의 특정 상대를 겨냥했다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅",
+      "quote": "1927年中旬到1929年，创造社与太阳社的左派成员和鲁迅展开了论战",
+      "note": "같은 항목: \"鲁迅的论战文章主要收录于《三闲集》\", 1936년 '两个口号之争'. zh.wikipedia 中国小说史略 항목에는 1926년 천위안(陈源)과의 논전도 실려 있다."
+    },
+    {
+      "field": "author.difficultyReason",
+      "claim": "한 작품(「광인일기」) 안에서 문언과 백화가 교체된다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/狂人日记",
+      "quote": "日记前言以醫生為角度，用文言文书写。"
+    },
+    {
+      "field": "author.difficultyReason",
+      "claim": "잡문 반어의 표적이 당대의 정치·사상 논쟁이었다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260810083557/https://www.britannica.com/biography/Lu-Xun",
+      "quote": "Lu Xun stopped writing fiction and devoted himself to writing satiric critical essays (zawen), which he used as a form of political protest."
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].titleKo",
+      "claim": "한국어 제목은 『광인일기』다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%A3%A8%EC%89%B0+%EA%B4%91%EC%9D%B8%EC%9D%BC%EA%B8%B0",
+      "quote": "[국내도서] 광인일기 ㅣ 문학동네 루쉰 판화 작품집"
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].titleOriginal",
+      "claim": "원제는 「狂人日記」다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/zh-hant/狂人日記_(1918年本)",
+      "quote": "狂人日記 作者：魯迅 1918年4月"
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].year",
+      "claim": "1918년 작품이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/狂人日记",
+      "quote": "首发于1918年5月15日4卷5号《新青年》月刊"
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].significance",
+      "claim": "『신청년』에 처음 실렸다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/zh-hant/狂人日記_(1918年本)",
+      "quote": "此版本取自《新青年》第4卷第5號。"
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].significance",
+      "claim": "중국 최초의 본격 백화 단편이다",
+      "verdict": "contradicted",
+      "url": "https://zh.wikipedia.org/wiki/狂人日记",
+      "quote": "它被認為是中国第一部现代白话文小说，首发于1918年5月15日4卷5号《新青年》月刊。（按1917年5月陳衡哲白話小說《一日》發表在《留美學生季報》上）",
+      "correction": "흔히 중국 최초의 근대 백화 소설로 꼽힌다(다만 1917년 천헝저의 백화 단편 「하루(一日)」가 먼저 발표되었다).",
+      "note": "en.wikipedia Chen Hengzhe: \"...\"One Day\"... is known as the first short story in modern vernacular Chinese.\" 브리태니커는 '최초로 발표된 서구식 전면 백화 단편'으로 적어 출처끼리 엇갈린다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].significance",
+      "claim": "문언 서문이 백화 일기를 감싸는 이중 구조다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/狂人日记",
+      "quote": "日记前言以醫生為角度，用文言文书写。",
+      "note": "같은 항목: \"正文則以白话文书写\"."
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].significance",
+      "claim": "화자가 '인의도덕'을 적은 역사 기록에서 '사람을 잡아먹는다'는 글자를 읽어낸다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/zh-hant/狂人日記_(1918年本)",
+      "quote": "我翻開歷史一查，這歷史沒有年代，歪歪斜斜的每葉上都寫着「仁義道德」幾個字。我橫竪睡不著，仔細看了半夜，纔從字縫裏看出字來，滿本都寫着兩個字是「吃人」！"
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].significance",
+      "claim": "1923년 『외침』에 수록되었다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260810083557/https://www.britannica.com/biography/Lu-Xun",
+      "quote": "These stories, which were collected in Nahan (1923; Call to Arms), established Lu Xun’s reputation as the leading Chinese writer."
+    },
+    {
+      "field": "works[lu-xun--kuangren-riji].significance",
+      "claim": "『외침』은 루쉰의 첫 소설집이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅",
+      "quote": "其前期小说编入《呐喊》、《彷徨》两个小说集，分别于1923年和1926年出版。"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].titleKo",
+      "claim": "한국어 제목은 『아Q정전』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EC%95%84Q%EC%A0%95%EC%A0%84",
+      "quote": "[국내도서] 아Q정전 - 개정증보판",
+      "note": "같은 결과 행: 루쉰 (지은이), 전형준 (옮긴이) | 창비 | 2023년 10월"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].titleOriginal",
+      "claim": "원제는 「阿Q正傳」이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/阿Q正传",
+      "quote": "《阿Q正傳》是中國近代作家魯迅唯一的一部中篇小說。"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].year",
+      "claim": "1921년 작품이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/w/index.php?title=阿Q正傳&action=raw",
+      "quote": "鲁迅《阿Q正傳》最初于1921年12月4日至1922年2月12日分章连载于《晨报副刊》"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].significance",
+      "claim": "1921년 12월부터 1922년 2월까지 신문 부간에 연재되었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/w/index.php?title=阿Q正傳&action=raw",
+      "quote": "鲁迅《阿Q正傳》最初于1921年12月4日至1922年2月12日分章连载于《晨报副刊》"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].significance",
+      "claim": "중편이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/阿Q正传",
+      "quote": "《阿Q正傳》是中國近代作家魯迅唯一的一部中篇小說。"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].significance",
+      "claim": "아Q는 날품팔이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/zh-hant/阿Q正傳",
+      "quote": "阿Q沒有家，住在未莊的土穀祠裏；也沒有固定的職業，只給人家做短工"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].significance",
+      "claim": "아Q는 맞고도 이겼다고 여긴다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/zh-hant/阿Q正傳",
+      "quote": "阿Q在形式上打敗了，被人揪住黃辮子，在壁下碰了四五個響頭，閒人這纔心滿意足的得勝的走了，阿Q站了一刻，心裏想，『我總算被兒子打了，現在的世界眞不像樣……』於是也心滿意足的得勝的走了。"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].significance",
+      "claim": "작품이 '정신승리법'이라는 이름을 만들었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/zh-hant/阿Q正傳",
+      "quote": "所以凡有和阿Q玩笑的人們，幾乎全知道他有這一種精神上的勝利法"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].significance",
+      "claim": "'아Q'라는 인물 이름이 자기기만적 태도를 가리키는 보통명사가 되었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/阿Q正传",
+      "quote": "現今的中文也借用小說主角阿Q的特点，「阿Q」有逃避現實、自我安慰的精神勝利法之意。"
+    },
+    {
+      "field": "works[lu-xun--ah-q-zhengzhuan].significance",
+      "claim": "1923년 『외침』에 수록되었다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260810083557/https://www.britannica.com/biography/Lu-Xun",
+      "quote": "These stories, which were collected in Nahan (1923; Call to Arms), established Lu Xun’s reputation as the leading Chinese writer."
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].titleKo",
+      "claim": "한국어 제목은 『중국소설사략』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EC%A4%91%EA%B5%AD%EC%86%8C%EC%84%A4%EC%82%AC%EB%9E%B5",
+      "quote": "[국내도서] 루쉰 전집 11 : 중국소설사략 ㅣ 루쉰전집 11"
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].titleOriginal",
+      "claim": "원제는 『中國小說史略』이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅",
+      "quote": "魯迅《阿Q正傳》和《中國小說史略》，都是非常好的書"
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].year",
+      "claim": "1923년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Brief_History_of_Chinese_Fiction",
+      "quote": "A draft version based on his lecture notes was issued in two parts in 1923 and 1924, then in a combined volume in 1925",
+      "note": "상권 1923, 하권 1924. 브리태니커도 '(1923–24)'로 적는다."
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].significance",
+      "claim": "베이징대학 강의를 정리한 통사다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/中国小说史略",
+      "quote": "《中国小说史略》原是鲁迅在北京大学讲中国小说史的讲义，共二十八篇"
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].significance",
+      "claim": "지괴·전기·화본·백화 장편을 하나의 계보로 배열했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Brief_History_of_Chinese_Fiction",
+      "quote": "The coverage extends from early myths and legends through the zhiguai stories of the Six Dynasties, the chuanqi stories of the Tang and Song dynasties, the vernacular stories of the following dynasties, and late Qing novels."
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].significance",
+      "claim": "그런 계보 배열을 처음 한 저작이다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/A_Brief_History_of_Chinese_Fiction",
+      "quote": "It was the first in-depth survey of Chinese fiction to be published in China, and has been influential in shaping later scholarship.",
+      "correction": "지괴·전기·화본·백화 장편을 하나의 계보로 배열한, 중국에서 나온 최초의 본격 소설 통사다.",
+      "note": "같은 항목: \"for extensive discussion of genres and works of fiction, one had to turn to foreign works such as Herbert Giles’s History of Chinese Literature or a survey in Japanese by Sionoya On\". zh.wikipedia는 루쉰 스스로 제2편을 시오노야 온의 책에 근거했다고 밝힌 글을 인용한다. 무조건적 '처음'은 출처보다 넓다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].significance",
+      "claim": "천대받던 소설을 학문의 대상으로 세웠다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Brief_History_of_Chinese_Fiction",
+      "quote": "Before Brief History, there was little discussion of fiction in Chinese studies of literature"
+    },
+    {
+      "field": "works[lu-xun--zhongguo-xiaoshuo-shilue].significance",
+      "claim": "이후 중국 소설사 연구의 기본 틀이 되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Brief_History_of_Chinese_Fiction",
+      "quote": "Because of its persuasive interpretation and clear presentation, Brief History is still the starting point even for many scholars who do not agree with it.",
+      "note": "브리태니커: \"...and companion compilations of classical fiction remain standard works.\""
+    },
+    {
+      "field": "works[lu-xun--panghuang].titleKo",
+      "claim": "한국어 제목은 『방황』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%A3%A8%EC%89%B0+%EB%B0%A9%ED%99%A9",
+      "quote": "[국내도서] 방황 ㅣ 루쉰문고 4",
+      "note": "같은 결과 행: 루쉰 (지은이), 서광덕 (옮긴이) | 그린비 | 2011년 7월"
+    },
+    {
+      "field": "works[lu-xun--panghuang].titleOriginal",
+      "claim": "원제는 『彷徨』이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅",
+      "quote": "其前期小说编入《呐喊》、《彷徨》两个小说集，分别于1923年和1926年出版。",
+      "note": "zh.wikipedia 彷徨 항목 본문과 en.wikipedia는 이체자 '徬徨'으로도 적는다."
+    },
+    {
+      "field": "works[lu-xun--panghuang].year",
+      "claim": "1926년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/彷徨",
+      "quote": "《徬徨》1926年由北新书局出版。"
+    },
+    {
+      "field": "works[lu-xun--panghuang].significance",
+      "claim": "두 번째 소설집이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅",
+      "quote": "其前期小说编入《呐喊》、《彷徨》两个小说集，分别于1923年和1926年出版。"
+    },
+    {
+      "field": "works[lu-xun--panghuang].significance",
+      "claim": "「축복」「고독자」「죽음을 슬퍼하며」 등을 묶었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/彷徨",
+      "quote": "《徬徨》是鲁迅的一部短篇小说结集，收录了鲁迅在1924至1925年间所写的短篇小说十一篇。",
+      "note": "같은 항목 목차에 《祝福》《孤独者》《伤逝》이 모두 있다."
+    },
+    {
+      "field": "works[lu-xun--panghuang].significance",
+      "claim": "지식인의 무력을 다룬다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/彷徨",
+      "quote": "知識分子的「悲劇性格」。他們軟弱、短視、松散、個人中心主義,缺乏遠大目標和持久鬥爭精神。"
+    },
+    {
+      "field": "works[lu-xun--panghuang].significance",
+      "claim": "여성의 죽음을 다룬다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/傷逝",
+      "quote": "子君后来被她父亲接走，不久便在家乡死去。",
+      "note": "「축복」의 샹린댁도 죽음으로 끝난다(zh.wikipedia 祝福 (小說): \"生既悲哀、死亦恐怖\")."
+    },
+    {
+      "field": "works[lu-xun--yecao].titleKo",
+      "claim": "한국어 제목은 『들풀』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%A3%A8%EC%89%B0+%EB%93%A4%ED%92%80",
+      "quote": "[국내도서] 들풀 ㅣ 루쉰문고 5",
+      "note": "같은 결과 행: 루쉰 (지은이), 한병곤 (옮긴이) | 그린비 | 2011년 7월"
+    },
+    {
+      "field": "works[lu-xun--yecao].titleOriginal",
+      "claim": "원제는 『野草』다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/野草_(文學)",
+      "quote": "《野草》是魯迅於1927年出版的散文詩集，寫作於1924年至1926年間"
+    },
+    {
+      "field": "works[lu-xun--yecao].year",
+      "claim": "1927년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/野草_(文學)",
+      "quote": "《野草》是魯迅於1927年出版的散文詩集，寫作於1924年至1926年間"
+    },
+    {
+      "field": "works[lu-xun--yecao].significance",
+      "claim": "1924년부터 잡지에 발표한 산문시를 묶었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/野草_(文學)",
+      "quote": "魯迅於1924年9月15日作〈秋夜〉一篇，該年12月1日發表於《語絲》雜誌",
+      "note": "같은 항목: 23편 모두 『語絲』에 발표(\"全部發表於《語絲》\")."
+    },
+    {
+      "field": "works[lu-xun--yecao].significance",
+      "claim": "루쉰의 유일한 시집이다",
+      "verdict": "contradicted",
+      "url": "https://zh.wikipedia.org/wiki/野草_(文學)",
+      "quote": "《野草》是魯迅於1927年出版的散文詩集，寫作於1924年至1926年間",
+      "correction": "1924–26년 『어사(語絲)』에 발표한 산문시를 묶은 산문시집으로",
+      "note": "출처는 '산문시집'이라고만 한다. 루쉰은 구체시도 널리 남겼다(zh.wikipedia 鲁迅: \"度尽劫波兄弟在，相逢一笑泯恩仇\"（《題三義塔》）; 브리태니커 영역본 목록에 'Lu Hsun: Complete Poems (1988)'). '유일한'을 받치는 출처는 찾지 못했다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[lu-xun--yecao].significance",
+      "claim": "꿈·그림자·묘비명 같은 형상으로 자기 부정을 밀고 나간다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/野草_(文學)",
+      "quote": "一類是作者對其思想陰暗面的自我剖析，如〈影的告別〉、〈過客〉、〈墓碣文〉",
+      "note": "같은 항목: \"內容構思上很多是夢幻的，共有7篇開始於「我夢見」的描述。\""
+    },
+    {
+      "field": "works[lu-xun--gushi-xinbian].titleKo",
+      "claim": "한국어 제목은 『고사신편』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%A3%A8%EC%89%B0+%EA%B3%A0%EC%82%AC%EC%8B%A0%ED%8E%B8",
+      "quote": "[국내도서] 고사신편 ㅣ 밀레니엄 북스 67",
+      "note": "같은 결과 행: 루쉰 (지은이), 우인호 (옮긴이) | 신원문화사 | 2006년 2월. 그린비 전집은 '새로 쓴 옛날이야기', ko.wikipedia는 '새로 엮은 옛이야기'로 옮긴다."
+    },
+    {
+      "field": "works[lu-xun--gushi-xinbian].titleOriginal",
+      "claim": "원제는 『故事新編』이다",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/새로_엮은_옛이야기",
+      "quote": "《새로 엮은 옛이야기》(故事新編))는 1936년 출간된 루쉰의 단편집이다."
+    },
+    {
+      "field": "works[lu-xun--gushi-xinbian].year",
+      "claim": "1936년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/故事新编",
+      "quote": "《故事新编》是鲁迅的一部短篇小说集，1936年由上海文化生活出版社出版。"
+    },
+    {
+      "field": "works[lu-xun--gushi-xinbian].significance",
+      "claim": "우 임금·백이숙제·묵자·노자의 이야기를 다시 썼다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/故事新编",
+      "quote": "《理水》，讲述大禹治水的故事。",
+      "note": "같은 목록: 《采薇》 伯夷·叔齐, 《出关》 老子, 《非攻》 墨子."
+    },
+    {
+      "field": "works[lu-xun--gushi-xinbian].significance",
+      "claim": "고대 이야기에 현대의 말투와 장면을 섞어 넣었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/故事新编",
+      "quote": "《故事新编》对神话、传说及历史“只取一点因由，随意点染”，“将古代和现代错综交融”"
+    },
+    {
+      "field": "works[lu-xun--gushi-xinbian].significance",
+      "claim": "루쉰의 마지막 소설집이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Lu_Xun",
+      "quote": "Although he had renounced writing fiction years before, in 1934 he published his last collection of short stories, Old Tales Retold.",
+      "note": "en.wikipedia가 적은 1934는 오류이고 초판은 1936년이다(zh.wikipedia 故事新编). ko.wikipedia도 『납함』(1923)·『방황』(1926)에 이은 세 번째 소설집이라 적는다."
+    },
+    {
+      "field": "relations[affinity--lu-xun--nam-cao].summary",
+      "claim": "베트남·중국 비교문학 연구가 「찌 페오」와 「아Q정전」을 나란히 읽어 왔다",
+      "verdict": "confirmed",
+      "url": "https://www.davidpublisher.org/index.php/Home/Article/index?id=34418.html",
+      "quote": "Pham, T. C. (2004). Some comparisons between Chi Pheo and Ah Q, “Nam Cao complete set”. Hanoi: People’s Public Security Press.",
+      "note": "콱 반저우(2018) 논문의 참고문헌. 같은 목록에 Ruan, S. M. Y. (2013), Comparative study of characters in Lu Xun and nangao’s works (윈난대 박사논문). kenh14.vn: \"Tác phẩm Chí Phèo thường được các nhà nghiên cứu trên thế giới so sánh với ... \"AQ chính truyện\" của Lỗ Tấn.\""
+    },
+    {
+      "field": "relations[affinity--lu-xun--nam-cao].summary",
+      "claim": "두 작품을 촌락의 위계가 사람을 망가뜨리는 같은 문제로 읽는다",
+      "verdict": "confirmed",
+      "url": "https://www.davidpublisher.org/Public/uploads/Contribute/5a6af8e18c889.pdf",
+      "quote": "Both books accuse the feudal landlords of the evil of exploitation by the peasants, revealing the true face of the rich people."
+    },
+    {
+      "field": "relations[affinity--lu-xun--nam-cao].summary",
+      "claim": "「찌 페오」는 마을에서 밀려난 인간을 그린다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Nam_Cao",
+      "quote": "Works such as Chí Phèo, Lão Hạc, Một đám cưới (\"A Wedding\"), Một bữa no (\"A Full Meal\"), and Lang Rận depicted village poverty, social marginalization, and class friction."
+    },
+    {
+      "field": "relations[influence--sandor-petofi--lu-xun].summary",
+      "claim": "루쉰은 「마라시력설」(1908)을 『河南』에 실었다",
+      "verdict": "confirmed",
+      "url": "http://epaper.gmw.cn/zhdsb/html/2018-10/10/nw.D110000zhdsb_20181010_2-14.htm",
+      "quote": "论文《摩罗诗力说》（原载《河南》月刊第2、3号，1908年2、3月）"
+    },
+    {
+      "field": "relations[influence--sandor-petofi--lu-xun].summary",
+      "claim": "「마라시력설」은 바이런·셸리·푸시킨과 나란히 페퇴피를 '마라파' 시인으로 논한다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/zh-hant/摩羅詩力說",
+      "quote": "今則舉一切詩人中，凡立意在反抗，指歸在動作，而為世所不甚愉悅者悉入之，為傳其言行思惟，流別影響，始宗主裴倫，終以摩迦（匈加利）文士。",
+      "note": "같은 글에 修黎(셸리)·普式庚(푸시킨) 절과 \"若匈加利當沈默蜷伏之頃，則興者有裴彖飛（A．Petöfi）\" 절이 있다."
+    },
+    {
+      "field": "relations[influence--sandor-petofi--lu-xun].summary",
+      "claim": "루쉰은 이후 페퇴피의 시를 중국어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "http://epaper.gmw.cn/zhdsb/html/2018-10/10/nw.D110000zhdsb_20181010_2-14.htm",
+      "quote": "鲁迅说《语丝》上登过裴多菲的几首诗，都是他本人翻译的，一共是五首",
+      "note": "같은 글: 『語絲』 제9기(1925.1.12) 2수, 제11기(1925.1.26) 3수."
+    },
+    {
+      "field": "relations[influence--lu-xun--osamu-dazai].summary",
+      "claim": "『석별』은 1945년에 나온 다자이의 장편이다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/太宰治",
+      "quote": "惜別 || 朝日新聞社 || 1945年9月5日 || 書き下ろし長編小説",
+      "note": "작품 목록 표의 한 행."
+    },
+    {
+      "field": "relations[influence--lu-xun--osamu-dazai].summary",
+      "claim": "『석별』은 센다이 의학전문학교 시절의 루쉰을 그린다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/惜別",
+      "quote": "東北大学医学部前身の仙台医専に留学していた頃の魯迅を、東北の一老医師であり、当時の魯迅の親友が語るという設定で"
+    },
+    {
+      "field": "relations[influence--lu-xun--osamu-dazai].summary",
+      "claim": "다자이는 루쉰의 「후지노 선생」을 비롯한 자료를 읽고 썼다",
+      "verdict": "confirmed",
+      "url": "https://www.aozora.gr.jp/cards/000035/files/2277_15069.html",
+      "quote": "先生四十六歳の昭和元年に、「藤野先生」という小品文を発表せられた。",
+      "note": "본문이 이 문장 뒤에 「藤野先生」을 발췌 인용한다. 후기에는 오다 다케오의 『魯迅伝』과 다케우치 요시미의 『魯迅』을 받아 읽었다고 적혀 있다."
+    },
+    {
+      "field": "relations[influence--lu-xun--osamu-dazai].summary",
+      "claim": "일본문학보국회의 위촉으로 썼다",
+      "verdict": "confirmed",
+      "url": "https://www.aozora.gr.jp/cards/000035/files/2277_15069.html",
+      "quote": "この「惜別」は、内閣情報局と文学報国会との依嘱で書きすすめた小説には違いないけれども",
+      "note": "위촉 주체는 내각정보국과 문학보국회 두 곳이다."
+    },
+    {
+      "field": "relations[influence--lu-xun--osamu-dazai].summary",
+      "claim": "대동아 문화 정책 안에서 집필되었다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/惜別",
+      "quote": "日本文学報国会は同宣言の五原則を主題とする文学作品化を図り",
+      "note": "'同宣言'은 1943년 대동아회의의 「大東亜共同宣言」."
+    },
+    {
+      "field": "relations[contrast--lu-xun--eileen-chang].summary",
+      "claim": "샤즈칭의 『중국현대소설사』(1961)가 장아이링을 정전에 올렸다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/張愛玲",
+      "quote": "1961年，文學評論家夏志清在美國耶魯大學出版《中國現代小說史》，其中以大篇幅介紹張愛玲的著作，並推崇張愛玲的《金鎖記》是中國從古至今最佳中篇小說。這些評論確立了張愛玲在中國文學史上的地位"
+    },
+    {
+      "field": "relations[contrast--lu-xun--eileen-chang].summary",
+      "claim": "루쉰의 소설은 국민성 비판을 축으로 한다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅",
+      "quote": "他的小说使用富有创造力的形式对中国人的国民性、中国社会的弊端予以深刻的阐释"
+    },
+    {
+      "field": "relations[contrast--lu-xun--eileen-chang].summary",
+      "claim": "장아이링의 소설은 혼담과 재산을 축으로 한다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/The_Golden_Cangue",
+      "quote": "Ch'i-ch'iao the main protagonist is the daughter of a sesame oil shopkeeper, she is forced to marry family Chiang for wealth.",
+      "correction": "재산 때문에 한 혼인이 인물을 옥죄는 『금쇄기』의 장아이링",
+      "note": "출처가 받치는 것은 대표작 『금쇄기』 한 편이다. 장아이링 소설 전체를 혼담·재산으로 규정하는 출처는 찾지 못했다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[contrast--lu-xun--eileen-chang].summary",
+      "claim": "이후 연구가 루쉰과 장아이링을 중국 현대소설의 갈라진 두 방향으로 반복해 대비해 왔다",
+      "verdict": "unverifiable",
+      "note": "zh.wikipedia 夏志清은 샤즈칭이 \"對魯迅評價比較低\"였고 프루셰크와 논쟁했다고 적는다. 이는 샤즈칭 책 안의 대비일 뿐, 이후 연구의 반복적 대비는 보여 주지 않는다. 왕더웨이 「台湾的鲁迅,南洋的张爱玲」은 nssd.org 초록을 읽을 수 없었다(도메인 매각, 웨이백 사본에 본문 없음). 세션 웹 검색 한도가 소진되어 더 찾지 못했다.",
+      "resolution": "removed"
+    },
+    {
+      "field": "sources[src--britannica]",
+      "claim": "브리태니커 루쉰 표제 항목(Encyclopædia Britannica, Inc.)이 실재한다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20260810083557/https://www.britannica.com/biography/Lu-Xun",
+      "quote": "Lu Xun (born September 25, 1881, Shaoxing, Zhejiang province, China—died October 19, 1936, Shanghai) was a Chinese writer",
+      "note": "britannica.com 원본은 Cloudflare 확인 화면이 떠서 웨이백 2026-08-10 사본을 읽었다."
+    },
+    {
+      "field": "sources[src--lu-xun-quanji]",
+      "claim": "人民文學出版社 『魯迅全集』(주석·연보 포함)이 실재한다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/wiki/鲁迅全集",
+      "quote": "《鲁迅全集》，人民文学出版社，十六卷；1981年初版",
+      "note": "같은 항목: 1981년판 제16권이 《鲁迅著译年表》·《全集注释索引》이다. 2005년 18권판도 있다."
+    },
+    {
+      "field": "sources[src--xinqingnian-1918]",
+      "claim": "『신청년』 4권 5호(1918년 5월)의 발행처는 新靑年社다",
+      "verdict": "contradicted",
+      "url": "https://zh.wikipedia.org/wiki/新青年",
+      "quote": "刊登启示与群益书社解除关系，专门成立“新青年社”独立印行",
+      "correction": "『신청년(新靑年)』 4권 5호(1918년 5월 15일), 상하이 群益書社 발행",
+      "note": "권호와 날짜는 맞다(zh.wikipedia 狂人日记: \"首发于1918年5月15日4卷5号《新青年》月刊\"). 다만 新青年社는 1920년 제8권부터 群益書社와 결별하며 세운 발행처라서 1918년 호의 발행처로 쓰면 시대가 맞지 않는다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "sources[src--kr-world-lit-editions]",
+      "claim": "'국내 주요 세계문학전집 해설(민음사·문학동네·을유문화사·창비 등)'이라는 문헌",
+      "verdict": "unverifiable",
+      "note": "특정 문헌이 아니라 출판사를 묶어 놓은 이름이어서 문서 단위로는 확인할 수 없다. 알라딘에서 확인한 것: 을유세계문학전집 12 『루쉰 소설 전집』(김시준 옮김, 2008), 창비 『아Q정전』(전형준 옮김), 창비세계문학 단편선 『장맛비가 내리던 저녁』, 문학동네 '루쉰 판화 작품집'. 문학동네 세계문학전집과 민음사 세계문학전집의 루쉰 권은 찾지 못했다(검색어 '루쉰 민음사' 0건). 어느 해설을 가리키는지 특정해야 한다.",
+      "resolution": "removed"
+    },
+    {
+      "field": "sources[src--chenbao-fukan-1921]",
+      "claim": "『晨報副刊』(晨報社)에 1921년 12월–1922년 2월 「아Q정전」이 연재된 지면이 실재한다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/w/index.php?title=阿Q正傳&action=raw",
+      "quote": "鲁迅《阿Q正傳》最初于1921年12月4日至1922年2月12日分章连载于《晨报副刊》",
+      "note": "zh.wikipedia 晨报副镌: \"《晨报副镌》，又称晨报副刊，是《晨报》的综合性副刊\". 발행 주체 晨報社는 zh.wikipedia 晨報 (北京) 항목의 도판 '學生焚燒晨報社及朱深住宅'에서 확인된다."
+    },
+    {
+      "field": "sources[src--quach-ah-q-chi-pheo-2018]",
+      "claim": "Quach Van-Dau, 'Simple Remarks of The True Story of Ah Q and Chi Pheo', JLAS 8(2), 2018이 실재한다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.17265/2159-5836/2018.02.008",
+      "quote": "Simple Remarks of The True Story of Ah Q and Chi Pheo",
+      "note": "Crossref 메타데이터: Journal of Literature and Art Studies, vol. 8, issue 2, 2018-01-28, 저자 Van-Dau Quach (Wendou Guo), 발행 David Publishing Company."
+    },
+    {
+      "field": "sources[src--lu-xun-henan-essays-1907-08]",
+      "claim": "도쿄의 재일 유학생 잡지 『河南』(1907–08)에 「문화편지론」·「마라시력설」이 실렸다",
+      "verdict": "confirmed",
+      "url": "https://www5.zzu.edu.cn/arts/info/1042/2807.htm",
+      "quote": "1907年12月，河南留日学生在东京府下丰多摩郡创办了《河南》。",
+      "note": "같은 글: 《摩罗诗力说》(第2、3期), 《文化偏至论》(第7期), 제9기 1908년 12월 20일. zh.wikipedia 文化偏至论: 루쉰이 \"施蒂纳、叔本华、尼采、易仆生\"을 긍정했다."
+    },
+    {
+      "field": "sources[src--dazai-sekibetsu-1945]",
+      "claim": "『석별(惜別)』(1945)의 발행처 표기는 '일본문학보국회 위촉작 — 1945년 간행 단행본'이다",
+      "verdict": "contradicted",
+      "url": "https://ja.wikipedia.org/wiki/惜別",
+      "quote": "1945年（昭和20年）9月5日、朝日新聞社より刊行された",
+      "correction": "『惜別』, 朝日新聞社, 1945년 9월 5일 (내각정보국·일본문학보국회 위촉작)",
+      "note": "책은 실재하지만 publisherOrInstitution 칸에 발행처가 없다. 위촉 기관은 발행처가 아니다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "sources[src--keene-dawn-to-the-west]",
+      "claim": "Donald Keene, Dawn to the West (Henry Holt)이 실재한다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/dawntowestjapane0000keen_l8c5",
+      "quote": "Dawn to the West : Japanese literature of the modern era",
+      "note": "archive.org 서지: 발행처 'New York : H. Holt', 1987. 초판(1984)은 Holt, Rinehart and Winston, 1998년판은 Columbia University Press다. 『석별』을 다루는지는 본문 열람 제한으로 보지 못했다."
+    },
+    {
+      "field": "sources[src--hsia-modern-chinese-fiction]",
+      "claim": "C. T. Hsia, A History of Modern Chinese Fiction, Yale University Press, 1961 초판이 실재한다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/historyofmodernc0000hsia_n8l5",
+      "quote": "A history of modern Chinese fiction, 1917-1957",
+      "note": "archive.org 서지: 발행처 'New Haven, Yale University Press', 1961."
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--lu-xun-quanji": {
+      "id": "src--lu-xun-quanji",
+      "title": "『魯迅全集』 주석·연보",
+      "publisherOrInstitution": "人民文學出版社",
+      "citation": "루쉰 저작의 초출 지면·발표 연도·필명이 정리된 정본 전집의 주석과 연보"
+    },
+    "src--xinqingnian-1918": {
+      "id": "src--xinqingnian-1918",
+      "title": "『신청년(新靑年)』 4권 5호 (1918년 5월)",
+      "publisherOrInstitution": "群益書社 (상하이)",
+      "citation": "루쉰의 「광인일기」가 처음 실린 지면 — 백화 소설의 출발점으로 인용되는 1차 자료"
+    },
+    "src--chenbao-fukan-1921": {
+      "id": "src--chenbao-fukan-1921",
+      "title": "『신보 부간(晨報副刊)』 연재 지면 (1921년 12월 – 1922년 2월)",
+      "publisherOrInstitution": "晨報社",
+      "citation": "「아Q정전」이 회차로 나뉘어 연재된 지면 — 연재 시작·종료 시점의 1차 근거"
+    },
+    "src--mo-yan-story-of-my-life-2012": {
+      "id": "src--mo-yan-story-of-my-life-2012",
+      "title": "「내 삶의 이야기(Mo Yan – The Story of My Life)」 — 노벨재단 수록 자전",
+      "publisherOrInstitution": "Nobel Prize Outreach / The Nobel Foundation",
+      "url": "https://www.nobelprize.org/prizes/literature/2012/yan/biographical/",
+      "citation": "『The Nobel Prizes 2012』(Science History Publications/USA, 2013) 수록, Howard Goldblatt 영역. 1981년 첫 단편 발표, 1984년 해방군예술학원에서 번역으로 읽은 포크너·가르시아 마르케스, 『탄샹싱』에서 루쉰의 국민성 비판을 이어받았다는 진술, 1956년 3월 25일을 선호하는 생일 주석"
+    },
+    "src--choi-in-suk-2010-yeom-lu-xun-nora": {
+      "id": "src--choi-in-suk-2010-yeom-lu-xun-nora",
+      "title": "최인숙, 「‘노라’를 바라보는 염상섭과 루쉰의 시선 — 염상섭의 「제야」와 루쉰의 「傷逝」를 중심으로」, 『비교문학』 50 (2010. 2.), 207–237쪽",
+      "publisherOrInstitution": "한국비교문학회",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12834358",
+      "citation": "「제야」의 정인과 「상서(傷逝)」의 쯔쥔을 노라 이후의 신여성으로 비교"
+    },
+    "src--seo-young-chae-2013-second-son": {
+      "id": "src--seo-young-chae-2013-second-son",
+      "title": "서영채, 「둘째 아들의 서사 — 염상섭, 소세키, 루쉰」, 『민족문학사연구』 51 (2013. 4.), 8–42쪽",
+      "publisherOrInstitution": "민족문학사연구소",
+      "url": "https://www.krm.or.kr/krmts/search/detailview/researchPaperKci.html?m310_arti_id=ART001767115",
+      "citation": "한중일의 세 작가 염상섭·루쉰·소세키를 '둘째 아들의 서사'로 비교"
+    },
+    "src--kim-kyoung-soo-2019-yeom-lu-xun": {
+      "id": "src--kim-kyoung-soo-2019-yeom-lu-xun",
+      "title": "김경수, 「염상섭(廉想涉)과 루쉰(魯迅)」, 『서강인문논총』 55 (2019), 161–196쪽",
+      "publisherOrInstitution": "서강대학교 인문과학연구소",
+      "url": "https://dspace.kci.go.kr/handle/kci/734736",
+      "citation": "일본 유학, 소세키의 영향, 입센 『인형의 집』 소개, 예로셴코와의 교분, 반제국주의 태도를 공통점으로 비교"
+    },
+    "src--yu-hua-lu-xun-essay": {
+      "id": "src--yu-hua-lu-xun-essay",
+      "title": "余华, 「鲁迅：从一个词汇回到一个作家」 — 『十个词汇里的中国』 수록 산문",
+      "publisherOrInstitution": "中国作家网 전재 (2017. 2. 24.)",
+      "url": "https://www.chinawriter.com.cn/n1/2017/0224/c405057-29105619.html",
+      "citation": "2006년 오슬로 대학 강연에서 한 루쉰 이야기와 1996년 루쉰 소설을 다시 읽은 경험을 적은 글. 한국어판은 『사람의 목소리는 빛보다 멀리 간다』(문학동네, 2012)."
+    },
+    "src--chinawriter-yu-hua-interview-2017": {
+      "id": "src--chinawriter-yu-hua-interview-2017",
+      "title": "「余华：写作不是我的爱好」 — 『澳门特写』 인터뷰",
+      "publisherOrInstitution": "中国作家网 (2017. 2. 24.)",
+      "url": "https://www.chinawriter.com.cn/n1/2017/0224/c405057-29105619.html"
+    },
+    "src--quach-ah-q-chi-pheo-2018": {
+      "id": "src--quach-ah-q-chi-pheo-2018",
+      "title": "Simple Remarks of The True Story of Ah Q and Chi Pheo",
+      "publisherOrInstitution": "Journal of Literature and Art Studies 8(2), 2018 (Quach Van-Dau)",
+      "url": "https://doi.org/10.17265/2159-5836/2018.02.008",
+      "citation": "「아Q정전」과 「찌 페오」를 나란히 읽은 비교문학 논문 — 루쉰·남 까오 대비 독해의 실제 소재지"
+    },
+    "src--dazai-sekibetsu-1945": {
+      "id": "src--dazai-sekibetsu-1945",
+      "title": "『석별(惜別)』 (1945)",
+      "publisherOrInstitution": "朝日新聞社, 1945년 9월 5일 간행 (내각정보국·일본문학보국회 위촉작)",
+      "citation": "센다이 의학전문학교 시절의 저우수런(루쉰)을 주인공으로 삼은 다자이의 장편 — 루쉰 독서와 대동아 문화 정책이라는 집필 조건의 1차 근거"
+    },
+    "src--keene-dawn-to-the-west": {
+      "id": "src--keene-dawn-to-the-west",
+      "title": "Dawn to the West: Japanese Literature of the Modern Era",
+      "publisherOrInstitution": "Henry Holt / Donald Keene",
+      "citation": "일본 근현대문학 표준 개설서 — 작가별 연보, 작품 발표 경위, 잡지 연재 이력 확인용"
+    },
+    "src--hsia-modern-chinese-fiction": {
+      "id": "src--hsia-modern-chinese-fiction",
+      "title": "A History of Modern Chinese Fiction (中國現代小說史)",
+      "publisherOrInstitution": "Yale University Press / C. T. Hsia (夏志清)",
+      "citation": "1961년 초판. 장아이링을 중국 현대소설 정전에 편입시킨 연구 — 1943–54년 작품의 평가사 확인용"
+    },
+    "src--lu-xun-henan-essays-1907-08": {
+      "id": "src--lu-xun-henan-essays-1907-08",
+      "title": "루쉰 초기 문언 논문 — 『하남(河南)』 게재 (도쿄, 1907–1908)",
+      "publisherOrInstitution": "재일 중국인 유학생 잡지 『河南』",
+      "citation": "「문화편지론(文化偏至論)」·「마라시력설(摩羅詩力說)」 등이 실린 지면 — 니체·슈티르너·입센 수용과 개인주의 논지가 처음 정식화된 1차 자료"
+    },
+    "src--xiandai-riben-xiaoshuo-ji-1923": {
+      "id": "src--xiandai-riben-xiaoshuo-ji-1923",
+      "title": "『현대일본소설집(現代日本小說集)』 (1923)",
+      "publisherOrInstitution": "上海 商務印書館",
+      "citation": "루쉰과 저우쭤런이 함께 엮은 일본 근대소설 중국어 선집 — 루쉰이 옮긴 나쓰메 소세키·아쿠타가와 류노스케 단편과 작가 해제가 실린 1차 판본"
+    },
+    "src--lu-xun-nora-lecture-1923": {
+      "id": "src--lu-xun-nora-lecture-1923",
+      "title": "「노라는 떠난 뒤 어떻게 되었는가(娜拉走後怎樣)」 — 베이징여자고등사범학교 강연 (1923. 12.)",
+      "publisherOrInstitution": "北京女子高等師範學校",
+      "citation": "『인형의 집』의 결말을 이어받아 경제적 조건 없는 각성의 귀결을 물은 강연 — 루쉰의 입센 수용을 보여주는 1차 문헌"
+    }
+  }
+}

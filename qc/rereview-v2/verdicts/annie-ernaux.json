@@ -1,0 +1,1153 @@
+{
+ "plates": [
+  {
+   "id": "annie-ernaux",
+   "claims": [
+    {
+     "sids": [
+      "a75da17c027a"
+     ],
+     "field": "author.facts",
+     "claim": "아니 에르노는 1940년에 프랑스에서 태어났다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/facts/",
+     "quote": "Born: 1 September 1940, Lillebonne, France"
+    },
+    {
+     "sids": [
+      "a75da17c027a"
+     ],
+     "field": "author.facts",
+     "claim": "에르노는 프랑스어로 쓰는 작가다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/facts/",
+     "quote": "Language: French"
+    },
+    {
+     "sids": [
+      "a75da17c027a"
+     ],
+     "field": "author.facts",
+     "claim": "원어 표기 Annie Ernaux, 프랑스(서유럽) 작가",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/press-release/",
+     "quote": "The Nobel Prize in Literature for 2022 is awarded to the French author Annie Ernaux"
+    },
+    {
+     "sids": [
+      "62195fa0937a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "에르노는 허구의 작가가 아니라 자기 자신의 민족지학자라 자처하며 자기 삶을 사회학적 자료처럼 기록한다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "she declares that she is an “ethnologist of herself” rather than a writer of fiction"
+    },
+    {
+     "sids": [
+      "62195fa0937a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "에르노의 글은 자기와 사회역사적 현실의 관계에 기댄 \"자기-사회-전기(autosociobiographie)\"다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Les_Armoires_vides",
+     "quote": "la seule écriture juste m'a paru être le refus de toute fiction et ce que j'ai appelé ensuite l'autosociobiographie parce que je me fonde presque toujours sur un rapport de soi à la réalité sociohistorique"
+    },
+    {
+     "sids": [
+      "62195fa0937a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "에르노의 글은 계급(과 젠더·언어)의 격차로 표시된 삶을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "In her writing, Ernaux consistently and from different angles, examines a life marked by strong disparities regarding gender, language and class."
+    },
+    {
+     "sids": [
+      "62195fa0937a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세월』로 자서전을 한 세대의 집단적 기록으로 넓혔다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Les_Ann%C3%A9es_(ouvrage_d'Annie_Ernaux)",
+     "quote": "Présenté par l'autrice comme « une autobiographie impersonnelle » ou « collective »"
+    },
+    {
+     "sids": [
+      "f77aea6a3469"
+     ],
+     "field": "author.importanceReason",
+     "claim": "부모는 노동자 출신으로 카페 겸 식료품점을 하는 소상인이 되었다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "where her parents had a combined grocery store and café. Her setting was poor but ambitious, with parents who had pulled themselves up from proletarian survival to a bourgeois life"
+    },
+    {
+     "sids": [
+      "f77aea6a3469"
+     ],
+     "field": "author.importanceReason",
+     "claim": "딸 에르노는 교사이자 작가가 되었다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "In spite of its success, I chose to keep my teaching job so that I would never have to depend on commercial success."
+    },
+    {
+     "sids": [
+      "f77aea6a3469"
+     ],
+     "field": "author.importanceReason",
+     "claim": "에르노는 자기를 출신에서 멀어지게 한 이유를 이해하려고 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "Of writing to understand the reasons, inside and outside of myself, which had caused me to be distanced from my origins."
+    },
+    {
+     "sids": [
+      "f77aea6a3469"
+     ],
+     "field": "author.importanceReason",
+     "claim": "넷째 책부터 은유도 감정의 표지도 없는 \"평평한\" 글쓰기를 택했고, 폭력은 문체가 아니라 사실 자체에서 나오게 했다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "starting with my fourth book, I adopted a neutral, objective kind of writing, ‘flat’ in the sense that it contained neither metaphors nor signs of emotion. The violence was no longer displayed; it came from the facts themselves and not the writing."
+    },
+    {
+     "sids": [
+      "f77aea6a3469"
+     ],
+     "field": "author.importanceReason",
+     "claim": "넷째 책 『남자의 자리』(La Place)에서 소설 장르와 결별했다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "Entitled A Man’s Place, it marks a definitive break with the novelistic genre."
+    },
+    {
+     "sids": [
+      "f77aea6a3469"
+     ],
+     "field": "author.importanceReason",
+     "claim": "넷째 책이 『남자의 자리』(La Place)다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "it was her fourth book, La place (1983; A Man’s Place, 1992)"
+    },
+    {
+     "sids": [
+      "c55ec1acfa4f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세월』에서 '나'를 배제하고 '그녀'와 '우리'로 서술했다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "자서전에서 일반적으로 택하는 일인칭 시점이 아닌, ‘나’를 배제한 ‘그녀’와 ‘우리’, 그리고 ‘사람들’로 서술하는 방식을 택했다"
+    },
+    {
+     "sids": [
+      "c55ec1acfa4f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세월』은 자기 생애와 60여 년의 프랑스 사회 변화를 겹쳐 썼다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Les_Ann%C3%A9es_(ouvrage_d'Annie_Ernaux)",
+     "quote": "Le roman brasse 60 ans d'histoire commune en reprenant les grands et petits événements de cette période, les modes de vies et sujets de conversation, et leurs répercussions sur elle-même et son cercle familial."
+    },
+    {
+     "sids": [
+      "c55ec1acfa4f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세월』이 다루는 60여 년은 '전후' 시기다",
+     "verdict": "contradicted",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "1941년부터 2006년까지 프랑스의 사회를 바라보는 여성의 시각",
+     "correction": "『세월』에서는 '나'를 지우고 '그녀'와 '우리'의 목소리로 자기 생애를 1941년부터 2006년까지, 전쟁 중부터 60여 년에 걸친 프랑스 사회의 변화와 겹쳐 썼다.",
+     "note": "서술 기간은 점령기인 1941년에 시작한다 — 온전한 \"전후\"가 아니다."
+    },
+    {
+     "sids": [
+      "efbd805517c2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "2022년 노벨문학상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/press-release/",
+     "quote": "The Nobel Prize in Literature for 2022 is awarded to the French author Annie Ernaux"
+    },
+    {
+     "sids": [
+      "cd6bad168314"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『남자의 자리』 1984Books 개정판이 있다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341510563",
+     "quote": "남자의 자리 - 개정판 | 아니 에르노 컬렉션 아니 에르노 (지은이),신유진 (옮긴이)1984Books2024-06-21원제 : La Place"
+    },
+    {
+     "sids": [
+      "cd6bad168314"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "그 개정판은 104쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341510563",
+     "quote": "104쪽 120*205mm"
+    },
+    {
+     "sids": [
+      "cd6bad168314"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『남자의 자리』는 아버지의 죽음에서 시작한다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341510563",
+     "quote": "『남자의 자리』는 중등교사 자격시험에 합격하고 정확히 두 달 후에 있었던 아버지의 죽음으로부터 시작한다."
+    },
+    {
+     "sids": [
+      "c349ff760927"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『남자의 자리』는 에르노가 '평평한' 글쓰기로 방향을 튼 넷째 책이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "starting with my fourth book, I adopted a neutral, objective kind of writing, ‘flat’"
+    },
+    {
+     "sids": [
+      "c349ff760927"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "여기서 택한 평평한 글쓰기가 이후 작품의 방법이 되었다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/La_Place",
+     "quote": "Ernaux adopte dans ce texte une « écriture plate » telle qu'elle désigne elle-même le style minimaliste qu'elle continuera d'employer dans ses œuvres ultérieures"
+    },
+    {
+     "sids": [
+      "c349ff760927"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『남자의 자리』는 계급의 거리와 수치를 드러낸다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/what-to-read-books-by-annie-ernaux/",
+     "quote": "Only with her double vision she can uncover the shame and humiliation that he is suffering from because of his class, his lack of education and self-esteem."
+    },
+    {
+     "sids": [
+      "c349ff760927"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "안데르스 올손이 노벨상 '무엇부터 읽을까' 추천에서 『남자의 자리』를 골랐다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/what-to-read-books-by-annie-ernaux/",
+     "quote": "Anders Olsson on A Man’s Place (La place) My choice is Annie Ernaux’s fourth book La place (1983), in English A Man’s Place."
+    },
+    {
+     "sids": [
+      "c349ff760927"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "안데르스 올손은 노벨문학위원회 위원장이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ceremony-speech/",
+     "quote": "Presentation Speech by Professor Anders Olsson, Member of the Swedish Academy, Member of the Nobel Committee for Literature, Chairman of the Nobel Committee for Literature, 10 December 2022."
+    },
+    {
+     "sids": [
+      "4d2bdd2c3bca"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『나는 나의 밤을 떠나지 않는다』 한국어판(열림원 2021)은 176쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=276116423",
+     "quote": "176쪽 125*200mm"
+    },
+    {
+     "sids": [
+      "4d2bdd2c3bca"
+     ],
+     "field": "author.readingWarning",
+     "claim": "이 책은 에르노의 가장 얇은 책 가운데 하나로, 치매로 사라져 가는 어머니의 마지막 몇 해를 그렸다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/what-to-read-books-by-annie-ernaux/",
+     "quote": "one of the thinnest – but in my view also one of the most dense, poignant and vigorous – books of Annie Ernaux. It depicts the end of her mother’s life, those painful last years when the author saw this once so powerful mother of hers disappearing into the darkness called dementia."
+    },
+    {
+     "sids": [
+      "9df92903414b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "Anne Swärd는 스웨덴 한림원 노벨문학위원회 위원이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/what-to-read-books-by-annie-ernaux/",
+     "quote": "We asked three members of the literature committee at the Swedish Academy"
+    },
+    {
+     "sids": [
+      "9df92903414b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "Swärd는 이 책을 처음이 아니라 마지막에 읽으라고 권했다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/what-to-read-books-by-annie-ernaux/",
+     "quote": "If you haven’t read Annie Ernaux before, this is probably not the first book you should pick up, rather the last."
+    },
+    {
+     "sids": [
+      "9df92903414b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『한 여자』에서 한창때의 어머니를 먼저 만나면 그 무너짐이 충격적으로 다가온다(Swärd)",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/what-to-read-books-by-annie-ernaux/",
+     "quote": "first having read A Woman’s Story (Une Femme), the novel where we get to meet the same mother at the height of her “power” … it’s quite shocking to follow her physical and mental decay in I Remain in Darkness."
+    },
+    {
+     "sids": [
+      "a2c5447f34b2"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『한 여자』 한국어판(열린책들)은 112쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=17127251",
+     "quote": "112쪽",
+     "note": "대부분 100~150쪽이라는 집계는 개별 판본으로만 확인됨: 남자의 자리 104·한 여자 112·단순한 열정 104·부끄러움 152·사건 84(민음사)/120(2026판)쪽, 반면 빈 옷장 240·세월 264·나는 나의 밤을 떠나지 않는다 176쪽."
+    },
+    {
+     "sids": [
+      "a2c5447f34b2"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『단순한 열정』 한국어판(문학동네)은 104쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=20949513",
+     "quote": "104쪽"
+    },
+    {
+     "sids": [
+      "a2c5447f34b2"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『부끄러움』 한국어판(비채)은 152쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=190043819",
+     "quote": "152쪽"
+    },
+    {
+     "sids": [
+      "a2c5447f34b2"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "에르노의 문장은 평이한 말로 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "Her work is uncompromising and written in plain language, scraped clean."
+    },
+    {
+     "sids": [
+      "97d88ea9563c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "에르노의 글쓰기는 은유와 감정 표현을 뺀 사실의 문장이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "‘flat’ in the sense that it contained neither metaphors nor signs of emotion"
+    },
+    {
+     "sids": [
+      "97d88ea9563c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "임신중절 장면을 다룬다(『사건』)",
+     "verdict": "confirmed",
+     "url": "https://www.sevenstories.com/books/4165-happening",
+     "quote": "In a France where abortion was illegal, she attempted, in vain, to self-administer the abortion with a knitting needle."
+    },
+    {
+     "sids": [
+      "97d88ea9563c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "가정의 폭력 장면을 다룬다(『부끄러움』)",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "“My father tried to kill my mother one Sunday in June, in the early afternoon.”"
+    },
+    {
+     "sids": [
+      "97d88ea9563c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "어머니의 죽음을 다룬다(『한 여자』)",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "A Woman’s Story, about my mother, who had Alzheimer’s disease and died in 1986"
+    },
+    {
+     "sids": [
+      "02e00aee6657"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세월』 한국어판(THE CIRCLE PRESS 2025 개정판)은 264쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "264쪽 110*190mm",
+     "note": "264쪽은 2025년 THE CIRCLE PRESS 개정판 기준."
+    },
+    {
+     "sids": [
+      "02e00aee6657"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세월』은 60여 년 치 사진·광고·노래의 파편으로 나아간다",
+     "verdict": "confirmed",
+     "url": "https://www.sevenstories.com/books/4032-the-years",
+     "quote": "The Years is a personal narrative from Annie Ernaux of the period 1941 to 2006 told through the lens of memory, impressions past and present—even projections into the future—photos, books, songs, radio, television and decades of advertising"
+    },
+    {
+     "sids": [
+      "02e00aee6657"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세월』은 '나' 대신 '우리'의 목소리로 서술한다",
+     "verdict": "confirmed",
+     "url": "https://www.sevenstories.com/books/4032-the-years",
+     "quote": "the narrator eschews the \"I\" for the \"we\" (or \"they,\" or \"one\")"
+    },
+    {
+     "sids": [
+      "97d88ea9563c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "아버지의 죽음을 다룬다(『남자의 자리』)",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341510563",
+     "quote": "2022 노벨 문학상 수상 작가 '아니 에르노'가 그리는 아버지의 삶과 죽음"
+    },
+    {
+     "sids": [
+      "396b62c9e347"
+     ],
+     "field": "work:annie-ernaux--les-armoires-vides.facts",
+     "claim": "한국어판 제목 『빈 옷장』, 원제 Les Armoires vides",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=302940692",
+     "quote": "빈 옷장 - 개정판 | 아니 에르노 컬렉션 아니 에르노 (지은이),신유진 (옮긴이)1984Books2022-10-15원제 : Les Armoires vides"
+    },
+    {
+     "sids": [
+      "396b62c9e347"
+     ],
+     "field": "work:annie-ernaux--les-armoires-vides.facts",
+     "claim": "1974년 갈리마르에서 출간",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "Les armoires vides. – Paris : Gallimard, 1974"
+    },
+    {
+     "sids": [
+      "396b62c9e347"
+     ],
+     "field": "work:annie-ernaux--les-armoires-vides.facts",
+     "claim": "장르는 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Les_Armoires_vides",
+     "quote": "Les Armoires vides est le premier roman d'Annie Ernaux, publié en 1974 aux éditions Gallimard."
+    },
+    {
+     "sids": [
+      "71cc29833b3a"
+     ],
+     "field": "work:annie-ernaux--les-armoires-vides.significance",
+     "claim": "주인공은 스무 살의 허구 인물 드니즈 르쉬르다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ceremony-speech/",
+     "quote": "in the impassioned debut, the 20-year-old main character, fleeing from her social constraints, is a fictitious character called Denise Lesur."
+    },
+    {
+     "sids": [
+      "71cc29833b3a"
+     ],
+     "field": "work:annie-ernaux--les-armoires-vides.significance",
+     "claim": "스무 살의 불법 임신중절 수술에서 출발해 어린 시절·사춘기, 가족에 대한 수치, 자기 세계에서 떨어져 나가는 과정을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=302940692",
+     "quote": "스무 살의 자신이 받은 불법 낙태 수술에서 출발하여, 환경에 적응하며 사는 어린 시절을 거쳐 사춘기 시절의 상처, 가족에게 느끼는 수치심, 자신의 뿌리를 잊기 위한 노력과 부르주아층 남자아이에게 버림받은 일까지, 자신이 속한 세상에서 분리되는 과정을 그리며"
+    },
+    {
+     "sids": [
+      "71cc29833b3a"
+     ],
+     "field": "work:annie-ernaux--les-armoires-vides.significance",
+     "claim": "에르노의 데뷔작이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "Annie Ernaux’s debut was Les armoires vides (1974; Cleaned Out, 1990)"
+    },
+    {
+     "sids": [
+      "afabc1701401"
+     ],
+     "field": "work:annie-ernaux--les-armoires-vides.significance",
+     "claim": "에르노는 노벨 강연에서 첫 책이 이후 글쓰기가 자리할 '사회적이면서 페미니즘적인' 영역을 그었다고 말했다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "that first book, published in 1974, mapped out the realm in which I would situate my writing, a realm both social and feminist."
+    },
+    {
+     "sids": [
+      "afab50f697a1"
+     ],
+     "field": "work:annie-ernaux--la-place.facts",
+     "claim": "한국어판 제목 『남자의 자리』, 원제 La Place",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341510563",
+     "quote": "남자의 자리 - 개정판 | 아니 에르노 컬렉션 아니 에르노 (지은이),신유진 (옮긴이)1984Books2024-06-21원제 : La Place"
+    },
+    {
+     "sids": [
+      "afab50f697a1"
+     ],
+     "field": "work:annie-ernaux--la-place.facts",
+     "claim": "1983년 출간",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "La place. – Paris : Gallimard, 1983"
+    },
+    {
+     "sids": [
+      "afab50f697a1"
+     ],
+     "field": "work:annie-ernaux--la-place.facts",
+     "claim": "『남자의 자리』의 장르는 소설(fiction)이다",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "It flagged a series of autobiographical prose works one step beyond the imaginary worlds of fiction.",
+     "correction": "『남자의 자리』(La Place) · 1983 · 자전적 산문(소설 아님)",
+     "note": "라 플라스 이후 에르노는 소설 장르와 결별했다(Biographical: \"it marks a definitive break with the novelistic genre\"). 한국어판 출판사는 여전히 \"소설\"이라 부르는 경우가 있으나 작가와 노벨 서지는 허구가 아닌 자전적 산문으로 규정한다. 사이트 장르 체계(fiction=소설·단편)에 맞는 칸이 없으면 분류 재검토 필요."
+    },
+    {
+     "sids": [
+      "023278eba0fd"
+     ],
+     "field": "work:annie-ernaux--la-place.significance",
+     "claim": "아버지의 죽음에서 출발한다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/La_Place",
+     "quote": "L'histoire commence par la mort de son père, puis effectue un long retour en arrière sur sa vie."
+    },
+    {
+     "sids": [
+      "023278eba0fd"
+     ],
+     "field": "work:annie-ernaux--la-place.significance",
+     "claim": "아버지는 농민에서 공장 노동자를 거쳐 카페 겸 식료품점 주인이 되었다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/La_Place",
+     "quote": "L'ouvrage retrace la vie du père, tout d'abord paysan devenu ensuite ouvrier d'usine pour tenter d'améliorer son sort, puis enfin tenancier d'un café-épicerie."
+    },
+    {
+     "sids": [
+      "023278eba0fd"
+     ],
+     "field": "work:annie-ernaux--la-place.significance",
+     "claim": "아버지의 습관과 말투, 고된 삶의 조건을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/what-to-read-books-by-annie-ernaux/",
+     "quote": "his hard labour as a rural and then industrial worker, his habits, joys and manners of speech"
+    },
+    {
+     "sids": [
+      "023278eba0fd"
+     ],
+     "field": "work:annie-ernaux--la-place.significance",
+     "claim": "백 쪽 남짓에 담담하게 그린 초상이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "In a scant hundred pages she produced a dispassionate portrait of her father"
+    },
+    {
+     "sids": [
+      "d0e58280d8a5"
+     ],
+     "field": "work:annie-ernaux--la-place.significance",
+     "claim": "'평평한' 글쓰기로 방향을 튼 넷째 책이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "starting with my fourth book, I adopted a neutral, objective kind of writing, ‘flat’"
+    },
+    {
+     "sids": [
+      "d0e58280d8a5"
+     ],
+     "field": "work:annie-ernaux--la-place.significance",
+     "claim": "문학적 전환점(돌파구)이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "it was her fourth book, La place (1983; A Man’s Place, 1992), that delivered her literary breakthrough."
+    },
+    {
+     "sids": [
+      "d0e58280d8a5"
+     ],
+     "field": "work:annie-ernaux--la-place.significance",
+     "claim": "1984년 르노도상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/La_Place",
+     "quote": "La Place est un roman à caractère autobiographique publié en 1983 par Annie Ernaux aux éditions Gallimard et récompensé par le prix Renaudot en 1984."
+    },
+    {
+     "sids": [
+      "cb8e7c653383"
+     ],
+     "field": "work:annie-ernaux--une-femme.facts",
+     "claim": "한국어판 제목 『한 여자』, 원제 Une femme",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=17127251",
+     "quote": "한 여자 아니 에르노 (지은이),정혜용 (옮긴이)열린책들2012-05-25원제 : Une Femme (1987년)"
+    },
+    {
+     "sids": [
+      "cb8e7c653383"
+     ],
+     "field": "work:annie-ernaux--une-femme.facts",
+     "claim": "1987년 출간",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "Une femme. – Paris : Gallimard, 1987",
+     "note": "프랑스어 위키백과는 \"publié en 1988\"로 적는다(출간 시점이 연말·연초에 걸친 것으로 보임). 노벨 서지와 한국어판 원서 표기는 1987."
+    },
+    {
+     "sids": [
+      "cb8e7c653383"
+     ],
+     "field": "work:annie-ernaux--une-femme.facts",
+     "claim": "『한 여자』의 장르는 소설(fiction)이다",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "It flagged a series of autobiographical prose works one step beyond the imaginary worlds of fiction.",
+     "correction": "『한 여자』(Une femme) · 1987 · 자전적 산문(소설 아님)",
+     "note": "라 플라스 이후 에르노는 소설 장르와 결별했다(Biographical: \"it marks a definitive break with the novelistic genre\"). 한국어판 출판사는 여전히 \"소설\"이라 부르는 경우가 있으나 작가와 노벨 서지는 허구가 아닌 자전적 산문으로 규정한다. 사이트 장르 체계(fiction=소설·단편)에 맞는 칸이 없으면 분류 재검토 필요."
+    },
+    {
+     "sids": [
+      "5c7e88722317"
+     ],
+     "field": "work:annie-ernaux--une-femme.significance",
+     "claim": "어머니는 알츠하이머병을 앓다 1986년에 세상을 떠났다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "A Woman’s Story, about my mother, who had Alzheimer’s disease and died in 1986"
+    },
+    {
+     "sids": [
+      "5c7e88722317"
+     ],
+     "field": "work:annie-ernaux--une-femme.significance",
+     "claim": "어머니의 죽음 뒤 열 달 남짓에 걸쳐 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=17127251",
+     "quote": "『한 여자』는 어머니가 세상을 떠난 이후 10여 개월에 걸쳐 쓴, 자신의 어머니이자 한 시대를 살다 간 한 여자에 대한 기록이다."
+    },
+    {
+     "sids": [
+      "5c7e88722317"
+     ],
+     "field": "work:annie-ernaux--une-femme.significance",
+     "claim": "『남자의 자리』보다 더 짧은 어머니의 초상이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "A few years later, she gave us an even shorter portrait, now of her mother, simply called Une femme (1987; A Woman’s Story, 1990)."
+    },
+    {
+     "sids": [
+      "c03c9e2b03e9"
+     ],
+     "field": "work:annie-ernaux--une-femme.significance",
+     "claim": "작가 스스로 '문학과 사회학과 역사 사이의 무엇'이라 불렀고, 지배받는 계층에서 태어난 어머니를 역사로 바라본다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=17127251",
+     "quote": "이것은 전기도, 물론 소설도 아니다. 문학과 사회학, 그리고 역사 사이에 존재하는 그 무엇이리라. 어머니의 열망대로 내가 자리를 옮겨 온 이곳, 말과 관념이 지배하는 이 세계에서 스스로의 외로움과 부자연스러움을 덜 느끼자면, 지배당하는 계층에서 태어났고 그 계층에서 탈출하기를 원했던 나의 어머니가 역사가 되어야 했다."
+    },
+    {
+     "sids": [
+      "4ef2cf31fe25"
+     ],
+     "field": "work:annie-ernaux--la-honte.facts",
+     "claim": "한국어판 제목 『부끄러움』, 원제 La Honte",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=190043819",
+     "quote": "부끄러움 | 비채 모던 앤 클래식 문학 Modern & Classic 아니 에르노 (지은이),이재룡 (옮긴이)비채2019-04-26원제 : La Honte (1997년)"
+    },
+    {
+     "sids": [
+      "4ef2cf31fe25"
+     ],
+     "field": "work:annie-ernaux--la-honte.facts",
+     "claim": "1996년 출간",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "La honte. – Paris : Gallimard, 1996",
+     "note": "프랑스어 위키백과(\"publié en 1997\")와 알라딘 원서 표기(1997년)는 1997로 적는다. 노벨 서지는 1996."
+    },
+    {
+     "sids": [
+      "4ef2cf31fe25"
+     ],
+     "field": "work:annie-ernaux--la-honte.facts",
+     "claim": "『부끄러움』의 장르는 소설(fiction)이다",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "It flagged a series of autobiographical prose works one step beyond the imaginary worlds of fiction.",
+     "correction": "『부끄러움』(La Honte) · 1996 · 자전적 산문(소설 아님)",
+     "note": "라 플라스 이후 에르노는 소설 장르와 결별했다(Biographical: \"it marks a definitive break with the novelistic genre\"). 한국어판 출판사는 여전히 \"소설\"이라 부르는 경우가 있으나 작가와 노벨 서지는 허구가 아닌 자전적 산문으로 규정한다. 사이트 장르 체계(fiction=소설·단편)에 맞는 칸이 없으면 분류 재검토 필요."
+    },
+    {
+     "sids": [
+      "128ce4e6c870"
+     ],
+     "field": "work:annie-ernaux--la-honte.significance",
+     "claim": "아버지가 어머니를 죽이려 했던 어느 6월 일요일의 기억에서 출발한다",
+     "verdict": "confirmed",
+     "url": "https://www.sevenstories.com/books/3489-shame",
+     "quote": "\"My father tried to kill my mother one Sunday in June, in the early afternoon.\" Thus begins Shame, the probing story of the twelve-year-old girl who will become the author herself"
+    },
+    {
+     "sids": [
+      "128ce4e6c870"
+     ],
+     "field": "work:annie-ernaux--la-honte.significance",
+     "claim": "열두 살 때 노동계층 부모와 사립학교 사이의 간극을 되짚는다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=190043819",
+     "quote": "열두 살 때 노동계층 부모와 기독교 사립학교 사이의 간극을 체험하고 존재의 불편함을 느꼈던 원체험"
+    },
+    {
+     "sids": [
+      "128ce4e6c870"
+     ],
+     "field": "work:annie-ernaux--la-honte.significance",
+     "claim": "그 사립학교는 가톨릭 학교였다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "the private Catholic boarding school where they had enrolled me, in the town centre"
+    },
+    {
+     "sids": [
+      "128ce4e6c870"
+     ],
+     "field": "work:annie-ernaux--la-honte.significance",
+     "claim": "수치는 굴욕적인 생활 조건에 뿌리내렸다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "What makes the experience unbearable is the shame rooted in humiliating living conditions."
+    },
+    {
+     "sids": [
+      "dc0ff3b3ca06"
+     ],
+     "field": "work:annie-ernaux--la-honte.significance",
+     "claim": "『남자의 자리』의 아버지 초상을 잇는 책이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "It appears in many ways to be a continuation of the portrait of her father in its attempt to explain the sudden rage of the father against her mother at one particular moment in the past."
+    },
+    {
+     "sids": [
+      "da0d4e99c87c"
+     ],
+     "field": "work:annie-ernaux--l-evenement.facts",
+     "claim": "한국어판 제목 『사건』, 원제 L’Événement",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=214365821",
+     "quote": "사건 | 쏜살 문고 아니 에르노 (지은이),윤석헌 (옮긴이)민음사2019-11-01원제 : L’événement (2000년)"
+    },
+    {
+     "sids": [
+      "da0d4e99c87c"
+     ],
+     "field": "work:annie-ernaux--l-evenement.facts",
+     "claim": "2000년 출간",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "L’événement. – Paris : Gallimard, 2000"
+    },
+    {
+     "sids": [
+      "da0d4e99c87c"
+     ],
+     "field": "work:annie-ernaux--l-evenement.facts",
+     "claim": "『사건』의 장르는 소설(fiction)이다",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "It flagged a series of autobiographical prose works one step beyond the imaginary worlds of fiction.",
+     "correction": "『사건』(L'Événement) · 2000 · 자전적 산문(소설 아님)",
+     "note": "라 플라스 이후 에르노는 소설 장르와 결별했다(Biographical: \"it marks a definitive break with the novelistic genre\"). 한국어판 출판사는 여전히 \"소설\"이라 부르는 경우가 있으나 작가와 노벨 서지는 허구가 아닌 자전적 산문으로 규정한다. 사이트 장르 체계(fiction=소설·단편)에 맞는 칸이 없으면 분류 재검토 필요."
+    },
+    {
+     "sids": [
+      "a78a23aff95d"
+     ],
+     "field": "work:annie-ernaux--l-evenement.significance",
+     "claim": "1960년대 초(1963년) 스물세 살에 겪은 불법 임신중절을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://www.sevenstories.com/books/4165-happening",
+     "quote": "In 1963, Annie Ernaux, 23 and unattached, realizes she is pregnant."
+    },
+    {
+     "sids": [
+      "a78a23aff95d"
+     ],
+     "field": "work:annie-ernaux--l-evenement.significance",
+     "claim": "절제된 문장으로, 괄호 속에 쓰는 시점의 성찰을 끼워 그때와 지금을 겹친다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "A masterpiece from her production is the clinically restrained narrative about a 23-year-old narrator’s illegal abortion … where in parentheses she adds reflexions in a vitally lucid voice, addressing herself and the reader in one and the same flow. In the spaces in between, we are in the time of writing"
+    },
+    {
+     "sids": [
+      "25449feea1fd"
+     ],
+     "field": "work:annie-ernaux--l-evenement.significance",
+     "claim": "2021년 영화 「레벤느망」(오드리 디완 감독)의 원작이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EB%A0%88%EB%B2%A4%EB%8A%90%EB%A7%9D",
+     "quote": "\"레벤느망\"(프랑스어: L'Événement, 영어: Happening)은 2021년 개봉한 프랑스의 드라마 영화이다. 오드리 디완이 감독과 공동각본을 맡았으며, 아니 에르노의 소설 《사건》(L'Événement)을 원작으로 한다."
+    },
+    {
+     "sids": [
+      "25449feea1fd"
+     ],
+     "field": "work:annie-ernaux--l-evenement.significance",
+     "claim": "이 영화는 제78회 베니스국제영화제 황금사자상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/L'%C3%89v%C3%A9nement_(r%C3%A9cit)",
+     "quote": "L'Événement, film réalisé par Audrey Diwan, qui remporte le Lion d'or à la 78e édition de la Mostra de Venise."
+    },
+    {
+     "sids": [
+      "c6e48046e7a2"
+     ],
+     "field": "work:annie-ernaux--les-annees.facts",
+     "claim": "한국어판 제목 『세월』, 원제 Les Années",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "세월 아니 에르노 (지은이),신유진 (옮긴이)THE CIRCLE PRESS2025-09-25원제 : Les Années"
+    },
+    {
+     "sids": [
+      "c6e48046e7a2"
+     ],
+     "field": "work:annie-ernaux--les-annees.facts",
+     "claim": "2008년 출간",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "Les années. – Paris : Gallimard, 2008"
+    },
+    {
+     "sids": [
+      "c6e48046e7a2"
+     ],
+     "field": "work:annie-ernaux--les-annees.facts",
+     "claim": "『세월』의 장르는 소설(fiction)이다",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "It flagged a series of autobiographical prose works one step beyond the imaginary worlds of fiction.",
+     "correction": "『세월』(Les Années) · 2008 · 자전적 산문(소설 아님)",
+     "note": "라 플라스 이후 에르노는 소설 장르와 결별했다(Biographical: \"it marks a definitive break with the novelistic genre\"). 한국어판 출판사는 여전히 \"소설\"이라 부르는 경우가 있으나 작가와 노벨 서지는 허구가 아닌 자전적 산문으로 규정한다. 사이트 장르 체계(fiction=소설·단편)에 맞는 칸이 없으면 분류 재검토 필요."
+    },
+    {
+     "sids": [
+      "076f7080086a"
+     ],
+     "field": "work:annie-ernaux--les-annees.significance",
+     "claim": "1941년부터 2006년까지를 '나'를 배제하고 '그녀'와 '우리', '사람들'로 서술했다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "이 작품에서 아니 에르노는 자서전에서 일반적으로 택하는 일인칭 시점이 아닌, ‘나’를 배제한 ‘그녀’와 ‘우리’, 그리고 ‘사람들’로 서술하는 방식을 택했다. 이야기 속 ‘그녀’는 아니 에르노 자신이면서 동시에 사진 속의 인물, 1941년부터 2006년까지 프랑스의 사회를 바라보는 여성의 시각이고"
+    },
+    {
+     "sids": [
+      "076f7080086a"
+     ],
+     "field": "work:annie-ernaux--les-annees.significance",
+     "claim": "한 여성의 삶과 프랑스 사회의 변화를 겹쳤다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "1940년대 전쟁 직후 태어난 한 여성이 성장하고 늙어가는 과정을 따라가면서, 동시에 프랑스 사회가 겪은 격변의 순간들을 병치한다."
+    },
+    {
+     "sids": [
+      "076f7080086a"
+     ],
+     "field": "work:annie-ernaux--les-annees.significance",
+     "claim": "'집단적 자서전'이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "I was able to successfully complete the writing of The Years, a collective historical and social autobiography."
+    },
+    {
+     "sids": [
+      "695e0723a557"
+     ],
+     "field": "work:annie-ernaux--les-annees.significance",
+     "claim": "사진 속 인물과 광고 문구, 대중가요의 파편을 잇는다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "정치적 사건, 여성의 권리, 계급 이동, 소비문화, 교육 제도의 변화, 시대를 흔든 광고 문구와 대중가요의 파편까지."
+    },
+    {
+     "sids": [
+      "695e0723a557"
+     ],
+     "field": "work:annie-ernaux--les-annees.significance",
+     "claim": "개인의 기억을 세대의 기억으로 옮겼다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+     "quote": "아니 에르노는 자신의 이야기를 자신의 세대의 이야기 속에 위치시키면서 개인의 역사에 공동의 기억을 투영하여 글을 쓰는 것이 가능하다는 것을 보여주었고"
+    },
+    {
+     "sids": [
+      "695e0723a557"
+     ],
+     "field": "work:annie-ernaux--les-annees.significance",
+     "claim": "마르그리트 뒤라스상과 프랑수아 모리아크상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Les_Ann%C3%A9es_(ouvrage_d'Annie_Ernaux)",
+     "quote": "Le livre a obtenu le prix Marguerite-Duras, le prix François-Mauriac de la région Aquitaine, le prix de la langue française et le prix Strega européen."
+    },
+    {
+     "sids": [
+      "09f0e0ebe5a3"
+     ],
+     "field": "work:annie-ernaux--passion-simple.facts",
+     "claim": "한국어판 제목 『단순한 열정』, 원제 Passion simple",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=20949513",
+     "quote": "단순한 열정 (무선) - 문학동네 세계문학전집 99 | 문학동네 세계문학전집 99 아니 에르노 (지은이),최정수 (옮긴이)문학동네2012-11-07원제 : Passion Simple (1991년)"
+    },
+    {
+     "sids": [
+      "09f0e0ebe5a3"
+     ],
+     "field": "work:annie-ernaux--passion-simple.facts",
+     "claim": "1991년 출간",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "Passion simple. – Paris : Gallimard, 1991",
+     "note": "프랑스어 위키백과는 \"publié le 14 janvier 1992\"로 적는다. 노벨 서지와 한국어판 출판사는 1991."
+    },
+    {
+     "sids": [
+      "09f0e0ebe5a3"
+     ],
+     "field": "work:annie-ernaux--passion-simple.facts",
+     "claim": "『단순한 열정』의 장르는 소설(fiction)이다",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "It flagged a series of autobiographical prose works one step beyond the imaginary worlds of fiction.",
+     "correction": "『단순한 열정』(Passion simple) · 1991 · 자전적 산문(소설 아님)",
+     "note": "라 플라스 이후 에르노는 소설 장르와 결별했다(Biographical: \"it marks a definitive break with the novelistic genre\"). 한국어판 출판사는 여전히 \"소설\"이라 부르는 경우가 있으나 작가와 노벨 서지는 허구가 아닌 자전적 산문으로 규정한다. 사이트 장르 체계(fiction=소설·단편)에 맞는 칸이 없으면 분류 재검토 필요."
+    },
+    {
+     "sids": [
+      "5f2a12d4cc55"
+     ],
+     "field": "work:annie-ernaux--passion-simple.significance",
+     "claim": "연하의 외국인 (유부)남자와의 열정을 다뤘다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=20949513",
+     "quote": "『단순한 열정』은 연하의 외국인 유부남과의 사랑을 다루며"
+    },
+    {
+     "sids": [
+      "5f2a12d4cc55"
+     ],
+     "field": "work:annie-ernaux--passion-simple.significance",
+     "claim": "짧은 책이다(한국어판 104쪽)",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=20949513",
+     "quote": "104쪽"
+    },
+    {
+     "sids": [
+      "5f2a12d4cc55"
+     ],
+     "field": "work:annie-ernaux--passion-simple.significance",
+     "claim": "임상적 해부에 가까운 객관화된 시선으로, 작가 개인이 아닌 보편적 열정을 분석했다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=20949513",
+     "quote": "임상적 해부에 버금가는 철저하게 객관화된 시선으로 ‘나’라는 작가 개인의 열정이 아닌 일반적이고도 보편적인 열정을 분석한 반(反)감정소설로"
+    },
+    {
+     "sids": [
+      "cb79041457df"
+     ],
+     "field": "work:annie-ernaux--passion-simple.significance",
+     "claim": "한국어판 출판사(문학동네)는 이 책을 '반(反)감정소설'이라 부른다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=20949513",
+     "quote": "보편적인 열정을 분석한 반(反)감정소설에 속한다"
+    },
+    {
+     "sids": [
+      "115f9cf2f0bb"
+     ],
+     "field": "relation:influence--simone-de-beauvoir--annie-ernaux.facts",
+     "claim": "보부아르 → 에르노 직접 영향(documented): 『제2의 성』이 에르노에게 계시였다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "Simone de Beauvoir’s The Second Sex was a revelation, opening my eyes to “a world made by men and for men.”"
+    },
+    {
+     "sids": [
+      "9c2442c29d7e"
+     ],
+     "field": "relation:influence--simone-de-beauvoir--annie-ernaux.summary",
+     "claim": "열여덟 살에 루앙의 학교에서 바칼로레아 둘째 과정(철학)을 밟던 시기에 『제2의 성』이 '계시'였고 '남자들이 남자들을 위해 만든 세계'에 눈뜨게 했다고 자전 약력에 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+     "quote": "At eighteen, after completing the first part of the baccalauréat, I left for secondary school in Rouen to do the second part, in philosophy. So began two years of deep emotional suffering, with bouts of bulimia followed by periods of anorexia. Simone de Beauvoir’s The Second Sex was a revelation, opening my eyes to “a world made by men and for men.”"
+    },
+    {
+     "sids": [
+      "8c1ea5c9cf6c"
+     ],
+     "field": "relation:influence--marcel-proust--annie-ernaux.facts",
+     "claim": "프루스트 → 에르노 직접 영향(documented): 에르노가 흠모하고 내면화한 모델로 프루스트를 꼽았다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "On the other hand are the models of admired, internalized works which made that first world open out and to which they feel indebted for their elevation; which they sometimes even considered their true homeland. Mine included Flaubert, Proust, Virginia Woolf."
+    },
+    {
+     "sids": [
+      "e3bb6ae1b662"
+     ],
+     "field": "relation:influence--marcel-proust--annie-ernaux.summary",
+     "claim": "노벨 강연에서 플로베르·프루스트·울프를 흠모하고 내면화한 작품의 모델로 꼽고, 다시 쓰기 시작했을 때 그들이 도움이 되지 않아 '잘 쓰기'와 결별해야 했다고 말했다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "Mine included Flaubert, Proust, Virginia Woolf. None of them, when I went back to writing, were of any help to me. I had to break with ‘writing well’ and beautiful sentences"
+    },
+    {
+     "sids": [
+      "307319383079"
+     ],
+     "field": "relation:influence--marcel-proust--annie-ernaux.summary",
+     "claim": "올손의 bio-bibliography는 에르노가 『잃어버린 시간을 찾아서』를 자주 언급한다고 적는다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "She often refers to Marcel Proust’s À la recherche du temps perdu"
+    },
+    {
+     "sids": [
+      "307319383079"
+     ],
+     "field": "relation:influence--marcel-proust--annie-ernaux.summary",
+     "claim": "올손은 『세월』에 프루스트적 의미의 정서적 기억 대신 집단 기억의 3인칭이 있다고 대비한다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "Ernaux substitutes in the narrative the spontaneous memory of the self with the third person of collective memory, suggesting the force of zeitgeist on her life. There is no affective memory in the Proustian sense"
+    },
+    {
+     "sids": [
+      "307319383079"
+     ],
+     "field": "relation:influence--marcel-proust--annie-ernaux.summary",
+     "claim": "bio-bibliography의 필자는 노벨문학위원장 안데르스 올손이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ceremony-speech/",
+     "quote": "Anders Olsson, Member of the Swedish Academy, Member of the Nobel Committee for Literature, Chairman of the Nobel Committee for Literature",
+     "note": "bio-bibliography 페이지 말미 서명이 \"Anders Olsson\"이다."
+    },
+    {
+     "sids": [
+      "f96fecbfcb39"
+     ],
+     "field": "relation:influence--jean-jacques-rousseau--annie-ernaux.facts",
+     "claim": "루소 → 에르노 직접 영향(documented_influence · documented)",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "It was not this plebeian pride that motivated me (although, having said that…), but the desire to use the ‘I’",
+     "correction": "장자크 루소 — 아니 에르노 · affinity · bidirectional · editorial_inference(또는 올손 평가 인용) — 에르노는 강연에서 루소 『고백록』을 1인칭의 역사적 근거로 인용했지만 그 평민의 자부심이 자기 동기는 아니었다고 말했고, \"루소의 상속자\"는 올손의 평가다.",
+     "note": "직접 영향을 밝힌 에르노 자신의 기록은 찾지 못했다. 근거 둘(강연 인용, 올손의 \"heir\" 평가)은 친연성 판단이지 확인된 직접 영향이 아니다."
+    },
+    {
+     "sids": [
+      "5a2f42d67f72"
+     ],
+     "field": "relation:influence--jean-jacques-rousseau--annie-ernaux.summary",
+     "claim": "노벨 강연에서 '나'를 계속 써야 했던 이유를 말하며 1인칭이 18세기 프랑스의 민주적 쟁취였다는 근거로 루소 『고백록』 첫 서문(평민이라도 왕들보다 더 많이 더 잘 생각했다면 자기 영혼의 이야기가 더 흥미롭다)을 인용했다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "It was necessary for me to continue to say ‘I’. … It is worth remembering that the ‘I’, hitherto the privilege of nobles recounting feats of arms in memoirs, was in France a democratic conquest of the eighteenth century, the affirmation of the equality of individuals and the right to be the subject of their story, as claimed by Jean-Jacques Rousseau in this first preamble to the Confessions: ‘And let no one object that, being a man of the people, I have nothing to say that deserves the attention of readers. […] In whatever obscurity I may have lived, if I thought more and better than the Kings, the story of my soul is more interesting than that of theirs.’"
+    },
+    {
+     "sids": [
+      "201e12a7f5a1"
+     ],
+     "field": "relation:influence--jean-jacques-rousseau--annie-ernaux.summary",
+     "claim": "올손의 bio-bibliography는 진실을 드러내려는 야심에서 에르노를 루소의 상속자로 부른다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+     "quote": "In this violent yet chaste ambition to reveal the truth, she is also an heir of Jean-Jacques Rousseau."
+    },
+    {
+     "sids": [
+      "ecf49d94b10a"
+     ],
+     "field": "relation:influence--albert-camus--annie-ernaux.facts",
+     "claim": "카뮈 → 에르노 직접 영향(documented_influence · documented)",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "On the one hand is the language in which they learned to name things, with its brutality and silences, for example that of the intimate exchange between a mother and a son in the very beautiful text by Albert Camus, ‘Between Yes and No’.",
+     "correction": "알베르 카뮈 — 아니 에르노 · affinity · bidirectional · editorial_inference — 에르노는 강연에서 어린 시절 우연히 『이방인』을 읽었다고 적고 카뮈의 「긍정과 부정의 사이」를 출신 세계 언어의 예로 들었을 뿐, 카뮈에게서 영향을 받았다고 밝히지는 않았다.",
+     "note": "강연에 남은 것은 독서 기록과 한 편의 인용·상찬이다. 영향을 밝힌 에르노 자신의 기록은 찾지 못했다."
+    },
+    {
+     "sids": [
+      "6c7847faac6f"
+     ],
+     "field": "relation:influence--albert-camus--annie-ernaux.summary",
+     "claim": "학교의 권장보다 우연이 고른 독서 목록에 카뮈의 『이방인』이 있다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "and later Les Misérables, The Grapes of Wrath, Nausea, The Stranger: chance, more than the school’s prescriptions, determined what I read."
+    },
+    {
+     "sids": [
+      "6c7847faac6f"
+     ],
+     "field": "relation:influence--albert-camus--annie-ernaux.summary",
+     "claim": "계급을 건너온 작가가 출신 세계의 언어로 쓰기 어렵다는 딜레마를 말하며, 그 언어의 거칢과 침묵의 예로 어머니와 아들의 교감을 그린 카뮈의 「긍정과 부정의 사이」를 '매우 아름다운 글'로 들었다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/lecture/",
+     "quote": "those who, as class defectors, no longer have quite the same language, think and express themselves with other words, face additional hurdles. A dilemma. … On the one hand is the language in which they learned to name things, with its brutality and silences, for example that of the intimate exchange between a mother and a son in the very beautiful text by Albert Camus, ‘Between Yes and No’."
+    },
+    {
+     "sids": [
+      "6c7847faac6f"
+     ],
+     "field": "relation:influence--albert-camus--annie-ernaux.summary",
+     "claim": "「Entre oui et non」은 카뮈의 산문집 『안과 겉』(L’Envers et l’Endroit)에 실려 있다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/L'Envers_et_l'Endroit",
+     "quote": "Préface.\nL'ironie.\nEntre oui et non.\nLa mort dans l'âme\nAmour de vivre\nL'Envers et l'Endroit"
+    },
+    {
+     "sids": [
+      "6c7847faac6f"
+     ],
+     "field": "relation:influence--albert-camus--annie-ernaux.summary",
+     "claim": "「Entre oui et non」의 한국어 제목은 「긍정과 부정의 사이」이고 『안과 겉』 수록작이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=361678653",
+     "quote": "「안과 겉」은 카뮈의 서문과 함께 다섯 편의 에피소드로 구성되어 있다. ‘아이러니’, ‘긍정과 부정의 사이’, ‘영혼 속의 죽음’, ‘삶에 대한 사랑’, ‘안과 겉’이 그것으로"
+    }
+   ]
+  }
+ ]
+}

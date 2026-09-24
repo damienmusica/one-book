@@ -17,7 +17,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
-import { RELATION_DEFS } from "../src/types.ts";
+import { GENRE_DEFS, RELATION_DEFS } from "../src/types.ts";
 
 const file = process.argv[2];
 const write = process.argv.includes("--write");
@@ -139,6 +139,12 @@ for (const f of fixes) {
       else { if (SUPERLATIVE.test(sig)) superlatives++; wr.significance = sig; did = true; log.push(`${w.id}.significance`); }
     }
     if (typeof w.titleKo === "string" && w.titleKo.trim()) { wr.titleKo = w.titleKo.trim(); did = true; log.push(`${w.id}.titleKo`); }
+    // 원제·장르 — 문장 단위 close-read 는 작품의 사실 줄(원제·연도·장르)도 대본다(백석 「여우난곬族」, 에르노의 자전적 산문).
+    if (typeof w.titleOriginal === "string" && w.titleOriginal.trim()) { wr.titleOriginal = w.titleOriginal.trim(); did = true; log.push(`${w.id}.titleOriginal`); }
+    if (typeof w.genre === "string") {
+      if (GENRE_DEFS.some((g) => g.id === w.genre)) { wr.genre = w.genre; did = true; log.push(`${w.id}.genre=${w.genre}`); }
+      else skipped.push({ id, why: `작품 ${w.id} 장르 ${w.genre} 는 없는 장르다` });
+    }
     if (typeof w.year === "number" && Number.isInteger(w.year)) { wr.year = w.year; did = true; log.push(`${w.id}.year`); }
     if (typeof w.yearBasis === "string" && ["attested", "first-print", "composition-range", "earliest-manuscript"].includes(w.yearBasis)) { wr.yearBasis = w.yearBasis; did = true; log.push(`${w.id}.yearBasis`); }
     if (did) workEdits++;

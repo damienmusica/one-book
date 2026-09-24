@@ -1,0 +1,872 @@
+{
+ "plates": [
+  {
+   "id": "kim-yeon-su",
+   "claims": [
+    {
+     "sids": [
+      "a3ac570ce6bf"
+     ],
+     "field": "author.facts",
+     "claim": "김연수는 1970년에 태어났다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%B0%EC%88%98_(%EC%9E%91%EA%B0%80)",
+     "quote": "김연수(金衍洙, 1970년~ )는 대한민국의 소설가이다."
+    },
+    {
+     "sids": [
+      "a3ac570ce6bf"
+     ],
+     "field": "author.facts",
+     "claim": "대한민국(동아시아)의 한국어 소설가다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "김연수(1970~)는 대한민국의 소설가다."
+    },
+    {
+     "sids": [
+      "a3ac570ce6bf"
+     ],
+     "field": "author.facts",
+     "claim": "이름 표기는 김연수(金衍洙)다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%B0%EC%88%98_(%EC%9E%91%EA%B0%80)",
+     "quote": "김연수(金衍洙, 1970년~ )는 대한민국의 소설가이다."
+    },
+    {
+     "sids": [
+      "f32cf6a94e5b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『꾿빠이, 이상』은 이상의 데드마스크를 다룬 소설이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "장편소설 《꾿빠이 이상》(2001)은 작가 이상(李箱)의 데드마스크와 관련한 이야기다."
+    },
+    {
+     "sids": [
+      "f32cf6a94e5b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『밤은 노래한다』는 1930년대 초 북간도 항일유격근거지의 민생단 사건을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "1930년대 초반 북간도의 항일유격근거지 내부에서 있었던 ‘민생단 사건’을 소재로 다룬 《밤은 노래한다》(2008)"
+    },
+    {
+     "sids": [
+      "f32cf6a94e5b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『일곱 해의 마지막』은 전쟁 뒤 북한의 백석을 모델로 한 시인을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "1930~40년대에 시인으로 이름을 알리다가 전쟁 후 북에서 당의 이념에 맞는 시를 쓰라는 요구를 받으며 러시아문학을 우리말로 옮기는 일을 하는 모습에서 기행이 우리에게 널리 알려진 시인 ‘백석’을 모델로 했음을 짐작할 수 있다."
+    },
+    {
+     "sids": [
+      "f32cf6a94e5b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "역사 자료를 바탕으로 공식 기록(객관적 사실)이 닿지 못하는 개인의 진실을 찾는 소설을 써 왔다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "방대한 역사적 자료를 바탕으로 객관적인 사실로는 가닿을 수 없는 빈틈에서 개인의 진실을 발견해내는 작업을 해오기도 했다."
+    },
+    {
+     "sids": [
+      "f32cf6a94e5b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "이 역사 소설들이 공통으로 여러 화자와 문헌을 겹쳐 쓰였다",
+     "verdict": "contradicted",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "총 3개의 장으로 이루어진 『꾿빠이, 이상』은 각각 세 명의 화자가 등장해 이야기가 전개되는 서술 전략을 취하고 있다.",
+     "correction": "기록이 남은 역사적 사실을 중심에 놓고, 방대한 자료를 바탕으로 공식 기록이 닿지 못하는 개인의 진실을 찾아내는 소설을 써 왔다(여러 화자를 겹친 것은 『꾿빠이, 이상』이다).",
+     "note": "세 화자 구성은 『꾿빠이, 이상』에만 출처가 있다. 『밤은 노래한다』(예스24 25929313)·『일곱 해의 마지막』(예스24 90619474) 책 소개는 한 인물(김해연·기행)을 따라가는 이야기로만 소개한다."
+    },
+    {
+     "sids": [
+      "578ec7dd509b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1인칭 화자의 자의식과 타인과의 소통(이해)을 주제로 삼았다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "김연수는 작가의 자의식과 깊은 관계를 맺고 있는 ‘1인칭’의 세계에 천착하거나 타인과의 소통의 문제로 관심을 작품의 주제로 삼고 있다."
+    },
+    {
+     "sids": [
+      "578ec7dd509b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "단편에서 밀도 높은 문장과 유머(재치)를 구사했다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "특히 이들 단편소설들에서 밀도 높고 우아한 문장을 구사하면서도 재치가 넘치는 문체로 소설을 꾸려나간다."
+    },
+    {
+     "sids": [
+      "93112bf34e6f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "동인문학상·대산문학상·황순원문학상·이상문학상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%B0%EC%88%98_(%EC%9E%91%EA%B0%80)",
+     "quote": "단편소설집 《내가 아직 아이였을 때》로 2003년 동인문학상을, 단편소설집 《나는 유령작가입니다》로 2005년 대산문학상을, 단편소설 〈달로 간 코미디언〉으로 2007년 황순원문학상을, 단편소설 〈산책하는 이들의 다섯가지 즐거움〉으로 2009년 이상문학상을 받았다."
+    },
+    {
+     "sids": [
+      "93112bf34e6f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "레이먼드 카버의 『대성당』을 번역했다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%B0%EC%88%98_(%EC%9E%91%EA%B0%80)",
+     "quote": "레이먼드 카버, 《대성당》(문학동네, 2007)"
+    },
+    {
+     "sids": [
+      "a984bf97b5a2"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『이토록 평범한 미래』에는 단편 여덟 편이 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "그뿐 아니라 이번 소설집에 실린 여덟 편의 작품에서 인물들은 끊임없이 서로에게 이야기를 들려주고, 자신만의 이야기를 만들어나간다."
+    },
+    {
+     "sids": [
+      "fe31547b467b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 소설집의 인물들은 서로에게 이야기를 들려주고, 이야기를 접한 삶이 새로 시작된다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "우리는 왜 어떤 삶은 이야기를 접한 뒤 새롭게 시작되는지, 그리고 이야기를 사랑하면 왜 삶에 충실해지는지 알 수 있게 된다."
+    },
+    {
+     "sids": [
+      "fe31547b467b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이것이 최근 김연수 소설 전반의 방법이며 이 책에 가장 짧은 형태로 들어 있다",
+     "verdict": "unverifiable",
+     "note": "예스24 책 소개(113737429)는 이 소설집이 ‘시간’을 보는 변화된 시각을 보여 준다고만 적는다. 2022년 이후 다른 김연수 소설과 이 방법을 비교한 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "e108f24b090d"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "2022년 판은 276쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "발행일 2022년 10월 07일 쪽수, 무게, 크기 276쪽 | 406g | 133*200*20mm"
+    },
+    {
+     "sids": [
+      "e108f24b090d"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 판은 문학동네에서 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "이토록 평범한 미래 | 김연수 | 문학동네 - 예스24"
+    },
+    {
+     "sids": [
+      "e108f24b090d"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "지금 판매 중이다(2026-09-24 확인)",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "정가 16,800원 판매가 15,120 원 (10% 할인)",
+     "note": "2026-09-24에 가져온 예스24 상품 페이지에 판매가와 ‘판매중’, ‘카트에 넣기’가 떠 있었다."
+    },
+    {
+     "sids": [
+      "fce2e677631a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『꾿빠이, 이상』은 ‘세 장마다’ 화자가 바뀐다",
+     "verdict": "contradicted",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "[데드마스크] [잃어버린 꽃] [새], 총 3개의 장으로 이루어진 『꾿빠이, 이상』은 각각 세 명의 화자가 등장해 이야기가 전개되는 서술 전략을 취하고 있다.",
+     "correction": "세 개의 장을 저마다 다른 화자가 맡고,",
+     "note": "책은 세 장뿐이다. ‘세 장마다 화자가 바뀐다’는 ‘세 장 단위로 화자가 바뀐다’로 읽힌다."
+    },
+    {
+     "sids": [
+      "fce2e677631a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "이상의 삶과 문학적 이력, 사후 연구가 촘촘히 겹쳐 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "세 명의 화자를 중심 삼아 이상의 삶과 문학적 이력, 그리고 그가 죽은 뒤 이루어진 수많은 연구들이 방대하게 교차되면서"
+    },
+    {
+     "sids": [
+      "fce2e677631a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "「오감도 시 제16호」 진위 논쟁이 다뤄진다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "재미 교포 출신의 이상 연구자인 피터 주의 시점에서 그려지는 [새]는 바로 이 「오감도 시 제16호」의 진위 여부를 둘러싼 학계의 논쟁과"
+    },
+    {
+     "sids": [
+      "601b906fd963"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『꾿빠이, 이상』은 이상의 생애와 사후 연구사를 배경으로 깐다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "이상의 삶과 문학적 이력, 그리고 그가 죽은 뒤 이루어진 수많은 연구들이 방대하게 교차되면서"
+    },
+    {
+     "sids": [
+      "601b906fd963"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『밤은 노래한다』는 1930년대 초 북간도의 민생단 사건을 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929313",
+     "quote": "『밤은 노래한다』는 우리를 1930년대 초반 북간도로 이끈다. 그 남자의 뒤를 따라가며 우리는 항일유격 근거지에서 일어난 비참한 사건, 즉 ‘민생단 사건’과 마주하게 된다."
+    },
+    {
+     "sids": [
+      "601b906fd963"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『일곱 해의 마지막』은 전쟁 뒤 북한 문단을 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "하지만 전쟁으로 인해 세상이 바뀌어버렸고, 북한 문단은 기행에게 당의 이념을 인민들에게 널리 알릴 수 있는 문학만을 쓰기를 강요했다."
+    },
+    {
+     "sids": [
+      "601b906fd963",
+      "d305e5b12c12"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "세 장편 모두 여러 화자와 문헌을 겹치며 ‘자료의 합이 곧 진실은 아니다’에서 멈추고 판단을 독자에게 남긴다",
+     "verdict": "contradicted",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "수많은 자료들에서 이끌어낸 사실들의 합이 곧 진실 그 자체일 수는 없듯이 자료들로는 가닿을 수 없는 빈틈의 영역에서 각자의 진실을 발견해내는 건 우리들의 몫일 것이다.",
+     "correction": "특히 『꾿빠이, 이상』은 세 화자와 이상에 관한 자료를 겹치면서, 자료에서 끌어낸 사실들의 합이 곧 진실은 아니라는 데서 멈춘다. 무엇을 믿을지는 독자가 가려야 한다.",
+     "note": "이 설명은 『꾿빠이, 이상』 책 소개에만 있다. 『밤은 노래한다』와 『일곱 해의 마지막』에서 여러 화자를 겹친다거나 같은 결론에서 멈춘다는 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "4fd955affd9b"
+     ],
+     "field": "work:kim-yeon-su--kkutppai-isang.facts",
+     "claim": "『꾿빠이, 이상』은 2001년 장편소설(문학동네)이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "《꾿빠이 이상》, 문학동네, 2001(개정판, 2016)."
+    },
+    {
+     "sids": [
+      "4fd955affd9b"
+     ],
+     "field": "work:kim-yeon-su--kkutppai-isang.facts",
+     "claim": "제목 표기는 『꾿빠이, 이상』이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "꾿빠이, 이상 | 김연수 | 문학동네 - 예스24"
+    },
+    {
+     "sids": [
+      "5bd31700b324"
+     ],
+     "field": "work:kim-yeon-su--kkutppai-isang.significance",
+     "claim": "이상의 여동생 김옥희가 동경대학 부속병원 유학생들이 떠 놓은 데드마스크를 찾을 길이 없다고 회상한 대목에서 출발한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "김연수가 등단할 때부터 마음에 품은 다음의 문장에서부터 이 소설은 시작되었다. 즉, ‘오빠의 데드마스크는 동경대학 부속병원 유학생들이 떠놓은 것을 어떤 친구가 국내로 가져와 어머니께까지 보인 일이 있다는데 지금 어디로 갔는지 찾을 길이 없어 아쉽기 짝이 없습니다’라는 이상의 여동생 김옥희의 회상으로부터 말이다."
+    },
+    {
+     "sids": [
+      "5bd31700b324"
+     ],
+     "field": "work:kim-yeon-su--kkutppai-isang.significance",
+     "claim": "「오감도 시 제16호」는 발표되지 않았다는 작품으로 설정된다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "발표되지 않은 나머지 작품 가운데 하나인 「오감도 시 제16호」가 아마추어 이상 연구자인 서혁민에 의해 쓰이면서, 이상 문학은 다시 한번 뜨거운 논쟁을 불러일으킨다."
+    },
+    {
+     "sids": [
+      "5bd31700b324"
+     ],
+     "field": "work:kim-yeon-su--kkutppai-isang.significance",
+     "claim": "잡지사 기자·아마추어 이상 연구자·재미 교포 이상 연구자 세 화자가 한 장씩 맡는다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "김연화 시점의 1부 <데드마스크>, 이상이라는 한 작가의 존재는 물론 이상의 삶과 문학을 닮기 위해 평생을 바친 한 아마추어 이상 연구가 서혁민 시점의 2부 <잃어버린 꽃>, 워싱턴 대학교 예술학부를 졸업하고 UCLA에 가서 비교문학을 전공한 재미교포 이상 연구가 피터 주 시점의 3부 <새>까지",
+     "note": "1부 화자가 잡지사 기자라는 점은 같은 페이지 출판사 리뷰의 ‘잡지사에 다니는 기자 김연화’로 확인된다."
+    },
+    {
+     "sids": [
+      "75f630d8546b"
+     ],
+     "field": "work:kim-yeon-su--kkutppai-isang.significance",
+     "claim": "자료에서 끌어낸 사실들의 합이 곧 진실일 수는 없다는 물음을 구조로 삼았다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "수많은 자료들에서 이끌어낸 사실들의 합이 곧 진실 그 자체일 수는 없듯이 자료들로는 가닿을 수 없는 빈틈의 영역에서 각자의 진실을 발견해내는 건 우리들의 몫일 것이다."
+    },
+    {
+     "sids": [
+      "75f630d8546b"
+     ],
+     "field": "work:kim-yeon-su--kkutppai-isang.significance",
+     "claim": "2001년 동서문학상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%B0%EC%88%98_(%EC%9E%91%EA%B0%80)",
+     "quote": "장편소설 《꾿빠이 이상》으로 2001년 동서문학상을 받았으며"
+    },
+    {
+     "sids": [
+      "ca4cf080689e"
+     ],
+     "field": "work:kim-yeon-su--naneun-yuryeongjakgaimnida.facts",
+     "claim": "『나는 유령작가입니다』는 2005년 소설집이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "《나는 유령작가입니다》, 창작과 비평, 2005."
+    },
+    {
+     "sids": [
+      "35b3e9ca3733"
+     ],
+     "field": "work:kim-yeon-su--naneun-yuryeongjakgaimnida.significance",
+     "claim": "「이등박문을, 쏘지 못하다」와 「남원고사에 관한 세 개의 이야기와 한 개의 주석」이 실려 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929867",
+     "quote": "남원고사南原古詞에 관한 세 개의 이야기와 한 개의 주석 _179 이등박문을, 쏘지 못하다 _209"
+    },
+    {
+     "sids": [
+      "35b3e9ca3733"
+     ],
+     "field": "work:kim-yeon-su--naneun-yuryeongjakgaimnida.significance",
+     "claim": "아홉 편을 묶은 세 번째 소설집이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929867",
+     "quote": "제13회 대산문학상을 수상한 김연수의 세번째 소설집 『나는 유령작가입니다』가 문학동네에서 재출간되었다. 총 9편의 소설이 수록된 이 소설집을"
+    },
+    {
+     "sids": [
+      "92452fe590c2"
+     ],
+     "field": "work:kim-yeon-su--naneun-yuryeongjakgaimnida.significance",
+     "claim": "공식 기록 너머에 있는 인간과 문학의 진실을 여러 각도로 비춘다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "His next collection, Naneun yuryeongjakgaimnida, brings together nine stories that illuminate the many facets of human and literary truth that lie beyond official records."
+    },
+    {
+     "sids": [
+      "92452fe590c2"
+     ],
+     "field": "work:kim-yeon-su--naneun-yuryeongjakgaimnida.significance",
+     "claim": "‘어떤 진실도 말해질 수 없다’에서 멈추지 않고 타인을 이해하려는 노력을 이야기 끝까지 밀고 간다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929867",
+     "quote": "요컨대 말해질 수 있는 진실이란 존재하지 않으므로 그 자리에서 멈춰 서버리는 것이 아니라, 타인/세계를 이해하고자 하는 노력으로 이야기의 끝의 끝까지 가닿게 되는 것이다."
+    },
+    {
+     "sids": [
+      "fdffd736932e"
+     ],
+     "field": "work:kim-yeon-su--naneun-yuryeongjakgaimnida.significance",
+     "claim": "제13회 대산문학상 수상작이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "2005년 제13회 대산문학상"
+    },
+    {
+     "sids": [
+      "c838fd289e73"
+     ],
+     "field": "work:kim-yeon-su--bameun-noraehanda.facts",
+     "claim": "『밤은 노래한다』는 2008년 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "《밤은 노래한다》, 문학과 지성사, 2008."
+    },
+    {
+     "sids": [
+      "89deb1f2194b"
+     ],
+     "field": "work:kim-yeon-su--bameun-noraehanda.significance",
+     "claim": "만철 측량기사 김해연이 1932년 용정으로 파견된다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929313",
+     "quote": "고등공업학교 출신의 만철 측량기사인 김해연은 본사가 있는 대련에서 일하다 1932년 용정으로 파견을 오게 된다."
+    },
+    {
+     "sids": [
+      "89deb1f2194b"
+     ],
+     "field": "work:kim-yeon-su--bameun-noraehanda.significance",
+     "claim": "연인이 죽기 직전 보낸 편지 한 장을 받고 북간도 항일유격근거지의 민생단 사건 한가운데로 들어간다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929313",
+     "quote": "어느 날 연인이 죽기 직전 보내온 한 장의 편지를 받으면서 역사의 한가운데로 걸어들어가게 되는 『밤은 노래한다』는 우리를 1930년대 초반 북간도로 이끈다. 그 남자의 뒤를 따라가며 우리는 항일유격 근거지에서 일어난 비참한 사건, 즉 ‘민생단 사건’과 마주하게 된다."
+    },
+    {
+     "sids": [
+      "89deb1f2194b"
+     ],
+     "field": "work:kim-yeon-su--bameun-noraehanda.significance",
+     "claim": "민생단 사건은 혁명을 꿈꾼 동지들이 서로를 의심해 총부리를 겨눈 사건이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929313",
+     "quote": "그러다 끝내 혁명의 숭고한 뜻을 품은 동지들끼리 서로를 의심하고 총부리를 겨누어야 했던 그 처참한 사건을 소설로 담아내면서"
+    },
+    {
+     "sids": [
+      "65f51aa2fc89"
+     ],
+     "field": "work:kim-yeon-su--bameun-noraehanda.significance",
+     "claim": "통계 숫자로만 남은 사람들 각자의 고유한 면을 되살리려 했다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929313",
+     "quote": "단순히 통계적 수치로만 남게 된 사람들 각각의 고유한 면을 섬세하게 풀어낸다."
+    },
+    {
+     "sids": [
+      "65f51aa2fc89"
+     ],
+     "field": "work:kim-yeon-su--bameun-noraehanda.significance",
+     "claim": "김연수의 세 번째 역사소설이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929313",
+     "quote": "김연수의 세번째 역사소설 『밤은 노래한다』(2008)가 문학동네에서 재출간되었다."
+    },
+    {
+     "sids": [
+      "40bc57856e5f"
+     ],
+     "field": "work:kim-yeon-su--segyeui-kkeut-yeojachingu.facts",
+     "claim": "『세계의 끝 여자친구』는 2009년 소설집이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/3517616",
+     "quote": "발행일 2009년 09월 08일 쪽수, 무게, 크기 320쪽"
+    },
+    {
+     "sids": [
+      "914da29fb3cd"
+     ],
+     "field": "work:kim-yeon-su--segyeui-kkeut-yeojachingu.significance",
+     "claim": "2005년 봄부터 2009년 여름까지 쓴 아홉 편을 묶었다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/3517616",
+     "quote": "2005년 봄부터 2009년 여름까지 씌어진 아홉 편의 ‘이야기’ 속에는"
+    },
+    {
+     "sids": [
+      "914da29fb3cd"
+     ],
+     "field": "work:kim-yeon-su--segyeui-kkeut-yeojachingu.significance",
+     "claim": "네 번째 소설집이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/3517616",
+     "quote": "이번에 출간된 네번째 작품집 『세계의 끝 여자친구』까지, 소설로만 열 권째 작품집을 선보였다."
+    },
+    {
+     "sids": [
+      "d5e549140434"
+     ],
+     "field": "work:kim-yeon-su--segyeui-kkeut-yeojachingu.significance",
+     "claim": "미세한 균열로 무너지는 세계와 거기서 새로 시작되는 이야기들이 서로 이어진다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/3517616",
+     "quote": "어느 날 문득, 미세하게 균열을 일으키며 무너지는 ‘세계/나’와 거기에서 새롭게 시작되는 ‘이야기’, 그리고 다시 한쪽 끝에서 무너진 그 세계가 다른 한쪽 끝과 연결되면서 만들어지는 또다른 ‘이야기’가 있다."
+    },
+    {
+     "sids": [
+      "152e94bb8f00"
+     ],
+     "field": "work:kim-yeon-su--segyeui-kkeut-yeojachingu.significance",
+     "claim": "「달로 간 코미디언」과 「모두에게 복된 새해—레이먼드 카버에게」가 실려 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/3517616",
+     "quote": "모두에게 복된 새해―레이먼드 카버에게 내겐 휴가가 필요해 네가 누구든, 얼마나 외롭든 웃는 듯 우는 듯, 알렉스, 알렉스 달로 간 코미디언"
+    },
+    {
+     "sids": [
+      "152e94bb8f00"
+     ],
+     "field": "work:kim-yeon-su--segyeui-kkeut-yeojachingu.significance",
+     "claim": "「달로 간 코미디언」은 황순원문학상 수상작이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%B0%EC%88%98_(%EC%9E%91%EA%B0%80)",
+     "quote": "단편소설 〈달로 간 코미디언〉으로 2007년 황순원문학상을"
+    },
+    {
+     "sids": [
+      "d0f2b9ca5b4d"
+     ],
+     "field": "work:kim-yeon-su--ilgop-haeui-majimak.facts",
+     "claim": "『일곱 해의 마지막』은 2020년 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "발행일 2020년 07월 01일 쪽수, 무게, 크기 248쪽"
+    },
+    {
+     "sids": [
+      "2f64e3b7fb50"
+     ],
+     "field": "work:kim-yeon-su--ilgop-haeui-majimak.significance",
+     "claim": "기행은 시집 『사슴』으로 이름을 알렸던 시인이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "지금은 아무도 기행을 시인으로 알고 있지 않지만, 한국전쟁이 일어나기 전만 하더라도 기행은 시집 『사슴』으로 이름을 알린 시인이었다."
+    },
+    {
+     "sids": [
+      "2f64e3b7fb50"
+     ],
+     "field": "work:kim-yeon-su--ilgop-haeui-majimak.significance",
+     "claim": "전쟁 뒤 북한에서 당의 이념에 맞는 시를 쓰라는 요구를 받으며 러시아 문학을 번역한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "전쟁 후 북에서 당의 이념에 맞는 시를 쓰라는 요구를 받으며 러시아문학을 우리말로 옮기는 일을 하는 모습에서"
+    },
+    {
+     "sids": [
+      "2f64e3b7fb50"
+     ],
+     "field": "work:kim-yeon-su--ilgop-haeui-majimak.significance",
+     "claim": "1957–58년의 기행을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "1958년 여름, 번역실에 출근한 기행은 한 통의 편지봉투를 받게 된다. … 작년 여름 그녀가 조선작가동맹의 초청을 받아 북한에 방문했을 때 기행은 그녀의 시를 번역한 인연으로 통역을 맡았었다.",
+     "note": "같은 페이지 목차의 첫 장 제목이 「1957년과 1958년 사이」다."
+    },
+    {
+     "sids": [
+      "12fad1383895"
+     ],
+     "field": "work:kim-yeon-su--ilgop-haeui-majimak.significance",
+     "claim": "기행은 백석을 모델로 했다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "1930~40년대에 활동했던 시인 ‘백석’을 모델로 한 이 작품은"
+    },
+    {
+     "sids": [
+      "12fad1383895"
+     ],
+     "field": "work:kim-yeon-su--ilgop-haeui-majimak.significance",
+     "claim": "작가의 말에서 백석이 살아 보지 못한 세계와 그가 놓지 않은 소망에 대한 이야기라고 적었다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/90619474",
+     "quote": "이것은 백석이 살아보지 못한 세계에 대한 이야기이자, 죽는 순간까지도 그가 마음속에서 놓지 않았던 소망에 대한 이야기다. _‘작가의 말’ 중에서"
+    },
+    {
+     "sids": [
+      "cccdbd2fb0cf"
+     ],
+     "field": "work:kim-yeon-su--itorok-pyeongbeomhan-mirae.facts",
+     "claim": "『이토록 평범한 미래』는 2022년 소설집이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "발행일 2022년 10월 07일"
+    },
+    {
+     "sids": [
+      "a74ad7b246f5"
+     ],
+     "field": "work:kim-yeon-su--itorok-pyeongbeomhan-mirae.significance",
+     "claim": "『사월의 미, 칠월의 솔』(2013) 이후 9년 만의 소설집이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "『사월의 미, 칠월의 솔』(2013) 이후 9년 만에 펴내는 여섯번째 소설집이다."
+    },
+    {
+     "sids": [
+      "a74ad7b246f5"
+     ],
+     "field": "work:kim-yeon-su--itorok-pyeongbeomhan-mirae.significance",
+     "claim": "여덟 편을 실었다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "종말 이후의 사랑에 대한 여덟 편의 이야기"
+    },
+    {
+     "sids": [
+      "6806bff30ad1"
+     ],
+     "field": "work:kim-yeon-su--itorok-pyeongbeomhan-mirae.significance",
+     "claim": "표제작에서 1999년 여름 동반자살을 결심한 두 대학생이 시간여행 소설 『재와 먼지』를 계기로 뜻밖의 선택을 한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "지구에 종말이 올 것이라는 노스트라다무스의 예언으로 떠들썩했던 1999년 여름, 동반자살을 결심한 스물한 살의 두 대학생은 뜻밖의 계기로 시간여행을 다룬 소설 『재와 먼지』를 접한 뒤 의외의 선택을 하게 되고(「이토록 평범한 미래」)"
+    },
+    {
+     "sids": [
+      "6806bff30ad1"
+     ],
+     "field": "work:kim-yeon-su--itorok-pyeongbeomhan-mirae.significance",
+     "claim": "두 대학생이 『재와 먼지』를 ‘읽고’ 선택한다",
+     "verdict": "contradicted",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "출간이 금지되어 도무지 구할 수 없는 장편소설, 그러니까 지민의 엄마가 자살하기 전에 쓴 『재와 먼지』가 어떤 책인지 알아내기 위해서다. 평생 책만 읽어온 외삼촌은 1970년대에 나온 그 책을 떠올리고는 내용을 설명해주는데, 두 사람은 줄거리를 듣고 소스라치게 놀란다.",
+     "correction": "1999년 여름 동반자살을 결심한 두 대학생이 구할 수 없는 시간여행 소설 『재와 먼지』의 줄거리를 전해 듣고 뜻밖의 선택을 하는 표제작처럼,"
+    },
+    {
+     "sids": [
+      "6806bff30ad1"
+     ],
+     "field": "work:kim-yeon-su--itorok-pyeongbeomhan-mirae.significance",
+     "claim": "과거에서 미래로만 흐른다고 여겨지는 시간을 다르게 정의한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "김연수는 과거에서 미래를 향해 흐르는 것으로만 여겨지는 시간을 다르게 정의함으로써 우리가 현재의 시간을, 즉 삶을 새롭게 상상할 수 있는 가능성을 아름답고 서정적인 언어로 설득해낸다."
+    },
+    {
+     "sids": [
+      "6806bff30ad1"
+     ],
+     "field": "work:kim-yeon-su--itorok-pyeongbeomhan-mirae.significance",
+     "claim": "이야기를 접한 삶이 새로 시작되는 순간을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/113737429",
+     "quote": "우리는 왜 어떤 삶은 이야기를 접한 뒤 새롭게 시작되는지, 그리고 이야기를 사랑하면 왜 삶에 충실해지는지 알 수 있게 된다."
+    },
+    {
+     "sids": [
+      "6bfd9b4cf3fc"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.facts",
+     "claim": "김연수–김애란은 문서로 남은 쌍방 교류(dialogue, documented)다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?ISBN=9788960901858&name=Introduce&type=0&date=11",
+     "quote": "발문┃여름의 속셈 김애란(소설가)",
+     "note": "근거 문서는 『청춘의 문장들+』 목차에 실린 김애란의 발문이다."
+    },
+    {
+     "sids": [
+      "78b1decbc4a3"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "김애란이 『청춘의 문장들』 10주년 특별판 『청춘의 문장들+』에 발문을 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?ISBN=9788960901858&name=Introduce&type=0&date=11",
+     "quote": "<청춘의 문장들>을 읽고 청춘을 지나온 후배 작가 김애란의 애틋한 발문까지 더해 의미를 더했다."
+    },
+    {
+     "sids": [
+      "78b1decbc4a3"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "『청춘의 문장들+』는 마음산책에서 2014년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=40749508",
+     "quote": "김연수 (지은이), 금정연 (대담) 마음산책 2014-05-09"
+    },
+    {
+     "sids": [
+      "78b1decbc4a3"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "『잊기 좋은 이름』은 김애란의 첫 산문집이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/74585483",
+     "quote": "여름을 닮은 작가, 김애란의 첫 산문집 『잊기 좋은 이름』이 뜨거운 여름의 문턱에서 출간되었다."
+    },
+    {
+     "sids": [
+      "78b1decbc4a3"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "『잊기 좋은 이름』은 2019년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/74585483",
+     "quote": "발행일 2019년 06월 26일"
+    },
+    {
+     "sids": [
+      "78b1decbc4a3"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "『잊기 좋은 이름』에 『청춘의 문장들』을 다시 펼친 날의 글이 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=194834950",
+     "quote": "김연수 작가의 <청춘의 문장들>을 다시 펼친 서른다섯 살의 어느 날, 편혜영 작가에 관한 애정 어린 글, 그리고 문학과 여행에 관한 이야기."
+    },
+    {
+     "sids": [
+      "ab30fe387d0c"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "두 사람은 2015년 상트페테르부르크 문학행사에 함께 참가했다",
+     "verdict": "confirmed",
+     "url": "https://www.cultura.co.kr/news/articleView.html?idxno=3568",
+     "quote": "2015 상트페테르부르크 문학행사. 김연수 선배와 함께.",
+     "note": "쿨투라 인터뷰에 실린 사진 설명이다."
+    },
+    {
+     "sids": [
+      "ab30fe387d0c"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "김애란은 발문에서 김연수를 ‘선배’라 부른다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?ISBN=9788960901858&name=PublisherDesc&type=0&date=11",
+     "quote": "이곳에 나보다 열 살 많은 선배가 10년 전에 옮겨놓은 문장들을 들여다보다, 결국 우리가 청춘에 대해 말한다는 건 아버지에 대해 말한다는 것과 같은 일일지도 모른다고 생각했다."
+    },
+    {
+     "sids": [
+      "ab30fe387d0c"
+     ],
+     "field": "relation:dialogue--kim-yeon-su--kim-ae-ran.summary",
+     "claim": "김애란은 인터뷰에서 김연수를 ‘선배’라 부른다",
+     "verdict": "confirmed",
+     "url": "https://www.cultura.co.kr/news/articleView.html?idxno=3568",
+     "quote": "김연수 선배와 함께.",
+     "note": "인터뷰 본문이 아니라 인터뷰 기사에 실린 사진 설명에 나오는 호칭이다."
+    },
+    {
+     "sids": [
+      "92c6cec3a993"
+     ],
+     "field": "relation:influence--yi-sang--kim-yeon-su.facts",
+     "claim": "이상→김연수 영향은 문서로 확인된 직접 영향(documented_influence, documented)이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "이상의 유고소설인 「단발」에 나오는 남자 주인공의 이름 ‘연衍’에서 그 필명을 따올 정도로 김연수의 문학적 출발점은 이상과 떼려야 뗄 수 없다."
+    },
+    {
+     "sids": [
+      "513c1721c87c"
+     ],
+     "field": "relation:influence--yi-sang--kim-yeon-su.summary",
+     "claim": "『꾿빠이, 이상』(2001)에서 이상의 데드마스크의 진위를 추적했다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "작가는 동경대학 부속병원 유학생들이 만들어 놓은 오빠의 데드마스크가 사라졌다는 이상 동생의 진술이 진짜인가라는 질문을 던지며 진실이 무엇인지를 추적하는 과정을 작품의 얼개로 삼았다."
+    },
+    {
+     "sids": [
+      "513c1721c87c"
+     ],
+     "field": "relation:influence--yi-sang--kim-yeon-su.summary",
+     "claim": "「오감도 시 제16호」의 진위를 추적했다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "[새]는 바로 이 「오감도 시 제16호」의 진위 여부를 둘러싼 학계의 논쟁과 이 논쟁과 맞물리면서 진행되는 피터 주 자신의 정체성 문제를 양축으로 삼아 이야기가 전개된다."
+    },
+    {
+     "sids": [
+      "baceb5f47667"
+     ],
+     "field": "relation:influence--yi-sang--kim-yeon-su.summary",
+     "claim": "2016년 개정판이 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "발행일 2016년 04월 17일 쪽수, 무게, 크기 328쪽"
+    },
+    {
+     "sids": [
+      "baceb5f47667"
+     ],
+     "field": "relation:influence--yi-sang--kim-yeon-su.summary",
+     "claim": "개정판 책 소개는 필명의 ‘연(衍)’을 이상의 유고소설 「단발」 남자 주인공 이름에서 따왔다고 밝힌다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "이상의 유고소설인 「단발」에 나오는 남자 주인공의 이름 ‘연衍’에서 그 필명을 따올 정도로 김연수의 문학적 출발점은 이상과 떼려야 뗄 수 없다."
+    },
+    {
+     "sids": [
+      "baceb5f47667",
+      "df77da9c2bf8"
+     ],
+     "field": "relation:influence--yi-sang--kim-yeon-su.summary",
+     "claim": "김연수는 한겨레 칼럼 「소녀잡지 속 박제가 된 천재를 아시오?」에서 이 소설이 아니었다면 소설가가 아닌 다른 일을 하고 있었을 것이라고 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/25929256",
+     "quote": "그 소설이 아니었다면, 지금쯤 나는 소설가가 아닌 다른 일을 하고 있었을 것이다. _김연수(한겨레 칼럼 「소녀잡지 속 박제가 된 천재를 아시오?」 중에서)",
+     "note": "칼럼 원문은 가져오지 못했다. 문학동네 개정판 책 소개(예스24)가 인용한 대목으로 확인했다."
+    },
+    {
+     "sids": [
+      "4af9fcacd091"
+     ],
+     "field": "relation:influence--jorge-luis-borges--kim-yeon-su.facts",
+     "claim": "보르헤스→김연수 방향의 영향이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "Kim's literary world is shaped by his study of humanities and at the same time owes much to the Argentinian writer, Jorge Luis Borges, whose influence is paramount in his first collection of short stories, Seulmu sal (스무 살 Twenty Years Old)."
+    },
+    {
+     "sids": [
+      "4af9fcacd091"
+     ],
+     "field": "relation:influence--jorge-luis-borges--kim-yeon-su.facts",
+     "claim": "이 영향은 2차 연구가 다루는 계보다(scholarly_consensus)",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001625109",
+     "quote": "the other is discussing the fictional techniques of H. L. Borges overlapping with short stories in novel collections The Age of Twenty and Fictions of Midnight by, respectively, young writers Yeon‐soo KIM and PARK Hyeong‐seo",
+     "note": "이 수준은 두 2차 출처가 받친다. 함정임의 KCI 논문과 한국문학번역원 작가 소개(Korean Literature Now 2011 특별호 인용)다."
+    },
+    {
+     "sids": [
+      "c5553c06d611"
+     ],
+     "field": "relation:influence--jorge-luis-borges--kim-yeon-su.summary",
+     "claim": "함정임 「21세기 한국 소설의 라틴아메리카 소설 경향」은 『비교문화연구』 25권(2011)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001625109",
+     "quote": "비교문화연구 약어 : - 2011 vol.25, pp.313 - 336 DOI : 10.21049/ccs.2011.25..313"
+    },
+    {
+     "sids": [
+      "c5553c06d611"
+     ],
+     "field": "relation:influence--jorge-luis-borges--kim-yeon-su.summary",
+     "claim": "이 논문은 『스무 살』의 단편들을 보르헤스의 소설 기법과 겹쳐 읽는다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001625109",
+     "quote": "the other is discussing the fictional techniques of H. L. Borges overlapping with short stories in novel collections The Age of Twenty and Fictions of Midnight by, respectively, young writers Yeon‐soo KIM and PARK Hyeong‐seo"
+    },
+    {
+     "sids": [
+      "c5553c06d611"
+     ],
+     "field": "relation:influence--jorge-luis-borges--kim-yeon-su.summary",
+     "claim": "『스무 살』(2000)은 김연수의 첫 소설집이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%B0%EC%88%98_(%EC%9E%91%EA%B0%80)",
+     "quote": "《스무살》 (문학동네, 2000)",
+     "note": "같은 문서의 ‘소설집’ 목록 첫 항목이다. 한국문학번역원 소개도 이 책을 ‘his first collection of short stories’라고 부른다."
+    },
+    {
+     "sids": [
+      "69643f64f8e5"
+     ],
+     "field": "relation:influence--jorge-luis-borges--kim-yeon-su.summary",
+     "claim": "한국문학번역원 소개는 김연수의 소설 세계가 보르헤스에게 많은 빚을 졌고 그 영향이 『스무 살』에서 가장 두드러진다고 적는다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200070",
+     "quote": "owes much to the Argentinian writer, Jorge Luis Borges, whose influence is paramount in his first collection of short stories, Seulmu sal (스무 살 Twenty Years Old)."
+    }
+   ],
+   "noClaim": {
+    "14cbaed87fe4": "어느 책부터 읽지 말라는 독서 권유라 사실 주장이 없다.",
+    "ada1fbb39dc4": "문장의 밀도와 난해함에 대한 문체 평가라 출처로 확인할 사실 주장이 없다.",
+    "fba8f2b0a8a6": "난도가 어디서 오는지에 대한 편집자 판단이다.",
+    "25f23101c778": "단편집을 읽는 데 필요한 배경 지식에 대한 독서 난도 판단이다."
+   }
+  }
+ ]
+}

@@ -1,0 +1,443 @@
+{
+  "id": "roald-dahl",
+  "page": "https://literary-planet.pages.dev/authors/roald-dahl/",
+  "author": {
+    "names": {
+      "ko": "로알드 달",
+      "original": "Roald Dahl",
+      "aliases": []
+    },
+    "birthYear": 1916,
+    "deathYear": 1990,
+    "activeRange": [
+      1942,
+      1990
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "아이를 보호받는 존재가 아니라 어른의 악의와 맞서 끝내 복수하는 주인공으로 세워, 아동문학에 잔혹한 웃음을 허용했다. 아이 편에 붙은 화자, 우스꽝스럽게 과장된 악인, 발명된 낱말과 교훈시처럼 삽입된 노래라는 장치를 붙여 훈육담이 있던 자리에 보복담을 놓았고, 같은 잔혹함을 성인 단편에서는 마지막 한 줄의 반전으로 썼다. 그 결과 아동문학은 어른의 세계를 미화하지 않고도 아이에게 읽힐 수 있는 영역이 되었다.",
+    "readingEntry": "roald-dahl--charlie-and-the-chocolate-factory",
+    "readingEntryReason": "황금 티켓을 받은 다섯 중 네 아이가 각자의 악덕대로 공장에서 사라지고 찰리만 남는 구조 안에 달의 규칙 — 악의에는 응징, 아이 편에 선 화자 — 이 한 권으로 압축돼 있다.",
+    "readingOrder": [
+      "roald-dahl--charlie-and-the-chocolate-factory",
+      "roald-dahl--matilda",
+      "roald-dahl--the-bfg",
+      "roald-dahl--kiss-kiss"
+    ],
+    "readingWarning": "『Kiss Kiss』 같은 성인 단편집을 아동서로 알고 집으면 어긋난다. 잔혹함의 종류는 같지만 독자가 다르고, 결말이 아이를 위해 정리되지 않는다.",
+    "difficulty": 1,
+    "difficultyReason": "장이 짧고 문장이 구어에 가까워 소리 내어 읽어도 걸리는 데가 없다. 발명된 낱말과 말장난이 많아 번역본에 따라 웃음의 결이 달라지는 것이 거의 전부의 어려움이다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--sturrock-storyteller-roald-dahl"
+    ]
+  },
+  "works": [
+    {
+      "id": "roald-dahl--the-bfg",
+      "titleKo": "내 친구 꼬마 거인",
+      "titleOriginal": "The BFG",
+      "year": 1982,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "아이를 잡아먹는 거인들 사이에서 낱말을 뒤죽박죽으로 쓰는 거인 하나를 아이 편에 세운 작품으로, 달이 만들어 낸 언어 놀이가 가장 두드러진다.",
+      "sourceIds": []
+    },
+    {
+      "id": "roald-dahl--kiss-kiss",
+      "titleKo": "Kiss Kiss",
+      "titleOriginal": "Kiss Kiss",
+      "year": 1960,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "성인 독자를 위한 단편집으로, 「하숙집 여주인」처럼 마지막 한 줄에서 뒤집히는 결말이 그의 아동물과 같은 잔혹함을 다른 독자에게 쓰고 있음을 보여준다.",
+      "sourceIds": []
+    },
+    {
+      "id": "roald-dahl--charlie-and-the-chocolate-factory",
+      "titleKo": "찰리와 초콜릿 공장",
+      "titleOriginal": "Charlie and the Chocolate Factory",
+      "year": 1964,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "황금 티켓을 받은 다섯 중 네 아이가 각자의 악덕대로 공장에서 제거되고 찰리만 남는 구조에 움파룸파의 노래를 교훈시처럼 붙여, 도덕 우화와 잔혹한 웃음을 한 권에 겹쳐 놓은 대표작.",
+      "sourceIds": []
+    },
+    {
+      "id": "roald-dahl--james-and-the-giant-peach",
+      "titleKo": "제임스와 슈퍼 복숭아",
+      "titleOriginal": "James and the Giant Peach",
+      "year": 1961,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "고아가 된 아이가 거대한 복숭아를 타고 학대하는 이모들에게서 탈출하는 이야기로, 이후 달의 아동물이 반복할 구도 — 잔혹한 어른 대 아이의 반격 — 를 세운 초기작.",
+      "sourceIds": []
+    },
+    {
+      "id": "roald-dahl--matilda",
+      "titleKo": "마틸다",
+      "titleOriginal": "Matilda",
+      "year": 1988,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "책을 읽는 아이가 무지한 부모와 폭력적인 교장에게 지능과 초능력으로 되갚는 이야기로, 달의 아동물이 도달한 복수 구조의 완성형. 주인공의 도서관 목록이 그대로 그의 독서 계보를 드러낸다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--roald-dahl--kim-yeon-su",
+      "type": "translation",
+      "from": "roald-dahl (로알드 달)",
+      "to": "kim-yeon-su (김연수)",
+      "evidenceLevel": "documented",
+      "summary": "김연수는 로알드 달의 동화 『창문닦이 삼총사』를 옮겨 1997년 시공주니어 문고로 냈다. 시공주니어 책의 역자 소개는 1993년 『작가세계』로 등단한 그의 역서로 이 책을 들고, 한국문학번역원 작가 소개도 그가 레이먼드 카버와 로알드 달을 번역했다고 적는다.",
+      "sourceIds": [
+        "src--kim-yeon-su-trans-dahl-1997",
+        "src--lti-korea"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--charles-dickens--roald-dahl (→ charles-dickens 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "a978846c2123",
+      "where": "author.facts",
+      "text": "로알드 달(Roald Dahl) · 1916–1990 · en · britain-ireland"
+    },
+    {
+      "sid": "50578cde2a77",
+      "where": "author.importanceReason",
+      "text": "아이를 보호받는 존재가 아니라 어른의 악의와 맞서 끝내 복수하는 주인공으로 세워, 아동문학에 잔혹한 웃음을 허용했다."
+    },
+    {
+      "sid": "346f27f63f3c",
+      "where": "author.importanceReason",
+      "text": "아이 편에 붙은 화자, 우스꽝스럽게 과장된 악인, 발명된 낱말과 교훈시처럼 삽입된 노래라는 장치를 붙여 훈육담이 있던 자리에 보복담을 놓았고, 같은 잔혹함을 성인 단편에서는 마지막 한 줄의 반전으로 썼다."
+    },
+    {
+      "sid": "fc668fdcc774",
+      "where": "author.importanceReason",
+      "text": "그 결과 아동문학은 어른의 세계를 미화하지 않고도 아이에게 읽힐 수 있는 영역이 되었다."
+    },
+    {
+      "sid": "6dd73d0f68b8",
+      "where": "author.readingEntryReason",
+      "text": "황금 티켓을 받은 다섯 중 네 아이가 각자의 악덕대로 공장에서 사라지고 찰리만 남는 구조 안에 달의 규칙 — 악의에는 응징, 아이 편에 선 화자 — 이 한 권으로 압축돼 있다."
+    },
+    {
+      "sid": "847f9b61deee",
+      "where": "author.readingWarning",
+      "text": "『Kiss Kiss』 같은 성인 단편집을 아동서로 알고 집으면 어긋난다."
+    },
+    {
+      "sid": "6b65c2f4edf0",
+      "where": "author.readingWarning",
+      "text": "잔혹함의 종류는 같지만 독자가 다르고, 결말이 아이를 위해 정리되지 않는다."
+    },
+    {
+      "sid": "42434a994302",
+      "where": "author.difficultyReason",
+      "text": "장이 짧고 문장이 구어에 가까워 소리 내어 읽어도 걸리는 데가 없다."
+    },
+    {
+      "sid": "47c3dc1296c3",
+      "where": "author.difficultyReason",
+      "text": "발명된 낱말과 말장난이 많아 번역본에 따라 웃음의 결이 달라지는 것이 거의 전부의 어려움이다."
+    },
+    {
+      "sid": "f6dadf481d1a",
+      "where": "work:roald-dahl--the-bfg.facts",
+      "text": "『내 친구 꼬마 거인』(The BFG) · 1982 · fiction"
+    },
+    {
+      "sid": "31dc2435a018",
+      "where": "work:roald-dahl--the-bfg.significance",
+      "text": "아이를 잡아먹는 거인들 사이에서 낱말을 뒤죽박죽으로 쓰는 거인 하나를 아이 편에 세운 작품으로, 달이 만들어 낸 언어 놀이가 가장 두드러진다."
+    },
+    {
+      "sid": "143f8e0b4284",
+      "where": "work:roald-dahl--kiss-kiss.facts",
+      "text": "『Kiss Kiss』(Kiss Kiss) · 1960 · fiction"
+    },
+    {
+      "sid": "1bb048871e55",
+      "where": "work:roald-dahl--kiss-kiss.significance",
+      "text": "성인 독자를 위한 단편집으로, 「하숙집 여주인」처럼 마지막 한 줄에서 뒤집히는 결말이 그의 아동물과 같은 잔혹함을 다른 독자에게 쓰고 있음을 보여준다."
+    },
+    {
+      "sid": "84f3c3be79ff",
+      "where": "work:roald-dahl--charlie-and-the-chocolate-factory.facts",
+      "text": "『찰리와 초콜릿 공장』(Charlie and the Chocolate Factory) · 1964 · fiction"
+    },
+    {
+      "sid": "4e7e7651bc4e",
+      "where": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+      "text": "황금 티켓을 받은 다섯 중 네 아이가 각자의 악덕대로 공장에서 제거되고 찰리만 남는 구조에 움파룸파의 노래를 교훈시처럼 붙여, 도덕 우화와 잔혹한 웃음을 한 권에 겹쳐 놓은 대표작."
+    },
+    {
+      "sid": "07fa1c22842e",
+      "where": "work:roald-dahl--james-and-the-giant-peach.facts",
+      "text": "『제임스와 슈퍼 복숭아』(James and the Giant Peach) · 1961 · fiction"
+    },
+    {
+      "sid": "b142d5f9fd6d",
+      "where": "work:roald-dahl--james-and-the-giant-peach.significance",
+      "text": "고아가 된 아이가 거대한 복숭아를 타고 학대하는 이모들에게서 탈출하는 이야기로, 이후 달의 아동물이 반복할 구도 — 잔혹한 어른 대 아이의 반격 — 를 세운 초기작."
+    },
+    {
+      "sid": "1e359c4d710b",
+      "where": "work:roald-dahl--matilda.facts",
+      "text": "『마틸다』(Matilda) · 1988 · fiction"
+    },
+    {
+      "sid": "63b860aae960",
+      "where": "work:roald-dahl--matilda.significance",
+      "text": "책을 읽는 아이가 무지한 부모와 폭력적인 교장에게 지능과 초능력으로 되갚는 이야기로, 달의 아동물이 도달한 복수 구조의 완성형."
+    },
+    {
+      "sid": "10d872a2ff6e",
+      "where": "work:roald-dahl--matilda.significance",
+      "text": "주인공의 도서관 목록이 그대로 그의 독서 계보를 드러낸다."
+    },
+    {
+      "sid": "65babdbfb84d",
+      "where": "relation:translation--roald-dahl--kim-yeon-su.facts",
+      "text": "로알드 달 → 김연수 · translation · directed · documented"
+    },
+    {
+      "sid": "9ccef2e41644",
+      "where": "relation:translation--roald-dahl--kim-yeon-su.summary",
+      "text": "김연수는 로알드 달의 동화 『창문닦이 삼총사』를 옮겨 1997년 시공주니어 문고로 냈다."
+    },
+    {
+      "sid": "ee3485149402",
+      "where": "relation:translation--roald-dahl--kim-yeon-su.summary",
+      "text": "시공주니어 책의 역자 소개는 1993년 『작가세계』로 등단한 그의 역서로 이 책을 들고, 한국문학번역원 작가 소개도 그가 레이먼드 카버와 로알드 달을 번역했다고 적는다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "로알드 달의 생몰년은 1916–1990이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+      "quote": "(13 September 1916 – 23 November 1990) was a British"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "달은 낱말을 발명해 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+      "quote": "He invented over 500 new words by scribbling down his words before swapping letters around"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "교훈시처럼 삽입된 노래를 장치로 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+      "quote": "The Oompa-Loompas sing about the children's misbehaviour and ejections each time disaster strikes."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "같은 잔혹함을 성인 단편에서는 마지막 한 줄의 반전으로 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+      "quote": "macabre adult short stories, which often blended humour and innocence with surprising plot twists."
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "황금 티켓을 받은 다섯 중 네 아이가 각자의 악덕대로 공장에서 사라지고 찰리만 남는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+      "quote": "Wonka has hidden five Golden Tickets in Wonka Bars; the finders of these tickets will be invited to a tour."
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『찰리와 초콜릿 공장』이 국내에서 달의 작품 중 가장 널리 알려져 있다",
+      "verdict": "unverifiable",
+      "note": "absent: 국내 인지도를 잰 조사를 찾지 못함. 알라딘 세일즈포인트는 오히려 『마틸다』(15,478)가 『찰리와 초콜릿 공장』(10,899)보다 높다 — 판매 지표로는 근거가 약하다.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%A7%88%ED%8B%B8%EB%8B%A4%20%EB%A1%9C%EC%95%8C%EB%93%9C%20%EB%8B%AC",
+      "resolution": "removed"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『키스 키스』는 아동서가 아니라 성인 독자를 위한 단편집이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kiss_Kiss_(book)",
+      "quote": "a collection of short stories... for adults, not children"
+    },
+    {
+      "field": "works[].year (roald-dahl--the-bfg)",
+      "claim": "『The BFG』의 발표 연도는 1982년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_BFG",
+      "quote": "1982, published by Jonathan Cape"
+    },
+    {
+      "field": "works[].titleKo (roald-dahl--the-bfg)",
+      "claim": "The BFG의 한국어 제목은 『내 친구 꼬마 거인』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%82%B4%20%EC%B9%9C%EA%B5%AC%20%EA%BC%AC%EB%A7%88%20%EA%B1%B0%EC%9D%B8",
+      "quote": "내 친구 꼬마 거인 … 로알드 달 (지은이), 퀸틴 블레이크 (그림), 지혜연 (옮긴이) | 시공주니어"
+    },
+    {
+      "field": "works[].significance (roald-dahl--the-bfg)",
+      "claim": "아이를 잡아먹는 거인들 사이에서 낱말을 뒤죽박죽 쓰는 거인 하나가 아이 편에 선다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_BFG",
+      "quote": "his nine neighbours are much bigger and stronger giants, who all happily eat humans every night"
+    },
+    {
+      "field": "works[].year (roald-dahl--kiss-kiss)",
+      "claim": "『Kiss Kiss』의 발표 연도는 1960년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kiss_Kiss_(book)",
+      "quote": "1960 by Alfred A. Knopf"
+    },
+    {
+      "field": "works[].significance (roald-dahl--kiss-kiss)",
+      "claim": "「하숙집 여주인」(The Landlady)이 『키스 키스』에 수록돼 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kiss_Kiss_(book)",
+      "quote": "\"The Landlady\" … first appeared in The New Yorker magazine, November 28, 1959."
+    },
+    {
+      "field": "works[].titleKo (roald-dahl--kiss-kiss)",
+      "claim": "Kiss Kiss의 한국어 제목은 『키스 키스』이다",
+      "verdict": "unverifiable",
+      "note": "absent: 알라딘에서 『키스 키스』라는 제목의 국내판이 검색되지 않는다. 원제의 음역으로는 문제가 없으나 국내 출간명으로 표기하면 근거가 없다.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%ED%82%A4%EC%8A%A4%20%ED%82%A4%EC%8A%A4%20%EB%A1%9C%EC%95%8C%EB%93%9C%20%EB%8B%AC",
+      "resolution": "removed"
+    },
+    {
+      "field": "works[].year (roald-dahl--charlie-and-the-chocolate-factory)",
+      "claim": "『찰리와 초콜릿 공장』의 발표 연도는 1964년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+      "quote": "published in 1964 in the US by Alfred A. Knopf, Inc."
+    },
+    {
+      "field": "works[].titleKo (roald-dahl--charlie-and-the-chocolate-factory)",
+      "claim": "한국어 제목은 『찰리와 초콜릿 공장』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EC%B0%B0%EB%A6%AC%EC%99%80%20%EC%B4%88%EC%BD%9C%EB%A6%BF%20%EA%B3%B5%EC%9E%A5%20%EB%A1%9C%EC%95%8C%EB%93%9C%20%EB%8B%AC",
+      "quote": "찰리와 초콜릿 공장 … 로알드 달 (지은이) … | 시공주니어"
+    },
+    {
+      "field": "works[].year (roald-dahl--james-and-the-giant-peach)",
+      "claim": "『제임스와 슈퍼 복숭아』의 발표 연도는 1961년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/James_and_the_Giant_Peach",
+      "quote": "published in 1961 by Alfred A. Knopf, Inc."
+    },
+    {
+      "field": "works[].significance (roald-dahl--james-and-the-giant-peach)",
+      "claim": "고아가 된 아이가 거대한 복숭아를 타고 학대하는 이모들에게서 탈출한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/James_and_the_Giant_Peach",
+      "quote": "a rhinoceros escapes from London Zoo and eats James' parents … Aunt Spiker and Aunt Sponge … physically and verbally abuse him"
+    },
+    {
+      "field": "works[].titleKo (roald-dahl--james-and-the-giant-peach)",
+      "claim": "한국어 제목은 『제임스와 슈퍼 복숭아』이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EC%A0%9C%EC%9E%84%EC%8A%A4%EC%99%80%20%EC%8A%88%ED%8D%BC%20%EB%B3%B5%EC%88%AD%EC%95%84",
+      "quote": "제임스와 슈퍼 복숭아 … 로알드 달 (지은이), 퀸틴 블레이크 (그림), 지혜연 (옮긴이) | 시공주니어"
+    },
+    {
+      "field": "works[].year (roald-dahl--matilda)",
+      "claim": "『마틸다』의 발표 연도는 1988년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+      "quote": "published in October 1, 1988 by Jonathan Cape"
+    },
+    {
+      "field": "works[].significance (roald-dahl--matilda)",
+      "claim": "책을 읽는 아이가 무지한 부모와 폭력적인 교장에게 지능과 초능력으로 되갚는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+      "quote": "uncaring parents … the tyrannical headmistress Miss Trunchbull … Matilda develops telekinetic powers"
+    },
+    {
+      "field": "works[].significance (roald-dahl--matilda)",
+      "claim": "주인공의 도서관 독서 목록이 작품 안에 실제로 열거돼 있다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/matilda00roal",
+      "quote": "Matilda read the following books: Nicholas Nickleby by Charles Dickens Oliver Twist by Charles Dickens"
+    },
+    {
+      "field": "relations[documented_influence charles-dickens → roald-dahl]",
+      "claim": "디킨스는 달이 어린 시절 애독한 작가다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+      "quote": "His other favourite authors included Rudyard Kipling, Charles Dickens, William Makepeace Thackeray",
+      "note": "위키백과의 근거 각주는 Craats 2014이다 — 스터록이 아니다."
+    },
+    {
+      "field": "relations[documented_influence charles-dickens → roald-dahl]",
+      "claim": "디킨스가 달의 어린 시절 애독 작가라는 사실이 도널드 스터록 『Storyteller』(2010)에 기록돼 있다",
+      "verdict": "unverifiable",
+      "note": "absent: Storyteller 본문(archive.org/details/storytellerlifeo0000stur)에서 디킨스 애독 기록을 찾지 못했다. 'Dahl+Dickens+Sturrock+boyhood' 등 여러 전문 검색에서 이 평전의 해당 대목이 잡히지 않는다. 위키백과가 같은 사실에 붙인 출처는 Craats 2014.",
+      "url": "https://archive.org/details/storytellerlifeo0000stur",
+      "resolution": "removed"
+    },
+    {
+      "field": "relations[documented_influence charles-dickens → roald-dahl]",
+      "claim": "『마틸다』(1988)는 주인공이 도서관에서 읽는 책으로 『위대한 유산』과 『니콜라스 니클비』를 명시한다",
+      "verdict": "contradicted",
+      "url": "https://archive.org/details/matilda00roal",
+      "quote": "Matilda read the following books: Nicholas Nickleby by Charles Dickens Oliver Twist by Charles Dickens",
+      "correction": "『마틸다』(1988)는 주인공이 도서관에서 읽는 책으로 『니콜라스 니클비』와 『올리버 트위스트』를 명시한다",
+      "note": "작품 속 목록의 디킨스 항목은 두 편이며 『위대한 유산』은 없다. Matilda 판본 7종을 대상으로 'Great Expectations by Charles Dickens'+'Kim by Rudyard Kipling' 전문 검색 시 Matilda는 한 종도 걸리지 않는 반면, 'Nicholas Nickleby'로는 7종이 모두 걸린다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "sources cited[src--sturrock-storyteller-roald-dahl]",
+      "claim": "Storyteller: The Life of Roald Dahl은 Donald Sturrock 저, HarperCollins, 2010년",
+      "verdict": "confirmed",
+      "url": "https://openlibrary.org/works/OL15532318W",
+      "quote": "Donald Sturrock … first_publish_year 2010 … HarperPress, HarperCollins Publishers Limited"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--sturrock-storyteller-roald-dahl": {
+      "id": "src--sturrock-storyteller-roald-dahl",
+      "title": "Storyteller: The Life of Roald Dahl",
+      "publisherOrInstitution": "Donald Sturrock, HarperCollins (2010)",
+      "citation": "달의 유년 독서(디킨스·키플링·새커리·매리엇)와 성인 단편에서 아동물로 옮겨 간 경로를 기록한 공인 평전"
+    },
+    "src--kim-yeon-su-trans-dahl-1997": {
+      "id": "src--kim-yeon-su-trans-dahl-1997",
+      "title": "로알드 달, 『창문닦이 삼총사』 김연수 옮김 (시공주니어 문고 레벨2)",
+      "publisherOrInstitution": "시공주니어",
+      "url": "https://www.yes24.com/product/goods/101364",
+      "citation": "1997년 9월 30일 발행. 시공주니어 책에 실린 역자 소개가 1993년 『작가세계』로 등단한 김연수의 역서로 이 책을 든다 — 로알드 달→김연수 번역 관계의 1차 근거."
+    },
+    "src--lti-korea": {
+      "id": "src--lti-korea",
+      "title": "한국문학번역원 작가 소개 자료",
+      "publisherOrInstitution": "Literature Translation Institute of Korea",
+      "url": "https://www.ltikorea.or.kr",
+      "citation": "한국 작가의 해외 소개용 공식 프로필"
+    }
+  }
+}

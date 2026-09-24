@@ -1,0 +1,571 @@
+{
+  "id": "matsuo-basho",
+  "page": "https://literary-planet.pages.dev/authors/matsuo-basho/",
+  "author": {
+    "names": {
+      "ko": "마쓰오 바쇼",
+      "original": "松尾芭蕉",
+      "aliases": []
+    },
+    "birthYear": 1644,
+    "deathYear": 1694,
+    "activeRange": [
+      1664,
+      1694
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "말재간 겨루기로 흐르던 하이카이의 좌를 렌쿠 종장으로 이끌면서, 계어와 기레지로 한순간의 감각을 끊어 세우는 발구를 짓고 뒤따르는 구와 잇게 했다. 『오쿠로 가는 좁은 길』은 1689년의 실제 도보 여정을 압축하고 재배치한 산문 사이에 발구를 박아 넣어, 기행과 시가 서로를 설명하지 않고 겹치게 하는 하이분의 틀을 굳혔다. 메이지의 마사오카 시키가 발구를 하이쿠라는 독립된 시형으로 다시 세운 뒤에도, 그 시형과 일본 기행문학은 이 이름을 기준점으로 되돌아본다.",
+    "readingEntry": "matsuo-basho--oku-no-hosomichi",
+    "readingEntryReason": "산문과 발구가 번갈아 나와 발구만 모은 선집보다 맥락이 잡히고, 여정이 이야기의 뼈대를 대신해 주기 때문에 하이카이의 규칙을 몰라도 끝까지 읽힌다.",
+    "readingOrder": [
+      "matsuo-basho--oku-no-hosomichi",
+      "matsuo-basho--nozarashi-kiko",
+      "matsuo-basho--sarumino",
+      "matsuo-basho--fuyu-no-hi"
+    ],
+    "readingWarning": "『사루미노』나 『겨울날』부터 펴면 가센(연구)의 이어짓기 규칙과 계어 지식이 먼저 필요해 진도가 나가지 않는다.",
+    "difficulty": 3,
+    "difficultyReason": "발구 한 편이 계어·기레지·고전 인용에 기대어 접혀 있어 주석 없이는 장면이 펴지지 않고, 5·7·5의 소리는 번역에서 사라져 원문과 주석을 함께 보게 된다. 기행문 쪽 산문은 문장이 짧고 평이하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--aozora-bunko",
+      "src--keene-world-within-walls"
+    ]
+  },
+  "works": [
+    {
+      "id": "matsuo-basho--nozarashi-kiko",
+      "titleKo": "노자라시 기행",
+      "titleOriginal": "野ざらし紀行",
+      "year": 1685,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "고향과 서국을 도는 장거리 여행의 기록으로, 뒤에 『오쿠로 가는 좁은 길』이 쓰게 되는 산문-발구 결합 방식이 여기서 시험된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "matsuo-basho--fuyu-no-hi",
+      "titleKo": "겨울날",
+      "titleOriginal": "冬の日",
+      "year": 1684,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "나고야 문인들과 지은 가센 다섯 편을 묶었고, 이후 쇼후(蕉風)라 불리게 되는 작풍이 이 책에서 형태를 갖춘다.",
+      "sourceIds": []
+    },
+    {
+      "id": "matsuo-basho--oku-no-hosomichi",
+      "titleKo": "오쿠로 가는 좁은 길",
+      "titleOriginal": "おくのほそ道",
+      "year": 1702,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "1689년 동북·호쿠리쿠 도보 여정을 압축하고 재구성한 기행문으로, 산문 단락 사이사이에 발구가 놓여 장면을 닫는다. 바쇼 사후에 간행되었으며 일본 기행문학이 가장 자주 참조하는 본문이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "matsuo-basho--sarumino",
+      "titleKo": "사루미노",
+      "titleOriginal": "猿蓑",
+      "year": 1691,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "보초와 교라이가 바쇼의 감수 아래 엮은 선집으로, 발구와 가센 네 편을 함께 실어 문하의 작법을 보여준다. 하이카이 칠부집 가운데 완성도가 가장 높은 책으로 꼽힌다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--li-bai--matsuo-basho",
+      "type": "documented_influence",
+      "from": "li-bai (이백)",
+      "to": "matsuo-basho (마쓰오 바쇼)",
+      "evidenceLevel": "documented",
+      "summary": "『오쿠노 호소미치』 서두의 '月日は百代の過客にして'는 이백 「춘야연도리원서」의 '光陰者百代之過客'에서 어구를 가져오되 光陰을 月日로 바꿔 적은 것이다.",
+      "sourceIds": [
+        "src--oku-no-hosomichi-jobun"
+      ]
+    },
+    {
+      "id": "influence--matsuo-basho--ryunosuke-akutagawa",
+      "type": "documented_influence",
+      "from": "matsuo-basho (마쓰오 바쇼)",
+      "to": "ryunosuke-akutagawa (아쿠타가와 류노스케)",
+      "evidenceLevel": "documented",
+      "summary": "아쿠타가와는 연작 비평 「芭蕉雑記」(1923–24)에서 바쇼의 발구를 한 편씩 읽었다.",
+      "sourceIds": [
+        "src--akutagawa-basho-zakki"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--du-fu--matsuo-basho (→ du-fu 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "1fb346970278",
+      "where": "author.facts",
+      "text": "마쓰오 바쇼(松尾芭蕉) · 1644–1694 · ja · east-asia"
+    },
+    {
+      "sid": "aa3c8059c659",
+      "where": "author.importanceReason",
+      "text": "말재간 겨루기로 흐르던 하이카이의 좌를 렌쿠 종장으로 이끌면서, 계어와 기레지로 한순간의 감각을 끊어 세우는 발구를 짓고 뒤따르는 구와 잇게 했다."
+    },
+    {
+      "sid": "175cc5ce00f7",
+      "where": "author.importanceReason",
+      "text": "『오쿠로 가는 좁은 길』은 1689년의 실제 도보 여정을 압축하고 재배치한 산문 사이에 발구를 박아 넣어, 기행과 시가 서로를 설명하지 않고 겹치게 하는 하이분의 틀을 굳혔다."
+    },
+    {
+      "sid": "5300a22f7018",
+      "where": "author.importanceReason",
+      "text": "메이지의 마사오카 시키가 발구를 하이쿠라는 독립된 시형으로 다시 세운 뒤에도, 그 시형과 일본 기행문학은 이 이름을 기준점으로 되돌아본다."
+    },
+    {
+      "sid": "77216941be99",
+      "where": "author.readingEntryReason",
+      "text": "산문과 발구가 번갈아 나와 발구만 모은 선집보다 맥락이 잡히고, 여정이 이야기의 뼈대를 대신해 주기 때문에 하이카이의 규칙을 몰라도 끝까지 읽힌다."
+    },
+    {
+      "sid": "aa85630e04cf",
+      "where": "author.readingWarning",
+      "text": "『사루미노』나 『겨울날』부터 펴면 가센(연구)의 이어짓기 규칙과 계어 지식이 먼저 필요해 진도가 나가지 않는다."
+    },
+    {
+      "sid": "0a519746e708",
+      "where": "author.difficultyReason",
+      "text": "발구 한 편이 계어·기레지·고전 인용에 기대어 접혀 있어 주석 없이는 장면이 펴지지 않고, 5·7·5의 소리는 번역에서 사라져 원문과 주석을 함께 보게 된다."
+    },
+    {
+      "sid": "a1ea09ba01cc",
+      "where": "author.difficultyReason",
+      "text": "기행문 쪽 산문은 문장이 짧고 평이하다."
+    },
+    {
+      "sid": "fc7adae662bc",
+      "where": "work:matsuo-basho--nozarashi-kiko.facts",
+      "text": "『노자라시 기행』(野ざらし紀行) · 1685 composition-range · essay-criticism"
+    },
+    {
+      "sid": "73965d572521",
+      "where": "work:matsuo-basho--nozarashi-kiko.significance",
+      "text": "고향과 서국을 도는 장거리 여행의 기록으로, 뒤에 『오쿠로 가는 좁은 길』이 쓰게 되는 산문-발구 결합 방식이 여기서 시험된다."
+    },
+    {
+      "sid": "af6536660763",
+      "where": "work:matsuo-basho--fuyu-no-hi.facts",
+      "text": "『겨울날』(冬の日) · 1684 first-print · poetry"
+    },
+    {
+      "sid": "dabdcb0f8bc9",
+      "where": "work:matsuo-basho--fuyu-no-hi.significance",
+      "text": "나고야 문인들과 지은 가센 다섯 편을 묶었고, 이후 쇼후(蕉風)라 불리게 되는 작풍이 이 책에서 형태를 갖춘다."
+    },
+    {
+      "sid": "8648da7e2a2f",
+      "where": "work:matsuo-basho--oku-no-hosomichi.facts",
+      "text": "『오쿠로 가는 좁은 길』(おくのほそ道) · 1702 first-print · essay-criticism"
+    },
+    {
+      "sid": "31b2444a3b61",
+      "where": "work:matsuo-basho--oku-no-hosomichi.significance",
+      "text": "1689년 동북·호쿠리쿠 도보 여정을 압축하고 재구성한 기행문으로, 산문 단락 사이사이에 발구가 놓여 장면을 닫는다."
+    },
+    {
+      "sid": "3a39b32b742e",
+      "where": "work:matsuo-basho--oku-no-hosomichi.significance",
+      "text": "바쇼 사후에 간행되었으며 일본 기행문학이 가장 자주 참조하는 본문이다."
+    },
+    {
+      "sid": "ed50e4b1060c",
+      "where": "work:matsuo-basho--sarumino.facts",
+      "text": "『사루미노』(猿蓑) · 1691 · poetry"
+    },
+    {
+      "sid": "e10168c81a43",
+      "where": "work:matsuo-basho--sarumino.significance",
+      "text": "보초와 교라이가 바쇼의 감수 아래 엮은 선집으로, 발구와 가센 네 편을 함께 실어 문하의 작법을 보여준다."
+    },
+    {
+      "sid": "ba8554a4c779",
+      "where": "work:matsuo-basho--sarumino.significance",
+      "text": "하이카이 칠부집 가운데 완성도가 가장 높은 책으로 꼽힌다."
+    },
+    {
+      "sid": "a98e5ba6e040",
+      "where": "relation:influence--li-bai--matsuo-basho.facts",
+      "text": "이백 → 마쓰오 바쇼 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "5783aaab3601",
+      "where": "relation:influence--li-bai--matsuo-basho.summary",
+      "text": "『오쿠노 호소미치』 서두의 '月日は百代の過客にして'는 이백 「춘야연도리원서」의 '光陰者百代之過客'에서 어구를 가져오되 光陰을 月日로 바꿔 적은 것이다."
+    },
+    {
+      "sid": "5538b9be4586",
+      "where": "relation:influence--matsuo-basho--ryunosuke-akutagawa.facts",
+      "text": "마쓰오 바쇼 → 아쿠타가와 류노스케 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "3e76c8db2e6e",
+      "where": "relation:influence--matsuo-basho--ryunosuke-akutagawa.summary",
+      "text": "아쿠타가와는 연작 비평 「芭蕉雑記」(1923–24)에서 바쇼의 발구를 한 편씩 읽었다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "바쇼 이전의 하이카이(하이카이노렌가)는 말재간 겨루기 성격의 형식이었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Renku",
+      "quote": "\"Comic linked verse\" (俳諧の連歌) ... \"contempt for traditional poetic and cultural ideas\"",
+      "note": "렌가의 파격·비속 지향에서 출발한 형식임이 확인된다."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "바쇼는 렌쿠(하이카이)의 종장으로 그 형식을 예술적 정점으로 이끌었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Renku",
+      "quote": "the 17th-century Japanese poet who brought renku to a pinnacle of artistic achievement"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "발구(홋쿠)는 렌가·렌쿠의 첫 구로서 뒤따르는 구와 이어진다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Haiku",
+      "quote": "the opening stanza of an orthodox collaborative linked poem, or renga, and of its later derivative, renku"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "기레지는 구를 끊어 세워 독립된 시로 설 수 있게 한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Haiku",
+      "quote": "lends the verse structural support, allowing it to stand as an independent poem"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『오쿠로 가는 좁은 길』은 1689년의 실제 도보 여정에 바탕한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+      "quote": "for about 156 days altogether, covering almost 1,500 miles (2,400 km), mostly on foot"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "그 여정을 압축하고 재배치했다 — 실제 여정과 다른 서술이 다수 들어 있다",
+      "verdict": "confirmed",
+      "url": "https://www.nippon.com/ja/japan-topics/g02067/",
+      "quote": "『おくのほそ道』には実際と違う記述が多数含まれている"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "산문 사이에 발구를 넣는 하이분의 틀을 바쇼가 굳혔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Haibun",
+      "quote": "The term 'haibun' was first used by the 17th-century Japanese poet Matsuo Bashō, in a letter to his disciple Kyorai in 1690."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "메이지의 마사오카 시키가 발구를 하이쿠라는 독립된 시형으로 다시 세웠다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+      "quote": "invented the term haiku (replacing hokku) to refer to the freestanding 5–7–5 form"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "발구는 5·7·5의 소리(음수) 구조를 갖는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Haiku",
+      "quote": "three phrases composed of 17 morae (called on in Japanese) in a 5, 7, 5 pattern"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "계어는 계절을 지시하는 말로, 사이지키(歳時記)에서 가져온다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Haiku",
+      "quote": "a word or phrase that symbolizes or implies the season of the poem and is drawn from a saijiki"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『오쿠로 가는 좁은 길』은 산문과 발구가 번갈아 나오는 하이분이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+      "quote": "Haibun—a combination of prose and haiku"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『사루미노』와 『겨울날』에는 가센(36구 렌쿠)이 실려 있어 이어짓기 규칙을 전제한다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%AC%E3%81%AE%E6%97%A5",
+      "quote": "六吟歌仙五巻、および追加六句",
+      "note": "『사루미노』는 권5에 가센 4권(고토방크). 가센=36구 형식은 en.wikipedia Renku 로 확인."
+    },
+    {
+      "field": "works[nozarashi-kiko].year",
+      "claim": "『野ざらし紀行』의 연도는 1685",
+      "verdict": "confirmed",
+      "url": "https://kotobank.jp/word/%E9%87%8E%E3%81%96%E3%82%89%E3%81%97%E7%B4%80%E8%A1%8C-112152",
+      "quote": "貞享2～4年（1685～1687）成立",
+      "note": "1685는 성립 시작 연도. 여행은 1684년 8월 출발, 간행본은 훨씬 뒤(고토방크: 「刊本の最初は明和5（1768）年」)."
+    },
+    {
+      "field": "works[nozarashi-kiko].titleKo/titleOriginal",
+      "claim": "'노자라시 기행'은 野ざらし紀行의 올바른 옮김이다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E9%87%8E%E3%81%96%E3%82%89%E3%81%97%E7%B4%80%E8%A1%8C",
+      "quote": "野ざらし紀行（のざらしきこう）",
+      "note": "음역. 별칭 『甲子吟行』도 있음."
+    },
+    {
+      "field": "works[nozarashi-kiko].significance",
+      "claim": "고향과 서쪽 지방을 도는 장거리 여행의 기록이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+      "quote": "from Edo to Mount Fuji, Ueno, and Kyoto ... his western travels",
+      "note": "우에노(伊賀上野)가 바쇼의 고향."
+    },
+    {
+      "field": "works[nozarashi-kiko].significance",
+      "claim": "이 여행이 '도보' 여행이었다",
+      "verdict": "unverifiable",
+      "correction": "고향과 서국을 도는 장거리 여행의 기록으로",
+      "note": "absent: 이 여정의 이동 수단을 '도보'로 특정한 자료를 찾지 못함. 『오쿠로 가는 좁은 길』은 en.wikipedia 가 'mostly on foot'을 명시하지만, 野ざらし紀行에는 그런 진술이 없다.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[nozarashi-kiko].significance",
+      "claim": "뒤의 『오쿠로 가는 좁은 길』이 쓰는 산문-발구 결합 방식이 여기서 시험된다(= 바쇼의 첫 기행 작품)",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E9%87%8E%E3%81%96%E3%82%89%E3%81%97%E7%B4%80%E8%A1%8C",
+      "quote": "芭蕉第1作目の紀行作品"
+    },
+    {
+      "field": "works[fuyu-no-hi].year",
+      "claim": "『冬の日』의 연도는 1684",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%AC%E3%81%AE%E6%97%A5",
+      "quote": "1684年（貞享元年）11月",
+      "note": "1684는 흥행(작구) 연도. 간행은 이듬해로 보는 서지가 있다."
+    },
+    {
+      "field": "works[fuyu-no-hi].titleKo/titleOriginal",
+      "claim": "'겨울날'은 冬の日의 올바른 옮김이다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%AC%E3%81%AE%E6%97%A5",
+      "quote": "冬の日（ふゆのひ）"
+    },
+    {
+      "field": "works[fuyu-no-hi].significance",
+      "claim": "나고야 문인들과 지었다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%AC%E3%81%AE%E6%97%A5",
+      "quote": "尾張国名古屋において ... 松尾芭蕉と尾張国の連衆（荷兮、岡田野水、加藤重五、坪井杜国、正平）"
+    },
+    {
+      "field": "works[fuyu-no-hi].significance",
+      "claim": "가센 다섯 편을 묶었다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%AC%E3%81%AE%E6%97%A5",
+      "quote": "六吟歌仙五巻、および追加六句",
+      "note": "가센 5권 외에 追加六句가 더 있으므로 '가센 다섯 편'은 완전한 목록은 아니다."
+    },
+    {
+      "field": "works[fuyu-no-hi].significance",
+      "claim": "이후 쇼후(蕉風)라 불리게 되는 작풍이 이 책에서 형태를 갖춘다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E5%86%AC%E3%81%AE%E6%97%A5",
+      "quote": "後年の俳人によって蕉風開眼の書と位置づけられ、俳諧七部集の第一集に選定された"
+    },
+    {
+      "field": "works[oku-no-hosomichi].year",
+      "claim": "『おくのほそ道』의 연도는 1702",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+      "quote": "The first edition was published posthumously in 1702.",
+      "note": "1702는 간행 연도(교토 井筒屋). 집필·완성은 1689–1694년경이므로 단일 연도가 아니다 — 플레이트 본문이 '사후 간행'을 명시해 정합적."
+    },
+    {
+      "field": "works[oku-no-hosomichi].titleKo/titleOriginal",
+      "claim": "'오쿠로 가는 좁은 길'은 おくのほそ道의 올바른 옮김이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+      "quote": "Oku no Hosomichi ... The Narrow Road to the Deep North",
+      "note": "직역으로 적절. 국내 번역본 제목은 판본마다 다르다."
+    },
+    {
+      "field": "works[oku-no-hosomichi].significance",
+      "claim": "1689년 동북·호쿠리쿠 도보 여정을 다룬다",
+      "verdict": "confirmed",
+      "url": "https://www.nippon.com/ja/japan-topics/g02067/",
+      "quote": "1689年 ... 東北・北陸を巡り、大垣まで約2400キロ",
+      "note": "'도보'는 en.wikipedia 의 'mostly on foot'으로 뒷받침됨."
+    },
+    {
+      "field": "works[oku-no-hosomichi].significance",
+      "claim": "산문 단락 끝마다 발구가 놓여 장면을 닫는다",
+      "verdict": "unverifiable",
+      "correction": "산문 단락 사이사이에 발구가 놓여 장면을 닫는다",
+      "note": "absent: 모든 단락 말미에 예외 없이 발구가 놓인다는 진술을 어떤 레퍼런스에서도 찾지 못함. 확인되는 좁은 형태는 '산문과 발구의 결합(하이분)'뿐이다.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[oku-no-hosomichi].significance",
+      "claim": "바쇼 사후에 간행되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oku_no_Hosomichi",
+      "quote": "The first edition was published posthumously in 1702."
+    },
+    {
+      "field": "works[sarumino].year",
+      "claim": "『猿蓑』의 연도는 1691",
+      "verdict": "confirmed",
+      "url": "https://kotobank.jp/word/%E7%8C%BF%E8%93%91-70194",
+      "quote": "元禄4年（1691）",
+      "note": "1691년 5월 성립, 7월 간행."
+    },
+    {
+      "field": "works[sarumino].titleKo/titleOriginal",
+      "claim": "'사루미노'는 猿蓑의 표기다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+      "quote": "Sarumino (猿蓑, Monkey's Raincoat)",
+      "note": "음역. 뜻은 '원숭이 도롱이'."
+    },
+    {
+      "field": "works[sarumino].significance",
+      "claim": "보초(凡兆)와 교라이(去来)가 바쇼의 감수 아래 엮었다",
+      "verdict": "confirmed",
+      "url": "https://kotobank.jp/word/%E7%8C%BF%E8%93%91-70194",
+      "quote": "去来・凡兆編 ... 芭蕉が後見し"
+    },
+    {
+      "field": "works[sarumino].significance",
+      "claim": "발구와 가센 네 편을 함께 실었다",
+      "verdict": "confirmed",
+      "url": "https://kotobank.jp/word/%E7%8C%BF%E8%93%91-70194",
+      "quote": "発句382句、歌仙4巻"
+    },
+    {
+      "field": "works[sarumino].significance",
+      "claim": "하이카이 칠부집 가운데 완성도가 가장 높은 책으로 꼽힌다",
+      "verdict": "confirmed",
+      "url": "https://kotobank.jp/word/%E7%8C%BF%E8%93%91-70194",
+      "quote": "蕉風の、最も高い達成を示す撰集 ... 「俳諧の古今集」"
+    },
+    {
+      "field": "relations[li-bai→matsuo-basho].summary",
+      "claim": "『오쿠노 호소미치』 서두는 '月日は百代の過客にして'이다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikisource.org/wiki/%E3%81%8A%E3%81%8F%E3%81%AE%E3%81%BB%E3%81%9D%E9%81%93",
+      "quote": "月日は百代の過客にしてゆきかふ年も又旅人なり"
+    },
+    {
+      "field": "relations[li-bai→matsuo-basho].summary",
+      "claim": "이백 「춘야연도리원서」에 '光陰者百代之過客'이 있고, 바쇼가 光陰을 月日로 바꿔 적었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E5%A4%9C%E5%AE%B4%E6%A1%83%E6%9D%8E%E5%9C%92%E5%BA%8F",
+      "quote": "光陰者，百代之過客也。"
+    },
+    {
+      "field": "relations[du-fu→matsuo-basho].summary",
+      "claim": "『오쿠노 호소미치』 히라이즈미 대목에 '国破れて山河あり／城春にして草青みたり'가 있다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikisource.org/wiki/%E3%81%8A%E3%81%8F%E3%81%AE%E3%81%BB%E3%81%9D%E9%81%93",
+      "quote": "國破れて山河あり城春にして草靑みたり"
+    },
+    {
+      "field": "relations[du-fu→matsuo-basho].summary",
+      "claim": "杜甫「春望」의 첫 구는 '國破山河在', 뒷구는 '城春草木深'이며 바쇼는 뒷구를 '草青みたり'로 고쳤다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B",
+      "quote": "國破山河在，城春草木深。"
+    },
+    {
+      "field": "relations[du-fu→matsuo-basho].summary",
+      "claim": "그 폐허 위에서 자기 홋쿠를 이어 붙인다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikisource.org/wiki/%E3%81%8A%E3%81%8F%E3%81%AE%E3%81%BB%E3%81%9D%E9%81%93",
+      "quote": "夏草や兵どもが夢の跡",
+      "note": "두보 인용 직후에 바쇼 자신의 홋쿠가 놓인다."
+    },
+    {
+      "field": "relations[matsuo-basho→ryunosuke-akutagawa].summary",
+      "claim": "아쿠타가와의 「芭蕉雑記」는 1923–24년 연작이다",
+      "verdict": "confirmed",
+      "url": "https://www.aozora.gr.jp/cards/000879/card23.html",
+      "quote": "「新潮」1923（大正12）年11月～1924（大正13）年7月",
+      "note": "신초 연재. 별개의 「続芭蕉雑記」는 1927년(문예춘추)이다."
+    },
+    {
+      "field": "relations[matsuo-basho→ryunosuke-akutagawa].summary",
+      "claim": "단편 「고야쇼(枯野抄)」는 1918년작이다",
+      "verdict": "confirmed",
+      "url": "https://www.aozora.gr.jp/cards/000879/card72.html",
+      "quote": "「新小説」1918（大正7）年10月",
+      "note": "본문 말미 서명은 「大正七年九月」."
+    },
+    {
+      "field": "relations[matsuo-basho→ryunosuke-akutagawa].summary",
+      "claim": "「枯野抄」는 바쇼의 임종 자리에 모인 제자들을 소설로 썼다",
+      "verdict": "confirmed",
+      "url": "https://www.aozora.gr.jp/cards/000879/files/72_14932.html",
+      "quote": "芭蕉庵松尾桃青が、四方から集つて来た門下の人人に介抱されながら ... 息を引きとらうとしてゐた",
+      "note": "其角·去来·丈艸·支考·惟然坊·乙州·正秀·之道·木節이 등장한다."
+    },
+    {
+      "field": "relations[matsuo-basho→ryunosuke-akutagawa].sources",
+      "claim": "「枯野抄」에 대한 서술의 근거가 src--akutagawa-basho-zakki(「芭蕉雑記」)에 있다",
+      "verdict": "contradicted",
+      "url": "https://www.aozora.gr.jp/cards/000879/card72.html",
+      "quote": "「新小説」1918（大正7）年10月",
+      "correction": "(출처: src--akutagawa-basho-zakki, 「枯野抄」(1918))",
+      "note": "「枯野抄」는 「芭蕉雑記」에 실린 글이 아니라 5년 앞선 별개의 단편이다. 현재 출처 목록에는 이 절을 담을 소스가 없다.",
+      "resolution": "removed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--aozora-bunko": {
+      "id": "src--aozora-bunko",
+      "title": "青空文庫 — 작품별 저본 서지 정보",
+      "publisherOrInstitution": "青空文庫",
+      "url": "https://www.aozora.gr.jp",
+      "citation": "일본 근대문학 공유저작물 텍스트의 초출 지면과 저본 판본을 작품마다 명시한 서지 — 발표 연도 확인용"
+    },
+    "src--keene-world-within-walls": {
+      "id": "src--keene-world-within-walls",
+      "title": "World Within Walls: Japanese Literature of the Pre-Modern Era, 1600–1867",
+      "publisherOrInstitution": "Donald Keene / Holt, Rinehart and Winston",
+      "citation": "근세 일본문학 표준 통사 — 바쇼의 하이카이 개혁과 기행문을 한 장으로 다룬다"
+    },
+    "src--oku-no-hosomichi-jobun": {
+      "id": "src--oku-no-hosomichi-jobun",
+      "title": "『奥の細道』 서두 「月日は百代の過客にして」",
+      "publisherOrInstitution": "松尾芭蕉, 1702년 간행",
+      "citation": "이백 「春夜宴桃李園序」의 '光陰者百代之過客'을 옮겨 온 첫 문장"
+    },
+    "src--akutagawa-basho-zakki": {
+      "id": "src--akutagawa-basho-zakki",
+      "title": "「芭蕉雑記」 (1923–24)",
+      "publisherOrInstitution": "芥川龍之介 전집 (青空文庫 수록)",
+      "citation": "아쿠타가와가 바쇼의 발구를 한 편씩 읽어 나간 연작 비평 — 바쇼 수용의 1차 근거"
+    }
+  }
+}

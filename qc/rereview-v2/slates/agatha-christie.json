@@ -1,0 +1,457 @@
+{
+  "id": "agatha-christie",
+  "page": "https://literary-planet.pages.dev/authors/agatha-christie/",
+  "author": {
+    "names": {
+      "ko": "애거사 크리스티",
+      "original": "Agatha Christie",
+      "aliases": []
+    },
+    "birthYear": 1890,
+    "deathYear": 1976,
+    "activeRange": [
+      1920,
+      1976
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama"
+    ],
+    "importanceReason": "독자에게 단서를 모두 보여주고도 속이는 규칙을 세워 추리소설을 하나의 게임으로 만들었고, 서술자를 믿을 수 있다는 전제까지 뒤집어 그 규칙의 한계를 스스로 시험했다. 저택·열차·섬처럼 용의자를 가둘 수 있는 폐쇄 공간, 잡담 속에 숨긴 결정적 진술, 마지막 장의 집합 추리라는 조립 부품을 표준화해 이후 추리소설이 변형해 쓸 판형을 남겼다. 66편의 장편을 통해 그 판형은 대중 독자가 '추리소설'이라는 말로 떠올리는 형태 자체가 되었고, 유네스코 번역 통계에서 가장 많이 번역된 작가로 꼽힌다.",
+    "readingEntry": "agatha-christie--and-then-there-were-none",
+    "readingEntryReason": "시리즈 탐정 없이 한 권으로 완결되고 분량이 짧으며, 열 사람이 동요의 순서대로 줄어드는 구조가 크리스티의 규칙을 가장 선명하게 보여준다.",
+    "readingOrder": [
+      "agatha-christie--and-then-there-were-none",
+      "agatha-christie--the-mysterious-affair-at-styles",
+      "agatha-christie--murder-on-the-orient-express",
+      "agatha-christie--the-murder-of-roger-ackroyd"
+    ],
+    "readingWarning": "『애크로이드 살인 사건』부터 집으면 트릭이 널리 알려져 있어 효과가 반감된다. 장르의 관습을 두어 권 겪은 뒤에 읽어야 그 위반이 무엇을 건드렸는지 보인다.",
+    "difficulty": 1,
+    "difficultyReason": "문장이 짧고 사건이 대화로 굴러가 배경지식이 필요 없다. 다만 한 작품에 등장인물이 열 명 넘게 한꺼번에 나오는 편이라 이름과 알리바이를 메모하며 읽으면 훨씬 편하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--christie-an-autobiography"
+    ]
+  },
+  "works": [
+    {
+      "id": "agatha-christie--the-mysterious-affair-at-styles",
+      "titleKo": "스타일스 저택의 괴사건",
+      "titleOriginal": "The Mysterious Affair at Styles",
+      "year": 1920,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "푸아로와 화자 헤이스팅스가 함께 나오는 데뷔 장편으로, 저택 하나에 용의자를 가두고 단서를 독자에게 모두 제시한 뒤 마지막 장에서 집합 추리로 닫는 크리스티의 표준 판형이 여기서 정리된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "agatha-christie--the-mousetrap",
+      "titleKo": "쥐덫",
+      "titleOriginal": "The Mousetrap",
+      "year": 1952,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "1952년 런던 초연 이후 반세기 넘게 연속 상연된 희곡으로, 관객에게 결말을 발설하지 말 것을 요청하는 관례까지 만들며 크리스티의 수수께끼 구조가 무대에서도 작동함을 보여주었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "agatha-christie--and-then-there-were-none",
+      "titleKo": "그리고 아무도 없었다",
+      "titleOriginal": "And Then There Were None",
+      "year": 1939,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "탐정 없이 섬에 갇힌 열 사람이 동요의 순서대로 줄어드는 구조로, 크리스티의 폐쇄 공간 설계가 가장 순수한 형태로 나타난 작품이자 판매에서 가장 널리 읽히는 장편. 지금 통용되는 제목 『And Then There Were None』은 1940년 미국판 이후의 것이고, 1939년 영국 초판의 제목은 이와 다르다.",
+      "sourceIds": []
+    },
+    {
+      "id": "agatha-christie--murder-on-the-orient-express",
+      "titleKo": "오리엔트 특급 살인",
+      "titleOriginal": "Murder on the Orient Express",
+      "year": 1934,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "눈에 갇힌 침대차라는 폐쇄 공간에 국적이 제각각인 승객을 배치하고, 범인을 밝히는 일의 끝을 처벌이 아니라 정의의 선택 문제로 되돌린 대표작.",
+      "sourceIds": []
+    },
+    {
+      "id": "agatha-christie--the-murder-of-roger-ackroyd",
+      "titleKo": "애크로이드 살인 사건",
+      "titleOriginal": "The Murder of Roger Ackroyd",
+      "year": 1926,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "화자를 믿을 수 있다는 추리소설의 암묵적 전제를 서술 자체로 시험한 작품. 발표 직후 '공정한가'를 둘러싼 논쟁을 일으켰다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--arthur-conan-doyle--agatha-christie",
+      "type": "documented_influence",
+      "from": "arthur-conan-doyle (아서 코넌 도일)",
+      "to": "agatha-christie (애거사 크리스티)",
+      "evidenceLevel": "documented",
+      "summary": "크리스티는 『자서전』(1977)에서 푸아로와 헤이스팅스라는 두 인물에게 묶여 버린 시절을 돌아보며 '여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰(잽 경감)'이라고 적었다. 화자 헤이스팅스가 왓슨의 자리에 놓인 것도 이 계보에서 나왔다.",
+      "sourceIds": [
+        "src--christie-an-autobiography"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--edgar-allan-poe--agatha-christie (→ edgar-allan-poe 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "114acd5cf9c3",
+      "where": "author.facts",
+      "text": "애거사 크리스티(Agatha Christie) · 1890–1976 · en · britain-ireland"
+    },
+    {
+      "sid": "b14839c7787e",
+      "where": "author.importanceReason",
+      "text": "독자에게 단서를 모두 보여주고도 속이는 규칙을 세워 추리소설을 하나의 게임으로 만들었고, 서술자를 믿을 수 있다는 전제까지 뒤집어 그 규칙의 한계를 스스로 시험했다."
+    },
+    {
+      "sid": "8b4b744664b3",
+      "where": "author.importanceReason",
+      "text": "저택·열차·섬처럼 용의자를 가둘 수 있는 폐쇄 공간, 잡담 속에 숨긴 결정적 진술, 마지막 장의 집합 추리라는 조립 부품을 표준화해 이후 추리소설이 변형해 쓸 판형을 남겼다."
+    },
+    {
+      "sid": "fc48924d8ff7",
+      "where": "author.importanceReason",
+      "text": "66편의 장편을 통해 그 판형은 대중 독자가 '추리소설'이라는 말로 떠올리는 형태 자체가 되었고, 유네스코 번역 통계에서 가장 많이 번역된 작가로 꼽힌다."
+    },
+    {
+      "sid": "a014d43bf684",
+      "where": "author.readingEntryReason",
+      "text": "시리즈 탐정 없이 한 권으로 완결되고 분량이 짧으며, 열 사람이 동요의 순서대로 줄어드는 구조가 크리스티의 규칙을 가장 선명하게 보여준다."
+    },
+    {
+      "sid": "db7c8e390d21",
+      "where": "author.readingWarning",
+      "text": "『애크로이드 살인 사건』부터 집으면 트릭이 널리 알려져 있어 효과가 반감된다."
+    },
+    {
+      "sid": "9af8317cf64c",
+      "where": "author.readingWarning",
+      "text": "장르의 관습을 두어 권 겪은 뒤에 읽어야 그 위반이 무엇을 건드렸는지 보인다."
+    },
+    {
+      "sid": "a5456c046d7a",
+      "where": "author.difficultyReason",
+      "text": "문장이 짧고 사건이 대화로 굴러가 배경지식이 필요 없다."
+    },
+    {
+      "sid": "5aefd7dd06aa",
+      "where": "author.difficultyReason",
+      "text": "다만 한 작품에 등장인물이 열 명 넘게 한꺼번에 나오는 편이라 이름과 알리바이를 메모하며 읽으면 훨씬 편하다."
+    },
+    {
+      "sid": "79d31b02f5cc",
+      "where": "work:agatha-christie--the-mysterious-affair-at-styles.facts",
+      "text": "『스타일스 저택의 괴사건』(The Mysterious Affair at Styles) · 1920 · fiction"
+    },
+    {
+      "sid": "49b685873d15",
+      "where": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+      "text": "푸아로와 화자 헤이스팅스가 함께 나오는 데뷔 장편으로, 저택 하나에 용의자를 가두고 단서를 독자에게 모두 제시한 뒤 마지막 장에서 집합 추리로 닫는 크리스티의 표준 판형이 여기서 정리된다."
+    },
+    {
+      "sid": "a96376d2be93",
+      "where": "work:agatha-christie--the-mousetrap.facts",
+      "text": "『쥐덫』(The Mousetrap) · 1952 · drama"
+    },
+    {
+      "sid": "a2bdcaa0038e",
+      "where": "work:agatha-christie--the-mousetrap.significance",
+      "text": "1952년 런던 초연 이후 반세기 넘게 연속 상연된 희곡으로, 관객에게 결말을 발설하지 말 것을 요청하는 관례까지 만들며 크리스티의 수수께끼 구조가 무대에서도 작동함을 보여주었다."
+    },
+    {
+      "sid": "676ddd51c31f",
+      "where": "work:agatha-christie--and-then-there-were-none.facts",
+      "text": "『그리고 아무도 없었다』(And Then There Were None) · 1939 · fiction"
+    },
+    {
+      "sid": "c6f9624919fd",
+      "where": "work:agatha-christie--and-then-there-were-none.significance",
+      "text": "탐정 없이 섬에 갇힌 열 사람이 동요의 순서대로 줄어드는 구조로, 크리스티의 폐쇄 공간 설계가 가장 순수한 형태로 나타난 작품이자 판매에서 가장 널리 읽히는 장편."
+    },
+    {
+      "sid": "87b82c876593",
+      "where": "work:agatha-christie--and-then-there-were-none.significance",
+      "text": "지금 통용되는 제목 『And Then There Were None』은 1940년 미국판 이후의 것이고, 1939년 영국 초판의 제목은 이와 다르다."
+    },
+    {
+      "sid": "59ff2a425990",
+      "where": "work:agatha-christie--murder-on-the-orient-express.facts",
+      "text": "『오리엔트 특급 살인』(Murder on the Orient Express) · 1934 · fiction"
+    },
+    {
+      "sid": "ace9aca97535",
+      "where": "work:agatha-christie--murder-on-the-orient-express.significance",
+      "text": "눈에 갇힌 침대차라는 폐쇄 공간에 국적이 제각각인 승객을 배치하고, 범인을 밝히는 일의 끝을 처벌이 아니라 정의의 선택 문제로 되돌린 대표작."
+    },
+    {
+      "sid": "ccd6a1fd78a9",
+      "where": "work:agatha-christie--the-murder-of-roger-ackroyd.facts",
+      "text": "『애크로이드 살인 사건』(The Murder of Roger Ackroyd) · 1926 · fiction"
+    },
+    {
+      "sid": "8d9e0a99cf55",
+      "where": "work:agatha-christie--the-murder-of-roger-ackroyd.significance",
+      "text": "화자를 믿을 수 있다는 추리소설의 암묵적 전제를 서술 자체로 시험한 작품."
+    },
+    {
+      "sid": "0b6d15081aa9",
+      "where": "work:agatha-christie--the-murder-of-roger-ackroyd.significance",
+      "text": "발표 직후 '공정한가'를 둘러싼 논쟁을 일으켰다."
+    },
+    {
+      "sid": "81446484aa97",
+      "where": "relation:influence--arthur-conan-doyle--agatha-christie.facts",
+      "text": "아서 코넌 도일 → 애거사 크리스티 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "a33a2303ad97",
+      "where": "relation:influence--arthur-conan-doyle--agatha-christie.summary",
+      "text": "크리스티는 『자서전』(1977)에서 푸아로와 헤이스팅스라는 두 인물에게 묶여 버린 시절을 돌아보며 '여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰(잽 경감)'이라고 적었다."
+    },
+    {
+      "sid": "7fa1cc84dbd0",
+      "where": "relation:influence--arthur-conan-doyle--agatha-christie.summary",
+      "text": "화자 헤이스팅스가 왓슨의 자리에 놓인 것도 이 계보에서 나왔다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "애거사 크리스티의 생몰년은 1890–1976이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+      "quote": "15 September 1890 – 12 January 1976"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "크리스티는 66편의 장편을 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+      "quote": "66 detective novels and 14 short-story collections"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "유네스코 번역 통계에서 가장 많이 번역된 작가로 꼽힌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+      "quote": "According to UNESCO's Index Translationum, she remains the most-translated individual author."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "서술자를 믿을 수 있다는 전제를 뒤집었다 (『애크로이드 살인 사건』의 화자-범인)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd",
+      "quote": "its innovative twist ending having a significant impact on the genre",
+      "note": "화자 셰퍼드 박사가 범인임이 밝혀지는 구조 확인"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "단서를 독자에게 모두 보여주고도 속이는 규칙 — 독자가 탐정과 같은 단서를 갖는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+      "quote": "the reader would not be able to 'spot' the murderer, although having access to the same clues as the detective"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『그리고 아무도 없었다』는 시리즈 탐정 없이 완결되며 열 사람이 동요의 순서대로 줄어든다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/And_Then_There_Were_None",
+      "quote": "Ten individuals are accused of past crimes and are killed one by one according to the lines of a popular rhyme"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "『스타일스 저택의 괴사건』(1920)은 크리스티의 데뷔 장편이며 푸아로와 화자 헤이스팅스가 함께 등장한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+      "quote": "the first mystery novel by British writer Agatha Christie"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "저택 하나에 용의자를 가두고 마지막에 집합 추리로 닫는다 — 푸아로가 스타일스 저택 서재에서 해답을 밝힌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+      "quote": "Poirot delivers his solution in the Styles library",
+      "note": "무대는 에식스의 저택 Styles Court"
+    },
+    {
+      "field": "works[].titleKo",
+      "claim": "The Mysterious Affair at Styles의 한국어 제목은 『스타일스 저택의 괴사건』",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/스타일스_저택의_괴사건",
+      "quote": "스타일스 저택의 괴사건",
+      "note": "en↔ko 언어간 링크(Wikipedia API langlinks)로 확인"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "『쥐덫』은 1952년 런던에서 초연되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Mousetrap",
+      "quote": "25 November 1952 at the Ambassadors Theatre",
+      "note": "세계 초연은 1952-10-06 노팅엄 Theatre Royal, 런던 웨스트엔드 초연은 11-25"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "반세기 넘게 연속 상연되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Mousetrap",
+      "quote": "opened in London's West End in 1952 and ran continuously until 16 March 2020",
+      "note": "2020-03-16~2021-05-17 코로나로 중단 — '연속'은 1952–2020 구간에 한함"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "관객에게 결말을 발설하지 말 것을 요청하는 관례를 만들었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Mousetrap",
+      "quote": "audiences are asked not to reveal the identity of the killer to anyone outside the theatre"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "『그리고 아무도 없었다』(1939)는 판매에서 가장 널리 읽히는 장편이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/And_Then_There_Were_None",
+      "quote": "the world's best-selling mystery novel ... with more than 100 million copies sold by 2007"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "『그리고 아무도 없었다』가 번역에서도 가장 널리 읽히는 크리스티 장편이다",
+      "verdict": "unverifiable",
+      "note": "absent: 위키백과 본문·각주에 이 작품의 번역 종수/최다 번역 작품이라는 진술 없음. 유네스코 통계는 '작가' 단위 기록이다.",
+      "correction": "판매에서 가장 널리 읽히는 장편",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[].titleOriginal",
+      "claim": "1939년작의 원제(titleOriginal)는 'And Then There Were None'이다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/And_Then_There_Were_None",
+      "quote": "title_orig = Ten Little Niggers",
+      "correction": "And Then There Were None (1940년 미국판 이후의 제목 — 1939년 영국 초판 제목은 이와 다르다)",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "『오리엔트 특급 살인』(1934)은 눈에 갇힌 침대차를 무대로 하고 승객의 국적이 제각각이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+      "quote": "The elegant train of the 1930s, the Orient Express, is stopped by heavy snowfall"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "범인을 밝히는 일의 끝을 처벌이 아니라 정의의 선택 문제로 되돌린다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+      "quote": "propounds two possible solutions, and allows Bouc and Dr. Constantine to choose the best one"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "『애크로이드 살인 사건』은 1926년작이며 발표 직후 '공정한가'를 둘러싼 논쟁을 일으켰다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd",
+      "quote": "the reader will feel that he has been fairly, or unfairly, sold up",
+      "note": "1926년 The Scotsman 서평. 문서는 이 작품을 'most controversial novels'로 기술"
+    },
+    {
+      "field": "works[].significance",
+      "claim": "이 논쟁이 장르가 자기 규칙을 명문화하게 만들었다",
+      "verdict": "unverifiable",
+      "url": "https://en.wikipedia.org/wiki/Ronald_Knox",
+      "note": "absent: 녹스의 십계(1929)·탐정클럽 규약이 『애크로이드』에 대한 응답이라는 인과를 위키백과 Ackroyd/Knox 양쪽 문서 전문에서 검색했으나 없음(Ackroyd 문서에 Knox·Detection Club 언급 0회).",
+      "correction": "발표 직후 '공정한가'를 둘러싼 논쟁을 일으켰다 (1929년 녹스가 탐정소설 십계를 성문화한 것은 사실이나, 이 작품과의 인과는 출처 없음)",
+      "resolution": "removed"
+    },
+    {
+      "field": "relation:documented_influence arthur-conan-doyle → agatha-christie",
+      "claim": "크리스티 『자서전』은 1977년 간행이다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/agathachristieau0000achr",
+      "quote": "An autobiography ... 1977",
+      "note": "IA 서지 메타데이터"
+    },
+    {
+      "field": "relation:documented_influence arthur-conan-doyle → agatha-christie",
+      "claim": "크리스티가 '여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰(잽 경감)'이라고 적었다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/agatha-c-an-autobiography-by-agatha-christie",
+      "quote": "I was still writing in the Sherlock Holmes tradition—eccentric detective, stooge assistant",
+      "note": "자서전 전문(djvu.txt) 확인. 위키백과 Hercule Poirot 문서도 같은 대목을 An Autobiography 인용으로 싣는다."
+    },
+    {
+      "field": "relation:documented_influence arthur-conan-doyle → agatha-christie",
+      "claim": "그 대목은 『골프장 살인 사건』을 쓰던 때를 돌아본 것이다",
+      "verdict": "contradicted",
+      "url": "https://archive.org/details/agatha-c-an-autobiography-by-agatha-christie",
+      "quote": "Murder on the Links was slightly less in the Sherlock Holmes tradition",
+      "correction": "크리스티는 『자서전』(1977)에서 포와로와 헤이스팅스라는 두 인물에게 묶여 버린 시절을 돌아보며 '여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰(잽 경감)'이라고 적었다.",
+      "note": "해당 문단은 The Sketch 연재 푸아로 단편 의뢰 직후의 서술이고, 바로 다음 문장에서 『골프장 살인 사건』은 오히려 홈스 전통에서 '조금 벗어났다'고 말한다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation:documented_influence arthur-conan-doyle → agatha-christie",
+      "claim": "화자 헤이스팅스가 왓슨의 자리에 놓였다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/agatha-c-an-autobiography-by-agatha-christie",
+      "quote": "Hercule Poirot and his Watson, Captain Hastings",
+      "note": "크리스티 자신의 표현"
+    },
+    {
+      "field": "relation:documented_influence edgar-allan-poe → agatha-christie",
+      "claim": "줄리언 시먼스의 『Bloody Murder』는 1972년 Faber & Faber 간행이며 장르사의 표준으로 꼽힌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Julian_Symons",
+      "quote": "one of the best-known critical works in the field of crime fiction",
+      "note": "IA 서지에서 판권면 확인: London, Faber and Faber, 1972"
+    },
+    {
+      "field": "relation:documented_influence edgar-allan-poe → agatha-christie",
+      "claim": "포의 뒤팽 3부작이 괴짜 탐정과 범속한 화자라는 배치를 만들었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/C._Auguste_Dupin",
+      "quote": "the unnamed narrator of all three stories",
+      "note": "「모르그 가의 살인」(1841)·「마리 로제」(1842)·「도둑맞은 편지」(1844) 3편"
+    },
+    {
+      "field": "relation:documented_influence edgar-allan-poe → agatha-christie",
+      "claim": "『Bloody Murder』가 그 배치는 황금기 크리스티에서 완성형에 이르렀다고 반복해 다룬다",
+      "verdict": "contradicted",
+      "url": "https://books.google.com/books?id=IpaGAAAAIAAJ&q=%22Poe+was+the+founding+father%22",
+      "note": "Google Books 권내검색(id=IpaGAAAAIAAJ)으로 본문과 색인을 대봤다. 결정적 증거는 색인이다 — Poe: 15, 17, 25, 27, 34-41, 42, 55, 68, 72, 99, 110, 234 (p.256) / Christie, Agatha: 91-2, 97, 98, 117, 118-19, 140, 143, 151, 153, 187, 193, 235 (p.244). 겹치는 쪽이 하나도 없다. 황금기 두 장(‘The Golden Age: The Twenties’ 93–107, ‘The Thirties’ 108–122) 안의 포 언급 두 곳은 p.99(세이어즈가 포의 이야기를 몇 편까지 정전으로 셌는가)와 p.110(존 딕슨 카의 닥터 펠을 '포와 체스터턴'에 잇는 대목)으로, 둘 다 크리스티가 아니다. Dupin 색인도 36-7, 38-9, 41뿐(p.247). 인용문 p.42의 포 규정은 '주제를 제시한 창시자'까지이고, 그 뒤는 곧장 1850–60년대 영국 쪽 형성으로 넘어간다. IA 세 판본은 여전히 대출 제한, Google Books API는 일일 쿼터 초과 상태.",
+      "correction": "줄리언 시먼스의 『Bloody Murder』는 포를 장르의 '창시자'로 두되, 크리스티로 대표되는 고전 퍼즐 미스터리와 현대 범죄소설을 가르는 표준 장르사다 — 포의 배치가 황금기 크리스티에서 완성된다고 논하는 대목은 없다.",
+      "quote": "Poe was the founding father whose genius suggested the themes to be followed by other writers",
+      "rereadAt": "2026-09-07",
+      "resolution": "corrected"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--christie-an-autobiography": {
+      "id": "src--christie-an-autobiography",
+      "title": "An Autobiography",
+      "publisherOrInstitution": "Collins (Agatha Christie 자서전, 1977)",
+      "citation": "초기작을 두고 '나는 여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰'이라고 적은 대목 — 도일 영향의 1차 근거"
+    }
+  }
+}

@@ -1,0 +1,993 @@
+{
+ "plates": [
+  {
+   "id": "haruki-murakami",
+   "claims": [
+    {
+     "sids": [
+      "c79407d68888"
+     ],
+     "field": "author.facts",
+     "claim": "무라카미 하루키(村上春樹)는 1949년생 생존 일본 소설가다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "村上 春樹（むらかみ はるき、本名同じ、英語: Haruki  Murakami、1949年〈昭和24年〉1月12日 - ）は、日本の小説家・翻訳家。"
+    },
+    {
+     "sids": [
+      "c79407d68888"
+     ],
+     "field": "author.facts",
+     "claim": "일본어로 쓰는 작가다(언어 ja·지역 동아시아)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "村上自身によると村上の小説はあくまで日本を舞台とした日本語の「日本文学」であり、無国籍な文学を志向しているわけではないという。"
+    },
+    {
+     "sids": [
+      "d6675e91b2c6"
+     ],
+     "field": "author.importanceReason",
+     "claim": "평이한 문장으로 현실에서 비현실의 세계로 이음매 없이 넘어가는 작풍을 지녔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "このような「平易な文体で高度な内容を取り扱い、現実世界から非現実の異界へとシームレスに（＝つなぎ目なく）移動する」という作風は"
+    },
+    {
+     "sids": [
+      "0e6126e52ad4"
+     ],
+     "field": "author.importanceReason",
+     "claim": "작가는 문턱 낮은 문장이 브로티건과 보니것의 영향이라고 밝혔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "村上によれば「敷居の低さ」で「心に訴えかける」文章は、アメリカ作家のブローティガンとヴォネガットからの影響だという。"
+    },
+    {
+     "sids": [
+      "0e6126e52ad4",
+      "101f1a0b0984"
+     ],
+     "field": "author.importanceReason",
+     "claim": "작가는 1992년 버클리 강연에서 고독한 도시 생활자가 무언가를 찾다 복잡한 상황에 휘말리고, 찾았을 때 그것이 이미 손상되어 있다는 챈들러의 구도를 『양을 쫓는 모험』에 썼다고 말했다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E5%86%92%E9%99%BA",
+     "quote": "1992年11月17日にバークレーで行った講演で次のように語っている。「この小説はストラクチャーについてはレイモンド・チャンドラーの小説の影響を色濃く受けています。（中略） 僕はこの小説の中で、その小説的構図を使ってみようと思ったのです。まず第一に主人公が孤独な都市生活者であること。それから、彼が何かを捜そうとしていること。そしてその何かを捜しているうちに、様々な複雑な状況に巻き込まれていくこと。そして彼がその何かをついに見つけたときには、その何かは既に損なわれ、失われてしまっていることです。"
+    },
+    {
+     "sids": [
+      "b29887caef71"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세계의 끝과 하드보일드 원더랜드』는 서로 다른 두 세계의 장이 번갈아 진행된다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+     "quote": "作品は40章からなり、「ハードボイルド・ワンダーランド」の章と「世界の終り」の章が交互に進行し、それぞれ世界を異にする一人称視点（「私」と「僕」）で描かれる"
+    },
+    {
+     "sids": [
+      "b29887caef71"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『해변의 카프카』는 1인칭과 3인칭의 장이 번갈아 나온다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "『海辺のカフカ』（一人称と三人称が交互に現れる）"
+    },
+    {
+     "sids": [
+      "b29887caef71"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『태엽 감는 새 연대기』에서 작가의 소설로는 처음으로 전쟁 같은 거대한 폭력을 본격적으로 다뤘다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "村上の小説としては初めて、戦争等の巨大な暴力を本格的に扱っている。",
+     "note": "독립 검증: 주장 범위를 인용에 맞춰 좁혔다. 노몬한 사건은 #46(間宮中尉) 인용이 뒷받침하며 그 claim에 이 sid를 더했다."
+    },
+    {
+     "sids": [
+      "b29887caef71"
+     ],
+     "field": "author.importanceReason",
+     "claim": "이후 『해변의 카프카』에도 『태엽 감는 새 연대기』의 폭력·전쟁 주제가 이어졌다(‘부터는’)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "また本作は『ねじまき鳥クロニクル』からの暴力、戦争といったテーマが引き継がれており、生々しい残虐なシーンも同様に登場する。"
+    },
+    {
+     "sids": [
+      "1d406c2652a2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "레이먼드 카버 전집을 일본어로 번역했다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "2004年7月、『レイモンド・カーヴァー全集』全8巻の翻訳を成し遂げた。"
+    },
+    {
+     "sids": [
+      "b5acece89790",
+      "47f0f073d958"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "작가는 자신이 쓴 띠지 문구 ‘100퍼센트 연애소설’에 대해 실은 『양』·『세계의 끝』과 계열이 다른 ‘100퍼센트 리얼리즘 소설’이라고 쓰고 싶었다고 밝혔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "村上自身が書いた「100パーセントの恋愛小説」というキャッチコピーについて本人は、「僕はそのときほんとうは『これは100パーセントのリアリズム小説です』と書きたかったのだけれど（つまり『羊』や『世界の終り』とはラインが違いますということです）"
+    },
+    {
+     "sids": [
+      "0e097336f952"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "와타나베는 1960년대 말(1968년) 도쿄의 대학에 진학했다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "主人公が神戸市出身であること、大学に入学した年が村上と同じ1968年であること、東京の私立大学で演劇を専攻していること"
+    },
+    {
+     "sids": [
+      "0e097336f952"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이야기는 화자 와타나베 한 사람의 1인칭 서술로 진행된다(한 줄기)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "本作の主人公かつ語り部で、一人称は「僕」。"
+    },
+    {
+     "sids": [
+      "53ff5546eb94"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "민음사 세계문학전집판은 양억관 옮김, 2013년, 508쪽 한 권이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/5279/",
+     "quote": "옮김 양억관 출판사 민음사 | 발행일 2013년 9월 2일 | ISBN 978-89-374-6310-5 패키지 반양장 · 변형판 132x225 · 508쪽",
+     "note": "교보문고 검색 결과는 같은 ISBN을 ‘700p’로 표기해 출판사 표기(508쪽)와 다르다. 출판사 표기를 따랐다."
+    },
+    {
+     "sids": [
+      "53ff5546eb94"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 판은 지금 구입할 수 있다",
+     "verdict": "confirmed",
+     "url": "https://search.kyobobook.co.kr/search?keyword=9788937463105",
+     "quote": "민음사 · 2013년 09월 02일 10% 12,600 원 정가 14,000원",
+     "note": "2026-09-24 교보문고 ISBN 검색 결과에 판매가와 ‘장바구니’·익일 배송 안내가 표시됨."
+    },
+    {
+     "sids": [
+      "2bb975a69844",
+      "cb4336284bb7"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『바람의 노래를 들어라』는 40개의 단장과 허구를 포함한 후기로 이루어져 있다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+     "quote": "40の断章と、虚構を含むあとがきから成る。",
+     "note": "독립 검증: 페이지 본문의 각주 표시([注2]·[16] 등)만 빼고 인용과 일치."
+    },
+    {
+     "sids": [
+      "2bb975a69844"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『바람의 노래를 들어라』는 짧은 책이다(초판 201쪽)",
+     "verdict": "confirmed",
+     "url": "https://ndlsearch.ndl.go.jp/api/opensearch?title=%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91&creator=%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9&cnt=1",
+     "quote": "201p",
+     "note": "NDL OpenSearch 응답의 첫 서지(講談社, 1979.7, 서지 https://ndlsearch.ndl.go.jp/books/R100000002-I000001420260)의 dc:extent 값. 문고판은 155p."
+    },
+    {
+     "sids": [
+      "2bb975a69844"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『바람의 노래를 들어라』는 데뷔작이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "1979年、『風の歌を聴け』で群像新人文学賞を受賞してデビューする。"
+    },
+    {
+     "sids": [
+      "d50e4c129ca9"
+     ],
+     "field": "author.readingWarning",
+     "claim": "작가가 초기 두 장편을 미숙한 시절의 작품으로 평가해 오랫동안 일본 밖에서 영어판이 나오지 않았다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+     "quote": "村上自身が同2作を「自身が未熟な時代の作品」と評価していたため、長い間日本国外での英訳版の刊行は一切行われていなかった。"
+    },
+    {
+     "sids": [
+      "436daa189de8"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "하루키의 문장은 평이하다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "平易で親しみやすい文章は村上がデビュー当時から意識して行ったことであり"
+    },
+    {
+     "sids": [
+      "6dfc198fed52"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "작가는 설명하기 어려운 사건을 논리가 아니라 이야기로 받아들이라고 독자에게 권한다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "村上自身はこの「物語の難解さ」について、「論理」ではなく「物語」としてテクストを理解するよう読者に促している。"
+    },
+    {
+     "sids": [
+      "a1fc220e2f05"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『태엽 감는 새 연대기』는 세 부(세 권)로 이루어져 있다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "第2部 予言する鳥編 新潮社 1994年4月12日 書き下ろし 第3部 鳥刺し男編 新潮社 1995年8月25日 書き下ろし"
+    },
+    {
+     "sids": [
+      "a1fc220e2f05",
+      "58ab5462f1eb"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『1Q84』는 2009–2010년 세 권(BOOK 1–3)으로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/1Q84",
+     "quote": "BOOK 1 新潮社 2009年5月29日 … BOOK 3 新潮社 2010年4月16日"
+    },
+    {
+     "sids": [
+      "f431c66c4297"
+     ],
+     "field": "work:haruki-murakami--kaze-no-uta-o-kike.facts",
+     "claim": "『風の歌を聴け』는 1979년에 발표된 소설(장편)이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+     "quote": "『風の歌を聴け』 （かぜのうたをきけ） は、村上春樹が1979年に発表した1作目の長編小説。"
+    },
+    {
+     "sids": [
+      "cb4336284bb7"
+     ],
+     "field": "work:haruki-murakami--kaze-no-uta-o-kike.significance",
+     "claim": "1978년에 스물아홉 살이 된 ‘나’가 1970년 8월 8일부터 26일까지 18일 동안의 이야기를 적는 틀이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+     "quote": "当時の村上と同じく1978年に29歳になった「僕」が、1970年8月8日から8月26日までの18日間の物語を記す、という形をとり"
+    },
+    {
+     "sids": [
+      "cb4336284bb7"
+     ],
+     "field": "work:haruki-murakami--kaze-no-uta-o-kike.significance",
+     "claim": "작가의 첫 장편이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+     "quote": "村上春樹が1979年に発表した1作目の長編小説。"
+    },
+    {
+     "sids": [
+      "de7410b847b3"
+     ],
+     "field": "work:haruki-murakami--kaze-no-uta-o-kike.significance",
+     "claim": "군조 신인문학상을 받은 등단작이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "1979年4月、『群像』に応募した『風の歌を聴け』が第22回群像新人文学賞を受賞。同作品は『群像』1979年6月号に掲載され、作家デビューを果たす。"
+    },
+    {
+     "sids": [
+      "de7410b847b3"
+     ],
+     "field": "work:haruki-murakami--kaze-no-uta-o-kike.significance",
+     "claim": "‘쥐 3부작’의 첫 권이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E9%A2%A8%E3%81%AE%E6%AD%8C%E3%82%92%E8%81%B4%E3%81%91",
+     "quote": "「鼠三部作」の1作目。"
+    },
+    {
+     "sids": [
+      "dcf0f03a0782"
+     ],
+     "field": "work:haruki-murakami--hitsuji-o-meguru-boken.facts",
+     "claim": "『羊をめぐる冒険』은 1982년에 발표된 소설이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E5%86%92%E9%99%BA",
+     "quote": "文芸誌『群像』1982年8月号に掲載され、同年10月13日に講談社より単行本化された。"
+    },
+    {
+     "sids": [
+      "24c371c55e51"
+     ],
+     "field": "work:haruki-murakami--hitsuji-o-meguru-boken.significance",
+     "claim": "‘쥐 3부작’의 셋째 권이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E5%86%92%E9%99%BA",
+     "quote": "「鼠三部作」の3作目である。"
+    },
+    {
+     "sids": [
+      "24c371c55e51"
+     ],
+     "field": "work:haruki-murakami--hitsuji-o-meguru-boken.significance",
+     "claim": "노마 문예신인상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E7%BE%8A%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E5%86%92%E9%99%BA",
+     "quote": "本書により村上は第4回野間文芸新人賞（1982年）を受賞した。"
+    },
+    {
+     "sids": [
+      "71f2f6b1a6da"
+     ],
+     "field": "work:haruki-murakami--sekai-no-owari-to-hadoboirudo-wandarando.facts",
+     "claim": "『世界の終りとハードボイルド・ワンダーランド』는 1985년에 나온 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+     "quote": "村上春樹の4作目の長編小説で、1985年6月15日、新潮社より刊行された。"
+    },
+    {
+     "sids": [
+      "3f8dce42aaf4"
+     ],
+     "field": "work:haruki-murakami--sekai-no-owari-to-hadoboirudo-wandarando.significance",
+     "claim": "40개 장에서 두 세계의 장이 번갈아 진행되고 각각 ‘私’와 ‘僕’의 1인칭으로 서술된다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+     "quote": "作品は40章からなり、「ハードボイルド・ワンダーランド」の章と「世界の終り」の章が交互に進行し、それぞれ世界を異にする一人称視点（「私」と「僕」）で描かれる"
+    },
+    {
+     "sids": [
+      "18a35111647d"
+     ],
+     "field": "work:haruki-murakami--sekai-no-owari-to-hadoboirudo-wandarando.significance",
+     "claim": "작가의 첫 書き下ろし(잡지 게재 없는 단행본) 장편이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+     "quote": "著者としては初めての書き下ろし長編小説である。"
+    },
+    {
+     "sids": [
+      "18a35111647d"
+     ],
+     "field": "work:haruki-murakami--sekai-no-owari-to-hadoboirudo-wandarando.significance",
+     "claim": "다니자키 준이치로상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+     "quote": "第21回谷崎潤一郎賞を受賞した"
+    },
+    {
+     "sids": [
+      "18a35111647d"
+     ],
+     "field": "work:haruki-murakami--sekai-no-owari-to-hadoboirudo-wandarando.significance",
+     "claim": "「세계의 끝」 부분은 1980년 발표 중편 「街と、その不確かな壁」가 바탕이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E3%81%AE%E7%B5%82%E3%82%8A%E3%81%A8%E3%83%8F%E3%83%BC%E3%83%89%E3%83%9C%E3%82%A4%E3%83%AB%E3%83%89%E3%83%BB%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
+     "quote": "「世界の終り」の部分は『文學界』（1980年9月号）に発表された中編小説『街と、その不確かな壁』が基になっているが、結末は大きく異なる。"
+    },
+    {
+     "sids": [
+      "ed15d868a5f1"
+     ],
+     "field": "work:haruki-murakami--noruwei-no-mori.facts",
+     "claim": "『ノルウェイの森』은 1987년에 나온 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "1987年9月4日、講談社から書き下ろし作品として上下二分冊で刊行された。"
+    },
+    {
+     "sids": [
+      "9c8f8192d88d"
+     ],
+     "field": "work:haruki-murakami--noruwei-no-mori.significance",
+     "claim": "서른일곱 살의 와타나베가 비틀스의 「노르웨이의 숲」을 듣고 학창 시절을 회상한다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "37歳のワタナベは、ハンブルク空港に到着した飛行機のBGMでビートルズの「ノルウェイの森」を聴き、激しい混乱を覚えた。そして学生時代のことを回想した。"
+    },
+    {
+     "sids": [
+      "9c8f8192d88d"
+     ],
+     "field": "work:haruki-murakami--noruwei-no-mori.significance",
+     "claim": "나오코는 자살한 친구 기즈키의 연인이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "直子はワタナベの友人キズキの恋人だった。3人でよく遊んだが、キズキは高校3年の5月に自殺した。"
+    },
+    {
+     "sids": [
+      "9c8f8192d88d"
+     ],
+     "field": "work:haruki-murakami--noruwei-no-mori.significance",
+     "claim": "미도리는 와타나베가 도쿄의 같은 대학에서 만난 인물이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "ある日、小さなレストランで同じ大学の緑から声をかけられる。"
+    },
+    {
+     "sids": [
+      "47f0f073d958"
+     ],
+     "field": "work:haruki-murakami--noruwei-no-mori.significance",
+     "claim": "일본 누적 발행 부수가 2009년에 1000만 부를 넘었다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
+     "quote": "2009年8月5日時点の増刷で1000万3400部となり、国内累計発行部数は1000万部を突破した。",
+     "note": "독립 검증: 페이지 본문의 각주 표시([注2]·[16] 등)만 빼고 인용과 일치."
+    },
+    {
+     "sids": [
+      "da8444623502"
+     ],
+     "field": "work:haruki-murakami--noruwei-no-mori.significance",
+     "claim": "한국에서 1988년 원제 『노르웨이의 숲』으로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.nl.go.kr/NL/contents/search.do?kwd=%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4%EC%9D%98+%EC%88%B2+%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8&srchTarget=total&pageNum=1&pageSize=30",
+     "quote": "노르웨이의 숲 . 상,하 무라까미 하루끼 지음;노병식 옮김. 삼진기획 1988",
+     "note": "국립중앙도서관 소장 서지. 민음사 소개문은 “1989년 『상실의 시대』라는 제명으로 처음 출간”이라고 적어 1988년판을 빠뜨리고 있다."
+    },
+    {
+     "sids": [
+      "da8444623502"
+     ],
+     "field": "work:haruki-murakami--noruwei-no-mori.significance",
+     "claim": "한국에서 1989년 『상실의 시대』로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.nl.go.kr/NL/contents/search.do?kwd=%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4%EC%9D%98+%EC%88%B2+%EB%AC%B4%EB%9D%BC%EC%B9%B4%EB%AF%B8&srchTarget=total&pageNum=1&pageSize=30",
+     "quote": "상실의 시대 무라카미 하루키 지음;유유정 옮김 文學思想社 1989"
+    },
+    {
+     "sids": [
+      "fecccf24b2a0",
+      "febe1b6ea7ef"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.facts",
+     "claim": "『ねじまき鳥クロニクル』 제1부는 1992년 10월호부터 『신초』에 연재되었다(연도 1992는 연재 시작 기준)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "第1部 泥棒かささぎ編 新潮社 1994年4月12日 『 新潮 』1992年10月号 - 1993年8月号に掲載された。"
+    },
+    {
+     "sids": [
+      "850d7cec4da2"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.significance",
+     "claim": "오카다 도루는 법률사무소 일을 그만두고 집안일을 하고 있다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "法律事務所の下働きを辞めて日々家事を営む「僕」こと岡田亨と、雑誌編集者として働く妻・クミコの結婚生活は"
+    },
+    {
+     "sids": [
+      "850d7cec4da2"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.significance",
+     "claim": "도루는 아내에게서 사라진 고양이를 찾아 달라는 부탁을 받는다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "僕は、その電話を切った直後に、妻から電話で失踪された猫を探すように頼まれる。",
+     "note": "독립 검증: 인용은 고양이만 말하므로 주장을 좁히고, 아내 구미코를 찾는 부분은 새 claim으로 따로 확인했다."
+    },
+    {
+     "sids": [
+      "850d7cec4da2"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.significance",
+     "claim": "오카다 도루는 사라진 아내 구미코를 찾는다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "岡田亨は失踪した妻クミコを探す中で、加納マルタや本田老人といった奇妙な人物たちと出会い",
+     "note": "독립 검증에서 추가."
+    },
+    {
+     "sids": [
+      "850d7cec4da2",
+      "b29887caef71"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.significance",
+     "claim": "노몬한 사건을 기억하는 마미야 중위의 이야기가 겹쳐진다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "亨は、ノモンハン事件の記憶を持つ間宮中尉の語りを通じて、戦争の記憶や人間の心の闇に触れる。"
+    },
+    {
+     "sids": [
+      "75385d3e7e18"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.significance",
+     "claim": "작가의 소설로는 처음으로 전쟁 같은 거대한 폭력을 본격적으로 다뤘다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "村上の小説としては初めて、戦争等の巨大な暴力を本格的に扱っている。"
+    },
+    {
+     "sids": [
+      "febe1b6ea7ef"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.significance",
+     "claim": "1994–1995년 세 부의 책으로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "第2部 予言する鳥編 新潮社 1994年4月12日 書き下ろし 第3部 鳥刺し男編 新潮社 1995年8月25日 書き下ろし"
+    },
+    {
+     "sids": [
+      "febe1b6ea7ef"
+     ],
+     "field": "work:haruki-murakami--nejimakidori-kuronikuru.significance",
+     "claim": "요미우리 문학상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%98%E3%81%BE%E3%81%8D%E9%B3%A5%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB",
+     "quote": "1996年2月に第47回読売文学賞を受賞した。"
+    },
+    {
+     "sids": [
+      "6a87be0454da"
+     ],
+     "field": "work:haruki-murakami--umibe-no-kafuka.facts",
+     "claim": "『海辺のカフカ』는 2002년에 나온 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "2002年9月12日、新潮社より上下二分冊で刊行され"
+    },
+    {
+     "sids": [
+      "b238dbd29dcf"
+     ],
+     "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+     "claim": "열다섯 살 다무라 카프카는 저주를 피해 집을 나온다 — ‘아버지에게 걸린 저주’, 즉 아버지가 받은 저주로 읽히는 표현",
+     "verdict": "contradicted",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "父親から「母と交わり父を殺し、姉とも交わる」という呪いをかけられたため、家出を決意する。",
+     "correction": "아버지가 자신에게 건 저주를 피해 집을 나온",
+     "note": "원문은 아버지가 카프카에게 저주를 걸었다(父親にかけられた呪い)는 뜻이다. ‘아버지에게 걸린 저주’는 아버지가 저주받은 것으로 읽힌다. 독립 검증: correction을 이 인용이 뒷받침하는 범위로 줄였다. 바꿀 대상은 원문의 ‘아버지에게 걸린 저주를 피해 집을 나온’이다(열다섯 살·인칭·시제는 #52·#53이 뒷받침)."
+    },
+    {
+     "sids": [
+      "b238dbd29dcf"
+     ],
+     "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+     "claim": "카프카의 장은 1인칭·2인칭 현재형, 나카타의 장은 3인칭 과거형으로 번갈아 서술된다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "「僕」の章は一人称および二人称現在形、「ナカタさん」の章は三人称過去形で物語られる。"
+    },
+    {
+     "sids": [
+      "b238dbd29dcf"
+     ],
+     "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+     "claim": "주인공 다무라 카프카는 열다섯 살이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "「僕」田村カフカは東京都中野区野方に住む15歳の中学3年生である。"
+    },
+    {
+     "sids": [
+      "b238dbd29dcf"
+     ],
+     "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+     "claim": "나카타는 노인이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "ナカタもまた野方に住む、知的障害のある老人であった。"
+    },
+    {
+     "sids": [
+      "cdad93e4b606"
+     ],
+     "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+     "claim": "오이디푸스 왕 이야기와 『겐지 모노가타리』·『우게쓰 모노가타리』를 곳곳에 끌어들였다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "ギリシア悲劇のエディプス王の物語と、『源氏物語』や『雨月物語』などの日本の古典小説が物語の各所で用いられている。"
+    },
+    {
+     "sids": [
+      "cdad93e4b606"
+     ],
+     "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+     "claim": "영어판이 뉴욕 타임스의 ‘올해의 책 10권’에 뽑혔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+     "quote": "2005年にフィリップ・ガブリエルにより訳された英語版『Kafka on the Shore』は、「ニューヨーク・タイムズ」紙で年間の「ベストブック10冊」および世界幻想文学大賞に選出された。"
+    },
+    {
+     "sids": [
+      "8788e19cbbf6"
+     ],
+     "field": "work:haruki-murakami--1q84.facts",
+     "claim": "『1Q84』는 2009년에 나온 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "2009年5月、長編小説『1Q84』BOOK 1およびBOOK 2を刊行する。"
+    },
+    {
+     "sids": [
+      "815002470079"
+     ],
+     "field": "work:haruki-murakami--1q84.significance",
+     "claim": "조지 오웰의 『1984』를 토대로 가까운 과거의 소설을 쓰려 했다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/1Q84",
+     "quote": "執筆の動機として、ジョージ・オーウェルの近未来小説『1984年』を土台に、近過去の小説を書きたいと以前から思っていたが"
+    },
+    {
+     "sids": [
+      "78dd80c1df4a"
+     ],
+     "field": "work:haruki-murakami--1q84.significance",
+     "claim": "스포츠 강사이자 암살자인 아오마메와 소설가 지망생 덴고의 이야기가 번갈아 진행된다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/1Q84",
+     "quote": "BOOK1、BOOK2では、スポーツインストラクターであると同時に暗殺者としての裏の顔を持つ青豆を描いた「青豆の物語」と、予備校教師で小説家を志す天吾を主人公とした「天吾の物語」が交互に描かれる。"
+    },
+    {
+     "sids": [
+      "78dd80c1df4a"
+     ],
+     "field": "work:haruki-murakami--1q84.significance",
+     "claim": "셋째 권에는 두 사람을 뒤쫓는 우시카와의 이야기가 더해진다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/1Q84",
+     "quote": "BOOK3では2つの物語に加え、青豆と天吾を調査・探索する牛河を主人公とした「牛河の物語」が加わる。"
+    },
+    {
+     "sids": [
+      "12c23c29da4b"
+     ],
+     "field": "work:haruki-murakami--shokugyo-to-shite-no-shosetsuka.facts",
+     "claim": "『職業としての小説家』의 첫 연재는 2013년이다(연도 2013은 연재 시작 기준, 책은 2015년)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+     "quote": "第一回 小説家は寛容な人種なのか 『MONKEY』2013年10月7日発行 Vol.1"
+    },
+    {
+     "sids": [
+      "12c23c29da4b"
+     ],
+     "field": "work:haruki-murakami--shokugyo-to-shite-no-shosetsuka.facts",
+     "claim": "자전적 에세이다(장르 essay-criticism)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+     "quote": "『職業としての小説家』（しょくぎょうとしてのしょうせつか）は、村上春樹の自伝的エッセイ。"
+    },
+    {
+     "sids": [
+      "c87c3ee7ab25"
+     ],
+     "field": "work:haruki-murakami--shokugyo-to-shite-no-shosetsuka.significance",
+     "claim": "『MONKEY』 연재 에세이, 강연 원고, 새로 쓴 글로 이루어져 2015년에 책으로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+     "quote": "2015年9月10日、スイッチ・パブリッシングより刊行された。雑誌『MONKEY』に連載されたエッセイ「村上春樹私的講演録 職業としての小説家」、『考える人』に掲載された講演原稿、および書き下ろしの文章から成る。",
+     "note": "독립 검증: 페이지 본문의 각주 표시([注2]·[16] 등)만 빼고 인용과 일치."
+    },
+    {
+     "sids": [
+      "6f2324371f4c"
+     ],
+     "field": "work:haruki-murakami--shokugyo-to-shite-no-shosetsuka.significance",
+     "claim": "열두 장으로 이루어져 있다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+     "quote": "第十二回 物語があるところ・河合隼雄先生の思い出 『 考える人 』2013年夏号"
+    },
+    {
+     "sids": [
+      "6f2324371f4c"
+     ],
+     "field": "work:haruki-murakami--shokugyo-to-shite-no-shosetsuka.significance",
+     "claim": "소설가가 된 무렵, 문학상, 오리지널리티를 다룬다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+     "quote": "第二回 小説家になった頃 『MONKEY』2014年2月15日発行 Vol.2 … 第三回 文学賞について 『MONKEY』2014年6月15日発行 Vol.3 … 第四回 オリジナリティーについて"
+    },
+    {
+     "sids": [
+      "6f2324371f4c"
+     ],
+     "field": "work:haruki-murakami--shokugyo-to-shite-no-shosetsuka.significance",
+     "claim": "장편소설 쓰기와 해외 진출을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E8%81%B7%E6%A5%AD%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%B0%8F%E8%AA%AC%E5%AE%B6",
+     "quote": "第六回 時間を味方につける──長編小説を書くこと 『MONKEY』2015年6月15日発行 Vol.6 … 第七回 どこまでも個人的でフィジカルな営み … 第十一回 海外へ出て行く。新しいフロンティア",
+     "note": "인용은 목차 표의 한 연속 구간을 …로 줄인 것."
+    },
+    {
+     "sids": [
+      "79fca0794b17",
+      "fc92ac79589d"
+     ],
+     "field": "relation:affinity--haruki-murakami--banana-yoshimoto.facts",
+     "claim": "하루키와 요시모토 바나나는 반복된 2차 연구가 짝지어 다루는 친연 관계다(affinity·bidirectional·scholarly_consensus) — 한국 논문·영어 연구서·일본 연구서 세 편",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001091841",
+     "quote": "本稿で取り扱った『トニー滝谷』と『キッチン』は、それぞれ現代日本小説界を代表する作家・村上春樹とよしもとばななの小説である。",
+     "note": "영어권(Routledge 2005, OpenLibrary)과 일본(芳賀 2018, CiNii) 연구서도 두 작가를 제목에 함께 올린다 — 아래 claim 참조. 독립 검증: 이 인용이 fc92ac79589d의 ‘현대 일본 소설을 대표하는 작가’ 부분도 뒷받침하므로 sid를 더했다."
+    },
+    {
+     "sids": [
+      "1ccf21089c9f",
+      "fc92ac79589d"
+     ],
+     "field": "relation:affinity--haruki-murakami--banana-yoshimoto.summary",
+     "claim": "김용안 논문(한국)은 두 사람의 공통점으로 대중적 인기·해외 독자·현대인의 고독이라는 제재·읽기 쉬운 부드러운 문체를 든다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001091841",
+     "quote": "二人の作家は、情熱溢れる小説書きと大衆的な人気、海外からの読者の確保、現代の人々の孤独を題材とする類似性はもちろん、その読みやすい文体のソフトさと内容のクールさで、小説の消費パターンまで変えたという共通性を持っている。",
+     "note": "독립 검증: ‘현대 일본 소설을 대표하는 작가로 놓고’는 이 인용이 아니라 #67 인용이 뒷받침하므로 주장을 좁혔다."
+    },
+    {
+     "sids": [
+      "fc92ac79589d"
+     ],
+     "field": "relation:affinity--haruki-murakami--banana-yoshimoto.summary",
+     "claim": "같은 고독을 두고 『토니 타키타니』는 풍경만 제시하고 『키친』은 치유와 긍정으로 향한다고 대비한다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001091841",
+     "quote": "同じような題材の小説でも、『キッチン』ではよしもとばなな的な治癒の模索と肯定的なメッセージがある反面、『トニー滝谷』の場合、小説の中にただ孤独のある風景を提示するだけで、孤独に対するある展望やメッセージを全く与えていない。"
+    },
+    {
+     "sids": [
+      "fc92ac79589d"
+     ],
+     "field": "relation:affinity--haruki-murakami--banana-yoshimoto.summary",
+     "claim": "이 논문은 KCI 등재지 『일본문화연구』 24호(2007)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001091841",
+     "quote": "KCI 등재 하루키와 바나나의 소설 소고 A Study of Comarison between Tony Takitani and Kitchen 일본문화연구 약어 : 일본문화연구 2007 no.24, pp.331 - 351"
+    },
+    {
+     "sids": [
+      "1ccf21089c9f",
+      "5fc165087050"
+     ],
+     "field": "relation:affinity--haruki-murakami--banana-yoshimoto.summary",
+     "claim": "후미노부 무라카미의 연구서(Routledge, 2005)가 무라카미 하루키와 요시모토 바나나를 함께 다룬다(영어권)",
+     "verdict": "confirmed",
+     "url": "https://ci.nii.ac.jp/ncid/BA7245853X",
+     "quote": "Postmodern, feminist and postcolonial currents in contemporary Japanese culture : a reading of Murakami Haruki, Yoshimoto Banana, Yoshimoto Takaaki and Karatani Kōjin Murakami Fuminobu （Routledge/Asian Studies Association of Australia (ASAA) East Asia series, 8） Routledge, 2005",
+     "note": "재인용: 원래 인용은 OpenLibrary JSON의 title·subtitle 두 필드를 이어 붙인 것이고 출판사·연도(Routledge, 2005)를 담지 못했다. OpenLibrary HTML 판은 봇 확인 페이지로 막혀, 같은 책의 CiNii Books 서지(한 구간에 제목·저자·Routledge·2005)로 바꿨다. LC 레코드(https://lccn.loc.gov/2004065127/dc)도 “London ; New York : Routledge, 2005.”로 같다."
+    },
+    {
+     "sids": [
+      "1ccf21089c9f",
+      "5fc165087050"
+     ],
+     "field": "relation:affinity--haruki-murakami--banana-yoshimoto.summary",
+     "claim": "하가 다다히코(芳賀理彦)의 『アメリカは日本文化をどう読んでいるか』(2018)가 두 작가를 함께 다룬다(일본)",
+     "verdict": "confirmed",
+     "url": "https://ci.nii.ac.jp/ncid/BB2759118X",
+     "quote": "アメリカは日本文化をどう読んでいるか : 村上春樹、吉本ばなな、宮崎駿、押井守 芳賀理彦著 春風社, 2018.12"
+    },
+    {
+     "sids": [
+      "b32c8bbe4d00",
+      "8c574ac022ed"
+     ],
+     "field": "relation:translation--ursula-k-le-guin--haruki-murakami.summary",
+     "claim": "하루키는 르 귄의 『Catwings』를 『空飛び猫』(고단샤, 1993)로 옮겼다",
+     "verdict": "confirmed",
+     "url": "https://ndlsearch.ndl.go.jp/api/opensearch?isbn=4062058804",
+     "quote": "講談社,1993,4-06-205880-4 タイトル：空飛び猫 タイトル（読み）：ソラトビ ネコ 責任表示：アーシュラ・K.ル=グウィン 著,村上春樹 訳,S.D.シンドラー 絵",
+     "note": "같은 NDL 서지에 “原タイトル: Catwings”, 장르 児童図書."
+    },
+    {
+     "sids": [
+      "8c574ac022ed"
+     ],
+     "field": "relation:translation--ursula-k-le-guin--haruki-murakami.summary",
+     "claim": "『空飛び猫』의 원제는 『Catwings』다",
+     "verdict": "confirmed",
+     "url": "https://ndlsearch.ndl.go.jp/api/opensearch?isbn=4062058804",
+     "quote": "原タイトル: Catwings",
+     "note": "독립 검증에서 추가: #73 인용에는 원제가 없어 같은 NDL 서지의 원제 필드로 따로 확인했다(같은 레코드에 ‘児童図書’, ‘S.D.シンドラー 絵’)."
+    },
+    {
+     "sids": [
+      "8c574ac022ed"
+     ],
+     "field": "relation:translation--ursula-k-le-guin--haruki-murakami.summary",
+     "claim": "『帰ってきた空飛び猫』(1993)도 하루키가 옮겼다",
+     "verdict": "confirmed",
+     "url": "https://ndlsearch.ndl.go.jp/api/opensearch?isbn=4062058812",
+     "quote": "講談社,1993,4-06-205881-2 タイトル：帰ってきた空飛び猫 タイトル（読み）：カエッテキタ ソラトビネコ 責任表示：アーシュラ・K.ル=グウィン 著,村上春樹 訳"
+    },
+    {
+     "sids": [
+      "8c574ac022ed"
+     ],
+     "field": "relation:translation--ursula-k-le-guin--haruki-murakami.summary",
+     "claim": "『素晴らしいアレキサンダーと、空飛び猫たち』(1997)도 하루키가 옮겼다",
+     "verdict": "confirmed",
+     "url": "https://ndlsearch.ndl.go.jp/api/opensearch?isbn=4062081504",
+     "quote": "講談社,1997,4-06-208150-4 タイトル：素晴らしいアレキサンダーと、空飛び猫たち タイトル（読み）：スバラシイ アレキサンダー ト ソラトビネコタチ 責任表示：アーシュラ・K.ル=グウィン 著,S.D.シンドラー 絵,村上春樹 訳"
+    },
+    {
+     "sids": [
+      "8c574ac022ed"
+     ],
+     "field": "relation:translation--ursula-k-le-guin--haruki-murakami.summary",
+     "claim": "『空を駆けるジェーン』(2001)까지 연작 네 권을 옮겼다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "アーシュラ・K・ル＝グウィン 空飛び猫（1993年3月 講談社） 帰ってきた空飛び猫（1993年12月 講談社） 素晴らしいアレキサンダーと、空飛び猫たち（1997年6月 講談社） 空を駆けるジェーン 空飛び猫物語（2001年9月 講談社）",
+     "note": "NDL(https://ndlsearch.ndl.go.jp/books/R100000002-I000003028271)도 “講談社,2001”로 확인. 『帰ってきた空飛び猫』는 NDL 1993.11, 위키 1993년 12월로 월만 다르고 연도는 같다."
+    },
+    {
+     "sids": [
+      "ef88a723e1ad"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--haruki-murakami.facts",
+     "claim": "하루키가 영향받은 작가로 도스토옙스키가 기록되어 있다(documented_influence·directed·documented)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "村上は自身が特に影響を受けた作家として、スコット・フィッツジェラルド、トルーマン・カポーティ、リチャード・ブローティガン、カート・ヴォネガット、レイモンド・チャンドラーらを挙げている。このほかにフランツ・カフカ、ドストエフスキーらの作家も加わる。",
+     "note": "독립 검증: 페이지 본문의 각주 표시([注2]·[16] 등)만 빼고 인용과 일치."
+    },
+    {
+     "sids": [
+      "2c286315611b"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--haruki-murakami.summary",
+     "claim": "하루키는 인생에서 만난 가장 중요한 책 세 권으로 『위대한 개츠비』·『카라마조프 가의 형제들』·『기나긴 이별』을 꼽았다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "「これまでの人生で巡り会ったもっとも重要な本」としてフィッツジェラルドの『グレート・ギャツビー』、ドストエフスキーの『カラマーゾフの兄弟』、そしてチャンドラーの『ロング・グッドバイ』の3冊を挙げている。"
+    },
+    {
+     "sids": [
+      "2c286315611b"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--haruki-murakami.summary",
+     "claim": "이 발언은 2006년 『グレート・ギャツビー』 번역본의 역자 후기에 있다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "スコット・フィッツジェラルド 『グレート・ギャツビー』中央公論新社、2006年11月、333頁。あとがきより。",
+     "note": "위키백과 각주의 서지 표기. 역자 후기 원문은 직접 열람하지 못했다. 中央公論新社 도서 페이지(https://www.chuko.co.jp/tanko/2006/11/403504.html)는 “村上春樹が人生で巡り会った、最もたいせつな小説”이라고만 소개한다."
+    },
+    {
+     "sids": [
+      "aef641d69457"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--haruki-murakami.summary",
+     "claim": "1990년대 후반부터 ‘종합소설’을 쓰고 싶다고 말해 왔고 그 예로 『카라마조프 가의 형제들』을 든다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9",
+     "quote": "村上は1990年代後半より、しきりに「総合小説を書きたい」ということを口にしている。「総合小説」として村上はドストエフスキーの『カラマーゾフの兄弟』を引き合いに出している。"
+    },
+    {
+     "sids": [
+      "a82e40dfcd14"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.facts",
+     "claim": "하루키와 히가시노 게이고의 친연은 scholarly_consensus(신뢰할 만한 2차 연구가 반복적으로 다룸) 수준이다",
+     "verdict": "contradicted",
+     "url": "https://ndlsearch.ndl.go.jp/api/opensearch?isbn=9784909417725",
+     "quote": "母恋い : メディアと、村上春樹・東野圭吾にみる\"母性\"",
+     "correction": "무라카미 하루키 → 히가시노 게이고 · affinity · bidirectional · editorial_inference",
+     "note": "찾은 근거는 오노 마사코의 연구서 한 권과 그 책의 서평 하나뿐이다. 서평은 독립된 두 번째 연구가 아니므로 ‘반복적으로 다룬다’는 scholarly_consensus 기준(docs/relations-guide.md)에 못 미친다. affinity·bidirectional 자체는 이 연구서가 뒷받침한다."
+    },
+    {
+     "sids": [
+      "274bbfc740fd"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "오노 마사코는 비교문학(과 영국 르네상스 문학)을 전공하는 연구자다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_pdf/-char/ja",
+     "quote": "著者は比較文学︑イギリス・ルネッサンス文学を専門とする︒",
+     "note": "같은 서평은 이 책을 “研究書であるとともに一般向けとしても読みやすく”라고 평한다. 출간 2021.3은 NDL 서지(https://ndlsearch.ndl.go.jp/books/R100000002-I031331362). 독립 검증: 이 인용은 전공만 말하므로 주장을 좁히고, ‘연구서’와 ‘2021’은 새 claim으로 따로 확인했다."
+    },
+    {
+     "sids": [
+      "274bbfc740fd"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "서평자는 『母恋い』를 연구서로 평한다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_pdf/-char/ja",
+     "quote": "研究書であるとともに一般向けとしても読みやすく楽しい本である︒",
+     "note": "독립 검증에서 추가. 서평 PDF는 세로쓰기라 추출 텍스트가 행 단위로 끊긴다. 인용은 한 문장의 연속 두 행을 이은 것이다."
+    },
+    {
+     "sids": [
+      "274bbfc740fd"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "오노 마사코(大野雅子)의 『母恋い—メディアと、村上春樹・東野圭吾にみる〝母性〞』는 2021년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ndlsearch.ndl.go.jp/api/opensearch?isbn=9784909417725",
+     "quote": "PHPエディターズ・グループ,2021,978-4-909417-72-5   タイトル：母恋い : メディアと、村上春樹・東野圭吾にみる\"母性\"",
+     "note": "독립 검증에서 추가. 같은 NDL 서지에 ‘大野, 雅子 / オオノ, マサコ’, 발행 2021.3."
+    },
+    {
+     "sids": [
+      "274bbfc740fd"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "제2부에서 두 작가의 소설을 나란히 읽는다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_pdf/-char/ja",
+     "quote": "第２部﹁村上春樹・東野圭吾における〝母なるもの〟﹂は︑二人の作家の小説作品を読み解き︑",
+     "note": "서평 PDF는 세로쓰기라 추출 텍스트가 행 단위로 끊긴다. 인용은 한 단락의 연속 행을 이어 붙인 것이다."
+    },
+    {
+     "sids": [
+      "274bbfc740fd"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "무라카미에게서는 ‘잃어버린 모성’을 짚는다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_pdf/-char/ja",
+     "quote": "第２部の前半は﹁失われた〝母性〟︱村上春樹作品をめぐって﹂と題するセクションで︑",
+     "note": "서평 PDF는 세로쓰기라 추출 텍스트가 행 단위로 끊긴다. 인용은 한 단락의 연속 행을 이어 붙인 것이다."
+    },
+    {
+     "sids": [
+      "274bbfc740fd",
+      "b9aba5d094b8"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "히가시노에게서는 ‘그리움의 대상이 되는 모성’을 짚고, 『백야행』과 『환야』를 다루는 장이 있다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_pdf/-char/ja",
+     "quote": "第２部の後半は﹁恋われる〝母性〟︱東野圭吾作品をめぐって﹂であり︑第９章﹁母を恋う物語﹂で︑連作または関連作である﹃白夜行﹄と﹃幻夜﹄が取り上げられ",
+     "note": "서평 PDF는 세로쓰기라 추출 텍스트가 행 단위로 끊긴다. 인용은 한 단락의 연속 행을 이어 붙인 것이다."
+    },
+    {
+     "sids": [
+      "b9aba5d094b8"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "살인과 자기희생의 동기 밑에 부모와 유년에 대한 향수, 특히 어머니를 그리는 마음이 있다고 본다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_pdf/-char/ja",
+     "quote": "殺人や自己犠牲の動機の背後にあるものが︑男女の愛や金銭の欲望というよりは︑﹁親と幼少期に対して抱く郷愁﹂︑特に母を恋う愛なのである︒",
+     "note": "서평 PDF는 세로쓰기라 추출 텍스트가 행 단위로 끊긴다. 인용은 한 단락의 연속 행을 이어 붙인 것이다."
+    },
+    {
+     "sids": [
+      "b9aba5d094b8"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "나카무라 미하루(中村三春)의 이 책 서평이 『比較文学』 66권(2024)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_article/-char/ja/",
+     "quote": "比較文学 / 66 巻 (2023) / 書誌 書評 大野雅子著『母恋い―メディアと、村上春樹・東野圭吾にみる〝母性〞』 （ＰＨＰエディターズ・グループ、二〇二一年） 中村 三春 著者情報 中村 三春 責任著者(Corresponding author) ジャーナル フリー 2024 年 66 巻 p. 103-106",
+     "note": "재인용: 원래 인용은 서평 제목과 필자만 담고 66권·2024를 담지 못했다(원래 note에만 있었다). 같은 페이지의 연속 구간으로 바꿨다. 이 구간의 ‘66 巻 (2023)’은 권의 연도 표기이고 같은 페이지의 발행일은 2024/03/31이다. 학회명은 새 claim에서 확인."
+    },
+    {
+     "sids": [
+      "b9aba5d094b8"
+     ],
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.summary",
+     "claim": "『比較文学』는 일본비교문학회가 편집·발행한다",
+     "verdict": "confirmed",
+     "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_article/-char/ja/",
+     "quote": "編集・発行 日本比較文学会",
+     "note": "독립 검증에서 추가."
+    }
+   ],
+   "noClaim": {
+    "72c8e01eaab5": "관계의 근거 성격(직접 교류가 근거가 아님)을 밝히는 편집 메타 문장으로, 외부 사실 주장이 아니다."
+   }
+  }
+ ],
+ "check": {
+  "kept": 84,
+  "requoted": 2,
+  "downgraded": 0,
+  "added": 5,
+  "noClaimConverted": 0
+ }
+}

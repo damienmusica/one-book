@@ -1,0 +1,32 @@
+{
+  "fixes": [
+    {
+      "id": "annie-ernaux",
+      "importanceReason": "자기 삶을 문학적 수식 없이 사회학의 자료처럼 기록해, 자서전을 한 계급과 한 세대의 기록으로 넓혔다. 노동자에서 소상인이 된 부모와 교사이자 작가가 된 딸 사이의 거리를 쓰기 위해 넷째 책 『남자의 자리』부터 은유도 감정의 표지도 없는 '평평한' 문장을 택하고 소설이라는 장르와 결별했으며, 폭력이 문체가 아니라 사실 자체에서 드러나게 했다. 『세월』에서는 '나'를 지우고 '그녀'와 '우리'의 목소리로 자기 생애를 프랑스 사회 60여 년의 변화와 겹쳐 썼다. 2022년 노벨문학상을 받았다.",
+      "dropRelations": [
+        "influence--jean-jacques-rousseau--annie-ernaux",
+        "influence--albert-camus--annie-ernaux"
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "『세월』이 다루는 60여 년은 '전후' 시기다",
+          "resolution": "narrowed",
+          "evidence": "반박된 것은 '전후'뿐이다(서술은 점령기인 1941년에 시작한다). 문장에서 '전후'를 빼 「자기 생애를 프랑스 사회 60여 년의 변화와 겹쳐 썼다」로 좁혔다. 60여 년은 #14 인용 'Le roman brasse 60 ans d'histoire commune'이 받친다. 교정문의 연도(1941~2006)를 넣으면 문장이 길어져 넣지 않았다."
+        },
+        {
+          "field": "relation:influence--jean-jacques-rousseau--annie-ernaux.facts",
+          "claim": "루소 → 에르노 직접 영향(documented_influence · documented)",
+          "resolution": "relation-dropped",
+          "evidence": "인용이 받치는 것은 강연에서 루소 『고백록』 첫 서문을 인용하고 '그 평민의 자부심이 나를 움직인 것은 아니었다'고 말한 것까지다. 직접 영향을 밝힌 에르노 자신의 기록이 없어 documented_influence의 근거가 무너졌다. 이 도구로는 유형을 affinity로 바꿀 수 없어 선을 지웠다. 보부아르·프루스트 관계가 남는다."
+        },
+        {
+          "field": "relation:influence--albert-camus--annie-ernaux.facts",
+          "claim": "카뮈 → 에르노 직접 영향(documented_influence · documented)",
+          "resolution": "relation-dropped",
+          "evidence": "인용이 받치는 것은 강연에서 카뮈의 「긍정과 부정의 사이」를 출신 세계 언어의 예로 들며 '매우 아름다운 글'이라 부르고, 『이방인』을 우연히 읽은 책 목록에 넣은 것까지다. 영향의 진술이 아니어서 documented_influence의 근거가 무너졌다. 이 도구로는 유형을 affinity로 바꿀 수 없어 선을 지웠다. 보부아르·프루스트 관계가 남는다."
+        }
+      ]
+    }
+  ]
+}

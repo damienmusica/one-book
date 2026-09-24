@@ -1,0 +1,746 @@
+{
+ "plates": [
+  {
+   "id": "kim-hoon",
+   "claims": [
+    {
+     "sids": [
+      "13ec85585fb1"
+     ],
+     "field": "author.facts",
+     "claim": "김훈은 1948년에 태어났다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "김훈은 1948년 서울에서 태어났다."
+    },
+    {
+     "sids": [
+      "13ec85585fb1"
+     ],
+     "field": "author.facts",
+     "claim": "김훈은 생존 중인(몰년 없는) 대한민국 소설가로 한국어로 쓴다(ko · east-asia)",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%9B%88_(%EC%86%8C%EC%84%A4%EA%B0%80)",
+     "quote": "출생 1948년 5월 5일 ( 1948-05-05 ) (78세) … 국적 대한민국 언어 한국어 직업 소설가",
+     "note": "재인용: 원 인용(한국문학번역원 「김훈(1948~)은 대한민국의 소설가다」)은 한국어로 쓴다는 점을 담지 못한다. 같은 청구의 전부(생존·국적·언어·소설가)를 담는 한국어 위키백과 정보상자로 바꿨다(2026-09-24 조회, 나이 78세 표기)."
+    },
+    {
+     "sids": [
+      "f7897cf584e9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "소설을 발표하기 전 스무 해 넘게 기자로 일했다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "He worked as a journalist for over 20 years before he started publishing novels",
+     "note": "기자 경력에는 한국일보·국민일보·한겨레 등 신문 외에 주간지 『시사저널』도 포함된다(예스24 약력)."
+    },
+    {
+     "sids": [
+      "f7897cf584e9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1994년 첫 장편 『빗살무늬토기의 추억』을 『문학동네』에 연재했다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "1994년 첫 장편소설인 《빗살무늬토기의 추억》을 《문학동네》에 연재했고"
+    },
+    {
+     "sids": [
+      "f7897cf584e9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "첫 장편을 발표해 등단한 것은 마흔일곱 살 때다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%9B%88_(%EC%86%8C%EC%84%A4%EA%B0%80)",
+     "quote": "1994년 겨울, 문예지 《 문학동네 》 창간호와 1995년 봄호에 장편소설《 빗살무늬토기의 추억 》을 발표(2회 분재)하며, 47세의 나이로 문단에 데뷔했다.",
+     "note": "47세는 한국식 나이다(1948년 5월생, 1994년 겨울 발표)."
+    },
+    {
+     "sids": [
+      "f7897cf584e9",
+      "bdcfb3f33bcd"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『칼의 노래』에서 김훈은 역사 인물이 1인칭으로 자기 내면을 드러내는 서술을 택했다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "First, in writing Song of the Sword , Kim Hoon took the form of the historical novel … Instead of letting himself, the author, tell the story about people from the past, Kim chose the first-person narrative through which a historical figure reveals his interior feelings and thoughts.",
+     "note": "재인용: 원 인용은 작품 이름도 이순신도 말하지 않고 \"a historical figure\"라고만 한다. 같은 단락 앞머리를 붙여 『칼의 노래』를 담고, 청구를 인용이 담는 범위로 좁혔다. 화자가 이순신 자신이라는 부분은 \"The first-person narrator of Song of the Sword is Admiral Yi himself\" 청구가 같은 문장 sid로 맡는다."
+    },
+    {
+     "sids": [
+      "a40e551124fa"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『칼의 노래』에서 김훈은 궁중 배경의 낭만적 영웅담과 민중사관 역사소설이라는 기존 역사소설의 두 유형을 모두 넘어서려 했다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "First, in writing Song of the Sword , Kim Hoon took the form of the historical novel, but adopted a style and construction completely different from those of other Korean historical novels that had come before it. Kim categorized the historical novels of preceding generations into two types – romantic historical novels set in the royal court, and populist historical novels that center around common people – and aimed at overcoming both.",
+     "note": "재인용: 원 인용은 『칼의 노래』라는 이름을 담지 못한다. 같은 단락 첫 문장부터 인용했다."
+    },
+    {
+     "sids": [
+      "a40e551124fa"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『칼의 노래』는 전쟁서사 대신 한계상황에 놓인 이순신의 고독과 불안을 썼다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "장편소설 《칼의 노래》(2001)는 그간 이순신에 대한 소설에서 빠지지 않았던 진부한 전쟁서사를 버리고, 한계상황에서 무너지려했던 이순신의 고독하고 불안한 내면을 김훈 특유의 문체로 예리하게 묘파한 작품이다."
+    },
+    {
+     "sids": [
+      "74e9261437cd",
+      "1a2730685b3f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『칼의 노래』·『현의 노래』·『남한산성』은 역사적 순간을 산 개인의 내면에 초점을 둔 소설이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/11935986",
+     "quote": "『칼의 노래』 『현의 노래』 『남한산성』과 같이 역사적 순간들을 살아갔던 개인의 내면에 초점을 둔 그의 주요작품들은 ‘비역사성을 품은 역사소설’이라 회자되며"
+    },
+    {
+     "sids": [
+      "74e9261437cd",
+      "8d519a4e5aba"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『현의 노래』는 가야금 명인 우륵을 소재로 한 소설이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "가야금의 명인 우륵의 이야기를 소재로 삼은 《현의 노래》(2004)"
+    },
+    {
+     "sids": [
+      "74e9261437cd"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『흑산』은 정약전과 황사영의 내면을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "김훈의 신작 장편소설 『흑산』은 18세기 말과 19세기 초 조선 사회의 전통과 충돌한 정약전, 황사영 등 지식인들의 내면 풍경을 다룬다."
+    },
+    {
+     "sids": [
+      "74e9261437cd"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『하얼빈』은 안중근의 내면에 초점을 둔다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "작가는 《하얼빈》에서 안중근에게 드리워져 있던 영웅의 그늘을 걷어내고, 난세를 헤쳐가야 하는 운명을 마주한 미약한 인간의 내면에 집중하여"
+    },
+    {
+     "sids": [
+      "8e2e72225a56"
+     ],
+     "field": "author.importanceReason",
+     "claim": "김훈은 형용사와 부사를 덜어낸 문장을 쓴다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/126845471",
+     "quote": "글 쓰는 이와 모국어 사이의 간극을 더욱 벌리는 허약한 품사를 과감히 쳐 내고, 사물을 향해서 “빙빙 돌아가지 말고 바로 달려들”기 위함이다. “쓰이기를 원하는 것들과 남에게 말할 만한 가치가 있다고 생각되는 것들이 속에서 부글거리는 날에는 더욱 문장의 고삐를 단단히 틀어쥐어야 한다. 이런 날에는 형용사와 부사가 끼어들고",
+     "note": "출판사 소개와 산문 「형용사와 부사를 생각함」 인용. 작가 스스로 밝힌 원칙이다."
+    },
+    {
+     "sids": [
+      "8e2e72225a56"
+     ],
+     "field": "author.importanceReason",
+     "claim": "김훈은 주어와 동사를 앞세운 문장으로 알려져 있다",
+     "verdict": "contradicted",
+     "url": "https://www.m-joongang.com/news/articleView.html?idxno=340146",
+     "quote": "‘생활은 크구나’ 라고 글자 6개를 내가 썼어요. 그냥 주어와 술어로 군더더기 없이.",
+     "correction": "작가는 자기가 쓴 한 구절(‘생활은 크구나’)을 두고 “그냥 주어와 술어로 군더더기 없이” 썼다고 말한 적이 있다.",
+     "note": "\"주어와 동사를 앞세운 문장으로 알려져 있다\"는 평판을 그대로 말하는 출처는 찾지 못했다. 찾은 것은 작가 자신의 발언(월간중앙, 한 구절에 대한 말)과 『허송세월』 「말년」의 \"주어와 술어 사이가 휑하니 비면 문장은 들떠서\" 정도다. (재검: 원 correction \"군더더기 없이 주어와 술어로 쓴다고 말한 바 있다\"는 한 구절에 대한 말을 작법 일반으로 넓혀 인용이 받치지 못한다. 인용 범위로 좁혔다.)"
+    },
+    {
+     "sids": [
+      "c03f7d978632"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『하얼빈』 문학동네판은 308쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "308쪽 | 400g | 128*188*20mm ISBN13 9788954699914"
+    },
+    {
+     "sids": [
+      "c03f7d978632"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『하얼빈』 문학동네판의 소설 본문은 280쪽 남짓이다",
+     "verdict": "contradicted",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "하얼빈 _007 후기·주석 _281 작가의 말│포수, 무직, 담배팔이 _301",
+     "correction": "문학동네판 308쪽 가운데 소설 본문은 7쪽부터 280쪽까지 270쪽 남짓이라",
+     "note": "본문이 280쪽에서 끝나므로 분량은 274쪽이다. \"280쪽 남짓\"은 280쪽을 넘는다는 뜻이 되어 틀린다."
+    },
+    {
+     "sids": [
+      "c03f7d978632"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『칼의 노래』(문학동네판)는 400쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/11935986",
+     "quote": "400쪽 | 480g | 128*188*30mm ISBN13 9788954623360",
+     "note": "2014년 1월 15일 발행 문학동네 양장판 기준."
+    },
+    {
+     "sids": [
+      "c03f7d978632"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『흑산』(학고재판)은 416쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "416쪽 | 414g | 128*188*30mm ISBN13 9788956251622"
+    },
+    {
+     "sids": [
+      "c03f7d978632",
+      "63503aaa219e"
+     ],
+     "field": "work:kim-hoon--haeolbin.significance",
+     "claim": "『하얼빈』은 안중근이 이토 히로부미를 저격한 순간과 그 전후의 시간에 집중한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "『하얼빈』은 안중근이 이토 히로부미를 저격한 순간과 그 전후의 시간에 집중해"
+    },
+    {
+     "sids": [
+      "559a36903f4f"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『하얼빈』 끝에는 후기와 주석이 붙어 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "하얼빈 _007 후기·주석 _281 작가의 말│포수, 무직, 담배팔이 _301",
+     "note": "후기·주석 뒤에 「작가의 말」도 따로 붙어 있다."
+    },
+    {
+     "sids": [
+      "11f33f56c06e",
+      "1d680ac7a394"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『하얼빈』은 『칼의 노래』처럼 알려진 영웅의 그늘을 걷어내고 흔들리는 한 사람의 내면을 쓴다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "『칼의 노래』가 명장으로서 이룩한 업적에 가려졌던 이순신의 요동하는 내면을 묘사했다면 『하얼빈』은 안중근에게 드리워져 있던 영웅의 그늘을 걷어내고 그의 가장 뜨겁고 혼란스러웠을 시간을 현재에 되살려놓는다."
+    },
+    {
+     "sids": [
+      "2221df63383d"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『하얼빈』(예스24 상품 페이지의 판)은 지금 판매 중이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "판매중 수량 수량감소 수량증가 카트에 넣기 바로구매",
+     "note": "2026-09-24 예스24 조회 기준. 이 판이 2022년 문학동네판이라는 부분은 추가한 청구가 따로 받친다."
+    },
+    {
+     "sids": [
+      "2221df63383d"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "예스24에서 판매 중인 『하얼빈』은 2022년 문학동네판이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "하얼빈 [ 양장 ] 김훈 저 | 문학동네 | 2022년 08월 03일",
+     "note": "검수 추가: 원 청구의 인용(\"판매중 수량…\")은 판의 연도와 출판사를 담지 못해 별도 청구로 받쳤다. 2026-09-24 조회."
+    },
+    {
+     "sids": [
+      "fa7364af9e9a",
+      "ffa662be2265"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『칼의 노래』는 이순신 소설에 빠지지 않던 전쟁서사를 버렸다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/11935986",
+     "quote": "『칼의 노래』는 그간 이순신을 그려낼 때 빠지지 않았던 진부한 전쟁서사를 버리고"
+    },
+    {
+     "sids": [
+      "ffa662be2265"
+     ],
+     "field": "author.readingWarning",
+     "claim": "기존 역사소설의 틀에서 벗어난 것은 작가가 의도한 것이다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "Such controversy, in fact, was what Kim had intended. It is true that Kim wanted to write a modern novel that delved deep into the interiors of an individual, freeing himself from the fixed form of the historical novel."
+    },
+    {
+     "sids": [
+      "ffa662be2265"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『칼의 노래』는 전쟁 바깥의 상황이 낳은 이순신의 고뇌를 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/11935986",
+     "quote": "김훈은 전쟁터에서 명예롭게 죽고자 하는 무인 이순신이 정작 전쟁 외의 상황 때문에 겪었을 인간적인 고뇌를 사실적으로 그려낸다."
+    },
+    {
+     "sids": [
+      "d84643b4eece",
+      "af547f5cc134",
+      "0ae0facf0d94"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『흑산』은 등장인물이 스무 명을 넘어 김훈 소설 가운데 가장 많다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "『흑산』의 등장인물들은 20여 명이 넘는다. 이 또한 김훈 소설 가운데 최다 등장인물이다."
+    },
+    {
+     "sids": [
+      "0ae0facf0d94"
+     ],
+     "field": "work:kim-hoon--heuksan.significance",
+     "claim": "『흑산』에는 조정·양반부터 마부·어부·노비까지 여러 계층의 인물이 나온다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "정약전과 황사영의 이야기를 한 축으로, 조정과 양반 지식인, 중인, 하급 관원, 마부, 어부, 노비 등 각 계층의 생생한 캐릭터들이 엮어가는 이야기가"
+    },
+    {
+     "sids": [
+      "a0a97120f904"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "김훈의 문장은 짧고 단정하다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "특유의 간결하고 단정한 문장으로 연약한 존재들의 삶을 펼쳐낸다."
+    },
+    {
+     "sids": [
+      "a0a97120f904"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "김훈의 소설에는 옛 어휘가 많다",
+     "verdict": "unverifiable",
+     "note": "한국문학번역원 작가 소개, 예스24 『남한산성』·『흑산』 책소개, KLN 인터뷰에서 옛 어휘가 많다는 서술은 찾지 못했다. 『남한산성』 개정판과 『흑산』에 낱말풀이가 붙어 있다는 사실만 확인했다."
+    },
+    {
+     "sids": [
+      "a0a97120f904"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『남한산성』 개정판에는 낱말풀이가 부록으로 붙어 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/43631898",
+     "quote": "부록 ― 남한산성 지도 / 남한산성 지도 설명 / 대륙, 명에서 청으로 / 남한산성, 겨울에서 봄으로 / 낱말풀이"
+    },
+    {
+     "sids": [
+      "c7da58f1db62"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『칼의 노래』를 두고 소설보다 에세이에 가깝다는 비평이 나왔다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "The nihilism in Song of the Sword stirred up a heated controversy among critics. One pointed out that the novel lacked the historicity required for it to be regarded as a historical novel in the true sense of the word, that it was closer to an essay than a novel",
+     "note": "재인용: 원 인용의 \"the novel\"이 『칼의 노래』임을 인용 안에서 보이도록 같은 단락 첫 문장부터 인용했다."
+    },
+    {
+     "sids": [
+      "4ac447822232"
+     ],
+     "field": "work:kim-hoon--karui-norae.facts",
+     "claim": "『칼의 노래』는 2001년에 나온 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/originalworks/102716",
+     "quote": "2001년에 출간된 김훈의 장편소설이다. 같은 해 동인문학상을 수상했다."
+    },
+    {
+     "sids": [
+      "12c8310c96f3",
+      "451fcaaba073",
+      "ba255ffe8349",
+      "430f37e0660c",
+      "12950a7b00ba"
+     ],
+     "field": "work:kim-hoon--hyeonui-norae.facts",
+     "claim": "『현의 노래』(2004), 『남한산성』(2007), 『흑산』(2011), 『공터에서』(2017), 『하얼빈』(2022)은 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "2) 장편소설 《빗살무늬토기의 추억》, 문학동네, 1994. 《칼의 노래》, 문학동네, 2001. 《현의 노래》, 문학동네, 2004. 《개》, 푸른숲, 2005.(개정판, 2021). 《남한산성》, 학고재, 2007(개정판, 2017). 《공무도하》, 문학동네, 2009. 《내 젊은 날의 숲》, 문학동네, 2010. 《흑산》, 학고재, 2011. 《공터에서》, 해냄, 2017. 《달 너머로 달리는 말》, 파람북, 2020. 《하얼빈》, 문학동네, 2022.",
+     "note": "『현의 노래』 초판은 2004년 생각의나무판이고, 이 목록의 출판사 표기는 뒤의 문학동네판(2012)이다. 연도 2004는 맞다."
+    },
+    {
+     "sids": [
+      "78a5b422a863"
+     ],
+     "field": "work:kim-hoon--jajeongeo-yeohaeng.facts",
+     "claim": "『자전거 여행』은 2000년에 나온 산문(수필)집이다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "3) 수필집 《선택과 옹호》, 미학사, 1991. 《풍경과 상처》, 문학동네, 1994. 《자전거 여행》, 생각의나무, 2000."
+    },
+    {
+     "sids": [
+      "bdcfb3f33bcd"
+     ],
+     "field": "work:kim-hoon--karui-norae.significance",
+     "claim": "『칼의 노래』는 이순신이 옥에서 풀려나 삼도수군통제사를 맡은 정유년부터 노량해전에서 전사하기까지를 다룬다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/11935986",
+     "quote": "『칼의 노래』(2007)는 이순신이 임금의 명을 거부했다는 죄로 옥고를 치르다가 전세가 기울자 풀려나 삼도수군통제사를 맡게 된 정유년부터, 노량해전에서 적탄을 맞아 영면하기까지 겪은 사건들을 담고 있다."
+    },
+    {
+     "sids": [
+      "bdcfb3f33bcd",
+      "f7897cf584e9"
+     ],
+     "field": "work:kim-hoon--karui-norae.significance",
+     "claim": "『칼의 노래』의 1인칭 화자는 이순신 자신이다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "The first-person narrator of Song of the Sword is Admiral Yi himself"
+    },
+    {
+     "sids": [
+      "4eb6d54ea3d7"
+     ],
+     "field": "work:kim-hoon--karui-norae.significance",
+     "claim": "『칼의 노래』는 전쟁의 경과보다 선조의 실정이 낳은 불안, 명의 비위를 맞춰야 하는 약소국의 한, 가족을 구하지 못한 슬픔을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/11935986",
+     "quote": "선조의 실정(失政)에 의한 불안, 강대국인 명의 비위를 맞추며 나라를 지켜내야 하는 약소국의 한(恨), 한 사람의 가장으로서 가족을 구하지 못한 그의 슬픔 등이 전쟁의 경과보다 더욱 세세하게 밝혀진다."
+    },
+    {
+     "sids": [
+      "c024518753d0"
+     ],
+     "field": "work:kim-hoon--karui-norae.significance",
+     "claim": "『칼의 노래』는 2001년 동인문학상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/originalworks/102716",
+     "quote": "2001년에 출간된 김훈의 장편소설이다. 같은 해 동인문학상을 수상했다."
+    },
+    {
+     "sids": [
+      "c024518753d0"
+     ],
+     "field": "work:kim-hoon--karui-norae.significance",
+     "claim": "『칼의 노래』는 한국에서 백만 부 넘게 팔렸다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "Song of the Sword not only sold over a million copies in Korea but also garnered its author the prestigious Dongin Literary Award"
+    },
+    {
+     "sids": [
+      "8d519a4e5aba"
+     ],
+     "field": "work:kim-hoon--hyeonui-norae.significance",
+     "claim": "『현의 노래』는 우륵을 통해 무너져 가는 가야의 현실과 칼의 길과 악기의 길이 다르지 않음을 보여준다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/6185208",
+     "quote": "김훈의 손끝에서 태어난 예인 우륵의 한때는, 작가 특유의 유려하고 밀도 높은 언어를 통해, 처참히 무너져내리는 가야국의 현실과 칼의 길과 악기의 길이 다르지 않음을 보여준다."
+    },
+    {
+     "sids": [
+      "8d519a4e5aba"
+     ],
+     "field": "work:kim-hoon--hyeonui-norae.significance",
+     "claim": "『현의 노래』는 소리와 쇠를 함께 다룬다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/6185208",
+     "quote": "작품 안에서 작가는 삶과 죽음이 ‘소리의 고향을 찾아가는 길’이라 말하며, 그 과정에서 소리가 머무는 울림판으로 쇠를 논한다."
+    },
+    {
+     "sids": [
+      "1a2730685b3f"
+     ],
+     "field": "work:kim-hoon--hyeonui-norae.significance",
+     "claim": "『현의 노래』는 천오백 년 전의 예인을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/6185208",
+     "quote": "『현의 노래』는 21세기의 소설가 김훈이 불러낸 천오백 년 전 칼과 악기의 ‘소리’다."
+    },
+    {
+     "sids": [
+      "ee212c605176"
+     ],
+     "field": "work:kim-hoon--namhansanseong.significance",
+     "claim": "『남한산성』은 1636년 병자년 겨울 청군에 에워싸인 남한산성을 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/43631898",
+     "quote": "1636년 병자년 겨울. 청나라 10여만 대군이 남한산성을 에워싸고, 조선은 삶과 죽음의 기로에 놓인다."
+    },
+    {
+     "sids": [
+      "ee212c605176"
+     ],
+     "field": "work:kim-hoon--namhansanseong.significance",
+     "claim": "척화파와 주화파가 47일 동안 맞선다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/43631898",
+     "quote": "쓰러진 왕조의 들판에 대의는 꽃처럼 피어날 것이라는 척화파와 삶의 영원성은 치욕을 덮어서 위로해줄 것이라는 주화파. 그들은 47일 동안 칼날보다 서슬 푸르게 맞선다."
+    },
+    {
+     "sids": [
+      "ee212c605176"
+     ],
+     "field": "work:kim-hoon--namhansanseong.significance",
+     "claim": "산성에 갇힌 인조의 조정과 민초들의 삶이 함께 엮인다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/43631898",
+     "quote": "병자호란 당시 남한산성에 갇힌 무기력한 인조와 그 앞에서 벌어진 주전파와 주화파의 다툼, 그리고 꺼져가는 조국의 운명 앞에서 고통 받는 민초들의 삶이 소설의 씨줄과 날줄을 이룬다."
+    },
+    {
+     "sids": [
+      "ee212c605176"
+     ],
+     "field": "work:kim-hoon--namhansanseong.significance",
+     "claim": "대장장이 서날쇠, 어린 계집 나루 같은 역사에 오르지 않은 인물이 나온다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/43631898",
+     "quote": "역사에 오르지 않은 등장인물은 더욱 흥미롭다. 보기 드문 리얼리스트인 대장장이 서날쇠, 김상헌의 칼에 쓰러진 송파나루의 뱃사공, 적진을 뚫고 안개처럼 산성에 스며든 어린 계집 나루 등은"
+    },
+    {
+     "sids": [
+      "46c973abe474"
+     ],
+     "field": "work:kim-hoon--namhansanseong.significance",
+     "claim": "작가는 화친파도 척화파도 아닌 고통받는 사람들의 편이라고 말했다",
+     "verdict": "confirmed",
+     "url": "https://kln.or.kr/frames/interviewsView.do?bbsIdx=1324",
+     "quote": "Upon publication of Fortress on Mt. Namhan , Kim Hoon, wary of politically- inclined readings of his work, commented, … Then he cautiously added, … I am neither on the side of the advocates of peace or the advocates of war, but on the side of those in pain.",
+     "note": "재인용: 원 인용은 누가 어느 작품을 두고 한 말인지 담지 못한다. 같은 단락에서 『남한산성』 출간 때 김훈의 발언임을 보이는 앞부분을 붙였다."
+    },
+    {
+     "sids": [
+      "b03057f95074"
+     ],
+     "field": "work:kim-hoon--namhansanseong.significance",
+     "claim": "『남한산성』은 대산문학상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/678",
+     "quote": "2007 대산문학상 제15회 『남한산성』"
+    },
+    {
+     "sids": [
+      "b03057f95074"
+     ],
+     "field": "work:kim-hoon--namhansanseong.significance",
+     "claim": "『남한산성』은 2017년 황동혁 감독의 영화가 됐다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Fortress_(2017_film)",
+     "quote": "The Fortress ( Korean : 남한산성 ) is a 2017 South Korean epic historical drama film directed by Hwang Dong-hyuk , starring Lee Byung-hun and Kim Yoon-seok . It is based on the novel Namhansanseong by Kim Hoon ."
+    },
+    {
+     "sids": [
+      "aee2c3895190"
+     ],
+     "field": "work:kim-hoon--heuksan.significance",
+     "claim": "『흑산』은 1801년 신유박해를 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "황사영은 1801년 신유박해가 터짐과 동시에 서울을 빠져 나와 충청도 제천 산골 배론으로 숨어든다."
+    },
+    {
+     "sids": [
+      "aee2c3895190"
+     ],
+     "field": "work:kim-hoon--heuksan.significance",
+     "claim": "정약전과 황사영의 삶과 죽음이 소설의 두 축이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "작가 김훈은 천주교에 연루된 정약전과 그의 조카사위이자 조선 천주교회 지도자인 황사영의 삶과 죽음에 방점을 찍고 『흑산』을 전개한다."
+    },
+    {
+     "sids": [
+      "aee2c3895190"
+     ],
+     "field": "work:kim-hoon--heuksan.significance",
+     "claim": "정약전은 흑산에 유배되어 물고기를 들여다보았다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "그는 유배지 흑산 바다에서 눈앞의 물고기를 들여다보며 실증적인 어류생태학 서적 '자산어보'를 썼다."
+    },
+    {
+     "sids": [
+      "aee2c3895190"
+     ],
+     "field": "work:kim-hoon--heuksan.significance",
+     "claim": "정약전은 유배지에서 죽었다",
+     "verdict": "confirmed",
+     "url": "https://namyangju.grandculture.net/namyangju/toc/GC08901388",
+     "quote": "정약전 도 1801년(순조 1) 신유사옥으로 신지도(薪智島)에 유배되었다. … 흑산도(黑山島)에 다시 유배되었다. … 유배 초기에는 당시 ‘내흑산(內黑山)’이라 불리던 우이도(牛耳島)에서 지내다가 흑산도로 옮겼다. 이후 정약용 이 해배된다는 소식을 듣고는 다시 우이도로 나왔으나 정약용 을 만나지 못하고 1816년(순조 16) 우이도에서 사망하였다.",
+     "note": "재인용: 원 인용은 우이도가 유배지였다는 점을 담지 못한다. 같은 단락의 유배 경위를 붙였다. / 같은 항목에 따르면 우이도는 당시 ‘내흑산(內黑山)’이라 불렸다. 흑산도 본섬이 아니라 우이도에서 죽었다."
+    },
+    {
+     "sids": [
+      "aee2c3895190"
+     ],
+     "field": "work:kim-hoon--heuksan.significance",
+     "claim": "황사영은 북경 교회에 보내는 백서를 썼다가 능지처참됐다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/5802530",
+     "quote": "조정의 체포망을 피해 숨은 제천 배론 산골에서 그는 ‘황사영 백서’로 알려진, 북경 교회에 보내는 편지를 썼다. … 그리고 1801년 11월 배론 토굴에서 사로잡힌 그는 ‘대역부도’의 죄명으로 능지처참된다."
+    },
+    {
+     "sids": [
+      "f2d51dc261c3"
+     ],
+     "field": "work:kim-hoon--gongteoeseo.significance",
+     "claim": "『공터에서』는 아버지 마동수와 아들들의 삶을 통해 1920년대부터 1980년대까지의 현대사를 드러낸다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/35189539",
+     "quote": "총 33장, 원고지 869매로 집필한 소설에는 1920년대부터 1980년대까지 우리 현대사에서 빼놓을 수 없는 굵직한 사건들이 곳곳에 배치되어 있는데, 이러한 사건들은 마씨(馬氏) 집안의 가장인 아버지 마동수와 그의 삶을 바라보며 성장한 아들들의 삶을 통해 드러난다."
+    },
+    {
+     "sids": [
+      "f2d51dc261c3"
+     ],
+     "field": "work:kim-hoon--gongteoeseo.significance",
+     "claim": "아버지는 일제강점기에 만주를 떠돌았고, 소설은 한국전쟁·군부독재·베트남전쟁 파병·급속한 근대화를 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200078",
+     "quote": "작가는 일제 강점기에 삶의 터전을 떠나 만주 일대를 떠돌 수밖에 없었던 주인공의 아버지, 해방 이후 혼란스러운 시간과 한국전쟁, 전후의 피폐한 상황 속에서 맺어진 남녀의 애증과 갈등, 군부독재 시절의 폭압적인 분위기, 베트남전쟁에 파병된 한국인들의 비극적인 운명 그리고 급속한 근대화와 함께 찾아온 자본의 물결까지를 작품의 주요한 배경으로 삼고"
+    },
+    {
+     "sids": [
+      "e6d5af1a31f9"
+     ],
+     "field": "work:kim-hoon--gongteoeseo.significance",
+     "claim": "한국전쟁부터 5·18까지를 보고 겪은 작가가 자전적 경험을 실마리로 자기 세대의 현대사를 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/35189539",
+     "quote": "한국전쟁, 4·19, 5·16, 5·18, 6·10을 보고 겪은 작가가 이승만, 박정희 등을 거쳐 국가권력이 옮겨가는 것을 목격하며, 그에 따라 영광은 작고 치욕과 모멸은 많은 우리 삶의 꼴이 달라지고 있는 것을 자전적 경험을 실마리로 집필한 작품이다."
+    },
+    {
+     "sids": [
+      "1d680ac7a394"
+     ],
+     "field": "work:kim-hoon--haeolbin.significance",
+     "claim": "『하얼빈』에서는 살인이라는 중죄와 대의, 천주교인의 신앙과 속세의 증오가 안중근 안에서 부딪친다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "살인이라는 중죄에 임하는 한 인간의 대의와 윤리가 부딪치며, 안중근이 천주교인으로서 지닌 신앙심과 속세의 인간으로서 지닌 증오심이 부딪친다."
+    },
+    {
+     "sids": [
+      "6d293c524337"
+     ],
+     "field": "work:kim-hoon--haeolbin.significance",
+     "claim": "『하얼빈』은 누적 30만 부를 넘겼다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/111085946",
+     "quote": "김훈의 새로운 대표작 『하얼빈』이 독자들의 성원에 힘입어 어느덧 누적 판매 30만 부를 돌파했다."
+    },
+    {
+     "sids": [
+      "e4bbafae2e16",
+      "9b324a08e57b"
+     ],
+     "field": "work:kim-hoon--jajeongeo-yeohaeng.significance",
+     "claim": "『자전거여행』은 1999~2000년 자전거로 전국의 산천을 다니며 쓴 산문집이며, 생태·지리·역사를 엮었다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/678",
+     "quote": "1999∼2000년 전국의 산천을 자전거로 여행하며 쓴 에세이 『자전거여행』(2000)도 생태·지리·역사를 횡과 종으로 연결한 수작으로 평가 받았다."
+    },
+    {
+     "sids": [
+      "9b324a08e57b"
+     ],
+     "field": "work:kim-hoon--jajeongeo-yeohaeng.significance",
+     "claim": "김훈의 산문 문장은 의견과 정서를 멀리하고 물리적 사실을 가지런히 진술하려 한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/14832157",
+     "quote": "언젠가 그는 “나는 사실만을 가지런하게 챙기는 문장이 마음에 듭니다”라고 말한바 있다. 그의 언어는 그렇게, 언제나, 사실에 가까우려 애쓴다. “꽃은 피었다”가 아니라, “꽃이 피었다”라고 고쳐쓰는 그의 언어는, 의견과 정서의 세계를 멀리하고 물리적 사실을 객관적으로 진술하려는 그의 언어는"
+    },
+    {
+     "sids": [
+      "f0f71951e20b"
+     ],
+     "field": "relation:affinity--albert-camus--kim-hoon.facts",
+     "claim": "카뮈와 김훈의 관계는 영향이 아니라 양방향 유사성(affinity)이다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002018706",
+     "quote": "A travers la différence spatio-temporelle, La peste d’Albert Camus et Citadelle de Sud de Kim Hoon nous conduisent au thème de la catastrophe. … Les traits communs plus intensifs entre deux proviennent de ce qu’ils reposent sur ‘la vertu de la catasrophe’",
+     "note": "재인용: 원 인용(\"En mettant les deux textes en parallèle…\")은 나란히 읽는다는 것만 말하고, 공통점이 영향 관계가 아닌 데서 온다는 점을 담지 못한다. 시공간의 차이를 넘어 두 소설의 공통점이 재난이라는 공통 주제에서 온다고 한 초록 첫 부분으로 바꿨다."
+    },
+    {
+     "sids": [
+      "f0f71951e20b"
+     ],
+     "field": "relation:affinity--albert-camus--kim-hoon.facts",
+     "claim": "이 유사성은 학계 통설(scholarly_consensus) 수준의 근거를 갖는다",
+     "verdict": "contradicted",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002018706",
+     "quote": "KCI에서 이 논문을 인용한 논문의 수는 0건 입니다.",
+     "correction": "이 유사성은 학계 통설 수준의 근거가 아니다. 근거 논문을 KCI에서 인용한 논문은 0건이다.",
+     "note": "두 출처는 같은 연구자의 글이고, KCI에서 이 논문을 인용한 논문은 0건이다. 다른 연구자가 이 비교를 이어받았다는 자료는 찾지 못했다. (재검: 원 correction의 \"한 연구자의 비교 연구(2015년 논문, 2017년 발표)\"는 이 인용이 아니라 다른 청구의 인용이 받친다. 이 인용이 받치는 범위로 고쳤다.)"
+    },
+    {
+     "sids": [
+      "ffca6e23304f"
+     ],
+     "field": "relation:affinity--albert-camus--kim-hoon.summary",
+     "claim": "이찬규의 KCI 등재 논문 「알베르 카뮈와 김훈: 재난의 장소에 대하여」가 『한국프랑스학논집』 91(2015)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002018706",
+     "quote": "KCI 등재 알베르 카뮈와 김훈 : 재난의 장소에 대하여 Albert Camus et Kim Hoon : à l’égard du lieu de catastrophe 한국프랑스학논집 이 학술지 인용지수 조회 이 학술지 논문 검색 약어 : 한국프랑스학논집 2015, vol.91, pp. 289-315"
+    },
+    {
+     "sids": [
+      "ffca6e23304f"
+     ],
+     "field": "relation:affinity--albert-camus--kim-hoon.summary",
+     "claim": "이찬규는 불문학자다",
+     "verdict": "confirmed",
+     "url": "https://store.kyobobook.co.kr/person/detail/1000279203",
+     "quote": "성균관대학교 불어불문학과를 졸업했으며 프랑스 브장송대학교에서 현대문학으로 석사학위를, 리용2대학에서 문예학 박사학위를 받았다.",
+     "note": "같은 프로필에 숭실대학교 불문과에서 가르친다고 나오고, KCI 논문의 저자 소속도 숭실대학교다."
+    },
+    {
+     "sids": [
+      "ffca6e23304f"
+     ],
+     "field": "relation:affinity--albert-camus--kim-hoon.summary",
+     "claim": "논문은 『페스트』와 『남한산성』을 전염병과 전쟁이라는 재난에 갇힌 두 장소로 나란히 읽는다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002018706",
+     "quote": "La peste d’Albert Camus et Citadelle de Sud de Kim Hoon nous conduisent au thème de la catastrophe. Leur narration montre les deux lieux enfermés par la situation tragique de la catastophe, l’un par l’épidémie et l’autre par la guerre."
+    },
+    {
+     "sids": [
+      "ffca6e23304f"
+     ],
+     "field": "relation:affinity--albert-camus--kim-hoon.summary",
+     "claim": "논문은 두 소설이 영웅주의에 맞서 이념보다 몸의 고통과 구체적 삶의 편에 선다고 분석한다",
+     "verdict": "contradicted",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002018706",
+     "quote": "Cette conscience commune contre l’héroïsme et l’hiérarchie pourrait se prolonger dans le respect absolu pour tous les efforts réels pour la vie. C’est pourquoi les deux auteurs de pays différent donnent leur accord à la souffrance du corps et de la vie concrète au travers de l’idéologie et du nationalisme.",
+     "correction": "두 소설이 영웅주의와 위계에 맞서 몸의 고통과 구체적 삶의 편에 선다고 분석했다.",
+     "note": "인용의 \"au travers de l’idéologie et du nationalisme\"은 문자 그대로 \"이념과 민족주의를 가로질러/통해\"이고, \"이념보다\"라는 비교를 담지 않는다. 초록에서 확인되는 것은 영웅주의·위계에 맞서는 공통 의식과 몸의 고통·구체적 삶에 대한 동의까지다."
+    },
+    {
+     "sids": [
+      "b0f58884cc43"
+     ],
+     "field": "relation:affinity--albert-camus--kim-hoon.summary",
+     "claim": "이찬규는 2017년 한국프랑스문화학회에서 「김훈의 『남한산성』과 카뮈의 『페스트』」를 발표해 이 비교를 다시 다뤘다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A104283569",
+     "quote": "김훈의 『남한산성』과 카뮈의 『페스트』 : 재난 그리고 두 개의 유폐에 대하여 한글로보기 https://www.riss.kr/link?id=A104283569 저자 이찬규 발행기관 한국프랑스문화학회 학술지명 한국프랑스문화학회 학술발표논문집 권호사항 Vol.2017 No.1 [2017]"
+    }
+   ],
+   "noClaim": {
+    "ade7fa60d687": "관계의 성격(직접 교류가 아닌 비교 연구상의 유사성)을 한정하는 편집 진술이라 따로 확인할 사실 주장이 없다."
+   }
+  }
+ ],
+ "check": {
+  "kept": 56,
+  "requoted": 7,
+  "downgraded": 1,
+  "added": 1,
+  "noClaimConverted": 0
+ }
+}

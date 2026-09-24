@@ -1,0 +1,37 @@
+{
+  "fixes": [
+    {
+      "id": "bernard-werber",
+      "difficultyReason": "『개미』는 묘사와 대화를 최소로 하고 서스펜스와 행동을 늦추는 대목을 걷어 낸 소설이다. 부담은 분량과 구성에 있다. 『개미』는 한국어판 다섯 권, 『신』은 세 권이고, 개미와 인간 쪽 이야기를 빠르게 번갈아 편집한 사이사이에 백과사전 항목이 끼어들어 여러 줄기를 동시에 따라가야 한다.",
+      "works": [
+        {
+          "id": "bernard-werber--les-thanatonautes",
+          "significance": "새로운 탐험가들이 죽음 너머의 낙원을 정복해 들어가는 장편으로, 제목은 베르베르가 죽음의 신 ‘타나토스’와 탐험가를 뜻하는 ‘나우티스’를 합쳐 만든 말이다. 티베트·이집트의 『사자의 서』를 비롯한 여러 종교·신화의 죽음 이야기를 겹쳐 놓았고, 출판사는 추리·연애 소설이자 정치 우화로도 소개한다. 주인공 미카엘 팽송은 『천사들의 제국』과 『신』으로 이어진다."
+        }
+      ],
+      "dropRelations": [
+        "influence--gustave-flaubert--bernard-werber"
+      ],
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "베르베르의 소설은 묘사와 대화를 줄이고 긴장을 늦추는 대목을 걷어 냈다",
+          "resolution": "corrected",
+          "evidence": "문장 399aa6fcc374 를 교정문대로 『개미』 한 작품의 사실로 좁혀 고쳤다: '『개미』는 묘사와 대화를 최소로 하고 서스펜스와 행동을 늦추는 대목을 걷어 낸 소설이다.' 인용이 받치지 않는 '문장 단위로는 빨리 읽힌다'는 뺐고, 교정문의 '출판사의 권유로 … 350쪽으로 줄이면서'는 필드 길이 때문에 뺐다(350쪽 축소는 작품 의의 876ab3b317ec 에 이미 있다)."
+        },
+        {
+          "field": "work:bernard-werber--les-thanatonautes.significance",
+          "claim": "추리 소설·연애 소설·정치 우화로 함께 읽히게 썼다",
+          "resolution": "corrected",
+          "evidence": "'추리 소설·연애 소설·정치 우화로 함께 읽히게 썼다'(작가의 의도)를 교정문대로 출판사의 소개로 바꿨다: '출판사는 추리·연애 소설이자 정치 우화로도 소개한다.' 필드가 길어지지 않도록 같은 문장의 '티베트와 이집트의'를 '티베트·이집트의'로 줄였다."
+        },
+        {
+          "field": "relation:influence--gustave-flaubert--bernard-werber.facts",
+          "claim": "관계 유형은 확인된 직접 영향(documented_influence)이다",
+          "resolution": "relation-dropped",
+          "evidence": "연보 1982년 항목은 『살람보』에 감탄했다는 기록일 뿐 영향이라는 말을 쓰지 않아 documented_influence 의 근거가 무너졌다. 이 도구로는 관계 유형을 바꿀 수 없어 선을 지웠다. 베르베르에게는 코넌 도일·포·생텍쥐페리 관계가 남는다."
+        }
+      ]
+    }
+  ]
+}

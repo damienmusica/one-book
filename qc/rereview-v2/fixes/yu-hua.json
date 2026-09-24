@@ -1,0 +1,34 @@
+{
+  "fixes": [
+    {
+      "id": "yu-hua",
+      "works": [
+        {
+          "id": "yu-hua--huozhe",
+          "significance": "부잣집 아들로 태어나 노름으로 재산을 잃고 농부가 된 푸구이가 국공내전, 대약진운동, 문화대혁명을 지나며 가족을 모두 잃고 홀로 남기까지의 일생을, 민요를 모으러 시골에 간 ‘나’에게 직접 들려주는 형식으로 쓴 장편. 1990년대 위화가 잇달아 낸 사실주의 장편의 대표작으로, 장이머우 감독의 1994년 영화 「인생」의 원작이다."
+        },
+        {
+          "id": "yu-hua--zai-xiyu-zhong-huhan",
+          "significance": "위화의 첫 장편. 겉도는 아이였던 화자 ‘나’가 농촌에서 보낸 어린 시절의 일화들을 조각조각 이어 가며 회상하는 1인칭 소설이다. 루쉰문학원과 베이징사범대학의 창작 연구생반에서 모옌과 한 방을 쓰던 시기에 썼다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:yu-hua--huozhe.significance",
+          "claim": "푸구이는 외아들이며, 재산을 하룻밤에 잃었다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "work:yu-hua--zai-xiyu-zhong-huhan.significance",
+          "claim": "화자는 어린 시절 겉도는(방관자) 아이였다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "work:yu-hua--zai-xiyu-zhong-huhan.significance",
+          "claim": "화자 쑨광린은 어린 시절 내내 따뜻함과 안정감을 얻지 못했다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

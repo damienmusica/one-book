@@ -1,0 +1,612 @@
+{
+  "id": "chairil-anwar",
+  "page": "https://literary-planet.pages.dev/authors/chairil-anwar/",
+  "author": {
+    "names": {
+      "ko": "차이릴 안와르",
+      "original": "Chairil Anwar",
+      "aliases": []
+    },
+    "birthYear": 1922,
+    "deathYear": 1949,
+    "activeRange": [
+      1942,
+      1949
+    ],
+    "languages": [
+      "id"
+    ],
+    "regions": [
+      "southeast-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "importanceReason": "짧게 끊어지는 구어체 행으로 시를 다시 써, 독립 직전 세대의 언어를 인도네시아 시의 표준으로 만들었다. 말레이 고전 운문의 대구와 정형 음수율을 걷어내고, 일인칭 화자가 자기 소멸을 선언하는 짧은 자유시를 인도네시아어 시의 기본 단위로 삼았다. 70여 편에 불과한 그의 시가 '45년 세대'(Angkatan 45)의 문체를 규정했고, 이후 인도네시아 현대시는 그 문체를 계승하거나 그것에 반발하는 방식으로 쓰였다.",
+    "readingEntry": "chairil-anwar--aku",
+    "readingEntryReason": "한 페이지 안에 그의 어법 전체 — 짧게 끊는 행, 일인칭의 도발, 죽음을 앞둔 속도 — 가 들어 있어 시집을 펼치기 전 기준점이 된다.",
+    "readingOrder": [
+      "chairil-anwar--aku",
+      "chairil-anwar--krawang-bekasi",
+      "chairil-anwar--kerikil-tajam",
+      "chairil-anwar--deru-campur-debu"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "행이 짧고 어휘가 일상어라 문장 자체는 걸림이 없다. 다만 일본 점령기와 독립 전쟁이라는 배경을 모르면 시의 급박한 어조가 어디서 오는지 보이지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--teeuw-modern-indonesian-literature",
+      "src--jassin-chairil-anwar-pelopor"
+    ]
+  },
+  "works": [
+    {
+      "id": "chairil-anwar--aku",
+      "titleKo": "나",
+      "titleOriginal": "Aku",
+      "year": 1943,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "무리에서 내쫓긴 들짐승으로 화자를 규정하고 상처를 안은 채 계속 달리겠다고 말한 뒤, 천 년을 더 살고 싶다는 행으로 끝맺는 짧은 시. 인도네시아 학교 교과서에 수록되어 있으며 'Semangat'이라는 제목으로도 실린다.",
+      "sourceIds": []
+    },
+    {
+      "id": "chairil-anwar--krawang-bekasi",
+      "titleKo": "크라왕-브카시",
+      "titleOriginal": "Krawang-Bekasi",
+      "year": 1948,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "독립 전쟁에서 죽은 이름 없는 병사들이 산 사람에게 말을 거는 형식의 시. 아치볼드 매클리시의 시와의 유사성이 오래 논쟁되었고, 그 논쟁 자체가 당시 인도네시아 문단의 번역·번안 관행을 드러냈다.",
+      "sourceIds": []
+    },
+    {
+      "id": "chairil-anwar--deru-campur-debu",
+      "titleKo": "먼지 섞인 굉음",
+      "titleOriginal": "Deru Campur Debu",
+      "year": 1949,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "그가 죽은 1949년에 유고로 묶여 나온 시집으로, 27편이 실렸고 「Aku」·「Doa」·「Isa」·「Cintaku Jauh di Pulau」 등 그의 대표작이 여기 들어 있다. 소음과 먼지라는 두 단어가 전후 자카르타의 감각을 표제로 삼은 예다.",
+      "sourceIds": []
+    },
+    {
+      "id": "chairil-anwar--kerikil-tajam",
+      "titleKo": "날카로운 자갈",
+      "titleOriginal": "Kerikil Tajam dan Yang Terampas dan Yang Putus",
+      "year": 1949,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "거친 어조와 짧은 행으로 쓴 시편을 묶은 시집으로, 정식 표제는 『Kerikil Tajam dan Yang Terampas dan Yang Putus』이며 중첩형 『Kerikil-Kerikil Tajam…』은 널리 쓰이는 이형이다. 2부에는 1949년의 만년작까지 실려 있고, 제목의 '날카로운 자갈'과 '빼앗기고 끊긴 것들'이 그 어휘의 성격을 그대로 요약한다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--john-steinbeck--chairil-anwar",
+      "type": "translation",
+      "from": "john-steinbeck (존 스타인벡)",
+      "to": "chairil-anwar (차이릴 안와르)",
+      "evidenceLevel": "documented",
+      "summary": "차이릴 안와르는 스타인벡의 단편 「The Raid」를 인도네시아어 「Kena Gempur」로 옮겼다. 1947년 2월 1일 잡지 『Pantja Raja』에 실렸고, H. B. Jassin의 『Chairil Anwar: Pelopor Angkatan 45』가 그의 번역 목록에 이 작품을 올려 놓았다.",
+      "sourceIds": [
+        "src--jassin-chairil-anwar-pelopor"
+      ]
+    },
+    {
+      "id": "translation--ernest-hemingway--chairil-anwar",
+      "type": "translation",
+      "from": "ernest-hemingway (어니스트 헤밍웨이)",
+      "to": "chairil-anwar (차이릴 안와르)",
+      "evidenceLevel": "documented",
+      "summary": "차이릴 안와르는 헤밍웨이의 단편 「깨끗하고 불빛 환한 곳」을 「Tempat yang Bersih dan Lampunya Terang」으로 옮겼다.",
+      "sourceIds": [
+        "src--jassin-chairil-anwar-pelopor"
+      ]
+    },
+    {
+      "id": "influence--rainer-maria-rilke--chairil-anwar",
+      "type": "documented_influence",
+      "from": "rainer-maria-rilke (라이너 마리아 릴케)",
+      "to": "chairil-anwar (차이릴 안와르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "인도네시아 문학 연구는 차이릴의 외래 문학적 자산 가운데 하나로 릴케를 꼽는다. 차이릴은 릴케의 「Herbsttag」를 「Musim Gugur」(『Gema Suasana』 1948년 1월)로, 「Ernste Stunde」를 「Jenak Berbenar」(1947, 미발표)로 옮겼고, H. B. Jassin의 연구와 A. Teeuw의 『Modern Indonesian Literature』가 그 계보를 기술한다.",
+      "sourceIds": [
+        "src--jassin-chairil-anwar-pelopor",
+        "src--teeuw-modern-indonesian-literature"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "affinity--pramoedya-ananta-toer--chairil-anwar (→ pramoedya-ananta-toer 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "00d39b4e6345",
+      "where": "author.facts",
+      "text": "차이릴 안와르(Chairil Anwar) · 1922–1949 · id · southeast-asia"
+    },
+    {
+      "sid": "23285e2977c6",
+      "where": "author.importanceReason",
+      "text": "짧게 끊어지는 구어체 행으로 시를 다시 써, 독립 직전 세대의 언어를 인도네시아 시의 표준으로 만들었다."
+    },
+    {
+      "sid": "16ad3a3cee15",
+      "where": "author.importanceReason",
+      "text": "말레이 고전 운문의 대구와 정형 음수율을 걷어내고, 일인칭 화자가 자기 소멸을 선언하는 짧은 자유시를 인도네시아어 시의 기본 단위로 삼았다."
+    },
+    {
+      "sid": "d9e24cbd7843",
+      "where": "author.importanceReason",
+      "text": "70여 편에 불과한 그의 시가 '45년 세대'(Angkatan 45)의 문체를 규정했고, 이후 인도네시아 현대시는 그 문체를 계승하거나 그것에 반발하는 방식으로 쓰였다."
+    },
+    {
+      "sid": "4a7b5e2ebb15",
+      "where": "author.readingEntryReason",
+      "text": "한 페이지 안에 그의 어법 전체 — 짧게 끊는 행, 일인칭의 도발, 죽음을 앞둔 속도 — 가 들어 있어 시집을 펼치기 전 기준점이 된다."
+    },
+    {
+      "sid": "0844e9e00929",
+      "where": "author.difficultyReason",
+      "text": "행이 짧고 어휘가 일상어라 문장 자체는 걸림이 없다."
+    },
+    {
+      "sid": "d6cc2334154c",
+      "where": "author.difficultyReason",
+      "text": "다만 일본 점령기와 독립 전쟁이라는 배경을 모르면 시의 급박한 어조가 어디서 오는지 보이지 않는다."
+    },
+    {
+      "sid": "925bb88155cb",
+      "where": "work:chairil-anwar--aku.facts",
+      "text": "『나』(Aku) · 1943 · poetry"
+    },
+    {
+      "sid": "5de8cd5dba0b",
+      "where": "work:chairil-anwar--aku.significance",
+      "text": "무리에서 내쫓긴 들짐승으로 화자를 규정하고 상처를 안은 채 계속 달리겠다고 말한 뒤, 천 년을 더 살고 싶다는 행으로 끝맺는 짧은 시."
+    },
+    {
+      "sid": "1633ce96c897",
+      "where": "work:chairil-anwar--aku.significance",
+      "text": "인도네시아 학교 교과서에 수록되어 있으며 'Semangat'이라는 제목으로도 실린다."
+    },
+    {
+      "sid": "00f9e123e83a",
+      "where": "work:chairil-anwar--krawang-bekasi.facts",
+      "text": "『크라왕-브카시』(Krawang-Bekasi) · 1948 · poetry"
+    },
+    {
+      "sid": "a9366ec34a43",
+      "where": "work:chairil-anwar--krawang-bekasi.significance",
+      "text": "독립 전쟁에서 죽은 이름 없는 병사들이 산 사람에게 말을 거는 형식의 시."
+    },
+    {
+      "sid": "a050fb8a1e7f",
+      "where": "work:chairil-anwar--krawang-bekasi.significance",
+      "text": "아치볼드 매클리시의 시와의 유사성이 오래 논쟁되었고, 그 논쟁 자체가 당시 인도네시아 문단의 번역·번안 관행을 드러냈다."
+    },
+    {
+      "sid": "0326b3712bc7",
+      "where": "work:chairil-anwar--deru-campur-debu.facts",
+      "text": "『먼지 섞인 굉음』(Deru Campur Debu) · 1949 first-print · poetry"
+    },
+    {
+      "sid": "88971418d3f9",
+      "where": "work:chairil-anwar--deru-campur-debu.significance",
+      "text": "그가 죽은 1949년에 유고로 묶여 나온 시집으로, 27편이 실렸고 「Aku」·「Doa」·「Isa」·「Cintaku Jauh di Pulau」 등 그의 대표작이 여기 들어 있다."
+    },
+    {
+      "sid": "fb1f2eeeb7e4",
+      "where": "work:chairil-anwar--deru-campur-debu.significance",
+      "text": "소음과 먼지라는 두 단어가 전후 자카르타의 감각을 표제로 삼은 예다."
+    },
+    {
+      "sid": "dcbbc6043c91",
+      "where": "work:chairil-anwar--kerikil-tajam.facts",
+      "text": "『날카로운 자갈』(Kerikil Tajam dan Yang Terampas dan Yang Putus) · 1949 first-print · poetry"
+    },
+    {
+      "sid": "408d765fab21",
+      "where": "work:chairil-anwar--kerikil-tajam.significance",
+      "text": "거친 어조와 짧은 행으로 쓴 시편을 묶은 시집으로, 정식 표제는 『Kerikil Tajam dan Yang Terampas dan Yang Putus』이며 중첩형 『Kerikil-Kerikil Tajam…』은 널리 쓰이는 이형이다."
+    },
+    {
+      "sid": "88932cb612c3",
+      "where": "work:chairil-anwar--kerikil-tajam.significance",
+      "text": "2부에는 1949년의 만년작까지 실려 있고, 제목의 '날카로운 자갈'과 '빼앗기고 끊긴 것들'이 그 어휘의 성격을 그대로 요약한다."
+    },
+    {
+      "sid": "579969492051",
+      "where": "relation:translation--john-steinbeck--chairil-anwar.facts",
+      "text": "존 스타인벡 → 차이릴 안와르 · translation · directed · documented"
+    },
+    {
+      "sid": "d42fb3653296",
+      "where": "relation:translation--john-steinbeck--chairil-anwar.summary",
+      "text": "차이릴 안와르는 스타인벡의 단편 「The Raid」를 인도네시아어 「Kena Gempur」로 옮겼다."
+    },
+    {
+      "sid": "8e1a0be1f2e0",
+      "where": "relation:translation--john-steinbeck--chairil-anwar.summary",
+      "text": "1947년 2월 1일 잡지 『Pantja Raja』에 실렸고, H."
+    },
+    {
+      "sid": "f1da28972dbe",
+      "where": "relation:translation--john-steinbeck--chairil-anwar.summary",
+      "text": "B."
+    },
+    {
+      "sid": "31352f01e7b9",
+      "where": "relation:translation--john-steinbeck--chairil-anwar.summary",
+      "text": "Jassin의 『Chairil Anwar: Pelopor Angkatan 45』가 그의 번역 목록에 이 작품을 올려 놓았다."
+    },
+    {
+      "sid": "fa5cc4291078",
+      "where": "relation:translation--ernest-hemingway--chairil-anwar.facts",
+      "text": "어니스트 헤밍웨이 → 차이릴 안와르 · translation · directed · documented"
+    },
+    {
+      "sid": "5301054b7c61",
+      "where": "relation:translation--ernest-hemingway--chairil-anwar.summary",
+      "text": "차이릴 안와르는 헤밍웨이의 단편 「깨끗하고 불빛 환한 곳」을 「Tempat yang Bersih dan Lampunya Terang」으로 옮겼다."
+    },
+    {
+      "sid": "49d419620652",
+      "where": "relation:influence--rainer-maria-rilke--chairil-anwar.facts",
+      "text": "라이너 마리아 릴케 → 차이릴 안와르 · documented_influence · directed · scholarly_consensus"
+    },
+    {
+      "sid": "24bea90ff11b",
+      "where": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+      "text": "인도네시아 문학 연구는 차이릴의 외래 문학적 자산 가운데 하나로 릴케를 꼽는다."
+    },
+    {
+      "sid": "43a6f604b009",
+      "where": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+      "text": "차이릴은 릴케의 「Herbsttag」를 「Musim Gugur」(『Gema Suasana』 1948년 1월)로, 「Ernste Stunde」를 「Jenak Berbenar」(1947, 미발표)로 옮겼고, H."
+    },
+    {
+      "sid": "f3fe55f2dd1e",
+      "where": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+      "text": "B."
+    },
+    {
+      "sid": "dc2af7617af9",
+      "where": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+      "text": "Jassin의 연구와 A."
+    },
+    {
+      "sid": "a9df15a3f6ea",
+      "where": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+      "text": "Teeuw의 『Modern Indonesian Literature』가 그 계보를 기술한다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "차이릴 안와르의 생몰년은 1922–1949년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+      "quote": "Chairil Anwar (26 July 1922 – 28 April 1949) was an Indonesian poet and member of the \"1945 Generation\""
+    },
+    {
+      "field": "importanceReason",
+      "claim": "말레이 고전 운문의 대구와 정형 음수율을 걷어냈다 (앞 세대의 정형 말레이 시형에서 이탈했다)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+      "quote": "The previous generation had mainly been influenced by traditional verse and nationalism, while the 1945 Generation, including Anwar, dealt with Western-influenced individualism",
+      "note": "Setyawan 2019(doi:10.21009/aksis.030211)도 앞 세대를 \"masih kental dengan tradisi Melayu dengan pola persajakan\"으로 규정. '대구(對句)' 자체를 명시한 출처는 못 찾음"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "그의 시는 70여 편에 불과하다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.21009/aksis.030211",
+      "quote": "Jassin (2013:3) menguraikannya sebagai berikut 70 sajak asli, 4 sajak saduran, 10 sajak terjemahan, 6 prosa asli, dan 4 prosa terjemahan",
+      "note": "영문 위키백과도 \"96 works, including 70 individual poems\". Jassin 집계와 일치"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "그 시가 '45년 세대'(Angkatan 45)의 문체를 규정했다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.1007/978-94-015-0768-4_40",
+      "quote": "The Angkatan 45. Chairil Anwar and Vitalism",
+      "note": "Teeuw, Modern Indonesian Literature 122–126의 장 제목. Jassin의 책 제목 자체가 'Pelopor Angkatan 45'(45년 세대의 선구자). Foulcher(BKI 1969)도 \"the dynamic influence of his personality\"로 서술"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "일본 점령기와 독립 전쟁이 그의 시의 배경이다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "Ia menulis secara intensif pada masa pendudukan Jepang (1942–1945). Pada waktu itu, ia mengubah puisi-puisinya untuk menghindari penyensoran",
+      "note": "독립전쟁 쪽은 「Krawang-Bekasi」(1948)·「Perjurit Jaga Malam」(1948) 등으로 확인"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "한국어로 읽을 수 있는 판본이 많지 않다",
+      "verdict": "unverifiable",
+      "url": "https://openlibrary.org/search?q=Chairil+Anwar",
+      "note": "absent: OpenLibrary에서 Chairil Anwar 판본 65건 중 상위 20건은 전부 인도네시아어·영어. 한국어 판본 목록을 확인할 수 있는 서지 DB(국립중앙도서관 등)에는 이 세션에서 접근하지 못했다",
+      "resolution": "removed"
+    },
+    {
+      "field": "works[chairil-anwar--aku].year",
+      "claim": "「Aku」는 1943년 작이다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "\"Aku\" | Maret 1943 | Digabung dalam Kerikil-Kerikil Tajam ... dan Deru Campur Debu; dikenal juga sebagai \"Semangat\"",
+      "note": "동명의 다른 시 「Aku」(1943년 6월 8일)가 따로 있으나 유명한 쪽은 1943년 3월작"
+    },
+    {
+      "field": "works[chairil-anwar--aku].titleKo",
+      "claim": "「Aku」의 한국어 제목 '나'",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Aku_(puisi)",
+      "quote": "Aku ini binatang jalang / Dari kumpulannya terbuang",
+      "note": "aku = 1인칭 '나'. 정확한 번역"
+    },
+    {
+      "field": "works[chairil-anwar--aku].significance",
+      "claim": "무리에서 내쫓긴 들짐승으로 화자를 규정한다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Aku_(puisi)",
+      "quote": "Aku ini binatang jalang / Dari kumpulannya terbuang"
+    },
+    {
+      "field": "works[chairil-anwar--aku].significance",
+      "claim": "상처를 안은 채 계속 달리겠다고 말한다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Aku_(puisi)",
+      "quote": "Luka dan bisa kubawa berlari / Berlari / Hingga hilang pedih peri"
+    },
+    {
+      "field": "works[chairil-anwar--aku].significance",
+      "claim": "천 년을 더 살고 싶다는 행으로 끝맺는다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Aku_(puisi)",
+      "quote": "Aku mau hidup seribu tahun lagi!",
+      "note": "위키문헌·위키백과 전문 모두에서 이 행이 마지막 행"
+    },
+    {
+      "field": "works[chairil-anwar--aku].significance",
+      "claim": "'Semangat'이라는 제목으로도 실린다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Aku_(puisi)",
+      "quote": "Puisi ini kemudian dicetak dalam Pemandangan dengan judul \"Semangat\" ... ini bertujuan untuk menghindari sensor"
+    },
+    {
+      "field": "works[chairil-anwar--aku].significance",
+      "claim": "인도네시아 학교 교과서에 올라 있다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Aku_(puisi)",
+      "quote": "Suherli, dkk. (2017). Bahasa Indonesia. Jakarta: Kementerian Pendidikan dan Kebudayaan. hlm. 261",
+      "note": "교육문화부 발행 고등학교 『Bahasa Indonesia』 교과서가 「Aku」의 'binatang jalang' 행을 해설"
+    },
+    {
+      "field": "works[chairil-anwar--aku].significance",
+      "claim": "낭송의 표준 목록에 올라 있다",
+      "verdict": "unverifiable",
+      "note": "absent: 인도네시아 낭송(deklamasi/musikalisasi puisi) 표준 레퍼토리 목록을 명시한 출처를 찾지 못했다. 교과서 수록만 확인됨",
+      "resolution": "removed"
+    },
+    {
+      "field": "works[chairil-anwar--krawang-bekasi].year",
+      "claim": "「Krawang-Bekasi」는 1948년 작이다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "\"Krawang-Bekasi\" | 1948 | Pertama kali diterbitkan dalam Mimbar Indonesia, 20 November 1948",
+      "note": "인도네시아 위키문헌 헤더는 1949로 적지만, Jassin·Raffel 기반 작품 목록의 1948(초간 1948-11-20)이 더 강한 근거"
+    },
+    {
+      "field": "works[chairil-anwar--krawang-bekasi].significance",
+      "claim": "독립 전쟁에서 죽은 이름 없는 병사들이 산 사람에게 말을 거는 형식의 시다",
+      "verdict": "confirmed",
+      "url": "https://id.wikisource.org/wiki/Krawang_%E2%80%94_Bekasi",
+      "quote": "Kami yang kini terbaring antara Krawang-Bekasi ... Kami mati muda. Yang tinggal tulang diliputi debu. Kenang, kenanglah kami.",
+      "note": "화자는 무명 전사자 집단('Kami'), 청자는 산 사람('Kaulah sekarang yang berkata'). 형식 확인"
+    },
+    {
+      "field": "works[chairil-anwar--krawang-bekasi].significance",
+      "claim": "아치볼드 매클리시의 시와의 유사성이 오래 논쟁되었다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "menurut Jassin, karya tersebut merupakan plagiat dari puisi \"The Young Dead Soldiers\" karya Archibald MacLeish",
+      "note": "Setyawan 2019: \"Pro dan kontra pun tumbuh-kembang\"; Prihantono 2020(doi:10.64571/ojp.v7i1.60)이 이 논쟁을 단독 논문으로 다룬다"
+    },
+    {
+      "field": "works[chairil-anwar--krawang-bekasi].significance",
+      "claim": "그 논쟁이 당시 인도네시아 문단의 번역·번안 관행을 드러냈다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.21009/aksis.030211",
+      "quote": "praktik sastra saduran adalah proses penciptaan sastra melalui penyaduran karya orang lain sehingga tercipta sebuah karya yang masuk dalam kategori saduran",
+      "note": "Jassin이 차이릴의 작품을 asli/saduran(번안)/terjemahan(번역)으로 나눠 집계한 것 자체가 당시 관행의 분류 틀임을 이 논문이 논증"
+    },
+    {
+      "field": "works[chairil-anwar--deru-campur-debu].year",
+      "claim": "『Deru Campur Debu』는 1949년 간행이다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "Deru Campur Debu | 1949 | Pembangunan | Berisi 27 puisi",
+      "note": "인도네시아 위키문헌 헤더는 \"Yayasan Pembangunan tahun 1959\"로 적으나 1949의 오기로 보인다(영문·인니 위키백과 및 Jassin 기반 목록 모두 1949)"
+    },
+    {
+      "field": "works[chairil-anwar--deru-campur-debu].titleKo",
+      "claim": "『Deru Campur Debu』의 한국어 제목 '먼지 섞인 굉음'",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+      "quote": "Deru Tjampur Debu (Roar Mixed with Dust)",
+      "note": "deru=굉음/우렁찬 소리, campur=섞인, debu=먼지. 정확한 번역"
+    },
+    {
+      "field": "works[chairil-anwar--deru-campur-debu].significance",
+      "claim": "그가 죽은 1949년에 유고로 묶여 나온 시집이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+      "quote": "Most of Anwar's poems were unpublished at the time of his death, but were later collected in posthumous anthologies. The first published anthology was Deru Tjampur Debu"
+    },
+    {
+      "field": "works[chairil-anwar--deru-campur-debu].significance",
+      "claim": "이후 인도네시아 현대시 선집이 반복해서 뽑아 오는 시편들이 여기 실려 있다",
+      "verdict": "unverifiable",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "correction": "27편이 실렸고 「Aku」·「Doa」·「Isa」·「Cintaku Jauh di Pulau」 등 그의 대표작이 여기 묶였다.",
+      "note": "absent: 후대 선집들의 수록 빈도를 집계한 출처를 찾지 못했다. 확인되는 것은 수록 편수(27편)와 수록 작품 목록뿐",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[chairil-anwar--kerikil-tajam].year",
+      "claim": "『Kerikil Tajam…』은 1949년 간행이다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "Kerikil-Kerikil Tajam dan yang Terampas dan yang Putus | 1949 | Pustaka Rakjat | Terdiri dari dua bagian"
+    },
+    {
+      "field": "works[chairil-anwar--kerikil-tajam].titleOriginal",
+      "claim": "정식 표제는 『Kerikil-Kerikil Tajam dan Yang Terampas dan Yang Putus』로 적는다",
+      "verdict": "contradicted",
+      "url": "https://id.wikisource.org/wiki/Halaman:Kerikil_Tadjam_Dan_Jang_Terampas_Dan_Jang_Putus_-_Chairil_Anwar.pdf/1",
+      "quote": "CHAIRIL ANWAR / KERIKIL TADJAM / DAN / JANG TERAMPAS DAN JANG PUTUS",
+      "correction": "정식 표제는 『Kerikil Tajam dan Yang Terampas dan Yang Putus』이며, 중첩형 『Kerikil-Kerikil Tajam…』은 널리 쓰이는 이형이다.",
+      "note": "1949년 Pustaka Rakjat 초판 표지 자체에 중첩(Kerikil-Kerikil)이 없다. 위키데이터 Q107343129 라벨도 'Kerikil Tadjam Dan Jang Terampas Dan Jang Putus'",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[chairil-anwar--kerikil-tajam].titleKo",
+      "claim": "『Kerikil Tajam』의 한국어 제목 '날카로운 자갈'",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+      "quote": "Kerikil Tadjam dan Jang Terampas dan Terputus (Sharp Pebbles and the Seized and The Broken)",
+      "note": "kerikil=자갈, tajam=날카로운. 정확한 번역"
+    },
+    {
+      "field": "works[chairil-anwar--kerikil-tajam].significance",
+      "claim": "2부에는 1949년의 만년작까지 실려 있다",
+      "verdict": "confirmed",
+      "url": "https://id.wikisource.org/wiki/Yang_Terampas_dan_yang_Putus_(antologi)",
+      "quote": "\"Yang Terampas dan Yang Luput\" | 1949 | Pertama kali diterbitkan dalam Mutiara, 15 Mei 1949",
+      "note": "2부 'Jang Terampas dan Jang Putus' 수록작 목차에 1949년작 「Yang Terampas dan yang Putus」(별칭 「Yang Terampas dan Yang Luput」·「Buat Mirat」)가 들어 있다. 사망(1949-04-28) 직전 작품"
+    },
+    {
+      "field": "relation:translation john-steinbeck → chairil-anwar",
+      "claim": "차이릴이 스타인벡 「The Raid」를 「Kena Gempur」로 옮겼고, 1947년 2월 1일 『Pantja Raja』에 실렸다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "\"Kena Gempur\" | 1 Februari 1947 | Pantja Raja | Diterjemahkan dari cerita pendek \"The Raid\" karya John Steinbeck"
+    },
+    {
+      "field": "relation:translation john-steinbeck → chairil-anwar",
+      "claim": "Jassin의 『Chairil Anwar: Pelopor Angkatan 45』가 그의 번역 목록에 이 작품을 올려 놓았다 (출처 소재 확인)",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "entri-entri daftar ini didasarkan pada kompilasi puisi buatan Jassin (1968, pp. 163–172) dan Raffel (1970)",
+      "note": "Setyawan 2019도 같은 Jassin 집계(prosa terjemahan 4편)를 인용. 출처 소재 일치"
+    },
+    {
+      "field": "relation:translation ernest-hemingway → chairil-anwar",
+      "claim": "차이릴이 헤밍웨이 「A Clean, Well-Lighted Place」를 「Tempat yang Bersih dan Lampunya Terang」으로 옮겼고, 같은 Jassin 번역 목록에 함께 실려 있다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "\"Tempat yang Bersih dan Lampunya Terang\" | Juli 1949/Agustus 1949 | Internasional | Diterjemahkan dari ... \"A Clean, Well-Lighted Place\" karya Ernest Hemingway",
+      "note": "발표 지면은 스타인벡 번역과 다르다(『Internasional』 1949년 7/8월). '같은 번역 목록'은 Jassin의 산문 번역 4편 목록을 가리키는 것으로 정확"
+    },
+    {
+      "field": "relation:documented_influence rainer-maria-rilke → chairil-anwar",
+      "claim": "릴케 「Herbsttag」를 「Musim Gugur」(『Gema Suasana』 1948년 1월)로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "\"Musim Gugur\" | 1947 | Diterbitkan dalam Gema Soeasana, Januari 1948; diterjemahkan dari puisi \"Herbsttag\" karya Rainer Maria Rilke",
+      "note": "집필 1947, 발표 1948년 1월. 잡지명 표기는 구철자 Gema Soeasana"
+    },
+    {
+      "field": "relation:documented_influence rainer-maria-rilke → chairil-anwar",
+      "claim": "릴케 「Ernste Stunde」를 「Jenak Berbenar」(1947, 미발표)로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+      "quote": "\"Jenak Berbenar\" | 1947 | Tidak diterbitkan; diterjemahkan dari puisi \"Ernste Stunde\" karya Rainer Maria Rilke"
+    },
+    {
+      "field": "relation:documented_influence rainer-maria-rilke → chairil-anwar",
+      "claim": "인도네시아 문학 연구는 차이릴의 시행 단축과 죽음 모티프의 배경으로 릴케를 반복해서 다룬다",
+      "verdict": "unverifiable",
+      "url": "https://doi.org/10.21009/aksis.030211",
+      "correction": "인도네시아 문학 연구는 차이릴의 외래 문학적 자산 가운데 하나로 릴케를 꼽는다.",
+      "quote": "sastra asing seperti Eduard du Perron dan Multatuli dari Belanda, Rainer Maria Rilke dari Jerman, John Cornford dari Amerika",
+      "note": "absent: 릴케를 '시행 단축'과 '죽음 모티프'의 배경으로 지목한 연구는 찾지 못했다. 확인된 것은 릴케가 뒤 페롱·물타툴리·콘퍼드와 나란히 영향원 목록에 오른다는 것뿐",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "relation:documented_influence rainer-maria-rilke → chairil-anwar",
+      "claim": "A. Teeuw의 『Modern Indonesian Literature』가 그 릴케 계보를 기술한다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=yDTpCAAAQBAJ&q=Rilke",
+      "note": "Teeuw, 『Modern Indonesian Literature』 p.128 (Springer 재간본, Google Books 권내검색 id=yDTpCAAAQBAJ). 같은 책 권말 색인 p.306이 'Rilke, R. M., 128, 149'로, 149쪽은 문제의 'Chairil Anwar' 장(145–159) 안이다 — 즉 릴케는 그 장에도 등장한다. 인접 근거: p.124–125가 마르스만의 영향을 '가장 깊은' 것으로 놓고, p.144–146이 'foreign influence on the most recent Indonesian literature'를 이 장의 주제로 세운다. Springer 본문(chapter DOI …_46)은 구독 게이트(fetch 204), Brill 절 PDF와 HathiTrust는 봇월이라 그 경로로는 여전히 못 읽는다.",
+      "quote": "he translated or plagiarised besides Marsman, poets such as Slauerhoff, Elsschot, Archibald Macleish, Du Perron ... and once again Rilke",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "relation:affinity pramoedya-ananta-toer → chairil-anwar",
+      "claim": "A. Teeuw의 『Modern Indonesian Literature』는 일본 점령기와 독립 전쟁을 지나온 '45년 세대'(Angkatan 45)를 서술한다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.1007/978-94-015-0768-4_34",
+      "quote": "1942, The Year of the Break (105–107); Play-Writing Under the Japanese Occupation (110–114); The Angkatan 45. Documentation (114–118)",
+      "note": "Crossref 장 목록으로 확인. Angkatan 45 관련 장이 다섯 개(114–120, 122–126, 134–139, 142–145)"
+    },
+    {
+      "field": "relation:affinity pramoedya-ananta-toer → chairil-anwar",
+      "claim": "그 서술에서 차이릴의 시와 프라무디아의 초기 산문을 함께 다룬다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.1007/978-94-015-0768-4_48",
+      "quote": "Chairil Anwar (145–159); Idrus (159–163); Pramudya Ananta Tur (163–180)",
+      "note": "Angkatan 45 부(部) 안에서 세 작가 장이 연속 배치. 프라무디아 장이 18쪽으로 가장 길다"
+    },
+    {
+      "field": "relation:affinity pramoedya-ananta-toer → chairil-anwar",
+      "claim": "이 세대의 산문 표본으로 먼저 지목되는 것은 이드루스다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.1007/978-94-015-0768-4_47",
+      "quote": "Idrus | 159-163",
+      "note": "차이릴 장(145–159) 직후, 프라무디아 장(163–180) 직전에 이드루스 장이 놓인다 — 산문 작가로는 이드루스가 먼저 나온다"
+    },
+    {
+      "field": "relation:affinity pramoedya-ananta-toer → chairil-anwar",
+      "claim": "프라무디아 자신은 1960년대에 이 세대 구분을 공격했다",
+      "verdict": "unverifiable",
+      "url": "https://brill.com/downloadpdf/journals/bki/125/4/article-p429_2.pdf",
+      "correction": "프라무디아 자신은 1963년 Lekra를 이끌고 이 세대의 '보편적 휴머니즘' 강령을 공격했다.",
+      "quote": "Pramoedya Ananta Toer led a concerted attack on the followers of universal humanism in a series of articles in his Lentera column of Bintang Timur",
+      "note": "absent/access: Foulcher(BKI 125-4, 1969)로 1963년 Lentera 공격과 \"penilaian LEKRA atas Angkatan '45\"는 확인. 그러나 '세대 구분(시대구분) 자체'를 공격했다는 진술은 찾지 못했고, 근거로 인용된 Teeuw 본문은 접근 불가",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "sources:src--teeuw-modern-indonesian-literature",
+      "claim": "『Modern Indonesian Literature』의 저자는 A. Teeuw, 발행처는 Martinus Nijhoff (KITLV)다",
+      "verdict": "confirmed",
+      "url": "https://doi.org/10.1017/s0041977x00055774",
+      "quote": "A. Teeuw: Modern Indonesian literature (Koninklijk Instituut voor Taal, Land–en Volkenkunde. Translation Series, 10) ... The Hague: Martinus Nijhoff, 1967"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--teeuw-modern-indonesian-literature": {
+      "id": "src--teeuw-modern-indonesian-literature",
+      "title": "Modern Indonesian Literature",
+      "publisherOrInstitution": "A. Teeuw / Martinus Nijhoff (KITLV)",
+      "citation": "인도네시아 현대문학의 표준 통사 — '45년 세대'(Angkatan 45)의 시대 구분과 차이릴 안와르·프라무디아의 위치를 기술한다."
+    },
+    "src--jassin-chairil-anwar-pelopor": {
+      "id": "src--jassin-chairil-anwar-pelopor",
+      "title": "Chairil Anwar: Pelopor Angkatan 45",
+      "publisherOrInstitution": "H. B. Jassin / Gunung Agung",
+      "citation": "차이릴 안와르의 시·번역 목록과 그가 네덜란드어로 읽은 유럽 시인들을 정리한 표준 연구서. 번역 작업과 매클리시 논쟁의 1차 정리."
+    }
+  }
+}

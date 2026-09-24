@@ -1,0 +1,799 @@
+{
+ "plates": [
+  {
+   "id": "kim-soo-young",
+   "claims": [
+    {
+     "sids": [
+      "9037b865d136"
+     ],
+     "field": "author.facts",
+     "claim": "김수영은 1921년에 태어나 1968년에 죽었다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "출생 연도 1921년 사망 연도 1968년",
+     "note": "한국민족문화대백과사전 김수영 항목 요약 정보란(줄바꿈을 공백으로 옮김)."
+    },
+    {
+     "sids": [
+      "9037b865d136"
+     ],
+     "field": "author.facts",
+     "claim": "김수영은 서울에서 태어났다(east-asia)",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "본관은 김해(金海). 서울 출생.",
+     "note": "범위 좁힘: '한국어로 쓴 시인(ko)'은 인용에 없어 별도 주장으로 떼어 확인했다. 한자 이름은 다음 주장이 확인한다."
+    },
+    {
+     "sids": [
+      "9037b865d136"
+     ],
+     "field": "author.facts",
+     "claim": "원어 표기 김수영의 한자 이름은 金洙暎이다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0060309",
+     "quote": "김수영(金洙暎)이 지은 시."
+    },
+    {
+     "sids": [
+      "8a330c97164b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1949년 김경린·박인환 등과 합동시집 『새로운 도시와 시민들의 합창』을 내며 모더니스트로 주목받았다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "그 뒤 김경린(金璟麟) · 박인환(朴寅煥) · 임호권(林虎權) · 양병식(梁炳植) 등과 함께 합동시집 『새로운 도시와 시민들의 합창』(1949)을 간행하여 모더니스트로 각광을 받았다."
+    },
+    {
+     "sids": [
+      "8a330c97164b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1950년대 후반에는 격변하는 시대의 지적 방황과 번민을 풍자적이고 지적인 언어로 시화했다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "1950년대 후반부터는 모더니스트들이 지닌 관념적 생경성을 벗어나 격변하는 시대 속에서 겪어야 했던 지적 방황과 번민을 풍자적이며 지적인 언어로 시화하였다."
+    },
+    {
+     "sids": [
+      "af4b9d9917f5"
+     ],
+     "field": "author.importanceReason",
+     "claim": "4·19혁명 뒤 현실 비판을 시의 중심에 놓아 1960년대 참여시(참여파 시인)의 앞자리에 섰다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "1950년대의 지적 번민 속에서 성숙해온 그가 본격적인 자신의 세계를 구축할 수 있었던 계기가 된 것은 1960년의 4·19혁명이다. 여기서 그는 평등한 삶을 실현하고자 하는 자유를 위한 혁명에서 시적 열정을 얻는다. 강렬한 현실비판의식과 저항정신에 뿌리박은 시적 탐구는 그로 하여금 1960년대 참여파 시인들의 전위적 구실을 담당하게 했다.",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — ('4·19혁명 뒤'가 인용 밖의 앞 문장에 있었다). 본문의 잇닿은 세 문장으로 바꿨다."
+    },
+    {
+     "sids": [
+      "af4b9d9917f5"
+     ],
+     "field": "author.importanceReason",
+     "claim": "소시민인 자기 자신의 비겁을 질책하는 시를 썼다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/375/",
+     "quote": "소시민의 일상을 통해 비겁한 자신을 질책한 시편 뒤로 눈에 보이지 않는 적과 맞서 싸우고자 입을 악무는 시인이 있다."
+    },
+    {
+     "sids": [
+      "af4b9d9917f5"
+     ],
+     "field": "author.importanceReason",
+     "claim": "특정 시어를 고집하지 않고 일상어를 시에 그대로 들였다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0013712",
+     "quote": "작자의 시의 한 특징은 특정한 시어를 고집하지 않고 일상적인 언어를 그대로 시에 도입하는 것이라고 할 수 있는데"
+    },
+    {
+     "sids": [
+      "af4b9d9917f5"
+     ],
+     "field": "author.importanceReason",
+     "claim": "현실참여의 생경하지 않은 목소리를 보였다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "현실참여의 생경하지 않은 목소리를 보여줌으로써 1970년대는 물론 1980년대까지 강력한 영향을 미친 시인이라 할 수 있다."
+    },
+    {
+     "sids": [
+      "bb5fa4a19dfb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "시 쓰기를 '온몸'으로 밀고 나가는 일로 규정한 시론을 남겼다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/21666/",
+     "quote": "“시작(詩作)은 ‘머리’로 하는 것이 아니고 ‘심장’으로 하는 것도 아니고 ‘몸’으로 하는 것이다. ‘온몸’으로 밀고 나가는 것이다."
+    },
+    {
+     "sids": [
+      "bb5fa4a19dfb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1956년 이후 시작과 번역에 전념했다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "1956년 이후부터는 시작과 번역에만 전념하다가 교통사고로 사망하였다."
+    },
+    {
+     "sids": [
+      "bb5fa4a19dfb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "예이츠를 한국어로 번역했다(1964)",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106048086",
+     "quote": "The main contents are Kim Soo-young’s literary content that developed during the period of studying in Japan, during the Chinese emigration, and after translating Yeats in 1964.",
+     "note": "박수연 논문 영문 초록."
+    },
+    {
+     "sids": [
+      "bb5fa4a19dfb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "네루다를 한국어로 번역했다(1968)",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106492961",
+     "quote": "그런데 이런 현상의 뿌리는 1968년에 시인 김수영이 네루다 시를 처음으로 번역했을 때"
+    },
+    {
+     "sids": [
+      "4f849f085a1d"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "시선집 『거대한 뿌리』는 159쪽 분량이다",
+     "verdict": "contradicted",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=5900",
+     "quote": "160쪽",
+     "correction": "160쪽 분량의 시선집 한 권에",
+     "note": "알라딘 기본정보(ISBN 9788937406010). 민음사 도서 페이지(https://minumsa.minumsa.com/book/375/)도 \"46판 128x188mm · 160쪽\"으로 적는다."
+    },
+    {
+     "sids": [
+      "4f849f085a1d",
+      "6915e6fdbdfb"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『거대한 뿌리』는 「공자의 생활난」으로 시작해 「풀」로 끝난다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/375/",
+     "quote": "공자(孔子)의 생활난 | 아버지의 사진 | 달나라의 장난 | … | 미농인찰지(美濃印札紙) | 성(性) | 풀",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — ('「풀」로 끝난다'가 인용 밖에 있었다). 목차 한 줄의 처음과 끝을 …로 잘라 인용했다(1995년 현행판 목차)."
+    },
+    {
+     "sids": [
+      "4f849f085a1d",
+      "6915e6fdbdfb"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「공자의 생활난」은 초기작(1945)이다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "그의 작품 활동은 1945년 문예지 『예술부락(藝術部落)』에 시 「묘정(廟庭)의 노래」를 발표하면서 시작되었다. … 이 때의 시들은 「공자의 생활난」(1945)",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — ('초기작'의 근거인 1945년 등단이 인용 밖에 있었다)."
+    },
+    {
+     "sids": [
+      "4f849f085a1d",
+      "6915e6fdbdfb",
+      "230cd4871f9a"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「풀」은 죽기 얼마 전에 쓴 시다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0060309",
+     "quote": "작자의 말기를 대표하는 시작품으로 그가 죽기 얼마 전에 쓴 것이다."
+    },
+    {
+     "sids": [
+      "54f3e65a70ce",
+      "b669c983b55a"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『거대한 뿌리』에는 김현의 해설 「자유와 꿈」이 붙어 있다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/375/",
+     "quote": "해설 | 자유와 꿈 – 김수영의 시세계 (김현)"
+    },
+    {
+     "sids": [
+      "54f3e65a70ce"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "김현은 자유가 1960년까지 설움·비애로, 1960–61년에 사랑과 혁명으로, 그 뒤 적에 대한 증오와 자기 연민으로 세 번 변모한다고 정리했다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/375/",
+     "quote": "자유는 그의 시에서 세 번의 변모를 감수한다. 그가 그의 첫작품을 발표한 1946년에서부터 4·19가 일어난 1960년에 이르기까지 자유는 설움, 비애라는 소시민적 감정을 통해 역설적으로 표현된다. 1960년에서 1961년에 이르는 사이 그것은 사랑과 혁명으로 설명되며, 그 이후의 시작 활동에서는 그것이 그것을 불가능케 하는 적에 대한 증오와 그 적을 그대로 수락할 수밖에 없는 자신에 대한 연민 탄식으로 설명된다.",
+     "note": "민음사 편집자 리뷰에 \"김현 (문학평론가)\"로 출처를 밝혀 인용된 대목."
+    },
+    {
+     "sids": [
+      "9c363dacc1bc",
+      "affb33439e7e"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『거대한 뿌리』는 '오늘의 시인 총서' 1번이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=5900",
+     "quote": "거대한 뿌리 | 민음 오늘의 시인 총서 1 | 김수영 | 알라딘"
+    },
+    {
+     "sids": [
+      "9c363dacc1bc",
+      "affb33439e7e"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『거대한 뿌리』는 지금도 판매 중이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=5900",
+     "quote": "지금 택배로 주문하면 9월 27일 출고",
+     "note": "2026-09-24 조회. 민음사 도서 페이지도 정가 10,000원과 구매 링크를 싣는다."
+    },
+    {
+     "sids": [
+      "7c80f1615e16"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『김수영 전집 1: 시』(민음사, 2018)는 428쪽이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/12209/",
+     "quote": "양장 · 신국판 152x225mm · 428쪽"
+    },
+    {
+     "sids": [
+      "7c80f1615e16"
+     ],
+     "field": "author.readingWarning",
+     "claim": "전집 1은 미발표 시와 미완성 초고 시까지 망라했다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/12209/",
+     "quote": "시인이 공개하지 않은 미발표 시와 미완성 초고 시까지 더해 김수영 작품을 총망라했다."
+    },
+    {
+     "sids": [
+      "7c80f1615e16"
+     ],
+     "field": "author.readingWarning",
+     "claim": "전집은 정본이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/12209/",
+     "quote": "이영준 교수가 새롭게 엮은 『김수영 전집』정본(定本)"
+    },
+    {
+     "sids": [
+      "7c80f1615e16"
+     ],
+     "field": "author.readingWarning",
+     "claim": "전집 1에서는 대표작이 초고 사이에 섞여 묻힌다",
+     "verdict": "contradicted",
+     "url": "https://minumsa.minumsa.com/book/12209/",
+     "quote": "본문에 추가된 시는 7편이다. … 「겨울의 사랑」「연꽃」「“김일성 만세”」는 미발표 시다. 부록에 추가된 시는 미완성작을 수록한 노트에서 정리한 작품이다. 총 15편으로,",
+     "correction": "『김수영 전집 1: 시』(민음사, 2018)는 미발표 시를 본문에 넣고, 미완성작 노트에서 정리한 초고 15편은 부록에 따로 실었다.",
+     "note": "교정문 수정: 이전 교정문의 '분량이 커서 대표작을 가려 읽기 어렵다'는 인용이 뒷받침하지 않는다. 초고는 부록에 분리돼 있어 '대표작이 초고 사이에 묻힌다'는 틀렸다. 428쪽·정본·미발표 시와 초고까지 망라는 같은 sid의 다른 확인된 주장이 뒷받침한다."
+    },
+    {
+     "sids": [
+      "14beea81d8be"
+     ],
+     "field": "author.readingWarning",
+     "claim": "2018년 복간본 『달나라의 장난』은 1959년 초판처럼 세로쓰기와 우철(오른쪽에서 왼쪽으로 넘기는) 제본을 따른다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/13064/",
+     "quote": "오른쪽에서 왼쪽으로 읽는 우철 방식의 제본과 세로쓰기 역시 그대로 따랐다."
+    },
+    {
+     "sids": [
+      "5b755eca7ff2"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "시어는 일상어에 가깝다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0013712",
+     "quote": "작자의 시의 한 특징은 특정한 시어를 고집하지 않고 일상적인 언어를 그대로 시에 도입하는 것이라고 할 수 있는데"
+    },
+    {
+     "sids": [
+      "5b755eca7ff2"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "한 편 안에서 진술이 거침없이 병렬된다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A82497240",
+     "quote": "또한, 시의 형태적 측면에서도 거침없는 병렬적 진술을 공통적으로 시용했다.",
+     "note": "조강석 논문 국문 초록(이상과 김수영의 공통점으로 서술)."
+    },
+    {
+     "sids": [
+      "5b755eca7ff2"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "진술이 비약해 독자가 그 사이를 메워야 한다",
+     "verdict": "unverifiable",
+     "note": "한국민족문화대백과사전 김수영·달나라의 장난 항목, 조강석(2010) 초록, 민음사 도서 소개를 보았으나 \"비약\"을 말하는 대목은 찾지 못했다. 조강석 초록은 \"거침없는 병렬적 진술\"까지만 말한다."
+    },
+    {
+     "sids": [
+      "fef7b6d4ff31"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "첫 시집의 시에는 한자가 많다",
+     "verdict": "contradicted",
+     "url": "https://minumsa.minumsa.com/book/13064/",
+     "quote": "한자 역시 김수영 시인에게는 중요한 문제였으나 가독성을 높이기 위해 한글로 바꾸거나 병기하였다.",
+     "correction": "첫 시집의 시에는 한자가 쓰였다(복간본은 가독성을 위해 한글로 바꾸거나 병기했다).",
+     "note": "한자가 '많다'고 양을 말한 출처는 찾지 못했다. 교정문에서 인용에 없는 '2018년'·'초판'을 뺐다."
+    },
+    {
+     "sids": [
+      "fef7b6d4ff31"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "4·19혁명 이후 1960년대 시는 당대 현실을 비판했다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "1950년대의 지적 번민 속에서 성숙해온 그가 본격적인 자신의 세계를 구축할 수 있었던 계기가 된 것은 1960년의 4·19혁명이다. 여기서 그는 평등한 삶을 실현하고자 하는 자유를 위한 혁명에서 시적 열정을 얻는다. 강렬한 현실비판의식과 저항정신에 뿌리박은 시적 탐구는 그로 하여금 1960년대 참여파 시인들의 전위적 구실을 담당하게 했다.",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 4·19를 계기로만 들고 현실 비판은 말하지 않았다). 1960년대 시의 '풍자'는 별도 주장으로 떼어 unverifiable로 적었다."
+    },
+    {
+     "sids": [
+      "2969ab172e97"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "후기 시론은 이상의 시와 초현실주의 시론의 영향 아래 참여시를 다시 정리하는 글이다",
+     "verdict": "contradicted",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002229696",
+     "quote": "「참여시의 정리」(1967)라는 사실이다. … 그리고 더 나아가 「참여시의 정리」에는 그가 선배 시인 이상의 유고 일문시를 번역 소개하는 과정에서 이상의 시를 다시 읽고 연구한 성과가 담겨 있으며, 이를 통해 그가 초현실주의에 대한 관점을 재확립할 수 있었다는 점, 그리고 이를 통해 그의 후기 시론에 ‘무의식적 참여시’라고 불릴만한 새로운 정치시의 경지가 제안될 수 있었다는 점을 논증할 것이다.",
+     "correction": "신형철은 「참여시의 정리」(1967)에 김수영이 이상의 유고 일문시를 번역 소개하며 이상의 시를 다시 읽고 연구한 성과가 담겨 있고, 이를 통해 그가 초현실주의에 대한 관점을 재확립해 후기 시론에서 '무의식적 참여시'라 불릴 만한 새로운 정치시의 경지를 제안할 수 있었다고 논증한다.",
+     "note": "교정문 수정: 이전 교정문의 '시보다 한 단계 어렵다'는 인용이 뒷받침하지 않는 난도 판단이라 뺐다. 이상·초현실주의의 영향은 신형철 한 논문의 논증이고, 대상은 후기 시론 전체가 아니라 「참여시의 정리」다."
+    },
+    {
+     "sids": [
+      "45df9eeb853f"
+     ],
+     "field": "work:kim-soo-young--geodaehan-ppuri.facts",
+     "claim": "『거대한 뿌리』는 죽은 뒤 1974년에 처음 나온 시집이다(1974 first-print · poetry)",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "죽은 뒤 출판된 시집으로는 『거대한 뿌리』(1974) · 『달의 행로를 밟을지라도』(1976)와 산문집 『시여, 침을 뱉어라』(1975) · 『퓨리턴의 초상』 등이 있다."
+    },
+    {
+     "sids": [
+      "b669c983b55a"
+     ],
+     "field": "work:kim-soo-young--geodaehan-ppuri.significance",
+     "claim": "1974년 민음사가 펴냈고 김현의 해설 「자유와 꿈」이 붙었다(죽은 지 여섯 해 뒤)",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "｢자유와 꿈｣(김현 해설, 『거대한 뿌리』, 민음사, 1974)",
+     "note": "여섯 해 뒤는 몰년 1968과 1974의 차."
+    },
+    {
+     "sids": [
+      "b669c983b55a"
+     ],
+     "field": "work:kim-soo-young--geodaehan-ppuri.significance",
+     "claim": "『거대한 뿌리』는 시선집이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/375/",
+     "quote": "보다 정확하게는 ‘민주주의’를 현실화하고자 시로써 항거했던 김수영의 시선집이다."
+    },
+    {
+     "sids": [
+      "6915e6fdbdfb"
+     ],
+     "field": "work:kim-soo-young--geodaehan-ppuri.significance",
+     "claim": "표제작 「거대한 뿌리」는 1964년 작이다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "「거대(巨大)한 뿌리」(1964)"
+    },
+    {
+     "sids": [
+      "571412841baa",
+      "c9554a0995b8"
+     ],
+     "field": "work:kim-soo-young--geodaehan-ppuri.significance",
+     "claim": "한세정은 『巨大한 뿌리』에서 김수영이 아일랜드 전통에 대한 예이츠의 관심을 창조적으로 받아들여 전통을 새로 인식했다고 본다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A103477254",
+     "quote": "『巨大한 뿌리‏‎』 에서 김수영은 아일랜드 전통에 지대한 관심을 보였던 예이츠 의 시적 특징을 창조적으로 수용하여 전통에 대한 새로운 인식을 마련하였다."
+    },
+    {
+     "sids": [
+      "cf58d0331777"
+     ],
+     "field": "work:kim-soo-young--dalnaraui-jangnan.facts",
+     "claim": "『달나라의 장난』은 1959년에 나온 시집이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/13064/",
+     "quote": "1959년 춘조사에서 ‘오늘의 시인 총서’로 발간된 『달나라의 장난』은",
+     "note": "한국민족문화대백과사전 「달나라의 장난」 항목 본문은 \"1956년\"이라 적지만 같은 항목 참고문헌은 \"(김수영, 춘조사, 1959)\"이고 작가 후기 날짜도 1959년 11월 10일이다."
+    },
+    {
+     "sids": [
+      "cacbce994239"
+     ],
+     "field": "work:kim-soo-young--dalnaraui-jangnan.significance",
+     "claim": "1948년부터 1959년까지 잡지와 신문에 발표한 시를 추려 모은 시집이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/13064/",
+     "quote": "이 시집은 1948년부터 1959년에 이르기까지의 여러 잡지와 신문 등속에 발표되었던 것을 추려 모아 놓은 것이다.",
+     "note": "민음사 복간본 페이지에 실린 김수영의 작가 후기."
+    },
+    {
+     "sids": [
+      "cacbce994239"
+     ],
+     "field": "work:kim-soo-young--dalnaraui-jangnan.significance",
+     "claim": "춘조사에서 낸 첫 시집이자 생전에 낸 유일한 시집이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/13064/",
+     "quote": "1959년, 1948~1959년 사이에 발표했던 시를 모아 첫 시집이자 생전에 발간한 유일한 시집 『달나라의 장난』(춘조사) 을 출간했다."
+    },
+    {
+     "sids": [
+      "1c6fe4d6b393"
+     ],
+     "field": "work:kim-soo-young--dalnaraui-jangnan.significance",
+     "claim": "「토끼」「아버지의 사진」「웃음」을 빼면 모두 6·25 뒤에 쓴 시다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/13064/",
+     "quote": "그러나 「토끼」 「아버지의 사진」 「웃음」의 세 작품을 제외하고는 모두가 6·25 후에 쓴 것이며"
+    },
+    {
+     "sids": [
+      "1c6fe4d6b393"
+     ],
+     "field": "work:kim-soo-young--dalnaraui-jangnan.significance",
+     "claim": "「헬리콥터」「병풍」「눈」「폭포」가 실렸고 이 시기 시는 1950년대의 지적 번민을 풍자적이고 지적인 언어로 옮겼다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "1950년대 후반부터는 모더니스트들이 지닌 관념적 생경성을 벗어나 격변하는 시대 속에서 겪어야 했던 지적 방황과 번민을 풍자적이며 지적인 언어로 시화하였다. 1959년에 간행된 『달나라의 장난』은 이 시기의 시적 성과를 수록한 첫 개인시집이다. 수록된 대표적 작품들은 「달나라의 장난」(1953) · 「헬리콥터」(1955) · 「병풍」(1956) · 「눈」(1957) · 「폭포」(1957) 등을 꼽을 수 있다.",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (네 작품 이름과 '풍자적이고 지적인 언어'가 인용 밖에 있었다). 잇닿은 세 문장으로 바꿨다. 민음사 복간본 목차(https://minumsa.minumsa.com/book/13064/)에도 폭포·눈·병풍·헬리콥터가 있다."
+    },
+    {
+     "sids": [
+      "56a286c6565b"
+     ],
+     "field": "work:kim-soo-young--dalnaraui-jangnan.significance",
+     "claim": "목차는 대체로 쓴 순서의 역순이다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/13064/",
+     "quote": "목차는 대체로 제작 역순으로 되어 있다.",
+     "note": "김수영의 작가 후기. 한국민족문화대백과사전 「달나라의 장난」 항목은 \"발표연도 순으로 40편\"이라 적어 어긋나지만, 작가 후기와 민음사 목차(「사령」에서 시작해 「토끼」로 끝남)가 역순을 뒷받침한다."
+    },
+    {
+     "sids": [
+      "fe812c35ed3a"
+     ],
+     "field": "work:kim-soo-young--pul.facts",
+     "claim": "「풀」은 1968년 작 시다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "「엔 카운터지(誌)」(1966) · 「풀」(1968)을 들 수 있다."
+    },
+    {
+     "sids": [
+      "230cd4871f9a"
+     ],
+     "field": "work:kim-soo-young--pul.significance",
+     "claim": "「풀」은 3연 18행이고 '풀'과 '바람'이 대립한다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0060309",
+     "quote": "3연 18행으로 된 이 작품은 ‘풀’과 ‘바람’이 대립관계를 이루고 있다."
+    },
+    {
+     "sids": [
+      "230cd4871f9a"
+     ],
+     "field": "work:kim-soo-young--pul.significance",
+     "claim": "'눕다'·'일어나다'·'울다'·'웃다' 네 동사만 되풀이된다",
+     "verdict": "contradicted",
+     "url": "https://encykorea.aks.ac.kr/Article/E0060309",
+     "quote": "단순히 ‘눕다’·‘일어나다’·‘울다’·‘웃다’라는 4개의 동사가 반복되어 시의 주류를 형성하고 있을 뿐이다.",
+     "correction": "'눕다'·'일어나다'·'울다'·'웃다' 네 동사의 반복이 시의 주류를 이룬다.",
+     "note": "출처는 네 동사의 반복이 \"주류를 형성\"한다고 말할 뿐, 그 네 동사\"만\" 되풀이된다고 하지 않는다."
+    },
+    {
+     "sids": [
+      "679e12189ae5"
+     ],
+     "field": "work:kim-soo-young--pul.significance",
+     "claim": "풀을 억눌린 민중으로 읽는 해석과 생의 깊이에 닿는 감동으로 넓게 읽는 해석이 갈려 왔다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0060309",
+     "quote": "어떤 이는 ‘풀’을 가난하고 억눌려 사는 민중의 상징이고, ‘바람’은 민중을 억누르는 지배세력의 상징으로 보기도 한다. 그리고 어떤 이는 이를 부정하고 포괄적으로 생(生)의 깊이와 관련된 어떠한 감동을 맛보게 하는 상징성을 강조하기도 한다."
+    },
+    {
+     "sids": [
+      "1bcf500d08be",
+      "4ad4ada00abd"
+     ],
+     "field": "work:kim-soo-young--siyeo-chimeul-baeteora.facts",
+     "claim": "『시여, 침을 뱉어라』는 죽은 뒤 1975년에 나온 산문집이다(1975 first-print · essay-criticism)",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009567",
+     "quote": "죽은 뒤 출판된 시집으로는 『거대한 뿌리』(1974) · 『달의 행로를 밟을지라도』(1976)와 산문집 『시여, 침을 뱉어라』(1975) · 『퓨리턴의 초상』 등이 있다."
+    },
+    {
+     "sids": [
+      "4816ac03d938"
+     ],
+     "field": "work:kim-soo-young--siyeo-chimeul-baeteora.significance",
+     "claim": "표제 산문에서 시 쓰기는 '머리'도 '심장'도 아닌 '온몸'으로 밀고 나가는 일이라 규정했다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/21666/",
+     "quote": "「시여, 침을 뱉어라」에서 김수영이 쓴 것은 훗날 한국 시사(詩史)에 남는 중요한 경구가 된다. “시작(詩作)은 ‘머리’로 하는 것이 아니고 ‘심장’으로 하는 것도 아니고 ‘몸’으로 하는 것이다. ‘온몸’으로 밀고 나가는 것이다."
+    },
+    {
+     "sids": [
+      "0c0115c59f32"
+     ],
+     "field": "work:kim-soo-young--siyeo-chimeul-baeteora.significance",
+     "claim": "민음사 세계문학전집 400번(2022, 이영준 엮음)으로 나와 있다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/21666/",
+     "quote": "글 김수영 | 엮음 이영준 출판사 민음사 | 발행일 2022년 2월 8일 | … 시리즈 세계문학전집 400",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (2022년·이영준 엮음이 인용 밖에 있었다). 같은 페이지 서지 칸으로 바꿨다."
+    },
+    {
+     "sids": [
+      "0c0115c59f32"
+     ],
+     "field": "work:kim-soo-young--siyeo-chimeul-baeteora.significance",
+     "claim": "이 판은 시론·문학론에 해당하는 산문만 골라 엮었다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/21666/",
+     "quote": "『시여, 침을 뱉어라』는 김수영이 쓴 시론과 문학론에 해당하는 산문만을 엮어 선보이는 산문집이다.",
+     "note": "범위 좁힘: 수록 글 이름(「시의 뉴 프런티어」「시인의 정신은 미지」)은 인용에 없어 목차 인용으로 별도 확인했다."
+    },
+    {
+     "sids": [
+      "3fd7ebdaee4b"
+     ],
+     "field": "relation:translation--pablo-neruda--kim-soo-young.facts",
+     "claim": "김수영이 네루다를 번역했다(네루다 → 김수영 · translation · documented)",
+     "verdict": "confirmed",
+     "url": "https://www.nl.go.kr/NL/search/nl_detail_view.ajax?viewKey=872304753&viewType=AH7",
+     "quote": "고양이의 꿈 외 5편 / P. 네루다 ; 김수영 역"
+    },
+    {
+     "sids": [
+      "8d83b1da445b",
+      "7eef94afcc0c"
+     ],
+     "field": "relation:translation--pablo-neruda--kim-soo-young.summary",
+     "claim": "국립중앙도서관 서지는 「고양이의 꿈 외 5편」을 'P. 네루다 ; 김수영 역'으로, 『창작과 비평』 수록으로 적는다",
+     "verdict": "confirmed",
+     "url": "https://www.nl.go.kr/NL/search/nl_detail_view.ajax?viewKey=872304753&viewType=AH7",
+     "quote": "고양이의 꿈 외 5편 / P. 네루다 ; 김수영 역 형태사항 p. 175; 23 cm 수록잡지명 창작과 비평3권2호, 175",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (『창작과 비평』 수록이 인용 밖에 있었다). 서지 칸 연속 인용."
+    },
+    {
+     "sids": [
+      "8d83b1da445b"
+     ],
+     "field": "relation:translation--pablo-neruda--kim-soo-young.summary",
+     "claim": "번역은 1968년에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106492961",
+     "quote": "네루다, 파블로, \"파블로 네루다 시 6편\" 3 (3): 175-183, 1968",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 1968년에 '번역했다'만 말하고 지면 게재는 말하지 않는다). 우석균 논문 참고문헌 4번으로 바꿨다(쪽 175가 국립중앙도서관 서지와 같다)."
+    },
+    {
+     "sids": [
+      "8d83b1da445b"
+     ],
+     "field": "relation:translation--pablo-neruda--kim-soo-young.summary",
+     "claim": "번역한 네루다 시는 여섯 편이다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106492961",
+     "quote": "네루다, 파블로, \"파블로 네루다 시 6편\" 3 (3): 175-183, 1968",
+     "note": "우석균 논문 참고문헌 4번. 권호 표기가 국립중앙도서관 서지(3권 2호)와 어긋난다."
+    },
+    {
+     "sids": [
+      "a6bc6dbe18ba"
+     ],
+     "field": "relation:translation--pablo-neruda--kim-soo-young.summary",
+     "claim": "우석균 「칠레 문학 수용: 칠레 쿠데타 서사와 한국의 지적 계보」는 『이베로아메리카연구』 30권 3호(2019)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106492961",
+     "quote": "칠레 문학 수용: 칠레 쿠데타 서사와 한국의 지적 계보 … 저자 우석균 (서울대학교) 발행기관 서울대학교 라틴아메리카연구소(구 서울대학교 스페인중남미연구소) 학술지명 이베로아메리카연구 권호사항 Vol.30 No.3 [2019]",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 학술지명뿐이었다). RISS 서지 칸 연속 인용."
+    },
+    {
+     "sids": [
+      "a6bc6dbe18ba"
+     ],
+     "field": "relation:translation--pablo-neruda--kim-soo-young.summary",
+     "claim": "우석균은 한국에서 칠레 문학이 쿠데타 서사를 축으로 읽혀 온 현상의 뿌리를 김수영의 1968년 네루다 번역에서 찾는다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106492961",
+     "quote": "칠레 문학에 대해서도 칠레 쿠데타 서사를 축으로 하는 독자 기대지평선이 형성되어 있을 정도이다. … 그런데 이런 현상의 뿌리는 1968년에 시인 김수영이 네루다 시를 처음으로 번역했을 때, 또그보다 먼저 찰스 라이트 밀스의 『들어라, 양키들아』를 발견했을 때로 거슬러 올라간다.",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 '…번역했을 때'에서 끊겨 '뿌리를 찾는다'는 서술어가 없었다). 문장 끝까지 인용했다. 우석균은 뿌리를 밀스의 『들어라, 양키들아』 발견에서도 찾는다. 페이지 문장은 '네루다 번역에서만'이라 하지 않으므로 유지."
+    },
+    {
+     "sids": [
+      "68d02f149b07"
+     ],
+     "field": "relation:influence--william-butler-yeats--kim-soo-young.facts",
+     "claim": "예이츠가 김수영에게 영향을 주었다는 것이 연구로 기록돼 있다(documented_influence · documented)",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A103477254",
+     "quote": "이 논문은 김수영의 예이츠 문학 수용 양상을 살피고, 그것이 그의 시 세계에 미친 영향을 밝히는 것을 목적으로 한다."
+    },
+    {
+     "sids": [
+      "fbd8e6c70e7b"
+     ],
+     "field": "relation:influence--william-butler-yeats--kim-soo-young.summary",
+     "claim": "김수영의 예이츠론 「신비주의와 민족주의의 시인 예이츠」가 『김수영 전집 2: 산문』(민음사, 2018)에 실려 있다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/12214/",
+     "quote": "신비주의와 민족주의의 시인 예이츠",
+     "note": "민음사 『김수영 전집2 [산문]』(2018년 2월 26일) 목차 3부 시론과 문학론. 같은 페이지는 \"단순 번역\"은 수록에서 제외했다고 밝힌다."
+    },
+    {
+     "sids": [
+      "fbd8e6c70e7b"
+     ],
+     "field": "relation:influence--william-butler-yeats--kim-soo-young.summary",
+     "claim": "박수연 「김수영의 연극 시대, 그리고 예이츠 이후」는 『비교한국학』 26권 3호(2018)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106048086",
+     "quote": "김수영의 연극 시대, 그리고 예이츠 이후 동경, 길림, 서울의 상처와 식민지 넘어서기 … 학술지명 비교한국학 Comparative Korean Studies(Comparative Korean Studies) 권호사항 Vol.26 No.3 [2018]",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 제목뿐이었다). RISS 서지 칸 연속 인용."
+    },
+    {
+     "sids": [
+      "fbd8e6c70e7b"
+     ],
+     "field": "relation:influence--william-butler-yeats--kim-soo-young.summary",
+     "claim": "박수연은 김수영이 1964년 예이츠를 번역한 뒤 그해 한일회담 반대 운동, 예이츠의 민족주의와 번역 작업의 영향 아래 민족과 역사의 문제로 나아갔다고 본다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A106048086",
+     "quote": "Since 1964 he has begun to explore literature of the nationality and history. The poet, who was pursuing the world of modernity and anti-dictatorship, began to explore the problem of anti- imperialism. In actuality, this is influenced by the 1964’ opposition to the Korea-Japan talks, and literally, it is the influence of Yeats’s nationalism and the translation of Yeats’s works.",
+     "note": "박수연 논문 영문 초록(국문 초록은 RISS에 없음)."
+    },
+    {
+     "sids": [
+      "c9554a0995b8"
+     ],
+     "field": "relation:influence--william-butler-yeats--kim-soo-young.summary",
+     "claim": "한세정 「김수영의 예이츠 문학 수용 양상 연구」는 『한국예이츠 저널』 53(2017)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A103477254",
+     "quote": "김수영의 예이츠 문학 수용 양상 연구 … 학술지명 한국예이츠 저널(The Yeats Journal of Korea) 권호사항 Vol.53 No.- [2017]",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 학술지명뿐이었다). RISS 서지 칸 연속 인용."
+    },
+    {
+     "sids": [
+      "c9554a0995b8"
+     ],
+     "field": "relation:influence--william-butler-yeats--kim-soo-young.summary",
+     "claim": "한세정은 4·19 이후 김수영의 새 시 쓰기 모색이 예이츠 문학과 맞물려 있다고 분석한다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A103477254",
+     "quote": "4. 19 혁명을 계기로 김수영은 한국 의 시대 현실에 대한 냉철한 인식 아래 새로운 시 쓰기 방법론에 고심(苦心)하는데, 이러한 시적(詩的) 모색은 이 시기 그가 주시했던 예이츠 문학의 특징과 긴밀하게 연 동된다."
+    },
+    {
+     "sids": [
+      "1f8928d72c33"
+     ],
+     "field": "relation:influence--yi-sang--kim-soo-young.facts",
+     "claim": "이상 → 김수영 영향 관계는 documented_influence다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002229696",
+     "quote": "「참여시의 정리」에는 그가 선배 시인 이상의 유고 일문시를 번역 소개하는 과정에서 이상의 시를 다시 읽고 연구한 성과가 담겨 있으며"
+    },
+    {
+     "sids": [
+      "1f8928d72c33"
+     ],
+     "field": "relation:influence--yi-sang--kim-soo-young.facts",
+     "claim": "이상 → 김수영 영향 관계의 근거 수준은 학계 통설(scholarly_consensus)이다",
+     "verdict": "contradicted",
+     "url": "https://www.riss.kr/link?id=A82497240",
+     "quote": "그러나, 아마도 보다 근본적인 층위에서 양자의 영향관계를 찾으려면 이들이 공유하고 있는 문제의식을 들여다 보는 것이 좋을 것이다.",
+     "correction": "이상 → 김수영 · documented_influence · directed · documented",
+     "note": "확인한 것은 영향 관계를 논증하는 개별 논문 두 편(조강석 2010, 신형철 2017)뿐이다. 이를 학계 통설이라 말하는 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "08fa249ed857"
+     ],
+     "field": "relation:influence--yi-sang--kim-soo-young.summary",
+     "claim": "한국 현대시 연구는 이상에서 김수영으로 이어지는 영향 관계를 따로 다뤄 왔다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A82497240",
+     "quote": "이상의 두 갈래 시적 영향 관계에 대한 소고(小考)(1) : 김수영의 경우",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용에 부제 '김수영의 경우'가 빠져 김수영이 드러나지 않았다). 같은 영향 관계를 다룬 신형철(2017, https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002229696)도 있다."
+    },
+    {
+     "sids": [
+      "ee68ffcccfa4"
+     ],
+     "field": "relation:influence--yi-sang--kim-soo-young.summary",
+     "claim": "조강석 논문은 『한국현대문학연구』 32(2010)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A82497240",
+     "quote": "이상의 두 갈래 시적 영향 관계에 대한 소고(小考)(1) : 김수영의 경우 … 학술지명 한국현대문학연구(The Journal of Modern Korean Literature) 권호사항 Vol.0 No.32 [2010]",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 학술지명뿐이었다). RISS 서지 칸 연속 인용."
+    },
+    {
+     "sids": [
+      "ee68ffcccfa4"
+     ],
+     "field": "relation:influence--yi-sang--kim-soo-young.summary",
+     "claim": "조강석은 두 시인이 일상을 적극 시화하고 거침없는 병렬적 진술을 쓰며 서구적 근대와의 속도차라는 같은 문제의식을 가졌다고 본다",
+     "verdict": "confirmed",
+     "url": "https://www.riss.kr/link?id=A82497240",
+     "quote": "이상과 김수영은 시의 소재적 측면에서 볼 때, 일상을 적극적으로 시화했다는 점을 공유한다. 또한, 시의 형태적 측면에서도 거침없는 병렬적 진술을 공통적으로 시용했다. 그러나, 아마도 보다 근본적인 층위에서 양자의 영향관계를 찾으려면 이들이 공유하고 있는 문제의식을 들여다 보는 것이 좋을 것이다. 이상과 김수영은 서구적 근대와의 속도차를 예민하게 인지하고"
+    },
+    {
+     "sids": [
+      "ee68ffcccfa4"
+     ],
+     "field": "relation:influence--yi-sang--kim-soo-young.summary",
+     "claim": "신형철 「이상(李箱)의 시와 초현실주의 시론이 김수영의 후기 시론에 미친 영향」은 『한국시학연구』 50(2017)에 실렸고 「참여시의 정리」(1967)를 중심으로 그 영향을 추적한다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002229696",
+     "quote": "이상(李箱)의 시와 초현실주의 시론이 김수영의 후기 시론에 미친 영향 - 「참여시의 정리」(1967)를 중심으로 … 한국시학연구 약어 : - 2017 no.50,",
+     "note": "재인용: 원 인용은 주장의 일부만 담았다 — (원 인용은 제목뿐이라 학술지·호수·연도가 없었다). KCI 서지 머리 연속 인용."
+    },
+    {
+     "sids": [
+      "9037b865d136"
+     ],
+     "field": "author.facts",
+     "claim": "김수영은 한국의 시인이다(ko)",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/21666/",
+     "quote": "누구보다 대표적인 한국의 시인이었지만 그는 끝없이 시에 대해 질문하는 성실한 영혼이었다.",
+     "note": "검수 추가(원 주장 분할)."
+    },
+    {
+     "sids": [
+      "fef7b6d4ff31"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "4·19혁명 뒤 1960년대 시에는 정치 현실을 겨눈 풍자가 있다",
+     "verdict": "unverifiable",
+     "note": "검수 추가. 한국민족문화대백과사전 김수영·달나라의 장난 항목은 '풍자적이며 지적인 언어'를 1950년대 후반 시에만 쓰고, 1960년대 시는 '현실비판의식과 저항정신'으로 적는다. 민음사 『거대한 뿌리』·『시여, 침을 뱉어라』 소개, 한국어 위키백과 '김수영 (1921년)'에서도 1960년대 시를 풍자로 규정한 대목을 찾지 못했다."
+    },
+    {
+     "sids": [
+      "0c0115c59f32"
+     ],
+     "field": "work:kim-soo-young--siyeo-chimeul-baeteora.significance",
+     "claim": "이 판에는 표제 산문과 「시의 뉴 프런티어」「시인의 정신은 미지」가 실려 있다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/21666/",
+     "quote": "1부 시론 시여 침을 뱉어라 9 시의 뉴 프런티어 18 시인의 정신은 미지(未知) 22",
+     "note": "검수 추가(원 주장 분할). 같은 목차에 '2부 일상 단상'·'3부 시작노트'도 있으나 출판사는 책 전체를 '시론과 문학론에 해당하는 산문만을 엮'었다고 소개한다."
+    },
+    {
+     "sids": [
+      "0c0115c59f32"
+     ],
+     "field": "work:kim-soo-young--siyeo-chimeul-baeteora.significance",
+     "claim": "민음사 세계문학전집 400번 『시여, 침을 뱉어라』는 지금 서점에서 팔린다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=9788937464003",
+     "quote": "[국내도서] 시여, 침을 뱉어라 ㅣ 민음사 세계문학전집 400 … 지금 택배로 주문하면 9월 27일 출고",
+     "note": "검수 추가('지금 서점의'). 2026-09-24 조회, ISBN 978-89-374-6400-3(민음사 도서 페이지 서지)."
+    }
+   ],
+   "noClaim": {}
+  }
+ ],
+ "check": {
+  "kept": 47,
+  "requoted": 15,
+  "downgraded": 0,
+  "added": 4,
+  "noClaimConverted": 0
+ }
+}

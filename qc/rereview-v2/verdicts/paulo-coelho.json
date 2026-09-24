@@ -1,0 +1,758 @@
+{
+  "plates": [
+    {
+      "id": "paulo-coelho",
+      "claims": [
+        {
+          "sids": [
+            "3a3c6dd98f8c"
+          ],
+          "field": "author.facts",
+          "claim": "파울로 코엘료는 1947년에 태어났다",
+          "verdict": "confirmed",
+          "url": "https://www.academia.org.br/academicos/paulo-coelho",
+          "quote": "Data de nascimento:  24 de Agosto de 1947"
+        },
+        {
+          "sids": [
+            "3a3c6dd98f8c"
+          ],
+          "field": "author.facts",
+          "claim": "코엘료는 생존 작가다(사망 연도 없음)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Paulo_Coelho",
+          "quote": "born 24 August 1947) is a Brazilian lyricist and novelist."
+        },
+        {
+          "sids": [
+            "3a3c6dd98f8c"
+          ],
+          "field": "author.facts",
+          "claim": "코엘료는 포르투갈어로 쓴다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Aleph_(novel)",
+          "quote": "Aleph was written in Coelho's native language, Portuguese ."
+        },
+        {
+          "sids": [
+            "3a3c6dd98f8c"
+          ],
+          "field": "author.facts",
+          "claim": "코엘료는 브라질(라틴아메리카) 작가다",
+          "verdict": "confirmed",
+          "url": "https://www.academia.org.br/academicos/paulo-coelho",
+          "quote": "Naturalidade:  Rio de Janeiro - RJ Brasil"
+        },
+        {
+          "sids": [
+            "1976c6cbffaa"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코엘료는 1988년 소설 『연금술사』로 알려졌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Paulo_Coelho",
+          "quote": "His 1988 novel The Alchemist is an international best-seller."
+        },
+        {
+          "sids": [
+            "1976c6cbffaa",
+            "834787102dd0",
+            "61329f0a4c01"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『연금술사』는 알레고리 소설이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20120102123431/http://www.nytimes.com/2011/09/27/books/paulo-coelho-discusses-aleph-his-new-novel.html",
+          "quote": "most prominently “The Alchemist,” an allegorical novel"
+        },
+        {
+          "sids": [
+            "1976c6cbffaa",
+            "3dd89438aedc"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『연금술사』는 먼 곳의 보물을 찾다가 보물이 집에 있었음을 알게 되는 민담 유형(ATU 1645)을 뼈대로 삼았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+          "quote": "The plot of the novel builds on the international folktale type classified as no. 1645 (\"The Treasure at Home\") in the Aarne–Thompson–Uther Index of folktales"
+        },
+        {
+          "sids": [
+            "1976c6cbffaa"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코엘료는 인물들의 영적 여정을 풍부한 상징으로 그린다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "known for employing rich symbolism in his depictions of the often spiritually motivated journeys taken by his characters"
+        },
+        {
+          "sids": [
+            "1976c6cbffaa",
+            "30f1bd9141d1"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『연금술사』에는 연금술(연금술사)이 중심 요소로 등장한다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250923050448/https://www.britannica.com/topic/The-Alchemist-novel-by-Coelho",
+          "quote": "The alchemist and Santiago arrive at a Coptic monastery, where the alchemist turns lead into gold"
+        },
+        {
+          "sids": [
+            "d95c05c642ae"
+          ],
+          "field": "author.importanceReason",
+          "claim": "1986년 산티아고 순례를 한 뒤 『순례자』를 써 1987년에 냈다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Paulo_Coelho",
+          "quote": "Also in 1986, Coelho walked the Camino de Santiago in northwestern Spain. … Afterwards, Coelho wrote The Pilgrimage , published in 1987."
+        },
+        {
+          "sids": [
+            "d95c05c642ae",
+            "b278b670f831"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『알레프』(2010)는 2006년 시베리아 횡단열차 여행을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "O Aleph (2010; Aleph ) was ostensibly the true tale of Coelho’s 2006 journey on the Trans-Siberian Railroad"
+        },
+        {
+          "sids": [
+            "d95c05c642ae",
+            "f313bfd95676"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코엘료는 『순례자』『알레프』처럼 자기 여정을 자전적 작품으로 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Paulo_Coelho",
+          "quote": "Four of his novels – The Pilgrimage , Hippie , The Valkyries , and Aleph – are autobiographical"
+        },
+        {
+          "sids": [
+            "d95c05c642ae",
+            "55a87522c9f2"
+          ],
+          "field": "author.importanceReason",
+          "claim": "‘자히르’는 코엘료가 보르헤스 단편에서 찾은 말로 소설 제목과 중심 모티프(강박)가 됐다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2008/06/25/todays-question-by-aart-hilal-100/",
+          "quote": "The Zahir for instance was a term that I found in one of his stories and his definition is what propelled me towards the realms of obsession."
+        },
+        {
+          "sids": [
+            "d95c05c642ae",
+            "aaa490eac568"
+          ],
+          "field": "author.importanceReason",
+          "claim": "‘알레프’라는 개념을 보르헤스 단편에서 빌려 제목으로 삼았다",
+          "verdict": "contradicted",
+          "url": "https://paulocoelhoblog.com/2010/03/13/my-new-book/",
+          "quote": "O ponto onde o tempo e o espaí§o se encontram é chamado na tradií§ao mágica de “Aleph” (J.L. Borges tem uma maravilhosa historia sobre este ponto) . Portanto, o tí­tulo do meu novo livro é “O Aleph”.",
+          "correction": "시간과 공간이 한 점에 모이는 지점을 가리키는 마법 전통의 말 ‘알레프’를 제목으로 삼았고, 코엘료는 보르헤스에게 이 지점을 다룬 단편 「알레프」가 있다고 덧붙였다.",
+          "note": "인용의 깨진 문자는 블로그 원문 인코딩 그대로다. 2011년 NYT 인터뷰에서도 코엘료는 보르헤스가 아니라 알레프라는 개념에 영향을 받았다고 말했다(같은 페이지 관계 요약 참조)."
+        },
+        {
+          "sids": [
+            "c6bbd5068de0"
+          ],
+          "field": "author.importanceReason",
+          "claim": "비평은 그의 소설이 지나치게 교훈적이라고 평해 왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "critics have often characterized them as overly didactic and moralizing"
+        },
+        {
+          "sids": [
+            "c6bbd5068de0"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코엘료는 2002년 브라질 문학 아카데미 회원으로 선출됐다",
+          "verdict": "confirmed",
+          "url": "https://www.academia.org.br/academicos/paulo-coelho",
+          "quote": "Oitavo ocupante da Cadeira nº 21, eleito em 25 de julho de 2002"
+        },
+        {
+          "sids": [
+            "61329f0a4c01",
+            "1976c6cbffaa",
+            "3dd89438aedc"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『연금술사』는 꿈을 좇아 떠났다가 보물이 떠나온 자리에 있었음을 알게 되는 이야기다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+          "quote": "Santiago realises that the treasure he sought was where he had his original dream all along."
+        },
+        {
+          "sids": [
+            "61329f0a4c01",
+            "0e43803f245f"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『오 자히르』는 『연금술사』처럼 순례를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Zahir_(novel)",
+          "quote": "As in an earlier book, The Alchemist , The Zahir is about a pilgrimage ."
+        },
+        {
+          "sids": [
+            "aac1095fc6ca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "2026년 7월 북다에서 최정수 번역 『연금술사』 최신개정판이 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397021013",
+          "quote": "최정수  (옮긴이) 북다 2026-07-03",
+          "note": "같은 페이지 표제: \"연금술사 - 최신개정판\""
+        },
+        {
+          "sids": [
+            "aac1095fc6ca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 판은 양장 316쪽이다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397021013",
+          "quote": "양장본 316쪽 135*195mm 442g ISBN : 9791170614029"
+        },
+        {
+          "sids": [
+            "aac1095fc6ca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "지금 새 책으로 주문할 수 있다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=397021013",
+          "quote": "지금 택배로 주문하면 9월 27일 출고",
+          "note": "2026년 9월 24일 조회"
+        },
+        {
+          "sids": [
+            "0e43803f245f"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『오 자히르』는 베스트셀러 작가인 화자가 사라진 아내를 찾는, 자전적 성격이 강한 장편이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Zahir_(novel)",
+          "quote": "Intended as a work of fiction, the story has strong autobiographical features"
+        },
+        {
+          "sids": [
+            "0e43803f245f",
+            "ae61dea0e500"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『알레프』는 베스트셀러 작가인 주인공의 여행을 다룬 자전적 책이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20120102123431/http://www.nytimes.com/2011/09/27/books/paulo-coelho-discusses-aleph-his-new-novel.html",
+          "quote": "best-selling author, world traveler, spiritual seeker. How autobiographical is this book? A. One hundred percent."
+        },
+        {
+          "sids": [
+            "0e43803f245f"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『오 자히르』는 영국 언론에서 자기중심적이라는 비판을 받았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Zahir_(novel)",
+          "quote": "which led to an attack on the book's shallow egotism in the English press."
+        },
+        {
+          "sids": [
+            "755cbf23ef2c"
+          ],
+          "field": "author.readingWarning",
+          "claim": "문학동네판 『순례자』은 알라딘에서 절판으로 표시돼 있다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=13286743",
+          "quote": "절판 판권 소멸 등으로 더 이상 제작, 유통 계획이 없습니다.",
+          "note": "같은 페이지 서지: \"문학동네 2011-10-05 원제 : O Diario de um Mago (1987년)\"; 절판 확인일 2026-04-30"
+        },
+        {
+          "sids": [
+            "755cbf23ef2c"
+          ],
+          "field": "author.readingWarning",
+          "claim": "문학동네판 『베로니카, 죽기로 결심하다』은 알라딘에서 절판으로 표시돼 있다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=297330172",
+          "quote": "절판 판권 소멸 등으로 더 이상 제작, 유통 계획이 없습니다.",
+          "note": "같은 페이지 서지: \"문학동네 2022-07-12 원제 : Veronika decide morrer\"; 절판 확인일 2026-04-30"
+        },
+        {
+          "sids": [
+            "755cbf23ef2c"
+          ],
+          "field": "author.readingWarning",
+          "claim": "문학동네판 『오 자히르』은 알라딘에서 절판으로 표시돼 있다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=572641",
+          "quote": "절판 판권 소멸 등으로 더 이상 제작, 유통 계획이 없습니다.",
+          "note": "같은 페이지 서지: \"문학동네 2005-07-11 원제 : O Zahir (2005년)\"; 절판 확인일 2026-04-30"
+        },
+        {
+          "sids": [
+            "755cbf23ef2c"
+          ],
+          "field": "author.readingWarning",
+          "claim": "문학동네판 『알레프』은 알라딘에서 절판으로 표시돼 있다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=13030616",
+          "quote": "절판 판권 소멸 등으로 더 이상 제작, 유통 계획이 없습니다.",
+          "note": "같은 페이지 서지: \"문학동네 2011-09-23 원제 : O Aleph (2010년)\"; 절판 확인일 2026-04-30"
+        },
+        {
+          "sids": [
+            "755cbf23ef2c"
+          ],
+          "field": "author.readingWarning",
+          "claim": "네 책은 도서관이나 중고로만 구할 수 있다",
+          "verdict": "contradicted",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=572641",
+          "quote": "출판사(공급사)를 통해 품절(절판)을 확인하였으나, 잔여재고를 보유/판매하고 있는 다른 인터넷서점이 있어 알려드립니다.",
+          "correction": "또 『순례자』 『베로니카, 죽기로 결심하다』 『오 자히르』 『알레프』의 문학동네판은 알라딘에서 절판으로 표시돼 있어, 도서관이나 중고, 또는 잔여 재고가 남은 다른 서점에서 구해야 한다.",
+          "note": "네 상품 페이지 모두 같은 안내 문구를 싣고 있다"
+        },
+        {
+          "sids": [
+            "f582674173e1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "코엘료의 작품은 단순하다는 평을 받는다",
+          "verdict": "confirmed",
+          "url": "https://www.theguardian.com/books/2008/jun/11/paulocoelho",
+          "quote": "critics tend to be more sniffy about the simplicity of his work"
+        },
+        {
+          "sids": [
+            "ef1b49400dc9"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "일부 비평이 코엘료 소설의 단순한 문법 구조를 약점으로 꼽았다",
+          "verdict": "contradicted",
+          "url": "https://www.theguardian.com/books/2008/jun/11/paulocoelho",
+          "quote": "critics tend to be more sniffy about the simplicity of his work, suggesting that he is pandering to the lowest common denominator of new age gullibility",
+          "correction": "일부 비평은 그의 작품이 단순하다는 점을 깎아내린다.",
+          "note": "비평이 ‘문법 구조’의 단순함을 약점으로 꼽았다는 출처는 찾지 못했다. Guardian·Observer 서평, Britannica, 위키백과(영·포)를 확인했다."
+        },
+        {
+          "sids": [
+            "30f1bd9141d1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "코엘료는 『연금술사』와 『오 자히르』에 수피 전통을 끌어왔다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2009/04/07/today%e2%80%99s-question-by-the-reader-sami/",
+          "quote": "I refer to this tradition in some of my books such as The Alchemist and more recently The Zahir."
+        },
+        {
+          "sids": [
+            "30f1bd9141d1",
+            "f313bfd95676"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "코엘료는 『순례자』에 가톨릭 신앙으로 돌아가는 과정을 기록했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "Coelho, who had recorded the trajectory of his return to the Catholic faith in The Pilgrimage and The Valkyries"
+        },
+        {
+          "sids": [
+            "30f1bd9141d1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "그의 소설에는 교훈적인 문장이 두드러진다는 평이 있다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "critics have often characterized them as overly didactic and moralizing"
+        },
+        {
+          "sids": [
+            "30f1bd9141d1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『오 자히르』(문학동네판)는 448쪽이다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=572641",
+          "quote": "양장본 448쪽 136*195mm 534g ISBN : 9788982819995"
+        },
+        {
+          "sids": [
+            "30f1bd9141d1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『알레프』(문학동네판)는 400쪽이다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=13030616",
+          "quote": "양장본 400쪽 128*188mm (B6) 560g ISBN : 9788954616126"
+        },
+        {
+          "sids": [
+            "1eff4cc20f60"
+          ],
+          "field": "work:paulo-coelho--o-alquimista.facts",
+          "claim": "『연금술사』 원제 O Alquimista, 1988년, 소설",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250923050448/https://www.britannica.com/topic/The-Alchemist-novel-by-Coelho",
+          "quote": "The Alchemist , novel by Brazilian author and lyricist Paulo Coelho . The Alchemist was first published in 1988 in Portuguese as O Alquimista ."
+        },
+        {
+          "sids": [
+            "834787102dd0"
+          ],
+          "field": "work:paulo-coelho--o-alquimista.significance",
+          "claim": "안달루시아의 양치기 소년 산티아고가 꿈에 이끌려 이집트로 보물을 찾아 떠난다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250923050448/https://www.britannica.com/topic/The-Alchemist-novel-by-Coelho",
+          "quote": "The novel follows the story of Santiago, an Andalusian shepherd boy, who is driven by recurring dreams to travel to Egypt and seek treasure."
+        },
+        {
+          "sids": [
+            "834787102dd0"
+          ],
+          "field": "work:paulo-coelho--o-alquimista.significance",
+          "claim": "산티아고는 북아프리카를 건너 이집트 피라미드로 간다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+          "quote": "The story follows Santiago, a shepherd boy, in his journey across North Africa to the Egyptian pyramids after he dreams of finding treasure there."
+        },
+        {
+          "sids": [
+            "544bdd098b33"
+          ],
+          "field": "work:paulo-coelho--o-alquimista.significance",
+          "claim": "첫 출판사는 900부를 찍고 더 찍지 않았으며, 다른 출판사에서 다시 나왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250923050448/https://www.britannica.com/topic/The-Alchemist-novel-by-Coelho",
+          "quote": "Coelho’s first publisher printed only 900 copies and then stopped publication. Coelho retained the rights to the novel. It was only when his next novel, Brida , was published in 1990 by a larger publisher in Brazil, that The Alchemist was printed again."
+        },
+        {
+          "sids": [
+            "544bdd098b33"
+          ],
+          "field": "work:paulo-coelho--o-alquimista.significance",
+          "claim": "다시 나온 뒤 브라질과 번역본으로 해외에서 크게 성공했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "After being dropped by its first publisher, the book was reissued to great success in Brazil and—in translation—abroad."
+        },
+        {
+          "sids": [
+            "15950ed95b5b"
+          ],
+          "field": "work:paulo-coelho--o-diario-de-um-mago.facts",
+          "claim": "『순례자』 원제 O Diário de um Mago, 1987년",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "formed the basis of his first book, O diário de um mago (1987)"
+        },
+        {
+          "sids": [
+            "15950ed95b5b"
+          ],
+          "field": "work:paulo-coelho--o-diario-de-um-mago.facts",
+          "claim": "『순례자』는 (자전적) 소설로 분류된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Paulo_Coelho",
+          "quote": "Four of his novels – The Pilgrimage , Hippie , The Valkyries , and Aleph – are autobiographical"
+        },
+        {
+          "sids": [
+            "f313bfd95676"
+          ],
+          "field": "work:paulo-coelho--o-diario-de-um-mago.significance",
+          "claim": "『순례자』는 1986년 산티아고 순례길 체험을 쓴 책이다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2010/03/13/my-new-book/",
+          "quote": "A primeira foi O Caminho de Santiago (1986), uma viagem no espaí§o fí­sico, cobrindo a distí¢ncia entre dois pontos. No meu caso, andei da fronteira da Franí§a até O Cebreiro (Galí­cia), e foi tema do meu primeiro livro, “O diario de um mago” .",
+          "note": "깨진 문자는 블로그 원문 인코딩 그대로다."
+        },
+        {
+          "sids": [
+            "351bbbc6513e"
+          ],
+          "field": "work:paulo-coelho--o-diario-de-um-mago.significance",
+          "claim": "코엘료는 뒷날(2010) 1986년 산티아고 길을 첫 번째 성스러운 순례라고 불렀다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2010/03/13/my-new-book/",
+          "quote": "In 2006 I was called to my 3rd sacred pilgrimage. The first one, the Road to Santiago (1986) takes place in space"
+        },
+        {
+          "sids": [
+            "351bbbc6513e"
+          ],
+          "field": "work:paulo-coelho--o-diario-de-um-mago.significance",
+          "claim": "『알레프』는 세 번째 순례(2006)를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2010/03/13/my-new-book/",
+          "quote": "This point where time and space converge is called “The Aleph”(J.L.Borges has a wonderful short story about this point) . Therefore, this is the title of my new book: “The Aleph”.",
+          "note": "같은 글이 이 여행을 “my 3rd sacred pilgrimage”(2006)라 부른 문단에 이어진다."
+        },
+        {
+          "sids": [
+            "df537ee9eafa"
+          ],
+          "field": "work:paulo-coelho--veronika-decide-morrer.facts",
+          "claim": "『베로니카, 죽기로 결심하다』 원제 Veronika Decide Morrer, 1998년, 소설",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "Coelho’s later novels include Veronika decide morrer (1998; Veronika Decides to Die )"
+        },
+        {
+          "sids": [
+            "6c16cbe5d64b"
+          ],
+          "field": "work:paulo-coelho--veronika-decide-morrer.significance",
+          "claim": "류블랴나의 스물네 살 베로니카가 모든 것을 갖춘 듯한 삶을 끝내려 한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Veronika_Decides_to_Die",
+          "quote": "It tells the story of Veronika, a 24-year-old Slovenian who appears to have everything in life going for her, but who decides to kill herself.",
+          "note": "같은 문서: \"Veronika is a young woman from Ljubljana , Slovenia\""
+        },
+        {
+          "sids": [
+            "6c16cbe5d64b"
+          ],
+          "field": "work:paulo-coelho--veronika-decide-morrer.significance",
+          "claim": "베로니카는 정신병원 빌레트에서 깨어나 며칠밖에 살 수 없다는 말을 듣는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Veronika_Decides_to_Die",
+          "quote": "she wakes up from the coma in Villette, a mental hospital in Slovenia, where she is told she has only a few days to live"
+        },
+        {
+          "sids": [
+            "ff54fe5bcec4"
+          ],
+          "field": "work:paulo-coelho--veronika-decide-morrer.significance",
+          "claim": "작가 자신의 정신병원 경험이 부분적으로 바탕이 됐고 광기를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Veronika_Decides_to_Die",
+          "quote": "This book is partly based on Coelho's experience in various mental institutions (see the biography Confessions of a Pilgrim by Juan Arias), and deals with the subject of madness."
+        },
+        {
+          "sids": [
+            "ff54fe5bcec4"
+          ],
+          "field": "work:paulo-coelho--veronika-decide-morrer.significance",
+          "claim": "광기와 정상의 경계를 묻는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Veronika_Decides_to_Die",
+          "quote": "The gist of the message is that \"collective madness is called sanity\"."
+        },
+        {
+          "sids": [
+            "b228d4fd466c"
+          ],
+          "field": "work:paulo-coelho--o-zahir.facts",
+          "claim": "『오 자히르』 원제 O Zahir, 2005년",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=572641",
+          "quote": "원제 : O Zahir (2005년)"
+        },
+        {
+          "sids": [
+            "b228d4fd466c"
+          ],
+          "field": "work:paulo-coelho--o-zahir.facts",
+          "claim": "『오 자히르』는 소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Zahir_(novel)",
+          "quote": "The Zahir is a 2005 novel by the Brazilian writer Paulo Coelho ."
+        },
+        {
+          "sids": [
+            "327586570347"
+          ],
+          "field": "work:paulo-coelho--o-zahir.significance",
+          "claim": "베스트셀러 작가인 화자가 파리 집에서 사라진 아내 에스테르를 찾는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Zahir_(novel)",
+          "quote": "The story revolves around the life of the narrator , a bestselling novelist, and in particular his search for his missing wife, Esther.",
+          "note": "같은 문서: \"the inexplicable disappearance of his wife from their Paris home\""
+        },
+        {
+          "sids": [
+            "327586570347"
+          ],
+          "field": "work:paulo-coelho--o-zahir.significance",
+          "claim": "아내 에스테르는 종군기자다",
+          "verdict": "confirmed",
+          "url": "https://www.theguardian.com/books/2005/jun/19/fiction.paulocoelho",
+          "quote": "Coelho gives his narrator a war-correspondent wife, Esther, who disappears."
+        },
+        {
+          "sids": [
+            "327586570347"
+          ],
+          "field": "work:paulo-coelho--o-zahir.significance",
+          "claim": "이야기는 카자흐스탄까지 간다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Zahir_(novel)",
+          "quote": "Through the narrator's journey from Paris to Kazakhstan, Coelho explores the various meanings of love and life."
+        },
+        {
+          "sids": [
+            "55a87522c9f2"
+          ],
+          "field": "work:paulo-coelho--o-zahir.significance",
+          "claim": "‘자히르’는 한번 보면 잊지 못해 강박이 되는 대상을 가리킨다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Zahir",
+          "quote": "The Zahir is a person or an object that has the power to create an obsession in everyone who sees it"
+        },
+        {
+          "sids": [
+            "b278b670f831"
+          ],
+          "field": "work:paulo-coelho--o-aleph.facts",
+          "claim": "『알레프』는 소설로 분류된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Aleph_(novel)",
+          "quote": "Aleph is a 2011 novel by the Brazilian writer Paulo Coelho .",
+          "note": "연도 2011은 영역판 기준이며, 원작 연도 2010은 Britannica 인용(“O Aleph (2010; Aleph )”)으로 확인했다."
+        },
+        {
+          "sids": [
+            "ae61dea0e500"
+          ],
+          "field": "work:paulo-coelho--o-aleph.significance",
+          "claim": "『알레프』는 2006년 시베리아 횡단열차로 아시아를 건넌 여행을 다룬 자전적 책이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20120102123431/http://www.nytimes.com/2011/09/27/books/paulo-coelho-discusses-aleph-his-new-novel.html",
+          "quote": "a book that tells the story of his own epiphany while on a pilgrimage through Asia in 2006 on the Trans-Siberian Railway."
+        },
+        {
+          "sids": [
+            "aaa490eac568"
+          ],
+          "field": "work:paulo-coelho--o-aleph.significance",
+          "claim": "‘알레프’는 시간과 공간이 한 점에 모이는 지점이다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2010/03/13/my-new-book/",
+          "quote": "This point where time and space converge is called “The Aleph”"
+        },
+        {
+          "sids": [
+            "aaa490eac568"
+          ],
+          "field": "work:paulo-coelho--o-aleph.significance",
+          "claim": "여행 중 전생의 연인을 만난다는 이야기를 덧붙였다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260124225521/https://www.britannica.com/biography/Paulo-Coelho",
+          "quote": "but he embroidered the experience with a supposed encounter with a reincarnated lover from another lifetime."
+        },
+        {
+          "sids": [
+            "912720e118e7"
+          ],
+          "field": "relation:influence--jorge-luis-borges--paulo-coelho.facts",
+          "claim": "보르헤스→코엘료 영향 관계는 코엘료 자신의 진술로 문서화돼 있다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2008/06/25/todays-question-by-aart-hilal-100/",
+          "quote": "Borges has been a constant source of inspiration."
+        },
+        {
+          "sids": [
+            "d8bc2eb1dd83"
+          ],
+          "field": "relation:influence--jorge-luis-borges--paulo-coelho.summary",
+          "claim": "2008년 블로그 독자 문답에서 보르헤스를 ‘끊임없는 영감의 원천’이라 불렀다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2008/06/25/todays-question-by-aart-hilal-100/",
+          "quote": "Of course I’m bound to other writers. Borges has been a constant source of inspiration.",
+          "note": "게시일 25/06/2008, 표제 \"Today’s Question by Aart Hilal\""
+        },
+        {
+          "sids": [
+            "d8bc2eb1dd83"
+          ],
+          "field": "relation:influence--jorge-luis-borges--paulo-coelho.summary",
+          "claim": "같은 문답에서 『오 자히르』의 ‘자히르’를 보르헤스 단편에서 찾았다고 밝혔다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2008/06/25/todays-question-by-aart-hilal-100/",
+          "quote": "The Zahir for instance was a term that I found in one of his stories"
+        },
+        {
+          "sids": [
+            "d8bc2eb1dd83"
+          ],
+          "field": "relation:influence--jorge-luis-borges--paulo-coelho.summary",
+          "claim": "2010년 블로그 글 「My new book」에서 보르헤스 단편 「알레프」를 들어 새 소설 제목을 『알레프』로 정했다고 썼다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2010/03/13/my-new-book/",
+          "quote": "This point where time and space converge is called “The Aleph”(J.L.Borges has a wonderful short story about this point) . Therefore, this is the title of my new book: “The Aleph”.",
+          "note": "게시일 13/03/2010"
+        },
+        {
+          "sids": [
+            "444ab7933cfb"
+          ],
+          "field": "relation:influence--jorge-luis-borges--paulo-coelho.summary",
+          "claim": "2011년 NYT 인터뷰에서 보르헤스를 ‘나의 아이콘’이라 부르면서도 영향은 알레프라는 개념에서 받았다고 말했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20120102123431/http://www.nytimes.com/2011/09/27/books/paulo-coelho-discusses-aleph-his-new-novel.html",
+          "quote": "He is my icon, the best writer in the world of my generation. But I wasn’t influenced by him, I was influenced by the idea of aleph, the concept.",
+          "note": "기사 게재 September 26, 2011"
+        },
+        {
+          "sids": [
+            "1be36d9bdea3"
+          ],
+          "field": "relation:influence--rumi--paulo-coelho.facts",
+          "claim": "루미→코엘료 영향 관계는 코엘료 자신의 진술로 문서화돼 있다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2009/04/07/today%e2%80%99s-question-by-the-reader-sami/",
+          "quote": "Rumi is of course the first figure that springs to mind.",
+          "note": "질문: \"Is there a particular Sufi that influenced your life, and whose influence was reflected in your works?\""
+        },
+        {
+          "sids": [
+            "e9200335a555"
+          ],
+          "field": "relation:influence--rumi--paulo-coelho.summary",
+          "claim": "2009년 시리아 영문 월간지 『포워드』의 사미 무바예드와 인터뷰했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2010/https://fwmagazine.wordpress.com/2009/04/12/paolo-coelho-tells-syrians-my-writings-are-influenced-by-your-sufi-tradition/",
+          "quote": "Coelho told Sami Moubayed, the known Syrian political analyst and editor-in-chief of Forward Magazine.",
+          "note": "같은 글: \"The interview appeared in Forward Magazine’s issue of April 2009.\" / \"Forward Magazine is Syria’s leading English monthly\""
+        },
+        {
+          "sids": [
+            "e9200335a555"
+          ],
+          "field": "relation:influence--rumi--paulo-coelho.summary",
+          "claim": "같은 문답이 코엘료 블로그에도 실렸다",
+          "verdict": "confirmed",
+          "url": "https://paulocoelhoblog.com/2009/04/07/today%e2%80%99s-question-by-the-reader-sami/",
+          "quote": "Reading through your novels, one finds a strong influence of Sufism. Is there a particular Sufi that influenced your life, and whose influence was reflected in your works?",
+          "note": "블로그 게시일 07/04/2009, 표제 \"Today’s Question by the Reader : Sami\"; 답변 문장이 Forward 기사 인용과 같다"
+        },
+        {
+          "sids": [
+            "e9200335a555"
+          ],
+          "field": "relation:influence--rumi--paulo-coelho.summary",
+          "claim": "『연금술사』와 『오 자히르』에 수피 전통을 끌어왔다고 말했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2010/https://fwmagazine.wordpress.com/2009/04/12/paolo-coelho-tells-syrians-my-writings-are-influenced-by-your-sufi-tradition/",
+          "quote": "Indeed, Sufism has inspired me a lot throughout my life and I refer to this tradition in some of my books such as The Alchemist and more recently The Zahir ."
+        },
+        {
+          "sids": [
+            "e9200335a555"
+          ],
+          "field": "relation:influence--rumi--paulo-coelho.summary",
+          "claim": "영향을 준 수피로 루미를 가장 먼저 떠오르는 인물로 꼽았다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2010/https://fwmagazine.wordpress.com/2009/04/12/paolo-coelho-tells-syrians-my-writings-are-influenced-by-your-sufi-tradition/",
+          "quote": "Rumi is of course the first figure that springs to mind."
+        }
+      ],
+      "noClaim": {
+        "68cf812f338a": "『오 자히르』나 『알레프』로 시작하지 말라는 읽기 순서 조언일 뿐 확인할 사실 주장이 없다(근거 사실은 다음 문장에서 따로 확인)."
+      }
+    }
+  ]
+}

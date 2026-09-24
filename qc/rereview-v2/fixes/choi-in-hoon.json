@@ -1,0 +1,46 @@
+{
+  "fixes": [
+    {
+      "id": "choi-in-hoon",
+      "birthYear": 1934,
+      "lifeApprox": true,
+      "readingEntryReason": "원고지 600매 분량의 장편으로, 한 인물이 남과 북을 차례로 겪는 줄거리가 분명해 따라가기 쉽다. 이후 작품들이 되풀이하는 분단국가 지식인이라는 주제가 여기서 먼저 서사로 나온다. 한국어판은 문학과지성사 최인훈 전집 1권 『광장/구운몽』으로 지금 살 수 있다.",
+      "difficultyReason": "『광장』은 줄거리가 분명하지만 이념과 자기 선택 앞에 선 지식인의 자기성찰을 그린다. 『회색인』부터는 사건보다 지식인의 독백과 사변이, 『서유기』에서는 환상 장면의 연쇄가 소설을 끌고 간다.",
+      "dropRelations": [
+        "influence--yi-sang--choi-in-hoon"
+      ],
+      "resolutions": [
+        {
+          "field": "author.facts",
+          "claim": "최인훈은 1936년에 태어났다",
+          "resolution": "corrected",
+          "evidence": "birthYear 1936 → 1934, lifeApprox(쪽에 「무렵」). 경향신문 부고: 「1934년(공식 출생기록은 1936년)」, 한국어 위키백과도 1934년 4월 13일."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "'월남 지식인'이라는 주제가 『광장』에서 먼저 서사로 나온다",
+          "resolution": "corrected",
+          "evidence": "'월남 지식인과 분단' → '분단국가 지식인'(한국일보 2008: 「분단국가의 지식인이 감내해야 하는 고뇌」). 교정문의 '분단과'는 문장을 늘려 넣지 않았다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『광장』에는 인물이 길게 사변하는 대목이 많다",
+          "resolution": "narrowed",
+          "evidence": "'길게 사변하는 대목이 많다'를 빼고 확정된 주장(이념과 자기 선택 앞에 선 지식인의 자기성찰, 알라딘 전집 1권 소개)으로 좁혔다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『회색인』·『서유기』는 해방·분단·식민지 역사에 대한 인용과 암시가 많아 배경 지식이 필요하다",
+          "resolution": "narrowed",
+          "evidence": "'해방·분단·식민지 역사에 대한 배경 지식 없이는 인용과 암시를 따라가기 어렵다'를 뺐다. 남은 부분(독백과 사변, 환상 장면의 연쇄)은 확정된 주장이다."
+        },
+        {
+          "field": "relation:influence--yi-sang--choi-in-hoon.facts",
+          "claim": "이 영향은 학계 통설(scholarly_consensus) 수준이다",
+          "resolution": "relation-dropped",
+          "evidence": "근거는 이유경(2019) 논문 한 편뿐이다. documented_influence 가 허용하는 수준(documented·scholarly_consensus) 어느 쪽도 받쳐지지 않아 관계를 뺐다. 도판에는 이청준과의 affinity 관계가 남는다."
+        }
+      ]
+    }
+  ]
+}

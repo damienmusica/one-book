@@ -1,0 +1,832 @@
+{
+ "plates": [
+  {
+   "id": "keigo-higashino",
+   "claims": [
+    {
+     "sids": [
+      "49cb45ccc96b"
+     ],
+     "field": "author.facts",
+     "claim": "히가시노 게이고는 1958년에 태어났다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "1958 年 2 月 4 日、大阪府生まれ。"
+    },
+    {
+     "sids": [
+      "49cb45ccc96b"
+     ],
+     "field": "author.facts",
+     "claim": "2026년에 세상을 떠났다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/東野圭吾",
+     "quote": "2026年7月23日未明、[[大腸がん]]のため死去した。"
+    },
+    {
+     "sids": [
+      "49cb45ccc96b"
+     ],
+     "field": "author.facts",
+     "claim": "원어 표기는 東野圭吾이고 일본(동아시아)의 일본어 소설가다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/東野圭吾",
+     "quote": "'''東野 圭吾'''（ひがしの けいご、…）は、[[日本]]の[[小説家]]。"
+    },
+    {
+     "sids": [
+      "caf5714b062a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "자동차 부품 회사의 엔지니어로 일하면서 소설을 썼다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20110214065222/http://blogs.wsj.com/scene/2011/02/11/is-this-guy-the-next-steig-larsson/",
+     "quote": "Mr. Higashino started out as an engineer at an auto parts company in the western city of Osaka. He wrote stories in the evenings and on weekends for three years before becoming a full-time writer."
+    },
+    {
+     "sids": [
+      "caf5714b062a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『방과 후』(1985)로 에도가와 란포상을 받고 등단했다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "エンジニアとして勤務しながら、1985 年『放課後』で第 31 回江戸川乱歩賞を受賞し、デビュー。"
+    },
+    {
+     "sids": [
+      "1ae174c6371d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "초기에는 밀실 같은 고전적 장치를 좋아하는 본격 추리에서 출발했다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/東野圭吾",
+     "quote": "1986年の『白馬山荘殺人事件』では「密室だとか暗号だとかの、いわゆる古典的な小道具が大好きで、たとえ時代遅れだといわれようとも、こだわり続けたい」と語り、本格推理小説の「お約束事」を好む発言をしていた。"
+    },
+    {
+     "sids": [
+      "1ae174c6371d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『용의자 X의 헌신』은 범인을 초반에 밝혀 두고 ‘어떻게 빠져나가려 하는가’로 이야기를 끌고 간다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20110214065222/http://blogs.wsj.com/scene/2011/02/11/is-this-guy-the-next-steig-larsson/",
+     "quote": "With the killer clearly identified in the early chapters, the novel is also not the typical “whodunit” brand of murder mystery — instead it’s the question of “how they try to get away with it” that drives the plot forward."
+    },
+    {
+     "sids": [
+      "1ae174c6371d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "‘탐정 갈릴레오’ 연작은 물리학자가 과학 지식으로 불가해한 사건을 푸는 이야기다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ガリレオシリーズ",
+     "quote": "天才物理学者・湯川学が大学時代の友人である刑事・草薙俊平や女性刑事・内海薫の依頼を受け、不可解な事件を論理的思考と[[科学]]の知識によって解決していくミステリー。"
+    },
+    {
+     "sids": [
+      "1ae174c6371d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『명탐정의 규칙』은 추리소설이라는 장르의 관습 자체를 비꼰다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/東野圭吾",
+     "quote": "推理小説というジャンルそのものや出版業界に対する批判・皮肉をユーモアを交えて描いた『名探偵の掟』『名探偵の呪縛』『超・殺人事件』などを発表している。"
+    },
+    {
+     "sids": [
+      "1ae174c6371d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "추리의 틀(후더닛·하우더닛 등)을 여러 차례 크게 바꿔 왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/東野圭吾",
+     "quote": "などの[[フーダニット]]（Who had done it）を重視した作品や、『探偵ガリレオ』『予知夢』などのハウダニット（How done it）を重視した作品などスタイルを大きく転換することとなり、ミステリーの枠を広げる試みを続けている。"
+    },
+    {
+     "sids": [
+      "b4f2687f0c2c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "갈수록 트릭의 의외성보다 현실적인 설정과 사회성을 앞세웠다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/東野圭吾",
+     "quote": "意外性に重きを置いた作品が減少し、[[社会派推理小説]]のような現実的な設定にこだわるようになる。…近年は、社会性に重きを置いた作品が多い。"
+    },
+    {
+     "sids": [
+      "b4f2687f0c2c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『비밀』은 죽은 아내의 영혼이 딸의 몸에 깃드는 설정이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "しかしそれは、仮死状態になった娘・藻奈美の身体に、死んだ妻・直子の魂が宿ったためだった。"
+    },
+    {
+     "sids": [
+      "b4f2687f0c2c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『나미야 잡화점의 기적』은 편지가 시간을 건너는 설정을 고민 상담 이야기로 풀었다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "過去の人間とやり取りができたなら何を書くかという空想から、「悩み相談」というアイデアが生まれ、未来を知る現代の人間が、過去に生きる人々の悩みに答えるという構図を据えた"
+    },
+    {
+     "sids": [
+      "f2d170b5c96c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "저서는 공저를 제외하고 106권이다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "現在の著作数は 106 冊（共著をのぞく）。"
+    },
+    {
+     "sids": [
+      "f2d170b5c96c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "저서가 41개 나라와 지역에서 출간됐다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "著作は 41 の国と地域で出版されている。"
+    },
+    {
+     "sids": [
+      "ab08f66201ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『용의자 X의 헌신』은 범인이 첫머리(초반)에서 독자에게 드러난다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20110214065222/http://blogs.wsj.com/scene/2011/02/11/is-this-guy-the-next-steig-larsson/",
+     "quote": "With the killer clearly identified in the early chapters"
+    },
+    {
+     "sids": [
+      "ab08f66201ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "수학자 이시가미가 짠 은폐를 물리학자 유가와가 풀어 간다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "天才物理学者・湯川学が、大学の同期でライバルと見なす天才数学者の殺人隠蔽トリックに挑むミステリー。"
+    },
+    {
+     "sids": [
+      "ab08f66201ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "한 권(단권)으로 나온 장편이다",
+     "verdict": "confirmed",
+     "url": "https://hon-hikidashi.jp/news/81244/",
+     "quote": "『容疑者Xの献身』は、東野圭吾さんの「ガリレオ」シリーズの3作目にあたる、2005年に出版された長篇作品です。"
+    },
+    {
+     "sids": [
+      "686bb77cfad0"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "탐정 갈릴레오 시리즈의 첫 장편이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "シリーズ初の長編作品。"
+    },
+    {
+     "sids": [
+      "686bb77cfad0"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "같은 주인공이 나와도 작품마다 이야기가 독립돼 있어 앞의 단편집을 몰라도 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/東野圭吾",
+     "quote": "また、同じ主人公でもストーリーはそれぞれ独立している。"
+    },
+    {
+     "sids": [
+      "686bb77cfad0"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "작가 생활 25주년과 40주년의 전 작품 인기투표에서 두 번 모두 1위에 올랐다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "東野圭吾の作家生活25周年、40周年にそれぞれ企画された「全作品人気投票」において、ともに1位を獲得している"
+    },
+    {
+     "sids": [
+      "785ad70721f8"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "재인판(양억관 옮김, 2017)이 현재 판매 중이다",
+     "verdict": "confirmed",
+     "url": "https://search.kyobobook.co.kr/search?keyword=%EC%9A%A9%EC%9D%98%EC%9E%90%20X%EC%9D%98%20%ED%97%8C%EC%8B%A0&target=total",
+     "quote": "용의자 X의 헌신 … 양억관 번역 외 더보기 닫기 저자 모두보기 재인 · 2017년 08월 30일 10% 16,920 원 정가 18,800원",
+     "note": "같은 검색 결과에서 현대문학 2006년판은 \"절판되었습니다\"로 표시되고, 재인 2017년판은 가격·주문 버튼이 표시됨(2026년 9월 조회)."
+    },
+    {
+     "sids": [
+      "1b4bfb2afa29"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『나미야 잡화점의 기적』은 시간을 건너는 편지로 이어지는 판타지다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "廃業した雑貨店に忍び込んだ3人の青年のもとに届いた手紙を通じ、時空を超えて人々の人生がつながり、救われていくファンタジー作品。"
+    },
+    {
+     "sids": [
+      "1b4bfb2afa29"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『나미야 잡화점의 기적』은 추리소설이 아니다",
+     "verdict": "contradicted",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "| genre         = [[ミステリ]]、[[ファンタジー]]",
+     "correction": "‘추리소설이 아니라’를 빼고, 편지가 과거와 미래를 오가는 판타지로 소개한다 (일본어 위키백과는 장르를 미스터리·판타지로 함께 적는다).",
+     "note": "교정 문장: 「이 책은 시간을 건너는 편지로 이어지는 에피소드형 판타지여서, 그의 본령인 추리의 설계는 『용의자 X의 헌신』이나 『악의』에서 먼저 만나는 편이 낫다.」"
+    },
+    {
+     "sids": [
+      "1b4bfb2afa29"
+     ],
+     "field": "author.readingWarning",
+     "claim": "히가시노의 본령은 추리소설이다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "日本を代表するミステリ作家である。"
+    },
+    {
+     "sids": [
+      "b8f408cca8f5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『악의』는 범인의 수기 자체가 독자를 속이는 장치다",
+     "verdict": "contradicted",
+     "url": "https://www.kirkusreviews.com/book-reviews/keigo-higashino/malice-higashino/",
+     "quote": "Despite the alibi Nonoguchi offers Kyoichiro Kaga and the detailed written account of his movements during the fatal evening, the police detective, who once taught at Nonoguchi’s school, can’t help suspecting his former colleague of “creat[ing] a fictional account of the events in order to divert suspicion from himself.”",
+     "correction": "『악의』는 가가 형사가 노노구치의 수기를 혐의를 돌리려고 꾸며 낸 기록이 아닌지 의심하는 구조여서, 읽은 것을 다시 의심하며 따라가야 하고",
+     "note": "출처는 수기가 지어낸 기록일 수 있다는 형사의 의심까지만 말한다. ‘수기 자체가 독자를 속이는 장치’라는 서술 트릭 규정을 직접 말하는 출처는 찾지 못함(일본어 위키백과 悪意 항목, 講談社 도서 소개, Kirkus 서평 확인)."
+    },
+    {
+     "sids": [
+      "b8f408cca8f5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『백야행』 한국어판은 두 권 분량이다",
+     "verdict": "confirmed",
+     "url": "https://search.kyobobook.co.kr/search?keyword=%EB%B0%B1%EC%95%BC%ED%96%89%20%ED%9E%88%EA%B0%80%EC%8B%9C%EB%85%B8&target=total",
+     "quote": "백야행 2 더보기 닫기 · · | | | | 하얀 어둠 속을 걷다 | 양장본 HardCover 히가시노 게이고 저자(글) | 김난주 번역 외 더보기 닫기 저자 모두보기 재인 · 2016년 04월 06일 … 백야행 1 더보기 닫기 · · | | | | 하얀 어둠 속을 걷다 | 양장본 HardCover 히가시노 게이고 저자(글) | 김난주 번역",
+     "note": "원서 단행본(集英社 1999)은 한 권이며, 두 권은 한국어 재인판 기준이다."
+    },
+    {
+     "sids": [
+      "b8f408cca8f5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『백야행』은 19년을 따라간다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "[[1973年]]の夏に起こったある事件から[[1992年]]までの2人の主人公の19年間を描く長編小説。"
+    },
+    {
+     "sids": [
+      "b8f408cca8f5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "두 주인공의 속마음은 직접 보여 주지 않고 주변 인물들의 시점으로 그들을 보여 준다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "彼らの心理描写は意図的に排され、彼らを取り巻く様々な人間たちの視点を通してその言動が示されていく。"
+    },
+    {
+     "sids": [
+      "97619d024067"
+     ],
+     "field": "work:keigo-higashino--hokago.facts",
+     "claim": "『방과 후』(放課後)는 1985년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "1985 年 9 月刊行のデビュー作『放課後』"
+    },
+    {
+     "sids": [
+      "97619d024067"
+     ],
+     "field": "work:keigo-higashino--hokago.facts",
+     "claim": "『방과 후』는 소설(장편 추리소설)이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/放課後_(東野圭吾)",
+     "quote": "[[日本]]の長編[[推理小説]]"
+    },
+    {
+     "sids": [
+      "576f213cffd0"
+     ],
+     "field": "work:keigo-higashino--hokago.significance",
+     "claim": "사립 여자고등학교의 수학 교사이자 양궁부 고문인 주인공이 누군가 자신을 노린다고 느낀다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/book/products/0000172448",
+     "quote": "私立女子高校の数学教師で，ア－チェリ－部顧問の私は，最近，何者かに命を狙われている"
+    },
+    {
+     "sids": [
+      "576f213cffd0"
+     ],
+     "field": "work:keigo-higashino--hokago.significance",
+     "claim": "주인공의 이름은 마에시마다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/放課後_(東野圭吾)",
+     "quote": "私立清華女子高等学校に勤めるアーチェリー部顧問の前島は、最近、何者かに命を狙われていると感じ始めていた。"
+    },
+    {
+     "sids": [
+      "576f213cffd0"
+     ],
+     "field": "work:keigo-higashino--hokago.significance",
+     "claim": "교사용 탈의실에서 밀실 살인이 일어난다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/放課後_(東野圭吾)",
+     "quote": "生徒指導部の村橋が教師用更衣室で青酸中毒により死亡しているのが発見される。…外部からの侵入は不可能と思われる完全な密室状態だった。"
+    },
+    {
+     "sids": [
+      "576f213cffd0"
+     ],
+     "field": "work:keigo-higashino--hokago.significance",
+     "claim": "사인은 청산가리 중독이다",
+     "verdict": "contradicted",
+     "url": "https://www.kodansha.co.jp/book/products/0000160434",
+     "quote": "校内の更衣室で生徒指導の教師が青酸中毒で死んでいた。",
+     "correction": "교사용 탈의실에서 청산 중독 밀실 살인이 일어난다.",
+     "note": "출처(講談社 문고 소개, 일본어 위키백과)는 ‘青酸中毒’까지만 말하고 독극물을 청산가리(青酸カリ)로 특정하지 않는다."
+    },
+    {
+     "sids": [
+      "6f9ab981ff50"
+     ],
+     "field": "work:keigo-higashino--hokago.significance",
+     "claim": "작가가 대학 시절 주장을 맡았던 양궁을 소재로 삼았다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/放課後_(東野圭吾)",
+     "quote": "作中では著者が大学時代に部のキャプテンをしていた[[アーチェリー]]が取り上げられている。"
+    },
+    {
+     "sids": [
+      "6f9ab981ff50"
+     ],
+     "field": "work:keigo-higashino--hokago.significance",
+     "claim": "데뷔작이며 제31회 에도가와 란포상 수상작이다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "1985 年『放課後』で第 31 回江戸川乱歩賞を受賞し、デビュー。"
+    },
+    {
+     "sids": [
+      "0b1b3941b530"
+     ],
+     "field": "work:keigo-higashino--akui.facts",
+     "claim": "『악의』(悪意)는 1996년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/悪意_(小説)",
+     "quote": "単行本は[[1996年]]9月20日に[[双葉社]]から刊行され"
+    },
+    {
+     "sids": [
+      "0b1b3941b530"
+     ],
+     "field": "work:keigo-higashino--akui.facts",
+     "claim": "『악의』는 소설(추리소설)이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/悪意_(小説)",
+     "quote": "[[東野圭吾]]による[[推理小説]]。[[加賀恭一郎シリーズ]]の第4作。"
+    },
+    {
+     "sids": [
+      "ce407584311e"
+     ],
+     "field": "work:keigo-higashino--akui.significance",
+     "claim": "인기 작가 히다카가 자택에서 살해된다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/悪意_(小説)",
+     "quote": "有名小説家の日高邦彦が自宅で他殺体となって発見された。"
+    },
+    {
+     "sids": [
+      "ce407584311e"
+     ],
+     "field": "work:keigo-higashino--akui.significance",
+     "claim": "가가 형사가 피해자의 오랜 친구인 아동문학 작가 노노구치의 ‘사건에 관한 수기’에 의문을 품는다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/悪意_(小説)",
+     "quote": "刑事の加賀恭一郎は、日高の親友である児童小説家の野々口修が書いた「事件に関する手記」に興味を持つ。加賀は聞き込みや推理を通して、野々口の手記に疑問を抱くようになる。"
+    },
+    {
+     "sids": [
+      "78735c276374"
+     ],
+     "field": "work:keigo-higashino--akui.significance",
+     "claim": "범인이 밝혀진 뒤에도 끝내 동기를 말하지 않는다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/悪意_(小説)",
+     "quote": "やがて犯人が明らかになるが、犯人は犯行の動機を決して語ろうとはしないのだった"
+    },
+    {
+     "sids": [
+      "78735c276374"
+     ],
+     "field": "work:keigo-higashino--akui.significance",
+     "claim": "소설은 ‘누가’가 아니라 ‘왜’를 추적한다(와이더닛)",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/book/products/0000202077",
+     "quote": "逮捕された犯人が決して語らない「動機」とはなんなのか。 超一級のホワイダニット。"
+    },
+    {
+     "sids": [
+      "78735c276374"
+     ],
+     "field": "work:keigo-higashino--akui.significance",
+     "claim": "범인의 수기라는 형식 자체가 독자를 속이는 장치로 쓰인다",
+     "verdict": "contradicted",
+     "url": "https://www.kirkusreviews.com/book-reviews/keigo-higashino/malice-higashino/",
+     "quote": "the police detective, who once taught at Nonoguchi’s school, can’t help suspecting his former colleague of “creat[ing] a fictional account of the events in order to divert suspicion from himself.”",
+     "correction": "범인이 밝혀진 뒤에도 그는 끝내 동기를 말하지 않아 소설은 ‘누가’가 아니라 ‘왜’를 추적하고, 가가 형사는 그의 수기가 혐의를 돌리려고 꾸며 낸 기록이 아닌지 의심한다.",
+     "note": "‘수기 형식이 독자를 속이는 장치’라는 규정을 직접 말하는 출처는 찾지 못함(일본어 위키백과, 講談社 도서 소개, Kirkus 서평 확인)."
+    },
+    {
+     "sids": [
+      "a3122e62784c"
+     ],
+     "field": "work:keigo-higashino--himitsu.facts",
+     "claim": "『비밀』(秘密)은 1998년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "[[文藝春秋]]より[[1998年]]（[[平成]]10年）9月に刊行された"
+    },
+    {
+     "sids": [
+      "a3122e62784c"
+     ],
+     "field": "work:keigo-higashino--himitsu.facts",
+     "claim": "『비밀』은 소설이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "『'''秘密'''』（ひみつ）は、[[東野圭吾]]の[[小説]]である。"
+    },
+    {
+     "sids": [
+      "1dff2b1404df"
+     ],
+     "field": "work:keigo-higashino--himitsu.significance",
+     "claim": "딸은 열한 살이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "妻・直子と11歳の娘・藻奈美との3人で暮らしていた。"
+    },
+    {
+     "sids": [
+      "1dff2b1404df"
+     ],
+     "field": "work:keigo-higashino--himitsu.significance",
+     "claim": "스키 버스 사고에서 살아남은 딸의 몸에 죽은 아내의 영혼이 깃들고, 남편은 주위에 들키지 않으려 하며 함께 산다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "直子と藻奈美の2人が乗ったスキーバスが崖から転落する。…仮死状態になった娘・藻奈美の身体に、死んだ妻・直子の魂が宿ったためだった。藻奈美の身体に宿った直子に、平介は戸惑いながらも周囲に決して悟られないよう生活する。"
+    },
+    {
+     "sids": [
+      "bef9288900a0"
+     ],
+     "field": "work:keigo-higashino--himitsu.significance",
+     "claim": "『비밀』은 장편이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "東野は、この作品を短編『さよなら「お父さん」』として書いたが、出来が気に入らずに長編として書き直した。"
+    },
+    {
+     "sids": [
+      "bef9288900a0"
+     ],
+     "field": "work:keigo-higashino--himitsu.significance",
+     "claim": "남편과 아내이자 아버지와 딸인 두 사람의 ‘몇 해’를 따라간다",
+     "verdict": "unverifiable",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "25歳になった藻奈美は、事故を起こした運転手・梶川幸広の息子である根岸文也との結婚式を迎える。",
+     "note": "줄거리 요약은 1985년 사고부터 딸이 25세에 결혼식을 올리기까지를 다루지만, 아내의 영혼이 딸의 몸에 머문 기간이 몇 해인지 명시한 출처는 찾지 못함(일본어 위키백과 秘密 항목, 講談社 부고 저작 목록 확인). 이야기 전체 기간은 십수 년이다."
+    },
+    {
+     "sids": [
+      "bef9288900a0"
+     ],
+     "field": "work:keigo-higashino--himitsu.significance",
+     "claim": "제52회 일본추리작가협회상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "1999 年『秘密』で第 52 回日本推理作家協会賞"
+    },
+    {
+     "sids": [
+      "bef9288900a0"
+     ],
+     "field": "work:keigo-higashino--himitsu.significance",
+     "claim": "오래 큰 히트작이 없던 작가의 출세작이 됐다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/秘密_(東野圭吾)",
+     "quote": "長らく大きなヒットに恵まれていなかった…東野圭吾がブレイクすることとなった出世作である。"
+    },
+    {
+     "sids": [
+      "9fff272cf64c"
+     ],
+     "field": "work:keigo-higashino--byakuyako.facts",
+     "claim": "『백야행』(白夜行)은 1997년에 (잡지 연재로) 처음 발표된 추리 장편이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "[[集英社]]『[[小説すばる]]』[[1997年]]1月号から1999年1月号に連載され、1999年8月に刊行{{R|単行本}}された[[推理]]長篇である。",
+     "note": "1997은 연재 시작 연도 기준이며 단행본은 1999년 8월."
+    },
+    {
+     "sids": [
+      "544b3b53aeb8"
+     ],
+     "field": "work:keigo-higashino--byakuyako.significance",
+     "claim": "1973년 여름 오사카의 폐건물에서 전당포 주인 살해 사건이 일어난다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "1973年の夏、大阪の廃ビルで質屋殺しが起こる。"
+    },
+    {
+     "sids": [
+      "544b3b53aeb8"
+     ],
+     "field": "work:keigo-higashino--byakuyako.significance",
+     "claim": "1992년까지 두 주인공의 19년을 따라간다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "[[1973年]]の夏に起こったある事件から[[1992年]]までの2人の主人公の19年間を描く長編小説。"
+    },
+    {
+     "sids": [
+      "544b3b53aeb8"
+     ],
+     "field": "work:keigo-higashino--byakuyako.significance",
+     "claim": "료지는 피해자의 아들이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "質屋の殺人事件当時小学5年生だった被害者の息子・桐原亮司は"
+    },
+    {
+     "sids": [
+      "544b3b53aeb8"
+     ],
+     "field": "work:keigo-higashino--byakuyako.significance",
+     "claim": "유키호는 용의자의 딸이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "19年前の事件の容疑者の娘。"
+    },
+    {
+     "sids": [
+      "4eb338b154a2"
+     ],
+     "field": "work:keigo-higashino--byakuyako.significance",
+     "claim": "두 주인공의 심리 묘사를 의도적으로 빼고 주변 인물들의 시점으로 말과 행동을 보여 준다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "彼らの心理描写は意図的に排され、彼らを取り巻く様々な人間たちの視点を通してその言動が示されていく。"
+    },
+    {
+     "sids": [
+      "6aca72ed515b"
+     ],
+     "field": "work:keigo-higashino--byakuyako.significance",
+     "claim": "1997–1999년 『소설 스바루』에 연재된 뒤 1999년 책으로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "[[集英社]]『[[小説すばる]]』[[1997年]]1月号から1999年1月号に連載され、1999年8月に刊行"
+    },
+    {
+     "sids": [
+      "6aca72ed515b"
+     ],
+     "field": "work:keigo-higashino--byakuyako.significance",
+     "claim": "연작 단편으로 연재됐고 단행본은 장편으로 재구성됐다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/白夜行",
+     "quote": "連作短篇として連載されたが、単行本は長篇に再構成して刊行された。"
+    },
+    {
+     "sids": [
+      "07a5c1bfdb0d"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.facts",
+     "claim": "『용의자 X의 헌신』(容疑者Xの献身)은 2003년 연재로 처음 발표됐다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "2003年6月号から2004年6月号、2004年8月号から2005年1月号にかけ『容疑者X』のタイトルで連載されたのち、2005年8月に同社より『容疑者Xの献身』に改題され単行本が刊行された",
+     "note": "2003은 연재 시작 연도 기준이며 단행본은 2005년 8월."
+    },
+    {
+     "sids": [
+      "07a5c1bfdb0d"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.facts",
+     "claim": "『용의자 X의 헌신』은 소설(장편 추리소설)이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "[[東野圭吾]]の長篇[[推理小説]]。"
+    },
+    {
+     "sids": [
+      "d2a93abfbc46"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "이웃 모녀가 몸싸움 끝에 우발적으로 살인을 저지른다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "靖子と美里は揉み合いの末に、誤って[[絞殺]]してしまう。"
+    },
+    {
+     "sids": [
+      "d2a93abfbc46"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "모녀가 (함께) 도시락 가게에서 일한다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/20110214065222/http://blogs.wsj.com/scene/2011/02/11/is-this-guy-the-next-steig-larsson/",
+     "quote": "such as a local bento lunch shop in which the murderess works",
+     "correction": "도시락 가게에서 일하는 이웃 여성과 그 딸이 몸싸움 끝에 우발적으로 저지른 살인을",
+     "note": "도시락 가게에서 일하는 사람은 어머니 야스코이며, 딸 미사토는 함께 사는 외동딸이다."
+    },
+    {
+     "sids": [
+      "d2a93abfbc46"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "이웃인 천재 수학자 이시가미가 살인을 대신 은폐한다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "呆然とする母子に救いの手を差し伸べたのは、隣人の天才数学者・'''石神哲哉'''だった。"
+    },
+    {
+     "sids": [
+      "d2a93abfbc46"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "대학 동기인 물리학자 유가와가 그 은폐에 맞선다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "天才物理学者・湯川学が、大学の同期でライバルと見なす天才数学者の殺人隠蔽トリックに挑むミステリー。"
+    },
+    {
+     "sids": [
+      "86be897c8bdb"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "범인과 범행이 처음부터 드러나 있어 물음은 ‘누가’가 아니라 ‘어떻게 감추었나’다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20110214065222/http://blogs.wsj.com/scene/2011/02/11/is-this-guy-the-next-steig-larsson/",
+     "quote": "With the killer clearly identified in the early chapters, the novel is also not the typical “whodunit” brand of murder mystery — instead it’s the question of “how they try to get away with it” that drives the plot forward."
+    },
+    {
+     "sids": [
+      "dbe4c9dc66b7"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "『올 요미모노』에 『용의자 X』라는 제목으로 2003–2005년 연재된 뒤 2005년 책으로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/容疑者Xの献身",
+     "quote": "『[[オール讀物]]』（[[文藝春秋]]）2003年6月号から2004年6月号、2004年8月号から2005年1月号にかけ『容疑者X』のタイトルで連載されたのち、2005年8月に同社より『容疑者Xの献身』に改題され単行本が刊行された"
+    },
+    {
+     "sids": [
+      "dbe4c9dc66b7"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "나오키상과 본격미스터리대상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "2006 年『容疑者 x の献身』で第 134 回直木賞、第 6 回本格ミステリ大賞"
+    },
+    {
+     "sids": [
+      "dbe4c9dc66b7"
+     ],
+     "field": "work:keigo-higashino--yogisha-x-no-kenshin.significance",
+     "claim": "영역본이 2012년 미국 에드거상 최우수 장편 후보에 올랐다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "2012 年には『容疑者 x の献身』（英題：『The Devotion of Suspect x』）が米ミステリー作家協会主催の「エドガー賞」最優秀小説候補 5 作品に選出"
+    },
+    {
+     "sids": [
+      "f72959f2eead"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.facts",
+     "claim": "『나미야 잡화점의 기적』(ナミヤ雑貨店の奇蹟)은 2011년 연재로 처음 발표됐다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "『[[小説 野性時代]]』（[[KADOKAWA]]）にて2011年4月号から2011年12月号まで連載されたのち、2012年3月28日に[[角川書店]]より単行本が刊行された。",
+     "note": "2011은 연재 시작 연도 기준이며 단행본은 2012년 3월."
+    },
+    {
+     "sids": [
+      "f72959f2eead"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.facts",
+     "claim": "『나미야 잡화점의 기적』은 소설(장편)이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "[[東野圭吾]]の[[長編小説]]。"
+    },
+    {
+     "sids": [
+      "35d61b1914fa"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "폐업한 잡화점에 숨어든 세 청년에게 편지가 오고 그 편지로 시간을 넘어 여러 사람의 삶이 이어진다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "廃業した雑貨店に忍び込んだ3人の青年のもとに届いた手紙を通じ、時空を超えて人々の人生がつながり、救われていくファンタジー作品。"
+    },
+    {
+     "sids": [
+      "35d61b1914fa"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "세 청년은 좀도둑이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "コソ泥をして逃亡中の敦也、翔太、幸平は"
+    },
+    {
+     "sids": [
+      "35d61b1914fa"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "과거에서 온 고민 상담 편지에 현재의 인물이 답한다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "未来を知る現代の人間が、過去に生きる人々の悩みに答えるという構図を据えた"
+    },
+    {
+     "sids": [
+      "fa662a528c65"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "이 책은 추리소설이 아니다",
+     "verdict": "contradicted",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "| genre         = [[ミステリ]]、[[ファンタジー]]",
+     "correction": "편지가 과거와 미래를 오가는 판타지로, 다섯 개의 에피소드가 차례로 이어진다.",
+     "note": "일본어 위키백과는 장르를 미스터리·판타지로 함께 적으므로 ‘추리소설이 아니라’는 출처보다 강한 단정이다."
+    },
+    {
+     "sids": [
+      "fa662a528c65"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "편지가 과거와 미래를 오가는 판타지다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "人そのものが時空を移動するのではなく、「手紙」が過去と未来を行き来するという新な仕掛けを採用することにした"
+    },
+    {
+     "sids": [
+      "fa662a528c65"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "다섯 개의 에피소드가 차례로 이어진다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "物語は複数のエピソードで構成し、迷いを抱えた未熟な若者たちが過去からの手紙に向き合う第1話、…そして手紙が人生に与えた影響を辿る第4・第5話へと展開し"
+    },
+    {
+     "sids": [
+      "5fef2035b0e2"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "『소설 야성시대』에 2011년 연재된 뒤 2012년 책으로 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/ナミヤ雑貨店の奇蹟",
+     "quote": "『[[小説 野性時代]]』（[[KADOKAWA]]）にて2011年4月号から2011年12月号まで連載されたのち、2012年3月28日に[[角川書店]]より単行本が刊行された。"
+    },
+    {
+     "sids": [
+      "5fef2035b0e2"
+     ],
+     "field": "work:keigo-higashino--namiya-zakkaten-no-kiseki.significance",
+     "claim": "중앙공론문예상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://www.kodansha.co.jp/notices/721",
+     "quote": "2012 年『ナミヤ雑貨店の奇蹟』で第 7 回中央公論文芸賞"
+    }
+   ],
+   "noClaim": {
+    "01d9c2eab9f7": "『나미야 잡화점의 기적』으로 시작하면 작가 인상이 치우치기 쉽다는 읽기 순서 조언으로, 대볼 사실 주장이 없다.",
+    "c22274c54eeb": "한 권짜리 장편이 빠르게 읽히고 배경지식이 필요 없다는 읽기 난도 평가로, 대볼 사실 주장이 없다.",
+    "9ab0f69f0595": "난도의 원인을 구조로 보는 평가 문장으로, 대볼 사실 주장이 없다(구조에 대한 사실은 다음 문장에서 대본다)."
+   }
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "fixes": [
+    {
+      "id": "jon-fosse",
+      "readingEntryReason": "본문이 80쪽이 채 되지 않아 한자리에서 끝낼 수 있고, 숲에서 길을 잃은 한 남자의 의식을 따라가는 하나의 흐름 안에 반복, 그리고 삶과 죽음의 문턱이라는 포세의 특징이 압축돼 있다. 한국어판(문학동네, 2024)에는 노벨상 수상 강연문이 함께 실려 있어, 소설을 덮은 뒤 작가가 '말할 수 없는 것'을 쓰는 자기 방법을 설명하는 글로 바로 넘어갈 수 있다.",
+      "difficultyReason": "단어는 쉽고 문장은 짧은 일상어지만, 같은 구절이 거듭 돌아오고 마침표 없이 쉼표로 이어지는 흐름 속에서 현재와 과거, 실제 사람과 떠올린 사람, 삶과 죽음의 경계가 설명 없이 겹친다. 사건이 적어 줄거리 대신 반복의 리듬을 따라가야 하고, 희곡은 포세가 가장 중요한 말로 꼽은 '사이'가 잦아 빈자리를 읽어 내는 집중이 필요하다.",
+      "works": [
+        {
+          "id": "jon-fosse--trilogien",
+          "year": 2014
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.readingEntryReason",
+          "claim": "'물음표 없는 질문'이 『샤이닝』에 압축된 포세의 특징이다",
+          "resolution": "removed",
+          "evidence": "문장 aca613ff30c6 의 특징 목록에서 '물음표 없는 질문,'을 지웠다. 남은 '반복'(반복적인 단문)과 '삶과 죽음의 문턱'은 같은 sid 의 확정 주장이 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "희곡에서는 휴지와 끊긴 말이 의미의 대부분을 싣는다",
+          "resolution": "corrected",
+          "evidence": "'휴지와 끊긴 말이 의미의 대부분을 싣기 때문에'를 교정문대로 '포세가 가장 중요한 말로 꼽은 '사이'가 잦아'로 바꿨다(강연 인용: the most important and the most used word). 원문보다 길지 않게 줄였다."
+        },
+        {
+          "field": "work:jon-fosse--trilogien.facts",
+          "claim": "『3부작』(Trilogien)은 2007년 작품이다",
+          "resolution": "corrected",
+          "evidence": "작품 연도를 2014로 고쳤다(서지: Trilogien. – Oslo : Samlaget, 2014). 첫 권의 2007년은 의의 문장이 이미 「잠 못 드는 사람들」(2007)로 적는다."
+        }
+      ]
+    }
+  ]
+}

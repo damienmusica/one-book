@@ -1,0 +1,74 @@
+{
+  "fixes": [
+    {
+      "id": "yeom-sang-seop",
+      "readingWarning": "염상섭의 어느 작품보다 이름난 「표본실의 청개구리」로 시작하지 않는 편이 낫다. 작가 자신이 『견우화』로 묶은 초기 삼부작을 예술적 가치로도 매우 빈약하다고 자평했고, 평론가 최원식은 개념어가 남발되고 문체가 감정 과잉이라 실감에서 멀다고 짚는다. 「만세전」과 『삼대』의 관찰하는 문장을 먼저 읽고 출발점으로 돌아가는 순서를 권한다.",
+      "difficultyReason": "「만세전」은 여정을 따라 장면이 하나씩 이어져 줄거리를 따라가기 쉽다. 『삼대』는 문학과지성사판 711쪽 분량에 조씨 집안 삼대와 사회주의자 병화·경애 등 여러 인물의 사건이 복잡하게 얽혀 있어 인물 관계를 붙들고 읽는 집중이 필요하다.",
+      "works": [
+        {
+          "id": "yeom-sang-seop--pyobonsil-ui-cheonggaeguri",
+          "significance": "1921년 8월부터 10월까지 『개벽』에 3회 연재한 데뷔작이다. 신경증에 시달리는 '나'가 평양을 거쳐 남포에 가서 삼원 오십전으로 삼층집을 지었다는 광인 김창억을 만나는 이야기로, '나'의 신경증과 김창억의 광기를 겹쳐 3·1운동 직후 지식인의 우울을 그렸다. 오랫동안 자연주의 수법으로 쓴 작품으로 알려져 왔으나, 오늘날에는 여러 근대 사조가 섞인 작품으로 다시 읽힌다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--henrik-ibsen--yeom-sang-seop",
+          "summary": "염상섭은 입센 『인형의 집』의 노라를 해방을 향해 돌진하는 정의로운 반역자로 높이 평가했고 평론 「지상선(至上善)을 위하여」(『신생활』 1922. 7.)에서 자아 각성의 표상으로 삼았다. 같은 해 『개벽』에 발표한 「제야」는 『인형의 집』과 『바다에서 온 여인』을 겹쳐 받아들였다는 분석(등천, 『국제어문』 68, 2016)이 있고, 최인숙(『한국학연구』 25, 2011)은 「제야」·『사랑과 죄』 등에 되풀이되는 노라를 추적했다."
+        }
+      ],
+      "dropRelations": [
+        "influence--natsume-soseki--yeom-sang-seop"
+      ],
+      "resolutions": [
+        {
+          "field": "author.readingWarning",
+          "claim": "그 자평은 『견우화』 서문(자서)에 있다",
+          "resolution": "corrected",
+          "evidence": "'서문에서'를 교정문대로 '『견우화』로 묶은'으로 바꿨다(최원식 본문 '이들을 묶어 『견우화』(1924)를 낸 것'). 길이를 넘지 않게 연도는 넣지 않았다: 「작가 자신이 『견우화』로 묶은 초기 삼부작을 예술적 가치로도 매우 빈약하다고 자평했고,」"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "「만세전」의 대화와 서술은 1920–30년대 서울 중류층의 말로 쓰여 지금은 잘 쓰지 않는 어휘가 자주 나온다",
+          "resolution": "narrowed",
+          "evidence": "「만세전」의 말씨·어휘를 다룬 출처가 없어 그 절을 뺐다. 『삼대』의 서울 중류층 생활어(E0026512)도 '지금은 잘 쓰지 않는 어휘'까지는 싣지 않아 옮기지 않았다. 남은 문장은 확인된 여정 구조만 적는다: 「「만세전」은 여정을 따라 장면이 하나씩 이어져 줄거리를 따라가기 쉽다.」"
+        },
+        {
+          "field": "work:yeom-sang-seop--pyobonsil-ui-cheonggaeguri.significance",
+          "claim": "1921년 8~10월 『개벽』에 3회 연재한 첫 단편",
+          "resolution": "narrowed",
+          "evidence": "최원식이 「암야」가 먼저 쓰였다고 적어 '첫 단편'은 발표 기준으로만 맞는다. 발표 기준을 뜻하는 말로 좁혔다 — 확인된 최원식 인용 '횡보의 데뷔작 「표본실의 청개구리」': 「1921년 8월부터 10월까지 『개벽』에 3회 연재한 데뷔작이다.」"
+        },
+        {
+          "field": "work:yeom-sang-seop--pyobonsil-ui-cheonggaeguri.facts",
+          "claim": "소설(단편)이다",
+          "resolution": "accepted",
+          "evidence": "단편/중편 분류는 페이지에 없다. 사실 줄 b6d62588e59e 는 '· 1921 · fiction'만 적고, 의의 문장 eac273baf8c6 의 '첫 단편'은 '데뷔작'으로 바꿔 단편이라는 분류가 남지 않는다."
+        },
+        {
+          "field": "relation:influence--henrik-ibsen--yeom-sang-seop.summary",
+          "claim": "이 글에서 노라를 해방을 향해 돌진하는 정의로운 반역자로 높이 평가했다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 '정의로운 반역자' 평가를 「지상선을 위하여」에서 떼어 장소 없이 적고, 그 평론에서 한 일로는 최인숙 초록이 싣는 '자아 각성의 표상'만 남겼다. 교정문의 원문 인용(전야(戰野)·맥진(驀進))은 요약을 원래보다 길게 만들어 기존 풀어쓰기를 두었다: 「염상섭은 입센 『인형의 집』의 노라를 해방을 향해 돌진하는 정의로운 반역자로 높이 평가했고 평론 「지상선(至上善)을 위하여」(『신생활』 1922. 7.)에서 자아 각성의 표상으로 삼았다.」"
+        },
+        {
+          "field": "relation:influence--natsume-soseki--yeom-sang-seop.facts",
+          "claim": "근거 수준 scholarly_consensus(학계 합의)",
+          "resolution": "relation-dropped",
+          "evidence": "근거는 권혁건(2014)·김경수(2019) 두 연구자의 비교 판단이고 scholarly_consensus 는 반박됐다. 염상섭 자신의 기록도 없어 documented_influence 가 허용하는 수준(documented·scholarly_consensus) 어느 쪽도 받쳐지지 않는다. 관계를 뺐다; 이 도판에는 influence--henrik-ibsen--yeom-sang-seop 이 남는다."
+        },
+        {
+          "field": "relation:influence--natsume-soseki--yeom-sang-seop.summary",
+          "claim": "염상섭은 일본에서 중학과 대학 예과를 다녔다",
+          "resolution": "relation-dropped",
+          "evidence": "학력 서술을 권혁건 판단 안에 넣은 문장 0e2d4ae0d76c 는 influence--natsume-soseki--yeom-sang-seop 과 함께 빠졌다."
+        },
+        {
+          "field": "relation:influence--natsume-soseki--yeom-sang-seop.summary",
+          "claim": "소세키 영향 기록의 근거는 연구자의 비교 연구다(권혁건)",
+          "resolution": "relation-dropped",
+          "evidence": "확인하지 않은 부재 주장('염상섭 자신의 발언이 아니라')을 담은 문장 e7f389d8e1b9 는 influence--natsume-soseki--yeom-sang-seop 과 함께 빠졌다."
+        }
+      ]
+    }
+  ]
+}

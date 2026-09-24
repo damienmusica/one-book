@@ -1,0 +1,386 @@
+{
+  "id": "choi-in-hoon",
+  "page": "https://literary-planet.pages.dev/authors/choi-in-hoon/",
+  "author": {
+    "names": {
+      "ko": "최인훈",
+      "original": "최인훈",
+      "aliases": [
+        "崔仁勳",
+        "Choi In-hun",
+        "Choi In-hoon",
+        "Choe In-hun"
+      ]
+    },
+    "birthYear": 1936,
+    "deathYear": 2018,
+    "activeRange": [
+      1959,
+      2003
+    ],
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama",
+      "essay-criticism"
+    ],
+    "importanceReason": "1950년 월남한 작가로, 4·19혁명이 있던 1960년 『광장』에서 남과 북을 차례로 겪은 철학도 이명준이 끝내 중립국행을 택하는 과정을 그려 두 체제를 한 인물의 경험 안에서 함께 비판했다. 『회색인』과 『서유기』에서는 월남 지식인 독고준의 독백과 사변, 환상 여행으로 장편을 짰고, 『소설가 구보씨의 일일』에서는 박태원이 1934년에 만든 인물 '구보'의 이름을 빌려 1970년대의 현실 속에 다시 세웠다. 「총독의 소리」는 총독이 지하 해적방송으로 연설한다는 형식으로 한일국교정상화 무렵의 현실을 풍자했고, 『광장』은 1960년부터 2015년까지 거듭 고쳐 펴냈다.",
+    "readingEntry": "choi-in-hoon--gwangjang",
+    "readingEntryReason": "원고지 600매 분량의 장편으로, 한 인물이 남과 북을 차례로 겪는 줄거리가 분명해 따라가기 쉽다. 이후 작품들이 되풀이하는 월남 지식인과 분단이라는 주제가 여기서 먼저 서사로 나온다. 한국어판은 문학과지성사 최인훈 전집 1권 『광장/구운몽』으로 지금 살 수 있다.",
+    "readingOrder": [
+      "choi-in-hoon--gwangjang",
+      "choi-in-hoon--hoesaegin",
+      "choi-in-hoon--soseolga-gubo-ssi-ui-iril",
+      "choi-in-hoon--seoyugi",
+      "choi-in-hoon--hwadu"
+    ],
+    "readingWarning": "『서유기』로 시작하지 않는다. 『회색인』 마지막에 이유정의 방으로 들어간 독고준이 자기 방으로 돌아가기까지를 환상 장면으로 이어 가는 소설이라, 『회색인』 없이 들어가면 인물과 장면의 좌표를 잃는다.",
+    "difficulty": 3,
+    "difficultyReason": "『광장』은 줄거리가 분명하지만 인물이 이념과 자기 선택을 두고 길게 사변하는 대목이 많다. 『회색인』부터는 사건보다 지식인의 독백과 사변이, 『서유기』에서는 환상 장면의 연쇄가 소설을 끌고 가서, 해방·분단·식민지 역사에 대한 배경 지식 없이는 인용과 암시를 따라가기 어렵다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--kyunghyang-choi-in-hoon-obituary-2018",
+      "src--choi-in-hoon-jeonjip-moonji",
+      "src--lee-minyoung-choi-in-hoon-gubo-2015",
+      "src--lee-yeonsuk-hoesaegin-seoyugi-2005"
+    ]
+  },
+  "works": [
+    {
+      "id": "choi-in-hoon--gwangjang",
+      "titleKo": "광장",
+      "titleOriginal": "광장",
+      "year": 1960,
+      "genre": "fiction",
+      "significance": "중립국으로 가는 석방 포로선에서 시작해, 월북한 아버지 때문에 남에서 취조당하고 월북한 뒤 북에서도 혁명의 부재를 본 철학도 이명준의 과거를 거슬러 올라간다. 남과 북을 한 인물의 경험 안에 나란히 놓고 둘 다 비판한 분단소설로, 1960년 『새벽』에 발표된 뒤 작가가 열 차례에 걸쳐 고쳐 썼다.",
+      "sourceIds": []
+    },
+    {
+      "id": "choi-in-hoon--hoesaegin",
+      "titleKo": "회색인",
+      "titleOriginal": "회색인",
+      "year": 1963,
+      "genre": "fiction",
+      "significance": "4·19 직전인 1958–59년을 배경으로, 월남한 국문학도 독고준이 행동주의자 친구 김학과 대화하며 이데올로기와 현실 어디에도 뿌리내리지 못한 자신을 독백으로 되짚는다. 1963–64년 『세대』에 「회색의 의자」라는 제목으로 연재됐다.",
+      "sourceIds": []
+    },
+    {
+      "id": "choi-in-hoon--seoyugi",
+      "titleKo": "서유기",
+      "titleOriginal": "서유기",
+      "year": 1966,
+      "genre": "fiction",
+      "significance": "『회색인』 끝에서 이유정의 방에 들어간 독고준이 자기 방으로 돌아가기까지를 환상의 여정으로 그린다. 방공호 속 여인을 찾아 나선 모험이 W시를 무대로 한 이데올로기의 장면들과 겹친다.",
+      "sourceIds": []
+    },
+    {
+      "id": "choi-in-hoon--chongdok-ui-sori",
+      "titleKo": "총독의 소리",
+      "titleOriginal": "총독의 소리",
+      "year": 1967,
+      "genre": "fiction",
+      "significance": "조선총독부 지하부 소속 유령 해적방송이라는 설정으로 총독의 연설을 들려주고 말미에 그것을 부정하는 독백을 붙인 연작 단편이다. 1960년대 한일국교정상화 파동에 대한 반응으로 쓰였고, 1967년부터 1976년까지 네 편이 발표됐다.",
+      "sourceIds": []
+    },
+    {
+      "id": "choi-in-hoon--soseolga-gubo-ssi-ui-iril",
+      "titleKo": "소설가 구보씨의 일일",
+      "titleOriginal": "소설가 구보씨의 일일",
+      "year": 1970,
+      "genre": "fiction",
+      "significance": "1970년부터 발표한 단편을 묶은 연작으로, 박태원의 1934년 동명 소설의 주인공 이름 '구보'를 다시 써서 1970년대의 현실을 관찰하는 피난민 소설가의 기록으로 삼았다. 식민지 시대의 작가 서명을 해방 이후의 현실에 겹쳐 놓았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "choi-in-hoon--hwadu",
+      "titleKo": "화두",
+      "titleOriginal": "화두",
+      "year": 1994,
+      "genre": "fiction",
+      "significance": "20세기 세계사의 격변 속 한반도의 역정을 한 개인이 종단한 이야기로 쓴 마지막 장편이다. 작가 자신을 되돌아보는 반성의 형식으로 짜였고, 한국어판은 두 권으로 나온다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--yi-sang--choi-in-hoon",
+      "type": "documented_influence",
+      "from": "yi-sang (이상)",
+      "to": "choi-in-hoon (최인훈)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "최인훈은 1960년대 연작 『크리스마스 캐럴』에서 '13인의 아해'·'까마귀'·'날개'라는 표현으로 이상의 「오감도」와 「날개」를 불러냈고, 마지막 장편 『화두』에서는 이상이 작품에 자기 아호를 써넣은 방식을 자기 반성의 형식으로 이어받았다. 이유경의 논문 「최인훈의 이상(李箱) 다시 쓰기」(『한국현대문학연구』 59, 2019)가 최인훈이 이상을 자기 문학적 계보의 맨 앞에 세운 과정으로 이를 추적한다.",
+      "sourceIds": [
+        "src--lee-yukyung-choi-in-hoon-yi-sang-2019"
+      ]
+    },
+    {
+      "id": "affinity--choi-in-hoon--yi-cheong-jun",
+      "type": "affinity",
+      "from": "choi-in-hoon (최인훈)",
+      "to": "yi-cheong-jun (이청준)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "한국 현대소설 연구는 최인훈과 이청준을 지식인의 관념과 글쓰기 자체를 문제 삼는 관념소설의 계보로 함께 다뤄 왔다. 장수익의 「한국 관념소설의 계보 — 장용학·최인훈·이청준의 경우」(『문학사와 비평』, 1993)와 허도경의 「4·19와 쓰기의 존재론」(『어문연구』, 2024)이 두 작가를 나란히 읽고, 한국문학번역원의 작가 소개도 이청준을 최인훈과 더불어 지적이고 관념적인 작품 세계를 가진 작가로 설명한다. 이 관계는 직접 교류가 아니라 연구의 병치에 근거한다.",
+      "sourceIds": [
+        "src--jang-suik-1993-gwannyeom-soseol-gyebo",
+        "src--heo-dokyung-2024-419-writing-ontology",
+        "src--lti-korea"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--charles-dickens--choi-in-hoon (→ charles-dickens 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "677a4f77d215",
+      "where": "author.facts",
+      "text": "최인훈(최인훈) · 1936–2018 · ko · east-asia"
+    },
+    {
+      "sid": "fcf602500846",
+      "where": "author.importanceReason",
+      "text": "1950년 월남한 작가로, 4·19혁명이 있던 1960년 『광장』에서 남과 북을 차례로 겪은 철학도 이명준이 끝내 중립국행을 택하는 과정을 그려 두 체제를 한 인물의 경험 안에서 함께 비판했다."
+    },
+    {
+      "sid": "32ea96ed608e",
+      "where": "author.importanceReason",
+      "text": "『회색인』과 『서유기』에서는 월남 지식인 독고준의 독백과 사변, 환상 여행으로 장편을 짰고, 『소설가 구보씨의 일일』에서는 박태원이 1934년에 만든 인물 '구보'의 이름을 빌려 1970년대의 현실 속에 다시 세웠다."
+    },
+    {
+      "sid": "94746e8e76f7",
+      "where": "author.importanceReason",
+      "text": "「총독의 소리」는 총독이 지하 해적방송으로 연설한다는 형식으로 한일국교정상화 무렵의 현실을 풍자했고, 『광장』은 1960년부터 2015년까지 거듭 고쳐 펴냈다."
+    },
+    {
+      "sid": "5b78865621cc",
+      "where": "author.readingEntryReason",
+      "text": "원고지 600매 분량의 장편으로, 한 인물이 남과 북을 차례로 겪는 줄거리가 분명해 따라가기 쉽다."
+    },
+    {
+      "sid": "9991a377433e",
+      "where": "author.readingEntryReason",
+      "text": "이후 작품들이 되풀이하는 월남 지식인과 분단이라는 주제가 여기서 먼저 서사로 나온다."
+    },
+    {
+      "sid": "46d21fb9e160",
+      "where": "author.readingEntryReason",
+      "text": "한국어판은 문학과지성사 최인훈 전집 1권 『광장/구운몽』으로 지금 살 수 있다."
+    },
+    {
+      "sid": "8cf0216f3041",
+      "where": "author.readingWarning",
+      "text": "『서유기』로 시작하지 않는다."
+    },
+    {
+      "sid": "0c4b520dc1fd",
+      "where": "author.readingWarning",
+      "text": "『회색인』 마지막에 이유정의 방으로 들어간 독고준이 자기 방으로 돌아가기까지를 환상 장면으로 이어 가는 소설이라, 『회색인』 없이 들어가면 인물과 장면의 좌표를 잃는다."
+    },
+    {
+      "sid": "2020b616af00",
+      "where": "author.difficultyReason",
+      "text": "『광장』은 줄거리가 분명하지만 인물이 이념과 자기 선택을 두고 길게 사변하는 대목이 많다."
+    },
+    {
+      "sid": "f0c042ce2f97",
+      "where": "author.difficultyReason",
+      "text": "『회색인』부터는 사건보다 지식인의 독백과 사변이, 『서유기』에서는 환상 장면의 연쇄가 소설을 끌고 가서, 해방·분단·식민지 역사에 대한 배경 지식 없이는 인용과 암시를 따라가기 어렵다."
+    },
+    {
+      "sid": "1bd0c70c85b5",
+      "where": "work:choi-in-hoon--gwangjang.facts",
+      "text": "『광장』(광장) · 1960 · fiction"
+    },
+    {
+      "sid": "76fd7670e8ca",
+      "where": "work:choi-in-hoon--gwangjang.significance",
+      "text": "중립국으로 가는 석방 포로선에서 시작해, 월북한 아버지 때문에 남에서 취조당하고 월북한 뒤 북에서도 혁명의 부재를 본 철학도 이명준의 과거를 거슬러 올라간다."
+    },
+    {
+      "sid": "b4d1f8a0751e",
+      "where": "work:choi-in-hoon--gwangjang.significance",
+      "text": "남과 북을 한 인물의 경험 안에 나란히 놓고 둘 다 비판한 분단소설로, 1960년 『새벽』에 발표된 뒤 작가가 열 차례에 걸쳐 고쳐 썼다."
+    },
+    {
+      "sid": "0b421a9fe094",
+      "where": "work:choi-in-hoon--hoesaegin.facts",
+      "text": "『회색인』(회색인) · 1963 · fiction"
+    },
+    {
+      "sid": "0f3059764a7a",
+      "where": "work:choi-in-hoon--hoesaegin.significance",
+      "text": "4·19 직전인 1958–59년을 배경으로, 월남한 국문학도 독고준이 행동주의자 친구 김학과 대화하며 이데올로기와 현실 어디에도 뿌리내리지 못한 자신을 독백으로 되짚는다."
+    },
+    {
+      "sid": "3d6f55d5d70b",
+      "where": "work:choi-in-hoon--hoesaegin.significance",
+      "text": "1963–64년 『세대』에 「회색의 의자」라는 제목으로 연재됐다."
+    },
+    {
+      "sid": "2d70423d7758",
+      "where": "work:choi-in-hoon--seoyugi.facts",
+      "text": "『서유기』(서유기) · 1966 · fiction"
+    },
+    {
+      "sid": "4b1412188bc4",
+      "where": "work:choi-in-hoon--seoyugi.significance",
+      "text": "『회색인』 끝에서 이유정의 방에 들어간 독고준이 자기 방으로 돌아가기까지를 환상의 여정으로 그린다."
+    },
+    {
+      "sid": "71d0eace4bf8",
+      "where": "work:choi-in-hoon--seoyugi.significance",
+      "text": "방공호 속 여인을 찾아 나선 모험이 W시를 무대로 한 이데올로기의 장면들과 겹친다."
+    },
+    {
+      "sid": "95a702857aec",
+      "where": "work:choi-in-hoon--chongdok-ui-sori.facts",
+      "text": "『총독의 소리』(총독의 소리) · 1967 · fiction"
+    },
+    {
+      "sid": "7e24830f27fb",
+      "where": "work:choi-in-hoon--chongdok-ui-sori.significance",
+      "text": "조선총독부 지하부 소속 유령 해적방송이라는 설정으로 총독의 연설을 들려주고 말미에 그것을 부정하는 독백을 붙인 연작 단편이다."
+    },
+    {
+      "sid": "008ef0ff7186",
+      "where": "work:choi-in-hoon--chongdok-ui-sori.significance",
+      "text": "1960년대 한일국교정상화 파동에 대한 반응으로 쓰였고, 1967년부터 1976년까지 네 편이 발표됐다."
+    },
+    {
+      "sid": "db3e656823de",
+      "where": "work:choi-in-hoon--soseolga-gubo-ssi-ui-iril.facts",
+      "text": "『소설가 구보씨의 일일』(소설가 구보씨의 일일) · 1970 · fiction"
+    },
+    {
+      "sid": "2324b18fd55a",
+      "where": "work:choi-in-hoon--soseolga-gubo-ssi-ui-iril.significance",
+      "text": "1970년부터 발표한 단편을 묶은 연작으로, 박태원의 1934년 동명 소설의 주인공 이름 '구보'를 다시 써서 1970년대의 현실을 관찰하는 피난민 소설가의 기록으로 삼았다."
+    },
+    {
+      "sid": "8dd8482d2c9b",
+      "where": "work:choi-in-hoon--soseolga-gubo-ssi-ui-iril.significance",
+      "text": "식민지 시대의 작가 서명을 해방 이후의 현실에 겹쳐 놓았다."
+    },
+    {
+      "sid": "114f0c84f621",
+      "where": "work:choi-in-hoon--hwadu.facts",
+      "text": "『화두』(화두) · 1994 · fiction"
+    },
+    {
+      "sid": "32eea6af6f6e",
+      "where": "work:choi-in-hoon--hwadu.significance",
+      "text": "20세기 세계사의 격변 속 한반도의 역정을 한 개인이 종단한 이야기로 쓴 마지막 장편이다."
+    },
+    {
+      "sid": "a4c2884e58f8",
+      "where": "work:choi-in-hoon--hwadu.significance",
+      "text": "작가 자신을 되돌아보는 반성의 형식으로 짜였고, 한국어판은 두 권으로 나온다."
+    },
+    {
+      "sid": "9b9695c33a27",
+      "where": "relation:influence--yi-sang--choi-in-hoon.facts",
+      "text": "이상 → 최인훈 · documented_influence · directed · scholarly_consensus"
+    },
+    {
+      "sid": "39a8e8e9fd96",
+      "where": "relation:influence--yi-sang--choi-in-hoon.summary",
+      "text": "최인훈은 1960년대 연작 『크리스마스 캐럴』에서 '13인의 아해'·'까마귀'·'날개'라는 표현으로 이상의 「오감도」와 「날개」를 불러냈고, 마지막 장편 『화두』에서는 이상이 작품에 자기 아호를 써넣은 방식을 자기 반성의 형식으로 이어받았다."
+    },
+    {
+      "sid": "78507ebaa4e1",
+      "where": "relation:influence--yi-sang--choi-in-hoon.summary",
+      "text": "이유경의 논문 「최인훈의 이상(李箱) 다시 쓰기」(『한국현대문학연구』 59, 2019)가 최인훈이 이상을 자기 문학적 계보의 맨 앞에 세운 과정으로 이를 추적한다."
+    },
+    {
+      "sid": "e651882819d4",
+      "where": "relation:affinity--choi-in-hoon--yi-cheong-jun.facts",
+      "text": "최인훈 → 이청준 · affinity · bidirectional · scholarly_consensus"
+    },
+    {
+      "sid": "964f160c4b4b",
+      "where": "relation:affinity--choi-in-hoon--yi-cheong-jun.summary",
+      "text": "한국 현대소설 연구는 최인훈과 이청준을 지식인의 관념과 글쓰기 자체를 문제 삼는 관념소설의 계보로 함께 다뤄 왔다."
+    },
+    {
+      "sid": "38fd5ebd45c8",
+      "where": "relation:affinity--choi-in-hoon--yi-cheong-jun.summary",
+      "text": "장수익의 「한국 관념소설의 계보 — 장용학·최인훈·이청준의 경우」(『문학사와 비평』, 1993)와 허도경의 「4·19와 쓰기의 존재론」(『어문연구』, 2024)이 두 작가를 나란히 읽고, 한국문학번역원의 작가 소개도 이청준을 최인훈과 더불어 지적이고 관념적인 작품 세계를 가진 작가로 설명한다."
+    },
+    {
+      "sid": "dd79e78fe102",
+      "where": "relation:affinity--choi-in-hoon--yi-cheong-jun.summary",
+      "text": "이 관계는 직접 교류가 아니라 연구의 병치에 근거한다."
+    }
+  ],
+  "priorClaims": [],
+  "sources": {
+    "src--encykorea": {
+      "id": "src--encykorea",
+      "title": "한국민족문화대백과사전 — 작가·작품 항목",
+      "publisherOrInstitution": "한국학중앙연구원",
+      "url": "https://encykorea.aks.ac.kr",
+      "citation": "한국 작가의 생애·작품 기초 사실 확인용"
+    },
+    "src--kyunghyang-choi-in-hoon-obituary-2018": {
+      "id": "src--kyunghyang-choi-in-hoon-obituary-2018",
+      "title": "소설 '광장'의 작가 최인훈 영면하다",
+      "publisherOrInstitution": "경향신문",
+      "url": "https://www.khan.co.kr/culture/book/article/201807231314001",
+      "citation": "김향미 기자, 2018. 7. 23. — 생애(월남, 등단, 서울예대 재직, 마지막 발표작)와 『광장』 개작 이력"
+    },
+    "src--choi-in-hoon-jeonjip-moonji": {
+      "id": "src--choi-in-hoon-jeonjip-moonji",
+      "title": "최인훈 전집 (전 15권)",
+      "publisherOrInstitution": "문학과지성사",
+      "citation": "2008년 11월부터 간행된 개정판 전집 — 『광장/구운몽』(1권), 『회색인』(2권), 『서유기』(3권), 『소설가 구보씨의 일일』(4권), 『총독의 소리』(9권), 『화두』(14–15권) 등 현행 한국어판 제목의 근거"
+    },
+    "src--lee-minyoung-choi-in-hoon-gubo-2015": {
+      "id": "src--lee-minyoung-choi-in-hoon-gubo-2015",
+      "title": "최인훈의 『소설가 구보씨의 일일』 연구 — '구보'의 서명과 '후진국민'의 정체성",
+      "publisherOrInstitution": "한국현대소설학회",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001986035",
+      "citation": "이민영, 『현대소설연구』 58호 (2015), 359–386쪽"
+    },
+    "src--lee-yeonsuk-hoesaegin-seoyugi-2005": {
+      "id": "src--lee-yeonsuk-hoesaegin-seoyugi-2005",
+      "title": "최인훈의 <회색인>과 <서유기>의 대비 고찰 연구 — 기표적 연작으로서의 두 작품 간 실재계 대비를 중심으로",
+      "publisherOrInstitution": "한국문학연구학회",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001151537",
+      "citation": "이연숙, 『현대문학의 연구』 27호 (2005), 347–377쪽"
+    },
+    "src--lee-yukyung-choi-in-hoon-yi-sang-2019": {
+      "id": "src--lee-yukyung-choi-in-hoon-yi-sang-2019",
+      "title": "최인훈의 이상(李箱) 다시 쓰기 — 최인훈의 『크리스마스 캐럴』 연작과 『화두』를 중심으로",
+      "publisherOrInstitution": "한국현대문학회",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09290841",
+      "citation": "이유경, 『한국현대문학연구』 59집 (2019. 12), 67–119쪽 — 최인훈이 이상을 자기 문학적 계보의 맨 앞에 세운 과정을 『크리스마스 캐럴』 연작에서 『화두』까지 추적한 논문"
+    },
+    "src--jang-suik-1993-gwannyeom-soseol-gyebo": {
+      "id": "src--jang-suik-1993-gwannyeom-soseol-gyebo",
+      "title": "한국 관념소설의 계보 — 장용학·최인훈·이청준의 경우",
+      "publisherOrInstitution": "문학사와 비평학회",
+      "url": "https://www.riss.kr/link?id=A106842795",
+      "citation": "장수익, 『문학사와 비평』 2집, 1993, 126–167쪽"
+    },
+    "src--heo-dokyung-2024-419-writing-ontology": {
+      "id": "src--heo-dokyung-2024-419-writing-ontology",
+      "title": "4·19와 쓰기의 존재론 — 1960년대 최인훈·이청준 장편소설의 '서술 시점'을 중심으로",
+      "publisherOrInstitution": "어문연구학회",
+      "url": "https://doi.org/10.17297/rsll.2024.121..015",
+      "citation": "허도경, 『어문연구』 121호, 2024, 427–461쪽"
+    },
+    "src--lti-korea": {
+      "id": "src--lti-korea",
+      "title": "한국문학번역원 작가 소개 자료",
+      "publisherOrInstitution": "Literature Translation Institute of Korea",
+      "url": "https://www.ltikorea.or.kr",
+      "citation": "한국 작가의 해외 소개용 공식 프로필"
+    }
+  }
+}

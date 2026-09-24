@@ -1,0 +1,464 @@
+{
+  "id": "baek-seok",
+  "page": "https://literary-planet.pages.dev/authors/baek-seok/",
+  "author": {
+    "names": {
+      "ko": "백석",
+      "original": "백석",
+      "aliases": [
+        "백기행",
+        "白石",
+        "白夔行",
+        "Baek Seok",
+        "Paek Sŏk",
+        "Paek Ki-haeng"
+      ]
+    },
+    "birthYear": 1912,
+    "deathYear": 1996,
+    "activeRange": [
+      1930,
+      1962
+    ],
+    "languages": [
+      "ko"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "importanceReason": "평안도 방언과 고어, 명절 음식·놀이·마을 전설과 친척의 실명을 긴 행에 열거해, 운율 대신 장면 묘사와 서술로 짜인 이야기 구조의 서정시를 썼다. 1936년 33편을 네 부로 묶어 100부 한정으로 자비 출간한 『사슴』이 그 방법을 모은 책이고, 만주를 떠돈 1940년대에는 객지의 방에 홀로 든 1인칭 화자가 평이한 말로 제 삶을 돌아보는 독백으로 옮겨 갔다. 해방 뒤 북에 남아 러시아 문학 번역과 동화시에 힘을 쏟다가 1962년을 끝으로 발표가 끊겼다. 분단 뒤 수십 년 동안 남북 어느 쪽 문학사에서도 인정받지 못했고, 남쪽에서는 1987년 이동순이 엮은 『백석시전집』으로 시가 한데 묶였다.",
+    "readingEntry": "baek-seok--saseum",
+    "readingEntryReason": "백석이 장정과 편집까지 챙겨 자비로 낸 시집으로, 33편을 화자의 성장 과정에 맞춰 네 부로 묶었다. 방언, 실명의 마을 사람, 음식과 놀이의 열거라는 초기 시의 방법이 한 권에 모여 있어 이후의 떠도는 독백을 읽을 기준이 된다. 지금 서점에는 1936년 초판본 표지를 되살린 판과 현대어판(더스토리) 등이 나와 있고, 안도현이 엮은 민음사 세계시인선 『사슴』(2016, 152쪽)은 1부에 『사슴』에서 고른 시를 싣고 뒤이어 「나와 나타샤와 흰 당나귀」, 「흰 바람벽이 있어」, 「남신의주 유동 박시봉방」까지 담아 이 순서를 한 권으로 따라갈 수 있다.",
+    "readingOrder": [
+      "baek-seok--saseum",
+      "baek-seok--nawa-natasyawa-hindangnagwi",
+      "baek-seok--hin-barambyeogi-isseo",
+      "baek-seok--namsinuiju-yudong-baksibongbang"
+    ],
+    "readingWarning": "『사슴』은 평안북도 사투리를 그대로 시어로 쓰고, 「가즈랑집」·「여우난골족」 같은 시는 독자의 이해를 돌보지 않을 만큼 방언이 짙어 풀이 없이 읽으면 사물과 음식 이름에서 거듭 막힌다. 처음이라면 현대어판이나 어휘 풀이를 단 고형진 엮음 『정본 백석 시집』(문학동네, 개정판 2020)을 곁에 두는 편이 낫다.",
+    "difficulty": 2,
+    "difficultyReason": "평안도 방언과 고어, 지금은 사라진 음식·놀이·세간의 이름이 풀이 없이 나오고 한 행이 줄글처럼 길게 이어져, 낱말 풀이를 곁에 두고 천천히 읽어야 한다. 만주 시기 이후의 시는 말이 평이해지는 대신 쉼표로 이어지는 긴 독백이라 그 호흡을 따라가는 인내가 필요하다.",
+    "sourceIds": [
+      "src--encykorea",
+      "src--baek-seok-saseum-1936",
+      "src--an-do-hyeon-saseum-minumsa-2016",
+      "src--go-hyeong-jin-jeongbon-baek-seok-2020"
+    ]
+  },
+  "works": [
+    {
+      "id": "baek-seok--saseum",
+      "titleKo": "사슴",
+      "titleOriginal": "사슴",
+      "year": 1936,
+      "genre": "poetry",
+      "significance": "1936년 1월 자비로 100부만 찍은 시집으로, 33편을 네 부로 나눠 실었다. 평안북도 사투리를 그대로 시어로 쓰고 가즈랑집 할머니·진할아버지 같은 마을 사람과 가스랑고개·국수당 같은 구체적 지명을 불러내, 어린 시절 고향의 전설과 명절 풍경을 지금 눈앞의 장면처럼 되살린다. 윤동주가 이 시집의 모든 시를 노트에 베껴 쓰고 감상을 적었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "baek-seok--yeounangol-jok",
+      "titleKo": "여우난골족",
+      "titleOriginal": "여우난골族",
+      "year": 1935,
+      "genre": "poetry",
+      "significance": "1935년 12월 『조광』에 발표하고 이듬해 『사슴』에 다시 실은 4연 9행의 시로, 명절날 아침부터 이튿날 새벽까지 큰집에 모인 친척들의 내력과 음식·놀이를 어린 화자가 네 개의 긴 문장으로 숨 가쁘게 열거한다. 반복과 열거로 친족 공동체의 하루를 재현하는 『사슴』의 방법이 가장 선명하게 드러나는 시다.",
+      "sourceIds": []
+    },
+    {
+      "id": "baek-seok--nawa-natasyawa-hindangnagwi",
+      "titleKo": "나와 나타샤와 흰 당나귀",
+      "titleOriginal": "나와 나타샤와 힌당나귀",
+      "year": 1938,
+      "genre": "poetry",
+      "significance": "함흥에서 교사로 지내던 시절 수필 「가재미, 나귀」에 쓴 나귀 타기에 '나타샤'와의 동반을 더하고, 산골·소주·눈의 이미지를 얹어 만든 시다. 흰 눈과 흰 당나귀의 백색 이미지가 가난한 현실과 행복한 상상을 가르며, 연가로도 외로운 독백으로도 읽힌다.",
+      "sourceIds": []
+    },
+    {
+      "id": "baek-seok--hin-barambyeogi-isseo",
+      "titleKo": "흰 바람벽이 있어",
+      "titleOriginal": "힌 바람벽이 있어",
+      "year": 1941,
+      "genre": "poetry",
+      "significance": "만주 신경 시절인 1941년에 발표한 이야기시로, 설명하기보다 이미지를 영화 장면처럼 이어 붙여 보여 주는 구성을 취하며 프랑시스 잠과 라이너 마리아 릴케의 이름을 부른다. 한 해 전 『만선일보』에 쓴 박팔양 시집 감상문 「슬픔과 진실」의 표현이 이 시에 다시 나온다.",
+      "sourceIds": []
+    },
+    {
+      "id": "baek-seok--namsinuiju-yudong-baksibongbang",
+      "titleKo": "남신의주 유동 박시봉방",
+      "titleOriginal": "南新義州 柳洞 朴時逢方",
+      "year": 1948,
+      "genre": "poetry",
+      "significance": "1948년 10월 『학풍』 창간호에 실린 1연 32행의 시로, 제목은 '남신의주 유동에 사는 박시봉 집에서'라는 편지 발신인의 주소다. 가족과 떨어져 객지의 낯선 방에 칩거한 화자가 긴 호흡과 잦은 쉼표로 제 삶을 돌아보다가 갈매나무의 이미지에 이른다. 백석이 남쪽 잡지에 마지막으로 발표한 시다.",
+      "sourceIds": []
+    },
+    {
+      "id": "baek-seok--jipgene-ne-hyeongje",
+      "titleKo": "집게네 네 형제",
+      "titleOriginal": "집게네 네 형제",
+      "year": 1957,
+      "genre": "poetry",
+      "significance": "1955년 사무일 마르샤크의 『동화시집』을 번역한 뒤 두 해 만에 정현웅의 삽화를 넣어 낸 창작 동화시집이다. 사람보다 동물이 나오는 유래담과 우화가 훨씬 많고, 초기 시에는 없던 종결어미 '-네'를 수록작 12편 모두에 썼다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--alexander-pushkin--baek-seok",
+      "type": "translation",
+      "from": "alexander-pushkin (알렉산드르 푸시킨)",
+      "to": "baek-seok (백석)",
+      "evidenceLevel": "documented",
+      "summary": "1947년 무렵부터 러시아 문학 번역에 매진한 백석은 푸시킨의 시도 한국어로 옮겼다. 배대화의 「백석의 푸시킨 번역시 연구」(『슬라브연구』 28권 4호, 2012)는 백석이 옮긴 「작은 새」·「겨울길」·「겨울 아침」을 1920~30년대의 다른 번역과 비교하고, 장시 「짜르스코에 마을에서의 추억」의 백석 번역을 원시와 대조해 분석한다.",
+      "sourceIds": [
+        "src--bae-dae-hwa-baek-seok-pushkin-2012",
+        "src--encykorea"
+      ]
+    },
+    {
+      "id": "affinity--rainer-maria-rilke--baek-seok",
+      "type": "affinity",
+      "from": "rainer-maria-rilke (라이너 마리아 릴케)",
+      "to": "baek-seok (백석)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "백석은 1941년 만주 신경에서 발표한 「흰 바람벽이 있어」에서 프랑시스 잠과 함께 라이너 마리아 릴케의 이름을 불렀다. 노병춘의 「백석과 릴케와 잠 연구」(『인문논총』 62, 2023)는 두 시인의 자기 고백 시가 가난과 슬픔 속의 높은 정신을 드러내는 구조를 견주고, 이혜원의 「유랑 체험의 심화와 정신적 고양의 도정 ― 릴케와 백석 시의 비교 연구」(『비교한국학』 30권 1호, 2022)는 유랑 체험과 '나무' 이미지를 중심으로 두 시인을 비교한다. 두 연구 모두 영향은 시 속 호명과 당시의 번역 상황(노병춘은 1939·1941년의 일본어 번역, 이혜원은 1930년대 중반 이후 문단의 릴케 번역)에 기댄 추정으로 제시한다.",
+      "sourceIds": [
+        "src--no-byeong-chun-baek-seok-rilke-jammes-2023",
+        "src--lee-hye-won-rilke-baek-seok-2022"
+      ]
+    },
+    {
+      "id": "influence--baek-seok--kim-yeon-su",
+      "type": "documented_influence",
+      "from": "baek-seok (백석)",
+      "to": "kim-yeon-su (김연수)",
+      "evidenceLevel": "documented",
+      "summary": "김연수는 대학 시절 해금된 백석의 시를 처음 읽고 1990년대 후반부터 그의 삶을 소설로 구상해 『일곱 해의 마지막』(2020)을 냈다. 출간 인터뷰에서는 시대가 바뀌어도 소설가가 변하지 않아도 된다는 이야기를 백석에게 들은 것 같다고 말했다.",
+      "sourceIds": [
+        "src--upinews-kim-yeon-su-2020-07-03",
+        "src--kim-yeon-su-ilgop-haeui-majimak-2020"
+      ]
+    },
+    {
+      "id": "influence--baek-seok--yun-dong-ju",
+      "type": "documented_influence",
+      "from": "baek-seok (백석)",
+      "to": "yun-dong-ju (윤동주)",
+      "evidenceLevel": "documented",
+      "summary": "윤동주는 100부 한정으로 나온 백석의 시집 『사슴』(1936)을 구하지 못해 1937년 8월 도서관에서 수록시 33편을 원고지에 모두 베껴 필사본을 만들었고, 「모닥불」 필사 끝에 붉은 색연필로 '걸작이다'라고 적었다. 이 필사본은 『사진판 윤동주 자필 시고전집』(민음사, 1999)에 실렸고, 김응교의 『서른세 번의 만남, 백석과 동주』(아카넷, 2020)가 이 필사에서 출발해 두 시인의 영향 관계를 다룬다.",
+      "sourceIds": [
+        "src--yun-dong-ju-japil-sigo-jeonjip-1999",
+        "src--kim-eung-gyo-baek-seok-dongju-2020"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--kim-sowol--baek-seok (→ kim-sowol 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "9e1fd966d49a",
+      "where": "author.facts",
+      "text": "백석(백석) · 1912–1996 · ko · east-asia"
+    },
+    {
+      "sid": "5bf34c0f998c",
+      "where": "author.importanceReason",
+      "text": "평안도 방언과 고어, 명절 음식·놀이·마을 전설과 친척의 실명을 긴 행에 열거해, 운율 대신 장면 묘사와 서술로 짜인 이야기 구조의 서정시를 썼다."
+    },
+    {
+      "sid": "11a40bd30520",
+      "where": "author.importanceReason",
+      "text": "1936년 33편을 네 부로 묶어 100부 한정으로 자비 출간한 『사슴』이 그 방법을 모은 책이고, 만주를 떠돈 1940년대에는 객지의 방에 홀로 든 1인칭 화자가 평이한 말로 제 삶을 돌아보는 독백으로 옮겨 갔다."
+    },
+    {
+      "sid": "102ab51f39ad",
+      "where": "author.importanceReason",
+      "text": "해방 뒤 북에 남아 러시아 문학 번역과 동화시에 힘을 쏟다가 1962년을 끝으로 발표가 끊겼다."
+    },
+    {
+      "sid": "2f33ddfb76a8",
+      "where": "author.importanceReason",
+      "text": "분단 뒤 수십 년 동안 남북 어느 쪽 문학사에서도 인정받지 못했고, 남쪽에서는 1987년 이동순이 엮은 『백석시전집』으로 시가 한데 묶였다."
+    },
+    {
+      "sid": "f083b2f03670",
+      "where": "author.readingEntryReason",
+      "text": "백석이 장정과 편집까지 챙겨 자비로 낸 시집으로, 33편을 화자의 성장 과정에 맞춰 네 부로 묶었다."
+    },
+    {
+      "sid": "0f6a255c7a51",
+      "where": "author.readingEntryReason",
+      "text": "방언, 실명의 마을 사람, 음식과 놀이의 열거라는 초기 시의 방법이 한 권에 모여 있어 이후의 떠도는 독백을 읽을 기준이 된다."
+    },
+    {
+      "sid": "0962037b3fdc",
+      "where": "author.readingEntryReason",
+      "text": "지금 서점에는 1936년 초판본 표지를 되살린 판과 현대어판(더스토리) 등이 나와 있고, 안도현이 엮은 민음사 세계시인선 『사슴』(2016, 152쪽)은 1부에 『사슴』에서 고른 시를 싣고 뒤이어 「나와 나타샤와 흰 당나귀」, 「흰 바람벽이 있어」, 「남신의주 유동 박시봉방」까지 담아 이 순서를 한 권으로 따라갈 수 있다."
+    },
+    {
+      "sid": "f9b86e41613f",
+      "where": "author.readingWarning",
+      "text": "『사슴』은 평안북도 사투리를 그대로 시어로 쓰고, 「가즈랑집」·「여우난골족」 같은 시는 독자의 이해를 돌보지 않을 만큼 방언이 짙어 풀이 없이 읽으면 사물과 음식 이름에서 거듭 막힌다."
+    },
+    {
+      "sid": "e7cf6a76ef14",
+      "where": "author.readingWarning",
+      "text": "처음이라면 현대어판이나 어휘 풀이를 단 고형진 엮음 『정본 백석 시집』(문학동네, 개정판 2020)을 곁에 두는 편이 낫다."
+    },
+    {
+      "sid": "a76901ade63e",
+      "where": "author.difficultyReason",
+      "text": "평안도 방언과 고어, 지금은 사라진 음식·놀이·세간의 이름이 풀이 없이 나오고 한 행이 줄글처럼 길게 이어져, 낱말 풀이를 곁에 두고 천천히 읽어야 한다."
+    },
+    {
+      "sid": "f9d735c8e27e",
+      "where": "author.difficultyReason",
+      "text": "만주 시기 이후의 시는 말이 평이해지는 대신 쉼표로 이어지는 긴 독백이라 그 호흡을 따라가는 인내가 필요하다."
+    },
+    {
+      "sid": "3c459f133a0c",
+      "where": "work:baek-seok--saseum.facts",
+      "text": "『사슴』(사슴) · 1936 · poetry"
+    },
+    {
+      "sid": "112c1a7ea3aa",
+      "where": "work:baek-seok--saseum.significance",
+      "text": "1936년 1월 자비로 100부만 찍은 시집으로, 33편을 네 부로 나눠 실었다."
+    },
+    {
+      "sid": "17a8b6bb2647",
+      "where": "work:baek-seok--saseum.significance",
+      "text": "평안북도 사투리를 그대로 시어로 쓰고 가즈랑집 할머니·진할아버지 같은 마을 사람과 가스랑고개·국수당 같은 구체적 지명을 불러내, 어린 시절 고향의 전설과 명절 풍경을 지금 눈앞의 장면처럼 되살린다."
+    },
+    {
+      "sid": "aa99d76304c0",
+      "where": "work:baek-seok--saseum.significance",
+      "text": "윤동주가 이 시집의 모든 시를 노트에 베껴 쓰고 감상을 적었다."
+    },
+    {
+      "sid": "fcd1d95dc8e1",
+      "where": "work:baek-seok--yeounangol-jok.facts",
+      "text": "『여우난골족』(여우난골族) · 1935 · poetry"
+    },
+    {
+      "sid": "49cb5342ef7a",
+      "where": "work:baek-seok--yeounangol-jok.significance",
+      "text": "1935년 12월 『조광』에 발표하고 이듬해 『사슴』에 다시 실은 4연 9행의 시로, 명절날 아침부터 이튿날 새벽까지 큰집에 모인 친척들의 내력과 음식·놀이를 어린 화자가 네 개의 긴 문장으로 숨 가쁘게 열거한다."
+    },
+    {
+      "sid": "b10369a0a9eb",
+      "where": "work:baek-seok--yeounangol-jok.significance",
+      "text": "반복과 열거로 친족 공동체의 하루를 재현하는 『사슴』의 방법이 가장 선명하게 드러나는 시다."
+    },
+    {
+      "sid": "2fddc443fc0c",
+      "where": "work:baek-seok--nawa-natasyawa-hindangnagwi.facts",
+      "text": "『나와 나타샤와 흰 당나귀』(나와 나타샤와 힌당나귀) · 1938 · poetry"
+    },
+    {
+      "sid": "1da216e632ce",
+      "where": "work:baek-seok--nawa-natasyawa-hindangnagwi.significance",
+      "text": "함흥에서 교사로 지내던 시절 수필 「가재미, 나귀」에 쓴 나귀 타기에 '나타샤'와의 동반을 더하고, 산골·소주·눈의 이미지를 얹어 만든 시다."
+    },
+    {
+      "sid": "29bffba4df95",
+      "where": "work:baek-seok--nawa-natasyawa-hindangnagwi.significance",
+      "text": "흰 눈과 흰 당나귀의 백색 이미지가 가난한 현실과 행복한 상상을 가르며, 연가로도 외로운 독백으로도 읽힌다."
+    },
+    {
+      "sid": "f7e7839fed90",
+      "where": "work:baek-seok--hin-barambyeogi-isseo.facts",
+      "text": "『흰 바람벽이 있어』(힌 바람벽이 있어) · 1941 · poetry"
+    },
+    {
+      "sid": "c7f2a982372e",
+      "where": "work:baek-seok--hin-barambyeogi-isseo.significance",
+      "text": "만주 신경 시절인 1941년에 발표한 이야기시로, 설명하기보다 이미지를 영화 장면처럼 이어 붙여 보여 주는 구성을 취하며 프랑시스 잠과 라이너 마리아 릴케의 이름을 부른다."
+    },
+    {
+      "sid": "ec021e08f1c6",
+      "where": "work:baek-seok--hin-barambyeogi-isseo.significance",
+      "text": "한 해 전 『만선일보』에 쓴 박팔양 시집 감상문 「슬픔과 진실」의 표현이 이 시에 다시 나온다."
+    },
+    {
+      "sid": "470a87980dfa",
+      "where": "work:baek-seok--namsinuiju-yudong-baksibongbang.facts",
+      "text": "『남신의주 유동 박시봉방』(南新義州 柳洞 朴時逢方) · 1948 · poetry"
+    },
+    {
+      "sid": "5f81c5c86a67",
+      "where": "work:baek-seok--namsinuiju-yudong-baksibongbang.significance",
+      "text": "1948년 10월 『학풍』 창간호에 실린 1연 32행의 시로, 제목은 '남신의주 유동에 사는 박시봉 집에서'라는 편지 발신인의 주소다."
+    },
+    {
+      "sid": "e51a67cb5816",
+      "where": "work:baek-seok--namsinuiju-yudong-baksibongbang.significance",
+      "text": "가족과 떨어져 객지의 낯선 방에 칩거한 화자가 긴 호흡과 잦은 쉼표로 제 삶을 돌아보다가 갈매나무의 이미지에 이른다."
+    },
+    {
+      "sid": "233cb9e81e51",
+      "where": "work:baek-seok--namsinuiju-yudong-baksibongbang.significance",
+      "text": "백석이 남쪽 잡지에 마지막으로 발표한 시다."
+    },
+    {
+      "sid": "ea5447e93bcc",
+      "where": "work:baek-seok--jipgene-ne-hyeongje.facts",
+      "text": "『집게네 네 형제』(집게네 네 형제) · 1957 · poetry"
+    },
+    {
+      "sid": "5e7794414dff",
+      "where": "work:baek-seok--jipgene-ne-hyeongje.significance",
+      "text": "1955년 사무일 마르샤크의 『동화시집』을 번역한 뒤 두 해 만에 정현웅의 삽화를 넣어 낸 창작 동화시집이다."
+    },
+    {
+      "sid": "1c83119e275c",
+      "where": "work:baek-seok--jipgene-ne-hyeongje.significance",
+      "text": "사람보다 동물이 나오는 유래담과 우화가 훨씬 많고, 초기 시에는 없던 종결어미 '-네'를 수록작 12편 모두에 썼다."
+    },
+    {
+      "sid": "e598f1139d83",
+      "where": "relation:translation--alexander-pushkin--baek-seok.facts",
+      "text": "알렉산드르 푸시킨 → 백석 · translation · directed · documented"
+    },
+    {
+      "sid": "c5018d62f13d",
+      "where": "relation:translation--alexander-pushkin--baek-seok.summary",
+      "text": "1947년 무렵부터 러시아 문학 번역에 매진한 백석은 푸시킨의 시도 한국어로 옮겼다."
+    },
+    {
+      "sid": "fb83efd38f04",
+      "where": "relation:translation--alexander-pushkin--baek-seok.summary",
+      "text": "배대화의 「백석의 푸시킨 번역시 연구」(『슬라브연구』 28권 4호, 2012)는 백석이 옮긴 「작은 새」·「겨울길」·「겨울 아침」을 1920~30년대의 다른 번역과 비교하고, 장시 「짜르스코에 마을에서의 추억」의 백석 번역을 원시와 대조해 분석한다."
+    },
+    {
+      "sid": "6d6bc445b9a3",
+      "where": "relation:affinity--rainer-maria-rilke--baek-seok.facts",
+      "text": "라이너 마리아 릴케 → 백석 · affinity · bidirectional · scholarly_consensus"
+    },
+    {
+      "sid": "5faf26f114ac",
+      "where": "relation:affinity--rainer-maria-rilke--baek-seok.summary",
+      "text": "백석은 1941년 만주 신경에서 발표한 「흰 바람벽이 있어」에서 프랑시스 잠과 함께 라이너 마리아 릴케의 이름을 불렀다."
+    },
+    {
+      "sid": "872f1592143a",
+      "where": "relation:affinity--rainer-maria-rilke--baek-seok.summary",
+      "text": "노병춘의 「백석과 릴케와 잠 연구」(『인문논총』 62, 2023)는 두 시인의 자기 고백 시가 가난과 슬픔 속의 높은 정신을 드러내는 구조를 견주고, 이혜원의 「유랑 체험의 심화와 정신적 고양의 도정 ― 릴케와 백석 시의 비교 연구」(『비교한국학』 30권 1호, 2022)는 유랑 체험과 '나무' 이미지를 중심으로 두 시인을 비교한다."
+    },
+    {
+      "sid": "5d3d4ffd8e98",
+      "where": "relation:affinity--rainer-maria-rilke--baek-seok.summary",
+      "text": "두 연구 모두 영향은 시 속 호명과 당시의 번역 상황(노병춘은 1939·1941년의 일본어 번역, 이혜원은 1930년대 중반 이후 문단의 릴케 번역)에 기댄 추정으로 제시한다."
+    },
+    {
+      "sid": "dde0177d8936",
+      "where": "relation:influence--baek-seok--kim-yeon-su.facts",
+      "text": "백석 → 김연수 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "686074df82db",
+      "where": "relation:influence--baek-seok--kim-yeon-su.summary",
+      "text": "김연수는 대학 시절 해금된 백석의 시를 처음 읽고 1990년대 후반부터 그의 삶을 소설로 구상해 『일곱 해의 마지막』(2020)을 냈다."
+    },
+    {
+      "sid": "01111c0073ae",
+      "where": "relation:influence--baek-seok--kim-yeon-su.summary",
+      "text": "출간 인터뷰에서는 시대가 바뀌어도 소설가가 변하지 않아도 된다는 이야기를 백석에게 들은 것 같다고 말했다."
+    },
+    {
+      "sid": "430512639f26",
+      "where": "relation:influence--baek-seok--yun-dong-ju.facts",
+      "text": "백석 → 윤동주 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "644976593e85",
+      "where": "relation:influence--baek-seok--yun-dong-ju.summary",
+      "text": "윤동주는 100부 한정으로 나온 백석의 시집 『사슴』(1936)을 구하지 못해 1937년 8월 도서관에서 수록시 33편을 원고지에 모두 베껴 필사본을 만들었고, 「모닥불」 필사 끝에 붉은 색연필로 '걸작이다'라고 적었다."
+    },
+    {
+      "sid": "084e4e14b8c3",
+      "where": "relation:influence--baek-seok--yun-dong-ju.summary",
+      "text": "이 필사본은 『사진판 윤동주 자필 시고전집』(민음사, 1999)에 실렸고, 김응교의 『서른세 번의 만남, 백석과 동주』(아카넷, 2020)가 이 필사에서 출발해 두 시인의 영향 관계를 다룬다."
+    }
+  ],
+  "priorClaims": [],
+  "sources": {
+    "src--encykorea": {
+      "id": "src--encykorea",
+      "title": "한국민족문화대백과사전 — 작가·작품 항목",
+      "publisherOrInstitution": "한국학중앙연구원",
+      "url": "https://encykorea.aks.ac.kr",
+      "citation": "한국 작가의 생애·작품 기초 사실 확인용"
+    },
+    "src--baek-seok-saseum-1936": {
+      "id": "src--baek-seok-saseum-1936",
+      "title": "백석, 『사슴』 초판 (1936년 1월) — 33편 4부, 100부 한정 자가본",
+      "publisherOrInstitution": "저자 자가본 (선광인쇄주식회사 인쇄)",
+      "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+      "citation": "한국민족문화대백과사전 「사슴」 항목(정한모 집필) 기준 서지"
+    },
+    "src--an-do-hyeon-saseum-minumsa-2016": {
+      "id": "src--an-do-hyeon-saseum-minumsa-2016",
+      "title": "백석, 『사슴』 (안도현 엮음, 세계시인선 15, 2016)",
+      "publisherOrInstitution": "민음사",
+      "url": "https://minumsa.minumsa.com/book/9910/",
+      "citation": "ISBN 978-89-374-7515-3, 152쪽 — 1부 『사슴』에서, 2부 통영·함흥 시편, 3부 만주 시편, 4부 북한에서 발표한 시와 동시"
+    },
+    "src--go-hyeong-jin-jeongbon-baek-seok-2020": {
+      "id": "src--go-hyeong-jin-jeongbon-baek-seok-2020",
+      "title": "고형진 엮음, 『정본 백석 시집』 개정판 (2020)",
+      "publisherOrInstitution": "문학동네",
+      "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=229807409",
+      "citation": "ISBN 9788954670319, 376쪽 — 정본 표기와 어휘 풀이"
+    },
+    "src--bae-dae-hwa-baek-seok-pushkin-2012": {
+      "id": "src--bae-dae-hwa-baek-seok-pushkin-2012",
+      "title": "배대화, 「백석의 푸시킨 번역시 연구」, 『슬라브硏究』 28권 4호 (2012), 53–99쪽",
+      "publisherOrInstitution": "한국외국어대학교 러시아연구소",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001725565"
+    },
+    "src--no-byeong-chun-baek-seok-rilke-jammes-2023": {
+      "id": "src--no-byeong-chun-baek-seok-rilke-jammes-2023",
+      "title": "노병춘, 「백석과 릴케와 잠 연구」, 『인문논총』 62 (2023), 87–108쪽",
+      "publisherOrInstitution": "경남대학교 인문과학연구소",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003009969"
+    },
+    "src--lee-hye-won-rilke-baek-seok-2022": {
+      "id": "src--lee-hye-won-rilke-baek-seok-2022",
+      "title": "이혜원, 「유랑 체험의 심화와 정신적 고양의 도정 ― 릴케와 백석 시의 비교 연구」, 『비교한국학』 30권 1호 (2022), 73–106쪽",
+      "publisherOrInstitution": "국제비교한국학회",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002837226"
+    },
+    "src--upinews-kim-yeon-su-2020-07-03": {
+      "id": "src--upinews-kim-yeon-su-2020-07-03",
+      "title": "[조용호의 문학공간] 김연수 「시를 버리고 시를 살아낸 시인의 슬픔」",
+      "publisherOrInstitution": "UPI뉴스 (2020년 7월 3일)",
+      "url": "https://web.archive.org/web/20200905130710/http://www.upinews.kr/newsView/upi202007020036",
+      "citation": "『일곱 해의 마지막』 출간 인터뷰. 대학 시절 해금된 백석의 시를 처음 접했고 1990년대 후반부터 소설로 구상했다는 대목, 쓰고 나서 소설가도 변하지 않아도 된다는 이야기를 '저분'에게 들은 것 같다는 발언. 인터넷 아카이브 2020년 9월 5일 사본."
+    },
+    "src--kim-yeon-su-ilgop-haeui-majimak-2020": {
+      "id": "src--kim-yeon-su-ilgop-haeui-majimak-2020",
+      "title": "김연수, 『일곱 해의 마지막』",
+      "publisherOrInstitution": "문학동네",
+      "url": "https://www.yes24.com/product/goods/90619474",
+      "citation": "2020년 7월 1일 발행(ISBN 9788954672771). 백석을 모델로 한 시인 ‘기행’의 장편; ‘작가의 말’에서 백석이 살아보지 못한 세계에 대한 이야기라고 밝힘."
+    },
+    "src--yun-dong-ju-japil-sigo-jeonjip-1999": {
+      "id": "src--yun-dong-ju-japil-sigo-jeonjip-1999",
+      "title": "『사진판 윤동주 자필 시고전집』 (1999) — 자필 시고, 백석 『사슴』 필사본, 정지용·김영랑 시집 소장본 자필 메모, 소장 도서 목록 수록",
+      "publisherOrInstitution": "민음사",
+      "url": "https://minumsa.minumsa.com/book/653/",
+      "citation": "ISBN 978-89-374-0677-5, 392쪽"
+    },
+    "src--kim-eung-gyo-baek-seok-dongju-2020": {
+      "id": "src--kim-eung-gyo-baek-seok-dongju-2020",
+      "title": "김응교, 『서른세 번의 만남, 백석과 동주』 (2020)",
+      "publisherOrInstitution": "아카넷",
+      "url": "https://www.yes24.com/Product/Goods/95783820"
+    }
+  }
+}

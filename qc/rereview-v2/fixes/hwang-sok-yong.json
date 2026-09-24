@@ -1,0 +1,48 @@
+{
+  "fixes": [
+    {
+      "id": "hwang-sok-yong",
+      "readingEntryReason": "지금 창비판 한 권(302쪽)으로 살 수 있고, 무속설화 속 여신과 삶이 겹치는 소녀 바리 한 사람을 따라가는 이야기다. 민담과 무속의 형식을 소설의 틀로 삼는 후반기의 방법이 여기서 드러나, 같은 방법으로 한국전쟁의 학살을 다룬 『손님』(262쪽)으로 넘어가기 좋다.",
+      "readingWarning": "『장길산』부터 펴지 않는 편이 좋다. 10년 동안 2,092회 연재된 대하소설이라 지금 파는 창비 특별합본호도 네 권이다. 조선시대 민중의 언어와 풍속을 촘촘히 재현했고 어휘가 풍요롭다. 짧은 장편으로 황석영의 문장에 먼저 익숙해진 뒤 들어가는 편이 낫다.",
+      "difficultyReason": "문장보다 배경과 분량이 어렵다. 『손님』은 1950년 황해도 신천 학살이라는 사건을, 『철도원 삼대』는 620쪽에 걸친 철도원 집안의 백여 년을 전제로 하고, 『장길산』은 조선시대 민중의 언어와 풍속을 풍부하게 재현했다.",
+      "relations": [
+        {
+          "id": "affinity--hwang-sok-yong--kim-hoon",
+          "evidenceLevel": "editorial_inference"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.readingEntryReason",
+          "claim": "무속설화 속 여신과 삶이 겹치는 소녀 바리 한 사람을 따라가는 이야기다",
+          "resolution": "narrowed",
+          "evidence": "검증 대상이 아니라고 한 독서 판단 '한국 현대사에 대한 배경지식 없이도 읽힌다'를 뺐다: 「…소녀 바리 한 사람을 따라가는 이야기다.」"
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "그 방법이 『바리데기』에서 \"가장 알아보기 쉽게\" 드러난다",
+          "resolution": "narrowed",
+          "evidence": "어느 출처에도 없는 최상급 '가장 알아보기 쉽게'를 뺐다: 「…후반기의 방법이 여기서 드러나, …」 방법이 『바리데기』에 드러난다는 것은 창비 책소개(공수가 터지는 대목, 『손님』의 굿 형식과 더불어)가 받친다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "그래서 『장길산』에는 낯선 어휘가 많다",
+          "resolution": "corrected",
+          "evidence": "readingWarning의 '재현해 낯선 어휘가 많다'를 인과 없이 고침대로 '재현했고 어휘가 풍요롭다'로 바꿨다. 같은 추론을 담은 difficultyReason(bf50773570a4)에서는 '낯선 어휘가 많다'를 빼고 확인된 '조선시대 민중의 언어와 풍속을 풍부하게 재현했다'만 남겼다."
+        },
+        {
+          "field": "relation:affinity--hwang-sok-yong--kim-hoon.facts",
+          "claim": "근거 수준이 scholarly_consensus(신뢰할 만한 2차 연구가 반복적으로 다루는 계보)다",
+          "resolution": "corrected",
+          "evidence": "근거 수준을 고침대로 editorial_inference로 낮췄다. affinity는 이 수준을 허용하고, 요약은 이미 논문 한 편(이경재, 『현대소설연구』 79, 2020)만 근거로 적는다."
+        },
+        {
+          "field": "work:hwang-sok-yong--baridegi.significance",
+          "claim": "영국 출판사의 '신화 프로젝트'에 응해 구상했다",
+          "resolution": "accepted",
+          "evidence": "확인되지 않은 것은 출판사 이름뿐인데 페이지는 이름을 적지 않는다: 875400354e96 「영국 출판사의 '신화 프로젝트'에 응해 구상했고, …」"
+        }
+      ]
+    }
+  ]
+}

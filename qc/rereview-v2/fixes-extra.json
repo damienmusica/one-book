@@ -1,0 +1,16 @@
+{"fixes":[
+ {"id":"annie-ernaux","works":[
+   {"id":"annie-ernaux--la-place","genre":"history"},{"id":"annie-ernaux--une-femme","genre":"history"},{"id":"annie-ernaux--la-honte","genre":"history"},
+   {"id":"annie-ernaux--l-evenement","genre":"history"},{"id":"annie-ernaux--les-annees","genre":"history"},{"id":"annie-ernaux--passion-simple","genre":"history"}],
+  "resolutions":[
+   {"field":"work:annie-ernaux--la-place.facts","claim":"『남자의 자리』의 장르는 소설(fiction)이다","resolution":"corrected"},
+   {"field":"work:annie-ernaux--une-femme.facts","claim":"『한 여자』의 장르는 소설(fiction)이다","resolution":"corrected"},
+   {"field":"work:annie-ernaux--la-honte.facts","claim":"『부끄러움』의 장르는 소설(fiction)이다","resolution":"corrected"},
+   {"field":"work:annie-ernaux--l-evenement.facts","claim":"『사건』의 장르는 소설(fiction)이다","resolution":"corrected"},
+   {"field":"work:annie-ernaux--les-annees.facts","claim":"『세월』의 장르는 소설(fiction)이다","resolution":"corrected"},
+   {"field":"work:annie-ernaux--passion-simple.facts","claim":"『단순한 열정』의 장르는 소설(fiction)이다","resolution":"corrected"}]},
+ {"id":"baek-seok","works":[{"id":"baek-seok--yeounangol-jok","titleOriginal":"여우난곬族"}],
+  "resolutions":[{"field":"work:baek-seok--yeounangol-jok.facts","claim":"원제 표기는 '여우난골族'이다.","resolution":"corrected"}]},
+ {"id":"hwang-jung-eun","works":[{"id":"hwang-jung-eun--ilgi","titleOriginal":"일기日記","genre":"essay-criticism"}],
+  "resolutions":[{"field":"work:hwang-jung-eun--ilgi.facts","claim":"원제 표기는 '일기'다","resolution":"corrected"}]}
+]}

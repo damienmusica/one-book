@@ -1,0 +1,53 @@
+{
+  "fixes": [
+    {
+      "id": "haruki-murakami",
+      "readingEntryReason": "작가가 띠지에 『양을 쫓는 모험』이나 『세계의 끝과 하드보일드 원더랜드』와는 계열이 다른 ‘100퍼센트 리얼리즘 소설’이라고 쓰고 싶었다고 밝힌 장편이다. 1960년대 말 도쿄의 대학에 진학한 와타나베의 기억과 연애를 한 줄기로 따라가므로, 비현실의 장치에 익숙해지기 전에 하루키의 평이한 문장부터 익힐 수 있다. 민음사 세계문학전집판(양억관 옮김, 2013, 한 권)으로 지금 살 수 있다.",
+      "works": [
+        {
+          "id": "haruki-murakami--umibe-no-kafuka",
+          "significance": "아버지가 건 저주를 피해 집을 나온 열다섯 살 다무라 카프카의 장(1인칭·2인칭 현재형)과 노인 나카타의 장(3인칭 과거형)이 번갈아 진행된다. 오이디푸스 왕 이야기와 『겐지 모노가타리』·『우게쓰 모노가타리』를 곳곳에 끌어들였고, 영어판은 뉴욕 타임스의 ‘올해의 책 10권’에 뽑혔다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "affinity--haruki-murakami--keigo-higashino",
+          "evidenceLevel": "editorial_inference"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+          "claim": "열다섯 살 다무라 카프카는 저주를 피해 집을 나온다 — ‘아버지에게 걸린 저주’, 즉 아버지가 받은 저주로 읽히는 표현",
+          "resolution": "corrected",
+          "evidence": "‘아버지에게 걸린 저주를 피해 집을 나온’을 ‘아버지가 건 저주를 피해 집을 나온’으로 바꿨다. 교정문(아버지가 자신에게 건 저주)의 뜻 — 父親から…呪いをかけられた, 저주를 건 쪽이 아버지 — 을 그대로 두고, 의의가 원래보다 길어지지 않도록 ‘자신에게’는 뺐다(피해 집을 나온 주어가 카프카라 대상은 드러난다)."
+        },
+        {
+          "field": "relation:affinity--haruki-murakami--keigo-higashino.facts",
+          "claim": "하루키와 히가시노 게이고의 친연은 scholarly_consensus(신뢰할 만한 2차 연구가 반복적으로 다룸) 수준이다",
+          "resolution": "corrected",
+          "evidence": "관계 evidenceLevel 을 교정문대로 scholarly_consensus 에서 editorial_inference 로 낮췄다(affinity 가 허용하는 수준이라 선은 남는다). 요약문은 오노 마사코의 연구서 한 권과 그 서평이라는 확인된 사실만 적고 ‘반복된 연구’를 주장하지 않으므로 그대로 둔다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "민음사 세계문학전집판은 양억관 옮김, 2013년, 508쪽 한 권이다",
+          "resolution": "narrowed",
+          "evidence": "출판사 표기 508쪽과 교보문고의 같은 ISBN 700p가 어긋나 쪽수를 뺐다: 문장 53ff5546eb94 → ‘민음사 세계문학전집판(양억관 옮김, 2013, 한 권)으로 지금 살 수 있다.’ 역자·연도·한 권(단일 ISBN)은 같은 출판사 인용이 뒷받침한다."
+        },
+        {
+          "field": "relation:influence--fyodor-dostoevsky--haruki-murakami.summary",
+          "claim": "이 발언은 2006년 『グレート・ギャツビー』 번역본의 역자 후기에 있다",
+          "resolution": "pending",
+          "pendingWhere": "무라카미 하루키 옮김 『グレート・ギャツビー』(村上春樹翻訳ライブラリー, 中央公論新社, 2006년 11월)의 역자 후기 원문 — 위키백과 각주(‘あとがきより’)로만 확인됐고 원문은 아무도 열람하지 못했다(中央公論新社 도서 페이지에는 해당 문장이 없고, 이번 세션의 Google Books API 조회는 할당량 초과 429로 실패).",
+          "evidence": "문장 2c286315611b 는 그대로 둔다. 세 권을 꼽았다는 발언 자체는 위키백과 본문 인용(#80)이 확인한다."
+        },
+        {
+          "field": "relation:translation--ursula-k-le-guin--haruki-murakami.summary",
+          "claim": "『空を駆けるジェーン』(2001)까지 연작 네 권을 옮겼다",
+          "resolution": "accepted",
+          "evidence": "어긋난 것은 『帰ってきた空飛び猫』의 출간 월(NDL 1993.11, 위키 1993년 12월)뿐이다. 문장 8c574ac022ed 는 이 책에 연도 ‘(1993)’만 적고 월은 적지 않는다."
+        }
+      ]
+    }
+  ]
+}

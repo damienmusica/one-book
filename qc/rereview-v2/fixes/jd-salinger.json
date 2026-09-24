@@ -1,0 +1,21 @@
+{
+  "fixes": [
+    {
+      "id": "jd-salinger",
+      "readingEntryReason": "퇴학당한 소년이 집에 돌아가기 전 며칠을 한 사람의 목소리로 따라가는 단선 구조라 배경지식 없이 읽히고, 320쪽이다. 지금 서점에서 구할 수 있는 민음사 세계문학전집판(정영목 옮김, 2023)으로 시작하면 된다.",
+      "resolutions": [
+        {
+          "field": "author.readingEntryReason",
+          "claim": "민음사판은 320쪽 남짓이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "카를로스 베이커의 『Ernest Hemingway: A Life Story』(1969)가 이 편지를 전한다",
+          "resolution": "pending",
+          "pendingWhere": "https://archive.org/details/ernesthemingwayl00carl/page/420"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "plates": [
+    {
+      "id": "yi-cheong-jun",
+      "claims": [
+        {
+          "sids": [
+            "03ed0b194a75"
+          ],
+          "field": "author.facts",
+          "claim": "이청준은 1939년에 태어나 2008년에 작고했다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071310",
+          "quote": "1939년 전라남도[현 전남광주통합특별시] 장흥에서 출생하여 … 2008년 폐암으로 작고하였다.",
+          "note": "재인용: 원래 인용문은 출생 연도만 담아 작고 연도를 뒷받침하지 못했다. 같은 문단 안에서 출생과 작고를 함께 담도록 잘랐다. / 기존 메모: 같은 항목에 \"2008년 폐암으로 작고하였다\"도 있다. 한국일보 2008. 8. 1. 부고도 1939년 출생·7월 31일 타계로 같다."
+        },
+        {
+          "sids": [
+            "03ed0b194a75"
+          ],
+          "field": "author.facts",
+          "claim": "한국어로 쓴 동아시아(한국) 작가다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/translatedbooks/23328",
+          "quote": "KDC구분 > literature > Korean Literature > Korean Fiction > 21st century Original Title 병신과 머저리 Original Language Korean(한국어)",
+          "note": "재인용: 원래 인용문(장흥 출생)은 지역만 뒷받침하고 한국어로 썼다는 점은 담지 못했다. LTI 서지 항목이 대표작의 원어를 한국어, 분류를 한국문학(한국 소설)으로 적는다. / 기존 메모: 한국 장흥 출생, 한국 문단에서 활동한 한국어 소설가(서울대 독문과, 『사상계』 등단). 언어·지역 행은 이 사실에서 나온다."
+        },
+        {
+          "sids": [
+            "1640e2ca6479",
+            "614ddeb2ce6f"
+          ],
+          "field": "author.importanceReason",
+          "claim": "이청준은 액자 구성과 추리 기법을 자주 썼다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071310",
+          "quote": "이청준 소설은 형식적 측면에서는 액자 구성과 추리기법을 자주 차용하며"
+        },
+        {
+          "sids": [
+            "1640e2ca6479"
+          ],
+          "field": "author.importanceReason",
+          "claim": "한 인물이 다른 인물의 숨은 사연을 캐어 들어가는 과정 자체를 소설로 만든 것이 그의 방법이다",
+          "verdict": "unverifiable",
+          "note": "한국민족문화대백과(E0071310)는 \"액자 구성과 추리기법을 자주 차용\"과 예술가소설 성향까지만 말한다. 「병신과 머저리」(동생이 형의 원고로 과거를 캐려 함, LTI)와 「소문의 벽」(편집장의 추적, 민족문화대백과 E0030067)이 이 틀에 맞지만, 이것을 작가 전체의 방법으로 규정한 출처는 찾지 못했다. 안전한 문장: \"액자 구성과 추리 기법을 자주 빌려, 소설과 작가란 무엇인가를 묻는 예술가소설의 성향을 드러냈다.\""
+        },
+        {
+          "sids": [
+            "f40fc3e5b957"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「병신과 머저리」는 전쟁 소설을 쓰는 형과 그 원고에 붙들려 그림을 못 그리는 화가 동생을 한 이야기에 담았다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/translatedbooks/23328",
+          "quote": "The older brother’s war trauma resurfaces when one of his patients unexpectedly dies during a routine operation He starts writing a novel set during the Korean War. The younger brother secretly reads the novel hoping to reveal the secrets of his brother’s past. Believing the horrors depicted in the story to be real, he imagines his brother’s suffering, causing him to become unable to work on his own paintings."
+        },
+        {
+          "sids": [
+            "f40fc3e5b957",
+            "f55be52b60f5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「소문의 벽」의 박준은 6·25가 일어난 해 가을 밤중에 전짓불을 들이대고 좌익이냐 우익이냐를 묻던 사내들에게 공포를 느꼈다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "남해안의 조그만 포구가 고향인 박준은 6·25가 일어났던 해 가을, 밤중에 밀어닥쳐 전짓불을 들이대고 좌익이냐 우익이냐를 묻는 정체 모를 사내들에 대해서 그토록 공포감을 느꼈던 것이다.",
+          "note": "재인용: 인용문은 공포의 내용(6·25 때 전짓불·좌익이냐 우익이냐)만 담고 진술공포증·소설가는 다른 문단에 있다. claim을 이 인용문이 담는 범위로 좁히고, 진술공포증·소설가·전짓불과의 연결은 각각 따로 인용한 claim으로 나눴다. / 기존 메모: 같은 항목: 박준은 \"진술공포증에 걸려 있다\"는 담당 의사의 진단, 박준의 본명 박준일은 \"소설가\"."
+        },
+        {
+          "sids": [
+            "c380585b7b89",
+            "3cf093d1cb6f"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『당신들의 천국』은 1970년대 정치 현실과 개발 독재를 알레고리로 다루며 권력의 문제를 탐색한다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0070479",
+          "quote": "『당신들의 천국』은 1970년대 당시 우리의 정치 현실과 개발 독재의 실상을 알레고리 형식으로, … 권력에 대한 인간의 욕망을 탐색하여",
+          "note": "재인용: 원래 인용문은 \"권력 문제\"를 담지 못했고 \"소록도 병원장의 간척 사업\"은 담지 않는다. 같은 문단에서 권력 탐색까지 이어 잘랐고, 소록도 병원장·간척 사업은 E0070479의 줄거리 claim(sid c380585b7b89 추가)이 담는다."
+        },
+        {
+          "sids": [
+            "c380585b7b89",
+            "febd9aec2800"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「서편제」는 '남도 사람' 연작의 첫 작품이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/originalworks/101517",
+          "quote": "이청준의 '남도 사람' 연작 중 첫 번째 작품에 해당한다."
+        },
+        {
+          "sids": [
+            "c380585b7b89",
+            "febd9aec2800"
+          ],
+          "field": "author.importanceReason",
+          "claim": "'남도 사람' 연작 등에서 고향과 남도 소리(판소리)로 소재를 넓혔다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/200808010284425839",
+          "quote": "귀향 이후 그는 단편 ‘눈길’, ‘남도 사람’ 연작 등 어머니와 고향, 남도소리를 소재로 한 일련의 소설을 쓰며 작풍 변화를 보인다."
+        },
+        {
+          "sids": [
+            "769a980e1474",
+            "53304013dd71"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「벌레 이야기」는 단편이다",
+          "verdict": "confirmed",
+          "url": "https://www.sisain.co.kr/news/articleView.html?idxno=2680",
+          "quote": "이창동 감독에 의해 〈밀양〉이라는 제목으로 영화화된 단편 〈벌레 이야기〉(1988년)가 있다.",
+          "note": "같은 문장의 \"(1988년)\"은 발표 연도로는 틀리다(KCI 논문 초록: 1985년 발표). 여기서는 \"단편\"만 인용한다. 점검: 한국일보 2008 부고(200808010284425839)는 \"중편 ‘비화밀교’ ‘벌레 이야기’\"라 적고 문학과지성사 책소개는 수록작을 \"중단편 10편\"이라 해 단편/중편 표기가 출처마다 다르다. 인용문은 \"단편\"을 그대로 담으므로 유지한다."
+        },
+        {
+          "sids": [
+            "769a980e1474",
+            "53304013dd71"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「벌레 이야기」는 20여 쪽 분량이다",
+          "verdict": "unverifiable",
+          "note": "문학과지성사 전집 20권(392쪽, 중단편 10편) 목차는 쪽수를 싣지 않는다(moonji.com 보관본·예스24 확인). 쪽수를 적은 출처를 찾지 못했다. 안전한 문장: \"한자리에서 읽을 수 있는 단편이라\"."
+        },
+        {
+          "sids": [
+            "769a980e1474",
+            "53304013dd71"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「벌레 이야기」는 용서는 누가 하는 것인가를 묻는다",
+          "verdict": "confirmed",
+          "url": "https://www.sisain.co.kr/news/articleView.html?idxno=2680",
+          "quote": "나는 그를 용서할 기회마저 박탈당했다. 처참한 심정으로 어머니는 (영화에서와는 달리) 자살을 택한다. 용서란 무엇인가. 그것은 도대체 누가 하는 것인가.",
+          "note": "\"배경지식 없이 곧장 들어간다\"는 독서 안내다. 다만 문학과지성사 책소개는 이 작품을 80년 신군부 체제의 담론 질서 비판으로 읽는다."
+        },
+        {
+          "sids": [
+            "4fb04fdb9499"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이청준은 쉬운 답을 허락하지 않는 작가다(평가)",
+          "verdict": "confirmed",
+          "url": "https://www.sisain.co.kr/news/articleView.html?idxno=2680",
+          "quote": "이 작가가 던져놓는 윤리적 의제는 언제나 손쉬운 대답을 허용하지 않는다.",
+          "note": "평론가 신형철의 평가를 따르는 문장이다. 문장의 \"가장 짧은 거리에서\"는 비유적 독서 안내로 보고 검증 대상에서 뺐다."
+        },
+        {
+          "sids": [
+            "35c4dd0b8c47"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「벌레 이야기」는 문학과지성사 이청준 전집 20권 『벌레 이야기』에 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250206195000/https://moonji.com/book/7869/",
+          "quote": "이청준 전집 20권의 표제작 「벌레 이야기」는"
+        },
+        {
+          "sids": [
+            "0eef6e35d63d"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「소문의 벽」은 편집장의 추적 사이로 주인공 박준이 쓴 소설 원고들이 끼어드는 구조다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "그러다가 박준이 쓴 「괴상한 버릇」·「벌거벗은 사장님」, 그리고 제목이 붙어 있지 않은 중편소설 등을 읽게 된다.",
+          "note": "\"장치에 먼저 지치기 쉽다\"는 독서 안내다. \"그러다가\"가 앞 문단의 추적을 받는다. 화자가 편집장이라는 점은 따로 인용한 claim이 담는다."
+        },
+        {
+          "sids": [
+            "879c1460b3c0"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "이청준의 이야기는 액자와 추리의 틀로 짜여 있다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071310",
+          "quote": "이청준 소설은 형식적 측면에서는 액자 구성과 추리기법을 자주 차용하며",
+          "note": "\"문장은 단정하다\"는 평가라 검증 대상이 아니다."
+        },
+        {
+          "sids": [
+            "879c1460b3c0"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "한 인물이 다른 인물의 사연을 캐는 과정을 따라가며 감춰진 사실을 독자가 스스로 맞춰야 한다",
+          "verdict": "unverifiable",
+          "note": "「병신과 머저리」(LTI: 동생이 형의 원고로 과거의 비밀을 캐려 함)와 「소문의 벽」(민족문화대백과: 편집장이 박준의 사연을 추적)에는 맞지만, 작가 전체의 서사 방식으로 말한 출처는 찾지 못했다."
+        },
+        {
+          "sids": [
+            "3cf093d1cb6f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "중편 「소문의 벽」은 한국전쟁 때의 기억을 소재로 삼는다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "남해안의 조그만 포구가 고향인 박준은 6·25가 일어났던 해 가을, 밤중에 밀어닥쳐 전짓불을 들이대고 좌익이냐 우익이냐를 묻는 정체 모를 사내들에 대해서 그토록 공포감을 느꼈던 것이다.",
+          "note": "\"알레고리\"는 장편 『당신들의 천국』에 대해서는 출처가 그렇게 말한다(위 claim). 「소문의 벽」에 대해 민족문화대백과는 알레고리라는 말 대신 \"진실과 억압의 갈등\"을 보여주는 작품이라고 한다."
+        },
+        {
+          "sids": [
+            "fc6d11851f86"
+          ],
+          "field": "work:yi-cheong-jun--byeongsingwa-meojeori.facts",
+          "claim": "「병신과 머저리」는 1966년 『창작과비평』에 발표된 소설이다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071314",
+          "quote": "1966년 『창작과비평』가을호에 실렸다."
+        },
+        {
+          "sids": [
+            "599edb535d95"
+          ],
+          "field": "work:yi-cheong-jun--byeongsingwa-meojeori.significance",
+          "claim": "형은 수술 중 환자를 잃은 뒤 전쟁을 배경으로 한 소설을 쓰기 시작한다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/translatedbooks/23328",
+          "quote": "The older brother’s war trauma resurfaces when one of his patients unexpectedly dies during a routine operation He starts writing a novel set during the Korean War."
+        },
+        {
+          "sids": [
+            "599edb535d95"
+          ],
+          "field": "work:yi-cheong-jun--byeongsingwa-meojeori.significance",
+          "claim": "수술 중 잃은 환자는 소녀다",
+          "verdict": "confirmed",
+          "url": "https://m.cafe.daum.net/gilbutinc/Ll8a/26",
+          "quote": "형이 실상 자신의 전적인 책임도 아닌 수술의 실패(열 살짜리 어린 소녀의 죽음)를 계기로 고민에 빠지고, 병원 문을 닫고 소설을 쓰기 시작한다.",
+          "note": "입시학원 카페 해설이라 권위가 약하다. 위키백과(병신과 머저리)도 \"최근 수술 실패로 소녀를 죽게 한 사건\"이라 적는다."
+        },
+        {
+          "sids": [
+            "599edb535d95"
+          ],
+          "field": "work:yi-cheong-jun--byeongsingwa-meojeori.significance",
+          "claim": "형이 소설로 쓰는 것은 전쟁 때 전우를 죽인 기억이다",
+          "verdict": "contradicted",
+          "url": "https://m.cafe.daum.net/gilbutinc/Ll8a/26",
+          "quote": "다름 아닌 전쟁 때 패잔병으로 형과 전우들이 적진의 한 동굴 속에 고립되었을 때, 자신의 생존과 성욕만을 아는 이기적인 이등중사 ‘오관모’의 위협(입을 하나라도 죽이기 위해 김 일병을 죽이자는 제안) 때문에 사명을 다하지 못한 채, 팔이 떨어져 나간 부상당한 동료인 김 일병을 죽게 만들었던 사건을 기억하게 된 것이다. … 이처럼 형은 당시 상황을 소설로 재구성해 나가게 되는데 결말을 못 짓고 고민하던 끝에, 오관모를 죽임으로써 일단 결말을 짓고 다시 의사 일을 하게 된다.",
+          "correction": "전쟁 때 오관모의 위협 속에 부상한 동료 김 일병을 죽게 만든 기억을 소설로 재구성하며 결말에서 오관모를 죽이는 형과,",
+          "note": "점검: 원래 인용문(결말에 관모가 다시 등장)은 원래 교정문의 \"김 일병의 죽음을 방관했던 기억\"을 담지 못했다. 같은 해설 글에서 형의 기억과 소설 재구성을 담은 한 문단으로 인용을 바꾸고, 교정문을 그 인용문이 말하는 데까지로 고쳤다(\"방관\" 대신 인용문의 \"죽게 만든\"). 출처는 입시학원 카페 해설이라 권위가 약하다. 같은 글 다른 문단은 \"과실치사(過失致死)의 죄의식\", \"전장에서의 동료 살해\"라고도 적고, 위키백과(병신과 머저리)는 \"과거 전쟁 중 동료를 죽였던 경험\"이라 적어 출처끼리 어긋난다. 원문 대조 권장."
+        },
+        {
+          "sids": [
+            "599edb535d95"
+          ],
+          "field": "work:yi-cheong-jun--byeongsingwa-meojeori.significance",
+          "claim": "동생은 화가이고 형의 원고에 붙들려 그림을 끝내지 못한다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/translatedbooks/23328",
+          "quote": "The younger brother secretly reads the novel hoping to reveal the secrets of his brother’s past. Believing the horrors depicted in the story to be real, he imagines his brother’s suffering, causing him to become unable to work on his own paintings."
+        },
+        {
+          "sids": [
+            "599edb535d95",
+            "614ddeb2ce6f"
+          ],
+          "field": "work:yi-cheong-jun--byeongsingwa-meojeori.significance",
+          "claim": "겉이야기와 속이야기가 맞물린 액자 구조이고, 수수께끼를 던지고 추리로 푸는 구조다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071314",
+          "quote": "동생의 ‘그림그리기’가 중심을 이루고 있는 액자 겉이야기와 형의 ‘소설 속 소설’을 다루고 있는 속이야기가 상호보완적으로 하나의 텍스트를 구성하는 액자소설적 형식을 취하고 있다. 또 ‘수수께끼의 제시→논리적 추리과정→수수께끼 풀기’ 의 세 축을 밟아 가는 질문/해답의 추리소설적 서사구조를 지니고 있다."
+        },
+        {
+          "sids": [
+            "f76c0684ad9d"
+          ],
+          "field": "work:yi-cheong-jun--byeongsingwa-meojeori.significance",
+          "claim": "「병신과 머저리」는 동인문학상 수상작이다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071314",
+          "quote": "1968년 제12회 동인문학상 수상작으로",
+          "note": "수상 연도는 출처마다 다르다(민족문화대백과 1968년 제12회, 한국일보 2008 연보 1967년). 페이지는 연도를 적지 않으므로 문제없다."
+        },
+        {
+          "sids": [
+            "9a82b93b9ca1"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.facts",
+          "claim": "「소문의 벽」은 1971년에 발표된 소설(중편)이다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "이청준(李淸俊)이 지은 중편소설. 1971년 『문학(文學)과 지성(知性)』 여름호에 발표되었다."
+        },
+        {
+          "sids": [
+            "f55be52b60f5",
+            "f40fc3e5b957"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "박준은 위협당한다는 공포 때문에 진술을 거부하는 진술공포증에 걸려 있다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "담당 의사인 김 박사는 박준이 심한 히스테리의 일종인 진술공포증에 걸려 있다고 말한다. 환자는 무엇으로부터인가 끊임없이 위협당하고 있다는 공포를 느끼고 진술을 거부한다는 것이다.",
+          "note": "재인용: 원래 인용문은 진술공포증만 담고 정신병원 탈출·소설가·편집장의 추적은 담지 못했다. claim을 진술공포증으로 좁히고 같은 문단의 다음 문장까지 인용했다. 나머지는 각 문단을 인용한 claim으로 나눴다. / 기존 메모: 같은 항목: 화자는 \"잡지사 편집장인 나\", 사내는 \"병원에서 도망친 환자 박준\", 박준은 \"소설가\"이며 \"나\"는 그의 사연을 \"집요하게 추적한다\"."
+        },
+        {
+          "sids": [
+            "f55be52b60f5",
+            "f40fc3e5b957"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "박준이 쓴 소설 원고들 속에서 그가 그토록 두려워하던 전짓불의 실체가 드러난다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "그러다가 박준이 쓴 「괴상한 버릇」·「벌거벗은 사장님」, 그리고 제목이 붙어 있지 않은 중편소설 등을 읽게 된다. 그 소설 중에 박준이 그토록 두려워하던 전짓불의 실체가 나타난다.",
+          "note": "재인용: 원래 인용문은 원고 속에서 전짓불의 실체가 드러난다는 것까지만 담고 6·25·좌익이냐 우익이냐는 다음 문단에 있다. claim을 좁혔고 그 부분은 좁힌 claim #5가 담는다."
+        },
+        {
+          "sids": [
+            "001d82e3be71"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "김 박사가 병실 불을 끄고 전짓불을 들이대자 그날 밤 박준은 다시 도망친다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "끝내 김 박사는 박준의 병실 불을 끄고 전짓불을 들이대는 수단을 택하고 만다. 그날 밤 박준은 병실을 도망쳐 나가버린다. ",
+          "note": "재인용: 인용문은 전짓불을 들이댄 그날 밤 박준이 도망쳤다는 데까지만 담는다. \"진술을 끌어내려는\" 목적은 앞 문단에 있어 따로 인용한 claim으로 나눴다."
+        },
+        {
+          "sids": [
+            "001d82e3be71"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "억압과 작가의 진실을 다룬 중편이다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "이청준(李淸俊)이 지은 중편소설. … 조현증(調絃症, 정신분열증)이 되어 가는 한 작가의 잠재의식을 추적함으로써 진실과 억압의 갈등을 첨예하게 보여주는 작품이다.",
+          "note": "재인용: 원래 인용문은 \"중편\"을 담지 못했다. 같은 문단 첫 문장부터 잘라 이었다. \"말하기를 강요하는\" 억압은 따로 인용한 claim이 담는다."
+        },
+        {
+          "sids": [
+            "1436d2f29dd1",
+            "f7c6844f53a6"
+          ],
+          "field": "work:yi-cheong-jun--dangsindeurui-cheonguk.facts",
+          "claim": "『당신들의 천국』은 1974년 『신동아』 연재로 시작해 1976년 단행본으로 나온 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250219013634/https://moonji.com/book/6791/",
+          "quote": "이청준 장편소설 『당신들의 천국』(<이청준 전집> 11권, 문학과지성사, 2012)은 1974년 4월부터 1975년 12월까지 『신동아』지에 연재되면서 뜨거운 주목을 받았고, 그 이듬해인 1976년 5월에 문학과지성사에서 최초로 단행본으로 묶여",
+          "note": "재인용: 원래 인용문은 claim의 \"장편소설\"을 담지 못했다. 같은 문장의 머리부터 인용했다. / 기존 메모: facts의 1974는 연재 시작 연도다. 한국일보 2008 연보와 LTI는 단행본 연도 1976을 쓴다."
+        },
+        {
+          "sids": [
+            "fadebb8fe7c5",
+            "c380585b7b89"
+          ],
+          "field": "work:yi-cheong-jun--dangsindeurui-cheonguk.significance",
+          "claim": "한센병(나병) 환자들의 섬 소록도에 군의관 출신 대령이 병원장으로 부임해, 환자들과 갈등을 빚으며 간척 사업을 벌인다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0070479",
+          "quote": "나환자들의 섬 소록도에 전직 군의관 출신 조백헌 대령이 병원장으로 부임해 온다. 그는 환자들을 위해 오마도 간척사업을 시작한다. 그러나 공사 기간 동안 나환자들과의 갈등은 심화된다.",
+          "note": "재인용: 문장의 \"밀어붙이는\"(원생들과 부딪치며 추진함)을 담도록 같은 문단의 다음 문장까지 인용했다. importanceReason의 \"소록도 병원장의 간척 사업\"(c380585b7b89)도 이 인용문이 담는다."
+        },
+        {
+          "sids": [
+            "fadebb8fe7c5"
+          ],
+          "field": "work:yi-cheong-jun--dangsindeurui-cheonguk.significance",
+          "claim": "세 부로 나뉘고 부마다 시점 인물이 이상욱·조백헌·신문기자 이정태로 바뀐다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0070479",
+          "quote": "그러나 서술의 시점자는 부분마다 달라진다. 1부는 이상욱이 보는 섬과 조백헌의 모습이고, 2부는 주로 조백헌의 시점에서 그려지며, 3부는 신문기자 이정태의 시점에서 그려진다.",
+          "note": "같은 항목 앞 문장: \"총3부로 구성된 장편소설\"."
+        },
+        {
+          "sids": [
+            "fadebb8fe7c5"
+          ],
+          "field": "work:yi-cheong-jun--dangsindeurui-cheonguk.significance",
+          "claim": "1부 시점 인물 이상욱은 보건과장이다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0070479",
+          "quote": "보건 과장 이상욱은 또 다시 누군가 우상화되는 것이 두려워"
+        },
+        {
+          "sids": [
+            "5e1255d963d5"
+          ],
+          "field": "work:yi-cheong-jun--dangsindeurui-cheonguk.significance",
+          "claim": "원생들은 일제강점기 원장의 '낙원 건설'을 기억한다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0070479",
+          "quote": "그들에게는 일제시대 때 주정수 원장이 행했던 낙원건설의 욕망과 그로 인한 고통의 기억이 있기 때문이다."
+        },
+        {
+          "sids": [
+            "5e1255d963d5"
+          ],
+          "field": "work:yi-cheong-jun--dangsindeurui-cheonguk.significance",
+          "claim": "선의의 사업이 또 다른 지배가 되는지를 묻는다(권력과 지배의 문제)",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0070479",
+          "quote": "긍정적인 권력은 수직적 위치에서 대상을 지배하는 것이 아니라 그 대상과 수평적 관계를 이루며 조화와 화해를 추구해야 한다는 것을 역설하고",
+          "note": "LTI 작가 소개도 \"explores the dialectics of charity and will to power\"라 한다."
+        },
+        {
+          "sids": [
+            "405b95dc4c01"
+          ],
+          "field": "work:yi-cheong-jun--seopyeonje.facts",
+          "claim": "「서편제」는 1976년에 발표된 소설(단편)이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/originalworks/101517",
+          "quote": "1976년 <뿌리깊은 나무>에 발표된 이청준의 단편소설이다."
+        },
+        {
+          "sids": [
+            "febd9aec2800"
+          ],
+          "field": "work:yi-cheong-jun--seopyeonje.significance",
+          "claim": "남도 소리를 소재로 한 연작이다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/200808010284425839",
+          "quote": "‘남도 사람’ 연작 등 어머니와 고향, 남도소리를 소재로 한 일련의 소설을 쓰며"
+        },
+        {
+          "sids": [
+            "febd9aec2800"
+          ],
+          "field": "work:yi-cheong-jun--seopyeonje.significance",
+          "claim": "한(恨)을 삶 속에 삭이면서 소리로 넘어서려는 인물들을 그렸다",
+          "verdict": "contradicted",
+          "url": "https://library.ltikorea.or.kr/originalworks/101517",
+          "quote": "이 작품은 소리꾼 남매의 기구한 운명을 통해 한恨의 정서를 예술적으로 형상화하고 있다고 평가된다.",
+          "correction": "소리꾼 남매의 기구한 운명을 통해 한(恨)의 정서를 그렸다.",
+          "note": "출처는 한의 정서를 형상화했다고까지만 말한다. \"삭이면서 소리로 넘어선다\"는 해석을 뒷받침하는 문장은 찾지 못했다."
+        },
+        {
+          "sids": [
+            "b896d5a10a71"
+          ],
+          "field": "work:yi-cheong-jun--seopyeonje.significance",
+          "claim": "1993년 임권택 감독의 영화 「서편제」는 '남도 사람' 연작의 단편 세 편을 원작으로 삼았다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/200808010284425839",
+          "quote": "연작소설집 <남도 사람> 수록 단편 중 3편을 원작으로 한 임권택 감독의 영화 <서편제>(1993)로",
+          "note": "위키백과(서편제 영화)는 원작을 「서편제」·「소리의 빛」 두 편으로 적어 출처 간 차이가 있다."
+        },
+        {
+          "sids": [
+            "309660081824"
+          ],
+          "field": "work:yi-cheong-jun--beolle-iyagi.facts",
+          "claim": "「벌레 이야기」는 1985년에 발표된 소설이다",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002335078",
+          "quote": "이와 같은 이청준이 1985년에 발표한 문제적 작품이 바로 「벌레 이야기」이다.",
+          "note": "시사IN 2008(신형철)은 \"(1988년)\"으로 적었으나 KCI 논문 초록과 문학과지성사 책소개(1985년부터 1987년 봄 발표작 수록)가 1985년을 지지한다."
+        },
+        {
+          "sids": [
+            "a451a4e5fcd0"
+          ],
+          "field": "work:yi-cheong-jun--beolle-iyagi.significance",
+          "claim": "아들을 유괴·살해당한 어머니가 교회에서 위안을 얻어 범인을 용서하려 하나, 사형 선고를 받은 범인이 먼저 신앙 속에서 평화를 얻은 것을 보고 절망한다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250206195000/https://moonji.com/book/7869/",
+          "quote": "어린 아들이 유괴되어 살해되자 그 어머니가 교회를 찾아가 마음의 위안과 평화를 얻어 붙잡힌 범인을 용서하려 하지만, 이미 사형언도까지 받은 범인이 먼저 신앙적 구원과 사랑 속에 마음이 평화로워져 있음에 절망하여"
+        },
+        {
+          "sids": [
+            "a451a4e5fcd0"
+          ],
+          "field": "work:yi-cheong-jun--beolle-iyagi.significance",
+          "claim": "어머니는 용서할 기회마저 빼앗겼다고 느낀다",
+          "verdict": "confirmed",
+          "url": "https://www.sisain.co.kr/news/articleView.html?idxno=2680",
+          "quote": "나는 그를 용서할 기회마저 박탈당했다."
+        },
+        {
+          "sids": [
+            "53304013dd71"
+          ],
+          "field": "work:yi-cheong-jun--beolle-iyagi.significance",
+          "claim": "이창동 감독의 영화 「밀양」(2007)의 원작이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250206195000/https://moonji.com/book/7869/",
+          "quote": "이창동 감독이 연출하고 전도연 송강호가 주연한 영화 「밀양」(2007)의 원작소설로도 유명한 이 작품은"
+        },
+        {
+          "sids": [
+            "2690a5156810"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.facts",
+          "claim": "이청준과 김승옥은 실질적 교류·우정 관계(dialogue, 양방향, documented)다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201203211245095738",
+          "quote": "서울대 동기로 평생지기였던 소설가 이청준씨와의 문청 시절을 한참 회고한 뒤",
+          "note": "relations-guide.md의 dialogue 정의(실질 교류·우정)와 맞는다. 시사IN 2008이 두 사람이 함께 신춘문예 응모를 도모한 일을 전한다."
+        },
+        {
+          "sids": [
+            "e392675c5ea6"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "두 사람은 1960년 서울대 불문과·독문과에 들어간 60학번 동기다",
+          "verdict": "confirmed",
+          "url": "https://www.sisain.co.kr/news/articleView.html?idxno=2680",
+          "quote": "서울대 불문과 60학번 김승옥이 있었고 서울대 독문과 60학번 이청준이 있었다."
+        },
+        {
+          "sids": [
+            "e392675c5ea6"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "1961년 2학기 말 다음 학기 등록금을 걱정하던 김승옥과 이청준이 김승옥의 주도로 함께 신춘문예에 도전하자고 도모했다",
+          "verdict": "confirmed",
+          "url": "https://www.sisain.co.kr/news/articleView.html?idxno=2680",
+          "quote": "1961년 2학기가 끝나갈 무렵, 다음 학기 등록금이 걱정되었던 김과 이는, 김의 주도 아래 이런 작당을 한다. 우리 신춘문예에 한번 덤벼보자.",
+          "note": "재인용: 인용문은 일화만 담는다. 괄호 속 출처 표기(신형철, 「이청준 선생님 감사합니다」, 시사IN 2008)는 따로 인용한 claim으로 나눴다. / 기존 메모: 필자 표기 \"신형철 (문학 평론가)\", 입력 2008.08.12."
+        },
+        {
+          "sids": [
+            "b3a88da5680a"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "김승옥은 서울대 동기이자 평생지기인 이청준과의 문청 시절을 회고했다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201203211245095738",
+          "quote": "서울대 동기로 평생지기였던 소설가 이청준씨와의 문청 시절을 한참 회고한 뒤",
+          "note": "재인용: 인용문은 회고만 담는다. \"등단 50주년 모임\"과 기사 날짜(2012. 3. 21.)는 같은 기사의 다른 문단·머리에 있어 따로 인용한 claim으로 나눴다. / 기존 메모: 같은 기사: \"소설가 김승옥(71)씨의 등단 50주년을 축하하는 모임이었다\", 입력 2012.03.21."
+        },
+        {
+          "sids": [
+            "dcbcad13028f"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "김승옥은 종이에 세상을 떠난 친구들의 이름을 적으면서 이청준의 이름을 적었다",
+          "verdict": "confirmed",
+          "url": "https://www.khan.co.kr/article/201607052136005",
+          "quote": "갑자기 종이 위에 최하림 시인, 이청준 소설가, 최인호 소설가, 김치수 평론가의 이름을 하나하나 적으며 “친구들/ 별세!”라고 쓴다.",
+          "note": "재인용: 인용문은 이름을 적은 일만 담는다. \"필담 인터뷰\"와 \"2016년\"은 같은 기사의 다른 문단·머리에 있어 따로 인용한 claim으로 나눴다. / 기존 메모: 입력 2016.07.05. 기사: \"지난달 말 두 차례 그를 만나 필담을 나눴다\"."
+        },
+        {
+          "sids": [
+            "f55be52b60f5",
+            "f40fc3e5b957"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "박준은 1, 2년 전까지 작품을 발표하던 소설가이고, 화자 \"나\"는 그가 그렇게 된 사연을 집요하게 추적한다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "박준의 본명은 박준일로서 1, 2년 전만 해도 정력적으로 작품을 발표하던 소설가이다. 이튿날 밤 다시 하숙집을 찾아온 박준을 정신병원에 데려다주고 난 나는 그가 어떻게 해서 그런 상황에 처하게 되었는가를 집요하게 추적한다.",
+          "note": "추가: 원래 claim #26·#5가 인용문 밖에 두었던 \"소설가\"와 \"추적\"을 담는다."
+        },
+        {
+          "sids": [
+            "f55be52b60f5"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "박준은 정신병원에서 도망친 환자다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "이상한 생각이 든 나는 집 가까운 곳에 있는 정신병원을 찾아갔다가 그 사내가 병원에서 도망친 환자 박준이라는 이야기를 듣고 깜짝 놀란다.",
+          "note": "추가: 원래 claim #26이 인용문 밖에 두었던 \"정신병원에서 달아난\"을 담는다. 첫 탈출의 이유를 출처는 따로 말하지 않는다(사내는 \"누구에게인가 쫓기고 있다\"고 말한다). \"진술공포증으로 … 달아난\"은 진술공포증 환자가 달아났다는 뜻으로 읽을 때만 맞다."
+        },
+        {
+          "sids": [
+            "f55be52b60f5",
+            "0eef6e35d63d"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "화자 \"나\"는 잡지사 편집장이다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "잡지사 편집장인 나는 밤늦게 집으로 돌아오던 도중 누구에게인가 쫓기고 있다고 도와달라는 한 사내를 만난다.",
+          "note": "추가: \"잡지 편집장이 추적\"과 readingWarning의 \"편집장의 추적\"에서 편집장을 담는다."
+        },
+        {
+          "sids": [
+            "001d82e3be71"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "김 박사는 박준이 스스로 이야기하면 병이 낫는다고 믿고 그의 진술을 끌어내려 한다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "환자 스스로 자신의 이야기를 꺼내기만 하면 병이 치료될 것이라고 믿는 김 박사는 박준의 진술을 끌어내기 위한 방법을 포기하지 않는다.",
+          "note": "추가: 원래 claim #28이 인용문 밖에 두었던 \"진술을 끌어내려는 치료\"를 담는다."
+        },
+        {
+          "sids": [
+            "001d82e3be71"
+          ],
+          "field": "work:yi-cheong-jun--somunui-byeok.significance",
+          "claim": "「소문의 벽」은 전짓불 앞에서 답변을 강요당하는 주인공을 통해 진실을 말해야 하는 작가의 인식을 다룬다(말하기를 강요하는 억압과 작가의 진실)",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "그러나 전짓불 앞에서 답변을 강요당하는 주인공의 의식은, 어떠한 상황에서도 진실을 말해야 하는 작가의 인식이며 타협을 용납하지 않는 소명 의식이다.",
+          "note": "추가: \"말하기를 강요하는 억압\"의 \"강요\"를 담는다."
+        },
+        {
+          "sids": [
+            "3cf093d1cb6f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "중편 「소문의 벽」은 한국전쟁을 알레고리로 옮겨 놓았다",
+          "verdict": "contradicted",
+          "url": "https://encykorea.aks.ac.kr/Article/E0030067",
+          "quote": "이 작품은 일견 전쟁의 상흔으로 인하여 부서져가는 인간의 잠재의식을 나타내려고 한 것처럼 보인다. 그러나 전짓불 앞에서 답변을 강요당하는 주인공의 의식은, 어떠한 상황에서도 진실을 말해야 하는 작가의 인식이며 타협을 용납하지 않는 소명 의식이다.",
+          "correction": "중편 「소문의 벽」에서 전짓불 앞에서 답변을 강요당하는 주인공의 의식은 전쟁의 상흔만이 아니라 어떤 상황에서도 진실을 말해야 하는 작가의 인식이고,",
+          "note": "추가: 원래 판정은 이 문장의 \"중편 … 한국전쟁 … 알레고리\"를 claim으로 세우지 않고 메모로만 남겼다(#17). 출처는 「소문의 벽」을 한국전쟁의 알레고리로 읽지 않고, 전쟁의 상흔처럼 보이는 것이 실은 진실을 말해야 하는 작가의 인식이라고 읽는다. 장편 쪽(1970년대 정치의 알레고리)은 #6이 담으므로, 교정문은 문장 앞쪽 중편 절만 바꾼다."
+        },
+        {
+          "sids": [
+            "c380585b7b89"
+          ],
+          "field": "author.importanceReason",
+          "claim": "'남도 사람' 연작의 첫 작품 「서편제」는 판소리를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/originalworks/101517",
+          "quote": "Subject/Theme Namdo art, pansori, artist fiction, sentiment of han (sorrow), fate",
+          "note": "추가: #8의 한국일보 인용문은 \"남도소리\"라고만 해서 문장의 \"판소리\"를 담지 못한다. LTI 「서편제」 항목의 주제어가 판소리를 적는다."
+        },
+        {
+          "sids": [
+            "35c4dd0b8c47"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이청준 전집은 문학과지성사에서 간행되었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250206195000/https://moonji.com/book/7869/",
+          "quote": "사후에 금관문화훈장이 추서되었고, 문학과지성사에서 전 34권의 결정본 전집이 간행되었다.",
+          "note": "추가: #13 인용문은 \"전집 20권의 표제작\"만 담고 출판사 이름은 담지 않는다. 같은 페이지 서지 정보도 \"출판사 문학과지성사\", \"분야 이청준 전집\"이다."
+        },
+        {
+          "sids": [
+            "b3a88da5680a"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "그 자리는 김승옥의 등단 50주년 축하 모임이었다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201203211245095738",
+          "quote": "소설가 김승옥(71)씨의 등단 50주년을 축하하는 모임이었다.",
+          "note": "추가: #47이 인용문 밖에 두었던 \"등단 50주년 모임\"을 담는다."
+        },
+        {
+          "sids": [
+            "b3a88da5680a",
+            "9ed13d680df7",
+            "1cd09858b23c"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "출처는 한국일보 2012년 3월 21일 기사다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201203211245095738",
+          "quote": "김승옥 등단 50년… 한국일보 신춘문예 출신 작가와 축하모임 입력 2012.03.21 12:52",
+          "note": "추가: 괄호 속 출처 표기(한국일보 2012. 3. 21.)를 담는다."
+        },
+        {
+          "sids": [
+            "dcbcad13028f"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "김승옥과의 인터뷰는 필담으로 이루어졌다",
+          "verdict": "confirmed",
+          "url": "https://www.khan.co.kr/article/201607052136005",
+          "quote": "서울 혜화동에서 지난달 말 두 차례 그를 만나 필담을 나눴다.",
+          "note": "추가: #48이 인용문 밖에 두었던 \"필담 인터뷰\"를 담는다."
+        },
+        {
+          "sids": [
+            "dcbcad13028f"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "이 인터뷰는 2016년 경향신문 기사다",
+          "verdict": "confirmed",
+          "url": "https://www.khan.co.kr/article/201607052136005",
+          "quote": "소설가 김승옥, 언어를 잃고 나는 그리네…절망에 잠식 당하지 않기 위해 입력 2016.07.05 21:36",
+          "note": "추가: \"2016년\"을 담는다. 경향신문 기사 페이지(khan.co.kr)의 제목과 입력 시각이다."
+        },
+        {
+          "sids": [
+            "e392675c5ea6"
+          ],
+          "field": "relation:dialogue--yi-cheong-jun--kim-seung-ok.summary",
+          "claim": "이 일화의 출처는 신형철의 「이청준 선생님 감사합니다」(시사IN, 2008)다",
+          "verdict": "confirmed",
+          "url": "https://www.sisain.co.kr/news/articleView.html?idxno=2680",
+          "quote": "이청준 선생님 감사합니다 이청준 문학을 아우를 수 있는 말은 ‘윤리적 상상력’이다. … 신형철 (문학 평론가) 다른기사 보기 입력 2008.08.12 14:42",
+          "note": "추가: 괄호 속 출처 표기를 담는다. 시사IN 기사 페이지의 제목·필자·입력 시각이다."
+        },
+        {
+          "sids": [
+            "baeb319b0d83"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「병신과 머저리」는 단편이다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071314",
+          "quote": "이청준(李淸俊)이 쓴 단편소설.",
+          "note": "noClaim 전환: 이 문장은 \"단편 두 편\"이 액자와 추리의 틀을 익히게 해 준다고 전제한다. 읽기 순서의 단편 가운데 「병신과 머저리」가 그 틀을 지닌다."
+        },
+        {
+          "sids": [
+            "baeb319b0d83"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「병신과 머저리」는 액자와 추리의 틀을 지닌다",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071314",
+          "quote": "동생의 ‘그림그리기’가 중심을 이루고 있는 액자 겉이야기와 형의 ‘소설 속 소설’을 다루고 있는 속이야기가 상호보완적으로 하나의 텍스트를 구성하는 액자소설적 형식을 취하고 있다. 또 ‘수수께끼의 제시→논리적 추리과정→수수께끼 풀기’ 의 세 축을 밟아 가는 질문/해답의 추리소설적 서사구조를 지니고 있다.",
+          "note": "noClaim 전환."
+        },
+        {
+          "sids": [
+            "baeb319b0d83"
+          ],
+          "field": "author.readingWarning",
+          "claim": "읽기 순서 앞쪽의 다른 단편(「벌레 이야기」 또는 「서편제」)도 액자와 추리의 틀을 지닌다",
+          "verdict": "unverifiable",
+          "note": "noClaim 전환: 문장은 어느 두 편인지 밝히지 않는다. 읽기 순서의 단편은 「벌레 이야기」·「서편제」·「병신과 머저리」인데, 「벌레 이야기」·「서편제」를 액자·추리 구조로 설명한 출처는 이번에 가져온 자료(문학과지성사 책소개, LTI 「서편제」 항목, 시사IN)에 없다. 안전한 문장: \"액자와 추리의 틀이 뚜렷한 단편 「병신과 머저리」를 먼저 읽은 뒤에 읽는 편이 낫다.\""
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 31,
+    "requoted": 13,
+    "downgraded": 0,
+    "added": 13,
+    "noClaimConverted": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "fixes": [
+    {
+      "id": "yi-hyo-seok",
+      "difficultyReason": "대표작 대부분이 짧은 단편이라 분량 부담은 적다. 어려움은 어휘와 서술 방식에 있다. 1930년대 장터와 산골의 토속어, 풀이름·꽃이름이 촘촘히 나열되고 사건보다 묘사와 분위기가 앞선다. 「메밀꽃 필 무렵」처럼 인물 관계를 암시로만 둔 작품은 줄거리만 좇으면 놓치기 쉽다.",
+      "works": [
+        {
+          "id": "yi-hyo-seok--momilkkot-pil-muryeop",
+          "significance": "1936년 10월 『조광』에 발표했다. 봉평장을 거르지 않는 장돌뱅이 허생원이 대화장으로 가는 달밤 메밀꽃 산길에서 젊은 날 물방앗간의 하룻밤 인연을 이야기하고, 동이의 내력을 듣다 그의 어머니가 바로 그 처녀임을 속으로 확신하지만 소설은 동이도 자기처럼 왼손잡이라는 것을 보여 줄 뿐 둘의 관계를 끝내 말하지 않는다. 현행 표기로 바뀐 제목이며 원제는 「모밀꽃 필 무렵」이다."
+        },
+        {
+          "id": "yi-hyo-seok--dosiwa-yuryeong",
+          "significance": "1928년 7월 『조선지광』에 발표해 본격적인 문학 활동을 시작한 단편이다. 동대문 밖 학교 공사장의 뜨내기 미장이 화자가 밤에 정전 옆에서 본 '도깨비불'의 정체를 캐다가, 자동차에 치여 발목을 잃은 걸인 여인과 아이가 약을 찾느라 그은 성냥불이었음을 알게 되고, 서울에 늘어 가는 이런 '유령'을 어떻게 할 것인지 독자에게 묻는다. 도시 유랑민의 비참을 고발한 초기 경향 소설의 출발점이다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "대표작 전반에서 인물 사이의 관계가 암시로만 놓인다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "work:yi-hyo-seok--momilkkot-pil-muryeop.significance",
+          "claim": "그 하룻밤 인연의 장소는 물레방앗간이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:yi-hyo-seok--dosiwa-yuryeong.significance",
+          "claim": "화자는 '도깨비불'을 밤거리에서 보았다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:yi-hyo-seok--san.facts",
+          "claim": "「산」은 1936년 발표 소설이다",
+          "resolution": "accepted",
+          "evidence": "어긋나는 1931년(한국민족문화대백과사전 「들」 항목)은 페이지에 없다. a5d72229c6a2 「『산』(산(山)) · 1936 · fiction」과 e37e9a8aa63e 「1936년 1월 『삼천리』에 발표했다.」는 작품 항목과 같은 1936년만 적는다."
+        },
+        {
+          "field": "work:yi-hyo-seok--san.facts",
+          "claim": "「산」의 한자 표제는 山이다",
+          "resolution": "accepted",
+          "evidence": "인용문에 함께 적힌 1931년은 페이지에 없다. 페이지는 한자 표제 산(山)만 이 인용문에 기대고, 연도는 a5d72229c6a2·e37e9a8aa63e 에서 1936년으로 적는다."
+        },
+        {
+          "field": "work:yi-hyo-seok--dosiwa-yuryeong.significance",
+          "claim": "도시 유랑민의 비참을 고발했고 이후 경향 계열 초기작의 출발점이 되었다",
+          "resolution": "accepted",
+          "evidence": "인용문의 '신춘문예에 당선'은 페이지에 없다. 발표 지면은 ebcb488e1ef2 「1928년 7월 『조선지광』에 발표해 본격적인 문학 활동을 시작한 단편이다.」로 적혀 있다."
+        },
+        {
+          "field": "relation:influence--anton-chekhov--yi-hyo-seok.facts",
+          "claim": "한국민족문화대백과사전은 이효석의 표현·구성 기법에서 체호프의 영향을 찾아볼 수 있다고 적는다(방향 체호프→이효석, 학계 판단 수준)",
+          "resolution": "accepted",
+          "evidence": "확인하지 못한 이효석 자신의 진술은 페이지가 주장하지 않는다. b5c5f4474896 「이효석 자신의 진술은 찾지 못해 연구의 판단으로 기록한다.」가 그 부재를 밝히고, 63b2bf8d7be6 은 근거 수준을 scholarly_consensus 로 둔다."
+        }
+      ]
+    }
+  ]
+}

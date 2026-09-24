@@ -1,0 +1,523 @@
+{
+  "id": "taras-shevchenko",
+  "page": "https://literary-planet.pages.dev/authors/taras-shevchenko/",
+  "author": {
+    "names": {
+      "ko": "타라스 셰우첸코",
+      "original": "Тарас Шевченко",
+      "aliases": [
+        "Taras Shevchenko"
+      ]
+    },
+    "birthYear": 1814,
+    "deathYear": 1861,
+    "activeRange": [
+      1837,
+      1861
+    ],
+    "languages": [
+      "uk"
+    ],
+    "regions": [
+      "eastern-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "epic"
+    ],
+    "importanceReason": "농노로 태어나 속량된 뒤 우크라이나어로만 시집을 묶어, 제국의 언어 밖에서 문학어를 세우는 선례를 남겼다. 우크라이나 민요의 문체와 율격을 시행의 기본으로 삼되 농노제, 1768년 봉기, 캅카스 정복 같은 당대의 정치를 그 율격 안에 넣었다. 창작 금지 처분 이전에 쓰인 시들이 필사로 돌았고, 유형기의 시는 손수 만든 소책자에 숨겨졌으며, 그 유통 방식 자체가 이후 우크라이나 문학의 성립 조건이 되었다.",
+    "readingEntry": "taras-shevchenko--kateryna",
+    "readingEntryReason": "이야기 시 한 편이라 어느 판본에나 실려 있고, 버림받은 농촌 여성의 생애가 그 한 편 안에서 시작해 끝나 배경 지식이 적어도 따라갈 수 있다.",
+    "readingOrder": [
+      "taras-shevchenko--kateryna",
+      "taras-shevchenko--zapovit",
+      "taras-shevchenko--kavkaz",
+      "taras-shevchenko--haidamaky",
+      "taras-shevchenko--kobzar"
+    ],
+    "readingWarning": "오늘날 『코브자르』라는 제목으로 나오는 판본은 대개 전집이라 1840년 초판(여덟 편)과 분량이 전혀 다르다. 어느 판본인지 먼저 확인하는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "시행은 민요 율격이라 소리 내어 읽으면 잡히지만, 농노제·1768년 봉기·제국 검열이 시 안에 압축돼 있어 배경 없이는 고유명사가 비고, 우크라이나어 운율은 번역에서 대부분 깎여 나간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--internet-encyclopedia-of-ukraine",
+      "src--shkandrij-russia-and-ukraine"
+    ]
+  },
+  "works": [
+    {
+      "id": "taras-shevchenko--kateryna",
+      "titleKo": "카테리나",
+      "titleOriginal": "Катерина",
+      "year": 1838,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "러시아 군인에게 버림받은 농촌 여성의 생애를 이야기 시로 쓴 작품. 1840년 『코브자르』 초판에 수록되었고 같은 제목의 유화로도 남아, 그의 시와 그림이 같은 주제를 다룬 사례가 된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "taras-shevchenko--zapovit",
+      "titleKo": "유언",
+      "titleOriginal": "Заповіт",
+      "year": 1845,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "1845년 페레야슬라우에서 쓴 짧은 유언시. 자신을 언덕에 묻어 달라는 첫 연이 우크라이나어 낭독과 합창의 고정 목록이 되었고, 제국 안에서는 검열로 인쇄되지 못한 채 1859년 라이프치히에서 나온 시집에 실렸다.",
+      "sourceIds": []
+    },
+    {
+      "id": "taras-shevchenko--kavkaz",
+      "titleKo": "캅카스",
+      "titleOriginal": "Кавказ",
+      "year": 1845,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "캅카스 전쟁에서 죽은 친구 야키우 데 발멘에게 바친 시. 제국의 정복을 정복당하는 쪽의 자리에서 서술해, 같은 시대 러시아 낭만시의 캅카스와 정면으로 어긋난다.",
+      "sourceIds": []
+    },
+    {
+      "id": "taras-shevchenko--haidamaky",
+      "titleKo": "하이다마키",
+      "titleOriginal": "Гайдамаки",
+      "year": 1841,
+      "yearBasis": "first-print",
+      "genre": "epic",
+      "significance": "1768년 콜리이우시치나 봉기를 다룬 장편 서사시. 농민 반란의 폭력을 지우지 않고 기록하되, 서시에서는 하이다마키를 찬양하겠다는 뜻을 밝힌다. 그의 작품 가운데 역사 서술의 부담이 가장 큰 편이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "taras-shevchenko--kobzar",
+      "titleKo": "코브자르",
+      "titleOriginal": "Кобзар",
+      "year": 1840,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "1840년 페테르부르크에서 여덟 편으로 묶여 나온 첫 시집. 방랑 악사 코브자르의 구송을 책의 틀로 삼았고, 이후 그의 시 전체를 부르는 이름이 되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "contrast--taras-shevchenko--alexander-pushkin",
+      "type": "contrast",
+      "from": "taras-shevchenko (타라스 셰우첸코)",
+      "to": "alexander-pushkin (알렉산드르 푸시킨)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "제국의 변경을 노래하는 두 시선이 마주 놓인다. 미로슬라우 슈칸드리의 『러시아와 우크라이나: 문학과 제국의 담론』(2001)은 셰우첸코의 「캅카스」(1845)를 푸시킨 계열의 캅카스 시편이 세운 정복의 낭만과 정면으로 반대되는 항으로 읽는다.",
+      "sourceIds": [
+        "src--shkandrij-russia-and-ukraine"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "f389e8aca9b8",
+      "where": "author.facts",
+      "text": "타라스 셰우첸코(Тарас Шевченко) · 1814–1861 · uk · eastern-europe"
+    },
+    {
+      "sid": "a6baf9905937",
+      "where": "author.importanceReason",
+      "text": "농노로 태어나 속량된 뒤 우크라이나어로만 시집을 묶어, 제국의 언어 밖에서 문학어를 세우는 선례를 남겼다."
+    },
+    {
+      "sid": "123d80fb549d",
+      "where": "author.importanceReason",
+      "text": "우크라이나 민요의 문체와 율격을 시행의 기본으로 삼되 농노제, 1768년 봉기, 캅카스 정복 같은 당대의 정치를 그 율격 안에 넣었다."
+    },
+    {
+      "sid": "1517ae102641",
+      "where": "author.importanceReason",
+      "text": "창작 금지 처분 이전에 쓰인 시들이 필사로 돌았고, 유형기의 시는 손수 만든 소책자에 숨겨졌으며, 그 유통 방식 자체가 이후 우크라이나 문학의 성립 조건이 되었다."
+    },
+    {
+      "sid": "317ea5340f2b",
+      "where": "author.readingEntryReason",
+      "text": "이야기 시 한 편이라 어느 판본에나 실려 있고, 버림받은 농촌 여성의 생애가 그 한 편 안에서 시작해 끝나 배경 지식이 적어도 따라갈 수 있다."
+    },
+    {
+      "sid": "f2d4278421e3",
+      "where": "author.readingWarning",
+      "text": "오늘날 『코브자르』라는 제목으로 나오는 판본은 대개 전집이라 1840년 초판(여덟 편)과 분량이 전혀 다르다."
+    },
+    {
+      "sid": "aba55efaf6f7",
+      "where": "author.readingWarning",
+      "text": "어느 판본인지 먼저 확인하는 편이 낫다."
+    },
+    {
+      "sid": "8dc120ca9fbe",
+      "where": "author.difficultyReason",
+      "text": "시행은 민요 율격이라 소리 내어 읽으면 잡히지만, 농노제·1768년 봉기·제국 검열이 시 안에 압축돼 있어 배경 없이는 고유명사가 비고, 우크라이나어 운율은 번역에서 대부분 깎여 나간다."
+    },
+    {
+      "sid": "676cd006b059",
+      "where": "work:taras-shevchenko--kateryna.facts",
+      "text": "『카테리나』(Катерина) · 1838 · poetry"
+    },
+    {
+      "sid": "9a42b1766d01",
+      "where": "work:taras-shevchenko--kateryna.significance",
+      "text": "러시아 군인에게 버림받은 농촌 여성의 생애를 이야기 시로 쓴 작품."
+    },
+    {
+      "sid": "a6c3b19d5efb",
+      "where": "work:taras-shevchenko--kateryna.significance",
+      "text": "1840년 『코브자르』 초판에 수록되었고 같은 제목의 유화로도 남아, 그의 시와 그림이 같은 주제를 다룬 사례가 된다."
+    },
+    {
+      "sid": "499407e4aaae",
+      "where": "work:taras-shevchenko--zapovit.facts",
+      "text": "『유언』(Заповіт) · 1845 · poetry"
+    },
+    {
+      "sid": "11ca00d40374",
+      "where": "work:taras-shevchenko--zapovit.significance",
+      "text": "1845년 페레야슬라우에서 쓴 짧은 유언시."
+    },
+    {
+      "sid": "36ee75394650",
+      "where": "work:taras-shevchenko--zapovit.significance",
+      "text": "자신을 언덕에 묻어 달라는 첫 연이 우크라이나어 낭독과 합창의 고정 목록이 되었고, 제국 안에서는 검열로 인쇄되지 못한 채 1859년 라이프치히에서 나온 시집에 실렸다."
+    },
+    {
+      "sid": "d513b8efa1c8",
+      "where": "work:taras-shevchenko--kavkaz.facts",
+      "text": "『캅카스』(Кавказ) · 1845 · poetry"
+    },
+    {
+      "sid": "353de43028f3",
+      "where": "work:taras-shevchenko--kavkaz.significance",
+      "text": "캅카스 전쟁에서 죽은 친구 야키우 데 발멘에게 바친 시."
+    },
+    {
+      "sid": "44a07b83b8eb",
+      "where": "work:taras-shevchenko--kavkaz.significance",
+      "text": "제국의 정복을 정복당하는 쪽의 자리에서 서술해, 같은 시대 러시아 낭만시의 캅카스와 정면으로 어긋난다."
+    },
+    {
+      "sid": "8b7b4182c044",
+      "where": "work:taras-shevchenko--haidamaky.facts",
+      "text": "『하이다마키』(Гайдамаки) · 1841 first-print · epic"
+    },
+    {
+      "sid": "7a7615b3517c",
+      "where": "work:taras-shevchenko--haidamaky.significance",
+      "text": "1768년 콜리이우시치나 봉기를 다룬 장편 서사시."
+    },
+    {
+      "sid": "5d3653cb8a5d",
+      "where": "work:taras-shevchenko--haidamaky.significance",
+      "text": "농민 반란의 폭력을 지우지 않고 기록하되, 서시에서는 하이다마키를 찬양하겠다는 뜻을 밝힌다."
+    },
+    {
+      "sid": "7b8e3cc022d5",
+      "where": "work:taras-shevchenko--haidamaky.significance",
+      "text": "그의 작품 가운데 역사 서술의 부담이 가장 큰 편이다."
+    },
+    {
+      "sid": "1d0afdffa7d9",
+      "where": "work:taras-shevchenko--kobzar.facts",
+      "text": "『코브자르』(Кобзар) · 1840 first-print · poetry"
+    },
+    {
+      "sid": "5667327f250e",
+      "where": "work:taras-shevchenko--kobzar.significance",
+      "text": "1840년 페테르부르크에서 여덟 편으로 묶여 나온 첫 시집."
+    },
+    {
+      "sid": "52dcd6a5ba90",
+      "where": "work:taras-shevchenko--kobzar.significance",
+      "text": "방랑 악사 코브자르의 구송을 책의 틀로 삼았고, 이후 그의 시 전체를 부르는 이름이 되었다."
+    },
+    {
+      "sid": "9db0f1367a62",
+      "where": "relation:contrast--taras-shevchenko--alexander-pushkin.facts",
+      "text": "타라스 셰우첸코 → 알렉산드르 푸시킨 · contrast · bidirectional · scholarly_consensus"
+    },
+    {
+      "sid": "de2bc53a901e",
+      "where": "relation:contrast--taras-shevchenko--alexander-pushkin.summary",
+      "text": "제국의 변경을 노래하는 두 시선이 마주 놓인다."
+    },
+    {
+      "sid": "2bf790a3999f",
+      "where": "relation:contrast--taras-shevchenko--alexander-pushkin.summary",
+      "text": "미로슬라우 슈칸드리의 『러시아와 우크라이나: 문학과 제국의 담론』(2001)은 셰우첸코의 「캅카스」(1845)를 푸시킨 계열의 캅카스 시편이 세운 정복의 낭만과 정면으로 반대되는 항으로 읽는다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "identity",
+      "claim": "타라스 셰우첸코(Тарас Шевченко)는 1814년생·1861년 몰의 우크라이나 시인이다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "Shevchenko, Taras [Ševčenko], b 9 March 1814 in Moryntsi … d 10 March 1861 in Saint Petersburg",
+      "note": "한국어 표기 '셰우첸코'는 우크라이나어 в 음가를 따른 표기로, 국립국어원 통용 표기는 '셰브첸코'"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "농노로 태어나 속량되었다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "Born a serf … proceeds were used to buy Shevchenko's freedom on 5 May 1838"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "우크라이나어로만 시집을 묶어 제국의 언어 밖에서 문학어를 세우는 선례를 남겼다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "Through his poetry, Shevchenko legitimized the use of Ukrainian as a language of modern literature.",
+      "note": "시는 우크라이나어이나 소설(노벨라) 9편·일기·자서전은 러시아어로 썼다는 점이 같은 항목에 있음"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "방랑 악사 코브자르의 구송 율격을 시행의 기본으로 삼았다",
+      "verdict": "contradicted",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "He adapted the style and versification of Ukrainian folk songs to produce remarkably original poems",
+      "correction": "우크라이나 민요의 문체와 율격을 시행의 기본으로 삼되",
+      "note": "권위 서술은 코브자르의 두마 낭송이 아니라 민요(народні пісні) 율격을 시행의 기반으로 지목",
+      "resolution": "corrected"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "농노제·1768년 봉기·캅카스 정복 같은 정치를 시 안에 넣었다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "a symbol of the tsarist imposition of serfdom in Ukraine … Haidamaky draw on the struggle against Polish oppression",
+      "note": "세 항목 각각 확인: 농노제=「카테리나」, 1768=「하이다마키」(콜리이우시치나 1768–69), 캅카스 정복=「캅카스」"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "유형과 창작 금지 처분 아래 쓰인 시들이 필사로 돌았다",
+      "verdict": "contradicted",
+      "url": "https://books.google.com/books?id=DjZ-m82b91MC&q=Caucasus",
+      "quote": "\"Caucasus\" (Kavkaz), \"The Dream\" (Son), and \"The Great Vault\" (Velykyi liokh) circulated at this time in manuscript copies",
+      "correction": "창작 금지 처분 이전에 쓰인 시들이 필사로 돌았고, 유형기의 시는 손수 만든 소책자에 숨겨졌다",
+      "note": "필사 유통이 문헌으로 확인되는 것은 체포(1847) 이전 '세 해' 시편. 유형기 시는 IEU에 따르면 handmade 'bootleg booklets'에 은닉",
+      "resolution": "corrected"
+    },
+    {
+      "field": "importanceReason/difficultyReason",
+      "claim": "유형 중 차르가 쓰기·그리기를 금지했다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "Tsar Nicholas I himself ordered that Shevchenko be forbidden to write, draw, and paint while in military exile"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "「카테리나」는 버림받은 농촌 여성의 생애가 그 한 편 안에서 시작해 끝난다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kateryna_(poem)",
+      "quote": "Kateryna leaves her infant son on the road and drowns herself in a nearby pond",
+      "note": "에필로그는 그녀의 사후 아들 이반의 후일담으로 이어짐"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "오늘날 『코브자르』 판본은 대개 전집이라 1840년 초판(여덟 편)과 분량이 다르다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)",
+      "quote": "The first publication consisted of eight poems … From that time on this title has been applied to Shevchenko's poetry in general"
+    },
+    {
+      "field": "works[].year/titleOriginal — taras-shevchenko--kateryna",
+      "claim": "「카테리나」 / Катерина, 1838년 시",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "Of special note is Shevchenko's early ballad 'Kateryna' (1838)",
+      "note": "영어 위키백과는 소셴코의 회고를 근거로 집필 시기를 1838년 11월~1839년 2월로 적어 하한이 1839년까지 걸침"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kateryna",
+      "claim": "러시아 군인에게 버림받은 농촌 여성의 생애를 이야기 시로 썼다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "he tells the tale of a Ukrainian girl seduced by a Russian soldier and abandoned with child"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kateryna",
+      "claim": "1840년 『코브자르』 초판에 수록되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)",
+      "quote": "The first publication consisted of eight poems: … \"Катерина\" (Kateryna)"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kateryna",
+      "claim": "같은 제목의 유화로도 남았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kateryna_(poem)",
+      "quote": "Kateryna, an oil painting created by Shevchenko in 1842 to illustrate his own poem"
+    },
+    {
+      "field": "works[].year/titleOriginal — taras-shevchenko--zapovit",
+      "claim": "「유언」 / Заповіт, 1845년 시",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Testament_(Shevchenko)",
+      "quote": "a poem by Taras Shevchenko, written on 25 December 1845 in Pereyaslav"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--zapovit",
+      "claim": "1845년 페레야슬라우에서 쓴 짧은 유언시다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Testament_(Shevchenko)",
+      "quote": "written on 25 December 1845 in Pereyaslav",
+      "note": "본문 24행 — '짧은'은 텍스트로 확인"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--zapovit",
+      "claim": "자신을 언덕(무덤)에 묻어 달라는 것이 첫 연이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Testament_(Shevchenko)",
+      "quote": "Як умру, то поховайте / Мене на могилі, / Серед степу широкого",
+      "note": "могила=봉분/쿠르간. '언덕'은 봉분을 가리키는 의역"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--zapovit",
+      "claim": "우크라이나어 낭독과 합창의 고정 목록이 되었다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "After being set to music by H. Hladky in the 1870s, the poem achieved a status second only to Ukraine's national anthem"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--zapovit",
+      "claim": "제국 안에서는 인쇄되지 못한 채 1859년 라이프치히에서 나온 시집에 실렸다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Testament_(Shevchenko)",
+      "quote": "It was first printed in 1859 in Leipzig, with omissions and based on a version provided by Panteleimon Kulish",
+      "note": "IEU: 그 책은 제국 밖 최초 간행본 Novyia stikhotvoreniia Pushkina i Shavchenki (Leipzig 1859). 초간은 완본이 아니라 '누락 있음'"
+    },
+    {
+      "field": "works[].year/titleOriginal — taras-shevchenko--kavkaz",
+      "claim": "「캅카스」 / Кавказ, 1845년 시",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Caucasus_(poem)",
+      "quote": "The Caucasus (Ukrainian: Кавказ) is an 1845 poem by Ukrainian poet Taras Shevchenko"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kavkaz",
+      "claim": "캅카스 전쟁에서 죽은 친구 야키우 데 발멘에게 바친 시다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Caucasus_(poem)",
+      "quote": "dedicated to Shevchenko's close friend Yakiv De Balmen, who was forcibly recruited into the Russian imperial army and died fighting in the Caucasus",
+      "note": "사망 연도는 출처가 갈림 — 위키백과는 1845년 다르고 원정, 슈칸드리는 1844년"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kavkaz",
+      "claim": "제국의 정복을 정복당하는 쪽의 자리에서 서술한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Caucasus_(poem)",
+      "quote": "the poem praises the national liberation struggle of the peoples of the Caucasus against Russian imperialism"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kavkaz",
+      "claim": "같은 시대 러시아 낭만시의 캅카스와 정면으로 어긋난다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=DjZ-m82b91MC&q=Caucasus",
+      "quote": "his rejection of the imperial paradigm of conquest and assimilation and the substitution of a counternarrative",
+      "note": "슈칸드리 본문의 「캅카스」 절. 같은 책이 푸시킨 「캅카스의 포로」(1820–21)를 대비항으로 인용"
+    },
+    {
+      "field": "works[].year/titleOriginal — taras-shevchenko--haidamaky",
+      "claim": "「하이다마키」 / Гайдамаки, 1841년 서사시",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Haidamaky_(poem)",
+      "quote": "an epic poem by Taras Shevchenko … first published in full as a separate book in Saint Petersburg in 1841"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--haidamaky",
+      "claim": "1768년 콜리이우시치나 봉기를 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Koliivshchyna",
+      "quote": "Date 6 June [O.S. 26 May] 1768 – June 1769",
+      "note": "작품 주제는 영어 위키백과 「Haidamaky」의 \"about the Koliivshchyna uprising led by Maksym Zalizniak and Ivan Gonta\"로 확인"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--haidamaky",
+      "claim": "농민 반란의 폭력을 미화하지도 지우지도 않고 기록한다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Haidamaky_(poem)",
+      "quote": "In the introduction, the poet declares his ideological intention to glorify the Haidamaks.",
+      "correction": "농민 반란의 폭력을 지우지 않고 기록하되, 서시에서는 하이다마키를 찬양하겠다는 뜻을 밝힌다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[].year/titleOriginal — taras-shevchenko--kobzar",
+      "claim": "『코브자르』 / Кобзар, 1840년 시집",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)",
+      "quote": "first published by Shevchenko in 1840 in Saint Petersburg, Russian Empire",
+      "note": "1840은 초판 연도. 오늘날 같은 제목은 전집을 가리켜 단일 연도가 없음(플레이트 readingWarning이 이 점을 이미 명시)"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kobzar",
+      "claim": "1840년 페테르부르크에서 여덟 편으로 묶여 나온 첫 시집이다",
+      "verdict": "confirmed",
+      "url": "http://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CS%5CH%5CShevchenkoTaras.htm",
+      "quote": "In 1840 his first poetry collection, Kobzar, consisting of eight Romantic poems, was published in Saint Petersburg."
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kobzar",
+      "claim": "방랑 악사 코브자르의 구송을 책의 틀로 삼았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)",
+      "quote": "a kobzar is considered to be a bard or minstrel who plays the kobza … Kobzari sang and performed epic poetic songs, called dumy"
+    },
+    {
+      "field": "works[].significance — taras-shevchenko--kobzar",
+      "claim": "이후 그의 시 전체를 부르는 이름이 되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)",
+      "quote": "From that time on this title has been applied to Shevchenko's poetry in general"
+    },
+    {
+      "field": "relations — contrast taras-shevchenko → alexander-pushkin",
+      "claim": "미로슬라우 슈칸드리의 『러시아와 우크라이나: 문학과 제국의 담론』은 2001년 McGill-Queen's University Press에서 나왔다",
+      "verdict": "confirmed",
+      "url": "https://www.mqup.ca/Books/R/Russia-and-Ukraine2",
+      "quote": "Russia and Ukraine: Literature and the Discourse of Empire from Napoleonic to Postcolonial Times … By Myroslav Shkandrij … Hardcover: 9780773522343, October 2001"
+    },
+    {
+      "field": "relations — contrast taras-shevchenko → alexander-pushkin",
+      "claim": "그 책이 셰우첸코의 「캅카스」(1845)를 정복의 제국 서사에 반대되는 항으로 읽는다 (출처: src--shkandrij-russia-and-ukraine)",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=DjZ-m82b91MC&q=Caucasus",
+      "quote": "SHEVCHENKO'S \"CAUCASUS\" (1845) … his rejection of the imperial paradigm of conquest and assimilation",
+      "note": "인용 출처가 실제 주장 소재지와 일치. 같은 책이 푸시킨 「캅카스의 포로」(1820–21)와 예르몰로프 찬양 대목을 대비항으로 인용해 푸시킨 계열과의 대립도 성립"
+    },
+    {
+      "field": "relations — contrast taras-shevchenko → alexander-pushkin",
+      "claim": "슈칸드리(2001) '이후의' 탈식민 연구가 그렇게 읽는다",
+      "verdict": "unverifiable",
+      "url": "https://books.google.com/books?id=DjZ-m82b91MC&q=Pushkin+Caucasus+Shevchenko",
+      "correction": "슈칸드리의 『러시아와 우크라이나』(2001)는 셰우첸코의 「캅카스」(1845)를 푸시킨 계열의 캅카스 시편이 세운 정복의 낭만과 정면으로 반대되는 항으로 읽는다",
+      "note": "absent: 슈칸드리 본문의 독법은 확인했으나, 2001년 이후 탈식민 연구 전반이 이 독법을 공유한다는 2차 문헌 종합은 열람 가능한 출처에서 확인하지 못함 — 주장을 슈칸드리 자신으로 좁히면 확증됨",
+      "resolution": "narrowed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--internet-encyclopedia-of-ukraine": {
+      "id": "src--internet-encyclopedia-of-ukraine",
+      "title": "Internet Encyclopedia of Ukraine",
+      "publisherOrInstitution": "Canadian Institute of Ukrainian Studies, University of Alberta",
+      "url": "https://www.encyclopediaofukraine.com",
+      "citation": "우크라이나 문학·역사 항목의 영어권 표준 백과 — 셰우첸코의 생애·작품 연표 확인용"
+    },
+    "src--shkandrij-russia-and-ukraine": {
+      "id": "src--shkandrij-russia-and-ukraine",
+      "title": "Russia and Ukraine: Literature and the Discourse of Empire from Napoleonic to Postcolonial Times",
+      "publisherOrInstitution": "McGill-Queen's University Press (2001)",
+      "citation": "미로슬라우 슈칸드리의 연구 — 러시아 제국 문학과 우크라이나 문학의 관계를 탈식민 담론으로 읽는 표준 참조"
+    }
+  }
+}

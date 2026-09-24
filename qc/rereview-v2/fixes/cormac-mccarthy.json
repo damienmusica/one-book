@@ -1,0 +1,37 @@
+{
+  "fixes": [
+    {
+      "id": "cormac-mccarthy",
+      "readingEntryReason": "잿더미가 된 길 위의 아버지와 아들 두 사람만 따라가는 한 줄기 여정이라 인물과 사건을 놓칠 일이 없고, 문학동네판(정영목 옮김)이 328쪽으로 『핏빛 자오선』(484쪽)이나 『패신저』(736쪽)보다 훨씬 짧다. 후기의 간결한 문장으로 쓰여 매카시의 문체에 처음 적응하기에 알맞다.",
+      "dropRelations": [
+        "influence--fyodor-dostoevsky--cormac-mccarthy"
+      ],
+      "resolutions": [
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『로드』에 매카시의 주제(폭력과 생존)가 '가장' 압축된 형태로 담겨 있다",
+          "resolution": "removed",
+          "evidence": "문장 f0bcc1d6dfb7 에서 '문명이 걷힌 자리의 폭력과 생존이라는 매카시의 주제가 가장 압축된 형태로 담겨 있으며,' 절을 지웠다. 이 절을 받치는 출처도 교정문도 없다. 남은 '후기의 간결한 문장으로 쓰여'는 같은 sid 의 확정 주장(NYT 부고 'the apocalyptic minimalism of \"The Road,\"')이 받친다. 주어가 빠져 '그의'를 '매카시의'로 바꿨다."
+        },
+        {
+          "field": "relation:influence--fyodor-dostoevsky--cormac-mccarthy.facts",
+          "claim": "도스토옙스키 → 매카시의 직접 영향이 문서로 확인된다(documented_influence · directed · documented)",
+          "resolution": "relation-dropped",
+          "evidence": "우드워드 기사(1992)와 NYT 부고(2023)는 도스토옙스키를 '좋은 작가' 목록에 올린 평가 발언만 전하고 영향이나 빚을 적지 않는다. 교정문대로 근거가 평가 발언까지라 documented_influence 의 근거가 무너졌고, 이 도구로는 유형을 바꿀 수 없어 선을 지웠다. 메모의 접근 대기 문헌 Crews(2017)는 이 관계가 근거로 든 문서가 아니어서 pending 으로 남기지 않았다. 매카시에게는 포크너·멜빌 관계가 남는다."
+        },
+        {
+          "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+          "claim": "1949년 할아버지가 죽고 부모가 이혼하는 와중에 서부 텍사스의 존 그래디 콜이 친구 레이시 롤린스와 멕시코로 떠난다",
+          "resolution": "accepted",
+          "evidence": "어긋난 것은 NYT 부고의 '1950년'이고 이 연도는 페이지 어디에도 없다. 문장 d6776efb982d 는 '1949년 할아버지가 죽고 부모가 이혼하는 와중에 … 멕시코로 떠난다'만 적으며, 우드워드 인용 'leaves his home in West Texas in 1949 after the death of his grandfather and during his parents' divorce'가 그대로 받친다."
+        },
+        {
+          "field": "work:cormac-mccarthy--blood-meridian.significance",
+          "claim": "평단은 그의 걸작으로 꼽았다",
+          "resolution": "accepted",
+          "evidence": "메모가 든 위키백과의 '출간 당시 미지근한 반응'은 시점에 관한 것인데 페이지는 시점을 적지 않는다. 문장 4fba70e486e1 은 '초판은 1,500부도 팔리지 않았지만 평단은 그의 걸작으로 꼽았다'로 '출간 당시'라는 말이 없고, 브리태니커 인용 'hailed as his masterpiece'가 받친다."
+        }
+      ]
+    }
+  ]
+}

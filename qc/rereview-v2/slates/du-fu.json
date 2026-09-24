@@ -1,0 +1,486 @@
+{
+  "id": "du-fu",
+  "page": "https://literary-planet.pages.dev/authors/du-fu/",
+  "author": {
+    "names": {
+      "ko": "두보",
+      "original": "杜甫",
+      "aliases": [
+        "두공부"
+      ]
+    },
+    "birthYear": 712,
+    "deathYear": 770,
+    "activeRange": [
+      730,
+      770
+    ],
+    "languages": [
+      "lzh"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry"
+    ],
+    "importanceReason": "안녹산의 난에 휩쓸린 백성의 고통을 자기 처지와 함께 시에 적어, 시로 시대를 기록한다는 '시사(詩史)'의 자리를 만들었다. 징집·굶주림·피난 같은 산문적 사실은 「석호리」가 속한 삼리삼별처럼 고체시와 악부의 형식으로 적고, 율시에서는 대구와 성률의 규칙을 지킨 채 같은 시대의 무게를 여덟 구 안에 접어 두어, 두 형식을 오가며 증언의 밀도를 높였다. 송대 이후 그는 시를 배우는 사람이 반드시 거치는 표준 교본이 되었고, 조선에서는 『두시언해』라는 관찬 번역의 대상이 되었다.",
+    "readingEntry": "du-fu--chunwang",
+    "readingEntryReason": "여덟 구 마흔 자로 짧고, 「나라는 부서졌어도 산하는 남았다」는 첫 구가 이미 널리 알려져 있어 전란과 개인이 겹치는 두보의 자리를 가장 적은 분량으로 보여준다.",
+    "readingOrder": [
+      "du-fu--chunwang",
+      "du-fu--shihaoli",
+      "du-fu--dengao",
+      "du-fu--qiuxingbashou"
+    ],
+    "readingWarning": "「추흥팔수」부터 들어가면 전고와 기주 시절의 정황에 막힌다. 사건이 표면에 드러난 짧은 시부터 읽고 만년의 연작으로 올라가는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "율시의 대구는 한 글자씩 짝을 맞춰 압축돼 있어 번역에서 가장 많이 손실되고, 「추흥팔수」 같은 연작은 안사의 난 전후의 정황과 전고를 함께 알아야 여덟 수가 하나의 구조로 묶인다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--dusi-eonhae-1481",
+      "src--oku-no-hosomichi-hiraizumi"
+    ]
+  },
+  "works": [
+    {
+      "id": "du-fu--dengao",
+      "titleKo": "등고",
+      "titleOriginal": "登高",
+      "year": 767,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "기주 시절 중양절에 쓴 칠언율시. 여덟 구가 모두 대구로 짜여 율시 형식의 한 극점으로 평가되며, 늙음과 병과 유랑이 풍경 묘사 안에 접혀 들어간다.",
+      "sourceIds": []
+    },
+    {
+      "id": "du-fu--chunwang",
+      "titleKo": "춘망",
+      "titleOriginal": "春望",
+      "year": 757,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "안녹산의 군에 함락된 장안에 억류되어 쓴 오언율시. 「나라는 부서졌어도 산하는 남았다」는 첫 구가 전란시의 대표 문장이 되어 동아시아 전역에서 인용되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "du-fu--qiuxingbashou",
+      "titleKo": "추흥팔수",
+      "titleOriginal": "秋興八首",
+      "year": 766,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "기주에서 장안을 그리며 쓴 여덟 수의 칠언율시 연작. 전고와 기억이 겹쳐 한 수씩으로는 풀리지 않고 여덟 수가 함께 하나의 구조를 이루는, 두보 만년 형식의 정점이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "du-fu--shihaoli",
+      "titleKo": "석호리",
+      "titleOriginal": "石壕吏",
+      "year": 759,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "석호촌의 밤에 관리가 노인의 집에서 사람을 징발해 가는 광경을 목격자의 시점으로 적은 시. 「삼리삼별」 연작의 한 편으로, 시가 사회적 사실을 기록하는 방식을 가장 건조하게 보여준다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--li-bai--du-fu",
+      "type": "dialogue",
+      "from": "li-bai (이백)",
+      "to": "du-fu (두보)",
+      "evidenceLevel": "documented",
+      "summary": "두 사람은 744년 낙양에서 만나 한동안 함께 유람했고, 두보는 「이백에게 부침」·「봄날 이백을 생각하며」·「꿈에 이백을 보다」 두 수 등 여러 편을 이백에게 바쳤다.",
+      "sourceIds": [
+        "src--du-fu-shipian-li-bai",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "influence--du-fu--matsuo-basho",
+      "type": "documented_influence",
+      "from": "du-fu (두보)",
+      "to": "matsuo-basho (마쓰오 바쇼)",
+      "evidenceLevel": "documented",
+      "summary": "바쇼는 『오쿠노 호소미치』의 히라이즈미 대목에서 「춘망」의 첫 구를 '国破れて山河あり'로 옮기고 뒷구는 '城春にして草青みたり'로 고쳐 적은 뒤, 그 폐허 위에서 자기 홋쿠를 이어 붙인다.",
+      "sourceIds": [
+        "src--oku-no-hosomichi-hiraizumi"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "6beac17874f1",
+      "where": "author.facts",
+      "text": "두보(杜甫) · 712–770 · lzh · east-asia"
+    },
+    {
+      "sid": "6b6b9d6fbac0",
+      "where": "author.importanceReason",
+      "text": "안녹산의 난에 휩쓸린 백성의 고통을 자기 처지와 함께 시에 적어, 시로 시대를 기록한다는 '시사(詩史)'의 자리를 만들었다."
+    },
+    {
+      "sid": "0015fb51cf6c",
+      "where": "author.importanceReason",
+      "text": "징집·굶주림·피난 같은 산문적 사실은 「석호리」가 속한 삼리삼별처럼 고체시와 악부의 형식으로 적고, 율시에서는 대구와 성률의 규칙을 지킨 채 같은 시대의 무게를 여덟 구 안에 접어 두어, 두 형식을 오가며 증언의 밀도를 높였다."
+    },
+    {
+      "sid": "1e1f770f9efb",
+      "where": "author.importanceReason",
+      "text": "송대 이후 그는 시를 배우는 사람이 반드시 거치는 표준 교본이 되었고, 조선에서는 『두시언해』라는 관찬 번역의 대상이 되었다."
+    },
+    {
+      "sid": "bf741f12395b",
+      "where": "author.readingEntryReason",
+      "text": "여덟 구 마흔 자로 짧고, 「나라는 부서졌어도 산하는 남았다」는 첫 구가 이미 널리 알려져 있어 전란과 개인이 겹치는 두보의 자리를 가장 적은 분량으로 보여준다."
+    },
+    {
+      "sid": "802489c91629",
+      "where": "author.readingWarning",
+      "text": "「추흥팔수」부터 들어가면 전고와 기주 시절의 정황에 막힌다."
+    },
+    {
+      "sid": "3dfb3269cd24",
+      "where": "author.readingWarning",
+      "text": "사건이 표면에 드러난 짧은 시부터 읽고 만년의 연작으로 올라가는 편이 낫다."
+    },
+    {
+      "sid": "e9c7113973c7",
+      "where": "author.difficultyReason",
+      "text": "율시의 대구는 한 글자씩 짝을 맞춰 압축돼 있어 번역에서 가장 많이 손실되고, 「추흥팔수」 같은 연작은 안사의 난 전후의 정황과 전고를 함께 알아야 여덟 수가 하나의 구조로 묶인다."
+    },
+    {
+      "sid": "c436288adf30",
+      "where": "work:du-fu--dengao.facts",
+      "text": "『등고』(登高) · 767 composition-range · poetry"
+    },
+    {
+      "sid": "abe7cf69d8b9",
+      "where": "work:du-fu--dengao.significance",
+      "text": "기주 시절 중양절에 쓴 칠언율시."
+    },
+    {
+      "sid": "404110d6bb9e",
+      "where": "work:du-fu--dengao.significance",
+      "text": "여덟 구가 모두 대구로 짜여 율시 형식의 한 극점으로 평가되며, 늙음과 병과 유랑이 풍경 묘사 안에 접혀 들어간다."
+    },
+    {
+      "sid": "5054bb57bfe2",
+      "where": "work:du-fu--chunwang.facts",
+      "text": "『춘망』(春望) · 757 composition-range · poetry"
+    },
+    {
+      "sid": "13a5fc6aff2a",
+      "where": "work:du-fu--chunwang.significance",
+      "text": "안녹산의 군에 함락된 장안에 억류되어 쓴 오언율시."
+    },
+    {
+      "sid": "05c7c97149be",
+      "where": "work:du-fu--chunwang.significance",
+      "text": "「나라는 부서졌어도 산하는 남았다」는 첫 구가 전란시의 대표 문장이 되어 동아시아 전역에서 인용되었다."
+    },
+    {
+      "sid": "524c9d76b2fd",
+      "where": "work:du-fu--qiuxingbashou.facts",
+      "text": "『추흥팔수』(秋興八首) · 766 composition-range · poetry"
+    },
+    {
+      "sid": "dffa5f00b315",
+      "where": "work:du-fu--qiuxingbashou.significance",
+      "text": "기주에서 장안을 그리며 쓴 여덟 수의 칠언율시 연작."
+    },
+    {
+      "sid": "fd8b2f57fd9c",
+      "where": "work:du-fu--qiuxingbashou.significance",
+      "text": "전고와 기억이 겹쳐 한 수씩으로는 풀리지 않고 여덟 수가 함께 하나의 구조를 이루는, 두보 만년 형식의 정점이다."
+    },
+    {
+      "sid": "cc4e9f3938df",
+      "where": "work:du-fu--shihaoli.facts",
+      "text": "『석호리』(石壕吏) · 759 composition-range · poetry"
+    },
+    {
+      "sid": "64ed566532b8",
+      "where": "work:du-fu--shihaoli.significance",
+      "text": "석호촌의 밤에 관리가 노인의 집에서 사람을 징발해 가는 광경을 목격자의 시점으로 적은 시."
+    },
+    {
+      "sid": "7b1713edd281",
+      "where": "work:du-fu--shihaoli.significance",
+      "text": "「삼리삼별」 연작의 한 편으로, 시가 사회적 사실을 기록하는 방식을 가장 건조하게 보여준다."
+    },
+    {
+      "sid": "2ea6f326cff7",
+      "where": "relation:dialogue--li-bai--du-fu.facts",
+      "text": "이백 → 두보 · dialogue · bidirectional · documented"
+    },
+    {
+      "sid": "13540abcdea6",
+      "where": "relation:dialogue--li-bai--du-fu.summary",
+      "text": "두 사람은 744년 낙양에서 만나 한동안 함께 유람했고, 두보는 「이백에게 부침」·「봄날 이백을 생각하며」·「꿈에 이백을 보다」 두 수 등 여러 편을 이백에게 바쳤다."
+    },
+    {
+      "sid": "9e8e5f3ee26a",
+      "where": "relation:influence--du-fu--matsuo-basho.facts",
+      "text": "두보 → 마쓰오 바쇼 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "e4eedab4b24f",
+      "where": "relation:influence--du-fu--matsuo-basho.summary",
+      "text": "바쇼는 『오쿠노 호소미치』의 히라이즈미 대목에서 「춘망」의 첫 구를 '国破れて山河あり'로 옮기고 뒷구는 '城春にして草青みたり'로 고쳐 적은 뒤, 그 폐허 위에서 자기 홋쿠를 이어 붙인다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "두보는 안녹산의 난(안사의 난)에 휩쓸린 백성의 고통과 자기 처지를 시에 적었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Du_Fu",
+      "quote": "The 755 uprising profoundly shaped his work... creating the displacement and suffering that defined his later poetry."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "두보는 시로 시대를 기록한다는 '시사(詩史)'의 자리를 만들었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%9D%9C%E7%94%AB",
+      "quote": "後世尊稱他為『詩聖』，並以『詩史』概括其作品對唐代社會和戰亂的記錄",
+      "note": "'詩史' 호칭의 최초 출처는 만당 孟棨 『本事詩·高逸』, 송대에 定論이 됨"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "「석호리」는 삼리삼별 연작에 속한다",
+      "verdict": "confirmed",
+      "url": "https://www.gushiwen.cn/gushiwen_1045a6314e.aspx",
+      "quote": "杜甫時年四十八歲，從洛陽赴華州任職途中，投宿石壕村，遇到吏卒深夜捉人"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "삼리삼별은 고체시와 악부의 형식으로 쓰였다",
+      "verdict": "confirmed",
+      "url": "https://www.gushiwen.cn/gushiwen_1045a6314e.aspx",
+      "quote": "該詩為敘事詩形式，是杜甫根據親眼所見所聞創作的現實主義作品",
+      "note": "삼리삼별은 新題樂府 계열의 敘事 고체시로 기술됨 — 근체 율시가 아님"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "송대 이후 두보는 시를 배우는 사람의 표준 교본이 되었다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/zh-hant/%E6%9D%9C%E7%94%AB",
+      "quote": "Beginning in the Song Dynasty (宋代), Du Fu became the standard model for poets."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "조선에서 두보는 『두시언해』라는 관찬(왕명) 번역의 대상이 되었다",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/%EB%91%90%EC%8B%9C%EC%96%B8%ED%95%B4",
+      "quote": "왕명에 의해 조위(曺偉), 유윤겸(柳允謙), 의침(義砧) 등이 번역한 책이다."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『분류두공부시언해』 초간본은 조선 성종 12년(1481)에 간행되었다",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/%EB%91%90%EC%8B%9C%EC%96%B8%ED%95%B4",
+      "quote": "'초간본'은 조선 성종 12년(1481년)에"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "「추흥팔수」는 여덟 수가 하나의 구조로 묶이는 연작이다",
+      "verdict": "confirmed",
+      "url": "https://fanti.dugushici.com/ancient_proses/71335",
+      "quote": "八首之中，第一首總起，統帥後面七篇"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "「춘망」은 여덟 구 마흔 자(오언율시)이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+      "quote": "wuyan lüshi (五言律詩)... It consists of eight lines with five characters each"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "「춘망」의 첫 구는 「나라는 부서졌어도 산하는 남았다」(國破山河在)이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+      "quote": "國破山河在 / 城春草木深"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "「추흥팔수」는 기주(夔州) 시절 작품이다",
+      "verdict": "confirmed",
+      "url": "https://fanti.dugushici.com/ancient_proses/11044",
+      "quote": "《秋興八首》是大曆元年（766）秋杜甫在夔州時所作的一組七言律詩"
+    },
+    {
+      "field": "works[du-fu--dengao].year",
+      "claim": "「등고」의 연도는 767이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/zh-hans/%E7%99%BB%E9%AB%98",
+      "quote": "大历二年（767 CE）在夔州（今重庆奉节）"
+    },
+    {
+      "field": "works[du-fu--dengao].titleKo/titleOriginal",
+      "claim": "「등고 / 登高」는 원제의 올바른 한국어 표기이다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/zh-hans/%E7%99%BB%E9%AB%98",
+      "quote": "登高"
+    },
+    {
+      "field": "works[du-fu--dengao].significance",
+      "claim": "「등고」는 기주 시절 중양절에 쓴 칠언율시다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikipedia.org/zh-hans/%E7%99%BB%E9%AB%98",
+      "quote": "诗成之时正是重阳节，杜甫登上白帝城附近的高台"
+    },
+    {
+      "field": "works[du-fu--dengao].significance",
+      "claim": "「등고」는 여덟 구가 모두 대구로 짜여 율시 형식의 한 극점으로 평가된다",
+      "verdict": "confirmed",
+      "url": "https://www.163.com/dy/article/F1FQQGMI0541ACOU.html",
+      "quote": "除了每一联都对仗，在首联中'风急'对'天高'、'渚清'对'沙白'",
+      "note": "胡應麟《詩藪》: 「此诗自当为古今七言律第一」"
+    },
+    {
+      "field": "works[du-fu--chunwang].year",
+      "claim": "「춘망」의 연도는 757이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+      "quote": "Written in 757, the poem emerged nine months after Chang'an fell to rebel forces"
+    },
+    {
+      "field": "works[du-fu--chunwang].significance",
+      "claim": "「춘망」은 안녹산의 군에 함락된 장안에 억류되어 쓴 오언율시다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+      "quote": "Du Fu composed it while witnessing the imperial capital's occupation."
+    },
+    {
+      "field": "works[du-fu--chunwang].significance",
+      "claim": "「춘망」의 첫 구는 동아시아 전역에서 인용되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+      "quote": "Japanese poet Matsuo Bashō incorporated references to its opening in his 1689 work Oku no Hosomichi"
+    },
+    {
+      "field": "works[du-fu--qiuxingbashou].year",
+      "claim": "「추흥팔수」의 연도는 766이다",
+      "verdict": "confirmed",
+      "url": "https://fanti.dugushici.com/ancient_proses/11044",
+      "quote": "《秋興八首》是大曆元年（766）秋杜甫在夔州時所作"
+    },
+    {
+      "field": "works[du-fu--qiuxingbashou].significance",
+      "claim": "「추흥팔수」는 기주에서 장안을 그리며 쓴 여덟 수의 칠언율시 연작이다",
+      "verdict": "confirmed",
+      "url": "https://fanti.dugushici.com/ancient_proses/71335",
+      "quote": "寫所思之長安，抒發'處江湖遠則憂其君'的情愫"
+    },
+    {
+      "field": "works[du-fu--shihaoli].year",
+      "claim": "「석호리」의 연도는 759이다",
+      "verdict": "confirmed",
+      "url": "https://www.gushiwen.cn/gushiwen_1045a6314e.aspx",
+      "quote": "《石壕吏》創作於759年（唐肅宗乾元二年）春季"
+    },
+    {
+      "field": "works[du-fu--shihaoli].significance",
+      "claim": "「석호리」는 석호촌의 밤에 관리가 사람을 징발해 가는 광경을 목격자 시점으로 적었다",
+      "verdict": "confirmed",
+      "url": "https://www.gushiwen.cn/gushiwen_1045a6314e.aspx",
+      "quote": "暮投石壕村，有吏夜捉人。老翁逾牆走，老婦出門看。",
+      "note": "실제로 끌려간 사람은 老翁이 아니라 老婦"
+    },
+    {
+      "field": "relations[dialogue li-bai→du-fu]",
+      "claim": "이백과 두보는 744년 낙양에서 만났다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Du_Fu",
+      "quote": "a Tang dynasty poet who met Li Bai in autumn 744",
+      "note": "중국측 자료는 744년 여름 洛陽으로 기술"
+    },
+    {
+      "field": "relations[dialogue li-bai→du-fu]",
+      "claim": "두 사람은 한동안 함께 유람했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Du_Fu",
+      "quote": "the most significant formative element in Du Fu's artistic development"
+    },
+    {
+      "field": "relations[dialogue li-bai→du-fu]",
+      "claim": "두보는 「贈李白」·「春日憶李白」·「夢李白二首」 등 여러 편을 이백에게 바쳤다",
+      "verdict": "confirmed",
+      "url": "https://poems.mahacinasthana.com/en/gushi/chun-ri-yi-li-bai/",
+      "quote": "Fifteen poems remain that Du Fu presented to Li Bai or composed while longing for him."
+    },
+    {
+      "field": "relations[dialogue li-bai→du-fu].sources",
+      "claim": "744년 낙양 회동의 근거가 src--du-fu-shipian-li-bai(두보의 증정 시편)에 있다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Du_Fu",
+      "quote": "met Li Bai in autumn 744",
+      "correction": "(출처: src--du-fu-shipian-li-bai, src--britannica)",
+      "note": "시편 자체는 헌정 사실의 근거이지 회동 연도·장소의 근거가 아니다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[documented_influence du-fu→matsuo-basho]",
+      "claim": "바쇼는 『오쿠노 호소미치』 히라이즈미 대목에서 「국파れて산하あり、성춘にして초청みたり」로 적었다",
+      "verdict": "confirmed",
+      "url": "https://shikinobi.com/okunohosomichi-3",
+      "quote": "「国破れて山河あり、城春にして草青みたり。」と、笠うち敷きて、時の移るまで涙を落とし侍りぬ。"
+    },
+    {
+      "field": "relations[documented_influence du-fu→matsuo-basho]",
+      "claim": "바쇼는 두보의 뒷구 城春草木深을 '城春にして草青みたり'로 고쳐 적었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+      "quote": "國破山河在 / 城春草木深",
+      "note": "원문 城春草木深 ↔ 바쇼 城春にして草青みたり — 개변 확인"
+    },
+    {
+      "field": "relations[documented_influence du-fu→matsuo-basho]",
+      "claim": "바쇼는 그 인용 뒤에 자기 홋쿠를 이어 붙인다",
+      "verdict": "confirmed",
+      "url": "https://shikinobi.com/okunohosomichi-3",
+      "quote": "夏草や兵どもが夢の跡"
+    },
+    {
+      "field": "sources[src--oku-no-hosomichi-hiraizumi]",
+      "claim": "『奥の細道』는 1702년에 간행되었다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%8F%E3%81%AE%E3%81%BB%E3%81%9D%E9%81%93",
+      "quote": "1702年（元禄15年）に京都の井筒屋から刊行された",
+      "note": "기행 자체는 1689년(元禄2), 초판 간행은 1702년"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--dusi-eonhae-1481": {
+      "id": "src--dusi-eonhae-1481",
+      "title": "『분류두공부시언해』 초간본 (1481)",
+      "publisherOrInstitution": "조선 성종조 간행",
+      "citation": "두보 시를 한글로 옮겨 간행한 관찬 번역 시집 — 한국어권 두보 수용의 자료"
+    },
+    "src--oku-no-hosomichi-hiraizumi": {
+      "id": "src--oku-no-hosomichi-hiraizumi",
+      "title": "『奥の細道』 平泉 「国破れて山河あり」",
+      "publisherOrInstitution": "松尾芭蕉, 1702년 간행",
+      "citation": "두보 「春望」의 첫 두 구를 옮겨 적은 대목"
+    },
+    "src--du-fu-shipian-li-bai": {
+      "id": "src--du-fu-shipian-li-bai",
+      "title": "杜甫 「贈李白」·「春日憶李白」·「夢李白二首」",
+      "publisherOrInstitution": "『杜工部集』 수록",
+      "citation": "두보가 이백에게 부친 시편들 — 두 사람의 교유를 남긴 자료"
+    }
+  }
+}

@@ -1,0 +1,938 @@
+{
+ "plates": [
+  {
+   "id": "bernard-werber",
+   "claims": [
+    {
+     "sids": [
+      "543a28a89a4b"
+     ],
+     "field": "author.facts",
+     "claim": "작가 이름의 원어 표기는 Bernard Werber다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/543",
+     "quote": "베르나르 베르베르 Bernard Werber"
+    },
+    {
+     "sids": [
+      "543a28a89a4b"
+     ],
+     "field": "author.facts",
+     "claim": "베르베르는 1961년에 태어났다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/543",
+     "quote": "출생 1961년 09월 18일 출생지 프랑스 툴루즈"
+    },
+    {
+     "sids": [
+      "543a28a89a4b"
+     ],
+     "field": "author.facts",
+     "claim": "베르베르는 생존 작가다(사망 연도 없음, 1961–)",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22fourmis%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Werber, Bernard (1961-....). Auteur du texte",
+     "note": "BnF 전거가 사망 연도를 비워 둔다. 예스24 작가 파일에 2025년 9월 방한 북토크(『키메라의 땅』)가 올라 있다."
+    },
+    {
+     "sids": [
+      "543a28a89a4b"
+     ],
+     "field": "author.facts",
+     "claim": "베르베르는 프랑스(서유럽) 소설가다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%B4%EB%82%98%EB%A5%B4_%EB%B2%A0%EB%A5%B4%EB%B2%A0%EB%A5%B4",
+     "quote": "베르나르 베르베르(프랑스어: Bernard Werber, … 1961년 9월 18일~)는 프랑스의 소설가이다."
+    },
+    {
+     "sids": [
+      "543a28a89a4b"
+     ],
+     "field": "author.facts",
+     "claim": "베르베르는 프랑스어로 쓴다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22fourmis%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Les fourmis : roman / Bernard Werber … fre"
+    },
+    {
+     "sids": [
+      "46c3178d81f8"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『개미』에서 영화의 병렬 편집 기법으로 개미 세계와 인간 세계를 빠르게 오갔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "J'utilise les techniques de montage parallèle de cinema pour dynamiser encore l'action en créant des bascules rapides monde fourmi, monde humain."
+    },
+    {
+     "sids": [
+      "46c3178d81f8"
+     ],
+     "field": "author.importanceReason",
+     "claim": "과학·역사 정보를 『상대적이며 절대적인 지식의 백과사전』에 따로 떼어 넣었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "J'ajoute au dernier moment l'Encyclopédie du Savoir Relatif et Absolu, pour mettre dans une zone à part les informations scientifiques ou historiques."
+    },
+    {
+     "sids": [
+      "46c3178d81f8"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그 백과사전은 『개미』 속의 책(소설 속의 책)이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "l'ESRA, l'Encyclopédie du Savoir Relatif et Absolu, le livre dans le livre des Fourmis"
+    },
+    {
+     "sids": [
+      "46c3178d81f8"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『개미』는 1991년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "1991 Mars - Publication des \"Fourmis\" chez Albin Michel."
+    },
+    {
+     "sids": [
+      "d576af6346b4"
+     ],
+     "field": "author.importanceReason",
+     "claim": "개미는 지극히 낮은 곳에서, 『천사들의 제국』의 천사는 지극히 높은 곳에서 인간을 관찰하는 시점이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Les Fourmis donnaient le point de vue des fourmis, donc de l'infiniment bas. Dans l'Empire des Anges, on dispose du point de vue des anges, donc de l'infiniment haut. Cela permet de présenter la vie des hommes et les mécanismes des destins avec une distance inaccoutumée.",
+     "note": "재인용: 원 인용(『나무』 머리말)은 '개미와 천사'만 말하고 『천사들의 제국』이라는 작품명은 인용 밖 앞 문장에 있다. 작가 연보 2000년 항목은 한 대목 안에서 『개미』와 『천사들의 제국』을 이름으로 짚어 낮은 곳·높은 곳의 대비를 말한다."
+    },
+    {
+     "sids": [
+      "d576af6346b4"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『신』에서는 인물을 신 후보생의 자리에 올린다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/125393135",
+     "quote": "미카엘 팽송이 이번 작품에서는 144명의 신 후보생 중 하나로 등장한다."
+    },
+    {
+     "sids": [
+      "d576af6346b4"
+     ],
+     "field": "author.importanceReason",
+     "claim": "인간과 다른 존재의 시선으로 인간을 보는 장치('인류에 대한 외래적 시선')를 여러 작품에서 거듭 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "내가 보기에 우리 인간과 다른 존재들의 시선을 빌어 인간에 관해 이야기하는 것은 언제나 유익하고 흥미로운 일이다. 그것은 인간에 대한 성찰이나 반성의 마르지 않는 원천이다. 나는 앞서 발표한 작품들 속에서 이미 '인류에 대한 외래적 시선'의 기법을 사용한 바 있다.",
+     "note": "검증 단계에서 더함. 『나무』 머리말. '여러 연작으로 이어 갔다'를 받친다."
+    },
+    {
+     "sids": [
+      "4357680d9507"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『개미』 이전에 『르 누벨 옵세르바퇴르』에서 7년간 과학 기자로 일했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "1983-1990 Journaliste scientifique régulier au \"Nouvel Observateur\" pendant 7 ans."
+    },
+    {
+     "sids": [
+      "4357680d9507"
+     ],
+     "field": "author.importanceReason",
+     "claim": "한국어판 『개미』는 1993년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.joongang.co.kr/article/21735895",
+     "quote": "우리나라에 프랑스 작가 베르나르 베르베르(56)가 이름을 알린 건 1993년이다. 그해 6월 베르베르의 데뷔작 『개미』가 한국어로 번역돼 나왔다."
+    },
+    {
+     "sids": [
+      "9292f98aeedb"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『나무』 열린책들 양장 개정판은 2008년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "[ 개정판, 양장 ] 베르나르 베르베르 저/ 뫼비우스 그림/ 이세욱 역 | 열린책들 | 2008년 03월 10일"
+    },
+    {
+     "sids": [
+      "9292f98aeedb"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "그 판은 한 권 309쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "309쪽 | 464g | 125*194*30mm"
+    },
+    {
+     "sids": [
+      "9292f98aeedb"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "10~20쪽 남짓한 이야기들이 모여 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "이 책은 9쪽에 불과한 「사람을 찾습니다」등 10~20쪽 분량의 짧은 단편들을 모아 두었다.",
+     "note": "가장 짧은 수록작은 9쪽이다."
+    },
+    {
+     "sids": [
+      "88833e7732dc"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "수록작들은 기발한 가정 하나를 극단까지 밀고 간다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "이 이야기들은 저마다 하나의 가정을 극단까지 몰고 갔을 때의 결과를 보여주고 있다."
+    },
+    {
+     "sids": [
+      "88833e7732dc"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "수록작들은 뜻밖의 결말을 원칙으로 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Avec pour principe un début, un milieu et une fin inattendue. … Ces nouvelles seront publiées dans l'Arbre des Possibles en 2002.",
+     "note": "재인용: 원 인용은 '뜻밖의 결말' 원칙만 말하고 그 이야기들이 『나무』의 수록작이라는 연결은 인용 밖에 있었다. 같은 1992년 항목 안에서 수록 사실까지 잇도록 인용을 넓혔다."
+    },
+    {
+     "sids": [
+      "88833e7732dc"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "천사나 외계인의 시선으로 인간을 보는 장치가 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "이번에 그는 천사뿐만 아니라 외계인의 시선까지 빌려 현실을 새로운 각도에서 살펴본다.",
+     "note": "예스24 편집자 리뷰(김정희)."
+    },
+    {
+     "sids": [
+      "88833e7732dc"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "외부 시선으로 인간을 보는 장치는 장편에서 이미 쓴 방법이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "나는 앞서 발표한 작품들 속에서 이미 '인류에 대한 외래적 시선'의 기법을 사용한 바 있다."
+    },
+    {
+     "sids": [
+      "88833e7732dc"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "작가 스스로 이런 단편이 장편의 구조를 다지는 데 쓰인다고 말했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Ces nouvelles seront publiées dans l'Arbre des Possibles en 2002. Elles me servent souvent à renforcer les structures de mes gros romans."
+    },
+    {
+     "sids": [
+      "aed969782fbd"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "수록작 「어린 신들의 학교」가 뒤에 『신』으로 커진다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%B4%EB%82%98%EB%A5%B4_%EB%B2%A0%EB%A5%B4%EB%B2%A0%EB%A5%B4",
+     "quote": "2008년에는 앞서 집필했던 《나무》의 '어린 신들의 학교'에서 언급된, 베르나르 베르베르식 우주의 완성판이자 베르나르 베르베르의 최대 히트작 《신》을 펴냈다.",
+     "note": "『나무』 머리말도 같은 말을 한다: '<어린 신들의 학교>는 <천사들의 제국>의 후속편이 될 다음 소설의 작은 실마리에 해당한다.' 위키백과의 2008년은 한국어판 연도다."
+    },
+    {
+     "sids": [
+      "9750263a546a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『신』 한국어 개정판은 세 권이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/125393135",
+     "quote": "신 세트 [ 전3권, 개정판 ]"
+    },
+    {
+     "sids": [
+      "9750263a546a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "개정판 1권은 5백 쪽이 넘는다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/124702365",
+     "quote": "552쪽 | 612g | 120*210*32mm"
+    },
+    {
+     "sids": [
+      "9750263a546a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "개정판 2권은 5백 쪽이 넘는다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/124702367",
+     "quote": "712쪽 | 778g | 120*210*40mm"
+    },
+    {
+     "sids": [
+      "9750263a546a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "개정판 3권은 5백 쪽이 넘는다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/124702371",
+     "quote": "696쪽 | 762g | 120*210*40mm"
+    },
+    {
+     "sids": [
+      "9750263a546a"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『신』의 주인공 미카엘 팽송은 『타나토노트』와 『천사들의 제국』에서 이어지는 인물이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/125393135",
+     "quote": "『타나토노트』에서는 인간으로서의 삶, 『천사들의 제국』에서는 천사로서의 삶을 산 미카엘 팽송이 이번 작품에서는 144명의 신 후보생 중 하나로 등장한다. … 미카엘 일행은 올림포스산의 비밀을 밝히기 위한 한밤의 탐험을 계속하는데"
+    },
+    {
+     "sids": [
+      "399aa6fcc374"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "베르베르의 소설은 묘사와 대화를 줄이고 긴장을 늦추는 대목을 걷어 냈다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "rencontre avec mon éditeur Albin Michel. Il est intéressé par mon manuscrit mais me demande de le réduire. Sur ses conseils, je ramène donc la dernière mouture (Z-53) des \"Fourmis\" … à une version \"light\" de 350 pages, avec un minimum de descriptions, de dialogues, une seule bataille (la bataille des coquelicots) et j'évacue tout ce qui ralentit le suspense et l'action.",
+     "correction": "『개미』는 출판사의 권유로 최종 원고를 350쪽으로 줄이면서 묘사와 대화를 최소로 하고 서스펜스와 행동을 늦추는 대목을 걷어 낸 소설이다.",
+     "note": "연보가 이렇게 말하는 것은 『개미』 최종 원고뿐이고, 다른 소설 전반에 대한 같은 진술은 찾지 못했다. 검증 단계에서 교정문을 고쳤다: 원 교정문의 '출판사의 권유로'는 인용 밖에 있었고(인용을 같은 1990년 대목 앞부분까지 넓혀 받침), '문장 단위로는 빨리 읽힌다'는 인용이 받치지 않아 뺐다."
+    },
+    {
+     "sids": [
+      "e6968789e378"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『개미』 한국어판은 다섯 권이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/122534924",
+     "quote": "1부 「개미」(1권), … 2부 「개미의 날」(2, 3권), … 3부 「개미 혁명」(4, 5권)까지"
+    },
+    {
+     "sids": [
+      "e6968789e378"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『신』 한국어판은 세 권이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/125393135",
+     "quote": "신 세트 [ 전3권, 개정판 ]"
+    },
+    {
+     "sids": [
+      "e6968789e378"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "개미와 인간 쪽 이야기를 빠르게 번갈아 편집했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "J'utilise les techniques de montage parallèle de cinema pour dynamiser encore l'action en créant des bascules rapides monde fourmi, monde humain."
+    },
+    {
+     "sids": [
+      "e6968789e378"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "그 사이사이에 백과사전 항목이 끼어든다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Les_Fourmis_(Werber)",
+     "quote": "Les deux histoires se poursuivent en parallèle jusqu'au moment du contact et de la communication entre les deux espèces intelligentes qui jusqu'à présent s'ignoraient mutuellement. Outre ces deux fils, le récit est entrecoupé de passages de L'Encyclopédie du savoir relatif et absolu",
+     "note": "재인용: 원 인용(연보)은 백과사전을 '따로 떼어 둔 구역'에 넣었다고만 하고, 그 항목이 두 줄기 이야기 사이사이에 끼어든다는 점은 말하지 않는다. 프랑스어 위키백과 『개미』 항목이 본문이 백과사전 발췌로 끊겨 있다고 적는다."
+    },
+    {
+     "sids": [
+      "bc2f18a76b96"
+     ],
+     "field": "work:bernard-werber--les-fourmis.facts",
+     "claim": "『개미』의 원제는 Les Fourmis다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/122534924",
+     "quote": "원제 : Les fourmis"
+    },
+    {
+     "sids": [
+      "bc2f18a76b96"
+     ],
+     "field": "work:bernard-werber--les-fourmis.facts",
+     "claim": "『개미』 원서는 1991년(초판 기준)에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22fourmis%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Les fourmis : roman / Bernard Werber … A. Michel (Paris) … 1991"
+    },
+    {
+     "sids": [
+      "bc2f18a76b96"
+     ],
+     "field": "work:bernard-werber--les-fourmis.facts",
+     "claim": "『개미』는 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22fourmis%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Les fourmis : roman / Bernard Werber"
+    },
+    {
+     "sids": [
+      "6e4ca7c0f1b8"
+     ],
+     "field": "work:bernard-werber--les-fourmis.significance",
+     "claim": "지하실의 수수께끼와 개미집 안의 의문의 살해 사건으로 긴장을 유지한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "J'utilise donc l'idée de la cave et du meurtre mystérieux dans la fourmilière pour tenir la tension au plus serré."
+    },
+    {
+     "sids": [
+      "6e4ca7c0f1b8"
+     ],
+     "field": "work:bernard-werber--les-fourmis.significance",
+     "claim": "인물들이 지하실로 내려간다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "l'hsitoire de la cave ou les personnages descendent non seulement dans une cave, mais dans leur cave personnelle"
+    },
+    {
+     "sids": [
+      "6e4ca7c0f1b8"
+     ],
+     "field": "work:bernard-werber--les-fourmis.significance",
+     "claim": "두 줄기를 빠르게 번갈아 편집한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "J'utilise les techniques de montage parallèle de cinema pour dynamiser encore l'action en créant des bascules rapides monde fourmi, monde humain."
+    },
+    {
+     "sids": [
+      "6e4ca7c0f1b8"
+     ],
+     "field": "work:bernard-werber--les-fourmis.significance",
+     "claim": "과학·역사 정보는 소설 속의 책 백과사전 항목으로 따로 떼어 놓았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "J'ajoute au dernier moment l'Encyclopédie du Savoir Relatif et Absolu, pour mettre dans une zone à part les informations scientifiques ou historiques."
+    },
+    {
+     "sids": [
+      "6e4ca7c0f1b8"
+     ],
+     "field": "work:bernard-werber--les-fourmis.significance",
+     "claim": "『개미』는 데뷔작이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/543",
+     "quote": "데뷔작 개미"
+    },
+    {
+     "sids": [
+      "876ab3b317ec"
+     ],
+     "field": "work:bernard-werber--les-fourmis.significance",
+     "claim": "1,463쪽까지 불어났던 원고를 묘사와 대화를 덜어 내 350쪽으로 줄였다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "je ramène donc la dernière mouture (Z-53) des \"Fourmis\" forte auparavant de 1 463 pages, 8 batailles et beaucoup de décors et de dialogues, à une version \"light\" de 350 pages, avec un minimum de descriptions, de dialogues"
+    },
+    {
+     "sids": [
+      "ba986af7f504"
+     ],
+     "field": "work:bernard-werber--les-fourmis.significance",
+     "claim": "한국어판은 3부작 『개미』 『개미의 날』 『개미 혁명』을 다섯 권으로 묶는다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/122534924",
+     "quote": "1부 「개미」(1권), … 2부 「개미의 날」(2, 3권), … 3부 「개미 혁명」(4, 5권)까지"
+    },
+    {
+     "sids": [
+      "b2c540da5a40"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.facts",
+     "claim": "『타나토노트』의 원제는 Les Thanatonautes이고 1994년(초판 기준)에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22thanatonautes%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Les thanatonautes : roman / Bernard Werber … A. Michel (Paris) … 1994"
+    },
+    {
+     "sids": [
+      "b2c540da5a40"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.facts",
+     "claim": "한국어 제목 『타나토노트』는 1994년 작 Les Thanatonautes를 가리킨다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%B4%EB%82%98%EB%A5%B4_%EB%B2%A0%EB%A5%B4%EB%B2%A0%EB%A5%B4",
+     "quote": "1994년에는 타나토노트라 불리는 새로운 모험가들이 천국을 탐험하는 이야기를 다룬 소설 《타나토노트》를 출간한다."
+    },
+    {
+     "sids": [
+      "b2c540da5a40"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.facts",
+     "claim": "『타나토노트』는 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22thanatonautes%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Les thanatonautes : roman / Bernard Werber"
+    },
+    {
+     "sids": [
+      "9d401cce3372"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.significance",
+     "claim": "새로운 탐험가들이 죽음 너머 낙원을 정복하는 이야기다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Le thème en est la conquête du Paradis par des nouveaux aventuriers explorateurs, les Thanatonautes"
+    },
+    {
+     "sids": [
+      "9d401cce3372"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.significance",
+     "claim": "제목은 베르베르가 '타나토스'(죽음의 신)와 '나우티스'(탐험가)를 합쳐 만든 말이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "(j'invente le mot à partir de deux racines grecques, \"thanatos\" le dieu de la mort et \"nautis\" explorateur)"
+    },
+    {
+     "sids": [
+      "e1c2c1541f55"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.significance",
+     "claim": "티베트·이집트 『사자의 서』를 비롯한 여러 종교·신화의 죽음 이야기를 겹쳐 놓았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "J'étudie pour écrire ce livre, les religions, les mythologies, les rites primitifs des tribus d'Australie et d'Amérique, le livre des morts Tibétains et le livre des morts Egyptiens. J'essaie de trouver les points communs entre tous ces textes sacrés."
+    },
+    {
+     "sids": [
+      "e1c2c1541f55"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.significance",
+     "claim": "추리 소설·연애 소설·정치 우화로 함께 읽히게 썼다",
+     "verdict": "contradicted",
+     "url": "https://www.yes24.com/product/goods/186473918",
+     "quote": "추리 소설이자 연애 소설이며, 동시에 정치 우화로도 읽을 수도 있는 이 책은",
+     "correction": "출판사는 이 책을 추리 소설이자 연애 소설이며 정치 우화로도 읽을 수 있는 책으로 소개한다.",
+     "note": "출처는 열린책들 책 소개이고, 작가가 그렇게 의도해 썼다는 진술은 찾지 못했다."
+    },
+    {
+     "sids": [
+      "fc74396acbea"
+     ],
+     "field": "work:bernard-werber--les-thanatonautes.significance",
+     "claim": "주인공 미카엘 팽송은 『천사들의 제국』과 『신』으로 이어진다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/125393135",
+     "quote": "『타나토노트』에서는 인간으로서의 삶, 『천사들의 제국』에서는 천사로서의 삶을 산 미카엘 팽송이 이번 작품에서는 144명의 신 후보생 중 하나로 등장한다."
+    },
+    {
+     "sids": [
+      "cd90f0fc6ad4"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.facts",
+     "claim": "『나무』의 원제는 L'Arbre des possibles다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "원제 : L'Arbre des possibles"
+    },
+    {
+     "sids": [
+      "cd90f0fc6ad4"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.facts",
+     "claim": "원서는 2002년(초판 기준)에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22arbre%20des%20possibles%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "L'arbre des possibles : et autres histoires / Bernard Werber … A. Michel (Paris) … 2002"
+    },
+    {
+     "sids": [
+      "cd90f0fc6ad4"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.facts",
+     "claim": "『나무』는 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "『개미』『뇌』로 잘 알려진 베르베르의 소설집."
+    },
+    {
+     "sids": [
+      "984686e4f28a"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.significance",
+     "claim": "10~20쪽 남짓한 이야기들을 모은 단편집이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "이 책은 9쪽에 불과한 「사람을 찾습니다」등 10~20쪽 분량의 짧은 단편들을 모아 두었다.",
+     "note": "가장 짧은 수록작은 9쪽이다."
+    },
+    {
+     "sids": [
+      "83aa2b4e652f"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.significance",
+     "claim": "1992년부터 매일 저녁 한 시간씩 '시작·중간·뜻밖의 결말'을 원칙으로 농담·마술 트릭에 가까운 구조의 짧은 이야기를 썼다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "1992 Publication du \" Jour des fourmis \". … Après cette lecture, je décide de me fixer une nouvelle discipline d'écriture. En plus des 4 heures d'écriture matinale de 8h30 à 12h30, j'ajoute 1 heure d'écriture de nouvelles de 18h à 19h. Avec pour principe un début, un milieu et une fin inattendue. J'utilise pour cela des structures assez proches des blagues ou des tours de magie.",
+     "note": "재인용: 원 인용에는 연도 1992가 없었다. 같은 1992년 항목의 머리부터 인용해 연도를 담았다. '매일' 저녁이라는 점은 따로 더한 머리말 인용이 받친다."
+    },
+    {
+     "sids": [
+      "83aa2b4e652f"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.significance",
+     "claim": "그중 좋은 것을 골라 이 책으로 묶었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Réunion des meilleures nouvelles pour le projet de livre \"L'arbre des possibles\"."
+    },
+    {
+     "sids": [
+      "83aa2b4e652f"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.significance",
+     "claim": "첫 장편 『개미』를 낸 뒤 매일 저녁 한 시간씩 단편을 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "나는 첫 장편소설 <개미>를 발표한 뒤에 이야기를 빠르게 지어내는 능력을 유지하고 싶어서 매일 저녁 한 시간을 할애하여 단편소설을 썼다.",
+     "note": "검증 단계에서 더함. 『나무』 머리말(예스24 '책 속으로'). 연보는 저녁 18~19시 한 시간을 말하지만 '매일'을 명시하지 않는다."
+    },
+    {
+     "sids": [
+      "d489ab6351b4"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.significance",
+     "claim": "표제는 수록작 「가능성의 나무」에서 왔다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "'나무'라는 제목은 책에 수록된 「가능성의 나무」 이야기에서 따온 것."
+    },
+    {
+     "sids": [
+      "d489ab6351b4"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.significance",
+     "claim": "「가능성의 나무」는 미래의 가능성을 나무 계통도로 그려 본다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "미래의 모든 가능성들을 나무처럼 계통도로 그려서 검토해 본다면"
+    },
+    {
+     "sids": [
+      "d489ab6351b4"
+     ],
+     "field": "work:bernard-werber--l-arbre-des-possibles.significance",
+     "claim": "한국어판에는 뫼비우스의 그림이 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/2876081",
+     "quote": "1938년 파리 출생으로 『연금술사』의 표지와 베르네르 베르베르의 『나무』의 삽화를 그려 국내에도 잘 알려져 있다.",
+     "note": "같은 페이지 서지에 '뫼비우스 그림'으로 올라 있다."
+    },
+    {
+     "sids": [
+      "ee389262d214"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.facts",
+     "claim": "『신』(1권)의 원제는 Nous les dieux다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/124702365",
+     "quote": "우리는 신 Nous les dieux [ 개정판 ]",
+     "note": "BnF 표제는 쉼표를 넣은 'Nous, les dieux'다."
+    },
+    {
+     "sids": [
+      "ee389262d214"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.facts",
+     "claim": "원서 1권은 2004년(초판 기준)에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22nous%20les%20dieux%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Nous, les dieux / Bernard Werber … A. Michel (Paris) … 2004"
+    },
+    {
+     "sids": [
+      "ee389262d214"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.facts",
+     "claim": "『신』은 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/543",
+     "quote": "『신』은 집필 기간 9년에 달하는 베르베르 생애 최고의 대작으로, … 이 소설은 현재 우리가 알고 있는 역사는"
+    },
+    {
+     "sids": [
+      "c02773f10cfb"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.significance",
+     "claim": "『타나토노트』에서 인간, 『천사들의 제국』에서 천사였던 미카엘 팽송이 144명의 신 후보생 가운데 하나로 올림포스에서 경쟁한다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/125393135",
+     "quote": "『타나토노트』에서는 인간으로서의 삶, 『천사들의 제국』에서는 천사로서의 삶을 산 미카엘 팽송이 이번 작품에서는 144명의 신 후보생 중 하나로 등장한다. 신이 되기 위한 치열한 경쟁이 펼쳐지는 가운데 … 미카엘 일행은 올림포스산의 비밀을 밝히기 위한 한밤의 탐험을 계속하는데"
+    },
+    {
+     "sids": [
+      "c02773f10cfb"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.significance",
+     "claim": "『우리는 신』은 3부작의 첫 권이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/124702365",
+     "quote": "인류의 운명을 놓고 신 후보생들이 흥미진진한 게임을 펼치는 이야기인 『신』은 총 3부작으로 이루어져 있다. 1권 〈우리는 신〉에서는 미카엘 팽송이 신 후보생이 되어",
+     "note": "재인용: 원 인용('Sortie du premier volume de \"Nous les Dieux\".')은 첫 권이라는 것만 말하고 3부작이라는 점은 다른 해(2007) 항목에 있었다. 열린책들 개정판 소개가 한 대목에서 3부작과 1권 『우리는 신』을 함께 말한다."
+    },
+    {
+     "sids": [
+      "2b44b6db5638"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.significance",
+     "claim": "그리스·로마 신화에 기독교·유대교 전승과 불교적 세계관을 더해 인류의 역사를 다시 본다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/124702365",
+     "quote": "그리스·로마 신화를 바탕으로 기독교와 유대교 전승을 더하고 거기에 불교적 세계관을 결합하여 인류의 역사를 재조명하려는 야심 찬 계획의 산물인 『신』"
+    },
+    {
+     "sids": [
+      "c1b937bec955"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.significance",
+     "claim": "프랑스에서 첫 권은 2004년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "2004 Adaptation de \"Nos amis les Humains\" au théatre. Sortie du premier volume de \"Nous les Dieux\"."
+    },
+    {
+     "sids": [
+      "c1b937bec955"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.significance",
+     "claim": "둘째 권 『신들의 숨결』은 2005년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "2005 Sortie du livre \"Le Souffle des Dieux\" (suite de \"Nous les Dieux\")"
+    },
+    {
+     "sids": [
+      "c1b937bec955"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.significance",
+     "claim": "셋째 권이자 3부작의 마지막 권은 2007년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "2007 … Octobre: Sortie du livre, le troisième volet de la trilogie des dieux \"Le mystère des dieux\".",
+     "note": "재인용: 원 인용에는 연도 2007이 없었다. 같은 2007년 항목의 머리부터 인용해 연도를 담았다."
+    },
+    {
+     "sids": [
+      "c1b937bec955"
+     ],
+     "field": "work:bernard-werber--nous-les-dieux.significance",
+     "claim": "한국어 개정판은 『우리는 신』 『신들의 숨결』 『신들의 신비』를 『신』 세 권으로 묶는다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/125393135",
+     "quote": "신 1 - 우리는 신 … 신 2 - 신들의 숨결 … 신 3 - 신들의 신비"
+    },
+    {
+     "sids": [
+      "2653c3aabd60"
+     ],
+     "field": "work:bernard-werber--le-papillon-des-etoiles.facts",
+     "claim": "『파피용』의 원제는 Le Papillon des étoiles다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/123860016",
+     "quote": "원제 : Le Papillon des etoiles"
+    },
+    {
+     "sids": [
+      "2653c3aabd60"
+     ],
+     "field": "work:bernard-werber--le-papillon-des-etoiles.facts",
+     "claim": "원서는 2006년(초판 기준)에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22papillon%20des%20etoiles%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Le papillon des étoiles : roman / Bernard Werber … A. Michel (Paris) … 2006"
+    },
+    {
+     "sids": [
+      "2653c3aabd60"
+     ],
+     "field": "work:bernard-werber--le-papillon-des-etoiles.facts",
+     "claim": "『파피용』은 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22papillon%20des%20etoiles%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Le papillon des étoiles : roman / Bernard Werber"
+    },
+    {
+     "sids": [
+      "d46f0e7c96d6"
+     ],
+     "field": "work:bernard-werber--le-papillon-des-etoiles.significance",
+     "claim": "반목과 갈등으로 황폐해진 지구를 떠나 14만 4천 명이 도시만 한 우주 범선 파피용호를 타고 천 년 동안 새 별을 찾아간다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/123860016",
+     "quote": "『파피용』은 인간들의 반목과 갈등으로 황폐해진 지구를 떠나 새로운 별을 찾아 나서는 이들의 모험담이다. 희망과 호기심을 품고 모여든 14만 4천 명은 도시 하나와 맞먹는 거대한 크기의 우주 범선 파피용호에 올라 1천 년간 펼쳐질 탐험의 대장정을 시작한다."
+    },
+    {
+     "sids": [
+      "d46f0e7c96d6"
+     ],
+     "field": "work:bernard-werber--le-papillon-des-etoiles.significance",
+     "claim": "파피용호는 빛을 동력으로 나아간다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/123860016",
+     "quote": "별빛을 추진 동력으로 나아가는 〈파피용호〉가 탄생한다."
+    },
+    {
+     "sids": [
+      "d46f0e7c96d6"
+     ],
+     "field": "work:bernard-werber--le-papillon-des-etoiles.significance",
+     "claim": "한 권짜리 장편이다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22papillon%20des%20etoiles%22%20and%20bib.author%20all%20%22werber%22&recordSchema=dublincore&maximumRecords=50",
+     "quote": "Le papillon des étoiles : roman / Bernard Werber … 1 vol. (243 p.)",
+     "note": "한국어 개정판도 권차 없이 440쪽 한 권이다(예스24 goods/123860016)."
+    },
+    {
+     "sids": [
+      "0cf237bc7218"
+     ],
+     "field": "work:bernard-werber--le-papillon-des-etoiles.significance",
+     "claim": "베르베르는 이것을 현대판 노아의 방주로 구상했고, 마지막 세 쪽의 반전에 걸려 마술 트릭처럼 작동한다고 말했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "L'idée est de proposer une sorte d'Arche de Noé moderne … Tout tient dans cette histoire à la grande surprise finale dans les trois dernières pages. Cela fonctionne comme un tour de magie."
+    },
+    {
+     "sids": [
+      "8b5fa8e9db1d"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--bernard-werber.facts",
+     "claim": "코넌 도일 → 베르베르 방향의 직접 영향이 작가 자신의 기록으로 확인된다(documented_influence, documented)",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Avec Le Père de nos Pères je mets au point mon Sherlock Holmes et mon docteur Watson que j'ai bien l'intention de ré-utiliser plus tard."
+    },
+    {
+     "sids": [
+      "cc6526952095"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--bernard-werber.summary",
+     "claim": "『아버지들의 아버지』(Le Père de nos pères)는 1998년 작이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "1998 Sortie du \"Père de nos Pères\"."
+    },
+    {
+     "sids": [
+      "cc6526952095"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--bernard-werber.summary",
+     "claim": "한국어 제목 『아버지들의 아버지』의 원제는 Le Père de nos pères다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/190214829",
+     "quote": "원제 : Le pere de nos peres"
+    },
+    {
+     "sids": [
+      "cc6526952095"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--bernard-werber.summary",
+     "claim": "베르베르는 자전 연보에 이 작품으로 '나의 셜록 홈스와 왓슨 박사'를 만들었다고 썼다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Avec Le Père de nos Pères je mets au point mon Sherlock Holmes et mon docteur Watson"
+    },
+    {
+     "sids": [
+      "cc6526952095"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--bernard-werber.summary",
+     "claim": "과학 기자 이지도르 카첸버그는 홈스에, 젊은 기자 뤼크레스 넴로드는 왓슨에 대응한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Sherlock Holmes c'est Isidore Katzenberg, un gros journaliste scientifique malin et angoissé … Le docteur Watson serait plutôt Lucrèce Nemrod, une jeune journaliste"
+    },
+    {
+     "sids": [
+      "7d1c1e95a10c"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--bernard-werber.summary",
+     "claim": "두 사람은 뒤에 『뇌』에서 다시 사건을 쫓는다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/543",
+     "quote": "『뇌』에서는 연인의 품 안에서 황홀경을 경험한 표정으로 죽은 신경정신 의학자 '핀처' 박사의 사인을 추적하던 아름다운 여기자 '뤼크레스'와 전직 경찰 '이지도르'는",
+     "note": "『뇌』(L'Ultime Secret)는 연보상 2001년 작으로 1998년보다 뒤다. 예스24는 이지도르를 '전직 경찰'로 적지만 연보는 과학 기자라고 한다. '뒤에'(1998년 뒤)라는 시점은 이 인용에 없어, 검증 단계에서 『뇌』의 연도를 받치는 주장을 따로 더했다."
+    },
+    {
+     "sids": [
+      "7d1c1e95a10c"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--bernard-werber.summary",
+     "claim": "『뇌』는 2001년 작으로 『아버지들의 아버지』(1998)보다 뒤에 나왔고 그 작품과 이어진다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%B4%EB%82%98%EB%A5%B4_%EB%B2%A0%EB%A5%B4%EB%B2%A0%EB%A5%B4",
+     "quote": "《 뇌 》 이세욱 옮김, 2001년 , 2002년 뇌에 대한 가장 최근의 연구 성과들을 바탕으로 인간 탐구의 새로운 지평을 추리 소설적 기법으로 보여 주는 장편소설이다. 한국에서는 2권으로 출간되었다. 《아버지들의 아버지》와 이어진다.",
+     "note": "검증 단계에서 더함. 작가 연보 2001년 항목도 'Octobre 2001. Sortie de l'Ultime Secret.'이라 적는다."
+    },
+    {
+     "sids": [
+      "2596d144c835"
+     ],
+     "field": "relation:influence--gustave-flaubert--bernard-werber.facts",
+     "claim": "플로베르 → 베르베르 방향으로, 작가 자신의 명시적 독서 기록이 있다(directed, documented)",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Le seul autre auteur qui m'impressionne à l'époque c'est Flaubert avec Salâmmbo."
+    },
+    {
+     "sids": [
+      "2596d144c835"
+     ],
+     "field": "relation:influence--gustave-flaubert--bernard-werber.facts",
+     "claim": "관계 유형은 확인된 직접 영향(documented_influence)이다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "1982 … Le seul autre auteur qui m'impressionne à l'époque c'est Flaubert avec Salâmmbo. Parce que là justement c'est très travaillé et c'est vraiment cinématographique (quoi que un peu trop violent).",
+     "correction": "연보 1982년 항목이 적은 것은 그 무렵 플로베르의 『살람보』에 감탄했다는 기록이고, 영향(influence)이라는 말은 쓰지 않는다.",
+     "note": "relations-guide 기준으로 documented_influence는 '확인된 직접 영향'이다. 감탄만 적힌 기록이라 영향으로 단정하기 어렵다. 같은 연보 1970년 항목은 포에 대해서는 'Influence : Edgar Allan Poe'라고 따로 적는다. 검증 단계에서 교정문을 인용이 받치는 범위로 줄였다(1970년 포 대목은 다른 항목이라 교정문에서 빼고 여기로 옮겼다)."
+    },
+    {
+     "sids": [
+      "07b049d999eb",
+      "f3b5eec35819"
+     ],
+     "field": "relation:influence--gustave-flaubert--bernard-werber.summary",
+     "claim": "자전 연보 1982년 항목은 매일 아침 『개미』 원고를 고쳐 쓰던 무렵의 일을 적는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "1982 … Continue de bosser 4 heures tous les matins sur mon manuscrit des \"Fourmis\". A cette époque j'avais déjà réécrit 18 fois entièrement ce roman.",
+     "note": "재인용: 원 인용에는 '1982년 항목'이라는 연도가 없었다. 같은 항목의 머리부터 인용해 연도를 담았다."
+    },
+    {
+     "sids": [
+      "07b049d999eb",
+      "f3b5eec35819"
+     ],
+     "field": "relation:influence--gustave-flaubert--bernard-werber.summary",
+     "claim": "필립 K. 딕 말고 자신을 감탄시킨 단 한 명의 작가로 플로베르의 『살람보』를 꼽고, 공들여 다듬었으면서도 정말 영화적이라는 점을 이유로 들었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "1982 … Découverte de Philip K. Dick (nouveau grand choc littéraire). … Le seul autre auteur qui m'impressionne à l'époque c'est Flaubert avec Salâmmbo. Parce que là justement c'est très travaillé et c'est vraiment cinématographique",
+     "note": "재인용: 원 인용의 'Le seul autre auteur'(다른 단 한 명)가 누구 말고인지, 그리고 1982년 항목이라는 점이 인용 밖에 있었다. 같은 1982년 항목 안에서 필립 K. 딕 대목부터 인용을 넓혔다."
+    }
+   ],
+   "noClaim": {
+    "80da73b4bc18": "『신』으로 시작하지 말라는 독서 권고일 뿐이다. 그 근거(분량·연작 관계)는 바로 뒤 문장 9750263a546a에서 검증했다.",
+    "f77bd46b9843": "난이도의 부담이 분량과 구성에 있다는 평가 문장이다. 분량과 구성 사실은 e6968789e378에서 검증했다."
+   }
+  }
+ ],
+ "check": {
+  "kept": 75,
+  "requoted": 8,
+  "downgraded": 0,
+  "added": 3,
+  "noClaimConverted": 0
+ }
+}

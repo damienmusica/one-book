@@ -1,0 +1,435 @@
+{
+  "id": "imre-kertesz",
+  "page": "https://literary-planet.pages.dev/authors/imre-kertesz/",
+  "author": {
+    "names": {
+      "ko": "임레 케르테스",
+      "original": "Kertész Imre",
+      "aliases": [
+        "Imre Kertész"
+      ]
+    },
+    "birthYear": 1929,
+    "deathYear": 2016,
+    "activeRange": [
+      1960,
+      2016
+    ],
+    "languages": [
+      "hu"
+    ],
+    "regions": [
+      "eastern-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "수용소를 겪는 소년의 시점을 끝까지 유지해, 아우슈비츠를 회고가 아니라 현재진행의 문법으로 서술했다. 『운명』의 화자는 사후의 도덕적 정리를 거부하고 각 단계를 그때의 이해로만 기술하며, 이 유예가 판단의 자리를 독자에게 넘긴다. 뒤이은 『좌절』과 『태어나지 않은 아이를 위한 카디시』는 그 소설을 쓴 사람의 자리를 다시 서술 대상으로 삼아, 홀로코스트를 쓰는 행위 자체를 소재로 되돌리는 3부작이 되었다.",
+    "readingEntry": "imre-kertesz--sorstalansag",
+    "readingEntryReason": "소년 화자의 현재진행 시점이라는 그의 방법이 여기서 가장 순수하게 작동하고, 나머지 작품은 모두 이 소설을 쓴 뒤의 반향으로 읽힌다.",
+    "readingOrder": [
+      "imre-kertesz--sorstalansag",
+      "imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert",
+      "imre-kertesz--a-kudarc",
+      "imre-kertesz--felszamolas"
+    ],
+    "readingWarning": "『태어나지 않은 아이를 위한 카디시』부터 시작하면 단락 없는 한 덩어리의 독백이 『운명』의 전제를 이미 아는 독자를 향해 있어 진입이 어렵다. 이 배치는 발표순(『좌절』 1988 → 『카디시』 1990)을 뒤집어 놓은 것이다.",
+    "difficulty": 4,
+    "difficultyReason": "『운명』의 문장 자체는 평이하나 화자가 도덕적 판단을 끝까지 미루어 그 공백을 독자가 견뎌야 하고, 『카디시』는 단락 없는 독백과 자기 인용으로 진행되어 형식을 감내해야 한다.",
+    "sourceIds": [
+      "src--nobelprize",
+      "src--britannica"
+    ]
+  },
+  "works": [
+    {
+      "id": "imre-kertesz--a-kudarc",
+      "titleKo": "좌절",
+      "titleOriginal": "A kudarc",
+      "year": 1988,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "『운명』을 쓴 늙은 작가가 그 원고의 거절과 자기 생애를 다시 서술하는 소설. 홀로코스트를 쓰는 행위 자체를 소재로 되돌리는 3부작의 두 번째 권이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "imre-kertesz--felszamolas",
+      "titleKo": "청산",
+      "titleOriginal": "Felszámolás",
+      "year": 2003,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "공산주의 붕괴 이후의 헝가리를 배경으로, 아우슈비츠에서 태어난 작가가 남긴 원고를 편집자가 뒤쫓는다. 증언이 문서로 남지 않을 때 무엇이 남는가를 묻는 후기 대표작.",
+      "sourceIds": []
+    },
+    {
+      "id": "imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert",
+      "titleKo": "태어나지 않은 아이를 위한 카디시",
+      "titleOriginal": "Kaddis a meg nem született gyermekért",
+      "year": 1990,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "단락 없이 이어지는 한 덩어리의 독백으로, 아이를 낳지 않겠다는 결정을 아우슈비츠 이후의 논리로 설명한다. 『운명』의 전제를 이미 아는 독자를 향해 쓰인 3부작의 마지막 권.",
+      "sourceIds": []
+    },
+    {
+      "id": "imre-kertesz--sorstalansag",
+      "titleKo": "운명",
+      "titleOriginal": "Sorstalanság",
+      "year": 1975,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "열네 살 소년이 부다페스트에서 아우슈비츠와 부헨발트로 옮겨지는 과정을, 사후의 정리 없이 각 단계의 이해로만 서술한다. 마지막 장에서 화자가 '수용소의 행복'을 말하는 대목이 이 소설의 서술 원칙을 가장 뚜렷하게 드러낸다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--friedrich-nietzsche--imre-kertesz",
+      "type": "translation",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "imre-kertesz (임레 케르테스)",
+      "evidenceLevel": "documented",
+      "summary": "케르테스는 오랫동안 독일어 문학·철학의 헝가리어 번역으로 생계를 꾸렸고 니체는 그가 옮긴 대표적 저자다. 노벨 재단의 전기·저작 기록이 그의 번역 목록에 니체를 올려 두었다.",
+      "sourceIds": [
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "translation--elias-canetti--imre-kertesz",
+      "type": "translation",
+      "from": "elias-canetti (엘리아스 카네티)",
+      "to": "imre-kertesz (임레 케르테스)",
+      "evidenceLevel": "documented",
+      "summary": "케르테스는 카네티를 헝가리어로 옮겼다. 노벨 재단의 전기·저작 기록이 호프만스탈·슈니츨러·프로이트·비트겐슈타인과 함께 카네티를 그의 번역 목록에 올려 두었다.",
+      "sourceIds": [
+        "src--nobelprize"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "72849b426a69",
+      "where": "author.facts",
+      "text": "임레 케르테스(Kertész Imre) · 1929–2016 · hu · eastern-europe"
+    },
+    {
+      "sid": "3ffb17b5f1c9",
+      "where": "author.importanceReason",
+      "text": "수용소를 겪는 소년의 시점을 끝까지 유지해, 아우슈비츠를 회고가 아니라 현재진행의 문법으로 서술했다."
+    },
+    {
+      "sid": "4c98619dbe5a",
+      "where": "author.importanceReason",
+      "text": "『운명』의 화자는 사후의 도덕적 정리를 거부하고 각 단계를 그때의 이해로만 기술하며, 이 유예가 판단의 자리를 독자에게 넘긴다."
+    },
+    {
+      "sid": "d8df6f9ee15c",
+      "where": "author.importanceReason",
+      "text": "뒤이은 『좌절』과 『태어나지 않은 아이를 위한 카디시』는 그 소설을 쓴 사람의 자리를 다시 서술 대상으로 삼아, 홀로코스트를 쓰는 행위 자체를 소재로 되돌리는 3부작이 되었다."
+    },
+    {
+      "sid": "9c61c55e9398",
+      "where": "author.readingEntryReason",
+      "text": "소년 화자의 현재진행 시점이라는 그의 방법이 여기서 가장 순수하게 작동하고, 나머지 작품은 모두 이 소설을 쓴 뒤의 반향으로 읽힌다."
+    },
+    {
+      "sid": "ad709fe37907",
+      "where": "author.readingWarning",
+      "text": "『태어나지 않은 아이를 위한 카디시』부터 시작하면 단락 없는 한 덩어리의 독백이 『운명』의 전제를 이미 아는 독자를 향해 있어 진입이 어렵다."
+    },
+    {
+      "sid": "1fd4e65d19da",
+      "where": "author.readingWarning",
+      "text": "이 배치는 발표순(『좌절』 1988 → 『카디시』 1990)을 뒤집어 놓은 것이다."
+    },
+    {
+      "sid": "aa92bac7884f",
+      "where": "author.difficultyReason",
+      "text": "『운명』의 문장 자체는 평이하나 화자가 도덕적 판단을 끝까지 미루어 그 공백을 독자가 견뎌야 하고, 『카디시』는 단락 없는 독백과 자기 인용으로 진행되어 형식을 감내해야 한다."
+    },
+    {
+      "sid": "58bbb875bac0",
+      "where": "work:imre-kertesz--a-kudarc.facts",
+      "text": "『좌절』(A kudarc) · 1988 first-print · fiction"
+    },
+    {
+      "sid": "467dc40aeed9",
+      "where": "work:imre-kertesz--a-kudarc.significance",
+      "text": "『운명』을 쓴 늙은 작가가 그 원고의 거절과 자기 생애를 다시 서술하는 소설."
+    },
+    {
+      "sid": "c3a549f4e7a2",
+      "where": "work:imre-kertesz--a-kudarc.significance",
+      "text": "홀로코스트를 쓰는 행위 자체를 소재로 되돌리는 3부작의 두 번째 권이다."
+    },
+    {
+      "sid": "00a97456b1b6",
+      "where": "work:imre-kertesz--felszamolas.facts",
+      "text": "『청산』(Felszámolás) · 2003 first-print · fiction"
+    },
+    {
+      "sid": "9ab9009f9c90",
+      "where": "work:imre-kertesz--felszamolas.significance",
+      "text": "공산주의 붕괴 이후의 헝가리를 배경으로, 아우슈비츠에서 태어난 작가가 남긴 원고를 편집자가 뒤쫓는다."
+    },
+    {
+      "sid": "2cb46da35710",
+      "where": "work:imre-kertesz--felszamolas.significance",
+      "text": "증언이 문서로 남지 않을 때 무엇이 남는가를 묻는 후기 대표작."
+    },
+    {
+      "sid": "d90546570245",
+      "where": "work:imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert.facts",
+      "text": "『태어나지 않은 아이를 위한 카디시』(Kaddis a meg nem született gyermekért) · 1990 first-print · fiction"
+    },
+    {
+      "sid": "147da3c36d67",
+      "where": "work:imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert.significance",
+      "text": "단락 없이 이어지는 한 덩어리의 독백으로, 아이를 낳지 않겠다는 결정을 아우슈비츠 이후의 논리로 설명한다."
+    },
+    {
+      "sid": "81fe086d0a97",
+      "where": "work:imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert.significance",
+      "text": "『운명』의 전제를 이미 아는 독자를 향해 쓰인 3부작의 마지막 권."
+    },
+    {
+      "sid": "18cfc0837218",
+      "where": "work:imre-kertesz--sorstalansag.facts",
+      "text": "『운명』(Sorstalanság) · 1975 first-print · fiction"
+    },
+    {
+      "sid": "148838a17cf5",
+      "where": "work:imre-kertesz--sorstalansag.significance",
+      "text": "열네 살 소년이 부다페스트에서 아우슈비츠와 부헨발트로 옮겨지는 과정을, 사후의 정리 없이 각 단계의 이해로만 서술한다."
+    },
+    {
+      "sid": "6603933b2f44",
+      "where": "work:imre-kertesz--sorstalansag.significance",
+      "text": "마지막 장에서 화자가 '수용소의 행복'을 말하는 대목이 이 소설의 서술 원칙을 가장 뚜렷하게 드러낸다."
+    },
+    {
+      "sid": "83b1ab224330",
+      "where": "relation:translation--friedrich-nietzsche--imre-kertesz.facts",
+      "text": "프리드리히 니체 → 임레 케르테스 · translation · directed · documented"
+    },
+    {
+      "sid": "dbaf12f34d69",
+      "where": "relation:translation--friedrich-nietzsche--imre-kertesz.summary",
+      "text": "케르테스는 오랫동안 독일어 문학·철학의 헝가리어 번역으로 생계를 꾸렸고 니체는 그가 옮긴 대표적 저자다."
+    },
+    {
+      "sid": "0b5f13215b32",
+      "where": "relation:translation--friedrich-nietzsche--imre-kertesz.summary",
+      "text": "노벨 재단의 전기·저작 기록이 그의 번역 목록에 니체를 올려 두었다."
+    },
+    {
+      "sid": "74bb0ca9a84c",
+      "where": "relation:translation--elias-canetti--imre-kertesz.facts",
+      "text": "엘리아스 카네티 → 임레 케르테스 · translation · directed · documented"
+    },
+    {
+      "sid": "e0bf7dd3ed78",
+      "where": "relation:translation--elias-canetti--imre-kertesz.summary",
+      "text": "케르테스는 카네티를 헝가리어로 옮겼다."
+    },
+    {
+      "sid": "24b322c52cb5",
+      "where": "relation:translation--elias-canetti--imre-kertesz.summary",
+      "text": "노벨 재단의 전기·저작 기록이 호프만스탈·슈니츨러·프로이트·비트겐슈타인과 함께 카네티를 그의 번역 목록에 올려 두었다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "identity",
+      "claim": "임레 케르테스(Kertész Imre)는 1929년생·2016년 몰의 헝가리어 작가다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/facts/",
+      "quote": "Born: 9 November 1929, Budapest, Hungary … Died: 31 March 2016, Budapest, Hungary"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『운명』의 화자는 사후의 도덕적 정리를 거부하고 각 단계를 그때의 이해로만 기술한다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/press-release/",
+      "quote": "Köves regards events like a child without completely understanding them and without finding them unnatural or disquieting"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『운명』·『좌절』·『카디시』가 3부작을 이룬다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+      "quote": "the second volume in a trilogy that begins with Sorstalanság and concludes with Kaddis a meg nem született gyermekért",
+      "note": "독일어·헝가리어 위키백과는 『청산』까지 넣어 'tetralógia'로 부르지만, 노벨 재단 기록은 3부작"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "뒤이은 작품이 『운명』을 쓴 사람의 자리를 다시 서술 대상으로 삼는다(홀로코스트를 쓰는 행위 자체가 소재)",
+      "verdict": "confirmed",
+      "url": "https://lareviewofbooks.org/article/eternal-forgetting-imre-kerteszs-fiasco/",
+      "quote": "Fiasco addresses both the writing of Fatelessness and life in post-war Hungary under a communist dictatorship"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "『운명』 이후 작품들은 단락 없는 독백과 자기 인용으로 진행된다",
+      "verdict": "contradicted",
+      "url": "https://lareviewofbooks.org/article/eternal-forgetting-imre-kerteszs-fiasco/",
+      "quote": "The first 118 pages of Fiasco are about a character named \"the old boy,\" a writer struggling to start on a new novel.",
+      "correction": "『카디시』는 단락 없는 독백과 자기 인용으로 진행되어 형식을 감내해야 한다",
+      "note": "단락 없는 한 덩어리는 『카디시』에만 해당. 『좌절』은 장(chapter)으로 나뉜 두 부분 구조",
+      "resolution": "corrected"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『태어나지 않은 아이를 위한 카디시』는 단락 없는 한 덩어리의 독백이다",
+      "verdict": "confirmed",
+      "url": "https://www.encyclopedia.com/arts/educational-magazines/kaddish-child-not-born",
+      "quote": "The story is in the form of a monologue by this man, and the novel has no chapter divisions or other breaks."
+    },
+    {
+      "field": "readingWarning",
+      "claim": "발표순은 『좌절』 1988 → 『카디시』 1990이다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+      "quote": "A kudarc (1988; Fiasco) … Kaddis a meg nem született gyermekért (1990)"
+    },
+    {
+      "field": "works[].year/titleOriginal — imre-kertesz--a-kudarc",
+      "claim": "『좌절』 / A kudarc, 1988년 소설",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EB%A0%88_%EC%BC%80%EB%A5%B4%ED%85%8C%EC%8A%A4",
+      "quote": "《좌절 (헝가리어: A kudarc)》 (1988년 작)",
+      "note": "titleKo 「좌절」은 한국어 위키백과·통용 표기와 일치"
+    },
+    {
+      "field": "works[].significance — imre-kertesz--a-kudarc",
+      "claim": "『운명』을 쓴 늙은 작가가 그 원고의 거절과 자기 생애를 다시 서술하는 소설이다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/press-release/",
+      "quote": "While he waits for an expected refusal of his real novel, the one about Auschwitz, the aging author spends his days writing a contemporary novel",
+      "note": "LARB도 \"The old boy has written a novel about his experiences in Auschwitz, but a publisher rejected it\"로 일치"
+    },
+    {
+      "field": "works[].significance — imre-kertesz--a-kudarc",
+      "claim": "3부작의 두 번째 권이다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+      "quote": "This novel is normally regarded as the second volume in a trilogy"
+    },
+    {
+      "field": "works[].year/titleOriginal — imre-kertesz--felszamolas",
+      "claim": "『청산』 / Felszámolás, 2003년 소설",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EB%A0%88_%EC%BC%80%EB%A5%B4%ED%85%8C%EC%8A%A4",
+      "quote": "《청산 (헝가리어: Felszámolás)》 (2003년 작)"
+    },
+    {
+      "field": "works[].significance — imre-kertesz--felszamolas",
+      "claim": "1990년 이후의 부다페스트를 배경으로 한다",
+      "verdict": "unverifiable",
+      "url": "https://www.penguinrandomhouse.com/books/92012/liquidation-by-imre-kertesz-translated-by-tim-wilkinson/",
+      "quote": "Ten years after the fall of communism, a writer named B. commits suicide",
+      "correction": "공산주의 붕괴 이후의 헝가리를 배경으로",
+      "note": "absent: 시대(공산주의 붕괴 후)는 출판사·EBSCO·영어 위키백과에서 확인되나, 무대가 부다페스트라는 명시를 열람 가능한 출처에서 찾지 못함",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[].significance — imre-kertesz--felszamolas",
+      "claim": "아우슈비츠에서 태어난 작가가 남긴 원고를 편집자가 뒤쫓는다",
+      "verdict": "confirmed",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/liquidation-imre-kertesz",
+      "quote": "Among the papers that Kingbitter has salvaged from Communist authorities is the manuscript of a play entitled Liquidation",
+      "note": "킹비터는 국영 출판사 직원으로 B.의 유고를 관리한다(EBSCO). B.는 아우슈비츠 출생 — \"B.—who was born at Auschwitz\"(Penguin Random House)"
+    },
+    {
+      "field": "works[].year/titleKo — imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert",
+      "claim": "『태어나지 않은 아이를 위한 카디시』 / Kaddis a meg nem született gyermekért, 1990년 소설",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kaddish_for_an_Unborn_Child",
+      "quote": "Kaddish for an Unborn Child (Hungarian: Kaddis a meg nem született gyermekért) is a novel by Imre Kertész, first published in 1990",
+      "note": "titleKo는 원제 축자역으로 정확하나, 한국어 통용/기간행 제목은 『태어나지 않은 아이를 위한 기도』(한국어 위키백과)"
+    },
+    {
+      "field": "works[].significance — imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert",
+      "claim": "아이를 낳지 않겠다는 결정을 아우슈비츠 이후의 논리로 설명한다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+      "quote": "His Kaddish is said for the child he refuses to beget in a world that permitted the existence of Auschwitz."
+    },
+    {
+      "field": "works[].significance — imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert",
+      "claim": "3부작의 마지막 권이다",
+      "verdict": "confirmed",
+      "url": "https://www.encyclopedia.com/arts/educational-magazines/kaddish-child-not-born",
+      "quote": "Kaddish for a Child Not Born by Imre Kertész is the third book in a series of four novels"
+    },
+    {
+      "field": "works[].year/titleKo — imre-kertesz--sorstalansag",
+      "claim": "『운명』 / Sorstalanság, 1975년 소설",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Fatelessness",
+      "quote": "He began writing it in the 1960 but it was rejected for publication … It was finally published in 1975.",
+      "note": "titleKo 「운명」은 한국어 통용 제목이나 원제 Sorstalanság은 '무운명/운명 없음'이라 결성(缺性) 의미가 탈락"
+    },
+    {
+      "field": "works[].significance — imre-kertesz--sorstalansag",
+      "claim": "열네 살 소년이 부다페스트에서 아우슈비츠와 부헨발트로 옮겨지는 과정을 서술한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Fatelessness",
+      "quote": "a quasi-autobiographical story about a 14-year-old Hungarian Jew's experiences in the Auschwitz and Buchenwald concentration camps",
+      "note": "소설에는 차이츠(Zeitz) 수용소도 나오며, 영어 위키백과 케르테스 항목은 같은 인물을 15세로 적어 출처 간 불일치가 있음"
+    },
+    {
+      "field": "works[].significance — imre-kertesz--sorstalansag",
+      "claim": "마지막 장에서 화자가 '수용소의 행복'을 말한다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=dMRoihRs7KEC&q=happiness+of+the+concentration+camps",
+      "quote": "At the end of the novel, Köves says that, should he ever be asked, he will talk about happiness in the concentration camp",
+      "note": "Vasvári & Tötösy de Zepetnek(eds.), Imre Kertész and Holocaust Literature, Purdue UP — 본문에서 \"the 'happiness of the concentration camps' in Fatelessness (189, 262)\"도 확인"
+    },
+    {
+      "field": "relations — translation friedrich-nietzsche → imre-kertesz",
+      "claim": "케르테스는 독일어 문학·철학의 헝가리어 번역으로 생계를 꾸렸고 니체가 그 대표 저자다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+      "quote": "he began supporting himself as an independent writer and translator of German-language authors such as Nietzsche, Hofmannsthal, Schnitzler, Freud, Roth, Wittgenstein, and Canetti"
+    },
+    {
+      "field": "relations — translation friedrich-nietzsche → imre-kertesz",
+      "claim": "노벨 재단의 전기 기록이 그의 번역 목록에 니체를 올려 두었다 (출처: src--nobelprize)",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+      "quote": "translator of German-language authors such as Nietzsche",
+      "note": "인용 출처(src--nobelprize)가 실제 주장 소재지와 일치. 영어 위키백과도 니체 『비극의 탄생』 번역을 명시"
+    },
+    {
+      "field": "relations — translation elias-canetti → imre-kertesz",
+      "claim": "노벨 재단 기록이 호프만스탈·슈니츨러·프로이트·비트겐슈타인과 함께 카네티를 그의 번역 목록에 올려 두었다 (출처: src--nobelprize)",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+      "quote": "Nietzsche, Hofmannsthal, Schnitzler, Freud, Roth, Wittgenstein, and Canetti",
+      "note": "목록에는 요제프 로트(Roth)도 포함되나 플레이트가 열거를 망라라고 주장하지는 않음"
+    }
+  ],
+  "sources": {
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    }
+  }
+}

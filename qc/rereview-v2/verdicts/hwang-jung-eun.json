@@ -1,0 +1,739 @@
+{
+  "plates": [
+    {
+      "id": "hwang-jung-eun",
+      "claims": [
+        {
+          "sids": [
+            "f92faea3c198"
+          ],
+          "field": "author.facts",
+          "claim": "황정은은 1976년생이다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "1976년 서울에서 태어났으며, 인천대학교 불문과를 중퇴했다."
+        },
+        {
+          "sids": [
+            "f92faea3c198"
+          ],
+          "field": "author.facts",
+          "claim": "한국어로 쓰는 대한민국(동아시아) 작가다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "국적 대한민국 성별 여성 언어 한국어 직업 소설가"
+        },
+        {
+          "sids": [
+            "f92faea3c198"
+          ],
+          "field": "author.facts",
+          "claim": "이름 표기 황정은(黃貞殷)",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/authorDetail?authorid=3142",
+          "quote": "황정은 (黃貞殷) 저자 소개 2005년 경향신문 신춘문예를 통해 작품활동을 시작했다."
+        },
+        {
+          "sids": [
+            "f4ffa755ffd3"
+          ],
+          "field": "author.importanceReason",
+          "claim": "정황 설명을 덜어 낸 간결한 문장이 황정은 소설의 특징이다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2155",
+          "quote": "그의 소설은 간결하고 정제된 언어와 함축적인 대화가 먼저 눈길을 끈다. … 소설은 정황에 대한 구구한 설명 없이 간결한 행동 묘사와 생생한 대화만으로"
+        },
+        {
+          "sids": [
+            "f4ffa755ffd3"
+          ],
+          "field": "author.importanceReason",
+          "claim": "서로의 말을 되받으며 천천히 나아가는 대화가 황정은 소설 전반의 특징이다",
+          "verdict": "contradicted",
+          "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+          "quote": "은교와 무재의 대화. 이들의 속도를 나누고 싶다. 서로의 말을 반복하는 이들의 대화법, 느린 속도를 비정상이며 세상에 없는 대화법이라고 여기는 독자들이 한국에 더러 있었다.",
+          "correction": "『百의 그림자』에서 은교와 무재가 나누는, 서로의 말을 되받는 느린 대화",
+          "note": "작가 답변은 『百의 그림자』의 두 인물 대화에 대한 것이며, 작품 전반의 특징이라는 근거는 찾지 못했다."
+        },
+        {
+          "sids": [
+            "f4ffa755ffd3"
+          ],
+          "field": "author.importanceReason",
+          "claim": "철거 위기의 공간에 사는 사람들의 목소리를 기록했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Hwang_Jung-eun",
+          "quote": "Hwang perceptively portrays the pain of those living in a space that cannot possibly be represented by the word “slum,” a space always in danger of falling into ruin."
+        },
+        {
+          "sids": [
+            "f4ffa755ffd3"
+          ],
+          "field": "author.importanceReason",
+          "claim": "참사(세월호) 곁의 사람들을 다뤘다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "2014년 세월호참사와 2016~17년 촛불혁명이라는 사회적 격변을 배경에 두고 개인의 일상 속에서 ‘혁명’의 새로운 의미를 탐구한 작품들이다."
+        },
+        {
+          "sids": [
+            "00190dc7f84b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『百의 그림자』는 첫 장편이다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2155",
+          "quote": "첫 장편 『百의 그림자』로 단숨에 한국일보문학상을 수상하며"
+        },
+        {
+          "sids": [
+            "00190dc7f84b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "철거 직전의 도심 전자상가가 무대이고 은교와 무재가 주인공이다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3755",
+          "quote": "이 소설의 주인공인 은교와 무재는 도심 한복판에 위치한 철거 직전 전자상가에서 일한다."
+        },
+        {
+          "sids": [
+            "00190dc7f84b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "감당할 수 없는 일을 겪은 사람의 그림자가 일어서는 환상",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3755",
+          "quote": "이 소설에서 사람들은 현실에서 감당해낼 수 없는 일을 겪었을 때 그림자가 분리되는 현상을 겪는다."
+        },
+        {
+          "sids": [
+            "00190dc7f84b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "2009년 용산 참사 직후에 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+          "quote": "2009년 1월 20일 오전이었다. … 나는 이 소설을 2009년 여름부터 가을까지 썼다. 해지기 전에는 이 소설을 썼고, 해질 무렵엔 남일당 앞에서 시위를 했다."
+        },
+        {
+          "sids": [
+            "00190dc7f84b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "은교와 무재의 느린 대화",
+          "verdict": "confirmed",
+          "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+          "quote": "서로의 말을 반복하는 이들의 대화법, 느린 속도를 비정상이며 세상에 없는 대화법이라고 여기는 독자들이 한국에 더러 있었다."
+        },
+        {
+          "sids": [
+            "732c9424c8da",
+            "e60af6aa4be3"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『디디의 우산』은 연작이다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201901231601013249",
+          "quote": "책은 중편소설 ‘d’와 ‘아무것도 말할 필요가 없다’ 두 편을 엮었다. … 등장인물 하나 겹치지 않는 소설을 연작으로 엮은 건 두 편 모두 2014년 4월 16일 이후 내내 이어진 황작가의 고민들이기 때문이다."
+        },
+        {
+          "sids": [
+            "732c9424c8da"
+          ],
+          "field": "author.importanceReason",
+          "claim": "세월호 참사에서 2016–17년 촛불집회까지를 배경으로 '혁명'을 개인의 일상 쪽에서 다시 물었다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "2014년 세월호참사와 2016~17년 촛불혁명이라는 사회적 격변을 배경에 두고 개인의 일상 속에서 ‘혁명’의 새로운 의미를 탐구한 작품들이다."
+        },
+        {
+          "sids": [
+            "732c9424c8da",
+            "beaef155c874"
+          ],
+          "field": "author.importanceReason",
+          "claim": "본문과 각주에 실재하는 책과 기사를 끌어왔다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "실재하는 여러 책과 애니메이션 등에서 얻은 사유라는 점이다. 본문과 각주를 넘나들며 제시되는바, 다소의 이질감이 외려 눈길을 잡아끄는 이같은 요소는 역시 각주 형태로 제시되는 기사들과 더불어 이 소설의 내용과 형식 면에서 특징적인 점이다."
+        },
+        {
+          "sids": [
+            "a67251ca5910"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『百의 그림자』는 짧은 장편이다(2022년 판 192쪽)",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/106544854",
+          "quote": "쪽수, 무게, 크기 192쪽 | 264g | 128*194*15mm"
+        },
+        {
+          "sids": [
+            "a67251ca5910"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "철거 직전 전자상가와 은교·무재 두 사람이 이야기의 중심이다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3755",
+          "quote": "『百의 그림자』는 은교와 무재의 사랑 이야기이지만, 전자상가라는 삶의 터전에서 얽히고설켜 살아가는 이들의 거대한 옴니버스이기도 하다.",
+          "note": "같은 소개문은 '그럼에도 이 이야기의 큰 줄기는 은교와 무재의 연애담이다'라고도 적는다."
+        },
+        {
+          "sids": [
+            "f085673403a0"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "2022년 창비에서 문장을 다듬은 판본으로 다시 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3755",
+          "quote": "황정은의 첫 장편소설 『百의 그림자』가 새로운 장정과 정제된 문장으로 다시 출간되었다."
+        },
+        {
+          "sids": [
+            "f085673403a0"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "지금 구할 수 있다(2022년 창비판 판매 중)",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/106544854",
+          "quote": "정가 18,000원 판매가 16,200 원 (10% 할인)",
+          "note": "'배경 지식 없이 읽힌다'는 평가라 검증 대상에서 뺐다."
+        },
+        {
+          "sids": [
+            "ad65eedafee5"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「d」는 2010년 단편 「디디의 우산」을 작가 스스로 '부숴 만든' 중편이다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201901231601013249",
+          "quote": "‘d’는 2010년 발표한 단편 ‘디디의 우산’을, 황 작가 표현에 따르자면 “부숴 만든” 소설이다."
+        },
+        {
+          "sids": [
+            "ad65eedafee5"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「d」는 2014년 단편 「웃는 남자」에서 디디가 맞은 죽음 이후를 잇는다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "그러나 2014년작 단편 「웃는 남자」(『아무도 아닌』, 문학동네 2016)에 이르러 디디는 갑작스러운 죽음을 맞는다. 이번 신작 『디디의 우산』에서 이들 이야기를 직접적으로 받아 안은 작품은 「d」이다. ‘dd’의 죽음 이후"
+        },
+        {
+          "sids": [
+            "ad65eedafee5",
+            "7d41807594b1"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「아무것도 말할 필요가 없다」는 1996년 연세대 사태에서 2017년 3월 10일 헌법재판소 선고까지를 되짚는다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "1996년의 연세대, 2008년의 ‘명박산성’, 2009년의 용산, 2014년부터의 애도와 분노의 현장, 이윽고 2016년 겨울 수백만 촛불의 물결에 이르기까지 여러 사건을 직간접적으로 경험한 ‘나’는 이내 2017년 3월 10일 헌법재판소 판결의 순간을"
+        },
+        {
+          "sids": [
+            "ad65eedafee5"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「아무것도 말할 필요가 없다」는 본문과 각주를 오간다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "본문과 각주를 넘나들며 제시되는바"
+        },
+        {
+          "sids": [
+            "292900dfa361"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "정황 설명 없이 간결한 행동과 대화만으로 사건을 전한다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2155",
+          "quote": "소설은 정황에 대한 구구한 설명 없이 간결한 행동 묘사와 생생한 대화만으로, 어쩌면 특별할 것도 없는 사건을 낯설고 강한 여운을 남기는 한 편의 부조리극으로 만들어낸다. 그뿐 아니라 모든 소설이 그렇다."
+        },
+        {
+          "sids": [
+            "e7fde779330b"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『百의 그림자』 인물들은 그림자가 일어서는 일을 익숙한 일처럼 받아들인다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3755",
+          "quote": "이 소설에 나오는 인물들은 모두 그림자가 저절로 일어서는 비현실적인 일에 대해 익숙하다."
+        },
+        {
+          "sids": [
+            "e7fde779330b"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "「모자」에서 아버지가 모자로 변하는 일을 가족이 일상사처럼 대한다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/200806300169047005",
+          "quote": "벽에 박힌 못에 걸려 모자가 되곤 하는 아버지를 염려해 새로 이사한 집의 못을 죄다 뽑으려는 첫째를 셋째가 말린다. “그걸 다 뽑아버리니까 아버지가 아무 데서나 모자가 되잖아. 일전에 냉장고 앞에서 모자가 되는 바람에, 밟아버렸다고.”"
+        },
+        {
+          "sids": [
+            "39d95d5d42cd"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "후기 연작들은 한국 현대사의 사건과 실재하는 책·기사를 본문과 각주로 끌어온다",
+          "verdict": "contradicted",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "실재하는 여러 책과 애니메이션 등에서 얻은 사유라는 점이다. 본문과 각주를 넘나들며 제시되는바, 다소의 이질감이 외려 눈길을 잡아끄는 이같은 요소는 역시 각주 형태로 제시되는 기사들과 더불어 이 소설의 내용과 형식 면에서 특징적인 점이다.",
+          "correction": "『디디의 우산』(특히 「아무것도 말할 필요가 없다」)은 한국 현대사의 사건과 실재하는 책·기사를 본문과 각주로 끌어와 집중 독서를 요구한다.",
+          "note": "본문·각주 인용은 『디디의 우산』 수록작에 대해서만 확인했다. 『연년세세』 창비 소개에는 각주·실재 기사 언급이 없다."
+        },
+        {
+          "sids": [
+            "75b25be696ba"
+          ],
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.facts",
+          "claim": "『일곱시 삼십이분 코끼리열차』 2008년 출간 소설집(fiction)",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "《일곱시 삼십이분 코끼리열차》 (문학동네, 2008년)"
+        },
+        {
+          "sids": [
+            "7ca668a20be9"
+          ],
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+          "claim": "2005년 등단 뒤 낸 첫 소설집",
+          "verdict": "confirmed",
+          "url": "http://www.yes24.com/Product/Goods/2994891",
+          "quote": "2005년 경향신문 신춘문예에 단편소설이 당선되어 작품활동을 시작한 황정은의 첫 소설집 『일곱시 삼십이분 코끼리열차』."
+        },
+        {
+          "sids": [
+            "0742aea7868d"
+          ],
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+          "claim": "「모자」에서 세 남매의 아버지가 불시에 모자로 변하고, 이를 언짢아하는 이웃들 때문에 가족이 자주 이사한다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/200806300169047005",
+          "quote": "수록작 ‘모자’ 속 세 남매의 아버지는 불시에 모자로 변한다. 이런 변신을 언짢아하는 이웃들 때문에 가족은 자주 이사를 다닌다."
+        },
+        {
+          "sids": [
+            "d9c596536a2b"
+          ],
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+          "claim": "사물로 변하는 사람이 등장한다",
+          "verdict": "confirmed",
+          "url": "http://m.segye.com/view/20080627001801",
+          "quote": "소설은 모자로 변신하는 아버지(‘모자’), 오뚝이로 쪼그라드는 은행원(‘오뚝이와 지빠귀’), 재미있는 이야기를 요구하는 애완동물(‘곡도와 살고 있다’) 등 현실성 없는 존재로 넘쳐난다."
+        },
+        {
+          "sids": [
+            "d9c596536a2b"
+          ],
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+          "claim": "말하는 동물이 등장한다",
+          "verdict": "confirmed",
+          "url": "http://www.yes24.com/Product/Goods/2994891",
+          "quote": "사람의 말을 하는 ‘곡도’라는 이상한 애완동물은 오히려 주인을 평가하고 그들의 서비스를 받는다."
+        },
+        {
+          "sids": [
+            "d9c596536a2b"
+          ],
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+          "claim": "환상을 일상 속에 놓았다",
+          "verdict": "confirmed",
+          "url": "http://www.yes24.com/Product/Goods/2994891",
+          "quote": "일상과 맞닿아 있는 황정은만의 환상은, 때문에 실제 세계의 폭력성으로부터 서사의 세계를 방어하는 얇지만 강력한 보호막으로 작용하면서도, 현실의 그것을 날것 그대로 드러내 보인다."
+        },
+        {
+          "sids": [
+            "d9c596536a2b"
+          ],
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+          "claim": "그 자리에 가난하거나 사회에서 고립된 인물을 세웠다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Hwang_Jung-eun",
+          "quote": "The stories from her collection The Seven Thirty-two Elephant Train also depict the marginalized pushed out to the edge of the city lines."
+        },
+        {
+          "sids": [
+            "ac528b7a2cf3"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.facts",
+          "claim": "『百의 그림자』 2010년 장편소설(fiction), 원제 百의 그림자",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "《백(百)의 그림자》 (민음사, 2010년, 창비, 2022년)",
+          "note": "창비 저자 소개의 표기는 『百의 그림자』."
+        },
+        {
+          "sids": [
+            "48b2e87624b1"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "철거를 앞둔 도심 전자상가에서 은교가 수리실 조수로 일한다",
+          "verdict": "confirmed",
+          "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+          "quote": "Working as an assistant at a repair shop in a sprawling, cavernous electronics market, Eungyo finds herself drawn into an idiosyncratic community of Seoul’s twilight periphery."
+        },
+        {
+          "sids": [
+            "48b2e87624b1"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "무재도 수리실 조수로 일한다",
+          "verdict": "contradicted",
+          "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+          "quote": "소설에 등장하는 여씨의 수리실이나 오무사, 무재가 일하는 트랜스 공방을 비롯해 전자상가 주변의 풍경은 그곳에 있었거나 지금도 있는 공간의 묘사이다.",
+          "correction": "철거를 앞둔 도심 전자상가에서 은교는 여씨의 수리실 조수로, 무재는 트랜스 공방에서 일하는 이야기."
+        },
+        {
+          "sids": [
+            "debd82ea646a"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "감당할 수 없는 일을 겪은 사람의 그림자가 일어서는 설정",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3755",
+          "quote": "이 소설에서 사람들은 현실에서 감당해낼 수 없는 일을 겪었을 때 그림자가 분리되는 현상을 겪는다."
+        },
+        {
+          "sids": [
+            "debd82ea646a"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "그 설정으로 재개발(도시)의 폭력을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3755",
+          "quote": "인물 각각이 지닌 그림자의 내력을 살펴보는 것은 도시 공간에서 벌어지는 폭력의 세목을 살펴보는 일이기도 하다."
+        },
+        {
+          "sids": [
+            "debd82ea646a"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "서로의 말을 되받는 두 사람의 느린 대화로 이야기를 끌고 간다",
+          "verdict": "confirmed",
+          "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+          "quote": "Eungyo and Mujae’s conversations. I want to share their speed. In South Korea there are many readers who consider their method of repeating each other’s words, their slow speed, to be abnormal."
+        },
+        {
+          "sids": [
+            "ab23ae9417fd"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "작가는 2009년 용산 참사 뒤 이 소설을 썼다고 밝혔다",
+          "verdict": "confirmed",
+          "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+          "quote": "나는 이 소설을 2009년 여름부터 가을까지 썼다. 해지기 전에는 이 소설을 썼고, 해질 무렵엔 남일당 앞에서 시위를 했다."
+        },
+        {
+          "sids": [
+            "ab23ae9417fd"
+          ],
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "출간한 해(2010)에 한국일보문학상을 받았다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "2010년 한국일보문학상을 수상했다."
+        },
+        {
+          "sids": [
+            "95f0f0643b23"
+          ],
+          "field": "work:hwang-jung-eun--passiui-ipmun.facts",
+          "claim": "『파씨의 입문』 2012년 소설집(fiction)",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2155",
+          "quote": "파씨의 입문 황정은 지음 출간일: 2012.01.20. 정가: 14,000원 분야: 문학 , 소설"
+        },
+        {
+          "sids": [
+            "42cdb8aa51e0"
+          ],
+          "field": "work:hwang-jung-eun--passiui-ipmun.significance",
+          "claim": "아홉 편을 묶은 소설집",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2155",
+          "quote": "그런 9편의 단편이 묶인 이번 소설집 『파씨의 입문』은"
+        },
+        {
+          "sids": [
+            "42cdb8aa51e0"
+          ],
+          "field": "work:hwang-jung-eun--passiui-ipmun.significance",
+          "claim": "두 번째 소설집",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "소설집 《일곱시 삼십이분 코끼리열차》, 《파씨의 입문》, 《아무도 아닌》과 장편소설 《백(百)의 그림자》, 《계속해보겠습니다》가 있다.",
+          "note": "같은 문서 저서 목록: 코끼리열차(2008), 파씨의 입문(2012), 아무도 아닌(2016)."
+        },
+        {
+          "sids": [
+            "1e16b307e813"
+          ],
+          "field": "work:hwang-jung-eun--passiui-ipmun.significance",
+          "claim": "첫 단편 「야행」처럼 정황 설명 없이 간결한 행동 묘사와 대화만으로 평범한 사건을 부조리극으로 만든다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2155",
+          "quote": "한밤에 벌어지는 친지들 간의 갈등을 그린 소설집의 첫 단편 「야행(夜行)」부터 그렇다. 소설은 정황에 대한 구구한 설명 없이 간결한 행동 묘사와 생생한 대화만으로, 어쩌면 특별할 것도 없는 사건을 낯설고 강한 여운을 남기는 한 편의 부조리극으로 만들어낸다."
+        },
+        {
+          "sids": [
+            "daea73614c45"
+          ],
+          "field": "work:hwang-jung-eun--passiui-ipmun.significance",
+          "claim": "2010년 단편 「디디의 우산」이 『파씨의 입문』에 실렸고 훗날 『디디의 우산』으로 다시 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "이야기는 황정은 작가가 2010년 발표한 단편 「디디의 우산」(『파씨의 입문』, 창비 2012)에서 비롯되었다."
+        },
+        {
+          "sids": [
+            "daea73614c45"
+          ],
+          "field": "work:hwang-jung-eun--passiui-ipmun.significance",
+          "claim": "이 책으로 신동엽문학상을 받았다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "2012년 《파씨의 입문》으로 신동엽문학상을 받았다."
+        },
+        {
+          "sids": [
+            "63f5949e28ce"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.facts",
+          "claim": "『계속해보겠습니다』의 연도는 2012년이다",
+          "verdict": "contradicted",
+          "url": "https://www.changbi.com/BookDetail?bookid=2539",
+          "quote": "계속해보겠습니다 황정은 장편소설 출간일: 2014.11.07.",
+          "correction": "『계속해보겠습니다』 · 2014 · fiction (단행본 출간 2014년; 2012년 가을호부터 「소라나나나기」라는 제목으로 연재)",
+          "note": "2012년은 다른 제목으로 연재를 시작한 해다. 연도를 2012로 두려면 기준(연재 시작)을 명시해야 한다."
+        },
+        {
+          "sids": [
+            "63f5949e28ce"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.facts",
+          "claim": "장편소설(fiction)",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2539",
+          "quote": "계속해보겠습니다 황정은 장편소설"
+        },
+        {
+          "sids": [
+            "12bbf2bf3f92"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.significance",
+          "claim": "남편을 작업현장 사고로 잃고 무너진 어머니 애자 곁에서 소라와 나나가 자랐다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2539",
+          "quote": "사랑하는 남편이 작업현장에서 사고로 죽자 “살아가는 데 필요한 온갖 활동을 시시때때로 정지하며 스스로를 망가뜨리고 소라를 망가뜨리고 나나를 망가뜨리”(99면)며, 인생의 본질이 허망한 것이라고 세뇌하듯 이야기하는 어머니 ‘애자’의 곁에서 소라와 나나는 관계와 사랑, 모성에 대한 깊은 회의를 품고 자라난다."
+        },
+        {
+          "sids": [
+            "12bbf2bf3f92"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.significance",
+          "claim": "소라·나나·나기가 장마다 차례로 화자가 된다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2539",
+          "quote": "소라, 나나, 나기 세사람의 목소리가 각 장을 이루며 순차적으로 진행되는 『계속해보겠습니다』는"
+        },
+        {
+          "sids": [
+            "12bbf2bf3f92"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.significance",
+          "claim": "같은 시간과 함께 겪은 과거를 서로 다르게 말한다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2539",
+          "quote": "같은 시간, 한공간에 존재하는 세사람의 서로 다른 감정의 진술을 각각의 온도로 느낄 수 있다. 서로 갈등하는 소라와 나나의 속마음을 보는 것이나, 공유한 과거를 서로 다르게 기억하는 소설적 장치는"
+        },
+        {
+          "sids": [
+            "020dd9d40f59"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.significance",
+          "claim": "2012년 가을호부터 『창작과비평』에 「소라나나나기」로 연재한 뒤 고쳐 냈다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2539",
+          "quote": "『계속해보겠습니다』는 2012년 가을호부터 2013년 여름호까지 ‘소라나나나기’라는 제목으로 계간 『창작과비평』에 연재되었던 작품이다. 연재 종료 후 일년여 동안 심혈을 기울여 개고한 끝에"
+        },
+        {
+          "sids": [
+            "020dd9d40f59"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.significance",
+          "claim": "2014년 단행본으로 냈다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=2539",
+          "quote": "출간일: 2014.11.07."
+        },
+        {
+          "sids": [
+            "020dd9d40f59"
+          ],
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.significance",
+          "claim": "2015년 대산문학상을 받았다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "2015년 《계속해보겠습니다》로 제23회 대산문학상을 수상했다."
+        },
+        {
+          "sids": [
+            "fcdbf15e819c"
+          ],
+          "field": "work:hwang-jung-eun--didiui-usan.facts",
+          "claim": "『디디의 우산』 2019년 소설(fiction)",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "디디의 우산 황정은 소설 출간일: 2019.01.20. 정가: 15,000원 분야: 문학 , 소설"
+        },
+        {
+          "sids": [
+            "e60af6aa4be3"
+          ],
+          "field": "work:hwang-jung-eun--didiui-usan.significance",
+          "claim": "중편 「d」와 「아무것도 말할 필요가 없다」를 묶었다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "인물과 서사는 다르지만 시대상과 주제의식을 공유하며 서로 공명하는 연작 성격의 중편 2편을 묶은 소설집이다."
+        },
+        {
+          "sids": [
+            "7d41807594b1"
+          ],
+          "field": "work:hwang-jung-eun--didiui-usan.significance",
+          "claim": "「d」는 연인 dd를 잃은 d가 세운상가에서 물류 일을 하며 다시 세상으로 나오는 이야기",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201901231601013249",
+          "quote": "연인을 상실하고 죽음과 같은 나날을 보내던 d가 주인공인 ‘d’. 세운상가에서 물류 일을 하면서 d가 ‘여소녀’를 만나고 이내 다시 세상으로 향하는 이야기다."
+        },
+        {
+          "sids": [
+            "7d41807594b1"
+          ],
+          "field": "work:hwang-jung-eun--didiui-usan.significance",
+          "claim": "'혁명'이라는 말을 일상 쪽에서 다시 묻는다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3206",
+          "quote": "개인의 일상 속에서 ‘혁명’의 새로운 의미를 탐구한 작품들이다."
+        },
+        {
+          "sids": [
+            "beaef155c874"
+          ],
+          "field": "work:hwang-jung-eun--didiui-usan.significance",
+          "claim": "『디디의 우산』으로 만해문학상을 받았다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3504",
+          "quote": "연작 『 디디의 우산 』 으로 만해문학상 5 ․ 18문학상 등을 수상하며"
+        },
+        {
+          "sids": [
+            "beaef155c874"
+          ],
+          "field": "work:hwang-jung-eun--didiui-usan.significance",
+          "claim": "만해문학상 수상 연도는 2019년",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%95%EC%9D%80",
+          "quote": "2019년 만해문학상 , 5.18 문학상을 수상했다."
+        },
+        {
+          "sids": [
+            "2cb2fb43e048"
+          ],
+          "field": "work:hwang-jung-eun--yeonnyeonsese.facts",
+          "claim": "『연년세세』 2020년 소설(fiction)",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3504",
+          "quote": "연년세세 年年歲歲 황정은 지음 출간일: 2020.09.18. 정가: 16,000원 분야: 문학 , 소설"
+        },
+        {
+          "sids": [
+            "1ab1347b79a9"
+          ],
+          "field": "work:hwang-jung-eun--yeonnyeonsese.significance",
+          "claim": "1946년생 이순일과 두 딸 한영진·한세진의 이야기를 네 편으로 잇는 연작",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3504",
+          "quote": "『 연년세세 年年歲歲 』 에 실린 소설 네편은 ‘1946년생 순자씨’ 이순일과 그의 두 딸 한영진 한세진의 이야기가 큰 줄기를 이루며 이어진다."
+        },
+        {
+          "sids": [
+            "b5d0f675f64f"
+          ],
+          "field": "work:hwang-jung-eun--yeonnyeonsese.significance",
+          "claim": "어머니 이순일은 어릴 적 '순자'로 불렸고 식모살이를 했다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3504",
+          "quote": "이순일은 어릴 적 ‘순자’로 불렸다. … 하지만 오랜 식모살이에 지친 이순일은 1967년 고모네에서 도망을 나온다."
+        },
+        {
+          "sids": [
+            "b5d0f675f64f"
+          ],
+          "field": "work:hwang-jung-eun--yeonnyeonsese.significance",
+          "claim": "가족의 생계를 떠맡은 장녀의 삶을 따라간다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3504",
+          "quote": "「 하고 싶은 말 」 은 고등학교를 졸업하자마자 취직해 가족의 생계를 책임져온 이순일의 장녀 한영진의 이야기이다."
+        },
+        {
+          "sids": [
+            "c5fdf7fa63bd"
+          ],
+          "field": "work:hwang-jung-eun--yeonnyeonsese.significance",
+          "claim": "작가는 1946년생 순자씨의 피란 이야기를 듣고 「무명」을 썼고, 끊어지는 말하기 방식으로 쓰려던 노력의 일부를 소설에 남겼다고 밝혔다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3504",
+          "quote": "「무명無名」은 1946년생 순자씨의 피란 이야기를 듣고 썼다. 순자씨를 인터뷰하는 과정에서 순자씨와 나는 순자씨의 이야기가 전부 끊어져 있다는 걸 알았다. … 「무명無名」 을 쓰면서 이 소설을 순자씨가 말하는 방식으로 써야 한다고 생각한 시기가 있었다. 그러나 노력에 그쳤고 그 노력의 일부를 소설에 남겨두었다."
+        },
+        {
+          "sids": [
+            "a761e0133132"
+          ],
+          "field": "work:hwang-jung-eun--ilgi.facts",
+          "claim": "『일기』 2021년 에세이(essay-criticism)",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3702",
+          "quote": "일기日記 황정은 에세이 출간일: 2021.10.15. 정가: 14,000원 분야: 문학 , 에세이"
+        },
+        {
+          "sids": [
+            "a761e0133132"
+          ],
+          "field": "work:hwang-jung-eun--ilgi.facts",
+          "claim": "원제 표기는 '일기'다",
+          "verdict": "contradicted",
+          "url": "https://www.changbi.com/authorDetail?authorid=3142",
+          "quote": "연작소설집 『디디의 우산』 『연년세세』, 에세이집 『일기日記』 등이 있다.",
+          "correction": "『일기』(일기日記) · 2021 · essay-criticism"
+        },
+        {
+          "sids": [
+            "3e4da6f1f429"
+          ],
+          "field": "work:hwang-jung-eun--ilgi.significance",
+          "claim": "소설 밖의 글을 드물게 발표해 온 작가의 첫 에세이집",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3702",
+          "quote": "작가는 만해문학상 수상소감(2019년)에서 소설을 쓰기 위해 “메일 답신을 쓰는 데 사용하는 문장도 아껴야 한다”고 밝힌 바 있을 정도로 소설 이외의 글을 발표하는 일이 드물었다.",
+          "note": "같은 소개문 첫머리: '황정은의 첫번째 에세이집이 출간되었다'."
+        },
+        {
+          "sids": [
+            "433c773cc663"
+          ],
+          "field": "work:hwang-jung-eun--ilgi.significance",
+          "claim": "코로나19 거리두기 속 정원의 꽃과 조카의 낙서에서 아동학대 사망사건, 목포항에서 본 세월호까지를 기록했다",
+          "verdict": "confirmed",
+          "url": "https://www.changbi.com/BookDetail?bookid=3702",
+          "quote": "책에는 코로나19 거리두기 생활 속에도 피어나는 정원의 꽃들, 어린 조카가 그리고 간 낙서의 비밀을 탐구하는 작가의 모습 등 일상에서 길어 올린 에피소드부터 아동학대 사망사건, 목포항에서 본 세월호 등 사회에 질문을 던지는 두터운 상념까지"
+        }
+      ],
+      "noClaim": {
+        "fd32db17bb3c": "읽는 순서에 관한 권유라 사실 주장이 없다.",
+        "702f7d098e4c": "독서 경험에 대한 예측·조언이라 출처로 확인할 사실 주장이 없다."
+      }
+    }
+  ]
+}

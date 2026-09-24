@@ -1,0 +1,56 @@
+{
+  "fixes": [
+    {
+      "id": "han-kang",
+      "importanceReason": "한 인물을 그 자신의 목소리 대신 주변 사람들의 시선과 목소리로 조각조각 모아 보이는 서술을 자기 방법으로 삼았다. 『채식주의자』는 고기를 끊은 영혜를 남편·형부·언니 세 사람의 시선으로 보여주고, 『소년이 온다』는 1980년 5월 광주에서 죽은 열다섯 살 동호를 장마다 다른 인물의 기억으로 불러내 2인칭으로 호명하며, 『작별하지 않는다』는 1948년 겨울 제주의 민간인 학살을 두 친구의 애도로 옮긴다. 쓰는 사람의 몸의 감각을 문장에 실어 역사의 폭력을 증언하는 이 작업으로 2024년 대한민국 작가로는 처음 노벨문학상을 받았다.",
+      "readingWarning": "『흰』은 200쪽이 안 되는 짧은 책이라 첫 책으로 고르기 쉽지만, 줄거리 대신 흰 사물에 관한 짧은 글들을 이어 붙인 애도의 책이어서 노벨위원회의 소개처럼 소설보다 '세속의 기도서'에 가깝다. 한강의 장편을 한두 권 읽은 뒤에 펴기를 권한다.",
+      "difficultyReason": "문장은 간결하지만, 인물을 주로 주변 사람들의 시선과 목소리로 모아 보여주고 산 자와 죽은 자, 꿈과 현실 사이를 설명 없이 넘나들어 장면의 관계를 스스로 짜 맞추며 읽어야 한다. 학살과 고문, 몸에 가해지는 폭력을 피하지 않고 그리기 때문에 감정적으로 버티는 힘도 요구한다.",
+      "works": [
+        {
+          "id": "han-kang--chaesikjuuija",
+          "significance": "어느 날 고기를 끊은 영혜를 남편·형부·언니 세 사람의 시선으로 보여주며, 폭력을 거부하다 끝내 식물이 되려는 인물의 침묵을 주변의 반응으로 그린다. 세 편으로 된 연작으로, 가운데 편 「몽고반점」이 2004년 『문학과사회』 가을호에 먼저 실려 2005년 이상문학상을 받았고 한 권의 장편으로는 2007년에 나왔다. 2016년 인터내셔널 부커상 수상작이다."
+        }
+      ],
+      "dropRelations": [
+        "dialogue--han-kang--hwang-jung-eun"
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "『채식주의자』는 고기를 끊은 영혜를 남편·형부·언니 세 사람의 서술로만 보여준다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『흰』은 180쪽 남짓한 짧은 책이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "인물을 주변 사람의 시선이나 2인칭 호명으로만 보여준다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "문장이 평이하다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "work:han-kang--chaesikjuuija.significance",
+          "claim": "세 편이 모두 중편이다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "relation:dialogue--han-kang--hwang-jung-eun.facts",
+          "claim": "두 사람 사이에 쌍방향 교류(dialogue · bidirectional)가 있었다",
+          "resolution": "relation-dropped"
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『흰』의 이미지들은 한강의 장편에서 왔으므로, 장편을 한두 권 읽은 뒤에 펴야 그 출처가 보인다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

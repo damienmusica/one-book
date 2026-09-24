@@ -27,33 +27,6 @@
     ]
   },
   {
-    "id": "influence--jean-jacques-rousseau--annie-ernaux",
-    "sourceId": "jean-jacques-rousseau",
-    "targetId": "annie-ernaux",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.75,
-    "summary": "에르노는 노벨 수상 강연(2022)에서 자기가 계속 '나'라고 써야 했던 이유를 말하며, 1인칭이 18세기 프랑스의 민주적 쟁취였다는 근거로 루소 『고백록』의 첫 서문 — 평민이라도 왕들보다 더 많이, 더 잘 생각했다면 자기 영혼의 이야기가 더 흥미롭다는 대목 — 을 인용했다. 안데르스 올손의 bio-bibliography는 진실을 드러내려는 야심에서 에르노를 루소의 상속자로 부른다.",
-    "evidenceLevel": "documented",
-    "sourceIds": [
-      "src--ernaux-nobel-lecture-2022",
-      "src--nobel-bio-bibliography-ernaux-2022"
-    ]
-  },
-  {
-    "id": "influence--albert-camus--annie-ernaux",
-    "sourceId": "albert-camus",
-    "targetId": "annie-ernaux",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.7,
-    "summary": "에르노는 노벨 수상 강연(2022)에서 학교의 권장보다 우연이 고른 독서 목록에 카뮈의 『이방인』을 넣고, 계급을 건너온 작가가 출신 세계의 언어를 쓰기 어렵다는 딜레마를 말하며 그 언어의 거칢과 침묵의 예로 어머니와 아들의 대면을 그린 카뮈의 산문 「긍정과 부정의 사이」(Entre oui et non, 『안과 겉』 수록)를 '매우 아름다운 글'로 들었다.",
-    "evidenceLevel": "documented",
-    "sourceIds": [
-      "src--ernaux-nobel-lecture-2022"
-    ]
-  },
-  {
     "id": "influence--kim-sowol--baek-seok",
     "sourceId": "kim-sowol",
     "targetId": "baek-seok",
@@ -89,8 +62,8 @@
     "type": "affinity",
     "direction": "bidirectional",
     "weight": 0.55,
-    "summary": "백석은 1941년 만주 신경에서 발표한 「흰 바람벽이 있어」에서 프랑시스 잠과 함께 라이너 마리아 릴케의 이름을 불렀다. 노병춘의 「백석과 릴케와 잠 연구」(『인문논총』 62, 2023)는 두 시인의 자기 고백 시가 가난과 슬픔 속의 높은 정신을 드러내는 구조를 견주고, 이혜원의 「유랑 체험의 심화와 정신적 고양의 도정 ― 릴케와 백석 시의 비교 연구」(『비교한국학』 30권 1호, 2022)는 유랑 체험과 '나무' 이미지를 중심으로 두 시인을 비교한다. 두 연구 모두 영향은 시 속 호명과 당시의 번역 상황(노병춘은 1939·1941년의 일본어 번역, 이혜원은 1930년대 중반 이후 문단의 릴케 번역)에 기댄 추정으로 제시한다.",
-    "evidenceLevel": "scholarly_consensus",
+    "summary": "백석은 1941년 만주 신경에서 발표한 「흰 바람벽이 있어」에서 프랑시스 잠과 함께 라이너 마리아 릴케의 이름을 불렀다. 노병춘의 「백석과 릴케와 잠 연구」(『인문논총』 62, 2023)는 두 시인의 자기 고백 시가 가난과 슬픔 속의 높은 정신을 드러내는 구조를 견주고, 이혜원의 「유랑 체험의 심화와 정신적 고양의 도정 ― 릴케와 백석 시의 비교 연구」(『비교한국학』 30권 1호, 2022)는 유랑 체험과 '나무' 이미지를 중심으로 두 시인을 비교한다. 노병춘은 시 속 호명과 1939·1941년 일본어 번역을 들어 영향을, 이혜원은 1930년대 중반 이후 문단의 릴케 번역과 호명을 들어 백석이 릴케를 알았으리라 추측한다.",
+    "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--no-byeong-chun-baek-seok-rilke-jammes-2023",
       "src--lee-hye-won-rilke-baek-seok-2022"
@@ -151,19 +124,6 @@
     ]
   },
   {
-    "id": "influence--gustave-flaubert--bernard-werber",
-    "sourceId": "gustave-flaubert",
-    "targetId": "bernard-werber",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.7,
-    "summary": "베르베르는 자전 연보의 1982년 항목에서, 매일 아침 『개미』 원고를 고쳐 쓰던 무렵 필립 K. 딕 말고 자신을 감탄시킨 단 한 명의 작가로 플로베르의 『살람보』를 꼽고, 공들여 다듬었으면서도 정말 영화적이라는 점을 이유로 들었다.",
-    "evidenceLevel": "documented",
-    "sourceIds": [
-      "src--werber-biographie-detaillee"
-    ]
-  },
-  {
     "id": "influence--park-wan-suh--cho-nam-joo",
     "sourceId": "park-wan-suh",
     "targetId": "cho-nam-joo",
@@ -191,19 +151,6 @@
       "src--lee-hogyu-1970s-resistance-2006",
       "src--encykorea",
       "src--hwang-sok-yong-101-2015"
-    ]
-  },
-  {
-    "id": "influence--yi-sang--choi-in-hoon",
-    "sourceId": "yi-sang",
-    "targetId": "choi-in-hoon",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.7,
-    "summary": "최인훈은 1960년대 연작 『크리스마스 캐럴』에서 '13인의 아해'·'까마귀'·'날개'라는 표현으로 이상의 「오감도」와 「날개」를 불러냈고, 마지막 장편 『화두』에서는 이상이 작품에 자기 아호를 써넣은 방식을 자기 반성의 형식으로 이어받았다. 이유경의 논문 「최인훈의 이상(李箱) 다시 쓰기」(『한국현대문학연구』 59, 2019)가 최인훈이 이상을 자기 문학적 계보의 맨 앞에 세운 과정으로 이를 추적한다.",
-    "evidenceLevel": "scholarly_consensus",
-    "sourceIds": [
-      "src--lee-yukyung-choi-in-hoon-yi-sang-2019"
     ]
   },
   {
@@ -245,20 +192,6 @@
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--nyt-woodward-mccarthy-1992"
-    ]
-  },
-  {
-    "id": "influence--fyodor-dostoevsky--cormac-mccarthy",
-    "sourceId": "fyodor-dostoevsky",
-    "targetId": "cormac-mccarthy",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.7,
-    "summary": "매카시는 1992년 『뉴욕 타임스 매거진』 인터뷰(리처드 B. 우드워드)에서 삶과 죽음의 문제를 다루지 않는 작가를 빼고 '좋은 작가'로 멜빌·포크너와 함께 도스토옙스키를 꼽았으며, 같은 기준으로 프루스트와 헨리 제임스는 '문학이 아니다'라고 했다. 이 발언은 2023년 『뉴욕 타임스』 부고에 다시 인용되었다.",
-    "evidenceLevel": "documented",
-    "sourceIds": [
-      "src--nyt-woodward-mccarthy-1992",
-      "src--nyt-mccarthy-obituary-2023"
     ]
   },
   {
@@ -385,20 +318,6 @@
     ]
   },
   {
-    "id": "dialogue--han-kang--hwang-jung-eun",
-    "sourceId": "han-kang",
-    "targetId": "hwang-jung-eun",
-    "type": "dialogue",
-    "direction": "bidirectional",
-    "weight": 0.7,
-    "summary": "한강은 틸티드 액시스 출판사가 2016년 10월 낸 『百의 그림자』 영역본 『One Hundred Shadows』(정예원 옮김)에 서문을 써, 은교와 무재의 사랑을 두 사람을 둘러싼 세계의 폭력에 맞서는 거의 윤리적인 힘으로 읽었다. 한쪽이 다른 쪽의 책을 소개한 기록이며, 황정은이 한강에 대해 쓴 글은 여기 걸지 않는다.",
-    "evidenceLevel": "documented",
-    "sourceIds": [
-      "src--one-hundred-shadows-tilted-axis-2016",
-      "src--asymptote-hwang-jungeun-2016"
-    ]
-  },
-  {
     "id": "dialogue--kenzaburo-oe--hwang-sok-yong",
     "sourceId": "kenzaburo-oe",
     "targetId": "hwang-sok-yong",
@@ -500,27 +419,13 @@
     ]
   },
   {
-    "id": "influence--ernest-hemingway--jeong-you-jeong",
-    "sourceId": "ernest-hemingway",
-    "targetId": "jeong-you-jeong",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.7,
-    "summary": "정유정은 『국민일보』 인터뷰(2011년 3월 18일)에서 헤밍웨이를 디킨스·스티븐 킹과 함께 정말 좋아하는 작가로 꼽았고, 2017년 산문 「I Dream of Fire, Always」(『Korean Literature Now』)에서 헤밍웨이가 여러 구조와 소재로 ‘죽음과 마주한 사람들’을 그렸다며 한 작가가 평생 붙드는 주제의 예로 들었다. 자신의 주제는 ‘우리 안의 야수’라고 밝혔다.",
-    "evidenceLevel": "documented",
-    "sourceIds": [
-      "src--kmib-jeong-you-jeong-2011",
-      "src--kln-jeong-you-jeong-i-dream-of-fire-2017"
-    ]
-  },
-  {
     "id": "translation--ovid--jhumpa-lahiri",
     "sourceId": "ovid",
     "targetId": "jhumpa-lahiri",
     "type": "translation",
     "direction": "directed",
     "weight": 0.8,
-    "summary": "라히리는 산문집 『나와 타인을 번역한다는 것』(2022)의 서문에서, 책을 닫는 후기 「변신을 번역한다는 것」이 프린스턴 고전학과 동료 옐레나 바라즈와 함께 오비디우스의 『변신 이야기』를 라틴어에서 영어로 공역하는 작업을 다룬다고 밝히고, 번역의 세계에서 이 시는 자신에게 태양이라고 썼다. 같은 책의 「에코 예찬」은 에코와 나르키소스 신화로 쓰기와 번역의 차이를 읽는다.",
+    "summary": "라히리는 산문집 『나와 타인을 번역한다는 것』(2022)의 서문에서, 책을 닫는 후기 「변신을 번역한다는 것」이 프린스턴 고전학과 동료 옐레나 바라즈와 함께 오비디우스의 『변신 이야기』를 라틴어에서 영어로 공역하는 작업을 다룬다고 밝히고, 번역의 세계에서 이 시는 자신에게 태양이라고 썼다. 같은 책은 오비디우스의 에코와 나르키소스 신화로 쓰기와 번역의 차이를 읽는다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--lahiri-translating-myself-and-others-2022"
@@ -689,7 +594,7 @@
     "direction": "bidirectional",
     "weight": 0.5,
     "summary": "비교문학 연구자 오노 마사코의 연구서 『母恋い—メディアと、村上春樹・東野圭吾にみる〝母性〞』(2021)는 제2부에서 두 작가의 소설을 나란히 읽어, 무라카미에게서는 ‘잃어버린 모성’을, 히가시노에게서는 ‘그리움의 대상이 되는 모성’을 짚는다. 『백야행』과 『환야』를 다룬 장에서는 살인과 자기희생의 동기 밑에 부모와 유년에 대한 향수, 특히 어머니를 그리는 마음이 있다고 보며, 이 책에 대한 나카무라 미하루의 서평이 일본비교문학회 학회지 『比較文学』 66권(2024)에 실렸다.",
-    "evidenceLevel": "scholarly_consensus",
+    "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--ohno-hahakoi-2021",
       "src--nakamura-review-hahakoi-2024"
@@ -702,7 +607,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.85,
-    "summary": "김애란은 2007년 YES24 기고문 「잊을 수 없는 소설 속 그 인물」에서 조세희 연작 『난장이가 쏘아올린 작은 공』 중 「칼날」의 신애를 잊을 수 없는 인물로 꼽았고, 산문집 『잊기 좋은 이름』(2019)의 표제 산문에서 그 글을 다시 인용했다. 단편 「좋은 이웃」(2021)에서는 주인공 부부가 버리는 책으로 『난장이가 쏘아올린 작은 공』을 골라 그 한 대목을 소설 말미에 넣었고, 2025년 경향신문·채널예스 인터뷰에서 집과 계층을 써 온 선배 세대의 역사를 의식하며 한 세대가 사랑한 작품 가운데 이 책을 택했다고 밝혔다.",
+    "summary": "김애란은 2007년 YES24 기고문 「잊을 수 없는 소설 속 그 인물」에서 조세희 연작 『난장이가 쏘아올린 작은 공』 중 「칼날」의 신애를 잊을 수 없는 인물로 꼽았고, 산문집 『잊기 좋은 이름』(2019) 표제 산문에서 그 대목을 다시 인용했다. 단편 「좋은 이웃」(2021)에서는 주인공 부부가 버리는 책으로 『난장이가 쏘아올린 작은 공』을 골라 그 한 대목을 소설 말미에 넣었고, 2025년 경향신문·채널예스 인터뷰에서 집과 계층을 써 온 선배 세대의 역사를 의식하며 한 세대가 사랑한 작품 가운데 이 책을 택했다고 밝혔다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--kim-ae-ran-sinae-essay-2007",
@@ -745,8 +650,8 @@
     "type": "affinity",
     "direction": "bidirectional",
     "weight": 0.5,
-    "summary": "불문학자 이찬규는 KCI 등재 논문 「알베르 카뮈와 김훈: 재난의 장소에 대하여」(『한국프랑스학논집』 91, 2015)에서 카뮈의 『페스트』와 김훈의 『남한산성』을 전염병과 전쟁이라는 재난에 갇힌 두 장소로 나란히 읽고, 두 소설이 영웅주의에 맞서 이념보다 몸의 고통과 구체적 삶의 편에 선다고 분석했다. 2017년 한국프랑스문화학회 발표 「김훈의 『남한산성』과 카뮈의 『페스트』」에서 이 비교를 다시 다뤘다. 두 작가 사이의 직접 교류를 말하는 관계는 아니다.",
-    "evidenceLevel": "scholarly_consensus",
+    "summary": "불문학자 이찬규는 KCI 등재 논문 「알베르 카뮈와 김훈: 재난의 장소에 대하여」(『한국프랑스학논집』 91, 2015)에서 카뮈의 『페스트』와 김훈의 『남한산성』을 전염병과 전쟁이라는 재난에 갇힌 두 장소로 나란히 읽고, 두 소설이 영웅주의와 위계에 맞서 몸의 고통과 구체적 삶의 편에 선다고 분석했다. 2017년 한국프랑스문화학회 발표 「김훈의 『남한산성』과 카뮈의 『페스트』」에서 이 비교를 다시 다뤘다. 두 작가 사이의 직접 교류를 말하는 관계는 아니다.",
+    "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--lee-chan-kyu-camus-kim-hoon-2015",
       "src--lee-chan-kyu-namhansanseong-la-peste-2017"
@@ -760,7 +665,7 @@
     "direction": "bidirectional",
     "weight": 0.5,
     "summary": "이경재의 KCI 등재 논문 「한국현대노년소설과 말년성」(『현대소설연구』 79, 2020)은 황석영의 『해질 무렵』(2015)과 김훈의 『공터에서』(2017)를 한국 노년소설의 말년성이라는 틀로 함께 읽는다. 앞의 소설에서는 거대한 파국으로서의 말년성을, 뒤의 소설에서는 생물학적 차원에서 그려진 말년성을 읽어 내 두 작가의 늦은 장편을 짝지었다.",
-    "evidenceLevel": "scholarly_consensus",
+    "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--lee-kyung-jae-lateness-hwang-kim-2020"
     ]
@@ -831,7 +736,7 @@
     "direction": "directed",
     "weight": 0.6,
     "summary": "한국 현대시 연구는 이상에서 김수영으로 이어지는 영향 관계를 따로 다뤄 왔다. 조강석의 「이상의 두 갈래 시적 영향 관계에 대한 소고(1): 김수영의 경우」(『한국현대문학연구』 32, 2010)는 두 시인이 일상을 적극적으로 시화하고 거침없는 병렬적 진술을 쓰며 서구적 근대와의 속도차라는 같은 문제의식을 붙들었다고 보고, 신형철의 「이상(李箱)의 시와 초현실주의 시론이 김수영의 후기 시론에 미친 영향」(『한국시학연구』 50, 2017)은 김수영의 산문 「참여시의 정리」(1967)를 중심으로 그 영향을 추적한다.",
-    "evidenceLevel": "scholarly_consensus",
+    "evidenceLevel": "documented",
     "sourceIds": [
       "src--cho-kang-sok-yi-sang-kim-soo-young-2010",
       "src--shin-hyoung-cheol-yi-sang-kim-soo-young-2017"
@@ -872,7 +777,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.85,
-    "summary": "김연수는 장편 『꾿빠이, 이상』(2001)에서 이상의 데드마스크와 「오감도 시 제16호」의 진위를 추적했다. 2016년 개정판 책 소개는 그가 필명의 ‘연(衍)’을 이상의 유고소설 「단발」 남자 주인공 이름에서 따왔다고 밝히고, 김연수는 한겨레 칼럼 「소녀잡지 속 박제가 된 천재를 아시오?」에서 이 소설이 아니었다면 소설가가 아닌 다른 일을 하고 있었을 것이라고 썼다.",
+    "summary": "김연수는 『꾿빠이, 이상』(2001)에서 이상의 데드마스크와 「오감도 시 제16호」의 진위를 추적했다. 2016년 개정판 책 소개는 그가 필명의 ‘연(衍)’을 이상의 유고소설 「단발」 남자 주인공 이름에서 따왔다고 밝히고, 김연수는 한겨레 칼럼 「소녀잡지 속 박제가 된 천재를 아시오?」에서 『꾿빠이, 이상』이 아니었다면 소설가가 아닌 다른 일을 하고 있었으리라고 썼다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--kim-yeon-su-kkutppai-isang-2001",
@@ -886,7 +791,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.6,
-    "summary": "김연수는 대학 시절 해금된 백석의 시를 처음 읽고 1990년대 후반부터 그의 삶을 소설로 구상해 『일곱 해의 마지막』(2020)을 냈다. 출간 인터뷰에서는 시대가 바뀌어도 소설가가 변하지 않아도 된다는 이야기를 백석에게 들은 것 같다고 말했다.",
+    "summary": "김연수는 대학 시절 해금된 백석의 시를 처음 읽고 1990년대 후반부터 그의 삶을 소설로 구상해 『일곱 해의 마지막』(2020)을 냈다. 출간 인터뷰에서 이 소설을 쓰고 시대가 바뀌어도 소설가가 변할 필요는 없다는 확신을 다시 얻었다고 말했다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--upinews-kim-yeon-su-2020-07-03",
@@ -914,7 +819,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.7,
-    "summary": "김영하는 강연 산문 『읽다』(2015)에서 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’을 발견했다고 썼다. 앞서 『살인자의 기억법』(2013)의 화자는 자신이 오이디푸스와 정반대 방향으로, 파멸에서 망각을 거쳐 무지로 간다고 스스로를 규정한다.",
+    "summary": "김영하는 강연 산문 『읽다』(2015)에서 『오디세이아』와 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’과 자만을 발견했다고 썼다. 『살인자의 기억법』(2013)의 화자는 자신이 오이디푸스와 정반대로 파멸에서 망각을 거쳐 무지로 간다고 말한다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--kim-young-ha-ikda-2015",
@@ -1081,7 +986,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.8,
-    "summary": "코엘료는 2008년 자기 블로그의 독자 문답에서 보르헤스를 ‘끊임없는 영감의 원천’이라 부르며 『오 자히르』의 ‘자히르’를 보르헤스 단편에서 찾았다고 밝혔고, 2010년 블로그 글 「My new book」에서는 보르헤스 단편 「알레프」를 들어 새 소설 제목을 『알레프』로 정했다고 썼다. 다만 2011년 『뉴욕 타임스』 인터뷰에서는 보르헤스를 ‘나의 아이콘’이라 부르면서도 영향을 준 것은 그 사람이 아니라 알레프라는 개념이라고 말했다.",
+    "summary": "코엘료는 2008년 자기 블로그의 독자 문답에서 보르헤스를 ‘끊임없는 영감의 원천’이라 부르며 『오 자히르』의 ‘자히르’를 보르헤스 단편에서 찾았다고 밝혔고, 2010년 블로그 글 「My new book」에서는 시공이 모이는 점 ‘알레프’를 소설 제목으로 삼고 보르헤스 단편을 언급했다. 다만 2011년 『뉴욕 타임스』 인터뷰에서는 보르헤스를 ‘나의 아이콘’이라 부르면서도 영향을 준 것은 그 사람이 아니라 알레프라는 개념이라고 말했다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--coelho-blog-borges-2008",
@@ -1139,27 +1044,13 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.85,
-    "summary": "염상섭은 평론 「지상선(至上善)을 위하여」(『신생활』 1922. 7.)에서 입센 『인형의 집』의 노라를 해방을 향해 돌진하는 정의로운 반역자로 높이 평가하며 자아 각성의 표상으로 삼았다. 같은 해 『개벽』에 발표한 「제야」는 『인형의 집』과 『바다에서 온 여인』을 겹쳐 받아들였다는 분석(등천, 『국제어문』 68, 2016)이 있고, 최인숙(『한국학연구』 25, 2011)은 「제야」·『사랑과 죄』 등에 되풀이되는 노라를 추적했다.",
+    "summary": "염상섭은 입센 『인형의 집』의 노라를 해방을 향해 돌진하는 정의로운 반역자로 높이 평가했고 평론 「지상선(至上善)을 위하여」(『신생활』 1922. 7.)에서 자아 각성의 표상으로 삼았다. 같은 해 『개벽』에 발표한 「제야」는 『인형의 집』과 『바다에서 온 여인』을 겹쳐 받아들였다는 분석(등천, 『국제어문』 68, 2016)이 있고, 최인숙(『한국학연구』 25, 2011)은 「제야」·『사랑과 죄』 등에 되풀이되는 노라를 추적했다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--yeom-jisangseon-1922",
       "src--deng-qian-2016-yeom-ibsen",
       "src--choi-in-suk-2011-yeom-nora",
       "src--choi-won-sik-2025-yeoseong-munhak"
-    ]
-  },
-  {
-    "id": "influence--natsume-soseki--yeom-sang-seop",
-    "sourceId": "natsume-soseki",
-    "targetId": "yeom-sang-seop",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.55,
-    "summary": "권혁건(「나쓰메 소세키와 염상섭의 유학체험과 소설의 형상화 비교 고찰」, 『일본학보』 99, 2014)은 일본에서 중학과 대학 예과를 다닌 염상섭이 나쓰메 소세키·다카야마 조규·시가 나오야·아리시마 다케오 등 일본 근대작가에게서 수법상 영향을 받았다고 보았고, 김경수(「염상섭과 루쉰」, 『서강인문논총』 55, 2019)도 염상섭이 소세키의 영향 아래 소설을 썼다고 정리한다. 이 영향은 염상섭 자신의 발언이 아니라 연구자들의 비교 판단으로 기록한다.",
-    "evidenceLevel": "scholarly_consensus",
-    "sourceIds": [
-      "src--kwon-hyeok-geon-2014-soseki-yeom",
-      "src--kim-kyoung-soo-2019-yeom-lu-xun"
     ]
   },
   {

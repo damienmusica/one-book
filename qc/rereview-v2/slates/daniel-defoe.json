@@ -1,0 +1,570 @@
+{
+  "id": "daniel-defoe",
+  "page": "https://literary-planet.pages.dev/authors/daniel-defoe/",
+  "author": {
+    "names": {
+      "ko": "대니얼 디포",
+      "original": "Daniel Defoe",
+      "aliases": []
+    },
+    "birthYear": 1660,
+    "deathYear": 1731,
+    "activeRange": [
+      1701,
+      1731
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "허구를 실제 회고록처럼 보이게 하는 자잘한 사실의 축적을 소설의 방법으로 삼아, 무인도의 생존과 런던의 역병을 겪은 사람이 직접 남긴 기록처럼 써 냈다. 날짜와 물품 목록, 금액과 교구별 사망자 통계표를 서술에 박아 넣고 화자에게는 편집자의 겸양을 부여함으로써, 산문 허구가 증언의 외형을 빌리는 방식을 확립했다. 도둑과 정부(情婦)의 일인칭 회고를 참회록의 형식에 담은 『몰 플랜더스』와 『록사나』는 영국 소설이 다룰 인물의 범위를 상인·범죄자·하층민까지 넓혔다.",
+    "readingEntry": "daniel-defoe--robinson-crusoe",
+    "readingEntryReason": "사건이 시간순으로 이어지고 화자가 하나여서 디포의 방법 — 날짜·물품·계산의 축적 — 이 가장 또렷하게 보인다.",
+    "readingOrder": [
+      "daniel-defoe--robinson-crusoe",
+      "daniel-defoe--moll-flanders",
+      "daniel-defoe--a-journal-of-the-plague-year",
+      "daniel-defoe--roxana"
+    ],
+    "readingWarning": "축약된 아동용 『로빈슨 크루소』로 시작하면 디포의 방법 자체가 사라진다. 원본에는 물품 목록과 회계, 종교적 자기 심문이 큰 비중을 차지하며, 그것이 이 소설의 내용이다.",
+    "difficulty": 3,
+    "difficultyReason": "단락이 길고 한 문장이 여러 절로 이어지는 18세기 산문이라 속도가 붙지 않는다. 사건보다 목록과 계산이 서술의 중심이어서, 근대 소설의 플롯을 기대하면 중반에 지루해진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  "works": [
+    {
+      "id": "daniel-defoe--roxana",
+      "titleKo": "록사나",
+      "titleOriginal": "Roxana: The Fortunate Mistress",
+      "year": 1724,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "정부(情婦)로 부를 쌓은 여자가 자신을 알아본 딸의 추적을 받는 후기작. 참회가 끝내 완결되지 않는 결말로 『몰 플랜더스』보다 어두운 지점에 도달한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "daniel-defoe--the-shortest-way-with-the-dissenters",
+      "titleKo": "비국교도를 다루는 가장 빠른 길",
+      "titleOriginal": "The Shortest Way with the Dissenters",
+      "year": 1702,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "비국교도 박해론을 극단까지 밀어붙이는 척한 익명 팸플릿. 반어가 통하지 않아 디포는 체포되어 형틀에 세워졌고, 이 사건이 그의 산문가 이력을 결정했다.",
+      "sourceIds": []
+    },
+    {
+      "id": "daniel-defoe--a-journal-of-the-plague-year",
+      "titleKo": "전염병 연대기",
+      "titleOriginal": "A Journal of the Plague Year",
+      "year": 1722,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "1665년 런던 대역병을 겪은 마구상(saddler)의 수기 형식으로 쓴 허구. 교구별 사망자 통계표와 소문, 목격담을 뒤섞어 기록의 외형을 완성했다 — 디포 자신은 그해 다섯 살이었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "daniel-defoe--moll-flanders",
+      "titleKo": "몰 플랜더스",
+      "titleOriginal": "Moll Flanders",
+      "year": 1722,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "도둑질과 결혼을 오가며 살아남은 여자의 일인칭 회고. 범죄의 손익 계산을 참회록의 형식에 담아, 도덕적 결말과 서술의 즐거움이 어긋나는 구조를 만들었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "daniel-defoe--robinson-crusoe",
+      "titleKo": "로빈슨 크루소",
+      "titleOriginal": "Robinson Crusoe",
+      "year": 1719,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "난파한 상인이 28년간 섬에서 살아남는 과정을 날짜와 물품 목록으로 기록한 일인칭 서사. 생존의 기술, 손익 계산, 종교적 자기 심문이 하나의 문체로 이어진다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--daniel-defoe--jm-coetzee",
+      "type": "documented_influence",
+      "from": "daniel-defoe (대니얼 디포)",
+      "to": "jm-coetzee (J. M. 쿳시)",
+      "evidenceLevel": "documented",
+      "summary": "쿳시는 노벨문학상 수상 강연 「그와 그의 사람」(He and His Man, 2003)을 로빈슨 크루소와 디포의 관계에 대한 허구로 썼고, 그에 앞서 장편 『포』(Foe, 1986)에서 크루소 이야기를 다시 썼다.",
+      "sourceIds": [
+        "src--nobelprize"
+      ]
+    },
+    {
+      "id": "influence--daniel-defoe--virginia-woolf",
+      "type": "documented_influence",
+      "from": "daniel-defoe (대니얼 디포)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "documented",
+      "summary": "울프는 『보통 독자』(1925)에 실은 에세이 「디포」에서 『몰 플랜더스』와 『록사나』를 영국 소설의 위대한 작품으로 꼽고, 사실에 의존한다는 디포 자신의 주장을 두고 그가 목표로 삼은 '사실의 진실'보다 '통찰의 진실'에 이르렀다고 논했다.",
+      "sourceIds": [
+        "src--woolf-common-reader-1925"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--jonathan-swift--daniel-defoe (→ jonathan-swift 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "f052b74bbc5f",
+      "where": "author.facts",
+      "text": "대니얼 디포(Daniel Defoe) · 1660–1731 · en · britain-ireland"
+    },
+    {
+      "sid": "32729c1081cd",
+      "where": "author.importanceReason",
+      "text": "허구를 실제 회고록처럼 보이게 하는 자잘한 사실의 축적을 소설의 방법으로 삼아, 무인도의 생존과 런던의 역병을 겪은 사람이 직접 남긴 기록처럼 써 냈다."
+    },
+    {
+      "sid": "823e92efda9f",
+      "where": "author.importanceReason",
+      "text": "날짜와 물품 목록, 금액과 교구별 사망자 통계표를 서술에 박아 넣고 화자에게는 편집자의 겸양을 부여함으로써, 산문 허구가 증언의 외형을 빌리는 방식을 확립했다."
+    },
+    {
+      "sid": "1e76cd421dd9",
+      "where": "author.importanceReason",
+      "text": "도둑과 정부(情婦)의 일인칭 회고를 참회록의 형식에 담은 『몰 플랜더스』와 『록사나』는 영국 소설이 다룰 인물의 범위를 상인·범죄자·하층민까지 넓혔다."
+    },
+    {
+      "sid": "bcfe4085be5d",
+      "where": "author.readingEntryReason",
+      "text": "사건이 시간순으로 이어지고 화자가 하나여서 디포의 방법 — 날짜·물품·계산의 축적 — 이 가장 또렷하게 보인다."
+    },
+    {
+      "sid": "55c2ae0717fd",
+      "where": "author.readingWarning",
+      "text": "축약된 아동용 『로빈슨 크루소』로 시작하면 디포의 방법 자체가 사라진다."
+    },
+    {
+      "sid": "22c6f6da5292",
+      "where": "author.readingWarning",
+      "text": "원본에는 물품 목록과 회계, 종교적 자기 심문이 큰 비중을 차지하며, 그것이 이 소설의 내용이다."
+    },
+    {
+      "sid": "7e0014e93a4f",
+      "where": "author.difficultyReason",
+      "text": "단락이 길고 한 문장이 여러 절로 이어지는 18세기 산문이라 속도가 붙지 않는다."
+    },
+    {
+      "sid": "73caaacb6f28",
+      "where": "author.difficultyReason",
+      "text": "사건보다 목록과 계산이 서술의 중심이어서, 근대 소설의 플롯을 기대하면 중반에 지루해진다."
+    },
+    {
+      "sid": "eb50d87bffac",
+      "where": "work:daniel-defoe--roxana.facts",
+      "text": "『록사나』(Roxana: The Fortunate Mistress) · 1724 first-print · fiction"
+    },
+    {
+      "sid": "078a21f853e0",
+      "where": "work:daniel-defoe--roxana.significance",
+      "text": "정부(情婦)로 부를 쌓은 여자가 자신을 알아본 딸의 추적을 받는 후기작."
+    },
+    {
+      "sid": "42827e023eda",
+      "where": "work:daniel-defoe--roxana.significance",
+      "text": "참회가 끝내 완결되지 않는 결말로 『몰 플랜더스』보다 어두운 지점에 도달한다."
+    },
+    {
+      "sid": "cf042081dad8",
+      "where": "work:daniel-defoe--the-shortest-way-with-the-dissenters.facts",
+      "text": "『비국교도를 다루는 가장 빠른 길』(The Shortest Way with the Dissenters) · 1702 first-print · essay-criticism"
+    },
+    {
+      "sid": "d4ac8255ed80",
+      "where": "work:daniel-defoe--the-shortest-way-with-the-dissenters.significance",
+      "text": "비국교도 박해론을 극단까지 밀어붙이는 척한 익명 팸플릿."
+    },
+    {
+      "sid": "d85e7bf2e94c",
+      "where": "work:daniel-defoe--the-shortest-way-with-the-dissenters.significance",
+      "text": "반어가 통하지 않아 디포는 체포되어 형틀에 세워졌고, 이 사건이 그의 산문가 이력을 결정했다."
+    },
+    {
+      "sid": "cb83dbef448f",
+      "where": "work:daniel-defoe--a-journal-of-the-plague-year.facts",
+      "text": "『전염병 연대기』(A Journal of the Plague Year) · 1722 first-print · fiction"
+    },
+    {
+      "sid": "5b0c69f3a158",
+      "where": "work:daniel-defoe--a-journal-of-the-plague-year.significance",
+      "text": "1665년 런던 대역병을 겪은 마구상(saddler)의 수기 형식으로 쓴 허구."
+    },
+    {
+      "sid": "7e252b4616f8",
+      "where": "work:daniel-defoe--a-journal-of-the-plague-year.significance",
+      "text": "교구별 사망자 통계표와 소문, 목격담을 뒤섞어 기록의 외형을 완성했다 — 디포 자신은 그해 다섯 살이었다."
+    },
+    {
+      "sid": "7934d17cc5fb",
+      "where": "work:daniel-defoe--moll-flanders.facts",
+      "text": "『몰 플랜더스』(Moll Flanders) · 1722 first-print · fiction"
+    },
+    {
+      "sid": "c8f08aabb9e5",
+      "where": "work:daniel-defoe--moll-flanders.significance",
+      "text": "도둑질과 결혼을 오가며 살아남은 여자의 일인칭 회고."
+    },
+    {
+      "sid": "85c3ed2092b4",
+      "where": "work:daniel-defoe--moll-flanders.significance",
+      "text": "범죄의 손익 계산을 참회록의 형식에 담아, 도덕적 결말과 서술의 즐거움이 어긋나는 구조를 만들었다."
+    },
+    {
+      "sid": "356f7bbade36",
+      "where": "work:daniel-defoe--robinson-crusoe.facts",
+      "text": "『로빈슨 크루소』(Robinson Crusoe) · 1719 first-print · fiction"
+    },
+    {
+      "sid": "9613b014e9df",
+      "where": "work:daniel-defoe--robinson-crusoe.significance",
+      "text": "난파한 상인이 28년간 섬에서 살아남는 과정을 날짜와 물품 목록으로 기록한 일인칭 서사."
+    },
+    {
+      "sid": "f4cfc8192eb5",
+      "where": "work:daniel-defoe--robinson-crusoe.significance",
+      "text": "생존의 기술, 손익 계산, 종교적 자기 심문이 하나의 문체로 이어진다."
+    },
+    {
+      "sid": "6e7a2c0bfd1b",
+      "where": "relation:influence--daniel-defoe--jm-coetzee.facts",
+      "text": "대니얼 디포 → J. M. 쿳시 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "b78df2e7f984",
+      "where": "relation:influence--daniel-defoe--jm-coetzee.summary",
+      "text": "쿳시는 노벨문학상 수상 강연 「그와 그의 사람」(He and His Man, 2003)을 로빈슨 크루소와 디포의 관계에 대한 허구로 썼고, 그에 앞서 장편 『포』(Foe, 1986)에서 크루소 이야기를 다시 썼다."
+    },
+    {
+      "sid": "217e3497ca76",
+      "where": "relation:influence--daniel-defoe--virginia-woolf.facts",
+      "text": "대니얼 디포 → 버지니아 울프 · documented_influence · directed · documented"
+    },
+    {
+      "sid": "c25fa94c4a7d",
+      "where": "relation:influence--daniel-defoe--virginia-woolf.summary",
+      "text": "울프는 『보통 독자』(1925)에 실은 에세이 「디포」에서 『몰 플랜더스』와 『록사나』를 영국 소설의 위대한 작품으로 꼽고, 사실에 의존한다는 디포 자신의 주장을 두고 그가 목표로 삼은 '사실의 진실'보다 '통찰의 진실'에 이르렀다고 논했다."
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "name",
+      "claim": "대니얼 디포의 생몰 연도는 1660–1731이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Defoe",
+      "quote": "c. 1660 – 24 April 1731"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "디포는 날짜와 물품 목록, 금액을 서술에 박아 넣었다 — 『로빈슨 크루소』는 날짜가 붙은 일지와 난파선에서 건진 물품 목록을 담는다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/521/pg521.txt",
+      "quote": "September 30, 1659.—I, poor miserable Robinson Crusoe, being shipwrecked during a dreadful storm... came on shore on this dismal, unfortunate island"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "디포는 교구별 사망자 통계표를 서술에 박아 넣었다 (『전염병 연대기』)",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/376/pg376.txt",
+      "quote": "From December 27 to January 3 { St Giles's 16",
+      "note": "본문에 St Giles-in-the-Fields·St Andrew's Holborn 등 교구별 매장자 수 표가 반복해 실린다"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "디포는 화자에게 편집자의 겸양을 부여했다 — 『몰 플랜더스』 서문은 편집자가 원본을 '더 정숙한 말로' 옮겼다고 밝힌다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/370/pg370.txt",
+      "quote": "she is made to tell her own tale in modester words that she told it at first"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『몰 플랜더스』와 『록사나』는 도둑과 정부(情婦)의 일인칭 회고를 참회록의 형식에 담았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Moll_Flanders",
+      "quote": "Twelve Year a Whore, five times a Wife... Twelve Year a Thief... at last grew Rich, liv'd Honest, and died a Penitent"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "디포의 소설은 18세기 산문이다",
+      "verdict": "confirmed",
+      "url": "https://www.britannica.com/biography/Daniel-Defoe",
+      "quote": "the remarkable year 1722, which saw the publication of Moll Flanders, A Journal of the Plague Year, and Colonel Jack",
+      "note": "1719–1724년 작 — 18세기 초"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『로빈슨 크루소』는 사건이 시간순으로 이어지고 화자가 하나인 일인칭 서사다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/521/pg521.txt",
+      "quote": "I began to keep my journal; of which I shall here give you the copy... as long as it lasted"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "축약된 아동용 『로빈슨 크루소』 판본이 존재한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+      "quote": "more than 700 such alternative versions, including children's versions with pictures and no text"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "원본의 절반은 물품 목록과 회계, 종교적 자기 심문이다",
+      "verdict": "unverifiable",
+      "url": "https://www.gutenberg.org/cache/epub/521/pg521.txt",
+      "correction": "원본에는 물품 목록과 회계, 종교적 자기 심문이 큰 비중을 차지하며 그것이 이 소설의 내용이다",
+      "note": "absent: '절반'이라는 분량 비율을 명시한 판본·연구를 찾지 못했다. 물품 목록·손익 대차 계산·종교적 자기 심문이 본문에 실재한다는 좁은 형태만 확인됨",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[roxana].year",
+      "claim": "『록사나』는 1724년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roxana_(novel)",
+      "quote": "Published in 1724 by Daniel Defoe"
+    },
+    {
+      "field": "works[roxana].titleOriginal",
+      "claim": "원제는 Roxana: The Fortunate Mistress이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roxana_(novel)",
+      "quote": "The Fortunate Mistress: Or, A History of the Life and Vast Variety of Fortunes of Mademoiselle de Beleau",
+      "note": "1724년 표제지는 The Fortunate Mistress이고 Roxana는 통용 표제 — 병기 형태는 관례에 맞다"
+    },
+    {
+      "field": "works[roxana].significance",
+      "claim": "정부(情婦)로 부를 쌓은 여자가 자신을 알아본 딸(수전)의 추적을 받는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roxana_(novel)",
+      "quote": "Her oldest daughter Susan reappears later, seeking recognition... Roxana feels threatened by this reunion"
+    },
+    {
+      "field": "works[roxana].significance",
+      "claim": "참회가 끝내 완결되지 않는 결말이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roxana_(novel)",
+      "quote": "the novel ends on ambiguity as to whether Amy actually kills Susan",
+      "note": "록사나는 자기 삶을 더럽힌 범죄를 한탄하며 끝나고, 『몰 플랜더스』식 참회 종결에 이르지 않는다"
+    },
+    {
+      "field": "works[the-shortest-way-with-the-dissenters].year",
+      "claim": "『비국교도를 다루는 가장 빠른 길』은 1702년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Defoe",
+      "quote": "Published December 1702, issued anonymously"
+    },
+    {
+      "field": "works[the-shortest-way-with-the-dissenters].significance",
+      "claim": "익명 팸플릿이었고 반어가 통하지 않아 디포는 체포되어 형틀(pillory)에 세워졌다",
+      "verdict": "confirmed",
+      "url": "https://www.britannica.com/biography/Daniel-Defoe",
+      "quote": "the irony blew up in Defoe's face... Defoe was prosecuted for seditious libel and was arrested in May 1703"
+    },
+    {
+      "field": "works[the-shortest-way-with-the-dissenters].significance",
+      "claim": "이 사건이 그의 산문가 이력을 결정했다",
+      "verdict": "confirmed",
+      "url": "https://www.britannica.com/biography/Daniel-Defoe",
+      "quote": "What did bring him down, only a year or so later, and consequently led to a new phase in his career"
+    },
+    {
+      "field": "works[a-journal-of-the-plague-year].year",
+      "claim": "『전염병 연대기』는 1722년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Journal_of_the_Plague_Year",
+      "quote": "first published in March 1722"
+    },
+    {
+      "field": "works[a-journal-of-the-plague-year].titleKo",
+      "claim": "한국어 제목 『전염병 연대기』는 A Journal of the Plague Year의 통용 번역 제목이다",
+      "verdict": "confirmed",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EC%A0%84%EC%97%BC%EB%B3%91+%EC%97%B0%EB%8C%80%EA%B8%B0+%EB%94%94%ED%8F%AC",
+      "quote": "전염병 연대기 / 다니엘 디포 (지은이), 박영의 (옮긴이) | 신원문화사 | 2006년 5월"
+    },
+    {
+      "field": "works[a-journal-of-the-plague-year].significance",
+      "claim": "1665년 런던 대역병을 겪은 '상인'의 수기 형식으로 쓴 허구다",
+      "verdict": "contradicted",
+      "url": "https://www.gutenberg.org/cache/epub/376/pg376.txt",
+      "quote": "my trade was a saddler, and as my dealings were chiefly not by a shop or chance trade, but among the merchants",
+      "correction": "1665년 런던 대역병을 겪은 마구상(saddler)의 수기 형식으로 쓴 허구",
+      "note": "화자 H.F.는 상인이 아니라 마구 제조·판매업자다. 거래 상대가 상인이었을 뿐",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[a-journal-of-the-plague-year].significance",
+      "claim": "디포 자신은 1665년에 다섯 살이었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Journal_of_the_Plague_Year",
+      "quote": "Defoe was only five years old in 1665 when the Great Plague took place"
+    },
+    {
+      "field": "works[moll-flanders].year",
+      "claim": "『몰 플랜더스』는 1722년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Moll_Flanders",
+      "quote": "1722, first published by William Rufus Chetwood in the Kingdom of Great Britain"
+    },
+    {
+      "field": "works[moll-flanders].significance",
+      "claim": "도둑질과 결혼을 오가며 살아남은 여자의 일인칭 회고이며 참회록의 형식을 쓴다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Moll_Flanders",
+      "quote": "in sincere penitence for the wicked lives we have lived"
+    },
+    {
+      "field": "works[robinson-crusoe].year",
+      "claim": "『로빈슨 크루소』는 1719년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+      "quote": "first published on 25 April 1719"
+    },
+    {
+      "field": "works[robinson-crusoe].significance",
+      "claim": "난파한 상인이 28년간 섬에서 살아남는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Robinson_Crusoe",
+      "quote": "he is cast away and spends 28 years on a remote tropical desert island near the coasts of Venezuela and Trinidad",
+      "note": "난파 시점의 크루소는 브라질 농장주로서 노예 구매 항해에 나선 참이다 — '상인'은 성립하나 좁히면 '노예 무역 항해에 나선 브라질 농장주'"
+    },
+    {
+      "field": "works[robinson-crusoe].significance",
+      "claim": "생존의 기술, 손익 계산, 종교적 자기 심문이 하나의 문체로 이어진다 — 크루소는 선악을 대차대조표처럼 적는다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/521/pg521.txt",
+      "quote": "I stated very impartially, like debtor and creditor, the comforts I enjoyed against the miseries I suffered"
+    },
+    {
+      "field": "relations[contrast jonathan-swift → daniel-defoe]",
+      "claim": "디포의 『리뷰』는 1704–1713년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://www.britannica.com/biography/Daniel-Defoe",
+      "quote": "He wrote this serious, forceful, and long-lived paper practically single-handedly from 1704 to 1713"
+    },
+    {
+      "field": "relations[contrast jonathan-swift → daniel-defoe]",
+      "claim": "스위프트는 1710년 11월에 『이그재미너』를 맡았고 그의 담당은 1711년까지였다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/13169/pg13169.txt",
+      "quote": "CONTRIBUTIONS TO \"THE EXAMINER\" ... No. 14 (13), Nov. 2, 1710",
+      "note": "템플 스콧판 스위프트 산문집 제9권 목차. 브리태니커는 '1710년 10월 말에 인수해 1711년 6월 14일까지 편집'이라 적는다"
+    },
+    {
+      "field": "relations[contrast jonathan-swift → daniel-defoe]",
+      "claim": "그 시기 디포는 할리에게 고용돼 같은 (토리) 내각을 옹호하고 있었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Defoe",
+      "quote": "then again to support Harley and the Tories in the Tory ministry of 1710–1714"
+    },
+    {
+      "field": "relations[contrast jonathan-swift → daniel-defoe]",
+      "claim": "맥키언의 『영국 소설의 기원, 1600–1740』은 디포와 스위프트를 짝지은 장으로 다룬다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books/about/The_Origins_of_the_English_Novel_1600_17.html?id=_0UrEAAAQBAJ",
+      "quote": "The Empirical Style Becomes Problematic ... The Emergence of Extreme Skepticism ... Defoe and ... Swift and",
+      "note": "목차에 'Defoe and…' / 'Swift and…' 대응 장이 있고, 별도 검색에서 'The Parables of the Younger Son (II): Swift and the Containment of Desire' (Origins, JHUP 1987, pp. 338–56)가 확인된다"
+    },
+    {
+      "field": "relations[contrast jonathan-swift → daniel-defoe]",
+      "claim": "맥키언이 디포의 사실 주장과 스위프트의 그에 대한 패러디를 한 국면의 두 극으로 서술한다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=_0UrEAAAQBAJ&q=%22subverting+empirical+epistemology%22",
+      "correction": "마이클 맥키언의 『영국 소설의 기원, 1600–1740』이 디포와 스위프트를 짝지은 장으로 다루며, 소박한 경험주의가 극단적 회의주의와 패러디를 낳는 변증법으로 이 국면을 서술한다",
+      "note": "Google Books search-inside(JHU 2002판, id _0UrEAAAQBAJ)로 본문 도달. 세 대목이 맞물린다 — 디포 쪽: \"Defoe, who doggedly pursued the problem of the false claim to historicity for the better part of two decades\"; 스위프트 쪽: \"Gulliver's Travels is, of course, a satire of the travel narrative, and of the naive empiricism with which it is so closely [associated]\", 그리고 \"Gulliver's Travels is adorned with all the claims to historicity and all the authenticating devices of 'modern history'\". 인용한 문장이 두 사람을 같은 운동의 두 방향(sponsoring/subverting)으로 명시한다. 장 표제가 desire인 것은 맞지만 그 장(9·10장) 안에서 사실 주장/패러디 축이 그대로 전개된다.",
+      "quote": "by subverting empirical epistemology, Swift contributes, as fully as Defoe does by sponsoring it, to the growth of modern ideas of realism",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "relations[contrast jonathan-swift → daniel-defoe]",
+      "claim": "18세기 산문 연구는 두 사람을 사실의 축적과 반어적 페르소나라는 두 방법으로 대비해 다룬다",
+      "verdict": "unverifiable",
+      "url": "https://www.jstor.org/stable/2739106",
+      "note": "absent: 이 일반화를 그대로 진술한 연구서·개관을 찾지 못했다. 맥키언 서평이 전하는 변증법(사실적 기록의 소박한 경험주의 → 회의적 자의식과 패러디)이 가장 가까운 근거이며, 이 JSTOR 서평 본문은 열람하지 못하고 검색 스니펫으로만 봤다",
+      "resolution": "removed"
+    },
+    {
+      "field": "relations[documented_influence daniel-defoe → jm-coetzee]",
+      "claim": "쿳시는 노벨문학상 수상 강연을 「그와 그의 사람」(He and His Man, 2003)으로 썼고 그것은 로빈슨 크루소와 디포의 관계에 대한 허구다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/2003/coetzee/lecture/",
+      "quote": "He and His Man ... — Daniel Defoe, Robinson Crusoe",
+      "note": "2003년 12월 7일 스웨덴 한림원 강연. 제사가 『로빈슨 크루소』에서 왔고 본문은 'his man'이 쓰는 글의 형식을 취한다"
+    },
+    {
+      "field": "relations[documented_influence daniel-defoe → jm-coetzee]",
+      "claim": "쿳시는 그에 앞서 장편 『포』(Foe, 1986)에서 크루소 이야기를 다시 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Foe_(novel)",
+      "quote": "Foe by J. M. Coetzee (1986) — a retelling of Daniel Defoe's Robinson Crusoe"
+    },
+    {
+      "field": "relations[documented_influence daniel-defoe → virginia-woolf]",
+      "claim": "울프는 『보통 독자』(1925)에 「디포」 에세이를 실었다",
+      "verdict": "confirmed",
+      "url": "https://gutenberg.net.au/ebooks03/0300031h.html",
+      "quote": "The Common Reader, First Series by Virginia Woolf, 1925 ... Contents ... Rambling round Evelyn / Defoe / Addison"
+    },
+    {
+      "field": "relations[documented_influence daniel-defoe → virginia-woolf]",
+      "claim": "울프는 그 에세이에서 『몰 플랜더스』와 『록사나』를 영국 소설의 위대한 작품으로 꼽았다",
+      "verdict": "confirmed",
+      "url": "https://gutenberg.net.au/ebooks03/0300031h.html",
+      "quote": "They stand among the few English novels which we can call indisputably great"
+    },
+    {
+      "field": "relations[documented_influence daniel-defoe → virginia-woolf]",
+      "claim": "울프는 디포의 사실 축적을 소설의 '관점' 문제로 논했다",
+      "verdict": "contradicted",
+      "url": "https://gutenberg.net.au/ebooks03/0300031h.html",
+      "quote": "he achieves a truth of insight which is far rarer and more enduring than the truth of fact which he professed to make his aim",
+      "correction": "울프는 사실에 의존한다는 디포 자신의 주장을 두고, 그가 목표로 삼은 '사실의 진실'보다 '통찰의 진실'에 이르렀다고 논했다",
+      "note": "에세이 전문에 'perspective'도 'point of view'도 나오지 않는다. 울프의 축은 관점(시점)이 아니라 사실 대 통찰이며, 그는 디포가 '사실의 기록자에 불과하다'는 비난을 반박한다",
+      "resolution": "corrected"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--woolf-common-reader-1925": {
+      "id": "src--woolf-common-reader-1925",
+      "title": "The Common Reader (1925)",
+      "publisherOrInstitution": "The Hogarth Press — Virginia Woolf",
+      "citation": "「러시아인의 관점」과 「현대소설」이 실린 첫 평론집 — 울프가 체호프·도스토옙스키·톨스토이의 방법을 자기 소설론의 좌표로 삼은 1차 문헌"
+    }
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "plates": [
+    {
+      "id": "banana-yoshimoto",
+      "claims": [
+        {
+          "sids": [
+            "3c47182f0da4"
+          ],
+          "field": "author.facts",
+          "claim": "요시모토 바나나(吉本ばなな)는 1964년에 태어나 생존해 있는 일본 소설가다(일본어, 동아시아).",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/吉本ばなな",
+          "quote": "吉本 ばなな（よしもと ばなな、本名: 吉本 真秀子〈よしもと まほこ〉、1964年7月24日 - ）は、日本の小説家。",
+          "note": "재인용: 기존 인용(공식 프로필 '1964年07月24日 東京都生まれ')은 출생 연도와 도쿄 출생만 담고 일본 작가라는 점과 생존(열린 생몰 표기)을 담지 않아, 이를 한 문장에 담은 ja.wikipedia 도입부로 바꿨다. 도쿄 출생은 페이지 문장이 말하지 않으므로 청구에서 뺐다."
+        },
+        {
+          "sids": [
+            "c6d4192318de"
+          ],
+          "field": "author.importanceReason",
+          "claim": "상실과 죽음 뒤의 재생을 되풀이해 다뤄 왔다.",
+          "verdict": "contradicted",
+          "url": "https://ja.wikipedia.org/wiki/吉本ばなな",
+          "quote": "非日常的な、神秘的な事象、また「生と死」「再生」をテーマとして書き続けている。",
+          "correction": "생과 사, 재생을 주제로 계속 써 왔다.",
+          "note": "인용이 말하는 것은 비일상적·신비적 사상과 '생과 사', '재생'을 주제로 계속 써 왔다는 데까지다. '상실'이나 '죽음 뒤의' 재생이라는 인과는 인용에 없다."
+        },
+        {
+          "sids": [
+            "c6d4192318de"
+          ],
+          "field": "author.importanceReason",
+          "claim": "가족의 죽음을 겪은 젊은 화자가 부엌과 음식 같은 일상의 감각 속에서 회복하는 이야기를 작품 전반에서 되풀이해 썼다.",
+          "verdict": "contradicted",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "両親と祖父を早くに亡くし、祖母と暮らしてきた大学生・桜井みかげだが、その祖母さえも亡くしてしまい、天涯孤独の身となる。…みかげは田辺家の台所に続く居間のソファで眠るようになり、風変わりなえり子・雄一親子とも少しずつ打ち解けていく。かつてのボーイフレンドとの再会などを経て、日を追うごとに祖母の死を受け入れ、みかげの心は再生していく。",
+          "correction": "「키친」에서는 부모와 할아버지에 이어 할머니마저 잃고 혼자 남은 대학생이 남의 집 부엌에 이어진 거실 소파에서 잠들며 할머니의 죽음을 받아들이고 마음을 회복해 간다.",
+          "note": "부엌·음식 모티프가 작품 전반에 되풀이된다고 말하는 출처는 찾지 못했다. 확인된 것은 「키친」(과 속편 「만월」)의 사례와, 생과 사·재생을 계속 써 왔다는 일반 서술(ja.wikipedia)뿐이다. 검수: 기존 교정문의 '죽음과 상실 뒤의 재생을 되풀이해 썼고'는 이 인용(「키친」 줄거리)이 뒷받침하지 않고, '회복해 간다'도 기존 인용에는 없어(打ち解けていく까지만) 같은 줄거리 단락의 회복 문장까지 인용을 늘리고 교정문을 인용 범위로 좁혔다."
+        },
+        {
+          "sids": [
+            "c350950fb4af"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「키친」은 1987년 『海燕』에 실린 데뷔작이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/吉本ばなな",
+          "quote": "「キッチン」が『海燕』1987年11月号に掲載され商業誌デビュー。"
+        },
+        {
+          "sids": [
+            "c350950fb4af"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「키친」에서 할머니마저 잃은 대학생이 게이 바를 하는 '어머니'(실은 아버지)와 그 아들의 집에 얹혀 살며 회복한다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "両親と祖父を早くに亡くし、祖母と暮らしてきた大学生・桜井みかげだが、その祖母さえも亡くしてしまい、天涯孤独の身となる。…雄一宅に居候することとなる。雄一はゲイバーを経営する母・えり子（実は父・雄司）とマンション…で2人暮らしである。…日を追うごとに祖母の死を受け入れ、みかげの心は再生していく。",
+          "note": "재인용: 기존 인용에는 청구의 '회복한다'가 없어 같은 줄거리 단락의 마지막 문장(みかげの心は再生していく)까지 인용을 늘렸다."
+        },
+        {
+          "sids": [
+            "c350950fb4af"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 '어머니'는 아내를 잃은 뒤 성전환했다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "雄一の母（実は父）。本名は雄司。妻をがんで失い、性転換してゲイバーを経営し、雄一を育ててきた。"
+        },
+        {
+          "sids": [
+            "c350950fb4af"
+          ],
+          "field": "author.importanceReason",
+          "claim": "이후 작품은 생과 사, 재생이라는 주제를 초자연적(신비적) 감각과 함께 이어 갔다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/吉本ばなな",
+          "quote": "非日常的な、神秘的な事象、また「生と死」「再生」をテーマとして書き続けている。"
+        },
+        {
+          "sids": [
+            "8cfc7abbc2dd"
+          ],
+          "field": "author.importanceReason",
+          "claim": "통어법에 얽매이지 않는 간결한 대화체를 쓴다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "등장인물들이 주고받는 통어법에 얽매이지 않는 간결한 대화체나 주인공들이 겪는 신비스러운 체험 등은 만화와의 혈연 관계를 짐작하게 한다."
+        },
+        {
+          "sids": [
+            "8cfc7abbc2dd"
+          ],
+          "field": "author.importanceReason",
+          "claim": "영화·만화·유행가 같은 대중문화 소재를 쓰고 독자에게 고전적 교양을 요구하지 않는다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "그는 독자들에게 고전적 교양 따위는 애초부터 요구하지 않는다. 같은 시대를 살아왔고 살아간다는 시대적(문화적) 동질감을 가지고 있으면 누구라도 그녀의 세계에 쉽게 동참할 수 있다. 실제로 요시모토 바나나의 소설에 빈번히 등장하는 영화나, 만화, 유행가, 록 뮤직, TV 드라마 등과 같은 대중적 소재는"
+        },
+        {
+          "sids": [
+            "8cfc7abbc2dd"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『TUGUMI』와 『키친』은 1989년 일본 연간 베스트셀러 종합 1·2위였다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/吉本ばなな",
+          "quote": "『TUGUMI』は1989年年間ベストセラーの総合1位を、『キッチン』は同年間ベストセラーの総合2位を記録した"
+        },
+        {
+          "sids": [
+            "490534e708b0"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『ミトンとふびん』(손모아 장갑과 가여움)으로 2022년 다니자키 준이치로상을 받았다.",
+          "verdict": "confirmed",
+          "url": "https://chuokoron.jp/culture/121077.html",
+          "quote": "当社主催の令和４年（第58回）「谷崎潤一郎賞」の選考会が８月２３日に行われ、…吉本ばななさんの『ミトンとふびん』（新潮社）が受賞作に決定しました。"
+        },
+        {
+          "sids": [
+            "490534e708b0"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『손모아 장갑과 가여움』은 소설집(단편집)이다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937446332&name=Introduce&type=0&date=1",
+          "quote": "요시모토 바나나의 소설집이 오랜만에 출간된다."
+        },
+        {
+          "sids": [
+            "f23caf687004"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "민음사판 『키친』 한 권에 「키친」「만월」「달빛 그림자」가 함께 실려 있다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "목차 키친 만월 달빛 그림자 후기 옮긴이의 말"
+        },
+        {
+          "sids": [
+            "f23caf687004"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "민음사판 『키친』은 198쪽이다.",
+          "verdict": "contradicted",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "패키지 양장 · 46판 128x188mm · 204쪽",
+          "correction": "민음사판 200쪽 남짓한 한 권에",
+          "note": "출판사(민음사) 도서 페이지는 204쪽, 알라딘 상품 페이지(ItemId=149213)는 198쪽으로 표기한다. 쪽수를 못박지 않는 편이 안전하다."
+        },
+        {
+          "sids": [
+            "f23caf687004"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「키친」은 데뷔작이고 「달빛 그림자」는 대학 졸업 작품이다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "요시모토 바나나는 일본대학 예술학부를 졸업하면서 졸업 작품으로 쓴 「달빛 그림자」로 예술학부 부장상을 탔고, 데뷔작으로 발표한 「키친」으로는"
+        },
+        {
+          "sids": [
+            "f23caf687004"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「만월」은 「키친」의 속편이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "2満月 キッチン2『海燕』1988年2月号"
+        },
+        {
+          "sids": [
+            "cc9144755ff9"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 책에는 할머니를 잃은 화자가 남의 집 부엌 곁에서 회복해 가는 이야기(「키친」)가 실려 있다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "その祖母さえも亡くしてしまい、天涯孤独の身となる。…みかげは田辺家の台所に続く居間のソファで眠るようになり、風変わりなえり子・雄一親子とも少しずつ打ち解けていく。かつてのボーイフレンドとの再会などを経て、日を追うごとに祖母の死を受け入れ、みかげの心は再生していく。"
+        },
+        {
+          "sids": [
+            "cc9144755ff9"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "죽은 애인의 교복을 입고 등교하는 고등학생이 나오는 이야기(「달빛 그림자」)가 실려 있다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "죽은 애인의 세일러복(치마)을 입고 등교하는 고등학생(「달빛 그림자」)"
+        },
+        {
+          "sids": [
+            "cc9144755ff9"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 책에 상실 뒤의 회복이라는 주제가 (작품 가운데) 가장 선명하게 들어 있다.",
+          "verdict": "contradicted",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=893740317X&name=Introduce&type=0&date=1",
+          "quote": "사랑하는 사람의 죽음, 그로 인한 상처와 상실감, 남겨진 사람들의 고통을 위로하는 따뜻한 구원의 손길을 보낸다.",
+          "correction": "…이야기가 함께 실려, 사랑하는 사람의 죽음과 그로 인한 상실감, 남겨진 사람들의 고통을 위로한다.",
+          "note": "이 책이 상실과 위로를 다룬다는 것은 출판사 책소개로 확인되지만, 이 주제가 여기서 '가장' 선명하다고 말하는 출처는 찾지 못했다. 검수: 기존 교정문의 '이후 작품의 주제가 이미 뚜렷하게'도 이 인용(이 책 한 권의 소개)이 뒷받침하지 않아, 인용이 말하는 위로의 내용만 남겼다."
+        },
+        {
+          "sids": [
+            "7906051593f0"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『암리타』 한국어판(민음사)은 504쪽이다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=273736",
+          "quote": "양장본504쪽128*185mm706gISBN : 9788937403651"
+        },
+        {
+          "sids": [
+            "7906051593f0"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『암리타』는 이례적으로 긴 소설이고, 기억을 잃은 화자와 영혼을 감지하는 친구들 같은 신비주의적 요소가 두드러진다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=893740365X&name=Introduce&type=0&date=1",
+          "quote": "이례적으로 긴 분량의 소설은 '신비주의자' 바나나의 면모를 고스란히 드러낸다. 기억을 잃어버린 주인공은 영혼을 감지하는 능력을 가진 친구들을 통해서 순간의 삶 속에 담겨 있는 영원의 아름다움을 되찾는다."
+        },
+        {
+          "sids": [
+            "28842af9bdc7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "고전적 교양이나 배경지식을 요구하지 않는다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "그는 독자들에게 고전적 교양 따위는 애초부터 요구하지 않는다. 같은 시대를 살아왔고 살아간다는 시대적(문화적) 동질감을 가지고 있으면 누구라도 그녀의 세계에 쉽게 동참할 수 있다.",
+          "note": "재인용: 기존 인용은 '고전적 교양'만 담아 청구의 '배경지식' 부분을 뒷받침하지 못해, 바로 이어지는 문장(동시대적 동질감만 있으면 누구라도 쉽게 동참할 수 있다)까지 인용을 늘렸다."
+        },
+        {
+          "sids": [
+            "28842af9bdc7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "문장이 짧고 대화가 많다.",
+          "verdict": "contradicted",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "등장인물들이 주고받는 통어법에 얽매이지 않는 간결한 대화체나",
+          "correction": "대화체가 간결하고 통어법에 얽매이지 않으며",
+          "note": "출처가 말하는 것은 '간결한 대화체'까지다. 문장 길이나 대화의 양을 말하는 출처는 찾지 못했다. 검수: 기존 교정문의 '고전적 교양이나 배경지식을 요구하지 않는다'는 이 인용에 없어 교정문에서 뺐다(그 부분은 별도 청구에서 확인). 교정문은 '문장이 짧고 대화가 많으며'를 대체한다."
+        },
+        {
+          "sids": [
+            "0cbbe9679087",
+            "9de7d95b262d"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『N.P』는 부녀와 이복형제 사이의 금지된 사랑과 자살을 다룬다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937432730&name=Introduce&type=0&date=1",
+          "quote": "어느 작가가 남긴 단편소설을 둘러싸고 아버지의 연인이 되었던 아름다운 딸, 아버지의 작품을 연구하는 여자, 이복형제를 사랑하게 되어 버린 청년, 소설을 번역하다 자살한 연인을 추억하는 여자가 맞이하게 된 운명을 이야기한다."
+        },
+        {
+          "sids": [
+            "0cbbe9679087",
+            "9de7d95b262d"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『N.P』에서 원고를 번역하려던 사람들이 잇따라 목숨을 끊었다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937432730&name=Introduce&type=0&date=1",
+          "quote": "원고를 번역하려던 사람 중 세 사람이 목숨을 끊은 것으로 유명한 이 전설의 단편은"
+        },
+        {
+          "sids": [
+            "9de7d95b262d"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『암리타』는 504쪽 분량이다(민음사판).",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=273736",
+          "quote": "양장본504쪽128*185mm706gISBN : 9788937403651"
+        },
+        {
+          "sids": [
+            "9de7d95b262d"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『암리타』에는 초자연적(신비주의적) 감각이 전면에 나온다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=893740365X&name=Introduce&type=0&date=1",
+          "quote": "이례적으로 긴 분량의 소설은 '신비주의자' 바나나의 면모를 고스란히 드러낸다. 기억을 잃어버린 주인공은 영혼을 감지하는 능력을 가진 친구들을 통해서"
+        },
+        {
+          "sids": [
+            "f729449fa025"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.facts",
+          "claim": "『키친』의 원제는 『キッチン』이다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "원제 キッチン"
+        },
+        {
+          "sids": [
+            "f729449fa025"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.facts",
+          "claim": "「키친」은 1987년에 처음 발표된 소설이다(『海燕』 1987년 11월호).",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "1キッチン『海燕』1987年11月号第6回海燕新人文学賞を受賞。"
+        },
+        {
+          "sids": [
+            "bea3ad2cab4f"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.significance",
+          "claim": "부모와 할아버지에 이어 할머니마저 잃은 대학생 미카게가 게이 바를 꾸리는 '어머니' 에리코와 아들 유이치의 집에 얹혀 살며 회복해 간다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "両親と祖父を早くに亡くし、祖母と暮らしてきた大学生・桜井みかげだが、その祖母さえも亡くしてしまい、天涯孤独の身となる。…雄一宅に居候することとなる。雄一はゲイバーを経営する母・えり子（実は父・雄司）とマンション…で2人暮らしである。…日を追うごとに祖母の死を受け入れ、みかげの心は再生していく。",
+          "note": "재인용: 기존 인용에는 청구의 '얹혀 살며'(居候)가 빠져 있어 같은 줄거리 단락의 해당 문장을 넣었다."
+        },
+        {
+          "sids": [
+            "bea3ad2cab4f"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.significance",
+          "claim": "에리코는 아내를 잃은 뒤 성전환해 게이 바를 꾸려 왔다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "妻をがんで失い、性転換してゲイバーを経営し、雄一を育ててきた。"
+        },
+        {
+          "sids": [
+            "bea3ad2cab4f"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.significance",
+          "claim": "「키친」은 중편이다.",
+          "verdict": "contradicted",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "『キッチン』は、吉本ばななの短編小説、およびそれを表題作とする短編集。",
+          "correction": "…조금씩 회복해 가는 단편.",
+          "note": "ja.wikipedia 는 「키친」을 단편소설(短編小説)로 분류한다. 중편이라고 부르는 출처는 찾지 못했으므로 길이 분류를 빼는 편이 안전하다. 검수: 인용이 短編小説이라고 하므로 교정문을 '소설'에서 '단편'으로 좁혔다."
+        },
+        {
+          "sids": [
+            "fbe016087a07"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.facts",
+          "claim": "『티티새』의 원제는 『TUGUMI』다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=413894",
+          "quote": "원제 : TUGUMI(つぐみ) (1989년)"
+        },
+        {
+          "sids": [
+            "fbe016087a07"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.facts",
+          "claim": "『TUGUMI』는 1988년에 처음 발표되었다(연재 시작 기준; 단행본은 1989년).",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/TUGUMI",
+          "quote": "雑誌『マリ・クレール』1988年4月号から1989年3月号まで連載された。1989年3月20日、中央公論社より刊行",
+          "note": "1988은 잡지 연재 시작 연도다. 단행본 간행은 1989년 3월 20일이며 알라딘 원제 표기도 1989년이다."
+        },
+        {
+          "sids": [
+            "1be09f36dbd3"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.significance",
+          "claim": "서이즈 도이 해안이 무대이고, 츠구미는 일부러 고약한 성격을 드러내는 소녀다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/TUGUMI",
+          "quote": "西伊豆土肥海岸を舞台に、性格の悪さを故意に露出する少女つぐみを中心に、少年少女の淡い出会いと別れを描く、現代版「たけくらべ」。"
+        },
+        {
+          "sids": [
+            "1be09f36dbd3"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.significance",
+          "claim": "츠구미는 날 때부터 몸이 약하다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/TUGUMI",
+          "quote": "生まれつき病弱で入院や自宅療養を繰り返してきた少女だが、甘やかされて育ったため、粗野でわがままで口が悪い。"
+        },
+        {
+          "sids": [
+            "1be09f36dbd3"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.significance",
+          "claim": "화자 마리아는 츠구미의 사촌이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/TUGUMI",
+          "quote": "つぐみの1歳年上の従姉で物語の語り手。"
+        },
+        {
+          "sids": [
+            "1be09f36dbd3"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.significance",
+          "claim": "도쿄로 이사한 마리아가 여관이 문을 닫기 전 마지막 여름을 보내러 돌아온다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/TUGUMI",
+          "quote": "まりあが東京に移り住むことが決まり町で暮らす最後の頃、…つぐみからの電話で旅館がたたまれることを知り、山本屋最後の夏に向かうことになった。",
+          "note": "재인용: 기존 인용에는 청구의 '도쿄로 이사한'이 없어 같은 줄거리 단락의 앞부분(まりあが東京に移り住むことが決まり)부터 인용했다."
+        },
+        {
+          "sids": [
+            "2c3a03615436"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.significance",
+          "claim": "『마리 클레르』 1988년 4월호부터 연재된 뒤 1989년 단행본으로 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/TUGUMI",
+          "quote": "雑誌『マリ・クレール』1988年4月号から1989年3月号まで連載された。1989年3月20日、中央公論社より刊行"
+        },
+        {
+          "sids": [
+            "2c3a03615436"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.significance",
+          "claim": "1989년 일본 연간 베스트셀러 1위에 올랐다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/TUGUMI",
+          "quote": "本書は1989年年間ベストセラーの総合1位を記録した"
+        },
+        {
+          "sids": [
+            "2c3a03615436"
+          ],
+          "field": "work:banana-yoshimoto--tugumi.significance",
+          "claim": "제2회 야마모토 슈고로상을 받았다.",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.yoshimotobanana.com/profile/",
+          "quote": "1989年05月 『TUGUMI』で第2回山本周五郎賞受賞。"
+        },
+        {
+          "sids": [
+            "db405eed658c"
+          ],
+          "field": "work:banana-yoshimoto--n-p.facts",
+          "claim": "『N.P』의 원제는 『N・P』이고 1990년에 나온 소설이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/N・P",
+          "quote": "『N・P』（エヌ・ピー）は、吉本ばななの小説。…1990年12月25日、角川書店より刊行された。",
+          "note": "재인용: 기존 인용은 간행일만 담고 원제 『N・P』를 담지 않아 같은 문서 도입부의 표제 문장부터 인용했다."
+        },
+        {
+          "sids": [
+            "623c35f04836"
+          ],
+          "field": "work:banana-yoshimoto--n-p.significance",
+          "claim": "97편의 단편을 모은 책을 내고 자살한 작가의 숨은 98번째 원고를 번역하려던 사람 가운데 셋이 목숨을 끊었다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937432730&name=Introduce&type=0&date=1",
+          "quote": "97편의 단편을 모은 책을 출간하고 자살한 작가의 숨은 98번째 원고. 원고를 번역하려던 사람 중 세 사람이 목숨을 끊은 것으로 유명한 이 전설의 단편은"
+        },
+        {
+          "sids": [
+            "623c35f04836"
+          ],
+          "field": "work:banana-yoshimoto--n-p.significance",
+          "claim": "번역자였던 연인을 잃은 가자미가 작가의 아들딸과 얽힌다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937432730&name=Introduce&type=0&date=1",
+          "quote": "원고의 마지막 번역자 쇼지의 연인 가자미는 쇼지가 남긴 번역 원고를 추억과 함께 상자에 봉인하고 평범한 삶으로 돌아와 있었다. 그러던 어느 날 그녀의 앞에 작가의 아들과 딸이 나타나면서"
+        },
+        {
+          "sids": [
+            "623c35f04836"
+          ],
+          "field": "work:banana-yoshimoto--n-p.significance",
+          "claim": "아버지와 딸, 이복형제 사이의 금지된 사랑이 되풀이된다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937432730&name=Introduce&type=0&date=1",
+          "quote": "이 전설의 단편은 모르고 자신의 딸과 사랑에 빠진 아버지의 비극적인 운명을 담고 있었다. … 98번째 원고가 사실은 작가의 자전적인 내용이었음이 밝혀지고, 작가의 아들 오토히코가 현재 사랑에 빠진 여자가 자기 이복형제였음이 밝혀지면서, 어긋나고 엇갈린 사랑의 역사가 다시금 반복된다.",
+          "note": "재인용: 기존 인용에는 청구의 '아버지와 딸' 사이의 사랑이 없어 같은 줄거리 단락의 앞부분(자신의 딸과 사랑에 빠진 아버지)부터 인용했다."
+        },
+        {
+          "sids": [
+            "623c35f04836"
+          ],
+          "field": "work:banana-yoshimoto--n-p.significance",
+          "claim": "『N・P』는 장편소설이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/N・P",
+          "quote": "吉本ばななの長編小説『N・P』を映画化"
+        },
+        {
+          "sids": [
+            "cdd860920257"
+          ],
+          "field": "work:banana-yoshimoto--n-p.significance",
+          "claim": "작가는 출간 때 자기 소설이 다루는 모든 주제가 이 작품에 응집되어 있다고 밝혔다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937432730&name=Introduce&type=0&date=1",
+          "quote": "요시모토 바나나는 이 책을 출간하면서 자신의 소설이 다루고 있는 모든 테마가 바로 이 작품에 응집되어 있다고 밝힌 바 있다."
+        },
+        {
+          "sids": [
+            "ca3c72e54a5a"
+          ],
+          "field": "work:banana-yoshimoto--amurita.facts",
+          "claim": "『암리타』의 원제는 『アムリタ』이고 1994년에 나온 소설이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/吉本ばなな",
+          "quote": "『アムリタ』 福武書店、1994/01/12"
+        },
+        {
+          "sids": [
+            "f7ba505721c0"
+          ],
+          "field": "work:banana-yoshimoto--amurita.significance",
+          "claim": "기억을 잃은 화자가 영혼을 감지하는 능력을 가진 친구들을 통해 순간의 삶에 담긴 영원의 아름다움을 되찾아 가는 장편이다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=893740365X&name=Introduce&type=0&date=1",
+          "quote": "요시모토 바나나의 1994년작 장편소설. …기억을 잃어버린 주인공은 영혼을 감지하는 능력을 가진 친구들을 통해서 순간의 삶 속에 담겨 있는 영원의 아름다움을 되찾는다."
+        },
+        {
+          "sids": [
+            "939331210dcb"
+          ],
+          "field": "work:banana-yoshimoto--amurita.significance",
+          "claim": "한국어판(민음사)은 504쪽이다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=273736",
+          "quote": "양장본504쪽128*185mm706gISBN : 9788937403651"
+        },
+        {
+          "sids": [
+            "939331210dcb"
+          ],
+          "field": "work:banana-yoshimoto--amurita.significance",
+          "claim": "이례적으로 긴 소설로 신비주의자로서의 면모를 고스란히 드러낸다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=893740365X&name=Introduce&type=0&date=1",
+          "quote": "이례적으로 긴 분량의 소설은 '신비주의자' 바나나의 면모를 고스란히 드러낸다."
+        },
+        {
+          "sids": [
+            "939331210dcb"
+          ],
+          "field": "work:banana-yoshimoto--amurita.significance",
+          "claim": "1995년 제5회 무라사키 시키부 문학상을 받았다.",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.yoshimotobanana.com/profile/",
+          "quote": "1995年11月 『アムリタ』で第5回紫式部文学賞受賞。"
+        },
+        {
+          "sids": [
+            "56aa96a40aa7"
+          ],
+          "field": "work:banana-yoshimoto--deddoendo-no-omoide.facts",
+          "claim": "『막다른 골목의 추억』의 원제는 『デッドエンドの思い出』이고 2003년에 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=18919448",
+          "quote": "원제 : デッドエンドの思い出 (2003년)"
+        },
+        {
+          "sids": [
+            "7f4c6c89dec3"
+          ],
+          "field": "work:banana-yoshimoto--deddoendo-no-omoide.significance",
+          "claim": "생의 결정적인 국면에 이른 다섯 여자가 막다른 골목에서 앞으로 한 걸음을 내딛는 다섯 편의 소설집이다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937485753&name=Introduce&type=0&date=1",
+          "quote": "보석 같은 다섯 편의 이야기가 담긴 이 소설집은 생의 결정적인 국면에 이른 다섯 명의 여자들이 그 '막다른 골목'에서 그 앞으로 나아가기 위한 한 걸음을 내딛는 모습을 그린 작품이다."
+        },
+        {
+          "sids": [
+            "3c73412798e7"
+          ],
+          "field": "work:banana-yoshimoto--deddoendo-no-omoide.significance",
+          "claim": "사내 식당 독극물 테러를 당한 여성, 같은 건물의 사람을 5년간 짝사랑한 여성, 약혼자와 헤어진 뒤 기묘한 여행을 떠나는 여성이 나온다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937485753&name=Introduce&type=0&date=1",
+          "quote": "사내 식당에서 독극물 테러를 당한 여성의 후일담 '엄마!', 어린 시절 동네 친구와의 안타까운 추억을 담은 '따뜻하지 않아', 같은 건물에 근무하는 사람을 5년간 짝사랑한 여성의 심경을 다룬 '도모 짱의 행복', 결혼을 앞둔 약혼자와의 이별에서 일어서기 위한 기묘한 여행을 그린 '막다른 골목의 추억'"
+        },
+        {
+          "sids": [
+            "d5110edc4cf3"
+          ],
+          "field": "work:banana-yoshimoto--miton-to-fubin.facts",
+          "claim": "『손모아 장갑과 가여움』의 원제는 『ミトンとふびん』이고 2021년에 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/吉本ばなな",
+          "quote": "『ミトンとふびん』新潮社 2021/12/22"
+        },
+        {
+          "sids": [
+            "0216849e5f95"
+          ],
+          "field": "work:banana-yoshimoto--miton-to-fubin.significance",
+          "claim": "헬싱키, 로마, 타이베이, 홍콩, 가나자와, 하치조섬을 배경으로 소중한 사람의 죽음과 치유하기 어려운 상실을 안고 사는 인물들을 그린 단편 여섯 편이다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937446332&name=Introduce&type=0&date=1",
+          "quote": "걸작 단편 여섯 편을 선보인다. 『손모아 장갑과 가여움』은 헬싱키, 로마, 타이베이, 홍콩, 가나자와, 하치조섬 등 세계 각지의 낯선 모퉁이를 배경으로 소중한 사람의 죽음, 치유하기 어려운 상실을 안고 살아가는 인물들을 그리고 있다."
+        },
+        {
+          "sids": [
+            "c909f6efd1f9"
+          ],
+          "field": "work:banana-yoshimoto--miton-to-fubin.significance",
+          "claim": "여섯 편 모두 피할 수 없는 상실이 이미 일어난 상태에서 시작한다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=8937446332&name=PublisherDesc&type=0&date=1",
+          "quote": "이 책에 실린 여섯 편의 단편은 모두 피치 못 할 상실이 일어나 버린 상태에서 시작된다."
+        },
+        {
+          "sids": [
+            "c909f6efd1f9"
+          ],
+          "field": "work:banana-yoshimoto--miton-to-fubin.significance",
+          "claim": "2022년 제58회 다니자키 준이치로상을 받았다.",
+          "verdict": "confirmed",
+          "url": "https://chuokoron.jp/culture/121077.html",
+          "quote": "当社主催の令和４年（第58回）「谷崎潤一郎賞」の選考会が８月２３日に行われ、…吉本ばななさんの『ミトンとふびん』（新潮社）が受賞作に決定しました。"
+        }
+      ],
+      "noClaim": {
+        "c934f5ddd5eb": "『암리타』로 시작하지 말라는 독서 권고일 뿐 확인할 사실이 없다(분량·내용 근거는 다음 문장에서 확인)."
+      }
+    }
+  ],
+  "check": {
+    "kept": 46,
+    "requoted": 7,
+    "downgraded": 1,
+    "added": 0,
+    "noClaimConverted": 0
+  }
+}

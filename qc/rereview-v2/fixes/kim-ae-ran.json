@@ -1,0 +1,36 @@
+{
+  "fixes": [
+    {
+      "id": "kim-ae-ran",
+      "difficultyReason": "문장이 짧고 일상어에 가까우며 배경지식이 거의 필요 없다. 어려움은 속도에 있다. 초기 단편은 상상이 빠르게 비약하고 농담이 많아 빨리 읽으면 농담만 남고, 『바깥은 여름』은 상실 뒤 제자리에 멈춰 선 인물들의 얼어붙은 내면을 그리므로 속도를 늦춰 읽는 집중이 필요하다.",
+      "works": [
+        {
+          "id": "kim-ae-ran--dugeundugeun-nae-insaeng",
+          "year": 2011
+        },
+        {
+          "id": "kim-ae-ran--bihaengun",
+          "significance": "여덟 편을 묶은 세 번째 소설집이다. 재개발 지역의 한 소년이 대홍수 속에서 홀로 살아남는 「물속 골리앗」은 박완서가 심사 메모로 꼽아 젊은작가상 대상을 받았고, 이 작품에서 김애란의 무대는 좁은 방에서 재개발 중인 도시로 넓어졌다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "『바깥은 여름』 이후 단편은 상실 뒤의 시간을 인물의 작은 행동으로 보여 준다(인물이 말하지 않는 것을 읽어야 한다).",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "work:kim-ae-ran--dugeundugeun-nae-insaeng.facts",
+          "claim": "『두근두근 내 인생』의 연도는 2010년이다.",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:kim-ae-ran--bihaengun.significance",
+          "claim": "「너의 여름은 어떠니」는 자취방의 고립감을 다룬다.",
+          "resolution": "removed",
+          "evidence": "교정문(줄거리 요약)은 원문보다 길어 넣지 못하고, 인용이 받치는 나머지(미영이 자취방에 누워 있다)는 도착점일 뿐 작품에 대한 주장이 되지 못해 문장을 뺐다."
+        }
+      ]
+    }
+  ]
+}

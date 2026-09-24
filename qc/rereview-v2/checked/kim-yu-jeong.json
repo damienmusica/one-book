@@ -1,0 +1,847 @@
+{
+ "plates": [
+  {
+   "id": "kim-yu-jeong",
+   "claims": [
+    {
+     "sids": [
+      "48053926a468"
+     ],
+     "field": "author.facts",
+     "claim": "김유정은 1908년에 태어나 1937년에 죽었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "출생 연도 1908년 사망 연도 1937년"
+    },
+    {
+     "sids": [
+      "48053926a468"
+     ],
+     "field": "author.facts",
+     "claim": "김유정은 강원도 춘천 출신(동아시아)이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "강원도 춘천 출신.",
+     "note": "독립 검사: 원 주장을 나눔 — 인용이 '한국어'를 싣지 않아 그 부분은 따로 확인했다(위키문헌 「봄봄」 원문)."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "김유정은 고향 실레마을 사람들의 가난한 생활을 그렸다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "고향 실레마을 사람들의 가난하고 무지하며 순박한 생활을 그린 「봄봄」 · 「동백꽃」 등의 계열",
+     "note": "독립 검사: 원 주장을 나눔 — 인용이 '1930년대'와 '산골'을 싣지 않아 두 부분은 따로 확인했다(「금 따는 콩밭」 항목, 「봄봄」 원문)."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「따라지」는 도회 변두리에서 허덕이는 최하층의 삶을 웃음 속에 슬픔이 겹치게 그렸다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "웃음 속에는 도회 변두리에서 허덕이는 최하층의 삶의 슬픔과 고달픔이 반어적으로 나타난다.",
+     "note": "독립 검사: 원 주장을 나눔 — 인용은 '도회'라고만 하므로 '서울'은 같은 항목의 사직동 주석으로 따로 확인했다."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "궁핍한 인물들을 그리면서도 소설이 어둡게만 흐르지 않아 웃음과 비애가 한 이야기 안에 겹친다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016499",
+     "quote": "김유정 소설에 등장하는 농민들은 대부분 궁핍하고 고단한 모습을 지니고 있다. 그런데도 소설이 어둡게만 그려지지 않은 것은 작가 특유의 … 아이러니는 바닥없는 어둠이나 비참으로 떨어지려는 소설에 긴장감을 불어넣거나 웃음을 유발하는 장치라는 점에서, 김유정 소설의 두드러진 특징이라고 할 수 있다.",
+     "note": "재인용: 원 인용이 문장 중간에서 끊겨 '웃음'을 싣지 않았다. 같은 문단을 이어 인용했다."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "김유정은 전반적으로 사건의 뜻을 모르는 어수룩한 1인칭 화자를 써서 그렸다.",
+     "verdict": "contradicted",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "작품의 주인공이면서 서술자인 ‘나’는 순박하다 못하여 어수룩한 소년이다.",
+     "correction": "「동백꽃」에서는 순박하다 못해 어수룩한 소년 '나'를 주인공이자 서술자로 내세웠다.",
+     "note": "어수룩한 1인칭 화자는 「동백꽃」「봄봄」 항목에서만 확인된다. 「만무방」「금 따는 콩밭」「산골 나그네」「따라지」는 백과사전 줄거리상 3인칭 서술이라 김유정 전반의 방법으로 단언할 근거가 없다. 독립 검사: 고친 문장이 인용(「동백꽃」 항목)이 싣지 않는 「봄봄」까지 담고 있어 「동백꽃」으로 좁혔다."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "속어의 입말을 구사했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "매우 육담적(肉談的)인 속어의 구사 등으로 독특한 개성을 보여주었다."
+    },
+    {
+     "sids": [
+      "76a803b41fa9",
+      "b7019b96420f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "김유정 소설의 입말은 춘천 방언이다.",
+     "verdict": "contradicted",
+     "url": "https://www.hangeul.go.kr/webzine/202503/sub1_3.html",
+     "quote": "‘대강이’(머리), ‘덩저리’(몸집), ‘목아지’(목), ‘주둥이’(입) … 등 당시 강원 지역의 민중들이 쓰던 말들이 펼쳐져 있습니다.",
+     "correction": "당시 강원 지역 민중들이 쓰던 말",
+     "note": "확인한 출처(국립한글박물관, 「동백꽃」에 대해)는 '강원 지역' 말이라고만 하고 '춘천 방언'이라고 특정하지 않는다. 독립 검사: 고친 문장의 '토속어와 속어'는 이 인용에 없어 인용이 싣는 말로 바꿨다. 이 출처가 말하는 것은 「동백꽃」의 낱말이다. '속어'는 한국민족문화대백과사전 김유정 항목의 '육담적인 속어의 구사'로 따로 확인된다."
+    },
+    {
+     "sids": [
+      "82160d57ab6d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「봄봄」의 '나'는 3년 넘게 데릴사위로 일한다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "‘나’는 3년을 훨씬 넘도록 봉필이라는 마름의 딸 점순이와 혼인하기 위하여 돈 한 푼 안 받고 데릴사위"
+    },
+    {
+     "sids": [
+      "82160d57ab6d",
+      "dca94f367426"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「봄봄」의 '나'는 장인의 착취를 알아차리지 못하고 독자만 그것을 본다.",
+     "verdict": "contradicted",
+     "url": "https://ko.wikisource.org/wiki/%EB%B4%84%EB%B4%84",
+     "quote": "“그러면 얼찐 성례를 해줘야 안하지유. 밤낮 부려만 먹구 해준다, 해준다……” … 이렇게 따져나가면 언제든지 늘 나만 밑지고 만다.",
+     "correction": "「봄봄」의 '나'는 장인이 성례는 미루고 밤낮 부려먹기만 한다고 스스로 따지지만, 따질 때마다 늘 밑지고 만다",
+     "note": "원문에서 '나'는 계약이 잘못되었고 장인이 시치미를 뗀다는 것을 스스로 말한다. 한국민족문화대백과사전 「봄봄」 항목은 봉필이 데릴사위 제도로 노동력을 착취한다고 하지만 '나'가 이를 모른다거나 독자만 본다고 하지는 않는다. 독립 검사: 앞의 고친 문장(봉필의 농간·데릴사위 제도를 이용한 착취)은 이 위키문헌 인용이 싣지 않는다. '나'가 착취를 스스로 말하는 원문 대목으로 인용을 바꾸고, 고친 문장을 그 인용이 싣는 만큼으로 줄였다. 원문에는 '막 부려먹고 딸은 안 주고'라는 '나'의 말도 있다."
+    },
+    {
+     "sids": [
+      "82160d57ab6d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「만무방」은 해학을 걷어 내고 식민지 농촌 착취 체제의 모순을 겨냥했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "이 작품은 김유정 문학 특유의 해학성을 가능한 한 배제하고, 일제강점기 아래에서 농촌의 착취 체제에 내재하는 모순을 겨냥한 작품이다."
+    },
+    {
+     "sids": [
+      "82160d57ab6d",
+      "3d615fa8dbb3"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「만무방」은 추수해도 돌아오는 것이 없는 소작농이 제 논의 벼를 훔치는 현실을 반어로 보여 준다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "추수를 하여도 아무런 수확도 돌아가지 않는 빈한한 소작 농민이 끝내 제 논의 벼를 도둑질할 수밖에 없는 참담한 현실을 반어적(反語的)으로 제시한 것이다."
+    },
+    {
+     "sids": [
+      "3fe956d17c98"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1935년 신춘문예 당선으로 등단했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "1935년 단편소설 「소낙비」가 『조선일보』에, 「노다지」가 『중앙일보』의 신춘문예에 각각 당선되어 문단에 올랐다."
+    },
+    {
+     "sids": [
+      "3fe956d17c98"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1937년 폐결핵으로 죽었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "등단 이전부터 앓고 있던 폐결핵이 악화되어 1937년 3월, 29살의 나이로 세상을 떠났다."
+    },
+    {
+     "sids": [
+      "3fe956d17c98"
+     ],
+     "field": "author.importanceReason",
+     "claim": "2년 남짓한 작가 생활 동안 30편 내외의 단편을 남겼다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "그는 불과 2년 남짓한 작가생활을 통해서 30편 내외의 단편과 1편의 미완성 장편, 그리고 1편의 번역소설을 남길 만큼"
+    },
+    {
+     "sids": [
+      "3fe956d17c98",
+      "df8dbd4d5292"
+     ],
+     "field": "author.importanceReason",
+     "claim": "후기 구인회의 일원으로 이상 등과 교분을 나누며 창작했다(한국민족문화대백과사전의 기록).",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "그뒤 후기 구인회(九人會)의 일원으로 김문집(金文輯) · 이상(李箱) 등과 교분을 가지면서 창작활동을 하였다."
+    },
+    {
+     "sids": [
+      "4c9c6201dd52"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「동백꽃」은 구운 감자와 여러 차례의 닭싸움이 이야기의 뼈대인 단편이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "소년에게 관심을 둔 점순은 구운 감자를 주면서 접근하지만, 뜻을 알아차리지 못한 소년은 그것을 거절한다. 무안당한 점순은 드디어 자기 집 수탉과 소년의 집 수탉을 싸움 붙이면서 여러 차례 약을 올린다."
+    },
+    {
+     "sids": [
+      "4c9c6201dd52",
+      "cc2e8a82381b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「동백꽃」은 김유정의 다른 작품과 달리 비극적 요소가 없는 희극이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "김유정의 다른 작품에 비하여 비극적 요소가 내재하지 않은 희극이라는 특성을 지니고 있다."
+    },
+    {
+     "sids": [
+      "311afc050ed7"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「동백꽃」의 1인칭 '나'는 사건(점순이의 뜻)을 알아차리지 못하는 어수룩한 화자다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "작품의 주인공이면서 서술자인 ‘나’는 순박하다 못하여 어수룩한 소년이다. … 소년에게 관심을 둔 점순은 구운 감자를 주면서 접근하지만, 뜻을 알아차리지 못한 소년은 그것을 거절한다.",
+     "note": "재인용: 원 인용은 '어수룩한 서술자'만 싣고 '뜻을 알아차리지 못한다'는 싣지 않았다. 같은 문단을 이어 인용했다."
+    },
+    {
+     "sids": [
+      "311afc050ed7"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "인물과 독자 사이의 간격이 김유정 문학의 핵심 장치다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "이처럼 등장인물을 향한 독자들의 기대감과 실제 등장인물을 조종하면서 소설가가 만들어내는 인물의 행위간의 마찰과 간극에서 벌어지는 희화화된 인간관계는 김유정 문학의 백미라고 할 수 있다."
+    },
+    {
+     "sids": [
+      "311afc050ed7"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "그 간격이 「동백꽃」에서 가장 선명하다.",
+     "verdict": "contradicted",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "작품의 주인공이면서 서술자인 ‘나’는 순박하다 못하여 어수룩한 소년이다. … 소년에게 관심을 둔 점순은 구운 감자를 주면서 접근하지만, 뜻을 알아차리지 못한 소년은 그것을 거절한다.",
+     "correction": "「동백꽃」의 서술자 '나'도 점순이가 건넨 구운 감자의 뜻을 알아차리지 못하는 어수룩한 소년이다.",
+     "note": "'가장 선명하다'는 비교를 하는 출처를 찾지 못했다. 독립 검사: 앞의 고친 문장은 「봄봄」 항목 인용으로는 「동백꽃」에 대해 아무것도 말할 수 없어, 「동백꽃」 항목 인용으로 바꾸고 그것이 싣는 만큼으로 고쳤다."
+    },
+    {
+     "sids": [
+      "458de5ac6ad2"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "문학과지성사 한국문학전집 14 『동백꽃 — 김유정 단편선』은 유인순이 엮었다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=556477",
+     "quote": "동백꽃 - 김유정 단편선 | 문학과지성사 한국문학전집 14 김유정 (지은이), 유인순 (엮은이)"
+    },
+    {
+     "sids": [
+      "458de5ac6ad2"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 책에는 「동백꽃」을 포함해 23편(「동백꽃」 외 22편)이 실려 있다.",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/1484750",
+     "quote": "김유정의 주옥 같은 단편 23편 수록되어 있다."
+    },
+    {
+     "sids": [
+      "458de5ac6ad2"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 책에 「산골 나그네」「만무방」「봄봄」「따라지」「동백꽃」이 모두 실려 있어 한 권으로 읽기 순서를 이어 갈 수 있다.",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/1484750",
+     "quote": "산골 나그네 … 만무방 … 봄·봄 … 따라지 … 동백꽃"
+    },
+    {
+     "sids": [
+      "458de5ac6ad2"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 책에는 작품 해설이 붙어 있다.",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/1484750",
+     "quote": "작품 해설·행복과 등진 열정-김유정의 생애와 문학/유인순"
+    },
+    {
+     "sids": [
+      "458de5ac6ad2"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 책에는 낱말 풀이가 붙어 있다.",
+     "verdict": "unverifiable",
+     "note": "접근 대기: https://moonji.com/book/5601/ (출판사 페이지가 서버 오류를 반환). 예스24 목차에는 본문 뒤에 「주」라는 항목만 보이고, 이것이 낱말 풀이인지는 확인하지 못했다. 독립 검사: 문학과지성사 페이지는 지금도 서버 오류(500)다. Wayback 사본(https://web.archive.org/web/2024/https://moonji.com/book/5601/)의 목차도 예스24와 같이 본문 뒤 '주'만 보여 주고, 낱말 풀이라고 부르는 곳은 찾지 못했다."
+    },
+    {
+     "sids": [
+      "b7019b96420f"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "김유정의 작품은 단편이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "30편 내외의 단편과 1편의 미완성 장편"
+    },
+    {
+     "sids": [
+      "2559f011e23e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "「만무방」은 도지·장리 같은 식민지 농촌의 소작·부채 관계를 배경으로 한다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "도지(賭地) · 장리(長利) · 색조(色租) … · 세금 · 부채 등의 가혹한 식민지 경제체제의 압력 때문에 살아나가기 힘든 두 형제의 부랑하는 삶을 그리고 있다.",
+     "note": "재인용: 원 인용은 낱말 셋뿐이라 '식민지 농촌의 소작·부채 관계가 배경'임을 싣지 않았다. 문장 전체를 인용했다."
+    },
+    {
+     "sids": [
+      "6ead8c3233dc"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.facts",
+     "claim": "「산골 나그네」는 1933년에 발표된 단편소설이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "1933년, 『제일선(第一線)』에 발표된 김유정의 단편소설.",
+     "note": "같은 사전의 김유정 인물 항목은 「산골 나그네」를 1936년 발표작 사이에 적었지만, 작품 항목은 1933년 『제일선』 발표로 적는다."
+    },
+    {
+     "sids": [
+      "ec27905b0387"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "늦가을 산골 주막에 나그네가 찾아온다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "어느 늦은 가을밤 산골 … 의 허름한 주막에 한 나그네가 찾아온다.",
+     "note": "재인용: 원 인용이 '주막'과 '나그네가 찾아온다'를 싣지 않았다. 문장 전체를 인용했다."
+    },
+    {
+     "sids": [
+      "ec27905b0387"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "열아홉 살 나그네가 주인의 아들 덕돌이와 혼인한다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "함께 생활하며 지켜 본 나그네는 열아홉이라는 나이에 어울리지 않게 외양은 시들어 가지만, 부지런하고 사랑스러운 데가 있다. 여주인은 나그네를 딸처럼 여기며, 며느리로도 욕심낸다. … 아들 덕돌이도 같은 마음이었는지 여주인이 집을 비운 사이 나그네에게 추근거리고, 결국 나그네는 덕돌이와 혼인한다.",
+     "note": "재인용: 원 인용은 '열아홉'만 싣고 주인의 아들 덕돌이와의 혼인을 싣지 않았다. 같은 문단을 이어 인용했다."
+    },
+    {
+     "sids": [
+      "ec27905b0387"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "나그네는 주막 주인의 아들 덕돌이와 혼인하고, 이튿날 밤 그의 옷을 훔쳐 달아난다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "여주인은 나그네를 딸처럼 여기며, 며느리로도 욕심낸다. … 아들 덕돌이도 같은 마음이었는지 여주인이 집을 비운 사이 나그네에게 추근거리고, 결국 나그네는 덕돌이와 혼인한다. 여주인은 은비녀와 은가락지를 며느리가 된 나그네에게 선물한다. 그러나 혼인한 바로 다음날 밤 나그네는 덕돌이가 잠든 틈을 타 그가 아끼는 옷을 훔쳐 도망간다.",
+     "note": "재인용: 원 인용이 덕돌이가 주막 여주인의 아들임을 싣지 않았다. 같은 문단을 앞으로 넓혀 인용했다."
+    },
+    {
+     "sids": [
+      "ec27905b0387"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "나그네는 물방앗간에 숨어 있던 병든 남자에게 덕돌의 옷을 입혀 함께 떠난다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "물방앗간 … 에 숨어 있던 병든 남자를 찾아가, 그에게 덕돌의 옷을 입히고 부축해 길을 떠난다."
+    },
+    {
+     "sids": [
+      "ec27905b0387"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "그 병든 남자는 남편으로 짐작된다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "자신의 남편(으로 추정되는)에게만은 단호하게 지시하고"
+    },
+    {
+     "sids": [
+      "12fb7f5717f5"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "「산골 나그네」는 1933년에 발표된 김유정의 첫 작품이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "1933년 「산골 나그네」를 시작으로 「총각과 맹꽁이」, 「흙을 등지고」 등을 발표하였으나",
+     "note": "독립 검사: 원 주장을 나눔 — 인용이 『제일선』을 싣지 않아 그 부분은 같은 항목의 정의 문장으로 따로 확인했다."
+    },
+    {
+     "sids": [
+      "12fb7f5717f5"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "뿌리 뽑힌 사람들의 궁핍, 무기력한 남자와 생활력 강한 여자, 살기 위한 매춘 같은 이후 소설의 특징이 이 작품에서 시작된다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "뿌리 뽑힌 인간들의 빈궁한 생활상, 무기력한 남성과 생활력 강한 여성, 살기 위한 매춘, 순박한 인간성, 원점 회귀의 구성 등은 김유정 소설의 일관된 특징인데, 그것이 바로 그의 첫 작품인 「산골 나그네」에서부터 시작된 것이다."
+    },
+    {
+     "sids": [
+      "a875431f139d",
+      "2b7dc1338a6c"
+     ],
+     "field": "work:kim-yu-jeong--geum-ttaneun-kongbat.facts",
+     "claim": "「금 따는 콩밭」은 1935년 3월 『개벽』에 발표되었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0007732",
+     "quote": "1935년 3월 『개벽(開闢)』에 발표되었으며"
+    },
+    {
+     "sids": [
+      "fb2b4c37a844"
+     ],
+     "field": "work:kim-yu-jeong--geum-ttaneun-kongbat.significance",
+     "claim": "가난한 소작인 영식이 수재의 감언이설을 믿고 한창 자라는 콩밭을 판다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0007732",
+     "quote": "가난한 소작인에 불과한 주인공 영식은 금을 찾아다니는 수재의 감언이설을 그대로 믿고, 수재와 함께 콩이 한창 자라는 콩밭을 파기 시작한다."
+    },
+    {
+     "sids": [
+      "fb2b4c37a844"
+     ],
+     "field": "work:kim-yu-jeong--geum-ttaneun-kongbat.significance",
+     "claim": "이웃에게 양식을 꾸어 산제를 올리지만 가을이 되도록 금맥은 나오지 않는다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0007732",
+     "quote": "그러나 부부는 이웃에서 양식을 꾸고 떡을 해서 산제 … 를 드린다. 가을이 되어도 금맥은커녕 빌린 양식마저 갚을 수 없게 되자"
+    },
+    {
+     "sids": [
+      "6fdcf83b6e4a"
+     ],
+     "field": "work:kim-yu-jeong--geum-ttaneun-kongbat.significance",
+     "claim": "불안해진 수재가 황토 한 줌을 금이라 속이고 그날 밤 달아날 결심을 하는 데서 끝난다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0007732",
+     "quote": "속인 것이 불안해진 수재는 파낸 흙 속에서 불그죽죽한 황토 한 줌을 움켜내어 영식 부부에게 이게 바로 한 포대에 오십 원씩 하는 금이라고 속이면서 거짓말을 하고는 그날 밤으로 꼭 달아나리라고 결심을 한다."
+    },
+    {
+     "sids": [
+      "6fdcf83b6e4a"
+     ],
+     "field": "work:kim-yu-jeong--geum-ttaneun-kongbat.significance",
+     "claim": "탐욕을 날카로운 풍자 대신 연민 섞인 해학으로 그렸다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0007732",
+     "quote": "그러면서도 이를 날카로운 풍자로써 해부한 것이 아니라 연민을 동반한 해학으로 변용시키고 있다."
+    },
+    {
+     "sids": [
+      "a2cdc110fe65",
+      "a7002be7db0c"
+     ],
+     "field": "work:kim-yu-jeong--manmubang.facts",
+     "claim": "「만무방」은 1935년 7월 『조선일보』에 연재되었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "1935년 7월 17일부터 7월 31일까지 『조선일보』에 연재되었다."
+    },
+    {
+     "sids": [
+      "2678cebd59b1"
+     ],
+     "field": "work:kim-yu-jeong--manmubang.significance",
+     "claim": "형 응칠은 빚 때문에 파산하고 도박과 절도로 떠돈다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "형인 응칠은 부채 때문에 파산을 선언하고 도박과 절도로 전전하며"
+    },
+    {
+     "sids": [
+      "2678cebd59b1"
+     ],
+     "field": "work:kim-yu-jeong--manmubang.significance",
+     "claim": "응오 논의 벼 도둑을 잡고 보니 그 논을 지은 응오 자신이었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "깊은 밤중 격투 끝에 도둑을 잡고 보니 범인은 바로 이 논의 농사를 지은 동생 응오였다."
+    },
+    {
+     "sids": [
+      "3d615fa8dbb3"
+     ],
+     "field": "work:kim-yu-jeong--manmubang.significance",
+     "claim": "김유정 특유의 해학을 되도록 걷어 냈다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "김유정 문학 특유의 해학성을 가능한 한 배제하고"
+    },
+    {
+     "sids": [
+      "c8baecd25c90",
+      "237feccd43e1"
+     ],
+     "field": "work:kim-yu-jeong--bombom.facts",
+     "claim": "「봄봄」은 1935년 12월 『조광』에 발표되었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "1935년 12월 『조광(朝光)』에 발표되었다."
+    },
+    {
+     "sids": [
+      "56ebd05a2997"
+     ],
+     "field": "work:kim-yu-jeong--bombom.significance",
+     "claim": "'나'는 마름 봉필의 딸 점순이와 혼인하려고 3년 넘게 돈 한 푼 받지 않고 데릴사위로 머슴 노릇을 한다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "‘나’는 3년을 훨씬 넘도록 봉필이라는 마름의 딸 점순이와 혼인하기 위하여 돈 한 푼 안 받고 데릴사위 … 로서 약정된 머슴노릇을 한다."
+    },
+    {
+     "sids": [
+      "56ebd05a2997"
+     ],
+     "field": "work:kim-yu-jeong--bombom.significance",
+     "claim": "장인은 점순이가 덜 자랐다는 이유로 성례를 미룬다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "‘나’는 어서 빨리 점순이와 혼인을 하고 싶으나, 그럼으로써 노동력이 손실될까 우려하는 봉필의 욕심 때문에 그 소망은 번번이 좌절된다. 봉필의 상투적인 이유는 점순이가 채 자라지 않았기 때문이라는 것이다.",
+     "note": "재인용: 원 인용은 '이유'만 싣고 그것이 혼인(성례)을 미루는 이유임을 싣지 않았다. 앞 문장까지 인용했다."
+    },
+    {
+     "sids": [
+      "fe52a0858bae"
+     ],
+     "field": "work:kim-yu-jeong--bombom.significance",
+     "claim": "장인과 드잡이하던 '나'는 믿었던 점순이가 장인 편을 들자 맥이 풀린다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "결사적으로 장인의 급소를 붙잡고 늘어진다. 그런데 이 때, 성례 요구를 종용했고 내 편을 들어주리라 믿었던 점순이가 장인 편에 서서 자신을 비난하는 바람에 ‘나’는 맥이 모두 빠져버린다."
+    },
+    {
+     "sids": [
+      "dca94f367426"
+     ],
+     "field": "work:kim-yu-jeong--bombom.significance",
+     "claim": "「봄봄」은 전래하는 바보사위 이야기와 이어진다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "전래하는 바보사위 이야기와의 연관성"
+    },
+    {
+     "sids": [
+      "41b8f334f958",
+      "efb406606e6d"
+     ],
+     "field": "work:kim-yu-jeong--dongbaekkkot.facts",
+     "claim": "「동백꽃」은 1936년 5월 『조광』에 발표되었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "1936년 5월 『조광(朝光)』에 발표되었고"
+    },
+    {
+     "sids": [
+      "ee195885c61c"
+     ],
+     "field": "work:kim-yu-jeong--dongbaekkkot.significance",
+     "claim": "마름집 딸 점순이가 건넨 구운 감자를 '나'가 뜻도 모른 채 거절하자, 점순이는 두 집 수탉을 거듭 싸움 붙여 약을 올린다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "소년에게 관심을 둔 점순은 구운 감자를 주면서 접근하지만, 뜻을 알아차리지 못한 소년은 그것을 거절한다. 무안당한 점순은 드디어 자기 집 수탉과 소년의 집 수탉을 싸움 붙이면서 여러 차례 약을 올린다."
+    },
+    {
+     "sids": [
+      "ee195885c61c"
+     ],
+     "field": "work:kim-yu-jeong--dongbaekkkot.significance",
+     "claim": "점순이는 마름집 딸이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "소년의 아버지가 소작을 든 마름의 딸이다."
+    },
+    {
+     "sids": [
+      "37dec9a45e00"
+     ],
+     "field": "work:kim-yu-jeong--dongbaekkkot.significance",
+     "claim": "'나'가 점순네 닭을 때려죽이고 울자 점순이는 일러바치지 않겠다고 약속하고, 둘은 흐드러진 동백꽃 속에 파묻힌다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "화가 난 소년이 작대기로 점순네 닭을 때려 죽였으나, 마름집 위세를 생각하고 당황하여 울게 된다. 이 때 점순은 소년에게 자기 말을 들으면 일러바치지 않겠다고 약속하고, 둘은 부둥켜안은 채 한창 흐드러지게 핀 동백꽃 속으로 폭 파묻혀버린다."
+    },
+    {
+     "sids": [
+      "cc2e8a82381b"
+     ],
+     "field": "work:kim-yu-jeong--dongbaekkkot.significance",
+     "claim": "「동백꽃」은 사후 유고집 『동백꽃』(1938)의 표제작이 되었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016499",
+     "quote": "『동백꽃』은 1938년 12월에 발행된 김유정의 단편소설집으로, 김유정이 죽은 다음 해에 간행되었다. 엄밀하게 말하자면 김유정의 유고집(遺稿集)이다. 김유정의 대표작인 「동백꽃」을 소설집의 제목으로 삼았다.",
+     "note": "재인용: 원 인용이 1938년과 사후 간행을 싣지 않았다. 같은 문단을 앞으로 넓혀 인용했다."
+    },
+    {
+     "sids": [
+      "b03d1bb6d2cf",
+      "47ee8172e170"
+     ],
+     "field": "work:kim-yu-jeong--ttaraji.facts",
+     "claim": "「따라지」는 1937년 2월 『조광』에 발표된 단편소설이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "「따라지」는 1937년 2월 『조광(朝光)』 3권 2호에 발표된 김유정의 단편소설이다."
+    },
+    {
+     "sids": [
+      "f0b205e5508a"
+     ],
+     "field": "work:kim-yu-jeong--ttaraji.significance",
+     "claim": "어느 봄날 사직동 꼭대기 초가집에서 방세를 받아 내려는 주인마누라의 이야기로 시작한다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "소설은 어느 화창한 봄날 사직동 꼭대기에 올라붙은 초가집, 방세 … 를 제대로 받지 못하고 있는 주인마누라 … 의 푸념으로부터 시작된다."
+    },
+    {
+     "sids": [
+      "f0b205e5508a"
+     ],
+     "field": "work:kim-yu-jeong--ttaraji.significance",
+     "claim": "세입자로 버스 차장 딸에게 얹혀사는 영감과 카페에 나가는 아끼꼬가 나온다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "버스 차장 … 딸에게 붙어 사는, 영양실조로 얼굴이 뜬 ‘노랑퉁이’ … 영감에게 집세 … 를 재촉하지만, 앓는 소리와 호통으로 물러나온다. 그 뒤, 카페에 나가는 ‘아끼꼬’에게로 화살을 돌리나"
+    },
+    {
+     "sids": [
+      "f0b205e5508a"
+     ],
+     "field": "work:kim-yu-jeong--ttaraji.significance",
+     "claim": "누이 방에 얹혀 글만 쓰는 '톨스토이'라는 세입자가 나온다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "누이의 방에 얹혀살면서 누이에게 늘 구박당하고도 방구석에서 글만 쓰는 톨스토이"
+    },
+    {
+     "sids": [
+      "6c6440912efd"
+     ],
+     "field": "work:kim-yu-jeong--ttaraji.significance",
+     "claim": "1930년 누이에게 기식하던 사직동 시절의 체험에서 나온 작품이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "도시 빈민을 소재로 한 작품의 하나로, 1930년 둘째 누이 김유형에게 '기식하며 … 살았던' 사직동 … 시절의 체험을 기반으로 하고 있다.",
+     "note": "재인용: 원 인용이 인용부호 안에서 끊겨 '사직동 시절의 체험을 기반으로'를 싣지 않았다. 문장 전체를 인용했다."
+    },
+    {
+     "sids": [
+      "6c6440912efd"
+     ],
+     "field": "work:kim-yu-jeong--ttaraji.significance",
+     "claim": "배경을 도시(변두리)로 옮겼지만 같은 골계와 해학으로 다룬다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "웃음 속에는 도회 변두리에서 허덕이는 최하층의 삶의 슬픔과 고달픔이 반어적으로 나타난다. … 김유정 소설을 대표하는 작품은 「봄봄」 , 「동백꽃」 , 「산골 나그네」 등으로, 이들은 시골을 배경으로 궁핍하고 고단한 농민들의 모습을 그린다. 그럼에도 이들 소설에서 농민들이 어둡게만 그려지지 않은 것은 작가 특유의 웃음, 곧 골계와 해학 덕분이다. 「따라지」에서도 소설의 배경은 도회 … 로 옮겨왔지만, 방세를 받으려는 주인의 음모와 방세를 어떻게든 미루려는 셋방 사람들 사이의 갈등을 통해 김유정 문학의 특징인 골계와 해학이 잘 드러나고 있다.",
+     "note": "재인용: 원 인용은 '도회로 옮겼다'만 싣고 '변두리'와 시골(농촌)에서 옮겨 왔다는 대비를 싣지 않았다. 같은 '의의와 평가' 문단을 이어 인용했다."
+    },
+    {
+     "sids": [
+      "88bfc5fe1d93"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.facts",
+     "claim": "김유정과 이상은 서로 교분을 나눈 사이다(대화·쌍방).",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0010093",
+     "quote": "후기 구인회(九人會)의 일원으로 김문집(金文輯) · 이상(李箱) 등과 교분을 가지면서 창작활동을 하였다."
+    },
+    {
+     "sids": [
+      "88bfc5fe1d93"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.facts",
+     "claim": "두 사람의 교류는 이상의 글이라는 당대 문헌으로 기록되어 있다(documented).",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EB%A1%A0",
+     "quote": "창문사에서 내가 집무랍시고 하는 중에 떠억 나를 찾아온다. 와서는 내 집무 책상 앞에 마주 앉는다."
+    },
+    {
+     "sids": [
+      "dd63a4f2abe5"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.summary",
+     "claim": "『시와 소설』의 편집은 이상이 맡았다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EC%8B%9C%EC%99%80_%EC%86%8C%EC%84%A4_%ED%8E%B8%EC%A7%91%ED%9B%84%EA%B8%B0",
+     "quote": "편집만 인쇄소 관계상 이상이 맡아 보기로 한다."
+    },
+    {
+     "sids": [
+      "dd63a4f2abe5"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.summary",
+     "claim": "『시와 소설』 창간호는 1936년에 나왔다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0066561",
+     "quote": "창문사에서 1936년 3월 13일 창간호가 발행되었다."
+    },
+    {
+     "sids": [
+      "dd63a4f2abe5"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.summary",
+     "claim": "이상은 편집후기에서 구인회가 김유정과 김환태를 새 회원으로 맞았다고 적었다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EC%8B%9C%EC%99%80_%EC%86%8C%EC%84%A4_%ED%8E%B8%EC%A7%91%ED%9B%84%EA%B8%B0",
+     "quote": "구인회처럼 탈 많을 수 참 없다. … 회원을 너무 동떨어지지 않는 한에 맞아 보자고 꽤 오래전부터 말이 있어 왔는데 그도 또 자연 허명무실해 오던 차에 이번 기회에 김유정, 김환태 두 군을 맞았으니 퍽 좋다.",
+     "note": "재인용: 원 인용은 '두 군을 맞았다'만 싣고 구인회가 새 회원으로 맞았다는 것을 싣지 않았다. 같은 문단을 앞으로 넓혀 인용했다."
+    },
+    {
+     "sids": [
+      "dd63a4f2abe5"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.summary",
+     "claim": "이상의 「김유정 — 소설체로 쓴 김유정론」은 『청색지』 1939년에 발표되었다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EB%A1%A0",
+     "quote": "〈청색지〉, 1939.5."
+    },
+    {
+     "sids": [
+      "dd63a4f2abe5"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.summary",
+     "claim": "이상은 1937년 4월에 죽었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0044568",
+     "quote": "이로 인하여 건강이 더욱 악화되어 그 해 4월 동경대학 부속병원에서 사망하였다.",
+     "note": "이상은 1937년 4월 사망(이 인용), 김유정은 1937년 3월 사망(한국민족문화대백과사전 「산골 나그네」 항목). 글의 발표는 1939년 5월(위키문헌). 독립 검사: 원 주장을 나눔 — 인용은 이상의 사망만 싣는다. 김유정의 1937년 3월 사망은 아래 추가 주장으로, 1939년 5월 발표는 『청색지』 서지 주장으로 확인되며, '두 사람이 모두 죽은 뒤'는 이 세 날짜에서 나온다."
+    },
+    {
+     "sids": [
+      "dd63a4f2abe5"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.summary",
+     "claim": "그 글에서 이상은 창문사에서 교정을 보던 자기를 찾아와 말없이 마주 앉던 김유정을 그렸다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EB%A1%A0",
+     "quote": "창문사에서 내가 집무랍시고 하는 중에 떠억 나를 찾아온다. 와서는 내 집무 책상 앞에 마주 앉는다. 앉아서는 바위 덩어리처럼 말이 없다. 낸들 또 무슨 그리 신통한 이야기가 있으리요. 그저 서로 벙벙히 앉았는 동안에 나는 나대로 교정 등속 일을 한다.",
+     "note": "재인용: 원 인용이 '교정'을 싣지 않았다. 같은 문단을 이어 인용했다."
+    },
+    {
+     "sids": [
+      "a875431f139d"
+     ],
+     "field": "work:kim-yu-jeong--geum-ttaneun-kongbat.facts",
+     "claim": "「금 따는 콩밭」은 김유정의 단편소설(fiction)이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0007732",
+     "quote": "김유정(金裕貞)이 지은 단편소설."
+    },
+    {
+     "sids": [
+      "a2cdc110fe65"
+     ],
+     "field": "work:kim-yu-jeong--manmubang.facts",
+     "claim": "「만무방」은 김유정의 단편소설(fiction)이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017589",
+     "quote": "김유정(金裕貞)이 지은 단편소설."
+    },
+    {
+     "sids": [
+      "c8baecd25c90"
+     ],
+     "field": "work:kim-yu-jeong--bombom.facts",
+     "claim": "「봄봄」은 김유정의 단편소설(fiction)이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0023781",
+     "quote": "김유정(金裕貞)이 지은 단편소설."
+    },
+    {
+     "sids": [
+      "41b8f334f958"
+     ],
+     "field": "work:kim-yu-jeong--dongbaekkkot.facts",
+     "claim": "「동백꽃」은 김유정의 단편소설(fiction)이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0016498",
+     "quote": "김유정(金裕貞)이 지은 단편소설."
+    },
+    {
+     "sids": [
+      "48053926a468"
+     ],
+     "field": "author.facts",
+     "claim": "김유정은 한국어로 썼다(ko).",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EB%B4%84%EB%B4%84",
+     "quote": "봄 · 봄 ( 1935 ) 저자: 김유정 … “장인님! 인제 저…….” 내가 이렇게 뒤통수를 긁고, 나이가 찼으니 성례를 시켜줘야 하지 않겠느냐고 하면",
+     "note": "독립 검사에서 추가: 원 주장에서 뗀 언어 부분. 위키문헌의 「봄봄」 전사본은 한국어 원문이다."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「금 따는 콩밭」에는 1930년대 농촌의 현실이 반영되어 있다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0007732",
+     "quote": "이 작품에는 1930년대 농촌의 삶의 현실이 적지 않게 반영되어 있다.",
+     "note": "독립 검사에서 추가: 원 주장에서 뗀 '1930년대' 부분. 작품 발표 연도(1933~1937)는 각 작품 서지 주장으로도 확인된다."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「봄봄」의 무대는 산골이다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EB%B4%84%EB%B4%84",
+     "quote": "바위 틈에서 샘물 소리밖에 안 들리는 산골짜기니까",
+     "note": "독립 검사에서 추가: 원 주장에서 뗀 '산골' 부분. '강원도'는 춘천 출신 주장과 「동백꽃」의 강원 지역 말 주장이 싣는다."
+    },
+    {
+     "sids": [
+      "76a803b41fa9"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「따라지」의 무대 사직동은 서울의 동네다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0017167",
+     "quote": "주2 : 서울특별시 종로구의 남부에 있는 동.",
+     "note": "독립 검사에서 추가: 원 주장에서 뗀 '서울' 부분. 주2는 같은 항목 개설의 '사직동'에 달린 주석이다."
+    },
+    {
+     "sids": [
+      "12fb7f5717f5"
+     ],
+     "field": "work:kim-yu-jeong--sangol-nageune.significance",
+     "claim": "「산골 나그네」는 『제일선』에 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "1933년, 『제일선(第一線)』에 발표된 김유정의 단편소설.",
+     "note": "독립 검사에서 추가: 원 주장에서 뗀 『제일선』 부분."
+    },
+    {
+     "sids": [
+      "dd63a4f2abe5"
+     ],
+     "field": "relation:dialogue--kim-yu-jeong--yi-sang.summary",
+     "claim": "김유정은 1937년 3월에 죽었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026188",
+     "quote": "등단 이전부터 앓고 있던 폐결핵이 악화되어 1937년 3월, 29살의 나이로 세상을 떠났다.",
+     "note": "독립 검사에서 추가: '두 사람이 모두 세상을 떠난 뒤 발표된'의 김유정 쪽 날짜."
+    }
+   ]
+  }
+ ],
+ "check": {
+  "kept": 56,
+  "requoted": 12,
+  "downgraded": 0,
+  "added": 6,
+  "noClaimConverted": 0
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "fixes": [
+    {
+      "id": "kim-seung-ok",
+      "difficultyReason": "대표작 대부분이 짧은 단편이다. 다만 인물의 속내가 안개·햇볕 같은 감각적 이미지와 자조적인 대화 속에 암시로만 놓여 있다.",
+      "works": [
+        {
+          "id": "kim-seung-ok--hwansang-sucheop",
+          "significance": "1962년 김현·최하림 등과 함께 낸 동인지 『산문시대』에 발표했다. 「생명연습」과 함께 현실 너머의 삶을 동경한 초기 소설로 꼽히며, 「무진기행」 이후 현실의 법칙을 인정하는 쪽으로 옮겨 가기 전의 김승옥을 보여 준다."
+        },
+        {
+          "id": "kim-seung-ok--seoul-ui-dalbit-0-jang",
+          "significance": "1977년 제1회 이상문학상 수상작이다. 산업 사회에서 꿈을 잃고 살아갈 수밖에 없는 사람들의 상실감을 그린 후기 소설에 속하며, 1970년대에 간헐적으로 발표한 소설 가운데 하나다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:kim-seung-ok--hwansang-sucheop.significance",
+          "claim": "「생명연습」과 함께 현실 너머의 삶을 좇는 초기 소설을 '대표'한다",
+          "resolution": "corrected",
+          "evidence": "'대표하며'를 교정문대로 '초기 소설로 꼽히며'로, '좇는'을 인용의 '동경'으로 바꿨다. 길이를 넘지 않게 '동경하는' 대신 '동경한'을 썼다: 「「생명연습」과 함께 현실 너머의 삶을 동경한 초기 소설로 꼽히며, …」"
+        },
+        {
+          "field": "work:kim-seung-ok--seoul-ui-dalbit-0-jang.significance",
+          "claim": "중편이다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 '중편'을 뺐다: 「1977년 제1회 이상문학상 수상작이다.」"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "대표작(주요 작품) 대부분이 단편이다",
+          "resolution": "narrowed",
+          "evidence": "점검이 확인 대상이 아닌 평가라고 한 '문장도 막힘없이 읽힌다'를 뺐다: 「대표작 대부분이 짧은 단편이다.」"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "인물들이 자조적인 대화를 나눈다(「서울 1964년 겨울」)",
+          "resolution": "narrowed",
+          "evidence": "점검이 확인 대상이 아닌 읽기 조언이라고 한 '줄거리만 따라가면 … 놓치기 쉽다'를 뺐다: 「다만 인물의 속내가 … 자조적인 대화 속에 암시로만 놓여 있다.」"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "평론가 유종호가 김승옥의 작품을 '감수성의 혁명'이라 불렀다",
+          "resolution": "accepted",
+          "evidence": "읽지 못한 것은 유종호의 원문(1966 비평, 『문학과 현실』)뿐이다. 문장 ac2751cdab96은 '평론가 유종호는 이를 '감수성의 혁명'이라 불렀다'로 발언의 귀속만 적고 원문의 연도·수록처는 적지 않는다. 그 귀속은 예스24 인용이 싣는다."
+        },
+        {
+          "field": "work:kim-seung-ok--seoul-ui-dalbit-0-jang.facts",
+          "claim": "1977년에 발표했다",
+          "resolution": "accepted",
+          "evidence": "어긋난 것은 한국어 위키백과의 '1976년에 발표'이고 이 연도는 페이지 어디에도 없다. 사실 줄 0b6c324c65aa는 '· 1977 ·'만 적으며, 예스24 인용 '「서울의 달빛 0장」(1977)'을 이 세션에 다시 받아 그대로 확인했다."
+        }
+      ]
+    }
+  ]
+}

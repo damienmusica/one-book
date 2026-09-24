@@ -1,0 +1,976 @@
+{
+ "plates": [
+  {
+   "id": "olga-tokarczuk",
+   "claims": [
+    {
+     "sids": [
+      "26f8288bcd84"
+     ],
+     "field": "author.facts",
+     "claim": "토카르추크는 1962년에 태어났다(생존).",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Olga_Tokarczuk",
+     "quote": "(1962-01-29) 29 January 1962 (age 64)",
+     "note": "재인용: 원 인용(노벨상 팩트 페이지)은 출생만 싣고 '(생존)'을 싣지 않아, 생존 인물의 현재 나이를 표시하는 위키백과 정보상자 줄로 바꿈"
+    },
+    {
+     "sids": [
+      "26f8288bcd84"
+     ],
+     "field": "author.facts",
+     "claim": "토카르추크는 폴란드 작가다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/press-release/",
+     "quote": "The Nobel Prize in Literature for 2018 is awarded to the Polish author\n Olga Tokarczuk",
+     "note": "검수: 원 claim의 '폴란드어로 쓰는'은 인용이 싣지 않아 claim에서 뗐다 — 새로 더한 claim(위키백과 정보상자 Language Polish)이 싣는다"
+    },
+    {
+     "sids": [
+      "26f8288bcd84"
+     ],
+     "field": "author.facts",
+     "claim": "토카르추크는 중부 유럽 지역의 작가다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "I’ve always been aware that as a writer I belong, like it or not, to the great land that is Central Europe"
+    },
+    {
+     "sids": [
+      "4e19e6df75cc"
+     ],
+     "field": "author.importanceReason",
+     "claim": "토카르추크는 『방랑자들』을 스스로 '별자리 소설'이라 불렀다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "The result of them was Flights – a very important book for me, in which I applied all my literary intuition, and which I called a “constellation novel”.",
+     "note": "검수: 원 claim의 '조각을 이어 붙인'은 이 인용이 싣지 않아 claim에서 뗐다 — 조각 구성은 노벨 전기 인용 claim들이 싣는다"
+    },
+    {
+     "sids": [
+      "4e19e6df75cc"
+     ],
+     "field": "author.importanceReason",
+     "claim": "토카르추크는 조각들이 별자리를 이루는 글쓰기를 옹호하며 밀고 나갔다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/lecture/",
+     "quote": "Perhaps we should trust fragments, as it is fragments that create constellations capable of describing more, and in a more complex way, multi-dimensionally."
+    },
+    {
+     "sids": [
+      "4e19e6df75cc"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『방랑자들』은 연대기적 흐름을 따르지 않고 짤막한 에피소드들을 엮은 패치워크식 이야기 방식을 쓴다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463990",
+     "quote": "단선적 혹은 연대기적인 흐름을 따르지 않고, 단문이나 짤막한 에피소드를 촘촘히 엮어서 중심 서사를 완성하는 패치워크와도 같은 이야기 방식"
+    },
+    {
+     "sids": [
+      "9f75154de0b5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『방랑자들』은 연대기적 흐름을 따르지 않고 짤막한 에피소드들을 엮은 패치워크식 이야기 방식을 쓴다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463990",
+     "quote": "단선적 혹은 연대기적인 흐름을 따르지 않고, 단문이나 짤막한 에피소드를 촘촘히 엮어서 중심 서사를 완성하는 패치워크와도 같은 이야기 방식"
+    },
+    {
+     "sids": [
+      "e83a9350e50b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『태고의 시간들』은 가상의 마을 태고를 무대로 1914년부터 시작해 20세기 폴란드사를 여러 세대의 가족사로 다룬다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "This subtly constructed family saga in several succeeding generations is set in a mythical place with strong symbolical impact, simultaneously full of realistic and vivid details. It starts in 1914 and deals with the Polish history of the 20th century"
+    },
+    {
+     "sids": [
+      "ec9c81aa1b60"
+     ],
+     "field": "work:olga-tokarczuk--prawiek-i-inne-czasy.significance",
+     "claim": "『태고의 시간들』은 가상의 마을 태고를 무대로 1914년부터 시작해 20세기 폴란드사를 여러 세대의 가족사로 다룬다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "This subtly constructed family saga in several succeeding generations is set in a mythical place with strong symbolical impact, simultaneously full of realistic and vivid details. It starts in 1914 and deals with the Polish history of the 20th century"
+    },
+    {
+     "sids": [
+      "e83a9350e50b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『태고의 시간들』은 인물과 사물마다 '~의 시간'이라는 제목을 붙인 짧은 장들로 이뤄진다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=362981499",
+     "quote": "태고의 시간 ․ 11 게노베파의 시간 ․ 15 미시아의 천사의 시간 ․ 22 크워스카의 시간 ․ 26 나쁜 인간의 시간 ․ 39 게노베파의 시간 ․ 43 상속자 포피엘스키의 시간 ․ 56 예슈코틀레 성모의 시간 ․ 61 미하우의 시간 ․ 64 미시아의 시간 ․ 68 미시아의 그라인더의 시간 ․ 71 교구신부의 시간 ․ 75",
+     "note": "재인용: 원 인용(목차 한 줄)은 '인물과 사물마다'와 '짧은'을 싣지 못해, 인물·사물 이름과 3~13쪽 간격의 쪽수가 드러나는 같은 목차 구간으로 넓힘"
+    },
+    {
+     "sids": [
+      "ec9c81aa1b60"
+     ],
+     "field": "work:olga-tokarczuk--prawiek-i-inne-czasy.significance",
+     "claim": "『태고의 시간들』은 인물과 사물마다 '~의 시간'이라는 제목을 붙인 짧은 장들로 이뤄진다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=362981499",
+     "quote": "태고의 시간 ․ 11 게노베파의 시간 ․ 15 미시아의 천사의 시간 ․ 22 크워스카의 시간 ․ 26 나쁜 인간의 시간 ․ 39 게노베파의 시간 ․ 43 상속자 포피엘스키의 시간 ․ 56 예슈코틀레 성모의 시간 ․ 61 미하우의 시간 ․ 64 미시아의 시간 ․ 68 미시아의 그라인더의 시간 ․ 71 교구신부의 시간 ․ 75",
+     "note": "재인용: 원 인용(목차 한 줄)은 '인물과 사물마다'와 '짧은'을 싣지 못해, 인물·사물 이름과 3~13쪽 간격의 쪽수가 드러나는 같은 목차 구간으로 넓힘"
+    },
+    {
+     "sids": [
+      "e83a9350e50b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『방랑자들』은 100여 편(116편)의 짧은 조각으로 이뤄진다.",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Flights_(novel)",
+     "quote": "The novel is split into 116 short pieces,"
+    },
+    {
+     "sids": [
+      "c140998e3a7c"
+     ],
+     "field": "work:olga-tokarczuk--bieguni.significance",
+     "claim": "『방랑자들』은 100여 편(116편)의 짧은 조각으로 이뤄진다.",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Flights_(novel)",
+     "quote": "The novel is split into 116 short pieces,"
+    },
+    {
+     "sids": [
+      "9f65b68eafa1"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『방랑자들』은 100여 편(116편)의 짧은 조각으로 이뤄진다.",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Flights_(novel)",
+     "quote": "The novel is split into 116 short pieces,"
+    },
+    {
+     "sids": [
+      "bfb097311d4f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『죽은 이들의 뼈 위로 쟁기를 끌어라』는 추리소설의 형식을 빌려, 동물을 사랑하는 화자가 편협한 사냥꾼 공동체의 남자들과 맞서는 이야기다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "In the technically more conventional but still very original crime novel Prowadź swój pług przez kości umarłych from 2009 ( Drive Your Plow Over the Bones of the Dead , 2018) metaphysical speculation comes back in parodic form, when the protagonist, also the narrator, is presented as a fanatical animal lover and fervent astrologist. Considered mad by the people in her surroundings, she wages war with the male, local inhabitants, a depressingly narrow-minded hunting community."
+    },
+    {
+     "sids": [
+      "9fd3cc944f98"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『죽은 이들의 뼈 위로 쟁기를 끌어라』는 추리소설의 형식을 빌려, 동물을 사랑하는 화자가 편협한 사냥꾼 공동체의 남자들과 맞서는 이야기다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "In the technically more conventional but still very original crime novel Prowadź swój pług przez kości umarłych from 2009 ( Drive Your Plow Over the Bones of the Dead , 2018) metaphysical speculation comes back in parodic form, when the protagonist, also the narrator, is presented as a fanatical animal lover and fervent astrologist. Considered mad by the people in her surroundings, she wages war with the male, local inhabitants, a depressingly narrow-minded hunting community."
+    },
+    {
+     "sids": [
+      "47f0284fa801"
+     ],
+     "field": "author.importanceReason",
+     "claim": "토카르추크는 『방랑자들』로 2018년 맨부커 인터내셔널상을 받았다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "In 2018, Jennifer Croft's translation of Flights won the Man Booker International Prize"
+    },
+    {
+     "sids": [
+      "47f0284fa801"
+     ],
+     "field": "author.importanceReason",
+     "claim": "토카르추크는 2018년도 노벨문학상을 2019년에 받았다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/facts/",
+     "quote": "Nobel Prize in Literature 2018 Born: 29 January 1962, Sulechów, Poland … Olga Tokarczuk received her Nobel Prize in 2019.",
+     "note": "재인용: 원 인용에 '2018년도' 상이라는 것이 없어 같은 팩트박스의 머리줄까지 넓힘"
+    },
+    {
+     "sids": [
+      "fd43f963476d"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『죽은 이들의 뼈 위로 쟁기를 끌어라』는 범인과 동기가 끝에서야 밝혀지는 스릴러 형식을 따르며, 『방랑자들』과 달리 단숨에 읽힌다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "『방랑자들』과는 달리, 이 작품은 처음부터 끝까지 긴장감을 유지하며 단숨에 읽힌다. \n범인이 누군지, 그 동기가 무엇인지 대단원에서야 밝혀지는 스릴러 형식을 따르기 때문이다."
+    },
+    {
+     "sids": [
+      "9fd3cc944f98"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『죽은 이들의 뼈 위로 쟁기를 끌어라』 한국어판은 민음사에서 나왔다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "최성은 (옮긴이) 민음사 2020-09-18"
+    },
+    {
+     "sids": [
+      "9fd3cc944f98"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "민음사판은 396쪽이다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "396쪽"
+    },
+    {
+     "sids": [
+      "9fd3cc944f98"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "민음사판은 17장으로 이뤄진다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "17 처녀자리 362"
+    },
+    {
+     "sids": [
+      "5715e25403a9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "산문집 『다정한 서술자』에 「문학적 인물들, 두셰이코 케이스」가 실려 있다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937455971",
+     "quote": "문학적 인물들, 두셰이코 케이스 265"
+    },
+    {
+     "sids": [
+      "0f58f4bdc76f"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.significance",
+     "claim": "산문집 『다정한 서술자』에 「문학적 인물들, 두셰이코 케이스」가 실려 있다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937455971",
+     "quote": "문학적 인물들, 두셰이코 케이스 265"
+    },
+    {
+     "sids": [
+      "5715e25403a9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「문학적 인물들, 두셰이코 케이스」는 작가가 화자 두셰이코를 만든 과정을 풀어 쓴 글이다.",
+     "verdict": "unverifiable",
+     "note": "culture.pl 서평(https://culture.pl/pl/dzielo/olga-tokarczuk-czuly-narrator)은 이 강연(「Przypadek Duszejko. Postaci literackie」, 우치 대학 2018)이 문학적 인물 일반의 존재 방식을 다룬다고만 인용하고, 알라딘 책소개도 목차만 보여 줌. 두셰이코를 '만든 과정'을 다룬다는 서술은 확인 못 함 — \"두셰이코라는 인물을 사례로 문학적 인물을 다룬 강연\"으로 좁히는 편이 안전."
+    },
+    {
+     "sids": [
+      "0f58f4bdc76f"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.significance",
+     "claim": "「문학적 인물들, 두셰이코 케이스」는 작가가 화자 두셰이코를 만든 과정을 풀어 쓴 글이다.",
+     "verdict": "unverifiable",
+     "note": "culture.pl 서평(https://culture.pl/pl/dzielo/olga-tokarczuk-czuly-narrator)은 이 강연(「Przypadek Duszejko. Postaci literackie」, 우치 대학 2018)이 문학적 인물 일반의 존재 방식을 다룬다고만 인용하고, 알라딘 책소개도 목차만 보여 줌. 두셰이코를 '만든 과정'을 다룬다는 서술은 확인 못 함 — \"두셰이코라는 인물을 사례로 문학적 인물을 다룬 강연\"으로 좁히는 편이 안전."
+    },
+    {
+     "sids": [
+      "9f65b68eafa1"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『방랑자들』은 토카르추크 작품 중 가장 널리 알려진 책이다.",
+     "verdict": "unverifiable",
+     "note": "노벨상·culture.pl·위키백과·알라딘 책소개 어디에도 '가장 널리 알려진'이라는 비교 서술은 없음(알라딘은 '대표작'이라고만 씀). '대표작으로 꼽히는'으로 바꾸면 알라딘 책소개로 뒷받침됨."
+    },
+    {
+     "sids": [
+      "9f65b68eafa1"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『방랑자들』 민음사 세계문학전집판은 656쪽이다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463990",
+     "quote": "656쪽",
+     "note": "민음사 단행본(ISBN 9788937444005)은 620쪽이라, 판을 밝혀 두는 편이 정확하다."
+    },
+    {
+     "sids": [
+      "9f75154de0b5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『방랑자들』 민음사 세계문학전집판은 656쪽이다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463990",
+     "quote": "656쪽",
+     "note": "민음사 단행본(ISBN 9788937444005)은 620쪽이라, 판을 밝혀 두는 편이 정확하다."
+    },
+    {
+     "sids": [
+      "9f65b68eafa1"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『방랑자들』은 '별자리 소설'이라 곱씹어 읽어야 연결 고리가 보인다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "일명 ‘별자리 소설’로서 곱씹어 읽어야 비로소 촘촘히 배치된 연결 고리가 보이는 『방랑자들』"
+    },
+    {
+     "sids": [
+      "680781eb0c32"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『태고의 시간들』은 한 가상 마을의 한 세기를 따라가는 연대기다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "Primeval and Other Times recounts the hard passage of an imaginary village through a century of conflict, distant coups and decay."
+    },
+    {
+     "sids": [
+      "a4369951efa3"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『방랑자들』『태고의 시간들』『낮의 집 밤의 집』 같은 대표 장편이 짧은 조각을 늘어놓는 방식으로 쓰였다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=350498479",
+     "quote": "『방랑자들』을 비롯하여 『태고의 시간들』, 『낮의 집, 밤의 집』과 같은 장편 소설에서 짤막한 단편을 나열하는 미시 서사 기법을 도입하며"
+    },
+    {
+     "sids": [
+      "9f75154de0b5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『방랑자들』에는 여행 심리학 강연과 오스트리아 황제에게 보낸 서신 같은 서로 다른 글이 섞여 나온다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937463990",
+     "quote": "여행 심리학: 짧은 강연 2 280 … 오스트리아 황제 프란츠 1세에게 요제피네 졸리만이 보낸 세 번째 서신 417",
+     "note": "같은 목차에 「여행 심리학: 짧은 강연」도 있다. / 재인용: 원 인용은 서신만 싣고 claim의 '여행 심리학 강연'을 싣지 않아, 같은 목차 구간으로 넓힘"
+    },
+    {
+     "sids": [
+      "9f75154de0b5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『낮의 집 밤의 집』은 연대기적 흐름을 거부하고 짤막한 에피소드들을 엮는다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+     "quote": "연대기적 흐름을 거부하고, 단문이나 짤막한 에피소드들을 엮어 하나의 이야기로 빚어내는 특유의 내러티브 방식을 보여준다"
+    },
+    {
+     "sids": [
+      "c4a04d5ebf3c"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.significance",
+     "claim": "『낮의 집 밤의 집』은 연대기적 흐름을 거부하고 짤막한 에피소드들을 엮는다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+     "quote": "연대기적 흐름을 거부하고, 단문이나 짤막한 에피소드들을 엮어 하나의 이야기로 빚어내는 특유의 내러티브 방식을 보여준다"
+    },
+    {
+     "sids": [
+      "9f75154de0b5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『낮의 집 밤의 집』은 버섯과 들장미 포도주를 성녀 쿰메르니스의 전설과 같은 무게로 다룬다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "myth and reality are intimately connected in House of Day, House of Night , where mushrooms and wine made of wild roses are treated with the same attention as the legend of the martyr St. Kummernis.",
+     "note": "검수: 원 claim의 '한 지역 전체를 그린다'는 이 인용(다른 문단)이 싣지 않아 claim에서 뗐다 — 'depict a whole region' 인용 claim이 싣는다"
+    },
+    {
+     "sids": [
+      "c4a04d5ebf3c"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.significance",
+     "claim": "『낮의 집 밤의 집』은 버섯과 들장미 포도주를 성녀 쿰메르니스의 전설과 같은 무게로 다룬다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "myth and reality are intimately connected in House of Day, House of Night , where mushrooms and wine made of wild roses are treated with the same attention as the legend of the martyr St. Kummernis.",
+     "note": "검수: 원 claim의 '한 지역 전체를 그린다'는 이 인용(다른 문단)이 싣지 않아 claim에서 뗐다 — 'depict a whole region' 인용 claim이 싣는다"
+    },
+    {
+     "sids": [
+      "3687afaa8090"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "대표작 가운데 『죽은 이들의 뼈 위로 쟁기를 끌어라』만 한 방향으로 읽힌다.",
+     "verdict": "contradicted",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "『방랑자들』과는 달리, 이 작품은 처음부터 끝까지 긴장감을 유지하며 단숨에 읽힌다. 범인이 누군지, 그 동기가 무엇인지 대단원에서야 밝혀지는 스릴러 형식을 따르기 때문이다.",
+     "correction": "입문작 『죽은 이들의 뼈 위로 쟁기를 끌어라』는 『방랑자들』과 달리 범인과 동기가 대단원에서야 밝혀지는 스릴러 형식이라 단숨에 읽힌다.",
+     "note": "출처는 이 책이 기법상 더 관습적인 추리소설이라는 데까지만 말한다. 같은 노벨 위원회 전기는 '선형적 서사와 전지적 서술자'가 『낮의 집 밤의 집』(1998)에서 버려졌다고 써서 그 앞의 『태고의 시간들』도 선형 서사였음을 시사하므로, '~만은'이라는 배타 표현은 지지되지 않는다. / 검수: 원 correction의 '한 방향으로 읽힌다'는 원 인용(노벨 전기의 'technically more conventional … crime novel')이 싣지 않아, 그것을 싣는 알라딘 출판사 서평으로 인용을 바꾸고 correction을 인용 범위로 고침. '~만은' 배타 표현은 여전히 어느 출처도 싣지 않는다"
+    },
+    {
+     "sids": [
+      "ff211cf40c00"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.facts",
+     "claim": "『낮의 집 밤의 집』(Dom dzienny, dom nocny)은 1998년에 나온 소설이다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "But the device of a linear fable with an omniscient narrator, and a strong metaphysical undercurrent, are abandoned in the impressive Dom dzienny, dom nocny from 1998 ( House of Day, House of Night , 2002)."
+    },
+    {
+     "sids": [
+      "c4a04d5ebf3c"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.significance",
+     "claim": "『낮의 집 밤의 집』의 화자는 1990년대에 폴란드 노바루다에 몇 달간 머물며 이웃을 관찰한다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+     "quote": "『낮의 집 밤의 집』의 시간적 배경은 1990년대, 공간적 배경은 폴란드 작은 마을 피에트노와 그 주변 지역인 ‘검은 숲’, 등산로, 노바루다, 밤비에지체, 쳉스토호바 및 브로츠와프다. 하지만 인물들의 기억은 2차 세계 대전으로 거슬러 올라가기도 하고, 성녀 쿰메르니스가 살던 옛적으로 가기도 한다. 주인공이자 화자인 ‘나’는 동행인 R과 몇 달간 노바루다에 머물며 마을과 주변인을 관찰하고",
+     "note": "민음사판 책소개 기준. 영역판 발췌(Fitzcarraldo)에는 화자가 '3년 전 이사 왔다'는 문장이 있어, 체류 형태는 판본 소개문에 의존한 서술이다."
+    },
+    {
+     "sids": [
+      "c4a04d5ebf3c"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.significance",
+     "claim": "노바루다 일대는 폴란드·체코 국경 지대다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+     "quote": "(폴란드와 체코 국경 지대에 위치한 노바루다는 작가가 매년 여름마다 머무는 집필 공간이기도 하다.)",
+     "note": "재인용: 원 인용(culture.pl)은 '작가가 사는 수데티의 국경 마을'이라고만 하고 노바루다를 이름으로 대지 않아, 노바루다를 국경 지대로 명시한 같은 책의 알라딘 출판사 서평으로 바꿈"
+    },
+    {
+     "sids": [
+      "c4a04d5ebf3c"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.significance",
+     "claim": "『낮의 집 밤의 집』은 한 지역 전체를 그리려 한다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "In this rich blend of beautiful and striking images one finds the intention to depict a whole region with many and conflicting cultures, individual fates and perspectives."
+    },
+    {
+     "sids": [
+      "f4a07d6f7c42"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.significance",
+     "claim": "작가는 『낮의 집 밤의 집』이 이후 자기 작품 전부에 뚜렷한 영향을 주었다고 썼다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "House of Day, House of Night, which then came into being, has had an evident influence on all my later work."
+    },
+    {
+     "sids": [
+      "677853f3bcfe"
+     ],
+     "field": "work:olga-tokarczuk--opowiadania-bizarne.facts",
+     "claim": "『기묘한 이야기들』(Opowiadania bizarne)은 2018년에 나온 단편집(소설)이다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "In 2018, Wydawnictwo Literackie publishing house published Bizarre Stories , a collection of ten short stories by Tokarczuk"
+    },
+    {
+     "sids": [
+      "c99b055c78c9"
+     ],
+     "field": "work:olga-tokarczuk--opowiadania-bizarne.significance",
+     "claim": "『기묘한 이야기들』은 중단편 열 편을 묶은 책이다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=350498479",
+     "quote": "총 열 편의 중단편이 수록되어 있다"
+    },
+    {
+     "sids": [
+      "c99b055c78c9"
+     ],
+     "field": "work:olga-tokarczuk--opowiadania-bizarne.significance",
+     "claim": "수록작의 무대는 스웨덴 침공 시대 볼히니아, 현대 폴란드·네덜란드·스위스·중국, 미래 가상 공간에 걸치며 현실과 기묘함의 경계를 흐린다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=350498479",
+     "quote": "작가는 스웨덴 침공 시대의 볼히니아, 현대의 폴란드와 네덜란드, 스위스, 중국, 그리고 미래의 가상 공간을 배경으로 현실과 판타지, 익숙함과 기묘함 사이의 경계를 모호하게 만들며"
+    },
+    {
+     "sids": [
+      "90766b42134b"
+     ],
+     "field": "work:olga-tokarczuk--opowiadania-bizarne.significance",
+     "claim": "「녹색 아이들」은 『기묘한 이야기들』의 수록작이다.",
+     "verdict": "confirmed",
+     "url": "https://pl.wikipedia.org/wiki/Opowiadania_bizarne",
+     "quote": "„Zielone dzieci”"
+    },
+    {
+     "sids": [
+      "90766b42134b"
+     ],
+     "field": "work:olga-tokarczuk--opowiadania-bizarne.significance",
+     "claim": "「녹색 아이들」은 얀 카지미에시 왕의 의사가 볼히니아에서 겪은 기이한 일을 적은 기록의 형식을 취한다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=350498479",
+     "quote": "얀 카지미에시 국왕 폐하의 주치의 윌리엄 데이비슨은 볼히니아에서 겪은 이 괴상한 사건들을 기록한다.",
+     "note": "재인용: 원 인용(수록작 원제)은 의사가 '적은' 기록이라는 데까지만 싣고 '겪은'을 싣지 않아, 알라딘 출판사 서평의 수록작 소개로 바꿈"
+    },
+    {
+     "sids": [
+      "9a7c23ced49b"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.facts",
+     "claim": "『다정한 서술자』(Czuły narrator)는 2020년에 나온 에세이·강연집이다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "The collection The Tender Narrator was published in November 2020. In it, Tokarczuk collected twelve lectures and essays from different years."
+    },
+    {
+     "sids": [
+      "8a6f62ef0fb4"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.significance",
+     "claim": "『다정한 서술자』에는 에세이 여섯 편과 강연록 여섯 편이 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937455971",
+     "quote": "『다정한 서술자』에는 여섯 편의 에세이와 여섯 편의 강연록이 실렸는데",
+     "note": "재인용: 같은 알라딘 페이지의 출판사 서평이 에세이 6편·강연록 6편을 명시하므로 원 판정(contradicted)을 번복. 원 correction은 인용이 싣지 않는 노벨 강연 수록까지 담고 있었다. 열두 편 직접 선별·노벨 강연 수록·강연 날짜는 새로 더한 claim들이 싣는다"
+    },
+    {
+     "sids": [
+      "0f58f4bdc76f"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.significance",
+     "claim": "『다정한 서술자』에는 작가의 독서 이력과 번역가의 일을 다룬 글이 실려 있다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937455971",
+     "quote": "헤르메스의 과업, 즉 번역가들이 날마다 어떻게 세상을 구원하고 있는가에 대하여 84 \n소금에 담근 손가락, 즉 내 간략한 독서 이력에 관하여 107"
+    },
+    {
+     "sids": [
+      "91fbcc8a2789"
+     ],
+     "field": "work:olga-tokarczuk--bieguni.facts",
+     "claim": "『방랑자들』(Bieguni)은 2007년에 나온 소설이다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "The early inclination to archetypes and Jungian models of interpretation is gradually dissolving in the short stories Gra na wielu bębenkach from 2001 and more forcefully in the novel Bieguni from 2007 ( Flights , 2017)."
+    },
+    {
+     "sids": [
+      "c140998e3a7c"
+     ],
+     "field": "work:olga-tokarczuk--bieguni.significance",
+     "claim": "『방랑자들』은 이동과 죽음, 집의 의미를 되풀이해 다루는 서사·에세이 조각을 옛 지도와 함께 엮었다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "In this pursuit she includes old maps and drawings of wanderings that convey an impression of a vast encyclopedia, mirroring a world in constant flight. Her montage of diverse fragments of narrative and essayistic prose is full of memorable reflections and episodes, where the recurring tropes are physical movement, mortality and the meaning of home."
+    },
+    {
+     "sids": [
+      "c140998e3a7c"
+     ],
+     "field": "work:olga-tokarczuk--bieguni.significance",
+     "claim": "작가는 『방랑자들』을 '별자리 소설'이라 불렀다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "The result of them was Flights – a very important book for me, in which I applied all my literary intuition, and which I called a “constellation novel”."
+    },
+    {
+     "sids": [
+      "8a3cf8920f21"
+     ],
+     "field": "work:olga-tokarczuk--bieguni.significance",
+     "claim": "『방랑자들』의 제목은 끊임없이 움직여야 악한 조물주가 승리하지 못한다고 믿은 러시아의 옛 영지주의 종파 이름에서 왔다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "The title is taken from the name of an old Russian, gnostic sect whose members believed that constant movement prevents the triumph of the evil demiurg."
+    },
+    {
+     "sids": [
+      "4b27154ae954"
+     ],
+     "field": "work:olga-tokarczuk--bieguni.significance",
+     "claim": "『방랑자들』은 2008년 니케 문학상과 2018년 맨부커 인터내셔널상(영역 제니퍼 크로프트)을 받았다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "Bieguni (Flights) in 2007. The latter was nominated for the Angelus Central European Literary Award as well as has been honoured with the 2008 Nike Literary Award. In 2018, Jennifer Croft's translation of Flights won the Man Booker International Prize",
+     "note": "재인용: 원 인용의 'The latter'가 『방랑자들』임을 싣도록 앞 문장 끝까지 넓힘"
+    },
+    {
+     "sids": [
+      "6d19c5e5f04b"
+     ],
+     "field": "work:olga-tokarczuk--prawiek-i-inne-czasy.facts",
+     "claim": "『태고의 시간들』(Prawiek i inne czasy)은 1996년에 나온 소설이다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "Still, her real breakthrough came with her third novel Prawiek i inne czasy 1996 ( Primeval and Other Times , 2010)."
+    },
+    {
+     "sids": [
+      "648cd21c0a71"
+     ],
+     "field": "work:olga-tokarczuk--prawiek-i-inne-czasy.significance",
+     "claim": "『태고의 시간들』은 민족의 양심을 대변하기를 거부하고 신화적 장소를 무대로 쓴 세 번째 장편으로, 토카르추크의 본격적인 출세작이 되었다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "Still, her real breakthrough came with her third novel Prawiek i inne czasy 1996 ( Primeval and Other Times , 2010). This subtly constructed family saga in several succeeding generations is set in a mythical place with strong symbolical impact … The novel is an excellent example of the new Polish literature after 1989, resisting moral judgement and unwilling to represent the conscience of the nation."
+    },
+    {
+     "sids": [
+      "cd660bd4f5a9"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.facts",
+     "claim": "『죽은 이들의 뼈 위로 쟁기를 끌어라』(Prowadź swój pług przez kości umarłych)는 2009년에 나온 소설이다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "In the technically more conventional but still very original crime novel Prowadź swój pług przez kości umarłych from 2009"
+    },
+    {
+     "sids": [
+      "2f9157e5e066"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "소설 속에서 폴란드 시골 마을의 사냥 클럽 회원들이 살해된다.",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Olga_Tokarczuk",
+     "quote": "The main character and narrator is Janina Duszejko, a woman in her 60s living in a rural area in the Polish Kłodzko Valley, eccentric in perception of others through astrology and fond of the poetry of William Blake, from whose work the book's title is taken. She decides to investigate the murders of members of the local hunting club and initially explains them as having been caused by wild animals taking revenge on hunters.",
+     "note": "재인용: 원 판정(contradicted)은 줄거리 요약에서 희생자 전원이 클럽 회원으로 '확인되지 않는다'는 부재에 기댔고, 원 인용(Big Foot 문장)은 correction을 싣지도 못했다. 영어 위키백과 작가 문서가 'murders of members of the local hunting club'이라고 명시하므로 confirmed로 바꿈"
+    },
+    {
+     "sids": [
+      "2f9157e5e066"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "화자 야니나 두셰이코는 점성술에 빠져 있고 윌리엄 블레이크의 시를 아끼며(번역을 돕는다), 살인이 동물의 복수라고 주장한다.",
+     "verdict": "confirmed",
+     "url": "https://pl.wikipedia.org/wiki/Prowad%C5%BA_sw%C3%B3j_p%C5%82ug_przez_ko%C5%9Bci_umar%C5%82ych",
+     "quote": "Główną bohaterką jest Janina Duszejko, emerytowana nauczycielka, zajmująca się astrologią i tłumaczeniem utworów Williama Blake’a, która twierdzi, że za zbrodnie odpowiedzialne są zwierzęta mszczące się w ten sposób na swoich oprawcach.",
+     "note": "재인용: 원 인용은 위키 마크업([[…|…]])이 섞인 원문 소스라 렌더링된 본문 문장으로 바꿈"
+    },
+    {
+     "sids": [
+      "2f9157e5e066"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "화자는 예순 줄의 여성이다.",
+     "verdict": "confirmed",
+     "note": "재인용: 영어 위키백과 작가 문서가 화자를 'a woman in her 60s'로 명시함(원 판정 unverifiable 번복)",
+     "url": "https://en.wikipedia.org/wiki/Olga_Tokarczuk",
+     "quote": "The main character and narrator is Janina Duszejko, a woman in her 60s living in a rural area in the Polish Kłodzko Valley, eccentric in perception of others through astrology and fond of the poetry of William Blake, from whose work the book's title is taken. She decides to investigate the murders of members of the local hunting club and initially explains them as having been caused by wild animals taking revenge on hunters."
+    },
+    {
+     "sids": [
+      "2f9157e5e066"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "화자는 사냥꾼 공동체와 맞선다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "Considered mad by the people in her surroundings, she wages war with the male, local inhabitants, a depressingly narrow-minded hunting community."
+    },
+    {
+     "sids": [
+      "f09d84aab05f"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "이 소설은 추리소설의 형식을 빌렸다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "In the novel she toys with the genre of suspense while addressing the issue of a 'human' way of treating animals."
+    },
+    {
+     "sids": [
+      "f09d84aab05f"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "제목은 윌리엄 블레이크의 시구에서 왔다.",
+     "verdict": "confirmed",
+     "url": "https://pl.wikipedia.org/wiki/Prowad%C5%BA_sw%C3%B3j_p%C5%82ug_przez_ko%C5%9Bci_umar%C5%82ych",
+     "quote": "Tytuł jest cytatem z poematu Williama Blake’a Zaślubiny Nieba i Piekła (The Marriage of Heaven and Hell)",
+     "note": "재인용: 원 인용은 위키 마크업이 섞인 원문 소스라 렌더링된 본문 문장으로 바꿈"
+    },
+    {
+     "sids": [
+      "f09d84aab05f"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "아그니에슈카 홀란드 감독이 2017년 영화로 옮겼고, 이 영화는 베를린 영화제 은곰상을 받았다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "The book was brought to the big screen by Agnieszka Holland in 2017. The film titled Pokot (Spoor) was premiered at the Berlin film festival and won Berlin’s prestigious Silver Bear.",
+     "note": "공동 연출은 카시아 아다미크(pl.wikipedia Pokot), 은곰상 부문은 알프레드 바우어상이다."
+    },
+    {
+     "sids": [
+      "f09d84aab05f"
+     ],
+     "field": "work:olga-tokarczuk--prowadz-swoj-plug-przez-kosci-umarlych.significance",
+     "claim": "영화의 한국어 제목은 「흔적」이다.",
+     "verdict": "confirmed",
+     "note": "재인용: 민음사판 알라딘 출판사 서평이 한국어 제목 「흔적(pokot)」을 명시함(원 판정 unverifiable 번복)",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "이 작품은 폴란드 출신 거장 아그니에슈카 홀란드(Agnieszka Holland) 감독의 영화 「흔적(pokot)」의 원작이기도 하다. 토카르추크가 홀란드 감독과 함께 시나리오를 공동으로 집필하여 화제가 된 「흔적」은 2017년 베를린 국제 영화제에서 은곰상을 수상했고"
+    },
+    {
+     "sids": [
+      "290e89e77855"
+     ],
+     "field": "relation:influence--thomas-mann--olga-tokarczuk.facts",
+     "claim": "토마스 만은 토카르추크에게 영향을 주었다(작가 본인 진술로 문서화된 영향).",
+     "verdict": "confirmed",
+     "url": "https://lithub.com/on-returning-to-and-reinterpreting-the-classics-olga-tokarczuk-in-conversation-with-translator-antonia-lloyd-jones/",
+     "quote": "The Empusium is a conscious, carefully thought-out reference to the work of one of my favorite writers, Thomas Mann, who had a very strong influence on my thinking about literature in the past and whom I rate very highly."
+    },
+    {
+     "sids": [
+      "4e22bda5ef6d"
+     ],
+     "field": "relation:influence--thomas-mann--olga-tokarczuk.summary",
+     "claim": "『Empuzjon』은 1913년 결핵 요양원을 무대로 한 장편으로 2022년에 나왔다.",
+     "verdict": "confirmed",
+     "url": "https://culture.pl/en/artist/olga-tokarczuk",
+     "quote": "Already in the real year 2022, the writer’s first novel after receiving the Nobel Prize was published. The Empusium is sometimes juxtaposed with The Magic Mountain , while not lacking in what constitutes the author’s style. The story, set in 1913 in a sanatorium for tuberculosis patients in Görbersdorf (today’s Sokołowsko)"
+    },
+    {
+     "sids": [
+      "4e22bda5ef6d",
+      "6f3ba993811e",
+      "6a3f5aa7799e",
+      "2955e928b57d"
+     ],
+     "field": "relation:influence--thomas-mann--olga-tokarczuk.summary",
+     "claim": "이 대담은 영어판 『The Empusium』 출간에 맞춰 2024년 9월 24일 Literary Hub에 실린 번역가 안토니아 로이드존스와의 대화다.",
+     "verdict": "confirmed",
+     "url": "https://lithub.com/on-returning-to-and-reinterpreting-the-classics-olga-tokarczuk-in-conversation-with-translator-antonia-lloyd-jones/",
+     "quote": "On Returning to and Reinterpreting the Classics: Olga Tokarczuk in Conversation with Translator Antonia Lloyd-Jones\n On Her New Book, “The Empusium”\n via Riverhead Books \n Literary Hub \n September 24, 2024"
+    },
+    {
+     "sids": [
+      "2955e928b57d"
+     ],
+     "field": "relation:influence--thomas-mann--olga-tokarczuk.summary",
+     "claim": "토카르추크는 이 소설이 좋아하는 작가 토마스 만의 작품을 의식적으로 신중하게 참조한 것이며, 만이 한때 자신의 문학관에 매우 강한 영향을 주었고 『마의 산』을 여러 번 다시 읽었다고 말했다.",
+     "verdict": "confirmed",
+     "url": "https://lithub.com/on-returning-to-and-reinterpreting-the-classics-olga-tokarczuk-in-conversation-with-translator-antonia-lloyd-jones/",
+     "quote": "The Empusium is a conscious, carefully thought-out reference to the work of one of my favorite writers, Thomas Mann, who had a very strong influence on my thinking about literature in the past and whom I rate very highly. I have read The Magic Mountain many times"
+    },
+    {
+     "sids": [
+      "ee82d14d799e"
+     ],
+     "field": "relation:influence--thomas-mann--olga-tokarczuk.summary",
+     "claim": "2019년 노벨 강연 「다정한 서술자」에서 만의 『파우스트 박사』를 예로 들었다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/lecture/",
+     "quote": "In Doctor Faustus Thomas Mann wrote about a composer who devised a new form of absolute music capable of changing human thinking.",
+     "note": "강연 날짜는 같은 페이지의 'delivered her Nobel Lecture in Literature on Saturday 7 December 2019'로 확인."
+    },
+    {
+     "sids": [
+      "6d8fa51f86a8"
+     ],
+     "field": "relation:influence--ts-eliot--olga-tokarczuk.facts",
+     "claim": "T. S. 엘리엇은 토카르추크에게 영향을 주었다(작가 본인 진술로 문서화).",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "There was only one poet whose work I read obsessively, and who really did a lot to make me learn English – T.S. Eliot ."
+    },
+    {
+     "sids": [
+      "e01ef8874721",
+      "74f790b1a60d",
+      "947be1f20dac"
+     ],
+     "field": "relation:influence--ts-eliot--olga-tokarczuk.summary",
+     "claim": "자전 에세이에서, 시에는 크게 끌리지 않았지만 엘리엇만은 집요하게 읽었고 그 덕에 영어를 익히게 되었으며 대역 시집을 오래 들고 다니며 가능한 번역을 모두 붙였다고 적었다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "I had the occasional brush with poetry, but it never really attracted me. There was only one poet whose work I read obsessively, and who really did a lot to make me learn English – T.S. Eliot . For a long time I carried a bilingual volume of his poetry about with me, pasting every possible translation into it.",
+     "note": "이 자전 에세이가 연감 총서에 실렸다는 사실은 같은 페이지 하단 'later published in the book series Les Prix Nobel/ Nobel Lectures / The Nobel Prizes'로 확인. / 검수: 원 claim의 '노벨재단 연감에 실린'은 인용이 싣지 않아 claim에서 뗐다 — 새로 더한 claim(같은 페이지 하단 출판 정보)이 싣는다"
+    },
+    {
+     "sids": [
+      "06c3b8b4a25b"
+     ],
+     "field": "relation:influence--julio-cortazar--olga-tokarczuk.facts",
+     "claim": "훌리오 코르타사르는 토카르추크에게 영향을 주었다(작가 본인 진술로 문서화).",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "During the university strike I read the whole of Cortázar. During martial law it was Philip K. Dick’s Ubik that kept me company, and perhaps no other reading matter could have been better suited to the cruel, absurd reality in which I was living. All this had a major influence on me"
+    },
+    {
+     "sids": [
+      "4be5682e9cf9"
+     ],
+     "field": "relation:influence--julio-cortazar--olga-tokarczuk.summary",
+     "claim": "자전 에세이에서 고등학교 4년을 가장 큰 문학적 발견의 시기로 꼽으며 그때 포크너와 코르타사르로 되돌아가곤 했다고 썼다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "I would study the phenomenon of mitochondria, and then have no trouble returning to Faulkner or Cortázar. This was the time of my greatest literary discoveries and my most intensive literary endeavours. Never since have I read as much as I did in my four years at high school."
+    },
+    {
+     "sids": [
+      "4be5682e9cf9"
+     ],
+     "field": "relation:influence--julio-cortazar--olga-tokarczuk.summary",
+     "claim": "바르샤바 대학 시절 대학 파업 기간에 코르타사르를 전부 읽었다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "I moved to Warsaw to go to university in the memorable August of 1980 … During the university strike I read the whole of Cortázar.",
+     "note": "바르샤바 진학은 같은 문단의 'I moved to Warsaw to go to university in the memorable August of 1980'으로 확인. / 재인용: 원 인용에 claim의 '바르샤바 대학 시절'이 없어(노트로만 확인) 같은 문단의 바르샤바 진학 문장까지 넓힘"
+    },
+    {
+     "sids": [
+      "26f8288bcd84"
+     ],
+     "field": "author.facts",
+     "claim": "토카르추크는 폴란드어로 쓴다.",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Olga_Tokarczuk",
+     "quote": "Writing career Language Polish",
+     "note": "검수 추가: 원 claim이 싣지 못한 집필 언어"
+    },
+    {
+     "sids": [
+      "e83a9350e50b",
+      "ec9c81aa1b60"
+     ],
+     "field": "work:olga-tokarczuk--prawiek-i-inne-czasy.significance",
+     "claim": "『태고의 시간들』의 무대는 가상의 마을 '태고'다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=362981499",
+     "quote": "작가는 《태고의 시간들》에서 허구와 현실이 절묘하게 중첩되는 공간인 가상의 마을 ‘태고’를 배경으로 기이하면서도 원형적인 인물들의 시간을 기록하고 있다.",
+     "note": "검수 추가: 노벨 전기 인용은 'mythical place'까지만 싣고 '마을 태고'를 싣지 않음"
+    },
+    {
+     "sids": [
+      "4e19e6df75cc"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『방랑자들』은 서사 산문과 에세이 산문의 조각을 옛 지도·그림과 함께 엮었다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+     "quote": "In this pursuit she includes old maps and drawings of wanderings that convey an impression of a vast encyclopedia, mirroring a world in constant flight. Her montage of diverse fragments of narrative and essayistic prose is full of memorable reflections and episodes",
+     "note": "검수 추가: 문장의 '짧은 이야기와 에세이, 옛 지도 같은 서로 다른 조각'"
+    },
+    {
+     "sids": [
+      "4e19e6df75cc",
+      "a4369951efa3"
+     ],
+     "field": "author.importanceReason",
+     "claim": "'별자리 소설' 『방랑자들』은 곱씹어 읽어야 촘촘히 배치된 연결 고리가 보인다(연결을 독자가 찾는다).",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "일명 ‘별자리 소설’로서 곱씹어 읽어야 비로소 촘촘히 배치된 연결 고리가 보이는 『방랑자들』",
+     "note": "검수 추가: 문장의 '그 사이의 연결을 독자가 찾게 하는'·'그 연결을 독자에게 맡긴다'"
+    },
+    {
+     "sids": [
+      "4e19e6df75cc",
+      "a4369951efa3",
+      "9f75154de0b5",
+      "c4a04d5ebf3c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『낮의 집 밤의 집』은 사실과 전설이 얽힌 단편들이 시간 순서 없이 파편적으로 이어지고, 독자가 성좌처럼 흩어진 이야기들의 연결점을 이어 나가게 한다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+     "quote": "시간적 정합성 없이 파편적으로 이어지는 수많은 에피소드들. 사실과 전설이 얽혀 있는 이 단편들은 과연 무엇을 향해 흘러가는 것일까. 이 책을 읽다 보면 성좌처럼 흩어진 이야기들 속에서 몇 가지 단서를 가늠케 되고, 그 단서들을 통해 연결점들을 이어 나가게 된다.",
+     "note": "검수 추가: 문장의 '전설' 조각과 독자가 찾는 연결. 『방랑자들』 쪽 출처(노벨 전기·위키백과·알라딘)에서는 '전설'을 확인하지 못했으므로, 4e19e6df75cc의 '전설'은 『낮의 집 밤의 집』 기준으로만 뒷받침된다"
+    },
+    {
+     "sids": [
+      "a4369951efa3"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "토카르추크의 문장은 평이하다.",
+     "verdict": "unverifiable",
+     "note": "검수 추가: 노벨 전기·자전 에세이·culture.pl·알라딘 책소개(방랑자들·태고의 시간들·낮의 집 밤의 집·죽은 이들의…) 어디에서도 문장의 평이함을 말하는 서술을 찾지 못함. '문장은 평이하지만'을 빼는 편이 안전"
+    },
+    {
+     "sids": [
+      "9f75154de0b5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『방랑자들』은 현대의 여행에 관한 짧은 삽화들로 짜여 있다(현대 여행자의 이야기).",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Flights_(novel)",
+     "quote": "Set between the 17th and 21st centuries, the novel is a \"philosophical rumination on modern-day travel\". … It is structured as a series of vignettes, some fictional, and some based on fact",
+     "note": "검수 추가: 문장의 '현대 여행자의 이야기'"
+    },
+    {
+     "sids": [
+      "9f75154de0b5",
+      "c4a04d5ebf3c"
+     ],
+     "field": "work:olga-tokarczuk--dom-dzienny-dom-nocny.significance",
+     "claim": "『낮의 집 밤의 집』에서 꿈은 중요한 모티브로, 화자는 자신의 꿈을 기록하며 이는 소설 속 인물들에게도 해당된다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+     "quote": "두 개의 집과 두 개의 자연을 연결시키는 중요한 모티브는 ‘꿈’이다. 주인공은 자신의 꿈을 기록하고 분석해 인터넷에 기록된 꿈과 비교한다. 주인공은 집과 마르타, 자신의 피부에 대한 꿈을 꾼다. 꿈은 주인공이 자신과 바깥세상을 해하는 데 도움을 주며, 이는 소설 속 인물들에게도 해당된다.",
+     "note": "검수 추가: 문장의 '이웃의 일상과 꿈'·'이웃의 삶과 꿈' 중 꿈"
+    },
+    {
+     "sids": [
+      "9fd3cc944f98"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『죽은 이들의 뼈 위로 쟁기를 끌어라』에는 동물권 수호 등 작가가 목소리를 내 온 신념과 관심사가 담겼다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937479892",
+     "quote": "『죽은 이들의 뼈 위로 쟁기를 끌어라』는 채식주의, 생태주의, 동물권 수호 등 사회적 이슈에 대해 적극적으로 목소리를 내 온 작가의 신념과 가치관이 오롯이 담긴 작품이다.",
+     "note": "검수 추가: 문장의 '토카르추크의 관심사'"
+    },
+    {
+     "sids": [
+      "8a6f62ef0fb4"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.significance",
+     "claim": "『다정한 서술자』는 그동안 발표한 글 가운데 열두 편을 작가가 직접 골라 묶었다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937455971",
+     "quote": "그동안 발표한 에세이와 칼럼, 강연록 중에서 열두 편을 작가가 직접 선별하여 묶었다.",
+     "note": "검수 추가"
+    },
+    {
+     "sids": [
+      "8a6f62ef0fb4"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.significance",
+     "claim": "『다정한 서술자』에는 노벨 문학상 수상 기념 강연이 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937455971",
+     "quote": "노벨 문학상 수상 기념 기조 강연 등 열두 편의 에세이 수록",
+     "note": "검수 추가"
+    },
+    {
+     "sids": [
+      "ee82d14d799e",
+      "8a6f62ef0fb4"
+     ],
+     "field": "relation:influence--thomas-mann--olga-tokarczuk.summary",
+     "claim": "토카르추크의 노벨 강연 제목은 「다정한 서술자(The Tender Narrator)」이고 2019년 12월 7일에 했다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/lecture/",
+     "quote": "The Tender Narrator Olga Tokarczuk delivered her Nobel Lecture in Literature on Saturday 7 December 2019 at the Swedish Academy in Stockholm.",
+     "note": "검수 추가: 원 claim(『파우스트 박사』 인용)은 강연 제목·연도를 싣지 않고 노트로만 확인했었음"
+    },
+    {
+     "sids": [
+      "0f58f4bdc76f"
+     ],
+     "field": "work:olga-tokarczuk--czuly-narrator.significance",
+     "claim": "『다정한 서술자』는 '읽기'에서 '쓰기'에 이르는 작가의 문학적 여정을 따라간다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=9788937455971",
+     "quote": "‘읽기’에서 출발하여 ‘쓰기’에 이르기까지 토카르추크의 다채로운 문학적 여정을 따라가노라면",
+     "note": "검수 추가: 문장의 '읽기에서 쓰기에 이르는 작업'"
+    },
+    {
+     "sids": [
+      "e01ef8874721",
+      "4be5682e9cf9"
+     ],
+     "field": "relation:influence--ts-eliot--olga-tokarczuk.summary",
+     "claim": "이 자전 에세이는 수상 당시 쓰여 노벨재단 연감 총서(Les Prix Nobel/The Nobel Prizes)에 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/biographical/",
+     "quote": "This autobiography/biography was written at the time of the award and later published in the book series Les Prix Nobel/ Nobel Lectures/The Nobel Prizes.",
+     "note": "검수 추가: 문장의 '노벨재단 연감에 실린' — 원 claim들은 노트로만 확인했었음"
+    }
+   ],
+   "noClaim": {}
+  }
+ ],
+ "check": {
+  "kept": 58,
+  "requoted": 15,
+  "downgraded": 0,
+  "added": 14,
+  "noClaimConverted": 0
+ }
+}

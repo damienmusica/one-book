@@ -1,0 +1,764 @@
+{
+ "plates": [
+  {
+   "id": "yu-hua",
+   "claims": [
+    {
+     "sids": [
+      "e36442d6a01b"
+     ],
+     "field": "author.facts",
+     "claim": "위화의 원어 이름은 余华이며 1960년에 태어났다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "余华，1960年4月3日生于浙江杭州"
+    },
+    {
+     "sids": [
+      "e36442d6a01b"
+     ],
+     "field": "author.facts",
+     "claim": "중국어로 쓰는 중국(동아시아) 작가다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "浙江省嘉兴市海盐县人，中国当代作家"
+    },
+    {
+     "sids": [
+      "9354aa19763d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1987년 발표한 단편들로 선봉파(先锋派) 작가로서의 지위를 굳혔다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "1987年，发表《十八岁出门远行》《四月三日事件》《一九八六年》等短篇小说，确立了先锋作家的地位"
+    },
+    {
+     "sids": [
+      "9354aa19763d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "이 시기 선봉파 작품에는 폭력과 죽음을 다룬 실험적 서사가 많았다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=971890",
+     "quote": "폭력과 죽음에 천착한 실험성 강한 중단편을 쓰던, 소위 선봉파의 대표 작가 위화",
+     "note": "알라딘 『가랑비 속의 외침』(푸른숲 2007) 상품 페이지의 책소개 탭(getContents Introduce)에서 인용."
+    },
+    {
+     "sids": [
+      "3b0c04bd9904"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1990년대에 사실주의 장편으로 옮겨 갔다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "In the nineties, Yu Hua turned to long-form fiction, publishing a string of realist novels"
+    },
+    {
+     "sids": [
+      "3b0c04bd9904"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『인생』은 늙은 농부가 낯선 청자(민요를 모으러 온 화자)에게 제 일생을 들려주는 형식이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/To_Live_(novel)",
+     "quote": "The story begins with the narrator traveling through the Chinese countryside to collect folk songs and local legends when he hears an old peasant's life story"
+    },
+    {
+     "sids": [
+      "3b0c04bd9904"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『허삼관 매혈기』는 한 노동자가 가족을 위해 거듭 피를 파는 이야기이고 반복을 많이 쓴다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chronicle_of_a_Blood_Merchant",
+     "quote": "It is the story of a silk factory worker, Xu Sanguan, who sells his blood over the years, in most cases in an attempt to improve the lives of himself and his family members … The space of \"folk\" in the novel is neatly built by the extensive use of repetitions and dialogues"
+    },
+    {
+     "sids": [
+      "3b0c04bd9904"
+     ],
+     "field": "author.importanceReason",
+     "claim": "두 작품이 국공내전부터 문화대혁명까지의 중국 현대사를 다룬다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "To Live—which narrates the nearly unimaginable personal loss and suffering of the Chinese Civil War, the Great Leap Forward, and the Cultural Revolution",
+     "note": "국공내전부터의 범위는 『인생』 기준이다. 『허삼관 매혈기』는 1940년대 말부터 1980년대까지를 배경으로 한다(en.wikipedia Chronicle of a Blood Merchant: \"The story is set in the late 1940s until the 1980s\"). 두 작품을 합쳐 말한 문장으로는 틀리지 않는다."
+    },
+    {
+     "sids": [
+      "1c625979ca5d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『형제』는 문화대혁명기와 개혁개방기를 다룬 블랙코미디다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "Brothers (2005–2006, 2009) is a sprawling black comedy satirizing the political chaos of the Cultural Revolution and the unbridled consumerism and greed of the economic reform era under Deng Xiaoping"
+    },
+    {
+     "sids": [
+      "1c625979ca5d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『형제』는 두 시대를 1부와 2부로 나눠 맞세운다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/40985491",
+     "quote": "작가는 1부와 2부에서 시대적·역사적 양극단을 보여주고"
+    },
+    {
+     "sids": [
+      "1c625979ca5d"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『제7일』은 죽은 화자가 이레 동안 떠도는 틀로 동시대 중국을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Yu_Hua",
+     "quote": "The Seventh Day (2015): Yu Hua's most recent novel takes the deceased as the protagonist and depicts what the deceased saw and heard within seven days after death."
+    },
+    {
+     "sids": [
+      "eca5aab43b3f"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『인생』 푸른숲 2023년 개정판은 312쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/122280138",
+     "quote": "312쪽 | 502g | 140*210*30mm",
+     "note": "같은 페이지 발행일 \"2023년 09월 12일\", 책소개 \"등단 40주년 기념 『인생』 『허삼관 매혈기』 개정판 출간!\"."
+    },
+    {
+     "sids": [
+      "eca5aab43b3f"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "312쪽은 위화의 주요 장편(한국어판) 가운데 짧은 편이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/122280138",
+     "quote": "312쪽 | 502g | 140*210*30mm",
+     "note": "비교한 쪽수(모두 이번 세션에 가져옴): 『제7일』 푸른숲 2013 304쪽(https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=30282694), 『허삼관 매혈기』 2023 개정판 360쪽(https://www.yes24.com/product/goods/122280147), 『가랑비 속의 외침』 2007 415쪽(https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=971890), 『원청』 2022 588쪽(https://www.yes24.com/product/goods/115570358), 『형제』 2017 세트 960쪽(https://www.yes24.com/product/goods/41787150). 여섯 편 중 두 번째로 짧다. 가장 짧은 것은 『제7일』이므로 \"짧은 편\"은 맞고 \"가장 짧다\"로 바꾸면 틀린다."
+    },
+    {
+     "sids": [
+      "99e522251bb3"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "민요를 모으러 시골에 간 ‘나’에게 늙은 농부 푸구이가 제 일생을 들려주는 형식이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/To_Live_(novel)",
+     "quote": "While collecting popular folk songs in the countryside, the narrator \"I\" meets an old man named Xu Fugui"
+    },
+    {
+     "sids": [
+      "99e522251bb3"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "그 일생에 국공내전에서 문화대혁명까지의 역사가 걸쳐 있다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "the Chinese Civil War, the Great Leap Forward, and the Cultural Revolution through the tragic figure of the wealthy scion turned peasant farmer Fugui"
+    },
+    {
+     "sids": [
+      "2ebc71d26b5f"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『인생』은 위화를 세계에 알린 작품이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/3814",
+     "quote": "1993년, 위화는 기념비적인 두 번째 장편소설 《인생》을 발표하며 중국을 넘어 전 세계에 이름을 알렸다.",
+     "note": "\"이후 『허삼관 매혈기』나 『원청』으로 넘어가는 기준점\"은 읽기 순서 권고라 검증 대상이 아니다."
+    },
+    {
+     "sids": [
+      "fdd855809050"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『형제』는 10만 자로 구상했으나 50만 자를 넘겼다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/40985491",
+     "quote": "‘원래 10만 자 분량의 소설을 구상했으나, […] 50만 자가 넘게 되었다’는 작가의 말처럼",
+     "note": "출판사가 인용한 작가의 말. en.wikipedia Brothers 항목은 \"over 180 thousand characters\"라고 적어 수치가 다르다(위키 쪽이 부정확한 것으로 보이며, 한국어판이 480쪽 두 권인 것과도 맞지 않는다)."
+    },
+    {
+     "sids": [
+      "fdd855809050"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『형제』 한국어판은 두 권이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/41787150",
+     "quote": "형제 세트",
+     "note": "같은 판(푸른숲 2017)이 『형제 1』(480쪽, https://www.yes24.com/product/goods/40985491)과 『형제 2』(480쪽)로 나뉘어 있고 세트는 960쪽이다."
+    },
+    {
+     "sids": [
+      "fdd855809050"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『형제』는 문화대혁명기와 개혁개방기를 과장된 블랙코미디로 그린다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "Brothers (2005–2006, 2009) is a sprawling black comedy satirizing the political chaos of the Cultural Revolution and the unbridled consumerism and greed of the economic reform era"
+    },
+    {
+     "sids": [
+      "fdd855809050"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『인생』의 서술은 담담하다(객관적 서술)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Yu_Hua",
+     "quote": "For example, the novel To Live uses an objective narrative style to describe the suffering of the Cultural Revolution.",
+     "note": "\"결이 크게 다르다\"는 비교 평가다."
+    },
+    {
+     "sids": [
+      "0d5b33fe4fd4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "위화의 문장은 간결하고 평이하다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/活着",
+     "quote": "余华的风格简洁而有力，直达人心。",
+     "note": "같은 문서의 《亚洲书评》 인용: \"《活着》是一个简单的故事，叙述也朴素。\" \"읽기 자체는 어렵지 않다\"는 평가다."
+    },
+    {
+     "sids": [
+      "0d5b33fe4fd4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『인생』은 구술로, 『허삼관 매혈기』는 반복으로 진행된다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chronicle_of_a_Blood_Merchant",
+     "quote": "The space of \"folk\" in the novel is neatly built by the extensive use of repetitions and dialogues",
+     "note": "『인생』의 구술 형식은 en.wikipedia To Live (novel): \"he hears an old peasant's life story\"."
+    },
+    {
+     "sids": [
+      "42f947a715f8"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "국공내전·대약진운동·문화대혁명·개혁개방 같은 사건이 인물의 운명을 바꾸는 계기로 잇달아 나온다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/活着",
+     "quote": "在经历了国共内战、人民公社，三反五反，大跃进，文化大革命和改革开放后，福贵的家人，一个接一个死亡"
+    },
+    {
+     "sids": [
+      "42f947a715f8"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "폭력과 죽음을 담담한 어조로 서술하는 대목이 많다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Yu_Hua",
+     "quote": "Yu Hua's description of the Cultural Revolution is indifferent, no matter whether it is describing violence or death.",
+     "note": "\"정서적으로 버거울 수 있다\"는 독서 안내다."
+    },
+    {
+     "sids": [
+      "48b66913f091"
+     ],
+     "field": "work:yu-hua--huozhe.facts",
+     "claim": "『인생』의 원제는 活着이고 1992년에 발표한 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/余华",
+     "quote": "《活着》，1992年",
+     "note": "1992년은 잡지 『收获』 발표 기준. 단행본은 1993년(zh.wikipedia 같은 문서 생평 \"1993年出版《活着》\"; 파리 리뷰 \"To Live (1993, 2003)\"). 연도 기준을 잡지 발표로 표시하는 편이 안전하다."
+    },
+    {
+     "sids": [
+      "d4750929abc5"
+     ],
+     "field": "work:yu-hua--huozhe.significance",
+     "claim": "푸구이는 부잣집 아들로 태어나 노름으로 재산을 잃고 농부가 됐다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/To_Live_(novel)",
+     "quote": "It follows the life of Xu Fugui as he transforms from the selfish idling son of a wealthy landowner to a solitary peasant"
+    },
+    {
+     "sids": [
+      "d4750929abc5"
+     ],
+     "field": "work:yu-hua--huozhe.significance",
+     "claim": "푸구이는 외아들이며, 재산을 하룻밤에 잃었다",
+     "verdict": "unverifiable",
+     "note": "zh.wikipedia 活着(\"福贵因赌博输光家产\"), en.wikipedia To Live (novel)·To Live (1994 film), 예스24 『인생』 책소개·미리보기 발췌를 봤으나 \"외아들\"과 \"하룻밤에\"를 말하는 곳이 없다. 소설 원문으로 확인해야 한다. 확인 전에는 \"부잣집 아들로 태어나 노름으로 재산을 모두 잃고\"로 줄이는 편이 안전하다."
+    },
+    {
+     "sids": [
+      "d4750929abc5"
+     ],
+     "field": "work:yu-hua--huozhe.significance",
+     "claim": "국공내전·대약진운동·문화대혁명을 지난다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "the Chinese Civil War, the Great Leap Forward, and the Cultural Revolution through the tragic figure of the wealthy scion turned peasant farmer Fugui"
+    },
+    {
+     "sids": [
+      "d4750929abc5"
+     ],
+     "field": "work:yu-hua--huozhe.significance",
+     "claim": "가족을 모두 잃고 홀로 남는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/To_Live_(novel)",
+     "quote": "Over the course of the story, Fugui describes witnessing the deaths of all his family members and loved ones."
+    },
+    {
+     "sids": [
+      "d4750929abc5"
+     ],
+     "field": "work:yu-hua--huozhe.significance",
+     "claim": "민요를 모으러 시골에 간 ‘나’에게 직접 들려주는 형식의 장편이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/To_Live_(novel)",
+     "quote": "While collecting popular folk songs in the countryside, the narrator \"I\" meets an old man named Xu Fugui"
+    },
+    {
+     "sids": [
+      "aef2589208e9"
+     ],
+     "field": "work:yu-hua--huozhe.significance",
+     "claim": "1990년대 위화가 잇달아 낸 사실주의 장편 가운데 하나이며 대표작이다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "publishing a string of realist novels … To Live—which narrates … —brought him his most significant audience to date",
+     "note": "대표작이라는 평가는 예스24 『인생』 출판사 리뷰도 뒷받침: \"『인생』은 위화의 대표작일 뿐만 아니라 중국 현대문학의 대표작인 걸작으로 손꼽힌다.\""
+    },
+    {
+     "sids": [
+      "aef2589208e9"
+     ],
+     "field": "work:yu-hua--huozhe.significance",
+     "claim": "장이머우 감독의 1994년 영화 「인생」의 원작이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/To_Live_(novel)",
+     "quote": "A film rendition, directed by Zhang Yimou, was released in 1994."
+    },
+    {
+     "sids": [
+      "fc010df0e851"
+     ],
+     "field": "work:yu-hua--xu-sanguan-maixue-ji.facts",
+     "claim": "『허삼관 매혈기』의 원제는 许三观卖血记이고 1995년 발표한 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "1995年，创作的长篇小说《许三观卖血记》在《收获》杂志发表"
+    },
+    {
+     "sids": [
+      "1dc6b7d30004"
+     ],
+     "field": "work:yu-hua--xu-sanguan-maixue-ji.significance",
+     "claim": "생사공장 노동자 허삼관이 처음 판 피값으로 아내를 얻고, 가족 일이 생길 때마다 거듭 피를 판다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/许三观卖血记",
+     "quote": "内容围绕丝厂工人许三观的卖血经历 … 之后用挣来的钱娶了人称“油条西施”的许玉兰。后来因为各种问题，为了他的家人，他一次又一次地去卖血。"
+    },
+    {
+     "sids": [
+      "fea3410159b1"
+     ],
+     "field": "work:yu-hua--xu-sanguan-maixue-ji.significance",
+     "claim": "같은 행위를 되풀이하는 구조로 짜여 있다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/许三观卖血记",
+     "quote": "张志忠：“在单纯与反复的叙述中展示民众的善良与牺牲”"
+    },
+    {
+     "sids": [
+      "fea3410159b1"
+     ],
+     "field": "work:yu-hua--xu-sanguan-maixue-ji.significance",
+     "claim": "중국 현대사의 격랑(대약진운동, 문화대혁명 등)이 배경에 깔린다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chronicle_of_a_Blood_Merchant",
+     "quote": "The story is set in the late 1940s until the 1980s, from the early years of the People's Republic of China until after the Cultural Revolution."
+    },
+    {
+     "sids": [
+      "fea3410159b1"
+     ],
+     "field": "work:yu-hua--xu-sanguan-maixue-ji.significance",
+     "claim": "남의 핏줄로 드러난 맏아들을 끝내 받아들인다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/许三观卖血记",
+     "quote": "之后他更无意中得知他的大儿子原来是他妻子和其前未婚夫生的，一开始他很气愤，但后来也接受了这个儿子"
+    },
+    {
+     "sids": [
+      "fea3410159b1"
+     ],
+     "field": "work:yu-hua--xu-sanguan-maixue-ji.significance",
+     "claim": "희비극이 교차하는(블랙유머) 어조다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chronicle_of_a_Blood_Merchant",
+     "quote": "The novel holds elements of black humor—a characteristic that Yu Hua typically applies in his other novels such as To Live."
+    },
+    {
+     "sids": [
+      "9dc043ffe617"
+     ],
+     "field": "work:yu-hua--xu-sanguan-maixue-ji.significance",
+     "claim": "2015년 하정우 감독의 영화 「허삼관」의 원작이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/许三观卖血记",
+     "quote": "韩国电影《许三观》（韩语：허삼관）改编自该小说，由河正宇执导并担任男主角，2015年于韩国上映。"
+    },
+    {
+     "sids": [
+      "5eef5156ec81"
+     ],
+     "field": "work:yu-hua--zai-xiyu-zhong-huhan.facts",
+     "claim": "『가랑비 속의 외침』의 원제는 在细雨中呼喊이고 1991년 발표한 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/余华",
+     "quote": "1991年发表个人第一部长篇小说《在细雨中呼喊》。",
+     "note": "출처마다 연도가 갈린다: 澎湃 전재본 약력은 \"1990年，首部长篇小说《在细雨中呼喊》出版\"(https://www.thepaper.cn/newsDetail_forward_28842720), 파리 리뷰는 \"Cries in the Drizzle (1992, translation 2007)\", 알라딘 한국어판은 \"원제 : 在細雨中呼喊 (1993년)\". 1991년은 『收获』 발표(원제 《呼喊与细雨》) 기준으로 보이며, 연도 기준 표시를 권한다."
+    },
+    {
+     "sids": [
+      "d88ffb9ba224"
+     ],
+     "field": "work:yu-hua--zai-xiyu-zhong-huhan.significance",
+     "claim": "위화의 첫 장편이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/在细雨中呼喊",
+     "quote": "《在细雨中呼喊》（又名《呼喊与细雨》）是余华的第一篇长篇小说"
+    },
+    {
+     "sids": [
+      "af8e6ed8bef6"
+     ],
+     "field": "work:yu-hua--zai-xiyu-zhong-huhan.significance",
+     "claim": "화자 ‘나’가 농촌에서 보낸 어린 시절 일화들을 조각조각 회상하는 1인칭 소설이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/在细雨中呼喊",
+     "quote": "主要讲述主角小时候在农村生活的片段"
+    },
+    {
+     "sids": [
+      "af8e6ed8bef6"
+     ],
+     "field": "work:yu-hua--zai-xiyu-zhong-huhan.significance",
+     "claim": "회상은 시간 순이 아니라 기억의 순서로 이어진다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=971890",
+     "quote": "유년 시절을 '시간'이 아닌, '기억' 의 순서에 따라 풀어낸 작품"
+    },
+    {
+     "sids": [
+      "af8e6ed8bef6"
+     ],
+     "field": "work:yu-hua--zai-xiyu-zhong-huhan.significance",
+     "claim": "화자는 어린 시절 겉도는(방관자) 아이였다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=971890",
+     "quote": "방관자이기만 했던 쑨광린을 세상으로 바짝 끌어당기는",
+     "note": "\"집안에서도 바깥에서도\"라는 범위는 줄거리(zh.wikipedia: 여섯 살에 고향을 떠났다 돌아오고, 아버지·할아버지에게 정을 받지 못함)와 맞으나 한 문장으로 그렇게 말한 출처는 없다."
+    },
+    {
+     "sids": [
+      "7df9b5eb741d"
+     ],
+     "field": "work:yu-hua--zai-xiyu-zhong-huhan.significance",
+     "claim": "루쉰문학원과 베이징사범대학의 창작 연구생반에서 모옌과 한 방을 쓰던 시기에 이 소설을 썼다",
+     "verdict": "confirmed",
+     "url": "https://ycpai.ycwb.com/ycppad/content/2019-04/16/content_375629.html",
+     "quote": "“当年我和余华同住所就差同床了，他写《在细雨中呼喊》的长篇时，我在写《酒国》",
+     "note": "같은 기사: \"1988年秋天，莫言加入北师大与鲁迅文学院合办的作家研究班\". 방을 함께 쓴 증언은 모옌의 말이다."
+    },
+    {
+     "sids": [
+      "19281390cc55"
+     ],
+     "field": "work:yu-hua--xiongdi.facts",
+     "claim": "『형제』의 원제는 兄弟이고 2005년(상부) 발표한 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/余华",
+     "quote": "2005年8月出版《兄弟》（上）；2006年4月出版《兄弟》（下）。"
+    },
+    {
+     "sids": [
+      "d2601930a0c5"
+     ],
+     "field": "work:yu-hua--xiongdi.significance",
+     "claim": "이광두와 송강은 부모의 재혼으로 의붓형제가 된다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/40985491",
+     "quote": "이광두와 송강, 성이 다르고 한 살 차이 나는 둘은 아버지와 어머니가 재혼하면서 의붓 형제가 된다."
+    },
+    {
+     "sids": [
+      "d2601930a0c5"
+     ],
+     "field": "work:yu-hua--xiongdi.significance",
+     "claim": "두 사람은 문화대혁명기에 유년을 보낸다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Brothers_(Yu_Hua_novel)",
+     "quote": "The first part primarily focuses on their childhood, especially during the Cultural Revolution"
+    },
+    {
+     "sids": [
+      "d2601930a0c5"
+     ],
+     "field": "work:yu-hua--xiongdi.significance",
+     "claim": "개혁개방 이후 이광두는 폐품 수집에서 출발해 큰 사업체를 일구고, 송강은 해고된 뒤 떠돌이 사기꾼이 된다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/40985491",
+     "quote": "이광두는 입에 풀칠이나 하기 위해 폐품 수집을 하다가 그 일을 기반으로 대형 사업체를 운영하게 된다. 한편, 수익을 내지 못하는 국영기업 공장들이 퇴출되면서 노동자들이 해고되고, 그 해고자 중 한 명인 이광두의 형 송강은 고군분투하다가 결국 떠돌이 사기꾼이 되고 만다."
+    },
+    {
+     "sids": [
+      "b076d4d017a5"
+     ],
+     "field": "work:yu-hua--xiongdi.significance",
+     "claim": "소읍 류진이 무대다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/40985491",
+     "quote": "이 작품의 배경인 류진이라는 소읍(小邑)에도 변화의 바람이 불어닥친다"
+    },
+    {
+     "sids": [
+      "b076d4d017a5"
+     ],
+     "field": "work:yu-hua--xiongdi.significance",
+     "claim": "두 시대를 1부와 2부로 맞세운다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/40985491",
+     "quote": "작가는 1부와 2부에서 시대적·역사적 양극단을 보여주고"
+    },
+    {
+     "sids": [
+      "b076d4d017a5"
+     ],
+     "field": "work:yu-hua--xiongdi.significance",
+     "claim": "정치적 광기와 돈에 대한 욕망을 과장된 블랙코미디로 그렸다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "a sprawling black comedy satirizing the political chaos of the Cultural Revolution and the unbridled consumerism and greed of the economic reform era"
+    },
+    {
+     "sids": [
+      "72722fb53697"
+     ],
+     "field": "work:yu-hua--di-qi-tian.facts",
+     "claim": "『제7일』의 원제는 第七天이고 2013년 발표한 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/第七天_(小说)",
+     "quote": "《第七天》，作家余华在2013年出版的长篇小说。"
+    },
+    {
+     "sids": [
+      "f99d46c098ae"
+     ],
+     "field": "work:yu-hua--di-qi-tian.significance",
+     "claim": "마흔한 살에 죽었으나 묘지를 마련할 돈이 없는 화자가 이레 동안 떠돌며 먼저 죽은 가족과 지인들을 만난다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Yu_Hua",
+     "quote": "The protagonist Yang Fei died at the age of forty-one without adequate money for a burial plot, is left to aimlessly roam the afterworld as a ghost. Over the course of seven days, he encounters the souls of friends, family and acquaintances who died before him."
+    },
+    {
+     "sids": [
+      "fb79e379d648"
+     ],
+     "field": "work:yu-hua--di-qi-tian.significance",
+     "claim": "강제 철거, 병원이 영아 시신을 의료 폐기물로 처리한 일 같은 동시대 사건을 죽은 이들의 사연으로 엮었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Yu_Hua",
+     "quote": "Through the narrative and experience of the deceased, the novel exposes the cruel and corrupt realities, such as men disguised in females in prostitution, violent demolition, post-disaster concealment of the death toll, the hospital disposes of dead babies as medical wastes"
+    },
+    {
+     "sids": [
+      "fb79e379d648"
+     ],
+     "field": "work:yu-hua--di-qi-tian.significance",
+     "claim": "위화는 이 소설이 현실에 바탕을 뒀다고 말했다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/author/3814",
+     "quote": "『제7일』은 현실에 바탕을 뒀다. 작가로서 현실에 관심을 가지는 게 당연하다.",
+     "note": "예스24 작가 파일에 실린 채널예스 인터뷰 발췌(제목 「『허삼관 매혈기』위화 작가 “『제7일』은 허구가 아닌 현실”」)."
+    },
+    {
+     "sids": [
+      "fcbc441237ce"
+     ],
+     "field": "work:yu-hua--wencheng.facts",
+     "claim": "『원청』의 원제는 文城이고 2021년 발표한 장편소설이다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/文城_(小说)",
+     "quote": "《文城》是中国大陆知名作家余华在2021年3月1日出版发行的长篇小说。"
+    },
+    {
+     "sids": [
+      "134839ab2f1b"
+     ],
+     "field": "work:yu-hua--wencheng.significance",
+     "claim": "청이 저물고 중화민국이 들어서는 격변기에 ‘원청’을 찾아 떠난 린샹푸가 천재지변·도적·전쟁 속에서 살아가는 이야기다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/115570358",
+     "quote": "청나라로 대변되는 구시대가 저물고, 중화민국이라는 새 시대가 떠오르는 대격변기를 배경으로 펼쳐지는 『원청』은 위화의 첫 전기(傳奇) 소설로서 … ‘원청’이라는 미지의 도시를 찾아 떠나는 린샹푸의 여정 속에서 천재지변과 환란, 그리고 전쟁의 한가운데에 놓인 평범한 인간 군상의 드라마가 펼쳐진다.",
+     "note": "도적은 같은 페이지 \"전쟁과 도적으로부터 가족을 지키기 위한 시민의 고군분투\"."
+    },
+    {
+     "sids": [
+      "e76df8c64b54"
+     ],
+     "field": "work:yu-hua--wencheng.significance",
+     "claim": "위화의 첫 전기(傳奇) 소설이다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/115570358",
+     "quote": "『원청』은 위화의 첫 전기(傳奇) 소설로서"
+    },
+    {
+     "sids": [
+      "e76df8c64b54"
+     ],
+     "field": "work:yu-hua--wencheng.significance",
+     "claim": "『제7일』 이후 8년 만의 장편이다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "2021年，出版八年来的首部长篇小说《文城》。"
+    },
+    {
+     "sids": [
+      "e76df8c64b54"
+     ],
+     "field": "work:yu-hua--wencheng.significance",
+     "claim": "본편 「원청」 뒤에 「또 하나의 이야기」를 덧붙인 두 부분으로 되어 있다",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/115570358",
+     "quote": "한국어판 서문 - 모든 사람의 가슴에는 원청이 있다 원청 또 하나의 이야기",
+     "note": "푸른숲 2022 한국어판 목차."
+    },
+    {
+     "sids": [
+      "b770f20d3a11"
+     ],
+     "field": "relation:influence--yasunari-kawabata--yu-hua.facts",
+     "claim": "가와바타 야스나리가 위화에게 영향을 준 방향의 문서화된 영향 관계다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "Yasunari Kawabata was my first teacher."
+    },
+    {
+     "sids": [
+      "4074706b1efd",
+      "1603eb579e6d"
+     ],
+     "field": "relation:influence--yasunari-kawabata--yu-hua.summary",
+     "claim": "『파리 리뷰』 인터뷰 「The Art of Fiction No. 261」은 2023년 마이클 베리가 진행했다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "Source: The Paris Review 246 (Winter 2023) Yu Hua, The Art of Fiction No. 261 Interviewed by Michael Berry"
+    },
+    {
+     "sids": [
+      "4074706b1efd",
+      "1603eb579e6d"
+     ],
+     "field": "relation:influence--yasunari-kawabata--yu-hua.summary",
+     "claim": "이야기하는 법을 어떻게 배웠느냐는 물음에 가와바타 야스나리가 첫 스승이었다고 답했다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "How did you learn how to tell a story? YU Yasunari Kawabata was my first teacher."
+    },
+    {
+     "sids": [
+      "9d8cfe1ad39b"
+     ],
+     "field": "relation:influence--yasunari-kawabata--yu-hua.summary",
+     "claim": "산문 「奥克斯福的威廉·福克纳」에서 영향을 준 작가로 가와바타와 카프카를 먼저 꼽는다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "影响过我的作家其实很多，比如川端康成和卡夫卡"
+    },
+    {
+     "sids": [
+      "5b30d38ac18f"
+     ],
+     "field": "relation:influence--franz-kafka--yu-hua.facts",
+     "claim": "카프카가 위화에게 영향을 준 방향의 문서화된 영향 관계다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "Kafka taught me that kind of freedom."
+    },
+    {
+     "sids": [
+      "42125a835d5f"
+     ],
+     "field": "relation:influence--franz-kafka--yu-hua.summary",
+     "claim": "친구에게 『전쟁과 평화』를 주고 카프카 단편선을 바꿔 와 「시골 의사」부터 읽었다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "I remember persuading a friend who ended up going into the real estate business to swap me Kafka’s Selected Stories for War and Peace … I read “A Country Doctor” first."
+    },
+    {
+     "sids": [
+      "42125a835d5f"
+     ],
+     "field": "relation:influence--franz-kafka--yu-hua.summary",
+     "claim": "부르면 오고 보내면 사라지는 말들을 보고 카프카가 그런 자유를 가르쳐 주었다고 말했다",
+     "verdict": "confirmed",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "The horses in the story appear out of nowhere, come when the doctor says come and leave when he says go. Oh, to summon something and have it appear, to send it away and have it vanish—Kafka taught me that kind of freedom."
+    },
+    {
+     "sids": [
+      "4ea34ed30e56"
+     ],
+     "field": "relation:influence--william-faulkner--yu-hua.facts",
+     "claim": "포크너가 위화에게 영향을 준 방향의 문서화된 영향 관계다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "可是，成为我师傅的，我想只有威廉·福克纳。"
+    },
+    {
+     "sids": [
+      "b159d9e1617f"
+     ],
+     "field": "relation:influence--william-faulkner--yu-hua.summary",
+     "claim": "1999년 미시시피주 옥스퍼드를 찾아가 포크너의 묘를 찾은 일을 쓴 산문이다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "一九九九年的时候，我有一个月的美国行程，其中三天是在密西西比州的奥克斯福，我师傅威廉·福克纳的老家。 … 在奥克斯福最有意思的经历就是去寻找福克纳的墓地。"
+    },
+    {
+     "sids": [
+      "b159d9e1617f"
+     ],
+     "field": "relation:influence--william-faulkner--yu-hua.summary",
+     "claim": "이 산문은 『温暖和百感交集的旅程』(2017)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "本文选自《温暖和百感交集的旅程》，余华 著，作家出版社，2017年10月"
+    },
+    {
+     "sids": [
+      "b159d9e1617f"
+     ],
+     "field": "relation:influence--william-faulkner--yu-hua.summary",
+     "claim": "영향을 준 작가는 많아도 자신의 사부(师傅)는 포크너뿐이라고 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "影响过我的作家其实很多，比如川端康成和卡夫卡 … 可是，成为我师傅的，我想只有威廉·福克纳。"
+    },
+    {
+     "sids": [
+      "dd4707a0aa1d"
+     ],
+     "field": "relation:influence--william-faulkner--yu-hua.summary",
+     "claim": "단편 「워시」가 살인자의 격동하는 내면을 심리 묘사 대신 멍한 시각 묘사로 처리하는 것을 보고 심리 묘사를 다루는 법을 배웠다",
+     "verdict": "confirmed",
+     "url": "https://www.thepaper.cn/newsDetail_forward_28842720",
+     "quote": "这时候我读到了师傅的一个短篇小说《沃许》，当一个穷白人将一个富白人杀了以后，杀人者百感交集于一刻之时，我发现了师傅是如何对付心理描写的 … 一系列麻木的视觉描写，将一个杀人者在杀人后的复杂心理烘托的淋漓尽致。"
+    }
+   ],
+   "noClaim": {
+    "45d88cdc085b": "『형제』로 시작하지 말라는 독서 순서 권고로, 사실 주장이 없다(근거가 되는 사실은 다음 문장에서 검증).",
+    "80616da14720": "짧은 장편부터 읽으라는 독서 순서 권고다.",
+    "396bfdcde8cb": "다음 문장을 여는 구성 문장으로, 단독으로 검증할 사실이 없다."
+   }
+  }
+ ]
+}

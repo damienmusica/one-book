@@ -1,0 +1,85 @@
+{
+  "fixes": [
+    {
+      "id": "yun-dong-ju",
+      "importanceReason": "우물을 들여다보고 거울을 닦고 별 하나하나에 이름을 불러 보는 행위를 시의 뼈대로 삼아, 자기 얼굴을 응시하며 부끄러워하는 1인칭 화자를 한국어 서정시에 세웠다. 1941년 연희전문 졸업 때 스스로 고른 19편으로 시집을 내려 했으나 이루지 못했고, 1943년 7월 귀향 직전 항일운동 혐의로 검거되어 1945년 2월 후쿠오카형무소에서 죽었다. 1948년 정병욱과 아우 윤일주가 유고를 모아 정지용의 서문을 붙여 『하늘과 바람과 별과 시』로 펴냈다.",
+      "readingEntryReason": "1941년에 스스로 고른 19편(「서시」에서 「별 헤는 밤」까지)이 앞부분을 이루고 한 편 한 편이 짧아, 한자리에서 한 권을 읽으며 우물과 별로 이어지는 자기 응시의 흐름을 따라갈 수 있다. 지금 서점에 있는 판본(예: 1955년 정음사 판 표지를 쓴 더스토리 판, 2024)은 정지용 서문과 「쉽게 씌어진 시」, 산문까지 함께 싣는다.",
+      "difficultyReason": "어휘와 통사가 평이하고 한 편이 짧다. 원문을 살린 판은 지금은 쓰지 않는 단어나 어려운 한자어가 남아 각주가 필요한 대목이 있고, 「쉽게 씌어진 시」와 「참회록」의 무게는 1942년 일본 유학을 전후한 사정을 알 때 제대로 드러난다.",
+      "works": [
+        {
+          "id": "yun-dong-ju--jahwasang",
+          "significance": "1939년 9월에 쓰고 1941년 6월 연희전문 교지 『문우』에 「우물속의 자상화(自像畵)」라는 제목으로 실은 시다. 산모퉁이 외딴 우물을 세 번 찾아가 들여다보는 동안 미움·가엾음·그리움이 번갈아 드는 구조로, 윤동주 시의 특색 중 하나인 자기 응시를 보여 준다."
+        },
+        {
+          "id": "yun-dong-ju--seosi",
+          "significance": "1941년 11월 20일 제목 없이 쓴 시로, 1948년 유고 시집을 낼 때 아우 윤일주와 후배 정병욱이 논의해 '서시'라는 제목을 붙였다. 하늘·바람·별에 부끄럼·괴로움·사랑을 한 부분씩 맞물린 짧은 시가 시집 전체의 서문 노릇을 한다.",
+          "yearBasis": "attested"
+        },
+        {
+          "id": "yun-dong-ju--byeol-heneun-bam",
+          "yearBasis": "attested"
+        },
+        {
+          "id": "yun-dong-ju--chamhoerok",
+          "yearBasis": "attested"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "시 끝의 창작 날짜를 따라 1939~1942년의 자기 성찰을 차례로 읽을 수 있다",
+          "resolution": "narrowed",
+          "evidence": "틀린 절(1939~1942년을 차례로 읽는다)을 뺐다: 「…『하늘과 바람과 별과 시』로 펴냈다.」 correction(1939년 이전 시도 실려 있다, 「밤」 1937년 3월)은 원문보다 길어 넣지 않았다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "더스토리 판(2024)은 1955년 정음사 판을 되살린 판이다",
+          "resolution": "corrected",
+          "evidence": "되살린 것은 표지다: 「…(예: 1955년 정음사 판 표지를 쓴 더스토리 판, 2024)은 정지용 서문과 …」 길이를 넘기지 않으려 '정지용의 서문'을 '정지용 서문'(#17 차례 표기)으로 줄였다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "초간본을 되살린 판은 옛 원문과 한자를 그대로 두고 각주를 단다",
+          "resolution": "corrected",
+          "evidence": "correction대로 '초간본을 되살린 판'과 '太初의 아츰을 그대로 둔다'를 뺐다: 「원문을 살린 판은 지금은 쓰지 않는 단어나 어려운 한자어가 남아 각주가 필요한 대목이 있고, …」 correction의 예시 괄호는 원문보다 길어져 뺐다(더스토리 판은 입문 이유 문장이 이미 적는다)."
+        },
+        {
+          "field": "work:yun-dong-ju--jahwasang.significance",
+          "claim": "자기를 응시하는 윤동주 시의 기본 자세를 보여 준다",
+          "resolution": "corrected",
+          "evidence": "'기본 자세'를 출처의 '특색 중 하나'로: 「…구조로, 윤동주 시의 특색 중 하나인 자기 응시를 보여 준다.」"
+        },
+        {
+          "field": "work:yun-dong-ju--seosi.facts",
+          "claim": "1948년이 첫 발표(first-print)다",
+          "resolution": "narrowed",
+          "evidence": "yearBasis first-print → attested: 작품 줄이 「『서시』(序詩) · 1948 · poetry」가 되어 '초간'을 적지 않는다. 1948년 유고 시집 수록은 #38이 싣는다."
+        },
+        {
+          "field": "work:yun-dong-ju--seosi.significance",
+          "claim": "윤일주와 정병욱이 1948년에 이 시를 시집 맨 앞에 놓았다",
+          "resolution": "narrowed",
+          "evidence": "편자가 시집 맨 앞에 놓았다는 부분을 뺐다: 「…아우 윤일주와 후배 정병욱이 논의해 '서시'라는 제목을 붙였다.」 correction의 '스스로 고른 시집의 서문으로 삼았고'는 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "work:yun-dong-ju--byeol-heneun-bam.facts",
+          "claim": "1948년이 첫 발표(first-print)다",
+          "resolution": "narrowed",
+          "evidence": "yearBasis first-print → attested: 작품 줄이 「『별 헤는 밤』(별헤는 밤) · 1948 · poetry」가 되어 '초간'을 적지 않는다. 1948년 초간본 수록은 #45가 싣는다."
+        },
+        {
+          "field": "work:yun-dong-ju--swipge-ssiwojin-si.facts",
+          "claim": "1947년 2월 13일 『경향신문』에 처음 실렸다",
+          "resolution": "accepted",
+          "evidence": "메모의 어긋남은 한국민족문화대백과사전 인물 항목의 '1946년'인데 페이지는 1946년을 적지 않는다: 59fdee9bff12 「… · 1947 first-print · poetry」, 02b4caf74ad2 「1947년 2월 13일 정지용의 소개문과 함께 『경향신문』에 처음 실렸다.」 — 1947년 2월 13일은 경향신문 기사와 작품 항목(#58)이 싣는다."
+        },
+        {
+          "field": "work:yun-dong-ju--chamhoerok.facts",
+          "claim": "1948년이 첫 발표(first-print)다",
+          "resolution": "narrowed",
+          "evidence": "yearBasis first-print → attested: 작품 줄이 「『참회록』(懺悔錄) · 1948 · poetry」가 되어 '초간'을 적지 않는다. 1948년 초간본 수록은 #60이 싣는다."
+        }
+      ]
+    }
+  ]
+}

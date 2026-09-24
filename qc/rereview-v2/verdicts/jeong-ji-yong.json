@@ -1,0 +1,969 @@
+{
+ "plates": [
+  {
+   "id": "jeong-ji-yong",
+   "claims": [
+    {
+     "sids": [
+      "a62e4906ee30"
+     ],
+     "field": "author.facts",
+     "claim": "정지용은 1902년 충청북도 옥천에서 태어났다(한국·동아시아).",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "정지용(鄭芝溶)주1은 1902년주2 6월 20일(음력 5월 15일) 충청북도 옥천군 옥천면 하계리 40번지에서"
+    },
+    {
+     "sids": [
+      "a62e4906ee30"
+     ],
+     "field": "author.facts",
+     "claim": "정지용의 사망 연도는 1950년이다.",
+     "verdict": "contradicted",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "사망 연도1950년 추정",
+     "correction": "1902–1950(추정) — 1950년 한국전쟁 중 사망한 것으로 알려져 있을 뿐 확정된 사망 연도는 아니다."
+    },
+    {
+     "sids": [
+      "a62e4906ee30"
+     ],
+     "field": "author.facts",
+     "claim": "정지용은 한국어와 일본어로 작품을 썼다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "두 동인지를 비롯하여 『도시샤대학예과학생회지(同志社大學豫科學生會誌)』와 영문과에서 발행한 『동지사문학(同志社文學)』에 일본어로 쓴 작품을 다수 발표했다"
+    },
+    {
+     "sids": [
+      "32f4279ee896"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「향수」는 해설피·석근 별 같은 토속어로 고향을 감각적 이미지로 그렸다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "이 시는 “얼룩백이 황소”·“해설피”·“짚벼개”·“함추름”·“석근 별” 등 토속적인 시어와 순우리말을 사용하여, 고향에 대한 그리움을 참신하고 선명한 감각적 이미지로 표현한다."
+    },
+    {
+     "sids": [
+      "32f4279ee896"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「유리창」은 어린 자식을 잃은 슬픔을 직접 말하지 않고 성에 낀 유리창에 어른거리는 이미지로 드러냈다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071117",
+     "quote": "이 시는 먼저 세상을 떠난 어린 자식에 대한 간절한 그리움주1을 유리창에 어른거리는 이미지를 통해 절제된 감각으로 그린 작품이다."
+    },
+    {
+     "sids": [
+      "b0c532b8d68f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "첫 시집 『정지용 시집』(1935)에는 바다를 다룬 시가 유독 많다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050955",
+     "quote": "이 시집에 실려 있는 작품들 가운데 ‘바다’에 관한 시가 유독 많은 것도 한 가지 특징이다."
+    },
+    {
+     "sids": [
+      "b0c532b8d68f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "둘째 시집 『백록담』(1941)은 산을 배경으로 한 시편으로 옮겨 갔다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "『정지용시집』이 도시나 바다를 공간적 배경으로 선택하고 있는 데 비하여 1부에서는 거의 산을 배경으로 하고 있는 점이 특징적이다."
+    },
+    {
+     "sids": [
+      "b0c532b8d68f",
+      "ba30cf8aa673",
+      "946518c6761b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『백록담』에는 마침표 없이 줄글로 이어 가는 산문체 시(「장수산 1」 등)가 있다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071118",
+     "quote": "문장이 종결되는 부분에 마침표를 사용하지 않고, 줄글로 이어진 구절 사이사이에 뚜렷하게 구분되는 휴지부를 두어 호흡과 여운을 부여한다."
+    },
+    {
+     "sids": [
+      "27cd8e0f6b04"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1939년부터 『문장』 시 부문 심사위원으로 박목월·조지훈·박두진을 추천했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "1939년 2월 잡지 『문장(文章)』이 간행되고 … 시 부문의 심사위원을 맡아 청록파 시인인 박두진, 박목월, 조지훈을 비롯하여, 박남수, 김종한 등 다수의 시인을 추천했다."
+    },
+    {
+     "sids": [
+      "27cd8e0f6b04"
+     ],
+     "field": "author.importanceReason",
+     "claim": "윤동주의 유고 시집에 서문을 썼다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%ED%8E%98%EC%9D%B4%EC%A7%80:%EC%9C%A4%EB%8F%99%EC%A3%BC_%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(%EC%B4%88%ED%8C%90%EB%B3%B8,_1948).pdf/3",
+     "quote": "아직 무릎을 꿇을만한 氣力이 남었기에 나는 이 붓을 들어\n詩人 尹東柱의 遺稿에 焚香하노라."
+    },
+    {
+     "sids": [
+      "27cd8e0f6b04"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그 서문을 1948년에 썼다.",
+     "verdict": "contradicted",
+     "url": "https://ko.wikisource.org/wiki/%ED%8E%98%EC%9D%B4%EC%A7%80:%EC%9C%A4%EB%8F%99%EC%A3%BC_%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(%EC%B4%88%ED%8C%90%EB%B3%B8,_1948).pdf/10",
+     "quote": "1947年 12月 28日",
+     "correction": "1948년에 나온 윤동주의 유고 시집에 서문(1947년 12월 28일 자)을 썼다.",
+     "note": "서문 끝에 1947년 12월 28일 날짜와 서명 「지 용」이 있다. 시집 간행은 1948년(정음사)."
+    },
+    {
+     "sids": [
+      "92f296fcbb72"
+     ],
+     "field": "author.importanceReason",
+     "claim": "한국전쟁 중 사망한 것으로 알려져 있다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "1950년 한국전쟁 중 사망한 것으로 알려져 있다."
+    },
+    {
+     "sids": [
+      "92f296fcbb72"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그 뒤 작품이 오래 공개되지 못하다가 1988년에 해금되었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "상당 기간 동안 정지용의 작품은 대중에게 공개되지 못했다. … 그리고 1988년 3월 31일 문화공보부는 공식적으로 정지용 작품의 해금(解禁)주12을 발표했다."
+    },
+    {
+     "sids": [
+      "82908f00dc97"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『정지용 시집』 한 권에 「향수」·「유리창 1」·「카페 프란스」와 「바다」 연작이 함께 실려 있다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050955",
+     "quote": "1부에는 「바다 1」 · 「바다 2」 · 「유리창 1」 · 「유리창 2」 · 「홍역(紅疫)」 등 16편, 2부에는 「향수(鄕愁)」 · 「카페 프란스」 · 「말 1」 · 「말 2」 및 ‘바다’를 제목으로 하는 작품 5편을 포함하여 39편"
+    },
+    {
+     "sids": [
+      "b1991fb584a1"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "더스토리 초판본 『정지용 시집』은 2025년에 나왔고 지금 판매 중이다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372072697",
+     "quote": "정지용 (지은이)더스토리2025-09-30",
+     "note": "같은 상품 페이지에 「지금 택배로 주문하면 9월 27일 출고」 표시(2026-09-24 확인)."
+    },
+    {
+     "sids": [
+      "b1991fb584a1"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 판은 168쪽이다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372072697",
+     "quote": "168쪽\n128*188mm (B6)\n168g\nISBN : 9791175240506"
+    },
+    {
+     "sids": [
+      "b1991fb584a1",
+      "3a8df2ca6ea5"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 판은 1935년 초판 표지를 되살리되 본문을 현행 맞춤법으로 고치고 지금 쓰지 않는 낱말과 어려운 한자어에 각주를 달았다.",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372072697",
+     "quote": "1935년 시문학사의 초판본 오리지널 표지디자인을 그대로 차용하여 제작했다. 본문은 독자들이 읽기 편하도록 한글맞춤법에 맞게 수정했지만 시의 의미가 훼손되지 않도록 원문을 최대한 살렸다. 간혹 지금은 사용하지 않는 단어나 어려운 한자어에는 독자들의 이해를 돕기 위해 각주를 달아 설명했다.",
+     "note": "인용은 이 상품 페이지의 책소개(알라딘 getContents Introduce) 본문."
+    },
+    {
+     "sids": [
+      "ba30cf8aa673",
+      "946518c6761b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『백록담』에는 『시경』에서 온 구절(「장수산 1」의 벌목정정)이 들어 있다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071118",
+     "quote": "‘벌목정정(伐木丁丁)’은 『시경(詩經)』의 「소아(小雅) 벌목(伐木)」 편에 등장하는 구절로"
+    },
+    {
+     "sids": [
+      "4d87c1e2e578"
+     ],
+     "field": "author.readingWarning",
+     "claim": "민음사판 『정지용 전집 1 시』는 2016년에 나온 596쪽 판이다.",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/10841/",
+     "quote": "발행일 2016년 11월 4일\n |\n ISBN 978-89-374-3354-2\n 패키지 양장 · 신국판 152x225mm · 596쪽"
+    },
+    {
+     "sids": [
+      "4d87c1e2e578"
+     ],
+     "field": "author.readingWarning",
+     "claim": "이 판은 신문·잡지 발표 원문과 현대어 표기를 함께 실었다.",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/10841/",
+     "quote": "새 전집에서는 이 세 권의 작품들을 기본 텍스트로 삼고 신문 잡지에 발표했던 원문을 찾아 함께 수록했으며, 일반 독자들의 편의를 위해 모든 작품을 현대어 표기로 바꾸어 별도로 실었다."
+    },
+    {
+     "sids": [
+      "3a8df2ca6ea5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "정지용 시에는 해설피·석근 별 같은 토속어가 쓰인다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "“얼룩백이 황소”·“해설피”·“짚벼개”·“함추름”·“석근 별” 등 토속적인 시어와 순우리말을 사용하여"
+    },
+    {
+     "sids": [
+      "946518c6761b"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "정지용 시는 감정을 직접 말하지 않고 이미지 뒤에 둔다(감정 절제).",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071117",
+     "quote": "이 시는 어린 자식을 잃은 슬픔을 직접적으로 토로하지 않고 감정을 절제하여 선명하고 감각적인 이미지를 통해 표현한다."
+    },
+    {
+     "sids": [
+      "406242920729"
+     ],
+     "field": "work:jeong-ji-yong--jeong-ji-yong-sijip.facts",
+     "claim": "『정지용 시집』(鄭芝溶詩集)은 1935년에 나온 시집이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "정지용은 1935년 10월 시문학사(詩文學社)에서 첫 시집인 『정지용시집(鄭芝溶詩集)』을 발간했다."
+    },
+    {
+     "sids": [
+      "a93afe161b72"
+     ],
+     "field": "work:jeong-ji-yong--jeong-ji-yong-sijip.significance",
+     "claim": "1935년 10월 시문학사에서 낸 첫 시집이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "정지용은 1935년 10월 시문학사(詩文學社)에서 첫 시집인 『정지용시집(鄭芝溶詩集)』을 발간했다."
+    },
+    {
+     "sids": [
+      "a93afe161b72"
+     ],
+     "field": "work:jeong-ji-yong--jeong-ji-yong-sijip.significance",
+     "claim": "대부분 1925년부터 1935년 사이에 발표한 작품에서 골랐다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "수록된 대부분의 작품은 1925년부터 1935년까지 발표한 작품들 중 선별한 것이다."
+    },
+    {
+     "sids": [
+      "a93afe161b72"
+     ],
+     "field": "work:jeong-ji-yong--jeong-ji-yong-sijip.significance",
+     "claim": "시 87편과 산문 2편을 다섯 부로 나눠 싣고 끝에 박용철의 발문을 붙였다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050955",
+     "quote": "작자의 첫 시집으로 모두 5부로 나누어져 있으며, 총 87편의 시와 2편의 산문이 수록되어 있다. 시집의 맨 뒤에 박용철(朴龍喆)의 발문이 붙어 있다."
+    },
+    {
+     "sids": [
+      "ed160fe6d1b7"
+     ],
+     "field": "work:jeong-ji-yong--jeong-ji-yong-sijip.significance",
+     "claim": "「바다」 연작과 「유리창 1」·「향수」·「카페 프란스」가 이 시집에 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050955",
+     "quote": "1부에는 「바다 1」 · 「바다 2」 · 「유리창 1」 · 「유리창 2」 · 「홍역(紅疫)」 등 16편, 2부에는 「향수(鄕愁)」 · 「카페 프란스」"
+    },
+    {
+     "sids": [
+      "ed160fe6d1b7"
+     ],
+     "field": "work:jeong-ji-yong--jeong-ji-yong-sijip.significance",
+     "claim": "박용철 발문에 따르면 1부와 4부에는 가톨릭 개종 뒤의 신앙 시편이, 3부에는 동요·민요풍 시편이 모였다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "박용철의 발문에 따르면 『정지용시집』의 1부는 가톨릭 개종 이후의 시편, 2부는 초기 시편, 3부는 초기 시편과 같은 시기 창작한 동요류와 민요풍 시편, 4부는 신앙과 직접적인 관련이 있는 시편"
+    },
+    {
+     "sids": [
+      "cef239b60fb6"
+     ],
+     "field": "work:jeong-ji-yong--hyangsu.facts",
+     "claim": "「향수」(鄕愁)는 1927년에 발표된 시다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "「향수(鄕愁)」는 1927년 3월 『조선지광(朝鮮之光)』 65호에 발표되었고"
+    },
+    {
+     "sids": [
+      "c697ed2e6f4e"
+     ],
+     "field": "work:jeong-ji-yong--hyangsu.significance",
+     "claim": "지면에 1923년 3월 창작으로 적어 1927년 3월 『조선지광』 65호에 발표했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "「향수(鄕愁)」는 1927년 3월 『조선지광(朝鮮之光)』 65호에 발표되었고, 1935년 10월 시문학사(詩文學社)에서 간행한 정지용의 첫 시집인 『정지용 시집(鄭芝溶詩集)』에 수록되었다. 『조선지광』 수록 지면에 “一九二三·三”으로 창작 시점이 기재되어 있다."
+    },
+    {
+     "sids": [
+      "c697ed2e6f4e"
+     ],
+     "field": "work:jeong-ji-yong--hyangsu.significance",
+     "claim": "10연 26행의 시다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "「향수」는 10연 26행의 자유시이다."
+    },
+    {
+     "sids": [
+      "cb8e4b318483"
+     ],
+     "field": "work:jeong-ji-yong--hyangsu.significance",
+     "claim": "넓은 벌과 실개천, 졸음에 겨운 늙은 아버지, 어린 누이와 아내가 있는 고향 정경을 연마다 그린다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "화자가 떠올리는 고향은 ‘넓은 벌이 펼쳐지고 실개천이 흐르며 황소가 울음을 우는’ 전형적인 우리나라 농촌의 모습이다. 3연에서는 겨울밤 집 안에 계신 ‘졸음에 겨운 늙은 아버지’의 모습을 통해 가족에 대한 그리움이 드러난다. 5연에서는 화자의 자연 친화적인 유년 시절의 정서와 행위가 묘사된다. 7연에서는 어린 누이와 아내가 등장하며"
+    },
+    {
+     "sids": [
+      "cb8e4b318483"
+     ],
+     "field": "work:jeong-ji-yong--hyangsu.significance",
+     "claim": "정경 묘사 뒤 '그 곳이 참하 꿈엔들 잊힐리야' 후렴이 다섯 번 이어진다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "한 연에서 고향의 옛 정경을 묘사하고 다음 연에서 후렴구가 이어지는 구성이 5회 반복된다."
+    },
+    {
+     "sids": [
+      "cb8e4b318483"
+     ],
+     "field": "work:jeong-ji-yong--hyangsu.significance",
+     "claim": "후렴 구절은 '그 곳이 참하 꿈엔들 잊힐리야'이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "“―그 곳이 참하 꿈엔들 잊힐리야.”"
+    },
+    {
+     "sids": [
+      "cb8e4b318483"
+     ],
+     "field": "work:jeong-ji-yong--hyangsu.significance",
+     "claim": "해설피·석근 별 같은 토속어로 정경을 감각적 이미지로 만든다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0062938",
+     "quote": "“해설피”·“짚벼개”·“함추름”·“석근 별” 등 토속적인 시어와 순우리말을 사용하여, 고향에 대한 그리움을 참신하고 선명한 감각적 이미지로 표현한다."
+    },
+    {
+     "sids": [
+      "d80c71ded25b"
+     ],
+     "field": "work:jeong-ji-yong--yurichang.facts",
+     "claim": "「유리창」(琉璃窓)은 1930년에 발표된 시다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071117",
+     "quote": "「유리창(琉璃窓)」은 1930년 1월 『조선지광(朝鮮之光)』 89호에 발표되었고"
+    },
+    {
+     "sids": [
+      "d94dc73567bc"
+     ],
+     "field": "work:jeong-ji-yong--yurichang.significance",
+     "claim": "1929년 12월에 쓰고 1930년 1월 『조선지광』 89호에 발표했으며 시집에는 「유리창 1」로 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071117",
+     "quote": "「유리창(琉璃窓)」은 1930년 1월 『조선지광(朝鮮之光)』 89호에 발표되었고, 1935년 10월 시문학사(詩文學社)에서 간행한 정지용의 첫 시집인 『정지용시집(鄭芝溶詩集)』에 「유리창1」로 수록되었다. 『조선지광』 수록 지면에 “一九二九 · 十二月”로 창작 시점이 기재되어 있다."
+    },
+    {
+     "sids": [
+      "d94dc73567bc"
+     ],
+     "field": "work:jeong-ji-yong--yurichang.significance",
+     "claim": "1연 10행의 시다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071117",
+     "quote": "1929년, 정지용(鄭芝溶)이 지은 1연 10행의 자유시."
+    },
+    {
+     "sids": [
+      "25a03327f88b"
+     ],
+     "field": "work:jeong-ji-yong--yurichang.significance",
+     "claim": "1행·2행·3행·4행으로 차례로 길어지는 네 문장으로 되어 있다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071117",
+     "quote": "총 4문장으로 구성되어 있다. 첫 문장은 1행, 두 번째 문장은 2행, 세 번째 문장은 3행, 네 번째 문장은 4행으로 이루어져 있어"
+    },
+    {
+     "sids": [
+      "25a03327f88b"
+     ],
+     "field": "work:jeong-ji-yong--yurichang.significance",
+     "claim": "성에 낀 유리창을 닦고 또 닦는 동작만으로 먼저 세상을 떠난 어린 자식에 대한 그리움을 직접 토로하지 않고 드러낸다.",
+     "verdict": "contradicted",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071117",
+     "quote": "이 시는 먼저 세상을 떠난 어린 자식에 대한 간절한 그리움주1을 유리창에 어른거리는 이미지를 통해 절제된 감각으로 그린 작품이다.",
+     "correction": "성에 낀 유리창에 어른거리는 이미지와 그 유리를 닦고 또 닦는 동작으로, 먼저 세상을 떠난 어린 자식에 대한 그리움을 직접 토로하지 않고 드러낸다.",
+     "note": "출처는 닦는 동작만이 아니라 유리창에 어른거리는 이미지·별·산새 등 이미지의 연쇄로 설명한다(\"유리창을 반복해 닦는 절실함은 어둠 속에서 반짝이는 별을 보게 한다\"). '동작만으로'는 출처보다 좁다."
+    },
+    {
+     "sids": [
+      "0b929f698e2e"
+     ],
+     "field": "work:jeong-ji-yong--jangsusan-1.facts",
+     "claim": "「장수산 1」(長壽山 1)은 1939년에 발표된 시다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071118",
+     "quote": "「장수산(長壽山) 1」주1은 「장수산 2」와 함께 1939년 3월 『문장(文章)』 2호에 발표되었고"
+    },
+    {
+     "sids": [
+      "8cf0bc99a9c0"
+     ],
+     "field": "work:jeong-ji-yong--jangsusan-1.significance",
+     "claim": "1939년 3월 『문장』 2호에 「장수산 2」와 함께 발표하고 『백록담』에 실었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071118",
+     "quote": "「장수산(長壽山) 1」주1은 「장수산 2」와 함께 1939년 3월 『문장(文章)』 2호에 발표되었고, 1941년 9월 문장사(文章社)에서 간행한 정지용의 두 번째 시집인 『백록담(白鹿潭)』에 수록되었다."
+    },
+    {
+     "sids": [
+      "8cf0bc99a9c0"
+     ],
+     "field": "work:jeong-ji-yong--jangsusan-1.significance",
+     "claim": "『백록담』 맨 앞에 실린 산문체 시다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "이 시집의 맨 앞에 수록된 「장수산 1」과 「장수산 2」는 산문체의 작품이면서도 긴밀하게 짜여진 율조가 특이하다."
+    },
+    {
+     "sids": [
+      "796d36848b61"
+     ],
+     "field": "work:jeong-ji-yong--jangsusan-1.significance",
+     "claim": "마침표 없이 줄글로 이어 가되 구절 사이에 휴지를 둔다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071118",
+     "quote": "문장이 종결되는 부분에 마침표를 사용하지 않고, 줄글로 이어진 구절 사이사이에 뚜렷하게 구분되는 휴지부를 두어 호흡과 여운을 부여한다."
+    },
+    {
+     "sids": [
+      "796d36848b61"
+     ],
+     "field": "work:jeong-ji-yong--jangsusan-1.significance",
+     "claim": "휴지는 띄어쓰기로 둔다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "띄어쓰기가 1자에서 3, 4자 간격으로 되어 있어서 시인의 의도적인 율격장치로 이해될 수 있다."
+    },
+    {
+     "sids": [
+      "796d36848b61"
+     ],
+     "field": "work:jeong-ji-yong--jangsusan-1.significance",
+     "claim": "『시경』에서 온 '벌목정정(伐木丁丁)' 구절을 섞었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071118",
+     "quote": "‘벌목정정(伐木丁丁)’은 『시경(詩經)』의 「소아(小雅) 벌목(伐木)」 편에 등장하는 구절로"
+    },
+    {
+     "sids": [
+      "796d36848b61"
+     ],
+     "field": "work:jeong-ji-yong--jangsusan-1.significance",
+     "claim": "겨울밤 깊은 산의 고요 속에서 시름을 견디려는 화자를 그린다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071118",
+     "quote": "이 시는 겨울밤 깊은 산의 적막한 풍경을 통해 시름을 견디고 고요와 평정에 이르고자 하는 탈속적 삶의 지향을 그린 작품이다."
+    },
+    {
+     "sids": [
+      "8da55c02d85f"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.facts",
+     "claim": "『백록담』(白鹿潭)은 1941년에 나온 시집이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "정지용은 1941년 9월 문장사(文章社)에서 두 번째 시집인 『백록담(白鹿潭)』을 발간했다."
+    },
+    {
+     "sids": [
+      "5ebfdc93a5f2"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.significance",
+     "claim": "1941년 9월 문장사에서 낸 둘째 시집이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "정지용은 1941년 9월 문장사(文章社)에서 두 번째 시집인 『백록담(白鹿潭)』을 발간했다."
+    },
+    {
+     "sids": [
+      "5ebfdc93a5f2"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.significance",
+     "claim": "1936년부터 1941년까지 발표한 작품에서 고른 시 25편과 산문 8편을 다섯 부로 묶었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "이 시집은 전체 5부로 구성되어 있으며, 1936년부터 1941년까지 발표한 작품을 선별하여 1부에서 4부까지는 25편의 시를, 5부에는 8편의 산문을 수록했다."
+    },
+    {
+     "sids": [
+      "319f7b7ccc4b"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.significance",
+     "claim": "1부는 「장수산 1」로 시작하는 18편이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "1부는 「장수산(長壽山) 1」 · 「백록담」 · 「비로봉(毘盧峰)」 등 18편"
+    },
+    {
+     "sids": [
+      "319f7b7ccc4b"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.significance",
+     "claim": "1부는 거의 모두 산을 배경으로 한다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "1부에서는 거의 산을 배경으로 하고 있는 점이 특징적이다."
+    },
+    {
+     "sids": [
+      "319f7b7ccc4b"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.significance",
+     "claim": "표제시는 '한라산소묘'라는 부제를 달았다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "‘한라산소묘’라는 부제가 붙은 이 작품은 원래 1939년 『문장』 3호에 처음 발표된 것이다."
+    },
+    {
+     "sids": [
+      "319f7b7ccc4b"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.significance",
+     "claim": "표제시는 한라산 정상의 화구호를 하늘과 '나의 얼골'에 겹쳐 놓는다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "화구호는 ‘하늘’과 같은 의미가 되면서 ‘나의 얼골’과 맞닿아 있는데"
+    },
+    {
+     "sids": [
+      "319f7b7ccc4b"
+     ],
+     "field": "work:jeong-ji-yong--baengnokdam.significance",
+     "claim": "3부는 2행 1연의 한시적 형태를 취했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0022094",
+     "quote": "3부의 작품은 모두 2행 1연의 형식으로서 한시적(漢詩的) 형태를 취하고 있고"
+    },
+    {
+     "sids": [
+      "d6e23ca45e83"
+     ],
+     "field": "work:jeong-ji-yong--munhak-dokbon.facts",
+     "claim": "『문학독본』(文學讀本)은 1948년에 나온 산문집이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "1948년 2월 첫 산문집인 『문학독본(文學讀本)』이 박문출판사에서 간행되었고"
+    },
+    {
+     "sids": [
+      "da15ab589b09"
+     ],
+     "field": "work:jeong-ji-yong--munhak-dokbon.significance",
+     "claim": "1948년 2월 박문출판사에서 낸 첫 산문집이다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "1948년 2월 첫 산문집인 『문학독본(文學讀本)』이 박문출판사에서 간행되었고"
+    },
+    {
+     "sids": [
+      "da15ab589b09"
+     ],
+     "field": "work:jeong-ji-yong--munhak-dokbon.significance",
+     "claim": "시문·수필·기행문 37편을 모았다.",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/10844/",
+     "quote": "첫 산문집 『문학 독본』(1948)에는 37편의 시문과 수필 및 기행문이 수록되어 있다."
+    },
+    {
+     "sids": [
+      "1c6e8b8e79a8"
+     ],
+     "field": "work:jeong-ji-yong--munhak-dokbon.significance",
+     "claim": "「내금강 소묘」, 다도해·선천·의주·평양 기행문 연작, 「시의 위의」·「시의 옹호」가 함께 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/10844/",
+     "quote": "내금강 소묘(內金剛素描) 1/내금강 소묘 2/… 이가락(離家樂)—다도해기(多島海記) 1/… 선천(宣川) 1—화문행각(畵文行脚) 1/… 의주(義州) 1—화문행각 4/… 평양 1(平壤)—화문행각 7/… 시(詩)의 위의(威儀)/시(詩)와 발표(發表)/시(詩)의 옹호(擁護)",
+     "note": "민음사 『정지용 전집 2 산문』 목차 「1부 『지용 문학독본(文學讀本)』」 항목."
+    },
+    {
+     "sids": [
+      "1c6e8b8e79a8"
+     ],
+     "field": "work:jeong-ji-yong--munhak-dokbon.significance",
+     "claim": "'안으로 열하고 겉으로 서늘옵게'라는 말이 그의 감정 절제의 시관을 이룬다(「시의 위의」).",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0032437",
+     "quote": "‘시작(詩作)에 있어서 안으로 열하고 겉으로 서늘옵게’ 하는 것은 시의 위의에만 국한되는 것이 아니라 시작 원리로서 정지용의 시작 과정에도 잘 적용되고 있다."
+    },
+    {
+     "sids": [
+      "cafaa9d6d1e5"
+     ],
+     "field": "relation:translation--rabindranath-tagore--jeong-ji-yong.facts",
+     "claim": "정지용은 타고르의 시를 번역했다(문헌 근거).",
+     "verdict": "confirmed",
+     "url": "https://clik.nanet.go.kr/potal/search/searchDLView.do?collection=dl&singleviewvu=KINX2012046620_6_KINX",
+     "quote": "정지용은 1923년 1월 발간된『휘문』창간호에 타고르 시집『기탄자리』에서 9편의 시를 번역 수록했다."
+    },
+    {
+     "sids": [
+      "53e218945d10"
+     ],
+     "field": "relation:translation--rabindranath-tagore--jeong-ji-yong.summary",
+     "claim": "1923년 1월 교지 『휘문』 창간호에 『기탄잘리』에서 고른 시 9편을 번역해 실었다.",
+     "verdict": "confirmed",
+     "url": "https://clik.nanet.go.kr/potal/search/searchDLView.do?collection=dl&singleviewvu=KINX2012046620_6_KINX",
+     "quote": "정지용은 1923년 1월 발간된『휘문』창간호에 타고르 시집『기탄자리』에서 9편의 시를 번역 수록했다."
+    },
+    {
+     "sids": [
+      "53e218945d10"
+     ],
+     "field": "relation:translation--rabindranath-tagore--jeong-ji-yong.summary",
+     "claim": "그 무렵 정지용은 휘문고보 5학년이었다.",
+     "verdict": "confirmed",
+     "url": "https://encyclopedia.catholic.or.kr/entry/5526",
+     "quote": "1922년 휘문고보 5학년 재학시 작품 〈풍랑몽〉(風浪夢)을 썼으며",
+     "note": "1922학년도(1922.4–1923.3)에 5학년이었고 1923년 3월 졸업(한국민족문화대백과사전 E0050954: \"1923년 3월 졸업했다\")."
+    },
+    {
+     "sids": [
+      "b4ee1205c6ff"
+     ],
+     "field": "relation:translation--rabindranath-tagore--jeong-ji-yong.summary",
+     "claim": "최동호의 논문 「정지용의 타고르 시집 『기탄자리』 번역 시편」(『한국학연구』 39, 2011)이 이 번역을 발굴했다.",
+     "verdict": "confirmed",
+     "url": "https://clik.nanet.go.kr/potal/search/searchDLView.do?collection=dl&singleviewvu=KINX2012046620_6_KINX",
+     "quote": "한국학연구. 39집 (2011년 12월), pp.11-48"
+    },
+    {
+     "sids": [
+      "b4ee1205c6ff"
+     ],
+     "field": "relation:translation--rabindranath-tagore--jeong-ji-yong.summary",
+     "claim": "이 논문은 같은 해(1923) 3월 나온 김억의 번역과 대조했다.",
+     "verdict": "confirmed",
+     "url": "https://clik.nanet.go.kr/potal/search/searchDLView.do?collection=dl&singleviewvu=KINX2012046620_6_KINX",
+     "quote": "1923년 3월에 김억의 번역으로 평양 이문관에서 발간한『기탄자리』와 정지용의 타고르 시의 번역은 상당히 다른 모습을 보여 준다."
+    },
+    {
+     "sids": [
+      "b4ee1205c6ff"
+     ],
+     "field": "relation:translation--rabindranath-tagore--jeong-ji-yong.summary",
+     "claim": "정지용은 산문 「조택원 무용에 관한 것」에서 '인도의 타고르 시에 미쳐 있었던 것'이라고 썼다.",
+     "verdict": "confirmed",
+     "url": "https://clik.nanet.go.kr/potal/search/searchDLView.do?collection=dl&singleviewvu=KINX2012046620_6_KINX",
+     "quote": "정지용은 무용가 조택원을 회고하는 산문「조택원 무용에 관한 것」에서 그가 휘문학교 5학년 재학 중에 '나는 인도의 타고르 시에 미쳐 있었던 것이다.' 라고 고백한 바 있는데"
+    },
+    {
+     "sids": [
+      "195bdbb03c2f"
+     ],
+     "field": "relation:translation--walt-whitman--jeong-ji-yong.facts",
+     "claim": "정지용은 휘트먼의 시를 번역했다(문헌 근거).",
+     "verdict": "confirmed",
+     "url": "https://terms.naver.com/entry.naver?docId=694375&cid=60533&categoryId=60533",
+     "quote": "휘트먼(W. Whitman)의 <수전(水戰) 이야기> <눈물> 등이 정지용에 의해 번역 · 수록되었다."
+    },
+    {
+     "sids": [
+      "a1dd64629982"
+     ],
+     "field": "relation:translation--walt-whitman--jeong-ji-yong.summary",
+     "claim": "최재서가 엮은 『해외서정시집』(인문사, 1938) 미국편에 휘트먼의 「수전 이야기」·「눈물」 등을 옮겨 실었다.",
+     "verdict": "confirmed",
+     "url": "https://terms.naver.com/entry.naver?docId=694375&cid=60533&categoryId=60533",
+     "quote": "미국편은 … 그리고 휘트먼(W. Whitman)의 <수전(水戰) 이야기> <눈물> 등이 정지용에 의해 번역 · 수록되었다.",
+     "note": "같은 항목: \"1938년 최재서(崔載瑞)가 엮었다\", \"1938년 6월 15일 발행하였고 인문사(人文社)에서 간행되었다.\""
+    },
+    {
+     "sids": [
+      "a1dd64629982"
+     ],
+     "field": "relation:translation--walt-whitman--jeong-ji-yong.summary",
+     "claim": "해방 뒤 경향신문사 주간을 맡았고 『경향신문』에 휘트먼 등의 시를 번역해 발표했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+     "quote": "그리고 경향신문사의 주간을 맡았으며, 『경향신문』에 휘트먼 등의 시를 번역하여 발표했다."
+    },
+    {
+     "sids": [
+      "f94dd3f87db5"
+     ],
+     "field": "relation:translation--walt-whitman--jeong-ji-yong.summary",
+     "claim": "둘째 산문집 『산문』(1949)에 휘트먼 역시가 묶였다.",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/10844/",
+     "quote": "둘째 산문집『산문』(1949)에는 총 55편이 실려 있으며 시문, 수필, 역시(휘트먼 시) 등으로 엮였다."
+    },
+    {
+     "sids": [
+      "f94dd3f87db5"
+     ],
+     "field": "relation:translation--walt-whitman--jeong-ji-yong.summary",
+     "claim": "『산문』의 역시에는 「눈물」·「대로의 노래」·「나는 앉아서 바라본다」가 있다.",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/10844/",
+     "quote": "5 역시* 평등(平等) 무종(無終)의 행진(行進)/눈물/신엄(神嚴)한 주검의 속살거림/나는 앉아서 바라본다\n제자(弟子)에게/자유(自由)와 축복(祝福)/대로(大路)의 노래"
+    },
+    {
+     "sids": [
+      "f94dd3f87db5"
+     ],
+     "field": "relation:translation--walt-whitman--jeong-ji-yong.summary",
+     "claim": "정헌의 논문 「정지용의 월트 휘트먼 시 번역 작업의 목적」(『영미문화』 18권 2호, 2018)이 이 번역을 다룬다.",
+     "verdict": "confirmed",
+     "url": "https://clik.nanet.go.kr/potal/search/searchDLView.do?collection=dl&singleviewvu=KINX2018118696_4_KINX",
+     "quote": "정지용의 월트 휘트먼 시 번역 작업의 목적 = The Purpose of Walt Whitman's Poetry Translation by Chung Ji Young : 일제 강점기와 해방 공간의 근본적 차이 / 정헌"
+    },
+    {
+     "sids": [
+      "f6e68d9225f3"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.facts",
+     "claim": "정지용이 이상을 발굴·후원했다(문헌 근거).",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/33388386",
+     "quote": "《경향잡지》, 《문장》, 《경향신문》 등의 편집위원으로서 청록파 시인들을 비롯해 이상, 윤동주 등 수많은 시인을 발굴해 냈다."
+    },
+    {
+     "sids": [
+      "5184e44dc5dd"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "정지용은 1933년 6월 창간된 『가톨릭청년』의 편찬위원이었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0000396",
+     "quote": "1933년 6월에 창간되었다. 발행인은 주교 라리보(Larribeau), 주간은 신부 윤형중(尹亨重)이었고, 편찬위원은 장면(張勉)·장발(張勃)·이동구(李東九)·정지용(鄭芝溶) 등이었다."
+    },
+    {
+     "sids": [
+      "5184e44dc5dd"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "정지용은 『가톨릭청년』의 편집 고문이었다.",
+     "verdict": "confirmed",
+     "url": "https://encyclopedia.catholic.or.kr/entry/5526",
+     "quote": "특히 1933년 6월에 창간된 《가톨릭청년》의 편집 고문을 맡았던 그는"
+    },
+    {
+     "sids": [
+      "5184e44dc5dd"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "『가톨릭청년』은 천주교 잡지다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0000396",
+     "quote": "이 잡지는 『경향잡지(京鄕雜誌)』와 더불어 한국천주교회의 공인된 잡지로서 권위를 가졌다."
+    },
+    {
+     "sids": [
+      "5184e44dc5dd"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "이상의 첫 한글 시 「꽃나무」가 1933년 7월 『가톨릭청년』에 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://www.nl.go.kr/NL/contents/N20103000000.do?schM=contView&schIdSub=CO20221104151125116100",
+     "quote": "「꽃나무」는 1933년 7월 《가톨릭청년》에 발표한 이상의 최초의 한글 시이다."
+    },
+    {
+     "sids": [
+      "5184e44dc5dd"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "「이런 시」·「거울」 등도 같은 해 이 잡지에 발표되었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0044568",
+     "quote": "이어 1933년 『가톨릭청년』에 시 「1933년 6월 1일」 · 「꽃나무」 · 「이런 시(詩)」 · 「거울」 등을"
+    },
+    {
+     "sids": [
+      "bfe348f09d5d"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "민음사가 권영민 엮음 『정지용 전집』(2016)을 내며 쓴 소개는 정지용이 청록파 시인들을 비롯해 이상, 윤동주 등을 '발굴해 냈다'고 적는다.",
+     "verdict": "confirmed",
+     "url": "https://www.yes24.com/product/goods/33388386",
+     "quote": "청록파 시인들을 비롯해 이상, 윤동주 등 수많은 시인을 발굴해 냈다.",
+     "note": "예스24 『정지용 전집 2 산문』(민음사, 2016. 11. 4.) 상품 페이지의 「출판사 리뷰 — 정지용의 생애」 문단."
+    },
+    {
+     "sids": [
+      "69ec35318504"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "이상은 1934년 구인회에 가입했다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0044568",
+     "quote": "1934년에 구인회(九人會)에 가입하여 특히 박태원과 친하게 지내면서"
+    },
+    {
+     "sids": [
+      "69ec35318504"
+     ],
+     "field": "relation:mentorship--jeong-ji-yong--yi-sang.summary",
+     "claim": "정지용은 구인회의 결성 회원이었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0005990",
+     "quote": "1933년 8월이종명(李鍾鳴)·김유영(金幽影)의 발기로 이효석(李孝石)·이무영(李無影)·유치진(柳致眞)·이태준(李泰俊)·조용만(趙容萬)·김기림(金起林)·정지용(鄭芝溶) 등 9인이 결성하였다."
+    },
+    {
+     "sids": [
+      "a9c4b666cc53"
+     ],
+     "field": "relation:dialogue--jeong-ji-yong--kim-yu-jeong.facts",
+     "claim": "정지용과 김유정은 서로 교류한 사이다(문헌 근거).",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EB%A1%A0",
+     "quote": "다행히 이 네 분은 서로들 친하다."
+    },
+    {
+     "sids": [
+      "da4ec05a7d8b"
+     ],
+     "field": "relation:dialogue--jeong-ji-yong--kim-yu-jeong.summary",
+     "claim": "두 사람은 1936년 구인회 회원으로 동인지 『시와 소설』 창간호(1936년 3월)에 함께 작품을 실었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0066561",
+     "quote": "1936년 3월 이상(李箱) · 박태원(朴泰遠) · 이태준(李泰俊) · 김기림(金起林) · 정지용(鄭芝溶) · 김유정(金裕貞) 등이 창간하였다."
+    },
+    {
+     "sids": [
+      "da4ec05a7d8b"
+     ],
+     "field": "relation:dialogue--jeong-ji-yong--kim-yu-jeong.summary",
+     "claim": "정지용은 시 「유선형 애상」을, 김유정은 소설 「두꺼비」를 실었다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0066561",
+     "quote": "시란에 정지용의 「유선형(流線型) 애상(哀傷)」, … 소설에는 박태원의 「방란장주인」, 김유정의 「두꺼비」가 실려 있다.",
+     "note": "같은 사전의 정지용 항목(E0050954)은 제목을 ｢유선애상(流線哀傷)｣으로 적는다."
+    },
+    {
+     "sids": [
+      "93ef98ed0940"
+     ],
+     "field": "relation:dialogue--jeong-ji-yong--kim-yu-jeong.summary",
+     "claim": "이상은 「김유정 — 소설체로 쓴 김유정론」(『청색지』, 1939)에서 김기림·박태원·정지용·김유정 네 사람의 성격을 그렸다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EB%A1%A0",
+     "quote": "〈청색지〉, 1939.5.",
+     "note": "본문이 차례로 김기림(\"우수한 견본이 김기림이라\"), 박태원(\"위험 인물이 박태원이다\"), 정지용(\"수염을 저축한 정지용이 있다\"), 김유정(\"희유의 투사가 있으니 김유정이다\")을 그린다."
+    },
+    {
+     "sids": [
+      "93ef98ed0940"
+     ],
+     "field": "relation:dialogue--jeong-ji-yong--kim-yu-jeong.summary",
+     "claim": "이상은 이 네 사람이 서로 친하다고 적었다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%EA%B9%80%EC%9C%A0%EC%A0%95%EB%A1%A0",
+     "quote": "다행히 이 네 분은 서로들 친하다."
+    },
+    {
+     "sids": [
+      "93ef98ed0940"
+     ],
+     "field": "relation:dialogue--jeong-ji-yong--kim-yu-jeong.summary",
+     "claim": "한국문학번역원 작가 소개는 김유정이 가입한 구인회에 정지용과 이상이 있었다고 기록한다.",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200094",
+     "quote": "The same year, he became a member of the literary coterie, the Circle of Nine (구인회), which included such prominent poets and fiction writers as Chong Chi-Yong and Yi Sang."
+    },
+    {
+     "sids": [
+      "cdab2530f8c2"
+     ],
+     "field": "relation:influence--jeong-ji-yong--yun-dong-ju.facts",
+     "claim": "정지용 시가 윤동주에게 영향을 끼쳤다는 문헌 근거가 있다.",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002113031",
+     "quote": "정지용의 시는 윤동주만이 아니라 다른 시인들에게도 영향을 끼친 사례가 보이는데, 윤동주에게는 영향의 흔적이 더욱 뚜렷하게 나타난다."
+    },
+    {
+     "sids": [
+      "a99b4f77c41b"
+     ],
+     "field": "relation:influence--jeong-ji-yong--yun-dong-ju.summary",
+     "claim": "윤동주의 『정지용 시집』 소장본에 1936년 3월 19일 '동주소장'이라 적혀 있다.",
+     "verdict": "confirmed",
+     "url": "http://www.sjpost.co.kr/news/articleView.html?idxno=34544",
+     "quote": "책에는 1936년 3월 19일 ‘동주소장’이라는 글귀가 친필로 쓰여있다."
+    },
+    {
+     "sids": [
+      "a99b4f77c41b"
+     ],
+     "field": "relation:influence--jeong-ji-yong--yun-dong-ju.summary",
+     "claim": "그 소장본에 밑줄과 단어 풀이 메모가 남아 있다.",
+     "verdict": "confirmed",
+     "url": "http://www.sjpost.co.kr/news/articleView.html?idxno=34544",
+     "quote": "시집에는 밑줄, 단어 해석 등 윤 시인의 메모가 그대로 기록돼있는데"
+    },
+    {
+     "sids": [
+      "a99b4f77c41b"
+     ],
+     "field": "relation:influence--jeong-ji-yong--yun-dong-ju.summary",
+     "claim": "이 메모들은 『사진판 윤동주 자필 시고전집』(민음사, 1999)에 사진으로 실렸다.",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/653/",
+     "quote": "제2부 <사진판 자필 메모 및 서명>에선 윤동주가 직접 필사하여 읽었던 백석의 시집 『사슴』 필사본을 비롯해 시인이 소장했던 정지용, 김영랑 등의 시집에 기재된 자필 메모, 그리고 자신의 소장서에 씌어 있었던 자필 메모 등을 모두 컬러로 수록하였다.",
+     "note": "같은 페이지: \"발행일 1999년 3월 1일\"."
+    },
+    {
+     "sids": [
+      "8b0aebe0ff18"
+     ],
+     "field": "relation:influence--jeong-ji-yong--yun-dong-ju.summary",
+     "claim": "정지용은 서문에서 생전의 윤동주를 몰랐다고 썼다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%ED%8E%98%EC%9D%B4%EC%A7%80:%EC%9C%A4%EB%8F%99%EC%A3%BC_%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(%EC%B4%88%ED%8C%90%EB%B3%B8,_1948).pdf/4",
+     "quote": "내가 詩人 尹東柱를 몰랐기로서니 尹東柱의 詩가 바로 “詩”고 보면 그만 아니냐?"
+    },
+    {
+     "sids": [
+      "8b0aebe0ff18"
+     ],
+     "field": "relation:influence--jeong-ji-yong--yun-dong-ju.summary",
+     "claim": "1948년 유고 시집 『하늘과 바람과 별과 시』의 서문을 정지용이 썼다.",
+     "verdict": "confirmed",
+     "url": "https://ko.wikisource.org/wiki/%ED%8E%98%EC%9D%B4%EC%A7%80:%EC%9C%A4%EB%8F%99%EC%A3%BC_%ED%95%98%EB%8A%98%EA%B3%BC_%EB%B0%94%EB%9E%8C%EA%B3%BC_%EB%B3%84%EA%B3%BC_%EC%8B%9C_(%EC%B4%88%ED%8C%90%EB%B3%B8,_1948).pdf/3",
+     "quote": "아직 무릎을 꿇을만한 氣力이 남었기에 나는 이 붓을 들어\n詩人 尹東柱의 遺稿에 焚香하노라.",
+     "note": "같은 판본(『하늘과 바람과 별과 시』 초판본, 1948, 정음사) 3–10쪽의 서문으로 끝에 \"지 용\" 서명. 위키문헌 판본 페이지 설명: \"1948년 정음사(正音社)에서 유작 30편을 모아 동일한 이름으로 간행하였다.\""
+    },
+    {
+     "sids": [
+      "8b0aebe0ff18"
+     ],
+     "field": "relation:influence--jeong-ji-yong--yun-dong-ju.summary",
+     "claim": "1947년 2월 13일 「쉽게 씌어진 시」가 『경향신문』에 처음 실릴 때 정지용이 소개문을 썼다.",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0071398",
+     "quote": "1947년 2월 13일 정지용(鄭芝溶)의 소개문과 함께『경향신문』에처음으로 발표되었다."
+    }
+   ],
+   "noClaim": {}
+  }
+ ]
+}

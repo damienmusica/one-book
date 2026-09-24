@@ -1,0 +1,42 @@
+{
+  "fixes": [
+    {
+      "id": "jeong-you-jeong",
+      "works": [
+        {
+          "id": "jeong-you-jeong--jini-jini",
+          "significance": "유인원 책임사육사 진이가 구조한 보노보 ‘지니’를 안고 가다 교통사고를 당한 뒤 의식이 보노보의 몸에 들어가고, 사고를 목격한 실업자 민주의 도움으로 사흘 안에 자기 몸으로 돌아가려 하는 장편. 민주의 장과 진이의 장이 번갈아 나오며, ‘악의 3부작’의 긴장된 스릴러에서 경쾌한 쪽으로 방향을 바꿨다는 소개를 받았다."
+        }
+      ],
+      "dropRelations": [
+        "influence--ernest-hemingway--jeong-you-jeong"
+      ],
+      "resolutions": [
+        {
+          "field": "work:jeong-you-jeong--jini-jini.significance",
+          "claim": "민주의 성이 ‘김’이다(김민주)",
+          "resolution": "narrowed",
+          "evidence": "출처가 싣지 않는 성 ‘김’을 뺐다: 「사고를 목격한 실업자 민주의 도움으로 …」 이름 ‘민주’와 실업자 신분은 주장 53·76의 인용이 받친다."
+        },
+        {
+          "field": "work:jeong-you-jeong--jini-jini.significance",
+          "claim": "민주의 장과 ‘진이, 지니’의 장이 번갈아 나온다",
+          "resolution": "corrected",
+          "evidence": "‘‘진이, 지니’의 장’을 고침의 ‘진이의 장’으로 바꿨다: 「민주의 장과 진이의 장이 번갈아 나오며, …」 고침의 괄호(2장은 ‘진이’, 이후는 ‘진이, 지니’)는 넣으면 원문보다 길어져 뺐다."
+        },
+        {
+          "field": "relation:influence--ernest-hemingway--jeong-you-jeong.facts",
+          "claim": "헤밍웨이 → 정유정 직접 영향(documented_influence, documented)이 기록돼 있다",
+          "resolution": "relation-dropped",
+          "evidence": "두 출처는 헤밍웨이를 좋아하는 작가·평생 주제의 예로 들 뿐 영향을 받았다고 말하지 않아 documented_influence의 근거가 무너졌다. 관계를 뺐다; 이 도판에는 influence--charles-dickens--jeong-you-jeong이 남는다."
+        },
+        {
+          "field": "work:jeong-you-jeong--jini-jini.significance",
+          "claim": "민주는 청년 백수(실업자)다",
+          "resolution": "narrowed",
+          "evidence": "메모가 확인되지 않았다고 한 성 ‘김’을 문장에서 뺐다: 「사고를 목격한 실업자 민주의 도움으로 …」"
+        }
+      ]
+    }
+  ]
+}

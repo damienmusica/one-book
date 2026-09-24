@@ -1,0 +1,654 @@
+{
+  "plates": [
+    {
+      "id": "kim-young-ha",
+      "claims": [
+        {
+          "sids": [
+            "d10c0388772a"
+          ],
+          "field": "author.facts",
+          "claim": "김영하는 1968년생 한국(동아시아) 소설가다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "Kim Young-ha (born 1968) is a South Korean novelist."
+        },
+        {
+          "sids": [
+            "d10c0388772a"
+          ],
+          "field": "author.facts",
+          "claim": "김영하는 한국어로 작품을 쓴다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "Korean(한국어) Printed/Published Work 검은 꽃 Geomeun kkot Kim Young-ha / 김영하 / 2003"
+        },
+        {
+          "sids": [
+            "527b200cfe1e"
+          ],
+          "field": "author.importanceReason",
+          "claim": "첫 장편 『나는 나를 파괴할 권리가 있다』(1996)는 자살을 돕는 직업을 가진 화자를 내세웠다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "첫 장편소설 《나는 나를 파괴할 권리가 있다》(1996)는 다른 사람의 자살을 돕는 직업을 가진 주인공을 내세워"
+        },
+        {
+          "sids": [
+            "527b200cfe1e"
+          ],
+          "field": "author.importanceReason",
+          "claim": "김영하는 간결하고 직관적인 문장을 쓴다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "문체 면에서는 간결하고 직관적인 문장을 사용하여 젊은 독자층에게 인기를 끌었다."
+        },
+        {
+          "sids": [
+            "527b200cfe1e"
+          ],
+          "field": "author.importanceReason",
+          "claim": "김영하는 도시적 감수성을 대변하는 작가로 평가된다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "김영하는 한국의 1990년대와 2000년대를 대표하는 소설가로, 도시적 감수성을 잘 대변하면서"
+        },
+        {
+          "sids": [
+            "527b200cfe1e"
+          ],
+          "field": "author.importanceReason",
+          "claim": "첫 장편은 파편화된 개인의 냉소와 우울을 그렸다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/38944795-7b0c-4e3c-b098-3bfd3c5d24ad",
+          "quote": "파편화된 고독한 개인이 기댈 수 있는 위안의 빈곤을 드러낸다. … 현대인의 냉소와 우울을 감각적으로 묘사한 소설이었다."
+        },
+        {
+          "sids": [
+            "527b200cfe1e"
+          ],
+          "field": "author.importanceReason",
+          "claim": "결말의 반전과 아이러니로 독자가 믿어 온 이야기를 다시 보게 하는 것이 김영하 소설의 특징적 방식이다",
+          "verdict": "contradicted",
+          "url": "https://www.bokbokseoga.co.kr/onlytwo",
+          "quote": "반전과 아이러니, 블랙유머는 김영하 단편의 트레이드마크가 되었다. … 김영하 단편의 중요한 특징인 반전과 아이러니는 기대와는 전혀 다른 곳으로 독자를 끌고 감으로써, 독자로 하여금 그동안 몰입하며 읽어왔던 이야기, 스스로 상상해왔던 결론을 다시 검토하도록 만든다.",
+          "note": "재검: 출처는 이 방식을 \"김영하 단편의 트레이드마크\"로 한정하고, 바로 앞에서 \"단편을 쓸 때의 김영하는 장편을 쓸 때와 확연히 다른 모습을 보여준다\"고 대비한다. 장편을 포함한 김영하 소설 전반의 방식이라는 주장은 인용이 담지 못한다. 교정문의 앞부분(첫 장편·간결한 문장·도시·냉소와 우울)은 같은 sid의 다른 청구(LTI, 복복서가 『나는 나를…』 소개)가 뒷받침한다.",
+          "correction": "자살을 돕는 일을 직업으로 가진 화자를 내세운 첫 장편 『나는 나를 파괴할 권리가 있다』(1996)부터 간결하고 직관적인 문장으로 파편화된 도시 개인의 냉소와 우울을 썼고, 단편에서는 반전과 아이러니로 독자를 기대와 전혀 다른 곳으로 끌고 가 그동안 몰입해 읽어 온 이야기와 스스로 상상한 결론을 다시 검토하게 만드는 방식을 트레이드마크로 삼았다."
+        },
+        {
+          "sids": [
+            "c654ebc4ac39"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『검은 꽃』은 1905년 멕시코 이민사를 그린 장편이다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/d680f454-7e17-4a6c-9e8a-e508bb351e35",
+          "quote": "『검은 꽃』은 대한제국이 “물에 떨어진 잉크방울처럼 서서히 사라져가”고 있던 1905년, 좋은 일자리와 미래가 있을 것이라는 기대를 안고 멕시코로 떠난 한국인들의 이민사를 그려낸 장편소설이다."
+        },
+        {
+          "sids": [
+            "c654ebc4ac39"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『검은 꽃』은 역사소설 장르의 작품으로 평가된다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/91279628",
+          "quote": "첫 출간 당시부터 ‘역사소설이라는 맥이 풀려버린 장르를 미학적 가능성의 새로운 영역으로 등재해놓았다(서영채)’는 평가가 보여주듯"
+        },
+        {
+          "sids": [
+            "c654ebc4ac39"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『빛의 제국』은 남파 간첩의 하루를 스파이 스릴러의 틀로 그렸다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/2bed0d6f-943d-40fb-92b1-0890369b1fbc",
+          "quote": "북으로 귀환명령을 받은 남파간첩의 24시간을 긴박하게 묘사한 『빛의 제국』은 냉전문학의 이념적 계보를 스파이스릴러라는 장르로 해체해버리고"
+        },
+        {
+          "sids": [
+            "c654ebc4ac39"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『살인자의 기억법』은 치매에 걸린 연쇄살인범 이야기로, 범죄소설상 수상작 목록에 올랐다",
+          "verdict": "confirmed",
+          "url": "https://www.deutscher-krimipreis.de/2020/12/28/37-deutscher-krimipreis-2020/",
+          "quote": "3. Platz: Young-ha Kim: Aufzeichnungen eines Serienmörders (cass verlag) Tierarzt Byongsu Kim ist „pensionierter“ Serienmörder. … wird bei ihm beginnende Demenz diagnostiziert."
+        },
+        {
+          "sids": [
+            "c654ebc4ac39"
+          ],
+          "field": "author.importanceReason",
+          "claim": "김영하는 이런 작품들로 한국 근현대사를 다뤘다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "작가 특유의 경쾌한 문체로 서술되었으나 한국 근대사의 비극적 면모를 드러내고 있을 뿐 아니라, 역사에 대한 성찰도 보인다. 장편소설 《빛의 제국》(2006)은 북한으로의 귀환을 앞둔 한 남파 간첩의 하루를 다룬다. 작가는 작품을 통해서 1980년대부터 2000년대까지 한국 사회와 그 구성원들의 삶이 변화해온 궤적을 되짚으며"
+        },
+        {
+          "sids": [
+            "c654ebc4ac39"
+          ],
+          "field": "author.importanceReason",
+          "claim": "김영하는 기억의 문제를 작품에서 다뤄 왔다",
+          "verdict": "confirmed",
+          "url": "https://ch.yes24.com/Article/Details/23008",
+          "quote": "김영하 작가는 오래 전부터 기억에 대한 관심을 작품 속에 표출해왔다."
+        },
+        {
+          "sids": [
+            "f65604912878"
+          ],
+          "field": "author.importanceReason",
+          "claim": "김영하는 『위대한 개츠비』를 번역했다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/3636227",
+          "quote": "위대한 개츠비 F. 스콧 피츠제럴드 저/ 김영하 역 | 문학동네 | 2009년 12월 15일 | 원제 : The Great Gatsby"
+        },
+        {
+          "sids": [
+            "f65604912878",
+            "82b8e6f08da4"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『살인자의 기억법』 독일어판이 2020년 독일 범죄소설상(Deutscher Krimipreis) 국제 부문 3위에 올랐다",
+          "verdict": "confirmed",
+          "url": "https://www.deutscher-krimipreis.de/2020/12/28/37-deutscher-krimipreis-2020/",
+          "quote": "37. Deutscher Krimipreis 2020 … International … 3. Platz: Young-ha Kim: Aufzeichnungen eines Serienmörders (cass verlag)"
+        },
+        {
+          "sids": [
+            "52fae9fde24a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『살인자의 기억법』 초판(2013)은 176쪽의 장편이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/9196011",
+          "quote": "발행일 2013년 07월 24일 쪽수, 무게, 크기 176쪽 | 279g | 145*210*20mm ISBN13 9788954622035 ISBN10 8954622038 관련분류 카테고리 분류 국내도서 > 소설/시/희곡 > 테마소설 > 영화와 드라마 원작 국내도서 > 소설/시/희곡 > 한국소설 > 한국 장편소설"
+        },
+        {
+          "sids": [
+            "52fae9fde24a",
+            "3486afdfd428"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "화자 김병수는 일흔 살의 전직 연쇄살인범이고 알츠하이머(치매) 환자다",
+          "verdict": "confirmed",
+          "url": "https://ch.yes24.com/Article/Details/23008",
+          "quote": "70세 노인 김병수는 전직 수의사. 30년 동안 살인을 해오다 25년 전, 살인을 멈췄다. … 금강경을 읽고 반야심경을 읊는 김병수는 알츠하이머 환자다."
+        },
+        {
+          "sids": [
+            "52fae9fde24a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "소설은 주인공이 쓰는 짧은 기록이 이어지는 형식이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/91901136",
+          "quote": "소설은 이 주인공이 일지 형식으로 쓰는 짧은 글들의 연쇄로 이루어진다."
+        },
+        {
+          "sids": [
+            "52fae9fde24a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "한 번에 읽힌다는 평을 받았다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/9196011",
+          "quote": "굉장한 파괴력. 단숨에 읽히지만 긴 후유증이 남는다. - 이적(뮤지션)"
+        },
+        {
+          "sids": [
+            "3b0ffaa1e0fa"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『살인자의 기억법』에는 기억이 무너져 가는 화자와 결말의 반전이 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/9196011",
+          "quote": "『살인자의 기억법』에서는 알츠하이머에 걸린 은퇴한 연쇄살인범이 점점 사라져가는 기억과 사투를 벌이며 딸을 구하기 위한 마지막 살인을 계획한다. 아무렇지 않게 툭툭 던지는 잠언들, 돌발적인 유머와 위트, 마지막 결말의 반전까지"
+        },
+        {
+          "sids": [
+            "3b0ffaa1e0fa"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 책에 김영하 소설의 핵심 장치가 가장 압축된 형태로 들어 있다",
+          "verdict": "unverifiable",
+          "note": "복복서가 2020년판 소개(예스24)는 이 책을 \"김영하의 작품들 중에서도 가장 독창적인 소설\"로 꼽혀 왔다고만 하고, 핵심 장치가 \"가장 압축된 형태\"라는 평가를 한 출처는 LTI·채널예스·예스24·복복서가 소개에서 찾지 못함."
+        },
+        {
+          "sids": [
+            "54fe9250cf0c"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "2020년 복복서가 개정판이 현재 판매 중이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/91901136",
+          "quote": "살인자의 기억법 [ 개정판 ] 김영하 저 | 복복서가 | 2020년 08월 28일 | 번역서 : Diary of a Murderer … 상품 가격정보 정가 12,000원 판매가 10,800 원 (10% 할인)",
+          "note": "재인용: 원 인용은 서지 줄만 담아 \"현재 판매 중\"을 뒷받침하지 못해, 같은 상품 머리 블록의 판매가까지 넓혔다(2026-09-24 조회). 2013년 문학동네판(예스24 9196011)은 \"절판 상태입니다. 개정판 보기\"로 표시된다."
+        },
+        {
+          "sids": [
+            "2ad35207f146"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "김영하의 문장은 간결하다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "문체 면에서는 간결하고 직관적인 문장을 사용하여 젊은 독자층에게 인기를 끌었다."
+        },
+        {
+          "sids": [
+            "2ad35207f146"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "김영하의 소설은 빠른 속도감으로 전개된다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/2bed0d6f-943d-40fb-92b1-0890369b1fbc",
+          "quote": "특히 그의 소설은 도발적 소재, 거침없는 속도감, 유려한 스타일로"
+        },
+        {
+          "sids": [
+            "449e466320f3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "화자가 스스로를 속이거나 기억을 잃어 가는 김영하 소설이 많다",
+          "verdict": "contradicted",
+          "correction": "『살인자의 기억법』처럼 화자가 기억을 잃어 가는 소설이 있고, 「오직 두 사람」처럼 결말의 반전 뒤에 앞부분을 다시 읽게 되는 단편도 있으며,",
+          "note": "기억을 잃어 가는 화자로 출처가 확인하는 것은 『살인자의 기억법』뿐이다. \"스스로를 속이는 화자\"와 \"많다\"는 LTI·복복서가·예스24 소개에서 찾지 못함. 재검: 교정문에 근거 인용이 없어 기억을 잃어 가는 화자 부분의 인용을 붙였다. 「오직 두 사람」 부분은 같은 sid의 청구(복복서가 onlytwo: \"표제작인 「오직 두 사람」은 … 결말에 이르러 … 독자는 앞으로 돌아가 다시 소설을 읽게 되며\")가 뒷받침한다.",
+          "url": "https://www.yes24.com/Product/Goods/9196011",
+          "quote": "『살인자의 기억법』에서는 알츠하이머에 걸린 은퇴한 연쇄살인범이 점점 사라져가는 기억과 사투를 벌이며 딸을 구하기 위한 마지막 살인을 계획한다."
+        },
+        {
+          "sids": [
+            "449e466320f3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "결말의 반전 뒤에 앞부분을 다시 읽게 되는 김영하 소설이 있다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/onlytwo",
+          "quote": "결말에 이르러 독자는 자신이 상정해왔던 인물들의 관계가 크게 잘못되었음을 깨닫게 된다. 독자는 앞으로 돌아가 다시 소설을 읽게 되며"
+        },
+        {
+          "sids": [
+            "449e466320f3",
+            "8fd9d95be271"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『검은 꽃』은 1905년 멕시코 이민을 역사적 배경으로 한다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/d680f454-7e17-4a6c-9e8a-e508bb351e35",
+          "quote": "1905년, 좋은 일자리와 미래가 있을 것이라는 기대를 안고 멕시코로 떠난 한국인들의 이민사를 그려낸 장편소설이다."
+        },
+        {
+          "sids": [
+            "449e466320f3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『검은 꽃』은 여러 인물의 행로를 따라가며 전개된다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/91279628",
+          "quote": "뚜렷한 중심인물 없이 다양한 인물들을 따라가며 전개되는 모자이크식 구성은"
+        },
+        {
+          "sids": [
+            "ba0b6c0fb498"
+          ],
+          "field": "work:kim-young-ha--naneun-nareul-pagoehal-gwolliga-itda.facts",
+          "claim": "『나는 나를 파괴할 권리가 있다』는 1996년 출간된 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "2) 장편소설 《나는 나를 파괴할 권리가 있다》, 문학동네, 1996."
+        },
+        {
+          "sids": [
+            "a967e9dac94e"
+          ],
+          "field": "work:kim-young-ha--naneun-nareul-pagoehal-gwolliga-itda.significance",
+          "claim": "‘자살안내인’ 화자가 만난 ‘고객’들의 일탈적 삶과 죽음을 이야기하는 첫 장편이다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/38944795-7b0c-4e3c-b098-3bfd3c5d24ad",
+          "quote": "김영하라는 이름을 문단과 대중에 뚜렷이 각인시킨 첫 장편소설 『나는 나를 파괴할 권리가 있다』 … ‘자살안내인’이라는 기괴한 직업을 가진 화자를 등장시켜 그가 만난 ‘고객’들의 일탈적 삶과 죽음을 이야기하는"
+        },
+        {
+          "sids": [
+            "40da6d0141e6"
+          ],
+          "field": "work:kim-young-ha--naneun-nareul-pagoehal-gwolliga-itda.significance",
+          "claim": "인물들은 하나같이 관계에서 떨어져 나온 개인들이다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/38944795-7b0c-4e3c-b098-3bfd3c5d24ad",
+          "quote": "작품 속 인물들은 성별, 직업, 국적은 다르지만 하나같이 정신적 ‘고아’들이다. 혈연이 폭력을 합리화하고 친밀한 유대가 착취를 정당화하는 조건에 놓인 사람들에게는 무연고자가 되는 편이 차라리 안전하다."
+        },
+        {
+          "sids": [
+            "40da6d0141e6"
+          ],
+          "field": "work:kim-young-ha--naneun-nareul-pagoehal-gwolliga-itda.significance",
+          "claim": "소설은 냉소와 우울을 감각적으로 그린다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/38944795-7b0c-4e3c-b098-3bfd3c5d24ad",
+          "quote": "현대인의 냉소와 우울을 감각적으로 묘사한 소설이었다."
+        },
+        {
+          "sids": [
+            "394bba7e40f1"
+          ],
+          "field": "work:kim-young-ha--geomeun-kkot.facts",
+          "claim": "『검은 꽃』은 2003년 출간된 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "《검은 꽃》, 문학동네, 2003."
+        },
+        {
+          "sids": [
+            "8fd9d95be271"
+          ],
+          "field": "work:kim-young-ha--geomeun-kkot.significance",
+          "claim": "일자리를 기대하고 떠난 한국인들이 멕시코 에네켄 농장에 팔려 갔다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/d680f454-7e17-4a6c-9e8a-e508bb351e35",
+          "quote": "1905년, 좋은 일자리와 미래가 있을 것이라는 기대를 안고 멕시코로 떠난 한국인들의 이민사를 그려낸 장편소설이다. … 전반부에는 멕시코의 에네켄 농장으로 팔려간 조선인들의 가혹한 삶을 보여주며",
+          "note": "재인용: 원 인용은 에네켄 농장 부분만 담고 \"일자리를 기대하고 떠난\"을 담지 못해, 같은 단락에서 앞 문장까지 넓혔다."
+        },
+        {
+          "sids": [
+            "8fd9d95be271"
+          ],
+          "field": "work:kim-young-ha--geomeun-kkot.significance",
+          "claim": "이민자들은 계약 노동을 했고 계약이 끝난 뒤에도 빚 때문에 돌아오지 못했다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "계약 노동으로 멕시코로 이민한 한인들이 비인간적 강제 노동에 시달리고 계약 기간이 끝난 후에도 채무로 인해 고국으로 돌아오지 못하는 비극적인 모습을 묘사했다."
+        },
+        {
+          "sids": [
+            "83beafd929a4"
+          ],
+          "field": "work:kim-young-ha--geomeun-kkot.significance",
+          "claim": "작가가 멕시코와 과테말라를 다녀온 뒤 썼다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/d680f454-7e17-4a6c-9e8a-e508bb351e35",
+          "quote": "김영하 작가가 멕시코와 과테말라를 직접 다녀온 후"
+        },
+        {
+          "sids": [
+            "83beafd929a4"
+          ],
+          "field": "work:kim-young-ha--geomeun-kkot.significance",
+          "claim": "인물들의 죽음 앞에서도 감상 없이 담담한 어조를 지킨다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/d680f454-7e17-4a6c-9e8a-e508bb351e35",
+          "quote": "등장인물들의 덧없는 죽음 앞에서도 그의 어조는 군더더기 없이 담담할 뿐 슬픔을 쥐어짜지도 감상주의에 젖지도 않는다."
+        },
+        {
+          "sids": [
+            "7ac8f582f8eb"
+          ],
+          "field": "work:kim-young-ha--bichui-jeguk.facts",
+          "claim": "『빛의 제국』은 2006년 출간된 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "《빛의 제국》, 문학동네, 2006."
+        },
+        {
+          "sids": [
+            "990aec542b55"
+          ],
+          "field": "work:kim-young-ha--bichui-jeguk.significance",
+          "claim": "북으로 귀환 명령을 받은 남파 간첩의 24시간을 따라가는 장편이다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/2bed0d6f-943d-40fb-92b1-0890369b1fbc",
+          "quote": "북으로 귀환명령을 받은 남파간첩의 24시간을 긴박하게 묘사한 『빛의 제국』은"
+        },
+        {
+          "sids": [
+            "990aec542b55"
+          ],
+          "field": "work:kim-young-ha--bichui-jeguk.significance",
+          "claim": "주인공 간첩의 이름은 김기영이다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/2bed0d6f-943d-40fb-92b1-0890369b1fbc",
+          "quote": "남파간첩 김기영의 서사가 발붙이고 있는 사실성은 다름 아닌 우리의 분단현실에서 나오고"
+        },
+        {
+          "sids": [
+            "41387e8c1dfc"
+          ],
+          "field": "work:kim-young-ha--bichui-jeguk.significance",
+          "claim": "냉전 소설의 이념 서사를 스파이 스릴러의 틀로 옮겼다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/2bed0d6f-943d-40fb-92b1-0890369b1fbc",
+          "quote": "냉전문학의 이념적 계보를 스파이스릴러라는 장르로 해체해버리고"
+        },
+        {
+          "sids": [
+            "41387e8c1dfc"
+          ],
+          "field": "work:kim-young-ha--bichui-jeguk.significance",
+          "claim": "1980년대부터 2000년대까지 남한 사회의 변화 궤적을 한 간첩의 하루에 겹쳐 놓는다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "장편소설 《빛의 제국》(2006)은 북한으로의 귀환을 앞둔 한 남파 간첩의 하루를 다룬다. 작가는 작품을 통해서 1980년대부터 2000년대까지 한국 사회와 그 구성원들의 삶이 변화해온 궤적을 되짚으며"
+        },
+        {
+          "sids": [
+            "e03ec2dabe13"
+          ],
+          "field": "work:kim-young-ha--bichui-jeguk.significance",
+          "claim": "영어판 제목은 ‘Your Republic Is Calling You’다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/2bed0d6f-943d-40fb-92b1-0890369b1fbc",
+          "quote": "『빛의 제국』의 영어 제목 ‘Your Republic Is Calling You’는"
+        },
+        {
+          "sids": [
+            "a9eb9737f1a3"
+          ],
+          "field": "work:kim-young-ha--sarinjaui-gieokbeop.facts",
+          "claim": "『살인자의 기억법』은 2013년 출간된 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "《살인자의 기억법》, 문학동네, 2013."
+        },
+        {
+          "sids": [
+            "3486afdfd428"
+          ],
+          "field": "work:kim-young-ha--sarinjaui-gieokbeop.significance",
+          "claim": "김병수는 딸을 지키려고 매 순간을 기록한다",
+          "verdict": "confirmed",
+          "url": "https://ch.yes24.com/Article/Details/23008",
+          "quote": "맹목이 일상이 되어 버린 김병수는 딸을 살리기 위해 매 순간을 기록하기로 한다."
+        },
+        {
+          "sids": [
+            "1764cbbade0b"
+          ],
+          "field": "work:kim-young-ha--sarinjaui-gieokbeop.significance",
+          "claim": "소설은 주인공이 쓰는 기록만으로 진행된다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/91901136",
+          "quote": "소설은 이 주인공이 일지 형식으로 쓰는 짧은 글들의 연쇄로 이루어진다."
+        },
+        {
+          "sids": [
+            "1764cbbade0b"
+          ],
+          "field": "work:kim-young-ha--sarinjaui-gieokbeop.significance",
+          "claim": "무엇이 사실인지 확정되지 않는다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/91901136",
+          "quote": "어디까지가 허구고 어디까지가 사실인지 경계가 모호하지만 그럼에도 불구하고 유일하게 의존할 수밖에 없는 화자의 강렬한 독백"
+        },
+        {
+          "sids": [
+            "1764cbbade0b"
+          ],
+          "field": "work:kim-young-ha--sarinjaui-gieokbeop.significance",
+          "claim": "『살인자의 기억법』에서는 무엇이 사실인지 끝까지(결말에서도) 확정되지 않는다",
+          "verdict": "contradicted",
+          "url": "https://www.yes24.com/Product/Goods/91901136",
+          "quote": "어디까지가 허구고 어디까지가 사실인지 경계가 모호하지만 그럼에도 불구하고 유일하게 의존할 수밖에 없는 화자의 강렬한 독백",
+          "correction": "무너지는 기억 속에서 쓴 기록만으로 진행돼 어디까지가 허구고 어디까지가 사실인지 경계가 모호하다.",
+          "note": "추가(재검): 문장의 범위어 \"끝까지\"를 확인한 청구가 없었다. 출처는 경계가 모호하다고만 하고, 같은 소설의 결말은 \"거대한 반전 혹은 완벽한 배반\"(같은 페이지, 류보선)이며 채널예스 서평(https://ch.yes24.com/Article/Details/23008)은 \"이윽고 결말에 다다르면, 작가가 무심하게 흘려 놓은 듯한 반전이 독자들의 눈치를 살핀다. 반전은 분명한 기실인데\"라고 쓴다. \"끝까지 확정되지 않는다\"는 뒷받침되지 않는다. 교정문의 \"기록만으로\"는 같은 페이지의 \"소설은 이 주인공이 일지 형식으로 쓰는 짧은 글들의 연쇄로 이루어진다\"가 뒷받침한다."
+        },
+        {
+          "sids": [
+            "f914565e59da"
+          ],
+          "field": "work:kim-young-ha--ojik-du-saram.facts",
+          "claim": "『오직 두 사람』은 2017년 출간된 소설집이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "1) 소설집 《호출》, 문학동네, 1997. … 《오직 두 사람》, 문학동네, 2017."
+        },
+        {
+          "sids": [
+            "cdeeca2aac8b"
+          ],
+          "field": "work:kim-young-ha--ojik-du-saram.significance",
+          "claim": "7년 동안 지면에 발표한 단편들을 모은 소설집이다",
+          "verdict": "confirmed",
+          "url": "https://www.bokbokseoga.co.kr/onlytwo",
+          "quote": "7년간 지면에 발표한 단편들을 모은 『오직 두 사람』은"
+        },
+        {
+          "sids": [
+            "4fdf1266f7c9"
+          ],
+          "field": "work:kim-young-ha--ojik-du-saram.significance",
+          "claim": "짧은 분량 안에서 반전과 아이러니로 이야기를 기대와 다른 곳에 데려가 독자가 몰입해 온 인물과 상상한 결론을 다시 검토하게 한다",
+          "verdict": "contradicted",
+          "url": "https://www.bokbokseoga.co.kr/onlytwo",
+          "quote": "200자 원고지 100매 내외의 짧은 분량임에도 … 김영하 단편의 중요한 특징인 반전과 아이러니는 기대와는 전혀 다른 곳으로 독자를 끌고 감으로써, 독자로 하여금 그동안 몰입하며 읽어왔던 이야기, 스스로 상상해왔던 결론을 다시 검토하도록 만든다.",
+          "correction": "짧은 분량 안에서 반전과 아이러니로 독자를 기대와 전혀 다른 곳으로 끌고 가, 그동안 몰입해 읽어 온 이야기와 스스로 상상한 결론을 다시 검토하게 만든다.",
+          "note": "출처가 다시 검토하게 한다고 말하는 대상은 \"인물\"이 아니라 \"몰입하며 읽어왔던 이야기\"다. 재검: 출처에서 기대와 다른 곳으로 끌려가는 것은 \"이야기\"가 아니라 \"독자\"여서 교정문을 인용에 맞췄다."
+        },
+        {
+          "sids": [
+            "857760eaf3a4"
+          ],
+          "field": "work:kim-young-ha--yeohaengui-iyu.facts",
+          "claim": "『여행의 이유』는 2019년 출간된 산문집이다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "3) 산문집 《굴비낚시》, 마음산책, 2000. … 《여행의 이유》, 문학동네, 2019."
+        },
+        {
+          "sids": [
+            "7e19cfd6ea29"
+          ],
+          "field": "work:kim-young-ha--yeohaengui-iyu.significance",
+          "claim": "처음 여행부터 최근까지의 여행을 아홉 편의 글로 풀고, 여행을 중심으로 글쓰기·타자·삶의 의미를 생각하는 산문집이다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/71923011",
+          "quote": "『여행의 이유』는 작가 김영하가 처음 여행을 떠났던 순간부터 최근의 여행까지, 오랜 시간 여행을 하면서 느끼고 생각했던 것들을 아홉 개의 이야기로 풀어낸 산문이다. 여행지에서 겪은 경험을 풀어낸 여행담이기보다는, 여행을 중심으로 인간과 글쓰기, 타자와 삶의 의미로 주제가 확장되어가는 사유의 여행에 가깝다."
+        },
+        {
+          "sids": [
+            "58c3a1d51325",
+            "5ede49237be6"
+          ],
+          "field": "work:kim-young-ha--yeohaengui-iyu.significance",
+          "claim": "「노바디의 여행」은 『오디세이아』 해석을 통해 허영과 자만을 버리고 자신을 낮추는 여행자의 태도를 이야기한다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/71923011",
+          "quote": "「노바디의 여행」은 성숙한 여행자의 태도와 사람의 정신적 성장을 유비해 보여주는 글로, 호메로스의 『오디세이아』에 담긴 고대의 지혜에 대한 반짝이는 해석이 담겨 있다. 허영과 자만을 버리고 자신을 낮추는 지혜로운 여행자가 되기까지의 과정에 대한 이야기는"
+        },
+        {
+          "sids": [
+            "c3a66fe5f513"
+          ],
+          "field": "relation:influence--sophocles--kim-young-ha.facts",
+          "claim": "김영하가 소포클레스의 『오이디푸스 왕』을 읽고 그 영향을 직접 글로 남겼다(소포클레스→김영하, 문헌 근거 있음)",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/22936752",
+          "quote": "나는 호메로스의 『오디세이아』와 소포클레스의 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’과 ‘우리가 고대로부터 매우 발전했다고 믿는 자만’을 발견하게 되었다. 이렇게 독서는 우리가 굳건하게 믿고 있는 것들을 흔들게 된다."
+        },
+        {
+          "sids": [
+            "cedc418e2508"
+          ],
+          "field": "relation:influence--sophocles--kim-young-ha.summary",
+          "claim": "『읽다』는 강연을 묶은 산문집이다",
+          "verdict": "confirmed",
+          "url": "https://www.hankookilbo.com/news/article/201511232076677409",
+          "quote": "‘읽다’(문학동네)는 먼저 나온 산문집 ‘보다’ ‘말하다’에 이은 산문 3부작의 완결판으로, 올 여름 50명의 독자들을 대상으로 한 강연을 묶은 것이다."
+        },
+        {
+          "sids": [
+            "cedc418e2508"
+          ],
+          "field": "relation:influence--sophocles--kim-young-ha.summary",
+          "claim": "『읽다』는 2015년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://library.ltikorea.or.kr/writer/200525",
+          "quote": "《읽다》, 문학동네, 2015."
+        },
+        {
+          "sids": [
+            "cedc418e2508"
+          ],
+          "field": "relation:influence--sophocles--kim-young-ha.summary",
+          "claim": "김영하는 『읽다』에서 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’을 발견했다고 썼다",
+          "verdict": "contradicted",
+          "url": "https://www.yes24.com/Product/Goods/22936752",
+          "quote": "나는 호메로스의 『오디세이아』와 소포클레스의 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’과 ‘우리가 고대로부터 매우 발전했다고 믿는 자만’을 발견하게 되었다.",
+          "correction": "김영하는 강연 산문 『읽다』(2015)에서 호메로스의 『오디세이아』와 소포클레스의 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’과 ‘우리가 고대로부터 매우 발전했다고 믿는 자만’을 발견했다고 썼다.",
+          "note": "원문은 두 작품과 두 가지 오만을 함께 묶어 말할 뿐, ‘모르면서도 알고 있다고 믿는 오만’을 『오이디푸스 왕』 하나에 짝지우지 않는다. 재검: 교정문의 \"강연 산문\"과 \"2015\"는 같은 sid의 청구(한국일보: 강연을 묶은 것, LTI: 《읽다》, 문학동네, 2015.)가 뒷받침한다."
+        },
+        {
+          "sids": [
+            "8b31a245f616"
+          ],
+          "field": "relation:influence--sophocles--kim-young-ha.summary",
+          "claim": "『살인자의 기억법』(2013)의 화자는 자신이 오이디푸스와 정반대로 파멸에서 망각을 거쳐 무지로 간다고 말한다",
+          "verdict": "confirmed",
+          "url": "https://ch.yes24.com/Article/Details/23008",
+          "quote": "“오이디푸스는 무지에게 망각으로, 망각에서 파멸로 진행했다. 나는 정확히 그 반대다. 파멸에서 망각으로, 망각에서 무지로, 순수한 무지의 상태로 이행할 것이다.”(p.129)"
+        },
+        {
+          "sids": [
+            "9f058ac34e93"
+          ],
+          "field": "relation:influence--homer--kim-young-ha.facts",
+          "claim": "김영하가 호메로스의 『오디세이아』를 읽고 그 영향을 직접 글로 남겼다(호메로스→김영하, 문헌 근거 있음)",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/22936752",
+          "quote": "나는 호메로스의 『오디세이아』와 소포클레스의 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’과 ‘우리가 고대로부터 매우 발전했다고 믿는 자만’을 발견하게 되었다."
+        },
+        {
+          "sids": [
+            "5ede49237be6"
+          ],
+          "field": "relation:influence--homer--kim-young-ha.summary",
+          "claim": "김영하는 『읽다』에서 『오디세이아』를 『오이디푸스 왕』과 함께 인간의 오만을 깨닫게 한 독서로 꼽았다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/Product/Goods/22936752",
+          "quote": "독서는 우리 내면에서 자라나는 오만(휴브리스)과의 투쟁일 것이다. 나는 호메로스의 『오디세이아』와 소포클레스의 『오이디푸스 왕』을 읽으며 ‘모르면서도 알고 있다고 믿는 오만’과 ‘우리가 고대로부터 매우 발전했다고 믿는 자만’을 발견하게 되었다."
+        },
+        {
+          "sids": [
+            "5ede49237be6"
+          ],
+          "field": "relation:influence--homer--kim-young-ha.summary",
+          "claim": "『여행의 이유』는 2019년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/71923011",
+          "quote": "발행일 2019년 04월 17일 쪽수, 무게, 크기 216쪽"
+        }
+      ],
+      "noClaim": {
+        "1513c43c4bff": "\"난도는 구조에 있다\"는 읽기 난도에 대한 편집 판단으로, 사실 주장이 없다."
+      }
+    }
+  ],
+  "check": {
+    "kept": 54,
+    "requoted": 2,
+    "downgraded": 1,
+    "added": 1,
+    "noClaimConverted": 0
+  }
+}

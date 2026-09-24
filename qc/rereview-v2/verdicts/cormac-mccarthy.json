@@ -1,0 +1,833 @@
+{
+ "plates": [
+  {
+   "id": "cormac-mccarthy",
+   "claims": [
+    {
+     "sids": [
+      "35df2c969b8e"
+     ],
+     "field": "author.facts",
+     "claim": "코맥 매카시(Cormac McCarthy)는 1933년에 태어나 2023년에 죽었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "Cormac McCarthy (born July 20, 1933, Providence, Rhode Island, U.S.—died June 13, 2023, Santa Fe, New Mexico) was an American writer"
+    },
+    {
+     "sids": [
+      "35df2c969b8e"
+     ],
+     "field": "author.facts",
+     "claim": "영어로 쓴 북아메리카(미국) 작가다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "was an American writer in the Southern gothic tradition whose novels, about wayward characters in the rural American South and Southwest"
+    },
+    {
+     "sids": [
+      "89e677e36bda"
+     ],
+     "field": "author.importanceReason",
+     "claim": "매카시의 문장은 따옴표와 쌍점·쌍반점을 (거의) 쓰지 않는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "minimally punctuated, without quotation marks, avoiding apostrophes, colons or semicolons"
+    },
+    {
+     "sids": [
+      "89e677e36bda"
+     ],
+     "field": "author.importanceReason",
+     "claim": "매카시의 문장은 성서풍이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "McCarthy's prose restores the terror and grandeur of the physical world with a biblical gravity that can shatter a reader"
+    },
+    {
+     "sids": [
+      "89e677e36bda"
+     ],
+     "field": "author.importanceReason",
+     "claim": "매카시는 서부 개척의 신화를 학살의 기록(피범벅의 반서부극)으로 다시 썼다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "A surreal and blood-drenched anti-western about a gang of scalp hunters and outlaws in Texas and Mexico"
+    },
+    {
+     "sids": [
+      "39f6ce4d13ed"
+     ],
+     "field": "author.importanceReason",
+     "claim": "초기 네 장편은 동테네시 산골의 떠돌이·범죄자 같은 외톨이들을 그렸다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "His characters are often outcasts -- destitute or criminals, or both. Homeless or squatting in hovels without electricity, they scrape by in the backwoods of East Tennessee"
+    },
+    {
+     "sids": [
+      "39f6ce4d13ed"
+     ],
+     "field": "author.importanceReason",
+     "claim": "첫 네 장편은 테네시(애팔래치아 남부)를 배경으로 했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "His first four novels — “The Orchard Keeper” (1965), “Outer Dark” (1968), “Child of God” (1973) and “Suttree” (1979) — are bleak fables, set in the Appalachian South"
+    },
+    {
+     "sids": [
+      "39f6ce4d13ed"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『핏빛 자오선』은 1849–50년 미국·멕시코 국경 지대의 머리가죽 사냥단을 따라간다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Blood_Meridian",
+     "quote": "the Glanton gang, a historical group of scalp hunters who massacred American Indians and others in the United States–Mexico borderlands from 1849 to 1850"
+    },
+    {
+     "sids": [
+      "39f6ce4d13ed"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『핏빛 자오선』의 프런티어에는 영웅이 없다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Blood_Meridian",
+     "quote": "It is the absence of a recognizable heroic character along with the negation of the Eurocentric oppositions"
+    },
+    {
+     "sids": [
+      "bc65d037b3b2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『모두 다 예쁜 말들』에서 묘사보다 대사가 앞선다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "Dialogue rather than description predominates"
+    },
+    {
+     "sids": [
+      "bc65d037b3b2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『모두 다 예쁜 말들』에서 간결한 후기 문체로 옮겨 갔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "Mr. McCarthy’s later period began in earnest with “All the Pretty Horses,” the first volume in his Border Trilogy"
+    },
+    {
+     "sids": [
+      "bc65d037b3b2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『모두 다 예쁜 말들』로 전미도서상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "“All the Pretty Horses,” a reflective western that cut against the grain of his previous work, won a National Book Award in 1992"
+    },
+    {
+     "sids": [
+      "bc65d037b3b2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『로드』는 원인이 밝혀지지 않은 재앙 뒤의 미국에서 아버지와 아들이 살아남으려는 이야기다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "In the postapocalyptic The Road (2006), a father and son struggle to survive after a disaster (left unspecified) that has all but destroyed the United States."
+    },
+    {
+     "sids": [
+      "bc65d037b3b2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『로드』로 2007년 퓰리처상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "“The Road” won a Pulitzer Prize in 2007"
+    },
+    {
+     "sids": [
+      "3760cd2dd408"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『로드』는 아버지와 어린 아들 두 사람의 여정을 따라간다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "The book details the grueling journey of a father and his young son over several months across a landscape blasted by an unspecified cataclysm"
+    },
+    {
+     "sids": [
+      "3760cd2dd408"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "문학동네판 『로드』(정영목 옮김)는 328쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=2188422",
+     "quote": "328쪽",
+     "note": "같은 알라딘 페이지 서지 행: 「코맥 매카시 (지은이),정영목 (옮긴이)문학동네2008-06-10원제 : The Road (2006년)」"
+    },
+    {
+     "sids": [
+      "3760cd2dd408"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『핏빛 자오선』 한국어판은 484쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275895654",
+     "quote": "484쪽",
+     "note": "민음사 2021-06-30 김시현 옮김(개정판). 같은 역자의 2008년판은 438쪽(알라딘 ItemId=2834321), 2009년판은 444쪽(ItemId=5841408)이다 — 쪽수는 현행 판 기준."
+    },
+    {
+     "sids": [
+      "3760cd2dd408"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『패신저』 한국어판은 736쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=329557815",
+     "quote": "736쪽",
+     "note": "같은 페이지 서지 행: 「코맥 매카시 (지은이),정영목 (옮긴이)문학동네2023-11-30원제 : The Passenger」"
+    },
+    {
+     "sids": [
+      "f0bcc1d6dfb7"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『로드』는 후기의 간결한(미니멀한) 문장으로 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "the lush taciturnity of “All the Pretty Horses” and the apocalyptic minimalism of “The Road,”"
+    },
+    {
+     "sids": [
+      "f0bcc1d6dfb7"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『로드』에 매카시의 주제(폭력과 생존)가 '가장' 압축된 형태로 담겨 있다",
+     "verdict": "unverifiable",
+     "note": "'가장 압축된'이라고 말하는 출처를 찾지 못했다. 브리태니커(2024 아카이브)·NYT 부고·영어 위키백과 The Road 항목을 보았으나, 브리태니커는 오히려 이전 작품들과 달리 '새로운 정서적 깊이와 구원의 기미'를 비평가들이 지적했다고 적는다. 최상급을 빼고 '폭력과 생존이라는 주제가 두 인물의 여정 하나로 좁혀져 있다' 정도로 낮추는 편이 안전하다."
+    },
+    {
+     "sids": [
+      "039d6149878e"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『핏빛 자오선』은 대표작(걸작)으로 꼽힌다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "was a critical sensation, hailed as his masterpiece"
+    },
+    {
+     "sids": [
+      "039d6149878e",
+      "a17e2a3ed1ff"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『핏빛 자오선』은 19세기 소설풍의 부풀린 문장으로 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "The collision between the inflated prose of the 19th-century novel and nasty reality gives \"Blood Meridian\" its strange, hellish character."
+    },
+    {
+     "sids": [
+      "039d6149878e"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『핏빛 자오선』은 영웅 없이 학살 장면이 이어진다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Blood_Meridian",
+     "quote": "It is the absence of a recognizable heroic character along with the negation of the Eurocentric oppositions"
+    },
+    {
+     "sids": [
+      "039d6149878e",
+      "a17e2a3ed1ff"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『핏빛 자오선』 한국어판은 484쪽이다",
+     "verdict": "confirmed",
+     "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275895654",
+     "quote": "484쪽",
+     "note": "민음사 2021 김시현 옮김 현행 판."
+    },
+    {
+     "sids": [
+      "a8f04bee73fa"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『모두 다 예쁜 말들』은 대사가 많다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "Dialogue rather than description predominates"
+    },
+    {
+     "sids": [
+      "0e1331830780"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "대사에 따옴표를 치지 않고 쌍점·쌍반점도 거의 쓰지 않는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "minimally punctuated, without quotation marks, avoiding apostrophes, colons or semicolons"
+    },
+    {
+     "sids": [
+      "a17e2a3ed1ff"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『핏빛 자오선』은 매카시 작품 가운데 가장 높이 평가받는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "The MacArthur money gave him the time to write “Blood Meridian,” which many critics feel is his finest book."
+    },
+    {
+     "sids": [
+      "a17e2a3ed1ff"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『핏빛 자오선』은 이유 없는 학살을 이어 간다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "it tells the story of a 14-year-old boy who joins a gang of lawless scalp hunters committing senseless acts of violence along the U.S.-Mexico border in the 1840s"
+    },
+    {
+     "sids": [
+      "c390dafae2d5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『로드』는 두 인물의 여정 하나만 따라간다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "The book details the grueling journey of a father and his young son over several months across a landscape blasted by an unspecified cataclysm"
+    },
+    {
+     "sids": [
+      "c390dafae2d5"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『노인을 위한 나라는 없다』는 절제된 문장의 스릴러다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "Mr. McCarthy published his stripped-down existential thriller “No Country For Old Men” in 2005."
+    },
+    {
+     "sids": [
+      "fecf9e230344"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.facts",
+     "claim": "『모두 다 예쁜 말들』(All the Pretty Horses)은 1992년에 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/All_the_Pretty_Horses_(novel)",
+     "quote": "All the Pretty Horses is a novel by American author Cormac McCarthy published by Alfred A. Knopf in 1992."
+    },
+    {
+     "sids": [
+      "df3821d13056"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+     "claim": "'국경 삼부작'의 첫 권이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "Mr. McCarthy’s later period began in earnest with “All the Pretty Horses,” the first volume in his Border Trilogy"
+    },
+    {
+     "sids": [
+      "d6776efb982d"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+     "claim": "1949년 할아버지가 죽고 부모가 이혼하는 와중에 서부 텍사스의 존 그래디 콜이 친구 레이시 롤린스와 멕시코로 떠난다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "The main character, a teen-ager named John Grady Cole, leaves his home in West Texas in 1949 after the death of his grandfather and during his parents' divorce, convincing his friend Lacey Rawlins they should ride off to Mexico.",
+     "note": "NYT 부고(2023)는 '1950년에 목장에서 쫓겨나' 떠난다고 적어 연도가 어긋나지만, 우드워드(1992)와 영어 위키백과 줄거리(\"The story begins in 1949\")는 1949년이다."
+    },
+    {
+     "sids": [
+      "d6776efb982d"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+     "claim": "존 그래디 콜은 열여섯 살이고 말을 타고 멕시코로 간다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/All_the_Pretty_Horses_(novel)",
+     "quote": "The novel tells the story of John Grady Cole, a 16-year-old who grew up on his grandfather's ranch in San Angelo, Texas."
+    },
+    {
+     "sids": [
+      "eaffbc3e9f6f"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+     "claim": "묘사보다 대사가 앞서는 간결한 문장으로 썼다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "Dialogue rather than description predominates"
+    },
+    {
+     "sids": [
+      "eaffbc3e9f6f"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+     "claim": "성장담이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "All the Pretty Horses is the coming-of-age story of John Grady Cole, a Texan who travels to Mexico."
+    },
+    {
+     "sids": [
+      "eaffbc3e9f6f"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+     "claim": "전미도서상(1992)을 받았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "won a National Book Award in 1992"
+    },
+    {
+     "sids": [
+      "eaffbc3e9f6f"
+     ],
+     "field": "work:cormac-mccarthy--all-the-pretty-horses.significance",
+     "claim": "전미도서상과 전미도서비평가협회상을 받은 베스트셀러로 매카시를 대중에게 알렸다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "McCarthy achieved popular fame with All the Pretty Horses (1992), winner of the National Book Award and the National Book Critics Circle Award. The best-selling novel is the first volume of The Border Trilogy"
+    },
+    {
+     "sids": [
+      "944d95790a99"
+     ],
+     "field": "work:cormac-mccarthy--the-passenger.facts",
+     "claim": "『패신저』(The Passenger)는 2022년에 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Passenger_(McCarthy_novel)",
+     "quote": "The Passenger is a 2022 novel by the American writer Cormac McCarthy."
+    },
+    {
+     "sids": [
+      "0416edd5dded"
+     ],
+     "field": "work:cormac-mccarthy--the-passenger.significance",
+     "claim": "『로드』 이후 16년 만에 나온 장편이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Passenger_(McCarthy_novel)",
+     "quote": "The Passenger was McCarthy's first novel since The Road, sixteen years prior."
+    },
+    {
+     "sids": [
+      "8e31a51f31e4"
+     ],
+     "field": "work:cormac-mccarthy--the-passenger.significance",
+     "claim": "주인공 보비 웨스턴은 카레이서였다가 인양 잠수부가 되었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "“The Passenger” is about a racecar driver turned salvage diver named Bobby Western"
+    },
+    {
+     "sids": [
+      "8e31a51f31e4"
+     ],
+     "field": "work:cormac-mccarthy--the-passenger.significance",
+     "claim": "보비 웨스턴은 (비행기 추락 현장 작업 뒤) 쫓기게 된다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "Before long he is pursued not only by G-men but, it can seem, also by all the ghosts of the 20th century."
+    },
+    {
+     "sids": [
+      "8e31a51f31e4"
+     ],
+     "field": "work:cormac-mccarthy--the-passenger.significance",
+     "claim": "의문의 비행기 추락 현장 작업 뒤 누이의 오래전 자살을 떠안은 채 점점 편집증에 빠진다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "It centers on a salvage diver who struggles with the decades-old suicide of his sister as he becomes increasingly paranoid after working on a mysterious plane crash."
+    },
+    {
+     "sids": [
+      "261a1fba7164"
+     ],
+     "field": "work:cormac-mccarthy--the-passenger.significance",
+     "claim": "같은 해 누이를 주인공으로 한 짝 작품 『스텔라 마리스』가 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "The companion work, Stella Maris, was published later that year; its protagonist is the sister of The Passenger’s salvage diver"
+    },
+    {
+     "sids": [
+      "261a1fba7164"
+     ],
+     "field": "work:cormac-mccarthy--the-passenger.significance",
+     "claim": "두 권은 매카시가 생전에 낸 마지막 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Cormac_McCarthy",
+     "quote": "His final novels, The Passenger and Stella Maris, were published on October 25, 2022, and December 6, 2022, respectively."
+    },
+    {
+     "sids": [
+      "f3b7c63190c3"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.facts",
+     "claim": "『핏빛 자오선』(Blood Meridian)은 1985년에 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Blood_Meridian",
+     "quote": "is a 1985 epic historical novel by American author Cormac McCarthy"
+    },
+    {
+     "sids": [
+      "fcf1b80e85ae"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "1849–50년 미국 남서부에서 실제로 있었던 사건을 바탕으로 했고, 'the kid'가 존 글랜턴의 머리가죽 사냥단과 함께 다닌다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "Based on historical events in the Southwest in 1849-50 (McCarthy learned Spanish to research it), the book follows the life of a mythic character called \"the kid\" as he rides around with John Glanton, who was the leader of a ferocious gang of scalp hunters."
+    },
+    {
+     "sids": [
+      "fcf1b80e85ae"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "주인공은 열네 살 소년이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "it tells the story of a 14-year-old boy who joins a gang of lawless scalp hunters"
+    },
+    {
+     "sids": [
+      "fcf1b80e85ae"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "사냥단이 원주민과 멕시코인을 가리지 않고 학살한다(백인·히스패닉·원주민 사이의 학살)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Blood_Meridian",
+     "quote": "The American leader, or \"captain\", of a gang of scalphunters who murder Native Americans and Mexican civilians and military alike."
+    },
+    {
+     "sids": [
+      "fcf1b80e85ae"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "도덕적 판단 없이 따라간다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "Exhibiting no sentimentality and no moral judgment of its characters or events"
+    },
+    {
+     "sids": [
+      "c0e97e11f6a1"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "거구의 대머리 판사 홀든이 에이해브 선장을 닮은 장광설을 늘어놓는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "A mad hairless giant named Judge Holden makes florid speeches not unlike Captain Ahab's."
+    },
+    {
+     "sids": [
+      "4fba70e486e1"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "작가는 이 소설을 조사하려고 스페인어를 배웠다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "(McCarthy learned Spanish to research it)"
+    },
+    {
+     "sids": [
+      "4fba70e486e1"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "초판은 1,500부도 팔리지 않았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "In its first printing, however, it sold fewer than 1,500 copies."
+    },
+    {
+     "sids": [
+      "4fba70e486e1"
+     ],
+     "field": "work:cormac-mccarthy--blood-meridian.significance",
+     "claim": "평단은 그의 걸작으로 꼽았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "was a critical sensation, hailed as his masterpiece",
+     "note": "영어 위키백과는 출간 당시 평단 반응이 미지근했다(\"initially received lukewarm critical and commercial reception\")고 적는다 — 문장이 출간 당시 반응을 말하는 것으로 읽히지 않도록 시점을 두지 않은 현재 문장은 유지 가능."
+    },
+    {
+     "sids": [
+      "8d9a0d25c277"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.facts",
+     "claim": "『노인을 위한 나라는 없다』(No Country for Old Men)는 2005년에 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(novel)",
+     "quote": "No Country for Old Men is a 2005 novel by American author Cormac McCarthy"
+    },
+    {
+     "sids": [
+      "2723028c6382"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.significance",
+     "claim": "마약 거래가 피로 끝난 현장에서 모스가 거액이 든 돈가방을 줍는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(novel)",
+     "quote": "Llewelyn Moss stumbles across the aftermath of a drug deal gone awry that has left all but one dead."
+    },
+    {
+     "sids": [
+      "2723028c6382"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.significance",
+     "claim": "현장은 텍사스의 사막이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(novel)",
+     "quote": "concerns an illegal drug deal gone wrong in the Texas desert back country"
+    },
+    {
+     "sids": [
+      "2723028c6382"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.significance",
+     "claim": "시거가 모스를 뒤쫓는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Anton_Chigurh",
+     "quote": "Chigurh tracks Moss down to a motel using a receiver that connects to a transponder hidden in the satchel."
+    },
+    {
+     "sids": [
+      "2723028c6382"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.significance",
+     "claim": "시거는 (동전 던지기 같은) 자기만의 기이한 원칙으로 살인한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Anton_Chigurh",
+     "quote": "He listens to her pleas for mercy before asking her to bet her life on a coin toss. In the book, she calls heads; it comes up tails."
+    },
+    {
+     "sids": [
+      "8e2e659d9389"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.significance",
+     "claim": "군더더기를 걷어 낸 문장으로 쓴 스릴러다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "Mr. McCarthy published his stripped-down existential thriller “No Country For Old Men” in 2005."
+    },
+    {
+     "sids": [
+      "8e2e659d9389"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.significance",
+     "claim": "현대 서부극이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "No Country for Old Men (2005), a bloody modern western that opens with a drug deal gone bad"
+    },
+    {
+     "sids": [
+      "8e2e659d9389"
+     ],
+     "field": "work:cormac-mccarthy--no-country-for-old-men.significance",
+     "claim": "코엔 형제의 영화(2007)는 아카데미 작품상과 각색상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241229103724/https://www.britannica.com/biography/Cormac-McCarthy",
+     "quote": "The Coen brothers’ 2007 film No Country for Old Men, starring Javier Bardem, Tommy Lee Jones, and Josh Brolin, won Academy Awards for best picture and adapted screenplay, among other accolades."
+    },
+    {
+     "sids": [
+      "e009133e4293"
+     ],
+     "field": "work:cormac-mccarthy--the-road.facts",
+     "claim": "『로드』(The Road)는 2006년에 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "The Road is a 2006 post-apocalyptic novel by American writer Cormac McCarthy."
+    },
+    {
+     "sids": [
+      "707e07a83da5"
+     ],
+     "field": "work:cormac-mccarthy--the-road.significance",
+     "claim": "원인이 밝혀지지 않은 재앙으로 잿더미가 된 미국을 아버지와 어린 아들이 걷는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "A father and his young son journey on foot across a post-apocalyptic, ash-covered United States,"
+    },
+    {
+     "sids": [
+      "707e07a83da5"
+     ],
+     "field": "work:cormac-mccarthy--the-road.significance",
+     "claim": "수레에 짐을 싣고 해안(바다)을 향해 간다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "the father takes the boy south along county roads towards the sea, carrying their meager possessions in their knapsacks and a supermarket cart."
+    },
+    {
+     "sids": [
+      "707e07a83da5"
+     ],
+     "field": "work:cormac-mccarthy--the-road.significance",
+     "claim": "두 사람에게는 권총 한 자루가 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "The pair have a revolver but only two rounds."
+    },
+    {
+     "sids": [
+      "707e07a83da5"
+     ],
+     "field": "work:cormac-mccarthy--the-road.significance",
+     "claim": "길에서 찾아낸 음식을 수레에 싣는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "They soon run out of supplies and begin to starve before finding a house containing more food to carry in their cart"
+    },
+    {
+     "sids": [
+      "2f23a540e24d"
+     ],
+     "field": "work:cormac-mccarthy--the-road.significance",
+     "claim": "작가가 아들에게 헌정했다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "he dedicated it to his son, John Francis McCarthy."
+    },
+    {
+     "sids": [
+      "2f23a540e24d"
+     ],
+     "field": "work:cormac-mccarthy--the-road.significance",
+     "claim": "2007년 퓰리처상 소설 부문을 받았다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "On April 16, 2007, the novel was awarded the 2007 Pulitzer Prize for fiction."
+    },
+    {
+     "sids": [
+      "2f23a540e24d"
+     ],
+     "field": "work:cormac-mccarthy--the-road.significance",
+     "claim": "2007년 오프라 윈프리 북클럽에 선정되었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Road",
+     "quote": "On March 28, 2007, the selection of The Road as the next novel in Oprah Winfrey's Book Club was announced."
+    },
+    {
+     "sids": [
+      "cba706dd60eb"
+     ],
+     "field": "relation:influence--william-faulkner--cormac-mccarthy.facts",
+     "claim": "포크너 → 매카시의 직접 영향이 문서로 확인된다(documented_influence · directed · documented)",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "McCarthy's style owes much to Faulkner's -- in its recondite vocabulary, punctuation, portentous rhetoric, use of dialect and concrete sense of the world -- a debt McCarthy doesn't dispute."
+    },
+    {
+     "sids": [
+      "826fef3a582b",
+      "8e724ff74faa"
+     ],
+     "field": "relation:influence--william-faulkner--cormac-mccarthy.summary",
+     "claim": "리처드 B. 우드워드의 1992년 『뉴욕 타임스 매거진』 기사 제목은 「Cormac McCarthy's Venomous Fiction」이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "Cormac McCarthy's Venomous Fiction By Richard B. Woodward April 19, 1992",
+     "note": "원문은 제목·필자·날짜가 줄 바꿈으로 나뉘어 있다(같은 머리글 블록). URL 경로가 /magazine/ 이고 인쇄판 'Section 6'(매거진)이다."
+    },
+    {
+     "sids": [
+      "826fef3a582b",
+      "8e724ff74faa"
+     ],
+     "field": "relation:influence--william-faulkner--cormac-mccarthy.summary",
+     "claim": "우드워드는 매카시의 어휘·구두법·수사·방언이 포크너에게 빚졌고 매카시도 그 빚을 부정하지 않는다고 적었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "McCarthy's style owes much to Faulkner's -- in its recondite vocabulary, punctuation, portentous rhetoric, use of dialect and concrete sense of the world -- a debt McCarthy doesn't dispute."
+    },
+    {
+     "sids": [
+      "826fef3a582b",
+      "8e724ff74faa"
+     ],
+     "field": "relation:influence--william-faulkner--cormac-mccarthy.summary",
+     "claim": "매카시는 같은 자리에서 포크너를 '좋은 작가'로 꼽았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "His list of those whom he calls the \"good writers\" -- Melville, Dostoyevsky, Faulkner -- precludes anyone who doesn't \"deal with issues of life and death.\""
+    },
+    {
+     "sids": [
+      "46338124262f"
+     ],
+     "field": "relation:influence--william-faulkner--cormac-mccarthy.summary",
+     "claim": "2023년 NYT 부고는 첫 다섯 권의 편집자 앨버트 어스킨이 포크너의 마지막 편집자였다고 기록했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "Indeed, the editor of Mr. McCarthy’s first five books, Albert Erskine, of Random House, had been Faulkner’s last editor."
+    },
+    {
+     "sids": [
+      "46338124262f"
+     ],
+     "field": "relation:influence--william-faulkner--cormac-mccarthy.summary",
+     "claim": "첫 장편 The Orchard Keeper는 1965년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Cormac_McCarthy",
+     "quote": "In 1965, Random House published McCarthy's first novel, The Orchard Keeper (1965)."
+    },
+    {
+     "sids": [
+      "46338124262f"
+     ],
+     "field": "relation:influence--william-faulkner--cormac-mccarthy.summary",
+     "claim": "The Orchard Keeper는 1966년 윌리엄 포크너 재단상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Cormac_McCarthy",
+     "quote": "The Orchard Keeper won a 1966 William Faulkner Foundation Award for notable first novel."
+    },
+    {
+     "sids": [
+      "eb6e20c0d2b6"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--cormac-mccarthy.facts",
+     "claim": "도스토옙스키 → 매카시의 직접 영향이 문서로 확인된다(documented_influence · directed · documented)",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "His list of those whom he calls the \"good writers\" -- Melville, Dostoyevsky, Faulkner -- precludes anyone who doesn't \"deal with issues of life and death.\"",
+     "correction": "도스토옙스키 → 코맥 매카시 · 확인된 근거는 매카시가 1992년 인터뷰에서 도스토옙스키를 '좋은 작가'로 꼽은 평가 발언까지다(직접 영향을 적은 문서는 확인하지 못함)",
+     "note": "우드워드 기사와 NYT 부고 모두 도스토옙스키를 '좋은 작가' 목록에 올린 발언만 전하고, 포크너처럼 문체상 빚을 적지 않는다. documented 수준의 직접 영향을 받치려면 별도 출처가 필요하다. 접근 대기: Michael Lynn Crews, Books Are Made Out of Books: A Guide to Cormac McCarthy's Literary Influences (University of Texas Press, 2017) — 영어 위키백과 각주에서 확인했으나 본문을 읽지 못했다(Google Books API 할당량 초과)."
+    },
+    {
+     "sids": [
+      "5dcbff7925a4",
+      "f40a44bc1592"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--cormac-mccarthy.summary",
+     "claim": "매카시는 1992년 NYT 매거진 인터뷰(리처드 B. 우드워드)에서 삶과 죽음의 문제를 다루지 않는 작가를 빼고 멜빌·포크너·도스토옙스키를 '좋은 작가'로 꼽았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "His list of those whom he calls the \"good writers\" -- Melville, Dostoyevsky, Faulkner -- precludes anyone who doesn't \"deal with issues of life and death.\""
+    },
+    {
+     "sids": [
+      "f40a44bc1592"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--cormac-mccarthy.summary",
+     "claim": "같은 자리에서 프루스트와 헨리 제임스는 '문학이 아니다'라고 했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20201112025951/http://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html",
+     "quote": "Proust and Henry James don't make the cut. \"I don't understand them,\" he says. \"To me, that's not literature."
+    },
+    {
+     "sids": [
+      "8b86430a202d"
+     ],
+     "field": "relation:influence--fyodor-dostoevsky--cormac-mccarthy.summary",
+     "claim": "이 발언은 2023년 NYT 부고에 다시 인용되었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+     "quote": "In that interview, Mr. McCarthy named the “good writers” as Melville, Dostoyevsky and Faulkner, a list that omitted writers who, as he put it, don’t “deal with issues of life and death.”"
+    }
+   ]
+  }
+ ]
+}

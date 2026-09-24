@@ -1,0 +1,96 @@
+{
+  "fixes": [
+    {
+      "id": "kim-soo-young",
+      "readingEntryReason": "160쪽 분량의 시선집 한 권에 초기작 「공자의 생활난」부터 죽기 얼마 전에 쓴 「풀」까지 대표작이 들어 있어, 시기마다 달라지는 목소리를 한자리에서 따라갈 수 있다. 김현의 해설 「자유와 꿈」이 붙어 있는데, 김현은 그의 시에서 자유가 1960년까지는 설움과 비애로, 1960–61년에는 사랑과 혁명으로, 그 뒤로는 적에 대한 증오와 자기 연민으로 세 번 모습을 바꾼다고 정리했다. 지금도 '오늘의 시인 총서' 1번으로 판매 중이다.",
+      "readingWarning": "『김수영 전집 1: 시』(민음사, 2018)는 미발표 시와 미완성 초고까지 망라한 428쪽의 정본으로, 초고는 부록에 따로 실었다. 2018년 복간본 『달나라의 장난』도 1959년 초판처럼 세로쓰기와 오른쪽에서 왼쪽으로 넘기는 제본을 따르므로, 선집으로 흐름을 잡은 뒤 찾아가는 편이 낫다.",
+      "difficultyReason": "시어는 일상어에 가깝지만 한 편 안에서 진술이 거침없이 병렬된다. 첫 시집의 시에는 한자가 쓰였고, 4·19혁명과 그 뒤의 정치 현실을 알아야 1960년대 시의 현실 비판이 어디를 겨누는지 보인다.",
+      "works": [
+        {
+          "id": "kim-soo-young--pul",
+          "significance": "죽기 얼마 전에 쓴 3연 18행의 시로, '풀'과 '바람'의 대립 위에서 '눕다'·'일어나다'·'울다'·'웃다' 네 동사가 되풀이된다. 풀을 억눌린 민중으로 읽는 해석과 생의 깊이에 닿는 감동으로 넓게 읽는 해석이 갈려 왔다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--yi-sang--kim-soo-young",
+          "evidenceLevel": "documented"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src--minumsa-geodaehan-ppuri",
+          "citation": "초판 1974. 현행판 1995, ISBN 978-89-374-0601-0, 160쪽"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.readingEntryReason",
+          "claim": "시선집 『거대한 뿌리』는 159쪽 분량이다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 쪽수를 알라딘·민음사 도서 페이지의 \"160쪽\"으로 바꿨다: 「160쪽 분량의 시선집 한 권에 …」. 같은 책의 출처 레코드(src--minumsa-geodaehan-ppuri) 인용 표기의 159쪽도 160쪽으로 고쳤다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "전집 1에서는 대표작이 초고 사이에 섞여 묻힌다",
+          "resolution": "corrected",
+          "evidence": "반박된 '첫 책으로 삼으면 대표작이 초고 사이에 묻힌다'를 교정문의 '초고는 부록에 따로 실었다'로 바꿨다: 「『김수영 전집 1: 시』(민음사, 2018)는 미발표 시와 미완성 초고까지 망라한 428쪽의 정본으로, 초고는 부록에 따로 실었다.」 교정문의 '15편'은 부록에 '추가된' 시의 수라 넣지 않았다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "진술이 비약해 독자가 그 사이를 메워야 한다",
+          "resolution": "narrowed",
+          "evidence": "출처가 받치는 '거침없는 병렬적 진술'(조강석 2010 초록)까지로 좁히고 '비약해, 그 사이를 독자가 메워야 한다'를 뺐다: 「시어는 일상어에 가깝지만 한 편 안에서 진술이 거침없이 병렬된다.」"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "첫 시집의 시에는 한자가 많다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 양을 말한 '많고'를 '쓰였고'로 바꿨다: 「첫 시집의 시에는 한자가 쓰였고, …」. 교정문의 괄호(복간본의 한글 병기)는 문장을 늘려 넣지 않았다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "후기 시론은 이상의 시와 초현실주의 시론의 영향 아래 참여시를 다시 정리하는 글이다",
+          "resolution": "removed",
+          "evidence": "교정문은 신형철 한 논문이 「참여시의 정리」(1967)에 대해 펴는 논증이고, 문장의 요점인 난도 판단('시보다 한 단계 어렵다')은 점검이 출처 없다고 적었다. 난도 필드에 남길 확인된 내용이 없어 문장을 지웠다. 신형철의 그 논증은 이상 관계 요약 문장 ee68ffcccfa4에 이미 있다."
+        },
+        {
+          "field": "work:kim-soo-young--pul.significance",
+          "claim": "'눕다'·'일어나다'·'울다'·'웃다' 네 동사만 되풀이된다",
+          "resolution": "narrowed",
+          "evidence": "출처가 말하지 않는 '만'(그 네 동사만)을 뺐다: 「… '눕다'·'일어나다'·'울다'·'웃다' 네 동사가 되풀이된다.」 교정문의 '시의 주류를 이룬다'는 문장을 늘려 넣지 않았다."
+        },
+        {
+          "field": "relation:influence--yi-sang--kim-soo-young.facts",
+          "claim": "이상 → 김수영 영향 관계의 근거 수준은 학계 통설(scholarly_consensus)이다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 근거 수준을 scholarly_consensus에서 documented로 바꿨다(relations evidenceLevel). 요약은 두 논문(조강석 2010, 신형철 2017)을 그대로 적는다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "4·19혁명 뒤 1960년대 시에는 정치 현실을 겨눈 풍자가 있다",
+          "resolution": "narrowed",
+          "evidence": "확인된 것은 1960년대 시의 '현실비판의식'(한국민족문화대백과사전 E0009567, 주장 30)뿐이라 '풍자'를 '현실 비판'으로 좁혔다: 「4·19혁명과 그 뒤의 정치 현실을 알아야 1960년대 시의 현실 비판이 어디를 겨누는지 보인다.」"
+        },
+        {
+          "field": "relation:translation--pablo-neruda--kim-soo-young.summary",
+          "claim": "번역한 네루다 시는 여섯 편이다",
+          "resolution": "accepted",
+          "evidence": "어긋난 것은 『창작과 비평』의 권호(우석균 참고문헌 3(3) 대 국립중앙도서관 3권 2호)뿐이다. 문장 8d83b1da445b·7eef94afcc0c는 '1968년 『창작과 비평』에 … 시 여섯 편을 「고양이의 꿈 외 5편」이라는 제목으로'만 적고 권호를 적지 않는다. 출처 목록의 '3권 2호'는 국립중앙도서관 서지 표기 그대로다(주장 52 인용 '창작과 비평3권2호, 175'). 여섯 편은 두 출처 모두 받친다(「고양이의 꿈 외 5편」, \"파블로 네루다 시 6편\")."
+        },
+        {
+          "field": "work:kim-soo-young--dalnaraui-jangnan.significance",
+          "claim": "목차는 대체로 쓴 순서의 역순이다",
+          "resolution": "accepted",
+          "evidence": "어긋난 것은 한국민족문화대백과사전의 '발표연도 순'이고 이 말은 페이지에 없다. 문장 56a286c6565b는 '목차는 대체로 쓴 순서의 역순이다'만 적고, 작가 후기 인용 '목차는 대체로 제작 역순으로 되어 있다'가 그대로 받친다."
+        },
+        {
+          "field": "work:kim-soo-young--dalnaraui-jangnan.facts",
+          "claim": "『달나라의 장난』은 1959년에 나온 시집이다",
+          "resolution": "accepted",
+          "evidence": "어긋난 것은 한국민족문화대백과사전 「달나라의 장난」 항목 본문의 '1956년'이고 이 연도는 페이지에 없다. 사실 줄 cf58d0331777은 '· 1959 ·'만 적으며 민음사 복간본 페이지 인용 '1959년 춘조사에서'가 받친다."
+        }
+      ]
+    }
+  ]
+}

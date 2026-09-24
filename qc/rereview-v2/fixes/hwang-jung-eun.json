@@ -1,0 +1,55 @@
+{
+  "fixes": [
+    {
+      "id": "hwang-jung-eun",
+      "importanceReason": "정황 설명을 덜어 낸 간결한 문장으로, 철거와 참사 곁에서 사는 사람들의 목소리를 기록했다. 첫 장편 『百의 그림자』는 철거 직전의 도심 전자상가를 무대로 감당할 수 없는 일을 겪은 사람의 그림자가 일어서는 환상을 놓아, 2009년 용산 참사 직후의 도시 폭력을 은교와 무재 두 사람의 느린 대화 안에 담았다. 연작 『디디의 우산』은 세월호 참사에서 2016–17년 촛불집회까지를 지나며 '혁명'이라는 말을 개인의 일상 쪽에서 다시 물었고, 본문과 각주에 실재하는 책과 기사를 엮었다.",
+      "difficultyReason": "문장은 짧고 평이하지만 정황을 설명하지 않고 간결한 행동과 대화만으로 사건을 전해, 인물이 말하지 않은 것을 독자가 채워 읽어야 한다. 그림자가 일어서거나 아버지가 모자로 변하는 환상도 인물들이 익숙한 일처럼 받아들이는 채로 놓인다. 『디디의 우산』의 「아무것도 말할 필요가 없다」는 실재하는 책과 기사를 본문과 각주로 끌어온다.",
+      "works": [
+        {
+          "id": "hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha",
+          "significance": "2005년 등단 뒤 낸 첫 소설집. 수록작 「모자」에서는 세 남매의 아버지가 불시에 모자로 변하고, 이를 언짢아하는 이웃들 때문에 가족이 자주 이사를 다닌다. 사물로 변하는 사람, 말하는 동물 같은 환상을 일상 속에 놓되 그 자리에 도시 변두리로 밀려난 사람들을 세웠다."
+        },
+        {
+          "id": "hwang-jung-eun--baegui-geurimja",
+          "significance": "철거를 앞둔 도심 전자상가, 수리실의 은교와 트랜스 공방의 무재 이야기. 감당할 수 없는 일을 겪은 사람의 그림자가 일어서는 설정으로 재개발의 폭력을 다루고, 서로의 말을 되받는 두 사람의 느린 대화로 이야기를 끌고 간다. 작가는 2009년 용산 참사 뒤 이 소설을 썼다고 밝혔고, 출간한 해에 한국일보문학상을 받았다."
+        },
+        {
+          "id": "hwang-jung-eun--gyesokhaebogetseumnida",
+          "year": 2014
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "서로의 말을 되받으며 천천히 나아가는 대화가 황정은 소설 전반의 특징이다",
+          "resolution": "narrowed",
+          "evidence": "작가 전반의 특징으로 쓴 '서로의 말을 되받으며 천천히 나아가는 대화'를 첫 문장에서 뺐다. 인용이 받치는 『百의 그림자』 은교와 무재의 느린 대화는 바로 다음 문장에 이미 있다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "후기 연작들은 한국 현대사의 사건과 실재하는 책·기사를 본문과 각주로 끌어온다",
+          "resolution": "corrected",
+          "evidence": "문장을 correction 그대로 바꿨다. 인용이 담지 않는 '한국 현대사의 사건'과 '집중 독서를 요구한다'는 뺐다."
+        },
+        {
+          "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+          "claim": "그 자리에 가난하거나 사회에서 고립된 인물을 세웠다",
+          "resolution": "corrected",
+          "evidence": "'가난하거나 사회에서 고립된 인물'을 '도시 변두리로 밀려난 사람들'로 바꿨다(인용: 'the marginalized pushed out to the edge of the city lines'). correction의 '주변부'는 넣으면 원문보다 길어져 뺐다."
+        },
+        {
+          "field": "work:hwang-jung-eun--baegui-geurimja.significance",
+          "claim": "무재도 수리실 조수로 일한다",
+          "resolution": "corrected",
+          "evidence": "무재를 수리실 조수로 읽히게 하던 문장을 '수리실의 은교와 트랜스 공방의 무재'로 바꿨다. 무재가 조수라는 말은 인용에 없어 넣지 않았다."
+        },
+        {
+          "field": "work:hwang-jung-eun--gyesokhaebogetseumnida.facts",
+          "claim": "『계속해보겠습니다』의 연도는 2012년이다",
+          "resolution": "corrected",
+          "evidence": "year 2014(창비 출간일 2014.11.07). 연재 시작 2012년은 의의 문장이 따로 적는다."
+        }
+      ]
+    }
+  ]
+}
