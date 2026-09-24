@@ -1,13 +1,23 @@
 // close-read 슬레이트 — 한 도판 페이지의 사실 주장이 나오는 필드 전부를 한 파일로. 조회 close-read 에이전트의 입력이다.
 // 생성을 모르는 컨텍스트가 읽는다: 여기 있는 것은 결과물과 출처 사전뿐이다.
 //
-//   npx tsx scripts/closeread-slate.ts <outDir> <id,id,…>|--reviewed-without <ledger.json>
+//   npx tsx scripts/closeread-slate.ts <outDir> <id,id,…>|--reviewed-without <ledger.json> [--prior a.json,b.json] [--only-uncovered a.json,b.json]
+//
+// drawn: 쪽이 그리는 문장 전부와 그 sid(scripts/lib/drawn.ts). close-read 의 주장은 덮는 문장의 sid 를 적어야 게이트가 센다.
+// --prior: 이전 원장의 주장(출처·인용 포함) — 다시 쓸 수 있는 증거. 그대로 믿지 말고 다시 대본다.
+// --only-uncovered: 그 원장들이 아직 덮지 못한 문장만 싣는다 — 고친 뒤 바뀐 문장을 덧읽을 때.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadRawCollections } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
+import { drawnFor } from "./lib/drawn.ts";
+import { uncoveredOf } from "./lib/closeread.ts";
 
 const [outDir, sel, ledgerPath] = process.argv.slice(2);
+const flag = (k: string) => { const i = process.argv.indexOf(k); return i >= 0 ? process.argv[i + 1] : undefined; };
+const readPlates = (list: string | undefined) => (list ? list.split(",").flatMap((f) => JSON.parse(readFileSync(f, "utf8")).plates ?? []) : []);
+const prior = readPlates(flag("--prior"));
+const onlyUncovered = flag("--only-uncovered") ? readPlates(flag("--only-uncovered")) : undefined;
 if (!outDir || !sel) throw new Error("usage: closeread-slate <outDir> <ids|--reviewed-without ledger.json>");
 const { dataset } = assembleDataset(loadRawCollections());
 if (!dataset) throw new Error("코퍼스가 조립되지 않는다");
@@ -41,6 +51,11 @@ for (const id of ids) {
     works: works.map((w) => ({ id: w.id, titleKo: w.titleKo, titleOriginal: w.titleOriginal, year: w.year, yearBasis: w.yearBasis, genre: w.genre, significance: w.significance, sourceIds: w.sourceIds })),
     relations: rels.map((r) => ({ id: r.id, type: r.type, from: `${r.sourceId} (${name(r.sourceId)})`, to: `${r.targetId} (${name(r.targetId)})`, evidenceLevel: r.evidenceLevel, summary: r.summary, anchors: r.anchors, sourceIds: r.sourceIds })),
     relationsCheckedElsewhere: elsewhere,
+    drawn: (() => {
+      const d = drawnFor(a, works, all, name);
+      return onlyUncovered ? uncoveredOf(d, onlyUncovered) : d;
+    })(),
+    priorClaims: prior.filter((p: { id: string }) => p.id === id).flatMap((p: { claims?: unknown[] }) => p.claims ?? []),
     sources: Object.fromEntries([...srcIds].map((s) => [s, src.get(s) ?? "(정의 없음)"]))
   };
   writeFileSync(join(outDir, `${id}.json`), JSON.stringify(slate, null, 2) + "\n");

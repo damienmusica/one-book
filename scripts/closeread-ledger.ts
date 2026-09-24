@@ -1,7 +1,7 @@
 // Build (or extend) a close-read ledger: every claim on a plate, its verdict, its evidence, and — once a fix
 // pass has run — how each unconfirmed claim was settled.
 //
-//   npx tsx scripts/closeread-ledger.ts --out qc/closeread/<batch>.json [--verdicts v.json ...] [--reverdicts r.json ...] [--fixes f.json ...]
+//   npx tsx scripts/closeread-ledger.ts --out qc/closeread/<batch>.json [--verdicts v.json ...] [--add a.json ...] [--reverdicts r.json ...] [--fixes f.json ...]
 //
 // Verdict files are the close-read output {plates:[{id, claims:[{field, claim, verdict, url?, quote?, correction?, note?}]}]}.
 // Fix files are the fixer output {fixes:[{id, ..., resolutions:[{field, claim, resolution, pendingWhere?}]}]}; resolutions are
@@ -18,9 +18,19 @@ const out = list("--out")[0]; if (!out) throw new Error("--out 이 필요하다"
 const ledger: Raw = existsSync(out) ? JSON.parse(readFileSync(out, "utf8")) : { batch: out.replace(/.*\//, "").replace(/\.json$/, ""), plates: [] };
 const byId = new Map<string, Raw>(ledger.plates.map((p: Raw) => [p.id, p]));
 
+// 판정의 주장은 자기가 덮는 문장의 sid 를 적는다(claims[].sids). 사실 주장이 없는 문장(읽기 조언 등)은 noClaim 에 까닭과 함께.
 for (const f of list("--verdicts")) {
   for (const p of JSON.parse(readFileSync(f, "utf8")).plates ?? []) {
-    byId.set(p.id, { id: p.id, readAt: new Date().toISOString().slice(0, 10), claims: (p.claims ?? []).map((c: Raw) => ({ ...c })) });
+    byId.set(p.id, { id: p.id, readAt: new Date().toISOString().slice(0, 10), claims: (p.claims ?? []).map((c: Raw) => ({ ...c })), ...(p.noClaim ? { noClaim: { ...p.noClaim } } : {}) });
+  }
+}
+// 덧읽기 — 고친 뒤 바뀐 문장, 덮이지 않은 문장만 다시 읽은 결과. 도판의 기존 주장을 두고 덧붙인다.
+for (const f of list("--add")) {
+  for (const p of JSON.parse(readFileSync(f, "utf8")).plates ?? []) {
+    const cur = byId.get(p.id) ?? { id: p.id, readAt: new Date().toISOString().slice(0, 10), claims: [] };
+    cur.claims.push(...(p.claims ?? []).map((c: Raw) => ({ ...c, addedAt: new Date().toISOString().slice(0, 10) })));
+    if (p.noClaim) cur.noClaim = { ...(cur.noClaim ?? {}), ...p.noClaim };
+    byId.set(p.id, cur);
   }
 }
 let settled = 0, unmatched = 0, reread = 0;
