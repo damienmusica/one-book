@@ -57,9 +57,12 @@ const EXCLUDED: Record<string, unknown> = existsSync(join("qc", "editions-exclud
 for (const list of Object.values(ledger.editions as Record<string, Raw[]>))
   for (const e of list) if (e.sourceTextBasis && !basis[e.isbn13]) basis[e.isbn13] = { sourceTextBasis: e.sourceTextBasis, ...(e.note ? { note: e.note } : {}) };
 // ISBN 은 원장 전체에서 한 번 — 이번에 다시 고를 언어의 항목은 풀어 준다.
-const usedIsbn = new Set<string>();
+// ISBN 한 자리 — 한 ISBN 은 한 작가의 책이다. 같은 작가의 선집은 그 사람의 여러 작품에 설 수 있고(첼란 선집 한 권이 세 시집을
+// 담는다), 한 작품 안에서는 한 번이다. 다른 작가의 작품에 이미 선 ISBN 은 올리지 않는다(검증기 src/data/assemble.ts 와 같은 규칙).
+const authorOfWork = (w: string): string => works.get(w)?.authorId ?? w.split("--")[0]!;
+const usedIsbn = new Map<string, string>();
 for (const [w, list] of Object.entries(ledger.editions as Record<string, Raw[]>))
-  for (const e of list) if (!(REPLACE && (cands.found as Raw)[w] && (e.language ?? "ko") === LANG)) usedIsbn.add(e.isbn13);
+  for (const e of list) if (!(REPLACE && (cands.found as Raw)[w] && (e.language ?? "ko") === LANG)) usedIsbn.set(e.isbn13, authorOfWork(w));
 
 let promoted = 0, worksTouched = 0, skippedNoTranslator = 0, skippedHave = 0, basisApplied = 0; const noPick: string[] = []; const emitted: Raw[] = [];
 // 판정은 새 항목이든 기존 항목이든 ISBN 으로 붙인다.
@@ -95,7 +98,7 @@ const cleanPublisher = (raw: string): string | undefined => {
   if (/^[\(\[]/.test(p) || /\b[A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}\b/.test(p)) return undefined;
   return p;
 };
-const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
+const take = (c: Raw, st: { w: Raw; picked: Raw[]; seen: Set<string> }) => {
   if (!/^97[89]\d{10}$/.test(String(c.isbn13))) return; // 유통 바코드(480…)는 ISBN 이 아니다
   const pub = cleanPublisher(String(c.publisher ?? "").trim());
   if (!pub || !String(c.title ?? "").trim()) return; // 출판사·제목 없는(또는 목록 찌꺼기인) 레코드는 올리지 않는다
@@ -103,8 +106,9 @@ const take = (c: Raw, st: { picked: Raw[]; seen: Set<string> }) => {
   if (basis[c.isbn13]?.sourceTextBasis === "adaptation") return; // 축약·재화로 판정된 판은 「구하기」에 올리지 않는다
   if (EXCLUDED[c.isbn13]) return;
   const k = `${c.publisher}|${c.translator ?? ""}`;
-  if (st.seen.has(k) || usedIsbn.has(c.isbn13)) return;
-  st.seen.add(k); usedIsbn.add(c.isbn13);
+  const owner = usedIsbn.get(c.isbn13);
+  if (st.seen.has(k) || (owner !== undefined && owner !== st.w.authorId) || st.picked.some((p) => p.isbn13 === c.isbn13)) return;
+  st.seen.add(k); usedIsbn.set(c.isbn13, String(st.w.authorId));
   const b = basis[c.isbn13];
   const rec: Raw = {
     isbn13: c.isbn13, title: c.title, publisher: c.publisher, ...(c.translator ? { translator: c.translator } : {}), year: c.year, language: LANG,

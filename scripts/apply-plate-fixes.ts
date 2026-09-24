@@ -84,9 +84,26 @@ for (const f of fixes) {
   const id = String(f.id ?? "");
   const a = byId.get(id);
   if (!a) { skipped.push({ id, why: "작가가 코퍼스에 없다" }); continue; }
-  if ((a.depth ?? "plate") !== "plate") { skipped.push({ id, why: `${a.depth} 다 — 도판이 아니다` }); continue; }
+  // 스케치·실루엣도 틀린 것은 고친다 — 한 문장(importanceReason), 생몰, 작품의 제목·연도. 도판만의 필드(입문 순서·난도·관계)는
+  // 받지 않는다. 이 도구가 도판만 받던 탓에 스케치의 틀린 연도 두 건이 고칠 길 없이 남았다(2026-09-24 감사).
+  const plate = (a.depth ?? "plate") === "plate";
   const row = findRow(files.authorFiles, id);
   if (!row) { skipped.push({ id, why: "원본 파일에서 못 찾음" }); continue; }
+  if (!plate) {
+    const platey = ["difficulty", "difficultyReason", "readingEntryReason", "readingWarning", "readingOrder", "readingEntry", "relations", "dropRelations"].filter((k) => k in f);
+    if (platey.length) skipped.push({ id, why: `${a.depth} 에는 도판 필드를 쓰지 않는다: ${platey.join(",")}` });
+    if (typeof f.importanceReason === "string" && (f.importanceReason.match(/[^.!?。]+[.!?。]+/g) ?? []).length !== 1) {
+      skipped.push({ id, why: "스케치의 한 문장은 정확히 한 문장이어야 한다" }); continue;
+    }
+  }
+  // 생몰 — null 은 그 해를 지운다(모르는 것을 아는 척하지 않는다). 산 사람을 죽었다고, 죽은 사람을 산 사람으로 적은 것을 고친다.
+  if (f.lifeApprox === true) { row.lifeApprox = true; fieldEdits++; log.push(`${id}.lifeApprox`); }
+  for (const k of ["birthYear", "deathYear", "anchorYear"] as const) {
+    if (!(k in f)) continue;
+    if (f[k] === null) { if (k === "anchorYear") { skipped.push({ id, why: "anchorYear 는 지울 수 없다" }); continue; } delete row[k]; fieldEdits++; log.push(`${id}.${k}=∅`); }
+    else if (Number.isInteger(f[k])) { row[k] = f[k]; fieldEdits++; log.push(`${id}.${k}=${f[k]}`); }
+    else skipped.push({ id, why: `${k} ${JSON.stringify(f[k])}` });
+  }
 
   // 활동 구간 — close-read 가 생몰·활동 연도를 고칠 때(2026-09-24: 애트우드 [1961, 2025]). 두 정수, 앞이 뒤보다 작거나 같다.
   if (Array.isArray(f.activeRange)) {
@@ -95,14 +112,15 @@ for (const f of fixes) {
     else skipped.push({ id, why: `activeRange ${JSON.stringify(f.activeRange)}` });
   }
   for (const k of ["importanceReason", "difficultyReason", "readingEntryReason", "readingWarning"] as const) {
+    if (!plate && k !== "importanceReason") continue;
     if (typeof f[k] === "string" && f[k].trim()) {
       const v = f[k].trim();
       if (SUPERLATIVE.test(v)) superlatives++;
       row[k] = v; fieldEdits++; log.push(`${id}.${k}`);
     }
   }
-  if (Number.isInteger(f.difficulty) && f.difficulty >= 1 && f.difficulty <= 5) { row.difficulty = f.difficulty; fieldEdits++; log.push(`${id}.difficulty=${f.difficulty}`); }
-  if (Array.isArray(f.readingOrder) && f.readingOrder.length >= 3) {
+  if (plate && Number.isInteger(f.difficulty) && f.difficulty >= 1 && f.difficulty <= 5) { row.difficulty = f.difficulty; fieldEdits++; log.push(`${id}.difficulty=${f.difficulty}`); }
+  if (plate && Array.isArray(f.readingOrder) && f.readingOrder.length >= 3) {
     row.readingOrder = f.readingOrder.map(String);
     row.readingEntry = String(f.readingEntry ?? f.readingOrder[0]);
     fieldEdits++; log.push(`${id}.readingOrder`);

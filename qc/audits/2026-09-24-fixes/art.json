@@ -1,0 +1,787 @@
+{
+ "entries": [
+  {
+   "section": "marks",
+   "key": "franz-kafka",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Franz_Kafka%27s_signature.svg",
+   "quote": "{{PD-signature|DE}}",
+   "why": "File page matches the manifest: vector trace by Jon C of a signature GIF whose parent page gives Source=projekt-gutenberg.org and Date ~1913; licence PD-signature, no credit required."
+  },
+  {
+   "section": "marks",
+   "key": "rabindranath-tagore",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "licence": "Public domain",
+     "licenceBasis": "File page tag {{PD-India-URAA}}. Tagore died 1941; works of authors who died before 1 January 1963 are out of copyright in South Korea (Commons: Copyright rules by territory/South Korea).",
+     "commercialUse": "yes"
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0.jpg",
+   "quote": "|source={{extracted from|File:বাংলা শব্দতত্ত্ব - রবীন্দ্রনাথ ঠাকুর.pdf}} … {{PD-India-URAA}}",
+   "why": "The image is what the manifest says (Bengali signature extracted from a Tagore book PDF, dated 1920). Only the drawn licence string leaks an internal English note (\"PD-India-URAA (public domain per file page license tags)\"); it becomes the plain \"Public domain\" label most signatures already draw. commercialUse resolved to yes: the file page tags it PD, and Tagore died in 1941, before the 1963 line under which Korean protection has already ended (Commons, Copyright rules by territory/South Korea: \"Copyright protection durations were 30 years before July 1987 and 50 years before July 2013. This applies to copyrighted works of which authors died before 1 January 1963\")."
+  },
+  {
+   "section": "marks",
+   "key": "natsume-soseki",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Calligraphy_of_Natsume_Souseki.jpg",
+   "quote": "|Source=Ownership of individual 個人像",
+   "why": "Origin doubtful. The image is a crop of the signature and seals from a calligraphy scroll whose only stated source is an unnamed private owner, with no collection, sale or publication to trace it to. A privately held calligraphy cannot be tied to Soseki's hand from this page, and the page draws it as \"나쓰메 소세키의 서명\". Remove; the author page falls back to the seal alone, as for authors without a signature."
+  },
+  {
+   "section": "signatures",
+   "key": "albert-camus",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Albert_Camus_Signature.jpg",
+   "quote": "|Source         =Camus work",
+   "why": "Origin doubtful. The SVG is traced from \"Albert Camus Signature.jpg\", whose only source is \"Camus work\" (no title, edition, page or holder). Nothing traceable backs \"알베르 카뮈의 서명\"."
+  },
+  {
+   "section": "signatures",
+   "key": "anton-chekhov",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%8C_%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%A7%D0%B5%D1%85%D0%BE%D0%B2.jpg",
+   "quote": "|Source={{unknown|Source}}",
+   "why": "Origin doubtful. The SVG is a vectorization of \"Подпись Антон Чехов.jpg\", whose source is marked unknown and whose date is only \"19th century\". Nothing traceable backs the attribution."
+  },
+  {
+   "section": "signatures",
+   "key": "bertolt-brecht",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Unterschrift_Bertolt_Brecht_(1898%E2%80%931956).png",
+   "quote": "|date=2024-03-19 … |source={{own}} … |author=[[User:Birkho|Birkho]], Bertolt Brecht",
+   "why": "Origin doubtful. The SVG vectorizes a 2024 own-work upload by the same user who uploaded the unsourced Babel signature, with no document, publication or holder named. Same defect as the Babel entry."
+  },
+  {
+   "section": "signatures",
+   "key": "cesar-vallejo",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Firma_cvallejo.png",
+   "quote": "|Source         ={{own}}",
+   "why": "Origin doubtful. The file page gives only {{own}} as source (uploader Fbport) and a bare \"1910\", with no document or publication. The manifest also misrecords its licence: besides {{PD-Signature|Peru}} the page carries {{self|GFDL|cc-by-3.0}}, which the manifest reduces to \"Public domain\" (finding 6). Removing it resolves both."
+  },
+  {
+   "section": "signatures",
+   "key": "derek-walcott",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Firma-Derek-Walcott.png",
+   "quote": "|Source={{own}} … |Author=[[User:Omerta-ve|Omerta-ve]] … {{self|cc-by-sa-3.0|GFDL}}",
+   "why": "Origin doubtful. The SVG is derived from \"Firma-Derek-Walcott.png\", an own-work upload (2010) naming no document it was taken from. That parent is also licensed CC BY-SA 3.0/GFDL by the uploader, which the SVG's PD tag does not carry through."
+  },
+  {
+   "section": "signatures",
+   "key": "fyodor-dostoevsky",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Fyodor_Dostoyevsky_Signature.svg",
+   "quote": "|Source=Traced in Adobe Illustrator from [[:w:File:Dostsignature.jpg]]",
+   "why": "Origin doubtful. The only stated source is an English-Wikipedia file, File:Dostsignature.jpg, which no longer exists (en.wikipedia API returns \"missing\" for it), so the chain ends in nothing traceable. The page is itself marked {{superseded|БСЭ1. Автограф. Автографы. 17.svg}}; that file names a real source (the \"Автограф\" plate of the Great Soviet Encyclopedia, 1st ed., before 1927) and would be the replacement, but it is a new image, not a manifest fix."
+  },
+  {
+   "section": "signatures",
+   "key": "gabriel-garcia-marquez",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Gaboautograph.png",
+   "quote": "|Source={{Own}}",
+   "why": "Origin doubtful. The chain is SVG <- \"Gabriel Marquez Signature.png\" <- \"Gaboautograph.png\", and the root file is an own-work upload (2007) naming no document, publication or holder."
+  },
+  {
+   "section": "signatures",
+   "key": "gustave-flaubert",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:G._Flaubert_signature.svg",
+   "quote": "|date=1887 … |source=G. Flaubert",
+   "why": "Origin doubtful. The source field only repeats the author's name, and the date, 1887, falls after Flaubert's death (Wikidata Q43444: 1880-05-08). Nothing on the page says where the signature comes from."
+  },
+  {
+   "section": "signatures",
+   "key": "isaac-babel",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Unterschrift_Isaak_Emmanuilowitsch_Babel_sowjetischer_Journalist_und_Schriftsteller.png",
+   "quote": "|date=2025-01-15 … |source={{own}} … |author=[[User:Birkho|Birkho]]",
+   "why": "Origin doubtful (finding 7). This is a 2025 own-work upload that names no document, publication or holder. The CC0 licence covers the uploader's file, not the claim that this is Babel's hand."
+  },
+  {
+   "section": "signatures",
+   "key": "luigi-pirandello",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Pirandello_-_signature.png",
+   "quote": "|source=Personal collection",
+   "why": "Origin doubtful. The only source is an unnamed \"Personal collection\" with a bare \"1933\", and no document or holder can be traced."
+  },
+  {
+   "section": "signatures",
+   "key": "marina-tsvetaeva",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Tsvetaeva_signature_1941.jpg",
+   "quote": "|source=a book",
+   "why": "Origin doubtful. The SVG is based on \"Tsvetaeva signature 1941.jpg\", whose source is only \"a book\" (no title). The date field on that page, 2012-03-16, is the upload date, so \"1941\" rests on the filename alone."
+  },
+  {
+   "section": "signatures",
+   "key": "milan-kundera",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Milan_Kundera_signature.jpg",
+   "quote": "|source={{own}} … |author=[[User:Lukáš Lukeš|Lukáš Lukeš]] … {{self|cc-by-sa-4.0}}",
+   "why": "Origin doubtful. The SVG comes from an own-work photo (2016) that names no document it shows. The parent photo is licensed CC BY-SA 4.0 by its uploader, which the SVG's PD tag drops."
+  },
+  {
+   "section": "signatures",
+   "key": "premchand",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Hastakshar_premchand_(transparent).png",
+   "quote": "|Source=\n|Date=",
+   "why": "Origin doubtful (finding 7). Source and Date are both empty on this page and on its parent \"Hastakshar premchand.jpg\", which only records a 2008 hi.wikipedia upload."
+  },
+  {
+   "section": "signatures",
+   "key": "toni-morrison",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Toni_Morrison_(signature).jpg",
+   "quote": "{{PD-self}} This is my image, Kenneth Sullivan",
+   "why": "Origin doubtful. The SVG vectorizes a file transferred from en.wikipedia. The only statement of its origin is the original uploader's \"This is my image\", with no document, date or holder named."
+  },
+  {
+   "section": "signatures",
+   "key": "witold-gombrowicz",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Gombrowicz_faksymile.png",
+   "quote": "|source=Witold Gombrowicz",
+   "why": "Origin doubtful. The SVG comes from \"Gombrowicz faksymile (cropped).png\", itself cut from \"Gombrowicz faksymile.png\", and both give only the author's name as source. The word \"facsimile\" points to a printed reproduction, but the page does not say which."
+  },
+  {
+   "section": "signatures",
+   "key": "umberto-eco",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "licence": "CC BY 3.0 Diego Grez",
+     "creator": "Diego Grez",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+     "licenceBasis": "File page licence {{Cc-by-3.0}}, author Diego Grez (SVG redraw of File:Umberto-eco001.jpg, which is {{PD-signature|Germany}}). CC BY 3.0 requires creator credit, a licence link and a note of changes; the PNG is a rasterized copy.",
+     "commercialUse": "yes"
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Umberto_Eco_signature.svg",
+   "quote": "Redrawn in SVG by [[User:Diego Grez|Diego Grez]]. … |Author=[[User:Diego Grez|Diego Grez]] … {{Cc-by-3.0}}",
+   "why": "The file is CC BY 3.0 by Diego Grez, and CC BY requires the creator's name and a link to the licence (\"Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made .\", creativecommons.org/licenses/by/3.0/). The author page currently draws \"서명 — CC BY 3.0 · Wikimedia Commons\" with no creator and no link. The front-page capsule draws the image with no credit at all, which needs a generator change (see notDone). commercialUse becomes yes, since the deed says \"for any purpose, even commercially\". The raster PNG is a changed format of the SVG, so the credit should also say it was changed. The alternative is to ship the PD parent File:Umberto-eco001.jpg ({{PD-signature|Germany}}, a scan by Dontworry), which needs a new image file. [Checker: the drawn credit gets longer. This is accepted as a flagged exception. For 『소송』 and Eco the CC BY 3.0 terms require the creator's name. For 『성』 the only true alternative to the false \"PD-text\" is the photographer's name. The same slot already draws longer strings on sibling pages: 『변신』 draws \"사진 CC-BY-3.0 H.-P. Haack\", and the old Tagore signature credit had 56 characters.]"
+  },
+  {
+   "section": "signatures",
+   "key": "fernando-pessoa",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "commercialUse": "yes",
+     "licenceBasis": "Vector trace released by its uploader (Pablo Busatto) under CC0 ({{self|cc-zero}}); parent scan is {{PD-signature|Portugal}}, source tertuliabibliofila.blogspot.com, dated 1914–1916. CC0 permits commercial use."
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Fernando_Pessoa_signature.svg",
+   "quote": "{{self|cc-zero}}",
+   "why": "CC0 was recorded as commercialUse \"unknown\" (finding 10). The CC0 deed says: \"You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\" (creativecommons.org/publicdomain/zero/1.0/). The origin is traceable: the parent File:Assinatura pessoa fernando.jpg gives Source http://tertuliabibliofila.blogspot.com/2009_11_01_archive.html and Date between 1914 and 1916."
+  },
+  {
+   "section": "signatures",
+   "key": "georges-perec",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "collection": "Wikimedia Commons (SVG by Farisori); source cited on the file page: Pere(t)c: tentativa de inventario, Madrid 2011, p. 423",
+     "licenceBasis": "File page carries {{PD-Signature|France}} and the uploader's {{self|cc-by-sa-4.0}}; we rely on PD-Signature (a signature is below the threshold of originality), so no credit is required. Printed source cited on the page: Pere(t)c: tentativa de inventario (2011), p. 423."
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Firma_Perec.svg",
+   "quote": "{{PD-Signature|France}} … {{self|cc-by-sa-4.0}} … Varios autores (2011). Pere(t)c: tentativa de inventario (I edición). Madrid: Fundación Luis Seoane, Círculo de Bellas Artes, MAIA Ediciones. p. 423.",
+   "why": "The file page carries two statements, {{PD-Signature|France}} and the uploader Farisori's {{self|cc-by-sa-4.0}}. The manifest records only \"file page carries a public-domain tag\" and leaves out the printed source the page cites (finding 6). The shipped reliance on PD-signature is the normal reading, so the drawn \"Public domain\" stays and the manifest records what it relies on. [Checker correction: the collection note said the SVG was \"traced from\" the 2011 book; the page only cites the book as \"Fuente\" (source) under an {{own}} upload, so the note now says \"source cited on the file page\" instead of asserting how the SVG was made.]"
+  },
+  {
+   "section": "signatures",
+   "key": "anna-akhmatova",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%85%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0_%D0%90%D0%BD%D0%BD%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84.JPG",
+   "quote": "|Source=''Анна Ахматова''. Стихотворения. Издательство \"Молодая гвардия\", серия \"XX век. Поэт и время\", Москва, 1989",
+   "why": "Named printed source (1989 Molodaya Gvardiya volume, photographed by Vizu); PD-trivial / PD-signature|Russia. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "charles-baudelaire",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Baudelaire_signatur.svg",
+   "quote": "Källa: [[:sv:Varia]] - illustrerad månadsskrift, första årgången, 1898, s.878.",
+   "why": "Named printed source (Varia, 1898, p. 878); {{PD-old}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "clarice-lispector",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Clarice-Lispector-Unterschrift.png",
+   "quote": "|source=http://literatortura.com/2015/07/o-jornalismo-a-claricear/",
+   "why": "Named web source; {{PD-textlogo}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "elias-canetti",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Unterschrift_von_Elias_Canetti.jpg",
+   "quote": "|Source=http://www.havelshouseofhistory.com/Canetti,%20E%20Sign.jpg",
+   "why": "Named autograph-dealer source, dated c. 1924; {{PD-signature|Germany}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "ernest-hemingway",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Signature.svg",
+   "quote": "|Source=Traced in Adobe Illustrator from http://www.kruegerbooks.com/books/sig/ernest.jpg",
+   "why": "Named dealer source; {{PD-Signature|US}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "federico-garcia-lorca",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Federico_Garc%C3%ADa_Lorca_signature.svg",
+   "quote": "|Source=Traced from bitmap at http://www.superstock.co.uk/stock-photos-images/1566-0201401",
+   "why": "Named stock-archive source; {{PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "flannery-oconnor",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Flannery_OConnor_signature_May_1952.svg",
+   "quote": "|source=From signed book",
+   "why": "Source is a signed book, dated May 1952 in the filename and date field; {{PD-text}}. A weak but stated origin. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "friedrich-nietzsche",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Friedrich_Nietzsche_Signature.svg",
+   "quote": "|source=Traced in Adobe Illustrator from {{F|Nietzsche - Ainsi parlait Zarathoustra.djvu}}",
+   "why": "Traced from a scanned printed edition held on Commons; PD-ineligible / PD-signature / PD-old-100. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "george-orwell",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Orwell-Signature.svg",
+   "quote": "|Source=Scan from ''The Complete Works of George Orwell''",
+   "why": "Named printed source; {{PD-two|PD-old-auto|deathyear=1950|PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "gertrude-stein",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Gertrude_Stein-_Autograph.svg",
+   "quote": "Original: http://www.tomfolio.com/autographimg.asp?sigid=1143&ret=AGIni",
+   "why": "Named dealer source; {{PD-textlogo}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "henrik-ibsen",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Henrik_Ibsen%27s_signature.png",
+   "quote": "|Source= From the frontispiece of  ''Literary Lives: Henrik Ibsen'' by Edmund Gosse, published by Scribner, New York, 1908",
+   "why": "Named printed source (Gosse, 1908, frontispiece); {{PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "henry-james",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Henry_James_signature_(1907).png",
+   "quote": "|Source=https://archive.org/details/roderickhudsonja00jameiala",
+   "why": "Named printed source (The Novels and Tales of Henry James, vol. 1, 1907, on archive.org); PD-Scan. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "james-joyce",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:James_Joyce_signature.svg",
+   "quote": "|Description=Signature of James Joyce from Ulysses, 1936 Bodley Head Edition, Copy #3 of 100",
+   "why": "Named object and auction lot (Heritage); {{PD-signature|Ireland}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "jorge-luis-borges",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_firma.svg",
+   "quote": "|source={{derived from|Buenos_Aires_L1.jpg|display=150}}",
+   "why": "Derived from a photo of the Borges signature reproduced at Buenos Aires station, Madrid Metro (parent: own photo by Javitomad, 2007, PD-self). A public reproduction of the signature, traceable. {{PD-signature|Argentina}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "jose-saramago",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Assinatura_Jos%C3%A9_Saramago.png",
+   "quote": "|source=[http://purl.pt/13866 Biblioteca Nacional de Portugal]",
+   "why": "Institutional source (Biblioteca Nacional de Portugal, purl.pt/13866); {{PD-Ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "joseph-conrad",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Joseph_Conrad_signature_1925.svg",
+   "quote": "|Source=[http://historical.ha.com/c/item.zx?saleNo=6038&lotNo=37283 Heritage Auctions]",
+   "why": "Named auction lot. The page date 1925 is after Conrad's death (Wikidata Q82925: 1924-08-03), but on Commons that field often records the document or sale date, and the page does not dispute the attribution (verifier, finding 7). {{PD-signature|Poland}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "julio-cortazar",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Julio_Cort%C3%A1zar_signature.svg",
+   "quote": "|Source=[http://www.icollector.com/Julio-Cortazar_i10392609 iCollector]",
+   "why": "Named auction source, 1971; {{PD-Signature|Belgium}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "leo-tolstoy",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_signature.svg",
+   "quote": "http://historical.ha.com/c/item.zx?saleNo=675&lotNo=30335",
+   "why": "Named auction lot (Heritage); {{PD-signature|Russia}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "lu-xun",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Lu_Xun%27s_Signature.svg",
+   "quote": "除签名外，照片上还有“一九三〇年九月二十四日照于上海，时年五十”字样。",
+   "why": "Traced from a 1930 photograph that carries Lu Xun's inscription and date; the parent 鲁迅lx.jpg names the online Lu Xun memorial as its source. {{PD-China-1996}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "machado-de-assis",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Assinatura_de_Machado_de_Assis.png",
+   "quote": "|Source=http://www.bairrodocatete.com.br/machadodeassis1.html",
+   "why": "Named web source, with other versions pointing to Biblioteca Nacional material; {{PD-old}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "marcel-proust",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Marcel_Proust_signature.svg",
+   "quote": "|source=https://cabourg.fr/sites/ville_dev/files/marcel-proust-signature.png",
+   "why": "Named source (Ville de Cabourg); {{PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "marguerite-duras",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Signature_of_Marguerite_Duras.png",
+   "quote": "|source=https://www.artcurial.com/fr/lot-marguerite-duras-le-marin-de-gibraltar-1567-168",
+   "why": "Named auction lot (dedication copy of Le Marin de Gibraltar to Sartre, 1952); {{PD-Signature|France}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "mikhail-bulgakov",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Mikhail_Bulgakov_signature.svg",
+   "quote": "Автограф [[w:ru:Михаил Булгаков|Михаила Булгакова]] 1 ноября 1937 года на своей фотографии.",
+   "why": "Traced from a dated autograph on Bulgakov's photograph (1 Nov 1937); PD-trivial / PD-signature|ru. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "octavia-butler",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Octavia_E._Butler_signature.jpg",
+   "quote": "Repository: Penn Libraries",
+   "why": "Parent photo documents the object: inscribed title page of Survivor (1979), Penn Libraries Banks copy. {{PD-signature|USA}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "pablo-neruda",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Firma_Pablo_Neruda.svg",
+   "quote": "|Source=http://atinachile.bligoo.com/content/view/2417/101_anos_de_Pablo_Neruda.html",
+   "why": "Named (now dead) web source. The description text is vandalised, but nothing disputes the attribution. {{PD-ineligible}}. Weak but stated origin. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "paul-celan",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Paul_Celan_signature.jpg",
+   "quote": "|Source=https://webarchiv.onb.ac.at/web/20160102125253/http://www.onb.ac.at/sichtungen/beitraege/barnert-a-1a.html",
+   "why": "Parent names an Austrian National Library web source, dated 1959-03-22; PD-trivial / PD-signature. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "rainer-maria-rilke",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Unterschrift_Rainer_Maria_Rilke_%C3%B6sterreichischer_Erz%C3%A4hler_und_Lyriker.svg",
+   "quote": "|source=https://pictures.abebooks.com/inventory/30947374933.jpg",
+   "why": "Named dealer image, dated 21 Dec 1906; PD-ineligible / PD-signature|Austria. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "robert-musil",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Robert_Musil_Signature.jpg",
+   "quote": "|Source=http://www.robertmusil.de/",
+   "why": "Parent names a web source; {{PD-signature|AT}}. Weak but stated origin. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "sadegh-hedayat",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Sadeq_Hedayat_signature.svg",
+   "quote": "|source=https://www.facebook.com/photo/?fbid=3818946388173054",
+   "why": "Named (social-media) source. The auditor found the form matches the 1937 Blind Owl dedication on Commons. {{PD-signature|Iran}}. Weak but stated origin. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "samuel-beckett",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Samuel_Beckett_signature.svg",
+   "quote": "|source=Own work, traced from http://leevidor.com/img/beckett_samuel_autograph_1.jpg",
+   "why": "Named dealer source; {{PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "simone-de-beauvoir",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir_(signature).jpg",
+   "quote": "|Description={{fr|1=Signature de Simone de Beauvoir, scan d'après lettre à l'User.}}",
+   "why": "Parent names the document (a letter to the uploader, 1974-03-22). The parent also carries the uploader's GFDL/CC BY-SA, but the SVG relies on {{PD-signature|France}}, as recorded. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "stanislaw-lem",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Stanis%C5%82aw_Lem_signature.svg",
+   "quote": "|source=Traced in \"Wycinek i szkic\" from http://autografy.eu/index.php/2011/01/stanislaw-lem/",
+   "why": "Named web source; {{PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "thomas-mann",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Thomas_Mann's_Signature.jpg",
+   "quote": "|Source=http://www.havelshouseofhistory.com/Autographs%20of%20Nobel%20Laureates%20in%20Literature%20M-MN.htm",
+   "why": "Parent names a dealer source, dated 1929; {{PD-signature|DE}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "ts-eliot",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:TS_Eliot_Signature.svg",
+   "quote": "|Source=Traced in Adobe Illustrator from [https://web.archive.org/web/20160604152943/http://services.tomfolio.com/tfsigs/e/EliotTS.jpg",
+   "why": "Named dealer source (archived); {{PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "vladimir-nabokov",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_signature.svg",
+   "quote": "|Source=https://ihavegoodbooks.blogspot.com/2010/09/eye-by-vladimir-nabokov.html",
+   "why": "Named web source (a signed copy of The Eye); {{PD-signature|Russia}}. Weak but stated origin. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "walt-whitman",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_signature.svg",
+   "quote": "|other_versions=http://historical.ha.com/c/item.zx?saleNo=6025&lotNo=37253",
+   "why": "Named auction lot (Heritage). The 1902 date is after Whitman's death (Wikidata Q81438: 1892-03-26), but it is most likely the document or sale date, and the page does not dispute the attribution. {{PD-signature|United States}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "william-butler-yeats",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Yeats_Signature.jpg",
+   "quote": "|Source = Nobel Prize Website",
+   "why": "Named institutional web source; {{PD-old-auto|1939}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "william-faulkner",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Faulkner_signature.png",
+   "quote": "|Source         = http://www.tomfolio.com/signatures/f/FaulknerWilliam.html",
+   "why": "Named dealer source. The page notes that some Faulkner letters were machine-signed (NYT 1981). That caveat concerns letters, not this image, so the origin is stated but secondary. {{PD-signature|United States}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "wislawa-szymborska",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Wis%C5%82awa_Szymborska_signature.svg",
+   "quote": "|source=Traced in \"Wycinek i szkic\" from http://autografy.eu/wp-content/uploads/2011/01/wislawa-szymborska.jpg",
+   "why": "Named web source; {{PD-ineligible}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "yukio-mishima",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Yukio_Mishima_signature.png",
+   "quote": "|source=三島由紀夫自選集",
+   "why": "Parent names a printed source (三島由紀夫自選集); {{PD-signature|Japan}}. Manifest matches."
+  },
+  {
+   "section": "signatures",
+   "key": "zora-neale-hurston",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Zora_Neale_Hurston_signature.svg",
+   "quote": "|Description=Signature of Zora Neale Hurston from the holograph manuscript of ''[[:en:Dust Tracks on a Road|Dust Tracks on a Road]]''.",
+   "why": "Institutional source (Beinecke 3521395, holograph manuscript, 1942); {{PD-signature|US}}. Manifest matches."
+  },
+  {
+   "section": "archival",
+   "key": "franz-kafka",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg",
+   "quote": "{{PD-two|PD-EU-no author disclosure|PD-1996}}",
+   "why": "Not shipped (art/archival is in UNSHIPPED). File page matches the manifest: last portrait c. 1923, unidentified photographer, sources Wagenbach / Morgan / Stach."
+  },
+  {
+   "section": "archival",
+   "key": "natsume-soseki",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "commercialUse": "yes",
+     "licenceBasis": "File page {{PD-Japan-oldphoto}}; photographer Ogawa Kazumasa died 1929 (Wikidata Q3133048). Authors who died before 1 January 1963 are out of copyright in South Korea (Commons: Copyright rules by territory/South Korea)."
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Natsume_Souseki.jpg",
+   "quote": "|permission={{PD-Japan-oldphoto}}",
+   "why": "Not shipped. Identity matches (Ogawa Kazumasa, October 1912, published 1929 in Soseki Zenshu vol. 8). commercialUse is resolved to yes. The photo is {{PD-Japan-oldphoto}}, and the photographer died in 1929 (Wikidata Q3133048, P570 1929-09-06), before the 1963 line under which Korean protection has already ended (Commons, South Korea rules)."
+  },
+  {
+   "section": "archival",
+   "key": "rabindranath-tagore",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg",
+   "quote": "{{PD-old-100-1923}}",
+   "why": "Not shipped. File page matches the manifest: 1909 photo credited to Generalstabens litografiska anstalt, published in Les Prix Nobel 1913 (1914). The licence template now reads PD-old-100-1923, with categories CC-PD-Mark / PD-old-100-expired. That is consistent with the recorded licence."
+  },
+  {
+   "section": "grounds",
+   "key": "franz-kafka",
+   "action": "keep",
+   "url": "https://commons.wikimedia.org/wiki/File:Kafka%27s_notebook.JPG",
+   "quote": "{{pd-old}}",
+   "why": "Not shipped. File page matches the manifest: Kafka's German-Hebrew vocabulary notebook, Prague 1922, National Library of Israel."
+  },
+  {
+   "section": "grounds",
+   "key": "natsume-soseki",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "collection": "Wikimedia Commons, reproduced from 漱石全集 第一巻 (漱石全集刊行会, 1936), NDL Digital Collections 1883179",
+     "licenceBasis": "File page {{PD-old-auto-expired|deathyear=1916}}: Natsume Soseki died 1916. Reproduced from the 1936 Soseki Zenshu, vol. 1."
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Manuscripts_of_%22I_Am_a_Cat%22.jpg",
+   "quote": "|source=漱石全集刊行会『漱石全集 第一巻』漱石全集刊行会、1936年2月10日。 … {{PD-old-auto-expired|deathyear=1916}}",
+   "why": "Not shipped. The manifest basis says \"work published in facsimile before 1931\", but the page's source is the 1936 Soseki Zenshu vol. 1. The page rests on the author's death in 1916, not on a pre-1931 publication. The basis is corrected to what the page says."
+  },
+  {
+   "section": "grounds",
+   "key": "rabindranath-tagore",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "licence": "Public domain",
+     "licenceBasis": "File page {{PD/1923|1941}}: Tagore died 1941; manuscript of 1912 (Rothenstein Papers, Houghton Library)."
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Original_manuscript_of_Gitanjali_-_Rabindranath_Tagore_-_Rothenstein_collection.pdf",
+   "quote": "{{PD/1923|1941}}",
+   "why": "Not shipped. The manifest licence reads \"Public Domain Mark 1.0 (CC0-equivalent per file page)\", but the page says nothing about CC0. It carries {{PD/1923|1941}} (a PD tag keyed to the author's death year, 1941). Corrected so that the note does not invent a CC0 equivalence."
+  },
+  {
+   "section": "covers",
+   "key": "franz-kafka--die-verwandlung",
+   "action": "fix",
+   "fields": {
+    "license": "CC BY 3.0 H.-P. Haack",
+    "provenance": {
+     "licence": "CC BY 3.0",
+     "creator": "H.-P. Haack",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+     "shows": "초판 표지"
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Franz_Kafka_Die_Verwandlung_1916_Orig.-Pappband.jpg",
+   "quote": "|Author= © Foto H.-P.Haack … |Permission={{self|Cc-by-3.0}}",
+   "why": "The image is what the page says: a first-edition binding, Kurt Wolff 1915, printed November 1915 as \"Der jüngste Tag\" 22/23, so the drawn \"초판 — 1915 · Kurt Wolff Verlag, Leipzig\" is true. The drawn licence is normalised to the licence's own short name, \"CC BY 3.0\" (same glyph count). The licence link that CC BY requires is added (\"Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made .\")."
+  },
+  {
+   "section": "covers",
+   "key": "franz-kafka--der-process",
+   "action": "fix",
+   "fields": {
+    "license": "CC BY 3.0 H.-P. Haack",
+    "provenance": {
+     "licence": "CC BY 3.0",
+     "creator": "H.-P. Haack",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+     "shows": "초판 표지",
+     "licenceBasis": "Depicted book {{PD-old-expired|deathyear=1924}}; the photograph itself {{self|Cc-by-3.0}} by H.-P. Haack. Credit and licence link required."
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Kafka_Der_Prozess_1925.jpg",
+   "quote": "<b>Object depicted in photograph:</b>\n{{PD-old-expired|deathyear=1924}}\n<b>The photograph itself:</b>\n{{self|Cc-by-3.0}}",
+   "why": "Finding 4. The book is PD, but the photograph is CC BY 3.0 by H.-P. Haack (Author \"© Foto H.-P.Haack\", uploader H.-P.Haack). The manifest and page draw \"사진 PD\" with no photographer. The fix credits the photographer and names the licence, as on the sibling covers. The caption \"초판 — 1925 · Verlag Die Schmiede, Berlin\" matches the page (\"Berlin: Die Schmiede 1925 … Erstausgabe\"). The drawn licence is longer than \"PD\", which the licence terms require. [Checker: the drawn credit gets longer. This is accepted as a flagged exception. For 『소송』 and Eco the CC BY 3.0 terms require the creator's name. For 『성』 the only true alternative to the false \"PD-text\" is the photographer's name. The same slot already draws longer strings on sibling pages: 『변신』 draws \"사진 CC-BY-3.0 H.-P. Haack\", and the old Tagore signature credit had 56 characters.]"
+  },
+  {
+   "section": "covers",
+   "key": "franz-kafka--das-schloss",
+   "action": "fix",
+   "fields": {
+    "license": "H.-P. Haack",
+    "provenance": {
+     "licence": "PD-text (wrapper); photo licence not stated",
+     "creator": "H.-P. Haack",
+     "shows": "초판 표지",
+     "licenceBasis": "File page Permission {{PD-text}} (typographic wrapper below threshold); the photo, by and uploaded by H.-P. Haack, carries no separate licence. Credited to the photographer; no licence claimed for the photo itself. Kafka died 1924.",
+     "commercialUse": "yes"
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Kafka_Das_Schloss_1926.jpg",
+   "quote": "|Author= © Foto H.-P.Haack \n|Permission={{PD-text}}",
+   "why": "Finding 9. {{PD-text}} describes the typographic wrapper, and the page gives no separate licence for the photograph, which the photographer uploaded himself (uploader H.-P.Haack). \"사진 PD-text\" states a licence for the photo that the page does not give. The drawn string becomes the photographer credit alone, with no licence claim for the photo. commercialUse is yes: Commons hosts only files that permit commercial use (Commons:Licensing, \"Commercial use of the work must be allowed\"), the photographer published it there under that tag, and Kafka died in 1924. The caption \"초판 — 1926 · Kurt Wolff Verlag, München\" matches the page (\"München: K. Wolff 1926 … Original-Broschur der ersten Auflage\"). [Checker: the drawn credit gets longer. This is accepted as a flagged exception. For 『소송』 and Eco the CC BY 3.0 terms require the creator's name. For 『성』 the only true alternative to the false \"PD-text\" is the photographer's name. The same slot already draws longer strings on sibling pages: 『변신』 draws \"사진 CC-BY-3.0 H.-P. Haack\", and the old Tagore signature credit had 56 characters.]"
+  },
+  {
+   "section": "covers",
+   "key": "franz-kafka--in-der-strafkolonie",
+   "action": "fix",
+   "fields": {
+    "license": "CC BY 3.0 H.-P. Haack",
+    "provenance": {
+     "licence": "CC BY 3.0",
+     "creator": "H.-P. Haack",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+     "shows": "초판 표제지",
+     "altKo": "『유형지에서』 초판 표제지"
+    }
+   },
+   "url": "https://commons.wikimedia.org/wiki/File:Kafka_Strafkolonie_(1919).jpg",
+   "quote": "Titelblatt des Erstdruckes.",
+   "why": "Finding 8. The image is the title page (Titelblatt) of the first printing, not the cover, so the hard-coded alt \"『유형지에서』 초판 표지\" and the author-page group label \"초판 표지\" are wrong. The edition line \"초판 — 1919 · Kurt Wolff Verlag, Leipzig\" is true, since the page reads 1919 Kurt Wolff Verlag, Leipzig. The drawn licence is normalised to \"CC BY 3.0\" (same glyph count), and the licence link is added."
+  },
+  {
+   "section": "covers",
+   "key": "natsume-soseki--wagahai-wa-neko-de-aru",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "title": "\"I Am a Cat\" (English translation by K. Ando, revised by K. Natsume), front cover; Hattori Shoten, Tokyo, 1906–1909 (Yale Beinecke, Pollock 478); cover design 橋口五葉",
+     "shows": "영역본 표지",
+     "captionKo": "영역본 — 1906~09 · 服部書店, 東京",
+     "altKo": "『나는 고양이로소이다』 영역본 표지"
+    }
+   },
+   "url": "https://collections.library.yale.edu/manifests/2109035",
+   "quote": "Alternative Title: I am a cat / translated by K. Ando ; revised by K. Natsume. … Published/Created Date: 1906-1909; Publication Place: Tokyo; Publisher: Hattori Shoten … canvas: [Front cover]",
+   "why": "Finding 1. The image is the front cover of the English translation (I Am a Cat, translated by K. Ando, revised by K. Natsume), not the 1905 Japanese first edition. The holding library's record (Yale Beinecke, via its IIIF manifest; the catalog page itself sits behind a bot wall) gives Hattori Shoten, Tokyo, with date \"1906-1909\". The Commons page says 1906 and cites the same record. The date is narrowed to the range both support. The publisher kanji 服部書店 follows the project's own spelling of Hattori Shoten in the first-edition line. The new line is 24 glyphs against the old 25. Licence unchanged: cover designer 橋口五葉, {{PD-old-auto-expired|deathyear=1921}}. [Checker: the Yale IIIF front-cover canvas (image 1334885) is the same physical copy as the shipped image, down to the same stains.]"
+  },
+  {
+   "section": "covers",
+   "key": "natsume-soseki--kokoro",
+   "action": "remove",
+   "url": "https://commons.wikimedia.org/wiki/File:Natsume_S%C3%B4seki_Umschlag_%22Kokoro%22.jpg",
+   "quote": "|source=Katalog … |author={{unknown|author}}",
+   "why": "Origin doubtful. The only source is \"Katalog\", with no catalogue, sale or holder named, and the author is unknown. The image is a colour product photograph of a book standing with its slipcase, which is a photograph of a 3D object. The {{PD-Japan}} tag covers Soseki's 1914 design, not the unknown photographer's rights. Nothing on the page ties the copy shown to the 1914 Iwanami first edition rather than a later reproduction. A true caption would have to say \"unknown copy, unknown photographer\", which does not serve a \"초판 — 1914\" figure."
+  },
+  {
+   "section": "covers",
+   "key": "natsume-soseki--sorekara",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "shows": "초판본",
+     "altKo": "『그 후』 초판본",
+     "commercialUse": "yes",
+     "licenceBasis": "NDL Digital Collections pid 887086: Access Restrictions \"PDM\"; Commons {{PD-scan|PD-Japan}}. Natsume Soseki died 1916."
+    }
+   },
+   "url": "https://dl.ndl.go.jp/api/iiif/887086/manifest.json",
+   "quote": "Title: それから … Publisher: 春陽堂; Publication Date: 明43.1 … Access Restrictions: PDM",
+   "why": "The edition line on the page (春陽堂, 明43.1) is true per the NDL record, and NDL marks the scan PDM (Public Domain Mark), so commercialUse resolves to yes. The manifest calls the image the \"front cover\". In the NDL scan, though, frame 1 shows this leaf opposite the inside of the board, so it may be the first leaf (扉), not the cover, and the scan does not settle which. The label is narrowed to \"초판본\" instead of guessing 표지 or 표제지. The drawn caption is unchanged."
+  },
+  {
+   "section": "covers",
+   "key": "natsume-soseki--sanshiro",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "shows": "초판본",
+     "altKo": "『산시로』 초판본",
+     "commercialUse": "yes",
+     "licenceBasis": "NDL Digital Collections pid 886555: Access Restrictions \"PDM\"; Commons {{PD-scan|PD-Japan}}. Natsume Soseki died 1916."
+    }
+   },
+   "url": "https://dl.ndl.go.jp/api/iiif/886555/manifest.json",
+   "quote": "Title: 三四郎 … Publisher: 春陽堂; Publication Date: 明42.5 … Access Restrictions: PDM",
+   "why": "The edition line on the page (春陽堂, 明42.5) is true per the NDL record, and NDL marks the scan PDM (Public Domain Mark), so commercialUse resolves to yes. The manifest calls the image the \"front cover\". In the NDL scan, though, frame 1 shows this leaf opposite the inside of the board, so it may be the first leaf (扉), not the cover, and the scan does not settle which. The label is narrowed to \"초판본\" instead of guessing 표지 or 표제지. The drawn caption is unchanged."
+  },
+  {
+   "section": "covers",
+   "key": "natsume-soseki--botchan",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "shows": "수록본",
+     "captionKo": "수록 — 1907 · 春陽堂, 東京",
+     "altKo": "『도련님』이 실린 『우즈라카고』(1907)",
+     "commercialUse": "yes",
+     "licenceBasis": "NDL Digital Collections pid 885509: Access Restrictions \"PDM\"; Commons {{PD-scan|PD-Japan}}. Natsume Soseki died 1916."
+    }
+   },
+   "url": "https://dl.ndl.go.jp/api/iiif/885509/manifest.json",
+   "quote": "Title: 鶉籠 … Publisher: 春陽堂; Publication Date: 明40.1 … Access Restrictions: PDM",
+   "why": "Finding 8. The image shows 鶉籠 (1907, 春陽堂), a 1907 collection that contains Botchan (Commons page: Part Title 坊っちゃん,二百十日,草枕), under a 『도련님』 label with no explanation. The edition label becomes \"수록\" (same glyph count as \"초판\"), so the drawn line reads \"수록 — 1907 · 春陽堂, 東京\". The alt names the collection. As with the other NDL scans, cover versus first leaf is not settled, so the label names the book (\"수록본\"), not the leaf. NDL marks the scan PDM, so commercialUse is yes."
+  },
+  {
+   "section": "covers",
+   "key": "rabindranath-tagore--gitanjali",
+   "action": "fix",
+   "fields": {
+    "provenance": {
+     "shows": "3판본",
+     "captionKo": "3판 — 1913 · 인디언 프레스, 알라하바드",
+     "altKo": "『기탄잘리』 3판본"
+    }
+   },
+   "url": "https://www.wikidata.org/wiki/Q51614301",
+   "quote": "P393 (edition number): 3 … P577 (publication date): 1913 … P123 (publisher): Indian Press Limited; Indian Publishing House",
+   "why": "Finding 2. The shipped leaf reads তৃতীয় সংস্করণ (third edition), ইণ্ডিয়ান প্রেস, এলাহাবাদ (Indian Press, Allahabad) and ১৩২০ (BS 1320). Wikidata's item for this scan (Q51614301) gives edition number 3, publication 1913, and publishers Indian Press Limited / Indian Publishing House. The caption said \"초판 — 1910 · Indian Publishing House, Kolkata\". The new drawn line is much shorter. Cover versus title leaf is not settled by the sources, so the label is \"3판본\". Licence: {{Pd/1923|1941}}, Tagore died 1941, so commercialUse stays yes. [Checker: re-read the shipped leaf; its imprint line reads ইণ্ডিয়ান প্রেস, এলাহাবাদ over ১৩২০, and the top line is a library stamp (Ghurni Deshabandhu Library, Krishnanagar, Nadia), not a publisher line. Wikidata Q51614301 also lists P291 Kolkata (Q1348) and Prayagraj (Q162442), so naming the imprint printed on the leaf is supported.]"
+  },
+  {
+   "section": "covers",
+   "key": "rabindranath-tagore--ghare-baire",
+   "action": "remove",
+   "url": "https://archive.org/metadata/hometheworld00tagouoft/metadata",
+   "quote": "creator: Tagore, Rabindranath, 1861-1941; Tagore, Surendranath … publisher: London Macmillan; date: 1921",
+   "why": "Finding 3. The image is the typographic title page of a 1921 London Macmillan printing of the English translation (archive.org metadata: creator Tagore, Surendranath; publisher London Macmillan; date 1921), with a \"SEEN BY PRESERVATION SERVICES\" stamp. A true caption (\"영역본 표제지 — 1921 · Macmillan, London\") would be new drawn text on a figure that has no edition line today, and it would show only an English title set in type. Remove rather than keep a title page that says nothing about the book the page is for."
+  }
+ ],
+ "notDone": [
+  {
+   "key": "signatures/umberto-eco (front page)",
+   "why": "The front-page capsule (lpHead in scripts/generate-static-pages.ts, a.sg) draws the signature with no credit. A manifest field cannot fix that. The generator must carry provenance.creator/licence/licenseUrl into the capsule for any CC BY image (today only Eco). Alternatively, ship the PD parent File:Umberto-eco001.jpg, which needs a new image file."
+  },
+  {
+   "key": "generator: new manifest fields",
+   "why": "The fields proposed here (provenance.shows, captionKo, altKo, creator, licenseUrl) are not yet read. generate-static-pages.ts:368/646 hard-code alt \"『…』 초판 표지\" and build the edition line from w.firstEdition, and :491-492 group every cover under \"초판 표지\". The maintainer must switch alt, figcaption and the author-page group label to these fields, and link licenseUrl in the credit. That is a code change outside the manifest."
+  },
+  {
+   "key": "signatures (15 removed)",
+   "why": "No replacement files were sourced. The only sourced replacement seen is for Dostoevsky: File:БСЭ1. Автограф. Автографы. 17.svg (Great Soviet Encyclopedia 1st ed., before 1927, {{PD-scan}}). It would need its own crop and manifest row and was not prepared."
+  },
+  {
+   "key": "covers/natsume-soseki--sorekara, --sanshiro, --botchan, rabindranath-tagore--gitanjali",
+   "why": "Whether each shipped leaf is the cover or the title leaf could not be settled from the NDL/Commons records. The label was narrowed to 초판본/3판본 instead. A colour NDL scan (both NDL records note 同一原本の別画像あり) might settle it."
+  },
+  {
+   "key": "drawn-length exceptions",
+   "why": "The drawn credit gets longer in three places: covers/franz-kafka--der-process (\"PD\" becomes \"CC BY 3.0 H.-P. Haack\"), covers/franz-kafka--das-schloss (\"PD-text\" becomes \"H.-P. Haack\") and signatures/umberto-eco (\"CC BY 3.0\" becomes \"CC BY 3.0 Diego Grez\"). The licence requires the creator's name, or the old string was false. Each new string is no longer than strings already drawn in the same slot on sibling pages. The maintainer should sign off on this knowingly."
+  },
+  {
+   "key": "removed rows leave their image files",
+   "why": "The 18 removals only drop manifest rows. The files (public/art/signatures/<id>.png for the 15 signatures, public/art/marks/natsume-soseki.png, public/art/covers/natsume-soseki--kokoro.jpg and rabindranath-tagore--ghare-baire.jpg) still get copied into dist unless they are deleted in the same change."
+  }
+ ]
+}

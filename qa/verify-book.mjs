@@ -346,10 +346,11 @@ console.log("\n색인 허가 — 검토된 것만 제출한다");
   const AU = rd(new URL("../data/authors/", import.meta.url)).filter((f) => f.endsWith(".json")).flatMap((f) => JSON.parse(rf(new URL(`../data/authors/${f}`, import.meta.url), "utf8")));
   const revPlate = AU.find((a) => (a.depth ?? "plate") === "plate" && a.reviewStatus !== "draft");
   const draftPlate = AU.find((a) => (a.depth ?? "plate") === "plate" && a.reviewStatus === "draft");
-  check("검토된 도판 작가 쪽은 색인된다", (await robots(`/authors/${revPlate.id}/`)) === false, revPlate.id);
+  // 검토된 도판이 0 일 수 있다 — 정의가 바뀌어 재심 중일 때(2026-09-24: 문장 단위 게이트로 38 → 0). 그때도 이 계약은 참이어야 한다.
+  if (revPlate) check("검토된 도판 작가 쪽은 색인된다", (await robots(`/authors/${revPlate.id}/`)) === false, revPlate.id);
   check("검토 전 도판 작가 쪽은 색인하지 않는다", await robots(`/authors/${draftPlate.id}/`), draftPlate.id);
   check("스케치 작가 쪽은 색인하지 않는다", await robots("/authors/qu-yuan/"));
-  check("검토된 도판의 작품 쪽은 색인된다", (await robots(`/works/${revPlate.readingEntry}/`)) === false, revPlate.readingEntry);
+  if (revPlate) check("검토된 도판의 작품 쪽은 색인된다", (await robots(`/works/${revPlate.readingEntry}/`)) === false, revPlate.readingEntry);
   check("실루엣 작품 쪽은 색인하지 않는다", await robots("/works/qu-yuan--lisao/"));
   check("색인과 첫 장은 색인된다", (await robots("/authors/")) === false && (await robots("/")) === false);
   const sm = await (await fetch(`${server.origin}/sitemap.xml`)).text();
@@ -360,7 +361,7 @@ console.log("\n색인 허가 — 검토된 것만 제출한다");
   const indexHtml = await (await fetch(`${server.origin}/`)).text();
   const reviewedN = Number((indexHtml.match(/검토 ([\d,]+)/) ?? [])[1]?.replace(/,/g, ""));
   const smAuthors = locs.filter((u) => /\/authors\/[^/]+\/$/.test(u)).length;
-  check("검토된 작가는 전부 제출한다 — 푸터의 검토 수와 같다", reviewedN > 0 && smAuthors === reviewedN, `sitemap ${smAuthors} · 푸터 ${reviewedN}`);
+  check("검토된 작가는 전부 제출한다 — 푸터의 검토 수와 같다", Number.isFinite(reviewedN) && smAuthors === reviewedN && reviewedN === AU.filter((a) => a.reviewStatus !== "draft").length, `sitemap ${smAuthors} · 푸터 ${reviewedN}`);
   // 한 사람(굴원)만 보는 계약은 필터가 "검토됨"에서 "도판"으로 바뀌어도 초록이었다(2026-09-23 변이 실측 — draft 인
   // 아리스토텔레스가 제출됐다). 배포본 전수를 양방향으로 대조한다: 제출된 쪽은 noindex 가 아니고, noindex 가 아닌 쪽은
   // (canonical 이 자기 자신이면) 제출돼 있다.

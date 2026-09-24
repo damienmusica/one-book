@@ -481,3 +481,6 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appeara
 .inapp{margin:10px 0 0;padding:8px 12px;border:1px dashed var(--ink-3);font-size:14px}
 .auth-d summary{cursor:pointer;font-size:15px;color:var(--ink-2);min-height:44px;display:flex;align-items:center}
 .auth-d[open] summary{color:var(--ink)}
+.eds .vol{display:block;font-size:13px;color:var(--ink-3);letter-spacing:.02em}
+.eds .ok{display:inline-block;font-size:12px;letter-spacing:.06em;color:var(--ink-2);border:1px solid var(--rule-2);border-radius:3px;padding:0 5px;margin-left:4px;white-space:nowrap}
+.eds-note{margin:0 0 10px;font-size:13.5px;color:var(--ink-3)}

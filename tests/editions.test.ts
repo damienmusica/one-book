@@ -145,3 +145,25 @@ describe("시대층은 활동 기간과 겹쳐야 한다 — 조용한 거짓 �
     expect(errors.filter((e) => e.includes("does not overlap"))).toEqual([]);
   });
 });
+
+describe("고정한 표준판은 쪽에 닿는다 — 조용히 빠지지 않는다", () => {
+  it("모든 고정판이 그 작품의 판본 표에 있거나, 빠진 까닭이 원장에 있다", async () => {
+    const { readFileSync } = await import("node:fs");
+    const pins = JSON.parse(readFileSync("qc/edition-pins.json", "utf8")).byWork as Record<string, Array<{ isbn13: string; notLanded?: string }>>;
+    const eds = JSON.parse(readFileSync("data/editions.json", "utf8")).editions as Record<string, Array<{ isbn13: string; publisher: string; translator?: string }>>;
+    const excluded = new Set(Object.keys(JSON.parse(readFileSync("qc/editions-excluded.json", "utf8")).excluded));
+    const pinned = new Set(Object.values(pins).flat().map((p) => p.isbn13));
+    const missing: string[] = [];
+    for (const [w, list] of Object.entries(pins)) {
+      const rows = eds[w] ?? [];
+      const landedPins = rows.filter((r) => pinned.has(r.isbn13));
+      for (const p of list) {
+        if (excluded.has(p.isbn13) || p.notLanded || rows.some((r) => r.isbn13 === p.isbn13)) continue;
+        // 고정판이 작품당 상한(3)을 채웠다 — 넷째 고정판은 줄을 서서 기다린다
+        if (landedPins.length >= 3) continue;
+        missing.push(`${w}:${p.isbn13}`);
+      }
+    }
+    expect(missing).toEqual([]);
+  });
+});

@@ -52,7 +52,8 @@ for (const id of ids) {
     relations: rels.map((r) => ({ id: r.id, type: r.type, from: `${r.sourceId} (${name(r.sourceId)})`, to: `${r.targetId} (${name(r.targetId)})`, evidenceLevel: r.evidenceLevel, summary: r.summary, anchors: r.anchors, sourceIds: r.sourceIds })),
     relationsCheckedElsewhere: elsewhere,
     drawn: (() => {
-      const d = drawnFor(a, works, all, name);
+      // 관계 문장은 주인 슬레이트에만 — 다른 쪽이 읽는 관계까지 실으면 같은 선을 두 컨텍스트가 따로 판정한다.
+      const d = drawnFor(a, works, rels, name);
       return onlyUncovered ? uncoveredOf(d, onlyUncovered) : d;
     })(),
     priorClaims: prior.filter((p: { id: string }) => p.id === id).flatMap((p: { claims?: unknown[] }) => p.claims ?? []),

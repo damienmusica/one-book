@@ -1,0 +1,630 @@
+{
+ "fixes": [
+  {
+   "id": "haruki-murakami",
+   "finding": "facts-01",
+   "works": [
+    {
+     "id": "haruki-murakami--noruwei-no-mori",
+     "significance": "서른일곱 살의 와타나베가 비틀스의 「노르웨이의 숲」을 듣고, 자살한 친구 기즈키의 연인 나오코와 도쿄의 대학에서 만난 미도리 사이에서 보낸 학창 시절을 돌아본다. 작가는 자신이 쓴 띠지 문구 ‘100퍼센트 연애소설’에 대해 실은 ‘100퍼센트 리얼리즘 소설’이라고 쓰고 싶었다고 밝혔고, 일본 누적 발행 부수는 2009년에 1000만 부를 넘었다. 한국에서는 1988년 원제로, 1989년 『상실의 시대』로 나왔다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "works[haruki-murakami--noruwei-no-mori].significance",
+     "url": "https://ko.wikipedia.org/wiki/노르웨이의_숲_(소설)",
+     "quote": "노병식 역, 《노르웨이의 숲》, 삼진기획, 1988년 / 유유정 역, 《상실의 시대》, 문학사상사, 1989년",
+     "why": "1988년 원제 번역이 먼저 있었다 — '1989년 … 처음'은 틀렸다. 마지막 문장만 고치고, 길이를 맞추려 '일본 내'를 '일본'으로 줄였다."
+    },
+    {
+     "field": "works[haruki-murakami--noruwei-no-mori].significance",
+     "url": "https://www.newsis.com/view/?id=NISX20130903_0012329405",
+     "quote": "1988년 원제 '노르웨이의 숲'으로 여러 출판사를 통해 국내 출간됐지만, 반응은 뜨겁지 않았다. 1989년 문학사상사는 제목을 '상실의 시대'로 바꿔 냈고",
+     "why": "두 번째 독립 출처(뉴시스 2013. 9. 3.)가 같은 순서를 말한다."
+    }
+   ]
+  },
+  {
+   "id": "kim-yeon-su",
+   "finding": "facts-02 (a)",
+   "relations": [
+    {
+     "id": "influence--baek-seok--kim-yeon-su",
+     "summary": "김연수는 대학 시절 해금된 백석의 시를 처음 읽고 1990년대 후반부터 그의 삶을 소설로 구상해 『일곱 해의 마지막』(2020)을 냈다. 출간 인터뷰에서는 시대가 바뀌어도 소설가가 변하지 않아도 된다는 이야기를 백석에게 들은 것 같다고 말했다.",
+     "sourceIds": [
+      "src--upinews-kim-yeon-su-2020-07-03",
+      "src--kim-yeon-su-ilgop-haeui-majimak-2020"
+     ],
+     "weight": 0.6
+    }
+   ],
+   "newSources": [
+    {
+     "id": "src--upinews-kim-yeon-su-2020-07-03",
+     "title": "[조용호의 문학공간] 김연수 「시를 버리고 시를 살아낸 시인의 슬픔」",
+     "publisherOrInstitution": "UPI뉴스 (2020년 7월 3일)",
+     "citation": "『일곱 해의 마지막』 출간 인터뷰. 대학 시절 해금된 백석의 시를 처음 접했고 1990년대 후반부터 소설로 구상했다는 대목, 쓰고 나서 소설가도 변하지 않아도 된다는 이야기를 '저분'에게 들은 것 같다는 발언. 인터넷 아카이브 2020년 9월 5일 사본.",
+     "url": "https://web.archive.org/web/20200905130710/http://www.upinews.kr/newsView/upi202007020036"
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--baek-seok--kim-yeon-su].summary",
+     "url": "https://web.archive.org/web/20200905130710/http://www.upinews.kr/newsView/upi202007020036",
+     "quote": "김연수는 대학시절 해금된 백석의 시를 처음 접한 뒤 1990년대 후반부터 소설로 써보려는 구상을 한 이래, 2016년부터 연작 형태로 단편을 발표하다가",
+     "why": "직접 영향을 받치는 명시적 독서 기록(relations-guide 의 documented_influence 정의가 인정하는 종류). 이전 요약은 '백석을 모델로 한 소설'만 말해 영향 딱지가 과장이었다."
+    },
+    {
+     "field": "relations[influence--baek-seok--kim-yeon-su].summary",
+     "url": "https://web.archive.org/web/20200905130710/http://www.upinews.kr/newsView/upi202007020036",
+     "quote": "시대가 바뀌었기 때문에 소설가도 변해야 한다든지 그런 고민을 했지만, 아, 그러지 않아도 되겠구나, 그런 이야기를 저분께 들은 거 같습니다.",
+     "why": "생존 작가 본인의 발언으로 돌려 적었다. 인용문의 '저분'은 이 기사에서 백석을 가리킨다. 확인 가능한 문헌이 인터뷰 하나라서 weight 는 0.8 에서 0.6 으로 낮췄다. 작가의 말 문장과 1957–58년 연도는 새 출처로 대 보지 않아서 뺐다. 총칭 출처 src--lti-korea 도 뺐다."
+    }
+   ]
+  },
+  {
+   "id": "yi-hyo-seok",
+   "finding": "facts-02 (b)",
+   "dropRelations": [
+    "dialogue--jeong-ji-yong--yi-hyo-seok"
+   ],
+   "evidence": [
+    {
+     "field": "relations[dialogue--jeong-ji-yong--yi-hyo-seok]",
+     "url": "https://encykorea.aks.ac.kr/Article/E0005990",
+     "quote": "그러나 발족한 지 얼마 안 되어 발기인인 이종명·김유영과 이효석이 탈퇴하고",
+     "why": "이 관계의 근거는 같은 창립 명단뿐이고, 요약도 '그 이상의 교류 기록은 찾지 못했다'고 적는다. dialogue(실질 교류·우정·공개 논쟁)를 받칠 사실이 없고, 도구가 관계 종류를 바꿀 수 없다. 뺀 뒤에도 이효석 2개, 정지용 5개 관계가 남아서 강등은 없다."
+    }
+   ]
+  },
+  {
+   "id": "kim-ae-ran",
+   "finding": "facts-02 (c)",
+   "relations": [
+    {
+     "id": "influence--park-wan-suh--kim-ae-ran",
+     "summary": "김애란은 박완서를 먼발치에서만 봤을 뿐 특별한 인연은 없었다면서도 그의 타계에 '큰 산이 거기 있었고 나도 거기에 기대고 있었구나'라고 말했다(한국일보 2011. 2. 6.). 박완서가 타계 직전 심사로 꼽은 김애란의 「물속 골리앗」은 2011년 문학동네 젊은작가상 대상을 받았다.",
+     "sourceIds": [
+      "src--hankookilbo-kim-ae-ran-2011-02-06",
+      "src--sisain-kim-ae-ran-2011-03-30"
+     ],
+     "weight": 0.5
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--park-wan-suh--kim-ae-ran].summary",
+     "url": "https://www.hankookilbo.com/news/article/201102061231698280",
+     "quote": "박완서 선생을 먼 발치에서만 봤을 뿐 특별한 인연은 없었지만, 그의 타계 소식에 \"미처 몰랐는데, 산이 사라지고 나니 큰 산이 거기 있었고 나도 거기에 기대고 있었구나 하는 생각이 새삼 떠올랐다\"고 했다.",
+     "why": "감사 보고서가 권한 'dialogue 로 바꾸기'는 이 출처와 어긋난다. 본인이 '특별한 인연은 없었다'고 말했다. 남는 사실은 작가 본인이 선배에게 기대 왔다고 한 발언뿐이다. 그래서 그 발언을 조건 그대로 요약에 적고 weight 를 0.7 에서 0.5 로 낮췄다. 유작집 추천 문장은 영향과 무관해서 빼고, 그 출처(src--readersnews-gin-haru-2012)도 이 관계에서 뺐다. 관계 종류(documented_influence)는 이 도구로 못 바꾼다. 유지보수자가 이 정도로는 '영향'이 아니라고 보면 dropRelations 가 남은 선택이다(김애란은 관계 2개가 남는다)."
+    },
+    {
+     "field": "relations[influence--park-wan-suh--kim-ae-ran].summary",
+     "url": "https://www.sisain.co.kr/news/articleView.html?idxno=9835",
+     "quote": "수상작은 그가 지난해 계간 〈자음과 모음〉 여름호에 발표한 단편 〈물속 골리앗〉이었다. 이 상은 심사위원 중 한 사람이었던 소설가 고 박완서씨가 와병 중 심사했던, 그가 남긴 마지막 ‘유산’이었다.",
+     "why": "심사·대상 문장의 근거."
+    }
+   ],
+   "checker": "'그해'는 괄호 속 날짜에만 기대는 지시어라 '2011년'으로 바꿨다(한국일보 2011. 2. 6.: '문학동네의 제2회 젊은작가상 대상 수상자로 선정된 날은 소설가 박완서씨가 타계한 지난달 22일'). 155자, 원문 190자보다 짧다. 같은 문장의 '그의'가 바로 앞 '박완서'로 읽힐 수 있어 '김애란의'로 바꿨다."
+  },
+  {
+   "id": "hwang-sok-yong",
+   "finding": "facts-05 (a)",
+   "importanceReason": "1970년대 「객지」와 「삼포 가는 길」에서 간척 공사장의 노동쟁의와, 개발로 고향을 잃고 떠도는 노무자들의 귀향길을 사실주의 중·단편으로 그렸다. 『한국일보』에 10년간 연재한 『장길산』에서는 숙종 때 실존 인물 장길산과 광대 무리를 중심에 두고 지배층의 사료를 하층민의 시각으로 다시 읽어 조선 후기사를 재구성했다. 1998년 이후로는 민담·판소리·무속의 형식을 소설의 틀로 빌려 오는 방법을 스스로 '민담적 리얼리즘'이라 부르며 『손님』 『바리데기』를 썼고, 철도원 집안의 백여 년을 다룬 『철도원 삼대』의 영역본은 2024년 인터내셔널 부커상 최종후보에 올랐다.",
+   "evidence": [
+    {
+     "field": "importanceReason",
+     "url": "https://v.daum.net/v/20240419070209311",
+     "quote": "1989년 방북 사건으로 수감되고 석방돼서 다시 소설을 쓰기 시작한 1998년 이후 황석영의 후반기 문학이 시작되는데, 그는 자신의 후반기 문학을 ‘민담적 리얼리즘’이라고 규정해 왔다.",
+     "why": "'1998년 석방 뒤로는'이 페이지 어디에도 설명이 없는 수감 이력처럼 읽혔다. 맥락을 넣으면 글자 수 예산을 넘는다. 출처가 받치는 '1998년 이후'만 남겼다(국민일보 2024. 4. 19., 다음 전재)."
+    }
+   ]
+  },
+  {
+   "id": "eun-hee-kyung",
+   "finding": "facts-05 (c)",
+   "relations": [
+    {
+     "id": "dialogue--park-wan-suh--eun-hee-kyung",
+     "summary": "은희경은 2011년 1월 박완서가 세상을 떠나자 트위터에 여섯 차례 추모글을 올렸다(한국일보 2011. 1. 23.). 2012년 1월 세계사 『박완서 소설전집』 결정판 출판기념회에서는 출판사에서 박완서를 처음 만난 일을 회고하며 삶에 대해 늘 긴장하고 의심하고 질문하는 박완서의 태도에 감명받았다고 말했다(서울신문 2012. 1. 28.)."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[dialogue--park-wan-suh--eun-hee-kyung].summary",
+     "url": "https://www.hankookilbo.com/news/article/201101230849611006",
+     "quote": "소설가 은희경씨는 여섯 차례에 걸쳐 트위터에 글을 올리며 고인을 애도했다.",
+     "why": "공개 추모 사실만 남기고, 트윗 속 사적인 후회(병중 방문을 하지 않은 일)는 뺐다. 출판기념회 회고 문장은 그대로 두었다."
+    }
+   ]
+  },
+  {
+   "id": "mark-twain",
+   "finding": "gap-gap-reviewed-and-weekly-plates-unverified-01",
+   "works": [
+    {
+     "id": "mark-twain--the-adventures-of-tom-sawyer",
+     "significance": "미시시피 강가 마을의 소년기를 에피소드 연쇄로 엮은 소설. 울타리 페인트칠 같은 장면이 미국 유년의 공용 이미지가 되었고, 다음 작품의 무대와 인물을 미리 깔아 놓는다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "works[mark-twain--the-adventures-of-tom-sawyer].significance",
+     "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+     "quote": "about a boy, Tom Sawyer, growing up along the Mississippi River. It is set in the 1830s–1840s in the fictional town of St. Petersburg, which is based on Hannibal, Missouri",
+     "why": "'미주리 강가'는 미주리강으로 읽힌다. 무대는 미시시피강 가의 마을이다. 길이를 맞추려 '장면들이'를 '장면이'로 줄였다. 같은 카드의 WHY 줄('미시시피 강가 소년')과도 이제 맞는다."
+    }
+   ]
+  },
+  {
+   "id": "charles-baudelaire",
+   "finding": "gap-gap-reviewed-and-weekly-plates-unverified-02",
+   "relations": [
+    {
+     "id": "influence--charles-baudelaire--ts-eliot",
+     "summary": "엘리엇은 1930년 이셔우드가 옮긴 『내면 일기』에 붙인 서문 「보들레르」에서, 그가 대도시의 누추한 삶의 이미지를 최고의 강도로 끌어올렸고 죄의 실재를 알아보았다고 썼다. 『황무지』 1부 끝의 '위선적인 독자여'는 『악의 꽃』 서시를 그대로 끌어온 것이다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--charles-baudelaire--ts-eliot].summary",
+     "url": "https://archive.org/details/in.ernet.dli.2015.220297",
+     "quote": "It is not merely in the use of imagery of common life, not merely in the use of imagery of the sordid life of a great metropolis, but in the elevation of such imagery to the first intensity ... that Baudelaire has created a mode of release and expression for other men.",
+     "why": "엘리엇은 '최초의 시인'이라고 하지 않았다. 문장은 오히려 'not merely'로 도시 이미지 사용 자체가 핵심이 아니라고 말한다. 그래서 그가 실제로 쓴 '최고의 강도로 끌어올렸다'로 바꿨다. Selected Essays 의 「Baudelaire」 본문(archive.org 의 DLI 스캔 OCR)을 읽었다. 이 스캔은 저작권 상태가 불분명해서 출처 레코드의 URL 로 넣지 않았다."
+    },
+    {
+     "field": "relations[influence--charles-baudelaire--ts-eliot].summary",
+     "url": "https://archive.org/details/in.ernet.dli.2015.220297",
+     "quote": "the recognition of the reality of Sin is a New Life",
+     "why": "'선악의 실재를 되살린'을 본문이 말하는 '죄의 실재를 알아보았다'로 좁혔다."
+    },
+    {
+     "field": "relations[influence--charles-baudelaire--ts-eliot].summary",
+     "url": "https://archive.org/details/in.ernet.dli.2015.220297",
+     "quote": "Especially as a prelude to the Journaux Intimes ... Journaux Intimes, translated by Christopher Isherwood, and published by the Blackamore Press.",
+     "why": "'이셔우드가 옮긴 『내면 일기』에 붙인 서문' 부분은 본문으로 확인된다. 그래서 그대로 두었다."
+    }
+   ]
+  },
+  {
+   "id": "don-delillo",
+   "finding": "gap-gap-reviewed-and-weekly-plates-unverified-05",
+   "relations": [
+    {
+     "id": "influence--james-joyce--don-delillo",
+     "summary": "드릴로는 1993년 『파리 리뷰』 인터뷰에서 조이스를 통해 언어에 깃든 광채를 보게 됐다고 말했다. 다만 그때 읽은 것은 『율리시스』가 아니라 『젊은 예술가의 초상』이었을지 모른다고 스스로 덧붙였다.",
+     "sourceIds": [
+      "src--paris-review-delillo-1993"
+     ]
+    },
+    {
+     "id": "influence--samuel-beckett--don-delillo",
+     "summary": "마크 패런트(2023)는 『바디 아티스트』부터 『침묵』까지 드릴로의 후기 소설이 베케트가 말한 ‘비언어의 문학’에 다가간다고 읽고, 드릴로가 베케트를 직접적 영향으로 자주 꼽았다고 적는다.",
+     "sourceIds": [
+      "src--farrant-2023-delillo-beckett"
+     ]
+    }
+   ],
+   "newSources": [
+    {
+     "id": "src--paris-review-delillo-1993",
+     "title": "Don DeLillo, The Art of Fiction No. 135 (인터뷰어 Adam Begley)",
+     "publisherOrInstitution": "The Paris Review 128 (Fall 1993)",
+     "citation": "조이스를 통해 언어의 '광채'를 보게 됐다는 대목과, 그때 읽은 것이 『율리시스』가 아니라 『젊은 예술가의 초상』이었을지 모른다는 단서. 인터넷 아카이브 2013년 1월 27일 사본.",
+     "url": "https://web.archive.org/web/20130127225932/http://www.theparisreview.org/interviews/1887/the-art-of-fiction-no-135-don-delillo"
+    },
+    {
+     "id": "src--farrant-2023-delillo-beckett",
+     "title": "Marc Farrant, 「The Writing of Ruins: Beckett, Late Modernism, and the Inhuman in Don DeLillo’s Postmillennial Fiction」",
+     "publisherOrInstitution": "C21 Literature: Journal of 21st-Century Writings 10(2), 2023",
+     "citation": "『바디 아티스트』(2001)·『코스모폴리스』·『추락하는 남자』·『침묵』(2020)을 베케트의 영향 아래 읽는 논문. doi:10.16995/c21.10415",
+     "url": "https://doi.org/10.16995/c21.10415"
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--james-joyce--don-delillo].summary",
+     "url": "https://web.archive.org/web/20130127225932/http://www.theparisreview.org/interviews/1887/the-art-of-fiction-no-135-don-delillo",
+     "quote": "it was through Joyce that I learned to see something in language that carried a radiance ... And I’d look at a sentence in Ulysses or in Moby-Dick or in Hemingway—maybe I hadn’t gotten to Ulysses at that point, it was Portrait of the Artist",
+     "why": "생존 작가다. 그가 붙인 단서를 그대로 적고 본인 발언으로 돌려 적었다. '상표와 방송 음성 … 이 독서에서 출발한다'는 인터뷰에 없는 인과 추론이라 뺐다. 총칭 출처 src--paris-review(홈페이지 URL)를 이 인터뷰 레코드로 바꿨다. 관계의 anchors 는 아직 james-joyce--ulysses 를 가리키고, 이 도구로는 못 고친다(notDone 참조)."
+    },
+    {
+     "field": "relations[influence--samuel-beckett--don-delillo].summary",
+     "url": "https://api.crossref.org/works?query.bibliographic=The+Writing+of+Ruins+Beckett+Late+Modernism+Inhuman+DeLillo&rows=3",
+     "quote": "Although Beckett is often self-remarked as a direct influence by DeLillo, the late works – I analyse The Body Artist (2001), Cosmopolis (2003), Falling Man(2007), and the most recent, The Silence (2020) – go further than DeLillo’s earlier writings in pursuing something approximate to what Beckett terms a ‘literature of the unword’.",
+     "why": "초록은 DOI 10.16995/c21.10415 의 Crossref 레코드에서 읽었다. 학술지 사이트(c21.openlibhums.org)는 봇 차단 화면이 떠서 들어가지 않았다. '드릴로 자신도 … 여러 차례 들었다'는 주장은 파리 리뷰 인터뷰에 없다(베케트는 'Kafka’s private vision and maybe Beckett’s' 한 번만 나온다). 그래서 논문 저자의 서술로 돌려 적었다. 총칭 출처 두 개(src--cambridge-companions, src--paris-review)를 이 논문 하나로 바꿨다. scholarly_consensus 는 유지했다."
+    },
+    {
+     "field": "relations[influence--samuel-beckett--don-delillo].summary",
+     "url": "https://web.archive.org/web/20130127225932/http://www.theparisreview.org/interviews/1887/the-art-of-fiction-no-135-don-delillo",
+     "quote": "There was a time when the inner world of the novelist—Kafka’s private vision and maybe Beckett’s—eventually folded into the three-dimensional world we were all living in.",
+     "why": "인터뷰에서 베케트가 나오는 유일한 대목이다. '자기 세대의 언어를 바꿔 놓은 작가'라는 말은 여기에 없다."
+    }
+   ]
+  },
+  {
+   "id": "jorge-luis-borges",
+   "finding": "gap-gap-reviewed-and-weekly-plates-unverified-06",
+   "works": [
+    {
+     "id": "jorge-luis-borges--historia-universal-de-la-infamia",
+     "significance": "실존한 사기꾼과 해적의 전기를 백과사전 항목처럼 고쳐 쓴 소설집. 남의 이야기를 요약하고 비틀어 자기 서사를 만드는 보르헤스의 우회로가 여기서 시작된다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "works[jorge-luis-borges--historia-universal-de-la-infamia].significance",
+     "url": "https://es.wikipedia.org/wiki/Jorge_Luis_Borges",
+     "quote": "=== Ensayos === *Inquisiciones (1925) ... *Discusión (1932) ... === Cuentos === * Historia universal de la infamia (1935) * Ficciones (1944)",
+     "why": "산문집(에세이)은 1925년부터 먼저 나왔다. 이 책은 단편(cuentos) 목록의 첫 권이라 '첫 소설집'으로 고쳤다."
+    },
+    {
+     "field": "works[jorge-luis-borges--historia-universal-de-la-infamia].significance",
+     "url": "https://en.wikipedia.org/wiki/A_Universal_History_of_Infamy",
+     "quote": "is a collection of short stories by Argentine writer Jorge Luis Borges, first published in 1935",
+     "why": "단편집이라는 성격을 확인한다."
+    },
+    {
+     "field": "works[jorge-luis-borges--historia-universal-de-la-infamia].significance",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jorge-Luis-Borges",
+     "quote": "At first he preferred to retell the lives of more or less infamous men, as in the sketches of his Historia universal de la infamia (1935; A Universal History of Infamy).",
+     "why": "검수자: 출발점이라는 둘째 문장을 받친다. '첫 소설집'이라는 최초형은 명시되지 않아 좁혔다."
+    }
+   ],
+   "checker": "'첫'을 뺐다. 이 책이 첫 허구 작품집이라는 명시적 진술을 찾지 못했다(es.wikipedia 는 목록 순서만, Britannica 는 'At first he preferred to retell the lives of more or less infamous men, as in the sketches of his Historia universal de la infamia'라고 스케치라 부른다). 둘째 문장 '여기서 시작된다'가 이미 출발점을 말한다. en.wikipedia: 'a collection of short stories'."
+  },
+  {
+   "id": "yu-hua",
+   "finding": "prose-01",
+   "relations": [
+    {
+     "id": "influence--franz-kafka--yu-hua",
+     "summary": "위화는 『파리 리뷰』 인터뷰에서 친구에게 『전쟁과 평화』를 주고 카프카 단편선을 바꿔 와 「시골 의사」부터 읽었다고 회고하며, 부르면 나타나고 보내면 사라지는 말들을 보고 카프카가 그런 자유를 가르쳐 주었다고 말했다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--franz-kafka--yu-hua].summary",
+     "url": "https://u.osu.edu/mclc/2023/12/05/interview-with-yu-hua/",
+     "quote": "I read “A Country Doctor” first. The horses in the story appear out of nowhere, come when the doctor says come and leave when he says go. Oh, to summon something and have it appear, to send it away and have it vanish—Kafka taught me that kind of freedom.",
+     "why": "'같은 …'을 앞 관계 없이 읽혀도 서는 문장으로 바꿨다. 주장은 그대로이고, 다시 읽은 출처가 그 내용을 받친다."
+    }
+   ]
+  },
+  {
+   "id": "franz-kafka",
+   "finding": "prose-01",
+   "relations": [
+    {
+     "id": "influence--gustave-flaubert--franz-kafka",
+     "summary": "카프카는 1913년 편지에서 플로베르를 '진짜 혈족' 넷 중 하나로 꼽았다. 그는 플로베르를 프랑스어로 읽었고 『감정 교육』을 특히 아꼈으며, 감정을 논평하지 않고 사태만 기록하는 문장을 자기 산문의 기준으로 삼았다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--gustave-flaubert--franz-kafka].summary",
+     "url": "https://homepage.univie.ac.at/werner.haas/1913/fe13-211.htm",
+     "quote": "von den vier Menschen, die ich (ohne an Kraft und Umfassung mich ihnen nahe zu stellen) als meine eigentlichen Blutsverwandten fühle, von Grillparzer, Dostojewski, Kleist und Flaubert",
+     "why": "'같은 1913년 편지'를 선행사 없이 스스로 서도록 고쳤다. 편지 원문으로 확인된다(1913. 9. 2. 펠리체 바우어에게). 길이를 맞추려 '정확히'를 뺐다. 주장이 좁아지는 쪽이다."
+    }
+   ]
+  },
+  {
+   "id": "toni-morrison",
+   "finding": "prose-01",
+   "relations": [
+    {
+     "id": "influence--william-faulkner--toni-morrison",
+     "summary": "모리슨은 1955년 석사논문에서 울프와 포크너를 다뤘고, 1985년에는 미시시피 대학의 포크너 학술대회에 초청되어 자기 독서를 직접 말했다. 한 공동체의 과거가 여러 화자의 조각으로만 돌아오는 구성에서 두 사람은 같은 문제를 다룬다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--william-faulkner--toni-morrison].summary",
+     "url": "https://catalog.library.cornell.edu/catalog/1152836",
+     "quote": "Morrison, Toni — Virginia Woolf's and William Faulkner's treatment of the alienated — 1955 — Thesis",
+     "why": "'같은 1955년 석사논문의 다른 한 축'을 논문 자체를 밝히는 문장으로 바꿨다. 코넬대 도서관 목록이 표제와 연도를 받친다."
+    }
+   ]
+  },
+  {
+   "id": "hwang-jung-eun",
+   "finding": "prose-01",
+   "relations": [
+    {
+     "id": "influence--kim-seung-ok--hwang-jung-eun",
+     "summary": "황정은은 2016년 『Asymptote』 인터뷰에서 조세희와 함께 오정희와 김승옥의 단편들을 좋아했다고 꼽았다. 이름과 장르를 든 것 이상의 구체적인 영향 진술은 없어 그 정도로만 기록한다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--kim-seung-ok--hwang-jung-eun].summary",
+     "url": "https://www.asymptotejournal.com/blog/2016/10/24/one-hundred-shadows-an-interview-with-hwang-jungeun/",
+     "quote": "조세희 선생의 ‘난장이가 쏘아올린 작은 공’에 등장하는 간단하고 명료한 문장들을 무척 좋아했고, 오정희 선생과 김승옥 선생의 단편들을 좋아했다.",
+     "why": "'같은 …'을 앞 관계 없이 읽혀도 서는 문장으로 바꿨다. 주장은 그대로이고, 다시 읽은 출처가 그 내용을 받친다."
+    }
+   ]
+  },
+  {
+   "id": "imre-kertesz",
+   "finding": "prose-01",
+   "relations": [
+    {
+     "id": "translation--elias-canetti--imre-kertesz",
+     "summary": "케르테스는 카네티를 헝가리어로 옮겼다. 노벨 재단의 전기·저작 기록이 호프만스탈·슈니츨러·프로이트·비트겐슈타인과 함께 카네티를 그의 번역 목록에 올려 두었다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[translation--elias-canetti--imre-kertesz].summary",
+     "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/biographical/",
+     "quote": "translator of German-language authors such as Nietzsche, Hofmannsthal, Schnitzler, Freud, Roth, Wittgenstein, and Canetti",
+     "why": "'같은 …'을 앞 관계 없이 읽혀도 서는 문장으로 바꿨다. 주장은 그대로이고, 다시 읽은 출처가 그 내용을 받친다."
+    }
+   ]
+  },
+  {
+   "id": "lu-xun",
+   "finding": "prose-01",
+   "relations": [
+    {
+     "id": "translation--ryunosuke-akutagawa--lu-xun",
+     "summary": "루쉰은 『현대일본소설집』(1923)에서 아쿠타가와의 「코」와 「라쇼몬」을 중국어로 옮겼다. 고전 설화의 뼈대에 근대적 동기를 다시 심는 아쿠타가와의 방법이 백화소설 초기의 중국 독자에게 전달된 경로다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[translation--ryunosuke-akutagawa--lu-xun].summary",
+     "url": "https://www.gmw.cn/01ds/2005-06/22/content_256725.htm",
+     "quote": "芥川作品在1923年经鲁迅翻译介绍到中国，原载由周作人编选的《现代日本小说集》……芥川的《罗生门》和《鼻子》是鲁迅最早翻译的。",
+     "why": "'같은 …'을 앞 관계 없이 읽혀도 서는 문장으로 바꿨다. 주장은 그대로이고, 다시 읽은 출처가 그 내용을 받친다."
+    }
+   ]
+  },
+  {
+   "id": "bernard-werber",
+   "finding": "prose-01, prose-17",
+   "relations": [
+    {
+     "id": "influence--arthur-conan-doyle--bernard-werber",
+     "summary": "베르베르는 자전 연보에서 『아버지들의 아버지』(Le Père de nos pères, 1998)로 ‘나의 셜록 홈스와 왓슨 박사’를 만들었다고 쓰고, 과학 기자 이지도르 카첸버그를 홈스에, 젊은 기자 뤼크레스 넴로드를 왓슨에 대응시켰다. 두 사람은 뒤에 『뇌』에서 다시 사건을 쫓는다."
+    },
+    {
+     "id": "influence--antoine-de-saint-exupery--bernard-werber",
+     "summary": "베르베르는 자전 연보에서 『여행의 책』(Le Livre du voyage, 1997)이 생텍쥐페리 『어린 왕자』식 구조를 빌리되, 허구의 인물 대신 독자를 이야기 한가운데 두고 책이 독자에게 직접 말을 거는 실험이었다고 적었다."
+    },
+    {
+     "id": "influence--gustave-flaubert--bernard-werber",
+     "summary": "베르베르는 자전 연보의 1982년 항목에서, 매일 아침 『개미』 원고를 고쳐 쓰던 무렵 필립 K. 딕 말고 자신을 감탄시킨 단 한 명의 작가로 플로베르의 『살람보』를 꼽고, 공들여 다듬었으면서도 정말 영화적이라는 점을 이유로 들었다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[influence--arthur-conan-doyle--bernard-werber].summary",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Avec Le Père de nos Pères je mets au point mon Sherlock Holmes et mon docteur Watson que j'ai bien l'intention de ré-utiliser plus tard.",
+     "why": "'같은 …'을 앞 관계 없이 읽혀도 서는 문장으로 바꿨다. 주장은 그대로이고, 다시 읽은 출처가 그 내용을 받친다."
+    },
+    {
+     "field": "relations[influence--antoine-de-saint-exupery--bernard-werber].summary",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Le livre du voyage est là encore une expérience étant donné qu'il utilise une structure à la \"Petit Prince\" de Saint-Exupéry mais au lieu de mettre en scène un personnage fictif, je place directement le lecteur au centre du récit.",
+     "why": "'같은 …'을 앞 관계 없이 읽혀도 서는 문장으로 바꿨다. 주장은 그대로이고, 다시 읽은 출처가 그 내용을 받친다."
+    },
+    {
+     "field": "relations[influence--gustave-flaubert--bernard-werber].summary",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "Le seul autre auteur qui m'impressionne à l'époque c'est Flaubert avec Salâmmbo. Parce que là justement c'est très travaillé et c'est vraiment cinématographique",
+     "why": "'같은 …'을 앞 관계 없이 읽혀도 서는 문장으로 바꿨다. 주장은 그대로이고, 다시 읽은 출처가 그 내용을 받친다."
+    },
+    {
+     "field": "difficultyReason",
+     "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+     "quote": "à une version \"light\" de 350 pages, avec un minimum de descriptions, de dialogues, une seule bataille (la bataille des coquelicots) et j'évacue tout ce qui ralentit le suspense et l'action.",
+     "why": "엉킨 절('서스펜스를 늦추는 것을 덜어 낸')을 출처 그대로 풀었다. 묘사·대화를 최소로 줄이고 긴장과 전개를 늦추는 것을 걷어 냈다는 뜻이다."
+    }
+   ],
+   "difficultyReason": "묘사와 대화를 줄이고 긴장을 늦추는 대목을 걷어 낸 소설이라 문장 단위로는 빨리 읽힌다. 부담은 분량과 구성에 있다. 『개미』는 한국어판 다섯 권, 『신』은 세 권이고, 개미와 인간 쪽 이야기를 빠르게 번갈아 편집한 사이사이에 백과사전 항목이 끼어들어 여러 줄기를 동시에 따라가야 한다."
+  },
+  {
+   "id": "chairil-anwar",
+   "finding": "prose-01",
+   "relations": [
+    {
+     "id": "translation--ernest-hemingway--chairil-anwar",
+     "summary": "차이릴 안와르는 헤밍웨이의 단편 「깨끗하고 불빛 환한 곳」을 「Tempat yang Bersih dan Lampunya Terang」으로 옮겼다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "relations[translation--ernest-hemingway--chairil-anwar].summary",
+     "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+     "quote": "Ia juga menerjemahkan 10 puisi dan 4 prosa. … \"Tempat yang Bersih dan Lampunya Terang\" | Juli 1949/Agustus 1949 | Internasional | Diterjemahkan dari cerita pendek \"A Clean, Well-Lighted Place\" karya Ernest Hemingway",
+     "why": "'같은 번역 목록에 함께 실린'은 다른 관계를 전제한다. 출처가 받치는 '산문 번역 네 편 중 하나'로 바꿨다. 출처 레코드(Jassin)는 그대로 두었다. id.wikipedia 목록의 서지에도 Jassin 1968이 있다."
+    }
+   ],
+   "checker": "둘째 문장('그가 옮긴 산문 네 편 가운데 하나다')을 뺐다. id.wikipedia 로는 확인되지만(\"Ia juga menerjemahkan 10 puisi dan 4 prosa\") 관계의 출처 레코드는 Jassin 하나뿐이라, 붉은 도장 도판에 레코드가 받치지 않는 새 수치를 들이지 않는다. 남은 문장은 원장이 confirmed 로 기록한 주장 그대로다."
+  },
+  {
+   "id": "aristotle",
+   "finding": "prose-11",
+   "readingEntryReason": "이 지도에서 아리스토텔레스의 자리를 결정하는 문서이고, 소포클레스의 『오이디푸스 왕』이 예시로 쓰여 논의를 곧바로 확인할 수 있다.",
+   "evidence": [
+    {
+     "field": "readingEntryReason",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0056%3Asection%3D1452a",
+     "quote": "like the man in the Oedipus who came to cheer Oedipus and rid him of his anxiety about his mother by revealing his parentage and changed the whole situation.",
+     "why": "앞선 순서를 전제한 '앞서 읽은'을 '소포클레스의'로 바꿨다. 길이를 맞추려 '그대로'를 뺐다. 『시학』이 『오이디푸스 왕』을 예로 드는 것은 원문으로 확인된다."
+    }
+   ]
+  },
+  {
+   "id": "william-butler-yeats",
+   "finding": "prose-17",
+   "works": [
+    {
+     "id": "william-butler-yeats--the-wind-among-the-reeds",
+     "significance": "예이츠 초기 시의 정점이다. 아일랜드 전설의 인물과 프랑스 상징주의의 어법을 결합해 문예부흥 시의 어휘를 만들었고, 뒷날 그가 의식적으로 버리게 될 문체이기도 하다."
+    }
+   ],
+   "evidence": [
+    {
+     "field": "works[william-butler-yeats--the-wind-among-the-reeds].significance",
+     "url": "https://web.archive.org/web/20251225013645/https://www.poetryfoundation.org/poets/william-butler-yeats",
+     "quote": "The club’s influence is reflected in the lush density of Yeats’s poetry of the times, culminating in The Wind among the Reeds (1899). Although Yeats was soon to abandon that lush density",
+     "why": "'켈트 박명기'는 영어를 그대로 옮긴 말이고 명사 조각이었다. 출처가 말하는 '그 시기 시의 정점'을 온전한 문장으로 적었다. 뒤 문장('뒷날 버리게 될 문체')도 같은 대목이 받친다. poetryfoundation.org 는 직접 요청에 403을 돌려서 웨이백 사본을 읽었다."
+    }
+   ]
+  }
+ ],
+ "ledgerCorrections": [
+  {
+   "authorId": "mark-twain",
+   "ledger": "qc/closeread/plate-wave1.json",
+   "field": "works[the-adventures-of-tom-sawyer].significance",
+   "claim": "미주리 강가 마을의 소년기를 다룬다",
+   "wasVerdict": "confirmed",
+   "shouldBe": "contradicted",
+   "correction": "미시시피 강가 마을의 소년기를 에피소드 연쇄로 엮은 소설.",
+   "resolution": "corrected",
+   "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+   "quote": "about a boy, Tom Sawyer, growing up along the Mississippi River. It is set in the 1830s–1840s in the fictional town of St. Petersburg, which is based on Hannibal, Missouri",
+   "note": "원장이 든 인용문이 이미 미시시피강을 말한다. '미주리 강가'는 미주리강으로 읽힌다. 판정은 contradicted 이고, 이 파일의 mark-twain 작품 고침으로 corrected 된다. closeread-ledger.ts --reverdicts 형식은 {claims:[{id:'mark-twain', field, claim, verdict:'contradicted', url, quote, correction, note}]} 이고, 그 뒤 --fixes 의 resolutions 로 corrected 를 기록한다."
+  }
+ ],
+ "notDone": [
+  {
+   "finding": "facts-03",
+   "why": "kim-jeong-hui 는 sketch 라서 apply-plate-fixes 가 '도판이 아니다'로 건너뛴다. 다른 경로로 고쳐야 한다. 원장 대상도 아니다.",
+   "proposed": {
+    "work": "kim-jeong-hui--wandang-jeonjip",
+    "year": 1934,
+    "yearBasis": "first-print",
+    "titleKo": "완당전집 (그대로)"
+   },
+   "evidence": [
+    {
+     "url": "https://db.mkstudy.com/opendatabase/itkc/chonggan/book/6wYZ/",
+     "quote": "《완당전집(阮堂全集)》 10권 5책으로 1934년에 서울 신조선사(新朝鮮社)에서 연활자(鉛活字)로 인행하였다.",
+     "why": "'완당전집'이라는 제목을 단 판은 1934년에 처음 나왔다. 1867년에 인행된 것은 《담연재시고》와 《완당척독》이다. 같은 일러두기는 문집이 1868년 《완당집》으로 처음 간행됐다고도 적는다. 그래서 제목을 그대로 두면 1934, 1868을 쓰려면 제목을 '완당집'으로 바꿔야 한다. 어느 쪽이든 1867은 틀렸다."
+    }
+   ]
+  },
+  {
+   "finding": "facts-04",
+   "why": "monica-ojeda 는 sketch 라서 apply-plate-fixes 가 건너뛴다.",
+   "proposed": {
+    "work": "monica-ojeda--chamanes-electricos",
+    "year": 2024
+   },
+   "evidence": [
+    {
+     "url": "https://es.wikipedia.org/wiki/M%C3%B3nica_Ojeda",
+     "quote": "Chamanes eléctricos en la fiesta del sol (2024)",
+     "why": "2022가 아니라 2024년이다. 감사 검증자도 Random House 2024(penguinrandomhouse.com/books/768414, 2024-02-08)를 확인했다."
+    }
+   ]
+  },
+  {
+   "finding": "facts-06",
+   "why": "muriel-spark·walther-von-der-vogelweide 는 sketch 라서 이 도구로 못 고친다. 검증자에 따르면 금지어(최초·처음·유일·열었다·들여왔다)를 쓴 스케치가 161개라서, 두 건만이 아니라 코퍼스 전체를 훑는 일이 맞다. 아래는 두 건의 제안이다.",
+   "proposed": {
+    "muriel-spark.importanceReason": "인물이 언제 어떻게 죽는지 미리 알려 주고도 긴장을 유지하는 짧고 냉정한 소설로, 앞날을 당겨 보여 주는 서술을 즐겨 썼다.",
+    "walther-von-der-vogelweide.importanceReason": "닿을 수 없는 귀부인만 노래하던 미네장의 관습을 깨고 보리수 아래에서 실제로 만난 여인을 노래했으며, 제국 정치를 직접 논평하는 정치 격언시로도 이름났다."
+   },
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Muriel_Spark",
+     "quote": "Spark displayed originality of subject and tone, making extensive use of flashforwards and imagined conversations.",
+     "why": "출처는 도입자라고 하지 않는다. 쓴 방식만 말한다."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Walther_von_der_Vogelweide",
+     "quote": "a Minnesänger who composed and performed love-songs and political songs (Sprüche) in Middle High German",
+     "why": "정치 격언시를 지었다는 서술은 있지만 '처음'이라는 서술은 없다. 제안문은 각각 원문보다 짧고 한 문장이다. '보리수 아래' 절은 이번에 출처로 대 보지 않았다."
+    }
+   ]
+  },
+  {
+   "finding": "facts-05 (b)",
+   "why": "kept. 코엘료의 『베로니카, 죽기로 결심하다』가 작가의 정신병원 경험에 부분적으로 바탕을 뒀다는 것은 공개된 사실이고 작품 의의의 중심이다. 검증자도 위반이 아니라고 판정했다. 고치지 않았다.",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Veronika_Decides_to_Die",
+     "quote": "This book is partly based on Coelho's experience in various mental institutions",
+     "why": "생성기 근거에 들어 있는 인용이다. 이번에 다시 가져오지는 않았다. Britannica(웨이백) 'which mines the perceived mental instability of his youth'도 생성기 근거에 있다."
+    }
+   ]
+  },
+  {
+   "finding": "gap-gap-reviewed-and-weekly-plates-unverified-05 (anchor)",
+   "why": "influence--james-joyce--don-delillo 의 anchors 는 아직 {workId: james-joyce--ulysses}다. 이제 요약은 '『율리시스』가 아니라 『젊은 예술가의 초상』이었을지 모른다'고 말한다. apply-plate-fixes 는 anchors 를 고치지 못한다. 유지보수자가 anchors 를 빼거나 james-joyce--a-portrait-of-the-artist-as-a-young-man 으로 바꿔야 한다."
+  },
+  {
+   "finding": "prose-15",
+   "why": "world.opening.ko 는 apply-plate-fixes 가 다루는 필드가 아니다. 제안만 적는다. 원문은 데이터의 world.opening.original 에서 가져왔고 외부 출처는 새로 가져오지 않았다.",
+   "proposed": {
+    "natsume-soseki--sorekara.world.opening.ko": "누군가 황망히 문 앞을 달려가는 발소리가 났을 때, 다이스케의 머릿속에는 큰 도마 같은 나막신이 하늘에서 매달려 있었다.",
+    "franz-kafka--in-der-strafkolonie.world.opening.ko": "“특이한 장치입니다.” 장교가 탐험가에게 말하며, 자기에게는 이미 익숙할 그 장치를 어딘지 감탄하는 듯한 눈길로 훑어보았다."
+   },
+   "evidence": [
+    {
+     "url": "data/works (world.opening.original)",
+     "quote": "代助の頭の中には、大きな俎下駄が空から、ぶら下つてゐた。",
+     "why": "'게다가'는 부사 '게다가'로 먼저 읽힌다. 俎下駄는 도마처럼 넓적한 나막신이다. 제안문은 원문보다 한 글자 짧다. 카프카 쪽은 「」를 대화 인용부호 “ ”로만 바꿨다(editorial-guide §5 는 「」를 단편·시 제목에만 쓴다)."
+    }
+   ]
+  },
+  {
+   "finding": "prose-17 (oodgeroo-noonuccal names.ko)",
+   "why": "sketch 이고, names 는 이 도구가 다루지 않는다. 'Noonuccal'의 발음을 받치는 출처를 가져오지 못해서 대체 표기를 제안하지 않는다. 지어내지 않는다."
+  },
+  {
+   "finding": "prose-17 (imre-kertesz--felszamolas edition note)",
+   "why": "data/editions.json 의 note 는 이 도구가 다루지 않는다. 제안: 'Felszámolás이 아닌'을 'Felszámolás가 아닌'으로 바꾼다. 헝가리어로 끝소리 s 는 [ʃ]이고 한글로는 '시'로 적어 모음으로 끝나므로 '가'가 맞다. 원장(imre-kertesz)에서 확인된 주장은 아니다."
+  }
+ ],
+ "applyNotes": "실행: npx tsx scripts/apply-plate-fixes.ts proposed.json --key wave-kr [--write]. 새 출처 3개는 sources/plate-wave-kr.json 에 들어간다. 저장소를 스크래치에 복사해 dry-run 과 --write 를 돌렸다. 결과는 필드 3 · 작품 의의 4 · 관계 교체 16 · 새 출처 3 · 관계 삭제 1 · 강등 0 · 웨이브 출처 정리 3(src--readersnews-gin-haru-2012, src--encykorea-guinhoe, src--lee-hyeonju-2008-yi-hyo-seok-guinhoe) · 최초형 0 · 건너뜀 0 이고, 그 뒤 validate-data 가 OK 를 냈다. 모든 교체문은 원문보다 길지 않다(글자 수로 셌다).",
+ "ledgerReverdicts": {
+  "claims": [
+   {
+    "id": "mark-twain",
+    "field": "works[the-adventures-of-tom-sawyer].significance",
+    "claim": "미주리 강가 마을의 소년기를 다룬다",
+    "verdict": "contradicted",
+    "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+    "quote": "about a boy, Tom Sawyer, growing up along the Mississippi River. It is set in the 1830s–1840s in the fictional town of St. Petersburg, which is based on Hannibal, Missouri",
+    "correction": "미시시피 강가 마을의 소년기를 에피소드 연쇄로 엮은 소설.",
+    "note": "contradicted: 원장이 든 인용문 자체가 'Mississippi River'라고 말한다. '미주리 강가'는 미주리강으로 읽힌다(2026-09-24 감사 gap-gap-reviewed-and-weekly-plates-unverified-01)."
+   }
+  ]
+ },
+ "ledgerResolutions": {
+  "fixes": [
+   {
+    "id": "mark-twain",
+    "resolutions": [
+     {
+      "field": "works[the-adventures-of-tom-sawyer].significance",
+      "claim": "미주리 강가 마을의 소년기를 다룬다",
+      "resolution": "corrected"
+     }
+    ]
+   }
+  ]
+ },
+ "ledgerUsage": "npx tsx scripts/closeread-ledger.ts --out qc/closeread/plate-wave1.json --reverdicts <ledgerReverdicts.json> 를 먼저, 이 파일의 fixes 를 적용한 뒤 --fixes <ledgerResolutions.json> 로 corrected 를 기록한다. 두 객체는 이 파일의 ledgerReverdicts / ledgerResolutions 를 각각 따로 저장해 넘긴다.",
+ "checkerCorrections": [
+  "kim-ae-ran",
+  "jorge-luis-borges",
+  "chairil-anwar"
+ ],
+ "checkerNotes": [
+  "모든 인용문을 다시 가져와 확인했다: ko.wikipedia·뉴시스(하루키), UPI 웨이백(김연수), 한국민족문화대백과(구인회), 한국일보 2건·시사IN(김애란·은희경), 다음/국민일보(황석영), en.wikipedia(톰 소여), archive.org DLI 『Selected Essays』 전문(엘리엇), 파리 리뷰 웨이백·Crossref(드릴로), es/en.wikipedia·Britannica 웨이백(보르헤스), OSU MCLC(위화), univie 편지 원문(카프카), 코넬 도서관 목록(모리슨), Asymptote(황정은), nobelprize.org(케르테스), 광명망(루쉰), 베르베르 연보 웨이백, id.wikipedia(차이릴), Perseus(아리스토텔레스), Poetry Foundation 웨이백(예이츠). 스크래치: /tmp/onebook-fix-0924/facts/check/.",
+  "『바디 아티스트』(은행나무 저자 페이지)와 『침묵』(한국일보 2020. 10. 30., 송은주 옮김)은 실제 한국어판 제목이다.",
+  "김연수 인용의 '저분'은 기사 첫머리 인용이라 선행사가 글 안에 없다. 백석 소설에 대한 인터뷰의 맥락상 백석으로 읽는 것이 자연스럽다고 판단해 받아들였다.",
+  "facts-02 관계 딱지: 김애란('나도 거기에 기대고 있었구나')과 김연수('저분께 들은 거 같다')는 둘 다 작가 본인이 기댄 적이 있다고 한 말이다. 요약과 무게는 이제 정직하지만 '· 영향' 딱지는 여전히 가장 약한 쪽의 근거다. 유지보수자 판단으로 남긴다.",
+  "notDone 검토: facts-03(mkstudy 해제에 1867 《담연재시고》·1934 《완당전집》 확인), facts-04(es.wikipedia 'Chamanes eléctricos en la fiesta del sol (2024)' 확인)은 맞다. facts-06 스파크 제안문의 flashforwards 근거는 en.wikipedia 에서 『진 브로디 선생의 전성기』에 대한 문장이라, 작가 전체의 습관으로 일반화하려면 더 넓은 근거가 필요하다. 오헤다 importanceReason 도 '들여왔다'를 쓴다(스윕 대상). Felszámolás 조사 '가'는 맞다. 소세키 제안 번역은 원문과 맞는다.",
+  "드릴로 앵커(james-joyce--ulysses)는 새 요약과 어긋난다. 손으로 빼거나 james-joyce--a-portrait-of-the-artist-as-a-young-man(데이터에 있음)으로 바꿔야 한다."
+ ]
+}

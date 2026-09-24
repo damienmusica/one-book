@@ -565,15 +565,19 @@ export function assembleDataset(
         else if (e.data.editions[workId])
           errors.push(`editions.json: ${workId} 는 판본이 있으면서 동시에 부재로 적혀 있다`);
       }
-      const seen = new Set<string>();
+      const seen = new Map<string, { authorId: string; workId: string }>();
       for (const [workId, list] of Object.entries(e.data.editions)) {
         if (!workById.has(workId)) {
           errors.push(`editions.json: unknown work id '${workId}'`);
           continue;
         }
         for (const ed of list) {
-          if (seen.has(ed.isbn13)) errors.push(`editions.json: ISBN 중복 ${ed.isbn13}`);
-          seen.add(ed.isbn13);
+          // 한 ISBN 은 한 작가의 책이다. 같은 작가의 선집은 그 사람의 여러 작품 쪽에 설 수 있다(첼란 선집 한 권이 『양귀비와
+          // 기억』·『언어창살』·『누구도 아닌 이의 장미』를 함께 담는다) — 다른 작가의 작품끼리 한 ISBN 을 나누는 것은 여전히 오류다.
+          const owner = seen.get(ed.isbn13);
+          const au = workById.get(workId)!.authorId;
+          if (owner && (owner.authorId !== au || owner.workId === workId)) errors.push(`editions.json: ISBN 중복 ${ed.isbn13}`);
+          seen.set(ed.isbn13, { authorId: au, workId });
           const w = workById.get(workId)!;
           if (ed.year < w.year) {
             errors.push(

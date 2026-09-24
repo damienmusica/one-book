@@ -1,1050 +1,841 @@
 {
- "marks": {
-  "franz-kafka": {
-   "file": "marks/franz-kafka.png",
-   "w": 1621,
-   "h": 420,
-   "provenance": {
-    "title": "Franz Kafka's Signature (vectorized)",
-    "collection": "Wikimedia Commons (vector traced by user Jon C from a GIF sourced via projekt-gutenberg.org, c. 1913 signature)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka%27s_signature.svg",
-    "licence": "PD-signature (DE)",
-    "licenceBasis": "A mere signature is below the threshold of originality for copyright in Germany/US regardless of the signer's death date",
-    "commercialUse": "yes"
-   }
+  "marks": {
+    "franz-kafka": {
+      "file": "marks/franz-kafka.png",
+      "w": 1621,
+      "h": 420,
+      "provenance": {
+        "title": "Franz Kafka's Signature (vectorized)",
+        "collection": "Wikimedia Commons (vector traced by user Jon C from a GIF sourced via projekt-gutenberg.org, c. 1913 signature)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka%27s_signature.svg",
+        "licence": "PD-signature (DE)",
+        "licenceBasis": "A mere signature is below the threshold of originality for copyright in Germany/US regardless of the signer's death date",
+        "commercialUse": "yes"
+      }
+    },
+    "rabindranath-tagore": {
+      "file": "marks/rabindranath-tagore.png",
+      "w": 1448,
+      "h": 420,
+      "provenance": {
+        "title": "রবীন্দ্রনাথ ঠাকুর বাংলা স্বাক্ষর (Bengali signature of Rabindranath Tagore)",
+        "collection": "Wikimedia Commons",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0.jpg",
+        "licence": "Public domain",
+        "licenceBasis": "File page tag {{PD-India-URAA}}. Tagore died 1941; works of authors who died before 1 January 1963 are out of copyright in South Korea (Commons: Copyright rules by territory/South Korea).",
+        "commercialUse": "yes"
+      }
+    }
   },
-  "rabindranath-tagore": {
-   "file": "marks/rabindranath-tagore.png",
-   "w": 1448,
-   "h": 420,
-   "provenance": {
-    "title": "রবীন্দ্রনাথ ঠাকুর বাংলা স্বাক্ষর (Bengali signature of Rabindranath Tagore)",
-    "collection": "Wikimedia Commons",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0.jpg",
-    "licence": "PD-India-URAA (public domain per file page license tags)",
-    "licenceBasis": "Actual handwritten Bengali-script signature, extracted from a 1920 book page. Tagore died 1941, so the underlying work is public domain in India; file page's PD tag treats it as PD for reuse (author-death rationale, not an anonymous-work rationale).",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
+  "signatures": {
+    "anna-akhmatova": {
+      "file": "signatures/anna-akhmatova.png",
+      "w": 827,
+      "h": 420,
+      "provenance": {
+        "title": "Ахматова Анна автограф.JPG",
+        "collection": "Wikimedia Commons (Anna Akhmatova) — Анна Ахматова. Стихотворения. Издательство \"Молодая гвардия\", серия \"XX век. Поэт и время\", Москва, 1989 / Own work photo by Vizu",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%85%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0_%D0%90%D0%BD%D0%BD%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84.JPG",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "charles-baudelaire": {
+      "file": "signatures/charles-baudelaire.png",
+      "w": 2965,
+      "h": 420,
+      "provenance": {
+        "title": "Baudelaire signatur.svg",
+        "collection": "Wikimedia Commons (Original uploader was Hedning at sv.wikipedia) — Originally from sv.wikipedia; description page is/was here.",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baudelaire_signatur.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "clarice-lispector": {
+      "file": "signatures/clarice-lispector.png",
+      "w": 2070,
+      "h": 420,
+      "provenance": {
+        "title": "Clarice-Lispector-Unterschrift.png",
+        "collection": "Wikimedia Commons (Clarice Lispector) — http://literatortura.com/2015/07/o-jornalismo-a-claricear/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Clarice-Lispector-Unterschrift.png",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "elias-canetti": {
+      "file": "signatures/elias-canetti.png",
+      "w": 1970,
+      "h": 420,
+      "provenance": {
+        "title": "Unterschrift von Elias Canetti.jpg",
+        "collection": "Wikimedia Commons (Elias Canetti) — http://www.havelshouseofhistory.com/Canetti,%20E%20Sign.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Unterschrift_von_Elias_Canetti.jpg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "ernest-hemingway": {
+      "file": "signatures/ernest-hemingway.png",
+      "w": 1608,
+      "h": 420,
+      "provenance": {
+        "title": "Ernest Hemingway Signature.svg",
+        "collection": "Wikimedia Commons (Ernest Hemingway) — Traced in Adobe Illustrator from http://www.kruegerbooks.com/books/sig/ernest.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "federico-garcia-lorca": {
+      "file": "signatures/federico-garcia-lorca.png",
+      "w": 735,
+      "h": 420,
+      "provenance": {
+        "title": "Federico García Lorca signature.svg",
+        "collection": "Wikimedia Commons (Morn) — Traced from bitmap at http://www.superstock.co.uk/stock-photos-images/1566-0201401",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Federico_Garc%C3%ADa_Lorca_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "fernando-pessoa": {
+      "file": "signatures/fernando-pessoa.png",
+      "w": 1470,
+      "h": 420,
+      "provenance": {
+        "title": "Fernando Pessoa signature.svg",
+        "collection": "Wikimedia Commons (Fernando Pessoa) — This file was derived from:  Assinatura pessoa fernando.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fernando_Pessoa_signature.svg",
+        "licence": "CC0",
+        "licenceBasis": "Vector trace released by its uploader (Pablo Busatto) under CC0 ({{self|cc-zero}}); parent scan is {{PD-signature|Portugal}}, source tertuliabibliofila.blogspot.com, dated 1914–1916. CC0 permits commercial use.",
+        "commercialUse": "yes"
+      }
+    },
+    "flannery-oconnor": {
+      "file": "signatures/flannery-oconnor.png",
+      "w": 2087,
+      "h": 420,
+      "provenance": {
+        "title": "Flannery OConnor signature May 1952.svg",
+        "collection": "Wikimedia Commons (Flannery O'Connor) — From signed book",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Flannery_OConnor_signature_May_1952.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "friedrich-nietzsche": {
+      "file": "signatures/friedrich-nietzsche.png",
+      "w": 1663,
+      "h": 420,
+      "provenance": {
+        "title": "Friedrich Nietzsche Signature.svg",
+        "collection": "Wikimedia Commons (Friedrich Nietzsche) — Traced in Adobe Illustrator from Nietzsche - Ainsi parlait Zarathoustra.djvu",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_Nietzsche_Signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "george-orwell": {
+      "file": "signatures/george-orwell.png",
+      "w": 1043,
+      "h": 420,
+      "provenance": {
+        "title": "Orwell-Signature.svg",
+        "collection": "Wikimedia Commons (George Orwell) — Scan from The Complete Works of George Orwell",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Orwell-Signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "georges-perec": {
+      "file": "signatures/georges-perec.png",
+      "w": 504,
+      "h": 420,
+      "provenance": {
+        "title": "Firma Perec.svg",
+        "collection": "Wikimedia Commons (SVG by Farisori); source cited on the file page: Pere(t)c: tentativa de inventario, Madrid 2011, p. 423",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Firma_Perec.svg",
+        "licence": "Public domain",
+        "licenceBasis": "File page carries {{PD-Signature|France}} and the uploader's {{self|cc-by-sa-4.0}}; we rely on PD-Signature (a signature is below the threshold of originality), so no credit is required. Printed source cited on the page: Pere(t)c: tentativa de inventario (2011), p. 423.",
+        "commercialUse": "yes"
+      }
+    },
+    "gertrude-stein": {
+      "file": "signatures/gertrude-stein.png",
+      "w": 1037,
+      "h": 420,
+      "provenance": {
+        "title": "Gertrude Stein- Autograph.svg",
+        "collection": "Wikimedia Commons (Gertrude Stein (vectorized by telrúnya.)) — This W3C-unspecified vector image was created with Inkscape . Original: http://www.tomfolio.com/autographimg.asp?sigid=1143&ret=AGIni",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_Stein-_Autograph.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "henrik-ibsen": {
+      "file": "signatures/henrik-ibsen.png",
+      "w": 2064,
+      "h": 420,
+      "provenance": {
+        "title": "Henrik Ibsen's signature.png",
+        "collection": "Wikimedia Commons (Henrik Ibsen) — From the frontispiece of  Literary Lives: Henrik Ibsen by Edmund Gosse, published by Scribner, New York, 1908",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Henrik_Ibsen%27s_signature.png",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "henry-james": {
+      "file": "signatures/henry-james.png",
+      "w": 796,
+      "h": 420,
+      "provenance": {
+        "title": "Henry James signature (1907).png",
+        "collection": "Wikimedia Commons (Henry James) — https://archive.org/details/roderickhudsonja00jameiala",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Henry_James_signature_(1907).png",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "james-joyce": {
+      "file": "signatures/james-joyce.png",
+      "w": 1772,
+      "h": 420,
+      "provenance": {
+        "title": "James Joyce signature.svg",
+        "collection": "Wikimedia Commons (James Joyce\n Created in vector format by Scewing) — Heritage Auction Galleries",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:James_Joyce_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "jorge-luis-borges": {
+      "file": "signatures/jorge-luis-borges.png",
+      "w": 1587,
+      "h": 420,
+      "provenance": {
+        "title": "Jorge Luis Borges firma.svg",
+        "collection": "Wikimedia Commons (Jorge Luis Borges) — This file was derived from:  Buenos Aires L1.jpg:",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_firma.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "jose-saramago": {
+      "file": "signatures/jose-saramago.png",
+      "w": 1136,
+      "h": 420,
+      "provenance": {
+        "title": "Assinatura José Saramago.png",
+        "collection": "Wikimedia Commons (Unknown authorUnknown author) — Biblioteca Nacional de Portugal",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Assinatura_Jos%C3%A9_Saramago.png",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "joseph-conrad": {
+      "file": "signatures/joseph-conrad.png",
+      "w": 989,
+      "h": 420,
+      "provenance": {
+        "title": "Joseph Conrad signature 1925.svg",
+        "collection": "Wikimedia Commons (Joseph Conrad\n Created in vector format by Scewing) — Heritage Auctions",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Conrad_signature_1925.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "julio-cortazar": {
+      "file": "signatures/julio-cortazar.png",
+      "w": 806,
+      "h": 420,
+      "provenance": {
+        "title": "Julio Cortázar signature.svg",
+        "collection": "Wikimedia Commons (Julio Cortázar) — iCollector",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Julio_Cort%C3%A1zar_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "leo-tolstoy": {
+      "file": "signatures/leo-tolstoy.png",
+      "w": 2068,
+      "h": 420,
+      "provenance": {
+        "title": "Leo Tolstoy signature.svg",
+        "collection": "Wikimedia Commons (Leo Tolstoy\n Created in vector format by Scewing) — Heritage Auction Gallery",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "lu-xun": {
+      "file": "signatures/lu-xun.png",
+      "w": 674,
+      "h": 420,
+      "provenance": {
+        "title": "Lu Xun's Signature.svg",
+        "collection": "Wikimedia Commons (Original: Lu Xun Vector:  逾刃) — 鲁迅lx.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lu_Xun%27s_Signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "machado-de-assis": {
+      "file": "signatures/machado-de-assis.png",
+      "w": 2122,
+      "h": 420,
+      "provenance": {
+        "title": "Assinatura de Machado de Assis.png",
+        "collection": "Wikimedia Commons (Autograph of Machado de Assis) — http://www.bairrodocatete.com.br/machadodeassis1.html - acessada em 2008-12-08",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Assinatura_de_Machado_de_Assis.png",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "marcel-proust": {
+      "file": "signatures/marcel-proust.png",
+      "w": 1463,
+      "h": 420,
+      "provenance": {
+        "title": "Marcel Proust signature.svg",
+        "collection": "Wikimedia Commons (Morn) — https://cabourg.fr/sites/ville_dev/files/marcel-proust-signature.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Proust_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "marguerite-duras": {
+      "file": "signatures/marguerite-duras.png",
+      "w": 977,
+      "h": 420,
+      "provenance": {
+        "title": "Signature of Marguerite Duras.png",
+        "collection": "Wikimedia Commons (Marguerite Duras) — https://www.artcurial.com/fr/lot-marguerite-duras-le-marin-de-gibraltar-1567-168",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Signature_of_Marguerite_Duras.png",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "mikhail-bulgakov": {
+      "file": "signatures/mikhail-bulgakov.png",
+      "w": 952,
+      "h": 420,
+      "provenance": {
+        "title": "Mikhail Bulgakov signature.svg",
+        "collection": "Wikimedia Commons (Kaidor) — Own work based on File:Автограф Михаила Булгакова 1937.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mikhail_Bulgakov_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "octavia-butler": {
+      "file": "signatures/octavia-butler.png",
+      "w": 1755,
+      "h": 420,
+      "provenance": {
+        "title": "Octavia E. Butler signature.svg",
+        "collection": "Wikimedia Commons (Flickr user POP; changed by an anonymous contributor who was logged in as Förbätterlig) — Own work based on: Octavia E. Butler signature.jpg (orignally from: https://www.flickr.com/photos/58558794@N07/48608066182/)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Octavia_E._Butler_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "pablo-neruda": {
+      "file": "signatures/pablo-neruda.png",
+      "w": 523,
+      "h": 420,
+      "provenance": {
+        "title": "Firma Pablo Neruda.svg",
+        "collection": "Wikimedia Commons (Pablo Neruda) — http://atinachile.bligoo.com/content/view/2417/101_anos_de_Pablo_Neruda.html",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Firma_Pablo_Neruda.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "paul-celan": {
+      "file": "signatures/paul-celan.png",
+      "w": 3007,
+      "h": 420,
+      "provenance": {
+        "title": "Paul Celan signature.svg",
+        "collection": "Wikimedia Commons (Pacha Tchernof) — Paul Celan signature.jpg vectorized with Affinity Designer",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Celan_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "rainer-maria-rilke": {
+      "file": "signatures/rainer-maria-rilke.png",
+      "w": 2247,
+      "h": 420,
+      "provenance": {
+        "title": "Unterschrift Rainer Maria Rilke österreichischer Erzähler und Lyriker.svg",
+        "collection": "Wikimedia Commons (Rainer Maria Rilke, Birkho) — https://pictures.abebooks.com/inventory/30947374933.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Unterschrift_Rainer_Maria_Rilke_%C3%B6sterreichischer_Erz%C3%A4hler_und_Lyriker.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "robert-musil": {
+      "file": "signatures/robert-musil.png",
+      "w": 1047,
+      "h": 420,
+      "provenance": {
+        "title": "Robert Musil Signature.svg",
+        "collection": "Wikimedia Commons (R. Musil) — File:Robert_Musil_Signature.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Musil_Signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "sadegh-hedayat": {
+      "file": "signatures/sadegh-hedayat.png",
+      "w": 787,
+      "h": 420,
+      "provenance": {
+        "title": "Sadeq Hedayat signature.svg",
+        "collection": "Wikimedia Commons (Sadeq Hedayat) — https://www.facebook.com/photo/?fbid=3818946388173054",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sadeq_Hedayat_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "samuel-beckett": {
+      "file": "signatures/samuel-beckett.png",
+      "w": 2400,
+      "h": 420,
+      "provenance": {
+        "title": "Samuel Beckett signature.svg",
+        "collection": "Wikimedia Commons (Er-ik) — Own work, traced from http://leevidor.com/img/beckett_samuel_autograph_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Beckett_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "simone-de-beauvoir": {
+      "file": "signatures/simone-de-beauvoir.png",
+      "w": 3264,
+      "h": 420,
+      "provenance": {
+        "title": "Simone de Beauvoir signature.svg",
+        "collection": "Wikimedia Commons (Simone de Beauvoir) — File:Simone_de_Beauvoir_(signature).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "stanislaw-lem": {
+      "file": "signatures/stanislaw-lem.png",
+      "w": 753,
+      "h": 420,
+      "provenance": {
+        "title": "Stanisław Lem signature.svg",
+        "collection": "Wikimedia Commons (Stanisław Lem) — Traced in \"Wycinek i szkic\" from http://autografy.eu/index.php/2011/01/stanislaw-lem/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stanis%C5%82aw_Lem_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "thomas-mann": {
+      "file": "signatures/thomas-mann.png",
+      "w": 1002,
+      "h": 420,
+      "provenance": {
+        "title": "Thomas Mann signature.svg",
+        "collection": "Wikimedia Commons (Original:  Darldarl Vector:  Morn) — Own work",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Mann_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "ts-eliot": {
+      "file": "signatures/ts-eliot.png",
+      "w": 1409,
+      "h": 420,
+      "provenance": {
+        "title": "TS Eliot Signature.svg",
+        "collection": "Wikimedia Commons (TS Eliot) — Traced in Adobe Illustrator from http://services.tomfolio.com/tfsigs/e/EliotTS.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TS_Eliot_Signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "umberto-eco": {
+      "file": "signatures/umberto-eco.png",
+      "w": 702,
+      "h": 420,
+      "provenance": {
+        "title": "Umberto Eco signature.svg",
+        "collection": "Wikimedia Commons (Diego Grez) — Umberto-eco001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Umberto_Eco_signature.svg",
+        "licence": "CC BY 3.0 Diego Grez",
+        "licenceBasis": "File page licence {{Cc-by-3.0}}, author Diego Grez (SVG redraw of File:Umberto-eco001.jpg, which is {{PD-signature|Germany}}). CC BY 3.0 requires creator credit, a licence link and a note of changes; the PNG is a rasterized copy.",
+        "commercialUse": "yes",
+        "creator": "Diego Grez",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      }
+    },
+    "vladimir-nabokov": {
+      "file": "signatures/vladimir-nabokov.png",
+      "w": 2636,
+      "h": 420,
+      "provenance": {
+        "title": "Vladimir Nabokov signature.svg",
+        "collection": "Wikimedia Commons (Vladimir Nabokov\n Created in vector format by Scewing) — https://ihavegoodbooks.blogspot.com/2010/09/eye-by-vladimir-nabokov.html",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "walt-whitman": {
+      "file": "signatures/walt-whitman.png",
+      "w": 1838,
+      "h": 420,
+      "provenance": {
+        "title": "Walt Whitman signature.svg",
+        "collection": "Wikimedia Commons (Walt Whitman\n Created in vector format by Scewing) — Heritage Auctions",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "william-butler-yeats": {
+      "file": "signatures/william-butler-yeats.png",
+      "w": 1096,
+      "h": 420,
+      "provenance": {
+        "title": "Yeats Signature.jpg",
+        "collection": "Wikimedia Commons (William Butler Yeats) — Nobel Prize Website",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yeats_Signature.jpg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "william-faulkner": {
+      "file": "signatures/william-faulkner.png",
+      "w": 1768,
+      "h": 420,
+      "provenance": {
+        "title": "Faulkner signature.png",
+        "collection": "Wikimedia Commons (William Faulkner) — http://www.tomfolio.com/signatures/f/FaulknerWilliam.html",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Faulkner_signature.png",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "wislawa-szymborska": {
+      "file": "signatures/wislawa-szymborska.png",
+      "w": 3578,
+      "h": 420,
+      "provenance": {
+        "title": "Wisława Szymborska signature.svg",
+        "collection": "Wikimedia Commons (Wisława Szymborska) — Traced in \"Wycinek i szkic\" from http://autografy.eu/wp-content/uploads/2011/01/wislawa-szymborska.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wis%C5%82awa_Szymborska_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "yukio-mishima": {
+      "file": "signatures/yukio-mishima.png",
+      "w": 157,
+      "h": 420,
+      "provenance": {
+        "title": "Yukio Mishima signature.svg",
+        "collection": "Wikimedia Commons (Yukio Mishima) — https://commons.m.wikimedia.org/wiki/File:Yukio_Mishima_signature.png#mw-jump-to-license",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yukio_Mishima_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    },
+    "zora-neale-hurston": {
+      "file": "signatures/zora-neale-hurston.png",
+      "w": 1292,
+      "h": 420,
+      "provenance": {
+        "title": "Zora Neale Hurston signature.svg",
+        "collection": "Wikimedia Commons (Zora Neale Hurston\nCreated in vector format by Scewing) — Beinecke Rare Book & Manuscript Library",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zora_Neale_Hurston_signature.svg",
+        "licence": "Public domain",
+        "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
+        "commercialUse": "yes"
+      }
+    }
   },
-  "natsume-soseki": {
-   "file": "marks/natsume-soseki.png",
-   "w": 158,
-   "h": 420,
-   "provenance": {
-    "title": "Calligraphy of Natsume Soseki — five-character kanshi (Chinese quatrain) with artist's seal, 1912 (Meiji 45)",
-    "collection": "Wikimedia Commons (privately owned original; photographic reproduction uploaded to Commons)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Calligraphy_of_Natsume_Souseki.jpg",
-    "licence": "PD (Public Domain, Japan + US)",
-    "licenceBasis": "Author Natsume Soseki, died 1916 → PD in Japan (50 years p.m.a. under the pre-2018 term that governed this work) and in the US.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
+  "archival": {
+    "franz-kafka": {
+      "file": "archival/franz-kafka.jpg",
+      "w": 760,
+      "h": 950,
+      "provenance": {
+        "title": "Last extant portrait photograph of Franz Kafka (Berlin, c. September 1923)",
+        "collection": "Wikimedia Commons (photographer unknown; cited from Klaus Wagenbach, Kafka Bildarchiv, Morgan Library exhibition, Reiner Stach)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg",
+        "licence": "PD-two (PD-EU-no author disclosure + PD-1996)",
+        "licenceBasis": "Unknown/undisclosed author; published before 1996 URAA cutoff, and EU anonymous-work term (70 years from publication) has expired",
+        "commercialUse": "yes"
+      }
+    },
+    "natsume-soseki": {
+      "file": "archival/natsume-soseki.jpg",
+      "w": 760,
+      "h": 950,
+      "provenance": {
+        "title": "Portrait of Natsume Soseki (夏目漱石), photographed September/October 1912",
+        "collection": "Wikimedia Commons, reproduced from National Diet Library digitized volume 'Soseki Zenshu, Vol. 8' (漱石全集. 第8巻, 1929)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Natsume_Souseki.jpg",
+        "licence": "PD (Public Domain, Japan + US)",
+        "licenceBasis": "File page {{PD-Japan-oldphoto}}; photographer Ogawa Kazumasa died 1929 (Wikidata Q3133048). Authors who died before 1 January 1963 are out of copyright in South Korea (Commons: Copyright rules by territory/South Korea).",
+        "commercialUse": "yes"
+      }
+    },
+    "rabindranath-tagore": {
+      "file": "archival/rabindranath-tagore.jpg",
+      "w": 759,
+      "h": 950,
+      "provenance": {
+        "title": "Rabindranath Tagore in 1909",
+        "collection": "Wikimedia Commons",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg",
+        "licence": "PD-old-100-expired, CC-PD-Mark",
+        "licenceBasis": "Photo taken 1909, credited to Generalstabens litografiska anstalt (Swedish lithographic institution), published 1914 in 'Les Prix Nobel 1913' (Sweden), p.60. File page states public domain in countries with life+100-or-fewer copyright terms and marks it CC-PD-Mark 1.0.",
+        "commercialUse": "yes"
+      }
+    }
+  },
+  "covers": {
+    "franz-kafka--die-verwandlung": {
+      "file": "covers/franz-kafka--die-verwandlung.jpg",
+      "w": 385,
+      "h": 620,
+      "license": "CC BY 3.0 H.-P. Haack",
+      "provenance": {
+        "title": "Die Verwandlung, 1st edition, original blue cardboard binding (Kurt Wolff Verlag, Leipzig, printed November 1915 as vol. 22/23 of 'Der jungste Tag')",
+        "collection": "Antiquariat Dr. Haack Leipzig -> private Vienna collection (photographed by H.-P. Haack)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka_Die_Verwandlung_1916_Orig.-Pappband.jpg",
+        "licence": "CC BY 3.0",
+        "licenceBasis": "Photographer H.-P. Haack self-published under CC BY 3.0 (own photo of a physical PD-era book object; the photo itself, not the 1915 text, carries this license)",
+        "commercialUse": "yes",
+        "creator": "H.-P. Haack",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "shows": "초판 표지"
+      }
+    },
+    "franz-kafka--der-process": {
+      "file": "covers/franz-kafka--der-process.jpg",
+      "w": 420,
+      "h": 585,
+      "license": "CC BY 3.0 H.-P. Haack",
+      "provenance": {
+        "title": "Der Prozess, 1st edition, original cloth binding (Verlag Die Schmiede, Berlin, 1925, 411 pages -- Wilpert/Guhring 8; Raabe 8)",
+        "collection": "Antiquariat Dr. Haack Leipzig -> private collection (photographed by H.-P. Haack)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Der_Prozess_1925.jpg",
+        "licence": "CC BY 3.0",
+        "licenceBasis": "Depicted book {{PD-old-expired|deathyear=1924}}; the photograph itself {{self|Cc-by-3.0}} by H.-P. Haack. Credit and licence link required.",
+        "commercialUse": "yes",
+        "creator": "H.-P. Haack",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "shows": "초판 표지"
+      }
+    },
+    "franz-kafka--das-schloss": {
+      "file": "covers/franz-kafka--das-schloss.jpg",
+      "w": 420,
+      "h": 569,
+      "license": "H.-P. Haack",
+      "provenance": {
+        "title": "Das Schloss, 1st edition, original paperback wrapper (Kurt Wolff Verlag, Munich, 1926, 502 pages -- Wilpert/Guhring 9; Raabe 9)",
+        "collection": "Antiquariat Dr. Haack Leipzig -> private collection, Switzerland (photographed by H.-P. Haack)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Das_Schloss_1926.jpg",
+        "licence": "PD-text (wrapper); photo licence not stated",
+        "licenceBasis": "File page Permission {{PD-text}} (typographic wrapper below threshold); the photo, by and uploaded by H.-P. Haack, carries no separate licence. Credited to the photographer; no licence claimed for the photo itself. Kafka died 1924.",
+        "commercialUse": "yes",
+        "creator": "H.-P. Haack",
+        "shows": "초판 표지"
+      }
+    },
+    "franz-kafka--in-der-strafkolonie": {
+      "file": "covers/franz-kafka--in-der-strafkolonie.jpg",
+      "w": 420,
+      "h": 610,
+      "license": "CC BY 3.0 H.-P. Haack",
+      "provenance": {
+        "title": "In der Strafkolonie, title page of the first printing (Kurt Wolff Verlag, Leipzig, October 1919)",
+        "collection": "Antiquariat Dr. Haack Leipzig (photographed by H.-P. Haack)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Strafkolonie_(1919).jpg",
+        "licence": "CC BY 3.0",
+        "licenceBasis": "Photographer H.-P. Haack self-published under CC BY 3.0 (verified via Commons API extmetadata: LicenseShortName=CC BY 3.0, AttributionRequired=true, LicenseUrl=creativecommons.org/licenses/by/3.0). The photo, not the 1919 text, carries this license.",
+        "commercialUse": "yes",
+        "creator": "H.-P. Haack",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "shows": "초판 표제지",
+        "altKo": "『유형지에서』 초판 표제지"
+      }
+    },
+    "natsume-soseki--wagahai-wa-neko-de-aru": {
+      "file": "covers/natsume-soseki--wagahai-wa-neko-de-aru.jpg",
+      "w": 420,
+      "h": 601,
+      "license": "PD",
+      "provenance": {
+        "title": "\"I Am a Cat\" (English translation by K. Ando, revised by K. Natsume), front cover; Hattori Shoten, Tokyo, 1906–1909 (Yale Beinecke, Pollock 478); cover design 橋口五葉",
+        "collection": "Wikimedia Commons, digitized from Yale University Beinecke Rare Book & Manuscript Library",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:I_AM_A_CAT_by_K._Ando.jpg",
+        "licence": "PD Mark 1.0",
+        "licenceBasis": "Designer Hashiguchi Goyo (橋口五葉), died 1921 → PD (published before 1931, and >50/70 years p.m.a. in Japan).",
+        "commercialUse": "yes",
+        "shows": "영역본 표지",
+        "captionKo": "영역본 — 1906~09 · 服部書店, 東京",
+        "altKo": "『나는 고양이로소이다』 영역본 표지"
+      }
+    },
+    "natsume-soseki--sorekara": {
+      "file": "covers/natsume-soseki--sorekara.jpg",
+      "w": 412,
+      "h": 620,
+      "license": "PD-Japan",
+      "provenance": {
+        "title": "Front cover, first edition of『それから』(And Then / Sorekara), Shunyodo, January 1910 (Meiji 43)",
+        "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/887086), mirrored to Wikimedia Commons as File:NDL887086 それから part1.pdf",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL887086_%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89_part1.pdf",
+        "licence": "PD-Japan / PD-scan (PD-Japan)",
+        "licenceBasis": "NDL Digital Collections pid 887086: Access Restrictions \"PDM\"; Commons {{PD-scan|PD-Japan}}. Natsume Soseki died 1916.",
+        "commercialUse": "yes",
+        "shows": "초판본",
+        "altKo": "『그 후』 초판본"
+      }
+    },
+    "natsume-soseki--sanshiro": {
+      "file": "covers/natsume-soseki--sanshiro.jpg",
+      "w": 397,
+      "h": 620,
+      "license": "PD-Japan",
+      "provenance": {
+        "title": "Front cover, first edition of『三四郎』(Sanshiro), Shunyodo, May 1909 (Meiji 42)",
+        "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/886555), mirrored to Wikimedia Commons as File:NDL886555 三四郎 part1.pdf",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL886555_%E4%B8%89%E5%9B%9B%E9%83%8E_part1.pdf",
+        "licence": "PD-Japan / PD-scan (PD-Japan)",
+        "licenceBasis": "NDL Digital Collections pid 886555: Access Restrictions \"PDM\"; Commons {{PD-scan|PD-Japan}}. Natsume Soseki died 1916.",
+        "commercialUse": "yes",
+        "shows": "초판본",
+        "altKo": "『산시로』 초판본"
+      }
+    },
+    "natsume-soseki--botchan": {
+      "file": "covers/natsume-soseki--botchan.jpg",
+      "w": 370,
+      "h": 620,
+      "license": "PD-Japan",
+      "provenance": {
+        "title": "Front cover, first edition of『鶉籠』(Uzura Kago), Shunyodo, January 1907 (Meiji 40) -- the collection volume containing the first book publication of『坊っちゃん』(Botchan)",
+        "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/885509), mirrored to Wikimedia Commons as File:NDL885509 鶉籠 part1.pdf",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL885509_%E9%B6%89%E7%B1%A0_part1.pdf",
+        "licence": "PD-Japan / PD-scan (PD-Japan)",
+        "licenceBasis": "NDL Digital Collections pid 885509: Access Restrictions \"PDM\"; Commons {{PD-scan|PD-Japan}}. Natsume Soseki died 1916.",
+        "commercialUse": "yes",
+        "shows": "수록본",
+        "captionKo": "수록 — 1907 · 春陽堂, 東京",
+        "altKo": "『도련님』이 실린 『우즈라카고』(1907)"
+      }
+    },
+    "rabindranath-tagore--gitanjali": {
+      "file": "covers/rabindranath-tagore--gitanjali.jpg",
+      "w": 405,
+      "h": 620,
+      "license": "PD",
+      "provenance": {
+        "title": "Title page,『গীতাঞ্জলি』(Gitanjali), original Bengali text, Sri Rabindranath Tagore -- তৃতীয় সংস্করণ (Third Edition), Indian Press, Allahabad, Bengali year ১৩২০ (Bengali Era 1320 = c. 1913 CE)",
+        "collection": "Digital Library of India scan, mirrored to Wikimedia Commons as File:গীতাঞ্জলি - রবীন্দ্রনাথ ঠাকুর.djvu (uploaded by Commons user Jayanta Nath)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%97%E0%A7%80%E0%A6%A4%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%B2%E0%A6%BF_-_%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0.djvu",
+        "licence": "PD-old-80-expired, CC-PD-Mark",
+        "licenceBasis": "Commons file categorized PD-old-80-expired and CC-PD-Mark, extmetadata License=pd, UsageTerms=Public domain, AttributionRequired=false. Author Rabindranath Tagore died 1941, well past any life+70/80 term; text itself first published 1910.",
+        "commercialUse": "yes",
+        "shows": "3판본",
+        "captionKo": "3판 — 1913 · 인디언 프레스, 알라하바드",
+        "altKo": "『기탄잘리』 3판본"
+      }
+    }
+  },
+  "grounds": {
+    "franz-kafka": {
+      "file": "grounds/franz-kafka.jpg",
+      "w": 1280,
+      "h": 805,
+      "provenance": {
+        "title": "Kafka's notebook -- German-Hebrew vocabulary page, Prague 1922 (autograph manuscript)",
+        "collection": "National Library of Israel, Givat Ram, Jerusalem (Vessel to Vessel digital gallery)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka%27s_notebook.JPG",
+        "licence": "PD-old (generic)",
+        "licenceBasis": "Author (Franz Kafka) died 1924; life+70 protection expired 1994",
+        "commercialUse": "yes"
+      }
+    },
+    "natsume-soseki": {
+      "file": "grounds/natsume-soseki.jpg",
+      "w": 1280,
+      "h": 957,
+      "provenance": {
+        "title": "Manuscript page of『吾輩は猫である』(I Am a Cat)",
+        "collection": "Wikimedia Commons, reproduced from 漱石全集 第一巻 (漱石全集刊行会, 1936), NDL Digital Collections 1883179",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manuscripts_of_%22I_Am_a_Cat%22.jpg",
+        "licence": "PD Mark 1.0",
+        "licenceBasis": "File page {{PD-old-auto-expired|deathyear=1916}}: Natsume Soseki died 1916. Reproduced from the 1936 Soseki Zenshu, vol. 1.",
+        "commercialUse": "yes"
+      }
+    },
+    "rabindranath-tagore": {
+      "file": "grounds/rabindranath-tagore.jpg",
+      "w": 834,
+      "h": 1280,
+      "provenance": {
+        "title": "Original manuscript of Gitanjali - Rabindranath Tagore - Rothenstein collection.pdf, notebook page numbered '20' (printed folio '11')",
+        "collection": "Wikimedia Commons",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Original_manuscript_of_Gitanjali_-_Rabindranath_Tagore_-_Rothenstein_collection.pdf",
+        "licence": "Public domain",
+        "licenceBasis": "File page {{PD/1923|1941}}: Tagore died 1941; manuscript of 1912 (Rothenstein Papers, Houghton Library).",
+        "commercialUse": "yes"
+      }
+    }
   }
- },
- "signatures": {
-  "albert-camus": {
-   "file": "signatures/albert-camus.png",
-   "w": 2055,
-   "h": 420,
-   "provenance": {
-    "title": "Albert Camus signature.svg",
-    "collection": "Wikimedia Commons (Albert Camus) — This file was derived from:  Albert Camus Signature.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Albert_Camus_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "anna-akhmatova": {
-   "file": "signatures/anna-akhmatova.png",
-   "w": 827,
-   "h": 420,
-   "provenance": {
-    "title": "Ахматова Анна автограф.JPG",
-    "collection": "Wikimedia Commons (Anna Akhmatova) — Анна Ахматова. Стихотворения. Издательство \"Молодая гвардия\", серия \"XX век. Поэт и время\", Москва, 1989 / Own work photo by Vizu",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%85%D0%BC%D0%B0%D1%82%D0%BE%D0%B2%D0%B0_%D0%90%D0%BD%D0%BD%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84.JPG",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "anton-chekhov": {
-   "file": "signatures/anton-chekhov.png",
-   "w": 608,
-   "h": 420,
-   "provenance": {
-    "title": "Anton Chekhov signature.svg",
-    "collection": "Wikimedia Commons (Anton Chekhov) — This file was derived from:  Подпись Антон Чехов.jpg:",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Anton_Chekhov_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "bertolt-brecht": {
-   "file": "signatures/bertolt-brecht.png",
-   "w": 1755,
-   "h": 420,
-   "provenance": {
-    "title": "Bertolt Brecht Signature.svg",
-    "collection": "Wikimedia Commons (Bertolt Brecht) — Vectorized version of File:Unterschrift Bertolt Brecht (1898–1956).png",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Bertolt_Brecht_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "cesar-vallejo": {
-   "file": "signatures/cesar-vallejo.png",
-   "w": 2332,
-   "h": 420,
-   "provenance": {
-    "title": "Firma cvallejo.png",
-    "collection": "Wikimedia Commons (César Vallejo) — Own work",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Firma_cvallejo.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "charles-baudelaire": {
-   "file": "signatures/charles-baudelaire.png",
-   "w": 2965,
-   "h": 420,
-   "provenance": {
-    "title": "Baudelaire signatur.svg",
-    "collection": "Wikimedia Commons (Original uploader was Hedning at sv.wikipedia) — Originally from sv.wikipedia; description page is/was here.",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Baudelaire_signatur.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "clarice-lispector": {
-   "file": "signatures/clarice-lispector.png",
-   "w": 2070,
-   "h": 420,
-   "provenance": {
-    "title": "Clarice-Lispector-Unterschrift.png",
-    "collection": "Wikimedia Commons (Clarice Lispector) — http://literatortura.com/2015/07/o-jornalismo-a-claricear/",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Clarice-Lispector-Unterschrift.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "derek-walcott": {
-   "file": "signatures/derek-walcott.png",
-   "w": 1271,
-   "h": 420,
-   "provenance": {
-    "title": "Derek Walcott signature.svg",
-    "collection": "Wikimedia Commons (Original:  Derek Walcott\nUpload:  Omerta-ve\nVectorization:  Carnby) — This file was derived from:  Firma-Derek-Walcott.png:",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Derek_Walcott_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "elias-canetti": {
-   "file": "signatures/elias-canetti.png",
-   "w": 1970,
-   "h": 420,
-   "provenance": {
-    "title": "Unterschrift von Elias Canetti.jpg",
-    "collection": "Wikimedia Commons (Elias Canetti) — http://www.havelshouseofhistory.com/Canetti,%20E%20Sign.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Unterschrift_von_Elias_Canetti.jpg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "ernest-hemingway": {
-   "file": "signatures/ernest-hemingway.png",
-   "w": 1608,
-   "h": 420,
-   "provenance": {
-    "title": "Ernest Hemingway Signature.svg",
-    "collection": "Wikimedia Commons (Ernest Hemingway) — Traced in Adobe Illustrator from http://www.kruegerbooks.com/books/sig/ernest.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "federico-garcia-lorca": {
-   "file": "signatures/federico-garcia-lorca.png",
-   "w": 735,
-   "h": 420,
-   "provenance": {
-    "title": "Federico García Lorca signature.svg",
-    "collection": "Wikimedia Commons (Morn) — Traced from bitmap at http://www.superstock.co.uk/stock-photos-images/1566-0201401",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Federico_Garc%C3%ADa_Lorca_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "fernando-pessoa": {
-   "file": "signatures/fernando-pessoa.png",
-   "w": 1470,
-   "h": 420,
-   "provenance": {
-    "title": "Fernando Pessoa signature.svg",
-    "collection": "Wikimedia Commons (Fernando Pessoa) — This file was derived from:  Assinatura pessoa fernando.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Fernando_Pessoa_signature.svg",
-    "licence": "CC0",
-    "licenceBasis": "Uploader released the trace under CC0; the signature itself is below the threshold of originality",
-    "commercialUse": "unknown"
-   }
-  },
-  "flannery-oconnor": {
-   "file": "signatures/flannery-oconnor.png",
-   "w": 2087,
-   "h": 420,
-   "provenance": {
-    "title": "Flannery OConnor signature May 1952.svg",
-    "collection": "Wikimedia Commons (Flannery O'Connor) — From signed book",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Flannery_OConnor_signature_May_1952.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "friedrich-nietzsche": {
-   "file": "signatures/friedrich-nietzsche.png",
-   "w": 1663,
-   "h": 420,
-   "provenance": {
-    "title": "Friedrich Nietzsche Signature.svg",
-    "collection": "Wikimedia Commons (Friedrich Nietzsche) — Traced in Adobe Illustrator from Nietzsche - Ainsi parlait Zarathoustra.djvu",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_Nietzsche_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "fyodor-dostoevsky": {
-   "file": "signatures/fyodor-dostoevsky.png",
-   "w": 2358,
-   "h": 420,
-   "provenance": {
-    "title": "Fyodor Dostoyevsky Signature.svg",
-    "collection": "Wikimedia Commons (Fyodor Dostoyevsky) — Traced in Adobe Illustrator from w:File:Dostsignature.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Fyodor_Dostoyevsky_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "gabriel-garcia-marquez": {
-   "file": "signatures/gabriel-garcia-marquez.png",
-   "w": 1959,
-   "h": 420,
-   "provenance": {
-    "title": "Gabriel Marquez Signature.svg",
-    "collection": "Wikimedia Commons (Gabriel Marquez Signature.png\nOriginal by DaViD BeLtRaN 901\nmodified by Jak\nderivative work: Ninrouter) — This file was derived from:  Gabriel Marquez Signature.png:",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Gabriel_Marquez_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "george-orwell": {
-   "file": "signatures/george-orwell.png",
-   "w": 1043,
-   "h": 420,
-   "provenance": {
-    "title": "Orwell-Signature.svg",
-    "collection": "Wikimedia Commons (George Orwell) — Scan from The Complete Works of George Orwell",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Orwell-Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "georges-perec": {
-   "file": "signatures/georges-perec.png",
-   "w": 504,
-   "h": 420,
-   "provenance": {
-    "title": "Firma Perec.svg",
-    "collection": "Wikimedia Commons (Farisori) — Own work",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Firma_Perec.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "gertrude-stein": {
-   "file": "signatures/gertrude-stein.png",
-   "w": 1037,
-   "h": 420,
-   "provenance": {
-    "title": "Gertrude Stein- Autograph.svg",
-    "collection": "Wikimedia Commons (Gertrude Stein (vectorized by telrúnya.)) — This W3C-unspecified vector image was created with Inkscape . Original: http://www.tomfolio.com/autographimg.asp?sigid=1143&ret=AGIni",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_Stein-_Autograph.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "gustave-flaubert": {
-   "file": "signatures/gustave-flaubert.png",
-   "w": 1400,
-   "h": 420,
-   "provenance": {
-    "title": "G. Flaubert signature.svg",
-    "collection": "Wikimedia Commons (G. Flaubert) — G. Flaubert",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:G._Flaubert_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "henrik-ibsen": {
-   "file": "signatures/henrik-ibsen.png",
-   "w": 2064,
-   "h": 420,
-   "provenance": {
-    "title": "Henrik Ibsen's signature.png",
-    "collection": "Wikimedia Commons (Henrik Ibsen) — From the frontispiece of  Literary Lives: Henrik Ibsen by Edmund Gosse, published by Scribner, New York, 1908",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Henrik_Ibsen%27s_signature.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "henry-james": {
-   "file": "signatures/henry-james.png",
-   "w": 796,
-   "h": 420,
-   "provenance": {
-    "title": "Henry James signature (1907).png",
-    "collection": "Wikimedia Commons (Henry James) — https://archive.org/details/roderickhudsonja00jameiala",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Henry_James_signature_(1907).png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "isaac-babel": {
-   "file": "signatures/isaac-babel.png",
-   "w": 878,
-   "h": 420,
-   "provenance": {
-    "title": "Unterschrift Isaak Emmanuilowitsch Babel sowjetischer Journalist und Schriftsteller.png",
-    "collection": "Wikimedia Commons (Birkho) — Own work",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Unterschrift_Isaak_Emmanuilowitsch_Babel_sowjetischer_Journalist_und_Schriftsteller.png",
-    "licence": "CC0",
-    "licenceBasis": "Uploader released the trace under CC0; the signature itself is below the threshold of originality",
-    "commercialUse": "unknown"
-   }
-  },
-  "james-joyce": {
-   "file": "signatures/james-joyce.png",
-   "w": 1772,
-   "h": 420,
-   "provenance": {
-    "title": "James Joyce signature.svg",
-    "collection": "Wikimedia Commons (James Joyce\n Created in vector format by Scewing) — Heritage Auction Galleries",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:James_Joyce_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "jorge-luis-borges": {
-   "file": "signatures/jorge-luis-borges.png",
-   "w": 1587,
-   "h": 420,
-   "provenance": {
-    "title": "Jorge Luis Borges firma.svg",
-    "collection": "Wikimedia Commons (Jorge Luis Borges) — This file was derived from:  Buenos Aires L1.jpg:",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_firma.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "jose-saramago": {
-   "file": "signatures/jose-saramago.png",
-   "w": 1136,
-   "h": 420,
-   "provenance": {
-    "title": "Assinatura José Saramago.png",
-    "collection": "Wikimedia Commons (Unknown authorUnknown author) — Biblioteca Nacional de Portugal",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Assinatura_Jos%C3%A9_Saramago.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "joseph-conrad": {
-   "file": "signatures/joseph-conrad.png",
-   "w": 989,
-   "h": 420,
-   "provenance": {
-    "title": "Joseph Conrad signature 1925.svg",
-    "collection": "Wikimedia Commons (Joseph Conrad\n Created in vector format by Scewing) — Heritage Auctions",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Conrad_signature_1925.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "julio-cortazar": {
-   "file": "signatures/julio-cortazar.png",
-   "w": 806,
-   "h": 420,
-   "provenance": {
-    "title": "Julio Cortázar signature.svg",
-    "collection": "Wikimedia Commons (Julio Cortázar) — iCollector",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Julio_Cort%C3%A1zar_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "leo-tolstoy": {
-   "file": "signatures/leo-tolstoy.png",
-   "w": 2068,
-   "h": 420,
-   "provenance": {
-    "title": "Leo Tolstoy signature.svg",
-    "collection": "Wikimedia Commons (Leo Tolstoy\n Created in vector format by Scewing) — Heritage Auction Gallery",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "lu-xun": {
-   "file": "signatures/lu-xun.png",
-   "w": 674,
-   "h": 420,
-   "provenance": {
-    "title": "Lu Xun's Signature.svg",
-    "collection": "Wikimedia Commons (Original: Lu Xun Vector:  逾刃) — 鲁迅lx.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Lu_Xun%27s_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "luigi-pirandello": {
-   "file": "signatures/luigi-pirandello.png",
-   "w": 1520,
-   "h": 420,
-   "provenance": {
-    "title": "Pirandello - signature.png",
-    "collection": "Wikimedia Commons (Luigi Pirandello) — Personal collection",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Pirandello_-_signature.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "machado-de-assis": {
-   "file": "signatures/machado-de-assis.png",
-   "w": 2122,
-   "h": 420,
-   "provenance": {
-    "title": "Assinatura de Machado de Assis.png",
-    "collection": "Wikimedia Commons (Autograph of Machado de Assis) — http://www.bairrodocatete.com.br/machadodeassis1.html - acessada em 2008-12-08",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Assinatura_de_Machado_de_Assis.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "marcel-proust": {
-   "file": "signatures/marcel-proust.png",
-   "w": 1463,
-   "h": 420,
-   "provenance": {
-    "title": "Marcel Proust signature.svg",
-    "collection": "Wikimedia Commons (Morn) — https://cabourg.fr/sites/ville_dev/files/marcel-proust-signature.png",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Proust_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "marguerite-duras": {
-   "file": "signatures/marguerite-duras.png",
-   "w": 977,
-   "h": 420,
-   "provenance": {
-    "title": "Signature of Marguerite Duras.png",
-    "collection": "Wikimedia Commons (Marguerite Duras) — https://www.artcurial.com/fr/lot-marguerite-duras-le-marin-de-gibraltar-1567-168",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Signature_of_Marguerite_Duras.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "marina-tsvetaeva": {
-   "file": "signatures/marina-tsvetaeva.png",
-   "w": 1224,
-   "h": 420,
-   "provenance": {
-    "title": "Tsvetaeva signature 1941.svg",
-    "collection": "Wikimedia Commons (M. Tsvetaeva) — based on File:Tsvetaeva signature 1941.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Tsvetaeva_signature_1941.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "mikhail-bulgakov": {
-   "file": "signatures/mikhail-bulgakov.png",
-   "w": 952,
-   "h": 420,
-   "provenance": {
-    "title": "Mikhail Bulgakov signature.svg",
-    "collection": "Wikimedia Commons (Kaidor) — Own work based on File:Автограф Михаила Булгакова 1937.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Mikhail_Bulgakov_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "milan-kundera": {
-   "file": "signatures/milan-kundera.png",
-   "w": 1937,
-   "h": 420,
-   "provenance": {
-    "title": "Milan Kundera signature.svg",
-    "collection": "Wikimedia Commons (Milan Kundera) — File:Milan Kundera signature.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Milan_Kundera_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "octavia-butler": {
-   "file": "signatures/octavia-butler.png",
-   "w": 1755,
-   "h": 420,
-   "provenance": {
-    "title": "Octavia E. Butler signature.svg",
-    "collection": "Wikimedia Commons (Flickr user POP; changed by an anonymous contributor who was logged in as Förbätterlig) — Own work based on: Octavia E. Butler signature.jpg (orignally from: https://www.flickr.com/photos/58558794@N07/48608066182/)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Octavia_E._Butler_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "pablo-neruda": {
-   "file": "signatures/pablo-neruda.png",
-   "w": 523,
-   "h": 420,
-   "provenance": {
-    "title": "Firma Pablo Neruda.svg",
-    "collection": "Wikimedia Commons (Pablo Neruda) — http://atinachile.bligoo.com/content/view/2417/101_anos_de_Pablo_Neruda.html",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Firma_Pablo_Neruda.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "paul-celan": {
-   "file": "signatures/paul-celan.png",
-   "w": 3007,
-   "h": 420,
-   "provenance": {
-    "title": "Paul Celan signature.svg",
-    "collection": "Wikimedia Commons (Pacha Tchernof) — Paul Celan signature.jpg vectorized with Affinity Designer",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Paul_Celan_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "premchand": {
-   "file": "signatures/premchand.png",
-   "w": 1587,
-   "h": 420,
-   "provenance": {
-    "title": "Hastakshar premchand (transparent).png",
-    "collection": "Wikimedia Commons (प्रेमचंद)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Hastakshar_premchand_(transparent).png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "rainer-maria-rilke": {
-   "file": "signatures/rainer-maria-rilke.png",
-   "w": 2247,
-   "h": 420,
-   "provenance": {
-    "title": "Unterschrift Rainer Maria Rilke österreichischer Erzähler und Lyriker.svg",
-    "collection": "Wikimedia Commons (Rainer Maria Rilke, Birkho) — https://pictures.abebooks.com/inventory/30947374933.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Unterschrift_Rainer_Maria_Rilke_%C3%B6sterreichischer_Erz%C3%A4hler_und_Lyriker.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "robert-musil": {
-   "file": "signatures/robert-musil.png",
-   "w": 1047,
-   "h": 420,
-   "provenance": {
-    "title": "Robert Musil Signature.svg",
-    "collection": "Wikimedia Commons (R. Musil) — File:Robert_Musil_Signature.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Robert_Musil_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "sadegh-hedayat": {
-   "file": "signatures/sadegh-hedayat.png",
-   "w": 787,
-   "h": 420,
-   "provenance": {
-    "title": "Sadeq Hedayat signature.svg",
-    "collection": "Wikimedia Commons (Sadeq Hedayat) — https://www.facebook.com/photo/?fbid=3818946388173054",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Sadeq_Hedayat_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "samuel-beckett": {
-   "file": "signatures/samuel-beckett.png",
-   "w": 2400,
-   "h": 420,
-   "provenance": {
-    "title": "Samuel Beckett signature.svg",
-    "collection": "Wikimedia Commons (Er-ik) — Own work, traced from http://leevidor.com/img/beckett_samuel_autograph_1.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Beckett_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "simone-de-beauvoir": {
-   "file": "signatures/simone-de-beauvoir.png",
-   "w": 3264,
-   "h": 420,
-   "provenance": {
-    "title": "Simone de Beauvoir signature.svg",
-    "collection": "Wikimedia Commons (Simone de Beauvoir) — File:Simone_de_Beauvoir_(signature).jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "stanislaw-lem": {
-   "file": "signatures/stanislaw-lem.png",
-   "w": 753,
-   "h": 420,
-   "provenance": {
-    "title": "Stanisław Lem signature.svg",
-    "collection": "Wikimedia Commons (Stanisław Lem) — Traced in \"Wycinek i szkic\" from http://autografy.eu/index.php/2011/01/stanislaw-lem/",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Stanis%C5%82aw_Lem_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "thomas-mann": {
-   "file": "signatures/thomas-mann.png",
-   "w": 1002,
-   "h": 420,
-   "provenance": {
-    "title": "Thomas Mann signature.svg",
-    "collection": "Wikimedia Commons (Original:  Darldarl Vector:  Morn) — Own work",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Mann_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "toni-morrison": {
-   "file": "signatures/toni-morrison.png",
-   "w": 1000,
-   "h": 420,
-   "provenance": {
-    "title": "Toni Morrison (signature).svg",
-    "collection": "Wikimedia Commons (Toni Morrison; vectorized by Pbrks) — File:Toni Morrison (signature).jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Toni_Morrison_(signature).svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "ts-eliot": {
-   "file": "signatures/ts-eliot.png",
-   "w": 1409,
-   "h": 420,
-   "provenance": {
-    "title": "TS Eliot Signature.svg",
-    "collection": "Wikimedia Commons (TS Eliot) — Traced in Adobe Illustrator from http://services.tomfolio.com/tfsigs/e/EliotTS.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:TS_Eliot_Signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "umberto-eco": {
-   "file": "signatures/umberto-eco.png",
-   "w": 702,
-   "h": 420,
-   "provenance": {
-    "title": "Umberto Eco signature.svg",
-    "collection": "Wikimedia Commons (Diego Grez) — Umberto-eco001.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Umberto_Eco_signature.svg",
-    "licence": "CC BY 3.0",
-    "licenceBasis": "Uploader's trace licensed CC BY — attribution carried in this row; the signature itself is below the threshold of originality",
-    "commercialUse": "unknown"
-   }
-  },
-  "vladimir-nabokov": {
-   "file": "signatures/vladimir-nabokov.png",
-   "w": 2636,
-   "h": 420,
-   "provenance": {
-    "title": "Vladimir Nabokov signature.svg",
-    "collection": "Wikimedia Commons (Vladimir Nabokov\n Created in vector format by Scewing) — https://ihavegoodbooks.blogspot.com/2010/09/eye-by-vladimir-nabokov.html",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "walt-whitman": {
-   "file": "signatures/walt-whitman.png",
-   "w": 1838,
-   "h": 420,
-   "provenance": {
-    "title": "Walt Whitman signature.svg",
-    "collection": "Wikimedia Commons (Walt Whitman\n Created in vector format by Scewing) — Heritage Auctions",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "william-butler-yeats": {
-   "file": "signatures/william-butler-yeats.png",
-   "w": 1096,
-   "h": 420,
-   "provenance": {
-    "title": "Yeats Signature.jpg",
-    "collection": "Wikimedia Commons (William Butler Yeats) — Nobel Prize Website",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Yeats_Signature.jpg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "william-faulkner": {
-   "file": "signatures/william-faulkner.png",
-   "w": 1768,
-   "h": 420,
-   "provenance": {
-    "title": "Faulkner signature.png",
-    "collection": "Wikimedia Commons (William Faulkner) — http://www.tomfolio.com/signatures/f/FaulknerWilliam.html",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Faulkner_signature.png",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "wislawa-szymborska": {
-   "file": "signatures/wislawa-szymborska.png",
-   "w": 3578,
-   "h": 420,
-   "provenance": {
-    "title": "Wisława Szymborska signature.svg",
-    "collection": "Wikimedia Commons (Wisława Szymborska) — Traced in \"Wycinek i szkic\" from http://autografy.eu/wp-content/uploads/2011/01/wislawa-szymborska.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Wis%C5%82awa_Szymborska_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "witold-gombrowicz": {
-   "file": "signatures/witold-gombrowicz.png",
-   "w": 2677,
-   "h": 420,
-   "provenance": {
-    "title": "Gombrowicz signature.svg",
-    "collection": "Wikimedia Commons (Witold Gombrowicz) — File:Gombrowicz faksymile (cropped).png",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Gombrowicz_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "yukio-mishima": {
-   "file": "signatures/yukio-mishima.png",
-   "w": 157,
-   "h": 420,
-   "provenance": {
-    "title": "Yukio Mishima signature.svg",
-    "collection": "Wikimedia Commons (Yukio Mishima) — https://commons.m.wikimedia.org/wiki/File:Yukio_Mishima_signature.png#mw-jump-to-license",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Yukio_Mishima_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  },
-  "zora-neale-hurston": {
-   "file": "signatures/zora-neale-hurston.png",
-   "w": 1292,
-   "h": 420,
-   "provenance": {
-    "title": "Zora Neale Hurston signature.svg",
-    "collection": "Wikimedia Commons (Zora Neale Hurston\nCreated in vector format by Scewing) — Beinecke Rare Book & Manuscript Library",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Zora_Neale_Hurston_signature.svg",
-    "licence": "Public domain",
-    "licenceBasis": "A signature is below the threshold of originality; file page carries a public-domain tag",
-    "commercialUse": "yes"
-   }
-  }
- },
- "archival": {
-  "franz-kafka": {
-   "file": "archival/franz-kafka.jpg",
-   "w": 760,
-   "h": 950,
-   "provenance": {
-    "title": "Last extant portrait photograph of Franz Kafka (Berlin, c. September 1923)",
-    "collection": "Wikimedia Commons (photographer unknown; cited from Klaus Wagenbach, Kafka Bildarchiv, Morgan Library exhibition, Reiner Stach)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg",
-    "licence": "PD-two (PD-EU-no author disclosure + PD-1996)",
-    "licenceBasis": "Unknown/undisclosed author; published before 1996 URAA cutoff, and EU anonymous-work term (70 years from publication) has expired",
-    "commercialUse": "yes"
-   }
-  },
-  "natsume-soseki": {
-   "file": "archival/natsume-soseki.jpg",
-   "w": 760,
-   "h": 950,
-   "provenance": {
-    "title": "Portrait of Natsume Soseki (夏目漱石), photographed September/October 1912",
-    "collection": "Wikimedia Commons, reproduced from National Diet Library digitized volume 'Soseki Zenshu, Vol. 8' (漱石全集. 第8巻, 1929)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Natsume_Souseki.jpg",
-    "licence": "PD (Public Domain, Japan + US)",
-    "licenceBasis": "Photographer Ogawa Kazumasa (小川一真, 1860–1929); photograph taken 1912, published in a 1929 volume. PD in Japan (photographic works published before 1957/pre-1899 Copyright Act provisions; Ogawa died 1929, well past any personal-authorship term) and PD in the US (published before 1929 cutoff under URAA rules applied by Commons). Note: a near-duplicate/related capture from the same 1912 sitting is also on Commons as File:NATSUME_Soseki.jpg (823x1201, from 'Soseki no Omoide', 1928) with the same PD basis — not downloaded, kept as a documented alternate.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
-  },
-  "rabindranath-tagore": {
-   "file": "archival/rabindranath-tagore.jpg",
-   "w": 759,
-   "h": 950,
-   "provenance": {
-    "title": "Rabindranath Tagore in 1909",
-    "collection": "Wikimedia Commons",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg",
-    "licence": "PD-old-100-expired, CC-PD-Mark",
-    "licenceBasis": "Photo taken 1909, credited to Generalstabens litografiska anstalt (Swedish lithographic institution), published 1914 in 'Les Prix Nobel 1913' (Sweden), p.60. File page states public domain in countries with life+100-or-fewer copyright terms and marks it CC-PD-Mark 1.0.",
-    "commercialUse": "yes"
-   }
-  }
- },
- "covers": {
-  "franz-kafka--die-verwandlung": {
-   "file": "covers/franz-kafka--die-verwandlung.jpg",
-   "w": 385,
-   "h": 620,
-   "license": "CC-BY-3.0 H.-P. Haack",
-   "provenance": {
-    "title": "Die Verwandlung, 1st edition, original blue cardboard binding (Kurt Wolff Verlag, Leipzig, printed November 1915 as vol. 22/23 of 'Der jungste Tag')",
-    "collection": "Antiquariat Dr. Haack Leipzig -> private Vienna collection (photographed by H.-P. Haack)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Kafka_Die_Verwandlung_1916_Orig.-Pappband.jpg",
-    "licence": "CC-BY-3.0",
-    "licenceBasis": "Photographer H.-P. Haack self-published under CC BY 3.0 (own photo of a physical PD-era book object; the photo itself, not the 1915 text, carries this license)",
-    "commercialUse": "yes"
-   }
-  },
-  "franz-kafka--der-process": {
-   "file": "covers/franz-kafka--der-process.jpg",
-   "w": 420,
-   "h": 585,
-   "license": "PD",
-   "provenance": {
-    "title": "Der Prozess, 1st edition, original cloth binding (Verlag Die Schmiede, Berlin, 1925, 411 pages -- Wilpert/Guhring 8; Raabe 8)",
-    "collection": "Antiquariat Dr. Haack Leipzig -> private collection (photographed by H.-P. Haack)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Der_Prozess_1925.jpg",
-    "licence": "CC-PD-Mark / PD-old-70-expired (Commons categories); file page license template = pd",
-    "licenceBasis": "Commons file page carries the 'pd' license template with UsageTerms=Public domain and AttributionRequired=false; categorized PD-old-70-expired and CC-PD-Mark. This is a photograph of the plain cloth original binding (spine label + front-board title label) of the first edition.",
-    "commercialUse": "yes"
-   }
-  },
-  "franz-kafka--das-schloss": {
-   "file": "covers/franz-kafka--das-schloss.jpg",
-   "w": 420,
-   "h": 569,
-   "license": "PD-text",
-   "provenance": {
-    "title": "Das Schloss, 1st edition, original paperback wrapper (Kurt Wolff Verlag, Munich, 1926, 502 pages -- Wilpert/Guhring 9; Raabe 9)",
-    "collection": "Antiquariat Dr. Haack Leipzig -> private collection, Switzerland (photographed by H.-P. Haack)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Das_Schloss_1926.jpg",
-    "licence": "PD-text",
-    "licenceBasis": "Commons file page rationale (verified via API extmetadata Permission field): the depicted cover is plain typographic text below the threshold of originality ('not a literary work or other protected type'), so it is public domain regardless of the photographer's rights in the photo itself. License template = pd; UsageTerms=Public domain; AttributionRequired=false.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
-  },
-  "franz-kafka--in-der-strafkolonie": {
-   "file": "covers/franz-kafka--in-der-strafkolonie.jpg",
-   "w": 420,
-   "h": 610,
-   "license": "CC-BY-3.0 H.-P. Haack",
-   "provenance": {
-    "title": "In der Strafkolonie, title page of the first printing (Kurt Wolff Verlag, Leipzig, October 1919)",
-    "collection": "Antiquariat Dr. Haack Leipzig (photographed by H.-P. Haack)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka_Strafkolonie_(1919).jpg",
-    "licence": "CC-BY-3.0",
-    "licenceBasis": "Photographer H.-P. Haack self-published under CC BY 3.0 (verified via Commons API extmetadata: LicenseShortName=CC BY 3.0, AttributionRequired=true, LicenseUrl=creativecommons.org/licenses/by/3.0). The photo, not the 1919 text, carries this license.",
-    "commercialUse": "yes"
-   }
-  },
-  "natsume-soseki--wagahai-wa-neko-de-aru": {
-   "file": "covers/natsume-soseki--wagahai-wa-neko-de-aru.jpg",
-   "w": 420,
-   "h": 601,
-   "license": "PD",
-   "provenance": {
-    "title": "\"I Am a Cat\" (吾輩ハ猫デアル), English-edition binding/cover design by Hashiguchi Goyo, translated by K. Ando, 1906",
-    "collection": "Wikimedia Commons, digitized from Yale University Beinecke Rare Book & Manuscript Library",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:I_AM_A_CAT_by_K._Ando.jpg",
-    "licence": "PD Mark 1.0",
-    "licenceBasis": "Designer Hashiguchi Goyo (橋口五葉), died 1921 → PD (published before 1931, and >50/70 years p.m.a. in Japan).",
-    "commercialUse": "yes"
-   }
-  },
-  "natsume-soseki--kokoro": {
-   "file": "covers/natsume-soseki--kokoro.jpg",
-   "w": 252,
-   "h": 325,
-   "license": "PD",
-   "provenance": {
-    "title": "Book cover, first edition of『こゝろ』(Kokoro), 1914 — self-designed binding by Natsume Soseki",
-    "collection": "Wikimedia Commons (source listed on file page only as 'Katalog', i.e. an auction/library catalog scan)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Natsume_S%C3%B4seki_Umschlag_%22Kokoro%22.jpg",
-    "licence": "PD-Japan",
-    "licenceBasis": "Soseki designed his own binding for Kokoro (1914) and died in 1916 → PD in Japan (50 years p.m.a.) and US.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
-  },
-  "natsume-soseki--sorekara": {
-   "file": "covers/natsume-soseki--sorekara.jpg",
-   "w": 412,
-   "h": 620,
-   "license": "PD-Japan",
-   "provenance": {
-    "title": "Front cover, first edition of『それから』(And Then / Sorekara), Shunyodo, January 1910 (Meiji 43)",
-    "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/887086), mirrored to Wikimedia Commons as File:NDL887086 それから part1.pdf",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL887086_%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%89_part1.pdf",
-    "licence": "PD-Japan / PD-scan (PD-Japan)",
-    "licenceBasis": "Commons file categorized PD-Japan and PD-scan (PD-Japan); NDL Digital Collections item is marked internet-public (protection-period-expired). Verified via Commons API extmetadata (License=pd, UsageTerms=Public domain) and independently confirmed publisher/date against the NDL bibliographic record (dl.ndl.go.jp/pid/887086: 著者：夏目漱石 著, 出版者：春陽堂, 出版年月日：明43.1 -- i.e. author Natsume Soseki, publisher Shunyodo, Meiji 43 = January 1910), which matches the documented first-book-edition date.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
-  },
-  "natsume-soseki--sanshiro": {
-   "file": "covers/natsume-soseki--sanshiro.jpg",
-   "w": 397,
-   "h": 620,
-   "license": "PD-Japan",
-   "provenance": {
-    "title": "Front cover, first edition of『三四郎』(Sanshiro), Shunyodo, May 1909 (Meiji 42)",
-    "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/886555), mirrored to Wikimedia Commons as File:NDL886555 三四郎 part1.pdf",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL886555_%E4%B8%89%E5%9B%9B%E9%83%8E_part1.pdf",
-    "licence": "PD-Japan / PD-scan (PD-Japan)",
-    "licenceBasis": "Commons file categorized PD-Japan and PD-scan (PD-Japan), extmetadata License=pd. Cross-checked against the NDL bibliographic record (dl.ndl.go.jp/pid/886555: 著者：夏目漱石 著, 出版者：春陽堂, 出版年月日：明42.5 -- Shunyodo, Meiji 42 = May 1909), matching the documented first-book-edition date. Design attribution to Hashiguchi Goyo (橋口五葉, d. 1921) is the commonly cited designer for Soseki's Shunyodo bindings of this period but is not independently confirmed on the Commons/NDL file page itself -- flagged as unconfirmed attribution, not asserted as fact.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
-  },
-  "natsume-soseki--botchan": {
-   "file": "covers/natsume-soseki--botchan.jpg",
-   "w": 370,
-   "h": 620,
-   "license": "PD-Japan",
-   "provenance": {
-    "title": "Front cover, first edition of『鶉籠』(Uzura Kago), Shunyodo, January 1907 (Meiji 40) -- the collection volume containing the first book publication of『坊っちゃん』(Botchan)",
-    "collection": "National Diet Library Digital Collections (dl.ndl.go.jp/pid/885509), mirrored to Wikimedia Commons as File:NDL885509 鶉籠 part1.pdf",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:NDL885509_%E9%B6%89%E7%B1%A0_part1.pdf",
-    "licence": "PD-Japan / PD-scan (PD-Japan)",
-    "licenceBasis": "Commons file categorized PD-Japan and PD-scan (PD-Japan), extmetadata License=pd. Cross-checked against the NDL bibliographic record (dl.ndl.go.jp/pid/885509: 著者：夏目漱石（金之助）著, 出版者：春陽堂, 出版年月日：明40.1 -- Shunyodo, Meiji 40 = January 1907), matching Botchan's documented first-book-edition date (serialized in Hototogisu in 1906, then collected into this Shunyodo anthology on 1 January 1907). Note: Botchan itself was not published as a freestanding first-edition volume -- its first book appearance is inside this multi-work Uzura Kago collection (with 'I Am a Cat' excerpts and other short works), so this cover represents Botchan's true first-edition binding rather than a substitute.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
-  },
-  "rabindranath-tagore--gitanjali": {
-   "file": "covers/rabindranath-tagore--gitanjali.jpg",
-   "w": 405,
-   "h": 620,
-   "license": "PD",
-   "provenance": {
-    "title": "Title page,『গীতাঞ্জলি』(Gitanjali), original Bengali text, Sri Rabindranath Tagore -- তৃতীয় সংস্করণ (Third Edition), Indian Press, Allahabad, Bengali year ১৩২০ (Bengali Era 1320 = c. 1913 CE)",
-    "collection": "Digital Library of India scan, mirrored to Wikimedia Commons as File:গীতাঞ্জলি - রবীন্দ্রনাথ ঠাকুর.djvu (uploaded by Commons user Jayanta Nath)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%97%E0%A7%80%E0%A6%A4%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%B2%E0%A6%BF_-_%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0.djvu",
-    "licence": "PD-old-80-expired, CC-PD-Mark",
-    "licenceBasis": "Commons file categorized PD-old-80-expired and CC-PD-Mark, extmetadata License=pd, UsageTerms=Public domain, AttributionRequired=false. Author Rabindranath Tagore died 1941, well past any life+70/80 term; text itself first published 1910.",
-    "commercialUse": "yes"
-   }
-  },
-  "rabindranath-tagore--ghare-baire": {
-   "file": "covers/rabindranath-tagore--ghare-baire.jpg",
-   "w": 377,
-   "h": 620,
-   "license": "PD-US",
-   "provenance": {
-    "title": "Cover, \"The Home and the World\" (English translation of ঘরে বাইরে / Ghare Baire), Rabindranath Tagore",
-    "collection": "Internet Archive (archive.org/details/hometheworld00tagouoft), mirrored to Wikimedia Commons as File:The Home and the World - cover page.jpg",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Home_and_the_World_-_cover_page.jpg",
-    "licence": "PD-US",
-    "licenceBasis": "Commons file categorized PD US, extmetadata License=pd, UsageTerms=Public domain, AttributionRequired=false. Commons' own DateTimeOriginal field records 1921 for this specific scanned copy/printing.",
-    "commercialUse": "unverified-outside-source-jurisdiction"
-   }
-  }
- },
- "grounds": {
-  "franz-kafka": {
-   "file": "grounds/franz-kafka.jpg",
-   "w": 1280,
-   "h": 805,
-   "provenance": {
-    "title": "Kafka's notebook -- German-Hebrew vocabulary page, Prague 1922 (autograph manuscript)",
-    "collection": "National Library of Israel, Givat Ram, Jerusalem (Vessel to Vessel digital gallery)",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafka%27s_notebook.JPG",
-    "licence": "PD-old (generic)",
-    "licenceBasis": "Author (Franz Kafka) died 1924; life+70 protection expired 1994",
-    "commercialUse": "yes"
-   }
-  },
-  "natsume-soseki": {
-   "file": "grounds/natsume-soseki.jpg",
-   "w": 1280,
-   "h": 957,
-   "provenance": {
-    "title": "Manuscript page of『吾輩は猫である』(I Am a Cat)",
-    "collection": "Wikimedia Commons, reproduced from National Diet Library Digital Collections — 1936 'Soseki Zenshu' (漱石全集) published by Soseki Zenshu Kankokai",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Manuscripts_of_%22I_Am_a_Cat%22.jpg",
-    "licence": "PD Mark 1.0",
-    "licenceBasis": "Author Natsume Soseki, died 1916; work published in facsimile before 1931 → PD in Japan and US per Commons PD Mark rationale.",
-    "commercialUse": "yes"
-   }
-  },
-  "rabindranath-tagore": {
-   "file": "grounds/rabindranath-tagore.jpg",
-   "w": 834,
-   "h": 1280,
-   "provenance": {
-    "title": "Original manuscript of Gitanjali - Rabindranath Tagore - Rothenstein collection.pdf, notebook page numbered '20' (printed folio '11')",
-    "collection": "Wikimedia Commons",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Original_manuscript_of_Gitanjali_-_Rabindranath_Tagore_-_Rothenstein_collection.pdf",
-    "licence": "Public Domain Mark 1.0 (CC0-equivalent per file page)",
-    "licenceBasis": "File page states public domain because the author (Tagore) died in 1941 and the manuscript predates 1931. Source: Rothenstein Papers collection, Houghton Library, Harvard University -- Tagore's autograph manuscript, given to William Rothenstein in London in 1912.",
-    "commercialUse": "yes"
-   }
-  }
- }
 }

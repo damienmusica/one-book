@@ -47,12 +47,39 @@ if (!dataset) throw new Error(`dataset failed: ${errors.join("; ")}`);
 const d = dataset;
 const byId = new Map(d.authors.map((a) => [a.id, a]));
 // 실물 자산 — 서명·초판 표지. 전부 출처와 이용 조건이 적힌 것만(public/art/manifest.json). AI 초상은 쓰지 않는다.
-type ArtEntry = { file: string; w: number; h: number; license?: string; provenance?: { title?: string; collection?: string; licence?: string } };
+type ArtEntry = {
+  file: string; w: number; h: number; license?: string;
+  // shows: 이 이미지가 실제로 무엇인가(초판 표지·초판 표제지·영역본 표지·수록본) — 「초판 표지」로 일괄해 적지 않는다(2026-09-24 감사:
+  // 『나는 고양이로소이다』의 「초판 표지」는 1906년 영역본이었다). creator·licenseUrl: CC BY 가 요구하는 저작자 표시와 라이선스 링크.
+  provenance?: { title?: string; collection?: string; licence?: string; creator?: string; licenseUrl?: string; pageUrl?: string; shows?: string; captionKo?: string; altKo?: string; commercialUse?: string };
+};
 const ART: Record<"marks" | "signatures" | "covers", Record<string, ArtEntry>> = JSON.parse(readFileSync(join(PKG_ROOT, "public", "art", "manifest.json"), "utf8"));
 const signatureOf = (authorId: string): ArtEntry | undefined => ART.signatures[authorId] ?? ART.marks[authorId];
+// 저작자 표시가 필요한 이미지(CC BY·BY-SA)인가 — 크레딧을 그릴 수 없는 자리(첫 장의 캡슐)에는 싣지 않는다.
+const needsCredit = (e: ArtEntry): boolean => /CC[ -]BY/i.test(`${e.provenance?.licence ?? ""} ${e.license ?? ""}`);
+// 크레딧 한 줄 — 라이선스(링크), 저작자, 원본 파일(링크). CC BY 는 이 셋을 요구한다.
+const creditHtml = (e: ArtEntry): string => {
+  const p = e.provenance ?? {};
+  const lic = p.licence ?? e.license ?? "PD";
+  const licHtml = p.licenseUrl ? `<a href="${esc(p.licenseUrl)}" rel="license noopener">${esc(lic)}</a>` : esc(lic);
+  const src = p.pageUrl ? `<a href="${esc(p.pageUrl)}" rel="noopener">원본 파일</a>` : "Wikimedia Commons";
+  return `${licHtml}${p.creator && !lic.includes(p.creator) ? ` ${esc(p.creator)}` : ""} · ${src}`;
+};
+const coverShows = (c: ArtEntry): string => c.provenance?.shows ?? "초판 표지";
 // 인장 글자 판정 원장 — 마지막 낱말이 성이 아닌 이름들. 헝가리 이름은 성이 앞에 선다.
 // 판매 상태 — 서점 상품 페이지에서 확인한 것만(qc/edition-availability.json). 카카오의 판매 상태는 절판본도 정상판매라 한다.
 const OUT_OF_PRINT = new Set(Object.entries<{ status?: string }>(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-availability.json"), "utf8")).byIsbn ?? {}).filter(([, v]) => v.status === "out-of-print").map(([k]) => k));
+// 판매 확인 — 고정 원장(qc/edition-pins.json)의 판은 사람이 서점 상품 페이지에서 「지금 새 책으로 살 수 있다」를 확인했다.
+// 표의 나머지 판은 이 작품의 판이 맞는지(제목·역자·ISBN)만 검수했다 — 두 말을 섞지 않는다(2026-09-24 감사: 머리 판의 4분의 1이 절판).
+const SALE_CHECKED = new Map<string, string>(
+  Object.values(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-pins.json"), "utf8")).byWork as Record<string, Array<{ isbn13: string; checkedAt?: string }>>)
+    .flat()
+    .map((p) => [p.isbn13, p.checkedAt ?? ""])
+);
+// 다권본의 나머지 권 — 표에는 1권 행 하나만 올라와 하권이 어디에도 없었다(86편).
+const VOLUMES = new Map<string, Array<{ isbn13: string; volume: string }>>();
+for (const list of Object.values(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-volumes.json"), "utf8")).byWork as Record<string, Array<{ isbn13: string; volume: string; set: string }>>))
+  for (const v of list) VOLUMES.set(v.set, [...(VOLUMES.get(v.set) ?? []), { isbn13: v.isbn13, volume: v.volume }]);
 const BASIS_ATTESTED: Record<string, boolean | undefined> = Object.fromEntries(
   Object.entries<{ attested?: boolean }>(JSON.parse(readFileSync(join(PKG_ROOT, "qc", "edition-basis.json"), "utf8")).byIsbn ?? {}).map(([k, v]) => [k, v.attested])
 );
@@ -98,8 +125,8 @@ const lifeSpan = (a: Author): string =>
   a.birthYear === undefined
     ? `활동 ${span(a.activeRange[0], a.activeRange[1])}`
     : a.deathYear === undefined && a.birthYear < THIS_YEAR - 110
-      ? `${yr(a.birthYear)}–?`
-      : span(a.birthYear, a.deathYear);
+      ? `${yr(a.birthYear)}${a.lifeApprox ? " 무렵" : ""}–?`
+      : `${span(a.birthYear, a.deathYear)}${a.lifeApprox ? " 무렵" : ""}`;
 
 // lang 은 글자가 그 말의 문자일 때만 단다. 로마자로 적힌 제목에 ja 를, 키릴로 적힌 이름에 en 을 달면 읽어 주는
 // 목소리가 틀린다. 오른쪽에서 읽는 문자에는 dir 도 단다(CSS direction 은 접근성 트리에 닿지 않는다).
@@ -338,10 +365,11 @@ function acquireBlock(w: Work, a: Author | undefined): string {
       const original = a ? a.languages.includes(lang) && lang !== "ko" : false;
       const head = lang === "ko" ? "한국어" : `${LANGUAGE_LABELS[lang] ?? lang}${original ? " 원서" : "판"}`;
       return `<tbody class="grp"><tr class="gh"><th colspan="6">${esc(head)} ${list.length}</th></tr>
-${list.map((e) => `<tr class="ed"><td class="pub">${esc(e.publisher)}</td><td class="tr">${e.translator ? `${esc(e.translator)} 옮김` : ""}</td><td class="yr">${e.year}</td><td class="flag">${flag(e)}</td><td class="isbn">ISBN ${esc(e.isbn13)}${OUT_OF_PRINT.has(e.isbn13) ? ` <span class="oop">절판 — 도서관에서</span>` : ""}</td><td class="get"><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a><a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a>${e.language !== "ko" ? `<a href="https://search.worldcat.org/isbn/${esc(e.isbn13)}" rel="nofollow noopener">WorldCat</a>` : ""}</td></tr>
+${list.map((e) => `<tr class="ed"><td class="pub">${esc(e.publisher)}</td><td class="tr">${e.translator ? `${esc(e.translator)} 옮김` : ""}</td><td class="yr">${e.year}</td><td class="flag">${flag(e)}</td><td class="isbn">ISBN ${esc(e.isbn13)}${(VOLUMES.get(e.isbn13) ?? []).map((v) => `<span class="vol">${esc(v.volume)}권 ${esc(v.isbn13)}</span>`).join("")}${OUT_OF_PRINT.has(e.isbn13) ? ` <span class="oop">절판·품절 — 도서관에서</span>` : SALE_CHECKED.has(e.isbn13) ? ` <span class="ok">판매 확인 ${esc(SALE_CHECKED.get(e.isbn13) ?? "")}</span>` : ""}</td><td class="get"><a href="${ALADIN_ISBN(e.isbn13)}" rel="nofollow noopener">서점</a><a href="${NL_SEARCH(e.isbn13)}" rel="nofollow noopener">도서관</a>${e.language !== "ko" ? `<a href="https://search.worldcat.org/isbn/${esc(e.isbn13)}" rel="nofollow noopener">WorldCat</a>` : ""}</td></tr>
 <tr class="why"><td colspan="6">${editionTitleNote(e, w)}${e.note ? esc(readerNote(e.note)) : ""}<span class="src">${esc(readerSource(e.verifiedFrom))} · ${esc(e.verifiedAt)}</span></td></tr>`).join("\n")}</tbody>`;
     };
     return `<section class="row"><h2 class="side label">구하기 — 검수된 판본 ${eds.length}</h2><div class="wide">
+<p class="sig eds-note">검수는 이 작품의 판이 맞는지(제목·역자·ISBN)다. 지금 살 수 있는지는 「판매 확인」이 붙은 판만 우리가 서점에서 확인했다.</p>
 <table class="eds"><thead><tr><th>출판사</th><th>옮긴이</th><th>연도</th><th>저본</th><th>ISBN</th><th></th></tr></thead>
 ${langs.map(group).join("\n")}</table></div></section>`;
   }
@@ -419,7 +447,7 @@ export function relationsSection(rels: Relation[], selfId: string): string {
 
 function coverOf(w: Work): string {
   const c = ART.covers[w.id];
-  return c ? `<figure class="cover"><img src="/art/${esc(c.file)}" width="${c.w}" height="${c.h}" alt="『${esc(w.titleKo)}』 초판 표지" loading="lazy"></figure>` : "";
+  return c ? `<figure class="cover"><img src="/art/${esc(c.file)}" width="${c.w}" height="${c.h}" alt="${esc(c.provenance?.altKo ?? `『${w.titleKo}』 ${coverShows(c)}`)}" loading="lazy"></figure>` : "";
 }
 function workRow(w: Work, entryWhy?: string): string {
   return `<li>${coverOf(w)}<div class="head"><span class="t"><a href="/works/${esc(w.id)}/">${esc(w.titleKo)}</a></span><span class="y">${esc(yr(w.year))}${YEAR_BASIS_SHORT[w.yearBasis ?? "attested"] ?? ""}</span>${w.world ? `<span class="tag">여는 문장</span>` : ""}</div>
@@ -540,10 +568,9 @@ ${a.names.original && a.names.original !== a.names.ko ? `<p class="orig ${stance
 function artCredits(a: Author, works: Work[]): string {
   const sig = signatureOf(a.id);
   const covers = works.map((w) => ART.covers[w.id]).filter((c): c is ArtEntry => Boolean(c));
-  const lic = (e: ArtEntry): string => e.license ?? e.provenance?.licence ?? "PD";
   return [
-    sig ? `<p class="credit">서명 — ${esc(lic(sig))} · Wikimedia Commons</p>` : "",
-    covers.length ? `<p class="credit">초판 표지 — ${esc([...new Set(covers.map(lic))].join(" · "))}</p>` : ""
+    sig ? `<p class="credit">서명 — ${creditHtml(sig)}</p>` : "",
+    ...covers.map((c) => `<p class="credit">${esc(coverShows(c))} — ${creditHtml(c)}</p>`)
   ].join("");
 }
 
@@ -697,7 +724,7 @@ ${
 그 너머 — 무엇이 이 책을 그 자리에 세웠는지 — 는 아직 우리가 읽지 않았다.</p>`
 }
 ${verified && world ? `<blockquote class="opening"><p${langAttr(world.opening.original, a?.languages[0])}>${esc(world.opening.original)}</p><p class="ko">${esc(world.opening.ko)}</p><span class="label">여는 문장 · 자체 번역</span></blockquote>` : ""}</div>
-${cover ? `<aside class="aside"><figure class="cover fig"><img src="/art/${esc(cover.file)}" width="${cover.w}" height="${cover.h}" alt="『${esc(w.titleKo)}』 초판 표지"><figcaption>${firstEd ? `초판 — ${firstEd.year} · ${esc(firstEd.publisher)}, ${esc(firstEd.place)}<br>` : ""}사진 ${esc(cover.license ?? cover.provenance?.licence ?? "PD")} · Wikimedia Commons</figcaption></figure></aside>` : ""}</section>
+${cover ? `<aside class="aside"><figure class="cover fig"><img src="/art/${esc(cover.file)}" width="${cover.w}" height="${cover.h}" alt="${esc(cover.provenance?.altKo ?? `『${w.titleKo}』 ${coverShows(cover)}`)}"><figcaption>${cover.provenance?.captionKo ? `${esc(cover.provenance.captionKo)}<br>` : firstEd && coverShows(cover) === "초판 표지" ? `초판 — ${firstEd.year} · ${esc(firstEd.publisher)}, ${esc(firstEd.place)}<br>` : ""}사진 ${creditHtml(cover)}</figcaption></figure></aside>` : ""}</section>
 ${
   verified && world
     ? `<section class="row"><div class="side"></div><div class="main"><table class="facts">
@@ -1075,7 +1102,8 @@ function walkPage(): string {
           why: a.importanceReason ? firstSentence(a.importanceReason) : "",
           depth: a.depth ?? "plate",
           pv: proved(a) ? 1 : 0,
-          sg: signatureOf(a.id)?.file,
+          // 저작자 표시가 필요한 서명은 첫 장에 싣지 않는다 — 캡슐에는 크레딧을 그릴 자리가 없다(움베르토 에코, CC BY 3.0).
+          sg: (() => { const sg = signatureOf(a.id); return sg && !needsCredit(sg) ? sg.file : undefined; })(),
           entry: a.readingEntryReason ? firstSentence(a.readingEntryReason) : undefined,
           // 입문 순서가 있는 사람만 「여기서 읽기 시작한다면」이다. 연도순 목록에 그 제목을 달면 없는 추천을 지어낸다.
           ord: byOrder.length ? 1 : 0,

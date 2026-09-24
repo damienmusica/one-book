@@ -179,7 +179,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.75,
-    "summary": "같은 1955년 석사논문의 다른 한 축이 포크너였고, 모리슨은 1985년 미시시피 대학의 포크너 학술대회에 초청되어 자기 독서를 직접 말했다. 한 공동체의 과거가 여러 화자의 조각으로만 돌아오는 구성에서 두 사람은 같은 문제를 다룬다.",
+    "summary": "모리슨은 1955년 석사논문에서 울프와 포크너를 다뤘고, 1985년에는 미시시피 대학의 포크너 학술대회에 초청되어 자기 독서를 직접 말했다. 한 공동체의 과거가 여러 화자의 조각으로만 돌아오는 구성에서 두 사람은 같은 문제를 다룬다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--morrison-cornell-thesis-1955",
@@ -877,15 +877,10 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.7,
-    "summary": "드릴로는 파리 리뷰 인터뷰에서 젊을 때 『율리시스』를 읽고 문장이 그 자체로 무엇을 할 수 있는지 알게 됐다고 말했다. 상표와 방송 음성 같은 기성 언어를 그대로 문장에 박아 넣는 그의 방법은 이 독서에서 출발한다.",
+    "summary": "드릴로는 1993년 『파리 리뷰』 인터뷰에서 조이스를 통해 언어에 깃든 광채를 보게 됐다고 말했다. 다만 그때 읽은 것은 『율리시스』가 아니라 『젊은 예술가의 초상』이었을지 모른다고 스스로 덧붙였다.",
     "evidenceLevel": "documented",
     "sourceIds": [
-      "src--paris-review"
-    ],
-    "anchors": [
-      {
-        "workId": "james-joyce--ulysses"
-      }
+      "src--paris-review-delillo-1993"
     ]
   },
   {
@@ -895,11 +890,10 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.55,
-    "summary": "인물이 둘뿐이고 사건 대신 시간과 발화만 남는 드릴로의 후기 중편들을 베케트 말년 산문의 계보에서 읽는 연구가 반복해 나온다. 드릴로 자신도 인터뷰에서 베케트를 자기 세대의 언어를 바꿔 놓은 작가로 여러 차례 들었다.",
+    "summary": "마크 패런트(2023)는 『바디 아티스트』부터 『침묵』까지 드릴로의 후기 소설이 베케트가 말한 ‘비언어의 문학’에 다가간다고 읽고, 드릴로가 베케트를 직접적 영향으로 자주 꼽았다고 적는다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
-      "src--cambridge-companions",
-      "src--paris-review"
+      "src--farrant-2023-delillo-beckett"
     ]
   },
   {
