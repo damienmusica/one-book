@@ -1,0 +1,295 @@
+{
+  "plates": [
+    {
+      "id": "herman-melville",
+      "claims": [
+        {
+          "sids": [
+            "960f683543ba"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『모비 딕』은 포경 항해 이야기에 설교·희곡(무대극) 같은 여러 장르를 섞어 서술한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+          "quote": "Ishmael is the narrator, shaping his story with the use of many different genres including sermons, stage plays, soliloquies, and emblematical readings.",
+          "note": "'포경선 항해기'는 같은 문서 도입부의 'captain of the whaling ship Pequod'가 받친다. '소설이 무엇이든 삼킬 수 있는 형식임을 보였다'는 평가라 사실 주장으로 따로 대지 않았다 — 이를 문자 그대로 말하는 출처는 찾지 못했다(가장 가까운 것은 같은 문서의 로런스 뷰얼 \"an epic of cosmic encyclopedic proportions\")."
+        },
+        {
+          "sids": [
+            "960f683543ba"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『모비 딕』에는 고래의 속성을 과학적 형식으로 풀어 놓는 논문식 장들이 들어 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Cetology_of_Moby-Dick",
+          "quote": "Although writing a work of fiction, Melville included extensive material that presents the properties of whales in a seemingly scientific form.",
+          "note": "'논문'은 출처의 'seemingly scientific form'에 대한 풀어쓰기다. 브리태니커 『모비 딕』 항목도 \"narrative and essayistic portions intermingle\"라 적는다(https://web.archive.org/web/2024/https://www.britannica.com/topic/Moby-Dick-novel)."
+        },
+        {
+          "sids": [
+            "a54e09eb39f6"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『모비 딕』은 멜빌 생전(사망 당시)에 절판되어 있었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+          "quote": "Moby-Dick was out of print during the last four years of Melville's life, having sold 2,300 in its first year and a half and on average 27 copies a year for the next 34 years, totaling 3,215 copies."
+        },
+        {
+          "sids": [
+            "a54e09eb39f6"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『빌리 버드』는 멜빌 생전에 출간되지 못하고 사후 1924년에야 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Billy_Budd",
+          "quote": "is a novella by American writer Herman Melville, left unfinished at his death in 1891. Acclaimed by critics as a masterpiece when a hastily transcribed version was finally published in 1924"
+        },
+        {
+          "sids": [
+            "a54e09eb39f6"
+          ],
+          "field": "author.importanceReason",
+          "claim": "멜빌은 사망 당시 잊혀 있었고 1919년 탄생 100주년부터 재발견(멜빌 부흥)이 시작되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Herman_Melville",
+          "quote": "At the time of his death, Melville was not well known to the public, but 1919, the centennial of his birth, was the starting point of a Melville revival.",
+          "note": "같은 문서 본문은 재평가가 1917년 칼 밴 도런의 글로 시작됐다고도 적는다(\"The renewed appreciation began in 1917 with Carl Van Doren's article\"). 문장은 '1919년 이후'라 도입부 규정과 맞는다."
+        },
+        {
+          "sids": [
+            "a54e09eb39f6"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『빌리 버드』 원고는 1919년 무렵 유족에게서 나와 1924년에 출간되었다(1919년 이후 세상에 나옴)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Herman_Melville",
+          "quote": "The pages were stored in a family breadbox until 1919 when Melville's granddaughter gave them to Raymond Weaver. Weaver, who initially dismissed the work's importance, published a quick transcription in 1924.",
+          "note": "위키백과 Billy Budd 항목은 위버가 원고를 본 방문을 1918년 8월로 적는다(\"In August 1918, Raymond M. Weaver … paid a visit to Melville's granddaughter\"). 원고 입수 연도는 문서끼리 갈리지만, 대중에게는 \"Wholly unknown to the public until 1924\"(같은 Billy Budd 항목)이라 '1919년 이후 재발견'은 출간 기준으로 맞다."
+        },
+        {
+          "sids": [
+            "a54e09eb39f6"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『모비 딕』은 1919년 탄생 100주년 뒤인 20세기에야 '위대한 미국 소설'이라는 평판을 얻었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+          "quote": "Its reputation as a Great American Novel was established only in the 20th century, after the 1919 centennial of its author's birth."
+        },
+        {
+          "sids": [
+            "2bc8445d0a62"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『필경사 바틀비』는 단편소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener",
+          "quote": "\"Bartleby, the Scrivener: A Story of Wall Street\" is a short story by American writer Herman Melville"
+        },
+        {
+          "sids": [
+            "2bc8445d0a62"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "바틀비의 거절은 끝내 이유가 설명되지 않는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener",
+          "quote": "The narrator and the text do not explicitly explain the reason for Bartleby's behavior, leaving it open to interpretation."
+        },
+        {
+          "sids": [
+            "2bc8445d0a62"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "바틀비의 거절을 그를 둘러싼 법률사무소·법·경제 질서가 받아들이지 못한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener",
+          "quote": "Bartleby's passivity has no place in a legal and economic system that increasingly sides with the \"reasonable\" and economically active individual.",
+          "note": "'조직'은 출처의 'legal and economic system'보다 좁은 말이지만, 줄거리도 사무실 쪽이 그를 견디지 못함을 적는다: 변호사는 사무실을 옮기고 새 입주자와 건물주가 그를 내보내려다 경찰을 부른다(같은 문서 줄거리). '멜빌의 핵심이 다 들어 있다'는 입문작 선정 판단이라 사실 주장으로 대지 않았다."
+        },
+        {
+          "sids": [
+            "09e347c08c6b"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『모비 딕』의 고래학 장(32장 「고래학」)은 피쿼드호가 출항한 뒤에 나온다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/2701/pg2701.txt",
+          "quote": "Already we are boldly launched upon the deep; but soon we shall be lost in its unshored, harbourless immensities. Ere that come to pass; ere the Pequod’s weedy hull rolls side by side with the barnacled hulls of the leviathan; at the outset it is but well to attend to a matter almost indispensable to a thorough appreciative understanding of the more special leviathanic revelations and allusions of all sorts which are to follow.",
+          "note": "소설 본문 32장 「Cetology」의 첫 단락(프로젝트 구텐베르크). 출항은 22장 「Merry Christmas」. 고래 묘사는 이 밖에도 17개 장에 이어진다(위키백과 Cetology of Moby-Dick: \"Further descriptions of whales and their anatomy occur in seventeen other chapters\"). 이전 인용은 위키백과 줄거리의 두 단락을 이어 붙인 것이라 한 단락짜리 원문으로 바꿨다."
+        },
+        {
+          "sids": [
+            "09e347c08c6b"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『모비 딕』의 고래학 장들은 줄거리에서 벗어나는 여담이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Cetology_of_Moby-Dick",
+          "quote": "The detailed descriptions are a digression from the story-line, but critics argue that their objectivity and encyclopedic form balance the spiritual elements of the novel and ground its cosmic speculations."
+        },
+        {
+          "sids": [
+            "b3f13dd84f38"
+          ],
+          "field": "work:herman-melville--benito-cereno.significance",
+          "claim": "무대는 노예 반란이 이미 일어나 반란 노예들이 장악한 노예선이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Benito_Cereno",
+          "quote": "The ship is actually filled with rebel slaves who killed their owner, Alexandro Aranda, and are in control of the Spaniards and Captain Benito.",
+          "note": "노예선이라는 점은 같은 문서 도입부: \"visits the San Dominick, a Spanish slave ship apparently in distress\"."
+        },
+        {
+          "sids": [
+            "b3f13dd84f38"
+          ],
+          "field": "work:herman-melville--benito-cereno.significance",
+          "claim": "그 배를 찾아간 선장 델라노는 미국인이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Benito_Cereno",
+          "quote": "In 1799 off the coast of Chile, captain Amasa Delano of the American sealer and merchant ship Bachelor's Delight visits the San Dominick, a Spanish slave ship apparently in distress."
+        },
+        {
+          "sids": [
+            "b3f13dd84f38"
+          ],
+          "field": "work:herman-melville--benito-cereno.significance",
+          "claim": "서술은 거의 전적으로 델라노의 비뚤어진 시선에 묶여 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Benito_Cereno",
+          "quote": "Melville \"adopts the voice of an omniscient and supposedly objective speaker, but limits his reporting almost exclusively to Delano's skewed point of view.\"",
+          "note": "서술자는 3인칭이고 델라노의 시선만 전한다('미국인 선장의 시선으로 서술한다'는 1인칭 서술로 읽히지 않는 한 맞다). '거의 전적으로'는 출처의 'almost exclusively'와 같은 폭이다."
+        },
+        {
+          "sids": [
+            "ccfa8580a2b2"
+          ],
+          "field": "work:herman-melville--bartleby-the-scrivener.significance",
+          "claim": "월가 변호사의 필경사가 모든 요청에 'I would prefer not to'(하지 않는 편을 택하겠습니다)로 답한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener",
+          "quote": "In the story, a Wall Street lawyer hires a new clerk, who, after an initial bout of hard work, refuses to make copies or do any other task required of him, responding to any request with the words \"I would prefer not to\", which become all he says.",
+          "note": "처음 한동안은 일을 많이 한다(\"after an initial bout of hard work\"). '모든 지시에'는 거절이 시작된 뒤의 응답을 말하는 것으로 출처의 'any request'와 맞는다. 사무실이 법률사무소라는 점은 줄거리: \"an unnamed elderly lawyer who works with legal documents and has an office on Wall Street\"."
+        },
+        {
+          "sids": [
+            "ccfa8580a2b2"
+          ],
+          "field": "work:herman-melville--bartleby-the-scrivener.significance",
+          "claim": "바틀비를 내보내지 못한 변호사가 끝내 사무실을 다른 건물로 옮긴다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener",
+          "quote": "Sensing the threat to his reputation, but emotionally unable to evict Bartleby, the narrator moves his business to a different building."
+        },
+        {
+          "sids": [
+            "b5ec8438a909"
+          ],
+          "field": "work:herman-melville--bartleby-the-scrivener.significance",
+          "claim": "바틀비의 거절은 이유가 설명되지 않는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Bartleby,_the_Scrivener",
+          "quote": "The narrator and the text do not explicitly explain the reason for Bartleby's behavior, leaving it open to interpretation."
+        },
+        {
+          "sids": [
+            "b5ec8438a909"
+          ],
+          "field": "work:herman-melville--bartleby-the-scrivener.significance",
+          "claim": "아감벤, 하트와 네그리, 지젝이 바틀비를 급진 정치의 형상으로 불러냈다",
+          "verdict": "confirmed",
+          "url": "https://nonsite.org/bartlebys-occupation-passive-resistance-then-and-now/",
+          "quote": "I refer here to the dual phenomena of political theorists like Agamben, Hardt and Negri and Žižek invoking Bartleby as a figure for a radical politics, and Occupy Wall Street’s adoption of Bartleby (the original “occupier”) as an unofficial mascot.",
+          "note": "출처 각주 3이 각 저작을 든다: 아감벤 「Bartleby, or On Contingency」, 하트·네그리 『제국』 203–4쪽, 지젝 『시차적 관점』 381–85쪽. 하트와 네그리는 공저자 두 사람이다 — 문장의 '하트·네그리'는 이를 둘로 나열한 것이라 틀리지 않는다."
+        },
+        {
+          "sids": [
+            "2bce8163b5b9"
+          ],
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "수병 빌리는 자기를 모함한 클래가트를 쳐서 뜻하지 않게 죽인다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Billy_Budd",
+          "quote": "Billy Budd is a \"handsome sailor\" who strikes and inadvertently kills his false accuser, the master-at-arms, John Claggart."
+        },
+        {
+          "sids": [
+            "2bce8163b5b9"
+          ],
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "군법(전시 군법·군법회의)이 빌리를 유죄로 판결해 처형하기까지를 따라간다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Billy_Budd",
+          "quote": "The martial law in effect states that during wartime the blow itself, fatal or not, is a capital crime. The court-martial convicts Billy following Vere's argument that any appearance of weakness in the officers and failure to enforce discipline could stir more mutiny throughout the Royal Navy. Condemned to be hanged the morning after his attack on Claggart, Billy's last words prior to his execution are"
+        },
+        {
+          "sids": [
+            "e055447eb805"
+          ],
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "멜빌 사후 미완의 원고로 남았다가 1924년에 처음 출간되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Billy_Budd",
+          "quote": "is a novella by American writer Herman Melville, left unfinished at his death in 1891. Acclaimed by critics as a masterpiece when a hastily transcribed version was finally published in 1924",
+          "note": "원고 상태였다는 점은 같은 문서 도입부 둘째 단락: \"Melville began work on the novella in November 1886, revising and expanding it from time to time, but he left the manuscript in disarray.\""
+        },
+        {
+          "sids": [
+            "e055447eb805"
+          ],
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "1924년 초판의 제목은 Billy Budd, Foretopman이었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Billy_Budd",
+          "quote": "After producing a text that would later be described as \"hastily transcribed\", he published the first edition of the work in 1924 as Billy Budd, Foretopman in Volume XIII of the Standard Edition of Melville's Complete Works (London: Constable and Company)."
+        },
+        {
+          "sids": [
+            "e055447eb805"
+          ],
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "지금 쓰이는 제목 Billy Budd, Sailor는 멜빌이 의도한 제목으로 보인다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Billy_Budd",
+          "quote": "For example, early versions gave the book's title as Billy Budd, Foretopman, while it now seems clear Melville intended Billy Budd, Sailor (An Inside Narrative)",
+          "note": "'지금 쓰이는'은 같은 문서 첫 문장이 받친다: \"Billy Budd, Sailor (An Inside Narrative), formerly known as Billy Budd, Foretopman\". 문장은 부제 (An Inside Narrative)를 생략했다. '보인다'는 출처의 'now seems clear'보다 약하게 말한 것이라 과장이 아니다."
+        },
+        {
+          "sids": [
+            "b3ad7046d4b6"
+          ],
+          "field": "relation:influence--herman-melville--clr-james.summary",
+          "claim": "제임스는 엘리스섬에 억류된 동안 『선원, 배신자, 표류자』(1953)를 썼다",
+          "verdict": "confirmed",
+          "url": "https://brandeisuniversitypress.com/title/mariners-renegades-and-castaways-the-story-of-herman-melville-and-the-world-we-live-in-1/",
+          "quote": "Arrested for “passport violations,” James was confined on Ellis Island, where he wrote Mariners, Renegades and Castaways (1953).",
+          "note": "clrjames.uk도 억류 중 집필을 적는다: \"James began writing the book in June 1952 after immigration officials removed him to Ellis Island where he was detained for the next six months.\""
+        },
+        {
+          "sids": [
+            "b3ad7046d4b6"
+          ],
+          "field": "relation:influence--herman-melville--clr-james.summary",
+          "claim": "이 책은 『모비 딕』과 『피에르』 두 권을 중심으로 읽는다",
+          "verdict": "confirmed",
+          "url": "https://www.clrjames.uk/works/mariners-renegades-and-castaways-the-story-of-herman-melville-and-the-world-we-live-in/",
+          "quote": "It concentrates upon a sustained and brilliant explication of two books, Moby Dick and Pierre, with brief asides treating other of Melville’s famous works.",
+          "note": "출판사(브랜다이스) 소개는 이 책을 \"A provocative study of Moby Dick\"이라 부르지만, 두 권 중심이라는 서술과 어긋나지 않는다."
+        },
+        {
+          "sids": [
+            "b3ad7046d4b6"
+          ],
+          "field": "relation:influence--herman-melville--clr-james.summary",
+          "claim": "제임스는 피쿼드호 선원 집단을 자기 정치 분석의 모형으로 삼는다",
+          "verdict": "confirmed",
+          "url": "https://brandeisuniversitypress.com/title/mariners-renegades-and-castaways-the-story-of-herman-melville-and-the-world-we-live-in-1/",
+          "quote": "A provocative study of Moby Dick in which James challenged the prevailing Americanist interpretation that opposed a “totalitarian” Ahab and a “democratic, American” Ishmael, he offered instead a vision of a factory-like Pequod whose “captain of industry” leads the “mariners, renegades and castaways” of its crew to their doom.",
+          "note": "출처는 피쿼드호를 공장으로, 선장을 '산업의 수장'으로, 선원을 책 제목의 '선원, 배신자, 표류자'로 읽는 해석을 적는다. 같은 단락이 이 해석을 미국 안보국가 비판과 제임스 자신의 처지로 잇는다(\"to his own persecuted position at the height (or the depth) of the Truman/McCarthy era\"). '정치 분석의 모형'은 이 공장 비유를 풀어 쓴 말이다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

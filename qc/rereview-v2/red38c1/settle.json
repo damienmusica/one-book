@@ -1,0 +1,226 @@
+{
+ "fixes": [
+  {
+   "id": "abai-qunanbaiuly",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "아바이 생전에 인쇄된 작품은 한두 편뿐이었다",
+     "resolution": "narrowed",
+     "evidence": "「한두 편」 → 「몇 편」: 출처(WDL)가 말하는 만큼"
+    },
+    {
+     "field": "work:abai-qunanbaiuly--olengderi-1909.significance",
+     "claim": "흩어져 입에서 입으로 전해지던 시를 1909년 판이 인쇄본으로 묶었다",
+     "resolution": "accepted",
+     "evidence": "쪽 문장에는 인쇄 도시가 없다 — 메모의 카잔/상트페테르부르크 불일치는 쪽에 닿지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "agatha-christie",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "크리스티는 섬·열차 같은 곳을 무대로 삼아 용의자의 범위를 닫힌 소수로 묶었다",
+     "resolution": "accepted",
+     "evidence": "쪽은 섬·열차를 말하고 저택을 전형으로 내세우지 않는다 — 바너드 평은 쪽 문장과 어긋나지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "daniel-defoe",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "디포는 정황의 방법을 어느 소설가보다 강하게 밀고 나갔다",
+     "resolution": "narrowed",
+     "evidence": "한 편자(E. A. 베이커)의 최상급 평가를 사실처럼 적던 것을 「끝까지 밀고 나갔다」로 좁혔다"
+    }
+   ]
+  },
+  {
+   "id": "du-fu",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "송대에 이르러 두보는 시의 전범으로 최고의 자리에 올랐다",
+     "resolution": "accepted",
+     "evidence": "en.wikipedia 도 11세기 북송에 명성이 정점에 올랐다고 적는다 — 쪽 문장은 그 범위다"
+    }
+   ]
+  },
+  {
+   "id": "edouard-glissant",
+   "resolutions": [
+    {
+     "field": "work:edouard-glissant--la-lezarde.significance",
+     "claim": "르노도상 수상으로 글리상의 이름이 프랑스 문단에 섰다",
+     "resolution": "accepted",
+     "evidence": "쪽 문장은 출처의 「un romancier est né」 범위다"
+    }
+   ]
+  },
+  {
+   "id": "frantz-fanon",
+   "resolutions": [
+    {
+     "field": "relation:influence--frantz-fanon--ngugi-wa-thiongo.summary",
+     "claim": "응구기는 『귀향』에서 파농이 『대지의 저주받은 사람들』에서 '민족의식의 함정'으로 그린 대중과 신식민 엘리트의 관계를 한 작품이 포착한다고 읽는다",
+     "resolution": "accepted",
+     "evidence": "쪽 문장은 「작품 속」으로 범위를 좁혀 적었다"
+    }
+   ]
+  },
+  {
+   "id": "herman-melville",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "『모비 딕』은 포경 항해 이야기에 설교·희곡(무대극) 같은 여러 장르를 섞어 서술한다",
+     "resolution": "accepted",
+     "evidence": "평가 부분(무엇이든 삼킬 수 있는 형식)은 사실 주장으로 적지 않았다 — 섞인 장르는 출처가 받친다"
+    }
+   ]
+  },
+  {
+   "id": "imre-kertesz",
+   "resolutions": [
+    {
+     "field": "work:imre-kertesz--sorstalansag.significance",
+     "claim": "소설 끝(마지막 장)에서 화자가 수용소의 「행복」을 말한다",
+     "resolution": "accepted",
+     "evidence": "소설의 끝은 마지막 장 안에 있다 — 쪽 문장은 그 범위다"
+    }
+   ]
+  },
+  {
+   "id": "jane-austen",
+   "resolutions": [
+    {
+     "field": "work:jane-austen--mansfield-park.significance",
+     "claim": "『맨스필드 파크』는 오스틴 장편 가운데 가장 무거운 작품이다",
+     "resolution": "accepted",
+     "evidence": "최상급은 브리태니커 판단 그대로이고, 고친 문장은 두 속성을 인과 없이 나란히 둔다"
+    },
+    {
+     "field": "work:jane-austen--pride-and-prejudice.significance",
+     "claim": "판단의 오류는 대화 속에서 형성된다",
+     "resolution": "accepted",
+     "evidence": "줄거리 차원(위컴의 이야기로 오판, 다아시의 편지로 교정)으로 쪽 문장이 받쳐진다"
+    }
+   ]
+  },
+  {
+   "id": "jean-paul-sartre",
+   "resolutions": [
+    {
+     "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.facts",
+     "claim": "사르트르와 플로베르는 참여와 비참여라는 대조(contrast) 관계에 놓인다",
+     "resolution": "accepted",
+     "evidence": "fr.wikipedia 도 같은 대비를 적는다 — 쪽의 대조 관계는 출처 범위다"
+    }
+   ]
+  },
+  {
+   "id": "johann-wolfgang-von-goethe",
+   "resolutions": [
+    {
+     "field": "author.difficultyReason",
+     "claim": "『빌헬름 마이스터의 수업시대』는 여러 삽화를 이어 붙인 모자이크식 구성이다",
+     "resolution": "accepted",
+     "evidence": "출처의 낱말이 모자이크(Lebensmosaik)다 — 쪽은 그 말을 쓴다"
+    }
+   ]
+  },
+  {
+   "id": "jonathan-swift",
+   "resolutions": [
+    {
+     "field": "author.difficultyReason",
+     "claim": "화자의 말을 액면 그대로 읽으면 텍스트가 뜻하는 것과 반대가 된다",
+     "resolution": "accepted",
+     "evidence": "피디언 인용이 화자의 뜻과 텍스트의 뜻 사이의 간극을 그대로 말한다"
+    }
+   ]
+  },
+  {
+   "id": "kim-sowol",
+   "resolutions": [
+    {
+     "field": "author.difficultyReason",
+     "claim": "한 편의 분량이 짧다",
+     "resolution": "accepted",
+     "evidence": "대표작 길이(4연 12행 · 5연 16행 · 5연 20행)가 받친다"
+    },
+    {
+     "field": "relation:contrast--han-yong-un--kim-sowol.summary",
+     "claim": "『진달래꽃』의 화자는 이별 앞에서 체념하는 화자다",
+     "resolution": "accepted",
+     "evidence": "LTI 가 체념을 표제작의 주제의식으로 적는다 — 쪽은 한 읽기를 적고 다른 읽기를 부정하지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "lu-xun",
+   "resolutions": [
+    {
+     "field": "relation:translation--anton-chekhov--lu-xun.summary",
+     "claim": "초기의 유머 단편이다",
+     "resolution": "accepted",
+     "evidence": "역자 후기가 「滑稽小品」이라 적는다 — 쪽은 그 범위다"
+    }
+   ]
+  },
+  {
+   "id": "mario-vargas-llosa",
+   "resolutions": [
+    {
+     "field": "relation:influence--gustave-flaubert--mario-vargas-llosa.summary",
+     "claim": "플로베르를 다룬 단행본 한 권을 썼다",
+     "resolution": "accepted",
+     "evidence": "쪽은 헌정이 아니라 한 권을 통째로 다뤘다는 뜻으로 적었다"
+    }
+   ]
+  },
+  {
+   "id": "maryse-conde",
+   "resolutions": [
+    {
+     "field": "relation:influence--william-faulkner--maryse-conde.facts",
+     "claim": "이 영향 관계의 근거 수준은 documented(작가 자신의 진술 기록)다",
+     "resolution": "accepted",
+     "evidence": "작가 자신의 반복 진술을 전하는 2차 보고 — documented 정의에 든다"
+    }
+   ]
+  },
+  {
+   "id": "miguel-de-cervantes",
+   "resolutions": [
+    {
+     "field": "author.difficultyReason",
+     "claim": "존 러더퍼드의 『돈키호테』 영역본은 1,023쪽에 이른다",
+     "resolution": "narrowed",
+     "evidence": "판마다 쪽수가 달라(1,023 / 1,056) 「1,000쪽이 넘는」으로 좁혔다"
+    },
+    {
+     "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+     "claim": "이 소설집의 작품들은 이탈리아식 노벨라의 틀을 따른다",
+     "resolution": "accepted",
+     "evidence": "출처가 열두 편 전체가 이탈리아 모델을 따른다고 적는다 — 쪽의 두 예도 그 안에 든다"
+    }
+   ]
+  },
+  {
+   "id": "patrick-white",
+   "resolutions": [
+    {
+     "field": "author.readingEntryReason",
+     "claim": "많은 독자가 『보스』를 화이트의 가장 까다롭고 인상적인 소설로 꼽는다",
+     "resolution": "accepted",
+     "evidence": "최상급은 출처 그대로이고 「많은 독자」로 한정돼 있다 — 앞 문장과의 긴장은 읽기 조언의 문제다"
+    }
+   ]
+  }
+ ]
+}

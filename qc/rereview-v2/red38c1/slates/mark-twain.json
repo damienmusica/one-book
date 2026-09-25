@@ -1,0 +1,766 @@
+{
+  "id": "mark-twain",
+  "page": "https://literary-planet.pages.dev/authors/mark-twain/",
+  "author": {
+    "names": {
+      "ko": "마크 트웨인",
+      "original": "Mark Twain",
+      "aliases": [
+        "Samuel Langhorne Clemens"
+      ]
+    },
+    "birthYear": 1835,
+    "deathYear": 1910,
+    "activeRange": [
+      1865,
+      1910
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "미시시피 강가 소년의 입말을 그대로 소설의 문장으로 삼아, 미국 구어의 미덕을 글로 쓰는 산문의 규범으로 세웠다. 『허클베리 핀의 모험』은 화자의 무지와 방언을 손대지 않은 채 노예제를 다루어, 헉이 짐을 신고하지 않기로 하며 '그럼 좋아, 나는 지옥에 가겠다'고 말하는 대목처럼 도덕적 결단을 문법이 틀린 소년의 문장으로 적는다. 같은 책이 소년기를 깊이 그린 이야기로도, 인종주의를 겨눈 신랄한 풍자로도 읽힌다.",
+    "readingEntry": "mark-twain--the-adventures-of-tom-sawyer",
+    "readingEntryReason": "사건이 에피소드 단위로 끊겨 있어 강가 마을의 지형과 인물이 자연스럽게 손에 익는다. 『허클베리 핀』의 무대와 인물이 여기서 그대로 이어진다.",
+    "readingOrder": [
+      "mark-twain--the-adventures-of-tom-sawyer",
+      "mark-twain--adventures-of-huckleberry-finn",
+      "mark-twain--the-prince-and-the-pauper",
+      "mark-twain--life-on-the-mississippi"
+    ],
+    "readingWarning": "『허클베리 핀의 모험』을 『톰 소여』의 아동용 속편으로 읽으면 헉이 짐을 신고하지 않기로 하는 후반(제31장)의 전환이 통째로 지나간다. 인종 비하어를 바꾼 판본도 거듭 나왔다(2011년 NewSouth 판 등).",
+    "difficulty": 2,
+    "difficultyReason": "문장이 구어라 술술 읽히지만, 작가가 서두에서 밝힌 대로 일곱 갈래 방언이 표기 그대로 쓰여 원문 독서는 속도가 크게 떨어진다. 19세기 미시시피 유역의 인종 어휘와 관습도 주석 없이는 오독되기 쉽다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--library-of-america"
+    ]
+  },
+  "works": [
+    {
+      "id": "mark-twain--life-on-the-mississippi",
+      "titleKo": "미시시피강의 생활",
+      "titleOriginal": "Life on the Mississippi",
+      "year": 1883,
+      "yearBasis": "attested",
+      "genre": "history",
+      "significance": "증기선 도선사 시절의 회고와 뒷날 다시 강을 답사한 기록을 이어 붙인 산문. 소설의 무대가 된 강의 실제 지형과 직업 세계가 여기에 실물로 남아 있다.",
+      "sourceIds": []
+    },
+    {
+      "id": "mark-twain--adventures-of-huckleberry-finn",
+      "titleKo": "허클베리 핀의 모험",
+      "titleOriginal": "Adventures of Huckleberry Finn",
+      "year": 1884,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "도망친 소년과 도망친 노예가 뗏목으로 강을 내려가는 이야기를 헉의 방언 1인칭으로 끝까지 밀고 간다. 도덕적 판단은 서술자의 오판으로 제시된다. 1885년 콩코드 공공도서관의 배제 결정 이래 거친 말씨와 인종 비하어로 거듭 비판받았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "mark-twain--the-adventures-of-tom-sawyer",
+      "titleKo": "톰 소여의 모험",
+      "titleOriginal": "The Adventures of Tom Sawyer",
+      "year": 1876,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "미시시피 강가 마을의 소년기를 에피소드 연쇄로 엮은 소설. 울타리 페인트칠 장면은 따로 떼어 읽히는 유명한 대목이 되었고, 다음 작품의 무대와 인물을 미리 깔아 놓는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "mark-twain--the-prince-and-the-pauper",
+      "titleKo": "왕자와 거지",
+      "titleOriginal": "The Prince and the Pauper",
+      "year": 1881,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "16세기 런던에서 신분이 뒤바뀐 두 소년의 이야기로, 사회적 불평등과 겉모습으로 사람을 판단하는 태도를 비판한다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--mark-twain--ernest-hemingway",
+      "type": "documented_influence",
+      "from": "mark-twain (마크 트웨인)",
+      "to": "ernest-hemingway (어니스트 헤밍웨이)",
+      "evidenceLevel": "documented",
+      "summary": "헤밍웨이는 『아프리카의 푸른 언덕』(1935)에서 현대 미국 문학 전체가 『허클베리 핀』이라는 한 권에서 나왔으며 그것이 우리가 가진 최상의 책이라고 썼고, 다만 짐이 붙잡힌 뒤의 결말부는 읽지 말라고 덧붙였다.",
+      "sourceIds": [
+        "src--hemingway-green-hills-of-africa"
+      ]
+    },
+    {
+      "id": "influence--mark-twain--ralph-ellison",
+      "type": "documented_influence",
+      "from": "mark-twain (마크 트웨인)",
+      "to": "ralph-ellison (랠프 엘리슨)",
+      "evidenceLevel": "documented",
+      "summary": "엘리슨은 『그림자와 행위』(1964)에 묶인 에세이들에서 『허클베리 핀』을 거듭 논하며, 헤밍웨이가 잘라 내라고 한 짐 구출 대목이야말로 이 소설의 구조적·상징적·도덕적 필연이라고 반박했다.",
+      "sourceIds": [
+        "src--ellison-shadow-and-act"
+      ]
+    },
+    {
+      "id": "influence--mark-twain--toni-morrison",
+      "type": "documented_influence",
+      "from": "mark-twain (마크 트웨인)",
+      "to": "toni-morrison (토니 모리슨)",
+      "evidenceLevel": "documented",
+      "summary": "모리슨은 옥스퍼드 마크 트웨인 판 『허클베리 핀의 모험』(1996)에 서문을 쓰고, 이 책이 주는 불편함을 출발점 삼아 짐의 재현과 백인 화자의 시선을 다시 읽었다.",
+      "sourceIds": [
+        "src--morrison-oxford-mark-twain-huck-intro"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "27c9b1ff03f7",
+      "where": "author.importanceReason",
+      "text": "미시시피 강가 소년의 입말을 그대로 소설의 문장으로 삼아, 미국 구어의 미덕을 글로 쓰는 산문의 규범으로 세웠다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ef34f63faa4b",
+      "where": "author.importanceReason",
+      "text": "『허클베리 핀의 모험』은 화자의 무지와 방언을 손대지 않은 채 노예제를 다루어, 헉이 짐을 신고하지 않기로 하며 '그럼 좋아, 나는 지옥에 가겠다'고 말하는 대목처럼 도덕적 결단을 문법이 틀린 소년의 문장으로 적는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b77c2e9e2cac",
+      "where": "author.importanceReason",
+      "text": "같은 책이 소년기를 깊이 그린 이야기로도, 인종주의를 겨눈 신랄한 풍자로도 읽힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5d3fd8ee8489",
+      "where": "author.readingEntryReason",
+      "text": "사건이 에피소드 단위로 끊겨 있어 강가 마을의 지형과 인물이 자연스럽게 손에 익는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8a7710b16e97",
+      "where": "author.readingWarning",
+      "text": "인종 비하어를 바꾼 판본도 거듭 나왔다(2011년 NewSouth 판 등).",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d45e195e16e1",
+      "where": "work:mark-twain--life-on-the-mississippi.facts",
+      "text": "『미시시피강의 생활』(Life on the Mississippi) · 1883 · history",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d940829a191d",
+      "where": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+      "text": "도덕적 판단은 서술자의 오판으로 제시된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f0c13ef99a09",
+      "where": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+      "text": "1885년 콩코드 공공도서관의 배제 결정 이래 거친 말씨와 인종 비하어로 거듭 비판받았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fa8145620a03",
+      "where": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+      "text": "울타리 페인트칠 장면은 따로 떼어 읽히는 유명한 대목이 되었고, 다음 작품의 무대와 인물을 미리 깔아 놓는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c43e835b43d7",
+      "where": "work:mark-twain--the-prince-and-the-pauper.significance",
+      "text": "16세기 런던에서 신분이 뒤바뀐 두 소년의 이야기로, 사회적 불평등과 겉모습으로 사람을 판단하는 태도를 비판한다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "sids": [
+        "524deef4a571"
+      ],
+      "field": "author.facts",
+      "claim": "마크 트웨인은 새뮤얼 랭혼 클레멘스의 필명이고 1835년에 태어나 1910년에 죽은 미국 작가다(영어·북미)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Mark_Twain",
+      "quote": "Samuel Langhorne Clemens (November 30, 1835 – April 21, 1910), known by the pen name Mark Twain, was an American writer, humorist, and essayist."
+    },
+    {
+      "sids": [
+        "af4e3b033abb"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『허클베리 핀』은 미시시피 강가 소년 헉 자신의 입말로 서술된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "it is among the first in major American literature to be written throughout in vernacular English, characterized by local color regionalism. Being the direct sequel to The Adventures of Tom Sawyer, it is told in the first person by Huckleberry \"Huck\" Finn … It is also known for its colorful description of people and places along the Mississippi River.",
+      "note": "재인용: 이전 인용(Britannica, \"Huck’s own vernacular voice\")은 입말 서술은 받치지만 '미시시피 강가'를 담지 않는다. 위키백과 도입 문단 한 곳이 방언 서술·헉의 1인칭·미시시피강 무대를 함께 받친다."
+    },
+    {
+      "sids": [
+        "af4e3b033abb"
+      ],
+      "field": "author.importanceReason",
+      "claim": "그 입말 문체로 미국 산문이 '영국식 문어'에서 떨어져 나오는 지점을 만들었다",
+      "verdict": "contradicted",
+      "url": "https://www.amerlit.com/novels/ANALYSIS%20The%20Style%20of%20Twain.pdf",
+      "quote": "The prose of Huckleberry Finn established for written prose the virtues of American colloquial speech. … In the matter of language, American literature had a special problem. The young nation was inclined to think that the mark of the truly literary product was a grandiosity and elegance not to be found in the common speech. It therefore encouraged a greater breach between its vernacular and its literary language than, say, English literature of the same period ever allowed.",
+      "correction": "미시시피 강가 소년의 입말을 그대로 소설의 문장으로 삼아, 미국 구어의 미덕을 글로 쓰는 산문의 규범으로 세웠다.",
+      "note": "라이어널 트릴링(「Mark Twain's Colloquial Prose Style」, The Liberal Imagination 1950, amerlit 발췌본)은 헉 핀의 문체가 메운 간극을 미국 문학 자신의 과장된 문어와 구어 사이의 간극으로 설명하고, 오히려 같은 시기 영국 문학은 그 간극이 더 작았다고 쓴다. '영국식 문어에서 떨어져 나왔다'는 틀은 이 출처와 어긋나며, 그렇게 쓴 출처는 찾지 못했다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "f766fbbe8c83"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『허클베리 핀』은 노예제 사회에 길든 소년 화자의 목소리와 의식을 그대로 둔 채 노예제를 다룬다",
+      "verdict": "confirmed",
+      "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Mark-Twain/Literary-maturity",
+      "quote": "Through Huck, the novel’s narrator, Twain was able to address the shameful legacy of chattel slavery prior to the Civil War and the persistent racial discrimination and violence after. That he did so in the voice and consciousness of a 14-year-old boy, a character who shows the signs of having been trained to accept the cruel and indifferent attitudes of a slaveholding culture , gives the novel its affecting power"
+    },
+    {
+      "sids": [
+        "f766fbbe8c83"
+      ],
+      "field": "author.importanceReason",
+      "claim": "헉이 짐의 소재를 알리는 편지를 찢으며 '그럼 좋아, 나는 지옥에 가겠다'고 말한다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+      "quote": "Miss Watson, your runaway nigger Jim is down here two mile below Pikesville, and Mr. Phelps has got him and he will give him up for the reward if you send. … “All right, then, I’ll _go_ to hell”—and tore it up.",
+      "note": "같은 제31장 안의 연속된 대목. 편지 본문 → 망설임 → 찢는 장면 순서."
+    },
+    {
+      "sids": [
+        "f766fbbe8c83"
+      ],
+      "field": "author.importanceReason",
+      "claim": "그 결단은 문법이 틀린 소년의 문장으로 서술된다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+      "quote": "It was awful thoughts and awful words, but they was said. And I let them stay said; and never thought no more about reforming."
+    },
+    {
+      "sids": [
+        "f766fbbe8c83"
+      ],
+      "field": "author.importanceReason",
+      "claim": "헉이 편지를 찢는 대목은 이 책에서 가장 큰 도덕적 판단이며, 작가는 그것을 문법이 틀린 소년의 문장 안에 '숨겨' 둔다",
+      "verdict": "contradicted",
+      "url": "https://www.litcharts.com/lit/the-adventures-of-huckleberry-finn/chapter-31",
+      "quote": "This is maybe the most important passage in the novel in terms of Huck’s moral development, where the boy decides that he would rather subvert all societal values and do what others think bad than do what society endorses and betray the inclinations of his own heart.",
+      "correction": "『허클베리 핀의 모험』은 화자의 무지와 방언을 손대지 않은 채 노예제를 다루어, 헉이 짐을 신고하지 않기로 하며 '그럼 좋아, 나는 지옥에 가겠다'고 말하는 대목처럼 헉의 도덕적 성장에서 아마 가장 중요한 결단을 문법이 틀린 소년의 문장으로 적는다.",
+      "note": "추가: 이전 판정은 최상급 '가장 큰 도덕적 판단'과 '숨겨 둔다'를 claim으로 세우지 않았다. LitCharts 제31장 해설은 이 대목을 헉의 도덕적 성장에서 'maybe the most important passage'라고 유보를 달아 쓴다. 유보 없는 '가장 큰'과, 작가가 판단을 '숨겼다'는 해석을 쓴 출처는 찾지 못했다. correction의 나머지 부분은 같은 sid의 앞 세 claim(Britannica·구텐베르크 인용)이 받친다.",
+      "resolution": "narrowed"
+    },
+    {
+      "sids": [
+        "dbb5a2f42948"
+      ],
+      "field": "author.importanceReason",
+      "claim": "그 결과(화자의 목소리를 그대로 둔 결과) 같은 책이 소년 모험담으로도, 그 사회를 안에서부터 무너뜨리는 기록으로도 읽힌다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "The book is noted for \"changing the course of children's literature\" in the United States for the \"deeply felt portrayal of boyhood\". … Adventures of Huckleberry Finn is an often scathing satire on entrenched attitudes, particularly racism.",
+      "correction": "같은 책이 소년기를 깊이 그린 이야기로도, 그 사회에 뿌리박힌 태도, 특히 인종주의를 겨눈 신랄한 풍자로도 읽힌다.",
+      "note": "인용은 앞 문장의 서술 방식 때문이라는 인과('그 결과')를 말하지 않고, '안에서부터 무너뜨리는 기록'이 아니라 'scathing satire on entrenched attitudes, particularly racism'이라고 쓴다. 이전 판정은 문장을 인용 수준으로 낮춰 적은 claim을 확인했을 뿐이다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "5f953af4aff4"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "『톰 소여의 모험』은 에피소드 단위로 이어지는 서사다",
+      "verdict": "confirmed",
+      "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Mark-Twain/Literary-maturity",
+      "quote": "The highly episodic narrative of Tom Sawyer , which recounts the mischievous adventures of a boy growing up along the Mississippi River"
+    },
+    {
+      "sids": [
+        "5f953af4aff4"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "『톰 소여의 모험』은 이 페이지의 네 작품 가운데 분량이 가장 짧다",
+      "verdict": "unverifiable",
+      "url": "https://en.wikipedia.org/w/index.php?title=The_Adventures_of_Tom_Sawyer&action=raw",
+      "quote": "| pages             = 275",
+      "note": "인용(정보상자 pages = 275)은 한 판본의 쪽수일 뿐 네 작품 비교를 담지 않는다. 다른 쪽수는 각기 다른 판본·문서의 값이다. 구텐베르크 본문(pg74, pg1837) 낱말 수를 재 보면 『톰 소여』 약 70,800, 『왕자와 거지』 약 70,100으로 『왕자와 거지』가 오히려 조금 짧아 '가장 짧다'는 성립하지 않는다. '분량이 짧다'를 받치는 출처는 찾지 못했다. 이 문장에서 '분량이 짧고'를 빼면 남는 '사건이 에피소드 단위로 끊겨 있어'는 같은 sid의 Britannica 인용(\"The highly episodic narrative of Tom Sawyer\")이 받친다. 수정안: '사건이 에피소드 단위로 끊겨 있어 강가 마을의 지형과 인물이 자연스럽게 손에 익는다.'",
+      "resolution": "narrowed"
+    },
+    {
+      "sids": [
+        "600da6e5f080"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "『허클베리 핀』은 『톰 소여』의 무대와 인물을 그대로 이어받는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "In 1840s St. Petersburg, Missouri, Huckleberry Finn has received a considerable sum from the treasure discovered in The Adventures of Tom Sawyer, and the Widow Douglas and her sister Miss Watson become his guardians."
+    },
+    {
+      "sids": [
+        "411685b8d200"
+      ],
+      "field": "author.readingWarning",
+      "claim": "『허클베리 핀의 모험』은 『톰 소여』의 속편이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "Being the direct sequel to The Adventures of Tom Sawyer, it is told in the first person by Huckleberry \"Huck\" Finn"
+    },
+    {
+      "sids": [
+        "411685b8d200"
+      ],
+      "field": "author.readingWarning",
+      "claim": "헉이 짐을 신고하지 않기로 하는 전환은 후반부인 제31장에 있다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+      "quote": "“All right, then, I’ll _go_ to hell”—and tore it up.",
+      "note": "구텐베르크 본문에서 이 줄(8794행)은 'CHAPTER XXXI.' 표제(8597행)와 'CHAPTER XXXII.' 표제(8951행) 사이에 있다(이전 note의 행 번호 정정). 책은 제42장과 'CHAPTER THE LAST'로 끝나 모두 43장이므로 31장은 후반이다. '아동용 속편으로 읽으면 지나간다'는 독서 조언이라 판정 대상 아님."
+    },
+    {
+      "sids": [
+        "6f8e7e9de695"
+      ],
+      "field": "author.readingWarning",
+      "claim": "인종 어휘를 바꾸거나 잘라 낸 판본이 거듭 나왔다(2011년 NewSouth 판 등)",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "Publishers have made their own attempts at easing the controversy by way of releasing editions of the book with the word \"nigger\" replaced with less controversial words. A 2011 edition of the book, published by NewSouth Books, employed the word \"slave\"",
+      "correction": "인종 비하어를 다른 낱말로 바꾼 판본도 거듭 나왔다(2011년 NewSouth 판은 'slave'로 바꿨다).",
+      "note": "출처들이 확인하는 것은 '바꾼' 판본이다(위키백과 Expurgation 항목도 \"have found various replacements\"). 낱말을 '잘라 낸' 판본은 확인하지 못했다. 1955년 CBS판처럼 노예제와 짐을 통째로 뺀 것은 책이 아니라 텔레비전 각색이다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "246f321d3e50"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "작가가 책머리 'EXPLANATORY'에서 일곱 갈래 방언을 공들여 구별해 썼다고 밝혔다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+      "quote": "In this book a number of dialects are used, to wit: the Missouri negro dialect; the extremest form of the backwoods Southwestern dialect; the ordinary “Pike County” dialect; and four modified varieties of this last. The shadings have not been done in a haphazard fashion, or by guesswork",
+      "note": "명시된 3종 + 마지막 것의 변형 4종 = 7. '원문 독서 속도가 떨어진다'는 독서 조언이라 판정 대상 아님."
+    },
+    {
+      "sids": [
+        "246f321d3e50"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "문장이 처음부터 끝까지 구어체다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "it is among the first in major American literature to be written throughout in vernacular English"
+    },
+    {
+      "sids": [
+        "24e4281f3346"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "책에 19세기 인종 비하어가 빈번히 쓰인다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Alan_Gribben",
+      "quote": "This edition replaced the word \"nigger\" (which occurs 219 times in the original Huckleberry Finn novel) with \"slave\"",
+      "note": "'주석 없이는 오독되기 쉽다'는 독서 조언이라 판정 대상 아님."
+    },
+    {
+      "sids": [
+        "689e9fb92af0"
+      ],
+      "field": "work:mark-twain--life-on-the-mississippi.facts",
+      "claim": "Life on the Mississippi는 1883년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Life_on_the_Mississippi",
+      "quote": "Life on the Mississippi is a memoir published in 1883 by Mark Twain of his days as a steamboat pilot on the Mississippi River in the antebellum era."
+    },
+    {
+      "sids": [
+        "689e9fb92af0"
+      ],
+      "field": "work:mark-twain--life-on-the-mississippi.facts",
+      "claim": "장르는 에세이·비평(essay-criticism)이다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Life_on_the_Mississippi",
+      "quote": "Life on the Mississippi is a memoir published in 1883 by Mark Twain of his days as a steamboat pilot on the Mississippi River in the antebellum era. It is also a travel book",
+      "correction": "장르: history(역사·전기) — 회고록이자 여행기.",
+      "note": "출처는 이 책을 회고록(memoir)과 여행기(travel book)로 분류하고, 위키백과 정보상자는 genre = Biography로 적는다. 에세이나 비평으로 분류한 출처는 찾지 못했다. 이 사이트의 장르 목록에서는 history(역사·전기, History & biography)가 가장 가깝다 — 분류 선택은 편집 판단이다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "1f35d8d4eeff"
+      ],
+      "field": "work:mark-twain--life-on-the-mississippi.significance",
+      "claim": "증기선 도선사 시절의 회고와 여러 해 뒤 강을 다시 여행한 기록을 이어 붙인 산문이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Life_on_the_Mississippi",
+      "quote": "Life on the Mississippi is a memoir published in 1883 by Mark Twain of his days as a steamboat pilot on the Mississippi River in the antebellum era. It is also a travel book, recounting his trips on the Mississippi River, from St. Louis to New Orleans and then from New Orleans to Saint Paul, many years after the war."
+    },
+    {
+      "sids": [
+        "5c057f0621cc"
+      ],
+      "field": "work:mark-twain--life-on-the-mississippi.significance",
+      "claim": "미시시피강의 뱃길과 도선사의 직업 세계를 기록한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Life_on_the_Mississippi",
+      "quote": "It continues with anecdotes of Twain's training as a steamboat pilot, as the 'cub' (apprentice) of an experienced pilot, Horace E. Bixby. He describes, with great affection, the science of navigating the ever-changing Mississippi River in a section that was first published in 1876, entitled \"Old Times on the Mississippi\".",
+      "note": "재인용: 이전 인용은 뱃길(항법)만 담아 '도선사의 직업 세계'를 받치지 못했다. 같은 문단의 앞 문장(도선사 수습 일화)까지 넓혔다. '소설의 무대가 된 강'은 이 인용에 없어 별도 claim으로 뗐다."
+    },
+    {
+      "sids": [
+        "5c057f0621cc"
+      ],
+      "field": "work:mark-twain--life-on-the-mississippi.significance",
+      "claim": "트웨인 소설(『톰 소여의 모험』)의 무대는 미시시피 강가, 트웨인이 소년기를 보낸 해니벌을 본뜬 마을이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+      "quote": "The Adventures of Tom Sawyer (also simply known as Tom Sawyer) is a novel by Mark Twain (1835-1910) published on June 9, 1876, about a boy, Tom Sawyer, growing up along the Mississippi River. It is set in the 1830s–1840s in the fictional town of St. Petersburg, which is based on Hannibal, Missouri, where Twain lived as a boy.",
+      "note": "추가: '소설의 무대가 된 강'을 받치는 claim. 『미시시피강의 생활』 위키백과 문서도 두 번째 여행 중 \"his boyhood home town of Hannibal, MO\"에 들렀다고 적는다. '실물로 남아 있다'는 수사라 판정 대상 아님."
+    },
+    {
+      "sids": [
+        "0c7ada3b94a4"
+      ],
+      "field": "work:mark-twain--adventures-of-huckleberry-finn.facts",
+      "claim": "Adventures of Huckleberry Finn은 1884년에 처음 나온 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "Adventures of Huckleberry Finn is a picaresque novel by American author Mark Twain that was first published in the United Kingdom in December 1884 and in the United States in February 1885.",
+      "note": "1884는 영국·캐나다 초간 연도, 미국 초간은 1885."
+    },
+    {
+      "sids": [
+        "f26b2b3b5123"
+      ],
+      "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+      "claim": "도망친 소년 헉과 도망친 노예 짐이 뗏목으로 미시시피강을 내려간다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "Huck fakes his own murder and settles on Jackson's Island, where he reunites with Miss Watson's slave Jim, who ran away after overhearing she was planning to sell him. Huck and Jim decide to go down the Mississippi River to Cairo, in the free state of Illinois. After a flood, they find a timber raft"
+    },
+    {
+      "sids": [
+        "f26b2b3b5123"
+      ],
+      "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+      "claim": "처음부터 끝까지 헉의 1인칭 방언으로 서술된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "it is among the first in major American literature to be written throughout in vernacular English, characterized by local color regionalism. Being the direct sequel to The Adventures of Tom Sawyer, it is told in the first person by Huckleberry \"Huck\" Finn"
+    },
+    {
+      "sids": [
+        "db9d32bbfa1d"
+      ],
+      "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+      "claim": "헉의 도덕적 결단은 서술자 자신에게는 '양심'을 저버리는 죄로 제시된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "goes on to describe the novel as \"a book of mine where a sound heart and a deformed conscience come into collision and conscience suffers defeat\"."
+    },
+    {
+      "sids": [
+        "db9d32bbfa1d"
+      ],
+      "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+      "claim": "1885년 콩코드 공공도서관이 이 책을 배제했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "Upon issue of the American edition in 1885, several libraries banned it from their shelves. The early criticism focused on what was perceived as the book's crudeness. One incident was recounted in the newspaper the Boston Transcript: The Concord (Mass.) Public Library committee has decided to exclude Mark Twain's latest book from the library."
+    },
+    {
+      "sids": [
+        "db9d32bbfa1d"
+      ],
+      "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+      "claim": "그 서술 구조 때문에 미국에서 가장 오래 논쟁된 책 가운데 하나가 되었다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "The book was widely criticized upon release because of its extensive use of coarse language and racial epithets. Throughout the 20th century, and despite arguments that the protagonist and the tenor of the book are anti-racist, criticism of the book continued due to both its perceived use of racial stereotypes and its frequent use of the racial slur \"nigger\".",
+      "correction": "출간 때부터 거친 말씨와 인종 비하어 때문에 널리 비판받았고(1885년 콩코드 공공도서관의 배제 결정도 그 하나다), 20세기 내내 인종 고정관념과 비하어 사용을 이유로 비판이 이어졌다.",
+      "note": "출처가 말하는 논쟁의 원인은 서술자의 도덕적 오판 구조가 아니라, 처음엔 말씨의 조잡함, 뒤에는 인종 비하어와 고정관념이다. '가장 오래'라는 최상급을 받치는 비교 출처는 찾지 못했다. 같은 문서의 수치: \"According to the American Library Association, Huckleberry Finn was the fifth-most frequently challenged book in the United States during the 1990s.\" [재검토] 이전 correction의 '금서 요구'와 '조잡하다는 이유'는 이 인용에 없어 인용이 받치는 말로 고쳤다. 괄호 안 콩코드 배제는 같은 sid의 앞 claim(\"The Concord (Mass.) Public Library committee has decided to exclude\")이 받친다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "00e5cc4b958c"
+      ],
+      "field": "work:mark-twain--the-adventures-of-tom-sawyer.facts",
+      "claim": "The Adventures of Tom Sawyer는 1876년에 나온 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+      "quote": "The Adventures of Tom Sawyer (also simply known as Tom Sawyer) is a novel by Mark Twain (1835-1910) published on June 9, 1876"
+    },
+    {
+      "sids": [
+        "59007dc243d1"
+      ],
+      "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+      "claim": "미시시피 강가 마을 소년의 이야기를 에피소드를 이어 엮은 소설이다",
+      "verdict": "confirmed",
+      "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Mark-Twain/Literary-maturity",
+      "quote": "The highly episodic narrative of Tom Sawyer , which recounts the mischievous adventures of a boy growing up along the Mississippi River"
+    },
+    {
+      "sids": [
+        "4e7ed717cbb5"
+      ],
+      "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+      "claim": "울타리 칠(페인트칠) 장면이 있다",
+      "verdict": "confirmed",
+      "url": "https://www.whatsoproudlywehail.org/curriculum/the-american-calendar/whitewashing-the-fence-from-tom-sawyer/",
+      "quote": "Tom, burdened with the chore to whitewash his Aunt Polly’s fence as punishment for his having played hooky from school, comes up with an ingenious way to get out of his work",
+      "note": "원문의 칠은 whitewash(석회 흰 칠)이다. 같은 페이지 학습 질문이 \"to want to paint the fence\"라고 쓰듯 영어권에서도 paint로 통칭한다."
+    },
+    {
+      "sids": [
+        "4e7ed717cbb5"
+      ],
+      "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+      "claim": "울타리 칠 장면이 미국 유년의 공용 이미지가 되었다",
+      "verdict": "contradicted",
+      "url": "https://www.whatsoproudlywehail.org/curriculum/the-american-calendar/whitewashing-the-fence-from-tom-sawyer/",
+      "quote": "In this famous selection from The Adventures of Tom Sawyer (1876)",
+      "correction": "울타리 칠 장면은 따로 떼어 읽히는 이 책의 유명한 대목이 되었고,",
+      "note": "출처가 받치는 것은 '유명한 대목'까지다. '미국 유년의 공용 이미지'라는 더 넓은 수용 주장을 직접 쓴 출처는 찾지 못했다(검색에 노먼 록웰 1936년 그림이 걸리지만 이는 판본 삽화일 뿐 그 주장을 하지 않는다).",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "4e7ed717cbb5"
+      ],
+      "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+      "claim": "다음 작품(『허클베리 핀』)의 무대와 인물을 미리 깔아 놓는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "In 1840s St. Petersburg, Missouri, Huckleberry Finn has received a considerable sum from the treasure discovered in The Adventures of Tom Sawyer, and the Widow Douglas and her sister Miss Watson become his guardians."
+    },
+    {
+      "sids": [
+        "adb7c2741bfc"
+      ],
+      "field": "work:mark-twain--the-prince-and-the-pauper.facts",
+      "claim": "The Prince and the Pauper는 1881년에 처음 나온 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper",
+      "quote": "The Prince and the Pauper is a novel by American author Mark Twain. It was first published in 1881 in Canada, before its 1882 publication in the United States."
+    },
+    {
+      "sids": [
+        "943e4c630d8b"
+      ],
+      "field": "work:mark-twain--the-prince-and-the-pauper.significance",
+      "claim": "1547년(16세기) 잉글랜드에서 에드워드 6세와 그를 닮은 런던의 가난한 소년 톰 캔티의 이야기다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper",
+      "quote": "The plot concerns the accession of nine-year-old Edward VI to the throne of England in 1547 and his interactions with look-alike Tom Canty, a London pauper who lives with his abusive, alcoholic father.",
+      "note": "[재검토] 이 인용은 옷을 바꿔 입는 대목을 담지 않아 claim을 인용이 받치는 범위로 좁히고, 옷 교환·신분 뒤바뀜은 별도 claim(줄거리 문단 인용)으로 뗐다."
+    },
+    {
+      "sids": [
+        "943e4c630d8b"
+      ],
+      "field": "work:mark-twain--the-prince-and-the-pauper.significance",
+      "claim": "꼭 닮은 두 소년(왕자와 거지)이 옷을 바꿔 입어 신분이 뒤바뀐다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper",
+      "quote": "They have an uncanny resemblance to each other and learn they were even born on the same day, so they decide to swap clothes \"temporarily\". … however, dressed as Tom, he is not recognized by the guards, who drive him from the palace. Tom, dressed as Edward, tries to cope with court customs and manners after being mistaken for the prince.",
+      "note": "추가: 줄거리 첫 문단 한 곳에서 옷 교환 → 왕자는 쫓겨나고 톰은 왕자로 오인되는 신분 뒤바뀜까지 이어진다."
+    },
+    {
+      "sids": [
+        "943e4c630d8b"
+      ],
+      "field": "work:mark-twain--the-prince-and-the-pauper.significance",
+      "claim": "계급이 사람의 속성이 아니라 옷과 호칭의 문제임을 보여준다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper",
+      "quote": "While written for children, The Prince and the Pauper is both a critique of social inequality and a criticism of judging others by their appearance.",
+      "correction": "16세기 런던에서 신분이 뒤바뀐 두 소년의 이야기로, 사회적 불평등과 겉모습으로 사람을 판단하는 태도를 비판한다.",
+      "note": "출처가 받치는 것은 '불평등 비판·겉모습으로 판단하는 태도 비판'까지다. 트웨인 자신은 당대 법의 가혹함을 왕에게 겪게 하려는 의도였다고 썼다(\"to afford a realizing sense of the exceeding severity of the laws of that day\"). '계급은 옷과 호칭의 문제'라는 더 강한 해석을 쓴 출처는 찾지 못했다. [재검토] 이전 correction의 '대칭으로 배치해'는 인용에 없어 뺐다. '16세기 런던·신분 뒤바뀜'은 같은 sid의 두 claim이 받친다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "dba8ef46db49"
+      ],
+      "field": "relation:influence--mark-twain--ernest-hemingway.facts",
+      "claim": "트웨인 → 헤밍웨이 방향의 확인된 직접 영향(명시적 독서 기록)",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/in.ernet.dli.2015.148694/2015.148694.Green-Hills-Of-Africa_djvu.txt",
+      "quote": "‘All  modern  American  literature  comes  from  one  book by  Mark  Twain  called  Huckleberry  Finn.",
+      "note": "헤밍웨이 자신의 글(『아프리카의 푸른 언덕』)에 적힌 독서·평가 기록. 트릴링도 \"Hemingway's own prose stems from it directly and consciously\"라고 쓴다(amerlit 발췌본)."
+    },
+    {
+      "sids": [
+        "c9ebb30e1925"
+      ],
+      "field": "relation:influence--mark-twain--ernest-hemingway.summary",
+      "claim": "『아프리카의 푸른 언덕』은 1935년 책이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Green_Hills_of_Africa",
+      "quote": "Green Hills of Africa  is a 1935 work of nonfiction by American writer Ernest Hemingway."
+    },
+    {
+      "sids": [
+        "c9ebb30e1925"
+      ],
+      "field": "relation:influence--mark-twain--ernest-hemingway.summary",
+      "claim": "헤밍웨이는 현대 미국 문학 전체가 『허클베리 핀』 한 권에서 나왔고 그것이 우리가 가진 최상의 책이라고 썼다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/in.ernet.dli.2015.148694/2015.148694.Green-Hills-Of-Africa_djvu.txt",
+      "quote": "‘All  modern  American  literature  comes  from  one  book by  Mark  Twain  called  Huckleberry  Finn. … But it’s  the  best  book  we’ve  had.  All  American  writing  comes from  that.",
+      "note": "archive.org 인도 디지털 도서관 스캔본 OCR 원문(띄어쓰기 원문 그대로)."
+    },
+    {
+      "sids": [
+        "c9ebb30e1925"
+      ],
+      "field": "relation:influence--mark-twain--ernest-hemingway.summary",
+      "claim": "짐이 (소년들에게서) 붙잡혀 간 뒤의 결말부는 읽지 말라고 덧붙였다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/in.ernet.dli.2015.148694/2015.148694.Green-Hills-Of-Africa_djvu.txt",
+      "quote": "If  you  read  it you  must  stop  where  the  Nigger  Jim  is  stolen  from  the boys.  That  is  the  real  end.  The  rest  is  just  cheating.",
+      "note": "원문은 'stolen from the boys'(왕이 짐을 팔아넘겨 펠프스 농장에 갇히는 대목). 위키백과도 이를 \"after Jim is detained\"로 요약한다."
+    },
+    {
+      "sids": [
+        "6254ab74f3ca"
+      ],
+      "field": "relation:influence--mark-twain--ralph-ellison.facts",
+      "claim": "트웨인 → 엘리슨 방향의 확인된 직접 영향",
+      "verdict": "confirmed",
+      "url": "https://www.encyclopedia.com/arts/culture-magazines/shadow-and-act",
+      "quote": "Ellison considers Twain his foremost \"literary ancestor,\""
+    },
+    {
+      "sids": [
+        "aae3b98413ea"
+      ],
+      "field": "relation:influence--mark-twain--ralph-ellison.summary",
+      "claim": "『그림자와 행위』는 1964년에 나온 엘리슨의 에세이집이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shadow_and_Act",
+      "quote": "Shadow and Act is a 1964 collection of essays by Ralph Ellison."
+    },
+    {
+      "sids": [
+        "aae3b98413ea"
+      ],
+      "field": "relation:influence--mark-twain--ralph-ellison.summary",
+      "claim": "엘리슨은 이 책의 여러 에세이에서 트웨인과 『허클베리 핀』을 거듭 논한다",
+      "verdict": "confirmed",
+      "url": "https://www.encyclopedia.com/arts/culture-magazines/shadow-and-act",
+      "quote": "Throughout Shadow and Act, Ellison uses the image of the frontier as synonymous with or tied to ideas of invention, action, newness, cultural development, and the American ideal of democracy. At several points, for example, he identifies the frontier with passion for the outdoors as depicted in Hemingway's work. At other points, he identifies the frontier with the world of Huckleberry Finn and his quality of self-invention and adventure.",
+      "note": "재인용: 이전 인용(\"Twain and Hemingway are the most discussed 'ancestors'\")은 트웨인을 거듭 논한다는 것만 담고 『허클베리 핀』을 담지 않는다. 같은 해설의 이 문단은 책 전체에 걸쳐 여러 대목에서 『허클베리 핀』의 세계를 끌어온다고 쓴다. 같은 해설은 「Twentieth-Century Fiction and the Black Mask of Humanity」가 짐의 묘사를 다룬다고도 적는다."
+    },
+    {
+      "sids": [
+        "aae3b98413ea"
+      ],
+      "field": "relation:influence--mark-twain--ralph-ellison.summary",
+      "claim": "엘리슨은 헤밍웨이가 잘라 내라고 한 짐 구출 대목이 소설의 구조적·상징적·도덕적 필연이라고 반박했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+      "quote": "The African-American writer Ralph Ellison argued that \"Hemingway completely missed the structural, symbolic and moral necessity for that part of the plot in which the boys rescue Jim. Yet it is precisely this part which gives the novel its significance.\"",
+      "note": "위키백과 각주가 이 문장을 \"Twentieth Century Fiction and the Mask of Humanity\" in Shadow and Act 로 단다. 원서 전문(archive.org/details/shadowact0000elli_p3p5)은 대출 제한이라 쪽수까지는 직접 읽지 못했다."
+    },
+    {
+      "sids": [
+        "4a40ef09c3c6"
+      ],
+      "field": "relation:influence--mark-twain--toni-morrison.facts",
+      "claim": "트웨인 → 모리슨 방향의 확인된 직접 영향(명시적 독서 기록)",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/introduction-to-hf-t-morrison-2/Introduction%20to%20HF%20(T%20Morrison)2_djvu.txt",
+      "quote": "My 1980s reading, therefore, was an effort to track the unease, nail it down, and learn in so doing the nature of my troubled relationship to this classic American work.",
+      "note": "서문은 어린 시절 첫 독서, 중학교, 1950년대, 1980년대로 이어지는 반복 독서의 기록이다. 사이트 분류 정의(\"명시적 독서 기록\")에 해당. 모리슨 자신의 소설 창작에 트웨인이 영향을 주었다는 진술은 이 서문에 없다."
+    },
+    {
+      "sids": [
+        "fb9ab92f7206"
+      ],
+      "field": "relation:influence--mark-twain--toni-morrison.summary",
+      "claim": "모리슨은 옥스퍼드 마크 트웨인 판 『허클베리 핀의 모험』(1996)에 서문을 썼다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/introduction-to-hf-t-morrison-2/Introduction%20to%20HF%20(T%20Morrison)2_djvu.txt",
+      "quote": "From The Oxford Mark Twain: Adventures of Huckleberry Finn, edited by Shelley Fisher Fishkin. Reprinted by permission of International Creative Management, Inc. Copyright ©1996 Toni Morrison."
+    },
+    {
+      "sids": [
+        "fb9ab92f7206"
+      ],
+      "field": "relation:influence--mark-twain--toni-morrison.summary",
+      "claim": "이 책이 주는 불편함을 출발점으로 삼았다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/introduction-to-hf-t-morrison-2/Introduction%20to%20HF%20(T%20Morrison)2_djvu.txt",
+      "quote": "The source of my unease reading this amazing, troubling book now seems clear"
+    },
+    {
+      "sids": [
+        "fb9ab92f7206"
+      ],
+      "field": "relation:influence--mark-twain--toni-morrison.summary",
+      "claim": "짐의 재현을 다시 읽었다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/introduction-to-hf-t-morrison-2/Introduction%20to%20HF%20(T%20Morrison)2_djvu.txt",
+      "quote": "Anticipating this loss may have led Twain to the over-the-top minstrelization of Jim. Predictable and common as the gross stereotyping of blacks was in nineteenth-century literature, here, nevertheless, Jim’s portrait seems unaccountably excessive and glaring in its contradictions"
+    },
+    {
+      "sids": [
+        "fb9ab92f7206"
+      ],
+      "field": "relation:influence--mark-twain--toni-morrison.summary",
+      "claim": "백인 소년 화자의 시선(침묵)을 다시 읽었다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/download/introduction-to-hf-t-morrison-2/Introduction%20to%20HF%20(T%20Morrison)2_djvu.txt",
+      "quote": "These silences do not appear to me of merely historical accuracy—a realistic portrait of how a white child would respond to a black slave; they seem to be expert technical solutions to the narrative’s complexities"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--hemingway-green-hills-of-africa": {
+      "id": "src--hemingway-green-hills-of-africa",
+      "title": "아프리카의 푸른 언덕 (Green Hills of Africa)",
+      "publisherOrInstitution": "Charles Scribner's Sons, 1935",
+      "citation": "헤밍웨이가 현대 미국 문학이 『허클베리 핀』 한 권에서 나왔다고 쓴 대목이 실린 논픽션"
+    },
+    "src--ellison-shadow-and-act": {
+      "id": "src--ellison-shadow-and-act",
+      "title": "『Shadow and Act』 (1964)",
+      "publisherOrInstitution": "Random House",
+      "citation": "엘리슨의 첫 산문집 — 「세계와 항아리」와 터스키기 시절의 독서를 다룬 「감춰진 이름과 복잡한 운명」, 포크너를 논한 평문이 함께 실려 있다"
+    },
+    "src--morrison-oxford-mark-twain-huck-intro": {
+      "id": "src--morrison-oxford-mark-twain-huck-intro",
+      "title": "토니 모리슨의 『허클베리 핀의 모험』 서문",
+      "publisherOrInstitution": "The Oxford Mark Twain (Shelley Fisher Fishkin 편), Oxford University Press, 1996",
+      "citation": "모리슨이 이 소설의 불편함에서 출발해 짐의 재현을 다시 읽은 서문"
+    }
+  }
+}

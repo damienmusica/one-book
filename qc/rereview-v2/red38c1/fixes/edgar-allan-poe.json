@@ -1,0 +1,25 @@
+{
+  "fixes": [
+    {
+      "id": "edgar-allan-poe",
+      "relations": [
+        {
+          "id": "influence--edgar-allan-poe--agatha-christie",
+          "summary": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세우고, 황금기를 세 장으로 다룬다. 뛰어난 탐정과 화자를 맡은 친구라는 뒤팽 이야기의 배치는 후대 탐정소설이 따랐고, 1929년 로널드 녹스가 정리한 황금기의 규칙에는 조수('왓슨')가 평균적 독자보다 아주 조금 둔해야 한다는 조항이 있다. 시먼스는 크리스티의 첫 추리소설을 인물에 대한 감정적 관여를 허용하지 않는 퍼즐로 평한다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스는 황금기를 '20년대'와 '30년대' 두 장으로 다룬다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스는 크리스티의 소설을 인물에 대한 감정적 관여를 허용하지 않는, 오로지 퍼즐인 이야기로 평한다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

@@ -1143,8 +1143,8 @@
     "type": "affinity",
     "direction": "bidirectional",
     "weight": 0.55,
-    "summary": "A. Teeuw의 『Modern Indonesian Literature』는 일본 점령기와 독립 전쟁을 지나온 '45년 세대'(Angkatan 45)를 서술하며 차이릴의 시와 프라무디아의 초기 산문을 함께 다룬다. Teeuw는 프라무디아가 형식상 이 세대 대표는 아니나 그 시기 작품엔 공통점이 많다고 보고, 이드루스가 차이릴의 산문 짝이란 견해는 일부만 맞다고 한다.",
-    "evidenceLevel": "scholarly_consensus",
+    "summary": "A. Teeuw의 『Modern Indonesian Literature』는 일본 점령기와 독립 전쟁을 지나온 '45년 세대'(Angkatan 45)를 서술하며 차이릴의 시와 프라무디아의 초기 산문을 함께 다룬다. Teeuw는 프라무디아가 형식상 이 세대 대표는 아니나 그 시기 작품엔 공통점이 많다고 본다. 두 사람 사이의 직접 교류를 말하는 관계는 아니다.",
+    "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--teeuw-modern-indonesian-literature"
     ]
@@ -1236,7 +1236,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.6,
-    "summary": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세우고, 황금기를 '20년대'와 '30년대' 두 장으로 다룬다. 뛰어난 탐정과 화자를 맡은 친구라는 뒤팽 이야기의 배치는 후대 탐정소설이 따랐고, 1929년 로널드 녹스가 정리한 황금기의 규칙에는 조수('왓슨')가 평균적 독자보다 아주 조금 둔해야 한다는 조항이 있다. 시먼스는 크리스티의 소설을 인물에 대한 감정적 관여를 허용하지 않는 퍼즐로 평한다.",
+    "summary": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세우고, 황금기를 세 장으로 다룬다. 뛰어난 탐정과 화자를 맡은 친구라는 뒤팽 이야기의 배치는 후대 탐정소설이 따랐고, 1929년 로널드 녹스가 정리한 황금기의 규칙에는 조수('왓슨')가 평균적 독자보다 아주 조금 둔해야 한다는 조항이 있다. 시먼스는 크리스티의 첫 추리소설을 인물에 대한 감정적 관여를 허용하지 않는 퍼즐로 평한다.",
     "evidenceLevel": "scholarly_consensus",
     "sourceIds": [
       "src--symons-bloody-murder"
@@ -1302,7 +1302,7 @@
     "type": "contrast",
     "direction": "bidirectional",
     "weight": 0.6,
-    "summary": "「『레 탕 모데른』 창간사」(1945, 『Situations II』 수록)에서 사르트르는 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 '막기 위해 한 줄도 쓰지 않았다'고 썼고, 뒤에 『집안의 백치』(1971–72) 세 권을 그 플로베르 한 사람에게 바쳤다. 이 대립은 사르트르 자신이 세웠고, 연구자는 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다.",
+    "summary": "「『레 탕 모데른』 창간사」(1945, 『Situations II』 수록)에서 사르트르는 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 '막기 위해 한 줄도 쓰지 않았다'고 썼고, 뒤에 『집안의 백치』(1971–72) 세 권을 플로베르 한 사람에게 바쳤다. 이 대립은 사르트르 자신이 세웠고, 한 연구자는 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다.",
     "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--sartre-quest-ce-que-la-litterature",
@@ -1511,7 +1511,7 @@
     "type": "affinity",
     "direction": "bidirectional",
     "weight": 0.6,
-    "summary": "아디브 할리드의 『우즈베키스탄 만들기』(2015)는 혁명 이후 우즈베크 문화 정치를 서술하며 코디리와 아이니를 근대 산문을 만든 가장 중요한 두 사람으로 들고, 같은 저자의 『무슬림 문화개혁의 정치』(1998)는 1917년 이전 자디드 국면을 다룬다. 아이니는 시에서, 코디리는 희곡과 신문 풍자에서 출발해 둘 다 산문 서사로 옮겨 갔다.",
+    "summary": "아디브 할리드의 『우즈베키스탄 만들기』(2015)는 코디리와 아이니를 각각 우즈베크어와 타지크어에서 근대 산문을 만든 가장 중요한 사람으로 들고, 같은 저자의 『무슬림 문화개혁의 정치』(1998)는 1917년 이전 자디드 국면을 다룬다. 아이니는 시에서, 코디리는 희곡과 생활 스케치에서 출발해 둘 다 산문 서사로 나아갔다.",
     "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--khalid-making-uzbekistan-2015",

@@ -1,0 +1,32 @@
+{
+  "fixes": [
+    {
+      "id": "roald-dahl",
+      "importanceReason": "아이를 보호받는 존재가 아니라 어른의 악의와 맞서 끝내 복수하는 주인공으로 세웠고, 대부분의 아동서와 달리 어둡게 희극적인 분위기에 잔혹한 폭력과 죽음을 자주 담았다. 아이 편에 붙은 화자, 우스꽝스럽게 과장된 악인, 발명된 낱말과 교훈시처럼 삽입된 노래를 썼다. 훈육의 틀은 버리지 않은 채 경고담의 전통적 어조와 구조를 깼고, 같은 잔혹함을 성인 단편에서는 마지막 한 줄의 반전으로 썼다.",
+      "readingEntryReason": "황금 티켓을 받은 다섯 중 네 아이가 각자의 악덕대로 공장에서 사라지고 찰리만 남는 구조 안에 달의 규칙 — 악덕에는 응징 — 이 한 권으로 압축돼 있다.",
+      "works": [
+        {
+          "id": "roald-dahl--james-and-the-giant-peach",
+          "significance": "고아가 된 아이가 거대한 복숭아를 타고 학대하는 이모들에게서 탈출하는 이야기로, 이후 달의 아동물이 반복할 구도 — 잔혹한 어른 대 아이 — 가 담긴 초기작."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "달은 이 장치들(아이 편 화자·우스꽝스럽게 과장된 악인·발명된 낱말·교훈시 같은 노래)로 경고담의 전통적 어조와 구조를 깼다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "이 구조에 압축된 규칙은 '악의에는 응징'이다 — 네 아이가 받는 응징은 악의에 대한 것이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "『제임스와 슈퍼 복숭아』가 그 구도를 처음 세웠다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

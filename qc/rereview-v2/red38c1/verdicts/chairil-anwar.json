@@ -1,0 +1,396 @@
+{
+  "plates": [
+    {
+      "id": "chairil-anwar",
+      "claims": [
+        {
+          "sids": [
+            "95af55535be5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그는 구어체(일상어)로 시를 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Teeuw writes that Anwar used everyday language in his poetry, which is emphasized by using it in an unusual manner.",
+          "note": "인니어 작품 목록(Daftar) 서두는 'penggunaan bahasa sehari-hari tidak digunakan dalam puisinya'라고 반대로 적지만, 그 원문인 영문 List of works by Chairil Anwar 서두는 'used everyday language in an unusual manner in his poetry'라 번역 오류로 본다"
+        },
+        {
+          "sids": [
+            "95af55535be5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "고전 말레이어의 영향에서 벗어나 네덜란드어·영어 차용어의 영향을 보인 그의 언어는 이후 인도네시아어의 발전에 영향을 주었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "His use of the language, shifting away from the classic Malay influence and showing the influence of Dutch and English loanwords, influenced the later development of the language, showing the weaknesses of contemporary Indonesian.",
+          "note": "영문 위키백과가 드는 근거는 Teeuw 1980, pp. 209–210"
+        },
+        {
+          "sids": [
+            "209d73d69d76"
+          ],
+          "field": "author.importanceReason",
+          "claim": "전통 4행 형식을 따른 그의 시는 세 편뿐이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Only three of Anwar's poems, \"Kepada Peminta-Peminta\" (\"To the Askers\"), \"?\", and \"Cemara Menderai Sampai Jauh\", follow the traditional four line patter.",
+          "note": "'patter'는 원문 그대로(pattern의 오기). 근거는 Balfas 1976, p. 85"
+        },
+        {
+          "sids": [
+            "209d73d69d76"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그는 죽음을 자주 다뤘다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Living rebelliously, Anwar wrote extensively, often about death.",
+          "note": "인니 위키백과도 'Hampir semua puisi yang ia tulis merujuk pada kematian.'"
+        },
+        {
+          "sids": [
+            "f68f31caa958"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그는 70여 편의 시를 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "He is estimated to have written 96 works, including 70 individual poems.",
+          "note": "같은 문서 본문은 'approximately 94 works, including 71 poems', 인니 작품 목록은 75편, Setyawan 2019가 인용한 Jassin 집계는 '70 sajak asli'. '70여 편'은 이 범위 안이다"
+        },
+        {
+          "sids": [
+            "f68f31caa958"
+          ],
+          "field": "author.importanceReason",
+          "claim": "H. B. 야신은 그를 아스룰 사니·리바이 아핀과 함께 '45년 세대'와 인도네시아 현대시의 선구자로 꼽았다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Bersama Asrul Sani dan Rivai Apin, ia dinobatkan oleh H.B. Jassin sebagai pelopor Angkatan '45 sekaligus puisi modern Indonesia."
+        },
+        {
+          "sids": [
+            "f68f31caa958"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그가 죽은 뒤 그의 시 쓰기는 인도네시아 문학의 새 모델로 여겨졌다",
+          "verdict": "confirmed",
+          "url": "https://journal.unj.ac.id/unj/index.php/aksis/article/download/12618/7967",
+          "quote": "praktik sastra perlawanan sepeninggal Chairil merupakan praktik yang berhasil, yang ditandai oleh beberapa hal, antara lain (1) model penulisan sajak Chairil dianggap model baru yang belum ada sebelumnya di kesusasteraan Indonesia",
+          "note": "Setyawan 2019 자신의 결론(성공의 징표 목록 중 첫째)이다. 문장이 누구의 평가인지 밝히지 않고 수동('여겨졌다')으로 적어 출처의 'dianggap'과 맞다"
+        },
+        {
+          "sids": [
+            "13d761f2ed41"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「Aku」는 그의 가장 이름난 작품이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "His most celebrated work is \"Aku\" (\"Me\").",
+          "note": "인니 위키백과 Aku 문서는 'mungkin adalah karyanya yang paling terkenal'로 한발 물러서고, 인니 위키백과 인물 문서는 가장 유명한 작품으로 「Aku」와 「Krawang Bekasi」를 함께 든다. 영문 List of works는 'his best-known work, \"Aku\"'"
+        },
+        {
+          "sids": [
+            "13d761f2ed41"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「Aku」는 한 페이지에 드는 짧은 일인칭 시다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Aku_(puisi)",
+          "quote": "Kalau sampai waktuku / 'Ku mau tak seorang 'kan merayu / Tidak juga kau / Tak perlu sedu sedan itu / Aku ini binatang jalang / Dari kumpulannya terbuang / Biar peluru menembus kulitku / Aku tetap meradang menerjang / Luka dan bisa kubawa berlari / Berlari / Hingga hilang pedih peri / Dan aku akan lebih tidak peduli / Aku mau hidup seribu tahun lagi!",
+          "note": "전문 13행, 화자 'aku'. '시집을 펼치기 전에 먼저 읽기 좋다'는 독서 안내라 검증 대상이 아니다"
+        },
+        {
+          "sids": [
+            "409d3b7118cc"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "어휘는 일상어지만 낯선 방식으로 쓰고, 접두사·접미사를 부려 말을 역동적으로 만든다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Teeuw writes that Anwar used everyday language in his poetry, which is emphasized by using it in an unusual manner. Anwar also exploited the morphology of Indonesian, using prefixes and suffixes to make the language more dynamic and give a stronger impression."
+        },
+        {
+          "sids": [
+            "e51c33e92e08"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "그는 일본 점령기에 집중적으로 시를 썼고, 그 시기가 그의 시에 자취를 남겼다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "Ia menulis secara intensif pada masa pendudukan Jepang (1942–1945). Pada waktu itu, ia mengubah puisi-puisinya untuk menghindari penyensoran",
+          "note": "영문 위키백과도 'his poems were at times censored by the Japanese, who were then occupying Indonesia'"
+        },
+        {
+          "sids": [
+            "e51c33e92e08"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "독립 전쟁도 그의 시의 배경이다",
+          "verdict": "confirmed",
+          "url": "https://id.wikisource.org/wiki/Kerikil_Tadjam_dan_Jang_Terampas_dan_Jang_Putus/Jang_Terampas_dan_Jang_Putus",
+          "quote": "Kami jang kini terbaring antara Krawang-Bekasi / tidak bisa teriak \"Merdeka\" dan angkat sendjata lagi",
+          "note": "근거는 시 본문이다: 「Krawang-Bekasi」(Mimbar Indonesia 1948-11-20 초간, 인니 작품 목록)는 'Merdeka'를 외치고 무기를 들던 전사자들의 목소리로 쓰였고, 같은 2부의 「Persetudjuan dengan Bung Karno」도 'Dari mula tgl. 17 Agustus 1945'로 시작하는 연을 둔다. 독립 전쟁을 그의 시의 배경이라고 직접 서술한 2차 문헌은 이번 세션에 따로 확인하지 못했다"
+        },
+        {
+          "sids": [
+            "81f2edf2284b"
+          ],
+          "field": "work:chairil-anwar--krawang-bekasi.significance",
+          "claim": "「Krawang-Bekasi」는 아치볼드 매클리시의 시와 닮았다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Dalam tulisannya pada Mimbar Indonesia yang berjudul Karya Asli, Saduran, dan Plagiat ia membahas tentang kemiripan puisi Karawang-Bekasi dengan The Dead Young Soldiers karya Archibald MacLeish.",
+          "note": "매클리시 시의 제목은 인니 작품 목록과 Setyawan 2019에서는 'The Young Dead Soldiers'"
+        },
+        {
+          "sids": [
+            "81f2edf2284b"
+          ],
+          "field": "work:chairil-anwar--krawang-bekasi.significance",
+          "claim": "그 유사성 때문에 표절 비판이 일었고 찬반이 갈렸다",
+          "verdict": "confirmed",
+          "url": "https://journal.unj.ac.id/unj/index.php/aksis/article/download/12618/7967",
+          "quote": "saduran terhadap puisi ―The Young Dead Soldiers‖ karya Archibald Macleish yang disadur menjadi ―Krawang - Bekasi‖ (Jassin, 2013:98-104). Imbas dari kekhilafan tersebut, menghadirkan sentiman terhadap Chairil sebagai seorang plagiator. Pro dan kontra pun tumbuh-kembang",
+          "note": "같은 대목은 Elsschot의 「Tot Den Arme」→「Kepada Peminta-minta」 번안도 함께 든다. 따옴표 ―‖는 PDF 추출 그대로"
+        },
+        {
+          "sids": [
+            "81f2edf2284b"
+          ],
+          "field": "work:chairil-anwar--krawang-bekasi.significance",
+          "claim": "그 표절 비판은 시간이 지나며 잦아들었다",
+          "verdict": "confirmed",
+          "url": "https://journal.unj.ac.id/unj/index.php/aksis/article/download/12618/7967",
+          "quote": "Golongan yang kontra cenderung mengkritik praktik ―plagiasi‖ yang dilakukan Chairil sebagai sesuatu yang tak layak. Akan tetapi seiring berjalannya waktu, hal tersebut menguap begitu saja.",
+          "note": "같은 논문 3쪽은 시간이 지나도 그의 이름이 'beserta kontroversi yang melingkupinya' 문학사에 남았다고 적어, 논란 자체가 사라졌다는 뜻은 아니다. 문장은 '비판'이 잦아들었다고만 말해 출처 범위 안이다. 영문 List of works도 'the criticism of his plagiarism – although extensive at the time of discovery – has not affected his legacy'"
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "『Deru Campur Debu』는 1949년에 나온 시집으로 27편이 실렸다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "Deru Campur Debu | 1949 | Pembangunan | Berisi 27 puisi; beberapa diantaranya bercampur dengan terbitan lainnya",
+          "note": "표의 한 행(제목 | 간행 연도 | 출판사 | 비고)"
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "그가 죽은 뒤 유고로 묶여 나온 시집이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Most of Anwar's poems were unpublished at the time of his death, but were later collected in posthumous anthologies. The first published anthology was Deru Tjampur Debu (Roar Mixed with Dust)",
+          "note": "그는 1949년 4월 28일에 죽었고 간행 연도는 1949(인니 작품 목록)"
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "「Aku」는 그의 대표작이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "His most celebrated work is \"Aku\" (\"Me\")."
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "「Aku」가 이 시집에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Aku\" | Maret 1943 | Digabung dalam Kerikil-Kerikil Tajam dan yang Terampas dan yang Putus dan Deru Campur Debu; dikenal juga sebagai \"Semangat\""
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "「Doa」가 이 시집에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Doa\" | 13 November 1943 | Pertama kali diterbitkan dalam Pantja Raja, 15 November 1946; digabung dalam Deru Campur Debu"
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "「Isa」가 이 시집에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Isa\" | 12 November 1943 | Pertama kali diterbitkan dalam Pantja Raja, 15 November 1946; digabung dalam Deru Campur Debu"
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "「Cintaku Jauh di Pulau」가 이 시집에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Cintaku Jauh di Pulau\" | 1946 | Pertama kali diterbitkan dalam Pantja Raja, 1 Januari 1947; digabung dalam Deru Campur Debu dan Tiga Menguak Takdir"
+        },
+        {
+          "sids": [
+            "2299453a5d01"
+          ],
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "「Doa」·「Isa」·「Cintaku Jauh di Pulau」도 그의 대표작이다(문장이 이렇게 읽힐 수 있다)",
+          "verdict": "unverifiable",
+          "correction": "그의 대표작 「Aku」를 비롯해 「Doa」·「Isa」·「Cintaku Jauh di Pulau」가 여기 실렸다",
+          "note": "고친 문장 '그의 대표작 「Aku」와 「Doa」·「Isa」·「Cintaku Jauh di Pulau」'는 '대표작'이 네 편 모두에 걸리는 것으로 읽힐 수 있다. 세 편을 대표작으로 꼽은 출처는 이번에도 찾지 못했다: 영문 위키백과는 「Doa」·「Isa」를 다의적 해석의 예로만 들고, 인니 위키백과가 꼽는 가장 이름난 작품은 「Aku」와 「Krawang Bekasi」다. 대표작이 「Aku」 하나에만 걸리도록 어순을 바꾸면 해소된다"
+        },
+        {
+          "sids": [
+            "3329eddd4390"
+          ],
+          "field": "work:chairil-anwar--kerikil-tajam.significance",
+          "claim": "두 부분으로 나뉜 시집이다",
+          "verdict": "confirmed",
+          "url": "https://id.wikisource.org/wiki/Kerikil_Tadjam_dan_Jang_Terampas_dan_Jang_Putus",
+          "quote": "Kerikil Tadjam dan Jang Terampas dan Jang Putus (EYD: Kerikil Tajam dan Yang Terampas dan yang Putus) adalah antologi puisi yang terbagi atas dua bagian, Kerikil Tadjam dan Jang Terampas dan Jang Putus."
+        },
+        {
+          "sids": [
+            "3329eddd4390"
+          ],
+          "field": "work:chairil-anwar--kerikil-tajam.significance",
+          "claim": "정식 표제는 『Kerikil Tajam dan Yang Terampas dan Yang Putus』다",
+          "verdict": "confirmed",
+          "url": "https://id.wikisource.org/wiki/Halaman:Kerikil_Tadjam_Dan_Jang_Terampas_Dan_Jang_Putus_-_Chairil_Anwar.pdf/1",
+          "quote": "CHAIRIL ANWAR / KERIKIL TADJAM / DAN / JANG TERAMPAS / DAN JANG PUTUS",
+          "note": "Pustaka Rakjat판 표지 전사(위키문헌 스캔 1쪽, 3쪽에 'Copyright by PUSTAKA RAKJAT'). 표기는 구철자 Tadjam·Jang, 신철자로 옮기면 문장의 표제와 같다"
+        },
+        {
+          "sids": [
+            "3329eddd4390"
+          ],
+          "field": "work:chairil-anwar--kerikil-tajam.significance",
+          "claim": "중첩형 『Kerikil-Kerikil Tajam…』은 일부 작품 목록에서 쓰이는 이형이다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "Kerikil-Kerikil Tajam dan yang Terampas dan yang Putus | 1949 | Pustaka Rakjat | Terdiri dari dua bagian",
+          "note": "영문 List of works by Chairil Anwar도 중첩형을 쓴다. 표지와 위키문헌·Yampolsky(Lontar)는 비중첩형"
+        },
+        {
+          "sids": [
+            "74d2f3a182a8"
+          ],
+          "field": "work:chairil-anwar--kerikil-tajam.significance",
+          "claim": "2부 표제 '빼앗기고 끊긴 것들'은 Yang Terampas dan Yang Putus의 뜻과 맞다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Kerikil Tadjam dan Jang Terampas dan Terputus (Sharp Pebbles and the Seized and The Broken)",
+          "note": "Yampolsky(Lontar)의 영역은 'The Seized and the Severed'"
+        },
+        {
+          "sids": [
+            "74d2f3a182a8"
+          ],
+          "field": "work:chairil-anwar--kerikil-tajam.significance",
+          "claim": "2부에 표제시 「Jang Terampas dan Jang Putus」가 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://id.wikisource.org/wiki/Kerikil_Tadjam_dan_Jang_Terampas_dan_Jang_Putus/Jang_Terampas_dan_Jang_Putus",
+          "quote": "JANG TERAMPAS DAN JANG PUTUS / Kelam dan angin lalu mempesiang diriku,"
+        },
+        {
+          "sids": [
+            "74d2f3a182a8"
+          ],
+          "field": "work:chairil-anwar--kerikil-tajam.significance",
+          "claim": "그 표제시는 1949년의 만년작이다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Yang Terampas dan Yang Luput\" | 1949 | Pertama kali diterbitkan dalam Mutiara, 15 Mei 1949; juga diterbitkan dalam Karya (Mei 1949) dan Internasional (Juni 1949); digabung dalam Kerikil-Kerikil Tajam dan yang Terampas dan yang Putus dan Tiga Menguak Takdir; diterbitkan dengan tiga nama yang berbeda; nama alternatifnya adalah \"Yang Terampas dan Yang Putus\" dan \"Buat Mirat\"",
+          "note": "같은 시다: 목록의 'Anwar memprediksi pemakamannya di Karet Bivak'와 위키문헌 본문의 'di Karét, di Karét (daérahku j.a.d.)'. Yampolsky(https://web.archive.org/web/20140314041813/http://www.seasite.niu.edu/flin/literature/chairil-anwar_lat15.html)도 'In the last days of his life, he wrote a poem that read thus: The Seized and the Severed'. 2부에는 1949년 작 「Derai-Derai Cemara」도 실려 있다(목록 1949, 위키문헌 2부 끝 'tjemara menderai sampai djauh')"
+        },
+        {
+          "sids": [
+            "8863b3ba26fb"
+          ],
+          "field": "relation:translation--john-steinbeck--chairil-anwar.summary",
+          "claim": "그 작품 목록은 야신(1968)과 라펠(1970)의 집계를 근거로 한다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "Selain yang diberi catatan, entri-entri daftar ini didasarkan pada kompilasi puisi buatan (Jassin 1968, hlm. 163–172) dan (Raffel 1970, hlm. vii–ix).",
+          "note": "영문판 List of works도 'Unless otherwise noted, this list is based on the ones compiled by Jassin (1968, pp. 163–172) and Raffel (1970, pp. vii–ix).'"
+        },
+        {
+          "sids": [
+            "8863b3ba26fb"
+          ],
+          "field": "relation:translation--john-steinbeck--chairil-anwar.summary",
+          "claim": "그 목록에 「Kena Gempur」 번역이 올라 있다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Kena Gempur\" | 1 Februari 1947 | Pantja Raja | Diterjemahkan dari cerita pendek \"The Raid\" karya John Steinbeck",
+          "note": "이 행에는 따로 단 주석이 없어(위키텍스트 확인) 앞의 근거 문장이 적용된다"
+        },
+        {
+          "sids": [
+            "62efc5a0f34a"
+          ],
+          "field": "relation:influence--rainer-maria-rilke--chairil-anwar.facts",
+          "claim": "릴케가 차이릴의 시에 영향을 주었다(릴케→차이릴)",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Ia juga mengisi jam-jamnya dengan membaca karya-karya pengarang internasional ternama, seperti: Rainer Maria Rilke, W.H. Auden, Archibald MacLeish, Hendrik Marsman, J. Slaurhoff, dan Edgar du Perron. Penulis-penulis tersebut sangat memengaruhi tulisannya secara langsung",
+          "note": "Yampolsky(Lontar)도 같은 명단 뒤에 'These writers became his references, directly influencing his own poetry'"
+        },
+        {
+          "sids": [
+            "62efc5a0f34a"
+          ],
+          "field": "relation:influence--rainer-maria-rilke--chairil-anwar.facts",
+          "claim": "그 영향은 연구 문헌에 기록되어 있다(documented)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Teeuw also notes that Anwar's early works heavily show the influence of Hendrik Marsman, while other works harken back to Rainer Maria Rilke, J. Slauerhoff, and Xu Zhimo.",
+          "note": "근거는 Teeuw 1980, p. 204(영문 위키백과 각주)"
+        },
+        {
+          "sids": [
+            "e9e45c8f82db"
+          ],
+          "field": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+          "claim": "차이릴은 릴케의 「Herbsttag」를 「Musim Gugur」로 옮겨 『Gema Suasana』 1948년 1월에 실었다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Musim Gugur\" | 1947 | Diterbitkan dalam Gema Soeasana, Januari 1948; diterjemahkan dari puisi \"Herbsttag\" karya Rainer Maria Rilke",
+          "note": "잡지명 원표기는 구철자 Gema Soeasana"
+        },
+        {
+          "sids": [
+            "e9e45c8f82db"
+          ],
+          "field": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+          "claim": "차이릴은 릴케의 「Ernste Stunde」를 「Jenak Berbenar」로 옮겼다(1947, 미발표)",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Daftar_karya_Chairil_Anwar",
+          "quote": "\"Jenak Berbenar\" | 1947 | Tidak diterbitkan; diterjemahkan dari puisi \"Ernste Stunde\" karya Rainer Maria Rilke"
+        },
+        {
+          "sids": [
+            "e9e45c8f82db",
+            "46482002aac2"
+          ],
+          "field": "relation:influence--rainer-maria-rilke--chairil-anwar.summary",
+          "claim": "A. Teeuw가 차이릴 작품의 릴케 계보를 기술한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Chairil_Anwar",
+          "quote": "Teeuw also notes that Anwar's early works heavily show the influence of Hendrik Marsman, while other works harken back to Rainer Maria Rilke, J. Slauerhoff, and Xu Zhimo.",
+          "note": "문장 분리 탓에 'A.'가 앞 sid에 붙어 있다. 확인된 Teeuw의 릴케 언급은 『Sastra Baru Indonesia』(1980) 204쪽(영문 위키백과 각주)이다. 이 관계의 출처로 달린 『Modern Indonesian Literature』에서의 대목은 이번 세션에도 열람하지 못했다(Google Books API 할당량 초과, archive.org 소장 없음). 문장 자체는 책 이름을 대지 않아 판정에 영향이 없다"
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

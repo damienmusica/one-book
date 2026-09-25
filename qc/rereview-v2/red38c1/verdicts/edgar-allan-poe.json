@@ -1,0 +1,352 @@
+{
+ "plates": [
+  {
+   "id": "edgar-allan-poe",
+   "claims": [
+    {
+     "sids": [
+      "f007ad57bd2e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그 원리를 밝힌 글은 1842년 호손 『두 번 들려준 이야기』(Twice-Told Tales) 서평이다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/criticsm/gm542hn1.htm",
+     "quote": "Text: Edgar Allan Poe, “Review of Twice-Told Tales” [Text-02], Graham's Magazine, May 1842, pp. 298-300 … Twice-Told Tales. By Nathaniel Hawthorne.",
+     "note": "서지 머리말과 이어지는 서평 표제. 1842년 5월 『그레이엄스 매거진』."
+    },
+    {
+     "sids": [
+      "f007ad57bd2e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "포는 그 서평에서 짧은 산문 이야기는 한자리에서 읽혀야 한다는 원리를 명시했다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/criticsm/gm542hn1.htm",
+     "quote": "We allude to the short prose narrative, requiring from a half-hour to one or two hours in its perusal. The ordinary novel is objectionable, from its length, for reasons already stated in substance. As it cannot be read at one sitting, it deprives itself, of course, of the immense force derivable from totality. … In the brief tale, however, the author is enabled to carry out the fulness of his intention, be it what it may. During the hour of perusal the soul of the reader is at the writer's control."
+    },
+    {
+     "sids": [
+      "f007ad57bd2e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "같은 서평에서 이야기는 미리 정한 하나의 효과로 수렴해야 한다는 원리를 명시했다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/criticsm/gm542hn1.htm",
+     "quote": "having conceived, with deliberate care, a certain … unique or single effect to be wrought out, he then invents such incidents — he then combines such events as may best aid him in establishing this preconceived effect. If his very initial sentence tend not to the outbringing of this effect, then he has failed in his first step. In the whole composition there should be no word written, of which the tendency, direct or indirect, is not to the one pre-established design."
+    },
+    {
+     "sids": [
+      "f007ad57bd2e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「구성의 철학」에서 포는 「도래까마귀」가 결말에서 시작되었다고 말한다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/essays/philcomp.htm",
+     "quote": "Here then the poem may be said to have its beginning — at the end, where all works of art should begin — for it was here, at this point of my preconsiderations, that I first put pen to paper in the composition of the stanza"
+    },
+    {
+     "sids": [
+      "f007ad57bd2e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「구성의 철학」은 분량을 가장 먼저 정했다고 서술한다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/essays/philcomp.htm",
+     "quote": "The initial consideration was that of extent. … I reached at once what I conceived the proper length for my intended poem — a length of about one hundred lines."
+    },
+    {
+     "sids": [
+      "f007ad57bd2e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「구성의 철학」은 후렴의 소리를 정한 뒤 그 소리를 담을 어휘('Nevermore')를 골랐다고 서술한다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/essays/philcomp.htm",
+     "quote": "The sound of the refrain being thus determined, it became necessary to select a word embodying this sound, and at the same time in the fullest possible keeping with that melancholy which I had predetermined as the tone of the poem. In such a search it would have been absolutely impossible to overlook the word “Nevermore.”",
+     "note": "서술 순서는 분량 → 영역(미) → 어조(슬픔) → 후렴 → 어휘로 앞에서부터 진행한다('The length, the province, and the tone, being thus determined, I betook myself to ordinary induction'). 문장은 '분량과 후렴과 어휘를 정한 순서'라고만 해 이와 어긋나지 않는다."
+    },
+    {
+     "sids": [
+      "d42f5b224814",
+      "e05da4a05121"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「어셔가의 몰락」은 짧은 단편이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Fall_of_the_House_of_Usher",
+     "quote": "\"The Fall of the House of Usher\" is a short story by American writer Edgar Allan Poe, first published in 1839 in Burton's Gentleman's Magazine"
+    },
+    {
+     "sids": [
+      "d42f5b224814",
+      "e05da4a05121"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「어셔가의 몰락」은 한자리에서 (끝까지) 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://www.google.com/books/feeds/volumes?q=%22House%20of%20Usher%22%20%22one%20sitting%22&max-results=20",
+     "quote": "one sitting \" which the reading of The Fall of the House of Usher requires . In their brevity alone the shilling shockers form an impor- tant step between the long Gothic novels and the more plausible short stories of terror",
+     "note": "William Whyte Watt, 『Shilling Shockers of the Gothic School』(1967)의 Google Books 스니펫: 「어셔가의 몰락」을 읽는 데 드는 분량을 '한자리'로 적는다. 이전 근거(Carlson 편 Merrill Casebook 총서 서문)는 총서의 정의일 뿐이라 이 스니펫으로 바꿨다. 같은 검색의 Louise Dudley, 『The Study of Literature』(1928) 스니펫도 'one sitting ; one emotional effect : Poe : The Fall of the House of Usher'로 이 작품을 예로 든다."
+    },
+    {
+     "sids": [
+      "d42f5b224814"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "포는 '단일한 효과'를 말했다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/criticsm/gm542hn1.htm",
+     "quote": "having conceived, with deliberate care, a certain … unique or single effect to be wrought out, he then invents such incidents"
+    },
+    {
+     "sids": [
+      "d42f5b224814"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「어셔가의 몰락」 한 편으로 단일한 효과가 어떻게 만들어지고 유지되는지 볼 수 있다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.tandfonline.com/doi/full/10.1080/00393274.2023.2180429",
+     "quote": "This article analyzes the implications of incestuous perversions in Edgar Allan Poe’s ‘The Fall of the House of Usher’ in relation to the author’s most-praised techniques: the unity of effect. Through an in-depth examination of the work and a selection of expressions and descriptions, this essay reflects on how the unity of effect is built and maintained",
+     "note": "Jiménez González, Studia Neophilologica 95(3), 2023 초록. 문장은 '가장 완전한 예' 같은 최상급을 쓰지 않으므로 이 수준의 근거로 충분하다."
+    },
+    {
+     "sids": [
+      "70fb747eb40c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "포의 단편에는 라틴어 인용이 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/tales/plttrb.htm",
+     "quote": "Nil sapientiae odiosius acumine nimio. Seneca.",
+     "note": "「도둑맞은 편지」(Tales, 1845) 제사. 읽기 입문작 「어셔가의 몰락」에도 라틴어 서명이 나온다(https://www.eapoe.org/works/tales/ushera.htm: 'the Vigilae Mortuorum secundum Chorum Ecclesiae Maguntinae'). 「모르그가의 살인」 1843년판(https://www.eapoe.org/works/tales/morguec.htm)은 뒤팽의 마지막 대사에 같은 세네카 구절을 쓴다. '속도를 늦춘다'는 독서 경험에 대한 평가라 사실 주장으로 따로 재지 않았다."
+    },
+    {
+     "sids": [
+      "70fb747eb40c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "포의 단편에는 고전 인용·암시가 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/tales/morgued.htm",
+     "quote": "What song the Syrens sang, or what name Achilles assumed when he hid himself among women, although puzzling questions, are not beyond all conjecture. Sir Thomas Browne.",
+     "note": "「모르그가의 살인」(Tales, 1845) 제사: 세이렌과 아킬레우스라는 고전 소재를 토머스 브라운에게서 인용한다. 「도래까마귀」에 대해서는 위키백과가 'The poem makes use of folk, mythological, religious, and classical references.'라고 적는다(https://en.wikipedia.org/wiki/The_Raven). '단편은 짧고 사건이 선명하지만'은 난이도 평가라 검증 대상에서 뺐다."
+    },
+    {
+     "sids": [
+      "69bbc97560ab"
+     ],
+     "field": "work:edgar-allan-poe--the-philosophy-of-composition.significance",
+     "claim": "「구성의 철학」은 포가 「도래까마귀」를 썼다고 말하는 과정을 설명한 에세이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Philosophy_of_Composition",
+     "quote": "The author recounts this idealized process by which he says he wrote his most famous poem, \"The Raven\", to illustrate the theory",
+     "note": "같은 항목: 'It is uncertain if it is an authentic portrayal of Poe's own method.' 문장의 '썼다고 하는지'가 이 불확실성을 지킨다."
+    },
+    {
+     "sids": [
+      "69bbc97560ab"
+     ],
+     "field": "work:edgar-allan-poe--the-philosophy-of-composition.significance",
+     "claim": "에세이는 그 과정을 우연이나 직관이 아닌, 계산된 단계의 순서로 제시한다",
+     "verdict": "confirmed",
+     "url": "https://www.eapoe.org/works/essays/philcomp.htm",
+     "quote": "It is my design to render it manifest that no one point in its composition is referrible either to accident or intuition — that the work proceeded, step by step, to its completion with the precision and rigid consequence of a mathematical problem."
+    },
+    {
+     "sids": [
+      "2033d1becb1c"
+     ],
+     "field": "work:edgar-allan-poe--the-raven.significance",
+     "claim": "「도래까마귀」의 화자는 대답이 'Nevermore'임을 알면서도 거듭 묻는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Raven",
+     "quote": "The narrator assumes that the word \"Nevermore\" is the raven's \"only stock and store\", and, yet, he continues to ask it questions, knowing what the answer will be."
+    },
+    {
+     "sids": [
+      "2033d1becb1c"
+     ],
+     "field": "work:edgar-allan-poe--the-raven.significance",
+     "claim": "화자는 단계적으로 무너진다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Raven",
+     "quote": "The narrator begins as \"weak and weary\", becomes regretful and grief-stricken, before passing into a frenzy and, finally, madness.",
+     "note": "같은 분석 문단. 「도래까마귀」가 시(narrative poem)라는 점은 같은 항목 첫 문장."
+    },
+    {
+     "sids": [
+      "5ab896a6aab3"
+     ],
+     "field": "relation:influence--edgar-allan-poe--arthur-conan-doyle.summary",
+     "claim": "『마법의 문을 지나』는 1907년 책이다",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/search.json?q=through+the+magic+door+doyle&fields=title,first_publish_year,publisher,key&limit=5",
+     "quote": "{\"first_publish_year\":1907,\"key\":\"/works/OL262572W\" … \"title\":\"Through the Magic Door\"}",
+     "note": "같은 레코드의 출판사 목록에 'Smith, Elder & Co.' 포함."
+    },
+    {
+     "sids": [
+      "5ab896a6aab3"
+     ],
+     "field": "relation:influence--edgar-allan-poe--arthur-conan-doyle.summary",
+     "claim": "도일은 그 책에서 포를 단편의 스승으로 꼽았다",
+     "verdict": "confirmed",
+     "url": "https://www.gutenberg.org/cache/epub/5317/pg5317.txt",
+     "quote": "You want strength, novelty, compactness, intensity of interest, a single vivid impression left upon the mind. Poe is the master of all. … Poe is, to my mind, the supreme original short story writer of all time.",
+     "note": "바로 앞 문장들이 단편 작가로 '팀'을 짜는 맥락이다('men who have been very great in the short story, Stevenson, Poe, and Bret Harte')."
+    },
+    {
+     "sids": [
+      "5ab896a6aab3"
+     ],
+     "field": "relation:influence--edgar-allan-poe--arthur-conan-doyle.summary",
+     "claim": "『주홍색 연구』는 1887년 작품이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Study_in_Scarlet",
+     "quote": "A Study in Scarlet is a detective novel by British author Arthur Conan Doyle. Published in 1887"
+    },
+    {
+     "sids": [
+      "5ab896a6aab3"
+     ],
+     "field": "relation:influence--edgar-allan-poe--arthur-conan-doyle.summary",
+     "claim": "『주홍색 연구』 1부 2장에서 왓슨이 홈스를 뒤팽에 견주자 홈스가 뒤팽을 깎아내린다",
+     "verdict": "confirmed",
+     "url": "https://www.gutenberg.org/cache/epub/244/pg244.txt",
+     "quote": "“You remind me of Edgar Allen Poe’s Dupin. I had no idea that such individuals did exist outside of stories.” … “Now, in my opinion, Dupin was a very inferior fellow.",
+     "note": "구텐베르크 본문에서 이 대목은 PART I의 'CHAPTER II. THE SCIENCE OF DEDUCTION' 표제 뒤, 'CHAPTER III. THE LAURISTON GARDENS MYSTERY' 표제 앞에 있다(위치를 직접 대조). '홈스가 깎아내리게 했다'는 작가가 인물을 통해 한 일이라는 서술로, 대사 자체가 받친다."
+    },
+    {
+     "sids": [
+      "710cb5f165bb"
+     ],
+     "field": "relation:influence--edgar-allan-poe--jorge-luis-borges.summary",
+     "claim": "보르헤스는 1978년 6월 16일 벨그라노 대학에서 강연 「추리 이야기」를 했다",
+     "verdict": "confirmed",
+     "url": "https://www.google.com/books/feeds/volumes?q=%22cuento%20policial%22%20Borges%20%2216%20de%20junio%20de%201978%22&max-results=20",
+     "quote": "la conferencia que dictó en la Universidad de Belgrano, el 16 de junio de 1978: “El cuento policial” (OC, IV, pp. 204-213).",
+     "note": "Rafael Olea Franco, 『El legado de Borges』(2015)의 Google Books 스니펫. 강연 전문을 옮긴 블로그 본문 끝에도 '16 de junio de 1978 En Borges, oral (1979)'."
+    },
+    {
+     "sids": [
+      "710cb5f165bb"
+     ],
+     "field": "relation:influence--edgar-allan-poe--jorge-luis-borges.summary",
+     "claim": "강연은 1979년 『보르헤스 구술』(Borges oral)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.google.com/books/feeds/volumes?q=%22cuento%20policial%22%20Borges%20%2216%20de%20junio%20de%201978%22&max-results=20",
+     "quote": "cuento policial \" , en Borges oral , Buenos Aires , Emecé / Editorial de Belgrano , 1979. [ Conferencia dictada el 16 de junio de 1978 ]",
+     "note": "『Escritores argentinos del siglo XX』(2001) 스니펫. 스페인어 위키백과 Borges oral 항목도 1979년 Emecé·Editorial de Belgrano 공동판, 1978년 벨그라노 대학 강연 다섯 편 가운데 'El cuento policial'을 적는다(https://es.wikipedia.org/wiki/Borges_oral)."
+    },
+    {
+     "sids": [
+      "710cb5f165bb"
+     ],
+     "field": "relation:influence--edgar-allan-poe--jorge-luis-borges.summary",
+     "claim": "보르헤스는 뒤팽을 '그들 모두의 첫째, 모델, 원형'으로 놓고 홈스와 브라운 신부로 이어지는 계보를 정리했다",
+     "verdict": "confirmed",
+     "url": "https://borgestodoelanio.blogspot.com/2015/05/jorge-luis-borges-el-cuento-policial.html",
+     "quote": "un hombre muy inteligente que se llama Dupin, que se llamará después Sherlock Holmes, que se llamará más tarde el padre Brown, que tendrá otros nombres, otros nombres famosos sin duda. El primero de todos ellos, el modelo, el arquetipo podemos decir, es el caballero Charles Auguste Dupin",
+     "note": "블로그 전사본은 Google Books의 『Obras completas』(2005)·『Miscelánea』(2011) 스니펫과 문구가 일치한다(검색 '\"el modelo, el arquetipo podemos decir\" Dupin')."
+    },
+    {
+     "sids": [
+      "710cb5f165bb"
+     ],
+     "field": "relation:influence--edgar-allan-poe--jorge-luis-borges.summary",
+     "claim": "보르헤스는 추리소설이 '의심하며 읽는 독자'라는 특별한 독자를 만들어 냈다고 했다",
+     "verdict": "confirmed",
+     "url": "https://borgestodoelanio.blogspot.com/2015/05/jorge-luis-borges-el-cuento-policial.html",
+     "quote": "el lector de novelas policiales es un lector que lee con incredulidad, con suspicacias, una suspicacia especial. … La novela policial ha creado un tipo especial de lector.",
+     "note": "이어지는 문장은 그 독자를 만든 이를 포로 적는다: 'porque si Poe creó el relato policial, creó después el tipo de lector de ficciones policiales.' 같은 문장이 Google Books의 『Obras completas』(1989) 스니펫에도 있다."
+    },
+    {
+     "sids": [
+      "710cb5f165bb"
+     ],
+     "field": "relation:influence--edgar-allan-poe--jorge-luis-borges.summary",
+     "claim": "보르헤스는 그 독자(읽는 방식)를 장르 성립의 전제로 삼았다",
+     "verdict": "confirmed",
+     "url": "https://borgestodoelanio.blogspot.com/2015/05/jorge-luis-borges-el-cuento-policial.html",
+     "quote": "los géneros literarios dependen, quizás, menos de los textos que del modo en que éstos son leídos. … Hay un tipo de lector actual, el lector de ficciones policiales."
+    },
+    {
+     "sids": [
+      "e635460e4032"
+     ],
+     "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+     "claim": "줄리언 시먼스의 『Bloody Murder』는 1972년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://archive.org/details/bloodymurder0000unse",
+     "quote": "Bloody murder; from the detective story to the crime novel: a history by Symons, Julian, 1912-1994 Publication date 1972"
+    },
+    {
+     "sids": [
+      "e635460e4032"
+     ],
+     "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+     "claim": "시먼스는 『Bloody Murder』에서 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세운다",
+     "verdict": "confirmed",
+     "url": "https://www.google.com/books/feeds/volumes?q=Symons%20Poe%20%22themes%22%20%22other%20writers%22%20detective%20founder",
+     "quote": "Poe was the founding father whose genius suggested the themes to be followed by other writers \" ( Symons 1992 , 38 )",
+     "note": "Stefan Neuhaus, 『Der Krimi in Literatur, Film und Serie』(2021)가 인용한 시먼스 문장으로, 출처는 1992년 개정판 38쪽이다. 문장 앞머리의 '(1972)'는 초판 연도로 맞지만, 이 문구가 1972년 초판에도 같은 말로 있는지는 대출 제한본이라 확인하지 못했다."
+    },
+    {
+     "sids": [
+      "e635460e4032"
+     ],
+     "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+     "claim": "시먼스는 황금기를 '20년대'와 '30년대' 두 장으로 다룬다",
+     "verdict": "contradicted",
+     "url": "https://archive.org/details/bloodymurder0000unse",
+     "quote": "The Golden Age: the Twenties -- The Golden Age: the Thirties -- The Golden Age: rebellion",
+     "correction": "황금기에 '20년대', '30년대', '반란'이라는 제목의 세 장을 할애한다.",
+     "note": "1972년 Faber판 목차(인터넷 아카이브 서지). 위키백과 문장('heads two chapters devoted to the Golden Age as \"the Twenties\" and \"the Thirties\"')은 두 장의 제목을 적을 뿐 황금기 장이 둘뿐이라고 하지 않는데, 페이지 문장은 '두 장으로'라 한정한다. 세 번째 장 'The Golden Age: Rebellion'은 1974년 Penguin판에도 있다(Google Books 『Complexions of Race』 스니펫, 검색 'Symons \"Bloody Murder\" \"The Golden Age: Rebellion\"'). 목차에는 별도로 'The short story: the first Golden Age'도 있다."
+    },
+    {
+     "sids": [
+      "5ff00f4497df"
+     ],
+     "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+     "claim": "뛰어난 탐정과 화자를 맡은 친구라는 뒤팽 이야기의 배치를 후대 탐정소설이 따랐다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Murders_in_the_Rue_Morgue",
+     "quote": "Many later characters, for example, follow Poe's model of the brilliant detective, his personal friend who serves as narrator, and the final revelation being presented before the reasoning that leads up to it."
+    },
+    {
+     "sids": [
+      "5ff00f4497df"
+     ],
+     "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+     "claim": "황금기 추리소설의 규칙은 1929년 로널드 녹스가 정리했다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Golden_Age_of_Detective_Fiction",
+     "quote": "The rules of the game – and Golden Age mysteries were considered games – were codified in 1929 by Ronald Knox."
+    },
+    {
+     "sids": [
+      "5ff00f4497df"
+     ],
+     "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+     "claim": "그 규칙에는 조수('왓슨')가 평균적 독자보다 아주 조금 둔해야 한다는 조항이 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Golden_Age_of_Detective_Fiction",
+     "quote": "The \"sidekick\" of the detective, the Watson, must not conceal from the reader any thoughts which pass through his mind: his intelligence must be slightly, but very slightly, below that of the average reader.",
+     "note": "같은 절의 녹스 '십계' 목록 가운데 한 조항."
+    },
+    {
+     "sids": [
+      "35e72ec6bd49"
+     ],
+     "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+     "claim": "시먼스는 크리스티의 소설을 인물에 대한 감정적 관여를 허용하지 않는, 오로지 퍼즐인 이야기로 평한다",
+     "verdict": "confirmed",
+     "url": "https://www.google.com/books/feeds/volumes?q=Symons%20Christie%20%22emotional%20engagement%22%20puzzle&max-results=20",
+     "quote": "Christie with faint praise when he notes that her first detective novel was “ original in the sense that it is a puzzle story which is solely that , \" adding that it \" permits no emotional engagement with the characters \" ( Symons 1985",
+     "note": "Evans & Bernthal 편 『The Bloomsbury Handbook to Agatha Christie』(2022) 스니펫. 이 대목은 평의 대상을 크리스티의 첫 추리소설(『스타일스 저택의 괴사건』)로 적는다. '크리스티의 소설'은 수를 가리지 않아 그 한 편으로 읽어도 맞고, 같은 책의 다른 대목('describing her work as … (1972 : 100)')과 『Cambridge Companion to Crime Fiction』('as Symons comments, her work is ...')은 '오로지 퍼즐'이라는 평을 크리스티의 작품 전반에 건다. 같은 책 편자들도 이 평을 크리스티 인물 전반에 대한 통념으로 다룬다('While the editors of this volume would take issue with the idea that it is impossible to engage with Christie's characters'). 더 정확하게 쓰려면 '첫 추리소설'로 특정할 수 있다. 인용은 1985년판 92쪽."
+    }
+   ],
+   "noClaim": {}
+  }
+ ]
+}

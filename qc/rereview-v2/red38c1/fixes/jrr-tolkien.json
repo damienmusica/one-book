@@ -1,0 +1,15 @@
+{
+  "fixes": [
+    {
+      "id": "jrr-tolkien",
+      "difficultyReason": "『호빗』은 평이하지만 『반지의 제왕』은 세 권 분량에 삽입 시가와 부록·연대표가 붙고, 『실마릴리온』은 단일 서사도 길잡이 호빗도 없는 신화지로, 이름이 많고 어렵다는 비판을 받았다.",
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 신화지 문체 때문에 『호빗』·『반지의 제왕』보다 고유명사 밀도가 급격히 올라간다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

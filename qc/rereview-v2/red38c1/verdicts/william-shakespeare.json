@@ -1,0 +1,492 @@
+{
+  "plates": [
+    {
+      "id": "william-shakespeare",
+      "claims": [
+        {
+          "sids": [
+            "5ba7954bc8ec"
+          ],
+          "field": "author.importanceReason",
+          "claim": "셰익스피어 이전까지 독백은 주로 인물과 사건의 정보를 전하는 데 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/William_Shakespeare",
+          "quote": "Soliloquies had been used mainly to convey information about characters or events, but Shakespeare used them to explore characters' minds.",
+          "note": "'had been used'(과거완료)가 문장의 '그때까지'와 같은 범위다."
+        },
+        {
+          "sids": [
+            "5ba7954bc8ec"
+          ],
+          "field": "author.importanceReason",
+          "claim": "셰익스피어는 독백을 인물의 마음을 탐색하는 자리로 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/William_Shakespeare",
+          "quote": "Soliloquies had been used mainly to convey information about characters or events, but Shakespeare used them to explore characters' minds."
+        },
+        {
+          "sids": [
+            "36f863268d33"
+          ],
+          "field": "author.importanceReason",
+          "claim": "셰익스피어의 작품은 이후 연극과 문학에 크고 오래가는 흔적을 남겼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/William_Shakespeare",
+          "quote": "Shakespeare's work has made a significant and lasting impression on later theatre and literature."
+        },
+        {
+          "sids": [
+            "36f863268d33"
+          ],
+          "field": "author.importanceReason",
+          "claim": "셰익스피어는 특히 인물 형상화의 극적 가능성을 넓혔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/William_Shakespeare",
+          "quote": "In particular, he expanded the dramatic potential of characterisation, plot, language, and genre.",
+          "note": "출처는 인물 형상화·플롯·언어·장르 넷을 함께 든다. 문장은 그중 인물 형상화만 골랐으므로 범위를 좁힌 것이지 과장은 아니다."
+        },
+        {
+          "sids": [
+            "e5cb2b730738"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『맥베스』는 셰익스피어 비극 가운데 가장 짧다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Macbeth",
+          "quote": "It was first published in the Folio of 1623, possibly from a prompt book, and is Shakespeare's shortest tragedy.",
+          "note": "최상급은 출처 문장('Shakespeare's shortest tragedy')과 강도가 같다. '한자리에서 끝까지 간다'는 읽기 안내의 판단이라 사실 주장으로 세우지 않았다."
+        },
+        {
+          "sids": [
+            "29cf78504090"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『리어 왕』의 시어는 복잡하다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/King_Lear",
+          "quote": "The play is known for its dark tone, complex poetry, and prominent motifs concerning blindness, madness and human nature."
+        },
+        {
+          "sids": [
+            "29cf78504090"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『리어 왕』은 사절판과 이절판의 본문 차이가 행·단어 단위까지 크다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/King_Lear",
+          "quote": "Quarto and Folio texts differ significantly. Q1 contains 285 lines not in F1; F1 contains around 100 lines not in Q1. Also, at least a thousand individual words are changed between the two texts, each text has different styles of punctuation, and about half the verse lines in the F1 are either printed as prose or differently divided in the Q1.",
+          "note": "판본 차이가 단어·구두점·행 나눔 수준이라는 것까지 출처가 싣는다. '문장 단위에서 멈춘다'는 독서 경험에 대한 판단이라 따로 세우지 않았다."
+        },
+        {
+          "sids": [
+            "508f8427fb57"
+          ],
+          "field": "work:william-shakespeare--hamlet.significance",
+          "claim": "『햄릿』은 셰익스피어의 희곡 가운데 가장 길다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Hamlet",
+          "quote": "Hamlet is by far the longest play that Shakespeare wrote, and one of the longest plays in the Western canon.",
+          "note": "문장은 '가장 긴 희곡'이라고만 쓰지만 작가 페이지 안의 작품 설명이라 '셰익스피어 희곡 가운데'로 읽힌다. 같은 항목 첫 문단도 'It is Shakespeare's longest play.'라고 적는다."
+        },
+        {
+          "sids": [
+            "508f8427fb57"
+          ],
+          "field": "work:william-shakespeare--hamlet.significance",
+          "claim": "햄릿은 독백 중 스스로 말을 끊고 자신에게 혐오나 동의를 내뱉는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Hamlet",
+          "quote": "Hamlet's soliloquies have captured the attention of scholars. Hamlet interrupts himself, vocalising either disgust or agreement with himself and embellishing his own words."
+        },
+        {
+          "sids": [
+            "b01161e5bc85"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "『소네트』는 청년을 향한 묶음과 여인을 향한 묶음, 둘로 나뉜다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+          "quote": "The first 126 are addressed to a young man; the last 28 are either addressed to, or refer to, a woman.",
+          "note": "같은 항목은 'Dark Lady sequence'를 127–152번으로 잡고, 마지막 두 편(153–154)은 큐피드를 다룬 우의시라고 적는다. 두 묶음 독해는 출처와 맞는다."
+        },
+        {
+          "sids": [
+            "b01161e5bc85"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "두 대상은 흔히 '아름다운 청년'(Fair Youth)과 '검은 여인'(Dark Lady)으로 불린다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+          "quote": "When analysed as characters, the subjects of the sonnets are usually referred to as the Fair Youth, the Rival Poet, and the Dark Lady.",
+          "note": "세 번째 인물인 '경쟁 시인'의 소네트(78–86번)는 청년 묶음 안에 있어('The sonnets most commonly identified as the Rival Poet group exist within the Fair Youth sequence in sonnets 78–86.') 두 묶음 구분과 충돌하지 않는다."
+        },
+        {
+          "sids": [
+            "b01161e5bc85"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "3사행연 + 2행 결구의 영국식 소네트 형태는 서리 백작 헨리 하워드가 확립했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Henry_Howard,_Earl_of_Surrey",
+          "quote": "While Wyatt introduced the sonnet form into English poetry, Howard gave it the rhyming metre and the division into quatrains which characterise the sonnets written in a way variously named English, Elizabethan, or Shakespearean sonnets.",
+          "note": "위키백과 'Sonnet'도 서리의 소네트가 'three alternately rhymed quatrains terminating in a final couplet' 형태라고 적는다."
+        },
+        {
+          "sids": [
+            "b01161e5bc85"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "영국식 소네트를 확립한 Earl of Surrey의 한국어 표기는 '새리 백작'이다",
+          "verdict": "contradicted",
+          "url": "https://ko.wikipedia.org/wiki/%EC%98%81%EB%AC%B8%ED%95%99",
+          "quote": "그는 영어시의 많은 혁신을 주도했고, 서리 백작 헨리 호워드 (1516/17-1547)과 함께 16세기 초 잉글랜드에 이탈리아의 소네트 형식을 소개했다.",
+          "correction": "서리 백작",
+          "note": "한국어 위키백과에서 '새리 백작'은 검색 결과가 0건이고, '서리 백작'은 이 문서와 '노퍽 공작' 등 여러 문서에서 쓰인다. 이전 판정도 '서리 백작(헨리 하워드)'로 적었으므로 고쳐 쓰는 과정에서 생긴 오기로 보인다. 역사적 사실(서리가 형태를 확립했다)은 위 주장에서 확인된다."
+        },
+        {
+          "sids": [
+            "b01161e5bc85"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "대니얼은 셰익스피어보다 먼저 3사행연 + 2행 결구의 소네트를 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Samuel_Daniel",
+          "quote": "Daniel employed the sonnet structure that has come to be called \"Shakespearean\", three quatrains and a final couplet, before Shakespeare did."
+        },
+        {
+          "sids": [
+            "b01161e5bc85"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "드레이턴도 셰익스피어의 『소네트』(1609)에 앞서 사행연 + 2행 결구의 소네트를 쓰고 있었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241203040441/https://www.poetryfoundation.org/poets/michael-drayton",
+          "quote": "Idea. The Shepheards Garland (1593), Ideas Mirrour (1594), Endimion and Phobe. Ideas Latmus (1595). … Ideas Mirrour, a sequence of 51 poems of three or four quatrains concluded by a couplet, is dedicated to Anthony Cooke.",
+          "note": "『이데아의 거울』(1594)은 사행연 셋 또는 넷에 결구를 단 시들이라 모두가 14행 영국식 소네트는 아니다. '이미'는 1609년 사절판을 기준으로 성립한다. 위키백과 'Shakespeare's sonnets'는 검은 여인 소네트의 집필을 1591–95년 무렵으로 추정하므로, 드레이턴이 셰익스피어의 집필 자체보다 앞섰다고까지는 이 출처로 말할 수 없다(대니얼만 'before Shakespeare did'로 확인된다)."
+        },
+        {
+          "sids": [
+            "b01161e5bc85"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "셰익스피어의 소네트는 몇 편을 빼면 영국식 소네트 형태를 따른다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+          "quote": "With few exceptions, Shakespeare's sonnets observe the stylistic form of the English sonnet—the rhyme scheme, the 14 lines, and the metre.",
+          "note": "같은 항목은 예외를 'The exceptions are sonnets 99, 126, and 145.'라고 든다(99번 15행, 126번 여섯 개의 2행 연구, 145번 4보격)."
+        },
+        {
+          "sids": [
+            "1da034f95fea"
+          ],
+          "field": "relation:influence--william-shakespeare--victor-hugo.summary",
+          "claim": "「크롬웰 서문」은 1827년 글이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+          "quote": "Octobre 1827.",
+          "note": "서문 끝에 붙은 날짜다."
+        },
+        {
+          "sids": [
+            "1da034f95fea"
+          ],
+          "field": "relation:influence--william-shakespeare--victor-hugo.summary",
+          "claim": "위고는 「크롬웰 서문」에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어냈다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+          "quote": "Nous voici parvenus à la sommité poétique des temps modernes. Shakespeare, c’est le Drame ; et le drame, qui fond sous un même souffle le grotesque et le sublime, le terrible et le bouffon, la tragédie et la comédie, le drame est le caractère propre de la troisième époque de poésie, de la littérature actuelle."
+        },
+        {
+          "sids": [
+            "1da034f95fea"
+          ],
+          "field": "relation:influence--william-shakespeare--victor-hugo.summary",
+          "claim": "「크롬웰 서문」은 시간·장소의 두 단일 규칙을 공격했다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+          "quote": "L’unité de temps n’est pas plus solide que l’unité de lieu. L’action, encadrée de force dans les vingt-quatre heures, est aussi ridicule qu’encadrée dans le vestibule.",
+          "note": "같은 글은 앞 대목에서 'Nous disons deux et non trois unités'라며 행동의 단일성은 논외로 둔다고 밝히고, 이 대목 끝에서 'L’unité de Shakespeare ne sera donc pas l’unité de Corneille.'라고 셰익스피어를 끌어온다 — '두 단일 규칙'과 셰익스피어 연결 모두 원문과 맞다."
+        },
+        {
+          "sids": [
+            "1da034f95fea"
+          ],
+          "field": "relation:influence--william-shakespeare--victor-hugo.summary",
+          "claim": "『윌리엄 셰익스피어』는 1864년 작품이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/William_Shakespeare_(essay)",
+          "quote": "William Shakespeare is an 1864 work by Victor Hugo, written in his 13th year of exile."
+        },
+        {
+          "sids": [
+            "1da034f95fea"
+          ],
+          "field": "relation:influence--william-shakespeare--victor-hugo.summary",
+          "claim": "『윌리엄 셰익스피어』는 제목과 달리 위고가 '역대 최고의 천재들'로 본 작가들을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/William_Shakespeare_(essay)",
+          "quote": "The title is misleading; the true subject of the work is the writers that Hugo considered \"the greatest geniuses of all time.\"",
+          "note": "같은 항목은 그 천재들을 'Shakespeare, but also Homer, Job, Aeschylus, …'로 나열한다 — 셰익스피어도 그중 하나다. '제목과 달리'가 셰익스피어를 다루지 않는다는 뜻으로 읽히지 않는 한 정확하다."
+        },
+        {
+          "sids": [
+            "affea432c05e",
+            "8b5b9d00b66e",
+            "d4c17627794a"
+          ],
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "1825년 7월(후반) N. N. 라예프스키(아들)에게 쓴 편지 초고다",
+          "verdict": "confirmed",
+          "url": "http://pushkin-lit.ru/pushkin/pisma/149.htm",
+          "quote": "149. Н. Н. РАЕВСКОМУ-СЫНУ. Вторая половина июля (после 19) 1825 г. Из Михайловского в Белогородку или в Белую Церковь. (Черновое)",
+          "note": "문장 분할기가 'N. N.'의 마침표에서 끊어 한 문장이 sid 셋(affea432c05e 'N.'로 끝남 / 8b5b9d00b66e 'N.' 단독 / d4c17627794a)으로 나뉘었다. 'N.' 단독 sid는 이름의 일부일 뿐 따로 확인할 내용이 없다. 내용은 맞지만, 페이지가 이를 세 조각으로 그린다면 표기 문제로 남는다."
+        },
+        {
+          "sids": [
+            "affea432c05e"
+          ],
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "편지를 쓸 무렵 푸시킨은 자신의 비극을 쓰고 있었다",
+          "verdict": "confirmed",
+          "url": "http://pushkin-lit.ru/pushkin/pisma/149.htm",
+          "quote": "je n’ai à la lettre d’autre compagnie que ma vieille bonne et ma tragédie; celle-ci avance et j’en suis content.",
+          "note": "위키백과 'Boris Godunov (play)'도 'He began working on it in November or December 1824 and completed it in November 1825.'라고 적어 1825년 7월이 집필 중인 시기임을 확인한다."
+        },
+        {
+          "sids": [
+            "affea432c05e"
+          ],
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "편지 속 그 비극은 『보리스 고두노프』다",
+          "verdict": "confirmed",
+          "url": "http://pushkin-lit.ru/pushkin/pisma/149.htm",
+          "quote": "Моя трагедия — «Борис Годунов».",
+          "note": "같은 페이지의 편지 주석이다."
+        },
+        {
+          "sids": [
+            "d4c17627794a"
+          ],
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "푸시킨은 편지에서 고전주의자도 낭만주의자도 '그럴듯함'에 규칙을 세웠다고 적었다",
+          "verdict": "confirmed",
+          "url": "http://pushkin-lit.ru/pushkin/pisma/149.htm",
+          "quote": "Les classiques et les romantiques ont tous basé leurs loix sur la vraisemblance, et c’est justement elle qu’exclut la nature du drame."
+        },
+        {
+          "sids": [
+            "d4c17627794a"
+          ],
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "푸시킨은 셰익스피어가 인물을 삶 그대로 말하게 한다며 셰익스피어를 읽으라고 적었다",
+          "verdict": "confirmed",
+          "url": "http://pushkin-lit.ru/pushkin/pisma/149.htm",
+          "quote": "Voyez Schakespeare. Lisez Schakespeare, il ne craint jamais de compromettre son personnage, il le fait parler avec tout l’abandon de la vie, car il est sûr en temps et lieu de lui faire trouver le langage de son caractère."
+        },
+        {
+          "sids": [
+            "b8b9f6e6a80a"
+          ],
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "「셰익스피어 명명일에」(Zum Schäkespears Tag)는 괴테의 1771년 연설이다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Zum_Sch%C3%A4kespears_Tag",
+          "quote": "Zum Schäkespears Tag ist eine Rede des 22-jährigen Johann Wolfgang von Goethe, die er am 14. Oktober 1771 anlässlich des Shakespeare-Tages in Frankfurt am Main in seinem Elternhaus vortrug; darin ehrt er den englischen Lyriker und Dramatiker William Shakespeare für sein Schaffen",
+          "note": "제목 번역어 '명명일'은 이번에 확인하지 않았다(출처는 'Shakespeare-Tag'라고만 쓴다)."
+        },
+        {
+          "sids": [
+            "b8b9f6e6a80a"
+          ],
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "이 연설은 질풍노도 시대 셰익스피어 열광의 문서로 꼽힌다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Zum_Sch%C3%A4kespears_Tag",
+          "quote": "Sie gilt neben Herders Programmschrift Shakespear als wichtiges Dokument der Shakespeare-Begeisterung der Sturm-und-Drang-Zeit."
+        },
+        {
+          "sids": [
+            "b8b9f6e6a80a"
+          ],
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "괴테는 이 연설에서 장소·행동·시간의 삼일치를 버렸다",
+          "verdict": "confirmed",
+          "url": "https://de.wikisource.org/wiki/Zum_Sch%C3%A4kespears_Tag",
+          "quote": "Ich zweifelte keinen Augenblick dem regelmäsigen Theater zu entsagen. Es schien mir die Einheit des Orts so kerckermäsig ängstlich, die Einheiten der Handlung und der Zeit lästige Fesseln unsrer Einbildungskrafft."
+        },
+        {
+          "sids": [
+            "b8b9f6e6a80a"
+          ],
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "연설이 겨냥한 규칙극은 프랑스 고전 비극이다",
+          "verdict": "confirmed",
+          "url": "https://de.wikisource.org/wiki/Zum_Sch%C3%A4kespears_Tag",
+          "quote": "Drum sind auch alle Französche Trauerspiele Parodien von sich selbst.",
+          "note": "바로 앞 단락은 'Französgen, was willst du mit der griechischen Rüstung, sie ist dir zu gros und zu schweer.'라며 프랑스인이 걸친 그리스식(고전 규칙) 갑옷을 조롱한다. 연설은 '프랑스 고전극의 삼일치'라는 말을 그대로 쓰지 않지만, 규칙극 거부와 프랑스 비극 조롱을 묶은 요약은 원문 범위 안이다."
+        },
+        {
+          "sids": [
+            "b8b9f6e6a80a"
+          ],
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "『빌헬름 마이스터의 수업시대』 4권 13장에서 빌헬름이 햄릿이라는 인물을 해석한다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/36483/pg36483.txt",
+          "quote": "In these words, I imagine, will be found the key to Hamlet's whole procedure. To me it is clear that Shakspeare meant, in the present case, to represent the effects of a great action laid upon a soul unfit for the performance of it. In this view the whole play seems to me to be composed.",
+          "note": "토머스 칼라일 영역본(Project Gutenberg #36483), Book IV Chapter XIII."
+        },
+        {
+          "sids": [
+            "b8b9f6e6a80a"
+          ],
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "같은 소설 5권 4장에서 빌헬름이 『햄릿』의 구성을 해석한다 — 『햄릿』 해석이 여러 장에 걸쳐 있다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/36483/pg36483.txt",
+          "quote": "In the composition of this play, after the most accurate investigation and the most mature reflection, I distinguish two classes of objects. The first are the grand internal relations of the persons and events, the powerful effects which arise from the characters and proceedings of the main figures",
+          "note": "칼라일 영역본 Book V Chapter IV. 문장의 '해석 장들'(복수)을 두 장으로 확인했다."
+        },
+        {
+          "sids": [
+            "b8b9f6e6a80a"
+          ],
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "괴테는 이 소설에 셰익스피어 독서(수용)를 옮겨 담았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Meister%27s_Apprenticeship",
+          "quote": "Wilhelm Meister's Apprenticeship depicts the eighteenth-century German reception of William Shakespeare's dramas: the protagonist is introduced to these by the character Jarno, and extensive discussion of Shakespeare's work occurs within the novel's dialogues. Wilhelm and his theater group give a production of Hamlet, in which Wilhelm plays the lead role.",
+          "note": "같은 문단은 바로 이어 1771년 10월 14일 연설을 언급한다."
+        },
+        {
+          "sids": [
+            "11c44d6b53c2"
+          ],
+          "field": "relation:influence--william-shakespeare--ts-eliot.summary",
+          "claim": "엘리엇의 『햄릿』론은 1932년 『선집』에 수록되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Hamlet_and_His_Problems",
+          "quote": "\"Hamlet and His Problems\" is an essay written by T. S. Eliot in 1919 that offers a critical reading of Hamlet. The essay first appeared in Eliot's The Sacred Wood: Essays on Poetry and Criticism in 1920. It was later reprinted by Faber & Faber in 1932 in Selected Essays, 1917-1932.",
+          "note": "1932년은 재수록 연도다. 글은 1919년에 쓰였고 1920년 『성스러운 숲』에 처음 실렸다. 문장의 '수록된'은 틀리지 않지만 바로 '개념을 제시했고'로 이어져 1932년에 개념을 내놓은 것처럼 읽힐 수 있다 — '1919년에 쓰고 『선집』(1932)에 다시 실은'이 더 정확하다."
+        },
+        {
+          "sids": [
+            "11c44d6b53c2"
+          ],
+          "field": "relation:influence--william-shakespeare--ts-eliot.summary",
+          "claim": "『선집』에서 이 글의 제목은 「햄릿」이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/in.ernet.dli.2015.220297",
+          "quote": "Hamlet (1919) 141",
+          "note": "archive.org의 Faber판 『Selected Essays』(판권면: 1932년 초판, 1934년 개정 증보 2판) 목차 행(OCR)이다. 본문 머리글도 'HAMLET'이다. 1932년 초판의 목차는 열람 가능한 스캔이 없어 직접 보지 못했다."
+        },
+        {
+          "sids": [
+            "11c44d6b53c2"
+          ],
+          "field": "relation:influence--william-shakespeare--ts-eliot.summary",
+          "claim": "엘리엇은 이 글에서 『햄릿』을 예술적 실패로 규정했다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/in.ernet.dli.2015.220297",
+          "quote": "So far from being Shakespeare’s masterpiece, the play is most certainly an artistic failure.",
+          "note": "위 『선집』 스캔 본문(OCR). 위키백과 'Hamlet and His Problems'도 'his claim that Hamlet is \"most certainly an artistic failure.\"'라고 적는다."
+        },
+        {
+          "sids": [
+            "11c44d6b53c2"
+          ],
+          "field": "relation:influence--william-shakespeare--ts-eliot.summary",
+          "claim": "엘리엇은 이 글에서 '객관적 상관물' 개념을 제시했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Objective_correlative",
+          "quote": "The term was coined by the American painter and poet Washington Allston (1779–1843), and was introduced by T. S. Eliot, rather casually, into his essay \"Hamlet and His Problems\" (1919); its subsequent vogue in literary criticism, Eliot said, astonished him.",
+          "note": "용어 자체는 워싱턴 올스턴이 만들었고 엘리엇은 이 글에 '가볍게' 들여왔다. '제시했다'는 맞지만 엘리엇이 창안했다는 뜻으로 읽히면 출처 밖이다."
+        },
+        {
+          "sids": [
+            "11c44d6b53c2"
+          ],
+          "field": "relation:influence--william-shakespeare--ts-eliot.summary",
+          "claim": "그 말이 비평에서 유행하자 엘리엇은 놀랐다고 했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Objective_correlative",
+          "quote": "The term was coined by the American painter and poet Washington Allston (1779–1843), and was introduced by T. S. Eliot, rather casually, into his essay \"Hamlet and His Problems\" (1919); its subsequent vogue in literary criticism, Eliot said, astonished him."
+        },
+        {
+          "sids": [
+            "9f15eb51e368"
+          ],
+          "field": "relation:contrast--william-shakespeare--aime-cesaire.summary",
+          "claim": "세제르의 『어떤 태풍』(1969)은 『템페스트』를 다시 쓴 희곡이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Une_Temp%C3%AAte",
+          "quote": "Une Tempête (English: \"A Tempest\") is a 1969 play by Aimé Césaire. It is an adaptation of Shakespeare's The Tempest from a postcolonial perspective, set on an island in the Caribbean."
+        },
+        {
+          "sids": [
+            "9f15eb51e368"
+          ],
+          "field": "relation:contrast--william-shakespeare--aime-cesaire.summary",
+          "claim": "세제르는 캘리번을 흑인 노예로, 에어리얼을 혼혈 노예로 바꿨다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Une_Temp%C3%AAte",
+          "quote": "Ariel - a \"mulatto slave\" and fairy\nCaliban - son of Sycorax and Black slave",
+          "note": "등장인물 목록이다. 셰익스피어 원작에서도 캘리번은 노예이고 에어리얼은 프로스페로에게 매인 정령이므로, 세제르가 바꾼 것은 주로 인종 규정이다(같은 항목: 'Césaire specifies that Prospero is a white master, while Ariel is a mulatto and Caliban is a black slave.'). '바꿔'는 그 범위로 읽힌다."
+        },
+        {
+          "sids": [
+            "91cc7c57eb97"
+          ],
+          "field": "relation:contrast--william-shakespeare--aime-cesaire.summary",
+          "claim": "『어떤 태풍』은 세제르의 다른 작품 상당수와 함께 널리 논의된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Une_Temp%C3%AAte",
+          "quote": "Along with much of Césaire's other work, Une Tempête is widely discussed."
+        },
+        {
+          "sids": [
+            "4a0196bcd005"
+          ],
+          "field": "relation:translation--william-shakespeare--sandor-petofi.facts",
+          "claim": "페퇴피가 셰익스피어 작품을 헝가리어로 옮겼다(셰익스피어 → 페퇴피, 문서로 확인되는 번역)",
+          "verdict": "confirmed",
+          "url": "https://mek.oszk.hu/04500/04594/html/magyar.htm",
+          "quote": "Shakespeare CORIOLANUS. (Fordította: Petőfi Sándor)"
+        },
+        {
+          "sids": [
+            "a2b2ac86043d"
+          ],
+          "field": "relation:translation--william-shakespeare--sandor-petofi.summary",
+          "claim": "페퇴피는 어러니 야노시·뵈뢰슈머르티 미하이와 셋이서 셰익스피어를 헝가리어로 옮기기로 했다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Pet%C5%91fi_S%C3%A1ndor",
+          "quote": "Vörösmartyval és Arannyal szövetségre lépve nekiálltak Shakespeare műveit magyarra fordítani, Petőfi a Coriolanusszal végzett, majd elkezdte a Rómeó és Júlia fordítását is."
+        },
+        {
+          "sids": [
+            "a2b2ac86043d"
+          ],
+          "field": "relation:translation--william-shakespeare--sandor-petofi.summary",
+          "claim": "그 사업은 셰익스피어 희곡 전집이었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/William_Shakespeare",
+          "quote": "Coriolanus; ford. Petőfi Sándor; Beimel, Pest, 1848 (Shakspeare összes színművei)",
+          "note": "총서명 'Shakspeare összes színművei'는 '셰익스피어 희곡 전집'이다."
+        },
+        {
+          "sids": [
+            "a2b2ac86043d"
+          ],
+          "field": "relation:translation--william-shakespeare--sandor-petofi.summary",
+          "claim": "페퇴피의 『코리올라누스』가 그 사업의 첫 결과물이다",
+          "verdict": "confirmed",
+          "url": "https://mek.oszk.hu/04500/04594/html/magyar.htm",
+          "quote": "1848-ban, midőn a nemzet három nagy költője egyesült Shakspere lefordítására, e vállalat első és utolsó kötete Coriolanus volt Petőfi fordításában.",
+          "note": "출처는 '처음이자 마지막 권'(első és utolsó kötete)이라고 한다 — 이 사업에서 나온 권은 이것 하나뿐이다. '첫 결과물'은 틀리지 않지만 뒤이은 권이 있었던 것처럼 읽히므로 '처음이자 유일한 권'이 출처에 더 맞다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

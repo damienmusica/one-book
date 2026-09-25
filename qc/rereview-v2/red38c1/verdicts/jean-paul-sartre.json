@@ -1,0 +1,289 @@
+{
+  "plates": [
+    {
+      "id": "jean-paul-sartre",
+      "claims": [
+        {
+          "sids": [
+            "03839882c6ba"
+          ],
+          "field": "author.importanceReason",
+          "claim": "'참여문학'이라는 말은 곧 사르트르가 부여한 정확한 뜻에서 떨어져 나갔다",
+          "verdict": "confirmed",
+          "url": "https://www.universalis.fr/encyclopedie/litterature-engagee/",
+          "quote": "L'expression même de « littérature engagée » s'est rapidement détachée de la signification précise que lui donnait Sartre pour osciller entre un pôle doctrinal, plus ou moins fidèle aux propositions sartriennes, et un aspect plus mouvant et dynamique",
+          "note": "'곧'은 rapidement, '정확한 뜻'은 la signification précise에 그대로 대응한다."
+        },
+        {
+          "sids": [
+            "c474543acfef"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『닫힌 방』은 5장으로 된 단막극이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Huis_clos_(Sartre)",
+          "quote": "Cette pièce de théâtre est en un acte composé de cinq scènes, dont la dernière est hypertrophiée."
+        },
+        {
+          "sids": [
+            "c474543acfef"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "하루 저녁에 끝나는 분량이다(공연 한 번이 1시간 30분)",
+          "verdict": "confirmed",
+          "url": "https://www.laurette-theatre.fr/huis-clos-jean-paul-sartre",
+          "quote": "Durée : 1h30",
+          "note": "한 프로덕션(로레트 극장, 2024 시즌, 연출 Karine Kadi)의 상연 시간이다. 읽는 시간을 직접 말한 출처는 아니지만, 한 저녁 공연 분량이라는 뜻으로는 뒷받침된다."
+        },
+        {
+          "sids": [
+            "c474543acfef"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "세 인물이 고문 도구가 없는 방에 갇혀 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "Three damned souls, Joseph Garcin, Inèz Serrano, and Estelle Rigault, are brought to the same room in Hell and locked inside by a mysterious valet. They had all expected torture devices to punish them for eternity, but instead, find a plain room furnished in the style of the French \"Second Empire\"."
+        },
+        {
+          "sids": [
+            "c474543acfef"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 극에서 드러나는 주제는 시선과 타인이라는 사르트르의 생각이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "It is the source of Sartre's especially famous phrase \"L'enfer, c'est les autres\" or \"Hell is other people\", a reference to Sartre's ideas about the look and the perpetual ontological struggle of being caused to see oneself as an object from the view of another consciousness."
+        },
+        {
+          "sids": [
+            "c474543acfef"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 주제는 인물의 대사로 드러난다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Huis_clos_(Sartre)",
+          "quote": "Inès est la première à trouver le mécanisme de cet 'enfer' en disant : « Le bourreau, c'est chacun de nous pour les deux autres ».",
+          "note": "en.wikipedia No Exit도 '타인은 지옥'을 가르생이 결론으로 말하는 대사로 적는다(« Joseph concludes that, rather than torture devices or physical punishment, \"hell is other people.\" »)."
+        },
+        {
+          "sids": [
+            "6d57b5ffaacb"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『존재와 무』는 어려운 저작이다(소설·희곡보다 읽기 어렵다)",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/sartre/",
+          "quote": "That lecture offered an accessible version of his difficult treatise, Being and Nothingness (1943), which had been published two years earlier",
+          "note": "en.wikipedia Being and Nothingness도 « the book has been criticized for its abstruseness »라고 적는다."
+        },
+        {
+          "sids": [
+            "6d57b5ffaacb"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "소설은 그의 철학을 쉬운 말로 풀어 읽힌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "La Nausée allows Sartre to explain his philosophy in simplified terms.",
+          "note": "출처가 말하는 것은 『구토』다. '희곡도 읽힌다'를 따로 말한 출처는 없으나, 같은 페이지의 『닫힌 방』은 한 저녁 공연 분량의 단막극(위 readingEntryReason 항목)이라 문장의 대비 구도를 해치지 않는다."
+        },
+        {
+          "sids": [
+            "6d57b5ffaacb"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『존재와 무』는 현상학 저작('현상학적 존재론 시론')이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27%C3%8Atre_et_le_N%C3%A9ant",
+          "quote": "L'Être et le Néant, sous-titré Essai d'ontologie phénoménologique, est l'ouvrage philosophique principal de Jean-Paul Sartre publié en 1943."
+        },
+        {
+          "sids": [
+            "6d57b5ffaacb"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『존재와 무』는 후설의 현상학을 전제로 한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+          "quote": "Important ideas in Being and Nothingness build on Edmund Husserl's phenomenology. To both philosophers, consciousness is intentional, meaning that there is only consciousness of something."
+        },
+        {
+          "sids": [
+            "6d57b5ffaacb"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『존재와 무』는 하이데거의 용어를 전제로 한다",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/sartre/",
+          "quote": "In brief, Sartre provides a series of arguments for the necessary freedom of “human reality” (his gloss on Heidegger’s conception of Dasein), based upon an ontological distinction between what he calls being-for-itself (pour soi) and being-in-itself (en soi)",
+          "note": "en.wikipedia Being and Nothingness의 'Special terminology used by Sartre' 절도 'See also: Heideggerian terminology'를 달고 있다."
+        },
+        {
+          "sids": [
+            "6d57b5ffaacb"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "소설의 장면들이 자기기만 같은 개념을 옮겨 보인다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "in Nausea, Sartre gives several kinds of examples of people whose behavior shows bad faith, who are inauthentic",
+          "note": "『구토』(1938)는 자기기만을 정식화한 『존재와 무』(1943)보다 앞서므로 '번역'은 개념을 장면으로 보여 준다는 뜻으로 읽힌다. SEP도 『구토』를 « a beautifully illustrated expression of the metaphysical register Sartre gave to Husserl’s conception of intentionality »라 부른다. '개념 없이 읽으면 사건이 헛돈다'는 읽기에 대한 편집 판단이라 사실 주장으로 따로 세우지 않았다."
+        },
+        {
+          "sids": [
+            "3bc079d15724"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "1945년 강연을 옮긴 책이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27existentialisme_est_un_humanisme",
+          "quote": "Il est le compte rendu d'une conférence donnée en octobre 1945 à Paris."
+        },
+        {
+          "sids": [
+            "3bc079d15724"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "얇은 책이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Existentialism_Is_a_Humanism",
+          "quote": "Pages70 (English edition)",
+          "note": "영역본 70쪽. 프랑스어 초판(Nagel, 1946)은 144쪽(fr.wikipedia 정보상자 « Nombre de pages 144 »)."
+        },
+        {
+          "sids": [
+            "3bc079d15724"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "'실존은 본질에 앞선다'가 이 책의 핵심 명제다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Existentialism_Is_a_Humanism",
+          "quote": "Sartre asserts that the key defining concept of existentialism is that the existence of a person is prior to their essence or \"existence precedes essence\"."
+        },
+        {
+          "sids": [
+            "3bc079d15724"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "철학자들의 교설이던 실존주의를 일반 청중에게 내보냈다(전문 독자 바깥으로)",
+          "verdict": "confirmed",
+          "url": "https://yalebooks.yale.edu/book/9780300115468/existentialism-is-a-humanism/",
+          "quote": "Sartre asserted that existentialism was essentially a doctrine for philosophers, though, ironically, he was about to make it accessible to a general audience.",
+          "note": "출처가 일반 청중에게 연 대상은 '실존주의'다. '실존은 본질에 앞선다'는 fr.wikipedia가 이 강연의 공리로 적는다(« L’axiome de cette conférence, « l’existence précède l’essence » »). SEP도 이 강연을 « an accessible version of his difficult treatise »라 부른다."
+        },
+        {
+          "sids": [
+            "3bc079d15724"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "곧 실존주의의 경전 가운데 하나가 됐다",
+          "verdict": "confirmed",
+          "url": "https://yalebooks.yale.edu/book/9780300115468/existentialism-is-a-humanism/",
+          "quote": "The published text of his lecture quickly became one of the bibles of existentialism and made Sartre an international celebrity."
+        },
+        {
+          "sids": [
+            "0eaf27971247"
+          ],
+          "field": "work:jean-paul-sartre--huis-clos.significance",
+          "claim": "세 사람이 한 방에 갇혀 있는 단막극이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Huis_clos_(Sartre)",
+          "quote": "Huis clos est une pièce de théâtre en un acte de Jean-Paul Sartre",
+          "note": "세 인물이 방에 갇힌다는 부분은 en.wikipedia No Exit(« three deceased characters are punished by being locked into a room together for eternity »)."
+        },
+        {
+          "sids": [
+            "0eaf27971247"
+          ],
+          "field": "work:jean-paul-sartre--huis-clos.significance",
+          "claim": "문이 열려도 세 사람은 떠나지 않는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "After he repeatedly tries to open the door, it suddenly and inexplicably opens, but he is unable to bring himself to leave. The others remain as well.",
+          "note": "fr.wikipedia도 « même quand la porte est ouverte, ils ne peuvent sortir du salon où ils sont retenus »라고 적는다."
+        },
+        {
+          "sids": [
+            "0eaf27971247"
+          ],
+          "field": "work:jean-paul-sartre--huis-clos.significance",
+          "claim": "'타인은 지옥이다'는 무대 상황에서 인물이 내리는 결론으로 나온다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "Joseph concludes that, rather than torture devices or physical punishment, \"hell is other people.\"",
+          "note": "'관념이 아니라'는 추상 명제로 제시되지 않고 극 상황의 결론으로 나온다는 뜻으로만 뒷받침된다. 같은 문구가 사르트르의 시선 이론을 가리킨다는 해석(en.wikipedia « a reference to Sartre's ideas about the look », fr.wikipedia « Souvent comprise comme une mise en scène de la théorie du regard de Sartre »)과 충돌하지 않는다."
+        },
+        {
+          "sids": [
+            "36e301463f97"
+          ],
+          "field": "work:jean-paul-sartre--l-etre-et-le-neant.significance",
+          "claim": "존재·자유에 관한 사르트르 생각의 씨앗은 이미 『구토』에 있었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "From its earliest beginnings, Simone de Beauvoir recognised Nausea as the first robust expression of this key philosophical idea: I came to realize the wealth of meaning in what he called his 'theory of contingency,' and in which were to be found already the seeds of all his ideas on being, existence, necessity, and liberty",
+          "note": "보부아르가 씨앗이 있다고 말한 곳은 '우연성 이론'이고, 『구토』는 그 이론의 첫 힘 있는 표현이다. 문장은 이 두 단계를 한 번에 줄였지만 범위를 넘지는 않는다(존재·실존·필연·자유 가운데 존재·자유만 옮김)."
+        },
+        {
+          "sids": [
+            "36e301463f97"
+          ],
+          "field": "work:jean-paul-sartre--l-etre-et-le-neant.significance",
+          "claim": "『구토』는 『존재와 무』보다 앞서 나왔다('이미')",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "Nausea (French: La Nausée) is a philosophical novel by the existentialist philosopher Jean-Paul Sartre, published in 1938.",
+          "note": "『존재와 무』는 1943년(en.wikipedia Being and Nothingness: « is a 1943 book by the philosopher Jean-Paul Sartre »)."
+        },
+        {
+          "sids": [
+            "ef7330e0d8a3"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.facts",
+          "claim": "사르트르와 플로베르는 참여와 비참여라는 대조(contrast) 관계에 놓인다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Sartre motive les orientations présentes sur les choix passés, parcourant de Voltaire à Gide et de Balzac à Flaubert les trajets concurrents de l’engagement et du désinvestissement.",
+          "note": "fr.wikipedia L'Idiot de la famille도 3권이 플로베르 시대의 '예술을 위한 예술'과 졸라·사르트르의 참여를 대비한다고 적는다(« La société d'avant 1870 ne leur permettrait que la voie de \"l'art pour l'art\", pas un engagement tel que celui de Zola après 1870, et plus tard celui de Sartre »). 근거 수준 editorial_inference는 사실을 과장하지 않는 보수적 표시다. 다만 같은 관계의 summary가 '이 대립은 사르트르 자신이 세웠다'고 쓰고 그것이 사르트르 본인 문헌(창간사)으로 확인되므로, 표시 자체는 documented가 더 정확하다. bidirectional은 대조 관계의 성질이라 따로 검증할 사실이 아니다."
+        },
+        {
+          "sids": [
+            "34c844687ee0"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "사르트르와 플로베르의 이 대립은 사르트르 자신이 세웠다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Je tiens Flaubert et Goncourt pour responsables de la répression qui suivit la Commune parce qu’ils n’ont pas écrit une ligne pour l’empêcher.",
+          "note": "Fabula 논문이 인용한 『레 탕 모데른』 창간사(1945년 10월)의 사르트르 본인 문장이다. 논문은 이어서 사르트르가 '발자크에서 플로베르까지 참여와 비참여의 경쟁하는 궤적'을 스스로 그었다고 적는다."
+        },
+        {
+          "sids": [
+            "34c844687ee0"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "한 연구자가 창간사가 맥락을 가린 채 플로베르를 끌어왔다고 보고 그 물음을 더 역사적으로 다시 세우려 한다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "En somme, partant de cet appel fondateur de Sartre pour le XXe siècle, qui utilise Flaubert et son rapport à la Commune en occultant le contexte, il faut redonner à la question posée par Sartre une dimension plus historique",
+          "note": "저자는 Sylvie Triaire(Montpellier III), 2014년 콜로키엄 'De l’absolu littéraire à la relégation' 발표문이다."
+        },
+        {
+          "sids": [
+            "34c844687ee0"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "(연구자 일반이) 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다",
+          "verdict": "unverifiable",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Sylvie Triaire, Montpellier III et C.R.I.S.E.S",
+          "correction": "이 대립은 사르트르 자신이 세웠고, 한 연구자는 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다.",
+          "note": "찾은 출처는 논문 한 편(인용은 그 저자 표기)이다. 수식어 없는 '연구자는'은 연구 일반의 입장으로 읽힐 수 있는데, 그만큼을 말하는 출처는 찾지 못했다. 이전 판정이 scholarly_consensus를 기각한 것과 같은 이유로, '한 연구자는'으로 좁히면 확인된 범위와 맞는다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

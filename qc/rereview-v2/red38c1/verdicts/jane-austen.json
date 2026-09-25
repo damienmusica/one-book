@@ -1,0 +1,289 @@
+{
+  "plates": [
+    {
+      "id": "jane-austen",
+      "claims": [
+        {
+          "sids": [
+            "6d83c843a1de"
+          ],
+          "field": "author.importanceReason",
+          "claim": "로이 패스컬은 괴테와 오스틴을 자유간접화법을 일관되게 쓴 최초의 소설가로 꼽는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Free_indirect_speech",
+          "quote": "Roy Pascal cites Goethe and Jane Austen as the first novelists to use this style consistently, and writes that Gustave Flaubert was the first to be aware of it as a style.",
+          "note": "'최초'는 출처 그대로 패스컬의 판단으로 귀속되어 있다. 같은 문서 서두도 'Goethe and Jane Austen were the first novelists to use this style consistently, according to British philologist Roy Pascal'."
+        },
+        {
+          "sids": [
+            "6d83c843a1de"
+          ],
+          "field": "author.importanceReason",
+          "claim": "자유간접화법은 이후 널리 모방되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Free_indirect_speech",
+          "quote": "This style would be widely imitated by later authors, called in French discours indirect libre."
+        },
+        {
+          "sids": [
+            "6d83c843a1de"
+          ],
+          "field": "author.importanceReason",
+          "claim": "자유간접화법은 인물의 생각과 서술자의 목소리를 한 문장에 겹치는 기법이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Free_indirect_speech",
+          "quote": "Free indirect speech is the literary technique of writing a character's first-person thoughts in the voice of the third-person narrator.",
+          "note": "정의는 인물의 생각을 서술자의 목소리로 쓰는 기법이고, 같은 문서는 두 목소리가 'effectively merged'된다고 쓴다. '한 문장에'는 정의에 없는 풀어쓰기지만 문서의 예시('He would be late for the party.')가 한 문장 단위라 사실을 벗어나지 않는다."
+        },
+        {
+          "sids": [
+            "b0dcfe72ce49"
+          ],
+          "field": "author.importanceReason",
+          "claim": "오스틴은 결혼이 곧 생계인 사회를 그린다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Jane_Austen",
+          "quote": "Austen's plots often explore the dependence of women on marriage for the pursuit of favourable social standing and economic security.",
+          "note": "출처는 '여성의' 결혼 의존이며 경제적 안정과 함께 사회적 지위를 든다. '결혼이 곧 생계'는 여성에 한정해 읽힐 때 출처와 맞는다."
+        },
+        {
+          "sids": [
+            "b0dcfe72ce49"
+          ],
+          "field": "author.importanceReason",
+          "claim": "오스틴은 주로 자신이 아는 영국 시골 젠트리의 좁은 세계에서 소재를 취한다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jane-Austen",
+          "quote": "In them, she created vivid fictional worlds, drawing much of her material from the circumscribed world of English country gentlefolk that she knew.",
+          "note": "출처는 'much of'(상당 부분)이다 — '주로'까지는 맞고 '~에서만'은 아니다."
+        },
+        {
+          "sids": [
+            "502c4d603f67"
+          ],
+          "field": "author.importanceReason",
+          "claim": "오스틴과 함께 영국 소설은 평범한 일상을 사실적으로 다루는 길을 얻었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2022/https://www.britannica.com/biography/Jane-Austen/Austens-novels-an-overview",
+          "quote": "Although the birth of the English novel is to be seen in the first half of the 18th century primarily in the work of Daniel Defoe, Samuel Richardson, and Henry Fielding, it is with Jane Austen that the novel takes on its distinctively modern character in the realistic treatment of unremarkable people in the unremarkable situations of everyday life.",
+          "note": "'사건의 크기가 아니라'라는 대비는 'unremarkable situations'에 담겨 있고, 브리태니커 본 항목(Wayback 2024)은 당대 평자들이 'welcomed the domestic realism as a refreshing change from the romantic melodrama then in vogue'라고 쓴다."
+        },
+        {
+          "sids": [
+            "b5abbbe86383"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『오만과 편견』은 이른 단계부터 인물의 대화를 직접 보여 준다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://textview.jp/post/culture/29635",
+          "quote": "語り手が状況を細々（こまごま）と説明するのではなく、早い段階から人物の会話を直接提示しています。",
+          "note": "히로노 유미코(NHK 100분 de 명저 텍스트). 바로 앞 문단: '作品の冒頭部からすぐに、エリザベスの両親の会話が始まります。'"
+        },
+        {
+          "sids": [
+            "b5abbbe86383"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "독자는 엘리자베스의 시점에서 그녀의 편견과 오해를 함께 겪는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "quote": "By using a narrative that adopts the tone and vocabulary of a particular character (in this case, Elizabeth), Austen invites the reader to follow events from Elizabeth's viewpoint, sharing her prejudices and misapprehensions."
+        },
+        {
+          "sids": [
+            "50b47aac53c5"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『맨스필드 파크』의 주인공(패니)은 독자에게 밉보이기 쉽다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+          "quote": "Clara Calvo (2005) says that many modern readers find it difficult to sympathise with Fanny's timidity and her disapproval of the theatricals, finding her \"priggish, passive, naive and hard to like\".",
+          "note": "'로 시작하면'이라는 조건은 읽기 순서 조언이라 대조하지 않았다. 같은 문단: 'Priggishness has been a longstanding criticism of Austen's heroine.'"
+        },
+        {
+          "sids": [
+            "50b47aac53c5"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『엠마』의 주인공은 독자에게 밉보이기 쉽다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Emma_(novel)",
+          "quote": "Before she began the novel, Austen wrote, \"I am going to take a heroine whom no one but myself will much like.\"",
+          "note": "작가 자신의 예고다. 독자 반응 쪽 근거로 멀런(Guardian, 2015): 'those who condemn the novel by saying that its heroine is a snob miss the point.'"
+        },
+        {
+          "sids": [
+            "0d6157eb5e92"
+          ],
+          "field": "author.readingWarning",
+          "claim": "많은 현대 독자가 패니의 소심함에 공감하기 어려워한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+          "quote": "Clara Calvo (2005) says that many modern readers find it difficult to sympathise with Fanny's timidity and her disapproval of the theatricals",
+          "note": "출처에서는 칼보(2005)의 관찰이다. 원인으로 소심함과 함께 연극에 대한 반대도 든다."
+        },
+        {
+          "sids": [
+            "2c77f143dd85"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "오스틴 작품 대부분이 1800년 이전에 초고로 쓰였다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jane-Austen",
+          "quote": "Meanwhile, in 1811 Austen had begun Mansfield Park, which was finished in 1813 and published in 1814. … Between January 1814 and March 1815 she wrote Emma, which appeared in December 1815. … Persuasion (written August 1815–August 1816) was published posthumously, with Northanger Abbey, in December 1817.",
+          "correction": "『이성과 감성』과 『오만과 편견』은 1790년대에 초고가 쓰였고, 『맨스필드 파크』·『엠마』·『설득』은 1811–1816년에 쓰였다.",
+          "note": "초고가 1800년 이전인 것은 『이성과 감성』(1795년께 시작), 『오만과 편견』(1796–97), 『노생거 사원』(1798–99) 세 편뿐이다. 같은 항목: 'Northanger Abbey, the last of the early novels, was written about 1798 or 1799'. 여섯 장편 가운데 절반, 이 페이지의 다섯 작품 가운데 두 편이다. 수정자가 기댄 영어 위키백과 'Persuasion (novel)'의 'Almost all of Austen's novels were written in the form of first drafts (now lost) from before 1800'은 같은 문서의 'Unlike Sense and Sensibility and Pride and Prejudice, Persuasion was not rewritten from earlier drafts of novels that Austen had originally started before 1800.'과 충돌하고, 영어 위키백과 'Jane Austen'('While Murray prepared Emma for publication, Austen began The Elliots, later published as Persuasion. She completed her first draft in July 1816.')·'Emma (novel)'('Emma was written after the publication of Pride and Prejudice')과도 어긋난다."
+        },
+        {
+          "sids": [
+            "2c77f143dd85"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『오만과 편견』에서는 한정상속과 영지 수입이라는 재산 사정이 인물들의 이해관계를 움직인다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "quote": "this estate is entailed and so can only be inherited in the male line. To his regret, he has failed to save out of the income from the Longbourn estate to provide for his daughters. From the Bennets' perspective, it is imperative that at least one of their daughters marry well to support the others, which is a primary motivation driving the plot.",
+          "note": "'대화 속'도 받쳐진다 — 같은 문서: 'Mrs Bennet rails repeatedly at the unfairness of the Longbourn entail'. '모르면 흐려진다'는 읽기 난도 판단이라 대조하지 않았다."
+        },
+        {
+          "sids": [
+            "84e4b2672249"
+          ],
+          "field": "work:jane-austen--persuasion.significance",
+          "claim": "『설득』은 불행한 주인공의 눈으로 세계를 본다",
+          "verdict": "confirmed",
+          "url": "https://monadnock.net/woolf/austen.html",
+          "quote": "She is seeing it, for the greater part of the book, through the eyes of a woman who, unhappy herself, has a special sympathy for the happiness and unhappiness of others",
+          "note": "울프(「제인 오스틴」, 1925)의 해석이다. 출처는 '책의 대부분'이라고 한정한다. 문맥상 'a woman'은 앤 엘리엇이다(같은 문단: 'she says of Anne')."
+        },
+        {
+          "sids": [
+            "84e4b2672249"
+          ],
+          "field": "work:jane-austen--persuasion.significance",
+          "claim": "『설득』은 평소보다 감정을 더 관찰한다",
+          "verdict": "confirmed",
+          "url": "https://monadnock.net/woolf/austen.html",
+          "quote": "Therefore the observation is less of facts and more of feelings than is usual.",
+          "note": "울프의 해석이다. '평소보다'는 오스틴의 다른 작품과 견준 말(than is usual)이다."
+        },
+        {
+          "sids": [
+            "84e4b2672249"
+          ],
+          "field": "work:jane-austen--persuasion.significance",
+          "claim": "『설득』은 사후에 출간되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Persuasion_(novel)",
+          "quote": "Persuasion is the last novel completed by the English author Jane Austen. It was published on 20 December 1817, along with Northanger Abbey, six months after her death"
+        },
+        {
+          "sids": [
+            "ff3683ed6955"
+          ],
+          "field": "work:jane-austen--mansfield-park.significance",
+          "claim": "『맨스필드 파크』는 가난한 친척으로 저택에 들어간 소녀의 이야기다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+          "quote": "Fanny Price, the niece of the family at Mansfield Park, with the status of a dependent poor relation.",
+          "note": "같은 문서: 'The novel tells the story of Fanny Price, starting when her overburdened family sends her at the age of ten to live in the household of her wealthy aunt and uncle'."
+        },
+        {
+          "sids": [
+            "ff3683ed6955"
+          ],
+          "field": "work:jane-austen--mansfield-park.significance",
+          "claim": "작품은 저택의 재원이 식민지 농장임을 암시한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+          "quote": "Although not explicitly stated in the novel, allusions are made to the fact that Sir Thomas Bertram's home, the titular Mansfield Park, is built on the proceeds of his slave plantation in Antigua."
+        },
+        {
+          "sids": [
+            "ff3683ed6955"
+          ],
+          "field": "work:jane-austen--mansfield-park.significance",
+          "claim": "『맨스필드 파크』는 오스틴 장편 가운데 가장 무거운 작품이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2022/https://www.britannica.com/biography/Jane-Austen/Austens-novels-an-overview",
+          "quote": "In its tone and discussion of religion and religious duty, Mansfield Park is the most serious of Austen’s novels.",
+          "note": "최상급은 출처 그대로다. 다만 브리태니커는 그 근거를 어조와 종교·종교적 의무의 논의에 두고, 식민지 농장 암시와는 연결하지 않는다 — 문장이 두 속성을 한 수식어구로 잇고 있어 인과로 읽히지 않게 할 필요가 있다."
+        },
+        {
+          "sids": [
+            "c583e9f2af7b"
+          ],
+          "field": "work:jane-austen--emma.significance",
+          "claim": "『엠마』의 주인공은 부유하고 총명하다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Emma_(novel)",
+          "quote": "In the first sentence, she introduces the title character by stating \"Emma Woodhouse, handsome, clever, and rich, with a comfortable home and a happy disposition, seemed to unite some of the best blessings of existence",
+          "note": "멀런(Guardian, 2015): 'Emma is the richest and cleverest woman in Highbury'."
+        },
+        {
+          "sids": [
+            "c583e9f2af7b"
+          ],
+          "field": "work:jane-austen--emma.significance",
+          "claim": "서술이 주인공의 착각을 함께 나누도록 설계되었다",
+          "verdict": "confirmed",
+          "url": "https://www.theguardian.com/books/2015/dec/05/jane-austen-emma-changed-face-fiction",
+          "quote": "The narrative was radically experimental because it was designed to share her delusions."
+        },
+        {
+          "sids": [
+            "c583e9f2af7b"
+          ],
+          "field": "work:jane-austen--emma.significance",
+          "claim": "이야기를 주인공 마음이라는 왜곡된 렌즈에 통과시켰다",
+          "verdict": "confirmed",
+          "url": "https://www.theguardian.com/books/2015/dec/05/jane-austen-emma-changed-face-fiction",
+          "quote": "The novel bent narration through the distorting lens of its protagonist’s mind."
+        },
+        {
+          "sids": [
+            "63b5f2e6eca1"
+          ],
+          "field": "work:jane-austen--pride-and-prejudice.significance",
+          "claim": "『오만과 편견』은 판단의 오류가 형성되고 교정되는 과정을 그린다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "quote": "it follows the character development of Elizabeth Bennet, the protagonist of the book, who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness."
+        },
+        {
+          "sids": [
+            "63b5f2e6eca1"
+          ],
+          "field": "work:jane-austen--pride-and-prejudice.significance",
+          "claim": "판단의 오류는 대화 속에서 형성된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "quote": "The Bennet family meets the charming militia officer George Wickham, who tells Elizabeth in confidence that Mr Darcy had treated him badly in the past. Elizabeth's prejudice against Mr Darcy and admiration for Wickham lead her to believe him.",
+          "note": "줄거리 차원에서는 맞다(위컴이 엘리자베스에게 털어놓는 이야기). 다만 같은 문서의 문체 절은 이 학습 과정이 'disclosed to us solely through Elizabeth's point of view and her free indirect speech'라고 쓴다. 서술 방법으로는 대화보다 자유간접화법이 출처가 드는 매체다."
+        },
+        {
+          "sids": [
+            "63b5f2e6eca1"
+          ],
+          "field": "work:jane-austen--pride-and-prejudice.significance",
+          "claim": "다아시의 편지로 판단이 교정된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+          "quote": "through his letter, the reader and Elizabeth are given insight into Darcy's feelings and motivations in his own voice, to a degree that he could not then have expressed to Elizabeth outright. Moreover, this letter provides Elizabeth with proofs of Wickham's true character, which leads her to question her condemnation of Darcy's treatment of him."
+        },
+        {
+          "sids": [
+            "479a97b634fc"
+          ],
+          "field": "work:jane-austen--pride-and-prejudice.significance",
+          "claim": "『오만과 편견』은 자유간접화법 설명에 예문으로 쓰인다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Free_indirect_speech",
+          "quote": "Previous judgements, exclamations, opinions, etc, are backshifted, such as, \"How differently did every thing now appear in which he was concerned\", an example from Pride and Prejudice.",
+          "note": "같은 문서는 법조동사 예문('She must own that she was tired of great houses')과 I권 14장의 긴 인용도 이 작품에서 가져온다. 예문의 출처는 키머(Keymer 2020). 같은 문서는 『이성과 감성』 예문(페이지)도 쓰므로 이 작품만의 특징은 아니다 — 문장도 유일성을 주장하지 않는다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

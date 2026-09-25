@@ -1,0 +1,43 @@
+{
+  "fixes": [
+    {
+      "id": "abdulla-qodiriy",
+      "importanceReason": "시 「토이」(To'y, 1914–15)와 희곡 「불행한 신랑」(1915)에서 출발해, 19세기 코칸트 칸국의 내분과 혼사를 배경으로 인물의 내면과 여러 줄기의 사건을 장편 분량으로 엮는 구성을 우즈베크어 산문에 세웠다. 신문이 만든 구어에 가까운 새 산문에서 근대 단편과 마침내 소설이 나오면서, 이후 우즈베크 작가들이 쓰는 문장의 척도가 『지나간 날들』에서 나왔다. 1938년 총살된 뒤 그의 책은 공개된 자리에서 사라졌고, 1957년 복권 뒤에야 다시 공개적으로 읽혔으며, 그는 1991년 알리셰르 나보이 국가상을 받았다.",
+      "readingEntryReason": "두 연인의 혼사가 두 번째 혼인에 흔들리는 사랑 이야기가 독자를 설레게 하고, 코디리의 문장과 구성이 가장 완성된 형태로 나오는 작품이다.",
+      "difficultyReason": "연애와 지방 권력 다툼이 얽힌 줄거리이고, 문장은 평이하다. 다만 코칸트 칸국 말기의 관직명, 타슈켄트와 코칸트 쪽 씨족 관계, 혼인 관습이 주석 없이 전제된다.",
+      "relations": [
+        {
+          "id": "affinity--abdulla-qodiriy--sadriddin-ayni",
+          "summary": "아디브 할리드의 『우즈베키스탄 만들기』(2015)는 코디리와 아이니를 각각 우즈베크어와 타지크어에서 근대 산문을 만든 가장 중요한 사람으로 들고, 같은 저자의 『무슬림 문화개혁의 정치』(1998)는 1917년 이전 자디드 국면을 다룬다. 아이니는 시에서, 코디리는 희곡과 생활 스케치에서 출발해 둘 다 산문 서사로 나아갔다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "1991년 국가상으로 그가 우즈베크 소설의 기준점 자리에 놓였다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "연애 줄거리만으로도 독자를 끝까지 붙든다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "그래서 사건은 따라가기 쉽다",
+          "resolution": "removed"
+        },
+        {
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "그 책은 코디리와 아이니를 근대 산문을 만든 가장 중요한 두 사람으로 든다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "코디리는 신문 풍자에서 출발해 (그 뒤) 산문 서사로 옮겨 갔다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

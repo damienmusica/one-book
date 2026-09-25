@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "chairil-anwar",
+      "works": [
+        {
+          "id": "chairil-anwar--deru-campur-debu",
+          "significance": "그가 죽은 1949년에 유고로 묶여 나온 시집으로, 27편이 실렸고 대표작 「Aku」 외에 「Doa」·「Isa」·「Cintaku Jauh di Pulau」가 여기 들어 있다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:chairil-anwar--deru-campur-debu.significance",
+          "claim": "「Doa」·「Isa」·「Cintaku Jauh di Pulau」도 그의 대표작이다(문장이 이렇게 읽힐 수 있다)",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

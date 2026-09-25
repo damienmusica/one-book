@@ -1,0 +1,21 @@
+{
+  "fixes": [
+    {
+      "id": "murasaki-shikibu",
+      "works": [
+        {
+          "id": "murasaki-shikibu--murasakishikibushu",
+          "year": 1014,
+          "yearBasis": "composition-range"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:murasaki-shikibu--murasakishikibushu.facts",
+          "claim": "1206년이 이 가집의 초간(처음 펴낸 해)이다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

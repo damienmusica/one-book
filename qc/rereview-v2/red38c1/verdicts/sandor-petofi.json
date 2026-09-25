@@ -1,0 +1,278 @@
+{
+  "plates": [
+    {
+      "id": "sandor-petofi",
+      "claims": [
+        {
+          "sids": [
+            "8700926a16e5"
+          ],
+          "field": "author.facts",
+          "claim": "한국어 표기는 '페퇴피 샨도르', 원어 이름은 Petőfi Sándor다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/페퇴피_샨도르",
+          "quote": "페퇴피 샨도르(헝가리어: Petőfi Sándor, 본명: 페트로비치 샨도르·Petrovics Sándor, 문화어: 뻬뙤피 샨도르, 1823년 1월 1일 ~ 1849년 7월 31일)는 헝가리의 국민 시인이다.",
+          "note": "한국어 위키백과는 헝가리식 어순(성-이름)을 표제로 쓴다."
+        },
+        {
+          "sids": [
+            "8700926a16e5"
+          ],
+          "field": "author.facts",
+          "claim": "1823년에 태어나 1849년에 죽었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Petőfi Sándor (született Petrovics Sándor, Kiskőrös, 1823. január 1. – Fehéregyháza környékén, 1849. július 31.) magyar költő",
+          "note": "사망일은 추정이다. 브리태니커는 'died probably July 31, 1849'로 적고, 시신은 발견되지 않았다."
+        },
+        {
+          "sids": [
+            "8700926a16e5"
+          ],
+          "field": "author.facts",
+          "claim": "헝가리어로 쓴 헝가리 시인이다(언어 hu)",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Nyelve szemléletes, folyamatos és magyaros; költészete a népnyelvet a magyar irodalom részévé tette. A magyar lírába ő vitte be a magyar ritmust is"
+        },
+        {
+          "sids": [
+            "8700926a16e5"
+          ],
+          "field": "author.facts",
+          "claim": "권역은 동유럽(eastern-europe)이다",
+          "verdict": "confirmed",
+          "url": "https://unstats.un.org/unsd/methodology/m49/",
+          "quote": "Eastern Europe 151 Belarus 112 BLR Bulgaria 100 BGR Czechia 203 CZE Hungary 348 HUN",
+          "note": "유엔 통계국 M49 지역 분류 표에서 헝가리는 'Eastern Europe'(151) 아래에 있다(표를 텍스트로 옮긴 형태). 헝가리는 흔히 중부 유럽으로도 불리므로, 'eastern-europe'는 M49와 맞는 사이트 분류 버킷으로 읽어야 한다. 출생지는 헝가리 키슈쾨뢰시(Kiskőrös)다."
+        },
+        {
+          "sids": [
+            "0c8f2b48085c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「용사 야노시」는 민담의 모티프와 어조를 빌렸다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Még ebben az évben írta a János vitézt, november második felében, 6 nap és 6 éjszaka alatt. Népmesének nevezte, mert egy részét népmesei motívumokból szőtte és a népmesék hangjában adta elő, de vett külföldi regékből is vonásokat, és az egészet a maga fantáziája szerint alkotta meg.",
+          "note": "출처는 작품의 '일부'를 민담 모티프로 짰다고 하므로 '빌린'은 정확한 강도다. 외국 전설과 자신의 상상도 섞였다(작품 significance 문장이 이를 적는다)."
+        },
+        {
+          "sids": [
+            "0c8f2b48085c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「용사 야노시」는 헝가리 민중(népies) 문학에서 가장 중요한 작품 가운데 하나로 꼽힌다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "A Petőfi Sándor tollából született János vitéz a magyar népies irodalom egyik legjelentősebb alkotása.",
+          "note": "'egyik legjelentősebb alkotása'(가장 중요한 작품 가운데 하나)와 강도가 같다. 'népies irodalom'은 민요·민담풍을 따르는 19세기 헝가리 문학 흐름(népiesség)을 가리키므로, 한국어 '민중 문학'이 1970–80년대 한국의 민중문학으로 읽히지 않게 '민중풍 문학' 정도가 더 정확하다. 사실 판정은 확인. 브리태니커도 'Of his epic poems the János vitéz (1845), an entrancing fairy tale, is the most popular.'라고 적는다."
+        },
+        {
+          "sids": [
+            "bcb2414e9d20"
+          ],
+          "field": "author.importanceReason",
+          "claim": "스물여섯에 전장에서 사라졌다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "A 26 éves költő ezután bekapcsolódott a szabadságharc küzdelmeibe, melynek során – a történettudomány mai álláspontja szerint – életét áldozta hazájáért, a magyar szabadságért: 1849. július 31-én, a segesvári csatát követő fejvesztett menekülés közben, amikor a Szkarjatyin tábornok halálán felbőszült kozák ulánusok az üldözött honvédeket kíméletlenül lemészárolták, ő is elesett. Eltűnésének pontos körülményei azonban tisztázatlanok.",
+          "note": "1823년 1월 1일생이므로 1849년 7월 31일에 만 26세다. 브리태니커: 'Petőfi disappeared during the Battle of Segesvár, July 31, 1849, and was assumed to have died in the fighting, though his body was never discovered.'"
+        },
+        {
+          "sids": [
+            "bcb2414e9d20"
+          ],
+          "field": "author.importanceReason",
+          "claim": "헝가리의 가장 위대한 시인 가운데 하나이자 헝가리인의 자유에 대한 열망을 상징한 혁명가였다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241211184842/https://www.britannica.com/biography/Sandor-Petofi",
+          "quote": "was one of the greatest Hungarian poets and a revolutionary who symbolized the Hungarian desire for freedom",
+          "note": "최상급('가장 위대한 시인 가운데 하나')은 브리태니커 문장('one of the greatest Hungarian poets')과 강도가 같다."
+        },
+        {
+          "sids": [
+            "bc3cba49cf08"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "「9월 말에」는 창밖의 아직 푸른 늦여름 풍경에서 시작한다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikisource.org/wiki/Szeptember_végén",
+          "quote": "Még nyílnak a völgyben a kerti virágok, / Még zöldel a nyárfa az ablak előtt,",
+          "note": "첫 두 행: 골짜기엔 아직 정원 꽃이 피고 창 앞 포플러는 아직 푸르다. 헝가리어 위키백과는 이 계절을 여름에서 겨울로 넘어가는 가을로, 아래쪽 풍경을 'a nyár viruló termékenysége'(여름의 무성한 풍요)로 읽는다. '늦여름'은 그 남은 여름을 가리키는 풀이로 맞다."
+        },
+        {
+          "sids": [
+            "bc3cba49cf08"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "계절의 흐름과 자기 생애가 죽음으로 넘어가는 흐름을 한 시선 안에 겹쳐 놓는다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+          "quote": "Az első szakaszban a költő párhuzamot von az ősz, mint a nyárból a télbe való átmenet és saját életkora, mint az ifjúságból az öregségbe és a halálba való átmenet között."
+        },
+        {
+          "sids": [
+            "bc3cba49cf08"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "자기 죽음 이후의 시간을 그린다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+          "quote": "A harmadik versszakban azután szentimentális ígéretet tesz, hogy ha özvegye új párt is választana, ő akkor is, a halálon túl is szeretni fogja feleségét."
+        },
+        {
+          "sids": [
+            "bc3cba49cf08"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "이 시는 연애시이고, 연애시는 그의 시의 다른 한 축이다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/페퇴피_샨도르",
+          "quote": "페퇴피는 스스로도 \"자유와 사랑의 시인\"으로 자처했듯이 소박·순정의 연애시인이었다. … 이 중에서도 자신의 죽음을 예감하면서 쓴 <9월 말에>(1847)는 헝가리 시의 절창이라 평가된다.",
+          "note": "헝가리어 위키백과는 이 시를 'Szerelmi költemények'(연애시) 목록에 넣는다. 브리태니커: 'In 1847 he married Julia Szendrey, who inspired his best love poems.'"
+        },
+        {
+          "sids": [
+            "9ff047bcfb46"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "「사도」의 온전한 본문은 1874년 아테네움 출판사의 시집에 처음 실렸다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+          "quote": "A teljes szöveg először 1874-ben jelent meg a Petőfi Sándor költeményei című illusztrált díszkiadásban az Athenaeum Kiadónál.",
+          "note": "'아테네움 시집'은 아테네움 출판사(Athenaeum Kiadó)가 낸 삽화 장정판 『Petőfi Sándor költeményei』를 가리킨다."
+        },
+        {
+          "sids": [
+            "9847d93e6972"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "「사도」는 1848년 6월 의원 선거에서 낙선한 뒤의 실망 속에서 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Határozott vágya volt a népet képviselni az országgyűlésen, és 1848-ban szűkebb hazájában, a Kiskunságban fel is lépett követjelöltként. … Ezért júniusban elbukott a képviselőválasztáson. … Csalódottan és ekkori tapasztalatainak hatása alatt született Az apostol című költeménye.",
+          "note": "헝가리어 위키백과 Az apostol 항목도 성립 배경으로 'Szabadszálláson 1848 júniusában elveszítette a képviselőválasztási harcot'와 함께 3월 이후 혁명에 대한 실망('a márciusi eseményekhez képest csalódott a forradalomban')을 든다. 낙선만이 원인이라고 읽히지 않게 '속에서'라는 표현은 적절하다."
+        },
+        {
+          "sids": [
+            "9847d93e6972"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "주인공은 혁명적 기질의 인물이며, 시는 그의 출생부터 생애를 따라간다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+          "quote": "Az első négy ének (1-4.) a főhős, egy forradalmi lelkületű egyéniség húszas éveiről, mint jelenéről szól. … A következő kilenc énekben (5-14.) a költő felidézi Szilveszter múltját: születését, kisgyermek-, gyermekkorát és ifjúságát.",
+          "note": "시는 연대순이 아니라 20대의 현재에서 시작해 과거를 회상한 뒤 현재로 돌아온다('a dolgok közepébe vágva')."
+        },
+        {
+          "sids": [
+            "9847d93e6972"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "이야기는 주인공의 처형까지 간다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+          "quote": "Bosszút áll a királyon mindenért, rálő. A merénylet kudarcba fullad, a kor szellemének megfelelően kivégzik a főhőst.",
+          "note": "처형 뒤 마지막 20곡(A negyedik rész, 20. ének)은 미래의 순수한 혁명과 자유 사회를 환시한다. '처형까지 따라간다'는 생애 서술로서 맞다."
+        },
+        {
+          "sids": [
+            "6897669123ad"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "「용사 야노시」는 민담 모티프와 어조에 외국 전설의 요소도 섞었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Még ebben az évben írta a János vitézt, november második felében, 6 nap és 6 éjszaka alatt. Népmesének nevezte, mert egy részét népmesei motívumokból szőtte és a népmesék hangjában adta elő, de vett külföldi regékből is vonásokat"
+        },
+        {
+          "sids": [
+            "6897669123ad"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "27장으로 되어 있다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "A János vitézben nagyon fontos szerep jut a számmisztikának. A mű 27 fejezetből áll"
+        },
+        {
+          "sids": [
+            "6897669123ad"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "이야기 시(elbeszélő költemény)다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "A János vitéz Petőfi Sándor 1844-ben írt, 370 darab, egyenként négysoros versszakból álló verses meséje, irodalmi kifejezéssel élve elbeszélő költeménye."
+        },
+        {
+          "sids": [
+            "c2fb2d7c55ce"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "양치기 소년인 주인공이 마지막에 요정의 나라의 왕이 된다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "Az író eszményképet teremt a nép számára, hiszen Kukorica Jancsi, az árva juhász, Tündérország királyává válik.",
+          "note": "1장은 그를 'az árva juhászbojtár'(고아 양치기 소년)로 소개한다. 마지막 장: 'A tündérfiúk megválasztják királyukká Jánost'."
+        },
+        {
+          "sids": [
+            "c2fb2d7c55ce"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "도중에 프랑스 왕에게 이른다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "13. fejezet: A magyar katonák a csatahely közelében lévő tóban fürdenek meg, majd a francia király várában ünneplik a győzelmet."
+        },
+        {
+          "sids": [
+            "c2fb2d7c55ce"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "거인의 나라를 지나 요정의 나라에 이른다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "Tündérország a harmadik ország, ahová János vitéz eljut, Óriásországot és a sötétség országot követően",
+          "note": "거인의 나라와 요정의 나라 사이에 '어둠의 나라'(Sötétség országa)도 지나지만, 문장은 이를 생략했을 뿐 틀리게 말하지 않는다. 프랑스 대목은 10–15장, 거인의 나라는 20장이라 순서도 맞다."
+        },
+        {
+          "sids": [
+            "c2fb2d7c55ce"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "이 이야기로부터 노래극·인형극·애니메이션·록 오페라가 만들어졌다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "János vitéz című elbeszélő költeményéből daljáték, bábelőadás, rajzfilm és rockopera is készült.",
+          "note": "노래극은 커초 퐁그라츠(Kacsóh Pongrác)의 daljáték, 애니메이션은 1973년 얀코비치 마르첼(Jankovics Marcell) 감독작이다(헝가리어 위키백과 János vitéz 항목 Feldolgozások 절). 같은 절에는 1939·1968년 극영화도 있다."
+        },
+        {
+          "sids": [
+            "68f1e463d803"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.facts",
+          "claim": "페퇴피가 루쉰에게 영향을 준 관계가 문서로 남아 있다(방향 페퇴피→루쉰)",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/關於魯迅之二",
+          "quote": "匈加利則有詩人裴彖飛（Petöfi Sandor），死於革命之戰，豫才為《河南》雜誌作《摩羅詩力說》，表彰擺倫等人的“撒但派”，而以裴彖飛為之繼，甚致讚美，其德譯詩集一卷，又小說曰《絞手之繩》，從舊書攤得來時已破舊，豫才甚珍重之。",
+          "note": "동생 저우쭤런(周作人)의 회고. 豫才는 루쉰의 자(字)다."
+        },
+        {
+          "sids": [
+            "68f1e463d803"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.facts",
+          "claim": "루쉰은 자기 글에서 페퇴피의 시와 구절을 인용해 자신의 사유로 삼았다",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/希望",
+          "quote": "我放下了希望之盾，我聽到Petofi Sándor(1823-49)的『希望』之歌： … 桀驁英勇如Petöfi，也終于對了暗夜止步，回顧着茫茫的東方了。他說： 絕望之爲虛妄，正與希望相同。",
+          "note": "루쉰 『들풀(野草)』의 「희망」(1925년 1월 1일). 그는 1933년 『자선집』 서문에서도 이 구절('絕望之為虛妄，正與希望相同。')을 붓을 든 이유를 말하는 자리에 다시 쓴다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

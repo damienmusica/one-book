@@ -1,0 +1,303 @@
+{
+  "plates": [
+    {
+      "id": "miguel-de-cervantes",
+      "claims": [
+        {
+          "sids": [
+            "6f10c02b7f13"
+          ],
+          "field": "author.importanceReason",
+          "claim": "주인공은 기사도 소설을 지나치게 읽은 향사(hidalgo)다",
+          "verdict": "confirmed",
+          "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1905)/Tomo_I/Capítulo_I",
+          "quote": "Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso (que eran los más del año), se daba á leer libros de caballerías, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza, y aun la administración de su hacienda",
+          "note": "Britannica 『돈키호테』 항목도 \"his head bemused by reading such romances\"라고 적는다. 검산: 인용을 원문 1장에서 확인했다. 같은 장의 \"del poco dormir y del mucho leer se le secó el celebro de manera, que vino á perder el juicio\"가 '너무 읽은'을 더 곧게 받친다."
+        },
+        {
+          "sids": [
+            "6f10c02b7f13"
+          ],
+          "field": "author.importanceReason",
+          "claim": "주인공은 쉰 살에 가까운 나이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1905)/Tomo_I/Capítulo_I",
+          "quote": "Frisaba la edad de nuestro hidalgo con los cincuenta años"
+        },
+        {
+          "sids": [
+            "6f10c02b7f13"
+          ],
+          "field": "author.importanceReason",
+          "claim": "주인공은 무장을 갖추고 들판으로 나선다",
+          "verdict": "confirmed",
+          "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1905)/Tomo_I/Capítulo_II",
+          "quote": "se armó de todas sus armas, subió sobre Rocinante, puesta su mal compuesta celada, embrazó su adarga, tomó su lanza, y por la puerta falsa de un corral salió al campo"
+        },
+        {
+          "sids": [
+            "6f10c02b7f13"
+          ],
+          "field": "author.importanceReason",
+          "claim": "돈키호테의 '이성적인 광기'는 작가가 의도한 현실과 환상의 대비로 해석되기도 한다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250114131146/https://www.britannica.com/biography/Miguel-de-Cervantes/Don-Quixote-and-critical-traditions",
+          "quote": "The split depicted within Cervantes’s characters—Don Quixote’s “reasoned unreason” for example—has sometimes been attributed to the author’s intended contrast of reality and illusion (as well as of other opposites).",
+          "note": "출처는 '이성적인 광기'를 인물 내부 분열의 한 예로 들고, 그 분열이 작가가 의도한 대비에서 나왔다고 보는 해석이 '때로' 있다고 적는다. 문장의 '해석되기도 한다'는 이 유보를 지킨다. 바로 다음 문단은 \"Yet Cervantes was characteristically ambiguous on these issues\"로 이어진다. 검산: 인용을 Wayback 페이지에서 확인했다. 출처는 분열을 대비에 '귀속'시키고 문장은 '대비로 해석'한다고 적는다 — 유보('sometimes')가 지켜져 있어 유지한다."
+        },
+        {
+          "sids": [
+            "845f7815e2de"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『돈키호테』는 (기사도 로맨스의) 패러디로 구상되었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Originally conceived as a parody of the chivalric romances that had long been in literary vogue"
+        },
+        {
+          "sids": [
+            "845f7815e2de"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『돈키호테』는 근대 소설의 원형으로 평가된다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "the novel was a great and continuing success and is considered a prototype of the modern novel",
+          "note": "출처는 'a prototype'(원형 가운데 하나)이다. 문장은 '유일한 원형'이라고 하지 않으므로 범위 안이다."
+        },
+        {
+          "sids": [
+            "9307cef57ac4"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『돈키호테』 1부의 사건들은 서로 느슨하게 엮여 있다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "La primera parte supone un avance considerable en el arte de narrar. … Los hechos, sin embargo, se presentan poco entrelazados entre sí.",
+          "note": "'끊어 읽어도 된다'는 이 사실에서 끌어낸 독서 안내라 따로 잴 사실 주장이 아니다."
+        },
+        {
+          "sids": [
+            "9307cef57ac4"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "2부에서는 등장인물들이 1부를 이미 읽은 상태다(자기 인용 구조)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Part 2 begins a month after the end of part 1, but many of the characters have already read that book and so know about Don Quixote.",
+          "note": "'1부를 통과한 뒤라야 작동한다'는 독서 판단이다. es.wikipedia 『돈키호테』 항목도 2부에 대해 \"al incluir, dentro de ella, la edición de la primera parte del Quijote y, posteriormente, la de la apócrifa Segunda parte, que los personajes han leído\"라고 적는다."
+        },
+        {
+          "sids": [
+            "d77b5cbd457a"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『라 갈라테아』는 목가 소설이라는 형식을 고쳐 쓴 작품이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250114131146/https://www.britannica.com/biography/Miguel-de-Cervantes/Don-Quixote-and-critical-traditions",
+          "quote": "his innovative reworkings of literary forms—from the pastoral novel La Galatea and exemplary short stories to the acclaimed novel Don Quixote and his one serious attempt at romance, the posthumously published Persiles y Sigismunda",
+          "note": "'『돈키호테』가 무엇을 겨냥했는지 알기 전에 지친다'는 독서 판단이라 사실 주장이 아니다."
+        },
+        {
+          "sids": [
+            "d77b5cbd457a"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『페르실레스』는 로맨스 형식을 새롭게 고쳐 쓰려 한 작품이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250119110205/https://www.britannica.com/biography/Miguel-de-Cervantes/Publication-of-Don-Quixote",
+          "quote": "The one that was published, posthumously in 1617, was his last romance, Los trabaios de Persiles y Sigismunda, historia setentrional (“The Labours of Persiles and Sigismunda: A Northern Story”). In it Cervantes sought to renovate the heroic romance of adventure and love in the manner of the Aethiopica of Heliodorus."
+        },
+        {
+          "sids": [
+            "a609b77e4ad7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "존 러더퍼드의 『돈키호테』 영역본은 1,023쪽에 이른다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/isbn/0142437239.json",
+          "quote": "\"pagination\": \"xl,1023p. ;\", \"title\": \"The ingenious hidalgo Don Quixote de la Mancha\", \"number_of_pages\": 1023, … \"by_statement\": \"by Miguel de Cervantes Saavedra, translated by John Rutherford",
+          "note": "1,023은 Penguin Putnam(뉴욕) 2003년판 한 레코드의 본문 쪽수이고 앞에 로마 숫자 xl쪽이 따로 있다. 같은 번역의 Penguin Books Ltd 2003년판 레코드(https://openlibrary.org/isbn/0140449094.json, 아마존 유래)는 \"number_of_pages\": 1056으로 적는다. 1,000쪽이 넘는다는 요지는 두 판본 모두에서 선다. 다만 문장이 1,023을 번역 자체의 쪽수처럼 쓰므로 판본(펭귄 2003년 미국판)을 밝히면 더 정확하다. '문장과 사건 자체는 어렵지 않다', '주석으로 채워야 농담이 농담으로 읽힌다'는 독서 판단이다."
+        },
+        {
+          "sids": [
+            "a609b77e4ad7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『돈키호테』는 기사도 소설과 목가 소설을 겨냥한다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "Se encuentran en la obra críticas a los libros de caballerías, las novelas pastoriles",
+          "note": "같은 문장은 로페 데 베가의 새 연극 공식에 대한 비판도 함께 든다(각주 번호 앞에서 끊었다)."
+        },
+        {
+          "sids": [
+            "9f32324d4102"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.facts",
+          "claim": "원제는 El ingenioso hidalgo Don Quijote de la Mancha이고 1605년에 처음 간행되었다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "Publicada su primera parte con el título de El ingenioso hidalgo don Quijote de la Mancha a comienzos de 1605",
+          "note": "원제와 1605는 1부의 것이다. 같은 문서: \"El ingenioso hidalgo don Quijote de la Mancha, publicada con fecha de 1605, aunque impresa en diciembre de 1604\"; 2부는 \"Segunda parte del ingenioso caballero don Quijote de la Mancha\"(1615). 작품 레코드가 두 부를 함께 다루므로 facts 줄의 1605는 1부 초판 연도로 읽힌다. 검산: '1605 first-print'는 초판의 간기 연도로 읽는다. es.wikipedia는 \"publicada con fecha de 1605, aunque impresa en diciembre de 1604\"라고 적으므로 인쇄 자체는 1604년 12월이다."
+        },
+        {
+          "sids": [
+            "9f32324d4102"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.facts",
+          "claim": "장르는 소설이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Don Quixote, novel published in two parts (part 1, 1605, and part 2, 1615)"
+        },
+        {
+          "sids": [
+            "a9cb69ce1fd5"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.significance",
+          "claim": "『돈키호테』 인물 내부의 분열을 현실과 환상의 대비로 보는 해석이 있다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250114131146/https://www.britannica.com/biography/Miguel-de-Cervantes/Don-Quixote-and-critical-traditions",
+          "quote": "The split depicted within Cervantes’s characters—Don Quixote’s “reasoned unreason” for example—has sometimes been attributed to the author’s intended contrast of reality and illusion (as well as of other opposites).",
+          "note": "출처는 이 해석을 '때로(sometimes)' 제기된 것으로만 적고, 문장의 '보기도 한다'는 그 범위를 지킨다. 출처는 분열을 '작가가 의도한' 대비에 귀속시키는데 문장은 그 부분을 뺐다 — 약하게 옮긴 것이지 틀린 것은 아니다."
+        },
+        {
+          "sids": [
+            "9028be768c1c"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "『라 갈라테아』는 세르반테스가 발표한 첫 소설이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241206145037/https://www.britannica.com/biography/Miguel-de-Cervantes/Civil-servant-and-writer",
+          "quote": "his first published fiction, La Galatea (1585; Galatea: A Pastoral Romance), in the newly fashionable genre of the pastoral romance"
+        },
+        {
+          "sids": [
+            "9028be768c1c"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "『라 갈라테아』는 당시 새로 유행한 목가 로맨스 장르의 작품이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241206145037/https://www.britannica.com/biography/Miguel-de-Cervantes/Civil-servant-and-writer",
+          "quote": "his first published fiction, La Galatea (1585; Galatea: A Pastoral Romance), in the newly fashionable genre of the pastoral romance"
+        },
+        {
+          "sids": [
+            "056842e3017f"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "세르반테스는 『라 갈라테아』 후속편을 약속했으나 쓰지 못했다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/La_Galatea",
+          "quote": "Pero nunca se publicó la varias veces prometida segunda parte. … Pero no hay datos reales de la producción de esta obra, solo anuncios que no se cumplieron.",
+          "note": "출처들은 2부가 끝내 나오지 않았고 집필했다는 자료도 없다고 적는다. Britannica(출판 절)도 갈라테아 속편을 두고 \"apparently did not get as far as the printing press, if indeed he ever actually started writing them\"라고 쓴다. 착수 여부 자체는 확정되지 않았으므로 '쓰지 못했다'보다 '끝내 내지 못했다'가 출처와 한 치도 어긋나지 않는 표현이다. 요지는 확인된다. 검산: 원문 인용을 확인했다. 세르반테스 자신도 죽기 나흘 전 『페르실레스』 헌사(https://es.wikisource.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda_(1920)/Tomo_I/Dedicatorias)에서 \"me diese el cielo vida, las verá, y con ellas fin de La Galatea\"라고 적어, 1616년 4월까지 후속편을 내지 못했음을 스스로 밝힌다. '쓰지 못했고'는 이 범위 안이다."
+        },
+        {
+          "sids": [
+            "056842e3017f"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "『라 갈라테아』는 『돈키호테』 1부의 서재 검열 장면에서 등장인물들의 입으로 언급된다",
+          "verdict": "confirmed",
+          "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1905)/Tomo_I/Capítulo_VI",
+          "quote": "—La Galatea, de Miguel de Cervantes, dijo el barbero. —Muchos años ha que es grande amigo mío ese Cervantes, y sé que es más versado en desdichas que en versos. Su libro tiene algo de buena invención; propone algo y no concluye nada; es menester esperar la segunda parte, que promete",
+          "note": "인용 문서는 1부(Tomo I) 6장이고, 장 제목은 \"Del donoso y grande escrutinio que el cura y el barbero hicieron en la librería de nuestro ingenioso hidalgo\"다."
+        },
+        {
+          "sids": [
+            "f87e2c8dbb60"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "「린코네테와 코르타디요」와 「유리 학사」가 『모범소설집』에 들어 있다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "Son los relatos más conocidos: Rinconete y Cortadillo, El licenciado Vidriera, La gitanilla, El coloquio de los perros o La ilustre fregona."
+        },
+        {
+          "sids": [
+            "f87e2c8dbb60"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "「린코네테와 코르타디요」는 세비야 뒷골목(범죄 조직)을 그린다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "hasta que van a parar en Sevilla, donde mientras trabajan de esportilleros son captados por una asociación mafiosa de malhechores, una especie de sindicato del crimen sevillano"
+        },
+        {
+          "sids": [
+            "f87e2c8dbb60"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "「유리 학사」의 주인공은 자기 몸이 유리로 되어 있다고 믿는다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "En El licenciado Vidriera el estudiante pobre Tomás Rodaja marcha a Salamanca a estudiar acompañando de un noble y allí se licencia con honores; viaja por diversas ciudades de Italia, pero pierde la razón a causa de un filtro de amor que le han suministrado en secreto y cree tener el cuerpo de vidrio y ser sumamente frágil."
+        },
+        {
+          "sids": [
+            "f87e2c8dbb60"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "이 소설집의 작품들은 이탈리아식 노벨라의 틀을 따른다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "Se trata de doce novelas cortas que siguen el modelo establecido en Italia.",
+          "note": "출처는 열두 편 전체가 이탈리아 모델을 따른다고 적으므로 두 작품도 그 안에 든다. 다만 같은 문서는 두 작품을 '사실주의 계열'로 묶고, 이탈리아 영향에 가장 가까운 쪽은 '이상주의 계열'(\"Las de carácter idealista, que son las más próximas a la influencia italiana\")이라고 적는다. 이탈리아식 틀의 예로 하필 이 두 편을 드는 것은 출처의 구분과 어긋나 보일 수 있다. '이탈리아식 노벨라를 본뜬 열두 편 가운데 …'처럼 틀을 소설집 전체에 거는 편이 정확하다. 검산: '처럼'은 두 작품을 이탈리아 모델을 따른 열두 편의 예로 든다 — 출처의 '열두 편 전체'에 걸리므로 틀리지 않다. 이상주의/사실주의 구분 주의는 위 note대로 남긴다."
+        },
+        {
+          "sids": [
+            "a33a69c8edb7"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "『소설의 기술』은 1986년 작이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Art_of_the_Novel",
+          "quote": "The Art of the Novel (French: L'Art du roman) is a 1986 essay about European literature by Milan Kundera"
+        },
+        {
+          "sids": [
+            "a33a69c8edb7"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "「평가절하된 세르반테스의 유산」이 『소설의 기술』의 첫 부다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Art_of_the_Novel",
+          "quote": "In 1983, Kundera wrote \"The Depreciated Legacy of Cervantes,\" which later became the first part of The Art of the Novel.",
+          "note": "글 자체는 1983년에 썼고 책에 첫 부로 묶인 것이 1986년이다. 문장은 책의 연도만 적으므로 어긋나지 않는다."
+        },
+        {
+          "sids": [
+            "a33a69c8edb7"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "쿤데라는 그 글에서 유럽 소설의 역사를 발견의 연쇄로 규정한다",
+          "verdict": "confirmed",
+          "url": "https://www.tumblr.com/lazenby/2595964796/the-depreciated-legacy-of-cervantes",
+          "quote": "The sequence of discoveries (not the sum of what was written) is what constitutes the history of the European novel.",
+          "note": "「The Depreciated Legacy of Cervantes」 영역본(린다 애셔 역) 본문을 옮긴 2차 게시물이다. 같은 본문을 옮긴 다른 게시물(https://taqienglish.blogspot.com/2015/05/the-depreciated-legacy-of-cervantes.html, 출처 표기 \"Translated by Linda Asher ... New York: Grove Press\")에서도 같은 문장을 확인했다. 원서·출판사판 대조는 하지 못했다. 검산: 두 게시물 모두 이번 세션에 가져와 인용을 확인했다. taqienglish 게시물 끝에 \"Source: THE ART OF THE NOVEL By Milan Kundera. Translated by Linda Asher. 165 pp. New York: Grove Press.\"가 있다. archive.org 사본(artofnovel0000mila)은 대출 제한이라 원본 대조는 여전히 못 했다."
+        },
+        {
+          "sids": [
+            "a33a69c8edb7"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "쿤데라는 자신이 '평가절하된 세르반테스의 유산'에만 매여 있다고 쓴다",
+          "verdict": "confirmed",
+          "url": "https://www.tumblr.com/lazenby/2595964796/the-depreciated-legacy-of-cervantes",
+          "quote": "My answer is as ridiculous as it is sincere: I am attached to nothing but the depreciated legacy of Cervantes.",
+          "note": "같은 글의 끝부분이다. 위 taqienglish 게시물에서도 같은 문장을 확인했다. 2차 게시물 기반이라는 한계는 위와 같다. 검산: 두 게시물 모두 이번 세션에 가져와 인용을 확인했다. taqienglish 게시물 끝에 \"Source: THE ART OF THE NOVEL By Milan Kundera. Translated by Linda Asher. 165 pp. New York: Grove Press.\"가 있다. archive.org 사본(artofnovel0000mila)은 대출 제한이라 원본 대조는 여전히 못 했다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 27,
+    "requoted": 0,
+    "downgraded": 0,
+    "added": 0,
+    "noClaimConverted": 0
+  }
+}

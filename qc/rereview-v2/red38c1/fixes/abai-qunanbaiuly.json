@@ -1,0 +1,25 @@
+{
+  "fixes": [
+    {
+      "id": "abai-qunanbaiuly",
+      "works": [
+        {
+          "id": "abai-qunanbaiuly--qara-sozder",
+          "significance": "1890년부터 1898년까지 쓴 45편의 산문으로, 「가클리야」(훈계의 말)라고도 한다. 주제가 여러 갈래라 친족 간 반목과 게으름을 나무라는 편도 지식·노동·신앙의 근거를 따지는 편도 있고, 카자흐 논설 산문의 고전으로 꼽힌다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "각 편은 번호만 붙은 채 이어진다",
+          "resolution": "removed"
+        },
+        {
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "45편 각 편이 (예외 없이) 친족 간 반목과 게으름을 나무라거나 지식·노동·신앙의 근거를 따진다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

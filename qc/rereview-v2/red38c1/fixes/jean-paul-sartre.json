@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "jean-paul-sartre",
+      "relations": [
+        {
+          "id": "contrast--jean-paul-sartre--gustave-flaubert",
+          "summary": "「『레 탕 모데른』 창간사」(1945, 『Situations II』 수록)에서 사르트르는 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 '막기 위해 한 줄도 쓰지 않았다'고 썼고, 뒤에 『집안의 백치』(1971–72) 세 권을 플로베르 한 사람에게 바쳤다. 이 대립은 사르트르 자신이 세웠고, 한 연구자는 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "(연구자 일반이) 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

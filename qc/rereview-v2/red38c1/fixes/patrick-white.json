@@ -1,0 +1,15 @@
+{
+  "fixes": [
+    {
+      "id": "patrick-white",
+      "difficultyReason": "서사적 폭과 시적 밀도, 고도로 압축된 언어 때문에 어렵다는 평을 받는다. 네 장편은 출간 당시 442–642쪽이고, 서술이 과거와 현재, 여러 인물의 시점 사이를 오간다.",
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "네 장편은 출간 당시 478–642쪽이다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

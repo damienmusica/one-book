@@ -1,0 +1,306 @@
+{
+  "plates": [
+    {
+      "id": "hermann-hesse",
+      "claims": [
+        {
+          "sids": [
+            "d18538dcaff5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『데미안』의 데미안은 주인공과 따로 선 인물이면서 주인공 내면의 인도자로 읽힌다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Demian",
+          "quote": "Andererseits ist Demian Sinclairs Retter, der allwissende erwachsene und reife Typ, der Sinclair mehrere Male hilft, mit seinen Problemen umzugehen. Obwohl Demian im Roman als reale Person dargestellt ist, kann man ihn ebenso als integralen Teil Sinclairs ansehen.",
+          "note": "같은 문단 끝: \"So kann Demian als ratgebende Kraft in Sinclairs Unterbewusstsein interpretiert werden.\" 한 정신의 두 부분이 인물 둘로 나뉜 경우로 읽을 근거가 된다."
+        },
+        {
+          "sids": [
+            "d18538dcaff5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『황야의 이리』는 갈라진 자아를 그린다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/1946/ceremony-speech/",
+          "quote": "This personal crisis found its magnificent expression in the fantastical novel Der Steppenwolf (1927) [Steppenwolf], an inspired account of the split in human nature"
+        },
+        {
+          "sids": [
+            "d18538dcaff5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『황야의 이리』의 갈라진 자아는 인물 둘로 나뉘어 세워진다",
+          "verdict": "contradicted",
+          "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+          "quote": "Haller leidet an der Zerrissenheit seiner Persönlichkeit: Seine menschliche, bürgerlich-angepasste Seite und seine steppenwölfische, einsame, sozial- und kulturkritische Seite bekämpfen sich und blockieren Hallers künstlerische Entwicklung.",
+          "correction": "내면의 인도자(데미안)와 정신과 감각의 분리(나르치스와 골드문트)처럼 심리적 대립항을 인물 둘로 나눠 세우거나, 『황야의 이리』처럼 한 인물 안의 갈라진 자아로 그리는 구성을 반복했다.",
+          "note": "『황야의 이리』의 시민적 자아와 늑대적 자아는 한 인물(하리 할러) 안의 두 면이다. 같은 문서는 할러가 스스로를 \"Doppelwesen\"으로 겪는다고 쓰고, 브리태니커도 이 소설이 갈등을 \"in a middle-aged man\", 곧 한 남자 안에 둔다고 쓴다. 데미안·나르치스와 골드문트와 달리 이 사례는 대립항을 인물 둘로 나눈 예가 아니다. 참고로 같은 문서는 헤르미네를 할러의 \"weiblichen Alter Ego\"이자 \"Seelenspiegel\"로 읽는다. 『황야의 이리』를 인물 둘의 예로 남기려면 짝은 할러와 헤르미네여야 하고, 괄호 설명은 '갈라진 자아'가 될 수 없다."
+        },
+        {
+          "sids": [
+            "d18538dcaff5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『나르치스와 골드문트』는 정신(금욕적 지성인)과 감각(감각적 예술가)을 두 인물로 나눠 맞세운다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+          "quote": "In Narziss und Goldmund (1930; Narcissus and Goldmund), an intellectual ascetic who is content with established religious faith is contrasted with an artistic sensualist pursuing his own form of salvation."
+        },
+        {
+          "sids": [
+            "d18538dcaff5"
+          ],
+          "field": "author.importanceReason",
+          "claim": "헤세는 대립하는 두 삶의 방식을 맞세우는 구성을 여러 소설(데미안·황야의 이리·나르치스와 골드문트·유리알 유희)에서 반복했다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+          "quote": "Das Werk ähnelt, trotz der dichterischen Sprache und des fremden Kulturraums, in seinem Grundaufbau anderen Entwicklungsromanen Hesses wie Demian, Der Steppenwolf, Narziß und Goldmund und Das Glasperlenspiel: Der Suchende, über sich Hinauswachsende, wird dem Stehengebliebenen gegenübergestellt, das vergeistigte dem weltlichen und sinnlichen Leben.",
+          "note": "브리태니커도 \"Hesse also came to be preoccupied with what he saw as the duality of human nature.\"라고 쓴다. 출처가 말하는 반복은 대립 구도이지, 그 대립을 늘 인물 둘로 나눴다는 것이 아니다(『황야의 이리』 주장 참조)."
+        },
+        {
+          "sids": [
+            "7b0a0993d805"
+          ],
+          "field": "author.importanceReason",
+          "claim": "헤세는 1946년 노벨문학상을 받았다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+          "quote": "Hermann Hesse (born July 2, 1877, Calw, Germany—died August 9, 1962, Montagnola, Switzerland) was a German novelist and poet who was awarded the Nobel Prize for Literature in 1946."
+        },
+        {
+          "sids": [
+            "7b0a0993d805"
+          ],
+          "field": "author.importanceReason",
+          "claim": "노벨상 이후에도 헤세의 인기는 오르내렸다(2차 대전 뒤 치솟았다가 1950년대에 꺼졌다)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+          "quote": "After World War II, Hesse’s popularity among German readers soared, though it had crashed by the 1950s.",
+          "note": "출처는 독일 독자 사이의 인기를 말한다. 영어 위키백과도 \"In 1955 sales of Hesse's books by his publisher Suhrkamp reached an all-time low.\"라고 쓴다."
+        },
+        {
+          "sids": [
+            "7b0a0993d805"
+          ],
+          "field": "author.importanceReason",
+          "claim": "1960년대 미국에서 반문화와 결부되어 헤세의 소설이 새로 읽혔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Hermann_Hesse",
+          "quote": "The situation changed in the mid-1960s when his works suddenly became bestsellers in the United States, with many of the novels republished in inexpensive paperback editions.[59] The revival in popularity of Hesse's works has been credited to their association with some of the popular themes of the 1960s counterculture (or hippie) movement."
+        },
+        {
+          "sids": [
+            "07e04c215b11"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『데미안』은 200쪽 안팎이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL59218662M.json",
+          "quote": "\"number_of_pages\": 224",
+          "note": "1949년 주어캄프 독일어판. 같은 저작(OL30457295W)의 판본 목록을 이번에 다시 받아 셌다: 쪽수가 적힌 독일어판 25종은 155–256쪽(중앙값 224), 전체 107종의 중앙값은 184쪽, 민음사 한국어판(2015, OL27191790M)은 239쪽. \"진입이 쉽다\"는 이 분량과 1인칭 서술에서 끌어낸 편집 판단이라 따로 주장으로 세우지 않았다."
+        },
+        {
+          "sids": [
+            "07e04c215b11"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『데미안』은 1인칭으로 서술된다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Demian",
+          "quote": "Entsprechend wird der Roman in der Ich-Form aus der Perspektive der Hauptfigur erzählt"
+        },
+        {
+          "sids": [
+            "07e04c215b11"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『데미안』은 성장소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Demian",
+          "quote": "Demian: The Story of a Boyhood is a bildungsroman by Hermann Hesse, published in 1919."
+        },
+        {
+          "sids": [
+            "07e04c215b11"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『데미안』에 내면의 인도자 구도가 있다(싱클레어는 끝내 인도자를 자기 안에서 찾는다)",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Demian",
+          "quote": "Sinclair findet fortan den Freund und Führer in sich selbst, dort „wo im dunkeln Spiegel die Schicksalsbilder schlummern“, und dieser ist eins mit ihm geworden."
+        },
+        {
+          "sids": [
+            "07e04c215b11"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『데미안』에 두 세계 사이에서 갈라진 자아의 구도가 있다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Demian",
+          "quote": "Sinclair erkennt in dieser Sicht seinen eigenen Widerspruch zwischen den zwei Welten und wird gewahr, dass dies kein persönlicher, sondern ein kulturell bedingter Konflikt ist."
+        },
+        {
+          "sids": [
+            "07e04c215b11"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이후 소설들이 되풀이하는 기본 구도가 그보다 앞선 『데미안』에 이미 있다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+          "quote": "Das Werk ähnelt, trotz der dichterischen Sprache und des fremden Kulturraums, in seinem Grundaufbau anderen Entwicklungsromanen Hesses wie Demian, Der Steppenwolf, Narziß und Goldmund und Das Glasperlenspiel: Der Suchende, über sich Hinauswachsende, wird dem Stehengebliebenen gegenübergestellt, das vergeistigte dem weltlichen und sinnlichen Leben.",
+          "note": "『데미안』(1919)은 출처가 함께 드는 『싯다르타』(1922), 『황야의 이리』(1927), 『나르치스와 골드문트』(1930), 『유리알 유희』(1943)보다 앞선다. \"먼저\"는 이 이후 소설들에 견준 순서로만 확인된다. 『데미안』이 헤세 작품 전체에서 이 구도가 처음 나온 곳이라는 뜻까지는 출처가 말하지 않는다. 『수레바퀴 아래서』 같은 더 이른 소설은 대조하지 않았다. 출처가 말하는 공통 구도는 \"찾는 자와 머문 자, 정신과 세속·감각의 대립\"이다. \"내면의 인도자\"가 되풀이된다는 점은 독일어 위키백과 『유리알 유희』 항목의 \"variiert Hesse hier sein altes Thema von Meister und Jünger\"가 뒷받침한다."
+        },
+        {
+          "sids": [
+            "b2b0bdab1a06"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『유리알 유희』는 유리알 유희의 역사를 서술하는 서론이 먼저 오고, 크네히트의 생애 서술은 그 뒤에 시작된다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+          "quote": "Der eigentlichen Handlung geht die Einleitung des fiktiven Herausgebers voran, die in Form einer historischen Abhandlung abgefasst ist und die Entwicklung der von Hesse entworfenen Welt darstellt (Das Glasperlenspiel. Versuch einer allgemeinverständlichen Einführung in seine Geschichte). Nach der Handlung (Lebensbeschreibung des Magister Ludi Josef Knecht) folgen",
+          "note": "서론의 부제가 \"Einführung in seine Geschichte\", 곧 유리알 유희의 역사 입문이다. 본 이야기(\"Handlung\")가 곧 \"Lebensbeschreibung des Magister Ludi Josef Knecht\"이고 서론이 그 앞에 온다."
+        },
+        {
+          "sids": [
+            "b404496cd254"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『싯다르타』의 문장은 평이하다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Siddhartha_(novel)",
+          "quote": "The book, Hesse's ninth novel, was written in German, in a simple, lyrical style."
+        },
+        {
+          "sids": [
+            "b404496cd254"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "헤세의 인물들이 융 심리학의 개념을 짊어진다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Narzi%C3%9F_und_Goldmund",
+          "quote": "Sowohl Nietzsches Idee der Rückentwicklung des Geistes zum Kind als auch Jungs Archetypen der Anima und Großen Mutter drücken sich in Goldmunds Hin- und Rückwendung zur „Mutter“ aus.",
+          "note": "브리태니커: \"Hesse’s later work shows his interest in Jungian concepts of introversion and extraversion, the collective unconscious, idealism, and symbols.\" 『데미안』 항목도 융 개인화 과정 이론과의 유사성을 다룬다. \"표면만 좇으면 성장담으로 축소된다\"는 독서 난도에 관한 편집 판단이라 주장으로 세우지 않았다."
+        },
+        {
+          "sids": [
+            "b404496cd254"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "헤세의 인물들이 인도 사유의 개념을 짊어진다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+          "quote": "Viele der Namen sind der indischen Kultur entnommen. Sie enthalten Anspielungen auf die religiösen Vorstellungen sowohl des Hinduismus wie auch des Buddhismus"
+        },
+        {
+          "sids": [
+            "b404496cd254"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "헤세의 인물들이 중국 사유의 개념을 짊어진다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+          "quote": "Ein Vorbild für Josef Knechts Leben ist Kungfutse"
+        },
+        {
+          "sids": [
+            "b404496cd254"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『유리알 유희』는 가상 세계(학문 공동체 카스탈리엔)와 유리알 유희의 역사를 설명하는 서론이 본 이야기에 앞선다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+          "quote": "Der eigentlichen Handlung geht die Einleitung des fiktiven Herausgebers voran, die in Form einer historischen Abhandlung abgefasst ist und die Entwicklung der von Hesse entworfenen Welt darstellt (Das Glasperlenspiel. Versuch einer allgemeinverständlichen Einführung in seine Geschichte). Nach der Handlung (Lebensbeschreibung des Magister Ludi Josef Knecht) folgen",
+          "note": "서론이 그리는 것은 \"der von Hesse entworfenen Welt\"의 전개이고, 같은 문서는 이 세계에서 학자들이 \"pädagogischen Provinz\" 카스탈리엔에 사는 교단을 이룬다고 쓴다."
+        },
+        {
+          "sids": [
+            "d13ce0fda4b7"
+          ],
+          "field": "work:hermann-hesse--der-steppenwolf.significance",
+          "claim": "'마술 극장'은 수기의 절정부(마지막 변신 단계)에 나온다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+          "quote": "Mit dieser mystischen Vereinigung beginnt die letzte Phase der Verwandlung: Hermine, Pablo, ein Saxophonist und Freund Hermines, und Haller nehmen gemeinsam Drogen ein und mit deren Wirkung öffnet sich der Bildersaal in Hallers Seele, das seit langem gesuchte „Magische Theater“",
+          "note": "같은 문서의 구성 절은 마술 극장의 변신들을 소설의 세 번째 부분(\"dialektischen Aufhebung\")에 둔다. 이 부분은 논고 뒤에 이어지는 할러의 수기 안쪽이다."
+        },
+        {
+          "sids": [
+            "d13ce0fda4b7"
+          ],
+          "field": "work:hermann-hesse--der-steppenwolf.significance",
+          "claim": "『황야의 이리』에 괴테가 나오는 장면이 있다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/75802/pg75802.txt",
+          "quote": "Da stand der alte Goethe, klein und sehr steif, und richtig hatte er einen dicken Ordensstern auf seiner Klassikerbrust.",
+          "note": "이 장면은 마술 극장 앞쪽의 꿈 장면이다. 쪽 문장은 괴테 장면을 마술 극장 안이라고 하지 않으므로 어긋나지 않는다."
+        },
+        {
+          "sids": [
+            "d13ce0fda4b7"
+          ],
+          "field": "work:hermann-hesse--der-steppenwolf.significance",
+          "claim": "『황야의 이리』에 모차르트가 나오는 장면이 있다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/75802/pg75802.txt",
+          "quote": "Ich wandte mich um, durchfroren und beseligt von diesem Lachen, und da kam Mozart gegangen, lachend ging er an mir vorüber"
+        },
+        {
+          "sids": [
+            "d13ce0fda4b7"
+          ],
+          "field": "work:hermann-hesse--der-steppenwolf.significance",
+          "claim": "『황야의 이리』에서 헤세의 형식 실험이 뚜렷하다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+          "quote": "Thomas Mann im Vorwort zur amerikanischen Ausgabe von Hesses Demian (1948): „Ist es nötig zu sagen, dass der Steppenwolf ein Romanwerk ist, das an experimenteller Gewagtheit dem ‚Ulysses‘, den ‚Faux Monnayeurs‘ nicht nachsteht?“",
+          "note": "같은 문서: \"Schon mit seinen drei verschiedenen Erzählern … war der Roman eine kompositorische Innovation.\" 출처가 형식 혁신으로 꼽는 것은 주로 세 화자 구성과 소설 전체다. 마술 극장 장면을 형식 실험에 넣는 것은 쪽의 해석이지만, 같은 문서의 구성 절이 마술 극장의 변신을 소설의 3부 구성 안에 두므로 무리는 아니다. \"가장\" 같은 비교어는 이제 없다."
+        },
+        {
+          "sids": [
+            "2b2a87463006"
+          ],
+          "field": "work:hermann-hesse--das-glasperlenspiel.significance",
+          "claim": "『유리알 유희』는 1946년 노벨문학상에서 특별한 자리를 인정받았다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+          "quote": "Hesse erhielt 1946 den Nobelpreis für Literatur für sein Gesamtwerk als „gegenwärtig bester Repräsentant des deutschen Kulturerbes neben Thomas Mann“, wobei Das Glasperlenspiel darin Sonderstellung gewürdigt wurde.",
+          "note": "노벨 시상 연설: \"In Hesse’s more recent work the vast novel Das Glasperlenspiel (1943) [Magister Ludi] occupies a special position.\" 수상 사유 자체는 특정 작품이 아니라 \"for his inspired writings\"다. 쪽 문장은 이 작품이 수상의 근거였다고 하지 않고 특별한 자리만 말하므로 출처 범위 안이다."
+        },
+        {
+          "sids": [
+            "62dd45e641ec"
+          ],
+          "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+          "claim": "헤세는 1919년 「차라투스트라의 귀환 — 독일 청년에게 보내는 말」(Zarathustras Wiederkehr. Ein Wort an die deutsche Jugend)을 익명으로 발표했다",
+          "verdict": "confirmed",
+          "url": "https://hesse.projects.gss.ucsb.edu/papers/Hausarbeit-Zarathustra.pdf",
+          "quote": "Die politische Flugschrift Zarathustras Wiederkehr mit dem Untertitel Ein Wort an die deutsche Jugend - Von einem Deutschen erscheint erstmalig im Januar 1919 anonym im Verlag Stämpfli in Bern.",
+          "note": "UCSB 논문은 1919년 1월로 적는다. 주어캄프 책 소개(suhrkamp.de)는 \"im Februar 1919\" \"anonym\"으로 적어 달은 다르지만 해는 같다. 한국어 제목은 원제·부제의 직역이다(원래 부제의 \"Von einem Deutschen\"은 생략)."
+        },
+        {
+          "sids": [
+            "62dd45e641ec"
+          ],
+          "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+          "claim": "이 글에서 차라투스트라가 화자로 나서 1차 대전에서 돌아온 젊은이들에게 말한다",
+          "verdict": "confirmed",
+          "url": "https://hesse.projects.gss.ucsb.edu/papers/Hausarbeit-Zarathustra.pdf",
+          "quote": "Die zentrale Figur der Flugschrift ist der Prophet Zarathustra, der sich im ersten Abschnitt, der Einleitung, im Dialog mit den aus dem 1. Weltkrieg heimgekehrten Jünglingen befindet. Im Gegensatz dazu stellt jedes der restlichen neun Kapitel eine Rede Zarathustras zu einer bestimmten Thematik dar."
+        },
+        {
+          "sids": [
+            "62dd45e641ec"
+          ],
+          "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+          "claim": "돌아온 차라투스트라는 니체의 차라투스트라이고, 청중은 종전 직후 독일의 청년이다",
+          "verdict": "confirmed",
+          "url": "https://hesse.projects.gss.ucsb.edu/papers/Hausarbeit-Zarathustra.pdf",
+          "quote": "Kurz nach Kriegsende verbreitet sich unter den jungen Menschen in der Hauptstadt Deutschlands das Gerücht, der Prophet Zarathustra sei wieder erschienen. Einige Jünglinge, die gerade aus dem Krieg heimgekehrt sind, machen sich auf den Weg, ihn zu suchen. Für sie war Nietzsches Also sprach Zarathustra die Lektüre ihrer Jugendzeit, die sie mit Begeisterung gelesen hatten",
+          "note": "같은 논문은 헤세가 \"in der Gestaltung seiner Zarathustra-Figur stark an Nietzsches Zarathustra\"에 기댔다고 하면서도, 신의 존재 문제 등에서 두 인물이 다르다고 쓴다. \"니체의 차라투스트라를 화자로 세워\"는 이 차용의 범위 안이다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "fixes": [
+    {
+      "id": "victor-hugo",
+      "readingEntryReason": "위고 특유의 역사·건축 서술과 인물 운명의 결합이 이미 드러나 있고 삽입장도 쓰인 장편이라, 『레 미제라블』(원문 655,478 단어)에 앞서 그 리듬에 적응하기에 알맞다.",
+      "resolutions": [
+        {
+          "field": "author.readingEntryReason",
+          "claim": "그 역사·건축 서술과 인물 운명의 결합이 『파리의 노트르담』에서 이미 '완성'되어 있다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

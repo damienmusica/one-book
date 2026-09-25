@@ -1,0 +1,15 @@
+{
+  "fixes": [
+    {
+      "id": "mario-vargas-llosa",
+      "difficultyReason": "서로 다른 시간대의 대화를 한 대화 안에 교대로 놓고, 때로는 호격으로 화자를 알 수 있어 누가 언제 누구에게 말하는지 독자가 매 순간 가려내야 한다.",
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "때로는 호격으로만 화자를 알 수 있다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

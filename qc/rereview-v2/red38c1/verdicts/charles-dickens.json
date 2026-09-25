@@ -1,0 +1,246 @@
+{
+  "plates": [
+    {
+      "id": "charles-dickens",
+      "claims": [
+        {
+          "sids": [
+            "4f5eed8bbca7"
+          ],
+          "field": "author.importanceReason",
+          "claim": "디킨스는 계급마다 다른 말투를 부리는 솜씨로 이름났다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "quote": "his acclaimed mastery of varieties of class idiom may in fact mirror the conventions of contemporary popular theatre",
+          "note": "출처는 이 솜씨가 당대 대중연극의 관습을 따른 것일 수 있다는 단서를 붙인다. 문장은 그 단서를 뺐지만 '이름났다'는 주장 자체는 'acclaimed mastery'가 받친다."
+        },
+        {
+          "sids": [
+            "4f5eed8bbca7"
+          ],
+          "field": "author.importanceReason",
+          "claim": "매회 끝의 갈고리(클리프행어)로 다음 회를 기다리게 했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "quote": "His instalment format inspired a narrative that he would explore and develop throughout his career, and the regular cliffhangers made each new episode widely anticipated."
+        },
+        {
+          "sids": [
+            "4f5eed8bbca7"
+          ],
+          "field": "author.importanceReason",
+          "claim": "값싼 분책으로 독자층이 여러 소득 계층으로 넓어졌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+          "quote": "These instalments made the stories affordable and accessible, with the audience more evenly distributed across income levels than before."
+        },
+        {
+          "sids": [
+            "a36a2f2a6414"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "디킨스 장편은 사건이 곁가지 없이 곧게 나아간다",
+          "verdict": "contradicted",
+          "url": "https://www.theguardian.com/film/2020/jun/13/streaming-best-dickens-adaptations-film-tv-personal-history-david-copperfield-armando-iannucci",
+          "quote": "the DNA of Dickens’s busy, episodic storytelling, delivered in instalments and rife with cliffhangers and diversions, is traceable in everything from Coronation Street to the films of Paul Thomas Anderson.",
+          "correction": "등장인물이 많고 곁가지 줄거리가 서로 얽혀 있어, 중반 이후 인물 관계를 놓치지 않는 지속적 독서가 필요하다.",
+          "note": "『가디언』(2020. 6. 13.)은 디킨스의 이야기 방식을 곁가지(diversions)가 가득한 에피소드식으로 규정한다. Victorian Web(앨링엄)도 디킨스가 '기발한 인물과 희극적 여담(comic digressions)'으로 유명하다고 적고, Lit Hub가 인용한 프랜신 프로즈의 '디킨스적' 소설 정의에는 '수많은, 교묘하게 얽힌 곁가지 줄거리(numerous and ingeniously interconnected subplots)'가 들어 있다. 교정문의 '곁가지 줄거리가 서로 얽혀'는 이 프로즈 정의가 받친다."
+        },
+        {
+          "sids": [
+            "a36a2f2a6414"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "디킨스의 문장은 곧고 평이하다",
+          "verdict": "contradicted",
+          "url": "https://www.litcharts.com/lit/great-expectations/literary-devices/style",
+          "quote": "His sentences are often quite long and wordy, packing in dense imagery and sensations to evoke the bustle of city life for the reader.",
+          "correction": "등장인물이 많고 곁가지 줄거리가 서로 얽혀 있어, 중반 이후 인물 관계를 놓치지 않는 지속적 독서가 필요하다.",
+          "note": "LitCharts는 학습 안내서라 학술 출처는 아니다. 런던 저널리즘 학교(lsj.org) 에세이는 『위대한 유산』 8장의 한 대목을 '짧은 사실적 문장(short factual sentences)'으로 읽어 작품·대목마다 다르다. 디킨스의 문장이 전반적으로 곧다고 말하는 출처는 찾지 못했고, en.wikipedia Charles_Dickens는 문체를 '넘치는 언어적 창의(profuse linguistic creativity)'와 '공상의 비약(flights of fancy)'으로 설명한다. 문장 성격에 대한 단정을 빼는 편이 안전하다."
+        },
+        {
+          "sids": [
+            "a36a2f2a6414"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "디킨스 장편은 등장인물이 많다",
+          "verdict": "confirmed",
+          "url": "https://lithub.com/10-contemporary-dickensian-novels/",
+          "quote": "“Dickensian” has become one of those over-used but useful terms for describing a certain kind of novel: in this case, as Francine Prose summed it up , one that features “a large cast of vividly drawn characters",
+          "note": "Lit Hub가 인용한 프랜신 프로즈의 '디킨스적' 소설 정의. en.wikipedia Oliver_Twist는 디킨스 작품 전체의 인물을 989명으로 센 폴 발리의 말을, Bleak_House는 'many characters and several subplots'를 적는다. '중반 이후 … 지속적 독서가 필요하다'는 독서 조언이라 사실 주장으로 재지 않았다."
+        },
+        {
+          "sids": [
+            "a04c9e393e66"
+          ],
+          "field": "work:charles-dickens--oliver-twist.facts",
+          "claim": "원제 Oliver Twist, 1838년(세 권짜리 단행본)에 나온 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Oliver_Twist",
+          "quote": "Oliver Twist; or, The Parish Boy's Progress, is the second novel by English author Charles Dickens. It was originally published as a serial from 1837 to 1839 and as a three-volume book in 1838.",
+          "note": "연도 기준이 attested(그 해에 나온 것이 확인됨)이므로 1838 단행본과 맞는다. 첫 인쇄는 1837년 연재다."
+        },
+        {
+          "sids": [
+            "8b5826533ae7"
+          ],
+          "field": "work:charles-dickens--bleak-house.facts",
+          "claim": "원제 Bleak House, 1853년(연재 완결·단행본 초판)에 나온 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Bleak_House",
+          "quote": "Bleak House is a novel by the English author Charles Dickens, first published as a 20-episode serial between 12 March 1852 and 12 September 1853. … In a preface to the 1853 first edition, Dickens said there were many actual precedents for his fictional case.",
+          "note": "연도 기준이 attested이므로 1853(연재 완결, 단행본 초판)과 맞는다. 연재 첫 회는 1852년 3월 12일이다."
+        },
+        {
+          "sids": [
+            "02936c3401c2"
+          ],
+          "field": "work:charles-dickens--a-tale-of-two-cities.significance",
+          "claim": "『두 도시 이야기』는 '가장 디킨스답지 않은' 소설로 불린다",
+          "verdict": "confirmed",
+          "url": "https://victorianweb.org/authors/dickens/2cities/pva212.html",
+          "quote": "as George Woodcock remarks in his introduction to the Penguin edition of A Tale of Two Cities , the eleventh of his fourteen novels is \"the least Dickensian\" (9)",
+          "note": "출처가 이 말을 귀속시키는 사람은 조지 우드콕(펭귄판 서문) 한 사람이고, 이 글의 필자 앨링엄이 그 이유(기발한 인물과 희극적 여담이 없다)를 받아 쓴다. 다른 독립 출처(cliffsnotes.com)는 봇 차단으로 원문을 열지 못했다. '불린다'를 그대로 두려면 '(조지 우드콕)' 귀속을 붙이는 편이 정확하다."
+        },
+        {
+          "sids": [
+            "020b305433a9"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "고아 핍이 주인공이며 1인칭으로 서술된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "quote": "The novel is a bildungsroman and depicts the education of an orphan nicknamed Pip. It is Dickens' second novel, after David Copperfield, to be fully narrated in the first person."
+        },
+        {
+          "sids": [
+            "020b305433a9"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "신분 상승, 그 자금의 출처, 거짓 가치의 허망함이 줄거리의 축이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "quote": "Pip's story is told in three stages: his childhood and early youth in Kent, where he dreams of rising above his humble station; his time in London after receiving \"great expectations\"; and then finally his disillusionment on discovering the source of his fortune, followed by his slow realisation of the vanity of his false values."
+        },
+        {
+          "sids": [
+            "020b305433a9"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "성인 핍이 어린 시절을 되짚는 회고 서술이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "quote": "Pip—as both narrator and protagonist—recounts with hindsight the story of the young boy he was"
+        },
+        {
+          "sids": [
+            "f86b9a4cd8d1"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "버나드 쇼는 『위대한 유산』을 '가장 빈틈없이 완벽한 책'이라 했다",
+          "verdict": "contradicted",
+          "url": "https://www.penguinrandomhouse.com/books/326623/great-expectations-by-charles-dickens/9780451531186/readers-guide/",
+          "quote": "Playwright George Bernard Shaw felt that Great Expectations was Dickens’s “most compactly perfect book.”",
+          "correction": "버나드 쇼는 디킨스의 ‘가장 빈틈없이 완벽한 책’이라 했다.",
+          "note": "쇼의 최상급은 디킨스의 책들 안에서의 평가다(스미스 칼리지 도서관 전시 해설도 'called this his \"most compactly perfect book.\"'이라 적는다). 문장은 '디킨스의'를 빼 최상급의 범위가 사라졌다. 이전 교정문에는 '디킨스의'가 있었다. 인용문 자체와 쇼 귀속은 맞다."
+        },
+        {
+          "sids": [
+            "5bcc468e43a4"
+          ],
+          "field": "relation:influence--charles-dickens--leo-tolstoy.summary",
+          "claim": "『예술이란 무엇인가』는 1897년 저작이다",
+          "verdict": "confirmed",
+          "url": "https://www.marxists.org/archive/tolstoy/1897/what-is-art/chapter-16.html",
+          "quote": "What is Art? Chapter 16 Written: 1897"
+        },
+        {
+          "sids": [
+            "5bcc468e43a4"
+          ],
+          "field": "relation:influence--charles-dickens--leo-tolstoy.summary",
+          "claim": "톨스토이는 『두 도시 이야기』·『크리스마스 캐럴』·『종소리』를 신과 인간에 대한 사랑에서 나온 최고 예술의 예로 들었다",
+          "verdict": "confirmed",
+          "url": "https://www.marxists.org/archive/tolstoy/1897/what-is-art/chapter-16.html",
+          "quote": "as examples of the highest art, flowing from love of God and man (both of the higher, positive, and of the lower, negative kind), in literature I should name The Robbers by Schiller: Victor Hugo’s Les Pauvres Gens and Les Misérables : the novels and stories of Dickens— The Tale of Two Cities , The Christmas Carol , The Chimes , and others"
+        },
+        {
+          "sids": [
+            "5bcc468e43a4"
+          ],
+          "field": "relation:influence--charles-dickens--leo-tolstoy.summary",
+          "claim": "『데이비드 코퍼필드』와 『픽윅 클럽 여행기』는 보편 예술로 분류될 만하나 대개 제 집단에만 이해되는 작품이라고 적었다",
+          "verdict": "confirmed",
+          "url": "https://www.marxists.org/archive/tolstoy/1897/what-is-art/chapter-16.html",
+          "quote": "If there are some works which by their inner contents might be assigned to this class (such as Don Quixote , Molière’s comedies, David Copperfield and The Pickwick Papers by Dickens, Gogol’s and Pushkin’s tales, and some things of Maupassant’s), these works are for the most part … comprehensible only to people of their own circle.",
+          "note": "'this class'는 같은 대목 앞의 '좋은 보편 예술(good universal art)'이다. 이전 교정에서 되살린 한정 'for the most part'가 '대개'로 반영됐다."
+        },
+        {
+          "sids": [
+            "0f03fa48ffbd"
+          ],
+          "field": "relation:influence--charles-dickens--fyodor-dostoevsky.summary",
+          "claim": "도스토옙스키가 시베리아 유형 이후 디킨스를 애독했다는 기록이 있다",
+          "verdict": "confirmed",
+          "url": "https://victorianweb.org/authors/dickens/gredina.html",
+          "quote": "M. Nikitin remarks that, \"after his Siberian imprisonment in Semipalatinsk, Dostoevsky read Dickens's novels by candlelight while often on the verge of tears\" (Nikitin 172)."
+        },
+        {
+          "sids": [
+            "0f03fa48ffbd"
+          ],
+          "field": "relation:influence--charles-dickens--fyodor-dostoevsky.summary",
+          "claim": "『백치』 주인공(미시킨 공작) 구상을 설명한 서한에서 피크윅을 들었다",
+          "verdict": "confirmed",
+          "url": "https://victorianweb.org/authors/dickens/gredina.html",
+          "quote": "Dostoevsky wrote in a letter to his niece, S. Ivanova, desribing the central idea for his new novel: The idea behind the novel is an old and precious conception of mine … Dickens's Pickwick (an infinitely weaker conception than Don Quixote, but all the same immense) is also funny, and succeeds only because of this quality.",
+          "note": "같은 글은 그 '아름다운 인간'이 주인공 미시킨 공작이라고 적는다('he intended that his hero Prince Myshkin would prove the notion that \"beauty has the spiritual capacity to save the world.\"')."
+        },
+        {
+          "sids": [
+            "0f03fa48ffbd"
+          ],
+          "field": "relation:influence--charles-dickens--fyodor-dostoevsky.summary",
+          "claim": "연구는 『백치』의 구성 원천으로 디킨스를 꼽는다",
+          "verdict": "confirmed",
+          "url": "https://victorianweb.org/authors/dickens/gredina.html",
+          "quote": "in constructing the fabula or plot (that is, the framework around which his imagination would work), Dostoevsky turned to Don Miguel Cervantes' Don Quixote , Charles Dickens's The Pickwick Papers , and the majestic image of the New Testament Christ",
+          "note": "그레디나·앨링엄은 같은 문단에서 『우리 서로의 친구』도 『백치』의 플롯 구조 전체에 영향을 준 원천으로 든다."
+        },
+        {
+          "sids": [
+            "0f03fa48ffbd"
+          ],
+          "field": "relation:influence--charles-dickens--fyodor-dostoevsky.summary",
+          "claim": "연구는 『죄와 벌』의 범죄 심리 묘사에 디킨스의 영향이 있는지를 묻는다",
+          "verdict": "confirmed",
+          "url": "https://victorianweb.org/authors/dickens/gredina.html",
+          "quote": "Investigating the approach to the question of whether Dickens inspired Dostoevsky in his descriptions of criminal psychology, we must endeavor to draw parallels, for example, between the characters of Raskolnikov (in Crime and Punishment ) and Bradley Headstone (in Our Mutual Friend )"
+        },
+        {
+          "sids": [
+            "6838fa64666f"
+          ],
+          "field": "relation:influence--charles-dickens--roald-dahl.facts",
+          "claim": "디킨스가 로알드 달에게 준 영향이 문서로 확인된다(방향 디킨스→달, documented)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "His other favourite authors included Rudyard Kipling, Charles Dickens, William Makepeace Thackeray and former Royal Navy officer Frederick Marryat, and their works made a lasting mark on his life and writing.",
+          "note": "위키백과의 이 대목은 스터록 평전(『Storyteller』)의 유년 독서 기록을 근거로 한다. 『마틸다』 본문도 디킨스 작품을 명시한다(이전 주장 0d4bdf7d6958)."
+        },
+        {
+          "sids": [
+            "b676ac10a141"
+          ],
+          "field": "relation:influence--charles-dickens--roald-dahl.summary",
+          "claim": "『인디펜던트』는 달의 소설이 흔히 탐식과 가학에 빠진 '디킨스적 어른들'로 가득하다고 썼다",
+          "verdict": "confirmed",
+          "url": "https://www.independent.co.uk/arts-entertainment/books/features/world-book-day-roald-dahl-best-books-children-matilda-charlie-chocolate-factory-the-twits-a8810511.html",
+          "quote": "Dahl’s novels are often dark affairs, filled with cruelty, bereavement and Dickensian adults prone to gluttony and sadism.",
+          "note": "필자는 조 소머래드(『인디펜던트』, 2019. 3. 7.). 원문을 직접 열어 확인했다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

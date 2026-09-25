@@ -1,0 +1,249 @@
+{
+ "plates": [
+  {
+   "id": "kim-sowol",
+   "claims": [
+    {
+     "sids": [
+      "3a16cf02207f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "김소월의 시는 한국적인 서정시의 정형을 확립했다는 평가를 받는다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200042",
+     "quote": "김소월의 시는 한국적인 서정시의 정형을 확립하였다는 평가를 받는다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "3a16cf02207f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『진달래꽃』은 1925년에 나왔고, 근대시의 형성과 전개 과정에 폭넓은 영향을 끼친 것으로 평가된다",
+     "verdict": "confirmed",
+     "url": "https://seongnam.grandculture.net/seongnam/toc/GC00103079",
+     "quote": "시인 김소월이 생전에 간행한 유일한 시집 『진달래꽃』은 1925년 12월 23일 인쇄하고, 12월 26일 서울 소재 출판사 매문사에서 발행되었다. … 시집 『진달래꽃』은 한국 현대문학의 초창기 형태를 잘 보여주고 있어서 근대시(近代詩)의 형성과 전개 과정에 폭 넓은 영향을 끼친 것으로 평가받는다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "3a16cf02207f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『진달래꽃』은 한국 시단의 이정표 구실을 한 시집으로 평가된다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009535",
+     "quote": "소월의 시작활동은 1925년 시집 『진달래꽃』을 내고 1925년 5월 『개벽』에 시론 ｢시혼(詩魂)｣을 발표함으로써 절정에 이르렀다. … 이 시집은 그의 전반기의 작품경향을 드러내고 있으며, 당시 시단의 수준을 한층 향상시킨 작품집으로서 한국시단의 이정표 구실을 한다.",
+     "note": "문장은 두 평가를 '영향을 끼쳐 … 이정표 구실을 한'으로 잇지만, 두 평가는 서로 다른 출처(디지털성남문화대전 / 한국민족문화대백과사전)에서 왔고, 백과사전이 이정표라 부르는 이유는 '당시 시단의 수준을 한층 향상시킨 작품집'이라는 점이지 근대시에 끼친 영향이 아니다. 연결어미 '-어'를 인과로 읽으면 출처에 없는 인과가 된다. 두 평가를 병렬로 두면 안전하다(예: '…폭넓은 영향을 끼쳤고, 한국 시단의 이정표 구실을 한 시집으로 평가된다'). 같은 항목 요약문은 이정표 평가를 시집이 아니라 '그의 시'에 건다: '한국 시단의 이정표 구실을 한 것으로 평가된다'. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "3a16cf02207f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『진달래꽃』은 근대시의 형성과 전개 과정에 폭넓은 영향을 끼쳤기 때문에(끼쳐) 한국 시단의 이정표 구실을 한 시집으로 평가된다",
+     "verdict": "contradicted",
+     "url": "https://encykorea.aks.ac.kr/Article/E0009535",
+     "quote": "이 시집은 그의 전반기의 작품경향을 드러내고 있으며, 당시 시단의 수준을 한층 향상시킨 작품집으로서 한국시단의 이정표 구실을 한다.",
+     "note": "검사 추가: 문장의 연결어미 '끼쳐'가 두 평가를 인과로 잇는다. 이정표 평가를 내린 한국민족문화대백과사전은 그 근거를 '당시 시단의 수준을 한층 향상시킨 작품집으로서'라고 적고, 근대시의 형성과 전개에 끼친 영향은 다른 출처(디지털성남문화대전 GC00103079)의 별개 평가다. 어느 한 인용도 '영향을 끼쳐 → 이정표'라는 인과를 싣지 않는다. 두 평가를 병렬로 두거나 백과사전의 근거로 바꿔야 한다.",
+     "correction": "『진달래꽃』(1925)은 근대시의 형성과 전개 과정에 폭넓은 영향을 끼친 것으로 평가받고, 당시 시단의 수준을 한층 향상시킨 작품집으로서 한국 시단의 이정표 구실을 한 시집으로 평가된다."
+    },
+    {
+     "sids": [
+      "a2a1fe4b74ba"
+     ],
+     "field": "author.importanceReason",
+     "claim": "방언을 많이 쓰지는 않았지만 시어로 적재적소에 배치한 점이 평가된다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002633988",
+     "quote": "이와 더불어 시어로 방언을 적절하게 사용하였다. 토속적인 방언을 많이 사용하지는 않았지만, 적재적소에 배치하여 시의 미적 효과와 표현적 가치를 극대화하였다.",
+     "note": "유형선·윤애경, 「김소월 시어의 방언에 관한 연구」, 『우리어문연구』 68(2020) 초록. 평가 주체는 이 논문 하나다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "a2a1fe4b74ba"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「시혼」은 1925년에 발표되었다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0032527",
+     "quote": "작자의 유일한 시론으로, 1925년 『개벽(開闢)』 5월호에 발표되었다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "a2a1fe4b74ba"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「시혼」에서 자기 시의 원리(시관)를 스스로 정식화한 점이 평가된다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0032527",
+     "quote": "김소월의 시관을 논술한 것으로 김소월의 시세계를 이해하는 데 중요한 자료가 되고 있다.",
+     "note": "같은 항목 본문: '한마디로 김소월은 여기서 시혼의 본체는 영혼에 있으며, 그것은 영원불변하다는 시관을 내세우고 있다.' 같은 단락은 이 논지가 '자작시에 대한 옹호론의 입장'이라고 적어 '자기 시'의 원리라는 서술도 뒷받침한다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "df2978dbfd17"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "시어는 옛 말투이면서도 어렵지 않다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002633988",
+     "quote": "시어가 전래적(고어투)이면서도 어렵지 않아 독자와 공감대를 형성하고",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "df2978dbfd17"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "한 편의 분량이 짧다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200042",
+     "quote": "그의 작품들은 간결하고 절제된 형식을 취하고 있으며",
+     "note": "'간결'은 분량을 직접 재지 않으므로 대표작 길이로 보강했다. 한국민족문화대백과사전: 「진달래꽃」 '4연 12행의 자유시'(E0054623), 「산유화」 '5연 16행의 자유시'(E0026311), 「초혼」 '5연 20행의 자유시'(E0057085). 모두 이번에 다시 가져와 확인했다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. '간결하고 절제된 형식'이 분량의 짧음을 직접 수치로 말하지는 않지만, 간결한 형식은 짧은 분량을 담는다고 보고 유지했다. 백과사전·위키백과에서 '짧'을 직접 쓴 더 나은 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "57650ca1a97b"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "평안도 방언 몇 군데는 이해하기 어려워 주석(뜻풀이)이 필요하다",
+     "verdict": "confirmed",
+     "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002633988",
+     "quote": "그럼에도 불구하고 몇몇 방언은 이해하기 어려워, 선행 연구에서 뜻풀이를 제각기 다르게 하였다. 본고에서는 선행 연구에서 의미 해석에 논란이 되고 있는 시어 중에서 평북 방언(새, 바르다, 세다, 차부)과 평북 이외 북한 지역의 방언(뒤놓다, 모지르다, 호젓하다, 그늘, 솔곳이)으로 추정되는 어휘에 대해",
+     "note": "평북은 평안도에 속한다. 출처는 해석이 갈리는 어휘에 평북 이외 북한 지역 방언으로 추정되는 것도 넣고, 선행 연구의 뜻풀이도 제각기 달랐다고 적는다. 문장은 '평안도 방언 몇 군데'만 말하므로 출처보다 넓게 말하지 않는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "d1c14f4e1559"
+     ],
+     "field": "work:kim-sowol--jindallaekkot.significance",
+     "claim": "표제작 「진달래꽃」은 3음보 7·5조의 민요조 자유시다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0054623",
+     "quote": "｢진달래꽃｣은 4연 12행의 자유시이며, 3음보 7·5조의 민요조 형식이다.",
+     "note": "같은 항목: '｢진달래꽃｣은 시집 『진달래꽃』의 표제작이며 1920년대 민요시를 대표한다.' [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "d1c14f4e1559"
+     ],
+     "field": "work:kim-sowol--jindallaekkot.significance",
+     "claim": "표제작은 이별의 슬픔을 견디는 인고의 정서를 보여 한국 근대시를 대표하는 시로 평가된다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200042",
+     "quote": "또한 이별의 슬픔을 축복으로 승화시켜야 했던 비애와 아픔을 견디는 인고의 정서를 보임으로써 한국 근대시를 대표하는 시로 평가된다.",
+     "note": "같은 단락 앞 문장의 주어가 '표제작인 〈진달래꽃〉'이다. 출처는 견디는 대상을 '이별의 슬픔을 축복으로 승화시켜야 했던 비애와 아픔'으로 적는데 문장은 '이별의 슬픔'으로 줄였다. 뜻을 뒤집지는 않는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "42f2832f7bef"
+     ],
+     "field": "work:kim-sowol--sanyuhwa.significance",
+     "claim": "「산유화」는 산에서 꽃이 피고 지는 풍경을 서술하는 시다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026311",
+     "quote": "｢산유화｣는 산에서 계절의 변화에 따라 꽃이 피고 지고, 새가 우는 자연의 풍경을 표현한 작품이다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "42f2832f7bef"
+     ],
+     "field": "work:kim-sowol--sanyuhwa.significance",
+     "claim": "'저만치'를 어떤 관점에서 해석하느냐에 따라 시의 의미가 달라진다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0026311",
+     "quote": "｢산유화｣는 ‘저만치’에 대한 관점과 해석의 차이에 따라 시의 의미가 달라지는 것이 특징이다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "5a2e8bda6626"
+     ],
+     "field": "work:kim-sowol--sowol-sicho.significance",
+     "claim": "『소월시초』에 실린 시는 김억이 수사와 형식 전반에 걸쳐 고친 것이라 정본으로 보기 어렵다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0030222",
+     "quote": "다만 『소월시초』에 실린 시들은 이미 발표한 『진달래꽃』 소재 시들은 물론 후일 발견된 유고들에서 드러났듯이 수사와 형식(격조시형) 전반에 걸쳐 김억에 의해 개작된 것이다. 따라서 『소월시초』를 김소월 시의 정본으로 보기 어렵다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "a24847a499fb"
+     ],
+     "field": "relation:contrast--han-yong-un--kim-sowol.facts",
+     "claim": "한용운과 김소월은 이별을 노래한 방식에서 서로 대비되는(양방향) 짝이다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0044380",
+     "quote": "떠나는 이를 전송하되 울지도 않으리라는 반어미학(反語美學)을 통하여 이별을 문학예술로 승화시킨 정서순화의 극치를 볼 수 있다. 김소월과 때를 같이하여 불교시인 한용운도 시집 『님의 침묵』에서 또 하나의 이별미학을 창출한다.",
+     "note": "출처는 두 시인을 '또 하나의 이별미학'으로 나란히 놓을 뿐 '대비'라는 말을 쓰지 않는다. 증거 수준이 editorial_inference(편집 추론)로 낮춰져 있어 이 표시는 출처보다 세게 말하지 않는다. 이전 검사에서 통설(scholarly_consensus)은 unverifiable이었다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "0484caf660f2"
+     ],
+     "field": "relation:contrast--han-yong-un--kim-sowol.summary",
+     "claim": "『한국민족문화대백과사전』 「이별」 항목은 김소월과 한용운을 이별의 정서를 언어미학으로 끌어올린 두 시인으로 나란히 놓는다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0044380",
+     "quote": "이별의 정서를 인간이 가다듬을 수 있는 최고의 수준으로 끌어올리고 그러한 정서를 언어미학으로 표출한 시를 만나기 위하여는 김소월(金素月)과 한용운(韓龍雲)의 출현을 기다려야만 하였다.",
+     "note": "E0044380의 표제어가 '이별'임을 페이지 제목에서 확인했다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "ea30fe2f2404"
+     ],
+     "field": "relation:contrast--han-yong-un--kim-sowol.summary",
+     "claim": "김소월은 『진달래꽃』(1925)에서 민요의 3음보 리듬으로 이별을 노래했다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200042",
+     "quote": "특히 김소월이 생전에 발간한 유일한 시집인 《진달래꽃》(1925)은 사랑하는 이가 떠나가고 홀로 남았을 때의 심정, 즉 전통적인 정한(情恨)의 세계를 주로 다루고 있다. 시인은 비극적인 삶에서 느낀 감정을 민요적 율조인 3음보를 변용한 리듬에 담아내어 식민지 조선인들에게 큰 울림을 주었다.",
+     "note": "출처는 3음보를 '변용한' 리듬이라 적는다. 한국민족문화대백과사전 「진달래꽃」(E0054623)도 표제작을 '3음보 7·5조의 민요조 형식'으로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "ea30fe2f2404"
+     ],
+     "field": "relation:contrast--han-yong-un--kim-sowol.summary",
+     "claim": "『진달래꽃』의 화자는 이별 앞에서 체념하는 화자다",
+     "verdict": "confirmed",
+     "url": "https://library.ltikorea.or.kr/writer/200042",
+     "quote": "표제작인 〈진달래꽃〉은 간결하고 소박한 가락과, 친근감을 느낄 수 있는 대화체를 활용한 대중적 리듬, 이별, 그리움, 체념 등으로 대표되는 민중적 주제의식을 담고 있다. 나를 버리고 떠나가는 임에 대한 슬픈 정서를 소박하고 진솔한 정감으로 표현하였다.",
+     "note": "출처는 체념을 표제작의 '주제의식'으로 적고, 그 정서를 표현하는 주체는 떠나는 임을 보내는 '나'다. 다만 해석이 하나는 아니다. 한국민족문화대백과사전 「진달래꽃」(E0054623)은 '죽어도 아니 눈물 흘리우리다'를 '시의 화자가 느끼는 슬픔의 절정에서 자신을 정화하고 극복하기 위한 노력'으로 읽고, 「이별」(E0044380)은 김소월 쪽을 '반어미학'으로 부른다. 문장이 '체념하는 화자'를 유일한 해석처럼 쓰지는 않으므로 확인으로 둔다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 검사: 「이별」(E0044380)은 김소월 이전의 이별 시가 '체념과 원망의 단계를 넘지 못하고 있었다'고 쓰고 김소월을 그것을 넘어선 '반어미학'으로 놓는다. 같은 요약 첫 문장이 이 항목을 인용하므로 독자가 '체념하는 화자'를 「이별」 항목의 규정으로 읽을 위험이 있다. 한국문학번역원 프로필이 체념을 표제작의 주제의식으로 직접 적으므로 확인은 유지한다."
+    },
+    {
+     "sids": [
+      "ea30fe2f2404"
+     ],
+     "field": "relation:contrast--han-yong-un--kim-sowol.summary",
+     "claim": "한용운은 『님의 침묵』에서 불교의 역설로 이별을 노래했다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0044380",
+     "quote": "김소월과 때를 같이하여 불교시인 한용운도 시집 『님의 침묵』에서 또 하나의 이별미학을 창출한다. 그는 “이별은 미의 창조입니다.”라고 선언하면서 불교적 인생관에 근거한 이별의 의미를 불교시인답게 역설적으로 펼쳐 보였다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    },
+    {
+     "sids": [
+      "ea30fe2f2404"
+     ],
+     "field": "relation:contrast--han-yong-un--kim-sowol.summary",
+     "claim": "『님의 침묵』은 1926년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://encykorea.aks.ac.kr/Article/E0013398",
+     "quote": "『님의 침묵』은 한용운의 시집이다. 1925년 내설악 백담사에서 쓰여져서 1926년 회동서관에서 간행하였다.",
+     "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+    }
+   ],
+   "noClaim": {},
+   "check": {
+    "kept": 20,
+    "requoted": 0,
+    "downgraded": 0,
+    "added": 1,
+    "noClaimConverted": 0
+   }
+  }
+ ]
+}

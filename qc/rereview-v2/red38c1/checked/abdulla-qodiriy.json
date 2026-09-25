@@ -1,0 +1,426 @@
+{
+  "plates": [
+    {
+      "id": "abdulla-qodiriy",
+      "claims": [
+        {
+          "sids": [
+            "9d4c8fcdb160"
+          ],
+          "field": "author.importanceReason",
+          "claim": "신문이 구어에 가까운 새 산문을 만들었고, 그 신문 글에서 근대 단편과 마침내 소설이 나왔다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "The press created a new kind of prose, using a language much closer to the spoken word and with a conscious avoidance of the various kinds of ornamentation (rhymed prose, complex metaphors, doubled adjectives) that earlier authors … had routinely used to show their virtuosity. Out of this journalism arose the modern short story and eventually the novel",
+          "note": "할리드 186–187쪽(6장 A Revolution of the Mind). 두 쪽 사이의 「…」는 쪽 바뀜에 끼인 각주·도판 설명을 건너뛴 것이고 본문은 한 문장으로 이어진다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "9d4c8fcdb160"
+          ],
+          "field": "author.importanceReason",
+          "claim": "이후 우즈베크 작가들이 쓰는 문장의 척도가 『지나간 날들』에서 나왔다",
+          "verdict": "confirmed",
+          "url": "https://uzlc.tsuull.uz/index.php/uzlangcult/article/download/38/36/73",
+          "quote": "His two main novels, O’tkan Kunlar and Mehrobdan Choyon, or The Scorpion from the Mihrab, standardized Uzbek prose and provided the benchmark for aspiring Uzbek authors.",
+          "note": "리스는 『제단에서 나온 전갈』과 함께 든다. 『지나간 날들』만 따로 싣는 당대 증언은 소티 후사인(1929, uz.wiki 「Oʻtkan kunlar」 항목 인용) 「Yozuvchilarimizning birmunchalari „Oʻtkan kunlar“ni oʻqib, tilidan ancha foydalanib ish koʻrayotqanlari ochiq ma'lum」이고, 할리드 187쪽도 이 소설을 「the founding document of modern Uzbek prose literature」로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. [check] 인용은 두 장편을 함께 척도로 든다. 페이지 문장이 『지나간 날들』만 드는 것은 둘 중 하나를 고른 것이라 틀리지는 않아 확인으로 둔다."
+        },
+        {
+          "sids": [
+            "673ae4e98d1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코디리는 1938년 총살되었다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D1%8B%D1%80%D0%B8,_%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%BB%D0%B0",
+          "quote": "4 октября 1938 года писатель был расстрелян на расстрельном полигоне Алвасти куприк в Ташкенте",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "673ae4e98d1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "처형 뒤 그의 책은 금지되어 공개된 자리에서 사라졌다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D1%8B%D1%80%D0%B8,_%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%BB%D0%B0",
+          "quote": "После казни А. Кадыри и вплоть до XX съезда партии его произведения были запрещены и не переиздавались. На протяжении 20 лет сажали в тюрьмы всех, у кого обнаруживали роман «Минувшие дни».",
+          "note": "uz.wiki는 금서·분서가 이미 체포(1937년 12월) 직후 시작되었다고 적는다: 「Qodiriy xibsga olingach, asarlari „zararli“ sanalib oʻtda yoqildi, kutubxonalardan yoʻqotildi, ularni oʻqish taʼqiqlandi.」 처형 뒤에도 금지가 이어졌다는 문장은 ru.wiki가 싣는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "673ae4e98d1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코디리는 1957년에 복권되었다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D1%8B%D1%80%D0%B8,_%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%BB%D0%B0",
+          "quote": "Абдулла Кадыри был официально реабилитирован в 1957 году.",
+          "note": "출처가 갈린다: 리스(2020)는 올워스(1964)를 인용해 「the first of those murdered in 1938 to be rehabilitated in 1956」로 적고, tafakkur.net은 작품 재간행이 「XX s’ezddan so’ng, 1956 yildan boshlab」 시작되었다고 적는다. ru.wiki의 1957년 문장에는 각주가 없다. '1956–57년 복권'으로 넓히면 두 쪽을 모두 싣는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. [check] ru.wiki 1957년 문장은 이 세션에서 다시 확인했고, 리스(2020) 「rehabilitated in 1956 [Allworth 1964]」도 원문에서 다시 확인했다. en.wiki 「Abdulla Qodiriy」에는 복권 연도가 없다. 출처가 갈리는 점은 그대로 남는다."
+        },
+        {
+          "sids": [
+            "673ae4e98d1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "복권 뒤에야 그의 책이 다시 간행되어 공개적으로 읽혔다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "Qodiriy was one of the first victims of the 1930s to be rehabilitated during the Thaw. Or’kan kunlar was republished in 1958 with a print run of ninety thousand copies and bookshops had trouble keeping it in stock.",
+          "note": "할리드 383쪽 주 70. 'Or’kan'은 OCR 원문 그대로다. ru.wiki 「Скорпион из алтаря」는 재간행 금지 기간을 「1938—1956 гг.」으로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "673ae4e98d1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "1991년 알리셰르 나보이 국가상을 받았다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/Abdulla_Qodiriy",
+          "quote": "Abdulla Qodiriy Alisher Navoiy nomidagi Oʻzbekiston Respublikasi Davlat mukofoti (1991)",
+          "note": "en.wiki 인포박스도 「Alisher Navoiy State Prize (1991)」. 사후 수상이다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "673ae4e98d1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "1991년 국가상으로 그가 우즈베크 소설의 기준점 자리에 놓였다",
+          "verdict": "unverifiable",
+          "url": null,
+          "quote": null,
+          "note": "상을 받았다는 사실(uz.wiki)과 그가 우즈베크 소설의 창시자·기준이라는 평가(uz.wiki 「oʻzbek romanchiligining asoschisi」, 리스 「benchmark for aspiring Uzbek authors」)는 각각 확인되지만, 1991년 상이 그를 그 자리에 놓았다는 인과를 적은 출처는 찾지 못했다. 할리드 383쪽은 오히려 그 지위를 1930년대 초에 이미 얻었다고 적는다: 「Qodiriy had acquired the status of the outstanding Uzbek novelist—and the most beloved—that he never lost.」 '1991년 알리셰르 나보이 국가상을 받았다'로 끊으면 확인된다. uz·ru·en 위키, 할리드 전문, 리스(2020)를 보았다."
+        },
+        {
+          "sids": [
+            "47370ada8dca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『지나간 날들』은 두 연인의 혼사가 두 번째 혼인으로 흔들리는 이야기다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241210051457/https://www.new-east-archive.org/articles/show/12898/first-uzbek-novel-abdullah-qodiriys-bygone-days-calvert-reads",
+          "quote": "The two lovers of this novel, Otabek and Kumush, struggle with both traditions and the countervailing forces of modernity … All the while, Otabek pines for his bride, Kumush, who is Qodiriy’s ideal progressive woman: educated and opinionated. Unfortunately, the young man’s mother has her own idea of a partner for Otabek, forcing him to take a second wife according to tradition. The domestic conflict that follows as a result takes place against the backdrop of major historical events involving corruption, ethnic cleansing, and eventual conquest.",
+          "note": "영역자 마크 리스의 서평(New East Digital Archive, 2021; 원 페이지가 차단되어 Wayback 사본). [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "47370ada8dca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "연애 줄거리만으로도 독자를 끝까지 붙든다",
+          "verdict": "unverifiable",
+          "url": "https://uz.wikipedia.org/wiki/Abdulla_Qodiriy",
+          "quote": "Asardagi ishqiy sarguzashtlar kitobxonni hayajonga soladi, Otabek bilan Kumushning goʻzal baxtini barbod etgan omillar kishini chuqur oʻyga toldiradi.",
+          "note": "[check] 하향: 인용은 연애 이야기가 독자를 설레게 한다(hayajonga soladi)고만 적는다. 페이지 문장의 '줄거리만으로도'와 '끝까지 읽힌다'는 인용에 없는 범위어다. ru.wiki의 당대 반응(글을 모르는 사람까지 모여 들었다)은 인기이지 끝까지 읽힌다는 말이 아니다. 인용문 자체는 이 세션에서 uz.wiki에서 다시 확인했다. '연애 줄거리가 독자를 설레게 하고'로 좁히면 이 인용으로 확인된다."
+        },
+        {
+          "sids": [
+            "47370ada8dca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『지나간 날들』은 코디리의 문장과 구성이 가장 완성된 형태로 나오는 작품(대표작)이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "All along, he was working on what would become his masterpiece, the novel O'tkan kunlar (Bygone Days), the first part of which appeared in 1926, and which was to be the founding document of modern Uzbek prose literature.",
+          "note": "할리드 187쪽 「his masterpiece」. 문장·구성은 uz.wiki가 따로 든다: 「„Oʻtkan kunlar“ romani toʻqima qahramonlarning hayotiylik kasb etishi va tarixiy voqealarga uygʻunligi jihatidan ham, mujassamot butunligi va tilidagi nafosati jihatidan ham oʻzbek adabiyoti xazinasidagi durdonalar qatoridan oʻrin olgandir.」 [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "1cd6963002ce"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "줄거리에서 연애와 지방 통치자들의 권력 다툼이 얽힌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/O%CA%BBtkan_kunlar",
+          "quote": "The events were presented by the love story of Otabek and Kumush, the leading characters. The course of events takes place in an environment of bloody struggles of local rulers for power.",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "1cd6963002ce"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "그래서 사건은 따라가기 쉽다",
+          "verdict": "unverifiable",
+          "url": null,
+          "quote": null,
+          "note": "읽기 난도에 대한 편집 판단이며, 사건 전개가 따라가기 쉽다고 적은 출처는 찾지 못했다. 오히려 uz.wiki 「Oʻtkan kunlar」 항목은 이 소설에 「hikoyanavislikning koʻp planliligi, ikkilamchi sujetlar mavjudligi, ketma-ket avj oluvchi va fojiali yakun topuvchi voqealar」가 있다고 적는다(여러 층의 서술, 부차 플롯). 페이지의 작가 해설도 '여러 줄기의 사건'을 든다. 이 구절을 빼거나 '연애 줄거리가 중심이라' 정도로 좁히기를 권한다."
+        },
+        {
+          "sids": [
+            "1cd6963002ce"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "문장이 평이하다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/Abdulla_Qodiriy",
+          "quote": "Oybek aytganidek, „Oʻtkan kunlar“ romanida yozuvchi til ustida katta mahorat koʻrsatadi. Romanning tili haqiqatan boy, boʻyoqli, sodda, ifoda kuchi zoʻr, ommaga anglashilarlik bir tildir.",
+          "note": "오이베크의 평가: 소박하고(sodda) 대중이 알아듣기 쉬운 말. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "130fac7a9912"
+          ],
+          "field": "work:abdulla-qodiriy--kalvak-mahzum.significance",
+          "claim": "1923년부터 『무슈툼』에 연재한 풍자 연작이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "“Pages from Kalvak Maxzum’s Diary,” which Qodiriy began publishing in Mushtum in 1923, contain the full catalogue of the criticisms of the ulama current at the time, but what sets this series of texts apart from the general run of the period’s anticlericalism is its masterful use of language. Qodiriy very successfully used the argot of Tashkent ulama, with its ornate vocabulary larded with Perso-Arabic words and phrases, to poke fun at them.",
+          "note": "노르마토프(1991)도 「«Kalvak maxzum» 1923 yili yozila boshlagan edi」. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "e1267aca1cfc"
+          ],
+          "field": "work:abdulla-qodiriy--kalvak-mahzum.significance",
+          "claim": "낡은 종교 지식인(물라)을 화자로 세워 그 자신의 말투로 이야기하게 한다",
+          "verdict": "confirmed",
+          "url": "https://n.ziyouz.com/portal-haqida/xarita/matbuot/qayta-qurish-davri-matbuoti/umarali-normatov-serjilo-kulgi-1991",
+          "quote": "Maxzum haqida Qodiriy deydi: «Kalvak maxzumni o‘qing: ko‘bdan haqiqiy hayot bilan aloqasi uzilgan, madrasa xurofati bilan miyasi g‘ovlag‘on xolis bir mahalla imonini ko‘rasiz». … Ma’lumki, har ikkala asar ham o‘sha yetakchi personajlar tilidan hikoya qilinadi. Tabiiyki, ular hodisalarni o‘z saviyasi, nuqtai-nazaridan turib baholaydilar.",
+          "note": "우마랄리 노르마토프 「Serjilo kulgi」(1991, ziyouz). 코디리 자신이 마흐줌을 마드라사 미신에 머리가 찬 동네 이맘으로 소개하고, 두 연작 모두 주인공의 입으로 서술된다. 할리드 187쪽도 칼바크 마흐줌을 「an unreconstructed mullah of the old stripe」로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "e1267aca1cfc"
+          ],
+          "field": "work:abdulla-qodiriy--kalvak-mahzum.significance",
+          "claim": "그 말투로 인물이 자기를 폭로하게 한다(울라마 자신의 말투로 그들을 조롱한다)",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "Few figures typify this critique of the ulama better than Qodiriy’s character Kalvak Maxzum (“Friar Simple”), an unreconstructed mullah of the old stripe who combines conceit, bigotry, and ignorance in equal measure with cunning. “Pages from Kalvak Maxzum’s Diary,” … Qodiriy very successfully used the argot of Tashkent ulama, with its ornate vocabulary larded with Perso-Arabic words and phrases, to poke fun at them.",
+          "note": "[check] 재인용: 할리드 227쪽(7장). 이전 인용(노르마토프 「asar boshida Maxzumni fosh etishga urinish xiyla kuchli」)은 작가가 마흐줌을 폭로하려 했다는 말이라 '그 자신의 말투로'가 실리지 않고, 같은 글의 '주인공의 입으로 서술된다' 대목과는 1,700자 떨어져 있어 이을 수 없다. 할리드의 이 한 대목이 낡은 물라, 그 자신의 일기, 울라마의 은어로 그들을 조롱함을 함께 싣는다. OCR의 줄 끝 하이픈(mul- lah, mea- sure)은 풀어 적었다. 노르마토프 글(ziyouz)은 이 세션에서 다시 가져와 이전 인용이 원문에 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "e1267aca1cfc"
+          ],
+          "field": "work:abdulla-qodiriy--kalvak-mahzum.significance",
+          "claim": "이 연작에서 코디리의 풍자가 인물(성격) 자체를 겨누는 데 이르렀다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/Abdulla_Qodiriy",
+          "quote": "20-yillar oʻrtalarida yozilgan „Kalvak Mahzumning xotira daftaridan“, „Toshpoʻlat tajang nima deydir?“ satirik hikoyalar turkumida yozuvchi kulgusi „xarakter kulgusi“ darajasiga koʻtarildi.",
+          "note": "『토시폴라트 타장』 연작과 함께 든 평가다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "50e945eaff0d"
+          ],
+          "field": "work:abdulla-qodiriy--obid-ketmon.significance",
+          "claim": "농민·농업을 주제로 쓰라는 요구를 받던 시기의 작품이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "Qodiriy was asked, his son tells us, by Fayzulla Xo'jayev to write about Uzbek peasant life, “as Russian writers were doing” about Russian peasants. Qodiriy tramped around the Uzbek countryside for two years, researching a novel on peasant life during collectivization, which was serialized as Obid ketmon between 1932 and 1934.",
+          "note": "할리드 383쪽, 아들 하비불라 코디리의 회고에 기댄 서술. '노동'은 uz.wiki 「Uni oʻzbek xalqining mehnat, dehqonchilik madaniyati bobidagi yetukligi timsoli, deyish mumkin.」이 싣는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. [check] '노동'은 할리드의 「peasant life during collectivization」(집단화기 농민 생활)이 싣는 만큼만 실린다."
+        },
+        {
+          "sids": [
+            "50e945eaff0d"
+          ],
+          "field": "work:abdulla-qodiriy--obid-ketmon.significance",
+          "claim": "앞선 장편들과 결(소재)이 다르다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D1%8B%D1%80%D0%B8,_%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%BB%D0%B0",
+          "quote": "Главные произведения Кадыри («Минувшие дни», «Скорпион из алтаря») посвящены жизни ташкентских и кокандских узбеков в XIX веке, а также коллективизации (повесть «Абид-Кетмень»).",
+          "note": "두 장편은 19세기 타슈켄트·코칸트 생활을, 이 중편은 집단화를 다룬다. uz.wiki는 이 작품을 「oʻzbek adabiyotidagi birinchi „ishlab chiqarish“ qissasi」로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "cb7a91f00cb2"
+          ],
+          "field": "work:abdulla-qodiriy--mehrobdan-chayon.significance",
+          "claim": "칸의 궁정이 무대다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/Abdulla_Qodiriy",
+          "quote": "Xudoyorxon tarixi toʻgʻrisidagi maʼlumotlar, Ogʻacha oyim sarguzashtlari, xon harami, xotinlari, oʻrdadagi qullar haqidagi aniq maʼlumotlar asarda salmoqli oʻrin tutadi.",
+          "note": "작가 서문(litres 미리보기)도 「xon harami, xotinlari, qirq qizlar」를 든다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "cb7a91f00cb2"
+          ],
+          "field": "work:abdulla-qodiriy--mehrobdan-chayon.significance",
+          "claim": "마드라사(울라마의 삶)가 무대다",
+          "verdict": "confirmed",
+          "url": "https://litres.com/book/abdulla-qodiriy/mehrobdan-chayon-69151072/read/",
+          "quote": "Xudoyorning bu yo‘ldag‘i birinchi istinodgohi bo‘lg‘an ulamolar, ularning ichki-tashqi ahvoli, axloqi, madrasa va oila hayoti, ulamoda insoniy his bitkanligi va qolg‘ani ham xabosat pardasi ostida sezilmas darajaga yetkanlini mundarija sig‘dirg‘an qadar bayon qilinadir.",
+          "note": "코디리 자신의 서문 「Ro‘monning mavzusi to‘g‘risida」(1928년 2월 5일 서명). [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "cb7a91f00cb2"
+          ],
+          "field": "work:abdulla-qodiriy--mehrobdan-chayon.significance",
+          "claim": "안바르와 라노의 사랑을 한 줄기로 삼는다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/Abdulla_Qodiriy",
+          "quote": "Romanda Anvar bilan Raʼnoning sevgi sarguzashti, qalb nazokati shoirona tarannum etilgan.",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "cb7a91f00cb2"
+          ],
+          "field": "work:abdulla-qodiriy--mehrobdan-chayon.significance",
+          "claim": "권력에 붙어사는 성직자층(울라마)을 정면으로 다룬다",
+          "verdict": "confirmed",
+          "url": "https://litres.com/book/abdulla-qodiriy/mehrobdan-chayon-69151072/read/",
+          "quote": "Xudoyorning bu yo‘ldag‘i birinchi istinodgohi bo‘lg‘an ulamolar, ularning ichki-tashqi ahvoli, axloqi, madrasa va oila hayoti, ulamoda insoniy his bitkanligi va qolg‘ani ham xabosat pardasi ostida sezilmas darajaga yetkanlini mundarija sig‘dirg‘an qadar bayon qilinadir. Bular ro‘monning nomarg‘ub – manfiy qahramonlari.",
+          "note": "서문은 울라마를 후도요르 칸의 '첫 기댈 곳'이자 소설의 부정적 주인공으로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "cb7a91f00cb2"
+          ],
+          "field": "work:abdulla-qodiriy--mehrobdan-chayon.significance",
+          "claim": "칸의 관료층을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D1%80%D0%BF%D0%B8%D0%BE%D0%BD_%D0%B8%D0%B7_%D0%B0%D0%BB%D1%82%D0%B0%D1%80%D1%8F",
+          "quote": "исторический роман из жизни Худояр-хана и его чиновников",
+          "note": "러시아어 1987년판의 부제로 실린 문구다. 관료층이 '권력에 붙어산다'는 수식은 칸의 관리라는 뜻만큼 실린다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "dad198d4e53c"
+          ],
+          "field": "work:abdulla-qodiriy--otkan-kunlar.facts",
+          "claim": "『지나간 날들』(Oʻtkan kunlar)은 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/O%CA%BBtkan_kunlar",
+          "quote": "oʻzbek yozuvchisi Abdulla Qodiriy qalamiga mansub oʻzbek adabiyotidagi ilk roman",
+          "note": "[check] 재인용: 이전 인용은 원문에서 「„Oʻtgan kunlar“」 뒤에 끼인 「[manba kerak]」 표시를 말없이 뺐다. 표시 뒤의 이어진 구간만 남겼다. 같은 항목 인포박스도 「Janr(lar)i roman」."
+        },
+        {
+          "sids": [
+            "dad198d4e53c"
+          ],
+          "field": "work:abdulla-qodiriy--otkan-kunlar.facts",
+          "claim": "1922년에 처음 지면(『인킬로브』)에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/O%CA%BBtkan_kunlar",
+          "quote": "Roman 1920-yillar boshida yozilgan boʻlib, 1922-yil ilk bor „Inqilob“ jurnalida chop etilgan va 1926-yilda alohida kitob holida nashr etilgan",
+          "note": "ru.wiki 「Минувшие дни」(「Впервые роман «Минувшие дни» был напечатан в журнале «Инкилоб» в 1922 году」)와 en.wiki(「serialized in the magazine Inqilob from 1922–1925」)도 같다. 할리드(2015, 53·187쪽)만 「began to appear in segments in 1926」로 적어 출처가 갈린다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "aef084207baa"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.facts",
+          "claim": "코디리와 아이니는 서로 친연(affinity) 관계로 묶이며, 근거는 편집 추론 수준이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "no one was more important in the creation of modern prose literature than Abdulla Qodiriy in Uzbek and Sadriddin Ayni in Tajik",
+          "note": "할리드 187쪽이 두 사람을 근대 산문의 창시자로 나란히 든다. 두 사람의 친연을 직접 적은 문장은 아니므로 editorial_inference가 맞는 수준이다. 할리드 383쪽은 두 사람이 1934년 전연방 작가대회에서 고리키와 함께 찍은 사진을 든다(「in the company of Sadriddin Ayni, he met Maxim Gorky」). [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "4bfadce9c849"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "할리드의 『우즈베키스탄 만들기』는 2015년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "First published 2015 by Cornell University Press",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "4bfadce9c849"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "『우즈베키스탄 만들기』는 혁명 이후 우즈베크 문화 정치를 서술한다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "In Making Uzbekistan, Adeeb Khalid chronicles the tumultuous history of Central Asia in the age of the Russian revolution. He explores the complex interaction between Uzbek intellectuals, local Bolsheviks, and Moscow to sketch out the flux of the situation in early-Soviet Central Asia. … Making Uzbekistan introduces key texts from this period and argues that what the decade witnessed was nothing short of a cultural revolution.",
+          "note": "archive.org 서지 설명. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "4bfadce9c849"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "그 책은 코디리와 아이니를 근대 산문을 만든 가장 중요한 두 사람으로 든다",
+          "verdict": "contradicted",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "Out of this journalism arose the modern short story and eventually the novel, and no one was more important in the creation of modern prose literature than Abdulla Qodiriy in Uzbek and Sadriddin Ayni in Tajik.",
+          "note": "[check] 하향: 할리드는 두 사람을 각자의 언어 안에서 가장 중요한 사람으로 든다(「Abdulla Qodiriy in Uzbek and Sadriddin Ayni in Tajik」). 페이지 문장 '근대 산문을 만든 가장 중요한 두 사람'은 이 언어 구분을 빼서 두 사람을 한데 묶은 순위처럼 넓힌다. 인용문은 이 세션에서 할리드 187쪽 원문에서 다시 확인했다.",
+          "correction": "그 책은 코디리를 우즈베크어에서, 아이니를 타지크어에서 근대 산문 문학을 만드는 데 누구보다 중요했던 사람으로 든다"
+        },
+        {
+          "sids": [
+            "4bfadce9c849"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "같은 저자의 『무슬림 문화개혁의 정치』(1998)가 있다",
+          "verdict": "confirmed",
+          "url": "https://uzlc.tsuull.uz/index.php/uzlangcult/article/download/38/36/73",
+          "quote": "Adeeb, Khalid. 1998. The Politics of Muslim Cultural Reform, Jadidism in Central Asia. University of California Press, Berkeley.",
+          "note": "리스(2020) 참고문헌 항목. UC Press 페이지의 페이퍼백은 1999년판이다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "4bfadce9c849"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "그 책은 1917년 이전 자디드 국면을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://www.ucpress.edu/books/the-politics-of-muslim-cultural-reform/paper",
+          "quote": "Adeeb Khalid offers the first extended examination of cultural debates in Central Asia during Russian rule. With the Russian conquest in the 1860s and 1870s the region came into contact with modernity. The Jadids, influential Muslim intellectuals, sought to safeguard the indigenous Islamic culture by adapting it to the modern state.",
+          "note": "같은 페이지 목차의 마지막 장이 「8. 1917: The Moment of Truth」다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "87f7a573cd03"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "아이니는 시에서 출발했다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%BD%D0%B8,_%D0%A1%D0%B0%D0%B4%D1%80%D0%B8%D0%B4%D0%B4%D0%B8%D0%BD",
+          "quote": "Ко времени Октябрьской революции Айни написал много лирических стихотворений (одно из первых — «Роза» — появилось в 1896 г. Под ним уже стоял псевдоним Айни, то есть «глазастый»).",
+          "note": "산문으로 옮겨 간 것은 같은 항목 「Повесть «Одина» считается началом новой таджикской литературы.」(1924)가 싣는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "87f7a573cd03"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "코디리는 희곡에서 출발했다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "He first appeared in print in 1915 witha short play (on the usual theme of the destructiveness of ignorance) and a few short sketches from everyday life.",
+          "note": "할리드 53쪽. 원문 OCR의 「witha」는 그대로 두었다. 같은 문장이 짧은 생활 스케치(산문)도 함께 든다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "87f7a573cd03"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "코디리는 신문 풍자에서 출발해 (그 뒤) 산문 서사로 옮겨 갔다",
+          "verdict": "contradicted",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "He first appeared in print in 1915 witha short play (on the usual theme of the destructiveness of ignorance) and a few short sketches from everyday life. After the revolution, Qodiriy became a prolific contributor in the press. While he wrote social commentary, satire was his usual mode of expression. … From 1920 on, however, he was at work on a novel",
+          "correction": "코디리는 1915년 짧은 희곡과 생활 스케치로 처음 지면에 나왔고, 혁명 뒤 신문 풍자를 쓰면서 1920년부터 그와 나란히 장편을 썼다",
+          "note": "신문 풍자는 출발점이 아니라 혁명(1917) 뒤의 일이고, 장편과 순서가 아니라 나란히 갔다. 할리드 187쪽 「All along, he was working on what would become his masterpiece」, uz.wiki 「shoʻro hokimiyatining dastlabki yillarida qizgʻin jurnalistik faoliyati bilan barobar oʻzbek adabiyotidagi birinchi roman – „Oʻtkan kunlar“ni yaratdi (1919—1920)」. 『칼바크 마흐줌』 연재(1923)는 『지나간 날들』 첫 게재(1922) 뒤이고, 그는 1926년까지 『무슈툼』 풍자를 썼다. 또 첫 발표작에는 산문 이야기도 있었다(ru.wiki 「рассказе «Развратник» (1915) и пьесе «Несчастный жених» (1915)」, uz.wiki는 시도 함께 든다). 이전 검수가 이 문장을 할리드 53쪽으로 확인했으나, 같은 대목을 끝까지 읽으면 순서가 맞지 않는다."
+        },
+        {
+          "sids": [
+            "87f7a573cd03"
+          ],
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "두 사람 모두 산문 서사(근대 산문 문학)로 나아갔다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "Out of this journalism arose the modern short story and eventually the novel, and no one was more important in the creation of modern prose literature than Abdulla Qodiriy in Uzbek and Sadriddin Ayni in Tajik.",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 30,
+        "requoted": 2,
+        "downgraded": 2,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

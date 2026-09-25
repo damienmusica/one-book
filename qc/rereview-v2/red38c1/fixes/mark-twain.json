@@ -1,0 +1,40 @@
+{
+  "fixes": [
+    {
+      "id": "mark-twain",
+      "importanceReason": "미시시피 강가 소년의 입말로 소설 전체를 서술해, 미국 구어의 미덕을 글로 쓰는 산문의 규범으로 세웠다. 『허클베리 핀의 모험』은 노예제 사회에 길든 소년 화자의 목소리로 노예제를 다루어, 헉이 짐을 신고하지 않기로 하며 '그럼 좋아, 나는 지옥에 가겠다'고 말하는 대목처럼 도덕적 결단을 문법이 틀린 소년의 문장으로 적는다. 같은 책이 소년기를 깊이 그린 이야기로도, 인종주의를 겨눈 신랄한 풍자로도 읽힌다.",
+      "works": [
+        {
+          "id": "mark-twain--adventures-of-huckleberry-finn",
+          "significance": "도망친 소년과 도망친 노예가 뗏목으로 강을 내려가는 이야기를 헉의 방언 1인칭으로 끝까지 밀고 간다. 서술자의 노예제 판단은 오판으로 제시된다. 1885년 콩코드 공공도서관의 배제 결정 이래 거친 말씨와 인종 비하어로 거듭 비판받았다."
+        },
+        {
+          "id": "mark-twain--the-adventures-of-tom-sawyer",
+          "significance": "미시시피 강가 마을의 소년기를 에피소드 연쇄로 엮은 소설로, 『허클베리 핀』의 무대와 인물을 깔아 둔다. 울타리 페인트칠 장면은 따로 떼어 읽히는 유명한 대목이 되었다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "트웨인은 소년의 입말을 가공 없이 '그대로' 소설의 문장으로 옮겼다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "『허클베리 핀』은 화자의 무지와 방언을 손대지 않은 채(가공 없이) 둔다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+          "claim": "(범위 한정 없이) 이 책의 도덕적 판단은 서술자의 오판으로 제시된다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+          "claim": "(문장 그대로) 울타리 페인트칠 장면이 '다음 작품'의 무대와 인물을 미리 깔아 놓는다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

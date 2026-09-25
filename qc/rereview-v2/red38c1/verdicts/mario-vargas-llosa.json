@@ -1,0 +1,327 @@
+{
+  "plates": [
+    {
+      "id": "mario-vargas-llosa",
+      "claims": [
+        {
+          "sids": [
+            "a4e0bbc6b90e"
+          ],
+          "field": "author.importanceReason",
+          "claim": "'연통관(vasos comunicantes)'은 서로 다른 상황들을 한 대화에 포개는 장치다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "La técnica de vasos comunicantes se muestra en los diálogos telescópicos superponiendo o enmarcando situaciones diversas en una sola",
+          "note": "인용의 'una sola'가 대화 하나라는 것은 같은 논문 머리말의 '… se funden en una sola conversación'과 '… la fusión en un solo diálogo textual de dos o tres diálogos realizados en situaciones diferentes'로 확인된다. 논문은 연통관의 다른 형태(플롯 차원의 'escenas comunicadas')도 따로 드는데, 페이지 문장은 대화 형태만 말하므로 범위 안이다."
+        },
+        {
+          "sids": [
+            "a4e0bbc6b90e"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 장치를 『녹색의 집』, 『까떼드랄 주점에서의 대화』, 『염소의 축제』에서 거듭 썼다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "El texto de Conversación en La Catedral, y antes el de La casa verde, utiliza la llamada técnica de los vasos comunicantes, principalmente en los llamados diálogos telescópicos del discurso; La fiesta del chivo sigue utilizando este mismo recurso"
+        },
+        {
+          "sids": [
+            "e911c41e921c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그의 소설 하나(『도시와 개들』)는 군사학교를 무대로 한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Time_of_the_Hero",
+          "quote": "It was Vargas Llosa's first novel and is set among the cadets at the Leoncio Prado Military Academy in Lima, which he attended as a teenager."
+        },
+        {
+          "sids": [
+            "e911c41e921c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그의 소설 하나(『녹색의 집』)는 아마존 밀림을 무대로 한다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/La_casa_verde",
+          "quote": "La acción transcurre entre dos escenarios, separados entre sí por muchos kilómetros: la ciudad de Piura (situada en el bosque seco de la costa norte peruana), y la selva amazónica peruana"
+        },
+        {
+          "sids": [
+            "e911c41e921c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그의 소설(『까떼드랄 주점에서의 대화』 등)은 독재 정권을 무대로 한다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Conversaci%C3%B3n_en_La_Catedral",
+          "quote": "La novela es un retrato crudo de la corrupción moral y la represión política que vive el Perú bajo la dictadura del general Manuel A. Odría.",
+          "note": "『염소의 축제』도 독재 정권을 다룬다(en.wikipedia The Feast of the Goat: \"The book is set in the Dominican Republic and portrays the assassination of Dominican dictator Rafael Trujillo, and its aftermath\")."
+        },
+        {
+          "sids": [
+            "e911c41e921c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "권력의 구조와 그 안에서 저항하고 꺾이는 개인을 그렸다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2010/vargas_llosa/facts/",
+          "quote": "Prize motivation: “for his cartography of structures of power and his trenchant images of the individual's resistance, revolt, and defeat”",
+          "note": "스웨덴 한림원의 수상 사유다. 사유는 특정 작품이나 무대를 짚지 않으므로, 앞의 세 무대와 이 서술을 잇는 것은 페이지의 요약이다."
+        },
+        {
+          "sids": [
+            "c04fb8e565c4"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『도시와 개들』, 『녹색의 집』, 『까떼드랄 주점에서의 대화』가 그를 라틴아메리카 붐의 대표 작가로 세운 작품으로 꼽힌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Conversation_in_The_Cathedral",
+          "quote": "Conversation In The Cathedral is considered to be one of Mario Vargas Llosa's major works that along with The Time of the Hero and The Green House established him as one of the leading authors in the Latin American Boom.",
+          "note": "출처는 '대표 작가 중 한 사람(one of the leading authors)'이라고 쓴다. 페이지의 '대표 작가'는 유일하다는 뜻으로 읽히지 않으므로 범위 안이다."
+        },
+        {
+          "sids": [
+            "14bc7e733721"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『염소의 축제』의 세 서사선은 장 단위로 번갈아 나온다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/La_fiesta_del_Chivo_(novela)",
+          "quote": "Vargas Llosa teje una historia estructurada con capítulos que se alternan entre los recuerdos de la protagonista, el propio general Trujillo y las personas que cometieron el atentado.",
+          "note": "'지금 누구의 이야기인지가 표시로 남는다'는 장 단위 교대에서 따라 나오는 독서 효과에 대한 서술이다. 출처는 장 제목이나 별도 표지를 말하지 않으므로, '표시'는 장 경계 자체로 읽어야 한다."
+        },
+        {
+          "sids": [
+            "14bc7e733721"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "정권의 몰락과 트루히요 암살, 그 여파를 세 시선으로 보여 준다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Feast_of_the_Goat",
+          "quote": "Readers are shown the regime's downward spiral, Trujillo's assassination, and its aftermath through the eyes of insiders, conspirators, and a middle-aged woman looking back."
+        },
+        {
+          "sids": [
+            "19f7d085d320"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『까떼드랄 주점에서의 대화』는 서로 다른 시간대의 대화를 한 대화 안에서 교대시킨다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "Muchos diálogos de La casa verde y, sobre todo, de Conversación en La Catedral, sorprenden en una primera lectura por el uso de los verba dicendi y por la fusión de dos o tres diálogos en uno solo. Los dos recursos tienen relación, porque los verbos introductorios están orientados en la locución directa de estas novelas para señalar que un interlocutor está en el pasado o en el presente"
+        },
+        {
+          "sids": [
+            "19f7d085d320"
+          ],
+          "field": "author.readingWarning",
+          "claim": "그 방식 때문에 독자가 방향을 잃기 쉽다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Conversaci%C3%B3n_en_La_Catedral",
+          "quote": "si bien es atractiva la técnica de los diálogos múltiples, mediante el sistema de intercalar los coloquios de dos personajes, con los de otros dos, para dar una sensación de simultaneidad, «no resulta, sino al contrario pues tiene como efecto confusión y desalienta a proseguir la lectura por embrollada»",
+          "note": "Luis Alberto Sánchez의 평이다. 같은 절은 이를 '일부 비평가'의 견해로 소개한다(\"algunos críticos no quedaron convencidos con su técnica narrativa, pues consideran que dificulta la comprensión lectora\"). '이 책으로 시작하면'이라는 조건은 읽는 순서에 대한 페이지의 조언이고, 출처가 말하는 혼란은 읽는 순서와 무관하다."
+        },
+        {
+          "sids": [
+            "8bef55d58ee0"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "서로 다른 시간대의 대화를 한 대화 안에 교대로 놓는다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "dos o más conversaciones, en lugares y tiempos diversos, distantes y sucesivos, con temas y locutores que están parcialmente presentes en ellas (no todos en todas), se funden en una sola conversación",
+          "note": "같은 논문은 이를 \"Es quizá el rasgo más destacado en el estilo discursivo del autor\"라고 해, 작가 단위의 난이도 근거로 쓰는 것을 뒷받침한다."
+        },
+        {
+          "sids": [
+            "8bef55d58ee0"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "때로는 호격으로만 화자를 알 수 있다",
+          "verdict": "contradicted",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "ya que en ocasiones sabemos quién está hablando por la forma en que utiliza el apóstrofe en el diálogo en presencia",
+          "correction": "때로는 호격을 쓰는 방식에서 화자가 드러나",
+          "note": "출처는 '때로는 호격을 쓰는 방식으로 누가 말하는지 안다'까지다. '호격으로만'의 '만'(오직)은 다른 단서가 없다는 주장인데, 인용에 없다. 이전 검수가 '시제로만'에서 '만'을 뺀 것과 같은 이유다. 교정문은 문장 가운데 '때로는 호격으로만 화자를 알 수 있어'를 대체한다."
+        },
+        {
+          "sids": [
+            "8bef55d58ee0"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "누가 언제 누구에게 말하는지 독자가 매 순간 가려내야 한다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "debe saber en cada momento quién es el que habla y a qué momento corresponde lo que dice, y además, a quién se dirige"
+        },
+        {
+          "sids": [
+            "63204d8bc3fd"
+          ],
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.facts",
+          "claim": "원제 Conversación en La Catedral, 1969년 초판, 장편소설",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Conversaci%C3%B3n_en_La_Catedral",
+          "quote": "Conversación en La Catedral es la tercera novela del autor peruano Mario Vargas Llosa, publicada en 1969",
+          "note": "같은 문서 정보상자: 초판은 두 권으로 나왔다(\"en dos tomos la primera edición\")."
+        },
+        {
+          "sids": [
+            "63204d8bc3fd"
+          ],
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.facts",
+          "claim": "한국어 제목이 『까떼드랄 주점에서의 대화』다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/90003547",
+          "quote": "까떼드랄 주점에서의 대화 2 | 마리오 바르가스 요사 | 창비 - 예스24",
+          "note": "창비 국역본 제목이다. ko.wikipedia는 「카테드랄 주점에서의 대화」로 적는다."
+        },
+        {
+          "sids": [
+            "8ca85a57bd78"
+          ],
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.significance",
+          "claim": "'페루는 어느 순간에 망가졌는가'라는 물음에서 출발한다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Conversaci%C3%B3n_en_La_Catedral",
+          "quote": "Santiago Zavala, el protagonista, abre la novela planteándose de saque una pregunta: ¿en qué momento se había jodido el Perú?"
+        },
+        {
+          "sids": [
+            "8ca85a57bd78"
+          ],
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.significance",
+          "claim": "오드리아 독재기를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Conversation_in_The_Cathedral",
+          "quote": "it is a portrayal of Peru under the dictatorship of Manuel A. Odría in the 1950s"
+        },
+        {
+          "sids": [
+            "8ca85a57bd78"
+          ],
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.significance",
+          "claim": "그 시기의 여러 시점 대화를 하나의 대화로 포갠 구성이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Conversaci%C3%B3n_en_La_Catedral",
+          "quote": "los dialogantes van atando cabos y llenando vacíos que nos remiten al Perú del tiempo de la dictadura del general Manuel A. Odría (1948-1956), … Así, los planos se intercalan y los personajes del pasado cobran actualidad y conviven en la narración del presente entre el viejo Ambrosio y el joven Zavala.",
+          "note": "틀이 되는 산티아고와 암브로시오의 대화 자체는 정권 몰락 뒤의 현재에 놓인다(같은 문서: \"se prolonga por unos años luego de la caída de dicho régimen\"). 포개지는 과거 대화가 오드리아 시기의 것이라는 뜻으로 읽으면 맞다. en.wikipedia도 \"a collage of conversations where the main conversation between Santiago Zavala and Ambrosio is counterpointed with other conversations that pick up other moments in time and space\"라고 쓴다."
+        },
+        {
+          "sids": [
+            "8ca85a57bd78"
+          ],
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.significance",
+          "claim": "그 구성 덕에 걸작으로 꼽힌다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Conversaci%C3%B3n_en_La_Catedral",
+          "quote": "Su compleja construcción y combinación de planos temporales, espaciales y de conciencia lo convierten en una obra maestra de la narrativa contemporánea.",
+          "note": "출처가 드는 이유는 시간·공간·의식의 층위를 짜 맞춘 복잡한 구성이다. 여러 시점 대화를 포개는 것은 같은 문서가 그 층위들이 교차하는 방식으로 설명하는 것('los planos se intercalan … en la narración del presente')이어서 범위 안으로 본다. en.wikipedia는 이 작품이 '실망스럽다'는 당대 서평도 소개하므로 '꼽힌다'의 유보가 필요하다."
+        },
+        {
+          "sids": [
+            "9cb7658caf78"
+          ],
+          "field": "work:mario-vargas-llosa--la-ciudad-y-los-perros.significance",
+          "claim": "리마의 레온시오 프라도 군사학교가 무대다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Time_of_the_Hero",
+          "quote": "is set among the cadets at the Leoncio Prado Military Academy in Lima"
+        },
+        {
+          "sids": [
+            "9cb7658caf78"
+          ],
+          "field": "work:mario-vargas-llosa--la-ciudad-y-los-perros.significance",
+          "claim": "공격성·남성성을 기르는 과정을 그렸다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Time_of_the_Hero",
+          "quote": "Vargas Llosa critiques military culture and its way of life, in which specific values, such as aggression, bravery, masculinity, and sexuality, are actively fostered in a manner that stunts the personal development of the boys at the boarding school.",
+          "note": "출처는 이 과정을 비판적으로 그린다고 쓴다. 페이지 문장은 비판이라는 평가를 빼고 대상만 말하므로 과장은 없다."
+        },
+        {
+          "sids": [
+            "1becfb30c8ef"
+          ],
+          "field": "relation:influence--gustave-flaubert--mario-vargas-llosa.summary",
+          "claim": "플로베르를 다룬 단행본 한 권을 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mario_Vargas_Llosa",
+          "quote": "who wrote a book-length study of Flaubert's aesthetics, The Perpetual Orgy.",
+          "note": "『영원한 난장: 플로베르와 「보바리 부인」』은 원제 La orgía perpetua: Flaubert y «Madame Bovary»를 페이지가 옮긴 제목이다. ko.wikipedia 작품 목록에서도 국역본은 찾지 못했다. '바쳤다'는 헌정사가 아니라 한 권을 통째로 다뤘다는 뜻으로 읽어야 한다."
+        },
+        {
+          "sids": [
+            "1becfb30c8ef"
+          ],
+          "field": "relation:influence--gustave-flaubert--mario-vargas-llosa.summary",
+          "claim": "그 책은 1975년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mario_Vargas_Llosa",
+          "quote": "1975 – La orgía perpetua: Flaubert y \"Madame Bovary\" (The Perpetual Orgy, ISBN 843220286X)",
+          "note": "es.wikipedia 항목 정보상자도 Taurus(마드리드), 1975년으로 적는다."
+        },
+        {
+          "sids": [
+            "1becfb30c8ef"
+          ],
+          "field": "relation:influence--gustave-flaubert--mario-vargas-llosa.summary",
+          "claim": "자기 문학의 규율과 인내를 플로베르에게서 배웠다고 노벨상 수상 강연에서 밝혔다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2010/vargas_llosa/lecture/",
+          "quote": "Flaubert taught me that talent is unyielding discipline and long patience."
+        },
+        {
+          "sids": [
+            "22ac4f62317f"
+          ],
+          "field": "relation:dialogue--gabriel-garcia-marquez--mario-vargas-llosa.summary",
+          "claim": "『가르시아 마르케스: 어느 신 살해의 역사』(1971)는 박사 논문을 단행본으로 낸 것이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mario_Vargas_Llosa",
+          "quote": "In 1971, Vargas Llosa published García Márquez: Story of a Deicide (García Márquez: historia de un deicidio), which was his doctoral thesis for the Complutense University of Madrid."
+        },
+        {
+          "sids": [
+            "22ac4f62317f"
+          ],
+          "field": "relation:dialogue--gabriel-garcia-marquez--mario-vargas-llosa.summary",
+          "claim": "'어느 신 살해의 역사'는 historia de un deicidio를 옮긴 것이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Garc%C3%ADa_M%C3%A1rquez:_historia_de_un_deicidio",
+          "quote": "Deicidio (del latín deicīda) hace referencia al acto de matar a Dios o una divinidad."
+        },
+        {
+          "sids": [
+            "22ac4f62317f"
+          ],
+          "field": "relation:dialogue--gabriel-garcia-marquez--mario-vargas-llosa.summary",
+          "claim": "그 책은 가르시아 마르케스의 전작을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Garc%C3%ADa_M%C3%A1rquez:_historia_de_un_deicidio",
+          "quote": "se compone de 8 capítulos en los cuales se examina detalladamente toda la obra literaria de García Márquez, desde sus primeros relatos hasta Cien años de soledad.",
+          "note": "'전작'은 1971년 당시까지, 곧 『백 년의 고독』까지다."
+        },
+        {
+          "sids": [
+            "22ac4f62317f"
+          ],
+          "field": "relation:dialogue--gabriel-garcia-marquez--mario-vargas-llosa.summary",
+          "claim": "두 사람은 붐 세대의 중심 작가였다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez",
+          "quote": "Junto a Julio Cortázar, Mario Vargas Llosa y Carlos Fuentes, fue uno de los exponentes centrales del boom latinoamericano."
+        },
+        {
+          "sids": [
+            "22ac4f62317f"
+          ],
+          "field": "relation:dialogue--gabriel-garcia-marquez--mario-vargas-llosa.summary",
+          "claim": "두 사람은 친구였다가 1976년 멕시코시티에서 결별했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Mario_Vargas_Llosa",
+          "quote": "Although Vargas Llosa wrote this book-length study about his then friend, the Colombian Nobel laureate writer Gabriel García Márquez, they did not speak to each other again. In 1976, Vargas Llosa punched García Márquez in the face at the Palacio de Bellas Artes in Mexico City, ending the friendship."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "plates": [
+    {
+      "id": "jrr-tolkien",
+      "claims": [
+        {
+          "sids": [
+            "d005dd8e7663"
+          ],
+          "field": "author.importanceReason",
+          "claim": "톨킨은 언어와 신화를 지었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Tolkien%27s_legendarium",
+          "quote": "The legendarium's origins reach back to 1914, when Tolkien began writing poems and story sketches, drawing maps, and inventing languages and names as a private project to create a mythology for England.",
+          "note": "언어(와 이름) 발명은 '잉글랜드를 위한 신화'를 지으려는 사적 기획의 일부로 1914년에 시작됐다."
+        },
+        {
+          "sids": [
+            "d005dd8e7663"
+          ],
+          "field": "author.importanceReason",
+          "claim": "톨킨이 오래 가꾼 중간계는 '이차 세계'다",
+          "verdict": "confirmed",
+          "url": "https://dimitrafimi.org/the-past-as-an-imaginary-world-the-case-of-medievalism-chatterton-tolkien-eco/",
+          "quote": "Middle-earth, the pseudo-medieval ‘secondary’ world developed over 60 years by J. R. R. Tolkien",
+          "note": "같은 글은 '이차 세계'가 톨킨이 「요정 이야기에 관하여」에서 쓴 용어임도 적는다: \"In his essay “On Fairy-Stories”, he claims that the writing of fantasy entails the creation of a ‘Secondary World’\"."
+        },
+        {
+          "sids": [
+            "394a32f1e1fc"
+          ],
+          "field": "author.importanceReason",
+          "claim": "톨킨은 고대 영어 문학 중심의 문헌학 연구가 자기 글쓰기에 중요했다고 인정했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "His philological work centred on the study of Old English literature, especially Beowulf, and he acknowledged its importance to his writings."
+        },
+        {
+          "sids": [
+            "394a32f1e1fc"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『호빗』과 『반지의 제왕』의 큰 성공은 현대 판타지 장르의 형성으로 곧장 이어졌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "While many other authors had published works of fantasy before Tolkien, the great success of The Hobbit and The Lord of the Rings led directly to a popular resurgence and the shaping of the modern fantasy genre.",
+          "note": "출처는 톨킨 이전에도 판타지 작품이 있었다는 단서를 먼저 단다. 문장은 톨킨이 장르를 처음 만들었다고 말하지 않으므로 범위 안이다."
+        },
+        {
+          "sids": [
+            "394a32f1e1fc"
+          ],
+          "field": "author.importanceReason",
+          "claim": "두 작품의 성공은 새 판타지 책과 작가가 쏟아지게 했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "While many other authors had published works of fantasy before Tolkien, the tremendous success of The Hobbit and The Lord of the Rings ignited a profound interest in the fantasy genre and ultimately precipitated an avalanche of new fantasy books and authors.",
+          "note": "출처는 이 결과를 'ultimately'(결국)로 적고, 그 사이에 판타지 장르에 대한 깊은 관심을 둔다. 문장의 '곧장'은 앞 절(장르 형성)에 걸려 있어 범위를 넘지 않는다."
+        },
+        {
+          "sids": [
+            "bfccfb0bdf66"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『호빗』은 300쪽 남짓의 단권이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Pages 310 (first edition)",
+          "note": "위키백과 정보상자, 초판 기준(정보상자 표기 'Pages 310 (first edition)'). 판본마다 쪽수가 다르다."
+        },
+        {
+          "sids": [
+            "bfccfb0bdf66"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『호빗』은 아이에게 말하는 어조로 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Tolkien intended The Hobbit as a \"fairy-story\" and wrote it in a tone suited to addressing children"
+        },
+        {
+          "sids": [
+            "bfccfb0bdf66"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『호빗』의 문체는 명료하다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Tolkien's prose is unpretentious and straightforward, … While The Hobbit is written in a simple, friendly language"
+        },
+        {
+          "sids": [
+            "fea5b05f021d"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『반지의 제왕』 1권에는 『호빗』을 읽지 않은 독자를 위한 서장이 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring",
+          "quote": "The volume contains a prologue for readers who have not read The Hobbit, and background information to set the stage for the novel.",
+          "note": "같은 문서: \"The Fellowship of the Ring is the first of three volumes of the epic novel The Lord of the Rings\"; 서장 제목은 \"Concerning Hobbits, and other matters\"."
+        },
+        {
+          "sids": [
+            "f72e8517d5b7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『호빗』은 평이한 문체다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "While The Hobbit is written in a simple, friendly language, each of its characters has a unique voice."
+        },
+        {
+          "sids": [
+            "f72e8517d5b7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』은 세 권으로 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "For economic reasons, it was first published over the course of a year, from 29 July 1954 to 20 October 1955, in three volumes rather than one",
+          "note": "같은 문단: 1968년에는 톨킨의 원래 의도대로 단권으로도 나왔다(\"finally as a single volume in 1968, following Tolkien's original intent\"). 문장의 '세 권 분량'은 분량을 말하므로 범위 안이다."
+        },
+        {
+          "sids": [
+            "f72e8517d5b7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』에는 삽입 시가가 들어 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "Unusually for 20th century novels, the prose narrative is supplemented throughout by over 60 pieces of poetry."
+        },
+        {
+          "sids": [
+            "f72e8517d5b7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』에는 연대표를 담은 부록이 붙는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "The work is divided internally into six books, two per volume, with several appendices of chronologies, genealogies, and linguistic information."
+        },
+        {
+          "sids": [
+            "f72e8517d5b7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 신화지로서 단일 서사 줄기도 길잡이 호빗도 없다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "One key theme is its nature as a mythology, with multiple interrelated texts in differing styles; … All of these are far from the approachable novelistic styles of The Hobbit and The Lord of the Rings, lacking a single narrative thread, and without the benefit of Hobbits as guides",
+          "note": "출처는 신화지를 이루는 여러 문체(David Bratman의 \"Annalistic\", \"Antique\", \"Appendical\")를 말한다. '신화지 문체'는 그 묶음을 소설적 문체와 대비하는 말로 읽혀 범위 안이다."
+        },
+        {
+          "sids": [
+            "f72e8517d5b7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 고유명사가 많아 읽기 어렵다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "Other criticisms included difficult-to-read archaic language and many difficult and hard-to-remember names.",
+          "note": "이름이 많고 어렵다는 것은 비평가들의 비판으로 전해진다. 검사: 인용은 위키백과 원문에서 각주 표지([29] 등)만 빼면 그대로다. 이 인용은 '많다'까지만 받치고, 문장의 '신화지 문체라 … 급격히 올라간다'(원인·비교 정도)는 받치지 않아 별도 주장으로 분리했다."
+        },
+        {
+          "sids": [
+            "f72e8517d5b7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 신화지 문체 때문에 『호빗』·『반지의 제왕』보다 고유명사 밀도가 급격히 올라간다",
+          "verdict": "unverifiable",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "Other criticisms included difficult-to-read archaic language and many difficult and hard-to-remember names.",
+          "note": "검사: 앞 두 작품과 비교한 고유명사 '밀도'와 그 급격한 상승, 그리고 그것이 신화지 문체에서 온다는 인과를 말하는 출처를 찾지 못했다. The Silmarillion 문서는 이름이 많고 어렵다는 비판과, 문체들이 두 소설의 친근한 소설 문체와 거리가 멀다는 서술(\"far from the approachable novelistic styles of The Hobbit and The Lord of the Rings\")을 서로 다른 문단에 따로 적을 뿐, 둘을 이름 밀도의 비교로 잇지 않는다. Reception of J. R. R. Tolkien, Prose style of J. R. R. Tolkien 문서도 확인했으나 해당 서술이 없다. 안전한 문장: '『실마릴리온』은 단일 서사도 길잡이 호빗도 없는 신화지 문체이고, 어렵고 기억하기 힘든 이름이 많다는 비판을 받았다.'"
+        },
+        {
+          "sids": [
+            "8d7ebb1d6918"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "『베오울프』를 역사 사료로만이 아니라 시로 읽어야 한다고 논증했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "Tolkien argues that the original poem has almost been lost under the weight of the scholarship on it; that Beowulf must be seen as a poem, not just as a historical document"
+        },
+        {
+          "sids": [
+            "8d7ebb1d6918"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "영국 학술원에서 한 강연이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "initially delivered as the Sir Israel Gollancz Memorial Lecture at the British Academy on 25 November 1936"
+        },
+        {
+          "sids": [
+            "0ab53c2f1d0a"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "영문학 연구의 고전으로 평가된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "Joan Acocella, writing in The New Yorker, calls it \"a paper that many people regard as not just the finest essay on the poem but one of the finest essays on English literature.\"",
+          "note": "평판 표현('many people regard')이다. 같은 문서는 이 글이 \"is regarded as a formative work in modern Beowulf studies\"라고 쓰고, 마이클 드라우트가 \"the most important article ever written about the poem\"이라 불렀다고 적는다."
+        },
+        {
+          "sids": [
+            "0ab53c2f1d0a"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "괴물의 중심성과 진지함을 옹호하고 그 상징적 가치를 믿는다고 밝혔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "Against the scorn of critics, Tolkien defends the centrality and seriousness of literary monsters, declaring his own belief in the symbolic value of such preternatural representations of sheer evil.",
+          "note": "레지나 와인라이크가 뉴욕타임스 서평에서 요약한 말이다. 문장에는 출처 표기가 없지만, 같은 문서 개관도 톨킨이 괴물을 낮춰 보는 비평가들에 반대했다고 적는다(\"Tolkien speaks against critics who play down the monsters in the poem\")."
+        },
+        {
+          "sids": [
+            "da99b1d90c95"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "빌보가 떠났다가 집으로 돌아오는 여정을 그린다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Bilbo accepts only a small portion of his share of the treasure, having no want or need for more, but still returns home a very wealthy hobbit roughly a year and a month after he first left.",
+          "note": "부제도 왕복을 말한다: \"The Hobbit, or There and Back Again is a children's fantasy novel by the English author J. R. R. Tolkien.\""
+        },
+        {
+          "sids": [
+            "da99b1d90c95"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "아동용 이야기의 어조로 서술되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Tolkien intended The Hobbit as a \"fairy-story\" and wrote it in a tone suited to addressing children",
+          "note": "출처는 '모험담'이 아니라 \"fairy-story\"라고 쓰고, 톨킨은 뒤에 이 책이 특별히 아이를 위해 쓴 것은 아니라고 말했다(\"he said later that the book was not specifically written for children\"). 문장은 어조만 말하므로 범위 안이다. 검사: '모험담'은 장르 묘사로, 같은 문서 줄거리 끝의 \"Years later, he writes the story of his adventures\"가 빌보의 모험 이야기임을 적는다."
+        },
+        {
+          "sids": [
+            "da99b1d90c95"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "톨킨이 처음 펴낸 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Tolkien%27s_legendarium",
+          "quote": "The Hobbit (1937), Tolkien's first published novel, was not originally part of the larger mythology but became linked to it."
+        },
+        {
+          "sids": [
+            "f5a012d8140c"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "따로 가꾸던 신화 체계 밖의 동화로 구상됐다가 『반지의 제왕』을 쓰며 그 안에 편입됐다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Tolkien's biographer Humphrey Carpenter states that The Hobbit was initially conceived as a largely self-contained fairy-tale, separate from the complex mythology Tolkien had been developing privately. As Tolkien began work on The Lord of the Rings, however, he gradually integrated The Hobbit into his legendarium",
+          "note": "전기 작가 카펜터의 진술이고, 출처는 'largely self-contained'(대체로 독립된)라고 한다. Tolkien's legendarium 문서도 『호빗』이 \"was loosely influenced by the legendarium as a context, but was not designed to be part of it\"라고 적어 '밖의'를 받친다. 검사: 인용은 위키백과 원문에서 각주 표지([19])만 빼면 한 문단 안에서 그대로 이어진다."
+        },
+        {
+          "sids": [
+            "37acd9d103bd"
+          ],
+          "field": "work:jrr-tolkien--the-lord-of-the-rings.significance",
+          "claim": "『반지의 제왕』은 현대 판타지 장르를 만들고 형성하는 데 기여했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "It is considered one of the most influential fantasy books ever written, and has helped to create and shape the modern fantasy genre."
+        },
+        {
+          "sids": [
+            "bf37c29d944f"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "톨킨 사후 아들 크리스토퍼가 유고를 편집해 냈다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Tolkien%27s_legendarium",
+          "quote": "Tolkien's son Christopher chose portions of his late father's vast collection of unpublished material and shaped them into The Silmarillion (1977)",
+          "note": "The Silmarillion 문서: \"It was edited, partly written, and published posthumously by his son Christopher in 1977\" — 크리스토퍼는 일부를 직접 쓰기도 했다."
+        },
+        {
+          "sids": [
+            "bf37c29d944f"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "상고대(창조와 제1시대)를 다룬 신화지다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "The first, Ainulindalë, tells in mythic style of the creation of Eä, the \"world that is.\" … The next section, Quenta Silmarillion, which forms the bulk of the collection, chronicles the history of the events before and during the First Age",
+          "note": "뒤의 두 부분(Akallabêth, Of the Rings of Power and the Third Age)은 제2·3시대까지 이어지지만, 책의 본체인 Quenta Silmarillion이 제1시대를 다룬다."
+        },
+        {
+          "sids": [
+            "bf37c29d944f"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "『반지의 제왕』은 신화 체계의 옛 이야기들을 이따금 암시한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Tolkien%27s_legendarium",
+          "quote": "The Lord of the Rings occasionally alludes to figures and events from the legendarium to create an impression of depth, but such ancient tales are depicted as being remembered by few until the story makes them relevant."
+        },
+        {
+          "sids": [
+            "bf37c29d944f"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "『실마릴리온』은 『반지의 제왕』의 배경을 이루는 그 신화 체계에서 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Tolkien%27s_legendarium",
+          "quote": "Tolkien's legendarium is the body of J. R. R. Tolkien's mythopoeic writing, unpublished in his lifetime, that forms the background to his The Lord of the Rings, and which his son Christopher summarized in his compilation of The Silmarillion"
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 28,
+    "requoted": 0,
+    "downgraded": 0,
+    "added": 1,
+    "noClaimConverted": 0
+  }
+}

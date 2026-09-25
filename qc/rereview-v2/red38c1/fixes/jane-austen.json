@@ -1,0 +1,15 @@
+{
+  "fixes": [
+    {
+      "id": "jane-austen",
+      "difficultyReason": "『오만과 편견』은 1800년 이전에 초고가 쓰인 산문이고, 한정상속과 영지 수입 같은 재산 사정을 모르면 대화 속 이해관계가 흐려진다.",
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "오스틴 작품 대부분이 1800년 이전에 초고로 쓰였다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+ "plates": [
+  {
+   "id": "johann-wolfgang-von-goethe",
+   "claims": [
+    {
+     "sids": [
+      "5e8a32ff985a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『젊은 베르테르의 슬픔』은 베르테르의 편지로 채워지다가 허구의 편집자의 서술로 끝난다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Die_Leiden_des_jungen_Werthers",
+     "quote": "Goethe wählte die Form des Briefromans, die erst gegen Ende des zweiten Teils durch Kommentare des fiktiven „Herausgebers“ abgelöst wird."
+    },
+    {
+     "sids": [
+      "5e8a32ff985a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『베르테르』가 파란 연미복과 노란 조끼의 옷차림 유행(베르테르 모드)을 낳았다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Die_Leiden_des_jungen_Werthers",
+     "quote": "Vor allem unter den Jugendlichen brach ein regelrechtes Werther-Fieber aus, das den Protagonisten zu einer Kultfigur werden ließ, deren blauen Frack mit Messingknöpfen, gelbe Weste, braune Stulpenstiefel und runden Filzhut man als Werther-Mode imitierte.",
+     "note": "Britannica(Sturm und Drang 절, 이번에 다시 가져옴)는 조끼 색을 'buff'(담황색)로 적는다: 'blue tailcoat and buff waistcoat and trousers'. 노란 조끼는 de.wikipedia의 'gelbe Weste'로 성립한다."
+    },
+    {
+     "sids": [
+      "5e8a32ff985a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그 옷차림 유행이 유럽 전역으로 퍼졌다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Sorrows_of_Young_Werther",
+     "quote": "The book spawned the phenomenon known as \"Werther Fever,\" inspiring young men throughout Europe to dress in the clothing style described for Werther in the novel."
+    },
+    {
+     "sids": [
+      "5e8a32ff985a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "괴테는 『파우스트』를 평생에 걸쳐 썼다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe/Faust",
+     "quote": "Work on Faust accompanied Goethe throughout his adult life.",
+     "note": "Britannica는 '성인 이후의 삶 내내'라고 한다. en.wikipedia Goethe: 'Goethe's original draft of a Faust play, which probably dates from 1773 to 1774' / 'Goethe finished Faust Part Two in the year of his death' — 20대 초고부터 죽은 해 완성까지라 '평생에 걸쳐'로 읽는 데 무리가 없다."
+    },
+    {
+     "sids": [
+      "5e8a32ff985a"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『파우스트』에는 끝나지 않는 추구(striving)가 담겼다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Faust",
+     "quote": "the angels state that this grace can only occur because of Faust's unending striving and due to the intercession of the forgiving Gretchen."
+    },
+    {
+     "sids": [
+      "5f30090dfa37"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『베르테르』는 편지 형식의 짧은 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+     "quote": "The short epistolary novel Die Leiden des jungen Werthers, or The Sorrows of Young Werther, published in 1774, recounts an unhappy romantic infatuation that ends in suicide."
+    },
+    {
+     "sids": [
+      "5f30090dfa37"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『베르테르』는 괴테 초기(질풍노도기)의 작품으로, 주인공의 내면 감정을 서술의 중심에 놓는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe/Sturm-und-Drang-1770-76",
+     "quote": "The uncompromising concentration on the principal character’s viewpoint—no one else’s letters are communicated to the reader—permits the depiction from within of emotional and intellectual disintegration and partly accounts for the strength of the public reaction.",
+     "note": "같은 페이지는 Britannica 괴테 항목의 'Sturm und Drang (1770–76)' 절이고, 『베르테르』(1774)를 이 시기 작품으로 다룬다. en.wikipedia Goethe도 이 소설을 다른 서간체 소설과 가른 핵심으로 'its total subjectivity'를 든다. '그대로 드러난다'는 독서 권고의 표현."
+    },
+    {
+     "sids": [
+      "5fe815f17ca0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『베르테르』는 얇은 책이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Die_Leiden_des_jungen_Werthers",
+     "quote": "in dem schmalen Bändchen Verständnis und Trost für ihre eigenen Leiden suchten"
+    },
+    {
+     "sids": [
+      "5fe815f17ca0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『파우스트』 2부에는 그리스 신화와 연금술이 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Faust,_Part_Two",
+     "quote": "The Homunculus, an artificial human being created by Wagner, Faust's former famulus, by means of an alchemical process, leads Faust and Mephistopheles to the \"Classical Walpurgisnacht\", where they encounter gods and monsters from Greek antiquity."
+    },
+    {
+     "sids": [
+      "5fe815f17ca0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『파우스트』 2부에는 궁정 알레고리가 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Faust._Der_Trag%C3%B6die_zweiter_Teil",
+     "quote": "Die als Mummenschanz bezeichnete Darstellung zeigt ein sinnenfrohes Panoptikum der höfischen Gesellschaft sowie historischer und antiker Figuren. … Eine bedeutende Rolle spielen hierbei auch vermehrt Allegorien wie die Furcht, Hoffnung und die Klugheit."
+    },
+    {
+     "sids": [
+      "5fe815f17ca0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『파우스트』 2부는 주석(배경지식) 없이는 장면을 이해하기 어렵다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Faust._Der_Trag%C3%B6die_zweiter_Teil",
+     "quote": "Neben dem Umfang von Faust I und Faust II mit zusammen 12.000 Versen und neben den vielen Anspielungen auf Geschichte, Wissenschaft und Mythologie gibt es weitere wichtige Hürden der Interpretation: insbesondere der zweite Teil fordert wegen seiner „labyrinthischen Topographie des Textes ein ungewöhnliches Maß an Umsicht und Wissen“.",
+     "note": "출처는 2부가 비상한 주의와 지식을 요구한다고 말한다. '주석 없이는 장면의 목적이 잡히지 않는다'는 이를 독서 난이도로 옮긴 표현으로, 사실 주장의 범위는 넘지 않는다."
+    },
+    {
+     "sids": [
+      "a084d5ff9fd7"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『빌헬름 마이스터의 수업시대』는 여러 삽화를 이어 붙인 모자이크식 구성이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Wilhelm_Meisters_Lehrjahre",
+     "quote": "Mit der Ironie des auktorialen Erzählers fügt er ein buntes Lebensmosaik zusammen, dessen literarische Steinchen unter anderem auch aus lyrischen Einsprengseln und einer umfassenden Lebensbeichte (Bekenntnisse einer schönen Seele, 6. Buch) bestehen.",
+     "note": "출처의 낱말은 '모자이크'(Lebensmosaik)다. en.wikipedia Wilhelm Meister's Apprenticeship의 6권 요약도 「아름다운 영혼의 고백」을 빌헬름이 읽는 별도 원고로 끼워 넣은 것으로 적는다. '삽화적(episodic)'이라는 낱말 그대로 쓰는 출처는 찾지 못했다(EBSCO Research Starters 두 쪽은 'episodic technique'을 『편력시대』 연구서 소개에서만 씀)."
+    },
+    {
+     "sids": [
+      "8cf262520de0"
+     ],
+     "field": "work:johann-wolfgang-von-goethe--die-wahlverwandtschaften.significance",
+     "claim": "『친화력』은 거리를 둔 냉정한 관찰자의 문체로 서술된다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Die_Wahlverwandtschaften",
+     "quote": "Das Romangeschehen berichtet er aus einer Distanz, die ihn von den tragischen Verwicklungen und dem Leid der Personen unberührt bleiben lässt; er notiert seine Beobachtungen sachlich-nüchtern wie ein auf Erkenntnis bedachter Wissenschaftler."
+    },
+    {
+     "sids": [
+      "8cf262520de0"
+     ],
+     "field": "work:johann-wolfgang-von-goethe--die-wahlverwandtschaften.significance",
+     "claim": "『친화력』은 인간의 감정을 자연법칙(화학 친화력의 법칙)에 지배되는 것처럼 다룬다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Elective_Affinities",
+     "quote": "Goethe applied this understanding from physical chemistry as a metaphor for human passions supposedly being governed or regulated by such laws of chemical affinity",
+     "note": "de.wikipedia 같은 작품 문서: 'Der Roman untersucht, inwieweit seine vier Hauptpersonen aufgrund naturgesetzlicher Notwendigkeiten oder aus freien Willensentscheidungen heraus handeln.'"
+    },
+    {
+     "sids": [
+      "32a9fcc06c83"
+     ],
+     "field": "work:johann-wolfgang-von-goethe--faust.significance",
+     "claim": "『파우스트』 1부는 1808년에, 2부는 괴테 사후인 1832년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+     "quote": "appeared Faust Part One (1808), Elective Affinities (1809) … Faust, Part Two was completed before his 1832 death and published posthumously later that year."
+    },
+    {
+     "sids": [
+      "2fedc12d232b"
+     ],
+     "field": "relation:influence--jean-jacques-rousseau--johann-wolfgang-von-goethe.summary",
+     "claim": "카를 해머 『괴테와 루소』의 1장 제목은 「문화적 배경(The cultural background)」이다",
+     "verdict": "confirmed",
+     "url": "https://archive.org/metadata/goetherousseaure00hamm",
+     "quote": "1. The cultural background -- 2. Jean-Jacques according to Goethe -- 3. Literary echoes from four decades",
+     "note": "archive.org 메타데이터의 description(목차) 필드. 같은 레코드: title 'Goethe and Rousseau; resonances of the mind', date 1973."
+    },
+    {
+     "sids": [
+      "00ef0c554ef9"
+     ],
+     "field": "relation:influence--johann-wolfgang-von-goethe--hermann-hesse.summary",
+     "claim": "헤세의 에세이 「괴테에게 바치는 감사」(Dank an Goethe)는 1932년 글이다",
+     "verdict": "confirmed",
+     "url": "https://hhesse.de/100/hesse-und-goethe/",
+     "quote": "In seinem bemerkenswerten Aufsatz Dank an Goethe (1932) machte er den Widerspruch deutlich"
+    },
+    {
+     "sids": [
+      "00ef0c554ef9"
+     ],
+     "field": "relation:influence--johann-wolfgang-von-goethe--hermann-hesse.summary",
+     "claim": "헤세는 그 에세이에서 괴테를 거듭 생각의 싸움을 벌여 온(씨름한) 대상으로 밝혔다",
+     "verdict": "confirmed",
+     "url": "https://hhesse.de/100/hesse-und-goethe/",
+     "quote": "Aber keiner dieser geliebten Dichter ist mir je zum tiefen Problem und wichtigen sittlichen Anstoß geworden, mit keinem von ihnen bedurfte ich des Kampfes und der Auseinandersetzung, während ich mit Goethe immer wieder Gedankengespräche und Gedankenkämpfe habe führen müssen (eines von ihnen steht im „Steppenwolf“, eines von Hunderten). [aus „Dank an Goethe“, WA (=Werkausgabe) 12 S.145]",
+     "note": "'immer wieder … Gedankenkämpfe'가 '거듭 씨름한'을 그대로 뒷받침한다. 이전 판의 '평생'은 사라졌다."
+    },
+    {
+     "sids": [
+      "00ef0c554ef9"
+     ],
+     "field": "relation:influence--johann-wolfgang-von-goethe--hermann-hesse.summary",
+     "claim": "『황야의 이리』에 괴테의 상(像)이 왜곡되는 데 맞서는 장면이 있다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+     "quote": "Hermann Hesse, der sich immer wieder mit Goethe auseinandersetzte und sich in einer Szene seines Steppenwolfs gegen eine Verfälschung des Goethebildes wandte"
+    },
+    {
+     "sids": [
+      "c504940c56ad"
+     ],
+     "field": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+     "claim": "「연작으로서의 연애시(Love Poems in Sequence)」는 고든 브레이든의 글이다",
+     "verdict": "confirmed",
+     "url": "https://api.crossref.org/works/10.1002/9781118876169.ch18",
+     "quote": "\"title\":[\"Love Poems in Sequence\"],\"prefix\":\"10.1002\",\"author\":[{\"given\":\"Gordon\",\"family\":\"Braden\"",
+     "note": "같은 레코드: \"page\":\"262-276\", published-print 2014."
+    },
+    {
+     "sids": [
+      "c504940c56ad"
+     ],
+     "field": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+     "claim": "그 글은 『오비디우스 수용 편람』(A Handbook to the Reception of Ovid)에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://api.crossref.org/works/10.1002/9781118876169.ch18",
+     "quote": "\"container-title\":[\"A Handbook to the Reception of Ovid\"]"
+    },
+    {
+     "sids": [
+      "c504940c56ad"
+     ],
+     "field": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+     "claim": "『오비디우스 수용 편람』은 Wiley Blackwell에서 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.wiley.com/en-us/A+Handbook+to+the+Reception+of+Ovid-p-9781444339673",
+     "quote": "ISBN: 978-1-444-33967-3 September 2014 Wiley-Blackwell 520 pages",
+     "note": "wiley.com 제품 페이지의 서지 블록(줄바꿈을 공백으로). 같은 페이지 총서명: 'Wiley Blackwell Handbooks to Classical Reception'. Crossref publisher 필드는 \"Wiley\"."
+    },
+    {
+     "sids": [
+      "c504940c56ad"
+     ],
+     "field": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+     "claim": "브레이든은 오비디우스 『사랑노래(Amores)』를 '순서를 가진 연애시 연작' 전통의 모델로 세운다",
+     "verdict": "confirmed",
+     "url": "https://api.openalex.org/works/doi:10.1002/9781118876169.ch18",
+     "quote": "the Amores is also an important model for a specific tradition of love poems ordered in sequence",
+     "note": "OpenAlex abstract_inverted_index를 복원한 초록. 본문은 유료라 읽지 못함."
+    },
+    {
+     "sids": [
+      "c504940c56ad"
+     ],
+     "field": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+     "claim": "그 전통은 페트라르카의 소네트 연작으로 이어졌다",
+     "verdict": "confirmed",
+     "url": "https://api.openalex.org/works/doi:10.1002/9781118876169.ch18",
+     "quote": "In Petrarch the template is reconfigured to tell a story of unconsummated, high-minded love, and the result is the immensely influential genre of the sonnet sequence."
+    },
+    {
+     "sids": [
+      "c504940c56ad"
+     ],
+     "field": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+     "claim": "브레이든은 18세기 말 괴테가 이 연작(『로마 비가』)으로 자기 경력의 새 국면을 연다고 본다",
+     "verdict": "confirmed",
+     "url": "https://api.openalex.org/works/doi:10.1002/9781118876169.ch18",
+     "quote": "Toward the end of the eighteenth century, Goethe initiates a new phase in his career with a sequence of poems in German elegiac couplets about an affair in which fidelity on both sides allows an unprecedented idealization of illicit sexual pleasure.",
+     "note": "초록은 연작의 제목을 쓰지 않는다. '독일어 비가 2행연구로 된 연애 연작'이 『로마 비가』라는 동정은 Britannica 'Return to Weimar and the French Revolution (1788–94)' 절(Wayback, 이번에 다시 가져옴): 'some of the earliest German imitations of Classical elegiac couplets … Later published (in part) as the Römische Elegien'. 초록은 오비디우스 『사랑노래』를 직접 모방한 '비가' 연작의 흐름(르네상스 Janus Secundus·Donne) 다음에 괴테를 놓는다 — 페트라르카 소네트 연작과 같은 가지가 아니라 같은 '연애시 연작' 전통 안이라는 문장의 범위에서 성립한다."
+    },
+    {
+     "sids": [
+      "33c744064ba0"
+     ],
+     "field": "relation:translation--johann-wolfgang-von-goethe--abai-qunanbaiuly.summary",
+     "claim": "아바이의 번역은 독일어 원문이 아니라 레르몬토프의 러시아어 역을 거친 중역이다",
+     "verdict": "confirmed",
+     "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+     "quote": "Абайдың 1892ж. М. Ю. Лермонтовтың «Из Гете» атты өлеңінен аударған өлеңі.",
+     "note": "같은 문서: 'Лермонтов бұл шағын өлеңді 1840 ж. неміс тілінен тікелей тәржімалаған' (레르몬토프는 독일어에서 직접 옮겼다), 'Ол Лермонтов тәржімесі арқылы ұлы Гетенің жан сырын тап басып' (아바이는 레르몬토프의 번역을 통해) — 독일어→러시아어→카자흐어 경로. src--adebiportal-kz는 대조하지 못함."
+    }
+   ],
+   "noClaim": {}
+  }
+ ]
+}

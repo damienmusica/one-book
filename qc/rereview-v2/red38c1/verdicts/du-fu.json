@@ -1,0 +1,247 @@
+{
+ "plates": [
+  {
+   "id": "du-fu",
+   "claims": [
+    {
+     "sids": [
+      "2a8c3c1dddbd"
+     ],
+     "field": "author.importanceReason",
+     "claim": "송대에 이르러 두보는 시의 전범으로 최고의 자리에 올랐다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "宋朝[[宋明理學|理学]]的发展确保了杜甫作为诗的典范和他的至高无上的地位",
+     "note": "en.wikipedia Du Fu도 같은 사실을 적는다: \"It was in the 11th century, during the [[Northern Song]] era that Du Fu's reputation reached its peak.\" 다만 en은 그를 신유학의 '시적 전범(its poetic exemplar)'이라 쓴다"
+    },
+    {
+     "sids": [
+      "2a8c3c1dddbd"
+     ],
+     "field": "author.importanceReason",
+     "claim": "조선에서 왕명으로 두보의 시를 옮긴 『두시언해』가 만들어졌다(관찬 번역)",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/두시언해",
+     "quote": "《'''두시언해'''》(杜詩諺解)는 [[중국]] [[당나라]]의 [[시인]]인 [[두보]](杜甫)의 작품을 [[조선왕조|조선]] 시대 왕명에 의해 조위(曺偉), 유윤겸(柳允謙), [[의침]](義砧) 등이 번역한 책이다.",
+     "note": "같은 문서: 초간본은 조선 성종 12년(1481)에 나왔다"
+    },
+    {
+     "sids": [
+      "7c7a3fbbb5b0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "율시의 대구는 두 구의 같은 자리에 놓인 낱말(글자)끼리 짝을 맞춘다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Regulated_verse",
+     "quote": "The parallelism requirement means that the two parallel lines must match each word in each line with the word which is in the same position in the other line",
+     "note": "출처는 'each word'라 쓴다. zh.wikipedia 近体诗: \"中文獨體單音，極易構成對偶形式，所謂對偶，乃指句型字數相同，[[詞性]]相對應\" — 한자 한 글자가 대개 한 낱말이라 '한 글자씩'과 어긋나지 않는다"
+    },
+    {
+     "sids": [
+      "7c7a3fbbb5b0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "두보의 압축된 언어가 지닌 함축과 성조의 효과는 번역에 드러나지 않는다",
+     "verdict": "confirmed",
+     "url": "http://web.archive.org/web/20260811175610/https://www.britannica.com/biography/Du-Fu",
+     "quote": "His dense, compressed language makes use of all the connotative overtones of a phrase and of all the intonational potentials of the individual word, qualities that no translation can ever reveal.",
+     "note": "브리태니커는 이것을 두보의 언어 전반에 대해 말하고, 바로 다음 문장에서 율시를 그의 기량의 정점으로 든다. '율시의 대구'에 한정한 진술은 아니지만 그 범위를 넘지 않는다"
+    },
+    {
+     "sids": [
+      "7c7a3fbbb5b0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "「추흥팔수」는 여덟 수를 떼어 놓을 수 없는 하나의 구조로 묶인 연작이다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_appreciations/1299",
+     "quote": "八首詩，章法縝密嚴整，脈絡分明，不宜拆開，亦不可顛倒。",
+     "note": "같은 감상문: \"爲理解這組詩的結構，須對其內容先略作說明。\" — 구조를 이해하려면 내용 설명이 먼저 필요하다는 말이 '알아야 묶인다'를 받친다"
+    },
+    {
+     "sids": [
+      "7c7a3fbbb5b0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "「추흥팔수」는 장안의 옛 번성(난 이전)을 회상하며 전란 이후의 현실과 대비한다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_appreciations/1299",
+     "quote": "以對長安盛世勝事的追憶而歸結到詩人現實的孤寂處境、今昔對比的哀愁。這種憂思不能看作是杜甫一時一地的偶然觸發，而是自經喪亂以來，他憂國傷時感情的集中表現。",
+     "note": "'喪亂'이 안사의 난임은 같은 사이트 창작배경(https://fanti.dugushici.com/ancient_proses/11044)이 적는다: \"持續八年的安史之亂，至廣德元年（763）始告結束，而吐蕃、回紇乘虛而入，藩鎮擁兵割據，戰亂時起\""
+    },
+    {
+     "sids": [
+      "7c7a3fbbb5b0"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "「추흥팔수」에는 전고가 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_translations/1027",
+     "quote": "東來紫氣：用老子自洛陽入函谷關事。…此二句借用典故極寫都城長安城宮殿的宏偉氣象。",
+     "note": "en.wikipedia Du Fu도 번역의 난점으로 \"the complex allusions contained particularly in the later works\"를 든다"
+    },
+    {
+     "sids": [
+      "a9f12c0dce93"
+     ],
+     "field": "work:du-fu--chunwang.significance",
+     "claim": "「춘망」은 가장 널리 알려진 중국 시 가운데 하나로 꼽힌다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "Zong-Qi Cai called it one of the best-known and most commonly recited Chinese poems.",
+     "note": "평자(Zong-Qi Cai)의 평가다. 문장의 '가장 널리 알려진 … 하나'는 'one of the best-known'의 범위와 같다"
+    },
+    {
+     "sids": [
+      "a9f12c0dce93"
+     ],
+     "field": "work:du-fu--chunwang.significance",
+     "claim": "바쇼가 『오쿠노 호소미치』에 「춘망」의 첫 두 구를 옮겨 적었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "[[Matsuo Bashō]], the greatest haiku poet, was also strongly influenced by Du Fu; in ''[[Oku no Hosomichi]]'', his masterpiece, he cites the first two lines of ''[[Chunwang (poem)|A Spring View]]'' ({{lang|zh|春望}}) before a haiku as its introduction",
+     "note": "글자 그대로의 전사는 아니다. kotennosennsei.com(히라이즈미 해설): \"芭蕉は、もとの「草木深し」を「草青みたり」と言いかえています。\" 관계 요약(influence--du-fu--matsuo-basho)이 이 차이를 적고 있다"
+    },
+    {
+     "sids": [
+      "dc5cb5a18003"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」에는 전고가 겹쳐 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_translations/1027",
+     "quote": "東來紫氣：用老子自洛陽入函谷關事。…此二句借用典故極寫都城長安城宮殿的宏偉氣象。",
+     "note": "같은 주석 페이지는 匡衡·劉向 같은 한대 인물 고사에도 주를 단다"
+    },
+    {
+     "sids": [
+      "dc5cb5a18003"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」는 현실과 회상을 오가며 기억을 겹쳐 짠다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_appreciations/1299",
+     "quote": "前三首由現實引發回憶，後五首則由回憶回到現實。"
+    },
+    {
+     "sids": [
+      "dc5cb5a18003"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "여덟 수가 앞뒤로 호응해 한 짜임을 이루되, 각 수도 독립된 칠언율시다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/71335",
+     "quote": "全詩八首蟬聯，前呼後應，脈絡貫通，組織嚴密，既是一組完美的組詩，而又各篇各有所側重。每篇都是可以獨立的七言律詩。",
+     "note": "같은 사이트 감상문(1299)은 \"不宜拆開，亦不可顛倒\"라며 떼어 읽지 말라고 강조한다. 문장의 '독립된 율시'는 형식상 한 수가 온전한 율시라는 뜻으로 읽히며 이와 충돌하지 않는다"
+    },
+    {
+     "sids": [
+      "dc5cb5a18003"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」는 두보 만년의 (사상과) 예술적 성취를 보여 준다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_appreciations/1299",
+     "quote": "它是八首蟬聯、結構嚴密、抒情深摯的一組七言律詩，體現了詩人晚年的思想感情和藝術成就。"
+    },
+    {
+     "sids": [
+      "865b2db92f3e"
+     ],
+     "field": "work:du-fu--shihaoli.significance",
+     "claim": "「석호리」는 삼리삼별 연작의 한 편이다",
+     "verdict": "confirmed",
+     "url": "https://m.gushiwen.cn/shiwenv_93ac46de573f.aspx",
+     "quote": "《石壕吏》是一首五言古诗，为“三吏三别”之一。"
+    },
+    {
+     "sids": [
+      "865b2db92f3e"
+     ],
+     "field": "work:du-fu--shihaoli.significance",
+     "claim": "「석호리」는 서정과 논평을 서사 속에 담은 정련된 서술이 특색이다",
+     "verdict": "confirmed",
+     "url": "https://m.gushiwen.cn/shiwenv_93ac46de573f.aspx",
+     "quote": "这首诗在艺术上最大的特色在于其精练的表达，它把抒情和议论寓于叙事之中",
+     "note": "'寓于'(깃들여 담다)를 '감춘'으로 옮겼다. 출처는 이를 '가장 큰 특색'이라 하므로 '특색이다'는 출처보다 약하다"
+    },
+    {
+     "sids": [
+      "89dbe5fdffb1"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두 사람은 744년에 처음 만났다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "In the autumn of 744, he met [[Li Bai]] (Li Po) for the first time, and the two poets formed a friendship."
+    },
+    {
+     "sids": [
+      "89dbe5fdffb1"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두 사람은 낙양에서 만났다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "以后在[[洛阳]]遇李白，二人结下深厚友谊",
+     "note": "zh.wikipedia 李白은 744년 가을 汴州·宋州에서의 교유를 본문으로 적고 낙양 첫 만남을 「一說李白與杜甫初會於[[洛陽]]」(馮至『杜甫传』)로 단다. 두보 「贈李白」의 첫 구 「二年客東都」도 동도(낙양) 체류 중에 이백에게 준 시임을 보인다. 통설이지만 이설이 있음을 적어 둔다"
+    },
+    {
+     "sids": [
+      "89dbe5fdffb1"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두 사람은 함께 유람했다",
+     "verdict": "confirmed",
+     "url": "http://web.archive.org/web/20260811175610/https://www.britannica.com/biography/Du-Fu",
+     "quote": "After a brief flirtation with Daoism while traveling with Li Bai, Du Fu returned to the capital and to the conventional Confucianism of his youth.",
+     "note": "zh.wikipedia 杜甫: \"继而又遇[[高适]]，三人同游梁、宋（今[[开封]]、[[商丘]]）。\""
+    },
+    {
+     "sids": [
+      "89dbe5fdffb1"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두보가 이백에게 주거나 이백을 두고 쓴 시는 열두 편이 전한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "We have twelve poems to or about Li Bai from the younger poet, but only one in the other direction.",
+     "note": "en.wikipedia Li Bai는 \"the dozen or so poems by Du Fu to or about Li Bai which survive\"라 적어, 헤아리는 방식에 따라 수가 조금 달라질 수 있다"
+    },
+    {
+     "sids": [
+      "89dbe5fdffb1"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "「이백에게 부침(贈李白)」은 두보가 이백에게 준 시다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikisource.org/wiki/贈李白_(二年客東都)",
+     "quote": "| title    = 贈李白\n| section  =\n| author   = 杜甫",
+     "note": "같은 제목의 시가 두 편 있다(위키문헌 동명이편)"
+    },
+    {
+     "sids": [
+      "89dbe5fdffb1"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "「봄날 이백을 생각하며(春日憶李白)」는 두보의 시다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikisource.org/wiki/春日憶李白",
+     "quote": "| title    = 春日忆李白\n| section  =\n| author   = 杜甫"
+    },
+    {
+     "sids": [
+      "89dbe5fdffb1"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "「꿈에 이백을 보다(夢李白)」는 두보의 시다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikisource.org/wiki/夢李白二首",
+     "quote": "| title    = 夢李白二首\n| section  =\n| author   = 杜甫",
+     "note": "두 수로 된 연작이다"
+    }
+   ],
+   "noClaim": {}
+  }
+ ]
+}

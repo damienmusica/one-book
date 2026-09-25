@@ -1,0 +1,26 @@
+{
+  "fixes": [
+    {
+      "id": "agatha-christie",
+      "importanceReason": "당대의 성공한 추리소설이 모두 그랬듯 독자를 속이는 장치 위에서 썼고, 서술자를 믿을 수 있다는 전제까지 뒤집었다. 저택·열차·섬처럼 용의자를 가둘 수 있는 폐쇄 공간을 무대로 삼았고, 결말에 탐정이 용의자를 한 방에 모아 범인을 밝히는 장면은 그의 표지다. 66편의 추리 장편을 썼고, 유네스코 번역 통계에서 가장 많이 번역된 작가로 꼽힌다.",
+      "works": [
+        {
+          "id": "agatha-christie--the-mysterious-affair-at-styles",
+          "significance": "푸아로와 화자 헤이스팅스가 함께 나오는 데뷔 장편으로, 저택 하나에 용의자를 가두고 마지막 장 직전에 해명한다. 대체로 크리스티의 영향으로 황금기 추리소설의 상징이 된 요소가 여럿 담겼다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "크리스티가 폐쇄 공간과 집합 추리를 표준화해, 이후 추리소설이 변형해 쓰는 판형을 남겼다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "크리스티의 표준 판형이 이 작품에서 정리되었다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

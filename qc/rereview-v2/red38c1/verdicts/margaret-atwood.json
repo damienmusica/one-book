@@ -1,0 +1,399 @@
+{
+ "plates": [
+  {
+   "id": "margaret-atwood",
+   "claims": [
+    {
+     "sids": [
+      "4c42f727d93f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "애트우드는 『시녀 이야기』를 쓰며 역사에서 실제로 일어난 적 없는 일·법은 넣지 않는다는 규칙을 세웠다",
+     "verdict": "confirmed",
+     "url": "http://web.archive.org/web/20260202161425/https://www.nytimes.com/2017/03/10/books/review/margaret-atwood-handmaids-tale-age-of-trump.html",
+     "quote": "One of my rules was that I would not put any events into the book that had not already happened in what James Joyce called the “nightmare” of history, nor any technology not already available. No imaginary gizmos, no imaginary laws, no imaginary atrocities.",
+     "note": "애트우드 자신의 NYT 2017년 3월 10일 에세이. 규칙은 사건·기술·법·잔학 행위 전반에 걸린다. 문장의 '제도와 법'은 그 일부만 짚은 것이지 틀린 것은 아니다."
+    },
+    {
+     "sids": [
+      "4c42f727d93f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『시녀 이야기』가 그리는 것은 근미래의 신정 체제다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Margaret-Atwood",
+     "quote": "Margaret Atwood is best known for The Handmaid’s Tale (1985), a dystopian novel set in New England in the near future, which posits a Christian fundamentalist theocratic regime in the former U.S. that arose as a response to a fertility crisis."
+    },
+    {
+     "sids": [
+      "520d77370b33"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『눈먼 암살자』에서는 회고록, 연인의 밀회를 그린 소설 속 소설, 신문 기사가 번갈아 나온다",
+     "verdict": "confirmed",
+     "url": "https://www.penguinrandomhouse.com/books/6122/the-blind-assassin-by-margaret-atwood/9780385720953/readers-guide/",
+     "quote": "Alternating with Iris’s reminiscences and wry commentary on her current situation are passages from Laura’s scandalous novel, The Blind Assassin, about an upper-class married woman and her lover, a hack writer and a political radical, who spins a science fiction tale (also entitled The Blind Assassin) during their clandestine meetings. Newspaper reports on events in the characters’ personal lives",
+     "note": "펭귄랜덤하우스 독서 가이드 소개문. 같은 문단 안에서 이어지는 인용이다."
+    },
+    {
+     "sids": [
+      "520d77370b33"
+     ],
+     "field": "author.importanceReason",
+     "claim": "액자 소설 속 남자가 들려주는 이야기는 통속(펄프) SF다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20180827123443/http://fantasticreviews.com/blind_assassin.htm",
+     "quote": "The stories the writer tells his lover are interesting on three levels. First, they are entertaining as independent stories, even if they are deliberately pulpish in style.",
+     "note": "Aaron Hughes의 Fantastic Reviews 서평. 같은 서평은 다른 문단에서 이 이야기들을 'Atwood's pastiches of pulp SF'라고 부른다."
+    },
+    {
+     "sids": [
+      "520d77370b33"
+     ],
+     "field": "author.importanceReason",
+     "claim": "한 층의 이야기가 감춘 것을 다른 층의 이야기가 받아 다른 방식으로 드러내는 구조다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/2461/",
+     "quote": "애트우드는 하나의 이야기가 감춘 것을 다른 층위의 이야기가 받아서 다른 방식으로 드러내는 구조를 통해 작품 전개의 속도감과 긴장감을 잃지 않으면서도 모든 이야기를 섬세하고 치밀하게 전달한다.",
+     "note": "민음사 책 소개에 실린 평가다. 문장은 이 구절을 거의 그대로 옮겼다."
+    },
+    {
+     "sids": [
+      "770dcd9d089c"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『눈먼 암살자』는 회고록, 그 안의 소설, 소설 속 SF 이야기로 된 삼중 액자 구조다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/2461/",
+     "quote": "『눈먼 암살자』는 러시아 인형처럼 하나가 다른 하나를 품고 있는 세 이야기가 충격적인 진실을 향해 교묘하게 얽힌 삼중 액자 구조의 소설이다. 전체 틀을 이루는 첫 번째 이야기는 팔십 대의 노파 아이리스의 회고록이다. … 두 번째 이야기는 아이리스의 여동생인 로라의 이름으로 사후 출간된 소설 「눈먼 암살자」이다. … 세 번째 이야기는 「눈먼 암살자」 속 남자가 여자에게 들려주는 공상 과학 소설로"
+    },
+    {
+     "sids": [
+      "770dcd9d089c"
+     ],
+     "field": "author.readingWarning",
+     "claim": "그 삼중 액자 사이에 신문 기사가 끼어든다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/2461/",
+     "quote": "애트우드는 아이리스의 회고록과 공상 과학 소설 사이사이에 작품 속 사건과 인물에 관한 캐나다 유수 언론지의 기사나 논평을 삽입하여 사실과 허구의 경계를 무너뜨린다."
+    },
+    {
+     "sids": [
+      "770dcd9d089c"
+     ],
+     "field": "author.readingWarning",
+     "claim": "층이 겹겹이 들어차 있어 읽을 때 부담이 된다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20180827123443/http://fantasticreviews.com/blind_assassin.htm",
+     "quote": "For those of you keeping score at home, all of this makes the young writer's tales a series of stories within a story within a story. This is one \"within\" too many.",
+     "note": "'어느 층의 진술인지부터 추적해야 한다'는 독서 조언이다. 한 서평가가 층이 하나 많다고 불평한 것이 이 판단을 받치지만, 사실 주장이라기보다 편집상 판단이다."
+    },
+    {
+     "sids": [
+      "7b39b30b9237"
+     ],
+     "field": "work:margaret-atwood--the-blind-assassin.significance",
+     "claim": "노년 여성 화자의 회고록이 이야기의 중심이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Margaret-Atwood",
+     "quote": "The Blind Assassin (2000) is an intricately constructed narrative centering on the memoir of an elderly Canadian woman ostensibly writing in order to dispel confusion about both her sister’s suicide and her own role in the posthumous publication of a novel supposedly written by her sister."
+    },
+    {
+     "sids": [
+      "7b39b30b9237"
+     ],
+     "field": "work:margaret-atwood--the-blind-assassin.significance",
+     "claim": "인물들의 삶에 일어난 일을 그때그때 보도한 신문 기사가 교차한다",
+     "verdict": "confirmed",
+     "url": "https://www.penguinrandomhouse.com/books/6122/the-blind-assassin-by-margaret-atwood/9780385720953/readers-guide/",
+     "quote": "Newspaper reports on events in the characters’ personal lives–from Norval Chase’s desperately hopeful speech at the last company picnic to Iris’s posh wedding to Richard Griffen’s mysterious death–as well as accounts of actual historical events add yet another dimension to the novel, coloring, deepening, and sometimes contradicting the readers’ perceptions.",
+     "note": "'당대'는 기사가 사건 당시의 보도라는 뜻으로 읽힌다. Fantastic Reviews도 'news articles from Iris's past'라고 적는다."
+    },
+    {
+     "sids": [
+      "7b39b30b9237"
+     ],
+     "field": "work:margaret-atwood--the-blind-assassin.significance",
+     "claim": "연인의 밀회를 그린 액자 소설 안에서 남자가 여자에게 SF 이야기를 들려준다",
+     "verdict": "confirmed",
+     "url": "https://www.penguinrandomhouse.com/books/6122/the-blind-assassin-by-margaret-atwood/9780385720953/readers-guide/",
+     "quote": "passages from Laura’s scandalous novel, The Blind Assassin, about an upper-class married woman and her lover, a hack writer and a political radical, who spins a science fiction tale (also entitled The Blind Assassin) during their clandestine meetings."
+    },
+    {
+     "sids": [
+      "7b39b30b9237"
+     ],
+     "field": "work:margaret-atwood--the-blind-assassin.significance",
+     "claim": "그 SF 이야기는 통속(펄프) SF다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20180827123443/http://fantasticreviews.com/blind_assassin.htm",
+     "quote": "Atwood's pastiches of pulp SF have almost no character development yet feel quite authentic. The story of the blind assassin is arguably better written than most published pre-War SF",
+     "note": "Aaron Hughes의 Fantastic Reviews 서평은 액자 속 '눈먼 암살자' 이야기를 펄프 SF의 패스티시로 본다."
+    },
+    {
+     "sids": [
+      "7b39b30b9237"
+     ],
+     "field": "work:margaret-atwood--the-blind-assassin.significance",
+     "claim": "한 층의 이야기가 감춘 것을 다른 층의 이야기가 받아 다른 방식으로 드러낸다",
+     "verdict": "confirmed",
+     "url": "https://minumsa.minumsa.com/book/2461/",
+     "quote": "애트우드는 하나의 이야기가 감춘 것을 다른 층위의 이야기가 받아서 다른 방식으로 드러내는 구조를 통해 작품 전개의 속도감과 긴장감을 잃지 않으면서도 모든 이야기를 섬세하고 치밀하게 전달한다.",
+     "note": "민음사 책 소개에 실린 평가다."
+    },
+    {
+     "sids": [
+      "ca9e0ac2d58d"
+     ],
+     "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+     "claim": "『씨앗을 뿌리는 사람의 우화』는 무너져 가는 근미래 미국을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.ebsco.com/research-starters/literature-and-writing/parable-sower-and-parable-talents-octavia-e-butler",
+     "quote": "\"Parable of the Sower\" and its sequel, \"Parable of the Talents,\" by Octavia E. Butler, present a dystopian vision of a near-future America grappling with societal collapse due to extreme poverty, climate change, and rampant violence."
+    },
+    {
+     "sids": [
+      "ca9e0ac2d58d"
+     ],
+     "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+     "claim": "『씨앗을 뿌리는 사람의 우화』는 여성 화자가 쓴 일기(1인칭 기록) 형식이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel)",
+     "quote": "Parable of the Sower takes the form of a journal kept by Lauren Oya Olamina, an African American teenager. Her mother abused drugs during her pregnancy and left Lauren with \"Hyper-empathy\""
+    },
+    {
+     "sids": [
+      "ca9e0ac2d58d"
+     ],
+     "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+     "claim": "『시녀 이야기』의 배경은 미국 정부를 무너뜨린 근미래 신정 국가다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale",
+     "quote": "It is set in a near-future New England in a patriarchal, totalitarian theonomic state known as the Republic of Gilead, which has overthrown the United States government."
+    },
+    {
+     "sids": [
+      "ca9e0ac2d58d"
+     ],
+     "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+     "claim": "『시녀 이야기』는 여성 화자의 1인칭 기록 형식이다",
+     "verdict": "confirmed",
+     "url": "https://scrapsfromtheloft.com/books/margaret-atwoods-the-handmaids-tale-echoes-of-orwell/",
+     "quote": "Offred indeed exists now only as text, the box of her audiotapes. Atwood has violated the basic tenet of the reader’s faith in first-person narrative",
+     "note": "오브프레드의 기록은 글이 아니라 녹음테이프로 남은 것이 후대에 옮겨진 것이다. '기록'이라는 말은 이것과 맞는다."
+    },
+    {
+     "sids": [
+      "d630c5819bb6"
+     ],
+     "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+     "claim": "애트우드는 라이트스피드 인터뷰에서 버틀러의 『Lilith's Brood』를 『오릭스와 크레이크』를 쓴 뒤에 읽었다고 답했다",
+     "verdict": "confirmed",
+     "url": "https://www.lightspeedmagazine.com/nonfiction/interview-margaret-atwood/",
+     "quote": "No, because I didn’t read it until after I’d written Oryx and Crake.",
+     "note": "인용한 답변의 'it'은 바로 앞 질문 'I heard it suggested that Octavia Butler is, and that Lilith’s Brood, was an influence on the Oryx and Crake trilogy.'가 가리키는 『Lilith's Brood』다. Lightspeed 2013년 12월호(43호), The Geek’s Guide to the Galaxy 인터뷰."
+    },
+    {
+     "sids": [
+      "7f0e53a143c4"
+     ],
+     "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+     "claim": "『시녀 이야기』는 1985년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://margaretatwood.ca/full-bibliography-2/",
+     "quote": "The Handmaid’s Tale; McClelland & Stewart, Houghton Mifflin, 1985; Cape, 1985."
+    },
+    {
+     "sids": [
+      "7f0e53a143c4"
+     ],
+     "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+     "claim": "『씨앗을 뿌리는 사람의 우화』는 1993년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel)",
+     "quote": "Parable of the Sower is a 1993 speculative fiction novel by American writer Octavia E. Butler.",
+     "note": "두 연도에서 8년 간격이 나온다. '이 지도가 둔 관계'라는 부분은 편집상의 자기 설명이라 확인할 대상이 아니다."
+    },
+    {
+     "sids": [
+      "9e686613ad76"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "애트우드는 2003년 『가디언』에 오웰에 관한 글을 썼다",
+     "verdict": "confirmed",
+     "url": "https://www.theguardian.com/books/2003/jun/16/georgeorwell.artsfeatures",
+     "quote": "Margaret Atwood Mon 16 Jun 2003 10.45 BST",
+     "note": "기사 바이라인과 날짜. 제목은 'Orwell and me'이다."
+    },
+    {
+     "sids": [
+      "9e686613ad76"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "애트우드는 그 글에서 아홉 살에 『동물농장』을 읽었다고 적었다",
+     "verdict": "confirmed",
+     "url": "https://www.theguardian.com/books/2003/jun/16/georgeorwell.artsfeatures",
+     "quote": "I grew up with George Orwell. I was born in 1939, and Animal Farm was published in 1945. Thus, I was able to read it at the age of nine."
+    },
+    {
+     "sids": [
+      "9e686613ad76"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "애트우드는 십대(고등학생 때)에 『1984』를 읽었다고 적었다",
+     "verdict": "confirmed",
+     "url": "https://www.theguardian.com/books/2003/jun/16/georgeorwell.artsfeatures",
+     "quote": "Then along came Nineteen Eighty-Four, which was published in 1949. Thus, I read it in paperback a couple of years later, when I was in high school."
+    },
+    {
+     "sids": [
+      "9e686613ad76"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "애트우드는 『시녀 이야기』를 쓰기 시작할 때 오웰이 직접적인 모델이 되었다고 밝혔다",
+     "verdict": "confirmed",
+     "url": "https://www.theguardian.com/books/2003/jun/16/georgeorwell.artsfeatures",
+     "quote": "Orwell became a direct model for me much later in my life - in the real 1984, the year in which I began writing a somewhat different dystopia, The Handmaid's Tale."
+    },
+    {
+     "sids": [
+      "9e686613ad76"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "애트우드는 『시녀 이야기』를 『1984』의 줄리아 쪽에서 본 디스토피아로 쓰려 했다고 밝혔다(오웰에 대한 응답)",
+     "verdict": "confirmed",
+     "url": "https://www.theguardian.com/books/2003/jun/16/georgeorwell.artsfeatures",
+     "quote": "I wanted to try a dystopia from the female point of view - the world according to Julia, as it were. However, this does not make The Handmaid's Tale a \"feminist dystopia\"",
+     "note": "애트우드는 바로 앞 문단에서 오웰의 것을 포함한 디스토피아 대부분이 남성 관점이었다고 쓴다. 같은 글에서 그 무렵에는 'I didn't need to rely on Orwell alone'이라고도 적었으므로, 이 응답을 오웰에게만 한정할 수는 없다."
+    },
+    {
+     "sids": [
+      "d6b4d5c257ef"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "『시녀 이야기』 본문 뒤에 먼 미래(2195년)의 학술대회 기록이 붙는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale",
+     "quote": "The novel concludes with a metafictional epilogue: a partial transcript of an international historical association conference taking place in 2195."
+    },
+    {
+     "sids": [
+      "d6b4d5c257ef"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "그 학술대회 기록은 길리어드가 이미 무너졌음을 알려 체제를 과거의 것으로 만든다",
+     "verdict": "confirmed",
+     "url": "https://lareviewofbooks.org/article/purposes-education-well-recreation-historical-notes-handmaids-tale-special-edition/",
+     "quote": "Best of all, we learn in the “Historical Notes” that the misogynistic, theocratic nightmare of Gilead has itself collapsed, and is now widely perceived as a historical anomaly, a mere bump on the road of progress."
+    },
+    {
+     "sids": [
+      "d6b4d5c257ef"
+     ],
+     "field": "relation:influence--george-orwell--margaret-atwood.summary",
+     "claim": "이 장치는 흔히 『1984』의 신어 부록을 애트우드가 변주한 것으로 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://lareviewofbooks.org/article/purposes-education-well-recreation-historical-notes-handmaids-tale-special-edition/",
+     "quote": "The “Historical Notes” have typically been read as Atwood’s riff on “The Principles of Newspeak” appendix in George Orwell’s 1984, whose past-tense academic narration similarly suggests that the totalitarian government of Airstrip One eventually collapses",
+     "note": "'흔히 … 읽힌다'는 출처의 'have typically been read as'와 같은 세기다. 애트우드 자신도 Geoff Hancock 인터뷰에서 오웰이 'did the same thing'이라고 했다(scrapsfromtheloft 재인용)."
+    },
+    {
+     "sids": [
+      "5ccde7dd2099"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『나를 보내지 마』는 장기 제공용 클론이라는 사변적 전제 하나를 세우고, 그 규칙이 이미 자리 잡은 사회를 그린다",
+     "verdict": "confirmed",
+     "url": "https://slate.com/culture/2005/04/kazuo-ishiguro-s-creepy-clones.html",
+     "quote": "In fact, Hailsham exists to raise cloned children who have been brought into the world for the sole purpose of providing organs to other, “normal” people. … By now the rules are in place and the situation is taken for granted—as slavery was once—by beneficiaries and victims alike.",
+     "note": "애트우드의 2005년 슬레이트 서평. 같은 문단 안에서 줄였다."
+    },
+    {
+     "sids": [
+      "5ccde7dd2099"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『나를 보내지 마』는 그 제도 안에서 자란 화자 캐시 H.의 진술로 전개된다",
+     "verdict": "confirmed",
+     "url": "https://slate.com/culture/2005/04/kazuo-ishiguro-s-creepy-clones.html",
+     "quote": "The narrator, Kathy H., is looking back on her school days at a superficially idyllic establishment called Hailsham."
+    },
+    {
+     "sids": [
+      "5ccde7dd2099"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『시녀 이야기』는 미국이 쿠데타로 신정 독재가 되었다는 전제 하나를 세운다",
+     "verdict": "confirmed",
+     "url": "http://web.archive.org/web/20260202161425/https://www.nytimes.com/2017/03/10/books/review/margaret-atwood-handmaids-tale-age-of-trump.html",
+     "quote": "Back in 1984, the main premise seemed — even to me — fairly outrageous. Would I be able to persuade readers that the United States had suffered a coup that had transformed an erstwhile liberal democracy into a literal-minded theocratic dictatorship?"
+    },
+    {
+     "sids": [
+      "5ccde7dd2099"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『시녀 이야기』는 그 체제 안에서 살아가는 여성의 기록을 중심으로 짜여 있다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Margaret-Atwood",
+     "quote": "The Handmaid’s Tale (film 1990; opera 2000) is constructed around the written record of a woman living in sexual slavery in a repressive Christian theocracy of the future that has seized power in the wake of an ecological upheaval"
+    },
+    {
+     "sids": [
+      "5ccde7dd2099"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『시녀 이야기』에서 길리어드의 규칙은 화자의 서술 속에서 드러난다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale",
+     "quote": "Throughout the narrative, Aunt Lydia's pithy pronouncements on the code of conduct for the Handmaids shed light on the philosophy of subjugation of women practised in Gilead.",
+     "note": "문장은 이제 '진술만으로'라고 하지 않으므로, 말미의 「역사적 주석」이 덧붙는 것과 부딪치지 않는다."
+    },
+    {
+     "sids": [
+      "e4e82dfb1546"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『시녀 이야기』와 『나를 보내지 마』를 나란히 비교한 연구가 있다",
+     "verdict": "confirmed",
+     "url": "https://zenodo.org/api/records/4699134",
+     "quote": "A COMPARATIVE STUDY IN MARGARET ATWOOD'S THE HANDMAID'S TALE AND KAZUO ISHIGURO NEVER LET ME GO",
+     "note": "IJMRME 2021년 논문 한 편(S. Selvamathi, D. Sujatha, 2021-04-18). 이 세션에서 curl로는 Zenodo가 403을 돌려주었고, WebFetch로 같은 API 레코드를 받아 제목을 확인했다."
+    },
+    {
+     "sids": [
+      "e4e82dfb1546"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "애트우드가 2005년 슬레이트에 『나를 보내지 마』 서평을 썼다",
+     "verdict": "confirmed",
+     "url": "https://slate.com/culture/2005/04/kazuo-ishiguro-s-creepy-clones.html",
+     "quote": "Never Let Me Go is the sixth novel by Kazuo Ishiguro, who won the Booker Prize in 1989 for his chilling rendition of a bootlickingly devoted but morally blank English butler, The Remains of the Day.",
+     "note": "같은 페이지 바이라인이 'By Margaret Atwood', 날짜가 'April 01, 2005'다."
+    },
+    {
+     "sids": [
+      "e4e82dfb1546"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『다른 세계에서』에 『나를 보내지 마』를 다룬 글이 실려 있다",
+     "verdict": "confirmed",
+     "url": "https://catalogue.bnf.fr/ark:/12148/cb42526346m",
+     "quote": "Comprend : In other worlds : SF and the human imagination. … Other deliberations. An introductory note ; … Never let me go by Kazuo Ishiguro",
+     "note": "BnF 목차는 이 글이 2005년 슬레이트 서평을 다시 실은 것인지는 말하지 않는다. 고친 문장도 '이 작품론'이라고만 해서 같은 글이라고 주장하지 않는다."
+    },
+    {
+     "sids": [
+      "e4e82dfb1546"
+     ],
+     "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+     "claim": "『다른 세계에서』는 2011년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://margaretatwood.ca/full-bibliography-2/",
+     "quote": "In Other Worlds: SF and the Human Imagination; Signal/McClelland & Stewart, 2011; Virago, 2011; Nan A. Talese/Doubleday, 2011."
+    }
+   ],
+   "noClaim": {}
+  }
+ ]
+}

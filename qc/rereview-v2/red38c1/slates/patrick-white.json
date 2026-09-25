@@ -1,0 +1,882 @@
+{
+  "id": "patrick-white",
+  "page": "https://literary-planet.pages.dev/authors/patrick-white/",
+  "author": {
+    "names": {
+      "ko": "패트릭 화이트",
+      "original": "Patrick White",
+      "aliases": []
+    },
+    "birthYear": 1912,
+    "deathYear": 1990,
+    "activeRange": [
+      1935,
+      1990
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "oceania"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "내륙 탐험과 교외의 일상을 다루며, 조이스·로런스·울프의 모더니즘에 영향받은 복잡한 문체로 고국의 주류 사실주의 전통에 도전했다. 시드니 외곽 오지의 정착 농민 가족 3대를 따라가거나(『인간의 나무』) 사막으로 들어가는 보스를 신·그리스도·악마에 거듭 견주면서(『보스』), 내면의 경험과 바깥의 인식 사이를 오가는 산문을 만들었다. 1973년 노벨문학상 때 한림원은 그가 오스트레일리아에 세계로 퍼지는 진정한 목소리를 주었다고 평했다.",
+    "readingEntry": "patrick-white--voss",
+    "readingEntryReason": "동쪽 해안에서 내륙으로 들어가 대륙을 횡단하려는 탐험대의 여정이라는 분명한 서사 축이 있어 화이트의 문장을 따라가는 훈련을 하기에 가장 안전하다. 가장 까다롭고 인상적이란 이가 많다.",
+    "readingOrder": [
+      "patrick-white--voss",
+      "patrick-white--the-tree-of-man",
+      "patrick-white--riders-in-the-chariot",
+      "patrick-white--the-vivisector"
+    ],
+    "readingWarning": "『전차를 탄 사람들』을 먼저 펴면 느슨하게 이어진 네 사람의 생애를 따라가느라 초반이 흩어져 읽힌다.",
+    "difficulty": 4,
+    "difficultyReason": "서사적 폭과 시적 밀도, 고도로 압축된 언어 때문에 어렵다는 평을 받는다. 네 장편은 출간 당시 478–642쪽이고, 서술이 과거와 현재, 여러 인물의 시점 사이를 오간다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--nobelprize",
+      "src--white-prodigal-son-1958",
+      "src--marr-patrick-white-a-life"
+    ]
+  },
+  "works": [
+    {
+      "id": "patrick-white--the-vivisector",
+      "titleKo": "생체 해부자",
+      "titleOriginal": "The Vivisector",
+      "year": 1970,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "화가 허틀 더필드의 일생을 따라가며 예술가의 시선이 타인을 어디까지 재료로 쓰는가를 묻는다. 창작의 잔혹성이라는 화이트 평생의 물음을 다룬다.",
+      "sourceIds": []
+    },
+    {
+      "id": "patrick-white--riders-in-the-chariot",
+      "titleKo": "전차를 탄 사람들",
+      "titleOriginal": "Riders in the Chariot",
+      "year": 1961,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "유대인 난민 학자, 원주민 화가, 괴짜 상속녀, 세탁부 — 주류 사회가 밀어낸 네 사람의 생애를 같은 환시를 나눈다는 깨달음까지 따라간다.",
+      "sourceIds": []
+    },
+    {
+      "id": "patrick-white--the-tree-of-man",
+      "titleKo": "인간의 나무",
+      "titleOriginal": "The Tree of Man",
+      "year": 1955,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "시드니 외곽 오지에 정착한 농민 가족 3대의 평범한 삶을 서사시의 분량으로 서술한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "patrick-white--voss",
+      "titleKo": "보스",
+      "titleOriginal": "Voss",
+      "year": 1957,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "1840년대 오스트레일리아 대륙 횡단에 나선 독일인 탐험가와 시드니에 남은 여자가 서로를 환영으로 만나는 소설. 실패한 탐험을 국민 신화가 아니라 의지와 굴욕의 문제로 다시 쓴다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--james-joyce--patrick-white",
+      "type": "documented_influence",
+      "from": "james-joyce (제임스 조이스)",
+      "to": "patrick-white (패트릭 화이트)",
+      "evidenceLevel": "documented",
+      "summary": "데이비드 마의 전기 『패트릭 화이트: 한 생애』(1991)는 화이트가 『율리시스』를 출간 14년 뒤에 읽고 조이스가 그에게 '거의 신'이 된 뒤 『해피 밸리』를 의식의 흐름으로 썼다고 기록한다.",
+      "sourceIds": [
+        "src--marr-patrick-white-a-life"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "contrast--henry-lawson--patrick-white (→ henry-lawson 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "3fc6a2b6c77f",
+      "where": "author.importanceReason",
+      "text": "내륙 탐험과 교외의 일상을 다루며, 조이스·로런스·울프의 모더니즘에 영향받은 복잡한 문체로 고국의 주류 사실주의 전통에 도전했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "aab37a13b102",
+      "where": "author.importanceReason",
+      "text": "시드니 외곽 오지의 정착 농민 가족 3대를 따라가거나(『인간의 나무』) 사막으로 들어가는 보스를 신·그리스도·악마에 거듭 견주면서(『보스』), 내면의 경험과 바깥의 인식 사이를 오가는 산문을 만들었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1681d3f0b501",
+      "where": "author.importanceReason",
+      "text": "1973년 노벨문학상 때 한림원은 그가 오스트레일리아에 세계로 퍼지는 진정한 목소리를 주었다고 평했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4b9e2a7ca3bc",
+      "where": "author.readingEntryReason",
+      "text": "가장 까다롭고 인상적이란 이가 많다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a46d6f45cd06",
+      "where": "author.readingWarning",
+      "text": "『전차를 탄 사람들』을 먼저 펴면 느슨하게 이어진 네 사람의 생애를 따라가느라 초반이 흩어져 읽힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "493e277a0fea",
+      "where": "author.difficultyReason",
+      "text": "서사적 폭과 시적 밀도, 고도로 압축된 언어 때문에 어렵다는 평을 받는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f0907156e489",
+      "where": "author.difficultyReason",
+      "text": "네 장편은 출간 당시 478–642쪽이고, 서술이 과거와 현재, 여러 인물의 시점 사이를 오간다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ca6aa2f72ade",
+      "where": "work:patrick-white--the-vivisector.significance",
+      "text": "창작의 잔혹성이라는 화이트 평생의 물음을 다룬다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "99d0793fd3c8",
+      "where": "work:patrick-white--riders-in-the-chariot.significance",
+      "text": "유대인 난민 학자, 원주민 화가, 괴짜 상속녀, 세탁부 — 주류 사회가 밀어낸 네 사람의 생애를 같은 환시를 나눈다는 깨달음까지 따라간다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1439f6a0ca11",
+      "where": "work:patrick-white--the-tree-of-man.significance",
+      "text": "시드니 외곽 오지에 정착한 농민 가족 3대의 평범한 삶을 서사시의 분량으로 서술한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "527c60be9d7d",
+      "where": "relation:influence--james-joyce--patrick-white.summary",
+      "text": "데이비드 마의 전기 『패트릭 화이트: 한 생애』(1991)는 화이트가 『율리시스』를 출간 14년 뒤에 읽고 조이스가 그에게 '거의 신'이 된 뒤 『해피 밸리』를 의식의 흐름으로 썼다고 기록한다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "sids": [
+        "46730701c9ae"
+      ],
+      "field": "author.facts",
+      "claim": "패트릭 화이트는 1912년에 태어나 1990년에 죽었다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/white/facts/",
+      "quote": "Born: 28 May 1912, London, United Kingdom Died: 30 September 1990, Sydney, Australia"
+    },
+    {
+      "sids": [
+        "46730701c9ae"
+      ],
+      "field": "author.facts",
+      "claim": "화이트의 작품 언어는 영어다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/white/facts/",
+      "quote": "Language: English"
+    },
+    {
+      "sids": [
+        "46730701c9ae"
+      ],
+      "field": "author.facts",
+      "claim": "화이트의 지역은 오세아니아(오스트레일리아)다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/white/facts/",
+      "quote": "Residence at the time of the award: Australia",
+      "note": "런던 출생이지만 시드니에서 자라 1948년부터 오스트레일리아에 정착했다(ADB)."
+    },
+    {
+      "sids": [
+        "182c3da9d4af"
+      ],
+      "field": "author.importanceReason",
+      "claim": "화이트는 내륙 탐험을 소설로 다뤘다(『보스』)",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/press-release/",
+      "quote": "Another aspect of Australia is shown in Voss, in which a fanatical explorer in the country’s interior meets his fate"
+    },
+    {
+      "sids": [
+        "182c3da9d4af"
+      ],
+      "field": "author.importanceReason",
+      "claim": "화이트는 교외의 일상을 소설로 다뤘다(『전차를 탄 사람들』)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "The novel combines literature, mysticism and suburban life in 1950s Australia"
+    },
+    {
+      "sids": [
+        "182c3da9d4af"
+      ],
+      "field": "author.importanceReason",
+      "claim": "화이트의 소설은 오스트레일리아 소설이 유럽 모더니즘의 문체 실험과 같은 자리에서 읽히게 했다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Patrick_White",
+      "quote": "Influenced by the modernism of James Joyce, D. H. Lawrence and Virginia Woolf, he developed a complex literary style and a body of work that challenged the dominant realist prose tradition of his home country",
+      "correction": "조이스·로런스·울프의 모더니즘에 영향받아 복잡한 문체를 만들었고, 고국 오스트레일리아를 지배하던 사실주의 산문 전통에 도전했다.",
+      "note": "출처는 모더니즘의 영향과 사실주의 전통에 대한 도전까지만 말한다. 세계 독서계에서 '같은 자리에서 읽혔다'는 수용 주장은 확인하지 못했다. '같은 문장 밀도'는 평가라 따로 검증하지 않았다. / 독립 검증: 교정문의 '내륙 탐험과 교외의 일상을 함께 다루며'는 이 인용에 없어 뺐다(3·4번 주장이 따로 받친다).",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "39e288997eb8"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『인간의 나무』는 시드니 변두리에 사는 부부의 한 생애를 다룬다",
+      "verdict": "contradicted",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/treeofman.html",
+      "quote": "It is an impressive work that sweeps widely across three generations of a family of settler-farmers in the bush outside Sydney - an area that is, by the end of the novel, largely absorbed into Sydney's sprawling outer suburbia.",
+      "note": "중심은 스탠·에이미 파커 부부이지만 소설은 3대에 걸친다. / 독립 검증: 인용은 시드니 외곽 정착 농민 '가족의 3대'를 말할 뿐 '부부의 한 생애'는 담지 않는다. 부부의 긴 공동 생애는 노벨 발표문(\"two people’s long life together\")과 노벨 사실 페이지(\"a farmer and his wife\")가 따로 받친다(추가 주장 참조). 문장을 고칠 때 두 주장을 함께 쓰면 된다.",
+      "correction": "시드니 외곽 오지에서 정착 농민 가족 3대를 폭넓게 따라가거나(『인간의 나무』)",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "39e288997eb8"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『인간의 나무』는 사건 없이 서사를 밀고 나간다",
+      "verdict": "contradicted",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/treeofman.html",
+      "quote": "The Parkers experience so many of the typical (even cliched) events of Australian bush life: flood, drought, bushfire, lost children, travelling salesmen, loneliness and sexual temptation",
+      "correction": "(『인간의 나무』의) 파커 집안은 홍수·가뭄·산불 같은 오스트레일리아 오지 생활의 전형적인 사건들을 겪는다",
+      "note": "앞선 패스가 홍수·산불 목록을 '출처 없음'으로 지웠지만, ABC 'Why bother with Patrick White?'(앨런 로슨)가 바로 그 사건들을 열거한다. '사건 없이'는 틀리다. / 독립 검증: 이전 교정문의 '시드니 변두리 부부', '평범한 한 생애'는 이 인용에 없어 뺐다. 인용의 주어는 'The Parkers'(가족)다.",
+      "resolution": "narrowed"
+    },
+    {
+      "sids": [
+        "39e288997eb8"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『보스』의 탐험대는 사막을 건넌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "The explorers cross drought-plagued desert, then waterlogged lands until they retreat to a cave where they lie for weeks waiting for the rain to stop."
+    },
+    {
+      "sids": [
+        "39e288997eb8"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『보스』는 탐험대의 의식을 성인전(聖人傳)의 문법으로 서술한다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "The novel uses extensive religious symbolism. Voss is compared repeatedly to God, Christ and the Devil. Like Christ he goes into the desert",
+      "correction": "그리스도처럼 사막으로 들어가는 보스를 신·그리스도·악마에 거듭 견주는 폭넓은 종교적 상징으로 서술하면서(『보스』)",
+      "note": "출처가 말하는 것은 종교적 상징과 그리스도(및 악마) 비유다. 성인전이라는 장르 문법으로 읽는 출처는 찾지 못했다. / 독립 검증: 이전 교정문의 '탐험대의 여정'은 인용에 없어 인용이 말하는 '그가 사막으로 들어간다'로 좁혔다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "39e288997eb8"
+      ],
+      "field": "author.importanceReason",
+      "claim": "화이트는 풍경(바깥)과 인물의 내면을 구분하지 않고 오가는 산문을 썼다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Patrick_White",
+      "quote": "His narratives shift seamlessly between past and present, inner experience and outer awareness, and the point of view of different characters.",
+      "correction": "내면의 경험과 바깥의 인식 사이를 끊김 없이 오가는 산문을 만들었다",
+      "note": "독립 검증: 인용은 'inner experience and outer awareness'를 말하지 '풍경 묘사'를 말하지 않는다. 풍경과 정신을 겹치는 것은 『보스』에 대해서만 확인된다(추가 주장: 위키백과 Voss 'White presents the desert as akin to the mind of man').",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "1b479e22eaec"
+      ],
+      "field": "author.importanceReason",
+      "claim": "화이트는 1973년 노벨문학상을 받았다",
+      "verdict": "confirmed",
+      "url": "https://adb.anu.edu.au/biography/white-patrick-victor-paddy-14925",
+      "quote": "in 1973 accepted a Nobel prize for literature, the first Australian to win one"
+    },
+    {
+      "sids": [
+        "1b479e22eaec"
+      ],
+      "field": "author.importanceReason",
+      "claim": "1973년 노벨문학상이 오스트레일리아 소설을 세계문학의 독서 목록에 올려놓았다",
+      "verdict": "contradicted",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/press-release/",
+      "quote": "He is the one who, for the first time, has given the continent of Australia an authentic voice that carries across the world",
+      "correction": "1973년 노벨문학상 때 스웨덴 한림원은 그가 처음으로 오스트레일리아 대륙에 세계로 퍼지는 진정한 목소리를 주었다고 평했다.",
+      "note": "출처는 한림원의 평가까지만 말한다. 수상이 오스트레일리아 소설 전체를 세계문학 독서 목록에 올렸다는 인과 주장은 없다. 오히려 시상 연설은 인용문이 '다소 오해되었다'며, 화이트와 별개로 중요한 오스트레일리아 문학이 이미 있었음을 부정하려는 뜻이 아니라고 적는다(https://www.nobelprize.org/prizes/literature/1973/ceremony-speech/).",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "1377f713cdb7"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "『보스』는 해안에서 내륙으로 들어가 대륙을 횡단하려는 탐험대의 여정을 따라간다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "Johann Ulrich Voss sets out to cross the Australian continent in 1845. After collecting a party of settlers and two Aboriginal men, his party heads inland from the coast only to meet endless adversity."
+    },
+    {
+      "sids": [
+        "1377f713cdb7"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "탐험은 동쪽 해안(시드니)에서 출발한다",
+      "verdict": "confirmed",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/voss.html",
+      "quote": "The broad outline of the narrative is based on Leichhardt's ill-fated journey of exploration in search of an overland route from Sydney to Darwin.",
+      "note": "같은 글은 탐험대가 헌터밸리를 지나 달링다운스 바깥으로 나아간다고 적는다. 시드니는 동쪽 해안이다. '가장 안전하다'는 독서 조언이라 검증 대상이 아니다. / 독립 검증: 인용은 줄거리 윤곽이 시드니에서 다윈으로 가는 라이히하르트의 육로 탐험을 바탕으로 한다고 말한다. 시드니가 동쪽 해안이라는 것은 지리적 사실이라 유지했다."
+    },
+    {
+      "sids": [
+        "9a202b079a63"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "화이트의 대표작 논의는 『보스』에 모여 있다",
+      "verdict": "contradicted",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/voss.html",
+      "quote": "This is for many readers White’s most demanding and most impressive novel.",
+      "correction": "많은 독자가 이 소설을 화이트의 가장 까다롭고 인상적인 소설로 꼽는다.",
+      "note": "대표작 평가는 한 작품에 모여 있지 않다. ADB는 『트와이번 사건』(1979)을 두고 'which many now regard as White’s best novel'이라 쓰고, 노벨 사실 페이지는 'His big breakthrough came with The Tree of Man'이라 쓴다. 위키백과는 화이트 자신이 『보스』에 대한 찬사에 지쳤다고 적는다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "2618d15c9a97"
+      ],
+      "field": "author.readingWarning",
+      "claim": "『전차를 탄 사람들』은 네 인물의 생애를 차례로 서술한 뒤에야 인물들을 한자리에서 만나게 한다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "Mordecai shares his life story with Mary as the pair bond under a tree.",
+      "correction": "『전차를 탄 사람들』에서 모르데카이 힘멜파브의 생애는 이미 만난 메리 헤어에게 들려주는 이야기로 서술된다. 만남이 생애 서술 뒤로 미뤄지지 않는다.",
+      "note": "위키백과 줄거리에 따르면 메리는 1부 끝에서 이미 모르데카이를 만나고, 2부는 모르데카이가 메리에게 들려주는 자기 이야기이며, 3부에서는 루스가 모르데카이를 돌본다. 생애 서술(1~5부)과 만남이 맞물려 있다. 네 사람이 모이는 곳은 6부의 가짜 십자가형 장면이다. 이때 메리와 루스가 그를 돌보고, 앨프는 밖에서 지켜보기만 한다. '초반이 흩어져 읽힌다'는 독서 인상이라 검증 대상이 아니다. / 독립 검증: 이전 교정문('네 사람의 길은 힘멜파브의 수난 장면에 가서야 한데 모인다')은 이전 인용(메리가 모르데카이를 만나는 대목)이 받치지 않았다. 인용을 2부 첫 문장으로 바꾸고 교정문을 그 인용이 말하는 데로 좁혔다. 수난 장면의 모임은 추가 주장으로 따로 달았다(앨프는 밖에서 지켜보기만 하므로 '네 사람이 한자리에'는 여전히 과하다).",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "41c07dda63e1"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "화이트의 문장은 도치와 생략이 잦고 은유가 사건 설명을 대신해, 무슨 일이 일어났는지가 보통 한 문단 뒤에야 확정된다",
+      "verdict": "contradicted",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/ceremony-speech/",
+      "quote": "Patrick White is a rather difficult author not only because of his special ideas and problems but also perhaps no less due to his unusual combination of epic and poetic qualities. In his broad narrative he uses a highly compressed language",
+      "correction": "서사적 폭과 시적 밀도를 함께 지니고 고도로 압축된 언어를 써서 어렵다는 평을 받는다.",
+      "note": "도치·생략의 빈도와 '사건이 한 문단 뒤에야 확정된다'는 구체적 주장은 노벨 시상 연설, 위키백과 문체 절, ABC 해설 어디에서도 찾지 못했다. 출처는 압축된 언어(노벨 연설), 'very mannered writer'(ABC 로슨), 시점이 'continually, rapidly and disconcertingly' 바뀐다(위키백과, Williams 1993)까지만 말한다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "594c92f3565e"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "화이트의 장편은 500–650쪽이다",
+      "verdict": "contradicted",
+      "url": "https://openlibrary.org/books/OL20056421M.json",
+      "quote": "478 p. ;",
+      "correction": "『보스』 초판(1957, 에어 앤드 스포티스우드)은 478쪽이고",
+      "note": "Open Library 판본 기록 기준. 『보스』 Eyre & Spottiswoode 1957년판 478쪽(OL20056421M)으로 하한 500쪽에 못 미친다. 『인간의 나무』 Viking 1955년판 499쪽(OL6175990M), 『전차를 탄 사람들』 Eyre & Spottiswoode 1961년판 552쪽(OL14183065M), 『생체 해부자』 Cape 1970년판 642쪽(OL5320837M). 앞선 패스가 근거로 쓴 『전차를 탄 사람들』 643쪽은 위키백과 정보상자의 2002년판(LC PR9619.3.W5 R533 2002) 값으로 보이며 초판이 아니다. / 독립 검증: 교정문을 이 인용이 받치는 『보스』 한 권으로 좁혔다. 나머지 세 권은 추가 주장으로 달았다: 『인간의 나무』 Viking 1955년 초판 499쪽, 『전차를 탄 사람들』 Eyre & Spottiswoode 1961년판 552쪽, 『생체 해부자』 Cape 1970년판 642쪽. 네 권을 합치면 478–642쪽이다. 『인간의 나무』 499쪽은 미국판(초판)이므로 이전 교정문의 '영국 초판 기준'은 틀렸다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "594c92f3565e"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "화이트의 서사는 사건보다 의식의 이동으로 진행된다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Patrick_White",
+      "quote": "His narratives shift seamlessly between past and present, inner experience and outer awareness, and the point of view of different characters.",
+      "correction": "서술이 과거와 현재, 내면의 경험과 바깥의 인식, 여러 인물의 시점 사이를 끊김 없이 오간다.",
+      "note": "'사건보다'라는 대비는 『보스』에 대해서만 확인된다(위키백과 Voss: 'The strength of the novel comes not from the physical description of the events in the story but from the explorers' passion, insight and doom'). 장편 전체에 대한 진술로는 확인하지 못했다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "2f897ce58084"
+      ],
+      "field": "work:patrick-white--the-vivisector.facts",
+      "claim": "『생체 해부자』(The Vivisector)는 1970년에 처음 출간된 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Vivisector",
+      "quote": "The Vivisector is the eighth published novel by Patrick White. First published in 1970"
+    },
+    {
+      "sids": [
+        "a3e97e9672a3"
+      ],
+      "field": "work:patrick-white--the-vivisector.significance",
+      "claim": "『생체 해부자』는 화가 허틀 더필드의 일생을 따라간다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Vivisector",
+      "quote": "it details the lifelong creative journey of fictional artist/painter Hurtle Duffield"
+    },
+    {
+      "sids": [
+        "a3e97e9672a3"
+      ],
+      "field": "work:patrick-white--the-vivisector.significance",
+      "claim": "이 소설은 예술가가 타인을 어디까지 예술의 재료로 쓰는가를 묻는다",
+      "verdict": "confirmed",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/vivisector.html",
+      "quote": "The longest of Patrick White's novels, The Vivisector develops fully a subject with which he had been fascinated since the very beginning of his literary career - the life of the artist. … Throughout his life and his writing career, White was obsessed by one of the great Romantic conundrums - the relation between art and life and more particularly the relation between the artist's life and his work and the effect of this on personal relationships. To what extent, that is, do the \"demands\" of art take priority over normal social and personal obligations? Does the artist \"cannibalise\" the lives of those around him to gather material for art?",
+      "note": "독립 검증: 재인용: 이전 인용은 물음만 담고 그것이 이 소설의 물음이라는 연결이 없었다. 같은 문단 첫 문장(이 소설이 예술가의 삶이라는 주제를 온전히 펼친다)까지 넣었다."
+    },
+    {
+      "sids": [
+        "5af5ffdddd34"
+      ],
+      "field": "work:patrick-white--the-vivisector.significance",
+      "claim": "이 소설은 창작의 잔혹성(예술가가 자신과 주변 사람을 희생시킴)을 다룬다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/ceremony-speech/",
+      "quote": "In a way it is also true of the all-pervading principal characters in White’s two latest and largest novels: the artist in The Vivisector and the old woman in The Eye of the Storm. In the artist the creative urge is portrayed as a species of curse, as a result of which his art becomes an all-consuming effort of which both its practitioner and the people close to him become the victims.",
+      "note": "독립 검증: 재인용: 이전 인용의 'the artist'가 『생체 해부자』의 화가라는 것은 바로 앞 문장에만 있어 그 문장을 함께 넣었다."
+    },
+    {
+      "sids": [
+        "5af5ffdddd34"
+      ],
+      "field": "work:patrick-white--the-vivisector.significance",
+      "claim": "이 소설은 화이트 자신에 대한 자기 심문에 가깝다",
+      "verdict": "contradicted",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/vivisector.html",
+      "quote": "The longest of Patrick White's novels, The Vivisector develops fully a subject with which he had been fascinated since the very beginning of his literary career - the life of the artist. … Throughout his life and his writing career, White was obsessed by one of the great Romantic conundrums - the relation between art and life and more particularly the relation between the artist's life and his work and the effect of this on personal relationships. To what extent, that is, do the \"demands\" of art take priority over normal social and personal obligations? Does the artist \"cannibalise\" the lives of those around him to gather material for art?",
+      "correction": "화이트가 문학 경력 첫머리부터 매달려 온 주제인 예술가의 삶을 온전히 펼친 소설로, 평생 그를 사로잡은 예술과 삶의 관계라는 물음을 다룬다.",
+      "note": "자전적 독해는 평자마다 갈린다. 위키백과가 인용한 조디 윌리엄슨은 'White's great autobiography'라고 했지만, 같은 ABC 글(로슨)은 'there is little that is conventionally autobiographical about the book'이라고 쓰고, 화이트 자신도 더필드와 실존 화가의 연관을 부인했다. '자기 심문'이라고 단정할 근거는 없다. / 독립 검증: 이전 인용은 화이트의 평생 관심만 말하고 이 소설과의 연결('정면으로 다룬')이 없었다. 같은 문단 첫 문장('develops fully a subject … the life of the artist')까지 넣어 교정문을 그 말에 맞췄다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "10ef170b64d1"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.facts",
+      "claim": "『전차를 탄 사람들』(Riders in the Chariot)은 1961년에 출간된 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "Riders in the Chariot is the sixth novel by Australian author Patrick White. It was published in 1961"
+    },
+    {
+      "sids": [
+        "ec9d5191a917"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.significance",
+      "claim": "네 주인공은 주류 사회에서 밀려난 사람들이고, 그중에는 유대인 난민과 원주민 화가가 있다",
+      "verdict": "confirmed",
+      "url": "https://adb.anu.edu.au/biography/white-patrick-victor-paddy-14925",
+      "quote": "Its four 'riders' are all, as White believed himself to be, outcasts from mainstream Australia: Mordecai Himmelfarb, a Jewish refugee; Mary Hare, an eccentric spinster; Ruth Godbold, a working-class mother; and Alf Dubbo, an Aboriginal artist."
+    },
+    {
+      "sids": [
+        "ec9d5191a917"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.significance",
+      "claim": "유대인 난민 모르데카이 힘멜파브는 학자다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "Born in the 1880s to a wealthy Jewish merchant family in Germany, Mordecai’s early childhood was tinged with the faint awareness of the pogroms underway in eastern Europe at the time. He grows into an exceptional scholar and studies at Oxford",
+      "note": "독립 검증: 재인용: 이전 인용의 'He'가 모르데카이라는 것이 인용 안에 없어 앞 문장을 함께 넣었다."
+    },
+    {
+      "sids": [
+        "ec9d5191a917"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.significance",
+      "claim": "메리 헤어는 괴짜 상속녀다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "Mary Hare - an eccentric and troubled heiress born into a reputable family of early Australian settlers"
+    },
+    {
+      "sids": [
+        "ec9d5191a917"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.significance",
+      "claim": "루스 갓볼드는 세탁부다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "Ruth is an impoverished and deeply religious woman supporting six young children by taking in laundry from other households."
+    },
+    {
+      "sids": [
+        "ec9d5191a917"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.significance",
+      "claim": "소설은 네 사람의 생애를 차례로 쌓아 올린 뒤에 이들을 한자리에서 만나게 한다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "Mordecai shares his life story with Mary as the pair bond under a tree.",
+      "correction": "모르데카이 힘멜파브의 생애는 이미 만난 메리 헤어에게 들려주는 이야기로 서술되어, 만남이 생애 서술 뒤로 미뤄지지 않는다.",
+      "note": "만남은 생애 서술 뒤로 미뤄지지 않는다. 메리와 모르데카이는 1부에서, 루스와 모르데카이는 3부에서 만난다. 위키백과 도입부의 요약은 'traces their lives towards the point where they realise they share the same vision'이다. / 독립 검증: 이전 교정문('같은 환시를 공유한다는 깨달음에 이르는 지점까지')은 이전 인용이 받치지 않았다. 인용을 2부 첫 문장으로 바꾸고 교정문을 좁혔다. 위키백과 도입부의 요약은 추가 주장으로 따로 달았다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "7bdc8f29199c"
+      ],
+      "field": "work:patrick-white--the-tree-of-man.facts",
+      "claim": "『인간의 나무』는 1955년에 처음 출간되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tree_of_Man",
+      "quote": "Publication date August 15, 1955 (US) [1] 1956 (UK)",
+      "note": "영국판(Eyre & Spottiswoode)은 1956년이다. / 독립 검증: 재인용: 이전 인용은 미국판 날짜만 있어 '처음'을 받치지 못했다. 같은 정보상자 행에 영국판 1956년이 함께 있어 1955년 미국판이 먼저임을 인용만으로 보인다(렌더링된 정보상자)."
+    },
+    {
+      "sids": [
+        "7bdc8f29199c"
+      ],
+      "field": "work:patrick-white--the-tree-of-man.facts",
+      "claim": "『인간의 나무』(The Tree of Man)는 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tree_of_Man",
+      "quote": "The Tree of Man is the fourth published novel by the Australian novelist and 1973 Nobel Prize-winner, Patrick White."
+    },
+    {
+      "sids": [
+        "06136973f21f"
+      ],
+      "field": "work:patrick-white--the-tree-of-man.significance",
+      "claim": "주인공 부부는 시드니 외곽에 정착한다",
+      "verdict": "contradicted",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/treeofman.html",
+      "quote": "It is an impressive work that sweeps widely across three generations of a family of settler-farmers in the bush outside Sydney - an area that is, by the end of the novel, largely absorbed into Sydney's sprawling outer suburbia.",
+      "correction": "시드니 외곽 오지에 정착한 농민 가족의",
+      "note": "독립 검증: 인용이 말하는 정착 주체는 '가족'(3대)이지 '부부'가 아니다. 부부의 생애는 34번 주장(노벨 발표문)과 추가한 노벨 사실 페이지 주장이 받친다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "06136973f21f"
+      ],
+      "field": "work:patrick-white--the-tree-of-man.significance",
+      "claim": "소설은 부부의 긴 한 생애를 서사시적 폭으로 따라간다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/press-release/",
+      "quote": "The book with which White really made his name, however, was The Tree of Man, an epically broad and psychologically discerning account of a part of Australian social development in the form of two people’s long life together, and struggle against outward and inward difficulties."
+    },
+    {
+      "sids": [
+        "06136973f21f"
+      ],
+      "field": "work:patrick-white--the-tree-of-man.significance",
+      "claim": "소설이 다루는 것은 평범한 사람들의 삶이다",
+      "verdict": "confirmed",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/treeofman.html",
+      "quote": "Stan’s long but not idealised marriage to Amy inaugurates a family of three generations of ordinary people, who struggle to find and understand their place in a world whose meaning is not always clear."
+    },
+    {
+      "sids": [
+        "a68d2c575a3d"
+      ],
+      "field": "work:patrick-white--voss.facts",
+      "claim": "『보스』(Voss)는 1957년에 출간된 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "Voss (1957) is the fifth published novel by Patrick White."
+    },
+    {
+      "sids": [
+        "c88596641eec"
+      ],
+      "field": "work:patrick-white--voss.significance",
+      "claim": "보스는 1840년대에 오스트레일리아 대륙 횡단에 나선다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "Johann Ulrich Voss sets out to cross the Australian continent in 1845."
+    },
+    {
+      "sids": [
+        "c88596641eec"
+      ],
+      "field": "work:patrick-white--voss.significance",
+      "claim": "보스는 독일인 탐험가다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "The novel centres on two characters: Voss, a German, and Laura, a young woman, orphaned and new to the colony of New South Wales."
+    },
+    {
+      "sids": [
+        "c88596641eec"
+      ],
+      "field": "work:patrick-white--voss.significance",
+      "claim": "여주인공 로라는 시드니에 남는다",
+      "verdict": "confirmed",
+      "url": "https://web.archive.org/web/2012/http://www.abc.net.au/arts/white/titles/novels/voss.html",
+      "quote": "But in Sydney, there are challenges to be faced as well, though not of such an obvious kind. For Laura and for her step sister - the apparently well-adjusted Belle Bonner - there are different needs."
+    },
+    {
+      "sids": [
+        "c88596641eec"
+      ],
+      "field": "work:patrick-white--voss.significance",
+      "claim": "보스와 로라는 서로를 환영으로 만난다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "A metaphysical thread unites the novel. Voss and Laura are permitted to communicate through visions."
+    },
+    {
+      "sids": [
+        "16a09d96f6b4"
+      ],
+      "field": "work:patrick-white--voss.significance",
+      "claim": "『보스』는 오스트레일리아의 고전적 주제인 탐험을 성취가 아니라 실패의 이야기로 다시 쓴다",
+      "verdict": "confirmed",
+      "url": "https://adb.anu.edu.au/biography/white-patrick-victor-paddy-14925",
+      "quote": "critics remained lukewarm about his recasting of another classic Australian theme, exploration, as a story of failure rather than achievement."
+    },
+    {
+      "sids": [
+        "16a09d96f6b4"
+      ],
+      "field": "work:patrick-white--voss.significance",
+      "claim": "『보스』는 탐험을 의지의 문제로 다룬다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/ceremony-speech/",
+      "quote": "And when he accompanies his explorer Voss into the wilderness of the continent, that wilderness becomes first and foremost a dramatic scenario for the obsession and self-sacrifice of a Nietzschean willpower."
+    },
+    {
+      "sids": [
+        "16a09d96f6b4"
+      ],
+      "field": "work:patrick-white--voss.significance",
+      "claim": "『보스』는 탐험을 굴욕(신이 되려는 허세가 꺾이는 일)의 문제로 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "White presents the desert as akin to the mind of man, a blank landscape in which pretensions to godliness are brought asunder.",
+      "note": "독립 검증: '굴욕'은 괄호 안 풀이(신이 되려는 허세가 꺾이는 일)의 뜻으로만 받쳐진다."
+    },
+    {
+      "sids": [
+        "2fa5de2bc1fc"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.facts",
+      "claim": "조이스는 화이트에게 영향을 주었고, 이 영향은 문헌으로 입증된다(방향 조이스→화이트, documented)",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22Lawrence+was+important%22",
+      "quote": "Lawrence was important, but Joyce was his God and Ulysses his Bible.",
+      "note": "데이비드 마, 『Patrick White: A Life』 Knopf 1992년판 151쪽(Google Books 본문 검색). ADB도 『해피 밸리』에 대해 'the obvious echoes of Joyce and Lawrence'를 지적한 평자들이 있었다고 적는다. / 독립 검증: Google Books 본문 검색(SearchWithinVolume) 조각으로 인용 전문을 다시 확인했다."
+    },
+    {
+      "sids": [
+        "92ab42f96269"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "데이비드 마의 전기 『패트릭 화이트: 한 생애』는 1991년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Patrick_White",
+      "quote": "|author=Marr, David |author-link=David Marr (journalist) |title=Patrick White: A Life |publisher=Random House Australia |year=1991"
+    },
+    {
+      "sids": [
+        "92ab42f96269"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "마의 전기는 화이트가 1936년에 『율리시스』를 읽었다고 적는다",
+      "verdict": "contradicted",
+      "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22Back+from+Denmark%22",
+      "quote": "Back from Denmark that summer he smuggled a copy of Ulysses. He was already a fan of James Joyce's writing, though not the man, whom he always thought repulsive. Now, fourteen years after its publication, he read the Irishman's great work.",
+      "note": "Knopf 1992년판 145쪽. 『율리시스』는 1922년에 출간되었으므로 14년 뒤는 1936년이다. / 독립 검증: 인용에는 연도 1936이 없고 'fourteen years after its publication'만 있다. 『율리시스』 출간(1922년 2월 2일)은 추가 주장(위키백과 Ulysses)이 받치므로, 두 주장을 함께 쓰면 '1936년'을 쓸 수 있다. / 독립 검증: Google Books 본문 검색(SearchWithinVolume) 조각으로 인용 전문을 다시 확인했다.",
+      "correction": "마의 전기는 화이트가 『율리시스』를 출간 14년 뒤에 읽었다고 적는다",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "92ab42f96269"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "그 독서는 런던에서 이루어졌다",
+      "verdict": "unverifiable",
+      "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22practically+God%22",
+      "quote": "Ulysses and Roy de Maistre entered his life in the same weeks.",
+      "note": "Knopf 1992년판 145쪽. 이 대목은 런던 에버리 스트리트 장(141–145쪽, 141쪽은 'EBURY STREET RUNS along the hem of Belgravia'로 시작)에 속한다. ADB는 화이트가 'stay in London and write' 하려고 'took a flat in Ebury Street' 했고 로이 드 메스트르도 같은 거리에 살았다고 적는다. / 독립 검증: 인용('Ulysses and Roy de Maistre entered his life in the same weeks')에는 장소가 없다. 같은 쪽의 이어지는 문장은 드 메스트르의 작업실이 'at 104 Ebury Street'였다고만 하고, 141쪽은 'his entire London existence was lived at Imhof's or within a few blocks of her establishment at 68 Ebury Street'라고 한다. 두 대목을 이어야 '런던'이 나오므로 한 인용으로 받치지 못한다. ADB도 런던 에버리 스트리트 거주와 드 메스트르를 말하지만 『율리시스』 독서는 말하지 않는다.",
+      "resolution": "narrowed"
+    },
+    {
+      "sids": [
+        "92ab42f96269"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "조이스는 화이트에게 '거의 신'이 되었다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22much+of+Ulysses+bored+him%22",
+      "quote": "He had to admit to himself that much of Ulysses bored him, but when it worked he was swept away. James Joyce became for him 'practically God'.",
+      "note": "Knopf 1992년판 145쪽. / 독립 검증: Google Books 본문 검색(SearchWithinVolume) 조각으로 인용 전문을 다시 확인했다."
+    },
+    {
+      "sids": [
+        "92ab42f96269"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "그 뒤 화이트는 『해피 밸리』를 의식의 흐름으로 썼다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22cul+de+sac+the+stream%22",
+      "quote": "As he wrote Happy Valley he was 'drunk with the techniques of writing . . . and had gone up that cul de sac the stream of consciousness'.",
+      "note": "Knopf 1992년판 151쪽. 'cul de sac the stream' 구절 검색으로 행이 이어짐을 확인했다. 화이트 자신은 의식의 흐름을 '막다른 골목'이라 불렀다. / 독립 검증: Google Books 본문 검색(SearchWithinVolume) 조각으로 인용 전문을 다시 확인했다."
+    },
+    {
+      "sids": [
+        "fe8fc8e2ec32"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "마의 전기는 화이트의 신화적 구성을 존 레이어드와 융 독서에 연결한다",
+      "verdict": "contradicted",
+      "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22Hare+has+White%27s+own+ability%22",
+      "quote": "Hare has White's own ability to enter other lives and his refusal to love the human race en masse. White took her name from The Lady and the Hare, John Layard's study of hares as sacrificial creatures in many mythologies. Layard was a friend of Peggy Garland's, who had sent the book out to Alexandria during the war. This was the first Jungian text White read, and he was impressed.",
+      "correction": "같은 전기는 메리 헤어라는 이름을, 여러 신화에서 제물이 되는 산토끼를 다룬 존 레이어드의 『The Lady and the Hare』에서 따왔다고 적고, 이 책을 화이트가 처음 읽은 융 계열 책이라고 한다.",
+      "note": "Knopf 1992년판 360쪽(레이어드)과 451–452쪽(융: 'The idea of making oneself whole, of making a mandala of one's life . . . appealed strongly to Patrick', 'I think Jung clarified for Patrick the idea of the whole'). 마가 연결하는 것은 개별 신화 모티프(산토끼, 만다라)이지 소설 전체의 '신화적 구성'은 아니다. / 독립 검증: 이전 교정문의 '만다라의 발상을 융 독서에 연결한다'는 이 인용(360쪽)에 없고 다른 대목(451–452쪽)이라 뺐다. 그 대목은 오히려 만다라 이미지가 'had always cropped up in White's writing'이라고 적는다(추가 주장). 인용은 Google Books 본문 검색 조각 두 개('Hare has White's own ability', 'sacrificial creatures')가 겹쳐 이어지는 한 대목으로 확인했다.",
+      "resolution": "removed"
+    },
+    {
+      "sids": [
+        "fe8fc8e2ec32"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "마의 전기는 신화적 구성을 조이스에 연결하지 않는다",
+      "verdict": "unverifiable",
+      "note": "접근 대기: https://archive.org/details/patrickwhitelife00davi — 부재를 입증하려면 전문 검색이 필요하다. 이 판본은 대출 전용이라 전문 검색 요청에 'Item not available'이 돌아왔다. Google Books 본문 검색은 조각만 보여 주어 조이스 언급(145·151쪽 등) 전체를 확인할 수 없다. 앞선 패스의 색인 기반 판단은 이번 세션에서 다시 읽지 못했다.",
+      "resolution": "removed"
+    },
+    {
+      "sids": [
+        "92ab42f96269"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "『율리시스』는 1922년에 출간되었다(따라서 출간 14년 뒤는 1936년이다)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Ulysses_(novel)",
+      "quote": "the entire work was published in Paris by Sylvia Beach on 2 February 1922, Joyce's fortieth birthday.",
+      "note": "46번 주장(마: 출간 14년 뒤에 읽었다)과 함께 써야 1936년이 나온다."
+    },
+    {
+      "sids": [
+        "594c92f3565e"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "『인간의 나무』 초판(1955, Viking, 뉴욕)은 499쪽이다",
+      "verdict": "confirmed",
+      "url": "https://openlibrary.org/books/OL6175990M.json",
+      "quote": "\"pagination\": \"499 p.\"",
+      "note": "같은 기록: publishers Viking Press, publish_date 1955, publish_places New York. 500쪽에 못 미친다."
+    },
+    {
+      "sids": [
+        "594c92f3565e"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "『전차를 탄 사람들』 1961년 Eyre & Spottiswoode(런던)판은 552쪽이다",
+      "verdict": "confirmed",
+      "url": "https://openlibrary.org/books/OL14183065M.json",
+      "quote": "\"pagination\": \"552 ;\"",
+      "note": "위키백과 정보상자의 643쪽은 LC 번호(PR9619.3.W5 R533 2002)로 보아 2002년판 값이다."
+    },
+    {
+      "sids": [
+        "594c92f3565e"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "『생체 해부자』 1970년 Cape(런던)판은 642쪽이다",
+      "verdict": "confirmed",
+      "url": "https://openlibrary.org/books/OL5320837M.json",
+      "quote": "\"pagination\": \"642 p.\""
+    },
+    {
+      "sids": [
+        "ec9d5191a917",
+        "2618d15c9a97"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.significance",
+      "claim": "『전차를 탄 사람들』은 느슨하게 이어진 네 사람의 생애를, 이들이 같은 전차의 환시를 공유한다는 것을 깨닫는 지점까지 따라간다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "The novel is the story of the lives of four loosely connected people, whose common link is the mystic experience of the chariot of the title described in the Book of Ezekiel, and traces their lives towards the point where they realise they share the same vision."
+    },
+    {
+      "sids": [
+        "ec9d5191a917",
+        "2618d15c9a97"
+      ],
+      "field": "work:patrick-white--riders-in-the-chariot.significance",
+      "claim": "힘멜파브가 가짜 십자가형 끝에 루스의 집에서 메리의 도움을 받으며 치료받을 때 앨프는 밖에서 셋을 지켜보다 떠난다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Riders_in_the_Chariot",
+      "quote": "His wounds are tended to in the shed which Ruth’s family lives, with the assistance of Mary, as his own home is set alight and destroyed. Alf watches the trio from outside but leaves before his own presence is discovered, and Mordecai succumbs to his injuries.",
+      "note": "네 사람이 한 장면에 모이는 유일한 곳이지만 앨프는 안으로 들어오지 않는다."
+    },
+    {
+      "sids": [
+        "fe8fc8e2ec32"
+      ],
+      "field": "relation:influence--james-joyce--patrick-white.summary",
+      "claim": "마의 전기는 융이 만다라라 부른 완전성의 원형 이미지가 화이트의 글에 늘 나타나 있었다고 적는다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=peP1dzpZY_IC&q=%22circular+images+of+perfection%22",
+      "quote": "Those circular images of perfection Jung called mandalas had always cropped up in White's writing, as jewels, birds' eggs, lakes, bays, trees, stones and the whirling patterns of dance.",
+      "note": "Knopf 1992년판 452쪽. 만다라 이미지는 융 독서에서 비롯된 것이 아니라 이전부터 있었다는 서술이다. 바로 앞 문장은 화이트가 융에게서 'ideas he had long held'를 보았다고 적는다."
+    },
+    {
+      "sids": [
+        "39e288997eb8"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『보스』에서 화이트는 사막을 인간의 정신에 견주어 그린다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voss_(novel)",
+      "quote": "White presents the desert as akin to the mind of man, a blank landscape in which pretensions to godliness are brought asunder.",
+      "note": "풍경과 내면을 겹치는 서술은 『보스』에 대해서만 확인된다. 작가 전체의 산문 특성으로는 10번 주장의 교정문을 쓴다."
+    },
+    {
+      "sids": [
+        "39e288997eb8",
+        "06136973f21f"
+      ],
+      "field": "work:patrick-white--the-tree-of-man.significance",
+      "claim": "『인간의 나무』는 한 농부와 그 아내가 오스트레일리아 시골에서 미래를 일구려 애쓰는 소설이다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1973/white/facts/",
+      "quote": "His big breakthrough came with The Tree of Man (1955), a novel about how a farmer and his wife toil to create a future in rural Australia."
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--nobelprize": {
+      "id": "src--nobelprize",
+      "kind": "general-reference",
+      "title": "The Nobel Prize in Literature — 수상자 전기·수상 연설",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org",
+      "citation": "노벨문학상 수상 작가의 공식 전기·업적 서술 확인용"
+    },
+    "src--white-prodigal-son-1958": {
+      "id": "src--white-prodigal-son-1958",
+      "title": "「탕자」(The Prodigal Son, 1958. 4.)",
+      "publisherOrInstitution": "Australian Letters 1권",
+      "citation": "앨리스터 커쇼의 「마지막 국외거주자」에 답해 유럽에서 돌아온 이유를 밝히고, 오스트레일리아 소설이 \"저널리즘적 사실주의의 칙칙한 잿빛 자손\"이 아님을 증명하려 했다고 쓴 에세이"
+    },
+    "src--marr-patrick-white-a-life": {
+      "id": "src--marr-patrick-white-a-life",
+      "title": "Patrick White: A Life (1991)",
+      "publisherOrInstitution": "David Marr, Random House Australia",
+      "citation": "화이트의 서한과 독서를 정리한 표준 전기 — 조이스·로런스·울프 수용에 관한 1차 자료의 소재를 제시한다"
+    }
+  }
+}

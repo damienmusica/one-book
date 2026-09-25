@@ -1,0 +1,934 @@
+{
+  "id": "voltaire",
+  "page": "https://literary-planet.pages.dev/authors/voltaire/",
+  "author": {
+    "names": {
+      "ko": "볼테르",
+      "original": "Voltaire",
+      "aliases": [
+        "François-Marie Arouet"
+      ]
+    },
+    "birthYear": 1694,
+    "deathYear": 1778,
+    "activeRange": [
+      1718,
+      1778
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "drama"
+    ],
+    "importanceReason": "억울하게 처형된 장 칼라스의 재심을 여론으로 이끌어내며 관용을 논증했고, 이 세상이 최선이라는 낙관론을 짧은 이야기의 형식으로 조롱했으며, 철학 콩트라는 장르의 대표 작가로 꼽힌다. 『캉디드』는 리스본 지진과 종교재판과 전쟁을 서른 장 안에 통과시키며, 논증 대신 사건의 누적으로 명제를 무너뜨린다. 『캉디드』는 18세기와 19세기 초 '철학 콩트'라 불린 소설들의 본보기가 되었다.",
+    "readingEntry": "voltaire--candide",
+    "readingEntryReason": "짧은 분량 안에 볼테르의 무기가 모두 들어 있다 — 속도, 반복되는 재난, 그리고 형이상학을 노동으로 갈아치우는 결말.",
+    "readingOrder": [
+      "voltaire--candide",
+      "voltaire--micromegas",
+      "voltaire--traite-sur-la-tolerance",
+      "voltaire--lettres-philosophiques"
+    ],
+    "readingWarning": "『철학편지』나 『관용론』부터 집으면 반박 대상이 보이지 않아 논박문만 읽게 된다. 이야기 두 편을 먼저 통과할 것.",
+    "difficulty": 2,
+    "difficultyReason": "장이 짧고 사건이 빠르게 굴러가 문장 자체의 저항은 거의 없다. 다만 조롱의 표적인 라이프니츠식 낙관론, 리스본 지진, 종교재판 같은 당대 논쟁을 알아야 웃음의 방향이 잡힌다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade"
+    ]
+  },
+  "works": [
+    {
+      "id": "voltaire--micromegas",
+      "titleKo": "미크로메가스",
+      "titleOriginal": "Micromégas",
+      "year": 1752,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "시리우스와 토성에서 온 거인이 지구의 인간을 관찰하는 짧은 이야기. 척도를 바꿔 인간의 자만을 재는 방식으로 『걸리버 여행기』의 독서를 잇는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "voltaire--candide",
+      "titleKo": "캉디드",
+      "titleOriginal": "Candide, ou l'Optimisme",
+      "year": 1759,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "낙관론을 배운 청년이 전쟁·지진·종교재판을 차례로 겪는 여정. '우리의 정원을 가꾸어야 한다'는 결말로 형이상학적 위안을 노동으로 갈아치운다.",
+      "sourceIds": []
+    },
+    {
+      "id": "voltaire--lettres-philosophiques",
+      "titleKo": "철학편지",
+      "titleOriginal": "Lettres philosophiques",
+      "year": 1734,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "영국의 의회, 종교적 다원성, 뉴턴과 로크를 서한 형식으로 서술하며 자국의 제도를 간접적으로 겨눈 보고. 출간 직후 소각 처분을 받았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "voltaire--traite-sur-la-tolerance",
+      "titleKo": "관용론",
+      "titleOriginal": "Traité sur la tolérance",
+      "year": 1763,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "개신교도 장 칼라스의 처형을 재검토하며 종교적 관용을 논증한 저작. 그 사건은 문필가의 개입이 재심으로 이어진 사례로 인용된다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--voltaire--jean-jacques-rousseau",
+      "type": "dialogue",
+      "from": "voltaire (볼테르)",
+      "to": "jean-jacques-rousseau (장자크 루소)",
+      "evidenceLevel": "documented",
+      "summary": "루소는 「섭리에 관하여 볼테르 씨에게 보내는 편지」(1756)로 볼테르의 리스본 지진 시편에 반박했고, 이후 제네바와 연극을 둘러싼 공개 논쟁으로 적대가 이어졌다.",
+      "sourceIds": [
+        "src--rousseau-lettre-providence-1756",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "translation--voltaire--johann-wolfgang-von-goethe",
+      "type": "translation",
+      "from": "voltaire (볼테르)",
+      "to": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "evidenceLevel": "documented",
+      "summary": "괴테는 카를 아우구스트 공작의 요구에 따른 궁정 작업으로 볼테르의 비극 『마호메트』를 독일어로 옮겼고, 이 번역은 루이제 공비의 생일인 1800년 1월 30일 바이마르 궁정극장에서 초연되었다. 실러는 헌시 「볼테르의 마호메트를 무대에 올린 괴테에게」를 보탰다.",
+      "sourceIds": [
+        "src--goethe-mahomet-weimar-1800"
+      ]
+    },
+    {
+      "id": "influence--cicero--voltaire",
+      "type": "documented_influence",
+      "from": "cicero (키케로)",
+      "to": "voltaire (볼테르)",
+      "evidenceLevel": "documented",
+      "summary": "볼테르는 『구원받은 로마, 또는 카틸리나』(1752년 극장 초연)에서 카틸리나 탄핵을 무대에 올리고 키케로를 주요 인물로 세웠다.",
+      "sourceIds": [
+        "src--voltaire-rome-sauvee-1752"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--jonathan-swift--voltaire (→ jonathan-swift 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "261e6c8e1b45",
+      "where": "author.importanceReason",
+      "text": "억울하게 처형된 장 칼라스의 재심을 여론으로 이끌어내며 관용을 논증했고, 이 세상이 최선이라는 낙관론을 짧은 이야기의 형식으로 조롱했으며, 철학 콩트라는 장르의 대표 작가로 꼽힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2d646e8a6bc5",
+      "where": "author.importanceReason",
+      "text": "『캉디드』는 리스본 지진과 종교재판과 전쟁을 서른 장 안에 통과시키며, 논증 대신 사건의 누적으로 명제를 무너뜨린다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b5f37354e812",
+      "where": "author.importanceReason",
+      "text": "『캉디드』는 18세기와 19세기 초 '철학 콩트'라 불린 소설들의 본보기가 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "eacb6a5b939f",
+      "where": "author.readingEntryReason",
+      "text": "짧은 분량 안에 볼테르의 무기가 모두 들어 있다 — 속도, 반복되는 재난, 그리고 형이상학을 노동으로 갈아치우는 결말.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ceb8953d01d1",
+      "where": "work:voltaire--micromegas.facts",
+      "text": "『미크로메가스』(Micromégas) · 1752 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bdf2af1b2dd7",
+      "where": "work:voltaire--candide.significance",
+      "text": "낙관론을 배운 청년이 전쟁·지진·종교재판을 차례로 겪는 여정.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b51ef0b50a9e",
+      "where": "work:voltaire--traite-sur-la-tolerance.significance",
+      "text": "그 사건은 문필가의 개입이 재심으로 이어진 사례로 인용된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e4e29d00f57d",
+      "where": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "text": "괴테는 카를 아우구스트 공작의 요구에 따른 궁정 작업으로 볼테르의 비극 『마호메트』를 독일어로 옮겼고, 이 번역은 루이제 공비의 생일인 1800년 1월 30일 바이마르 궁정극장에서 초연되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "85a112d749cf",
+      "where": "relation:influence--cicero--voltaire.summary",
+      "text": "볼테르는 『구원받은 로마, 또는 카틸리나』(1752년 극장 초연)에서 카틸리나 탄핵을 무대에 올리고 키케로를 주요 인물로 세웠다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "sids": [
+        "a221234469a7"
+      ],
+      "field": "author.facts",
+      "claim": "볼테르(본명 프랑수아마리 아루에)의 생몰년은 1694–1778이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "quote": "François-Marie Arouet (French: [fʁɑ̃swa maʁi aʁwɛ]; 21 November 1694 – 30 May 1778), known by his pen name Voltaire"
+    },
+    {
+      "sids": [
+        "a221234469a7"
+      ],
+      "field": "author.facts",
+      "claim": "프랑스(서유럽) 작가다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "quote": "was a French Enlightenment writer, philosopher (philosophe), satirist, and historian.",
+      "note": "재인용: 원 인용은 국적만 싣고 '프랑스어로 썼다'는 싣지 않아 주장을 국적으로 좁히고, 언어는 별도 주장으로 분리했다."
+    },
+    {
+      "sids": [
+        "ccb4016dabf0"
+      ],
+      "field": "author.importanceReason",
+      "claim": "장 칼라스는 억울하게(누명으로) 처형되었다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Trait%C3%A9_sur_la_tol%C3%A9rance",
+      "quote": "Ce texte vise la réhabilitation de Jean Calas, protestant faussement accusé et exécuté pour avoir assassiné son fils afin d'éviter que ce dernier ne se convertisse au catholicisme."
+    },
+    {
+      "sids": [
+        "ccb4016dabf0"
+      ],
+      "field": "author.importanceReason",
+      "claim": "볼테르의 개입으로 칼라스 사건의 재심이 이루어졌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Jean_Calas",
+      "quote": "Voltaire's efforts were successful, and King Louis XV received the family and had the sentence annulled in 1764. The king fired the chief magistrate of Toulouse, the Capitoul, the trial was done over",
+      "note": "재인용: 원 인용은 '판결 무효화'까지만 싣는다. 같은 단락의 바로 다음 문장('the trial was done over')까지 이어 인용해 재심을 인용문 안에 담았다."
+    },
+    {
+      "sids": [
+        "ccb4016dabf0"
+      ],
+      "field": "author.importanceReason",
+      "claim": "볼테르의 칼라스 구명은 여론에 기댄 전략이었다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Calas",
+      "quote": "Habile communicant, il met en œuvre une stratégie de défense qui s'appuie notamment sur l'opinion publique."
+    },
+    {
+      "sids": [
+        "ccb4016dabf0"
+      ],
+      "field": "author.importanceReason",
+      "claim": "볼테르는 (『관용론』에서) 관용을 논증했다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Trait%C3%A9_sur_la_tol%C3%A9rance",
+      "quote": "Dans ce Traité sur la Tolérance, Voltaire invite à la tolérance entre les religions,"
+    },
+    {
+      "sids": [
+        "ccb4016dabf0"
+      ],
+      "field": "author.importanceReason",
+      "claim": "볼테르는 '최선의 세계'라는 (라이프니츠식) 낙관론을 이야기 속에서 조롱했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Candide satirises various philosophical and religious theories that Voltaire had previously criticised. Primary among these is Leibnizian optimism (sometimes called Panglossianism after its fictional proponent), which Voltaire ridicules with descriptions of seemingly endless calamity.",
+      "note": "재인용: 원 인용 'which Voltaire ridicules…'는 선행사가 빠져 조롱 대상(라이프니츠식 낙관론)을 싣지 못했다. 같은 단락의 앞 문장부터 인용. '최선의 세계' 정식은 같은 문서: 'all is for the best in the best of all possible worlds'."
+    },
+    {
+      "sids": [
+        "ccb4016dabf0"
+      ],
+      "field": "author.importanceReason",
+      "claim": "그 조롱의 형식은 짧은 이야기다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "In the end, Candide is primarily, as described by Voltaire's biographer Ian Davidson, \"short, light, rapid and humorous\".",
+      "note": "재인용: 원 인용은 무엇이 짧은지(『캉디드』)를 싣지 못해 문장 전체를 인용."
+    },
+    {
+      "sids": [
+        "ccb4016dabf0"
+      ],
+      "field": "author.importanceReason",
+      "claim": "볼테르가 (낙관론 조롱을 통해) 철학 콩트라는 장르를 만들었다",
+      "verdict": "contradicted",
+      "url": "https://fr.wikipedia.org/wiki/Conte_philosophique",
+      "quote": "Voltaire est le principal représentant de ce genre, Candide, Micromégas et Zadig étant ses œuvres les plus représentatives.",
+      "correction": "억울하게 처형된 장 칼라스의 재심을 여론으로 이끌어내며 관용을 논증했고, 이 세상이 최선이라는 낙관론을 짧은 이야기의 형식으로 조롱했으며, 철학 콩트라는 장르의 대표 작가로 꼽힌다.",
+      "note": "출처는 볼테르를 이 장르의 '대표자'로 부르고 창시자라고 하지 않는다. 영어판 Candide 문서도 이 장르에 앞선 작품인 『자디그』(1747)·『미크로메가스』가 이미 포함되어 있다고 적어, 낙관론을 조롱한 『캉디드』(1759)가 장르를 만든 것은 아니다. [독립 검증] 원 교정문은 문장 앞절(칼라스·관용)을 빠뜨려 그대로 넣으면 검증된 내용이 사라졌다. 문장 전체를 대체하도록 고쳤다. '대표 작가'는 이 인용이, 앞 절들은 같은 sid의 다른 주장(칼라스·여론·관용·낙관론 조롱·짧은 이야기)이 받친다. 영어판 Candide 확인: 'This genre included previous works of his such as Zadig and Micromegas.'",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "ed5ea60fdfe9"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『캉디드』는 리스본 지진과 전쟁(7년 전쟁)을 거친다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Several historical events inspired Voltaire to write Candide, most notably the publication of Leibniz's \"Monadology\", the Seven Years' War, and the 1755 Lisbon earthquake. Both of the latter catastrophes are frequently referred to in Candide."
+    },
+    {
+      "sids": [
+        "ed5ea60fdfe9"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『캉디드』는 종교재판을 거친다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Pangloss discusses his optimistic philosophy with a member of the Portuguese Inquisition, and he and Candide are arrested for heresy"
+    },
+    {
+      "sids": [
+        "ed5ea60fdfe9"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『캉디드』는 서른 장 남짓(서른 장이 조금 넘는) 분량이다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Candide contains thirty episodic chapters",
+      "correction": "『캉디드』는 리스본 지진과 종교재판과 전쟁을 서른 장 안에 통과시키며, 논증 대신 사건의 누적으로 명제를 무너뜨린다.",
+      "note": "'남짓'은 서른을 넘는다는 뜻이다. 실제로는 정확히 서른 장이다. [독립 검증] 원 교정문의 '짧은 장'은 인용('thirty episodic chapters')에 없어 뺐다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "ed5ea60fdfe9"
+      ],
+      "field": "author.importanceReason",
+      "claim": "『캉디드』는 끝없이 이어지는 재난 묘사로 낙관론을 무너뜨린다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Candide satirises various philosophical and religious theories that Voltaire had previously criticised. Primary among these is Leibnizian optimism (sometimes called Panglossianism after its fictional proponent), which Voltaire ridicules with descriptions of seemingly endless calamity.",
+      "note": "재인용: 원 인용은 선행사가 빠져 무너뜨리는 대상(라이프니츠식 낙관론)을 싣지 못했다. 같은 단락 앞 문장부터 인용. 출처 동사는 'ridicules'(조롱)다."
+    },
+    {
+      "sids": [
+        "f2eff656c28a"
+      ],
+      "field": "author.importanceReason",
+      "claim": "이 형식(철학 도구로서의 소설)이 18세기 유럽의 논쟁 문체를 바꾸었다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "It became a model for the eighteenth- and early nineteenth-century novels called the contes philosophiques.",
+      "correction": "『캉디드』는 18세기와 19세기 초 '철학 콩트'라 불린 소설들의 본보기가 되었다.",
+      "note": "출처는 '철학 콩트의 모범이 되었다'까지만 말한다. '유럽의 논쟁 문체를 바꾸었다'는 주장을 받치는 출처는 찾지 못했다(영·프 위키백과 Candide, Voltaire, Conte philosophique 문서 확인). [독립 검증] 인용의 주어 'It'은 『캉디드』다(바로 앞 문장). 원 교정문의 '소설이 철학의 예시가 아니라 철학의 도구가 될 수 있다는 이 형식'은 인용에 없어 뺐다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "a9ed313b296a"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "『캉디드』는 짧고 빠른 이야기다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "In the end, Candide is primarily, as described by Voltaire's biographer Ian Davidson, \"short, light, rapid and humorous\".",
+      "note": "'하루면 읽힌다'는 독서 시간 추정이라 따로 검증하지 않았다."
+    },
+    {
+      "sids": [
+        "a9ed313b296a"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "『캉디드』에서는 재난이 반복된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "allows for compounding tragedies to befall the same characters over and over again"
+    },
+    {
+      "sids": [
+        "a9ed313b296a"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "『캉디드』의 결말은 형이상학(라이프니츠식 낙관론)을 실천적 노동의 교훈으로 대체한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Voltaire concludes Candide with, if not rejecting Leibnizian optimism outright, advocating a deeply practical precept, \"we must cultivate our garden\", in lieu of the Leibnizian mantra of Pangloss, \"all is for the best\""
+    },
+    {
+      "sids": [
+        "99f6d7a8d5fa"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "(볼테르 이야기는) 장이 짧다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "The story is organized into seven brief chapters.",
+      "note": "『캉디드』는 중편 분량에 30장(영어판 Candide 문서)."
+    },
+    {
+      "sids": [
+        "99f6d7a8d5fa"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "사건이 빠르게 굴러간다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Candide is characterized by its tone as well as its erratic, fantastical, and fast-moving plot."
+    },
+    {
+      "sids": [
+        "12e5e9d553f5"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "조롱의 표적은 라이프니츠식 낙관론이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "He is unrelenting in attacking Leibnizian optimism."
+    },
+    {
+      "sids": [
+        "12e5e9d553f5"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "리스본 지진은 당대의 논쟁거리였다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "The earthquake, tsunami, and resulting fires of All Saints' Day had a strong influence on theologians of the day and on Voltaire, who was himself disillusioned by them."
+    },
+    {
+      "sids": [
+        "12e5e9d553f5"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "종교재판도 『캉디드』의 조롱 표적이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "European governments such as France, Prussia, Portugal and England are each attacked ruthlessly by the author: the French and Prussians for the Seven Years' War, the Portuguese for their Inquisition",
+      "note": "재인용: 원 인용 'the Portuguese for their Inquisition'만으로는 공격·조롱이라는 술어가 없어 같은 문장 앞부분부터 인용."
+    },
+    {
+      "sids": [
+        "7430e899b138"
+      ],
+      "field": "work:voltaire--micromegas.facts",
+      "claim": "『미크로메가스』(Micromégas)는 1752년에 나온 허구 산문(중편)이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "Le Micromégas is a 1752 novella by the French philosopher and satirist Voltaire."
+    },
+    {
+      "sids": [
+        "7430e899b138"
+      ],
+      "field": "work:voltaire--micromegas.facts",
+      "claim": "1752년이 첫 인쇄 연도다(yearBasis: first-print)",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "Some uncertainty surrounds the first publication of Micromégas, with possible editions dating to 1751 or as early as 1739, but with the widely accepted publication being 1752.",
+      "correction": "『미크로메가스』(Micromégas) · 1752 (통설의 첫 출간 연도, 1751년·1739년 판본설 있음) · fiction",
+      "note": "같은 문서: 'The 1752 edition is the most commonly accepted as the first published with Voltaire's express consent.' Peter Lester Smith(1975)는 1751년 8월 이전에 이미 인쇄되었다고 본다. 첫 인쇄 연도로 단정할 수 없다. [독립 검증] 원 교정문의 '볼테르가 승인한 첫 판'은 이 인용이 아니라 같은 문서 다른 문장에 있어, 인용이 싣는 내용(통설 1752, 1751·1739 가능성)으로 고쳤다.",
+      "resolution": "narrowed"
+    },
+    {
+      "sids": [
+        "f6d58ca08b9f"
+      ],
+      "field": "work:voltaire--micromegas.significance",
+      "claim": "시리우스(를 도는 행성)와 토성에서 온 두 존재가 지구를 찾는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "The tale recounts the visit to Earth of a being from a planet circling the star Sirius, and of his companion from the planet Saturn."
+    },
+    {
+      "sids": [
+        "f6d58ca08b9f"
+      ],
+      "field": "work:voltaire--micromegas.significance",
+      "claim": "두 방문자는 거인이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "a man less than a twentieth of his size (a \"dwarf\" standing only 6,000 royal feet or 1.95 km tall)",
+      "note": "토성인이 '난쟁이'라 불려도 키가 6,000 피에다. 미크로메가스는 120,000 피에(같은 문서)."
+    },
+    {
+      "sids": [
+        "f6d58ca08b9f"
+      ],
+      "field": "work:voltaire--micromegas.significance",
+      "claim": "그들은 지구의 인간을 관찰한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "Using their magnifying-glass, the travelers become able to see the humans."
+    },
+    {
+      "sids": [
+        "f6d58ca08b9f"
+      ],
+      "field": "work:voltaire--micromegas.significance",
+      "claim": "짧은 이야기다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "The story is organized into seven brief chapters."
+    },
+    {
+      "sids": [
+        "3e808e647a08"
+      ],
+      "field": "work:voltaire--micromegas.significance",
+      "claim": "척도를 바꿔 인간의 크기를 상대화한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "relativize Man's diminutive size using the ratio of a man's height to the size of the Earth"
+    },
+    {
+      "sids": [
+        "3e808e647a08"
+      ],
+      "field": "work:voltaire--micromegas.significance",
+      "claim": "인간의 자만을 겨눈다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "Micromégas then is angry with the arrogance of Mankind"
+    },
+    {
+      "sids": [
+        "3e808e647a08"
+      ],
+      "field": "work:voltaire--micromegas.significance",
+      "claim": "『걸리버 여행기』의 거인·소인 장치를 잇는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "Critics have noted how Voltaire's fable re-uses the trope of giants and midgets from Swift's Travels.",
+      "note": "위키백과가 인용한 Adam Roberts, The History of Science Fiction (Palgrave, 2016), p.98의 문장."
+    },
+    {
+      "sids": [
+        "6cdaab725cd9"
+      ],
+      "field": "work:voltaire--candide.facts",
+      "claim": "『캉디드』 원제는 Candide ou l'Optimisme, 1759년에 나온 허구 이야기(철학 콩트)다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Candide",
+      "quote": "Candide ou l'Optimisme est un conte philosophique de Voltaire paru à Genève en janvier 1759."
+    },
+    {
+      "sids": [
+        "fbd8533e6a6c"
+      ],
+      "field": "work:voltaire--candide.significance",
+      "claim": "주인공은 (라이프니츠식) 낙관론을 배운 청년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "A young man, Candide, lives a sheltered life in an Edenic paradise, being indoctrinated with Leibnizian optimism by his mentor, Professor Pangloss."
+    },
+    {
+      "sids": [
+        "fbd8533e6a6c"
+      ],
+      "field": "work:voltaire--candide.significance",
+      "claim": "지진·전쟁·종교재판을 이 순서대로 겪는다",
+      "verdict": "contradicted",
+      "url": "https://fr.wikipedia.org/wiki/Candide",
+      "quote": "Enrôlé de force dans les troupes bulgares, il assiste à la boucherie de la guerre. … Ils embarquent avec Jacques pour Lisbonne. Après une tempête dans laquelle meurt noyé Jacques, ils arrivent à Lisbonne le jour du tremblement de terre et sont victimes d'un autodafé durant lequel Pangloss est pendu.",
+      "correction": "낙관론을 배운 청년이 전쟁·지진·종교재판을 차례로 겪는 여정.",
+      "note": "재인용: 원 인용(징집·전투)만으로는 전쟁→지진→종교재판의 순서를 싣지 못했다. 프랑스어판 줄거리(Péripéties) 한 단락에서 순서가 드러난다. 아우토다페는 종교재판의 처형 의식이다(같은 단락: 'maitresse d'un grand inquisiteur'). 교정문은 그대로 유효.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "78fda896ab7c"
+      ],
+      "field": "work:voltaire--candide.significance",
+      "claim": "결말은 '우리의 정원을 가꾸어야 한다'이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "Candide ignores Pangloss's insistence that all turned out for the best by necessity, instead telling him \"we must cultivate our garden\""
+    },
+    {
+      "sids": [
+        "78fda896ab7c"
+      ],
+      "field": "work:voltaire--candide.significance",
+      "claim": "이 결말은 형이상학적 위안(최선의 세계론)을 노동이라는 실천 교훈으로 대체한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Candide",
+      "quote": "advocating a deeply practical precept, \"we must cultivate our garden\", in lieu of the Leibnizian mantra of Pangloss"
+    },
+    {
+      "sids": [
+        "11447f84b2d6"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.facts",
+      "claim": "『철학편지』(Lettres philosophiques)는 1734년 프랑스어로 출간되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "quote": "In 1734, they were published in Rouen as Lettres philosophiques, causing a huge scandal.",
+      "note": "영역본 Letters Concerning the English Nation은 1733년에 먼저 나왔다(같은 문서)."
+    },
+    {
+      "sids": [
+        "11447f84b2d6"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.facts",
+      "claim": "장르는 에세이(비평·산문)다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Letters_on_the_English",
+      "quote": "are a series of essays written by Voltaire based on his experiences living in Great Britain between 1726 and 1729."
+    },
+    {
+      "sids": [
+        "6368ddec16f3"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.significance",
+      "claim": "영국 의회를 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Letters_on_the_English",
+      "quote": "Letter 8 talks about the British parliament"
+    },
+    {
+      "sids": [
+        "6368ddec16f3"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.significance",
+      "claim": "영국의 여러 종파(종교적 다원성)를 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Letters_on_the_English",
+      "quote": "He specifically talks about Quakers (1–4), Anglicans (5), Presbyterians (6) and Socinians (7)."
+    },
+    {
+      "sids": [
+        "6368ddec16f3"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.significance",
+      "claim": "로크를 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Letters_on_the_English",
+      "quote": "Letter 13 is about John Locke and his theories on the immortality of the soul."
+    },
+    {
+      "sids": [
+        "6368ddec16f3"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.significance",
+      "claim": "뉴턴을 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Letters_on_the_English",
+      "quote": "Letter 15 focuses on Newton's law of universal gravitation."
+    },
+    {
+      "sids": [
+        "6368ddec16f3"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.significance",
+      "claim": "서한(공개 편지) 형식이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Lettres_philosophiques",
+      "quote": "ce sont des lettres ouvertes, destinées à être lues par un plus grand nombre grâce à leur parution sous forme d’un livre"
+    },
+    {
+      "sids": [
+        "6368ddec16f3"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.significance",
+      "claim": "영국을 그리며 프랑스 제도를 겨눈 것으로 읽혔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Letters_on_the_English",
+      "quote": "where it was seen as an attack on the French system of government and was rapidly suppressed"
+    },
+    {
+      "sids": [
+        "bde7fc6517f1"
+      ],
+      "field": "work:voltaire--lettres-philosophiques.significance",
+      "claim": "출간 직후 소각 처분을 받았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "quote": "In 1734, they were published in Rouen as Lettres philosophiques, causing a huge scandal. … The book was publicly burnt and banned, and Voltaire was again forced to flee Paris.",
+      "note": "재인용: 원 인용(프랑스어판 'Le 10 juin, le Parlement de Paris condamne le livre à être lacéré et brulé')은 연도도 출간과의 관계도 싣지 않는다. 영어판 Voltaire 문서의 한 단락이 1734년 출간과 공개 소각을 잇는다. 프랑스어판 Lettres philosophiques: 6월 10일 파리 고등법원 소각 판결."
+    },
+    {
+      "sids": [
+        "89459689ca9c"
+      ],
+      "field": "work:voltaire--traite-sur-la-tolerance.facts",
+      "claim": "『관용론』(Traité sur la tolérance)은 1763년에 나온 에세이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Trait%C3%A9_sur_la_tol%C3%A9rance",
+      "quote": "Le Traité sur la tolérance est un essai philosophique de Voltaire publié en 1763."
+    },
+    {
+      "sids": [
+        "34b76e574db2"
+      ],
+      "field": "work:voltaire--traite-sur-la-tolerance.significance",
+      "claim": "장 칼라스는 개신교도였다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Jean_Calas",
+      "quote": "Calas was a Protestant in an officially Catholic society."
+    },
+    {
+      "sids": [
+        "34b76e574db2"
+      ],
+      "field": "work:voltaire--traite-sur-la-tolerance.significance",
+      "claim": "칼라스 사건을 다루며 종교적 관용을 논증한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "quote": "Voltaire's first major philosophical work in his battle against \"l'infâme\" was the Traité sur la tolérance (Treatise on Tolerance), exposing the Calas affair, along with the tolerance exercised by other faiths and in other eras"
+    },
+    {
+      "sids": [
+        "ed84455a76c2"
+      ],
+      "field": "work:voltaire--traite-sur-la-tolerance.significance",
+      "claim": "문필가(볼테르)의 개입이 실제 재심으로 이어졌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Jean_Calas",
+      "quote": "Voltaire's efforts were successful, and King Louis XV received the family and had the sentence annulled in 1764. The king fired the chief magistrate of Toulouse, the Capitoul, the trial was done over",
+      "note": "재인용: 원 인용은 '판결 무효화'까지만 싣는다. 같은 단락 다음 문장('the trial was done over')까지 이어 인용. 다만 국왕 자문회의가 재심을 명한 것은 1763년 3월 7일로 『관용론』 배포(1763년 10월)보다 앞선다(프랑스어판 Affaire Calas). 재심을 끌어낸 것은 이 책 한 권이 아니라 볼테르의 캠페인 전체다.",
+      "resolution": "narrowed"
+    },
+    {
+      "sids": [
+        "ed84455a76c2"
+      ],
+      "field": "work:voltaire--traite-sur-la-tolerance.significance",
+      "claim": "이 사건은 작가가 사법 사건에 개입한 사례로 인용된다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Calas",
+      "quote": "Voltaire est considéré comme le premier écrivain français à s'impliquer publiquement dans une affaire judiciaire."
+    },
+    {
+      "sids": [
+        "f0af513a3932"
+      ],
+      "field": "relation:dialogue--voltaire--jean-jacques-rousseau.facts",
+      "claim": "볼테르와 루소는 양방향으로 문서화된 대화(서신 논쟁)를 나눴다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Lettre_%C3%A0_Voltaire_sur_la_Providence",
+      "quote": "REPONSE DE MONSIEUR DE VOLTAIRE À LA LETTRE PRÉCÉDENTE. Aux Délices 12 Septembre 1756.",
+      "note": "루소의 1756년 8월 18일 편지와 그에 대한 볼테르의 답장이 같은 전집에 함께 실려 있다."
+    },
+    {
+      "sids": [
+        "9e7947747c88"
+      ],
+      "field": "relation:dialogue--voltaire--jean-jacques-rousseau.summary",
+      "claim": "루소가 볼테르에게 보낸 편지(「섭리에 관하여」)는 1756년 작이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Lettre_%C3%A0_Voltaire_sur_la_Providence",
+      "quote": "LETTRE À MONSIEUR DE VOLTAIRE. Le 18 Août 1756."
+    },
+    {
+      "sids": [
+        "9e7947747c88"
+      ],
+      "field": "relation:dialogue--voltaire--jean-jacques-rousseau.summary",
+      "claim": "그 편지는 볼테르의 리스본 지진 시에 반박한다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Lettre_%C3%A0_Voltaire_sur_la_Providence",
+      "quote": "Tous mes griefs sont donc contre votre Poëme sur le désastre de Lisbonne"
+    },
+    {
+      "sids": [
+        "9e7947747c88"
+      ],
+      "field": "relation:dialogue--voltaire--jean-jacques-rousseau.summary",
+      "claim": "이후 제네바와 연극을 둘러싼 공개 논쟁으로 적대가 이어졌다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Voltaire",
+      "quote": "En 1758, à la suite de la parution de l’article de D'Alembert, « Genève », dans l’Encyclopédie, Rousseau publie sa Lettre à d’Alembert sur les spectacles. … Visant Voltaire qui milite pour faire autoriser la comédie à Genève (elle le sera en 1783), il reprend la thèse de son premier Discours : le théâtre à Genève favoriserait le luxe",
+      "note": "재인용: 원 인용(『달랑베르에게 보내는 편지』 문서의 'son détracteur le plus acerbe demeure Voltaire…')은 루소도, 1756년 이후라는 시점도 싣지 않는다. 프랑스어판 Voltaire 문서의 한 단락이 1758년·제네바·연극·볼테르 겨냥을 함께 싣는다. 같은 문서 다음 단락: 1760년 6월 17일 루소의 '진짜 선전포고'."
+    },
+    {
+      "sids": [
+        "d9b5d612e587"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.facts",
+      "claim": "괴테가 볼테르 작품을 번역했다(볼테르 → 괴테, 방향 있는 번역 관계, 문서화됨)",
+      "verdict": "confirmed",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "Zu dem, vielleicht manchem sonderbar scheinenden Unternehmen, den Voltairischen Mahomet zu übersetzen, hat mich der Wunsch meines Fürsten gleichsam hingedrängt.",
+      "note": "Albert Meier 강연(2008)이 인용한, 괴테가 1803년 1월 3일 고타의 아우구스트 공자에게 보낸 편지."
+    },
+    {
+      "sids": [
+        "8c50bfa5d28d"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "claim": "괴테는 카를 아우구스트 공작의 요구에 따른 궁정 작업으로 볼테르의 비극 『마호메트』를 독일어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "ist zuallererst eine höfische Pflichtübung. Herzog Carl August hat seinen Minister jedenfalls regelrecht bedrängen müssen, damit dieser Voltaires klassizistische Tragödie Le fanatisme, ou Mahomet le prophète ins Deutsche übertrug"
+    },
+    {
+      "sids": [
+        "8c50bfa5d28d"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "claim": "공작은 이 번역을 루이제 공비의 생일 공연용으로 지시했다",
+      "verdict": "contradicted",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "Die Uraufführung hat in Weimar am 30. Januar 1800 stattgefunden, d. h. am Geburtstag der Herzogin Luise.",
+      "correction": "괴테는 카를 아우구스트 공작의 강한 요구에 따른 궁정 작업으로 볼테르의 비극 『마호메트』를 독일어로 옮겼고, 이 번역은 루이제 공비의 생일인 1800년 1월 30일 바이마르 궁정극장에서 초연되었다.",
+      "note": "출처는 초연일이 공비의 생일이었다는 것까지만 말한다. 공작이 생일 공연을 위해 번역을 지시했다는 목적 연결은 없다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "8c50bfa5d28d"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "claim": "이 번역은 1800년 1월 30일 바이마르에서 상연되었다",
+      "verdict": "confirmed",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "Die Uraufführung hat in Weimar am 30. Januar 1800 stattgefunden, d. h. am Geburtstag der Herzogin Luise."
+    },
+    {
+      "sids": [
+        "8c50bfa5d28d"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "claim": "괴테는 이 번역을 바이마르 극장에서 상연했다",
+      "verdict": "confirmed",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "ins Deutsche übertrug und auf dem Weimarer Theater zur Aufführung brachte.",
+      "note": "재인용: 원 인용은 'Weimarer Theater'까지만 싣고 '궁정극장'은 싣지 않아 주장을 둘로 나눴다. '궁정극장'은 다음 주장(독일어판 Weimarer Hoftheater 문서)이 받친다."
+    },
+    {
+      "sids": [
+        "8b0b58ce94cd"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "claim": "실러는 괴테의 『마호메트』 작업에 긴 시를 바쳤다",
+      "verdict": "confirmed",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "Schiller hat Goethes Mahomet-Arbeit mit einem langen Gedicht begleitet"
+    },
+    {
+      "sids": [
+        "8b0b58ce94cd"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "claim": "그 시의 제목은 「볼테르의 마호메트를 무대에 올린 괴테에게」다",
+      "verdict": "confirmed",
+      "url": "http://www.balladen.de/web/sites/balladen_gedichte/autoren.php?b05=20&b16=235",
+      "quote": "An Goethe, als er den Mahomet von Voltaire auf die Bühne brachte"
+    },
+    {
+      "sids": [
+        "fedf7c1d7c55"
+      ],
+      "field": "relation:influence--cicero--voltaire.facts",
+      "claim": "키케로가 볼테르에게 준 영향이 문서로 남아 있다(키케로 → 볼테르, 방향 있는 관계)",
+      "verdict": "confirmed",
+      "url": "https://www.mediterranees.net/histoire_romaine/catilina/voltaire/preface.html",
+      "quote": "on a eu surtout pour objet de faire connaître Cicéron aux jeunes personnes qui fréquentent les spectacles.",
+      "note": "볼테르 자신이 쓴 『구원받은 로마』 서문. 같은 서문은 키케로를 길게 찬양한다('Ses ouvrages servaient à notre éducation')."
+    },
+    {
+      "sids": [
+        "544b07daf8ee"
+      ],
+      "field": "relation:influence--cicero--voltaire.summary",
+      "claim": "『구원받은 로마, 또는 카틸리나』는 1752년 작이다",
+      "verdict": "contradicted",
+      "url": "https://fr.wikipedia.org/wiki/Rome_sauv%C3%A9e",
+      "quote": "La pièce est jouée le 8 juin 1750 chez Voltaire à Paris, le 22 juin 1750, au château de Sceaux, puis créée le 24 février 1752 au théâtre de la rue des Fossés Saint-Germain à Paris.",
+      "correction": "볼테르는 비극 『구원받은 로마, 또는 카틸리나』(1750년 상연, 1752년 파리 극장 초연)에서 카틸리나 탄핵의 정황을 무대에 올리고 키케로를 주요 인물로 세웠다.",
+      "note": "재인용: 원 인용(1750년 6월 6일 루이르그랑 학교 초연)은 교정문의 1752를 싣지 못했다. 같은 문서 다음 단락이 1750년 상연과 1752년 2월 24일 파리 극장 초연을 함께 싣는다. '공개 초연'의 '공개'는 출처에 없어 '극장 초연'으로 고쳤다. 참고: mediterranees.net 판은 제목에 '(1752)'를 단다 — 1752는 파리 극장 초연·간행 연도로 읽을 수 있다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "544b07daf8ee"
+      ],
+      "field": "relation:influence--cicero--voltaire.summary",
+      "claim": "카틸리나 탄핵의 정황을 무대에 올렸다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Rome_sauv%C3%A9e",
+      "quote": "Catilina avoue devant le Sénat, mais tente de justifier ses actes. Cicéron s'exprime contre lui, le traitant de conspirateur et d'assassin de son beau-père Nonnius.",
+      "note": "재인용: 원 인용의 'lui'가 누구인지(카틸리나) 인용 안에 없어 앞 문장부터 인용. 4막 원로원 장면. 같은 문서: 'Rome sauvée reprend l'intrigue de la conjuration de Catilina.'"
+    },
+    {
+      "sids": [
+        "544b07daf8ee"
+      ],
+      "field": "relation:influence--cicero--voltaire.summary",
+      "claim": "키케로를 주요 인물로 세웠다",
+      "verdict": "confirmed",
+      "url": "https://www.mediterranees.net/histoire_romaine/catilina/voltaire/preface.html",
+      "quote": "on a eu surtout pour objet de faire connaître Cicéron aux jeunes personnes qui fréquentent les spectacles.",
+      "note": "단 초연 배역표 첫 줄은 카틸리나(르캥)이고 키케로(라 누)가 둘째 줄이다(프랑스어판 위키백과). '주인공'이 아니라 '주요 인물'이라는 표현이면 맞다."
+    },
+    {
+      "sids": [
+        "a221234469a7"
+      ],
+      "field": "author.facts",
+      "claim": "볼테르는 프랑스어로 작품을 썼다(언어: fr)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "quote": "He wrote two book-long epic poems, including the first ever written in French, the Henriade",
+      "note": "독립 검증에서 추가. 같은 문서 각주: 'they were written in French and then translated into English by John Lockman'(『철학편지』)."
+    },
+    {
+      "sids": [
+        "8c50bfa5d28d"
+      ],
+      "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+      "claim": "괴테가 이끈 바이마르 극장은 카를 아우구스트 공작이 1791년 세운 궁정극장(Hoftheater)이다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Weimarer_Hoftheater",
+      "quote": "1791 beschloss Herzog Carl August die Gründung des Herzoglichen Hoftheaters im Komödienhaus, das 1779 am heutigen Standort des Theaters von Anton Georg Hauptmann errichtet worden war. Die Leitung bekam Goethe übertragen.",
+      "note": "독립 검증에서 추가. 같은 문서: 괴테의 감독직은 1817년까지('Unter seiner Intendanz, die bis 1817 währte'), 1798년 10월 12일 개축 후 재개관. 따라서 1800년 초연 무대는 궁정극장이다."
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--rousseau-lettre-providence-1756": {
+      "id": "src--rousseau-lettre-providence-1756",
+      "title": "루소 「섭리에 관하여 볼테르 씨에게 보내는 편지」(1756. 8. 18.)",
+      "publisherOrInstitution": "Correspondance de Jean-Jacques Rousseau",
+      "citation": "볼테르의 「리스본 재난에 대한 시」에 반박한 루소의 공개 서한 — 두 사람 논쟁의 1차 근거"
+    },
+    "src--goethe-mahomet-weimar-1800": {
+      "id": "src--goethe-mahomet-weimar-1800",
+      "title": "괴테 역 볼테르 『마호메트』 (바이마르 궁정극장, 1800년 초연)",
+      "publisherOrInstitution": "Weimarer Hoftheater",
+      "citation": "실러의 권유로 괴테가 볼테르 비극을 독일어로 옮겨 상연한 기록 — 번역 관계의 1차 근거"
+    },
+    "src--voltaire-rome-sauvee-1752": {
+      "id": "src--voltaire-rome-sauvee-1752",
+      "title": "Rome sauvée, ou Catilina (1752)",
+      "publisherOrInstitution": "Voltaire",
+      "citation": "카틸리나 음모를 무대에 올리고 키케로를 주인공으로 세운 비극 — 볼테르의 키케로 수용을 보여주는 텍스트"
+    }
+  }
+}

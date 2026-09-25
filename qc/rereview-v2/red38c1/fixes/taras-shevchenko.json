@@ -1,0 +1,27 @@
+{
+  "fixes": [
+    {
+      "id": "taras-shevchenko",
+      "languages": ["uk", "ru"],
+      "importanceReason": "농노로 태어나 속량된 뒤 우크라이나어 시로 제국의 언어 밖에서 문학어를 세우는 선례를 남겼다. 우크라이나 민요의 문체와 율격을 시행의 기본으로 삼았고, 농노제·캅카스 정복 같은 당대의 정치와 그가 태어나기 전의 1768년 봉기를 시에 담았다. 창작 금지 처분 이전에 쓰인 시들이 필사로 돌았고, 유형기의 시는 손수 만든 소책자에 숨겨졌다.",
+      "difficultyReason": "시행은 대개 민요 율격이라 소리 내어 읽으면 잡히지만, 농노제·1768년 봉기가 시에 압축돼 배경 없이는 고유명사가 비고, 한 번역자는 그 통사·음악의 혁신을 영역하기 어렵다고 한다.",
+      "resolutions": [
+        {
+          "field": "author.facts",
+          "claim": "작품 언어는 우크라이나어(uk) 하나다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "캅카스 정복을 다룬 「캅카스」도 그 민요 율격 안에 썼다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "그의 시행은 민요 율격이다(한정 없이)",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

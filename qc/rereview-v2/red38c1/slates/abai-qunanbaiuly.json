@@ -1,0 +1,847 @@
+{
+  "id": "abai-qunanbaiuly",
+  "page": "https://literary-planet.pages.dev/authors/abai-qunanbaiuly/",
+  "author": {
+    "names": {
+      "ko": "아바이 쿠난바이울리",
+      "original": "Абай Құнанбайұлы",
+      "aliases": [
+        "Abai Qunanbaiuly",
+        "Абай Кунанбаев"
+      ]
+    },
+    "birthYear": 1845,
+    "deathYear": 1904,
+    "activeRange": [
+      1870,
+      1904
+    ],
+    "languages": [
+      "kk"
+    ],
+    "regions": [
+      "central-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "구술로 겨루던 아큰의 시를 글로 써서 남겼고, 푸시킨·레르몬토프·크릴로프·괴테를 카자흐어 운율에 얹어 옮겼다. 생전에 인쇄된 작품은 한두 편뿐, 첫 작품집은 사후인 1909년에 나왔다. 1890년부터 1898년까지 쓴 「잠언집」 45편은 친족 간 반목, 게으름과 허세, 교육, 신앙을 따져 물었고, 카자흐 논설 산문의 고전적 본보기로 꼽힌다. 그는 현대 카자흐 문어의 발전에 으뜸가는 역할을 했고 카자흐 시에 새 운율·각운과 8행·6행 시형을 들여왔으며, 아우에조프의 『아바이의 길』로 세계에 알려진 문학적 형상이 되었다.",
+    "readingEntry": "abai-qunanbaiuly--qara-sozder",
+    "readingEntryReason": "편마다 길이가 달라 짧은 편도 훨씬 긴 편도 있지만 편 단위로 끊어 읽을 수 있고, 카자흐 운율에 대한 지식 없이 아바이의 논지와 어조를 바로 만난다.",
+    "readingOrder": [
+      "abai-qunanbaiuly--qara-sozder",
+      "abai-qunanbaiuly--qarangy-tunde-tau-qalgyp",
+      "abai-qunanbaiuly--tatyana-khaty",
+      "abai-qunanbaiuly--olengderi-1909"
+    ],
+    "readingWarning": "『아바이 시집』은 아바이가 죽은 뒤 흩어져 있던 시를 모아 낸 1909년 판본이고, 푸시킨·레르몬토프·크릴로프 번역시 41편이 「번역」 절로 따로 묶여 있다. 다음 단계라기보다 앞서 읽은 시들을 아바이의 시 전체 안에 놓고 다시 보는 자리다.",
+    "difficulty": 3,
+    "difficultyReason": "시는 카자흐 땅과 민족성의 특징을 드러내고 이슬람 신앙의 개념을 담으며, 「잠언집」은 볼로스트 관리와 비이 같은 당대의 상대를 겨냥해 논박한다. 배경 주석 없이 읽으면 훈계처럼만 보이고 논쟁의 구도가 사라진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--adebiportal-kz",
+      "src--abai-olengderi-spb-1909"
+    ]
+  },
+  "works": [
+    {
+      "id": "abai-qunanbaiuly--qarangy-tunde-tau-qalgyp",
+      "titleKo": "어두운 밤 산이 졸고",
+      "titleOriginal": "Қараңғы түнде тау қалғып",
+      "year": 1892,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "괴테의 「나그네의 밤노래」를 레르몬토프의 러시아어 역 「괴테에게서(산봉우리들)」를 거쳐 1892년 카자흐어로 옮긴 8행시. 괴테 원시의 정적이 카자흐의 밤 풍경으로 갈아입는 과정을 한눈에 보여 주는 짧은 텍스트다.",
+      "sourceIds": []
+    },
+    {
+      "id": "abai-qunanbaiuly--tatyana-khaty",
+      "titleKo": "타티야나의 편지",
+      "titleOriginal": "Татьянаның хаты",
+      "year": 1889,
+      "yearBasis": "composition-range",
+      "genre": "poetry",
+      "significance": "『예브게니 오네긴』에서 타티야나가 오네긴에게 보내는 편지를 카자흐어 운문으로 옮기고 아바이가 직접 선율을 붙인 것. 초원에서 노래로 유통되면서 러시아 소설의 한 장면이 카자흐 구전 레퍼토리 안으로 옮겨 앉았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "abai-qunanbaiuly--olengderi-1909",
+      "titleKo": "카자흐 시인 이브라힘 쿠난바이울리의 시",
+      "titleOriginal": "Қазақ ақыны Ибраһим Құнанбайұғылының өлеңі",
+      "year": 1909,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "사후 5년 만에 조카 카키타이 이스카쿨리와 아들 투라굴이 상트페테르부르크에서 펴낸 시 모음. 흩어져 불리던 시를 활자로 고정했고, 아우에조프의 학술 판본은 이 판과 뮈르세이트 필사본에 기댔다.",
+      "sourceIds": []
+    },
+    {
+      "id": "abai-qunanbaiuly--qara-sozder",
+      "titleKo": "잠언집",
+      "titleOriginal": "Қара сөздер",
+      "year": 1890,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "1890년부터 1898년까지 쓴 45편의 산문으로, 「가클리야」(훈계의 말)라고도 한다. 번호만 붙은 채 이어지는 각 편이 친족 간 반목과 게으름을 나무라거나 지식·노동·신앙의 근거를 따지며, 카자흐 논설 산문의 고전으로 꼽힌다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "translation--alexander-pushkin--abai-qunanbaiuly",
+      "type": "translation",
+      "from": "alexander-pushkin (알렉산드르 푸시킨)",
+      "to": "abai-qunanbaiuly (아바이 쿠난바이울리)",
+      "evidenceLevel": "documented",
+      "summary": "아바이는 『예브게니 오네긴』에서 타티야나의 편지를 비롯한 대목을 카자흐어 운문으로 옮기고 직접 선율을 붙였다. 이 노래가 초원에서 불리면서 푸시킨의 인물이 카자흐 구전 레퍼토리에 들어갔다.",
+      "sourceIds": [
+        "src--adebiportal-kz"
+      ]
+    },
+    {
+      "id": "influence--abai-qunanbaiuly--mukhtar-auezov",
+      "type": "documented_influence",
+      "from": "abai-qunanbaiuly (아바이 쿠난바이울리)",
+      "to": "mukhtar-auezov (묵타르 아우에조프)",
+      "evidenceLevel": "documented",
+      "summary": "아우에조프는 아바이 연구(아바이타누)를 학문 분야로 세우고 아바이의 저작을 편찬했으며, 1942년부터 1956년까지 4부작 『아바이의 길』로 아바이의 생애를 소설로 다시 썼다.",
+      "sourceIds": [
+        "src--adebiportal-kz"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "translation--johann-wolfgang-von-goethe--abai-qunanbaiuly (→ johann-wolfgang-von-goethe 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "9110198ba9f1",
+      "where": "author.importanceReason",
+      "text": "생전에 인쇄된 작품은 한두 편뿐, 첫 작품집은 사후인 1909년에 나왔다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a1176031ba72",
+      "where": "author.importanceReason",
+      "text": "1890년부터 1898년까지 쓴 「잠언집」 45편은 친족 간 반목, 게으름과 허세, 교육, 신앙을 따져 물었고, 카자흐 논설 산문의 고전적 본보기로 꼽힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ac744602d56b",
+      "where": "author.importanceReason",
+      "text": "그는 현대 카자흐 문어의 발전에 으뜸가는 역할을 했고 카자흐 시에 새 운율·각운과 8행·6행 시형을 들여왔으며, 아우에조프의 『아바이의 길』로 세계에 알려진 문학적 형상이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2ed2736cb0a2",
+      "where": "author.readingEntryReason",
+      "text": "편마다 길이가 달라 짧은 편도 훨씬 긴 편도 있지만 편 단위로 끊어 읽을 수 있고, 카자흐 운율에 대한 지식 없이 아바이의 논지와 어조를 바로 만난다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e042202011d5",
+      "where": "author.difficultyReason",
+      "text": "시는 카자흐 땅과 민족성의 특징을 드러내고 이슬람 신앙의 개념을 담으며, 「잠언집」은 볼로스트 관리와 비이 같은 당대의 상대를 겨냥해 논박한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8d711b02e093",
+      "where": "work:abai-qunanbaiuly--qarangy-tunde-tau-qalgyp.significance",
+      "text": "괴테 원시의 정적이 카자흐의 밤 풍경으로 갈아입는 과정을 한눈에 보여 주는 짧은 텍스트다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a5b95c7e0a31",
+      "where": "work:abai-qunanbaiuly--olengderi-1909.significance",
+      "text": "흩어져 불리던 시를 활자로 고정했고, 아우에조프의 학술 판본은 이 판과 뮈르세이트 필사본에 기댔다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0311e8f40e49",
+      "where": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "text": "1890년부터 1898년까지 쓴 45편의 산문으로, 「가클리야」(훈계의 말)라고도 한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "70afedfa35df",
+      "where": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "text": "번호만 붙은 채 이어지는 각 편이 친족 간 반목과 게으름을 나무라거나 지식·노동·신앙의 근거를 따지며, 카자흐 논설 산문의 고전으로 꼽힌다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "sids": [
+        "0defa85ec4eb"
+      ],
+      "field": "author.facts",
+      "claim": "아바이 쿠난바이울리(Абай Құнанбайұлы), 1845–1904, 카자흐어로 쓴 시인",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Абай (Ибраһим) Құнанбайұлы (10 тамыз 1845 жыл – 6 шілде 1904 жыл) — ұстаз, ақын, ағартушы, қазақ әдеби тілінің негізін қалаушы"
+    },
+    {
+      "sids": [
+        "0defa85ec4eb"
+      ],
+      "field": "author.facts",
+      "claim": "지역은 중앙아시아(오늘날 카자흐스탄)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Abai_Qunanbaiuly",
+      "quote": "Abai was born in Karauyl village in Chingiz volost of Semipalatinsk uyezd of the Russian Empire (this is now in Abay District of Abai Region, Kazakhstan)."
+    },
+    {
+      "sids": [
+        "763e29caa3ce"
+      ],
+      "field": "author.importanceReason",
+      "claim": "아큰의 시는 구술로 겨루는 전통이었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Aytysh",
+      "quote": "The term is most commonly references a public song competition between aqyns.",
+      "note": "같은 문서 첫 문장: 「oral tradition of improvised singing and oratory between two parties referred to in Kazakh as akyns」. 아바이 이전 카자흐 시가 대부분 구술이었다는 점은 adebiportal 작가 항목 「Before him, most Kazakh poetry was oral」(https://adebiportal.kz/en/authors/view/2679)도 같다."
+    },
+    {
+      "sids": [
+        "763e29caa3ce"
+      ],
+      "field": "author.importanceReason",
+      "claim": "아바이는 자기 시를 글로 써서 남겼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Өзінің асыл өлеңдерін, қара сөздерін қағазға түсіріп, кейінгі ұрпаққа жазып қалдырса"
+    },
+    {
+      "sids": [
+        "763e29caa3ce"
+      ],
+      "field": "author.importanceReason",
+      "claim": "푸시킨·레르몬토프·크릴로프·괴테를 카자흐어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%9A%D1%83%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2",
+      "quote": "Он переводил Крылова, Лермонтова, Пушкина, Гёте и Байрона."
+    },
+    {
+      "sids": [
+        "4b5722853d6a"
+      ],
+      "field": "author.importanceReason",
+      "claim": "그의 시가 인쇄된 텍스트로 고정된 것은 1904년 사후 1909년 판본에서다",
+      "verdict": "contradicted",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Абай шығармаларын жинап, қағазға түсіріп, реттеп баспаға дайындау ісі ақын қайтыс болған соң ұзамай-ақ қолға алынғанын … осы 1909 ж. жарық көрген Абай шығармаларының тұңғыш жинағын, оған кірген Кәкітай жазған ақынның тұңғыш өмірбаянын айтуға болады. Абайдың көзі тірісінде жарық көрген шығармалары бірлі-екілі ғана екенін",
+      "correction": "생전에 인쇄된 작품은 한두 편뿐이었고, 그의 작품이 처음 한 권으로 묶여 나온 것은 사후에 나온 1909년 판본이다.",
+      "note": "WDL(https://web.archive.org/web/20201019021113/https://www.wdl.org/en/item/7321/)도 「Only a few of his poems were published during Abai’s life. This is his first collection」. adebiportal 기사는 생전 출판이 없었다고 적어 출처 간 차이가 있다 — 좁힌 문장이 양쪽과 충돌하지 않는다. [독립 검증] 원래 인용문에는 1909년도 사후도 없어 교정문을 받치지 못했다. 같은 문단에서 사후 수집·1909년 첫 모음집·생전 출판 한두 편을 잇는 구절로 바꾸고, 인용이 「작품(шығармалары)」이라 하므로 교정문의 「시」를 「작품」으로 좁혔다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "275a01c9f963"
+      ],
+      "field": "author.importanceReason",
+      "claim": "「잠언집」은 1890년부터 1898년까지 썼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Ақынның 1890-1898 жылдар аралығында жазылған «Қара сөздерінде»"
+    },
+    {
+      "sids": [
+        "275a01c9f963"
+      ],
+      "field": "author.importanceReason",
+      "claim": "「잠언집」은 45편의 산문이다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+      "quote": "Абайдың қара сөздері (Ғақлия) - ұлы ақынның сөз өнеріндегі көркемдік қуатын, философиядағы даналық дүниетанымын даралап көрсететін классикалық стильде жазылған прозалық шығармасы. Жалпы саны қырық бес бөлек шығармадан тұратын"
+    },
+    {
+      "sids": [
+        "275a01c9f963"
+      ],
+      "field": "author.importanceReason",
+      "claim": "게으름과 허세를 따져 물었다",
+      "verdict": "confirmed",
+      "url": "https://adebiportal.kz/kz/translation/view/595",
+      "quote": "When and where from did idleness and laziness come into the blood of the proud steppe peoples? Great sages have noticed long ago: each idler is weak-willed and cowardly; a weak-willed man is always boastful"
+    },
+    {
+      "sids": [
+        "275a01c9f963"
+      ],
+      "field": "author.importanceReason",
+      "claim": "따져 묻는 대상이 「씨족의 허영」이다",
+      "verdict": "contradicted",
+      "url": "https://adebiportal.kz/kz/translation/view/595",
+      "quote": "Why do the Kazakhs look at each other like wolves? Why do not they have empathy to relatives, why is there no truth?",
+      "correction": "1890년부터 1898년까지 쓴 「잠언집」 45편은 친족 간 반목, 게으름과 허세, 교육, 신앙을 산문으로 따져 물었고",
+      "note": "제2편은 오히려 잃어버린 가문의 자부심(「pride for the family」)을 한탄한다. 원문이 나무라는 것은 친족끼리의 반목·게으름·허세이지 씨족의 허영으로 특정되지 않는다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "275a01c9f963"
+      ],
+      "field": "author.importanceReason",
+      "claim": "교육을 따져 물었다",
+      "verdict": "confirmed",
+      "url": "https://adebiportal.kz/en/news/view/what_does_the_great_abay_say_about_in_the_work_the_book_of_words__21823",
+      "quote": "The next key topic touches upon those “Words” of the “The Book of Words”, that are related to thoughts and moral admonition of Abay about education, knowledge and upbringing. It was the most crucial topic for the poet."
+    },
+    {
+      "sids": [
+        "275a01c9f963"
+      ],
+      "field": "author.importanceReason",
+      "claim": "신앙을 따져 물었다",
+      "verdict": "confirmed",
+      "url": "https://adebiportal.kz/kz/translation/view/595",
+      "quote": "Being faithful - means to believe in the power and purity of Allah and accept iman as the teaching of the Prophet about the unity of Allah and life on the earth."
+    },
+    {
+      "sids": [
+        "275a01c9f963"
+      ],
+      "field": "author.importanceReason",
+      "claim": "노래하는 목소리와 구별되는 논증하는 목소리를 카자흐어에 마련했다(최초 수립)",
+      "verdict": "contradicted",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+      "quote": "Абаевские назидательное рассуждения представляют классический образец нациальной публицистической прозы.",
+      "correction": "카자흐 민족 논설 산문의 고전적 본보기로 꼽힌다.",
+      "note": "Fetisov의 평가(카자흐어 위키 인용)는 「민족 논설 산문의 고전적 본보기」까지다. 같은 문서는 아바이가 잠언집 이전에 이미 시로 논설적 발언을 했다고 적어, 잠언집이 논증하는 목소리를 처음 마련했다는 서술은 뒷받침되지 않는다. [독립 검증] 이전 교정문의 「노래하는 시와 구별되는」은 인용이 말하지 않는다. 같은 문서는 오히려 시도 같은 논설적 장르에 든다고 적는다(「тек Абайдың қара сөздері ғана емес, сонымен бірге … өлеңдері де жатады」). 교정문을 인용이 받치는 범위로 줄였다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "754d53e6e301"
+      ],
+      "field": "author.importanceReason",
+      "claim": "그가 고른 어휘가 20세기 카자흐 문어의 척도가 되었다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Kazakh_literature",
+      "quote": "The pre-eminent role in the development of modern literary Kazakh belongs to Abai Qunanbaiuly",
+      "correction": "그는 현대 카자흐 문어의 발전에서 으뜸가는 역할을 한 인물로 꼽히며,",
+      "note": "[독립 검증] 이전 교정문 뒷부분(새 운율·8행·6행 시형)은 이 인용이 아니라 ru.wiki 구절에 기댄 것이어서 별도 주장으로 떼어 냈다. 어휘가 20세기 문어의 「척도」가 되었다는 수준의 서술은 찾지 못했다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "754d53e6e301"
+      ],
+      "field": "author.importanceReason",
+      "claim": "그가 고른 시행 규칙이 20세기 카자흐 문어의 척도가 되었다",
+      "verdict": "contradicted",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%9A%D1%83%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2",
+      "quote": "Ввёл в казахское стихосложение новые размеры, рифмы и стихотворные формы: восьмистишия и шестистишия",
+      "correction": "카자흐 시에 새 운율과 각운, 8행·6행 시형을 들여왔고,",
+      "note": "[독립 검증 추가] 13번 주장의 교정문에서 분리. 출처가 말하는 것은 새 운율·각운·시형을 들여왔다는 것까지이고, 그 규칙이 20세기 문어의 척도가 되었다는 서술은 없다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "754d53e6e301"
+      ],
+      "field": "author.importanceReason",
+      "claim": "아우에조프의 4부작 이후 그의 생애 자체가 카자흐 문학의 중심 서사가 되었다",
+      "verdict": "contradicted",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Ол «Абай жолы» эпопеясымен ұлы ақын, ағартушының алып тұлғасын дүние жүзі оқырмандарына танымал әдеби бейне қатарына жеткізсе",
+      "correction": "아우에조프의 대하소설 『아바이의 길』로 아바이는 세계 독자에게 알려진 문학적 형상이 되었다.",
+      "note": "출처가 말하는 것은 아바이가 세계적으로 알려진 문학적 형상이 되었다는 것까지다. 「카자흐 문학의 중심 서사」라는 서술은 찾지 못했다. [독립 검증] 인용은 「эпопея」라고만 하므로 이전 교정문의 「4부작」을 「대하소설」로 바꿨다(4권 구성은 56번 주장의 ru.wiki 인용이 받친다).",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "60f060982eb7"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "「잠언집」은 편마다 길이가 다르고 훨씬 긴 편도 있다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+      "quote": "Оның алты-жеті үлгісі қысқа болса, қайсыбіреуі мазмұн, тақырып жағынан өзгешелеу, ауқымды болып келеді."
+    },
+    {
+      "sids": [
+        "60f060982eb7"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "짧은 편은 두세 쪽이다",
+      "verdict": "unverifiable",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+      "quote": "Оның алты-жеті үлгісі қысқа болса",
+      "note": "쪽수를 적은 출처를 찾지 못했다. adebiportal 영역본(https://adebiportal.kz/kz/translation/view/595)을 세어 보면 가장 짧은 제31편이 영어 113단어, 제12·18·19편이 200단어 안팎으로 한 쪽이 안 된다(영역본이 축약일 수 있다). 「짧은 것은 한 쪽이 채 안 되고」로 고치는 편이 안전하다.",
+      "resolution": "narrowed"
+    },
+    {
+      "sids": [
+        "60f060982eb7"
+      ],
+      "field": "author.readingEntryReason",
+      "claim": "운율 지식 없이 읽을 수 있는 산문이다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+      "quote": "классикалық стильде жазылған прозалық шығармасы"
+    },
+    {
+      "sids": [
+        "4432e7b4aaff"
+      ],
+      "field": "author.readingWarning",
+      "claim": "1909년 판본은 아바이 사후 흩어져 있던 시를 모아 낸 것이다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Абай шығармаларын жинап, қағазға түсіріп, реттеп баспаға дайындау ісі ақын қайтыс болған соң ұзамай-ақ қолға алынғанын дәлелдейтін нақтылы деректер жетерлік. Жарық көруінен бірнеше жыл бұрын құрастырылып, 1909 ж. Санкт-Петербургте басылған Абай өлеңдерінің жинағында ақынның жүз қырықтай өлеңі",
+      "note": "재인용: 원래 인용은 사후 수집 착수만 말하고 1909년 판본을 가리키지 않았다. 바로 다음 문장까지 이어 1909년 판이 사후에 모은 시의 모음집(「Абай өлеңдерінің жинағы」)임을 한 구절로 받친다. 이 문단은 이 판본을 『아바이 시집』이라 부르지만 작품 페이지 제목은 『카자흐 시인 이브라힘 쿠난바이울리의 시』다. 같은 책임을 드러내도록 제목을 맞추는 편이 좋다. 둘루토프는 이 책을 「Абай кітабы」라 불렀다(kk.wiki 1909 항목)."
+    },
+    {
+      "sids": [
+        "4432e7b4aaff"
+      ],
+      "field": "author.readingWarning",
+      "claim": "푸시킨·레르몬토프·크릴로프 번역시 41편이 「번역」 절로 따로 묶여 있다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D0%B7%D0%B0%D2%9B_%D0%B0%D2%9B%D1%8B%D0%BD%D1%8B_%D0%98%D0%B1%D1%80%D0%B0%D2%BB%D0%B8%D0%BC_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D2%93%D1%8B%D0%BB%D1%8B%D0%BD%D1%8B%D2%A3_%D3%A9%D0%BB%D0%B5%D2%A3%D1%96",
+      "quote": "«Переводтар», «Аттың сыны» деген 16 бөлімге топтастырылды. … Ақынның А. С. Пушкиннен, М. Ю. Лермонтовтан, И. А. Крыловтан аударған 41 өлеңі жеке бөлімге топтастырылған."
+    },
+    {
+      "sids": [
+        "cf6dbaf5655f"
+      ],
+      "field": "author.readingWarning",
+      "claim": "1909년 판본에는 앞서 읽은 「어두운 밤 산이 졸고」가 들어 있다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Алғаш рет 1909 ж. Санкт-Петербургте жарық көрген «Қазақ ақыны ИбраҺим Құнанбайұлының өлеңі» атты жинақта жарияланды."
+    },
+    {
+      "sids": [
+        "cf6dbaf5655f"
+      ],
+      "field": "author.readingWarning",
+      "claim": "1909년 판본에는 앞서 읽은 「타티야나의 편지」가 들어 있다",
+      "verdict": "confirmed",
+      "url": "https://auezovinstitute.kz/?page_id=7418",
+      "quote": "«Татьянаның Онегинге жазған хаты» («Амал жоқ – қайттым білдірмей») (1889). Бұл шығарманың түпнұсқасы – А. С. Пушкиннің «Евгений Онегин» романындағы «Татьянаның Онегинге хаты». 1909 жылғы жинақтан бергі барлық басылымдарда жарияланып келедi.",
+      "note": "[독립 검증] 아우에조프 연구소 주석이 「타티야나의 편지」가 1909년 모음집부터 모든 판본에 실려 왔다고 적는다. 같은 주석은 1909년 책의 이 시 제3연 3행 이문(「Шыдадым」)도 적는다. 이전 판정의 unverifiable을 confirmed로 올린다."
+    },
+    {
+      "sids": [
+        "68c238bb53c3"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "시는 초원의 씨족 제도와 목축 달력을 전제한 채 압축되어 있다",
+      "verdict": "contradicted",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Қай өлеңінен де қазақ жерінің, қазақтың ұлттық сипатының ерекшеліктері көрініп тұрады.",
+      "correction": "시는 어느 편에서나 카자흐 땅과 카자흐 민족성의 특징을 드러내고,",
+      "note": "[독립 검증 강등] 인용은 시마다 카자흐 땅과 민족성의 특징이 드러난다는 것까지다. 씨족 제도·목축 달력을 「전제」한다거나 「압축」되어 있다는 것은 받치지 않는다. 이슬람 부분은 23번 주장이 따로 받친다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "68c238bb53c3"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "시는 이슬람 신앙의 개념을 담는다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Ислам дініне өзінше сенген діни таным жайындағы философиялық көзқарастарын да өлеңмен жеткізеді."
+    },
+    {
+      "sids": [
+        "68c238bb53c3"
+      ],
+      "field": "author.difficultyReason",
+      "claim": "「잠언집」은 반박 상대를 명시하지 않은 채 논박한다",
+      "verdict": "contradicted",
+      "url": "https://adebiportal.kz/en/news/view/what_does_the_great_abay_say_about_in_the_work_the_book_of_words__21823",
+      "quote": "As in poetry, Abay in his reflective conversations, especially in the above-mentioned “Words”, speaks with contempt about the volost rulers and biys, living off Qazaq people",
+      "correction": "「잠언집」은 볼로스트 관리와 비이 같은 당대의 상대를 겨냥해 논박한다.",
+      "note": "제22편은 「Shall I respect local volost ruler or biy?」라고 상대를 직접 부른다. 모든 편이 「짧은 글」인 것도 아니다(제38편은 영역본 3천 단어가 넘는다). [독립 검증] 이전 교정문의 「물라」는 이 인용에 없고(영역본에는 있다), 「그 상대가 누구였는지 모르면」은 뒤 문장과 이어지지 않아 인용이 받치는 범위로 줄였다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "637a605fc53f"
+      ],
+      "field": "work:abai-qunanbaiuly--qarangy-tunde-tau-qalgyp.facts",
+      "claim": "「어두운 밤 산이 졸고」(Қараңғы түнде тау қалғып), 1892년, 시",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Абайдың 1892ж. М. Ю. Лермонтовтың «Из Гете» атты өлеңінен аударған өлеңі."
+    },
+    {
+      "sids": [
+        "1d47afe13c79"
+      ],
+      "field": "work:abai-qunanbaiuly--qarangy-tunde-tau-qalgyp.significance",
+      "claim": "괴테의 「나그네의 밤노래」를 레르몬토프의 러시아어 역을 거쳐 카자흐어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%9A%D1%83%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2",
+      "quote": "Гёте написал «Wanderers Nachtlied» («Ночную песню странника»), Лермонтов переложил её на русский язык («Горные вершины спят во тьме ночной…»), а спустя ещё полвека Абай Кунанбаев передал её содержание на казахском языке."
+    },
+    {
+      "sids": [
+        "1d47afe13c79"
+      ],
+      "field": "work:abai-qunanbaiuly--qarangy-tunde-tau-qalgyp.significance",
+      "claim": "레르몬토프 역의 제목은 「괴테에게서」이고 1892년에 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Абайдың 1892ж. М. Ю. Лермонтовтың «Из Гете» атты өлеңінен аударған өлеңі."
+    },
+    {
+      "sids": [
+        "1d47afe13c79"
+      ],
+      "field": "work:abai-qunanbaiuly--qarangy-tunde-tau-qalgyp.significance",
+      "claim": "8행시다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Әрқайсысы 4 тармақты 2 шумақтан тұрады, барлығы 8 жол."
+    },
+    {
+      "sids": [
+        "e805275c98c9"
+      ],
+      "field": "work:abai-qunanbaiuly--qarangy-tunde-tau-qalgyp.significance",
+      "claim": "원시는 독일 낭만시다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Wanderer%27s_Nightsong",
+      "quote": "Written in 1776 (\" Der du von dem Himmel bist \") and in 1780 (\" Über allen Gipfeln \"), they are among Goethe's most famous works.",
+      "correction": "괴테가 1780년에 쓴 시의 정적이 카자흐의 밤 풍경으로 갈아입는 과정을 한눈에 보여 주는 짧은 텍스트다.",
+      "note": "[독립 검증] 이전 인용은 「probably」로 연도를 흐렸다. 같은 문서 첫머리의 단정 문장으로 바꿨다. 「레르몬토프를 거쳐」는 26번 주장이 받치므로 교정문에서 뺐다. 참고로 en.wiki German Romanticism 문서는 예나 낭만주의를 1797–1802년으로 잡으면서도 괴테를 문학 인물 목록에 올린다. 그러니 「낭만시」라는 딱지는 틀렸다기보다 1780년 시에 대해 받쳐지지 않는 것이고, 교정문은 그 딱지를 뺀다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "e805275c98c9"
+      ],
+      "field": "work:abai-qunanbaiuly--qarangy-tunde-tau-qalgyp.significance",
+      "claim": "아바이 역은 원시를 카자흐 풍토에 맞게 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Ол Лермонтов тәржімесі арқылы ұлы Гетенің жан сырын тап басып, өлеңді қазақ топырағына бейімдеп, ұлттық әр беріп, жаңа, тың жыр туғыза алған."
+    },
+    {
+      "sids": [
+        "e6661fb8d21f"
+      ],
+      "field": "work:abai-qunanbaiuly--tatyana-khaty.facts",
+      "claim": "「타티야나의 편지」(Татьянаның хаты), 1889년, 시",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8B%D2%9B_%D0%BC%D2%B1%D1%80%D0%B0%D1%81%D1%8B%D0%BD_%D0%B6%D0%B8%D0%BD%D0%B0%D1%83",
+      "quote": "Абайдың 1889 ж. «Евгений Онегиннен» тәржімелеген «Татьянаның хаты» әнінің ел ішіне кең тарауы"
+    },
+    {
+      "sids": [
+        "aa404563231a"
+      ],
+      "field": "work:abai-qunanbaiuly--tatyana-khaty.significance",
+      "claim": "『예브게니 오네긴』에서 타티야나가 오네긴에게 보내는 편지를 카자흐어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Абай орыс ақыны Александр Пушкиннің өлеңмен жазылған \"Евгений Онегин\" деген романын толық аудармаған одан үзінділер тәржімалағак Абай: \"Онегиннің сипаты,\" \"Татьянаның Онегинге жазған хаты,\""
+    },
+    {
+      "sids": [
+        "aa404563231a"
+      ],
+      "field": "work:abai-qunanbaiuly--tatyana-khaty.significance",
+      "claim": "아바이가 직접 선율을 붙였다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD",
+      "quote": "Абай қазақ тіліне аударып, арнайы ән шығарған «Татьяна хаты» халық арасында өткен ғасырдың аяқ көзінде ете кең тарап, ең сүйікті өлеңдердің біріне айналуы"
+    },
+    {
+      "sids": [
+        "ae22ff797472"
+      ],
+      "field": "work:abai-qunanbaiuly--tatyana-khaty.significance",
+      "claim": "초원에서 노래로 유통되며 카자흐 구전 레퍼토리에 들어갔다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8B%D2%9B_%D0%BC%D2%B1%D1%80%D0%B0%D1%81%D1%8B%D0%BD_%D0%B6%D0%B8%D0%BD%D0%B0%D1%83",
+      "quote": "Семей өлеңшілерінің «Татьянаның хатын» әнге қосып айтып жүргендері»"
+    },
+    {
+      "sids": [
+        "dc0ff1912565"
+      ],
+      "field": "work:abai-qunanbaiuly--olengderi-1909.facts",
+      "claim": "『카자흐 시인 이브라힘 쿠난바이울리의 시』(Қазақ ақыны Ибраһим Құнанбайұғылының өлеңі), 1909년 초판, 시",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D0%B7%D0%B0%D2%9B_%D0%B0%D2%9B%D1%8B%D0%BD%D1%8B_%D0%98%D0%B1%D1%80%D0%B0%D2%BB%D0%B8%D0%BC_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D2%93%D1%8B%D0%BB%D1%8B%D0%BD%D1%8B%D2%A3_%D3%A9%D0%BB%D0%B5%D2%A3%D1%96",
+      "quote": "«Қазақ ақыны Ибраһим Құнанбайұғылының өлеңі»  - Абайдың И. Бораганскийдің«Восточная» баспасынан 1909 ж. жарық көрген тұңғыш жинағы."
+    },
+    {
+      "sids": [
+        "a578dbcfdc5a"
+      ],
+      "field": "work:abai-qunanbaiuly--olengderi-1909.significance",
+      "claim": "사후 5년 만에 상트페테르부르크에서 나왔다",
+      "verdict": "confirmed",
+      "url": "https://adebiportal.kz/en/news/view/what_does_the_great_abay_say_about_in_the_work_the_book_of_words__21823",
+      "quote": "First collection of his poems was published in Saint-Petersburg in 1909, five years after the death of the poet."
+    },
+    {
+      "sids": [
+        "a578dbcfdc5a"
+      ],
+      "field": "work:abai-qunanbaiuly--olengderi-1909.significance",
+      "claim": "카키타이 이스카쿨리와 투라굴이 펴냈다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D0%B7%D0%B0%D2%9B_%D0%B0%D2%9B%D1%8B%D0%BD%D1%8B_%D0%98%D0%B1%D1%80%D0%B0%D2%BB%D0%B8%D0%BC_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D2%93%D1%8B%D0%BB%D1%8B%D0%BD%D1%8B%D2%A3_%D3%A9%D0%BB%D0%B5%D2%A3%D1%96",
+      "quote": "Құрастырып, бастырғандар Кәкітай Ысқақұлы мен Тұрағұл Абайұлы"
+    },
+    {
+      "sids": [
+        "a578dbcfdc5a"
+      ],
+      "field": "work:abai-qunanbaiuly--olengderi-1909.significance",
+      "claim": "카키타이는 아바이의 조카다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%9A%D1%83%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2",
+      "quote": "Какитай, племянник — поэт, издатель стихов Абая. Сын младшего брата Абая Ыскака."
+    },
+    {
+      "sids": [
+        "a578dbcfdc5a"
+      ],
+      "field": "work:abai-qunanbaiuly--olengderi-1909.significance",
+      "claim": "투라굴은 아바이의 아들이며 카키타이와 함께 1909년 첫 모음집을 엮어 펴냈다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Бұл тұңғыш жинақты дайындаған, бастырып шығарған Кәкітай Ысқақұлы мен Абайдың баласы Тұрағұл болатын.",
+      "note": "[독립 검증 추가] 38번 주장의 「투라굴은 아들」 부분은 인용이 아니라 노트에만 있어 따로 떼어 검증했다."
+    },
+    {
+      "sids": [
+        "9df1322ab84c"
+      ],
+      "field": "work:abai-qunanbaiuly--olengderi-1909.significance",
+      "claim": "흩어져 불리던 시가 1909년 판본에서 인쇄된 본문으로 묶였다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Абай көзі тірісінде өзінің өлеңдерін жинаған емес. Олардың әрқайсысын бір жапырақ қағазға жазып, жастарға таратып бере берген. … Сөйтіп Абай өлеңдері қазақ даласында ауыздан ауызға таралып кете барды. Оның өлеңдері қолдан қолға көшіріп алынды. … Абай өлеңдерінің ең алғашқы жинағы 1909 жылы",
+      "note": "재인용: 원래 인용은 시가 흩어져 구전되었다는 것만 말하고 1909년 판본을 가리키지 않았다. 같은 문단 끝의 첫 모음집 문장까지 이어 인용했다. 이 문단은 인쇄지를 카잔으로 적어 다른 출처(상트페테르부르크)와 어긋나지만, 이 주장에는 도시가 들어 있지 않다."
+    },
+    {
+      "sids": [
+        "9df1322ab84c"
+      ],
+      "field": "work:abai-qunanbaiuly--olengderi-1909.significance",
+      "claim": "이후 모든 아바이 판본의 기준이 되었다",
+      "verdict": "contradicted",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Әуезов Абайтануды дербес ғылым саласы дәрежесіне көтерді. … 1933–57 ж. аралығында ақын шығармаларын жариялауда, олардың ғылыми басылымын жасауда орасан зор еңбек етті. Бұл басылымдар ақынның 1909 жылғы жинағы мен Мүрсейіт қолжазбалары негізінде жүзеге асырылды.",
+      "correction": "이후 아우에조프가 1933–57년에 낸 학술 판본들은 이 1909년 판과 뮈르세이트 필사본을 함께 바탕으로 삼았다.",
+      "note": "「어두운 밤 산이 졸고」 항목은 1957년 이후 판본이 둘째 연 두 행을 1909년 판이 아니라 뮈르세이트 필사본대로 싣는다고 적는다(「Мурсейіт қолжазбасында жөне 1957 жылдан бергі басылымдарда」). 모든 판본의 단일 기준이라는 서술은 틀리다. [독립 검증] 이전 인용에는 아우에조프의 이름이 없어 교정문의 주어를 받치지 못했다. 같은 문단 앞 문장부터 이어 인용했다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "a2785c72f496"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.facts",
+      "claim": "『잠언집』(Қара сөздер), 1890–1898 집필, 산문(논설)",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Ал қара сөзбен жазылған ғақлия-өсиеттерін 1890–1898 жылдар аралығында қолға алған."
+    },
+    {
+      "sids": [
+        "6a9a005b8fa6"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "45편의 짧은 산문이다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%9A%D1%83%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2",
+      "quote": "прозаическая поэма «Қара сөз» (в дословном переводе «Простое (буквально — чёрное) слово»), состоящая из 45 кратких притч или философских трактатов"
+    },
+    {
+      "sids": [
+        "6a9a005b8fa6"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "1890년부터 1898년까지 썼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Ақынның 1890-1898 жылдар аралығында жазылған «Қара сөздерінде»",
+      "note": "[독립 검증 추가] 42번 주장의 집필 기간은 인용이 아니라 노트에만 있어 따로 떼어 검증했다."
+    },
+    {
+      "sids": [
+        "6a9a005b8fa6"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "원래 제목은 「가클리야」(성찰)였다",
+      "verdict": "contradicted",
+      "url": "https://e-history.kz/en/history-of-kazakhstan/show/9593",
+      "quote": "The essay \"Gakliya\"(\"Words of edification\") or \"Kara soz\" (“Book of words”), take a special place in the Abay's art. Under these name combined forty five \"Words\"",
+      "correction": "1890년부터 1898년까지 쓴 45편의 산문으로, 「가클리야」(훈계의 말)라고도 불린다.",
+      "note": "찾은 출처들은 「가클리야」를 「잠언집」과 나란히 쓰이는 이름으로만 적는다(kk.wiki 「ғақлия (немесе Абайдың қара сөздері) деп аталатын прозасы」). 원래 제목이었다는 서술과 「성찰」이라는 뜻풀이는 확인되지 않았다. [독립 검증] 교정문의 45편을 받치도록 같은 문단 다음 문장까지 인용을 이었다. 집필 기간은 같은 sid의 추가 주장이 받친다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "9777eb46bfbd"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "번호만 붙은 채 이어진다",
+      "verdict": "confirmed",
+      "url": "https://adebiportal.kz/kz/translation/view/595",
+      "quote": "1891 The third word Why do the Kazakhs look at each other like wolves?"
+    },
+    {
+      "sids": [
+        "9777eb46bfbd"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "씨족의 허영과 게으름을 나무란다",
+      "verdict": "contradicted",
+      "url": "https://adebiportal.kz/kz/translation/view/595",
+      "quote": "Why do the Kazakhs look at each other like wolves? Why do not they have empathy to relatives, why is there no truth? When and where from did idleness and laziness come into the blood of the proud steppe peoples?",
+      "correction": "번호만 붙은 채 이어지는 각 편이 친족 간 반목과 게으름을 나무라거나",
+      "note": "나무라는 것은 친족끼리의 반목·게으름·허세다. 씨족의 허영으로 특정한 대목은 찾지 못했다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "9777eb46bfbd"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "지식·노동의 근거를 따진다",
+      "verdict": "confirmed",
+      "url": "https://adebiportal.kz/kz/translation/view/595",
+      "quote": "the Almighty gave them the power to work, and the intelligence to master the science. But the power is not always used for the honest work, and the mind is often wasted in vain."
+    },
+    {
+      "sids": [
+        "9777eb46bfbd"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "신앙의 근거를 따진다",
+      "verdict": "confirmed",
+      "url": "https://adebiportal.kz/kz/translation/view/595",
+      "quote": "The first – after taking iman, one knows how to protect and strengthen it with reasonable arguments. It is a conscious faith"
+    },
+    {
+      "sids": [
+        "9777eb46bfbd"
+      ],
+      "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+      "claim": "카자흐어 논설 산문의 출발점으로 다뤄진다",
+      "verdict": "contradicted",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+      "quote": "Абаевские назидательное рассуждения представляют классический образец нациальной публицистической прозы.",
+      "correction": "카자흐 민족 논설 산문의 고전적 본보기로 다뤄진다.",
+      "note": "Fetisov는 「고전적 본보기」라 했고, 같은 문서는 아바이가 잠언집을 쓰기 전부터 시로 논설적 글을 썼다고 반박한다. 「출발점」은 뒷받침되지 않는다.",
+      "resolution": "corrected"
+    },
+    {
+      "sids": [
+        "b16b293379b0"
+      ],
+      "field": "relation:translation--alexander-pushkin--abai-qunanbaiuly.facts",
+      "claim": "푸시킨 → 아바이 번역 관계, 문헌 확인",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Абай А.С. Пушкиннің «Евгений Онегин» дастанының үзінділерін қазақы ұғымда жатық етіп еркін аударды."
+    },
+    {
+      "sids": [
+        "4ded2a8128bb"
+      ],
+      "field": "relation:translation--alexander-pushkin--abai-qunanbaiuly.summary",
+      "claim": "『예브게니 오네긴』에서 타티야나의 편지를 비롯한 대목들을 카자흐어 운문으로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "\"Онегиннің сипаты,\" \"Татьянаның Онегинге жазған хаты,\" \"Онегиннің Татъянаға жауабы,\" \"Онегин сөзі,\" \"Онегиннің Татьянаға жазған хаты,\" \"Татьянаның сөзі,\" \"Ленскийдің сөзінен\" және \"Онегиннің өлердегі сөзі\" - деп жеке-жеке сегіз шығарма етіп аударған"
+    },
+    {
+      "sids": [
+        "4ded2a8128bb"
+      ],
+      "field": "relation:translation--alexander-pushkin--abai-qunanbaiuly.summary",
+      "claim": "타티야나의 편지에 직접 선율을 붙였다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Абайдың Татьяна хатының сөзіне шығарған «Татьянаның қырдағы әні» қалың елдің сүйікті әніне айналды."
+    },
+    {
+      "sids": [
+        "5d4ab72bfad4"
+      ],
+      "field": "relation:translation--alexander-pushkin--abai-qunanbaiuly.summary",
+      "claim": "이 노래가 초원에서 불리며 푸시킨 번역이 카자흐 구전 레퍼토리에 들어갔다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D2%9A%D2%B1%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%D2%B1%D0%BB%D1%8B",
+      "quote": "Ә. Бөкейханов өзінің қырғыз даласындағы әртүрлі уездерде болған кезінде ондағы ақындардың Пушкин мен Лермонтовтың Абай аударған өлеңдерін жақсы білетініне, оларды домбырада әнге қосып айтатынына көз жеткізіп қайтқанын жазады."
+    },
+    {
+      "sids": [
+        "2f34c25edd24"
+      ],
+      "field": "relation:influence--abai-qunanbaiuly--mukhtar-auezov.facts",
+      "claim": "아바이 → 아우에조프 영향 관계, 문헌 확인",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Әуезов Абайтануды дербес ғылым саласы дәрежесіне көтерді. Ол «Абай жолы» эпопеясымен ұлы ақын, ағартушының алып тұлғасын дүние жүзі оқырмандарына танымал әдеби бейне қатарына жеткізсе, ғылымда да сондай күрделі еңбек атқарды."
+    },
+    {
+      "sids": [
+        "d22dface869b"
+      ],
+      "field": "relation:influence--abai-qunanbaiuly--mukhtar-auezov.summary",
+      "claim": "아우에조프는 아바이 연구를 학문 분야로 세웠다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Әуезов Абайтануды дербес ғылым саласы дәрежесіне көтерді."
+    },
+    {
+      "sids": [
+        "d22dface869b"
+      ],
+      "field": "relation:influence--abai-qunanbaiuly--mukhtar-auezov.summary",
+      "claim": "아바이의 저작을 편찬했다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+      "quote": "Әуезов Абайтануды дербес ғылым саласы дәрежесіне көтерді. … 1933–57 ж. аралығында ақын шығармаларын жариялауда, олардың ғылыми басылымын жасауда орасан зор еңбек етті.",
+      "note": "재인용: 원래 인용에는 주어(아우에조프)가 없었다. 같은 문단 앞 문장부터 이어 인용했다."
+    },
+    {
+      "sids": [
+        "d22dface869b"
+      ],
+      "field": "relation:influence--abai-qunanbaiuly--mukhtar-auezov.summary",
+      "claim": "1942–1956년 4부작 『아바이의 길』로 생애를 소설로 썼다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9_%D0%9A%D1%83%D0%BD%D0%B0%D0%BD%D0%B1%D0%B0%D0%B5%D0%B2",
+      "quote": "Позже М. О. Ауэзов написал роман-эпопею «Путь Абая» (т. 1—4, 1942—1956)"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--adebiportal-kz": {
+      "id": "src--adebiportal-kz",
+      "title": "Әдебиет порталы (adebiportal.kz)",
+      "publisherOrInstitution": "카자흐스탄 문학 포털",
+      "url": "https://adebiportal.kz",
+      "citation": "카자흐 작가·작품의 연보와 서지를 제공하는 카자흐스탄의 국가 문학 포털"
+    },
+    "src--abai-olengderi-spb-1909": {
+      "id": "src--abai-olengderi-spb-1909",
+      "title": "Қазақ ақыны Ибраһим Құнанбайұғылының өлеңі (상트페테르부르크, 1909)",
+      "publisherOrInstitution": "카키타이 이스카쿨리·투라굴 쿠난바예프 편",
+      "url": "https://www.loc.gov/resource/gdcwdl.wdl_07321/",
+      "citation": "아바이 시의 최초 인쇄 판본 — 이후 카자흐 문어 정본의 기준이 된 사후 시집"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "fixes": [
+    {
+      "id": "charles-dickens",
+      "difficultyReason": "등장인물이 많고 곁줄거리가 얽혀 있어, 중반 이후 인물 관계를 놓치지 않는 지속적 독서가 필요하다.",
+      "works": [
+        {
+          "id": "charles-dickens--great-expectations",
+          "significance": "고아의 신분 상승과 자금의 출처, 거짓 가치의 허망함을 되짚는 1인칭 회고. 버나드 쇼에게는 디킨스의 ‘가장 빈틈없이 완벽한 책’."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "디킨스 장편은 사건이 곁가지 없이 곧게 나아간다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "디킨스의 문장은 곧고 평이하다",
+          "resolution": "removed"
+        },
+        {
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "버나드 쇼는 『위대한 유산』을 '가장 빈틈없이 완벽한 책'이라 했다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "plates": [
+    {
+      "id": "pramoedya-ananta-toer",
+      "claims": [
+        {
+          "sids": [
+            "4b97144ff064"
+          ],
+          "field": "author.importanceReason",
+          "claim": "4부작 곳곳에 편지·재판 증언·신문 기사·수기 같은 텍스트가 끼워져 있다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://ecommons.cornell.edu/bitstream/1813/54290/1/INDO_75_0_1106938964_61_90.pdf",
+          "quote": "Though intercalated by a number of texts (e.g., the letters, court testimonies, newspaper articles, notes, and paintings), the tetralogy is overtly shaped by Pramoedya's view of narrating history.",
+          "note": "Bahari, \"Remembering History, W/Righting History\", Indonesia 75 (2003), 87쪽. '수기'는 notes(팡에마난의 기록 등)에 해당한다."
+        },
+        {
+          "sids": [
+            "4b97144ff064"
+          ],
+          "field": "author.importanceReason",
+          "claim": "주인공 밍케는 자바 귀족 출신 청년이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "The book tells the story of Minke, a Javanese minor royal who studies at a Hogere Burger School (HBS) in an era when only the descendants of the European colonizers can expect to attain this level of education."
+        },
+        {
+          "sids": [
+            "4b97144ff064"
+          ],
+          "field": "author.importanceReason",
+          "claim": "앞의 세 권에서는 밍케의 삶과 성장이 곧 민족 각성의 과정으로 그려진다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://ecommons.cornell.edu/bitstream/1813/54290/1/INDO_75_0_1106938964_61_90.pdf",
+          "quote": "Minke in the first three novels whose life and growth as a pioneer of nationalism, and of Indonesian nationalist awakening itself, can be said to be anthropomorphised.",
+          "note": "Bahari(2003) 각주 33(75쪽). 범위를 '앞의 세 권'으로 한정한 점이 출처와 맞는다. 출처는 'can be said to be'로 해석임을 밝히는데, 문장은 이를 작가의 설계로 옮겨 적었다 — 뜻의 범위 안이다."
+        },
+        {
+          "sids": [
+            "30a1a2b173e3"
+          ],
+          "field": "author.importanceReason",
+          "claim": "4부작의 마지막 권은 식민 경찰(팡에마난)의 시점으로 서술된다",
+          "verdict": "confirmed",
+          "url": "https://www.publishersweekly.com/9780688145941",
+          "quote": "Police commissioner Tuan Pangemanann, narrator of this concluding volume to Pramoedya's extraordinary tetralogy set in colonial Indonesia, is a Sorbonne-educated reactionary"
+        },
+        {
+          "sids": [
+            "30a1a2b173e3"
+          ],
+          "field": "author.importanceReason",
+          "claim": "앞의 세 권은 밍케가 서술했고, 마지막 권은 반식민 투쟁을 팡에마난의 뒤틀린 시점으로 거른다",
+          "verdict": "confirmed",
+          "url": "https://www.publishersweekly.com/9780688145941",
+          "quote": "The first three volumes of Pramoedya's quartet (This Earth of Mankind; Child of All Nations; Footsteps)--written during the author's 14-year banishment, 1965-1979, to the prison island of Buru--were narrated by Minke, a progressive witness of world events. Here, by filtering the anti-colonialist struggle through Pangemanann's ambivalent, warped perspective, Pramoedya spikes his epic saga with slyly modernist irony",
+          "note": "'다시 거르게'는 서평이 앞 세 권(밍케 서술)과 이 권(팡에마난의 시점)을 대비하는 데 기댄 표현이다. 이 권이 다루는 시기는 1912년부터 1차 대전 끝까지(같은 서평)로 앞 권들 이후까지 이어지고, 팡에마난의 감시는 밍케 유형 전부터 시작된다(인도네시아어 위키백과) — 같은 사건의 재서술이라기보다 같은 투쟁을 다른 눈으로 본다는 뜻으로 읽힌다."
+        },
+        {
+          "sids": [
+            "46caf824917a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『인간의 대지』는 4부작의 첫 권이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "This Earth of Mankind is the first installment in Pramoedya Ananta Toer's epic quartet referred to as the Buru Quartet."
+        },
+        {
+          "sids": [
+            "46caf824917a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『인간의 대지』는 인물들의 삶과 관계를 통해 식민지 법이 작동하는 모습을 사건으로 보여 준다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "the book also powerfully portrays the reality of Dutch colonial government in Indonesia through the lives of the characters, where Minke's education and Nyai Ontosoro's success in business count for little when ranged against the unyielding Dutch colonial law.",
+          "note": "'먼저 보여 준다'는 첫 권이라는 순서에서 나오는 말이다."
+        },
+        {
+          "sids": [
+            "240e704b4241"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "하스타 미트라에서 1980년에 나온 『인간의 대지』는 328쪽이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL4252588M.json",
+          "quote": "\"publishers\": [\"Hasta Mitra\"], … \"pagination\": \"328 p. ;\", … \"publish_date\": \"1980\"",
+          "note": "미국 의회도서관 MARC 기반 Open Library 서지(LCCN 80942224, Jakarta). 인쇄 차수는 적혀 있지 않다."
+        },
+        {
+          "sids": [
+            "240e704b4241"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 328쪽이 초판(1980년 첫 인쇄) 기준이다",
+          "verdict": "unverifiable",
+          "url": "https://openlibrary.org/books/OL24390624M.json",
+          "quote": "\"number_of_pages\": 353, … \"edition_name\": \"Cet. ke-2.\", \"publish_date\": \"1980\"",
+          "correction": "분량은 하스타 미트라 1980년판(미국 의회도서관 서지) 기준 328쪽이다.",
+          "note": "328쪽 서지(OL4252588M)에는 인쇄 차수가 없다. 같은 출판사의 1980년 '2쇄(Cet. ke-2)'는 353쪽으로 목록되어 있고(인터넷 아카이브 스캔본 기반 서지; 스캔 이미지 370장도 328쪽보다 353쪽에 가깝다), 인도네시아어 위키백과 「Bumi Manusia (novel)」은 첫 인쇄가 1980년 8월 25일, 11월에 이미 3쇄였다고 적는다. 1980년 인쇄들끼리 쪽수가 달라 '초판 기준 328쪽'을 한 출처로 고정할 수 없다. 같은 문서 정보상자의 '535 Halaman'은 2005년 렌테라 디판타라판 쪽수와 같아 근거로 쓰지 않았다."
+        },
+        {
+          "sids": [
+            "448e8350013b"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『유리의 집』은 밍케 감시 임무를 맡은 경찰 팡에마난의 활동을 밍케의 유형 전·중·후에 걸쳐 담는다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "Jacques Pangemanann yang merupakan seorang komisaris polisi Hindia Belanda berdarah Minahasa dalam memberantas kelompok Si Pitung membuatnya ditugaskan untuk memata-matai aktivitas Minke. … Buku ini berisi detail dari aktivitas Pangemanann saat memata-matai Minke sebelum, saat, dan sesudah diasingkan ke Maluku Utara."
+        },
+        {
+          "sids": [
+            "448e8350013b"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『유리의 집』은 밍케가 이미 갇힌 상태에서 감시자 팡에마난의 시점으로 시작해, 먼저 읽으면 밍케의 유형을 감시자의 이야기로 먼저 알게 된다",
+          "verdict": "confirmed",
+          "url": "https://www.penguinrandomhouse.com/books/353308/house-of-glass-by-pramoedya-ananta-toer/",
+          "quote": "At the start of House of Glass, Minke, writer and leader of the dissident movement, is now imprisoned—and the narrative has switched to Pangemanann, a former policeman, who has the task of spying and reporting on those who continue the struggle for independence.",
+          "note": "밍케의 유형은 3권의 결말이다 — 영문 위키백과 Footsteps: \"The novel ends as he is led into exile outside Java and is forced to leave his wife.\" 그래서 4권을 먼저 읽으면 그 결말을 감시자 쪽에서 먼저 보게 된다는 경고는 출처들과 맞는다. '먼저 드러난다'의 효과 자체는 읽기 조언이다."
+        },
+        {
+          "sids": [
+            "320163f578da"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "4부작은 여러 인물을 사건 속에 끼워 넣고 시간의 확실성을 흔들어 경직된 연대기적 진행을 거스른다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://ecommons.cornell.edu/bitstream/1813/54290/1/INDO_75_0_1106938964_61_90.pdf",
+          "quote": "Pramoedya controverts the rigid chain of chronological progression, first by inserting the various motley characters—whose lives had been affected by the history he is telling and who in turn brought life to this history—squarely within it, and then by undermining the possibility of temporal certitude.",
+          "note": "Bahari(2003) 87쪽."
+        },
+        {
+          "sids": [
+            "320163f578da"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "4부작은 분량이 크다",
+          "verdict": "confirmed",
+          "url": "https://marxistleftreview.org/articles/why-you-should-read-this-earth-of-mankind/",
+          "quote": "[T]he scale of the Buru cycle…sprawls across twenty years and more than fifteen hundred pages in the English translation, by Max Lane.",
+          "note": "The New Yorker(Jamie James)를 인용한 대목('…'는 원문의 생략 표시). 하스타 미트라 인도네시아어판 네 권도 328+353+464+359쪽(Open Library 서지)이다."
+        },
+        {
+          "sids": [
+            "320163f578da"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "4부작은 네덜란드령 동인도의 신분 제도를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "The constant direct examples of calling someone \"pure blood\", \"mixed blood\", or \"native\" shows the reader the establishment of a caste system in the Dutch East Indies."
+        },
+        {
+          "sids": [
+            "320163f578da"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "4부작은 법정 절차(재판 기록)를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://ecommons.cornell.edu/bitstream/1813/54290/1/INDO_75_0_1106938964_61_90.pdf",
+          "quote": "the use of documents and published texts … (some of them fictional), letters, diaries, transcripts of court proceedings, newspaper reports",
+          "note": "Bahari(2003) 75–76쪽, 한 문장이 쪽을 넘어가는 사이의 각주를 '…'로 줄였다. 같은 글은 1권의 마이코 법정 증언(TEOM 126–32쪽)도 예로 든다. 1권 결말의 법원 결정은 클라크대 MixLit 항목(\"The courts then decide to send her off to Europe.\")도 적는다."
+        },
+        {
+          "sids": [
+            "320163f578da"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "4부작은 식민지 초기 신문 지형을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Footsteps_(novel)",
+          "quote": "He then realizes that his passion does not lie in medicine, and becomes a journalist. He founds first a magazine and then the first newspaper to be owned and operated by natives.",
+          "note": "2권에서는 식민지 네덜란드어 신문 Soerabaiaasch Nieuws에 글을 쓴다(영문 위키백과 Child of All Nations: \"writing for Maarten Nijman and the Soerabaiaasch Nieuws\")."
+        },
+        {
+          "sids": [
+            "0f6dbd1f400e"
+          ],
+          "field": "work:pramoedya-ananta-toer--anak-semua-bangsa.significance",
+          "claim": "친구들이 밍케에게 네덜란드어 대신 자바어로 쓰라고 권한다",
+          "verdict": "confirmed",
+          "url": "https://www.kirkusreviews.com/book-reviews/pramoedya-ananta-toer/child-of-all-nations/",
+          "quote": "Sometime journalist Minke plans to be a doctor, but friends like Jean Marais, a French artist, and Kommer, a mixed-blood—the Dutch, as they did in South Africa, specialized in racial classifications—advise him to write in Javanese, not Dutch, and to get to know the country people.",
+          "note": "영문 위키백과는 '자바어나 말레이어로(in Javanese or Malay)'라고 적는다. 문장은 권유까지만 말하고 밍케가 실제로 바꿔 썼다고 하지 않아 출처 범위 안이다."
+        },
+        {
+          "sids": [
+            "0f6dbd1f400e"
+          ],
+          "field": "work:pramoedya-ananta-toer--anak-semua-bangsa.significance",
+          "claim": "밍케가 사탕수수 농민을 인터뷰하며 그 현실을 취재한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "One major book changing event is Minke's interview and brief stay with Trunodongso. Trunodongso is a poor sugar cane farmer and he explains his grievances to Minke and expresses how natives all over the country are being taken advantage of.",
+          "note": "Kirkus(같은 권): \"He learns how Dutch sugar planters stole land from the peasants\"."
+        },
+        {
+          "sids": [
+            "265d89aa0826"
+          ],
+          "field": "work:pramoedya-ananta-toer--jejak-langkah.significance",
+          "claim": "『발자국』에서 인도네시아 민족운동의 초기 형태가 주인공 밍케의 행보로 서술된다",
+          "verdict": "confirmed",
+          "url": "https://www.kirkusreviews.com/book-reviews/pramoedya-ananta-toer/footsteps/",
+          "quote": "They marry, and when Mei dies after a severe bout of malaria, Minke forms an embryonic nationalist organization.",
+          "note": "영문 위키백과 Footsteps: 이 조직은 Sarekat Dagang Islam으로, 뒤에 Sarekat Islam이 된다."
+        },
+        {
+          "sids": [
+            "89c452fbe141"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "『유리의 집』은 4부작을 닫는 마지막 권이다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "Rumah Kaca merupakan novel keempat sekaligus penutup dari Tetralogi Buru yang ditulis oleh Pramoedya Anata Toer."
+        },
+        {
+          "sids": [
+            "89c452fbe141"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "팡에마난은 밍케 감시를 맡은 식민 경찰이다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "tokoh utama dalam buku ini adalah Jacques Pangemanann, seorang polisi kolonial Belanda yang ditugaskan untuk mengawasi Minke."
+        },
+        {
+          "sids": [
+            "89c452fbe141"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "팡에마난이 이 권의 화자다",
+          "verdict": "confirmed",
+          "url": "https://www.publishersweekly.com/9780688145941",
+          "quote": "Police commissioner Tuan Pangemanann, narrator of this concluding volume to Pramoedya's extraordinary tetralogy set in colonial Indonesia"
+        },
+        {
+          "sids": [
+            "89c452fbe141"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "식민 정부가 첩보와 체계적인 문서 보관으로 밍케의 활동을 치는 과정을 그린다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "Dalam buku ini, diperlihatkan bagaimana usaha pemerintah kolonial Belanda dalam memukul aktivitas Minke yang merupakan salah satu tokoh pergerakan nasional, melalui operasi mata-mata, serta pengarsipan yang rapi dan sistematis."
+        },
+        {
+          "sids": [
+            "b408be8c4452"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.facts",
+          "claim": "프라무디아와 차이릴 안와르는 1945년 혁명기 같은 세대로 함께 묶이는 친연성(affinity)이 있다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://www.britannica.com/art/Indonesian-literatures",
+          "quote": "With the Indonesian nationalist revolution of 1945, a new generation of fervently nationalistic and idealistic young writers who professed a universal humanism came to the forefront. Their inspiration and leader was the great poet Chairil Anwar, who died in 1949 at age 27. The most prominent writer to emerge at this time was Pramoedya Ananta Toer",
+          "note": "Teeuw 「Pramudya Ananta Tur」 장 초록도 \"there can be no doubt that he has much in common with the forty-fivers\"라고 적는다. 'bidirectional'은 affinity 유형의 스키마 속성이라 따로 검증하지 않았다."
+        },
+        {
+          "sids": [
+            "b408be8c4452"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.facts",
+          "claim": "그 친연성은 학계 공통 서술(scholarly_consensus)이다",
+          "verdict": "unverifiable",
+          "url": "https://web.archive.org/web/2024id_/https://link.springer.com/chapter/10.1007/978-94-015-0768-4_48",
+          "quote": "This Javanese author is no more representative of the Angkatan 45 than Idrus, if one uses a formal classification. He neither served on the editorial boards of publications associated with the forty-fivers, nor was he an active participant in the literary discussions of the period which followed on from 1945. But when one takes into account his literary works from the period under discussion, there can be no doubt that he has much in common with the forty-fivers.",
+          "correction": "프라무디아 아난타 투르 → 차이릴 안와르 · affinity · bidirectional · editorial_inference",
+          "note": "검수: contradicted → unverifiable로 다시 분류했다. Teeuw 인용은 형식상 대표가 아니라는 단서를 달면서도 'much in common with the forty-fivers'라고 적어 친연성 자체를 부정하지 않으므로 scholarly_consensus를 반박하지는 않는다. 다만 '신뢰할 만한 2차 연구가 반복적으로 다루는 계보'(docs/relations-guide.md)를 싣는 학술 출처는 이 관계에 Teeuw 하나뿐이고, 두 사람을 한 세대에 놓는 브리태니커(Indonesian literatures)는 총칭 참고문헌이라 그것만으로는 수준을 싣지 못한다(프로젝트 규칙). 이 세션에서 두 번째 학술 출처를 찾지 못했다. correction은 인용이 아니라 지침의 '확신이 없으면 한 단계 낮춰라'에 따른 제안이다 — editorial_inference로 낮추면 요약에 직접 접촉 기록이 없다는 점을 드러내야 한다. 45년 세대 안에 두 사람을 함께 놓는 2차 연구를 하나 더 실명하면 scholarly_consensus를 유지할 수 있다. / 이전 메모: 지난 판정(contradicted)대로 고치기로 했으나 값이 그대로다. 이 관계가 거는 학술 출처는 Teeuw 하나이고, 그는 형식적 분류로는 프라무디아를 45년 세대 대표로 보지 않는다는 단서를 먼저 단다. 두 사람을 한 세대에 놓는 브리태니커는 총칭 참고문헌이라(프로젝트 규칙상 그것만으로는 scholarly_consensus를 싣지 못한다) '학계가 반복적으로 다룬다'는 수준을 싣는 출처를 이 세션에서 찾지 못했다. 45년 세대 안에 두 사람을 함께 놓는 2차 연구를 하나 더 확보해 요약에 실명하면 scholarly_consensus를 유지할 수 있다."
+        },
+        {
+          "sids": [
+            "8d28821570df"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "Teeuw의 『Modern Indonesian Literature』는 45년 세대(Angkatan 45)를 하나의 문학 운동으로 개관한다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://link.springer.com/chapter/10.1007/978-94-015-0768-4_37",
+          "quote": "it is somewhat arbitrary to place the books discussed so far in a category separate from those of the Angkatan 45 and to discuss them before discussing the latter movement as a whole. … Still it may be useful to try to give a more general survey and characterization of the literary movement around 1945",
+          "note": "「The Angkatan 45. Documentation」 장(114–118쪽) 초록, 스프링어 장 페이지(웨이백 2024). 장 인용 표기: 'Teeuw A. (1967) … In: Modern Indonesian literature'. 바로 앞 장이 「Novel and Story-Writing Under the Japanese Occupation」(107–110쪽)이다."
+        },
+        {
+          "sids": [
+            "8d28821570df"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "45년 세대 문학은 1942년 일본의 인도네시아 점령기와 함께 생겨났다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Angkatan_1945",
+          "quote": "Angkatan '45 merupakan salah satu periodisasi dalam Sastra Indonesia. Corak sastra angkatan ini lahir sejak bangsa Jepang menjajah Indonesia pada tahun 1942."
+        },
+        {
+          "sids": [
+            "8d28821570df"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "45년 세대는 1945년 민족 혁명(독립 전쟁)과 함께 전면에 나선 세대다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://www.britannica.com/art/Indonesian-literatures",
+          "quote": "With the Indonesian nationalist revolution of 1945, a new generation of fervently nationalistic and idealistic young writers who professed a universal humanism came to the forefront.",
+          "note": "같은 대목은 프라무디아가 혁명을 지지해 1947년 네덜란드 식민 당국에 체포됐다고 적는다('whose support for the revolution led to his arrest in 1947 by Dutch colonial authorities')."
+        },
+        {
+          "sids": [
+            "8d28821570df"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "그 책은 한 장을 들여 차이릴 안와르의 시를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://link.springer.com/chapter/10.1007/978-94-015-0768-4_46",
+          "quote": "More has been written about Chairil Anwar than about any other Indonesian writer. Even up till the present day his poetry has remained topical and the subject of what is sometimes fierce discussion.",
+          "note": "「Chairil Anwar」 장(145–159쪽) 초록, 스프링어 장 페이지(웨이백 2024), 'In: Modern Indonesian literature'."
+        },
+        {
+          "sids": [
+            "8d28821570df"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "그 책은 그 시기 프라무디아의 산문(초기작)을 한 장에서 자세히 다룬다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://link.springer.com/chapter/10.1007/978-94-015-0768-4_48",
+          "quote": "when one takes into account his literary works from the period under discussion, there can be no doubt that he has much in common with the forty-fivers. As it is scarcely open to dispute that he is the most important prose-writer of this period, not only because of the wide compass of his creative work, but especially because of the quality of his work, unique in this generation, it would seem to be appropriate from all points of view to give a full discussion of his most outstanding writings.",
+          "note": "「Pramudya Ananta Tur」 장(163–180쪽). 1967년 책이므로 다루는 작품은 부루 4부작 이전의 초기작이다."
+        },
+        {
+          "sids": [
+            "0a1d71a8dcff"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "Teeuw는 프라무디아가 형식상 45년 세대 대표는 아니지만 그 시기 작품으로는 45년 세대와 공통점이 많다고 본다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://link.springer.com/chapter/10.1007/978-94-015-0768-4_48",
+          "quote": "This Javanese author is no more representative of the Angkatan 45 than Idrus, if one uses a formal classification. … But when one takes into account his literary works from the period under discussion, there can be no doubt that he has much in common with the forty-fivers.",
+          "note": "'이드루스만큼도 대표가 아니다'의 기준이 되는 이드루스에 대해 같은 책은 'Idrus has never been very prominent as a representative, let alone as a leader of the Angkatan 45'라고 적어, '형식상 대표는 아니다'라는 요약과 맞는다."
+        },
+        {
+          "sids": [
+            "0a1d71a8dcff"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "Teeuw는 이드루스를 차이릴의 산문 쪽 짝으로 보는 견해가 일부만 맞다고 한다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024id_/https://link.springer.com/chapter/10.1007/978-94-015-0768-4_47",
+          "quote": "In discussions of the 45 generation, Idrus is often regarded as the counterpart in prose of Chairil Anwar as the renewer of Indonesian poetry. In fact, this is only partly true."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 31,
+        "requoted": 0,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

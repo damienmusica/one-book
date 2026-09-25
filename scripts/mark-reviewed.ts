@@ -24,11 +24,13 @@ const DEMOTE = args.includes("--demote");
 
 // uncovered: 이 도판의 쪽에 그려진 문장 중 원장이 덮지 않은 것(scripts/lib/closeread.ts uncoveredOf). 하나라도 있으면 검토가 아니다 —
 // 「쪽의 사실 주장을 하나씩 떼어 출처에 대봤다」는 정의는 문장 단위로만 기계가 잴 수 있다(2026-09-24 감사).
-export function verdictFor(a: Raw, entry: Raw | undefined, uncovered: Array<{ text: string; why: string }> = []): { ok: boolean; why: string } {
+// live: 지금 그려지는 문장의 sid. 가리키던 문장이 이미 바뀌어 더는 그려지지 않는 주장은 막지 않는다 — 그 문장은 쪽에 없다.
+export function verdictFor(a: Raw, entry: Raw | undefined, uncovered: Array<{ text: string; why: string }> = [], live?: Set<string>): { ok: boolean; why: string } {
   if ((a.depth ?? "plate") !== "plate") return { ok: false, why: `${a.depth} 는 검토 대상이 아니다` };
   if (!a.externalIds?.wikidata) return { ok: false, why: "QID 없음" };
   if (!entry) return { ok: false, why: "close-read 원장에 없음" };
-  const open = (entry.claims ?? []).filter(isOpen);
+  const stale = (c: Raw): boolean => Boolean(live && Array.isArray(c.sids) && c.sids.length && !c.sids.some((s: string) => live.has(s)));
+  const open = (entry.claims ?? []).filter((c: Raw) => isOpen(c) && !stale(c));
   if (open.length) {
     const pending = open.filter((c: Raw) => c.resolution === "pending").length;
     return { ok: false, why: `미결 주장 ${open.length}${pending ? ` (접근 대기 ${pending})` : ""}: ${open.slice(0, 2).map((c: Raw) => c.claim.slice(0, 40)).join(" / ")}` };
@@ -50,6 +52,10 @@ function main() {
     const leakSettled = verdictFor(a, { claims: [{ verdict: "confirmed", claim: "y", note: "다만 전칭은 확인되지 않았다", resolution: "narrowed" }] });
     console.log(`probe leak → ${leak.ok} | leak settled → ${leakSettled.ok}`);
     const bare = verdictFor(a, settled, [{ text: "원장에 없는 문장", why: "원장에 없는 문장" }]);
+    const staleOpen = verdictFor(a, { claims: [{ verdict: "confirmed", sids: ["now"] }, { verdict: "contradicted", claim: "옛 문장", sids: ["gone"] }] }, [], new Set(["now"]));
+    const liveOpen = verdictFor(a, { claims: [{ verdict: "contradicted", claim: "지금 문장", sids: ["now"] }] }, [], new Set(["now"]));
+    console.log(`probe stale open → ${staleOpen.ok} | live open → ${liveOpen.ok}`);
+    if (!staleOpen.ok || liveOpen.ok) { console.error("프로브 실패 — 사라진 문장의 주장 처리"); process.exit(1); }
     console.log(`probe uncovered → ${bare.ok} (${bare.why})`);
     if (!r1.ok || r2.ok || noqid.ok || leak.ok || !leakSettled.ok || bare.ok) { console.error("프로브 실패 — 검사가 열린 도판을 검토됨으로 올린다"); process.exit(1); }
     return;
@@ -62,12 +68,11 @@ function main() {
   const { dataset } = assembleDataset(loadRawCollections());
   if (!dataset) throw new Error("코퍼스가 조립되지 않는다 — 먼저 validate:data");
   const nameOf = (id: string) => dataset.authors.find((b) => b.id === id)?.names.ko ?? id;
-  const uncoveredFor = (id: string) => {
+  const drawnOf = (id: string) => {
     const au = dataset.authors.find((b) => b.id === id);
-    if (!au) return [];
-    const drawn = drawnFor(au, dataset.works.filter((w) => w.authorId === id), dataset.relations.filter((r) => r.sourceId === id || r.targetId === id), nameOf);
-    return uncoveredOf(drawn, allPlates);
+    return au ? drawnFor(au, dataset.works.filter((w) => w.authorId === id), dataset.relations.filter((r) => r.sourceId === id || r.targetId === id), nameOf) : [];
   };
+  const uncoveredFor = (id: string) => uncoveredOf(drawnOf(id), allPlates);
   const only = flag("--ids") ? new Set(flag("--ids")!.split(",")) : undefined;
   const dir = join(process.cwd(), "data", "authors");
   const today = new Date().toISOString().slice(0, 10);
@@ -76,7 +81,7 @@ function main() {
     const rows: Raw[] = JSON.parse(readFileSync(join(dir, f), "utf8"));
     for (const a of rows) {
       if (only ? !only.has(a.id) : !(entries.has(a.id) || (DEMOTE && a.reviewStatus !== "draft"))) continue;
-      const v = verdictFor(a, entries.get(a.id), uncoveredFor(a.id));
+      const v = verdictFor(a, entries.get(a.id), uncoveredFor(a.id), new Set(drawnOf(a.id).map((d) => d.sid)));
       if (a.reviewStatus === "draft") {
         if (v.ok) { a.reviewStatus = "reviewed"; a.reviewedAt = today; flipped++; touched.add(f); console.log(`  ${a.id} → reviewed (${v.why})`); }
         else held.push(`${a.id}: ${v.why}`);

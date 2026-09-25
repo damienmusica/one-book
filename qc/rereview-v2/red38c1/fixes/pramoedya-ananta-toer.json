@@ -1,0 +1,27 @@
+{
+  "fixes": [
+    {
+      "id": "pramoedya-ananta-toer",
+      "readingEntryReason": "4부작의 첫 권으로, 인물 관계와 식민지 법의 작동을 소설적 사건으로 먼저 보여 준다. 분량은 하스타 미트라 1980년판 기준 328쪽이다.",
+      "relations": [
+        {
+          "id": "affinity--pramoedya-ananta-toer--chairil-anwar",
+          "evidenceLevel": "editorial_inference",
+          "summary": "A. Teeuw의 『Modern Indonesian Literature』는 일본 점령기와 독립 전쟁을 지나온 '45년 세대'(Angkatan 45)를 서술하며 차이릴의 시와 프라무디아의 초기 산문을 함께 다룬다. Teeuw는 프라무디아가 형식상 이 세대 대표는 아니나 그 시기 작품엔 공통점이 많다고 본다. 두 사람 사이의 직접 교류를 말하는 관계는 아니다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.readingEntryReason",
+          "claim": "그 328쪽이 초판(1980년 첫 인쇄) 기준이다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.facts",
+          "claim": "그 친연성은 학계 공통 서술(scholarly_consensus)이다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

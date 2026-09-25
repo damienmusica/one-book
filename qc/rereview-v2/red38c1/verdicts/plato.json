@@ -1,0 +1,257 @@
+{
+  "plates": [
+    {
+      "id": "plato",
+      "claims": [
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 원어 이름은 Πλάτων 이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Plato",
+          "quote": "Plato (/ˈpleɪtoʊ/ PLAY-toh; Ancient Greek: Πλάτων, Plátōn; c. 428–347 BC[1]) was an ancient Greek philosopher of Classical Athens"
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 생몰년은 기원전 428년경–348년경이다.",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Aristotle",
+          "quote": "After his father’s death in 367, Aristotle migrated to Athens, where he joined the Academy of Plato (c. 428–c. 348 bce).",
+          "note": "Wikipedia Plato 인포박스는 'c. 428-7 BC … c. 348-7 BC', 본문 첫 문장은 'c. 428–347 BC'. 페이지의 -428–-348 은 Britannica 표기와 일치하고 통상 범위 안이다."
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤은 고대 그리스어로 썼다(grc).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Author Plato Original title Πολιτεία Language Ancient Greek"
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 권역은 서유럽(western-europe)이다.",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Southern_Europe",
+          "quote": "In the UN geoscheme, the following countries are classified as southern Europe:[43] Albania Andorra Bosnia and Herzegovina Croatia Greece",
+          "correction": "플라톤은 아테네에서 나고 죽었고(Wikipedia Plato 인포박스: 'Born c. 428-7 BC[1] Athens'), 그리스는 유엔 지리 구분에서 남유럽이다 — 서유럽이 아니다.",
+          "note": "수정본에서도 권역이 바뀌지 않았다. 고대 기준으로도 맞지 않는다: Wikipedia「Western Europe」의 고대 절은 로마 판도 안에서 그리스어권 동부 속주와 라틴어권 서부를 가른다('the mainly Greek-speaking eastern provinces … and the western territories'). 원인은 권역표(src/types.ts REGION_DEFS)에 그리스·남유럽·에게 권역이 없다는 데 있다 — 이 작가만 고쳐서는 닫히지 않고, 권역 추가는 스키마 변경이다. Wikipedia「Western Europe」의 유엔 지역그룹(WEOG) 목록에는 Greece 가 들어 있으나, 그것은 투표 블록이지 지리 구분이 아니다."
+        },
+        {
+          "sids": [
+            "989cdf4270cb"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "『파이드로스』에는 영혼을 마부와 두 마리 말에 빗댄 신화가 나온다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "Plato paints the picture of a charioteer driving a chariot pulled by two winged horses: \"First the charioteer of the human soul drives a pair, and secondly one of the horses is noble and of noble breed, but the other quite the opposite in breed and character.",
+          "note": "같은 페이지는 이 대목을 'Socrates' great myth'와 'the myth of the chariot'로도 부른다 — '신화'라는 말도 받쳐진다."
+        },
+        {
+          "sids": [
+            "989cdf4270cb"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "『파이드로스』의 글쓰기 대목은 글이 기억을 돕는 약처럼 보이지만 실은 기억하는 힘을 잃게 한다고 논한다(테우트와 타무스 이야기).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "After Theuth remarks on his discovery of writing as a remedy for the memory, Thamus responds that its true effects are likely to be the opposite; it is a remedy for reminding, not remembering",
+          "note": "이 이야기는 같은 페이지 요약의 마지막 절 'Discussion of rhetoric and writing (257c–279c)' 안에 있다."
+        },
+        {
+          "sids": [
+            "989cdf4270cb"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "글쓰기를 논한 『파이드로스』의 마지막 대목은 현대 이론(매체 이론)의 참조점이 되었다.",
+          "verdict": "confirmed",
+          "url": "https://mediatheoryjournal.org/2023/05/10/thomas-sutherland-platos-prescription/",
+          "quote": "it is not uncommon for media theorists to locate the distant origins of their field within an ancient text: Plato’s Phaedrus … For such theorists, the concluding section of this structurally convoluted dialogue, in which Socrates recounts the mythical origins of writing (in short: the Egyptian god Theuth presents writing as a gift to King Thamus, who is less than appreciative) represents either some essential truth regarding the effects of media upon the human sensorium or conversely the idealist trap into which so many thinkers fall when contemplating these effects.",
+          "note": "Thomas Sutherland, 'Plato’s Prescription', Media Theory 6(2), 2022. 같은 글은 이 대목을 데리다의 「플라톤의 약국」('a seminal piece of poststructuralist philosophy')과 스티글레르('the exteriorization of memory is a loss of memory and knowledge')가 이어받았다고 적는다 — '기억을 대신하면서 잃는 것'이 바로 현대 이론이 가져간 지점이다. '현대 이론'은 매체 이론·후기구조주의로 받쳐진다."
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "『소크라테스의 변명』의 원제는 Ἀπολογία Σωκράτους 이고 플라톤이 썼다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+          "quote": "The Apology of Socrates (Ancient Greek: Ἀπολογία Σωκράτους, Apología Sokrátous; Latin: Apologia Socratis), written by Plato, is a Socratic dialogue of the speech of legal self-defence which Socrates (469–399 BC) spoke at his trial for impiety and corruption in 399 BC."
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "『소크라테스의 변명』은 기원전 399년 무렵 쓰였다(성립 시기 추정 — 페이지는 '기원전 399 무렵(성립 시기 추정)'으로 그린다).",
+          "verdict": "confirmed",
+          "url": "https://www.ebsco.com/research-starters/history/apology-plato/",
+          "quote": "FIRST TRANSCRIBED:Apologia Sōkratous, early period, 399-390 B.C.E.",
+          "note": "이전 판정(contradicted)은 '집필 연대 = 399년'이라는 확정 읽기에 대한 것이었다. 페이지는 yearBasis composition-range 를 '무렵(성립 시기 추정)'으로 그리고, 출처들은 재판(399) 직후를 집필 창으로 준다: EBSCO Research Starters 는 399–390, Encyclopedia.com 은 'although the exact date it was written is uncertain, some sources argue that it was written shortly after the year in which it is set', Wikipedia 는 'most apologiae were published in the decade after the Trial of Socrates (399 BC)'. 399 는 그 창의 하한(재판 연도)이라 '무렵'은 받쳐지지만, 더 정확히 쓰려면 '기원전 399–390년 무렵'이다."
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "『소크라테스의 변명』은 산문 저작이다(갈래: 에세이·비평).",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/Apology-by-Plato",
+          "quote": "Apology, early dialogue by the ancient Greek philosopher Plato, purporting to represent the speech given by Socrates, Plato’s teacher, at the former’s trial in Athens in 399 bce in response to accusations of impiety and corrupting the young.",
+          "note": "'에세이·비평'은 이 사이트의 갈래 분류다. 출처가 말하는 것은 법정 연설을 옮긴 산문 대화편이라는 것까지다."
+        },
+        {
+          "sids": [
+            "e47651081f32"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 열일곱 살에 플라톤의 제자가 되었다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_V",
+          "quote": "He attached himself to Plato and resided with him twenty years, having become his pupil at the age of seventeen.",
+          "note": "디오게네스 라에르티오스 5.9(아폴로도로스 연대기 인용, Hicks 역). 현대 참고서는 나이를 조금 흐린다: SEP 'at about the age of seventeen', Wikipedia 'At the age of seventeen or eighteen'. 페이지의 단정형 '열일곱 살에'는 고대 전거와 일치한다."
+        },
+        {
+          "sids": [
+            "e47651081f32"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 아카데메이아에 들어가 플라톤이 죽을 때까지 머물렀다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/aristotle/",
+          "quote": "Aristotle was sent to Athens at about the age of seventeen to study in Plato’s Academy, then a pre-eminent place of learning in the Greek world. Once in Athens, Aristotle remained associated with the Academy until Plato’s death in 347"
+        },
+        {
+          "sids": [
+            "e47651081f32"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 아카데메이아에 스무 해 머물렀다.",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Aristotle",
+          "quote": "After his father’s death in 367, Aristotle migrated to Athens, where he joined the Academy of Plato (c. 428–c. 348 bce). He remained there for 20 years as Plato’s pupil and colleague.",
+          "note": "Wikipedia 는 'nearly twenty years', 디오게네스 라에르티오스 5.9 는 'resided with him twenty years'."
+        },
+        {
+          "sids": [
+            "e47651081f32"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "『니코마코스 윤리학』 1권 6장(1096a)에서 아리스토텔레스는 이데아론을 도입한 이들을 '친구'라 부르며 보편적 선의 이데아를 검토한다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abekker+page%3D1096a",
+          "quote": "6. But perhaps it is desirable that we should examine the notion of a Universal Good, and review the difficulties that it involves, although such an inquiry goes against the grain because of our friendship for the authors of the Theory of Ideas.",
+          "note": "Perseus Rackham 역, Book 1, 벡커 1096a 면; '6.'은 장 표시. 그리스어 원문(Perseus 1999.01.0053, 1096a): 'διὰ τὸ φίλους ἄνδρας εἰσαγαγεῖν τὰ εἴδη' — '친구인 사람들이 이데아를 도입했기에'."
+        },
+        {
+          "sids": [
+            "e47651081f32"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "그 대목은 플라톤의 이름을 대지 않고 '이데아를 도입한 친구들'로 에둘러 가리킨다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0053%3Abekker+page%3D1096a",
+          "quote": "καίπερ προσάντους τῆς τοιαύτης ζητήσεως γινομένης διὰ τὸ φίλους ἄνδρας εἰσαγαγεῖν τὰ εἴδη.",
+          "note": "원문은 '친구인 사람들'이라고만 하고 이름을 대지 않는다. 이 '친구'가 플라톤으로 읽힌다는 점은 Wikipedia「Amicus Plato, sed magis amica veritas」가 받친다: 'The maxim is often attributed to Aristotle, as a paraphrase of the Nicomachean Ethics 1096a11–15.'"
+        },
+        {
+          "sids": [
+            "e47651081f32"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 이 대목에서 이데아론(선의 이데아)을 비판한다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abekker+page%3D1096b",
+          "quote": "And likewise with the Idea of the Good; for even if the goodness predicated of various in common really is a unity or something existing separately and absolute, it clearly will not be practicable or attainable by man; but the Good which we are now seeking is a good within human reach."
+        },
+        {
+          "sids": [
+            "e47651081f32"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 이데아론 비판으로 자기 방법(플라톤 형이상학에 기대지 않는 자율적 윤리학)을 갈라 세웠다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+          "quote": "Aristotle’s goal is to arrive at conclusions like Plato’s, but without relying on the Platonic metaphysics that plays a central role in the argument of the Republic. He rejects the existence of Plato’s forms in general and the form of the good in particular;",
+          "note": "같은 문단은 이어서 'His project is to make ethics an autonomous field'라고 적는다. '방법'은 이 기획(형이상학에 기대지 않는 윤리학)과 1096b 의 '인간이 닿을 수 있는 선'을 찾는 탐구로 받쳐진다."
+        },
+        {
+          "sids": [
+            "e45db1da4062"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "『선악의 저편』은 1886년에 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beyond_Good_and_Evil",
+          "quote": "It was first published in 1886 under the publishing house C. G. Naumann of Leipzig at the author's own expense"
+        },
+        {
+          "sids": [
+            "e45db1da4062"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "니체는 『선악의 저편』 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 불렀다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/4363/pg4363.txt",
+          "quote": "But the struggle against Plato, or--to speak plainer, and for the \"people\"--the struggle against the ecclesiastical oppression of millenniums of Christianity (FOR CHRISTIANITY IS PLATONISM FOR THE \"PEOPLE\")",
+          "note": "Zimmern 역, PREFACE."
+        },
+        {
+          "sids": [
+            "e45db1da4062"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "같은 서문은 플라톤의 '순수 정신과 선 자체'를 극복해야 할 오류로 놓고 그와의 싸움을 자기 세대의 몫으로 삼는다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/4363/pg4363.txt",
+          "quote": "the worst, the most tiresome, and the most dangerous of errors hitherto has been a dogmatist error--namely, Plato's invention of Pure Spirit and the Good in Itself. But now when it has been surmounted, when Europe, rid of this nightmare, can again draw breath freely and at least enjoy a healthier--sleep, we, WHOSE DUTY IS WAKEFULNESS ITSELF, are the heirs of all the strength which the struggle against this error has fostered."
+        },
+        {
+          "sids": [
+            "e45db1da4062"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "니체는 플라톤이 세운 참된 존재의 위계를 뒤집는 일을 자기 철학의 과제로 삼았다('뒤집힌 플라톤주의').",
+          "verdict": "confirmed",
+          "url": "http://www.thenietzschechannel.com/notebooks/german/nacha/nacha7.htm",
+          "quote": "Meine Philosophie umgedrehter Platonismus: je weiter ab vom wahrhaft Seienden, um so reiner schöner besser ist es. Das Leben im Schein als Ziel.",
+          "note": "유고 7[156], 1870년 말–1871년 4월. 이 자기 규정은 『선악의 저편』 서문이 아니라 유고에 있다. 문장이 서문 인용에 '-며'로 잇는 것은 둘 다 받쳐지므로 틀리지 않지만, '뒤집힌 플라톤주의'라는 말 자체가 서문에 있다고 읽히면 안 된다."
+        },
+        {
+          "sids": [
+            "e45db1da4062"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "하이데거의 『니체』는 1961년에 나왔다(1936–1940년 니체 강의의 출간본).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Martin_Heidegger",
+          "quote": "From 1936 to 1940, Heidegger also delivered a series of lectures on Friedrich Nietzsche at Freiburg that presented much of the raw material incorporated in his more established work and thought from this time. These would appear in published form in 1961.",
+          "note": "archive.org 서지(nietzsche0001heid): Publication date 1961, Publisher [Pfullingen] Neske, 2 v."
+        },
+        {
+          "sids": [
+            "e45db1da4062"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "하이데거는 니체가 플라톤주의를 뒤집음으로써 형이상학의 마지막 가능성을 붙잡았다고 읽었다.",
+          "verdict": "confirmed",
+          "url": "https://edoc.hu-berlin.de/bitstreams/492cb8c4-a4b6-47ec-92ac-d3e89a3194e1/download",
+          "quote": "In einer Vorlesungsreihe legte Heidegger die These dar, dass Nietzsche sehr wohl durch die Umkehrung des Platonismus die letzte Vollzugsmöglichkeit der Metaphysik ergefasst hat.",
+          "note": "Jesús Martín Cardoso, Der platonische Nietzsche (Diss., HU Berlin, 2010). 같은 논문은 이 강의를 'Heidegger, M.: Nietzsche. Pfullingen, Verlag Günther Neske, 1961'로 인용한다 — 강의와 1961년 책이 같은 것임은 위 주장이 받친다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}
