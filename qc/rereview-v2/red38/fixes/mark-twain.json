@@ -1,0 +1,87 @@
+{
+  "fixes": [
+    {
+      "id": "mark-twain",
+      "importanceReason": "미시시피 강가 소년의 입말을 그대로 소설의 문장으로 삼아, 미국 구어의 미덕을 글로 쓰는 산문의 규범으로 세웠다. 『허클베리 핀의 모험』은 화자의 무지와 방언을 손대지 않은 채 노예제를 다루어, 헉이 짐을 신고하지 않기로 하며 '그럼 좋아, 나는 지옥에 가겠다'고 말하는 대목처럼 도덕적 결단을 문법이 틀린 소년의 문장으로 적는다. 같은 책이 소년기를 깊이 그린 이야기로도, 인종주의를 겨눈 신랄한 풍자로도 읽힌다.",
+      "readingEntryReason": "사건이 에피소드 단위로 끊겨 있어 강가 마을의 지형과 인물이 자연스럽게 손에 익는다. 『허클베리 핀』의 무대와 인물이 여기서 그대로 이어진다.",
+      "readingWarning": "『허클베리 핀의 모험』을 『톰 소여』의 아동용 속편으로 읽으면 헉이 짐을 신고하지 않기로 하는 후반(제31장)의 전환이 통째로 지나간다. 인종 비하어를 바꾼 판본도 거듭 나왔다(2011년 NewSouth 판 등).",
+      "works": [
+        {
+          "id": "mark-twain--life-on-the-mississippi",
+          "genre": "history"
+        },
+        {
+          "id": "mark-twain--adventures-of-huckleberry-finn",
+          "significance": "도망친 소년과 도망친 노예가 뗏목으로 강을 내려가는 이야기를 헉의 방언 1인칭으로 끝까지 밀고 간다. 도덕적 판단은 서술자의 오판으로 제시된다. 1885년 콩코드 공공도서관의 배제 결정 이래 거친 말씨와 인종 비하어로 거듭 비판받았다."
+        },
+        {
+          "id": "mark-twain--the-adventures-of-tom-sawyer",
+          "significance": "미시시피 강가 마을의 소년기를 에피소드 연쇄로 엮은 소설. 울타리 페인트칠 장면은 따로 떼어 읽히는 유명한 대목이 되었고, 다음 작품의 무대와 인물을 미리 깔아 놓는다."
+        },
+        {
+          "id": "mark-twain--the-prince-and-the-pauper",
+          "significance": "16세기 런던에서 신분이 뒤바뀐 두 소년의 이야기로, 사회적 불평등과 겉모습으로 사람을 판단하는 태도를 비판한다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "그 입말 문체로 미국 산문이 '영국식 문어'에서 떨어져 나오는 지점을 만들었다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "헉이 편지를 찢는 대목은 이 책에서 가장 큰 도덕적 판단이며, 작가는 그것을 문법이 틀린 소년의 문장 안에 '숨겨' 둔다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "그 결과(화자의 목소리를 그대로 둔 결과) 같은 책이 소년 모험담으로도, 그 사회를 안에서부터 무너뜨리는 기록으로도 읽힌다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『톰 소여의 모험』은 이 페이지의 네 작품 가운데 분량이 가장 짧다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "인종 어휘를 바꾸거나 잘라 낸 판본이 거듭 나왔다(2011년 NewSouth 판 등)",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:mark-twain--life-on-the-mississippi.facts",
+          "claim": "장르는 에세이·비평(essay-criticism)이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+          "claim": "그 서술 구조 때문에 미국에서 가장 오래 논쟁된 책 가운데 하나가 되었다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+          "claim": "울타리 칠 장면이 미국 유년의 공용 이미지가 되었다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:mark-twain--the-prince-and-the-pauper.significance",
+          "claim": "계급이 사람의 속성이 아니라 옷과 호칭의 문제임을 보여준다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--mark-twain--ralph-ellison.summary",
+          "claim": "엘리슨은 헤밍웨이가 잘라 내라고 한 짐 구출 대목이 소설의 구조적·상징적·도덕적 필연이라고 반박했다",
+          "resolution": "accepted",
+          "evidence": "요약 문장 aae3b98413ea 는 『그림자와 행위』(1964)라는 책만 대고 쪽수를 적지 않는다. 읽지 못한 것은 원서의 쪽수뿐이고, 반박 문장 자체는 위키백과가 그 책의 에세이를 각주로 달아 인용한 원문으로 확인됐다."
+        },
+        {
+          "field": "relation:influence--mark-twain--toni-morrison.facts",
+          "claim": "트웨인 → 모리슨 방향의 확인된 직접 영향(명시적 독서 기록)",
+          "resolution": "accepted",
+          "evidence": "요약 문장 fb9ab92f7206 은 서문을 썼고 짐의 재현과 백인 화자의 시선을 다시 읽었다는 것까지만 말하고, 트웨인이 모리슨의 소설 창작에 영향을 주었다고는 쓰지 않는다. 사실 줄 4a40ef09c3c6 의 documented_influence 는 사이트 정의상 '명시적 독서 기록'을 포함하며, 서문이 그 반복 독서의 기록이다."
+        }
+      ]
+    }
+  ]
+}

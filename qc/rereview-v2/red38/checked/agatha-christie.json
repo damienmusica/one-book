@@ -1,0 +1,553 @@
+{
+ "plates": [
+  {
+   "id": "agatha-christie",
+   "claims": [
+    {
+     "sids": [
+      "114acd5cf9c3"
+     ],
+     "field": "author.facts",
+     "claim": "한국어 표기 애거사 크리스티, 원어 이름 Agatha Christie",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/애거사_크리스티",
+     "quote": "애거사 크리스티(본명: Dame Agatha Christie, Lady Mallowan, DBE, 1890년 9월 15일~1976년 1월 12일)는 영국의 추리 소설 작가이다."
+    },
+    {
+     "sids": [
+      "114acd5cf9c3"
+     ],
+     "field": "author.facts",
+     "claim": "1890년 잉글랜드 토키에서 태어나 1976년에 죽은 영국(잉글랜드) 작가다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Agatha-Christie",
+     "quote": "Agatha Christie (born September 15, 1890, Torquay, Devon, England—died January 12, 1976, Wallingford, Oxfordshire) was an English detective novelist and playwright"
+    },
+    {
+     "sids": [
+      "114acd5cf9c3"
+     ],
+     "field": "author.facts",
+     "claim": "영어로 작품을 쓴 작가다(판매의 절반은 영어판, 나머지 절반은 번역판)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "As of 2020, her novels had sold more than two billion copies in 44 languages. Half the sales are of English-language editions, and half are translations.",
+     "note": "재인용: 원 인용문 'an English author'는 국적만 말하고 집필 언어를 담지 않는다. 잉글랜드 출신은 브리태니커 인용(1890년 토키 출생 claim)이 받친다."
+    },
+    {
+     "sids": [
+      "b14839c7787e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "크리스티의 소설은 독자가 탐정과 같은 단서를 갖고도 범인을 알아채지 못하게 쓰였다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "This novel was originally written as the result of a bet, that the author, who had previously never written a book, could not compose a detective novel in which the reader would not be able to \"spot\" the murderer, although having access to the same clues as the detective.",
+     "note": "『스타일스 저택의 괴사건』 초판 책날개 문구. 인용은 첫 장편 한 권의 집필 동기만 말하며, '크리스티의 소설' 전반에 대한 진술이 아니다(재검: 범위 과장).",
+     "correction": "첫 장편 『스타일스 저택의 괴사건』은 독자가 탐정과 같은 단서를 갖고도 범인을 알아채지 못하는 추리소설을 쓸 수 있느냐는 내기에서 나왔고"
+    },
+    {
+     "sids": [
+      "b14839c7787e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "단서를 모두 보여주고도 독자를 속이는 규칙을 크리스티가 세워 추리소설을 게임으로 만들었다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "Every successful detective story in this period involved a deceit practised upon the reader, and here the trick is the highly original one of making the murderer the local doctor, who tells the story and acts as Poirot's Watson.",
+     "correction": "이 시기의 성공한 추리소설이 모두 그랬듯 독자를 속이는 장치 위에서 썼고",
+     "note": "줄리언 시먼스의 말(『애크로이드』를 두고). 독자를 속이는 것은 크리스티 개인이 세운 규칙이 아니라 이 시기 추리소설 전반의 관습으로 기술된다. 재검: 이전 교정문의 '탐정과 같은 단서'·'황금기'는 이 인용에 없어 인용이 받치는 말로 고쳤다."
+    },
+    {
+     "sids": [
+      "b14839c7787e"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『애크로이드 살인 사건』에서 이야기를 서술하는 화자를 범인으로 삼아 서술자를 믿을 수 있다는 전제를 뒤집었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd",
+     "quote": "It includes an unexpected plot twist towards the end, when Dr Sheppard reveals he has throughout been an unreliable narrator, using literary techniques to conceal his guilt without writing anything untrue"
+    },
+    {
+     "sids": [
+      "8b4b744664b3"
+     ],
+     "field": "author.importanceReason",
+     "claim": "크리스티는 섬·열차 같은 곳을 무대로 삼고 용의자 범위를 닫힌 소수로 묶었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "the action might take place on a small island (And Then There Were None), an aeroplane (Death in the Clouds), a train (Murder on the Orient Express), … but the circle of potential suspects is usually closed and intimate",
+     "note": "저택은 『스타일스 저택의 괴사건』 문서: 'It is set in a large, isolated country manor.'"
+    },
+    {
+     "sids": [
+      "8b4b744664b3"
+     ],
+     "field": "author.importanceReason",
+     "claim": "마지막에 탐정이 용의자를 한 방에 모아 추리를 풀어놓는 집합 추리가 크리스티의 특징이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "At the end, in a Christie hallmark, the detective usually gathers the surviving suspects into one room, explains the course of their deductive reasoning, and reveals the guilty party"
+    },
+    {
+     "sids": [
+      "8b4b744664b3"
+     ],
+     "field": "author.importanceReason",
+     "claim": "잡담 속에 결정적 진술을 숨기는 것이 크리스티의 조립 부품이다",
+     "verdict": "unverifiable",
+     "note": "영어 위키백과 Agatha Christie(‘Formula and plot devices’ 절)·Styles·Ackroyd·Hercule Poirot 문서와 『자서전』 전문(archive.org djvu.txt)에서 찾았으나 ‘대화·잡담 속에 숨긴 단서’라는 기술이 없다. 위키백과는 단서가 달력·커피잔 같은 일상 사물이라고 적고, 『자서전』은 『애크로이드』의 시간 공백이 ‘모호한 문장’에 숨겨졌다고 할 뿐이다."
+    },
+    {
+     "sids": [
+      "8b4b744664b3"
+     ],
+     "field": "author.importanceReason",
+     "claim": "크리스티의 영향으로 이런 요소들이 이후 황금기 추리소설의 전형이 되었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "The story features many of the elements that have become icons of the Golden Age of Detective Fiction, largely due to Christie's influence. It is set in a large, isolated country manor. There are a half-dozen suspects, most of whom are hiding facts about themselves."
+    },
+    {
+     "sids": [
+      "fc48924d8ff7"
+     ],
+     "field": "author.importanceReason",
+     "claim": "크리스티는 장편 66편을 썼다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "Agatha Christie, was an English author known for her 66 detective novels and 14 short-story collections",
+     "correction": "66편의 추리 장편",
+     "note": "66은 추리 장편의 수다. 같은 문서: 'She also wrote six novels under the pseudonym Mary Westmacott.' — 장편 전체는 66편보다 많다."
+    },
+    {
+     "sids": [
+      "fc48924d8ff7"
+     ],
+     "field": "author.importanceReason",
+     "claim": "크리스티의 판형이 대중 독자가 '추리소설'로 떠올리는 형태 자체가 되었다",
+     "verdict": "unverifiable",
+     "note": "영어 위키백과 Agatha Christie의 Critical reception·Book sales 절, 브리태니커(Wayback 2024)를 확인했다. 가장 가까운 진술은 2015년 현역 추리작가 25명 설문('nearly all still viewed her as the preeminent crime novelist and creator of the plot twists used by mystery authors')과 역대 최다 판매 소설가라는 기록이며, 대중 독자의 장르 관념을 규정했다는 진술은 없다."
+    },
+    {
+     "sids": [
+      "fc48924d8ff7"
+     ],
+     "field": "author.importanceReason",
+     "claim": "유네스코 번역 통계(Index Translationum)에서 가장 많이 번역된 작가다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "According to UNESCO's Index Translationum, she remains the most-translated individual author."
+    },
+    {
+     "sids": [
+      "a014d43bf684",
+      "c6f9624919fd"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『그리고 아무도 없었다』에는 사건을 수사하는 탐정이 없다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "There is no detective involved in the action, no interviews of suspects, no careful search for clues, and no suspects gathered together in the last chapter to be confronted with the solution."
+    },
+    {
+     "sids": [
+      "a014d43bf684",
+      "c6f9624919fd"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "섬에 모인 열 사람이 동요의 구절대로 하나씩 죽는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/And_Then_There_Were_None",
+     "quote": "The story takes place on an isolated island off the coast of Devon. Ten individuals are accused of past crimes and are killed one by one according to the lines of a popular rhyme.",
+     "note": "재인용: 원 인용문은 '섬'을 담지 않아 같은 문단의 바로 앞 문장까지 넓혔다."
+    },
+    {
+     "sids": [
+      "a014d43bf684"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『그리고 아무도 없었다』는 분량이 짧다",
+     "verdict": "unverifiable",
+     "note": "영어 위키백과 판본 목록에서 1939년 영국 초판은 256쪽으로, 『오리엔트 특급 살인』 영국 초판(256쪽)과 같고 『스타일스』(296쪽)보다 조금 짧을 뿐이다. 이 작품이 크리스티 장편 가운데 짧다고 기술한 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "a014d43bf684"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 작품의 구조가 크리스티의 규칙을 가장 선명하게 보여준다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "The novel is emblematic of both her use of formula and her willingness to discard it. … It begins with the classic set-up of potential victim(s) and killer(s) isolated from the outside world, but then violates conventions. There is no detective involved in the action, no interviews of suspects, no careful search for clues, and no suspects gathered together in the last chapter to be confronted with the solution.",
+     "correction": "외부와 고립된 곳에 피해자와 살인자를 두는 고전적 설정으로 시작하지만 탐정도, 용의자 심문도, 마지막 장의 집합 추리도 없어, 크리스티가 공식을 쓰는 면과 그것을 버리는 면을 함께 보여준다.",
+     "note": "재검: 이전 교정문의 뒷부분(탐정·심문·집합 추리 부재)은 주어진 인용에 없었으므로 같은 문단 안에서 인용을 넓히고 교정문을 인용에 맞췄다. 이 작품이 규칙을 '가장 선명하게' 보여준다는 진술은 없다."
+    },
+    {
+     "sids": [
+      "db7c8e390d21"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『애크로이드 살인 사건』의 반전(트릭)은 널리 알려져 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd",
+     "quote": "It is a cornerstone of crime fiction, which \"contains one of the most celebrated plot twists in crime writing history.\""
+    },
+    {
+     "sids": [
+      "a5456c046d7a"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "크리스티는 짧은 문장을 쓰고 대화의 비중이 크다",
+     "verdict": "confirmed",
+     "url": "http://itre.cis.upenn.edu/~myl/languagelog/archives/002728.html",
+     "quote": "Agatha Christie used a limited vocabulary, repetition, short sentences and a large amount of dialogue in her text according to research carried out by the University of Birmingham for ITV 1’s special Christmas programme about the author.",
+     "note": "Language Log가 버밍엄대학교 2005-12-19 보도자료를 인용한 대목(TV 특집용 코퍼스 분석). 같은 글은 이 연구의 뇌화학 주장을 비꼬므로 출처를 밝혀 쓰는 편이 안전하다. '배경지식이 필요 없다'는 읽기 판단이다."
+    },
+    {
+     "sids": [
+      "5aefd7dd06aa"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "크리스티 작품에는 대개 등장인물(용의자)이 열 명 넘게 한꺼번에 나온다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "It is set in a large, isolated country manor. There are a half-dozen suspects, most of whom are hiding facts about themselves.",
+     "correction": "다만 『스타일스 저택의 괴사건』만 해도 용의자가 대여섯 명이고 그 대부분이 자기에 관한 사실을 숨기고 있어, 이름과 알리바이를 메모하며 읽으면 훨씬 편하다.",
+     "note": "재검: 이전 교정문은 주어진 인용(『스타일스』)이 아닌 작품을 들었고, 『그리고 아무도 없었다』는 열 사람이라 '열 명을 넘는' 예가 아니다. 『애크로이드』는 1926년 The Scotsman 서평이 'the eight or nine persons at whom suspicion points'라고 적는다(영어 위키백과 Ackroyd 문서). '대개 열 명 넘게'라는 일반화를 받치는 출처는 없다."
+    },
+    {
+     "sids": [
+      "79d31b02f5cc"
+     ],
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.facts",
+     "claim": "『스타일스 저택의 괴사건』(The Mysterious Affair at Styles)은 1920년에 처음 책으로 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "first published by John Lane in the United States in October 1920 and in the United Kingdom by The Bodley Head (John Lane's UK company) on 21 January 1921.",
+     "note": "영국판은 1921년. 한국어 제목은 ko 위키백과 표제 『스타일스 저택의 괴사건』(en↔ko 언어간 링크)으로 확인."
+    },
+    {
+     "sids": [
+      "49b685873d15"
+     ],
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+     "claim": "크리스티의 첫 장편이자 푸아로가 처음 등장하는 작품이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "The Mysterious Affair at Styles is the first mystery novel by British writer Agatha Christie, introducing her fictional detective Hercule Poirot."
+    },
+    {
+     "sids": [
+      "49b685873d15"
+     ],
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+     "claim": "헤이스팅스가 함께 나오며 이야기의 화자다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "Hastings – Poirot's friend, and the narrator of the story."
+    },
+    {
+     "sids": [
+      "49b685873d15"
+     ],
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+     "claim": "외딴 저택 하나에 용의자들을 두고, 이후 황금기 추리소설의 전형이 된 요소가 여기 갖춰졌다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "The story features many of the elements that have become icons of the Golden Age of Detective Fiction, largely due to Christie's influence. It is set in a large, isolated country manor. There are a half-dozen suspects"
+    },
+    {
+     "sids": [
+      "49b685873d15"
+     ],
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+     "claim": "단서를 독자에게 모두 제시한다(독자가 탐정과 같은 단서를 갖는다)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "a detective novel in which the reader would not be able to \"spot\" the murderer, although having access to the same clues as the detective."
+    },
+    {
+     "sids": [
+      "49b685873d15"
+     ],
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+     "claim": "마지막 장에서 집합 추리로 사건을 닫는다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+     "quote": "She revised the next-to-last chapter, changing the scene of Poirot's grand revelation from a courtroom to the Styles library.",
+     "correction": "끝에서 두 번째 장에서 스타일스 저택 서재의 대단원 해명으로 닫는",
+     "note": "푸아로의 해명 장면은 마지막 장이 아니라 끝에서 두 번째 장이며, 출판사 요구로 법정에서 서재로 옮겨졌다."
+    },
+    {
+     "sids": [
+      "a96376d2be93"
+     ],
+     "field": "work:agatha-christie--the-mousetrap.facts",
+     "claim": "『쥐덫』(The Mousetrap)은 1952년 초연된 크리스티의 희곡이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mousetrap",
+     "quote": "The Mousetrap is a murder mystery play by Agatha Christie. … The play opened in London's West End in 1952",
+     "note": "재인용: 원 인용문(노팅엄 세계 초연)은 크리스티의 작품임을 담지 않아 같은 문단의 첫 문장을 포함하도록 바꿨다. 세계 초연은 1952-10-06 노팅엄."
+    },
+    {
+     "sids": [
+      "a2bdcaa0038e"
+     ],
+     "field": "work:agatha-christie--the-mousetrap.significance",
+     "claim": "1952년 런던에서 초연된 뒤 반세기 넘게 연속 상연되었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mousetrap",
+     "quote": "The play opened in London's West End in 1952 and ran continuously until 16 March 2020, when the stage performances had to be temporarily discontinued during the COVID-19 pandemic.",
+     "note": "세계 초연은 1952-10-06 노팅엄, 런던 웨스트엔드 첫 공연은 1952-11-25. 연속 상연은 2020-03-16까지이고 2021-05-17 재개."
+    },
+    {
+     "sids": [
+      "a2bdcaa0038e"
+     ],
+     "field": "work:agatha-christie--the-mousetrap.significance",
+     "claim": "관객에게 결말(범인)을 발설하지 말라고 요청하는 관례가 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Mousetrap",
+     "quote": "By tradition, at the end of each performance, audiences are asked not to reveal the identity of the killer to anyone outside the theatre, to ensure that the end of the play is not spoiled for future audiences."
+    },
+    {
+     "sids": [
+      "676ddd51c31f"
+     ],
+     "field": "work:agatha-christie--and-then-there-were-none.facts",
+     "claim": "『그리고 아무도 없었다』(And Then There Were None)는 1939년 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/And_Then_There_Were_None",
+     "quote": "And Then There Were None is a 1939 mystery novel by the English writer Agatha Christie.",
+     "note": "1939년 영국 초판 제목은 다르다(87b82c876593 참조). 한국어 제목은 ko 위키백과 표제 『그리고 아무도 없었다』."
+    },
+    {
+     "sids": [
+      "c6f9624919fd"
+     ],
+     "field": "work:agatha-christie--and-then-there-were-none.significance",
+     "claim": "크리스티의 폐쇄 공간(닫힌 사회) 설계를 극한까지 밀어붙인 작품이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+     "quote": "\"And Then There Were None carries the 'closed society' type of murder mystery to extreme lengths,\" according to author Charles Osborne."
+    },
+    {
+     "sids": [
+      "c6f9624919fd"
+     ],
+     "field": "work:agatha-christie--and-then-there-were-none.significance",
+     "claim": "크리스티 장편 가운데 가장 많이 팔렸다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/And_Then_There_Were_None",
+     "quote": "And Then There Were None is Christie's best-selling novel, with more than 100 million copies sold as of 2007"
+    },
+    {
+     "sids": [
+      "87b82c876593"
+     ],
+     "field": "work:agatha-christie--and-then-there-were-none.significance",
+     "claim": "And Then There Were None이라는 제목은 1940년 미국 초판부터 쓰였고, 1939년 영국 초판은 다른 제목이었으며, 지금 영어판은 이 제목으로만 나온다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/And_Then_There_Were_None",
+     "quote": "The book was first published in the United Kingdom by Collins Crime Club in 1939 as Ten Little Niggers, … The first American edition, published in 1940, was called And Then There Were None from the start, … and the novel is now published in English only as And Then There Were None.",
+     "note": "재인용: 원 인용문은 1940년 미국판 제목만 담아, 1939년 영국 초판 제목과 현재 통용 제목까지 한 문단에 담긴 도입부로 바꿨다."
+    },
+    {
+     "sids": [
+      "59ff2a425990"
+     ],
+     "field": "work:agatha-christie--murder-on-the-orient-express.facts",
+     "claim": "『오리엔트 특급 살인』(Murder on the Orient Express)은 1934년에 책으로 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+     "quote": "It was first published in the United Kingdom by the Collins Crime Club on 1 January 1934.",
+     "note": "미국 잡지 연재는 1933년(브리태니커는 1933으로 표기). 한국어 제목은 ko 위키백과 표제 『오리엔트 특급 살인』."
+    },
+    {
+     "sids": [
+      "ace9aca97535"
+     ],
+     "field": "work:agatha-christie--murder-on-the-orient-express.significance",
+     "claim": "눈에 갇힌 열차라는 폐쇄 공간에 국적이 제각각인 승객을 모았다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+     "quote": "The Orient Express, snowed up in Yugoslavia, provides the ideal 'closed' set-up for a classic-style exercise in detection, as well as an excuse for an international cast-list.",
+     "note": "로버트 바너드의 평. 푸아로는 침대칸(sleeping berth)을 얻어 탄다."
+    },
+    {
+     "sids": [
+      "ace9aca97535"
+     ],
+     "field": "work:agatha-christie--murder-on-the-orient-express.significance",
+     "claim": "결말에서 범인 처벌이 아니라 어느 해답을 택할지(정의의 선택)로 끝난다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+     "quote": "Poirot propounds two possible solutions, and permits Bouc and Dr. Constantine to choose the best one. … Sympathetic towards Cassetti's justice-seeking avengers, however, Bouc and Dr. Constantine decide the first solution will be the one relayed to the police.",
+     "note": "재인용: 원 인용문은 해답의 선택만 담고 '처벌이 아니라 정의'라는 방향을 담지 않아 같은 문단의 끝 문장까지 넓혔다."
+    },
+    {
+     "sids": [
+      "ccd6a1fd78a9"
+     ],
+     "field": "work:agatha-christie--the-murder-of-roger-ackroyd.facts",
+     "claim": "『애크로이드 살인 사건』(The Murder of Roger Ackroyd)은 1926년 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd",
+     "quote": "The novel was published in the UK in June 1926 by William Collins, Sons",
+     "note": "한국어 제목은 ko 위키백과 표제 『애크로이드 살인 사건』."
+    },
+    {
+     "sids": [
+      "8d9e0a99cf55"
+     ],
+     "field": "work:agatha-christie--the-murder-of-roger-ackroyd.significance",
+     "claim": "화자가 범인으로 드러나 화자를 믿을 수 있다는 전제를 서술 자체로 시험했다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd",
+     "quote": "It rests upon the most elegant of all twists, the narrator who is revealed to be the murderer. This twist is not merely a function of plot: it puts the whole concept of detective fiction on an armature and sculpts it into a dazzling new shape.",
+     "note": "로라 톰슨(전기)의 평."
+    },
+    {
+     "sids": [
+      "0b6d15081aa9"
+     ],
+     "field": "work:agatha-christie--the-murder-of-roger-ackroyd.significance",
+     "claim": "발표 당시 독자를 속였다(공정하지 않다)는 논쟁을 일으켰다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/애크로이드_살인_사건",
+     "quote": "발표 당시 '보이지 않는 범인' 논쟁을 불러일으킨 화제작이다. 의외의 범인과 역대급 반전 및 트릭, 결말로 독자를 속였다는 비난이 있었으나",
+     "note": "영어 위키백과: 'one of Christie's best-known and most controversial novels'; 1926년 The Scotsman 서평 'the reader will feel that he has been fairly, or unfairly, sold up'. 『자서전』: 'a lot of people say that The Murder of Roger Ackroyd is cheating'."
+    },
+    {
+     "sids": [
+      "81446484aa97"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--agatha-christie.facts",
+     "claim": "코넌 도일(셜록 홈스 전통)이 크리스티에게 영향을 준 방향의 영향 관계이며, 크리스티 자신의 기록으로 입증된다",
+     "verdict": "confirmed",
+     "url": "https://archive.org/details/agatha-c-an-autobiography-by-agatha-christie",
+     "quote": "There would naturally have to be a detective. At that date I was well steeped in the Sherlock Holmes tradition. So I considered detectives. Not like Sherlock Holmes, of course: I must invent one of my own",
+     "note": "첫 추리소설을 구상하던 대목(자서전 djvu.txt). 영어 위키백과 Agatha Christie도 'Arthur Conan Doyle's early Sherlock Holmes stories'를 즐겨 읽었다고 적는다."
+    },
+    {
+     "sids": [
+      "a33a2303ad97"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--agatha-christie.summary",
+     "claim": "크리스티는 『자서전』에서 푸아로와 헤이스팅스에게 묶인 시절을 돌아보며 '여전히 셜록 홈스 전통 안에서 쓰고 있었다 — 괴짜 탐정, 들러리 조수, 레스트레이드형 경찰(잽 경감)'이라고 적었다",
+     "verdict": "confirmed",
+     "url": "https://archive.org/details/agatha-c-an-autobiography-by-agatha-christie",
+     "quote": "I was also tied to two people: Hercule Poirot and his Watson, Captain Hastings. … I was still writing in the Sherlock Holmes tradition—eccentric detective, stooge assistant, with a Lestrade-type Scotland Yard detective, Inspector Japp"
+    },
+    {
+     "sids": [
+      "a33a2303ad97"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--agatha-christie.summary",
+     "claim": "『자서전』은 1977년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Agatha-Christie",
+     "quote": "Her Autobiography (1977) appeared posthumously."
+    },
+    {
+     "sids": [
+      "7fa1cc84dbd0"
+     ],
+     "field": "relation:influence--arthur-conan-doyle--agatha-christie.summary",
+     "claim": "화자 헤이스팅스는 홈스 전통의 왓슨 자리(탐정의 들러리 친구)에 놓였다",
+     "verdict": "confirmed",
+     "url": "https://archive.org/details/agatha-c-an-autobiography-by-agatha-christie",
+     "quote": "I was also tied to two people: Hercule Poirot and his Watson, Captain Hastings. … I was still writing in the Sherlock Holmes tradition—eccentric detective, stooge assistant",
+     "note": "재인용: 원 인용문(첫 추리소설 구상 대목)은 헤이스팅스를 이름으로 담지 않아, 헤이스팅스를 '그의 왓슨'이라 부르고 홈스 전통을 잇는 같은 문단으로 바꿨다(자서전 djvu.txt)."
+    },
+    {
+     "sids": [
+      "79d31b02f5cc"
+     ],
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.facts",
+     "claim": "한국어 제목은 『스타일스 저택의 괴사건』이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/스타일스_저택의_괴사건",
+     "quote": "《스타일스 저택의 괴사건》(The Mysterious Affair at Styles)은 애거사 크리스티의 첫 작품으로서",
+     "note": "재검 추가: 사실 행의 한국어 제목"
+    },
+    {
+     "sids": [
+      "a96376d2be93"
+     ],
+     "field": "work:agatha-christie--the-mousetrap.facts",
+     "claim": "한국어 제목은 『쥐덫』이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/쥐덫_(소설)",
+     "quote": "《쥐덫》(The Mousetrap)은 영국의 추리작가 애거사 크리스티의 단편 소설 및 동명의 희곡을 원작으로 한 연극이다.",
+     "note": "재검 추가: 사실 행의 한국어 제목"
+    },
+    {
+     "sids": [
+      "676ddd51c31f"
+     ],
+     "field": "work:agatha-christie--and-then-there-were-none.facts",
+     "claim": "한국어 제목은 『그리고 아무도 없었다』이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/그리고_아무도_없었다",
+     "quote": "《그리고 아무도 없었다》(영어: And Then There Were None)는 애거사 크리스티의 장편 추리 소설이자 미스터리 소설이다.",
+     "note": "재검 추가: 사실 행의 한국어 제목"
+    },
+    {
+     "sids": [
+      "59ff2a425990"
+     ],
+     "field": "work:agatha-christie--murder-on-the-orient-express.facts",
+     "claim": "한국어 제목은 『오리엔트 특급 살인』이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/오리엔트_특급_살인",
+     "quote": "《'오리엔트 특급 살인'(Murder on the Orient Express)》은 애거사 크리스티가 창조해낸 인물 가운데 가장 널리 알려진 탐정 에르퀼 푸아로가 등장하는 작품이다.",
+     "note": "재검 추가: 사실 행의 한국어 제목"
+    },
+    {
+     "sids": [
+      "ccd6a1fd78a9"
+     ],
+     "field": "work:agatha-christie--the-murder-of-roger-ackroyd.facts",
+     "claim": "한국어 제목은 『애크로이드 살인 사건』이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/애크로이드_살인_사건",
+     "quote": "《애크로이드 살인사건》(영어: The Murder of Roger Ackroyd)은 애거서 크리스티의 여섯 번째 작품으로",
+     "note": "재검 추가: 사실 행의 한국어 제목(띄어쓰기 차이만 있음)"
+    },
+    {
+     "sids": [
+      "ace9aca97535"
+     ],
+     "field": "work:agatha-christie--murder-on-the-orient-express.significance",
+     "claim": "무대인 열차에서 푸아로는 침대칸을 얻어 탄다(침대차)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+     "quote": "detective Hercule Poirot obtains a sleeping berth through his friend and fellow passenger: Bouc, director of the luxury train company Compagnie Internationale des Wagons-Lits.",
+     "note": "재검 추가: '침대차'. 미국판 제목도 Murder in the Calais Coach."
+    },
+    {
+     "sids": [
+      "9af8317cf64c"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『애크로이드 살인 사건』은 장르의 관습을 위반했다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/The_Murder_of_Roger_Ackroyd",
+     "quote": "It is one of Christie's best-known and most controversial novels, its innovative twist ending having a significant impact on the genre.",
+     "correction": "장르의 관습을 두어 권 겪은 뒤에 읽어야 그 혁신적인 반전 결말이 장르에 무엇을 남겼는지 보인다.",
+     "note": "재검: noClaim이던 문장을 claim으로 바꿨다. 출처는 반전이 '혁신적'이고 '논쟁적'이며 장르에 큰 영향을 주었다고 말할 뿐, 관습 '위반'으로 규정하지 않는다. 시먼스는 오히려 'In an obvious sense, the book fits within the conventions'라고 적고(영어 위키백과 Agatha Christie), 『자서전』은 'a lot of people say that The Murder of Roger Ackroyd is cheating; but if they read it carefully they will see that they are wrong'이라 반박하며, 같은 위키백과 문서는 John Goddard가 'the charge of cheating fails'라 결론지었다고 적는다."
+    }
+   ],
+   "noClaim": {}
+  }
+ ],
+ "check": {
+  "kept": 28,
+  "requoted": 6,
+  "downgraded": 1,
+  "added": 6,
+  "noClaimConverted": 1
+ }
+}

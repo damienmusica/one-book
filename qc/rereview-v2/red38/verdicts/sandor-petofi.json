@@ -1,0 +1,456 @@
+{
+  "plates": [
+    {
+      "id": "sandor-petofi",
+      "claims": [
+        {
+          "sids": [
+            "b41394e2b75b"
+          ],
+          "field": "author.facts",
+          "claim": "원어 이름은 Petőfi Sándor이고 1823년에 태어나 1849년에 죽었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Petőfi Sándor (született Petrovics Sándor, Kiskőrös, 1823. január 1. – Fehéregyháza környékén, 1849. július 31.) magyar költő"
+        },
+        {
+          "sids": [
+            "b41394e2b75b"
+          ],
+          "field": "author.facts",
+          "claim": "헝가리 시인으로 헝가리어로 썼다(언어 hu, 권역 eastern-europe)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241211184842/https://www.britannica.com/biography/Sandor-Petofi",
+          "quote": "was one of the greatest Hungarian poets and a revolutionary who symbolized the Hungarian desire for freedom",
+          "note": "권역 'eastern-europe'는 사이트의 분류 버킷이며, 출생지는 헝가리 키슈쾨뢰시(Kiskőrös)다."
+        },
+        {
+          "sids": [
+            "b41394e2b75b"
+          ],
+          "field": "author.facts",
+          "claim": "한국어 표기는 '산도르 페퇴피'다",
+          "verdict": "contradicted",
+          "url": "https://ko.wikipedia.org/wiki/페퇴피_샨도르",
+          "quote": "페퇴피 샨도르(헝가리어: Petőfi Sándor, 본명: 페트로비치 샨도르·Petrovics Sándor",
+          "correction": "페퇴피 샨도르(Petőfi Sándor)",
+          "note": "헝가리어 s는 [ʃ]이므로 '산도르'가 아니라 '샨도르'이고, 한국어 위키백과는 헝가리식 어순(성-이름)을 표제로 쓴다."
+        },
+        {
+          "sids": [
+            "4f18f1c55463"
+          ],
+          "field": "author.importanceReason",
+          "claim": "구어체, 곧 민중의 말로 된 헝가리어로 시를 썼다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Közérthetően, egyszerűen szólt mindenkihez, hiszen a nép nyelvét beemelte az irodalomba"
+        },
+        {
+          "sids": [
+            "4f18f1c55463"
+          ],
+          "field": "author.importanceReason",
+          "claim": "1848년 3월 15일 페슈트에서 「민족의 노래」가 공개 낭독되어 봉기 첫날의 일부가 되었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "A 12 pont mellett a Nemzeti dal a népakarat legfontosabb kifejezője, a szabad sajtó első terméke volt. Petőfi a Pilvaxban majd az orvosi egyetem udvarán szavalta el versét, elindítva a lavinát.",
+          "note": "낭독 장소는 필바크스 카페와 의대 마당이며, 국립박물관 계단 낭독은 헝가리어 위키백과 Nemzeti dal 항목이 후대의 전설로 적는다."
+        },
+        {
+          "sids": [
+            "5bdff38b3eeb",
+            "644ffc5a7dac"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance / author.importanceReason",
+          "claim": "「용사 야노시」는 민담의 운율과 어휘를 '그대로' 썼다",
+          "verdict": "contradicted",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Népmesének nevezte, mert egy részét népmesei motívumokból szőtte és a népmesék hangjában adta elő, de vett külföldi regékből is vonásokat, és az egészet a maga fantáziája szerint alkotta meg.",
+          "correction": "민담의 모티프와 어조를 본뜨되 외국 전설의 요소와 자신의 상상을 섞은",
+          "note": "작품 일부만 민담 모티프로 짰고 외국 전설에서도 가져왔다. 율격은 헝가리어 위키백과 János vitéz 항목이 'ütemhangsúlyos, négyütemű felező tizenkettes'(4박 강세율의 이분 12음절)로 적을 뿐 민담 율격이라고 하지 않는다."
+        },
+        {
+          "sids": [
+            "5bdff38b3eeb"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「용사 야노시」가 이야기 시의 재료를 궁정과 고전에서 농촌의 말로 옮겨 놓았다",
+          "verdict": "contradicted",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "Az elbeszélő költemény hasonló jellegű művek hosszú sorába illeszkedik. Elődei között említhető Vörösmarty Mihály Tündérvölgy, valamint Garay János Az obsitos című munkája.",
+          "correction": "「용사 야노시」는 뵈뢰슈머르티의 「요정 골짜기」와 가라이의 「제대병」을 잇는 이야기 시의 계보에 서며, 헝가리 민중(népies) 문학의 가장 중요한 작품 가운데 하나로 꼽힌다.",
+          "note": "같은 항목은 이 작품을 'a magyar népies irodalom egyik legjelentősebb alkotása'라 부르지만, 이야기 시의 재료를 궁정·고전에서 농촌으로 옮긴 전환점이라고는 하지 않는다. 오히려 비슷한 작품의 긴 계보에 넣는다."
+        },
+        {
+          "sids": [
+            "9c70309ca2be"
+          ],
+          "field": "author.importanceReason",
+          "claim": "스물여섯에 전장에서 사라졌다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "A 26 éves költő ezután bekapcsolódott a szabadságharc küzdelmeibe, … 1849. július 31-én, a segesvári csatát követő fejvesztett menekülés közben, … ő is elesett. Eltűnésének pontos körülményei azonban tisztázatlanok."
+        },
+        {
+          "sids": [
+            "9c70309ca2be"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그의 생애가 이후 헝가리 시에서 시인과 정치적 행위를 같은 것으로 보는 상의 기준이 되었다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/20241211184842/https://www.britannica.com/biography/Sandor-Petofi",
+          "quote": "was one of the greatest Hungarian poets and a revolutionary who symbolized the Hungarian desire for freedom",
+          "correction": "스물여섯에 전장에서 사라진 그는 헝가리인의 자유에 대한 열망을 상징하는 혁명가 시인이 되었다.",
+          "note": "헝가리어 위키백과(Hatása 절)는 그의 영향이 뉘가트 1세대 등장까지 헝가리 문학을 지배했다고 적지만, '시인=정치적 행위' 상의 기준이 되었다는 문장은 가져온 어느 출처에도 없다."
+        },
+        {
+          "sids": [
+            "a4cf4f64c25c",
+            "6ed13d6b566a"
+          ],
+          "field": "author.readingEntryReason / work:sandor-petofi--nemzeti-dal.significance",
+          "claim": "「민족의 노래」는 '일어나라 헝가리인이여'라는 명령형으로 시작한다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikisource.org/wiki/Nemzeti_dal",
+          "quote": "Talpra magyar, hí a haza!",
+          "note": "브리태니커는 제목을 'Talpra magyar' (\"Rise, Hungarian\")로 옮긴다."
+        },
+        {
+          "sids": [
+            "a4cf4f64c25c"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「민족의 노래」는 특정 사건을 위해 쓰인 시로 1848년 3월 15일과 결부돼 있다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+          "quote": "A Nemzeti dal egy alkalmi vers, egy meghatározott eseményre, alkalomra íródott.",
+          "note": "같은 항목에 따르면 원래 3월 19일 집회용으로 썼으나 빈 혁명 소식에 사건이 앞당겨져 15일에 처음 낭독했다."
+        },
+        {
+          "sids": [
+            "d8bba9250972"
+          ],
+          "field": "author.readingWarning",
+          "claim": "「9월 말에」는 정치시와 다른 계열(연애시)에 속한다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Szerelmi költemények: Fa leszek, ha… (1845), Reszket a bokor, mert… (1846), Ereszkedik le a felhő (1846), Szeptember végén (1847)"
+        },
+        {
+          "sids": [
+            "65f0e12471c8"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "그의 시 문장은 구어체라 곧바로 읽힌다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Közérthetően, egyszerűen szól mindenkihez, a nép nyelvét beemeli az irodalomba úgy, hogy emellett megjelenik a kora művelt, tanult emberére valló szókészlet is.",
+          "note": "같은 문장은 민중의 말과 함께 당대 교양인의 어휘도 나타난다고 덧붙인다. 각주 필요 여부는 평가다."
+        },
+        {
+          "sids": [
+            "201261251287"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.facts",
+          "claim": "「9월 말에」(Szeptember végén)는 1847년에 쓴 시다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+          "quote": "A Szeptember végén Petőfi Sándor 1847 szeptemberében írt elégiája"
+        },
+        {
+          "sids": [
+            "9fbba38a3591"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "결혼 직후 콜토에서 썼다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+          "quote": "Petőfi és Szendrey 1847. szeptember 8-án házasodtak össze, és ezután Koltóra mentek nászútra, ahol a Teleki-kastélyban töltötték a mézesheteket. Itt keletkezett a vers."
+        },
+        {
+          "sids": [
+            "dcc76fd10ac6"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "창밖의 늦여름 풍경에서 시작한다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikisource.org/wiki/Szeptember_végén",
+          "quote": "Még zöldel a nyárfa az ablak előtt"
+        },
+        {
+          "sids": [
+            "dcc76fd10ac6"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "자기 죽음 이후의 시간을 겹쳐 놓는다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+          "quote": "A harmadik versszakban azután szentimentális ígéretet tesz, hogy ha özvegye új párt is választana, ő akkor is, a halálon túl is szeretni fogja feleségét."
+        },
+        {
+          "sids": [
+            "dcc76fd10ac6"
+          ],
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "페퇴피는 정치시로만 알려져 있다",
+          "verdict": "contradicted",
+          "url": "https://ko.wikipedia.org/wiki/페퇴피_샨도르",
+          "quote": "페퇴피는 스스로도 \"자유와 사랑의 시인\"으로 자처했듯이 소박·순정의 연애시인이었다.",
+          "correction": "창밖의 늦여름과 자기 죽음 이후의 시간을 한 시선 안에 겹쳐 놓은, 아내 센드레이 율리아에게 바친 연애시로, 혁명시와 함께 그의 다른 한 축인 사랑의 시를 보여 준다.",
+          "note": "헝가리어 위키백과는 그가 부부 사이의 사랑을 헝가리 시에 처음 들여왔다고 적고, 이 시를 연애시 목록에 넣는다."
+        },
+        {
+          "sids": [
+            "159542369d3e",
+            "6875a45f42ec"
+          ],
+          "field": "work:sandor-petofi--az-apostol.facts / significance",
+          "claim": "「사도」는 1848년(6~9월)에 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+          "quote": "A mű Pesten született 1848 júniusa és szeptembere között."
+        },
+        {
+          "sids": [
+            "159542369d3e",
+            "6875a45f42ec"
+          ],
+          "field": "work:sandor-petofi--az-apostol.facts / significance",
+          "claim": "「사도」는 이야기 시(장시, epic)다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+          "quote": "Az apostol Petőfi Sándor elbeszélő költeménye"
+        },
+        {
+          "sids": [
+            "6875a45f42ec"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "1851년 압수된 에미흐 판에 처음 실린 뒤 1862년 뮐레르 줄러 연감에 실렸으나 두 본문 모두 쓸 수 없다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/1851_az_irodalomban",
+          "quote": "Emich Gusztáv – elkobzott, forgalomba nem került – Petőfi-kiadásában először jelenik meg Petőfi Sándor verses regénye, Az apostol. (Másodszor Müller Gyula 1862. évi naptárában jelent meg, de mindkét kiadás szövege használhatatlan."
+        },
+        {
+          "sids": [
+            "b13e7bae1483"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "온전한 본문은 1874년 아테네움 시집에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+          "quote": "A teljes szöveg először 1874-ben jelent meg a Petőfi Sándor költeményei című illusztrált díszkiadásban az Athenaeum Kiadónál."
+        },
+        {
+          "sids": [
+            "b13e7bae1483"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "혁명가 주인공의 생애를 처형에 이르기까지 끝까지 따라간다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+          "quote": "A merénylet kudarcba fullad, a kor szellemének megfelelően kivégzik a főhőst."
+        },
+        {
+          "sids": [
+            "b13e7bae1483"
+          ],
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "「민족의 노래」의 낙관이 어디에서 무너지는지를 기록한다",
+          "verdict": "contradicted",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Csalódottan és ekkori tapasztalatainak hatása alatt született Az apostol című költeménye.",
+          "correction": "혁명가의 생애를 처형까지 따라가는 이 시는 1848년 6월 선거에서 진 뒤 3월 이후의 혁명에 실망한 시기에 쓰였다.",
+          "note": "헝가리어 위키백과 Az apostol 항목도 'a márciusi eseményekhez képest csalódott a forradalomban'이라 적는다. 「민족의 노래」와의 대비는 출처에 없는 해석이다."
+        },
+        {
+          "sids": [
+            "9bd3470d6a7a"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.facts",
+          "claim": "「용사 야노시」(János vitéz)는 1845년에 처음 출간되었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "Petőfi azonban nem talált rá kiadót, ekkor Vahot Imre vette meg 100 forintért, ő adta ki 1845 elején.",
+          "note": "집필은 1844년 11월 하반기다(같은 문서)."
+        },
+        {
+          "sids": [
+            "9bd3470d6a7a",
+            "644ffc5a7dac"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.facts / significance",
+          "claim": "이야기 시(elbeszélő költemény, epic)다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "A János vitéz Petőfi Sándor 1844-ben írt, 370 darab, egyenként négysoros versszakból álló verses meséje, irodalmi kifejezéssel élve elbeszélő költeménye."
+        },
+        {
+          "sids": [
+            "644ffc5a7dac"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "27장으로 되어 있다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "A mű 27 fejezetből áll"
+        },
+        {
+          "sids": [
+            "bce250849eb4"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "양치기 소년이 마지막에 요정의 나라의 왕이 된다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "Az író eszményképet teremt a nép számára, hiszen Kukorica Jancsi, az árva juhász, Tündérország királyává válik."
+        },
+        {
+          "sids": [
+            "bce250849eb4"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "도중에 프랑스 왕에게 이른다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "13. fejezet: A magyar katonák a csatahely közelében lévő tóban fürdenek meg, majd a francia király várában ünneplik a győzelmet."
+        },
+        {
+          "sids": [
+            "bce250849eb4"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "도중에 거인의 나라를 지난다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+          "quote": "Tündérország a harmadik ország, ahová János vitéz eljut, Óriásországot és a sötétség országot követően"
+        },
+        {
+          "sids": [
+            "bce250849eb4"
+          ],
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "이후 헝가리의 아동물·무대 각색이 반복해 돌아오는 원천이 되었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "János vitéz című elbeszélő költeményéből daljáték, bábelőadás, rajzfilm és rockopera is készült."
+        },
+        {
+          "sids": [
+            "6f9913761a59"
+          ],
+          "field": "work:sandor-petofi--nemzeti-dal.facts",
+          "claim": "「민족의 노래」(Nemzeti dal)는 1848년에 쓴 시다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+          "quote": "Petőfi a verset 1848. március 13-án, két nappal a forradalom kitörése előtt írta."
+        },
+        {
+          "sids": [
+            "0809c23325d3"
+          ],
+          "field": "work:sandor-petofi--nemzeti-dal.significance",
+          "claim": "1848년 3월 15일 페슈트에서 낭독되었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+          "quote": "15-én először Pesten, a Pilvax kávéházban olvasta fel a verset."
+        },
+        {
+          "sids": [
+            "6ed13d6b566a"
+          ],
+          "field": "work:sandor-petofi--nemzeti-dal.significance",
+          "claim": "연마다 같은 맹세 구절이 후렴으로 되돌아온다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+          "quote": "A szöveg dialógusként jeleníti meg a költőt és a mondataira felelő tömeget az újra és újra visszatérő refrénnel.",
+          "note": "후렴은 'A magyarok istenére / Esküszünk, / Esküszünk, hogy rabok tovább / Nem leszünk!'로 여섯 연 모두 끝에 반복된다(위키문헌 본문)."
+        },
+        {
+          "sids": [
+            "6ed13d6b566a"
+          ],
+          "field": "work:sandor-petofi--nemzeti-dal.significance",
+          "claim": "인쇄물이자 구호로 동시에 유통되었다",
+          "verdict": "confirmed",
+          "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+          "quote": "A Landerer-nyomda előtt már a nyomtatott változatot zúgta utána a tömeg."
+        },
+        {
+          "sids": [
+            "2c2ffb57f56b"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.facts",
+          "claim": "페퇴피가 루쉰에게 영향을 준 문서화된 관계(방향 페퇴피→루쉰)",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/關於魯迅之二",
+          "quote": "匈加利則有詩人裴彖飛（Petöfi Sandor），死於革命之戰，豫才為《河南》雜誌作《摩羅詩力說》，表彰擺倫等人的“撒但派”，而以裴彖飛為之繼，甚致讚美"
+        },
+        {
+          "sids": [
+            "726ee6b19826"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.summary",
+          "claim": "「마라시력설」은 『허난(河南)』에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/關於魯迅之二",
+          "quote": "豫才為《河南》雜誌作《摩羅詩力說》"
+        },
+        {
+          "sids": [
+            "726ee6b19826"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.summary",
+          "claim": "「마라시력설」은 1908년에 발표되었다",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/摩羅詩力說",
+          "quote": "摩羅詩力說作者：魯迅1908年2月"
+        },
+        {
+          "sids": [
+            "726ee6b19826"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.summary",
+          "claim": "바이런에서 시작해 헝가리의 페퇴피로 끝나는 '마라파' 시인들을 논했다",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/摩羅詩力說",
+          "quote": "今則舉一切詩人中，凡立意在反抗，指歸在動作，而為世所不甚愉悅者悉入之，為傳其言行思惟，流別影響，始宗主裴倫，終以摩迦（匈加利）文士。"
+        },
+        {
+          "sids": [
+            "726ee6b19826"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.summary",
+          "claim": "푸시킨과 페퇴피를 같은 계열에서 논했다",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/摩羅詩力說",
+          "quote": "入俄則起國民詩人普式庚，至波闌則作報復詩人密克威支，入匈加利則覺愛國詩人裴彖飛"
+        },
+        {
+          "sids": [
+            "726ee6b19826"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.summary",
+          "claim": "셸리도 같은 계열에서 논했다",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/摩羅詩力說",
+          "quote": "至其本國，則猶有修黎（Percy Bysshe Shelley）一人。"
+        },
+        {
+          "sids": [
+            "726ee6b19826"
+          ],
+          "field": "relation:influence--sandor-petofi--lu-xun.summary",
+          "claim": "루쉰이 이후 페퇴피의 시를 중국어로 옮겼다",
+          "verdict": "confirmed",
+          "url": "https://zh.wikisource.org/wiki/願我是樹倘使你……",
+          "quote": "作者：裴多菲·山多爾1845年1925年譯者：魯迅"
+        }
+      ],
+      "noClaim": {
+        "3fe598b91ba3": "「민족의 노래」에서 멈추지 말라는 읽기 권고이자 평가로, 사실 주장이 없다."
+      }
+    }
+  ]
+}

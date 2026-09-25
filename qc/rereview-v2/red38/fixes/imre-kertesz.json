@@ -1,0 +1,112 @@
+{
+  "fixes": [
+    {
+      "id": "imre-kertesz",
+      "importanceReason": "수용소를 겪는 소년의 시점을 끝까지 유지해, 아우슈비츠를 과거 시제로 쓰되 여전히 현실을 부인하는 듯한 사춘기 소년의 목소리로 서술했다. 『운명』의 화자는 사후의 도덕적 정리 없이 각 단계를 그때의 이해로만 기술한다. 뒤이은 『좌절』과 『태어나지 않은 아이를 위한 기도』는 그 소설을 쓴 사람의 자리를 다시 서술 대상으로 삼아, 홀로코스트를 쓰는 행위 자체를 소재로 되돌리는 3부작이 되었다.",
+      "readingEntryReason": "소년 화자의 시점이라는 방법이 여기서 작동하고, 스웨덴 한림원은 뒤이은 두 소설을 이 작품에 대한 논평이자 보충에 가깝다고 보았다.",
+      "readingWarning": "『태어나지 않은 아이를 위한 기도』부터 시작하면 단락이 열일곱 개뿐인 쉼 없는 열변의 문체가 처음에는 읽는 이를 주저하게 할 수 있다. 이 배치는 발표순(『좌절』 1988 → 『기도』 1990)을 뒤집어 놓은 것이다.",
+      "difficultyReason": "『운명』의 문장 자체는 평이하나 화자가 도덕적 판단을 끝까지 미루어 그 공백을 독자가 견뎌야 하고, 『기도』는 단락이 열일곱 개뿐인 쉼 없는 열변이어서 형식을 감내해야 한다.",
+      "works": [
+        {
+          "id": "imre-kertesz--a-kudarc",
+          "significance": "『운명』을 쓴 늙은 작가가 그 원고의 거절을 기다리며 카프카풍 소설을 쓴다. 홀로코스트를 쓰는 행위 자체를 소재로 되돌리는 3부작의 두 번째 권이다."
+        },
+        {
+          "id": "imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert",
+          "titleKo": "태어나지 않은 아이를 위한 기도",
+          "significance": "단락이 열일곱 개뿐인 쉼 없는 열변으로, 아이를 낳지 않겠다는 결정을 아우슈비츠 이후의 논리로 설명한다. 『운명』의 주인공 쾨베시 죄르지가 다시 등장하는 3부작의 마지막 권."
+        },
+        {
+          "id": "imre-kertesz--sorstalansag",
+          "significance": "열네 살 소년이 부다페스트에서 아우슈비츠와 부헨발트로 옮겨지는 과정을, 사후의 정리 없이 각 단계의 이해로만 서술한다. 마지막 장에서 화자가 '수용소의 행복'을 말하는 대목이 이 소설의 서술 원칙을 드러낸다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "translation--friedrich-nietzsche--imre-kertesz",
+          "summary": "케르테스는 독일어 문학·철학의 헝가리어 번역으로 생계를 꾸렸고 니체는 그가 옮긴 대표적 저자다. 노벨 재단의 전기·저작 기록이 그의 번역 목록에 니체를 올려 두었다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "『운명』은 현재진행(현재 시제)의 문법으로 서술된다",
+          "resolution": "corrected",
+          "evidence": "첫 문장을 교정문 그대로 '…아우슈비츠를 과거 시제로 쓰되 여전히 현실을 부인하는 듯한 사춘기 소년의 목소리로 서술했다'로 바꿨다(complete-review: \"though narrated in the past tense, it is told as if he were still in denial\"). '회고가 아니라 현재진행의 문법'은 지웠다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "이 판단의 유예가 독자를 자기 반응과 마주하게 한다(판단을 독자에게 넘긴다)",
+          "resolution": "narrowed",
+          "evidence": "둘째 문장에서 '이 유예가 판단의 자리를 독자에게 넘긴다'를 지우고 '사후의 도덕적 정리를 거부하고'를 교정문대로 '사후의 도덕적 정리 없이'로 좁혀 '『운명』의 화자는 사후의 도덕적 정리 없이 각 단계를 그때의 이해로만 기술한다.'만 남겼다(노벨 보도문: \"absence of any element of the moral indignation\"). 교정문 뒤 절(독자를 자기 반응의 부조리와 마주하게 한다)은 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "소년 화자의 「현재진행 시점」이 『운명』의 방법이다",
+          "resolution": "narrowed",
+          "evidence": "'현재진행'과 뒷받침 없는 최상급 '가장 순수하게'를 지워 '소년 화자의 시점이라는 방법이 여기서 작동하고'로 좁혔다. 소년의 시점은 노벨 강연 인용(\"poor boy … he has to live through everything\")이 받친다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "나머지 작품은 모두 『운명』을 쓴 뒤의 반향으로 읽힌다",
+          "resolution": "corrected",
+          "evidence": "'나머지 작품은 모두 이 소설을 쓴 뒤의 반향으로 읽힌다'를 교정문대로 '스웨덴 한림원은 뒤이은 두 소설을 이 작품에 대한 논평이자 보충에 가깝다고 보았다'로 바꿨다(한림원 보도문: \"can almost be characterised as comments and additions to the first and decisive work\"). 『청산』까지 넣는 '모두'는 지웠다. 두 소설의 이름은 길이 때문에 '뒤이은 두 소설'로 줄였다(보도문이 꼽은 것은 『좌절』과 『카디시』 둘뿐)."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『카디시』는 단락 없는 한 덩어리의 독백이다",
+          "resolution": "corrected",
+          "evidence": "첫 문장을 교정문에 따라 '『태어나지 않은 아이를 위한 기도』부터 시작하면 단락이 열일곱 개뿐인 쉼 없는 열변의 문체가 처음에는 읽는 이를 주저하게 할 수 있다'로 바꿨다(Mookse and Gripes: \"might at first seem discouraging … a continuous declamation … only seventeen paragraphs\"). 영역본 쪽수(120쪽)와 '긴 문장이 빽빽하게'는 길이 때문에 넣지 않았다. 둘째 문장의 약칭도 제목 교정에 맞춰 『기도』로 바꿨다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『카디시』는 『운명』의 전제를 이미 아는 독자를 향해 쓰였다",
+          "resolution": "corrected",
+          "evidence": "readingWarning에서 '『운명』의 전제를 이미 아는 독자를 향해 있어'를 지웠고, 작품 의의(81fe086d0a97)의 '『운명』의 전제를 이미 아는 독자를 향해 쓰인 3부작의 마지막 권'을 교정문을 좁혀 '『운명』의 주인공 쾨베시 죄르지가 다시 등장하는 3부작의 마지막 권'으로 바꿨다(노벨 전기: \"the protagonist of Sorstalanság and A kudarc, György Köves, reappears\")."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『카디시』는 단락 없는 독백으로 진행된다",
+          "resolution": "corrected",
+          "evidence": "'『카디시』는 단락 없는 독백…으로 진행되어'를 교정문에 따라 '『기도』는 단락이 열일곱 개뿐인 쉼 없는 열변이어서'로 바꿨다(Mookse and Gripes: \"a continuous declamation … only seventeen paragraphs\"). 약칭은 제목 교정(『태어나지 않은 아이를 위한 기도』)에 맞췄다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『카디시』는 자기 인용으로 진행된다",
+          "resolution": "narrowed",
+          "evidence": "확인되지 않은 '자기 인용'을 difficultyReason에서 지웠다. 메모가 제안한 '반복되는 구절'은 확정 인용이 없어 넣지 않았다."
+        },
+        {
+          "field": "work:imre-kertesz--a-kudarc.significance",
+          "claim": "늙은 작가가 원고의 거절을 기다리며 그 뒤의 삶을 다시 서술한다",
+          "resolution": "corrected",
+          "evidence": "'그 원고의 거절과 자기 생애를 다시 서술하는 소설'을 교정문에 따라 '그 원고의 거절을 기다리며 카프카풍 소설을 쓴다'로 바꿨다(노벨 보도문: \"While he waits for an expected refusal of his real novel … writing a contemporary novel in the style of Kafka\"). '사회주의 동유럽을 그린 … 동시대'는 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "work:imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert.facts",
+          "claim": "한국어 제목은 『태어나지 않은 아이를 위한 카디시』이다",
+          "resolution": "corrected",
+          "evidence": "titleKo를 국내 간행본 제목 '태어나지 않은 아이를 위한 기도'로 바꿨다(예스24: \"태어나지 않은 아이를 위한 기도 [ EPUB ] 임레 케르테스 저/ 이상동 역 | 민음사\"). 메모대로 importanceReason·readingWarning·difficultyReason의 『…카디시』·『카디시』 표기도 『…기도』·『기도』로 맞췄다."
+        },
+        {
+          "field": "work:imre-kertesz--kaddis-a-meg-nem-szuletett-gyermekert.significance",
+          "claim": "『카디시』는 단락 없이 이어지는 한 덩어리의 독백이다",
+          "resolution": "corrected",
+          "evidence": "'단락 없이 이어지는 한 덩어리의 독백으로'를 교정문에 따라 '단락이 열일곱 개뿐인 쉼 없는 열변으로'로 바꿨다(Mookse and Gripes: \"a continuous declamation … only seventeen paragraphs\"). 영역본 쪽수와 '문장 중간에서 끊겨 다음 단락으로 이어지는'은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "work:imre-kertesz--sorstalansag.significance",
+          "claim": "이 대목이 서술 원칙을 「가장 뚜렷하게」 드러낸다",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 최상급 '가장 뚜렷하게'를 지워 '…대목이 이 소설의 서술 원칙을 드러낸다'로 좁혔다. 결말의 '행복'은 HLO 인용(\"as Gyuri says at the end of the novel, happiness – at the camps\")이 받친다."
+        },
+        {
+          "field": "relation:translation--friedrich-nietzsche--imre-kertesz.summary",
+          "claim": "번역 활동은 1953년부터 독일 이주 뒤까지 오래 이어졌고, 니체(『비극의 탄생』)는 그가 옮긴 대표적 저자다",
+          "resolution": "narrowed",
+          "evidence": "한 인용으로 받칠 수 없는 기간 '오랫동안'을 지웠다. 남은 '독일어 문학·철학의 헝가리어 번역으로 생계를 꾸렸고 니체는 그가 옮긴 대표적 저자다'는 encyclopedia.com(\"support himself exclusively by writing and working as a literary translator … especially Friedrich Nietzsche\")과 노벨 전기(\"translator of German-language authors such as Nietzsche\")가 받치고, 헝가리어는 영어 위키백과(\"translated various works into Hungarian, including those of Friedrich Nietzsche\")가 받친다. 문서 이름(노벨 재단의 전기·저작 기록)은 그대로다."
+        }
+      ]
+    }
+  ]
+}

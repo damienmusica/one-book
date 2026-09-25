@@ -1,0 +1,99 @@
+{
+  "fixes": [
+    {
+      "id": "daniel-defoe",
+      "lifeApprox": "birth",
+      "importanceReason": "허구를 실제 회고록처럼 보이게 하는 자잘한 사실의 축적을 소설의 방법으로 삼아, 무인도의 생존과 런던의 역병을 겪은 사람이 직접 남긴 기록처럼 써 냈다. 날짜와 물품 목록, 금액과 교구별 사망자 통계표를 서술에 박아 넣고 서문에서는 편집자의 겸양을 내세워, 이 정황의 방법을 어느 소설가보다 강하게 밀고 나갔다. 도둑과 정부(情婦)의 일인칭 회고를 참회록의 형식에 담은 『몰 플랜더스』와 『록사나』는 매력 없는 평범한 인물의 모험을 전기의 형식으로 곧장 들려주었다.",
+      "readingEntryReason": "사건이 시간순으로 이어지고 화자가 하나여서 디포의 방법 — 날짜·물품·계산의 축적 — 이 또렷하게 보인다.",
+      "readingWarning": "한 필자가 살펴본 도서관 축약본 『로빈슨 크루소』는 하나같이 종교적 대목을 거의 다 잘라 냈다. 원본에는 물품 목록과 회계가 실려 있고 종교적 자기 심문이 곳곳에 있다.",
+      "difficultyReason": "단락이 길고 한 문장이 여러 절로 이어지는 18세기 산문이다. 짜인 플롯이 없고, 이야기 자체보다 공들여 그린 인물이 서술의 중심이다.",
+      "works": [
+        {
+          "id": "daniel-defoe--the-shortest-way-with-the-dissenters",
+          "significance": "비국교도 박해론을 극단까지 밀어붙이는 척한 익명 팸플릿. 반어가 통하지 않아 디포는 체포되어 형틀에 세워졌고, 이 사건으로 이력이 새 국면에 들어섰다."
+        },
+        {
+          "id": "daniel-defoe--robinson-crusoe",
+          "significance": "난파한 상인이 28년간 섬에서 살아남는 과정을 날짜와 물품 목록으로 기록한 일인칭 서사. 생존의 기술, 손익 계산, 종교적 자기 심문이 하나의 서술로 이어진다."
+        }
+      ],
+      "dropRelations": [
+        "influence--daniel-defoe--virginia-woolf"
+      ],
+      "resolutions": [
+        {
+          "field": "author.facts",
+          "claim": "대니얼 디포(Daniel Defoe)는 1660년 런던에서 태어나 1731년 런던에서 죽은 영어권 영국 작가다",
+          "resolution": "narrowed",
+          "evidence": "생년 1660은 그대로 두고 lifeApprox를 'birth'로 달아 쪽에 「1660?–1731」로 그린다. 브리태니커(Wayback)는 'born 1660, London'이라 적지만 위키백과 도입부는 '{{circa|1660}}'이고 그 각주 인용은 'Most reliable sources hold that the date of Defoe's birth was uncertain and may have fallen in 1659 or 1661'이다 — 생년이 추정이다. 사망 연도 1731은 확정이라 'death'는 달지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "디포가 산문 허구가 증언(실기)의 외형을 빌리는 방식을 확립했다",
+          "resolution": "corrected",
+          "evidence": "importanceReason 둘째 문장의 '화자에게는 편집자의 겸양을 부여함으로써, 산문 허구가 증언의 외형을 빌리는 방식을 확립했다'를 교정문대로 '서문에서는 편집자의 겸양을 내세워, … 정황의 방법을 어느 소설가보다 강하게 밀고 나갔다'로 바꿨다(1906년 서문: 'He showed, more forcibly than any novelist before or since, the irresistible cogency of the circumstantial method'). 교정문의 '허구를 실제 기록처럼 믿게 하는'은 첫 문장이 이미 같은 말을 하고 필드가 길어져 '이'로 받았다. '확립했다'는 지웠다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "『몰 플랜더스』와 『록사나』가 영국 소설이 다룰 인물의 범위를 상인·범죄자·하층민까지 넓혔다",
+          "resolution": "corrected",
+          "evidence": "importanceReason 셋째 문장의 '영국 소설이 다룰 인물의 범위를 상인·범죄자·하층민까지 넓혔다'를 교정문을 줄여 '매력 없는 평범한 인물의 모험을 전기의 형식으로 곧장 들려주었다'로 바꿨다(1906년 서문: 'He took a perfectly ordinary and representative character, a Moll Flanders, a Roxana, a Colonel Jack—people who had no charms of personality—and related their adventures with the utmost directness, in the natural form of biography'). '전형적인'과 '주인공으로 삼아'는 필드 길이 때문에 뺐다. 범위를 넓혔다는 인과와 '상인'은 사라졌다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『로빈슨 크루소』는 크루소가 자기 출생에서부터 서술을 시작하는 일인칭 서사다",
+          "resolution": "narrowed",
+          "evidence": "readingEntryReason에서 비교 근거가 없는 최상급 '가장'을 지워 '…이 또렷하게 보인다'로 좁혔다. 시간순·화자 하나는 확정 claim(장 목록 'START IN LIFE … RETURN TO ENGLAND', 등장인물 목록 'The narrator of the novel')이 받친다. note의 '다만'(일지가 첫 나날을 되풀이한다)은 순서를 뒤집는 것이 아니라 같은 구간의 재서술이어서 '시간순'은 남겼다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "한 기고자가 도서관의 『로빈슨 크루소』를 모두 살펴보니 거의 다 축약본이었고, 하나같이 원작의 종교적 대목을 거의 다 잘라 냈다",
+          "resolution": "narrowed",
+          "evidence": "인용이 싣지 않는 '아동용'을 지우고, 주장을 인용 범위로 좁혀 readingWarning 첫 문장을 '한 필자가 살펴본 도서관 축약본 『로빈슨 크루소』는 하나같이 종교적 대목을 거의 다 잘라 냈다'로 바꿨다(First Things: 'Almost all of them proved to be abridgments. Every single one showed the same bleak pattern, the evisceration from the text of almost every scrap or shred of religion')."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "축약본에서는 날짜·물품·계산의 축적이라는 디포의 방법 자체가 사라진다",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 '축약본으로 시작하면 디포의 방법 자체가 사라진다'를 지웠다. 문장 55c2ae0717fd는 확정 claim이 받치는 내용(한 필자가 본 축약본은 하나같이 종교적 대목을 잘라 냈다)만 남았다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "물품 목록과 회계가 원본에서 큰 비중을 차지한다",
+          "resolution": "narrowed",
+          "evidence": "readingWarning 둘째 문장의 '큰 비중을 차지하며, 그것이 이 소설의 내용이다'를 지워 '원본에는 물품 목록과 회계가 실려 있고 종교적 자기 심문이 곳곳에 있다'로 좁혔다. 목록·회계가 실려 있다는 것은 확정 인용('bread, rice, three Dutch cheeses', 'like debtor and creditor')이, '곳곳에'는 종교적 자기 심문 claim(헌터의 서술)이 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "한 문장이 여러 절로 길게 이어진다",
+          "resolution": "narrowed",
+          "evidence": "note가 평가로 남긴 '속도가 붙지 않는다'를 지워 difficultyReason 첫 문장을 '단락이 길고 한 문장이 여러 절로 이어지는 18세기 산문이다'로 좁혔다. 긴 문장·단락은 검수 실측(문장 중앙값 52단어, 단락 중앙값 132단어)과 예시 인용이 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "사건보다 목록과 계산이 서술의 중심이다",
+          "resolution": "corrected",
+          "evidence": "difficultyReason 둘째 문장 '사건보다 목록과 계산이 서술의 중심이어서, 근대 소설의 플롯을 기대하면 중반에 지루해진다'를 교정문 그대로 '짜인 플롯이 없고, 이야기 자체보다 공들여 그린 인물이 서술의 중심이다'로 바꿨다(1906년 서문: 'With Defoe the story is of no importance. Plots he has none. His men and women are carefully limned'). 인용에 없는 '중반에 지루해진다'는 지웠다."
+        },
+        {
+          "field": "work:daniel-defoe--the-shortest-way-with-the-dissenters.significance",
+          "claim": "이 사건이 그의 산문가 이력을 결정했다",
+          "resolution": "corrected",
+          "evidence": "'이 사건이 그의 산문가 이력을 결정했다'를 교정문대로 '이 사건으로 이력이 새 국면에 들어섰다'로 바꿨다(브리태니커: 'What did bring him down, only a year or so later, and consequently led to a new phase in his career, was a religious question'). 필드 길이 때문에 교정문의 '그의'를 뺐다."
+        },
+        {
+          "field": "work:daniel-defoe--robinson-crusoe.significance",
+          "claim": "손익 계산과 종교적 자기 심문이 한 대목에서 맞물린다 — 크루소는 자기 처지의 선악을 대차 장부처럼 적는다",
+          "resolution": "narrowed",
+          "evidence": "note가 평가로 남긴 '하나의 문체'를 '하나의 서술'로 좁혀 '생존의 기술, 손익 계산, 종교적 자기 심문이 하나의 서술로 이어진다'로 바꿨다. 셋이 한 화자의 서술 안에 있다는 것은 확정 인용(사냥·농사·도기, 'like debtor and creditor … He that miraculously saved me from death')과 화자 claim이 받치고, 문체의 통일이라는 평가는 지웠다."
+        },
+        {
+          "field": "relation:influence--daniel-defoe--virginia-woolf.facts",
+          "claim": "디포 → 울프 방향의 영향(documented_influence)이 문서로 확인된다",
+          "resolution": "relation-dropped",
+          "evidence": "근거인 울프의 「디포」는 디포를 읽고 평가한 비평문이고, 디포가 울프에게 영향을 줬다는 출처는 없다 — documented_influence라는 유형이 무너진다. 교정문이 제안한 비평·수용 관계는 관계 분류(src/types.ts RELATION_DEFS: 영향·번역·사사·교류·친연성·대조)에 없어 dropRelations로 뺐다. 디포 도판에는 쿳시 영향선과 스위프트 대조선이 남는다."
+        }
+      ]
+    }
+  ]
+}

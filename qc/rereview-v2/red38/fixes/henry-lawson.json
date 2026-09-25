@@ -1,0 +1,172 @@
+{
+  "fixes": [
+    {
+      "id": "henry-lawson",
+      "importanceReason": "총림 지대의 가난과 고립을 짧은 산문으로 적었고, 『빌리가 끓는 동안』에서 호주 사실주의를 사실상 새로 만들었다는 평을 받는다. 플롯이 가볍거나 없는 그의 스케치의 빼어난 예로는 「평원의 가장자리에서」와 같은 책의 미첼 스케치들이 꼽힌다. 『불레틴』 지면에서 밴조 패터슨과 벌인 논쟁은 총림을 낭만으로 볼 것인가 더 날 선 시선으로 볼 것인가를 문단의 공개 쟁점으로 만들었다.",
+      "readingEntryReason": "단편 한 편 분량에 총림의 고립과 여성의 노동이 하룻밤으로 압축돼 있다.",
+      "readingWarning": "시집부터 들어가면 발라드 전통에 선 시가 먼저 보여, 그의 산문이 왜 다른지 보이지 않는다.",
+      "difficultyReason": "문장이 짧고 구어라 빨리 읽히지만, 총림 노동의 어휘(빌리·스왜그맨·셀렉터)와 노조 배경이 각주 없이는 잘 잡히지 않는다.",
+      "works": [
+        {
+          "id": "henry-lawson--the-drovers-wife",
+          "significance": "『불레틴』 1892년 지면에 실린 단편 「가축 몰이꾼의 아내」. 남의 가축 떼를 몰러 나간 남편의 소식이 여섯 달째 끊긴 오두막에서 뱀 한 마리를 기다리는 하룻밤을 그린다."
+        },
+        {
+          "id": "henry-lawson--in-the-days-when-the-world-was-wide",
+          "significance": "1896년에 묶인 첫 시집으로 총림 시를 모았다. 『불레틴』 지면에서 밴조 패터슨과 벌인 논쟁에 그가 보낸 시 가운데 가장 좋은 것들도 실렸다."
+        },
+        {
+          "id": "henry-lawson--joe-wilson-and-his-mates",
+          "significance": "1901년 에든버러에서 나온 단편집. 스무 편 가운데 조 윌슨의 구애와 결혼을 다룬 네 편은 훌륭한 연작이지만, 절제된 산문이 분석적 탐구에 맞지 않아 늘 흩어지기 직전처럼 보인다는 평이다."
+        },
+        {
+          "id": "henry-lawson--while-the-billy-boils",
+          "significance": "1896년에 묶인 단편집으로 「가축 몰이꾼의 아내」와 「조합이 죽은 이를 묻는다」를 포함한다. 뼈만 남긴 산문의 예로 꼽히는 미첼 스케치가 실렸고, 호주 문학의 고전으로 남았다."
+        }
+      ],
+      "newSources": [
+        {
+          "id": "src--wilding-1997-patrick-white-politics-of-modernism",
+          "title": "Michael Wilding, 「Patrick White: The Politics of Modernism」",
+          "publisherOrInstitution": "Studies in Classic Australian Fiction (Sydney Association for Studies in Society and Culture, No. 16, 1997)",
+          "citation": "초기 호주 소설의 지배적 사실주의 전통을 로슨이 세운 '참여적 좌파 사실주의 양식'으로 놓고, 화이트의 작업이 그것과 맞선다고 쓴 글. 인터넷 아카이브 2024년 7월 30일 사본.",
+          "url": "https://web.archive.org/web/20240730113811/https://openjournals.library.sydney.edu.au/index.php/SSSC/article/download/8293/8402"
+        }
+      ],
+      "relations": [
+        {
+          "id": "contrast--henry-lawson--patrick-white",
+          "summary": "화이트는 「탕자」(Australian Letters, 1958)에서 『보스』를 호주 소설이 반드시 저널리즘적 사실주의의 산물은 아님을 증명하려 썼다고 했고, 마이클 와일딩은 그가 맞선 사실주의 전통을 로슨이 세운 '참여적 좌파 사실주의'로 본다.",
+          "evidenceLevel": "editorial_inference",
+          "sourceIds": [
+            "src--white-prodigal-son-1958",
+            "src--australian-dictionary-of-biography",
+            "src--wilding-1997-patrick-white-politics-of-modernism"
+          ]
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "로슨은 총림을 감상 없이 적었다",
+          "resolution": "removed",
+          "evidence": "문장 8d440bb1ef6b 에서 '감상 없이'를 지웠다(메모: '감상 없이'는 빼야 한다). 남은 '총림 지대의 가난과 고립을 짧은 산문으로 적었고'는 같은 sid 의 확정 주장(ADB 'The prose is spare, cut to the bone', 'his experience in the western outback. It was the source of most of his best work')이 받친다. 필드 길이를 넘지 않게 교정문의 후기 감상 서술은 더하지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "그의 산문이 호주 단편소설이 영국 문단의 문체에서 떨어져 나오는 자리를 만들었다",
+          "resolution": "corrected",
+          "evidence": "'호주 단편소설이 영국 문단의 문체에서 떨어져 나오는 자리를 만들었다'를 교정문에 따라 '『빌리가 끓는 동안』에서 호주 사실주의를 사실상 새로 만들었다는 평을 받는다'로 바꿨다(위키백과가 인용한 엘더: 'In it he … virtually reinvented Australian realism'). 교정문의 '패터슨과 낭만파를 향한 공격을 이어 가며'는 필드 길이 때문에 뺐다 — 패터슨과의 논쟁은 같은 필드의 셋째 문장이 적는다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "「가축 몰이꾼의 아내」의 방식이 플롯 대신 상황과 말투로 지탱되는 단편의 표본이 되었다",
+          "resolution": "corrected",
+          "evidence": "문장 932e340f7251 을 교정문으로 바꿨다: '플롯이 가볍거나 없는 그의 스케치의 빼어난 예로는 「평원의 가장자리에서」와 같은 책의 미첼 스케치들이 꼽힌다.' '같은 책'은 앞 문장의 『빌리가 끓는 동안』이다(ADB 'A stunning example is 'On the Edge of a Plain' but almost any Mitchell sketch from While the Billy Boils exemplifies these qualities'). 「가축 몰이꾼의 아내」를 표본으로 세운 말은 지웠고, 필드 길이 때문에 원제 괄호는 뺐다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "논쟁의 쟁점은 총림을 낭만으로 볼 것인가 노동으로 볼 것인가였다",
+          "resolution": "corrected",
+          "evidence": "'노동으로'를 교정문의 '더 날 선 … 시선으로'로 바꿨다(Australian literature: 'Lawson considered to have the harder edged view of the Bush and Paterson the romantic'). '더 날 선'이 'harder edged'를 옮기므로 겹치는 '가혹한'은 뺐다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "「가축 몰이꾼의 아내」 한 편 안에 그의 방법 전부가 들어 있다",
+          "resolution": "removed",
+          "evidence": "문장 4a43d68b2e43 에서 '그의 방법 전부가 들어 있다'를 지웠다. 받치는 출처가 없다. '단편 한 편 분량에'는 이 작품이 단편이라는 확정 주장(위키백과 'The story was first published in the 23 July 1892 edition of The Bulletin')에 기댄다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "이 단편에서 감상은 제거돼 있다",
+          "resolution": "removed",
+          "evidence": "같은 문장에서 '감상은 제거돼 있으며'를 지웠다. 평가한 출처가 없고, 메모대로 본문의 'Heaven help her!'와 눈물로 끝나는 결말이 반대를 가리킨다. 어느 주장도 덮지 않은 '사건은 거의 없고'도 함께 뺐다. 남은 '총림의 고립과 여성의 노동이 하룻밤으로 압축돼 있다'는 확정 주장들(위키문헌 'Nineteen miles to the nearest sign of civilization', 'She thinks how she fought a flood during her husband’s absence', 위키백과 'the woman waits with her dog, Alligator, for the snake to re-appear')이 받친다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "그의 시는 번역에서 율격과 은어가 가장 많이 깎여 나간다",
+          "resolution": "removed",
+          "evidence": "문장 25c7dddd05c3 에서 '발라드 율격과 은어가 번역에서 가장 많이 깎여 나가'를 지웠다. 번역 손실을 다룬 출처가 없다. 이 도구로는 readingWarning 필드를 지울 수 없어, 확정 주장(Australian literature 'Henry Lawson and Banjo Paterson were two of the chief exponents of these popular ballads')이 받치는 발라드 전통만 남겨 '시집부터 들어가면 발라드 전통에 선 시가 먼저 보여, 그의 산문이 왜 다른지 보이지 않는다'로 좁혔다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "셀렉터(selector)는 1860년대 호주 식민지 토지법의 '측량 전 자유 선택'에서 나온 말로, 농지를 골라 얻은 사람을 가리키는 호주 어휘다",
+          "resolution": "accepted",
+          "evidence": "메모가 확인되지 않았다고 한 '소농'은 페이지 어디에도 없다. 문장 c592db0a2cb4 는 '총림 노동의 어휘(빌리·스왜그맨·셀렉터)'로 낱말만 들고, 셀렉터가 호주 어휘라는 것은 인용 'Selectors often came into conflict with squatters'와 'free selection before survey'가 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "노조가 로슨 작품의 배경으로 등장한다 — 단편 「조합이 죽은 이를 묻는다」는 이름 없는 노조원 노동자의 장례를 다룬다",
+          "resolution": "accepted",
+          "evidence": "메모가 찾지 못한 것은 노조 '운동'을 배경으로 명시한 대목인데, 페이지는 '운동'이라 하지 않는다. 고친 문장 c592db0a2cb4 는 '노조 배경'만 적고, 인용 'concerns the burial of an anonymous union labourer'(「The Union Buries Its Dead」)가 받친다. '1890년대'는 불황 주장과 함께 지웠다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "1890년대 불황이 로슨 작품의 배경이다",
+          "resolution": "removed",
+          "evidence": "문장 c592db0a2cb4 에서 '1890년대 불황·'을 지웠다. 로슨의 작품을 그 불황과 잇는 출처가 없다. 메모가 대안으로 든 '1890년대 가뭄과 오지의 궁핍'은 확정 인용도 교정문도 아니어서 넣지 않았다."
+        },
+        {
+          "field": "work:henry-lawson--the-drovers-wife.significance",
+          "claim": "이 단편에 사건 대신 상황과 말투로 지탱되는 그의 방법이 가장 짧게 압축돼 있다",
+          "resolution": "removed",
+          "evidence": "문장 280676fed6ee 에서 '사건 대신 상황과 말투로 지탱되는 그의 방법이 가장 짧게 압축돼 있다'를 지웠다. 받치는 출처가 없다. 밤 사이 회상이 들어 있다는 확정 주장의 메모에 맞춰 '하룻밤이 전부이며'도 '하룻밤을 그린다'로 줄였다. 남은 문장은 확정 주장들('He had to sacrifice the remnant of his flock and go droving again.', 'she has not heard from her husband for six months', 위키백과 줄거리)이 받친다."
+        },
+        {
+          "field": "work:henry-lawson--in-the-days-when-the-world-was-wide.significance",
+          "claim": "이 시집은 발라드 율격과 총림의 은어를 그대로 쓴 시들이다",
+          "resolution": "corrected",
+          "evidence": "'발라드 율격과 총림의 은어를 그대로 쓴 시들로'를 교정문에 따라 '총림 시를 모았다'로 바꿨다(인포박스 'genre = Bush poetry'). '첫 시집으로'에 이어 붙여 '시집'이 겹치지 않게 했다."
+        },
+        {
+          "field": "work:henry-lawson--in-the-days-when-the-world-was-wide.significance",
+          "claim": "그가 산문에서 걷어낸 낭만이 이 시집에는 남아 있다",
+          "resolution": "corrected",
+          "evidence": "'그가 산문에서 걷어낸 낭만이 시에서는 어떻게 남아 있는지를 보여 준다'를 교정문으로 바꿨다: '『불레틴』 지면에서 밴조 패터슨과 벌인 논쟁에 그가 보낸 시 가운데 가장 좋은 것들도 실렸다'(위키백과 'and the best of Lawson's contributions to The Bulletin Debate'). 필드 길이를 넘지 않게 '1892–93년'은 넣지 않았다."
+        },
+        {
+          "field": "work:henry-lawson--joe-wilson-and-his-mates.significance",
+          "claim": "단편집에는 스무 편 남짓이 실려 있다",
+          "resolution": "corrected",
+          "evidence": "'스무 편 남짓 가운데'를 '스무 편 가운데'로 바꿨다(위키백과 'The collection contains twenty stories'). '남짓'이 빠져 수가 스물로 정확해지므로 교정문의 '모두'는 길이 때문에 뺐다."
+        },
+        {
+          "field": "work:henry-lawson--joe-wilson-and-his-mates.significance",
+          "claim": "조 윌슨 연작은 스케치에 머물던 형식이 인물의 생애를 감당하는 데까지 나아간 자리다",
+          "resolution": "corrected",
+          "evidence": "'스케치에 머물던 그의 형식이 인물의 생애를 감당하는 데까지 나아간 자리다'를 교정문으로 바꿨다: '네 편은 훌륭한 연작이지만, 절제된 산문이 분석적 탐구에 맞지 않아 늘 흩어지기 직전처럼 보인다는 평이다'(ADB 'Lawson's withholding, austere prose was ill suited to analytic probing, which is why Joe Wilson , fine piece of work though it is, seems constantly on the point of disintegration.'). '연작'은 확정 주장의 'these four connected stories'가 받친다. 필드 길이 때문에 '말을 아끼는'을 빼고 '구애와 결혼과 그 이후의 시간'을 '구애와 결혼'으로 줄였다."
+        },
+        {
+          "field": "work:henry-lawson--while-the-billy-boils.significance",
+          "claim": "이 단편집은 감상 없는 절제된 산문의 표본이다",
+          "resolution": "corrected",
+          "evidence": "'총림의 노동과 고립을 감상 없이 기록한 산문의 표본으로'를 교정문에 따라 '뼈만 남긴 산문의 예로 꼽히는 미첼 스케치가 실렸고'로 바꿨다(ADB 'The prose is spare, cut to the bone … almost any Mitchell sketch from While the Billy Boils exemplifies these qualities'). 표본을 단편집 전체에서 미첼 스케치로 좁혔고, 필드 길이 때문에 '능숙하게 조율된 절제'는 뺐다."
+        },
+        {
+          "field": "work:henry-lawson--while-the-billy-boils.significance",
+          "claim": "이 단편집이 호주 단편의 기준선이 되었다",
+          "resolution": "corrected",
+          "evidence": "'호주 단편의 기준선이 되었다'를 '호주 문학의 고전으로 남았다'로 바꿨다(ADB 'It remains one of the great classics of Australian literature.'). 필드 길이 때문에 교정문의 '위대한 … 가운데 하나'는 줄였다."
+        },
+        {
+          "field": "relation:contrast--henry-lawson--patrick-white.facts",
+          "claim": "근거 수준 scholarly_consensus — 신뢰할 만한 2차 연구가 이 대립을 반복적으로 다룬다",
+          "resolution": "narrowed",
+          "evidence": "근거 수준을 scholarly_consensus 에서 editorial_inference 로 낮췄다. 로슨–화이트 대립을 명시한 2차 연구는 와일딩 한 편만 확인돼 '학계에서 널리 논의됨'을 받치지 못한다. 대조 자체는 확정 주장(와일딩 'Henry Lawson had established a committed, left-wing realist mode … White's work is in confrontation to this.')이 받쳐 선은 남겼고, 그 글을 새 출처 src--wilding-1997-patrick-white-politics-of-modernism 로 관계에 달았다(이 세션에 인터넷 아카이브 사본 PDF 를 받아 두 문장과 서지를 확인했다). src--australian-dictionary-of-biography 는 고친 요약의 「탕자」 인용(ADB 화이트 항목)을 받치므로 남겼다."
+        },
+        {
+          "field": "relation:contrast--henry-lawson--patrick-white.summary",
+          "claim": "화이트는 오스트레일리아 소설이 저널리즘적 사실주의의 산물이 아님을 증명하려 했다고 썼다",
+          "resolution": "corrected",
+          "evidence": "교정문에 따라 '『보스』를 호주 소설이 반드시 저널리즘적 사실주의의 산물은 아님을 증명하려 썼다고 했고'로 바꿨다(ADB 화이트 항목 'he spoke of Voss as written to prove 'that the Australian novel is not necessarily the dreary, dun-coloured offspring of journalistic realism''). 요약 길이 때문에 '에세이'와 '칙칙한 잿빛'을 빼고 '오스트레일리아'를 페이지의 다른 필드처럼 '호주'로 썼다."
+        },
+        {
+          "field": "relation:contrast--henry-lawson--patrick-white.summary",
+          "claim": "오스트레일리아 문학사 서술은 화이트가 겨눈 부시 사실주의 전통의 중심에 로슨의 단편을 놓는다",
+          "resolution": "corrected",
+          "evidence": "교정문에 따라 '마이클 와일딩은 그가 맞선 사실주의 전통을 로슨이 세운 '참여적 좌파 사실주의'로 본다'로 바꿨다(와일딩 'The significance of White's refusal of realism becomes clear when we recall the dominant realist tradition of earlier Australian fiction. … Henry Lawson had established a committed, left-wing realist mode'). 요약 길이 때문에 교정문의 '비평가'와 '양식'은 뺐다. 그 글을 새 출처 src--wilding-1997-patrick-white-politics-of-modernism 로 관계에 달았다."
+        }
+      ]
+    }
+  ]
+}

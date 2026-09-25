@@ -1,0 +1,563 @@
+{
+  "id": "victor-hugo",
+  "page": "https://literary-planet.pages.dev/authors/victor-hugo/",
+  "author": {
+    "names": {
+      "ko": "빅토르 위고",
+      "original": "Victor Hugo",
+      "aliases": []
+    },
+    "birthYear": 1802,
+    "deathYear": 1885,
+    "activeRange": [
+      1822,
+      1885
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "poetry",
+      "drama"
+    ],
+    "importanceReason": "고전 비극이 지키던 시간과 장소의 단일성을 무대에서 무너뜨리고 숭고와 그로테스크를 한 인물 안에 겹쳐 놓는 극작술을 「크롬웰 서문」(1827)과 『에르나니』(1830)로 밀고 나갔다. 19년의 망명 기간에 완성한 『레 미제라블』은 빈곤과 사법 제도가 한 사람을 어떻게 만드는지를 장편 하나의 규모로 검증하면서, 워털루와 하수도와 봉기의 삽입장을 서사에 끌어들여 소설이 사회의 단면도가 될 수 있음을 보여 주었다. 발자크의 『인간희극』이 1830~40년대에 이미 세워 둔 이 형식을, 위고는 1862년에 삽입장과 사법 제도라는 다른 경로로 다시 실행했다.",
+    "readingEntry": "victor-hugo--notre-dame-de-paris",
+    "readingEntryReason": "위고 특유의 역사·건축 서술과 인물 운명의 결합이 이미 완성되어 있으면서도 『레 미제라블』(원문 655,478 단어)보다 훨씬 짧은 장편이라, 삽입장의 리듬에 적응하기에 알맞다.",
+    "readingOrder": [
+      "victor-hugo--notre-dame-de-paris",
+      "victor-hugo--hernani",
+      "victor-hugo--les-miserables",
+      "victor-hugo--les-contemplations"
+    ],
+    "readingWarning": "『레 미제라블』 완역본으로 시작하면 워털루 전투와 파리 하수도 장에서 서사가 멈추는 지점을 견디지 못하고 중도에 놓기 쉽다. 짧은 장편으로 위고의 삽입장 리듬에 먼저 익숙해지는 편이 낫다.",
+    "difficulty": 3,
+    "difficultyReason": "문장 자체는 평이하지만 완역본의 분량이 크고, 서사 진행을 멈추는 긴 삽입장(워털루 전투, 파리 하수도, 수도원)이 반복된다. 7월 왕정과 1832년 6월 봉기 같은 프랑스 정치사 배경이 각주 없이는 흐릿하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--pleiade"
+    ]
+  },
+  "works": [
+    {
+      "id": "victor-hugo--hernani",
+      "titleKo": "에르나니",
+      "titleOriginal": "Hernani",
+      "year": 1830,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "1830년 초연 당일 객석에서 고전주의자와 낭만주의자가 충돌한 사건('에르나니 전투')으로 남은 운문극. 시간과 장소의 단일성을 버리고 행 중간에서 문장을 끊는 시행 걸치기로 알렉상드랭의 규범을 흔들었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "victor-hugo--les-contemplations",
+      "titleKo": "레 콩탕플라시옹",
+      "titleOriginal": "Les Contemplations",
+      "year": 1856,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "딸 레오폴딘의 익사를 경계로 '옛날'과 '오늘'로 나뉜 두 권짜리 시집. 개인의 애도가 망명자의 정치적 목소리와 형이상학적 명상으로 확장되는 과정을 시집 전체의 구조로 삼았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "victor-hugo--les-miserables",
+      "titleKo": "레 미제라블",
+      "titleOriginal": "Les Misérables",
+      "year": 1862,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "장 발장의 40년을 축으로 워털루, 파리 하수도, 1832년 6월 봉기를 삽입장으로 끌어들여 한 사회의 단면도를 그린다. 빈곤과 형벌이 인간을 어떻게 만드는가를 장편의 규모로 밀어붙인 작품.",
+      "sourceIds": []
+    },
+    {
+      "id": "victor-hugo--notre-dame-de-paris",
+      "titleKo": "파리의 노트르담",
+      "titleOriginal": "Notre-Dame de Paris",
+      "year": 1831,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "15세기 파리의 성당을 하나의 인물처럼 세워 놓고 그 주위에 카지모도와 에스메랄다의 운명을 배치했다. 건축과 인쇄술, 민중과 권력을 같은 장면에 겹쳐 놓는 위고식 역사소설의 뼈대가 여기서 갖춰진다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "dialogue--victor-hugo--charles-baudelaire",
+      "type": "dialogue",
+      "from": "victor-hugo (빅토르 위고)",
+      "to": "charles-baudelaire (샤를 보들레르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "보들레르는 1859년 「일곱 늙은이」와 「가엾은 노파들」을 위고에게 헌정했고, 10월 6일 위고의 답신에 '새로운 전율(frisson nouveau)'이라는 문구가 나온다. 그해 12월에 청한 「백조」의 헌정에 위고는 '당신의 백조는 하나의 관념'이라고 답했으며, 이 시는 『악의 꽃』 재판(1861)의 '파리 풍경'에 실렸다.",
+      "sourceIds": [
+        "src--fleurs-du-mal-1861"
+      ]
+    },
+    {
+      "id": "influence--victor-hugo--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "victor-hugo (빅토르 위고)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "documented",
+      "summary": "도스토옙스키는 자신이 편집하던 잡지 『시대』 1862년 9호에 실린 『파리의 노트르담』 러시아어 번역에 서문을 붙여, 위고 문학의 근본 주제를 '몰락한 인간의 회복'이라 규정하고 이를 19세기 예술 전체의 과제로 확장했다.",
+      "sourceIds": [
+        "src--dostoevsky-vremya-notre-dame-1862"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--william-shakespeare--victor-hugo (→ william-shakespeare 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "d35acd42b64f",
+      "where": "author.facts",
+      "text": "빅토르 위고(Victor Hugo) · 1802–1885 · fr · western-europe",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "995498062e0a",
+      "where": "author.importanceReason",
+      "text": "고전 비극이 지키던 시간과 장소의 단일성을 무대에서 무너뜨리고 숭고와 그로테스크를 한 인물 안에 겹쳐 놓는 극작술을 「크롬웰 서문」(1827)과 『에르나니』(1830)로 밀고 나갔다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4d452ecaf404",
+      "where": "author.importanceReason",
+      "text": "19년의 망명 기간에 완성한 『레 미제라블』은 빈곤과 사법 제도가 한 사람을 어떻게 만드는지를 장편 하나의 규모로 검증하면서, 워털루와 하수도와 봉기의 삽입장을 서사에 끌어들여 소설이 사회의 단면도가 될 수 있음을 보여 주었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a447f3b733f2",
+      "where": "author.importanceReason",
+      "text": "발자크의 『인간희극』이 1830~40년대에 이미 세워 둔 이 형식을, 위고는 1862년에 삽입장과 사법 제도라는 다른 경로로 다시 실행했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "64796b4a201d",
+      "where": "author.readingEntryReason",
+      "text": "위고 특유의 역사·건축 서술과 인물 운명의 결합이 이미 완성되어 있으면서도 『레 미제라블』(원문 655,478 단어)보다 훨씬 짧은 장편이라, 삽입장의 리듬에 적응하기에 알맞다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "35dc937c375c",
+      "where": "author.readingWarning",
+      "text": "『레 미제라블』 완역본으로 시작하면 워털루 전투와 파리 하수도 장에서 서사가 멈추는 지점을 견디지 못하고 중도에 놓기 쉽다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0b87010d62f8",
+      "where": "author.readingWarning",
+      "text": "짧은 장편으로 위고의 삽입장 리듬에 먼저 익숙해지는 편이 낫다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d9bd31124d91",
+      "where": "author.difficultyReason",
+      "text": "문장 자체는 평이하지만 완역본의 분량이 크고, 서사 진행을 멈추는 긴 삽입장(워털루 전투, 파리 하수도, 수도원)이 반복된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "010c810ade42",
+      "where": "author.difficultyReason",
+      "text": "7월 왕정과 1832년 6월 봉기 같은 프랑스 정치사 배경이 각주 없이는 흐릿하다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ab77d55e1acc",
+      "where": "work:victor-hugo--hernani.facts",
+      "text": "『에르나니』(Hernani) · 1830 · drama",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0dad574d7d8b",
+      "where": "work:victor-hugo--hernani.significance",
+      "text": "1830년 초연 당일 객석에서 고전주의자와 낭만주의자가 충돌한 사건('에르나니 전투')으로 남은 운문극.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5931ee0370c3",
+      "where": "work:victor-hugo--hernani.significance",
+      "text": "시간과 장소의 단일성을 버리고 행 중간에서 문장을 끊는 시행 걸치기로 알렉상드랭의 규범을 흔들었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f0a5636c26bc",
+      "where": "work:victor-hugo--les-contemplations.facts",
+      "text": "『레 콩탕플라시옹』(Les Contemplations) · 1856 · poetry",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "91d09b0accbb",
+      "where": "work:victor-hugo--les-contemplations.significance",
+      "text": "딸 레오폴딘의 익사를 경계로 '옛날'과 '오늘'로 나뉜 두 권짜리 시집.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ef1bd2a2c3a2",
+      "where": "work:victor-hugo--les-contemplations.significance",
+      "text": "개인의 애도가 망명자의 정치적 목소리와 형이상학적 명상으로 확장되는 과정을 시집 전체의 구조로 삼았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "67628bdeb64a",
+      "where": "work:victor-hugo--les-miserables.facts",
+      "text": "『레 미제라블』(Les Misérables) · 1862 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "cf53c8648ee0",
+      "where": "work:victor-hugo--les-miserables.significance",
+      "text": "장 발장의 40년을 축으로 워털루, 파리 하수도, 1832년 6월 봉기를 삽입장으로 끌어들여 한 사회의 단면도를 그린다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c0e6e5da8a51",
+      "where": "work:victor-hugo--les-miserables.significance",
+      "text": "빈곤과 형벌이 인간을 어떻게 만드는가를 장편의 규모로 밀어붙인 작품.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "cef90a9c4058",
+      "where": "work:victor-hugo--notre-dame-de-paris.facts",
+      "text": "『파리의 노트르담』(Notre-Dame de Paris) · 1831 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "79fddae55b9e",
+      "where": "work:victor-hugo--notre-dame-de-paris.significance",
+      "text": "15세기 파리의 성당을 하나의 인물처럼 세워 놓고 그 주위에 카지모도와 에스메랄다의 운명을 배치했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e5663efba8e1",
+      "where": "work:victor-hugo--notre-dame-de-paris.significance",
+      "text": "건축과 인쇄술, 민중과 권력을 같은 장면에 겹쳐 놓는 위고식 역사소설의 뼈대가 여기서 갖춰진다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bb141cdd197a",
+      "where": "relation:dialogue--victor-hugo--charles-baudelaire.facts",
+      "text": "빅토르 위고 → 샤를 보들레르 · dialogue · bidirectional · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e4bb7c4eae86",
+      "where": "relation:dialogue--victor-hugo--charles-baudelaire.summary",
+      "text": "보들레르는 1859년 「일곱 늙은이」와 「가엾은 노파들」을 위고에게 헌정했고, 10월 6일 위고의 답신에 '새로운 전율(frisson nouveau)'이라는 문구가 나온다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0fc11d5b2fa5",
+      "where": "relation:dialogue--victor-hugo--charles-baudelaire.summary",
+      "text": "그해 12월에 청한 「백조」의 헌정에 위고는 '당신의 백조는 하나의 관념'이라고 답했으며, 이 시는 『악의 꽃』 재판(1861)의 '파리 풍경'에 실렸다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7e948cae880a",
+      "where": "relation:influence--victor-hugo--fyodor-dostoevsky.facts",
+      "text": "빅토르 위고 → 표도르 도스토옙스키 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2d12e32dcce4",
+      "where": "relation:influence--victor-hugo--fyodor-dostoevsky.summary",
+      "text": "도스토옙스키는 자신이 편집하던 잡지 『시대』 1862년 9호에 실린 『파리의 노트르담』 러시아어 번역에 서문을 붙여, 위고 문학의 근본 주제를 '몰락한 인간의 회복'이라 규정하고 이를 19세기 예술 전체의 과제로 확장했다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "「크롬웰 서문」은 1827년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Pr%C3%A9face_de_Cromwell",
+      "quote": "Publication Year: December 1827"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "「크롬웰 서문」이 고전 비극의 시간·장소 단일성을 무너뜨렸다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+      "quote": "L'unité de temps n'est pas plus solide que l'unité de lieu."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "위고는 숭고와 그로테스크를 한 작품 안에 겹쳐 놓는 극작술을 내세웠다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+      "quote": "le drame, qui fond sous un même souffle le grotesque et le sublime, le terrible et le bouffon"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『에르나니』는 1830년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hernani_(drama)",
+      "quote": "Premiere: February 25, 1830, at the Comédie-Française in Paris"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "위고의 망명 기간은 19년이었다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Exil_de_Victor_Hugo",
+      "quote": "rentre en France après presque dix-neuf années d'exil",
+      "note": "1851년 12월 11~12일 출국, 1870년 9월 5일 귀국"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『레 미제라블』은 망명 기간에 완성되었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "quote": "Guernsey, where the author was in self-imposed exile ... did not complete it until after visiting the Waterloo battlefield in 1861"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『레 미제라블』은 1862년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "quote": "Publication Year: 1862 (first published March 31, 1862)"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『레 미제라블』은 워털루·하수도·봉기의 삽입장을 서사에 끌어들인다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "quote": "A detailed 19-chapter account of the Battle of Waterloo; Discussion of Paris sewers ... convent life"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "발자크의 『인간희극』은 1830~40년대에 세워졌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/La_Com%C3%A9die_humaine",
+      "quote": "The collection spans 1829–1848 ... He first mentioned the expression \"Comédie humaine\" in 1839"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "삽입장은 워털루 전투, 파리 하수도, 수도원을 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "quote": "Battle of Waterloo; Discussion of Paris sewers and their construction; Examination of convent life"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "배경에 7월 왕정과 1832년 6월 봉기가 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "quote": "The narrative spans from 1815 to the 1832 June Rebellion in Paris, a popular uprising following General Lamarque's death"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『파리의 노트르담』은 『레 미제라블』의 3분의 1 분량이다",
+      "verdict": "unverifiable",
+      "note": "absent: 두 작품의 분량을 함께 제시하는 출처를 찾지 못함. 『레 미제라블』의 655,478 단어만 확인됨(en.wikipedia).",
+      "correction": "『레 미제라블』(원문 655,478 단어)보다 훨씬 짧은 장편이라",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[victor-hugo--hernani].year",
+      "claim": "『에르나니』의 연도는 1830",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hernani_(drama)",
+      "quote": "Premiere: February 25, 1830"
+    },
+    {
+      "field": "works[victor-hugo--hernani].significance",
+      "claim": "1830년 초연 당일 객석에서 고전주의자와 낭만주의자가 충돌했다('에르나니 전투')",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hernani_(drama)",
+      "quote": "Hugo mobilized Romantic supporters like Berlioz and Gautier to counter Classical opposition, resulting in significant audience conflict during opening night"
+    },
+    {
+      "field": "works[victor-hugo--hernani].significance",
+      "claim": "『에르나니』는 시간과 장소의 단일성을 버렸다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hernani_(drama)",
+      "quote": "Rather than adhering strictly to neoclassical unities ... featuring temporal shifts ... and multiple locations"
+    },
+    {
+      "field": "works[victor-hugo--hernani].significance",
+      "claim": "행 중간에서 문장을 끊는 시행 걸치기로 알렉상드랭의 규범을 흔들었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hernani_(drama)",
+      "quote": "its use of enjambment and varied line rhythms within the alexandrine framework—represented a deliberate artistic rebellion"
+    },
+    {
+      "field": "works[victor-hugo--les-contemplations].year",
+      "claim": "『정관시집』의 연도는 1856",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Les_Contemplations",
+      "quote": "Published in 1856, this poetry collection contains 158 poems organized into six books"
+    },
+    {
+      "field": "works[victor-hugo--les-contemplations].significance",
+      "claim": "딸 레오폴딘의 익사를 경계로 '옛날(Autrefois)'과 '오늘(Aujourd'hui)'로 나뉜다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Les_Contemplations",
+      "quote": "two major sections: \"Autrefois\" (1830-1843) and \"Aujourd'hui\" (1843-1855) ... She drowned accidentally in the Seine at Villequier"
+    },
+    {
+      "field": "works[victor-hugo--les-contemplations].significance",
+      "claim": "두 권짜리 시집이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Les_Contemplations",
+      "quote": "six books across two major sections",
+      "note": "두 부(tome I/II) 구성은 확인. 여섯 권(livre)의 내부 분할과 혼동하지 말 것."
+    },
+    {
+      "field": "works[victor-hugo--les-contemplations].titleKo",
+      "claim": "『정관시집』이 Les Contemplations의 한국어 제목이다",
+      "verdict": "unverifiable",
+      "note": "absent: 국내 정착 역제를 확인할 출처를 찾지 못함. 의미상으로는 'contemplation=정관(靜觀)'의 타당한 옮김.",
+      "resolution": "removed"
+    },
+    {
+      "field": "works[victor-hugo--les-miserables].year",
+      "claim": "『레 미제라블』의 연도는 1862",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "quote": "first published March 31, 1862"
+    },
+    {
+      "field": "works[victor-hugo--les-miserables].significance",
+      "claim": "장 발장의 40년을 축으로 삼는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+      "quote": "The protagonist's story encompasses approximately 40 years, beginning with his release from 19 years of imprisonment"
+    },
+    {
+      "field": "works[victor-hugo--notre-dame-de-paris].year",
+      "claim": "『파리의 노트르담』의 연도는 1831",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+      "quote": "Published March 16, 1831, with the French title \"Notre-Dame de Paris\""
+    },
+    {
+      "field": "works[victor-hugo--notre-dame-de-paris].significance",
+      "claim": "15세기 파리의 성당을 하나의 인물처럼 세워 놓았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+      "quote": "15th-century Paris during the reign of Louis XI, specifically in 1482 ... The Cathedral itself: Functions as a primary setting and almost as a character"
+    },
+    {
+      "field": "works[victor-hugo--notre-dame-de-paris].significance",
+      "claim": "카지모도와 에스메랄다의 운명이 그 주위에 배치된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+      "quote": "Quasimodo: The deformed cathedral bell-ringer ... Esmeralda: A sixteen-year-old Romani street dancer"
+    },
+    {
+      "field": "works[victor-hugo--notre-dame-de-paris].significance",
+      "claim": "건축과 인쇄술을 같은 장면에 겹쳐 놓는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+      "quote": "A pivotal line states: \"This will kill that,\" referring to how printing would supersede architecture"
+    },
+    {
+      "field": "relations[william-shakespeare→victor-hugo].summary",
+      "claim": "위고는 「크롬웰 서문」(1827)에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어내 삼일치 규칙을 공격했다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+      "quote": "Shakespeare, c'est le Drame ; et le drame, qui fond sous un même souffle le grotesque et le sublime"
+    },
+    {
+      "field": "relations[william-shakespeare→victor-hugo].summary",
+      "claim": "위고는 망명 중 단행본 『윌리엄 셰익스피어』(1864)를 냈다",
+      "verdict": "confirmed",
+      "url": "https://journals.openedition.org/shakespeare/3823",
+      "quote": "publié par Lacroix et Verboeckhoven en 1864 ... écrit en exil",
+      "note": "검색 결과 요약으로 확인. 1864년 Lacroix 간행, 망명 중 집필, 낭만주의 선언 성격."
+    },
+    {
+      "field": "relations[victor-hugo→charles-baudelaire].summary",
+      "claim": "보들레르는 1859년 「일곱 늙은이」와 「가엾은 노파들」을 위고에게 헌정했다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Correspondance_de_Victor_Hugo/1859",
+      "quote": "Lettre du 6 octobre 1859 ... remerciant Baudelaire de la dédicace des Sept Vieillards et des Petites Vieilles"
+    },
+    {
+      "field": "relations[victor-hugo→charles-baudelaire].summary",
+      "claim": "10월 6일 위고의 답신에 '새로운 전율(frisson nouveau)'이라는 문구가 나온다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Correspondance_de_Victor_Hugo/1859",
+      "quote": "Vous créez un frisson nouveau."
+    },
+    {
+      "field": "relations[victor-hugo→charles-baudelaire].summary",
+      "claim": "그해 12월 「백조」 헌정에 위고는 '당신의 백조는 하나의 관념'이라고 답했다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Correspondance_de_Victor_Hugo/1859",
+      "quote": "Comme tout ce que vous faites, monsieur, votre Cygne est une idée.",
+      "note": "위고의 답신은 1859년 12월 18일자. 보들레르가 시를 보낸 것은 12월 7일."
+    },
+    {
+      "field": "relations[victor-hugo→charles-baudelaire].summary",
+      "claim": "「백조」는 『악의 꽃』 재판(1861)의 '파리 풍경'에 실렸다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Le_Cygne_(Baudelaire)",
+      "quote": "la section « Tableaux parisiens » de la deuxième édition des Fleurs du Mal, parue début février 1861"
+    },
+    {
+      "field": "relations[victor-hugo→charles-baudelaire].sources",
+      "claim": "이 관계의 출처는 src--fleurs-du-mal-1861과 src--britannica이다",
+      "verdict": "contradicted",
+      "url": "https://fr.wikisource.org/wiki/Correspondance_de_Victor_Hugo/1859",
+      "quote": "Correspondance de Victor Hugo, 1859",
+      "correction": "(출처: src--fleurs-du-mal-1861, 위고 서간집 1859년분)",
+      "note": "두 서한 인용의 실제 근거는 위고 『서간집』 1859년분이며 브리태니커가 아니다. 이 서한 출처를 소스 목록에 추가해야 한다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[victor-hugo→fyodor-dostoevsky].summary",
+      "claim": "도스토옙스키는 『시대』 1862년 9호에 실린 『파리의 노트르담』 러시아어 번역에 서문을 붙였다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikisource.org/wiki/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_(%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB)/1862",
+      "quote": "предисловие к роману Собор Парижской Богоматери Виктора Гюго. (Достоевский) - стр. 44",
+      "note": "「Время」 1862년 9호 목차에서 확인. 서문 44면, 소설 1권 47면부터."
+    },
+    {
+      "field": "relations[victor-hugo→fyodor-dostoevsky].summary",
+      "claim": "서문은 위고 문학의 근본 주제를 '몰락한 인간의 회복'이라 규정했다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikisource.org/wiki/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_(%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB)/1862",
+      "quote": "восстановления погибшего человека, задавленного несправедливо гнетом обстоятельств"
+    },
+    {
+      "field": "relations[victor-hugo→fyodor-dostoevsky].summary",
+      "claim": "도스토옙스키는 이를 19세기 예술 전체의 과제로 확장했다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikisource.org/wiki/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_(%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB)/1862",
+      "quote": "Его мысль есть основная мысль всего искусства девятнадцатого столетия"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--pleiade": {
+      "id": "src--pleiade",
+      "title": "Bibliothèque de la Pléiade 해제·연보",
+      "publisherOrInstitution": "Éditions Gallimard",
+      "citation": "프랑스어권 작가 정본 전집의 학술 해제"
+    },
+    "src--fleurs-du-mal-1861": {
+      "id": "src--fleurs-du-mal-1861",
+      "title": "악의 꽃 재판 (Les Fleurs du mal, 2e édition)",
+      "publisherOrInstitution": "Poulet-Malassis et de Broise, Paris, 1861",
+      "citation": "'파리 풍경' 연작이 추가된 판본 — 「백조」에 붙은 '위고에게' 헌사가 실려 있다"
+    },
+    "src--dostoevsky-vremya-notre-dame-1862": {
+      "id": "src--dostoevsky-vremya-notre-dame-1862",
+      "title": "『파리의 노트르담』 러시아어역에 붙인 서문 (『시대(Время)』 1862년 9호)",
+      "publisherOrInstitution": "잡지 『시대(Время)』, 상트페테르부르크",
+      "citation": "도스토옙스키가 위고의 주제를 '몰락한 인간의 회복'으로 요약한 편집자 서문 — 위고 수용의 1차 근거"
+    }
+  }
+}

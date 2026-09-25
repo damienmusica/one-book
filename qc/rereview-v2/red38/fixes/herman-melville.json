@@ -1,0 +1,107 @@
+{
+  "fixes": [
+    {
+      "id": "herman-melville",
+      "importanceReason": "포경선 항해기에 희곡과 논문과 설교를 뒤섞어 소설이 무엇이든 삼킬 수 있는 형식임을 보였다. 『모비 딕』은 고래 해부학을 다루는 장과 셰익스피어식 방백·무대 지시문을 한 권 안에 나란히 두어 장르의 경계를 실무 문서 쪽으로 밀어냈고, 『필경사 바틀비』의 '하지 않는 편을 택하겠습니다'라는 거절 한마디는 근대 사무실의 저항을 한 문장으로 압축했다. 생전에 절판되거나(『모비 딕』) 아예 출간되지 못한 채(『빌리 버드』) 잊혔던 이 소설들은 1919년 탄생 100주년 이후 재발견되었고, 『모비 딕』은 그제야 '위대한 미국 소설'이 되었다.",
+      "readingEntryReason": "단편 한 편 안에 멜빌의 핵심 — 설명되지 않는 거절과 그것을 견디지 못하는 조직 — 이 다 들어 있다.",
+      "readingWarning": "『모비 딕』부터 잡으면 출항 뒤 줄거리를 벗어나는 고래학 장들이 이어진다. 단편 두세 편으로 문체에 익숙해진 뒤에 가는 편이 안전하다.",
+      "works": [
+        {
+          "id": "herman-melville--benito-cereno",
+          "significance": "노예선에서 이미 벌어진 반란을 거의 전적으로 미국인 선장의 비뚤어진 시선으로 서술한다. 독자가 보는 것과 서술자가 보는 것 사이의 간극 자체가 사건이 되며, 마지막의 법정 진술서가 그 간극을 뒤늦게 메운다."
+        },
+        {
+          "id": "herman-melville--bartleby-the-scrivener",
+          "significance": "월가 법률사무소의 필경사가 모든 지시에 '하지 않는 편을 택하겠습니다'로 답하고, 변호사는 끝내 사무실을 옮긴다. 이유를 설명하지 않는 이 거절을 아감벤·하트·네그리·지젝이 급진 정치의 형상으로 불러냈다."
+        },
+        {
+          "id": "herman-melville--billy-budd",
+          "significance": "모함한 자를 뜻하지 않게 죽인 수병을 군법이 처형하기까지의 절차를 따라간다. 멜빌 사후 원고 상태로 남아 1924년에 Billy Budd, Foretopman 이라는 제목으로 처음 출간되었고, 지금 쓰이는 Billy Budd, Sailor는 멜빌이 의도한 제목으로 보인다. 확정본이 없는 그 미완의 상태가 해석을 계속 열어 둔다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--herman-melville--clr-james",
+          "summary": "제임스는 엘리스섬 억류 중에 쓴 『선원, 배신자, 표류자』(1953)에서 『모비 딕』과 『피에르』를 중심으로 읽으며 피쿼드호 선원 집단을 자기 정치 분석의 모형으로 삼는다."
+        }
+      ],
+      "dropRelations": [
+        "influence--herman-melville--william-faulkner"
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "『모비 딕』에 섞인 장르 가운데 '성서 주석'이 있다",
+          "resolution": "corrected",
+          "evidence": "importanceReason 첫 문장의 '성서 주석'을 교정문대로 '설교'로 바꿨다(위키백과 Moby-Dick: \"Father Mapple's sermon on Jonah\"; \"many different genres including sermons, stage plays\"). 교정문의 '희곡 장면과 고래 논문과'는 필드가 길어져 원래의 '희곡과 논문과'를 두었다 — 논문(whaling essays)은 확정 주장이 받친다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "이 소설들(『모비 딕』·『빌리 버드』)이 미국 소설이 자기 규모를 재는 척도가 되었다",
+          "resolution": "corrected",
+          "evidence": "셋째 문장의 '재발견을 거쳐 미국 소설이 자기 규모를 재는 척도가 되었다'를 교정문에 따라 '재발견되었고, 『모비 딕』은 그제야 '위대한 미국 소설'이 되었다'로 바꿨다(위키백과 Moby-Dick: \"Its reputation as a Great American Novel was established only in the 20th century, after the 1919 centennial\"). 척도 지위는 『모비 딕』 하나로 좁혔고, 필드 길이 때문에 '그 뒤에야 … 자리 잡았다'를 '그제야 … 되었다'로 줄였다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『필경사 바틀비』의 문장이 멜빌 산문 가운데 가장 정돈되어 있다",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 최상급 '문장도 그의 산문 중 가장 정돈되어 있다'를 지웠다. 남은 '설명되지 않는 거절과 그것을 견디지 못하는 조직'은 확정 주장(\"do not explicitly explain the reason\", \"has no place in a legal and economic system\")이 받친다. 메모가 권한 '단편 가운데 대표작'은 확정 인용이 아니라 넣지 않았다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『모비 딕』부터 읽는 독자는 대개 고래학 장들에서 멈춘다",
+          "resolution": "narrowed",
+          "evidence": "독자 행동 주장 '대개 멈춘다'를 지우고 첫 문장을 '『모비 딕』부터 잡으면 출항 뒤 줄거리를 벗어나는 고래학 장들이 이어진다'로 좁혔다. 출항 뒤라는 위치는 확정 주장(\"on Christmas Day the Pequod departs. Ishmael extensively discusses cetology\"), 줄거리를 벗어난다는 것은 확정 인용(Cetology of Moby-Dick: \"a digression from the story-line\")이 받친다."
+        },
+        {
+          "field": "work:herman-melville--benito-cereno.significance",
+          "claim": "이야기는 아무것도 알아채지 못하는 미국인 선장의 시선으로'만' 서술된다",
+          "resolution": "corrected",
+          "evidence": "'아무것도 알아채지 못하는 미국인 선장의 시선으로만'을 교정문에 따라 '거의 전적으로 미국인 선장의 비뚤어진 시선으로'로 바꿨다(위키백과 Benito Cereno: \"limits his reporting almost exclusively to Delano's skewed point of view\"). 필드 길이 때문에 교정문의 '사태를 비뚤게 읽는 … 시선에 … 묶어'를 '비뚤어진 시선으로'로 줄였다."
+        },
+        {
+          "field": "work:herman-melville--bartleby-the-scrivener.significance",
+          "claim": "바틀비의 거절이 사무실을 마비시킨다",
+          "resolution": "corrected",
+          "evidence": "'사무실을 마비시킨다'를 교정문에 따라 '변호사는 끝내 사무실을 옮긴다'로 바꿨다(위키백과 Bartleby: \"the narrator moves his business to a different building\"). 필드 길이 때문에 교정문의 '버티고'와 '그를 내보내지 못한'은 넣지 않았다."
+        },
+        {
+          "field": "work:herman-melville--bartleby-the-scrivener.significance",
+          "claim": "이후 노동과 관료제를 다루는 서사들이 이 장면으로 거듭 되돌아왔다",
+          "resolution": "corrected",
+          "evidence": "'이후 노동과 관료제를 다루는 서사가 거듭 되돌아오는 장면이 되었다'를 교정문에 따라 '아감벤·하트·네그리·지젝이 급진 정치의 형상으로 불러냈다'로 바꿨다(nonsite.org: \"political theorists like Agamben, Hardt and Negri and Žižek invoking Bartleby as a figure for a radical politics\"). 필드 길이 때문에 교정문의 Occupy 마스코트 절은 넣지 않았고, '끝내'를 뺐다."
+        },
+        {
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "빌리는 '무죄한' 수병이다",
+          "resolution": "corrected",
+          "evidence": "'무죄한 수병을'을 교정문에 따라 '모함한 자를 뜻하지 않게 죽인 수병을'로 바꿨다(위키백과 Billy Budd: \"strikes and inadvertently kills his false accuser\"). '군법이 처형하기까지의 절차'는 확정 주장(court-martial convicts … execution)이 받친다. 필드 길이 때문에 교정문의 함장·반란법 절은 넣지 않았다."
+        },
+        {
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "서술이 법률 문서의 어조로 진행된다",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 '법률 문서의 어조로'를 첫 문장에서 지웠다. 남은 문장은 자기를 모함한 자를 죽인 수병이 군법회의를 거쳐 처형되기까지를 따라간다는 것만 말한다."
+        },
+        {
+          "field": "work:herman-melville--billy-budd.significance",
+          "claim": "Billy Budd, Sailor라는 제목은 1962년 교정판이 세운 것이다",
+          "resolution": "corrected",
+          "evidence": "'1962년 교정판이 세운 제목이다'를 교정문에 따라 '멜빌이 의도한 제목으로 보인다'로 바꿨다(위키백과 Billy Budd: \"it now seems clear Melville intended Billy Budd, Sailor (An Inside Narrative)\"). 1962년 판 언급은 인용이 싣지 않아 지웠다."
+        },
+        {
+          "field": "relation:influence--herman-melville--clr-james.summary",
+          "claim": "이 책은 통째로 『모비 딕』에 바쳐졌다",
+          "resolution": "corrected",
+          "evidence": "'통째로 『모비 딕』에 바쳤고'를 교정문에 따라 '『모비 딕』과 『피에르』를 중심으로 읽으며'로 바꿨다(clrjames.uk: \"a sustained and brilliant explication of two books, Moby Dick and Pierre\"). 근거 문서 『선원, 배신자, 표류자』(1953)와 엘리스섬 억류는 그대로 남겼다. 필드 길이 때문에 교정문의 '멜빌 연구서'와 공장·'산업의 수장' 절은 넣지 않았다."
+        },
+        {
+          "field": "relation:influence--herman-melville--william-faulkner.facts",
+          "claim": "관계 종류 documented_influence — 멜빌이 포크너에게 확인된 직접 영향을 주었다",
+          "resolution": "relation-dropped",
+          "evidence": "판정은 1927년 기고가 찬탄만 기록할 뿐 창작상의 직접 영향을 확인하지 않는다고 본다. 영향을 말하는 확정 출처가 없어 documented_influence라는 유형이 무너지고, 요약만 좁히면 유형 문장(1a28b0fafe22)이 그대로 남는다. 도구로는 유형을 바꿀 수 없어 dropRelations로 뺐다. 멜빌 도판에는 C. L. R. 제임스·보르헤스·매카시 관계와 셰익스피어 관계가 남고, 포크너 도판에는 관계 17개가 남는다."
+        }
+      ]
+    }
+  ]
+}

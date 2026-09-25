@@ -1,0 +1,489 @@
+{
+ "plates": [
+  {
+   "id": "murasaki-shikibu",
+   "claims": [
+    {
+     "sids": [
+      "7b4aa4fb0eed"
+     ],
+     "field": "author.facts",
+     "claim": "생몰년은 973–1014년이다(통설)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+     "quote": "Shirane mentions that 1014 is generally accepted as the date of Murasaki Shikibu's death and 973 as the date of her birth, making her 41 when she died.",
+     "note": "같은 문서: 출생은 970–978 사이로 학자마다 다르고(Mulhern·Waley), Bowring은 1025년까지 생존설을 낸다. 973–1014는 통설로서 확인."
+    },
+    {
+     "sids": [
+      "7b4aa4fb0eed"
+     ],
+     "field": "author.facts",
+     "claim": "본명 표기 紫式部, 헤이안 시대 일본의 작가·가인이다(일본어·동아시아)",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/紫式部",
+     "quote": "'''紫式部'''（むらさき しきぶ）は、[[平安時代]]中期の[[女房]]、[[作家]]、[[歌人]]。"
+    },
+    {
+     "sids": [
+      "d68175acb333"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『겐지 이야기』에는 수백 명의 인물이 등장한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+     "quote": "Despite a ''[[dramatis personæ]]'' of some four hundred characters, it maintains internal consistency"
+    },
+    {
+     "sids": [
+      "d68175acb333"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『겐지 이야기』는 칠십여 년에 걸친 이야기다",
+     "verdict": "confirmed",
+     "url": "http://daijirin.dual-d.net/extra/genji.html",
+     "quote": "物語は、四代の帝、七十数年にわたって展開する。"
+    },
+    {
+     "sids": [
+      "d68175acb333"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『겐지 이야기』는 네 세대에 걸친 이야기다",
+     "verdict": "contradicted",
+     "url": "http://daijirin.dual-d.net/extra/genji.html",
+     "quote": "物語は、四代の帝、七十数年にわたって展開する。",
+     "correction": "네 천황의 치세, 칠십여 년을 한 편에 담은 『겐지 이야기』",
+     "note": "大辞林(산세이도)은 '네 세대'가 아니라 '네 대의 천황(기리쓰보·스자쿠·레이제이·금상)'이라 쓴다. 주인공 계보로는 겐지와 그 자식·손자 세대다(EBSCO Research Starters: \"move to the third generation\"). '네 세대'는 잡지성 글(1000libraries)에만 있다."
+    },
+    {
+     "sids": [
+      "d68175acb333"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『겐지 이야기』는 사건보다 섬세한 심리 묘사로 움직이는 장편을 세워, 이후 일본 산문 이야기(모노가타리)가 그 방식을 따랐다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "11世紀より12世紀にかけて成立した数々の物語は、その丁寧な叙述と心理描写の巧みさ、話の波乱万丈ぶりよりもきめ細やかな描写と叙情性や風雅を追求しようとする性向において、明らかに『[[うつほ物語]]』以前の系譜を断ち切り、『源氏物語』によっている。"
+    },
+    {
+     "sids": [
+      "d68175acb333"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『겐지 이야기』는 일본어(가나) 산문으로 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "他の[[物語 (日本文学)|物語]]同様に『源氏物語』は[[平仮名]]([[変体仮名]])で書かれた"
+    },
+    {
+     "sids": [
+      "6810186273cb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "서술 문장이 인물의 내면 상태를 겹쳐 전하는, 자유간접화법에 해당하는 문장을 쓴다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20250519190226/https://escholarship.org/uc/item/9k5239p5",
+     "quote": "This type of sentence is generally known as ‘free indirect speech’ and has been used as a technique in European literature since the 19th century (Pascal, 1977). However, these sentences (henceforth sentences of represented internal states: SRIS) are also observed in The Tale of Genji",
+     "note": "Azuma Ayano, UCLA 박사논문(2019) 초록. 앞 문장이 이 문장을 'narration ... that read as if the reader were experiencing a character’s internal states'로 정의한다."
+    },
+    {
+     "sids": [
+      "6810186273cb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "감정을 직접 쓰지 않고 자연(계절)의 변화 등에 대신 말하게 한다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "直接的描写はほとんどなく、自然の変化や流行の事柄などに置き換え、それらに語らせるなどの手法で一定の品位を保ち婉曲に描かれ"
+    },
+    {
+     "sids": [
+      "6810186273cb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "와카 증답이 감정·핵심 사건을 대신 말한다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "とりわけ男女間の事柄や話の核心部分などは、文章ではなく、和歌によって婉曲に描かれる場面も多く"
+    },
+    {
+     "sids": [
+      "6810186273cb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "의복이 감정을 대신 말하게 하는 방법을 쓴다",
+     "verdict": "unverifiable",
+     "note": "ja/en 위키백과 『源氏物語』·『The Tale of Genji』, 大辞林 특별 페이지, Britannica(Wayback)에서 의복이 감정 표현 수단이라는 서술을 찾지 못했다. en 위키백과는 여성 인물을 옷 색으로 부른다(호칭)고만 쓴다. 검색에서 나온 것은 색채심리 잡지 기사(日経 THE NIKKEI MAGAZINE)와 서적 소개(亜紀書房 『色彩から読み解く「源氏物語」』)뿐이다. 문장에서 '의복'을 빼는 편이 안전하다."
+    },
+    {
+     "sids": [
+      "2f7316b76ac6"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『겐지 이야기』는 '모노노아와레' 미의식 논의의 근거 텍스트가 되었다(모토오리 노리나가의 『겐지』 연구)",
+     "verdict": "confirmed",
+     "url": "https://plato.stanford.edu/entries/japanese-aesthetics/",
+     "quote": "The well-known literary theorist Motoori Norinaga brought the idea of mono no aware to the forefront of literary theory with a study of The Tale of Genji that showed this phenomenon to be its central theme."
+    },
+    {
+     "sids": [
+      "9fbb078dd5c8"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「기리쓰보」부터 「와카무라사키」까지의 앞부분이 하나의 단위로 읽힌다",
+     "verdict": "contradicted",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "桐壺巻と帚木巻、夕顔巻と若紫巻など、紫上系の巻から玉鬘系の巻に切り替わる部分や、逆に、玉鬘系の巻から紫上系の巻に切り替わる部分の描写には不自然な点が多い。",
+     "correction": "「기리쓰보」와 「와카무라사키」는 같은 줄기(무라사키노우에 계열)로 이어지지만, 그 사이의 「하하키기」·「우쓰세미」·「유가오」 세 첩은 따로 묶이는 줄기(다마카즈라 계열)로 논의된다.",
+     "note": "다케다 무네토시의 紫上系/玉鬘系 구분(ja 위키백과: 성립론에 찬성하지 않는 논자도 이 구분을 흔히 쓴다). 인용은 다케다가 든 근거의 하나다. '이 사람의 전부가 이 한 편에 있다'는 평가라 대상 외."
+    },
+    {
+     "sids": [
+      "86f78e9bbb5e"
+     ],
+     "field": "author.readingWarning",
+     "claim": "「우지 십첩」은 마지막 열 첩(45–54첩)이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+     "quote": "Chapter 45–54 are known as the \"Uji Chapters\"."
+    },
+    {
+     "sids": [
+      "86f78e9bbb5e"
+     ],
+     "field": "author.readingWarning",
+     "claim": "인물이 이름 대신 관직명 등으로 불린다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+     "quote": "Instead, the narrator refers to men often by their rank or their station in life, and to women often by the color of their clothing, or by the words used at a meeting, or by the rank of a prominent male relative."
+    },
+    {
+     "sids": [
+      "82edb97a649e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "원문에서 주어가 자주 생략된다",
+     "verdict": "confirmed",
+     "url": "https://kotennosennsei.com/genji-monogatari-arasuji/",
+     "quote": "源氏物語では主語が省略されることが多いので、敬語が手がかりになる。",
+     "note": "고전 학습 사이트. ja 위키백과도 현대어역이 '原文にはない主語を補ったり' 한다고 쓴다."
+    },
+    {
+     "sids": [
+      "82edb97a649e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "인물을 관직과 거처로 불러 누구인지 상황으로 판단해야 한다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "人物をその官職や居住地などのゆかりのある場所の名前で呼んだり、「一の宮」や「三の女宮」あるいは「大君」や「小」君といった一般的な尊称や敬称で呼んだりしていることが多いため、状況から誰のことを指しているのか判断しなければならない場合も多い。"
+    },
+    {
+     "sids": [
+      "82edb97a649e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『겐지 이야기』는 54첩이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "全54帖、文献初出は[[1008年]]（[[寛弘]]五年）"
+    },
+    {
+     "sids": [
+      "82edb97a649e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "와카가 인물 사이의 말을 대신하는 자리가 많고, 와카를 모르면 전개를 따라가기 어렵다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "『源氏物語』には[[和歌]]795首が詠み込まれ、それらは飾りではなく、とりわけ男女間の事柄や話の核心部分などは、文章ではなく、和歌によって婉曲に描かれる場面も多く"
+    },
+    {
+     "sids": [
+      "b29024454720"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibushu.facts",
+     "claim": "『紫式部集』은 무라사키 시키부의 와카집(시가)이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/紫式部集",
+     "quote": "『'''紫式部集'''』（むらさきしきぶしゅう）は、[[紫式部]]の[[和歌集]]。"
+    },
+    {
+     "sids": [
+      "b29024454720"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibushu.facts",
+     "claim": "1206년은 현존 최고(最古) 사본의 연도다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+     "quote": "Murasaki's poems were published in 1206 by [[Fujiwara no Teika]], in what Mulhern believes to be the collection that is closest to the original form",
+     "correction": "『무라사키 시키부 가집』(紫式部集) · 1206년 후지와라노 데이카가 펴낸 판(원형에 가장 가깝다고 보는 편집) · poetry",
+     "note": "출처는 1206년을 데이카가 펴낸 해로만 적고 현존 사본의 연대라고 하지 않는다. ja 위키백과는 전본이 古本系 요메이 문고본과 定家本系 짓센 여대본으로 전한다고 쓸 뿐, 사본 연대는 적지 않는다."
+    },
+    {
+     "sids": [
+      "d147e8f8933f"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibushu.significance",
+     "claim": "무라사키 시키부의 와카를 모은 가집이다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/紫式部集",
+     "quote": "『'''紫式部集'''』（むらさきしきぶしゅう）は、[[紫式部]]の[[和歌集]]。"
+    },
+    {
+     "sids": [
+      "d9417909846e"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibushu.significance",
+     "claim": "어린 시절부터 만년까지 거의 평생의 와카를 골라 담았다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/紫式部",
+     "quote": "子供時代から晩年のほぼ一生涯にわたり自らが詠んだ[[和歌]]から選び収めた[[家集]]『[[紫式部集]]』があり"
+    },
+    {
+     "sids": [
+      "d9417909846e"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibushu.significance",
+     "claim": "노래가 생애 순서대로 배열되어 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+     "quote": "''Poetic Memoirs'' is a collection of 128 poems Mulhern describes as \"arranged in a biographical sequence\"."
+    },
+    {
+     "sids": [
+      "d9417909846e"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibushu.significance",
+     "claim": "가집의 노래 다수가 (여성들과의) 증답가다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+     "quote": "Murasaki's autobiographical poetry shows that she socialized with women but had limited contact with men other than her father and brother; she often exchanged poetry with women but never with men."
+    },
+    {
+     "sids": [
+      "d9417909846e"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibushu.significance",
+     "claim": "자료가 적은 작가의 생애를 재구성하는 드문 단서다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/紫式部",
+     "quote": "資料の少ない紫式部の生活環境の変化や心の変化を知ることができ"
+    },
+    {
+     "sids": [
+      "47f758a0c52d"
+     ],
+     "field": "work:murasaki-shikibu--genjimonogatari.facts",
+     "claim": "『源氏物語』은 허구의 산문 이야기(소설)다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20251229082846/https://www.britannica.com/topic/The-Tale-of-Genji",
+     "quote": "a graceful work of imaginative fiction"
+    },
+    {
+     "sids": [
+      "47f758a0c52d"
+     ],
+     "field": "work:murasaki-shikibu--genjimonogatari.facts",
+     "claim": "1008년 무렵 성립(집필) 시기로 추정된다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "全54帖、文献初出は[[1008年]]（[[寛弘]]五年）",
+     "note": "1008은 『무라사키 시키부 일기』에 처음 언급된 해다. 大辞林: 1001–1005년 사이 집필 시작, 출사 후에도 이어 씀. en 위키백과: 현재 형태의 완성은 1021년까지."
+    },
+    {
+     "sids": [
+      "d021bcd70e8a"
+     ],
+     "field": "work:murasaki-shikibu--genjimonogatari.significance",
+     "claim": "히카루겐지와 그 사후 자식·손자 세대까지 54첩에 걸친 이야기다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "その死後の子と孫の物語の全54帖"
+    },
+    {
+     "sids": [
+      "b74406404ee0"
+     ],
+     "field": "work:murasaki-shikibu--genjimonogatari.significance",
+     "claim": "인물의 내면(심리)이 이야기를 이끄는 심리소설로 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://theconversation.com/guide-to-the-classics-the-tale-of-genji-a-1-000-year-old-japanese-masterpiece-99848",
+     "quote": "the striking interior life of its characters has led many to term it a psychological novel with prose that feels distinctively modern."
+    },
+    {
+     "sids": [
+      "b74406404ee0"
+     ],
+     "field": "work:murasaki-shikibu--genjimonogatari.significance",
+     "claim": "마지막 우지 십첩은 옛 문헌부터 따로 다뤄졌다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "[[宇治十帖]]の巻数を「宇治一」「宇治二」というようにそれ以外の巻とは別立てで数えているものがあり、このころ、すでにこの部分をその他の部分とはわけて取り扱う考え方が存在したと見られる。"
+    },
+    {
+     "sids": [
+      "b74406404ee0"
+     ],
+     "field": "work:murasaki-shikibu--genjimonogatari.significance",
+     "claim": "우지 십첩을 포함한 뒷부분은 앞부분과 분위기가 달라 따로 논의된다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/源氏物語",
+     "quote": "通説では、第3部はおそらく式部の作（第2部執筆以降かなり長期間の休止を置いたためか、用語や雰囲気が相当に異なっているが、それをもって必ずしも他人の作とまでいうことはできない）というものである。"
+    },
+    {
+     "sids": [
+      "b74406404ee0"
+     ],
+     "field": "work:murasaki-shikibu--genjimonogatari.significance",
+     "claim": "작품이 뒤로 갈수록 색조가 어두워진다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20251229082846/https://www.britannica.com/topic/The-Tale-of-Genji",
+     "quote": "as it proceeds its darkening tone reflects the Buddhist conviction of this world’s transience."
+    },
+    {
+     "sids": [
+      "d1fe72f805d1"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibunikki.facts",
+     "claim": "『紫式部日記』는 1008–1010년 무렵 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Diary_of_Lady_Murasaki",
+     "quote": "The diary was probably written between 1008 and 1010 when Murasaki was in service at the imperial court."
+    },
+    {
+     "sids": [
+      "d1fe72f805d1"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibunikki.facts",
+     "claim": "일기에 수필·비평적 부분이 있어 에세이·비평 갈래로 볼 수 있다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/紫式部日記",
+     "quote": "女房たちの人物評や自己省察を含む「消息文」と呼ばれる書簡体・随想的部分が挿入され、記録性と内省・批評性が併存する点が特徴とされる",
+     "note": "장르 자체는 일기문학(日記文学)이다. 사이트 분류에 일기 칸이 없어 에세이·비평을 쓴 것으로 보인다."
+    },
+    {
+     "sids": [
+      "cb0a9b41ed77"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibunikki.significance",
+     "claim": "중궁 쇼시(彰子)에게 출사한 시기의 궁정 생활을 적은 일기다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/紫式部日記",
+     "quote": "[[藤原彰子]]（一条天皇中宮）に出仕した時期の宮廷生活や儀礼、所感などを記す。"
+    },
+    {
+     "sids": [
+      "c96e7bcf52d5"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibunikki.significance",
+     "claim": "일기에 출산 의례의 세부가 남아 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Diary_of_Lady_Murasaki",
+     "quote": "the various celebrations and rituals that took place during the pregnancy, and the eventual childbirth with its associated rites in celebration of the successful delivery of a male heir."
+    },
+    {
+     "sids": [
+      "c96e7bcf52d5"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibunikki.significance",
+     "claim": "동료 뇨보(궁녀)들에 대한 신랄한 인물평이 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Diary_of_Lady_Murasaki",
+     "quote": "Sei Shōnagon, for instance, was dreadfully conceited.",
+     "note": "같은 문서: \"Murasaki is also critical of the two other women writers at Shōshi's court – poet Izumi Shikibu, and Akazome Emon\". ja 위키백과 『紫式部日記』도 '女房たちの人物評'을 적는다."
+    },
+    {
+     "sids": [
+      "c96e7bcf52d5"
+     ],
+     "field": "work:murasaki-shikibu--murasakishikibunikki.significance",
+     "claim": "일기가 『겐지 이야기』가 쓰이던 과정과 자리를 보여준다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+     "quote": "the process of writing ''Genji'', including descriptions of passing newly written chapters to [[calligraphy|calligraphers]] for transcriptions."
+    },
+    {
+     "sids": [
+      "b71f2b7fce28"
+     ],
+     "field": "relation:influence--murasaki-shikibu--yasunari-kawabata.facts",
+     "claim": "가와바타가 『겐지』의 영향을 직접 증언했다(무라사키 → 가와바타, 방향 있는 영향, 문서로 확인)",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1968/kawabata/lecture/",
+     "quote": "Although my grasp of classical Japanese was uncertain, the Heian classics were my principal boyhood reading, and it is the Genji, I think, that has meant the most to me."
+    },
+    {
+     "sids": [
+      "aa9ffee00a82"
+     ],
+     "field": "relation:influence--murasaki-shikibu--yasunari-kawabata.summary",
+     "claim": "1968년 노벨상 수상 강연의 제목은 「아름다운 일본의 나」다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1968/kawabata/lecture/",
+     "quote": "Nobel Lecture, December 12, 1968 (Translation) Japan, the Beautiful and Myself"
+    },
+    {
+     "sids": [
+      "aa9ffee00a82"
+     ],
+     "field": "relation:influence--murasaki-shikibu--yasunari-kawabata.summary",
+     "claim": "가와바타는 강연에서 『겐지 이야기』를 일본 소설의 최고봉으로 들었다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/美しい日本の私―その序説",
+     "quote": "特に『源氏物語』は日本の最高の[[長編小説]]であり",
+     "note": "노벨재단 영역본: \"The Tale of Genji in particular is the highest pinnacle of Japanese literature.\""
+    },
+    {
+     "sids": [
+      "aa9ffee00a82"
+     ],
+     "field": "relation:influence--murasaki-shikibu--yasunari-kawabata.summary",
+     "claim": "가와바타는 헤이안 시대의 문학(전반)을 일본 예술 전반의 자양으로 말했다",
+     "verdict": "contradicted",
+     "url": "https://www.nobelprize.org/prizes/literature/1968/kawabata/lecture/",
+     "quote": "The Genji was a wide and deep source of nourishment for poetry, of course, and for the fine arts and handicrafts as well, and even for landscape gardening.",
+     "correction": "『겐지 이야기』가 시가는 물론 미술·공예, 정원 조성에까지 넓고 깊은 자양이 되었다고 말했다.",
+     "note": "자양의 주어는 헤이안 문학 일반이 아니라 『겐지』다."
+    },
+    {
+     "sids": [
+      "8f7f90c883bf"
+     ],
+     "field": "relation:affinity--murasaki-shikibu--virginia-woolf.facts",
+     "claim": "무라사키–울프 관계는 양방향 친연성이며 근거 수준은 학계 합의(scholarly_consensus)다",
+     "verdict": "contradicted",
+     "url": "https://www.cambridge.org/core/books/abs/virginia-woolf-and-the-world-of-books/reading-intercultural-intergenerational-and-intertextual-woolf-virginia-woolfs-the-lady-in-the-lookingglass-oscar-wildes-the-sphinx-without-a-secret-and-lady-murasakis-yugao/4949607144F0B3E77B61152494F05F4B",
+     "quote": "Virginia Woolf reviewed Waley's translation of Lady Murasaki Shikibu's The Tale of Genji for Vogue in 1925.",
+     "correction": "무라사키 시키부 → 버지니아 울프 · 울프가 1925년 서평으로 『겐지』(웨일리 역)를 읽었음이 문서로 남아 있다(방향 있음 · documented)",
+     "note": "근거는 울프 본인의 서명 서평(한쪽 방향 독서)이다. 두 작가를 나란히 논한 연구로는 2018년 울프 학회 선집의 논문 한 편(Cambridge Core 요약, 「The Lady in the Looking-Glass」와 『겐지』의 텍스트 연관 주장)만 찾았다. 학계 합의라 할 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "f15015f42ce5"
+     ],
+     "field": "relation:affinity--murasaki-shikibu--virginia-woolf.summary",
+     "claim": "울프는 1925년 『보그』에 아서 웨일리 영역본 『겐지 이야기』 제1권의 서평을 실었다",
+     "verdict": "confirmed",
+     "url": "http://tomoki.tea-nifty.com/tomokilog/2009/03/virginia-woolf-.html",
+     "quote": "Virginia Woolf, \"The Tale of Genji. The First Volume of Mr. Arthur Waley's Translation of a Great Japanese Novel by the Lady Murasaki.\" (signed review in Vogue 66, late July 1925; reprinted in The Essays of Virginia Woolf, Volume 4: 1925 to 1928 ed. Andrew McNeillie [London: The Hogarth Press, 1994], pp. 264-9)."
+    },
+    {
+     "sids": [
+      "f15015f42ce5"
+     ],
+     "field": "relation:affinity--murasaki-shikibu--virginia-woolf.summary",
+     "claim": "울프는 그 서평에서 이 작품을 톨스토이·세르반테스 등 서양(유럽) 대작가와 견주어 논했다",
+     "verdict": "confirmed",
+     "url": "http://tomoki.tea-nifty.com/tomokilog/2009/03/virginia-woolf-.html",
+     "quote": "the lady Murasaki is not going to prove herself the peer of Tolstoi and Cervantes ( . . . ). Some element of horror, of terror, of sordidity, some root of experience has been removed from the eastern world ( . . . ) failing which the gold is silvered and the wine mixed with water. All comparisons between Murasaki and the great Western writers serve but to bring out her perfection and their force."
+    }
+   ],
+   "noClaim": {
+    "07bbf9a2a72c": "계보표가 붙은 판본으로 앞에서부터 읽으라는 순수한 읽기 조언이다.",
+    "4f3b987a5c0e": "계보표·주석본이 사실상 필수라는 읽기 조언(난도 평가)이다."
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+  "fixes": [
+    {
+      "id": "victor-hugo",
+      "importanceReason": "고전 비극이 지키던 시간과 장소의 단일성을 무대에서 무너뜨리고 숭고와 그로테스크를 한 인물 안에 겹쳐 놓는 극작술을 「크롬웰 서문」(1827)과 『에르나니』(1830)로 밀고 나갔다. 19년의 망명 기간에 완성한 『레 미제라블』은 빈곤과 사법 제도가 한 사람을 어떻게 만드는지를 장편 하나의 규모로 검증하면서, 1832년 6월 봉기에서 절정에 이르는 서사에 워털루와 하수도의 삽입장을 끌어들여 소설이 사회의 단면도가 될 수 있음을 보여 주었다.",
+      "readingEntryReason": "위고 특유의 역사·건축 서술과 인물 운명의 결합이 이미 완성되어 있고 삽입장도 쓰인 장편이라, 『레 미제라블』(원문 655,478 단어)에 앞서 그 리듬에 적응하기에 알맞다.",
+      "works": [
+        {
+          "id": "victor-hugo--hernani",
+          "significance": "고전파·낭만파의 충돌('에르나니 전투')로 기억되나 1830년 초연이 거의 저항 없이 성공한 운문극. 시간과 장소의 단일성을 버리고 행 중간에서 문장을 끊는 시행 걸치기로 알렉상드랭의 규범을 흔들었다."
+        },
+        {
+          "id": "victor-hugo--les-contemplations",
+          "significance": "딸 레오폴딘의 익사를 경계로 '옛날'과 '오늘'로 나뉜 두 권짜리 시집. 개인의 애도가 형이상학적 명상으로 확장되는 과정을 시집 전체의 구조로 삼았다."
+        },
+        {
+          "id": "victor-hugo--les-miserables",
+          "significance": "1815년부터 1832년 6월 봉기까지 장 발장을 축으로 워털루와 하수도의 삽입장을 끌어들여 한 사회의 단면도를 그린다. 빈곤과 형벌이 인간을 어떻게 만드는가를 장편의 규모로 밀어붙인 작품."
+        },
+        {
+          "id": "victor-hugo--notre-dame-de-paris",
+          "significance": "15세기 파리의 성당을 하나의 인물처럼 세워 놓고 그 주위에 카지모도와 에스메랄다의 운명을 배치했다. 건축과 인쇄술, 민중과 권력을 같은 장면에 겹쳐 놓는 역사소설."
+        }
+      ],
+      "relations": [
+        {
+          "id": "dialogue--victor-hugo--charles-baudelaire",
+          "summary": "보들레르는 1859년 「일곱 늙은이」와 「가엾은 노파들」을 위고에게 헌정했고, 10월 6일 위고의 답신에 '새로운 전율(frisson nouveau)'이라는 문구가 나온다. 그해 12월 위고는 「백조」에 '당신의 백조는 하나의 관념'이라 답했고, 이 시는 위고에게 바쳐져 『악의 꽃』 재판(1861)의 '파리 풍경'에 실렸다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "1832년 6월 봉기도 삽입장으로 끌어들였다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 봉기를 삽입장 목록에서 빼고 서사의 절정으로 옮겼다('Beginning in 1815 and culminating in the 1832 June Rebellion'). 4d452ecaf404의 '워털루와 하수도와 봉기의 삽입장을 서사에 끌어들여'는 '1832년 6월 봉기에서 절정에 이르는 서사에 워털루와 하수도의 삽입장을 끌어들여'로, cf53c8648ee0의 '워털루, 파리 하수도, 1832년 6월 봉기를 삽입장으로'는 '1815년부터 1832년 6월 봉기까지 … 워털루와 하수도의 삽입장을'로 바꿨다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "위고가 1862년 『레 미제라블』로 발자크가 세운 형식을 다른 경로로 다시 실행했다(계보 주장)",
+          "resolution": "removed",
+          "evidence": "a447f3b733f2 문장(발자크 『인간희극』의 형식을 위고가 1862년에 다른 경로로 다시 실행했다)을 통째로 지웠다. 『인간희극』의 연대만 확인되고 두 작품을 잇는 계보는 출처가 없어, 위고에 관해 남길 확인된 주장이 없다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』은 『레 미제라블』보다 훨씬 짧다",
+          "resolution": "narrowed",
+          "evidence": "'『레 미제라블』(원문 655,478 단어)보다 훨씬 짧은 장편이라'의 분량 비교를 걷고, 같은 sid 에 걸린 확정 주장('a method Hugo used in such other works as The Hunchback of Notre-Dame')이 받치는 '삽입장도 쓰인 장편이라'로 좁혔다. 확정된 단어 수는 비교 없이 읽는 순서('『레 미제라블』(원문 655,478 단어)에 앞서')로만 남는다."
+        },
+        {
+          "field": "work:victor-hugo--hernani.significance",
+          "claim": "'에르나니 전투'는 초연 당일 객석에서 고전주의자와 낭만주의자가 충돌한 사건이다",
+          "resolution": "corrected",
+          "evidence": "0dad574d7d8b의 '1830년 초연 당일 객석에서 … 충돌한 사건으로 남은'을 교정문의 두 요소로 바꿨다: 충돌은 '기억되는' 것으로만('la postérité a retenu … les coups et les insultes échangés entre « classiques » et « romantiques »'), 초연은 '거의 저항 없이 성공'('la première représentation … fut, presque sans coup férir, un triomphe'). 확정 문장 5931ee0370c3을 그대로 두고 길이를 넘지 않으려 교정문의 '여러 달의 일을 초연 하루로 몰아 놓은' 절은 싣지 않았다."
+        },
+        {
+          "field": "work:victor-hugo--les-contemplations.significance",
+          "claim": "애도가 망명자의 정치적 목소리로 확장된다",
+          "resolution": "narrowed",
+          "evidence": "ef1bd2a2c3a2에서 틀린 구절 '망명자의 정치적 목소리와'만 지워 '개인의 애도가 형이상학적 명상으로 확장되는 과정을 시집 전체의 구조로 삼았다.'로 좁혔다. 남은 부분은 확정 주장(4권 'livre du deuil' → 5권 'méditation' → 6권 'Au bord de l'infini')이 받친다. 교정문 전체로 바꾸면 확정된 구조 서술까지 버리게 되어 틀린 구절만 걷었다."
+        },
+        {
+          "field": "work:victor-hugo--les-miserables.significance",
+          "claim": "소설은 장 발장의 40년을 축으로 한다",
+          "resolution": "corrected",
+          "evidence": "cf53c8648ee0의 '장 발장의 40년을 축으로'를 교정문대로 '1815년부터 1832년 6월 봉기까지 장 발장을 축으로'로 바꿨다('Beginning in 1815 and culminating in the 1832 June Rebellion … Jean Valjean'). 확정 문장 c0e6e5da8a51을 건드리지 않고 길이를 넘지 않으려 교정문의 '의 삶'과 '파리 하수도'의 '파리'를 뺐다."
+        },
+        {
+          "field": "work:victor-hugo--notre-dame-de-paris.significance",
+          "claim": "위고식 역사소설의 뼈대가 이 작품에서 갖춰졌다",
+          "resolution": "narrowed",
+          "evidence": "e5663efba8e1의 '위고식 역사소설의 뼈대가 여기서 갖춰진다'를 걷고 '건축과 인쇄술, 민중과 권력을 같은 장면에 겹쳐 놓는 역사소설.'로 좁혔다. 장르는 확정 주장의 브리태니커 'his historical novel Notre-Dame de Paris'가, 건축·인쇄술('Ceci tuera cela')과 민중·권력(부랑자패의 성당 습격과 루이 11세의 군대)은 각각의 확정 주장이 받친다."
+        },
+        {
+          "field": "relation:dialogue--victor-hugo--charles-baudelaire.summary",
+          "claim": "보들레르가 그해 12월에 「백조」의 헌정을 청했다",
+          "resolution": "narrowed",
+          "evidence": "0fc11d5b2fa5의 '그해 12월에 청한 「백조」의 헌정에'를 걷고 '그해 12월 위고는 「백조」에 … 답했고'로 좁혔다(12월 18일 답신 'votre Cygne … est une idée'). 헌정 자체는 1861년 판의 'LE CYGNE À VICTOR HUGO'(확정)가 받치는 '이 시는 위고에게 바쳐져'로만 남겼다. 1859·1861 두 해는 그대로다."
+        }
+      ]
+    }
+  ]
+}

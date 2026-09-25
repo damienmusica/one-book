@@ -1,0 +1,88 @@
+{
+  "fixes": [
+    {
+      "id": "jean-paul-sartre",
+      "importanceReason": "실존이 본질에 앞선다는 명제를 소설과 희곡으로 옮겨 철학을 이야기의 형태로 유통시켰고, 작가가 제도에 편입되는 것을 거부하며 노벨상을 사양했다. 『구토』의 마로니에 뿌리 앞에서 밀려드는 구역질, 『닫힌 방』의 사라지지 않는 타인의 시선처럼 개념을 한 장면으로 응축하는 서술을 만들었고, 『레 탕 모데른』을 창간해 그 개념을 잡지·논쟁·성명이라는 상설 형식으로 옮겼다. '참여문학'이라는 말은 곧 그가 부여한 정확한 뜻에서 떨어져 나갔다.",
+      "readingEntryReason": "5장으로 된 단막극이라 하루 저녁에 끝나고, 시선·타인이라는 그의 주제가 고문 도구 없는 방에 갇힌 세 인물의 대사로 드러난다.",
+      "difficultyReason": "소설과 희곡은 읽히지만 『존재와 무』는 후설·하이데거의 용어를 전제한 현상학 논문이고, 소설의 장면들도 자기기만 같은 개념의 번역이라 개념 없이 읽으면 사건이 헛돈다.",
+      "works": [
+        {
+          "id": "jean-paul-sartre--l-existentialisme-est-un-humanisme",
+          "significance": "1945년 강연을 옮긴 얇은 책으로, '실존은 본질에 앞선다'는 명제를 전문 독자 바깥으로 내보냈고 곧 실존주의의 경전 가운데 하나가 됐다."
+        },
+        {
+          "id": "jean-paul-sartre--huis-clos",
+          "significance": "방에 갇혀 문이 열려도 떠나지 않는 세 사람의 단막극으로, '타인은 지옥이다'가 관념이 아니라 무대 상황에서 도출된다."
+        },
+        {
+          "id": "jean-paul-sartre--l-etre-et-le-neant",
+          "significance": "즉자·대자·무·자기기만이라는 개념으로 의식과 자유를 기술한 현상학적 존재론. 다만 존재·자유에 관한 생각의 씨앗은 이미 『구토』에 있었다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "contrast--jean-paul-sartre--gustave-flaubert",
+          "summary": "「『레 탕 모데른』 창간사」(1945, 『Situations II』 수록)에서 사르트르는 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 '막기 위해 한 줄도 쓰지 않았다'고 썼고, 뒤에 『집안의 백치』(1971–72) 세 권을 그 플로베르 한 사람에게 바쳤다. 이 대립은 사르트르 자신이 세웠고, 연구자는 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다.",
+          "evidenceLevel": "editorial_inference",
+          "weight": 0.6
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "전후 20여 년간 유럽에서 문학의 '참여'는 사르트르가 규정한 뜻으로 쓰였다",
+          "resolution": "corrected",
+          "evidence": "셋째 문장 \"전후 20여 년간 유럽에서 문학의 '참여'는 그가 규정한 뜻으로 쓰였다.\"를 교정문의 앞 절로 바꿨다: \"'참여문학'이라는 말은 곧 그가 부여한 정확한 뜻에서 떨어져 나갔다.\"(Universalis: « L'expression même de « littérature engagée » s'est rapidement détachée de la signification précise que lui donnait Sartre »). '전후 20여 년간 유럽'이라는 범위·기간은 지웠다. 교정문 뒤 절(교조적 용법과 유동적 용법 사이의 진동)은 원문보다 길어지지 않게 하려고 싣지 않았다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "주제가 무대 장치 없이 드러난다",
+          "resolution": "corrected",
+          "evidence": "'무대 장치 없이 갇힌 세 인물'을 교정문대로 '고문 도구 없는 방에 갇힌 세 인물'로 바꿨다(en.wikipedia No Exit: \"They had all expected torture devices to punish them for eternity, but instead, find a plain room\"). 무대에 제2제정풍 살롱이 있으니 '무대 장치 없이'는 페이지에서 빠졌다. 길이를 늘리지 않으려 교정문의 '하나'와 '제2제정풍'은 뺐다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "'자유'가 이 극의 주제로 드러난다",
+          "resolution": "narrowed",
+          "evidence": "'시선·자유·타인이라는 그의 주제'에서 확인되지 않은 '자유'를 지워 '시선·타인이라는 그의 주제'로 좁혔다(교정문과 같다). 시선은 en.wikipedia No Exit(\"a reference to Sartre's ideas about the look\")가 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『구토』의 장면은 대자(For-itself) 같은 개념과 이어져 읽힌다",
+          "resolution": "narrowed",
+          "evidence": "'즉자·대자·자기기만 같은 개념의 번역'에서 확인되지 않은 '즉자·대자'를 지워 '자기기만 같은 개념의 번역'으로 좁혔다. 자기기만은 en.wikipedia Nausea(\"La Nausée treats such notions as bourgeois bad faith\")가, 장면이 철학 개념을 그려 보인다는 넓은 주장은 SEP(\"making Nausea a beautifully illustrated expression of the metaphysical register Sartre gave to Husserl’s conception of intentionality\")가 받친다."
+        },
+        {
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "이 책이 실존주의를 전후 유럽의 공용어로 만들었다",
+          "resolution": "corrected",
+          "evidence": "'실존주의를 전후 유럽의 공용어로 만들었다'를 교정문대로 '곧 실존주의의 경전 가운데 하나가 됐다'로 바꿨다(Yale UP: \"The published text of his lecture quickly became one of the bibles of existentialism\"). 원문보다 길어지지 않게 하려고 교정문의 '사르트르를 국제적 명사로 만들었다'는 싣지 않았다."
+        },
+        {
+          "field": "work:jean-paul-sartre--huis-clos.significance",
+          "claim": "출구 없는 방이다",
+          "resolution": "corrected",
+          "evidence": "'출구 없는 방에 갇힌 세 사람'을 교정문의 뜻대로 '방에 갇혀 문이 열려도 떠나지 않는 세 사람'으로 바꿨다(en.wikipedia No Exit: \"it suddenly and inexplicably opens, but he is unable to bring himself to leave. The others remain as well.\"). 길이를 늘리지 않으려 '라는 문장이'를 '가'로, '무대 상황 자체에서'를 '무대 상황에서'로 줄였다 — 주장은 바뀌지 않는다."
+        },
+        {
+          "field": "work:jean-paul-sartre--l-etre-et-le-neant.significance",
+          "claim": "그의 소설과 희곡이 장면으로 옮기는 장치는 모두 『존재와 무』에서 나온다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 '그의 소설과 희곡이 장면으로 옮기는 장치들이 모두 여기서 나온다.'를 교정문을 줄인 '다만 존재·자유에 관한 생각의 씨앗은 이미 『구토』에 있었다.'로 바꿨다(en.wikipedia Nausea, 보부아르 회고: \"in which were to be found already the seeds of all his ideas on being, existence, necessity, and liberty\"). 『구토』 1938이 『존재와 무』 1943보다 앞서 '모두 여기서 나온다'는 선후가 맞지 않는다. 길이 때문에 '우연성 이론'과 '처음 힘 있게 표현한'은 싣지 않았다."
+        },
+        {
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.facts",
+          "claim": "이 대조는 사르트르 연구의 합의(scholarly_consensus)다",
+          "resolution": "narrowed",
+          "evidence": "교정문은 근거 수준을 documented로 적지만 contrast 타입이 허용하는 수준은 scholarly_consensus·editorial_inference뿐이라, documented를 주면 이 도구가 선을 지운다(대조 관계를 사르트르가 스스로 세웠다는 것은 확정 주장 #52가 받친다). 반박된 scholarly_consensus만 걷어 evidenceLevel을 editorial_inference로 낮췄고, 사실 줄은 「장폴 사르트르 → 귀스타브 플로베르 · contrast · bidirectional · editorial_inference」가 된다. editorial_inference 상한에 맞춰 weight를 0.7에서 0.6으로 내렸다. 같은 주장이 덮는 요약 둘째 문장 '예술을 위해 물러난 작가와 참여하는 작가라는 두 상은 사르트르 연구가 한 쌍으로 다루는 대립항이다.'는 교정문을 줄인 '이 대립은 사르트르 자신이 세웠고, 연구자는 창간사가 맥락을 가렸다며 그 물음을 역사화하려 한다.'로 바꿨다(Fabula: « partant de cet appel fondateur de Sartre pour le XXe siècle, qui utilise Flaubert et son rapport à la Commune en occultant le contexte, il faut redonner à la question posée par Sartre une dimension plus historique »). 요약 첫 문장(창간사 1945, 『집안의 백치』 1971–72)은 그대로다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『구토』는 우연성에 대한 관심과 현상학적 분석이 만나, 후설의 지향성 개념에 사르트르가 부여한 형이상학적 의미를 그려 보인 소설이다",
+          "resolution": "narrowed",
+          "evidence": "메모가 확인되지 않았다고 적은 '즉자·대자라는 특정 개념의 번역'을 페이지에서 지웠다 — difficultyReason의 '즉자·대자·자기기만 같은 개념의 번역'이 '자기기만 같은 개념의 번역'이 됐다. 남은 넓은 주장(소설 장면이 철학 개념을 그려 보인다)은 이 SEP 인용이 받친다."
+        }
+      ]
+    }
+  ]
+}

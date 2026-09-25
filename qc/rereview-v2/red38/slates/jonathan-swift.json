@@ -1,0 +1,530 @@
+{
+  "id": "jonathan-swift",
+  "page": "https://literary-planet.pages.dev/authors/jonathan-swift/",
+  "author": {
+    "names": {
+      "ko": "조너선 스위프트",
+      "original": "Jonathan Swift",
+      "aliases": []
+    },
+    "birthYear": 1667,
+    "deathYear": 1745,
+    "activeRange": [
+      1704,
+      1745
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "제안하는 사람의 목소리를 끝까지 유지한 채 아일랜드의 굶주림에 아이를 먹자고 적어, 반어를 문장이 아니라 화자 자체에 거는 방법을 끝까지 밀고 갔다. 『걸리버 여행기』는 항해기의 건조한 사실 문체를 빌려 소인국·거인국·야후의 척도 변화만으로 인간의 자기 이미지를 반복해 깎아낸다. 이후 풍자는 무엇을 조롱하는가보다 누가 말하고 있는가를 먼저 설계하게 되었고, 오웰은 이 책을 평생 되읽고 정면으로 논한 20세기 정치 산문가로 남았다.",
+    "readingEntry": "jonathan-swift--a-modest-proposal",
+    "readingEntryReason": "1729년 런던 초판 기준 열여섯 쪽 안에 스위프트의 방법 전체 — 끝까지 진지함을 유지하는 제안자의 목소리 — 가 들어 있어, 이후 걸리버의 화자를 읽는 눈이 여기서 만들어진다.",
+    "readingOrder": [
+      "jonathan-swift--a-modest-proposal",
+      "jonathan-swift--gullivers-travels",
+      "jonathan-swift--a-tale-of-a-tub"
+    ],
+    "readingWarning": "『걸리버 여행기』는 아동용 축약본이 아니라 완역본으로 읽을 것.",
+    "difficulty": 3,
+    "difficultyReason": "문장은 짧고 명료하지만 반어가 화자에게 걸려 있어 액면 그대로 읽으면 정반대의 뜻이 된다. 겨냥한 대상(아일랜드 경제 정책, 국교회 분열, 왕립학회)이 각주 없이는 잘 보이지 않는다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  "works": [
+    {
+      "id": "jonathan-swift--the-drapiers-letters",
+      "titleKo": "드레이피어의 편지",
+      "titleOriginal": "The Drapier's Letters",
+      "year": 1724,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "더블린의 포목상을 자처한 필자가 영국이 아일랜드에 강제한 동전 발행을 공격한 연속 팸플릿. 여론이 실제로 그 화폐 계획을 철회시킨 사례로 남았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "jonathan-swift--a-modest-proposal",
+      "titleKo": "겸손한 제안",
+      "titleOriginal": "A Modest Proposal",
+      "year": 1729,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "굶주린 아일랜드의 해법으로 유아를 식용으로 팔자고 제안하는 화자를 끝까지 붕괴시키지 않는다. 반어를 문장의 장식이 아니라 화자의 자격 자체에 거는 방법의 표본.",
+      "sourceIds": []
+    },
+    {
+      "id": "jonathan-swift--a-tale-of-a-tub",
+      "titleKo": "통 이야기",
+      "titleOriginal": "A Tale of a Tub",
+      "year": 1704,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "세 형제의 우화로 교회 분열사를 다루면서 본문만큼 긴 여담을 끼워 넣어 글쓰기 행위 자체를 풍자한다. 스위프트의 산문 중 형식적으로 가장 실험적이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "jonathan-swift--gullivers-travels",
+      "titleKo": "걸리버 여행기",
+      "titleOriginal": "Gulliver's Travels",
+      "year": 1726,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "항해기의 건조한 보고 문체로 소인·거인·떠 있는 섬·말의 나라를 차례로 통과시키며, 척도를 바꾸는 것만으로 인간의 자기 이미지를 반복해 깎아낸다. 4부의 야후 묘사는 계몽의 인간관에 대한 반대 심문으로 읽힌다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--jonathan-swift--voltaire",
+      "type": "documented_influence",
+      "from": "jonathan-swift (조너선 스위프트)",
+      "to": "voltaire (볼테르)",
+      "evidenceLevel": "documented",
+      "summary": "볼테르는 『철학편지』(1734) 제22신에서 『통 이야기』를 논하며 스위프트를 '분별을 갖춘 라블레'라 불러 그의 산문을 프랑스 독자에게 소개했고, 척도를 바꿔 인간을 재는 『미크로메가스』(1752)의 장치가 그 수용과 함께 논의된다.",
+      "sourceIds": [
+        "src--voltaire-lettres-philosophiques-1734",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "influence--jonathan-swift--george-orwell",
+      "type": "documented_influence",
+      "from": "jonathan-swift (조너선 스위프트)",
+      "to": "george-orwell (조지 오웰)",
+      "evidenceLevel": "documented",
+      "summary": "오웰은 「정치 대 문학: 『걸리버 여행기』에 대한 검토」(Polemic, 1946)에서 스위프트의 정치적 태도를 비판하면서도, 모든 책이 사라질 때 남길 여섯 권 중 하나로 이 책을 꼽았다.",
+      "sourceIds": [
+        "src--orwell-politics-vs-literature-1946"
+      ]
+    },
+    {
+      "id": "contrast--jonathan-swift--daniel-defoe",
+      "type": "contrast",
+      "from": "jonathan-swift (조너선 스위프트)",
+      "to": "daniel-defoe (대니얼 디포)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "디포의 『리뷰』(1704–1713)와 스위프트의 『이그재미너』(1710–11)는 같은 시기 당파 저널리즘의 지면이었고, 스위프트가 『이그재미너』를 맡은 1710년 11월에 디포는 할리(Robert Harley)에게 고용돼 같은 내각을 옹호하고 있었다.",
+      "sourceIds": [
+        "src--mckeon-origins-english-novel",
+        "src--britannica"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "a9780fa58b7e",
+      "where": "author.facts",
+      "text": "조너선 스위프트(Jonathan Swift) · 1667–1745 · en · britain-ireland",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d2ae03f08e63",
+      "where": "author.importanceReason",
+      "text": "제안하는 사람의 목소리를 끝까지 유지한 채 아일랜드의 굶주림에 아이를 먹자고 적어, 반어를 문장이 아니라 화자 자체에 거는 방법을 끝까지 밀고 갔다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e9601ff88d56",
+      "where": "author.importanceReason",
+      "text": "『걸리버 여행기』는 항해기의 건조한 사실 문체를 빌려 소인국·거인국·야후의 척도 변화만으로 인간의 자기 이미지를 반복해 깎아낸다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e6444702d098",
+      "where": "author.importanceReason",
+      "text": "이후 풍자는 무엇을 조롱하는가보다 누가 말하고 있는가를 먼저 설계하게 되었고, 오웰은 이 책을 평생 되읽고 정면으로 논한 20세기 정치 산문가로 남았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "af565c87081b",
+      "where": "author.readingEntryReason",
+      "text": "1729년 런던 초판 기준 열여섯 쪽 안에 스위프트의 방법 전체 — 끝까지 진지함을 유지하는 제안자의 목소리 — 가 들어 있어, 이후 걸리버의 화자를 읽는 눈이 여기서 만들어진다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5050db6989d0",
+      "where": "author.readingWarning",
+      "text": "『걸리버 여행기』는 아동용 축약본이 아니라 완역본으로 읽을 것.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "429ea79c685c",
+      "where": "author.difficultyReason",
+      "text": "문장은 짧고 명료하지만 반어가 화자에게 걸려 있어 액면 그대로 읽으면 정반대의 뜻이 된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e31861604425",
+      "where": "author.difficultyReason",
+      "text": "겨냥한 대상(아일랜드 경제 정책, 국교회 분열, 왕립학회)이 각주 없이는 잘 보이지 않는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "da6fcdd61757",
+      "where": "work:jonathan-swift--the-drapiers-letters.facts",
+      "text": "『드레이피어의 편지』(The Drapier's Letters) · 1724 composition-range · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d45ec4d7819f",
+      "where": "work:jonathan-swift--the-drapiers-letters.significance",
+      "text": "더블린의 포목상을 자처한 필자가 영국이 아일랜드에 강제한 동전 발행을 공격한 연속 팸플릿.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b15008068059",
+      "where": "work:jonathan-swift--the-drapiers-letters.significance",
+      "text": "여론이 실제로 그 화폐 계획을 철회시킨 사례로 남았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2554a1c643f2",
+      "where": "work:jonathan-swift--a-modest-proposal.facts",
+      "text": "『겸손한 제안』(A Modest Proposal) · 1729 first-print · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8aec895c3890",
+      "where": "work:jonathan-swift--a-modest-proposal.significance",
+      "text": "굶주린 아일랜드의 해법으로 유아를 식용으로 팔자고 제안하는 화자를 끝까지 붕괴시키지 않는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1ffe8c6eb7ab",
+      "where": "work:jonathan-swift--a-modest-proposal.significance",
+      "text": "반어를 문장의 장식이 아니라 화자의 자격 자체에 거는 방법의 표본.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0d834195498f",
+      "where": "work:jonathan-swift--a-tale-of-a-tub.facts",
+      "text": "『통 이야기』(A Tale of a Tub) · 1704 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "68ecd8b9293b",
+      "where": "work:jonathan-swift--a-tale-of-a-tub.significance",
+      "text": "세 형제의 우화로 교회 분열사를 다루면서 본문만큼 긴 여담을 끼워 넣어 글쓰기 행위 자체를 풍자한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "14cb48977961",
+      "where": "work:jonathan-swift--a-tale-of-a-tub.significance",
+      "text": "스위프트의 산문 중 형식적으로 가장 실험적이다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5821fe86b96f",
+      "where": "work:jonathan-swift--gullivers-travels.facts",
+      "text": "『걸리버 여행기』(Gulliver's Travels) · 1726 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4932308e7b1e",
+      "where": "work:jonathan-swift--gullivers-travels.significance",
+      "text": "항해기의 건조한 보고 문체로 소인·거인·떠 있는 섬·말의 나라를 차례로 통과시키며, 척도를 바꾸는 것만으로 인간의 자기 이미지를 반복해 깎아낸다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1c810909a59a",
+      "where": "work:jonathan-swift--gullivers-travels.significance",
+      "text": "4부의 야후 묘사는 계몽의 인간관에 대한 반대 심문으로 읽힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "25235967cc2a",
+      "where": "relation:influence--jonathan-swift--voltaire.facts",
+      "text": "조너선 스위프트 → 볼테르 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "326e12d8bad5",
+      "where": "relation:influence--jonathan-swift--voltaire.summary",
+      "text": "볼테르는 『철학편지』(1734) 제22신에서 『통 이야기』를 논하며 스위프트를 '분별을 갖춘 라블레'라 불러 그의 산문을 프랑스 독자에게 소개했고, 척도를 바꿔 인간을 재는 『미크로메가스』(1752)의 장치가 그 수용과 함께 논의된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bc1a228fd6f0",
+      "where": "relation:influence--jonathan-swift--george-orwell.facts",
+      "text": "조너선 스위프트 → 조지 오웰 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8382d11fb33b",
+      "where": "relation:influence--jonathan-swift--george-orwell.summary",
+      "text": "오웰은 「정치 대 문학: 『걸리버 여행기』에 대한 검토」(Polemic, 1946)에서 스위프트의 정치적 태도를 비판하면서도, 모든 책이 사라질 때 남길 여섯 권 중 하나로 이 책을 꼽았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "888f08a1f23d",
+      "where": "relation:contrast--jonathan-swift--daniel-defoe.facts",
+      "text": "조너선 스위프트 → 대니얼 디포 · contrast · bidirectional · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "217a78a0b20a",
+      "where": "relation:contrast--jonathan-swift--daniel-defoe.summary",
+      "text": "디포의 『리뷰』(1704–1713)와 스위프트의 『이그재미너』(1710–11)는 같은 시기 당파 저널리즘의 지면이었고, 스위프트가 『이그재미너』를 맡은 1710년 11월에 디포는 할리(Robert Harley)에게 고용돼 같은 내각을 옹호하고 있었다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "제안자의 목소리를 끝까지 유지한 채 아일랜드의 굶주림에 아이를 먹자고 적었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+      "quote": "the fictional narrator proposes selling poor Irish children as food … maintains this ironic conceit throughout"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『걸리버 여행기』가 항해기의 건조한 사실 문체를 빌린다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+      "quote": "satirises … the imaginary 'travellers' tales' literary subgenre"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "소인국·거인국·야후의 척도 변화로 인간의 자기 이미지를 깎아낸다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+      "quote": "Lilliput … Brobdingnag … the land of Houyhnhnms (rational horses) and Yahoos (savage humanoids)"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "오웰을 비롯한 20세기 정치 우화가 스위프트의 설계를 이어받았다",
+      "verdict": "unverifiable",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+      "note": "absent: 오웰이 스위프트의 화자 설계를 이어받았다는 계보 주장을 뒷받침하는 문헌은 못 찾음. 오웰의 집중적 독서·평가는 확인됨.",
+      "correction": "오웰이 이 책을 평생 되읽고 정면으로 논한 20세기 정치 산문가로 남았다",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "겨냥한 대상 중 하나가 아일랜드 경제 정책이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+      "quote": "taxing absentee landlords … buying Irish-made goods",
+      "note": "단, 같은 문서는 주 표적이 중상주의냐 의회 조세냐 아일랜드 상류층이냐를 두고 논쟁이 이어진다고 적는다."
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "겨냥한 대상 중 하나가 국교회 분열이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+      "quote": "three brothers, each representing one of the main branches of western Christianity"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "겨냥한 대상 중 하나가 왕립학회다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+      "quote": "the grand Academy of Lagado in Balnibarbi resembles and satirizes the Royal Society"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『겸손한 제안』이 열 쪽 남짓이다",
+      "verdict": "unverifiable",
+      "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+      "note": "absent: 현대 판본 분량 근거는 못 찾음. 확인된 좁은 형태는 초판 쪽수.",
+      "correction": "1729년 런던 초판 기준 16쪽 안에",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "아동용 축약본으로 시작하면 1·2부만 남고 3·4부가 통째로 빠진다",
+      "verdict": "unverifiable",
+      "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+      "note": "absent: 축약본이 1·2부만 싣는다는 서술을 문서에서 확인 못 함(각색 절에 언급 없음).",
+      "resolution": "removed"
+    },
+    {
+      "field": "works[jonathan-swift--the-drapiers-letters]",
+      "claim": "titleKo 드레이피어의 편지 / titleOriginal The Drapier's Letters",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Drapier%27s_Letters",
+      "quote": "the pseudonym \"M. B., Drapier\" - described as a common Irish merchant of cloth"
+    },
+    {
+      "field": "works[jonathan-swift--the-drapiers-letters]",
+      "claim": "year 1724",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Drapier%27s_Letters",
+      "quote": "published between 1724 and 1725, with the complete collection first appearing in 1735",
+      "correction": "1724–1725",
+      "note": "연속 팸플릿이므로 단일 연도가 아니다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[jonathan-swift--the-drapiers-letters].significance",
+      "claim": "더블린의 포목상을 자처한 필자가 영국이 강제한 동전 발행을 공격했고, 여론이 그 화폐 계획을 철회시켰다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Drapier%27s_Letters",
+      "quote": "public opinion became so hostile against Wood's coinage that the patent was withdrawn by 1725"
+    },
+    {
+      "field": "works[jonathan-swift--a-modest-proposal]",
+      "claim": "titleKo 겸손한 제안 / A Modest Proposal, 1729",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+      "quote": "A Modest Proposal for Preventing the Children of Poor People from Being a Burthen … (1729)"
+    },
+    {
+      "field": "works[jonathan-swift--a-tale-of-a-tub]",
+      "claim": "titleKo 통 이야기 / A Tale of a Tub, 1704",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+      "quote": "composed between 1694 and 1697 and published in London in 1704"
+    },
+    {
+      "field": "works[jonathan-swift--a-tale-of-a-tub].significance",
+      "claim": "세 형제의 우화로 교회 분열사를 다루면서 본문만큼 긴 여담을 끼워 넣어 글쓰기 행위 자체를 풍자한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+      "quote": "the digressions overwhelm the narrative, both in their length and in the forcefulness"
+    },
+    {
+      "field": "works[jonathan-swift--gullivers-travels]",
+      "claim": "titleKo 걸리버 여행기 / Gulliver's Travels, 1726",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+      "quote": "published on October 28, 1726 … Travels into Several Remote Nations of the World. In Four Parts."
+    },
+    {
+      "field": "works[jonathan-swift--gullivers-travels].significance",
+      "claim": "소인·거인·말의 나라를 차례로 통과시킨다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+      "quote": "Laputa, Balnibarbi, Luggnagg, Glubbdubdrib, and Japan",
+      "correction": "소인·거인·떠 있는 섬·말의 나라를 차례로 통과시키며",
+      "note": "3부(라퓨타·라가도)가 빠져 네 부의 순서가 세 부로 줄었다. 같은 플레이트의 readingWarning 이 3부의 누락을 경고하고 있어 자기모순이기도 하다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[jonathan-swift--gullivers-travels].significance",
+      "claim": "4부의 야후 묘사가 계몽의 인간관에 대한 반대 심문으로 읽힌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+      "quote": "the land of Houyhnhnms (rational horses) and Yahoos (savage humanoids)",
+      "note": "야후/후이넘 대비의 존재는 확인. '계몽의 인간관에 대한 반대 심문'은 해석적 서술."
+    },
+    {
+      "field": "relations[jonathan-swift→voltaire]",
+      "claim": "볼테르가 1726–28년 영국에 체류했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "quote": "embarked for England on May 2, 1726 … After two and a half years in exile, Voltaire returned"
+    },
+    {
+      "field": "relations[jonathan-swift→voltaire]",
+      "claim": "볼테르가 『걸리버 여행기』를 읽었다고 1727년 티리오 앞 서한에 적었다",
+      "verdict": "unverifiable",
+      "url": "https://en.wikipedia.org/wiki/Voltaire",
+      "note": "absent: 1727년 Thieriot 앞 서한의 해당 대목을 확인할 공개 텍스트를 찾지 못함. 플레이트의 두 출처(『철학편지』·Britannica) 어느 쪽도 서한의 자리가 아니다. 볼테르가 영국에서 스위프트를 직접 만났다는 사실만 확인됨.",
+      "resolution": "removed"
+    },
+    {
+      "field": "relations[jonathan-swift→voltaire]",
+      "claim": "『철학편지』(1734) 제22신 「포프 씨와 몇몇 유명한 시인에 대하여」에서 『통 이야기』를 논하며 스위프트를 '분별을 갖춘 라블레'라 불렀다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_22",
+      "quote": "M. Swift est Rabelais dans son bon sens, et vivant en bonne compagnie."
+    },
+    {
+      "field": "relations[jonathan-swift→voltaire]",
+      "claim": "『미크로메가스』(1752)의 척도 장치가 그 독서와 함께 논의된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+      "quote": "Critics have noted how Voltaire's fable re-uses the trope of giants and midgets from Swift's Travels."
+    },
+    {
+      "field": "relations[jonathan-swift→george-orwell]",
+      "claim": "오웰의 「정치 대 문학: 『걸리버 여행기』에 대한 검토」가 Polemic 에 1946년 실렸다",
+      "verdict": "confirmed",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+      "quote": "first published in Polemic, No. 5, September–October 1946"
+    },
+    {
+      "field": "relations[jonathan-swift→george-orwell]",
+      "claim": "오웰이 스위프트의 정치적 태도를 비판하면서도 남길 여섯 권 중 하나로 이 책을 꼽았다",
+      "verdict": "confirmed",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+      "quote": "If I had to make a list of six books which were to be preserved when all others were destroyed"
+    },
+    {
+      "field": "relations[jonathan-swift→daniel-defoe]",
+      "claim": "디포의 『리뷰』가 1704–1713년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Defoe",
+      "quote": "The Review ran three times a week without interruption until 1713."
+    },
+    {
+      "field": "relations[jonathan-swift→daniel-defoe]",
+      "claim": "스위프트의 『이그재미너』가 1710–11년이고, 그가 1710년 11월에 이를 맡았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Examiner_(1710-1714)",
+      "quote": "Jonathan Swift edited The Examiner from 2 November 1710 to 14 June 1711"
+    },
+    {
+      "field": "relations[jonathan-swift→daniel-defoe]",
+      "claim": "그때 디포는 할리에게 고용돼 같은 내각을 옹호하고 있었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Defoe",
+      "quote": "employing Defoe throughout the early 1700s, initially with the Tories (1710-1714)"
+    },
+    {
+      "field": "relations[jonathan-swift→daniel-defoe]",
+      "claim": "맥키언의 『영국 소설의 기원, 1600–1740』이 디포의 사실 주장과 스위프트의 그에 대한 패러디를 한 국면의 두 극으로 서술한다",
+      "verdict": "unverifiable",
+      "url": "https://openlibrary.org/search.json?q=Origins+of+the+English+Novel+McKeon&fields=title,author_name,first_publish_year,publisher&limit=5",
+      "note": "absent: 본문의 해당 서술을 확인할 공개 지면(서평·미리보기)을 찾지 못함. 서지만 확인.",
+      "correction": "(서지 확인: Michael McKeon, The Origins of the English Novel, 1600–1740, Johns Hopkins University Press, 1987)",
+      "resolution": "removed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--voltaire-lettres-philosophiques-1734": {
+      "id": "src--voltaire-lettres-philosophiques-1734",
+      "title": "볼테르 『철학편지』(1734) 제22신 「포프 씨와 몇몇 유명한 시인에 대하여」",
+      "publisherOrInstitution": "Lettres philosophiques (Amsterdam, 1734)",
+      "citation": "볼테르가 스위프트를 '분별을 갖춘 라블레'로 평하며 프랑스 독자에게 소개한 대목 — 스위프트 수용의 1차 근거"
+    },
+    "src--orwell-politics-vs-literature-1946": {
+      "id": "src--orwell-politics-vs-literature-1946",
+      "title": "조지 오웰 「정치 대 문학: 『걸리버 여행기』에 대한 검토」(1946)",
+      "publisherOrInstitution": "Polemic (London)",
+      "citation": "오웰이 스위프트의 정치적 반동성과 서술의 힘을 함께 분석한 에세이 — 스위프트 수용의 1차 근거"
+    },
+    "src--mckeon-origins-english-novel": {
+      "id": "src--mckeon-origins-english-novel",
+      "title": "The Origins of the English Novel, 1600–1740",
+      "publisherOrInstitution": "Johns Hopkins University Press",
+      "citation": "Michael McKeon, The Origins of the English Novel, 1600–1740 (Baltimore: Johns Hopkins University Press, 1987)."
+    }
+  }
+}

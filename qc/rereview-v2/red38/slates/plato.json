@@ -1,0 +1,646 @@
+{
+  "id": "plato",
+  "page": "https://literary-planet.pages.dev/authors/plato/",
+  "author": {
+    "names": {
+      "ko": "플라톤",
+      "original": "Πλάτων",
+      "aliases": []
+    },
+    "birthYear": -428,
+    "deathYear": -348,
+    "activeRange": [
+      -399,
+      -348
+    ],
+    "languages": [
+      "grc"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "essay-criticism"
+    ],
+    "importanceReason": "철학을 논문이 아니라 인물들이 부딪치는 대화로 씀으로써 결론보다 묻는 과정을 문장에 남겼고, 스승의 재판과 죽음을 기록해 사유가 도시와 충돌하는 장면을 하나의 서사로 만들었다. 대화편은 논증과 희극적 장면과 신화(동굴, 영혼의 마차)를 한 편 안에 섞어 놓아 철학 저술이 문학 형식을 빌리는 표본이 되었고, 『국가』 10권의 시인 추방론은 시드니의 『시의 옹호』가 반박하는 상대가 되었다.",
+    "readingEntry": "plato--apologia-sokratous",
+    "readingEntryReason": "스테파누스 쪽수로 17a–42a, 변론 한 편으로 끝나는 글이라 논증이 끊기지 않는 한 줄기로 이어지고, 이후 대화편들이 되돌아가는 인물 소크라테스가 어떤 자리에 서 있었는지를 법정 장면이 먼저 보여 준다.",
+    "readingOrder": [
+      "plato--apologia-sokratous",
+      "plato--symposion",
+      "plato--phaidros",
+      "plato--politeia"
+    ],
+    "readingWarning": "『국가』부터 시작하면 1권의 트라시마코스 논쟁 뒤로 이상 국가 설계와 선분·동굴 비유가 이어지며 논의가 열 권에 걸쳐 누적되어, 앞선 대화편에서 다뤄진 전제를 모르는 채 따라가기 어렵다.",
+    "difficulty": 3,
+    "difficultyReason": "대화체라 문장은 읽히지만 논증이 되짚고 물러서기를 반복하고, 이데아론·상기설 같은 개념이 여러 대화편에 흩어져 있어 한 편만으로는 논의가 닫히지 않는다. 소크라테스가 상대를 몰아가는 대목에서는 전제의 이동을 놓치기 쉽다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  "works": [
+    {
+      "id": "plato--phaidros",
+      "titleKo": "파이드로스",
+      "titleOriginal": "Φαῖδρος",
+      "year": -370,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "성 밖 냇가에서 사랑과 수사를 두고 나누는 대화. 영혼을 두 마리 말과 마부에 빗댄 신화와, 글쓰기가 기억을 대신하면서 잃는 것을 논한 마지막 대목이 문학 이론의 오래된 참조점이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "plato--apologia-sokratous",
+      "titleKo": "소크라테스의 변명",
+      "titleOriginal": "Ἀπολογία Σωκράτους",
+      "year": -399,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "기원전 399년 재판정에 선 소크라테스의 변론을 한 편의 연설로 옮긴 글. 죽음보다 캐묻기를 그만두는 쪽이 더 나쁘다는 주장을 법정이라는 장면 안에 세운다.",
+      "sourceIds": []
+    },
+    {
+      "id": "plato--politeia",
+      "titleKo": "국가",
+      "titleOriginal": "Πολιτεία",
+      "year": -375,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "정의란 무엇인가라는 물음에서 출발해 이상 국가의 설계, 선분과 동굴의 비유, 시인 추방론까지 열 권으로 이어진다. 문학을 모방의 모방으로 규정한 10권은 시드니의 『시의 옹호』가 반박하는 상대가 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "plato--symposion",
+      "titleKo": "향연",
+      "titleOriginal": "Συμπόσιον",
+      "year": -385,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "술자리 참석자들이 에로스를 두고 차례로 연설하고, 마지막에 취한 알키비아데스가 들이닥쳐 소크라테스를 향한 사랑을 고백한다. 논증과 희극적 장면이 한 편 안에서 맞물리는 대화편.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "mentorship--plato--aristotle",
+      "type": "mentorship",
+      "from": "plato (플라톤)",
+      "to": "aristotle (아리스토텔레스)",
+      "evidenceLevel": "documented",
+      "summary": "아리스토텔레스는 열일곱 살에 아카데메이아에 들어가 플라톤이 죽을 때까지 스무 해를 머물렀고, 『니코마코스 윤리학』 1권 6장(1096a11–17)에서 '이데아를 도입한 친구들'이라 에둘러 부르며 그 이데아론을 비판해 자기 방법을 갈라 세웠다.",
+      "sourceIds": [
+        "src--aristotle-ethica-nicomachea-oct",
+        "src--britannica"
+      ]
+    },
+    {
+      "id": "contrast--plato--friedrich-nietzsche",
+      "type": "contrast",
+      "from": "plato (플라톤)",
+      "to": "friedrich-nietzsche (프리드리히 니체)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "니체는 『선악의 저편』(1886) 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 부르며 플라톤이 세운 이데아의 위계를 뒤집는 일을 자기 과제로 삼았고, 하이데거의 『니체』(1961)가 니체의 저작 전체를 '뒤집힌 플라톤주의'의 전개로 읽는 독법을 정식화했다.",
+      "sourceIds": [
+        "src--nietzsche-colli-montinari",
+        "src--heidegger-nietzsche-1961"
+      ]
+    },
+    {
+      "id": "influence--plato--jorge-luis-borges",
+      "type": "documented_influence",
+      "from": "plato (플라톤)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 에세이집 『영원의 역사』(부에노스아이레스, 1936)의 표제 에세이 「영원의 역사」에서 플라톤의 원형 개념을 출발점으로 삼아 영원 관념의 계보를 다시 서술했다.",
+      "sourceIds": [
+        "src--borges-historia-de-la-eternidad-1936-titular"
+      ]
+    },
+    {
+      "id": "influence--plato--cicero",
+      "type": "documented_influence",
+      "from": "plato (플라톤)",
+      "to": "cicero (키케로)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "키케로는 『국가론』을 플라톤의 『국가』에 맞세우는 대화편으로 구상하고 본문에서 그 모델을 밝히며, 『법률론』도 플라톤의 『법률』의 배치를 따라 이어 썼다.",
+      "sourceIds": [
+        "src--schofield-cicero-political-philosophy-2021"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "e19db134eb99",
+      "where": "author.facts",
+      "text": "플라톤(Πλάτων) · -428–-348 · grc · western-europe",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2bcf2bf7938b",
+      "where": "author.importanceReason",
+      "text": "철학을 논문이 아니라 인물들이 부딪치는 대화로 씀으로써 결론보다 묻는 과정을 문장에 남겼고, 스승의 재판과 죽음을 기록해 사유가 도시와 충돌하는 장면을 하나의 서사로 만들었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8a478ae77f77",
+      "where": "author.importanceReason",
+      "text": "대화편은 논증과 희극적 장면과 신화(동굴, 영혼의 마차)를 한 편 안에 섞어 놓아 철학 저술이 문학 형식을 빌리는 표본이 되었고, 『국가』 10권의 시인 추방론은 시드니의 『시의 옹호』가 반박하는 상대가 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6874286a62bb",
+      "where": "author.readingEntryReason",
+      "text": "스테파누스 쪽수로 17a–42a, 변론 한 편으로 끝나는 글이라 논증이 끊기지 않는 한 줄기로 이어지고, 이후 대화편들이 되돌아가는 인물 소크라테스가 어떤 자리에 서 있었는지를 법정 장면이 먼저 보여 준다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "01a7387b7cd9",
+      "where": "author.readingWarning",
+      "text": "『국가』부터 시작하면 1권의 트라시마코스 논쟁 뒤로 이상 국가 설계와 선분·동굴 비유가 이어지며 논의가 열 권에 걸쳐 누적되어, 앞선 대화편에서 다뤄진 전제를 모르는 채 따라가기 어렵다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "cd836cf87263",
+      "where": "author.difficultyReason",
+      "text": "대화체라 문장은 읽히지만 논증이 되짚고 물러서기를 반복하고, 이데아론·상기설 같은 개념이 여러 대화편에 흩어져 있어 한 편만으로는 논의가 닫히지 않는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "866a33f1ebc7",
+      "where": "author.difficultyReason",
+      "text": "소크라테스가 상대를 몰아가는 대목에서는 전제의 이동을 놓치기 쉽다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d42acefb6602",
+      "where": "work:plato--phaidros.facts",
+      "text": "『파이드로스』(Φαῖδρος) · -370 composition-range · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "49106e6ae371",
+      "where": "work:plato--phaidros.significance",
+      "text": "성 밖 냇가에서 사랑과 수사를 두고 나누는 대화.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2a13a4083218",
+      "where": "work:plato--phaidros.significance",
+      "text": "영혼을 두 마리 말과 마부에 빗댄 신화와, 글쓰기가 기억을 대신하면서 잃는 것을 논한 마지막 대목이 문학 이론의 오래된 참조점이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f65f92c8cb4b",
+      "where": "work:plato--apologia-sokratous.facts",
+      "text": "『소크라테스의 변명』(Ἀπολογία Σωκράτους) · -399 composition-range · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "45d15d2633b3",
+      "where": "work:plato--apologia-sokratous.significance",
+      "text": "기원전 399년 재판정에 선 소크라테스의 변론을 한 편의 연설로 옮긴 글.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8b6fff568052",
+      "where": "work:plato--apologia-sokratous.significance",
+      "text": "죽음보다 캐묻기를 그만두는 쪽이 더 나쁘다는 주장을 법정이라는 장면 안에 세운다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bc27fb871270",
+      "where": "work:plato--politeia.facts",
+      "text": "『국가』(Πολιτεία) · -375 composition-range · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a8117e9d6d12",
+      "where": "work:plato--politeia.significance",
+      "text": "정의란 무엇인가라는 물음에서 출발해 이상 국가의 설계, 선분과 동굴의 비유, 시인 추방론까지 열 권으로 이어진다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9b6bee8ca81c",
+      "where": "work:plato--politeia.significance",
+      "text": "문학을 모방의 모방으로 규정한 10권은 시드니의 『시의 옹호』가 반박하는 상대가 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2f04c0c4930e",
+      "where": "work:plato--symposion.facts",
+      "text": "『향연』(Συμπόσιον) · -385 composition-range · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9fe17016bd0a",
+      "where": "work:plato--symposion.significance",
+      "text": "술자리 참석자들이 에로스를 두고 차례로 연설하고, 마지막에 취한 알키비아데스가 들이닥쳐 소크라테스를 향한 사랑을 고백한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2806448f6d76",
+      "where": "work:plato--symposion.significance",
+      "text": "논증과 희극적 장면이 한 편 안에서 맞물리는 대화편.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "456a7a6af491",
+      "where": "relation:mentorship--plato--aristotle.facts",
+      "text": "플라톤 → 아리스토텔레스 · mentorship · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4431a4b89296",
+      "where": "relation:mentorship--plato--aristotle.summary",
+      "text": "아리스토텔레스는 열일곱 살에 아카데메이아에 들어가 플라톤이 죽을 때까지 스무 해를 머물렀고, 『니코마코스 윤리학』 1권 6장(1096a11–17)에서 '이데아를 도입한 친구들'이라 에둘러 부르며 그 이데아론을 비판해 자기 방법을 갈라 세웠다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ce06cbd1f7c0",
+      "where": "relation:contrast--plato--friedrich-nietzsche.facts",
+      "text": "플라톤 → 프리드리히 니체 · contrast · bidirectional · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "28e95b9cd3b4",
+      "where": "relation:contrast--plato--friedrich-nietzsche.summary",
+      "text": "니체는 『선악의 저편』(1886) 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 부르며 플라톤이 세운 이데아의 위계를 뒤집는 일을 자기 과제로 삼았고, 하이데거의 『니체』(1961)가 니체의 저작 전체를 '뒤집힌 플라톤주의'의 전개로 읽는 독법을 정식화했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ccb8a1321a47",
+      "where": "relation:influence--plato--jorge-luis-borges.facts",
+      "text": "플라톤 → 호르헤 루이스 보르헤스 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fa0255ba63ed",
+      "where": "relation:influence--plato--jorge-luis-borges.summary",
+      "text": "보르헤스는 에세이집 『영원의 역사』(부에노스아이레스, 1936)의 표제 에세이 「영원의 역사」에서 플라톤의 원형 개념을 출발점으로 삼아 영원 관념의 계보를 다시 서술했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b28520ed59dc",
+      "where": "relation:influence--plato--cicero.facts",
+      "text": "플라톤 → 키케로 · documented_influence · directed · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8cdce85a05c8",
+      "where": "relation:influence--plato--cicero.summary",
+      "text": "키케로는 『국가론』을 플라톤의 『국가』에 맞세우는 대화편으로 구상하고 본문에서 그 모델을 밝히며, 『법률론』도 플라톤의 『법률』의 배치를 따라 이어 썼다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "플라톤의 생몰년은 기원전 428–348년이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Plato",
+      "quote": "c. 428–347 BC",
+      "note": "표준 표기는 428/427–348/347. 플레이트의 -428–-348 은 그 범위 안. SEP 는 '429?–347'."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "플라톤은 철학을 논문이 아니라 대화 형식으로 썼다.",
+      "verdict": "confirmed",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "quote": "Plato never became a writer of philosophical treatises"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "플라톤은 스승 소크라테스의 재판과 죽음을 기록했다(『변론』·『파이돈』).",
+      "verdict": "confirmed",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "quote": "the speech that Socrates gave in his defense…when, in 399, he was legally charged and convicted of impiety"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "대화편에 동굴 비유와 영혼의 마차(마부와 두 마리 말) 신화가 들어 있다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+      "quote": "the natural union of a team of winged horses and their charioteer",
+      "note": "동굴은 『국가』 7권(514a–541b)에서 확인."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『국가』 10권에 시인 추방론이 있다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "quote": "rejects any form of imitative art and concludes that such artists have no place in the just city"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "그 시인 추방론은 이후 시 옹호론들이 반박해야 할 상대로 남았다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/An_Apology_for_Poetry",
+      "quote": "Sidney primarily addresses more general objections to poetry, such as those of Plato",
+      "note": "시드니 『시의 옹호』·셸리 『시의 옹호』(1821)가 실제로 플라톤을 상대한다. 다만 '이후 모든 시 옹호론'이라는 전칭은 검증 불가.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "상기설은 여러 대화편(메논·파이돈·파이드로스)에 흩어져 있다.",
+      "verdict": "confirmed",
+      "url": "https://www.newworldencyclopedia.org/entry/Anamnesis",
+      "quote": "Plato argues for the theory of recollection in two dialogues—the Meno, and the Phaedo—and mentions it in one other—the Phaedrus."
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『소크라테스의 변명』은 30쪽 남짓이다.",
+      "verdict": "unverifiable",
+      "note": "absent: 본문에 도달했고, 어느 판본도 '30쪽 남짓'을 고정해 주지 않는다. archive.org 전문으로 확인한 Church 역 Golden Treasury 판(1903·1910 두 스캔 모두)의 목차는 APOLOGY 33, CRITO 79 — 변론이 pp. 33–78, 46쪽이다. 반대편으로 Hackett(Grube) 『Trial and Death of Socrates』류 현대 판본은 20쪽대다. Gutenberg 의 조엣 역 본문(pg1656)을 세면 대화 자체가 약 11,380 단어라, 쪽당 350–450 단어의 통상 조판에서 25–33쪽 사이로 흩어진다. 판본 의존 수치라 특정 출처로 확정 불가 — 현재 데이터가 쓰는 스테파누스 17a–42a 표기가 옳은 선택이다.",
+      "resolution": "narrowed",
+      "url": "https://archive.org/download/trialdeathofsocr00platiala/trialdeathofsocr00platiala_djvu.txt",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『변론』은 논증이 끊기지 않는 한 줄기 연설이다(대화가 아니라 변론 한 편).",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+      "quote": "a speech of legal self-defence",
+      "note": "멜레토스 반대신문 대목만 짧게 대화체."
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『국가』 1권에 트라시마코스 논쟁이 있다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "quote": "Thrasymachus (336b–354c)…justice is that which is advantageous for the stronger"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "선분의 비유와 동굴의 비유가 『국가』 안에 이어져 나온다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "quote": "Analogy of the Divided Line…Book VI (507c–511e)…Allegory of the Cave…Book VII (514a–541b)"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『국가』는 열 권으로 되어 있다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "quote": "ten books, with Book X covering 595a–621d"
+    },
+    {
+      "field": "works[plato--phaidros].significance",
+      "claim": "『파이드로스』는 기원전 370년경 작품이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+      "quote": "presumably composed around 370 BC, about the same time as Plato's Republic and Symposium"
+    },
+    {
+      "field": "works[plato--phaidros].significance",
+      "claim": "대화는 성 밖 냇가에서 이루어진다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+      "quote": "sit by a stream under a plane tree and a chaste tree",
+      "note": "플라톤 대화편 중 유일하게 도시 성벽 밖이 무대."
+    },
+    {
+      "field": "works[plato--phaidros].significance",
+      "claim": "영혼을 두 마리 말과 마부에 빗댄 신화가 나온다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+      "quote": "The charioteer represents intellect, one horse embodies rational impulses, while the other symbolizes irrational passions"
+    },
+    {
+      "field": "works[plato--phaidros].significance",
+      "claim": "마지막 대목이 글쓰기가 기억을 대신하며 잃는 것을 논한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+      "quote": "a remedy for reminding, not remembering",
+      "note": "테우트와 타무스 전설로 마무리."
+    },
+    {
+      "field": "works[plato--apologia-sokratous].significance",
+      "claim": "소크라테스의 재판은 기원전 399년에 열렸다.",
+      "verdict": "confirmed",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "quote": "when, in 399, he was legally charged and convicted of the crime of impiety"
+    },
+    {
+      "field": "works[plato--apologia-sokratous].significance",
+      "claim": "작품 연대는 기원전 399년이다(집필 시점).",
+      "verdict": "unverifiable",
+      "note": "399 는 재판 연도로는 확정. 집필 연도로 399 를 못박는 출처는 못 찾음 — 통상 재판 직후 몇 해 사이로만 추정된다.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[plato--apologia-sokratous].significance",
+      "claim": "죽음보다 캐묻기를 그만두는 쪽이 더 나쁘다는 주장을 세운다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+      "quote": "never stop practising philosophy"
+    },
+    {
+      "field": "works[plato--politeia].significance",
+      "claim": "『국가』는 기원전 375년경 작품이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "quote": "around 375 BC"
+    },
+    {
+      "field": "works[plato--politeia].significance",
+      "claim": "정의란 무엇인가라는 물음에서 출발한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "quote": "Book I: Aging, Love, and the Definitions of Justice (327a–354c)"
+    },
+    {
+      "field": "works[plato--politeia].significance",
+      "claim": "10권이 문학을 모방의 모방으로 규정한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "quote": "artists create copies, positioning imitative art as removed from truth"
+    },
+    {
+      "field": "works[plato--symposion].significance",
+      "claim": "『향연』은 기원전 385년경 작품이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+      "quote": "dated c. 385 – 370 BC"
+    },
+    {
+      "field": "works[plato--symposion].significance",
+      "claim": "참석자들이 에로스를 두고 차례로 연설한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+      "quote": "a friendly contest of extemporaneous speeches",
+      "note": "각자 에로스를 찬미하는 연설을 차례로 한다."
+    },
+    {
+      "field": "works[plato--symposion].significance",
+      "claim": "마지막에 취한 알키비아데스가 들이닥쳐 소크라테스를 향한 사랑을 고백한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+      "quote": "delivers a panegyric to Socrates himself",
+      "note": "만취 상태로 난입해 소크라테스 유혹에 실패한 일까지 털어놓는다."
+    },
+    {
+      "field": "relations[mentorship plato→aristotle]",
+      "claim": "아리스토텔레스는 열일곱 살에 아카데메이아에 들어갔다.",
+      "verdict": "confirmed",
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "quote": "was sent to Athens at about the age of seventeen to study in Plato's Academy"
+    },
+    {
+      "field": "relations[mentorship plato→aristotle]",
+      "claim": "플라톤이 죽을 때까지 스무 해를 머물렀다.",
+      "verdict": "confirmed",
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "quote": "remained associated with the Academy until Plato's death in 347",
+      "note": "367–347 = 20년."
+    },
+    {
+      "field": "relations[mentorship plato→aristotle]",
+      "claim": "『니코마코스 윤리학』 1권 6장(1096a11–17)에서 이데아를 도입한 이들을 '친구들'이라 부르며 이데아론을 비판한다.",
+      "verdict": "confirmed",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abekker+page%3D1096a",
+      "quote": "such an inquiry goes against the grain because of our friendship for the authors of the Theory of Ideas"
+    },
+    {
+      "field": "relations[contrast plato→friedrich-nietzsche]",
+      "claim": "니체는 『선악의 저편』(1886) 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 불렀다.",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/4363/pg4363.txt",
+      "quote": "FOR CHRISTIANITY IS PLATONISM FOR THE \"PEOPLE\""
+    },
+    {
+      "field": "relations[contrast plato→friedrich-nietzsche]",
+      "claim": "니체는 플라톤이 세운 이데아의 위계를 뒤집는 일을 자기 과제로 삼았다.",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/4363/pg4363.txt",
+      "quote": "Plato's invention of Pure Spirit and the Good in Itself…the worst, the most tiresome, and the most dangerous of errors hitherto"
+    },
+    {
+      "field": "relations[contrast plato→friedrich-nietzsche]",
+      "claim": "하이데거의 『니체』는 1961년 Neske(Pfullingen)에서 전 2권으로 나왔다.",
+      "verdict": "confirmed",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/19306962.1965.11787229",
+      "quote": "Martin Heidegger, Nietzsche: 2 vols. Pfullingen: Neske Verlag, 1961. Pp. 662 and 494."
+    },
+    {
+      "field": "relations[contrast plato→friedrich-nietzsche]",
+      "claim": "하이데거의 『니체』가 니체를 '뒤집힌 플라톤주의'의 전개로 읽는 독법을 정식화했다.",
+      "verdict": "confirmed",
+      "url": "https://www.odiphilosophy.com/herausdrehen",
+      "quote": "Only then is Platonism overcome, which is to say, inverted in such a way that philosophical thinking twists free of it.",
+      "note": "하이데거의 강조점은 '단순한 뒤집기는 형이상학 안에 갇힌다'는 쪽이다. 'umgedrehter Platonismus' 표현 자체는 니체의 1870/71 유고에서 온 것이라 '정식화'는 하이데거의 독법 확립을 뜻하는 선에서만 맞다."
+    },
+    {
+      "field": "relations[documented_influence plato→jorge-luis-borges]",
+      "claim": "『영원의 역사』는 1936년 부에노스아이레스 Viau y Zona 에서 출간되었다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Historia_de_la_eternidad",
+      "quote": "Publisher: Viau y Zona; Location: Buenos Aires; Year: 1936",
+      "note": "같은 해 Francisco A. Colombo 인쇄의 이본이 존재."
+    },
+    {
+      "field": "relations[documented_influence plato→jorge-luis-borges]",
+      "claim": "표제 에세이 「영원의 역사」가 플라톤의 원형 개념을 출발점으로 삼는다.",
+      "verdict": "confirmed",
+      "url": "https://borgestodoelanio.blogspot.com/2015/06/jorge-luis-borges-historia-de-la.html",
+      "quote": "Leemos en el Timeo de Platón que el tiempo es una imagen móvil",
+      "note": "에세이는 플라톤의 『티마이오스』 인용과 '아르케티포스 플라토니코스' 설명으로 시작해 플로티노스로 넘어간다."
+    },
+    {
+      "field": "relations[documented_influence plato→jorge-luis-borges]",
+      "claim": "이후 보르헤스 단편들에 반복되는 원형과 개별자의 역설이 그 플라톤 독해에서 나온다.",
+      "verdict": "unverifiable",
+      "note": "absent: Borges Center 의 「Platón」색인에 도달했다. 색인은 『영원의 역사』(OC 353, 354, 357, 358n)와 이후 단편들(「바벨의 도서관」계열의 「바빌로니아의 복권」, 「신학자들」, 「아베로에스의 탐구」, 「기억의 천재 푸네스」 OC 490, 「불사의 인간」 OC 533)에 플라톤이 함께 나타난다는 사실만 기록한다. 동시 출현이지 유래가 아니다. 영어·스페인어로 '그 독해에서 나온다'는 인과를 명시한 비평 문헌은 찾지 못했다. gwern.net 의 에세이 영역 PDF 는 Cloudflare 301 루프로 열리지 않았고, JSTOR 본문도 차단이다. 인과절을 빼고 '에세이가 플라톤의 원형 개념을 출발점으로 삼는다'까지만 남기는 편이 안전하다.",
+      "resolution": "removed",
+      "url": "https://pre.borges.pitt.edu/i/platon",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "relations[documented_influence plato→cicero]",
+      "claim": "키케로는 『국가론』을 플라톤 『국가』에 맞세우는 대화편으로 구상했다.",
+      "verdict": "confirmed",
+      "url": "https://plato.stanford.edu/entries/cicero/",
+      "quote": "each loosely based on a Platonic archetype",
+      "note": "Wikipedia De re publica: 'written in imitation of Plato's Republic'."
+    },
+    {
+      "field": "relations[documented_influence plato→cicero]",
+      "claim": "키케로가 본문에서 그 플라톤 모델을 밝힌다.",
+      "verdict": "confirmed",
+      "url": "https://experts.arizona.edu/en/publications/platos-laws-and-ciceros-de-legibus/",
+      "quote": "As Cicero tells us, Plato's Laws is the literary model for his own work de Legibus, as is his Republic for Cicero's de Re Publica."
+    },
+    {
+      "field": "relations[documented_influence plato→cicero]",
+      "claim": "『법률론』도 플라톤 『법률』의 배치를 따라 이어 썼다.",
+      "verdict": "confirmed",
+      "url": "https://experts.arizona.edu/en/publications/platos-laws-and-ciceros-de-legibus/",
+      "quote": "Plato's Laws is the literary model for his own work de Legibus"
+    },
+    {
+      "field": "relations[documented_influence plato→cicero]",
+      "claim": "맬컴 스코필드의 『키케로: 정치철학』은 2021년 옥스퍼드대 출판부에서 나왔다.",
+      "verdict": "confirmed",
+      "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/abs/malcolm-schofield-cicero-political-philosophy-founders-of-modern-political-and-social-thought-oxford-oxford-university-press-2021-pp-xiv-285-isbn-9780199684915-6500/849E85BCDEC11242E40B4FADA74EAC44",
+      "quote": "MALCOLM SCHOFIELD, CICERO: POLITICAL PHILOSOPHY…Oxford: Oxford University Press, 2021"
+    },
+    {
+      "field": "relations[documented_influence plato→cicero]",
+      "claim": "스코필드(2021)가 『국가론』과 『법률론』을 플라톤의 해당 대화편과 나란히 놓고 검토한다.",
+      "verdict": "unverifiable",
+      "url": "https://books.google.co.kr/books/about/Cicero.html?id=RZcMEAAAQBAJ",
+      "note": "검색·확인한 것: 구글북스 목차(Introduction/Contexts, Liberty…, Government, Cosmopolitanism…, Republican Virtues, Republican Decisionmaking — 플라톤 대화편별 장 없음), BMCR 서평(‘Plato/Platonic’ 단어 0회), NDPR 서평(플라톤은 '통치의 플라톤적 관념' 맥락에서만 언급). 이 책이 두 저작을 플라톤 대화편과 '나란히 놓고 검토'한다는 서술을 뒷받침하는 근거는 찾지 못했다. 근거는 SEP·Arizona 쪽에 있으므로 출처 재지정이 필요해 보인다.",
+      "resolution": "removed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--aristotle-ethica-nicomachea-oct": {
+      "id": "src--aristotle-ethica-nicomachea-oct",
+      "title": "Aristotelis Ethica Nicomachea (『니코마코스 윤리학』) 1권 6장 1096a11–17",
+      "publisherOrInstitution": "Oxford University Press (Oxford Classical Texts, I. Bywater 편)",
+      "citation": "아리스토텔레스가 '이데아를 도입한 친구들'을 거론하며 이데아론을 비판하는 대목 — 플라톤 비판의 1차 문헌"
+    },
+    "src--nietzsche-colli-montinari": {
+      "id": "src--nietzsche-colli-montinari",
+      "title": "니체 전집 비판정본 (Kritische Gesamtausgabe / Kritische Studienausgabe, Colli·Montinari 편)",
+      "publisherOrInstitution": "Walter de Gruyter",
+      "citation": "출간본과 유고의 구분, 『권력에의 의지』가 사후 편집물이라는 사실 등 니체 텍스트의 서지 확인용 학술 정본"
+    },
+    "src--heidegger-nietzsche-1961": {
+      "id": "src--heidegger-nietzsche-1961",
+      "title": "Nietzsche (전 2권)",
+      "publisherOrInstitution": "Verlag Günther Neske, Pfullingen",
+      "citation": "Martin Heidegger, Nietzsche, 2 Bde. (Pfullingen: Neske, 1961) — 니체의 저작을 뒤집힌 플라톤주의로 읽는 독법을 정식화한 연구"
+    },
+    "src--borges-historia-de-la-eternidad-1936-titular": {
+      "id": "src--borges-historia-de-la-eternidad-1936-titular",
+      "title": "『영원의 역사』 수록 표제 에세이 「영원의 역사」 (Historia de la eternidad, 1936)",
+      "publisherOrInstitution": "Editorial Viau y Zona, Buenos Aires",
+      "citation": "플라톤의 원형 개념에서 출발해 영원 관념의 계보를 다시 서술한 보르헤스의 에세이 — 플라톤 수용의 1차 문헌"
+    },
+    "src--schofield-cicero-political-philosophy-2021": {
+      "id": "src--schofield-cicero-political-philosophy-2021",
+      "title": "Cicero: Political Philosophy",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "Malcolm Schofield, Cicero: Political Philosophy, Founders of Modern Political and Social Thought (Oxford: Oxford University Press, 2021), ISBN 9780199684915"
+    }
+  }
+}

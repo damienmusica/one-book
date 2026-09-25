@@ -1,0 +1,53 @@
+{
+  "fixes": [
+    {
+      "id": "plato",
+      "works": [
+        {
+          "id": "plato--phaidros",
+          "significance": "성 밖 냇가에서 사랑과 수사를 두고 나누는 대화. 영혼을 두 마리 말과 마부에 빗댄 신화가 나오고, 글쓰기가 기억을 대신하면서 잃는 것을 논한 마지막 대목은 현대 이론의 참조점이 되었다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "mentorship--plato--aristotle",
+          "summary": "아리스토텔레스는 열일곱 살에 아카데메이아에 들어가 플라톤이 죽을 때까지 스무 해를 머물렀고, 『니코마코스 윤리학』 1권 6장(1096a)에서 '이데아를 도입한 친구들'이라 에둘러 부르며 그 이데아론을 비판해 자기 방법을 갈라 세웠다."
+        },
+        {
+          "id": "contrast--plato--friedrich-nietzsche",
+          "summary": "니체는 『선악의 저편』(1886) 서문에서 그리스도교를 '민중을 위한 플라톤주의'라 부르며 플라톤이 세운 이데아의 위계를 뒤집는 일을 자기 과제로 삼았고, 하이데거의 『니체』(1961)는 니체가 이 뒤집기로 형이상학의 마지막 가능성을 붙잡았다고 읽었다."
+        }
+      ],
+      "sources": [
+        {
+          "id": "src--aristotle-ethica-nicomachea-oct",
+          "title": "Aristotelis Ethica Nicomachea (『니코마코스 윤리학』) 1권 6장 1096a"
+        },
+        {
+          "id": "src--heidegger-nietzsche-1961",
+          "citation": "Martin Heidegger, Nietzsche, 2 Bde. (Pfullingen: Neske, 1961) — 플라톤주의 뒤집기를 형이상학의 마지막 가능성으로 읽은 강의"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:plato--phaidros.significance",
+          "claim": "영혼의 마차 신화가 문학 이론의 오래된 참조점이 되었다.",
+          "resolution": "narrowed",
+          "evidence": "둘째 문장에서 마차 신화를 '참조점이 되었다'의 주어에서 떼어 '신화가 나오고'로만 남겼다(주장 31: 'a charioteer driving a chariot pulled by two winged horses'). 참조점이 된 것은 글쓰기 대목뿐이라 주어를 '마지막 대목은'으로 좁히고, 받쳐지지 않는 '문학 이론의 오래된'을 확정 주장 34 가 받치는 '현대 이론'으로 바꿨다(Philosophy Now: 'Jacques Derrida discusses this in his 1981 essay ‘Plato’s Pharmacy’'). 104자 그대로."
+        },
+        {
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "해당 대목의 벡커 행 번호는 1096a11–17 이다.",
+          "resolution": "narrowed",
+          "evidence": "'1권 6장(1096a11–17)'을 '1권 6장(1096a)'로 좁혔다. 행 번호는 어느 인용도 받치지 않고(Perseus 행 단위 URL 503, 위키백과는 a11–15), 벡커 면 1096a 는 주장 57·58 의 Perseus 면 단위 본문('διὰ τὸ φίλους ἄνδρας εἰσαγαγεῖν τὰ εἴδη')이 받친다. 같은 행 번호를 제목에 적던 출처 레코드 src--aristotle-ethica-nicomachea-oct(이 관계만 쓴다)도 '1096a'로 좁혔다."
+        },
+        {
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "하이데거의 『니체』(1961)가 니체의 저작 전체를 '뒤집힌 플라톤주의'의 전개로 읽는 독법을 정식화했다.",
+          "resolution": "corrected",
+          "evidence": "뒷절을 '하이데거의 『니체』(1961)는 니체가 이 뒤집기로 형이상학의 마지막 가능성을 붙잡았다고 읽었다'로 바꿨다. 교정문대로 뒤집기는 니체 자신의 과제로 앞절에 남고(주장 64: 'Meine Philosophie umgedrehter Platonismus'), 하이데거의 몫은 그 뒤집기를 형이상학의 마지막 자리로 읽은 것이다 — 주장 66: 'dass Nietzsche sehr wohl durch die Umkehrung des Platonismus die letzte Vollzugsmöglichkeit der Metaphysik ergriffen hat', 주장 77: 그 강의가 'would appear in published form in 1961'. '저작 전체'와 '정식화'는 지웠다. 교정문의 '마지막 형이상학자'라는 이름은 IEP 인용이 『니체』(1961)에 묶지 않아 싣지 않았다. 같은 문구를 적던 출처 레코드 src--heidegger-nietzsche-1961(이 관계만 쓴다)의 citation 도 고쳤다. 146→141자."
+        }
+      ]
+    }
+  ]
+}

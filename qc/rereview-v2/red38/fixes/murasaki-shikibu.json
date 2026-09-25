@@ -1,0 +1,94 @@
+{
+  "fixes": [
+    {
+      "id": "murasaki-shikibu",
+      "lifeApprox": true,
+      "importanceReason": "수백 인물의 심리를 좇아 네 천황의 치세, 칠십여 년을 한 편에 담은 『겐지 이야기』를 써서, 사건의 나열이 아니라 내면으로 움직이는 장편 이야기를 일본어 산문 안에 세웠다. 인물의 마음을 서술자의 목소리와 겹쳐 놓아 지문과 심중어의 경계를 흐리는 문장을 쓰고, 와카 증답이 감정을 대신 말하게 했다. 이 작품은 이후 일본 문학이 '모노노아와레'라는 이름으로 자기 미의식을 설명할 때 근거로 삼는 텍스트가 되었다.",
+      "readingEntryReason": "이 사람의 전부가 이 한 편에 있다.",
+      "readingWarning": "마지막 「우지 십첩」만 따로 떼어 읽거나 계보 없이 중반부터 들어가면, 관직명으로 불리는 인물들의 관계가 무너진다. 계보표가 붙은 판본으로 앞에서부터 읽는 편이 낫다.",
+      "works": [
+        {
+          "id": "murasaki-shikibu--murasakishikibushu",
+          "yearBasis": "first-print"
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--murasaki-shikibu--yasunari-kawabata",
+          "summary": "가와바타는 노벨문학상 수상 강연 「아름다운 일본의 나」(1968)에서 『겐지 이야기』를 일본 소설의 최고봉으로 들고, 시가와 미술·공예, 정원 조성의 자양으로 말했다."
+        }
+      ],
+      "dropRelations": [
+        "affinity--murasaki-shikibu--virginia-woolf"
+      ],
+      "resolutions": [
+        {
+          "field": "author.facts",
+          "claim": "생몰년은 973–1014년이다(통설)",
+          "resolution": "narrowed",
+          "evidence": "생몰년 973·1014는 그대로 두고 lifeApprox: true 를 달아 사실 줄을 「973?–1014?」로 그린다. 인용(Shirane: 1014 'generally accepted' 사망, 973 출생)이 받치는 것은 통설이고, 같은 문서가 출생을 970–978 사이로(Mulhern·Waley), Bowring은 1025년까지의 생존설을 적는다 — 두 해 모두 이설이 있다."
+        },
+        {
+          "field": "author.facts",
+          "claim": "원어 표기는 紫式部이고, 헤이안 시대(일본) 중기의 작가·가인이다",
+          "resolution": "accepted",
+          "evidence": "'본명'은 쪽에 없다. 사실 줄 7b4aa4fb0eed는 「무라사키 시키부(紫式部) · … · ja · east-asia」로 원어 표기만 적고 본명이라 부르지 않으며, 원어 표기는 ja 위키백과 인용(「紫式部（むらさき しきぶ）は、平安時代中期の女房、作家、歌人」)이 받친다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "『겐지 이야기』는 네 세대에 걸친 이야기다",
+          "resolution": "corrected",
+          "evidence": "importanceReason 첫 문장 d68175acb333의 '네 세대 칠십여 년을'을 교정문대로 '네 천황의 치세, 칠십여 년을'로 바꿨다(大辞林: 「物語は、四代の帝、七十数年にわたって展開する。」). 나머지(수백 인물·내면으로 움직이는 장편·일본어 산문)는 확인된 주장이라 그대로 둔다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "감정을 직접 쓰지 않고 자연(계절)의 변화 등에 대신 말하게 한다",
+          "resolution": "narrowed",
+          "evidence": "importanceReason 둘째 문장 6810186273cb에서 '계절'을 지웠다. 출처(ja 위키백과 『源氏物語』)가 자연의 변화에 대신 말하게 하는 대상은 감정이 아니라 남녀 사이의 일·이야기의 핵심이다. 교정문(남녀의 일을 자연의 변화에 빗대어 에둘러 그림)은 필드가 원문보다 길어져 넣지 않았다. 문장은 '…문장을 쓰고, 와카 증답이 감정을 대신 말하게 했다.'가 되며, 와카 부분은 확인된 주장(「光源氏への心情は和歌に詠まれる」, 'the importance of poetry in conversations')이 받친다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "의복이 감정을 대신 말하게 하는 방법을 쓴다",
+          "resolution": "narrowed",
+          "evidence": "확인되지 않은 '의복'을 importanceReason 둘째 문장 6810186273cb에서 지웠다(ja/en 위키백과·大辞林·Britannica에서 의복이 감정 표현 수단이라는 서술을 찾지 못함). 한 가지 방법만 남아 '…하는 방법을 결합했다'도 '…말하게 했다'로 줄였다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "「기리쓰보」부터 「와카무라사키」까지의 앞부분이 하나의 단위로 읽힌다",
+          "resolution": "narrowed",
+          "evidence": "readingEntryReason 9fbb078dd5c8에서 반박된 절 '「기리쓰보」에서 「와카무라사키」까지의 앞부분이 하나의 단위로 읽혀 전체를 읽기 전에도 서술 방식이 드러난다'를 지웠다. 인용(「桐壺巻と帚木巻、夕顔巻と若紫巻など…切り替わる部分…の描写には不自然な点が多い」)은 그 앞부분이 한 단위가 아니라 계열이 바뀌며 이어 붙은 곳이라고 말하고, 교정문은 입문 이유가 되지 못해 넣지 않았다. 남은 문장은 체커가 평가라 대상 외로 둔 '이 사람의 전부가 이 한 편에 있다.'뿐이다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "인물이 이름 대신 관직명 등으로 불린다",
+          "resolution": "narrowed",
+          "evidence": "readingWarning 86f78e9bbb5e의 '관직명으로만 불리는 인물들'에서 '만'을 지워 '관직명으로 불리는 인물들'로 좁혔다. 인용('the narrator refers to men often by their rank … and to women often by the color of their clothing …')은 관직 호칭을 남성에게만 받친다 — '만'이 여성까지 관직명으로 불린다고 말하게 했다."
+        },
+        {
+          "field": "work:murasaki-shikibu--murasakishikibushu.facts",
+          "claim": "1206년은 현존 최고(最古) 사본의 연도다",
+          "resolution": "corrected",
+          "evidence": "yearBasis 를 earliest-manuscript 에서 first-print 로 바꿔 쪽의 작품 줄이 '1206 사본'(현존 최고 사본)이 아니라 '1206 초간'이 된다. 인용(en 위키백과: 'Murasaki's poems were published in 1206 by Fujiwara no Teika')은 1206년을 데이카가 펴낸 해로 적는다. 스키마의 연도 근거 넷 중 '이 수는 펴낸 해다'를 말하는 것은 first-print 뿐이고(attested 는 사후 60년 검사에 걸린다), 교정문의 멀헌 견해 괄호는 사실 줄 필드로 표현할 수 없어 싣지 않았다."
+        },
+        {
+          "field": "work:murasaki-shikibu--murasakishikibushu.significance",
+          "claim": "무라사키의 자전적 노래에는 여성들과 자주 노래를 주고받은(증답) 흔적이 남아 있다",
+          "resolution": "accepted",
+          "evidence": "'다수'는 쪽에 없다. 가집 의의 d9417909846e는 '소녀 시절부터 궁중 출사 이후까지의 증답가가 시간 순으로 놓여'라고만 적고 증답가의 수를 말하지 않는다. 증답·시간 순은 확인된 주장('she often exchanged poetry with women', 'arranged in a biographical sequence')이 받친다."
+        },
+        {
+          "field": "relation:influence--murasaki-shikibu--yasunari-kawabata.summary",
+          "claim": "가와바타는 헤이안 시대의 문학(전반)을 일본 예술 전반의 자양으로 말했다",
+          "resolution": "corrected",
+          "evidence": "관계 요약 aa9ffee00a82의 '헤이안 시대의 문학을 일본 예술 전반의 자양으로 말했다'를 교정문을 줄여 '시가와 미술·공예, 정원 조성의 자양으로 말했다'로 바꿨다 — 목적어 『겐지 이야기』를 두 동사가 함께 받아 자양의 주어가 『겐지』가 된다(인용: 'The Genji was a wide and deep source of nourishment for poetry, of course, and for the fine arts and handicrafts as well, and even for landscape gardening.'). '넓고 깊은'은 길이 때문에 뺐다. 문서명 「아름다운 일본의 나」와 1968은 남는다."
+        },
+        {
+          "field": "relation:affinity--murasaki-shikibu--virginia-woolf.facts",
+          "claim": "무라사키–울프 관계는 양방향 친연성이며 근거 수준은 학계 합의(scholarly_consensus)다",
+          "resolution": "relation-dropped",
+          "evidence": "근거는 울프 본인이 서명한 1925년 『보그』 서평 — 울프가 『겐지』를 읽었다는 한쪽 방향의 문서다. 친연성(affinity)은 '직접 접촉의 근거는 없으나' 비교되는 양방향 관계이고 scholarly_consensus 를 받칠 연구는 논문 한 편뿐이라, 유형·방향·근거 수준이 모두 무너진다. 교정문의 방향 있는 documented 관계는 영향의 증언이 아니라 독서·서평의 기록이어서 documented_influence 로 옮길 근거가 없고, 이 도구는 유형을 바꿀 수 없어 dropRelations로 뺐다. 도판에는 가와바타 영향선(influence--murasaki-shikibu--yasunari-kawabata, 노벨 강연 인용으로 확인)이 남는다."
+        }
+      ]
+    }
+  ]
+}

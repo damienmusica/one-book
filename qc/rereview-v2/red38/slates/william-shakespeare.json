@@ -1,0 +1,886 @@
+{
+  "id": "william-shakespeare",
+  "page": "https://literary-planet.pages.dev/authors/william-shakespeare/",
+  "author": {
+    "names": {
+      "ko": "윌리엄 셰익스피어",
+      "original": "William Shakespeare",
+      "aliases": []
+    },
+    "birthYear": 1564,
+    "deathYear": 1616,
+    "activeRange": [
+      1589,
+      1616
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "drama",
+      "poetry"
+    ],
+    "importanceReason": "독백을 인물이 자기 말을 듣고 생각을 바꾸는 자리로 만들어, 무대 위의 사람이 말하는 동안 다른 사람이 되는 과정을 관객이 지켜보게 했다. 무운시의 행을 문장 도중에 끊고 산문과 섞어 말의 결을 바꿨고, 비극 안에 광대와 익살을 남겨 장르의 경계를 한 작품 안에서 흔들었다. 이 방법이 이후 연극과 소설이 인물의 내면을 다루는 기본형이 되었다.",
+    "readingEntry": "william-shakespeare--macbeth",
+    "readingEntryReason": "비극 가운데 가장 짧고 곁가지가 없어 한자리에서 끝까지 간다. 독백이 인물의 결심을 뒤집는 장면이 연달아 나와 그의 핵심 방법을 바로 만난다.",
+    "readingOrder": [
+      "william-shakespeare--macbeth",
+      "william-shakespeare--the-tempest",
+      "william-shakespeare--hamlet",
+      "william-shakespeare--king-lear",
+      "william-shakespeare--sonnets"
+    ],
+    "readingWarning": "『소네트』나 『리어 왕』부터 시작하면 압축된 은유 때문에, 『리어 왕』은 판본 차이까지 겹쳐 문장 단위에서 멈춘다.",
+    "difficulty": 3,
+    "difficultyReason": "무운시의 행이 문장 중간에서 끊기고 한 단어가 두세 뜻으로 동시에 쓰여, 번역본에서도 주석을 짚어 가며 읽게 된다. 사건의 줄기 자체는 따라가기 쉽다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  "works": [
+    {
+      "id": "william-shakespeare--macbeth",
+      "titleKo": "맥베스",
+      "titleOriginal": "Macbeth",
+      "year": 1606,
+      "yearBasis": "composition-range",
+      "genre": "drama",
+      "significance": "예언을 들은 자가 그것을 실현시키려다 파괴되는 과정을 군더더기 없이 밀고 가는 비극. 1623년 이절판에만 본문이 전한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "william-shakespeare--the-tempest",
+      "titleKo": "템페스트",
+      "titleOriginal": "The Tempest",
+      "year": 1611,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "1611년 궁정 상연 기록이 남은 후기 로맨스. 섬의 지배와 언어를 둘러싼 프로스페로와 캘리번의 관계 때문에 20세기 탈식민 문학이 거듭 되받아 쓴 작품이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "william-shakespeare--hamlet",
+      "titleKo": "햄릿",
+      "titleOriginal": "Hamlet",
+      "year": 1601,
+      "yearBasis": "composition-range",
+      "genre": "drama",
+      "significance": "가장 긴 희곡이자, 독백이 결론을 전달하는 자리가 아니라 사고 과정 그 자체가 되는 장면들을 담고 있다. 사절판과 이절판의 본문 차이가 크다.",
+      "sourceIds": []
+    },
+    {
+      "id": "william-shakespeare--king-lear",
+      "titleKo": "리어 왕",
+      "titleOriginal": "King Lear",
+      "year": 1606,
+      "yearBasis": "composition-range",
+      "genre": "drama",
+      "significance": "왕과 광대와 미친 척하는 자를 폭풍의 벌판에 세우고, 눈먼 자를 도버에서 미친 왕과 마주치게 해 권위와 혈연이 무너지는 자리를 끝까지 지켜본다. 사절판(1608)과 이절판(1623)의 본문 차이가 커서 판본 문제가 함께 따라온다.",
+      "sourceIds": []
+    },
+    {
+      "id": "william-shakespeare--sonnets",
+      "titleKo": "소네트",
+      "titleOriginal": "Shake-speares Sonnets",
+      "year": 1609,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "154편의 연작. '아름다운 청년'과 '검은 여인'을 향한 두 묶음으로 읽히며, 새리 백작이 확립하고 대니얼·드레이턴이 이미 쓰고 있던 3사행연 + 2행 결구의 영국식 소네트를 그 형태 그대로 따른다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--william-shakespeare--victor-hugo",
+      "type": "documented_influence",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "victor-hugo (빅토르 위고)",
+      "evidenceLevel": "documented",
+      "summary": "위고는 「크롬웰 서문」(1827)에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어내 시간·장소의 두 단일 규칙을 공격했고, 망명 중 쓴 단행본 『윌리엄 셰익스피어』(1864)에서 셰익스피어론을 다시 썼다.",
+      "sourceIds": [
+        "src--hugo-preface-de-cromwell-1827",
+        "src--hugo-william-shakespeare-1864"
+      ]
+    },
+    {
+      "id": "influence--william-shakespeare--alexander-pushkin",
+      "type": "documented_influence",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "alexander-pushkin (알렉산드르 푸시킨)",
+      "evidenceLevel": "documented",
+      "summary": "푸시킨은 1825년 7월 니콜라이 라예프스키에게 보낸 편지에서 『보리스 고두노프』를 쓰며 프랑스 고전극 대신 셰익스피어의 자유로운 장면 구성을 본보기로 삼았다고 적었고, 그 결과 시간과 장소의 단일성을 버린 사극이 나왔다.",
+      "sourceIds": [
+        "src--pushkin-letter-raevsky-1825"
+      ]
+    },
+    {
+      "id": "influence--william-shakespeare--johann-wolfgang-von-goethe",
+      "type": "documented_influence",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "evidenceLevel": "documented",
+      "summary": "괴테는 1771년 연설 「셰익스피어 명명일에」에서 프랑스 고전극의 삼일치를 버리고 셰익스피어를 자기 세대의 척도로 선언했으며, 『빌헬름 마이스터의 수업시대』의 『햄릿』 해석 장들로 그 독서를 소설 안에 옮겼다.",
+      "sourceIds": [
+        "src--goethe-zum-shakespeares-tag-1771"
+      ]
+    },
+    {
+      "id": "influence--ovid--william-shakespeare",
+      "type": "documented_influence",
+      "from": "ovid (오비디우스)",
+      "to": "william-shakespeare (윌리엄 셰익스피어)",
+      "evidenceLevel": "documented",
+      "summary": "『타이터스 앤드로니커스』 4막 1장에서는 『변신 이야기』 책이 실제 소품으로 무대에 올라 필로멜라 대목이 펼쳐지고, 프랜시스 미어스는 『팔라디스 타미아』(1598)에서 셰익스피어를 두고 '오비디우스의 달콤한 재치 있는 혼이 그에게 살아 있다'고 적었다.",
+      "sourceIds": [
+        "src--meres-palladis-tamia-1598"
+      ]
+    },
+    {
+      "id": "influence--william-shakespeare--herman-melville",
+      "type": "documented_influence",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "herman-melville (허먼 멜빌)",
+      "evidenceLevel": "documented",
+      "summary": "멜빌은 「호손과 그의 이끼」(1850)에서 셰익스피어를 미국 작가가 겨뤄야 할 척도로 세웠고, 같은 시기 『모비 딕』에 무대 지시문과 독백 장면을 그대로 들여 썼다.",
+      "sourceIds": [
+        "src--melville-hawthorne-and-his-mosses-1850"
+      ]
+    },
+    {
+      "id": "influence--william-shakespeare--ts-eliot",
+      "type": "documented_influence",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "ts-eliot (T. S. 엘리엇)",
+      "evidenceLevel": "documented",
+      "summary": "엘리엇은 『선집』(1932)에 수록된 「햄릿」에서 이 작품을 예술적 실패로 규정하며 '객관적 상관물' 개념을 제시했고, 그 개념이 그의 시론 전체의 축이 되었다.",
+      "sourceIds": [
+        "src--eliot-selected-essays-1932"
+      ]
+    },
+    {
+      "id": "contrast--william-shakespeare--aime-cesaire",
+      "type": "contrast",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "aime-cesaire (에메 세제르)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "세제르는 『어떤 태풍』(1969)에서 『템페스트』를 캘리번을 흑인 노예로, 에어리얼을 혼혈 노예로 바꿔 다시 썼고, 탈식민 비평은 이 되받아 쓰기를 카리브 문학의 대표 사례로 다룬다.",
+      "sourceIds": [
+        "src--cesaire-une-tempete-1969"
+      ]
+    },
+    {
+      "id": "translation--william-shakespeare--sandor-petofi",
+      "type": "translation",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "sandor-petofi (산도르 페퇴피)",
+      "evidenceLevel": "documented",
+      "summary": "페퇴피는 1848년 셰익스피어 『코리올라누스』를 헝가리어로 옮겨 출판했다. 어러니 야노시·뵈뢰슈머르티 미하이와 셋이 계획한 셰익스피어 헝가리어 전집의 첫 결과물이며, 그의 극시 어휘가 어디에서 왔는지를 보여 주는 1차 근거다.",
+      "sourceIds": [
+        "src--petofi-coriolanus-1848"
+      ]
+    },
+    {
+      "id": "translation--william-shakespeare--mukhtar-auezov",
+      "type": "translation",
+      "from": "william-shakespeare (윌리엄 셰익스피어)",
+      "to": "mukhtar-auezov (묵타르 아우에조프)",
+      "evidenceLevel": "documented",
+      "summary": "아우에조프는 셰익스피어의 『오셀로』와 『말괄량이 길들이기』를 카자흐어로 옮겼고, 고골의 『검찰관』도 함께 옮겼다.",
+      "sourceIds": [
+        "src--adebiportal-kz"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "bb1525161006",
+      "where": "author.facts",
+      "text": "윌리엄 셰익스피어(William Shakespeare) · 1564–1616 · en · britain-ireland",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fe0604503305",
+      "where": "author.importanceReason",
+      "text": "독백을 인물이 자기 말을 듣고 생각을 바꾸는 자리로 만들어, 무대 위의 사람이 말하는 동안 다른 사람이 되는 과정을 관객이 지켜보게 했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7040c3c9d8d0",
+      "where": "author.importanceReason",
+      "text": "무운시의 행을 문장 도중에 끊고 산문과 섞어 말의 결을 바꿨고, 비극 안에 광대와 익살을 남겨 장르의 경계를 한 작품 안에서 흔들었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ab869a704bde",
+      "where": "author.importanceReason",
+      "text": "이 방법이 이후 연극과 소설이 인물의 내면을 다루는 기본형이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "eaeef908bef4",
+      "where": "author.readingEntryReason",
+      "text": "비극 가운데 가장 짧고 곁가지가 없어 한자리에서 끝까지 간다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "982d98429c99",
+      "where": "author.readingEntryReason",
+      "text": "독백이 인물의 결심을 뒤집는 장면이 연달아 나와 그의 핵심 방법을 바로 만난다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a7d856a409fe",
+      "where": "author.readingWarning",
+      "text": "『소네트』나 『리어 왕』부터 시작하면 압축된 은유 때문에, 『리어 왕』은 판본 차이까지 겹쳐 문장 단위에서 멈춘다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d54c373e6c00",
+      "where": "author.difficultyReason",
+      "text": "무운시의 행이 문장 중간에서 끊기고 한 단어가 두세 뜻으로 동시에 쓰여, 번역본에서도 주석을 짚어 가며 읽게 된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7520841a816e",
+      "where": "author.difficultyReason",
+      "text": "사건의 줄기 자체는 따라가기 쉽다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "340003fce9e9",
+      "where": "work:william-shakespeare--macbeth.facts",
+      "text": "『맥베스』(Macbeth) · 1606 composition-range · drama",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dfca6cb30141",
+      "where": "work:william-shakespeare--macbeth.significance",
+      "text": "예언을 들은 자가 그것을 실현시키려다 파괴되는 과정을 군더더기 없이 밀고 가는 비극.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "cdcac9a4898a",
+      "where": "work:william-shakespeare--macbeth.significance",
+      "text": "1623년 이절판에만 본문이 전한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dc9e6ef43b3d",
+      "where": "work:william-shakespeare--the-tempest.facts",
+      "text": "『템페스트』(The Tempest) · 1611 · drama",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b63d4f681555",
+      "where": "work:william-shakespeare--the-tempest.significance",
+      "text": "1611년 궁정 상연 기록이 남은 후기 로맨스.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "868841c70a36",
+      "where": "work:william-shakespeare--the-tempest.significance",
+      "text": "섬의 지배와 언어를 둘러싼 프로스페로와 캘리번의 관계 때문에 20세기 탈식민 문학이 거듭 되받아 쓴 작품이다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "88af2fed8035",
+      "where": "work:william-shakespeare--hamlet.facts",
+      "text": "『햄릿』(Hamlet) · 1601 composition-range · drama",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "febc82fed4f7",
+      "where": "work:william-shakespeare--hamlet.significance",
+      "text": "가장 긴 희곡이자, 독백이 결론을 전달하는 자리가 아니라 사고 과정 그 자체가 되는 장면들을 담고 있다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e4bb6aac7d9c",
+      "where": "work:william-shakespeare--hamlet.significance",
+      "text": "사절판과 이절판의 본문 차이가 크다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "937e375cc762",
+      "where": "work:william-shakespeare--king-lear.facts",
+      "text": "『리어 왕』(King Lear) · 1606 composition-range · drama",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f771087bf690",
+      "where": "work:william-shakespeare--king-lear.significance",
+      "text": "왕과 광대와 미친 척하는 자를 폭풍의 벌판에 세우고, 눈먼 자를 도버에서 미친 왕과 마주치게 해 권위와 혈연이 무너지는 자리를 끝까지 지켜본다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "38c0d9680c62",
+      "where": "work:william-shakespeare--king-lear.significance",
+      "text": "사절판(1608)과 이절판(1623)의 본문 차이가 커서 판본 문제가 함께 따라온다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "579c7e2cf0a4",
+      "where": "work:william-shakespeare--sonnets.facts",
+      "text": "『소네트』(Shake-speares Sonnets) · 1609 first-print · poetry",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7eecdd99ca6d",
+      "where": "work:william-shakespeare--sonnets.significance",
+      "text": "154편의 연작.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4ebe46aa8b5b",
+      "where": "work:william-shakespeare--sonnets.significance",
+      "text": "'아름다운 청년'과 '검은 여인'을 향한 두 묶음으로 읽히며, 새리 백작이 확립하고 대니얼·드레이턴이 이미 쓰고 있던 3사행연 + 2행 결구의 영국식 소네트를 그 형태 그대로 따른다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6d711d810eea",
+      "where": "relation:influence--william-shakespeare--victor-hugo.facts",
+      "text": "윌리엄 셰익스피어 → 빅토르 위고 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9bdfa7a315b2",
+      "where": "relation:influence--william-shakespeare--victor-hugo.summary",
+      "text": "위고는 「크롬웰 서문」(1827)에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어내 시간·장소의 두 단일 규칙을 공격했고, 망명 중 쓴 단행본 『윌리엄 셰익스피어』(1864)에서 셰익스피어론을 다시 썼다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d3ddd5880811",
+      "where": "relation:influence--william-shakespeare--alexander-pushkin.facts",
+      "text": "윌리엄 셰익스피어 → 알렉산드르 푸시킨 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d86ee3455097",
+      "where": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+      "text": "푸시킨은 1825년 7월 니콜라이 라예프스키에게 보낸 편지에서 『보리스 고두노프』를 쓰며 프랑스 고전극 대신 셰익스피어의 자유로운 장면 구성을 본보기로 삼았다고 적었고, 그 결과 시간과 장소의 단일성을 버린 사극이 나왔다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f088554c1539",
+      "where": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.facts",
+      "text": "윌리엄 셰익스피어 → 요한 볼프강 폰 괴테 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "787bb3ea2106",
+      "where": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+      "text": "괴테는 1771년 연설 「셰익스피어 명명일에」에서 프랑스 고전극의 삼일치를 버리고 셰익스피어를 자기 세대의 척도로 선언했으며, 『빌헬름 마이스터의 수업시대』의 『햄릿』 해석 장들로 그 독서를 소설 안에 옮겼다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c422dccd769c",
+      "where": "relation:influence--ovid--william-shakespeare.facts",
+      "text": "오비디우스 → 윌리엄 셰익스피어 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7fb2a8dbe14e",
+      "where": "relation:influence--ovid--william-shakespeare.summary",
+      "text": "『타이터스 앤드로니커스』 4막 1장에서는 『변신 이야기』 책이 실제 소품으로 무대에 올라 필로멜라 대목이 펼쳐지고, 프랜시스 미어스는 『팔라디스 타미아』(1598)에서 셰익스피어를 두고 '오비디우스의 달콤한 재치 있는 혼이 그에게 살아 있다'고 적었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c208ea3e814e",
+      "where": "relation:influence--william-shakespeare--herman-melville.facts",
+      "text": "윌리엄 셰익스피어 → 허먼 멜빌 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0dd948a8d7bc",
+      "where": "relation:influence--william-shakespeare--herman-melville.summary",
+      "text": "멜빌은 「호손과 그의 이끼」(1850)에서 셰익스피어를 미국 작가가 겨뤄야 할 척도로 세웠고, 같은 시기 『모비 딕』에 무대 지시문과 독백 장면을 그대로 들여 썼다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "417ded2dc347",
+      "where": "relation:influence--william-shakespeare--ts-eliot.facts",
+      "text": "윌리엄 셰익스피어 → T. S. 엘리엇 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bdcc3ab3c60f",
+      "where": "relation:influence--william-shakespeare--ts-eliot.summary",
+      "text": "엘리엇은 『선집』(1932)에 수록된 「햄릿」에서 이 작품을 예술적 실패로 규정하며 '객관적 상관물' 개념을 제시했고, 그 개념이 그의 시론 전체의 축이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "423580a8d7ca",
+      "where": "relation:contrast--william-shakespeare--aime-cesaire.facts",
+      "text": "윌리엄 셰익스피어 → 에메 세제르 · contrast · bidirectional · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6577a9644f88",
+      "where": "relation:contrast--william-shakespeare--aime-cesaire.summary",
+      "text": "세제르는 『어떤 태풍』(1969)에서 『템페스트』를 캘리번을 흑인 노예로, 에어리얼을 혼혈 노예로 바꿔 다시 썼고, 탈식민 비평은 이 되받아 쓰기를 카리브 문학의 대표 사례로 다룬다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dbd0051536a4",
+      "where": "relation:translation--william-shakespeare--sandor-petofi.facts",
+      "text": "윌리엄 셰익스피어 → 산도르 페퇴피 · translation · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "29d1005b6d44",
+      "where": "relation:translation--william-shakespeare--sandor-petofi.summary",
+      "text": "페퇴피는 1848년 셰익스피어 『코리올라누스』를 헝가리어로 옮겨 출판했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ae24e6c0bb58",
+      "where": "relation:translation--william-shakespeare--sandor-petofi.summary",
+      "text": "어러니 야노시·뵈뢰슈머르티 미하이와 셋이 계획한 셰익스피어 헝가리어 전집의 첫 결과물이며, 그의 극시 어휘가 어디에서 왔는지를 보여 주는 1차 근거다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4b348fa1a565",
+      "where": "relation:translation--william-shakespeare--mukhtar-auezov.facts",
+      "text": "윌리엄 셰익스피어 → 묵타르 아우에조프 · translation · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f5921c7f22d7",
+      "where": "relation:translation--william-shakespeare--mukhtar-auezov.summary",
+      "text": "아우에조프는 셰익스피어의 『오셀로』와 『말괄량이 길들이기』를 카자흐어로 옮겼고, 고골의 『검찰관』도 함께 옮겼다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "셰익스피어는 무운시의 행을 문장 도중에 끊었다 (행 중간 휴지·행간걸침)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_writing_style",
+      "quote": "These included enjambments, irregular pauses and stops, and extreme variations in sentence structure and length."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "산문과 무운시를 섞어 신분과 정신 상태에 따라 말의 결을 바꿨다",
+      "verdict": "unverifiable",
+      "note": "absent: Wikipedia 'Shakespeare's writing style'·'Shakespeare's plays'·'The Gravediggers'·British Library 'Shakespeare's language' 를 확인했으나 신분/광기에 따른 운문–산문 전환 관행을 명시한 문장을 찾지 못함. 산문이 섞인다는 사실 자체만 확인됨.",
+      "correction": "무운시의 행을 문장 도중에 끊고 산문과 섞어 말의 결을 바꿨고",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_plays",
+      "quote": "While many passages in Shakespeare's plays are written in prose, he almost always wrote a large proportion... in iambic pentameter.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "비극 안에 광대와 익살을 남겼다 (『맥베스』 문지기, 『햄릿』 무덤 파는 자들, 『리어 왕』 광대)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hamlet",
+      "quote": "Gravediggers — a pair of sextons",
+      "note": "『맥베스』의 술 취한 문지기(en.wikipedia.org/wiki/Macbeth: 'A drunken porter opens the gate'), 『리어 왕』의 The Fool 등장인물 목록으로도 확인."
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "한 단어가 두세 뜻으로 동시에 쓰인다 (말장난·중의)",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_writing_style",
+      "quote": "Shakespeare's standard poetic form was blank verse, composed in iambic pentameter with clever use of puns and imagery."
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『맥베스』는 셰익스피어 비극 가운데 가장 짧다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Macbeth",
+      "quote": "is Shakespeare's shortest tragedy... more than a thousand lines shorter than Othello and King Lear"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『소네트』는 판본 차이 때문에 읽기가 막힌다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+      "quote": "The primary source of Shakespeare's sonnets is a quarto published in 1609",
+      "correction": "『소네트』나 『리어 왕』부터 시작하면 압축된 은유 때문에, 『리어 왕』은 판본 차이까지 겹쳐 문장 단위에서 멈춘다.",
+      "note": "소네트의 정본은 1609년 사절판 하나이며 1640년 벤슨 판은 해적판 선집이다. 판본 문제는 『리어 왕』 쪽에만 해당.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『리어 왕』은 판본 차이가 크다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/King_Lear",
+      "quote": "Q1 contains 285 lines not in F1; F1 contains around 100 lines not in Q1."
+    },
+    {
+      "field": "works[].year (macbeth)",
+      "claim": "『맥베스』는 1606년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Macbeth",
+      "quote": "estimated to have been first performed in 1606... written in 1606 in the aftermath of the Gunpowder Plot"
+    },
+    {
+      "field": "works[].significance (macbeth)",
+      "claim": "『맥베스』 본문은 1623년 이절판에만 전한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Macbeth",
+      "quote": "Macbeth was first printed in the First Folio of 1623 and the Folio is the only source for the text."
+    },
+    {
+      "field": "works[].year (the-tempest)",
+      "claim": "『템페스트』는 1611년 작이며 1611년 궁정 상연 기록이 남아 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tempest",
+      "quote": "A record exists of a performance of The Tempest on 1 November 1611 by the King's Men before James I... at Whitehall Palace"
+    },
+    {
+      "field": "works[].significance (the-tempest)",
+      "claim": "『템페스트』는 후기 로맨스로 분류된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tempest",
+      "quote": "Four of Shakespeare's late plays – Pericles, Cymbeline, The Winter's Tale and The Tempest – have become grouped together as his romances."
+    },
+    {
+      "field": "works[].significance (the-tempest)",
+      "claim": "프로스페로–캘리번 관계 때문에 20세기 탈식민 문학이 『템페스트』를 거듭 되받아 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Une_Temp%C3%AAte",
+      "quote": "It is an adaptation of Shakespeare's The Tempest from a postcolonial perspective, set on an island in the Caribbean."
+    },
+    {
+      "field": "works[].year (hamlet)",
+      "claim": "『햄릿』은 1601년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hamlet",
+      "quote": "sometime between 1599 and 1601",
+      "note": "통용 연대는 1599–1601 범위이고 다수 학자가 1601년 중반을 든다. 단일 연도로 1601을 쓰는 것은 허용 범위."
+    },
+    {
+      "field": "works[].significance (hamlet)",
+      "claim": "『햄릿』은 셰익스피어의 가장 긴 희곡이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hamlet",
+      "quote": "It is Shakespeare's longest play."
+    },
+    {
+      "field": "works[].significance (hamlet)",
+      "claim": "사절판과 이절판의 본문 차이가 크다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hamlet",
+      "quote": "Each version includes lines and passages missing from the others"
+    },
+    {
+      "field": "works[].year (king-lear)",
+      "claim": "『리어 왕』은 1606년 작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/King_Lear",
+      "quote": "composed sometime between 1603 and 1606",
+      "note": "집필은 1605–06년으로 추정되고 1606년 12월 26일 궁정 상연 기록이 있다. 1606은 상연 연도로 정확."
+    },
+    {
+      "field": "works[].significance (king-lear)",
+      "claim": "사절판(1608)과 이절판(1623)의 본문 차이가 크다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/King_Lear",
+      "quote": "at least a thousand individual words are changed between the two texts"
+    },
+    {
+      "field": "works[].significance (king-lear)",
+      "claim": "왕과 광대, 눈먼 자와 미친 자를 같은 벌판에 세운다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/King_Lear",
+      "quote": "Lear and the Fool are found on the heath by Kent... In a hovel, they encounter Edgar as the mad beggar.",
+      "correction": "왕과 광대와 미친 척하는 자를 폭풍의 벌판에 세우고, 눈먼 자를 도버에서 미친 왕과 마주치게 해 권위와 혈연이 무너지는 자리를 끝까지 지켜본다.",
+      "note": "글로스터가 눈이 멀기 전(3막)에 벌판·오두막 장면이 있고, 눈먼 글로스터가 미친 리어와 만나는 것은 도버(4막)이며 그때 광대는 이미 사라진 뒤다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[].year (sonnets)",
+      "claim": "『소네트』는 1609년",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+      "quote": "the 154 sonnets that were first published all together in a quarto in 1609",
+      "note": "1609는 출판 연도다. 집필은 여러 해에 걸쳐 이루어져 단일 연도가 없다."
+    },
+    {
+      "field": "works[].significance (sonnets)",
+      "claim": "154편의 연작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+      "quote": "the 154 sonnets that were first published all together in a quarto in 1609"
+    },
+    {
+      "field": "works[].titleOriginal (sonnets)",
+      "claim": "원제는 Shake-speares Sonnets",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+      "quote": "Shake-speare's Sonnets. Neuer before Imprinted"
+    },
+    {
+      "field": "works[].significance (sonnets)",
+      "claim": "'아름다운 청년'과 '검은 여인'을 향한 두 묶음으로 읽힌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+      "quote": "The Fair Youth sequence comprises sonnets 1-126, while the Dark Lady sequence encompasses sonnets 127-152."
+    },
+    {
+      "field": "works[].significance (sonnets)",
+      "claim": "3사행연 + 2행 결구의 영국식 소네트는 새리 백작이 확립했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+      "quote": "introduced in 16th-century England by Thomas Wyatt and was given its rhyming metre and division into quatrains by Henry Howard"
+    },
+    {
+      "field": "works[].significance (sonnets)",
+      "claim": "시드니가 이미 3사행연 + 2행 결구의 영국식 소네트를 쓰고 있었다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Astrophel_and_Stella",
+      "quote": "Sidney also adopts the Petrarchan rhyme scheme, though he uses it with such freedom that fifteen variants are employed.",
+      "correction": "새리 백작이 확립하고 대니얼·드레이턴이 이미 쓰고 있던 3사행연 + 2행 결구의 영국식 소네트를 그 형태 그대로 따른다.",
+      "note": "시드니의 『아스트로필과 스텔라』는 페트라르카식 압운(팔행-육행)을 쓴다. 대니얼(『델리아』)·드레이턴은 영국식 형태 사용자로 통용되나 압운 형태를 명시한 문장은 별도로 확인하지 못함.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation summary (→ victor-hugo)",
+      "claim": "위고는 「크롬웰 서문」(1827)에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어냈다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+      "quote": "Shakespeare, c’est le Drame ; et le drame, qui fond sous un même souffle le grotesque et le sublime"
+    },
+    {
+      "field": "relation summary (→ victor-hugo)",
+      "claim": "「크롬웰 서문」이 삼일치 규칙을 공격했다",
+      "verdict": "contradicted",
+      "url": "https://fr.wikisource.org/wiki/Cromwell_-_Pr%C3%A9face",
+      "quote": "Nous disons deux et non trois unités, l’unité d’action ou d’ensemble... étant depuis longtemps hors de cause.",
+      "correction": "위고는 「크롬웰 서문」(1827)에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어내 시간·장소의 두 단일 규칙을 공격했고,",
+      "note": "서문은 시간·장소의 '두 단일'만 공격하며 행동의 단일은 논외라고 명시한다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation summary (→ victor-hugo)",
+      "claim": "『윌리엄 셰익스피어』(1864)는 망명 중에 쓴 단행본이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/William_Shakespeare_(essay)",
+      "quote": "William Shakespeare is an 1864 work by Victor Hugo, written in his 13th year of exile.",
+      "note": "출처 기록의 발행처(Librairie internationale)도 Open Library 서지에서 확인됨."
+    },
+    {
+      "field": "relation summary (→ victor-hugo)",
+      "claim": "『윌리엄 셰익스피어』(1864)에서 그 독해를 자기 극작 원리의 근거로 다시 정리했다",
+      "verdict": "unverifiable",
+      "note": "absent: 해당 저작이 위고 자신의 극작 원리를 재정리한 책이라고 명시한 참고문헌 문장을 찾지 못함. 참고문헌은 이 책이 '역사상 가장 위대한 천재들'을 다루는 문학비평서라고만 기술한다.",
+      "correction": "망명 중 쓴 단행본 『윌리엄 셰익스피어』(1864)에서 셰익스피어론을 다시 썼다.",
+      "url": "https://en.wikipedia.org/wiki/William_Shakespeare_(essay)",
+      "quote": "becomes a work of literary criticism focusing on the literary geniuses of history",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "relation summary (→ alexander-pushkin)",
+      "claim": "푸시킨은 1825년 7월 니콜라이 라예프스키에게 프랑스어로 편지를 보내 『보리스 고두노프』를 쓰며 셰익스피어를 본보기로 삼았다고 적었다",
+      "verdict": "confirmed",
+      "url": "http://pushkin-lit.ru/pushkin/pisma/149.htm",
+      "quote": "Lisez Shakespeare, il ne craint jamais de compromettre son personnage",
+      "note": "1825년 7월 후반(19일 이후) N. N. 라예프스키-아들에게 보낸 프랑스어 초고 편지. 코르네유·라아르프·알피에리의 vraisemblance 규칙(시간·장소 포함)을 반박한다."
+    },
+    {
+      "field": "relation summary (→ alexander-pushkin)",
+      "claim": "『보리스 고두노프』는 스물세 장면의 사극이다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Boris_Godunov_(play)",
+      "quote": "It consists of 25 scenes and is written predominantly in blank verse.",
+      "correction": "그 결과 시간과 장소의 단일성을 버린 사극이 나왔다.",
+      "note": "장면 수는 판본에 따라 다르다: 영어 위키 25, 러시아어 위키 24(‘22 из 24 сцен’), ПСС 20권본(2009) 본문은 22장면 + 최종본에서 제외된 1장면. 23이라는 수를 지지하는 출처는 찾지 못함 — 숫자를 빼는 것이 안전하다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation summary (→ alexander-pushkin)",
+      "claim": "『보리스 고두노프』는 시간과 장소의 단일성을 버렸다",
+      "verdict": "confirmed",
+      "url": "https://dl1.cuni.cz/pluginfile.php/891642/mod_resource/content/1/Boris%20Godunov%20and%20Other%20Dramatic%20Works.pdf",
+      "quote": "Pushkin, like other Romantic-era playwrights who celebrated Shakespeare, takes pleasure in ignoring the neoclassical unities of time and space."
+    },
+    {
+      "field": "relation summary (→ goethe)",
+      "claim": "괴테는 1771년 연설 「셰익스피어 명명일에」에서 삼일치를 버리고 셰익스피어를 선언했다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Zum_Sch%C3%A4kespears_Tag",
+      "quote": "Es schien mir die Einheit des Orts so kerkermäßig ängstlich, die Einheiten der Handlung und der Zeit lästige Fesseln unsrer Einbildungskraft.",
+      "note": "1771년 10월 14일 프랑크푸르트 생가에서 한 연설. 발표(인쇄)는 1854년."
+    },
+    {
+      "field": "relation summary (→ goethe)",
+      "claim": "『빌헬름 마이스터의 수업시대』의 『햄릿』 해석 장들로 그 독서를 소설 안에 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Meister%27s_Apprenticeship",
+      "quote": "extensive discussion of Shakespeare's work occurs within the novel's dialogues. Wilhelm and his theater group give a production of Hamlet"
+    },
+    {
+      "field": "relation summary (ovid → shakespeare)",
+      "claim": "『타이터스 앤드로니커스』 4막 1장에서 『변신 이야기』 책이 무대 소품으로 올라 필로멜라 대목이 펼쳐진다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Titus_Andronicus",
+      "quote": "Lavinia uses it to help explain to Titus and Marcus what happened to her.",
+      "note": "같은 항목이 라비니아 이야기의 1차 원천을 오비디우스의 필로멜라 대목으로 지목한다."
+    },
+    {
+      "field": "relation summary (ovid → shakespeare)",
+      "claim": "프랜시스 미어스는 『팔라디스 타미아』(1598)에서 '오비디우스의 달콤한 재치 있는 혼이 그에게 살아 있다'고 적었다",
+      "verdict": "confirmed",
+      "url": "https://en.wikiquote.org/wiki/Francis_Meres",
+      "quote": "the sweete wittie soule of Ovid lives in mellifluous and hony-tongued Shakespeare"
+    },
+    {
+      "field": "relation summary (→ herman-melville)",
+      "claim": "멜빌은 「호손과 그의 이끼」(1850)에서 셰익스피어를 미국 작가가 겨뤄야 할 척도로 세웠다",
+      "verdict": "confirmed",
+      "url": "https://en.wikisource.org/wiki/Hawthorne_and_His_Mosses",
+      "quote": "men not very much inferior to Shakespeare, are this day being born on the banks of the Ohio",
+      "note": "1850년 8월 17·24일 The Literary World 2회 게재."
+    },
+    {
+      "field": "relation summary (→ herman-melville)",
+      "claim": "같은 시기 『모비 딕』에 무대 지시문과 독백 장면을 들여 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+      "quote": "Melville uses styles and literary devices ranging from songs, poetry, and catalogs to Shakespearean stage directions, soliloquies, and asides."
+    },
+    {
+      "field": "relation summary (→ ts-eliot)",
+      "claim": "엘리엇은 『선집』(1932)에 수록된 「햄릿」에서 이 작품을 예술적 실패로 규정하고 '객관적 상관물' 개념을 제시했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Hamlet_and_His_Problems",
+      "quote": "It was later reprinted by Faber & Faber in 1932 in Selected Essays, 1917-1932... \"most certainly an artistic failure.\"",
+      "note": "글의 최초 발표는 1919년이고 단행본 초출은 『성스러운 숲』(1920)의 「Hamlet and His Problems」다. 1932년 『선집』은 재수록본이므로 '제시했고'는 초출로 오독될 수 있다."
+    },
+    {
+      "field": "relation summary (→ aime-cesaire)",
+      "claim": "세제르는 『어떤 태풍』(1969)에서 캘리번을 흑인 노예로, 에어리얼을 혼혈 노예로 바꿔 다시 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Une_Temp%C3%AAte",
+      "quote": "Césaire specifies that Prospero is a white master, while Ariel is a mulatto and Caliban is a black slave.",
+      "note": "Éditions du Seuil, 1969 서지도 같은 항목에서 확인."
+    },
+    {
+      "field": "relation summary (→ sandor-petofi)",
+      "claim": "페퇴피는 1848년 『코리올라누스』를 헝가리어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Coriolanus_(sz%C3%ADnm%C5%B1)",
+      "quote": "Petőfi Sándor fordította magyarra 1848-ban"
+    },
+    {
+      "field": "relation summary (→ sandor-petofi)",
+      "claim": "어러니 야노시·뵈뢰슈머르티 미하이와 셋이 셰익스피어 헝가리어 전집을 계획했고 『코리올라누스』가 그 첫 결과물이다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Pet%C5%91fi_S%C3%A1ndor",
+      "quote": "Vörösmartyval és Arannyal szövetségre lépve nekiálltak Shakespeare műveit magyarra fordítani, Petőfi a Coriolanusszal végzett"
+    },
+    {
+      "field": "relation summary (→ mukhtar-auezov)",
+      "claim": "아우에조프는 셰익스피어의 『오셀로』와 『말괄량이 길들이기』, 고골의 『검찰관』을 카자흐어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Mukhtar_Auezov",
+      "quote": "translated such classic works of world and Russian drama as The Inspector by Gogol, Othello and The Taming of the Shrew by Shakespeare"
+    },
+    {
+      "field": "relation summary (→ mukhtar-auezov)",
+      "claim": "이 진술의 소재지가 src--britannica 다",
+      "verdict": "contradicted",
+      "note": "슬러그가 달랐다 — 브리태니커의 아우에조프 항목은 /biography/Mukhtar-Auezov 가 아니라 /biography/Mukhtar-Auez-uli 이고(‘Also known as: Mukhtar Auezov’), 독립 서술이 없는 스텁이다. Wayback 스냅숏으로 세 문서를 모두 열람했다: 이 전기 스텁, /art/Kazakh-literature, /place/Kazakhstan/Cultural-life. 세 문서 어디에도 'Shakespeare' 나 'Othello' 는 한 번도 나오지 않는다 — 브리태니커가 다루는 것은 『Abai』, 카자흐 서사시 교감, 희곡 Eñlık-Kebek 뿐이다.",
+      "url": "https://web.archive.org/web/20251206184624/https://www.britannica.com/biography/Mukhtar-Auez-uli",
+      "quote": "An early Soviet Kazakh writer, Mukhtar Auez-ulï, won recognition for the long novel Abay, based on the life and poetry of Kūnanbay-ulï, and for his plays",
+      "correction": "근거는 브리태니커가 아니라 영어 위키백과다. src--britannica 를 이 진술의 출처에서 제거할 것.",
+      "rereadAt": "2026-09-07",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation summary (→ mukhtar-auezov)",
+      "claim": "카자흐 극단의 상연 목록에 세계 고전을 카자흐어 대사로 올린 작업이다",
+      "verdict": "unverifiable",
+      "note": "absent: 번역작이 실제 카자흐 극단 레퍼토리로 상연되었다고 명시한 출처를 찾지 못함. 확인되는 것은 '카자흐 희곡의 개화가 아우에조프의 작업과 결부된다'는 일반 진술뿐.",
+      "url": "https://en.wikipedia.org/wiki/Mukhtar_Auezov",
+      "quote": "A period of blooming of Kazakh drama is associated with the works of Auezov.",
+      "resolution": "removed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--hugo-preface-de-cromwell-1827": {
+      "id": "src--hugo-preface-de-cromwell-1827",
+      "title": "크롬웰 서문 (Préface de Cromwell)",
+      "publisherOrInstitution": "Ambroise Dupont, Paris, 1827",
+      "citation": "희곡 『크롬웰』에 붙인 위고의 서문 — 숭고와 그로테스크의 혼합, 삼일치 비판을 셰익스피어를 근거로 전개한 낭만주의 극작론"
+    },
+    "src--hugo-william-shakespeare-1864": {
+      "id": "src--hugo-william-shakespeare-1864",
+      "title": "윌리엄 셰익스피어 (William Shakespeare)",
+      "publisherOrInstitution": "Librairie internationale A. Lacroix, 1864",
+      "citation": "위고가 망명 중 쓴 셰익스피어론 단행본 — 자신의 극작 원리를 셰익스피어 독해로 정당화한 1차 문헌"
+    },
+    "src--pushkin-letter-raevsky-1825": {
+      "id": "src--pushkin-letter-raevsky-1825",
+      "title": "니콜라이 라예프스키에게 보낸 편지 (1825년 7월, 프랑스어)",
+      "publisherOrInstitution": "푸시킨 서간집",
+      "citation": "『보리스 고두노프』를 쓰며 셰익스피어의 자유로운 극작을 본보기로 삼았다고 밝힌 편지 — 삼일치 포기의 1차 근거"
+    },
+    "src--goethe-zum-shakespeares-tag-1771": {
+      "id": "src--goethe-zum-shakespeares-tag-1771",
+      "title": "괴테 「셰익스피어 명명일에」(Zum Schäkespears Tag, 1771)",
+      "publisherOrInstitution": "Goethe, Sämtliche Werke",
+      "citation": "청년 괴테가 셰익스피어 수용을 선언한 연설문 — 셰익스피어 영향의 1차 근거"
+    },
+    "src--meres-palladis-tamia-1598": {
+      "id": "src--meres-palladis-tamia-1598",
+      "title": "Palladis Tamia: Wits Treasury (1598)",
+      "publisherOrInstitution": "Francis Meres, London",
+      "citation": "셰익스피어에게서 '오비디우스의 달콤한 재치 있는 혼'을 읽어낸 동시대의 기록"
+    },
+    "src--melville-hawthorne-and-his-mosses-1850": {
+      "id": "src--melville-hawthorne-and-his-mosses-1850",
+      "title": "«Hawthorne and His Mosses» (The Literary World, 1850)",
+      "publisherOrInstitution": "Herman Melville / The Literary World",
+      "citation": "멜빌이 셰익스피어를 척도로 삼아 미국 작가를 평가한 에세이 — 『모비 딕』 집필기의 셰익스피어 독서 기록"
+    },
+    "src--eliot-selected-essays-1932": {
+      "id": "src--eliot-selected-essays-1932",
+      "title": "Selected Essays (1932)",
+      "publisherOrInstitution": "Faber and Faber — T. S. Eliot",
+      "citation": "「보들레르」(1930년 크리스토퍼 이셔우드 영역 『내면 일기』 서문으로 처음 발표)와 「전통과 개인의 재능」(1919)이 수록된 평론집"
+    },
+    "src--cesaire-une-tempete-1969": {
+      "id": "src--cesaire-une-tempete-1969",
+      "title": "Une tempête (1969)",
+      "publisherOrInstitution": "Aimé Césaire / Éditions du Seuil",
+      "citation": "『템페스트』를 캘리번 중심으로 다시 쓴 희곡 — 탈식민 재기술의 1차 텍스트"
+    },
+    "src--petofi-coriolanus-1848": {
+      "id": "src--petofi-coriolanus-1848",
+      "title": "코리올라누스 — 페퇴피의 헝가리어 번역 (1848)",
+      "publisherOrInstitution": "Pest, 1848",
+      "citation": "페퇴피가 옮긴 셰익스피어 『코리올라누스』 — 어러니 야노시·뵈뢰슈머르티 미하이와 함께 계획한 셰익스피어 헝가리어 전집의 첫 결과물"
+    },
+    "src--adebiportal-kz": {
+      "id": "src--adebiportal-kz",
+      "title": "Әдебиет порталы (adebiportal.kz)",
+      "publisherOrInstitution": "카자흐스탄 문학 포털",
+      "url": "https://adebiportal.kz",
+      "citation": "카자흐 작가·작품의 연보와 서지를 제공하는 카자흐스탄의 국가 문학 포털"
+    }
+  }
+}

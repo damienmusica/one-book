@@ -1,0 +1,110 @@
+{
+  "fixes": [
+    {
+      "id": "charles-dickens",
+      "importanceReason": "월간 분책 연재로 독자의 반응을 보며 이야기를 이어 가는 방식을 확립했고, 구빈원과 채무자 감옥과 빈민가를 소설의 무대로 삼았다. 계급마다 다른 말투를 부리는 솜씨로 이름났고, 매회 끝의 갈고리로 다음 회를 기다리게 했으며, 값싼 분책으로 독자층이 여러 소득 계층으로 넓어졌다. 그의 연재가 요크셔 기숙학교를 둘러싼 여론을 실제로 움직이고 구빈법을 둘러싼 당대 논쟁의 한 축이 되면서, 소설이 제도에 개입할 수 있다는 전제가 19세기 사회소설의 조건이 되었다.",
+      "difficultyReason": "사건과 문장은 직진하지만 등장인물이 많아, 중반 이후 인물 관계를 놓치지 않는 지속적 독서가 필요하다.",
+      "works": [
+        {
+          "id": "charles-dickens--oliver-twist",
+          "yearBasis": "attested"
+        },
+        {
+          "id": "charles-dickens--bleak-house",
+          "yearBasis": "attested",
+          "significance": "대법관부의 끝나지 않는 소송을 축으로 3인칭 현재형 서술과 1인칭 회고를 교차시킨다."
+        },
+        {
+          "id": "charles-dickens--a-tale-of-two-cities",
+          "significance": "프랑스혁명기의 런던과 파리를 오가며 대속과 복수를 겹쳐 놓은 역사 장편. ‘가장 디킨스답지 않은’ 소설로 불린다."
+        },
+        {
+          "id": "charles-dickens--great-expectations",
+          "significance": "고아의 신분 상승과 그 자금의 출처, 거짓 가치의 허망함을 되짚는 1인칭 회고. 버나드 쇼는 ‘가장 빈틈없이 완벽한 책’이라 했다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--charles-dickens--leo-tolstoy",
+          "summary": "톨스토이는 『예술이란 무엇인가』(1897)에서 디킨스의 『두 도시 이야기』·『크리스마스 캐럴』·『종소리』를 신과 인간에 대한 사랑에서 나온 최고 예술의 예로 들었고, 『데이비드 코퍼필드』와 『픽윅 클럽 여행기』는 보편 예술로 분류될 만하나 대개 제 집단에만 이해되는 작품이라고 적었다. 그와 별개로 평생 디킨스를 애독 작가로 반복해 꼽았다."
+        },
+        {
+          "id": "influence--charles-dickens--fyodor-dostoevsky",
+          "summary": "연구는 도스토옙스키가 유형 이후 디킨스를 애독했다는 기록과 미시킨 공작 구상에 피크윅을 든 서한을 들어 『백치』의 구성 원천으로 디킨스를 꼽고, 『죄와 벌』의 범죄 심리 묘사에도 영향을 묻는다. 1862년 런던 회견설은 위조로 밝혀졌으므로 근거에서 제외한다."
+        },
+        {
+          "id": "influence--charles-dickens--roald-dahl",
+          "summary": "『마틸다』(1988)는 주인공이 도서관에서 읽는 책으로 디킨스의 『니콜라스 니클비』와 『올리버 트위스트』를 명시한다. 『인디펜던트』는 달의 소설이 흔히 탐식과 가학에 빠진 ‘디킨스적 어른들’로 가득하다고 썼다.",
+          "evidenceLevel": "documented"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "인물의 말버릇 하나로 계급과 직업을 즉시 알아보게 하는 조형법을 썼다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "분책 연재로 쓰인 탓에 분량이 크다",
+          "resolution": "removed"
+        },
+        {
+          "field": "work:charles-dickens--oliver-twist.facts",
+          "claim": "1838년이 첫 인쇄(초간) 연도다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:charles-dickens--bleak-house.facts",
+          "claim": "1853년이 첫 인쇄(초간) 연도다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:charles-dickens--bleak-house.significance",
+          "claim": "제도(대법관부)의 지연 자체를 소설 형식으로 옮겼다",
+          "resolution": "removed"
+        },
+        {
+          "field": "work:charles-dickens--a-tale-of-two-cities.significance",
+          "claim": "디킨스 작품 중 문장이 가장 절제되어 있다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "디킨스 장편 중 구성이 가장 조여 있다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "성공(신분 상승)의 허망함과 대가를 따진다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--charles-dickens--leo-tolstoy.summary",
+          "claim": "『데이비드 코퍼필드』와 『픽윅 클럽 여행기』는 보편 예술로 분류될 만하나 제 집단에만 이해되는 작품이라고 적었다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--charles-dickens--fyodor-dostoevsky.summary",
+          "claim": "연구는 『백치』와 『죄와 벌』의 도시 빈민 묘사를 디킨스 수용으로 다룬다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--charles-dickens--roald-dahl.facts",
+          "claim": "이 영향은 학계에서 널리 논의된다(evidenceLevel scholarly_consensus)",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--charles-dickens--roald-dahl.summary",
+          "claim": "달의 아동물이 학대받는 아이와 희화화된 악인이라는 디킨스적 배치를 되풀이한다는 지적이 있다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "말버릇 조형법과 갈고리 연재 리듬의 결합이 장편소설을 대중의 매체로 만들었다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

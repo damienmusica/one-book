@@ -1,0 +1,481 @@
+{
+ "plates": [
+  {
+   "id": "henry-lawson",
+   "claims": [
+    {
+     "sids": [
+      "2a778310a0bd"
+     ],
+     "field": "author.facts",
+     "claim": "헨리 로슨은 1867년 뉴사우스웨일스 그렌펠에서 태어났다(생년·지역 오세아니아)",
+     "verdict": "confirmed",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "Henry Lawson (1867-1922), short story writer and balladist, was born on 17 June 1867 at Grenfell, New South Wales"
+    },
+    {
+     "sids": [
+      "2a778310a0bd"
+     ],
+     "field": "author.facts",
+     "claim": "헨리 로슨은 1922년에 죽었다",
+     "verdict": "confirmed",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "He died of cerebral haemorrhage at Abbotsford on 2 September 1922 and was buried at Waverley cemetery."
+    },
+    {
+     "sids": [
+      "2a778310a0bd"
+     ],
+     "field": "author.facts",
+     "claim": "로슨은 영어로 썼다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/While_the_Billy_Boils_(short_story_collection)",
+     "quote": "| language     = [[English language|English]]",
+     "note": "위키백과 『While the Billy Boils』 인포박스(원문 위키텍스트)."
+    },
+    {
+     "sids": [
+      "8d440bb1ef6b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "로슨의 산문은 짧고 뼈만 남긴 절제된 산문이다",
+     "verdict": "confirmed",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "The prose is spare, cut to the bone, the plot is either slight or non-existent."
+    },
+    {
+     "sids": [
+      "8d440bb1ef6b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그의 대표 산문의 원천은 서부 오지(총림) 경험이다",
+     "verdict": "confirmed",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "his experience in the western outback. It was the source of most of his best work"
+    },
+    {
+     "sids": [
+      "8d440bb1ef6b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "로슨은 총림을 감상 없이 적었다",
+     "verdict": "contradicted",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "Maudlin sentimentality and melodrama, often incipient even in some earlier work, invaded both his prose and poetry.",
+     "correction": "대표 단편들에서는 총림 지대의 고립과 궁핍을 뼈만 남긴 절제된 산문으로 적었다(후기작과 일부 초기작에는 감상과 멜로드라마가 스며 있다)",
+     "note": "ADB 는 첫 단편 「His Father's Mate」도 'uneven and sentimental' 이라 적는다. '감상 없이'는 대표작에 한정해야 한다."
+    },
+    {
+     "sids": [
+      "8d440bb1ef6b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그의 산문이 호주 단편소설이 영국 문단의 문체에서 떨어져 나오는 자리를 만들었다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Henry_Lawson",
+     "quote": "In it he \"continued his assault on Paterson and the romantics, and in the process, virtually reinvented Australian realism\".",
+     "correction": "『빌리가 끓는 동안』에서 호주 사실주의를 사실상 새로 만들었고, 호주 구어를 소설에 널리 퍼뜨렸다는 평가를 받는다",
+     "note": "브루스 엘더(Griffith Review, 2008)의 평을 위키백과가 인용. 같은 문서: 'many of his works helped popularise the Australian vernacular in fiction'. '영국 문단의 문체에서 떨어져 나왔다'고 말하는 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "932e340f7251"
+     ],
+     "field": "author.importanceReason",
+     "claim": "로슨은 플롯이 거의 없는 스케치 형식의 단편을 썼다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Henry_Lawson",
+     "quote": "Lawson was a firm believer in the merits of the [[sketch story]], commonly known simply as 'the sketch,' claiming that \"the sketch story is best of all.\"",
+     "note": "ADB: 'the plot is either slight or non-existent'."
+    },
+    {
+     "sids": [
+      "932e340f7251"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「가축 몰이꾼의 아내」의 방식이 플롯 대신 상황과 말투로 지탱되는 단편의 표본이 되었다",
+     "verdict": "contradicted",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "A stunning example is 'On the Edge of a Plain' but almost any Mitchell sketch from While the Billy Boils exemplifies these qualities.",
+     "correction": "「가축 몰이꾼의 아내」는 그의 가장 뛰어난 단편 가운데 하나로 꼽히고, 플롯 없는 스케치의 대표 예로는 흔히 「평원의 가장자리에서」(On the Edge of a Plain)가 거론된다",
+     "note": "위키백과도 'On the Edge of a Plain is often cited as one of the most accomplished examples of the sketch' 라 하고, 「가축 몰이꾼의 아내」는 'regarded as one of his finest short stories' 로 적는다."
+    },
+    {
+     "sids": [
+      "352cc1b1f29f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "로슨과 밴조 패터슨은 『불레틴』 지면에서 논쟁을 벌였다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Bulletin_Debate",
+     "quote": "On 23 July 1892, Paterson published his reply to Lawson's poem, titled \"[[In Defence of the Bush]]\"."
+    },
+    {
+     "sids": [
+      "352cc1b1f29f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "논쟁의 쟁점은 총림을 낭만으로 볼 것인가 노동으로 볼 것인가였다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Australian_literature",
+     "quote": "Lawson and Paterson clashed in the famous \"[[Bulletin Debate]]\" over the nature of life in Australia with Lawson considered to have the harder edged view of the Bush and Paterson the romantic.",
+     "correction": "총림을 낭만으로 볼 것인가 가혹하고 암울한 현실로 볼 것인가를",
+     "note": "Bulletin Debate 문서도 '낭만' 대 '암울(doom and gloom)'로 틀을 짠다. '노동'을 축으로 세운 출처는 없다."
+    },
+    {
+     "sids": [
+      "352cc1b1f29f"
+     ],
+     "field": "author.importanceReason",
+     "claim": "이 논쟁은 널리 읽힌 공개 쟁점이 되었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Bulletin_Debate",
+     "quote": "was followed closely by widespread readers of the publication, reinforcing \"the Bush\" as a significant part of Australia's national identity"
+    },
+    {
+     "sids": [
+      "4a43d68b2e43"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「가축 몰이꾼의 아내」의 현재 사건은 뱀을 지키는 하룻밤으로 압축돼 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikisource.org/wiki/The_Country_I_Come_From/The_Drover%27s_Wife",
+     "quote": "She makes a bed on the kitchen table for the children, and sits down beside it to watch all night."
+    },
+    {
+     "sids": [
+      "4a43d68b2e43"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "작품은 총림의 고립을 그린다",
+     "verdict": "confirmed",
+     "url": "https://en.wikisource.org/wiki/The_Country_I_Come_From/The_Drover%27s_Wife",
+     "quote": "Nineteen miles to the nearest sign of civilization—a shanty on the main road."
+    },
+    {
+     "sids": [
+      "4a43d68b2e43"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "작품은 남편 없는 여성의 노동을 그린다",
+     "verdict": "confirmed",
+     "url": "https://en.wikisource.org/wiki/The_Country_I_Come_From/The_Drover%27s_Wife",
+     "quote": "She stood for hours in the drenching downpour, and dug an overflow gutter to save the dam across the creek."
+    },
+    {
+     "sids": [
+      "4a43d68b2e43"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이 단편에서 감상은 제거돼 있다",
+     "verdict": "unverifiable",
+     "note": "이 작품의 감상 여부를 평가한 출처를 찾지 못했다(ADB·위키백과 Henry Lawson / The Drover's Wife 문서 확인). 본문 자체에 서술자의 'Heaven help her!' 개입과 눈물로 끝나는 결말('sees the tears in her eyes')이 있어 단언은 다툼의 여지가 있다."
+    },
+    {
+     "sids": [
+      "25c7dddd05c3"
+     ],
+     "field": "author.readingWarning",
+     "claim": "로슨의 시는 발라드 전통에 속한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Australian_literature",
+     "quote": "[[Henry Lawson]] and [[Banjo Paterson]] were two of the chief exponents of these popular ballads"
+    },
+    {
+     "sids": [
+      "25c7dddd05c3"
+     ],
+     "field": "author.readingWarning",
+     "claim": "그의 시는 번역에서 율격과 은어가 가장 많이 깎여 나간다",
+     "verdict": "unverifiable",
+     "note": "로슨 시의 번역 손실을 다룬 출처(한국어 번역 비평 포함)를 찾지 못했다. ADB·위키백과에는 해당 서술이 없다."
+    },
+    {
+     "sids": [
+      "c592db0a2cb4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "로슨의 문장은 짧다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Henry_Lawson",
+     "quote": "he used short, sharp sentences, with language as raw as [[Ernest Hemingway]] or [[Raymond Carver]]",
+     "note": "브루스 엘더(Griffith Review, 2008)를 인용한 대목."
+    },
+    {
+     "sids": [
+      "c592db0a2cb4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "로슨의 산문은 호주 구어를 쓴다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Henry_Lawson",
+     "quote": "many of his works helped popularise the [[Australian English|Australian vernacular]] in fiction"
+    },
+    {
+     "sids": [
+      "c592db0a2cb4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "빌리·스왜그(스왜그맨)는 떠돌이 총림 노동자의 살림 어휘다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Swagman",
+     "quote": "Generally they had a [[swag (bedroll)|swag]] (canvas bedroll), a tucker bag (bag for carrying food) and some cooking implements which may have included a [[billy can]] (tea pot or stewing pot)."
+    },
+    {
+     "sids": [
+      "c592db0a2cb4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "셀렉터는 자유선택법으로 땅을 얻은 소농을 가리키는 호주 식민지 어휘다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Selection_(Australian_history)",
+     "quote": "The term derived from \"free selection before survey\" of [[crown land]] in some Australian colonies under land legislation introduced in the 1860s.",
+     "note": "ADB 는 로슨 가족이 selection 에서 살았다고 적는다('Peter took up a selection which Louisa managed')."
+    },
+    {
+     "sids": [
+      "c592db0a2cb4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "노조 운동이 로슨 작품의 배경이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Freedom_on_the_Wallaby",
+     "quote": "was written as a comment on the [[1891 Australian shearers' strike]] and published by [[William Lane]] in ''The Worker'' in [[Brisbane]], 16 May 1891"
+    },
+    {
+     "sids": [
+      "c592db0a2cb4"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "1890년대 불황이 로슨 작품의 배경이다",
+     "verdict": "unverifiable",
+     "note": "1893년 은행 위기와 불황 자체는 위키백과(Australian banking crisis of 1893)에 있으나, 로슨의 작품을 그 불황과 직접 잇는 출처는 찾지 못했다. ADB 는 1892년 가뭄 든 서부 뉴사우스웨일스의 궁핍('men tramp and beg and live like dogs')을 적는다 — '1890년대 가뭄과 오지의 궁핍'이 출처가 받치는 범위다."
+    },
+    {
+     "sids": [
+      "594884c8c523",
+      "b252b81d0f44"
+     ],
+     "field": "work:henry-lawson--the-drovers-wife.facts",
+     "claim": "「가축 몰이꾼의 아내」는 1892년 『불레틴』에 처음 실린 단편이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikisource.org/wiki/The_Drover%27s_Wife",
+     "quote": "The Drover's Wife. ''Bulletin,'' 23 July, 1892",
+     "note": "위키백과(The Drover's Wife)도 'first published in the 23 July 1892 edition of The Bulletin'."
+    },
+    {
+     "sids": [
+      "280676fed6ee"
+     ],
+     "field": "work:henry-lawson--the-drovers-wife.significance",
+     "claim": "남편은 자기 양 떼를 잃고 다시 가축 몰이를 나가 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikisource.org/wiki/The_Country_I_Come_From/The_Drover%27s_Wife",
+     "quote": "He had to sacrifice the remnant of his flock and go droving again."
+    },
+    {
+     "sids": [
+      "280676fed6ee"
+     ],
+     "field": "work:henry-lawson--the-drovers-wife.significance",
+     "claim": "남편의 소식이 여섯 달째 끊겼다",
+     "verdict": "confirmed",
+     "url": "https://en.wikisource.org/wiki/The_Country_I_Come_From/The_Drover%27s_Wife",
+     "quote": "Besides, she has not heard from her husband for six months, and is anxious about him."
+    },
+    {
+     "sids": [
+      "280676fed6ee"
+     ],
+     "field": "work:henry-lawson--the-drovers-wife.significance",
+     "claim": "이야기는 오두막에서 뱀 한 마리를 기다리는 하룻밤이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Drover%27s_Wife_(short_story)",
+     "quote": "near sunset one day, a snake disappears under the house. After putting her children to bed, the woman waits with her dog, Alligator, for the snake to re-appear. When the snake emerges near dawn",
+     "note": "밤 사이 그녀의 회상(산불·홍수 등)이 들어 있으나 현재 사건의 틀은 해 질 녘부터 새벽까지다."
+    },
+    {
+     "sids": [
+      "8c9af7fc0761",
+      "7a647066499b"
+     ],
+     "field": "work:henry-lawson--in-the-days-when-the-world-was-wide.facts",
+     "claim": "『세상이 넓던 시절, 그리고 다른 시들』은 1896년에 나온 그의 첫 시집이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/In_the_Days_When_the_World_was_Wide_and_Other_Verses",
+     "quote": "is the first collection of [[poems]] by Australian poet and author [[Henry Lawson]]",
+     "note": "같은 문서: 'It was released in hardback by Angus and Robertson in 1896'. ADB 도 1896년 간행을 적는다."
+    },
+    {
+     "sids": [
+      "62d127e8c573"
+     ],
+     "field": "work:henry-lawson--in-the-days-when-the-world-was-wide.significance",
+     "claim": "이 시집은 발라드 율격과 총림의 은어를 그대로 쓴 시들이다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/In_the_Days_When_the_World_was_Wide_and_Other_Verses",
+     "quote": "| genre        = [[Bush poetry]]",
+     "correction": "총림 시(bush poetry)를 묶은 시집으로",
+     "note": "출처는 장르를 '총림 시'로만 적고 동시대 서평은 'genuine local color'를 든다. 이 시집의 율격·은어를 직접 기술한 출처는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "62d127e8c573"
+     ],
+     "field": "work:henry-lawson--in-the-days-when-the-world-was-wide.significance",
+     "claim": "그가 산문에서 걷어낸 낭만이 이 시집에는 남아 있다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/In_the_Days_When_the_World_was_Wide_and_Other_Verses",
+     "quote": "and the best of Lawson's contributions to [[The Bulletin Debate]], a famous dispute in ''[[The Bulletin (Australian periodical)|The Bulletin]]'' magazine from 1892-93 between Lawson and [[Banjo Paterson]]",
+     "correction": "『불레틴』 논쟁에서 총림의 낭만화를 공격한 그의 시(「Up the Country」「The City Bushman」 등)도 이 시집에 실렸다",
+     "note": "위키백과 Bulletin Debate: 'Lawson attacked the typical \"romanticised\" view of bush life'. 목차에 「Up the Country」「The City Bushman」「The Poets of the Tomb」가 있다."
+    },
+    {
+     "sids": [
+      "700e31ee4b7c",
+      "415c8147a1d4"
+     ],
+     "field": "work:henry-lawson--joe-wilson-and-his-mates.facts",
+     "claim": "『조 윌슨과 그의 친구들』은 1901년 에든버러(와 런던)의 블랙우드에서 나온 단편집이다",
+     "verdict": "confirmed",
+     "url": "https://archive.org/details/joewilsonandhis00lawsgoog",
+     "quote": "WILLIAM BLACKWOOD AND SONS EDINBURGH AND LONDON MCMI",
+     "note": "1901년 초판 표제지 OCR(archive.org djvu 텍스트). 표제지에는 에든버러와 런던이 함께 찍혀 있다."
+    },
+    {
+     "sids": [
+      "ea89534c286a"
+     ],
+     "field": "work:henry-lawson--joe-wilson-and-his-mates.significance",
+     "claim": "단편집에는 스무 편 남짓이 실려 있다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Joe_Wilson_and_His_Mates",
+     "quote": "The collection contains twenty stories which are mostly reprinted from a variety of newspaper and magazine sources",
+     "correction": "앞뒤의 시 두 편을 포함해 모두 스무 편(산문은 열여덟 편) 가운데",
+     "note": "1901년 초판 목차(archive.org): 'PREFATORY VERSES'와 'CONCLUDING VERSES' 두 편 + PART I 4편 + PART II 14편. '남짓'(스물을 넘는다)은 틀리다."
+    },
+    {
+     "sids": [
+      "ea89534c286a"
+     ],
+     "field": "work:henry-lawson--joe-wilson-and-his-mates.significance",
+     "claim": "조 윌슨의 결혼을 다룬 네 편이 이어진 연작이다",
+     "verdict": "confirmed",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "these four connected stories are about the rare joys, awkward intimacies and frequent sorrows of a marriage that is slowly, imperceptibly, deteriorating"
+    },
+    {
+     "sids": [
+      "ea89534c286a"
+     ],
+     "field": "work:henry-lawson--joe-wilson-and-his-mates.significance",
+     "claim": "연작의 첫 편은 조 윌슨의 구애를 다룬다",
+     "verdict": "confirmed",
+     "url": "https://archive.org/details/joewilsonandhis00lawsgoog",
+     "quote": "PART I. JOE WILSON'S COURTSHIP.",
+     "note": "1901년 초판 본문 첫 장 제목(OCR)."
+    },
+    {
+     "sids": [
+      "ea89534c286a"
+     ],
+     "field": "work:henry-lawson--joe-wilson-and-his-mates.significance",
+     "claim": "조 윌슨 연작은 스케치에 머물던 형식이 인물의 생애를 감당하는 데까지 나아간 자리다",
+     "verdict": "contradicted",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "Lawson's withholding, austere prose was ill suited to analytic probing, which is why Joe Wilson , fine piece of work though it is, seems constantly on the point of disintegration.",
+     "correction": "비평가들이 흔히 그의 정점으로 꼽는, 서로 이어진 더 긴 네 편이지만, 절제된 산문이 분석적 탐구에 맞지 않아 늘 흩어질 듯 보인다는 평도 있다",
+     "note": "ADB: 'The four Joe Wilson stories—generally regarded by critics as the peak of his achievement' / 'the Joe Wilson quartet of linked, longer stories'."
+    },
+    {
+     "sids": [
+      "763a9f95304c",
+      "fc23955781fe"
+     ],
+     "field": "work:henry-lawson--while-the-billy-boils.significance",
+     "claim": "『빌리가 끓는 동안』은 1896년에 나온 단편집으로 「가축 몰이꾼의 아내」와 「조합이 죽은 이를 묻는다」를 포함한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/While_the_Billy_Boils_(short_story_collection)",
+     "quote": "is a collection of short stories by the Australian writer [[Henry Lawson]], published by [[Angus and Robertson]] in 1896. It includes \"[[The Drover's Wife (short story)|The Drover's Wife]]\", \"[[On the Edge of a Plain]]\", and \"[[The Union Buries Its Dead]]\"."
+    },
+    {
+     "sids": [
+      "7924ba9e9002"
+     ],
+     "field": "work:henry-lawson--while-the-billy-boils.significance",
+     "claim": "이 단편집은 감상 없는 절제된 산문의 표본이다",
+     "verdict": "confirmed",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "A stunning example is 'On the Edge of a Plain' but almost any Mitchell sketch from While the Billy Boils exemplifies these qualities."
+    },
+    {
+     "sids": [
+      "7924ba9e9002"
+     ],
+     "field": "work:henry-lawson--while-the-billy-boils.significance",
+     "claim": "이 단편집이 호주 단편의 기준선이 되었다",
+     "verdict": "contradicted",
+     "url": "https://adb.anu.edu.au/biography/lawson-henry-7118",
+     "quote": "But While the Billy Boils (1896) was Lawson's first major short-story collection. It remains one of the great classics of Australian literature.",
+     "correction": "호주 문학의 위대한 고전 가운데 하나로 남아 있다",
+     "note": "'기준선'이라 말하는 출처는 찾지 못했다. 위키백과는 엘더의 평 'virtually reinvented Australian realism'을 인용한다."
+    },
+    {
+     "sids": [
+      "1d8d040b426f"
+     ],
+     "field": "relation:contrast--henry-lawson--patrick-white.facts",
+     "claim": "로슨과 화이트는 대조(contrast) 관계로 다뤄진다 — 화이트의 작업은 로슨이 세운 사실주의 전통과 맞선다",
+     "verdict": "confirmed",
+     "url": "https://openjournals.library.sydney.edu.au/index.php/SSSC/article/download/8293/8402",
+     "quote": "Henry Lawson had established a committed, left-wing realist mode … White's work is in confrontation to this.",
+     "note": "마이클 와일딩, 「Patrick White: The Politics of Modernism」(Sydney Studies). 원 URL 은 403 이어서 Wayback 사본(https://web.archive.org/web/2024/https://openjournals.library.sydney.edu.au/index.php/SSSC/article/download/8293/8402)으로 읽었다. 이 엣지가 단 src--australian-dictionary-of-biography(로슨 항목)는 화이트를 언급하지 않으므로 근거를 이 논문으로 바꿔야 한다."
+    },
+    {
+     "sids": [
+      "1d8d040b426f"
+     ],
+     "field": "relation:contrast--henry-lawson--patrick-white.facts",
+     "claim": "근거 수준 scholarly_consensus — 신뢰할 만한 2차 연구가 이 대립을 반복적으로 다룬다",
+     "verdict": "unverifiable",
+     "note": "로슨–화이트 대립을 명시한 2차 연구는 와일딩 한 편만 확인했다. 글렌 토머스(ALS 15.1, 1991) 초록은 「탕자」가 '사실주의와 민족주의'라는 주류에 맞선다고 쓰지만 로슨을 이름으로 들지 않는다. '반복적으로'를 받칠 두 번째 출처가 필요하다."
+    },
+    {
+     "sids": [
+      "2b9dd1c8a5b4"
+     ],
+     "field": "relation:contrast--henry-lawson--patrick-white.summary",
+     "claim": "화이트의 에세이 「탕자」는 1958년 Australian Letters 에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://adb.anu.edu.au/biography/white-patrick-victor-paddy-14925",
+     "quote": "In 'The Prodigal Son' ( Australian Letters , April 1958), White’s reply to Alister Kershaw’s hymn to life as an expatriate"
+    },
+    {
+     "sids": [
+      "2b9dd1c8a5b4"
+     ],
+     "field": "relation:contrast--henry-lawson--patrick-white.summary",
+     "claim": "화이트는 오스트레일리아 소설이 저널리즘적 사실주의의 산물이 아님을 증명하려 했다고 썼다",
+     "verdict": "contradicted",
+     "url": "https://adb.anu.edu.au/biography/white-patrick-victor-paddy-14925",
+     "quote": "he spoke of Voss as written to prove 'that the Australian novel is not necessarily the dreary, dun-coloured offspring of journalistic realism'",
+     "correction": "화이트는 에세이 「탕자」(Australian Letters, 1958)에서 오스트레일리아 소설이 '반드시' 저널리즘적 사실주의의 칙칙한 잿빛 자손인 것은 아님을 증명하려 했다고 썼고",
+     "note": "원문은 'not necessarily' — '산물이 아님'이 아니라 '반드시 그런 것은 아님'이다."
+    },
+    {
+     "sids": [
+      "2b9dd1c8a5b4"
+     ],
+     "field": "relation:contrast--henry-lawson--patrick-white.summary",
+     "claim": "오스트레일리아 문학사 서술은 화이트가 겨눈 부시 사실주의 전통의 중심에 로슨의 단편을 놓는다",
+     "verdict": "contradicted",
+     "url": "https://openjournals.library.sydney.edu.au/index.php/SSSC/article/download/8293/8402",
+     "quote": "The significance of White's refusal of realism becomes clear when we recall the dominant realist tradition of earlier Australian fiction.",
+     "correction": "비평가 마이클 와일딩은 화이트가 맞선 그 사실주의 전통을 로슨이 세운 '참여적 좌파 사실주의 양식'으로 본다",
+     "note": "Wayback 사본으로 읽음. 바로 이어서 'Henry Lawson had established a committed, left-wing realist mode'. 출처는 한 비평가의 논문이고 '부시' 사실주의나 '단편'을 특정하지 않으므로 '문학사 서술'이라는 일반화는 좁혀야 한다."
+    }
+   ]
+  }
+ ]
+}

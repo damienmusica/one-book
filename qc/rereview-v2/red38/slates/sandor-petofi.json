@@ -1,0 +1,491 @@
+{
+  "id": "sandor-petofi",
+  "page": "https://literary-planet.pages.dev/authors/sandor-petofi/",
+  "author": {
+    "names": {
+      "ko": "산도르 페퇴피",
+      "original": "Petőfi Sándor",
+      "aliases": [
+        "Sándor Petőfi"
+      ]
+    },
+    "birthYear": 1823,
+    "deathYear": 1849,
+    "activeRange": [
+      1842,
+      1849
+    ],
+    "languages": [
+      "hu"
+    ],
+    "regions": [
+      "eastern-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "poetry",
+      "epic"
+    ],
+    "importanceReason": "구어체 헝가리어로 쓴 시를 광장의 낭독물로 만들어, 1848년 3월 15일 페슈트에서 「민족의 노래」가 봉기 첫날의 일부가 되게 했다. 민담의 운율과 어휘를 그대로 쓴 「용사 야노시」는 이야기 시의 재료를 궁정과 고전에서 농촌의 말로 옮겨 놓았다. 스물여섯에 전장에서 사라진 그의 생애는 이후 헝가리 시에서 시인과 정치적 행위를 같은 것으로 보는 상(像)의 기준이 되었다.",
+    "readingEntry": "sandor-petofi--nemzeti-dal",
+    "readingEntryReason": "짧고 명령형이며 1848년 3월 15일이라는 사건과 붙어 있어, 시가 어떻게 사건의 일부가 되었는지를 한 편으로 확인할 수 있다.",
+    "readingOrder": [
+      "sandor-petofi--nemzeti-dal",
+      "sandor-petofi--szeptember-vegen",
+      "sandor-petofi--janos-vitez",
+      "sandor-petofi--az-apostol"
+    ],
+    "readingWarning": "「민족의 노래」에서 멈추면 그를 구호 시인으로만 남기게 된다. 「9월 말에」까지 읽어야 같은 사람이 쓴 다른 목소리가 보인다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 구어체라 곧바로 읽히지만, 1848년 헝가리의 정세와 민담 어휘가 배경으로 깔려 있어 각주 없이는 고유명사와 정치적 지시가 비어 보인다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--petofi-irodalmi-muzeum",
+      "src--petofi-coriolanus-1848"
+    ]
+  },
+  "works": [
+    {
+      "id": "sandor-petofi--szeptember-vegen",
+      "titleKo": "9월 말에",
+      "titleOriginal": "Szeptember végén",
+      "year": 1847,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "결혼 직후 콜토에서 쓴 시. 창밖의 늦여름과 자기 죽음 이후의 시간을 한 시선 안에 겹쳐 놓아, 정치시로만 알려진 그의 다른 면을 보여 준다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sandor-petofi--az-apostol",
+      "titleKo": "사도",
+      "titleOriginal": "Az apostol",
+      "year": 1848,
+      "yearBasis": "composition-range",
+      "genre": "epic",
+      "significance": "1848년에 쓰였고 1851년 압수된 에미흐 판에 처음 실린 뒤 1862년 뮐레르 줄러 연감에까지도 쓸 수 없는 본문으로 실렸던 장시. 온전한 본문은 1874년 아테네움 시집에 실렸으며, 혁명가의 생애를 끝까지 따라가며 「민족의 노래」의 낙관이 어디에서 무너지는지를 기록한다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sandor-petofi--janos-vitez",
+      "titleKo": "용사 야노시",
+      "titleOriginal": "János vitéz",
+      "year": 1845,
+      "yearBasis": "first-print",
+      "genre": "epic",
+      "significance": "민담의 어휘와 율격을 그대로 쓴 27장의 이야기 시. 양치기 소년이 프랑스 왕과 거인의 나라를 지나 마지막에 요정의 나라에 이르러 그곳의 왕이 되는 구조가 이후 헝가리의 아동물·무대 각색이 반복해 돌아오는 원천이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "sandor-petofi--nemzeti-dal",
+      "titleKo": "민족의 노래",
+      "titleOriginal": "Nemzeti dal",
+      "year": 1848,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "1848년 3월 15일 페슈트에서 낭독된 시. '일어나라 헝가리인이여'라는 명령형으로 시작해 연마다 같은 맹세 구절이 되돌아오며, 인쇄물이자 구호로 동시에 유통되었다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--sandor-petofi--lu-xun",
+      "type": "documented_influence",
+      "from": "sandor-petofi (산도르 페퇴피)",
+      "to": "lu-xun (루쉰)",
+      "evidenceLevel": "documented",
+      "summary": "루쉰은 『허난(河南)』에 실은 「마라시력설(摩羅詩力說)」(1908)에서 바이런·셸리·푸시킨과 나란히 페퇴피를 '마라파' 시인으로 논했고, 이후 그의 시를 중국어로 옮겼다.",
+      "sourceIds": [
+        "src--lu-xun-henan-essays-1907-08"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "translation--william-shakespeare--sandor-petofi (→ william-shakespeare 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "b41394e2b75b",
+      "where": "author.facts",
+      "text": "산도르 페퇴피(Petőfi Sándor) · 1823–1849 · hu · eastern-europe",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4f18f1c55463",
+      "where": "author.importanceReason",
+      "text": "구어체 헝가리어로 쓴 시를 광장의 낭독물로 만들어, 1848년 3월 15일 페슈트에서 「민족의 노래」가 봉기 첫날의 일부가 되게 했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5bdff38b3eeb",
+      "where": "author.importanceReason",
+      "text": "민담의 운율과 어휘를 그대로 쓴 「용사 야노시」는 이야기 시의 재료를 궁정과 고전에서 농촌의 말로 옮겨 놓았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9c70309ca2be",
+      "where": "author.importanceReason",
+      "text": "스물여섯에 전장에서 사라진 그의 생애는 이후 헝가리 시에서 시인과 정치적 행위를 같은 것으로 보는 상(像)의 기준이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a4cf4f64c25c",
+      "where": "author.readingEntryReason",
+      "text": "짧고 명령형이며 1848년 3월 15일이라는 사건과 붙어 있어, 시가 어떻게 사건의 일부가 되었는지를 한 편으로 확인할 수 있다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "3fe598b91ba3",
+      "where": "author.readingWarning",
+      "text": "「민족의 노래」에서 멈추면 그를 구호 시인으로만 남기게 된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d8bba9250972",
+      "where": "author.readingWarning",
+      "text": "「9월 말에」까지 읽어야 같은 사람이 쓴 다른 목소리가 보인다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "65f0e12471c8",
+      "where": "author.difficultyReason",
+      "text": "문장은 구어체라 곧바로 읽히지만, 1848년 헝가리의 정세와 민담 어휘가 배경으로 깔려 있어 각주 없이는 고유명사와 정치적 지시가 비어 보인다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "201261251287",
+      "where": "work:sandor-petofi--szeptember-vegen.facts",
+      "text": "『9월 말에』(Szeptember végén) · 1847 · poetry",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9fbba38a3591",
+      "where": "work:sandor-petofi--szeptember-vegen.significance",
+      "text": "결혼 직후 콜토에서 쓴 시.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dcc76fd10ac6",
+      "where": "work:sandor-petofi--szeptember-vegen.significance",
+      "text": "창밖의 늦여름과 자기 죽음 이후의 시간을 한 시선 안에 겹쳐 놓아, 정치시로만 알려진 그의 다른 면을 보여 준다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "159542369d3e",
+      "where": "work:sandor-petofi--az-apostol.facts",
+      "text": "『사도』(Az apostol) · 1848 composition-range · epic",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6875a45f42ec",
+      "where": "work:sandor-petofi--az-apostol.significance",
+      "text": "1848년에 쓰였고 1851년 압수된 에미흐 판에 처음 실린 뒤 1862년 뮐레르 줄러 연감에까지도 쓸 수 없는 본문으로 실렸던 장시.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b13e7bae1483",
+      "where": "work:sandor-petofi--az-apostol.significance",
+      "text": "온전한 본문은 1874년 아테네움 시집에 실렸으며, 혁명가의 생애를 끝까지 따라가며 「민족의 노래」의 낙관이 어디에서 무너지는지를 기록한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9bd3470d6a7a",
+      "where": "work:sandor-petofi--janos-vitez.facts",
+      "text": "『용사 야노시』(János vitéz) · 1845 first-print · epic",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "644ffc5a7dac",
+      "where": "work:sandor-petofi--janos-vitez.significance",
+      "text": "민담의 어휘와 율격을 그대로 쓴 27장의 이야기 시.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bce250849eb4",
+      "where": "work:sandor-petofi--janos-vitez.significance",
+      "text": "양치기 소년이 프랑스 왕과 거인의 나라를 지나 마지막에 요정의 나라에 이르러 그곳의 왕이 되는 구조가 이후 헝가리의 아동물·무대 각색이 반복해 돌아오는 원천이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6f9913761a59",
+      "where": "work:sandor-petofi--nemzeti-dal.facts",
+      "text": "『민족의 노래』(Nemzeti dal) · 1848 · poetry",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0809c23325d3",
+      "where": "work:sandor-petofi--nemzeti-dal.significance",
+      "text": "1848년 3월 15일 페슈트에서 낭독된 시.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6ed13d6b566a",
+      "where": "work:sandor-petofi--nemzeti-dal.significance",
+      "text": "'일어나라 헝가리인이여'라는 명령형으로 시작해 연마다 같은 맹세 구절이 되돌아오며, 인쇄물이자 구호로 동시에 유통되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2c2ffb57f56b",
+      "where": "relation:influence--sandor-petofi--lu-xun.facts",
+      "text": "산도르 페퇴피 → 루쉰 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "726ee6b19826",
+      "where": "relation:influence--sandor-petofi--lu-xun.summary",
+      "text": "루쉰은 『허난(河南)』에 실은 「마라시력설(摩羅詩力說)」(1908)에서 바이런·셸리·푸시킨과 나란히 페퇴피를 '마라파' 시인으로 논했고, 이후 그의 시를 중국어로 옮겼다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "페퇴피 산도르 1823–1849",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+      "quote": "1823-ban született személyek … 1849-ben elhunyt személyek",
+      "note": "「마라시력설」도 'PetoKfi Sándor, 1823—1849'로 적는다."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "1848년 3월 15일 페슈트에서 「민족의 노래」가 봉기 첫날의 일부가 되었다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+      "quote": "15-én először Pesten, a Pilvax kávéházban olvasta fel a verset."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "「용사 야노시」는 민담의 운율과 어휘를 그대로 썼다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+      "quote": "Verselése: ütemhangsúlyos, négyütemű felező tizenkettes… a valószerű falusi életkép keveredik a népmesei motívumokkal"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "스물여섯에 전장에서 사라졌다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+      "quote": "1849. július 31-én, a segesvári csatát követő… ő is elesett. Eltűnésének pontos körülményei azonban tisztázatlanok."
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "「민족의 노래」는 짧고 명령형이며 1848년 3월 15일 사건과 붙어 있다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+      "quote": "Talpra, magyar, hí a haza!",
+      "note": "3월 13일 집필, 15일 낭독·인쇄. 같은 문서에 인쇄·배포 경위가 있다."
+    },
+    {
+      "field": "works[szeptember-vegen].year",
+      "claim": "Szeptember végén 1847",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+      "quote": "A Szeptember végén Petőfi Sándor 1847 szeptemberében írt elégiája"
+    },
+    {
+      "field": "works[szeptember-vegen].titleKo",
+      "claim": "titleKo 「9월 말에」가 Szeptember végén의 옳은 옮김이다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+      "quote": "Szeptember végén",
+      "note": "szeptember=9월, végén=말에. 직역이 맞다."
+    },
+    {
+      "field": "works[szeptember-vegen].significance",
+      "claim": "결혼 직후 콜토에서 쓴 시다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+      "quote": "Petőfi és Szendrey 1847. szeptember 8-án házasodtak össze, és ezután Koltóra mentek nászútra… Itt keletkezett a vers."
+    },
+    {
+      "field": "works[szeptember-vegen].significance",
+      "claim": "창밖의 풍경과 자기 죽음 이후의 시간을 한 시선 안에 겹쳐 놓는다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Szeptember_végén_(vers)",
+      "quote": "Még zöldel a nyárfa az ablak előtt",
+      "note": "3연에서 과부가 된 아내를 상상하며 '죽음 너머에서도 사랑하겠다'고 약속하는 구조가 같은 문서에 서술돼 있다."
+    },
+    {
+      "field": "works[az-apostol].year",
+      "claim": "Az apostol은 1848년에 쓰였다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+      "quote": "A mű Pesten született 1848 júniusa és szeptembere között."
+    },
+    {
+      "field": "works[az-apostol].significance",
+      "claim": "1851년 출판되었다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/1851_az_irodalomban",
+      "quote": "Emich Gusztáv – elkobzott, forgalomba nem került – Petőfi-kiadásában először jelenik meg… Az apostol.",
+      "note": "이 판은 압수되어 유통되지 않았고 낱장은 폐기됐다. 몇 부만 남아 PIM·OSZK에 있다. '출판'이라는 표현은 유통을 함의하지 않도록 다듬는 편이 낫다."
+    },
+    {
+      "field": "works[az-apostol].significance",
+      "claim": "1864년까지도 검열로 훼손된 본문으로 돌았다",
+      "verdict": "contradicted",
+      "url": "https://hu.wikipedia.org/wiki/1851_az_irodalomban",
+      "quote": "Másodszor Müller Gyula 1862. évi naptárában jelent meg, de mindkét kiadás szövege használhatatlan.",
+      "correction": "1848년에 쓰였고 1851년 압수된 에미흐 판에 처음 실린 뒤 1862년 뮐레르 줄러 연감에까지도 쓸 수 없는 본문으로 실렸던 장시.",
+      "note": "두 번째 게재는 1864년이 아니라 1862년 연감이다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[az-apostol].significance",
+      "claim": "온전한 본문은 1874년 아테네움 시집에 실렸다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Az_apostol",
+      "quote": "A teljes szöveg először 1874-ben jelent meg a Petőfi Sándor költeményei című illusztrált díszkiadásban az Athenaeum Kiadónál."
+    },
+    {
+      "field": "works[janos-vitez].year",
+      "claim": "János vitéz 1845",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+      "quote": "Vahot Imre vette meg 100 forintért, ő adta ki 1845 elején.",
+      "note": "1845는 출간 연도. 집필은 1844년 11월 하반기(엿새 만에)로, 헝가리어 위키백과 János vitéz 항목은 '1844-ben írt'라고 적는다. 연도 칸이 집필 연도를 뜻한다면 1844로 바뀌어야 한다."
+    },
+    {
+      "field": "works[janos-vitez].significance",
+      "claim": "27장의 이야기 시다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+      "quote": "27. fejezet: János vitézt a tündérek szelíden, szeretettel fogadják",
+      "note": "본문의 장 요약이 1장부터 27장까지 이어진다. 370개의 4행 연으로 이뤄진 elbeszélő költemény."
+    },
+    {
+      "field": "works[janos-vitez].significance",
+      "claim": "양치기 소년이 프랑스 왕과 거인과 요정의 나라를 지나 돌아오는 구조",
+      "verdict": "contradicted",
+      "url": "https://hu.wikipedia.org/wiki/János_vitéz",
+      "quote": "A tündérfiúk megválasztják királyukká Jánost, a tündérlányok meg királynőjükké Iluskát.",
+      "correction": "양치기 소년이 프랑스 왕과 거인의 나라를 지나 마지막에 요정의 나라에 이르러 그곳의 왕이 되는 구조가",
+      "note": "주인공은 프랑스에서 한 번 고향에 돌아오지만(17–18장), 작품은 그가 요정의 나라에 남아 왕이 되는 것으로 끝난다. '지나 돌아오는'은 결말을 잘못 옮긴다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[janos-vitez].significance",
+      "claim": "이후 헝가리의 아동물·무대 각색이 반복해 돌아오는 원천이 되었다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+      "quote": "János vitéz című elbeszélő költeményéből daljáték, bábelőadás, rajzfilm és rockopera is készült."
+    },
+    {
+      "field": "works[nemzeti-dal].year",
+      "claim": "Nemzeti dal 1848",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+      "quote": "Petőfi a verset 1848. március 13-án, két nappal a forradalom kitörése előtt írta."
+    },
+    {
+      "field": "works[nemzeti-dal].significance",
+      "claim": "1848년 3월 15일 페슈트에서 낭독되었다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+      "quote": "A nyomda előtt szavalta el a nép közösen a nemzeti dal eskü szövegét"
+    },
+    {
+      "field": "works[nemzeti-dal].significance",
+      "claim": "'일어나라 헝가리인이여'라는 명령형으로 시작한다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+      "quote": "Talpra, magyar, hí a haza!",
+      "note": "원래 첫 행은 'Rajta magyar, hí a haza!'였고 조언을 받아 'Talpra'로 고쳤다는 일화도 같은 문서에 있다."
+    },
+    {
+      "field": "works[nemzeti-dal].significance",
+      "claim": "연마다 같은 맹세 구절이 되돌아온다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+      "quote": "Esküszünk, hogy rabok tovább…",
+      "note": "본문에 연마다 같은 후렴이 반복되며, 문서는 'újra és újra visszatérő refrennel'이라 설명한다."
+    },
+    {
+      "field": "works[nemzeti-dal].significance",
+      "claim": "인쇄물이자 구호로 동시에 유통되었다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_dal",
+      "quote": "Ezután a versből több ezer példányt osztottak szét a nép között."
+    },
+    {
+      "field": "relations[shakespeare→petofi]",
+      "claim": "페퇴피는 1848년 『코리올라누스』를 헝가리어로 옮겨 출판했다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/William_Shakespeare",
+      "quote": "Coriolanus; ford. Petőfi Sándor; Beimel, Pest, 1848 (Shakspeare összes színművei)"
+    },
+    {
+      "field": "relations[shakespeare→petofi]",
+      "claim": "어러니 야노시·뵈뢰슈머르티 미하이와 셋이 셰익스피어 헝가리어 전집을 계획했다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/Petőfi_Sándor",
+      "quote": "Vörösmartyval és Arannyal szövetségre lépve nekiálltak Shakespeare műveit magyarra fordítani, Petőfi a Coriolanusszal végzett"
+    },
+    {
+      "field": "relations[shakespeare→petofi]",
+      "claim": "『코리올라누스』가 그 전집의 첫 결과물이다",
+      "verdict": "confirmed",
+      "url": "https://hu.wikipedia.org/wiki/William_Shakespeare",
+      "quote": "Coriolanus; ford. Petőfi Sándor; Beimel, Pest, 1848 (Shakspeare összes színművei)",
+      "note": "헝가리어 위키백과의 'Shakspeare összes színművei' 목록에서 1848년 코리올라누스가 첫 항목이며, 페퇴피는 뒤이어 『로미오와 줄리엣』 번역에 착수했다."
+    },
+    {
+      "field": "relations[petofi→lu-xun]",
+      "claim": "루쉰의 「마라시력설」은 1908년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/wiki/摩羅詩力說",
+      "quote": "分类：魯迅 墳 1908年 1908年2月",
+      "note": "중국어 위키백과 루쉰 항목은 이 글을 1907년 창작으로 적어, 집필 1907·발표 1908의 구분이 유지된다."
+    },
+    {
+      "field": "relations[petofi→lu-xun]",
+      "claim": "「마라시력설」은 『허난(河南)』에 실렸다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/wiki/關於魯迅之二",
+      "quote": "豫才為《河南》雜誌作《摩羅詩力說》，表彰擺倫等人的“撒但派”，而以裴彖飛為之繼",
+      "note": "저우쭤런의 회고. 중국어 위키백과 「文化偏至论」 항목도 같은 연작이 1908년 8월 『河南』에 실렸다고 적는다."
+    },
+    {
+      "field": "relations[petofi→lu-xun]",
+      "claim": "바이런·셸리·푸시킨과 나란히 페퇴피를 '마라파' 시인으로 논했다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/wiki/摩羅詩力說",
+      "quote": "入俄則起國民詩人普式庚，至波闌則作報復詩人密克威支，入匈加利則覺愛國詩人裴彖飛",
+      "note": "본문은 裴倫(바이런)·修黎(셸리)를 앞세우고 普式庚(푸시킨)·密克威支(미츠키에비치)·裴彖飛(페퇴피)로 잇는다. 플레이트가 적지 않은 미츠키에비치도 같은 계열에 놓인다."
+    },
+    {
+      "field": "relations[petofi→lu-xun]",
+      "claim": "루쉰이 이후 페퇴피의 시를 중국어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://zh.wikisource.org/wiki/願我是樹倘使你……",
+      "quote": "作者：裴多菲·山多爾 1845年 1925年 譯者：魯迅"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--petofi-irodalmi-muzeum": {
+      "id": "src--petofi-irodalmi-muzeum",
+      "title": "Petőfi Irodalmi Múzeum (페퇴피 문학박물관)",
+      "publisherOrInstitution": "Petőfi Irodalmi Múzeum, Budapest",
+      "citation": "페퇴피의 원고·유품과 헝가리 근대문학 자료를 보존·공개하는 국립 문학박물관 — 발표 연표와 판본 확인용"
+    },
+    "src--petofi-coriolanus-1848": {
+      "id": "src--petofi-coriolanus-1848",
+      "title": "코리올라누스 — 페퇴피의 헝가리어 번역 (1848)",
+      "publisherOrInstitution": "Pest, 1848",
+      "citation": "페퇴피가 옮긴 셰익스피어 『코리올라누스』 — 어러니 야노시·뵈뢰슈머르티 미하이와 함께 계획한 셰익스피어 헝가리어 전집의 첫 결과물"
+    },
+    "src--lu-xun-henan-essays-1907-08": {
+      "id": "src--lu-xun-henan-essays-1907-08",
+      "title": "루쉰 초기 문언 논문 — 『하남(河南)』 게재 (도쿄, 1907–1908)",
+      "publisherOrInstitution": "재일 중국인 유학생 잡지 『河南』",
+      "citation": "「문화편지론(文化偏至論)」·「마라시력설(摩羅詩力說)」 등이 실린 지면 — 니체·슈티르너·입센 수용과 개인주의 논지가 처음 정식화된 1차 자료"
+    }
+  }
+}

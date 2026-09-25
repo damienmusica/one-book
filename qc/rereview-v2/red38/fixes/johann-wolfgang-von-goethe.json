@@ -1,0 +1,94 @@
+{
+  "fixes": [
+    {
+      "id": "johann-wolfgang-von-goethe",
+      "importanceReason": "베르테르의 편지로 채워지다 편집자의 보고로 끝나는 『젊은 베르테르의 슬픔』이 유럽에 파란 연미복과 노란 조끼의 유행을 퍼뜨렸고, 평생에 걸쳐 쓴 『파우스트』에 끝나지 않는 추구를 담았다. 『빌헬름 마이스터의 수업시대』는 한 사람이 세계와 부딪히며 형성되는 과정을 소설의 뼈대로 삼아 교양소설의 표준형을 제공했다. 세계문학(Weltliteratur)이라는 말을 자기 시대의 과제로 제시한 것도 그이며, 이 말은 문학을 국민문학의 합이 아니라 번역과 교류의 장으로 보는 관점의 이름이 되었다.",
+      "readingEntryReason": "편지 형식의 짧은 소설이고, 감정을 서술의 중심에 놓는 괴테 초기의 방법이 그대로 드러난다.",
+      "difficultyReason": "『베르테르』는 얇은 책이지만 『파우스트』 2부는 그리스 신화, 연금술, 궁정 알레고리가 층으로 겹쳐 주석 없이는 장면의 목적이 잡히지 않는다. 『빌헬름 마이스터』는 삽화적 구성이다.",
+      "works": [
+        {
+          "id": "johann-wolfgang-von-goethe--die-wahlverwandtschaften",
+          "significance": "화학의 친화력 개념을 네 인물의 관계에 대입한 실험적 장편. 감정을 자연법칙처럼 관찰하는 냉정한 문체로 쓰였다."
+        },
+        {
+          "id": "johann-wolfgang-von-goethe--faust",
+          "significance": "학문에 절망한 학자와 메피스토펠레스의 계약을 두 부에 걸쳐 전개한 극시. 1부는 1808년, 2부는 사후인 1832년에 나왔다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--jean-jacques-rousseau--johann-wolfgang-von-goethe",
+          "summary": "카를 해머의 『괴테와 루소』(1973)는 『젊은 베르테르의 슬픔』에 남은 루소 독서를 출발점으로 삼아, 괴테의 후기 작품까지 두 사람의 사유가 겹치는 지점을 장별로 추적한다. 1장의 제목은 「문화적 배경」이다."
+        },
+        {
+          "id": "influence--johann-wolfgang-von-goethe--hermann-hesse",
+          "summary": "헤세는 에세이 「괴테에게 바치는 감사」(1932)에서 괴테를 거듭 씨름한 대상으로 밝혔고, 『황야의 이리』에는 괴테의 상(像)이 왜곡되는 데 맞서는 장면이 들어 있다."
+        },
+        {
+          "id": "influence--ovid--johann-wolfgang-von-goethe",
+          "summary": "괴테의 『로마 비가』(1795)는 라틴 연애 비가의 형식을 독일어 2행연구로 옮긴 연작이다. 고든 브레이든은 『오비디우스 수용 편람』(Wiley Blackwell)의 「연작으로서의 연애시」에서 오비디우스 『사랑노래(Amores)』를 '순서를 가진 연애시 연작'이라는 전통의 모델로 세우고, 페트라르카의 소네트 연작으로 이어진 그 전통 안에서 18세기 말 괴테가 이 연작으로 자기 경력의 새 국면을 연다고 본다."
+        },
+        {
+          "id": "translation--johann-wolfgang-von-goethe--abai-qunanbaiuly",
+          "summary": "괴테의 「나그네의 밤노래」를 레르몬토프의 러시아어 역 「괴테에게서(산봉우리들)」를 경유해 1892년 「어두운 밤 산이 졸고」로 카자흐어에 옮겼다. 독일어 원문이 아니라 러시아어 중역을 거쳤다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "『파우스트』의 주인공은 근대인(근대성)의 욕망을 체현한 인물로 읽힌다",
+          "resolution": "narrowed",
+          "evidence": "importanceReason의 '끝나지 않는 근대인의 욕망을 담았다'를 '끝나지 않는 추구를 담았다'로 줄였다 — 확정 주장 '『파우스트』는 끝나지 않는 추구(욕망)를 그린다'의 인용(Faust's unending striving)이 받치는 데까지. 같은 sid의 작품 의의 문장(bea2e5674cac)에서는 '근대적 욕망의 상징이 되었다'를 지우고 '1부는 1808년, 2부는 사후인 1832년에 나왔다.'만 남겼다. 교정문(마셜 버먼의 근대성의 전형 독해)은 두 필드를 길게 만들어 넣지 않았다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『베르테르』는 편지 형식의 짧은 소설이다",
+          "resolution": "narrowed",
+          "evidence": "노트가 '하룻밤에 읽힌다'를 확인한 사실이 아닌 독서 권고로 분류했다. '짧은 소설이라 하룻밤에 읽히고'를 '짧은 소설이고'로 줄여 인용(schmalen Bändchen … Briefromans)이 받치는 편지 형식·짧음만 남겼다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『베르테르』는 짧은 분량이다",
+          "resolution": "narrowed",
+          "evidence": "노트가 '하룻밤 분량'은 체감 표현이고 확인한 것은 '얇은 책'까지라고 밝혔다. difficultyReason의 '『베르테르』는 하룻밤 분량이지만'을 인용(schmalen Bändchen)대로 '『베르테르』는 얇은 책이지만'으로 바꿨다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『빌헬름 마이스터의 수업시대』는 여러 삽화를 이어 붙인 모자이크식 구성이다",
+          "resolution": "narrowed",
+          "evidence": "노트가 '줄거리의 견인력이 약하다'는 평가라 확인하지 않았다고 밝혔다. '삽화적 구성이라 줄거리의 견인력이 약하다'를 '삽화적 구성이다'로 줄여 인용(buntes Lebensmosaik)이 받치는 구성만 남겼다."
+        },
+        {
+          "field": "work:johann-wolfgang-von-goethe--die-wahlverwandtschaften.significance",
+          "claim": "그 냉정한 문체가 후대 소설의 모델이 되었다",
+          "resolution": "narrowed",
+          "evidence": "'후대 소설의 모델이 되었다'는 en·de.wikipedia·Britannica 어디서도 찾지 못했다(Britannica 절은 유료 벽이지만 그 주장을 싣는다는 표지가 없어 접근 대기로 두지 않았다). 문장을 '감정을 자연법칙처럼 관찰하는 냉정한 문체로 쓰였다'로 줄였다 — 확정 주장 8637fea60eac(sachlich-nüchtern wie ein … Wissenschaftler)이 받친다."
+        },
+        {
+          "field": "relation:influence--jean-jacques-rousseau--johann-wolfgang-von-goethe.summary",
+          "claim": "책은 장별(주제별)로 구성되고 1장 제목은 「문화적 배경」이다",
+          "resolution": "narrowed",
+          "evidence": "노트가 1장 본문은 대출 제한으로 읽지 못했고 확인한 것은 장 제목까지라고 밝혔다. '1장 「문화적 배경」이 그 배경을 다룬다'를 '1장의 제목은 「문화적 배경」이다'로 줄였다(목차: 1. The cultural background). 장별 구성은 같은 목차가 받친다."
+        },
+        {
+          "field": "relation:influence--johann-wolfgang-von-goethe--hermann-hesse.summary",
+          "claim": "헤세는 그 글에서 괴테를 평생 붙들고 씨름한 독서 대상으로 밝혔다",
+          "resolution": "corrected",
+          "evidence": "'괴테를 평생의 독서 대상으로 밝혔고'를 교정문의 '거듭 생각의 대화와 싸움을 벌여 온'을 따라 '괴테를 거듭 씨름한 대상으로 밝혔고'로 바꿨다(인용: immer wieder Gedankengespräche und Gedankenkämpfe). 교정문의 '독일 시인 가운데 가장 많이 빚진'은 길이 때문에 넣지 않았다. 문서 「괴테에게 바치는 감사」와 1932는 그대로 남았다."
+        },
+        {
+          "field": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+          "claim": "브레이든은 18세기 말 괴테의 연작을 그 전통의 새로운 국면의 시작으로 놓는다",
+          "resolution": "corrected",
+          "evidence": "'18세기 말 괴테의 이 연작을 새로운 국면의 시작으로 놓는다'를 교정문대로 '18세기 말 괴테가 이 연작으로 자기 경력의 새 국면을 연다고 본다'로 바꿨다(인용: Goethe initiates a new phase in his career). 길이 때문에 앞 절의 '변형되며'를 빼고, 교정문의 불륜의 쾌락 이상화 대목은 넣지 않았다."
+        },
+        {
+          "field": "relation:translation--johann-wolfgang-von-goethe--abai-qunanbaiuly.summary",
+          "claim": "중역 사실이 판본 연구에서 확인된다",
+          "resolution": "corrected",
+          "evidence": "'러시아어 중역을 거친 사실이 판본 연구에서 확인된다'에서 받쳐지지 않는 '판본 연구에서 확인된다'를 지우고 '독일어 원문이 아니라 러시아어 중역을 거쳤다'로 고쳤다(인용: Лермонтов тәржімесі арқылы). 교정문의 '레르몬토프의 러시아어 역'은 바로 앞 문장이 이미 적는다."
+        }
+      ]
+    }
+  ]
+}

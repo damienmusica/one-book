@@ -1,0 +1,122 @@
+{
+  "fixes": [
+    {
+      "id": "abdulla-qodiriy",
+      "importanceReason": "시 「토이」(To'y, 1914–15)와 희곡 「불행한 신랑」(1915)에서 출발해, 19세기 코칸트 칸국의 내분과 혼사를 배경으로 인물의 내면과 여러 줄기의 사건을 장편 분량으로 엮는 구성을 우즈베크어 산문에 세웠다. 신문이 만든 구어에 가까운 새 산문에서 근대 단편과 마침내 소설이 나오면서, 이후 우즈베크 작가들이 쓰는 문장의 척도가 『지나간 날들』에서 나왔다. 1938년 총살된 뒤 그의 책은 공개된 자리에서 사라졌고, 1957년 복권 뒤에야 다시 공개적으로 읽혔으며, 1991년 알리셰르 나보이 국가상으로 우즈베크 소설의 기준점 자리에 놓였다.",
+      "readingEntryReason": "두 연인의 혼사가 두 번째 혼인에 흔들리는 이야기라 줄거리만으로도 끝까지 읽히고, 코디리의 문장과 구성이 가장 완성된 형태로 나오는 작품이다.",
+      "difficultyReason": "연애와 지방 권력 다툼이 얽힌 줄거리라 사건은 따라가기 쉽고 문장도 평이하다. 다만 코칸트 칸국 말기의 관직명, 타슈켄트와 코칸트 쪽 씨족 관계, 혼인 관습이 주석 없이 전제된다.",
+      "works": [
+        {
+          "id": "abdulla-qodiriy--kalvak-mahzum",
+          "significance": "1923년부터 『무슈툼』에 연재한 풍자 연작. 낡은 종교 지식인을 화자로 세워 그 자신의 말투로 자기를 폭로하게 하는 방식이며, 코디리의 풍자가 인물 자체를 겨눈 지점이다."
+        },
+        {
+          "id": "abdulla-qodiriy--obid-ketmon",
+          "significance": "1932–34년에 연재된 집단화 시기 농촌 중편. 노동과 농업을 주제로 요구받던 시기의 산물이라 앞선 장편들과 결이 다르다."
+        },
+        {
+          "id": "abdulla-qodiriy--mehrobdan-chayon",
+          "significance": "1928년 2월에 탈고해 이듬해 사마르칸트에서 나온 두 번째 장편. 칸의 궁정과 마드라사를 무대로 안바르와 라노의 사랑을 한 줄기로 삼아, 권력에 붙어사는 성직·관료층을 정면으로 다룬다."
+        },
+        {
+          "id": "abdulla-qodiriy--otkan-kunlar",
+          "year": 1922,
+          "yearBasis": "first-print"
+        }
+      ],
+      "relations": [
+        {
+          "id": "affinity--abdulla-qodiriy--sadriddin-ayni",
+          "evidenceLevel": "editorial_inference",
+          "summary": "아디브 할리드의 『우즈베키스탄 만들기』(2015)는 혁명 이후 우즈베크 문화 정치를 서술하며 코디리와 아이니를 근대 산문을 만든 가장 중요한 두 사람으로 들고, 같은 저자의 『무슬림 문화개혁의 정치』(1998)는 1917년 이전 자디드 국면을 다룬다. 아이니는 시에서, 코디리는 희곡과 신문 풍자에서 출발해 둘 다 산문 서사로 옮겨 갔다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "계몽 논설이 맡던 자리에 산문 소설이 들어섰다",
+          "resolution": "corrected",
+          "evidence": "'운문 서사 다스톤과 계몽 논설이 맡던 자리에 산문 소설이 들어서면서'를 교정문을 줄여 '신문이 만든 구어에 가까운 새 산문에서 근대 단편과 마침내 소설이 나오면서'로 바꿨다(인용: The press created a new kind of prose … Out of this journalism arose the modern short story and eventually the novel). 다스톤은 같은 절이라 함께 빠졌다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『지나간 날들』은 두 연인의 혼사가 칸국의 내분에 부서지는 이야기다",
+          "resolution": "corrected",
+          "evidence": "'칸국의 내분에 부서지는 이야기여서'를 '두 번째 혼인에 흔들리는 이야기라'로 바꿨다(인용: forcing him to take a second wife according to tradition). 교정문의 어머니·전통·역사적 배경은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "줄거리에서 연애와 부족(씨족) 정치가 교차한다",
+          "resolution": "corrected",
+          "evidence": "'씨족 정치가 교차하는'을 교정문 '지방 통치자들의 권력 다툼이 얽힌'을 줄인 '지방 권력 다툼이 얽힌'으로 바꿨다(인용: bloody struggles of local rulers for power)."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "문장이 길지 않아 읽기 쉽다",
+          "resolution": "corrected",
+          "evidence": "'문장도 길지 않다'를 교정문대로 문장 길이 대신 평이함으로 바꿔 '문장도 평이하다'로 했다(인용: sodda, … ommaga anglashilarlik bir tildir)."
+        },
+        {
+          "field": "work:abdulla-qodiriy--kalvak-mahzum.significance",
+          "claim": "이 연작을 줄쿤보이라는 필명으로 발표했다",
+          "resolution": "narrowed",
+          "evidence": "'줄쿤보이라는 필명으로'를 지웠다. 남은 '1923년부터 『무슈툼』에 연재한 풍자 연작'은 할리드 인용(began publishing in Mushtum in 1923 … to poke fun at them)이 받친다."
+        },
+        {
+          "field": "work:abdulla-qodiriy--obid-ketmon.significance",
+          "claim": "압력 아래에서 코디리의 문장이 어디까지 버티는지 보이는 자료로 읽힌다",
+          "resolution": "narrowed",
+          "evidence": "'압력 아래에서 코디리의 문장이 어디까지 버티는지 보이는 자료로 읽힌다'를 지웠다. 남은 '노동과 농업을 주제로 요구받던 시기의 산물이라 앞선 장편들과 결이 다르다'는 확정 주장(Xo'jayev의 요청, 첫 'ishlab chiqarish' 중편)이 받친다."
+        },
+        {
+          "field": "work:abdulla-qodiriy--mehrobdan-chayon.significance",
+          "claim": "궁정과 마드라사 안의 밀고와 음모가 줄거리를 이룬다",
+          "resolution": "narrowed",
+          "evidence": "'밀고와 음모를'을 지우고 궁정과 마드라사는 확정 주장대로 '무대'로만 남겼다."
+        },
+        {
+          "field": "work:abdulla-qodiriy--mehrobdan-chayon.significance",
+          "claim": "안바르가 중심인물이다",
+          "resolution": "corrected",
+          "evidence": "'안바르를 중심에 두고 서술하며'를 교정문을 줄인 '안바르와 라노의 사랑을 한 줄기로 삼아'로 바꿨다(인용: Romanda Anvar bilan Raʼnoning sevgi sarguzashti)."
+        },
+        {
+          "field": "work:abdulla-qodiriy--otkan-kunlar.facts",
+          "claim": "1926년에 처음 지면에 나왔다(first-print)",
+          "resolution": "corrected",
+          "evidence": "otkan-kunlar year 1926 → 1922, yearBasis first-print 유지(인용: 1922-yil ilk bor „Inqilob“ jurnalida chop etilgan). 1925–26년 단행본은 의의 문장이 이미 적는다."
+        },
+        {
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.facts",
+          "claim": "두 사람의 친연은 학계 통설(scholarly_consensus)이다",
+          "resolution": "corrected",
+          "evidence": "evidenceLevel scholarly_consensus → editorial_inference(affinity가 허용하는 수준, weight 0.6은 상한 안). 근거는 할리드 2015 한 권이고 요약도 그 책만 들어 통설을 주장하지 않는다. 근거 문서·유형·방향은 확정돼 선은 남는다."
+        },
+        {
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "할리드 2015는 코디리와 아이니를 같은 개혁 세대의 인물로 다룬다",
+          "resolution": "corrected",
+          "evidence": "'같은 개혁 세대의 인물로 다루고'를 교정문을 줄인 '근대 산문을 만든 가장 중요한 두 사람으로 들고'로 바꿨다(인용: no one was more important in the creation of modern prose literature than Abdulla Qodiriy in Uzbek and Sadriddin Ayni in Tajik). 길이를 맞추려 '혁명 이후의 … 서술하면서'를 '혁명 이후 … 서술하며'로 줄였다."
+        },
+        {
+          "field": "relation:affinity--abdulla-qodiriy--sadriddin-ayni.summary",
+          "claim": "아이니는 계몽 논설에서 출발했다",
+          "resolution": "narrowed",
+          "evidence": "'아이니는 시와 계몽 논설에서'를 '아이니는 시에서'로 좁혔다(확정 주장: 1896년 시 「장미」)."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "1938년 처형 뒤 그의 이름이 공개된 자리에서 사라졌다",
+          "resolution": "narrowed",
+          "evidence": "'그의 이름과 책은'을 '그의 책은'으로 좁혔다(인용: его произведения были запрещены и не переиздавались)."
+        },
+        {
+          "field": "work:abdulla-qodiriy--kalvak-mahzum.significance",
+          "claim": "코디리의 풍자는 상황이 아니라 인물을 겨누었다(상황 웃음과의 대비)",
+          "resolution": "narrowed",
+          "evidence": "'상황이 아니라'를 지워 '코디리의 풍자가 인물 자체를 겨눈 지점이다'로 좁혔다(인용: „xarakter kulgusi“ darajasiga koʻtarildi)."
+        }
+      ]
+    }
+  ]
+}

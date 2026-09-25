@@ -1,0 +1,151 @@
+{
+  "fixes": [
+    {
+      "id": "jane-austen",
+      "importanceReason": "로이 패스컬은 인물의 생각과 서술자의 목소리를 한 문장에 겹치는 자유간접화법을 일관되게 쓴 최초의 소설가로 괴테와 오스틴을 꼽으며, 이 문체는 널리 모방되었다. 오스틴은 결혼이 곧 생계인 사회를 그리되, 주로 자신이 아는 영국 시골 젠트리의 좁은 세계에서 소재를 취한다. 오스틴과 함께 영국 소설은 사건의 크기가 아니라 평범한 일상을 사실적으로 다루는 길을 얻었다.",
+      "readingEntryReason": "이른 단계부터 인물의 대화를 직접 보여 주고, 독자는 엘리자베스의 시점에서 그녀의 편견과 오해를 함께 겪는다.",
+      "readingWarning": "『맨스필드 파크』나 『엠마』로 시작하면 주인공이 밉보이기 쉽다. 많은 현대 독자가 패니의 소심함에 공감하기 어려워한다.",
+      "difficultyReason": "작품 대부분이 1800년 이전에 초고로 쓰인 산문이고, 『오만과 편견』의 한정상속과 영지 수입 같은 재산 사정을 모르면 대화 속 이해관계가 흐려진다.",
+      "works": [
+        {
+          "id": "jane-austen--persuasion",
+          "significance": "설득에 밀려 파혼한 여성이 8년 뒤 재회하는 이야기. 불행한 주인공의 눈으로 평소보다 감정을 더 관찰한 사후 출간작."
+        },
+        {
+          "id": "jane-austen--mansfield-park",
+          "significance": "가난한 친척으로 들어간 소녀의 이야기이자, 저택의 재원이 식민지 농장임을 암시하는 가장 무거운 장편."
+        },
+        {
+          "id": "jane-austen--emma",
+          "significance": "부유하고 총명한 주인공의 착각을 서술이 함께 나누도록 설계되어, 이야기를 주인공 마음이라는 왜곡된 렌즈에 통과시킨 작품."
+        },
+        {
+          "id": "jane-austen--pride-and-prejudice",
+          "significance": "판단의 오류가 형성되고 교정되는 과정을 대화와 다아시의 편지로 서술한다. 자유간접화법 설명에 예문으로 쓰이는 작품."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "오스틴이 자유간접화법을 소설의 기본 도구로 정착시켰다",
+          "resolution": "corrected",
+          "evidence": "importanceReason 첫 문장의 '소설의 기본 도구로 정착시켜'를 교정문대로 '로이 패스컬은 … 자유간접화법을 일관되게 쓴 최초의 소설가로 괴테와 오스틴을 꼽으며, 이 문체는 널리 모방되었다'로 바꿨다(영어 위키백과 'Free indirect speech': \"Roy Pascal cites Goethe and Jane Austen as the first novelists to use this style consistently\"; \"This style would be widely imitated by later authors\"). 기법의 정의(인물의 생각과 서술자의 목소리를 겹침)는 확인된 주장(영어 위키백과 'Jane Austen')이라 남겼다. '이후 작가들에게'는 길이 때문에 뺐다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "이 기법으로 독자가 인물의 오판을 인물보다 조금 먼저 보게 만들었다",
+          "resolution": "narrowed",
+          "evidence": "작가 전체에 대한 '인물의 오판을 독자가 인물보다 조금 먼저 보게 만들었다'를 importanceReason에서 지웠다. 교정문은 『엠마』에만 해당하고(Guardian: \"We both share her judgments and watch her making them\"), 그 요지는 『엠마』 의의를 교정문(주장 35)대로 고친 문장 '주인공의 착각을 서술이 함께 나누도록 설계되어…'가 담는다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "오스틴은 한정상속과 연수입이 인물의 감정을 어떻게 규정하는지를 서술한다(작가 전체에 대한 일반화)",
+          "resolution": "narrowed",
+          "evidence": "작가 전체로 일반화한 '한정상속과 연수입이 감정을 어떻게 규정하는지를'을 importanceReason에서 지웠다. 한정상속은 『오만과 편견』의 설정이라(영어 위키백과: \"this estate is entailed and so can only be inherited in the male line\"), 그 작품 이름을 단 형태로 difficultyReason에만 남겼다(주장 18 교정). 확인된 '결혼이 곧 생계인 사회'(\"dependence of women on marriage for … economic security\")는 남겼다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "오스틴은 무도회와 방문과 편지라는 좁은 무대 안에서만 서술한다",
+          "resolution": "corrected",
+          "evidence": "'무도회와 방문과 편지라는 좁은 무대 안에서만 서술한다'를 교정문대로 '주로 자신이 아는 영국 시골 젠트리의 좁은 세계에서 소재를 취한다'로 바꿨다(브리태니커, Wayback 2024: \"drawing much of her material from the circumscribed world of English country gentlefolk that she knew\"). '~에서만'은 지웠다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "그 전환이 '이 방법'(자유간접화법)을 통해, 의식의 정확도로 승부하는 방식으로 이루어졌다",
+          "resolution": "narrowed",
+          "evidence": "확인되지 않은 인과('이 방법으로')와 '의식의 정확도로 승부하는'을 지우고, 확인된 주장(브리태니커 개관: \"the realistic treatment of unremarkable people in the unremarkable situations of everyday life\")대로 '오스틴과 함께 영국 소설은 사건의 크기가 아니라 평범한 일상을 사실적으로 다루는 길을 얻었다'로 좁혔다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『오만과 편견』은 대화 비중이 높다",
+          "resolution": "corrected",
+          "evidence": "'대화 비중이 높아'를 교정문대로 '이른 단계부터 인물의 대화를 직접 보여 주고'로 바꿨다(textview, Wayback 2024: '早い段階から人物の会話を直接提示'). '도입부에서 서술자가 상황을 자세히 설명하기보다'는 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『오만과 편견』은 플롯이 빠르다",
+          "resolution": "narrowed",
+          "evidence": "확인되지 않은 '플롯이 빠르고'를 readingEntryReason에서 지웠다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "서술자의 아이러니가 어느 인물의 어느 판단에 걸려 있는지 이 작품에서 가장 빨리 감지된다",
+          "resolution": "corrected",
+          "evidence": "'서술자의 아이러니가 어느 인물의 어느 판단에 걸려 있는지 가장 빨리 감지된다'를 교정문대로 '독자는 엘리자베스의 시점에서 그녀의 편견과 오해를 함께 겪는다'로 바꿨다(영어 위키백과 'Pride and Prejudice': \"Austen invites the reader to follow events from Elizabeth's viewpoint, sharing her prejudices and misapprehensions\"). '어조와 어휘를 따라'는 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『맨스필드 파크』의 주인공(패니)은 독자에게 밉살스럽게 보이기 쉽다",
+          "resolution": "corrected",
+          "evidence": "대조되지 않은 원인 절 '서술자의 아이러니가 인물의 판단과 겹쳐 읽혀'는 주장 15에서 반박되어 readingWarning에서 지웠고, 확인된 부분만 '…로 시작하면 주인공이 밉보이기 쉽다'로 남겼다('만'도 뺐다). 원인은 교정문대로 패니의 소심함으로 바꿨다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "주인공이 밉살스럽게 보이는 까닭은 서술자의 아이러니가 인물의 판단과 겹쳐 읽히기 때문이다",
+          "resolution": "corrected",
+          "evidence": "원인 절을 교정문대로 '많은 현대 독자가 패니의 소심함에 공감하기 어려워한다'로 바꿨다(영어 위키백과 'Mansfield Park': \"many modern readers find it difficult to sympathise with Fanny's timidity and her disapproval of the theatricals\"). 교정문의 '연극에 대한 반대'는 필드가 원문보다 길어져 넣지 않았다. 『엠마』에 대해서는 원인을 적지 않는다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "오스틴의 산문은 18세기 후반 산문이다",
+          "resolution": "corrected",
+          "evidence": "'18세기 후반 산문이라'를 교정문대로 '작품 대부분이 1800년 이전에 초고로 쓰인 산문이고'로 바꿨다(영어 위키백과 'Persuasion (novel)': \"Almost all of Austen's novels were written in the form of first drafts (now lost) from before 1800\"). '10여 년 뒤 생애 마지막 몇 해에 처음 출간된'은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "오스틴의 문장은 종속절이 길어 한 번에 넘기기 어렵다",
+          "resolution": "narrowed",
+          "evidence": "확인되지 않은 '종속절이 긴 … 문장을 한 번에 넘기기 어렵고'를 difficultyReason에서 지웠다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "한정상속과 연수입이라는 재산 제도가 대화 속 이해관계를 좌우한다",
+          "resolution": "corrected",
+          "evidence": "'한정상속과 연수입이라는 재산 제도'를 교정문대로 『오만과 편견』에 한정해 '『오만과 편견』의 한정상속과 영지 수입 같은 재산 사정'으로 바꿨다(영어 위키백과: \"this estate is entailed … he has failed to save out of the income from the Longbourn estate to provide for his daughters\"). 대조되지 않은 '아이러니의 표적이 함께'는 지웠다."
+        },
+        {
+          "field": "work:jane-austen--persuasion.significance",
+          "claim": "감정(회한)이 전면에 나온 작품이다",
+          "resolution": "corrected",
+          "evidence": "'회한이 전면에 나온 후기작이며 사후에 출간되었다'를 교정문대로 '불행한 주인공의 눈으로 평소보다 감정을 더 관찰한 사후 출간작'으로 바꿨다(울프 「제인 오스틴」: \"through the eyes of a woman who, unhappy herself\"; \"the observation is less of facts and more of feelings than is usual\"). 필드 길이 때문에 '후기작'과 '사실보다는'을 줄였다."
+        },
+        {
+          "field": "work:jane-austen--persuasion.significance",
+          "claim": "『설득』에서 문장이 짧아졌다",
+          "resolution": "narrowed",
+          "evidence": "확인되지 않은 '문장이 짧아지고'를 『설득』 의의에서 지웠다."
+        },
+        {
+          "field": "work:jane-austen--mansfield-park.significance",
+          "claim": "소녀(패니)의 시선에서 저택의 도덕적 기반과 그 재원인 식민지 농장을 함께 비춘다",
+          "resolution": "narrowed",
+          "evidence": "'소녀의 시선에서 저택의 도덕적 기반과 … 함께 비추는' 구조를 지우고 확인된 부분만 남겨 '가난한 친척으로 들어간 소녀의 이야기이자, 저택의 재원이 식민지 농장임을 암시하는 가장 무거운 장편'으로 좁혔다(영어 위키백과: \"with the status of a dependent poor relation\"; \"Although not explicitly stated in the novel, allusions are made to the fact that … Mansfield Park, is built on the proceeds of his slave plantation in Antigua\"). 교정문(토멀린·사우섬의 노예무역 장면 해석)은 한 장면에 대한 비평가 해석이고 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "work:jane-austen--emma.significance",
+          "claim": "구성상 독자가 주인공의 오독을 인물보다 조금 먼저 보게 된다",
+          "resolution": "corrected",
+          "evidence": "'오독을 독자가 인물보다 조금 먼저 보게 만드는 구성'을 교정문대로 '주인공의 착각을 서술이 함께 나누도록 설계되어, 이야기를 주인공 마음이라는 왜곡된 렌즈에 통과시킨'으로 바꿨다(Guardian 2015: \"it was designed to share her delusions. The novel bent narration through the distorting lens of its protagonist’s mind\")."
+        },
+        {
+          "field": "work:jane-austen--emma.significance",
+          "claim": "서술자와 인물의 목소리가 오스틴 작품 가운데 가장 촘촘히 겹치는 작품이다",
+          "resolution": "corrected",
+          "evidence": "'서술자와 인물의 목소리가 가장 촘촘히 겹치는 작품'을 교정문대로 '이야기를 주인공 마음이라는 왜곡된 렌즈에 통과시킨 작품'으로 바꿔 주장 35의 교정과 한 문장으로 합쳤다. 뒷받침 없는 최상급 '가장'은 지웠다."
+        },
+        {
+          "field": "work:jane-austen--pride-and-prejudice.significance",
+          "claim": "그 형성과 교정을 대화의 리듬만으로 서술한다",
+          "resolution": "corrected",
+          "evidence": "'대화의 리듬만으로'를 교정문대로 '대화와 다아시의 편지로'로 바꿨다(영어 위키백과 'Pride and Prejudice': \"through his letter, the reader and Elizabeth are given insight into Darcy's feelings and motivations in his own voice\"). 편지가 위컴의 실체를 드러낸다는 뒷부분은 길이 때문에 넣지 않았다. '어떻게 형성되고 교정되는지를'은 같은 뜻으로 '형성되고 교정되는 과정을'로 줄였다."
+        },
+        {
+          "field": "work:jane-austen--pride-and-prejudice.significance",
+          "claim": "자유간접화법의 교과서적 사례로 인용되는 작품이다",
+          "resolution": "corrected",
+          "evidence": "'자유간접화법의 교과서적 사례로 인용되는 작품'을 교정문대로 '자유간접화법 설명에 예문으로 쓰이는 작품'으로 바꿨다(영어 위키백과 'Free indirect speech': \"How differently did every thing now appear in which he was concerned\", an example from Pride and Prejudice)."
+        }
+      ]
+    }
+  ]
+}

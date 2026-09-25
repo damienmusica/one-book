@@ -1,0 +1,690 @@
+{
+ "plates": [
+  {
+   "id": "maryse-conde",
+   "claims": [
+    {
+     "sids": [
+      "13f5a1bb84df"
+     ],
+     "field": "author.facts",
+     "claim": "마리즈 콩데(Maryse Condé)는 1934년에 태어나 2024년에 사망했다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Maryse_Cond%C3%A9",
+     "quote": "11 February 1934 – 2 April 2024) was a French novelist, critic, and playwright from the French Overseas department and region of Guadeloupe"
+    },
+    {
+     "sids": [
+      "13f5a1bb84df"
+     ],
+     "field": "author.facts",
+     "claim": "콩데는 프랑스어로 썼다(fr)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Maryse_Cond%C3%A9",
+     "quote": "Her novels, written in French, have been translated into English, German, Dutch, Italian, Spanish, Portuguese, and Japanese."
+    },
+    {
+     "sids": [
+      "13f5a1bb84df"
+     ],
+     "field": "author.facts",
+     "claim": "콩데는 카리브(과들루프) 출신 작가다",
+     "verdict": "confirmed",
+     "url": "https://www.foxnews.com/entertainment/acclaimed-novelist-maryse-conde-grande-dame-caribbean-literature-dies-90.print",
+     "quote": "Maryse Condé, a celebrated French-language novelist from Guadeloupe known for her works spanning novels, stories, plays and memoirs, has died at 90."
+    },
+    {
+     "sids": [
+      "269ee90f0f14"
+     ],
+     "field": "author.importanceReason",
+     "claim": "티투바는 세일럼 마녀재판에서 가장 긴 축에 드는 진술 기록을 남겼다",
+     "verdict": "confirmed",
+     "url": "https://www.smithsonianmag.com/history/unraveling-mysteries-tituba-salem-witch-trials-180956960/",
+     "quote": "And she was expansive: Hers is among the longest of all Salem testimonies."
+    },
+    {
+     "sids": [
+      "269ee90f0f14"
+     ],
+     "field": "author.importanceReason",
+     "claim": "티투바는 재판 이후의 행적이 기록에서 끊긴다",
+     "verdict": "confirmed",
+     "url": "https://www.smithsonianmag.com/history/unraveling-mysteries-tituba-salem-witch-trials-180956960/",
+     "quote": "She finally went on trial for having covenanted with the devil on May 9, 1693, after 15 harrowing months in prison. The jury declined to indict her. … She disappears from the record"
+    },
+    {
+     "sids": [
+      "269ee90f0f14"
+     ],
+     "field": "author.importanceReason",
+     "claim": "콩데는 티투바를 1인칭 화자로 불러냈다(『나, 티투바』)",
+     "verdict": "confirmed",
+     "url": "https://www.ebsco.com/research-starters/literature-and-writing/i-tituba-black-witch-salem-maryse-conde/",
+     "quote": "reimagines the life of Tituba, a key figure in the Salem witch trials of 1692. … Tituba's story is told in her own voice"
+    },
+    {
+     "sids": [
+      "269ee90f0f14"
+     ],
+     "field": "author.importanceReason",
+     "claim": "콩데는 서아프리카 왕국사를 대하소설(saga) 규모로 썼다(『세구』)",
+     "verdict": "confirmed",
+     "url": "https://www.thenationalnews.com/arts-culture/book-review-segu-tells-tale-of-an-epic-journey-through-pre-colonial-africa-1.58130",
+     "quote": "Segu is a saga, one whose many plot strands and family lines take us in and out of Africa"
+    },
+    {
+     "sids": [
+      "7c058fe96361"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세구』는 밤바라 왕국의 붕괴를 서술한다",
+     "verdict": "contradicted",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9gou_(roman)",
+     "quote": "Ségou est un roman de Maryse Condé décrivant la grandeur puis le lent déclin de l'empire bambara",
+     "correction": "『세구』는 밤바라 왕국의 번영과 느린 쇠퇴를 한 가문 3대의 개종·노예화·이산으로 서술해",
+     "note": "출처는 '붕괴'가 아니라 '번영 뒤의 느린 쇠퇴'라고 쓴다. 1984년판(1권)은 1797–1860년을 다루며, 세구의 실제 함락(1861)은 이 권의 시기 밖이다(en.wikipedia Segu (novel): 'during the period from 1797 to 1860')."
+    },
+    {
+     "sids": [
+      "7c058fe96361"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세구』는 한 가문(트라오레가) 아들들의 개종·노예화·이산을 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.thenationalnews.com/arts-culture/book-review-segu-tells-tale-of-an-epic-journey-through-pre-colonial-africa-1.58130",
+     "quote": "first-born Tiekoro covertly embraces Islam … Naba is kidnapped by slave traders, manhandled until “he no longer counted as a human being”, and shipped off to a plantation in Brazil."
+    },
+    {
+     "sids": [
+      "7c058fe96361"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세구』의 가문 이야기는 3대(가장의 손자 세대)에 걸친다",
+     "verdict": "confirmed",
+     "url": "https://lithub.com/constructing-blackness-reading-my-identity-in-maryse-condes-segu/",
+     "quote": "The generation we are left with, grandsons of the narrative’s first patriarch, abandon dominance for survival"
+    },
+    {
+     "sids": [
+      "7c058fe96361"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『세구』는 아프리카를 향수의 대상이 아니라 스스로 분열하는 역사로 다룬다",
+     "verdict": "confirmed",
+     "url": "https://mdbrady.wordpress.com/2014/09/07/segu-by-maryse-conde/",
+     "quote": "Conde never idealizes Africans or their lives in the past. The book is about an Africa where Africans are fighting each other for domination, including the right to define religion for others.",
+     "note": "출처는 개인 서평 블로그(Me, you, and books). 해석적 진술이므로 '~로 읽힌다'식 귀속 표현이 더 안전하다. fr.wikipedia도 가문의 'lente et multiforme décomposition annonce celle de l'Afrique libre'라고 쓴다."
+    },
+    {
+     "sids": [
+      "7444cf22d131"
+     ],
+     "field": "author.importanceReason",
+     "claim": "콩데의 아이러니·육체적 유머를 지닌 카리브 여성 1인칭이 이후 프랑스어권 흑인 여성 서사가 반복해 참조하는 어조가 되었다",
+     "verdict": "unverifiable",
+     "note": "영향 관계를 말하는 출처를 찾지 못했다. 가장 가까운 것은 골드스미스 학회 초록(https://sites.gold.ac.uk/comparative-literature/maryse-conde-and-caribbean-crossings-abstracts-and-biographies/)으로, 젊은 카리브 여성 작가들이 콩데의 '전 지구적' 카리브 비전에서 무엇을 물려받았는지 묻는 발표일 뿐 어조의 계승을 말하지 않는다. 문장 삭제 또는 출처 확보 필요."
+    },
+    {
+     "sids": [
+      "e449382e0b6f"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『나, 티투바』 원판은 280쪽이 안 된다",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/books/OL2424812M.json",
+     "quote": "\"pagination\": \"276 p. ;\"",
+     "note": "Mercure de France 1986 초판 276쪽, Folio 1988 277쪽. 번역판은 186–304쪽(스페인어 Impedimenta 2022판 304쪽)."
+    },
+    {
+     "sids": [
+      "e449382e0b6f"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『나, 티투바』는 1인칭 서술이다",
+     "verdict": "confirmed",
+     "url": "https://www.uvic.ca/humanities/sllc/_assets/docs/pii-cl%C3%A9ment-projet-final.pdf",
+     "quote": "La narration est donc produite à la première personne et Tituba utilise un « je »"
+    },
+    {
+     "sids": [
+      "e449382e0b6f"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『나, 티투바』의 무대는 세일럼 마녀재판이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Maryse_Cond%C3%A9",
+     "quote": "including the Salem witch trials in I, Tituba: Black Witch of Salem (1986)"
+    },
+    {
+     "sids": [
+      "16dfe16c1942"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『나, 티투바』는 콩데의 아이러니와 육체성이 가장 선명하게 드러나는 작품이다",
+     "verdict": "unverifiable",
+     "note": "콩데 작품들 사이의 순위를 매긴 출처를 찾지 못했다. Acta fabula 서평(https://www.fabula.org/revue/document19158.php)은 『티투바』·『맹그로브 횡단』·『라 벨 크레올』에 걸쳐 'l’ironie qui lui est caractéristique'를 말할 뿐 이 작품을 최상급으로 꼽지 않는다. '가장'을 빼고 '아이러니와 육체성이 선명한 작품'으로 낮추면 EBSCO('passionate sexuality')로 뒷받침 가능."
+    },
+    {
+     "sids": [
+      "2cd58a3ab37b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『세구』 초반 100쪽에 인명과 씨족 관계가 몰려 있다",
+     "verdict": "unverifiable",
+     "note": "초반부의 인명 밀도를 말하는 출처를 찾지 못했다. The National 서평은 소설 전체가 'so well populated'하다고만 쓴다."
+    },
+    {
+     "sids": [
+      "c8a0ce883082"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세구』는 사건 추진력이 강하다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Segu_(novel)",
+     "quote": "Condé has written a rich, fast-paced saga of a great kingdom during the tumultuous period of the slave trade and the coming of Islam.",
+     "note": "작가 폴 마셜의 평. 귀속 표현 권장."
+    },
+    {
+     "sids": [
+      "c8a0ce883082"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "콩데의 문장은 투명하다",
+     "verdict": "unverifiable",
+     "note": "평가 진술로, 이를 말하는 출처를 찾지 못했다. The National 서평은 오히려 'tough, terse, uncompromising language'와 'lyrical bursts'가 섞인 'varied' 산문이라 쓴다."
+    },
+    {
+     "sids": [
+      "c8a0ce883082"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세구』는 500쪽에 이르는 분량이다",
+     "verdict": "confirmed",
+     "url": "https://laffont.ca/livre/segou-tome-1-les-murailles-de-terre/",
+     "quote": "Pages: 496",
+     "note": "Robert Laffont 1권(2019 재판) 496쪽, Penguin 영역본 512쪽(PenguinRandomHouse)."
+    },
+    {
+     "sids": [
+      "c8a0ce883082"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세구』에는 밤바라·풀라니·이슬람 세력이 얽힌다",
+     "verdict": "confirmed",
+     "url": "https://thepoint.gm/book-review/segu-by-maryse-conde",
+     "quote": "he saw in them a danger worse than that of the Fulani and all the other Muslims combined."
+    },
+    {
+     "sids": [
+      "c8a0ce883082"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세구』의 시대 배경은 19세기 서아프리카다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Segu_(novel)",
+     "quote": "it is an African saga that examines the violent impact of the slave trade, Islam, Christianity, and white colonization on a royal family during the period from 1797 to 1860."
+    },
+    {
+     "sids": [
+      "c8a0ce883082"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『세구』는 등장인물이 매우 많다(수십 명의 인명)",
+     "verdict": "confirmed",
+     "url": "https://www.thenationalnews.com/arts-culture/book-review-segu-tells-tale-of-an-epic-journey-through-pre-colonial-africa-1.58130",
+     "quote": "Condé’s epic novel is so well populated and so wide-ranging that we do not linger long over a sole character"
+    },
+    {
+     "sids": [
+      "fbf5942ecaed"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『맹그로브 횡단』은 열아홉 명의 목소리가 돌아가며 서술한다",
+     "verdict": "confirmed",
+     "url": "https://pages.mtu.edu/~rlstrick/rsvtxt/faulkner/mitsch.pdf",
+     "quote": "the veillée is a collective, community experience wherein nineteen voices interweave as in a baroque musical exercise.",
+     "note": "Mitsch, 'Maryse Condé's Mangroves', Research in African Literatures, p.59(스캔본 판독). UVic 논문도 'dix-neuf personnages'라 쓰되, 서술은 대부분 3인칭이고 일부 인물만 1인칭이라고 덧붙인다."
+    },
+    {
+     "sids": [
+      "fbf5942ecaed"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『맹그로브 횡단』은 사건을 조각으로만 준다",
+     "verdict": "confirmed",
+     "url": "https://pages.mtu.edu/~rlstrick/rsvtxt/faulkner/mitsch.pdf",
+     "quote": "Condé’s piece-meal, fragmented presentation reflects the thought that to seek out filiation or origins, which is the task of the classical hero, or his quest, presents as impasse for the Antillean subject",
+     "note": "Mitsch p.59, Lionnet의 논의를 요약한 문장."
+    },
+    {
+     "sids": [
+      "afff3f3fd823"
+     ],
+     "field": "work:maryse-conde--traversee-de-la-mangrove.facts",
+     "claim": "『맹그로브 횡단』(Traversée de la mangrove)은 1989년 소설이다",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/search.json?q=Traversee+de+la+mangrove+Conde",
+     "quote": "\"title\":\"Traversée de la mangrove\"",
+     "note": "같은 응답의 \"first_publish_year\":1989. Mitsch도 'Crossing the Mangrove (1989), a tale set in the Caribbean'. 브뤼지에 PUR 논문의 '(1988)'은 오기."
+    },
+    {
+     "sids": [
+      "7f807ed7b10c"
+     ],
+     "field": "work:maryse-conde--traversee-de-la-mangrove.significance",
+     "claim": "과들루프의 한 마을에서 이방인의 시신이 발견된다",
+     "verdict": "contradicted",
+     "url": "https://www.penguinrandomhouse.com/books/30516/crossing-the-mangrove-by-maryse-conde/",
+     "quote": "Francis Sancher–a handsome outsider, loved by some and reviled by others–is found dead, face down in the mud on a path outside Riviere au Sel, a small village in Guadeloupe.",
+     "correction": "과들루프의 작은 마을 리비에르 오 셀 바깥 오솔길에서 시신으로 발견된 이방인을 두고 밤샘 조문객들이 차례로 입을 여는 구성.",
+     "note": "시신은 마을 안이 아니라 마을 밖 오솔길에서 발견된다."
+    },
+    {
+     "sids": [
+      "7f807ed7b10c"
+     ],
+     "field": "work:maryse-conde--traversee-de-la-mangrove.significance",
+     "claim": "밤샘 조문객들이 차례로 (연설 또는 내적) 독백을 하는 구성이다",
+     "verdict": "confirmed",
+     "url": "https://www.penguinrandomhouse.com/books/30516/crossing-the-mangrove-by-maryse-conde/",
+     "quote": "As the villagers come to pay their respects they each–either in a speech to the mourners, or in an internal monologue–reveal another piece of the mystery behind Sancher’s life and death."
+    },
+    {
+     "sids": [
+      "a7b6ab3e8f2f"
+     ],
+     "field": "work:maryse-conde--traversee-de-la-mangrove.significance",
+     "claim": "소설은 크레올 사회의 계급·피부색 구분을 드러낸다",
+     "verdict": "confirmed",
+     "url": "https://www.penguinrandomhouse.com/books/30516/crossing-the-mangrove-by-maryse-conde/",
+     "quote": "Conde conveys the many subtle distinctions of color, class, and language that made up this society.",
+     "note": "Chicago Tribune 평(출판사 페이지 인용)."
+    },
+    {
+     "sids": [
+      "a7b6ab3e8f2f"
+     ],
+     "field": "work:maryse-conde--traversee-de-la-mangrove.significance",
+     "claim": "소설은 인종과 성(젠더)의 갈등을 드러낸다",
+     "verdict": "confirmed",
+     "url": "https://www.uvic.ca/humanities/sllc/_assets/docs/pii-cl%C3%A9ment-projet-final.pdf",
+     "quote": "Au cœur de ces conflits, se trouve la problématique de la différence de couleur, de race et de genre et d’une apparente appartenance."
+    },
+    {
+     "sids": [
+      "c24263205614"
+     ],
+     "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.facts",
+     "claim": "『웃고 우는 마음』(Le Cœur à rire et à pleurer)은 1999년작이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Maryse_Cond%C3%A9",
+     "quote": "Le cœur à rire et à pleurer : souvenirs de mon enfance (1999).",
+     "note": "Le Temps 서평 게재일 1999-01-30. AP 부고는 영어판 기준인지 1998로 적는데 원서 연도와 다르다."
+    },
+    {
+     "sids": [
+      "c24263205614",
+      "44b1cb6afb4d"
+     ],
+     "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.facts",
+     "claim": "『웃고 우는 마음』은 유년을 회상한 자전 산문(에세이)이다",
+     "verdict": "confirmed",
+     "url": "https://sohopress.com/books/tales-from-the-heart/",
+     "quote": "In this collection of autobiographical essays, Maryse Condé vividly evokes the relationships and events that gave her childhood meaning"
+    },
+    {
+     "sids": [
+      "44b1cb6afb4d"
+     ],
+     "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.significance",
+     "claim": "『웃고 우는 마음』은 짧은 장면들(vignettes)로 이루어진다",
+     "verdict": "confirmed",
+     "url": "https://sohopress.com/books/tales-from-the-heart/",
+     "quote": "These gemlike vignettes capture the spirit of Condé’s fiction"
+    },
+    {
+     "sids": [
+      "44b1cb6afb4d"
+     ],
+     "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.significance",
+     "claim": "콩데는 과들루프 흑인 부르주아 가정에서 자랐다",
+     "verdict": "confirmed",
+     "url": "https://www.letemps.ch/culture/livres-maryse-conde-coeur-rire-pleurer",
+     "quote": "soucieux de tenir sa place au sein de l'étouffante bourgeoisie antillaise. … Pourtant ces parents si soucieux de respectabilité n'ont aucune honte de leur couleur, au contraire, ils sont «noiristes» et fiers de l'être."
+    },
+    {
+     "sids": [
+      "8c3c681748b8"
+     ],
+     "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.significance",
+     "claim": "부모는 스스로를 '프랑스인'으로 여겼다",
+     "verdict": "contradicted",
+     "url": "https://www.letemps.ch/culture/livres-maryse-conde-coeur-rire-pleurer",
+     "quote": "«Ils copiaient les Français en tout», se rappelle Maryse Condé en riant",
+     "correction": "부모가 모든 면에서 프랑스인을 본뜨던 세계를 안에서 기록해, 콩데 소설의 문제의식이 어디서 왔는지 보여 준다.",
+     "note": "출처는 '프랑스인을 본떴다'(와 아이들을 'petits Français'처럼 차려입혔다)고 쓸 뿐, 부모가 자신을 프랑스인이라 여겼다고는 하지 않는다. 같은 서평은 부모가 흑인임을 자랑하는 'noiristes'였다고 쓴다."
+    },
+    {
+     "sids": [
+      "8c3c681748b8"
+     ],
+     "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.significance",
+     "claim": "이 책은 콩데의 작가 의식이 어디서 생겨났는지 보여 준다",
+     "verdict": "confirmed",
+     "url": "https://www.letemps.ch/culture/livres-maryse-conde-coeur-rire-pleurer",
+     "quote": "Pour comprendre l'adulte qu'elle est devenue, la romancière antillaise sauve des éclats de mémoire. Un passionnant éclairage sur la naissance d'une conscience."
+    },
+    {
+     "sids": [
+      "d3f3163eeac7"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.facts",
+     "claim": "『나, 티투바, 세일럼의 검은 마녀』(Moi, Tituba sorcière... Noire de Salem)는 1986년작이다",
+     "verdict": "confirmed",
+     "url": "https://www.ebsco.com/research-starters/literature-and-writing/i-tituba-black-witch-salem-maryse-conde/",
+     "quote": "FIRST PUBLISHED: Moi, Tituba, Sorcière . . . Noire de Salem , 1986 (English translation, 1992)"
+    },
+    {
+     "sids": [
+      "d3f3163eeac7"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.facts",
+     "claim": "『나, 티투바』의 장르는 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://www.ebsco.com/research-starters/literature-and-writing/i-tituba-black-witch-salem-maryse-conde/",
+     "quote": "\"I, Tituba, Black Witch of Salem\" by Maryse Condé is a historical fiction novel"
+    },
+    {
+     "sids": [
+      "03303e44a6ad"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.significance",
+     "claim": "역사 속 티투바는 1692년 심문에서 자백했다",
+     "verdict": "confirmed",
+     "url": "https://www.smithsonianmag.com/history/unraveling-mysteries-tituba-salem-witch-trials-180956960/",
+     "quote": "Tituba came before the authorities in Salem Village on March 1, 1692, to answer to witchcraft charges. … The local authorities seemed to understand before she opened her mouth that she had a confession to offer."
+    },
+    {
+     "sids": [
+      "03303e44a6ad"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.significance",
+     "claim": "티투바의 재판 이후 행적은 기록에서 끊긴다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Tituba",
+     "quote": "What happened to her after a grand jury dismissed the case against her in May 1693 is unknown."
+    },
+    {
+     "sids": [
+      "03303e44a6ad"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.significance",
+     "claim": "티투바가 바베이도스를 거쳐 왔다는 것은 추정이며 출신지는 사료로 확정되지 않았다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Tituba",
+     "quote": "Later historians have taken this to mean the Caribbean or more specifically Barbados (an English colony), but this is speculation."
+    },
+    {
+     "sids": [
+      "03303e44a6ad"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.significance",
+     "claim": "소설은 티투바를 1인칭 화자로 세워 세일럼 마녀재판을 다시 상상한다",
+     "verdict": "confirmed",
+     "url": "https://www.ebsco.com/research-starters/literature-and-writing/i-tituba-black-witch-salem-maryse-conde/",
+     "quote": "reimagines the life of Tituba, a key figure in the Salem witch trials of 1692. … Tituba's story is told in her own voice"
+    },
+    {
+     "sids": [
+      "03303e44a6ad"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.significance",
+     "claim": "소설은 흑인 여성 티투바의 신체와 성애를 전면에 둔다",
+     "verdict": "confirmed",
+     "url": "https://publications.essex.ac.uk/esj/article/id/44/",
+     "quote": "Tituba is aware of her own body and what gives her pleasure",
+     "note": "Essex Student Journal(학부생 학술지). EBSCO Research Starters도 'Her loving nature is also expressed through her passionate sexuality'."
+    },
+    {
+     "sids": [
+      "8ff9113d9578"
+     ],
+     "field": "work:maryse-conde--moi-tituba-sorciere.significance",
+     "claim": "『나, 티투바』는 콩데의 국제적 대표작이다",
+     "verdict": "contradicted",
+     "url": "https://www.foxnews.com/entertainment/acclaimed-novelist-maryse-conde-grande-dame-caribbean-literature-dies-90.print",
+     "quote": "ranging from historical explorations such as \"Segu,\" her best known novel, to the autobiographical stories",
+     "correction": "『세구』와 함께 콩데에게 대중적·비평적 성공을 안긴 작품으로, 미국에서 특히 호평받았다.",
+     "note": "AP는 『세구』를 대표작('best known novel')이자 콩데를 국제적 이름으로 만든 작품으로 적는다. AFP(Malay Mail): 'She found popular and critical success with novels like \"Segu\" and \"I, Tituba, Black Witch of Salem\"' / 'That won her American acclaim'."
+    },
+    {
+     "sids": [
+      "7d526f1c4f25"
+     ],
+     "field": "work:maryse-conde--segou.facts",
+     "claim": "『세구』(Ségou)는 1984년 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Segu_(novel)",
+     "quote": "is a French novel by Maryse Condé published in May 1984. It was Condé's third novel.",
+     "note": "1984는 1권 『Les Murailles de terre』의 연도. 2권 『La Terre en miettes』는 1985."
+    },
+    {
+     "sids": [
+      "f195ad2e1c9d"
+     ],
+     "field": "work:maryse-conde--segou.significance",
+     "claim": "『세구』는 18세기 말 밤바라 왕국의 한 귀족 가문 이야기다",
+     "verdict": "confirmed",
+     "url": "https://laffont.ca/livre/segou-tome-1-les-murailles-de-terre/",
+     "quote": "Ségou, c’est, à la fin du XVIII e siècle, entre Bamako et Tombouctou – dans l’actuel Mali –, un royaume qui tire sa puissance de la guerre. … Les quatre fils de ce noble bambara proche du pouvoir royal"
+    },
+    {
+     "sids": [
+      "f195ad2e1c9d"
+     ],
+     "field": "work:maryse-conde--segou.significance",
+     "claim": "가문은 이슬람·노예무역·유럽(백인)의 진출의 충격을 받는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Segu_(novel)",
+     "quote": "examines the violent impact of the slave trade, Islam, Christianity, and white colonization on a royal family during the period from 1797 to 1860."
+    },
+    {
+     "sids": [
+      "f195ad2e1c9d"
+     ],
+     "field": "work:maryse-conde--segou.significance",
+     "claim": "가문은 브라질·유럽·앤틸리스 등으로 흩어진다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9gou_(roman)",
+     "quote": "La suite du récit raconte les péripéties que rencontrent les descendants de ces quatre personnages entremêlés avec les évènements qui ont marqué le XVIIIe siècle et le IXe siècle africains, avec des prolongements y compris en Europe, au Brésil et aux Antilles."
+    },
+    {
+     "sids": [
+      "f195ad2e1c9d"
+     ],
+     "field": "work:maryse-conde--segou.significance",
+     "claim": "이야기는 3대(가장의 손자 세대까지)에 걸친다",
+     "verdict": "confirmed",
+     "url": "https://lithub.com/constructing-blackness-reading-my-identity-in-maryse-condes-segu/",
+     "quote": "The generation we are left with, grandsons of the narrative’s first patriarch, abandon dominance for survival"
+    },
+    {
+     "sids": [
+      "45b039c5a998"
+     ],
+     "field": "work:maryse-conde--segou.significance",
+     "claim": "『세구』는 아프리카사를 카리브 작가가 대하 서사 규모로 다룬 대표적 사례다",
+     "verdict": "confirmed",
+     "url": "https://www.penguinrandomhouse.com/books/323865/segu-by-maryse-conde/",
+     "quote": "Segu , her masterpiece, is the mother of diaspora epics.",
+     "note": "The New Yorker 평(출판사 페이지 인용). 귀속 표현 권장."
+    },
+    {
+     "sids": [
+      "c2ae1f09e180"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.facts",
+     "claim": "포크너가 콩데에게 영향을 주었다(방향 포크너→콩데, documented_influence)",
+     "verdict": "confirmed",
+     "url": "https://pages.mtu.edu/~rlstrick/rsvtxt/faulkner/mitsch.pdf",
+     "quote": "Yet Condé has spoken many times of the significance of US-American author William Faulkner as a favorite writer; thus we cannot dismiss a link with As I Lay Dying, The Sound and the Fury, or other of his works.",
+     "note": "Mitsch, Research in African Literatures, p.58(스캔본 판독). 이 근거는 현재 관계의 sourceIds(브뤼지에 두 저작)에 없다 — 출처 추가를 권한다."
+    },
+    {
+     "sids": [
+      "c2ae1f09e180"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.facts",
+     "claim": "이 영향 관계의 증거 수준은 학계 합의(scholarly_consensus)다",
+     "verdict": "unverifiable",
+     "note": "합의를 진술하는 출처를 찾지 못했다. 확인된 것은 개별 연구 둘(Mitsch; Brugier 2019 학위논문·2024 단행본)과, Mitsch가 전하는 콩데 본인의 반복 언급뿐이다. 증거 수준은 '작가 자신의 진술(이차 문헌 경유)'로 낮추는 편이 정확하다."
+    },
+    {
+     "sids": [
+      "4ca6eaa9eb3b"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.summary",
+     "claim": "『맹그로브 횡단』은 1989년작이다",
+     "verdict": "confirmed",
+     "url": "https://pages.mtu.edu/~rlstrick/rsvtxt/faulkner/mitsch.pdf",
+     "quote": "A different tree assumes primacy in her Crossing the Mangrove (1989), a tale set in the Caribbean."
+    },
+    {
+     "sids": [
+      "4ca6eaa9eb3b"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.summary",
+     "claim": "『맹그로브 횡단』은 시신을 둘러싼 밤샘에서 마을 사람들이 차례로 말하는 구성이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20260210122615/https://books.openedition.org/pur/259284",
+     "quote": "Le texte se structure autour d’une veillée : les habitants de Rivière aux Sel, un village situé entre bois et mangrove, racontent tour à tour leurs souvenirs de Francis Sancher"
+    },
+    {
+     "sids": [
+      "926a48365981",
+      "47c7b6f430f7"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.summary",
+     "claim": "쥘리 브뤼지에는 『맹그로브 횡단』과 『압살롬, 압살롬!』을 글리상의 '다른 아메리카' 틀에서 나란히 읽었다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20260210122615/https://books.openedition.org/pur/259284",
+     "quote": "engager une réflexion sur la littérature littorale atlantique à partir d’un faisceau de notions proposées par Édouard Glissant, dont j’esquisserai dans un premier temps les contours, pour ensuite analyser deux romans, Absalon, Absalon ! (1936) de William Faulkner et Traversée de la mangrove (1988), de Maryse Condé, à partir de ce cadre théorique.",
+     "note": "openedition.org 직접 접근은 Anubis 봇 검사로 막혀 Wayback 스냅숏(2026-02-10)으로 읽었다. 같은 글: 'L’expression « Autre Amérique », empruntée à Édouard Glissant'."
+    },
+    {
+     "sids": [
+      "47c7b6f430f7"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.summary",
+     "claim": "브뤼지에의 『Marginalité et communauté dans le roman. Maryse Condé, William Faulkner et Rachel de Queiroz』가 Classiques Garnier에서 2024년 나왔다",
+     "verdict": "confirmed",
+     "url": "https://www.fabula.org/actualites/119965/julie-brugier-marginalite-et-communaute-dans-le-roman-maryse-conde.html",
+     "quote": "Julie Brugier, Marginalité et communauté dans le roman. Maryse Condé, William Faulkner et Rachel de Queiroz Paris, Classiques Garnier, coll. \"Perspectives comparatistes\", 2024"
+    },
+    {
+     "sids": [
+      "47c7b6f430f7"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.summary",
+     "claim": "이 책은 브뤼지에의 박사논문을 발전시킨 것이다",
+     "verdict": "unverifiable",
+     "note": "theses.fr(https://theses.fr/api/v1/theses/these/2019PA100127)에 Julie Brugier의 2019-12-02 심사 학위논문 'Marginalité et communauté dans l'oeuvre romanesque de Maryse Condé, William Faulkner et Rachel de Queiroz'가 있어 개연성은 높지만, 책이 그 논문에서 나왔다고 진술하는 출처는 찾지 못했다. 접근 대기: https://classiques-garnier.com/marginalite-et-communaute-dans-le-roman-maryse-conde-william-faulkner-et-rachel-de-queiroz.html (Cloudflare 확인 페이지, Wayback 사본은 본문 없음)."
+    },
+    {
+     "sids": [
+      "47c7b6f430f7"
+     ],
+     "field": "relation:influence--william-faulkner--maryse-conde.summary",
+     "claim": "이 책은 콩데와 포크너(및 케이로스)의 공동체·주변성 시학을 비교한다",
+     "verdict": "confirmed",
+     "url": "https://www.fabula.org/actualites/119965/julie-brugier-marginalite-et-communaute-dans-le-roman-maryse-conde.html",
+     "quote": "Les imaginaires romanesques de la communauté et de la marginalité chez Condé, Faulkner et Queiroz, situés dans leur contexte d’écriture, montrent les enjeux poétiques et politiques de cette question"
+    },
+    {
+     "sids": [
+      "806ccda1a6d5"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.facts",
+     "claim": "콩데와 모리슨은 친연(affinity, 양방향) 관계로 함께 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://www.classiques.uqam.ca/contemporains/gyssels_kathleen/sages_sorcieres/Sages_sorcieres_IMAGE.pdf",
+     "quote": "« Sages sorcières? » Révision de la mauvaise mère dans Beloved (Toni Morrison), Praisesong for the Widow (Paule Marshall), et Moi, Tituba, sorcière noire de Salem (Maryse Condé)"
+    },
+    {
+     "sids": [
+      "806ccda1a6d5"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.facts",
+     "claim": "이 친연 관계의 증거 수준은 학계 합의(scholarly_consensus)다",
+     "verdict": "unverifiable",
+     "note": "합의를 진술하는 출처는 없다. 두 소설을 함께 읽는 연구는 최소 둘(Gyssels 2001, Guess·Ohmer 2024) 확인된다. 현재 sourceIds에는 Guess·Ohmer 하나뿐이므로 Gyssels 추가를 권한다."
+    },
+    {
+     "sids": [
+      "fd5fcaf3ae2a"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+     "claim": "『나, 티투바』와 『빌러비드』를 나란히 읽는 비평이 여럿 있다(계보)",
+     "verdict": "confirmed",
+     "url": "https://www.classiques.uqam.ca/contemporains/gyssels_kathleen/sages_sorcieres/Sages_sorcieres_IMAGE.pdf",
+     "quote": "« Sages sorcières? » Révision de la mauvaise mère dans Beloved (Toni Morrison), Praisesong for the Widow (Paule Marshall), et Moi, Tituba, sorcière noire de Salem (Maryse Condé)",
+     "note": "Kathleen Gyssels, University Press of America, 2001(목차에 '« Womanistes » célébrées dans le « Tout-Monde »'). 여기에 Guess·Ohmer(2024)가 이어진다. 현재 문장은 이 계보의 근거를 대지 않으므로 Gyssels를 출처로 추가해야 한다."
+    },
+    {
+     "sids": [
+      "fd5fcaf3ae2a"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+     "claim": "이 계보는 두 소설을 '노예제 기록에서 지워진 흑인 여성을 1인칭으로 복원하는 작업'으로 묶어 읽는다",
+     "verdict": "unverifiable",
+     "note": "확인한 두 비교 연구는 각각 '나쁜 어머니'의 재해석(Gyssels)과 땅·상속·유령(Guess·Ohmer)으로 묶으며, '1인칭 복원'을 공통 근거로 들지 않는다. 『빌러비드』가 1인칭 소설인지도 확인하지 못했다. '노예제 속 흑인 여성의 경험을 다시 쓰는 두 소설로'처럼 낮출 것을 권한다."
+    },
+    {
+     "sids": [
+      "fd5fcaf3ae2a"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+     "claim": "모리슨 『빌러비드』는 1987년작이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Beloved_(novel)",
+     "quote": "Beloved is a 1987 novel by American novelist Toni Morrison."
+    },
+    {
+     "sids": [
+      "fd5fcaf3ae2a"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+     "claim": "『나, 티투바』는 1986년작이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Maryse_Cond%C3%A9",
+     "quote": "including the Salem witch trials in I, Tituba: Black Witch of Salem (1986)"
+    },
+    {
+     "sids": [
+      "f5b669f9d4fb"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+     "claim": "앨리슨 게스와 세라 오머가 『페미니스트 포메이션스』 36권 1호(2024)에 논문을 냈다",
+     "verdict": "confirmed",
+     "url": "https://www.lehman.edu/academics/arts-humanities/latin-american-latino-studies/Faculty/Sarah-Ohmer/",
+     "quote": "2024. Guess, A., & Ohmer, S. “Reappraising Land and Inheritance, Revisiting Ghosts: A Black Feminist And Decolonial Land-informed Reading Of Beloved by Toni Morrison And I, Tituba, Black Witch Of Salem by Maryse Condé.” Feminist Formations , Vol. 36. No. 1. Spring. 27–56."
+    },
+    {
+     "sids": [
+      "f5b669f9d4fb"
+     ],
+     "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+     "claim": "이 논문은 두 소설을 땅·상속·유령의 문제로 함께 읽는 탈식민 흑인 페미니즘 독해다",
+     "verdict": "confirmed",
+     "url": "https://www.lehman.edu/academics/arts-humanities/latin-american-latino-studies/Faculty/Sarah-Ohmer/",
+     "quote": "“Reappraising Land and Inheritance, Revisiting Ghosts: A Black Feminist And Decolonial Land-informed Reading Of Beloved by Toni Morrison And I, Tituba, Black Witch Of Salem by Maryse Condé.”",
+     "note": "Crossref(DOI 10.1353/ff.2024.a928329)에서도 같은 제목·권호·2024-03 확인."
+    }
+   ],
+   "noClaim": {
+    "7d04816a0d34": "짧은 1인칭 작품부터 읽으라는 독서 순서 조언일 뿐 사실 주장이 없다."
+   }
+  }
+ ]
+}

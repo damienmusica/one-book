@@ -1,0 +1,118 @@
+{
+  "fixes": [
+    {
+      "id": "mario-vargas-llosa",
+      "importanceReason": "서로 다른 상황들을 한 대화에 포개는 '연통관' 같은 장치를 『녹색의 집』에서 『까떼드랄 주점에서의 대화』를 거쳐 『염소의 축제』까지 거듭 썼다. 군사학교, 아마존 밀림, 독재 정권을 무대로 권력의 구조와 그 안에서 저항하고 꺾이는 개인을 그렸다. 『도시와 개들』, 『녹색의 집』, 『까떼드랄 주점에서의 대화』는 그를 라틴아메리카 붐의 대표 작가로 세운 작품으로 꼽힌다.",
+      "readingEntryReason": "세 서사선이 장 단위로 갈라져 있어 지금 누구의 이야기인지가 표시로 남고, 정권의 몰락과 트루히요 암살, 그 여파를 세 시선으로 보여 준다.",
+      "readingWarning": "『까떼드랄 주점에서의 대화』로 시작하면 서로 다른 시간대의 대화가 한 대화 안에서 교대하는 방식 때문에 방향을 잃기 쉽다.",
+      "difficultyReason": "서로 다른 시간대의 대화를 한 대화 안에 교대로 놓고, 때로는 호격으로만 화자를 알 수 있어 누가 언제 누구에게 말하는지 독자가 매 순간 가려내야 한다.",
+      "works": [
+        {
+          "id": "mario-vargas-llosa--conversacion-en-la-catedral",
+          "titleKo": "까떼드랄 주점에서의 대화",
+          "significance": "'페루는 어느 순간에 망가졌는가'라는 물음에서 출발해, 오드리아 독재기의 여러 시점 대화를 하나로 포갠 구성 덕에 걸작으로 꼽힌다."
+        },
+        {
+          "id": "mario-vargas-llosa--la-ciudad-y-los-perros",
+          "significance": "리마의 레온시오 프라도 군사학교를 무대로 공격성·남성성을 기르는 과정을 그렸다. 군인들이 학교 안뜰에서 이 책을 불태웠다는 이야기가 전설처럼 따라다니지만, 실제로 일어났는지는 확인되지 않았다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--gustave-flaubert--mario-vargas-llosa",
+          "summary": "바르가스 요사는 『영원한 난장: 플로베르와 「보바리 부인」』(1975) 한 권을 플로베르에게 바쳤고, 자기 문학의 규율과 인내를 그로부터 배웠다고 노벨상 수상 강연에서 밝혔다."
+        },
+        {
+          "id": "dialogue--gabriel-garcia-marquez--mario-vargas-llosa",
+          "summary": "바르가스 요사는 박사 논문을 단행본으로 낸 『가르시아 마르케스: 어느 신 살해의 역사』(1971)로 그의 전작을 다뤘고, 두 사람은 붐 세대의 중심 교우였다가 1976년 멕시코시티에서 결별했다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "'중국 상자'는 여러 시간대와 화자를 한 문단 안에 겹쳐 놓는 장치다",
+          "resolution": "corrected",
+          "evidence": "592992dd471e 의 '여러 시간대와 화자를 한 문단 안에 겹쳐 놓는 '중국 상자'와 '연통관' 같은 구성 장치를'을 교정문대로 '서로 다른 상황들을 한 대화에 포개는 '연통관' 같은 장치를'로 바꿨다(길이 때문에 괄호 '(이른바 텔레스코프식 대화)'는 싣지 않았다). '중국 상자'와 '한 문단'은 페이지에서 빠졌다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "연통관 기법(여러 상황의 대화를 하나로 겹치는 것)을 소설 전체를 지탱하는 원리로 밀어붙였다",
+          "resolution": "corrected",
+          "evidence": "'소설 전체를 지탱하는 원리로 밀어붙였다'를 교정문대로 '『녹색의 집』에서 『까떼드랄 주점에서의 대화』를 거쳐 『염소의 축제』까지 거듭 썼다'로 바꿨다. 작품 제목은 같은 고침의 국역본 제목(work facts 교정)에 맞췄다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "권력이 개인의 언어와 습관을 어떻게 길들이는지를 서술 형식 자체로 보이게 했다",
+          "resolution": "corrected",
+          "evidence": "0f52955eed2f 를 교정문의 '권력의 구조와 그 안에서 저항하고 꺾이는 개인을 그렸다'(노벨상 선정 이유 'structures of power … the individual's resistance, revolt, and defeat')로 바꿨다. 교정문의 '그 구조 위에 올려'는 '무대로'로 줄였다 — 연통관 인용이 꼽는 장편에 『도시와 개들』(군사학교)이 없어 세 무대 모두를 그 장치 위에 올렸다고 쓸 근거가 없다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "그의 장편들은 실험적 구성과 정치적 서사를 함께 감당해, 붐 세대 장편이 그럴 수 있음을 증명했다",
+          "resolution": "corrected",
+          "evidence": "021a6f2b5f1e 를 교정문 뜻 그대로 '『도시와 개들』, 『녹색의 집』, 『까떼드랄 주점에서의 대화』는 그를 라틴아메리카 붐의 대표 작가로 세운 작품으로 꼽힌다'로 바꿨다(en.wikipedia: 'along with The Time of the Hero and The Green House established him as one of the leading authors in the Latin American Boom'). '증명했다'는 페이지에서 빠졌다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "트루히요 암살이라는 사건이 세 갈래를 한자리에 묶는다",
+          "resolution": "corrected",
+          "evidence": "'트루히요 암살이라는 하나의 사건이 세 갈래를 한자리에 묶어 준다'를 교정문을 줄인 '정권의 몰락과 트루히요 암살, 그 여파를 세 시선으로 보여 준다'로 바꿨다('the regime's downward spiral, Trujillo's assassination, and its aftermath through the eyes of insiders, conspirators, and a middle-aged woman'). 필드를 원래보다 길게 하지 않으려고 세 시선의 목록은 '세 시선'으로 줄였다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "방향을 잃는 구간이 초반 100쪽이다",
+          "resolution": "narrowed",
+          "evidence": "d581532b1ffe 에서 확인되지 않은 쪽수 '초반 100쪽에서'를 지웠다. 같은 문장의 '한 문단에서'도 확정된 주장('하나의 대화 안에서')에 맞춰 '한 대화 안에서'로 좁혔고, 제목은 국역본 제목으로 바꿨다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "한 대화 안에서 서로 다른 시간대의 대화를 교대로 놓는다",
+          "resolution": "narrowed",
+          "evidence": "메모가 인용이 받치지 않는다고 적은 '한 문단 안에서'를 인용의 단위인 '한 대화 안에'로 좁혔다('se funden en una sola conversación')."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "화자를 밝히지 않은 채 말하는 사람이 바뀌고, 독자가 누가 언제 말하는지를 계속 재구성해야 한다",
+          "resolution": "corrected",
+          "evidence": "'화자를 밝히지 않은 채 시점을 옮기고'와 '누가 언제 말하는지를 독자가 계속 재구성해야 한다'를 교정문대로 '때로는 호격으로만 화자를 알 수 있어 누가 언제 누구에게 말하는지 독자가 매 순간 가려내야 한다'로 바꿨다."
+        },
+        {
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.facts",
+          "claim": "한국어 제목이 『라 카테드랄에서의 대화』다",
+          "resolution": "corrected",
+          "evidence": "titleKo 를 창비 국역본 제목 '까떼드랄 주점에서의 대화'로 바꿨다(예스24: '까떼드랄 주점에서의 대화 2 | 마리오 바르가스 요사 | 창비'). 같은 제목을 쓰는 importanceReason·readingWarning 의 언급도 맞췄다."
+        },
+        {
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.significance",
+          "claim": "대화들을 시간 표시 없이 포개어 배치했다",
+          "resolution": "narrowed",
+          "evidence": "틀린 '시간 표시 없이'를 지우고 인용('la fusión de dos o tres diálogos en uno solo')이 받치는 '여러 시점 대화를 하나로 포갠'만 남겼다. 교정문의 발화 동사 시제 설명은 필드를 원래보다 길게 하지 않으려고 싣지 않았다."
+        },
+        {
+          "field": "work:mario-vargas-llosa--conversacion-en-la-catedral.significance",
+          "claim": "그의 형식적 정점이다",
+          "resolution": "corrected",
+          "evidence": "'그의 형식적 정점'을 교정문을 줄인 '구성 덕에 걸작으로 꼽힌다'로 바꿨다(es.wikipedia: 'Su compleja construcción y combinación de planos temporales … lo convierten en una obra maestra'). 작가의 작품 중 순위를 매기는 말은 페이지에서 빠졌다."
+        },
+        {
+          "field": "work:mario-vargas-llosa--la-ciudad-y-los-perros.significance",
+          "claim": "위계와 폭력이 학습되는 과정을 그린다",
+          "resolution": "corrected",
+          "evidence": "caefc6b33067 의 '위계와 폭력이 학습되는 과정을 그렸다'를 교정문을 줄인 '공격성·남성성을 기르는 과정을 그렸다'로 바꿨다('aggression, bravery, masculinity, and sexuality, are actively fostered'). 둘째 문장(7928a8def46b)은 그대로다."
+        },
+        {
+          "field": "relation:influence--gustave-flaubert--mario-vargas-llosa.summary",
+          "claim": "플로베르와 『보바리 부인』을 다룬 단행본 한 권을 썼다",
+          "resolution": "corrected",
+          "evidence": "메모: '영원한 향연'은 국역본 제목이 아닌 페이지의 옮김이고 orgía는 '광연/난장'에 가깝다. 이 세션에서 읽은 우석균, 「노벨문학상 수상작가 마리오 바르가스 요사의 번역 작품들」, 트랜스라틴 14호(2010.12)(https://web.archive.org/web/2024/https://s-space.snu.ac.kr/bitstream/10371/73978/1/Trans10121410.pdf)는 이 책을 '영원한 난장(亂場): 플로베르와'로 옮기고 국역 목록에 넣지 않는다. 옮김 '향연'을 이 학술 표기인 '난장'으로 바꿨다(1975·노벨 강연 부분은 그대로)."
+        },
+        {
+          "field": "relation:dialogue--gabriel-garcia-marquez--mario-vargas-llosa.summary",
+          "claim": "한국어 부제 '어느 신 살해자의 역사'가 원제 historia de un deicidio를 옮긴 것이다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 『가르시아 마르케스: 어느 신 살해의 역사』로 바꿨다(deicidio 는 신을 죽이는 행위). 1971·1976 은 그대로다."
+        }
+      ]
+    }
+  ]
+}

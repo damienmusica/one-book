@@ -1,0 +1,655 @@
+{
+  "plates": [
+    {
+      "id": "roald-dahl",
+      "claims": [
+        {
+          "sids": [
+            "a978846c2123"
+          ],
+          "field": "author.facts",
+          "claim": "로알드 달의 생몰년은 1916–1990이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Roald-Dahl",
+          "quote": "Roald Dahl (born September 13, 1916, Llandaff , Wales—died November 23, 1990, Oxford , England)"
+        },
+        {
+          "sids": [
+            "a978846c2123"
+          ],
+          "field": "author.facts",
+          "claim": "달은 웨일스 태생의 영국 작가다(지역 britain-ireland)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Roald-Dahl",
+          "quote": "Roald Dahl (born September 13, 1916, Llandaff , Wales—died November 23, 1990, Oxford , England) was a British writer who was a popular author of ingenious and irreverent children’s books ."
+        },
+        {
+          "sids": [
+            "a978846c2123"
+          ],
+          "field": "author.facts",
+          "claim": "달은 영어로 썼다(언어 en) — 『Matilda』 원서의 언어는 영어다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+          "quote": "Author Roald Dahl Illustrator Quentin Blake Language English",
+          "note": "재인용: 원 인용(영어 위키백과 작가 항목의 아동물 목록)은 영어 제목만 늘어놓을 뿐 집필 언어를 말하지 않는다. 같은 작가 항목은 'His first language was Norwegian'이라고도 적으므로 언어를 제목에서 추론할 수 없다. 작품 항목 정보상자의 'Language English'로 바꿨다."
+        },
+        {
+          "sids": [
+            "50578cde2a77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달의 아동물에서 아이 주인공은 자신을 학대하는 어른 악인과 맞서 끝내 응징한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Adult villains are drawn in terrifying detail, before they are exposed as liars and hypocrites, and brought tumbling down with retributive justice, either by a sudden magic or the superior acuity of the children they mistreat."
+        },
+        {
+          "sids": [
+            "50578cde2a77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달이 아동문학에 잔혹한 웃음을 (처음) 허용했다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Roald-Dahl",
+          "quote": "Unlike most other books aimed at a young audience, Dahl’s works had a darkly comic nature, frequently including gruesome violence and death.",
+          "correction": "달의 아동물은 대부분의 아동서와 달리 어둡게 희극적인 분위기에 잔혹한 폭력과 죽음을 자주 담았다.",
+          "note": "교정문의 근거를 인용으로 옮겼다(원 인용인 벨록 대목은 교정문을 받치지 않았다). 반박 근거: Wales Arts Review는 'Then, in 1907 comes Hilaire Belloc’s satire of the previous century’s solemn approach to the genre. His Cautionary Tales for Children … contain the same sense of absurd and grotesque humour we later see playing out in the pages of Roald Dahl.'라고 적는다 — 브리태니커는 달의 어두운 희극성이 드물었다는 데까지 받치지만, 벨록(1907) 같은 선례가 있어 '허용했다'(문을 열었다)는 과장이다."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달의 아동물은 대개 아이의 시점에서 서술된다(아이 편에 선 화자)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl's children's works are usually told from the point of view of a child."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 우스꽝스럽게 과장된(그로테스크한) 악인을 즐겨 그렸다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "But Dahl does of course ‘do’ grotesquely ‘bad’ characters very well too … and this idea of the ‘humourous grotesque’ is, I would argue, one of the main elements Dahl drew upon from earlier writers of cautionary tales."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 낱말을 발명해 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "He invented over 500 new words by scribbling down his words before swapping letters around and adopting spoonerisms and malapropisms."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『찰리와 초콜릿 공장』에서 움파룸파의 논평이 경고·불복종·처벌과 함께 되풀이되며 책을 희극적 경고담(교훈담)의 형식으로 만든다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "Augustus and Veruca are used to illustrate immature or impulsive behaviour that is corrected through punishment. The recurring pattern of warning, disobedience, punishment and Oompa-Loompa commentary gives the book the form of a comic cautionary tale.",
+          "note": "주장 문구를 인용 범위에 맞췄다: 인용은 'commentary'라고만 하므로 '노래'라는 점은 별도 주장(같은 항목의 'The Oompa-Loompas sing …')으로 받친다."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 움파룸파의 논평은 아이가 사고를 당할 때마다 부르는 노래다(교훈시처럼 삽입된 노래)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "The Oompa-Loompas sing about the children's misbehaviour and ejections each time disaster strikes.",
+          "note": "추가: 원 주장의 '노래'를 받치는 인용."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 훈육담(교훈담)이 있던 자리에 보복담을 놓았다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "Dahl also broke with the traditional tone and structure of this genre, innovating upon, and injecting into it, a new sense of raucous energy. In his children’s books, Dahl does engage in the ‘civilising’ process he describes, but his books are at their most mesmerisingly alive when he disrupts and distorts such a project, in a way that involves children directly in the process of telling, and endows his child characters with strategies to challenge adults who behave in ‘monstrous’ ways.",
+          "correction": "달은 훈육(교화)의 틀을 버리지 않았지만 경고담의 전통적 어조와 구조를 깨고, 아이 인물에게 괴물 같은 어른에게 맞설 전략을 주었다.",
+          "note": "교정문의 근거를 인용으로 옮겼다(원 인용 'pervasive echoes of these writers’ cautionary tales'는 계승만 받치고 어조·구조의 변형과 아이의 반격은 받치지 않았다). 같은 글은 달의 글에 'vestigial didactic impulse'와 경고담의 'pervasive echoes'가 있다고 적는다 — 훈육담을 보복담으로 '대체'한 것이 아니라 계승하며 비튼 것이다."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 성인 독자를 위한 기괴한(macabre) 단편도 썼고, 그 단편들은 흔히 뜻밖의 플롯 반전을 담았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl also had a successful parallel career as the writer of macabre adult short stories, which often blended humour and innocence with surprising plot twists.",
+          "note": "주장 문구를 인용 범위에 맞췄다: 인용은 'plot twists'라고만 하므로 '결말'의 반전은 별도 주장(작가 항목 도입부의 'unexpected endings')으로 받친다."
+        },
+        {
+          "sids": [
+            "346f27f63f3c"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달의 단편은 뜻밖의 결말로 알려져 있다(마지막 한 줄의 반전)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl's short stories are known for their unexpected endings, and his children's books for their unsentimental, macabre, often darkly comic mood, featuring villainous adult enemies of the child characters.",
+          "note": "추가: '마지막 한 줄의 반전'의 결말 부분을 받치는 인용. 구체적인 예는 「하숙집 여주인」 주장이 받친다."
+        },
+        {
+          "sids": [
+            "fc668fdcc774"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달의 결과로 아동문학은 어른의 세계를 미화하지 않고도 아이에게 읽힐 수 있는 영역이 되었다",
+          "verdict": "unverifiable",
+          "note": "달의 영향으로 아동문학의 영역이 이렇게 바뀌었다고 말하는 출처를 찾지 못했다. 영어 위키백과 Roald Dahl, 브리태니커(웨이백 사본), Wales Arts Review(벤 스크리치, 경고담과 달)와 웹 검색을 살폈다. 이 출처들은 달이 드물었다(브리태니커 'Unlike most other books…')고만 말하고, 벨록 같은 선례도 든다. 달 한 사람이 낳은 결과라는 인과는 확인되지 않는다."
+        },
+        {
+          "sids": [
+            "6dd73d0f68b8"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『찰리와 초콜릿 공장』에서 황금 티켓은 다섯 장이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "The next day, the newspaper announces that Wonka has hidden five Golden Tickets in Wonka Bars; the finders of these tickets will be invited to a tour of the factory and receive a lifetime supply of chocolate."
+        },
+        {
+          "sids": [
+            "6dd73d0f68b8"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "찰리를 뺀 네 아이가 각자의 충동(악덕)대로 공장에서 쫓겨난다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "During the tour, the four other children give in to their respective impulses and are ejected from the factory in darkly comical ways"
+        },
+        {
+          "sids": [
+            "6dd73d0f68b8"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "결국 찰리만 남는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "With only Charlie remaining, Wonka congratulates him for \"winning\" the factory."
+        },
+        {
+          "sids": [
+            "6dd73d0f68b8"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "경고–불복종–처벌의 반복으로 악덕에 응징이 따르는 구조다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "Augustus and Veruca are used to illustrate immature or impulsive behaviour that is corrected through punishment. The recurring pattern of warning, disobedience, punishment and Oompa-Loompa commentary gives the book the form of a comic cautionary tale."
+        },
+        {
+          "sids": [
+            "6dd73d0f68b8"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『찰리와 초콜릿 공장』의 화자는 아이 편에 서 있다",
+          "verdict": "unverifiable",
+          "note": "이 작품의 화자를 특정해 다룬 출처를 찾지 못했다. 영어 위키백과(작품·작가 항목)는 달의 아동물 일반이 'usually told from the point of view of a child'라고만 적는다. 소설 본문 전문은 이번에 읽지 못했다."
+        },
+        {
+          "sids": [
+            "847f9b61deee"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『Kiss Kiss』는 아동서가 아니라 성인 독자를 위한 단편집이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Kiss_Kiss_(book)",
+          "quote": "Kiss Kiss is for grown-ups"
+        },
+        {
+          "sids": [
+            "6b65c2f4edf0"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『Kiss Kiss』에도 달의 아동물과 같은 경고담식 잔혹함이 쓰였지만 독자는 성인이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "The idea of a cautionary tale wherein something bad happens to a good child is explored further by Dahl in his story ‘Pig’ from the 1960 short-story collection for adults entitled Kiss Kiss."
+        },
+        {
+          "sids": [
+            "6b65c2f4edf0"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『Kiss Kiss』의 결말은 아이를 위해 정리되지 않는다(예: 「돼지」의 결말)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "But, where Voltaire’s masterpiece concludes with his protagonist tilling his garden, Dahl’s ending is predictably more macabre, with Lexington, being shackled in the slaughter-house before having his throat cut like the titular ‘pig’."
+        },
+        {
+          "sids": [
+            "42434a994302"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "달의 책은 장이 짧고 문장이 구어에 가깝다",
+          "verdict": "unverifiable",
+          "note": "장 길이나 문체가 구어적이라는 서술을 출처에서 찾지 못했다. 영어 위키백과(작가·작품 항목), 브리태니커(웨이백 사본), British Council의 레니 글을 살폈다. 위키백과에는 'musical prose'라는 인용만 있다. 『찰리와 초콜릿 공장』 본문은 읽지 못했다."
+        },
+        {
+          "sids": [
+            "47c3dc1296c3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "달의 글에는 발명한 낱말과 말장난(스푸너리즘 등)이 많다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl was also famous for his inventive, playful use of language, which was a key element to his writing. He invented over 500 new words by scribbling down his words before swapping letters around and adopting spoonerisms and malapropisms",
+          "note": "재인용: 원 인용(British Council)은 『The BFG』 한 권의 스푸너리즘만 말해 '달의 글' 전반이라는 범위를 받치지 못한다. 작가 전반을 말하는 위키백과 대목으로 바꿨다."
+        },
+        {
+          "sids": [
+            "47c3dc1296c3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "발명된 낱말은 번역본마다 다르게 옮겨진다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britishcouncil.org/voices-magazine/what-do-we-learn-roald-dahls-creative-use-language",
+          "quote": "translators have had great fun coming up with versions of gobblefunk words that suit their own languages. For example, a 'trogglehumper' (a very bad dream) is translated into Italian as a 'troglogoblo', into Spanish as a 'jorobanoches' and into Dutch as a 'trollenklopper'."
+        },
+        {
+          "sids": [
+            "47c3dc1296c3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "번역본에 따라 웃음의 결이 달라지는 것이 달을 읽는 어려움의 거의 전부다",
+          "verdict": "unverifiable",
+          "note": "추가: 발명어가 언어마다 달리 옮겨진다는 것은 British Council 글이 받치지만, 그것이 어려움의 '거의 전부'라는 평가(나머지는 쉽다는 뜻)를 말하는 출처는 찾지 못했다. 영어 위키백과 작가 항목, 브리태니커(웨이백 사본), British Council 글을 살폈다."
+        },
+        {
+          "sids": [
+            "f6dadf481d1a"
+          ],
+          "field": "work:roald-dahl--the-bfg.facts",
+          "claim": "『The BFG』는 1982년에 나온 아동 소설이다(연도·장르)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_BFG",
+          "quote": "The BFG (short for The Big Friendly Giant) is a 1982 children's novel by British author Roald Dahl."
+        },
+        {
+          "sids": [
+            "f6dadf481d1a"
+          ],
+          "field": "work:roald-dahl--the-bfg.facts",
+          "claim": "The BFG의 국내 번역 제목은 『내 친구 꼬마 거인』이다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%82%B4%20%EC%B9%9C%EA%B5%AC%20%EA%BC%AC%EB%A7%88%20%EA%B1%B0%EC%9D%B8",
+          "quote": "내 친구 꼬마 거인 - 개정판 ㅣ 시공주니어 문고 3단계 36 로알드 달 (지은이), 퀸틴 블레이크 (그림), 지혜연 (옮긴이) | 시공주니어"
+        },
+        {
+          "sids": [
+            "31dc2435a018"
+          ],
+          "field": "work:roald-dahl--the-bfg.significance",
+          "claim": "BFG의 이웃 거인들은 사람(아이 포함)을 잡아먹는다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/The_BFG",
+          "quote": "his nine neighbours are much bigger and stronger giants, who all happily eat humans every night.",
+          "correction": "사람을 잡아먹는 거인들",
+          "note": "인용은 이웃 거인들이 'eat humans'라고만 한다. 거인들이 특히 아이를 잡아먹는다는 서술은 영어 위키백과 작품 항목(줄거리·등장인물)에 없다 — 'Childchewer'에 대해서도 'his name implies that he enjoys the taste of children'이라는 추정뿐이다. 소설 본문(archive.org)은 대출 제한으로 읽지 못했다. '아이를 잡아먹는 거인들'을 '사람을 잡아먹는 거인들'로 고친다."
+        },
+        {
+          "sids": [
+            "31dc2435a018"
+          ],
+          "field": "work:roald-dahl--the-bfg.significance",
+          "claim": "BFG는 뒤죽박죽인 말을 쓰는 거인이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_BFG",
+          "quote": "The BFG explains, in a unique and messy speech"
+        },
+        {
+          "sids": [
+            "31dc2435a018"
+          ],
+          "field": "work:roald-dahl--the-bfg.significance",
+          "claim": "BFG는 다른 거인들과 달리 아이 편에 선 '좋은 어른'이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "The BFG follows, with the good giant (the BFG or \"Big Friendly Giant\") representing the \"good adult\" archetype and the other giants being the \"bad adults\"."
+        },
+        {
+          "sids": [
+            "31dc2435a018"
+          ],
+          "field": "work:roald-dahl--the-bfg.significance",
+          "claim": "달의 언어 놀이가 가장 두드러지는 작품이 『The BFG』다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britishcouncil.org/voices-magazine/what-do-we-learn-roald-dahls-creative-use-language",
+          "quote": "The book in which he is at his most linguistically playful is undoubtedly The BFG. Language is a central theme in this book. It includes over 300 words that he invented"
+        },
+        {
+          "sids": [
+            "143f8e0b4284"
+          ],
+          "field": "work:roald-dahl--kiss-kiss.facts",
+          "claim": "『Kiss Kiss』는 1960년에 처음 나온 단편 소설집이다(연도·장르)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Kiss_Kiss_(book)",
+          "quote": "Kiss Kiss is a collection of short stories by Roald Dahl, first published in 1960 by Alfred A. Knopf.",
+          "note": "브리태니커(웨이백 사본)는 'Kiss, Kiss (1959)'로 적는다. 오픈 라이브러리도 first_publish_year 1960, 'KNOPF. NY 1960'이다. 1960은 첫 간행 연도로 받쳐진다."
+        },
+        {
+          "sids": [
+            "1bb048871e55"
+          ],
+          "field": "work:roald-dahl--kiss-kiss.significance",
+          "claim": "『Kiss Kiss』는 성인 독자를 위한 단편집이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "the 1960 short-story collection for adults entitled Kiss Kiss"
+        },
+        {
+          "sids": [
+            "1bb048871e55"
+          ],
+          "field": "work:roald-dahl--kiss-kiss.significance",
+          "claim": "「하숙집 여주인」(The Landlady)이 『Kiss Kiss』에 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Kiss_Kiss_(book)",
+          "quote": "\"The Landlady\" (first appeared in The New Yorker magazine, November 28, 1959)"
+        },
+        {
+          "sids": [
+            "1bb048871e55"
+          ],
+          "field": "work:roald-dahl--kiss-kiss.significance",
+          "claim": "「하숙집 여주인」은 마지막 대사에서 뒤집히는 반전 결말이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Landlady_(short_story)",
+          "quote": "The story ends as the landlady replies, \"No, my dear. Only you.\" The implication is that the landlady has poisoned Billy's tea with cyanide and intends to stuff his corpse, as she has already done to Mulholland and Temple.",
+          "note": "재인용: 원 인용은 마지막 대사만 보여 주고 그것이 뒤집는 내용(독살)을 담지 않아, 같은 문단의 바로 다음 문장까지 넓혔다. 같은 항목은 달이 'changed the ending to make the twist non-supernatural'했다고도 적는다."
+        },
+        {
+          "sids": [
+            "1bb048871e55"
+          ],
+          "field": "work:roald-dahl--kiss-kiss.significance",
+          "claim": "『Kiss Kiss』는 그의 아동물과 같은 잔혹함(경고담식 잔혹)을 성인 독자에게 쓴다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "The idea of a cautionary tale wherein something bad happens to a good child is explored further by Dahl in his story ‘Pig’ from the 1960 short-story collection for adults entitled Kiss Kiss."
+        },
+        {
+          "sids": [
+            "84f3c3be79ff"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.facts",
+          "claim": "『Charlie and the Chocolate Factory』는 1964년에 나온 아동 소설이다(연도·장르)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "Charlie and the Chocolate Factory is a 1964 children's novel by the British writer Roald Dahl."
+        },
+        {
+          "sids": [
+            "84f3c3be79ff"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.facts",
+          "claim": "국내 번역 제목은 『찰리와 초콜릿 공장』이다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EC%B0%B0%EB%A6%AC%EC%99%80%20%EC%B4%88%EC%BD%9C%EB%A6%BF%20%EA%B3%B5%EC%9E%A5%20%EB%A1%9C%EC%95%8C%EB%93%9C%20%EB%8B%AC",
+          "quote": "찰리와 초콜릿 공장 - 개정판 ㅣ 시공주니어 문고 2단계 7 로알드 달 (지은이), 퀸틴 블레이크 (그림), 지혜연 (옮긴이) | 시공주니어"
+        },
+        {
+          "sids": [
+            "4e7e7651bc4e"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+          "claim": "황금 티켓은 다섯 장이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "The next day, the newspaper announces that Wonka has hidden five Golden Tickets in Wonka Bars; the finders of these tickets will be invited to a tour of the factory and receive a lifetime supply of chocolate."
+        },
+        {
+          "sids": [
+            "4e7e7651bc4e"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+          "claim": "찰리를 뺀 네 아이가 각자의 악덕(충동)대로 공장에서 제거된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "During the tour, the four other children give in to their respective impulses and are ejected from the factory in darkly comical ways"
+        },
+        {
+          "sids": [
+            "4e7e7651bc4e"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+          "claim": "찰리만 남는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "With only Charlie remaining, Wonka congratulates him for \"winning\" the factory."
+        },
+        {
+          "sids": [
+            "4e7e7651bc4e"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+          "claim": "아이가 쫓겨날 때마다 움파룸파가 노래한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "The Oompa-Loompas sing about the children's misbehaviour and ejections each time disaster strikes."
+        },
+        {
+          "sids": [
+            "4e7e7651bc4e"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+          "claim": "경고·불복종·처벌·움파룸파의 논평이 되풀이되어 책이 희극적 경고담(도덕 우화)의 형식을 띤다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "Augustus and Veruca are used to illustrate immature or impulsive behaviour that is corrected through punishment. The recurring pattern of warning, disobedience, punishment and Oompa-Loompa commentary gives the book the form of a comic cautionary tale.",
+          "note": "주장 문구를 인용 범위에 맞췄다: 그 논평이 노래라는 점은 같은 항목의 'The Oompa-Loompas sing …' 주장이 받친다."
+        },
+        {
+          "sids": [
+            "4e7e7651bc4e"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+          "claim": "네 아이의 제거가 잔혹한 웃음(어둡게 희극적인 방식)으로 그려진다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "During the tour, the four other children give in to their respective impulses and are ejected from the factory in darkly comical ways"
+        },
+        {
+          "sids": [
+            "4e7e7651bc4e"
+          ],
+          "field": "work:roald-dahl--charlie-and-the-chocolate-factory.significance",
+          "claim": "『찰리와 초콜릿 공장』은 달의 대표작이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Roald-Dahl",
+          "quote": "His best-known works include Charlie and the Chocolate Factory (1964) and Matilda (1988), both of which were adapted into popular films."
+        },
+        {
+          "sids": [
+            "07fa1c22842e"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.facts",
+          "claim": "『James and the Giant Peach』는 1961년에 나온 아동물이다(연도·장르)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Roald-Dahl",
+          "quote": "James and the Giant Peach (1961; film 1996 ), written for his own children, was a popular success",
+          "note": "영어 위키백과 인포박스는 release_date 17 July 1961, 출판사 Alfred A. Knopf다."
+        },
+        {
+          "sids": [
+            "07fa1c22842e"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.facts",
+          "claim": "국내 번역 제목은 『제임스와 슈퍼 복숭아』이다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EC%A0%9C%EC%9E%84%EC%8A%A4%EC%99%80%20%EC%8A%88%ED%8D%BC%20%EB%B3%B5%EC%88%AD%EC%95%84",
+          "quote": "제임스와 슈퍼 복숭아 ㅣ 시공주니어 문고 2단계 20 로알드 달 (지은이), 퀸틴 블레이크 (그림), 지혜연 (옮긴이) | 시공주니어"
+        },
+        {
+          "sids": [
+            "b142d5f9fd6d"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "제임스는 부모를 잃고 학대하는 두 이모에게 맡겨진다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/James_and_the_Giant_Peach",
+          "quote": "When he is four years old, a rhinoceros escapes from London Zoo and eats James' parents whilst they are on a shopping trip in London. He ends up in the care of his two cruel aunts, Aunt Spiker and Aunt Sponge, who physically and verbally abuse him"
+        },
+        {
+          "sids": [
+            "b142d5f9fd6d"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "제임스는 거대한 복숭아를 타고 이모들에게서 벗어난다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/James_and_the_Giant_Peach",
+          "quote": "He crawls in, through a tunnel, and finds himself in a room, in the enlarged peach pit; … The next day, Centipede cuts the stem of the peach, causing it to roll away and crush James' aunts to death.",
+          "note": "재인용: 원 인용은 복숭아가 굴러가 이모들을 깔아 죽인다는 것만 말하고 제임스가 복숭아 안에 있다는 것을 담지 않아, 같은 줄거리 문단에서 제임스가 복숭아 속으로 들어가는 대목부터 인용했다."
+        },
+        {
+          "sids": [
+            "b142d5f9fd6d"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "『제임스와 슈퍼 복숭아』는 '잔혹한 어른 대 아이' 구도가 이미 나타나는 초기 아동물이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Roald-Dahl",
+          "quote": "Dahl then turned primarily to writing the children’s books that would give him lasting fame. … His villains were often malevolent adults who imperiled precocious and noble child protagonists. James and the Giant Peach (1961; film 1996 ), written for his own children, was a popular success"
+        },
+        {
+          "sids": [
+            "b142d5f9fd6d"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "『제임스와 슈퍼 복숭아』에서 아이가 어른에게 반격한다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Critics have commented on the similarities between the Dursley family from Harry Potter and the nightmarish guardians seen in many of Dahl's books, such as Aunt Sponge and Aunt Spiker from James and the Giant Peach, Grandma from George's Marvellous Medicine, and the Wormwoods from Matilda.",
+          "correction": "학대하는 두 이모는 『조지, 마법의 약을 만들다』의 할머니, 『마틸다』의 웜우드 부부와 함께 달의 여러 책에 나오는 악몽 같은 보호자의 하나다.",
+          "note": "교정문의 근거를 인용으로 옮겼다(원 교정문의 '벗어나는 아이'는 원 인용이 받치지 않았다). 반박 근거: 영어 위키백과 작품 항목은 'The next day, Centipede cuts the stem of the peach, causing it to roll away and crush James' aunts to death.'라고 적는다 — 이모들은 지네가 줄기를 끊어 굴러간 복숭아에 깔려 죽고, 제임스가 직접 반격하는 장면은 출처에 없다. 한국어 제목 『조지, 마법의 약을 만들다』는 알라딘 검색 결과(시공주니어 문고 2단계 14)로 확인했다."
+        },
+        {
+          "sids": [
+            "1e359c4d710b"
+          ],
+          "field": "work:roald-dahl--matilda.facts",
+          "claim": "『Matilda』는 1988년에 나온 아동 소설이다(연도·장르)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+          "quote": "Matilda is a 1988 children's novel by British author Roald Dahl. It was published by Jonathan Cape."
+        },
+        {
+          "sids": [
+            "1e359c4d710b"
+          ],
+          "field": "work:roald-dahl--matilda.facts",
+          "claim": "국내 번역 제목은 『마틸다』이다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&SearchWord=%EB%A7%88%ED%8B%B8%EB%8B%A4%20%EB%A1%9C%EC%95%8C%EB%93%9C%20%EB%8B%AC",
+          "quote": "마틸다 (반양장) - 개정판 ㅣ 시공주니어 문고 3단계 34 Choice 로알드 달 (지은이), 퀸틴 블레이크 (그림), 김난령 (옮긴이) | 시공주니어"
+        },
+        {
+          "sids": [
+            "63b860aae960"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "마틸다는 책을 읽는 아이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+          "quote": "perusing all the children's books in the library by the age of four and a quarter and moving on to longer classics, such as Animal Farm and The Grapes of Wrath"
+        },
+        {
+          "sids": [
+            "63b860aae960"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "마틸다의 부모는 무지하고 딸에게 무관심하다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/matilda_20180915/matilda_djvu.txt",
+          "quote": "But Mr and Mrs Wormwood were both so gormless and so wrapped up in their own silly little lives that they failed to notice anything unusual about their daughter."
+        },
+        {
+          "sids": [
+            "63b860aae960"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "교장 트런치불은 폭력적이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+          "quote": "Miss Trunchbull later confronts a girl called Amanda Thripp for wearing pigtails … and does a hammer throw with the girl over the playground fence."
+        },
+        {
+          "sids": [
+            "63b860aae960"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "마틸다는 부모에게 꾀(지능)로 되갚는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Matilda_(novel)",
+          "quote": "To keep from getting frustrated, Matilda finds herself forced to pull pranks on them, such as gluing her father's hat to his head"
+        },
+        {
+          "sids": [
+            "63b860aae960"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "마틸다는 교장에게 초능력(염력)으로 되갚는다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "the power dynamic between Matilda and this ‘all powerful grown-up’ (to quote Dahl), is subverted when Matilda uses her newly discovered skill of telekinesis to knock over Miss Trunchball’s waterjug containing a newt"
+        },
+        {
+          "sids": [
+            "63b860aae960"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "『마틸다』는 달의 아동물이 도달한 복수 구조의 완성형이다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "While his whimsical fantasy stories feature an underlying warm sentiment, they are often juxtaposed with grotesque, darkly comic and sometimes harshly violent scenarios. The Witches, George's Marvellous Medicine and Matilda are examples of this formula.",
+          "correction": "『마녀를 잡아라』·『조지, 마법의 약을 만들다』와 함께 달 아동물의 공식을 보여주는 예의 하나.",
+          "note": "『마틸다』를 복수 구조의 '완성형'이라 부르는 출처는 찾지 못했다. 출처들은 같은 공식을 보여주는 여러 예 가운데 하나로 든다. 교정문의 한국어 제목 『마녀를 잡아라』(시공주니어 문고 3단계 5)와 『조지, 마법의 약을 만들다』(시공주니어 문고 2단계 14)는 알라딘 검색 결과로 확인했다."
+        },
+        {
+          "sids": [
+            "10d872a2ff6e"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "작품 안에 마틸다가 도서관에서 읽은 책 목록이 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/matilda_20180915/matilda_djvu.txt",
+          "quote": "Over the next six months, under Mrs Phelps’s watchful and compassionate eye, Matilda read the following books: Nicholas Nickleby by Charles Dickens Oliver Twist by Charles Dickens"
+        },
+        {
+          "sids": [
+            "10d872a2ff6e"
+          ],
+          "field": "work:roald-dahl--matilda.significance",
+          "claim": "마틸다의 도서관 목록이 그대로 달의 독서 계보다",
+          "verdict": "contradicted",
+          "url": "https://archive.org/stream/matilda_20180915/matilda_djvu.txt",
+          "quote": "Over the next six months, under Mrs Phelps’s watchful and compassionate eye, Matilda read the following books: Nicholas Nickleby by Charles Dickens Oliver Twist by Charles Dickens Jane Eyre by Charlotte Bronte Pride and Prejudice by Jane Austen Tess of the D’Urbervilles by Thomas Hardy Gone to Earth by Mary Webb Kim by Rudyard Kipling The Invisible Man by H. G. Wells The Old Man and the. Sea by Ernest Hemingway The Sound and the Fury by William Faulkner The Grapes of Wrath by John Steinbeck The Good Companions byj. B. Priestley Brighton Rock by Graham Greene Animal Farm by George Orwell",
+          "correction": "주인공이 여섯 달 동안 읽은 책 목록에는 디킨스, 브론테, 오스틴, 하디, 키플링, 헤밍웨이, 포크너, 스타인벡, 오웰 등이 들어 있다.",
+          "note": "교정문의 근거를 인용으로 옮겼다(원 교정문의 '목록에 들어 있다'는 원 인용인 위키백과 대목이 받치지 않았다). 반박 근거: 영어 위키백과 작가 항목은 'His other favourite authors included Rudyard Kipling, Charles Dickens, William Makepeace Thackeray and former Royal Navy officer Frederick Marryat'라고 적는데, 새커리와 매리엇은 목록에 없고 목록의 헤밍웨이·포크너·스타인벡·그린·오웰 등이 달의 독서였다는 출처는 찾지 못했다. 목록이 '그대로' 달의 독서 계보라는 출처는 없다."
+        }
+      ]
+    }
+  ],
+  "check": {
+    "kept": 46,
+    "requoted": 4,
+    "downgraded": 1,
+    "added": 3,
+    "noClaimConverted": 0
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "plates": [
+    {
+      "id": "jean-paul-sartre",
+      "claims": [
+        {
+          "sids": [
+            "b66ddf59565e"
+          ],
+          "field": "author.facts",
+          "claim": "장폴 사르트르(Jean-Paul Sartre)의 생몰년은 1905–1980이고 프랑스인이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+          "quote": "21 June 1905 – 15 April 1980) was a French philosopher, political activist, and writer"
+        },
+        {
+          "sids": [
+            "b66ddf59565e"
+          ],
+          "field": "author.facts",
+          "claim": "집필 언어는 프랑스어(fr)다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/1964/sartre/facts/",
+          "quote": "Language: French"
+        },
+        {
+          "sids": [
+            "b66ddf59565e"
+          ],
+          "field": "author.facts",
+          "claim": "파리에서 태어나 파리에서 죽었다(서유럽 지역)",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/1964/sartre/facts/",
+          "quote": "Born: 21 June 1905, Paris, France Died: 15 April 1980, Paris, France"
+        },
+        {
+          "sids": [
+            "40c167a0ef43"
+          ],
+          "field": "author.importanceReason",
+          "claim": "'실존이 본질에 앞선다'는 사르트르의 명제다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Existentialism_Is_a_Humanism",
+          "quote": "Sartre asserts that the key defining concept of existentialism is that the existence of a person is prior to their essence or \"existence precedes essence\"."
+        },
+        {
+          "sids": [
+            "40c167a0ef43"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그는 철학적 관심을 담은 소설과 희곡을 썼다",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/sartre/",
+          "quote": "He also wrote highly influential works of literature, inflected by philosophical concerns, like Nausea (1938), The Roads to Freedom trilogy (1945–49), and plays like No Exit (1947),"
+        },
+        {
+          "sids": [
+            "40c167a0ef43"
+          ],
+          "field": "author.importanceReason",
+          "claim": "사르트르는 노벨문학상을 사양했다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/1964/summary/",
+          "quote": "Jean-Paul Sartre declined the Nobel Prize."
+        },
+        {
+          "sids": [
+            "40c167a0ef43"
+          ],
+          "field": "author.importanceReason",
+          "claim": "사양 이유는 작가가 제도가 되기를 거부한다는 것이었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+          "quote": "saying that he always declined official honors and that \"a writer should not allow himself to be turned into an institution\"."
+        },
+        {
+          "sids": [
+            "fe93e7fbec04"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『구토』에는 마로니에(마로니에=서양칠엽수) 뿌리 앞에서 로캉탱이 구역질을 느끼는 장면이 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "the disgust ... of Roquentin, in Nausea, at the bloated roots of the chestnut tree"
+        },
+        {
+          "sids": [
+            "fe93e7fbec04"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『닫힌 방』의 '타인은 지옥'은 타인의 시선에 관한 사르트르의 생각을 가리킨다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "It is the source of Sartre's especially famous phrase \"L'enfer, c'est les autres\" or \"Hell is other people\", a reference to Sartre's ideas about the look"
+        },
+        {
+          "sids": [
+            "fe93e7fbec04"
+          ],
+          "field": "author.importanceReason",
+          "claim": "사르트르는 『레 탕 모데른』을 창간해 자기 사상을 알리는 상설 매체로 삼았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+          "quote": "he launched the first issue of the quarterly literary and political review Les Temps modernes as its editor-in-chief in October 1945, in part to popularize his own thought."
+        },
+        {
+          "sids": [
+            "bab64515d462"
+          ],
+          "field": "author.importanceReason",
+          "claim": "전후 20여 년간 유럽에서 문학의 '참여'는 사르트르가 규정한 뜻으로 쓰였다",
+          "verdict": "contradicted",
+          "url": "https://www.universalis.fr/encyclopedie/litterature-engagee/",
+          "quote": "L'expression même de « littérature engagée » s'est rapidement détachée de la signification précise que lui donnait Sartre pour osciller entre un pôle doctrinal, plus ou moins fidèle aux propositions sartriennes, et un aspect plus mouvant",
+          "correction": "'참여문학'이라는 말은 그가 『문학이란 무엇인가』(1948)로 이론화했지만, 곧 그가 준 정확한 뜻에서 벗어나 그의 주장에 가까운 교조적 용법부터 훨씬 느슨한 용법까지 넓게 쓰였다.",
+          "note": "Universalis는 같은 항목에서 사르트르가 1948년 『문학이란 무엇인가』로 참여문학을 규정하려 했다고 적는다. '20여 년간 유럽에서 그의 뜻으로 쓰였다'는 범위·기간을 말하는 출처는 찾지 못했다."
+        },
+        {
+          "sids": [
+            "861c00040c2d"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『닫힌 방』은 5장으로 된 단막극이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Huis_clos_(Sartre)",
+          "quote": "Cette pièce de théâtre est en un acte composé de cinq scènes, dont la dernière est hypertrophiée."
+        },
+        {
+          "sids": [
+            "861c00040c2d",
+            "2b9fedfe133f"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "세 인물이 한 방에 갇혀 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "three deceased characters are punished by being locked into a room together for eternity"
+        },
+        {
+          "sids": [
+            "861c00040c2d"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "주제가 무대 장치 없이 드러난다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "They had all expected torture devices to punish them for eternity, but instead, find a plain room furnished in the style of the French \"Second Empire\".",
+          "correction": "시선·타인이라는 그의 주제가 고문 도구 하나 없는 제2제정풍 방에 갇힌 세 인물의 대사로 드러난다.",
+          "note": "무대에는 제2제정풍 살롱이라는 분명한 장치가 있다(fr.wikipedia: « un salon, style second Empire »). 없는 것은 고문 도구와 형리다."
+        },
+        {
+          "sids": [
+            "861c00040c2d"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "'자유'가 이 극의 주제로 드러난다",
+          "verdict": "unverifiable",
+          "note": "en/fr 위키백과 No Exit·Huis clos 항목과 SEP Sartre 항목에서 이 극의 주제로 '시선'과 '타인의 판단'은 명시되지만 '자유'를 주제로 적은 대목은 찾지 못했다. 극중 문이 열려도 나가지 않는 장면이 있으나 출처가 그것을 자유의 주제로 해석하지는 않는다."
+        },
+        {
+          "sids": [
+            "d71cc68913c2"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『존재와 무』는 난해하다는 평을 받는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+          "quote": "However, the book has been criticized for its abstruseness and for its treatment of Freud."
+        },
+        {
+          "sids": [
+            "532137d94fe2",
+            "d71cc68913c2"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『존재와 무』는 부제가 '현상학적 존재론 시론'인 현상학 저작이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27%C3%8Atre_et_le_N%C3%A9ant",
+          "quote": "L'Être et le Néant, sous-titré Essai d'ontologie phénoménologique, est l'ouvrage philosophique principal de Jean-Paul Sartre publié en 1943."
+        },
+        {
+          "sids": [
+            "532137d94fe2"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『존재와 무』는 후설·하이데거의 현상학을 전제하고 그것과 씨름한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+          "quote": "In the introduction, Sartre sketches his own theory of consciousness, being, and phenomena through criticism of both earlier phenomenologists (most notably Husserl and Heidegger)"
+        },
+        {
+          "sids": [
+            "532137d94fe2"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『구토』는 그의 철학을 쉬운 말로 풀어내는 소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "La Nausée allows Sartre to explain his philosophy in simplified terms."
+        },
+        {
+          "sids": [
+            "532137d94fe2"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『구토』에는 자기기만(bad faith) 개념이 작동한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "La Nausée treats such notions as bourgeois bad faith, ignoring the contingency and inexplicability of life."
+        },
+        {
+          "sids": [
+            "532137d94fe2"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『구토』의 장면은 대자(For-itself) 같은 개념과 이어져 읽힌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "The humanity of man consists in the For-itself, the masculine component by which we choose, make projects, and generally commit ourselves to a life of action. … the disgust ... of Roquentin, in Nausea, at the bloated roots of the chestnut tree",
+          "note": "William Barrett의 해석으로 인용된 대목이다. 『구토』(1938)는 즉자·대자 개념을 정식화한 『존재와 무』(1943)보다 앞서므로 '개념의 번역'은 후대 독법이다."
+        },
+        {
+          "sids": [
+            "6ebb88500d32"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.facts",
+          "claim": "『실존주의는 휴머니즘이다』(L'existentialisme est un humanisme)는 1946년 작이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Existentialism_Is_a_Humanism",
+          "quote": "Existentialism Is a Humanism (French: L'existentialisme est un humanisme) is a 1946 work by the philosopher Jean-Paul Sartre.",
+          "note": "강연 원고를 옮긴 산문이라 사이트 장르 essay-criticism에 들어간다."
+        },
+        {
+          "sids": [
+            "14d95dba147b"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "1945년 강연을 옮긴 책이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27existentialisme_est_un_humanisme",
+          "quote": "Il est le compte rendu d'une conférence donnée en octobre 1945 à Paris."
+        },
+        {
+          "sids": [
+            "14d95dba147b"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "얇은 책이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Existentialism_Is_a_Humanism",
+          "quote": "Pages70 (English edition)",
+          "note": "영역본 70쪽. 프랑스어 Folio판은 해설을 포함해 110쪽(fr.wikipedia 각주)."
+        },
+        {
+          "sids": [
+            "14d95dba147b"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "철학자들의 교설이던 실존주의를 일반 청중에게 내보냈다",
+          "verdict": "confirmed",
+          "url": "https://yalebooks.yale.edu/book/9780300115468/existentialism-is-a-humanism/",
+          "quote": "Sartre asserted that existentialism was essentially a doctrine for philosophers, though, ironically, he was about to make it accessible to a general audience."
+        },
+        {
+          "sids": [
+            "14d95dba147b"
+          ],
+          "field": "work:jean-paul-sartre--l-existentialisme-est-un-humanisme.significance",
+          "claim": "이 책이 실존주의를 전후 유럽의 공용어로 만들었다",
+          "verdict": "contradicted",
+          "url": "https://yalebooks.yale.edu/book/9780300115468/existentialism-is-a-humanism/",
+          "quote": "The published text of his lecture quickly became one of the bibles of existentialism and made Sartre an international celebrity.",
+          "correction": "1945년 강연을 옮긴 얇은 책으로, '실존은 본질에 앞선다'는 명제를 전문 독자 바깥으로 내보냈고 곧 실존주의의 경전 가운데 하나가 되어 사르트르를 국제적 명사로 만들었다.",
+          "note": "'전후 유럽의 공용어'라는 범위를 말하는 출처는 찾지 못했다. 출판사 소개가 말하는 것은 '실존주의의 성서 가운데 하나'와 사르트르의 국제적 명성까지다."
+        },
+        {
+          "sids": [
+            "0ee8dd7ead6d"
+          ],
+          "field": "work:jean-paul-sartre--les-mots.facts",
+          "claim": "『말』(Les Mots)은 1964년에 나온 자서전이다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/1964/sartre/facts/",
+          "quote": "His autobiography Les Mots (1964) (The Words), in which the author tries to distance himself from his writing and reconstruct his childhood, was received with great acclaim when it came out.",
+          "note": "단행본은 1964년 Gallimard, 그 전에 1963년 10·11월 『레 탕 모데른』에 연재됐다(fr.wikipedia Les Mots). 장르 essay-criticism은 자서전을 산문 갈래에 넣는 사이트 관례(나보코프 『말하라, 기억이여』, 루소 『고백록』도 같다)와 일치한다."
+        },
+        {
+          "sids": [
+            "c68a317be84f"
+          ],
+          "field": "work:jean-paul-sartre--les-mots.significance",
+          "claim": "유년의 독서와 글쓰기를 다룬 자서전으로, '읽기'와 '쓰기' 두 부로 되어 있다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Les_Mots",
+          "quote": "Le récit, qui couvre l'enfance de l'auteur de ses quatre à ses onze ans, se divise en deux parties : « Lire » et « Écrire »."
+        },
+        {
+          "sids": [
+            "709b3d0656b8"
+          ],
+          "field": "work:jean-paul-sartre--les-mots.significance",
+          "claim": "『말』이 나온 같은 해(1964)에 노벨문학상을 거부했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Words_(book)",
+          "quote": "In November of the same year, 1964, he refused the Nobel Prize for Literature"
+        },
+        {
+          "sids": [
+            "709b3d0656b8"
+          ],
+          "field": "work:jean-paul-sartre--les-mots.significance",
+          "claim": "『말』은 그가 문학을 청산하는 책이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+          "quote": "In 1964, Sartre renounced literature in a witty and sardonic account of the first ten years of his life, Les Mots (The Words)."
+        },
+        {
+          "sids": [
+            "1e945689b737"
+          ],
+          "field": "work:jean-paul-sartre--huis-clos.facts",
+          "claim": "『닫힌 방』(Huis clos)은 1944년에 초연된 희곡이다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Huis_clos_(Sartre)",
+          "quote": "Huis clos est une pièce de théâtre en un acte de Jean-Paul Sartre, rédigée à la fin de l'année 1943, représentée pour la première fois le 27 mai 1944 au théâtre du Vieux-Colombier, à Paris … et publiée par Gallimard en 1945",
+          "note": "1944는 초연 연도다. 단행본은 1945년 Gallimard."
+        },
+        {
+          "sids": [
+            "2b9fedfe133f"
+          ],
+          "field": "work:jean-paul-sartre--huis-clos.significance",
+          "claim": "출구 없는 방이다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "After he repeatedly tries to open the door, it suddenly and inexplicably opens, but he is unable to bring himself to leave. The others remain as well.",
+          "correction": "문이 열려도 누구도 떠나지 못하는 방에 갇힌 세 사람의 단막극으로, '타인은 지옥이다'라는 문장이 관념이 아니라 무대 상황 자체에서 도출된다.",
+          "note": "'출구 없음'은 제목(No Exit)의 뜻이지 무대의 사실이 아니다. 극 후반에 문이 실제로 열린다."
+        },
+        {
+          "sids": [
+            "2b9fedfe133f"
+          ],
+          "field": "work:jean-paul-sartre--huis-clos.significance",
+          "claim": "'타인은 지옥이다'가 극 속 상황의 결론으로 나온다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/No_Exit",
+          "quote": "Joseph concludes that, rather than torture devices or physical punishment, \"hell is other people.\""
+        },
+        {
+          "sids": [
+            "6c7a76808a93"
+          ],
+          "field": "work:jean-paul-sartre--l-etre-et-le-neant.facts",
+          "claim": "『존재와 무』(L'Être et le Néant)는 1943년에 나온 철학 저작이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+          "quote": "Being and Nothingness: An Essay on Phenomenological Ontology (French: L'Être et le néant : Essai d'ontologie phénoménologique), sometimes published with the subtitle A Phenomenological Essay on Ontology, is a 1943 book by the philosopher Jean-Paul Sartre.",
+          "note": "철학 논고라 사이트의 장르 체계에서는 essay-criticism에 들어간다."
+        },
+        {
+          "sids": [
+            "5c553c680011"
+          ],
+          "field": "work:jean-paul-sartre--l-etre-et-le-neant.significance",
+          "claim": "의식·자기기만·무·자유를 다룬 현상학적 존재론이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+          "quote": "In the book, Sartre develops a philosophical account in support of his existentialism, dealing with topics such as consciousness, perception, social philosophy, self-deception, the existence of \"nothingness\", psychoanalysis, and the question of free will."
+        },
+        {
+          "sids": [
+            "5c553c680011"
+          ],
+          "field": "work:jean-paul-sartre--l-etre-et-le-neant.significance",
+          "claim": "즉자(being-in-itself)와 대자(being-for-itself) 개념을 쓴다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+          "quote": "he describes the nature of two types of being, being-in-itself (the being of things) and being-for-itself."
+        },
+        {
+          "sids": [
+            "4045db45a2c1"
+          ],
+          "field": "work:jean-paul-sartre--l-etre-et-le-neant.significance",
+          "claim": "그의 소설과 희곡이 장면으로 옮기는 장치는 모두 『존재와 무』에서 나온다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "I came to realize the wealth of meaning in what he called his 'theory of contingency,' and in which were to be found already the seeds of all his ideas on being, existence, necessity, and liberty",
+          "correction": "『닫힌 방』의 시선처럼 그의 희곡이 장면으로 옮기는 장치가 여기서 이론으로 정리된다. 다만 『구토』(1938)는 이 책보다 먼저 나왔고, 거기서 다룬 우연성 이론이 오히려 이 책의 씨앗이었다.",
+          "note": "보부아르의 회고(en.wikipedia Nausea 항목 인용). 『구토』는 1938년, 『존재와 무』는 1943년이라 '모두 여기서 나온다'는 선후가 맞지 않는다. 『닫힌 방』이 『존재와 무』의 시선 이론을 무대화한 것으로 자주 읽힌다는 점은 fr.wikipedia Huis clos 항목이 뒷받침한다: « Souvent comprise comme une mise en scène de la théorie du regard de Sartre, développée dans l'Être et le Néant »."
+        },
+        {
+          "sids": [
+            "3d5f239f9326"
+          ],
+          "field": "work:jean-paul-sartre--la-nausee.facts",
+          "claim": "『구토』(La Nausée)는 1938년에 나온 소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "Nausea (French: La Nausée) is a philosophical novel by the existentialist philosopher Jean-Paul Sartre, published in 1938."
+        },
+        {
+          "sids": [
+            "ec3ea27490c8"
+          ],
+          "field": "work:jean-paul-sartre--la-nausee.significance",
+          "claim": "로캉탱의 일기 형식이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "It comprises the thoughts and subjective experiences—in a personal diary format—of Antoine Roquentin"
+        },
+        {
+          "sids": [
+            "ec3ea27490c8"
+          ],
+          "field": "work:jean-paul-sartre--la-nausee.significance",
+          "claim": "존재의 우연성·무근거함을 추상 개념이 아니라 겪는 경험으로 옮겼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Nausea_(novel)",
+          "quote": "The core philosophical issue of the novel is the realization that reality is fundamentally \"contingent\" – that it is utterly groundless … For Sartre, this realization is not intellectual comprehension of an abstract idea, but rather a lived experience of reality itself."
+        },
+        {
+          "sids": [
+            "0198a6ce878b",
+            "30b3d5f9cd5a"
+          ],
+          "field": "relation:influence--jean-paul-sartre--mario-vargas-llosa.facts",
+          "claim": "바르가스 요사는 『사르트르와 카뮈 사이』(1981)에서 사르트르에게서 지적 수업을 받고 뒤에 카뮈로 옮겨 간 자기 경로를 직접 밝혔다(사르트르→바르가스 요사, 문서로 남은 영향)",
+          "verdict": "confirmed",
+          "url": "https://ellibero.cl/actualidad/el-liberalismo-integral-de-mario-vargas-llosa/",
+          "quote": "Al publicar en 1981 en forma de libro (Entre Sartre y Camus) los textos que desde los años 60 había ido escribiendo al respecto nos dice que, tal vez, la única justificación de su publicación sea “mostrar el itinerario de un latinoamericano que hizo su aprendizaje intelectual deslumbrado por la inteligencia y los vaivenes dialécticos de Sartre y terminó abrazando el reformismo libertario de Camus”."
+        },
+        {
+          "sids": [
+            "30b3d5f9cd5a"
+          ],
+          "field": "relation:influence--jean-paul-sartre--mario-vargas-llosa.summary",
+          "claim": "그의 초기 문학관은 사르트르의 참여문학론 위에 서 있었고 그로부터 멀어졌다",
+          "verdict": "confirmed",
+          "url": "https://www.cervantesvirtual.com/research/mario-vargas-llosa-contra-viento-y-marea-940040/b5e43beb-8489-4132-aba6-2efa2b837fcc.pdf",
+          "quote": "Del compromiso sartreano al compromiso con la literatura.",
+          "note": "Enriqueta Morillas의 서평 중 'Entre Sartre y Camus' 절. 같은 서평은 그 궤적을 « alejándolo de esa primera militancia a favor del arte «comprometido» que propugna el autor de ¿Qué es la literatura? »로도 요약한다. 원서 본문은 직접 열람하지 못했다."
+        },
+        {
+          "sids": [
+            "f25d7989888e"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--simone-de-beauvoir.facts",
+          "claim": "사르트르와 보부아르는 서로의 글을 읽은 양방향 대화 관계였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
+          "quote": "Sartre and Beauvoir always read each other's work, and debate continues about the extent to which they influenced each other in their existentialist works"
+        },
+        {
+          "sids": [
+            "6d14ac8df6a5"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--simone-de-beauvoir.summary",
+          "claim": "1929년부터 사르트르가 죽을 때까지 평생의 동반 관계였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
+          "quote": "In October 1929, Jean-Paul Sartre and Beauvoir became a couple for the next 51 years, until his death in 1980."
+        },
+        {
+          "sids": [
+            "6d14ac8df6a5"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--simone-de-beauvoir.summary",
+          "claim": "두 사람은 『레 탕 모데른』을 함께 창간했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
+          "quote": "Beauvoir, Sartre, and Maurice Merleau-Ponty co-founded Les Temps Modernes"
+        },
+        {
+          "sids": [
+            "6d14ac8df6a5"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--simone-de-beauvoir.summary",
+          "claim": "『레 탕 모데른』은 1945년에 창간됐다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Les_Temps_modernes",
+          "quote": "The first issue of Les Temps modernes appeared in October 1945."
+        },
+        {
+          "sids": [
+            "0e1ab944cb67"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--albert-camus.facts",
+          "claim": "사르트르와 카뮈는 글로 서로 주고받은 양방향 관계였다",
+          "verdict": "confirmed",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo3630360.html",
+          "quote": "reveals as never before the extent to which the two men interacted with each other through their writings both before and, importantly, after the 1952 rupture."
+        },
+        {
+          "sids": [
+            "4200200feca4"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--albert-camus.summary",
+          "claim": "사르트르는 「『이방인』 해설」(1943)을 썼다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27%C3%89tranger",
+          "quote": "Pour Jean-Paul Sartre, le roman d'Albert Camus vise à donner le « sentiment de l'absurde », selon les termes qu'il emploie dans son article « Explication de L'Étranger », paru la veille de la sortie du roman de Camus et daté de 1943"
+        },
+        {
+          "sids": [
+            "4200200feca4"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--albert-camus.summary",
+          "claim": "『반항하는 인간』은 1951년 작이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Rebel_(book)",
+          "quote": "The Rebel (French: L'Homme révolté) is a 1951 book-length essay by Albert Camus"
+        },
+        {
+          "sids": [
+            "4200200feca4"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--albert-camus.summary",
+          "claim": "사르트르는 1952년 『레 탕 모데른』에 『반항하는 인간』에 대한 비판적 응답을 실었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Rebel_(book)",
+          "quote": "It was disliked by Marxists and existentialists, such as Jean-Paul Sartre, who wrote a critical response to it in the review Les Temps modernes in 1952."
+        },
+        {
+          "sids": [
+            "4200200feca4"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--albert-camus.summary",
+          "claim": "1952년 공개 논쟁 끝에 두 사람은 절교했다",
+          "verdict": "confirmed",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo3630360.html",
+          "quote": "Sartre embraced violence as a path to change and Camus sharply opposed it, leading to a bitter and very public falling out in 1952. They never spoke again"
+        },
+        {
+          "sids": [
+            "cf0c9f84fc09"
+          ],
+          "field": "relation:dialogue--jean-paul-sartre--albert-camus.summary",
+          "claim": "두 사람의 결별은 주변 지식인들에게 편을 가르게 한 분기점이었다",
+          "verdict": "confirmed",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo3630360.html",
+          "quote": "Their dramatic rupture at the height of the Cold War, like that conflict itself, demanded those caught in its wake to take sides rather than to appreciate its tragic complexity."
+        },
+        {
+          "sids": [
+            "cbfef61cacac"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.facts",
+          "claim": "사르트르는 플로베르를 참여의 반대편에 놓은 대조 관계를 스스로 세웠다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Sartre motive les orientations présentes sur les choix passés, parcourant de Voltaire à Gide et de Balzac à Flaubert les trajets concurrents de l'engagement et du désinvestissement."
+        },
+        {
+          "sids": [
+            "cbfef61cacac",
+            "19b0231113ac"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.facts",
+          "claim": "이 대조는 사르트르 연구의 합의(scholarly_consensus)다",
+          "verdict": "contradicted",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "En somme, partant de cet appel fondateur de Sartre pour le XXe siècle, qui utilise Flaubert et son rapport à la Commune en occultant le contexte, il faut redonner à la question posée par Sartre une dimension plus historique",
+          "correction": "예술을 위해 물러난 작가와 참여하는 작가라는 두 상은 사르트르 자신이 창간사와 『집안의 백치』에서 세운 대립항이며, 연구자들이 그 구도를 다시 따져 묻는다.",
+          "note": "찾은 것은 사르트르 자신의 글(창간사, 『집안의 백치』 3권이 '예술을 위한 예술'과 참여를 대비함 — fr.wikipedia L'Idiot de la famille)과 그 구도를 비판적으로 재검토하는 개별 연구(Fabula 콜로키엄 논문)다. '사르트르 연구가 한 쌍으로 다룬다'는 합의를 말하는 출처는 찾지 못했다. 근거 수준은 scholarly_consensus보다 documented(사르트르 본인 문헌)가 맞다."
+        },
+        {
+          "sids": [
+            "10a60d7e317c"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "1945년 『레 탕 모데른』 창간사에서 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 '막기 위해 한 줄도 쓰지 않았다'고 썼다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Dans le texte manifeste des Temps Modernes, en octobre 1945, Sartre écrit : … Je tiens Flaubert et Goncourt pour responsables de la répression qui suivit la Commune parce qu'ils n'ont pas écrit une ligne pour l'empêcher."
+        },
+        {
+          "sids": [
+            "10a60d7e317c"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "창간사는 『Situations II』에 수록됐다",
+          "verdict": "confirmed",
+          "url": "https://www.universalis.fr/encyclopedie/qu-est-ce-que-la-litterature/",
+          "quote": "a paru en 1947 dans Les Temps modernes, repris l'année suivante dans Situations II, précédé de deux autres articles : « Présentation des Temps modernes », manifeste de la revue créée par Jean-Paul Sartre (1905-1980) en 1945"
+        },
+        {
+          "sids": [
+            "10a60d7e317c"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "『집안의 백치』(1971–72) 세 권을 플로베르에게 바쳤다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27Idiot_de_la_famille",
+          "quote": "Jean-Paul Sartre. L'idiot de la famille : Gustave Flaubert de 1821 à 1857. Paris : Gallimard, 1971-1972, 3 tomes.",
+          "note": "미완이다(« un ouvrage inachevé en trois volumes »)."
+        }
+      ],
+      "noClaim": {
+        "de4c1536c0c7": "읽는 순서에 관한 권고일 뿐 확인할 사실이 없다."
+      }
+    }
+  ]
+}

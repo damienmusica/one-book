@@ -1,0 +1,605 @@
+{
+  "plates": [
+    {
+      "id": "jrr-tolkien",
+      "claims": [
+        {
+          "sids": [
+            "08ac8f8854cd"
+          ],
+          "field": "author.facts",
+          "claim": "톨킨(John Ronald Reuel Tolkien)의 생몰년은 1892–1973이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "John Ronald Reuel Tolkien (; 3 January 1892 – 2 September 1973) was an English writer and academic philologist."
+        },
+        {
+          "sids": [
+            "08ac8f8854cd"
+          ],
+          "field": "author.facts",
+          "claim": "톨킨은 영어로 쓴 잉글랜드 작가다(언어 en, 지역 영국·아일랜드)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "Tolkien was English, and thought of himself as such.",
+          "note": "출생지는 남아프리카 블룸폰테인(\"born on 3 January 1892 in Bloemfontein in the Orange Free State\"). 지역 표기는 활동지 기준으로 맞다."
+        },
+        {
+          "sids": [
+            "f84a437b10cd"
+          ],
+          "field": "author.importanceReason",
+          "claim": "톨킨은 언어를 먼저 만들고 그 언어가 쓰일 역사와 신화를 지었다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Languages_constructed_by_Tolkien",
+          "quote": "The Tolkien scholar and folklorist Dimitra Fimi questions this claim. In particular, his September 1914 The Voyage of Earendel the Evening Star … shows that he was starting to think about a mythology before he started to sketch his first invented Middle-earth language, Qenya, in March 1915.",
+          "correction": "톨킨은 스스로 언어 발명이 토대이고 이야기는 그 언어에 세계를 주려고 지은 것이라고 말했다(다만 디미트라 피미 등은 신화 구상이 언어보다 앞섰다고 반론한다).",
+          "note": "톨킨 자신의 진술은 같은 문서에서 확인: \"The invention of languages is the foundation. The 'stories' were made rather to provide a world for the languages than the reverse.\" 단정이 아니라 톨킨의 자기 진술로 귀속해야 한다."
+        },
+        {
+          "sids": [
+            "f84a437b10cd"
+          ],
+          "field": "author.importanceReason",
+          "claim": "'이차 세계'는 톨킨이 쓴 개념어다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "Tolkien's own explanation of his art, of the \"sub-creation\" (in his terminology) of a secondary world"
+        },
+        {
+          "sids": [
+            "f84a437b10cd"
+          ],
+          "field": "author.importanceReason",
+          "claim": "톨킨의 작업이 이후 판타지가 따르게 될 '이차 세계'의 규격을 세웠다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "the great success of The Hobbit and The Lord of the Rings led directly to a popular resurgence and the shaping of the modern fantasy genre.",
+          "correction": "『호빗』과 『반지의 제왕』의 큰 성공이 판타지의 대중적 부흥과 현대 판타지 장르의 형성으로 곧장 이어졌다.",
+          "note": "'규격을 세웠다'만큼 말하는 출처는 찾지 못했다. Worldbuilding 문서는 허구 세계 창조를 처음 다룬 이들로 조지 맥도널드·톨킨·던세이니 등을 함께 들고, 이야기 세계 전체를 처음 창조한 사람으로 윌리엄 모리스를 든다."
+        },
+        {
+          "sids": [
+            "9273b9922e65"
+          ],
+          "field": "author.importanceReason",
+          "claim": "중간계는 지명·계보·연대기·부록을 갖추고, 배경이 아니라 문헌(번역된 고문서)의 틀로 제시된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "Tolkien presents The Lord of the Rings within a fictional frame story where he is not the original author, but merely the translator of part of an ancient document, the Red Book of Westmarch.",
+          "note": "부록 내용은 같은 문서: \"Extensive appendices outline more details of the history, cultures, genealogies, and languages\". Worldbuilding 문서도 \"framing his world with narrators and versions of stories, like a real mythology\"로 기술."
+        },
+        {
+          "sids": [
+            "9273b9922e65"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「요정 이야기에 관하여」는 강연을 고쳐 출간한 글이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "\"On Fairy-Stories\" first appeared in print, with some enhancement, in 1947"
+        },
+        {
+          "sids": [
+            "9273b9922e65"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「요정 이야기에 관하여」는 '이차 믿음' 개념을 제시했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Suspension_of_disbelief",
+          "quote": "J. R. R. Tolkien challenged this concept in \"On Fairy-Stories\", choosing instead the paradigm of secondary belief based on inner consistency of reality"
+        },
+        {
+          "sids": [
+            "9273b9922e65"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「요정 이야기에 관하여」는 회복·도피·위안을 요정 이야기의 요소로 정리했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "Tolkien argues that \"fairy-story\" must contain four qualities, namely fantasy, recovery, escape, and consolation."
+        },
+        {
+          "sids": [
+            "21d06d3e607b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "톨킨은 고대 영어 문헌학자였고 그 학문이 창작과 뗄 수 없다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "His philological work centred on the study of Old English literature, especially Beowulf, and he acknowledged its importance to his writings.",
+          "note": "같은 문서: \"Both Tolkien's academic career and his literary production are inseparable from his love of language and philology.\""
+        },
+        {
+          "sids": [
+            "21d06d3e607b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "톨킨 이후 판타지는 개별 이야기가 아니라 세계를 짓는 장르로 취급되었다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+          "quote": "the tremendous success of The Hobbit and The Lord of the Rings ignited a profound interest in the fantasy genre and ultimately precipitated an avalanche of new fantasy books and authors.",
+          "correction": "『호빗』과 『반지의 제왕』의 성공은 판타지 장르에 대한 깊은 관심을 불러일으켜 새 판타지 책과 작가가 쏟아지게 했다.",
+          "note": "판타지가 '세계를 짓는 장르로 취급되었다'고 말하는 출처는 찾지 못했다(J. R. R. Tolkien, Worldbuilding, The Lord of the Rings 문서 확인)."
+        },
+        {
+          "sids": [
+            "015d85afc384"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『호빗』은 300쪽 남짓 단권이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Pages 310 (first edition)",
+          "note": "위키백과 정보상자(초판 기준)."
+        },
+        {
+          "sids": [
+            "015d85afc384"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『호빗』은 아이에게 말하듯 쉬운 어조로 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Tolkien intended The Hobbit as a \"fairy-story\" and wrote it in a tone suited to addressing children"
+        },
+        {
+          "sids": [
+            "015d85afc384"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이후 장편(『반지의 제왕』)은 중간계의 지리와 종족을 아무 설명 없이 전제한다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring",
+          "quote": "The volume contains a prologue for readers who have not read The Hobbit, and background information to set the stage for the novel.",
+          "correction": "『반지의 제왕』 1권에는 『호빗』을 읽지 않은 독자를 위해 호빗과 샤이어를 설명하는 서장(「호빗에 관하여」)이 붙어 있지만, 『호빗』을 먼저 읽으면 중간계의 지리와 종족에 익숙한 채로 들어갈 수 있다."
+        },
+        {
+          "sids": [
+            "f28d4629f88e"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『실마릴리온』은 기억하기 어려운 이름이 많고 따라갈 인물 무리가 없다는 평을 받았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "Time magazine lamented that there was \"no single, unifying quest and, above all, no band of brothers for the reader to identify with\". Other criticisms included difficult-to-read archaic language and many difficult and hard-to-remember names.",
+          "note": "'중도에 놓기 쉽다'는 독서 조언."
+        },
+        {
+          "sids": [
+            "250631640b4a"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『호빗』은 평이한 문체다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "While The Hobbit is written in a simple, friendly language, each of its characters has a unique voice."
+        },
+        {
+          "sids": [
+            "250631640b4a"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』은 세 권으로 나왔고 연대표·계보를 담은 부록이 붙는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "in three volumes rather than one, under the titles The Fellowship of the Ring, The Two Towers, and The Return of the King; The Silmarillion appeared only after Tolkien's death. The work is divided internally into six books, two per volume, with several appendices of chronologies, genealogies, and linguistic information."
+        },
+        {
+          "sids": [
+            "250631640b4a"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』에는 삽입 시가가 들어 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "Unusually for 20th century novels, the prose narrative is supplemented throughout by over 60 pieces of poetry."
+        },
+        {
+          "sids": [
+            "250631640b4a"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 신화지(연대기풍) 문체로, 단일 서사 줄기가 없다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "David Bratman has named these as \"Annalistic\", \"Antique\" and \"Appendical\". All of these are far from the approachable novelistic styles of The Hobbit and The Lord of the Rings, lacking a single narrative thread, and without the benefit of Hobbits as guides"
+        },
+        {
+          "sids": [
+            "250631640b4a"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 인물 대신 계보가 서술을 끌어간다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "lacking a single narrative thread, and without the benefit of Hobbits as guides",
+          "correction": "『실마릴리온』은 단일한 서사 줄기도 호빗 같은 길잡이 인물도 없이 연대기풍 문체로 서술된다.",
+          "note": "'계보가 서술을 끌어간다'는 출처의 말이 아니다. 문서가 전하는 것은 연대기·고풍·부록풍 문체와 길잡이 인물의 부재다."
+        },
+        {
+          "sids": [
+            "250631640b4a"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 고유명사가 많아 읽기 어렵다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "Other criticisms included difficult-to-read archaic language and many difficult and hard-to-remember names."
+        },
+        {
+          "sids": [
+            "6e26d1103fdd"
+          ],
+          "field": "work:jrr-tolkien--on-fairy-stories.facts",
+          "claim": "「요정 이야기에 관하여」(On Fairy-Stories)는 1947년 에세이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "\"On Fairy-Stories\" is a 1947 essay by J. R. R. Tolkien which discusses the fairy story as a literary form."
+        },
+        {
+          "sids": [
+            "b252700fc881"
+          ],
+          "field": "work:jrr-tolkien--on-fairy-stories.significance",
+          "claim": "1939년 앤드루 랭 강연을 고쳐 실은 에세이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "It was written as a lecture entitled \"Fairy Stories\" for the Andrew Lang lecture at the University of St Andrews, Scotland, on 8 March 1939.",
+          "note": "1947년 인쇄본은 \"with some enhancement\"(Essays Presented to Charles Williams)."
+        },
+        {
+          "sids": [
+            "b252700fc881"
+          ],
+          "field": "work:jrr-tolkien--on-fairy-stories.significance",
+          "claim": "이 에세이는 판타지에 대한 톨킨의 생각과 이차 세계(하위 창조)를 개념으로 설명한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "The essay is significant because it contains Tolkien's explanation of his philosophy on fantasy, and his thoughts on mythopoeia and sub-creation or worldbuilding."
+        },
+        {
+          "sids": [
+            "b252700fc881"
+          ],
+          "field": "work:jrr-tolkien--on-fairy-stories.significance",
+          "claim": "이 에세이는 '이차 믿음'을 제시한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Suspension_of_disbelief",
+          "quote": "J. R. R. Tolkien challenged this concept in \"On Fairy-Stories\", choosing instead the paradigm of secondary belief"
+        },
+        {
+          "sids": [
+            "b252700fc881"
+          ],
+          "field": "work:jrr-tolkien--on-fairy-stories.significance",
+          "claim": "이 에세이는 회복·도피·위안을 정리한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "namely fantasy, recovery, escape, and consolation."
+        },
+        {
+          "sids": [
+            "020eb5bc1f16"
+          ],
+          "field": "work:jrr-tolkien--on-fairy-stories.significance",
+          "claim": "이 에세이는 톨킨 자신의 창작에 대한 설명(강령)이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/On_Fairy-Stories",
+          "quote": "The Tolkien scholar Verlyn Flieger states that \"On Fairy-Stories\" would be at the centre of Tolkien research simply because it is Tolkien's own explanation of his art"
+        },
+        {
+          "sids": [
+            "bba6fb977497"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.facts",
+          "claim": "「베오울프: 괴물과 비평가들」은 1936년 강연·논문이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "initially delivered as the Sir Israel Gollancz Memorial Lecture at the British Academy on 25 November 1936, and first published as a paper in the Proceedings of the British Academy that same year"
+        },
+        {
+          "sids": [
+            "d383841e9cd3"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "『베오울프』를 역사 사료가 아니라 시로 읽어야 한다고 논증한 영국 학술원 강연이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "Tolkien argues that the original poem has almost been lost under the weight of the scholarship on it; that Beowulf must be seen as a poem, not just as a historical document",
+          "note": "영국 학술원 강연 사실은 같은 문서의 \"Sir Israel Gollancz Memorial Lecture at the British Academy\"."
+        },
+        {
+          "sids": [
+            "186bc805e7ae"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "이 글은 영문학 연구의 고전으로 평가된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "Joan Acocella, writing in The New Yorker, calls it \"a paper that many people regard as not just the finest essay on the poem but one of the finest essays on English literature.\"",
+          "note": "학계 평가: Drout \"the most important article ever written about Beowulf\"."
+        },
+        {
+          "sids": [
+            "186bc805e7ae"
+          ],
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "이 글에 괴물과 운명을 이야기의 중심에 두는 톨킨 자신의 창작 원리가 드러난다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Beowulf:_The_Monsters_and_the_Critics",
+          "quote": "Against the scorn of critics, Tolkien defends the centrality and seriousness of literary monsters, declaring his own belief in the symbolic value of such preternatural representations of sheer evil.",
+          "correction": "비평가들의 경멸에 맞서 괴물이 이야기의 중심이며 진지한 존재임을 옹호하고, 그런 존재의 상징적 가치에 대한 톨킨 자신의 믿음을 드러낸 글이다(레지나 와인라이크, 뉴욕타임스).",
+          "note": "이 강연을 톨킨 자신의 '창작 원리'로 읽는 출처는 찾지 못했다. 『베오울프』가 그의 소설에 영향을 준 사실은 J. R. R. Tolkien 문서(\"Beowulf is one of the most significant influences upon Tolkien's later fiction\")에서 확인되지만, 이것은 강연 자체에 대한 말이 아니다."
+        },
+        {
+          "sids": [
+            "09e7a0520f32"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.facts",
+          "claim": "『호빗』(The Hobbit)은 1937년에 나온 소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "The Hobbit, or There and Back Again is a children's fantasy novel by the English author J. R. R. Tolkien. It was published in 1937"
+        },
+        {
+          "sids": [
+            "6cfbb3c5608a"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "빌보의 왕복 여정을 그린다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "the \"home-away-home\" (or there and back again) plot structure",
+          "note": "부제 'There and Back Again'."
+        },
+        {
+          "sids": [
+            "6cfbb3c5608a"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "아동용 이야기의 어조로 서술되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "wrote it in a tone suited to addressing children"
+        },
+        {
+          "sids": [
+            "6cfbb3c5608a"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "중간계의 지리·종족·언어 체계를 이야기 안에 심어 두었다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "Tolkien's biographer Humphrey Carpenter states that The Hobbit was initially conceived as a largely self-contained fairy-tale, separate from the complex mythology Tolkien had been developing privately.",
+          "correction": "중간계를 무대로 하지만, 처음에는 톨킨이 따로 가꾸던 신화 체계와 떨어진 독립 동화로 구상되었고 『반지의 제왕』을 쓰면서 그 체계 안으로 편입되었다."
+        },
+        {
+          "sids": [
+            "ade0c37c284c"
+          ],
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "『호빗』은 톨킨의 세계가 독자에게 처음 공개된 창구다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Tolkien%27s_legendarium",
+          "quote": "The Hobbit (1937), Tolkien's first published novel, was not originally part of the larger mythology but became linked to it.",
+          "correction": "톨킨이 처음 펴낸 장편소설로, 원래는 그의 큰 신화 체계에 속하지 않았으나 뒤에 그것과 이어졌다."
+        },
+        {
+          "sids": [
+            "ef41f269135d"
+          ],
+          "field": "work:jrr-tolkien--the-lord-of-the-rings.facts",
+          "claim": "『반지의 제왕』(The Lord of the Rings)은 1954년에 처음 나온 소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "it was first published over the course of a year, from 29 July 1954 to 20 October 1955, in three volumes",
+          "note": "1954는 1권 간행 연도. 완간은 1955년."
+        },
+        {
+          "sids": [
+            "f8d6bb75b52b"
+          ],
+          "field": "work:jrr-tolkien--the-lord-of-the-rings.significance",
+          "claim": "1954–55년에 세 권으로 나뉘어 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "on 29 July 1954, on 11 November 1954 and on 20 October 1955 respectively in the United Kingdom"
+        },
+        {
+          "sids": [
+            "f8d6bb75b52b"
+          ],
+          "field": "work:jrr-tolkien--the-lord-of-the-rings.significance",
+          "claim": "부록에 연대기·계보·문자 체계가 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Return_of_the_King",
+          "quote": "Describes dwarves' runes and the elvish runes used by the other peoples of Middle-earth",
+          "note": "같은 문서의 부록 목록에 \"The Tale of Years\"(연대기), \"Family Trees\"(계보), \"Writing and Spelling\"(문자) 항목이 있다."
+        },
+        {
+          "sids": [
+            "f8d6bb75b52b"
+          ],
+          "field": "work:jrr-tolkien--the-lord-of-the-rings.significance",
+          "claim": "세계를 문헌 형태(고문서의 번역)로 제시했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "merely the translator of part of an ancient document, the Red Book of Westmarch."
+        },
+        {
+          "sids": [
+            "a391486a4423"
+          ],
+          "field": "work:jrr-tolkien--the-lord-of-the-rings.significance",
+          "claim": "이후 판타지 장르가 참조하는 표준 규격이 되었다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "It is considered one of the most influential fantasy books ever written, and has helped to create and shape the modern fantasy genre.",
+          "correction": "가장 영향력 있는 판타지 소설 가운데 하나로 꼽히며, 현대 판타지 장르를 만들고 형성하는 데 기여했다.",
+          "note": "'표준 규격'만큼 말하는 출처는 찾지 못했다. 모방작이 많다는 기술(\"The opus has spawned many imitations\")은 있다."
+        },
+        {
+          "sids": [
+            "a3af433f8144"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.facts",
+          "claim": "『실마릴리온』(The Silmarillion)은 1977년에 처음 간행된 신화·이야기 모음이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "The Silmarillion (Quenya: [silmaˈrilːiɔn]) is a book consisting of a collection of myths and stories in varying styles by the English writer J. R. R. Tolkien. It was edited, partly written, and published posthumously by his son Christopher in 1977"
+        },
+        {
+          "sids": [
+            "dd29433f1e8f"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "톨킨 사후 아들 크리스토퍼가 유고를 편집해 낸 책이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "It was edited, partly written, and published posthumously by his son Christopher in 1977, assisted by Guy Gavriel Kay",
+          "note": "크리스토퍼는 편집만이 아니라 일부를 직접 썼다(\"partly written\")."
+        },
+        {
+          "sids": [
+            "dd29433f1e8f"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "상고대(창조·제1시대 등)를 다룬 신화지다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "The first, Ainulindalë, tells in mythic style of the creation of Eä, the \"world that is.\""
+        },
+        {
+          "sids": [
+            "dd29433f1e8f"
+          ],
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "『반지의 제왕』이 노래와 지명으로만 인용하던 전설들의 원본에 해당한다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Tolkien%27s_legendarium",
+          "quote": "The Lord of the Rings occasionally alludes to figures and events from the legendarium to create an impression of depth",
+          "correction": "『반지의 제왕』이 깊이감을 주려고 이따금 암시하는 상고대 전설들을 담은 책이다. 다만 1977년 판은 톨킨이 승인한 원본이 아니라 크리스토퍼가 여러 초고에서 골라 엮은 구성물이다.",
+          "note": "같은 주제의 The Silmarillion 문서: \"the book is a construction, not authorised by Tolkien himself\"."
+        },
+        {
+          "sids": [
+            "b194f52da1ab"
+          ],
+          "field": "relation:influence--jrr-tolkien--ursula-k-le-guin.facts",
+          "claim": "톨킨이 르 귄에게 영향을 주었다(방향 톨킨→르 귄, 문헌으로 확인)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Earthsea",
+          "quote": "The Earthsea series, from 1968, was one of the first fantasy series influenced by J. R. R. Tolkien."
+        },
+        {
+          "sids": [
+            "6620a2f4e21b"
+          ],
+          "field": "relation:influence--jrr-tolkien--ursula-k-le-guin.summary",
+          "claim": "「엘프랜드에서 포킵시로」는 1972년 강연으로, 1973년 Pendragon Press 단행본으로 나왔고 뒤에 『밤의 언어』에 수록되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/From_Elfland_to_Poughkeepsie",
+          "quote": "\"From Elfland to Poughkeepsie\" is a 1972 speech by Ursula K. Le Guin about writing style in fantasy. It was later published as a limited-edition standalone booklet by Pendragon Press in 1973 and later in a collection of essays, The Language of the Night, in 1979."
+        },
+        {
+          "sids": [
+            "6620a2f4e21b"
+          ],
+          "field": "relation:influence--jrr-tolkien--ursula-k-le-guin.summary",
+          "claim": "르 귄은 이 강연에서 던세이니·에디슨·케네스 모리스·톨킨 등을 판타지 산문의 성공 사례로 든다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/From_Elfland_to_Poughkeepsie",
+          "quote": "she holds up Lord Dunsany, E. R. Eddison, Kenneth Morris, J. R. R. Tolkien, James Branch Cabell, Evangeline Walton, and Jack Vance as successful examples.",
+          "note": "강연 원문은 에디슨·모리스·톨킨 셋을 비교 기준인 \"three master stylists\"로 골랐다(\"In art, the best is the standard.\")."
+        },
+        {
+          "sids": [
+            "6620a2f4e21b"
+          ],
+          "field": "relation:influence--jrr-tolkien--ursula-k-le-guin.summary",
+          "claim": "르 귄은 판타지에서 문체가 곧 작품(이야기)이라고 논한다",
+          "verdict": "confirmed",
+          "url": "https://digginganddeepening.com/texts/ESSAYS/U%20K%20LeGuin/1973_FromElflandtoPoughkeepsie_1.pdf",
+          "quote": "The style, of course, is the book. If you remove the cake, all you have left is a recipe."
+        },
+        {
+          "sids": [
+            "6620a2f4e21b"
+          ],
+          "field": "relation:influence--jrr-tolkien--ursula-k-le-guin.summary",
+          "claim": "르 귄은 아무 목소리도 없던 세계에서 말하는 작가의 '무서운 책임'을 판타지 쓰기 일반의 조건으로 제시한다",
+          "verdict": "confirmed",
+          "url": "https://digginganddeepening.com/texts/ESSAYS/U%20K%20LeGuin/1973_FromElflandtoPoughkeepsie_1.pdf",
+          "quote": "A world where no voice has ever spoken before; where the act of speech is the act of creation. The only voice that speaks there is the creator's voice. And every word counts. This is an awful responsibility to undertake",
+          "note": "바로 앞 문장에서 르 귄은 이 세계를 톨킨의 용어로 부른다: \"To create what Tolkien calls \"a secondary universe\" is to make a new world.\""
+        },
+        {
+          "sids": [
+            "be3c1e57707c"
+          ],
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.facts",
+          "claim": "톨킨과 에코를 대비하는 것이 학계의 합의다(contrast · scholarly_consensus)",
+          "verdict": "contradicted",
+          "url": "https://dimitrafimi.org/the-past-as-an-imaginary-world-the-case-of-medievalism-chatterton-tolkien-eco/",
+          "quote": "this essay will aim to show that all three ‘dreamt’ of the Middle Ages in strikingly similar ways: by following the ‘rules’ of inventing a Secondary World, and by leaving its relationship to the Primary World deliberately ambiguous.",
+          "correction": "톨킨과 에코를 나란히 다룬 연구(디미트라 피미, 2016)는 두 사람(과 채터턴)을 중세를 이차 세계로 지은 '동료 하위창조자'로 보며 닮은 점을 강조하고, 차이로는 창작 동기와 에코의 의도적 시대착오를 든다.",
+          "note": "대비가 학계 합의라는 출처는 찾지 못했다. 피미는 차이도 적는다: \"The difference here is Eco’s deliberate anachronisms, which keep on reminding the reader about the constructedness of history\"."
+        },
+        {
+          "sids": [
+            "eb64e57e3ee4"
+          ],
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.summary",
+          "claim": "톨킨은 중세의 재료로 이차 세계를 지었다",
+          "verdict": "confirmed",
+          "url": "https://dimitrafimi.org/the-past-as-an-imaginary-world-the-case-of-medievalism-chatterton-tolkien-eco/",
+          "quote": "Middle-earth, the pseudo-medieval ‘secondary’ world developed over 60 years by J. R. R. Tolkien"
+        },
+        {
+          "sids": [
+            "eb64e57e3ee4"
+          ],
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.summary",
+          "claim": "톨킨은 독자가 이차 세계 안에서 믿게 만드는 것(이차 믿음)을 목표로 했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Suspension_of_disbelief",
+          "quote": "in order for the narrative to work, the reader must believe that what they read is true within the secondary reality of the fictional world."
+        },
+        {
+          "sids": [
+            "eb64e57e3ee4"
+          ],
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.summary",
+          "claim": "톨킨의 이차 세계는 '완결된' 세계다",
+          "verdict": "unverifiable",
+          "note": "'완결된'을 뒷받침하는 출처를 찾지 못했다. 피미는 오히려 세 작가가 \"different levels of invention, completeness, and consistency\"에 이르렀다고 쓴다. J. R. R. Tolkien·Middle-earth 문서도 확인."
+        },
+        {
+          "sids": [
+            "eb64e57e3ee4"
+          ],
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.summary",
+          "claim": "에코는 「중세를 꿈꾸며」(『하이퍼리얼리티 여행』 수록)에서 되살아난 중세를 열 가지 유형으로 분류한다",
+          "verdict": "confirmed",
+          "url": "https://dimitrafimi.org/the-past-as-an-imaginary-world-the-case-of-medievalism-chatterton-tolkien-eco/",
+          "quote": "‘the Middle Ages as a pretext’ is the first of the ‘Ten Little Middle Ages’ that Eco outlines in his essay “Dreaming of the Middle Ages”",
+          "note": "같은 글 주[2]: \"The title of an essay by Umberto Eco in Faith in Fakes: Travels in Hyperreality\". Neo-medievalism 문서 참고문헌: \"Umberto Eco, \"Dreaming of the Middle Ages,\" in Travels in Hyperreality, transl. by W. Weaver, NY: Harcourt Brace, 1986, pp. 61–72.\""
+        },
+        {
+          "sids": [
+            "eb64e57e3ee4"
+          ],
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.summary",
+          "claim": "에코는 중세의 되살림(신중세주의) 자체를 분석 대상으로 삼았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Neo-medievalism",
+          "quote": "Umberto attempts to better visualize and distinguish differing influences, application and representations of neomedievalism, and crafted a list of ten characterizations or categories—\"Ten Little Middle Ages\"—"
+        }
+      ],
+      "noClaim": {
+        "672717ccd4ac": "『호빗』에서 장편으로 올라가라는 읽기 순서 권고일 뿐 사실 주장이 없다"
+      }
+    }
+  ]
+}

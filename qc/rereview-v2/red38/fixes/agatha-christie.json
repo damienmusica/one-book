@@ -1,0 +1,85 @@
+{
+  "fixes": [
+    {
+      "id": "agatha-christie",
+      "importanceReason": "당대의 성공한 추리소설이 모두 그랬듯 독자를 속이는 장치 위에서 썼고, 서술자를 믿을 수 있다는 전제까지 뒤집었다. 저택·열차·섬처럼 용의자를 가둘 수 있는 폐쇄 공간, 마지막 장의 집합 추리라는 조립 부품을 표준화해 이후 추리소설이 변형해 쓸 판형을 남겼다. 66편의 추리 장편을 썼고, 유네스코 번역 통계에서 가장 많이 번역된 작가로 꼽힌다.",
+      "readingEntryReason": "시리즈 탐정 없이 한 권으로 완결되고, 열 사람이 동요의 순서대로 줄어드는 구조에 크리스티가 공식을 쓰는 면과 버리는 면이 함께 보인다.",
+      "readingWarning": "『애크로이드 살인 사건』부터 집으면 트릭이 널리 알려져 있어 효과가 반감된다. 장르의 관습을 두어 권 겪은 뒤에 읽어야 그 반전이 장르에 남긴 것이 보인다.",
+      "difficultyReason": "문장이 짧고 사건이 대화로 굴러간다. 다만 『스타일스 저택의 괴사건』만 해도 용의자 대여섯 명이 대부분 자기 사정을 숨겨, 이름과 알리바이를 메모하며 읽으면 편하다.",
+      "works": [
+        {
+          "id": "agatha-christie--the-mysterious-affair-at-styles",
+          "significance": "푸아로와 화자 헤이스팅스가 함께 나오는 데뷔 장편으로, 저택 하나에 용의자를 가두고 단서를 독자에게 모두 제시한 뒤 마지막 장 직전의 해명으로 닫는 크리스티의 표준 판형이 여기서 정리된다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "크리스티의 소설은 독자가 탐정과 같은 단서를 갖고도 범인을 알아채지 못하게 쓰였다",
+          "resolution": "narrowed",
+          "evidence": "작가 전체로 일반화한 '독자에게 단서를 모두 보여주고도'를 importanceReason 첫 문장에서 지웠다. 인용(영어 위키백과 'The Mysterious Affair at Styles'의 초판 책날개 문구: \"a detective novel in which the reader would not be able to \"spot\" the murderer, although having access to the same clues as the detective\")은 첫 장편 한 권만 받치고, 그 범위의 진술은 『스타일스 저택의 괴사건』 의의의 '단서를 독자에게 모두 제시한 뒤'(주장 24, confirmed)로 페이지에 남아 있다. 교정문의 내기 이야기는 작품 단위 사실이고 작가 의의를 늘리므로 넣지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "단서를 모두 보여주고도 독자를 속이는 규칙을 크리스티가 세워 추리소설을 게임으로 만들었다",
+          "resolution": "corrected",
+          "evidence": "'독자에게 단서를 모두 보여주고도 속이는 규칙을 세워 추리소설을 하나의 게임으로 만들었고'를 교정문대로 '당대의 성공한 추리소설이 모두 그랬듯 독자를 속이는 장치 위에서 썼고'로 바꿨다(시먼스, 영어 위키백과 'Agatha Christie': \"Every successful detective story in this period involved a deceit practised upon the reader\"). 교정문의 '이 시기의'는 필드 첫머리라 가리킬 말이 없어 같은 뜻의 '당대의'로 썼다. 규칙이 사라졌으므로 '그 규칙의 한계를 스스로 시험했다'도 지우고, 확인된 '서술자를 믿을 수 있다는 전제까지 뒤집었다'(주장 5)만 남겼다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "잡담 속에 결정적 진술을 숨기는 것이 크리스티의 조립 부품이다",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 '잡담 속에 숨긴 결정적 진술,'을 importanceReason 둘째 문장의 부품 목록에서 지웠다. 확인된 폐쇄 공간(주장 6)과 마지막 장의 집합 추리(주장 7), 이후 추리소설의 전형이 되었다는 대목(주장 9)은 남겼다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "크리스티는 장편 66편을 썼다",
+          "resolution": "corrected",
+          "evidence": "'66편의 장편'을 교정문대로 '66편의 추리 장편'으로 바꿨다(영어 위키백과 'Agatha Christie': \"known for her 66 detective novels and 14 short-story collections\"; \"She also wrote six novels under the pseudonym Mary Westmacott.\")."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "크리스티의 판형이 대중 독자가 '추리소설'로 떠올리는 형태 자체가 되었다",
+          "resolution": "narrowed",
+          "evidence": "출처가 없는 '그 판형은 대중 독자가 '추리소설'이라는 말로 떠올리는 형태 자체가 되었고'를 지워 셋째 문장을 '66편의 추리 장편을 썼고, 유네스코 번역 통계에서 가장 많이 번역된 작가로 꼽힌다.'로 좁혔다. 유네스코 대목은 확인된 주장 12다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『그리고 아무도 없었다』는 분량이 짧다",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 '분량이 짧으며'를 readingEntryReason에서 지웠다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "이 작품의 구조가 크리스티의 규칙을 가장 선명하게 보여준다",
+          "resolution": "corrected",
+          "evidence": "'구조가 크리스티의 규칙을 가장 선명하게 보여준다'를 교정문의 결론대로 '구조에 크리스티가 공식을 쓰는 면과 버리는 면이 함께 보인다'로 바꿔 최상급 '가장'을 걷었다(영어 위키백과 'Agatha Christie': \"The novel is emblematic of both her use of formula and her willingness to discard it.\"). 교정문 가운데의 고전적 설정과 탐정·심문·집합 추리의 부재는 필드가 원문보다 길어져 넣지 않았다 — 탐정 부재는 이미 '시리즈 탐정 없이'(주장 13)로 남아 있다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "크리스티는 짧은 문장을 쓰고 대화의 비중이 크다",
+          "resolution": "narrowed",
+          "evidence": "노트가 '배경지식이 필요 없다'는 출처가 아닌 읽기 판단이라고 밝혀, 그 구절을 지우고 확인된 부분만 '문장이 짧고 사건이 대화로 굴러간다.'로 남겼다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "크리스티 작품에는 대개 등장인물(용의자)이 열 명 넘게 한꺼번에 나온다",
+          "resolution": "corrected",
+          "evidence": "'한 작품에 등장인물이 열 명 넘게 한꺼번에 나오는 편이라'를 교정문대로 『스타일스 저택의 괴사건』의 용의자 수로 바꿨다: '『스타일스 저택의 괴사건』만 해도 용의자 대여섯 명이 대부분 자기 사정을 숨겨'(영어 위키백과 'The Mysterious Affair at Styles': \"There are a half-dozen suspects, most of whom are hiding facts about themselves.\"). 필드가 원문보다 길어지지 않도록 '자기에 관한 사실'을 '자기 사정'으로 줄이고 '훨씬'을 뺐다."
+        },
+        {
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "마지막 장에서 집합 추리로 사건을 닫는다",
+          "resolution": "corrected",
+          "evidence": "'마지막 장에서 집합 추리로 닫는'을 교정문대로 끝에서 두 번째 장의 해명으로 바꿔 '마지막 장 직전의 해명으로 닫는'으로 고쳤다(영어 위키백과 'The Mysterious Affair at Styles': \"She revised the next-to-last chapter, changing the scene of Poirot's grand revelation from a courtroom to the Styles library.\"). 교정문의 '스타일스 저택 서재의 대단원'은 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『애크로이드 살인 사건』은 장르의 관습을 위반했다",
+          "resolution": "corrected",
+          "evidence": "'그 위반이 무엇을 건드렸는지'를 교정문대로 반전이 장르에 남긴 것으로 바꿔 '그 반전이 장르에 남긴 것이 보인다'로 고쳤다(영어 위키백과 'The Murder of Roger Ackroyd': \"its innovative twist ending having a significant impact on the genre\"). '위반'이라는 규정은 페이지에서 빠졌다. 교정문의 '혁신적인'과 '결말'은 필드가 원문보다 길어져 넣지 않았다."
+        }
+      ]
+    }
+  ]
+}

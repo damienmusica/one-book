@@ -1,0 +1,630 @@
+{
+  "id": "edouard-glissant",
+  "page": "https://literary-planet.pages.dev/authors/edouard-glissant/",
+  "author": {
+    "names": {
+      "ko": "에두아르 글리상",
+      "original": "Édouard Glissant",
+      "aliases": []
+    },
+    "birthYear": 1928,
+    "deathYear": 2011,
+    "activeRange": [
+      1953,
+      2011
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "caribbean"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "poetry"
+    ],
+    "importanceReason": "'관계의 시학'과 크레올화 개념을 세워, 카리브의 혼종성을 결핍이 아니라 사유의 출발점으로 놓았다. 뿌리 하나로 소급하는 정체성 대신 여러 갈래가 얽히는 '관계'를 단위로 삼고, 환원적 투명성과 이해를 거부할 권리를 뜻하는 '불투명성(opacité)'을 그 윤리로 제시했다. 소설에서는 마르티니크의 구술 서사와 끊기는 통사를 겹쳐, 플랜테이션이 지워 버린 계보를 문장 구조 자체로 되살렸다.",
+    "readingEntry": "edouard-glissant--la-lezarde",
+    "readingEntryReason": "250쪽 안팎의 첫 장편이고, 1945년 선거를 앞둔 한 계절과 젊은 무리라는 뚜렷한 사건 축이 있어 개념을 몰라도 읽힌다. 강과 땅의 묘사에서 이후 이론의 이미지가 이미 다 나온다.",
+    "readingOrder": [
+      "edouard-glissant--la-lezarde",
+      "edouard-glissant--le-quatrieme-siecle",
+      "edouard-glissant--le-discours-antillais",
+      "edouard-glissant--poetique-de-la-relation"
+    ],
+    "readingWarning": "『관계의 시학』부터 펼치면 용어가 정의 없이 등장해 중도 포기하기 쉽다. 소설 두 권으로 마르티니크의 시간 감각을 먼저 겪은 뒤 이론으로 올라가는 편이 안전하다.",
+    "difficulty": 4,
+    "difficultyReason": "후기 산문은 '관계', '전체-세계', '불투명성' 같은 자기 조어를 정의 없이 굴리고 들뢰즈·가타리의 리좀 어휘를 전제한다. 소설 쪽은 개념보다 통사가 어려워, 화자와 시제가 예고 없이 미끄러지는 문장을 따라가야 한다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--glissant-discours-antillais-1981"
+    ]
+  },
+  "works": [
+    {
+      "id": "edouard-glissant--le-quatrieme-siecle",
+      "titleKo": "제4세기",
+      "titleOriginal": "Le Quatrième Siècle",
+      "year": 1964,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "1788년 노예선에서 내린 두 조상으로부터 1940년대까지 두 가문의 150여 년을 도망노예(마롱)의 시간과 플랜테이션의 시간으로 갈라 놓고 교차시킨다. 문서가 남지 않은 계보를 구술 기억으로 복원하는 글리상 특유의 서사 장치가 완성된 작품.",
+      "sourceIds": []
+    },
+    {
+      "id": "edouard-glissant--poetique-de-la-relation",
+      "titleKo": "관계의 시학",
+      "titleOriginal": "Poétique de la Relation",
+      "year": 1990,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "'심연(노예선의 밑바닥)'에서 시작해 관계·혼돈-세계·불투명성으로 나아가는 사유의 정본. 탈식민 이론이 정체성을 다루는 어휘 자체를 바꿔 놓은 책이다.",
+      "sourceIds": []
+    },
+    {
+      "id": "edouard-glissant--la-lezarde",
+      "titleKo": "레자르드 강",
+      "titleOriginal": "La Lézarde",
+      "year": 1958,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "선거를 앞둔 마르티니크의 한 계절을 강의 흐름에 맞춰 서술한 첫 장편으로, 르노도상을 받으며 글리상의 이름을 프랑스 문단에 세웠다. 이후 이론이 쓸 '풍경과 기억은 분리되지 않는다'는 명제가 소설 형태로 먼저 실행된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "edouard-glissant--le-discours-antillais",
+      "titleKo": "앙티유 담론",
+      "titleOriginal": "Le Discours antillais",
+      "year": 1981,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "역사·언어·경제·정신분석을 한 권에 모아 마르티니크의 '비역사(non-histoire)'와 '강요된 시학'을 진단한 대작 에세이. 앙티야니테라는 자기 규정이 여기서 체계를 얻는다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--william-faulkner--edouard-glissant",
+      "type": "documented_influence",
+      "from": "william-faulkner (윌리엄 포크너)",
+      "to": "edouard-glissant (에두아르 글리상)",
+      "evidenceLevel": "documented",
+      "summary": "글리상은 단행본 『포크너, 미시시피』(1996)에서 요크나파토파의 은폐된 혈통 서술을 앙티유 플랜테이션의 계보 문제와 겹쳐 읽으며, 포크너를 자기 소설 방법의 참조점으로 명시한다.",
+      "sourceIds": [
+        "src--glissant-faulkner-mississippi"
+      ]
+    },
+    {
+      "id": "contrast--aime-cesaire--edouard-glissant",
+      "type": "contrast",
+      "from": "aime-cesaire (에메 세제르)",
+      "to": "edouard-glissant (에두아르 글리상)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "글리상은 『앙티유 담론』(1981)에서 네그리튀드의 아프리카 회귀를 마르티니크의 현실과 어긋난 좌표로 보고, 1960년대부터 제기해 온 '앙티야니테'를 그 대안으로 체계화한다. 프랑스어권 카리브 사상사가 반복해 다루는 세대적 대립축이다.",
+      "sourceIds": [
+        "src--glissant-discours-antillais-1981"
+      ]
+    },
+    {
+      "id": "affinity--edouard-glissant--kamau-brathwaite",
+      "type": "affinity",
+      "from": "edouard-glissant (에두아르 글리상)",
+      "to": "kamau-brathwaite (카마우 브래스웨이트)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "글리상은 『앙티유 담론』(1981)에서 créolisation을 플랜테이션 아메리카 사회 전반이 형성되는 과정으로 서술했고, 브래스웨이트는 『자메이카 크레올 사회의 형성』(1971)에서 영어권 카리브의 creolization을 같은 이름으로 기술했다.",
+      "sourceIds": [
+        "src--glissant-discours-antillais-1981"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "influence--frantz-fanon--edouard-glissant (→ frantz-fanon 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "d701ff4538d0",
+      "where": "author.facts",
+      "text": "에두아르 글리상(Édouard Glissant) · 1928–2011 · fr · caribbean",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c4cf0f51e08b",
+      "where": "author.importanceReason",
+      "text": "'관계의 시학'과 크레올화 개념을 세워, 카리브의 혼종성을 결핍이 아니라 사유의 출발점으로 놓았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a75c0119a1ea",
+      "where": "author.importanceReason",
+      "text": "뿌리 하나로 소급하는 정체성 대신 여러 갈래가 얽히는 '관계'를 단위로 삼고, 환원적 투명성과 이해를 거부할 권리를 뜻하는 '불투명성(opacité)'을 그 윤리로 제시했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "aad6f6a2c353",
+      "where": "author.importanceReason",
+      "text": "소설에서는 마르티니크의 구술 서사와 끊기는 통사를 겹쳐, 플랜테이션이 지워 버린 계보를 문장 구조 자체로 되살렸다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7aee6eb215ad",
+      "where": "author.readingEntryReason",
+      "text": "250쪽 안팎의 첫 장편이고, 1945년 선거를 앞둔 한 계절과 젊은 무리라는 뚜렷한 사건 축이 있어 개념을 몰라도 읽힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ffb0056892e6",
+      "where": "author.readingEntryReason",
+      "text": "강과 땅의 묘사에서 이후 이론의 이미지가 이미 다 나온다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "98fac9c7cbe7",
+      "where": "author.readingWarning",
+      "text": "『관계의 시학』부터 펼치면 용어가 정의 없이 등장해 중도 포기하기 쉽다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ff01b1c96a64",
+      "where": "author.readingWarning",
+      "text": "소설 두 권으로 마르티니크의 시간 감각을 먼저 겪은 뒤 이론으로 올라가는 편이 안전하다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dbfee58961c6",
+      "where": "author.difficultyReason",
+      "text": "후기 산문은 '관계', '전체-세계', '불투명성' 같은 자기 조어를 정의 없이 굴리고 들뢰즈·가타리의 리좀 어휘를 전제한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f56828adc1d3",
+      "where": "author.difficultyReason",
+      "text": "소설 쪽은 개념보다 통사가 어려워, 화자와 시제가 예고 없이 미끄러지는 문장을 따라가야 한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4ddf10b6f435",
+      "where": "work:edouard-glissant--le-quatrieme-siecle.facts",
+      "text": "『제4세기』(Le Quatrième Siècle) · 1964 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fd69947df170",
+      "where": "work:edouard-glissant--le-quatrieme-siecle.significance",
+      "text": "1788년 노예선에서 내린 두 조상으로부터 1940년대까지 두 가문의 150여 년을 도망노예(마롱)의 시간과 플랜테이션의 시간으로 갈라 놓고 교차시킨다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fd4b6af4f162",
+      "where": "work:edouard-glissant--le-quatrieme-siecle.significance",
+      "text": "문서가 남지 않은 계보를 구술 기억으로 복원하는 글리상 특유의 서사 장치가 완성된 작품.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "31532aa5a427",
+      "where": "work:edouard-glissant--poetique-de-la-relation.facts",
+      "text": "『관계의 시학』(Poétique de la Relation) · 1990 · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e0e8befc735a",
+      "where": "work:edouard-glissant--poetique-de-la-relation.significance",
+      "text": "'심연(노예선의 밑바닥)'에서 시작해 관계·혼돈-세계·불투명성으로 나아가는 사유의 정본.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "00097cc26277",
+      "where": "work:edouard-glissant--poetique-de-la-relation.significance",
+      "text": "탈식민 이론이 정체성을 다루는 어휘 자체를 바꿔 놓은 책이다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fad3d235a834",
+      "where": "work:edouard-glissant--la-lezarde.facts",
+      "text": "『레자르드 강』(La Lézarde) · 1958 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5c006639e05c",
+      "where": "work:edouard-glissant--la-lezarde.significance",
+      "text": "선거를 앞둔 마르티니크의 한 계절을 강의 흐름에 맞춰 서술한 첫 장편으로, 르노도상을 받으며 글리상의 이름을 프랑스 문단에 세웠다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5ed135c45f3c",
+      "where": "work:edouard-glissant--la-lezarde.significance",
+      "text": "이후 이론이 쓸 '풍경과 기억은 분리되지 않는다'는 명제가 소설 형태로 먼저 실행된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "45ab1205aa43",
+      "where": "work:edouard-glissant--le-discours-antillais.facts",
+      "text": "『앙티유 담론』(Le Discours antillais) · 1981 · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f3ff19280b62",
+      "where": "work:edouard-glissant--le-discours-antillais.significance",
+      "text": "역사·언어·경제·정신분석을 한 권에 모아 마르티니크의 '비역사(non-histoire)'와 '강요된 시학'을 진단한 대작 에세이.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "90c77754e185",
+      "where": "work:edouard-glissant--le-discours-antillais.significance",
+      "text": "앙티야니테라는 자기 규정이 여기서 체계를 얻는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a2f031e2b140",
+      "where": "relation:influence--william-faulkner--edouard-glissant.facts",
+      "text": "윌리엄 포크너 → 에두아르 글리상 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e9fe81b60e73",
+      "where": "relation:influence--william-faulkner--edouard-glissant.summary",
+      "text": "글리상은 단행본 『포크너, 미시시피』(1996)에서 요크나파토파의 은폐된 혈통 서술을 앙티유 플랜테이션의 계보 문제와 겹쳐 읽으며, 포크너를 자기 소설 방법의 참조점으로 명시한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e66bc10cd2f0",
+      "where": "relation:contrast--aime-cesaire--edouard-glissant.facts",
+      "text": "에메 세제르 → 에두아르 글리상 · contrast · bidirectional · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d0bb81914a33",
+      "where": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+      "text": "글리상은 『앙티유 담론』(1981)에서 네그리튀드의 아프리카 회귀를 마르티니크의 현실과 어긋난 좌표로 보고, 1960년대부터 제기해 온 '앙티야니테'를 그 대안으로 체계화한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "da759a6d6250",
+      "where": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+      "text": "프랑스어권 카리브 사상사가 반복해 다루는 세대적 대립축이다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "80ec511a9e26",
+      "where": "relation:affinity--edouard-glissant--kamau-brathwaite.facts",
+      "text": "에두아르 글리상 → 카마우 브래스웨이트 · affinity · bidirectional · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7e0ec54b802c",
+      "where": "relation:affinity--edouard-glissant--kamau-brathwaite.summary",
+      "text": "글리상은 『앙티유 담론』(1981)에서 créolisation을 플랜테이션 아메리카 사회 전반이 형성되는 과정으로 서술했고, 브래스웨이트는 『자메이카 크레올 사회의 형성』(1971)에서 영어권 카리브의 creolization을 같은 이름으로 기술했다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "글리상은 '관계의 시학'과 크레올화 개념을 세웠다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+      "quote": "Key concepts: Relation, créolisation, opacité (opacity), Tout-monde, and antillanité"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "뿌리 하나로 소급하는 정체성 대신 '관계'를 단위로 삼았다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Glissant",
+      "quote": "toute identité s'étend dans un rapport à l'autre"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "'불투명성(opacité)'은 번역되기를 거부할 권리를 뜻한다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+      "quote": "Glissant demands the \"right to opacity\"... to not be completely understood, and to simply exist as different.",
+      "correction": "환원적 투명성과 이해를 거부할 권리를 뜻하는 '불투명성(opacité)'",
+      "note": "불투명성은 식민자가 요구하는 transparency에 대한 거부이지 번역 거부가 아니다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "글리상의 후기 산문은 들뢰즈·가타리의 리좀 어휘를 전제한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+      "quote": "philosophers Deleuze and Guattari, whose rhizome theory shaped his relational poetics"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "'관계', '전체-세계(Tout-monde)', '불투명성'은 글리상의 자기 조어다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/fa/2012-n33-fa0638/1016371ar/",
+      "quote": "« la créolisation », « le Tout-Monde », « l'antillanité »... « l'opacité », « le chaos-monde »"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『레자르드 강』은 250쪽 안팎이다",
+      "verdict": "confirmed",
+      "url": "https://openlibrary.org/search.json?q=La+L%C3%A9zarde+Glissant",
+      "quote": "\"number_of_pages_median\": 252",
+      "note": "Thébaudeau(Québec français 127) 註14는 251 pages로 기재"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『레자르드 강』은 글리상의 첫 장편이다",
+      "verdict": "confirmed",
+      "url": "https://ile-en-ile.org/glissant/",
+      "quote": "Le prix Renaudot, remporté en 1958 pour son premier roman, La Lézarde, consacre sa renommée."
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『레자르드 강』에는 선거를 앞둔 뚜렷한 사건 축이 있다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+      "quote": "les titres mêmes des quatre chapitres du roman (La flamme, L'acte, L'élection, L'éclat)"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "소설의 시간 축은 '여름 한 계절'이다",
+      "verdict": "unverifiable",
+      "note": "absent: fr/en Wikipedia 줄거리, Érudit(Hel-Bongo 2022, Keraani 2023), Persée 검색에서 '여름' 한정을 찾지 못함. 작중 시점은 1945년 9월 14일로 인용됨",
+      "correction": "1945년 선거를 앞둔 한 계절",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "작품의 사건 축에 '젊은 무리'가 있다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+      "quote": "l'union d'un groupe de jeunes fougueux, en l'occurrence, Mathieu, Thaël et Mycéa"
+    },
+    {
+      "field": "works[edouard-glissant--le-quatrieme-siecle].year/titleOriginal",
+      "claim": "『제4세기 / Le Quatrième Siècle』는 1964년작 소설이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Le_Quatri%C3%A8me_Si%C3%A8cle",
+      "quote": "publié en 1964 par les Éditions du Seuil"
+    },
+    {
+      "field": "works[edouard-glissant--le-quatrieme-siecle].significance",
+      "claim": "1788년 노예선에서 내린 두 조상으로부터 1940년대까지 두 가문의 150여 년을 다룬다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Le_Quatri%C3%A8me_Si%C3%A8cle",
+      "quote": "deux ancêtres esclaves ont débarqué de la case du Rose-Marie (1788)... conclut vers 1945"
+    },
+    {
+      "field": "works[edouard-glissant--le-quatrieme-siecle].significance",
+      "claim": "두 가문을 도망노예(마롱)의 시간과 플랜테이션의 시간으로 갈라 교차시킨다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Le_Quatri%C3%A8me_Si%C3%A8cle",
+      "quote": "deux familles martiniquaises — Longoué et Béluse... One ancestor escaped bondage (marronnage), while the other remained enslaved"
+    },
+    {
+      "field": "works[edouard-glissant--poetique-de-la-relation].year/titleOriginal",
+      "claim": "『관계의 시학 / Poétique de la Relation』은 1990년작이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Po%C3%A9tique_de_la_Relation",
+      "quote": "Auteur: Édouard Glissant / Éditions Gallimard / 1990",
+      "note": "출판사는 Gallimard(Seuil 아님) — 플레이트에 출판사 기재는 없음"
+    },
+    {
+      "field": "works[edouard-glissant--poetique-de-la-relation].significance",
+      "claim": "책은 '심연(노예선의 밑바닥)'에서 시작한다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Po%C3%A9tique_de_la_Relation",
+      "quote": "Imaginaire (Approches) — includes « La barque ouverte »",
+      "note": "첫 절 「La barque ouverte」가 노예선의 gouffre(심연)를 다룸"
+    },
+    {
+      "field": "works[edouard-glissant--poetique-de-la-relation].significance",
+      "claim": "관계·혼돈-세계·불투명성으로 나아가는 구성이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Po%C3%A9tique_de_la_Relation",
+      "quote": "Théories (Relation)... Poétique (Generalization) — concludes with discussions of opacity",
+      "note": "chaos-monde도 핵심 개념으로 열거됨"
+    },
+    {
+      "field": "works[edouard-glissant--la-lezarde].year/titleOriginal",
+      "claim": "『레자르드 강 / La Lézarde』는 1958년작 소설이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/La_L%C3%A9zarde",
+      "quote": "Published on January 1, 1958, by Éditions du Seuil"
+    },
+    {
+      "field": "works[edouard-glissant--la-lezarde].significance",
+      "claim": "이 소설로 르노도상을 받았다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/La_L%C3%A9zarde",
+      "quote": "ayant reçu le prix Renaudot la même année"
+    },
+    {
+      "field": "works[edouard-glissant--la-lezarde].significance",
+      "claim": "마르티니크의 한 여름을 강의 흐름에 맞춰 서술한다",
+      "verdict": "unverifiable",
+      "url": "https://fr.wikipedia.org/wiki/La_L%C3%A9zarde",
+      "quote": "La Lézarde, rivière qui unit les montagnes secrètes à l'océan, accompagne... les étapes dramatiques",
+      "note": "absent: 강의 흐름을 따르는 구성은 확인되나 '한 여름'이라는 계절 한정은 어느 자료에도 없음",
+      "correction": "선거를 앞둔 마르티니크의 한 계절을 강의 흐름에 맞춰 서술한",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[edouard-glissant--la-lezarde].significance",
+      "claim": "이후 이론이 쓸 '풍경은 인물이다'라는 명제가 여기서 먼저 실행된다",
+      "verdict": "unverifiable",
+      "note": "absent: Érudit(\"le paysage n'est pas un décor\" 완전 불일치)·Persée·위키피디아에서 글리상의 해당 정식화를 확인 못 함",
+      "correction": "이후 이론이 쓸 '풍경과 기억은 분리되지 않는다'는 명제",
+      "url": "https://www.erudit.org/en/journals/qf/2002-n127-qf1191933/55804ac/",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "works[edouard-glissant--le-discours-antillais].year/titleOriginal",
+      "claim": "『앙티유 담론 / Le Discours antillais』은 1981년 Seuil 간행 에세이다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/qf/2002-n127-qf1191933/55804ac/",
+      "quote": "Edouard Glissant, le discours antillais, Paris, Seuil, 1981, 509 pages."
+    },
+    {
+      "field": "works[edouard-glissant--le-discours-antillais].significance",
+      "claim": "역사·언어·경제·정신의학을 한 권에 모았다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=KlJ7AAAAMAAJ&q=psychiatrie",
+      "quote": "Groupe de recherche sur la psychiatrie en Martinique, Institut martiniquais d'études, 1973",
+      "note": "Reached the original French edition (Seuil, 1981, 503pp) via Google Books search-within-volume. 정신의학 is explicit, not inferred: the cited research group above (p.286 n.6); p.289 'L'investigation psychiatrique en Martinique ne relève dès lors pas d'un caprice « anti-scientifique »'; p.292 'la psychiatrie (orientée par la psychanalyse)'; §73 'Du délire verbal « coutumier »' (pp.363-377) explicitly distinguishes délire coutumier from délire pathologique. Psychoanalysis is present too but as a subordinate orientation (p.305 'Psychanalyse. Maud Mannoni et Georges Payote'; p.96, p.101). The other three axes also verified: économie de survie (pp.59, 67-68), Creole/langue, history. The proposed swap 정신의학→정신분석 would make the entry less accurate, not more.",
+      "correction": "역사·언어·경제·정신분석을 한 권에 모아",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "works[edouard-glissant--le-discours-antillais].significance",
+      "claim": "'비역사(non-histoire)'가 이 책의 진단 개념이다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/qf/2002-n127-qf1191933/55804ac/",
+      "quote": "il n'y a pas d'événements, il n'y a que la non-histoire",
+      "note": "Le Discours antillais p.100 인용; Kavwahirehi(2012)는 p.133 「non-histoire imposée」 인용"
+    },
+    {
+      "field": "works[edouard-glissant--le-discours-antillais].significance",
+      "claim": "'강요된 시학(poétique forcée)'이 이 책의 진단 개념이다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/etudlitt/1993-v25-n3-etudlitt2248/501012ar/",
+      "quote": "La poétique forcée naît de la conscience de cette opposition entre une langue dont on se sert et un langage dont on a besoin",
+      "note": "Figueiredo가 Le Discours antillais 1981, p.237로 출전 명시"
+    },
+    {
+      "field": "works[edouard-glissant--le-discours-antillais].significance",
+      "claim": "앙티야니테라는 자기 규정이 이 책에서 체계를 얻는다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/qf/2002-n127-qf1191933/55804ac/",
+      "quote": "fonder un nouveau mouvement esthétique auquel il donna le nom d'Antillanité"
+    },
+    {
+      "field": "relations[documented_influence william-faulkner→edouard-glissant]",
+      "claim": "글리상은 단행본 『포크너, 미시시피』(1996)를 냈다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/ela/1996-n2-ela03333/1042653ar/",
+      "quote": "Edouard GLISSANT, Faulkner, Mississippi, Paris, Stock, 1996, 360 p."
+    },
+    {
+      "field": "relations[documented_influence william-faulkner→edouard-glissant]",
+      "claim": "글리상은 포크너의 은폐된 혈통 서술을 앙티유 플랜테이션의 계보 문제와 겹쳐 읽는다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/ela/1996-n2-ela03333/1042653ar/",
+      "quote": "un mouvement semblable à ce qu'il advint aux Antilles françaises... la filiation douteuse, impossible ou quêtée",
+      "note": "평문은 요크나파토파를 「le comté」로 지칭하며 Glissant의 독법을 «pèlerinage en terre de plantations»로 요약"
+    },
+    {
+      "field": "relations[documented_influence william-faulkner→edouard-glissant]",
+      "claim": "글리상은 포크너를 자기 소설 방법의 참조점으로 명시한다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/ela/1996-n2-ela03333/1042653ar/",
+      "quote": "un grand écrivain autre qu'on peut considérer comme son mentor"
+    },
+    {
+      "field": "relations[contrast aime-cesaire→edouard-glissant]",
+      "claim": "글리상은 『앙티유 담론』에서 네그리튀드의 아프리카 회귀를 마르티니크의 현실과 어긋난 좌표로 본다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/qf/2002-n127-qf1191933/55804ac/",
+      "quote": "d'avoir fait le choix de se tourner vers un lointain passé africain au détriment d'un présent antillais"
+    },
+    {
+      "field": "relations[contrast aime-cesaire→edouard-glissant]",
+      "claim": "글리상은 『앙티유 담론』(1981)에서 '앙티야니테'를 대안으로 세운다",
+      "verdict": "contradicted",
+      "url": "https://en.wikipedia.org/wiki/Cr%C3%A9olit%C3%A9",
+      "quote": "Glissant developed the concept of Antillanité (\"Caribbeanness\") in the early 1960s",
+      "correction": "글리상은 1960년대부터 제기해 온 '앙티야니테'를 『앙티유 담론』(1981)에서 체계화한다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[contrast aime-cesaire→edouard-glissant]",
+      "claim": "이 대립은 프랑스어권 카리브 사상사가 반복해 다루는 세대적 축이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Cr%C3%A9olit%C3%A9",
+      "quote": "An early name for the post-négritude movement was créolitude (1977), which evolved into créolité"
+    },
+    {
+      "field": "relations[documented_influence frantz-fanon→edouard-glissant]",
+      "claim": "카리브 사상사 연구는 파농의 식민적 소외 분석에서 글리상의 '강요된 시학'으로 이어지는 계보를 다룬다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/fa/2012-n33-fa0638/1016371ar/",
+      "quote": "la « phase fanonienne » de Glissant... ce qu'il nommera plus tard « poétique forcée »"
+    },
+    {
+      "field": "relations[documented_influence frantz-fanon→edouard-glissant]",
+      "claim": "두 사람은 같은 마르티니크 세대에 속한다",
+      "verdict": "confirmed",
+      "url": "https://www.erudit.org/en/journals/ela/2010-n29-ela01605/1027495ar/",
+      "quote": "Édouard Glissant, élève du jeune professeur Césaire au lycée Schoelcher, lecteur de Frantz Fanon",
+      "note": "파농 1925년생·글리상 1928년생, 둘 다 리세 셸셰르 재학"
+    },
+    {
+      "field": "relations[documented_influence frantz-fanon→edouard-glissant]",
+      "claim": "글리상은 파농의 알제리행을 자기 텍스트에서 반복해 거론한다",
+      "verdict": "unverifiable",
+      "note": "absent: Érudit(Glissant+Fanon+Algérie / «passé à l'acte»)·Persée·위키피디아 검색에서 이 진술을 뒷받침하는 자료 없음. 확인되는 것은 초기 글의 '파농적 어조'까지",
+      "url": "https://www.erudit.org/en/journals/fa/2012-n33-fa0638/1016371ar/",
+      "resolution": "removed"
+    },
+    {
+      "field": "relations[documented_influence frantz-fanon→edouard-glissant].sources",
+      "claim": "이 계보의 근거가 src--britannica에 있다",
+      "verdict": "contradicted",
+      "url": "https://www.britannica.com/biography/Edouard-Glissant",
+      "correction": "(출처: src--glissant-discours-antillais-1981)",
+      "note": "access: Britannica 표제 항목은 403으로 열리지 않았고, 실제 근거는 『앙티유 담론』의 '강요된 시학'과 이를 다루는 학술 문헌이다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[affinity edouard-glissant→kamau-brathwaite]",
+      "claim": "글리상은 『앙티유 담론』(1981)에서 créolisation을 마르티니크의 언어와 사회가 형성되는 과정으로 서술했다",
+      "verdict": "contradicted",
+      "url": "https://www.erudit.org/en/journals/qf/2002-n127-qf1191933/55804ac/",
+      "quote": "un processus de créolisation est à l'œuvre dans les sociétés de l'Amérique des Plantations depuis leur constitution même",
+      "correction": "글리상은 『앙티유 담론』(1981)에서 créolisation을 플랜테이션 아메리카 사회 전반이 형성되는 과정으로 서술했고",
+      "note": "적용 범위가 마르티니크에 한정되지 않는다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[affinity edouard-glissant→kamau-brathwaite]",
+      "claim": "브래스웨이트의 『자메이카 크레올 사회의 형성』은 1971년작이다",
+      "verdict": "confirmed",
+      "url": "https://openlibrary.org/search.json?q=Development+of+Creole+Society+in+Jamaica+Brathwaite",
+      "quote": "\"first_publish_year\": 1971, \"publisher\": [\"Oxford University Press\", ... \"Clarendon Press\"]",
+      "note": "원제 전체는 The Development of Creole Society in Jamaica, 1770–1820 — 한국어 제목에 연대 범위가 빠져 있다"
+    },
+    {
+      "field": "relations[affinity edouard-glissant→kamau-brathwaite]",
+      "claim": "브래스웨이트는 그 책에서 영어권 카리브의 creolization을 기술했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Kamau_Brathwaite",
+      "quote": "doctoral thesis from Sussex University on The Development of Creole Society in Jamaica was published in 1971 by Oxford University Press",
+      "note": "Persée 검색 결과: 저자는 'Jamaican society'가 아닌 'créole society'를 표제로 택해 크레올화 과정을 강조"
+    },
+    {
+      "field": "relations[affinity edouard-glissant→kamau-brathwaite].sources",
+      "claim": "브래스웨이트 쪽 근거가 src--britannica에 있다",
+      "verdict": "contradicted",
+      "url": "https://www.britannica.com/biography/Edouard-Glissant",
+      "correction": "(출처: src--glissant-discours-antillais-1981; 브래스웨이트 쪽은 Brathwaite, The Development of Creole Society in Jamaica 1770–1820, Oxford UP 1971을 새 출처로 추가)",
+      "note": "access: Britannica 글리상 항목은 403. 플레이트 출처 목록에 브래스웨이트를 뒷받침하는 항목이 없다",
+      "resolution": "corrected"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--glissant-discours-antillais-1981": {
+      "id": "src--glissant-discours-antillais-1981",
+      "title": "Le Discours antillais (1981)",
+      "publisherOrInstitution": "Éditions du Seuil (Paris)",
+      "citation": "글리상의 앙티야니테 선언에 해당하는 에세이집 — 네그리튀드에 대한 그의 거리 두기가 여기에 기술되어 있다."
+    },
+    "src--glissant-faulkner-mississippi": {
+      "id": "src--glissant-faulkner-mississippi",
+      "title": "Faulkner, Mississippi (1996)",
+      "publisherOrInstitution": "Éditions Stock (Paris)",
+      "citation": "글리상이 포크너를 정면으로 다룬 단행본 — 요크나파토파의 계보 서술과 앙티유의 뒤엉킨 혈통을 겹쳐 읽는다. 포크너 영향의 1차 근거."
+    }
+  }
+}

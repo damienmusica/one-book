@@ -1,0 +1,88 @@
+{
+  "fixes": [
+    {
+      "id": "matsuo-basho",
+      "importanceReason": "말재간 겨루기로 흐르던 하이카이의 좌를 렌쿠 종장으로 이끌면서, 계어와 기레지로 한순간의 감각을 끊어 세우는 발구를 짓고 뒤따르는 구와 잇게 했다. 『오쿠로 가는 좁은 길』은 1689년의 실제 도보 여정을 재구성한 산문 사이에 발구를 박아 넣었고, 당시 새 장르였던 하이분으로 바쇼가 쓴 여행기 가운데 가장 이름난 작품이다. 메이지의 마사오카 시키가 발구를 하이쿠라는 독립된 시형으로 다시 세운 뒤에도, 그 시형과 일본 기행문학은 이 이름을 기준점으로 되돌아본다.",
+      "difficultyReason": "발구 한 편이 계어·기레지·고전 인용에 기대어 접혀 있어 주석 없이는 장면이 펴지지 않고, 5·7·5 음수를 맞춘 영어 번역도 대개 원문의 17음보다 길어져 원문과 주석을 함께 보게 된다.",
+      "works": [
+        {
+          "id": "matsuo-basho--fuyu-no-hi",
+          "significance": "나고야 문인들과 지은 가센 다섯 편을 묶었고, 후대 하이진들은 이 책을 쇼후(蕉風)에 눈뜬 책으로 꼽는다."
+        },
+        {
+          "id": "matsuo-basho--oku-no-hosomichi",
+          "significance": "1689년 동북·호쿠리쿠 도보 여정을 재구성한 기행문으로, 산문 단락 사이사이에 발구가 놓여 장면을 닫는다. 바쇼 사후에 간행되었으며 일본 고전 기행문학의 대표작이다."
+        },
+        {
+          "id": "matsuo-basho--sarumino",
+          "significance": "본초와 교라이가 바쇼의 감수 아래 엮은 선집으로, 발구와 가센 네 편을 함께 실어 문하의 작법을 보여준다. 하이카이 칠부집 가운데 완성도가 가장 높은 책으로 꼽힌다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--matsuo-basho--ryunosuke-akutagawa",
+          "summary": "아쿠타가와는 연작 「芭蕉雑記」(1923–24)에서 주제별로 바쇼의 구를 들어 논했다."
+        }
+      ],
+      "sources": [
+        {
+          "id": "src--akutagawa-basho-zakki",
+          "citation": "아쿠타가와가 주제별로 바쇼의 구를 들어 논한 연작 비평 — 바쇼 수용의 1차 근거"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "실제 여정을 바탕으로 하되 실제와 다른 서술을 섞어 재구성(창작)한 기행문이다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "여정을 '압축'하고 '재배치'했다(실제 여정의 일부를 빼거나 줄이고 순서를 바꿨다)",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "『오쿠로 가는 좁은 길』이 하이분의 틀을 굳혔다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "기행(산문)과 시(발구)가 서로를 설명하지 않고 겹친다",
+          "resolution": "removed"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "5·7·5의 소리는 번역에서 사라진다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "기행문 쪽 산문은 문장이 짧고 평이하다",
+          "resolution": "removed",
+          "evidence": "정정문(『노자라시 기행』 앞부분의 과장되고 까다로운 표현)은 원문장과 반대되는 새 주장이고, 넣으면 difficultyReason 이 원래보다 길어진다 — 원문장 자체에는 확인되는 부분이 남지 않아 문장을 지웠다."
+        },
+        {
+          "field": "work:matsuo-basho--fuyu-no-hi.significance",
+          "claim": "이후 쇼후라 불리는 작풍이 이 책에서 형태를 갖춘다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:matsuo-basho--oku-no-hosomichi.significance",
+          "claim": "일본 기행문학이 가장 자주 참조하는 본문이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:matsuo-basho--sarumino.significance",
+          "claim": "편자 凡兆의 한국어 표기는 '보초'다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--matsuo-basho--ryunosuke-akutagawa.summary",
+          "claim": "「芭蕉雑記」에서 바쇼의 발구를 한 편씩 읽었다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

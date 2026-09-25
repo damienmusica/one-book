@@ -1,0 +1,849 @@
+{
+  "plates": [
+    {
+      "id": "plato",
+      "claims": [
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 생몰년은 기원전 428년경–348년경이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Plato",
+          "quote": "Born c. 428-7 BC … Died c. 348-7 BC",
+          "note": "SEP 는 429?–347 로 적는다. 페이지의 -428–-348 은 통상 범위 안."
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "원어 이름은 Πλάτων 이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Plato",
+          "quote": "Ancient Greek: Πλάτων, Plátōn"
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤은 고대 그리스어로 썼다(grc).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Original title Πολιτεία Language Ancient Greek"
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 권역은 서유럽(western-europe)이다.",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Southern_Europe",
+          "quote": "In the UN geoscheme, the following countries are classified as southern Europe: … Albania Andorra Bosnia and Herzegovina Croatia Greece",
+          "correction": "그리스는 남유럽으로 분류된다(유엔 지리 구분) — 서유럽이 아니다.",
+          "note": "출생·사망지 아테네는 Wikipedia Plato 인포박스(Born … Athens, Died … Athens)로 확인. 권역표(src/types.ts REGION_DEFS)에 그리스·남유럽 칸이 없어 호메로스·소포클레스 등 grc 작가 대부분이 western-europe 에 들어가 있다 — 이 작가만의 결함이 아니라 분류 체계 문제. [검수] 원 인용(발칸 항목의 국가 목록)은 '남유럽'도 '발칸'도 스스로 담지 않아, 교정문을 받치도록 유엔 지리 구분 목록으로 인용을 바꾸고 교정문에서 받쳐지지 않는 '(발칸)'을 뺐다."
+        },
+        {
+          "sids": [
+            "2bcf2bf7938b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "플라톤은 철학 논문(treatise)을 쓰지 않았다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "Plato never became a writer of philosophical treatises"
+        },
+        {
+          "sids": [
+            "2bcf2bf7938b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "플라톤의 저작은 거의 모두 대화 형식이다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "Nearly everything he wrote takes the form of a dialogue."
+        },
+        {
+          "sids": [
+            "2bcf2bf7938b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "플라톤의 대화편은 체계적 결론보다 탐색적이고 열린 채로 남는다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "he can be recognized to be far more exploratory, incompletely systematic, elusive, and playful than they"
+        },
+        {
+          "sids": [
+            "2bcf2bf7938b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "플라톤은 스승 소크라테스의 재판 변론을 글로 남겼다(『소크라테스의 변명』, 399년 불경죄 재판).",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "his Apology, which purports to be the speech that Socrates gave in his defense—the Greek word apologia means “defense”—when, in 399, he was legally charged and convicted of the crime of impiety"
+        },
+        {
+          "sids": [
+            "2bcf2bf7938b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "소크라테스는 플라톤의 스승이었다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Plato",
+          "quote": "Along with his teacher Socrates, and his student Aristotle, Plato is a central figure in the history of Western philosophy.",
+          "note": "재인용: 원 인용(SEP \"between him and his teacher\")은 스승이 소크라테스임을 인용문 안에서 밝히지 않는다. 같은 인용이 아리스토텔레스가 플라톤의 제자임도 받친다."
+        },
+        {
+          "sids": [
+            "2bcf2bf7938b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "플라톤은 소크라테스의 죽음(처형)을 『파이돈』에 기록했다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedo",
+          "quote": "The dialogue concludes with a mythological narrative of the descent into Tartarus and an account of Socrates' execution."
+        },
+        {
+          "sids": [
+            "2bcf2bf7938b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "소크라테스는 도시가 믿는 신들을 믿지 않는다는 죄목으로 기소되었다(사유와 도시의 충돌).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+          "quote": "a defence against the charges of \"corrupting the youth\" and \"not believing in the gods in whom the city believes"
+        },
+        {
+          "sids": [
+            "8a478ae77f77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "대화편에 동굴의 비유가 들어 있다(『국가』 7권).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Book VII (514a–541b): Allegory of the cave"
+        },
+        {
+          "sids": [
+            "8a478ae77f77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "대화편에 영혼을 마부와 날개 달린 말들에 빗댄 마차 신화가 들어 있다(『파이드로스』).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "Then begins the famous chariot allegory. A soul, says Socrates, is like the \"natural union of a team of winged horses and their charioteer\"."
+        },
+        {
+          "sids": [
+            "8a478ae77f77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "한 대화편 안에 논증적 연설과 희극적 장면이 함께 들어 있다(『향연』의 아리스토파네스 딸꾹질).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+          "quote": "Throughout Eryximachus' speech, Aristophanes tries unsuccessfully to end his hiccoughing fit by holding his breath and gargling with water, until finally sneezing brought about by having his nose tickled with a feather ends the comic scene."
+        },
+        {
+          "sids": [
+            "8a478ae77f77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "플라톤의 대화편은 철학 저술이 대화라는 문학 형식을 쓰는 서양의 대표 사례가 되었다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Dialogue",
+          "quote": "As a philosophical or didactic device, it is chiefly associated in the West with the Socratic dialogue as developed by Plato"
+        },
+        {
+          "sids": [
+            "8a478ae77f77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『국가』 10권에 모방적 예술가(시인)를 정의로운 도시에서 배제하는 시인 추방론이 있다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Book X (595a–621d): Myth of Er … Socrates finally rejects any form of imitative art and concludes that such artists have no place in the just city."
+        },
+        {
+          "sids": [
+            "8a478ae77f77"
+          ],
+          "field": "author.importanceReason",
+          "claim": "시드니의 『시의 옹호』는 플라톤이 자기 국가에서 시인을 추방했다는 논거를 반박 대상으로 삼는다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1962/pg1962.txt",
+          "quote": "Again, a man might ask, out of what Commonwealth Plato doth banish them? In sooth, thence where he himself alloweth community of women."
+        },
+        {
+          "sids": [
+            "6874286a62bb"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『소크라테스의 변명』 본문은 스테파누스 17a 에서 시작한다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0169%3Atext%3DApol.%3Asection%3D17a",
+          "quote": "ὅτι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι, πεπόνθατε ὑπὸ τῶν ἐμῶν κατηγόρων, οὐκ οἶδα",
+          "note": "Perseus(Burnet OCT) 가 이 첫 문장을 [17a] 로 표시한다."
+        },
+        {
+          "sids": [
+            "6874286a62bb"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『소크라테스의 변명』 본문은 스테파누스 42a 에서 끝난다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0169%3Atext%3DApol.%3Asection%3D42a",
+          "quote": "ἀλλὰ γὰρ ἤδη ὥρα ἀπιέναι, ἐμοὶ μὲν ἀποθανουμένῳ, ὑμῖν δὲ βιωσομένοις: ὁπότεροι δὲ ἡμῶν ἔρχονται ἐπὶ ἄμεινον πρᾶγμα, ἄδηλον παντὶ πλὴν ἢ τῷ θεῷ.",
+          "note": "Perseus 42a 절이 이 문장으로 본문을 닫고 곧바로 판본 정보(Burnet 1903)가 이어진다."
+        },
+        {
+          "sids": [
+            "6874286a62bb"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『소크라테스의 변명』은 대화가 아니라 소크라테스의 변론 연설 한 편이다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "There is one striking exception: his Apology, which purports to be the speech that Socrates gave in his defense"
+        },
+        {
+          "sids": [
+            "6874286a62bb"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "소크라테스는 플라톤의 많은 대화편에 인물로 등장한다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "His use of a figure called “Socrates” in so many of his dialogues",
+          "note": "분할: 원 주장의 '이후'(『변명』 뒤의 대화편들)는 이 인용이 담지 않아, 『변명』이 초기 저작이라는 부분을 따로 검증한 주장으로 옮겼다."
+        },
+        {
+          "sids": [
+            "01a7387b7cd9"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『국가』 1권에 트라시마코스 논쟁이 있다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Book I: Aging, Love, and the Definitions of Justice (327a–354c) … Thrasymachus (336b–354c)"
+        },
+        {
+          "sids": [
+            "01a7387b7cd9"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『국가』에서 이상 국가 설계(칼리폴리스) 뒤로 선분의 비유(6권)와 동굴의 비유(7권)가 이어진다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Book IV: Kallipolis, cardinal virtues, and the soul (419a–445e) … Book VI (484a–511e): Ship of State, Form of the Good, and the first two analogies … The Sun and Divided Line (507c–511e) … Book VII (514a–541b): Allegory of the cave",
+          "note": "재인용(확장): 원 인용은 '…'로 6권 표제를 건너뛰어 '(6권)'을 인용문 안에 담지 못했다. 같은 페이지 본문 절 제목으로 넓혔다."
+        },
+        {
+          "sids": [
+            "01a7387b7cd9"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『국가』는 열 권으로 되어 있다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1497/pg1497.txt",
+          "quote": "The tenth book (5) is the conclusion of the whole, in which the relations of philosophy to poetry are finally determined"
+        },
+        {
+          "sids": [
+            "cd836cf87263"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "이데아론은 한 편에 정리돼 있지 않고 여러 대화편의 인물들 입을 통해, 때로는 긍정·때로는 의문시되며 제시된다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Theory_of_forms",
+          "quote": "Plato describes these entities only through the characters (primarily Socrates) in his dialogues, who sometimes suggest that these Forms are the only objects of study that can provide knowledge (as opposed to mere belief or opinion), … and at other times contest the very existence of the Forms"
+        },
+        {
+          "sids": [
+            "cd836cf87263"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "상기설은 여러 대화편(『메논』·『파이돈』·『파이드로스』)에 걸쳐 전개된다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Anamnesis_(philosophy)",
+          "quote": "Plato develops the theory of anamnesis in his Socratic dialogues: Meno, Phaedo, and Phaedrus."
+        },
+        {
+          "sids": [
+            "d42acefb6602"
+          ],
+          "field": "work:plato--phaidros.facts",
+          "claim": "원제는 Φαῖδρος 이고, 플라톤이 쓴 산문 대화편이다(에세이·비평 갈래).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "Ancient Greek: Φαῖδρος, romanized: Phaidros), written by Plato, is a dialogue between Socrates and Phaedrus"
+        },
+        {
+          "sids": [
+            "d42acefb6602"
+          ],
+          "field": "work:plato--phaidros.facts",
+          "claim": "『파이드로스』는 기원전 370년 무렵 쓰였다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "The Phaedrus was presumably composed around 370 BC, about the same time as Plato's Republic and Symposium."
+        },
+        {
+          "sids": [
+            "49106e6ae371"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "『파이드로스』는 소크라테스가 아테네 성 밖에 나가 있는 유일한 대화편이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "Phaedrus is Plato's only dialogue that shows Socrates outside the city of Athens, out in the country."
+        },
+        {
+          "sids": [
+            "49106e6ae371"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "두 사람은 냇가에 앉아 대화한다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "They sit by a stream under a plane tree and a chaste tree, and the rest of the dialogue consists of oration and discussion."
+        },
+        {
+          "sids": [
+            "49106e6ae371"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "대화의 주제는 사랑과 수사술이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "Although the dialogue appears to be primarily concerned with the topic of love, the discussion also revolves around the art of rhetoric"
+        },
+        {
+          "sids": [
+            "2a13a4083218"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "영혼을 마부와 두 마리 말에 빗댄 신화가 나온다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "Plato paints the picture of a charioteer driving a chariot pulled by two winged horses: \"First the charioteer of the human soul drives a pair, and secondly one of the horses is noble and of noble breed, but the other quite the opposite in breed and character.",
+          "note": "재인용: 원 인용(신들의 말과 인간의 말 비교)은 '영혼'과 '마부'를 담지 않았다. 같은 페이지 해석 절의 인용으로 바꿨다."
+        },
+        {
+          "sids": [
+            "2a13a4083218"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "마지막 대목(257c–279c)이 수사와 글쓰기를 논한다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "3.4 Discussion of rhetoric and writing (257c–279c) 4 Interpretations and themes"
+        },
+        {
+          "sids": [
+            "2a13a4083218"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "그 글쓰기 대목은 글이 기억을 대신하면서 오히려 기억을 잃게 한다고 논한다(테우트와 타무스 이야기).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Phaedrus_(dialogue)",
+          "quote": "After Theuth remarks on his discovery of writing as a remedy for the memory, Thamus responds that its true effects are likely to be the opposite; it is a remedy for reminding, not remembering"
+        },
+        {
+          "sids": [
+            "2a13a4083218"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "글쓰기 대목(파르마콘)은 데리다의 「플라톤의 약국」 등 현대 이론의 참조점이 되었다.",
+          "verdict": "confirmed",
+          "url": "https://philosophynow.org/issues/122/Socrates_Memory_and_The_Internet",
+          "quote": "In the Phaedrus, Theuth describes his invention of writing as ‘pharmakon’, clearly the origin of our word ‘pharmacy’. But pharmakon is interesting in this context as it can be translated as both ‘poison’ and ‘remedy’ (Jacques Derrida discusses this in his 1981 essay ‘Plato’s Pharmacy’)."
+        },
+        {
+          "sids": [
+            "2a13a4083218"
+          ],
+          "field": "work:plato--phaidros.significance",
+          "claim": "영혼의 마차 신화가 문학 이론의 오래된 참조점이 되었다.",
+          "verdict": "unverifiable",
+          "note": "Wikipedia Phaedrus(해석·수용 절), SEP「Plato on Rhetoric and Poetry」, 웹 검색(chariot allegory literary theory reception)을 확인했으나, 마차 신화를 문학 이론의 참조점으로 명시한 출처는 찾지 못했다. 확인되는 것은 글쓰기 대목(데리다)뿐 — 문장을 \"글쓰기가 기억을 대신하며 잃는 것을 논한 마지막 대목이 현대 비평 이론(데리다)의 참조점이 되었다\"로 좁히는 편이 안전하다."
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "원제는 Ἀπολογία Σωκράτους 이고 플라톤이 쓴 소크라테스 대화편(산문)이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+          "quote": "The Apology of Socrates (Ancient Greek: Ἀπολογία Σωκράτους, Apología Sokrátous; Latin: Apologia Socratis), written by Plato, is a Socratic dialogue"
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "『소크라테스의 변명』의 집필 연대는 기원전 399년이다(composition-range).",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+          "quote": "The Apology of Socrates, by the philosopher Plato (429–347 BC), was one of many explanatory apologiae about Socrates's legal defence against accusations of corruption and impiety; most apologiae were published in the decade after the Trial of Socrates (399 BC). … As such, Plato's Apology of Socrates is an early philosophic defence of Socrates",
+          "correction": "기원전 399년은 소크라테스 재판 연도다. 소크라테스 변론서(아폴로기아)들은 대부분 재판 뒤 10년 안에 나왔고, 플라톤의 『변명』은 그 가운데 이른 시기의 변론서다.",
+          "note": "399 는 재판·사망 연도로만 확정된다. 집필 연도를 399 로 못박는 출처는 찾지 못했다 — yearBasis 를 사건 연도로 바꾸거나 연대를 \"399년 이후\"로 적어야 한다. [검수] 원 인용은 '대부분의 아폴로기아'에 대한 말이라 플라톤 『변명』 자체의 집필 시기('재판 뒤 10년 안쪽')를 받치지 않았다. 인용을 같은 문단으로 넓히고 교정문을 인용이 받치는 범위로 좁혔다."
+        },
+        {
+          "sids": [
+            "45d15d2633b3"
+          ],
+          "field": "work:plato--apologia-sokratous.significance",
+          "claim": "소크라테스의 재판은 기원전 399년에 열렸다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+          "quote": "the speech of legal self-defence which Socrates (469–399 BC) spoke at his trial for impiety and corruption in 399 BC."
+        },
+        {
+          "sids": [
+            "45d15d2633b3"
+          ],
+          "field": "work:plato--apologia-sokratous.significance",
+          "claim": "이 글은 재판정에서 한 소크라테스의 변론을 연설 형식으로 옮긴 것이다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "his Apology, which purports to be the speech that Socrates gave in his defense"
+        },
+        {
+          "sids": [
+            "8b6fff568052"
+          ],
+          "field": "work:plato--apologia-sokratous.significance",
+          "claim": "소크라테스는 죽음을 무릅쓰더라도 캐묻는 일(철학)을 그만두지 않겠다고 법정에서 말한다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1656/pg1656.txt",
+          "quote": "either acquit me or not; but whichever you do, understand that I shall never alter my ways, not even if I have to die many times."
+        },
+        {
+          "sids": [
+            "8b6fff568052"
+          ],
+          "field": "work:plato--apologia-sokratous.significance",
+          "claim": "소크라테스는 캐묻지 않는 삶은 살 가치가 없다고 말한다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1656/pg1656.txt",
+          "quote": "the unexamined life is not worth living"
+        },
+        {
+          "sids": [
+            "bc27fb871270"
+          ],
+          "field": "work:plato--politeia.facts",
+          "claim": "원제는 Πολιτεία 이고 고대 그리스어로 쓴 철학 저작(산문 대화편)이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Author Plato Original title Πολιτεία Language Ancient Greek Subject Political philosophy Ethics"
+        },
+        {
+          "sids": [
+            "bc27fb871270"
+          ],
+          "field": "work:plato--politeia.facts",
+          "claim": "『국가』는 기원전 375년 무렵 쓰였다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "Philosophical work by Plato around 375 BC"
+        },
+        {
+          "sids": [
+            "a8117e9d6d12"
+          ],
+          "field": "work:plato--politeia.significance",
+          "claim": "『국가』는 정의란 무엇인가라는 물음에서 출발한다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1497/pg1497.txt",
+          "quote": "Book I and the first half of Book II down to the paragraph beginning, ‘I had always admired the genius of Glaucon and Adeimantus,’ which is introductory; the first book containing a refutation of the popular and sophistical notions of justice … an answer is demanded to the question—What is justice, stripped of appearances?",
+          "note": "재인용(확장): 원 인용만으로는 그 물음이 책의 '출발'(도입부)에 놓인다는 점이 드러나지 않아 같은 문장 앞부분까지 넓혔다."
+        },
+        {
+          "sids": [
+            "a8117e9d6d12"
+          ],
+          "field": "work:plato--politeia.significance",
+          "claim": "이상 국가의 설계가 이어진다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1497/pg1497.txt",
+          "quote": "The second division (2) includes the remainder of the second and the whole of the third and fourth books, which are mainly occupied with the construction of the first State and the first education."
+        },
+        {
+          "sids": [
+            "a8117e9d6d12"
+          ],
+          "field": "work:plato--politeia.significance",
+          "claim": "선분의 비유와 동굴의 비유가 들어 있다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "The Sun and Divided Line (507c–511e) 2.7 Book VII (514a–541b): Allegory of the cave"
+        },
+        {
+          "sids": [
+            "a8117e9d6d12"
+          ],
+          "field": "work:plato--politeia.significance",
+          "claim": "시인 추방론이 마지막 10권에서 결론지어지며 전체는 열 권이다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1497/pg1497.txt",
+          "quote": "The tenth book (5) is the conclusion of the whole, in which the relations of philosophy to poetry are finally determined"
+        },
+        {
+          "sids": [
+            "9b6bee8ca81c"
+          ],
+          "field": "work:plato--politeia.significance",
+          "claim": "10권은 시인을 진리에서 세 단계 떨어진 모방자, 곧 모방의 모방을 만드는 자로 규정한다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1497/pg1497.txt",
+          "quote": "In the Tenth Book Plato introduces a new series of objections. First, he says that the poet or painter is an imitator, and in the third degree removed from the truth.",
+          "note": "재인용: 원 인용(Jowett 서론의 전체 개관)은 '10권'을 인용문 안에 담지 않았다. 10권을 명시한 대목으로 바꿨다. 원 주장의 '시인을 추방한다'는 이 문장(9b6bee8ca81c)이 말하지 않는 내용이고, 10권의 시인 배제는 주장 15가 따로 받친다."
+        },
+        {
+          "sids": [
+            "9b6bee8ca81c"
+          ],
+          "field": "work:plato--politeia.significance",
+          "claim": "시드니의 『시의 옹호』는 플라톤의 시인 추방을 반박 상대로 삼는다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1962/pg1962.txt",
+          "quote": "And lastly and chiefly, they cry out with open mouth, as if they had overshot Robin Hood, that Plato banished them out of his commonwealth.",
+          "note": "재인용: 원 인용(\"Plato’s name is laid upon me\")은 '시인 추방'을 담지 않았다. 시드니가 답하는 반론 목록의 마지막·핵심 항목으로 바꿨다. 시드니는 플라톤을 \"our patron, and not our adversary\"로 되돌려 읽는다 — 반박 대상은 추방론을 내세우는 논거다."
+        },
+        {
+          "sids": [
+            "2f04c0c4930e"
+          ],
+          "field": "work:plato--symposion.facts",
+          "claim": "원제는 Συμπόσιον 이고 기원전 385–370년 무렵의 플라톤 대화편이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+          "quote": "The Symposium (Ancient Greek: Συμπόσιον, Symposion) is a Socratic dialogue by Plato, dated c. 385 – 370 BC."
+        },
+        {
+          "sids": [
+            "9fe17016bd0a"
+          ],
+          "field": "work:plato--symposion.significance",
+          "claim": "술자리 참석자들이 에로스를 찬미하는 연설을 차례로 한다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+          "quote": "they should all make a speech in praise of Eros, the god of love and desire. It will be a competition of speeches to be judged by Dionysus."
+        },
+        {
+          "sids": [
+            "9fe17016bd0a"
+          ],
+          "field": "work:plato--symposion.significance",
+          "claim": "마지막에 만취한 알키비아데스가 들이닥쳐 소크라테스를 향한 사랑(유혹에 실패한 일)을 털어놓는다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+          "quote": "When Socrates is nearly done, Alcibiades crashes in, terribly drunk, and delivers a panegyric to Socrates himself. No matter how hard he has tried, he says, he has never been able to seduce Socrates"
+        },
+        {
+          "sids": [
+            "2806448f6d76"
+          ],
+          "field": "work:plato--symposion.significance",
+          "claim": "『향연』에는 희극적 장면(아리스토파네스의 딸꾹질)이 연설들 사이에 끼어 있다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)",
+          "quote": "Throughout Eryximachus' speech, Aristophanes tries unsuccessfully to end his hiccoughing fit by holding his breath and gargling with water, until finally sneezing brought about by having his nose tickled with a feather ends the comic scene."
+        },
+        {
+          "sids": [
+            "456a7a6af491"
+          ],
+          "field": "relation:mentorship--plato--aristotle.facts",
+          "claim": "아리스토텔레스는 플라톤의 아카데메이아에서 배웠다(플라톤→아리스토텔레스 사제 관계, 문헌 근거 있음).",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/aristotle/",
+          "quote": "Aristotle was sent to Athens at about the age of seventeen to study in Plato’s Academy"
+        },
+        {
+          "sids": [
+            "4431a4b89296"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 열일곱 살 무렵 아카데메이아에 들어갔다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/aristotle/",
+          "quote": "Aristotle was sent to Athens at about the age of seventeen to study in Plato’s Academy"
+        },
+        {
+          "sids": [
+            "4431a4b89296"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 플라톤이 죽을 때까지 스무 해 가까이 아카데메이아에 머물렀다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Aristotle",
+          "quote": "At the age of seventeen or eighteen, Aristotle moved to Athens to continue his education at Plato's Academy. … Aristotle remained in Athens for nearly twenty years before leaving in 348/47 BC after Plato's death.",
+          "note": "재인용(확장): 원 인용은 '아테네에' 머물렀다고만 해 아카데메이아를 담지 않았다. 같은 문단 첫 문장까지 넓혔다."
+        },
+        {
+          "sids": [
+            "4431a4b89296"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "『니코마코스 윤리학』 1권 6장에서 이데아를 도입한 이들을 친구라 부르며 그 이론을 검토·비판한다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abekker+page%3D1096a",
+          "quote": "6. But perhaps it is desirable that we should examine the notion of a Universal Good, and review the difficulties that it involves, although such an inquiry goes against the grain because of our friendship for the authors of the Theory of Ideas."
+        },
+        {
+          "sids": [
+            "4431a4b89296"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "원문 표현은 \"친구인 사람들이 이데아(εἴδη)를 도입했기에\"(1096a)이다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0053%3Abekker+page%3D1096a",
+          "quote": "καίπερ προσάντους τῆς τοιαύτης ζητήσεως γινομένης διὰ τὸ φίλους ἄνδρας εἰσαγαγεῖν τὰ εἴδη"
+        },
+        {
+          "sids": [
+            "4431a4b89296"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "해당 대목의 벡커 행 번호는 1096a11–17 이다.",
+          "verdict": "unverifiable",
+          "note": "접근 대기: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0053:bekker%20page=1096a:bekker%20line=11 — Perseus 의 1096a 면 단위 본문(그리스어·Rackham 영역)에서 대목과 6장 표시는 확인했으나 행 번호는 본문에 표시되지 않고, 행 단위 URL 은 503 으로 두 번 실패했다. [검수] Perseus 행 단위 URL은 이번에도 503. 다른 출처: Wikipedia「Amicus Plato, sed magis amica veritas」는 같은 대목을 \"Nicomachean Ethics 1096a11–15\"로 인용하고, Peitho/Examina Antiqua 1(8) 2017 논문(pdfs.semanticscholar.org/609c/415d378f29470989ddf1438f07453c440de1.pdf)은 καθόλου를 1096a11, ὅσιον을 1096a16, 이데아론 첫 반론을 \"passage 1096a17–23\"으로 적는다. 시작 행 a11은 확인되고 '친구' 대목은 a16에서 끝나므로, a11–17은 비판의 첫 행까지 포함한 범위로 볼 수 있다 — 한 인용으로 범위 전체를 받치는 출처는 없어 unverifiable 유지."
+        },
+        {
+          "sids": [
+            "4431a4b89296"
+          ],
+          "field": "relation:mentorship--plato--aristotle.summary",
+          "claim": "아리스토텔레스는 이 비판으로 인간이 도달할 수 있는 선을 찾는 자기 탐구를 이데아론과 갈라 세웠다.",
+          "verdict": "confirmed",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abekker+page%3D1096b",
+          "quote": "it clearly will not be practicable or attainable by man; but the Good which we are now seeking is a good within human reach."
+        },
+        {
+          "sids": [
+            "ce06cbd1f7c0"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.facts",
+          "claim": "니체는 플라톤과 대립한다(대조 관계, 학계 합의 수준 이상).",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/4363/pg4363.txt",
+          "quote": "But the struggle against Plato, or--to speak plainer, and for the \"people\"--the struggle against the ecclesiastical oppression of millenniums of Christianity"
+        },
+        {
+          "sids": [
+            "28e95b9cd3b4"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "『선악의 저편』은 1886년에 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beyond_Good_and_Evil",
+          "quote": "1886 book by Friedrich Nietzsche"
+        },
+        {
+          "sids": [
+            "28e95b9cd3b4"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "니체는 『선악의 저편』 서문에서 그리스도교를 \"민중을 위한 플라톤주의\"라 불렀다.",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/4363/pg4363.txt",
+          "quote": "(FOR CHRISTIANITY IS PLATONISM FOR THE \"PEOPLE\")"
+        },
+        {
+          "sids": [
+            "28e95b9cd3b4"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "니체는 플라톤의 참된 존재의 위계를 뒤집는 것을 자기 철학의 과제로 삼았다(\"뒤집힌 플라톤주의\").",
+          "verdict": "confirmed",
+          "url": "http://www.thenietzschechannel.com/notebooks/german/nacha/nacha7.htm",
+          "quote": "Meine Philosophie umgedrehter Platonismus: je weiter ab vom wahrhaft Seienden, um so reiner schöner besser ist es. Das Leben im Schein als Ziel.",
+          "note": "1870년 말–1871년 4월 유고 7[156]. \"뒤집힌 플라톤주의\"라는 말 자체는 니체의 것이다."
+        },
+        {
+          "sids": [
+            "28e95b9cd3b4"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "하이데거의 『니체』는 1961년 Neske(Pfullingen)에서 두 권으로 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/nietzsche0001heid",
+          "quote": "Publication date 1961 … Publisher [Pfullingen] Neske … Volume 1 Item Size 1.8G 2 v"
+        },
+        {
+          "sids": [
+            "28e95b9cd3b4"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "하이데거는 니체 강의에서, 니체가 플라톤주의를 뒤집음으로써 형이상학의 마지막 실행 가능성을 붙잡았다(형이상학을 완결한다)고 읽었다.",
+          "verdict": "confirmed",
+          "url": "https://edoc.hu-berlin.de/bitstreams/492cb8c4-a4b6-47ec-92ac-d3e89a3194e1/download",
+          "quote": "In einer Vorlesungsreihe legte Heidegger die These dar, dass Nietzsche sehr wohl durch die Umkehrung des Platonismus die letzte Vollzugsmöglichkeit der Metaphysik ergefasst hat.",
+          "note": "분할: 원 주장의 '(『니체』, 1961)'은 이 인용이 담지 않아, 강의가 1961년 책으로 나왔다는 부분을 따로 검증한 주장으로 옮겼다."
+        },
+        {
+          "sids": [
+            "ccb8a1321a47"
+          ],
+          "field": "relation:influence--plato--jorge-luis-borges.facts",
+          "claim": "보르헤스는 플라톤의 원형(이데아) 개념을 자기 에세이에서 직접 다룬다(플라톤→보르헤스 영향, 1차 문헌 근거).",
+          "verdict": "confirmed",
+          "url": "https://borgestodoelanio.blogspot.com/2015/06/jorge-luis-borges-historia-de-la.html",
+          "quote": "de lo que no conviene que prescinda es de alguna noticia general de esos arquetipos platónicos, o causas primordiales o ideas, que pueblan y componen la eternidad."
+        },
+        {
+          "sids": [
+            "fa0255ba63ed"
+          ],
+          "field": "relation:influence--plato--jorge-luis-borges.summary",
+          "claim": "『영원의 역사』는 1936년 부에노스아이레스의 Viau y Zona 에서 나온 에세이집이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Historia_de_la_eternidad",
+          "quote": "Genre Essay Published 1936, Viau y Zona (Buenos Aires)"
+        },
+        {
+          "sids": [
+            "fa0255ba63ed"
+          ],
+          "field": "relation:influence--plato--jorge-luis-borges.summary",
+          "claim": "책의 표제 에세이 「영원의 역사」가 시간과 영원 문제를 플라톤적 관점부터 다룬다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Historia_de_la_eternidad",
+          "quote": "In the essay after which the book is titled, which is complemented by two others (La doctrina de los ciclos, in English: Cycles' doctrine, and El tiempo circular, in English: Circular time), the author contemplates the issues of time and eternity, from platonic, Christian and Nietzschean perspectives."
+        },
+        {
+          "sids": [
+            "fa0255ba63ed"
+          ],
+          "field": "relation:influence--plato--jorge-luis-borges.summary",
+          "claim": "표제 에세이는 이후의 영원 관념들이 거기서 나온 첫 영원을 먼저 다루고, 이레네우스의 것을 두 번째 영원으로 잇는다.",
+          "verdict": "confirmed",
+          "url": "https://borgestodoelanio.blogspot.com/2015/06/jorge-luis-borges-historia-de-la.html",
+          "quote": "Paso a considerar esa eternidad, de la que derivaron las subsiguientes. … Por eso lo hago preceder a Ireneo, que ordena la segunda eternidad",
+          "note": "분할·재인용(확장): 원 인용의 'esa eternidad'가 무엇인지(플라톤의 원형들로 이루어진 영원) 인용 자체는 담지 않아, 그 부분을 따로 검증한 주장으로 옮겼다. 이 전사본은 같은 문단에서 'Es verdad que Platón no la inaugura'라 적는데, 문맥(『엔네아데스』 인용, 'antiguos y sagrados filósofos')상 플로티노스를 가리키는 전사 오류일 수 있어 인용에서 뺐다."
+        },
+        {
+          "sids": [
+            "b28520ed59dc"
+          ],
+          "field": "relation:influence--plato--cicero.facts",
+          "claim": "플라톤의 『국가』·『법률』이 키케로의 두 저작의 모델이다(플라톤→키케로 영향, 학계 근거).",
+          "verdict": "confirmed",
+          "url": "https://experts.arizona.edu/en/publications/platos-laws-and-ciceros-de-legibus/",
+          "quote": "As Cicero tells us, Plato's Laws is the literary model for his own work de Legibus, as is his Republic for Cicero's de Re Publica."
+        },
+        {
+          "sids": [
+            "8cdce85a05c8"
+          ],
+          "field": "relation:influence--plato--cicero.summary",
+          "claim": "키케로는 『국가론』을 플라톤의 『국가』를 본뜬 대화편으로 썼다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/De_re_publica",
+          "quote": "Written in imitation of Plato's Republic, it takes the form of a Socratic dialogue in which Scipio Aemilianus takes the role of a wise old man."
+        },
+        {
+          "sids": [
+            "8cdce85a05c8"
+          ],
+          "field": "relation:influence--plato--cicero.summary",
+          "claim": "키케로는 자기 저작 안에서 그 플라톤 모델을 밝힌다.",
+          "verdict": "confirmed",
+          "url": "https://experts.arizona.edu/en/publications/platos-laws-and-ciceros-de-legibus/",
+          "quote": "As Cicero tells us, Plato's Laws is the literary model for his own work de Legibus, as is his Republic for Cicero's de Re Publica."
+        },
+        {
+          "sids": [
+            "8cdce85a05c8"
+          ],
+          "field": "relation:influence--plato--cicero.summary",
+          "claim": "『법률론』은 『국가론』에 이어, 플라톤이 국가론 다음에 법률을 쓴 순서를 따라 쓰였다.",
+          "verdict": "confirmed",
+          "url": "https://www.thelatinlibrary.com/cicero/leg1.shtml",
+          "quote": "quoniam scriptum est a te de optimo rei publicae statu, consequens esse uidetur ut scribas tu idem de legibus: sic enim fecisse uideo Platonem illum tuum"
+        },
+        {
+          "sids": [
+            "8cdce85a05c8"
+          ],
+          "field": "relation:influence--plato--cicero.summary",
+          "claim": "『법률론』은 플라톤 『법률』의 배치(여름날 숲길을 걸으며 나누는 대화)를 따라 한다.",
+          "verdict": "confirmed",
+          "url": "https://www.thelatinlibrary.com/cicero/leg1.shtml",
+          "quote": "Visne igitur, ut ille cum Crete Clinia et cum Lacedaemonio Megillo aestiuo, quem ad modum describit, die in cupressetis Gnosiorum et spatiis siluestribus, crebro insistens, interdum adquiescens, de institutis rerum publicarum ac de optimis legibus disputa<ba>t, sic nos inter has procerissimas populos in uiridi opacaque ripa inambulantes"
+        },
+        {
+          "sids": [
+            "6874286a62bb"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『소크라테스의 변명』은 플라톤이 철학 저술을 시작할 무렵의 초기 저작으로 여겨진다(소크라테스가 등장하는 많은 대화편이 그 뒤에 온다는 문장의 '이후'를 받친다).",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "Many contemporary scholars find it plausible that when Plato embarked on his career as a philosophical writer, he composed, in addition to his Apology of Socrates, a number of short ethical dialogues",
+          "note": "검수에서 추가."
+        },
+        {
+          "sids": [
+            "28e95b9cd3b4"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "하이데거의 니체 강의(1936–1940)가 1961년 책 『니체』로 출간되었다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Martin_Heidegger",
+          "quote": "From 1936 to 1940, Heidegger also delivered a series of lectures on Friedrich Nietzsche at Freiburg that presented much of the raw material incorporated in his more established work and thought from this time. These would appear in published form in 1961.",
+          "note": "검수에서 추가."
+        },
+        {
+          "sids": [
+            "28e95b9cd3b4"
+          ],
+          "field": "relation:contrast--plato--friedrich-nietzsche.summary",
+          "claim": "하이데거의 『니체』(1961)가 니체의 저작 전체를 '뒤집힌 플라톤주의'의 전개로 읽는 독법을 정식화했다.",
+          "verdict": "contradicted",
+          "url": "https://www.iep.utm.edu/nietzsch/",
+          "quote": "Combining Nietzsche’s self-described “inversion of Platonism” with the emphasis Nietzsche had undoubtedly placed upon the value-positing act and its relatedness to subjective or inter-subjective human perspectives, Heidegger dubbed Nietzsche “the last metaphysician”",
+          "correction": "'플라톤주의의 뒤집기'는 니체 자신의 표현이고, 하이데거는 이를 가치 정립에 대한 니체의 강조와 묶어 니체를 '마지막 형이상학자'로 규정했다.",
+          "note": "검수에서 추가. 문장의 범위어 '저작 전체'와 '정식화'는 기존 주장 어디에도 없었다. IEP·SEP·Wikipedia(Martin Heidegger)·odiphilosophy(herausdrehen)에서 하이데거가 니체의 '저작 전체'를 뒤집힌 플라톤주의의 전개로 읽었다고 적은 대목을 찾지 못했다. 'umgedrehter Platonismus'는 니체 유고(주장 64)의 자기 규정이다 — 하이데거가 '정식화'한 독법이 아니라 니체의 자기 규정을 형이상학 완결 논지에 엮은 것이다."
+        },
+        {
+          "sids": [
+            "fa0255ba63ed"
+          ],
+          "field": "relation:influence--plato--jorge-luis-borges.summary",
+          "claim": "표제 에세이가 첫 영원으로 다루는 플로티노스의 가지적 세계는 '플라톤 원형들의 박물관'이며, 그 원형들이 영원을 이룬다.",
+          "verdict": "confirmed",
+          "url": "https://borgestodoelanio.blogspot.com/2015/06/jorge-luis-borges-historia-de-la.html",
+          "quote": "Es el inmóvil y terrible museo de los arquetipos platónicos. … de lo que no conviene que prescinda es de alguna noticia general de esos arquetipos platónicos, o causas primordiales o ideas, que pueblan y componen la eternidad.",
+          "note": "검수에서 추가 — 같은 문단(에세이 II절). 출발점은 플로티노스를 경유한 플라톤의 원형이다."
+        },
+        {
+          "sids": [
+            "866a33f1ebc7"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "플라톤의 대화편에는 소크라테스가 대화 상대를 논박으로 몰아붙이는 대목이 있다.",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "quote": "portraying the way in which Socrates punctured the pretensions of his interlocutors and forced them to realize that they are unable to offer satisfactory definitions of the ethical terms they used, or satisfactory arguments for their moral beliefs",
+          "note": "noClaim 전환: 문장은 읽기 조언이지만 '소크라테스가 상대를 몰아가는 대목'이라는 사실 전제를 담는다. '전제의 이동을 놓치기 쉽다'는 독자 난이도 판단이라 검증 대상이 아니다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 64,
+    "requoted": 8,
+    "downgraded": 0,
+    "added": 4,
+    "noClaimConverted": 1
+  }
+}

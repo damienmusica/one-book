@@ -1,0 +1,134 @@
+{
+  "fixes": [
+    {
+      "id": "taras-shevchenko",
+      "importanceReason": "농노로 태어나 속량된 뒤 우크라이나어 시로 제국의 언어 밖에서 문학어를 세우는 선례를 남겼다. 우크라이나 민요의 문체와 율격을 시행의 기본으로 삼되 농노제·캅카스 정복 같은 당대의 정치와 그가 태어나기 전의 1768년 봉기를 그 율격 안에 넣었다. 창작 금지 처분 이전에 쓰인 시들이 필사로 돌았고, 유형기의 시는 손수 만든 소책자에 숨겨졌다.",
+      "readingEntryReason": "1840년 『코브자르』 초판에 실린 시 한 편으로, 버림받은 농촌 여성의 생애가 그 안에서 시작해 끝나 배경 지식이 적어도 따라갈 수 있다.",
+      "readingWarning": "『코브자르』라는 제목은 그의 우크라이나어 시 전집에도 쓰여 1840년 초판(여덟 편)과 분량이 다를 수 있다. 어느 판본인지 먼저 확인하는 편이 낫다.",
+      "difficultyReason": "시행은 민요 율격이라 소리 내어 읽으면 잡히지만, 농노제·1768년 봉기가 시 안에 압축돼 있어 배경 없이는 고유명사가 비고, 한 번역자는 그 통사·음악의 혁신을 영역하기 어렵다고 한다.",
+      "works": [
+        {
+          "id": "taras-shevchenko--zapovit",
+          "significance": "1845년 페레야슬라우에서 쓴 유언시. 제국 안에서는 검열로 인쇄되지 못한 채 1859년 라이프치히에서 나온 시집에 실렸고, 1870년대 흘라드키가 곡을 붙인 뒤 우크라이나 국가(國歌) 다음가는 지위를 얻었다."
+        },
+        {
+          "id": "taras-shevchenko--kavkaz",
+          "significance": "캅카스 전쟁에서 죽은 친구 야키우 데 발멘에게 바친 시. 제국의 정복을 정복당하는 쪽의 자리에서 서술한다."
+        },
+        {
+          "id": "taras-shevchenko--haidamaky",
+          "significance": "1768년 콜리이우시치나 봉기를 다룬 장편 서사시. 농민 반란의 폭력을 지우지 않고 기록하되, 서시에서는 하이다마키를 찬양하겠다는 뜻을 밝힌다."
+        },
+        {
+          "id": "taras-shevchenko--kobzar",
+          "significance": "1840년 페테르부르크에서 여덟 편으로 묶여 나온 첫 시집. 권두 판화 속 악사 코브자르에서 제목을 따왔고, 이후 그의 시 전체를 부르는 이름이 되었다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "contrast--taras-shevchenko--alexander-pushkin",
+          "summary": "캅카스를 노래하는 두 시선이 마주 놓인다. 미로슬라우 슈칸드리의 『러시아와 우크라이나: 문학과 제국의 담론』(2001)은 셰우첸코가 캅카스를 다룬 러시아 문학의 토포스 '최종 승리의 단언'을 거슬렀다고 쓰고, 그 토포스의 예로 푸시킨을 든다.",
+          "evidenceLevel": "editorial_inference"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.facts",
+          "claim": "작품 언어는 우크라이나어(uk) 하나다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 작가의 languages 를 uk 에서 uk·ru 로 바꿔야 한다(인용: nine novellas, a diary, and an autobiography written in Russian). 그러나 scripts/apply-plate-fixes.ts 에는 languages 를 고치는 경로가 없어 이 고침 파일로는 적용되지 않는다. 사실 줄(sid f389e8aca9b8)이 그대로 남으므로 게이트가 '고치기로 한 문장이 그대로 있다'로 잡는다 — languages 를 [\"uk\",\"ru\"] 로 바꾸는 별도 편집이 필요하다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "시집을 우크라이나어로만 묶었다",
+          "resolution": "corrected",
+          "evidence": "교정문('우크라이나어로만'은 빼야 한다)대로 '우크라이나어로만 시집을 묶어,'를 '우크라이나어 시로'로 바꿨다. 남은 말은 같은 sid 의 확정 주장(Through his poetry, Shevchenko legitimized the use of Ukrainian as a language of modern literature.)이 받친다. 교정문의 「트리즈나」 이야기는 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "그 유통 방식(필사·은닉 소책자) 자체가 이후 우크라이나 문학의 성립 조건이 되었다",
+          "resolution": "narrowed",
+          "evidence": "받칠 출처가 없어 셋째 문장의 '그 유통 방식 자체가 이후 우크라이나 문학의 성립 조건이 되었다'를 지우고, 확정된 두 절('창작 금지 처분 이전에 쓰인 시들이 필사로 돌았고, 유형기의 시는 손수 만든 소책자에 숨겨졌다')만 남겼다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "「카테리나」는 어느 판본에나 실려 있다",
+          "resolution": "corrected",
+          "evidence": "'이야기 시 한 편이라 어느 판본에나 실려 있고,'를 교정문대로 '1840년 『코브자르』 초판에 실린 시 한 편으로,'로 바꿨다(인용: first published in his poetry collection Kobzar in 1840). 교정문이 뺀 '이야기 시'도 뺐다. 길이 때문에 뒤의 '그 한 편 안에서'를 '그 안에서'로 줄였다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "오늘날 『코브자르』라는 제목의 판본은 대개 전집이다",
+          "resolution": "corrected",
+          "evidence": "'오늘날 『코브자르』라는 제목으로 나오는 판본은 대개 전집이라 … 분량이 전혀 다르다'를 교정문대로 '『코브자르』라는 제목은 그의 우크라이나어 시 전집에도 쓰여 1840년 초판(여덟 편)과 분량이 다를 수 있다'로 바꿨다(인용: The complete collection of Ukrainian poems by Taras Shevchenko is also called Kobzar). 길이 때문에 '오늘날'과 '전혀'를 뺐다. 둘째 문장(사실 주장 없음)은 그대로 두었다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "제국 검열이 시 안에 압축돼 있다",
+          "resolution": "narrowed",
+          "evidence": "받칠 출처가 없어 '농노제·1768년 봉기·제국 검열이'에서 '·제국 검열'을 지웠다. 농노제·1768년 봉기는 같은 sid 의 확정 주장이 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "우크라이나어 운율은 번역에서 대부분 깎여 나간다",
+          "resolution": "corrected",
+          "evidence": "'우크라이나어 운율은 번역에서 대부분 깎여 나간다'를 교정문대로 한 번역자의 말로 바꿨다: '한 번역자는 그 통사·음악의 혁신을 영역하기 어렵다고 한다'(인용: syntactical and musical innovation is especially difficult to reproduce in English). 길이 때문에 번역자 이름(대니얼 모이사엔코)과 '특히'는 넣지 않았다."
+        },
+        {
+          "field": "work:taras-shevchenko--zapovit.significance",
+          "claim": "짧은 유언시(시적 유언 장르)다",
+          "resolution": "narrowed",
+          "evidence": "인용(Composed in the genre of poetical testament)이 받치지 않는 '짧은'을 지워 '1845년 페레야슬라우에서 쓴 유언시.'로 줄였다. 남은 '유언시'는 교정문 '시적 유언 장르로 쓴 시'와 같은 뜻이다."
+        },
+        {
+          "field": "work:taras-shevchenko--zapovit.significance",
+          "claim": "첫 연이 우크라이나어 낭독과 합창의 고정 목록이 되었다",
+          "resolution": "corrected",
+          "evidence": "'자신을 언덕에 묻어 달라는 첫 연이 우크라이나어 낭독과 합창의 고정 목록이 되었고'를 교정문대로 '1870년대 흘라드키가 곡을 붙인 뒤 우크라이나 국가(國歌) 다음가는 지위를 얻었다'로 바꿨다(인용: After being set to music by H. Hladky in the 1870s, the poem achieved a status second only to Ukraine's national anthem). 주어가 첫 연이 아니라 시 전체라 '첫 연' 구절을 뺐고, 연대 순서대로 1859년 라이프치히 수록 뒤에 두었다."
+        },
+        {
+          "field": "work:taras-shevchenko--kavkaz.significance",
+          "claim": "같은 시대 러시아 (낭만)시의 캅카스와 정면으로 어긋난다",
+          "resolution": "narrowed",
+          "evidence": "'같은 시대 러시아 낭만시의 캅카스와 정면으로 어긋난다'를 지우고 확정된 '제국의 정복을 정복당하는 쪽의 자리에서 서술한다'만 남겼다. 교정문(최종 승리의 단언을 거슬렀다)은 주어가 셰우첸코이고 검증자가 그 대목이 「캅카스」에 관한 것인지 확인하지 못했다고 적어, 이 시의 의의로 옮기지 않았다. 그 내용은 푸시킨 관계 요약에 슈칸드리의 말로 들어갔다."
+        },
+        {
+          "field": "work:taras-shevchenko--haidamaky.significance",
+          "claim": "그의 작품 가운데 역사 서술의 부담이 가장 큰 편이다",
+          "resolution": "removed",
+          "evidence": "작품 간 비교로 이 시를 꼽는 출처가 없어 문장 '그의 작품 가운데 역사 서술의 부담이 가장 큰 편이다.'를 지웠다."
+        },
+        {
+          "field": "work:taras-shevchenko--kobzar.significance",
+          "claim": "방랑 악사 코브자르의 구송을 책의 틀로 삼았다",
+          "resolution": "corrected",
+          "evidence": "'방랑 악사 코브자르의 구송을 책의 틀로 삼았고'를 교정문대로 '권두 판화 속 악사 코브자르에서 제목을 따왔고'로 바꿨다(인용: the etching at the beginning of the book … a generalized image of a kobzar, which gave the name to the collection). 길이 때문에 판화가 이름(시테른베르크)·소년 길잡이는 넣지 않았고, 인용이 말하지 않는 '방랑'도 뺐다."
+        },
+        {
+          "field": "relation:contrast--taras-shevchenko--alexander-pushkin.facts",
+          "claim": "근거 수준은 학계 통설(scholarly_consensus)이다",
+          "resolution": "narrowed",
+          "evidence": "이 대조를 받치는 출처가 슈칸드리 한 권뿐이라 evidenceLevel 을 scholarly_consensus 에서 editorial_inference 로 낮췄다(contrast 가 허용하는 수준, weight 0.6 은 상한 안). 사실 줄은 '타라스 셰우첸코 → 알렉산드르 푸시킨 · contrast · bidirectional · editorial_inference'가 된다. 대조 자체는 확정 주장이 받쳐 선과 출처(src--shkandrij-russia-and-ukraine)는 남겼다."
+        },
+        {
+          "field": "relation:contrast--taras-shevchenko--alexander-pushkin.summary",
+          "claim": "그 책은 「캅카스」(1845)를 푸시킨 계열 캅카스 시편의 정복 서사와 정면으로 반대되는 항으로 읽는다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장을 교정문대로 고쳤다: 슈칸드리의 책(2001)은 '셰우첸코가 캅카스를 다룬 러시아 문학의 토포스 '최종 승리의 단언'을 거슬렀다고 쓰고, 그 토포스의 예로 푸시킨을 든다'(인용: Shevchenko contradicted, for example, a fundamental topos of Russian writing on the Caucasus – the assertion of final victory. Pushkin wrote of the tribesmen, …). 확인되지 않은 「캅카스」(1845) 지목과 '정복의 낭만'은 뺐다. 길이 때문에 '근본'과 푸시킨 시구 인용은 넣지 않았다. 앵커가 없어 연도 제약은 없고, 요약은 문서(『러시아와 우크라이나』 2001)를 계속 지목한다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "1768년 봉기는 셰우첸코(1814–1861) 당대의 정치다",
+          "resolution": "corrected",
+          "evidence": "'농노제, 1768년 봉기, 캅카스 정복 같은 당대의 정치를'을 교정문대로 '농노제·캅카스 정복 같은 당대의 정치와 그가 태어나기 전의 1768년 봉기를'로 바꿨다(봉기 1768년, 출생 1814년 — 둘 다 확정 주장)."
+        },
+        {
+          "field": "relation:contrast--taras-shevchenko--alexander-pushkin.summary",
+          "claim": "푸시킨도 캅카스를 시로 썼다(「캅카스의 포로」)",
+          "resolution": "narrowed",
+          "evidence": "확정 주장이지만 메모가 '\"제국의 변경\"이라는 성격 규정은 인용이 담지 않음'이라고 적어, 첫 문장의 '제국의 변경을'을 '캅카스를'로 줄였다. 푸시킨의 「캅카스의 포로」(확정)와 셰우첸코의 「캅카스」(확정)가 받친다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+ "plates": [
+  {
+   "id": "jonathan-swift",
+   "claims": [
+    {
+     "sids": [
+      "a9780fa58b7e"
+     ],
+     "field": "author.facts",
+     "claim": "스위프트는 1667년 더블린에서 태어나 1745년 더블린에서 죽었다(생몰년, 아일랜드)",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift",
+     "quote": "Jonathan Swift (born November 30, 1667, Dublin , Ireland—died October 19, 1745, Dublin) was an Anglo-Irish author"
+    },
+    {
+     "sids": [
+      "a9780fa58b7e"
+     ],
+     "field": "author.facts",
+     "claim": "스위프트는 영어로 쓴 작가다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift",
+     "quote": "was an Anglo-Irish author, who was the foremost prose satirist in the English language"
+    },
+    {
+     "sids": [
+      "d2ae03f08e63"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『겸손한 제안』은 가상의 화자를 내세워 아일랜드 빈민의 아이를 식용으로 팔자고 제안한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+     "quote": "The essay, written from the perspective of a fictional narrator, suggests that the Irish poor could ease their economic troubles by selling their children as food to wealthy gentlemen and ladies."
+    },
+    {
+     "sids": [
+      "d2ae03f08e63"
+     ],
+     "field": "author.importanceReason",
+     "claim": "그 반어는 끝까지 유지된다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+     "quote": "Swift's essay is widely held to be one of the greatest examples of sustained irony in the history of English literature."
+    },
+    {
+     "sids": [
+      "d2ae03f08e63"
+     ],
+     "field": "author.importanceReason",
+     "claim": "스위프트는 반어를 자기 목소리가 아니라 지어낸 화자(걸리버, 『겸손한 제안』의 시민)에게 건다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "Swift rarely speaks in his own person; almost always he states his views by ironic indiscretion through some imagined character such as Lemuel Gulliver or the morally obtuse citizen of “A Modest Proposal.”"
+    },
+    {
+     "sids": [
+      "e9601ff88d56"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『걸리버 여행기』는 당시 유행하던 여행기(항해기)를 패러디한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/Gullivers-Travels",
+     "quote": "A parody of the then popular travel narrative, Gulliver’s Travels combines adventure with savage satire"
+    },
+    {
+     "sids": [
+      "e9601ff88d56"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『걸리버 여행기』의 문체는 건조한 사실 보고체다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "Gulliver’s Travels’s matter-of-fact style and its air of sober reality confer on it an ironic depth"
+    },
+    {
+     "sids": [
+      "e9601ff88d56"
+     ],
+     "field": "author.importanceReason",
+     "claim": "소인국·거인국·야후(말의 나라)가 모두 척도 변화만으로 인간의 자기 이미지를 깎아낸다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/Gullivers-Travels",
+     "quote": "a race of intelligent horses who are cleaner and more rational, communal, and benevolent … than the brutish, filthy, greedy, and degenerate humanoid race called Yahoos, some of whom they have tamed—an ironic twist on the human-beast relationship",
+     "correction": "『걸리버 여행기』는 항해기의 건조한 사실 문체를 빌려, 소인국·거인국에서는 크기의 역전으로, 말의 나라에서는 이성적인 말과 짐승 같은 인간(야후)의 역전으로 인간의 자기 이미지를 깎아낸다.",
+     "note": "척도(크기) 변화는 1·2부의 장치다(위키백과: \"the mirror-themed Parts I and II\"). 4부의 야후는 크기가 아니라 인간과 짐승의 자리를 뒤집는 장치다."
+    },
+    {
+     "sids": [
+      "e6444702d098"
+     ],
+     "field": "author.importanceReason",
+     "claim": "이후 풍자가 무엇을 조롱하는가보다 누가 말하는가를 먼저 설계하게 되었다(스위프트 이후 풍자사의 변화)",
+     "verdict": "unverifiable",
+     "note": "브리태니커(Wayback)·위키백과 스위프트·『걸리버 여행기』·『겸손한 제안』 항목을 확인함. 스위프트 자신이 지어낸 화자를 통해 말한다는 서술은 있지만, 그 뒤의 풍자 전반이 화자 설계를 앞세우게 되었다는 계보 서술은 찾지 못함."
+    },
+    {
+     "sids": [
+      "e6444702d098"
+     ],
+     "field": "author.importanceReason",
+     "claim": "오웰은 『걸리버 여행기』를 여덟 살에 처음 읽고 평생 여러 번 되읽었다",
+     "verdict": "confirmed",
+     "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+     "quote": "I read it first when I was eight … and I have certainly not read it less than half a dozen times since."
+    },
+    {
+     "sids": [
+      "e6444702d098"
+     ],
+     "field": "author.importanceReason",
+     "claim": "오웰은 1946년 에세이에서 『걸리버 여행기』를 정면으로 논했다",
+     "verdict": "confirmed",
+     "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+     "quote": "Politics vs. Literature: An examination of Gulliver’s Travels"
+    },
+    {
+     "sids": [
+      "af565c87081b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『겸손한 제안』 1729년 초판은 16쪽이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+     "quote": "| pages = 16",
+     "note": "위키백과 인포박스(위키텍스트). 근거로 단 인터넷 아카이브 1729년판(S. Harding 인쇄)의 스캔도 16면이다(archive.org 메타데이터 imagecount: 16)."
+    },
+    {
+     "sids": [
+      "af565c87081b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "그 초판이 런던 초판이다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Jonathan_Swift",
+     "quote": "In 1729, Swift's A Modest Proposal for Preventing the Children of Poor People in Ireland Being a Burden on Their Parents or Country, and for Making Them Beneficial to the Publick was published in Dublin by Sarah Harding.",
+     "correction": "1729년 더블린 초판(세라 하딩 인쇄) 기준 열여섯 쪽 안에",
+     "note": "인터넷 아카이브의 1729년판 속표지 OCR도 \"Printed by S. Harding, oppoſite the Hand\"(더블린 Fishamble Street 인근)라 적는다. 위키백과 이미지 캡션의 \"1729 London reprinting\"은 재쇄다."
+    },
+    {
+     "sids": [
+      "af565c87081b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『겸손한 제안』은 경제 논설의 형식과 진지한 추론을 끝까지 유지한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/A-Modest-Proposal",
+     "quote": "Presented in the guise of an economic treatise … with a blend of rational deliberation and unthinkable conclusion"
+    },
+    {
+     "sids": [
+      "5050db6989d0"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『걸리버 여행기』는 흔히 아동문학으로 여겨지지만 정치 풍자로 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+     "quote": "Although the novel is popularly regarded as children's literature, Swift wrote it as a political satire."
+    },
+    {
+     "sids": [
+      "429ea79c685c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "스위프트의 문장은 짧고 명료하다",
+     "verdict": "unverifiable",
+     "note": "브리태니커(Wayback) 스위프트 항목은 \"concentrated power and directness of impact\"라고만 적고 문장 길이는 말하지 않는다. 문장이 짧다는 서술은 찾지 못함."
+    },
+    {
+     "sids": [
+      "429ea79c685c"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "반어가 화자에게 걸려 있어 화자의 말과 텍스트의 뜻이 어긋난다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+     "quote": "there is a gap between the narrator's meaning and the text's, and that a moral-political argument is being carried out by means of parody"
+    },
+    {
+     "sids": [
+      "e31861604425"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "겨냥한 대상 중 하나는 잉글랜드의 아일랜드 법·경제 착취다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/A-Modest-Proposal",
+     "quote": "Swift’s proposal is a savage comment on England’s legal and economic exploitation of Ireland."
+    },
+    {
+     "sids": [
+      "e31861604425"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "겨냥한 대상 중 하나는 국교회의 분열이다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+     "quote": "a \"tale\" of three brothers, each representing one of the main branches of western Christianity from the 17th-century English perspective. A satire on the Roman Catholic and Anglican churches and English Dissenters",
+     "correction": "겨냥한 대상(아일랜드 경제 정책, 가톨릭·국교회·비국교도로 갈라진 서방 교회, 왕립학회)",
+     "note": "『통 이야기』가 겨냥하는 것은 국교회 내부의 분열이 아니라 서방 기독교의 세 갈래다."
+    },
+    {
+     "sids": [
+      "e31861604425"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "겨냥한 대상 중 하나는 왕립학회다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "He visits the Academy of Lagado (a travesty of England’s Royal Society)"
+    },
+    {
+     "sids": [
+      "e31861604425"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "스위프트의 풍자는 당대 맥락의 주석 없이는 잘 읽히지 않는다는 평이 있다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_22",
+     "quote": "Il faudrait à tout moment un commentaire. … Voilà pourquoi on n’entendra jamais bien en France les livres de l’ingénieux docteur Swift",
+     "note": "볼테르 『철학편지』 제22신. 앞 문장은 버틀러의 『휴디브라스』를 두고 한 말이고, 같은 문단에서 스위프트로 이어진다."
+    },
+    {
+     "sids": [
+      "da6fcdd61757"
+     ],
+     "field": "work:jonathan-swift--the-drapiers-letters.facts",
+     "claim": "『드레이피어의 편지』(Drapier's Letters)는 스위프트의 정치 팸플릿 연작이다(에세이·비평)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Drapier%27s_Letters",
+     "quote": "Drapier's Letters is the collective name for a series of seven political pamphlets written between 1724 and 1725"
+    },
+    {
+     "sids": [
+      "da6fcdd61757"
+     ],
+     "field": "work:jonathan-swift--the-drapiers-letters.facts",
+     "claim": "연도는 1724년(작성 기간 기준)",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "the “ Drapier’s Letters ” (1724–25)",
+     "correction": "1724–1725 (작성·발표 기간)",
+     "note": "연작 일곱 편이 1724년에서 1725년에 걸쳐 쓰였다. 기간 기준(composition-range)인데 끝 연도가 빠져 있다."
+    },
+    {
+     "sids": [
+      "d45ec4d7819f"
+     ],
+     "field": "work:jonathan-swift--the-drapiers-letters.significance",
+     "claim": "필자는 포목상(드레이피어)을 자처했다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Drapier%27s_Letters",
+     "quote": "In the pamphlet, Swift adopted the persona of the \"Drapier\": a common Irishman, a talented and skilled draper"
+    },
+    {
+     "sids": [
+      "d45ec4d7819f"
+     ],
+     "field": "work:jonathan-swift--the-drapiers-letters.significance",
+     "claim": "그 포목상은 더블린의 포목상이다",
+     "verdict": "unverifiable",
+     "note": "원문(구텐베르크 판 Prose Works 6권)의 서명은 \"From my shop in St. Francis-street\"이고 팸플릿은 \"DUBLIN: Printed by J. Harding\"이지만, 필자를 \"더블린의\" 포목상이라고 직접 적은 문장은 찾지 못함. 위키백과는 \"a common Irishman, a talented and skilled draper\"라고만 적는다."
+    },
+    {
+     "sids": [
+      "d45ec4d7819f"
+     ],
+     "field": "work:jonathan-swift--the-drapiers-letters.significance",
+     "claim": "영국 정부가 아일랜드에 동전(반페니·파딩)을 공급하려던 계획을 공격했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "The first is a series of letters attacking the English government for its scheme to supply Ireland with copper halfpence and farthings."
+    },
+    {
+     "sids": [
+      "d45ec4d7819f"
+     ],
+     "field": "work:jonathan-swift--the-drapiers-letters.significance",
+     "claim": "연속 팸플릿이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Drapier%27s_Letters",
+     "quote": "a series of seven political pamphlets written between 1724 and 1725"
+    },
+    {
+     "sids": [
+      "b15008068059"
+     ],
+     "field": "work:jonathan-swift--the-drapiers-letters.significance",
+     "claim": "여론이 그 화폐 특허를 실제로 철회시켰다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Drapier%27s_Letters",
+     "quote": "public opinion became so hostile against Wood's coinage that the patent was withdrawn by 1725"
+    },
+    {
+     "sids": [
+      "2554a1c643f2"
+     ],
+     "field": "work:jonathan-swift--a-modest-proposal.facts",
+     "claim": "『겸손한 제안』(A Modest Proposal)은 1729년 팸플릿으로 처음 인쇄된 풍자 에세이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/A-Modest-Proposal",
+     "quote": "A Modest Proposal , satiric essay by Jonathan Swift , published in pamphlet form in 1729."
+    },
+    {
+     "sids": [
+      "8aec895c3890"
+     ],
+     "field": "work:jonathan-swift--a-modest-proposal.significance",
+     "claim": "화자는 굶주린 아일랜드의 해법으로 빈민의 아기를 식용으로 팔자고 제안한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "“A Modest Proposal” is a grimly ironic letter of advice in which a public-spirited citizen suggests that Ireland’s overpopulation and dire economic conditions could be alleviated if the babies of poor Irish parents were sold as edible delicacies to be eaten by the rich."
+    },
+    {
+     "sids": [
+      "8aec895c3890"
+     ],
+     "field": "work:jonathan-swift--a-modest-proposal.significance",
+     "claim": "화자의 반어는 끝까지 무너지지 않는다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+     "quote": "Swift's essay is widely held to be one of the greatest examples of sustained irony in the history of English literature."
+    },
+    {
+     "sids": [
+      "1ffe8c6eb7ab"
+     ],
+     "field": "work:jonathan-swift--a-modest-proposal.significance",
+     "claim": "반어가 화자(도덕적으로 둔감한 시민)의 목소리에 걸려 있다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "almost always he states his views by ironic indiscretion through some imagined character such as Lemuel Gulliver or the morally obtuse citizen of “A Modest Proposal.”"
+    },
+    {
+     "sids": [
+      "0d834195498f"
+     ],
+     "field": "work:jonathan-swift--a-tale-of-a-tub.facts",
+     "claim": "『통 이야기』(A Tale of a Tub)는 1704년 런던에서 처음 출판되었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+     "quote": "composed between 1694 and 1697 and published in London in 1704"
+    },
+    {
+     "sids": [
+      "0d834195498f"
+     ],
+     "field": "work:jonathan-swift--a-tale-of-a-tub.facts",
+     "claim": "장르는 소설(fiction)이다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+     "quote": "The work is a prose parody divided into sections of \"digression\" and a \"tale\" of three brothers",
+     "correction": "산문 풍자(패러디) — 세 형제의 우화와 여담이 번갈아 나오는 혼합 형식",
+     "note": "위키백과 인포박스는 주제를 \"Satirical essay\"로, 브리태니커는 \"prose satire\"로 적는다. 소설로 분류한 출처는 찾지 못함."
+    },
+    {
+     "sids": [
+      "68ecd8b9293b"
+     ],
+     "field": "work:jonathan-swift--a-tale-of-a-tub.significance",
+     "claim": "세 형제의 우화로 서방 교회의 갈래(분열)를 다룬다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+     "quote": "a \"tale\" of three brothers, each representing one of the main branches of western Christianity from the 17th-century English perspective"
+    },
+    {
+     "sids": [
+      "68ecd8b9293b"
+     ],
+     "field": "work:jonathan-swift--a-tale-of-a-tub.significance",
+     "claim": "여담이 본문(이야기)만큼 길다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+     "quote": "However, the digressions overwhelm the narrative, both in their length and in the forcefulness and imaginativeness of writing.",
+     "note": "출처는 여담이 분량에서 이야기를 압도한다고 적는다."
+    },
+    {
+     "sids": [
+      "68ecd8b9293b"
+     ],
+     "field": "work:jonathan-swift--a-tale-of-a-tub.significance",
+     "claim": "과장된 서두와 여담으로 당대의 글쓰기 자체를 패러디한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/A_Tale_of_a_Tub",
+     "quote": "a parody of contemporary writing in literature, politics, theology, Biblical exegesis, and medicine through its comically excessive front matter and series of digressions throughout"
+    },
+    {
+     "sids": [
+      "14cb48977961"
+     ],
+     "field": "work:jonathan-swift--a-tale-of-a-tub.significance",
+     "claim": "스위프트의 산문 중 형식적으로 가장 실험적이다",
+     "verdict": "unverifiable",
+     "note": "위키백과는 \"various satirical and radical literary techniques\", 브리태니커는 \"an incomparable command of stylistic effects\"라고 적지만, 스위프트 산문 가운데 \"가장\" 실험적이라는 비교 서술은 찾지 못함."
+    },
+    {
+     "sids": [
+      "5821fe86b96f"
+     ],
+     "field": "work:jonathan-swift--gullivers-travels.facts",
+     "claim": "『걸리버 여행기』(Gulliver's Travels)는 1726년에 처음 출판된 풍자 산문 소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+     "quote": "is a 1726 satirical prose novel by the Anglo-Irish writer and clergyman Jonathan Swift"
+    },
+    {
+     "sids": [
+      "4932308e7b1e"
+     ],
+     "field": "work:jonathan-swift--gullivers-travels.significance",
+     "claim": "항해기의 건조한 보고 문체를 쓴다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "Gulliver’s Travels’s matter-of-fact style and its air of sober reality confer on it an ironic depth"
+    },
+    {
+     "sids": [
+      "4932308e7b1e"
+     ],
+     "field": "work:jonathan-swift--gullivers-travels.significance",
+     "claim": "소인국·거인국·떠 있는 섬(라퓨타)·말의 나라를 차례로 통과한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+     "quote": "Book I takes him to Lilliput … Book II takes Gulliver to Brobdingnag, where the inhabitants are giants. … In Book III Gulliver visits the floating island of Laputa … Book IV takes Gulliver to the Utopian land of the Houyhnhnms"
+    },
+    {
+     "sids": [
+      "4932308e7b1e"
+     ],
+     "field": "work:jonathan-swift--gullivers-travels.significance",
+     "claim": "네 부 모두 척도를 바꾸는 것만으로 인간의 자기 이미지를 깎아낸다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+     "quote": "the composition proper began in 1720 with the mirror-themed Parts I and II written first",
+     "correction": "소인국과 거인국에서는 크기를 뒤집어 인간의 자기 이미지를 깎아내고, 떠 있는 섬에서는 비실용적 학문을, 말의 나라에서는 이성적인 말과 짐승 같은 인간(야후)의 역전을 통해 같은 일을 한다.",
+     "note": "크기 대칭은 1·2부의 장치다. 브리태니커(Wayback)는 3부 라가도 아카데미를 \"a travesty of England’s Royal Society\"로 적는다."
+    },
+    {
+     "sids": [
+      "1c810909a59a"
+     ],
+     "field": "work:jonathan-swift--gullivers-travels.significance",
+     "claim": "4부의 야후 묘사는 계몽의 인간관에 대한 반대 심문으로 읽힌다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+     "quote": "Crane brings up the fact that a traditional definition of man—Homo est animal rationale (Humans are rational animals)—was prominent in academia around Swift's time.",
+     "correction": "4부의 후이넘·야후 대비는 \"인간은 이성적 동물\"이라는 당대 학계의 전통적 정의를 뒤집은 것으로 읽힌다(R. S. 크레인).",
+     "note": "출처가 말하는 대상은 계몽사상이 아니라 스콜라 논리학(포르피리오스의 나무)의 전통적 인간 정의다."
+    },
+    {
+     "sids": [
+      "25235967cc2a"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.facts",
+     "claim": "볼테르가 스위프트를 읽고 평한 사실이 볼테르 자신의 글로 기록돼 있다(스위프트→볼테르, 문서화된 영향)",
+     "verdict": "confirmed",
+     "url": "https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_22",
+     "quote": "M. Swift est Rabelais dans son bon sens, et vivant en bonne compagnie."
+    },
+    {
+     "sids": [
+      "25235967cc2a"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.facts",
+     "claim": "볼테르의 작품이 스위프트의 장치를 가져다 썼다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+     "quote": "Critics have noted how Voltaire's fable re-uses the trope of giants and midgets from Swift's Travels."
+    },
+    {
+     "sids": [
+      "326e12d8bad5"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.summary",
+     "claim": "『철학편지』는 1734년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Voltaire",
+     "quote": "His most famous works included the fictitious Lettres philosophiques (1734)"
+    },
+    {
+     "sids": [
+      "326e12d8bad5"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.summary",
+     "claim": "볼테르는 『철학편지』 제22신에서 스위프트를 \"분별을 갖춘(제정신의) 라블레\"라 불렀다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_22",
+     "quote": "M. Swift est Rabelais dans son bon sens, et vivant en bonne compagnie.",
+     "note": "가르니에판(1879) 본문. 편자 주는 이 문장에 1734년 판 이문을 달지 않는다."
+    },
+    {
+     "sids": [
+      "326e12d8bad5"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.summary",
+     "claim": "볼테르는 1734년 『철학편지』 제22신에서 『통 이야기』를 논했다",
+     "verdict": "contradicted",
+     "url": "https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_22",
+     "quote": "1734. « Dans son pays. Vous pouvez plus aisément. »",
+     "correction": "볼테르는 『철학편지』(1734) 제22신에서 스위프트를 '분별을 갖춘 라블레'라 불러 프랑스 독자에게 소개했고, 『통 이야기』에 대한 논평은 뒤의 판에서 이 편지에 덧붙었다.",
+     "note": "가르니에판 편자 주: 1734년 판은 \"…dans son pays.\" 다음에 곧바로 \"Vous pouvez plus aisément\"(포프 이야기)로 넘어간다. 곧 현행 본문의 \"Conte du Tonneau\" 대목은 1734년 판에 없다."
+    },
+    {
+     "sids": [
+      "326e12d8bad5"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.summary",
+     "claim": "볼테르는 이 편지에서 스위프트의 산문(과 운문)을 프랑스 독자에게 소개했다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_22",
+     "quote": "la bonne plaisanterie est son partage en vers et en prose, mais, pour le bien entendre, il faut faire un petit voyage dans son pays"
+    },
+    {
+     "sids": [
+      "326e12d8bad5"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.summary",
+     "claim": "『미크로메가스』는 1752년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+     "quote": "but with the widely accepted publication being 1752"
+    },
+    {
+     "sids": [
+      "326e12d8bad5"
+     ],
+     "field": "relation:influence--jonathan-swift--voltaire.summary",
+     "claim": "『미크로메가스』의 크기 장치는 스위프트와 연결해 논의된다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Microm%C3%A9gas",
+     "quote": "Critics have noted how Voltaire's fable re-uses the trope of giants and midgets from Swift's Travels."
+    },
+    {
+     "sids": [
+      "bc1a228fd6f0"
+     ],
+     "field": "relation:influence--jonathan-swift--george-orwell.facts",
+     "claim": "오웰이 스위프트를 읽고 높이 평가한 사실이 오웰 자신의 글로 기록돼 있다(스위프트→오웰, 문서화된 영향)",
+     "verdict": "confirmed",
+     "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+     "quote": "Yet curiously enough he is one of the writers I admire with least reserve"
+    },
+    {
+     "sids": [
+      "8382d11fb33b"
+     ],
+     "field": "relation:influence--jonathan-swift--george-orwell.summary",
+     "claim": "오웰의 「정치 대 문학: 『걸리버 여행기』에 대한 검토」는 1946년 Polemic에 실렸다",
+     "verdict": "confirmed",
+     "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+     "quote": "Polemic, No. 5, September–October 1946"
+    },
+    {
+     "sids": [
+      "8382d11fb33b"
+     ],
+     "field": "relation:influence--jonathan-swift--george-orwell.summary",
+     "claim": "오웰은 스위프트의 정치적 태도를 비판했다",
+     "verdict": "confirmed",
+     "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+     "quote": "In a political and moral sense I am against him, so far as I understand him."
+    },
+    {
+     "sids": [
+      "8382d11fb33b"
+     ],
+     "field": "relation:influence--jonathan-swift--george-orwell.summary",
+     "claim": "모든 책이 사라질 때 남길 여섯 권 중 하나로 『걸리버 여행기』를 꼽았다",
+     "verdict": "confirmed",
+     "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+     "quote": "If I had to make a list of six books which were to be preserved when all others were destroyed, I would certainly put Gulliver’s Travels among them."
+    },
+    {
+     "sids": [
+      "888f08a1f23d"
+     ],
+     "field": "relation:contrast--jonathan-swift--daniel-defoe.facts",
+     "claim": "스위프트와 디포는 대조 관계로 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+     "quote": "Gulliver's Travels may be read as a systematic rebuttal of Defoe's optimistic account of human capability."
+    },
+    {
+     "sids": [
+      "888f08a1f23d"
+     ],
+     "field": "relation:contrast--jonathan-swift--daniel-defoe.facts",
+     "claim": "이 대조는 학계 통설(scholarly_consensus)이다",
+     "verdict": "unverifiable",
+     "note": "접근 대기: Michael McKeon, The Origins of the English Novel, 1600–1740 (Johns Hopkins UP, 1987) — 본문을 읽을 공개 지면을 찾지 못함. 위키백과는 대조를 \"may be read as\"(워런 몬태그 등)로 적을 뿐 통설이라 하지 않는다."
+    },
+    {
+     "sids": [
+      "217a78a0b20a"
+     ],
+     "field": "relation:contrast--jonathan-swift--daniel-defoe.summary",
+     "claim": "디포의 『리뷰』는 1704–1713년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Daniel-Defoe",
+     "quote": "He wrote this serious, forceful, and long-lived paper practically single-handedly from 1704 to 1713."
+    },
+    {
+     "sids": [
+      "217a78a0b20a"
+     ],
+     "field": "relation:contrast--jonathan-swift--daniel-defoe.summary",
+     "claim": "스위프트는 1710년 11월부터 1711년까지 『이그재미너』를 편집했다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Examiner_(1710%E2%80%931714)",
+     "quote": "edited by Jonathan Swift from 2 November 1710 to 14 June 1711",
+     "note": "브리태니커는 \"by the end of October 1710, had taken over the Tory journal, The Examiner\"라고 적는다."
+    },
+    {
+     "sids": [
+      "217a78a0b20a"
+     ],
+     "field": "relation:contrast--jonathan-swift--daniel-defoe.summary",
+     "claim": "『이그재미너』는 토리 당파의 지면이었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Examiner_(1710%E2%80%931714)",
+     "quote": "It promoted a Tory perspective on British politics"
+    },
+    {
+     "sids": [
+      "217a78a0b20a"
+     ],
+     "field": "relation:contrast--jonathan-swift--daniel-defoe.summary",
+     "claim": "그 무렵 디포는 할리의 토리 내각을 옹호하고 있었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Daniel_Defoe",
+     "quote": "then again to support Harley and the Tories in the Tory ministry of 1710–1714"
+    },
+    {
+     "sids": [
+      "217a78a0b20a"
+     ],
+     "field": "relation:contrast--jonathan-swift--daniel-defoe.summary",
+     "claim": "디포는 할리에게 고용된 필자였다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Daniel-Defoe",
+     "quote": "Harley’s part of the bargain being to obtain Defoe’s services as a pamphleteer and intelligence agent"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+  "fixes": [
+    {
+      "id": "sandor-petofi",
+      "importanceReason": "구어체 헝가리어로 쓴 시를 광장의 낭독물로 만들어, 1848년 3월 15일 페슈트에서 「민족의 노래」가 봉기 첫날의 일부가 되게 했다. 민담의 모티프와 어조를 빌린 「용사 야노시」는 헝가리 민중 문학에서 가장 중요한 작품 가운데 하나로 꼽힌다. 스물여섯에 전장에서 사라진 그는 헝가리의 가장 위대한 시인 가운데 하나이자 헝가리인의 자유에 대한 열망을 상징한 혁명가였다.",
+      "works": [
+        {
+          "id": "sandor-petofi--szeptember-vegen",
+          "significance": "결혼 직후 콜토에서 쓴 시. 창밖의 늦여름과 자기 죽음 이후의 시간을 한 시선 안에 겹쳐 놓아, 연애시라는 그의 다른 한 축을 보여 준다."
+        },
+        {
+          "id": "sandor-petofi--az-apostol",
+          "significance": "1848년에 쓰였고 1851년 압수된 에미흐 판에 처음 실린 뒤 1862년 뮐레르 줄러 연감에까지도 쓸 수 없는 본문으로 실렸던 장시. 온전한 본문은 1874년 아테네움 시집에 실렸다. 1848년 6월 의원 선거 낙선의 실망 속에서 쓰여 혁명가의 생애를 처형까지 따라간다."
+        },
+        {
+          "id": "sandor-petofi--janos-vitez",
+          "significance": "민담 모티프와 어조에 외국 전설도 섞은 27장의 이야기 시. 양치기 소년이 프랑스 왕과 거인의 나라를 지나 마지막에 요정의 나라에 이르러 그곳의 왕이 되는 이 이야기로부터 노래극·인형극·애니메이션·록 오페라가 만들어졌다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:sandor-petofi--janos-vitez.significance / author.importanceReason",
+          "claim": "「용사 야노시」는 민담의 운율과 어휘를 '그대로' 썼다",
+          "resolution": "corrected",
+          "evidence": "'민담의 운율과 어휘를 그대로 쓴'을 교정문대로 고쳤다: 작품 의의는 '민담 모티프와 어조에 외국 전설도 섞은', importanceReason은 '민담의 모티프와 어조를 빌린'. 율격·어휘 주장은 뺐다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "「용사 야노시」가 이야기 시의 재료를 궁정과 고전에서 농촌의 말로 옮겨 놓았다",
+          "resolution": "corrected",
+          "evidence": "'이야기 시의 재료를 궁정과 고전에서 농촌의 말로 옮겨 놓았다'를 교정문의 뒷부분 '헝가리 민중 문학에서 가장 중요한 작품 가운데 하나로 꼽힌다'(a magyar népies irodalom egyik legjelentősebb alkotása)로 바꿨다. 뵈뢰슈머르티·가라이 계보 부분은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "그의 생애가 이후 헝가리 시에서 시인과 정치적 행위를 같은 것으로 보는 상의 기준이 되었다",
+          "resolution": "corrected",
+          "evidence": "셋째 문장을 교정문 그대로 '스물여섯에 전장에서 사라진 그는 헝가리의 가장 위대한 시인 가운데 하나이자 헝가리인의 자유에 대한 열망을 상징한 혁명가였다.'로 바꿨다."
+        },
+        {
+          "field": "work:sandor-petofi--szeptember-vegen.significance",
+          "claim": "페퇴피는 정치시로만 알려져 있다",
+          "resolution": "corrected",
+          "evidence": "'정치시로만 알려진 그의 다른 면'을 '연애시라는 그의 다른 한 축'으로 바꿨다. 이 시가 연애시(Szerelmi költemények) 목록에 있다는 것은 같은 원장의 확정 주장이 받친다. 교정문의 '자유와 사랑의 시인' 자처 구절은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "work:sandor-petofi--az-apostol.significance",
+          "claim": "「민족의 노래」의 낙관이 어디에서 무너지는지를 기록한다",
+          "resolution": "corrected",
+          "evidence": "「민족의 노래」와의 대비를 지우고 교정문대로 '1848년 6월 의원 선거 낙선의 실망 속에서 쓰여 혁명가의 생애를 처형까지 따라간다'로 바꿨다(인용: júniusban elbukott a képviselőválasztáson … Csalódottan … született Az apostol)."
+        },
+        {
+          "field": "work:sandor-petofi--janos-vitez.significance",
+          "claim": "이후 헝가리의 아동물·무대 각색이 반복해 돌아오는 원천이 되었다",
+          "resolution": "corrected",
+          "evidence": "'구조가 이후 헝가리의 아동물·무대 각색이 반복해 돌아오는 원천이 되었다'를 교정문대로 '이 이야기로부터 노래극·인형극·애니메이션·록 오페라가 만들어졌다'로 바꿨다."
+        }
+      ]
+    }
+  ]
+}

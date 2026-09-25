@@ -1,0 +1,704 @@
+{
+  "id": "edgar-allan-poe",
+  "page": "https://literary-planet.pages.dev/authors/edgar-allan-poe/",
+  "author": {
+    "names": {
+      "ko": "에드거 앨런 포",
+      "original": "Edgar Allan Poe",
+      "aliases": []
+    },
+    "birthYear": 1809,
+    "deathYear": 1849,
+    "activeRange": [
+      1827,
+      1849
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "poetry",
+      "essay-criticism"
+    ],
+    "importanceReason": "단편은 한자리에서 읽혀 하나의 효과로 수렴해야 한다는 원리를 1842년 호손 『두 번 들려준 이야기』 서평에서 명시하고, 「구성의 철학」에서는 「도래까마귀」의 분량과 후렴과 어휘를 어떤 순서로 계산했는지를 역순으로 서술했다. 뒤팽이 나오는 세 편에서는 아마추어 추론가, 그를 기록하는 둔한 화자, 논리로 되짚는 해결이라는 부품을 한 세트로 갖춘 이야기를 만들었고, 「모르그가의 살인」에서는 그 위에 밀실이 얹힌다. 이 두 가지가 근대 단편소설의 형식과 추리 장르의 골격이 되었다.",
+    "readingEntry": "edgar-allan-poe--the-fall-of-the-house-of-usher",
+    "readingEntryReason": "짧고 사건이 하나뿐이라 한자리에서 읽히며, 그가 말한 '단일한 효과'가 어떻게 작동하는지 이 한 편으로 확인된다.",
+    "readingOrder": [
+      "edgar-allan-poe--the-fall-of-the-house-of-usher",
+      "edgar-allan-poe--the-murders-in-the-rue-morgue",
+      "edgar-allan-poe--the-raven",
+      "edgar-allan-poe--the-philosophy-of-composition",
+      "edgar-allan-poe--arthur-gordon-pym"
+    ],
+    "readingWarning": "『낸터킷의 아서 고든 핌의 이야기』로 시작하면 항해 기록 문체의 장광설과 갑작스러운 결말 때문에, 그의 단편이 가진 밀도를 만나기 전에 지친다.",
+    "difficulty": 2,
+    "difficultyReason": "단편은 짧고 사건이 선명하지만, 19세기 미국 산문의 만연체와 라틴어·고전 인용, 화자의 과장된 어조가 속도를 늦춘다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--poetry-foundation",
+      "src--library-of-america"
+    ]
+  },
+  "works": [
+    {
+      "id": "edgar-allan-poe--the-murders-in-the-rue-morgue",
+      "titleKo": "모르그가의 살인",
+      "titleOriginal": "The Murders in the Rue Morgue",
+      "year": 1841,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "밀실 살인, 아마추어 추론가 뒤팽, 그를 기록하는 둔한 화자, 논리로 되짚는 해결이라는 배치가 한 편 안에 모두 갖춰진 이야기.",
+      "sourceIds": []
+    },
+    {
+      "id": "edgar-allan-poe--the-philosophy-of-composition",
+      "titleKo": "구성의 철학",
+      "titleOriginal": "The Philosophy of Composition",
+      "year": 1846,
+      "yearBasis": "first-print",
+      "genre": "essay-criticism",
+      "significance": "「도래까마귀」를 어떤 순서로 계산해 썼는지를 역순으로 설명한 에세이. 분량, 효과, 후렴의 선택을 공학처럼 서술해 창작을 영감이 아닌 설계로 놓는다.",
+      "sourceIds": []
+    },
+    {
+      "id": "edgar-allan-poe--arthur-gordon-pym",
+      "titleKo": "낸터킷의 아서 고든 핌의 이야기",
+      "titleOriginal": "The Narrative of Arthur Gordon Pym of Nantucket",
+      "year": 1838,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "항해 기록의 문체를 따라가다 남극의 흰 형상 앞에서 문장이 끊기는 장편. 쥘 베른이 속편을 썼고 러브크래프트가 그 결말을 이어받았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "edgar-allan-poe--the-fall-of-the-house-of-usher",
+      "titleKo": "어셔가의 몰락",
+      "titleOriginal": "The Fall of the House of Usher",
+      "year": 1839,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "집과 거주자의 붕괴를 하나의 이미지로 포개는 단편. 사건이 하나뿐이라 짧고, 한자리에서 끝까지 읽힌다.",
+      "sourceIds": []
+    },
+    {
+      "id": "edgar-allan-poe--the-raven",
+      "titleKo": "도래까마귀",
+      "titleOriginal": "The Raven",
+      "year": 1845,
+      "yearBasis": "attested",
+      "genre": "poetry",
+      "significance": "'Nevermore'라는 후렴의 반복만으로 화자의 상태를 단계적으로 무너뜨리는 시. 발표 직후 대중적 성공을 거두어 그의 이름을 알렸다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--edgar-allan-poe--bernard-werber",
+      "type": "documented_influence",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "bernard-werber (베르나르 베르베르)",
+      "evidenceLevel": "documented",
+      "summary": "베르베르는 공식 웹사이트의 자전 연보 「Biographie détaillée」에서 1970년에 쓴 세 번째 단편 「Les enquêtes de Taupin」(8쪽)을 불가능해 보이는 밀실 살인에 논리적 해답을 찾는 첫 작업으로 소개하고, 그 영향으로 에드거 앨런 포를 적었다.",
+      "sourceIds": [
+        "src--werber-biographie-detaillee"
+      ]
+    },
+    {
+      "id": "affinity--edgar-allan-poe--keigo-higashino",
+      "type": "affinity",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "keigo-higashino (히가시노 게이고)",
+      "evidenceLevel": "editorial_inference",
+      "summary": "비교문학 연구자 호리에 다마키는 논문 「東野圭吾とエドガー・アラン・ポー」(『大阪府立大学紀要』 60권, 2012)에서 비교문학의 시각으로는 히가시노에게서 란포보다 포의 자질이 보인다고 보고, 『超・殺人事件』의 인물이 밀실을 고안한 이는 포라며 「모르그 가의 살인」을 드는 대목과 『숙명』의 쌍둥이 형제의 반목을 포의 「윌리엄 윌슨」에 잇대어 읽었다. 같은 연구자는 「東野圭吾と猫」(2016)에서 히가시노 추리소설 속 고양이를 포의 「검은 고양이」에 견주었다.",
+      "sourceIds": [
+        "src--horie-higashino-poe-2012",
+        "src--horie-higashino-neko-2016"
+      ]
+    },
+    {
+      "id": "translation--edgar-allan-poe--charles-baudelaire",
+      "type": "translation",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "charles-baudelaire (샤를 보들레르)",
+      "evidenceLevel": "documented",
+      "summary": "보들레르는 『기이한 이야기들』(1856)과 『새로운 기이한 이야기들』(1857)로 포를 프랑스어로 옮기고 「에드거 포, 그의 생애와 작품」을 서문으로 붙여, 프랑스어권에서 포가 읽히는 방식을 결정했다.",
+      "sourceIds": [
+        "src--baudelaire-histoires-extraordinaires-1856"
+      ]
+    },
+    {
+      "id": "influence--edgar-allan-poe--arthur-conan-doyle",
+      "type": "documented_influence",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "arthur-conan-doyle (아서 코넌 도일)",
+      "evidenceLevel": "documented",
+      "summary": "코넌 도일은 『마법의 문을 지나』(1907)에서 포를 단편의 스승으로 꼽았고, 『주홍색 연구』(1887) 1부 2장 본문에서는 홈스가 뒤팽을 깎아내리게 함으로써 자신이 무엇을 이어받았는지 작품 안에 새겼다.",
+      "sourceIds": [
+        "src--doyle-through-the-magic-door-1907"
+      ]
+    },
+    {
+      "id": "influence--edgar-allan-poe--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "documented",
+      "summary": "도스토옙스키는 형 미하일이 낸 잡지 『시대』(1861)의 편집을 맡아 포의 단편 세 편을 싣고 직접 서문을 붙여, 환상이 아니라 세부의 정확성으로 밀고 가는 포의 방법을 짚었다.",
+      "sourceIds": [
+        "src--dostoevsky-vremya-poe-preface-1861"
+      ]
+    },
+    {
+      "id": "influence--edgar-allan-poe--jorge-luis-borges",
+      "type": "documented_influence",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "jorge-luis-borges (호르헤 루이스 보르헤스)",
+      "evidenceLevel": "documented",
+      "summary": "보르헤스는 1978년 6월 16일 벨그라노 대학 강연 「추리 이야기」(1979년 『보르헤스 구술』, Emecé 수록)에서 뒤팽을 '그들 모두의 첫째, 모델, 원형'으로 놓고 홈스와 브라운 신부로 이어지는 계보를 정리했으며, 추리소설이 만들어 낸 '의심하며 읽는 독자'를 장르 자체의 전제로 삼았다.",
+      "sourceIds": [
+        "src--borges-el-cuento-policial-1978"
+      ]
+    },
+    {
+      "id": "influence--edgar-allan-poe--agatha-christie",
+      "type": "documented_influence",
+      "from": "edgar-allan-poe (에드거 앨런 포)",
+      "to": "agatha-christie (애거사 크리스티)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세우고(42쪽), 크리스티를 1920–30년대 황금기 퍼즐 미스터리의 대표로 다룬다(93–122쪽). 둘을 한 대목에서 직접 잇지는 않지만, 뒤팽 이야기가 세운 배치 — 괴짜 탐정, 범속한 화자, 봉인된 문제 — 를 황금기가 규칙으로 굳혔다는 것이 이 장르사의 틀이고, 시먼스는 크리스티의 데뷔작을 인물에 대한 감정적 관여를 허용하지 않는 퍼즐로 평한다.",
+      "sourceIds": [
+        "src--symons-bloody-murder"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "6202551b391b",
+      "where": "author.facts",
+      "text": "에드거 앨런 포(Edgar Allan Poe) · 1809–1849 · en · north-america",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "313083f88157",
+      "where": "author.importanceReason",
+      "text": "단편은 한자리에서 읽혀 하나의 효과로 수렴해야 한다는 원리를 1842년 호손 『두 번 들려준 이야기』 서평에서 명시하고, 「구성의 철학」에서는 「도래까마귀」의 분량과 후렴과 어휘를 어떤 순서로 계산했는지를 역순으로 서술했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "99e9316a7d60",
+      "where": "author.importanceReason",
+      "text": "뒤팽이 나오는 세 편에서는 아마추어 추론가, 그를 기록하는 둔한 화자, 논리로 되짚는 해결이라는 부품을 한 세트로 갖춘 이야기를 만들었고, 「모르그가의 살인」에서는 그 위에 밀실이 얹힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dd1ff6343028",
+      "where": "author.importanceReason",
+      "text": "이 두 가지가 근대 단편소설의 형식과 추리 장르의 골격이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fc43f4498e3c",
+      "where": "author.readingEntryReason",
+      "text": "짧고 사건이 하나뿐이라 한자리에서 읽히며, 그가 말한 '단일한 효과'가 어떻게 작동하는지 이 한 편으로 확인된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c311800c46b9",
+      "where": "author.readingWarning",
+      "text": "『낸터킷의 아서 고든 핌의 이야기』로 시작하면 항해 기록 문체의 장광설과 갑작스러운 결말 때문에, 그의 단편이 가진 밀도를 만나기 전에 지친다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5131d539d3cc",
+      "where": "author.difficultyReason",
+      "text": "단편은 짧고 사건이 선명하지만, 19세기 미국 산문의 만연체와 라틴어·고전 인용, 화자의 과장된 어조가 속도를 늦춘다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "535ce483e09d",
+      "where": "work:edgar-allan-poe--the-murders-in-the-rue-morgue.facts",
+      "text": "『모르그가의 살인』(The Murders in the Rue Morgue) · 1841 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d41a48d57661",
+      "where": "work:edgar-allan-poe--the-murders-in-the-rue-morgue.significance",
+      "text": "밀실 살인, 아마추어 추론가 뒤팽, 그를 기록하는 둔한 화자, 논리로 되짚는 해결이라는 배치가 한 편 안에 모두 갖춰진 이야기.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ee6b448860c2",
+      "where": "work:edgar-allan-poe--the-philosophy-of-composition.facts",
+      "text": "『구성의 철학』(The Philosophy of Composition) · 1846 first-print · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8ef582d4ab47",
+      "where": "work:edgar-allan-poe--the-philosophy-of-composition.significance",
+      "text": "「도래까마귀」를 어떤 순서로 계산해 썼는지를 역순으로 설명한 에세이.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6a2d2e2a9675",
+      "where": "work:edgar-allan-poe--the-philosophy-of-composition.significance",
+      "text": "분량, 효과, 후렴의 선택을 공학처럼 서술해 창작을 영감이 아닌 설계로 놓는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5a770eeaf87e",
+      "where": "work:edgar-allan-poe--arthur-gordon-pym.facts",
+      "text": "『낸터킷의 아서 고든 핌의 이야기』(The Narrative of Arthur Gordon Pym of Nantucket) · 1838 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f77bcf694377",
+      "where": "work:edgar-allan-poe--arthur-gordon-pym.significance",
+      "text": "항해 기록의 문체를 따라가다 남극의 흰 형상 앞에서 문장이 끊기는 장편.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9cf7cd8efba3",
+      "where": "work:edgar-allan-poe--arthur-gordon-pym.significance",
+      "text": "쥘 베른이 속편을 썼고 러브크래프트가 그 결말을 이어받았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9e056efcf8af",
+      "where": "work:edgar-allan-poe--the-fall-of-the-house-of-usher.facts",
+      "text": "『어셔가의 몰락』(The Fall of the House of Usher) · 1839 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f6af85ca9a1e",
+      "where": "work:edgar-allan-poe--the-fall-of-the-house-of-usher.significance",
+      "text": "집과 거주자의 붕괴를 하나의 이미지로 포개는 단편.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "758dff9ff2de",
+      "where": "work:edgar-allan-poe--the-fall-of-the-house-of-usher.significance",
+      "text": "사건이 하나뿐이라 짧고, 한자리에서 끝까지 읽힌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9feaeb901af6",
+      "where": "work:edgar-allan-poe--the-raven.facts",
+      "text": "『도래까마귀』(The Raven) · 1845 · poetry",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7536e5316684",
+      "where": "work:edgar-allan-poe--the-raven.significance",
+      "text": "'Nevermore'라는 후렴의 반복만으로 화자의 상태를 단계적으로 무너뜨리는 시.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e8d80e23378c",
+      "where": "work:edgar-allan-poe--the-raven.significance",
+      "text": "발표 직후 대중적 성공을 거두어 그의 이름을 알렸다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "03930f271d40",
+      "where": "relation:translation--edgar-allan-poe--charles-baudelaire.facts",
+      "text": "에드거 앨런 포 → 샤를 보들레르 · translation · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "15f5b6f85de1",
+      "where": "relation:translation--edgar-allan-poe--charles-baudelaire.summary",
+      "text": "보들레르는 『기이한 이야기들』(1856)과 『새로운 기이한 이야기들』(1857)로 포를 프랑스어로 옮기고 「에드거 포, 그의 생애와 작품」을 서문으로 붙여, 프랑스어권에서 포가 읽히는 방식을 결정했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "aeb510b25bd2",
+      "where": "relation:influence--edgar-allan-poe--arthur-conan-doyle.facts",
+      "text": "에드거 앨런 포 → 아서 코넌 도일 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ebb93f01d54f",
+      "where": "relation:influence--edgar-allan-poe--arthur-conan-doyle.summary",
+      "text": "코넌 도일은 『마법의 문을 지나』(1907)에서 포를 단편의 스승으로 꼽았고, 『주홍색 연구』(1887) 1부 2장 본문에서는 홈스가 뒤팽을 깎아내리게 함으로써 자신이 무엇을 이어받았는지 작품 안에 새겼다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "014c661d4581",
+      "where": "relation:influence--edgar-allan-poe--fyodor-dostoevsky.facts",
+      "text": "에드거 앨런 포 → 표도르 도스토옙스키 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "48f26b679a31",
+      "where": "relation:influence--edgar-allan-poe--fyodor-dostoevsky.summary",
+      "text": "도스토옙스키는 형 미하일이 낸 잡지 『시대』(1861)의 편집을 맡아 포의 단편 세 편을 싣고 직접 서문을 붙여, 환상이 아니라 세부의 정확성으로 밀고 가는 포의 방법을 짚었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "139bf58b5891",
+      "where": "relation:influence--edgar-allan-poe--jorge-luis-borges.facts",
+      "text": "에드거 앨런 포 → 호르헤 루이스 보르헤스 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a66bb5af0aac",
+      "where": "relation:influence--edgar-allan-poe--jorge-luis-borges.summary",
+      "text": "보르헤스는 1978년 6월 16일 벨그라노 대학 강연 「추리 이야기」(1979년 『보르헤스 구술』, Emecé 수록)에서 뒤팽을 '그들 모두의 첫째, 모델, 원형'으로 놓고 홈스와 브라운 신부로 이어지는 계보를 정리했으며, 추리소설이 만들어 낸 '의심하며 읽는 독자'를 장르 자체의 전제로 삼았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "38e055b84b2c",
+      "where": "relation:influence--edgar-allan-poe--agatha-christie.facts",
+      "text": "에드거 앨런 포 → 애거사 크리스티 · documented_influence · directed · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6735dfaca455",
+      "where": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+      "text": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세우고(42쪽), 크리스티를 1920–30년대 황금기 퍼즐 미스터리의 대표로 다룬다(93–122쪽).",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a4eeb5cc963a",
+      "where": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+      "text": "둘을 한 대목에서 직접 잇지는 않지만, 뒤팽 이야기가 세운 배치 — 괴짜 탐정, 범속한 화자, 봉인된 문제 — 를 황금기가 규칙으로 굳혔다는 것이 이 장르사의 틀이고, 시먼스는 크리스티의 데뷔작을 인물에 대한 감정적 관여를 허용하지 않는 퍼즐로 평한다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "포는 1842년 호손 『두 번 들려준 이야기』 서평에서 단편이 한자리에서 읽혀 하나의 효과로 수렴해야 한다는 원리를 명시했다",
+      "verdict": "confirmed",
+      "url": "https://www.eapoe.org/works/criticsm/gm542hn1.htm",
+      "quote": "the unity of effect or impression is a point of the greatest importance... cannot be thoroughly preserved... whose perusal cannot be completed at one sitting",
+      "note": "Graham's Magazine, May 1842, pp. 298-300 (4월·5월 2회 서평의 5월분)."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "「구성의 철학」은 「갈까마귀」의 분량·후렴·어휘를 계산한 순서를 역순(결말에서 거슬러)으로 서술한다",
+      "verdict": "confirmed",
+      "url": "https://www.eapoe.org/works/essays/philcomp.htm",
+      "quote": "every plot, worth the name, must be elaborated to its dénouement before any thing be attempted with the pen",
+      "note": "같은 글에서 분량('a hundred and eight'), 후렴('Nevermore'), 어조 선택 순서를 차례로 서술한다."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "뒤팽이 나오는 이야기는 세 편이며 화자는 이름 없는 동반자다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/C._Auguste_Dupin",
+      "quote": "He reappears in \"The Mystery of Marie Rogêt\" (1842) and \"The Purloined Letter\" (1844)... the unnamed narrator of all three stories"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "「모르그가의 살인」에는 밀실이 얹힌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Murders_in_the_Rue_Morgue",
+      "quote": "It is also the first locked room mystery in detective fiction."
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『아서 고든 핌의 모험』은 결말이 갑작스럽다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Narrative_of_Arthur_Gordon_Pym_of_Nantucket",
+      "quote": "The novel ends abruptly as Pym and Peters continue toward the South Pole."
+    },
+    {
+      "field": "works[].year (the-murders-in-the-rue-morgue)",
+      "claim": "「모르그가의 살인」은 1841년",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Murders_in_the_Rue_Morgue",
+      "quote": "published in Graham's Magazine in 1841",
+      "note": "1841년 4월호."
+    },
+    {
+      "field": "works[].significance (the-murders-in-the-rue-morgue)",
+      "claim": "밀실, 아마추어 추론가 뒤팽, 둔한 화자, 논리로 되짚는 해결이 한 편에 모두 갖춰졌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Murders_in_the_Rue_Morgue",
+      "quote": "Poe also initiates the storytelling device where the detective announces his solution and then explains the reasoning leading up to it."
+    },
+    {
+      "field": "works[].year (the-philosophy-of-composition)",
+      "claim": "「구성의 철학」은 1846년",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Philosophy_of_Composition",
+      "quote": "The essay first appeared in the April 1846 issue of Graham's Magazine."
+    },
+    {
+      "field": "works[].titleKo (the-philosophy-of-composition)",
+      "claim": "한국어 제목 「구성의 철학」은 The Philosophy of Composition 의 옳은 옮김이다",
+      "verdict": "confirmed",
+      "url": "https://ko.wikipedia.org/wiki/%EB%8D%94_%EB%A0%88%EC%9D%B4%EB%B8%90",
+      "quote": "후속 에세이 \"작문의 철학\"(The Philosophy of Composition)",
+      "note": "한국어 위키는 「작문의 철학」을 쓰지만 「구성의 철학」도 통용되는 직역이다. 교정 불필요."
+    },
+    {
+      "field": "works[].year (arthur-gordon-pym)",
+      "claim": "『아서 고든 핌』은 1838년",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Narrative_of_Arthur_Gordon_Pym_of_Nantucket",
+      "quote": "Title page of the first book edition, Harper, New York (1838)"
+    },
+    {
+      "field": "works[].titleKo (arthur-gordon-pym)",
+      "claim": "한국어 제목 「아서 고든 핌의 모험」은 The Narrative of Arthur Gordon Pym of Nantucket 의 옳은 옮김이다",
+      "verdict": "contradicted",
+      "url": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%93%9C%EA%B1%B0_%EC%95%A8%EB%9F%B0_%ED%8F%AC",
+      "quote": "포의 유일한 장편소설 《낸터킷의 아서 고든 핌의 이야기》",
+      "correction": "낸터킷의 아서 고든 핌의 이야기",
+      "note": "원제의 'Narrative'는 '이야기/기록'이며 '모험'에 대응하는 말이 없고, 'of Nantucket'도 누락되어 있다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[].significance (arthur-gordon-pym)",
+      "claim": "쥘 베른이 속편을 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Narrative_of_Arthur_Gordon_Pym_of_Nantucket",
+      "quote": "In 1897, Verne published a sequel to The Narrative of Arthur Gordon Pym of Nantucket called An Antarctic Mystery."
+    },
+    {
+      "field": "works[].significance (arthur-gordon-pym)",
+      "claim": "러브크래프트가 그 결말을 이어받았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Narrative_of_Arthur_Gordon_Pym_of_Nantucket",
+      "quote": "whose 1936 novel At the Mountains of Madness follows similar thematic direction and borrows the cry tekeli-li"
+    },
+    {
+      "field": "works[].significance (arthur-gordon-pym)",
+      "claim": "남극의 흰 형상 앞에서 문장이 끊긴다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Narrative_of_Arthur_Gordon_Pym_of_Nantucket",
+      "quote": "a huge shrouded white figure appears before them... Here the novel ends abruptly."
+    },
+    {
+      "field": "works[].year (the-fall-of-the-house-of-usher)",
+      "claim": "「어셔가의 몰락」은 1839년",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Fall_of_the_House_of_Usher",
+      "quote": "First appearance in Burton's Gentleman's Magazine (September 1839)"
+    },
+    {
+      "field": "works[].significance (the-fall-of-the-house-of-usher)",
+      "claim": "'단일한 효과'가 가장 완전하게 실현된 예로 꼽힌다",
+      "verdict": "unverifiable",
+      "note": "absent: 이 단편을 포의 '단일한 효과' 이론이 가장 완전히 실현된 사례로 지목한 출처를 찾지 못함. 영어 위키백과 항목에는 'unity/single effect' 언급 자체가 없다.",
+      "correction": "집과 거주자의 붕괴를 하나의 이미지로 포개는 단편.",
+      "url": "https://en.wikipedia.org/wiki/The_Fall_of_the_House_of_Usher",
+      "resolution": "removed"
+    },
+    {
+      "field": "works[].year (the-raven)",
+      "claim": "「갈까마귀」는 1845년",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Raven",
+      "quote": "publication_date = January 29, 1845",
+      "note": "New York Evening Mirror, 1845년 1월 29일."
+    },
+    {
+      "field": "works[].titleKo (the-raven)",
+      "claim": "한국어 제목 「갈까마귀」는 The Raven 의 옳은 옮김이다",
+      "verdict": "contradicted",
+      "url": "https://ko.wikipedia.org/wiki/%EB%8D%94_%EB%A0%88%EC%9D%B4%EB%B8%90",
+      "quote": "갈까마귀라고 흔히 번역되지만, 갈까마귀(jackdaw)는 까마귀과에서 가장 작은 종이며… 잘못된 번역이다",
+      "correction": "도래까마귀",
+      "note": "갈까마귀는 jackdaw(Corvus dauuricus/monedula)로 raven이 아니다. 관행적으로 널리 쓰이지만 오역이라는 지적이 명시돼 있다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[].significance (the-raven)",
+      "claim": "'Nevermore'라는 후렴이 반복된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Raven",
+      "quote": "a mysterious raven that repeatedly speaks a single word: \"nevermore\""
+    },
+    {
+      "field": "works[].significance (the-raven)",
+      "claim": "발표 직후 대중적 성공을 거두어 그의 이름을 알렸다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Raven",
+      "quote": "Its publication made Poe popular in his lifetime, although it did not bring him much financial success."
+    },
+    {
+      "field": "relation summary (→ charles-baudelaire)",
+      "claim": "보들레르는 『기이한 이야기들』(1856)로 포를 프랑스어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Histoires_extraordinaires",
+      "quote": "[[Catégorie:1856]]",
+      "note": "프랑스어 위키문헌의 Histoires extraordinaires(번역: Baudelaire)는 1856년으로 분류된다."
+    },
+    {
+      "field": "relation summary (→ charles-baudelaire)",
+      "claim": "『새로운 기이한 이야기들』(1857)도 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Nouvelles_Histoires_extraordinaires",
+      "quote": "[[Catégorie:1857]]"
+    },
+    {
+      "field": "relation summary (→ charles-baudelaire)",
+      "claim": "「에드거 포, 그의 생애와 작품」을 서문으로 붙였다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikisource.org/wiki/Histoires_extraordinaires/Edgar_Poe,_sa_vie_et_ses_%C5%93uvres",
+      "quote": "Histoires extraordinaires/Edgar Poe, sa vie et ses œuvres",
+      "note": "1856년판 서문이 이 글이고, 1857년 『새로운 기이한 이야기들』의 서문은 「Notes nouvelles sur Edgar Poe」로 다른 글이다."
+    },
+    {
+      "field": "relation summary (→ arthur-conan-doyle)",
+      "claim": "코넌 도일은 『마법의 문을 지나』(1907)에서 포를 단편의 스승으로 꼽았다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/5317/pg5317.txt",
+      "quote": "Poe is, to my mind, the supreme original short story writer of all time.",
+      "note": "초판 1907년, Smith, Elder & Co. — Open Library 서지로 확인."
+    },
+    {
+      "field": "relation summary (→ arthur-conan-doyle)",
+      "claim": "『주홍색 연구』(1887)에서 홈스가 뒤팽을 깎아내린다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/cache/epub/244/pg244.txt",
+      "quote": "Now, in my opinion, Dupin was a very inferior fellow."
+    },
+    {
+      "field": "relation summary (→ fyodor-dostoevsky)",
+      "claim": "도스토옙스키는 자신이 낸 잡지 『시대』(1861)에 포의 단편을 실었다",
+      "verdict": "contradicted",
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D1%80%D0%B5%D0%BC%D1%8F_(%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB)",
+      "quote": "учредители = Михаил Достоевский | издатель = Михаил Достоевский | главный редактор = Фёдор Достоевский",
+      "correction": "도스토옙스키는 형 미하일이 낸 잡지 『시대』(1861)의 편집을 맡아 포의 단편 세 편을 싣고 직접 서문을 붙여,",
+      "note": "창간자·발행인은 형 미하일이고 표도르는 편집장이었다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation summary (→ fyodor-dostoevsky)",
+      "claim": "포의 단편 세 편을 싣고 직접 서문을 붙였다 (1861)",
+      "verdict": "confirmed",
+      "url": "https://ru.wikisource.org/wiki/%D0%A2%D1%80%D0%B8_%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%B0_%D0%AD%D0%B4%D0%B3%D0%B0%D1%80%D0%B0_%D0%9F%D0%BE%D1%8D_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)",
+      "quote": "Мы передаем читателям еще три рассказа.",
+      "note": "『Время』 1861, том I, №1, с. 230–231."
+    },
+    {
+      "field": "relation summary (→ fyodor-dostoevsky)",
+      "claim": "서문은 환상이 아니라 세부의 정확성으로 밀고 가는 포의 방법을 짚었다",
+      "verdict": "confirmed",
+      "url": "https://ru.wikisource.org/wiki/%D0%A2%D1%80%D0%B8_%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%B0_%D0%AD%D0%B4%D0%B3%D0%B0%D1%80%D0%B0_%D0%9F%D0%BE%D1%8D_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)",
+      "quote": "допустив это событие, во всем остальном совершенно верен действительности"
+    },
+    {
+      "field": "relation summary (→ jorge-luis-borges)",
+      "claim": "보르헤스는 1978년 벨그라노 대학 강연 「추리 이야기」를 했고 그것이 1979년 『보르헤스 구술』(Emecé)에 수록됐다",
+      "verdict": "confirmed",
+      "url": "https://es.wikipedia.org/wiki/Borges_oral",
+      "quote": "El libro contiene cinco conferencias dadas por Borges en la Universidad de Belgrano en 1978... “El cuento policial”",
+      "note": "발행은 Emecé와 Editorial de Belgrano 공동판(1979)이다."
+    },
+    {
+      "field": "relation summary (→ jorge-luis-borges)",
+      "claim": "그 강연이 추리 장르의 계보를 포의 뒤팽 이야기에서부터 정리하고 그 장르가 만들어 낸 독자를 자기 소설의 전제로 삼았다",
+      "verdict": "contradicted",
+      "note": "강연 전문(1978년 6월 16일자, 『Borges, oral』 1979 수록)을 확보해 통독했다. 앞 절은 확인된다 — \"el modelo, el arquetipo podemos decir, es el caballero Charles Auguste Dupin\", \"si Poe creó el relato policial, creó después el tipo de lector de ficciones policiales\", \"Nosotros, al leer una novela policial, somos una invención de Edgar Allan Poe\". 뒤 절은 텍스트에 없다: 장르가 만든 독자는 '우리 모두'에 대한 일반 진술이지 자기 소설의 전제로 제시되지 않으며, 자기 추리물(「죽음과 나침반」, 비오이 카사레스와 쓴 이시드로 파로디)에 대해서는 오히려 자신 없다고 물러선다.",
+      "correction": "1978년 6월 16일 벨그라노 대학 강연 「추리 이야기」(1979년 『보르헤스 구술』 수록)에서 뒤팽을 원형으로 삼아 셜록 홈즈·브라운 신부로 이어지는 계보를 정리하고, 포가 추리소설을 쓰면서 그 독자라는 유형까지 만들어 냈다고 말한다.",
+      "url": "https://borgestodoelanio.blogspot.com/2015/05/jorge-luis-borges-el-cuento-policial.html",
+      "quote": "He intentado el género policial alguna vez, no estoy demasiado orgulloso de lo que he hecho. Lo he llevado a un terreno simbólico",
+      "rereadAt": "2026-09-07",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation summary (→ agatha-christie)",
+      "claim": "줄리언 시먼스의 『Bloody Murder』(1972)는 실재하는 표준 장르사다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/details/bloodymurder0000unse",
+      "quote": "Bloody murder; from the detective story to the crime novel: a history (1972)"
+    },
+    {
+      "field": "relation summary (→ agatha-christie)",
+      "claim": "시먼스가 포의 뒤팽 3부작의 배치가 황금기 크리스티에서 완성형에 이르렀다고 반복해 다룬다",
+      "verdict": "unverifiable",
+      "note": "access: 스니펫 수준까지만 도달했고 논지는 확인하지 못했다. 시도한 길 — archive.org 대출본(bloodymurderfrom00symo, mortalconsequenc00symo, bloodymurder0000unse)의 search-inside 엔드포인트는 전부 'Item not available', HathiTrust 전문 검색은 curl·WebFetch 모두 403, Google Books 접근성 모드(output=html_text)는 봇월(우회하지 않음), Google Books API 는 일일 할당 0. 통한 길은 openlibrary.org/search/inside 로, 장 제목 \"The Two Strands: Godwin, Vidocq, Poe\" 를 앵커로 걸어 책 내부 구절 존재를 확인할 수 있었다(예: \"The third of the Dupin stories, The Purloined...\"). 다만 스니펫이 책당 두 개로 제한돼 크리스티와 뒤팽 배치를 잇는 문장이 있는지는 확인 불가. 측정된 방증 하나: Google Books 권내 검색 집계로 1974년 펭귄판(270쪽)에서 'Dupin' 은 8쪽, 'Rue Morgue' 5쪽, 'Christie' 20쪽, 'Poirot' 8쪽에만 나온다 — '반복해 다룬다'는 서술을 뒷받침하기 어렵다. '완성형' 귀속은 여전히 미확인이며, 원 초안의 우려(시먼스는 크리스티의 인물 조형에 비판적)는 해소되지 않았다.",
+      "correction": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 \"the undisputed father of the detective story\"로 세우고 크리스티의 『스타일스 저택의 괴사건』이 연 황금기까지 계보를 잇지만, 그것을 '완성형'으로 보지 않는다 — 황금기를 창작상의 막다른 길로 규정하고, 인용한 대로 크리스티의 데뷔작을 '퍼즐일 뿐, 인물에 대한 감정적 관여를 허용하지 않는 이야기'로 평한다.",
+      "url": "https://openlibrary.org/search/inside?q=%22The+Two+Strands%3A+Godwin%2C+Vidocq%2C+Poe%22",
+      "quote": "a puzzle story which is solely that, which permits no emotional engagement with the characters",
+      "rereadAt": "2026-09-07",
+      "resolution": "corrected"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--poetry-foundation": {
+      "id": "src--poetry-foundation",
+      "title": "Poetry Foundation — 시인 프로필",
+      "publisherOrInstitution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org",
+      "citation": "영어권·번역 소개 시인의 전기와 시사(詩史)적 평가 확인용"
+    },
+    "src--library-of-america": {
+      "id": "src--library-of-america",
+      "title": "Library of America — 작가 연보·해제",
+      "publisherOrInstitution": "Library of America",
+      "url": "https://www.loa.org",
+      "citation": "미국 작가 정본 전집의 연보·해제"
+    },
+    "src--werber-biographie-detaillee": {
+      "id": "src--werber-biographie-detaillee",
+      "title": "Bernard Werber, 「Biographie détaillée」 — 공식 웹사이트의 자전 연보",
+      "publisherOrInstitution": "bernardwerber.com (베르나르 베르베르 공식 웹사이트)",
+      "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+      "citation": "작가가 1인칭으로 쓴 연도별 자전 연보(1961–2010). 1970년 항목 ‘Influence : Edgar Allan Poe’, 1982년 항목 플로베르 『살람보』, 1997년 항목 『어린 왕자』식 구조, 1998년 항목 ‘mon Sherlock Holmes et mon docteur Watson’. 인터넷 아카이브 2015년 8월 8일 사본."
+    },
+    "src--horie-higashino-poe-2012": {
+      "id": "src--horie-higashino-poe-2012",
+      "title": "堀江珠喜, 「東野圭吾とエドガー・アラン・ポー」",
+      "publisherOrInstitution": "大阪府立大学高等教育推進機構 『大阪府立大学紀要（人文・社会科学）』",
+      "url": "https://doi.org/10.24729/00006067",
+      "citation": "60권, 2012년 3월, 23–32쪽. DOI 10.24729/00006067. 비교문학의 시각에서 히가시노에게 란포보다 포의 자질이 보인다고 논하며 「모르그 가의 살인」, 「검은 고양이」, 「윌리엄 윌슨」과 히가시노 작품을 겹쳐 읽는다."
+    },
+    "src--horie-higashino-neko-2016": {
+      "id": "src--horie-higashino-neko-2016",
+      "title": "堀江珠喜, 「東野圭吾と猫」",
+      "publisherOrInstitution": "大阪府立大学（人文・社会科学）紀要編集委員会 『大阪府立大学紀要（人文・社会科学）』",
+      "url": "https://doi.org/10.24729/00006038",
+      "citation": "64권, 2016년 3월, 63쪽~. DOI 10.24729/00006038. 탐정소설의 원조로 여겨지는 포의 대표작이 「검은 고양이」라는 데서 출발해 히가시노 추리소설 속 고양이의 쓰임을 논한다."
+    },
+    "src--baudelaire-histoires-extraordinaires-1856": {
+      "id": "src--baudelaire-histoires-extraordinaires-1856",
+      "title": "Histoires extraordinaires, traduites par Charles Baudelaire (1856)",
+      "publisherOrInstitution": "Michel Lévy frères",
+      "citation": "보들레르의 포 번역 제1권과 서문 「에드거 포, 그의 생애와 작품」 — 프랑스어권 포 수용의 1차 근거"
+    },
+    "src--doyle-through-the-magic-door-1907": {
+      "id": "src--doyle-through-the-magic-door-1907",
+      "title": "Through the Magic Door (1907)",
+      "publisherOrInstitution": "Arthur Conan Doyle / Smith, Elder & Co.",
+      "citation": "코넌 도일이 자기 서가를 순회하며 쓴 독서 에세이 — 포를 단편의 스승으로 꼽은 대목이 들어 있다"
+    },
+    "src--dostoevsky-vremya-poe-preface-1861": {
+      "id": "src--dostoevsky-vremya-poe-preface-1861",
+      "title": "«Три рассказа Эдгара Поэ» 서문 (『시대(Время)』, 1861)",
+      "publisherOrInstitution": "Ф. М. Достоевский / журнал «Время»",
+      "citation": "도스토옙스키가 자기 잡지에 포의 단편 세 편을 실으며 직접 붙인 소개문 — 러시아어권 포 수용의 1차 근거"
+    },
+    "src--borges-el-cuento-policial-1978": {
+      "id": "src--borges-el-cuento-policial-1978",
+      "title": "«El cuento policial» (강연 1978, 『Borges oral』 수록)",
+      "publisherOrInstitution": "Jorge Luis Borges / Universidad de Belgrano",
+      "citation": "보르헤스가 추리 이야기의 계보를 포에서부터 정리한 강연 — 포 수용의 1차 근거"
+    },
+    "src--symons-bloody-murder": {
+      "id": "src--symons-bloody-murder",
+      "title": "Bloody Murder: From the Detective Story to the Crime Novel",
+      "publisherOrInstitution": "Julian Symons, Faber & Faber (1972)",
+      "citation": "포의 뒤팽 3부작에서 황금기 추리소설까지의 형식사를 다루는 표준 장르사"
+    }
+  }
+}

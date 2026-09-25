@@ -1,0 +1,616 @@
+{
+  "plates": [
+    {
+      "id": "miguel-de-cervantes",
+      "claims": [
+        {
+          "sids": [
+            "73b40ae43ee1"
+          ],
+          "field": "author.facts",
+          "claim": "세르반테스는 1547년에 태어나 1616년에 죽었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241224224329/https://www.britannica.com/biography/Miguel-de-Cervantes",
+          "quote": "Miguel de Cervantes (born September 29?, 1547, Alcalá de Henares , Spain—died April 22, 1616, Madrid) was a Spanish novelist, playwright, and poet",
+          "note": "출생일은 추정이고 확실한 것은 10월 9일 세례다(같은 문서: \"He was certainly baptized on October 9.\"). 연도 1547은 유지된다."
+        },
+        {
+          "sids": [
+            "73b40ae43ee1"
+          ],
+          "field": "author.facts",
+          "claim": "원어 이름은 Miguel de Cervantes Saavedra이고 스페인(이베리아)의 작가다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "quote": "Miguel de Cervantes Saavedra (Alcalá de Henares, bautizado el 9 de octubre de 1547-Madrid, 22 de abril de 1616) fue un novelista, poeta, dramaturgo y soldado español",
+          "note": "재인용: Britannica Quick Facts 인용은 이름과 출생지(스페인)만 담고 '스페인어 작가'를 담지 못한다. 이름·국적은 es.wikipedia 첫 문장으로 옮기고, 집필 언어는 별도 주장으로 나눴다."
+        },
+        {
+          "sids": [
+            "57b7d843a819"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『돈키호테』는 기사도 소설을 탐독해 머리가 이상해진 인물이 모험을 찾아 나서는 이야기다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Originally conceived as a parody of the chivalric romances that had long been in literary vogue, it describes realistically what befalls an aging knight who, his head bemused by reading such romances, sets out on his old horse Rocinante , with his pragmatic squire, Sancho Panza , to seek adventure",
+          "note": "재인용: 원래 인용의 'such romances'가 기사도 로맨스를 가리킨다는 것이 인용 안에서 드러나도록 같은 문장 앞부분까지 넓혔다."
+        },
+        {
+          "sids": [
+            "57b7d843a819"
+          ],
+          "field": "author.importanceReason",
+          "claim": "주인공은 '노인'이다",
+          "verdict": "contradicted",
+          "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1905)/Tomo_I/Capítulo_I",
+          "quote": "Frisaba la edad de nuestro hidalgo con los cincuenta años",
+          "correction": "기사도 소설을 너무 읽은 쉰 살 가까운 향사를 들판에 내보내",
+          "note": "원문은 '쉰 살에 가까운' 향사로 적는다. Britannica도 'an aging knight'(나이 들어 가는)로만 쓴다. 검산: 이전 교정문의 '시골'은 이 인용에 없어 뺐다. '기사도 소설을 너무 읽은'은 같은 문장의 Britannica 주장이 받친다."
+        },
+        {
+          "sids": [
+            "57b7d843a819",
+            "d2d339e0150e"
+          ],
+          "field": "author.importanceReason / work:miguel-de-cervantes--don-quijote-de-la-mancha.significance",
+          "claim": "읽은 것(환상)과 보이는 것(현실)의 어긋남이 인물의 내면을 만들어 낸다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/20250114131146/https://www.britannica.com/biography/Miguel-de-Cervantes/Don-Quixote-and-critical-traditions",
+          "quote": "The split depicted within Cervantes’s characters—Don Quixote’s “reasoned unreason” for example—has sometimes been attributed to the author’s intended contrast of reality and illusion",
+          "correction": "돈키호테의 '이성적인 광기' 같은 인물 내부의 분열은 작가가 의도한 현실과 환상의 대비에서 나온 것으로 해석되기도 한다.",
+          "note": "출처는 이것을 여러 해석 가운데 하나('sometimes attributed')로만 제시한다. 페이지는 단정한다."
+        },
+        {
+          "sids": [
+            "1bfbeae723ae"
+          ],
+          "field": "author.importanceReason",
+          "claim": "2부에서는 많은 등장인물이 1부를 이미 읽은 상태다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Part 2 begins a month after the end of part 1, but many of the characters have already read that book and so know about Don Quixote."
+        },
+        {
+          "sids": [
+            "1bfbeae723ae"
+          ],
+          "field": "author.importanceReason",
+          "claim": "2부는 1부(와 위작 속편)를 작품 안에 끌어들여 1부에 대한 비판에 본문 안에서 반박한다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "En la novela se juega con diversos planos de la realidad al incluir, dentro de ella, la edición de la primera parte del Quijote y, posteriormente, la de la apócrifa Segunda parte, que los personajes han leído. Cervantes se defiende de las inverosimilitudes que se han encontrado en la primera parte"
+        },
+        {
+          "sids": [
+            "a7ff0914b721"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『돈키호테』는 (기사도 소설) 패러디로 출발했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Originally conceived as a parody of the chivalric romances that had long been in literary vogue"
+        },
+        {
+          "sids": [
+            "a7ff0914b721"
+          ],
+          "field": "author.importanceReason",
+          "claim": "이 구조가 근대 장편소설이 착오와 자의식을 다루는 '표준 문법'이 되었다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Originally conceived as a parody of the chivalric romances that had long been in literary vogue, … the novel was a great and continuing success and is considered a prototype of the modern novel",
+          "correction": "패러디로 구상된 이 작품은 근대 소설의 원형으로 평가된다.",
+          "note": "'표준 문법'을 말하는 출처는 찾지 못했다. Britannica는 '원형(prototype)'으로 평가한다고만 적는다. 검산: 교정문의 '패러디로 구상된'이 인용 안에 들도록 같은 단락 앞부분까지 넓혔다."
+        },
+        {
+          "sids": [
+            "bcfec489ba6d"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『돈키호테』의 삽화들은 각각 완결되어 있어 끊어 읽어도 된다",
+          "verdict": "contradicted",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "La primera parte supone un avance considerable en el arte de narrar. … Los hechos, sin embargo, se presentan poco entrelazados entre sí.",
+          "correction": "1부의 사건들은 서로 느슨하게 이어져 있어 끊어 읽어도 되고, 2부의 자기 인용 구조는 1부를 통과한 뒤라야 작동한다.",
+          "note": "이 서술은 1부에 대한 것이다. 같은 문서는 2부에 대해 \"los hechos se presentan amalgamados más estrechamente\"라고 적는다. 검산: 인용이 1부를 가리킨다는 것이 드러나도록 같은 단락 첫 문장까지 넓혔고, 이 인용에 없는 '2부는 더 촘촘히 엮여 있다'는 교정문에서 뺐다. 뒷절(2부의 자기 인용 구조)은 Britannica의 '2부의 많은 인물이 1부를 이미 읽었다' 주장이 받치는 독서 안내다."
+        },
+        {
+          "sids": [
+            "1de914d5a514"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『라 갈라테아』는 목가 소설이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/La_Galatea",
+          "quote": "La Galatea se suele clasificar como un libro de pastores o una novela pastoril."
+        },
+        {
+          "sids": [
+            "1de914d5a514"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『페르실레스』는 비잔틴 소설이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda",
+          "quote": "Perteneciente al género de la novela bizantina, narra el viaje de dos príncipes nórdicos"
+        },
+        {
+          "sids": [
+            "1de914d5a514"
+          ],
+          "field": "author.readingWarning",
+          "claim": "두 작품에는 목가·비잔틴 로맨스의 관습이 '그대로' 남아 있다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/20250114131146/https://www.britannica.com/biography/Miguel-de-Cervantes/Don-Quixote-and-critical-traditions",
+          "quote": "his innovative reworkings of literary forms—from the pastoral novel La Galatea and exemplary short stories to the acclaimed novel Don Quixote and his one serious attempt at romance, the posthumously published Persiles y Sigismunda",
+          "correction": "『라 갈라테아』나 『페르실레스』부터 들어가면 목가 소설과 로맨스라는 기존 형식을 고쳐 쓴 작품부터 만나게 되어, 『돈키호테』가 무엇을 겨냥했는지 알기 전에 지친다.",
+          "note": "Britannica는 두 작품을 형식의 '혁신적 재작업'으로 부르고, 『페르실레스』에 대해서는 \"sought to renovate the heroic romance of adventure and love in the manner of the Aethiopica of Heliodorus\"라고 적는다. 관습을 '그대로' 따랐다는 단정은 뒷받침되지 않는다. 검산: 이전 교정문의 '옛 형식', '비잔틴 모험 로맨스'는 이 인용에 없어 인용이 말하는 '목가 소설'·'로맨스'·'형식의 재작업'으로 좁혔다. '지친다'는 독서 판단이라 사실 주장이 아니다."
+        },
+        {
+          "sids": [
+            "9b7344fdafef"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『돈키호테』 완역본은 판본에 따라 1,000쪽 안팎이다",
+          "verdict": "contradicted",
+          "url": "https://openlibrary.org/isbn/0142437239.json",
+          "quote": "\"pagination\": \"xl,1023p. ;\", \"title\": \"The ingenious hidalgo Don Quixote de la Mancha\", \"number_of_pages\": 1023",
+          "note": "인용은 영역본 한 판본(Penguin Putnam 2003, 'translated by John Rutherford')의 쪽수 1,023만 담는다. '완역본'이라는 범위와 '판본에 따라'라는 비교는 인용에 없다. Open Library의 다른 두 레코드(ISBN 0060188707 Ecco 2003 976쪽, 9780060934347 Harper Perennial 2005 992쪽)도 다시 읽었지만 어느 것도 완역 여부를 적지 않고, 한국어 완역본 쪽수는 확인하지 못했다. 교정문 뒷부분(기사도·목가 소설의 관습)은 이 인용이 아니라 같은 문장의 다른 주장(es.wikipedia 『돈키호테』 항목의 비판 대상 문장)이 받친다.",
+          "correction": "문장과 사건 자체는 어렵지 않지만 영역본 한 판본(존 러더퍼드 역, 2003)만 해도 1,023쪽에 이르고, 겨냥하는 기사도 소설과 목가 소설의 관습을 주석으로 채워야 농담이 농담으로 읽힌다."
+        },
+        {
+          "sids": [
+            "9b7344fdafef"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『돈키호테』는 기사도 소설과 목가 소설의 관습을 겨냥한다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "Se encuentran en la obra críticas a los libros de caballerías, las novelas pastoriles y la nueva fórmula teatral creada por Lope de Vega.",
+          "note": "재인용: 원래 인용(갈라테아 항목의 '서재 분서에서 목가 소설 여러 권이 불탄다')은 목가 소설 쪽만, 그것도 겨냥이 아니라 언급만 담는다. 기사도 소설과 목가 소설 비판을 한 문장에 함께 말하는 es.wikipedia 『돈키호테』 항목 문장으로 바꿨다(각주 번호 [25]는 뺐다)."
+        },
+        {
+          "sids": [
+            "12d682498d69"
+          ],
+          "field": "work:miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda.facts",
+          "claim": "『페르실레스와 시히스문다의 고난』(Los trabajos de Persiles y Sigismunda)은 1617년 초판이 나온 소설이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda",
+          "quote": "Los trabajos de Persiles y Sigismunda, historia setentrional es la última novela de Miguel de Cervantes y su obra póstuma, publicada en Madrid en 1617."
+        },
+        {
+          "sids": [
+            "1fef6d991ece"
+          ],
+          "field": "work:miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda.significance",
+          "claim": "1616년 4월 19일자 헌사를 레모스 백작에게 남겼다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda",
+          "quote": "En la dedicatoria del prólogo de la novela, Cervantes le escribió a su benefactor don Pedro Fernández de Castro y Andrade, VII conde de Lemos, el 19 de abril de 1616, cuatro días antes de morir",
+          "note": "재인용: 원래 인용은 '무엇을' 썼는지(헌사)가 빠져 있어 같은 문장 앞부분 'En la dedicatoria del prólogo de la novela'까지 넓혔다."
+        },
+        {
+          "sids": [
+            "1fef6d991ece"
+          ],
+          "field": "work:miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda.significance",
+          "claim": "사후 이듬해(1617) 간행된 비잔틴 로맨스다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda",
+          "quote": "su obra póstuma, publicada en Madrid en 1617. Perteneciente al género de la novela bizantina"
+        },
+        {
+          "sids": [
+            "3dd44ea0df9a"
+          ],
+          "field": "work:miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda.significance",
+          "claim": "헌사는 '이미 한 발을 등자에 걸고'로 시작하는 옛 시구를 이어 죽음을 앞둔 작별을 적는다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda",
+          "quote": "En la dedicatoria del prólogo de la novela, Cervantes le escribió a su benefactor … donde se despide de la vida continuando «aquellas coplas antiguas, que fueron en su tiempo celebradas, que comienzan: Puesto ya el pie en el estribo...»",
+          "note": "재인용: 원래 인용의 'donde'가 헌사를 가리킨다는 것이 인용 안에 없어 같은 문장의 주어부까지 넓혔다."
+        },
+        {
+          "sids": [
+            "cd73d979d18d"
+          ],
+          "field": "work:miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda.significance",
+          "claim": "북유럽의 두 주인공이 순례 끝에 로마에 이르는 여정을 좇는다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda",
+          "quote": "una separación de dos jóvenes que se enamoran … Estos jóvenes son Periandro y Auristela —quienes, tras el desenlace, adoptan los nombres de Persiles y Sigismunda—, príncipes nórdicos que peregrinan por varios lugares del mundo hasta acabar en Roma",
+          "note": "재인용: 원래 인용에는 '두' 주인공이라는 수가 없어 같은 단락의 'dos jóvenes'부터 이어지게 넓혔다."
+        },
+        {
+          "sids": [
+            "cd73d979d18d"
+          ],
+          "field": "work:miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda.significance",
+          "claim": "그의 마지막 로맨스 『페르실레스』는 모험과 사랑의 영웅 로맨스를 새롭게 하려 한 작품으로, 사후 1617년에 간행되었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250119110205/https://www.britannica.com/biography/Miguel-de-Cervantes/Publication-of-Don-Quixote",
+          "quote": "The one that was published, posthumously in 1617, was his last romance, Los trabaios de Persiles y Sigismunda, historia setentrional (“The Labours of Persiles and Sigismunda: A Northern Story”). In it Cervantes sought to renovate the heroic romance of adventure and love in the manner of the Aethiopica of Heliodorus",
+          "note": "재인용: Britannica 인용은 '마지막 로맨스'와 '모험과 사랑의 영웅 로맨스'까지만 담고 '죽기 직전까지 매달렸다'는 담지 않는다. 주장을 인용이 담는 범위로 좁히고, 완성 시점(1616년 4월, 죽기 며칠 전)은 별도 주장으로 나눴다."
+        },
+        {
+          "sids": [
+            "0b39a244f45b"
+          ],
+          "field": "work:miguel-de-cervantes--ocho-comedias-y-ocho-entremeses.facts",
+          "claim": "『Ocho comedias y ocho entremeses nuevos, nunca representados』는 1615년 초판이 나온 희곡집이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikisource.org/wiki/Ocho_comedias_y_ocho_entremeses_nuevos,_nunca_representados",
+          "quote": "Ocho comedias, y ocho entremeses nuevos, nunca representados. Madrid: Viuda de Alonso Martín. 1615.",
+          "note": "재인용: 원래 인용은 위키 마크업(?action=raw)이라 렌더된 문서에는 그 글자대로 없다. 렌더된 '판본' 목록의 같은 서지로 바꿨다."
+        },
+        {
+          "sids": [
+            "3fa80f9a8fe2"
+          ],
+          "field": "work:miguel-de-cervantes--ocho-comedias-y-ocho-entremeses.significance",
+          "claim": "상연되지 못한 희곡과 막간극을 묶어 낸 책이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "quote": "Cervantes reunió sus obras no representadas en Ocho comedias y ocho entremeses nunca representados"
+        },
+        {
+          "sids": [
+            "57775b53137b"
+          ],
+          "field": "work:miguel-de-cervantes--ocho-comedias-y-ocho-entremeses.significance",
+          "claim": "「살라망카의 동굴」이 이 책에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/La_cueva_de_Salamanca",
+          "quote": "La cueva de Salamanca es un entremés escrito por Miguel de Cervantes, publicado originalmente en 1615 en una colección que se llama Ocho comedias y ocho entremeses nuevos, nunca representados"
+        },
+        {
+          "sids": [
+            "57775b53137b"
+          ],
+          "field": "work:miguel-de-cervantes--ocho-comedias-y-ocho-entremeses.significance",
+          "claim": "「경이의 무대」가 이 책에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/El_retablo_de_las_maravillas",
+          "quote": "El «Retablo de las maravillas» es uno de los ocho entremeses escritos por Miguel de Cervantes y Saavedra y publicados en el tomo Ocho comedias y ocho entremeses nuevos, nunca representados, de 1615."
+        },
+        {
+          "sids": [
+            "57775b53137b"
+          ],
+          "field": "work:miguel-de-cervantes--ocho-comedias-y-ocho-entremeses.significance",
+          "claim": "막간극은 극작가 세르반테스가 가장 뛰어났던 장르로 꼽힌다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "quote": "Como dramaturgo Cervantes sobresalió en un género: el entremés"
+        },
+        {
+          "sids": [
+            "4c1940fe9a0c"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.facts",
+          "claim": "원제는 El ingenioso hidalgo Don Quijote de la Mancha다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "Publicada su primera parte con el título de El ingenioso hidalgo don Quijote de la Mancha a comienzos de 1605",
+          "note": "이것은 1부의 제목이다. 2부는 \"Segunda parte del ingenioso caballero don Quijote de la Mancha\"(1615)다."
+        },
+        {
+          "sids": [
+            "4c1940fe9a0c"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.facts",
+          "claim": "연도 1605의 근거는 집필 기간(composition-range)이다",
+          "verdict": "contradicted",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "El ingenioso hidalgo don Quijote de la Mancha, publicada con fecha de 1605, aunque impresa en diciembre de 1604, momento en que ya debió poder leerse en Valladolid,​ y la Segunda parte del ingenioso caballero don Quijote de la Mancha, publicada en 1615.",
+          "correction": "1605–1615 · first-print (1부 1605, 2부 1615) · fiction",
+          "note": "1605는 집필 기간이 아니라 1부의 간행 표기 연도(실제 인쇄는 1604년 12월)이고, 작품 레코드가 2부까지 다루므로 단일 연도 1605도 범위와 맞지 않는다."
+        },
+        {
+          "sids": [
+            "4c1940fe9a0c"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.facts",
+          "claim": "장르는 소설이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "Don Quijote de la Mancha​ es una novela escrita por el español Miguel de Cervantes Saavedra."
+        },
+        {
+          "sids": [
+            "ba9fa65d6929"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.significance",
+          "claim": "1부(1605)와 2부(1615)로 나뉜다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Don Quixote , novel published in two parts (part 1, 1605, and part 2, 1615)"
+        },
+        {
+          "sids": [
+            "ba9fa65d6929"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.significance",
+          "claim": "2부의 인물들은 1부를 이미 읽은 상태로 등장해 주인공의 명성을 안다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "many of the characters have already read that book and so know about Don Quixote"
+        },
+        {
+          "sids": [
+            "ba9fa65d6929"
+          ],
+          "field": "work:miguel-de-cervantes--don-quijote-de-la-mancha.significance",
+          "claim": "2부에서 위작 속편이 화제가 된다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241229032828/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "After learning that a false sequel to the book about him says that he traveled to Zaragoza , Don Quixote decides to avoid that city and go instead to Barcelona .",
+          "note": "위작은 1614년 알론소 페르난데스 데 아베야네다 명의 속편(Britannica: \"the publication in 1614 of a spurious sequel by someone calling himself Alonso Fernández de Avellaneda\")."
+        },
+        {
+          "sids": [
+            "47ecdbe27046"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.facts",
+          "claim": "『라 갈라테아』(La Galatea)는 1585년 초판이 나온 소설이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/La_Galatea",
+          "quote": "La Galatea es una novela de Miguel de Cervantes publicada en 1585 en Alcalá de Henares con el título de Primera parte de La Galatea, dividida en seis libros."
+        },
+        {
+          "sids": [
+            "1299e21ae774"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "그의 첫 장편 소설이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "quote": "publicando su primera novela, La Galatea, en 1585"
+        },
+        {
+          "sids": [
+            "1299e21ae774"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "목가 소설의 관습을 '그대로' 따랐다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/20241206145037/https://www.britannica.com/biography/Miguel-de-Cervantes/Civil-servant-and-writer",
+          "quote": "his first published fiction , La Galatea (1585; Galatea: A Pastoral Romance ), in the newly fashionable genre of the pastoral romance",
+          "correction": "당시 새로 유행하던 목가 로맨스 장르로 발표한 첫 소설.",
+          "note": "Britannica의 다른 절은 이 작품을 형식의 \"innovative reworkings\" 가운데 하나로 꼽는다. '관습을 그대로 따랐다'는 단정은 출처가 없다. 검산: 인용은 'first published fiction'이라 교정문의 '첫 장편'을 '발표한 첫 소설'로 좁혔다."
+        },
+        {
+          "sids": [
+            "424e73f70e83"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "후속편을 약속했으나 쓰지 못했다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/La_Galatea",
+          "quote": "Pero nunca se publicó la varias veces prometida segunda parte. … Pero no hay datos reales de la producción de esta obra, solo anuncios que no se cumplieron.",
+          "note": "재인용: 원래 인용('la intención de publicar la segunda parte')은 '약속'을 담지 않는다. 같은 문서에서 '여러 번 약속된 2부가 끝내 나오지 않았고 집필했다는 실제 자료도 없다'는 단락으로 바꿨다."
+        },
+        {
+          "sids": [
+            "424e73f70e83"
+          ],
+          "field": "work:miguel-de-cervantes--la-galatea.significance",
+          "claim": "『돈키호테』 1부의 서재 검열 장면에서 '저자 자신에 의해' 언급된다",
+          "verdict": "contradicted",
+          "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1905)/Tomo_I/Capítulo_VI",
+          "quote": "—La Galatea, de Miguel de Cervantes, dijo el barbero. —Muchos años ha que es grande amigo mío ese Cervantes, y sé que es más versado en desdichas que en versos. Su libro tiene algo de buena invención; propone algo y no concluye nada; es menester esperar la segunda parte, que promete; … y, entretanto que esto se ve, tenelde recluso en vuestra posada, señor compadre.",
+          "correction": "후속편을 약속했으나 쓰지 못했고, 『돈키호테』 1부 6장의 서재 검열 장면에서 등장인물들이 '오랜 친구 세르반테스'의 책으로 이 작품을 집어 들고, 약속된 2부를 기다려 보자며 불태우지 않고 따로 두게 한다.",
+          "note": "장면은 1부 6장에서 확인된다. 다만 언급하는 사람은 저자가 아니라 신부와 이발사이고, 저자는 등장인물의 입을 빌려 자기 책을 언급한다. 검산: 이전 교정문의 '불태우지 않고 남겨 둔다'는 이전 인용에 없어 같은 대사 끝('tenelde recluso en vuestra posada')까지 넓혔다. 말하는 사람이 신부라는 것은 인용 안에 이름으로 나오지 않아 교정문에서 '신부'를 뺐다. '1부 6장'은 인용 문서 자체(Tomo I, Capítulo VI)다."
+        },
+        {
+          "sids": [
+            "e82b0f3250b8"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.facts",
+          "claim": "『모범소설집』(Novelas ejemplares)은 1613년 초판이 나온 소설집이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "Las novelas ejemplares de honestísimo entretenimiento, conocidas simplemente como Novelas ejemplares, son una serie de novelas cortas que Miguel de Cervantes escribió entre 1590 y 1612, y que publicaría en 1613 en una colección impresa en Madrid por Juan de la Cuesta",
+          "note": "재인용: 원래 인용은 관계절('que Miguel de Cervantes escribió…')부터 시작해 주어(『모범소설집』)가 빠져 있어 같은 문장 처음부터 넓혔다."
+        },
+        {
+          "sids": [
+            "920ba3f93e30"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "열두 편의 짧은 소설 모음이다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "Se trata de doce novelas cortas que siguen el modelo establecido en Italia."
+        },
+        {
+          "sids": [
+            "0822fa83f2a7"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "「린코네테와 코르타디요」와 「유리 학사」가 이 소설집에 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "Son los relatos más conocidos: Rinconete y Cortadillo, El licenciado Vidriera, La gitanilla, El coloquio de los perros o La ilustre fregona."
+        },
+        {
+          "sids": [
+            "0822fa83f2a7"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "이 소설집은 이탈리아식 노벨라의 틀을 따른다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "Cervantes se jactaba en el prólogo de haber sido el primero en escribir en español este tipo de novelas al estilo italiano"
+        },
+        {
+          "sids": [
+            "0822fa83f2a7"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "「린코네테와 코르타디요」는 세비야의 뒷골목을 무대로 삼는다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Novelas_ejemplares",
+          "quote": "hasta que van a parar en Sevilla, donde mientras trabajan de esportilleros son captados por una asociación mafiosa de malhechores, una especie de sindicato del crimen sevillano"
+        },
+        {
+          "sids": [
+            "0822fa83f2a7"
+          ],
+          "field": "work:miguel-de-cervantes--novelas-ejemplares.significance",
+          "claim": "「유리 학사」도 세비야의 뒷골목·관료 사회를 무대로 삼는다",
+          "verdict": "contradicted",
+          "url": "https://es.wikipedia.org/wiki/El_licenciado_Vidriera",
+          "quote": "Después de ser envenenado queda totalmente loco convencido de que su cuerpo era de vidrio y como tal podría quebrarse fácilmente. Su curioso delirio lo hizo famoso hasta el punto de llegar a la corte ya que como loco decía grandes verdades convencionalmente no aceptadas por la sociedad",
+          "correction": "세비야 범죄 조직을 그린 「린코네테와 코르타디요」, 자기 몸이 유리로 되었다고 믿으며 궁정에까지 이름이 나 사회가 받아들이지 않는 진실을 말하는 학사의 「유리 학사」처럼 이탈리아식 노벨라의 틀을 따른 작품들이 들어 있다.",
+          "note": "「유리 학사」의 무대는 살라망카·이탈리아·플랑드르와 궁정이고 세비야가 아니다(같은 문서: \"Dos estudiantes encuentran, en las orillas del río Tormes, a un niño de once años llamado Tomás Rodaja … El niño pretendía encontrar en Salamanca un amo\"). '관료 사회'를 무대로 한다는 출처는 찾지 못했다. 검산: 이전 교정문의 '유리로 되었다고 믿는 학사가 사회를 풍자'는 이전 인용(살라망카 도입부)에 없어, 인용을 그 내용을 담는 같은 문서의 인물 단락으로 바꿨다. 「린코네테」의 세비야 범죄 조직과 이탈리아식 노벨라 틀은 같은 문장의 다른 주장(『모범소설집』 항목)이 받친다."
+        },
+        {
+          "sids": [
+            "f645078783d2",
+            "f9b9a6843bdd"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--gustave-flaubert.summary",
+          "claim": "플로베르는 루이즈 콜레에게 보낸 편지에서 글을 읽기 전부터 외우던 책 『돈키호테』에서 자기 기원을 모두 찾는다고 썼다 (세르반테스→플로베르 영향의 1차 문헌 근거)",
+          "verdict": "confirmed",
+          "url": "https://flaubert.univ-rouen.fr/qui-%C3%A9tait-flaubert/chronologies-de-la-vie-de-flaubert/chronologie-d%C3%A9taill%C3%A9e/",
+          "quote": "« Je retrouve toutes mes origines dans le livre que je savais par cœur avant de savoir lire, Don Quichotte » (à Louise Colet, 19 juin 1852).",
+          "note": "재인용: 원래 인용(루앙대 서간 본문, Wayback)에는 수신인이 없고 수신인은 편지 표제에만 있다. 인용문과 수신인·날짜를 한 자리에 적는 루앙대 플로베르 센터의 상세 연보로 바꿨다. 원래 서간 페이지(https://web.archive.org/web/20190101000000id_/http://flaubert.univ-rouen.fr/correspondance/conard/lettres/52e.html)에서도 본문과 'À Louise Colet. [Croisset.] Samedi [12 juin 1852.] [Pléiade : 19 juin 1852]' 표제를 다시 확인했다."
+        },
+        {
+          "sids": [
+            "f2f52b1775e3"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--fyodor-dostoevsky.summary",
+          "claim": "도스토옙스키는 『작가의 일기』에서 『돈키호테』를 인간의 천재가 만든 가장 슬픈 책으로 꼽았다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikisource.org/wiki/Дневник_писателя._1877_год_(Достоевский)/Сентябрь/ГЛАВА_ВТОРАЯ_I",
+          "quote": "знакомство с этой величайшей и самой грустной книгой из всех, созданных гением человека",
+          "note": "『작가의 일기』 1877년 9월, 제2장 I."
+        },
+        {
+          "sids": [
+            "f2f52b1775e3"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--fyodor-dostoevsky.summary",
+          "claim": "그 대목은 인간의 가장 높은 아름다움과 선함이 인류의 조롱거리가 되는 문제를 말한다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikisource.org/wiki/Дневник_писателя._1877_год_(Достоевский)/Сентябрь/ГЛАВА_ВТОРАЯ_I",
+          "quote": "Укажет на то что величайшая красота человека, величайшая чистота его целомудрие, простодушие, незлобивость, мужество и, наконец, величайший ум — всё это нередко (увы так часто даже) обращается ни во что, проходит без пользы для человечества и даже обращается в посмеяние человечеством",
+          "note": "재인용: 원래 인용은 'всё это'로 시작해 무엇이 조롱거리가 되는지(아름다움·순결·소박함·악의 없음 등)가 빠져 있어 같은 문장 앞부분까지 넓혔다."
+        },
+        {
+          "sids": [
+            "40f8b5463b3d",
+            "f2f52b1775e3"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--fyodor-dostoevsky.summary",
+          "claim": "도스토옙스키는 선한 인물이 우스워지는 돈키호테의 문제를 자기 소설(『백치』)의 과제로 옮겼다 (세르반테스→도스토옙스키 영향의 문헌 근거)",
+          "verdict": "confirmed",
+          "url": "https://ru.wikisource.org/wiki/«Положительно-прекрасный_человек»_у_Достоевского_(Мочульский)",
+          "quote": "Главная мысль романа („Идиот“) — изобразить положительно-прекрасного человека. … Из прекрасных лиц в литературе христианской стоит всего законченнее Дон-Кихот; но он прекрасен единственно потому, что в то же время и смешон.",
+          "note": "1868년 1월 1일 S. A. 이바노바 앞 편지(모출스키의 인용). 이 근거는 『작가의 일기』(1877)가 아니라 그보다 앞선 편지다. 페이지 문장은 두 사실을 한 문장에 이어 쓴다."
+        },
+        {
+          "sids": [
+            "625d5ff8d7fd"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--jorge-luis-borges.summary",
+          "claim": "「피에르 메나르, 『돈키호테』의 저자」는 1939년 5월 『수르』에 처음 실렸다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Pierre_Menard,_autor_del_Quijote",
+          "quote": "«Pierre Menard , autor del Quijote» es un relato del escritor argentino Jorge Luis Borges publicado originalmente en mayo de 1939 en la revista Sur"
+        },
+        {
+          "sids": [
+            "050f053bb71b",
+            "625d5ff8d7fd"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--jorge-luis-borges.summary",
+          "claim": "이 작품은 세르반테스 본문을 글자 그대로 다른 시대에 다시 쓴다는 설정이다 (세르반테스→보르헤스 영향의 문헌 근거)",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Pierre_Menard,_autor_del_Quijote",
+          "quote": "Pierre Menard es un oscuro escritor francés recientemente fallecido, cuyo mayor logro fue escribir, en el siglo XX, los capítulos noveno y trigésimo octavo de la primera parte del Quijote, y un fragmento del capítulo veintidós. Los capítulos son iguales, en cada palabra y cada coma, a los escritos originalmente por Cervantes.",
+          "note": "재인용: 원래 인용은 '글자 그대로'만 담고 '다른 시대에'를 담지 않는다. 20세기의 프랑스 작가가 썼다는 앞 문장까지 넓혔다."
+        },
+        {
+          "sids": [
+            "d4517385b170"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "「평가절하된 세르반테스의 유산」은 『소설의 기술』의 첫 부가 되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Art_of_the_Novel",
+          "quote": "In 1983, Kundera wrote \"The Depreciated Legacy of Cervantes,\" which later became the first part of The Art of the Novel.",
+          "note": "재인용: 인용은 1986년을 담지 않는다(연도는 같은 문서 첫 문장). 주장에서 연도를 떼어 별도 주장으로 나눴다."
+        },
+        {
+          "sids": [
+            "d4517385b170"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "쿤데라는 유럽 소설의 역사를 '평가절하된 세르반테스의 유산'으로 규정한다",
+          "verdict": "contradicted",
+          "url": "https://www.tumblr.com/lazenby/2595964796/the-depreciated-legacy-of-cervantes",
+          "quote": "The sequence of discoveries (not the sum of what was written) is what constitutes the history of the European novel.",
+          "correction": "쿤데라는 『소설의 기술』(1986)의 첫 부 「평가절하된 세르반테스의 유산」에서 유럽 소설의 역사를 발견의 연쇄로 규정하고, 자신은 '평가절하된 세르반테스의 유산' 말고는 어디에도 매여 있지 않다고 쓴다.",
+          "note": "'평가절하된 세르반테스의 유산'은 글의 제목이자 쿤데라 자신의 귀속 선언이고, 유럽 소설사에 대한 정의는 '발견의 연쇄'다. 인용문은 영역본 본문을 옮겨 놓은 텀블러 게시물에서 가져왔다(원서·출판사판은 읽지 못함). 검산: 교정문 가운데 이 인용이 받치는 것은 '유럽 소설의 역사를 발견의 연쇄로 규정'이다. 첫 부의 제목은 en.wikipedia 주장, 1986년은 새로 나눈 연도 주장, '세르반테스의 유산 말고는 어디에도 매여 있지 않다'는 같은 게시물의 다른 주장이 받친다."
+        },
+        {
+          "sids": [
+            "328a2f6600ee",
+            "d4517385b170"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "쿤데라는 자기 소설관을 세르반테스의 유산 위에 세운다 (세르반테스→쿤데라 영향의 문헌 근거)",
+          "verdict": "confirmed",
+          "url": "https://www.tumblr.com/lazenby/2595964796/the-depreciated-legacy-of-cervantes",
+          "quote": "My answer is as ridiculous as it is sincere: I am attached to nothing but the depreciated legacy of Cervantes.",
+          "note": "영역본 본문을 옮긴 2차 게시물이다. 원서는 archive.org에서 대출 제한으로 열리지 않았다(접근 대기: https://archive.org/details/artofnovel0000kund_o1o3). 검산: 인용은 게시물 본문 끝에서 그대로 확인했다. 출판사판이나 원서 대조는 이번에도 하지 못했다."
+        },
+        {
+          "sids": [
+            "73b40ae43ee1"
+          ],
+          "field": "author.facts",
+          "claim": "세르반테스는 스페인어(카스티야어)로 쓴 작가다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Miguel_de_Cervantes",
+          "quote": "Lengua literaria Castellano",
+          "note": "추가: 원래 주장 1이 담던 '스페인어 작가'를 받치는 인용. es.wikipedia 인물 정보 상자의 '문학 언어' 칸."
+        },
+        {
+          "sids": [
+            "cd73d979d18d"
+          ],
+          "field": "work:miguel-de-cervantes--los-trabajos-de-persiles-y-sigismunda.significance",
+          "claim": "세르반테스는 『페르실레스』를 죽기 며칠 전인 1616년 4월에 끝냈다(마지막까지 붙들고 있던 작품이다)",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Los_trabajos_de_Persiles_y_Sigismunda",
+          "quote": "Cervantes terminó la novela en abril de 1616, pocos días antes de su muerte.",
+          "note": "추가: 원래 주장 20에서 떼어 낸 완성 시점."
+        },
+        {
+          "sids": [
+            "d4517385b170"
+          ],
+          "field": "relation:influence--miguel-de-cervantes--milan-kundera.summary",
+          "claim": "『소설의 기술』은 1986년 작이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Art_of_the_Novel",
+          "quote": "The Art of the Novel (French: L'Art du roman) is a 1986 essay about European literature by Milan Kundera",
+          "note": "추가: 원래 주장 49에서 떼어 낸 연도."
+        }
+      ]
+    }
+  ],
+  "check": {
+    "kept": 27,
+    "requoted": 14,
+    "downgraded": 1,
+    "added": 3,
+    "noClaimConverted": 0
+  }
+}

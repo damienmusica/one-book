@@ -1,0 +1,522 @@
+{
+  "id": "antoine-de-saint-exupery",
+  "page": "https://literary-planet.pages.dev/authors/antoine-de-saint-exupery/",
+  "author": {
+    "names": {
+      "ko": "앙투안 드 생텍쥐페리",
+      "original": "Antoine de Saint-Exupéry",
+      "aliases": []
+    },
+    "birthYear": 1900,
+    "deathYear": 1944,
+    "activeRange": [
+      1929,
+      1944
+    ],
+    "languages": [
+      "fr"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism"
+    ],
+    "importanceReason": "우편 비행사로서 사막과 밤하늘에서 본 것을 글로 옮겨 비행을 문학의 경험으로 만들었고, 망명지에서 쓴 『어린 왕자』를 남긴 뒤 정찰 비행에서 돌아오지 않았다. 항로·기상·기체라는 직업의 언어를 그대로 쓰면서 의무와 동료애로 인간을 재는 산문을 만들었고, 사르트르는 『문학이란 무엇인가』에서 그를 헤밍웨이와 나란히 놓아 사물을 묘사하는 대신 행위 속에 담그는 서술의 이름으로 삼았다. 『어린 왕자』는 그 주제를 아이도 읽을 수 있는 우화로 압축해 수백 개 언어로 옮겨졌다.",
+    "readingEntry": "antoine-de-saint-exupery--le-petit-prince",
+    "readingEntryReason": "한 시간이면 읽히고 이미 익숙하지만, 사막·불시착·길들임이라는 그의 평생 주제가 여기 가장 단순한 문장으로 모여 있어 이후 비행 산문을 읽는 열쇠가 된다.",
+    "readingOrder": [
+      "antoine-de-saint-exupery--le-petit-prince",
+      "antoine-de-saint-exupery--vol-de-nuit",
+      "antoine-de-saint-exupery--terre-des-hommes",
+      "antoine-de-saint-exupery--pilote-de-guerre"
+    ],
+    "readingWarning": "『어린 왕자』를 삽화 있는 아동서로만 읽고 덮으면, 같은 사막과 같은 불시착이 『인간의 대지』의 실제 조난 기록에서 다시 나온다는 것을 놓친다.",
+    "difficulty": 2,
+    "difficultyReason": "문장은 짧고 명료하지만 비행 산문에는 항로·기상·기체의 용어가 그대로 나오고, 사건 대신 명상적 단상이 이어지는 구간이 있어 줄거리를 좇는 독법으로는 중간에 지루해지기 쉽다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--odaert-saint-exupery-ecrivain"
+    ]
+  },
+  "works": [
+    {
+      "id": "antoine-de-saint-exupery--courrier-sud",
+      "titleKo": "남방 우편기",
+      "titleOriginal": "Courrier Sud",
+      "year": 1929,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "툴루즈–다카르 항로를 배경으로 한 데뷔 소설. 비행 임무와 사랑의 실패를 겹쳐 놓은 초기 문체에 니체 독서의 흔적이 남아 있다.",
+      "sourceIds": []
+    },
+    {
+      "id": "antoine-de-saint-exupery--pilote-de-guerre",
+      "titleKo": "전투 조종사",
+      "titleOriginal": "Pilote de guerre",
+      "year": 1942,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "1940년 아라스 정찰 비행을 1인칭으로 기록한 책. 패전의 한복판에서 무의미한 임무를 수행하며 개인의 책임을 묻는 그의 산문이 가장 긴장된 형태로 나타난다.",
+      "sourceIds": []
+    },
+    {
+      "id": "antoine-de-saint-exupery--le-petit-prince",
+      "titleKo": "어린 왕자",
+      "titleOriginal": "Le Petit Prince",
+      "year": 1943,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "뉴욕 망명 중에 쓰고 직접 그린 우화. 사막에 불시착한 조종사와 어린 왕자의 대화 안에 길들임·책임·상실이라는 그의 주제가 가장 단순한 문장으로 놓여 있다.",
+      "sourceIds": []
+    },
+    {
+      "id": "antoine-de-saint-exupery--terre-des-hommes",
+      "titleKo": "인간의 대지",
+      "titleOriginal": "Terre des hommes",
+      "year": 1939,
+      "yearBasis": "attested",
+      "genre": "essay-criticism",
+      "significance": "항로·조난·사막 체험을 이어 붙인 산문집. 1935년 리비아 사막 불시착과 사흘의 갈증이 기록돼 있고, 그 장면이 뒤에 『어린 왕자』의 배경으로 돌아온다.",
+      "sourceIds": []
+    },
+    {
+      "id": "antoine-de-saint-exupery--vol-de-nuit",
+      "titleKo": "야간비행",
+      "titleOriginal": "Vol de nuit",
+      "year": 1931,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "야간 우편 항로의 책임자 리비에르와 실종된 조종사를 통해 임무와 개인의 행복을 맞세운 소설. 앙드레 지드의 서문과 함께 나와 페미나상을 받았다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--antoine-de-saint-exupery--bernard-werber",
+      "type": "documented_influence",
+      "from": "antoine-de-saint-exupery (앙투안 드 생텍쥐페리)",
+      "to": "bernard-werber (베르나르 베르베르)",
+      "evidenceLevel": "documented",
+      "summary": "베르베르는 자전 연보에서 『여행의 책』(Le Livre du voyage, 1997)이 생텍쥐페리 『어린 왕자』식 구조를 빌리되, 허구의 인물 대신 독자를 이야기 한가운데 두고 책이 독자에게 직접 말을 거는 실험이었다고 적었다.",
+      "sourceIds": [
+        "src--werber-biographie-detaillee"
+      ]
+    },
+    {
+      "id": "translation--antoine-de-saint-exupery--jon-fosse",
+      "type": "translation",
+      "from": "antoine-de-saint-exupery (앙투안 드 생텍쥐페리)",
+      "to": "jon-fosse (욘 포세)",
+      "evidenceLevel": "documented",
+      "summary": "포세는 『어린 왕자』를 프랑스어에서 뉘노르스크로 옮겨 원작자의 삽화와 함께 『Den vesle prinsen』(Samlaget, 2020)으로 냈다. 출판사 소개는 이 책이 이 번역으로 마침내 뉘노르스크판을 얻었다고 적는다.",
+      "sourceIds": [
+        "src--fosse-trans-saint-exupery-vesle-prinsen-2020",
+        "src--fosse-nobel-bio-bibliography-2023"
+      ]
+    },
+    {
+      "id": "influence--antoine-de-saint-exupery--jean-paul-sartre",
+      "type": "documented_influence",
+      "from": "antoine-de-saint-exupery (앙투안 드 생텍쥐페리)",
+      "to": "jean-paul-sartre (장폴 사르트르)",
+      "evidenceLevel": "documented",
+      "summary": "사르트르는 『문학이란 무엇인가』(1947)에서 '그의 뒤에, 헤밍웨이의 뒤에 우리가 어떻게 묘사를 생각할 수 있겠는가'라고 반문하며 생텍쥐페리의 이름을 헤밍웨이와 같은 자리에 놓았다. 문헌으로 남은 것은 같은 『상황 II』 안의 몇 문장에 그치는 공개적 인정이고, 서술 방법이 어떻게 옮겨 갔는지를 보여 주는 기록은 아니다.",
+      "sourceIds": [
+        "src--sartre-quest-ce-que-la-litterature"
+      ]
+    },
+    {
+      "id": "influence--friedrich-nietzsche--antoine-de-saint-exupery",
+      "type": "documented_influence",
+      "from": "friedrich-nietzsche (프리드리히 니체)",
+      "to": "antoine-de-saint-exupery (앙투안 드 생텍쥐페리)",
+      "evidenceLevel": "documented",
+      "summary": "생텍쥐페리는 1926년 11월 편지에 '니체를 옆구리에 끼고 다닌다, 이 사람을 한없이 사랑한다'고 적었다. 올리비에 오데르의 『Saint-Exupéry écrivain』(2018)은 『남방 우편기』와 『성채』의 가치·고귀함 어법을 그 독서와 연결해 다룬다.",
+      "sourceIds": [
+        "src--odaert-saint-exupery-ecrivain"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "434881068d64",
+      "where": "author.facts",
+      "text": "앙투안 드 생텍쥐페리(Antoine de Saint-Exupéry) · 1900–1944 · fr · western-europe",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d67de78eadc7",
+      "where": "author.importanceReason",
+      "text": "우편 비행사로서 사막과 밤하늘에서 본 것을 글로 옮겨 비행을 문학의 경험으로 만들었고, 망명지에서 쓴 『어린 왕자』를 남긴 뒤 정찰 비행에서 돌아오지 않았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d2a08046da68",
+      "where": "author.importanceReason",
+      "text": "항로·기상·기체라는 직업의 언어를 그대로 쓰면서 의무와 동료애로 인간을 재는 산문을 만들었고, 사르트르는 『문학이란 무엇인가』에서 그를 헤밍웨이와 나란히 놓아 사물을 묘사하는 대신 행위 속에 담그는 서술의 이름으로 삼았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c262b6b42278",
+      "where": "author.importanceReason",
+      "text": "『어린 왕자』는 그 주제를 아이도 읽을 수 있는 우화로 압축해 수백 개 언어로 옮겨졌다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1b89af377862",
+      "where": "author.readingEntryReason",
+      "text": "한 시간이면 읽히고 이미 익숙하지만, 사막·불시착·길들임이라는 그의 평생 주제가 여기 가장 단순한 문장으로 모여 있어 이후 비행 산문을 읽는 열쇠가 된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e5089641b78f",
+      "where": "author.readingWarning",
+      "text": "『어린 왕자』를 삽화 있는 아동서로만 읽고 덮으면, 같은 사막과 같은 불시착이 『인간의 대지』의 실제 조난 기록에서 다시 나온다는 것을 놓친다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "df3d9918bbb6",
+      "where": "author.difficultyReason",
+      "text": "문장은 짧고 명료하지만 비행 산문에는 항로·기상·기체의 용어가 그대로 나오고, 사건 대신 명상적 단상이 이어지는 구간이 있어 줄거리를 좇는 독법으로는 중간에 지루해지기 쉽다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "44c609ee3567",
+      "where": "work:antoine-de-saint-exupery--courrier-sud.facts",
+      "text": "『남방 우편기』(Courrier Sud) · 1929 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4ceb1245807b",
+      "where": "work:antoine-de-saint-exupery--courrier-sud.significance",
+      "text": "툴루즈–다카르 항로를 배경으로 한 데뷔 소설.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f853cacfd620",
+      "where": "work:antoine-de-saint-exupery--courrier-sud.significance",
+      "text": "비행 임무와 사랑의 실패를 겹쳐 놓은 초기 문체에 니체 독서의 흔적이 남아 있다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e51a3ff4fa65",
+      "where": "work:antoine-de-saint-exupery--pilote-de-guerre.facts",
+      "text": "『전투 조종사』(Pilote de guerre) · 1942 · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "60a24a25c3c9",
+      "where": "work:antoine-de-saint-exupery--pilote-de-guerre.significance",
+      "text": "1940년 아라스 정찰 비행을 1인칭으로 기록한 책.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bd0b9385c48e",
+      "where": "work:antoine-de-saint-exupery--pilote-de-guerre.significance",
+      "text": "패전의 한복판에서 무의미한 임무를 수행하며 개인의 책임을 묻는 그의 산문이 가장 긴장된 형태로 나타난다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e3639d9858b4",
+      "where": "work:antoine-de-saint-exupery--le-petit-prince.facts",
+      "text": "『어린 왕자』(Le Petit Prince) · 1943 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "59f9f93e4934",
+      "where": "work:antoine-de-saint-exupery--le-petit-prince.significance",
+      "text": "뉴욕 망명 중에 쓰고 직접 그린 우화.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "676cfe999d98",
+      "where": "work:antoine-de-saint-exupery--le-petit-prince.significance",
+      "text": "사막에 불시착한 조종사와 어린 왕자의 대화 안에 길들임·책임·상실이라는 그의 주제가 가장 단순한 문장으로 놓여 있다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7b632241232e",
+      "where": "work:antoine-de-saint-exupery--terre-des-hommes.facts",
+      "text": "『인간의 대지』(Terre des hommes) · 1939 · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1633e0a71cf1",
+      "where": "work:antoine-de-saint-exupery--terre-des-hommes.significance",
+      "text": "항로·조난·사막 체험을 이어 붙인 산문집.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1ba86875bc5d",
+      "where": "work:antoine-de-saint-exupery--terre-des-hommes.significance",
+      "text": "1935년 리비아 사막 불시착과 사흘의 갈증이 기록돼 있고, 그 장면이 뒤에 『어린 왕자』의 배경으로 돌아온다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "778de842a0fa",
+      "where": "work:antoine-de-saint-exupery--vol-de-nuit.facts",
+      "text": "『야간비행』(Vol de nuit) · 1931 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "90334fd83df7",
+      "where": "work:antoine-de-saint-exupery--vol-de-nuit.significance",
+      "text": "야간 우편 항로의 책임자 리비에르와 실종된 조종사를 통해 임무와 개인의 행복을 맞세운 소설.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "911e6561f1b4",
+      "where": "work:antoine-de-saint-exupery--vol-de-nuit.significance",
+      "text": "앙드레 지드의 서문과 함께 나와 페미나상을 받았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "53e07d4ff3f5",
+      "where": "relation:influence--antoine-de-saint-exupery--jean-paul-sartre.facts",
+      "text": "앙투안 드 생텍쥐페리 → 장폴 사르트르 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5879c4b799f9",
+      "where": "relation:influence--antoine-de-saint-exupery--jean-paul-sartre.summary",
+      "text": "사르트르는 『문학이란 무엇인가』(1947)에서 '그의 뒤에, 헤밍웨이의 뒤에 우리가 어떻게 묘사를 생각할 수 있겠는가'라고 반문하며 생텍쥐페리의 이름을 헤밍웨이와 같은 자리에 놓았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "da3afa2878e3",
+      "where": "relation:influence--antoine-de-saint-exupery--jean-paul-sartre.summary",
+      "text": "문헌으로 남은 것은 같은 『상황 II』 안의 몇 문장에 그치는 공개적 인정이고, 서술 방법이 어떻게 옮겨 갔는지를 보여 주는 기록은 아니다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "949e88eba992",
+      "where": "relation:influence--friedrich-nietzsche--antoine-de-saint-exupery.facts",
+      "text": "프리드리히 니체 → 앙투안 드 생텍쥐페리 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "18775138d13a",
+      "where": "relation:influence--friedrich-nietzsche--antoine-de-saint-exupery.summary",
+      "text": "생텍쥐페리는 1926년 11월 편지에 '니체를 옆구리에 끼고 다닌다, 이 사람을 한없이 사랑한다'고 적었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "539e7c701080",
+      "where": "relation:influence--friedrich-nietzsche--antoine-de-saint-exupery.summary",
+      "text": "올리비에 오데르의 『Saint-Exupéry écrivain』(2018)은 『남방 우편기』와 『성채』의 가치·고귀함 어법을 그 독서와 연결해 다룬다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "우편 비행사로 일하며 사막과 밤하늘을 경험했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "quote": "flying between Toulouse and Dakar ... stopover manager for the Cape Juby airfield in the Spanish zone of South Morocco"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『어린 왕자』는 망명지에서 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Little_Prince",
+      "quote": "during the summer and fall of 1942 ... principally in the Long Island north-shore community of Asharoken"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "정찰 비행에서 돌아오지 않았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "quote": "On 31 July 1944 ... his ninth reconnaissance mission from an airbase on Corsica ... did not return, vanishing without a trace"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "사르트르가 『문학이란 무엇인가』에서 생텍쥐페리를 헤밍웨이와 나란히 놓았다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20251117171210/https://www.mcgill.ca/tsar/fr/bibliographie/jean-paul-sartre",
+      "quote": "Après lui [Saint-Exupéry], après Hemingway, comment pourrions-nous songer à décrire?",
+      "note": "관계문의 같은 주장이 재조회로 확정됨(TSAR 편집자 삽입 + 1949 영역본 전문) — 같은 증거를 서문 주장에 적용",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『어린 왕자』는 수백 개 언어로 옮겨졌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Little_Prince",
+      "quote": "the world's most translated non-religious book, with translations into 300 languages ... risen to 600 by November 2024"
+    },
+    {
+      "field": "readingWarning",
+      "claim": "같은 사막과 같은 불시착이 『인간의 대지』의 실제 조난 기록에서 다시 나온다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Little_Prince",
+      "quote": "The account clearly drew on Saint-Exupéry's own experience in the Sahara, an ordeal described in detail in his 1939 memoir Wind, Sand and Stars."
+    },
+    {
+      "field": "works[].significance (courrier-sud)",
+      "claim": "1929년 데뷔 소설이며 툴루즈–다카르 항로가 배경이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Courrier_sud_(novel)",
+      "quote": "Jacques Bernis is a pilot on the Latécoère lines which transport mail from Toulouse to Casablanca and Dakar"
+    },
+    {
+      "field": "works[].significance (courrier-sud)",
+      "claim": "비행 임무와 사랑의 실패를 겹쳐 놓았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Courrier_sud_(novel)",
+      "quote": "he meets Geneviève, who is married ... the existence he proposes cannot suit her, so he brings her back to her husband"
+    },
+    {
+      "field": "works[].significance (courrier-sud)",
+      "claim": "초기 문체에 니체 독서의 흔적이 남아 있다",
+      "verdict": "confirmed",
+      "url": "https://www.nietzsche-en-france.fr/publications-sur-nietzsche/a-saint-exupery",
+      "quote": "Une nette influence de Nietzsche apparaît également dans Courrier Sud et La Citadelle."
+    },
+    {
+      "field": "works[].significance (pilote-de-guerre)",
+      "claim": "1940년 아라스 정찰 비행을 1인칭으로 기록한 1942년 책이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Flight_to_Arras",
+      "quote": "condenses months of flights into a single, terrifying mission over the town of Arras",
+      "note": "1942년 Reynal & Hitchcock 간행, 정찰비행대 GR II/33 소속으로 1940년 5월 독일 침공 중 수행한 임무."
+    },
+    {
+      "field": "works[].significance (le-petit-prince)",
+      "claim": "1943년 뉴욕 망명 중에 쓰고 직접 그린 우화다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Little_Prince",
+      "quote": "first published in English and French in the United States by Reynal & Hitchcock in April 1943",
+      "note": "삽화도 본인 작(self-illustrated). 프랑스 간행은 1945년(사후)."
+    },
+    {
+      "field": "works[].significance (terre-des-hommes)",
+      "claim": "『인간의 대지』는 1939년 책이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Wind,_Sand_and_Stars",
+      "quote": "first published in France in February 1939",
+      "note": "같은 해 아카데미 프랑세즈 소설대상 수상."
+    },
+    {
+      "field": "works[].significance (terre-des-hommes)",
+      "claim": "1935년 리비아 사막 불시착과 사흘의 갈증이 기록돼 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Little_Prince",
+      "quote": "By the second and third days, they were so dehydrated ... Finally, on the fourth day, a Bedouin on a camel discovered them.",
+      "note": "1935년 12월 30일 추락, 나흘째에 구조. 위키백과 생텍쥐페리 항목은 \"stranded and dehydrated for four days\" 로 적어 '사흘'은 낮게 잡은 값이다 — '사흘을 견디고 나흘째 구조'가 더 정확하다."
+    },
+    {
+      "field": "works[].significance (vol-de-nuit)",
+      "claim": "야간 우편 항로의 책임자 리비에르와 실종된 조종사를 맞세운 1931년 소설이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Night_Flight_(novel)",
+      "quote": "Rivière is the station chief of an airline pioneering night mail flights",
+      "note": "실종 조종사는 파타고니아 항로의 파비앵."
+    },
+    {
+      "field": "works[].significance (vol-de-nuit)",
+      "claim": "앙드레 지드의 서문과 함께 나왔고 페미나상을 받았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Night_Flight_(novel)",
+      "quote": "an introduction by André Gide ... was awarded the Prix Femina for that year"
+    },
+    {
+      "field": "relations[0].summary (documented_influence antoine-de-saint-exupery → jean-paul-sartre)",
+      "claim": "『문학이란 무엇인가』는 1947년 것이다",
+      "verdict": "confirmed",
+      "url": "https://fr.wikipedia.org/wiki/Qu%27est-ce_que_la_litt%C3%A9rature_%3F",
+      "quote": "Publié pour la première fois, en plusieurs parties, à partir de 1947, dans la revue Les Temps modernes",
+      "note": "1948년 Situations II 로 묶임 — 플레이트의 (1947)과 출처 항목의 1948 은 둘 다 맞다."
+    },
+    {
+      "field": "relations[0].summary (documented_influence antoine-de-saint-exupery → jean-paul-sartre)",
+      "claim": "사르트르는 '그의 뒤에, 헤밍웨이의 뒤에 우리가 어떻게 묘사를 생각할 수 있겠는가'라고 반문하며 생텍쥐페리의 이름을 헤밍웨이와 같은 자리에 놓았다",
+      "verdict": "confirmed",
+      "url": "http://web.archive.org/web/20251117171210/https://www.mcgill.ca/tsar/fr/bibliographie/jean-paul-sartre",
+      "quote": "Après lui [Saint-Exupéry], après Hemingway, comment pourrions-nous songer à décrire?",
+      "note": "McGill 대학 연구 프로젝트 TSAR(Travaux sur les arts du roman, Jonathan Livernois 편)의 사르트르 항목이 이 문장을 인용하면서 'lui'를 [Saint-Exupéry]로 편집자 삽입 표기했다. 같은 페이지에서 두 번(본문 해설과 발췌 서지) 동일하게 표기된다. 원문의 주어는 대명사 'lui'이며 생텍쥐페리라는 이름이 그 자리에 직접 적혀 있지는 않다 — 지시 대상 확정은 이 학술 출처의 판단이다. 바로 이어지는 문장('faites-la survoler par l'aviateur')이 비행사 형상을 끌어오는 것도 이를 뒷받침한다. 판본 주의: TSAR 는 Gallimard coll. «Idées» 1948 판 p.287 로 인용한다(원장 기록의 Folio Essais 1986 Situations II p.287 과 쪽수는 같고 판본 표기가 다르다). 접근 경로: mcgill.ca 현재 URL 은 404, Wayback 2025-11-17 스냅숏으로 열람.",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "relations[0].summary (documented_influence antoine-de-saint-exupery → jean-paul-sartre)",
+      "claim": "문헌으로 남은 것은 이 한 문장의 공개적 인정뿐이다",
+      "verdict": "contradicted",
+      "url": "http://nitescence.free.fr/Critique.pdf",
+      "quote": "il a su esquisser les grands traits d'une littérature du travail et de l'outil […] il est précurseur d'une littérature de construction",
+      "correction": "문헌으로 남은 것은 같은 『상황 II』 안의 몇 문장에 그치는 공개적 인정이고, 서술 방법이 어떻게 옮겨 갔는지를 보여 주는 기록은 아니다.",
+      "note": "사르트르는 같은 권 326쪽에서 생텍쥐페리를 '건설의 문학의 선구자'로 따로 상찬한다(Sartre, Situations II, Gallimard, 1948, p.326으로 각주 표기). 따라서 '이 한 문장'이라는 한정은 틀렸다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[1].summary (documented_influence friedrich-nietzsche → antoine-de-saint-exupery)",
+      "claim": "생텍쥐페리는 1926년 11월 편지에 '니체를 옆구리에 끼고 다닌다, 이 사람을 한없이 사랑한다'고 적었다",
+      "verdict": "confirmed",
+      "url": "https://www.nietzsche-en-france.fr/publications-sur-nietzsche/a-saint-exupery",
+      "quote": "J'emporte Nietzsche sous mon bras. J'aime ce type immensément.",
+      "note": "출처 표기는 Lettres de jeunesse, Gallimard, 1953, p.77. 편지 시점도 1926년 11월로 일치."
+    },
+    {
+      "field": "relations[1].sources (src--odaert-saint-exupery-ecrivain)",
+      "claim": "올리비에 오데르의 『Saint-Exupéry écrivain』은 2018년 Presses universitaires de Louvain 간행이다",
+      "verdict": "confirmed",
+      "url": "https://pul.uclouvain.be/book/?GCOI=29303100743010",
+      "quote": "Saint-Exupéry écrivain — Olivier Odaert — Presses universitaires de Louvain, 2018",
+      "note": "부제는 'Poétique et politique de la gravité', 214쪽."
+    },
+    {
+      "field": "relations[1].summary (documented_influence friedrich-nietzsche → antoine-de-saint-exupery)",
+      "claim": "오데르의 『Saint-Exupéry écrivain』(2018)이 『남방 우편기』와 『성채』의 가치·고귀함 어법을 니체 독서와 연결해 다룬다",
+      "verdict": "confirmed",
+      "url": "https://books.google.com/books?id=R3QTEAAAQBAJ&q=Courrier+Sud+Nietzsche",
+      "quote": "Le texte de Courrier Sud porte explicitement la trace de ce compagnonnage",
+      "note": "Google Books 원문 검색(ISBN 9782875586797 → 볼륨 R3QTEAAAQBAJ)으로 2018년 책 본문을 직접 대조했다. 제2부 'Filiations' 1장 「Poétique de la valeur」(pp.107–119)가 생텍쥐페리의 니체 독서(Cap Juby 편지 «je lirai Nietzsche»)로 시작하고, p.107 이 인용문대로 『남방 우편기』 텍스트가 그 동반의 흔적을 명시적으로 지닌다고 말한다. p.111 은 『성채』에 대해 «Citadelle, dont on devine sans peine tout ce qu'elle doit à Also sprach Zarathustra» 라 하고, 같은 쪽 각주에서 2016년 논문 「La Haute Noblesse. Poétique de la valeur de Nietzsche à Saint-Exupéry」를 인용한다. p.145–146 은 『성채』가 니체를 따라 «les mots noblesse, justice, égalité, beauté» 를 재정의한다고, p.151 은 «la transmutation des valeurs chez Nietzsche et Saint-Exupéry» 를, p.153 은 «‹haute› noblesse, sa valeur» 를 다룬다. 목차(pul.uclouvain.be/book/?GCOI=29303100743010)도 3.2 'Transmutation des valeurs', 1.1 'Inversion du platonisme' 를 확인해 준다. 근거를 2016년 논문으로 교체할 필요 없음 — 2018년 책이 그 논지를 그대로 담고 있고 2016년 논문을 자기 출처로 인용한다.",
+      "rereadAt": "2026-09-07"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--odaert-saint-exupery-ecrivain": {
+      "id": "src--odaert-saint-exupery-ecrivain",
+      "title": "Saint-Exupéry écrivain",
+      "publisherOrInstitution": "Olivier Odaert, Presses universitaires de Louvain (2018)",
+      "citation": "생텍쥐페리의 글쓰기 형성과 니체 독서의 흔적을 추적한 연구 — 1926년 편지를 포함한 서한 자료를 다룬다"
+    },
+    "src--werber-biographie-detaillee": {
+      "id": "src--werber-biographie-detaillee",
+      "title": "Bernard Werber, 「Biographie détaillée」 — 공식 웹사이트의 자전 연보",
+      "publisherOrInstitution": "bernardwerber.com (베르나르 베르베르 공식 웹사이트)",
+      "url": "https://web.archive.org/web/20150808175950/http://www.bernardwerber.com:80/bio/biographie_plus.php",
+      "citation": "작가가 1인칭으로 쓴 연도별 자전 연보(1961–2010). 1970년 항목 ‘Influence : Edgar Allan Poe’, 1982년 항목 플로베르 『살람보』, 1997년 항목 『어린 왕자』식 구조, 1998년 항목 ‘mon Sherlock Holmes et mon docteur Watson’. 인터넷 아카이브 2015년 8월 8일 사본."
+    },
+    "src--fosse-trans-saint-exupery-vesle-prinsen-2020": {
+      "id": "src--fosse-trans-saint-exupery-vesle-prinsen-2020",
+      "title": "Antoine de Saint-Exupéry, 『Den vesle prinsen』 — frå fransk ved Jon Fosse (Samlaget, 2020)",
+      "publisherOrInstitution": "Det Norske Samlaget / Nasjonalbiblioteket 서지 레코드",
+      "url": "https://api.nb.no/catalog/v1/metadata/f92f3765a65c86724ce4448629ae1f76/mods"
+    },
+    "src--fosse-nobel-bio-bibliography-2023": {
+      "id": "src--fosse-nobel-bio-bibliography-2023",
+      "title": "Bio-bibliography — Jon Fosse (Anders Olsson, 2023)",
+      "publisherOrInstitution": "Nobel Prize Outreach / Svenska Akademien",
+      "url": "https://www.nobelprize.org/prizes/literature/2023/bio-bibliography/",
+      "citation": "노벨위원회 위원장 안데르스 올손의 작가 소개와 선별 서지. 베케트·베른하르트·트라클을 포세의 'Wahlverwandtschaften'으로 들고, 카프카·조이스·베케트·입센·릴케·생텍쥐페리 등의 뉘노르스크 번역을 서지에 올린다."
+    },
+    "src--sartre-quest-ce-que-la-litterature": {
+      "id": "src--sartre-quest-ce-que-la-litterature",
+      "title": "Qu'est-ce que la littérature ?",
+      "publisherOrInstitution": "Jean-Paul Sartre, 『Situations II』 수록 (Gallimard, 1948)",
+      "citation": "참여문학론의 정본. 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목한 대목과, 생텍쥐페리·헤밍웨이 이후 '묘사'가 불가능해졌다고 쓴 대목이 함께 들어 있다"
+    }
+  }
+}

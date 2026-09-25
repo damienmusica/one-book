@@ -1,0 +1,111 @@
+{
+  "fixes": [
+    {
+      "id": "jrr-tolkien",
+      "importanceReason": "톨킨은 언어와 신화를 지어 '이차 세계'를 가꾸었다. 지명·계보·연대기·부록까지 갖춘 중간계는 소설의 배경이 아니라 인용할 수 있는 문헌 체계로 제시되고, 강연을 고친 「요정 이야기에 관하여」는 그 방법을 '이차 믿음'과 회복·도피·위안이라는 개념으로 정리했다. 톨킨은 고대 영어 문헌학 연구가 자기 글쓰기에 중요했다고 인정했고, 『호빗』과 『반지의 제왕』의 큰 성공은 현대 판타지 장르의 형성으로 곧장 이어져 새 판타지 책과 작가가 쏟아지게 했다.",
+      "readingEntryReason": "300쪽 남짓 단권이고 어조가 아이에게 말하듯 명료하다. 『반지의 제왕』 1권에는 『호빗』을 읽지 않은 독자를 위한 서장이 실려 있다.",
+      "difficultyReason": "『호빗』은 평이하지만 『반지의 제왕』은 세 권 분량에 삽입 시가와 부록·연대표가 붙고, 『실마릴리온』은 단일 서사도 길잡이 호빗도 없는 신화지 문체라 고유명사 밀도가 급격히 올라간다.",
+      "works": [
+        {
+          "id": "jrr-tolkien--beowulf-the-monsters-and-the-critics",
+          "significance": "『베오울프』를 역사 사료로만이 아니라 시로 읽어야 한다고 논증한 영국 학술원 강연. 영문학 연구의 고전이자, 괴물의 중심성과 진지함을 옹호하며 그 상징적 가치를 믿는다고 밝힌 글."
+        },
+        {
+          "id": "jrr-tolkien--the-hobbit",
+          "significance": "빌보의 왕복 여정을 아동용 모험담의 어조로 서술한 첫 출간 장편. 따로 가꾸던 신화 체계 밖의 동화로 구상됐다가 『반지의 제왕』을 쓰며 그 안에 편입됐다."
+        },
+        {
+          "id": "jrr-tolkien--the-lord-of-the-rings",
+          "significance": "1954–55년에 세 권으로 나뉘어 나온 장편으로, 부록의 연대기·계보·문자 체계까지 합쳐 하나의 세계를 문헌 형태로 제시했다. 현대 판타지 장르를 만들고 형성하는 데 기여했다."
+        },
+        {
+          "id": "jrr-tolkien--the-silmarillion",
+          "significance": "톨킨 사후 아들 크리스토퍼가 유고를 편집해 낸 상고대 신화지로, 『반지의 제왕』이 이따금 암시하는 옛 이야기들의 신화 체계에서 나왔다."
+        }
+      ],
+      "dropRelations": [
+        "contrast--jrr-tolkien--umberto-eco"
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "톨킨은 언어를 먼저 만들고 그 언어가 쓰일 역사와 신화를 지었다",
+          "resolution": "narrowed",
+          "evidence": "importanceReason 첫 문장의 '언어를 먼저 만들고 그 언어가 쓰일 역사와 신화를 지어 세계를 완성해'에서 순서(먼저·그 언어가 쓰일)와 '완성'을 지우고 '톨킨은 언어와 신화를 지어 '이차 세계'를 가꾸었다'로 좁혔다. 순서는 다툼이 있다: 톨킨은 편지에서 언어가 토대라고 했지만(Languages constructed by Tolkien: \"The invention of languages is the foundation\"), 같은 문서는 피미의 반론을 싣는다(\"he was starting to think about a mythology before he started to sketch his first invented Middle-earth language, Qenya, in March 1915\"). 두 문장 모두 신화와 발명 언어를 함께 말하므로 남긴 것은 순서 없는 '언어와 신화를 지어'뿐이다. 중간계가 톨킨의 '이차 세계'라는 것은 피미 글(\"Middle-earth, the pseudo-medieval ‘secondary’ world developed over 60 years by J. R. R. Tolkien\")과 확정 주장 3. 톨킨의 자기 진술과 피미의 반론을 모두 적으면 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "톨킨의 작업이 이후 판타지가 따르게 될 '이차 세계'의 규격을 세웠다",
+          "resolution": "corrected",
+          "evidence": "'이후의 판타지가 따르게 될 '이차 세계'의 규격을 세웠다'를 지우고, 교정문을 셋째 문장에 '『호빗』과 『반지의 제왕』의 큰 성공은 현대 판타지 장르의 형성으로 곧장 이어져'로 넣었다(영어 위키백과 'J. R. R. Tolkien': \"the great success of The Hobbit and The Lord of the Rings led directly to a popular resurgence and the shaping of the modern fantasy genre\"). '대중적 부흥'은 길이 때문에 뺐다. '이차 세계'는 톨킨의 개념어(확정 주장 3)로 첫 문장에 남겼다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "톨킨 이후 판타지는 개별 이야기가 아니라 세계를 짓는 장르로 취급되었다",
+          "resolution": "corrected",
+          "evidence": "'판타지는 개별 이야기가 아니라 세계를 짓는 장르로 취급되었다'를 교정문대로 '새 판타지 책과 작가가 쏟아지게 했다'로 바꿔 주장 4의 교정과 한 절로 합쳤다(영어 위키백과 'J. R. R. Tolkien': \"ignited a profound interest in the fantasy genre and ultimately precipitated an avalanche of new fantasy books and authors\"). 같은 문장 앞절 '고대 영어 문헌학자의 훈련이 그대로 창작 원리가 된'은 확정 주장 58의 메모(\"'그대로 창작 원리가 된'만큼 강하게 말하지는 않는다\")에 따라 확정 주장 9의 범위로 좁혀 '톨킨은 고대 영어 문헌학 연구가 자기 글쓰기에 중요했다고 인정했고'로 바꿨다(\"His philological work centred on the study of Old English literature, especially Beowulf, and he acknowledged its importance to his writings\")."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "이후 장편(『반지의 제왕』)은 중간계의 지리와 종족을 아무 설명 없이 전제한다",
+          "resolution": "corrected",
+          "evidence": "'이후 장편이 아무 설명 없이 전제하는 중간계의 지리와 종족을 이야기를 따라가는 동안 익히게 된다'를 지우고 교정문대로 '『반지의 제왕』 1권에는 『호빗』을 읽지 않은 독자를 위한 서장이 실려 있다'를 넣었다(영어 위키백과 'The Fellowship of the Ring': \"The volume contains a prologue for readers who have not read The Hobbit\"). 교정문의 '이야기의 무대를 마련하는 배경 정보'는 길이 때문에 넣지 않았다. 앞 절은 '명료해서,'를 '명료하다.'로 끊었을 뿐 확정 주장 11·12·15의 범위 그대로다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 인물 대신 계보가 서술을 끌어간다",
+          "resolution": "corrected",
+          "evidence": "'인물 대신 계보가 서술을 끌어가는'을 교정문대로 '단일 서사도 길잡이 호빗도 없는'으로 바꿨다(영어 위키백과 'The Silmarillion': \"lacking a single narrative thread, and without the benefit of Hobbits as guides\"). '신화지 문체'는 확정 주장 18(\"its nature as a mythology, with multiple interrelated texts in differing styles\") 범위로 남겼고, 연대기풍·고풍·부록풍 세 문체를 다 적으면 필드가 원문보다 길어져 넣지 않았다(하나로 줄여 적지도 않았다)."
+        },
+        {
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "『베오울프』를 역사 사료가 아니라 시로 읽어야 한다고 논증한 영국 학술원 강연이다",
+          "resolution": "corrected",
+          "evidence": "'역사 사료가 아니라'를 교정문대로 '역사 사료로만이 아니라'로 바꿨다(영어 위키백과 'Beowulf: The Monsters and the Critics': \"Beowulf must be seen as a poem, not just as a historical document\"). '영국 학술원 강연'은 같은 문서의 \"initially delivered as the Sir Israel Gollancz Memorial Lecture at the British Academy on 25 November 1936\"로 남겼다. 교정문의 회보 수록 사실은 길이 때문에 넣지 않았고, 1936년은 작품 사실 줄에 있다."
+        },
+        {
+          "field": "work:jrr-tolkien--beowulf-the-monsters-and-the-critics.significance",
+          "claim": "이 글에 괴물과 운명을 이야기의 중심에 두는 톨킨 자신의 창작 원리가 드러난다",
+          "resolution": "corrected",
+          "evidence": "'괴물과 운명을 이야기의 중심에 두는 톨킨 자신의 창작 원리가 드러나는 글'을 교정문대로 '괴물의 중심성과 진지함을 옹호하며 그 상징적 가치를 믿는다고 밝힌 글'로 바꿨다(와인라이크, 뉴욕타임스 — 영어 위키백과 인용: \"Tolkien defends the centrality and seriousness of literary monsters, declaring his own belief in the symbolic value of such preternatural representations of sheer evil\"). '운명'과 '창작 원리'는 지웠다. '비평가들의 경멸에 맞서'와 평자 이름은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "중간계의 지리·종족·언어 체계를 이야기 안에 심어 두었다",
+          "resolution": "corrected",
+          "evidence": "'중간계의 지리·종족·언어 체계를 이야기 안에 심어 둔'을 지우고 교정문대로 둘째 문장 '따로 가꾸던 신화 체계 밖의 동화로 구상됐다가 『반지의 제왕』을 쓰며 그 안에 편입됐다'를 넣었다(영어 위키백과 'The Hobbit': \"initially conceived as a largely self-contained fairy-tale, separate from the complex mythology Tolkien had been developing privately. As Tolkien began work on The Lord of the Rings, however, he gradually integrated The Hobbit into his legendarium\"). '제3시대 후반'은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "work:jrr-tolkien--the-hobbit.significance",
+          "claim": "『호빗』은 톨킨의 세계가 독자에게 처음 공개된 창구다",
+          "resolution": "corrected",
+          "evidence": "'톨킨의 세계가 독자에게 처음 공개된 창구'를 교정문대로 '첫 출간 장편'으로 바꿨다(영어 위키백과 'Tolkien's legendarium': \"The Hobbit (1937), Tolkien's first published novel, was not originally part of the larger mythology but became linked to it\"). 교정문의 뒷절(신화 체계와 뒤에 이어짐)은 주장 34의 교정 문장이 담는다."
+        },
+        {
+          "field": "work:jrr-tolkien--the-lord-of-the-rings.significance",
+          "claim": "이후 판타지 장르가 참조하는 표준 규격이 되었다",
+          "resolution": "corrected",
+          "evidence": "'이후 판타지 장르가 참조하는 표준 규격이 되었다'를 교정문대로 '현대 판타지 장르를 만들고 형성하는 데 기여했다'로 바꿨다(영어 위키백과 'The Lord of the Rings': \"has helped to create and shape the modern fantasy genre\"). '가장 영향력 있는 판타지 소설 가운데 하나로 꼽히며'는 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "work:jrr-tolkien--the-silmarillion.significance",
+          "claim": "『반지의 제왕』이 노래와 지명으로만 인용하던 전설들의 원본에 해당한다",
+          "resolution": "corrected",
+          "evidence": "'『반지의 제왕』이 노래와 지명으로만 인용하던 전설들의 원본에 해당한다'를 교정문대로 '『반지의 제왕』이 이따금 암시하는 옛 이야기들의 신화 체계에서 나왔다'로 바꿨다(영어 위키백과 'Tolkien's legendarium': \"The Lord of the Rings occasionally alludes to figures and events from the legendarium … such ancient tales\"; \"Christopher chose portions of his late father's vast collection of unpublished material and shaped them into The Silmarillion\"). 앞절 '톨킨 사후 아들 크리스토퍼가 유고를 편집해 낸 상고대 신화지'는 확정 주장 45·46 그대로다. '깊이감을 주려고'와 '반쯤 연대기적이고 반쯤 완결된'은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.facts",
+          "claim": "톨킨과 에코를 대비하는 것이 학계의 합의다(contrast · scholarly_consensus)",
+          "resolution": "relation-dropped",
+          "evidence": "contrast--jrr-tolkien--umberto-eco 를 dropRelations 로 뺐다. 유형(contrast)과 근거 수준(scholarly_consensus)이 함께 무너진다: 대비가 학계 합의라는 출처는 없고, 두 사람을 함께 다룬 유일한 연구인 피미의 글은 오히려 셋이 \"‘dreamt’ of the Middle Ages in strikingly similar ways: by following the ‘rules’ of inventing a Secondary World\"라고 논한다. 선의 유일한 출처(src--eco-dreaming-of-the-middle-ages)는 에코 자신의 에세이라 두 사람의 대비를 문서화할 수 없고, 이 도구는 유형을 affinity 로 바꿀 수 없다. 톨킨 도판에는 르 귄 영향선(influence--jrr-tolkien--ursula-k-le-guin, 사실·요약 주장 모두 확정)이 남고, 에코에게는 다른 관계 5개가 남는다."
+        },
+        {
+          "field": "relation:contrast--jrr-tolkien--umberto-eco.summary",
+          "claim": "톨킨의 이차 세계는 '완결된' 세계다",
+          "resolution": "relation-dropped",
+          "evidence": "이 '완결된' 문장은 contrast--jrr-tolkien--umberto-eco 의 요약이라 주장 50의 관계 삭제(dropRelations)와 함께 쪽에서 사라진다. 피미 글도 세 작가가 \"different levels of invention, completeness, and consistency\"에 이르렀다고 적어 '완결된'을 받치지 않는다."
+        }
+      ]
+    }
+  ]
+}

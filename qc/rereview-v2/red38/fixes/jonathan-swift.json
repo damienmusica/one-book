@@ -1,0 +1,112 @@
+{
+  "fixes": [
+    {
+      "id": "jonathan-swift",
+      "importanceReason": "제안하는 사람의 목소리를 끝까지 유지한 채 아일랜드의 굶주림에 아이를 먹자고 적어, 반어를 문장이 아니라 화자 자체에 거는 방법을 끝까지 밀고 갔다. 『걸리버 여행기』는 항해기의 건조한 사실 문체를 빌려 여러 각도에서 인간을 공격한다. 소인국·거인국에서는 크기를 바꿔 인간을 우스꽝스럽게 만들고, 말의 나라에서는 이성적인 말과 인간형 야후의 자리를 뒤집는다. 오웰은 이 책을 평생 되읽고 정면으로 논한 20세기 정치 산문가로 남았다.",
+      "readingEntryReason": "1729년 더블린 초판 기준 16쪽 안에 스위프트의 방법 전체 — 끝까지 진지함을 유지하는 제안자의 목소리 — 가 들어 있어, 이후 걸리버의 화자를 읽는 눈이 여기서 만들어진다.",
+      "difficultyReason": "반어가 화자에게 걸려 있어 액면 그대로 읽으면 정반대의 뜻이 된다. 겨냥한 대상(아일랜드 경제 정책, 가톨릭·국교회·비국교도, 왕립학회)이 각주 없이는 잘 보이지 않는다.",
+      "works": [
+        {
+          "id": "jonathan-swift--the-drapiers-letters",
+          "year": 1725,
+          "significance": "포목상을 자처한 필자가 영국이 아일랜드에 강제한 동전 발행을 공격한 연속 팸플릿. 여론이 실제로 그 화폐 계획을 철회시킨 사례로 남았다."
+        },
+        {
+          "id": "jonathan-swift--a-tale-of-a-tub",
+          "genre": "essay-criticism",
+          "significance": "세 형제의 우화로 교회 분열사를 다루면서 본문만큼 긴 여담을 끼워 넣어 글쓰기 행위 자체를 풍자한다."
+        },
+        {
+          "id": "jonathan-swift--gullivers-travels",
+          "significance": "항해기의 건조한 보고 문체로 소인·거인·떠 있는 섬·말의 나라를 차례로 통과시키며 여러 각도에서 인간을 공격한다. 4부의 후이넘·야후 대비는 '인간은 이성적 동물'이라는 정의를 뒤집은 것으로 읽힌다(크레인)."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--jonathan-swift--voltaire",
+          "summary": "볼테르는 『철학편지』(1734) 제22신에서 스위프트를 '분별을 갖춘 라블레'라 불러 그의 산문을 프랑스 독자에게 소개했고, 척도를 바꿔 인간을 재는 『미크로메가스』(1752)의 장치가 그 수용과 함께 논의된다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "소인국·거인국·야후(말의 나라)가 모두 척도 변화만으로 인간의 자기 이미지를 깎아낸다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 '소인국·거인국·야후의 척도 변화만으로 인간의 자기 이미지를 반복해 깎아낸다'를 교정문대로 '여러 각도에서 인간을 공격한다. 소인국·거인국에서는 크기를 바꿔 인간을 우스꽝스럽게 만들고, 말의 나라에서는 이성적인 말과 인간형 야후의 자리를 뒤집는다'로 바꿨다(오웰: \"humanity is attacked, or criticized, from at least three different angles\", 크기 장치는 1·2부; 브리태니커: \"an ironic twist on the human-beast relationship\"). 필드가 원문보다 길어지지 않도록 교정문의 '짐승 같은'은 넣지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "이후 풍자가 무엇을 조롱하는가보다 누가 말하는가를 먼저 설계하게 되었다(스위프트 이후 풍자사의 변화)",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 앞 절 '이후 풍자는 무엇을 조롱하는가보다 누가 말하고 있는가를 먼저 설계하게 되었고'를 지웠다. 남은 '오웰은 이 책을 평생 되읽고 정면으로 논한 20세기 정치 산문가로 남았다'는 주장 10·11·12(오웰 \"I read it first when I was eight … not read it less than half a dozen times since\", 에세이 제목, 브리태니커 오웰 항목)가 받친다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "그 초판이 런던 초판이다",
+          "resolution": "corrected",
+          "evidence": "'1729년 런던 초판'을 교정문대로 '1729년 더블린 초판'으로 바꿨다(위키백과: \"published in Dublin by Sarah Harding\"). 길이 때문에 '(세라 하딩 발행)'은 넣지 않았고, 대신 '열여섯 쪽'을 같은 뜻의 '16쪽'으로 적어 필드가 길어지지 않게 했다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "스위프트의 문장은 짧고 명료하다",
+          "resolution": "narrowed",
+          "evidence": "출처를 찾지 못한 '문장은 짧고 명료하지만'을 지웠다. 남은 '반어가 화자에게 걸려 있어 액면 그대로 읽으면 정반대의 뜻이 된다'는 주장 19(\"there is a gap between the narrator's meaning and the text's\")가 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "겨냥한 대상 중 하나는 국교회의 분열이다",
+          "resolution": "corrected",
+          "evidence": "'국교회 분열'을 교정문에 따라 '가톨릭·국교회·비국교도'로 바꿨다(위키백과 『통 이야기』: \"A satire on the Roman Catholic and Anglican churches and English Dissenters\"). 교정문의 '…로 갈라진 서방 교회'는 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "work:jonathan-swift--the-drapiers-letters.facts",
+          "claim": "연도는 1724년(작성 기간 기준)",
+          "resolution": "corrected",
+          "evidence": "year 를 1724 에서 1725 로 바꿨다(yearBasis composition-range 유지). 스키마는 한 해만 담으므로 범위는 보수적 후단을 year 에 넣는 규칙(docs/canon-expansion.md §6 #3)을 따랐다. 범위 1724–25 는 브리태니커 \"Drapier's Letters (1724–25)\"와 위키백과 \"written between 1724 and 1725\"가 받친다."
+        },
+        {
+          "field": "work:jonathan-swift--the-drapiers-letters.significance",
+          "claim": "그 포목상은 더블린의 포목상이다",
+          "resolution": "narrowed",
+          "evidence": "직접 적은 문장을 찾지 못한 '더블린의'를 지워 '포목상을 자처한 필자가…'로 좁혔다. 포목상 페르소나는 주장 26(\"Swift adopted the persona of the \\\"Drapier\\\": a common Irishman, a talented and skilled draper\")이 받친다."
+        },
+        {
+          "field": "work:jonathan-swift--a-tale-of-a-tub.facts",
+          "claim": "장르는 소설(fiction)이다",
+          "resolution": "corrected",
+          "evidence": "장르를 fiction 에서 essay-criticism 으로 바꿨다. 교정문은 소설이 아니라 '산문 패러디'라 하고, 검사 메모대로 위키백과 인포박스는 \"Satirical essay\", 브리태니커는 \"prose satire\"로 적는다. 장르 목록(소설·시·희곡·에세이·비평·서사시·역사)에서 이에 맞는 것은 에세이·비평뿐이다."
+        },
+        {
+          "field": "work:jonathan-swift--a-tale-of-a-tub.significance",
+          "claim": "스위프트의 산문 중 형식적으로 가장 실험적이다",
+          "resolution": "removed",
+          "evidence": "비교 근거를 찾지 못한 문장 '스위프트의 산문 중 형식적으로 가장 실험적이다.'를 통째로 지웠다. 이 문장에는 확인할 수 있는 다른 내용이 없다."
+        },
+        {
+          "field": "work:jonathan-swift--gullivers-travels.significance",
+          "claim": "네 부 모두 척도를 바꾸는 것만으로 인간의 자기 이미지를 깎아낸다",
+          "resolution": "corrected",
+          "evidence": "첫 문장을 교정문 첫 문장 그대로 '…차례로 통과시키며 여러 각도에서 인간을 공격한다'로 바꿨다(오웰: \"humanity is attacked, or criticized, from at least three different angles\"). '척도를 바꾸는 것만으로 … 반복해 깎아낸다'는 지웠다. 크기 장치가 1·2부의 것이라는 교정문 둘째 문장은 필드가 원문보다 길어져 여기 넣지 않았다(작가 importanceReason 에 소인국·거인국의 장치로 적었다)."
+        },
+        {
+          "field": "work:jonathan-swift--gullivers-travels.significance",
+          "claim": "4부의 야후 묘사는 계몽의 인간관에 대한 반대 심문으로 읽힌다",
+          "resolution": "corrected",
+          "evidence": "'4부의 야후 묘사는 계몽의 인간관에 대한 반대 심문으로 읽힌다'를 교정문에 따라 '4부의 후이넘·야후 대비는 '인간은 이성적 동물'이라는 정의를 뒤집은 것으로 읽힌다(크레인)'로 바꿨다(위키백과: \"Homo est animal rationale … he intentionally inverted this logic by placing … horses—in the place of humans and vice versa\"). 길이 때문에 '당대 학계의 전통적'과 이름 머리글자 'R. S.'는 줄였다."
+        },
+        {
+          "field": "relation:influence--jonathan-swift--voltaire.summary",
+          "claim": "볼테르는 1734년 『철학편지』 제22신에서 『통 이야기』를 논했다",
+          "resolution": "corrected",
+          "evidence": "'『통 이야기』를 논하며'를 지워 교정문 앞 절 '볼테르는 『철학편지』(1734) 제22신에서 스위프트를 '분별을 갖춘 라블레'라 불러 프랑스 독자에게 소개했고'와 맞췄다(가르니에판 편자 주: 1734년 판은 \"dans son pays.\" 다음에 곧바로 포프 대목으로 넘어간다). 『통 이야기』 논평이 뒤의 판에서 덧붙었다는 뒤 절은 요약이 원문보다 길어져 넣지 않았다. 문서명 『철학편지』와 연도 1734·1752는 그대로다."
+        },
+        {
+          "field": "relation:contrast--jonathan-swift--daniel-defoe.facts",
+          "claim": "이 대조는 학계 통설(scholarly_consensus)이다",
+          "resolution": "pending",
+          "pendingWhere": "Michael McKeon, The Origins of the English Novel, 1600–1740 (Johns Hopkins University Press, 1987) — 관계의 출처(src--mckeon-origins-english-novel). archive.org 사본(originsofenglish0000mcke_p1i1)은 인쇄장애인 전용 대출이라 본문 검색이 막혀 있다(fulltext/inside 요청이 \"Item not available\")."
+        }
+      ]
+    }
+  ]
+}

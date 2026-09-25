@@ -1,0 +1,79 @@
+{
+  "fixes": [
+    {
+      "id": "lu-xun",
+      "works": [
+        {
+          "id": "lu-xun--ah-q-zhengzhuan",
+          "significance": "1921년 12월부터 이듬해 2월까지 신문 부간에 연재된 중편으로, 맞고도 이겼다고 기억하는 날품팔이 아Q를 통해 '정신승리법'이라는 진단명을 만들었다. 인물의 이름이 한 사회의 자기인식을 가리키는 보통명사가 되었고, 1923년 『외침』에 수록되었다."
+        },
+        {
+          "id": "lu-xun--zhongguo-xiaoshuo-shilue",
+          "significance": "베이징대학 강의를 정리한 책으로, 지괴·전기·화본·백화 장편을 하나의 계보로 배열한, 중국에서 나온 최초의 본격 소설 통사다. 천대받던 소설을 학문의 대상으로 세운 저작이며 이후 중국 소설사 연구의 기본 틀이 되었다."
+        },
+        {
+          "id": "lu-xun--panghuang",
+          "significance": "두 번째 소설집으로 「축복」, 「고독자」, 「죽음을 슬퍼하며」 등을 묶었다. 『신청년』 동인이 흩어진 뒤 루쉰 스스로 투지가 적잖이 식었다고 돌아본 시기의 작품으로, 지식인의 무력과 여성의 죽음을 다룬다."
+        },
+        {
+          "id": "lu-xun--yecao",
+          "significance": "1924–26년 『어사(語絲)』에 발표한 산문시를 묶은 산문시집으로, 꿈·그림자·묘비명 같은 형상으로 자기 사상의 어두운 면을 해부한다. 정해진 형식 없는 실험적 글쓰기로 소설과 잡문 어디에도 속하지 않는다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "translation--anton-chekhov--lu-xun",
+          "summary": "루쉰이 체호프의 초기 유머 단편 여덟 편을 옮긴 『나쁜 아이와 그 밖의 기담(壞孩子和別的奇聞)』은 1936년에 나왔다. 러시아어가 아니라 유럽어 판본을 저본으로 삼은 중역이며, 만년까지 이어진 그의 번역 작업의 마지막 국면에 속한다."
+        },
+        {
+          "id": "contrast--rabindranath-tagore--lu-xun",
+          "summary": "1924년 타고르의 중국 강연은 동양 정신문명의 옹호로 읽혔고 천두슈 등은 이를 비판하거나 반대했다. 루쉰은 1934년 잡문 「욕해 죽이기와 치켜세워 죽이기」에서 타고르를 산 신선처럼 떠받든 중국 문단 쪽을 겨냥했다. 식민지·반식민지 아시아의 두 출발점이 전통을 두고 갈라선 자리다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:lu-xun--ah-q-zhengzhuan.significance",
+          "claim": "인물 이름이 보통명사가 된 것은 드문 사례다",
+          "resolution": "narrowed",
+          "evidence": "「아Q정전」 의의 둘째 문장에서 '드문 사례이며'를 빼고 '보통명사가 되었고'로 줄였다. 남은 부분은 확정 주장(「阿Q」有逃避現實、自我安慰的精神勝利法之意)이 받친다."
+        },
+        {
+          "field": "work:lu-xun--zhongguo-xiaoshuo-shilue.significance",
+          "claim": "이 장르들은 '문언 정통' 바깥에 있었다",
+          "resolution": "narrowed",
+          "evidence": "『중국소설사략』 의의 첫 문장에서 '문언 정통 바깥에 있던'을 뺐다. 교정문의 요지(앞선 문학사가 소설을 거의 다루지 않았다)는 같은 필드 둘째 문장 '천대받던 소설을 학문의 대상으로 세운 저작이며'가 이미 싣고 있고 확정 주장(\"Before Brief History, there was little discussion of fiction in Chinese studies of literature\")이 받쳐, 겹쳐 적지 않았다."
+        },
+        {
+          "field": "work:lu-xun--panghuang.significance",
+          "claim": "계몽의 구호가 걷힌 뒤 『외침』의 공격적 어조가 자기 회의로 바뀐다",
+          "resolution": "corrected",
+          "evidence": "'계몽의 구호가 걷힌 자리에서 … 『외침』의 공격적 어조가 자기 회의로 바뀌는 지점을 보여준다'를 교정문대로 '『신청년』 동인이 흩어진 뒤 루쉰 스스로 투지가 적잖이 식었다고 돌아본 시기의 작품으로'(戰鬥的意氣卻冷得不少)로 바꿨다. 교정문의 '기법은 나아졌지만'은 길이 때문에 넣지 않았다. '지식인의 무력과 여성의 죽음'은 확정 주장이 받친다."
+        },
+        {
+          "field": "work:lu-xun--yecao.significance",
+          "claim": "꿈·그림자·묘비명 같은 형상으로 자기 부정을 밀고 나간다",
+          "resolution": "corrected",
+          "evidence": "'자기 부정을 밀고 나간다'를 교정문대로 '자기 사상의 어두운 면을 해부한다'(作者對其思想陰暗面的自我剖析)로 바꿨다. '꿈'은 같은 원장의 추가 확정 주장(共有7篇開始於「我夢見」)이 받쳐, 메모가 허용한 대로 '꿈·그림자·묘비명 같은 형상으로'를 남겼다."
+        },
+        {
+          "field": "work:lu-xun--yecao.significance",
+          "claim": "루쉰의 저작 가운데 형식이 가장 실험적이다",
+          "resolution": "corrected",
+          "evidence": "'루쉰의 저작 가운데 형식이 가장 실험적이며'를 교정문의 요지대로 '정해진 형식 없는 실험적 글쓰기로'(prose poem's very lack of any fixed form … experimental writing)로 바꿨다. '가장'이라는 비교는 뺐다. '소설과 잡문 어디에도 속하지 않는다'는 확정 주장(《野草》體裁上屬散文詩)이 받친다."
+        },
+        {
+          "field": "relation:translation--anton-chekhov--lu-xun.summary",
+          "claim": "1936년에 옮겨 『壞孩子和別的奇聞』으로 묶었다",
+          "resolution": "corrected",
+          "evidence": "'1936년 … 묶어 … 옮겼다'를 교정문의 뒷부분대로 '…을 옮긴 『나쁜 아이와 그 밖의 기담(壞孩子和別的奇聞)』은 1936년에 나왔다'(这部译文集在1936年实际出版发行)로 바꿨다. 1936년 앵커는 간행 연도로 남는다. 교정문의 편집 시점(1935년 9월)은 길이 때문에 넣지 않았다."
+        },
+        {
+          "field": "relation:contrast--rabindranath-tagore--lu-xun.summary",
+          "claim": "신문화운동 진영은 이를 정면으로 거부했다",
+          "resolution": "corrected",
+          "evidence": "'신문화운동 진영은 이를 정면으로 거부했다'를 교정문의 비판자 쪽대로 '천두슈 등은 이를 비판하거나 반대했다'(受到陈独秀…等人的批评或反对)로 바꿨다. 진영 전체의 거부라는 주장은 사라졌다. 량치차오 강학사의 초청·쉬즈모의 추진은 길이 때문에 넣지 않았다."
+        }
+      ]
+    }
+  ]
+}

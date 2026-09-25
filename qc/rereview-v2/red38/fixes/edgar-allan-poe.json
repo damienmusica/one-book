@@ -1,0 +1,148 @@
+{
+  "fixes": [
+    {
+      "id": "edgar-allan-poe",
+      "importanceReason": "단편은 한자리에서 읽혀 하나의 효과로 수렴해야 한다는 원리를 1842년 호손 『두 번 들려준 이야기』 서평에서 명시하고, 「구성의 철학」에서는 「도래까마귀」가 결말에서 시작되었다며 분량과 후렴과 어휘를 정한 순서를 서술했다. 뒤팽이 나오는 세 편에서는 아마추어 추론가, 그를 기록하는 둔한 화자, 논리로 되짚는 해결이라는 부품을 한 세트로 갖춘 이야기를 만들었고, 「모르그가의 살인」에서는 그 위에 밀실이 얹힌다. 이 두 가지가 근대 단편소설의 형식과 추리 장르의 골격이 되었다.",
+      "readingEntryReason": "짧아서 한자리에서 읽히며, 그가 말한 '단일한 효과'가 어떻게 작동하는지 이 한 편으로 확인된다.",
+      "difficultyReason": "단편은 짧고 사건이 선명하지만, 라틴어·고전 인용이 속도를 늦춘다.",
+      "works": [
+        {
+          "id": "edgar-allan-poe--the-philosophy-of-composition",
+          "significance": "「도래까마귀」를 어떤 순서로 계산해 썼다고 하는지를 설명한 에세이. 분량, 효과, 후렴의 선택을 공학처럼 서술해 창작을 영감이 아닌 설계로 놓는다."
+        },
+        {
+          "id": "edgar-allan-poe--the-fall-of-the-house-of-usher",
+          "significance": "집과 거주자의 붕괴를 하나의 이미지로 포개는 단편. 짧아서 한자리에서 끝까지 읽힌다."
+        },
+        {
+          "id": "edgar-allan-poe--the-raven",
+          "significance": "'Nevermore'라는 답을 알면서도 거듭 묻는 화자가 단계적으로 무너지는 시. 발표 직후 대중적 성공을 거두어 그의 이름을 알렸다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--edgar-allan-poe--jorge-luis-borges",
+          "summary": "보르헤스는 1978년 6월 16일 벨그라노 대학 강연 「추리 이야기」(1979년 『보르헤스 구술』 수록)에서 뒤팽을 '그들 모두의 첫째, 모델, 원형'으로 놓고 홈스와 브라운 신부로 이어지는 계보를 정리했으며, 추리소설이 만들어 낸 '의심하며 읽는 독자'를 장르 자체의 전제로 삼았다."
+        },
+        {
+          "id": "influence--edgar-allan-poe--arthur-conan-doyle",
+          "summary": "코넌 도일은 『마법의 문을 지나』(1907)에서 포를 단편의 스승으로 꼽았고, 『주홍색 연구』(1887) 1부 2장에서는 왓슨이 홈스를 뒤팽에 견주자 홈스가 뒤팽을 깎아내리게 했다."
+        },
+        {
+          "id": "influence--edgar-allan-poe--agatha-christie",
+          "summary": "줄리언 시먼스의 『Bloody Murder』(1972)는 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세우고, 황금기를 '20년대'와 '30년대' 두 장으로 다룬다. 뛰어난 탐정과 화자를 맡은 친구라는 뒤팽 이야기의 배치는 후대 탐정소설이 따랐고, 1929년 로널드 녹스가 정리한 황금기의 규칙에는 조수('왓슨')가 평균적 독자보다 아주 조금 둔해야 한다는 조항이 있다. 시먼스는 크리스티의 소설을 인물에 대한 감정적 관여를 허용하지 않는 퍼즐로 평한다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "「구성의 철학」은 계산 순서를 '역순으로' 서술한다",
+          "resolution": "corrected",
+          "evidence": "importanceReason 첫 문장 313083f88157 의 '어떤 순서로 계산했는지를 역순으로 서술했다'를 교정문대로 고쳐 '「도래까마귀」가 결말에서 시작되었다며 분량과 후렴과 어휘를 정한 순서를 서술했다'로 바꿨다. '결말에서 시작'은 인용(eapoe.org 「The Philosophy of Composition」: \"Here then the poem may be said to have its beginning — at the end, where all works of art should begin\")이, 분량·후렴·어휘를 정한 순서는 같은 sid 의 분량('a hundred and eight')·후렴('Nevermore') 주장이 받친다. 필드가 원문보다 길어지지 않도록 교정문의 '서술하면서 …라고 밝혔다'를 '…라며 … 서술했다' 한 구로 접었다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "「어셔가의 몰락」은 사건이 하나뿐이다",
+          "resolution": "narrowed",
+          "evidence": "반박된 '사건이 하나뿐'을 두 문장에서 지웠다: readingEntryReason(fc43f4498e3c) '짧고 사건이 하나뿐이라 한자리에서 읽히며' → '짧아서 한자리에서 읽히며', 「어셔가의 몰락」 의의(758dff9ff2de) '사건이 하나뿐이라 짧고, 한자리에서 끝까지 읽힌다' → '짧아서 한자리에서 끝까지 읽힌다'. 남은 '짧아서 한자리에서 읽힌다'는 확인된 주장('한자리에서 읽을 수 있는 짧은 단편', Carlson 편 Casebook 서문 \"works which can be easily read in a single sitting\")이 받친다. 교정문의 줄거리 틀(방문·저택 붕괴)은 두 필드를 원문보다 길게 만들어 넣지 않았다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "「어셔가의 몰락」은 포의 '단일한 효과'가 작동하는 방식을 보여 주는 작품으로 읽힌다",
+          "resolution": "accepted",
+          "evidence": "메모가 찾지 못했다고 한 것은 이 작품을 단일한 효과의 '가장 완전한' 예로 꼽는 출처다. 쪽은 그렇게 말하지 않는다 — readingEntryReason(fc43f4498e3c)은 \"'단일한 효과'가 어떻게 작동하는지 이 한 편으로 확인된다\"라고만 적고, 「어셔가의 몰락」 의의(f6af85ca9a1e·758dff9ff2de)에는 단일한 효과 언급이 없다. 작동 방식을 보여 준다는 데까지는 Studia Neophilologica 2023 초록(\"this essay reflects on how the unity of effect is built and maintained\")이 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "포의 산문에는 라틴어 구절이 섞여 있다",
+          "resolution": "narrowed",
+          "evidence": "메모가 평가라며 검증에서 뺀 '19세기 미국 산문의 만연체'와 '화자의 과장된 어조'를 difficultyReason(5131d539d3cc)에서 지웠다. 남은 '라틴어·고전 인용이 속도를 늦춘다'는 확인된 두 주장(「구성의 철학」의 \"ceteris paribus\", 「도래까마귀」의 \"classical references\")이 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "포의 작품은 고전 인용·암시를 쓴다",
+          "resolution": "accepted",
+          "evidence": "메모의 단서는 인용이 「도래까마귀」에 대한 기술이지 작품 전반의 통계가 아니라는 것이다. 좁힌 difficultyReason(5131d539d3cc)은 '라틴어·고전 인용이 속도를 늦춘다'고만 적어 빈도나 '모든 작품'을 말하지 않으며, 「도래까마귀」는 이 쪽의 읽기 순서에 들어 있는 작품이다."
+        },
+        {
+          "field": "work:edgar-allan-poe--the-philosophy-of-composition.significance",
+          "claim": "그 과정을 '역순으로' 설명한다",
+          "resolution": "narrowed",
+          "evidence": "「구성의 철학」 의의 8ef582d4ab47 에서 반박된 '역순으로'를 지웠다('…썼는지를 역순으로 설명한 에세이' → '…썼다고 하는지를 설명한 에세이'). 교정문 뒷부분 '시가 결말에서부터 시작되었다고 밝힌'은 필드를 원문보다 길게 만들어 여기 넣지 않았고, 같은 사실은 importanceReason 313083f88157 에 교정되어 들어갔다."
+        },
+        {
+          "field": "work:edgar-allan-poe--the-philosophy-of-composition.significance",
+          "claim": "포가 실제로 그 순서로 계산해 썼다",
+          "resolution": "corrected",
+          "evidence": "교정문의 요지대로 '어떤 순서로 계산해 썼는지를'을 '어떤 순서로 계산해 썼다고 하는지를'로 바꿔, 계산 순서를 사실이 아니라 포 자신의 설명으로 돌렸다(영어 위키백과 「The Philosophy of Composition」: \"It is uncertain if it is an authentic portrayal of Poe's own method.\"). 교정문의 '실제 창작 과정이었는지는 불확실하다'는 필드가 원문보다 길어져 따로 붙이지 않았다."
+        },
+        {
+          "field": "work:edgar-allan-poe--the-raven.significance",
+          "claim": "후렴의 반복'만으로' 화자를 무너뜨린다",
+          "resolution": "corrected",
+          "evidence": "7536e5316684 '후렴의 반복만으로 화자의 상태를 단계적으로 무너뜨리는 시'를 교정문을 줄여 \"'Nevermore'라는 답을 알면서도 거듭 묻는 화자가 단계적으로 무너지는 시\"로 바꿨다(영어 위키백과 「The Raven」: \"he continues to ask it questions, knowing what the answer will be. … before passing into a frenzy and, finally, madness.\"). 교정문 그대로는 필드가 원문보다 길어져 '대답이 되풀이되는 가운데'와 '묻기를 멈추지 않는'을 '거듭 묻는' 하나로 접었다."
+        },
+        {
+          "field": "work:edgar-allan-poe--the-raven.facts",
+          "claim": "「도래까마귀」(The Raven)는 1845년에 발표된 시다",
+          "resolution": "accepted",
+          "evidence": "다시 확인하지 않았다는 것은 '한국어 제목이 한국어 위키백과 포 항목과 일치한다'는 원 메모이고, 쪽은 그런 말을 하지 않는다 — 사실 줄 9feaeb901af6 은 『도래까마귀』(The Raven) · 1845 · poetry 로 제목만 쓴다. 제목 표기는 이 세션에서 한국어 위키백과 「에드거 앨런 포」 원문(action=raw)을 읽어 같은 표기임을 확인했다: \"〈도래까마귀〉를 쓴 방법을 설명한 소논문\"."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--jorge-luis-borges.summary",
+          "claim": "강연은 벨그라노 대학에서 했고 1979년 Emecé가 낸 『보르헤스 구술』에 실렸다",
+          "resolution": "narrowed",
+          "evidence": "메모대로 『보르헤스 구술』은 Emecé 단독이 아니라 Editorial de Belgrano 와의 공동판이므로, a66bb5af0aac 의 괄호에서 ', Emecé'를 지워 '(1979년 『보르헤스 구술』 수록)'으로 좁혔다. 강연일·장소·수록 책(1978, 1979)은 그대로다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--arthur-conan-doyle.summary",
+          "claim": "『주홍색 연구』 1부 2장에서 왓슨이 홈스를 뒤팽에 견주자 홈스가 뒤팽을 깎아내린다",
+          "resolution": "narrowed",
+          "evidence": "메모가 해석이라고 한 '자신이 무엇을 이어받았는지 작품 안에 새겼다'를 ebb93f01d54f 에서 지우고, 구텐베르크 본문 인용(\"You remind me of Edgar Allen Poe's Dupin.\" … \"Now, in my opinion, Dupin was a very inferior fellow.\")이 받치는 데까지로 좁혔다: '1부 2장에서는 왓슨이 홈스를 뒤팽에 견주자 홈스가 뒤팽을 깎아내리게 했다'. 두 책과 연도(1907, 1887)는 남았다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스는 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세운다",
+          "resolution": "narrowed",
+          "evidence": "메모가 확인하지 못했다고 한 1972년판 쪽수 '(42쪽)'을 6735dfaca455 에서 지웠다. 문장 자체는 Neuhaus(2021)가 인용한 시먼스(\"Poe was the founding father whose genius suggested the themes to be followed by other writers\")로 남는다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스는 93–122쪽에서 크리스티를 황금기 퍼즐 미스터리의 대표로 다룬다",
+          "resolution": "narrowed",
+          "evidence": "읽지 못한 '크리스티를 1920–30년대 황금기 퍼즐 미스터리의 대표로 다룬다(93–122쪽)'를 확인된 주장까지로 좁혀 '황금기를 '20년대'와 '30년대' 두 장으로 다룬다'로 바꿨다(영어 위키백과 「Golden Age of Detective Fiction」: \"Julian Symons heads two chapters devoted to the Golden Age as \"the Twenties\" and \"the Thirties\"\"). 크리스티에 대한 시먼스의 평은 마지막 문장에 남는다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스는 포와 크리스티를 한 대목에서 직접 잇지 않는다",
+          "resolution": "narrowed",
+          "evidence": "본문을 읽지 못해 확인할 수 없는 '둘을 한 대목에서 직접 잇지는 않지만'을 a4eeb5cc963a 에서 지웠다. 고친 요약은 시먼스가 둘을 잇는다고도 말하지 않는다 — 시먼스에게는 포를 창시자로 세운 문장과 크리스티 평만 돌린다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "황금기는 그 배치를 규칙으로 굳혔다(조수 화자는 독자보다 조금 둔해야 한다는 규칙 포함)",
+          "resolution": "corrected",
+          "evidence": "'뒤팽 이야기가 세운 배치 — 괴짜 탐정, 범속한 화자, 봉인된 문제 — 를 황금기가 규칙으로 굳혔다'를 교정문대로 녹스의 규칙으로 바꿨다: '1929년 로널드 녹스가 정리한 황금기의 규칙에는 조수('왓슨')가 평균적 독자보다 아주 조금 둔해야 한다는 조항이 있다'(영어 위키백과 「Golden Age of Detective Fiction」: \"codified in 1929 by Ronald Knox. … his intelligence must be slightly, but very slightly, below that of the average reader.\"). 배치 자체는 확인된 주장의 인용(\"follow Poe's model of the brilliant detective, his personal friend who serves as narrator\")에 맞춰 '뛰어난 탐정과 화자를 맡은 친구라는 뒤팽 이야기의 배치는 후대 탐정소설이 따랐고'로 적었고, 인용에 없는 '괴짜'·'봉인된 문제'는 뺐다. 교정문의 '탐정의 조수'는 필드 길이 때문에 '조수'로 줄였다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "그것이 시먼스 장르사의 틀이다",
+          "resolution": "narrowed",
+          "evidence": "본문을 읽지 못해 확인할 수 없는 '…라는 것이 이 장르사의 틀이고'를 a4eeb5cc963a 에서 지웠다. 녹스 규칙은 교정문의 출처(위키백과)로만 적고 시먼스에게 돌리지 않는다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "그 평이 크리스티의 데뷔작을 두고 한 것이다",
+          "resolution": "narrowed",
+          "evidence": "메모의 권고대로 '크리스티의 데뷔작을'을 '크리스티의 소설을'로 좁혔다. 확보한 2차 인용(『The Bloomsbury Handbook to Agatha Christie』: \"describing her work as … a puzzle story which is solely that\")은 평의 대상을 'her work'로만 적는다."
+        },
+        {
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스의 그 문장('다른 작가들이 따를 주제를 제시한 창시자')은 1972년판 42쪽에 있다",
+          "resolution": "narrowed",
+          "evidence": "메모의 권고대로 확인하지 못한 쪽수 '(42쪽)'을 6735dfaca455 에서 지웠다. 함께 걸려 있던 '(93–122쪽)'도 같은 이유로 지웠다."
+        }
+      ]
+    }
+  ]
+}

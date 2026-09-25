@@ -1,0 +1,144 @@
+{
+  "fixes": [
+    {
+      "id": "william-shakespeare",
+      "importanceReason": "그때까지 주로 인물과 사건의 정보를 전하던 독백을 인물의 마음을 탐색하는 자리로 썼다. 무운시의 행을 문장 도중에 끊고 산문과 섞어 말의 결을 바꿨고, 비극 안에 광대와 익살을 남겨 장르의 경계를 한 작품 안에서 흔들었다. 그의 작품은 이후 연극과 문학에 크고 오래가는 흔적을 남겼고, 특히 인물 형상화의 극적 가능성을 넓혔다.",
+      "readingEntryReason": "비극 가운데 가장 짧아 한자리에서 끝까지 간다.",
+      "readingWarning": "『리어 왕』부터 시작하면 복잡한 시어에 판본 차이까지 겹쳐 문장 단위에서 멈춘다.",
+      "works": [
+        {
+          "id": "william-shakespeare--hamlet",
+          "significance": "가장 긴 희곡이자, 햄릿이 독백 중 스스로 말을 끊고 자신에게 혐오나 동의를 내뱉는 장면들을 담고 있다. 사절판과 이절판의 본문 차이가 크다."
+        },
+        {
+          "id": "william-shakespeare--sonnets",
+          "significance": "154편의 연작. '아름다운 청년'과 '검은 여인'을 향한 두 묶음으로 읽히며, 새리 백작이 확립하고 대니얼·드레이턴이 이미 쓰고 있던 3사행연 + 2행 결구의 영국식 소네트를 몇 편 말고는 따른다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--william-shakespeare--victor-hugo",
+          "summary": "위고는 「크롬웰 서문」(1827)에서 숭고와 그로테스크의 혼합을 셰익스피어에게서 끌어내 시간·장소의 두 단일 규칙을 공격했고, 『윌리엄 셰익스피어』(1864)는 제목과 달리 '역대 최고의 천재들'을 다룬다."
+        },
+        {
+          "id": "influence--william-shakespeare--alexander-pushkin",
+          "summary": "푸시킨은 『보리스 고두노프』를 쓰던 1825년 7월 N. N. 라예프스키(아들)에게 쓴 편지 초고에서, 고전주의자도 낭만주의자도 '그럴듯함'에 규칙을 세웠다며 인물을 삶 그대로 말하게 하는 셰익스피어를 읽으라고 적었다."
+        },
+        {
+          "id": "influence--william-shakespeare--johann-wolfgang-von-goethe",
+          "summary": "괴테는 질풍노도 시대 셰익스피어 열광의 문서로 꼽히는 1771년 연설 「셰익스피어 명명일에」에서 프랑스 고전극의 삼일치를 버렸고, 『빌헬름 마이스터의 수업시대』의 『햄릿』 해석 장들로 그 독서를 소설에 옮겼다."
+        },
+        {
+          "id": "influence--william-shakespeare--ts-eliot",
+          "summary": "엘리엇은 『선집』(1932)에 수록된 「햄릿」에서 이 작품을 예술적 실패로 규정하며 '객관적 상관물' 개념을 제시했고, 그 말이 비평에서 유행하자 놀랐다고 했다."
+        },
+        {
+          "id": "contrast--william-shakespeare--aime-cesaire",
+          "summary": "세제르는 『어떤 태풍』(1969)에서 『템페스트』를 캘리번을 흑인 노예로, 에어리얼을 혼혈 노예로 바꿔 다시 썼다. 이 희곡은 그의 다른 작품 상당수와 함께 널리 논의된다."
+        },
+        {
+          "id": "translation--william-shakespeare--sandor-petofi",
+          "summary": "페퇴피는 1848년 셰익스피어 『코리올라누스』를 헝가리어로 옮겨 출판했다. 어러니 야노시·뵈뢰슈머르티 미하이와 셋이 계획한 셰익스피어 헝가리어 전집의 첫 결과물이다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "독백에서 인물이 자기 말을 듣고 생각을 바꾸며 다른 사람이 되어 간다",
+          "resolution": "removed",
+          "evidence": "문장 fe0604503305 에서 '인물이 자기 말을 듣고 생각을 바꾸는'과 '무대 위의 사람이 말하는 동안 다른 사람이 되는 과정을 관객이 지켜보게 했다'를 지웠다. 문장은 같은 sid 의 확정 주장이 받치는 데까지, '그때까지 주로 인물과 사건의 정보를 전하던 독백을 인물의 마음을 탐색하는 자리로 썼다'로 줄었다(위키백과 'William Shakespeare': 'Soliloquies had been used mainly to convey information about characters or events, but Shakespeare used them to explore characters' minds.'). 교정문(해럴드 블룸의 '엿듣기' 주장)은 극중 인물이 아니라 '우리'에 관한 해석이어서 이 문장의 대체물이 아니고, 넣으면 importanceReason 이 원래보다 길어진다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "이 방법이 이후 연극과 소설이 인물의 내면을 다루는 기본형이 되었다",
+          "resolution": "corrected",
+          "evidence": "셋째 문장 ab869a704bde 를 교정문 그대로 '그의 작품은 이후 연극과 문학에 크고 오래가는 흔적을 남겼고, 특히 인물 형상화의 극적 가능성을 넓혔다.'로 바꿨다(인용: 'significant and lasting impression on later theatre and literature. In particular, he expanded the dramatic potential of characterisation, plot, language, and genre.'). '인물의 내면을 다루는 기본형이 되었다'는 페이지에서 사라졌다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『맥베스』에는 곁가지(부플롯)가 없다",
+          "resolution": "removed",
+          "evidence": "문장 eaeef908bef4 에서 '곁가지가 없어'를 지웠다. 부플롯이 없다고 말하는 출처가 없다. 남은 '비극 가운데 가장 짧아'는 같은 sid 의 확정 주장(Macbeth 는 'Shakespeare's shortest tragedy')이 받친다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『맥베스』에는 독백이 인물의 결심을 뒤집는 장면이 연달아 나온다",
+          "resolution": "removed",
+          "evidence": "문장 982d98429c99('독백이 인물의 결심을 뒤집는 장면이 연달아 나와 그의 핵심 방법을 바로 만난다.')를 통째로 지웠다. 받치는 출처가 없고 확인되는 부분이 남지 않는다(노트: 위키백과는 맥베스를 살인으로 미는 것을 아내의 설득으로 적는다). readingEntryReason 에는 첫 문장만 남는다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『소네트』는 은유가 압축되어 있어 읽기 어렵다",
+          "resolution": "removed",
+          "evidence": "문장 a7d856a409fe 에서 『소네트』를 지워 '『리어 왕』부터 시작하면 복잡한 시어에 판본 차이까지 겹쳐 문장 단위에서 멈춘다.'로 줄였다. 『소네트』의 은유가 압축돼 읽기 어렵다는 출처가 없다. 『리어 왕』 쪽의 '압축된 은유'는 확정 주장의 인용대로 '복잡한 시어'로 좁혔고(위키백과 'King Lear': 'complex poetry'), 판본 차이는 확정 주장(Q1·F1 행 차이)이 받친다."
+        },
+        {
+          "field": "work:william-shakespeare--hamlet.significance",
+          "claim": "햄릿의 독백은 결론을 전하지 않고 생각이 진행되는 과정을 보여 준다",
+          "resolution": "corrected",
+          "evidence": "'독백이 결론을 전달하는 자리가 아니라 사고 과정 그 자체가 되는'을 교정문을 따라 '햄릿이 독백 중 스스로 말을 끊고 자신에게 혐오나 동의를 내뱉는'으로 바꿨다(위키백과 'Hamlet': 'Hamlet interrupts himself, vocalising either disgust or agreement with himself and embellishing his own words.'). 교정문의 '제 말을 덧붙여 가는'은 의의가 원래보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "셰익스피어의 소네트는 영국식 소네트 형태를 그대로 따른다",
+          "resolution": "corrected",
+          "evidence": "'그 형태 그대로 따른다'를 교정문('몇 편의 예외를 빼면 그 형태를 따른다')을 따라 '몇 편 말고는 따른다'로 바꿨다(위키백과 'Shakespeare's sonnets': 'With few exceptions, Shakespeare's sonnets observe the stylistic form of the English sonnet'). 교정문 문구 그대로는 의의가 원래보다 길어져 줄였다."
+        },
+        {
+          "field": "relation:influence--william-shakespeare--victor-hugo.summary",
+          "claim": "위고는 『윌리엄 셰익스피어』(1864)에서 셰익스피어론을 다시 썼다",
+          "resolution": "corrected",
+          "evidence": "'망명 중 쓴 단행본 『윌리엄 셰익스피어』(1864)에서 셰익스피어론을 다시 썼다'를 교정문을 따라 '『윌리엄 셰익스피어』(1864)는 제목과 달리 '역대 최고의 천재들'을 다룬다'로 바꿨다(위키백과 'William Shakespeare (essay)': 'The title is misleading; the true subject of the work is the writers that Hugo considered \"the greatest geniuses of all time.\"'). 확정 주장인 '망명 중'은 요약이 원래보다 길어지지 않게 뺐다. 두 문서 「크롬웰 서문」(1827)과 『윌리엄 셰익스피어』(1864)는 그대로 이름 댄다."
+        },
+        {
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "1825년 7월 니콜라이 라예프스키에게 보낸 편지다",
+          "resolution": "corrected",
+          "evidence": "'1825년 7월 니콜라이 라예프스키에게 보낸 편지'를 교정문을 따라 '1825년 7월 N. N. 라예프스키(아들)에게 쓴 편지 초고'로 바꿨다 — 부쳤다는 '보낸'을 뺐다(전집 머리: 'Н. Н. РАЕВСКОМУ-СЫНУ. Вторая половина июля (после 19) 1825 г. … (Черновое)'). 교정문의 '후반'·'프랑스어'는 요약이 원래보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "편지에서 프랑스 고전극 대신 셰익스피어의 자유로운 장면 구성을 본보기로 삼았다고 적었다",
+          "resolution": "corrected",
+          "evidence": "'프랑스 고전극 대신 셰익스피어의 자유로운 장면 구성을 본보기로 삼았다고 적었고'를 교정문을 따라 '고전주의자도 낭만주의자도 '그럴듯함'에 규칙을 세웠다며 인물을 삶 그대로 말하게 하는 셰익스피어를 읽으라고 적었다'로 바꿨다(편지: 'Les classiques et les romantiques ont tous basé leurs loix sur la vraisemblance … Voyez Schakespeare. Lisez Schakespeare, il ne craint jamais de compromettre son personnage, il le fait parler avec tout l’abandon de la vie'). '『보리스 고두노프』를 쓰던'은 확정 주장(편지 주석 'Моя трагедия — «Борис Годунов».', 'ma tragédie; celle-ci avance')이 받친다."
+        },
+        {
+          "field": "relation:influence--william-shakespeare--alexander-pushkin.summary",
+          "claim": "그 결과 시간과 장소의 단일성을 버린 사극이 나왔다",
+          "resolution": "removed",
+          "evidence": "'그 결과 시간과 장소의 단일성을 버린 사극이 나왔다'를 지웠다. 서문 인용은 단일성 무시를 셰익스피어를 기린 다른 낭만주의 극작가들과의 공통점으로 적을 뿐 셰익스피어를 본보기로 삼은 결과라 하지 않는다. 교정문(다른 낭만주의 극작가들처럼 단일성을 즐겨 무시했다)은 넣으면 요약이 원래보다 길어져 넣지 않았다. 관계 자체는 facts 줄의 확정 주장(d3ddd5880811: 푸시킨이 이 극의 영향원으로 셰익스피어를 직접 밝혔다)과 편지가 받친다."
+        },
+        {
+          "field": "relation:influence--william-shakespeare--johann-wolfgang-von-goethe.summary",
+          "claim": "이 연설은 괴테 세대(질풍노도)가 셰익스피어를 척도로 내세운 문서다",
+          "resolution": "corrected",
+          "evidence": "'셰익스피어를 자기 세대의 척도로 선언했으며'를 지우고, 교정문을 따라 이 연설을 '질풍노도 시대 셰익스피어 열광의 문서로 꼽히는 1771년 연설'로 고쳐 썼다(de 위키백과 'Zum Schäkespears Tag': 'Sie gilt neben Herders Programmschrift Shakespear als wichtiges Dokument der Shakespeare-Begeisterung der Sturm-und-Drang-Zeit.'). 교정문의 '헤르더의 「셰익스피어」와 함께'·'중요한'은 길이 때문에 넣지 않았고, 같은 이유로 '소설 안에'를 '소설에'로 줄였다. 문서 「셰익스피어 명명일에」와 1771은 그대로다."
+        },
+        {
+          "field": "relation:influence--william-shakespeare--ts-eliot.summary",
+          "claim": "객관적 상관물 개념이 엘리엇 시론 전체의 축이 되었다",
+          "resolution": "corrected",
+          "evidence": "'그 개념이 그의 시론 전체의 축이 되었다'를 교정문을 따라 '그 말이 비평에서 유행하자 놀랐다고 했다'로 바꿨다(위키백과 'Objective correlative': 'its subsequent vogue in literary criticism, Eliot said, astonished him.'). 문서 『선집』(1932)은 그대로 이름 댄다."
+        },
+        {
+          "field": "relation:contrast--william-shakespeare--aime-cesaire.summary",
+          "claim": "탈식민 비평은 이 되받아 쓰기를 카리브 문학의 대표 사례로 다룬다",
+          "resolution": "corrected",
+          "evidence": "'탈식민 비평은 이 되받아 쓰기를 카리브 문학의 대표 사례로 다룬다'를 교정문대로 '이 희곡은 그의 다른 작품 상당수와 함께 널리 논의된다'로 바꿨다(위키백과 'Une Tempête': 'Along with much of Césaire's other work, Une Tempête is widely discussed.')."
+        },
+        {
+          "field": "relation:translation--william-shakespeare--sandor-petofi.summary",
+          "claim": "이 번역이 페퇴피 극시 어휘의 출처를 보여 주는 1차 근거다",
+          "resolution": "removed",
+          "evidence": "문장 ae24e6c0bb58 에서 '그의 극시 어휘가 어디에서 왔는지를 보여 주는 1차 근거다'를 지웠다. 이 번역을 페퇴피 극시 어휘의 출처와 잇는 출처가 없고, 읽지 못한 특정 출처도 없다. 남은 '어러니 야노시·뵈뢰슈머르티 미하이와 셋이 계획한 셰익스피어 헝가리어 전집의 첫 결과물이다'는 같은 sid 의 확정 주장들(MEK 해제, hu 위키백과 'William Shakespeare'·'Petőfi Sándor')이 받친다."
+        },
+        {
+          "field": "relation:influence--william-shakespeare--ts-eliot.summary",
+          "claim": "엘리엇의 『햄릿』론은 1932년 『선집』에 실려 있다",
+          "resolution": "accepted",
+          "evidence": "노트는 1932년 『선집』이 재수록본이니 1932년이 개념 제시 시점으로 읽히지 않게 하라고 한다. 요약 bdcc3ab3c60f 는 '『선집』(1932)에 수록된 「햄릿」'이라고 수록처로만 적고 1932년에 개념을 내놓았다고 쓰지 않는다. 『선집』은 이 관계의 출처(src--eliot-selected-essays-1932)라 문서 이름으로 남긴다."
+        }
+      ]
+    }
+  ]
+}

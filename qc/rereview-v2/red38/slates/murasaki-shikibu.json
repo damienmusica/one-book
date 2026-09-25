@@ -1,0 +1,470 @@
+{
+  "id": "murasaki-shikibu",
+  "page": "https://literary-planet.pages.dev/authors/murasaki-shikibu/",
+  "author": {
+    "names": {
+      "ko": "무라사키 시키부",
+      "original": "紫式部",
+      "aliases": []
+    },
+    "birthYear": 973,
+    "deathYear": 1014,
+    "activeRange": [
+      996,
+      1014
+    ],
+    "languages": [
+      "ja"
+    ],
+    "regions": [
+      "east-asia"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "essay-criticism",
+      "poetry"
+    ],
+    "importanceReason": "수백 인물의 심리를 좇아 네 세대 칠십여 년을 한 편에 담은 『겐지 이야기』를 써서, 사건의 나열이 아니라 내면으로 움직이는 장편 이야기를 일본어 산문 안에 세웠다. 인물의 마음을 서술자의 목소리와 겹쳐 놓아 지문과 심중어의 경계를 흐리는 문장을 쓰고, 계절·의복·와카 증답이 감정을 대신 말하게 하는 방법을 결합했다. 이 작품은 이후 일본 문학이 '모노노아와레'라는 이름으로 자기 미의식을 설명할 때 근거로 삼는 텍스트가 되었다.",
+    "readingEntry": "murasaki-shikibu--genjimonogatari",
+    "readingEntryReason": "이 사람의 전부가 이 한 편에 있고, 「기리쓰보」에서 「와카무라사키」까지의 앞부분이 하나의 단위로 읽혀 전체를 읽기 전에도 서술 방식이 드러난다.",
+    "readingOrder": [
+      "murasaki-shikibu--genjimonogatari",
+      "murasaki-shikibu--murasakishikibunikki",
+      "murasaki-shikibu--murasakishikibushu"
+    ],
+    "readingWarning": "마지막 「우지 십첩」만 따로 떼어 읽거나 계보 없이 중반부터 들어가면, 관직명으로만 불리는 인물들의 관계가 무너진다. 계보표가 붙은 판본으로 앞에서부터 읽는 편이 낫다.",
+    "difficulty": 4,
+    "difficultyReason": "주어가 자주 생략되고 인물이 이름 대신 관직과 거처로 불려 누가 말하는지 계속 추적해야 하며, 54첩의 분량 안에서 와카 증답이 인물 사이의 말을 대신하는 자리가 많다. 계보표와 주석이 붙은 판본이 사실상 필수다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--kawabata-nobel-lecture",
+      "src--woolf-tale-of-genji-vogue-1925"
+    ]
+  },
+  "works": [
+    {
+      "id": "murasaki-shikibu--murasakishikibushu",
+      "titleKo": "무라사키 시키부 가집",
+      "titleOriginal": "紫式部集",
+      "year": 1206,
+      "yearBasis": "earliest-manuscript",
+      "genre": "poetry",
+      "significance": "무라사키 시키부의 와카를 모은 가집. 소녀 시절부터 궁중 출사 이후까지의 증답가가 시간 순으로 놓여, 작가의 생애를 재구성하는 몇 안 되는 단서가 된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "murasaki-shikibu--genjimonogatari",
+      "titleKo": "겐지 이야기",
+      "titleOriginal": "源氏物語",
+      "year": 1008,
+      "yearBasis": "composition-range",
+      "genre": "fiction",
+      "significance": "히카루겐지와 그 후손 세대까지 54첩에 걸쳐 이어지는 이야기. 사건보다 인물의 마음이 서사를 밀고 가며, 마지막 우지 십첩은 앞부분과 다른 어두운 색조 때문에 따로 논의된다.",
+      "sourceIds": []
+    },
+    {
+      "id": "murasaki-shikibu--murasakishikibunikki",
+      "titleKo": "무라사키 시키부 일기",
+      "titleOriginal": "紫式部日記",
+      "year": 1010,
+      "yearBasis": "composition-range",
+      "genre": "essay-criticism",
+      "significance": "중궁 쇼시의 궁정에서 보낸 시기를 적은 일기. 출산 의례의 세부와 함께 동료 뇨보들에 대한 신랄한 인물평이 남아, 『겐지 이야기』가 쓰인 자리를 보여준다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--murasaki-shikibu--yasunari-kawabata",
+      "type": "documented_influence",
+      "from": "murasaki-shikibu (무라사키 시키부)",
+      "to": "yasunari-kawabata (가와바타 야스나리)",
+      "evidenceLevel": "documented",
+      "summary": "가와바타는 노벨문학상 수상 강연 「아름다운 일본의 나」(1968)에서 『겐지 이야기』를 일본 소설의 최고봉으로 들고, 헤이안 시대의 문학을 일본 예술 전반의 자양으로 말했다.",
+      "sourceIds": [
+        "src--kawabata-nobel-lecture"
+      ]
+    },
+    {
+      "id": "affinity--murasaki-shikibu--virginia-woolf",
+      "type": "affinity",
+      "from": "murasaki-shikibu (무라사키 시키부)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "울프는 1925년 『보그』에 아서 웨일리 영역본 『겐지 이야기』 제1권의 서평을 실어 이 작품을 유럽 소설사 안에서 논했다.",
+      "sourceIds": [
+        "src--woolf-tale-of-genji-vogue-1925"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "7b4aa4fb0eed",
+      "where": "author.facts",
+      "text": "무라사키 시키부(紫式部) · 973–1014 · ja · east-asia",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d68175acb333",
+      "where": "author.importanceReason",
+      "text": "수백 인물의 심리를 좇아 네 세대 칠십여 년을 한 편에 담은 『겐지 이야기』를 써서, 사건의 나열이 아니라 내면으로 움직이는 장편 이야기를 일본어 산문 안에 세웠다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6810186273cb",
+      "where": "author.importanceReason",
+      "text": "인물의 마음을 서술자의 목소리와 겹쳐 놓아 지문과 심중어의 경계를 흐리는 문장을 쓰고, 계절·의복·와카 증답이 감정을 대신 말하게 하는 방법을 결합했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2f7316b76ac6",
+      "where": "author.importanceReason",
+      "text": "이 작품은 이후 일본 문학이 '모노노아와레'라는 이름으로 자기 미의식을 설명할 때 근거로 삼는 텍스트가 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9fbb078dd5c8",
+      "where": "author.readingEntryReason",
+      "text": "이 사람의 전부가 이 한 편에 있고, 「기리쓰보」에서 「와카무라사키」까지의 앞부분이 하나의 단위로 읽혀 전체를 읽기 전에도 서술 방식이 드러난다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "86f78e9bbb5e",
+      "where": "author.readingWarning",
+      "text": "마지막 「우지 십첩」만 따로 떼어 읽거나 계보 없이 중반부터 들어가면, 관직명으로만 불리는 인물들의 관계가 무너진다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "07bbf9a2a72c",
+      "where": "author.readingWarning",
+      "text": "계보표가 붙은 판본으로 앞에서부터 읽는 편이 낫다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "82edb97a649e",
+      "where": "author.difficultyReason",
+      "text": "주어가 자주 생략되고 인물이 이름 대신 관직과 거처로 불려 누가 말하는지 계속 추적해야 하며, 54첩의 분량 안에서 와카 증답이 인물 사이의 말을 대신하는 자리가 많다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4f3b987a5c0e",
+      "where": "author.difficultyReason",
+      "text": "계보표와 주석이 붙은 판본이 사실상 필수다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b29024454720",
+      "where": "work:murasaki-shikibu--murasakishikibushu.facts",
+      "text": "『무라사키 시키부 가집』(紫式部集) · 1206 earliest-manuscript · poetry",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d147e8f8933f",
+      "where": "work:murasaki-shikibu--murasakishikibushu.significance",
+      "text": "무라사키 시키부의 와카를 모은 가집.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d9417909846e",
+      "where": "work:murasaki-shikibu--murasakishikibushu.significance",
+      "text": "소녀 시절부터 궁중 출사 이후까지의 증답가가 시간 순으로 놓여, 작가의 생애를 재구성하는 몇 안 되는 단서가 된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "47f758a0c52d",
+      "where": "work:murasaki-shikibu--genjimonogatari.facts",
+      "text": "『겐지 이야기』(源氏物語) · 1008 composition-range · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d021bcd70e8a",
+      "where": "work:murasaki-shikibu--genjimonogatari.significance",
+      "text": "히카루겐지와 그 후손 세대까지 54첩에 걸쳐 이어지는 이야기.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b74406404ee0",
+      "where": "work:murasaki-shikibu--genjimonogatari.significance",
+      "text": "사건보다 인물의 마음이 서사를 밀고 가며, 마지막 우지 십첩은 앞부분과 다른 어두운 색조 때문에 따로 논의된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d1fe72f805d1",
+      "where": "work:murasaki-shikibu--murasakishikibunikki.facts",
+      "text": "『무라사키 시키부 일기』(紫式部日記) · 1010 composition-range · essay-criticism",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "cb0a9b41ed77",
+      "where": "work:murasaki-shikibu--murasakishikibunikki.significance",
+      "text": "중궁 쇼시의 궁정에서 보낸 시기를 적은 일기.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c96e7bcf52d5",
+      "where": "work:murasaki-shikibu--murasakishikibunikki.significance",
+      "text": "출산 의례의 세부와 함께 동료 뇨보들에 대한 신랄한 인물평이 남아, 『겐지 이야기』가 쓰인 자리를 보여준다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b71f2b7fce28",
+      "where": "relation:influence--murasaki-shikibu--yasunari-kawabata.facts",
+      "text": "무라사키 시키부 → 가와바타 야스나리 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "aa9ffee00a82",
+      "where": "relation:influence--murasaki-shikibu--yasunari-kawabata.summary",
+      "text": "가와바타는 노벨문학상 수상 강연 「아름다운 일본의 나」(1968)에서 『겐지 이야기』를 일본 소설의 최고봉으로 들고, 헤이안 시대의 문학을 일본 예술 전반의 자양으로 말했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8f7f90c883bf",
+      "where": "relation:affinity--murasaki-shikibu--virginia-woolf.facts",
+      "text": "무라사키 시키부 → 버지니아 울프 · affinity · bidirectional · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f15015f42ce5",
+      "where": "relation:affinity--murasaki-shikibu--virginia-woolf.summary",
+      "text": "울프는 1925년 『보그』에 아서 웨일리 영역본 『겐지 이야기』 제1권의 서평을 실어 이 작품을 유럽 소설사 안에서 논했다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "무라사키 시키부의 생몰년은 973–1014년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+      "quote": "1014 is generally accepted as the date of Murasaki Shikibu's death and 973 as the date of her birth",
+      "note": "Shirane 기준. 사망 1025년설(Bowring)도 병존하나 1014가 통설."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『겐지 이야기』는 수백 명의 인물이 등장한다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+      "quote": "数百人にも及ぶ登場人物が織りなす長編物語"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『겐지 이야기』는 네 세대·칠십여 년에 걸친 사건을 한 편에 담는다",
+      "verdict": "confirmed",
+      "url": "https://www.touken-world.jp/history/history-important-word/genji-monogatari/",
+      "quote": "主人公・光源氏の死後も、その子や孫達が登場する70年間におよぶ物語です",
+      "note": "70년과 세대 연쇄(자·손)는 확인. '네 세대'는 기리쓰보 제 → 겐지 → 유기리/레이제이 → 니오우·가오루로 세는 통상 계산과 일치."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『겐지 이야기』는 일본어(가나) 산문으로 쓰였다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+      "quote": "『源氏物語』も他の物語同様に平仮名(変体仮名)で書かれた"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『겐지 이야기』의 문장은 지문과 인물의 심중어(내면 상태) 경계를 흐린다 — 자유간접화법에 해당하는 서술",
+      "verdict": "confirmed",
+      "url": "https://escholarship.org/uc/item/9k5239p5",
+      "quote": "This type of sentence is generally known as 'free indirect speech' ... also observed in The Tale of Genji",
+      "note": "UC 박사논문 초록(PDF 본문에서 직접 확인). 유럽에서는 19세기 이후 기법이나 11세기 겐지에도 관찰된다고 명시."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『겐지 이야기』는 와카 증답이 감정을 대신 말하는 방법을 쓴다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+      "quote": "男女間の事柄や話の核心部分などは、文章ではなく、和歌によって婉曲に描かれる場面も多く"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『겐지 이야기』는 이후 일본이 '모노노아와레'라는 미의식을 설명할 때 근거로 삼는 텍스트가 되었다",
+      "verdict": "confirmed",
+      "url": "https://plato.stanford.edu/entries/japanese-aesthetics/",
+      "quote": "brought the idea of mono no aware to the forefront of literary theory with a study of The Tale of Genji",
+      "note": "모토오리 노리나가가 『겐지』 연구를 통해 모노노아와레를 그 중심 주제로 제시했다는 SEP 서술."
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "인물이 이름 대신 관직과 거처 등으로 불린다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+      "quote": "the narrator refers to men often by their rank or their station in life, and to women often by the color of their clothing",
+      "note": "같은 문서에 \"Almost none of the characters in the original text are given an explicit name\"."
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "『겐지 이야기』는 54첩이다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+      "quote": "全54帖、文献初出は1008年（寛弘五年）"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "와카 증답이 인물 사이의 말을 대신하는 자리가 많다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+      "quote": "和歌795首が詠み込まれ ... この和歌が理解できないと話の展開自体がわからない場面も少なくない"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "「기리쓰보」가 첫 첩이고 「와카무라사키」가 제5첩이다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+      "quote": "『源氏物語』第5帖「若紫」",
+      "note": "제1첩 「桐壺」는 en.wikipedia 첩 목록에서 확인 (Chapter 1: Kiritsubo)."
+    },
+    {
+      "field": "readingWarning",
+      "claim": "「우지 십첩」은 마지막 열 첩(45–54첩)이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+      "quote": "Chapter 45–54 are known as the \"Uji Chapters\"."
+    },
+    {
+      "field": "works[murasakishikibushu].significance",
+      "claim": "『무라사키 시키부 가집』은 본인이 엮은 것으로 전한다",
+      "verdict": "unverifiable",
+      "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+      "note": "영·일 위키백과와 ja.wikipedia 『紫式部集』 항목 모두 자찬(自撰) 여부를 서술하지 않는다. 원본은 산일되고 1206년 후지와라노 데이카가 간행한 것이 원형에 가장 가깝다고만 적혀 있다. '자찬설이 있다'는 서술의 출처를 찾지 못했다.",
+      "resolution": "removed"
+    },
+    {
+      "field": "works[murasakishikibushu]",
+      "claim": "『무라사키 시키부 가집』의 연도는 1014년이다",
+      "verdict": "unverifiable",
+      "url": "https://ja.wikipedia.org/wiki/%E7%B4%AB%E5%BC%8F%E9%83%A8%E9%9B%86",
+      "note": "ja.wikipedia 『紫式部集』, en.wikipedia 'Poetic Memoirs' 어디에도 성립 연도가 없다. 1014는 그의 몰년으로, 가집 자체의 연도로 뒷받침하는 출처를 찾지 못했다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "works[murasakishikibushu].significance",
+      "claim": "소녀 시절부터 궁중 출사 이후까지의 증답가가 시간 순으로 놓여, 작가의 생애를 재구성하는 단서가 된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+      "quote": "a collection of 128 poems Mulhern describes as \"arranged in a biographical sequence\"",
+      "note": "같은 문단: \"They contain biographical details: she mentions a sister who died, the visit to Echizen province with her father\"."
+    },
+    {
+      "field": "works[genjimonogatari]",
+      "claim": "『겐지 이야기』의 연도는 1008년이다",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+      "quote": "文献初出は1008年（寛弘五年）",
+      "note": "1008은 문헌 초출(『무라사키 시키부 일기』 언급) 연도이지 완성 연도가 아니다. 전 첩 완성은 1021년까지로 본다."
+    },
+    {
+      "field": "works[genjimonogatari].significance",
+      "claim": "히카루겐지와 그 후손 세대까지 54첩에 걸쳐 이어진다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+      "quote": "the first two dealing with the life of Genji and the last with the early years of two of Genji's prominent descendants, Niou and Kaoru"
+    },
+    {
+      "field": "works[genjimonogatari].significance",
+      "claim": "마지막 우지 십첩은 앞부분과 색조가 달라 따로 논의된다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+      "quote": "The 54th and last chapter ... is sometimes argued by modern scholars to be a separate part from the Uji part",
+      "note": "우지 십첩이 별도 단위로 구분·논의된다는 점은 확인. '어두운 색조'라는 평가 자체는 판단이라 대상 외."
+    },
+    {
+      "field": "works[murasakishikibunikki]",
+      "claim": "『무라사키 시키부 일기』는 중궁 쇼시의 궁정 시기를 적은 일기이며 1010년까지를 다룬다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+      "quote": "the diary, which covers the period from about 1008 to 1010"
+    },
+    {
+      "field": "works[murasakishikibunikki].significance",
+      "claim": "일기에 출산 의례의 세부가 남아 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Diary_of_Lady_Murasaki",
+      "quote": "the various celebrations and rituals that took place during the pregnancy, and the eventual childbirth with its associated rites"
+    },
+    {
+      "field": "works[murasakishikibunikki].significance",
+      "claim": "일기에 동료 뇨보들에 대한 신랄한 인물평이 남아 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Diary_of_Lady_Murasaki",
+      "quote": "Sei Shōnagon, for instance, was dreadfully conceited."
+    },
+    {
+      "field": "works[murasakishikibunikki].significance",
+      "claim": "일기가 『겐지 이야기』가 쓰인 자리를 보여준다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Murasaki_Shikibu",
+      "quote": "the process of writing Genji, including descriptions of passing newly written chapters to calligraphers for transcriptions"
+    },
+    {
+      "field": "relations[murasaki→kawabata].summary",
+      "claim": "가와바타의 1968년 노벨문학상 수상 강연 제목은 「아름다운 일본의 나」이다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1968/kawabata/lecture/",
+      "quote": "Nobel Lecture, December 12, 1968 (Translation) Japan, the Beautiful and Myself"
+    },
+    {
+      "field": "relations[murasaki→kawabata].summary",
+      "claim": "가와바타는 그 강연에서 『겐지 이야기』를 일본 문학의 최고봉으로 들었다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1968/kawabata/lecture/",
+      "quote": "The Tale of Genji in particular is the highest pinnacle of Japanese literature."
+    },
+    {
+      "field": "relations[murasaki→kawabata].summary",
+      "claim": "가와바타는 헤이안 시대의 문학을 일본 예술 전반의 자양으로 말했다",
+      "verdict": "confirmed",
+      "url": "https://www.nobelprize.org/prizes/literature/1968/kawabata/lecture/",
+      "quote": "The Genji was a wide and deep source of nourishment for poetry ... and for the fine arts and handicrafts as well",
+      "note": "강연은 '헤이안 문학 일반'이 아니라 『겐지』를 자양의 주어로 삼는다. 헤이안 문학 전체에 대해서는 \"a tradition which influenced and even controlled Japanese literature for eight hundred years\"라고 적는다. 주어를 『겐지』로 좁히면 더 정확하다."
+    },
+    {
+      "field": "relations[murasaki→woolf].summary",
+      "claim": "울프는 1925년 『보그』(7월)에 웨일리 영역본 『겐지 이야기』 제1권 서평을 실었다",
+      "verdict": "confirmed",
+      "url": "http://tomoki.tea-nifty.com/tomokilog/2009/03/virginia-woolf-.html",
+      "quote": "\"The Tale of Genji. The First Volume of Mr. Arthur Waley's Translation...\" (signed review in Vogue 66, late July 1925)",
+      "note": "『The Essays of Virginia Woolf』 vol.4 (Hogarth, 1994) pp.264-9 재수록 서지까지 일치."
+    },
+    {
+      "field": "relations[murasaki→woolf].summary",
+      "claim": "울프는 그 서평에서 이 작품을 유럽(서양) 소설사 안에서 논했다",
+      "verdict": "confirmed",
+      "url": "http://tomoki.tea-nifty.com/tomokilog/2009/03/virginia-woolf-.html",
+      "quote": "All comparisons between Murasaki and the great Western writers serve but to bring out her perfection and their force.",
+      "note": "같은 서평에서 톨스토이·세르반테스와 나란히 놓고 등급을 매긴다."
+    },
+    {
+      "field": "relations[murasaki→woolf].summary",
+      "claim": "비교문학 연구에 무라사키와 울프의 내면 서술을 나란히 놓고 읽은 논의가 있다",
+      "verdict": "unverifiable",
+      "note": "영어·일본어로 6회 검색(JSTOR·Project MUSE·OUP·Cambridge·eScholarship 도메인 한정 검색 포함, \"Murasaki\"+\"Virginia Woolf\" 비교, 「紫式部」「ヴァージニア・ウルフ」比較 등). 울프의 1925년 서평 수용사를 다룬 글은 다수 나오지만, 두 작가의 내면 서술 기법을 나란히 분석한 특정 연구는 찾지 못했다. w=0.6 · scholarly_consensus 근거로는 약하다.",
+      "resolution": "removed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--kawabata-nobel-lecture": {
+      "id": "src--kawabata-nobel-lecture",
+      "title": "「아름다운 일본의 나」 (美しい日本の私, 1968년 노벨문학상 수상 강연)",
+      "publisherOrInstitution": "Svenska Akademien 수상 강연 기록",
+      "citation": "가와바타가 자기 작업을 중세 선(禪)·와카의 계보로 규정한 1차 발언 — 오에의 1994년 강연이 직접 되받는 대상"
+    },
+    "src--woolf-tale-of-genji-vogue-1925": {
+      "id": "src--woolf-tale-of-genji-vogue-1925",
+      "title": "\"The Tale of Genji\" (Vogue, 1925년 7월)",
+      "publisherOrInstitution": "Virginia Woolf, Vogue (London)",
+      "citation": "아서 웨일리 영역본 『겐지 이야기』 제1권을 논평한 서평"
+    }
+  }
+}

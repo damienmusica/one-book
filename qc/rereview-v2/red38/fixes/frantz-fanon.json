@@ -1,0 +1,104 @@
+{
+  "fixes": [
+    {
+      "id": "frantz-fanon",
+      "importanceReason": "식민 지배가 피지배자의 내면에 남기는 자기 혐오를 임상 언어로 기술했고, 탈식민 연구에 결정적으로 기여했다. 『검은 피부, 하얀 가면』은 언어·연애·가족이라는 일상의 장면에서 인종화가 작동하는 방식을 정신과 의사의 관찰로 기록하고, 『대지의 저주받은 사람들』은 그 분석을 알제리 전쟁의 정세로 옮겨 독립 이후 민족 부르주아지의 배신까지 서술한다. 두 책은 1960년대부터 미국과 카리브·아프리카 옛 식민지에서 널리 주목받았다.",
+      "difficultyReason": "헤겔의 인정 투쟁과 사르트르의 「검은 오르페우스」를 논박하고 라캉의 거울 단계에 기대는 문장이 임상 증례와 뒤섞여 있어 배경 지식 없이는 논쟁의 상대가 보이지 않는다. 후기작은 알제리 민족해방전선의 구체적 정세를 전제한다.",
+      "works": [
+        {
+          "id": "frantz-fanon--pour-la-revolution-africaine",
+          "significance": "사후에 엮인 정치 논설·연설·사직서 모음. 1956년 블리다-주앵빌 병원 과장직을 내려놓으며 알제리 주재 장관 라코스트에게 보낸 사직서를 비롯한 글들로 파농의 사유가 변해 간 과정을 더듬어 볼 수 있다."
+        },
+        {
+          "id": "frantz-fanon--les-damnes-de-la-terre",
+          "significance": "백혈병으로 죽어 가며 구술한 유작. 식민지 폭력의 구조, 독립 이후 민족 부르주아지의 무능, 전쟁이 남긴 정신질환 증례를 한 권에 묶었고, 제3세계 혁명의 선언문으로 불렸다."
+        },
+        {
+          "id": "frantz-fanon--peau-noire-masques-blancs",
+          "significance": "언어·연애·정신의학의 사례로 식민지 흑인이 백인의 시선을 자기 것으로 삼는 과정을 기술한다. 27세에 낸 첫 주요 저작으로 인종을 심리 구조의 문제로 다루는 어휘를 마련했다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--frantz-fanon--edouard-glissant",
+          "evidenceLevel": "documented",
+          "summary": "카리브 사상사 연구는 파농의 식민적 소외 분석에서 글리상의 『앙티유 담론』으로 이어지는 계보를 다룬다. 두 사람은 같은 마르티니크 세대에 속한다."
+        },
+        {
+          "id": "mentorship--aime-cesaire--frantz-fanon",
+          "summary": "파농은 세제르가 교사로 있던 포르드프랑스의 리세 셸셰르에 다녔고, 『검은 피부, 하얀 가면』(1952)은 『귀향 수첩』을 거듭 인용하며 그의 네그리튀드를 검증한다."
+        },
+        {
+          "id": "dialogue--frantz-fanon--jean-paul-sartre",
+          "summary": "사르트르는 『대지의 저주받은 사람들』(1961) 서문을 썼고, 두 사람은 그해 로마에서 만나 새벽 2시까지 대화했다 — 보부아르가 『상황의 힘』에 그 만남을 기록했다. 파농은 그 이전 『검은 피부, 하얀 가면』에서 사르트르의 「검은 오르페우스」를 정면으로 반박한 바 있다."
+        },
+        {
+          "id": "influence--frantz-fanon--ngugi-wa-thiongo",
+          "summary": "응구기는 에세이집 『귀향』(1972)에서 파농의 '민족의식의 함정'으로 작품 속 대중과 신식민 엘리트의 관계를 읽는다. 소설 쪽 파농 수용은 이미 『한 톨의 밀알』(1967)에 나타난다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "파농이 탈식민 사상의 심리학적 토대를 놓았다",
+          "resolution": "corrected",
+          "evidence": "첫 문장의 \"기술해, 탈식민 사상의 심리학적 토대를 놓았다\"를 교정문에 따라 \"기술했고, 탈식민 연구에 결정적으로 기여했다\"로 바꿨다(en 위키: \"made critical contributions to the fields of post-colonial studies and critical theory\"). 창시 주장 '토대를 놓았다'는 지웠고, 점검 주가 지적한 인과를 넣지 않도록 '기술해'를 병렬 '기술했고'로 풀었다. 필드가 길어지지 않도록 교정문의 '비판이론'은 뺐다. 앞 절(자기 혐오를 임상 언어로 기술)은 확정 주장 #3·#4가 받친다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "두 책은 1960년대 이후 미국과 옛 식민지(카리브·아프리카)의 저항 운동에서 널리 읽혔다",
+          "resolution": "corrected",
+          "evidence": "셋째 문장 \"두 책은 알제리에서 미국 흑인 운동까지 이어지는 저항 진영의 공용 어휘가 되었다\"를 교정문에 따라 \"두 책은 1960년대부터 미국과 카리브·아프리카 옛 식민지에서 널리 주목받았다\"로 바꿨다(en 위키: \"it received wider attention during cultural upheavals starting in the 1960s, in the United States as well as former colonial countries in the Caribbean and Africa\"). '알제리', '저항 진영', '공용 어휘'는 지웠다. 필드가 원문보다 길어지지 않도록 교정문의 '일어난 문화적 격변 속에서'는 뺐다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "파농은 라캉의 거울 단계를 논박 상대로 삼는다",
+          "resolution": "corrected",
+          "evidence": "첫 문장의 \"헤겔의 인정 투쟁, 라캉의 거울 단계, 사르트르의 「검은 오르페우스」를 논박 상대로 삼는 문장이\"를 \"헤겔의 인정 투쟁과 사르트르의 「검은 오르페우스」를 논박하고 라캉의 거울 단계에 기대는 문장이\"로 바꿨다. 교정문대로 라캉은 논박 상대가 아니라 끌어온 도구다(원문: \"en s'appuyant sur la notion lacanienne du stade du miroir\"). 헤겔(#16)과 사르트르(#18)는 확정돼 논박 상대로 남긴다."
+        },
+        {
+          "field": "work:frantz-fanon--pour-la-revolution-africaine.significance",
+          "claim": "이 책은 파농의 판단이 형성되는 과정을 시간 순으로 배열한다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 끝의 \"사직서를 비롯해 파농의 판단이 형성되는 과정을 시간 순으로 읽을 수 있다\"를 교정문에 따라 \"사직서를 비롯한 글들로 파농의 사유가 변해 간 과정을 더듬어 볼 수 있다\"로 바꿨다(en 위키: \"roughly grouped by topic and manner of original publication. They help to trace the evolution of Fanon's thought over time\"). 배열 기준이 시간 순이라는 말은 지웠다. 필드가 길어지지 않도록 교정문의 다섯 부분 구성과 '정신과 의사 시절부터 FLN 활동과 튀니지 망명기까지'는 뺐다."
+        },
+        {
+          "field": "work:frantz-fanon--les-damnes-de-la-terre.significance",
+          "claim": "탈식민 운동의 표준 참조 텍스트가 되었다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장의 \"한 권에 묶어 탈식민 운동의 표준 참조 텍스트가 되었다\"를 \"한 권에 묶었고, 제3세계 혁명의 선언문으로 불렸다\"로 바꿨다(encyclopedia.com: \"hailed as the manifesto of Third World revolution\"). 출처를 찾지 못한 '표준 참조 텍스트'는 지웠고, 묶은 것과 평판 사이의 인과도 끊었다. 필드가 길어지지 않도록 교정문의 '미국 흑인 급진 단체들의 성서'는 뺐다."
+        },
+        {
+          "field": "work:frantz-fanon--peau-noire-masques-blancs.significance",
+          "claim": "27세에 쓴 첫 책이다",
+          "resolution": "corrected",
+          "evidence": "\"27세에 쓴 첫 책으로,\"를 교정문대로 \"27세에 낸 첫 주요 저작으로\"로 바꿨다(SEP: \"In 1952, Fanon published his first major work Black Skin, White Masks. Though just 27 at the time of its publication\"). 필드가 원문보다 길어지지 않도록 첫 문장의 '사례를 통해'를 뜻이 같은 '사례로'로 줄이고 둘째 문장의 쉼표를 뺐다."
+        },
+        {
+          "field": "relation:influence--frantz-fanon--edouard-glissant.facts",
+          "claim": "이 영향 관계의 근거 수준은 학계 통설(scholarly_consensus)이다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 evidenceLevel을 scholarly_consensus에서 documented로 바꿨다(documented_influence가 허용하는 수준이라 선은 남는다). 사실 줄은 「프란츠 파농 → 에두아르 글리상 · documented_influence · directed · documented」가 된다. documented 관계는 요약이 문서를 이름으로 대야 하므로, 요약 첫 문장의 \"글리상의 '강요된 시학'으로\"를 관계 출처(src--glissant-discours-antillais-1981)의 책 이름으로 바꿔 \"글리상의 『앙티유 담론』으로\"라고 적었다. 이 연결은 #47(Dash 서문: \"Glissant treats … in Caribbean Discourse. It is, to this extent, anelaboration of the theme of psychic disposses‑ sion treated by Fanon\")과 #45(Mardorossian: \"Le discours antillais develops the ramifications of Fanon's thought\")가 받친다. 요약 길이는 그대로다."
+        },
+        {
+          "field": "relation:mentorship--aime-cesaire--frantz-fanon.summary",
+          "claim": "파농은 포르드프랑스의 리세 셸셰르에서 세제르에게 배웠다",
+          "resolution": "corrected",
+          "evidence": "\"파농은 포르드프랑스의 리세 셸셰르에서 세제르에게 배웠고\"를 교정문대로 \"파농은 세제르가 교사로 있던 포르드프랑스의 리세 셸셰르에 다녔고\"로 바꿨다(en 위키: \"the prestigious Lycée Schœlcher in Fort-de-France … Aimé Césaire - … a teacher at the Lycée … Though Césaire never taught Fanon directly\"). 직접 배웠다는 뜻이 되살아나지 않도록 뒤의 '스승의'를 '그의'로 바꾸고, 필드가 길어지지 않도록 \"『귀향 수첩』의 구절을\"을 \"『귀향 수첩』을\"로 줄였다. 사사 관계 자체는 #50(\"Césaire was a mentor to Fanon\")이 받쳐 선은 남기고, 문서 이름 『검은 피부, 하얀 가면』(1952)은 그대로다."
+        },
+        {
+          "field": "relation:dialogue--frantz-fanon--jean-paul-sartre.summary",
+          "claim": "두 사람은 로마에서 밤을 새우며 논쟁했다",
+          "resolution": "corrected",
+          "evidence": "\"두 사람은 그해 로마에서 만나 밤을 새우며 논쟁했다\"를 교정문에 따라 \"두 사람은 그해 로마에서 만나 새벽 2시까지 대화했다\"로 바꿨다(LRB Shatz: \"Fanon and Sartre’s first conversation lasted from lunch until 2 a.m., when Beauvoir announced that Sartre needed to sleep\"). '밤을 새우며'와 '논쟁'은 지웠다. 필드가 길어지지 않도록 교정문의 '7월 말'·'처음'·'점심부터'는 빼고 '(1961)의 서문'을 '(1961) 서문'으로 줄였다. 문서 이름 『대지의 저주받은 사람들』(1961)·『상황의 힘』은 그대로다."
+        },
+        {
+          "field": "relation:influence--frantz-fanon--ngugi-wa-thiongo.summary",
+          "claim": "응구기는 『귀향』에서 파농의 '민족의식의 함정'을 독립 이후 동아프리카 계급 분화를 읽는 틀로 삼는다",
+          "resolution": "corrected",
+          "evidence": "첫 문장의 \"파농의 '민족의식의 함정'을 독립 이후 동아프리카의 계급 분화를 읽는 틀로 삼는다\"를 교정문에 따라 \"파농의 '민족의식의 함정'으로 작품 속 대중과 신식민 엘리트의 관계를 읽는다\"로 바꿨다(『Homecoming』 전문 검색: \"relationship between the masses and the neo-colonial elite, so aptly described by Frantz Fanon in The Wretched of the Earthy as a pitfall of national consciousness is here brilliantly captured\"). 원문을 찾지 못한 '독립 이후 동아프리카'와 '계급 분화'는 지웠다. 필드가 길어지지 않도록 교정문의 '『대지의 저주받은 사람들』에서'는 뺐다. 문서 이름 『귀향』(1972)은 그대로다."
+        }
+      ]
+    }
+  ]
+}

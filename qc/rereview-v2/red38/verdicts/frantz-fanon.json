@@ -1,0 +1,656 @@
+{
+  "plates": [
+    {
+      "id": "frantz-fanon",
+      "claims": [
+        {
+          "sids": [
+            "9412e1e15a5c"
+          ],
+          "field": "author.facts",
+          "claim": "프란츠 파농은 1925년에 태어나 1961년에 죽었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "Frantz Fanon (born July 20, 1925, Fort-de-France , Martinique—died December 6, 1961, Bethesda, Maryland , U.S.)"
+        },
+        {
+          "sids": [
+            "9412e1e15a5c"
+          ],
+          "field": "author.facts",
+          "claim": "파농은 카리브(마르티니크) 출신이다",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/frantz-fanon/",
+          "quote": "Born on the island of Martinique under French colonial rule, Frantz Omar Fanon (1925–1961)"
+        },
+        {
+          "sids": [
+            "9412e1e15a5c"
+          ],
+          "field": "author.facts",
+          "claim": "파농의 저작 언어는 프랑스어다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Toward_the_African_Revolution",
+          "quote": "Original title Pour la Revolution Africaine Language French Published 1964 Publisher François Maspero",
+          "note": "BnF 서지 레코드(Peau noire, masques blancs, Seuil 1952)도 언어 필드가 fre다."
+        },
+        {
+          "sids": [
+            "ffdef2246091"
+          ],
+          "field": "author.importanceReason",
+          "claim": "파농은 식민 지배가 피지배자의 내면에 남기는 자기 소외(백인이 되려는 욕망)를 정신의학·정신분석의 언어로 기술했다",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/frantz-fanon/",
+          "quote": "the desire to be white, Fanon’s characterization of the drive to perfect diction, means alienation from blackness and this lands the black subject, again, in the zone of non-being"
+        },
+        {
+          "sids": [
+            "ffdef2246091"
+          ],
+          "field": "author.importanceReason",
+          "claim": "파농은 정신과 의사였다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "completing his studies in medicine and psychiatry at the University of Lyon. In 1953–56 he served as head of the psychiatry department of Blida-Joinville Hospital in Algeria"
+        },
+        {
+          "sids": [
+            "ffdef2246091"
+          ],
+          "field": "author.importanceReason",
+          "claim": "파농이 탈식민 사상의 심리학적 토대를 놓았다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Frantz_Fanon",
+          "quote": "was a French psychiatrist and political philosopher , who made critical contributions to the fields of post-colonial studies and critical theory . [ 3 ] As well as an intellectual , Fanon was a political radical and Pan-Africanist , concerned with the psychopathology of colonization",
+          "correction": "식민화의 정신병리를 다루어 탈식민 연구와 비판이론에 결정적으로 기여했다.",
+          "note": "'토대를 놓았다'는 창시 주장이다. 찾은 출처(위키백과, 브리태니커)는 '결정적 기여'·'식민주의의 심리사회적 영향 분석'까지만 말한다."
+        },
+        {
+          "sids": [
+            "0d76861c659d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『검은 피부, 하얀 가면』은 언어·연애(유색인 여성과 백인 남성, 유색인 남성과 백인 여성)를 각각 장으로 다룬다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "1. Le Noir et le langage. 15 2. La femme de couleur et le Blanc. 35 3. L’homme de couleur et la Blanche. 53"
+        },
+        {
+          "sids": [
+            "0d76861c659d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『검은 피부, 하얀 가면』은 가족이라는 장면에서 인종화가 작동하는 방식을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "La famille blanche est le lieu de préparation et de formation à une vie sociale. « La structure familiale est intériorisée dans le surmoi et projetée dans le comportement politique [social, dirons-nous] » (Marcus). Le Noir, dans la mesure où il reste chez lui, réalise à peu de choses près le destin du petit Blanc."
+        },
+        {
+          "sids": [
+            "0d76861c659d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『대지의 저주받은 사람들』은 파농의 분석을 알제리 전쟁의 정세로 옮긴다",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/frantz-fanon/",
+          "quote": "The Algerian experience and ideology that emerged from it structures Fanon’s take on anti-colonial struggle in the region"
+        },
+        {
+          "sids": [
+            "0d76861c659d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『대지의 저주받은 사람들』은 독립 이후 민족 부르주아지의 배신까지 서술한다",
+          "verdict": "confirmed",
+          "url": "https://abahlali.org/wp-content/uploads/2011/04/Frantz-Fanon-The-Wretched-of-the-Earth-1965.pdf",
+          "quote": "The people stagnate deplorably in unbearable poverty; slowly they awaken to the unutterable treason of their leaders. This awakening is all the more acute in that the bourgeoisie is incapable of learning its lesson.",
+          "note": "「The Pitfalls of National Consciousness」 장(목차상 148쪽~)의 대목."
+        },
+        {
+          "sids": [
+            "952139f708ca"
+          ],
+          "field": "author.importanceReason",
+          "claim": "두 책은 1960년대 이후 미국과 옛 식민지(카리브·아프리카)의 저항 운동에서 널리 읽혔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Black_Skin,_White_Masks",
+          "quote": "Together with Fanon's The Wretched of the Earth, it received wider attention during cultural upheavals starting in the 1960s, in the United States as well as former colonial countries in the Caribbean and Africa.",
+          "note": "『대지의 저주받은 사람들』 쪽은 encyclopedia.com도 «the bible of black radical groups in the United States»라고 쓴다."
+        },
+        {
+          "sids": [
+            "bcf4c077d5af"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『검은 피부, 하얀 가면』은 구체적 장면과 개인 서사를 통해 논의를 펼친다",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/frantz-fanon/",
+          "quote": "something borne out in the rich, textured personal narratives that seize upon the essential structures of the narrativized event of anti-blackness"
+        },
+        {
+          "sids": [
+            "858d162dda03"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "책에 백인 아이가 어머니에게 '저기 흑인이야'라고 외치는 일화가 있다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "« Maman, regarde le nègre, j’ai peur ! » Peur ! Peur ! Voilà qu'on se mettait à me craindre.",
+          "note": "원문은 '엄마, 저 흑인 봐, 무서워!'로 '무섭다'가 붙는다. 이 일화는 5장 「흑인의 체험」에 있다."
+        },
+        {
+          "sids": [
+            "858d162dda03"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "책 분량은 200쪽대다",
+          "verdict": "confirmed",
+          "url": "https://catalogue.bnf.fr/api/SRU?version=1.2&operation=searchRetrieve&query=bib.title%20all%20%22peau%20noire%20masques%20blancs%22%20and%20bib.date%20all%20%221952%22&recordSchema=dublincore",
+          "quote": "1 volume 223 p ; in-16",
+          "note": "1952년 쇠유 초판 223쪽(BnF). 영어판 위키백과 인포박스도 222쪽."
+        },
+        {
+          "sids": [
+            "7508a9c3b17f"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『대지의 저주받은 사람들』의 1장은 「폭력에 관하여」다",
+          "verdict": "confirmed",
+          "url": "https://abahlali.org/wp-content/uploads/2011/04/Frantz-Fanon-The-Wretched-of-the-Earth-1965.pdf",
+          "quote": "CONTENTS Preface Concerning Violence Violence in the International Context"
+        },
+        {
+          "sids": [
+            "369a92854de7"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『대지의 저주받은 사람들』 후반부에 「민족의식의 함정」 장이 있고 마지막 장은 정신질환 증례들이다",
+          "verdict": "confirmed",
+          "url": "https://abahlali.org/wp-content/uploads/2011/04/Frantz-Fanon-The-Wretched-of-the-Earth-1965.pdf",
+          "quote": "The Pitfalls of National Consciousness On National Culture Colonial War and Mental Disorders Series A Series B Series C Series D Conclusion",
+          "note": "증례 장(Series A–D) 뒤에 짧은 결론이 한 편 더 붙는다."
+        },
+        {
+          "sids": [
+            "0d1afd2368a1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "파농은 헤겔의 인정 투쟁을 비판적 논박 상대로 삼는다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "Nous espérons avoir montré que le maître ici diffère essentiellement de celui décrit par Hegel. Chez Hegel il y a réciprocité, ici le maître se moque de la conscience de l’esclave."
+        },
+        {
+          "sids": [
+            "0d1afd2368a1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "파농은 라캉의 거울 단계를 논박 상대로 삼는다",
+          "verdict": "contradicted",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "en s'appuyant sur la notion lacanienne du stage du miroir, à se demander dans quelle mesure 1 * imago du semblable édifiée chez le jeune Blanc à l’âge que l’on sait ne subirait pas une agression imaginaire à l’apparition du Noir. Quand on a compris ce processus décrit par Lacan, il ne fait plus de doute que le véritable Autrui du Blanc est et demeure le Noir.",
+          "correction": "라캉의 거울 단계는 논박 상대가 아니라, 백인에게 흑인이 어떻게 '타자'로 지각되는지를 설명하려고 끌어온 도구다.",
+          "note": "파농은 거울 단계에 '기대어'(en s'appuyant sur) 논의를 전개한다. OCR 원문의 'stage'·'1 *'는 판독 오류다."
+        },
+        {
+          "sids": [
+            "0d1afd2368a1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "파농은 사르트르의 「검은 오르페우스」를 논박 상대로 삼는다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "Orphée Noir est une date dans l'intellectualisation de Y exister noir. Et l'erreur de Sartre a été non seulement de vouloir aller à la source de la source, mais en quelque façon de tarir cette source"
+        },
+        {
+          "sids": [
+            "0d1afd2368a1"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "이 책에는 임상 사례(환자의 꿈 등)가 논의와 섞여 있다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "Quand un nègre me raconte le rêve suivant : « Je marche depuis longtemps, je suis très fatigué, j'ai l'impression que quelque chose m’attend, je franchis des barrières"
+        },
+        {
+          "sids": [
+            "f0583c9b47bb"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "파농의 후기작은 알제리 민족해방전선(FLN) 활동 중에 쓰였고 그 정세를 전제한다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "L’An V de la Révolution Algérienne (1959; also published as A Dying Colonialism , 1965), collections of essays written during his time with El Moudjahid",
+          "note": "같은 항목: «He began working with the Algerian liberation movement, the National Liberation Front (Front de Libération Nationale; FLN), and in 1956 became an editor of its newspaper, El Moudjahid»."
+        },
+        {
+          "sids": [
+            "f9ad92522254"
+          ],
+          "field": "work:frantz-fanon--lan-v-de-la-revolution-algerienne.facts",
+          "claim": "『알제리 혁명 5년』(L'An V de la révolution algérienne)은 1959년에 나온 에세이 모음이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "L’An V de la Révolution Algérienne (1959; also published as A Dying Colonialism , 1965), collections of essays"
+        },
+        {
+          "sids": [
+            "8b792d6966a3"
+          ],
+          "field": "work:frantz-fanon--lan-v-de-la-revolution-algerienne.significance",
+          "claim": "베일·라디오·가족·의료를 각각 한 장으로 다룬다",
+          "verdict": "confirmed",
+          "url": "https://files.libcom.org/files/%5BFrantz_Fanon%5D_A_Dying_Colonialism%28BookZZ.org%29.pdf",
+          "quote": "3. The Algerian Family 64 69 99 4. Medicine and Colonialism 121 5. Algeria's European Minority 147 Appendix 2. This is the Voice of Algeria",
+          "note": "영역본 목차: 1장 Algeria Unveiled, 2장 This is the Voice of Algeria(라디오), 3장 The Algerian Family, 4장 Medicine and Colonialism. 5장 「알제리의 유럽인 소수자」가 하나 더 있다."
+        },
+        {
+          "sids": [
+            "8b792d6966a3"
+          ],
+          "field": "work:frantz-fanon--lan-v-de-la-revolution-algerienne.significance",
+          "claim": "전쟁 중 알제리 사회의 오랜 관습·제도가 어떻게 바뀌었는지 기록한 책이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Frantz_Fanon",
+          "quote": "A Dying Colonialism is a 1959 book by Fanon that provides an account of how, during the Algerian Revolution, the people of Algeria fought their oppressors. They changed centuries-old cultural patterns"
+        },
+        {
+          "sids": [
+            "3eb947613343"
+          ],
+          "field": "work:frantz-fanon--pour-la-revolution-africaine.facts",
+          "claim": "『아프리카 혁명을 향하여』(Pour la révolution africaine)는 1964년에 처음 나온 에세이 모음이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Toward_the_African_Revolution",
+          "quote": "Toward the African Revolution ( French : Pour la Revolution Africaine ) is a collection of essays written by Frantz Fanon , which was published in 1964, [ 1 ] after Fanon's death."
+        },
+        {
+          "sids": [
+            "9edfbbf3b948"
+          ],
+          "field": "work:frantz-fanon--pour-la-revolution-africaine.significance",
+          "claim": "사후에 엮인 정치 논설 모음이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Toward_the_African_Revolution",
+          "quote": "is a collection of essays written by Frantz Fanon , which was published in 1964, [ 1 ] after Fanon's death. The essays in the book were written from 1952 to 1961"
+        },
+        {
+          "sids": [
+            "9edfbbf3b948"
+          ],
+          "field": "work:frantz-fanon--pour-la-revolution-africaine.significance",
+          "claim": "연설과 사직서가 함께 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Toward_the_African_Revolution",
+          "quote": "The second section, Racism and Culture (French: Racisme et culture), is a single speech given by Fanon in 1956 at the first Congress of Black Writers and Artists",
+          "note": "같은 문서: «The second half of this section is the letter of resignation that Fanon sent in 1956»."
+        },
+        {
+          "sids": [
+            "688a4fc79828"
+          ],
+          "field": "work:frantz-fanon--pour-la-revolution-africaine.significance",
+          "claim": "1956년 블리다-주앵빌 병원 과장직을 사직하며 쓴 사직서가 이 책에 실렸다",
+          "verdict": "confirmed",
+          "url": "https://babzman.com/lettre-officielle-de-frantz-fanon-au-ministre-resident-gouverneur-general-de-lalgerie/",
+          "quote": "Médecin-Chef de service à l’Hôpital Psychiatrique de BLIDA-JOINVILLE, à Monsieur le Ministre Résident. Gouverneur Général de L’Algérie, Alger",
+          "note": "같은 페이지 말미: «j’ai l’honneur, Monsieur le Ministre, de vous demander de bien vouloir accepter ma démission … Sources : Frantz Fanon : « Pour la révolution Africaine ». Edition Maspéro – 1964». 1956년은 위키백과 Toward the African Revolution 항목의 «letter of resignation that Fanon sent in 1956»."
+        },
+        {
+          "sids": [
+            "688a4fc79828"
+          ],
+          "field": "work:frantz-fanon--pour-la-revolution-africaine.significance",
+          "claim": "사직서 수신자는 알제리 주재 장관 로베르 라코스트다",
+          "verdict": "confirmed",
+          "url": "https://ficemea.org/?p=5673",
+          "quote": "comme il le dit dans sa lettre de démission au Ministre Résident, Robert Lacoste, en 1956"
+        },
+        {
+          "sids": [
+            "688a4fc79828"
+          ],
+          "field": "work:frantz-fanon--pour-la-revolution-africaine.significance",
+          "claim": "이 책은 파농의 판단이 형성되는 과정을 시간 순으로 배열한다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Toward_the_African_Revolution",
+          "quote": "The essays in Toward the African Revolution are split into five sections, roughly grouped by topic and manner of original publication. They help to trace the evolution of Fanon's thought over time",
+          "correction": "주제별로 묶인 다섯 부분을 따라 파농의 사유가 변해 간 과정을 더듬어 볼 수 있다.",
+          "note": "배열 기준은 시간 순이 아니라 주제·원 발표 지면이다."
+        },
+        {
+          "sids": [
+            "e31ad2b09d51"
+          ],
+          "field": "work:frantz-fanon--les-damnes-de-la-terre.facts",
+          "claim": "『대지의 저주받은 사람들』(Les Damnés de la terre)은 1961년작이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "The publication shortly before his death of his book Les Damnés de la terre (1961; The Wretched of the Earth )"
+        },
+        {
+          "sids": [
+            "5ca6cfa7ca69"
+          ],
+          "field": "work:frantz-fanon--les-damnes-de-la-terre.significance",
+          "claim": "백혈병 진단 뒤 아내에게 구술한 책이다",
+          "verdict": "confirmed",
+          "url": "https://www.encyclopedia.com/people/medicine/psychology-and-psychiatry-biographies/frantz-fanon",
+          "quote": "In 1960, Fanon was diagnosed with leukemia. Throughout spring and summer 1961, Fanon dictated to his wife Les damnésde la terre ( The Wretched of the Earth )"
+        },
+        {
+          "sids": [
+            "5ca6cfa7ca69"
+          ],
+          "field": "work:frantz-fanon--les-damnes-de-la-terre.significance",
+          "claim": "죽기 직전에 나온 생애 마지막 책이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "The publication shortly before his death of his book Les Damnés de la terre (1961; The Wretched of the Earth )",
+          "note": "엄밀히는 사후 출간이 아니라 사망(1961년 12월) 직전 출간이다."
+        },
+        {
+          "sids": [
+            "3475c7628448"
+          ],
+          "field": "work:frantz-fanon--les-damnes-de-la-terre.significance",
+          "claim": "식민지 폭력, 민족의식의 함정, 전쟁과 정신질환 증례를 한 권에 담았다",
+          "verdict": "confirmed",
+          "url": "https://abahlali.org/wp-content/uploads/2011/04/Frantz-Fanon-The-Wretched-of-the-Earth-1965.pdf",
+          "quote": "CONTENTS Preface Concerning Violence Violence in the International Context Spontaneity: Its Strength and Weakness The Pitfalls of National Consciousness On National Culture Colonial War and Mental Disorders"
+        },
+        {
+          "sids": [
+            "3475c7628448"
+          ],
+          "field": "work:frantz-fanon--les-damnes-de-la-terre.significance",
+          "claim": "독립 이후 민족 부르주아지의 무능을 다룬다",
+          "verdict": "confirmed",
+          "url": "https://abahlali.org/wp-content/uploads/2011/04/Frantz-Fanon-The-Wretched-of-the-Earth-1965.pdf",
+          "quote": "the historical result of the incapacity of the national middle class to rationalize popular action"
+        },
+        {
+          "sids": [
+            "3475c7628448"
+          ],
+          "field": "work:frantz-fanon--les-damnes-de-la-terre.significance",
+          "claim": "탈식민 운동의 표준 참조 텍스트가 되었다",
+          "verdict": "contradicted",
+          "url": "https://www.encyclopedia.com/people/medicine/psychology-and-psychiatry-biographies/frantz-fanon",
+          "quote": "which has been hailed as the manifesto of Third World revolution and the bible of black radical groups in the United States",
+          "correction": "제3세계 혁명의 선언문으로 불리며 파농을 국제 탈식민 운동의 대표적 지식인으로 세웠다.",
+          "note": "'표준 참조 텍스트'라고 말하는 출처는 찾지 못했다. 브리태니커는 «established Fanon as a leading intellectual in the international decolonization movement»라고 쓴다."
+        },
+        {
+          "sids": [
+            "1bc22a6eaa41"
+          ],
+          "field": "work:frantz-fanon--peau-noire-masques-blancs.facts",
+          "claim": "『검은 피부, 하얀 가면』(Peau noire, masques blancs)은 1952년에 나온 책이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "Fanon’s Peau noire, masques blancs (1952; Black Skin, White Masks ) is a multidisciplinary analysis of the effect of colonialism on racial consciousness"
+        },
+        {
+          "sids": [
+            "452afd200754"
+          ],
+          "field": "work:frantz-fanon--peau-noire-masques-blancs.significance",
+          "claim": "언어·연애·정신병리를 다룬 장들로 이루어져 있다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "1. Le Noir et le langage. 15 2. La femme de couleur et le Blanc. 35 3. L’homme de couleur et la Blanche. 53 4. Du prétendu complexe de dépendance du colonisé . 69 5. L’expérience vécue du Noir. 90 6. Le Nègre et la psychopathologie. 117"
+        },
+        {
+          "sids": [
+            "452afd200754"
+          ],
+          "field": "work:frantz-fanon--peau-noire-masques-blancs.significance",
+          "claim": "식민지 흑인이 백인의 시선을 자기 것으로 삼는 과정을 기술한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Black_Skin,_White_Masks",
+          "quote": "In this schema, the Black subject is forced to adopt the white gaze, perceiving themselves as the object constructed by racist stereotypes."
+        },
+        {
+          "sids": [
+            "2239fd838e10"
+          ],
+          "field": "work:frantz-fanon--peau-noire-masques-blancs.significance",
+          "claim": "27세에 쓴 첫 책이다",
+          "verdict": "contradicted",
+          "url": "https://plato.stanford.edu/entries/frantz-fanon/",
+          "quote": "In 1952, Fanon published his first major work Black Skin, White Masks . Though just 27 at the time of its publication",
+          "correction": "27세에 펴낸 첫 책으로",
+          "note": "SEP는 '출간 당시 27세'라고 쓴다. 집필은 그 이전이다."
+        },
+        {
+          "sids": [
+            "2239fd838e10"
+          ],
+          "field": "work:frantz-fanon--peau-noire-masques-blancs.significance",
+          "claim": "인종을 심리 구조(인종 의식)의 문제로 다루는 분석 틀을 마련했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "is a multidisciplinary analysis of the effect of colonialism on racial consciousness . Integrating psychoanalysis , phenomenology , existentialism , and Negritude theory"
+        },
+        {
+          "sids": [
+            "15cd85d6a370"
+          ],
+          "field": "relation:influence--frantz-fanon--edouard-glissant.facts",
+          "claim": "파농에서 글리상으로 향하는 영향 관계가 있다(방향: 파농→글리상)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://read.dukeupress.edu/small-axe/article-abstract/13/3%20(30)/12/32368/From-Fanon-to-Glissant-A-Martinican-Genealogy",
+          "quote": "his legacy can be traced in the work of the contemporary Caribbean philosopher and poet Edouard Glissant, whose brand of transnationalism in Le discours antillais develops the ramifications of Fanon's thought"
+        },
+        {
+          "sids": [
+            "15cd85d6a370"
+          ],
+          "field": "relation:influence--frantz-fanon--edouard-glissant.facts",
+          "claim": "이 영향 관계의 근거 수준은 학계 통설(scholarly_consensus)이다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/2024/https://read.dukeupress.edu/small-axe/article-abstract/13/3%20(30)/12/32368/From-Fanon-to-Glissant-A-Martinican-Genealogy",
+          "quote": "develops the ramifications of Fanon's thought in a way that has been obscured by anglophone criticism",
+          "correction": "documented — 개별 연구(Dash의 『Caribbean Discourse』 영역본 서문, Mardorossian 2009)가 제시한 계보",
+          "note": "Mardorossian은 이 계보가 영어권 비평에서 가려져 왔다고 쓴다. 통설이라고 말하는 출처는 찾지 못했다."
+        },
+        {
+          "sids": [
+            "4b0b32ca4e3e"
+          ],
+          "field": "relation:influence--frantz-fanon--edouard-glissant.summary",
+          "claim": "카리브 사상사 연구가 파농의 식민적 소외 분석에서 글리상으로 이어지는 계보를 다룬다",
+          "verdict": "confirmed",
+          "url": "http://pdf-objects.com/files/edouard-glissant-caribbean-discourse.pdf",
+          "quote": "It is, to this extent, anelaboration of the theme of psychic disposses‑ sion treated by Fanon in Black Skin, White Masks, (Peau noire, masques blancs 1952).",
+          "note": "J. Michael Dash의 영역본 서문. 학술 논문 Mardorossian, 「From Fanon to Glissant: A Martinican Genealogy」(Small Axe, 2009)도 같은 계보를 다룬다."
+        },
+        {
+          "sids": [
+            "4b0b32ca4e3e"
+          ],
+          "field": "relation:influence--frantz-fanon--edouard-glissant.summary",
+          "claim": "'강요된 시학'은 글리상의 『앤틸리스 담론』 개념이다",
+          "verdict": "confirmed",
+          "url": "http://pdf-objects.com/files/edouard-glissant-caribbean-discourse.pdf",
+          "quote": "the mass of Mar‑ tinicans developed a forced poetics (which we will also call a counter-poetics)"
+        },
+        {
+          "sids": [
+            "5554f3ab8a72"
+          ],
+          "field": "relation:influence--frantz-fanon--edouard-glissant.summary",
+          "claim": "파농과 글리상은 같은 마르티니크 세대에 속한다",
+          "verdict": "confirmed",
+          "url": "http://pdf-objects.com/files/edouard-glissant-caribbean-discourse.pdf",
+          "quote": "Glissant, along with his contemporary Frantz Fanon, was exposed to Césaire’s ideas on black con‑ sciousness"
+        },
+        {
+          "sids": [
+            "9d92e7fda41c"
+          ],
+          "field": "relation:mentorship--aime-cesaire--frantz-fanon.facts",
+          "claim": "세제르는 파농의 스승(멘토)이었다(방향: 세제르→파농)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Frantz_Fanon",
+          "quote": "Césaire was a mentor to Fanon on the island of Martinique, [ 50 ] where he was first introduced to Négritude during his lycée days on the island."
+        },
+        {
+          "sids": [
+            "ef973924b4c4"
+          ],
+          "field": "relation:mentorship--aime-cesaire--frantz-fanon.summary",
+          "claim": "파농은 포르드프랑스의 리세 셸셰르에서 세제르에게 배웠다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Frantz_Fanon",
+          "quote": "During this time, he campaigned for Aimé Césaire - one of the founders of Négritude and a teacher at the Lycée - who was running to become Martinique's deputy to the first National Assembly of the French Fourth Republic. Though Césaire never taught Fanon directly, his writings had a profound impact on Fanon's thought.",
+          "correction": "파농은 세제르가 교사로 있던 포르드프랑스의 리세 셸셰르에 다녔고",
+          "note": "출처가 엇갈린다. 샤츠의 LRB 글(2017)은 «where his teacher was the poet Aimé Césaire», encyclopedia.com은 «studying under Aimé Césaire»라고 쓰지만, 위키백과는 샤츠의 전기 『The Rebel's Clinic』(2024, pp.37–38)를 근거로 직접 가르치지는 않았다고 쓴다. 전기 원문은 열람하지 못했다. 두 쪽 모두 인정하는 좁은 진술로 고친다."
+        },
+        {
+          "sids": [
+            "ef973924b4c4"
+          ],
+          "field": "relation:mentorship--aime-cesaire--frantz-fanon.summary",
+          "claim": "『검은 피부, 하얀 가면』은 『귀향 수첩』 구절을 거듭 인용한다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "20. Aimé Césaire, Cahier d'un retour , p. 5 6, as. Ibid .",
+          "note": "본문에 『Cahier d'un retour au pays natal』 인용 각주·언급이 7곳 있다(OCR 전문 검색)."
+        },
+        {
+          "sids": [
+            "ef973924b4c4"
+          ],
+          "field": "relation:mentorship--aime-cesaire--frantz-fanon.summary",
+          "claim": "파농은 이 책에서 세제르의 네그리튀드를 비판적으로 검토한다",
+          "verdict": "confirmed",
+          "url": "https://plato.stanford.edu/entries/frantz-fanon/",
+          "quote": "A good bit of this was undertaken in the first chapter, where Fanon critically reads Aimé Césaire and his articulation of Négritude around the question of language."
+        },
+        {
+          "sids": [
+            "9722fa1d6fb6"
+          ],
+          "field": "relation:dialogue--frantz-fanon--jean-paul-sartre.facts",
+          "claim": "파농과 사르트르 사이에 직접 대화 관계가 있었다(양방향)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://nottingham-repository.worktribe.com/file/744607/1/Batchelor%20Fanon%20NFS%20article%20Accepted%20Manuscript.pdf",
+          "quote": "Beauvoir’s account relies in part on her first-hand involvement in the encounter between Fanon and Sartre in Rome in July 1961"
+        },
+        {
+          "sids": [
+            "da0bcfc23291"
+          ],
+          "field": "relation:dialogue--frantz-fanon--jean-paul-sartre.summary",
+          "claim": "사르트르가 『대지의 저주받은 사람들』(1961)의 서문을 썼다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Frantz-Fanon",
+          "quote": "the preface to his book was written by Jean-Paul Sartre"
+        },
+        {
+          "sids": [
+            "da0bcfc23291"
+          ],
+          "field": "relation:dialogue--frantz-fanon--jean-paul-sartre.summary",
+          "claim": "두 사람은 1961년 로마에서 만났다",
+          "verdict": "confirmed",
+          "url": "https://www.lrb.co.uk/the-paper/v39/n02/adam-shatz/where-life-is-seized",
+          "quote": "In late July 1961, they met for the first time in Rome, where they were joined by Beauvoir and Lanzmann."
+        },
+        {
+          "sids": [
+            "da0bcfc23291"
+          ],
+          "field": "relation:dialogue--frantz-fanon--jean-paul-sartre.summary",
+          "claim": "두 사람은 로마에서 밤을 새우며 논쟁했다",
+          "verdict": "contradicted",
+          "url": "https://www.lrb.co.uk/the-paper/v39/n02/adam-shatz/where-life-is-seized",
+          "quote": "Fanon and Sartre’s first conversation lasted from lunch until 2 a.m., when Beauvoir announced that Sartre needed to sleep. Fanon was indignant.",
+          "correction": "두 사람은 그해 7월 말 로마에서 처음 만나, 첫날 점심부터 새벽 2시까지 이야기를 이어 갔다",
+          "note": "보부아르가 사르트르를 재우려고 새벽 2시에 대화를 끊었다. 밤을 새운 것은 아니며, 출처는 '논쟁'이 아니라 '대화'라고 쓴다."
+        },
+        {
+          "sids": [
+            "da0bcfc23291"
+          ],
+          "field": "relation:dialogue--frantz-fanon--jean-paul-sartre.summary",
+          "claim": "보부아르가 『상황의 힘』(La Force des choses)에 그 만남을 기록했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://nottingham-repository.worktribe.com/file/744607/1/Batchelor%20Fanon%20NFS%20article%20Accepted%20Manuscript.pdf",
+          "quote": "The main accounts of Fanon’s interest in Sartre’s text are found in two sources: Simone de Beauvoir’s La Force des choses, published in 1963, and Annie Cohen-Solal’s Sartre"
+        },
+        {
+          "sids": [
+            "e3809db7343f"
+          ],
+          "field": "relation:dialogue--frantz-fanon--jean-paul-sartre.summary",
+          "claim": "파농은 『검은 피부, 하얀 가면』에서 사르트르의 「검은 오르페우스」를 정면으로 반박했다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/stream/FanonFrantzPeauNoireMasquesBlancsEdS1952/FanonFrantz-PeauNoireMasquesBlancseds1952_djvu.txt",
+          "quote": "Jean-Paul Sartre, dans cette étude, a détruit l'en¬ thousiasme noir."
+        },
+        {
+          "sids": [
+            "4258a1073846"
+          ],
+          "field": "relation:influence--frantz-fanon--ngugi-wa-thiongo.facts",
+          "claim": "응구기는 파농의 영향을 문서로 밝혔다(방향: 파농→응구기)",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/search/inside?q=%22so+aptly+described+by+Frantz+Fanon%22",
+          "quote": "and the neo-colonial elite, so aptly described by Frantz Fanon in The Wretched of the Earthy",
+          "note": "응구기 『Homecoming』(Heinemann, 1972) 194쪽 스캔본(o00nggw)의 전문 검색 결과. 'Earthy'는 OCR 오류."
+        },
+        {
+          "sids": [
+            "6592bef25c6e"
+          ],
+          "field": "relation:influence--frantz-fanon--ngugi-wa-thiongo.summary",
+          "claim": "응구기의 에세이집 『귀향』(Homecoming)은 1972년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/metadata/o00nggw/metadata",
+          "quote": "\"date\":\"1972\"",
+          "note": "같은 메타데이터: \"title\":\"Homecoming: essays on African and Caribbean literature, culture and politics\", \"publisher\":\"London, Heinemann\"."
+        },
+        {
+          "sids": [
+            "6592bef25c6e"
+          ],
+          "field": "relation:influence--frantz-fanon--ngugi-wa-thiongo.summary",
+          "claim": "응구기는 『귀향』에서 파농의 '민족의식의 함정'을 독립 이후 동아프리카 계급 분화를 읽는 틀로 삼는다",
+          "verdict": "contradicted",
+          "url": "https://openlibrary.org/search/inside?q=%22so+aptly+described+by+Frantz+Fanon%22",
+          "quote": "and the neo-colonial elite, so aptly described by Frantz Fanon in The Wretched of the Earthy",
+          "correction": "응구기는 에세이집 『귀향』(1972)에서 파농이 '민족의식의 함정'으로 그린 대중과 신식민 엘리트의 관계를 작품 읽기의 틀로 삼는다.",
+          "note": "194쪽의 해당 대목은 «as a pitfall of national consciousness is here brilliantly captured»로 이어진다(별도 검색 결과). 오콜 프비텍의 『라위노의 노래』를 다루는 대목이다. '동아프리카'를 명시한 원문은 이번에 열람하지 못했다(Google Books는 봇 차단). 확인된 범위로 좁힌다."
+        },
+        {
+          "sids": [
+            "84643ebe5b0c"
+          ],
+          "field": "relation:influence--frantz-fanon--ngugi-wa-thiongo.summary",
+          "claim": "응구기 자신이 『한 톨의 밀알』을 파농의 「민족의식의 함정」과 연결한다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/search/inside?q=%22A+Grain+of+Wheat+was+both+a+celebration%22",
+          "quote": "Pitfalls of National Consciousness’. A Grain of Wheat was both a celebration of independence and a warning about",
+          "note": "응구기 『Moving the Centre』(J. Currey/Heinemann) 218쪽 스캔본(movingcentrestru0000ngug_k6a9)의 전문 검색 결과. 다른 스캔본(214쪽)에는 «Earth entitled ‘The Pitfalls of National Consciousness’»가 함께 잡힌다."
+        },
+        {
+          "sids": [
+            "84643ebe5b0c"
+          ],
+          "field": "relation:influence--frantz-fanon--ngugi-wa-thiongo.summary",
+          "claim": "『한 톨의 밀알』은 1967년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/A_Grain_of_Wheat",
+          "quote": "It was written while he was studying at Leeds University [ 1 ] and first published in 1967 by Heinemann."
+        }
+      ],
+      "noClaim": {
+        "73d5cc85d4af": "저작의 위상에 대한 해석적 평가('이론이 정세 분석으로 바뀌는 지점')로, 사실 주장이 아니다."
+      }
+    }
+  ]
+}

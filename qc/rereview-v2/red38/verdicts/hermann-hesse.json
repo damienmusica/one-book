@@ -1,0 +1,824 @@
+{
+ "plates": [
+  {
+   "id": "hermann-hesse",
+   "claims": [
+    {
+     "sids": [
+      "fb3d38f32c28"
+     ],
+     "field": "author.facts",
+     "claim": "작가의 원어 이름은 Hermann Hesse, 한국어 표기는 헤르만 헤세다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%A5%B4%EB%A7%8C_%ED%97%A4%EC%84%B8",
+     "quote": "헤르만 카를 헤세(독일어: Hermann Karl Hesse, 1877년 7월 2일 ~ 1962년 8월 9일)"
+    },
+    {
+     "sids": [
+      "fb3d38f32c28"
+     ],
+     "field": "author.facts",
+     "claim": "헤세는 1877년에 태어나 1962년에 죽었다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1946/hesse/facts/",
+     "quote": "Born: 2 July 1877, Calw, Germany"
+    },
+    {
+     "sids": [
+      "fb3d38f32c28"
+     ],
+     "field": "author.facts",
+     "claim": "헤세의 사망 연도는 1962년이다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1946/hesse/facts/",
+     "quote": "Died: 9 August 1962, Montagnola, Switzerland"
+    },
+    {
+     "sids": [
+      "fb3d38f32c28"
+     ],
+     "field": "author.facts",
+     "claim": "독일(칼프)에서 나 스위스(몬타뇰라)에서 죽은, 중부 유럽의 독일어 작가다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+     "quote": "Hermann Hesse (born July 2, 1877, Calw, Germany—died August 9, 1962, Montagnola, Switzerland) was a German novelist and poet",
+     "correction": "노벨재단 사실 페이지도 작품 언어를 German으로 적는다."
+    },
+    {
+     "sids": [
+      "6c8804c72cb2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "헤세는 서양 철학보다 인도, 이어서 중국 사유에서 더 큰 영향을 받았다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1946/hesse/biographical/",
+     "quote": "But they did not influence me as much as Indian and, later, Chinese philosophy."
+    },
+    {
+     "sids": [
+      "6c8804c72cb2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『싯다르타』에 인도(불교) 사유가 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1946/ceremony-speech/",
+     "quote": "the influence of Buddhism soon entered his thought, an influence by no means restricted to Siddhartha (1922) the beautiful story of a young Brahman’s search for the meaning of life on earth"
+    },
+    {
+     "sids": [
+      "6c8804c72cb2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『싯다르타』는 기본 구조에서 헤세의 다른 발전소설(교양소설)과 같은 뼈대를 따른다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Das Werk ähnelt, trotz der dichterischen Sprache und des fremden Kulturraums, in seinem Grundaufbau anderen Entwicklungsromanen Hesses wie Demian, Der Steppenwolf, Narziß und Goldmund und Das Glasperlenspiel"
+    },
+    {
+     "sids": [
+      "6c8804c72cb2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『유리알 유희』에 중국 사유(도·유교)가 구성 원리로 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "Hsia bewies den Aufbau des Werks nach dem Tao und zeigte die Polaritäten, die eine höhere Einheit bilden.",
+     "correction": "같은 문서: 크네히트의 삶의 모범은 공자(Kungfutse)다."
+    },
+    {
+     "sids": [
+      "6c8804c72cb2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『유리알 유희』는 교양소설의 형식을 취한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/The_Glass_Bead_Game",
+     "quote": "The novel is an example of a Bildungsroman, following the life of a distinguished member of the Castalian Order, Joseph Knecht"
+    },
+    {
+     "sids": [
+      "6c8804c72cb2"
+     ],
+     "field": "author.importanceReason",
+     "claim": "자기를 찾는 여정에 동양과 서양의 사유를 함께 엮었다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Letztlich verbinden sich bei ihm urchristliches Gedankengut und Ideen der Romantik mit dem Buddhismus und anderen asiatischen Religionen."
+    },
+    {
+     "sids": [
+      "71f3e87ebd46"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『데미안』의 데미안은 주인공 내면의 인도자로 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "So kann Demian als ratgebende Kraft in Sinclairs Unterbewusstsein interpretiert werden."
+    },
+    {
+     "sids": [
+      "71f3e87ebd46"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『황야의 이리』는 갈라진 자아를 그린다",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1946/ceremony-speech/",
+     "quote": "an inspired account of the split in human nature, the tension between desire and reason in an individual who is outside the social and moral notions of everyday life"
+    },
+    {
+     "sids": [
+      "71f3e87ebd46"
+     ],
+     "field": "author.importanceReason",
+     "claim": "『나르치스와 골드문트』는 정신(사색가)과 감각(감각적 인간)을 두 인물로 나눈다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Narzi%C3%9F_und_Goldmund",
+     "quote": "Narziß hat als Denker oder Geistesmensch Goldmund gelehrt, gleichzeitig auch von dessen Lebensart als Sinnenmensch profitiert."
+    },
+    {
+     "sids": [
+      "71f3e87ebd46"
+     ],
+     "field": "author.importanceReason",
+     "claim": "헤세는 대립하는 두 삶의 방식을 인물로 맞세우는 구성을 여러 소설에서 반복했다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Das Werk ähnelt, trotz der dichterischen Sprache und des fremden Kulturraums, in seinem Grundaufbau anderen Entwicklungsromanen Hesses wie Demian, Der Steppenwolf, Narziß und Goldmund und Das Glasperlenspiel: Der Suchende, über sich Hinauswachsende, wird dem Stehengebliebenen gegenübergestellt, das vergeistigte dem weltlichen und sinnlichen Leben."
+    },
+    {
+     "sids": [
+      "71f3e87ebd46"
+     ],
+     "field": "author.importanceReason",
+     "claim": "정신분석의 영향 아래 성장소설을 자기 인식에 이르는 과정의 탐구(자기 분석)로 썼다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+     "quote": "The influence of analysis appears in Demian (1919), an examination of the achievement of self-awareness by a troubled adolescent."
+    },
+    {
+     "sids": [
+      "e552a22de759"
+     ],
+     "field": "author.importanceReason",
+     "claim": "헤세는 1946년 노벨문학상을 받았다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+     "quote": "was a German novelist and poet who was awarded the Nobel Prize for Literature in 1946"
+    },
+    {
+     "sids": [
+      "e552a22de759"
+     ],
+     "field": "author.importanceReason",
+     "claim": "노벨상 이후에도 인기가 오르내리며 새 세대 독자에게 다시 읽혔다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+     "quote": "After World War II, Hesse’s popularity among German readers soared, though it had crashed by the 1950s. His appeal for self-realization and his celebration of Eastern mysticism transformed him into something of a cult figure to young people in the English-speaking world in the 1960s and ’70s",
+     "correction": "독일어 위키백과 『데미안』 항목도 헤세 수용사가 \"wellenartig\"(물결처럼) 이어졌다고 쓴다."
+    },
+    {
+     "sids": [
+      "e552a22de759"
+     ],
+     "field": "author.importanceReason",
+     "claim": "1960년대 미국에서 반문화와 결부되어 새로 읽혔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Hermann_Hesse",
+     "quote": "The situation changed in the mid-1960s when his works suddenly became bestsellers in the United States, with many of the novels republished in inexpensive paperback editions. The revival in popularity of Hesse's works has been credited to their association with some of the popular themes of the 1960s counterculture (or hippie) movement."
+    },
+    {
+     "sids": [
+      "f27d807c2be9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『데미안』은 200쪽 안팎이다",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/books/OL59218662M.json",
+     "quote": "\"number_of_pages\": 224",
+     "correction": "1949년 주어캄프 독일어판. 같은 Open Library 저작 항목(OL30457295W)의 다른 판본은 독일어 224–256쪽, 영어 143–192쪽."
+    },
+    {
+     "sids": [
+      "f27d807c2be9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『데미안』은 1인칭으로 서술된다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "Entsprechend wird der Roman in der Ich-Form aus der Perspektive der Hauptfigur erzählt"
+    },
+    {
+     "sids": [
+      "f27d807c2be9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『데미안』은 성장소설이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Demian",
+     "quote": "Demian: The Story of a Boyhood is a bildungsroman by Hermann Hesse, published in 1919."
+    },
+    {
+     "sids": [
+      "f27d807c2be9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『데미안』에 내면의 인도자 구도가 있다(싱클레어는 끝내 인도자를 자기 안에서 찾는다)",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "Sinclair findet fortan den Freund und Führer in sich selbst"
+    },
+    {
+     "sids": [
+      "f27d807c2be9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『데미안』에 두 세계로 갈라진 자아의 구도가 있다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "Im frühesten Kindesalter spürt Sinclair die Existenz zweier Welten in seinem Leben"
+    },
+    {
+     "sids": [
+      "f27d807c2be9"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "이후 소설들이 반복할 구도가 『데미안』에서 \"가장 또렷하게\" 제시된다",
+     "verdict": "contradicted",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Das Werk ähnelt, trotz der dichterischen Sprache und des fremden Kulturraums, in seinem Grundaufbau anderen Entwicklungsromanen Hesses wie Demian, Der Steppenwolf, Narziß und Goldmund und Das Glasperlenspiel",
+     "correction": "이후 소설들이 되풀이할 구도 — 내면의 인도자와 갈라진 자아 — 가 여기서 먼저 제시된다.",
+     "note": "출처는 『데미안』과 이후 소설들이 같은 기본 구조를 공유한다고만 말한다. 이 구도가 『데미안』에서 \"가장 또렷하다\"는 비교는 어느 출처에서도 찾지 못했다."
+    },
+    {
+     "sids": [
+      "820900891d3b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『유리알 유희』는 본 이야기 앞에 가상 세계와 유리알 유희의 역사를 서술하는 서론이 놓인다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "Der eigentlichen Handlung geht die Einleitung des fiktiven Herausgebers voran, die in Form einer historischen Abhandlung abgefasst ist und die Entwicklung der von Hesse entworfenen Welt darstellt"
+    },
+    {
+     "sids": [
+      "820900891d3b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "그 서론이 길게 이어진다",
+     "verdict": "unverifiable",
+     "note": "서론 전체 분량을 밝힌 자료를 찾지 못했다. 주어캄프 st 4357(2012) 견본(res.cloudinary.com/suhrkamp/image/upload/v1742129931/56986.pdf)에서 서론은 9쪽에서 시작해 견본이 끝나는 20쪽까지도 이어지지만, 서론이 어디서 끝나는지는 견본 밖이다. archive.org 대출본(glassbeadgamemag0000hess_d5p7)은 본문 검색이 401로 막혔다."
+    },
+    {
+     "sids": [
+      "820900891d3b"
+     ],
+     "field": "author.readingWarning",
+     "claim": "인물(크네히트)이 한참 뒤에야 등장한다",
+     "verdict": "contradicted",
+     "url": "https://res.cloudinary.com/suhrkamp/image/upload/v1742129931/56986.pdf",
+     "quote": "ist unsere Absicht, in diesem Buch das Wenige festzuhalten, was wir an biographischem Material über Josef Knecht aufzufinden vermochten",
+     "correction": "『유리알 유희』로 시작하면 유리알 유희의 역사를 서술하는 서론이 먼저 이어지고, 크네히트의 생애 서술은 그 뒤에야 시작된다.",
+     "note": "서론의 첫 문장이 곧바로 요제프 크네히트를 이름으로 부른다(\"…was wir an biographischem Material über Josef Knecht aufzufinden vermochten\"). 늦게 시작하는 것은 인물의 등장이 아니라 그의 생애 이야기다."
+    },
+    {
+     "sids": [
+      "b0e784959b4e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "헤세의 문장과 서사는 평이하다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Siddhartha_(novel)",
+     "quote": "The book, Hesse's ninth novel, was written in German, in a simple, lyrical style.",
+     "correction": "『싯다르타』와 『데미안』의 문장은 평이하지만",
+     "note": "확인되는 것은 개별 작품의 문체뿐이다: 영어 위키백과 『싯다르타』 항목 \"written in German, in a simple, lyrical style\", 독일어 위키백과 『데미안』 항목의 병렬문 설명, 『유리알 유희』 동시대 반응의 \"Einfachheit der Sprache und des Stils\". 작품 전체의 \"서사\"가 평이하다는 일반 진술은 찾지 못했다."
+    },
+    {
+     "sids": [
+      "b0e784959b4e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "헤세의 인물들이 융 심리학의 개념을 짊어진다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Narzi%C3%9F_und_Goldmund",
+     "quote": "Sowohl Nietzsches Idee der Rückentwicklung des Geistes zum Kind als auch Jungs Archetypen der Anima und Großen Mutter drücken sich in Goldmunds Hin- und Rückwendung zur „Mutter“ aus.",
+     "correction": "브리태니커: \"Hesse’s later work shows his interest in Jungian concepts of introversion and extraversion, the collective unconscious, idealism, and symbols.\""
+    },
+    {
+     "sids": [
+      "b0e784959b4e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "헤세의 인물들이 인도 사유의 개념을 짊어진다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Viele der Namen sind der indischen Kultur entnommen. Sie enthalten Anspielungen auf die religiösen Vorstellungen sowohl des Hinduismus wie auch des Buddhismus"
+    },
+    {
+     "sids": [
+      "b0e784959b4e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "헤세의 인물들이 중국 사유의 개념을 짊어진다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "Ein Vorbild für Josef Knechts Leben ist Kungfutse"
+    },
+    {
+     "sids": [
+      "b0e784959b4e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『유리알 유희』에는 가상의 학문 공동체와 유리알 유희의 역사를 설명하는 서론이 있다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "Der eigentlichen Handlung geht die Einleitung des fiktiven Herausgebers voran, die in Form einer historischen Abhandlung abgefasst ist und die Entwicklung der von Hesse entworfenen Welt darstellt (Das Glasperlenspiel. Versuch einer allgemeinverständlichen Einführung in seine Geschichte)."
+    },
+    {
+     "sids": [
+      "b0e784959b4e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "그 서론이 길다",
+     "verdict": "unverifiable",
+     "note": "서론 전체 분량을 밝힌 자료를 찾지 못했다. 주어캄프 st 4357 견본에서 서론은 9쪽에서 시작해 견본 끝(20쪽)까지 이어질 뿐, 끝나는 쪽은 견본 밖이다. archive.org 대출본은 본문 검색이 401로 막혔다."
+    },
+    {
+     "sids": [
+      "b0e784959b4e"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "『유리알 유희』는 후반부 밀도가 급격히 올라간다",
+     "verdict": "unverifiable",
+     "note": "독일어·영어 위키백과, 노벨 수상 연설, 브리태니커, 주어캄프 견본에서 후반부 밀도에 관한 서술을 찾지 못했다. 인상 평가에 가까워 출처로 확인할 형태가 아니다."
+    },
+    {
+     "sids": [
+      "7b8d12f16e1a"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.facts",
+     "claim": "원제 Der Steppenwolf, 1927년에 나온 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+     "quote": "Der Steppenwolf ist ein 1927 erschienener Roman von Hermann Hesse."
+    },
+    {
+     "sids": [
+      "7b8d12f16e1a"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.facts",
+     "claim": "한국어 제목은 『황야의 이리』다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%A5%B4%EB%A7%8C_%ED%97%A4%EC%84%B8",
+     "quote": "1927년 《황야의 이리 Der Steppenwolf》"
+    },
+    {
+     "sids": [
+      "b35b00790790"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "주인공은 쉰 살 가까운 중년 남자다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+     "quote": "Harry Haller, „ein Mann von annähernd fünfzig Jahren“"
+    },
+    {
+     "sids": [
+      "b35b00790790"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "주인공은 시민적 자아와 늑대적 자아로 갈라져 있다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+     "quote": "Seine menschliche, bürgerlich-angepasste Seite und seine steppenwölfische, einsame, sozial- und kulturkritische Seite bekämpfen sich"
+    },
+    {
+     "sids": [
+      "b35b00790790"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "편집자의 서문이 주인공의 수기를 감싸고, 수기 안에 「황야의 이리에 관한 논고」가 책 속의 책으로 들어 있다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+     "quote": "Da ist erstens das Vorwort des „Herausgebers“, in dem der Neffe der Hauswirtin Hallers seinen persönlichen Eindruck vom Steppenwolf schildert; zweitens die Aufzeichnungen Harry Hallers selbst, in denen dieser seine eigenen Erlebnisse schildert, und drittens das Traktat vom Steppenwolf"
+    },
+    {
+     "sids": [
+      "b35b00790790"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "논고는 주인공이 수기 안에서 읽는 책 속의 책이고, 그 뒤 수기가 이어진다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+     "quote": "quasi ein Buch im Buch, das der Protagonist selbst liest. Danach werden seine Aufzeichnungen fortgesetzt."
+    },
+    {
+     "sids": [
+      "b0b5305aa0e9"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "\"마술 극장\"은 수기의 절정부(마지막 변신 단계)에 나온다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+     "quote": "Mit dieser mystischen Vereinigung beginnt die letzte Phase der Verwandlung: Hermine, Pablo, ein Saxophonist und Freund Hermines, und Haller nehmen gemeinsam Drogen ein und mit deren Wirkung öffnet sich der Bildersaal in Hallers Seele, das seit langem gesuchte „Magische Theater“"
+    },
+    {
+     "sids": [
+      "b0b5305aa0e9"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "괴테가 나오는 장면이 있다(주인공의 꿈속 괴테 알현)",
+     "verdict": "confirmed",
+     "url": "https://www.gutenberg.org/cache/epub/75802/pg75802.txt",
+     "quote": "Da stand der alte Goethe, klein und sehr steif, und richtig hatte er einen dicken Ordensstern auf seiner Klassikerbrust."
+    },
+    {
+     "sids": [
+      "b0b5305aa0e9"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "모차르트가 나오는 장면이 있다(마술 극장)",
+     "verdict": "confirmed",
+     "url": "https://www.gutenberg.org/cache/epub/75802/pg75802.txt",
+     "quote": "und da kam Mozart gegangen, lachend ging er an mir vorüber"
+    },
+    {
+     "sids": [
+      "b0b5305aa0e9"
+     ],
+     "field": "work:hermann-hesse--der-steppenwolf.significance",
+     "claim": "헤세의 형식 실험이 이 작품에서 \"가장\" 뚜렷하다",
+     "verdict": "contradicted",
+     "url": "https://de.wikipedia.org/wiki/Der_Steppenwolf",
+     "quote": "Ist es nötig zu sagen, dass der Steppenwolf ein Romanwerk ist, das an experimenteller Gewagtheit dem ‚Ulysses‘, den ‚Faux Monnayeurs‘ nicht nachsteht?",
+     "correction": "수기 안쪽 절정부의 '마술 극장'과 괴테·모차르트가 나오는 장면을 포함해, 토마스 만이 『율리시스』에 견줄 만하다고 한 형식 실험이 뚜렷하다.",
+     "note": "토마스 만은 실험의 대담성을 조이스·지드와 견주었고, 독일어 위키백과는 세 화자 구성을 \"kompositorische Innovation\"이라 부른다. 헤세의 작품 가운데 \"가장\" 실험적이라는 비교는 찾지 못했다."
+    },
+    {
+     "sids": [
+      "05698ae4c592"
+     ],
+     "field": "work:hermann-hesse--narziss-und-goldmund.facts",
+     "claim": "원제 Narziß und Goldmund, 1930년에 나온 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Narzi%C3%9F_und_Goldmund",
+     "quote": "Narziß und Goldmund ist eine Erzählung von Hermann Hesse. Sie entstand zwischen April 1927 und März 1929 und erschien 1930 im S. Fischer Verlag."
+    },
+    {
+     "sids": [
+      "05698ae4c592"
+     ],
+     "field": "work:hermann-hesse--narziss-und-goldmund.facts",
+     "claim": "한국어 제목은 『나르치스와 골드문트』다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%A5%B4%EB%A7%8C_%ED%97%A4%EC%84%B8",
+     "quote": "1930년 《나르치스와 골드문트 Narziß und Goldmund》 (지와 사랑)",
+     "correction": "『지와 사랑』이라는 옛 한국어 제목도 함께 적혀 있다."
+    },
+    {
+     "sids": [
+      "f32575fabfee"
+     ],
+     "field": "work:hermann-hesse--narziss-und-goldmund.significance",
+     "claim": "수도원에 남은 사색가(나르치스)와 세상으로 나간 예술가(골드문트)를 나란히 놓는다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Narzi%C3%9F_und_Goldmund",
+     "quote": "Während Narziß sich in geistiger und religiöser Annäherung an die Idee des vollkommenen Lebens und Gott nähert, sucht Goldmund die Erfüllung als Wanderer und freier Künstler.",
+     "correction": "같은 문서: 나르치스는 수도원에 남아 원장(Abt)이 되고, 골드문트는 \"in die Welt hinauszuziehen\" 한다."
+    },
+    {
+     "sids": [
+      "f32575fabfee"
+     ],
+     "field": "work:hermann-hesse--narziss-und-goldmund.significance",
+     "claim": "정신과 감각이라는 두 축을 두 인물로 나눈다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+     "quote": "an intellectual ascetic who is content with established religious faith is contrasted with an artistic sensualist pursuing his own form of salvation"
+    },
+    {
+     "sids": [
+      "7e141d4b7a37"
+     ],
+     "field": "work:hermann-hesse--das-glasperlenspiel.facts",
+     "claim": "원제 Das Glasperlenspiel, 1943년에 나온 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "ist der letzte und zugleich umfangreichste Roman von Hermann Hesse, erstmals 1943 in zwei Bänden veröffentlicht."
+    },
+    {
+     "sids": [
+      "7e141d4b7a37"
+     ],
+     "field": "work:hermann-hesse--das-glasperlenspiel.facts",
+     "claim": "한국어 제목은 『유리알 유희』다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%A5%B4%EB%A7%8C_%ED%97%A4%EC%84%B8",
+     "quote": "1943년 《유리알 유희 Das Glasperlenspiel》"
+    },
+    {
+     "sids": [
+      "c4ca74ec7d72"
+     ],
+     "field": "work:hermann-hesse--das-glasperlenspiel.significance",
+     "claim": "미래의 학문 공동체 카스탈리엔을 무대로 한다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "In der von Hesse entworfenen Welt bilden die (männlichen, ehelos lebenden) Gelehrten einen straff organisierten Orden, der in der „pädagogischen Provinz“ Kastalien lebt",
+     "correction": "같은 문서: \"spielt in einer zeitlich nicht genau fixierten Zukunftswelt\"."
+    },
+    {
+     "sids": [
+      "c4ca74ec7d72"
+     ],
+     "field": "work:hermann-hesse--das-glasperlenspiel.significance",
+     "claim": "유리알 유희는 모든 학문과 예술을 잇는 가상의 학예다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "Es handelt sich dabei um den Versuch einer kunstvollen, ästhetisch ansprechenden Vereinigung aller Wissenschaften, den Versuch einer Universalsprache"
+    },
+    {
+     "sids": [
+      "c4ca74ec7d72"
+     ],
+     "field": "work:hermann-hesse--das-glasperlenspiel.significance",
+     "claim": "전기(傳記) 형식으로 서술한 헤세의 마지막 장편이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "Das Glasperlenspiel. Versuch einer Lebensbeschreibung des Magister Ludi Josef Knecht samt Knechts hinterlassenen Schriften ist der letzte und zugleich umfangreichste Roman von Hermann Hesse"
+    },
+    {
+     "sids": [
+      "db1e55ebc443"
+     ],
+     "field": "work:hermann-hesse--das-glasperlenspiel.significance",
+     "claim": "이 작품이 1946년 노벨문학상 선정의 \"주된 근거\"가 되었다",
+     "verdict": "contradicted",
+     "url": "https://de.wikipedia.org/wiki/Das_Glasperlenspiel",
+     "quote": "Hesse erhielt 1946 den Nobelpreis für Literatur für sein Gesamtwerk als „gegenwärtig bester Repräsentant des deutschen Kulturerbes neben Thomas Mann“, wobei Das Glasperlenspiel darin Sonderstellung gewürdigt wurde.",
+     "correction": "작품 전체에 주어진 1946년 노벨문학상에서 이 작품은 특별한 자리를 인정받았다.",
+     "note": "노벨재단의 수상 사유는 특정 작품이 아닌 \"his inspired writings\"이고, 수상 연설은 이 작품이 근작 가운데 \"occupies a special position\"이라고 말한다. 같은 독일어 위키백과 서두는 \"entscheidende Bedeutung\"이라 쓰지만, 『황야의 이리』 항목도 그 작품이 수상에 \"wesentlichen Anteil\"를 가졌다고 써서 \"주된 근거\"라는 단정은 서지 않는다."
+    },
+    {
+     "sids": [
+      "621f794a5458"
+     ],
+     "field": "work:hermann-hesse--demian.facts",
+     "claim": "원제 Demian, 1919년에 나온 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "Demian. Die Geschichte einer Jugend ist der Titel eines 1917 geschriebenen und 1919 unter dem Pseudonym Emil Sinclair veröffentlichten Romans von Hermann Hesse"
+    },
+    {
+     "sids": [
+      "621f794a5458"
+     ],
+     "field": "work:hermann-hesse--demian.facts",
+     "claim": "한국어 제목은 『데미안』이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%A5%B4%EB%A7%8C_%ED%97%A4%EC%84%B8",
+     "quote": "1919년 《데미안 Demian - Die Geschichte von Emil Sinclairs Jugend"
+    },
+    {
+     "sids": [
+      "41dcaa1ea381"
+     ],
+     "field": "work:hermann-hesse--demian.significance",
+     "claim": "싱클레어는 데미안을 통해 자기 안의 목소리를 듣는다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "„Sprach da nicht eine Stimme, die nur aus mir selber kommen konnte? Die alles wusste? Die alles besser, klarer wusste als ich selber?“"
+    },
+    {
+     "sids": [
+      "41dcaa1ea381"
+     ],
+     "field": "work:hermann-hesse--demian.significance",
+     "claim": "싱클레어는 에바 부인을 통해 자기 내면으로 이끌린다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "sie sei nur ein Sinnbild meines Innern und wolle nur tiefer in mich selbst hinein führen. Oft hörte ich Worte von ihr, die mir klangen wie Antworten meines Unbewussten auf brennende Fragen, die mich bewegten."
+    },
+    {
+     "sids": [
+      "41dcaa1ea381"
+     ],
+     "field": "work:hermann-hesse--demian.significance",
+     "claim": "『데미안』은 성장담(발전소설)이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "Die Form des Romans lässt sich als typisch für den Entwicklungsroman bezeichnen."
+    },
+    {
+     "sids": [
+      "73bad9a603d0"
+     ],
+     "field": "work:hermann-hesse--demian.significance",
+     "claim": "에밀 싱클레어라는 가명으로 발표되었다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "Die Erstausgabe erschien 1919 unter dem Pseudonym Emil Sinclair in Hesses „Hausverlag“, dem S. Fischer Verlag."
+    },
+    {
+     "sids": [
+      "73bad9a603d0"
+     ],
+     "field": "work:hermann-hesse--demian.significance",
+     "claim": "(1차 대전) 전후 독일 청년 세대 전체가 함께 읽은 책이 되었다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Demian",
+     "quote": "Unvergeßlich ist die elektrisierende Wirkung, welche gleich nach dem ersten Weltkrieg der „Demian“ eines gewissen mysteriösen Sinclair hervorrief, eine Dichtung, die mit unheimlicher Genauigkeit den Nerv der Zeit traf und eine ganze Jugend, die wähnte, aus ihrer Mitte sei ihr ein Künder ihres tiefsten Lebens erstanden",
+     "correction": "토마스 만, 1948년 미국판 서문. 브리태니커도 \"This novel had a pervasive effect on a troubled Germany\"라고 쓴다."
+    },
+    {
+     "sids": [
+      "672465a9484d"
+     ],
+     "field": "work:hermann-hesse--siddhartha.facts",
+     "claim": "원제 Siddhartha, 1922년에 나온 소설(fiction)이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Siddhartha. Eine indische Dichtung ist eine Erzählung von Hermann Hesse, geschrieben in Montagnola in zwei Anläufen zwischen Dezember 1919 und Mai 1922, erstmals als Buch erschienen im Herbst 1922.",
+     "correction": "원제 전체는 \"Siddhartha. Eine indische Dichtung\"."
+    },
+    {
+     "sids": [
+      "672465a9484d"
+     ],
+     "field": "work:hermann-hesse--siddhartha.facts",
+     "claim": "한국어 제목은 『싯다르타』다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%A5%B4%EB%A7%8C_%ED%97%A4%EC%84%B8",
+     "quote": "1922년 《싯다르타 Siddhartha》"
+    },
+    {
+     "sids": [
+      "b026b863b4ff"
+     ],
+     "field": "work:hermann-hesse--siddhartha.significance",
+     "claim": "인도를 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+     "quote": "Siddhartha (1922), a poetic novel, set in India at the time of the Buddha, about the search for enlightenment"
+    },
+    {
+     "sids": [
+      "b026b863b4ff"
+     ],
+     "field": "work:hermann-hesse--siddhartha.significance",
+     "claim": "짧은 소설이다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Siddhartha. Eine indische Dichtung ist eine Erzählung von Hermann Hesse",
+     "correction": "\"Erzählung\"(장편 Roman보다 짧은 이야기)으로 분류된다. 영어 위키백과 정보상자는 152쪽."
+    },
+    {
+     "sids": [
+      "53b9d117341a"
+     ],
+     "field": "work:hermann-hesse--siddhartha.significance",
+     "claim": "깨달음은 스승(고타마)의 가르침으로 오지 않는다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "man könne nicht durch Lehre Buddha werden, sondern müsse dieses Ziel mittels eigener Erfahrungen erreichen"
+    },
+    {
+     "sids": [
+      "53b9d117341a"
+     ],
+     "field": "work:hermann-hesse--siddhartha.significance",
+     "claim": "깨달음은 강물에 귀 기울이며 강에서 배우는 데서 온다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Vasudeva, der ebenfalls die Erleuchtung erreicht hat, lehrt ihn, dem Rauschen des Flusses zu lauschen und von diesem zu lernen."
+    },
+    {
+     "sids": [
+      "53b9d117341a"
+     ],
+     "field": "work:hermann-hesse--siddhartha.significance",
+     "claim": "독일 교양(발전)소설의 뼈대에 인도 사유를 얹었다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+     "quote": "Das Werk ähnelt, trotz der dichterischen Sprache und des fremden Kulturraums, in seinem Grundaufbau anderen Entwicklungsromanen Hesses"
+    },
+    {
+     "sids": [
+      "fb137acf6363"
+     ],
+     "field": "relation:dialogue--hermann-hesse--thomas-mann.facts",
+     "claim": "헤세와 토마스 만은 서로 편지를 주고받은 쌍방 대화 관계이며 서간집으로 문서화되어 있다",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/books/OL22762910M.json",
+     "quote": "\"subtitle\": \"the correspondence of Hermann Hesse and Thomas Mann, 1910-1955\""
+    },
+    {
+     "sids": [
+      "876e63fd7f68"
+     ],
+     "field": "relation:dialogue--hermann-hesse--thomas-mann.summary",
+     "claim": "두 사람은 수십 년(1910–1955)에 걸쳐 편지를 주고받았다",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/books/OL22762910M.json",
+     "quote": "\"subtitle\": \"the correspondence of Hermann Hesse and Thomas Mann, 1910-1955\""
+    },
+    {
+     "sids": [
+      "876e63fd7f68"
+     ],
+     "field": "relation:dialogue--hermann-hesse--thomas-mann.summary",
+     "claim": "서간집은 주어캄프에서 1968년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&recordSchema=oai_dc&maximumRecords=10&query=tit%3DBriefwechsel%20and%20per%3DHesse%20and%20per%3DMann%20and%20jhr%3D1968",
+     "quote": "Briefwechsel / Hermann Hesse ; Thomas Mann. [Hrsg. von Anni Carlsson]",
+     "correction": "같은 DNB 레코드의 출판 사항: \"Frankfurt a.M. : Suhrkamp\", 연도 \"1968\", 238쪽."
+    },
+    {
+     "sids": [
+      "876e63fd7f68"
+     ],
+     "field": "relation:dialogue--hermann-hesse--thomas-mann.summary",
+     "claim": "토마스 만은 1933년 망명길에 헤세를 찾았다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Hermann_Hesse",
+     "quote": "Bertolt Brecht und Thomas Mann machten 1933 auf ihren Reisen ins Exil jeweils bei Hesse Station."
+    },
+    {
+     "sids": [
+      "876e63fd7f68"
+     ],
+     "field": "relation:dialogue--hermann-hesse--thomas-mann.summary",
+     "claim": "두 사람은 나치 거부에서 한편이었다",
+     "verdict": "confirmed",
+     "url": "https://de.wikipedia.org/wiki/Hermann_Hesse",
+     "quote": "In der Ablehnung des Nationalsozialismus waren Mann und Hesse geeint"
+    },
+    {
+     "sids": [
+      "b98a60bbb2da"
+     ],
+     "field": "relation:influence--friedrich-nietzsche--hermann-hesse.facts",
+     "claim": "니체가 헤세에게 영향을 주었다(방향: 니체→헤세, 헤세 자신의 진술로 문서화)",
+     "verdict": "confirmed",
+     "url": "https://www.nobelprize.org/prizes/literature/1946/hesse/biographical/",
+     "quote": "Of the Western philosophers, I have been influenced most by Plato, Spinoza, Schopenhauer, and Nietzsche as well as the historian Jacob Burckhardt."
+    },
+    {
+     "sids": [
+      "43e0290787e9"
+     ],
+     "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+     "claim": "헤세는 1919년 「차라투스트라의 귀환 — 독일 청년에게 보내는 말」을 익명으로 발표했다",
+     "verdict": "confirmed",
+     "url": "https://hesse.projects.gss.ucsb.edu/papers/Hausarbeit-Zarathustra.pdf",
+     "quote": "Die politische Flugschrift Zarathustras Wiederkehr mit dem Untertitel Ein Wort an die deutsche Jugend - Von einem Deutschen erscheint erstmalig im Januar 1919 anonym im Verlag Stämpfli in Bern.",
+     "correction": "DNB 레코드: \"Zarathustras Wiederkehr : Ein Wort an die deutsche Jugend / Von einem Deutschen [d. i. Hermann Hesse]\", Bern : Stämpfli, 1919. 주어캄프 소개문은 발표 시점을 1919년 2월로 적는다."
+    },
+    {
+     "sids": [
+      "43e0290787e9"
+     ],
+     "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+     "claim": "이 글에서는 니체의 차라투스트라가 화자로 나서 방향을 잃은 젊은이들에게 말한다",
+     "verdict": "confirmed",
+     "url": "https://www.praxis-t15.ch/fileadmin/media/documents/manz/2021f_Hermann_Hesse_-_Zarathustras_Wiederkehr.pdf",
+     "quote": "Nun spricht Zarathustra zu den orientierungslosen jungen Menschen",
+     "correction": "같은 요약문의 서두: 젊은이들은 \"aus dem Krieg desillusioniert zurückgekehrt\" 방향을 찾는다."
+    },
+    {
+     "sids": [
+      "43e0290787e9"
+     ],
+     "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+     "claim": "헤세는 니체 차라투스트라의 어조를 그대로 빌려왔다",
+     "verdict": "confirmed",
+     "url": "https://hesse.projects.gss.ucsb.edu/papers/Hausarbeit-Zarathustra.pdf",
+     "quote": "Daß sie an Nietzsche anklinge und den Geist seines Zarathustra beschwöre, das merkte ich selbst erst während dem fast bewußtlosen Schreiben",
+     "correction": "헤세가 1919년 10월 Vivos voco 공개 편지에서 한 말(UCSB 논문 인용). UCSB 논문은 이를 \"den Ton von dessen Zarathustra scheinbar imitiert\"로 요약한다."
+    },
+    {
+     "sids": [
+      "74e71494c7e3"
+     ],
+     "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+     "claim": "이 소책자는 『데미안』과 같은 해(1919)에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%A5%B4%EB%A7%8C_%ED%97%A4%EC%84%B8",
+     "quote": "싱클레어라는 필명으로 《데미안 Demian - Die Geschichte von Emil Sinclairs Jugend》발표. 폰타네 문학상은 신인작가에게 수여하기에 반려. <동화집>, 단편집 작은 정원, 정치평론집 짜라투스라의 복귀 발간.",
+     "correction": "인용한 줄은 \"1919년 귀향 발표.\"로 시작하는 연보 항목이다."
+    },
+    {
+     "sids": [
+      "74e71494c7e3"
+     ],
+     "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+     "claim": "이 소책자가 헤세의 니체 독서를 드러내는 1차 문서다",
+     "verdict": "confirmed",
+     "url": "https://hesse.projects.gss.ucsb.edu/papers/Hausarbeit-Zarathustra.pdf",
+     "quote": "Und aus begeisterten, heiligen Lesenächten meiner Jünglingszeit klang mir der Ton herüber, in dem ich meinen Ruf an die Jugend niederschrieb.",
+     "correction": "이 소책자와 그 경위를 밝힌 헤세의 공개 편지가 함께 청년기의 니체 독서를 드러낸다."
+    }
+   ],
+   "noClaim": {}
+  }
+ ]
+}

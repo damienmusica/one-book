@@ -1,0 +1,79 @@
+{
+  "fixes": [
+    {
+      "id": "du-fu",
+      "importanceReason": "안녹산의 난에 휩쓸린 백성의 고통을 자기 처지와 함께 시에 적어, 시로 시대를 기록한다는 '시사(詩史)'의 자리를 만들었다. 징집·굶주림·피난 같은 산문적 사실은 「석호리」가 속한 삼리삼별처럼 고체시와 악부의 형식으로 적고, 율시에서는 대구와 성률의 규칙을 지킨 채 같은 시대의 무게를 여덟 구 안에 접어 두어, 두 형식을 오가며 증언의 밀도를 높였다. 송대에 이르러 그는 시의 전범으로 최고의 자리에 올랐고, 조선에서는 『두시언해』라는 관찬 번역의 대상이 되었다.",
+      "difficultyReason": "율시의 대구는 한 글자씩 짝을 맞춰 압축돼 있어 함축과 성조가 번역에 드러나지 않고, 「추흥팔수」 같은 연작은 안사의 난 전후 정황과 전고를 알아야 여덟 수가 하나의 구조로 묶인다.",
+      "works": [
+        {
+          "id": "du-fu--chunwang",
+          "significance": "안녹산의 군에 함락된 장안에 억류되어 쓴 오언율시. 가장 널리 알려진 중국 시의 하나이며, 첫 두 구는 일본의 바쇼가 『오쿠노 호소미치』에 옮겨 적었다."
+        },
+        {
+          "id": "du-fu--qiuxingbashou",
+          "significance": "기주에서 장안을 그리며 쓴 여덟 수의 칠언율시 연작. 전고와 기억이 겹친 여덟 수가 호응해 한 짜임을 이루되 각 수도 독립된 율시이며, 두보 만년의 성취를 보여 준다."
+        },
+        {
+          "id": "du-fu--shihaoli",
+          "significance": "석호촌의 밤에 관리가 노인의 집에서 사람을 징발해 가는 광경을 목격자의 시점으로 적은 시. 「삼리삼별」 연작의 한 편으로, 서정과 논평을 서사 속에 감춘 정련된 서술이 특색이다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "dialogue--li-bai--du-fu",
+          "summary": "두 사람은 744년 낙양에서 만나 함께 유람했고, 두보가 이백을 두고 쓴 시는 「이백에게 부침」·「봄날 이백을 생각하며」·「꿈에 이백을 보다」 등 열두 편이 전한다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "송대 이후 두보는 시를 배우는 사람이 반드시 거치는 표준 교본이 되었다",
+          "resolution": "corrected",
+          "evidence": "importanceReason 문장 1e1f770f9efb의 '송대 이후 그는 시를 배우는 사람이 반드시 거치는 표준 교본이 되었고'를 교정문대로 '송대에 이르러 그는 시의 전범으로 최고의 자리에 올랐고'로 바꿨다(인용: 「宋朝理学的发展确保了杜甫作为诗的典范和他的至高无上的地位」). 『두시언해』 절(확정 주장)은 그대로 둔다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "율시의 압축된 대구는 번역에서 가장 많이 손실된다",
+          "resolution": "corrected",
+          "evidence": "difficultyReason의 '번역에서 가장 많이 손실되고'를 교정문에 맞춰 '함축과 성조가 번역에 드러나지 않고'로 바꿨다(Britannica: 「all the connotative overtones … all the intonational potentials … qualities that no translation can ever reveal」). '가장 많이'라는 비교를 뺐다. 길이를 지키려 뒷절의 '전후의'→'전후', '함께 알아야'→'알아야'로 줄였고 뜻은 같다."
+        },
+        {
+          "field": "work:du-fu--chunwang.significance",
+          "claim": "「춘망」의 첫 구는 동아시아 전역에서 인용되었다",
+          "resolution": "corrected",
+          "evidence": "춘망 의의 둘째 문장의 '동아시아 전역에서 인용되었다'를 교정문대로 '첫 두 구는 일본의 바쇼가 『오쿠노 호소미치』에 옮겨 적었다'로 바꿨다(인용: 「he cites the first two lines of A Spring View」)."
+        },
+        {
+          "field": "work:du-fu--chunwang.significance",
+          "claim": "「춘망」의 첫 구는 전란시의 대표 문장이 되었다",
+          "resolution": "corrected",
+          "evidence": "'첫 구가 전란시의 대표 문장이 되어'를 지우고 교정문을 줄여 '가장 널리 알려진 중국 시의 하나이며'로 바꿨다(인용: 「one of the best-known and most commonly recited Chinese poems」). 명성은 첫 구가 아니라 시 전체의 것으로 적었다."
+        },
+        {
+          "field": "work:du-fu--qiuxingbashou.significance",
+          "claim": "「추흥팔수」는 한 수씩으로는 풀리지 않고 여덟 수가 함께 하나의 구조를 이룬다",
+          "resolution": "corrected",
+          "evidence": "'한 수씩으로는 풀리지 않고 여덟 수가 함께 하나의 구조를 이루는'을 교정문을 줄여 '여덟 수가 호응해 한 짜임을 이루되 각 수도 독립된 율시이며'로 바꿨다(인용: 「全詩八首蟬聯，前呼後應 … 每篇都是可以獨立的七言律詩」). '전고와 기억이 겹친'은 확정 주장(전고·회상의 겹침)이 받쳐 남겼다."
+        },
+        {
+          "field": "work:du-fu--qiuxingbashou.significance",
+          "claim": "「추흥팔수」는 두보 만년 형식의 정점이다",
+          "resolution": "corrected",
+          "evidence": "'두보 만년 형식의 정점이다'를 교정문을 줄여 '두보 만년의 성취를 보여 준다'로 바꿨다(인용: 「體現了詩人晚年的思想感情和藝術成就」). '정점'을 뺐다."
+        },
+        {
+          "field": "work:du-fu--shihaoli.significance",
+          "claim": "「석호리」는 시가 사회적 사실을 기록하는 방식을 가장 건조하게 보여준다",
+          "resolution": "corrected",
+          "evidence": "'시가 사회적 사실을 기록하는 방식을 가장 건조하게 보여준다'를 교정문에 맞춰 '서정과 논평을 서사 속에 감춘 정련된 서술이 특색이다'로 바꿨다(인용: 「这首诗在艺术上最大的特色在于其精练的表达，它把抒情和议论寓于叙事之中」). '가장 건조하게'라는 비교를 뺐다."
+        },
+        {
+          "field": "relation:dialogue--li-bai--du-fu.summary",
+          "claim": "두보는 이 시들을 포함해 여러 편을 이백에게 바쳤다",
+          "resolution": "corrected",
+          "evidence": "'여러 편을 이백에게 바쳤다'를 교정문에 맞춰 '두보가 이백을 두고 쓴 시는 … 등 열두 편이 전한다'로 바꿨다(인용: 「We have twelve poems to or about Li Bai from the younger poet」). 「봄날 이백을 생각하며」·「꿈에 이백을 보다」는 이백에게 바친 시가 아니므로 '바쳤다'를 지웠다. 세 제목(위키문헌 확정 주장)은 근거 문서 src--du-fu-shipian-li-bai의 이름으로 남겼고, 길이를 지키려 '한동안'과 '두 수'를 뺐다. 연도 744는 그대로다."
+        }
+      ]
+    }
+  ]
+}

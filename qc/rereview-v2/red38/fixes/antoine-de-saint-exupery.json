@@ -1,0 +1,127 @@
+{
+  "fixes": [
+    {
+      "id": "antoine-de-saint-exupery",
+      "importanceReason": "우편 비행사로서 사막과 밤하늘에서 본 것을 글로 옮겨 비행을 문학의 경험으로 만들었고, 망명지에서 쓴 『어린 왕자』를 남긴 뒤 정찰 비행에서 돌아오지 않았다. 의무와 동료애로 인간을 재는 산문을 만들었고, 사르트르는 『문학이란 무엇인가』에서 그를 헤밍웨이와 나란히 놓아 사물을 묘사하는 대신 행위 속에 담그는 서술의 이름으로 삼았다. 『어린 왕자』는 그 주제를 아이도 읽을 수 있는 우화로 압축해 수백 개 언어로 옮겨졌다.",
+      "readingEntryReason": "이미 익숙하지만, 사막·불시착·길들임이 여기 모여 있어 이후 비행 산문을 읽는 열쇠가 된다.",
+      "difficultyReason": "『야간비행』의 서술은 간결하지만 사건의 많은 부분이 생각이나 정신적 지각으로 제시되고, 『인간의 대지』는 이어진 줄거리 대신 비행사의 감각·감정·성찰을 장별로 묶었다.",
+      "works": [
+        {
+          "id": "antoine-de-saint-exupery--pilote-de-guerre",
+          "titleKo": "전시 조종사",
+          "significance": "1940년 아라스 정찰 비행을 1인칭으로 기록한 책. 패전의 한복판에서 무의미한 임무를 수행하며 개인의 책임을 묻는다."
+        },
+        {
+          "id": "antoine-de-saint-exupery--le-petit-prince",
+          "significance": "뉴욕 망명 중에 쓰고 직접 그린 우화. 사막에 불시착한 조종사와 어린 왕자의 대화 안에 길들임·책임·상실이라는 주제가 놓여 있다."
+        },
+        {
+          "id": "antoine-de-saint-exupery--terre-des-hommes",
+          "significance": "항로·조난·사막 체험을 이어 붙인 산문집. 1935년 리비아 사막 불시착과 나흘째 구조까지의 갈증이 담겼고, 그 장면이 『어린 왕자』의 배경으로 돌아온다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--antoine-de-saint-exupery--jean-paul-sartre",
+          "summary": "사르트르는 『문학이란 무엇인가』(1947)에서 '그의 뒤에, 헤밍웨이의 뒤에 우리가 어떻게 묘사를 생각할 수 있겠는가'라고 반문하며 생텍쥐페리의 이름을 헤밍웨이와 같은 자리에 놓았다. 이어 사물을 행위 속에 담가야 한다며 그 서술 방법을 자기 세대의 방침으로 밝혔고, 그가 '노동과 도구의 문학'의 윤곽을 그렸다고도 썼다."
+        },
+        {
+          "id": "influence--friedrich-nietzsche--antoine-de-saint-exupery",
+          "summary": "생텍쥐페리는 1926년 11월 편지에 '니체를 옆구리에 끼고 다닌다, 이 사람을 한없이 사랑한다'고 적었다. 오데르의 『Saint-Exupéry écrivain』(2018)은 그의 작품에서 플라톤적 상상체계의 전도를 읽고 이를 니체 이래의 쟁점으로 놓는다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "항로·기상·기체라는 직업의 언어를 그대로 쓴 산문이다",
+          "resolution": "narrowed",
+          "evidence": "둘째 문장 머리의 '항로·기상·기체라는 직업의 언어를 그대로 쓰면서'를 지웠다. 남은 '의무와 동료애로 인간을 재는 산문'은 같은 문장의 확인된 주장(Britannica: 『야간비행』의 의무, 『인간의 대지』의 연대)이 받친다. 이 표현을 말하는 출처가 없고 특정한 접근 대기 출처도 적히지 않아 보류하지 않고 뺐다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『어린 왕자』는 한 시간이면 읽히는 분량이다",
+          "resolution": "narrowed",
+          "evidence": "독서 시간을 말하는 출처가 없어 '한 시간이면 읽히고'를 지웠다. 문장은 '이미 익숙하지만,'으로 시작한다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "사막·불시착·길들임은 그의 평생 주제이고 여기 가장 단순한 문장으로 모여 있다",
+          "resolution": "narrowed",
+          "evidence": "'그의 평생 주제가'와 '가장 단순한 문장으로'를 지워 '사막·불시착·길들임이 여기 모여 있어'로 좁혔다. 이 셋이 책에 들어 있다는 것은 같은 문장의 확인된 주장(재단 작품 페이지: 사하라 불시착, 길들임)이 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "문장이 짧고 명료하며, 사건 대신 생각·지각으로 서술되는 구간이 많다(『야간비행』)",
+          "resolution": "corrected",
+          "evidence": "'문장은 짧고 명료하지만'을 교정문대로 '『야간비행』의 서술은 간결하지만 사건의 많은 부분이 생각이나 정신적 지각으로 제시되고'로 바꿨다(en.wikipedia Night Flight (novel): \"The narration is spare and much of the action is presented as a thought or mental perception.\"). 인용이 받치지 않는 '명료'는 뺐다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "비행 산문(『인간의 대지』)은 연속된 줄거리가 아니라 비행사의 감각·감정·성찰을 장별로 묶은 것이다",
+          "resolution": "narrowed",
+          "evidence": "판정되지 않은 독서 조언 '줄거리를 좇는 독법으로는 중간에 지루해지기 쉽다'를 지웠다. '사건 대신 명상적 단상이 이어지는 구간'은 확인된 내용대로 '『인간의 대지』는 이어진 줄거리 대신 비행사의 감각·감정·성찰을 장별로 묶었다'로 적었다(antoinedesaintexupery.org 작품 페이지: \"quelque chose qui ne serait pas un récit continu … le groupement en divers chapitres des sensations, des émotions, des réflexions de l’aviateur\")."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "비행 산문에는 항로·기상·기체 용어가 그대로 나온다",
+          "resolution": "narrowed",
+          "evidence": "이를 말하는 출처가 없어 '비행 산문에는 항로·기상·기체의 용어가 그대로 나오고'를 지웠다."
+        },
+        {
+          "field": "work:antoine-de-saint-exupery--pilote-de-guerre.facts",
+          "claim": "한국어 제목은 『전투 조종사』다",
+          "resolution": "corrected",
+          "evidence": "titleKo 를 '전투 조종사'에서 국내 간행본 제목 '전시 조종사'로 바꿨다. 이 세션의 알라딘 검색에서 '전투 조종사 생텍쥐페리'는 \"총 0 건\"이고, 여러 판본이 '전시 조종사'를 쓴다(\"[국내도서] 전시 조종사 ㅣ 밀레니엄 북스 21 앙투안 드 생텍쥐페리 (지은이), 안응렬 (옮긴이) | 신원문화사 | 2003년 7월\"; 페리버튼 2025 김보희 역, 현대문화센터 2009 배영란 역도 같은 제목). 레포의 data/editions.json 판본 원장(카카오 책 검색·ISBN 대조)도 이 작품의 국역본을 '전시 조종사'·'전시조종사'로 적고, 체크 메모의 ziksir.com 표기도 같다. 사실 줄은 '『전시 조종사』(Pilote de guerre) · 1942 · essay-criticism'이 된다."
+        },
+        {
+          "field": "work:antoine-de-saint-exupery--pilote-de-guerre.significance",
+          "claim": "그의 산문이 이 책에서 가장 긴장된 형태로 나타난다",
+          "resolution": "narrowed",
+          "evidence": "'…개인의 책임을 묻는 그의 산문이 가장 긴장된 형태로 나타난다'를 '…개인의 책임을 묻는다'로 줄였다. 패전·무의미한 임무·책임은 같은 문장의 확인된 주장들(재단 작품 페이지: \"Cette mission est inutile du point de vue militaire\", \"Chacun est seul responsable de tous.\")이 받친다."
+        },
+        {
+          "field": "work:antoine-de-saint-exupery--le-petit-prince.significance",
+          "claim": "그의 주제가 이 책에서 가장 단순한 문장으로 놓여 있다",
+          "resolution": "narrowed",
+          "evidence": "'그의 주제가 가장 단순한 문장으로 놓여 있다'를 '주제가 놓여 있다'로 줄였다. 길들임·책임·상실이 이 책의 주제라는 것은 같은 문장의 확인된 주장 둘(재단 작품 페이지, en.wikipedia The Little Prince)이 받친다."
+        },
+        {
+          "field": "work:antoine-de-saint-exupery--terre-des-hommes.significance",
+          "claim": "갈증은 사흘이었다",
+          "resolution": "corrected",
+          "evidence": "'사흘의 갈증이 기록돼 있고'를 교정문대로 '나흘째 구조까지의 갈증이 담겼고'로 바꿨다(fr.wikipedia Antoine de Saint-Exupéry: \"Après avoir épuisé leurs réserves de boissons dès le premier jour … Le quatrième jour, deux bédouins sur un dromadaire les découvrent\"). 원문보다 길어지지 않게 교정문의 '베두인에게'와 '뒤에'를 뺐다."
+        },
+        {
+          "field": "relation:influence--antoine-de-saint-exupery--jean-paul-sartre.summary",
+          "claim": "사르트르의 공개적 인정은 『상황 II』 안 여러 대목(p.287, p.326)에 있다",
+          "resolution": "corrected",
+          "evidence": "'같은 『상황 II』 안의 몇 문장에 그치는 공개적 인정'을 지우고, 교정문을 줄여 '그가 '노동과 도구의 문학'의 윤곽을 그렸다고도 썼다'를 넣었다(nitescence.free.fr/Critique.pdf 가 인용한 사르트르: \"il a su esquisser les grands traits d’une littérature du travail et de l’outil\"). 판본이 다른 두 쪽수와 '같은 『상황 II』 안'이라는 위치 한정은 싣지 않았다. 교정문의 '선배들의 주관주의와 정적주의에 맞서'는 길이 때문에 뺐다."
+        },
+        {
+          "field": "relation:influence--antoine-de-saint-exupery--jean-paul-sartre.summary",
+          "claim": "문헌으로 남은 것은 『상황 II』의 이 몇 문장에 그친다",
+          "resolution": "narrowed",
+          "evidence": "부재 주장 '문헌으로 남은 것은 … 몇 문장에 그치는'을 요약에서 지웠다. 접근 대기 출처(archive.org 『Carnets de la drôle de guerre』)는 이 부재 주장을 가리기 위한 것이었는데, 주장이 페이지에서 빠져 보류할 문장이 남지 않는다."
+        },
+        {
+          "field": "relation:influence--antoine-de-saint-exupery--jean-paul-sartre.summary",
+          "claim": "이 인정은 서술 방법이 옮겨 간 것을 보여 주는 기록은 아니다",
+          "resolution": "corrected",
+          "evidence": "'서술 방법이 어떻게 옮겨 갔는지를 보여 주는 기록은 아니다'를 교정문대로 '이어 사물을 행위 속에 담가야 한다며 그 서술 방법을 자기 세대의 방침으로 밝혔고'로 바꿨다(McGill TSAR, Wayback 2025-11-17: \"Après lui [Saint-Exupéry], après Hemingway, comment pourrions-nous songer à décrire? Il faut que nous plongions les choses dans l'action\"). 교정문 앞부분(그와 헤밍웨이 이후로는 묘사를 생각할 수 없다)은 첫 문장이 이미 담고 있어 되풀이하지 않았다."
+        },
+        {
+          "field": "relation:influence--friedrich-nietzsche--antoine-de-saint-exupery.summary",
+          "claim": "오데르의 책은 생텍쥐페리의 작품을 니체 이래의 가치 전도 문제와 연결해 다룬다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장을 교정문대로 '오데르의 『Saint-Exupéry écrivain』(2018)은 그의 작품에서 플라톤적 상상체계의 전도를 읽고 이를 니체 이래의 쟁점으로 놓는다'로 바꿨다(PUL 책 소개: \"L’hypothèse est qu’elle manifeste un renversement radical de l’imaginaire d’inspiration platonicienne … Cette inversion constitue depuis Nietzsche un des enjeux majeurs de la modernité.\"). 원문보다 길어지지 않게 '올리비에'와 '근대의 주요'를 뺐다."
+        },
+        {
+          "field": "relation:influence--friedrich-nietzsche--antoine-de-saint-exupery.summary",
+          "claim": "그 책이 특히 『남방 우편기』와 『성채』의 가치·고귀함 어법을 니체 독서와 연결한다",
+          "resolution": "narrowed",
+          "evidence": "『남방 우편기』·『성채』의 가치·고귀함 어법 대목은 위의 플라톤적 상상체계 교정으로 둘째 문장이 바뀌면서 페이지에서 빠졌다. 그래서 접근 대기 출처(Google Books R3QTEAAAQBAJ)에 기대어 문장을 남겨 둘 일이 없다. 『남방 우편기』의 니체 흔적은 작품 의의 문장의 확인된 주장(nietzsche-en-france.fr)이 따로 받친다."
+        }
+      ]
+    }
+  ]
+}

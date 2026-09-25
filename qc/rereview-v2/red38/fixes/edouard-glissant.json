@@ -1,0 +1,151 @@
+{
+  "fixes": [
+    {
+      "id": "edouard-glissant",
+      "importanceReason": "'관계' 개념을 세우고 크레올화 개념을 다시 사유해, 카리브의 혼종 문화를 외면할 것이 아니라 가치를 인정할 대상으로 놓았다. 뿌리 하나로 소급하는 정체성 대신 여러 갈래가 얽히는 '관계'를 단위로 삼고, 환원적 투명성과 이해를 거부할 권리를 뜻하는 '불투명성(opacité)'을 그 윤리로 제시했다. 소설에서는 구술 서사와 끊기는 통사를 겹쳤고, 『제4세기』에서는 계보를 구술로 되살렸다.",
+      "readingEntryReason": "250쪽 안팎의 첫 장편이고, 1945년 선거를 앞둔 시기와 젊은 무리라는 뚜렷한 사건 축이 있어 개념을 몰라도 읽힌다. 풍경과 기억이 이어진다는 글리상의 확신도 여기 새겨져 있다.",
+      "readingWarning": "소설 두 권으로 마르티니크의 시간 감각을 먼저 겪은 뒤 이론으로 올라가는 편이 안전하다.",
+      "difficultyReason": "후기 산문은 '관계', '전체-세계', '불투명성' 같은 자기 조어를 쓰고 들뢰즈·가타리의 리좀 어휘를 전제한다. 소설 쪽은 개념보다 통사가 어려워, 화자와 시제가 예고 없이 미끄러지는 문장을 따라가야 한다.",
+      "works": [
+        {
+          "id": "edouard-glissant--le-quatrieme-siecle",
+          "significance": "1788년 노예선에서 내린 두 조상으로부터 1940년대까지 두 가문의 150여 년을 도망노예(마롱)의 시간과 플랜테이션의 시간으로 갈라 놓고 교차시킨다. 호적에 거의 드러나지 않는 계보를 구술로 되살려 역사 다시 읽기 전략을 거의 다 펼친다."
+        },
+        {
+          "id": "edouard-glissant--poetique-de-la-relation",
+          "significance": "'심연(노예선의 밑바닥)'에서 시작해 관계·혼돈-세계·불투명성으로 나아가는 사유의 정본. 전 세계 연구자가 다문화 세계의 급변을 이해하는 데 써 왔다."
+        },
+        {
+          "id": "edouard-glissant--la-lezarde",
+          "significance": "선거를 앞둔 마르티니크의 한 시기를 강의 흐름에 맞춰 서술한 첫 장편으로, 르노도상을 받으며 글리상의 이름을 프랑스 문단에 세웠다. 풍경과 기억이 긴밀히 이어져 있다는 글리상의 확신이 이 소설에도 새겨져 있다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--william-faulkner--edouard-glissant",
+          "summary": "글리상은 『포크너, 미시시피』(1996)에서 포크너 작품의 의심스럽고 불가능한 혈통을 앙티유 플랜테이션의 계보와 겹쳐 읽고, 자기 작가적 범주를 앞서 간 포크너의 것에 견준다."
+        },
+        {
+          "id": "contrast--aime-cesaire--edouard-glissant",
+          "summary": "글리상은 『앙티유 담론』(1981)에서 네그리튀드의 아프리카 회귀를 마르티니크의 현실과 어긋난 좌표로 보고, 1960년대부터 제기해 온 '앙티야니테'를 그 대안으로 체계화한다. 프랑스어권 카리브 사상 연구가 다루는 세대적 대립축이다.",
+          "evidenceLevel": "editorial_inference",
+          "weight": 0.6
+        },
+        {
+          "id": "affinity--edouard-glissant--kamau-brathwaite",
+          "summary": "글리상의 『앙티유 담론』(1981)에서는 훗날 '혼혈(métissage)'이라는 말을 대신할 créolisation의 사유가 싹텄고, 브래스웨이트는 『자메이카 크레올 사회의 형성』(1971)에서 creolization을 같은 이름으로 기술했다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "글리상은 크레올화 개념을 세웠다",
+          "resolution": "corrected",
+          "evidence": "첫 문장의 \"'관계의 시학'과 크레올화 개념을 세워\"를 교정문대로 \"'관계' 개념을 세우고 크레올화 개념을 다시 사유해\"로 바꿨다(fr 위키: \"fondateur … de « Relation », Glissant repense également la notion de créolisation\")."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "글리상은 카리브의 혼종 문화를 결핍이 아니라 인정·가치화할 대상으로 놓았다",
+          "resolution": "corrected",
+          "evidence": "\"카리브의 혼종성을 결핍이 아니라 사유의 출발점으로 놓았다\"를 교정문대로 \"카리브의 혼종 문화를 외면할 것이 아니라 가치를 인정할 대상으로 놓았다\"로 바꿨다(Thébaudeau: \"qu'il convient de valoriser, enfin, et non pas d'ignorer\"). '결핍'과 '사유의 출발점'은 지웠다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "플랜테이션이 지워 버린 계보를 '문장 구조 자체로' 되살렸다",
+          "resolution": "corrected",
+          "evidence": "셋째 문장에서 \"플랜테이션이 지워 버린 계보를 문장 구조 자체로 되살렸다\"를 지우고, 통사와 계보 복원의 인과를 끊어 \"소설에서는 구술 서사와 끊기는 통사를 겹쳤고(#8·#9), 『제4세기』에서는 계보를 구술로 되살렸다\"로 고쳤다(Thébaudeau: \"Papa Longoué retrace … les frasques de leurs deux lignées … celle du griot africain d'abord, garant des généalogies\"). 필드가 원문보다 길어지지 않도록 교정문의 '호적 기록이 거의 알려 주지 않는 두 가문의'와 '화자의 말'은 줄이고 '마르티니크의'도 뺐다. 호적 대목은 『제4세기』 의의 줄에 들어갔다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "소설의 사건은 '한 계절' 안에서 벌어진다",
+          "resolution": "corrected",
+          "evidence": "\"1945년 선거를 앞둔 한 계절\"을 교정문대로 \"1945년 선거를 앞둔 시기\"로 바꿨다(Keraani: \"treize ans après les élections législatives de 1945 … nous somme en septembre 1945, le 14\"). 확인되지 않은 '한 계절'은 지웠다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『레자르드 강』의 강과 땅 묘사에서 이후 이론의 이미지가 '이미 다' 나온다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 \"강과 땅의 묘사에서 이후 이론의 이미지가 이미 다 나온다\"를 교정문에 따라 \"풍경과 기억이 이어진다는 글리상의 확신도 여기 새겨져 있다\"로 바꿨다(Thébaudeau: \"la relation étroite qu'il suppose exister entre paysage et mémoire … Son œuvre romanesque tout entière porte la marque de cette conviction\"). '강과 땅', '이후 이론', '이미 다'는 지웠고, 필드 길이 때문에 교정문의 '긴밀히'는 줄였다('도'가 소설 전체에 새겨져 있다는 인용을 받는다)."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『관계의 시학』에서는 용어가 정의 없이 등장한다",
+          "resolution": "removed",
+          "evidence": "근거를 찾지 못한 첫 문장 \"『관계의 시학』부터 펼치면 용어가 정의 없이 등장해 중도 포기하기 쉽다.\"를 지웠다. 이 문장에서 확인되는 부분이 남지 않는다(fr 위키의 '미로 같은 책' 평은 『앙티유 담론』에 대한 것). readingWarning에는 확인된 둘째 문장(#62)만 남는다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "후기 산문은 자기 조어를 정의 없이 굴린다",
+          "resolution": "narrowed",
+          "evidence": "difficultyReason 첫 문장의 \"자기 조어를 정의 없이 굴리고\"를 \"자기 조어를 쓰고\"로 줄였다. 개념어 자체(#18 fr 위키: \"fondateur … des concepts d'« antillanité », de « Tout-monde » et de « Relation »\"; #19 en 위키 \"The right to opacity\")와 리좀 어휘(#21)는 그대로 둔다."
+        },
+        {
+          "field": "work:edouard-glissant--le-quatrieme-siecle.significance",
+          "claim": "문서가 남지 않은 계보를 구술 기억으로 복원한다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장의 \"문서가 남지 않은 계보를 구술 기억으로 복원하는\"을 교정문에 따라 \"호적에 거의 드러나지 않는 계보를 구술로 되살려\"로 바꿨다(Thébaudeau: \"insatisfait du peu que lui en révèle sa laborieuse lecture des registres d'état-civil, Papa Longoué retrace … les frasques de leurs deux lignées\"). #10의 점검 주가 '공식 기록'을 인용보다 넓다고 본 데 따라 인용 그대로 호적(registres d'état-civil)으로 적었다."
+        },
+        {
+          "field": "work:edouard-glissant--le-quatrieme-siecle.significance",
+          "claim": "글리상 특유의 서사 장치가 『제4세기』에서 완성된다",
+          "resolution": "corrected",
+          "evidence": "\"글리상 특유의 서사 장치가 완성된 작품\"을 교정문에 따라 \"역사 다시 읽기 전략을 거의 다 펼친다\"로 바꿨다(Thébaudeau: \"un panel quasi complet des stratégies glissantiennes en matière de relecture de l'histoire antillaise\"). '완성'은 지웠고, 필드가 원문보다 길어지지 않도록 '글리상 특유의'는 뺐다."
+        },
+        {
+          "field": "work:edouard-glissant--poetique-de-la-relation.significance",
+          "claim": "탈식민 이론이 정체성을 다루는 어휘 자체를 바꿔 놓았다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 \"탈식민 이론이 정체성을 다루는 어휘 자체를 바꿔 놓은 책이다\"를 교정문에 따라 \"전 세계 연구자가 다문화 세계의 급변을 이해하는 데 써 왔다\"로 바꿨다(en 위키: \"has been used by scholars across the world to understand the rapid transformation of a multicultural world\"). 길이 때문에 '빠른 변화를 이해하는 틀로 써 온 책'을 '급변을 이해하는 데 써 왔다'로 줄였다."
+        },
+        {
+          "field": "work:edouard-glissant--la-lezarde.significance",
+          "claim": "소설은 '한 계절'을 서술한다",
+          "resolution": "corrected",
+          "evidence": "\"선거를 앞둔 마르티니크의 한 계절을\"을 교정문대로 \"선거를 앞둔 마르티니크의 한 시기를\"로 바꿨다(Thébaudeau: \"une communauté martiniquaise … décidée par la voie d'un processus électoral à en finir avec l'immobilisme\"). 확인되지 않은 '한 계절'은 지웠다."
+        },
+        {
+          "field": "work:edouard-glissant--la-lezarde.significance",
+          "claim": "이후 이론의 '풍경과 기억은 분리되지 않는다'는 명제가 소설에서 먼저 실행된다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 \"이후 이론이 쓸 '풍경과 기억은 분리되지 않는다'는 명제가 소설 형태로 먼저 실행된다\"를 교정문 그대로 \"풍경과 기억이 긴밀히 이어져 있다는 글리상의 확신이 이 소설에도 새겨져 있다\"로 바꿨다(Thébaudeau: \"la relation étroite qu'il suppose exister entre paysage et mémoire … Son œuvre romanesque tout entière porte la marque de cette conviction\"). 이론과의 선후 주장은 지웠다."
+        },
+        {
+          "field": "relation:influence--william-faulkner--edouard-glissant.summary",
+          "claim": "글리상은 포크너를 자기 소설 방법의 참조점으로 '명시'한다",
+          "resolution": "corrected",
+          "evidence": "\"포크너를 자기 소설 방법의 참조점으로 명시한다\"를 교정문에 따라 \"자기 작가적 범주를 앞서 간 포크너의 것에 견준다\"로 바꿨다(Fonkoua 서평: \"confronter les catégories de sa propre expérience d'écrivain à celles d'un autre qui s'est lancé plus tôt sur ce chemin\"). '명시'는 지웠다. 필드 길이 때문에 '앞서 같은 길에 들어선'을 '앞서 간'으로, '단행본'을 빼 줄였다. 문서 이름 『포크너, 미시시피』(1996)는 그대로다. 관계의 문서 근거(#46 '멘토로 볼 만한', #47 단행본)는 확인돼 선은 남긴다."
+        },
+        {
+          "field": "relation:contrast--aime-cesaire--edouard-glissant.facts",
+          "claim": "세제르와 글리상은 대비 관계로 학계가 공통되게 다룬다",
+          "resolution": "narrowed",
+          "evidence": "교정문은 근거 수준을 documented로 적지만 contrast 타입이 허용하는 수준은 scholarly_consensus·editorial_inference뿐이라, documented를 주면 이 도구가 선을 지운다(대비 관계 자체는 점검 주가 확인). 반박된 '학계 공통(scholarly_consensus)'만 걷어 evidenceLevel을 editorial_inference로 낮췄고, 사실 줄은 「에메 세제르 → 에두아르 글리상 · contrast · bidirectional · editorial_inference」가 된다. editorial_inference 상한에 맞춰 weight를 0.7에서 0.6으로 내렸다. 요약은 『앙티유 담론』(1981)을 그대로 적는다."
+        },
+        {
+          "field": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+          "claim": "프랑스어권 카리브 사상사 연구가 이 대립축을 반복해 다룬다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 \"프랑스어권 카리브 사상사가 반복해 다루는 세대적 대립축이다\"를 교정문 그대로 \"프랑스어권 카리브 사상 연구가 다루는 세대적 대립축이다\"로 바꿨다. 받치지 못한 빈도('반복해')를 지웠다. 연구가 이 축을 다룬다는 데는 Jatoe-Kaleo의 「La différence conceptuelle entre la Négritude, l'Antillanité et la Créolité」가, 세대 대립은 #54(en 위키 \"composed of the generation of literary contributors prior to him\")가 받친다."
+        },
+        {
+          "field": "relation:affinity--edouard-glissant--kamau-brathwaite.summary",
+          "claim": "브래스웨이트는 그 책에서 '영어권 카리브'의 creolization을 기술했다",
+          "resolution": "corrected",
+          "evidence": "\"브래스웨이트는 『자메이카 크레올 사회의 형성』(1971)에서 영어권 카리브의 creolization을 같은 이름으로 기술했다\"를 교정문 그대로 \"…(1971)에서 creolization을 같은 이름으로 기술했다\"로 바꿨다. 과장된 '영어권 카리브의'를 지웠다. 서명과 1971년은 #58(en 위키 Kamau Brathwaite)이 받친다."
+        },
+        {
+          "field": "relation:affinity--edouard-glissant--kamau-brathwaite.summary",
+          "claim": "글리상은 『앙티유 담론』(1981)에서 créolisation을 서술했다",
+          "resolution": "corrected",
+          "evidence": "앞 절 \"글리상은 『앙티유 담론』(1981)에서 créolisation을 플랜테이션 아메리카 사회 전반이 형성되는 과정으로 서술했고\"를 교정문 그대로 \"글리상의 『앙티유 담론』(1981)에서는 훗날 '혼혈(métissage)'이라는 말을 대신할 créolisation의 사유가 싹텄고\"로 바꿨다(Antonioli: \"l'émergence d'une pensée de la « créolisation » qui remplacera progressivement la notion … de « métissage »\"). 문서 이름과 1981년은 그대로다."
+        },
+        {
+          "field": "relation:influence--william-faulkner--edouard-glissant.summary",
+          "claim": "글리상은 『포크너, 미시시피』에서 요크나파토파의 '은폐된' 혈통 서술을 읽는다",
+          "resolution": "corrected",
+          "evidence": "\"요크나파토파의 은폐된 혈통 서술을\"을 교정문에 따라 \"포크너 작품의 의심스럽고 불가능한 혈통을\"로 바꿨다(Fonkoua 서평: \"la ftliation douteuse, impossible ou quêtée … trouvent ici un champ d'application\"). 서평에 없는 '요크나파토파'와 '은폐된'은 지웠다. 필드 길이 때문에 셋째 수식 '찾아 헤매는(quêtée)'은 빼고, 뒤의 '계보 문제와'를 '계보와'로 줄였다."
+        }
+      ]
+    }
+  ]
+}

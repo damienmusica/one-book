@@ -1,0 +1,648 @@
+{
+  "id": "charles-dickens",
+  "page": "https://literary-planet.pages.dev/authors/charles-dickens/",
+  "author": {
+    "names": {
+      "ko": "찰스 디킨스",
+      "original": "Charles Dickens",
+      "aliases": []
+    },
+    "birthYear": 1812,
+    "deathYear": 1870,
+    "activeRange": [
+      1836,
+      1870
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "월간 분책 연재로 독자의 반응을 보며 이야기를 이어 가는 방식을 확립했고, 구빈원과 채무자 감옥과 빈민가를 소설의 무대로 삼았다. 인물의 말버릇 하나로 계급과 직업을 즉시 알아보게 하는 조형법과, 매회 끝에 갈고리를 거는 연재의 리듬이 결합해 장편소설을 대중의 매체로 만들었다. 그의 연재가 요크셔 기숙학교를 둘러싼 여론을 실제로 움직이고 구빈법을 둘러싼 당대 논쟁의 한 축이 되면서, 소설이 제도에 개입할 수 있다는 전제가 19세기 사회소설의 조건이 되었다.",
+    "readingEntry": "charles-dickens--great-expectations",
+    "readingEntryReason": "디킨스 장편 중 분량이 절제되어 있고 1인칭 회고라 시점이 하나로 모여, 연재 장편의 리듬을 처음 겪기에 부담이 적다.",
+    "readingOrder": [
+      "charles-dickens--great-expectations",
+      "charles-dickens--oliver-twist",
+      "charles-dickens--a-tale-of-two-cities",
+      "charles-dickens--david-copperfield",
+      "charles-dickens--bleak-house"
+    ],
+    "readingWarning": "『황폐한 집』처럼 이중 서술과 다중 플롯을 쓴 장편으로 시작하면 인물표 없이는 중반을 넘기기 어렵다.",
+    "difficulty": 2,
+    "difficultyReason": "사건과 문장은 직진하지만 분책 연재로 쓰인 탓에 분량이 크고 등장인물이 많아, 중반 이후 인물 관계를 놓치지 않는 지속적 독서가 필요하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  "works": [
+    {
+      "id": "charles-dickens--oliver-twist",
+      "titleKo": "올리버 트위스트",
+      "titleOriginal": "Oliver Twist",
+      "year": 1838,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "구빈원과 런던 뒷골목의 소년 범죄 조직을 소설의 전면에 놓은 초기 연재작. 벤틀리 미셀러니 연재가 1839년 4월까지 이어지는 동안, 1838년 11월에 세 권짜리 단행본이 먼저 나왔다.",
+      "sourceIds": []
+    },
+    {
+      "id": "charles-dickens--bleak-house",
+      "titleKo": "황폐한 집",
+      "titleOriginal": "Bleak House",
+      "year": 1853,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "대법관부의 끝나지 않는 소송을 축으로 3인칭 현재형 서술과 1인칭 회고를 교차시킨다. 제도의 지연 자체를 형식으로 옮긴 장편.",
+      "sourceIds": []
+    },
+    {
+      "id": "charles-dickens--a-tale-of-two-cities",
+      "titleKo": "두 도시 이야기",
+      "titleOriginal": "A Tale of Two Cities",
+      "year": 1859,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "프랑스혁명기의 런던과 파리를 오가며 대속과 복수를 겹쳐 놓은 역사 장편. 디킨스 작품 중 문장이 가장 절제되어 있다.",
+      "sourceIds": []
+    },
+    {
+      "id": "charles-dickens--david-copperfield",
+      "titleKo": "데이비드 코퍼필드",
+      "titleOriginal": "David Copperfield",
+      "year": 1850,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "작가 자신의 유년(구두약 공장, 채무자 감옥)을 변형해 넣은 1인칭 성장 서사. 디킨스가 스스로 가장 아낀 작품으로 알려져 있다.",
+      "sourceIds": []
+    },
+    {
+      "id": "charles-dickens--great-expectations",
+      "titleKo": "위대한 유산",
+      "titleOriginal": "Great Expectations",
+      "year": 1861,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "고아의 신분 상승과 그 자금의 출처를 되짚는 1인칭 회고. 디킨스 장편 중 구성이 가장 조여 있고 성공의 대가를 냉정하게 계산한다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--charles-dickens--jeong-you-jeong",
+      "type": "documented_influence",
+      "from": "charles-dickens (찰스 디킨스)",
+      "to": "jeong-you-jeong (정유정)",
+      "evidenceLevel": "documented",
+      "summary": "정유정은 『7년의 밤』 출간 인터뷰(『국민일보』 2011년 3월 18일)에서 헤밍웨이·찰스 디킨스·스티븐 킹을 정말 좋아하는 작가로 꼽고, 디킨스처럼 인물이 독자를 안달 나고 걱정하게 만드는 작품을 쓰고 싶다고 말했다. 2017년 『Korean Literature Now』의 산문 「I Dream of Fire, Always」에서는 작가 대부분이 평생 한 주제를 변주한다는 말의 예로 디킨스의 ‘아버지를 찾는 소년들’을 들었다.",
+      "sourceIds": [
+        "src--kmib-jeong-you-jeong-2011",
+        "src--kln-jeong-you-jeong-i-dream-of-fire-2017"
+      ]
+    },
+    {
+      "id": "influence--charles-dickens--franz-kafka",
+      "type": "documented_influence",
+      "from": "charles-dickens (찰스 디킨스)",
+      "to": "franz-kafka (프란츠 카프카)",
+      "evidenceLevel": "documented",
+      "summary": "카프카는 1917년 10월 8일 일기에서 『데이비드 코퍼필드』를 읽고 자신의 「화부」와 미완 장편 『실종자』가 디킨스의 모방이라고 적으며, 어떤 점을 계승하고 어떤 점을 버렸는지 항목별로 나열했다.",
+      "sourceIds": [
+        "src--kafka-tagebuch-1917-dickens"
+      ]
+    },
+    {
+      "id": "influence--charles-dickens--leo-tolstoy",
+      "type": "documented_influence",
+      "from": "charles-dickens (찰스 디킨스)",
+      "to": "leo-tolstoy (레프 톨스토이)",
+      "evidenceLevel": "documented",
+      "summary": "톨스토이는 『예술이란 무엇인가』(1897)에서 디킨스의 『두 도시 이야기』·『크리스마스 캐럴』·『종소리』를 신과 인간에 대한 사랑에서 나온 최고 예술의 예로 들었고, 『데이비드 코퍼필드』와 『픽윅 클럽 여행기』는 보편 예술로 분류될 만하나 결국 제 집단에만 이해되는 작품이라고 적었다. 그와 별개로 평생 디킨스를 애독 작가로 반복해 꼽았다.",
+      "sourceIds": [
+        "src--tolstoy-what-is-art"
+      ]
+    },
+    {
+      "id": "influence--charles-dickens--fyodor-dostoevsky",
+      "type": "documented_influence",
+      "from": "charles-dickens (찰스 디킨스)",
+      "to": "fyodor-dostoevsky (표도르 도스토옙스키)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "러시아 소설 연구는 도스토옙스키가 유형 이후 디킨스를 애독했다는 기록과, 미시킨 공작의 구상 참조로 피크윅을 든 서한을 근거로 『백치』와 『죄와 벌』의 도시 빈민 묘사를 디킨스 수용으로 다룬다. 1862년 런던 회견설은 위조로 밝혀졌으므로 근거에서 제외한다.",
+      "sourceIds": [
+        "src--cambridge-companions"
+      ]
+    },
+    {
+      "id": "influence--charles-dickens--roald-dahl",
+      "type": "documented_influence",
+      "from": "charles-dickens (찰스 디킨스)",
+      "to": "roald-dahl (로알드 달)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "『마틸다』(1988)는 주인공이 도서관에서 읽는 책으로 디킨스의 『니콜라스 니클비』와 『올리버 트위스트』를 명시한다. 달의 아동물이 학대받는 아이와 희화화된 악인이라는 디킨스적 배치를 되풀이한다는 지적이 있다.",
+      "sourceIds": [
+        "src--sturrock-storyteller-roald-dahl"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "42dc450c16ea",
+      "where": "author.facts",
+      "text": "찰스 디킨스(Charles Dickens) · 1812–1870 · en · britain-ireland",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "97b026eb0397",
+      "where": "author.importanceReason",
+      "text": "월간 분책 연재로 독자의 반응을 보며 이야기를 이어 가는 방식을 확립했고, 구빈원과 채무자 감옥과 빈민가를 소설의 무대로 삼았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e7e4515569f4",
+      "where": "author.importanceReason",
+      "text": "인물의 말버릇 하나로 계급과 직업을 즉시 알아보게 하는 조형법과, 매회 끝에 갈고리를 거는 연재의 리듬이 결합해 장편소설을 대중의 매체로 만들었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2977dbbc7a64",
+      "where": "author.importanceReason",
+      "text": "그의 연재가 요크셔 기숙학교를 둘러싼 여론을 실제로 움직이고 구빈법을 둘러싼 당대 논쟁의 한 축이 되면서, 소설이 제도에 개입할 수 있다는 전제가 19세기 사회소설의 조건이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "71718da7f43e",
+      "where": "author.readingEntryReason",
+      "text": "디킨스 장편 중 분량이 절제되어 있고 1인칭 회고라 시점이 하나로 모여, 연재 장편의 리듬을 처음 겪기에 부담이 적다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dc7c3c24db09",
+      "where": "author.readingWarning",
+      "text": "『황폐한 집』처럼 이중 서술과 다중 플롯을 쓴 장편으로 시작하면 인물표 없이는 중반을 넘기기 어렵다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9998f9e31303",
+      "where": "author.difficultyReason",
+      "text": "사건과 문장은 직진하지만 분책 연재로 쓰인 탓에 분량이 크고 등장인물이 많아, 중반 이후 인물 관계를 놓치지 않는 지속적 독서가 필요하다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e4affff5da3d",
+      "where": "work:charles-dickens--oliver-twist.facts",
+      "text": "『올리버 트위스트』(Oliver Twist) · 1838 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1aa37615165b",
+      "where": "work:charles-dickens--oliver-twist.significance",
+      "text": "구빈원과 런던 뒷골목의 소년 범죄 조직을 소설의 전면에 놓은 초기 연재작.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "982aab994526",
+      "where": "work:charles-dickens--oliver-twist.significance",
+      "text": "벤틀리 미셀러니 연재가 1839년 4월까지 이어지는 동안, 1838년 11월에 세 권짜리 단행본이 먼저 나왔다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b3d8c746fd61",
+      "where": "work:charles-dickens--bleak-house.facts",
+      "text": "『황폐한 집』(Bleak House) · 1853 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0225ff6cc34b",
+      "where": "work:charles-dickens--bleak-house.significance",
+      "text": "대법관부의 끝나지 않는 소송을 축으로 3인칭 현재형 서술과 1인칭 회고를 교차시킨다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ba808ca87d6f",
+      "where": "work:charles-dickens--bleak-house.significance",
+      "text": "제도의 지연 자체를 형식으로 옮긴 장편.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9ab228ecf2c9",
+      "where": "work:charles-dickens--a-tale-of-two-cities.facts",
+      "text": "『두 도시 이야기』(A Tale of Two Cities) · 1859 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "050bb3215882",
+      "where": "work:charles-dickens--a-tale-of-two-cities.significance",
+      "text": "프랑스혁명기의 런던과 파리를 오가며 대속과 복수를 겹쳐 놓은 역사 장편.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c08b1e5280f2",
+      "where": "work:charles-dickens--a-tale-of-two-cities.significance",
+      "text": "디킨스 작품 중 문장이 가장 절제되어 있다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1f1eb7285ede",
+      "where": "work:charles-dickens--david-copperfield.facts",
+      "text": "『데이비드 코퍼필드』(David Copperfield) · 1850 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "a5e3e7af18e5",
+      "where": "work:charles-dickens--david-copperfield.significance",
+      "text": "작가 자신의 유년(구두약 공장, 채무자 감옥)을 변형해 넣은 1인칭 성장 서사.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d28b4ca2fa77",
+      "where": "work:charles-dickens--david-copperfield.significance",
+      "text": "디킨스가 스스로 가장 아낀 작품으로 알려져 있다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "20dd07fdfc0a",
+      "where": "work:charles-dickens--great-expectations.facts",
+      "text": "『위대한 유산』(Great Expectations) · 1861 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2dda0cd17306",
+      "where": "work:charles-dickens--great-expectations.significance",
+      "text": "고아의 신분 상승과 그 자금의 출처를 되짚는 1인칭 회고.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "3f9e286b4055",
+      "where": "work:charles-dickens--great-expectations.significance",
+      "text": "디킨스 장편 중 구성이 가장 조여 있고 성공의 대가를 냉정하게 계산한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "adff4d44e2eb",
+      "where": "relation:influence--charles-dickens--franz-kafka.facts",
+      "text": "찰스 디킨스 → 프란츠 카프카 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b659649f8dae",
+      "where": "relation:influence--charles-dickens--franz-kafka.summary",
+      "text": "카프카는 1917년 10월 8일 일기에서 『데이비드 코퍼필드』를 읽고 자신의 「화부」와 미완 장편 『실종자』가 디킨스의 모방이라고 적으며, 어떤 점을 계승하고 어떤 점을 버렸는지 항목별로 나열했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fa6c1d6cfacb",
+      "where": "relation:influence--charles-dickens--leo-tolstoy.facts",
+      "text": "찰스 디킨스 → 레프 톨스토이 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4bf01e799a0a",
+      "where": "relation:influence--charles-dickens--leo-tolstoy.summary",
+      "text": "톨스토이는 『예술이란 무엇인가』(1897)에서 디킨스의 『두 도시 이야기』·『크리스마스 캐럴』·『종소리』를 신과 인간에 대한 사랑에서 나온 최고 예술의 예로 들었고, 『데이비드 코퍼필드』와 『픽윅 클럽 여행기』는 보편 예술로 분류될 만하나 결국 제 집단에만 이해되는 작품이라고 적었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0d1b01190105",
+      "where": "relation:influence--charles-dickens--leo-tolstoy.summary",
+      "text": "그와 별개로 평생 디킨스를 애독 작가로 반복해 꼽았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7981e4b7ff00",
+      "where": "relation:influence--charles-dickens--fyodor-dostoevsky.facts",
+      "text": "찰스 디킨스 → 표도르 도스토옙스키 · documented_influence · directed · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e6d0104a0c37",
+      "where": "relation:influence--charles-dickens--fyodor-dostoevsky.summary",
+      "text": "러시아 소설 연구는 도스토옙스키가 유형 이후 디킨스를 애독했다는 기록과, 미시킨 공작의 구상 참조로 피크윅을 든 서한을 근거로 『백치』와 『죄와 벌』의 도시 빈민 묘사를 디킨스 수용으로 다룬다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "3b15b2f3dbce",
+      "where": "relation:influence--charles-dickens--fyodor-dostoevsky.summary",
+      "text": "1862년 런던 회견설은 위조로 밝혀졌으므로 근거에서 제외한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7605b9b1f304",
+      "where": "relation:influence--charles-dickens--roald-dahl.facts",
+      "text": "찰스 디킨스 → 로알드 달 · documented_influence · directed · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "0d4bdf7d6958",
+      "where": "relation:influence--charles-dickens--roald-dahl.summary",
+      "text": "『마틸다』(1988)는 주인공이 도서관에서 읽는 책으로 디킨스의 『니콜라스 니클비』와 『올리버 트위스트』를 명시한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "ab72aa025d8f",
+      "where": "relation:influence--charles-dickens--roald-dahl.summary",
+      "text": "달의 아동물이 학대받는 아이와 희화화된 악인이라는 디킨스적 배치를 되풀이한다는 지적이 있다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "찰스 디킨스의 생몰년은 1812–1870이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+      "quote": "7 February 1812 ... died 9 June 1870",
+      "note": "영국·en·britain-ireland 도 같은 문서에서 확인"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "월간 분책 연재로 독자의 반응을 보며 이야기를 이어 가는 방식을 확립했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dickens",
+      "quote": "The installment format allowed Dickens to evaluate his audience's reaction, and he often modified his plot and character development based on such feedback.",
+      "note": "연재 형식의 확립 자체는 en.wikipedia.org/wiki/Serial_(literature) 의 'The wild success of ... The Pickwick Papers ... established the viability' 로도 확인"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "구빈원과 채무자 감옥과 빈민가를 소설의 무대로 삼았다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Little_Dorrit",
+      "quote": "The prison in this case is the Marshalsea, where Dickens's own father had been imprisoned.",
+      "note": "구빈원은 『올리버 트위스트』(en.wikipedia.org/wiki/Oliver_Twist), 채무자 감옥은 『리틀 도릿』으로 확인"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "그의 연재가 요크셔 기숙학교를 둘러싼 여론을 실제로 움직였다",
+      "verdict": "confirmed",
+      "url": "https://www.gutenberg.org/files/967/967-h/967-h.htm",
+      "quote": "I make mention of the race, as of the Yorkshire schoolmasters, in the past tense. Though it has not yet finally disappeared, it is dwindling daily.",
+      "note": "디킨스 자신의 1848년 서문. 학술적 검토로는 Arthur A. Adrian, 'Nicholas Nickleby and Educational Reform', Nineteenth-Century Fiction 4:3 (1949) 237–241 (JSTOR 3044199) 가 존재하나 본문 열람 실패"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "그의 연재가 구빈법을 둘러싼 여론을 실제로 움직였다",
+      "verdict": "unverifiable",
+      "correction": "구빈법을 둘러싼 당대 논쟁의 한 축이 되었다",
+      "note": "absent: 『올리버 트위스트』가 신구빈법 여론을 실제로 이동시켰다고 측정·단언하는 출처를 찾지 못했다. 당대 논쟁의 축이 되었다는 서술까지만 확인됨. 요크셔 학교 쪽과 달리 디킨스 자신의 사후 진술도 없다.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "readingEntryReason",
+      "claim": "『위대한 유산』은 1인칭 회고라 시점이 하나로 모인다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+      "quote": "It is Dickens' second novel, after David Copperfield, to be fully narrated in the first person."
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『황폐한 집』은 이중 서술과 다중 플롯을 쓴 장편이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Bleak_House",
+      "quote": "it is told partly by the novel's heroine, Esther Summerson, and partly by an omniscient narrator."
+    },
+    {
+      "field": "works[oliver-twist].year",
+      "claim": "『올리버 트위스트』의 연도는 1838년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oliver_Twist",
+      "quote": "The novel first appeared in book form six months before the initial serialisation was completed, in three volumes published by Richard Bentley",
+      "note": "단행본 연도 1838. 연재 시작은 1837년 2월"
+    },
+    {
+      "field": "works[oliver-twist].significance",
+      "claim": "벤틀리 미셀러니 연재가 1839년 4월까지 이어졌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oliver_Twist",
+      "quote": "first published in monthly instalments, from February 1837 to April 1839, in the magazine Bentley's Miscellany"
+    },
+    {
+      "field": "works[oliver-twist].significance",
+      "claim": "1838년 11월에 세 권짜리 단행본이 연재 완결보다 먼저 나왔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Oliver_Twist",
+      "quote": "in book form six months before the initial serialisation was completed, in three volumes published by Richard Bentley",
+      "note": "1839년 4월의 6개월 전 = 1838년 11월. 출처는 '11월'을 명시하지 않고 '6개월 전'으로만 적는다"
+    },
+    {
+      "field": "works[bleak-house].year",
+      "claim": "『황폐한 집』의 연도는 1853년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Bleak_House",
+      "quote": "first published as a 20-episode serial between 12 March 1852 and 12 September 1853",
+      "note": "단행본 1853년 9월 12일. 연재 개시는 1852년"
+    },
+    {
+      "field": "works[bleak-house].significance",
+      "claim": "대법관부(Chancery)의 끝나지 않는 소송이 작품의 축이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Bleak_House",
+      "quote": "At the centre of Bleak House is a long-running legal case in the Court of Chancery, Jarndyce and Jarndyce"
+    },
+    {
+      "field": "works[bleak-house].significance",
+      "claim": "3인칭 현재형 서술과 1인칭 회고를 교차시킨다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Bleak_House",
+      "quote": "The omniscient narrator speaks in the present tense ... Esther Summerson tells her own story in the past tense"
+    },
+    {
+      "field": "works[a-tale-of-two-cities].year",
+      "claim": "『두 도시 이야기』는 1859년 작이며 런던과 파리를 오가는 프랑스혁명기 역사 장편이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities",
+      "quote": "set in London and Paris before and during the French Revolution",
+      "note": "주간 연재 1859년 4–11월, 단행본 1859년"
+    },
+    {
+      "field": "works[david-copperfield].year",
+      "claim": "『데이비드 코퍼필드』의 연도는 1850년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/David_Copperfield",
+      "quote": "serialized from May 1849 to November 1850, then published as a book in 1850"
+    },
+    {
+      "field": "works[david-copperfield].significance",
+      "claim": "작가 자신의 유년(구두약 공장, 채무자 감옥)을 변형해 넣은 1인칭 성장 서사다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/David_Copperfield",
+      "quote": "the story of Dickens's experience at the Warren ... Factory ... almost verbatim",
+      "note": "채무자 감옥은 미코버의 투옥으로 변형됨(디킨스 부친의 마셜시 수감)"
+    },
+    {
+      "field": "works[david-copperfield].significance",
+      "claim": "디킨스가 스스로 가장 아낀 작품으로 알려져 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/David_Copperfield",
+      "quote": "Of the books he wrote, it was his favourite."
+    },
+    {
+      "field": "works[great-expectations].year",
+      "claim": "『위대한 유산』의 연도는 1861년이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+      "quote": "serialized in All the Year Round from 1 December 1860 to August 1861, then published in book form in October 1861"
+    },
+    {
+      "field": "relations[dickens→kafka].summary",
+      "claim": "카프카는 1917년 10월 8일 일기에서 『데이비드 코퍼필드』와 자기 작품의 관계를 스스로 인정했다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Der_Verschollene",
+      "quote": "Parallelen zu Charles Dickens' Roman David Copperfield nachweisen, was sich Kafka am 8. Oktober 1917 in seinem Tagebuch selbst eingestand.",
+      "note": "카를 로스만을 'entfernte(n) Verwandte(n) von David Copperfield und Oliver Twist' 라 부른 대목도 같은 문서에서 확인"
+    },
+    {
+      "field": "relations[dickens→kafka].summary",
+      "claim": "카프카가 어떤 점을 계승하고 어떤 점을 버렸는지 항목별로 나열했다",
+      "verdict": "confirmed",
+      "correction": "디킨스에게서 가져온 요소들을 항목별로 나열했다",
+      "note": "1917년 10월 8일 일기 전문을 빈 대학(Universität Wien) 소재 베르너 하스의 카프카 일기 전사본으로 열람했다. 원장이 제안한 수정('가져온 요소들을 항목별로 나열했다')은 필요 없다 — 항목은 양쪽 모두 있다. 계승: «Koffergeschichte, der Beglückende und Bezaubernde, die niedrigen Arbeiten, die Geliebte auf dem Landgut, die schmutzigen Häuser u. a. vor allem aber die Methode». 버린 것: 인용문의 'Barbarentum'(자신은 피했다고 명시), 'Herzlosigkeit', 그리고 «Diese Klötze roher Charakterisierung die künstlich bei jedem Menschen eingetrieben werden». 「화부」에 대한 자기 진단도 같은 문단에 있다 — «‹Der Heizer› glatte Dickensnachahmung, noch mehr der geplante Roman».",
+      "url": "https://homepage.univie.ac.at/werner.haas/1917/tb17-022.htm",
+      "quote": "ein Barbarentum, das allerdings ich dank meiner Schwäche und belehrt durch mein Epigonentum vermieden habe. Herzlosigkeit hinter der von Gefühl überströmenden Manier.",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "relations[dickens→tolstoy].summary",
+      "claim": "톨스토이는 『예술이란 무엇인가』(1897)에서 디킨스의 소설을 계급과 국경을 넘어 감정을 전달하는 보편적 예술의 예로 들었다",
+      "verdict": "contradicted",
+      "url": "https://www.marxists.org/archive/tolstoy/1897/what-is-art/chapter-16.html",
+      "quote": "David Copperfield and The Pickwick Papers by Dickens ... comprehensible only to people of their own circle.",
+      "correction": "톨스토이는 『예술이란 무엇인가』(1897)에서 디킨스의 『두 도시 이야기』·『크리스마스 캐럴』·『종소리』를 신과 인간에 대한 사랑에서 나온 최고 예술의 예로 들었고, 『데이비드 코퍼필드』와 『픽윅 클럽 여행기』는 보편 예술로 분류될 만하나 결국 제 집단에만 이해되는 작품이라고 적었다.",
+      "note": "16장에서 디킨스가 놓인 자리는 '보편 예술'이 아니라 '최고의 종교적 예술' 목록이다: 'the novels and stories of Dickens—The Tale of Two Cities, The Christmas Carol, The Chimes, and others'. 보편 예술 후보로 언급된 두 작품은 곧바로 자격을 부정당한다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[dickens→tolstoy].summary",
+      "claim": "톨스토이는 평생 디킨스를 애독 작가로 반복해 꼽았다",
+      "verdict": "confirmed",
+      "url": "https://polilog.pl/index.php/polilog/article/view/471",
+      "quote": "his appreciation of the English author was permanent and unchangeable",
+      "note": "Brygida Pudełko, 'Lev Tolstoy's Appreciation of Charles Dickens', Polylogue 12 (2022)"
+    },
+    {
+      "field": "relations[dickens→dostoevsky].summary",
+      "claim": "도스토옙스키가 미시킨 공작의 구상 참조로 피크윅을 든 서한이 있다",
+      "verdict": "confirmed",
+      "url": "https://victorianweb.org/authors/dickens/gredina.html",
+      "quote": "Dickens's Pickwick (an infinitely weaker conception than Don Quixote, but all the same immense) is also funny",
+      "note": "1868년 1월 S. 이바노바에게 보낸 편지"
+    },
+    {
+      "field": "relations[dickens→dostoevsky].summary",
+      "claim": "도스토옙스키가 유형 이후 디킨스를 애독했다는 기록이 있다",
+      "verdict": "confirmed",
+      "url": "https://victorianweb.org/authors/dickens/gredina.html",
+      "quote": "after his Siberian imprisonment in Semipalatinsk, Dostoevsky read Dickens's novels by candlelight"
+    },
+    {
+      "field": "relations[dickens→dostoevsky].summary",
+      "claim": "1862년 런던 회견설은 위조로 밝혀졌다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/A._D._Harvey",
+      "quote": "a 2002 article attributed to a 'Stephanie Harvey' falsely claiming that Charles Dickens and Fyodor Dostoevsky met in 1862",
+      "note": "Eric Naiman, TLS 2013년 4월"
+    },
+    {
+      "field": "relations[dickens→dostoevsky].sources",
+      "claim": "이 관계의 출처는 src--britannica 와 src--cambridge-companions 다",
+      "verdict": "contradicted",
+      "correction": "(출처: src--cambridge-companions)",
+      "note": "src--britannica 는 일반 참고이며 이 주장이 사는 자리가 아니다. 게다가 britannica.com 은 이번 라운드 내내 403 으로 열람 자체가 불가했다",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relations[dickens→roald-dahl].summary",
+      "claim": "디킨스는 달이 어린 시절 애독한 작가다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+      "quote": "His other favourite authors included Rudyard Kipling, Charles Dickens, William Makepeace Thackeray and ... Frederick Marryat"
+    },
+    {
+      "field": "relations[dickens→roald-dahl].summary",
+      "claim": "그 사실이 도널드 스터록 『Storyteller』(2010)에 기록돼 있다",
+      "verdict": "confirmed",
+      "correction": "디킨스는 달이 어린 시절 애독한 작가로 기록돼 있고",
+      "note": "Google Books search-within-volume on the US edition (Simon & Schuster, Storyteller: The Authorized Biography of Roald Dahl). Hit is p.55, inside the St Peter's boarding-school chapter (pp.49-58, Dahl aged 9-13). The same page distinguishes Roald's own reading from his mother's ('his mother was an avid reader - Horace Walpole, Thomas Hardy and G. K. Chesterton were among her favorites'), so the Dickens/Stevenson/Kipling list is the boy's. Index confirms: 'Dickens, Charles, 16, 55, 239, 271, 396' (p.643). Correction not needed.",
+      "url": "https://books.google.com/books?id=fit6PwGWugEC&q=Dickens",
+      "quote": "Dickens novels, Stevenson's Treasure Island, and a great deal of Rudyard Kipling. He was already very comfortable with literature.",
+      "rereadAt": "2026-09-07"
+    },
+    {
+      "field": "relations[dickens→roald-dahl].summary",
+      "claim": "『마틸다』(1988)는 주인공이 도서관에서 읽는 책으로 『위대한 유산』과 『니콜라스 니클비』를 명시한다",
+      "verdict": "confirmed",
+      "url": "https://www.penguin.co.uk/discover/childrens-articles/matilda-by-roald-dahl-extract",
+      "quote": "'Great Expectations,' Matilda read, 'by Charles Dickens. I'd love to try it.'",
+      "note": "이어지는 6개월 독서 목록에 'NICHOLAS NICKLEBY by Charles Dickens' 가 있다. 출간 1988년은 en.wikipedia.org/wiki/Matilda_(novel) 로 확인"
+    },
+    {
+      "field": "relations[dickens→roald-dahl].summary",
+      "claim": "학대받는 아이와 희화화된 악인이라는 디킨스적 배치를 달의 아동물이 되풀이한다는 독법은 아동문학 연구에서 표준적이다",
+      "verdict": "unverifiable",
+      "correction": "달의 아동물이 학대받는 아이와 희화화된 악인이라는 디킨스적 배치를 되풀이한다는 지적이 있다",
+      "note": "absent: '표준적'이라고 말할 근거가 될 연구사 정리를 찾지 못했다. 위키백과가 인용한 Independent 기사('Dickensian adults prone to gluttony and sadism')는 저널리즘 논평이지 학계 합의의 증거가 아니다",
+      "resolution": "narrowed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--kmib-jeong-you-jeong-2011": {
+      "id": "src--kmib-jeong-you-jeong-2011",
+      "title": "정철훈, 「현장취재로 메운 원고지 2000장의 힘… ‘7년의 밤’」 (2011. 3. 18.)",
+      "publisherOrInstitution": "국민일보",
+      "url": "https://news.kmib.co.kr/article/view.asp?arcid=0004759278",
+      "citation": "『7년의 밤』 출간 인터뷰. 헤밍웨이·찰스 디킨스·스티븐 킹을 ‘정말 좋아하는 작가’로 꼽고 디킨스처럼 독자를 안달 나게 하는 인물을 쓰고 싶다고 말한 대목, 소설 취재 과정."
+    },
+    "src--kln-jeong-you-jeong-i-dream-of-fire-2017": {
+      "id": "src--kln-jeong-you-jeong-i-dream-of-fire-2017",
+      "title": "Jeong You Jeong, “I Dream of Fire, Always” (Writers’ Notes, Vol. 37, Autumn 2017)",
+      "publisherOrInstitution": "Korean Literature Now (한국문학번역원)",
+      "url": "https://web.archive.org/web/20171201043157/http://koreanliteraturenow.com/writers-note/jeong-you-jeong-i-dream-fire-always",
+      "citation": "작가마다 평생 변주하는 주제가 있다며 헤밍웨이(죽음과 마주한 사람들)·디킨스(아버지를 찾는 소년들)·스티븐 킹을 예로 들고, 자신의 주제를 ‘우리 안의 야수’라고 밝힌 작가 산문."
+    },
+    "src--kafka-tagebuch-1917-dickens": {
+      "id": "src--kafka-tagebuch-1917-dickens",
+      "title": "카프카 일기 1917년 10월 8일 (디킨스 『데이비드 코퍼필드』 관련 기록)",
+      "publisherOrInstitution": "Franz Kafka, Tagebücher",
+      "citation": "카프카가 「화부」와 『실종자』를 디킨스의 모방이라고 적은 일기 — 디킨스 영향의 1차 근거"
+    },
+    "src--tolstoy-what-is-art": {
+      "id": "src--tolstoy-what-is-art",
+      "title": "예술이란 무엇인가 (Что такое искусство?, 1897)",
+      "publisherOrInstitution": "레프 톨스토이 저작",
+      "citation": "후기 톨스토이의 예술관과 자기 소설에 대한 부정을 본인이 서술한 1차 문헌"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--sturrock-storyteller-roald-dahl": {
+      "id": "src--sturrock-storyteller-roald-dahl",
+      "title": "Storyteller: The Life of Roald Dahl",
+      "publisherOrInstitution": "Donald Sturrock, HarperCollins (2010)",
+      "citation": "달의 유년 독서(디킨스·키플링·새커리·매리엇)와 성인 단편에서 아동물로 옮겨 간 경로를 기록한 공인 평전"
+    }
+  }
+}

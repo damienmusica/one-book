@@ -1,0 +1,699 @@
+{
+ "plates": [
+  {
+   "id": "edouard-glissant",
+   "claims": [
+    {
+     "sids": [
+      "d701ff4538d0"
+     ],
+     "field": "author.facts",
+     "claim": "에두아르 글리상(Édouard Glissant)은 1928년에 태어나 2011년에 죽었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "'''Édouard Glissant''' ({{IPA|fr|ɡlisɑ̃|lang}}; 21 September 1928 &ndash; 3 February 2011)",
+     "note": "위키 원문(wikitext) 그대로 인용"
+    },
+    {
+     "sids": [
+      "d701ff4538d0"
+     ],
+     "field": "author.facts",
+     "claim": "글리상은 프랑스어로 쓴 카리브(마르티니크) 작가다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "was a French writer, poet, philosopher, and literary critic from [[Martinique]]. … He remains an influential and celebrated figure in Caribbean thought and cultural commentary as well as within multiple Francophone literary canons.",
+     "note": "재인용: 기존 인용의 'French writer'는 국적으로도 읽혀 '프랑스어로 쓴'을 싣지 못함. 같은 문단 다음 문장의 'Francophone literary canons'까지 이어 인용 | 기존 주: fr 위키 infobox도 'langue = [[Français]]'"
+    },
+    {
+     "sids": [
+      "c4cf0f51e08b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "글리상은 '관계(Relation)' 개념을 세워 『관계의 시학』에서 전개했다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Il développe donc le concept clé de ''Relation'' en 1990 dans son essai ''Poétique de la Relation''"
+    },
+    {
+     "sids": [
+      "c4cf0f51e08b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "글리상은 크레올화 개념을 세웠다",
+     "verdict": "contradicted",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Édouard Glissant est fondateur entre autres des concepts d'« [[antillanité]] », de « Tout-monde » et de « Relation », Glissant repense également la notion de [[Créolisation (concept)|créolisation]]",
+     "correction": "'관계' 개념을 세우고 크레올화 개념을 다시 사유해",
+     "note": "fr 위키는 크레올화를 글리상이 '창안'한 것이 아니라 '다시 사유(repense)'한 개념으로 쓴다. fr 위키 「Créolisation (concept)」도 브래스웨이트·네틀퍼드·민츠·프라이스·글리상을 이 개념의 주요 옹호자로 나란히 든다 | 점검: 기존 교정문 \"'관계의 시학'을 세우고 … 새로 정의해\"는 인용(fondateur … « Relation », repense … créolisation)보다 넓어 인용 그대로 '관계' 개념·'다시 사유(repense)'로 고침"
+    },
+    {
+     "sids": [
+      "c4cf0f51e08b"
+     ],
+     "field": "author.importanceReason",
+     "claim": "글리상은 카리브의 혼종 문화를 결핍이 아니라 인정·가치화할 대상으로 놓았다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "de cette nécessaire re-création est née une société originale, une culture particulière, unique, antillaise en un mot, qu'il convient de valoriser, enfin, et non pas d'ignorer, comme il lui semble que Césaire s'est contenté de le faire. Glissant affirme qu'un processus de créolisation est à l'œuvre dans les sociétés de l'Amérique des Plantations depuis leur constitution même, et que ce processus a donné naissance à des cultures inédites qu'il convient de reconnaître comme valables",
+     "note": "인용(앞 문장까지 이어 붙임)이 싣는 것은 '무시하지 말고 가치를 인정해야 할 문화'까지다. '결핍이 아니라'라는 대비도, 원문장의 '사유의 출발점'도 Thébaudeau에 없다. 기존 주: Thébaudeau, Québec français 127 (2002), p.37. PDF 줄바꿈 하이픈만 이어 붙임",
+     "correction": "카리브의 혼종 문화를 외면할 것이 아니라 가치를 인정할 대상으로 놓았다"
+    },
+    {
+     "sids": [
+      "a75c0119a1ea"
+     ],
+     "field": "author.importanceReason",
+     "claim": "글리상은 '뿌리 하나'의 정체성 대신 관계 속 정체성을 내세웠다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Édouard Glissant définit l’identité comme une Identité-relation<ref name=\":0\" />, contre l'acception de l'identité selon une « racine unique »"
+    },
+    {
+     "sids": [
+      "a75c0119a1ea"
+     ],
+     "field": "author.importanceReason",
+     "claim": "글리상의 '불투명성'은 완전히 이해되지 않을 권리를 뜻한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Glissant demands the \"right to opacity,\" indicating the oppressed—which have historically been constructed as the Other—can and should be allowed to be opaque, to not be completely understood, and to simply exist as different."
+    },
+    {
+     "sids": [
+      "a75c0119a1ea"
+     ],
+     "field": "author.importanceReason",
+     "claim": "불투명성은 (식민자가 요구한) 투명성에 대한 거부다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Consequently, the colonized were dominated and subjected to the colonizer's demands for transparency and conformity. Glissant rejects this transparency and defends opacity and difference because other modes of understanding do exist."
+    },
+    {
+     "sids": [
+      "aad6f6a2c353"
+     ],
+     "field": "author.importanceReason",
+     "claim": "글리상의 소설은 마르티니크의 구술 전통을 서술에 끌어들인다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "le monologue intérieur trouve sa trace dans l’oralité qui caractérise les sociétés créoles. … « La veillée [58] » et le conte antillais font partie de cette démarche orale et inscrivent les romans de Glissant dans la sphère culturelle caribéenne.",
+     "note": "재인용: 기존 인용은 '크레올 사회의 구술성'까지만 말하고 글리상의 소설·앙티유를 명시하지 않음. 같은 단락의 '앙티유 민담이 글리상의 소설을 카리브 문화권에 새긴다'까지 이어 인용 | 기존 주: Keraani, Études littéraires 51-3 (2023): 『레자르드 강』·『제4세기』 분석"
+    },
+    {
+     "sids": [
+      "aad6f6a2c353"
+     ],
+     "field": "author.importanceReason",
+     "claim": "글리상의 소설은 끊기는 통사를 쓴다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "ce monologue intérieur donne libre cours au glissement sémantique des mots et à la syntaxe sporadique de la parole intérieure de Mathieu"
+    },
+    {
+     "sids": [
+      "aad6f6a2c353"
+     ],
+     "field": "author.importanceReason",
+     "claim": "플랜테이션이 지워 버린 계보를 '문장 구조 자체로' 되살렸다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "insatisfait du peu que lui en révèle sa laborieuse lecture des registres d'état-civil, Papa Longoué retrace, au fil de plusieurs séances, les frasques de leurs deux lignées. Pour ce faire, il recourt à deux sortes de parole : celle du griot africain d'abord, garant des généalogies",
+     "correction": "『제4세기』에서는 호적 기록이 거의 알려 주지 않는 두 가문의 계보를 구술 화자의 말로 되살렸다",
+     "note": "확인되는 것은 계보를 '구술 화자의 말'로 되살린다는 데까지다. 계보 복원이 '문장 구조 자체'로 이루어진다는 진술은 Thébaudeau·Keraani 어디에도 없다 | 점검: 기존 교정문의 '공식 기록이 말해 주지 않는'은 인용(insatisfait du peu que lui en révèle … registres d'état-civil = 호적 기록이 알려 주는 게 적다)보다 강하고, '구술 서사와 끊기는 통사' 부분은 이 인용이 아니라 Keraani 주장(#8·#9)의 몫이라, 교정문을 이 인용이 싣는 절로 한정하고 인용을 같은 대목의 앞부분까지 넓힘"
+    },
+    {
+     "sids": [
+      "7aee6eb215ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『레자르드 강』은 250쪽 안팎이다",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/search.json?q=La+L%C3%A9zarde+Glissant&fields=title,author_name,number_of_pages_median,first_publish_year,key",
+     "quote": "\"number_of_pages_median\":252,\"title\":\"La Lézarde\"",
+     "note": "Thébaudeau 註14도 251쪽으로 적는다"
+    },
+    {
+     "sids": [
+      "7aee6eb215ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『레자르드 강』은 글리상의 첫 장편이다",
+     "verdict": "confirmed",
+     "url": "https://ile-en-ile.org/glissant/",
+     "quote": "Le prix Renaudot, remporté en 1958 pour son premier roman, La Lézarde , consacre sa renommée."
+    },
+    {
+     "sids": [
+      "7aee6eb215ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "소설의 사건 축은 1945년 선거다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "Le second moment est celui de l’organisation de la campagne électorale … ces deux moments cruciaux dans le roman sont puisés dans la réalité de la Martinique, puisque la parution de La Lézarde , treize ans après les élections législatives de 1945, reflète une période charnière dans l’histoire de la Martinique",
+     "note": "재인용: 기존 인용은 출간이 1945년 선거 13년 뒤라는 데까지만 말함. 같은 단락에서 두 핵심 국면(선거운동 조직)이 1945년 선거 현실에서 왔다는 문장으로 교체"
+    },
+    {
+     "sids": [
+      "7aee6eb215ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "소설의 사건은 '한 계절' 안에서 벌어진다",
+     "verdict": "unverifiable",
+     "correction": "1945년 선거를 앞둔 시기",
+     "note": "fr 위키 「La Lézarde」 줄거리, Keraani(Études littéraires 2023), Thébaudeau(Québec français 2002), ile-en-ile 어디에도 작중 기간을 '한 계절'로 한정한 서술이 없다. 확인되는 것은 작중 시점 'septembre 1945, le 14'(Keraani 인용)와 네 장 구성(La flamme, L’acte, L’élection, L’éclat)까지 | 점검: 교정문 '1945년 선거를 앞둔 시기'의 근거로 Keraani 인용을 붙임(작중 시점 1945년 9월 14일, 1945년 총선). '한 계절'은 여전히 확인되지 않음",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "la parution de La Lézarde , treize ans après les élections législatives de 1945, reflète une période charnière dans l’histoire de la Martinique, celle d’un moment de croyance au changement : « Aujourd’hui, on peut dire que le temps nous a rattrapés. Voilà, nous somme en septembre 1945, le 14, un peuple neuf et attentif."
+    },
+    {
+     "sids": [
+      "7aee6eb215ad"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "소설의 중심에 젊은 무리가 있다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "Le premier moment correspond à l’union d’un groupe de jeunes fougueux, en l’occurrence, Mathieu, Thaël et Mycéa"
+    },
+    {
+     "sids": [
+      "ffb0056892e6"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "『레자르드 강』의 강과 땅 묘사에서 이후 이론의 이미지가 '이미 다' 나온다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Ainsi est fondamentale pour Glissant la relation étroite qu'il suppose exister entre paysage et mémoire. Il l'affirme, « l'effort vers la terre est effort dans l'histoire ». Son œuvre romanesque tout entière porte la marque de cette conviction.",
+     "correction": "풍경과 기억이 긴밀히 이어져 있다는 글리상의 확신이 이 소설에도 새겨져 있다.",
+     "note": "소설 전체가 '풍경–기억' 확신을 담는다는 데까지 확인된다. 이후 이론의 이미지가 '다' 나온다는 전칭은 뒷받침하는 자료가 없다 | 점검: 기존 교정문의 '강과 땅의 묘사', '이후 이론', '이미'는 인용에 없음. 인용이 싣는 것(소설 작품 전체가 풍경–기억 확신의 흔적을 지님)으로 줄임"
+    },
+    {
+     "sids": [
+      "98fac9c7cbe7"
+     ],
+     "field": "author.readingWarning",
+     "claim": "『관계의 시학』에서는 용어가 정의 없이 등장한다",
+     "verdict": "unverifiable",
+     "note": "fr 위키 「Poétique de la Relation」(목차만), en 위키 글리상 항목, Antonioli(Chimères 2016)에서 용어 정의 방식에 관한 서술을 찾지 못함. fr 위키가 인용하는 '미로 같은 책'이라는 평('un labyrinthe savant où l’on risque parfois de s’égarer', Biondi 2021)은 『관계의 시학』이 아니라 『앙티유 담론』에 대한 것이다"
+    },
+    {
+     "sids": [
+      "dbfee58961c6"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "'관계', '전체-세계(Tout-monde)'는 글리상이 만든 개념어다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Édouard Glissant est fondateur entre autres des concepts d'« [[antillanité]] », de « Tout-monde » et de « Relation »"
+    },
+    {
+     "sids": [
+      "dbfee58961c6"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "'불투명성(opacité)'은 글리상의 대표 개념이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "* The right to opacity}}",
+     "note": "en 위키 infobox 'notable_ideas' 항목(Poetics of relation / Theory of the rhizome / The right to opacity)"
+    },
+    {
+     "sids": [
+      "dbfee58961c6"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "후기 산문은 자기 조어를 정의 없이 굴린다",
+     "verdict": "unverifiable",
+     "note": "en/fr 위키, Antonioli(Chimères 2016), Keraani(2023)에서 글리상이 용어를 정의 없이 쓴다는 평을 찾지 못함"
+    },
+    {
+     "sids": [
+      "dbfee58961c6"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "글리상의 관계 사유는 들뢰즈·가타리의 리좀 개념에 기댄다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Glissant and was influenced by their theory of the [[rhizome (philosophy)|rhizome]]<ref>Kuhn, Helke, ''Rhizome, Verzweigungen, Fraktale: Vernetztes Schreiben und Komponieren im Werk von Édouard Glissant'', Berlin: Weidler, 2013. {{ISBN|978-3-89693-728-5}}.</ref> and Poetics of Relation expands upon the theory of the rhizome.",
+     "note": "fr 위키가 인용한 글리상 자신의 문장도 있다: « La pensée du rhizome serait au principe de ce que j’appelle une poétique de la Relation »"
+    },
+    {
+     "sids": [
+      "f56828adc1d3"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "글리상의 소설에서는 화자가 예고 없이 바뀌어 누구의 말인지 헷갈린다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "ce qui induit parfois le lecteur en erreur, tant il n’arrive pas à savoir à qui revient la parole"
+    },
+    {
+     "sids": [
+      "f56828adc1d3"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "글리상의 소설에서는 시간이 조각나고 뒤섞인다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "La verbalisation de la vie intérieure des personnages révèle, sur le plan narratif, une temporalité fragmentée parce que l’auteur opère un brouillage entre l’événementiel et l’énonciatif"
+    },
+    {
+     "sids": [
+      "4ddf10b6f435"
+     ],
+     "field": "work:edouard-glissant--le-quatrieme-siecle.facts",
+     "claim": "『제4세기』(Le Quatrième Siècle)는 1964년에 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Le_Quatri%C3%A8me_Si%C3%A8cle",
+     "quote": "'''''Le Quatrième siècle''''' est un [[Roman (littérature)|roman]] d'[[Édouard Glissant]] publié le {{date|1|janvier|1964|en littérature}} aux [[éditions du Seuil]]",
+     "note": "원제 표기는 판본·자료마다 'siècle/Siècle' 대소문자가 갈린다(ile-en-ile는 Le Quatrième Siècle)"
+    },
+    {
+     "sids": [
+      "fd69947df170"
+     ],
+     "field": "work:edouard-glissant--le-quatrieme-siecle.significance",
+     "claim": "1788년 노예선에서 내린 두 조상에서 1940년대까지 두 가문의 이야기를 다룬다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Le_Quatri%C3%A8me_Si%C3%A8cle",
+     "quote": "présente les rencontres de ''papa Longoué'' et de ''Mathieu le fils'', dans les années 1940, en Martinique, et de leurs ''séances'', où le jeune pousse l'ancien à rétablir la complexité des vies écoulées. Le dialogue retrace les parcours de leurs deux familles, les Longoué et les Béluse, aux histoires croisées, depuis 1788 où leurs deux ancêtres esclaves ont débarqué de la case du ''Rose-Marie'', bateau [[Traites négrières|négrier]]",
+     "note": "재인용: 기존 인용에 '1940년대'가 없음(주석에만 있었음). 같은 문서 줄거리 절의 연속된 두 문장으로 교체 | 기존 주: 같은 문서 앞 문단: 'dans les années 1940, en Martinique'"
+    },
+    {
+     "sids": [
+      "fd69947df170"
+     ],
+     "field": "work:edouard-glissant--le-quatrieme-siecle.significance",
+     "claim": "두 가문을 마롱(도망노예)의 시간과 플랜테이션(노예로 남은 쪽)의 시간으로 갈라 교차시킨다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Dans Le quatrième siècle, par sa pratique conjointe d'une « poétique de la durée » et d'une « poétique de l'instant », il met en évidence combien ces deux figures de l'histoire antillaise que sont le Marron et l'Esclave incarnent, selon lui, une temporalité double … La figure du Marron - incarnée dans le roman par la lignée des Longoué … s'inscrit par son attitude de refus global dans une dynamique de l'instant … L'Esclave resté dans la Plantation, représenté dans ce même roman par le clan des Béluse … s'inscrit quant à lui dans la durée épique",
+     "note": "재인용: 기존 인용은 마롱·노예의 이중 시간성까지만 말하고 두 가문과의 대응·병치를 싣지 못함. 같은 단락에서 롱구에=마롱=순간, 벨뤼즈=플랜테이션=지속의 대응과 '두 시학의 병행(pratique conjointe)'까지 이어 인용"
+    },
+    {
+     "sids": [
+      "fd4b6af4f162"
+     ],
+     "field": "work:edouard-glissant--le-quatrieme-siecle.significance",
+     "claim": "문서가 남지 않은 계보를 구술 기억으로 복원한다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "un enfant curieux de découvrir ce qu'est le passé et insatisfait du peu que lui en révèle sa laborieuse lecture des registres d'état-civil, Papa Longoué retrace, au fil de plusieurs séances, les frasques de leurs deux lignées.",
+     "correction": "공식 기록이 거의 말해 주지 않는 계보를 구술 기억으로 복원하는",
+     "note": "작중에 호적 기록은 있으나 '거의 말해 주지 않는다'. '문서가 남지 않은'은 과장"
+    },
+    {
+     "sids": [
+      "fd4b6af4f162"
+     ],
+     "field": "work:edouard-glissant--le-quatrieme-siecle.significance",
+     "claim": "글리상 특유의 서사 장치가 『제4세기』에서 완성된다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Le quatrième siècle propose une autre perspective, celle de la révélation et la mise en mots d'une histoire non officielle, occultée, qui offre un panel quasi complet des stratégies glissantiennes en matière de relecture de l'histoire antillaise",
+     "correction": "글리상 특유의 역사 다시 읽기 전략을 거의 모두 보여 주는 작품.",
+     "note": "원문장은 '완성된 작품'인데 기존 주장은 인용에 맞춰 '거의 완비'로 낮춰 적었다. 인용은 'panel quasi complet des stratégies … de relecture de l'histoire antillaise'로, '거의 완전한' 전략 목록까지다"
+    },
+    {
+     "sids": [
+      "31532aa5a427"
+     ],
+     "field": "work:edouard-glissant--poetique-de-la-relation.facts",
+     "claim": "『관계의 시학』(Poétique de la Relation)은 1990년에 나온 에세이다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Po%C3%A9tique_de_la_Relation",
+     "quote": "'''''Poétique de la Relation''''' est un livre du [[philosophe]] [[France|français]] [[Édouard Glissant]] paru aux [[éditions Gallimard]] en [[1990]]."
+    },
+    {
+     "sids": [
+      "e0e8befc735a"
+     ],
+     "field": "work:edouard-glissant--poetique-de-la-relation.significance",
+     "claim": "책은 노예선의 경험(심연)을 다루는 「열린 배」에서 시작한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "\"The Open Boat\" introduces Glissant's major theory. The Open Boat is a poem with intense imagery that enters the slave ship experience. … rendering slaves mere possessions and their histories part of the abyss.",
+     "note": "재인용: 기존 인용(fr 위키 목차)은 「La barque ouverte」가 첫 장이라는 것만 보여 주고 노예선·심연 내용을 싣지 못함. en 위키 'The Open Boat' 절로 교체. 첫 장이라는 순서는 fr 위키 목차(APPROCHES의 첫 항목)가 뒷받침 | 기존 주: en 위키: 'The Open Boat is a poem with intense imagery that enters the slave ship experience' 및 'their histories part of the abyss'"
+    },
+    {
+     "sids": [
+      "e0e8befc735a"
+     ],
+     "field": "work:edouard-glissant--poetique-de-la-relation.significance",
+     "claim": "책은 관계·혼돈·불투명성으로 나아가는 구성이다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Po%C3%A9tique_de_la_Relation",
+     "quote": "THÉORIES * ''Relation :'' * Le Relatif et le Chaos … POÉTIQUE * ''Généralisation :'' * Ce qu'étant ce que n'est * Pour l'opacité",
+     "note": "재인용: 기존 인용에 '불투명성'이 없었음(주석에만). 같은 목차 한 덩어리에서 「Pour l'opacité」까지 이어 인용 | 기존 주: 같은 목차의 마지막 부 POÉTIQUE에 「Pour l'opacité」가 있다"
+    },
+    {
+     "sids": [
+      "e0e8befc735a"
+     ],
+     "field": "work:edouard-glissant--poetique-de-la-relation.significance",
+     "claim": "글리상 사유의 대표작(정본)이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "His seminal work ''Poetics of Relation'' has been used by scholars across the world to understand the rapid transformation of a multicultural world."
+    },
+    {
+     "sids": [
+      "00097cc26277"
+     ],
+     "field": "work:edouard-glissant--poetique-de-la-relation.significance",
+     "claim": "탈식민 이론이 정체성을 다루는 어휘 자체를 바꿔 놓았다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "His seminal work ''Poetics of Relation'' has been used by scholars across the world to understand the rapid transformation of a multicultural world.",
+     "correction": "전 세계 연구자들이 다문화 세계의 빠른 변화를 이해하는 틀로 써 온 책이다.",
+     "note": "확인되는 수용 범위는 '여러 분야 연구자들의 참조'까지이며, 탈식민 이론의 어휘를 바꿨다는 인과 주장을 직접 말하는 자료는 찾지 못함"
+    },
+    {
+     "sids": [
+      "fad3d235a834"
+     ],
+     "field": "work:edouard-glissant--la-lezarde.facts",
+     "claim": "『레자르드 강』(La Lézarde)은 1958년에 나온 소설이다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/La_L%C3%A9zarde",
+     "quote": "'''''La Lézarde''''' est un [[Roman (littérature)|roman]] d'[[Édouard Glissant]] publié le {{date|1|janvier|1958|en littérature}} aux [[éditions du Seuil]] et ayant reçu le [[prix Renaudot]] la même année."
+    },
+    {
+     "sids": [
+      "5c006639e05c"
+     ],
+     "field": "work:edouard-glissant--la-lezarde.significance",
+     "claim": "첫 장편으로 르노도상을 받아 글리상의 이름을 알렸다",
+     "verdict": "confirmed",
+     "url": "https://ile-en-ile.org/glissant/",
+     "quote": "Le prix Renaudot, remporté en 1958 pour son premier roman, La Lézarde , consacre sa renommée."
+    },
+    {
+     "sids": [
+      "5c006639e05c"
+     ],
+     "field": "work:edouard-glissant--la-lezarde.significance",
+     "claim": "소설은 선거를 앞둔 마르티니크를 그린다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Son premier roman, La lézarde14, publié en 1958, présentait une communauté martiniquaise figée dans une sorte de pré-histoire … mais décidée par la voie d'un processus électoral à en finir avec l'immobilisme."
+    },
+    {
+     "sids": [
+      "5c006639e05c"
+     ],
+     "field": "work:edouard-glissant--la-lezarde.significance",
+     "claim": "소설은 강(레자르드 강)의 흐름에 맞춰 서술된다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.erudit.org/fr/revues/etudlitt/2023-v51-n3-etudlitt07758/1097192ar/",
+     "quote": "– Fais-le comme une rivière. Lent. Comme la Lézarde. Avec des bonds et des détours, des pauses, des coulées, tu ramasses la terre tout autour [15] . Dans ce dialogue, Glissant dévoile le mode scripturaire sur lequel il allait entretenir l’écriture de son roman"
+    },
+    {
+     "sids": [
+      "5c006639e05c"
+     ],
+     "field": "work:edouard-glissant--la-lezarde.significance",
+     "claim": "소설은 '한 계절'을 서술한다",
+     "verdict": "unverifiable",
+     "correction": "선거를 앞둔 마르티니크의 한 시기를",
+     "note": "fr 위키 「La Lézarde」, Keraani(2023), Thébaudeau(2002), ile-en-ile에서 작중 기간을 한 계절로 한정한 서술을 찾지 못함 | 점검: 교정문 '선거를 앞둔 마르티니크의 한 시기'의 근거로 Thébaudeau 인용을 붙임. '한 계절'은 여전히 확인되지 않음",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Son premier roman, La lézarde14, publié en 1958, présentait une communauté martiniquaise figée dans une sorte de pré-histoire … mais décidée par la voie d'un processus électoral à en finir avec l'immobilisme."
+    },
+    {
+     "sids": [
+      "5ed135c45f3c"
+     ],
+     "field": "work:edouard-glissant--la-lezarde.significance",
+     "claim": "이후 이론의 '풍경과 기억은 분리되지 않는다'는 명제가 소설에서 먼저 실행된다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Ainsi est fondamentale pour Glissant la relation étroite qu'il suppose exister entre paysage et mémoire. Il l'affirme, « l'effort vers la terre est effort dans l'histoire ». Son œuvre romanesque tout entière porte la marque de cette conviction.",
+     "note": "인용은 '소설 작품 전체가 풍경–기억 확신의 흔적을 지닌다'까지다. 이 명제가 '이후 이론'에 속하고 소설이 '먼저' 실행했다는 선후는 인용에 없다. 오히려 fr 위키 「Poétique de la Relation」은 이론 연작 『Poétique』의 첫 권 『Soleil de la conscience』를 1956년(『레자르드 강』 1958년보다 앞)으로 적는다. 기존 주: 같은 글이 『앙티유 담론』(1981) p.262의 « le paysage garde mémoire de ses temps »를 인용한다. 1958년 소설이 1981년 이론보다 앞선다",
+     "correction": "풍경과 기억이 긴밀히 이어져 있다는 글리상의 확신이 이 소설에도 새겨져 있다."
+    },
+    {
+     "sids": [
+      "45ab1205aa43"
+     ],
+     "field": "work:edouard-glissant--le-discours-antillais.facts",
+     "claim": "『앙티유 담론』(Le Discours antillais)은 1981년에 나온 에세이다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Le_Discours_antillais",
+     "quote": "'''''Le Discours antillais''''' est un livre du [[philosophe]] [[France|français]] [[Édouard Glissant]] paru aux [[éditions du Seuil]] en [[1981]]."
+    },
+    {
+     "sids": [
+      "f3ff19280b62"
+     ],
+     "field": "work:edouard-glissant--le-discours-antillais.significance",
+     "claim": "역사·언어·경제를 한 권에 모은 방대한 책이다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.cairn.info/revue-chimeres-2016-3-page-100.htm",
+     "quote": "La simple lecture de la table des matières de cet ouvrage imposant par la richesse de ses analyses et l’étendue des connaissances qui y sont réunies sur l’histoire politique, économique, linguistique et culturelle des Antilles",
+     "note": "Antonioli, Chimères 90 (2016). Thébaudeau는 초판을 509쪽으로 적는다"
+    },
+    {
+     "sids": [
+      "f3ff19280b62"
+     ],
+     "field": "work:edouard-glissant--le-discours-antillais.significance",
+     "claim": "정신분석의 관점을 끌어들인다",
+     "verdict": "confirmed",
+     "url": "https://fr.wikipedia.org/wiki/Le_Discours_antillais",
+     "quote": "L'auteur analyse l'aliénation du peuple [[Martinique|martiniquais]] par le biais d'une perspective à la fois [[Psychanalyse|psychanalytique]] et [[Marxisme|marxiste]]"
+    },
+    {
+     "sids": [
+      "f3ff19280b62"
+     ],
+     "field": "work:edouard-glissant--le-discours-antillais.significance",
+     "claim": "마르티니크의 '비역사(non-histoire)'를 진단한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Glissant diagnostique chez l'Antillais un syndrome de non-histoire causé par l'absence de toute participation de la collectivité aux prises de décisions faites en son nom."
+    },
+    {
+     "sids": [
+      "f3ff19280b62"
+     ],
+     "field": "work:edouard-glissant--le-discours-antillais.significance",
+     "claim": "'강요된 시학(poétique forcée)'을 진단한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/etudlitt/1993-v25-n3-etudlitt2248/501012ar.pdf",
+     "quote": "La poétique forcée naît de la conscience de cette opposition entre une langue dont on se sert et un langage dont on a besoin (1981, p. 237).",
+     "note": "Figueiredo, Études littéraires 25-3 (1993)이 『앙티유 담론』(1981) p.237에서 인용"
+    },
+    {
+     "sids": [
+      "90c77754e185"
+     ],
+     "field": "work:edouard-glissant--le-discours-antillais.significance",
+     "claim": "앙티야니테가 이 책에서 체계를 얻는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.cairn.info/revue-chimeres-2016-3-page-100.htm",
+     "quote": "à l’affirmation de la chance qu’une « poétique de la relation » (Livre ii) née d’un « discours éclaté » (Livre iii) pourrait constituer, non seulement pour l’« avenir antillais » et « l’antillanité » (Livre iv)",
+     "note": "책의 넷째 권 전체가 '앙티유의 미래'와 앙티야니테에 할애된다. 개념 자체는 1960년대 초부터 제기됐다(en 위키 Créolité)"
+    },
+    {
+     "sids": [
+      "a2f031e2b140"
+     ],
+     "field": "relation:influence--william-faulkner--edouard-glissant.facts",
+     "claim": "포크너에서 글리상으로 가는 영향 관계가 문서로 확인된다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/ela/1996-n2-ela03333/1042653ar.pdf",
+     "quote": "le rêve de la confrontation d'un ensemble théorique et critique forgé par un martiniquais et appliqué par expérience à l'œuvre d'un grand écrivain autre qu'on peut considérer comme son mentor.",
+     "note": "재인용: 기존 인용 'fascination'은 매혹이지 영향 관계로 읽기에 약함. 같은 서평 첫 단락의 '그의 멘토로 볼 만한 위대한 작가'로 교체. 서평자(Fonkoua)의 평가임 | 기존 주: Fonkoua의 서평은 글리상이 '적어도 56년부터' 포크너 작품을 깊이 읽었다고도 적는다: 'depuis au moins les années 56, date à laquelle il découvre de manière plus approfondie l'œuvre de l'écrivain du Sud'"
+    },
+    {
+     "sids": [
+      "e9fe81b60e73"
+     ],
+     "field": "relation:influence--william-faulkner--edouard-glissant.summary",
+     "claim": "글리상은 단행본 『포크너, 미시시피』(1996)를 냈다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/ela/1996-n2-ela03333/1042653ar.pdf",
+     "quote": "Edouard GLISSANT, Faulkner, Mississippi, Paris, Stock, 1996,\n360 p., 140 FF"
+    },
+    {
+     "sids": [
+      "e9fe81b60e73"
+     ],
+     "field": "relation:influence--william-faulkner--edouard-glissant.summary",
+     "claim": "글리상은 포크너의 불확실한 혈통 서술을 앙티유 플랜테이션 사회를 읽는 자기 범주로 겹쳐 읽는다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/ela/1996-n2-ela03333/1042653ar.pdf",
+     "quote": "les catégories de la lecture sociohistorique forgées par Glissant, à savoir, la Relation, les paysages, l'importance des forêts, la décadence de la société de l'Habitation née de l'esclavage, l'importance du carnaval, la ftliation douteuse, impossible ou quêtée … trouvent ici un champ d'application",
+     "note": "재인용: 기존 인용은 글리상의 범주 목록에서 끊겨, 그 범주를 포크너에 적용한다는 술어('trouvent ici un champ d'application')가 빠져 있었음. 같은 문장 끝까지 이어 인용 | 기존 주: 'ftliation'은 PDF 원문 OCR 그대로(= filiation). 줄바꿈 하이픈만 이어 붙임"
+    },
+    {
+     "sids": [
+      "e9fe81b60e73"
+     ],
+     "field": "relation:influence--william-faulkner--edouard-glissant.summary",
+     "claim": "글리상은 포크너를 자기 소설 방법의 참조점으로 '명시'한다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/ela/1996-n2-ela03333/1042653ar.pdf",
+     "quote": "il s'agit et mieux encore, pour l'écrivain mar-\ntiniquais de confronter les catégories de sa propre expérience d'écrivain à\ncelles d'un autre qui s'est lancé plus tôt sur ce chemin de l'écriture de l'im-\npossible",
+     "correction": "자기 작가적 범주를 앞서 같은 길에 들어선 포크너의 범주에 견주어 본다",
+     "note": "확인되는 것은 서평자(Fonkoua)의 해석, 즉 글리상이 자기 범주를 포크너에 '견주어 본다'는 데까지다. '멘토라 할 만하다(qu'on peut considérer comme son mentor)'도 서평자의 평이다. 글리상 자신이 포크너를 방법의 참조점이라고 명시한 문장은 찾지 못함 | 점검: 기존 교정문의 '요크나파토파의 뒤엉킨 혈통 서술'은 어느 인용에도 없음(서평은 요크나파토파를 언급하지 않는다). 교정문을 이 인용이 싣는 절로 한정. 혈통 대목은 추가 주장 참조"
+    },
+    {
+     "sids": [
+      "e66bc10cd2f0"
+     ],
+     "field": "relation:contrast--aime-cesaire--edouard-glissant.facts",
+     "claim": "세제르와 글리상은 대비 관계로 학계가 공통되게 다룬다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Glissant's development of the notion of ''[[Antillanité]]'' seeks to root [[Caribbean]] identity firmly within \"the Other America\" and springs from a critique of identity in previous schools of writing, specifically the work of [[Aimé Césaire]], which looked to Africa for its principal source of identification.",
+     "correction": "에메 세제르 → 에두아르 글리상 · contrast · bidirectional · documented",
+     "note": "인용이 싣는 것은 글리상의 앙티야니테가 아프리카를 정체성의 원천으로 삼은 세제르의 작업에 대한 비판에서 나왔다는 데까지다(대비 관계 자체는 확인). '학계가 공통되게 다룬다(scholarly_consensus)'는 인용에 없다"
+    },
+    {
+     "sids": [
+      "d0bb81914a33"
+     ],
+     "field": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+     "claim": "글리상은 네그리튀드의 아프리카 회귀를 마르티니크(앙티유)의 현재와 어긋난 선택으로 본다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Ce que Glissant met en cause dans les prises de position de Césaire, c'est d'avoir fait le choix de se tourner vers un lointain passé africain au détriment d'un présent antillais."
+    },
+    {
+     "sids": [
+      "d0bb81914a33"
+     ],
+     "field": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+     "claim": "글리상은 1960년대부터 '앙티야니테'를 제기해 왔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Cr%C3%A9olit%C3%A9",
+     "quote": "Backdropping créolité, in the early 1960s, Glissant advanced the concept of ''[[Antillanité]]'' (\"Caribbeanness\"), which claimed that Caribbean identity could not be described solely in terms of African descent."
+    },
+    {
+     "sids": [
+      "d0bb81914a33"
+     ],
+     "field": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+     "claim": "『앙티유 담론』(1981)에서 앙티야니테를 체계화한다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024/https://www.cairn.info/revue-chimeres-2016-3-page-100.htm",
+     "quote": "non seulement pour l’« avenir antillais » et « l’antillanité » (Livre iv)",
+     "note": "Antonioli는 『앙티유 담론』의 넷째 권이 앙티야니테를 다룬다고 적는다"
+    },
+    {
+     "sids": [
+      "da759a6d6250"
+     ],
+     "field": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+     "claim": "네그리튀드와 글리상의 대립은 세대 간 대립이다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/%C3%89douard_Glissant",
+     "quote": "Glissant was the pre-eminent critic of the ''[[Négritude]]'' school of Caribbean writing, composed of the generation of literary contributors prior to him."
+    },
+    {
+     "sids": [
+      "da759a6d6250"
+     ],
+     "field": "relation:contrast--aime-cesaire--edouard-glissant.summary",
+     "claim": "프랑스어권 카리브 사상사 연구가 이 대립축을 반복해 다룬다",
+     "verdict": "contradicted",
+     "url": "https://fr.wikipedia.org/wiki/Antillanit%C3%A9",
+     "quote": "* [http://eujournal.org/index.php/esj/article/viewFile/801/837 La différence conceptuelle entre la Négritude, l'Antillanité et la Créolité], Baba Abraham Jatoe-Kaleo, eujournal.org",
+     "note": "인용은 네그리튀드·앙티야니테·크레올리테의 개념 차이를 다룬 논문 한 편의 링크(Jatoe-Kaleo 2013)다. 연구가 이 축을 다룬다는 데까지는 싣지만 '반복해' 다룬다는 빈도는 싣지 못한다. 그 논문 자체도 세 사조가 '거의 같은 생각을 다르게 표현한다'는 입장이다. 기존 주: en 위키 Créolité도 Badiane, 'Négritude, Antillanité et Créolité ou de l'éclatement de l'identité fixe', The French Review 85-5 (2012)를 인용한다",
+     "correction": "프랑스어권 카리브 사상 연구가 다루는 세대적 대립축이다."
+    },
+    {
+     "sids": [
+      "80ec511a9e26"
+     ],
+     "field": "relation:affinity--edouard-glissant--kamau-brathwaite.facts",
+     "claim": "글리상과 브래스웨이트는 크레올화 이론가로 나란히 거론된다(학계 공통 견해)",
+     "verdict": "confirmed",
+     "url": "https://openlibrary.org/search/inside.json?q=creolization%20Brathwaite&limit=40",
+     "quote": "the  most  influential  theorists  of  creolization,  Brathwaite and  Glissant.",
+     "note": "Open Library 본문 검색 결과, Chris Bongie, Islands and Exiles (archive.org 식별자 islandsexilescre00bong)의 스니펫. fr 위키 「Créolisation (concept)」도 브래스웨이트와 글리상을 이 개념의 주요 옹호자로 든다"
+    },
+    {
+     "sids": [
+      "7e0ec54b802c"
+     ],
+     "field": "relation:affinity--edouard-glissant--kamau-brathwaite.summary",
+     "claim": "글리상은 créolisation을 플랜테이션 아메리카 사회들이 형성되는 과정으로 서술했다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Glissant affirme qu'un processus de créolisation est à l'œuvre dans les sociétés de l'Amérique des Plantations depuis leur constitution même",
+     "note": "Thébaudeau의 『앙티유 담론』 논의 속 요약"
+    },
+    {
+     "sids": [
+      "7e0ec54b802c"
+     ],
+     "field": "relation:affinity--edouard-glissant--kamau-brathwaite.summary",
+     "claim": "브래스웨이트의 『자메이카 크레올 사회의 형성』은 1971년에 나왔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Kamau_Brathwaite",
+     "quote": "His doctoral thesis from Sussex University on ''The Development of Creole Society in Jamaica'' was published in 1971 by [[Oxford University Press]]",
+     "note": "원제 전체는 The Development of Creole Society in Jamaica, 1770–1820"
+    },
+    {
+     "sids": [
+      "7e0ec54b802c"
+     ],
+     "field": "relation:affinity--edouard-glissant--kamau-brathwaite.summary",
+     "claim": "브래스웨이트는 그 책에서 '영어권 카리브'의 creolization을 기술했다",
+     "verdict": "contradicted",
+     "url": "https://openlibrary.org/search/inside.json?q=creolization%20Brathwaite&limit=40",
+     "quote": "Analyzing one of the most important kinds of creolization, Brathwaite writes in The Development of Creole Society",
+     "correction": "브래스웨이트는 『자메이카 크레올 사회의 형성』(1971)에서 creolization을 같은 이름으로 기술했다.",
+     "note": "책의 대상은 1770–1820년의 자메이카다. '영어권 카리브' 전반으로 넓힌 것은 과장. Norton Anthology of Modern and Contemporary Poetry 스니펫(Open Library 본문 검색). Robert Young, Postcolonialism 스니펫도 'Brathwaite’s analysis of ‘creolization’ (Brathwaite 1971)' | 점검: 기존 교정문의 '1770–1820'과 '자메이카 사회의'는 이 스니펫에 없음. 서명(…in Jamaica)과 1971년은 같은 문장의 주장 #58(en 위키 Kamau Brathwaite)이 뒷받침하므로 서명·연도만 남김"
+    },
+    {
+     "sids": [
+      "7e0ec54b802c"
+     ],
+     "field": "relation:affinity--edouard-glissant--kamau-brathwaite.summary",
+     "claim": "글리상은 『앙티유 담론』(1981)에서 créolisation을 서술했다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024/https://www.cairn.info/revue-chimeres-2016-3-page-100.htm",
+     "quote": "La lecture du Discours antillais [1] d’Édouard Glissant est particulièrement fascinante … On assiste aussi, à la lecture de ces pages, à l’émergence d’une pensée de la « créolisation » qui remplacera progressivement la notion (moins complexe, moins poétique) de « métissage ».",
+     "correction": "글리상의 『앙티유 담론』(1981)에서는 훗날 '혼혈(métissage)'이라는 말을 대신할 créolisation의 사유가 싹텄고",
+     "note": "추가(점검자): 기존 주장 #57은 Thébaudeau의 요약 문장만 대고 '『앙티유 담론』에서'라는 출처 귀속을 검증하지 않았다. 『앙티유 담론』을 직접 다룬 Antonioli는 이 책에서 créolisation의 사유가 '출현'하며 아직 'métissage'를 쓴다고 적는다(같은 글 §22: « Pour parler des cultures antillaises, Glissant utilise encore les termes de « métissage » … terme qu'il abandonnera par la suite pour lui préférer celui de « créolisation »»)"
+    },
+    {
+     "sids": [
+      "e9fe81b60e73"
+     ],
+     "field": "relation:influence--william-faulkner--edouard-glissant.summary",
+     "claim": "글리상은 『포크너, 미시시피』에서 요크나파토파의 '은폐된' 혈통 서술을 읽는다",
+     "verdict": "contradicted",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/ela/1996-n2-ela03333/1042653ar.pdf",
+     "quote": "les catégories de la lecture sociohistorique forgées par Glissant, à savoir, la Relation, les paysages, l'importance des forêts, la décadence de la société de l'Habitation née de l'esclavage, l'importance du carnaval, la ftliation douteuse, impossible ou quêtée … trouvent ici un champ d'application",
+     "correction": "포크너 작품의 의심스럽고 불가능하거나 찾아 헤매는 계보를",
+     "note": "추가(점검자): 서평은 요크나파토파를 한 번도 언급하지 않고, 혈통을 '은폐된'이 아니라 'filiation douteuse, impossible ou quêtée'로 적는다. 'ftliation'은 PDF 원문 OCR 그대로"
+    },
+    {
+     "sids": [
+      "ff01b1c96a64"
+     ],
+     "field": "author.readingWarning",
+     "claim": "글리상의 두 소설(『레자르드 강』, 『제4세기』)은 마르티니크의 시간(신화적 시간에서 역사적 시간으로, 공식 기록 밖의 역사)을 다룬다",
+     "verdict": "confirmed",
+     "url": "https://web.archive.org/web/2024id_/https://www.erudit.org/fr/revues/qf/2002-n127-qf1191933/55804ac.pdf",
+     "quote": "Avec Thaël, avec Mathieu son frère de lutte, avec tous ces jeunes militants qui hantent les pages de La lézarde et mènent leur première lutte de libération, c'est le peuple martiniquais dans son ensemble qui quitte le temps génésiaque, le temps mythique, pour faire son entrée dans le temps historique … Le quatrième siècle propose une autre perspective, celle de la révélation et la mise en mots d'une histoire non officielle, occultée",
+     "note": "noClaim에서 전환(점검자): 문장의 권고('편이 안전하다')는 판단이지만, 두 소설이 마르티니크의 시간 감각을 겪게 한다는 전제는 확인 가능하다. 인용의 'son frère de lutte'는 PDF에서 띄어쓰기가 붙어 추출된 것을 공백만 복원"
+    }
+   ],
+   "noClaim": {}
+  }
+ ],
+ "check": {
+  "kept": 35,
+  "requoted": 9,
+  "downgraded": 5,
+  "added": 2,
+  "noClaimConverted": 1
+ }
+}

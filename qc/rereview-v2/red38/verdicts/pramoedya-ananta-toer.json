@@ -1,0 +1,540 @@
+{
+  "plates": [
+    {
+      "id": "pramoedya-ananta-toer",
+      "claims": [
+        {
+          "sids": [
+            "8f3f1ff712c8"
+          ],
+          "field": "author.facts",
+          "claim": "원어 이름은 Pramoedya Ananta Toer이고, 1925년에 태어나 2006년에 죽었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pramoedya_Ananta_Toer",
+          "quote": "Pramoedya Ananta Toer (EYD: Pramudya Ananta Tur; 6 February 1925 – 30 April 2006), also nicknamed Pram, was an Indonesian novelist and writer."
+        },
+        {
+          "sids": [
+            "8f3f1ff712c8"
+          ],
+          "field": "author.facts",
+          "claim": "네덜란드령 동인도의 자바(오늘의 인도네시아, 동남아시아)에서 태어난 인도네시아 작가다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pramoedya_Ananta_Toer",
+          "quote": "Pramoedya was born on 6 February 1925, in the town of Blora in the heartland of Java, then a part of the Dutch East Indies."
+        },
+        {
+          "sids": [
+            "8f3f1ff712c8"
+          ],
+          "field": "author.facts",
+          "claim": "작품은 인도네시아어로 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Footsteps_(novel)",
+          "quote": "The original Indonesian edition was published in 1985 and an English translation by Max Lane was published in 1990.",
+          "note": "『Jejak Langkah』의 예. 다른 세 권도 하스타 미트라(자카르타) 인도네시아어판이 원본이다(archive.org 서지 \"language\":\"ind\")."
+        },
+        {
+          "sids": [
+            "20fb7fc9dc40"
+          ],
+          "field": "author.importanceReason",
+          "claim": "부루섬 수용소에서 필기구 없이 동료 수감자들에게 이야기를 구술했고, 그것이 뒤에 글로 옮겨졌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Pramoedya_Ananta_Toer",
+          "quote": "It was on the Island of Buru that he composed his most famous work, the Buru Quartet. Not permitted access to writing materials, he recited the story orally to other prisoners before it was written down and smuggled out."
+        },
+        {
+          "sids": [
+            "20fb7fc9dc40"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 결과물은 네 권짜리 연작 소설(4부작)이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Buru_Quartet",
+          "quote": "The Buru Quartet or Buru Tetralogy (Indonesian: Tetralogi Buru) is a literary tetralogy written by Indonesian author Pramoedya Ananta Toer at Buru Island detention camp in Maluku."
+        },
+        {
+          "sids": [
+            "20fb7fc9dc40"
+          ],
+          "field": "author.importanceReason",
+          "claim": "4부작은 식민지 인도네시아의 민족 형성기(민족 각성기)를 서술한다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/부루_4부작",
+          "quote": "이 4부작은 인도네시아 민족 각성기(Kebangkitan Nasional) 초기에 형성된 내셔널리즘의 역사적 전개를 드러내며",
+          "note": "같은 문서: \"1898년부터 1918년까지의 인도네시아 민족 각성기(초기 민족운동기)를 배경으로 하며\"."
+        },
+        {
+          "sids": [
+            "9c98985feb1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "주인공 밍케는 자바 귀족 출신 청년이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "The book tells the story of Minke, a Javanese minor royal who studies at a Hogere Burger School (HBS) in an era when only the descendants of the European colonizers can expect to attain this level of education."
+        },
+        {
+          "sids": [
+            "9c98985feb1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "4부작은 밍케의 성장담이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Footsteps_(novel)",
+          "quote": "It also shows Minke's maturation through two marriages.",
+          "note": "Publishers Weekly 서평을 인용한 문단. Bahari(2003) 각주 33도 앞 세 권의 밍케를 \"life and growth as a pioneer of nationalism\"으로 서술."
+        },
+        {
+          "sids": [
+            "9c98985feb1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "신문 지면·재판 기록·경찰 보고서의 문체를 소설에 겹쳐 놓았다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/2024id_/https://ecommons.cornell.edu/bitstream/1813/54290/1/INDO_75_0_1106938964_61_90.pdf",
+          "quote": "the use of documents and published texts … (some of them fictional), letters, diaries, transcripts of court proceedings, newspaper reports",
+          "correction": "자바 귀족 출신 청년의 성장담에 편지·일기·재판 기록·신문 기사 같은 문서를 끼워 넣고, 마지막 권은 식민 경찰 팡에마난의 수기로 채워",
+          "note": "Bahari, \"Remembering History, W/Righting History\", Indonesia 75 (2003), 75–76쪽(쪽 넘김 사이를 …로 줄임). 같은 글은 마지막 권을 \"the accounts of Pangemanann, the policeman who spies for the Dutch colonial authorities, … whose notes make up the last novel\"로 적는다 — 경찰의 수기(notes)이지 \"경찰 보고서의 문체\"를 겹쳤다는 근거는 찾지 못했다."
+        },
+        {
+          "sids": [
+            "9c98985feb1d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "한 사람의 연애사가 곧 민족어와 민족 언론이 만들어지는 과정이 되게 했다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/2024id_/https://ecommons.cornell.edu/bitstream/1813/54290/1/INDO_75_0_1106938964_61_90.pdf",
+          "quote": "Minke in the first three novels whose life and growth as a pioneer of nationalism, and of Indonesian nationalist awakening itself, can be said to be anthropomorphised.",
+          "correction": "한 사람의 삶과 성장이 곧 인도네시아 민족 각성의 과정이 되게 했다.",
+          "note": "Bahari 2003 각주 33. 민족 언론 쪽은 Kirkus(Footsteps): \"he founds a magazine and, when it succeeds, a newspaper, the first to be owned and operated by natives\". 민족어 쪽은 친구들이 말레이어·자바어로 쓰라고 권하는 대목까지만 확인. \"연애사\"가 그 과정의 축이라는 근거는 찾지 못했다."
+        },
+        {
+          "sids": [
+            "2a1fa225c174"
+          ],
+          "field": "author.importanceReason",
+          "claim": "4부작의 마지막 권은 식민 경찰의 시점(화자)으로 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://www.publishersweekly.com/9780688145941",
+          "quote": "Police commissioner Tuan Pangemanann, narrator of this concluding volume to Pramoedya's extraordinary tetralogy set in colonial Indonesia, is a Sorbonne-educated reactionary"
+        },
+        {
+          "sids": [
+            "2a1fa225c174"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그로써 앞의 세 권 전체를 감시 문서로 다시 읽게 만들었다",
+          "verdict": "contradicted",
+          "url": "https://www.publishersweekly.com/9780688145941",
+          "quote": "The first three volumes of Pramoedya's quartet (This Earth of Mankind; Child of All Nations; Footsteps)--written during the author's 14-year banishment, 1965-1979, to the prison island of Buru--were narrated by Minke, a progressive witness of world events. Here, by filtering the anti-colonialist struggle through Pangemanann's ambivalent, warped perspective",
+          "correction": "4부작의 마지막 권을 식민 경찰의 시점으로 옮겨, 앞의 세 권에서 밍케가 서술한 반식민 투쟁을 그를 감시하는 쪽의 뒤틀린 눈으로 다시 거르게 했다.",
+          "note": "출처가 말하는 것은 투쟁을 경찰의 시점으로 다시 거른다는 데까지다. 앞 세 권이 \"감시 문서\"로 재독된다는 서술은 찾지 못했다."
+        },
+        {
+          "sids": [
+            "22450105c5e3"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『인간의 대지』는 4부작의 첫 권이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "This Earth of Mankind is the first installment in Pramoedya Ananta Toer's epic quartet referred to as the Buru Quartet."
+        },
+        {
+          "sids": [
+            "22450105c5e3"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "인물들의 삶을 통해 식민지 법의 작동을 사건으로 보여 준다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "the book also powerfully portrays the reality of Dutch colonial government in Indonesia through the lives of the characters, where Minke's education and Nyai Ontosoro's success in business count for little when ranged against the unyielding Dutch colonial law.",
+          "note": "\"가장 이야기다운 권\"은 평가라 검증 대상에서 뺐다."
+        },
+        {
+          "sids": [
+            "3aa97367bea3"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "분량이 네 권 중 가장 적지는 않다 — 『모든 민족의 아이』가 더 짧다",
+          "verdict": "contradicted",
+          "url": "https://openlibrary.org/books/OL4252588M.json",
+          "quote": "\"pagination\": \"328 p. ;\"",
+          "correction": "분량은 판본마다 다르다 — 하스타 미트라 초판(1980)에서는 『인간의 대지』(328쪽)가 네 권 중 가장 짧고, 펭귄 영역본에서는 『모든 민족의 아이』(352쪽)가 『인간의 대지』(368쪽)보다 짧다.",
+          "note": "미국 의회도서관 MARC 기반 Open Library 서지(LCCN 80942224): 『Bumi manusia』 Hasta Mitra 1980, 328쪽. 같은 초판 계열 『Anak semua bangsa』 353쪽(OL3934006M), 『Jejak langkah』 464쪽(OL2295537M), 『Rumah kaca』 359쪽(OL2172983M). 펭귄 1996년판 영역본은 This Earth of Mankind 368쪽(OL7351424M), Child of All Nations 352쪽(OL7351422M)."
+        },
+        {
+          "sids": [
+            "834b32762ec5"
+          ],
+          "field": "author.readingWarning",
+          "claim": "『유리의 집』에는 앞 세 권의 사건이 경찰의 요약된 감시 기록으로 들어 있다",
+          "verdict": "contradicted",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "Buku ini berisi detail dari aktivitas Pangemanann saat memata-matai Minke sebelum, saat, dan sesudah diasingkan ke Maluku Utara.",
+          "correction": "『유리의 집』을 먼저 읽으면 밍케의 유형과 그 뒤의 운명이 그를 감시한 경찰 팡에마난의 기록으로 먼저 드러나, 마지막 권에서 화자가 바뀌는 효과가 사라진다.",
+          "note": "출처가 말하는 감시 기록은 유형 전후 밍케의 활동이지 앞 세 권의 사건 요약이 아니다. 영문 위키백과 House of Glass 줄거리는 팡에마난이 밍케의 무덤을 찾는 데까지 적는다(\"Visiting Minke's grave, he mourns over his rival\"). \"4부작 전체가 뒤집히는 효과\"는 평가라 검증 대상에서 뺐다."
+        },
+        {
+          "sids": [
+            "a48d33c340a4"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "사건은 순차적으로 전개된다",
+          "verdict": "contradicted",
+          "url": "https://web.archive.org/web/2024id_/https://ecommons.cornell.edu/bitstream/1813/54290/1/INDO_75_0_1106938964_61_90.pdf",
+          "quote": "Pramoedya controverts the rigid chain of chronological progression, first by inserting the various motley characters",
+          "correction": "사건은 1898~1918년을 따라가지만, 회고하는 화자가 편지·재판 증언·신문 기사를 끼워 넣어 연대기적 흐름을 흔든다.",
+          "note": "1898~1918년은 한국어 위키백과 「부루 4부작」. \"문장은 평이하다\"는 평가라 검증 대상에서 뺐다."
+        },
+        {
+          "sids": [
+            "a48d33c340a4"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "4부작 합계 분량이 크다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL2295537M.json",
+          "quote": "\"pagination\": \"464 p. ;\"",
+          "note": "하스타 미트라 초판 네 권(의회도서관 MARC 기반 Open Library 서지): 328쪽(OL4252588M) + 353쪽(OL3934006M) + 464쪽(OL2295537M, 인용) + 359쪽(OL2172983M) = 1,504쪽."
+        },
+        {
+          "sids": [
+            "a48d33c340a4"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "소설은 네덜란드령 동인도의 신분 제도를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "The constant direct examples of calling someone \"pure blood\", \"mixed blood\", or \"native\" shows the reader the establishment of a caste system in the Dutch East Indies."
+        },
+        {
+          "sids": [
+            "a48d33c340a4"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "소설은 식민지 법과 법정 절차를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "Minke falls in love with their daughter, Annelies, whom he eventually marries in an Islamic wedding in accordance with \"native\" customs, but which, according to Dutch law, has no legal validity because it was conducted without the consent of the under-aged Annelies' legal, Dutch, guardians."
+        },
+        {
+          "sids": [
+            "a48d33c340a4"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "소설에는 당시 식민지 신문 지형이 등장한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "From this point, Minke attempts to continue on with his life by writing for Maarten Nijman and the Soerabaiaasch Nieuws",
+          "note": "3권에서는 원주민 소유 신문을 창간한다(Kirkus, Footsteps). \"알아야 선택이 보인다\"는 읽기 조언이라 검증 대상에서 뺐다."
+        },
+        {
+          "sids": [
+            "aca0e5ea9495"
+          ],
+          "field": "work:pramoedya-ananta-toer--anak-semua-bangsa.facts",
+          "claim": "원제는 Anak Semua Bangsa이고 장편소설(roman)이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/metadata/anaksemuabangsas00toer/metadata",
+          "quote": "\"title\":\"Anak semua bangsa : sebuah roman\""
+        },
+        {
+          "sids": [
+            "aca0e5ea9495"
+          ],
+          "field": "work:pramoedya-ananta-toer--anak-semua-bangsa.facts",
+          "claim": "1980년에 초판이 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "Child of All Nations is the second book in Pramoedya Ananta Toer's epic quartet called Buru Quartet, first published by Hasta Mitra in 1980.",
+          "note": "의회도서관 MARC 기반 서지(OL3934006M, LCCN 81940140)도 Hasta Mitra, Jakarta, 1980. 인도네시아어·한국어 위키백과는 1981년으로 적어 충돌한다."
+        },
+        {
+          "sids": [
+            "8665d2a74b32"
+          ],
+          "field": "work:pramoedya-ananta-toer--anak-semua-bangsa.significance",
+          "claim": "밍케가 사탕수수 농민의 현실을 직접 취재한다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "Trunodongso is a poor sugar cane farmer and he explains his grievances to Minke and expresses how natives all over the country are being taken advantage of.",
+          "note": "Kirkus: \"He learns how Dutch sugar planters stole land from the peasants\"."
+        },
+        {
+          "sids": [
+            "8665d2a74b32"
+          ],
+          "field": "work:pramoedya-ananta-toer--anak-semua-bangsa.significance",
+          "claim": "밍케가 네덜란드어 대신 말레이어로 쓰기 시작하는 과정을 다룬다",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "however he is challenged by his good friend Jean Marais, as well as Kommer later on, to write in Javanese or Malay.",
+          "correction": "밍케가 사탕수수 농민의 현실을 직접 보고, 네덜란드어 대신 말레이어나 자바어로 쓰라는 친구들의 요구와 씨름하는 과정을 다룬다.",
+          "note": "같은 문서: \"At first, Minke refuses\". Kirkus도 \"advise him to write in Javanese, not Dutch\"까지만 적는다. 이 권에서 실제로 말레이어로 쓰기 시작한다는 서술은 찾지 못했다."
+        },
+        {
+          "sids": [
+            "dec0cb960baa"
+          ],
+          "field": "work:pramoedya-ananta-toer--anak-semua-bangsa.significance",
+          "claim": "이 권에서 쓰는 언어의 선택이 정치적 행위로 다뤄진다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Child_of_All_Nations",
+          "quote": "They argue that in doing so, he would be helping his people in their struggle to overcome the oppression laid down by the Dutch occupying their nation."
+        },
+        {
+          "sids": [
+            "96e314e5d261"
+          ],
+          "field": "work:pramoedya-ananta-toer--jejak-langkah.facts",
+          "claim": "원제는 Jejak Langkah이고 4부작 셋째 권 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Footsteps_(novel)",
+          "quote": "Footsteps (Indonesian: Jejak Langkah) is the third novel in the Buru Quartet tetralogy by the Indonesian author Pramoedya Ananta Toer."
+        },
+        {
+          "sids": [
+            "96e314e5d261"
+          ],
+          "field": "work:pramoedya-ananta-toer--jejak-langkah.facts",
+          "claim": "1985년에 초판이 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Footsteps_(novel)",
+          "quote": "The original Indonesian edition was published in 1985 and an English translation by Max Lane was published in 1990.",
+          "note": "의회도서관 MARC 기반 서지(OL2295537M): Hasta Mitra 1985, 464쪽."
+        },
+        {
+          "sids": [
+            "3f2cf89263b7"
+          ],
+          "field": "work:pramoedya-ananta-toer--jejak-langkah.significance",
+          "claim": "밍케가 조직을 만든다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Footsteps_(novel)",
+          "quote": "After Mei's death, Minke continues to be drawn to politics and forms a grassroots political organization for the Indies natives."
+        },
+        {
+          "sids": [
+            "3f2cf89263b7"
+          ],
+          "field": "work:pramoedya-ananta-toer--jejak-langkah.significance",
+          "claim": "밍케가 신문을 세워 언론인으로 선다",
+          "verdict": "confirmed",
+          "url": "https://www.kirkusreviews.com/book-reviews/pramoedya-ananta-toer/footsteps/",
+          "quote": "Next he founds a magazine and, when it succeeds, a newspaper, the first to be owned and operated by natives."
+        },
+        {
+          "sids": [
+            "6726a737ca03"
+          ],
+          "field": "work:pramoedya-ananta-toer--jejak-langkah.significance",
+          "claim": "인도네시아 민족운동의 초기 형태가 주인공의 행보로 서술된다",
+          "verdict": "confirmed",
+          "url": "https://www.kirkusreviews.com/book-reviews/pramoedya-ananta-toer/footsteps/",
+          "quote": "They marry, and when Mei dies after a severe bout of malaria, Minke forms an embryonic nationalist organization.",
+          "note": "\"일상적 결정으로\"는 서술 방식에 대한 평가라 검증 대상에서 뺐다."
+        },
+        {
+          "sids": [
+            "f71d3729485d"
+          ],
+          "field": "work:pramoedya-ananta-toer--bumi-manusia.facts",
+          "claim": "원제는 Bumi Manusia이고 장편소설(roman)이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/metadata/bumimanusiasebua00toer/metadata",
+          "quote": "\"title\":\"Bumi manusia : sebuah roman\""
+        },
+        {
+          "sids": [
+            "f71d3729485d"
+          ],
+          "field": "work:pramoedya-ananta-toer--bumi-manusia.facts",
+          "claim": "1980년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "First published by Hasta Mitra in 1980, the story is set at the tail end of Dutch colonial rule in Indonesia"
+        },
+        {
+          "sids": [
+            "16f9c79a88de"
+          ],
+          "field": "work:pramoedya-ananta-toer--bumi-manusia.significance",
+          "claim": "부루섬 수감 중 구술로 먼저 만들어진 4부작의 첫 권이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "Because he was barred from writing for the duration of his stay in prison, the narrative was first relayed orally in 1973 to other prisoners, and proved popular among them.",
+          "note": "같은 문서 첫 문장: \"the first installment in Pramoedya Ananta Toer's epic quartet referred to as the Buru Quartet\"."
+        },
+        {
+          "sids": [
+            "105157a33097"
+          ],
+          "field": "work:pramoedya-ananta-toer--bumi-manusia.significance",
+          "claim": "밍케는 네덜란드어 학교에 다니는 자바 귀족 청년이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/This_Earth_of_Mankind",
+          "quote": "Minke, loosely inspired by the journalist Tirto Adhi Soerjo, who, because of his royal heritage, is fortunate enough to attend an elite Dutch school."
+        },
+        {
+          "sids": [
+            "105157a33097"
+          ],
+          "field": "work:pramoedya-ananta-toer--bumi-manusia.significance",
+          "claim": "원주민 첩 뇨아이 온토소로가 이야기의 중심 인물이다",
+          "verdict": "confirmed",
+          "url": "https://www.kirkusreviews.com/book-reviews/pramoedya-ananta-toer/this-earth-of-mankind/",
+          "quote": "Here, he meets the delicate and beautiful ``mixed race'' girl Annelies, her boorish brother Robert, and their mother, the brilliant and forceful ``Native'' concubine Nyai."
+        },
+        {
+          "sids": [
+            "105157a33097"
+          ],
+          "field": "work:pramoedya-ananta-toer--bumi-manusia.significance",
+          "claim": "식민 당국이 밍케와 아넬리스를 갈라놓아 아넬리스가 네덜란드로 보내지면서 끝난다",
+          "verdict": "confirmed",
+          "url": "https://www.kirkusreviews.com/book-reviews/pramoedya-ananta-toer/this-earth-of-mankind/",
+          "quote": "Victims of racial prejudice, Minke and Annelies—who defy convention and marry—are punished by the colonial authorities and must part when Annelies is banished to the Netherlands.",
+          "note": "2권 서평(Kirkus, Child of All Nations)은 아넬리스가 아버지 유언에 따라 네덜란드로 보내지고 \"her marriage declared invalid\"라고 적는다. 영문 위키백과 Child of All Nations: 2권은 \"where This Earth of Mankind leaves off, shortly after Annelies has departed by ship to the Netherlands\"에서 시작한다."
+        },
+        {
+          "sids": [
+            "105157a33097"
+          ],
+          "field": "work:pramoedya-ananta-toer--bumi-manusia.significance",
+          "claim": "그 가족 해체는 네덜란드 법에 따른 합법적 조치다",
+          "verdict": "confirmed",
+          "url": "https://www.kirkusreviews.com/book-reviews/pramoedya-ananta-toer/child-of-all-nations/",
+          "quote": "His young wife, Annelies Mellema—daughter of a wealthy Dutch settler and a native concubine—has been sent to live in Holland—according to the terms of her father's will—and her marriage declared invalid."
+        },
+        {
+          "sids": [
+            "c2b0887f3b3e"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.facts",
+          "claim": "원제 Rumah Kaca, 4부작의 마지막 장편소설, 1988년 간행",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/House_of_Glass_(Toer_novel)",
+          "quote": "House of Glass (Rumah Kaca) is the fourth and final novel in the Buru Quartet tetralogy by the Indonesian author Pramoedya Ananta Toer. The original Indonesian edition was published in 1988"
+        },
+        {
+          "sids": [
+            "754e5aa8c59f"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "식민 경찰 팡에마난이 화자다",
+          "verdict": "confirmed",
+          "url": "https://www.publishersweekly.com/9780688145941",
+          "quote": "Police commissioner Tuan Pangemanann, narrator of this concluding volume to Pramoedya's extraordinary tetralogy set in colonial Indonesia, is a Sorbonne-educated reactionary"
+        },
+        {
+          "sids": [
+            "754e5aa8c59f"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "팡에마난이 앞의 세 권을 감시 문서로 다시 정리한다",
+          "verdict": "contradicted",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "Buku ini berisi detail dari aktivitas Pangemanann saat memata-matai Minke sebelum, saat, dan sesudah diasingkan ke Maluku Utara.",
+          "correction": "식민 경찰 팡에마난이 화자가 되어, 유형 전후 밍케의 활동을 감시한 기록을 서술한다.",
+          "note": "팡에마난이 밍케의 원고를 손에 넣는다는 줄거리는 검색 요약에서만 보였고 본문으로 확인하지 못했다. \"앞의 세 권을 다시 정리한다\"는 근거는 찾지 못했다."
+        },
+        {
+          "sids": [
+            "e64e05f02077"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "4부작의 마지막 권이다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "Rumah Kaca merupakan novel keempat sekaligus penutup dari Tetralogi Buru yang ditulis oleh Pramoedya Anata Toer."
+        },
+        {
+          "sids": [
+            "e64e05f02077"
+          ],
+          "field": "work:pramoedya-ananta-toer--rumah-kaca.significance",
+          "claim": "4부작 전체를 기록과 검열의 문제로 되돌린다",
+          "verdict": "contradicted",
+          "url": "https://id.wikipedia.org/wiki/Rumah_Kaca_(novel)",
+          "quote": "Dalam buku ini, diperlihatkan bagaimana usaha pemerintah kolonial Belanda dalam memukul aktivitas Minke yang merupakan salah satu tokoh pergerakan nasional, melalui operasi mata-mata, serta pengarsipan yang rapi dan sistematis.",
+          "correction": "4부작 전체를 감시와 기록(문서 보관)의 문제로 되돌리는 마지막 권.",
+          "note": "같은 문서: 프라무디아는 이 문서 정치를 \"pe-rumahkaca-an\"이라 불렀다. 이 권이 검열을 주제로 삼는다는 근거는 찾지 못했다(신문 금지는 3권 『발자국』의 사건)."
+        },
+        {
+          "sids": [
+            "b408be8c4452"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.facts",
+          "claim": "프라무디아와 차이릴 안와르는 같은 45년 세대로 함께 묶이는 양방향 유사성 관계이며, 학계 공통 서술이다",
+          "verdict": "confirmed",
+          "url": "https://www.historia.id/article/dinamika-majalah-sastra-di-indonesia-bagian-ii",
+          "quote": "Sastrawan generasi Chairil Anwar disebut Angkatan 45. Selain Chairil, sastrawan Angkatan 45 antara lain Asrul Sani, Rivai Apin, H.B. Jassin, Pramoedya Ananta Toer",
+          "note": "인도네시아어 위키백과 「Sastra Indonesia」의 Angkatan 1945 작가 목록도 두 사람을 함께 싣고, Teeuw의 『Modern Indonesian Literature』(1967)는 「Chairil Anwar」(145–159쪽), 「Pramudya Ananta Tur」(163–180쪽) 장을 이어 둔다(Crossref)."
+        },
+        {
+          "sids": [
+            "dad0ac29e5c9",
+            "e761a6d6a28b"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "A. Teeuw의 『Modern Indonesian Literature』는 일본 점령기와 45년 세대를 서술한다",
+          "verdict": "confirmed",
+          "url": "https://api.crossref.org/works/10.1007/978-94-015-0768-4_37",
+          "quote": "\"title\":[\"The Angkatan 45. Documentation\"]",
+          "note": "같은 책 장 목록(Crossref): \"Novel and Story-Writing Under the Japanese Occupation\"(107–110쪽), \"The Angkatan 45. Documentation\"(114–118쪽). 저자 A. Teeuw, Springer Netherlands(Martinus Nijhoff), 1967."
+        },
+        {
+          "sids": [
+            "dad0ac29e5c9",
+            "e761a6d6a28b"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "45년 세대는 일본 점령기부터 독립 전쟁기를 지나온 세대다",
+          "verdict": "confirmed",
+          "url": "https://id.wikipedia.org/wiki/Sastra_Indonesia",
+          "quote": "Karya-karya sastra pada angkatan ini banyak bercerita tentang perjuangan merebut kemerdekaan seperti halnya puisi-puisi Chairil Anwar.",
+          "note": "같은 문서 시기 구분: \"Angkatan 1945 (1942–1949)\"."
+        },
+        {
+          "sids": [
+            "dad0ac29e5c9",
+            "e761a6d6a28b"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "그 책은 차이릴의 시와 프라무디아의 산문을 함께(이어서) 다룬다",
+          "verdict": "confirmed",
+          "url": "https://api.crossref.org/works/10.1007/978-94-015-0768-4_48",
+          "quote": "\"title\":[\"Pramudya Ananta Tur\"]",
+          "note": "같은 책의 「Chairil Anwar」 장은 145–159쪽(https://api.crossref.org/works/10.1007/978-94-015-0768-4_46), 「Idrus」 159–163쪽, 「Pramudya Ananta Tur」 163–180쪽. 1967년 간행이므로 다루는 프라무디아 작품은 초기작이다. 장 본문은 Springer 차단으로 읽지 못했다."
+        },
+        {
+          "sids": [
+            "ac0a0ff5e8f2"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "Teeuw의 책에서 이 세대의 산문 표본으로 먼저 지목되는 것은 이드루스다",
+          "verdict": "contradicted",
+          "url": "https://api.crossref.org/works/10.1007/978-94-015-0768-4_47",
+          "quote": "\"title\":[\"Idrus\"]",
+          "correction": "Teeuw의 책은 차이릴 안와르 장(145–159쪽) 바로 뒤에 이드루스 장(159–163쪽)을, 그 뒤에 프라무디아 장(163–180쪽)을 둔다.",
+          "note": "확인되는 것은 장 순서뿐이다(Crossref \"page\":\"159-163\"). 본문은 접근 대기: https://doi.org/10.1007/978-94-015-0768-4_47 . 인도네시아어 위키백과 「Sastra Indonesia」는 이드루스의 「Dari Ave Maria ke Jalan Lain ke Roma」와 『Atheis』를 이 시기 \"karya pembaharuan prosa Indonesia\"로 꼽는다."
+        },
+        {
+          "sids": [
+            "ac0a0ff5e8f2"
+          ],
+          "field": "relation:affinity--pramoedya-ananta-toer--chairil-anwar.summary",
+          "claim": "프라무디아는 1963년 Lekra를 이끌고 이 세대의 '보편적 휴머니즘' 강령을 공격했다",
+          "verdict": "contradicted",
+          "url": "https://eproceeding.isibali.ac.id/index.php/bbw/article/download/635/394",
+          "quote": "Pramoedya was known for his harsh criticism, denigration, and slander toward Manikebu members through his writings. These writings were published in the “Lentera” column of the Bintang Timur daily",
+          "correction": "프라무디아 자신은 Lekra 중앙 지도부의 일원으로 『빈탕 티무르』 문화면 「렌테라」를 맡아, 1963년 '보편적 휴머니즘'을 내건 「문화 선언」(마니케부) 진영을 공격했다.",
+          "note": "Suaka·Adinda, \"The Controversy of Pramoedya Ananta Toer\"(2025): Manikebu는 \"universal humanism\"에 기댔고, 프라무디아는 \"part of Lekra’s central leadership\"이었으며 「렌테라」를 맡았다(\"assigned to manage the cultural section Lentera\"). Lekra 전체를 이끈 수장이라는 근거는 없다. 「문화 선언」 서명일은 1963년 8월 17일(영문 위키백과 Cultural Manifesto). 보편적 휴머니즘의 뿌리는 45년 세대의 「Surat Kepercayaan Gelanggang」(Teeuw 126–129쪽 장 제목)이지만 1963년 공격 대상은 문화 선언 서명자들이었다. Foulcher(BKI 125-4, 1969)는 접근 대기: https://brill.com/view/journals/bki/125/4/article-p429_2.xml"
+        }
+      ]
+    }
+  ]
+}

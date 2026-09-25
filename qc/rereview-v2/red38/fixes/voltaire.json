@@ -1,0 +1,95 @@
+{
+  "fixes": [
+    {
+      "id": "voltaire",
+      "importanceReason": "억울하게 처형된 장 칼라스의 재심을 여론으로 이끌어내며 관용을 논증했고, 이 세상이 최선이라는 낙관론을 짧은 이야기의 형식으로 조롱했으며, 철학 콩트라는 장르의 대표 작가로 꼽힌다. 『캉디드』는 리스본 지진과 종교재판과 전쟁을 서른 장 안에 통과시키며, 논증 대신 사건의 누적으로 명제를 무너뜨린다. 『캉디드』는 18세기와 19세기 초 '철학 콩트'라 불린 소설들의 본보기가 되었다.",
+      "readingEntryReason": "짧은 분량 안에 볼테르의 무기가 모두 들어 있다 — 속도, 반복되는 재난, 그리고 형이상학을 노동으로 갈아치우는 결말.",
+      "works": [
+        {
+          "id": "voltaire--micromegas",
+          "yearBasis": "attested"
+        },
+        {
+          "id": "voltaire--candide",
+          "significance": "낙관론을 배운 청년이 전쟁·지진·종교재판을 차례로 겪는 여정. '우리의 정원을 가꾸어야 한다'는 결말로 형이상학적 위안을 노동으로 갈아치운다."
+        },
+        {
+          "id": "voltaire--traite-sur-la-tolerance",
+          "significance": "개신교도 장 칼라스의 처형을 재검토하며 종교적 관용을 논증한 저작. 그 사건은 문필가의 개입이 재심으로 이어진 사례로 인용된다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "translation--voltaire--johann-wolfgang-von-goethe",
+          "summary": "괴테는 카를 아우구스트 공작의 요구에 따른 궁정 작업으로 볼테르의 비극 『마호메트』를 독일어로 옮겼고, 이 번역은 루이제 공비의 생일인 1800년 1월 30일 바이마르 궁정극장에서 초연되었다. 실러는 헌시 「볼테르의 마호메트를 무대에 올린 괴테에게」를 보탰다."
+        },
+        {
+          "id": "influence--cicero--voltaire",
+          "summary": "볼테르는 『구원받은 로마, 또는 카틸리나』(1752년 극장 초연)에서 카틸리나 탄핵을 무대에 올리고 키케로를 주요 인물로 세웠다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "볼테르가 (낙관론 조롱을 통해) 철학 콩트라는 장르를 만들었다",
+          "resolution": "corrected",
+          "evidence": "첫 문장을 교정문 그대로 바꿨다 — '철학 콩트를 만들었다'가 '철학 콩트라는 장르의 대표 작가로 꼽힌다'(fr.wikipedia Conte philosophique: 'Voltaire est le principal représentant de ce genre')가 됐다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "『캉디드』는 서른 장 남짓(서른 장이 조금 넘는) 분량이다",
+          "resolution": "corrected",
+          "evidence": "'서른 장 남짓의 속도로'를 교정문대로 '서른 장 안에'로 바꿨다('Candide contains thirty episodic chapters')."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "이 형식(철학 도구로서의 소설)이 18세기 유럽의 논쟁 문체를 바꾸었다",
+          "resolution": "corrected",
+          "evidence": "셋째 문장을 교정문 '『캉디드』는 18세기와 19세기 초 '철학 콩트'라 불린 소설들의 본보기가 되었다.'로 바꿨다. '논쟁 문체를 바꾸었다'와 '철학의 도구' 구절은 페이지에서 빠졌다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『캉디드』는 짧고 빠른 이야기다",
+          "resolution": "narrowed",
+          "evidence": "검증하지 않은 독서 시간 추정 '하루면 읽히는'을 지우고 인용('short, light, rapid and humorous')이 받치는 '짧은 분량'만 남겼다."
+        },
+        {
+          "field": "work:voltaire--micromegas.facts",
+          "claim": "1752년이 첫 인쇄 연도다(yearBasis: first-print)",
+          "resolution": "narrowed",
+          "evidence": "yearBasis 를 first-print 에서 attested 로 바꿔 사실 줄이 '『미크로메가스』(Micromégas) · 1752 · fiction'이 된다('초간' 표시가 빠진다). 1752는 통설 출간 연도로 확인된 주장('a 1752 novella', 'the widely accepted publication being 1752')이 받친다. 교정문의 1751·1739 판본설 괄호는 사실 줄 필드로 표현할 수 없어 싣지 않았다 — 첫 인쇄라는 단정만 걷었다."
+        },
+        {
+          "field": "work:voltaire--candide.significance",
+          "claim": "지진·전쟁·종교재판을 이 순서대로 겪는다",
+          "resolution": "corrected",
+          "evidence": "첫 문장을 교정문 '낙관론을 배운 청년이 전쟁·지진·종교재판을 차례로 겪는 여정.'으로 바꿨다."
+        },
+        {
+          "field": "work:voltaire--traite-sur-la-tolerance.significance",
+          "claim": "문필가(볼테르)의 개입이 실제 재심으로 이어졌다",
+          "resolution": "narrowed",
+          "evidence": "노트: 재심 명령(1763. 3. 7.)이 『관용론』 배포(1763. 10.)보다 앞서, 재심을 끌어낸 것은 이 책이 아니라 볼테르의 캠페인이다. 저작 의의 안에서 이 책이 그 사례인 것처럼 읽히던 둘째 문장의 주어를 '그 사건은'(칼라스 사건)으로 좁혔다. 'Voltaire's efforts were successful … the trial was done over'와 'le premier écrivain français à s'impliquer publiquement dans une affaire judiciaire'가 받친다. 길이를 늘리지 않으려 '실제 사법'을 뺐다."
+        },
+        {
+          "field": "relation:translation--voltaire--johann-wolfgang-von-goethe.summary",
+          "claim": "공작은 이 번역을 루이제 공비의 생일 공연용으로 지시했다",
+          "resolution": "corrected",
+          "evidence": "교정문대로 '생일 공연용으로 지시한'을 걷고 '루이제 공비의 생일인 1800년 1월 30일 … 초연되었다'로 바꿨다('Die Uraufführung hat in Weimar am 30. Januar 1800 stattgefunden, d. h. am Geburtstag der Herzogin Luise.'). 원문보다 길어지지 않도록 교정문의 '강한'은 뺐다."
+        },
+        {
+          "field": "relation:influence--cicero--voltaire.summary",
+          "claim": "『구원받은 로마, 또는 카틸리나』는 1752년 작이다",
+          "resolution": "corrected",
+          "evidence": "'(1752)'를 '(1752년 극장 초연)'으로 바꿔 1752를 작품 연도가 아니라 극장 초연 연도로 적었다('créée le 24 février 1752 au théâtre de la rue des Fossés Saint-Germain à Paris'). 길이를 늘리지 않으려 교정문의 '1750년 상연' 절은 싣지 않고 '비극'·'의 정황'을 뺐다."
+        },
+        {
+          "field": "relation:influence--cicero--voltaire.summary",
+          "claim": "키케로를 주요 인물로 세웠다",
+          "resolution": "accepted",
+          "evidence": "노트의 단서는 '주인공'이 아니라 '주요 인물'이면 맞다는 것이다. 544b07daf8ee 는 '키케로를 주요 인물로 세웠다'라고 적고 '주인공'이라 하지 않는다."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{"fixes":[
+ {"id":"jonathan-swift","relations":[{"id":"contrast--jonathan-swift--daniel-defoe","evidenceLevel":"editorial_inference","sourceIds":["src--britannica"]}],
+  "resolutions":[{"field":"relation:contrast--jonathan-swift--daniel-defoe.facts","claim":"이 대조는 학계 통설(scholarly_consensus)이다","resolution":"narrowed","evidence":"통설을 받친다던 McKeon 은 본문을 읽지 못했다 — 근거 수준을 편집 추론으로 낮추고 그 출처를 뺐다"}]},
+ {"id":"kim-sowol","relations":[{"id":"contrast--han-yong-un--kim-sowol","evidenceLevel":"editorial_inference","sourceIds":["src--encykorea"]}],
+  "resolutions":[{"field":"relation:contrast--han-yong-un--kim-sowol.facts","claim":"이 대비는 학계 통설(scholarly_consensus) 수준이다","resolution":"narrowed","evidence":"백과사전 세 항목이 두 사람을 나란히 놓지만 통설이라 말하는 출처는 없고, 김윤식·김현은 읽지 못했다 — 편집 추론으로 낮추고 그 출처를 뺐다"}]},
+ {"id":"margaret-atwood",
+  "relations":[{"id":"influence--george-orwell--margaret-atwood","summary":"애트우드는 2003년 『가디언』에 쓴 오웰론에서 아홉 살에 『동물농장』을, 십대에 『1984』를 읽은 경위를 적고 『시녀 이야기』가 그 독서에 대한 응답임을 밝혔다. 본문 뒤에 먼 미래의 학술대회 기록을 붙여 체제를 과거형으로 만든 장치는 흔히 『1984』 신어 부록의 변주로 읽힌다.","sourceIds":["src--atwood-guardian-2003-orwell"]}],
+  "newSources":[{"id":"src--atwood-guardian-2003-orwell","title":"Orwell and me","publisherOrInstitution":"The Guardian","citation":"Margaret Atwood, 2003-06-16","url":"https://www.theguardian.com/books/2003/jun/16/georgeorwell.artsfeatures"}],
+  "resolutions":[{"field":"relation:influence--george-orwell--margaret-atwood.summary","claim":"『다른 세계에서』에 실린 그 오웰론에 위 독서 경위와 『시녀 이야기』 이야기가 적혀 있다","resolution":"corrected","evidence":"확인된 2003년 『가디언』 원문으로 출처와 문장을 바꿨다 — 수록본은 본문을 읽지 못했다"}]},
+ {"id":"chairil-anwar",
+  "relations":[{"id":"influence--rainer-maria-rilke--chairil-anwar","summary":"인도네시아 문학 연구는 차이릴의 외래 문학적 자산 가운데 하나로 릴케를 꼽는다. 차이릴은 릴케의 「Herbsttag」를 「Musim Gugur」(『Gema Suasana』 1948년 1월)로, 「Ernste Stunde」를 「Jenak Berbenar」(1947, 미발표)로 옮겼고, A. Teeuw가 그 계보를 기술한다."}],
+  "resolutions":[{"field":"relation:influence--rainer-maria-rilke--chairil-anwar.summary","claim":"그 기술이 A. Teeuw의 『Modern Indonesian Literature』에 있다","resolution":"narrowed","evidence":"책 이름을 뺐다 — 테우가 계보를 기술한다는 것까지만 확인됐다"}]},
+ {"id":"plato","resolutions":[{"field":"work:plato--apologia-sokratous.facts","claim":"『소크라테스의 변명』의 집필 연대는 기원전 399년이다(composition-range).","resolution":"accepted","evidence":"쪽은 「기원전 399 무렵(성립 시기 추정)」으로 그린다 — 출처가 말하는 「재판 뒤 10년 안쪽」과 어긋나지 않는다"}]}
+]}

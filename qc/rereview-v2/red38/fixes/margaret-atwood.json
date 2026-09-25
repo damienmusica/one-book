@@ -1,0 +1,94 @@
+{
+  "fixes": [
+    {
+      "id": "margaret-atwood",
+      "importanceReason": "『시녀 이야기』에서 어딘가에서 실제로 시행된 적이 있는 제도와 법만을 재료로 쓴다는 규칙을 걸고 근미래 신정 체제를 구성했다. 『눈먼 암살자』에서는 회고록과 신문 기사, 그리고 연인의 밀회를 그린 액자 소설(그 안에서 남자가 통속 SF 이야기를 들려준다)을 교차시켜 한 층의 이야기가 감춘 것을 다른 층이 받아 다른 방식으로 드러내게 했다. 시로 출발해 소설과 비평으로 옮겨 가면서, 캐나다 문학을 '생존'이라는 중심 상징과 '희생자'의 위치로 묶어 영국·미국 문학과 구별되는 독자적 문학으로 논증한 주제 비평서 『생존』(1972)도 함께 썼다.",
+      "readingWarning": "『눈먼 암살자』를 첫 책으로 잡으면 회고록·소설·소설 속 SF의 3중 액자에 신문 기사까지 끼어들어 어느 층의 진술인지부터 추적하며 읽어야 한다.",
+      "works": [
+        {
+          "id": "margaret-atwood--the-blind-assassin",
+          "significance": "노년 화자의 회고, 당대 신문 기사, 그리고 연인의 밀회를 그린 액자 소설(그 안에서 남자가 여자에게 통속 SF 이야기를 들려준다)을 교차시켜 한 층의 이야기가 감춘 것을 다른 층이 받아 다른 방식으로 드러낸다. 부커상 수상작이다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "affinity--margaret-atwood--octavia-butler",
+          "summary": "『씨앗을 뿌리는 사람의 우화』는 무너져 가는 근미래 미국을, 『시녀 이야기』는 미국 정부를 무너뜨린 근미래 신정 국가를 여성 화자의 1인칭 기록 형식으로 서술한다. 애트우드는 『오릭스와 크레이크』를 쓴 뒤에 버틀러의 『Lilith's Brood』를 읽었다고 밝혔다(라이트스피드 인터뷰). 8년 간격(1985년·1993년)으로 나온 두 작품을 비교하기 위해 이 지도가 둔 관계다."
+        },
+        {
+          "id": "influence--george-orwell--margaret-atwood",
+          "summary": "애트우드는 『다른 세계에서』에 실은 오웰론에서 아홉 살에 『동물농장』을, 십대에 『1984』를 읽은 경위를 적고 『시녀 이야기』가 그 독서에 대한 응답임을 밝혔다. 본문 뒤에 먼 미래의 학술대회 기록을 붙여 체제를 과거형으로 만든 장치는 흔히 『1984』 신어 부록의 변주로 읽힌다."
+        },
+        {
+          "id": "affinity--margaret-atwood--kazuo-ishiguro",
+          "summary": "『시녀 이야기』와 『나를 보내지 마』는 모두 사변적 전제 하나를 세운 뒤 그 안에서 살아가는 화자의 진술로 사회의 규칙을 드러낸다. 장르 소설의 장치를 쓰면서도 SF라는 이름과 거리를 두는 태도까지 겹친다. 두 작품을 나란히 비교한 연구가 있고, 애트우드 자신이 2005년 슬레이트에 『나를 보내지 마』 서평을, 『다른 세계에서』(2011)에도 이 작품론을 실었다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "애트우드가 이 작품으로 사변소설을 '현재의 제도를 뒤집어 검사하는 논증의 형식'으로 만들었다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "한 층의 이야기가 감춘 것을 다른 층이 드러내, 진술의 편집과 누락을 독자가 재구성하게 하는 구조다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "그 세 요소(회고·신문 기사·액자 속 소설)가 '3중 구조'를 이룬다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "work:margaret-atwood--the-circle-game.facts",
+          "claim": "한국어 표기 『서클 게임』",
+          "resolution": "accepted",
+          "evidence": "11af85719aed 는 『서클 게임』(The Circle Game) · 1964 · poetry 로 제목 표기만 쓰고 국내 번역본을 말하지 않는다. eead73e35cfa 는 '첫 시집'이 아니라 '초기 시집'이라고 적어, 인용 출처의 틀린 '스물한 살에 첫 시집'도 페이지에 없다."
+        },
+        {
+          "field": "work:margaret-atwood--the-blind-assassin.significance",
+          "claim": "층위들이 서로 감춘 것을 드러내 독자가 진술을 조립하게 한다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+          "claim": "『시녀 이야기』의 배경도 '무너져 가는' 근미래 미국이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+          "claim": "『시녀 이야기』와 『씨앗을 뿌리는 사람의 우화』 사이의 직접 영향이나 두 사람의 접촉 기록은 없다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "relation:affinity--margaret-atwood--octavia-butler.summary",
+          "claim": "두 작품은 같은 시기의 작품이다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:influence--george-orwell--margaret-atwood.summary",
+          "claim": "『다른 세계에서』에 실린 그 오웰론에 위 독서 경위와 『시녀 이야기』 이야기가 적혀 있다",
+          "resolution": "pending",
+          "pendingWhere": "https://archive.org/details/inotherworldssfh0000atwo",
+          "evidence": "『In Other Worlds』 수록 「George Orwell: Some Personal Connections」 본문. 대출 제한 도서다 — 이 세션의 archive.org 본문 검색(fulltext/inside.php)도 'Item not available'을 돌려줬다."
+        },
+        {
+          "field": "relation:influence--george-orwell--margaret-atwood.summary",
+          "claim": "이 장치는 『1984』의 신어 부록을 이어받은 것이다(단정)",
+          "resolution": "corrected"
+        },
+        {
+          "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+          "claim": "『시녀 이야기』도 화자의 진술'만으로' 사회의 규칙을 드러낸다",
+          "resolution": "narrowed"
+        },
+        {
+          "field": "relation:affinity--margaret-atwood--kazuo-ishiguro.summary",
+          "claim": "그 서평을 『다른 세계에서』(2011)에 다시 실었다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

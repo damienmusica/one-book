@@ -1,0 +1,685 @@
+{
+ "plates": [
+  {
+   "id": "du-fu",
+   "claims": [
+    {
+     "sids": [
+      "6beac17874f1"
+     ],
+     "field": "author.facts",
+     "claim": "두보(杜甫)는 712년에 태어나 770년에 죽은 중국 시인이다(동아시아)",
+     "verdict": "confirmed",
+     "url": "http://web.archive.org/web/20260811175610/https://www.britannica.com/biography/Du-Fu",
+     "quote": "Du Fu (born 712, Gongxian, Henan province, China—died 770, on a riverboat between Danzhou [now Changsha] and Yueyang, Hunan province) was a Chinese poet"
+    },
+    {
+     "sids": [
+      "6beac17874f1"
+     ],
+     "field": "author.facts",
+     "claim": "두보의 한자 이름은 杜甫다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "'''杜甫'''（712年－770年），字'''子美'''"
+    },
+    {
+     "sids": [
+      "6beac17874f1"
+     ],
+     "field": "author.facts",
+     "claim": "두보의 시는 고전 중국어(lzh)로 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "Notation of “Two Quatrains, II” according to [[Kanbun]]-kundoku (the Japanese traditional method of reading and translating Classical Chinese)",
+     "note": "두보의 「절구」를 한문(Classical Chinese) 훈독법으로 읽는 도판 설명 — 시 언어가 고전 중국어임을 전제한다"
+    },
+    {
+     "sids": [
+      "6b6b9d6fbac0"
+     ],
+     "field": "author.importanceReason",
+     "claim": "두보는 자기 처지와 함께 보통 사람들이 겪는 고통을 시에 적었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "he turned to the suffering of others in his poetry instead of dwelling upon his own misfortunes: \"Brooding on what I have lived through, if even I know such suffering, the common man must surely be rattled by the winds.\"",
+     "note": "재인용: 원 인용('effect of the times … on himself, and on the ordinary people')은 '고통'도 '전란기'도 말하지 않는다. 같은 문서 War 절의 이 대목이 자기 고통과 보통 사람의 고통을 함께 적은 것을 직접 말한다. 시기(안녹산의 난)는 다음 주장이 맡는다"
+    },
+    {
+     "sids": [
+      "6b6b9d6fbac0"
+     ],
+     "field": "author.importanceReason",
+     "claim": "안녹산의 난 시기에 두보가 보고 들은 가족·이웃·낯선 이들의 삶이 그의 시의 주제가 되었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "The An Lushan rebellion began in December 755, and was not completely suppressed for almost eight years. … During this time, Du Fu led a largely itinerant life unsettled by wars, associated famines and imperial displeasure. This period of unhappiness was the making of Du Fu as a poet: Eva Shan Chou has written that, \"What he saw around him—the lives of his family, neighbors, and strangers– what he heard, and what he hoped for or feared from the progress of various campaigns—these became the enduring themes of his poetry\".",
+     "note": "재인용: 원 인용은 'This period'만 말하고 안녹산의 난을 이름하지 않는다. 같은 문단 첫 문장부터 인용해 시기를 인용 안에 넣었다 | 이전 메모: 같은 절(=== War ===)이 755년 안녹산의 난 발발부터 서술한다"
+    },
+    {
+     "sids": [
+      "6b6b9d6fbac0"
+     ],
+     "field": "author.importanceReason",
+     "claim": "두보의 시는 시로 시대를 기록한 '시사(詩史)'로 불린다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "Since the [[Song dynasty]], critics have called Du Fu the \"poet for history\"",
+     "note": "zh.wikipedia 杜甫: 詩史 호칭은 만당 孟棨『本事詩』에 처음 보이고 송대에 정론이 되었다 | 검사: 같은 문서 원문은 이 호칭 뒤에 (詩史, shī shǐ)를 병기한다. zh.wikipedia 杜甫도 「杜逢祿山之難，流雍隴蜀，畢陳于詩，推見至隱，殆無遺事，故當號為詩史」(孟棨『本事詩』)를 인용한다"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "「석호리」는 삼리삼별에 속하고 오언고시(고체시)다",
+     "verdict": "confirmed",
+     "url": "https://m.gushiwen.cn/shiwenv_93ac46de573f.aspx",
+     "quote": "《石壕吏》是一首五言古诗，为“三吏三别”之一。"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "삼리삼별은 악부(신악부) 형식의 연작이다",
+     "verdict": "confirmed",
+     "url": "https://www.aisixiang.com/data/95968.html",
+     "quote": "“三别”与“三吏”都是三篇一组的新乐府诗。"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "삼리삼별은 전란기 징집 등 백성이 겪은 사실을 적었다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "朝廷大肆抓丁以补充军力，杜甫就沿途所见所感，写成著名的组诗“[[三吏三别]]”",
+     "note": "施蛰存(aisixiang): “三别”是记兵灾后人民生活困苦之状 — 굶주림·피난은 '전란 뒤의 곤궁'으로 포괄됨"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "두보는 성률 규칙에 능했고 율시에서 기량이 가장 높았다",
+     "verdict": "confirmed",
+     "url": "http://web.archive.org/web/20260811175610/https://www.britannica.com/biography/Du-Fu",
+     "quote": "his complete ease in handling the rules of prosody. … He was an expert in all poetic genres current in his day, but his mastery was at its height in the lüshi , or “regulated verse,”"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "율시는 여덟 구로 이루어지고 가운데 두 연에 대구를 둔다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Regulated_verse",
+     "quote": "In the eight-line lushi form, which is composed of four couplets, the middle two couplets have internal parallelism",
+     "note": "재인용: 원 인용은 「춘망」 한 편의 구성만 말해 '율시'라는 일반 형식을 싣지 못한다. 율시 형식 자체를 서술한 문서로 바꿨다"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "두보는 율시(「춘망」)에도 전란의 시대를 담았다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "In the poem, Du laments the rapid defeat of the imperial forces and what, to his mind, signals the end of the Tang dynasty."
+    },
+    {
+     "sids": [
+      "1e1f770f9efb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "송대 이후 두보는 시를 배우는 사람이 반드시 거치는 표준 교본이 되었다",
+     "verdict": "contradicted",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "宋朝[[宋明理學|理学]]的发展确保了杜甫作为诗的典范和他的至高无上的地位",
+     "correction": "송대에 이르러 그는 시의 전범(典範)으로 최고의 자리에 올랐다",
+     "note": "'반드시 거치는 표준 교본'이라고 말하는 출처는 찾지 못했다. en.wikipedia는 북송 때 명성이 정점에 이르렀고 그의 영향을 받지 않기 어려웠다고(Owen) 서술"
+    },
+    {
+     "sids": [
+      "1e1f770f9efb"
+     ],
+     "field": "author.importanceReason",
+     "claim": "조선에서 『두시언해』라는 왕명(관찬) 번역이 이루어졌다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/두시언해",
+     "quote": "《두시언해》(杜詩諺解)는 중국 당나라의 시인인 두보(杜甫)의 작품을 조선 시대 왕명에 의해 조위(曺偉), 유윤겸(柳允謙), 의침(義砧) 등이 번역한 책이다.",
+     "note": "재인용: 원 인용은 '시대 왕명에 의해'에서 잘려 '조선'과 번역 대상(두보의 작품)이 빠졌다. 같은 문장 전체를 인용했다"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "두보의 시는 전쟁의 징발(徭役)과 굶주림·빈곤을 소재로 삼았다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "取材於政治興亡，社會動亂，戰事徭役，飢餓貧窮和貧富懸殊",
+     "note": "검사 추가: 문장이 든 사실 가운데 굶주림을 확인한다"
+    },
+    {
+     "sids": [
+      "0015fb51cf6c"
+     ],
+     "field": "author.importanceReason",
+     "claim": "삼리삼별의 한 편인 「무가별」은 난을 피해 마을 사람들이 흩어져 달아난 정황을 적는다",
+     "verdict": "confirmed",
+     "url": "https://www.aisixiang.com/data/95968.html",
+     "quote": "此诗第一段六句。用一个战败归家的农民的自述，描写天宝十五载以后，陕、洛一带人民的田园庐舍都已毁灭，只剩一望无际的蓬蒿藜藿。我的乡里原有一百多家，因为避乱，各自东西逃难，至今活着的人既无消息，死者已化为尘泥。",
+     "note": "검사 추가: 施蛰存 「无家别」 해설(문서 제목 杜甫：无家别). 문장이 든 사실 가운데 피난을 확인한다"
+    },
+    {
+     "sids": [
+      "bf741f12395b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「춘망」은 여덟 구, 구마다 다섯 자(마흔 자)다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "The poem is made up of eight lines consisting of five characters each"
+    },
+    {
+     "sids": [
+      "bf741f12395b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「춘망」의 첫 구는 國破山河在(나라는 부서졌어도 산하는 남았다)다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikisource.org/wiki/春望",
+     "quote": "國破山河在，城{{另|春|荒}}草木深。"
+    },
+    {
+     "sids": [
+      "bf741f12395b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「춘망」은 널리 알려진 시다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "Zong-Qi Cai called it one of the best-known and most commonly recited Chinese poems."
+    },
+    {
+     "sids": [
+      "bf741f12395b"
+     ],
+     "field": "author.readingEntryReason",
+     "claim": "「춘망」의 첫 구절은 이름난 구절(名句)이다",
+     "verdict": "confirmed",
+     "url": "https://kotennosennsei.com/okuno-hosomichi-hiraizumi/",
+     "quote": "もとの詩は「国破れて山河在り、城春にして草木（そうもく）深し」。戦で国がほろびても、山や川（自然）はかわらずそこにある――という、人の営みのはかなさと自然の悠久（ゆうきゅう）さを対比した名句です。",
+     "note": "검사 추가: 기존 주장은 시 전체의 명성만 확인해, 문장이 말하는 '첫 구가 널리 알려져 있다'를 따로 확인한다. 인용은 첫 두 구를 함께 名句라 한다"
+    },
+    {
+     "sids": [
+      "802489c91629"
+     ],
+     "field": "author.readingWarning",
+     "claim": "「추흥팔수」는 기주 시절 작품이다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044",
+     "quote": "《秋興八首》是大曆元年（766）秋…在夔州時所作的一組七言律詩"
+    },
+    {
+     "sids": [
+      "802489c91629"
+     ],
+     "field": "author.readingWarning",
+     "claim": "두보 만년의 시에는 전고가 복잡하게 얽혀 있다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "accommodating the complex allusions contained particularly in the later works"
+    },
+    {
+     "sids": [
+      "3dfb3269cd24"
+     ],
+     "field": "author.readingWarning",
+     "claim": "「추흥팔수」는 두보 만년의 연작이다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/71335",
+     "quote": "《秋興八首》是杜甫晚年爲逃避戰亂而寄居夔州時的代表作品",
+     "note": "검사: noClaim이던 문장이 '만년의 연작'이라는 확인할 수 있는 사실을 담고 있어 주장으로 바꿨다. 사건이 드러난 짧은 시(「석호리」 실록, 「춘망」 40자)는 위 주장들이 확인한다"
+    },
+    {
+     "sids": [
+      "e9c7113973c7"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "율시의 대구는 낱말 단위로 짝을 맞춘다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Regulated_verse",
+     "quote": "The parallelism requirement means that the two parallel lines must match each word in each line with the word which is in the same position in the other line",
+     "note": "재인용: 원 인용은 「춘망」의 예시 한 쌍만 보여 '율시의 대구' 일반을 싣지 못한다. 율시의 대구 규칙을 서술한 문장으로 바꿨다"
+    },
+    {
+     "sids": [
+      "e9c7113973c7"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "율시의 압축된 대구는 번역에서 가장 많이 손실된다",
+     "verdict": "contradicted",
+     "url": "http://web.archive.org/web/20260811175610/https://www.britannica.com/biography/Du-Fu",
+     "quote": "His dense, compressed language makes use of all the connotative overtones of a phrase and of all the intonational potentials of the individual word, qualities that no translation can ever reveal.",
+     "correction": "두보의 압축된 언어가 지닌 함축과 성조의 효과는 번역으로 옮겨지지 않는다고 평가된다",
+     "note": "'가장 많이 손실'이라는 비교를 하는 출처는 없다"
+    },
+    {
+     "sids": [
+      "e9c7113973c7"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "「추흥팔수」는 여덟 수가 하나의 구조로 이어진 연작이다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/71335",
+     "quote": "全詩八首蟬聯，前呼後應，脈絡貫通，組織嚴密，既是一組完美的組詩"
+    },
+    {
+     "sids": [
+      "e9c7113973c7"
+     ],
+     "field": "author.difficultyReason",
+     "claim": "「추흥팔수」는 안사의 난이 끝난 뒤에도 전란이 이어지던 정황을 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044",
+     "quote": "持續八年的安史之亂，至廣德元年（763）始告結束，而吐蕃、回紇乘虛而入，藩鎮擁兵割據，戰亂時起，唐王朝難以復興了。此時，嚴武去世，杜甫在成都生活失去憑依，遂沿江東下，滯留夔州。",
+     "note": "재인용: 원 인용(759년 이후 '戰亂頻仍')은 안사의 난을 이름하지 않는다. 같은 창작배경 절의 다음 문단이 안사의 난 종결 뒤에도 이어진 전란과 기주 체류를 직접 말한다"
+    },
+    {
+     "sids": [
+      "c436288adf30"
+     ],
+     "field": "work:du-fu--dengao.facts",
+     "claim": "「등고(登高)」는 767년에 쓴 시다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/登高",
+     "quote": "《'''登高'''》是一首[[七言律詩]]，[[唐代]]詩人[[杜甫]]於[[大曆]]二年（西元767年）在[[夔州]]"
+    },
+    {
+     "sids": [
+      "abe7cf69d8b9"
+     ],
+     "field": "work:du-fu--dengao.significance",
+     "claim": "「등고」는 기주에서 쓴 칠언율시다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/登高",
+     "quote": "《'''登高'''》是一首[[七言律詩]]，[[唐代]]詩人[[杜甫]]於[[大曆]]二年（西元767年）在[[夔州]]（今中國重慶[[奉節]]）所寫"
+    },
+    {
+     "sids": [
+      "abe7cf69d8b9"
+     ],
+     "field": "work:du-fu--dengao.significance",
+     "claim": "「등고」는 중양절에 쓰였다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/登高",
+     "quote": "诗成之时正是重阳节，杜甫登上[[白帝城]]附近的高台"
+    },
+    {
+     "sids": [
+      "404110d6bb9e"
+     ],
+     "field": "work:du-fu--dengao.significance",
+     "claim": "「등고」는 여덟 구가 모두 대구다",
+     "verdict": "confirmed",
+     "url": "https://www.163.com/dy/article/F1FQQGMI0541ACOU.html",
+     "quote": "但是这首《登高》，八句皆对。"
+    },
+    {
+     "sids": [
+      "404110d6bb9e"
+     ],
+     "field": "work:du-fu--dengao.significance",
+     "claim": "「등고」는 율시 형식의 극점으로 평가된다",
+     "verdict": "confirmed",
+     "url": "https://www.163.com/dy/article/F1FQQGMI0541ACOU.html",
+     "quote": "然此诗自当为古今七言律第一，不必为唐人七言律第一也。",
+     "note": "명 胡應麟『詩藪』의 평; zh.wikipedia 登高도 「古今七言律詩之冠」으로 소개"
+    },
+    {
+     "sids": [
+      "404110d6bb9e"
+     ],
+     "field": "work:du-fu--dengao.significance",
+     "claim": "「등고」에는 유랑·병·늙음이 적혀 있다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/10878",
+     "quote": "悲對秋景感慨萬里漂泊常年爲客，一生當中疾病纏身今日獨上高臺。 歷盡了艱難苦恨白髮長滿了雙鬢"
+    },
+    {
+     "sids": [
+      "5054bb57bfe2"
+     ],
+     "field": "work:du-fu--chunwang.facts",
+     "claim": "「춘망(春望)」은 757년에 쓴 시다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "\"Chunwang\" was written in 757"
+    },
+    {
+     "sids": [
+      "13a5fc6aff2a"
+     ],
+     "field": "work:du-fu--chunwang.significance",
+     "claim": "「춘망」은 안녹산의 반군에 함락된 장안을 배경으로 한다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "written after the fall of [[Chang'an]] to rebel forces led by [[An Lushan]]"
+    },
+    {
+     "sids": [
+      "13a5fc6aff2a"
+     ],
+     "field": "work:du-fu--chunwang.significance",
+     "claim": "두보는 반군에 사로잡혀 장안에 억류된 채 「춘망」을 썼다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "中途为安史叛军俘获，押到长安。他面对混乱的长安，听到官军一再败退的消息，写成《月夜》《春望》《哀江头》《悲陈陶》等诗。"
+    },
+    {
+     "sids": [
+      "13a5fc6aff2a"
+     ],
+     "field": "work:du-fu--chunwang.significance",
+     "claim": "「춘망」은 오언율시다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "\"Chunwang\" is an example of what was known in the Tang dynasty as ''wuyan lüshi'' ({{lang|zh-hant|五言律詩}})"
+    },
+    {
+     "sids": [
+      "05c7c97149be"
+     ],
+     "field": "work:du-fu--chunwang.significance",
+     "claim": "「춘망」의 첫 구는 동아시아 전역에서 인용되었다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "in ''[[Oku no Hosomichi]]'', his masterpiece, he cites the first two lines of ''[[Chunwang (poem)|A Spring View]]'' ({{lang|zh|春望}}) before a haiku as its introduction",
+     "correction": "첫 두 구는 일본에서 바쇼가 『오쿠노 호소미치』에 옮겨 적었다",
+     "note": "중국 밖 인용으로 확인된 것은 바쇼(일본)뿐. 한국 등 '동아시아 전역' 인용을 말하는 출처는 찾지 못했다"
+    },
+    {
+     "sids": [
+      "05c7c97149be"
+     ],
+     "field": "work:du-fu--chunwang.significance",
+     "claim": "「춘망」의 첫 구는 전란시의 대표 문장이 되었다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Chunwang_(poem)",
+     "quote": "Zong-Qi Cai called it one of the best-known and most commonly recited Chinese poems.",
+     "correction": "「춘망」은 가장 널리 알려지고 가장 많이 암송되는 중국 시 가운데 하나로 꼽힌다",
+     "note": "첫 구를 '전란시의 대표 문장'으로 규정한 출처는 찾지 못했다; 출처는 시 전체의 명성만 말한다 | 검사: 인용은 'Chinese poems' 가운데 하나라고 할 뿐 '중국에서'라고 하지 않아 정정문을 인용에 맞췄다"
+    },
+    {
+     "sids": [
+      "524c9d76b2fd"
+     ],
+     "field": "work:du-fu--qiuxingbashou.facts",
+     "claim": "「추흥팔수(秋興八首)」는 766년에 쓴 시다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044",
+     "quote": "《秋興八首》是大曆元年（766）秋"
+    },
+    {
+     "sids": [
+      "dffa5f00b315"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」는 기주에서 쓴 칠언율시 연작이다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044",
+     "quote": "《秋興八首》是大曆元年（766）秋…在夔州時所作的一組七言律詩"
+    },
+    {
+     "sids": [
+      "dffa5f00b315"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」는 장안을 그리는 시다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/71335",
+     "quote": "後四首寫所思之長安，抒發“處江湖遠則憂其君”的情愫"
+    },
+    {
+     "sids": [
+      "fd8b2f57fd9c"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」는 한 수씩으로는 풀리지 않고 여덟 수가 함께 하나의 구조를 이룬다",
+     "verdict": "contradicted",
+     "url": "https://fanti.dugushici.com/ancient_proses/71335",
+     "quote": "全詩八首蟬聯，前呼後應，脈絡貫通，組織嚴密，既是一組完美的組詩，而又各篇各有所側重。每篇都是可以獨立的七言律詩。",
+     "correction": "여덟 수가 앞뒤로 호응하며 하나의 짜임을 이루지만, 한 수 한 수도 독립된 칠언율시로 읽힌다",
+     "note": "검사: 같은 사이트 감상문(https://fanti.dugushici.com/ancient_proses/11044/prose_appreciations/1299)은 「八首詩，章法縝密嚴整，脈絡分明，不宜拆開，亦不可顛倒」라고 해 '하나의 구조'는 뒷받침하지만, 71335는 각 수가 독립된 칠언율시라고 해 '한 수씩으로는 풀리지 않는다'는 출처끼리 엇갈린다. 정정문은 인용이 싣는 두 면을 모두 적는다"
+    },
+    {
+     "sids": [
+      "fd8b2f57fd9c"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」에는 전고가 겹쳐 있다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_translations/1027",
+     "quote": "30.東來紫氣：用老子自洛陽入函谷關事。《列仙傳》記載，老子西遊至函谷關，關尹喜登樓而望，見東極有紫氣西邁，知有聖人過函谷關，後來果然見老子乘青牛車經過。函關：即函谷關。此二句借用典故極寫都城長安城宮殿的宏偉氣象。",
+     "note": "재인용: 원 인용(en.wikipedia 'complex allusions … in the later works')은 만년 작품 일반을 말할 뿐 「추흥팔수」를 이름하지 않는다. 「추흥팔수」 주석 페이지가 구절이 전고를 빌렸다고 직접 말한다"
+    },
+    {
+     "sids": [
+      "fd8b2f57fd9c"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」는 두보 만년 형식의 정점이다",
+     "verdict": "contradicted",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044",
+     "quote": "它是八首蟬聯、結構嚴密、抒情深摯的一組七言律詩，體現了詩人晚年的思想感情和藝術成就。",
+     "correction": "두보 만년의 생각과 예술적 성취를 보여 주는 칠언율시 연작이다",
+     "note": "'정점'이라고 단정하는 출처는 찾지 못했다"
+    },
+    {
+     "sids": [
+      "fd8b2f57fd9c"
+     ],
+     "field": "work:du-fu--qiuxingbashou.significance",
+     "claim": "「추흥팔수」는 현실에서 회상으로, 회상에서 현실로 오가며 기억을 겹쳐 짠다",
+     "verdict": "confirmed",
+     "url": "https://fanti.dugushici.com/ancient_proses/11044/prose_appreciations/1299",
+     "quote": "前三首詳夔州而略長安，後五首詳長安而略夔州；前三首由夔州而思及長安，後五首則由思長安而歸結到夔州；前三首由現實引發回憶，後五首則由回憶回到現實。",
+     "note": "검사 추가: 문장의 '기억이 겹쳐'를 확인한다"
+    },
+    {
+     "sids": [
+      "cc4e9f3938df"
+     ],
+     "field": "work:du-fu--shihaoli.facts",
+     "claim": "「석호리(石壕吏)」는 759년에 쓴 시다",
+     "verdict": "confirmed",
+     "url": "https://m.gushiwen.cn/shiwenv_93ac46de573f.aspx",
+     "quote": "759年（唐肃宗乾元二年）春，四十八岁的杜甫由左拾遗贬为华州司功参军。他离开洛阳，历经新安、石壕、潼关，赶往华州任所。这时，杜甫正由新安县继续西行，投宿石壕村，遇到吏卒深夜捉人，于是实录所见所闻，写成这篇不朽的诗作。",
+     "note": "재인용: 원 인용은 759년 좌천만 말하고 이 시를 그해에 썼다는 것은 싣지 않는다. 같은 창작배경 문단 전체를 인용했다"
+    },
+    {
+     "sids": [
+      "64ed566532b8"
+     ],
+     "field": "work:du-fu--shihaoli.significance",
+     "claim": "「석호리」는 석호촌에 묵은 두보가 밤에 관리가 사람을 잡아가는 것을 목격하고 적은 시다",
+     "verdict": "confirmed",
+     "url": "https://m.gushiwen.cn/shiwenv_93ac46de573f.aspx",
+     "quote": "这时，杜甫正由新安县继续西行，投宿石壕村，遇到吏卒深夜捉人，于是实录所见所闻，写成这篇不朽的诗作。"
+    },
+    {
+     "sids": [
+      "64ed566532b8"
+     ],
+     "field": "work:du-fu--shihaoli.significance",
+     "claim": "그 집에서 끌려간 사람은 노인(노파)이다",
+     "verdict": "confirmed",
+     "url": "https://www.gushiwen.cn/gushiwen_1045a6314e.aspx",
+     "quote": "写了差吏到石壕村乘夜捉人征兵,连年老力衰的老妇也被抓服役的故事"
+    },
+    {
+     "sids": [
+      "7b1713edd281"
+     ],
+     "field": "work:du-fu--shihaoli.significance",
+     "claim": "「석호리」는 삼리삼별 연작의 한 편이다",
+     "verdict": "confirmed",
+     "url": "https://m.gushiwen.cn/shiwenv_93ac46de573f.aspx",
+     "quote": "《石壕吏》是一首五言古诗，为“三吏三别”之一。"
+    },
+    {
+     "sids": [
+      "7b1713edd281"
+     ],
+     "field": "work:du-fu--shihaoli.significance",
+     "claim": "「석호리」는 시가 사회적 사실을 기록하는 방식을 가장 건조하게 보여준다",
+     "verdict": "contradicted",
+     "url": "https://m.gushiwen.cn/shiwenv_93ac46de573f.aspx",
+     "quote": "这首诗在艺术上最大的特色在于其精练的表达，它把抒情和议论寓于叙事之中",
+     "correction": "서정과 논평을 서사 속에 감춘 정련된 서술로 사건을 기록한 시로 평가된다",
+     "note": "'가장 건조하다'는 비교를 하는 출처는 찾지 못했다"
+    },
+    {
+     "sids": [
+      "2ea6f326cff7"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.facts",
+     "claim": "이백과 두보는 양방향으로 시를 주고받은 기록이 있다(두보 쪽 12편, 이백 쪽 1편)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "We have twelve poems to or about Li Bai from the younger poet, but only one in the other direction."
+    },
+    {
+     "sids": [
+      "13540abcdea6"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두 사람은 744년에 처음 만났다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "In the autumn of 744, he met [[Li Bai]] (Li Po) for the first time, and the two poets formed a friendship."
+    },
+    {
+     "sids": [
+      "13540abcdea6"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두 사람은 낙양에서 만났다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "以后在[[洛阳]]遇李白，二人结下深厚友谊"
+    },
+    {
+     "sids": [
+      "13540abcdea6"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두 사람은 한동안 함께 유람했다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikipedia.org/wiki/杜甫",
+     "quote": "继而又遇[[高适]]，三人同游梁、宋（今[[开封]]、[[商丘]]）。",
+     "note": "Britannica도 'while traveling with Li Bai'라고 적는다"
+    },
+    {
+     "sids": [
+      "13540abcdea6"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두보에게 「이백에게 부침(贈李白)」이라는 시가 있다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikisource.org/wiki/贈李白_(二年客東都)",
+     "quote": "| title    = 贈李白\n| section  =\n| author   = 杜甫",
+     "note": "재인용: 원 인용(동명이편 목록)에는 지은이가 없다. 목록의 첫 편 문서 머리가 제목과 지은이 杜甫를 함께 싣는다 | 이전 메모: 같은 제목의 시가 두 편 있다"
+    },
+    {
+     "sids": [
+      "13540abcdea6"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두보에게 「봄날 이백을 생각하며(春日憶李白)」가 있다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikisource.org/wiki/春日憶李白",
+     "quote": "| title    = 春日忆李白\n| section  =\n| author   = 杜甫",
+     "note": "재인용: 원 인용은 제목만 담아 두보의 시라는 것을 싣지 않는다. 같은 문서 머리의 지은이 줄까지 인용했다"
+    },
+    {
+     "sids": [
+      "13540abcdea6"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "「꿈에 이백을 보다(夢李白)」는 두 수다",
+     "verdict": "confirmed",
+     "url": "https://zh.wikisource.org/wiki/夢李白二首",
+     "quote": "| title    = 夢李白二首\n| section  =\n| author   = 杜甫",
+     "note": "재인용: 원 인용('其一' 소제목)은 두 수라는 것도 지은이도 싣지 않는다. 같은 문서 머리가 제목 夢李白二首와 지은이 杜甫를 함께 싣는다"
+    },
+    {
+     "sids": [
+      "13540abcdea6"
+     ],
+     "field": "relation:dialogue--li-bai--du-fu.summary",
+     "claim": "두보는 이 시들을 포함해 여러 편을 이백에게 바쳤다",
+     "verdict": "contradicted",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "We have twelve poems to or about Li Bai from the younger poet",
+     "correction": "두보가 이백에게 주거나 이백을 두고 쓴 시는 열두 편이 전한다",
+     "note": "「春日憶李白」·「夢李白」은 이백을 생각하거나 꿈에 본 시로, 이백에게 '바친' 시가 아니다 | 검사: 이전 정정문은 개별 시 제목을 인용이 말하지 않는 방식으로 묶었다. 인용이 싣는 것(이백에게 주거나 이백에 관한 시 열두 편)만 남겼다. 개별 제목은 위의 위키문헌 주장들이 확인한다"
+    },
+    {
+     "sids": [
+      "9e8e5f3ee26a"
+     ],
+     "field": "relation:influence--du-fu--matsuo-basho.facts",
+     "claim": "바쇼는 두보의 영향을 받았다(두보→바쇼, 문헌 근거 있음)",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Du_Fu",
+     "quote": "[[Matsuo Bashō]], the greatest haiku poet, was also strongly influenced by Du Fu"
+    },
+    {
+     "sids": [
+      "e4eedab4b24f"
+     ],
+     "field": "relation:influence--du-fu--matsuo-basho.summary",
+     "claim": "바쇼는 『오쿠노 호소미치』 히라이즈미 대목에서 「춘망」을 '国破れて山河あり、城春にして草青みたり'로 적었다",
+     "verdict": "confirmed",
+     "url": "https://ja.wikipedia.org/wiki/おくのほそ道",
+     "quote": "5月13日　藤原3代の跡を訪ねて平泉（岩手県西磐井郡平泉町）にて。 「三代の栄耀一睡のうちにして、大門の跡は一里こなたにあり」 「国破れて山河あり　城春にして草青みたり」という杜甫の詩「春望」を踏まえて詠む。",
+     "note": "재인용: 원 인용은 히라이즈미 대목이라는 것을 싣지 않는다(절 제목에만 있음). 같은 === 平泉 === 절의 첫 줄부터 인용했다 | 이전 메모: 같은 문서의 === 平泉 === 절"
+    },
+    {
+     "sids": [
+      "e4eedab4b24f"
+     ],
+     "field": "relation:influence--du-fu--matsuo-basho.summary",
+     "claim": "바쇼는 원시의 '草木深し'를 '草青みたり'로 고쳐 적었다",
+     "verdict": "confirmed",
+     "url": "https://kotennosennsei.com/okuno-hosomichi-hiraizumi/",
+     "quote": "芭蕉は、もとの「草木深し」を「草青みたり」と言いかえています。"
+    },
+    {
+     "sids": [
+      "e4eedab4b24f"
+     ],
+     "field": "relation:influence--du-fu--matsuo-basho.summary",
+     "claim": "그 인용 바로 뒤에 바쇼 자신의 홋쿠가 이어진다",
+     "verdict": "confirmed",
+     "url": "https://nomichi.me/basho-hiraizumi/",
+     "quote": "「国破れて山河あり、城春にして草青みたり。」と、笠うち敷きて、時の移るまで涙を落とし侍りぬ。 夏草やつはものどもが夢の跡"
+    }
+   ],
+   "noClaim": {}
+  }
+ ],
+ "check": {
+  "kept": 38,
+  "requoted": 12,
+  "downgraded": 0,
+  "added": 4,
+  "noClaimConverted": 1
+ }
+}

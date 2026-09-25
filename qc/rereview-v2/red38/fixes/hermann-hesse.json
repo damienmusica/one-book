@@ -1,0 +1,95 @@
+{
+  "fixes": [
+    {
+      "id": "hermann-hesse",
+      "importanceReason": "『싯다르타』와 『유리알 유희』에서 인도와 중국의 사유를 독일 교양소설의 뼈대에 접붙여, 자기를 찾아가는 여정을 동서양이 함께 쓰는 이야기로 만들었다. 내면의 인도자(데미안), 갈라진 자아(황야의 이리), 정신과 감각의 분리(나르치스와 골드문트)처럼 심리적 대립항을 인물 둘로 나눠 세우는 구성을 반복했다. 1946년 노벨문학상 이후에도 그의 소설은 인기가 오르내리다가 1960년대 미국 반문화 안에서 새로 읽혔다.",
+      "readingEntryReason": "200쪽 안팎의 1인칭 성장담이라 진입이 쉽고, 이후 소설들이 반복할 구도 — 내면의 인도자와 갈라진 자아 — 가 여기서 먼저 제시된다.",
+      "readingWarning": "『유리알 유희』로 시작하면 유리알 유희의 역사를 서술하는 서론을 지나야 크네히트의 생애가 시작된다.",
+      "difficultyReason": "『싯다르타』의 문장은 평이하지만 헤세의 인물들은 융 심리학과 인도·중국 사유의 개념을 대신 짊어지고 있어 표면만 좇으면 성장담으로 축소되고, 『유리알 유희』는 가상의 학문 공동체 카스탈리엔과 유리알 유희의 역사를 설명하는 서론이 본 이야기에 앞선다.",
+      "works": [
+        {
+          "id": "hermann-hesse--der-steppenwolf",
+          "significance": "시민적 자아와 늑대적 자아로 갈라진 중년 남자의 수기를 편집자의 서문이 감싸고, 그 수기 안에 「황야의 이리에 관한 논고」가 책 속의 책으로 끼워진 소설. 수기 안쪽 절정부의 '마술 극장'과 괴테·모차르트가 나오는 장면을 포함해 헤세의 형식 실험이 뚜렷하다."
+        },
+        {
+          "id": "hermann-hesse--das-glasperlenspiel",
+          "significance": "미래의 학문 공동체 카스탈리엔과 유리알 유희라는 가상 학예를 전기(傳記) 형식으로 서술한 만년의 장편. 1946년 노벨문학상에서 특별한 자리를 얻었다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--friedrich-nietzsche--hermann-hesse",
+          "summary": "헤세는 1919년 「차라투스트라의 귀환 — 독일 청년에게 보내는 말」을 익명으로 발표해, 니체의 차라투스트라를 화자로 세워 전후 독일 청년에게 말했다. 『데미안』과 같은 해에 나온 이 소책자가 그의 니체 독서를 드러내는 1차 문서다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "정신분석의 영향 아래 성장소설을 자기 인식에 이르는 과정의 탐구(자기 분석)로 썼다",
+          "resolution": "narrowed",
+          "evidence": "문장 71f3e87ebd46 에서 '성장소설을 자기 분석의 형식으로 바꿨다'를 지우고 '…구성을 반복했다'로 끝냈다. 남은 부분은 확정 주장들(데미안 'ratgebende Kraft in Sinclairs Unterbewusstsein', 황야의 이리 'the split in human nature', 나르치스 'Denker oder Geistesmensch … Sinnenmensch', 반복 구성 'Der Suchende … wird dem Stehengebliebenen gegenübergestellt')이 받친다. 교정문의 『데미안』 정신분석 절은 넣으면 importanceReason 이 원래보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "그의 소설은 세대마다 다시 발견되었다",
+          "resolution": "corrected",
+          "evidence": "문장 e552a22de759 의 '세대마다 다시 발견되어'를 교정문의 '물결처럼 오르내렸고'에 맞춰 '인기가 오르내리다가'로 바꿨다. 확정 주장의 브리태니커 인용('Hesse’s popularity among German readers soared, though it had crashed by the 1950s')과 독일어 위키백과 'wellenartig'가 받친다. 1946년 노벨상·1960년대 미국 반문화는 확정 그대로."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "이후 소설들이 반복할 구도가 『데미안』에서 \"가장 또렷하게\" 제시된다",
+          "resolution": "corrected",
+          "evidence": "문장 f27d807c2be9 의 '가장 또렷하게'를 교정문대로 '먼저'로 바꿨다. 비교 근거가 없던 최상급만 빠지고, 『데미안』(1919)이 이후 발전소설들과 같은 기본 구조를 공유한다는 인용('in seinem Grundaufbau anderen Entwicklungsromanen Hesses wie Demian …')이 남은 문장을 받친다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "그 서론이 길게 이어진다",
+          "resolution": "narrowed",
+          "evidence": "문장 820900891d3b 에서 '길게 이어져'를 지웠다. 새 문장은 서론이 본 이야기에 앞선다는 것만 말하고, 이는 확정 주장의 인용('Der eigentlichen Handlung geht die Einleitung des fiktiven Herausgebers voran … Einführung in seine Geschichte')이 받친다. 서론의 분량은 페이지에 남지 않는다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "인물(크네히트)이 한참 뒤에야 등장한다",
+          "resolution": "corrected",
+          "evidence": "교정문(서론이 먼저, 크네히트의 생애 서술은 그 뒤)에 따라 '인물이 한참 뒤에야 등장한다'를 '서론을 지나야 크네히트의 생애가 시작된다'로 바꿨다. '가상 학문 제도'도 교정문대로 '유리알 유희의 역사'로 바꿨다. 교정문 전체는 원래 문장보다 길어 글자 수 안에 들게 줄였다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "헤세의 문장과 서사는 평이하다",
+          "resolution": "corrected",
+          "evidence": "문장 b0e784959b4e 의 '문장과 서사는 평이하지만'을 교정문대로 '『싯다르타』의 문장은 평이하지만'으로 바꿨다(인용 'written in German, in a simple, lyrical style'). 뒤따르는 '인물'이 『싯다르타』의 인물로 읽히지 않게 '헤세의 인물들은'으로 적었다 — 확정 주장 32–34 의 주어 그대로다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "그 서론이 길다",
+          "resolution": "narrowed",
+          "evidence": "같은 문장에서 '서론이 길어'를 '서론이 본 이야기에 앞선다'로 줄였다. 서론이 있다는 것과 그것이 본 이야기 앞에 놓인다는 것은 확정 주장 35 의 인용('Der eigentlichen Handlung geht die Einleitung … voran')이 받친다. 분량은 페이지에 남지 않는다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "『유리알 유희』는 후반부 밀도가 급격히 올라간다",
+          "resolution": "removed",
+          "evidence": "같은 문장에서 '후반부 밀도가 급격히 올라간다'를 지웠다. 어느 출처도 이것을 다루지 않고, 메모대로 인상 평가라 확인할 형태가 아니다."
+        },
+        {
+          "field": "work:hermann-hesse--der-steppenwolf.significance",
+          "claim": "헤세의 형식 실험이 이 작품에서 \"가장\" 뚜렷하다",
+          "resolution": "narrowed",
+          "evidence": "문장 b0b5305aa0e9 에서 '가장'을 지웠다. 형식 실험이 뚜렷하다는 것은 토마스 만의 말('an experimenteller Gewagtheit dem ‚Ulysses‘ … nicht nachsteht')이 받친다. 교정문의 토마스 만 비교는 넣으면 의의가 원래보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "work:hermann-hesse--das-glasperlenspiel.significance",
+          "claim": "이 작품이 1946년 노벨문학상 선정의 \"주된 근거\"가 되었다",
+          "resolution": "corrected",
+          "evidence": "문장 db1e55ebc443 의 '선정의 주된 근거가 되었다'를 교정문('특별한 자리를 인정받았다')에 맞춰 '1946년 노벨문학상에서 특별한 자리를 얻었다'로 바꿨다(인용 'wobei Das Glasperlenspiel darin Sonderstellung gewürdigt wurde'). 교정문의 '작품 전체에 주어진'은 넣으면 의의가 원래보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "relation:influence--friedrich-nietzsche--hermann-hesse.summary",
+          "claim": "헤세는 니체 차라투스트라의 어조를 그대로 빌려왔다",
+          "resolution": "corrected",
+          "evidence": "문장 43e0290787e9 의 '니체의 화자를 빌려 전후 독일 청년에게 말하는 형식을 그대로 가져왔다'를 교정문 첫 문장대로 '니체의 차라투스트라를 화자로 세워 전후 독일 청년에게 말했다'로 바꿨다(인용 'Nun spricht Zarathustra zu den orientierungslosen jungen Menschen', 'den Geist seines Zarathustra'). 교정문 둘째 문장(헤세가 쓰는 도중에야 알아챘다)은 요약을 원래보다 길게 만들어 넣지 않았다. 문서 「차라투스트라의 귀환」과 1919년은 그대로 남는다."
+        }
+      ]
+    }
+  ]
+}

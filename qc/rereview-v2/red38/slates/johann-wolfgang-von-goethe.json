@@ -1,0 +1,723 @@
+{
+  "id": "johann-wolfgang-von-goethe",
+  "page": "https://literary-planet.pages.dev/authors/johann-wolfgang-von-goethe/",
+  "author": {
+    "names": {
+      "ko": "요한 볼프강 폰 괴테",
+      "original": "Johann Wolfgang von Goethe",
+      "aliases": []
+    },
+    "birthYear": 1749,
+    "deathYear": 1832,
+    "activeRange": [
+      1770,
+      1832
+    ],
+    "languages": [
+      "de"
+    ],
+    "regions": [
+      "central-europe"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction",
+      "drama",
+      "poetry"
+    ],
+    "importanceReason": "베르테르의 편지로 채워지다 편집자의 보고로 끝나는 『젊은 베르테르의 슬픔』이 유럽에 파란 연미복과 노란 조끼의 유행을 퍼뜨렸고, 평생에 걸쳐 쓴 『파우스트』에 끝나지 않는 근대인의 욕망을 담았다. 『빌헬름 마이스터의 수업시대』는 한 사람이 세계와 부딪히며 형성되는 과정을 소설의 뼈대로 삼아 교양소설의 표준형을 제공했다. 세계문학(Weltliteratur)이라는 말을 자기 시대의 과제로 제시한 것도 그이며, 이 말은 문학을 국민문학의 합이 아니라 번역과 교류의 장으로 보는 관점의 이름이 되었다.",
+    "readingEntry": "johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers",
+    "readingEntryReason": "편지 형식의 짧은 소설이라 하룻밤에 읽히고, 감정을 서술의 중심에 놓는 괴테 초기의 방법이 그대로 드러난다.",
+    "readingOrder": [
+      "johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers",
+      "johann-wolfgang-von-goethe--die-wahlverwandtschaften",
+      "johann-wolfgang-von-goethe--wilhelm-meisters-lehrjahre",
+      "johann-wolfgang-von-goethe--faust"
+    ],
+    "readingWarning": "『파우스트』로 시작하면 1부의 그레트헨 비극은 따라가더라도 2부의 알레고리에서 막히기 쉽다.",
+    "difficulty": 3,
+    "difficultyReason": "『베르테르』는 하룻밤 분량이지만 『파우스트』 2부는 그리스 신화, 연금술, 궁정 알레고리가 층으로 겹쳐 주석 없이는 장면의 목적이 잡히지 않는다. 『빌헬름 마이스터』는 삽화적 구성이라 줄거리의 견인력이 약하다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--cambridge-companions"
+    ]
+  },
+  "works": [
+    {
+      "id": "johann-wolfgang-von-goethe--die-wahlverwandtschaften",
+      "titleKo": "친화력",
+      "titleOriginal": "Die Wahlverwandtschaften",
+      "year": 1809,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "화학의 친화력 개념을 네 인물의 관계에 대입한 실험적 장편. 감정을 자연법칙처럼 관찰하는 냉정한 문체가 후대 소설의 모델이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "johann-wolfgang-von-goethe--west-oestlicher-divan",
+      "titleKo": "서동시집",
+      "titleOriginal": "West-östlicher Divan",
+      "year": 1819,
+      "yearBasis": "first-print",
+      "genre": "poetry",
+      "significance": "하피즈의 페르시아 시를 응답 대상으로 삼아 쓴 시집. 서로 다른 문학 전통이 한 권 안에서 대화하는 형식을 시도했다.",
+      "sourceIds": []
+    },
+    {
+      "id": "johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers",
+      "titleKo": "젊은 베르테르의 슬픔",
+      "titleOriginal": "Die Leiden des jungen Werthers",
+      "year": 1774,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "베르테르가 친구에게 보낸 편지가 대부분을 채우고, 2부 후반부터는 「편집자가 독자에게」가 이어받아 그의 죽음을 3인칭으로 보고한다. 이룰 수 없는 사랑과 자살에 이르는 감정을 화자의 어휘로 기록해 유럽 전역의 유행과 모방을 낳았다.",
+      "sourceIds": []
+    },
+    {
+      "id": "johann-wolfgang-von-goethe--faust",
+      "titleKo": "파우스트",
+      "titleOriginal": "Faust",
+      "year": 1808,
+      "yearBasis": "attested",
+      "genre": "drama",
+      "significance": "학문에 절망한 학자와 메피스토펠레스의 계약을 두 부에 걸쳐 전개한 극시. 1부는 1808년, 2부는 사후인 1832년에 나왔고 근대적 욕망의 상징이 되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "johann-wolfgang-von-goethe--wilhelm-meisters-lehrjahre",
+      "titleKo": "빌헬름 마이스터의 수업시대",
+      "titleOriginal": "Wilhelm Meisters Lehrjahre",
+      "year": 1795,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "연극에 빠진 청년이 세계와 부딪히며 자기 형성을 겪는 과정을 서술해 교양소설의 표준형을 제공했다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--jean-jacques-rousseau--johann-wolfgang-von-goethe",
+      "type": "documented_influence",
+      "from": "jean-jacques-rousseau (장자크 루소)",
+      "to": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "카를 해머의 『괴테와 루소』(1973)는 『젊은 베르테르의 슬픔』에 남은 루소 독서를 출발점으로 삼아, 괴테의 후기 작품까지 두 사람의 사유가 겹치는 지점을 장별로 추적한다. 1장 「문화적 배경」이 그 배경을 다룬다.",
+      "sourceIds": [
+        "src--hammer-goethe-rousseau-1973"
+      ]
+    },
+    {
+      "id": "influence--johann-wolfgang-von-goethe--thomas-mann",
+      "type": "documented_influence",
+      "from": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "to": "thomas-mann (토마스 만)",
+      "evidenceLevel": "documented",
+      "summary": "토마스 만은 「괴테와 톨스토이」(1921년 강연·1923년 간행), 「시민 시대의 대표자로서의 괴테」(1932) 등 일련의 강연·에세이에서 괴테를 자기 문학의 준거로 세웠고, 소설 『바이마르의 로테』(1939)에서 노년의 괴테를 직접 인물로 다루었다.",
+      "sourceIds": [
+        "src--mann-essays-reden"
+      ]
+    },
+    {
+      "id": "influence--johann-wolfgang-von-goethe--hermann-hesse",
+      "type": "documented_influence",
+      "from": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "to": "hermann-hesse (헤르만 헤세)",
+      "evidenceLevel": "documented",
+      "summary": "헤세는 에세이 「괴테에게 바치는 감사」(1932)에서 괴테를 평생의 독서 대상으로 밝혔고, 『황야의 이리』에는 괴테의 상(像)이 왜곡되는 데 맞서는 장면이 들어 있다.",
+      "sourceIds": [
+        "src--hesse-dank-an-goethe-1932"
+      ]
+    },
+    {
+      "id": "influence--ovid--johann-wolfgang-von-goethe",
+      "type": "documented_influence",
+      "from": "ovid (오비디우스)",
+      "to": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "evidenceLevel": "scholarly_consensus",
+      "summary": "괴테의 『로마 비가』(1795)는 라틴 연애 비가의 형식을 독일어 2행연구로 옮긴 연작이다. 고든 브레이든은 『오비디우스 수용 편람』(Wiley Blackwell)의 「연작으로서의 연애시」에서 오비디우스 『사랑노래(Amores)』를 '순서를 가진 연애시 연작'이라는 전통의 모델로 세우고, 페트라르카의 소네트 연작으로 변형되며 이어진 그 전통 안에서 18세기 말 괴테의 이 연작을 새로운 국면의 시작으로 놓는다.",
+      "sourceIds": [
+        "src--braden-love-poems-in-sequence"
+      ]
+    },
+    {
+      "id": "translation--johann-wolfgang-von-goethe--abai-qunanbaiuly",
+      "type": "translation",
+      "from": "johann-wolfgang-von-goethe (요한 볼프강 폰 괴테)",
+      "to": "abai-qunanbaiuly (아바이 쿠난바이울리)",
+      "evidenceLevel": "documented",
+      "summary": "괴테의 「나그네의 밤노래」를 레르몬토프의 러시아어 역 「괴테에게서(산봉우리들)」를 경유해 1892년 「어두운 밤 산이 졸고」로 카자흐어에 옮겼다. 독일어 원문이 아니라 러시아어 중역을 거친 사실이 판본 연구에서 확인된다.",
+      "sourceIds": [
+        "src--adebiportal-kz"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [
+    "translation--voltaire--johann-wolfgang-von-goethe (→ voltaire 의 슬레이트에서 본다)",
+    "influence--william-shakespeare--johann-wolfgang-von-goethe (→ william-shakespeare 의 슬레이트에서 본다)"
+  ],
+  "drawn": [
+    {
+      "sid": "18b9342070aa",
+      "where": "author.facts",
+      "text": "요한 볼프강 폰 괴테(Johann Wolfgang von Goethe) · 1749–1832 · de · central-europe",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "15a165ae59f0",
+      "where": "author.importanceReason",
+      "text": "베르테르의 편지로 채워지다 편집자의 보고로 끝나는 『젊은 베르테르의 슬픔』이 유럽에 파란 연미복과 노란 조끼의 유행을 퍼뜨렸고, 평생에 걸쳐 쓴 『파우스트』에 끝나지 않는 근대인의 욕망을 담았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "40540e56280f",
+      "where": "author.importanceReason",
+      "text": "『빌헬름 마이스터의 수업시대』는 한 사람이 세계와 부딪히며 형성되는 과정을 소설의 뼈대로 삼아 교양소설의 표준형을 제공했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "9dbb4462b7f8",
+      "where": "author.importanceReason",
+      "text": "세계문학(Weltliteratur)이라는 말을 자기 시대의 과제로 제시한 것도 그이며, 이 말은 문학을 국민문학의 합이 아니라 번역과 교류의 장으로 보는 관점의 이름이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d04e7f400f0e",
+      "where": "author.readingEntryReason",
+      "text": "편지 형식의 짧은 소설이라 하룻밤에 읽히고, 감정을 서술의 중심에 놓는 괴테 초기의 방법이 그대로 드러난다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5049f748fe18",
+      "where": "author.readingWarning",
+      "text": "『파우스트』로 시작하면 1부의 그레트헨 비극은 따라가더라도 2부의 알레고리에서 막히기 쉽다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f1b2ba8c3a40",
+      "where": "author.difficultyReason",
+      "text": "『베르테르』는 하룻밤 분량이지만 『파우스트』 2부는 그리스 신화, 연금술, 궁정 알레고리가 층으로 겹쳐 주석 없이는 장면의 목적이 잡히지 않는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dd6e6564d51a",
+      "where": "author.difficultyReason",
+      "text": "『빌헬름 마이스터』는 삽화적 구성이라 줄거리의 견인력이 약하다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1e4d03ccbc72",
+      "where": "work:johann-wolfgang-von-goethe--die-wahlverwandtschaften.facts",
+      "text": "『친화력』(Die Wahlverwandtschaften) · 1809 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5afaa34ca463",
+      "where": "work:johann-wolfgang-von-goethe--die-wahlverwandtschaften.significance",
+      "text": "화학의 친화력 개념을 네 인물의 관계에 대입한 실험적 장편.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8637fea60eac",
+      "where": "work:johann-wolfgang-von-goethe--die-wahlverwandtschaften.significance",
+      "text": "감정을 자연법칙처럼 관찰하는 냉정한 문체가 후대 소설의 모델이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "894682d9c2f8",
+      "where": "work:johann-wolfgang-von-goethe--west-oestlicher-divan.facts",
+      "text": "『서동시집』(West-östlicher Divan) · 1819 first-print · poetry",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e54cbd221506",
+      "where": "work:johann-wolfgang-von-goethe--west-oestlicher-divan.significance",
+      "text": "하피즈의 페르시아 시를 응답 대상으로 삼아 쓴 시집.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e4a8c0ee4cbe",
+      "where": "work:johann-wolfgang-von-goethe--west-oestlicher-divan.significance",
+      "text": "서로 다른 문학 전통이 한 권 안에서 대화하는 형식을 시도했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "02df4a9b321e",
+      "where": "work:johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers.facts",
+      "text": "『젊은 베르테르의 슬픔』(Die Leiden des jungen Werthers) · 1774 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2ccaf6ffa5f5",
+      "where": "work:johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers.significance",
+      "text": "베르테르가 친구에게 보낸 편지가 대부분을 채우고, 2부 후반부터는 「편집자가 독자에게」가 이어받아 그의 죽음을 3인칭으로 보고한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "049dd276c284",
+      "where": "work:johann-wolfgang-von-goethe--die-leiden-des-jungen-werthers.significance",
+      "text": "이룰 수 없는 사랑과 자살에 이르는 감정을 화자의 어휘로 기록해 유럽 전역의 유행과 모방을 낳았다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "90995e60f564",
+      "where": "work:johann-wolfgang-von-goethe--faust.facts",
+      "text": "『파우스트』(Faust) · 1808 · drama",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e53a926a64b0",
+      "where": "work:johann-wolfgang-von-goethe--faust.significance",
+      "text": "학문에 절망한 학자와 메피스토펠레스의 계약을 두 부에 걸쳐 전개한 극시.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bea2e5674cac",
+      "where": "work:johann-wolfgang-von-goethe--faust.significance",
+      "text": "1부는 1808년, 2부는 사후인 1832년에 나왔고 근대적 욕망의 상징이 되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1c0c021cfda5",
+      "where": "work:johann-wolfgang-von-goethe--wilhelm-meisters-lehrjahre.facts",
+      "text": "『빌헬름 마이스터의 수업시대』(Wilhelm Meisters Lehrjahre) · 1795 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "238c44085893",
+      "where": "work:johann-wolfgang-von-goethe--wilhelm-meisters-lehrjahre.significance",
+      "text": "연극에 빠진 청년이 세계와 부딪히며 자기 형성을 겪는 과정을 서술해 교양소설의 표준형을 제공했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bb93e0a4c4bb",
+      "where": "relation:influence--jean-jacques-rousseau--johann-wolfgang-von-goethe.facts",
+      "text": "장자크 루소 → 요한 볼프강 폰 괴테 · documented_influence · directed · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "55d2f3ccc8a3",
+      "where": "relation:influence--jean-jacques-rousseau--johann-wolfgang-von-goethe.summary",
+      "text": "카를 해머의 『괴테와 루소』(1973)는 『젊은 베르테르의 슬픔』에 남은 루소 독서를 출발점으로 삼아, 괴테의 후기 작품까지 두 사람의 사유가 겹치는 지점을 장별로 추적한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "3b8a4db6a214",
+      "where": "relation:influence--jean-jacques-rousseau--johann-wolfgang-von-goethe.summary",
+      "text": "1장 「문화적 배경」이 그 배경을 다룬다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "af27dfb89621",
+      "where": "relation:influence--johann-wolfgang-von-goethe--thomas-mann.facts",
+      "text": "요한 볼프강 폰 괴테 → 토마스 만 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c5d827f3314c",
+      "where": "relation:influence--johann-wolfgang-von-goethe--thomas-mann.summary",
+      "text": "토마스 만은 「괴테와 톨스토이」(1921년 강연·1923년 간행), 「시민 시대의 대표자로서의 괴테」(1932) 등 일련의 강연·에세이에서 괴테를 자기 문학의 준거로 세웠고, 소설 『바이마르의 로테』(1939)에서 노년의 괴테를 직접 인물로 다루었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "662ec32b1d57",
+      "where": "relation:influence--johann-wolfgang-von-goethe--hermann-hesse.facts",
+      "text": "요한 볼프강 폰 괴테 → 헤르만 헤세 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bf53ce98fd94",
+      "where": "relation:influence--johann-wolfgang-von-goethe--hermann-hesse.summary",
+      "text": "헤세는 에세이 「괴테에게 바치는 감사」(1932)에서 괴테를 평생의 독서 대상으로 밝혔고, 『황야의 이리』에는 괴테의 상(像)이 왜곡되는 데 맞서는 장면이 들어 있다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c125d2a19878",
+      "where": "relation:influence--ovid--johann-wolfgang-von-goethe.facts",
+      "text": "오비디우스 → 요한 볼프강 폰 괴테 · documented_influence · directed · scholarly_consensus",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "7ed650c2b0e4",
+      "where": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+      "text": "괴테의 『로마 비가』(1795)는 라틴 연애 비가의 형식을 독일어 2행연구로 옮긴 연작이다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "5462a1c49664",
+      "where": "relation:influence--ovid--johann-wolfgang-von-goethe.summary",
+      "text": "고든 브레이든은 『오비디우스 수용 편람』(Wiley Blackwell)의 「연작으로서의 연애시」에서 오비디우스 『사랑노래(Amores)』를 '순서를 가진 연애시 연작'이라는 전통의 모델로 세우고, 페트라르카의 소네트 연작으로 변형되며 이어진 그 전통 안에서 18세기 말 괴테의 이 연작을 새로운 국면의 시작으로 놓는다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "1dad2ee0e0ce",
+      "where": "relation:translation--johann-wolfgang-von-goethe--abai-qunanbaiuly.facts",
+      "text": "요한 볼프강 폰 괴테 → 아바이 쿠난바이울리 · translation · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "f64d21180e7a",
+      "where": "relation:translation--johann-wolfgang-von-goethe--abai-qunanbaiuly.summary",
+      "text": "괴테의 「나그네의 밤노래」를 레르몬토프의 러시아어 역 「괴테에게서(산봉우리들)」를 경유해 1892년 「어두운 밤 산이 졸고」로 카자흐어에 옮겼다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "226d17d86d4c",
+      "where": "relation:translation--johann-wolfgang-von-goethe--abai-qunanbaiuly.summary",
+      "text": "독일어 원문이 아니라 러시아어 중역을 거친 사실이 판본 연구에서 확인된다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "importanceReason",
+      "claim": "『젊은 베르테르의 슬픔』은 베르테르의 편지로 채워지다 편집자의 보고로 끝난다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Die_Leiden_des_jungen_Werthers",
+      "quote": "die erst gegen Ende des zweiten Teils durch Kommentare des fiktiven „Herausgebers\" abgelöst wird",
+      "note": "해당 절의 제목이 「Der Herausgeber an den Leser」로 명시됨."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『베르테르』가 유럽에 파란 연미복과 노란 조끼의 유행을 퍼뜨렸다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Die_Leiden_des_jungen_Werthers",
+      "quote": "deren blauen Frack mit Messingknöpfen, gelbe Weste, braune Stulpenstiefel und runden Filzhut man als Werther-Mode imitierte",
+      "note": "영어판: 「inspiring young men throughout Europe to dress in the clothing style described for Werther」."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "괴테는 『파우스트』를 평생에 걸쳐 썼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
+      "quote": "The first appearance of the work in print was Faust, a Fragment, published in 1790.",
+      "note": "같은 문서: 2부는 1831년 완성, 「The second part formed the principal occupation of Goethe's last years.」"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "『빌헬름 마이스터의 수업시대』가 교양소설의 표준형을 제공했다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Meister%27s_Apprenticeship",
+      "quote": "Further books patterned after this novel have been called Bildungsroman (\"novels of formation\")"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "세계문학(Weltliteratur)을 자기 시대의 과제로 제시한 것이 괴테다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/World_literature",
+      "quote": "He made a famous statement in January 1827, predicting that world literature would replace national literature",
+      "note": "단어 자체의 최초 사용자는 아니며, 그가 개념을 유통시킨 것은 확인됨."
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "『파우스트』 2부는 그리스 신화, 연금술, 궁정 알레고리가 층으로 겹친다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Faust,_Part_Two",
+      "quote": "The Homunculus, an artificial human being created by Wagner ... by means of an alchemical process, leads Faust ... to the \"Classical Walpurgisnacht\"",
+      "note": "궁정 알레고리는 1막 황제 궁정의 지폐 발행 풍자, 그리스 신화는 헬레나 3막."
+    },
+    {
+      "field": "readingWarning",
+      "claim": "『파우스트』 1부에 그레트헨 비극이 있다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Faust,_Part_Two",
+      "quote": "The \"Gretchen\" subplot, although now the most widely known episode of the Faust legend, was of Goethe's own invention."
+    },
+    {
+      "field": "works[...--die-wahlverwandtschaften]",
+      "claim": "『친화력』(Die Wahlverwandtschaften)은 1809년작이며 화학의 친화력 개념을 네 인물의 관계에 대입한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Elective_Affinities",
+      "quote": "the central chemical reaction that takes place is a double displacement reaction (double elective affinity), between a married couple Eduard and Charlotte",
+      "note": "네 인물 = 에두아르트·샤를로테·대위 오토·오틸리에. 1809년 초판(Cotta) 확인."
+    },
+    {
+      "field": "works[...--west-oestlicher-divan]",
+      "claim": "『서동시집』(1819)은 하피즈의 페르시아 시를 응답 대상으로 삼는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/West%E2%80%93Eastern_Diwan",
+      "quote": "It was inspired by Goethe's readings of the Persian national poet Hafez.",
+      "note": "1814~1819년 집필, 1819년 초간; 1827년 증보판."
+    },
+    {
+      "field": "works[...--die-leiden-des-jungen-werthers]",
+      "claim": "『젊은 베르테르의 슬픔』은 1774년작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/The_Sorrows_of_Young_Werther",
+      "quote": "Publication date 29 September 1774, revised ed. 1787"
+    },
+    {
+      "field": "works[...--die-leiden-des-jungen-werthers].significance",
+      "claim": "2부 후반부터 「편집자가 독자에게」가 이어받아 그의 죽음을 3인칭으로 보고한다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Die_Leiden_des_jungen_Werthers",
+      "quote": "kann doch Werther beispielsweise nicht seinen eigenen Tod in einem Brief darstellen"
+    },
+    {
+      "field": "works[...--faust].year",
+      "claim": "『파우스트』의 연도는 1808년이며 1부는 1808년, 2부는 사후인 1832년에 나왔다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
+      "quote": "Goethe finished writing Faust, Part Two in 1831; it was published posthumously the following year.",
+      "note": "단일 연도가 아니다 — 작품 전체는 1808/1832 두 시점에 걸친다. 레코드의 1808은 1부 초판 연도."
+    },
+    {
+      "field": "works[...--faust].significance",
+      "claim": "학문에 절망한 학자와 메피스토펠레스의 계약을 전개한다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
+      "quote": "the aging scholar, struggling with what he considers the vanity and uselessness of scientific, humanistic, and religious learning, turns to magic"
+    },
+    {
+      "field": "works[...--wilhelm-meisters-lehrjahre].year",
+      "claim": "『빌헬름 마이스터의 수업시대』는 1795년작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Meister%27s_Apprenticeship",
+      "quote": "It is a Bildungsroman, or coming-of-age story, published in 1795–96.",
+      "note": "단일 연도가 아니다 — 1795~96년 4권 분간, 완간은 1796. 레코드의 1795는 시작 연도."
+    },
+    {
+      "field": "works[...--wilhelm-meisters-lehrjahre].significance",
+      "claim": "연극에 빠진 청년이 세계와 부딪히며 자기 형성을 겪는다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Meister%27s_Apprenticeship",
+      "quote": "Wilhelm and his theater group give a production of Hamlet, in which Wilhelm plays the lead role."
+    },
+    {
+      "field": "relation: translation voltaire → johann-wolfgang-von-goethe",
+      "claim": "카를 아우구스트 공작이 지시한 궁정 작업으로 볼테르의 『마호메트』를 독일어로 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "Herzog Carl August hat seinen Minister jedenfalls regelrecht bedrängen müssen, damit dieser Voltaires klassizistische Tragödie ... ins Deutsche übertrug"
+    },
+    {
+      "field": "relation: translation voltaire → johann-wolfgang-von-goethe",
+      "claim": "1800년 1월 30일 바이마르에서 루이제 공비 생일에 상연되었다",
+      "verdict": "confirmed",
+      "url": "https://d-nb.info/1107774837/34",
+      "quote": "Die Uraufführung hat in Weimar am 30. Januar 1800 stattgefunden, d. h. am Geburtstag der Herzogin Luise."
+    },
+    {
+      "field": "relation: translation voltaire → johann-wolfgang-von-goethe",
+      "claim": "실러는 헌시 「볼테르의 마호메트를 무대에 올린 괴테에게」를 보탰다",
+      "verdict": "confirmed",
+      "url": "http://www.balladen.de/web/sites/balladen_gedichte/autoren.php?b05=20&b16=235",
+      "quote": "An Goethe, als er den Mahomet von Voltaire auf die Bühne brachte"
+    },
+    {
+      "field": "relation: documented_influence jean-jacques-rousseau → johann-wolfgang-von-goethe",
+      "claim": "카를 해머의 『괴테와 루소』는 1973년 University Press of Kentucky에서 나왔다",
+      "verdict": "confirmed",
+      "url": "https://openlibrary.org/works/OL1218229W/editions.json",
+      "quote": "Goethe and Rousseau | resonances of the mind. | University Press of Kentucky | 1973",
+      "note": "archive.org 서지도 동일: '[Lexington] University Press of Kentucky, 1973, vii, 222 pages'."
+    },
+    {
+      "field": "relation: documented_influence jean-jacques-rousseau → johann-wolfgang-von-goethe",
+      "claim": "『젊은 베르테르의 슬픔』에 남은 루소 독서를 출발점으로 삼아 괴테의 후기 작품까지 겹치는 지점을 추적한다",
+      "verdict": "confirmed",
+      "url": "https://www.kentuckypress.com/9780813152608/goethe-and-rousseau/",
+      "quote": "Scholars have long recognized the direct influence of Rousseau on Goethe's first novel, Werther ... Hammer, in contrast, finds the affinity revealed even more strongly in Goethe's later works."
+    },
+    {
+      "field": "relation: documented_influence jean-jacques-rousseau → johann-wolfgang-von-goethe",
+      "claim": "두 사람의 사유가 겹치는 지점을 장별로 추적한다",
+      "verdict": "confirmed",
+      "url": "https://archive.org/metadata/goetherousseaure00hamm",
+      "quote": "1. The cultural background -- 2. Jean-Jacques according to Goethe -- 3. Literary echoes from four decades",
+      "note": "전 8장. 4~8장은 「Memories and memoirs」·「Of love and marriage」·「Ideals of culture」·「Utopian visions」·「God, man, and cosmos」 — 연대순이 아니라 주제별."
+    },
+    {
+      "field": "relation: documented_influence jean-jacques-rousseau → johann-wolfgang-von-goethe",
+      "claim": "1770년대 독일에서의 루소 수용이 그 배경으로 다뤄진다",
+      "verdict": "unverifiable",
+      "url": "https://archive.org/metadata/goetherousseaure00hamm",
+      "correction": "1장 「문화적 배경」이 그 배경을 다룬다",
+      "note": "absent: 목차·출판사 소개문·서평 4건(German Quarterly 1976, MLR 1975, South Central Bulletin 1975, Int. Studies in Philosophy 1976 — 전부 JSTOR/유료)에서 '1770년대 독일 루소 수용'이라는 한정을 확인할 문장을 찾지 못함. IA 본문 검색은 대출제한 항목이라 불가.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "relation: documented_influence william-shakespeare → johann-wolfgang-von-goethe",
+      "claim": "괴테는 1771년 연설 「셰익스피어 명명일에」에서 프랑스 고전극의 삼일치를 버렸다",
+      "verdict": "confirmed",
+      "url": "https://de.wikisource.org/wiki/Zum_Sch%C3%A4kespears_Tag",
+      "quote": "Es schien mir die Einheit des Orts so kerckermäsig ängstlich, die Einheiten der Handlung und der Zeit lästige Fesseln",
+      "note": "같은 연설: 「Drum sind auch alle Französche Trauerspiele Parodien von sich selbst.」 — 프랑스 고전극 지목 확인. 연설일은 1771. 10. 14. 프랑크푸르트."
+    },
+    {
+      "field": "relation: documented_influence william-shakespeare → johann-wolfgang-von-goethe",
+      "claim": "『빌헬름 마이스터의 수업시대』의 『햄릿』 해석 장들로 그 독서를 소설 안에 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Meister%27s_Apprenticeship",
+      "quote": "Wilhelm takes the opportunity to deliver an exegesis on the character, Hamlet."
+    },
+    {
+      "field": "relation: documented_influence johann-wolfgang-von-goethe → thomas-mann",
+      "claim": "토마스 만 「괴테와 톨스토이」는 1922년이다",
+      "verdict": "contradicted",
+      "url": "https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=WOE%3D%22Goethe%20und%20Tolstoi%22&recordSchema=oai_dc&maximumRecords=25",
+      "quote": "Goethe und Tolstoi : [Vortrag, zum erstenmal geh. Sept. 1921 anlässlich d. Nord. Woche zu Lübeck] ... 1923",
+      "correction": "「괴테와 톨스토이」(1921년 강연·1923년 간행)",
+      "note": "DNB 전체 레코드에 1922년판 없음. de.wikipedia 토마스 만 저작목록도 'Goethe und Tolstoi. 1923'.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation: documented_influence johann-wolfgang-von-goethe → thomas-mann",
+      "claim": "「시민 시대의 대표자로서의 괴테」는 1932년이다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Thomas_Mann",
+      "quote": "Goethe als Repräsentant des bürgerlichen Zeitalters. 1932."
+    },
+    {
+      "field": "relation: documented_influence johann-wolfgang-von-goethe → thomas-mann",
+      "claim": "만은 일련의 강연·에세이에서 괴테를 자기 문학의 준거로 세웠다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+      "quote": "Thomas Mann verfasste zahlreiche Essays und Aufsätze zu Goethe und hielt die zentralen Reden zu den Goethe-Jubiläumsfeiern 1932 und 1949."
+    },
+    {
+      "field": "relation: documented_influence johann-wolfgang-von-goethe → thomas-mann",
+      "claim": "『바이마르의 로테』(1939)에서 노년의 괴테를 직접 인물로 다루었다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Thomas_Mann",
+      "quote": "Er gestaltet eine späte Wiederbegegnung (1816) zwischen Goethe und Charlotte Kestner, geb. Buff (Werthers Lotte)",
+      "note": "같은 문서: 'im gleichen Jahr unter dem Titel Lotte in Weimar erschien' (1939)."
+    },
+    {
+      "field": "relation: documented_influence johann-wolfgang-von-goethe → hermann-hesse",
+      "claim": "헤세의 에세이 「괴테에게 바치는 감사」(Dank an Goethe)는 1932년작이다",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/My_Belief:_Essays_on_Life_and_Art",
+      "quote": "\"Gratitude to Goethe\" (1932)",
+      "note": "K10plus 종합목록도 분출 서지를 'Dank an Goethe (1932)'로 기재 (sru.k10plus.de/gvk 조회)."
+    },
+    {
+      "field": "relation: documented_influence johann-wolfgang-von-goethe → hermann-hesse",
+      "claim": "헤세는 그 글에서 괴테를 평생의 독서 대상으로 밝혔다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+      "quote": "Unter allen deutschen Dichtern ist Goethe derjenige, dem ich am meisten verdanke, der mich am meisten beschäftigt",
+      "note": "위키백과가 Hesse, Dank an Goethe (Insel 1999), S. 9를 출처로 인용."
+    },
+    {
+      "field": "relation: documented_influence johann-wolfgang-von-goethe → hermann-hesse",
+      "claim": "『황야의 이리』에는 주인공이 괴테를 만나는 꿈 장면이 들어 있다",
+      "verdict": "unverifiable",
+      "url": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe",
+      "correction": "『황야의 이리』에는 괴테의 상(像)이 왜곡되는 데 맞서는 장면이 들어 있다",
+      "note": "absent: 독·영 위키백과 『황야의 이리』 줄거리, 독일어 괴테 문서, OpenAlex 검색에서 '괴테와 만나는 꿈'을 명시한 문장을 찾지 못함. 확인된 것은 위 문서의 「sich in einer Szene seines Steppenwolfs gegen eine Verfälschung des Goethebildes wandte」(영어판에서는 괴테 판화 장면)뿐. HathiTrust·Google Books·IA 본문검색은 접근 차단.",
+      "resolution": "narrowed"
+    },
+    {
+      "field": "relation: documented_influence ovid → johann-wolfgang-von-goethe",
+      "claim": "『로마 비가』(1795)는 라틴 연애 비가의 형식을 독일어 2행연구로 옮긴 연작이다",
+      "verdict": "confirmed",
+      "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_Elegien",
+      "quote": "Sie sind wie ihre antiken Vorbilder in Distichen verfasst.",
+      "note": "집필 1788~1790, 1795년 실러의 『호렌』에 20편 발표, 전편은 1914년에야 완간 — 1795는 부분 초간 연도."
+    },
+    {
+      "field": "relation: documented_influence ovid → johann-wolfgang-von-goethe",
+      "claim": "고든 브레이든의 「연작으로서의 연애시」가 『오비디우스 수용 편람』(Wiley Blackwell)에 실려 있다",
+      "verdict": "confirmed",
+      "url": "https://api.crossref.org/works/10.1002/9781118876169.ch18",
+      "quote": "Love Poems in Sequence | A Handbook to the Reception of Ovid | Gordon Braden | Wiley | 262-276 | 2014"
+    },
+    {
+      "field": "relation: documented_influence ovid → johann-wolfgang-von-goethe",
+      "claim": "브레이든은 『사랑노래(Amores)』를 '순서를 가진 연애시 연작' 전통의 모델로 세운다",
+      "verdict": "confirmed",
+      "url": "https://api.openalex.org/works/doi:10.1002/9781118876169.ch18",
+      "quote": "the Amores is also an important model for a specific tradition of love poems ordered in sequence"
+    },
+    {
+      "field": "relation: documented_influence ovid → johann-wolfgang-von-goethe",
+      "claim": "브레이든은 페트라르카에서 시작된 그 전통의 끝에 괴테의 연작을 놓는다",
+      "verdict": "contradicted",
+      "url": "https://api.openalex.org/works/doi:10.1002/9781118876169.ch18",
+      "quote": "Toward the end of the eighteenth century, Goethe initiates a new phase in his career with a sequence of poems in German elegiac couplets",
+      "correction": "페트라르카의 소네트 연작으로 변형되며 이어진 그 전통 안에서, 18세기 말 괴테의 이 연작을 새로운 국면의 시작으로 놓는다",
+      "note": "두 군데가 어긋난다 — (1) 전통의 시작은 페트라르카가 아니라 오비디우스이고 페트라르카는 「the template is reconfigured」한 단계, (2) 괴테는 끝이 아니라 「initiates a new phase」.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation: documented_influence ovid → johann-wolfgang-von-goethe (sources)",
+      "claim": "이 관계의 근거로 src--britannica가 인용된다",
+      "verdict": "contradicted",
+      "url": "https://api.openalex.org/works/doi:10.1002/9781118876169.ch18",
+      "quote": "In Petrarch the template is reconfigured to tell a story of unconsummated, high-minded love",
+      "correction": "(출처: src--braden-love-poems-in-sequence)",
+      "note": "주장 전체가 브레이든 장(章)의 초록에 그대로 있다. Britannica는 접근 불가(403)이며 이 특정 계보 주장의 출처로 볼 근거가 없다.",
+      "resolution": "corrected"
+    },
+    {
+      "field": "relation: translation johann-wolfgang-von-goethe → abai-qunanbaiuly",
+      "claim": "아바이는 1892년 레르몬토프의 「Из Гете」에서 「Қараңғы түнде тау қалғып」을 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Абайдың 1892ж. М. Ю. Лермонтовтың «Из Гете» атты өлеңінен аударған өлеңі."
+    },
+    {
+      "field": "relation: translation johann-wolfgang-von-goethe → abai-qunanbaiuly",
+      "claim": "원작은 괴테의 「나그네의 밤노래」이며 레르몬토프가 1840년 독일어에서 직접 옮겼다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Лермонтов бұл шағын өлеңді 1840 ж. неміс тілінен тікелей тәржімалаған (аударған).",
+      "note": "같은 문서가 1780년 가을 키켈한에서 쓰인 「Жолаушының түнгі жыры」(Wandrers Nachtlied)를 원작으로 밝힌다."
+    },
+    {
+      "field": "relation: translation johann-wolfgang-von-goethe → abai-qunanbaiuly",
+      "claim": "독일어 원문이 아니라 러시아어 중역을 거친 사실이 판본 연구에서 확인된다",
+      "verdict": "confirmed",
+      "url": "https://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%80%D0%B0%D2%A3%D2%93%D1%8B_%D1%82%D2%AF%D0%BD%D0%B4%D0%B5_%D1%82%D0%B0%D1%83_%D2%9B%D0%B0%D0%BB%D2%93%D1%8B%D0%BF",
+      "quote": "Ол Лермонтов тәржімесі арқылы ұлы Гетенің жан сырын тап басып",
+      "note": "같은 문서에 「Текстологиялық салыстырулар бойынша」로 1909년 상트페테르부르크 초간본과의 판본 대조가 서술됨. 인용 출처 src--adebiportal-kz 자체는 대조하지 못함."
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--cambridge-companions": {
+      "id": "src--cambridge-companions",
+      "title": "Cambridge Companions to Literature 총서",
+      "publisherOrInstitution": "Cambridge University Press",
+      "citation": "개별 작가·주제별 Companion 권들 — 학계 표준 개설서"
+    },
+    "src--hammer-goethe-rousseau-1973": {
+      "id": "src--hammer-goethe-rousseau-1973",
+      "title": "Goethe and Rousseau: Resonances of the Mind",
+      "publisherOrInstitution": "University Press of Kentucky",
+      "citation": "Carl Hammer Jr., Goethe and Rousseau: Resonances of the Mind, Lexington: University Press of Kentucky, 1973."
+    },
+    "src--mann-essays-reden": {
+      "id": "src--mann-essays-reden",
+      "title": "토마스 만 에세이·강연 (Essays und Reden)",
+      "publisherOrInstitution": "S. Fischer Verlag — Thomas Mann",
+      "citation": "「괴테와 톨스토이」(1921년 뤼베크 강연), 「절제된 도스토옙스키」(1946, 영역 도스토옙스키 선집 서문), 「우리 경험에 비추어 본 니체의 철학」(1947년 강연)이 수록된 에세이 모음 — 만이 자기 계보를 직접 지목한 1차 문헌들"
+    },
+    "src--hesse-dank-an-goethe-1932": {
+      "id": "src--hesse-dank-an-goethe-1932",
+      "title": "헤르만 헤세 「괴테에게 바치는 감사」(Dank an Goethe, 1932)",
+      "publisherOrInstitution": "Hermann Hesse, Betrachtungen / Neue Rundschau",
+      "citation": "헤세가 평생의 괴테 독서를 정리한 에세이 — 괴테 수용의 1차 근거"
+    },
+    "src--braden-love-poems-in-sequence": {
+      "id": "src--braden-love-poems-in-sequence",
+      "title": "Love Poems in Sequence",
+      "publisherOrInstitution": "Wiley Blackwell",
+      "citation": "Gordon Braden, \"Love Poems in Sequence,\" in John F. Miller and Carole E. Newlands (eds.), A Handbook to the Reception of Ovid, Malden, MA: Wiley Blackwell, 2014, pp. 262–276."
+    },
+    "src--adebiportal-kz": {
+      "id": "src--adebiportal-kz",
+      "title": "Әдебиет порталы (adebiportal.kz)",
+      "publisherOrInstitution": "카자흐스탄 문학 포털",
+      "url": "https://adebiportal.kz",
+      "citation": "카자흐 작가·작품의 연보와 서지를 제공하는 카자흐스탄의 국가 문학 포털"
+    }
+  }
+}

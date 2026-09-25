@@ -1,0 +1,481 @@
+{
+  "id": "jane-austen",
+  "page": "https://literary-planet.pages.dev/authors/jane-austen/",
+  "author": {
+    "names": {
+      "ko": "제인 오스틴",
+      "original": "Jane Austen",
+      "aliases": []
+    },
+    "birthYear": 1775,
+    "deathYear": 1817,
+    "activeRange": [
+      1811,
+      1817
+    ],
+    "languages": [
+      "en"
+    ],
+    "regions": [
+      "britain-ireland"
+    ],
+    "movements": [],
+    "genres": [
+      "fiction"
+    ],
+    "importanceReason": "인물의 생각과 서술자의 목소리를 한 문장에 겹치는 자유간접화법을 소설의 기본 도구로 정착시켜, 인물의 오판을 독자가 인물보다 조금 먼저 보게 만들었다. 결혼이 곧 생계인 사회에서 한정상속과 연수입이 감정을 어떻게 규정하는지를, 무도회와 방문과 편지라는 좁은 무대 안에서만 서술한다. 이 방법으로 영국 소설은 사건의 크기가 아니라 의식의 정확도로 승부하는 길을 얻었다.",
+    "readingEntry": "jane-austen--pride-and-prejudice",
+    "readingEntryReason": "플롯이 빠르고 대화 비중이 높아, 서술자의 아이러니가 어느 인물의 어느 판단에 걸려 있는지 가장 빨리 감지된다.",
+    "readingOrder": [
+      "jane-austen--pride-and-prejudice",
+      "jane-austen--sense-and-sensibility",
+      "jane-austen--persuasion",
+      "jane-austen--emma",
+      "jane-austen--mansfield-park"
+    ],
+    "readingWarning": "『맨스필드 파크』나 『엠마』로 시작하면 서술자의 아이러니가 인물의 판단과 겹쳐 읽혀 주인공이 밉살스럽게만 보이기 쉽다.",
+    "difficulty": 2,
+    "difficultyReason": "종속절이 긴 18세기 후반 산문이라 문장을 한 번에 넘기기 어렵고, 한정상속과 연수입이라는 재산 제도를 모르면 대화 속 이해관계와 아이러니의 표적이 함께 흐려진다.",
+    "sourceIds": [
+      "src--britannica",
+      "src--oxford-worlds-classics"
+    ]
+  },
+  "works": [
+    {
+      "id": "jane-austen--persuasion",
+      "titleKo": "설득",
+      "titleOriginal": "Persuasion",
+      "year": 1817,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "설득에 밀려 파혼한 여성이 8년 뒤 재회하는 이야기. 문장이 짧아지고 회한이 전면에 나온 후기작이며 사후에 출간되었다.",
+      "sourceIds": []
+    },
+    {
+      "id": "jane-austen--mansfield-park",
+      "titleKo": "맨스필드 파크",
+      "titleOriginal": "Mansfield Park",
+      "year": 1814,
+      "yearBasis": "first-print",
+      "genre": "fiction",
+      "significance": "가난한 친척으로 들어간 소녀의 시선에서 저택의 도덕적 기반과 그 재원인 식민지 농장을 함께 비추는 가장 무거운 장편.",
+      "sourceIds": []
+    },
+    {
+      "id": "jane-austen--emma",
+      "titleKo": "엠마",
+      "titleOriginal": "Emma",
+      "year": 1815,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "부유하고 총명한 주인공의 오독을 독자가 인물보다 조금 먼저 보게 만드는 구성. 서술자와 인물의 목소리가 가장 촘촘히 겹치는 작품.",
+      "sourceIds": []
+    },
+    {
+      "id": "jane-austen--pride-and-prejudice",
+      "titleKo": "오만과 편견",
+      "titleOriginal": "Pride and Prejudice",
+      "year": 1813,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "판단의 오류가 어떻게 형성되고 교정되는지를 대화의 리듬만으로 서술한다. 자유간접화법의 교과서적 사례로 인용되는 작품.",
+      "sourceIds": []
+    },
+    {
+      "id": "jane-austen--sense-and-sensibility",
+      "titleKo": "이성과 감성",
+      "titleOriginal": "Sense and Sensibility",
+      "year": 1811,
+      "yearBasis": "attested",
+      "genre": "fiction",
+      "significance": "재산을 잃은 자매의 상반된 기질을 통해 감정의 표현과 절제를 견주는 첫 출간작. 'By a Lady'라는 익명으로 나왔다.",
+      "sourceIds": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "influence--jane-austen--virginia-woolf",
+      "type": "documented_influence",
+      "from": "jane-austen (제인 오스틴)",
+      "to": "virginia-woolf (버지니아 울프)",
+      "evidenceLevel": "documented",
+      "summary": "울프는 『보통의 독자』(1925)에 실린 에세이 「제인 오스틴」에서 오스틴의 문장이 작은 장면 안에서 감정의 전모를 드러내는 방식을 분석했다.",
+      "sourceIds": [
+        "src--woolf-common-reader-1925"
+      ]
+    },
+    {
+      "id": "influence--jane-austen--natsume-soseki",
+      "type": "documented_influence",
+      "from": "jane-austen (제인 오스틴)",
+      "to": "natsume-soseki (나쓰메 소세키)",
+      "evidenceLevel": "documented",
+      "summary": "소세키는 『문학론』(1907)에서 『오만과 편견』 도입부의 부부 대화를 인용하며 오스틴을 사실 묘사의 대가로 논했다.",
+      "sourceIds": [
+        "src--ndl-bungakuron-1907"
+      ]
+    }
+  ],
+  "relationsCheckedElsewhere": [],
+  "drawn": [
+    {
+      "sid": "174ea7a6ffb6",
+      "where": "author.facts",
+      "text": "제인 오스틴(Jane Austen) · 1775–1817 · en · britain-ireland",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "edcf5088bcbb",
+      "where": "author.importanceReason",
+      "text": "인물의 생각과 서술자의 목소리를 한 문장에 겹치는 자유간접화법을 소설의 기본 도구로 정착시켜, 인물의 오판을 독자가 인물보다 조금 먼저 보게 만들었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "935983738ef3",
+      "where": "author.importanceReason",
+      "text": "결혼이 곧 생계인 사회에서 한정상속과 연수입이 감정을 어떻게 규정하는지를, 무도회와 방문과 편지라는 좁은 무대 안에서만 서술한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "c4cd274786d7",
+      "where": "author.importanceReason",
+      "text": "이 방법으로 영국 소설은 사건의 크기가 아니라 의식의 정확도로 승부하는 길을 얻었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b33df46df8e6",
+      "where": "author.readingEntryReason",
+      "text": "플롯이 빠르고 대화 비중이 높아, 서술자의 아이러니가 어느 인물의 어느 판단에 걸려 있는지 가장 빨리 감지된다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "8e76c99ad325",
+      "where": "author.readingWarning",
+      "text": "『맨스필드 파크』나 『엠마』로 시작하면 서술자의 아이러니가 인물의 판단과 겹쳐 읽혀 주인공이 밉살스럽게만 보이기 쉽다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "4849697855f8",
+      "where": "author.difficultyReason",
+      "text": "종속절이 긴 18세기 후반 산문이라 문장을 한 번에 넘기기 어렵고, 한정상속과 연수입이라는 재산 제도를 모르면 대화 속 이해관계와 아이러니의 표적이 함께 흐려진다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "76e7fba2c7b4",
+      "where": "work:jane-austen--persuasion.facts",
+      "text": "『설득』(Persuasion) · 1817 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "89f6fbd2b261",
+      "where": "work:jane-austen--persuasion.significance",
+      "text": "설득에 밀려 파혼한 여성이 8년 뒤 재회하는 이야기.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2a9294baad43",
+      "where": "work:jane-austen--persuasion.significance",
+      "text": "문장이 짧아지고 회한이 전면에 나온 후기작이며 사후에 출간되었다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "fff76da672ba",
+      "where": "work:jane-austen--mansfield-park.facts",
+      "text": "『맨스필드 파크』(Mansfield Park) · 1814 first-print · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "73d69c19c81c",
+      "where": "work:jane-austen--mansfield-park.significance",
+      "text": "가난한 친척으로 들어간 소녀의 시선에서 저택의 도덕적 기반과 그 재원인 식민지 농장을 함께 비추는 가장 무거운 장편.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b988919a132a",
+      "where": "work:jane-austen--emma.facts",
+      "text": "『엠마』(Emma) · 1815 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "dc2ff7a55e87",
+      "where": "work:jane-austen--emma.significance",
+      "text": "부유하고 총명한 주인공의 오독을 독자가 인물보다 조금 먼저 보게 만드는 구성.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "e9f1422b54ed",
+      "where": "work:jane-austen--emma.significance",
+      "text": "서술자와 인물의 목소리가 가장 촘촘히 겹치는 작품.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "35e83cca0dbc",
+      "where": "work:jane-austen--pride-and-prejudice.facts",
+      "text": "『오만과 편견』(Pride and Prejudice) · 1813 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "556be24a2075",
+      "where": "work:jane-austen--pride-and-prejudice.significance",
+      "text": "판단의 오류가 어떻게 형성되고 교정되는지를 대화의 리듬만으로 서술한다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "b49455574f04",
+      "where": "work:jane-austen--pride-and-prejudice.significance",
+      "text": "자유간접화법의 교과서적 사례로 인용되는 작품.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "18f531cbf48c",
+      "where": "work:jane-austen--sense-and-sensibility.facts",
+      "text": "『이성과 감성』(Sense and Sensibility) · 1811 · fiction",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "6361d870a27a",
+      "where": "work:jane-austen--sense-and-sensibility.significance",
+      "text": "재산을 잃은 자매의 상반된 기질을 통해 감정의 표현과 절제를 견주는 첫 출간작.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "d1693e1dd28a",
+      "where": "work:jane-austen--sense-and-sensibility.significance",
+      "text": "'By a Lady'라는 익명으로 나왔다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "32bce6bb43a8",
+      "where": "relation:influence--jane-austen--virginia-woolf.facts",
+      "text": "제인 오스틴 → 버지니아 울프 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "183f0d3118ce",
+      "where": "relation:influence--jane-austen--virginia-woolf.summary",
+      "text": "울프는 『보통의 독자』(1925)에 실린 에세이 「제인 오스틴」에서 오스틴의 문장이 작은 장면 안에서 감정의 전모를 드러내는 방식을 분석했다.",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "2b88e160e38b",
+      "where": "relation:influence--jane-austen--natsume-soseki.facts",
+      "text": "제인 오스틴 → 나쓰메 소세키 · documented_influence · directed · documented",
+      "why": "원장에 없는 문장"
+    },
+    {
+      "sid": "bed3869b55c7",
+      "where": "relation:influence--jane-austen--natsume-soseki.summary",
+      "text": "소세키는 『문학론』(1907)에서 『오만과 편견』 도입부의 부부 대화를 인용하며 오스틴을 사실 묘사의 대가로 논했다.",
+      "why": "원장에 없는 문장"
+    }
+  ],
+  "priorClaims": [
+    {
+      "field": "header",
+      "claim": "제인 오스틴의 생몰년은 1775–1817이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Jane_Austen",
+      "quote": "English novelist (1775–1817)"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "오스틴은 인물의 생각과 서술자의 목소리를 겹치는 자유간접화법을 소설의 기본 도구로 정착시켰다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Jane_Austen",
+      "quote": "free indirect speech—she was the first English novelist to do so extensively"
+    },
+    {
+      "field": "importanceReason",
+      "claim": "자유간접화법은 서술자의 목소리와 인물의 목소리 사이를 오가게 한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Jane_Austen",
+      "quote": "The style allows an author to vary discourse between the narrator's voice and values and those of the characters."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "오스틴의 세계에서 한정상속과 연수입이 인물의 처지를 규정하고 결혼이 생계가 된다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "quote": "this estate is entailed and so can only be inherited in the male line",
+      "note": "같은 문단이 이어서 'it is imperative that at least one of their daughters marry well to support the others' 라고 명시한다."
+    },
+    {
+      "field": "importanceReason",
+      "claim": "오스틴은 좁은 사교 무대(무도회·방문·편지) 안에서만 서술한다.",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%B3%E3%83%BB%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3",
+      "quote": "平凡な田舎の出来事を描いたものであり、求めた題材の範囲は非常に狭く"
+    },
+    {
+      "field": "difficultyReason",
+      "claim": "한정상속과 연수입이라는 재산 제도가 대화 속 이해관계를 결정한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "quote": "Mr Darcy ... said to be worth at least £10,000 a year",
+      "note": "연수입 표기와 한정상속이 함께 확인된다."
+    },
+    {
+      "field": "works.jane-austen--persuasion.significance",
+      "claim": "『설득』은 1817년 작이며 사후에 출간되었다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Persuasion_(novel)",
+      "quote": "published on 20 December 1817 ... six months after her death, although the title page is dated 1818"
+    },
+    {
+      "field": "works.jane-austen--persuasion.significance",
+      "claim": "설득에 밀려 파혼한 여성이 8년 뒤 재회한다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Persuasion_(novel)",
+      "quote": "the engagement was broken when Anne was persuaded ... meet again after a separation lasting almost eight years"
+    },
+    {
+      "field": "works.jane-austen--mansfield-park.significance",
+      "claim": "『맨스필드 파크』는 1814년 작이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+      "quote": "1814 novel by Jane Austen"
+    },
+    {
+      "field": "works.jane-austen--mansfield-park.significance",
+      "claim": "주인공은 가난한 친척으로 저택에 들어간 소녀다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+      "quote": "Fanny Price, the niece of the family at Mansfield Park, with the status of a dependent poor relation"
+    },
+    {
+      "field": "works.jane-austen--mansfield-park.significance",
+      "claim": "저택의 재원은 식민지 농장이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Mansfield_Park",
+      "quote": "Sir Thomas leaves to deal with problems on his sugar plantation in Antigua"
+    },
+    {
+      "field": "works.jane-austen--emma.significance",
+      "claim": "『엠마』는 1815년 작이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Emma_(novel)",
+      "quote": "published on 23 December 1815, although the title page is dated 1816",
+      "note": "실제 출간은 1815년 12월 23일, 표제지는 1816. 1815 는 성립하지만 서지 관행상 1816 으로 적는 목록도 많다."
+    },
+    {
+      "field": "works.jane-austen--emma.significance",
+      "claim": "주인공은 부유하고 총명하다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Emma_(novel)",
+      "quote": "Emma Woodhouse, handsome, clever, and rich"
+    },
+    {
+      "field": "works.jane-austen--pride-and-prejudice.significance",
+      "claim": "『오만과 편견』은 1813년 작이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "quote": "1813 novel by Jane Austen"
+    },
+    {
+      "field": "works.jane-austen--pride-and-prejudice.significance",
+      "claim": "『오만과 편견』은 자유간접화법의 교과서적 사례로 인용된다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+      "quote": "Pride and Prejudice, like most of Austen's works, employs the narrative technique of free indirect speech",
+      "note": "영문 위키백과가 이 작품에 'Free Indirect Speech' 절을 따로 둔다."
+    },
+    {
+      "field": "works.jane-austen--sense-and-sensibility.significance",
+      "claim": "『이성과 감성』은 1811년 작이며 오스틴의 첫 출간작이다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Sense_and_Sensibility",
+      "quote": "the debut novel by English author Jane Austen, appearing in 1811"
+    },
+    {
+      "field": "works.jane-austen--sense-and-sensibility.significance",
+      "claim": "'By a Lady'라는 익명으로 나왔다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Sense_and_Sensibility",
+      "quote": "It was published anonymously: By A Lady appears on the title page"
+    },
+    {
+      "field": "works.jane-austen--sense-and-sensibility.significance",
+      "claim": "재산을 잃은 자매의 이야기다.",
+      "verdict": "confirmed",
+      "url": "https://en.wikipedia.org/wiki/Sense_and_Sensibility",
+      "quote": "forced to leave the family estate in Sussex and move to a modest cottage"
+    },
+    {
+      "field": "relations.documented_influence jane-austen → virginia-woolf",
+      "claim": "울프의 에세이 「제인 오스틴」은 『보통의 독자』(1925)에 실렸다.",
+      "verdict": "confirmed",
+      "url": "https://www.britannica.com/topic/The-Common-Reader",
+      "quote": "The first series includes essays on Geoffrey Chaucer, Michel de Montaigne, Jane Austen, George Eliot",
+      "note": "제1시리즈(1925, Hogarth Press) 제12장. monadnock.net 게재 전문의 헤더도 'by Virginia Woolf (1925)'."
+    },
+    {
+      "field": "relations.documented_influence jane-austen → virginia-woolf",
+      "claim": "울프는 그 에세이에서 오스틴의 문장이 작은 장면 안에서 감정의 전모를 드러내는 방식을 분석했다.",
+      "verdict": "confirmed",
+      "url": "https://monadnock.net/woolf/austen.html",
+      "quote": "From triviality, from commonplace, their words become suddenly full of meaning",
+      "note": "같은 대목의 'What she offers is, apparently, a trifle, yet is composed of something that expands in the reader's mind' 도 같은 논지."
+    },
+    {
+      "field": "relations.documented_influence jane-austen → natsume-soseki",
+      "claim": "『문학론』은 1907년 저작이다.",
+      "verdict": "confirmed",
+      "url": "https://ndlsearch.ndl.go.jp/en/books/R100000002-I000000502245",
+      "quote": "夏目漱石 / 大倉書店 / 明40.5",
+      "note": "국립국회도서관 서지: 大倉書店, 明治40년 5월 = 1907년 5월. 플레이트의 출처 표기와 일치."
+    },
+    {
+      "field": "relations.documented_influence jane-austen → natsume-soseki",
+      "claim": "소세키는 『문학론』에서 『오만과 편견』 도입부의 부부(베넷 부부) 대화를 인용하며 논했다.",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%85%A2%E3%81%A8%E5%81%8F%E8%A6%8B",
+      "quote": "夏目漱石は『文学論』（1907年）で冒頭のベネット夫妻のやりとりを以下の如く激賞した"
+    },
+    {
+      "field": "relations.documented_influence jane-austen → natsume-soseki",
+      "claim": "소세키는 오스틴을 사실 묘사의 대가로 논했다.",
+      "verdict": "confirmed",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%B3%E3%83%BB%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3",
+      "quote": "「Jane Austenは写実の泰斗なり。平凡にして活躍せる文字を草して技神に入る」"
+    },
+    {
+      "field": "relations.documented_influence jane-austen → natsume-soseki",
+      "claim": "소세키는 이 분석을 자신의 소설 문체론의 근거로 삼았다.",
+      "verdict": "unverifiable",
+      "note": "『문학론』 제4편은 투출어·대치법·写実法 등 문학 기법 일반을 다루고, 오스틴 분석은 그 写実法 예시로 놓인다. '소설 문체론의 근거로 삼았다'고 진술한 전거는 찾지 못했다. 검색: 岩上はる子「ジェイン・オースティンの受容」(CiNii), NHK textview, ja.wikipedia. 가장 근접한 서술은 '漱石が表現をオースティンから学ぼうとしていた' 수준이며 이는 문체론의 '근거'와 다르다. 관계 종류 documented_influence 자체는 성립하나 이 절은 근거 미달.",
+      "resolution": "removed"
+    }
+  ],
+  "sources": {
+    "src--britannica": {
+      "id": "src--britannica",
+      "kind": "general-reference",
+      "title": "Encyclopædia Britannica — 작가·작품 표제 항목",
+      "publisherOrInstitution": "Encyclopædia Britannica, Inc.",
+      "url": "https://www.britannica.com",
+      "citation": "생몰년·활동 시기·대표작 등 기초 사실 확인용 일반 참조"
+    },
+    "src--oxford-worlds-classics": {
+      "id": "src--oxford-worlds-classics",
+      "kind": "general-reference",
+      "title": "Oxford World's Classics 서문·해제",
+      "publisherOrInstitution": "Oxford University Press",
+      "citation": "정본 텍스트의 학술 서문·연보"
+    },
+    "src--woolf-common-reader-1925": {
+      "id": "src--woolf-common-reader-1925",
+      "title": "The Common Reader (1925)",
+      "publisherOrInstitution": "The Hogarth Press — Virginia Woolf",
+      "citation": "「러시아인의 관점」과 「현대소설」이 실린 첫 평론집 — 울프가 체호프·도스토옙스키·톨스토이의 방법을 자기 소설론의 좌표로 삼은 1차 문헌"
+    },
+    "src--ndl-bungakuron-1907": {
+      "id": "src--ndl-bungakuron-1907",
+      "title": "文学論 (夏目漱石, 大倉書店, 明治40년 5월) — 국립국회도서관 서지",
+      "publisherOrInstitution": "国立国会図書館",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I0000005022",
+      "citation": "초판 서지 — 『문학론』은 일본어 위키백과에 단독 항목이 없어 판본 근거를 국립국회도서관 서지에서 잡는다",
+      "accessedAt": "2026-08-27"
+    }
+  }
+}

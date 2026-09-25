@@ -1,0 +1,147 @@
+{
+  "fixes": [
+    {
+      "id": "maryse-conde",
+      "importanceReason": "세일럼 재판에서 심문조서를 길게 남기고도 재판 이후의 행적이 기록에서 끊긴 노예 여성을 1인칭 화자로 불러내고, 서아프리카 왕국사를 대하소설의 규모로 세웠다. 『세구』는 밤바라 왕국의 번영과 느린 쇠퇴를 한 가문 3대의 개종·노예화·이산과 엮어 서술해, 아프리카를 향수의 대상이 아니라 그 자체로 분열하는 역사로 다뤘다.",
+      "readingEntryReason": "280쪽이 안 되는 1인칭 서술이고, 세일럼 마녀재판이라는 널리 알려진 무대 위에서 진행돼 배경 지식이 거의 필요 없다. 콩데의 아이러니와 육체성이 선명하게 드러나는 작품이기도 하다.",
+      "readingWarning": "『세구』부터 시작하면 수많은 인명과 씨족 관계에서 막히기 쉽다. 짧은 1인칭 작품으로 콩데의 목소리에 먼저 익숙해지는 편이 낫다.",
+      "difficultyReason": "『세구』는 사건 추진력이 강하지만 500쪽에 이르는 분량에 밤바라·풀라니·이슬람 세력이 얽힌 19세기 서아프리카 정세와 수십 명의 인명을 동시에 붙들어야 한다. 『맹그로브 횡단』은 열아홉 명의 화자가 돌아가며 말해 사건이 조각으로만 주어진다.",
+      "works": [
+        {
+          "id": "maryse-conde--traversee-de-la-mangrove",
+          "significance": "과들루프 한 마을 밖에서 발견된 이방인의 시신을 두고 밤샘 조문객이 차례로 독백하는 구성. 크레올 사회의 계급·인종·성의 균열이 화자를 바꿀 때마다 다른 각도로 드러난다."
+        },
+        {
+          "id": "maryse-conde--le-coeur-a-rire-et-a-pleurer",
+          "significance": "과들루프 흑인 부르주아 가정에서 자란 유년을 짧은 장면들로 회상한 자전 산문. 부모가 모든 면에서 프랑스인을 본뜨던 세계를 안에서 기록해, 한 의식이 태어나는 과정을 비춰 준다."
+        },
+        {
+          "id": "maryse-conde--moi-tituba-sorciere",
+          "significance": "1692년 심문에서 자백하고도 재판 이후의 행적이 기록에서 끊긴, 바베이도스를 거쳐 왔다고 추정되는(출신지는 사료로 확정되지 않은) 노예 여성을 1인칭 화자로 세워, 마녀사냥의 역사를 흑인 여성의 신체와 성애의 관점에서 다시 쓴다. 대중적·비평적 성공작."
+        },
+        {
+          "id": "maryse-conde--segou",
+          "significance": "18세기 말 밤바라 왕국의 한 귀족 가문이 이슬람화·노예무역·유럽의 진출 속에서 흩어지는 과정을 3대에 걸쳐 추적한 대하소설. 『뉴요커』는 이 작품을 '디아스포라 서사시의 어머니'라 불렀다."
+        }
+      ],
+      "relations": [
+        {
+          "id": "influence--william-faulkner--maryse-conde",
+          "summary": "『맹그로브 횡단』(1989)은 한 구의 시신을 둘러싼 밤샘에서 마을 사람들의 독백을 차례로 돌려 세운다. 쥘리 브뤼지에는 이 소설과 포크너 『압살롬, 압살롬!』을 글리상의 '다른 아메리카' 틀에서 나란히 읽었고, 『소설 속 주변성과 공동체』(Classiques Garnier, 2024)에서 두 작가의 공동체·주변성 시학을 견줬다. 미치의 「마리즈 콩데의 맹그로브」는 콩데가 포크너를 좋아하는 작가로 거듭 꼽았다고 적는다.",
+          "evidenceLevel": "documented",
+          "sourceIds": [
+            "src--brugier-conde-faulkner-autre-amerique",
+            "src--brugier-marginalite-communaute",
+            "src--mitsch-conde-mangroves"
+          ]
+        },
+        {
+          "id": "affinity--maryse-conde--toni-morrison",
+          "summary": "『나, 티투바』(1986)와 모리슨 『빌러비드』(1987)를 나란히 읽는 비평이 있다. 앨리슨 게스와 세라 오머는 『페미니스트 포메이션스』 36권 1호(2024)에서 두 소설을 땅·상속·유령의 문제로 함께 읽는 탈식민 흑인 페미니즘 독해를 제시한다.",
+          "evidenceLevel": "editorial_inference"
+        }
+      ],
+      "newSources": [
+        {
+          "id": "src--mitsch-conde-mangroves",
+          "title": "Maryse Condé's Mangroves",
+          "publisherOrInstitution": "Research in African Literatures",
+          "citation": "Ruthmarie H. Mitsch, \"Maryse Condé's Mangroves,\" Research in African Literatures, pp. 54–70.",
+          "url": "https://pages.mtu.edu/~rlstrick/rsvtxt/faulkner/mitsch.pdf"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "author.importanceReason",
+          "claim": "『세구』는 밤바라 왕국의 붕괴를 서술한다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장의 '밤바라 왕국의 붕괴를 … 이산으로 서술해'를 교정문에 따라 '밤바라 왕국의 번영과 느린 쇠퇴를 … 이산과 엮어 서술해'로 바꿨다. '한 가문 3대의 개종·노예화·이산'은 확정 주장 둘(트라오레가 아들들의 개종·노예화·이산, 3대)이 받쳐 남겼다. 교정문의 '제국'은 첫 문장·작품 의의의 '왕국'과 맞춰 '왕국'으로 두었다."
+        },
+        {
+          "field": "author.importanceReason",
+          "claim": "콩데의 아이러니·육체적 유머를 지닌 카리브 여성 1인칭이 이후 프랑스어권 흑인 여성 서사가 반복해 참조하는 어조가 되었다",
+          "resolution": "removed",
+          "evidence": "importanceReason의 셋째 문장(7444cf22d131, '아이러니와 육체적 유머를 잃지 않는 카리브 여성 1인칭은 …')을 통째로 지웠다. 어조의 계승을 말하는 출처가 없고, 남겨 둘 확인된 부분이 없다."
+        },
+        {
+          "field": "author.readingEntryReason",
+          "claim": "『나, 티투바』는 콩데의 아이러니와 육체성이 가장 선명하게 드러나는 작품이다",
+          "resolution": "narrowed",
+          "evidence": "메모의 권고대로 최상급 '가장'을 지워 '콩데의 아이러니와 육체성이 선명하게 드러나는 작품이기도 하다'로 좁혔다. 육체성은 확정 주장 '소설은 흑인 여성 티투바의 신체와 성애를 전면에 둔다'가 받친다."
+        },
+        {
+          "field": "author.readingWarning",
+          "claim": "『세구』 초반 100쪽에 인명과 씨족 관계가 몰려 있다",
+          "resolution": "narrowed",
+          "evidence": "첫 문장의 '초반 100쪽의'를 지우고 '수많은'으로 바꿔 '『세구』부터 시작하면 수많은 인명과 씨족 관계에서 막히기 쉽다'로 좁혔다. 인물이 많다는 것은 확정 주장 '『세구』는 등장인물이 매우 많다(수십 명의 인명)'가 받친다."
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "콩데의 문장은 투명하다",
+          "resolution": "narrowed",
+          "evidence": "'문장은 투명하고'를 지웠다. 남은 '사건 추진력이 강하지만'은 확정 주장 '『세구』는 사건 추진력이 강하다'대로 『세구』에 붙여 '『세구』는 사건 추진력이 강하지만 500쪽에 이르는 …'로 이었다."
+        },
+        {
+          "field": "work:maryse-conde--traversee-de-la-mangrove.significance",
+          "claim": "과들루프의 한 마을에서 이방인의 시신이 발견된다",
+          "resolution": "corrected",
+          "evidence": "'과들루프의 한 마을에서 발견된'을 교정문에 따라 '과들루프 한 마을 밖에서 발견된'으로 바꿨다(시신은 마을 밖 오솔길에서 발견된다). 지명 리비에르 오 셀과 '조문객 앞의 말이나 내적 독백'은 필드가 원문보다 길어져 넣지 않았다. 밤샘 조문객의 차례 독백은 확정 주장이 받친다. 길이를 맞추려 '과들루프의'→'과들루프', '조문객들이'→'조문객이'로 줄였다."
+        },
+        {
+          "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.significance",
+          "claim": "부모는 스스로를 '프랑스인'으로 여겼다",
+          "resolution": "corrected",
+          "evidence": "'부모가 스스로를 '프랑스인'으로 여기던 세계를 안에서 기록해'를 교정문대로 '부모가 모든 면에서 프랑스인을 본뜨던 세계를 안에서 기록해'로 바꿨다."
+        },
+        {
+          "field": "work:maryse-conde--le-coeur-a-rire-et-a-pleurer.significance",
+          "claim": "이 책은 콩데의 작가 의식이 어디서 생겨났는지 보여 준다",
+          "resolution": "corrected",
+          "evidence": "'콩데 소설의 문제의식이 어디서 왔는지 보여 준다'를 교정문 뒷부분대로 '한 의식이 태어나는 과정을 비춰 준다'로 바꿨다. 교정문 앞부분(어른이 된 콩데를 이해하게 해 주는 기억의 조각들)은 문장이 길어져 넣지 않았다."
+        },
+        {
+          "field": "work:maryse-conde--moi-tituba-sorciere.significance",
+          "claim": "『나, 티투바』는 콩데의 국제적 대표작이다",
+          "resolution": "corrected",
+          "evidence": "마지막 문장 '콩데의 국제적 대표작.'을 교정문을 줄여 '대중적·비평적 성공작.'으로 바꿨다. 교정문의 '『세구』 등과 함께'는 필드가 원문보다 길어져 넣지 않았고, 확정 주장 여섯이 받치는 앞 문장은 건드리지 않았다."
+        },
+        {
+          "field": "work:maryse-conde--segou.significance",
+          "claim": "『세구』는 아프리카사를 카리브 작가가 대하 서사 규모로 다룬 대표적 사례다",
+          "resolution": "corrected",
+          "evidence": "둘째 문장 '아프리카사를 카리브 작가가 대하 서사의 규모로 다룬 대표적 사례다'를 교정문을 줄여 '『뉴요커』는 이 작품을 '디아스포라 서사시의 어머니'라 불렀다'로 바꿨다. 교정문의 '아프로-아틀랜틱 세계의 위대한 소설가'와 '걸작'은 필드가 원문보다 길어져 넣지 않았다."
+        },
+        {
+          "field": "relation:influence--william-faulkner--maryse-conde.facts",
+          "claim": "이 영향 관계의 증거 수준은 학계 합의(scholarly_consensus)다",
+          "resolution": "corrected",
+          "evidence": "메모의 권고('작가 자신의 진술(이차 문헌 경유)')대로 evidenceLevel을 scholarly_consensus에서 documented로 바꿨다(documented_influence가 허용하는 수준). 사실 줄이 '윌리엄 포크너 → 마리즈 콩데 · documented_influence · directed · documented'가 된다. 근거 문서는 확정 주장(방향·종류)의 출처인 Ruthmarie H. Mitsch, \"Maryse Condé's Mangroves\", Research in African Literatures 54–70쪽으로, 이 세션에서 스캔본 58쪽을 직접 읽었다: \"Yet Condé has spoken many times of the significance of US-American author William Faulkner as a favorite writer\". 이것을 새 출처 src--mitsch-conde-mangroves로 내 sourceIds에 더하고, 요약 끝에 '미치의 「마리즈 콩데의 맹그로브」는 콩데가 포크너를 좋아하는 작가로 거듭 꼽았다고 적는다'로 문서를 실명했다. 권·호·연도는 스캔본에서 확인하지 못해 출처 레코드에 적지 않았다."
+        },
+        {
+          "field": "relation:influence--william-faulkner--maryse-conde.summary",
+          "claim": "이 책은 브뤼지에의 박사논문을 발전시킨 것이다",
+          "resolution": "narrowed",
+          "evidence": "'박사논문을 발전시킨'을 지웠다. 책이 학위논문에서 나왔다고 진술하는 출처가 없다. 미치 문장을 넣을 자리를 만들려고 같은 문장의 책 제목을 본제 『소설 속 주변성과 공동체』로, '하나의 비교 대상으로 묶었다'를 '견줬다'로 줄였다(책·출판사·연도·공동체·주변성 비교는 확정 주장이 받친다)."
+        },
+        {
+          "field": "relation:affinity--maryse-conde--toni-morrison.facts",
+          "claim": "이 친연 관계의 증거 수준은 학계 합의(scholarly_consensus)다",
+          "resolution": "corrected",
+          "evidence": "evidenceLevel을 scholarly_consensus에서 editorial_inference로 낮췄다(affinity가 허용하는 수준이고 weight 0.6은 상한 안이다). 사실 줄이 '마리즈 콩데 → 토니 모리슨 · affinity · bidirectional · editorial_inference'가 된다. 요약은 확인된 비교 연구(게스·오머 2024)만 적고 합의를 주장하지 않는다."
+        },
+        {
+          "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+          "claim": "『나, 티투바』와 『빌러비드』를 나란히 읽는 비평이 여럿 있다(계보)",
+          "resolution": "corrected",
+          "evidence": "첫 문장을 교정문대로 '『나, 티투바』(1986)와 모리슨 『빌러비드』(1987)를 나란히 읽는 비평이 있다'로 바꿨다('흑인 페미니즘 비평의 계보'를 지움). 두 연도는 확정 주장이 받쳐 남겼다."
+        },
+        {
+          "field": "relation:affinity--maryse-conde--toni-morrison.summary",
+          "claim": "이 계보는 두 소설을 '노예제 기록에서 지워진 흑인 여성을 1인칭으로 복원하는 작업'으로 묶어 읽는다",
+          "resolution": "narrowed",
+          "evidence": "첫 문장 머리의 '노예제 기록에서 지워진 흑인 여성을 1인칭으로 복원하는 작업으로'를 지웠다. 남은 문장은 두 소설을 나란히 읽는 비평이 있다는 것만 말한다."
+        }
+      ]
+    }
+  ]
+}
