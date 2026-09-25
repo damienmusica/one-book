@@ -1,0 +1,468 @@
+{
+  "plates": [
+    {
+      "id": "baek-seok",
+      "claims": [
+        {
+          "sids": [
+            "ecf226b64467"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『사슴』은 1936년 33편을 네 부로 나눠 실은 자가본 시집이다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "1936년 자가본(自家本)으로 발행했으며, 총 33편의 시를 4부로 나누어 수록했다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "ecf226b64467"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『사슴』은 자비로 100부 한정 출간되었다.",
+          "verdict": "confirmed",
+          "url": "https://sedaily.com/NewsVIew/1ZBMOQ48XF",
+          "quote": "1936년 1월, 백석의 시집 ‘사슴’이 세상에 나왔다. 시인이 자비로 어렵게 낸 시집이었기에 100부 한정으로 인쇄됐다.",
+          "note": "민음사 작가 소개(minumsa.minumsa.com/book/9910/)도 '1936년 100부 한정판으로 시집 『사슴』을 간행했다'고 적는다. 반면 창비 『백석시전집』 소개문(changbi.com/BookDetail?bookid=296)은 '1936년 200부 한정판으로 첫 시집 『사슴』이 간행된'이라고 적어 출처 사이에 부수가 엇갈린다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "ecf226b64467"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『사슴』은 평안북도 사투리를 그대로 시어로 쓴다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "이 시집에 수록된 시편들의 특징으로 먼저 지적될 수 있는 것은 작가가 자신의 고향인 평안북도의 사투리를 그대로 시어(詩語)로 활용해 향토적·민속적 세계를 시의 바탕으로 삼고 있다는 점이다.",
+          "note": "같은 항목의 다음 문단은 이 시집이 고향의 전설을 즐겨 노래하고 '가즈랑집 할머니', '진할아버지' 같은 구체적인 인물을 등장시킨다고 적는다. 음식과 놀이의 열거는 『사슴』에 다시 실린 「여우난골족」에 대해 E0071116 항목이 뒷받침한다. [checker: 인용은 사투리만 받치므로 claim을 사투리로 좁혔다. 전설·실명 인물·이야기 형식은 아래 추가 claim이 같은 항목의 바로 다음 문단으로 받친다. E0025763에서 인용문 확인.]"
+        },
+        {
+          "sids": [
+            "ecf226b64467"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『사슴』은 고향의 전설을 들은 이야기처럼 옮기는 형식으로, 구체적 지명과 실명의 마을 사람을 등장시킨다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "이 시집에서 시인이 즐겨 노래하고 있는 고향의 전설은 누구에게 들었던 이야기를 옮겨놓은 것 같은 형식을 흔히 취하고 있다. 그러면서도 ‘가스랑고개, 여우난 곬, 국수당’ 같은 구체적인 지명과, ‘가즈랑집 할머니’, ‘진할아버지’, … 등 구체적인 인물들을 등장시킴으로써",
+          "note": "[checker: 추가. 문장의 '그 방법'(앞 문장의 실명·전설·이야기 구조)을 『사슴』이 모았다는 부분을 받친다. 음식·놀이의 열거는 57af6c00a6ca의 「여우난골족」(E0071116, 『사슴』 재수록) claim이 받친다. E0025763에서 한 문단 안의 연속한 두 문장, 인명 목록 중간만 줄임.]"
+        },
+        {
+          "sids": [
+            "ecf226b64467"
+          ],
+          "field": "author.importanceReason",
+          "claim": "「남신의주 유동 박시봉방」은 1948년에 발표되었다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071114",
+          "quote": "1연 32행으로 이루어진 자유시이다. 1948년 10월 『학풍』 창간호에 발표되었다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "ecf226b64467"
+          ],
+          "field": "author.importanceReason",
+          "claim": "이 시의 화자는 시인 자신에 가깝고, 객지의 낯선 방에 칩거해 자기 삶을 돌아본다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071114",
+          "quote": "이 시의 화자는 시인 자신에 가까운데, 가족과 떨어져서 객지의 낯선 방에 칩거한 채 자기 자신을 돌아보고 있다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "8a63db444d37"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『사슴』은 백석이 자비로 낸 시집이다.",
+          "verdict": "confirmed",
+          "url": "https://sedaily.com/NewsVIew/1ZBMOQ48XF",
+          "quote": "시인이 자비로 어렵게 낸 시집이었기에 100부 한정으로 인쇄됐다.",
+          "note": "한국민족문화대백과사전 「사슴」 항목(E0025763)은 '자가본(自家本)'이라고 적는다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "8a63db444d37"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『사슴』은 33편을 네 부로 묶었다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "1936년 자가본(自家本)으로 발행했으며, 총 33편의 시를 4부로 나누어 수록했다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "57af6c00a6ca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『사슴』에는 실제 지명과 실명의 마을 사람들이 나온다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "그러면서도 ‘가스랑고개, 여우난 곬, 국수당’ 같은 구체적인 지명과, ‘가즈랑집 할머니’, ‘진할아버지’, ‘토산(土山) 고무(고모)의 딸 승녀(承女)’, ‘아들 승동(承童)이’, ‘정문(旌門)집 간난이’ 등 구체적인 인물들을 등장시킴으로써",
+          "note": "방언은 같은 항목의 '평안북도의 사투리를 그대로 시어(詩語)로 활용해'가 뒷받침한다. [checker: E0025763에서 인용문 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "57af6c00a6ca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『사슴』은 방언(평안북도 사투리)을 시어로 쓴다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "이 시집에 수록된 시편들의 특징으로 먼저 지적될 수 있는 것은 작가가 자신의 고향인 평안북도의 사투리를 그대로 시어(詩語)로 활용해 향토적·민속적 세계를 시의 바탕으로 삼고 있다는 점이다.",
+          "note": "[checker: 추가. 문장의 '방언'이 이전 판정에서는 note로만 받쳐져 있었다. E0025763에서 인용문 확인.]"
+        },
+        {
+          "sids": [
+            "57af6c00a6ca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『사슴』에 실린 「여우난골족」은 음식과 놀이를 열거하는 초기 시의 방법을 보여 준다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071116",
+          "quote": "이 시의 어린 화자는 명절날 큰집에서 만난 친척들과 먹은 음식, 함께 한 놀이 등 자신의 기억 속에 남아있는 모든 장면들을 낱낱이 열거하고 있다.",
+          "note": "같은 항목은 이 시가 1936년 1월 『사슴』에 다시 실렸고 '백석 초기시의 개성이 잘 드러나는 시'라고 적는다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "57af6c00a6ca"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『사슴』은 이후의 시를 읽을 기준이 된다.",
+          "verdict": "unverifiable",
+          "url": null,
+          "quote": null,
+          "note": "'기준'은 과제 규칙상 출처가 그만큼 말해야 하는 표현이다. 한국민족문화대백과사전 「사슴」·「백석」 항목, 민음사·더스토리·창비 책 소개를 읽었지만 『사슴』을 뒤의 시를 읽는 기준이라고 말하는 곳은 없다. 창비 소개는 '첫 시집 『사슴』'이라고만 한다. '기준이 된다'를 빼거나 '첫 시집'처럼 확인되는 말로 바꾸는 편이 안전하다. [checker: 유지. 이번 세션에 한국민족문화대백과사전 「사슴」·「백석」, 민음사·더스토리(예스24) 책 소개를 다시 읽고 따로 검색도 했지만 『사슴』을 이후 시를 읽는 '기준'이라고 말하는 출처를 찾지 못했다. 이 절을 빼거나 '백석이 생전에 낸 단 한 권의 시집'(예스24 143302568: '생전 단 한 권의 시집 《사슴》')처럼 확인되는 말로 바꿔야 한다.]"
+        },
+        {
+          "sids": [
+            "c745a7a01ddc"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "1936년 초판본 표지를 되살리고 본문을 현대 맞춤법으로 고친 더스토리판 『사슴』이 지금 판매 중이다.",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/143302568",
+          "quote": "이번 더스토리에서 발행한 초판본 《사슴》은 1936년 판본의 표지디자인을 그대로 차용하여 제작했다. … 본문은 독자들이 읽기 편하도록 한글맞춤법에 맞게 수정했지만 시의 의미가 훼손되지 않도록 원문을 최대한 살렸다.",
+          "note": "같은 예스24 페이지에 발행일 2025년 3월 28일과 '판매중'이 표시된다. 이 판은 표기만 현대 맞춤법으로 고치고 원문의 말은 최대한 살렸다. 따라서 '현대어판'은 표기를 현대화했다는 뜻으로 읽어야 한다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "c745a7a01ddc"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "안도현이 엮은 민음사 세계시인선 『사슴』은 2016년에 나온 152쪽 책이다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/9910/",
+          "quote": "[세계시인선15] 사슴 글 백석 | 옮김 안도현 출판사 민음사 | 발행일 2016년 5월 19일 | ISBN 978-89-374-7515-3 패키지 소프트커버 · 변형판 140x210 · 152쪽",
+          "note": "판권 표기는 '옮김 안도현'이지만, 책 소개가 '안도현 시인이 백석의 정수만을 뽑아 전하는 선집'이라고 하므로 '엮은'과 어긋나지 않는다. [checker: 민음사 9910 페이지 서지 줄에서 인용문 확인. '엮은'은 아래 추가 claim이 받친다. 유지.]"
+        },
+        {
+          "sids": [
+            "c745a7a01ddc"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "민음사 『사슴』은 안도현이 백석의 시를 골라 엮은 선집이다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/9910/",
+          "quote": "백석 평전을 쓴 안도현 시인이 백석의 정수만을 뽑아 전하는 선집",
+          "note": "[checker: 추가. 판권 표기가 '옮김 안도현'이라 서지 인용만으로는 '엮은'이 서지 않는다. 같은 페이지 책소개 첫 줄에서 확인.]"
+        },
+        {
+          "sids": [
+            "c745a7a01ddc"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 책은 1부에 『사슴』에서 고른 시를 싣고, 뒤에 「나와 나타샤와 흰 당나귀」·「흰 바람벽이 있어」·「남신의주 유동 박시봉방」을 이 순서로 담는다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/9910/",
+          "quote": "1부 『사슴』에서 가즈랑집 … 나와 나타샤와 흰 당나귀 … 흰 바람벽이 있어 … 남신의주 유동 박시봉방",
+          "note": "목차에서 「나와 나타샤와 흰 당나귀」는 2부, 「흰 바람벽이 있어」와 「남신의주 유동 박시봉방」은 3부 '만주시편'에 있다. 페이지의 읽기 순서와 같다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d9932a7a9fde"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "백석 시에는 평안 방언과 고어가 자주 나온다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0022163",
+          "quote": "평안 방언을 비롯한 여러 지역의 언어들을 시어로 끌어들이고 고어와 토착어를 빈번하게 사용함으로써 시어의 영역을 넓히고 모국어를 확장시켰다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d9932a7a9fde"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "방언이 독자를 위한 풀이 없이 그대로 쓰였다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "이들 작품 역시 어린 시절에 들었던 고향의 전설을 시화한 작품으로서 시세계의 본질을 드러내기 위해 독자의 이해를 도외시한 채 고향의 사투리를 그대로 사용했다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d9932a7a9fde"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "백석의 시는 사라져 가는 전통의 음식과 놀이를 불러낸다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071116",
+          "quote": "친족의 유대관계와 각종 음식과 놀이 등 전통적 삶의 모습이 구체적으로 복원되면서 건강하고 풍요로운 공동체의 분위기가 생생하게 전달된다.",
+          "note": "같은 항목의 평가에 '사라져가는 전통과 공동체의 정서를 구체적이고 감각적으로 재현해낸다'가 있다. 이 항목은 「여우난골족」 한 편을 다룬다. '세간'이라는 말을 직접 쓰는 출처는 없고, 아래 『정본 백석 시집』 소개가 '당시의 언어, 지리, 풍속'에 걸친 생소한 어휘라고만 말한다. [checker: E0071116에서 인용문 확인. '복원'과 같은 항목 평가의 '사라져가는 전통'이 '지금은 사라진'을 받친다. 유지. '세간'은 아래 추가 claim으로 따로 잰다.]"
+        },
+        {
+          "sids": [
+            "d9932a7a9fde"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "백석 시에는 지금은 쓰지 않는 낱말이 나와 풀이가 필요하다.",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/143302568",
+          "quote": "간혹 지금은 사용하지 않는 단어나 어려운 한자어에는 독자들의 이해를 돕기 위해 각주를 달아 설명했다.",
+          "note": "[checker: 추가. 문장의 범위어 '지금은'을 받친다. 더스토리판 책 소개(예스24). 이 판이 각주를 단 것은 원래의 시가 풀이 없이 이 낱말을 쓴다는 뜻이다.]"
+        },
+        {
+          "sids": [
+            "d9932a7a9fde"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "백석 시에는 지금은 사라진 세간(살림 도구)의 이름이 풀이 없이 나온다.",
+          "verdict": "unverifiable",
+          "url": null,
+          "quote": null,
+          "note": "[checker: 추가. 이전 판정 note가 이미 '세간'을 직접 쓰는 출처가 없다고 적었는데도 claim으로 재지 않았다. 이번 세션에 한국민족문화대백과사전 「백석」·「사슴」·「여우난골족」, 『정본 백석 시집』·더스토리판(예스24) 소개, 고형진 『백석 시의 물명고』 소개(kupress.com/books/8396/, 한국일보 2015-05-20, 서울신문 2015-06-02)를 읽었다. 음식·옷 이름(붕어곰, 당홍치마, 막베등거리 등)과 사전에 없는 방언·고어는 나오지만 세간·살림 도구를 짚는 문장은 없다. 한국일보(hankookilbo.com/news/article/201505201636417001)의 '옷 하나도 그냥 쓰는 법 없이 당홍치마, 막베등거리, 쇠주푀적삼, 항라적삼 등 구체적으로 써'가 받치므로 '세간'을 '옷'으로 바꾸거나 빼는 편이 안전하다.]"
+        },
+        {
+          "sids": [
+            "d9932a7a9fde"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "백석 시의 생소한 어휘는 낱말 풀이가 있어야 읽힌다.",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/87105340",
+          "quote": "또한 『정본 백석 시집』의 가장 큰 특징 가운데 하나는 백석 시에 무수히 등장하는 생소한 어휘들을 정확하게 풀이한 데 있다.",
+          "note": "창비 『백석시전집』 소개(changbi.com/BookDetail?bookid=296)도 '600여 개가 넘는 북방 사투리에 대한 낱말 풀이를 붙였다'고 적는다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "e4506f553443"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "「여우난골족」은 긴 문장 네 개로 이어져 호흡이 길다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071116",
+          "quote": "장형의 네 개 문장으로 이루어져 있어 호흡이 매우 긴 것이 특징이다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "e4506f553443"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "「남신의주 유동 박시봉방」은 잦은 쉼표로 이어지는 긴 호흡의 시다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071114",
+          "quote": "이 시에서는 유장한 호흡과 잦은 쉼표로 내면의 진솔한 고백을 담아낸다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "7aa2f466218f"
+          ],
+          "field": "work:baek-seok--yeounangol-jok.facts",
+          "claim": "「여우난골족」은 1935년에 발표된 시다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071116",
+          "quote": "4연 9행의 자유시이다. 1935년 12월 『조광』에 발표되었고 1936년 1월백석의 시집 『사슴』에 재수록되었다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "7aa2f466218f"
+          ],
+          "field": "work:baek-seok--yeounangol-jok.facts",
+          "claim": "원제 표기는 '여우난곬族'이다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0025763",
+          "quote": "1부 ‘얼럭소 새끼의 영각’에 「고야(古夜)」·「가즈랑집」·「여우난 곬 족(族)」·「모닥불」 등 6편",
+          "note": "백과사전은 낱말을 띄우고 한자를 괄호로 풀어 적지만 '곬'과 '族'을 원본대로 보인다. 민음사 목차는 '여우난골족(族)'이라고 적는다. 『조광』과 『사슴』 지면의 영인본은 보지 못했다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "c3d0fa96e8a4"
+          ],
+          "field": "work:baek-seok--yeounangol-jok.significance",
+          "claim": "「여우난골족」은 토속적인 어휘와 어법으로 공동체의 삶을 복원하는, 백석 초기시의 개성이 잘 드러나는 시다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0071116",
+          "quote": "토속적인 어휘와 어법으로 공동체의 삶을 복원하는 백석 초기시의 개성이 잘 드러나는 시이다.",
+          "note": "이전 판정이 문제 삼은 최상급 '가장 선명하게'가 빠졌다. 지금 문장은 출처의 평가를 그대로 옮긴다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "e3ebcbfb2f7a"
+          ],
+          "field": "work:baek-seok--hin-barambyeogi-isseo.significance",
+          "claim": "백석이 『만선일보』에 실은 박팔양 시집 감상문 「슬픔과 진실」과 닮은 표현이 한 해 뒤 「흰 바람벽이 있어」에 나온다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002674752",
+          "quote": "그는 시인 박팔양의 시집 여수시초에 대한 감상문을 《만선일보》에 게재한다. 감상문인 「슬픔과 진실」에는 시인으로서의 자세를 말하며 박팔양을 상찬하다. 그런데 이 산문에서는 슬픔과 비애를 높이의 차원으로 승화시키는 표현을 곳곳에서 발견할 수 있다. 이는 백석이 당시 자신이 처한 상황을 자기방어적으로 쓴 표현이라고 할 수 있는데, 일년 후 발표한 「흰 바람벽이 있어」 에도 유사한 표현이 등장한다.",
+          "note": "임수만, 「백석 시에 나타난 ‘영혼’의 슬픔」(『청람어문교육』 51, 2014, oak.go.kr PDF)은 이 감상문의 서지를 '만선일보, 1940.5.9-10.'으로 적는다. 1941년 발표작보다 한 해 앞선다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "902468b79790"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.facts",
+          "claim": "김소월에게서 백석으로 가는 영향 관계가 문헌으로 확인된다(방향: 김소월→백석).",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0022163",
+          "quote": "재학 중일 때 조만식, 홍명희가 교장으로 부임한 적이 있고, 6년 선배인 김소월을 동경하면서 시인의 꿈을 키웠다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "902468b79790"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.facts",
+          "claim": "근거 수준은 scholarly_consensus다(신뢰할 만한 2차 연구가 반복해서 다루는 계보).",
+          "verdict": "confirmed",
+          "url": "https://oak.go.kr/repository/journal/20244/NRF035_2014_n51_321.pdf",
+          "quote": "오산학교 선배이자 같은 정주 출신인 소월의 문학에 대해 백석은 잘 알고 있었고 누구보다 깊은 이해를 갖고 있었던 것으로 보인다(｢소월과 조선생｣ 1939 참조).",
+          "note": "임수만(『청람어문교육』 51, 2014) 각주 51이다. 이 계보를 다룬 출처는 여럿이다. 백과사전 「백석」 항목(문혜원), 오연경(2011), 이경수(2015), 그리고 이 논문과 논문이 참고한 신범순, 「현대시에서 전통적 정신의 존재형식과 그 의미－김소월과 백석을 중심으로」(『국어교육』 96, 1998)가 모두 이 관계를 다루므로, 프로젝트의 scholarly_consensus 정의(relations-guide)는 충족한다. 다만 '학계 합의'라고 말하는 출처는 없다. 오연경은 백석의 토속성을 외국 작가의 영향으로 보는 읽기에 맞서는 자기 주장으로 소월 계보를 내세운다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d7388a3dd53e"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.summary",
+          "claim": "한국민족문화대백과사전 「백석」 항목의 집필자는 문혜원이다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0022163",
+          "quote": "집필 및 수정 집필 2017년 문혜원",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d7388a3dd53e"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.summary",
+          "claim": "백석은 오산학교 시절 6년 선배 김소월을 동경하며 시인의 꿈을 키웠다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0022163",
+          "quote": "1924년 오산소학교를 졸업하고 오산학교(오산고등보통학교)에 입학하였다. 재학 중일 때 조만식, 홍명희가 교장으로 부임한 적이 있고, 6년 선배인 김소월을 동경하면서 시인의 꿈을 키웠다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d14479f3ee87"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.summary",
+          "claim": "오연경, 「백석 시의 ‘장소애’와 미적 토속성의 계보 ― 소월과의 상관성을 중심으로」, 『한국시학연구』 32(2011).",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001608804",
+          "quote": "오연경. (2011). 백석 시의 ‘장소애’와 미적 토속성의 계보 ― 소월과의 상관성을 중심으로. 한국시학연구, 32, 117-141.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d14479f3ee87"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.summary",
+          "claim": "오연경은 고향을 지역 방언으로 노래한 백석의 토속성을 소월을 계승한 내적 계보로 읽는다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001608804",
+          "quote": "백석 시의 토속성은 근대화된 시선에 의해 단지 형식적 도구로 ‘발굴’되거나 ‘발견’된 것이 아니다. 그것은 장소상실 이후의 장소 탐색이라는 실존적·시대적 과제를 민요로부터 풀어낸 소월을 계승한 것이다.",
+          "note": "같은 초록에 '본 논문은 백석의 내적 계보로서 김소월 시와의 상관성을 탐구하고자 한다'와 '소월과 백석의 시는 … 고향의 세계를 지역 방언으로 노래했다는 공통점을 지니고 있다'가 있다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d14479f3ee87"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.summary",
+          "claim": "이경수의 논문은 『비교한국학』 23권 1호(2015)에 실렸다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001986876",
+          "quote": "이경수. (2015). 마르샤크의 [동화시집] 번역을 통해 본 [집게네 네 형제] 창작의 의미. 비교한국학 Comparative Korean Studies, 23(1), 179-212.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d14479f3ee87"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.summary",
+          "claim": "백석은 동화시를 번역하고 창작하면서 종결어미 '-네'를 쓰기 시작했다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001986876",
+          "quote": "백석 시에서 .-네.라는 종결어미가 쓰인 것은동화시를 번역하고 창작하면서부터였다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "d14479f3ee87"
+          ],
+          "field": "relation:influence--kim-sowol--baek-seok.summary",
+          "claim": "이경수는 '-네'에서 동향 선배 김억·김소월의 영향을 짚는다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001986876",
+          "quote": "마르샤크의 동화시집을 번역하면서 그가 .-네.라는 종결어미를 선택하게 된 이유에 대해서는좀 더 상세한 검증이 필요해 보이지만 동향의 선배 시인인 김억과 김소월의영향을 무시할 수 없어 보인다.",
+          "note": "이경수는 더 검증이 필요하다는 단서를 달고 영향을 '무시할 수 없어 보인다'고 쓴다. '짚는다'는 이 정도 무게로 읽힌다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "a7cdcb2e7e12"
+          ],
+          "field": "relation:affinity--rainer-maria-rilke--baek-seok.facts",
+          "claim": "릴케와 백석은 직접 영향이 확인되지 않은 친연 관계이고, 근거 수준은 editorial_inference다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002837226",
+          "quote": "릴케 번역이 활발하게 이루어지기 시작한 1930년대 중반 이후의 문단 분위기나 백석 시에 릴케의 이름이 등장하는 등의 사실로 미루어 볼 때 백석은 릴케의 시를 분명하게 인지하고 있었던 것으로 추측된다.",
+          "note": "노병춘(ART003009969)도 영향을 '추정'하는 데 그친다. 두 연구 모두 접촉이나 영향을 입증하지 않으므로, 이전 판정이 반려한 scholarly_consensus를 한 단계 낮춘 이 수준과 맞는다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "e3b6337d0e0d"
+          ],
+          "field": "relation:affinity--rainer-maria-rilke--baek-seok.summary",
+          "claim": "노병춘은 시 속 호명과 1939·1941년의 일본어 번역을 근거로 릴케의 영향을 추정한다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003009969",
+          "quote": "이러한 시에서 두 서양 시인을 언급하고 있다는 점은 백석이 이 두 시인의 영향을 받았을 것이라 짐작하게 한다. 백석이 이두 시인의 작품을 접하였을 가능성은 「흰 바람벽이 있어」가 1941년에 쓰여졌고, 릴케의산문시 … 가 일본어로 번역된 시점 또한1941년이라는 점과 … 가 1939년 일본어로 번역되어 소개되었다는 점",
+          "note": "줄임표 자리는 작품 제목(『기수 크리스토프 릴케의 사랑과 죽음의 노래』, 『말테의 수기』)이다. 초록 원문에서 이 제목들이 특수 괄호 문자(U+F000)로 싸여 있어 인용에서 뺐다. 두 번역 모두 릴케 작품이다. [checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "e3b6337d0e0d"
+          ],
+          "field": "relation:affinity--rainer-maria-rilke--baek-seok.summary",
+          "claim": "이혜원은 1930년대 중반 이후 문단의 릴케 번역과 시 속 호명을 근거로 백석이 릴케를 알았으리라 추측한다.",
+          "verdict": "confirmed",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002837226",
+          "quote": "릴케 번역이 활발하게 이루어지기 시작한 1930년대 중반 이후의 문단 분위기나 백석 시에 릴케의 이름이 등장하는 등의 사실로 미루어 볼 때 백석은 릴케의 시를 분명하게 인지하고 있었던 것으로 추측된다.",
+          "note": "[checker: 이번 세션에 출처를 다시 받아 인용문이 페이지에 그대로 있음을 확인. 유지.]"
+        },
+        {
+          "sids": [
+            "959d38a8c284"
+          ],
+          "field": "relation:influence--baek-seok--kim-yeon-su.summary",
+          "claim": "김연수는 출간 인터뷰에서 이 소설을 쓰며 시대가 바뀌어도 소설가가 변할 필요는 없다는 확신을 다시 얻었다고 말했다.",
+          "verdict": "confirmed",
+          "url": "https://www.kpinews.kr/newsView/upi202007020036",
+          "quote": "쓰고 나서 저 자신도 용기를 얻고 위로를 받은 것 같습니다. 지난 10년 동안 괴로웠던 순간들이 많았는데 소설에 대한 확신 같은 게 다시 생겼습니다. 시대가 바뀌었기 때문에 소설가도 변해야 한다든지 그런 고민을 했지만, 아, 그러지 않아도 되겠구나, 그런 이야기를 저분께 들은 거 같습니다.",
+          "note": "UPI뉴스가 KPI뉴스로 이름을 바꾸면서 같은 기사(조용호, 2020-07-02 기사승인, 『일곱 해의 마지막』 출간 인터뷰)가 kpinews.kr의 같은 경로에 살아 있다. 인용은 기사 첫머리의 김연수 발언 한 단락이다. '쓰고 나서'(이 소설을 쓰고), '확신 같은 게 다시 생겼습니다'(확신을 다시 얻었다), '소설가도 변해야 한다든지 … 그러지 않아도 되겠구나'(변할 필요는 없다)가 문장의 세 요소를 모두 받친다. 원문에서 '확신'은 소설에 대한 확신이고, 변하지 않아도 된다는 깨달음은 '저분(백석)께 들은 것 같다'는 말로 이어진다. 문장은 이 둘을 한데 묶었지만 뜻이 어긋나지는 않는다. 출처 레코드(src--upinews-kim-yeon-su-2020-07-03)의 url은 여전히 재생되지 않는 웨이백 사본이므로 kpinews.kr 주소로 바꾸는 편이 낫다. [checker: 이전 판정의 unverifiable을 새로 찾은 원문으로 재인용해 confirmed로 올림]"
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 36,
+        "requoted": 1,
+        "downgraded": 0,
+        "added": 5,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

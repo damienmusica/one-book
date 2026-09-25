@@ -1,0 +1,183 @@
+{
+ "fixes": [
+  {
+   "id": "annie-ernaux",
+   "resolutions": [
+    {
+     "field": "work:annie-ernaux--la-place.facts",
+     "claim": "『남자의 자리』는 1983년에 나왔다",
+     "resolution": "accepted",
+     "evidence": "메모는 그보다 이른 판을 찾지 못했다는 것이다 — 쪽은 그해 나왔다(attested)고만 말하고 초간을 단정하지 않는다"
+    },
+    {
+     "field": "work:annie-ernaux--une-femme.facts",
+     "claim": "『한 여자』는 1987년에 나왔다",
+     "resolution": "accepted",
+     "evidence": "메모는 그보다 이른 판을 찾지 못했다는 것이다 — 쪽은 그해 나왔다(attested)고만 말하고 초간을 단정하지 않는다"
+    },
+    {
+     "field": "work:annie-ernaux--la-honte.facts",
+     "claim": "『부끄러움』은 1996년에 나왔다",
+     "resolution": "accepted",
+     "evidence": "메모는 그보다 이른 판을 찾지 못했다는 것이다 — 쪽은 그해 나왔다(attested)고만 말하고 초간을 단정하지 않는다"
+    },
+    {
+     "field": "work:annie-ernaux--passion-simple.facts",
+     "claim": "『단순한 열정』은 1991년에 나왔다",
+     "resolution": "accepted",
+     "evidence": "메모는 그보다 이른 판을 찾지 못했다는 것이다 — 쪽은 그해 나왔다(attested)고만 말하고 초간을 단정하지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "baek-seok",
+   "resolutions": [
+    {
+     "field": "relation:influence--kim-sowol--baek-seok.facts",
+     "claim": "근거 수준은 scholarly_consensus다(신뢰할 만한 2차 연구가 반복해서 다루는 계보).",
+     "resolution": "accepted",
+     "evidence": "쪽은 「학계 합의」라고 말하지 않는다 — 여러 연구가 반복해 다루는 계보(relations-guide 의 scholarly_consensus 정의)"
+    }
+   ]
+  },
+  {
+   "id": "bernard-werber",
+   "resolutions": [
+    {
+     "field": "relation:influence--edgar-allan-poe--bernard-werber.facts",
+     "claim": "에드거 앨런 포가 베르베르에게 준 영향은 베르베르 자신의 기록으로 문서화되어 있다(documented_influence, documented)",
+     "resolution": "accepted",
+     "evidence": "요약이 1970년 어린 시절 단편에 대한 1인칭 진술로 범위를 좁혀 적었다"
+    }
+   ]
+  },
+  {
+   "id": "haruki-murakami",
+   "resolutions": [
+    {
+     "field": "relation:affinity--haruki-murakami--keigo-higashino.facts",
+     "claim": "근거 수준은 editorial_inference다 — 학계의 반복된 계보나 직접 교류 기록이 아니라 이 지도가 연구서 한 권을 근거로 짝지은 친연성이다.",
+     "resolution": "accepted",
+     "evidence": "관계는 편집 추론 수준으로 표시된다 — 메모의 「더 강한 근거 없음」을 쪽이 주장하지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "hwang-jung-eun",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "그런 자리에 사는 사람들의 목소리를 소설에 담았다",
+     "resolution": "accepted",
+     "evidence": "인용은 위키백과가 Korean Literature Now 를 옮긴 대목으로 위키백과 페이지에 그대로 있다"
+    },
+    {
+     "field": "work:hwang-jung-eun--ilgopsi-samsibibun-kokkiri-yeolcha.significance",
+     "claim": "이 소설집은 환상의 자리에 도시 변두리로 밀려난 사람들을 세웠다",
+     "resolution": "accepted",
+     "evidence": "인용은 위키백과가 Korean Literature Now 를 옮긴 대목으로 위키백과 페이지에 그대로 있다"
+    }
+   ]
+  },
+  {
+   "id": "hwang-sok-yong",
+   "resolutions": [
+    {
+     "field": "relation:affinity--hwang-sok-yong--kim-hoon.facts",
+     "claim": "근거 수준은 editorial_inference다 — 학계의 반복된 계보나 직접 교류 기록이 아니라 이 지도가 연구 한 편을 근거로 짝지은 친연성이다",
+     "resolution": "accepted",
+     "evidence": "관계는 편집 추론 수준으로 표시된다 — 메모의 「더 강한 근거 없음」을 쪽이 주장하지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "jd-salinger",
+   "resolutions": [
+    {
+     "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+     "claim": "베이커의 전기는 1946년 7월 샐린저가 헤밍웨이에게 보낸 편지를 전한다.",
+     "resolution": "accepted",
+     "evidence": "Open Library 전문 검색이 전기 본문의 편지 인용(Salinger to EH, July 27, 1946)을 돌려준다"
+    }
+   ]
+  },
+  {
+   "id": "jon-fosse",
+   "resolutions": [
+    {
+     "field": "relation:translation--antoine-de-saint-exupery--jon-fosse.summary",
+     "claim": "출판사 소개는 이 번역으로 『어린 왕자』가 마침내 뉘노르스크판을 얻었다고 적는다",
+     "resolution": "accepted",
+     "evidence": "쪽 문장은 출판사 소개로 귀속한다 — 「최초의 뉘노르스크 번역」이라 단정하지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "keigo-higashino",
+   "resolutions": [
+    {
+     "field": "work:keigo-higashino--akui.significance",
+     "claim": "범인이 밝혀진(체포된) 뒤에도 끝내 동기를 말하지 않는다",
+     "resolution": "accepted",
+     "evidence": "쪽 문장은 출처(決して語らない)의 폭을 넘지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "kim-ae-ran",
+   "resolutions": [
+    {
+     "field": "author.difficultyReason",
+     "claim": "『바깥은 여름』의 인물들은 무언가를 잃은 뒤에 남은 사람들이다.",
+     "resolution": "accepted",
+     "evidence": "출판사 리뷰가 「제자리에 멈춰 서버린 누군가의 얼어붙은 내면」이라 그대로 말한다 — 쪽은 수록작 전부를 그렇게 부르지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "kim-yeon-su",
+   "resolutions": [
+    {
+     "field": "author.difficultyReason",
+     "claim": "김연수의 문장은 밀도가 높다",
+     "resolution": "accepted",
+     "evidence": "출처는 「특히 이들 단편소설들에서」라 쓴다 — 작가 문장 일반의 평에 단편을 강조한 것"
+    }
+   ]
+  },
+  {
+   "id": "yi-cheong-jun",
+   "resolutions": [
+    {
+     "field": "author.readingEntryReason",
+     "claim": "「벌레 이야기」는 '용서는 누가 하는가'라는 질문을 던진다.",
+     "resolution": "accepted",
+     "evidence": "메모의 다른 읽기(1980년 체제 비판)는 쪽 문장과 모순되지 않는다"
+    }
+   ]
+  },
+  {
+   "id": "yun-dong-ju",
+   "resolutions": [
+    {
+     "field": "work:yun-dong-ju--seosi.facts",
+     "claim": "「서시」는 1948년 유고 시집에 실려 나왔다",
+     "resolution": "accepted",
+     "evidence": "메모는 그보다 이른 판을 찾지 못했다는 것이다 — 쪽은 그해 나왔다(attested)고만 말하고 초간을 단정하지 않는다"
+    },
+    {
+     "field": "work:yun-dong-ju--byeol-heneun-bam.facts",
+     "claim": "「별 헤는 밤」은 1948년 유고 시집 초간본에 실려 나왔다",
+     "resolution": "accepted",
+     "evidence": "메모는 그보다 이른 판을 찾지 못했다는 것이다 — 쪽은 그해 나왔다(attested)고만 말하고 초간을 단정하지 않는다"
+    },
+    {
+     "field": "work:yun-dong-ju--chamhoerok.facts",
+     "claim": "「참회록」은 1948년 유고 시집 초간본에 실려 나왔다",
+     "resolution": "accepted",
+     "evidence": "메모는 그보다 이른 판을 찾지 못했다는 것이다 — 쪽은 그해 나왔다(attested)고만 말하고 초간을 단정하지 않는다"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+  "plates": [
+    {
+      "id": "haruki-murakami",
+      "claims": [
+        {
+          "sids": [
+            "9b3a73613e08"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『노르웨이의 숲』 민음사 세계문학전집판은 양억관이 옮겨 2013년에 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/5279/",
+          "quote": "노르웨이의 숲 (세계문학전집) 원제 ノルウェイの森 글 무라카미 하루키 | 옮김 양억관 출판사 민음사 | 발행일 2013년 9월 2일",
+          "note": "민음사 도서 페이지 책소개 첫 단락. 같은 페이지 머리의 서지 블록은 \"옮김 양억관 출판사 민음사 | 발행일 2013년 9월 2일\"이고 \"시리즈 세계문학전집 310\"으로 적는다. 책소개도 \"전문 번역가 양억관은 등장인물의 심리와 관계성을 철저히 연구하여\"라고 역자를 밝힌다. [check] 재인용: 기존 인용문(책소개 첫 문장)은 '세계문학전집'만 받치고 역자 양억관과 2013년을 담지 않아, 같은 페이지 서지 블록의 연속 텍스트로 바꿨다. 이 세션에서 받은 페이지에 그대로 있다."
+        },
+        {
+          "sids": [
+            "9b3a73613e08"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 판은 한 권으로 되어 있다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/5279/",
+          "quote": "반양장 · 변형판 132x225 · 508쪽",
+          "note": "서지 블록의 패키지 항목. ISBN은 978-89-374-6310-5 하나이고 권차 표시가 없다. 같은 페이지의 '다른 책들' 목록은 『태엽 감는 새 연대기』 1·2·3, 『세계의 끝과 하드보일드 원더랜드』 1·2처럼 권차를 붙여 적는데 이 책에는 없다. 알라딘 상품 페이지 기본정보도 \"508쪽 132*225mm 570g ISBN : 9788937463105\"로 한 권이다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 같은 서지 블록의 ISBN도 978-89-374-6310-5 하나다."
+        },
+        {
+          "sids": [
+            "9b3a73613e08"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 판은 지금(2026년 9월) 새 책으로 살 수 있다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8937463105",
+          "quote": "지금 택배로 주문하면 9월 27일 출고",
+          "note": "2026-09-25에 받은 알라딘 상품 페이지(정본 주소 ItemId=29974103, 민음사·양억관·2013-09-02·ISBN 9788937463105 판). 같은 페이지의 schema.org Offer는 availability \"https://schema.org/InStock\", 가격 12,600원, itemCondition NewCondition이다. 민음사 도서 페이지에도 품절·절판 표시는 없다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 받은 페이지의 og:title은 \"노르웨이의 숲 | 민음사 세계문학전집 310 | 무라카미 하루키\"이고 schema.org availability는 InStock이다."
+        },
+        {
+          "sids": [
+            "77bd3ad3841b"
+          ],
+          "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+          "claim": "다무라 카프카는 열다섯 살이고, 아버지가 건 저주를 피해 집을 나온다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+          "quote": "「僕」田村カフカは東京都中野区野方に住む15歳の中学3年生である。父親にかけられた呪いから逃れるために家出を決心。",
+          "note": "일본어 위키백과 「あらすじ」 절. 같은 글의 인물 항목은 그 저주를 \"「母と交わり父を殺し、姉とも交わる」という呪い\"로 적는다. 영어 위키백과도 \"a bookish 15-year-old boy who runs away from his Oedipal curse\"라고 쓴다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "77bd3ad3841b"
+          ],
+          "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+          "claim": "카프카의 장은 1인칭·2인칭 현재형으로, 나카타의 장은 3인칭 과거형으로 서술된다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+          "quote": "「僕」の章は一人称および二人称現在形、「ナカタさん」の章は三人称過去形で物語られる。",
+          "note": "일본어 위키백과 「概要」 절. 이 문장에는 각주가 없고, 이번에 찾은 다른 자료(야후 지혜주머니 등)도 이 위키백과 문장을 그대로 옮긴 것이어서 독립된 2차 출처로 거듭 확인하지는 못했다. 문장은 출처와 정확히 일치한다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "77bd3ad3841b"
+          ],
+          "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+          "claim": "나카타는 노인이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%BE%BA%E3%81%AE%E3%82%AB%E3%83%95%E3%82%AB",
+          "quote": "ナカタもまた野方に住む、知的障害のある老人であった。",
+          "note": "영어 위키백과도 \"Satoru Nakata, an old, mentally disabled man\"이라고 쓴다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "77bd3ad3841b"
+          ],
+          "field": "work:haruki-murakami--umibe-no-kafuka.significance",
+          "claim": "카프카의 장과 나카타의 장이 번갈아 진행된다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Kafka_on_the_Shore",
+          "quote": "Comprising two distinct but interrelated plots, the narrative runs back and forth between both plots, taking up each in alternating chapters.",
+          "note": "영어 위키백과 Plot summary 절. 이어서 \"The odd-numbered chapters open with the introduction of the titular protagonist Kafka\", \"The even-numbered chapters tell Nakata's story.\"라고 쓴다. 참고로 같은 절은 짝수 장이 \"They start with military reports of a strange incident in Yamanashi Prefecture\"라고 하므로 짝수 장의 첫머리는 나카타를 3인칭으로 서술하는 장이 아니라 군 보고 문서다. 문장이 짝수 장 전부를 '노인 나카타의 장'이라고 단정하지는 않으므로 틀린 것은 아니다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "a478b59bbbeb"
+          ],
+          "field": "relation:affinity--haruki-murakami--keigo-higashino.facts",
+          "claim": "무라카미 하루키와 히가시노 게이고는 형식·주제 친연성(affinity)으로 쌍방 연결된다 — 두 작가의 소설을 함께 읽은 연구가 있다.",
+          "verdict": "confirmed",
+          "url": "https://doi.org/10.20613/hikaku.66.0_103",
+          "quote": "第２部「村上春樹・東野圭吾における〝母なるもの〟」は、二人の作家の小説作品を読み解き、特に村上における「妹」と〈喪失〉の表現と、東野における「母性」や「なりすます」行為について追究する。",
+          "note": "나카무라 미하루의 서평(『比較文学』 66, 2024, 103쪽, J-STAGE PDF)에서 오노 마사코 『母恋い』(PHPエディターズ・グループ, 2021)의 구성을 소개한 대목. 세로쓰기 PDF라 구두점이 세로쓰기 글리프(︑ ﹁﹂)로 들어 있어 가로쓰기 문자(、「」)로 옮겼을 뿐 글자는 그대로다. 같은 서평은 저자를 \"著者は比較文学、イギリス・ルネッサンス文学を専門とする。\"로 소개한다. 방향: one-book docs/relations-guide.md §1 표가 affinity를 bidirectional로 정의하므로 화살표는 표시 순서일 뿐이다. [check] 2026-09-25 J-STAGE PDF(_pdf)를 다시 받아 pdftotext로 추출한 본문에서, 세로쓰기 구두점을 가로쓰기 문자로만 바꾸면 인용문이 한 문장 그대로 이어져 있음을 확인했다. relations-guide §1 표의 affinity 행이 bidirectional임도 확인했다."
+        },
+        {
+          "sids": [
+            "a478b59bbbeb"
+          ],
+          "field": "relation:affinity--haruki-murakami--keigo-higashino.facts",
+          "claim": "근거 수준은 editorial_inference다 — 학계의 반복된 계보나 직접 교류 기록이 아니라 이 지도가 연구서 한 권을 근거로 짝지은 친연성이다.",
+          "verdict": "confirmed",
+          "url": "https://www.jstage.jst.go.jp/article/hikaku/66/0/66_103/_article/-char/ja/",
+          "quote": "大野雅子著『母恋い―メディアと、村上春樹・東野圭吾にみる〝母性〞』 （ＰＨＰエディターズ・グループ、二〇二一年）",
+          "note": "J-STAGE 서평 레코드의 citation_title 메타데이터. 이 짝을 받치는 것은 오노 마사코의 연구서 한 권과 그 서평뿐이고, 이번 웹 검색(村上春樹 東野圭吾 比較 論文)에서도 두 작가를 함께 다룬 다른 연구나 두 사람의 직접 교류 기록은 나오지 않았다. relations-guide §0은 scholarly_consensus에 '신뢰할 만한 2차 연구가 반복적으로 다루는' 계보를 요구하므로 editorial_inference는 과장이 아니다. 다만 같은 §0은 editorial_inference 요약에 \"직접 접촉의 기록은 없다\"가 드러나야 한다고 요구하는데, 이 관계의 summary(이번 추출 대상 아님)에는 그 문장이 없다. [check] 2026-09-25 J-STAGE 레코드를 다시 받아 citation_title 메타데이터가 인용문과 같음을 확인했다. relations-guide는 affinity에 scholarly_consensus 또는 editorial_inference를 허용하고, 가장 약한 등급인 editorial_inference는 이 증거보다 강하게 말하지 않는다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 8,
+        "requoted": 1,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "plates": [
+    {
+      "id": "annie-ernaux",
+      "claims": [
+        {
+          "sids": [
+            "2e167c59d421"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『세월』은 '나'(1인칭)를 쓰지 않고 3인칭으로 서술한다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Les_Ann%C3%A9es_(ouvrage_d'Annie_Ernaux)",
+          "quote": "Le récit de l'existence unique de l'autrice met à distance celle qu'elle fut par le refus d'employer le « je » et le choix de recourir à l'usage de la troisième personne.",
+          "note": "프랑스어 위키백과 「Les Années (ouvrage d'Annie Ernaux)」 Présentation 절. 따옴표 « » 안쪽 공백은 원문에서 줄바꿈 없는 공백(U+00A0)이다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "2e167c59d421"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『세월』은 '그녀'와 '우리'의 목소리로 서술한다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+          "quote": "소설의 시점은 '그녀'와 '우리', '사람들'을 오간다.",
+          "note": "알라딘 『세월』(THE CIRCLE PRESS 2025) 페이지의 '편집장의 선택'(알라딘 소설 MD 권벼리, 2019.03.19). Seven Stories 영어판 소개도 같은 방향이다: \"the narrator eschews the \\\"I\\\" for the \\\"we\\\" (or \\\"they,\\\" or \\\"one\\\")\". 같은 페이지의 Bookforum 평은 \"The 'she' of The Years\"라고 쓴다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "2e167c59d421"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『세월』은 자기 생애를 프랑스 사회의 변화와 겹쳐 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Years_(Ernaux_book)",
+          "quote": "In the book, Ernaux writes about herself in the third person … providing a vivid look at French society just after the Second World War until the early 2000s.",
+          "note": "영어 위키백과 「The Years (Ernaux book)」 Synopsis 절. [check] 재인용 — 이전 인용문(알라딘 372971850의 meta description, \"1940년대 전쟁 직후 태어난 한 여성이 … 프랑스 사회가 겪은 격변의 순간들을 병치한다.\")은 본문이 아니라 meta 태그에만 있고, 주어가 '한 여성'이라 '자기 생애'를 싣지 못하며 '전쟁 직후 태어난'도 부정확하다. 이 세션에서 가져온 영어 위키백과 문장은 에르노가 자기 자신을 3인칭으로 쓰면서 전후부터 2000년대 초까지의 프랑스 사회를 보여 준다고 말해, '자기 생애'와 '프랑스 사회의 변화'를 한 문장에 싣는다. 같은 절의 다음 문장도 \"It is the social story of a woman and of the evolving society she lived in.\"이다. 에르노 자신도 노벨 자전 약력에서 『세월』을 \"a collective historical and social autobiography\"라고 부른다(이 세션에서 확인)."
+        },
+        {
+          "sids": [
+            "2e167c59d421"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『세월』이 겹쳐 쓴 기간은 60여 년이다",
+          "verdict": "confirmed",
+          "url": "https://www.sevenstories.com/books/4032-the-years",
+          "quote": "The Years is a personal narrative from Annie Ernaux of the period 1941 to 2006",
+          "note": "1941–2006은 65년이라 '60여 년'에 맞는다. 프랑스어 위키백과도 \"Le roman brasse 60 ans d'histoire commune en reprenant les grands et petits événements de cette période, les modes de vies et sujets de conversation, et leurs répercussions sur elle-même et son cercle familial.\"라고 쓴다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 1941–2006은 65년으로 '60여 년'의 범위 안이다."
+        },
+        {
+          "sids": [
+            "272490c76c58"
+          ],
+          "field": "work:annie-ernaux--la-place.facts",
+          "claim": "『남자의 자리』의 원제는 La Place다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341510563",
+          "quote": "원제 : La Place",
+          "note": "알라딘 한국어판 서지의 원제 표기. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "272490c76c58"
+          ],
+          "field": "work:annie-ernaux--la-place.facts",
+          "claim": "『남자의 자리』는 1983년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+          "quote": "La place. – Paris : Gallimard, 1983",
+          "note": "노벨문학위원장 안데르스 올손의 bio-bibliography 프랑스어 서지. BnF 서지(https://catalogue.bnf.fr/ark:/12148/cb347283009)도 초판(Gallimard, ISBN 2070700488)의 연도를 1983으로 적는다. 다만 갈리마르 카탈로그는 이 초판의 발매일(Parution)을 04-01-1984로, 인쇄 완료(Achevé d'imprimer)를 19-12-1983으로 적는다. 1983은 인쇄·판권 연도이고, 서점에 나온 것은 1984년 1월이다. 르노도상도 1984년에 받았다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 이 세션에서 가져온 갈리마르 초판 페이지(웨이백 20250327111835)도 'Parution 04-01-1984'로 적는다. 판권 연도 1983은 노벨 서지가 적는 출간 연도이므로 확인을 유지한다."
+        },
+        {
+          "sids": [
+            "272490c76c58"
+          ],
+          "field": "work:annie-ernaux--la-place.facts",
+          "claim": "『남자의 자리』는 소설이 아니라 역사·전기(history) 갈래의 글이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250327111835/https://www.gallimard.fr/catalogue/la-place/9782070700486",
+          "quote": "Genres Mémoires et autobiographies",
+          "note": "갈리마르 카탈로그(웨이백 2025-03-27 사본)의 Genres 칸. 같은 페이지 소개문은 아버지 삶을 다룬 책이라고 쓴다: \"elle entreprend le récit de cette vie « soumise à la nécessité »\". 에르노 자신도 노벨 자전 약력에서 \"Entitled A Man’s Place, it marks a definitive break with the novelistic genre.\"라고 쓴다. 프랑스어 위키백과는 이 책을 \"roman à caractère autobiographique\"이자 \"auto-socio-biographie\"로 부른다. 사이트 갈래 체계에는 회고록·자서전 칸이 없어 '역사·전기'가 가장 가까운 칸이다(작품 페이지는 이 줄을 「· 연도 · 역사·전기」로 그린다). 출판사 분류가 받치는 것은 '소설이 아닌 회고록·자서전'까지이고, '역사'라는 말 자체를 이 책에 붙인 출처는 아니다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 사이트 갈래 정의(src/types.ts GENRE_DEFS)에서 history의 영어 이름은 'History & biography'다. 회고록·자서전은 생애 기록이므로 그 칸의 '전기' 쪽에 든다. 출판사가 이 책을 소설이 아니라 회고록·자서전으로 분류하므로, 인용문만으로 이 칸이 받쳐진다."
+        },
+        {
+          "sids": [
+            "fda9c8e1413c"
+          ],
+          "field": "work:annie-ernaux--une-femme.facts",
+          "claim": "『한 여자』의 원제는 Une femme다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=17127251",
+          "quote": "원제 : Une Femme (1987년)",
+          "note": "알라딘 한국어판 서지의 원제 표기. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "fda9c8e1413c"
+          ],
+          "field": "work:annie-ernaux--une-femme.facts",
+          "claim": "『한 여자』는 1987년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+          "quote": "Une femme. – Paris : Gallimard, 1987",
+          "note": "노벨문학위원장 안데르스 올손의 bio-bibliography 프랑스어 서지. BnF 서지(https://catalogue.bnf.fr/ark:/12148/cb34925264w)도 초판(Gallimard, ISBN 2070712001)을 1987로 적는다. 다만 갈리마르 카탈로그의 발매일은 14-01-1988이고 인쇄 완료일은 11-12-1987이다. 프랑스어 위키백과도 \"publié en 1988\"이라고 쓴다. 1987은 인쇄·판권 연도다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 이 세션에서 가져온 갈리마르 초판 페이지(웨이백 20250529001848)도 'Parution 14-01-1988'로 적는다. 판권 연도 1987은 노벨 서지가 적는 출간 연도이므로 확인을 유지한다."
+        },
+        {
+          "sids": [
+            "fda9c8e1413c"
+          ],
+          "field": "work:annie-ernaux--une-femme.facts",
+          "claim": "『한 여자』는 소설이 아니라 역사·전기(history) 갈래의 글이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250529001848/https://www.gallimard.fr/catalogue/une-femme/9782070712007",
+          "quote": "Genres Mémoires et autobiographies",
+          "note": "갈리마르 카탈로그(웨이백 2025-05-29 사본)의 Genres 칸. 에르노 자신은 이 책을 전기도 소설도 아니라고 했다. 프랑스어 위키백과 「Une femme」에 실린 필리프 빌랭의 인용: \"ses récits ne sont ni des biographies, ni des romans, mais « peut-être quelque chose entre la littérature, la sociologie et l'histoire »\". 올손의 bio-bibliography는 이 책이 에르노 글쓰기의 성격을 밝혀 준다며 그 글쓰기를 \"shifting between fiction, sociology and history\"라고 쓴다. 따라서 '소설 아님'과 '역사' 쪽은 작가의 말과 맞는다. '전기' 쪽은 작가가 좁은 뜻에서 부정했으므로, 이 칸은 체계상 가장 가까운 칸일 뿐이다. 프랑스어 위키백과는 \"cinquième roman\"으로 부른다. 사이트 갈래 체계에는 회고록·자서전 칸이 없어 '역사·전기'가 가장 가까운 칸이다(작품 페이지는 이 줄을 「· 연도 · 역사·전기」로 그린다). 출판사 분류가 받치는 것은 '소설이 아닌 회고록·자서전'까지다. '역사'는 위의 작가 인용과 올손의 평이 받친다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 사이트 갈래 정의(src/types.ts GENRE_DEFS)에서 history의 영어 이름은 'History & biography'다. 회고록·자서전은 생애 기록이므로 그 칸의 '전기' 쪽에 든다. 출판사가 이 책을 소설이 아니라 회고록·자서전으로 분류하므로, 인용문만으로 이 칸이 받쳐진다."
+        },
+        {
+          "sids": [
+            "5a9d6713d689"
+          ],
+          "field": "work:annie-ernaux--la-honte.facts",
+          "claim": "『부끄러움』의 원제는 La Honte다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=190043819",
+          "quote": "원제 : La Honte (1997년)",
+          "note": "알라딘 한국어판 서지의 원제 표기. 괄호 안의 원서 연도(1997년)는 이 슬레이트의 1996과 다르다. 연도는 아래 별도 주장에서 다룬다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "5a9d6713d689"
+          ],
+          "field": "work:annie-ernaux--la-honte.facts",
+          "claim": "『부끄러움』은 1996년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+          "quote": "La honte. – Paris : Gallimard, 1996",
+          "note": "노벨문학위원장 안데르스 올손의 bio-bibliography 프랑스어 서지. BnF 서지(https://catalogue.bnf.fr/ark:/12148/cb358589199)도 초판(Gallimard, ISBN 2070747875)을 1996으로 적는다. 다만 갈리마르 카탈로그의 발매일은 14-01-1997이고 인쇄 완료일은 12-12-1996이다. 알라딘 원서 표기와 프랑스어 위키백과 동음이의 문서는 1997로 적는다. 1996은 인쇄·판권 연도다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 이 세션에서 가져온 갈리마르 초판 페이지(웨이백 20241130185958)도 'Parution 14-01-1997'로 적는다. 판권 연도 1996은 노벨 서지가 적는 출간 연도이므로 확인을 유지한다."
+        },
+        {
+          "sids": [
+            "5a9d6713d689"
+          ],
+          "field": "work:annie-ernaux--la-honte.facts",
+          "claim": "『부끄러움』은 소설이 아니라 역사·전기(history) 갈래의 글이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241130185958/https://www.gallimard.fr/catalogue/la-honte/9782070747870",
+          "quote": "Genres Mémoires et autobiographies",
+          "note": "갈리마르 카탈로그(웨이백 2024-11-30 사본)의 Genres 칸. BnF 서지의 주제어도 \"Ernaux, Annie (1940-....) -- Jeunesse\"로 작가 자신의 소녀 시절을 다룬 책으로 분류한다. 프랑스어 위키백과 동음이의 문서는 \"roman d'Annie Ernaux\"라고 부른다. 사이트 갈래 체계에는 회고록·자서전 칸이 없어 '역사·전기'가 가장 가까운 칸이다(작품 페이지는 이 줄을 「· 연도 · 역사·전기」로 그린다). 출판사 분류가 받치는 것은 '소설이 아닌 회고록·자서전'까지이고, '역사'라는 말 자체를 이 책에 붙인 출처는 아니다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 사이트 갈래 정의(src/types.ts GENRE_DEFS)에서 history의 영어 이름은 'History & biography'다. 회고록·자서전은 생애 기록이므로 그 칸의 '전기' 쪽에 든다. 출판사가 이 책을 소설이 아니라 회고록·자서전으로 분류하므로, 인용문만으로 이 칸이 받쳐진다."
+        },
+        {
+          "sids": [
+            "f1d0a7349648"
+          ],
+          "field": "work:annie-ernaux--l-evenement.facts",
+          "claim": "『사건』의 원제는 L'Événement다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=214365821",
+          "quote": "원제 : L’événement (2000년)",
+          "note": "알라딘 한국어판 서지의 원제 표기. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "f1d0a7349648"
+          ],
+          "field": "work:annie-ernaux--l-evenement.facts",
+          "claim": "『사건』은 2000년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+          "quote": "L’événement. – Paris : Gallimard, 2000",
+          "note": "노벨문학위원장 안데르스 올손의 bio-bibliography 프랑스어 서지. 갈리마르 카탈로그의 발매일도 14-03-2000이고, BnF 서지(https://catalogue.bnf.fr/ark:/12148/cb371016759)도 2000으로 적는다. 연도 출처는 서로 어긋나지 않는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 이 세션에서 가져온 갈리마르 페이지(웨이백 20241130195232)의 'Parution 14-03-2000'과도 맞는다."
+        },
+        {
+          "sids": [
+            "f1d0a7349648"
+          ],
+          "field": "work:annie-ernaux--l-evenement.facts",
+          "claim": "『사건』은 소설이 아니라 역사·전기(history) 갈래의 글이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241130195232/https://www.gallimard.fr/catalogue/l-evenement/9782070758012",
+          "quote": "Genres Mémoires et autobiographies",
+          "note": "갈리마르 카탈로그(웨이백 2024-11-30 사본)의 Genres 칸. BnF 서지의 주제어는 \"Avortement -- France -- 1945-1970\"이다. 올손의 bio-bibliography도 1인칭 서사로서 \"the historical self\"와의 거리를 말한다. 프랑스어 위키백과 동음이의 문서는 \"roman d’Annie Ernaux\"라고 부른다. 사이트 갈래 체계에는 회고록·자서전 칸이 없어 '역사·전기'가 가장 가까운 칸이다(작품 페이지는 이 줄을 「· 연도 · 역사·전기」로 그린다). 출판사 분류가 받치는 것은 '소설이 아닌 회고록·자서전'까지이고, '역사'라는 말 자체를 이 책에 붙인 출처는 아니다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 사이트 갈래 정의(src/types.ts GENRE_DEFS)에서 history의 영어 이름은 'History & biography'다. 회고록·자서전은 생애 기록이므로 그 칸의 '전기' 쪽에 든다. 출판사가 이 책을 소설이 아니라 회고록·자서전으로 분류하므로, 인용문만으로 이 칸이 받쳐진다."
+        },
+        {
+          "sids": [
+            "38f6249f64dc"
+          ],
+          "field": "work:annie-ernaux--les-annees.facts",
+          "claim": "『세월』의 원제는 Les Années다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=372971850",
+          "quote": "원제 : Les Années",
+          "note": "알라딘 한국어판 서지의 원제 표기. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "38f6249f64dc"
+          ],
+          "field": "work:annie-ernaux--les-annees.facts",
+          "claim": "『세월』은 2008년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20240724095935/https://www.gallimard.fr/Catalogue/GALLIMARD/Blanche/Les-annees",
+          "quote": "Parution : 07-02-2008",
+          "note": "갈리마르 카탈로그(웨이백 2024-07-24 사본). 인쇄 완료일은 23-01-2008이다. 노벨 bio-bibliography(\"Les années. – Paris : Gallimard, 2008\")와 BnF 서지(https://catalogue.bnf.fr/ark:/12148/cb412080199)도 2008로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "38f6249f64dc"
+          ],
+          "field": "work:annie-ernaux--les-annees.facts",
+          "claim": "『세월』은 소설이 아니라 역사·전기(history) 갈래의 글이다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/biographical/",
+          "quote": "I was able to successfully complete the writing of The Years, a collective historical and social autobiography.",
+          "note": "에르노 자신의 노벨 자전 약력. 갈리마르 카탈로그도 \"Genre : Mémoires et autobiographies\"로 분류하고, 소개문에 \"elle inscrit l'existence dans une forme nouvelle d'autobiographie, impersonnelle et collective\"라고 쓴다. 반대 분류도 있다: 프랑스어 위키백과 Présentation 절은 \"Le roman brasse 60 ans…\"처럼 roman이라고 부르고, 알라딘은 한국어판의 주제 분류를 '국내도서 > 소설/시/희곡 > 프랑스소설'로 둔다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 이 세션에서 가져온 갈리마르 페이지(웨이백 20240724095935)도 \"Genre : Mémoires et autobiographies\"라고 적는다. 인용문의 'historical'과 'autobiography'가 사이트 칸 'History & biography'의 두 쪽을 모두 받친다."
+        },
+        {
+          "sids": [
+            "844487f073d7"
+          ],
+          "field": "work:annie-ernaux--passion-simple.facts",
+          "claim": "『단순한 열정』의 원제는 Passion simple다",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=20949513",
+          "quote": "원제 : Passion Simple (1991년)",
+          "note": "알라딘 한국어판 서지의 원제 표기. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "844487f073d7"
+          ],
+          "field": "work:annie-ernaux--passion-simple.facts",
+          "claim": "『단순한 열정』은 1991년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2022/bio-bibliography/",
+          "quote": "Passion simple. – Paris : Gallimard, 1991",
+          "note": "노벨문학위원장 안데르스 올손의 bio-bibliography 프랑스어 서지. yearBasis가 attested라 1991은 그해 나온 것이 확인됐다는 뜻까지만 말한다. BnF 서지(https://catalogue.bnf.fr/ark:/12148/cb35490255f)도 초판(Gallimard, ISBN 2070725049)을 1991로 적는다. 다만 갈리마르 카탈로그의 발매일은 14-01-1992이고 인쇄 완료일은 23-12-1991이다. 프랑스어 위키백과도 \"publié le 14 janvier 1992\"라고 쓴다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 이 세션에서 가져온 갈리마르 초판 페이지(웨이백 20241107124325)도 'Parution 14-01-1992'로 적는다. 판권 연도 1991은 노벨 서지가 적는 출간 연도이므로 확인을 유지한다."
+        },
+        {
+          "sids": [
+            "844487f073d7"
+          ],
+          "field": "work:annie-ernaux--passion-simple.facts",
+          "claim": "『단순한 열정』은 소설이 아니라 역사·전기(history) 갈래의 글이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241107124325/https://www.gallimard.fr/catalogue/passion-simple/9782070725045",
+          "quote": "Genres Mémoires et autobiographies",
+          "note": "갈리마르 카탈로그(웨이백 2024-11-07 사본)의 Genres 칸. 프랑스어 위키백과는 \"roman autobiographique\"라고 부르고, 이 슬레이트의 작품 해설이 인용하는 한국어판 출판사는 '반(反)감정소설'이라고 부른다. 연애의 기록을 '역사·전기'에 넣는 것은 독자에게 가장 어색하게 읽힐 수 있다. 사이트 갈래 체계에는 회고록·자서전 칸이 없어 '역사·전기'가 가장 가까운 칸이다(작품 페이지는 이 줄을 「· 연도 · 역사·전기」로 그린다). 출판사 분류가 받치는 것은 '소설이 아닌 회고록·자서전'까지이고, '역사'라는 말 자체를 이 책에 붙인 출처는 아니다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 사이트 갈래 정의(src/types.ts GENRE_DEFS)에서 history의 영어 이름은 'History & biography'다. 회고록·자서전은 생애 기록이므로 그 칸의 '전기' 쪽에 든다. 출판사가 이 책을 소설이 아니라 회고록·자서전으로 분류하므로, 인용문만으로 이 칸이 받쳐진다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 21,
+        "requoted": 1,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

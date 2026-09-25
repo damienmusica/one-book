@@ -49,7 +49,8 @@ for (const f of list("--reverdicts")) {
 for (const f of list("--fixes")) {
   for (const fx of JSON.parse(readFileSync(f, "utf8")).fixes ?? []) {
     const p = byId.get(fx.id); if (!p) { unmatched++; continue; }
-    const open = p.claims.filter((c: Raw) => c.verdict !== "confirmed" || isLeak(c));
+    // 아직 열린 주장만 — 이미 닫힌(해결·accepted) 같은 문구의 주장이 해결 기록을 가로채지 않게(덧읽기로 같은 주장이 두 번 오를 수 있다).
+    const open = p.claims.filter((c: Raw) => isOpen(c));
     (fx.resolutions ?? []).forEach((r: Raw, i: number) => {
       const target = open.find((c: Raw) => c.field === r.field && c.claim === r.claim) ?? open[i];
       if (!target) { unmatched++; return; }

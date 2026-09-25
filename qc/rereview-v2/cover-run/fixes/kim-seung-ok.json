@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "kim-seung-ok",
+      "difficultyReason": "대표작 대부분이 짧은 단편이다. 다만 인물의 속내가 안개 같은 감각적 이미지와 자조적인 대화 속에 놓여 있다.",
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "햇볕도 인물의 속내를 싣는 김승옥의 감각적 이미지다",
+          "resolution": "removed"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "인물의 속내는 암시로만 놓여 있다(직접 말해지지 않는다)",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

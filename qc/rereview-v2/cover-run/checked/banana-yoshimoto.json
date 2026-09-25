@@ -1,0 +1,172 @@
+{
+  "plates": [
+    {
+      "id": "banana-yoshimoto",
+      "claims": [
+        {
+          "sids": [
+            "03d59bafb1c0"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "민음사판 『키친』은 200여 쪽 한 권이다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "패키지 양장 · 46판 128x188mm · 204쪽",
+          "note": "출판사 도서 페이지는 204쪽이고, 알라딘 상품 페이지(https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=149213)는 \"양장본 198쪽\"으로 적는다. 두 값 모두 '200여 쪽'이라는 어림 표현 안에 든다. 같은 문장의 '한두 번 앉아 읽을 수 있다'는 분량에서 끌어낸 독서 조언이라 사실 주장으로 대지 않았다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "03d59bafb1c0"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "민음사판 한 권에 「키친」「만월」「달빛 그림자」가 함께 실려 있다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "목차 키친 만월 달빛 그림자 후기 옮긴이의 말",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "03d59bafb1c0"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「키친」은 데뷔작이고 「달빛 그림자」는 대학 졸업 작품이다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "요시모토 바나나는 일본대학 예술학부를 졸업하면서 졸업 작품으로 쓴 「달빛 그림자」로 예술학부 부장상을 탔고, 데뷔작으로 발표한 「키친」으로는",
+          "note": "ja.wikipedia 「キッチン (小説)」의 수록작 표도 「ムーンライト・シャドウ」를 \"大学の卒業制作\"으로 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "03d59bafb1c0"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「만월」은 「키친」의 속편이다.",
+          "verdict": "confirmed",
+          "url": "https://www.shinchosha.co.jp/book/135913/",
+          "quote": "目次 キッチン 満月――キッチン2 ムーンライト・シャドウ",
+          "note": "신초샤 문고판 목차가 「満月」에 'キッチン2'라는 부제를 붙인다. ja.wikipedia 줄거리도 「満月」이 미카게가 다나베가를 나온 뒤의 이야기를 이어 간다고 적는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "4ea16389dbf7"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「키친」은 할머니를 잃은 화자가 남의 집 부엌에서 회복해 가는 이야기다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "その祖母さえも亡くしてしまい、天涯孤独の身となる。…みかげは田辺家の台所に続く居間のソファで眠るようになり、風変わりなえり子・雄一親子とも少しずつ打ち解けていく。かつてのボーイフレンドとの再会などを経て、日を追うごとに祖母の死を受け入れ、みかげの心は再生していく。",
+          "note": "같은 문서 등장인물 절이 미카게를 \"主人公で語り手\"로 적어 '화자'도 맞다. 출처가 정확히 말하는 것은 다나베가의 '부엌으로 이어진 거실 소파에서 잠든다'는 것이라 '부엌에서'는 한 단계 압축한 표현이다. 신초샤 책 소개도 이 이야기를 \"私がこの世でいちばん好きな場所は台所だと思う──祖母の死、突然の奇妙な同居\"로 묶으므로 틀렸다고 보지는 않았다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 인용문 자체에는 '화자'가 없어, 그 부분은 아래 추가 주장으로 따로 댄다."
+        },
+        {
+          "sids": [
+            "4ea16389dbf7"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「키친」의 미카게는 이야기의 화자이며, 할머니를 잃은 뒤 남(유이치)의 집에 들어간다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "主人公で語り手。大学生だが休学中。両親、祖父母を失い、祖母の知人であった雄一の家に引き取られる",
+          "note": "[check] 추가 — 앞 주장의 인용문이 '화자'를 담지 못해, 같은 문서 등장인물 절의 桜井みかげ（私） 항목에서 이 세션에 가져온 문장으로 받쳤다."
+        },
+        {
+          "sids": [
+            "4ea16389dbf7"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "「달빛 그림자」에는 죽은 애인의 교복을 입고 등교하는 고등학생이 나온다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "죽은 애인의 세일러복(치마)을 입고 등교하는 고등학생(「달빛 그림자」)",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "4ea16389dbf7"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 이야기들은 사랑하는 사람의 죽음과 상실감, 남겨진 사람들의 고통을 위로한다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/product/getContents.aspx?isbn=893740317X&name=Introduce&type=0&date=1",
+          "quote": "요시모토 바나나의 대표작으로, 사랑하는 사람의 죽음, 그로 인한 상처와 상실감, 남겨진 사람들의 고통을 위로하는 따뜻한 구원의 손길을 보낸다.",
+          "note": "알라딘에 실린 민음사판 『키친』 책소개다. 출처의 주어는 두 이야기가 함께 실린 책 전체이고, 문장은 그 책에 실린 두 이야기를 두고 말하므로 범위가 맞는다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "b40fffde7724"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "요시모토 바나나의 대화체는 간결하다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "등장인물들이 주고받는 통어법에 얽매이지 않는 간결한 대화체나 주인공들이 겪는 신비스러운 체험 등은 만화와의 혈연 관계를 짐작하게 한다.",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "b40fffde7724"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "고전적 교양이나 배경지식을 요구하지 않는다.",
+          "verdict": "contradicted",
+          "url": "https://minumsa.minumsa.com/book/199/",
+          "quote": "그는 독자들에게 고전적 교양 따위는 애초부터 요구하지 않는다. 같은 시대를 살아왔고 살아간다는 시대적(문화적) 동질감을 가지고 있으면 누구라도 그녀의 세계에 쉽게 동참할 수 있다.",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 인용문이 받치는 것은 '고전적 교양'뿐이고, 문장의 '배경지식'은 출처에 없는 범위 확장이다. 출처는 오히려 영화·만화·유행가 같은 대중적 소재로 환기되는 시대적(문화적) 동질감을 읽기의 전제로 든다. 이전 판정도 이 단서가 빠졌다고 적었는데 재작성본이 '배경지식'을 그대로 두었으므로 확인으로 둘 수 없다. '고전적 교양을 요구하지 않는다'로 좁히면 확인된다.",
+          "correction": "고전적 교양은 요구하지 않는다. 다만 출처는 같은 시대를 산 사람의 시대적(문화적) 동질감을 전제로 누구나 쉽게 동참할 수 있다고 말하므로, '배경지식을 요구하지 않는다'는 출처보다 넓다."
+        },
+        {
+          "sids": [
+            "60b3e3ee278b"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.significance",
+          "claim": "대학생 미카게는 부모와 할아버지에 이어 할머니마저 잃고 혼자 남는다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "両親と祖父を早くに亡くし、祖母と暮らしてきた大学生・桜井みかげだが、その祖母さえも亡くしてしまい、天涯孤独の身となる。",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "60b3e3ee278b"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.significance",
+          "claim": "'어머니' 에리코는 아내를 잃은 뒤 성전환해 게이 바를 꾸려 왔다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "雄一の母（実は父）。本名は雄司。妻をがんで失い、性転換してゲイバーを経営し、雄一を育ててきた。",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "60b3e3ee278b"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.significance",
+          "claim": "미카게는 에리코와 그 아들 유이치의 집에 얹혀 살며 조금씩 회복해 간다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "雄一宅に居候することとなる。雄一はゲイバーを経営する母・えり子（実は父・雄司）とマンション…みかげは田辺家の台所に続く居間のソファで眠るようになり、風変わりなえり子・雄一親子とも少しずつ打ち解けていく。かつてのボーイフレンドとの再会などを経て、日を追うごとに祖母の死を受け入れ、みかげの心は再生していく。",
+          "note": "[check] 이 세션에서 해당 URL을 다시 가져왔다. 원문은 「マンション」 뒤에 각주 표시 [6]이 끼어 있어 이전 인용문이 그대로 일치하지 않았다. 같은 문단 안에서 각주 앞뒤를 '…'로 잘라 다시 인용했다."
+        },
+        {
+          "sids": [
+            "60b3e3ee278b"
+          ],
+          "field": "work:banana-yoshimoto--kitchin.significance",
+          "claim": "「키친」은 단편이다.",
+          "verdict": "confirmed",
+          "url": "https://ja.wikipedia.org/wiki/キッチン_(小説)",
+          "quote": "『キッチン』は、吉本ばななの短編小説、およびそれを表題作とする短編集。",
+          "note": "ja.wikipedia 는 「키친」을 短編小説로 분류한다. en.wikipedia 「Kitchen (novel)」는 영역본(수록작 포함)을 \"novel\"로 부르므로 길이 분류는 출처마다 다르다. '단편'은 일본어 출처의 표현 그대로라 확인으로 두었다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. en.wikipedia 「Kitchen (novel)」도 이 작품을 인용한 서평에서 \"novella\"로 부른다(중편 규모). '단편'은 ja.wikipedia 분류 그대로다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 11,
+        "requoted": 1,
+        "downgraded": 1,
+        "added": 1,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

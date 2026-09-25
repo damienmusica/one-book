@@ -1,0 +1,17 @@
+{
+  "fixes": [
+    {
+      "id": "choi-in-hoon",
+      "dropRelations": [
+        "influence--charles-dickens--choi-in-hoon"
+      ],
+      "resolutions": [
+        {
+          "field": "relation:influence--charles-dickens--choi-in-hoon.facts",
+          "claim": "이 영향은 학계 통설(scholarly_consensus) 수준이다",
+          "resolution": "relation-dropped"
+        }
+      ]
+    }
+  ]
+}

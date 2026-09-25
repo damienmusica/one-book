@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "jeong-you-jeong",
+      "relations": [
+        {
+          "id": "influence--charles-dickens--jeong-you-jeong",
+          "summary": "정유정은 『7년의 밤』 출간 인터뷰(『국민일보』 2011년 3월 18일)에서 헤밍웨이·찰스 디킨스·스티븐 킹을 정말 좋아하는 작가로 꼽고, 디킨스처럼 인물이 독자를 안달 나고 걱정하게 만드는 작품을 쓰고 싶다고 말했다. 2017년 『Korean Literature Now』의 산문 「I Dream of Fire, Always」에서는 작가 대부분이 평생 한 주제를 변주한다는 말의 예로 디킨스의 ‘아버지를 찾는 소년들’을 들었다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "relation:influence--charles-dickens--jeong-you-jeong.summary",
+          "claim": "정유정은 그 글에서 디킨스가 평생 ‘아버지를 찾는 소년들’을 변주했다며, 작가가 평생 한 주제를 변주한다는 예로 들었다.",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

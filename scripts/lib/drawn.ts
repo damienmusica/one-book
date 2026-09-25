@@ -37,7 +37,7 @@ export function drawnFor(
   nameOf: (id: string) => string
 ): Drawn[] {
   const out: Drawn[] = [];
-  const life = a.birthYear === undefined ? `활동 ${a.activeRange.join("–")}` : `${a.birthYear}–${a.deathYear ?? ""}`;
+  const life = a.birthYear === undefined ? `활동 ${a.activeRange.join("–")}` : `${a.birthYear}–${a.deathYear ?? ""}${a.lifeApprox ? " 무렵" : ""}`;
   fact(out, "author.facts", `${a.names.ko}(${a.names.original ?? ""}) · ${life} · ${a.languages.join("·")} · ${a.regions.join("·")}${a.movements.length ? ` · ${a.movements.join("·")}` : ""}`);
   push(out, "author.importanceReason", a.importanceReason);
   push(out, "author.readingEntryReason", a.readingEntryReason);

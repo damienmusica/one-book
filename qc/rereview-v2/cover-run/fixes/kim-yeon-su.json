@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "kim-yeon-su",
+      "relations": [
+        {
+          "id": "translation--roald-dahl--kim-yeon-su",
+          "summary": "김연수는 로알드 달의 동화 『창문닦이 삼총사』를 옮겨 1997년 시공주니어 문고로 냈다. 예스24는 이 책의 역자를 1993년 『작가세계』로 등단한 김연수의 작가 소개에 잇고, 한국문학번역원 작가 소개도 그가 레이먼드 카버와 로알드 달을 번역했다고 적는다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "relation:translation--roald-dahl--kim-yeon-su.summary",
+          "claim": "시공주니어 책(1997년판)에 실린 역자 소개가 1993년 『작가세계』로 등단한 김연수의 역서로 이 책을 든다",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}

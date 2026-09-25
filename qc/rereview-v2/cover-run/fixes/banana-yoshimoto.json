@@ -1,0 +1,15 @@
+{
+  "fixes": [
+    {
+      "id": "banana-yoshimoto",
+      "difficultyReason": "대화체가 간결하고 고전적 교양을 요구하지 않는다. 다만 『N.P』는 부녀와 이복형제 사이의 금지된 사랑과 잇단 자살을 정면으로 다루고, 『암리타』는 504쪽 분량에 초자연적 감각이 전면에 나와 앞의 책들보다 인내가 필요하다.",
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "고전적 교양이나 배경지식을 요구하지 않는다.",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

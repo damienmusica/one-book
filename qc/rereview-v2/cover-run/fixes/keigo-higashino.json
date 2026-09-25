@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "keigo-higashino",
+      "relations": [
+        {
+          "id": "affinity--edgar-allan-poe--keigo-higashino",
+          "evidenceLevel": "editorial_inference"
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "relation:affinity--edgar-allan-poe--keigo-higashino.facts",
+          "claim": "근거 수준은 ‘학계 통설’(scholarly_consensus)이다 — 여러 2차 연구가 반복해 다룬 친연성이다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

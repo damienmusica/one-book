@@ -154,19 +154,6 @@
     ]
   },
   {
-    "id": "influence--charles-dickens--choi-in-hoon",
-    "sourceId": "charles-dickens",
-    "targetId": "choi-in-hoon",
-    "type": "documented_influence",
-    "direction": "directed",
-    "weight": 0.5,
-    "summary": "최인훈은 1960년대에 디킨스의 소설 제목을 그대로 가져온 다섯 편 연작 「크리스마스 캐럴」을 썼다. 배지연의 논문 「최인훈 『크리스마스 캐럴』 연작 연구」(『한국언어문학』 75, 2010)는 이 연작을 디킨스의 『크리스마스 캐럴』과 비교해, 두 작품이 모두 크리스마스를 배경으로 당대의 풍속과 담론을 다룬다는 공통점 위에서 최인훈이 디킨스를 패러디로 다시 썼다고 분석한다.",
-    "evidenceLevel": "scholarly_consensus",
-    "sourceIds": [
-      "src--bae-jiyeon-choi-in-hoon-christmas-carol-2010"
-    ]
-  },
-  {
     "id": "influence--william-faulkner--cormac-mccarthy",
     "sourceId": "william-faulkner",
     "targetId": "cormac-mccarthy",
@@ -351,7 +338,7 @@
     "type": "dialogue",
     "direction": "bidirectional",
     "weight": 0.75,
-    "summary": "샐린저는 제2차 세계대전 중 파리에서 종군기자로 일하던 헤밍웨이를 찾아가 만났고, 이후 둘은 편지를 주고받았다. 카를로스 베이커의 전기 『Ernest Hemingway: A Life Story』(1969)는 1946년 7월 샐린저가 헤밍웨이에게 그와 나눈 대화가 전쟁에서 몇 안 되는 좋은 기억이었다고 쓴 편지를 전한다.",
+    "summary": "샐린저는 제2차 세계대전 중 파리에서 종군기자로 일하던 헤밍웨이를 찾아가 만났고, 이후 둘은 편지를 주고받았다. 카를로스 베이커의 전기 『Ernest Hemingway: A Life Story』(1969)는 1946년 7월 샐린저가 헤밍웨이에게 그와의 대화가 전쟁을 통틀어 유일한 희망의 시간이었다고 쓴 편지를 전한다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--baker-hemingway-life-story-1969"
@@ -411,7 +398,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.75,
-    "summary": "정유정은 『7년의 밤』 출간 인터뷰(『국민일보』 2011년 3월 18일)에서 헤밍웨이·찰스 디킨스·스티븐 킹을 정말 좋아하는 작가로 꼽고, 디킨스처럼 인물이 독자를 안달 나고 걱정하게 만드는 작품을 쓰고 싶다고 말했다. 2017년 『Korean Literature Now』의 산문 「I Dream of Fire, Always」에서는 디킨스가 평생 ‘아버지를 찾는 소년들’을 변주했다며 작가마다 평생의 주제가 있다는 예로 들었다.",
+    "summary": "정유정은 『7년의 밤』 출간 인터뷰(『국민일보』 2011년 3월 18일)에서 헤밍웨이·찰스 디킨스·스티븐 킹을 정말 좋아하는 작가로 꼽고, 디킨스처럼 인물이 독자를 안달 나고 걱정하게 만드는 작품을 쓰고 싶다고 말했다. 2017년 『Korean Literature Now』의 산문 「I Dream of Fire, Always」에서는 작가 대부분이 평생 한 주제를 변주한다는 말의 예로 디킨스의 ‘아버지를 찾는 소년들’을 들었다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--kmib-jeong-you-jeong-2011",
@@ -580,7 +567,7 @@
     "direction": "bidirectional",
     "weight": 0.55,
     "summary": "비교문학 연구자 호리에 다마키는 논문 「東野圭吾とエドガー・アラン・ポー」(『大阪府立大学紀要』 60권, 2012)에서 비교문학의 시각으로는 히가시노에게서 란포보다 포의 자질이 보인다고 보고, 『超・殺人事件』의 인물이 밀실을 고안한 이는 포라며 「모르그 가의 살인」을 드는 대목과 『숙명』의 쌍둥이 형제의 반목을 포의 「윌리엄 윌슨」에 잇대어 읽었다. 같은 연구자는 「東野圭吾と猫」(2016)에서 히가시노 추리소설 속 고양이를 포의 「검은 고양이」에 견주었다.",
-    "evidenceLevel": "scholarly_consensus",
+    "evidenceLevel": "editorial_inference",
     "sourceIds": [
       "src--horie-higashino-poe-2012",
       "src--horie-higashino-neko-2016"
@@ -763,7 +750,7 @@
     "type": "translation",
     "direction": "directed",
     "weight": 0.7,
-    "summary": "김연수는 로알드 달의 동화 『창문닦이 삼총사』를 옮겨 1997년 시공주니어 문고로 냈다. 시공주니어 책의 역자 소개는 1993년 『작가세계』로 등단한 그의 역서로 이 책을 들고, 한국문학번역원 작가 소개도 그가 레이먼드 카버와 로알드 달을 번역했다고 적는다.",
+    "summary": "김연수는 로알드 달의 동화 『창문닦이 삼총사』를 옮겨 1997년 시공주니어 문고로 냈다. 예스24는 이 책의 역자를 1993년 『작가세계』로 등단한 김연수의 작가 소개에 잇고, 한국문학번역원 작가 소개도 그가 레이먼드 카버와 로알드 달을 번역했다고 적는다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--kim-yeon-su-trans-dahl-1997",
@@ -1161,7 +1148,7 @@
     "type": "documented_influence",
     "direction": "directed",
     "weight": 0.75,
-    "summary": "위화는 『十个词汇里的中国』(한국어판 『사람의 목소리는 빛보다 멀리 간다』)에 실린 산문 「鲁迅：从一个词汇回到一个作家」에서 문화대혁명기 교과서로 억지로 읽던 루쉰을 1996년 영화 각색 자문을 계기로 다시 읽고 「광인일기」와 「쿵이지」에 놀라, 그 밤 루쉰이 ‘하나의 어휘에서 한 작가로 돌아왔다’고 썼다. 2017년 인터뷰에서는 성장기 10년 동안 곁에 있던 유일한 작가가 루쉰이고 그 영향은 분명히 있다고 말했다.",
+    "summary": "위화는 『十个词汇里的中国』(한국어판 『사람의 목소리는 빛보다 멀리 간다』)에 실린 산문 「鲁迅」에서 문화대혁명기 교과서로 억지로 읽던 루쉰을 1996년 영화 각색 자문을 계기로 다시 읽고 「광인일기」와 「쿵이지」에 놀라, 그 밤 루쉰이 ‘하나의 어휘에서 한 작가로 돌아왔다’고 썼다. 2017년 인터뷰에서는 성장기 10년 동안 곁에 있던 유일한 작가가 루쉰이고 그 영향은 분명히 있다고 말했다.",
     "evidenceLevel": "documented",
     "sourceIds": [
       "src--yu-hua-lu-xun-essay",

@@ -1,0 +1,15 @@
+{
+  "fixes": [
+    {
+      "id": "yeom-sang-seop",
+      "difficultyReason": "「만세전」은 도쿄에서 서울까지의 여정을 따라 장면이 하나씩 이어진다. 『삼대』는 문학과지성사판 711쪽 분량에 조씨 집안 삼대와 사회주의자 병화·경애 등 여러 인물의 사건이 복잡하게 얽혀 있어 인물 관계를 붙들고 읽는 집중이 필요하다.",
+      "resolutions": [
+        {
+          "field": "author.difficultyReason",
+          "claim": "「만세전」은 줄거리를 따라가기 쉽다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

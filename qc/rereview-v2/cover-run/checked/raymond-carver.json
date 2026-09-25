@@ -1,0 +1,106 @@
+{
+  "plates": [
+    {
+      "id": "raymond-carver",
+      "claims": [
+        {
+          "sids": [
+            "c0d50f3d3810"
+          ],
+          "field": "author.importanceReason",
+          "claim": "의자나 포크 같은 평범한 사물과 무심해 보이는 대사 한 줄에 긴장을 싣는 글쓰기를 지향했다",
+          "verdict": "contradicted",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "It's possible, in a poem or a short story, to write about commonplace things and objects using commonplace but precise language, and to endow those things - a chair, a window curtain, a fork, a stone, a woman's earrings - with immense, even startling power. It is possible to write a line of seemingly innocuous dialogue and have it send a chill along the reader's spine - the source of artistic delight, as Nabokov would have it. That's the kind of writing that most interests me.",
+          "note": "카버 본인의 글(「A Storyteller's Shoptalk」, 1981). 원문은 사물에 싣는 것을 'immense, even startling power'로, 대사가 하는 일을 독자의 등골을 서늘하게 하는 것('send a chill')으로 적는다. ‘긴장’은 이 둘을 옮긴 말이고, 같은 에세이가 긴장이 구체적인 낱말의 연결에서 나온다고 이어 쓰므로 오독은 아니다. 원문에 더 가까운 말은 ‘큰 힘’이다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 그러나 인용문은 사물에 싣는 것을 'immense, even startling power'로, 대사 한 줄이 하는 일을 'send a chill along the reader's spine'으로 적을 뿐 'tension'이라는 말은 없다. 같은 에세이에서 tension을 말하는 대목은 뒤쪽의 별개 문단('What creates tension in a piece of fiction is partly the way the concrete words are linked together…')이고, 거기서 긴장의 원천은 사물이나 대사 한 줄이 아니라 구체적 낱말의 연결과 생략된 것이다. 두 문단을 이어 붙여야만 '사물과 대사 한 줄에 긴장을 싣는다'가 되므로 인용문 하나로는 받쳐지지 않는다. 수정 방향: '긴장' 대신 원문의 '놀라운 힘'과 '등골을 서늘하게'를 쓰고, 뒤 절의 '긴장은 … 에서도'의 '도'는 '긴장은 빠진 것과 암시된 것에서 나온다고도'로 고친다.",
+          "correction": "의자나 포크 같은 평범한 사물에 놀라운 힘을 싣고, 무심해 보이는 대사 한 줄로 독자의 등골을 서늘하게 하는 글쓰기에 가장 관심이 있다고 썼으며"
+        },
+        {
+          "sids": [
+            "c0d50f3d3810"
+          ],
+          "field": "author.importanceReason",
+          "claim": "긴장은 빠진 것과 암시된 것에서도 나온다고 카버 스스로 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "What creates tension in a piece of fiction is partly the way the concrete words are linked together to make up the visible action of the story. But it's also the things that are left out, that are implied, the landscape just under the smooth (but sometimes broken and unsettled) surface of things.",
+          "note": "[check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "d99996ecdc15"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "리시는 일부 작품의 제목과 인물 이름을 바꿨다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Beginners_(short_story_collection)",
+          "quote": "The stories in Beginners were heavily edited by Gordon Lish before publication as What We Talk About When We Talk About Love. His edits included cutting up to 78% of some stories, retitling stories, changing endings, and renaming characters.",
+          "note": "브리태니커도 'Lish was shown to have changed characters’ names'로 인물 이름 변경을 적는다. 제목 변경은 D. T. Max 기사에도 구체적인 예가 있다(「A Small, Good Thing」을 「The Bath」로 바꾼 것). [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 인용문은 위키백과 본문 첫 문단에 그대로 있다('retitling stories … renaming characters')."
+        },
+        {
+          "sids": [
+            "d99996ecdc15"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "리시는 결말 열 개를 고쳐 썼다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "In the case of Carver's 1981 collection, \"What We Talk About When We Talk About Love,\" Lish cut about half the original words and rewrote 10 of the 13 endings.",
+          "note": "D. T. Max가 릴리 도서관 원고를 조사해 적은 수로, 결말 열세 개 가운데 열 개다. 문장은 모수를 말하지 않지만 틀린 수는 아니다. 브리태니커는 'altered the endings of some stories'로만 적어 수를 대지 않는다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 문장 '결말 열 개를 고쳐 썼으며'는 인용문의 'rewrote 10 of the 13 endings'와 수가 맞는다."
+        },
+        {
+          "sids": [
+            "d99996ecdc15"
+          ],
+          "field": "work:raymond-carver--beginners.significance",
+          "claim": "리시가 70퍼센트 넘게 덜어낸 단편도 있었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20250108222610/https://www.britannica.com/biography/Raymond-Carver",
+          "quote": "Lish was shown to have changed characters’ names, cut the length of many stories (over 75 percent of the text in two cases), and altered the endings of some stories.",
+          "note": "이전 판에서 쓰던 스냅샷(20230320202200)은 이제 404 페이지로 넘어가서 2025년 1월 스냅샷을 새로 받았다. 영어 위키백과(Beginners)는 'cutting up to 78% of some stories', D. T. Max는 「Mr. Coffee and Mr. Fixit」에서 'Lish cut 70 percent of the original words'라고 적는다. 브리태니커가 두 편에서 75퍼센트를 넘었다고 하므로 ‘70퍼센트 넘게’가 성립한다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "957e40e7df56"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "리시가 「별것 아닌 것 같지만, 도움이 되는」을 줄여 「목욕」이라는 제목을 붙였다",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/library/books/081098carver-mag.html",
+          "quote": "With a longer story, \"A Small, Good Thing,\" in which a couple anxiously wait for their child to come out of a coma, Lish cut the text by a third, eliminating most of the description -- and all of the introspection. He retitled it \"The Bath,\"",
+          "note": "출판사 책 소개(예스24 12991848)는 거꾸로 「별것 아니지만, 도움이 되는」이 카버가 이전에 발표했던 「목욕」을 다시 고쳐 쓴 것으로 유명하다고 적는다. 하지만 원고를 조사한 D. T. Max는 긴 판본이 먼저이고 리시가 이를 3분의 1 줄여 「목욕」으로 만들었다고 밝힌다. 영어 위키백과(Beginners)도 블레이크 모리슨의 비교를 옮기며 'Carver's \"A Small Good Thing\" with Lish's version, \"The Bath\"'로 적어, 리시가 줄였다는 방향을 뒷받침한다. [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 이 인용문은 긴 판본이 먼저 있었고 리시가 3분의 1을 줄여 「목욕」으로 제목을 바꿨다고 적으므로 '리시가 「목욕」으로 줄인'의 방향과 맞는다. 출판사 소개의 '「목욕」을 다시 고쳐 쓴 것'은 출간 순서(1981년 「목욕」, 1983년 긴 판본)를 말한 것으로 이와 충돌하지 않는다."
+        },
+        {
+          "sids": [
+            "957e40e7df56"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "『대성당』에 「별것 아닌 것 같지만, 도움이 되는」이 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "표제작 「대성당」을 비롯해 「별것 아닌 것 같지만, 도움이 되는」 「깃털들」 등 총 열두 편의 단편이 실려 있는 이 작품집은",
+          "note": "[check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "957e40e7df56"
+          ],
+          "field": "work:raymond-carver--cathedral.significance",
+          "claim": "이 단편에서 아이를 잃은 부부가 빵집 주인 곁에서 그 죽음을 받아들인다",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/12991848",
+          "quote": "같은 일이 「별것 아닌 것 같지만, 도움이 되는」에서도 일어났습니다. 한 부부가 빵집 주인과 함께 있습니다. … 그 부부는 아이의 죽음을 받아들일 수 있게 되죠.",
+          "note": "출판사 책 소개가 옮겨 실은 카버 본인의 말이다(같은 문단 안에서 줄임). [check] 2026-09-25 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 줄임표는 한 인용 문단 안에서만 썼다(사이에 빠진 문장은 '저는 애당초 이 소설을 영혼의 차원까지 끌어올릴 생각은 없었는데, 만약 그렇다고 하더라도 긍정적인 분위기로 끝납니다.')."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 7,
+        "requoted": 0,
+        "downgraded": 1,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

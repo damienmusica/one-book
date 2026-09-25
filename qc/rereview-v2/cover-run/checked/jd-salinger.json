@@ -1,0 +1,84 @@
+{
+  "plates": [
+    {
+      "id": "jd-salinger",
+      "claims": [
+        {
+          "sids": [
+            "e97901adef48"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『호밀밭의 파수꾼』은 퇴학당한 소년이 집에 돌아가기까지의 며칠을 따라간다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/1716/",
+          "quote": "『호밀밭의 파수꾼』은 사립학교의 문제아 홀든 콜필드가 퇴학을 당하고 집으로 돌아오기까지 며칠간의 일들을 담은 작품이다.",
+          "note": "민음사 도서 페이지 편집자 리뷰. 같은 페이지에 \"홀든은 학교에 선처를 호소하는 대신 퇴학을 통고하는 편지가 집에 도착할 때까지 뉴욕 거리를 헤매기로 마음먹는다.\"라는 문장도 있다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "e97901adef48"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "소설 전체가 홀든 한 사람의 목소리(독백)로 서술된다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/1716/",
+          "quote": "명문 기숙학교에서 퇴학당한 문제아 홀든 콜필드의 독백으로 펼쳐지는 이 소설은",
+          "note": "영어 위키백과 「The Catcher in the Rye」(원문 wikitext로 받음)의 Style 절도 \"narrated in a subjective style from the point of view of Holden Caulfield\"라고 쓰고, 이 글을 First-person narrative novels 분류에 넣는다. '단선 구조'와 '배경지식 없이 읽힌다'는 읽기에 대한 판단이어서 따로 재지 않았다. 참고로 같은 위키백과 줄거리 절은 소설이 홀든이 캘리포니아 요양소로 보내졌음을 내비치며 끝난다고 적는다. 회고하는 틀과 여담이 있지만 사건 줄기는 하나다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. '단선 구조'·'배경지식 없이 읽힌다'는 읽기 판단이라 사실 주장으로 떼지 않았다."
+        },
+        {
+          "sids": [
+            "e97901adef48"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "(민음사 세계문학전집판, 정영목 옮김, 2023) 이 책은 320쪽이다.",
+          "verdict": "confirmed",
+          "url": "https://minumsa.minumsa.com/book/1716/",
+          "quote": "반양장 · 변형판 132x225 · 320쪽",
+          "note": "서지 블록의 '패키지' 항목. 같은 블록에 옮김 정영목, 발행일 2023년 1월 17일, ISBN 978-89-374-6047-0, 세계문학전집 47이 적혀 있다. 이 문장은 판을 밝히지 않고 320쪽이라고 한다. 쪽수는 판마다 다르므로, 바로 다음 문장이 가리키는 민음사판에만 맞는 수치다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "46040d17f559"
+          ],
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "카를로스 베이커의 헤밍웨이 전기 『Ernest Hemingway: A Life Story』는 1969년에 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Carlos_Baker",
+          "quote": "In 1969, Baker published a well-regarded scholarly biography of Ernest Hemingway, Ernest Hemingway: A Life Story",
+          "note": "위키백과 원문 wikitext로 받았고 링크 표기만 걷어 냈다. archive.org의 스캔본 메타데이터(ernesthemingwayl0000carl)도 title \"Ernest Hemingway; a life story\", creator \"Baker, Carlos, 1909-1987\", publisher \"New York, Scribner\", date \"1969\"로 일치한다. [check] 이 세션에서 위키백과 원문(action=raw)을 다시 가져와 인용문이 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "46040d17f559"
+          ],
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "베이커의 전기는 1946년 7월 샐린저가 헤밍웨이에게 보낸 편지를 전한다.",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/search/inside.json?q=%22Salinger%20to%20EH%2C%20July%2027%2C%201946%22",
+          "quote": "of the Hemingway Fan Clubs. (J. D. Salinger to EH, July 27, 1946.)",
+          "note": "archive.org 대출 도서라 본문 검색(inside.php)은 막혀 있다. 대신 Open Library 전문 검색 API(https://openlibrary.org/search/inside.json?q=%22Salinger%20to%20EH%2C%20July%2027%2C%201946%22)로 받은 발췌다. Scribner판·Collins판 스캔 7종에서 같은 문장이 나왔다. 스캔 뒤쪽(ernesthemingwayl0000carl의 page_num 762)에 있어서 본문이 아니라 책 뒤 주석으로 보인다. 출처 기록이 적은 '420쪽'은 확인하지 못했다. AP 기사(Deseret News, 2010-03-26)도 JFK 도서관에 전시된 이 편지를 \"the summer of 1946\"의 편지로 소개한다. [check] 다시 인용 — archive.org 상세 페이지는 대출 도서라 본문이 보이지 않으므로, 이 세션에 실제로 가져온 Open Library 전문 검색 결과로 URL을 바꾸고 그 결과가 준 발췌(identifier ernesthemingwayl0000carl_e3a4, page_num 762)를 그대로 인용했다. 같은 검색에서 ernesthemingwayl00bake·ernesthemingwayl0000bake_q8n3·ernesthemingwayl00bake_0도 같은 문장을 준다."
+        },
+        {
+          "sids": [
+            "46040d17f559"
+          ],
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "그 편지에서 샐린저는 헤밍웨이와 나눈 대화가 전쟁에서 몇 안 되는 좋은 기억이었다고 썼다.",
+          "verdict": "contradicted",
+          "url": "https://openlibrary.org/search/inside.json?q=%22recalled%20that%20his%20talks%20with%20Ernest%20in%20Europe%20had%20given%20him%20his%20only%20hopeful%20minutes%20of%20the%20entire%20war%22",
+          "quote": "recalled that his talks with Ernest in Europe had given him his only hopeful minutes of the entire war",
+          "correction": "카를로스 베이커의 전기 『Ernest Hemingway: A Life Story』(1969)는 1946년 7월 샐린저가 헤밍웨이에게 보낸 편지를 전하는데, 샐린저는 유럽에서 헤밍웨이와 나눈 대화가 전쟁을 통틀어 유일하게 희망을 느낀 시간이었다고 썼다.",
+          "note": "베이커는 '몇 안 되는(few)' 좋은 기억이 아니라 '유일한(only)' 희망의 시간이라고 쓴다. 문장을 약하게 옮기면서 뜻이 바뀌었다. 인용은 Open Library 전문 검색 API로 받은 발췌 세 개를 이어 붙였다. 「\"with Ernest in Europe\"」 검색이 준 \"collapsed. But he recalled that his talks with Ernest in Europe had given him his only hopeful minutes of\", 「\"hopeful minutes of the entire war\"」 검색이 준 \"with Ernest in Europe had given him his only hopeful minutes of the entire war, and named himself national\", 「\"Hemingway Fan Clubs\"」 검색이 준 \"and named himself national chairman of the Hemingway Fan Clubs. (J. D. Salinger to EH, July 27, 1946.)\"이다. 세 발췌가 서로 겹쳐서 원문에서 이어진 한 문단임이 확인된다. 편지 원문도 같은 뜻이다. AP 기사(Deseret News, 2010-03-26)는 편지 끝 문장을 \"The talks I had with you here were the only hopeful minutes of the whole business\"로 인용한다. 슬레이트의 출처 기록 src--baker-hemingway-life-story-1969의 citation도 '몇 안 되는 희망의 순간'이라고 적고 있어 함께 고쳐야 한다. [check] 다시 인용 — 이전 인용은 검색 발췌 세 개를 겹쳐 이은 것이라, 이 세션에 한 번의 검색으로 받은 연속 발췌 하나(identifier ernesthemingwayl0000carl, page_num 762)로 바꿨다. 'only'가 그대로 있어 contradicted 판정과 correction이 유지된다. 1946년 7월 편지라는 점은 바로 앞 주장이 받친다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 4,
+        "requoted": 2,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

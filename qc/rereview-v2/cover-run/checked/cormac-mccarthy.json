@@ -1,0 +1,84 @@
+{
+  "plates": [
+    {
+      "id": "cormac-mccarthy",
+      "claims": [
+        {
+          "sids": [
+            "166b0f5b7910"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『로드』는 매카시 후기의 간결한(미니멀한) 문장으로 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+          "quote": "whose raggedly ornate early novels about misfits and grotesques gave way to the lush taciturnity of “All the Pretty Horses” and the apocalyptic minimalism of “The Road,”",
+          "note": "2023년 『뉴욕 타임스』 부고(드와이트 가너)를 Wayback 사본으로 확인했다. '후기'라는 말도 같은 부고가 받친다: “Mr. McCarthy’s later period began in earnest with “All the Pretty Horses,”” — 후기가 1992년 『모두 다 예쁜 말들』에서 시작했으니 2006년 『로드』도 후기에 든다. '매카시의 문체에 처음 적응하기에 알맞다'는 이 사실에서 끌어낸 읽기 판단이고, 출처가 따로 하는 말은 아니다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 인용문의 'early novels … gave way to … the apocalyptic minimalism of “The Road,”'가 초기와 대비되는 뒤 시기(후기)의 간결한 문장을 한 구절 안에서 받친다. '처음 적응하기에 알맞다'는 읽기 판단이라 출처 대조 대상이 아니다."
+        },
+        {
+          "sids": [
+            "b9e77a6e867b"
+          ],
+          "field": "relation:influence--herman-melville--cormac-mccarthy.facts",
+          "claim": "멜빌이 매카시에게 준 영향은 문헌으로 기록돼 있다(documented_influence, documented)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20240610003212/https://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html?pagewanted=all",
+          "quote": "\"Blood Meridian\" has distinct echoes of \"Moby-Dick,\" McCarthy's favorite book.",
+          "note": "1992년 우드워드 인터뷰 기사. 같은 기사에서 매카시가 멜빌을 '좋은 작가' 셋 가운데 첫째로 꼽는다(“His list of those whom he calls the \"good writers\" -- Melville, Dostoyevsky, Faulkner --”). 기사가 'influence'라는 낱말을 멜빌에게 직접 쓰지는 않는다. 근거는 작가 본인이 멜빌을 꼽았다는 점, 『모비 딕』이 가장 좋아하는 책이라는 점, 『핏빛 자오선』에 『모비 딕』의 뚜렷한 메아리가 있다는 인터뷰어의 판단이다. 2023년 NYT 부고가 인용한 제임스 우드(『뉴요커』 2005)의 평도 매카시의 수사가 멜빌을 '복화술하듯' 되살린다고 쓴다: “a histrionic rhetoric that brilliantly ventriloquizes the King James Bible, Shakespearean and Jacobean tragedy, Melville, Conrad, and Faulkner.” 멜빌(1819–1891)에서 매카시로 가는 방향은 연대로 정해진다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. 같은 구절이 『모비 딕』의 '뚜렷한 메아리'를 매카시 본인의 소설에서 짚으므로 영향 관계를 한 인용으로 받친다. 제임스 우드의 평(부고)도 이 세션에서 원문 그대로 확인했다."
+        },
+        {
+          "sids": [
+            "41161a99b869",
+            "74fca78631df"
+          ],
+          "field": "relation:influence--herman-melville--cormac-mccarthy.summary",
+          "claim": "근거가 된 인터뷰는 1992년 『뉴욕 타임스 매거진』에 실린 리처드 B. 우드워드의 매카시 인터뷰다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241231224417/https://www.nytimes.com/2023/06/13/books/cormac-mccarthy-dead.html",
+          "quote": "It was before the release of “All the Pretty Horses” in 1992 that Mr. McCarthy agreed to talk to The Times Magazine for his first major interview. The author of the article, Richard B. Woodward, noted",
+          "note": "부고의 바로 다음 문단이 “The author of the article, Richard B. Woodward,”라고 필자를 밝힌다. 기사 원문(Wayback 사본, https://web.archive.org/web/20240610003212/https://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html?pagewanted=all)의 메타데이터도 제목 “Cormac McCarthy's Venomous Fiction”, 필자 “By Richard B. Woodward”, 게재일 1992-04-19, 섹션 Magazine으로 일치한다. 본문에도 “Once he had agreed to an interview”가 있어 인터뷰에 응한 기사임이 확인된다. [check] 재인용 — 이전 인용문에는 필자 이름이 없어, 같은 문단에서 바로 이어지는 문장까지 한 구절로 넓혀 1992년·『타임스 매거진』·인터뷰·리처드 B. 우드워드를 인용문 하나가 모두 싣게 했다. 이 세션에서 부고 Wayback 사본을 다시 가져와 확인했고, 1992년 기사 사본의 머리글 “By Richard B. Woodward April 19, 1992”도 확인했다."
+        },
+        {
+          "sids": [
+            "74fca78631df"
+          ],
+          "field": "relation:influence--herman-melville--cormac-mccarthy.summary",
+          "claim": "매카시는 그 인터뷰에서 삶과 죽음의 문제를 다루는 '좋은 작가'로 멜빌을 꼽았다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20240610003212/https://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html?pagewanted=all",
+          "quote": "His list of those whom he calls the \"good writers\" -- Melville, Dostoyevsky, Faulkner -- precludes anyone who doesn't \"deal with issues of life and death.\"",
+          "note": "목록은 멜빌·도스토옙스키·포크너 셋이고, 프루스트와 헨리 제임스는 빠진다고 이어서 적는다. 2023년 NYT 부고도 같은 발언을 다시 인용한다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "74fca78631df"
+          ],
+          "field": "relation:influence--herman-melville--cormac-mccarthy.summary",
+          "claim": "인터뷰어는 『모비 딕』을 매카시가 가장 좋아하는 책으로 소개했다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20240610003212/https://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html?pagewanted=all",
+          "quote": "\"Blood Meridian\" has distinct echoes of \"Moby-Dick,\" McCarthy's favorite book.",
+          "note": "'가장 좋아하는 책'은 매카시의 직접 인용이 아니라 인터뷰어(우드워드)의 서술이다. 문장이 '인터뷰어는 … 소개하며'라고 주어를 인터뷰어로 둔 것은 맞다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다."
+        },
+        {
+          "sids": [
+            "74fca78631df"
+          ],
+          "field": "relation:influence--herman-melville--cormac-mccarthy.summary",
+          "claim": "인터뷰어는 『핏빛 자오선』의 판사 홀든이 에이해브 선장과 비슷한 장광설을 늘어놓는다고 적었다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20240610003212/https://www.nytimes.com/1992/04/19/magazine/cormac-mccarthy-s-venomous-fiction.html?pagewanted=all",
+          "quote": "A mad hairless giant named Judge Holden makes florid speeches not unlike Captain Ahab's.",
+          "note": "원문 'florid speeches'는 '화려하게 꾸민 연설'에 가깝고, '장광설'은 길이를 강조하는 말이라 뉘앙스가 조금 다르다. 사실관계는 맞다. 더 정확하게 옮기려면 '에이해브 선장을 닮은 화려한 연설을 늘어놓는다'가 낫다. 2023년 NYT 부고도 판사가 “put many readers in mind of Melville’s Captain Ahab”이라고 쓴다. [check] 이 세션에서 해당 URL을 다시 가져와 인용문이 원문 그대로 있음을 확인했다. '장광설'(길고 거침없는 말)은 'florid speeches'(화려하게 꾸민 연설)와 길이 쪽 뉘앙스가 다르나, 홀든이 에이해브를 닮은 연설을 늘어놓는다는 인터뷰어의 서술 자체는 인용이 싣는다. 번역어 선택의 문제로 보고 유지한다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 5,
+        "requoted": 1,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

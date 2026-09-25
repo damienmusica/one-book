@@ -1,0 +1,26 @@
+{
+  "fixes": [
+    {
+      "id": "jd-salinger",
+      "relations": [
+        {
+          "id": "dialogue--ernest-hemingway--jd-salinger",
+          "summary": "샐린저는 제2차 세계대전 중 파리에서 종군기자로 일하던 헤밍웨이를 찾아가 만났고, 이후 둘은 편지를 주고받았다. 카를로스 베이커의 전기 『Ernest Hemingway: A Life Story』(1969)는 1946년 7월 샐린저가 헤밍웨이에게 그와의 대화가 전쟁을 통틀어 유일한 희망의 시간이었다고 쓴 편지를 전한다."
+        }
+      ],
+      "sources": [
+        {
+          "id": "src--baker-hemingway-life-story-1969",
+          "citation": "420쪽 — 전쟁 중 샐린저와 헤밍웨이의 만남, 그리고 1946년 7월 샐린저가 헤밍웨이에게 보낸 편지(그와의 대화가 전쟁을 통틀어 유일한 희망의 순간이었다는 내용)."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "그 편지에서 샐린저는 헤밍웨이와 나눈 대화가 전쟁에서 몇 안 되는 좋은 기억이었다고 썼다.",
+          "resolution": "corrected"
+        }
+      ]
+    }
+  ]
+}
