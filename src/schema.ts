@@ -93,7 +93,8 @@ export const authorSchema = z
     birthYear: lifeYear.optional(),
     deathYear: lifeYear.optional(),
     // 생몰년이 이설·추정(생년 1342년경, 몰년 1416년 이후)일 때 true — 쪽에 「무렵」을 붙인다. 확정 연도처럼 그리지 않는다.
-    lifeApprox: z.literal(true).optional(),
+    // "birth"·"death" 는 그 한쪽만 이설·추정이다(최인훈: 생년 1934/호적 1936, 몰년 확정). true 는 둘 다.
+    lifeApprox: z.union([z.literal(true), z.enum(["birth", "death"])]).optional(),
     // 사람이 아닌 항목(익명 전승)은 `corpus`. 그때 생몰년은 비고 activeRange 가
     // 전승 확인 구간이 된다 — 없는 저자를 만들어 넣지 않기 위한 유일한 장치다.
     authorKind: z.enum(["person", "corpus"]).optional(),

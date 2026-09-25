@@ -25,10 +25,14 @@ export function uncoveredOf<T extends { sid: string }>(drawn: T[], plates: Raw[]
     for (const s of Object.keys(p.noClaim ?? {})) noClaim.add(s);
   }
   const out: Array<T & { why: string }> = [];
+  // 한 주장이 두 문장에 걸칠 수 있다 — 고침이 그 가운데 한 문장에 적용됐으면 고침은 적용된 것이다. 걸친 문장이 전부
+  // 그대로일 때만 「고치기로 한 문장이 그대로」다(김연수: 칼럼 제목의 「?」에서 문장이 갈려, 고친 뒷문장만 바뀌었다).
+  const live = new Set(drawn.map((d) => d.sid));
+  const unapplied = (c: Raw): boolean => SETTLED.has(c.resolution) && (c.sids ?? []).every((s: string) => live.has(s));
   for (const d of drawn) {
     const cs = bySid.get(d.sid) ?? [];
     if (!cs.length) { if (!noClaim.has(d.sid)) out.push({ ...d, why: "원장에 없는 문장" }); continue; }
-    if (cs.some((c) => SETTLED.has(c.resolution))) { out.push({ ...d, why: "고치기로 한 문장이 그대로 있다" }); continue; }
+    if (cs.some(unapplied)) { out.push({ ...d, why: "고치기로 한 문장이 그대로 있다" }); continue; }
     if (cs.some(isOpen)) out.push({ ...d, why: "미결 주장" });
   }
   return out;

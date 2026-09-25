@@ -1,0 +1,65 @@
+{
+  "plates": [
+    {
+      "id": "jeong-ji-yong",
+      "claims": [
+        {
+          "sids": [
+            "516d60c5683c"
+          ],
+          "field": "author.facts",
+          "claim": "작가 이름은 정지용(鄭芝溶)이다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "quote": "정지용(鄭芝溶)은 일제강점기에 『정지용시집』, 『백록담』, 『문학독본』, 『산문』 등을 저술한 시인이자 번역가, 교육자이다.",
+          "note": "슬레이트 문장의 「정지용(정지용)」은 names.ko 와 names.original 이 같은 한글 표기라 겹쳐 보이는 것이다. 이번 세션에 받은 라이브 작가 페이지는 h1 에 「정지용」 하나만 그린다."
+        },
+        {
+          "sids": [
+            "516d60c5683c"
+          ],
+          "field": "author.facts",
+          "claim": "정지용은 1902년에 태어났다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "quote": "1902년 충청북도 옥천에서 태어나 옥천공립보통학교, 휘문고등보통학교, 도시샤(同志社)대학에서 수학했으며, 1950년 사망한 것으로 알려져 있다.",
+          "note": "같은 항목의 기본정보도 「출생 연도1902년」이다. 각주는 휘문고보 5년제 학적부·도시샤대학 학적부 등에는 1903년으로 적혀 있다고 밝히므로, 범위 전체에 걸린 「무렵」은 출생 연도 쪽에서도 출처보다 세지 않다."
+        },
+        {
+          "sids": [
+            "516d60c5683c"
+          ],
+          "field": "author.facts",
+          "claim": "사망 연도는 1950년 무렵(추정)이다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "quote": "사망 연도1950년 추정",
+          "note": "기본정보 표의 항목명과 값이 태그 사이에서 붙어 나온 원문 그대로다. 본문도 「1950년 한국전쟁 중 사망한 것으로 알려져 있다.」고 쓴다. 화면 문장의 「무렵」은 출처의 「추정」과 같은 세기다. 참고: 같은 라이브 페이지의 JSON-LD 는 \"deathDate\":\"1950\" 을 추정 표시 없이 싣는다(화면에 그려지는 문장은 아님)."
+        },
+        {
+          "sids": [
+            "516d60c5683c"
+          ],
+          "field": "author.facts",
+          "claim": "정지용은 한국어와 일본어로 작품을 발표했다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "quote": "정지용은 일본 유학 중 일본어 시뿐만 아니라 조선어 시도 다수 발표했다.",
+          "note": "슬레이트의 「ko·ja」는 라이브 페이지에서 「한국어·일본어」로 그려진다."
+        },
+        {
+          "sids": [
+            "516d60c5683c"
+          ],
+          "field": "author.facts",
+          "claim": "정지용은 동아시아(한국 충청북도 옥천) 출신 작가다.",
+          "verdict": "confirmed",
+          "url": "https://encykorea.aks.ac.kr/Article/E0050954",
+          "quote": "1902년 충청북도 옥천에서 태어나 옥천공립보통학교, 휘문고등보통학교, 도시샤(同志社)대학에서 수학했으며",
+          "note": "출생지와 수학지(한국·일본 교토)가 모두 동아시아다. 슬레이트의 「east-asia」는 라이브 페이지에서 「동아시아」로 그려진다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

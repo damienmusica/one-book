@@ -1,0 +1,73 @@
+{
+  "plates": [
+    {
+      "id": "olga-tokarczuk",
+      "claims": [
+        {
+          "sids": ["bb2d052704a3"],
+          "field": "author.difficultyReason",
+          "claim": "『방랑자들』은 토카르추크의 대표작 가운데 하나다.",
+          "verdict": "confirmed",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0015058313&code=61171511",
+          "quote": "그의 대표작 중 하나인 ‘방랑자들’은 여행, 떠남과 관련된 100여편의 에피소드를 기록한 짧은 글들의 모음집이다.",
+          "note": "문장은 두 작품의 이름을 대지 않고, 바로 뒤 두 문장이 『방랑자들』과 『낮의 집 밤의 집』을 들어 '대표작 두 편'을 채운다. 그 두 편을 기준으로 판정했다. 국민일보 기사를 이 세션에서 가져와 인용문이 원문 그대로 있음을 확인했다. 같은 인용이 『방랑자들』이 짧은 글들로 이뤄진다는 점도 싣는다."
+        },
+        {
+          "sids": ["bb2d052704a3"],
+          "field": "author.difficultyReason",
+          "claim": "『낮의 집 밤의 집』은 토카르추크의 대표작 가운데 하나다.",
+          "verdict": "confirmed",
+          "url": "https://culture.pl/en/artist/olga-tokarczuk",
+          "quote": "Tokarczuk is one of the most critically acclaimed and most translated Polish writers, with House of Day, House of Night and Primeval and Other Tales being her greatest commercial and critical successes.",
+          "note": "culture.pl(아담 미츠키에비치 연구소)을 이 세션에서 가져와 확인했다. '대표작 두 편'은 '대표작 가운데 두 편'으로만 지지된다. 노벨 위원회 전기는 대표작 중의 대표작(magnum opus)을 『야고보서』로 꼽는다(\"Still, the magnum opus of Tokarczuk so far is the impressive historical novel Księgi Jakubowe\", https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/). 그래서 이 두 편이 토카르추크의 대표작 전부라는 뜻으로 읽히면 지나치다. 문장이 그렇게 주장하지는 않지만, '대표작 가운데 두 편'으로 쓰면 오독의 여지가 없어진다."
+        },
+        {
+          "sids": ["bb2d052704a3"],
+          "field": "author.difficultyReason",
+          "claim": "『방랑자들』은 한 줄기 줄거리 대신 짧은 조각들로 이뤄진다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Flights_(novel)",
+          "quote": "The novel is split into 116 short pieces, … The book does not focus on any specific story, but on a cultural phenomenon: travel.",
+          "note": "영어판 위키백과를 이 세션에서 가져와 확인했다. 두 문장은 같은 문단에 있다. 노벨 위원회 전기의 \"Her montage of diverse fragments of narrative and essayistic prose\"(https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/)도 같은 방향이다."
+        },
+        {
+          "sids": ["bb2d052704a3"],
+          "field": "author.difficultyReason",
+          "claim": "『낮의 집 밤의 집』은 한 줄기로 이어지는 선형 서사를 버렸다.",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2018/bio-bibliography/",
+          "quote": "But the device of a linear fable with an omniscient narrator, and a strong metaphysical undercurrent, are abandoned in the impressive Dom dzienny, dom nocny from 1998 (House of Day, House of Night, 2002).",
+          "note": "노벨 위원회 전기를 이 세션에서 다시 가져와 확인했다. culture.pl도 이 책을 \"A hybrid of diverse and more or less advanced plots, quasi-essay observations, private notes and the like\"라고 소개해, 줄거리가 한 줄기가 아님을 뒷받침한다."
+        },
+        {
+          "sids": ["bb2d052704a3"],
+          "field": "author.difficultyReason",
+          "claim": "『낮의 집 밤의 집』은 짤막한 에피소드들을 엮어 이야기를 만든다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+          "quote": "연대기적 흐름을 거부하고, 단문이나 짤막한 에피소드들을 엮어 하나의 이야기로 빚어내는 특유의 내러티브 방식을 보여준다",
+          "note": "알라딘 민음사판 책소개. 이 세션에서 해당 상품 페이지와 거기에 딸린 책소개(getContents, ISBN 8937479907)를 가져와 인용문이 원문 그대로 있음을 확인했다. '하나의 이야기로 빚어내는'은 조각들이 모여 전체를 이룬다는 뜻이다. 이 책에 한 줄기 줄거리가 있다는 뜻이 아니므로 문장의 '한 줄기 줄거리 대신'과 부딪히지 않는다."
+        },
+        {
+          "sids": ["bb2d052704a3"],
+          "field": "author.difficultyReason",
+          "claim": "『방랑자들』은 조각 사이의 연결 고리를 독자가 곱씹어 읽으며 찾아야 보인다.",
+          "verdict": "confirmed",
+          "url": "https://www.yes24.com/product/goods/92910198",
+          "quote": "일명 ‘별자리 소설’로서 곱씹어 읽어야 비로소 촘촘히 배치된 연결 고리가 보이는 『방랑자들』과는 달리",
+          "note": "『죽은 이들의 뼈 위로 쟁기를 끌어라』 예스24 페이지의 민음사 책소개이며, 이 세션에서 가져와 확인했다. 출처에 따르면 연결 고리는 작가가 촘촘히 배치해 둔 것이고, 독자는 그것을 찾아낸다. 문장의 '맡긴다'는 연결을 찾는 일이 독자 몫이라는 뜻으로 읽을 때 이 범위와 맞는다. 작가의 노벨 강연도 조각을 하나로 잇는 일을 독자에게 기대한다(\"sets off the reader’s capacity to unite fragments into a single design\", https://www.nobelprize.org/prizes/literature/2018/tokarczuk/lecture/)."
+        },
+        {
+          "sids": ["bb2d052704a3"],
+          "field": "author.difficultyReason",
+          "claim": "『낮의 집 밤의 집』은 흩어진 이야기들 사이의 연결점을 독자가 이어 나가게 한다.",
+          "verdict": "confirmed",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251879331",
+          "quote": "시간적 정합성 없이 파편적으로 이어지는 수많은 에피소드들. 사실과 전설이 얽혀 있는 이 단편들은 과연 무엇을 향해 흘러가는 것일까. 이 책을 읽다 보면 성좌처럼 흩어진 이야기들 속에서 몇 가지 단서를 가늠케 되고, 그 단서들을 통해 연결점들을 이어 나가게 된다.",
+          "note": "알라딘에 실린 민음사 제공 책소개(getContents PublisherDesc, ISBN 8937479907). 이 세션에서 가져와 인용문이 원문 그대로 있음을 확인했다. 같은 소개에 실린 「옮긴이의 말」도 \"작가가 남겨 놓은 빈자리는 우리의 머릿속에서 상상력을 동원하여 채워 넣어야 할 것이다\"라고 쓴다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

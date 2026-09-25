@@ -1,0 +1,50 @@
+{
+  "plates": [
+    {
+      "id": "jeong-you-jeong",
+      "claims": [
+        {
+          "sids": [
+            "fc4382d7e3d2"
+          ],
+          "field": "relation:influence--charles-dickens--jeong-you-jeong.summary",
+          "claim": "「I Dream of Fire, Always」는 2017년 『Korean Literature Now』에 실린 정유정의 산문이다.",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20171201043157/http://koreanliteraturenow.com/writers-note/jeong-you-jeong-i-dream-fire-always",
+          "quote": "KOREAN LITERATURE NOW … WRITERS' NOTES I Dream of Fire, Always on November 22, 2017 Vol.37 Autumn 2017 by Jeong You Jeong",
+          "note": "독립 검수: 이 세션에서 Wayback 2017-12-01 사본을 다시 가져왔다. 원래 인용은 원문 그대로 있으나 매체명 『Korean Literature Now』를 싣지 않아, 같은 페이지의 연속 구간(마스트헤드 'KOREAN LITERATURE NOW'부터 기사 머리까지)으로 재인용했다. Writers' Notes 난, Vol.37 Autumn 2017, 게재일 2017-11-22, 필자 Jeong You Jeong — '2017년'·'산문'·필자를 모두 싣는다."
+        },
+        {
+          "sids": [
+            "fc4382d7e3d2"
+          ],
+          "field": "relation:influence--charles-dickens--jeong-you-jeong.summary",
+          "claim": "정유정은 그 글에서 작가 대부분이 평생 한 주제를 변주한다는 말을 소개했다.",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20171201043157/http://koreanliteraturenow.com/writers-note/jeong-you-jeong-i-dream-fire-always",
+          "quote": "It is said that most authors spend their entire lives writing variations of the same topic.",
+          "note": "독립 검수: 같은 사본에서 인용문이 원문 그대로 있음을 확인했다. 'It is said'(전언)와 'most authors'(대부분의 작가)를 문장이 '~한다는 말'과 '작가 대부분'으로 옮겼고, 'variations of the same topic'이 '한 주제를 변주한다'를 받친다. 범위 과장 없음."
+        },
+        {
+          "sids": [
+            "fc4382d7e3d2"
+          ],
+          "field": "relation:influence--charles-dickens--jeong-you-jeong.summary",
+          "claim": "그 말의 예로 디킨스의 ‘아버지를 찾는 소년들’을 들었다.",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20171201043157/http://koreanliteraturenow.com/writers-note/jeong-you-jeong-i-dream-fire-always",
+          "quote": "It is said that most authors spend their entire lives writing variations of the same topic. Hemingway, for example, … for Dickens, it was boys searching for their fathers;",
+          "note": "독립 검수: 원래 인용(원문 그대로 확인)은 'for example'이 무엇의 예인지를 싣지 않아, 바로 앞 문장과 이어지는 한 구간으로 재인용했다(헤밍웨이 대목만 '…'로 생략). 이 인용 하나로 '그 말의 예로 디킨스의 아버지를 찾는 소년들을 들었다'가 온전히 받쳐진다. 문장은 디킨스를 예시로 든 사실만 말하고 영향 관계를 주장하지 않는다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 1,
+    "requoted": 2,
+    "downgraded": 0,
+    "added": 0,
+    "noClaimConverted": 0
+  }
+}

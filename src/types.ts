@@ -75,7 +75,7 @@ export interface Author {
   birthYear?: number;
   deathYear?: number;
   /** 생몰년이 이설·추정이다 — 쪽에 「무렵」을 붙인다 */
-  lifeApprox?: true;
+  lifeApprox?: true | "birth" | "death";
   /** [from, to] — years of literary activity, not lifespan */
   activeRange: [number, number];
   /** representative year for timeline ordering (usually main-works midpoint) */

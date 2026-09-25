@@ -134,12 +134,14 @@ const ledeClass = (text: string): string => (/^[가-힣]{2}/.test(text) ? "lede 
 
 // 몰년이 없는 옛사람을 산 사람처럼 「966–」로 적지 않는다 — 태어난 지 110년이 넘었는데 몰년이 없으면 「–?」다.
 const THIS_YEAR = new Date().getFullYear();
-const lifeSpan = (a: Author): string =>
-  a.birthYear === undefined
-    ? `활동 ${span(a.activeRange[0], a.activeRange[1])}`
-    : a.deathYear === undefined && a.birthYear < THIS_YEAR - 110
-      ? `${yr(a.birthYear)}${a.lifeApprox ? " 무렵" : ""}–?`
-      : `${span(a.birthYear, a.deathYear)}${a.lifeApprox ? " 무렵" : ""}`;
+// 이설·추정인 해에는 「?」를 그 해에만 붙인다 — 생년만 갈리는데 몰년까지 흐리게 그리지 않는다(최인훈 1934?–2018).
+const lifeSpan = (a: Author): string => {
+  if (a.birthYear === undefined) return `활동 ${span(a.activeRange[0], a.activeRange[1])}`;
+  const b = `${yr(a.birthYear)}${a.lifeApprox === true || a.lifeApprox === "birth" ? "?" : ""}`;
+  if (a.deathYear === undefined) return a.birthYear < THIS_YEAR - 110 ? `${b}–?` : `${b}–`;
+  const d = `${a.deathYear < 0 && a.birthYear < 0 ? -a.deathYear : yr(a.deathYear)}${a.lifeApprox === true || a.lifeApprox === "death" ? "?" : ""}`;
+  return a.birthYear < 0 && a.deathYear < 0 ? `기원전 ${-a.birthYear}${a.lifeApprox === true || a.lifeApprox === "birth" ? "?" : ""}–${d}` : `${b}–${d}`;
+};
 
 // lang 은 글자가 그 말의 문자일 때만 단다. 로마자로 적힌 제목에 ja 를, 키릴로 적힌 이름에 en 을 달면 읽어 주는
 // 목소리가 틀린다. 오른쪽에서 읽는 문자에는 dir 도 단다(CSS direction 은 접근성 트리에 닿지 않는다).

@@ -97,7 +97,7 @@ for (const f of fixes) {
     }
   }
   // 생몰 — null 은 그 해를 지운다(모르는 것을 아는 척하지 않는다). 산 사람을 죽었다고, 죽은 사람을 산 사람으로 적은 것을 고친다.
-  if (f.lifeApprox === true) { row.lifeApprox = true; fieldEdits++; log.push(`${id}.lifeApprox`); }
+  if (f.lifeApprox === true || f.lifeApprox === "birth" || f.lifeApprox === "death") { row.lifeApprox = f.lifeApprox; fieldEdits++; log.push(`${id}.lifeApprox=${f.lifeApprox}`); }
   for (const k of ["birthYear", "deathYear", "anchorYear"] as const) {
     if (!(k in f)) continue;
     if (f[k] === null) { if (k === "anchorYear") { skipped.push({ id, why: "anchorYear 는 지울 수 없다" }); continue; } delete row[k]; fieldEdits++; log.push(`${id}.${k}=∅`); }

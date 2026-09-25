@@ -1,0 +1,50 @@
+{
+  "plates": [
+    {
+      "id": "jd-salinger",
+      "claims": [
+        {
+          "sids": [
+            "5d66062fe01a"
+          ],
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "카를로스 베이커의 헤밍웨이 전기 『Ernest Hemingway: A Life Story』는 1969년에 나왔다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/w/index.php?title=Carlos_Baker&action=raw",
+          "quote": "In 1969, Baker published a well-regarded scholarly biography of [[Ernest Hemingway]], ''Ernest Hemingway: A Life Story''",
+          "note": "독립 검수: 이 세션에 위키백과 wikitext(action=raw)를 받아 인용문이 23행에 원문 그대로 있음을 확인했다. archive.org 메타데이터(https://archive.org/metadata/ernesthemingwayl00bake_0/metadata)도 title 'Ernest Hemingway: a life story', creator 'Baker, Carlos, 1909-1987', date '1969'로 일치한다."
+        },
+        {
+          "sids": [
+            "5d66062fe01a"
+          ],
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "베이커의 전기는 1946년 7월 샐린저가 헤밍웨이에게 보낸 편지를 전한다.",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/search/inside.json?q=%22recalled%20that%20his%20talks%20with%20Ernest%20in%20Europe%20had%20given%20him%20his%20only%20hopeful%20minutes%20of%20the%20entire%20war%2C%20and%20named%20himself%20national%20chairman%20of%20the%20Hemingway%20Fan%20Clubs.%20%28J.%20D.%20Salinger%20to%20EH%2C%20July%2027%2C%201946.%29%22",
+          "quote": "recalled that his talks with Ernest in Europe had given him his only hopeful minutes of the entire war … (J. D. Salinger to EH, July 27, 1946",
+          "note": "독립 검수: 이 세션에 같은 Open Library 전문 검색 URL을 받아 7건(ernesthemingwayl00bake_0·ernesthemingwayl00bake·ernesthemingwayl0000bake_q8n3·ernesthemingwayl0000carl·_e3a4·_o0u6·ernesthemingwayl00carl, 모두 Baker의 『Ernest Hemingway: A Life Story』 스캔)에서 인용 구절이 한 덩어리로 원문 그대로 나옴을 확인했다. '…' 앞뒤는 같은 문장이다(생략된 부분은 ', and named himself national chairman of the Hemingway Fan Clubs.'). 괄호 출처 'J. D. Salinger to EH, July 27, 1946'이 발신인·수신인·1946년 7월을 싣고, 'recalled that his talks with Ernest'가 편지 내용의 서술임을 보인다."
+        },
+        {
+          "sids": [
+            "5d66062fe01a"
+          ],
+          "field": "relation:dialogue--ernest-hemingway--jd-salinger.summary",
+          "claim": "그 편지에서 샐린저는 헤밍웨이와 나눈 대화가 전쟁을 통틀어 유일한 희망의 시간이었다고 썼다.",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/search/inside.json?q=%22recalled%20that%20his%20talks%20with%20Ernest%20in%20Europe%20had%20given%20him%20his%20only%20hopeful%20minutes%20of%20the%20entire%20war%2C%20and%20named%20himself%20national%20chairman%20of%20the%20Hemingway%20Fan%20Clubs.%20%28J.%20D.%20Salinger%20to%20EH%2C%20July%2027%2C%201946.%29%22",
+          "quote": "recalled that his talks with Ernest in Europe had given him his only hopeful minutes of the entire war",
+          "note": "독립 검수: 같은 검색 결과에서 원문 그대로 확인. 'his talks with Ernest'='그와의 대화', 'his only hopeful minutes'='유일한 희망의 시간', 'of the entire war'='전쟁을 통틀어'. 편지 원문을 직접 인용한 Slawenski 『J.D. Salinger: A Life』 스캔(Open Library 검색 %22only%20hopeful%20minutes%22)의 'were the only hopeful minutes of the whole business'도 뜻이 같다. 베이커는 간접화법으로 전하지만 괄호 출처가 이 편지이므로 '편지에 썼다'는 귀속이 선다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 3,
+    "requoted": 0,
+    "downgraded": 0,
+    "added": 0,
+    "noClaimConverted": 0
+  }
+}

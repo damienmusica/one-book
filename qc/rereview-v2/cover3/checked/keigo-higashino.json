@@ -1,0 +1,50 @@
+{
+  "plates": [
+    {
+      "id": "keigo-higashino",
+      "claims": [
+        {
+          "sids": [
+            "2ae549aa36d8"
+          ],
+          "field": "relation:affinity--edgar-allan-poe--keigo-higashino.facts",
+          "claim": "포와 히가시노 사이에 형식·주제의 친연성(친연)이 있다고 읽은 연구가 있다",
+          "verdict": "confirmed",
+          "url": "https://doi.org/10.24729/00006067",
+          "quote": "このように東野の作品にポー的な要素が散見できる。それは理系的発相や耽美性という両作家に共通する資質のためであろう。",
+          "note": "독립 검수: 이 세션에서 DOI를 다시 해석했고(302 → https://omu.repo.nii.ac.jp/records/6074) PDF(https://omu.repo.nii.ac.jp/record/6074/files/2012000003.pdf, 11쪽)를 내려받아 텍스트층에서 인용문이 결론부 한 문단 안에 그대로 있음을 확인했다(줄바꿈만 이음, '発相'은 원 텍스트층의 OCR 표기). '両作家に共通する資質'가 형식·주제 친연성을, '東野の作品にポー的な要素が散見できる'가 연구가 그렇게 읽었다는 사실을 싣는다. 서두의 \"比較文学的視点からは、乱歩よりむしろエドガー・アラン・ポー的資質がうかがえる。\"도 같은 PDF에서 확인했다."
+        },
+        {
+          "sids": [
+            "2ae549aa36d8"
+          ],
+          "field": "relation:affinity--edgar-allan-poe--keigo-higashino.facts",
+          "claim": "포가 히가시노에게 준 직접 영향으로 기록된 관계가 아니어서, 방향 없는 친연(↔)으로 긋는다",
+          "verdict": "confirmed",
+          "url": "https://doi.org/10.24729/00006067",
+          "quote": "そしてもちろん学園ミステリーや旅行ミステリーといったレッテルを貼られるのを嫌った東野が、さまざまなテーマと手法で常に創作に挑戦し続けた結果、必然的にあるいは偶然に、ポー的なるものが表れたと考えられる。",
+          "note": "독립 검수로 재인용: 같은 PDF 결론부의 한 문장 전체로 넓혔다. 이전 인용('必然的にあるいは偶然に…')만으로는 '필연적으로'가 영향 경로를 뜻할 여지가 있었는데, 앞 절이 그 원인을 히가시노 자신이 여러 주제·수법으로 창작에 도전한 결과로 명시하므로 이 연구가 포적 요소를 포에게서 받은 직접 영향으로 기록하지 않았다는 점을 문장 하나가 싣는다. 주의할 반대 방향 문맥도 같은 PDF에 있다: 본문은 '東野は、ポーの作品でもとりわけ「モルグ街の殺人」にこだわっている'고 하고 영문 초록은 \"Higashino's strong interest in Poe\"를 말하며, 끝 문장은 히가시노를 포의 영향을 계속 받는 미스터리 작가의 좋은 예로 든다. 이는 히가시노가 포를 읽고 작중에서 언급했다는 접촉과 장르 계보 차원의 영향이지, 포가 히가시노에게 준 직접 영향의 기록은 아니므로 청구와 충돌하지 않는다. 다만 요약을 고칠 때 '포를 읽은 기록이 없다'고 쓰면 거짓이다. 히가시노 본인 발언은 WSJ 인터뷰(https://web.archive.org/web/20110214065222/http://blogs.wsj.com/scene/2011/02/11/is-this-guy-the-next-steig-larsson/, 이 세션에서 다시 가져옴)의 \"Although there are Western writers that I like, I am much more influenced by Japanese authors\"뿐이다. 화면의 ↔는 one-book src/book/relations.ts relationGlyph가 direction=bidirectional일 때 그리며, drawn 문장의 '→'는 scripts/lib/drawn.ts가 source→target을 적는 원장 표기일 뿐 화면 화살표가 아니다."
+        },
+        {
+          "sids": [
+            "2ae549aa36d8"
+          ],
+          "field": "relation:affinity--edgar-allan-poe--keigo-higashino.facts",
+          "claim": "근거 수준은 ‘편집 추론’이다 — 여러 연구가 반복해 다룬 학계 통설이 아니라 한 연구자의 제안에 기댄 친연이다",
+          "verdict": "confirmed",
+          "url": "https://doi.org/10.24729/00006067",
+          "quote": "…東野圭吾の名はポー研究のページに加えられるべきなのである。",
+          "note": "독립 검수로 재인용: 이전 인용('そこでこの論文では…考えたい')은 논문이 이 주제를 다룬다는 것만 싣고 '통설이 아니라 제안'이라는 범위를 싣지 못했다. 같은 PDF 끝 문장의 이 절은 저자가 히가시노를 포 연구에 '더해야 한다'고 주장하므로, 2012년 시점에 이 계보가 포 연구에 자리 잡은 통설이 아니라 한 연구자의 제안이었음을 싣는다(앞 절 '…その影響をミステリ一作家が受け続けていることの好例として'는 장르 계보 차원의 영향 서술이라 생략했고, 같은 문장 안의 절단이다). 그 뒤로도 반복 연구가 없다는 점은 이 세션에서 CiNii Research opensearch(https://cir.nii.ac.jp/opensearch/all)를 다시 조회해 확인했다: 「東野圭吾 ポー」 33건, 「東野圭吾 エドガー」 4건, \"Higashino Poe\" 1건 가운데 두 작가를 함께 다룬 논문은 堀江珠喜 「東野圭吾とエドガー・アラン・ポー」 한 편뿐이다. relations-guide §0은 scholarly_consensus에 '신뢰할 만한 2차 연구가 반복적으로 다루는 계보'를 요구하므로 editorial_inference가 맞다. 남은 가이드 사항: §0은 editorial_inference 요약에 '직접 접촉의 기록은 없다'가 드러나야 한다고 하나, 히가시노는 작중에서 「모르그 가의 살인」을 직접 언급하므로 그 문장을 그대로 넣으면 거짓이 된다. '히가시노 본인이 포의 영향을 밝힌 기록은 없다' 정도가 맞다(이 drawn 문장 밖의 요약 문제)."
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 1,
+    "requoted": 2,
+    "downgraded": 0,
+    "added": 0,
+    "noClaimConverted": 0
+  }
+}

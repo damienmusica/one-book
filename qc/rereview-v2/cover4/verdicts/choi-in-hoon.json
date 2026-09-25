@@ -1,0 +1,87 @@
+{
+  "plates": [
+    {
+      "id": "choi-in-hoon",
+      "claims": [
+        {
+          "sids": [
+            "6eafb0631a1d"
+          ],
+          "field": "author.facts",
+          "claim": "작가 이름은 최인훈이고 원어(한국어) 표기도 최인훈이다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%9D%B8%ED%9B%88",
+          "quote": "최인훈(崔仁勳, 1934년 4월 13일 ~ 2018년 7월 23일)은 대한민국의 소설가, 시인, 문학평론가, 극작가이다.",
+          "note": "이 세션에서 한국어 위키백과를 다시 가져와 첫 문장을 원문 그대로 확인했다. 괄호 속 원어 표기 '최인훈'은 한국어 원어 이름이라 한글 이름을 되풀이할 뿐이다."
+        },
+        {
+          "sids": [
+            "6eafb0631a1d"
+          ],
+          "field": "author.facts",
+          "claim": "최인훈은 1934년에 태어났다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%9D%B8%ED%9B%88",
+          "quote": "최인훈(崔仁勳, 1934년 4월 13일 ~ 2018년 7월 23일)은 대한민국의 소설가, 시인, 문학평론가, 극작가이다.",
+          "note": "이 세션에서 다시 가져옴. 정보상자 '출생' 행도 1934년 4월 13일이다."
+        },
+        {
+          "sids": [
+            "6eafb0631a1d"
+          ],
+          "field": "author.facts",
+          "claim": "생년에는 이설이 있다(물음표는 생년에만 붙는다 — 실제 출생 1934년, 공식 출생 기록 1936년)",
+          "verdict": "confirmed",
+          "url": "https://www.khan.co.kr/culture/book/article/201807231314001",
+          "quote": "1934년(공식 출생기록은 1936년) 함경북도 회령에서 최인훈은 원산고등학교 재학 중 1950년 한국전쟁이 발발하자 남쪽으로 내려왔다.",
+          "note": "이 세션에서 경향신문 부고(입력 2018.07.23 13:14)를 다시 가져와 본문에 원문 그대로 있음을 확인했다. 렌더러 scripts/lib/drawn.ts 40행은 lifeApprox='birth'일 때 생년 뒤에만 '?'를 붙이고, 데이터의 lifeApprox는 'birth'다 — 이전 판정의 교정(이설은 생년에만)과 맞다. 출처는 1934년을 실제 출생 연도로 단정하고 1936년을 공식 기록으로 적으므로, '?'는 '1934년이 틀렸을 수 있다'가 아니라 '기록이 갈린다'로 읽혀야 한다. 문장은 대안 연도 1936을 밝히지 않는다 — 사실 오류는 아니나 독자는 무엇이 불확실한지 알 수 없다."
+        },
+        {
+          "sids": [
+            "6eafb0631a1d"
+          ],
+          "field": "author.facts",
+          "claim": "최인훈은 2018년에 사망했다(몰년에는 이설이 없다)",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%9D%B8%ED%9B%88",
+          "quote": "최인훈(崔仁勳, 1934년 4월 13일 ~ 2018년 7월 23일)은 대한민국의 소설가, 시인, 문학평론가, 극작가이다.",
+          "note": "이 세션에서 다시 가져옴. 경향신문 부고(입력 2018.07.23)도 '최인훈 작가가 23일 세상을 떠났다'고 적으며 몰년에 다른 기록을 싣지 않는다. 물음표가 몰년에 붙지 않은 것이 출처와 맞다."
+        },
+        {
+          "sids": [
+            "6eafb0631a1d"
+          ],
+          "field": "author.facts",
+          "claim": "최인훈의 작품 언어는 한국어다(ko)",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%9D%B8%ED%9B%88",
+          "quote": "언어 한국어",
+          "note": "한국어 위키백과 최인훈 항목 정보상자의 '언어' 행(표 칸 '언어'와 '한국어'), 이 세션에서 다시 가져와 확인."
+        },
+        {
+          "sids": [
+            "6eafb0631a1d"
+          ],
+          "field": "author.facts",
+          "claim": "최인훈은 대한민국의 작가다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%EC%9D%B8%ED%9B%88",
+          "quote": "최인훈(崔仁勳, 1934년 4월 13일 ~ 2018년 7월 23일)은 대한민국의 소설가, 시인, 문학평론가, 극작가이다.",
+          "note": "이 세션에서 다시 가져옴."
+        },
+        {
+          "sids": [
+            "6eafb0631a1d"
+          ],
+          "field": "author.facts",
+          "claim": "대한민국은 동아시아의 나라다(지역 east-asia)",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+          "quote": "대한민국(한국 한자: 大韓民國)은 동아시아의 한반도 군사 분계선 남부에 위치한 나라이다.",
+          "note": "이 세션에서 한국어 위키백과 대한민국 항목을 가져와 첫 문장을 원문 그대로 확인했다. 최인훈이 대한민국의 작가라는 것은 앞 claim이 받친다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

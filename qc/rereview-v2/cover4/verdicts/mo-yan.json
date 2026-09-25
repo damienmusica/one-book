@@ -1,0 +1,75 @@
+{
+  "plates": [
+    {
+      "id": "mo-yan",
+      "claims": [
+        {
+          "sids": [
+            "5f86b64868e3"
+          ],
+          "field": "author.facts",
+          "claim": "모옌의 원어 표기는 莫言이다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%98%8C",
+          "quote": "모옌(중국어: 莫言, 병음: Mò Yán, 한자음: 막언, 1955년 2월 17일 ~ )은 중화인민공화국의 소설가이다.",
+          "note": "莫言은 필명이다. 노벨재단 Bio-bibliography: \"Mo Yan (a pseudonym for Guan Moye)\" (https://www.nobelprize.org/prizes/literature/2012/bio-bibliography/). 둘 다 이 세션에서 다시 가져왔다."
+        },
+        {
+          "sids": [
+            "5f86b64868e3"
+          ],
+          "field": "author.facts",
+          "claim": "생년은 1955년으로 기록된다",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2012/bio-bibliography/",
+          "quote": "Mo Yan (a pseudonym for Guan Moye) was born in 1955 and grew up in Gaomi in Shandong province in north-eastern China.",
+          "note": "zh.wikipedia도 1955년 2월 17일로 적는다: \"莫言（1955年2月17日—[a]），本名管谟业，山东高密人\" (https://zh.wikipedia.org/zh-cn/%E8%8E%AB%E8%A8%80)."
+        },
+        {
+          "sids": [
+            "5f86b64868e3"
+          ],
+          "field": "author.facts",
+          "claim": "생년 기록이 1955년과 1956년으로 엇갈려 1955년은 확정값이 아니다('1955?'의 물음표)",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2012/yan/biographical/",
+          "quote": "Due to the difference between the Chinese calendar and Gregorian calendar Mo Yan’s birthday is commonly recorded as one of two dates. 25 March 1956 is the laureate’s preferred birth date.",
+          "note": "물음표가 이 표기를 떠받친다. 노벨재단 Facts 면은 \"Born: 25 March 1956, Gaomi, China\" (https://www.nobelprize.org/prizes/literature/2012/yan/facts/)로 적고, zh.wikipedia 주석은 \"出生日期一作1956年3月5日\"라 적는다. 작가 본인이 선호하는 날짜가 1956년이므로 물음표 없이 1955만 쓰면 지나치게 단정적이다. 지금 표기는 불확실성을 드러내므로 맞다."
+        },
+        {
+          "sids": [
+            "5f86b64868e3"
+          ],
+          "field": "author.facts",
+          "claim": "생존 작가다(사망 연도 없이 열려 있음)",
+          "verdict": "confirmed",
+          "url": "https://zh.wikipedia.org/zh-cn/%E8%8E%AB%E8%A8%80",
+          "quote": "出生 (1955-02-17) 1955年2月17日（71岁）",
+          "note": "정보상자에 사망 항목이 없고 현재 나이를 계산해 적는다. ko.wikipedia 모옌 문서도 분류에 '살아있는 사람'을 달고 생몰 표기를 \"1955년 2월 17일 ~ \"로 열어 둔다."
+        },
+        {
+          "sids": [
+            "5f86b64868e3"
+          ],
+          "field": "author.facts",
+          "claim": "중국어로 쓰는 작가다(zh)",
+          "verdict": "confirmed",
+          "url": "https://www.nobelprize.org/prizes/literature/2012/yan/facts/",
+          "quote": "Language: Chinese"
+        },
+        {
+          "sids": [
+            "5f86b64868e3"
+          ],
+          "field": "author.facts",
+          "claim": "동아시아(중국) 작가다(east-asia)",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EB%8F%99%EC%95%84%EC%8B%9C%EC%95%84",
+          "quote": "일반적으로 중국(중화인민공화국, 중화민국, 홍콩, 마카오)과 일본, 한국(대한민국 및 조선민주주의인민공화국), 몽골 등을 포함하며",
+          "note": "모옌이 중국 작가라는 점은 ko.wikipedia 모옌 문서 \"…은 중화인민공화국의 소설가이다.\"와 노벨재단 Bio-bibliography \"grew up in Gaomi in Shandong province in north-eastern China\"가 싣는다. 동아시아에 중국이 든다는 점은 위 인용이 싣는다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

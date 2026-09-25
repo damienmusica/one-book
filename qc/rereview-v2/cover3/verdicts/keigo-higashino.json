@@ -1,0 +1,37 @@
+{
+  "plates": [
+    {
+      "id": "keigo-higashino",
+      "claims": [
+        {
+          "sids": ["2ae549aa36d8"],
+          "field": "relation:affinity--edgar-allan-poe--keigo-higashino.facts",
+          "claim": "포와 히가시노 사이에 형식·주제의 친연성(친연)이 있다고 읽은 연구가 있다",
+          "verdict": "confirmed",
+          "url": "https://doi.org/10.24729/00006067",
+          "quote": "このように東野の作品にポー的な要素が散見できる。それは理系的発相や耽美性という両作家に共通する資質のためであろう。",
+          "note": "이 세션에서 DOI(→ omu.repo.nii.ac.jp/records/6074, 巻 60, p. 23-32, 発行日 2012-03-31)와 PDF(record/6074/files/2012000003.pdf)를 다시 가져왔다. 인용은 논문 결론부이며 PDF 텍스트층의 줄바꿈만 이었다('発相'은 '発想'의 OCR 깨짐). 서두에도 \"比較文学的視点からは、乱歩よりむしろエドガー・アラン・ポー的資質がうかがえる。\"가 그대로 있다."
+        },
+        {
+          "sids": ["2ae549aa36d8"],
+          "field": "relation:affinity--edgar-allan-poe--keigo-higashino.facts",
+          "claim": "포가 히가시노에게 준 직접 영향으로 기록된 관계가 아니어서, 방향 없는 친연(↔)으로 긋는다",
+          "verdict": "confirmed",
+          "url": "https://doi.org/10.24729/00006067",
+          "quote": "必然的にあるいは偶然に、ポー的なるものが表れたと考えられる。",
+          "note": "이 짝을 다룬 유일한 연구가 포적 요소를 '필연적으로 혹은 우연히' 나타난 것으로 보고, 히가시노 본인이 포의 영향을 밝혔다는 기록은 인용하지 않는다. 논문이 드는 히가시노 쪽 자료는 에세이 「読ませる楽しみ 読まされる苦しみ」(1994)에서 누나가 란포의 본명을 포라고 답했다는 농담과, 『名探偵の呪縛』·『超・殺人事件』 속 인물이 「모르그 가의 살인」을 드는 대목뿐이다. 히가시노 본인은 WSJ 인터뷰(https://web.archive.org/web/20110214065222/http://blogs.wsj.com/scene/2011/02/11/is-this-guy-the-next-steig-larsson/, 이 세션에서 다시 가져옴)에서 \"Although there are Western writers that I like, I am much more influenced by Japanese authors\"라고 말했다. 방향은 one-book docs/relations-guide.md 표가 affinity를 bidirectional로 정의하고, 화면은 src/book/relations.ts relationGlyph에 따라 ↔로 그린다. 다만 논문 끝 문장은 히가시노를 포의 영향을 계속 받는 미스터리 작가의 예로 들므로(\"その影響をミステリ一作家が受け続けていることの好例として\"), 넓은 장르 계보로서의 영향까지 부정하는 근거는 아니다."
+        },
+        {
+          "sids": ["2ae549aa36d8"],
+          "field": "relation:affinity--edgar-allan-poe--keigo-higashino.facts",
+          "claim": "근거 수준은 ‘편집 추론’이다 — 여러 연구가 반복해 다룬 학계 통설이 아니라 한 연구자의 제안에 기댄 친연이다",
+          "verdict": "confirmed",
+          "url": "https://doi.org/10.24729/00006067",
+          "quote": "そこでこの論文では、東野圭吾におけるポー的な要素について考えたい。",
+          "note": "논문은 이 친연성을 자기 논지로 제안한다(위 인용, 서두). 이 세션에서 CiNii Research opensearch(https://cir.nii.ac.jp/opensearch/all)를 다시 조회했다. 「東野圭吾 ポー」 33건, \"Higashino Poe\" 1건, 「東野圭吾 エドガー」 4건 가운데 두 작가를 함께 다룬 논문은 堀江珠喜 「東野圭吾とエドガー・アラン・ポー」 한 편뿐이다(「東野圭吾と猫」도 같은 연구자다). relations-guide는 scholarly_consensus에 ‘신뢰할 만한 2차 연구가 반복적으로 다루는 계보’를 요구하므로 editorial_inference로 낮춘 것이 가이드와 맞는다. 남은 가이드 위반이 하나 있다. relations-guide §0은 editorial_inference의 요약에 ‘직접 접촉의 기록은 없다’는 사실이 드러나야 한다고 하는데, 이 관계의 summary(슬레이트 기준)에는 그 문장이 아직 없다. 덧붙일 때 ‘히가시노가 포를 읽은 기록이 없다’라고 쓰면 거짓이다. 히가시노의 소설이 「모르그 가의 살인」을 직접 언급하기 때문이다. 맞는 표현은 ‘히가시노 본인이 포의 영향을 밝힌 기록은 없다’ 정도다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

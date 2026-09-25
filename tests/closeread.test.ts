@@ -26,3 +26,14 @@ describe("덮개 — 원장이 문장을 덮는가", () => {
   it("미결 주장이 있으면 덮이지 않았다", () => expect(why.e).toMatch(/미결/));
   it("원장에 없는 문장은 덮이지 않았다", () => expect(uncoveredOf([{ sid: "z", text: "Z" }], plates)[0]?.why).toMatch(/없는/));
 });
+
+describe("덮개 — 두 문장에 걸친 주장", () => {
+  it("걸친 문장 가운데 하나가 고쳐졌으면 고침은 적용된 것이다", () => {
+    const plates = [{ claims: [{ sids: ["x", "y-old"], verdict: "contradicted", resolution: "corrected" }, { sids: ["x"], verdict: "confirmed" }, { sids: ["y-new"], verdict: "confirmed" }] }];
+    expect(uncoveredOf([{ sid: "x", text: "X" }, { sid: "y-new", text: "Y" }], plates)).toEqual([]);
+  });
+  it("걸친 문장이 전부 그대로면 고침이 적용되지 않았다", () => {
+    const plates = [{ claims: [{ sids: ["x", "y"], verdict: "contradicted", resolution: "corrected" }, { sids: ["x", "y"], verdict: "confirmed" }] }];
+    expect(uncoveredOf([{ sid: "x", text: "X" }, { sid: "y", text: "Y" }], plates).map((u) => u.why)).toEqual(["고치기로 한 문장이 그대로 있다", "고치기로 한 문장이 그대로 있다"]);
+  });
+});

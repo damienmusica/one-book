@@ -1,0 +1,50 @@
+{
+  "plates": [
+    {
+      "id": "raymond-carver",
+      "claims": [
+        {
+          "sids": [
+            "00f066b4827b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "카버는 평범한 사물에 놀라운 힘을 싣는 글쓰기에 끌린다고 썼다.",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "It's possible, in a poem or a short story, to write about commonplace things and objects using commonplace but precise language, and to endow those things - a chair, a window curtain, a fork, a stone, a woman's earrings - with immense, even startling power. … That's the kind of writing that most interests me.",
+          "note": "독립 검수: 이 세션에서 NYT 아카이브 페이지(HTTP 200, 머리글 'February 15, 1981 A Storyteller's Shoptalk By RAYMOND CARVER')를 가져와 '…' 앞뒤 두 조각이 모두 원문 그대로이고 같은 문단 안에서 이어짐(사이 한 문장, 대사 문장만 생략)을 확인했다. 'commonplace things and objects'='평범한 사물', 'immense, even startling power'='놀라운 힘', 'most interests me'는 '끌린다'보다 강하므로 청구가 원문 범위 안에 있다."
+        },
+        {
+          "sids": [
+            "00f066b4827b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "카버는 무심해 보이는 대사 한 줄로 등골을 서늘하게 하는 글쓰기에 끌린다고 썼다.",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "It is possible to write a line of seemingly innocuous dialogue and have it send a chill along the reader's spine - the source of artistic delight, as Nabokov would have it. That's the kind of writing that most interests me.",
+          "note": "독립 검수: 같은 페이지에서 인용문이 한 문단 안에 원문 그대로 있음을 확인했다. 'a line of seemingly innocuous dialogue'='무심해 보이는 대사 한 줄', 'send a chill along the reader's spine'='등골을 서늘하게', 'That's the kind of writing that most interests me'가 '끌린다'를 싣는다."
+        },
+        {
+          "sids": [
+            "00f066b4827b"
+          ],
+          "field": "author.importanceReason",
+          "claim": "카버는 긴장이 빠진 것과 암시된 것에서도 나온다고 썼다.",
+          "verdict": "confirmed",
+          "url": "https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html",
+          "quote": "What creates tension in a piece of fiction is partly the way the concrete words are linked together to make up the visible action of the story. But it's also the things that are left out, that are implied, the landscape just under the smooth (but sometimes broken and unsettled) surface of things.",
+          "note": "독립 검수: 같은 페이지의 뒤쪽 별개 문단에서 인용문이 원문 그대로 있음을 확인했다. 'partly … But it's also the things that are left out, that are implied'가 '빠진 것과 암시된 것에서도'의 '도'까지 정확히 싣는다. 문장은 이 절을 앞 절과 '~며, ~고 썼다'로 따로 서술하므로 두 문단을 잇는 주장은 없다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ],
+  "check": {
+    "kept": 3,
+    "requoted": 0,
+    "downgraded": 0,
+    "added": 0,
+    "noClaimConverted": 0
+  }
+}
