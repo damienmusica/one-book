@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "agatha-christie",
+      "works": [
+        {
+          "id": "agatha-christie--the-mysterious-affair-at-styles",
+          "significance": "푸아로와 화자 헤이스팅스가 함께 나오는 데뷔 장편으로, 외딴 시골 저택을 무대로 마지막 장 직전에 범인을 밝힌다. 대체로 크리스티의 영향으로 황금기 추리소설의 상징이 된 요소가 여럿 담겼다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "저택 하나에 용의자를 가둔다(용의자들이 저택 한 곳에 갇혀 있다)",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

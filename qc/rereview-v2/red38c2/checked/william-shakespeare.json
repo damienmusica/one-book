@@ -1,0 +1,94 @@
+{
+  "plates": [
+    {
+      "id": "william-shakespeare",
+      "claims": [
+        {
+          "sids": [
+            "c5b96f9b5716"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "『소네트』는 청년을 향한 묶음과 여인을 향한 묶음, 두 묶음으로 읽힌다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+          "quote": "The first 126 are addressed to a young man; the last 28 are either addressed to, or refer to, a woman.",
+          "note": "같은 항목은 'Dark Lady sequence'를 127–152번으로 잡는다. 두 묶음 독해는 출처와 맞는다. [check] 이 세션에서 원문을 다시 받아 인용문이 그대로 있고 주장 전체를 싣는 것을 확인했다."
+        },
+        {
+          "sids": [
+            "c5b96f9b5716"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "두 대상은 흔히 '아름다운 청년'(Fair Youth)과 '검은 여인'(Dark Lady)으로 불린다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+          "quote": "When analysed as characters, the subjects of the sonnets are usually referred to as the Fair Youth, the Rival Poet, and the Dark Lady.",
+          "note": "'경쟁 시인'은 청년 묶음(78–86번) 안의 인물이라 두 묶음 구분과 충돌하지 않는다. [check] 이 세션에서 원문을 다시 받아 인용문이 그대로 있고 주장 전체를 싣는 것을 확인했다."
+        },
+        {
+          "sids": [
+            "c5b96f9b5716"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "3사행연 + 2행 결구의 영국식 소네트 형태는 서리 백작(헨리 하워드)이 확립했다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Henry_Howard,_Earl_of_Surrey",
+          "quote": "While Wyatt introduced the sonnet form into English poetry, Howard gave it the rhyming metre and the division into quatrains which characterise the sonnets written in a way variously named English, Elizabethan, or Shakespearean sonnets.",
+          "note": "위키백과 'Sonnet'도 같은 취지: 'his sonnets are written in what has come to be known anachronistically as Shakespearean measure. This version of the sonnet form, characterised by three alternately rhymed quatrains terminating in a final couplet'. [check] 이 세션에서 원문을 다시 받아 인용문이 그대로 있고 주장 전체를 싣는 것을 확인했다."
+        },
+        {
+          "sids": [
+            "c5b96f9b5716"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "Earl of Surrey의 한국어 표기는 '서리 백작'이다",
+          "verdict": "confirmed",
+          "url": "https://ko.wikipedia.org/wiki/%EC%98%81%EB%AC%B8%ED%95%99",
+          "quote": "그는 영어시의 많은 혁신을 주도했고, 서리 백작 헨리 호워드 (1516/17-1547)과 함께 16세기 초 잉글랜드에 이탈리아의 소네트 형식을 소개했다.",
+          "note": "이전 판정에서 잡은 '새리 백작' 오기가 '서리 백작'으로 고쳐졌음을 확인. [check] 이 세션에서 원문을 다시 받아 인용문이 그대로 있고 주장 전체를 싣는 것을 확인했다."
+        },
+        {
+          "sids": [
+            "c5b96f9b5716"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "대니얼은 셰익스피어보다 먼저 3사행연 + 2행 결구의 소네트를 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Samuel_Daniel",
+          "quote": "Daniel employed the sonnet structure that has come to be called \"Shakespearean\", three quatrains and a final couplet, before Shakespeare did.",
+          "note": "[check] 이 세션에서 원문을 다시 받아 인용문이 그대로 있고 주장 전체를 싣는 것을 확인했다."
+        },
+        {
+          "sids": [
+            "c5b96f9b5716"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "드레이턴은 셰익스피어보다 먼저(이미) 3사행연 + 2행 결구의 영국식 소네트를 쓰고 있었다",
+          "verdict": "unverifiable",
+          "url": "https://web.archive.org/web/20241203040441/https://www.poetryfoundation.org/poets/michael-drayton",
+          "quote": "Idea. The Shepheards Garland (1593), Ideas Mirrour (1594), Endimion and Phobe. Ideas Latmus (1595). … Ideas Mirrour, a sequence of 51 poems of three or four quatrains concluded by a couplet, is dedicated to Anthony Cooke.",
+          "note": "『이데아의 거울』은 사행연 셋 또는 넷에 결구를 단 시들이라, 그중 사행연 셋짜리가 14행 영국식 소네트다. '이미'는 1609년 사절판(위키백과 'Shakespeare's sonnets': 'the 154 sonnets that were first published all together in a quarto in 1609') 기준으로 성립한다. 같은 항목은 검은 여인 소네트의 집필을 'around 1591–95'로 추정하므로, 드레이턴이 셰익스피어의 집필 자체보다 앞섰다는 뜻으로 읽으면 이 출처로는 말할 수 없다(대니얼만 'before Shakespeare did'로 확인된다). 문장의 '이미 쓰고 있던'은 동시대 진행형으로도 읽혀 성립한다. [check] 인용문은 이 세션에서 원문 그대로 확인했다. 그러나 인용문이 싣는 것은 『이데아의 거울』(1594)이 사행연 셋 또는 넷에 결구를 단 51편의 연작이라는 사실까지이고, 문장의 '이미'(셰익스피어보다 앞섬)는 싣지 않는다. 1609년 사절판과의 비교는 다른 페이지의 다른 사실을 이어 붙여야 성립한다. 게다가 위키백과 'Shakespeare's sonnets'는 'the sonnets to the Dark Lady were composed first (around 1591–95)'라고 적어 셰익스피어 자신의 소네트 집필이 1594년과 겹친다. 드레이턴이 셰익스피어보다 먼저 이 형태를 쓰고 있었다는 순서를 한 구절로 싣는 출처는 찾지 못했다(en.wikipedia Michael_Drayton, Shakespearean_sonnet, Sonnet 확인). 대니얼은 'before Shakespeare did'로 확인되므로 문장에서 드레이턴을 빼거나 '이미'를 대니얼에만 걸면 된다."
+        },
+        {
+          "sids": [
+            "c5b96f9b5716"
+          ],
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "셰익스피어의 소네트는 몇 편을 빼면 영국식 소네트 형태(3사행연 + 2행 결구)를 따른다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+          "quote": "The sonnets are almost all constructed using three quatrains (four-line stanzas) followed by a final couplet. … Sonnets using this scheme are known as Shakespearean sonnets, or English sonnets, or Elizabethan sonnets.",
+          "note": "같은 항목: 'The sonnets are almost all constructed using three quatrains (four-line stanzas) followed by a final couplet.' 예외는 'The exceptions are sonnets 99, 126, and 145.' [check] 재인용: 이전 인용('With few exceptions … the rhyme scheme, the 14 lines, and the metre')은 '3사행연 + 2행 결구'를 싣지 않는다. 같은 항목 'Form and structure of the sonnets' 절의 한 문단에서, '거의 모두'(몇 편 말고는)·세 사행연과 결구·그 형태가 곧 영국식 소네트라는 점을 함께 싣는 구절로 바꿨다. 이 세션에서 원문 그대로 확인."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 5,
+        "requoted": 1,
+        "downgraded": 1,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

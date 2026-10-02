@@ -17,7 +17,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadRawCollections, PKG_ROOT } from "./lib/load-node.ts";
 import { assembleDataset } from "../src/data/assemble.ts";
-import { GENRE_DEFS, RELATION_DEFS } from "../src/types.ts";
+import { GENRE_DEFS, LANGUAGE_LABELS, RELATION_DEFS } from "../src/types.ts";
 
 const file = process.argv[2];
 const write = process.argv.includes("--write");
@@ -97,6 +97,10 @@ for (const f of fixes) {
     }
   }
   // 생몰 — null 은 그 해를 지운다(모르는 것을 아는 척하지 않는다). 산 사람을 죽었다고, 죽은 사람을 산 사람으로 적은 것을 고친다.
+  // 작품 언어 — 사실 줄의 한 칸이다(셰우첸코: 시는 우크라이나어, 중편·일기·자서전은 러시아어). 알려진 언어 코드만 받는다.
+  if (Array.isArray(f.languages) && f.languages.length && f.languages.every((l: unknown) => typeof l === "string" && l in LANGUAGE_LABELS)) {
+    row.languages = f.languages; fieldEdits++; log.push(`${id}.languages=${f.languages.join("·")}`);
+  } else if (f.languages !== undefined) skipped.push({ id, why: `languages ${JSON.stringify(f.languages)}` });
   if (f.lifeApprox === true || f.lifeApprox === "birth" || f.lifeApprox === "death") { row.lifeApprox = f.lifeApprox; fieldEdits++; log.push(`${id}.lifeApprox=${f.lifeApprox}`); }
   for (const k of ["birthYear", "deathYear", "anchorYear"] as const) {
     if (!(k in f)) continue;

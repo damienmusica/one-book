@@ -1,0 +1,95 @@
+{
+  "plates": [
+    {
+      "id": "plato",
+      "claims": [
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 원어 이름은 Πλάτων 이다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Plato",
+          "quote": "Plato (/ˈpleɪtoʊ/ PLAY-toh; Ancient Greek: Πλάτων, Plátōn; c. 428–347 BC[1]) was an ancient Greek philosopher of Classical Athens",
+          "note": "[check] 이 세션에서 en.wikipedia.org/wiki/Plato 를 다시 가져와 첫 문장에 인용이 그대로 있음을 확인했다. 원어 이름 Πλάτων 이 인용 안에 있다."
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 생몰년은 기원전 428–348년이다(페이지: '기원전 428–348').",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Plato",
+          "quote": "Plato (born 428/427 bce, Athens, Greece—died 348/347, Athens) was an ancient Greek philosopher",
+          "note": "출처는 428/427, 348/347 두 해를 열어 둔다. 페이지는 '경' 표시 없이 앞쪽 해를 골랐다 — 범위 안이라 확인. Wikipedia Plato 첫 문장은 'c. 428–347 BC'. [check] 이 세션에서 Wayback 2024 Britannica 'Plato' 를 다시 가져와 첫 문장이 그대로 있음을 확인했다. 428/427·348/347 이 페이지의 -428–-348 을 받친다(앞쪽 해 선택). Wikipedia 인포박스도 'c. 428-7 BC … c. 348-7 BC' 로 같은 범위다."
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤은 고대 그리스어로 썼다(grc).",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+          "quote": "AuthorPlatoOriginal titleΠολιτείαLanguageAncient Greek",
+          "note": "인포박스 칸이 붙어 추출된 텍스트 그대로다(Author / Original title / Language 칸). [check] 이 세션에서 다시 가져와 인포박스 텍스트가 그대로 있음을 확인했다. 인용 안에서 저자(Plato)와 언어(Ancient Greek)가 한 작품에 함께 묶여 있어 grc 를 받친다."
+        },
+        {
+          "sids": [
+            "e19db134eb99"
+          ],
+          "field": "author.facts",
+          "claim": "플라톤의 권역은 서유럽이다(페이지: '서유럽').",
+          "verdict": "contradicted",
+          "url": "https://en.wikipedia.org/wiki/Southern_Europe",
+          "quote": "In the UN geoscheme, the following countries are classified as southern Europe:[43] Albania Andorra Bosnia and Herzegovina Croatia Greece",
+          "correction": "그리스는 유엔 지리 구분에서 남유럽으로 분류된다 — 플라톤(아테네 출생·사망)의 권역은 서유럽이 아니다.",
+          "note": "이번 재작성에서도 권역은 western-europe 그대로다. 출생·사망지는 Britannica(Wayback 2024)에서 다시 확인: 'Plato (born 428/427 bce, Athens, Greece—died 348/347, Athens)'. 권역표(src/types.ts REGION_DEFS)에 그리스·남유럽·에게 칸이 없어 이 작가만 고쳐서는 닫히지 않는다 — 권역 추가는 스키마 변경이다. 목록 줄바꿈은 공백으로 이었다. [check] 이 세션에서 en.wikipedia.org/wiki/Southern_Europe 를 다시 가져와 인용(국가 목록은 Greece 까지 잘랐고 원문은 Italy … Spain 으로 이어진다)을 확인했다. 인용이 받치는 것은 '그리스=유엔 구분 남유럽'까지다. 아테네 출생·사망은 인용이 아니라 같은 세션에 다시 가져온 Britannica(Wayback 2024) 'Plato (born 428/427 bce, Athens, Greece—died 348/347, Athens)' 로 받쳐지므로, 교정문에서 아테네를 괄호 안의 식별 정보로만 두고 주장의 근거는 인용의 남유럽 분류에 걸었다. 판정 유지: contradicted."
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "『소크라테스의 변명』의 원제는 Ἀπολογία Σωκράτους 이고 플라톤이 썼다.",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
+          "quote": "The Apology of Socrates (Ancient Greek: Ἀπολογία Σωκράτους, Apología Sokrátous; Latin: Apologia Socratis), written by Plato, is a Socratic dialogue",
+          "note": "[check] 이 세션에서 다시 가져와 첫 문장에 인용이 그대로 있음을 확인했다. 원제와 'written by Plato' 가 한 문장 안에 있다."
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "『소크라테스의 변명』은 기원전 399년 무렵 성립했다(페이지: '기원전 399 무렵(성립 시기 추정)').",
+          "verdict": "confirmed",
+          "url": "https://www.ebsco.com/research-starters/history/apology-plato",
+          "quote": "FIRST TRANSCRIBED: Apologia Sōkratous, early period, 399-390 B.C.E.",
+          "note": "399 는 재판 연도이자 집필 창(399–390)의 하한이다. '무렵(성립 시기 추정)'은 받쳐진다. 더 정확히 쓰려면 '기원전 399–390년 무렵'. Wikipedia Apology 도 'most apologiae were published in the decade after the Trial of Socrates (399 BC)'라 적는다. 인용의 콜론 뒤 공백은 HTML 태그 경계(<strong>…</strong><em>)에서 생긴 것이다. [check] 이 세션에서 EBSCO Research Starters 를 다시 가져와 'FIRST TRANSCRIBED:Apologia Sōkratous, early period, 399-390 B.C.E.' 를 확인했다(추출 텍스트에서는 콜론 뒤 공백 없음 — 태그 경계). 페이지의 '기원전 399 무렵(성립 시기 추정)'은 이 창의 하한이며 '추정'이 범위를 열어 두어 과장이 아니다."
+        },
+        {
+          "sids": [
+            "f65f92c8cb4b"
+          ],
+          "field": "work:plato--apologia-sokratous.facts",
+          "claim": "『소크라테스의 변명』은 소크라테스의 법정 변론을 옮긴 대화편이다(사이트 갈래: 에세이·비평).",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/Apology-by-Plato",
+          "quote": "Apology, early dialogue by the ancient Greek philosopher Plato, purporting to represent the speech given by Socrates, Plato’s teacher, at the former’s trial in Athens in 399 bce",
+          "note": "'에세이·비평'은 사이트 갈래표(src/types.ts GENRE_DEFS: 소설·단편/시/희곡/에세이·비평/서사시/역사·전기) 안의 선택이다. 출처가 받치는 것은 법정 변론을 옮긴 산문 대화편이라는 데까지이고, 여섯 칸 가운데 비허구 산문인 '에세이·비평'이 가장 가깝다. [check] 이 세션에서 Wayback 2024 Britannica 'Apology' 를 다시 가져와 첫 문장이 그대로 있음을 확인했다. 원 주장의 '산문'은 인용이 담지 않아 주장에서 뺐다 — 인용이 받치는 것은 '법정 변론을 옮긴 대화편'까지다. 갈래 '에세이·비평'은 여섯 칸 갈래표 안의 분류 선택이라 인용이 직접 받칠 수 있는 성질이 아니다. 참고: Wikipedia 'Apology (Plato)' 는 'Although Aristotle later classified it as a genre of fiction' 이라 적어, 소크라테스 대화편을 허구 갈래로 보는 고대 분류도 있음을 밝힌다. 갈래표에 철학·대화 칸이 없는 한 가장 가까운 칸이라는 판단은 유지한다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 7,
+        "requoted": 0,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

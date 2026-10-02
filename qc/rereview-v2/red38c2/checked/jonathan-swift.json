@@ -1,0 +1,83 @@
+{
+  "plates": [
+    {
+      "id": "jonathan-swift",
+      "claims": [
+        {
+          "sids": [
+            "f0fabcdb2fec"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『겸손한 제안』은 1729년 더블린에서(세라 하딩) 처음 발행되었다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Swift",
+          "quote": "In 1729, Swift's A Modest Proposal for Preventing the Children of Poor People in Ireland Being a Burden on Their Parents or Country, and for Making Them Beneficial to the Publick was published in Dublin by Sarah Harding.",
+          "note": "인포박스가 근거로 든 인터넷 아카이브 1729년판(bim_eighteenth-century_a-modest-proposal-for-pr_swift-jonathan_1729)의 속표지 OCR을 이 세션에서 가져와 보니 \"Printed by S. Harding, oppoſite the Hand\"이고, 위키백과 A Modest Proposal의 추가 읽을거리 서지는 1730년 런던판을 \"The Third Edition, Dublin, Printed: And Reprinted at London\"이라 적어 더블린판이 먼저다. [check] 이 세션에서 위키백과 Jonathan Swift 문서를 다시 가져와 인용문이 그대로 있음을 확인했다(각주 [58]). 연도(1729)·장소(더블린)·인쇄업자(세라 하딩)가 한 문장에 있다. '처음'은 이 작품의 발행 연도가 1729년이고 그해의 발행지가 더블린이라는 데서 나온다. 같은 세션에서 가져온 위키백과 A Modest Proposal 문서의 1730년 런던판 서지('The Third Edition, Dublin, Printed: And Reprinted at London')와 인터넷 아카이브 1729년판 OCR 속표지('Printed by S. Harding')도 확인했다."
+        },
+        {
+          "sids": [
+            "f0fabcdb2fec"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 1729년 초판은 16쪽이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/w/index.php?title=A_Modest_Proposal&action=raw",
+          "quote": "| pages     = 16<ref>{{Internet Archive|bim_eighteenth-century_a-modest-proposal-for-pr_swift-jonathan_1729|Full text of the original 1729 edition}}.</ref>",
+          "note": "이 세션에서 인터넷 아카이브 메타데이터(https://archive.org/metadata/bim_eighteenth-century_a-modest-proposal-for-pr_swift-jonathan_1729)를 가져와 imagecount 16을 확인했다. 같은 항목의 OCR 전문은 속표지(하딩 인쇄)로 시작해 글의 마지막 낱말 \"bearing.\"(child-bearing)으로 끝나므로, 16장 안에 속표지부터 끝까지 전부 들어 있다. [check] 이 세션에서 action=raw 위키텍스트를 다시 가져와 인포박스 줄이 그대로 있음을 확인했다. 쪽수(16)와 그 근거가 '원래의 1729년판'이라는 점이 같은 줄에 있다. 인터넷 아카이브 메타데이터의 imagecount도 16이고, OCR 전문은 하딩 인쇄 속표지로 시작해 마지막 문단('I Profeſs in the ſincerity of my Heart…')과 'Child- bearing.'으로 끝난다."
+        },
+        {
+          "sids": [
+            "f0fabcdb2fec"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "제안자는 진지한 어조로 말하고, 그 어조가 제안의 부조리를 드러낸다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+          "quote": "Swift uses the proposer's serious tone to highlight the absurdity of his proposal.",
+          "note": "[check] 이 세션에서 렌더된 문서와 action=raw 모두에서 인용문을 그대로 확인했다. '제안자'(proposer)·'진지한 어조'(serious tone)·'부조리를 드러낸다'(highlight the absurdity)가 모두 인용문에 있다."
+        },
+        {
+          "sids": [
+            "f0fabcdb2fec"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 진지한 반어는 글 끝까지 유지된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+          "quote": "Swift's essay is widely held to be one of the greatest examples of sustained irony in the history of English literature.",
+          "note": "같은 문서: \"He uses methods of argument throughout his essay\". 1차 텍스트로도 확인: 인터넷 아카이브 1729년판 OCR의 마지막 문단이 \"I Profeſs in the ſincerity of my Heart that I\"로 시작해, 제안자가 마지막까지 진지한 1인칭 목소리를 거두지 않는다. 이 문장(sustained irony)은 위키텍스트 원문(action=raw)에는 없고 렌더된 문서에만 나오므로 렌더 페이지 URL을 적었다. [check] 이 세션에서 렌더된 문서의 Synopsis 첫 문장으로 인용문을 그대로 확인했다. action=raw에는 이 문장이 없다는 점도 확인했다. 'sustained irony'는 반어가 글 전체에 걸쳐 유지된다는 뜻이다. 진지한 어조가 그 반어의 방식이라는 점은 주장 3이 받친다. 1729년판 OCR의 마지막 문단도 제안자의 진지한 1인칭으로 끝난다."
+        },
+        {
+          "sids": [
+            "f0fabcdb2fec"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "무표정하게 진지한 반어적 문체는 스위프트 특유의(트레이드마크) 방법이며, 『겸손한 제안』이 그 대표 사례다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Jonathan_Swift",
+          "quote": "His trademark deadpan and ironic style of writing, particularly in later works such as A Modest Proposal (1729), has led to such satire being subsequently termed as \"Swiftian\".",
+          "note": "'특유의'는 'trademark'와 같은 세기다('유일한'이 아니라 '그를 표시하는'). 브리태니커(Wayback) 스위프트 항목도 지어낸 화자를 통한 반어를 'almost always'라 하고, 이어서 \"Pulling in different directions, this irony creates the tensions that are characteristic of Swift’s best work\"라 적는다. 앞선 교정의 '대표적인 방법'보다 한 단계 센 표현이지만 'trademark'가 그만큼을 받친다. [check] 이 세션에서 위키백과 Jonathan Swift 문서를 다시 가져와 리드 문단에서 인용문을 그대로 확인했다. 'trademark'가 '특유의'를 받치고, 'deadpan and ironic'이 '진지함을 유지하는' 반어를 받친다. 'particularly in later works such as A Modest Proposal'은 『겸손한 제안』을 대표 사례로 든다."
+        },
+        {
+          "sids": [
+            "f0fabcdb2fec"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "걸리버도 『겸손한 제안』의 시민과 같은 방식 — 지어낸 화자를 통한 반어 — 의 화자다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jonathan-Swift/Withdrawal-to-Ireland",
+          "quote": "Swift rarely speaks in his own person; almost always he states his views by ironic indiscretion through some imagined character such as Lemuel Gulliver or the morally obtuse citizen of “A Modest Proposal.”",
+          "note": "같은 페이지: \"Gulliver’s Travels’s matter-of-fact style and its air of sober reality confer on it an ironic depth that defeats oversimple explanations.\" — 걸리버의 화자도 진지한 사실 문체를 유지한다. '이후 걸리버의 화자를 읽는 눈'의 '이후'는 이 페이지의 독서 순서(readingOrder: 겸손한 제안 → 걸리버 여행기)를 말하며 출간 순서가 아니다. 출간은 『걸리버 여행기』(1726, 같은 브리태니커 페이지 \"was published in 1726\")가 『겸손한 제안』(1729)보다 앞선다. 『겸손한 제안』이 걸리버를 읽는 눈을 '만든다'는 것은 독서 안내로서의 편집 판단이고, 확인 가능한 부분은 두 화자가 같은 장치라는 데까지다. [check] 이 세션에서 브리태니커 Withdrawal-to-Ireland 페이지(Wayback 2024)를 다시 가져와 인용문과 note의 두 인용('matter-of-fact style…', 'was published in 1726')이 그대로 있음을 확인했다. 두 화자(걸리버, 『겸손한 제안』의 시민)가 같은 장치라는 점을 인용문 하나가 받친다. '이후'는 독서 순서를 말한다. 출간 순서로 읽히지 않는다는 것은 readingOrder(겸손한 제안 → 걸리버 여행기)로 확인했다. 『겸손한 제안』이 읽는 눈을 '만든다'는 독서 안내로서의 판단이고 사실 주장이 아니다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 6,
+        "requoted": 0,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

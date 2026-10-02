@@ -1,0 +1,86 @@
+{
+  "plates": [
+    {
+      "id": "victor-hugo",
+      "claims": [
+        {
+          "sids": [
+            "c21fa742307e"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』에는 위고식 역사 서술과 주요 인물의 비극적 운명이 함께 엮여 있다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Notre-Dame_de_Paris_(roman)",
+          "quote": "Le roman historique tel que le conçoit Hugo comporte également une part de réflexion philosophique et morale … Quant au sort tragique des personnages principaux, il nourrit une réflexion sur le destin traversée par la notion d'[[Ananké (mythologie)|''Ananké'' (''Fatalité'')]].",
+          "note": "같은 문단. 역사 서술 쪽은 브리태니커 'historical novel … an evocation of life in medieval Paris during the reign of Louis XI'도 받친다(https://web.archive.org/web/20260814015013/https://www.britannica.com/biography/Victor-Hugo)."
+        },
+        {
+          "sids": [
+            "c21fa742307e"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』에서 건축 서술은 위고 자신의 주요 관심사다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+          "quote": "Architecture is a major concern of Hugo's in ''Notre-Dame de Paris'', not just as embodied in the cathedral itself, but as representing throughout Paris and the rest of Europe an artistic genre which, Hugo argued, was about to disappear with the arrival of the printing press."
+        },
+        {
+          "sids": [
+            "c21fa742307e"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 역사 서술 방식은 위고 특유의 것이다(그의 여러 책에 되풀이되는 관심)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+          "quote": "As with many of his books, Hugo was interested in a time that seemed to him to be on the cusp of two types of society.",
+          "note": "'특유의'는 역사 쪽을 이 인용이, 건축 쪽을 'a major concern of Hugo's' 인용이 받친다. 건축 서술이 위고의 여러 작품에 되풀이된다는 출처는 따로 찾지 않았다 — '위고 특유의 역사·건축 서술'의 건축 쪽 '특유'는 약한 확인이다."
+        },
+        {
+          "sids": [
+            "c21fa742307e"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 결합이 『레 미제라블』보다 앞서 『파리의 노트르담』에 이미 드러나 있다(두 작품은 같은 기획의 짝)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+          "quote": "What Victor H. did for the Gothic world in ''Notre-Dame of Paris'' [''The Hunchback of Notre-Dame''], he accomplishes for the modern world in ''Les Misérables''",
+          "note": "위고가 출판사에 준 홍보 문구로, 두 작품을 같은 기획의 짝으로 놓는다. 이전 패스에서 unverifiable이던 '이미 완성되어'가 '이미 드러나 있고'로 좁혀졌다 — 존재 주장은 위 두 주장(역사·운명, 건축)이 받치고, 완성도 평가는 이제 문장에 없다."
+        },
+        {
+          "sids": [
+            "c21fa742307e"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』(1831)은 『레 미제라블』(1862)보다 먼저 나온 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260814015013/https://www.britannica.com/biography/Victor-Hugo",
+          "quote": "Hugo's best-loved works are the novels Notre-Dame de Paris (1831; The Hunchback of Notre-Dame) and Les Misérables (1862)."
+        },
+        {
+          "sids": [
+            "c21fa742307e"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』에도 삽입장(줄거리를 진전시키지 않는 에세이)이 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+          "quote": "More than a quarter of the novel—by one count 955 of 2,783 pages—is devoted to essays that argue a moral point or display Hugo's encyclopedic knowledge but do not advance the plot, nor even a subplot, a method Hugo used in such other works as ''[[The Hunchback of Notre-Dame]]''",
+          "note": "fr.wikipedia 『노트르담 드 파리』가 해당 장들을 이름한다: \"Le chapitre « Paris à vol d'oiseau », en particulier, présente une tentative de reconstitution historique du Paris de 1482.\" / \"Dans le chapitre suivant, « Ceci tuera cela », Hugo développe cette réflexion de son personnage.\" (https://fr.wikipedia.org/wiki/Notre-Dame_de_Paris_(roman))."
+        },
+        {
+          "sids": [
+            "c21fa742307e"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『레 미제라블』 프랑스어 원문은 655,478 단어다",
+          "verdict": "contradicted",
+          "url": "https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+          "quote": "Avec ses {{unité|513000|mots}}, il arrive en quatrième ou cinquième position de la [[Liste des plus longs romans|liste des plus longs romans français]].",
+          "correction": "『레 미제라블』(프랑스어 원문 약 51만 3천 단어)",
+          "note": "이전 패스의 확인을 뒤집는다. en.wikipedia 『레 미제라블』의 \"with 655,478 words in the original French\"는 2019-06-05 판(revid 900343831)에서 출처 없이 들어갔고, 지금 그 문장에 붙은 각주(Iris Reading, https://irisreading.com/8-very-long-books-worth-the-time-theyll-take-to-read/)는 \"Les Miserables by Victor Hugo – 545,925 words\"라고 쓴다 — 655,478을 받치지 않는다. fr.wikipedia 「Liste des plus longs romans」(https://fr.wikipedia.org/wiki/Liste_des_plus_longs_romans)도 \"Publié en 1862, il contient {{formatnum:513000}} mots.\"(표의 언어 칸: Français). 직접 측정: 구텐베르크 프랑스어판 5권(#17489, #17493, #17494, #17518, #17519 — 8+8+8+15+9=48권(livre) 전부 있음) 본문 공백 기준 514,788 단어, 생략부호(l'·d') 분리 시 549,795, 알파벳 토큰 558,417 — 어떤 토큰화로도 655k에 닿지 않고 513,000과 맞는다. 함축된 분량 비교는 수정 후에도 성립: 『파리의 노트르담』(구텐베르크 #19657) 같은 방식 172,393 단어로 약 3분의 1(측정값, 인용 출처 아님)."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

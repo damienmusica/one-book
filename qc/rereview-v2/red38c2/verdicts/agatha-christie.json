@@ -1,0 +1,107 @@
+{
+  "plates": [
+    {
+      "id": "agatha-christie",
+      "claims": [
+        {
+          "sids": ["eac962601945"],
+          "field": "author.importanceReason",
+          "claim": "크리스티는 섬·열차 같은 곳을 무대로 삼았고, 용의자의 범위는 대개 닫힌 소수다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+          "quote": "the action might take place on a small island (And Then There Were None), an aeroplane (Death in the Clouds), a train (Murder on the Orient Express), … but the circle of potential suspects is usually closed and intimate",
+          "note": "출처의 'closed'는 공간이 아니라 용의자 집단을 가리킨다. 같은 문장은 런던 아파트·서인도 휴양지·발굴 현장처럼 닫히지 않은 무대도 들고, 앞머리에서 영국 시골 마을에 머물지 않았다고 말한다. 따라서 문장은 '이런 무대도 썼다'로만 읽혀야 하고, 폐쇄 공간이 크리스티의 늘 쓰는 무대라는 뜻으로 넓히면 안 된다. 섬과 열차가 실제로 닫힌 공간이라는 점은 아래 두 claim이 받친다."
+        },
+        {
+          "sids": ["eac962601945"],
+          "field": "author.importanceReason",
+          "claim": "섬(『그리고 아무도 없었다』)은 피해자와 살인자를 바깥 세계에서 떼어 놓은 무대다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+          "quote": "It begins with the classic set-up of potential victim(s) and killer(s) isolated from the outside world, but then violates conventions.",
+          "note": "『그리고 아무도 없었다』 문서도 'The story takes place on an isolated island off the coast of Devon.'이라고 쓴다(이번 세션에서 가져옴)."
+        },
+        {
+          "sids": ["eac962601945"],
+          "field": "author.importanceReason",
+          "claim": "열차(『오리엔트 특급 살인』)는 눈에 갇혀 닫힌 무대가 된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Murder_on_the_Orient_Express",
+          "quote": "The Orient Express, snowed up in Yugoslavia, provides the ideal 'closed' set-up for a classic-style exercise in detection",
+          "note": "로버트 바너드의 평."
+        },
+        {
+          "sids": ["eac962601945"],
+          "field": "author.importanceReason",
+          "claim": "저택도 크리스티가 용의자를 모아 두는 무대로 쓴 곳이다(『스타일스 저택의 괴사건』)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "It is set in a large, isolated country manor. There are a half-dozen suspects, most of whom are hiding facts about themselves.",
+          "note": "같은 문서의 로버트 바너드 평은 'The country-house-party murder is a stereotype in the detective-story genre, which Christie makes no great use of.'라고 적는다. 그러므로 저택은 무대의 한 예로만 들 수 있고, 크리스티의 주된 무대라고 읽히게 하면 안 된다. 지금 문장은 섬·열차와 나란히 예로만 들어 이 한도 안에 있다. Agatha Christie 문서는 Abney Hall이 'country-house life'로 작품에 녹아들었다고 적는다('The descriptions of the fictional Chimneys, Stonygates, and other houses in her stories are mostly Abney Hall in various forms.')."
+        },
+        {
+          "sids": ["eac962601945"],
+          "field": "author.importanceReason",
+          "claim": "결말에 탐정이 용의자를 한 방에 모아 범인을 밝히는 장면은 크리스티의 표지다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+          "quote": "At the end, in a Christie hallmark, the detective usually gathers the surviving suspects into one room, explains the course of their deductive reasoning, and reveals the guilty party",
+          "note": "'hallmark'가 '표지'에 대응한다. 출처는 'usually'라고 쓰고 바로 뒤에 예외를 든다: 'there are exceptions where it is left to the guilty party to explain all (such as And Then There Were None and Endless Night)'. 문장은 '늘'이라고 하지 않아 괜찮다."
+        },
+        {
+          "sids": ["d024eef72fdb"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "『스타일스 저택의 괴사건』은 크리스티의 데뷔 장편이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "Christie's debut novel, from which she made £25 and John Lane made goodness knows how much.",
+          "note": "로버트 바너드의 평. 같은 문서의 1921년 서평도 'the first published book of Miss Agatha Christie'라고 쓴다. 그보다 먼저 쓴 『Snow Upon the Desert』는 출판되지 않았으므로(Agatha Christie 문서) '첫 장편'보다 '데뷔 장편'이 정확하다."
+        },
+        {
+          "sids": ["d024eef72fdb"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "이 작품에 푸아로가 나온다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "The Mysterious Affair at Styles is the first mystery novel by British writer Agatha Christie, introducing her fictional detective Hercule Poirot."
+        },
+        {
+          "sids": ["d024eef72fdb"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "헤이스팅스가 함께 나오며 이야기의 화자다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "Hastings – Poirot's friend, and the narrator of the story."
+        },
+        {
+          "sids": ["d024eef72fdb"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "외딴 저택 한 곳에 용의자들을 가둬 둔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "It is set in a large, isolated country manor. There are a half-dozen suspects, most of whom are hiding facts about themselves.",
+          "note": "'가두고'는 같은 문서의 바너드 평이 받친다: 'The family is kept together under one roof by the exigencies of war'. 물리적으로 갇힌 것이 아니라 전시 사정으로 한 지붕 아래 묶여 있다는 뜻이다."
+        },
+        {
+          "sids": ["d024eef72fdb"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "사건은 마지막 장 직전(끝에서 두 번째 장)에 해명된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "She revised the next-to-last chapter, changing the scene of Poirot's grand revelation from a courtroom to the Styles library.",
+          "note": "Project Gutenberg 본문(ebook 863, 이번 세션에서 가져옴)으로 확인했다. 푸아로가 모두를 한자리에 모으고 범인을 지목하는 장면은 12장 'THE LAST LINK' 끝이다('let me introduce you to the murderer, Mr. Alfred Inglethorp!'). 다만 마지막 13장의 제목이 'POIROT EXPLAINS'이고, 푸아로가 헤이스팅스에게 추론을 따로 풀어 준다. 그러니 '해명'이 12장에서 끝나는 것은 아니다. 범인을 밝히는 대목은 끝에서 두 번째 장이 맞으므로 문장은 성립한다. 더 정밀하게 쓰려면 '마지막 장 직전에 범인을 지목한다'가 낫다. 1921년 서평도 'You must wait for the last-but-one chapter in the book for the last link in the chain of evidence'라고 쓴다(같은 문서)."
+        },
+        {
+          "sids": ["219e869e63be"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "이 작품에는 대체로 크리스티의 영향으로 황금기 추리소설의 상징이 된 요소가 여럿 담겼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "The story features many of the elements that have become icons of the Golden Age of Detective Fiction, largely due to Christie's influence.",
+          "note": "'대체로'는 'largely', '상징'은 'icons', '여럿'은 'many'에 대응한다. 이 위키백과 문장의 각주는 Official Agatha Christie site의 'The Making of The Mysterious Affair at Styles'(2020)다. 이전 원장에서 문제 된 '크리스티의 표준 판형' 같은 표현은 빠졌다. 바로 뒤 문장들이 이 요소를 저택·대여섯 용의자·붉은 청어·반전으로 든다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

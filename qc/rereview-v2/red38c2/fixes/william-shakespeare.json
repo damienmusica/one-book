@@ -1,0 +1,20 @@
+{
+  "fixes": [
+    {
+      "id": "william-shakespeare",
+      "works": [
+        {
+          "id": "william-shakespeare--sonnets",
+          "significance": "154편의 연작. '아름다운 청년'과 '검은 여인'을 향한 두 묶음으로 읽히며, 서리 백작이 확립하고 대니얼이 이미 쓰고 있던 3사행연 + 2행 결구의 영국식 소네트를 몇 편 말고는 따른다."
+        }
+      ],
+      "resolutions": [
+        {
+          "field": "work:william-shakespeare--sonnets.significance",
+          "claim": "드레이턴은 셰익스피어보다 먼저(이미) 3사행연 + 2행 결구의 영국식 소네트를 쓰고 있었다",
+          "resolution": "removed"
+        }
+      ]
+    }
+  ]
+}

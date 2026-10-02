@@ -1,0 +1,43 @@
+{
+  "plates": [
+    {
+      "id": "mario-vargas-llosa",
+      "claims": [
+        {
+          "sids": [
+            "dcc5e519cccd"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "그의 소설은 서로 다른 시간대의 대화를 한 대화 안에 교대로 놓는다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "Es quizá el rasgo más destacado en el estilo discursivo del autor, … dos o más conversaciones, en lugares y tiempos diversos, distantes y sucesivos, con temas y locutores que están parcialmente presentes en ellas (no todos en todas), se funden en una sola conversación, en un solo motivo, pero no en forma de resumen directo del narrador, sino mediante interpolaciones de frases, opiniones, palabras de las diversas situaciones",
+          "note": "Bobes Naves 논문을 이 세션에서 다시 받아 확인했다. 인용은 한 문장 안에서 줄였다. '교대로'는 여러 상황의 문장·말이 끼워 넣어지는 방식(interpolaciones)에 해당한다. 같은 문장이 이를 작가 문체의 '아마도 가장 두드러진 특징'이라고 하므로, 작가 단위 난이도 근거로 쓸 수 있다. 논문이 직접 다루는 작품은 『까떼드랄 주점에서의 대화』와 『염소의 축제』이고, 『녹색의 집』도 같은 기법을 쓴다고 한다."
+        },
+        {
+          "sids": [
+            "dcc5e519cccd"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "때로는 호격으로 화자를 알 수 있다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "ya que en ocasiones sabemos quién está hablando por la forma en que utiliza el apóstrofe en el diálogo en presencia",
+          "note": "이전 판의 '호격으로만'에서 '만'이 빠져 출처 범위('en ocasiones', 호격을 쓰는 방식으로 누가 말하는지 안다)와 맞는다. 출처가 말하는 대상은 『녹색의 집』과 특히 『까떼드랄 주점에서의 대화』의 대화다."
+        },
+        {
+          "sids": [
+            "dcc5e519cccd"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "누가 언제 누구에게 말하는지 독자가 매 순간 가려내야 한다",
+          "verdict": "confirmed",
+          "url": "https://primaduroverales.wordpress.com/wp-content/uploads/2012/11/algunos-recursos-narrativos-de-mario-vargas-llosa-los-vasos-comunicantes.pdf",
+          "quote": "El lector debe estar atento a lo que dicen, … y debe saber en cada momento quién es el que habla y a qué momento corresponde lo que dice, y además, a quién se dirige",
+          "note": "누가(quién es el que habla)·언제(a qué momento corresponde)·누구에게(a quién se dirige)·매 순간(en cada momento)이 모두 인용에 있다. 문장의 인과 연결('호격으로 화자를 알 수 있어 … 가려내야 한다')도 출처의 'ya que'로 이어진 같은 문장 구조와 일치한다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "fixes": [
+    {
+      "id": "taras-shevchenko",
+      "languages": ["uk", "ru"],
+      "difficultyReason": "민요 율격을 빌린 시행은 소리 내어 읽으면 잡히지만, 농노제·1768년 봉기가 시에 압축돼 배경 없이는 고유명사가 비고, 한 번역자는 그 통사·음악의 혁신을 영역하기 어렵다고 한다.",
+      "resolutions": [
+        {
+          "field": "author.facts",
+          "claim": "작품 언어는 우크라이나어(uk) 하나다",
+          "resolution": "corrected"
+        },
+        {
+          "field": "author.difficultyReason",
+          "claim": "그의 시행은 대개(대부분) 민요 율격이다",
+          "resolution": "narrowed"
+        }
+      ]
+    }
+  ]
+}

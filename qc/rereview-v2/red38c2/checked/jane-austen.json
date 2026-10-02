@@ -1,0 +1,61 @@
+{
+  "plates": [
+    {
+      "id": "jane-austen",
+      "claims": [
+        {
+          "sids": [
+            "c5e5b6a625df"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『오만과 편견』은 1800년 이전(1796–97년)에 초고가 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Jane-Austen",
+          "quote": "Between October 1796 and August 1797 Austen completed the first version of Pride and Prejudice, then called “First Impressions.”",
+          "note": "영어 위키백과 'Pride and Prejudice'도 같다: 'It was originally titled First Impressions, and was written between October 1796 and August 1797.' 문장은 '초고'만 말하므로 정확하다. 다만 같은 문서는 'Austen made significant revisions to the manuscript for First Impressions between 1811 and 1812.'라고 쓴다 — 지금 읽는 텍스트는 1811–12년에 크게 고친 1813년 출간본이므로, 이 구절을 '읽는 산문 자체가 1800년 이전 것'으로 읽으면 지나치다. 정밀하게 하려면 '1796–97년 초고를 1811–12년에 크게 고쳐 1813년에 낸'으로 쓸 수 있다. [검사: 브리태니커 Wayback 2024 원문에서 인용 확인. 문장은 '초고'가 1800년 이전에 쓰였다고만 하므로 인용 하나로 충분하다.]"
+        },
+        {
+          "sids": [
+            "c5e5b6a625df"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『오만과 편견』에는 한정상속된 영지와 그 영지 수입이라는 재산 사정이 깔려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+          "quote": "Mr. Bennet’s property consisted almost entirely in an estate of two thousand a year, which, unfortunately for his daughters, was entailed, in default of heirs male, on a distant relation",
+          "note": "원문 7장 첫 문장. 영어 위키백과 'Pride and Prejudice'(다시 받음): 'this estate is entailed and so can only be inherited in the male line. To his regret, he has failed to save out of the income from the Longbourn estate to provide for his daughters. From the Bennets' perspective, it is imperative that at least one of their daughters marry well to support the others, which is a primary motivation driving the plot.' [검사: 구텐베르크 #1342 원문(줄바꿈만 정규화)에서 인용 확인.]"
+        },
+        {
+          "sids": [
+            "c5e5b6a625df"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "이 재산 사정(한정상속·연수입)이 인물들의 대화에서 이해관계로 다뤄진다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+          "quote": "I do think it is the hardest thing in the world, that your estate should be entailed away from your own children; and I am sure, if I had been you, I should have tried long ago to do something or other about it.",
+          "note": "원문 13장, 베넷 부인이 남편에게 하는 말. 연수입도 대화로 나온다 — 첫 장 베넷 부인: 'A single man of large fortune; four or five thousand a year. What a fine thing for our girls!' 영어 위키백과: 'Mrs Bennet rails repeatedly at the unfairness of the Longbourn entail'. '모르면 흐려진다'는 읽기 난도 판단이라 이를 그대로 말한 출처는 찾지 못했다. 관련 근거만 있다: 원문 13장 'Jane and Elizabeth attempted to explain to her the nature of an entail.'(작중에서도 설명이 필요한 제도), JASNA Persuasions On-Line 44.1 Hall 'The estate entail is something that Jane Austen and most of her contemporary readers would have understood as a fact of life.'(당대 독자에 관한 말일 뿐 현대 독자를 말하지 않는다). [검사: 구텐베르크 #1342 원문에서 13장 인용과 첫 장 'four or five thousand a year' 대사 확인. 이 주장은 대화에 재산 사정이 이해관계로 나온다는 데까지만 다룬다 — '모르면 흐려진다'는 아래 추가한 주장이 따로 덮는다.]"
+        },
+        {
+          "sids": [
+            "c5e5b6a625df"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "한정상속과 연수입 같은 재산 사정을 알아야 인물들의 동기와 행동의 무게가 제대로 읽힌다(모르면 대화 속 이해관계가 흐려진다)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20160510051030/http://www.cliffsnotes.com/literature/p/pride-and-prejudice/critical-essays/money-in-pride-and-prejudice",
+          "quote": "Because of the entail, the Bennet women will have a bleak financial future after Mr. Bennet dies. When readers recognize this, Mrs. Bennet's pursuit of husbands for her daughters takes on a sense of urgency that supersedes her foolish behavior. Translating the monetary realities that the characters of Pride and Prejudice face into modern equivalents helps readers to better understand the characters' motivations and the significance of their actions.",
+          "note": "[검사: 추가] 이전 판정은 이 읽기-난도 판단의 출처를 찾지 못했다고 적었다. CliffsNotes 'Money in Pride and Prejudice'(Wayback 2016, 2019 스냅숏도 같은 문장)가 한정상속을 알아볼 때 베넷 부인의 혼처 찾기가 절박함을 띠고, 금액을 환산해야 인물의 동기와 행동의 의미가 더 잘 이해된다고 쓴다 — '모르면 흐려진다'의 긍정형이다. 같은 글은 이어서 'Austen describes people's financial situations throughout Pride and Prejudice in terms of actual monetary amounts.'라 적는다. 현재 cliffsnotes.com 원본은 봇 차단(Cloudflare/Incapsula)이라 우회하지 않고 Wayback 스냅숏을 썼다. 한계: 출처는 '대화'가 아니라 인물의 동기·행동 일반을 말한다 — 대화에 재산 사정이 나온다는 것은 위 구텐베르크 13장 인용이 덮는다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 3,
+        "requoted": 0,
+        "downgraded": 0,
+        "added": 1,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

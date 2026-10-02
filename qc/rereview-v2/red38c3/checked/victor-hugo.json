@@ -1,0 +1,118 @@
+{
+  "plates": [
+    {
+      "id": "victor-hugo",
+      "claims": [
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』은 위고의 (역사) 장편소설이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260814015013/https://www.britannica.com/biography/Victor-Hugo",
+          "quote": "he gained wider fame in 1831 with his historical novel Notre-Dame de Paris (Eng. trans. The Hunchback of Notre-Dame), an evocation of life in medieval Paris during the reign of Louis XI.",
+          "note": "문장의 주어는 readingEntry(victor-hugo--notre-dame-de-paris)다.",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다. 인용 속 ')' 앞의 공백은 태그 제거 흔적이라 페이지 원문대로 고쳤다(같은 문장, 내용 변화 없음)."
+        },
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』(1831)은 『레 미제라블』(1862)보다 먼저 나왔다('이미'·'앞서')",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20260814015013/https://www.britannica.com/biography/Victor-Hugo",
+          "quote": "Hugo's best-loved works are the novels Notre-Dame de Paris (1831; The Hunchback of Notre-Dame) and Les Misérables (1862).",
+          "note": "두 작품을 한 기획의 짝으로 놓는 위고 측 홍보 문구도 en.wikipedia 『레 미제라블』에 그대로 있다: \"What Victor H. did for the Gothic world in ''Notre-Dame of Paris'' [''The Hunchback of Notre-Dame''], he accomplishes for the modern world in ''Les Misérables''\" (https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables).",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다. 인용 속 ')' 앞의 공백은 태그 제거 흔적이라 페이지 원문대로 고쳤다."
+        },
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 역사 서술은 위고 특유의 것이다(그의 여러 책에 되풀이되는 관심)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+          "quote": "As with many of his books, Hugo was interested in a time that seemed to him to be on the cusp of two types of society.",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다."
+        },
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』에서 건축 서술은 위고 자신의 주요 관심사다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+          "quote": "Architecture is a major concern of Hugo's in ''Notre-Dame de Paris'', not just as embodied in the cathedral itself, but as representing throughout Paris and the rest of Europe an artistic genre which, Hugo argued, was about to disappear with the arrival of the printing press.",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다."
+        },
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "건축에 대한 관심은 이 소설에만 있지 않고 위고가 그 전부터 이어 온 관심사다('특유의' 건축 쪽)",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Notre-Dame_de_Paris_(roman)",
+          "quote": "Le combat le plus explicite mené par l'auteur à l'occasion du roman est un plaidoyer pour la préservation du patrimoine architectural … Hugo poursuit en cela le combat entamé plusieurs années plus tôt, par exemple dans un article qu'il publie en 1825, « Guerre aux démolisseurs ! »",
+          "note": "같은 문단 안, 생략 1곳.",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다."
+        },
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』에는 위고식 역사 서술과 주요 인물의 (비극적) 운명이 결합되어 있다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Notre-Dame_de_Paris_(roman)",
+          "quote": "Le roman historique tel que le conçoit Hugo comporte également une part de réflexion philosophique et morale … Quant au sort tragique des personnages principaux, il nourrit une réflexion sur le destin traversée par la notion d'[[Ananké (mythologie)|''Ananké'' (''Fatalité'')]].",
+          "note": "같은 문단(생략 1곳). 이전 패스에서 문제였던 '이미 완성되어'는 '이미 드러나 있고'로 좁혀졌고, 존재 주장만 남아 이 인용과 위 두 건축 인용으로 받쳐진다.",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다. 두 조각 모두 fr.wikipedia 같은 문단(「Le roman historique tel que le conçoit Hugo…」 문단)에 있다."
+        },
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『파리의 노트르담』에도 줄거리를 진전시키지 않는 삽입장(에세이)이 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+          "quote": "More than a quarter of the novel—by one count 955 of 2,783 pages—is devoted to essays that argue a moral point or display Hugo's encyclopedic knowledge but do not advance the plot, nor even a subplot, a method Hugo used in such other works as ''[[The Hunchback of Notre-Dame]]''",
+          "note": "fr.wikipedia 『노트르담 드 파리』가 해당 장을 이름한다: \"Le chapitre « Paris à vol d'oiseau », en particulier, présente une tentative de reconstitution historique du Paris de 1482.\" 그리고 5권 「Ceci tuera cela」(\"Dans le chapitre suivant, « Ceci tuera cela », Hugo développe cette réflexion de son personnage.\").",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다."
+        },
+        {
+          "sids": [
+            "8d54dcb2165a"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『레 미제라블』 프랑스어 원문은 약 51만 단어다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+          "quote": "Avec ses {{unité|513000|mots}}, il arrive en quatrième ou cinquième position de la [[Liste des plus longs romans|liste des plus longs romans français]].",
+          "note": "이전 패스의 수정(655,478 → 약 51만 3천)이 반영되었다. fr.wikipedia 「Liste des plus longs romans」(https://fr.wikipedia.org/wiki/Liste_des_plus_longs_romans)도 \"Publié en 1862, il contient {{formatnum:513000}} mots.\" 이 세션 직접 재측정: 구텐베르크 프랑스어판 #17489·17493·17494·17518·17519 본문(START~END 사이) 공백 기준 110,076+95,882+84,832+120,032+103,966 = 514,788 단어 — '약 51만'과 맞는다. 주의: en.wikipedia 『레 미제라블』에는 아직 'with 655,478 words in the original French'가 남아 있으나, 그 각주(Iris Reading)는 545,925를 쓰고 이전 패스에서 출처 없는 삽입으로 확인되었다. 문장이 함축하는 분량 비교('앞서 적응하기에 알맞다')도 측정으로 성립: 『파리의 노트르담』 구텐베르크 #19657(Language: French) 같은 방식 172,393 단어로 약 3분의 1 — 측정값이지 인용 출처는 아니며, 문장은 '짧다'를 명시하지 않는다.",
+          "check": "kept: 이 세션에서 URL을 다시 받아 인용이 그대로 있음을 확인했고, 인용만으로 주장이 선다. fr.wikipedia 『레 미제라블』 각주와 「Liste des plus longs romans」 둘 다 513000을 적는다. en.wikipedia의 655,478은 여전히 남아 있지만, 문장은 '원문 약 51만'이라 fr 출처와 맞는다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 8,
+        "requoted": 0,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ],
+  "check": {
+    "kept": 8,
+    "requoted": 0,
+    "downgraded": 0,
+    "added": 0,
+    "noClaimConverted": 0
+  }
+}

@@ -1,0 +1,125 @@
+{
+ "fixes": [
+  {
+   "id": "agatha-christie",
+   "works": [
+    {
+     "id": "agatha-christie--the-mysterious-affair-at-styles",
+     "significance": "푸아로와 화자 헤이스팅스가 함께 나오는 데뷔 장편으로, 저택 하나에 용의자를 가두고 마지막 장 직전에 범인을 밝힌다. 대체로 크리스티의 영향으로 황금기 추리소설의 상징이 된 요소가 여럿 담겼다."
+    }
+   ],
+   "resolutions": [
+    {
+     "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+     "claim": "사건은 마지막 장 직전(끝에서 두 번째 장)에 해명된다",
+     "resolution": "narrowed",
+     "evidence": "「해명한다」 → 「범인을 밝힌다」: 추론의 설명은 마지막 13장(POIROT EXPLAINS)에 있다"
+    }
+   ]
+  },
+  {
+   "id": "pramoedya-ananta-toer",
+   "readingEntryReason": "4부작의 첫 권으로, 인물 관계와 식민지 법의 작동을 소설적 사건으로 먼저 보여 준다.",
+   "resolutions": [
+    {
+     "field": "author.readingEntryReason",
+     "claim": "하스타 미트라에서 1980년에 나온 『인간의 대지』(Bumi manusia)는 328쪽이다",
+     "resolution": "removed",
+     "evidence": "1980년 인쇄들끼리 쪽수가 다르다(328 / 353) — 쪽수 문장을 뺐다"
+    }
+   ]
+  },
+  {
+   "id": "imre-kertesz",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "『운명』·『좌절』·『태어나지 않은 아이를 위한 기도』 세 권이 3부작을 이룬다",
+     "resolution": "accepted",
+     "evidence": "「normally regarded」와 LARB 서평이 같은 구성을 말한다 — 두 출처가 같은 3부작을 든다"
+    }
+   ]
+  },
+  {
+   "id": "jane-austen",
+   "resolutions": [
+    {
+     "field": "author.difficultyReason",
+     "claim": "오스틴 장편 가운데 『이성과 감성』·『오만과 편견』·『노생거 사원』은 1800년 이전(1790년대)에 초고가 쓰였다",
+     "resolution": "accepted",
+     "evidence": "쪽은 「초고」만 말한다 — 이후 개작은 쪽 문장과 어긋나지 않는다"
+    },
+    {
+     "field": "author.difficultyReason",
+     "claim": "『오만과 편견』은 1800년 이전(1796–97년)에 초고가 쓰였다",
+     "resolution": "accepted",
+     "evidence": "쪽은 「초고」만 말한다 — 이후 개작은 쪽 문장과 어긋나지 않는다"
+    },
+    {
+     "field": "author.difficultyReason",
+     "claim": "이 재산 사정(한정상속·연수입)이 인물들의 대화에서 이해관계로 다뤄진다",
+     "resolution": "accepted",
+     "evidence": "원문 13장·1장의 대화가 그대로 받친다"
+    },
+    {
+     "field": "author.difficultyReason",
+     "claim": "한정상속과 연수입 같은 재산 사정을 알아야 인물들의 동기와 행동의 무게가 제대로 읽힌다(모르면 대화 속 이해관계가 흐려진다)",
+     "resolution": "accepted",
+     "evidence": "CliffsNotes 가 같은 읽기 조언을 한다"
+    }
+   ]
+  },
+  {
+   "id": "roald-dahl",
+   "resolutions": [
+    {
+     "field": "author.readingEntryReason",
+     "claim": "'악덕에는 응징'이 달 아동물 전반에 되풀이되는 규칙이다('달의 규칙')",
+     "resolution": "accepted",
+     "evidence": "출처의 「usually」와 크레이그의 「unequivocal」이 규칙에 가까운 되풀이를 말한다"
+    }
+   ]
+  },
+  {
+   "id": "taras-shevchenko",
+   "resolutions": [
+    {
+     "field": "author.importanceReason",
+     "claim": "창작 금지 처분(1847) 이전에 쓰인 시들이 필사로 돌았다",
+     "resolution": "accepted",
+     "evidence": "쪽수만 다시 확인하지 못했다 — 인용은 본문 전문 검색으로 확인됐다"
+    },
+    {
+     "field": "author.importanceReason",
+     "claim": "창작 금지 처분 이전에 쓰인 시들이 필사로 돌았다",
+     "resolution": "accepted",
+     "evidence": "쪽수만 다시 확인하지 못했다 — 인용은 본문 전문 검색으로 확인됐다"
+    },
+    {
+     "field": "relation:contrast--taras-shevchenko--alexander-pushkin.facts",
+     "claim": "셰우첸코와 푸시킨의 캅카스 시선은 서로 반대편에 놓이는 대조(contrast, 양방향) 관계다",
+     "resolution": "accepted",
+     "evidence": "쪽수만 다시 확인하지 못했다 — 인용은 확인됐다"
+    },
+    {
+     "field": "relation:contrast--taras-shevchenko--alexander-pushkin.facts",
+     "claim": "근거 수준은 편집 추론(editorial_inference)이다",
+     "resolution": "accepted",
+     "evidence": "대조를 쓴 출처가 한 권이라 편집 추론이 맞고, 요약이 저자를 실명한다"
+    },
+    {
+     "field": "relation:contrast--taras-shevchenko--alexander-pushkin.summary",
+     "claim": "그 책은 셰우첸코가 캅카스를 다룬 러시아 문학의 토포스 \"최종 승리의 단언\"을 거슬렀다고 쓴다",
+     "resolution": "accepted",
+     "evidence": "원문 「fundamental topos」 — 쪽 문장은 그 범위다"
+    },
+    {
+     "field": "relation:contrast--taras-shevchenko--alexander-pushkin.summary",
+     "claim": "그 책은 그 토포스의 예로 푸시킨을 든다",
+     "resolution": "accepted",
+     "evidence": "인용이 확인됐다 — 쪽수만 다시 확인하지 못했다"
+    }
+   ]
+  }
+ ]
+}

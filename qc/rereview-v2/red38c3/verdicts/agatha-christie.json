@@ -1,0 +1,54 @@
+{
+  "plates": [
+    {
+      "id": "agatha-christie",
+      "claims": [
+        {
+          "sids": ["060bd6bcfcf0"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "『스타일스 저택의 괴사건』은 크리스티의 데뷔 장편이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "Christie's debut novel, from which she made £25 and John Lane made goodness knows how much.",
+          "note": "로버트 바너드의 평(A Talent to Deceive). 같은 문서의 1921년 서평은 'the first published book of Miss Agatha Christie'라고 쓰고, 도입부는 'the first mystery novel by British writer Agatha Christie'라고 쓴다. 이번 세션에 문서 원문(wikitext)을 다시 받아 확인했다."
+        },
+        {
+          "sids": ["060bd6bcfcf0"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "이 작품에 푸아로가 나온다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "The Mysterious Affair at Styles is the first mystery novel by British writer Agatha Christie, introducing her fictional detective Hercule Poirot."
+        },
+        {
+          "sids": ["060bd6bcfcf0"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "헤이스팅스가 푸아로와 함께 나오며 이야기의 화자다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "Hastings – Poirot's friend, and the narrator of the story.",
+          "note": "Project Gutenberg 본문(ebook 863)도 1장 제목이 'I GO TO STYLES'로 1인칭 서술이다."
+        },
+        {
+          "sids": ["060bd6bcfcf0"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "저택 하나를 무대로 용의자들을 한 지붕 아래 묶어 둔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles",
+          "quote": "It is set in a large, isolated country manor. There are a half-dozen suspects, most of whom are hiding facts about themselves.",
+          "note": "'가두고'는 같은 문서의 바너드 평 'The family is kept together under one roof by the exigencies of war'가 받친다. 물리적 감금이 아니라 전시 사정으로 한 지붕 아래 묶여 있다는 비유로만 성립한다. 한도: Gutenberg 본문에 따르면 에벌린 하워드는 살인 전에 저택을 떠나 15마일 떨어진 병원에서 일하고 있었고('she was working as a nurse at the big hospital in Middlingham, a manufacturing town some fifteen miles away'), 바우어스타인 박사도 저택 밖 사람이다. 그러니 모든 용의자가 저택 안에 있는 것은 아니다. 문장은 폐쇄 공간 추리의 관습을 가리키는 비유로 읽히므로 확인으로 두되, 더 정확하게 쓰려면 '저택 하나에 용의자를 모아 두고'가 낫다."
+        },
+        {
+          "sids": ["060bd6bcfcf0"],
+          "field": "work:agatha-christie--the-mysterious-affair-at-styles.significance",
+          "claim": "마지막 장 직전(끝에서 두 번째 장)에 범인을 밝힌다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/863/pg863.txt",
+          "quote": "let me introduce you to the murderer, Mr. Alfred Inglethorp!",
+          "note": "이번 세션에 Gutenberg ebook 863 전문을 받아 읽었다. 목차는 13장으로 끝나고('CHAPTER XII. THE LAST LINK', 'CHAPTER XIII. POIROT EXPLAINS'), 인용한 범인 지목은 12장 마지막 줄이다. 13장은 푸아로가 헤이스팅스에게 추론을 따로 풀어 주는 보충 설명이다. 영어 위키백과 Styles 문서도 'She revised the next-to-last chapter, changing the scene of Poirot's grand revelation from a courtroom to the Styles library.'라고 쓰고, 1921년 서평은 'You must wait for the last-but-one chapter in the book for the last link in the chain of evidence'라고 쓴다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

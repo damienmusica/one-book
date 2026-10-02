@@ -1,0 +1,76 @@
+{
+ "plates": [
+  {
+   "id": "william-shakespeare",
+   "claims": [
+    {
+     "sids": [
+      "17fb793edcc7"
+     ],
+     "field": "work:william-shakespeare--sonnets.significance",
+     "claim": "『소네트』는 청년을 향한 묶음과 여인을 향한 묶음, 두 묶음으로 읽힌다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+     "quote": "The first 126 are addressed to a young man; the last 28 are either addressed to, or refer to, a woman.",
+     "note": "같은 항목은 검은 여인 묶음을 'The Dark Lady sequence (sonnets 127–152)'로 잡고, 마지막 두 편은 'The final two sonnets are allegorical treatments of Greek epigrams referring to the \"little love-god\" Cupid.'라고 적는다. 두 묶음 독해는 출처와 맞는다. 이 세션에서 원문을 다시 받아 확인."
+    },
+    {
+     "sids": [
+      "17fb793edcc7"
+     ],
+     "field": "work:william-shakespeare--sonnets.significance",
+     "claim": "두 대상은 흔히 '아름다운 청년'(Fair Youth)과 '검은 여인'(Dark Lady)으로 불린다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+     "quote": "When analysed as characters, the subjects of the sonnets are usually referred to as the Fair Youth, the Rival Poet, and the Dark Lady.",
+     "note": "세 번째 인물 '경쟁 시인'은 같은 항목에 따르면 'The sonnets most commonly identified as the Rival Poet group exist within the Fair Youth sequence in sonnets 78–86.'이라 두 묶음 구분과 충돌하지 않는다. '아름다운 청년'·'검은 여인'은 영어 명칭의 번역이며, 한국어 위키백과에서 이 번역어를 확인해 주는 문장은 찾지 못했다(표기 선택의 문제이지 사실 오류는 아님)."
+    },
+    {
+     "sids": [
+      "17fb793edcc7"
+     ],
+     "field": "work:william-shakespeare--sonnets.significance",
+     "claim": "3사행연 + 2행 결구의 영국식 소네트 형태는 서리 백작(헨리 하워드)이 확립했다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Henry_Howard,_Earl_of_Surrey",
+     "quote": "While Wyatt introduced the sonnet form into English poetry, Howard gave it the rhyming metre and the division into quatrains which characterise the sonnets written in a way variously named English, Elizabethan, or Shakespearean sonnets.",
+     "note": "보강 1: Britannica 'Henry Howard, Earl of Surrey'(Wayback https://web.archive.org/web/20241231210439/https://www.britannica.com/biography/Henry-Howard-Earl-of-Surrey): 'Surrey was the first to develop the sonnet form used by William Shakespeare.' 보강 2: 위키백과 'Sonnet': 'his sonnets are written in what has come to be known anachronistically as Shakespearean measure. This version of the sonnet form, characterised by three alternately rhymed quatrains terminating in a final couplet'. 뉘앙스: Britannica 'sonnet'(Wayback 20241224224331)은 'the Elizabethans gradually arrived at the distinctive English sonnet'라고도 적지만, 서리가 그 형태를 처음 만들었다는 위 두 출처와 충돌하지 않는다."
+    },
+    {
+     "sids": [
+      "17fb793edcc7"
+     ],
+     "field": "work:william-shakespeare--sonnets.significance",
+     "claim": "Earl of Surrey의 한국어 표기는 '서리 백작'이다",
+     "verdict": "confirmed",
+     "url": "https://ko.wikipedia.org/wiki/%EC%98%81%EB%AC%B8%ED%95%99",
+     "quote": "그는 영어시의 많은 혁신을 주도했고, 서리 백작 헨리 호워드 (1516/17-1547)과 함께 16세기 초 잉글랜드에 이탈리아의 소네트 형식을 소개했다.",
+     "note": "이 세션에서 원문을 다시 받아 확인."
+    },
+    {
+     "sids": [
+      "17fb793edcc7"
+     ],
+     "field": "work:william-shakespeare--sonnets.significance",
+     "claim": "대니얼은 셰익스피어보다 먼저(이미) 3사행연 + 2행 결구의 소네트를 쓰고 있었다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Samuel_Daniel",
+     "quote": "Daniel employed the sonnet structure that has come to be called \"Shakespearean\", three quatrains and a final couplet, before Shakespeare did.",
+     "note": "보강: Britannica 'sonnet'(Wayback https://web.archive.org/web/20241224224331/https://www.britannica.com/art/sonnet)은 엘리자베스 시대 연작으로 'Samuel Daniel’s Delia (1592)'를 든다. 이전 판에서 문제가 된 드레이턴은 이 문장에서 빠졌고, '이미'는 이제 출처가 'before Shakespeare did'로 싣는 대니얼에만 걸린다."
+    },
+    {
+     "sids": [
+      "17fb793edcc7"
+     ],
+     "field": "work:william-shakespeare--sonnets.significance",
+     "claim": "셰익스피어의 소네트는 몇 편을 빼면 3사행연 + 2행 결구의 영국식 소네트 형태를 따른다",
+     "verdict": "confirmed",
+     "url": "https://en.wikipedia.org/wiki/Shakespeare%27s_sonnets",
+     "quote": "The sonnets are almost all constructed using three quatrains (four-line stanzas) followed by a final couplet.",
+     "note": "같은 항목의 다른 문장: 'With few exceptions, Shakespeare's sonnets observe the stylistic form of the English sonnet—the rhyme scheme, the 14 lines, and the metre.' 예외는 'The exceptions are sonnets 99, 126, and 145. Number 99 has fifteen lines. Number 126 consists of six couplets, and two blank lines marked with italic brackets; 145 is in iambic tetrameters, not pentameters.' 세 편이라 '몇 편 말고는'과 맞는다."
+    }
+   ],
+   "noClaim": {}
+  }
+ ]
+}

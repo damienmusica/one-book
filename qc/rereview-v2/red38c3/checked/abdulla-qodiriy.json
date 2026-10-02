@@ -1,0 +1,105 @@
+{
+  "plates": [
+    {
+      "id": "abdulla-qodiriy",
+      "claims": [
+        {
+          "sids": [
+            "5bfa584e1cfe"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코디리는 1938년 총살되었다",
+          "verdict": "confirmed",
+          "url": "https://tafakkur.net/abdulla-qodiriy.haqida",
+          "quote": "Abdulla Qodiriy 1938 yil 4 oktyabrda Toshkentda otildi.",
+          "note": "'otildi'는 '총살되었다'이다. ru.wiki 「4 октября 1938 года писатель был расстрелян на расстрельном полигоне Алвасти куприк в Ташкенте」, gazeta.uz 「1938 йил 4 октябрда қатл қилинган」도 같다. 셋 다 이 세션에서 다시 받아 확인했다. [check] 이 세션에서 tafakkur.net 문서를 다시 받아 인용문이 그대로 있음을 확인했다. 'otildi'(총살되었다)와 '1938 yil 4 oktyabrda'가 연도와 방식을 함께 싣는다."
+        },
+        {
+          "sids": [
+            "5bfa584e1cfe"
+          ],
+          "field": "author.importanceReason",
+          "claim": "총살 뒤 그의 책은 금지되어 공개된 자리에서 사라졌다",
+          "verdict": "confirmed",
+          "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D1%8B%D1%80%D0%B8,_%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%BB%D0%B0",
+          "quote": "После казни А. Кадыри и вплоть до XX съезда партии его произведения были запрещены и не переиздавались.",
+          "note": "'После казни'(총살 뒤)와 'запрещены и не переиздавались'(금지되고 재간행되지 않았다)가 문장을 싣는다. uz.wiki는 금지와 분서가 체포 직후부터였다고 적는다: 「Qodiriy xibsga olingach, asarlari „zararli“ sanalib oʻtda yoqildi, kutubxonalardan yoʻqotildi, ularni oʻqish taʼqiqlandi.」 이 세션에서 ru.wiki 렌더링 페이지와 uz.wiki 원문을 다시 받아 확인했다. [check] 이 세션에서 ru.wiki 렌더링 페이지를 다시 받아 인용문이 그대로 있음을 확인했다. 'После казни'가 '총살 뒤'를, 'запрещены и не переиздавались'가 공개된 자리에서 사라짐을 싣는다."
+        },
+        {
+          "sids": [
+            "5bfa584e1cfe"
+          ],
+          "field": "author.importanceReason",
+          "claim": "코디리는 1956년에 복권되었다",
+          "verdict": "confirmed",
+          "url": "https://www.gazeta.uz/uz/2026/04/10/abdulla-qodiriy/",
+          "quote": "Абдулла Қодирий бу айбловдан 1956 йил 9 октябрда, 1926 йилдаги иш бўйича эса 2023 йилда тўла оқланган.",
+          "note": "1938년 처형 건의 복권 날짜가 1956년 10월 9일이다. 리스(2020, Uzbekistan: Language and Culture, https://uzlc.tsuull.uz/index.php/uzlangcult/article/download/38/36/73)도 올워스(1964)를 인용해 「he was the first of those murdered in 1938 to be rehabilitated in 1956 [Allworth 1964]」로 적는다. 다른 이설: ru.wiki에만 각주 없는 「Абдулла Кадыри был официально реабилитирован в 1957 году.」가 있다. 날짜까지 적은 gazeta.uz와 올워스를 인용한 리스가 1956년이라 1956년을 확인으로 둔다. 셋 다 이 세션에서 다시 받았다. [check] 이 세션에서 gazeta.uz 기사를 다시 받아 인용문이 그대로 있음을 확인했다. '1956 йил 9 октябрда ... оқланган'이 1938년 건의 복권 연도를 싣는다(1926년 건은 2023년으로 별개)."
+        },
+        {
+          "sids": [
+            "5bfa584e1cfe"
+          ],
+          "field": "author.importanceReason",
+          "claim": "복권 뒤에야 그의 책이 다시 간행되어 공개적으로 읽혔다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "Qodiriy was one of the first victims of the 1930s to be rehabilitated during the Thaw. Or’kan kunlar was republished in 1958 with a print run of ninety thousand copies",
+          "note": "할리드 『Making Uzbekistan』(2015) 383쪽 주 70. 'Or’kan'은 archive.org OCR 원문 그대로다. 같은 주는 이어서 서점에 재고가 남아나지 않았다고 적는다. tafakkur.net 「Uning asarlari XX s’ezddan so’ng, 1956 yildan boshlab yangidan nashr etila bordi.」, 리스(2020) 「Almost every Uzbek of that generation can remember the time they were first allowed to own a copy of O’tkan Kunlar.」도 복권 뒤의 재간행과 독서를 싣는다. 이 세션에서 djvu 전문과 tafakkur, 리스 PDF를 다시 받아 확인했다. [check] 이 세션에서 archive.org의 할리드 djvu 전문을 다시 받아 주 70에 인용문이 그대로(OCR 'Or’kan' 포함) 있음을 확인했다. 해빙기 복권과 9만 부 재간행이 한 대목에 함께 있어 '복권 뒤에야 다시 공개적으로 읽혔다'를 받친다. 같은 주의 다음 구절은 서점이 재고를 대지 못했다고 적는다."
+        },
+        {
+          "sids": [
+            "5bfa584e1cfe"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그는 1991년 알리셰르 나보이 국가상을 받았다",
+          "verdict": "confirmed",
+          "url": "https://tafakkur.net/abdulla-qodiriy.haqida",
+          "quote": "1991 yilda esa A. Qodiriyga Alisher Navoiy nomidagi Davlat mukofoti berildi.",
+          "note": "사후 수상이다. uz.wiki 「Alisher Navoiy nomidagi Oʻzbekiston Respublikasi Davlat mukofoti」 (1991), en.wiki 인포박스 「Alisher Navoiy State Prize (1991)」도 같다. 이 세션에서 셋 다 다시 받아 확인했다. [check] 이 세션에서 tafakkur.net 문서를 다시 받아 인용문이 그대로 있음을 확인했다. 연도(1991)와 상 이름이 한 문장에 있다."
+        },
+        {
+          "sids": [
+            "f246f19635e5"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『지나간 날들』은 두 연인의 혼사가 두 번째 혼인으로 흔들리는 사랑 이야기다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241210051457/https://www.new-east-archive.org/articles/show/12898/first-uzbek-novel-abdullah-qodiriys-bygone-days-calvert-reads",
+          "quote": "All the while, Otabek pines for his bride, Kumush, who is Qodiriy’s ideal progressive woman: educated and opinionated. Unfortunately, the young man’s mother has her own idea of a partner for Otabek, forcing him to take a second wife according to tradition. The domestic conflict that follows as a result takes place against the backdrop of major historical events involving corruption, ethnic cleansing, and eventual conquest.",
+          "note": "영역자 마크 리스의 서평(New East Digital Archive, Wayback 사본). 같은 서평이 두 사람을 「The two lovers of this novel, Otabek and Kumush」로 부른다. 신부 쿠무시(혼사), 어머니가 전통에 따라 들이게 한 둘째 아내(두 번째 혼인), 그로 인한 가정 갈등(흔들림)이 인용에 모두 있다. 이 세션에서 Wayback 사본을 다시 받아 확인했다. [check] 이 세션에서 Wayback 사본을 다시 받아 인용문이 그대로 있음을 확인했다. 신부 쿠무시, 전통에 따른 둘째 아내, 그로 인한 가정 갈등이 한 대목에 있다."
+        },
+        {
+          "sids": [
+            "f246f19635e5"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "그 연애 이야기가 독자를 설레게 한다",
+          "verdict": "confirmed",
+          "url": "https://uz.wikipedia.org/wiki/Abdulla_Qodiriy",
+          "quote": "Asardagi ishqiy sarguzashtlar kitobxonni hayajonga soladi, Otabek bilan Kumushning goʻzal baxtini barbod etgan omillar kishini chuqur oʻyga toldiradi.",
+          "note": "'ishqiy sarguzashtlar kitobxonni hayajonga soladi'가 '연애 이야기가 독자를 설레게 한다'이다. 오타베크와 쿠무시를 들어 『지나간 날들』을 가리킨다. 이 세션에서 uz.wiki 원문을 다시 받아 확인했다. [check] 이 세션에서 uz.wiki 원문을 다시 받아 인용문이 그대로 있음을 확인했다. 'ishqiy sarguzashtlar kitobxonni hayajonga soladi'가 설렘을, 오타베크와 쿠무시가 작품을 특정한다."
+        },
+        {
+          "sids": [
+            "f246f19635e5"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『지나간 날들』은 코디리의 문장과 구성이 가장 완성된 형태로 나오는 작품(대표작)이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/oapen-20.500.12657-88187",
+          "quote": "All along, he was working on what would become his masterpiece, the novel O'tkan kunlar (Bygone Days), the first part of which appeared in 1926, and which was to be the founding document of modern Uzbek prose literature.",
+          "note": "할리드 187쪽의 'his masterpiece'가 '가장 완성된'이라는 최상급을 싣는다. 리스(2020)도 이 소설을 따로 「throughout his masterpiece the reader discerns the bitterness the author felt toward his failed venture」라고 부른다. 문장과 구성을 콕 집어 칭찬하는 것은 uz.wiki다: 「Xullas, „Oʻtkan kunlar“ romani toʻqima qahramonlarning hayotiylik kasb etishi va tarixiy voqealarga uygʻunligi jihatidan ham, mujassamot butunligi va tilidagi nafosati jihatidan ham oʻzbek adabiyoti xazinasidagi durdonalar qatoridan oʻrin olgandir.」(구성의 온전함, 언어의 세련). 반대 증거가 있는지도 찾아보았다. en.wiki는 두 장편을 함께 「most famous works」로 들고, uz.wiki는 『제단에서 나온 전갈』을 「oʻxshashi yoʻq badiiy obidadir」라 한다. 그러나 uz.wiki 「Mehrobdan chayon」 항목과 웹 검색(우즈베크어·키릴·영어)에서 『전갈』이 문장이나 구성에서 더 완성되었다고 적은 출처는 찾지 못했다. 이 세션에서 할리드 djvu, 리스 PDF, uz·en 위키를 다시 받아 확인했다. [check] 이 세션에서 할리드 djvu 전문에서 187쪽 대목이 그대로 있음을 확인했다. 'his masterpiece'는 그의 작품 가운데 기량이 가장 높은 작품이라는 뜻이라 '문장과 구성이 가장 완성된 형태'를 받친다. uz.wiki에서 『전갈』을 문장·구성에서 더 높게 치는 대목은 이 세션에서 다시 찾아도 없었다(「oʻxshashi yoʻq badiiy obidadir」는 인물과 현실 묘사를 두고 한 말이다)."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 8,
+        "requoted": 0,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "plates": [
+    {
+      "id": "jean-paul-sartre",
+      "claims": [
+        {
+          "sids": [
+            "7274e36b3e28"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "『레 탕 모데른』 창간사는 1945년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Dans le texte manifeste des Temps Modernes, en octobre 1945, Sartre écrit",
+          "note": "같은 논문의 주석 1: « Jean-Paul Sartre, « Présentation », Les Temps Modernes, n° 1, 1° octobre 1945. » 원제는 「Présentation」(「Présentation des Temps modernes」)이고 「창간사」는 그 풀이다."
+        },
+        {
+          "sids": [
+            "7274e36b3e28"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "창간사는 『Situations II』에 수록됐다",
+          "verdict": "confirmed",
+          "url": "https://www.universalis.fr/encyclopedie/qu-est-ce-que-la-litterature/",
+          "quote": "repris l'année suivante dans Situations II, précédé de deux autres articles : « Présentation des Temps modernes », manifeste de la revue créée par Jean-Paul Sartre (1905-1980) en 1945",
+          "note": "『Qu'est-ce que la littérature ?』가 1948년 『Situations II』에 실릴 때 「Présentation des Temps modernes」가 그 앞에 함께 실렸다는 서술이다. 참고: 이 관계의 출처 src--sartre-quest-ce-que-la-litterature의 citation은 플로베르·공쿠르 대목이 『문학이란 무엇인가』에 들어 있다고 쓰는데, 그 대목은 같은 권에 앞서 실린 창간사에 있다. 문장 자체는 정확히 창간사로 적었다."
+        },
+        {
+          "sids": [
+            "7274e36b3e28"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "사르트르는 창간사에서 플로베르와 공쿠르를 코뮌 탄압의 책임자로 지목하며 막기 위해 한 줄도 쓰지 않았다고 썼다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Je tiens Flaubert et Goncourt pour responsables de la répression qui suivit la Commune parce qu’ils n’ont pas écrit une ligne pour l’empêcher.",
+          "note": "Fabula 논문(Sylvie Triaire)이 창간사(Les Temps Modernes n° 1, 1945년 10월)에서 직접 인용한 사르트르의 문장이다. 인용부호 안의 '막기 위해 한 줄도 쓰지 않았다'는 « ils n’ont pas écrit une ligne pour l’empêcher »의 충실한 번역이다."
+        },
+        {
+          "sids": [
+            "7274e36b3e28"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "『집안의 백치』는 1971–72년에 세 권으로 나왔다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27Idiot_de_la_famille",
+          "quote": "Jean-Paul Sartre. L'idiot de la famille : Gustave Flaubert de 1821 à 1857. Paris : Gallimard, 1971-1972, 3 tomes.",
+          "note": "미완이다(« L'Idiot de la famille est un ouvrage inachevé en trois volumes de Jean-Paul Sartre. »). '세 권'은 출간된 권수로서 정확하다."
+        },
+        {
+          "sids": [
+            "7274e36b3e28"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "『집안의 백치』는 플로베르 한 사람을 다룬 연구다",
+          "verdict": "confirmed",
+          "url": "https://fr.wikipedia.org/wiki/L%27Idiot_de_la_famille",
+          "quote": "C'est par l'étude de Flaubert, que Sartre veut montrer comment la méthode progressive-régressive, exposée dans Questions de méthode, opère dans un cas concret.",
+          "note": "부제 « Gustave Flaubert de 1821 à 1857 »도 대상이 플로베르 한 사람임을 보여 준다. '뒤에'(1945년 뒤 1971–72년)는 두 연도로 자명하다."
+        },
+        {
+          "sids": [
+            "1a8d8dd7dd5e"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "사르트르와 플로베르의 이 대립은 사르트르 자신이 세웠다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "Sartre motive les orientations présentes sur les choix passés, parcourant de Voltaire à Gide et de Balzac à Flaubert les trajets concurrents de l’engagement et du désinvestissement.",
+          "note": "창간사에서 사르트르가 스스로 발자크에서 플로베르까지 참여와 비참여의 궤적을 그었다는 연구자의 서술이며, 사르트르 본인 문장(« Je tiens Flaubert et Goncourt pour responsables… »)이 직접 증거다."
+        },
+        {
+          "sids": [
+            "1a8d8dd7dd5e"
+          ],
+          "field": "relation:contrast--jean-paul-sartre--gustave-flaubert.summary",
+          "claim": "한 연구자는 창간사가 맥락을 가린 채 플로베르를 끌어왔다고 보고 그 물음을 더 역사적으로 다시 세우려 한다",
+          "verdict": "confirmed",
+          "url": "https://www.fabula.org/colloques/document2440.php",
+          "quote": "En somme, partant de cet appel fondateur de Sartre pour le XXe siècle, qui utilise Flaubert et son rapport à la Commune en occultant le contexte, il faut redonner à la question posée par Sartre une dimension plus historique",
+          "note": "연구자는 Sylvie Triaire(Montpellier III), 논문 « « Pas une ligne pour l’empêcher ». La Commune et l’impossible communauté des écrivains »(Fabula / Les colloques, De l’absolu littéraire à la relégation). '한 연구자'로 좁힌 표현이 출처의 범위와 맞는다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

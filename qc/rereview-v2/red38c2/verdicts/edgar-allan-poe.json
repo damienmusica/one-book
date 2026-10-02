@@ -1,0 +1,65 @@
+{
+  "plates": [
+    {
+      "id": "edgar-allan-poe",
+      "claims": [
+        {
+          "sids": [
+            "4a4496394165"
+          ],
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "줄리언 시먼스의 『Bloody Murder』는 1972년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/details/bloodymurder0000unse",
+          "quote": "Bloody murder; from the detective story to the crime novel: a history by Symons, Julian, 1912-1994 Publication date 1972",
+          "note": "인터넷 아카이브 서지(다시 받음). 메타데이터(https://archive.org/metadata/bloodymurder0000unse)의 publisher는 'London, Faber and Faber', 설명에 'Published in the U.S. under title: Mortal consequences'."
+        },
+        {
+          "sids": [
+            "4a4496394165"
+          ],
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스는 『Bloody Murder』(1972년판)에서 포를 '다른 작가들이 따를 주제를 제시한 창시자'로 세운다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/services/search/beta/page_production/?service_backend=fts&hits_per_page=30&user_query=%22Poe%20was%20the%20founding%20father%20whose%20genius%20suggested%20the%20themes%20to%20be%20followed%20by%20other%20writers%22",
+          "quote": "Public’ Poe was the founding father whose genius suggested the themes to be followed by other writers: but",
+          "note": "인터넷 아카이브 전문 검색에서 1972년 Faber판(bloodymurder0000unse)의 적중 구절. 앞선 원장은 이 문장을 1992년 개정판(Neuhaus 2021 재인용)으로만 받쳤는데, 이번에 1972년 초판 본문에서 같은 문장을 확인했다. 같은 검색으로 1972년판 앞 구절은 'Pattern Forms (i) The ‘Unknown Public’ Poe was the founding father'로, 3장 'Dickens, Collins, Gaboriau: the pattern forms'의 첫 절 첫 문장이다. 1973 미국판(Mortal Consequences), 1985·1992판에도 같은 문장이 적중한다."
+        },
+        {
+          "sids": [
+            "4a4496394165"
+          ],
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "『Bloody Murder』(1972)는 황금기에 세 장을 할애한다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/metadata/bloodymurder0000unse",
+          "quote": "The Golden Age: the Twenties -- The Golden Age: the Thirties -- The Golden Age: rebellion",
+          "note": "1972년 Faber판 목차(메타데이터 description, 다시 받음). 본문 전문 검색도 'CHAPTER EIGHT The Golden Age: the Twenties'와 '131 CHAPTER TEN The Golden Age: Rebellion'을 장 제목으로 보여준다(https://archive.org/services/search/beta/page_production/?service_backend=fts&hits_per_page=30&user_query=%22The%20Golden%20Age%3A%20Rebellion%22). 목차에는 따로 'The short story: the first Golden Age'라는 장이 있으나, 이는 단편의 '첫 황금기'이고 문장이 가리키는 전간기 황금기(다음 문장의 1929년 녹스 규칙)와 다르므로 '세 장'은 맞다."
+        },
+        {
+          "sids": [
+            "caf072221df0"
+          ],
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "시먼스는 크리스티의 책을 인물에 대한 감정적 관여를 허용하지 않는, 오로지 퍼즐인 이야기로 평한다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/services/search/beta/page_production/?service_backend=fts&hits_per_page=30&user_query=%22Agatha%20Christie%E2%80%99s%20book%20is%20original%20in%20the%20sense%20that%20it%20is%20a%20puzzle%20story%20which%20is%20solely%20that%2C%20which%20permits%20no%20emotional%20engagement%20with%20the%20characters%22",
+          "quote": "Agatha Christie’s book is original in the sense that it is a puzzle story which is solely that, which permits no emotional engagement with the characters",
+          "note": "1972년 Faber판(bloodymurder0000unse) 본문, 이번 세션에서 인터넷 아카이브 전문 검색으로 직접 확인(앞선 원장은 2차 인용뿐이었다). 1973·1985·1992판에도 같은 문장이 있다. 시먼스의 틀은 '그런 뜻에서 독창적'이라는 것이지만, 페이지 문장은 평가의 내용(감정적 관여를 허용하지 않는 퍼즐)만 옮겨 틀리지 않는다."
+        },
+        {
+          "sids": [
+            "caf072221df0"
+          ],
+          "field": "relation:influence--edgar-allan-poe--agatha-christie.summary",
+          "claim": "그 평의 대상은 크리스티의 첫 추리소설 『스타일스 저택의 괴사건』이다",
+          "verdict": "confirmed",
+          "url": "https://archive.org/services/search/beta/page_production/?service_backend=fts&hits_per_page=30&user_query=%22Styles%20is%20not%20one%20of%20Agatha%22",
+          "quote": "The Mysterious Affair at Styles is not one of Agatha Christie’s best detective stories, although",
+          "note": "1972년판 본문에서 이 문장부터 평까지 한 문단이 끊기지 않고 이어짐을 겹치는 전문 검색 적중으로 확인했다(각각 bloodymurder0000unse 적중): 'although it is based upon a characteristically cunning idea, and contains some' → 'equally characteristic sleights of hand by which the reader is deceived' → 'into making what prove to be unjustifiable assumptions. It ushered in a' → 'ushered in a very distinc- tive detective, the Belgian, Hercule Poirot, whose appearance im- presses one as' → 'appearance im- presses one as being rather like that of Humpty Dumpty with a moustache, and a Watson of' → 'with a moustache, and a Watson of extreme stupidity in Captain Hastings. It revealed a gift for writing' → 'extreme stupidity in Captain Hastings. It revealed a gift for writing light, agreeable and convincing dia-' → 'convincing dia- logue, and the plot was constructed with firmness and coherence. Yet these things had' → 'and coherence. Yet these things had been done before. Agatha Christie’s book is original in the sense'. 곧 'Agatha Christie’s book'은 문단 주어인 『스타일스』다. 같은 책이 이를 첫 소설로 밝힌다: 'of Agatha Christie’s first novel, The Mysterious Affair at Styles.'(검색 '\"Mysterious Affair at Styles\" \"original in the sense\"'). 1972년판 색인은 'Mysterious Affair at Styles, The, 99-100'이라 앞선 원장의 '1972 : 100' 재인용과도 맞는다. 따라서 '작품 전반'이 아니라 '첫 추리소설'로 좁힌 교정은 원문과 일치한다(『케임브리지 컴패니언』의 'her work' 요약이 느슨했던 것)."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

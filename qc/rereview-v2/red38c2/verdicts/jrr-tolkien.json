@@ -1,0 +1,74 @@
+{
+  "plates": [
+    {
+      "id": "jrr-tolkien",
+      "claims": [
+        {
+          "sids": [
+            "718630ce893f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『호빗』은 평이한 문체로 쓰였다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Hobbit",
+          "quote": "While The Hobbit is written in a simple, friendly language, each of its characters has a unique voice.",
+          "note": "같은 문단: \"Tolkien's prose is unpretentious and straightforward\"."
+        },
+        {
+          "sids": [
+            "718630ce893f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』은 세 권 분량으로 나왔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "For economic reasons, it was first published over the course of a year, from 29 July 1954 to 20 October 1955, in three volumes rather than one",
+          "note": "같은 문단: 톨킨은 단권(『실마릴리온』과 짝을 이룬 두 권 세트의 한 권)을 의도했고 1968년에 단권으로도 나왔다. 문장의 '세 권 분량'은 분량을 말하므로 범위 안이다."
+        },
+        {
+          "sids": [
+            "718630ce893f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』에는 삽입 시가가 들어 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "Unusually for 20th century novels, the prose narrative is supplemented throughout by over 60 pieces of poetry."
+        },
+        {
+          "sids": [
+            "718630ce893f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『반지의 제왕』에는 연대표를 담은 부록이 붙는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+          "quote": "The work is divided internally into six books, two per volume, with several appendices of chronologies, genealogies, and linguistic information."
+        },
+        {
+          "sids": [
+            "718630ce893f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 단일 서사 줄기도 길잡이 호빗도 없는 신화지다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "One key theme is its nature as a mythology, with multiple interrelated texts in differing styles; … All of these are far from the approachable novelistic styles of The Hobbit and The Lord of the Rings, lacking a single narrative thread, and without the benefit of Hobbits as guides",
+          "note": "한 문단 안에서 자른 인용(생략부는 David Bratman이 든 세 문체 \"Annalistic\", \"Antique\", \"Appendical\"). 같은 문장은 이것이 톨킨이 편지에서 한 말이기도 하다고 적는다(\"as Tolkien noted in a letter\")."
+        },
+        {
+          "sids": [
+            "718630ce893f"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『실마릴리온』은 이름이 많고 어렵다는 비판을 받았다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Silmarillion",
+          "quote": "Other criticisms included difficult-to-read archaic language and many difficult and hard-to-remember names.",
+          "note": "인용은 원문에서 각주 표지([29][30][31], [29][32])만 뺐다. 출처는 이를 비판(criticisms)으로 전하므로 문장의 '비판을 받았다'와 맞는다. '어렵다'를 책 전체의 난해함으로 읽어도 같은 문장의 \"difficult-to-read archaic language\"가 받친다. 이전 판의 '고유명사 밀도가 급격히 올라간다'(unverifiable)는 이번 문장에서 빠졌다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

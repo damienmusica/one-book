@@ -1,0 +1,76 @@
+{
+  "plates": [
+    {
+      "id": "patrick-white",
+      "claims": [
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "네 장편(보스·인간의 나무·전차를 탄 사람들·생체 해부자)은 출간 당시 442–642쪽이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/works/OL2988557W/editions.json?limit=200",
+          "quote": "\"pagination\":\"442 p.\"",
+          "note": "이번 세션에서 Open Library 판본 목록 네 개(OL2988557W 보스, OL2988556W 인간의 나무, OL2988553W 전차를 탄 사람들, OL2988552W 생체 해부자)를 다시 받아 출간 연도 판본을 모두 대었다. 보스 1957: 바이킹 442, 에어 앤드 스포티스우드 478/487. 인간의 나무 1955–56: 바이킹 499, 에어 앤드 스포티스우드 499, 펭귄 480/499. 전차를 탄 사람들 1961: 바이킹 532, 에어 앤드 스포티스우드 552(펭귄 491 기록도 범위 안). 생체 해부자 1970: 바이킹 567, 케이프 642. 출간 연도 판본은 모두 442–642 안에 들고, 양 끝값은 실제 판본(보스 바이킹 1957, 생체 해부자 케이프 1970)이 받친다. 앞 교정문의 '판본에 따라'를 뺐어도 모든 출간 당시 판본이 범위 안이라 문장은 틀리지 않는다. '초판'으로 좁혀 읽어도 성립한다: 위키백과 The Vivisector 정보상자는 케이프판 표지를 'First edition cover'라 적고(642쪽), 인간의 나무는 1955년 8월 15일 미국(바이킹, 499쪽)이 먼저다(위키백과 정보상자). 보스가 뉴욕 바이킹판으로 먼저 나왔다는 마 전기 325쪽 대목은 이번 세션에서 Google Books가 CAPTCHA를 띄워 다시 읽지 못했으나, 바이킹판이 1957년 출간 연도 판본이라는 점만으로 '출간 당시'는 성립한다. 위키백과 Riders in the Chariot 정보상자의 643쪽은 같은 상자의 LC 번호 'PR9619.3.W5 R533 2002'로 보아 2002년판 값이라 출간 당시 값이 아니다."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『보스』 1957년 바이킹(뉴욕)판은 442쪽이다 (하한)",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL6223802M.json",
+          "quote": "\"pagination\": \"442 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Viking Press\"], \"publish_places\": [\"New York\"], \"publish_date\": \"1957\", LCCN 57009493."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『생체 해부자』 1970년 케이프(런던)판은 642쪽이다 (상한)",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL5320837M.json",
+          "quote": "\"pagination\": \"642 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Cape\"], \"publish_places\": [\"London\"], \"publish_date\": \"1970\". 같은 해 바이킹(뉴욕)판은 567쪽(OL5313781M)."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『인간의 나무』 1955년 바이킹(뉴욕) 초판은 499쪽으로 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL6175990M.json",
+          "quote": "\"pagination\": \"499 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Viking Press\"], \"publish_places\": [\"New York\"], \"publish_date\": \"1955\"."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『전차를 탄 사람들』 1961년 판본(바이킹 532쪽, 에어 앤드 스포티스우드 552쪽)은 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL14183065M.json",
+          "quote": "\"pagination\": \"552 ;\"",
+          "note": "같은 기록: \"publishers\": [\"Eyre & Spottiswoode\"], \"publish_places\": [\"London\"], \"publish_date\": \"1961\". 바이킹 1961년판은 \"pagination\": \"532 p.\"(https://openlibrary.org/books/OL5826206M.json)."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "화이트의 서술은 과거와 현재, 여러 인물의 시점 사이를 오간다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Patrick_White",
+          "quote": "His narratives shift seamlessly between past and present, inner experience and outer awareness, and the point of view of different characters.",
+          "note": "이번 세션에서 위키텍스트(action=raw)로 다시 받았다. 근거는 Kiernan 1980 p.93, Williams 1993 p.167이고, 바로 뒤 Williams 인용은 'the point of view of the narrative in any White novel changes continually, rapidly and disconcertingly'라고 해 네 장편 모두에 대한 진술로 읽어도 무리가 없다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "plates": [
+    {
+      "id": "mark-twain",
+      "claims": [
+        {
+          "sids": [
+            "3946f99ae748"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『허클베리 핀의 모험』은 처음부터 끝까지 소년 헉의 1인칭 입말(방언)로 서술된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+          "quote": "it is among the first in major American literature to be written throughout in vernacular English, characterized by local color regionalism. Being the direct sequel to The Adventures of Tom Sawyer, it is told in the first person by Huckleberry \"Huck\" Finn",
+          "note": "'소설 전체'는 'written throughout'과 맞는다. 문장은 어느 소설인지 이름을 대지 않고, 다음 문장에서야 『허클베리 핀의 모험』이 나온다. 사실 오류는 아니지만 독자가 두 문장을 이어 읽어야 주어가 풀린다."
+        },
+        {
+          "sids": [
+            "3946f99ae748"
+          ],
+          "field": "author.importanceReason",
+          "claim": "헉은 미시시피 강가 마을(세인트피터즈버그)의 소년이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+          "quote": "about a boy, Tom Sawyer, growing up along the Mississippi River. It is set in the 1830s–1840s in the fictional town of St. Petersburg, which is based on Hannibal, Missouri, where Twain lived as a boy. In the novel, Sawyer has several adventures, often with his friend Huckleberry Finn.",
+          "note": "『톰 소여』 문서 도입부로, 강가 마을 세인트피터즈버그와 그곳의 헉을 받친다. 『허클베리 핀』도 같은 마을에서 시작한다(위키백과 『허클베리 핀』 줄거리: \"In 1840s St. Petersburg, Missouri, Huckleberry Finn has received a considerable sum from the treasure discovered in The Adventures of Tom Sawyer\")."
+        },
+        {
+          "sids": [
+            "3946f99ae748"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 입말 산문이 미국 구어의 미덕을 글로 쓰는 산문의 규범으로 세웠다",
+          "verdict": "confirmed",
+          "url": "https://www.amerlit.com/novels/ANALYSIS%20The%20Style%20of%20Twain.pdf",
+          "quote": "As for the style of the book, it is not less than definitive in American literature. The prose of Huckleberry Finn established for written prose the virtues of American colloquial speech.",
+          "note": "라이어널 트릴링의 「Mark Twain's Colloquial Prose Style」(The Liberal Imagination, 1950)을 amerlit가 발췌한 것이다. 'not less than definitive'와 'established for written prose'가 '규범으로 세웠다'를 그 강도 그대로 받친다. 이것은 비평가 한 사람의 평가인데 문장은 출처를 밝히지 않고 사실처럼 적는다. 이전 판정이 문제 삼은 '그대로'는 새 문장에서 빠졌다."
+        },
+        {
+          "sids": [
+            "4484eedb0f6d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『허클베리 핀의 모험』은 노예제 사회에 길든 소년 화자의 목소리로 노예제를 다룬다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Mark-Twain/Literary-maturity",
+          "quote": "Through Huck, the novel’s narrator, Twain was able to address the shameful legacy of chattel slavery prior to the Civil War and the persistent racial discrimination and violence after. That he did so in the voice and consciousness of a 14-year-old boy, a character who shows the signs of having been trained to accept the cruel and indifferent attitudes of a slaveholding culture, gives the novel its affecting power",
+          "note": "이전 판정이 문제 삼은 '무지와 방언을 손대지 않은 채'는 새 문장에서 빠졌다."
+        },
+        {
+          "sids": [
+            "4484eedb0f6d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "헉은 짐의 소재를 알리는 편지를 찢으며 '그럼 좋아, 나는 지옥에 가겠다'고 말한다(짐을 신고하지 않기로 한다)",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+          "quote": "Miss Watson, your runaway nigger Jim is down here two mile below Pikesville, and Mr. Phelps has got him and he will give him up for the reward if you send. … “All right, then, I’ll _go_ to hell”—and tore it up.",
+          "note": "제31장 한 장면 안의 대목이다(편지 본문, 망설임, 찢음 순서). '도덕적 결단'이라는 성격 규정은 위키백과 『허클베리 핀』 문서(\"he makes a moral choice based on his own valuation of Jim's friendship and human worth, a decision in direct opposition to the things he has been taught\")와 맞는다."
+        },
+        {
+          "sids": [
+            "4484eedb0f6d"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 결단의 대목은 문법이 틀린 소년의 문장으로 적혀 있다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+          "quote": "It was a close place. I took it up, and held it in my hand. I was a-trembling, because I’d got to decide, forever, betwixt two things, and I knowed it. I studied a minute, sort of holding my breath, and then says to myself:",
+          "note": "결단 직전 문단에 'I knowed it'(과거형 오류), 'then says to myself'(시제 불일치)가 있다. 바로 뒤 문단에도 'they was said'와 'never thought no more'(이중 부정)가 이어진다."
+        },
+        {
+          "sids": [
+            "7431f9a826a0"
+          ],
+          "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+          "claim": "서술자 헉은 짐을 노예 상태에서 빼내는 일을 스스로 '사악함'으로 판단한다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/76/pg76.txt",
+          "quote": "I shoved the whole thing out of my head, and said I would take up wickedness again, which was in my line, being brung up to it, and the other warn’t. And for a starter I would go to work and steal Jim out of slavery again",
+          "note": "같은 제31장 앞부분에서 헉은 짐을 신고하는 편지를 쓴 뒤 \"I felt good and all washed clean of sin\"이라고 적는다. 서술자의 노예제 판단이 거꾸로 서 있다."
+        },
+        {
+          "sids": [
+            "7431f9a826a0"
+          ],
+          "field": "work:mark-twain--adventures-of-huckleberry-finn.significance",
+          "claim": "노예제를 둘러싼 서술자의 판단(양심)은 작품 안에서 오판으로 제시된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+          "quote": "Huck is unable consciously to rebut those values even in his thoughts, but he makes a moral choice based on his own valuation of Jim's friendship and human worth, a decision in direct opposition to the things he has been taught. Twain, in his lecture notes, proposes that \"a sound heart is a surer guide than an ill-trained conscience\" and goes on to describe the novel as \"a book of mine where a sound heart and a deformed conscience come into collision and conscience suffers defeat\".",
+          "note": "트웨인 자신이 노예제에 길든 헉의 양심을 'ill-trained'·'deformed'라 부르고 그 양심이 진다고 쓴다. 이것이 '오판으로 제시된다'를 받친다. 이전 판정은 범위 한정 없는 '도덕적 판단'을 좁히라고 했고, 새 문장은 '노예제 판단'으로 좁혀 인용 범위 안에 든다. 헉이 끝내 노예제 자체를 의식적으로 반박하지 못한다는 점(\"unable consciously to rebut those values\")도 문장과 어긋나지 않는다."
+        },
+        {
+          "sids": [
+            "27cbcacc7e22"
+          ],
+          "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+          "claim": "『톰 소여의 모험』은 미시시피 강가에서 자라는 소년의 이야기를 에피소드 단위로 이어 엮은 소설이다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Mark-Twain/Literary-maturity",
+          "quote": "The highly episodic narrative of Tom Sawyer, which recounts the mischievous adventures of a boy growing up along the Mississippi River"
+        },
+        {
+          "sids": [
+            "27cbcacc7e22"
+          ],
+          "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+          "claim": "무대는 미시시피 강가의 마을(세인트피터즈버그)이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer",
+          "quote": "about a boy, Tom Sawyer, growing up along the Mississippi River. It is set in the 1830s–1840s in the fictional town of St. Petersburg, which is based on Hannibal, Missouri, where Twain lived as a boy.",
+          "note": "세인트피터즈버그는 트웨인이 소년기를 보낸 미주리주 해니벌을 본뜬 가상의 마을이다."
+        },
+        {
+          "sids": [
+            "27cbcacc7e22"
+          ],
+          "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+          "claim": "『톰 소여』는 속편 『허클베리 핀』의 무대와 인물을 미리 깔아 둔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+          "quote": "In 1840s St. Petersburg, Missouri, Huckleberry Finn has received a considerable sum from the treasure discovered in The Adventures of Tom Sawyer, and the Widow Douglas and her sister Miss Watson become his guardians.",
+          "note": "『허클베리 핀』은 『톰 소여』의 마을에서, 『톰 소여』의 보물과 더글러스 과부를 이어받아 시작한다. 속편 관계는 위키백과 『톰 소여』 문서도 적는다(\"Along with its 1885 sequel, Adventures of Huckleberry Finn\"). 이전 판정이 지적한 주어 꼬임('울타리 장면이 무대와 인물을 깐다')과 '다음 작품'의 모호함은 새 문장에서 풀렸다. 주어는 소설이고, 작품은 『허클베리 핀』으로 이름이 나온다."
+        },
+        {
+          "sids": [
+            "3826824e33be"
+          ],
+          "field": "work:mark-twain--the-adventures-of-tom-sawyer.significance",
+          "claim": "울타리 칠(페인트칠) 장면은 따로 떼어 읽히는 유명한 대목이 되었다",
+          "verdict": "confirmed",
+          "url": "https://www.whatsoproudlywehail.org/curriculum/the-american-calendar/whitewashing-the-fence-from-tom-sawyer/",
+          "quote": "In this famous selection from The Adventures of Tom Sawyer (1876), written by Mark Twain (born Samuel Langhorne Clemens, 1835–1910), Tom, burdened with the chore to whitewash his Aunt Polly’s fence as punishment for his having played hooky from school, comes up with an ingenious way to get out of his work",
+          "note": "이 페이지는 그 장면만 발췌해 싣고 'famous selection'이라 부른다. PBS 켄 번스 「Mark Twain」 사이트도 'Selected Writings' 아래 이 장면(\"Tom Sawyer Whitewashing the Fence … Chapter Two, 1876\")을 따로 싣는다. 원문의 칠은 whitewash(석회 흰 칠)다. 같은 페이지 학습 질문이 \"to want to paint the fence\"라고 쓰듯 paint로도 통칭하므로 '페인트칠'은 흔한 옮김이다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

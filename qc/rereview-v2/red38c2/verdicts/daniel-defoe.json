@@ -1,0 +1,71 @@
+{
+  "plates": [
+    {
+      "id": "daniel-defoe",
+      "claims": [
+        {
+          "sids": ["e107daef92b6"],
+          "field": "author.importanceReason",
+          "claim": "디포는 서술에 날짜를 박아 넣었다 — 『로빈슨 크루소』에는 날짜가 붙은 일지가 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/521/pg521.txt",
+          "quote": "September 30, 1659.—I, poor miserable Robinson Crusoe, being shipwrecked during a dreadful storm in the offing, came on shore on this dismal, unfortunate island",
+          "note": "CHAPTER V 'BUILDS A HOUSE—THE JOURNAL'의 첫 항목. 구텐베르크 #521은 Seeley, Service & Co. 판(철자 현대화, 장 제목은 편집자가 붙임)."
+        },
+        {
+          "sids": ["e107daef92b6"],
+          "field": "author.importanceReason",
+          "claim": "디포는 물품 목록을 서술에 박아 넣었다 — 크루소는 난파선에서 건진 식량을 품목별로 적는다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/521/pg521.txt",
+          "quote": "the first of these I filled with provisions—viz. bread, rice, three Dutch cheeses, five pieces of dried goat’s flesh (which we lived much upon), and a little remainder of European corn"
+        },
+        {
+          "sids": ["e107daef92b6"],
+          "field": "author.importanceReason",
+          "claim": "디포는 금액을 서술에 박아 넣었다 — 크루소는 난파선에서 찾은 돈의 액수를 적는다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/521/pg521.txt",
+          "quote": "in another I found about thirty-six pounds value in money—some European coin, some Brazil, some pieces of eight, some gold, and some silver."
+        },
+        {
+          "sids": ["e107daef92b6"],
+          "field": "author.importanceReason",
+          "claim": "『전염병 연대기』의 서술 안에 교구별 사망자 수 표가 실려 있다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/376/pg376.txt",
+          "quote": "For example, the whole bill from the 11th to the 18th of July was 1761, yet there died but 71 of the plague in all those parishes we call the Tower Hamlets, and they were as follows:—",
+          "note": "인용 바로 뒤에 교구별 역병 사망자 표가 이어진다(Aldgate 14·34·65, Stepney 33·58·76, Whitechappel 21·48·79 …, 합계 71·145·228). 이어서 인접 교구 매장자 수 표(St Leonard’s, Shoreditch 64 … St Giles’s, Cripplegate 213)가 하나 더 있다. 표는 서술자의 문장 사이에 끼어 있어 '서술에 박아 넣었다'와 맞는다."
+        },
+        {
+          "sids": ["e107daef92b6"],
+          "field": "author.importanceReason",
+          "claim": "『전염병 연대기』의 통계표는 실제 기록처럼 보이게 하는(정황의) 장치의 하나다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/A_Journal_of_the_Plague_Year",
+          "quote": "In the book, Defoe goes to great pains to achieve an effect of verisimilitude, identifying specific neighbourhoods, streets, and even houses in which events took place. Additionally, it provides tables of casualty figures",
+          "note": "같은 문서는 이 책이 처음에는 논픽션으로 읽혔고 분류 논쟁이 이어졌다고 적는다('It was initially presented and read as a work of nonfiction'). 표의 수치 자체는 당대 사망 주보(bills of mortality)에서 온 것이다 — 문장은 디포가 이를 서술에 끼워 넣었다고만 말하므로 어긋나지 않는다."
+        },
+        {
+          "sids": ["e107daef92b6"],
+          "field": "author.importanceReason",
+          "claim": "디포는 서문에서 편집자(전하는 이)의 겸양을 내세웠다",
+          "verdict": "confirmed",
+          "url": "https://www.gutenberg.org/cache/epub/30344/pg30344.txt",
+          "quote": "if all the most diverting parts of it are not adapted to the instruction and improvement of the reader, the relator says it must be from the defect of his performance; dressing up the story in worse clothes than the lady whose words he speaks, prepared for the world.",
+          "note": "『록사나』 'AUTHOR'S PREFACE'. 같은 서문은 이어서 이 이야기가 'laid in truth of fact; and so the work is not a story, but a history'라고 내세운다 — 겸양이 사실성 주장과 한 묶음이다. 『몰 플랜더스』 'THE AUTHOR’S PREFACE'의 전하는 이도 원고를 고쳐 옮겼다고 밝힌다: 'she is made to tell her own tale in modester words that she told it at first' (https://www.gutenberg.org/cache/epub/370/pg370.txt). 출처의 말은 'relator'·'the pen employed in finishing her story'이고 '편집자'는 그 역할을 옮긴 말이다."
+        },
+        {
+          "sids": ["e107daef92b6"],
+          "field": "author.importanceReason",
+          "claim": "디포는 정황의 방법을 끝까지(지나칠 만큼) 밀고 나갔다",
+          "verdict": "confirmed",
+          "url": "https://en.wikisource.org/wiki/Moll_Flanders_and_Roxana",
+          "quote": "He showed, more forcibly than any novelist before or since, the irresistible cogency of the circumstantial method. In fact, he overdid the thing, and took upon him to hoodwink his readers.",
+          "note": "E. A. 베이커의 1906년 루틀리지판 서문('WITH AN INTRODUCTION BY E. A. BAKER, M.A.')의 평가다. 고쳐 쓴 문장은 이전의 최상급('어느 소설가보다 강하게')을 뺐고, '끝까지 밀고 나갔다'는 'overdid the thing'보다 약하거나 같은 수준이라 출처 범위 안에 있다. 같은 대목은 이어서 'Some of his more elaborate frauds certainly go beyond all bounds of literary artifice'라고 적는다. 평가이지 사실 진술은 아니다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

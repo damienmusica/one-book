@@ -1,0 +1,127 @@
+{
+  "plates": [
+    {
+      "id": "abai-qunanbaiuly",
+      "claims": [
+        {
+          "sids": [
+            "9e01871db227"
+          ],
+          "field": "author.importanceReason",
+          "claim": "생전에 인쇄된 작품은 몇 편뿐이었다",
+          "verdict": "confirmed",
+          "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+          "quote": "Абайдың көзі тірісінде жарық көрген шығармалары бірлі-екілі ғана екенін",
+          "note": "「бірлі-екілі ғана」는 「한두 편뿐」이다. 「몇 편뿐」은 이보다 넓지 않은 표현이라 충돌하지 않고, WDL 해설도 「Only a few of his poems were published during Abai’s life」라고 적는다(같은 세션에서 가져옴). [check] 이 세션에서 kk.wiki 「Абайтану」를 다시 가져와 「Бастауы」 절 한 문단에 인용문이 그대로 있음을 확인했다. 「бірлі-екілі ғана」(한두 편뿐)는 「몇 편뿐」과 충돌하지 않고, 주어가 「шығармалары」(작품)라 문장의 「작품」과 범위가 맞다. WDL 해설도 이 세션에서 가져와 「Only a few of his poems were published during Abai’s life」를 확인했다."
+        },
+        {
+          "sids": [
+            "9e01871db227"
+          ],
+          "field": "author.importanceReason",
+          "claim": "첫 작품집은 1909년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20201019021113/https://www.wdl.org/en/item/7321/",
+          "quote": "Only a few of his poems were published during Abai’s life. This is his first collection, Qazaq Aqyny Ibrahim Qunanbay Oghlynyng Olangy (Verses of the Kazakh poet Abai Ibrahim Kunanbayev), published in Saint Petersburg in 1909.",
+          "note": "kk.wiki 「Абайтану」도 「1909 ж. жарық көрген Абай шығармаларының тұңғыш жинағын」이라고 적는다. [check] 이 세션에서 WDL 아카이브(2020-10-19 스냅샷)를 다시 가져와 Description 문단에 인용문이 그대로 있음을 확인했다. 「first collection」과 「1909」가 인용문 하나에 함께 있어 「첫 작품집은 1909년」을 온전히 받친다."
+        },
+        {
+          "sids": [
+            "9e01871db227"
+          ],
+          "field": "author.importanceReason",
+          "claim": "1909년 작품집은 아바이 사후(1904년 사망)에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20201019021113/https://www.wdl.org/en/item/7321/",
+          "quote": "Abai (Ibrahim) Kunanbayev (1845–1904) was a Kazakh poet and teacher … This is his first collection … published in Saint Petersburg in 1909.",
+          "note": "kk.wiki 「Абайтану」는 작품을 모아 인쇄를 준비하는 일이 시인이 죽은 뒤 곧 시작되었다고 적는다(「ақын қайтыс болған соң ұзамай-ақ қолға алынғанын」). [check] 재인용: 이전 인용문 「Abai (Ibrahim) Kunanbayev (1845–1904) was a Kazakh poet and teacher」은 사망 연도(1904)만 담고 1909년을 담지 않아 「1909년 작품집은 사후에 나왔다」를 혼자 받치지 못했다. 이 세션에서 WDL 아카이브를 다시 가져와 같은 Description 문단 안에서 생몰년(1845–1904)과 1909년 첫 작품집 간행을 함께 담는 구절로 바꿨다(문단 안에서만 「…」로 잘랐다). 1904년 사망 뒤 1909년 간행이므로 사후 간행이 인용 하나로 성립한다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」은 주제가 여러 갈래다",
+          "verdict": "confirmed",
+          "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+          "quote": "Жалпы саны қырық бес бөлек шығармадан тұратын Абайдың қара сөздерінің тақырыбы жағынан бір бағытта жазылмаған, әр алуан.",
+          "note": "[check] 이 세션에서 kk.wiki 「Абайдың қара сөздері」를 다시 가져와 도입 문단에 인용문이 그대로 있음을 확인했다. 「бір бағытта жазылмаған, әр алуан」(한 방향으로 쓰이지 않고 여러 갈래)이 「주제가 여러 갈래」를 그대로 받친다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 친족 간 반목을 나무라는 편이 있다(제3편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "Why do the Kazakhs look at each other like wolves? Why do not they have empathy to relatives, why is there no truth?",
+          "note": "adebiportal 영역본 제3편 첫머리. 같은 편은 이어서 「We began to feud, fight; we divided into groups」라고 적는다. [check] 이 세션에서 adebiportal 영역본을 다시 가져와 「The third word」 첫머리에 인용문이 그대로 있음을 확인했다. 늑대처럼 서로를 보고 친족에 공감이 없다는 수사 의문이 친족 간 반목을 나무라는 내용이다. 같은 편의 「We began to feud, fight; we divided into groups」도 확인했다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 게으름을 나무라는 편이 있다(제3편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "When and where from did idleness and laziness come into the blood of the proud steppe peoples? Great sages have noticed long ago: each idler is weak-willed and cowardly",
+          "note": "[check] 이 세션에서 같은 페이지 「The third word」에 인용문이 그대로 있음을 확인했다. 게으름(idleness and laziness)을 직접 나무란다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 노동의 근거를 따지는 편이 있다(제10편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "the Almighty gave them the power to work, and the intelligence to master the science. But the power is not always used for the honest work, and the mind is often wasted in vain.",
+          "note": "영역본 제10편. 같은 편은 이어서 부를 지식을 얻는 데 쓰라고 한다(「Use it to get the knowledge.」). [check] 이 세션에서 같은 페이지 「The tenth word」 전문을 읽고 인용문이 그대로 있음을 확인했다. 일할 힘이 신에게서 왔다는 근거를 들고 그 힘이 정직한 노동에 쓰이지 않음을 따지며, 이어서 「It’s enough to be prudent, to be able to seek and work without laziness, to be wealthy.」라고 부의 정당한 근거를 노동에 둔다. 「노동의 근거를 따지는 편」과 맞다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 지식의 근거를 따지는 편이 있다(제32편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "First you have to understand for what exactly you need the science. Not for enrichment or acquisition of expensive things, not for the deal that will bring you profits or position in society, strive to science.",
+          "note": "영역본 제32편. [check] 이 세션에서 같은 페이지 「The thirty-second word」에 인용문이 그대로 있음을 확인했다. 지식을 무엇을 위해 구하는지를 먼저 따지라는 대목이라 「지식의 근거를 따지는 편」을 받친다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 신앙의 근거를 따지는 편이 있다(제13편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "The first – after taking iman, one knows how to protect and strengthen it with reasonable arguments. It is a conscious faith",
+          "note": "영역본 제13편. [check] 이 세션에서 같은 페이지 「The thirteenth word」에 인용문이 그대로 있음을 확인했다. 신앙을 합리적 논거로 지키고 굳히는 「의식적 신앙」을 맹목적 신앙과 가른다 — 신앙의 근거를 따지는 편이다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」은 카자흐 논설 산문의 고전으로 꼽힌다",
+          "verdict": "confirmed",
+          "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+          "quote": "Абаевские назидательное рассуждения представляют классический образец нациальной публицистической прозы.",
+          "note": "kk.wiki가 『아바이 백과』를 출처로 인용한 페티소프(М. И. Фетисов)의 평가다. 「нациальной」(민족의)는 문맥상 카자흐 민족을 가리킨다. 같은 문단은 논설적 장르에 잠언집만이 아니라 시도 든다고 덧붙이지만, 문장은 「처음」이나 「유일」을 주장하지 않아 충돌하지 않는다. [check] 이 세션에서 kk.wiki 「Абайдың қара сөздері」 끝 문단에 페티소프 인용이 그대로 있음을 확인했다(원문의 오타 「назидательное」「нациальной」 포함). 「назидательные рассуждения」는 잠언집을 가리키고, 바로 다음 문장이 「казахской демократической литературы」를 말해 「национальной」가 카자흐를 가리킴이 문맥에서 분명하다. 「꼽힌다」는 평가 보고로, 인용이 학자의 평가를 백과가 옮긴 것이라 과장이 아니다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 9,
+        "requoted": 1,
+        "downgraded": 0,
+        "added": 0,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

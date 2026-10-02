@@ -1,0 +1,46 @@
+{
+  "plates": [
+    {
+      "id": "hermann-hesse",
+      "claims": [
+        {
+          "sids": ["82fd45b4dde6"],
+          "field": "author.importanceReason",
+          "claim": "『데미안』의 데미안은 작중 실제 인물이면서 싱클레어 내면의 일부, 곧 그를 이끄는 조언의 힘으로 읽힌다(한 정신의 두 부분이 인물 둘로 나뉜 예)",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Demian",
+          "quote": "Obwohl Demian im Roman als reale Person dargestellt ist, kann man ihn ebenso als integralen Teil Sinclairs ansehen. … So kann Demian als ratgebende Kraft in Sinclairs Unterbewusstsein interpretiert werden.",
+          "note": "이번에 다시 받은 독일어 위키백과 『데미안』 '해석' 절의 한 문단이다. 영어 위키백과 『데미안』도 데미안을 싱클레어의 스승(mentor)이자 'daemon'으로 볼 수 있다고 쓰고, 주제 절에서 'the existence of opposing forces and the idea that both are necessary'를 든다. 출처는 데미안을 싱클레어의 '맞선 극'이 아니라 '내면의 일부'로 읽는다. 문장의 묶음말 '심리적 대립항'은 『나르치스와 골드문트』에 더 정확히 들어맞고, 『데미안』 쪽은 자아와 내면의 인도자라는 한 정신의 두 면을 인물 둘로 나눈 경우로 읽을 때 성립한다."
+        },
+        {
+          "sids": ["82fd45b4dde6"],
+          "field": "author.importanceReason",
+          "claim": "『나르치스와 골드문트』는 정신(나르치스)과 감각(골드문트)을 서로 다르면서 보완하는 두 인물로 나눠 세운다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Narzi%C3%9F_und_Goldmund",
+          "quote": "Trotz ihrer Verschiedenheit sind beide voneinander abhängig und ergänzen sich. Narziß hat als Denker oder Geistesmensch Goldmund gelehrt, gleichzeitig auch von dessen Lebensart als Sinnenmensch profitiert.",
+          "note": "같은 문서 줄거리 절: 'Narziß erkennt in ihm seinen Gegenpol und seine Ergänzung.' 같은 문서가 인용하는 헤세의 1931년 슈렘프 앞 편지도 두 인물이 '한 중심을 두고 돈다'(sonst schwängen sie nicht beide um eine Mitte und ergänzten sich)고 쓴다. 브리태니커(웨이백 2024-12-18)도 'an intellectual ascetic … is contrasted with an artistic sensualist'라고 쓴다."
+        },
+        {
+          "sids": ["82fd45b4dde6"],
+          "field": "author.importanceReason",
+          "claim": "헤세는 대립하는 두 삶의 방식을 인물로 맞세우는 구성을 여러 소설에서 반복했다",
+          "verdict": "confirmed",
+          "url": "https://de.wikipedia.org/wiki/Siddhartha_(Hermann_Hesse)",
+          "quote": "Das Werk ähnelt, trotz der dichterischen Sprache und des fremden Kulturraums, in seinem Grundaufbau anderen Entwicklungsromanen Hesses wie Demian, Der Steppenwolf, Narziß und Goldmund und Das Glasperlenspiel: Der Suchende, über sich Hinauswachsende, wird dem Stehengebliebenen gegenübergestellt, das vergeistigte dem weltlichen und sinnlichen Leben.",
+          "note": "출처는 『싯다르타』와 네 소설이 '찾는 자를 머문 자에, 정신적 삶을 세속적·감각적 삶에 맞세우는' 기본 구조를 공유한다고 말한다. 문장이 든 두 예 밖의 인물 쌍으로는 독일어 위키백과 『유리알 유희』가 'Josef Knecht, der Ordensmensch und unumstrittene Glasperlenspielmeister, und Plinio Designori, der Weltmensch, repräsentieren unterschiedliche Werdegänge und Lebensinhalte.'라고 쓴다(이번에 다시 받아 확인). 범위 주의: 브리태니커는 『유리알 유희』의 이원성을 'this time through the figure of a supremely gifted intellectual'로, 곧 한 인물을 통해 탐구한다고 쓰고, 『황야의 이리』의 갈라진 자아는 한 인물(하리 할러) 안에 있다. 따라서 '반복했다'는 성립하지만 '늘 인물 둘로 나눴다'는 성립하지 않는다. 고친 문장은 『황야의 이리』를 빼고 '늘'을 쓰지 않아 이 범위 안에 있다."
+        },
+        {
+          "sids": ["82fd45b4dde6"],
+          "field": "author.importanceReason",
+          "claim": "헤세가 다룬 대립은 심리적인 것이다(융 심리학에 관심을 두고 인간 본성의 이중성에 몰두했다)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20241218122931/https://www.britannica.com/biography/Hermann-Hesse",
+          "quote": "Hesse’s later work shows his interest in Jungian concepts of introversion and extraversion, the collective unconscious, idealism, and symbols. Hesse also came to be preoccupied with what he saw as the duality of human nature.",
+          "note": "문장의 '심리적 대립항'이라는 규정을 받치는 근거로 세웠다. 같은 항목은 바로 뒤에서 『나르치스와 골드문트』의 금욕적 지성인과 감각적 예술가의 대비를 이 이원성의 예로 든다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

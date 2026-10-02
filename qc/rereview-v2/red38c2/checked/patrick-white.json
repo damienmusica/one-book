@@ -1,0 +1,116 @@
+{
+  "plates": [
+    {
+      "id": "patrick-white",
+      "claims": [
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『보스』 1957년 에어 앤드 스포티스우드(런던)판은 478쪽으로 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL20056421M.json",
+          "quote": "\"pagination\": \"478 p. ;\"",
+          "note": "같은 기록: \"publishers\": [\"Eyre & Spottiswoode\"], \"publish_places\": [\"(London)\"], \"publish_date\": \"1957\". [check] 앞 주장('네 장편은 출간 당시 442–642쪽')의 인용 '\"pagination\":\"442 p.\"'는 하한 하나만 받쳐 범위 전체를 싣지 못했다. 합성 주장을 판본별 원자 주장으로 쪼개고, 이 자리는 보스의 영국판으로 다시 인용했다. [check] 이 세션에서 Open Library 판본 목록을 다시 받았다: 주 작품 기록 네 개(OL2988557W·OL2988556W·OL2988553W·OL2988552W)와 제목·저자 검색으로 나온 중복 작품 기록(OL254691W·OL34015278W·OL33843108W·OL31354348W·OL43042749W·OL254689W·OL37470246W·OL20546555W·OL43067830W 등)까지 모두. 쪽수가 적힌 출간 연도 판본은 보스 1957: 442·478·480·486·487, 인간의 나무 1955–56: 499·480·518, 전차를 탄 사람들 1961: 532·552·550·491, 생체 해부자 1970: 567·642로 모두 442–642 안이다. 양 끝은 보스 바이킹 1957(442)과 생체 해부자 케이프 1970(642)이 받친다. 문장의 '442–642쪽'은 한 인용이 아니라 이 판본별 주장들의 합으로 성립한다."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『보스』 1957년 바이킹(뉴욕)판은 442쪽이다 (하한)",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL6223802M.json",
+          "quote": "\"pagination\": \"442 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Viking Press\"], \"publish_places\": [\"New York\"], \"publish_date\": \"1957\", LCCN 57009493. [check] 이 세션에서 다시 받아 pagination·publishers·publish_places·publish_date가 그대로임을 확인했다. 하한."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『생체 해부자』 1970년 케이프(런던)판은 642쪽이다 (상한)",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL5320837M.json",
+          "quote": "\"pagination\": \"642 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Cape\"], \"publish_places\": [\"London\"], \"publish_date\": \"1970\". 같은 해 바이킹(뉴욕)판은 567쪽(OL5313781M). [check] 이 세션에서 다시 받아 그대로임을 확인했다. 상한."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『인간의 나무』 1955년 바이킹(뉴욕) 초판은 499쪽으로 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL6175990M.json",
+          "quote": "\"pagination\": \"499 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Viking Press\"], \"publish_places\": [\"New York\"], \"publish_date\": \"1955\". [check] 이 세션에서 다시 받아 그대로임을 확인했다."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『전차를 탄 사람들』 1961년 에어 앤드 스포티스우드(런던)판은 552쪽으로 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL14183065M.json",
+          "quote": "\"pagination\": \"552 ;\"",
+          "note": "같은 기록: \"publishers\": [\"Eyre & Spottiswoode\"], \"publish_places\": [\"London\"], \"publish_date\": \"1961\". [check] 앞 주장은 바이킹 532쪽까지 함께 주장했으나 인용은 552쪽 하나만 싣는다. 이 판본으로 좁히고 바이킹판은 따로 추가했다."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "화이트의 서술은 과거와 현재, 여러 인물의 시점 사이를 오간다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Patrick_White",
+          "quote": "His narratives shift seamlessly between past and present, inner experience and outer awareness, and the point of view of different characters.",
+          "note": "이번 세션에서 위키텍스트(action=raw)로 다시 받았다. 근거는 Kiernan 1980 p.93, Williams 1993 p.167이고, 바로 뒤 Williams 인용은 'the point of view of the narrative in any White novel changes continually, rapidly and disconcertingly'라고 해 네 장편 모두에 대한 진술로 읽어도 무리가 없다. [check] 이 세션에서 action=raw로 다시 받아 문장이 그대로 있음을 확인했다(Kiernan 1980 p.93, Williams 1993 p.167 각주). 'His narratives'는 화이트 서사 일반에 대한 진술이라 네 장편의 서술로 읽어도 범위가 넘치지 않는다."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『전차를 탄 사람들』 1961년 바이킹(뉴욕)판은 532쪽으로 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL5826206M.json",
+          "quote": "\"pagination\": \"532 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Viking Press\"], \"publish_places\": [\"New York\"], \"publish_date\": \"1961\". [check] 추가: 앞 5번 주장에서 떼어 냈다."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『생체 해부자』 1970년 바이킹(뉴욕)판은 567쪽으로 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL5313781M.json",
+          "quote": "\"pagination\": \"567 p.\"",
+          "note": "같은 기록: \"publishers\": [\"Viking Press\"], \"publish_places\": [\"New York\"], \"publish_date\": \"1970\". [check] 추가: 출간 연도 판본을 빠짐없이 대기 위해."
+        },
+        {
+          "sids": [
+            "5f2ecb500ddf"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『인간의 나무』 1956년 에어 앤드 스포티스우드(런던)판은 499쪽으로 범위 안이다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/books/OL18723719M.json",
+          "quote": "\"pagination\": \"499p.,21cm\"",
+          "note": "같은 기록: \"publishers\": [\"Eyre & Spottiswoode\"], \"publish_places\": [\"London\"], \"publish_date\": \"1956\". [check] 추가: 출간 연도 판본을 빠짐없이 대기 위해. 같은 해 펭귄판 기록(480·499)과 중복 작품 기록의 518쪽도 범위 안이다."
+        }
+      ],
+      "noClaim": {},
+      "check": {
+        "kept": 4,
+        "requoted": 2,
+        "downgraded": 0,
+        "added": 3,
+        "noClaimConverted": 0
+      }
+    }
+  ]
+}

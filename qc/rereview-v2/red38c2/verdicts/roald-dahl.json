@@ -1,0 +1,193 @@
+{
+  "plates": [
+    {
+      "id": "roald-dahl",
+      "claims": [
+        {
+          "sids": [
+            "40622de14374"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달의 아동물은 대개 아이의 시점에서 서술된다(아이 편에 붙은 화자)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl's children's works are usually told from the point of view of a child.",
+          "note": "출처는 '아이의 시점'이라고 한다. '아이 편에 붙은 화자'는 그 시점을 옮긴 표현으로 읽었다. Wales Arts Review(벤 스크리치)도 달이 'involves children directly in the process of telling'한다고 적는다."
+        },
+        {
+          "sids": [
+            "40622de14374"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 우스꽝스럽게 과장된(그로테스크한) 악인을 잘 그렸다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "But Dahl does of course ‘do’ grotesquely ‘bad’ characters very well too … and this idea of the ‘humourous grotesque’ is, I would argue, one of the main elements Dahl drew upon from earlier writers of cautionary tales.",
+          "note": "같은 문단 안에서 줄였다. 문장은 이 장치를 경고담을 깬 수단으로 말하지 않고 '썼다'고만 하므로, 출처가 이를 앞선 경고담에서 물려받은 요소로 보는 것과 충돌하지 않는다."
+        },
+        {
+          "sids": [
+            "40622de14374"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 낱말을 발명해 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl was also famous for his inventive, playful use of language, which was a key element to his writing. He invented over 500 new words by scribbling down his words before swapping letters around and adopting spoonerisms and malapropisms."
+        },
+        {
+          "sids": [
+            "40622de14374"
+          ],
+          "field": "author.importanceReason",
+          "claim": "『찰리와 초콜릿 공장』에서 움파룸파는 아이가 사고를 당할 때마다 그 잘못을 노래한다(삽입된 노래)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "The Oompa-Loompas sing about the children's misbehaviour and ejections each time disaster strikes."
+        },
+        {
+          "sids": [
+            "40622de14374"
+          ],
+          "field": "author.importanceReason",
+          "claim": "그 움파룸파의 논평이 경고·불복종·처벌과 함께 되풀이되어 책이 희극적 경고담의 형식을 띤다(교훈시처럼 삽입된 노래)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "Augustus and Veruca are used to illustrate immature or impulsive behaviour that is corrected through punishment. The recurring pattern of warning, disobedience, punishment and Oompa-Loompa commentary gives the book the form of a comic cautionary tale.",
+          "note": "인용은 'commentary'라고 하고, 그 논평이 노래라는 점은 바로 앞 항목('The Oompa-Loompas sing …')이 받친다."
+        },
+        {
+          "sids": [
+            "5029dce075ef"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 훈육(교화)의 틀을 버리지 않은 채 경고담의 전통적 어조와 구조를 깼다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.walesartsreview.org/redux-the-cautionary-tale-and-roald-dahl/",
+          "quote": "However, as we have seen, Dahl also broke with the traditional tone and structure of this genre, innovating upon, and injecting into it, a new sense of raucous energy. In his children’s books, Dahl does engage in the ‘civilising’ process he describes, but his books are at their most mesmerisingly alive when he disrupts and distorts such a project",
+          "note": "'this genre'는 같은 문단 앞 문장의 'cautionary tales with their inherent sense of the moral and the didactic'이다. 이전 판은 앞 문장의 네 장치를 '붙여' 깼다고 해 수단을 잘못 달았으나, 고친 문장은 수단을 말하지 않는다."
+        },
+        {
+          "sids": [
+            "5029dce075ef"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달은 성인 독자를 위한 기괴한(잔혹한) 단편도 썼다 — 아동물과 같은 잔혹함을 성인 단편에서도 썼다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl also had a successful parallel career as the writer of macabre adult short stories, which often blended humour and innocence with surprising plot twists.",
+          "note": "같은 항목 도입부는 아동물도 'unsentimental, macabre, often darkly comic mood'로 알려졌다고 적어, 두 갈래에 같은 'macabre'가 쓰인다. Wales Arts Review도 성인 단편집 『Kiss Kiss』의 「돼지」가 아동물의 경고담 발상('something bad happens to a good child')을 더 밀고 나간다고 적는다. 브리태니커(웨이백 사본)는 『Someone like You』를 'a collection of macabre stories for adults'라 부른다."
+        },
+        {
+          "sids": [
+            "5029dce075ef"
+          ],
+          "field": "author.importanceReason",
+          "claim": "달의 성인 단편은 뜻밖의 결말(마지막 한 줄의 반전)로 알려져 있다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl's short stories are known for their unexpected endings, and his children's books for their unsentimental, macabre, often darkly comic mood, featuring villainous adult enemies of the child characters.",
+          "note": "출처는 '뜻밖의 결말'이라고 할 뿐 모든 단편이 문자 그대로 마지막 한 줄에서 뒤집힌다고 하지는 않는다. '마지막 한 줄의 반전'은 반전 결말의 관용 표현으로 읽었다. 『Kiss Kiss』의 「하숙집 여주인」은 실제로 마지막 대사에서 끝난다(영어 위키백과 The_Landlady_(short_story): 'The story ends as the landlady replies, \"No, my dear. Only you.\"')."
+        },
+        {
+          "sids": [
+            "a6a4b4498a97"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "『찰리와 초콜릿 공장』에서 황금 티켓은 다섯 장이다(다섯 아이)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "The next day, the newspaper announces that Wonka has hidden five Golden Tickets in Wonka Bars; the finders of these tickets will be invited to a tour of the factory and receive a lifetime supply of chocolate."
+        },
+        {
+          "sids": [
+            "a6a4b4498a97"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "찰리를 뺀 네 아이가 각자의 악덕(충동)대로 공장에서 사라진다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "During the tour, the four other children give in to their respective impulses and are ejected from the factory in darkly comical ways",
+          "note": "'악덕'은 같은 항목 해석 절이 네 아이를 'excessive desire: Augustus Gloop with gluttony, Veruca Salt with entitlement, Violet Beauregarde with competitive consumption, and Mike Teavee with television-mediated appetite'와 짝짓는 것에 맞는다. '사라진다'는 견학에서 쫓겨난다는 뜻으로 읽었다 — 네 아이는 결말에서 트럭을 타고 공장을 떠나는 모습으로 다시 나온다."
+        },
+        {
+          "sids": [
+            "a6a4b4498a97"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "결국 찰리만 남는다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "With only Charlie remaining, Wonka congratulates him for \"winning\" the factory."
+        },
+        {
+          "sids": [
+            "a6a4b4498a97"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "이 책에서 네 아이의 악덕(충동적 행동)에는 처벌이 따르고, 그 반복이 책의 형식이 된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+          "quote": "Augustus and Veruca are used to illustrate immature or impulsive behaviour that is corrected through punishment. The recurring pattern of warning, disobedience, punishment and Oompa-Loompa commentary gives the book the form of a comic cautionary tale.",
+          "note": "같은 항목의 다음 문단도 탤벗을 들어 'unpleasant children receive exaggerated comeuppances'라고 적는다."
+        },
+        {
+          "sids": [
+            "a6a4b4498a97"
+          ],
+          "field": "author.readingEntryReason",
+          "claim": "'악덕에는 응징'이 달 아동물 전반에 되풀이되는 규칙이다('달의 규칙')",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Dahl also features characters who are very fat, usually children. … All of these characters (with the possible exception of Bruce Bogtrotter) are either villains or simply unpleasant gluttons. They are usually punished for this",
+          "note": "출처는 탐식이라는 한 악덕이 여러 책(『찰리』·『마틸다』·『마녀를 잡아라』·『제임스』·『멋진 여우 씨』)에서 대개 처벌받는다고 적는다('usually'). 같은 항목의 아만다 크레이그 인용 'He was unequivocal that it is the good, young and kind who triumph over the old, greedy and the wicked.'도 규칙처럼 말한다 — 다만 크레이그의 '어린 쪽이 이긴다'는 『찰리』의 네 아이(어린 쪽이 응징받는다)에 그대로 맞지 않으므로 탐식-처벌 대목을 주 인용으로 썼다."
+        },
+        {
+          "sids": [
+            "b06e4ad2a5b2"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "제임스는 부모를 잃고(고아가 되어) 학대하는 두 이모에게 맡겨진다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/James_and_the_Giant_Peach",
+          "quote": "When he is four years old, a rhinoceros escapes from London Zoo and eats James' parents whilst they are on a shopping trip in London. He ends up in the care of his two cruel aunts, Aunt Spiker and Aunt Sponge, who physically and verbally abuse him",
+          "note": "같은 항목 도입부도 'The plot centres on an orphan boy who enters a gigantic, magical peach'라고 적는다."
+        },
+        {
+          "sids": [
+            "b06e4ad2a5b2"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "제임스는 거대한 복숭아를 타고 이모들에게서 벗어난다(탈출)",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/James_and_the_Giant_Peach",
+          "quote": "The next day, Centipede cuts the stem of the peach, causing it to roll away and crush James' aunts to death. … it reaches the sea and is surrounded by ravenous sharks. James uses Miss Spider and Silkworm to make threads",
+          "note": "바로 앞 문단은 제임스가 복숭아 씨 속 방으로 들어가고, 벌레들이 이모들의 언덕을 떠나기를 꿈꾼다고 적는다('express their dreams of leaving Spiker and Sponge's hill'). 이모들은 굴러가는 복숭아에 깔려 죽으므로 '탈출'은 살아 있는 이모에게서 달아난다는 뜻이 아니라 복숭아를 타고 이모들의 집을 떠난다는 뜻으로 읽었다 — 그 범위에서 맞다."
+        },
+        {
+          "sids": [
+            "b06e4ad2a5b2"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "『제임스와 슈퍼 복숭아』(1961)는 달이 아동물로 돌아선 초기의 작품이다(초기작)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2025/https://www.britannica.com/biography/Roald-Dahl",
+          "quote": "Dahl then turned primarily to writing the children’s books that would give him lasting fame. … James and the Giant Peach (1961; film 1996), written for his own children, was a popular success",
+          "note": "영어 위키백과는 달의 첫 아동서가 『The Gremlins』(1943)라고 적는다('His first children's book was The Gremlins, published in 1943'). 고친 문장은 '처음'이 아니라 '초기작'이라고만 하므로 받쳐진다."
+        },
+        {
+          "sids": [
+            "b06e4ad2a5b2"
+          ],
+          "field": "work:roald-dahl--james-and-the-giant-peach.significance",
+          "claim": "'잔혹한 어른 대 아이' 구도가 이 작품에 있고, 이후 달의 여러 아동물에서 되풀이된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Roald_Dahl",
+          "quote": "Critics have commented on the similarities between the Dursley family from Harry Potter and the nightmarish guardians seen in many of Dahl's books, such as Aunt Sponge and Aunt Spiker from James and the Giant Peach, Grandma from George's Marvellous Medicine, and the Wormwoods from Matilda.",
+          "note": "브리태니커(웨이백 사본)도 'His villains were often malevolent adults who imperiled precocious and noble child protagonists.'라고 적고, 『마틸다』를 1988년 작으로 든다 — 1961년 작인 이 책 뒤의 작품이다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

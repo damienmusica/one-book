@@ -1,0 +1,118 @@
+{
+  "plates": [
+    {
+      "id": "abai-qunanbaiuly",
+      "claims": [
+        {
+          "sids": [
+            "9e01871db227"
+          ],
+          "field": "author.importanceReason",
+          "claim": "생전에 인쇄된 작품은 몇 편뿐이었다",
+          "verdict": "confirmed",
+          "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D1%82%D0%B0%D0%BD%D1%83",
+          "quote": "Абайдың көзі тірісінде жарық көрген шығармалары бірлі-екілі ғана екенін",
+          "note": "「бірлі-екілі ғана」는 「한두 편뿐」이다. 「몇 편뿐」은 이보다 넓지 않은 표현이라 충돌하지 않고, WDL 해설도 「Only a few of his poems were published during Abai’s life」라고 적는다(같은 세션에서 가져옴)."
+        },
+        {
+          "sids": [
+            "9e01871db227"
+          ],
+          "field": "author.importanceReason",
+          "claim": "첫 작품집은 1909년에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20201019021113/https://www.wdl.org/en/item/7321/",
+          "quote": "Only a few of his poems were published during Abai’s life. This is his first collection, Qazaq Aqyny Ibrahim Qunanbay Oghlynyng Olangy (Verses of the Kazakh poet Abai Ibrahim Kunanbayev), published in Saint Petersburg in 1909.",
+          "note": "kk.wiki 「Абайтану」도 「1909 ж. жарық көрген Абай шығармаларының тұңғыш жинағын」이라고 적는다."
+        },
+        {
+          "sids": [
+            "9e01871db227"
+          ],
+          "field": "author.importanceReason",
+          "claim": "1909년 작품집은 아바이 사후(1904년 사망)에 나왔다",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/20201019021113/https://www.wdl.org/en/item/7321/",
+          "quote": "Abai (Ibrahim) Kunanbayev (1845–1904) was a Kazakh poet and teacher",
+          "note": "kk.wiki 「Абайтану」는 작품을 모아 인쇄를 준비하는 일이 시인이 죽은 뒤 곧 시작되었다고 적는다(「ақын қайтыс болған соң ұзамай-ақ қолға алынғанын」)."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」은 주제가 여러 갈래다",
+          "verdict": "confirmed",
+          "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+          "quote": "Жалпы саны қырық бес бөлек шығармадан тұратын Абайдың қара сөздерінің тақырыбы жағынан бір бағытта жазылмаған, әр алуан."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 친족 간 반목을 나무라는 편이 있다(제3편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "Why do the Kazakhs look at each other like wolves? Why do not they have empathy to relatives, why is there no truth?",
+          "note": "adebiportal 영역본 제3편 첫머리. 같은 편은 이어서 「We began to feud, fight; we divided into groups」라고 적는다."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 게으름을 나무라는 편이 있다(제3편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "When and where from did idleness and laziness come into the blood of the proud steppe peoples? Great sages have noticed long ago: each idler is weak-willed and cowardly"
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 노동의 근거를 따지는 편이 있다(제10편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "the Almighty gave them the power to work, and the intelligence to master the science. But the power is not always used for the honest work, and the mind is often wasted in vain.",
+          "note": "영역본 제10편. 같은 편은 이어서 부를 지식을 얻는 데 쓰라고 한다(「Use it to get the knowledge.」)."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 지식의 근거를 따지는 편이 있다(제32편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "First you have to understand for what exactly you need the science. Not for enrichment or acquisition of expensive things, not for the deal that will bring you profits or position in society, strive to science.",
+          "note": "영역본 제32편."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」에는 신앙의 근거를 따지는 편이 있다(제13편)",
+          "verdict": "confirmed",
+          "url": "https://adebiportal.kz/kz/translation/view/595",
+          "quote": "The first – after taking iman, one knows how to protect and strengthen it with reasonable arguments. It is a conscious faith",
+          "note": "영역본 제13편."
+        },
+        {
+          "sids": [
+            "5e04c88a8fdd"
+          ],
+          "field": "work:abai-qunanbaiuly--qara-sozder.significance",
+          "claim": "「잠언집」은 카자흐 논설 산문의 고전으로 꼽힌다",
+          "verdict": "confirmed",
+          "url": "https://kk.wikipedia.org/wiki/%D0%90%D0%B1%D0%B0%D0%B9%D0%B4%D1%8B%D2%A3_%D2%9B%D0%B0%D1%80%D0%B0_%D1%81%D3%A9%D0%B7%D0%B4%D0%B5%D1%80%D1%96",
+          "quote": "Абаевские назидательное рассуждения представляют классический образец нациальной публицистической прозы.",
+          "note": "kk.wiki가 『아바이 백과』를 출처로 인용한 페티소프(М. И. Фетисов)의 평가다. 「нациальной」(민족의)는 문맥상 카자흐 민족을 가리킨다. 같은 문단은 논설적 장르에 잠언집만이 아니라 시도 든다고 덧붙이지만, 문장은 「처음」이나 「유일」을 주장하지 않아 충돌하지 않는다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

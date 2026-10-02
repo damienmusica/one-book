@@ -1,0 +1,43 @@
+{
+  "plates": [
+    {
+      "id": "miguel-de-cervantes",
+      "claims": [
+        {
+          "sids": [
+            "1229756e84aa"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "존 러더퍼드의 『돈키호테』 영역본은 1,000쪽이 넘는다",
+          "verdict": "confirmed",
+          "url": "https://openlibrary.org/isbn/0142437239.json",
+          "quote": "\"pagination\": \"xl,1023p. ;\", \"title\": \"The ingenious hidalgo Don Quixote de la Mancha\", \"number_of_pages\": 1023, … \"by_statement\": \"by Miguel de Cervantes Saavedra, translated by John Rutherford",
+          "note": "다시 받아 읽었다. Penguin Putnam(뉴욕) 2003년판은 본문 1,023쪽에 앞부분 로마 숫자 xl쪽이 따로 있다. 같은 번역의 다른 기록도 모두 1,000쪽을 넘는다. Open Library의 Penguin Books Ltd 2003년판(https://openlibrary.org/isbn/0140449094.json)은 \"number_of_pages\": 1056이고, 출판사 페이지(https://www.penguinrandomhouse.com/books/286862/don-quixote-by-miguel-de-cervantes-saavedra/9780142437230/)는 \"name\":\"Don Quixote\",\"numberOfPages\":1072라고 적는다. 판본마다 쪽수는 다르지만 '1,000쪽이 넘는다'는 셋 다에서 성립한다. 같은 출판사 페이지는 러더퍼드를 번역자이자 주석자로 올린다(roleName \"Translated by\", \"Notes by\"). 영역본에 주석이 딸려 있다는 뜻이다."
+        },
+        {
+          "sids": [
+            "1229756e84aa"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『돈키호테』는 기사도 소설과 목가 소설을 겨냥한다",
+          "verdict": "confirmed",
+          "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha",
+          "quote": "Se encuentran en la obra críticas a los libros de caballerías, las novelas pastoriles",
+          "note": "렌더링된 문서와 위키텍스트를 다시 받았다. 인용은 각주 번호 [25] 앞에서 끊었다. 같은 문장은 로페 데 베가가 만든 새 연극 공식에 대한 비판도 함께 든다. 문장에서 '관습'이라는 말은 비판 대상이 된 두 장르의 약속을 가리키는 수준이라, 출처가 말하는 범위를 넘지 않는다."
+        },
+        {
+          "sids": [
+            "1229756e84aa"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "『돈키호테』는 기사도 소설의 패러디로 구상되었다(농담이 겨냥하는 과녁)",
+          "verdict": "confirmed",
+          "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/Don-Quixote-novel",
+          "quote": "Originally conceived as a parody of the chivalric romances that had long been in literary vogue",
+          "note": "britannica.com을 직접 열면 Cloudflare 확인 화면('Just a moment...')이 나와서 우회하지 않고 Wayback 사본(2024-12-29 스냅샷)으로 읽었다. 이 인용은 농담의 과녁이 기사도 소설이라는 데까지만 받친다. '문장과 사건 자체는 어렵지 않다'와 '관습을 주석으로 채워야 농담이 농담으로 읽힌다'는 독서 판단이다. 이를 사실로 진술한 출처는 찾지 않았고 확인하지도 않았다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}

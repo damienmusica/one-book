@@ -1,0 +1,75 @@
+{
+  "plates": [
+    {
+      "id": "charles-dickens",
+      "claims": [
+        {
+          "sids": [
+            "5e38be10d7c3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "디킨스 장편은 등장인물이 많다",
+          "verdict": "confirmed",
+          "url": "https://lithub.com/10-contemporary-dickensian-novels/",
+          "quote": "one that features “a large cast of vividly drawn characters, some of them grotesques with comically descriptive names and odd tics of speech and behavior",
+          "note": "Lit Hub(에밀리 템플, 2019)가 인용한 프랜신 프로즈의 '디킨스적' 소설 정의다. 디킨스 소설에서 뽑아낸 특징을 말하지만 디킨스 장편 하나하나를 센 것은 아니다. en.wikipedia Bleak_House도 'The novel has many characters and several subplots'라 적는다(이번에 다시 받아 확인). '중반 이후 … 지속적 독서가 필요하다'는 독서 조언이라 사실 주장으로 재지 않았다."
+        },
+        {
+          "sids": [
+            "5e38be10d7c3"
+          ],
+          "field": "author.difficultyReason",
+          "claim": "디킨스 장편은 곁줄거리가 서로 얽혀 있다",
+          "verdict": "confirmed",
+          "url": "https://lithub.com/10-contemporary-dickensian-novels/",
+          "quote": "one that features “a large cast of vividly drawn characters … numerous and ingeniously interconnected subplots",
+          "note": "같은 프로즈 정의의 한 문장 안에서 생략했다. en.wikipedia Charles_Dickens의 각주 인용(하우섬, Cambridge Companion to the History of the Book)도 분책 연재가 'a plot and sub-plot motif that would come to typify the novel structure'를 낳았다고 적는다."
+        },
+        {
+          "sids": [
+            "1cef0bf199bc"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "고아 핍이 주인공이며 전편이 1인칭으로 서술된다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "quote": "The novel is a bildungsroman and depicts the education of an orphan nicknamed Pip. It is Dickens' second novel, after David Copperfield, to be fully narrated in the first person."
+        },
+        {
+          "sids": [
+            "1cef0bf199bc"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "신분 상승, 그 자금(재산)의 출처, 거짓 가치의 허망함이 줄거리의 축이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "quote": "Pip's story is told in three stages: his childhood and early youth in Kent, where he dreams of rising above his humble station; his time in London after receiving \"great expectations\"; and then finally his disillusionment on discovering the source of his fortune, followed by his slow realisation of the vanity of his false values.",
+          "note": "'자금의 출처'는 원문의 'source of his fortune'(재산의 출처)에 대응한다."
+        },
+        {
+          "sids": [
+            "1cef0bf199bc"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "성인 핍이 어린 시절을 되짚는 회고 서술이다",
+          "verdict": "confirmed",
+          "url": "https://en.wikipedia.org/wiki/Great_Expectations",
+          "quote": "Pip—as both narrator and protagonist—recounts with hindsight the story of the young boy he was",
+          "note": "문서는 이 분석을 폴 피커럴에게 귀속한다('according to Paul Pickerel's analysis')."
+        },
+        {
+          "sids": [
+            "4b98a72b46b1"
+          ],
+          "field": "work:charles-dickens--great-expectations.significance",
+          "claim": "버나드 쇼는 『위대한 유산』을 디킨스의 '가장 빈틈없이 완벽한 책'이라 했다",
+          "verdict": "confirmed",
+          "url": "https://www.penguinrandomhouse.com/books/326623/great-expectations-by-charles-dickens/9780451531186/readers-guide/",
+          "quote": "Playwright George Bernard Shaw felt that Great Expectations was Dickens’s “most compactly perfect book.”",
+          "note": "최상급의 범위(디킨스의 책들 가운데)가 문장의 '디킨스의'와 맞는다. 스미스 칼리지 도서관 전시 해설도 쇼가 1937년판 서문에서 'called this his \"most compactly perfect book.\"'이라 적고, en.wikipedia Great_Expectations는 쇼가 구성을 두고 'compactly perfect'라 했다고 적는다(데이비드 트로터 펭귄판 서문 재인용). 쇼 서문 원문은 열람하지 못했다. 'compactly'를 '빈틈없이'로 옮긴 것은 구성이 촘촘하다는 뜻으로 무리 없다."
+        }
+      ],
+      "noClaim": {}
+    }
+  ]
+}
